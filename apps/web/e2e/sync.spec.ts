@@ -57,6 +57,7 @@ test("progress follows the learner to a new device and survives clearing it", as
   await b.getByLabel("מייל").fill(email);
   await b.getByLabel("סיסמה").fill(password);
   await b.getByRole("button", { name: "התחברות", exact: true }).click();
+  await expect(b).toHaveURL(/\/settings$/, { timeout: 15_000 });
   await synced(b);
   await b.goto("/");
   await expect(b.getByRole("link", { name: /להמשיך: מילות נימוס/ })).toBeVisible();

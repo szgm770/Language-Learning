@@ -12,6 +12,7 @@ import {
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { BackLink, Screen } from "@/components/ui";
+import { cloudEnabled } from "@/lib/env";
 import { firebaseAuth } from "@/lib/firebase";
 
 const ERRORS: Record<string, string> = {
@@ -28,14 +29,14 @@ const message = (err: unknown) =>
 
 export default function Login() {
   const router = useRouter();
-  const auth = firebaseAuth();
   const [mode, setMode] = useState<"signin" | "signup">("signin");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [busy, setBusy] = useState(false);
   const [note, setNote] = useState<{ ok: boolean; text: string } | null>(null);
 
-  if (!auth) {
+  // Decided from build-time settings, so the server and the browser render the same thing.
+  if (!cloudEnabled) {
     return (
       <Screen className="gap-6 pt-2">
         <BackLink href="/settings" />
@@ -44,6 +45,8 @@ export default function Login() {
       </Screen>
     );
   }
+
+  const auth = () => firebaseAuth()!;
 
   async function run(fn: () => Promise<void>) {
     setBusy(true);
@@ -62,10 +65,10 @@ export default function Login() {
     void run(async () => {
       if (mode === "signup") {
         if (password.length < 8) throw new FirebaseError("auth/weak-password", "");
-        const cred = await createUserWithEmailAndPassword(auth, email, password);
+        const cred = await createUserWithEmailAndPassword(auth(), email, password);
         await sendEmailVerification(cred.user).catch(() => undefined);
       } else {
-        await signInWithEmailAndPassword(auth, email, password);
+        await signInWithEmailAndPassword(auth(), email, password);
       }
       router.push("/settings");
     });
@@ -83,7 +86,7 @@ export default function Login() {
         disabled={busy}
         onClick={() =>
           run(async () => {
-            await signInWithPopup(auth, new GoogleAuthProvider());
+            await signInWithPopup(auth(), new GoogleAuthProvider());
             router.push("/settings");
           })
         }
@@ -129,7 +132,7 @@ export default function Login() {
             onClick={() =>
               run(async () => {
                 if (!email) throw new FirebaseError("auth/invalid-email", "");
-                await sendPasswordResetEmail(auth, email);
+                await sendPasswordResetEmail(auth(), email);
                 setNote({ ok: true, text: "אם יש חשבון עם המייל הזה, שלחנו אליו קישור לאיפוס סיסמה." });
               })
             }

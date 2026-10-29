@@ -1,12 +1,13 @@
 "use client";
 
 import { useState } from "react";
-import { authedFetch, currentUser, firebaseAuth } from "@/lib/firebase";
+import { cloudEnabled } from "@/lib/env";
+import { authedFetch, currentUser } from "@/lib/firebase";
 
 /** "My answer should have been accepted" — sent to the editors when signed in. */
 export function ReportProblem({ courseId, exerciseId, answer }: { courseId: string; exerciseId: string; answer: string }) {
   const [state, setState] = useState<"idle" | "sent" | "unavailable">("idle");
-  if (!firebaseAuth()) return null;
+  if (!cloudEnabled) return null;
 
   async function send() {
     if (!(await currentUser())) return setState("unavailable");
