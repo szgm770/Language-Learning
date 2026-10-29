@@ -12,7 +12,7 @@
 - **חזרה מרווחת:** אלגוריתם FSRS. כל מילה חוזרת בדיוק כשהיא מתחילה להישכח.
 - **עובד offline:** כל ההתקדמות נשמרת קודם במכשיר (IndexedDB), והשיעורים נשמרים לשימוש בלי חיבור.
 - **סנכרון בטוח לענן:** המכשיר שולח רק פעולות, אף פעם לא "מצב". השרת רק מוסיף, לא מעדכן ולא מוחק. מכשיר חדש או ריק לא יכול למחוק נתונים בענן.
-- **אבטחה:** הרשאות ברמת שורה (RLS) על כל טבלה, טבלת תפקידים נפרדת, יומן ביקורת, ובלם בטיחות בשרת.
+- **אבטחה:** הדפדפן לא ניגש לבסיס הנתונים בכלל. כל קריאה וכתיבה עוברת בשרת, שבודק את ההתחברות, מאמת כל פעולה ומפעיל בלם בטיחות.
 - **נוח במובייל ובמחשב:** ממשק עברי מימין לשמאל, מצב כהה, קיצורי מקלדת (Enter לבדיקה, 1–4 לבחירה), התקנה כאפליקציה.
 
 ## מבנה הפרויקט
@@ -23,8 +23,8 @@ packages/content-schema סכמת התוכן ובדיקת תקינות
 packages/engine         בדיקת תשובות וחזרה מרווחת
 packages/sync           פעולות סנכרון, כללי מיזוג ובלם בטיחות
 apps/web                האתר (Next.js)
-supabase/migrations     בסיס הנתונים והרשאות
-supabase/tests          בדיקות הרשאות
+apps/web/src/server     שרת הסנכרון (Firestore)
+firebase/               חוקי האבטחה של Firestore
 ```
 
 ## הרצה מקומית
@@ -37,22 +37,28 @@ pnpm content:build      # בודק את התוכן ומכין אותו לאתר
 pnpm dev                # http://localhost:3000
 ```
 
-בלי הגדרות Supabase האתר עובד במצב אורח: הכל נשמר במכשיר, וההתחברות והסנכרון כבויים.
+בלי הגדרות Firebase האתר עובד במצב אורח: הכל נשמר במכשיר, וההתחברות והסנכרון כבויים.
 
 ## בדיקות
 
 ```bash
 pnpm check              # טיפוסים, בדיקות יחידה ובדיקות תוכן
 pnpm build && pnpm --filter web e2e      # בדיקות מקצה לקצה בטלפון ובמחשב
-DATABASE_URL=postgres://postgres@localhost:5432/postgres scripts/test-db.sh   # בסיס נתונים והרשאות
+pnpm exec firebase emulators:exec --only firestore,auth "pnpm test:emulator"   # חוקי אבטחה ו־Firestore (דרוש Java)
 ```
 
-## חיבור לענן (Supabase, חינם)
+## חיבור לענן (Firebase, חינם)
 
-1. פותחים פרויקט ב־[supabase.com](https://supabase.com) (שכבה חינמית, בלי כרטיס אשראי).
-2. מריצים את `supabase/migrations/*.sql` ב־SQL Editor.
-3. ב־Authentication: מפעילים Email, ואם רוצים גם Google. מוסיפים את כתובת האתר ל־Redirect URLs (למשל `https://your-site.vercel.app/auth/callback`).
-4. מעתיקים את `apps/web/.env.example` ל־`apps/web/.env.local` וממלאים את `NEXT_PUBLIC_SUPABASE_URL` ו־`NEXT_PUBLIC_SUPABASE_ANON_KEY`. ב־Vercel מגדירים את אותם משתנים.
+החבילה החינמית (Spark) לא דורשת כרטיס אשראי, והפרויקט לא מוקפא כשאין פעילות.
+
+1. ב־[console.firebase.google.com](https://console.firebase.google.com) יוצרים פרויקט (אפשר לכבות Google Analytics).
+2. **Firestore Database** → Create database → Production mode → אזור `eur3` או `europe-west1`. ב־Rules מדביקים את `firebase/firestore.rules`.
+3. **Authentication** → Get started → מפעילים Email/Password ו־Google. ב־Settings → Authorized domains מוסיפים את כתובת האתר ב־Vercel.
+4. **Project settings → General → Your apps** → מוסיפים Web app ומעתיקים את `apiKey`, `authDomain`, `projectId`, `appId`.
+5. **Project settings → Service accounts** → Generate new private key. זה קובץ סודי: מדביקים את התוכן שלו כשורה אחת במשתנה `FIREBASE_SERVICE_ACCOUNT` ב־Vercel בלבד.
+6. ממלאים את המשתנים לפי `apps/web/.env.example` ב־Vercel (ולפיתוח מקומי ב־`apps/web/.env.local`).
+
+מכסות חינמיות שכדאי להכיר: 20,000 כתיבות ו־50,000 קריאות ביום ב־Firestore. שיעור אחד כותב בערך 15 פעולות.
 
 ## הוספת תוכן
 

@@ -1,6 +1,6 @@
 import type { NextConfig } from "next";
 
-const supabase = process.env.NEXT_PUBLIC_SUPABASE_URL ?? "";
+const authDomain = process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN ?? "";
 
 /**
  * Security headers for every response.
@@ -9,12 +9,17 @@ const supabase = process.env.NEXT_PUBLIC_SUPABASE_URL ?? "";
  */
 const csp = [
   "default-src 'self'",
-  "script-src 'self' 'unsafe-inline'" + (process.env.NODE_ENV === "development" ? " 'unsafe-eval'" : ""),
+  // apis.google.com: the Google sign-in popup helper.
+  "script-src 'self' 'unsafe-inline' https://apis.google.com" + (process.env.NODE_ENV === "development" ? " 'unsafe-eval'" : ""),
   "style-src 'self' 'unsafe-inline'",
   "img-src 'self' data: blob:",
   "font-src 'self' data:",
   "media-src 'self' blob:",
-  `connect-src 'self'${supabase ? ` ${supabase} ${supabase.replace("https://", "wss://")}` : ""}`,
+  // Firebase Auth endpoints.
+  "connect-src 'self' https://identitytoolkit.googleapis.com https://securetoken.googleapis.com https://www.googleapis.com" +
+    (process.env.NEXT_PUBLIC_FIREBASE_AUTH_EMULATOR ? ` ${process.env.NEXT_PUBLIC_FIREBASE_AUTH_EMULATOR}` : ""),
+  // The sign-in helper frame Firebase opens on the project's auth domain.
+  `frame-src https://accounts.google.com${authDomain ? ` https://${authDomain}` : ""}`,
   "worker-src 'self'",
   "manifest-src 'self'",
   "object-src 'none'",

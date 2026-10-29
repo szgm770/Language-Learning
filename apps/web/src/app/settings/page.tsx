@@ -8,7 +8,7 @@ import { db } from "@/lib/db";
 import { cloudEnabled } from "@/lib/env";
 import { uuidv7 } from "@/lib/ids";
 import { clearLocalData, getDeviceId, record, useLearner } from "@/lib/store";
-import { supabase } from "@/lib/supabase/client";
+import { currentUser } from "@/lib/firebase";
 import { resolveMerge, signOut, syncNow, useSyncStatus } from "@/lib/sync-client";
 
 function save(field: SettingField, value: string | number | boolean | null) {
@@ -46,7 +46,7 @@ function Account() {
   const [email, setEmail] = useState<string | null>(null);
   const [clearOnSignOut, setClearOnSignOut] = useState(false);
   useEffect(() => {
-    void supabase()?.auth.getUser().then(({ data }) => setEmail(data.user?.email ?? null));
+    void currentUser().then((u) => setEmail(u?.email ?? null));
   }, [status.kind]);
 
   if (!cloudEnabled) {

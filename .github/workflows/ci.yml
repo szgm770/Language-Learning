@@ -13,14 +13,6 @@ jobs:
   check:
     runs-on: ubuntu-latest
     timeout-minutes: 20
-    services:
-      postgres:
-        image: postgres:16
-        env:
-          POSTGRES_PASSWORD: postgres
-        ports: ["5432:5432"]
-        options: >-
-          --health-cmd pg_isready --health-interval 5s --health-timeout 5s --health-retries 10
     steps:
       - uses: actions/checkout@v4
       - uses: pnpm/action-setup@v4
@@ -29,26 +21,56 @@ jobs:
           node-version-file: .nvmrc
           cache: pnpm
       - run: pnpm install --frozen-lockfile
-
       - name: Content is valid
         run: pnpm content:build
       - name: Types
         run: pnpm typecheck
       - name: Unit and property tests
         run: pnpm test
-      - name: Database schema and row-level security
-        run: scripts/test-db.sh
-        env:
-          DATABASE_URL: postgres://postgres:postgres@localhost:5432/postgres
       - name: Build
         run: pnpm build
-
       - name: Install browser
         run: pnpm --filter web exec playwright install --with-deps chromium
-      - name: End-to-end (phone and desktop)
+      - name: End-to-end, guest mode (phone and desktop)
         run: pnpm --filter web e2e
       - uses: actions/upload-artifact@v4
         if: failure()
         with:
-          name: playwright-results
+          name: playwright-guest
+          path: apps/web/test-results
+
+  firebase:
+    # Security rules, the Firestore store and cross-device sync, against the Firebase emulators.
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      NEXT_PUBLIC_FIREBASE_API_KEY: demo-key
+      NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN: localhost
+      NEXT_PUBLIC_FIREBASE_PROJECT_ID: demo-lingo
+      NEXT_PUBLIC_FIREBASE_APP_ID: demo-app
+      NEXT_PUBLIC_FIREBASE_AUTH_EMULATOR: http://127.0.0.1:9099
+      E2E_FIREBASE: "1"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: pnpm
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm build
+      - name: Install browser
+        run: pnpm --filter web exec playwright install --with-deps chromium
+      - name: Rules, store and sync end-to-end
+        run: >
+          pnpm exec firebase emulators:exec --only firestore,auth --project demo-lingo
+          "pnpm test:emulator && pnpm --filter web exec playwright test e2e/sync.spec.ts --project=desktop"
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: playwright-firebase
           path: apps/web/test-results

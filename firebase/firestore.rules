@@ -1,0 +1,13 @@
+rules_version = '2';
+
+// Browsers never touch the database directly.
+// Every read and write goes through the app's server (/api/sync, /api/report), which checks the
+// learner's sign-in, validates each op, applies the safety brake and only ever appends.
+// The server uses the Admin SDK, which these rules do not restrict.
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}

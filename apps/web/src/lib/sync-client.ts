@@ -1,11 +1,18 @@
 "use client";
 
-import type { Op, PullResponse, PushResponse } from "@lingo/sync";
+import type { Op, PushResponse } from "@lingo/sync";
+import { onAuthStateChanged, signOut as fbSignOut } from "firebase/auth";
 import { useSyncExternalStore } from "react";
 import { db, getMeta, setMeta } from "./db";
 import { cloudEnabled } from "./env";
 import { clearLocalData, discardUnsynced, getDeviceId, ingest, init, onRecord } from "./store";
-import { supabase } from "./supabase/client";
+import { authedFetch, currentUser, firebaseAuth } from "./firebase";
+
+interface PullPage {
+  ops: Op[];
+  cursor: string | null;
+  hasMore: boolean;
+}
 
 export type SyncStatus =
   | { kind: "off" } // no cloud configured
@@ -37,12 +44,12 @@ async function pendingCount() {
 
 async function pull(userId: string): Promise<number> {
   const key = `cursor:${userId}`;
-  let cursor = (await getMeta<number>(key)) ?? 0;
+  let cursor = (await getMeta<string>(key)) ?? null;
   let total = 0;
   for (;;) {
-    const res = await fetch(`/api/sync?cursor=${cursor}`, { cache: "no-store" });
+    const res = await authedFetch(`/api/sync${cursor ? `?cursor=${encodeURIComponent(cursor)}` : ""}`);
     if (!res.ok) throw new Error(`pull failed (${res.status})`);
-    const page = (await res.json()) as PullResponse;
+    const page = (await res.json()) as PullPage;
     total += page.ops.length;
     await ingest(page.ops);
     cursor = page.cursor;
@@ -55,7 +62,7 @@ async function push(): Promise<void> {
   for (;;) {
     const rows = await db().ops.where("synced").equals(0).limit(BATCH).toArray();
     if (rows.length === 0) return;
-    const res = await fetch("/api/sync", {
+    const res = await authedFetch("/api/sync", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ deviceId: getDeviceId(), ops: rows.map((r) => r.op) satisfies Op[] }),
@@ -72,10 +79,8 @@ async function push(): Promise<void> {
 
 async function cycle(): Promise<void> {
   await init();
-  const sb = supabase();
-  if (!sb) return set({ kind: "off" });
-  const { data } = await sb.auth.getSession();
-  const userId = data.session?.user.id;
+  if (!firebaseAuth()) return set({ kind: "off" });
+  const userId = (await currentUser())?.uid;
   if (!userId) return set({ kind: "guest" });
   if (typeof navigator !== "undefined" && !navigator.onLine) return set({ kind: "offline", pending: await pendingCount() });
 
@@ -123,9 +128,7 @@ export function syncNow(): Promise<void> {
 
 /** The learner's answer to "merge this device's progress into your account?". */
 export async function resolveMerge(choice: "merge" | "cloud-only"): Promise<void> {
-  const sb = supabase();
-  const { data } = (await sb?.auth.getSession()) ?? { data: { session: null } };
-  const userId = data.session?.user.id;
+  const userId = (await currentUser())?.uid;
   if (!userId) return;
   if (choice === "cloud-only") await discardUnsynced();
   await setMeta(`merge:${userId}`, choice);
@@ -136,7 +139,8 @@ export async function resolveMerge(choice: "merge" | "cloud-only"): Promise<void
 /** Signs out after a last sync. With `clearDevice`, also removes the local copy (never the cloud). */
 export async function signOut(clearDevice: boolean): Promise<void> {
   await syncNow();
-  await supabase()?.auth.signOut();
+  const auth = firebaseAuth();
+  if (auth) await fbSignOut(auth);
   if (clearDevice) await clearLocalData();
   set(cloudEnabled ? { kind: "guest" } : { kind: "off" });
 }
@@ -155,9 +159,8 @@ export function startSync(): void {
     clearTimeout(debounce);
     debounce = setTimeout(() => void syncNow(), 2_000);
   });
-  supabase()?.auth.onAuthStateChange((event) => {
-    if (event === "SIGNED_IN" || event === "SIGNED_OUT") void syncNow();
-  });
+  const auth = firebaseAuth();
+  if (auth) onAuthStateChanged(auth, () => void syncNow());
 }
 
 export function useSyncStatus(): SyncStatus {

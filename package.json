@@ -12,11 +12,13 @@
     "test:watch": "vitest",
     "typecheck": "pnpm -r --parallel typecheck",
     "content:build": "pnpm --filter @lingo/content-schema build-content",
-    "check": "pnpm typecheck && pnpm test && pnpm content:build"
+    "check": "pnpm typecheck && pnpm test && pnpm content:build",
+    "test:emulator": "vitest run apps/web/src/server/emulator"
   },
   "devDependencies": {
     "@types/node": "^22.10.0",
     "typescript": "5.9.3",
-    "vitest": "^5.0.5"
+    "vitest": "^5.0.5",
+    "firebase-tools": "^15.34.2"
   }
 }
