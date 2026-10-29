@@ -11,9 +11,21 @@ test.skip(!process.env.E2E_FIREBASE, "needs the Firebase emulators");
 const email = `learner-${Date.now()}@example.com`;
 const password = "correct-horse-42";
 
+/** Prints the browser's console and what is on screen, so CI failures can be read from the log. */
+function watch(page: Page, name: string) {
+  page.on("console", (m) => console.log(`[${name} console.${m.type()}] ${m.text()}`));
+  page.on("pageerror", (e) => console.log(`[${name} pageerror] ${e.message}`));
+  page.on("requestfailed", (r) => console.log(`[${name} requestfailed] ${r.url()} ${r.failure()?.errorText}`));
+}
+
 async function synced(page: Page) {
   await page.goto("/settings");
-  await expect(page.getByText(`מחוברים בתור`)).toBeVisible();
+  try {
+    await expect(page.getByText(`מחוברים בתור`)).toBeVisible({ timeout: 15_000 });
+  } catch (err) {
+    console.log("[screen]", await page.locator("body").innerText());
+    throw err;
+  }
   await page.getByRole("button", { name: "לסנכרן עכשיו" }).click();
   await expect(page.getByText("הכל מסונכרן")).toBeVisible({ timeout: 20_000 });
 }
@@ -22,6 +34,7 @@ test("progress follows the learner to a new device and survives clearing it", as
   test.skip(test.info().project.name !== "desktop", "one browser is enough");
   // Device A: learn as a guest, then create an account. The guest progress joins the account.
   const a = await (await browser.newContext()).newPage();
+  watch(a, "A");
   await a.goto("/start");
   await a.getByRole("button", { name: /אנגלית/ }).click();
   await a.getByRole("button", { name: /רגיל/ }).click();
@@ -31,10 +44,15 @@ test("progress follows the learner to a new device and survives clearing it", as
   await a.getByLabel("מייל").fill(email);
   await a.getByLabel("סיסמה").fill(password);
   await a.getByRole("button", { name: "יצירת חשבון", exact: true }).click();
+  await expect(a).toHaveURL(/\/settings$/, { timeout: 15_000 }).catch(async (err) => {
+    console.log("[A after sign-up]", await a.locator("body").innerText());
+    throw err;
+  });
   await synced(a);
 
   // Device B: a fresh browser signs in and gets everything from the cloud.
   const b = await (await browser.newContext()).newPage();
+  watch(b, "B");
   await b.goto("/login");
   await b.getByLabel("מייל").fill(email);
   await b.getByLabel("סיסמה").fill(password);
