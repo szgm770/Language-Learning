@@ -114,7 +114,7 @@ export function LessonPlayer({
                 לשיעור הבא
               </Link>
             )}
-            <Link href="/" className="btn-quiet w-full">
+            <Link href="/learn/" className="btn-quiet w-full">
               למסך הבית
             </Link>
           </div>

@@ -24,7 +24,7 @@ export function CourseRoute({ courseId }: { courseId: string }) {
 
   return (
     <Screen className="gap-6 pt-2">
-      <BackLink href="/" />
+      <BackLink href="/learn/" />
       <h1 className="text-3xl font-semibold">{data.manifest.title.he}</h1>
       {data.units.map((unit) => (
         <section key={unit.id} aria-labelledby={`u-${unit.id}`} className="flex flex-col gap-3">

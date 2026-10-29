@@ -100,7 +100,7 @@ export function ReviewPlayer({ courseId, lexemes, ctx }: { courseId: string; lex
       <Screen className="items-center justify-center gap-4 text-center">
         <h1 className="text-2xl font-semibold">אין מילים לחזרה כרגע</h1>
         <p className="text-ink-soft">מילים חוזרות לתרגול בדיוק כשהן מתחילות להישכח. המשיכו בשיעור הבא.</p>
-        <Link href="/" className="btn-primary">
+        <Link href="/learn/" className="btn-primary">
           למסך הבית
         </Link>
       </Screen>
@@ -110,7 +110,7 @@ export function ReviewPlayer({ courseId, lexemes, ctx }: { courseId: string; lex
   return (
     <Screen>
       <header className="sticky top-0 z-10 flex items-center gap-3 bg-paper py-4">
-        <Link href="/" className="inline-flex size-11 shrink-0 items-center justify-center rounded-full text-ink-soft" aria-label="יציאה מהחזרה">
+        <Link href="/learn/" className="inline-flex size-11 shrink-0 items-center justify-center rounded-full text-ink-soft" aria-label="יציאה מהחזרה">
           <svg viewBox="0 0 24 24" className="size-6" aria-hidden="true">
             <path d="M6 6l12 12M18 6L6 18" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" />
           </svg>
@@ -124,7 +124,7 @@ export function ReviewPlayer({ courseId, lexemes, ctx }: { courseId: string; lex
         <div className="flex flex-1 flex-col items-center justify-center gap-6 text-center">
           <h1 className="text-3xl font-semibold">החזרה להיום הושלמה</h1>
           <p className="text-ink-soft">תרגלתם {graded.size} מילים. הן יחזרו בדיוק בזמן שכדאי.</p>
-          <Link href="/" className="btn-primary w-full">
+          <Link href="/learn/" className="btn-primary w-full">
             למסך הבית
           </Link>
         </div>
