@@ -1,0 +1,550 @@
+id: u01-hello
+cefr: A1
+scene: hello
+title:
+  he: שלום, נעים להכיר
+  en: Hello, nice to meet you
+story: היום הראשון של בן בחברה. נועה מתל אביב פוגשת אותו בשיחת וידאו.
+canDo:
+  - לברך לשלום ולהיפרד, בכל שעה ביום
+  - להציג את עצמי ולשאול איך קוראים למישהו
+  - לשאול "מה שלומך?" ולענות
+  - להגיד תודה ובבקשה
+
+vocabulary:
+  - id: hello
+    text: Hello
+    translation: שלום
+    pos: interjection
+    pronunciation: הֶלוֹ
+    example: { text: "Hello, I'm Ben.", translation: "שלום, אני בן." }
+  - id: hi
+    text: Hi
+    translation: היי
+    pos: interjection
+    pronunciation: הַאי
+    example: { text: "Hi, Noa!", translation: "היי, נועה!" }
+  - id: im
+    text: I'm
+    translation: אני (בצורה המקוצרת)
+    pos: phrase
+    pronunciation: אַיים
+    example: { text: "I'm Noa.", translation: "אני נועה." }
+  - id: nice-to-meet-you
+    text: Nice to meet you
+    translation: נעים להכיר
+    pos: phrase
+    pronunciation: נַייס טוּ מִיט יוּ
+    example: { text: "Nice to meet you, Ben.", translation: "נעים להכיר, בן." }
+  - id: goodbye
+    text: Goodbye
+    translation: להתראות
+    pos: interjection
+    pronunciation: גוּדְבַּאי
+    example: { text: "Goodbye, Noa!", translation: "להתראות, נועה!" }
+  - id: bye
+    text: Bye
+    translation: ביי
+    pos: interjection
+    pronunciation: בַּאי
+    example: { text: "Bye, Ben!", translation: "ביי, בן!" }
+  - id: good-morning
+    text: Good morning
+    translation: בוקר טוב
+    pos: phrase
+    pronunciation: גוּד מוֹרְנִינְג
+    example: { text: "Good morning, Ben!", translation: "בוקר טוב, בן!" }
+  - id: good-afternoon
+    text: Good afternoon
+    translation: צהריים טובים
+    pos: phrase
+    pronunciation: גוּד אַפְטֶרְנוּן
+    example: { text: "Good afternoon, everyone.", translation: "צהריים טובים לכולם." }
+  - id: good-evening
+    text: Good evening
+    translation: ערב טוב
+    pos: phrase
+    pronunciation: גוּד אִיבְנִינְג
+    example: { text: "Good evening, Mr. Cohen.", translation: "ערב טוב, מר כהן." }
+  - id: good-night
+    text: Good night
+    translation: לילה טוב
+    pos: phrase
+    pronunciation: גוּד נַייט
+    example: { text: "Good night, see you tomorrow.", translation: "לילה טוב, נתראה מחר." }
+  - id: thank-you
+    text: Thank you
+    translation: תודה
+    pos: phrase
+    pronunciation: תֶ'נְק יוּ
+    example: { text: "Thank you, Noa!", translation: "תודה, נועה!" }
+  - id: please
+    text: please
+    translation: בבקשה
+    pos: adverb
+    pronunciation: פְּלִיז
+    example: { text: "Coffee, please.", translation: "קפה, בבקשה." }
+  - id: yes
+    text: "yes"
+    translation: כן
+    pos: interjection
+    pronunciation: יֶס
+  - id: "no"
+    text: "no"
+    translation: לא
+    pos: interjection
+    pronunciation: נוֹ
+  - id: you
+    text: you
+    translation: אתה / את / אתם
+    pos: pronoun
+    pronunciation: יוּ
+    example: { text: "Are you Ben?", translation: "אתה בן?" }
+  - id: are
+    text: are
+    translation: (אתה / את) … – הפועל "להיות" עם you
+    pos: verb
+    pronunciation: אָר
+  - id: name
+    text: name
+    translation: שם
+    pos: noun
+    pronunciation: נֵיים
+    example: { text: "My name is Noa.", translation: "קוראים לי נועה." }
+  - id: my
+    text: my
+    translation: שלי
+    pos: determiner
+    pronunciation: מַאי
+  - id: your
+    text: your
+    translation: שלך / שלכם
+    pos: determiner
+    pronunciation: יוֹר
+  - id: whats
+    text: What's
+    translation: מה (בצורה המקוצרת)
+    pos: phrase
+    pronunciation: ווֹטְס
+    example: { text: "What's your name?", translation: "איך קוראים לך?" }
+  - id: how-are-you
+    text: How are you?
+    translation: מה שלומך?
+    pos: phrase
+    pronunciation: הַאוּ אָר יוּ
+  - id: fine
+    text: fine
+    translation: בסדר, טוב
+    pos: adjective
+    pronunciation: פַיין
+    example: { text: "I'm fine, thanks.", translation: "אני בסדר, תודה." }
+  - id: great
+    text: great
+    translation: מצוין
+    pos: adjective
+    pronunciation: גְרֵייט
+  - id: and-you
+    text: And you?
+    translation: ואתה? / ואת?
+    pos: phrase
+    pronunciation: אֶנְד יוּ
+  - id: see-you
+    text: See you!
+    translation: נתראה!
+    pos: phrase
+    pronunciation: סִי יוּ
+
+grammar:
+  - id: i-am-you-are
+    title: { he: "I am, you are: אני, אתה", en: "I am, you are" }
+    explanation: |
+      בעברית אומרים "אני נועה" בלי שום מילה באמצע. באנגלית חייבים פועל, "להיות":
+
+      - **I am Noa** – אני נועה
+      - **You are Ben** – אתה בן
+
+      בדיבור מקצרים: **I'm** במקום I am, ו־**you're** במקום you are. שתי הצורות נכונות.
+
+      בשאלה הופכים את הסדר: **Are you Ben?** – אתה בן? ועונים בקצרה: **Yes, I am.** או **No, I'm not.**
+
+      שימו לב: **I** (אני) נכתבת תמיד באות גדולה, גם באמצע משפט.
+    examples:
+      - { text: "I'm Noa.", translation: "אני נועה." }
+      - { text: "You're Ben.", translation: "אתה בן." }
+      - { text: "Are you Ben? Yes, I am.", translation: "אתה בן? כן." }
+  - id: whats-your-name
+    title: { he: "What's your name? – איך קוראים לך?", en: "What's your name?" }
+    explanation: |
+      באנגלית לא שואלים "איך קוראים לך", אלא "מה השם שלך": **What's your name?**
+
+      עונים: **My name is Noa.** (השם שלי הוא נועה), או פשוט **I'm Noa.**
+
+      המילה **your** מתאימה לגבר, לאישה ולרבים. אין צורך לבחור כמו בעברית.
+    examples:
+      - { text: "What's your name?", translation: "איך קוראים לך?" }
+      - { text: "My name is Ben.", translation: "קוראים לי בן." }
+
+lessons:
+  # ------------------------------------------------------------------ 1
+  - id: u1-l1
+    kind: new
+    title: { he: "היי, אני נועה", en: "Hi, I'm Noa" }
+    exercises:
+      - id: u1-l1-01
+        type: dialogue
+        scene: היום הראשון של בן בעבודה. נועה מתקשרת להכיר אותו.
+        lines:
+          - { speaker: "noa", text: "Hi! I'm Noa.", translation: "היי! אני נועה." }
+          - { speaker: "ben", text: "Hello, Noa. I'm Ben.", translation: "שלום, נועה. אני בן." }
+          - { speaker: "noa", text: "Nice to meet you, Ben.", translation: "נעים להכיר, בן." }
+          - { speaker: "ben", text: "Nice to meet you too!", translation: "גם לי נעים להכיר!" }
+      - { id: "u1-l1-02", type: "learn", lexeme: "hello" }
+      - { id: "u1-l1-03", type: "learn", lexeme: "hi" }
+      - id: u1-l1-04
+        type: multiple_choice
+        prompt: איך אומרים "שלום" באנגלית?
+        options: [Hello, Goodbye, Thank you]
+        correct: 0
+        lexemes: [hello]
+      - { id: "u1-l1-05", type: "learn", lexeme: "im" }
+      - id: u1-l1-06
+        type: word_bank
+        prompt: היי, אני בן.
+        answers: ["Hi, I'm Ben.", "Hi, I am Ben."]
+        distractors: [Noa, Hello]
+        lexemes: [hi, im]
+      - { id: "u1-l1-07", type: "learn", lexeme: "nice-to-meet-you" }
+      - id: u1-l1-08
+        type: listening_choice
+        audioText: Nice to meet you
+        question: מה שמעתם?
+        options: [נעים להכיר, להתראות, היי]
+        correct: 0
+        lexemes: [nice-to-meet-you]
+      - { id: "u1-l1-09", type: "learn", lexeme: "goodbye" }
+      - { id: "u1-l1-10", type: "learn", lexeme: "bye" }
+      - id: u1-l1-11
+        type: match_pairs
+        pairs:
+          - [Hello, שלום]
+          - [Goodbye, להתראות]
+          - [Nice to meet you, נעים להכיר]
+          - ["I'm", אני]
+        lexemes: [hello, goodbye, nice-to-meet-you, im]
+      - id: u1-l1-12
+        type: dialogue_gap
+        lines:
+          - { speaker: "noa", text: "Hi! I'm Noa.", translation: "היי! אני נועה." }
+          - { speaker: "ben", text: "Hello, Noa. I'm Ben.", translation: "שלום, נועה. אני בן." }
+        gap: 1
+        distractors: ["Goodbye, Noa.", "Nice to meet you, Noa. I'm Noa."]
+        lexemes: [hello, im]
+      - id: u1-l1-13
+        type: translate
+        direction: to_target
+        prompt: להתראות!
+        answers: ["Goodbye!", "Bye!", "Goodbye", "Bye"]
+        lexemes: [goodbye]
+      - id: u1-l1-14
+        type: speak_repeat
+        text: "Hi, I'm Noa. Nice to meet you!"
+        translation: היי, אני נועה. נעים להכיר!
+        lexemes: [hi, im, nice-to-meet-you]
+
+  # ------------------------------------------------------------------ 2
+  - id: u1-l2
+    kind: new
+    title: { he: "בוקר טוב, ותודה", en: "Good morning, and thank you" }
+    exercises:
+      - { id: "u1-l2-01", type: "learn", lexeme: "good-morning" }
+      - { id: "u1-l2-02", type: "learn", lexeme: "good-afternoon" }
+      - { id: "u1-l2-03", type: "learn", lexeme: "good-evening" }
+      - id: u1-l2-04
+        type: multiple_choice
+        prompt: "השעה 8:00 בבוקר. מה אומרים?"
+        options: [Good morning, Good evening, Good afternoon]
+        correct: 0
+        lexemes: [good-morning]
+      - { id: "u1-l2-05", type: "learn", lexeme: "good-night" }
+      - id: u1-l2-06
+        type: tip
+        title: Good night זה לא "ערב טוב"
+        text: |
+          באנגלית Good night לא משמש לברכת שלום. אומרים אותו רק כשנפרדים בלילה או הולכים לישון.
+
+          נכנסים לחדר בשמונה בערב? אומרים Good evening. יוצאים בחצות? אומרים Good night.
+      - id: u1-l2-07
+        type: fill_blank
+        sentence: Good ___, Mr. Cohen!
+        translation: ערב טוב, מר כהן!
+        answers: [evening]
+        options: [evening, night, morning]
+        lexemes: [good-evening]
+      - { id: "u1-l2-08", type: "learn", lexeme: "thank-you" }
+      - { id: "u1-l2-09", type: "learn", lexeme: "please" }
+      - id: u1-l2-10
+        type: match_pairs
+        pairs:
+          - [Good morning, בוקר טוב]
+          - [Good afternoon, צהריים טובים]
+          - [Good night, לילה טוב]
+          - [Thank you, תודה]
+          - [please, בבקשה]
+        lexemes: [good-morning, good-afternoon, good-night, thank-you, please]
+      - id: u1-l2-11
+        type: listening_choice
+        audioText: Good afternoon
+        question: מה שמעתם?
+        options: [צהריים טובים, ערב טוב, בוקר טוב]
+        correct: 0
+        lexemes: [good-afternoon]
+      - id: u1-l2-12
+        type: dialogue_gap
+        lines:
+          - { speaker: "ben", text: "Good morning, Noa!", translation: "בוקר טוב, נועה!" }
+          - { speaker: "noa", text: "Good morning, Ben!", translation: "בוקר טוב, בן!" }
+        gap: 1
+        distractors: ["Good night, Ben!", "Goodbye, Ben!"]
+        lexemes: [good-morning]
+      - id: u1-l2-13
+        type: translate
+        direction: to_target
+        prompt: תודה!
+        answers: ["Thank you!", "Thanks!", "Thank you", "Thanks"]
+        lexemes: [thank-you]
+      - id: u1-l2-14
+        type: dictation
+        text: Good evening
+        lexemes: [good-evening]
+      - id: u1-l2-15
+        type: speak_repeat
+        text: "Good morning! Thank you!"
+        translation: בוקר טוב! תודה!
+        lexemes: [good-morning, thank-you]
+
+  # ------------------------------------------------------------------ 3
+  - id: u1-l3
+    kind: grammar
+    grammar: i-am-you-are
+    title: { he: "אני, אתה", en: "I am, you are" }
+    exercises:
+      - { id: "u1-l3-01", type: "learn", lexeme: "you" }
+      - { id: "u1-l3-02", type: "learn", lexeme: "are" }
+      - id: u1-l3-03
+        type: fill_blank
+        sentence: I ___ Noa.
+        translation: אני נועה.
+        answers: [am]
+        options: [am, are, is]
+        lexemes: [im]
+      - id: u1-l3-04
+        type: fill_blank
+        sentence: You ___ Ben.
+        translation: אתה בן.
+        answers: [are]
+        options: [are, am, is]
+        lexemes: [you, are]
+      - id: u1-l3-05
+        type: multiple_choice
+        prompt: איזה משפט נכון?
+        options: ["I'm Ben.", "I Ben.", "Am I Ben."]
+        correct: 0
+        lexemes: [im]
+      - { id: "u1-l3-06", type: "learn", lexeme: "yes" }
+      - { id: "u1-l3-07", type: "learn", lexeme: "no" }
+      - id: u1-l3-08
+        type: word_bank
+        prompt: אתה בן?
+        answers: ["Are you Ben?"]
+        distractors: [am, I]
+        lexemes: [are, you]
+      - id: u1-l3-09
+        type: dialogue_gap
+        lines:
+          - { speaker: "ben", text: "Are you Noa?", translation: "את נועה?" }
+          - { speaker: "noa", text: "Yes, I am.", translation: "כן." }
+        gap: 1
+        distractors: ["Yes, you are.", "Yes, I'm."]
+        lexemes: ["yes", im]
+      - id: u1-l3-10
+        type: translate
+        direction: to_target
+        prompt: אני נועה.
+        answers: ["I'm Noa.", "I am Noa."]
+        lexemes: [im]
+      - id: u1-l3-11
+        type: translate
+        direction: to_source
+        prompt: "You're Ben."
+        answers: [אתה בן., אתה בן]
+        lexemes: [you, are]
+      - id: u1-l3-12
+        type: fill_blank
+        sentence: "Are you Rachel? No, I'm ___. I'm Miriam."
+        translation: את רחל? לא. אני מרים.
+        answers: [not]
+        lexemes: ["no"]
+      - id: u1-l3-13
+        type: speak_repeat
+        text: "Are you Ben? Yes, I am."
+        translation: אתה בן? כן.
+        lexemes: [are, you, "yes"]
+
+  # ------------------------------------------------------------------ 4
+  - id: u1-l4
+    kind: listening
+    grammar: whats-your-name
+    title: { he: "מה שלומך?", en: "How are you?" }
+    exercises:
+      - id: u1-l4-01
+        type: dialogue
+        scene: בבוקר שאחרי, בן פוגש במסדרון את מרים, עובדת חדשה.
+        lines:
+          - { speaker: "ben", text: "Hi! What's your name?", translation: "היי! איך קוראים לך?" }
+          - { speaker: "miriam", text: "My name is Miriam. And you?", translation: "קוראים לי מרים. ולך?" }
+          - { speaker: "ben", text: "I'm Ben. How are you, Miriam?", translation: "אני בן. מה שלומך, מרים?" }
+          - { speaker: "miriam", text: "I'm fine, thanks. And you?", translation: "אני בסדר, תודה. ואתה?" }
+          - { speaker: "ben", text: "I'm great! See you!", translation: "אני מצוין! נתראה!" }
+          - { speaker: "miriam", text: "Bye, Ben!", translation: "ביי, בן!" }
+      - { id: "u1-l4-02", type: "learn", lexeme: "whats" }
+      - { id: "u1-l4-03", type: "learn", lexeme: "name" }
+      - { id: "u1-l4-04", type: "learn", lexeme: "my" }
+      - { id: "u1-l4-05", type: "learn", lexeme: "your" }
+      - id: u1-l4-06
+        type: word_bank
+        prompt: איך קוראים לך?
+        answers: ["What's your name?", "What is your name?"]
+        distractors: [my, are]
+        lexemes: [whats, your, name]
+      - id: u1-l4-07
+        type: multiple_choice
+        prompt: "My name is Miriam. – מה פירוש המשפט?"
+        options:
+          - קוראים לי מרים.
+          - איך קוראים לך, מרים?
+          - מרים, את בסדר?
+        correct: 0
+        lexemes: [my, name]
+      - { id: "u1-l4-08", type: "learn", lexeme: "how-are-you" }
+      - { id: "u1-l4-09", type: "learn", lexeme: "fine" }
+      - { id: "u1-l4-10", type: "learn", lexeme: "great" }
+      - { id: "u1-l4-11", type: "learn", lexeme: "and-you" }
+      - { id: "u1-l4-12", type: "learn", lexeme: "see-you" }
+      - id: u1-l4-13
+        type: listening_choice
+        audioText: "I'm fine, thanks. And you?"
+        question: מה מרים עונה?
+        options:
+          - אני בסדר, תודה. ואתה?
+          - אני מצוינת, תודה.
+          - קוראים לי מרים.
+        correct: 0
+        lexemes: [fine, and-you]
+      - id: u1-l4-14
+        type: dialogue_gap
+        lines:
+          - { speaker: "noa", text: "How are you, Ben?", translation: "מה שלומך, בן?" }
+          - { speaker: "ben", text: "I'm great, thanks. And you?", translation: "אני מצוין, תודה. ואת?" }
+          - { speaker: "noa", text: "I'm fine.", translation: "אני בסדר." }
+        gap: 1
+        distractors: ["My name is Ben.", "Good night, Noa."]
+        lexemes: [great, and-you]
+      - id: u1-l4-15
+        type: dialogue_gap
+        lines:
+          - { speaker: "rachel", text: "Hi! What's your name?", translation: "היי! איך קוראים לך?" }
+          - { speaker: "noa", text: "My name is Noa.", translation: "קוראים לי נועה." }
+        gap: 1
+        distractors: ["Your name is Noa.", "I'm fine, thanks."]
+        lexemes: [my, name]
+      - id: u1-l4-16
+        type: dictation
+        text: How are you?
+        lexemes: [how-are-you]
+      - id: u1-l4-17
+        type: speak_repeat
+        text: "What's your name? My name is Noa."
+        translation: איך קוראים לך? קוראים לי נועה.
+        lexemes: [whats, your, name, my]
+
+  # ------------------------------------------------------------------ 5
+  - id: u1-review
+    kind: review
+    title: { he: "חזרה: היכרות", en: "Review: meeting people" }
+    exercises:
+      - id: u1-r-01
+        type: match_pairs
+        pairs:
+          - [Good evening, ערב טוב]
+          - [See you!, נתראה!]
+          - [please, בבקשה]
+          - [great, מצוין]
+          - [your, שלך]
+        lexemes: [good-evening, see-you, please, great, your]
+      - id: u1-r-02
+        type: listening_choice
+        audioText: "Nice to meet you too!"
+        question: מה שמעתם?
+        options: [גם לי נעים להכיר!, נתראה מחר!, תודה רבה!]
+        correct: 0
+        lexemes: [nice-to-meet-you]
+      - id: u1-r-03
+        type: multiple_choice
+        prompt: "אתם יוצאים מהמשרד ב־22:00. מה אומרים?"
+        options: [Good night!, Good evening!, Good morning!]
+        correct: 0
+        lexemes: [good-night]
+      - id: u1-r-04
+        type: word_bank
+        prompt: בוקר טוב, מה שלומך?
+        answers: ["Good morning, how are you?"]
+        distractors: [night, your]
+        lexemes: [good-morning, how-are-you]
+      - id: u1-r-05
+        type: dialogue_gap
+        lines:
+          - { speaker: "eli", text: "Hello! What's your name?", translation: "שלום! איך קוראים לך?" }
+          - { speaker: "noa", text: "I'm Noa. Nice to meet you.", translation: "אני נועה. נעים להכיר." }
+          - { speaker: "eli", text: "Nice to meet you too.", translation: "גם לי נעים להכיר." }
+        gap: 1
+        distractors: ["Yes, I am. Goodbye.", "You're Noa. Thank you."]
+        lexemes: [im, nice-to-meet-you]
+      - id: u1-r-06
+        type: translate
+        direction: to_target
+        prompt: קוראים לי בן.
+        answers: ["My name is Ben.", "My name's Ben.", "I'm Ben.", "I am Ben."]
+        lexemes: [my, name]
+      - id: u1-r-07
+        type: fill_blank
+        sentence: Are you Miriam? Yes, I ___.
+        translation: את מרים? כן.
+        answers: [am]
+        lexemes: [are, "yes"]
+      - id: u1-r-08
+        type: translate
+        direction: to_source
+        prompt: "I'm fine, thank you."
+        answers:
+          - אני בסדר, תודה.
+          - אני טוב, תודה.
+          - אני טובה, תודה.
+        lexemes: [fine, thank-you]
+      - id: u1-r-09
+        type: dictation
+        text: "What's your name?"
+        answers: ["What's your name?", "What is your name?"]
+        lexemes: [whats, your, name]
+      - id: u1-r-10
+        type: dialogue_gap
+        lines:
+          - { speaker: "ben", text: "Thank you, Noa!", translation: "תודה, נועה!" }
+          - { speaker: "noa", text: "See you, Ben!", translation: "נתראה, בן!" }
+        gap: 1
+        distractors: ["Nice to meet you, Ben! I'm Noa.", "Good morning, Ben!"]
+        lexemes: [see-you]
+      - id: u1-r-11
+        type: speak_repeat
+        text: "Good evening! How are you?"
+        translation: ערב טוב! מה שלומך?
+        lexemes: [good-evening, how-are-you]

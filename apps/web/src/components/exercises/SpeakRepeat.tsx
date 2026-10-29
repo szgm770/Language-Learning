@@ -47,7 +47,7 @@ export function SpeakRepeat({ ex, ctx, locked, onChange }: ExerciseProps<"speak_
 
   return (
     <div className="flex flex-col gap-6">
-      <h2 className="text-2xl font-medium">הקשיבו וחזרו בקול</h2>
+      <h2 className="text-2xl font-bold">הקשיבו וחזרו בקול</h2>
       <div className="flex items-start gap-3">
         <SpeakButton text={ex.text} lang={ctx.speechLang} />
         <div className="flex flex-col gap-1">

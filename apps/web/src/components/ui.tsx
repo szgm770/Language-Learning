@@ -3,12 +3,14 @@
 import Link from "next/link";
 import type { ReactNode } from "react";
 import { speak, speechSupported } from "@/lib/speech";
+import { Icon } from "./icons";
 
-/** A word or sentence in the language being learned: its own language and direction, set in the word face. */
+const RTL = ["he", "yi", "ar"];
+
+/** A word or sentence in the language being learned: its own language and direction. */
 export function Word({ text, lang, className = "" }: { text: string; lang: string; className?: string }) {
-  const rtl = ["he", "yi", "ar"].includes(lang);
   return (
-    <span lang={lang} dir={rtl ? "rtl" : "ltr"} className={`word ${className}`}>
+    <span lang={lang} dir={RTL.includes(lang) ? "rtl" : "ltr"} className={`word ${className}`}>
       {text}
     </span>
   );
@@ -19,35 +21,35 @@ export function SpeakButton({
   lang,
   size = "md",
   label = "השמעה",
+  pitch,
+  slow = false,
 }: {
   text: string;
   lang: string;
-  size?: "md" | "lg";
+  size?: "sm" | "md" | "lg";
   label?: string;
+  pitch?: number;
+  slow?: boolean;
 }) {
   if (!speechSupported()) return null;
-  const dim = size === "lg" ? "size-20" : "size-11";
+  const dim = { sm: "size-9", md: "size-12", lg: "size-20" }[size];
+  const icon = { sm: "size-5", md: "size-6", lg: "size-9" }[size];
   return (
     <button
       type="button"
-      onClick={() => speak(text, lang)}
-      onContextMenu={(e) => {
-        e.preventDefault();
-        speak(text, lang, true);
-      }}
+      onClick={() => speak(text, lang, { pitch, slow })}
       aria-label={label}
-      title={`${label} (לחיצה ימנית: לאט)`}
-      className={`${dim} inline-flex shrink-0 items-center justify-center rounded-full bg-cobalt text-white transition active:scale-95`}
+      className={`${dim} inline-flex shrink-0 items-center justify-center rounded-full ${
+        slow ? "bg-cobalt-soft text-cobalt" : "bg-cobalt text-white"
+      } shadow-[0_3px_0_0_var(--color-cobalt-strong)] transition active:translate-y-[3px] active:shadow-none`}
     >
-      <svg viewBox="0 0 24 24" className={size === "lg" ? "size-9" : "size-5"} aria-hidden="true">
-        <path d="M4 9v6h4l5 4V5L8 9H4z" fill="currentColor" />
-        <path d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12" stroke="currentColor" strokeWidth="1.8" fill="none" strokeLinecap="round" />
-      </svg>
+      <Icon name={slow ? "slow" : "volume"} className={icon} />
     </button>
   );
 }
 
-export function ProgressBar({ value, label }: { value: number; label: string }) {
+export function ProgressBar({ value, label, tone = "mint" }: { value: number; label: string; tone?: "mint" | "saffron" | "cobalt" }) {
+  const bg = { mint: "bg-mint", saffron: "bg-saffron", cobalt: "bg-cobalt" }[tone];
   return (
     <div
       role="progressbar"
@@ -55,10 +57,38 @@ export function ProgressBar({ value, label }: { value: number; label: string }) 
       aria-valuemin={0}
       aria-valuemax={100}
       aria-valuenow={Math.round(value * 100)}
-      className="h-3 w-full overflow-hidden rounded-full bg-line"
+      className="relative h-4 w-full overflow-hidden rounded-full bg-sunken"
     >
-      <div className="h-full rounded-full bg-mint transition-[width] duration-300" style={{ width: `${Math.max(4, value * 100)}%` }} />
+      <div className={`relative h-full overflow-hidden rounded-full ${bg} transition-[width] duration-500 ease-out`} style={{ width: `${Math.max(3, value * 100)}%` }}>
+        <span className="absolute inset-x-2 top-1 h-1 rounded-full bg-white/35" />
+      </div>
     </div>
+  );
+}
+
+/** Ring progress (0..1) with content in the middle. */
+export function Ring({ value, size = 56, stroke = 6, tone = "var(--color-mint)", children }: { value: number; size?: number; stroke?: number; tone?: string; children?: ReactNode }) {
+  const r = (size - stroke) / 2;
+  const len = 2 * Math.PI * r;
+  return (
+    <span className="relative inline-grid place-items-center" style={{ width: size, height: size }}>
+      <svg width={size} height={size} className="-rotate-90" aria-hidden="true">
+        <circle cx={size / 2} cy={size / 2} r={r} fill="none" stroke="var(--color-sunken)" strokeWidth={stroke} />
+        <circle
+          cx={size / 2}
+          cy={size / 2}
+          r={r}
+          fill="none"
+          stroke={tone}
+          strokeWidth={stroke}
+          strokeLinecap="round"
+          strokeDasharray={len}
+          strokeDashoffset={len * (1 - Math.min(1, Math.max(0, value)))}
+          className="transition-[stroke-dashoffset] duration-700"
+        />
+      </svg>
+      <span className="absolute inset-0 grid place-items-center">{children}</span>
+    </span>
   );
 }
 
@@ -68,11 +98,8 @@ export function Screen({ children, className = "" }: { children: ReactNode; clas
 
 export function BackLink({ href, label = "חזרה" }: { href: string; label?: string }) {
   return (
-    <Link href={href} className="inline-flex min-h-11 items-center gap-1 text-ink-soft" aria-label={label}>
-      <svg viewBox="0 0 24 24" className="size-5" aria-hidden="true">
-        {/* Points right: "back" in a right-to-left interface. */}
-        <path d="M9 5l7 7-7 7" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" />
-      </svg>
+    <Link href={href} className="inline-flex min-h-11 items-center gap-1 text-ink-soft">
+      <Icon name="back" className="size-5" />
       {label}
     </Link>
   );
@@ -81,9 +108,7 @@ export function BackLink({ href, label = "חזרה" }: { href: string; label?: s
 export function Loading() {
   return (
     <Screen className="items-center justify-center">
-      <p className="text-ink-soft" role="status">
-        טוען…
-      </p>
+      <span className="size-10 animate-spin rounded-full border-4 border-line border-t-cobalt" role="status" aria-label="טוען" />
     </Screen>
   );
 }
@@ -91,7 +116,7 @@ export function Loading() {
 export function LoadError({ retry }: { retry?: () => void }) {
   return (
     <Screen className="items-center justify-center gap-4 text-center">
-      <p className="text-lg">לא הצלחנו לטעון את התוכן.</p>
+      <p className="text-lg font-semibold">לא הצלחנו לטעון את התוכן.</p>
       <p className="text-ink-soft">בדקו את החיבור לאינטרנט. יחידות שכבר פתחתם זמינות גם בלי חיבור.</p>
       {retry && (
         <button className="btn-primary" onClick={retry}>

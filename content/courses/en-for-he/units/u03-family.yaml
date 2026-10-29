@@ -1,0 +1,408 @@
+id: u03-family
+cefr: A1
+scene: family
+title:
+  he: משפחה וחברים
+  en: Family and friends
+story: "נועה מראה לבן תמונות של המשפחה שלה, ובן מספר על אחותו רחל."
+canDo:
+  - להציג בני משפחה וחברים
+  - להגיד של מי משהו (שלו, שלה, שלנו)
+  - לשאול בן כמה מישהו ולענות
+  - לספור עד 100
+
+vocabulary:
+  - { id: "family", text: "family", translation: "משפחה", pos: noun, pronunciation: "פֶמִילִי", example: { text: "This is my family.", translation: "זו המשפחה שלי." } }
+  - { id: "this-is", text: "This is…", translation: "זה… / זו…", pos: phrase, pronunciation: "דִ'יס אִיז", example: { text: "This is my sister.", translation: "זו אחותי." } }
+  - { id: "mother", text: "mother", translation: "אמא", pos: noun, pronunciation: "מָאדֶ'ר", example: { text: "This is my mother, Sarah.", translation: "זו אמא שלי, שרה." } }
+  - { id: "father", text: "father", translation: "אבא", pos: noun, pronunciation: "פָאדֶ'ר" }
+  - { id: "brother", text: "brother", translation: "אח", pos: noun, pronunciation: "בְּרָאדֶ'ר" }
+  - { id: "sister", text: "sister", translation: "אחות", pos: noun, pronunciation: "סִיסְטֶר" }
+  - { id: "who", text: "who", translation: "מי", pos: pronoun, pronunciation: "הוּ", example: { text: "Who is this?", translation: "מי זה?" } }
+  - { id: "i-have", text: "I have", translation: "יש לי", pos: phrase, pronunciation: "אַיי הֶב", example: { text: "I have a brother.", translation: "יש לי אח." } }
+  - { id: "son", text: "son", translation: "בן", pos: noun, pronunciation: "סָאן" }
+  - { id: "daughter", text: "daughter", translation: "בת", pos: noun, pronunciation: "דוֹטֶר" }
+  - { id: "husband", text: "husband", translation: "בעל", pos: noun, pronunciation: "הָאזְבֶּנְד" }
+  - { id: "wife", text: "wife", translation: "אישה (רעיה)", pos: noun, pronunciation: "וַוייף" }
+  - { id: "children", text: "children", translation: "ילדים", pos: noun, pronunciation: "צִ'ילְדְרֶן", example: { text: "I have two children.", translation: "יש לי שני ילדים." } }
+  - { id: "parents", text: "parents", translation: "הורים", pos: noun, pronunciation: "פֶּרֶנְטְס" }
+  - { id: "friend", text: "friend", translation: "חבר, חברה", pos: noun, pronunciation: "פְרֶנְד", example: { text: "Miriam is my friend.", translation: "מרים היא חברה שלי." } }
+  - { id: "his", text: "his", translation: "שלו", pos: determiner, pronunciation: "הִיז", example: { text: "His name is Ben.", translation: "קוראים לו בן." } }
+  - { id: "her", text: "her", translation: "שלה", pos: determiner, pronunciation: "הֶר", example: { text: "Her name is Rachel.", translation: "קוראים לה רחל." } }
+  - { id: "our", text: "our", translation: "שלנו", pos: determiner, pronunciation: "אַוְור" }
+  - { id: "their", text: "their", translation: "שלהם, שלהן", pos: determiner, pronunciation: "דֶ'ר" }
+  - { id: "how-old", text: "How old…?", translation: "בן כמה…? / בת כמה…?", pos: phrase, pronunciation: "הַאוּ אוֹלְד", example: { text: "How old is your sister?", translation: "בת כמה אחותך?" } }
+  - { id: "years-old", text: "years old", translation: "(בגיל) … שנים", pos: phrase, pronunciation: "יִירְז אוֹלְד", example: { text: "He's thirty years old.", translation: "הוא בן שלושים." } }
+  - { id: "eleven", text: "eleven", translation: "אחת עשרה", pos: number, pronunciation: "אִילֶבֶן" }
+  - { id: "twelve", text: "twelve", translation: "שתים עשרה", pos: number, pronunciation: "טְוֶולְב" }
+  - { id: "fifteen", text: "fifteen", translation: "חמש עשרה", pos: number, pronunciation: "פִיפְטִין" }
+  - { id: "twenty", text: "twenty", translation: "עשרים", pos: number, pronunciation: "טְוֶונְטִי" }
+  - { id: "thirty", text: "thirty", translation: "שלושים", pos: number, pronunciation: "ת'רְטִי" }
+  - { id: "forty", text: "forty", translation: "ארבעים", pos: number, pronunciation: "פוֹרְטִי" }
+  - { id: "fifty", text: "fifty", translation: "חמישים", pos: number, pronunciation: "פִיפְטִי" }
+  - { id: "hundred", text: "a hundred", translation: "מאה", pos: number, pronunciation: "אֶ הָאנְדְרֶד" }
+
+grammar:
+  - id: possessives
+    title: { he: "his, her, our, their: של מי?", en: "his, her, our, their" }
+    explanation: |
+      בעברית מוסיפים סיומת: אחותו, אחותה. באנגלית שמים מילה לפני השם:
+
+      - **my** שלי, **your** שלך, **his** שלו, **her** שלה, **our** שלנו, **their** שלהם
+
+      כשיש שם של אדם, מוסיפים **'s**: **Ben's sister** – האחות של בן. **Noa's family** – המשפחה של נועה.
+
+      שימו לב ל־his ו־her: הבחירה תלויה במי ש"מחזיק", לא בדבר עצמו. **his sister** – האחות שלו.
+    examples:
+      - { text: "Her name is Rachel.", translation: "קוראים לה רחל." }
+      - { text: "This is Ben's sister.", translation: "זו האחות של בן." }
+      - { text: "Our parents are from Haifa.", translation: "ההורים שלנו מחיפה." }
+
+lessons:
+  # ------------------------------------------------------------------ 1
+  - id: u3-l1
+    kind: new
+    title: { he: "זו המשפחה שלי", en: "This is my family" }
+    exercises:
+      - id: u3-l1-01
+        type: dialogue
+        scene: בהפסקת קפה, נועה מראה לבן תמונה בטלפון.
+        lines:
+          - { speaker: "noa", text: "Look, this is my family.", translation: "תראה, זו המשפחה שלי." }
+          - { speaker: "ben", text: "Who is this?", translation: "מי זה?" }
+          - { speaker: "noa", text: "This is my father, and this is my mother.", translation: "זה אבא שלי, וזו אמא שלי." }
+          - { speaker: "ben", text: "And who is this?", translation: "ומי זה?" }
+          - { speaker: "noa", text: "This is my brother, Yoni. And this is my sister, Tamar.", translation: "זה אח שלי, יוני. וזו אחותי, תמר." }
+      - { id: "u3-l1-02", type: "learn", lexeme: "family" }
+      - { id: "u3-l1-03", type: "learn", lexeme: "this-is" }
+      - { id: "u3-l1-04", type: "learn", lexeme: "mother" }
+      - { id: "u3-l1-05", type: "learn", lexeme: "father" }
+      - id: u3-l1-06
+        type: multiple_choice
+        prompt: "This is my father. – מה פירוש המשפט?"
+        options: [זה אבא שלי., זו אמא שלי., זו המשפחה שלי.]
+        correct: 0
+        lexemes: [this-is, father]
+      - { id: "u3-l1-07", type: "learn", lexeme: "brother" }
+      - { id: "u3-l1-08", type: "learn", lexeme: "sister" }
+      - id: u3-l1-09
+        type: match_pairs
+        pairs:
+          - [mother, אמא]
+          - [father, אבא]
+          - [brother, אח]
+          - [sister, אחות]
+          - [family, משפחה]
+        lexemes: [mother, father, brother, sister, family]
+      - { id: "u3-l1-10", type: "learn", lexeme: "who" }
+      - id: u3-l1-11
+        type: word_bank
+        prompt: "מי זה?"
+        answers: ["Who is this?", "Who's this?"]
+        distractors: [where, my]
+        lexemes: [who, this-is]
+      - id: u3-l1-12
+        type: listening_choice
+        audioText: "This is my sister."
+        question: מה שמעתם?
+        options: [זו אחותי., זה אח שלי., זו אמא שלי.]
+        correct: 0
+        lexemes: [this-is, sister]
+      - id: u3-l1-13
+        type: dialogue_gap
+        lines:
+          - { speaker: "ben", text: "Who is this?", translation: "מי זה?" }
+          - { speaker: "noa", text: "This is my brother, Yoni.", translation: "זה אח שלי, יוני." }
+        gap: 1
+        distractors: ["Where is my brother?", "I'm from Yoni."]
+        lexemes: [this-is, brother]
+      - id: u3-l1-14
+        type: translate
+        direction: to_target
+        prompt: "זו אמא שלי."
+        answers: ["This is my mother.", "This is my mom.", "This is my mum."]
+        lexemes: [this-is, mother]
+      - id: u3-l1-15
+        type: speak_repeat
+        text: "This is my family: my mother, my father and my sister."
+        translation: "זו המשפחה שלי: אמא שלי, אבא שלי ואחותי."
+        lexemes: [family, mother, father, sister]
+
+  # ------------------------------------------------------------------ 2
+  - id: u3-l2
+    kind: new
+    title: { he: "יש לי שני ילדים", en: "I have two children" }
+    exercises:
+      - { id: "u3-l2-01", type: "learn", lexeme: "i-have" }
+      - { id: "u3-l2-02", type: "learn", lexeme: "children" }
+      - id: u3-l2-03
+        type: word_bank
+        prompt: "יש לי שלושה ילדים."
+        answers: ["I have three children."]
+        distractors: [are, is]
+        lexemes: [i-have, children, three]
+      - { id: "u3-l2-04", type: "learn", lexeme: "son" }
+      - { id: "u3-l2-05", type: "learn", lexeme: "daughter" }
+      - id: u3-l2-06
+        type: multiple_choice
+        prompt: איך אומרים "בת" (של מישהו)?
+        options: [daughter, sister, son]
+        correct: 0
+        lexemes: [daughter]
+      - { id: "u3-l2-07", type: "learn", lexeme: "husband" }
+      - { id: "u3-l2-08", type: "learn", lexeme: "wife" }
+      - { id: "u3-l2-09", type: "learn", lexeme: "parents" }
+      - id: u3-l2-10
+        type: match_pairs
+        pairs:
+          - [son, בן]
+          - [daughter, בת]
+          - [husband, בעל]
+          - [wife, אישה]
+          - [parents, הורים]
+          - [children, ילדים]
+        lexemes: [son, daughter, husband, wife, parents, children]
+      - { id: "u3-l2-11", type: "learn", lexeme: "friend" }
+      - id: u3-l2-12
+        type: tip
+        title: friend – חבר או חברה?
+        text: |
+          באנגלית friend זה גם חבר וגם חברה, בלי הבדל. friend לא אומר "בן זוג".
+
+          לבן זוג אומרים boyfriend, ולבת זוג girlfriend.
+      - id: u3-l2-13
+        type: dialogue_gap
+        lines:
+          - { speaker: "ben", text: "Do you have children, Noa?", translation: "יש לך ילדים, נועה?" }
+          - { speaker: "noa", text: "No, I don't. But I have a brother and a sister.", translation: "לא. אבל יש לי אח ואחות." }
+        gap: 1
+        distractors: ["Yes, I'm a daughter.", "My children is Yoni."]
+        lexemes: [i-have, brother, sister]
+      - id: u3-l2-14
+        type: translate
+        direction: to_source
+        prompt: "Miriam is my friend."
+        answers: ["מרים היא חברה שלי.", "מרים חברה שלי.", "מרים היא חברה שלי", "מרים חברה שלי"]
+        lexemes: [friend]
+      - id: u3-l2-15
+        type: dictation
+        text: "My parents are from Haifa."
+        lexemes: [parents]
+      - id: u3-l2-16
+        type: speak_repeat
+        text: "I have a son and a daughter."
+        translation: "יש לי בן ובת."
+        lexemes: [i-have, son, daughter]
+
+  # ------------------------------------------------------------------ 3
+  - id: u3-l3
+    kind: grammar
+    grammar: possessives
+    title: { he: "שלו, שלה, שלנו", en: "his, her, our" }
+    exercises:
+      - { id: "u3-l3-01", type: "learn", lexeme: "his" }
+      - { id: "u3-l3-02", type: "learn", lexeme: "her" }
+      - id: u3-l3-03
+        type: fill_blank
+        sentence: "This is Rachel. ___ name is Rachel."
+        translation: "זו רחל. קוראים לה רחל."
+        answers: [Her]
+        options: [Her, His, My]
+        lexemes: [her]
+      - id: u3-l3-04
+        type: fill_blank
+        sentence: "Ben is from London. ___ sister is from London too."
+        translation: "בן מלונדון. גם אחותו מלונדון."
+        answers: [His]
+        options: [His, Her, Their]
+        lexemes: [his]
+      - { id: "u3-l3-05", type: "learn", lexeme: "our" }
+      - { id: "u3-l3-06", type: "learn", lexeme: "their" }
+      - id: u3-l3-07
+        type: multiple_choice
+        prompt: "האחות של בן – איך כותבים?"
+        options: ["Ben's sister", "Ben sister", "sister Ben"]
+        correct: 0
+        lexemes: [sister]
+      - id: u3-l3-08
+        type: word_bank
+        prompt: "ההורים שלנו מישראל."
+        answers: ["Our parents are from Israel."]
+        distractors: [is, their]
+        lexemes: [our, parents]
+      - id: u3-l3-09
+        type: match_pairs
+        pairs:
+          - [my, שלי]
+          - [his, שלו]
+          - [her, שלה]
+          - [our, שלנו]
+          - [their, שלהם]
+        lexemes: [my, his, her, our, their]
+      - id: u3-l3-10
+        type: translate
+        direction: to_target
+        prompt: "קוראים לו יוני."
+        answers: ["His name is Yoni.", "His name's Yoni."]
+        lexemes: [his, name]
+      - id: u3-l3-11
+        type: dialogue_gap
+        lines:
+          - { speaker: "noa", text: "Who is Rachel?", translation: "מי זאת רחל?" }
+          - { speaker: "ben", text: "She's my sister. Her family is in London.", translation: "היא אחותי. המשפחה שלה בלונדון." }
+        gap: 1
+        distractors: ["She's my sister. His family is in London.", "He's my sister."]
+        lexemes: [her, sister]
+      - id: u3-l3-12
+        type: translate
+        direction: to_source
+        prompt: "This is Noa's brother."
+        answers: ["זה האח של נועה.", "זה אח של נועה.", "זה האח של נועה", "זה אח של נועה"]
+        lexemes: [brother]
+      - id: u3-l3-13
+        type: speak_repeat
+        text: "Her name is Rachel. His name is Ben."
+        translation: "קוראים לה רחל. קוראים לו בן."
+        lexemes: [her, his]
+
+  # ------------------------------------------------------------------ 4
+  - id: u3-l4
+    kind: listening
+    title: { he: "בת כמה היא?", en: "How old is she?" }
+    exercises:
+      - id: u3-l4-01
+        type: dialogue
+        scene: בן ונועה ממשיכים לדבר על המשפחות שלהם.
+        lines:
+          - { speaker: "ben", text: "How old is your brother?", translation: "בן כמה אח שלך?" }
+          - { speaker: "noa", text: "He's thirty. And your sister?", translation: "הוא בן שלושים. ואחותך?" }
+          - { speaker: "ben", text: "Rachel is twenty-five.", translation: "רחל בת עשרים וחמש." }
+          - { speaker: "noa", text: "And your parents?", translation: "וההורים שלך?" }
+          - { speaker: "ben", text: "My father is sixty, and my mother is fifty-eight.", translation: "אבא שלי בן שישים, ואמא שלי בת חמישים ושמונה." }
+      - { id: "u3-l4-02", type: "learn", lexeme: "how-old" }
+      - { id: "u3-l4-03", type: "learn", lexeme: "years-old" }
+      - { id: "u3-l4-04", type: "learn", lexeme: "eleven" }
+      - { id: "u3-l4-05", type: "learn", lexeme: "twelve" }
+      - { id: "u3-l4-06", type: "learn", lexeme: "fifteen" }
+      - id: u3-l4-07
+        type: tip
+        title: "teen או ty?"
+        text: |
+          13 עד 19 נגמרים ב־teen ומודגשים בסוף: fifTEEN, sixTEEN.
+
+          20, 30, 40… נגמרים ב־ty ומודגשים בהתחלה: TWENty, FIFty. ככה שומעים את ההבדל בין fifteen ל־fifty.
+
+          מספר כמו 25 נבנה מעשרים + חמש: twenty-five.
+      - { id: "u3-l4-08", type: "learn", lexeme: "twenty" }
+      - { id: "u3-l4-09", type: "learn", lexeme: "thirty" }
+      - { id: "u3-l4-10", type: "learn", lexeme: "forty" }
+      - { id: "u3-l4-11", type: "learn", lexeme: "fifty" }
+      - { id: "u3-l4-12", type: "learn", lexeme: "hundred" }
+      - id: u3-l4-13
+        type: listening_choice
+        audioText: "fifty"
+        question: איזה מספר שמעתם?
+        options: ["50", "15", "5"]
+        correct: 0
+        lexemes: [fifty, fifteen]
+      - id: u3-l4-14
+        type: multiple_choice
+        prompt: "בת כמה רחל, האחות של בן?"
+        options: ["25", "30", "58"]
+        correct: 0
+        lexemes: [twenty]
+      - id: u3-l4-15
+        type: dialogue_gap
+        lines:
+          - { speaker: "rachel", text: "How old are you, Noa?", translation: "בת כמה את, נועה?" }
+          - { speaker: "noa", text: "I'm twenty-nine.", translation: "אני בת עשרים ותשע." }
+        gap: 1
+        distractors: ["I have twenty-nine.", "I'm twenty-nine old."]
+        lexemes: [how-old, twenty]
+      - id: u3-l4-16
+        type: translate
+        direction: to_target
+        prompt: "הוא בן שלושים."
+        answers: ["He's thirty.", "He is thirty.", "He's thirty years old.", "He is thirty years old.", "He's 30.", "He is 30."]
+        lexemes: [thirty, years-old]
+      - id: u3-l4-17
+        type: dictation
+        text: "forty-two"
+        answers: ["forty-two", "forty two", "42"]
+        lexemes: [forty, two]
+      - id: u3-l4-18
+        type: speak_repeat
+        text: "How old is your sister? She's twenty-five."
+        translation: "בת כמה אחותך? היא בת עשרים וחמש."
+        lexemes: [how-old, sister, twenty, five]
+
+  # ------------------------------------------------------------------ 5
+  - id: u3-review
+    kind: review
+    title: { he: "חזרה: משפחה וחברים", en: "Review: family and friends" }
+    exercises:
+      - id: u3-r-01
+        type: match_pairs
+        pairs:
+          - [wife, אישה]
+          - [friend, חבר]
+          - [their, שלהם]
+          - [twelve, "12"]
+          - [forty, "40"]
+        lexemes: [wife, friend, their, twelve, forty]
+      - id: u3-r-02
+        type: listening_choice
+        audioText: "My daughter is fifteen."
+        question: מה שמעתם?
+        options: [הבת שלי בת חמש עשרה., הבת שלי בת חמישים., הבן שלי בן חמש עשרה.]
+        correct: 0
+        lexemes: [daughter, fifteen]
+      - id: u3-r-03
+        type: fill_blank
+        sentence: "Noa has a brother. ___ brother is thirty."
+        translation: "לנועה יש אח. אחיה בן שלושים."
+        answers: [Her]
+        options: [Her, His, Our]
+        lexemes: [her, brother]
+      - id: u3-r-04
+        type: word_bank
+        prompt: "זה הבעל שלה."
+        answers: ["This is her husband."]
+        distractors: [his, wife]
+        lexemes: [this-is, her, husband]
+      - id: u3-r-05
+        type: dialogue_gap
+        lines:
+          - { speaker: "eli", text: "Is this your family?", translation: "זאת המשפחה שלך?" }
+          - { speaker: "ben", text: "Yes. These are my parents, and this is my sister.", translation: "כן. אלה ההורים שלי, וזו אחותי." }
+        gap: 1
+        distractors: ["Yes. I'm from my family.", "No, she isn't my brother."]
+        lexemes: [parents, sister]
+      - id: u3-r-06
+        type: translate
+        direction: to_target
+        prompt: "בן כמה אבא שלך?"
+        answers: ["How old is your father?", "How old's your father?", "How old is your dad?"]
+        lexemes: [how-old, father]
+      - id: u3-r-07
+        type: multiple_choice
+        prompt: "האחות של נועה – איך כותבים?"
+        options: ["Noa's sister", "Noa sister", "sister of Noa's"]
+        correct: 0
+        lexemes: [sister]
+      - id: u3-r-08
+        type: translate
+        direction: to_source
+        prompt: "I have two children: a son and a daughter."
+        answers: ["יש לי שני ילדים: בן ובת.", "יש לי שני ילדים, בן ובת.", "יש לי שני ילדים בן ובת"]
+        lexemes: [i-have, children, son, daughter]
+      - id: u3-r-09
+        type: dictation
+        text: "Who is this?"
+        answers: ["Who is this?", "Who's this?"]
+        lexemes: [who]
+      - id: u3-r-10
+        type: speak_repeat
+        text: "This is my friend Miriam. She's from Spain."
+        translation: "זו החברה שלי מרים. היא מספרד."
+        lexemes: [friend, she]

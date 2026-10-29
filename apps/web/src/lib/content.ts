@@ -69,3 +69,14 @@ export function useLoad<T>(fn: () => Promise<T>, deps: unknown[]): { data?: T; e
   }, deps);
   return state;
 }
+
+/** Everything an exercise needs to know about its course. */
+export function exerciseContext(data: { manifest: CourseManifest; units: UnitPack[] }) {
+  return {
+    target: data.manifest.target,
+    source: data.manifest.source,
+    speechLang: data.manifest.speechLang,
+    characters: data.manifest.characters,
+    lexemes: lexemeIndex(data.units),
+  };
+}

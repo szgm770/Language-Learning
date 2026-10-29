@@ -15,14 +15,48 @@ function pickVoice(lang: string): SpeechSynthesisVoice | undefined {
   );
 }
 
-export function speak(text: string, lang: string, slow = false): void {
-  if (!speechSupported()) return;
-  const synth = window.speechSynthesis;
-  synth.cancel();
+export interface SpeakOptions {
+  slow?: boolean;
+  /** Voice pitch, to tell characters apart (0.5–2). */
+  pitch?: number;
+}
+
+function utterance(text: string, lang: string, opts: SpeakOptions) {
   const u = new SpeechSynthesisUtterance(text);
   u.lang = lang;
-  u.rate = slow ? 0.6 : 0.95;
+  u.rate = opts.slow ? 0.6 : 0.95;
+  u.pitch = opts.pitch ?? 1;
   const voice = pickVoice(lang);
   if (voice) u.voice = voice;
-  synth.speak(u);
+  return u;
+}
+
+export function speak(text: string, lang: string, opts: SpeakOptions | boolean = {}): void {
+  if (!speechSupported()) return;
+  const o = typeof opts === "boolean" ? { slow: opts } : opts;
+  window.speechSynthesis.cancel();
+  window.speechSynthesis.speak(utterance(text, lang, o));
+}
+
+/** Plays lines one after another; `onLine` reports which line is being spoken (-1 when done). */
+export function speakSequence(
+  lines: { text: string; pitch?: number }[],
+  lang: string,
+  onLine: (index: number) => void,
+): () => void {
+  if (!speechSupported()) return () => undefined;
+  const synth = window.speechSynthesis;
+  synth.cancel();
+  let stopped = false;
+  lines.forEach((l, i) => {
+    const u = utterance(l.text, lang, { pitch: l.pitch });
+    u.onstart = () => !stopped && onLine(i);
+    if (i === lines.length - 1) u.onend = () => !stopped && onLine(-1);
+    synth.speak(u);
+  });
+  return () => {
+    stopped = true;
+    synth.cancel();
+    onLine(-1);
+  };
 }

@@ -40,3 +40,25 @@ describe("tiles", () => {
     expect(seededShuffle([1, 2, 3, 4, 5, 6], 42)).toEqual(seededShuffle([1, 2, 3, 4, 5, 6], 42));
   });
 });
+
+describe("new lesson steps", () => {
+  it("accepts 'seen' for learn cards and dialogues", () => {
+    const learn: Exercise = { id: "l", type: "learn", lexeme: "hello", lexemes: [] };
+    expect(ev.evaluate(learn, { type: "seen" }, ctx).correct).toBe(true);
+  });
+  it("checks the chosen reply in a conversation", () => {
+    const ex: Exercise = {
+      id: "g",
+      type: "dialogue_gap",
+      lines: [
+        { speaker: "noa", text: "How are you?", translation: "מה שלומך?" },
+        { speaker: "sam", text: "I'm fine, thanks.", translation: "אני בסדר, תודה." },
+      ],
+      gap: 1,
+      distractors: ["My name is Sam."],
+      lexemes: [],
+    };
+    expect(ev.evaluate(ex, { type: "dialogue_gap", choice: "I'm fine, thanks." }, ctx).correct).toBe(true);
+    expect(ev.evaluate(ex, { type: "dialogue_gap", choice: "My name is Sam." }, ctx)).toMatchObject({ correct: false, expected: "I'm fine, thanks." });
+  });
+});

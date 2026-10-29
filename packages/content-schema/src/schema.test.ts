@@ -6,6 +6,8 @@ const unit = {
   id: "u1",
   cefr: "A1",
   title: { he: "יחידה", en: "Unit" },
+  scene: "hello",
+  story: "סיפור",
   canDo: ["x"],
   vocabulary: [{ id: "hello", text: "Hello", translation: "שלום", pos: "interjection" }],
   lessons: [

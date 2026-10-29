@@ -12,7 +12,8 @@ export const Cefr = z.enum(["A1", "A2", "B1", "B2", "C1", "C2"]);
 export type Cefr = z.infer<typeof Cefr>;
 
 /** Text shown in the learner's interface language. */
-export const UiText = z.object({ he: z.string().min(1), en: z.string().min(1) });
+/** Strict, so a YAML slip like `{ he: היי, אני נועה }` (an unquoted comma) is caught instead of cut short. */
+export const UiText = z.strictObject({ he: z.string().min(1), en: z.string().min(1) });
 export type UiText = z.infer<typeof UiText>;
 
 export const PartOfSpeech = z.enum([
@@ -36,7 +37,7 @@ export const Lexeme = z.object({
   pos: PartOfSpeech,
   /** Pronunciation hint in the learner's script, e.g. Hebrew letters for English words. */
   pronunciation: z.string().optional(),
-  example: z.object({ text: z.string(), translation: z.string() }).optional(),
+  example: z.strictObject({ text: z.string(), translation: z.string() }).optional(),
 });
 export type Lexeme = z.infer<typeof Lexeme>;
 
@@ -121,8 +122,53 @@ export const SpeakRepeat = ExerciseBase.extend({
   translation: z.string().min(1),
 });
 
+/** Meet a new word: shown with audio and an example, nothing to answer. */
+export const Learn = ExerciseBase.extend({
+  type: z.literal("learn"),
+  lexeme: Id,
+});
+
+const DialogueLine = z.strictObject({
+  /** A character id from the course's `characters`. */
+  speaker: Id,
+  text: z.string().min(1),
+  translation: z.string().min(1),
+});
+
+/** A short conversation to read and listen to. Nothing to answer. */
+export const Dialogue = ExerciseBase.extend({
+  type: z.literal("dialogue"),
+  /** One line in Hebrew setting the scene, e.g. "נועה פוגשת את סאם בשיחת וידאו". */
+  scene: z.string().min(1),
+  lines: z.array(DialogueLine).min(2).max(12),
+});
+
+/** Complete a conversation: one line is missing; pick the reply that fits. */
+export const DialogueGap = ExerciseBase.extend({
+  type: z.literal("dialogue_gap"),
+  lines: z.array(DialogueLine.extend({ text: z.string().min(1) })).min(2).max(8),
+  /** Index of the missing line in `lines`; its `text` is the correct answer. */
+  gap: z.number().int().min(0),
+  /** Wrong replies shown with the right one. */
+  distractors: z.array(z.string().min(1)).min(1).max(3),
+});
+
+/** A short note: culture, pronunciation or a usage tip. Nothing to answer. */
+export const Tip = ExerciseBase.extend({
+  type: z.literal("tip"),
+  title: z.string().min(1),
+  text: z.string().min(10),
+});
+
+/** Steps the learner reads or listens to, without an answer to check. */
+export const UNGRADED_TYPES = ["learn", "dialogue", "tip"] as const;
+
 export const Exercise = z
   .discriminatedUnion("type", [
+    Learn,
+    Dialogue,
+    DialogueGap,
+    Tip,
     MultipleChoice,
     MatchPairs,
     WordBank,
@@ -136,12 +182,18 @@ export const Exercise = z
     if ((ex.type === "multiple_choice" || ex.type === "listening_choice") && ex.correct >= ex.options.length) {
       ctx.addIssue({ code: "custom", message: `correct index ${ex.correct} is out of range`, path: ["correct"] });
     }
+    if (ex.type === "dialogue_gap" && ex.gap >= ex.lines.length) {
+      ctx.addIssue({ code: "custom", message: `gap ${ex.gap} is out of range`, path: ["gap"] });
+    }
     if (ex.type === "fill_blank" && ex.options && !ex.answers.some((a) => ex.options!.includes(a))) {
       ctx.addIssue({ code: "custom", message: "one of the answers must appear in options", path: ["options"] });
     }
   });
 export type Exercise = z.infer<typeof Exercise>;
 export type ExerciseType = Exercise["type"];
+export type DialogueLine = z.infer<typeof DialogueLine>;
+
+export const isGraded = (ex: Exercise) => !(UNGRADED_TYPES as readonly string[]).includes(ex.type);
 
 export const Lesson = z.object({
   id: Id,
@@ -153,10 +205,17 @@ export const Lesson = z.object({
 });
 export type Lesson = z.infer<typeof Lesson>;
 
+/** Illustrations available for unit cards (drawn in the web app). */
+export const Scene = z.enum(["hello", "globe", "family", "cafe", "day", "work", "town", "shopping", "free-time", "travel"]);
+export type Scene = z.infer<typeof Scene>;
+
 export const Unit = z.object({
   id: Id,
   cefr: Cefr,
   title: UiText,
+  scene: Scene,
+  /** One line in Hebrew: what happens in this unit's story. */
+  story: z.string().min(1),
   /** What the learner can do after the unit. */
   canDo: z.array(z.string().min(1)).min(1),
   vocabulary: z.array(Lexeme).default([]),
@@ -164,6 +223,21 @@ export const Unit = z.object({
   lessons: z.array(Lesson).min(1),
 });
 export type Unit = z.infer<typeof Unit>;
+
+export const Character = z.object({
+  id: Id,
+  /** Name as written in the target language. */
+  name: z.string().min(1),
+  /** Name in Hebrew letters. */
+  he: z.string().min(1),
+  /** Avatar colour. */
+  color: z.enum(["blue", "amber", "green", "rose", "violet", "teal"]),
+  /** Avatar hair style. */
+  look: z.enum(["short", "long", "curly", "bald"]).default("short"),
+  /** Speech voice pitch hint for text-to-speech (0.5–2). */
+  pitch: z.number().min(0.5).max(2).default(1),
+});
+export type Character = z.infer<typeof Character>;
 
 export const Course = z.object({
   id: Id,
@@ -175,6 +249,7 @@ export const Course = z.object({
   units: z.array(Id).min(1),
   /** Web Speech API voice language, e.g. "en-US". */
   speechLang: z.string().min(2),
+  characters: z.array(Character).default([]),
 });
 export type Course = z.infer<typeof Course>;
 
@@ -185,6 +260,8 @@ export const CourseManifest = Course.extend({
       id: Id,
       cefr: Cefr,
       title: UiText,
+      scene: Scene,
+      story: z.string(),
       lessonCount: z.number().int(),
       /** Content hash; changes whenever the unit changes. */
       version: z.string(),

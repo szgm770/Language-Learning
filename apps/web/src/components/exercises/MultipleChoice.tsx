@@ -8,7 +8,7 @@ export function MultipleChoice({ ex, ctx, locked, onChange }: ExerciseProps<"mul
   const onPick = useMemo(() => (choice: number) => onChange({ type: "multiple_choice", choice }), [onChange]);
   return (
     <div className="flex flex-col gap-6">
-      <h2 className="text-2xl font-medium">{ex.prompt}</h2>
+      <h2 className="text-2xl font-bold">{ex.prompt}</h2>
       <Choices options={ex.options} lang={ctx.target} locked={locked} onPick={onPick} />
     </div>
   );

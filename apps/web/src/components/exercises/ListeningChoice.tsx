@@ -14,7 +14,7 @@ export function ListeningChoice({ ex, ctx, locked, onChange }: ExerciseProps<"li
   const onPick = useMemo(() => (choice: number) => onChange({ type: "listening_choice", choice }), [onChange]);
   return (
     <div className="flex flex-col gap-6">
-      <h2 className="text-2xl font-medium">{ex.question}</h2>
+      <h2 className="text-2xl font-bold">{ex.question}</h2>
       <div className="flex justify-center py-2">
         <SpeakButton text={ex.audioText} lang={ctx.speechLang} size="lg" label="השמעה שוב" />
       </div>

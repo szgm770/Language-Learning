@@ -10,7 +10,7 @@ export function Translate({ ex, ctx, locked, onChange }: ExerciseProps<"translat
   const answerLang = toTarget ? ctx.target : ctx.source;
   return (
     <div className="flex flex-col gap-6">
-      <h2 className="text-2xl font-medium">כתבו {inLanguage(answerLang)}</h2>
+      <h2 className="text-2xl font-bold">כתבו {inLanguage(answerLang)}</h2>
       <div className="flex items-center gap-3">
         {toTarget ? (
           <p className="text-2xl">{ex.prompt}</p>

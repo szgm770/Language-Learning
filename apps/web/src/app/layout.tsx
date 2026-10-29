@@ -1,6 +1,4 @@
 import "@fontsource-variable/rubik";
-import "@fontsource/frank-ruhl-libre/400.css";
-import "@fontsource/frank-ruhl-libre/500.css";
 import "./globals.css";
 import type { Metadata, Viewport } from "next";
 import type { ReactNode } from "react";

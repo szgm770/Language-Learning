@@ -62,6 +62,7 @@ export const SettingOp = Base.extend({
     "goal",
     "soundOn",
     "currentCourse",
+    "displayName",
   ]),
   value: z.union([z.string().max(100), z.number(), z.boolean(), z.null()]),
 });

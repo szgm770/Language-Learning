@@ -14,7 +14,7 @@ export function FillBlank({ ex, ctx, locked, onChange }: ExerciseProps<"fill_bla
   };
   return (
     <div className="flex flex-col gap-6">
-      <h2 className="text-2xl font-medium">השלימו את החסר</h2>
+      <h2 className="text-2xl font-bold">השלימו את החסר</h2>
       <p dir="ltr" lang={ctx.target} className="word text-center text-3xl">
         {before}
         <span className="mx-1 inline-block min-w-20 border-b-2 border-cobalt text-cobalt">{value || " "}</span>

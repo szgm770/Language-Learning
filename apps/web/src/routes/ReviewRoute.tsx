@@ -3,7 +3,7 @@
 import { useMemo } from "react";
 import { ReviewPlayer } from "@/components/ReviewPlayer";
 import { LoadError, Loading } from "@/components/ui";
-import { lexemeIndex, loadCourse, useLoad } from "@/lib/content";
+import { exerciseContext, lexemeIndex, loadCourse, useLoad } from "@/lib/content";
 import { useLearner } from "@/lib/store";
 
 export function ReviewRoute({ courseId }: { courseId: string }) {
@@ -16,7 +16,7 @@ export function ReviewRoute({ courseId }: { courseId: string }) {
     <ReviewPlayer
       courseId={courseId}
       lexemes={lexemes}
-      ctx={{ target: data.manifest.target, source: data.manifest.source, speechLang: data.manifest.speechLang }}
+      ctx={exerciseContext(data)}
     />
   );
 }

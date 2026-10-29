@@ -12,7 +12,7 @@ export function Dictation({ ex, ctx, locked, onChange }: ExerciseProps<"dictatio
   }, [ex.text, ctx.speechLang]);
   return (
     <div className="flex flex-col gap-6">
-      <h2 className="text-2xl font-medium">כתבו מה ששמעתם</h2>
+      <h2 className="text-2xl font-bold">כתבו מה ששמעתם</h2>
       <div className="flex justify-center gap-3">
         <button type="button" className="btn-primary min-h-16 px-8 text-lg" onClick={() => speak(ex.text, ctx.speechLang)}>
           השמעה
