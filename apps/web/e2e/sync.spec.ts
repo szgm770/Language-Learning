@@ -67,6 +67,7 @@ test("progress follows the learner to a new device and survives clearing it", as
   await b.goto("/settings");
   await b.getByRole("button", { name: "מחיקת הנתונים מהמכשיר הזה" }).click();
   await b.getByRole("button", { name: "למחוק מהמכשיר" }).click();
+  await expect(b).not.toHaveURL(/\/settings$/); // the app reloads at the home screen
   await synced(b);
   await b.goto("/");
   await expect(b.getByRole("link", { name: /להמשיך: מילות נימוס/ })).toBeVisible();
