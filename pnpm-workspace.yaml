@@ -6,7 +6,3 @@ onlyBuiltDependencies:
   - esbuild
   - sharp
   - "@tailwindcss/oxide"
-
-ignoredBuiltDependencies:
-  - "@firebase/util"
-  - protobufjs

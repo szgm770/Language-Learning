@@ -4,26 +4,6 @@ import Link from "next/link";
 import { today } from "@/lib/day";
 import { streak } from "@/lib/progress";
 import { useLearner } from "@/lib/store";
-import { useSyncStatus } from "@/lib/sync-client";
-
-function SyncDot() {
-  const s = useSyncStatus();
-  const map: Record<string, { color: string; label: string }> = {
-    off: { color: "bg-line", label: "שמור במכשיר הזה" },
-    guest: { color: "bg-line", label: "שמור במכשיר הזה. התחברו כדי לגבות" },
-    idle: { color: "bg-mint", label: "מסונכרן" },
-    syncing: { color: "bg-cobalt", label: "מסנכרן…" },
-    offline: { color: "bg-saffron", label: "אין חיבור. נשמר במכשיר ויסונכרן אחר כך" },
-    "needs-merge": { color: "bg-saffron", label: "צריך לאשר מיזוג התקדמות" },
-    error: { color: "bg-rose", label: "בעיה בסנכרון" },
-  };
-  const m = map[s.kind]!;
-  return (
-    <Link href="/settings" className="inline-flex size-11 items-center justify-center" aria-label={m.label} title={m.label}>
-      <span className={`size-2.5 rounded-full ${m.color}`} />
-    </Link>
-  );
-}
 
 export function TopBar() {
   const { state } = useLearner();
@@ -38,7 +18,6 @@ export function TopBar() {
         <span className="sr-only">ימים רצופים</span>
       </div>
       <div className="flex items-center">
-        <SyncDot />
         <Link href="/settings" className="inline-flex size-11 items-center justify-center text-ink-soft" aria-label="הגדרות">
           <svg viewBox="0 0 24 24" className="size-6" aria-hidden="true">
             <circle cx="12" cy="12" r="3" stroke="currentColor" strokeWidth="1.8" fill="none" />

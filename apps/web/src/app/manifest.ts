@@ -1,4 +1,7 @@
 import type { MetadataRoute } from "next";
+import { withBase } from "@/lib/base-path";
+
+export const dynamic = "force-static";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
@@ -7,13 +10,14 @@ export default function manifest(): MetadataRoute.Manifest {
     description: "לימוד שפות לדוברי עברית. עובד גם בלי אינטרנט.",
     lang: "he",
     dir: "rtl",
-    start_url: "/",
+    start_url: withBase("/"),
+    scope: withBase("/"),
     display: "standalone",
     background_color: "#f6f7fb",
     theme_color: "#3346d3",
     icons: [
-      { src: "/icon.svg", sizes: "any", type: "image/svg+xml", purpose: "any" },
-      { src: "/icon-maskable.svg", sizes: "any", type: "image/svg+xml", purpose: "maskable" },
+      { src: withBase("/icon.svg"), sizes: "any", type: "image/svg+xml", purpose: "any" },
+      { src: withBase("/icon-maskable.svg"), sizes: "any", type: "image/svg+xml", purpose: "maskable" },
     ],
   };
 }
