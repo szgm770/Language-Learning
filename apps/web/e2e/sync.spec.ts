@@ -19,7 +19,8 @@ function watch(page: Page, name: string) {
 }
 
 async function synced(page: Page) {
-  await page.goto("/settings");
+  // After sign-in the app is already on its way to /settings; a second navigation would cancel it.
+  if (!new URL(page.url()).pathname.startsWith("/settings")) await page.goto("/settings");
   try {
     await expect(page.getByText(`מחוברים בתור`)).toBeVisible({ timeout: 15_000 });
   } catch (err) {
