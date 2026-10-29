@@ -1,0 +1,391 @@
+id: u05-day
+cefr: A1
+scene: day
+title:
+  he: היום שלי
+  en: My day
+story: "בן ונועה משווים את סדר היום שלהם: מתי קמים, מתי עובדים, ולמה בישראל עובדים ביום ראשון."
+canDo:
+  - לתאר את סדר היום שלי
+  - לשאול ולהגיד מה השעה
+  - להגיד באיזה יום משהו קורה
+  - לשאול שאלות עם do ולענות
+
+vocabulary:
+  - { id: "get-up", text: "get up", translation: "לקום", pos: verb, pronunciation: "גֶט אָפּ", example: { text: "I get up at seven.", translation: "אני קמה בשבע." } }
+  - { id: "have-breakfast", text: "have breakfast", translation: "לאכול ארוחת בוקר", pos: phrase, pronunciation: "הֶב בְּרֶקְפֶסְט" }
+  - { id: "go-to-work", text: "go to work", translation: "ללכת לעבודה", pos: phrase, pronunciation: "גוֹ טוּ וֶורְק" }
+  - { id: "go-home", text: "go home", translation: "ללכת הביתה", pos: phrase, pronunciation: "גוֹ הוֹם" }
+  - { id: "have-dinner", text: "have dinner", translation: "לאכול ארוחת ערב", pos: phrase, pronunciation: "הֶב דִינֶר" }
+  - { id: "go-to-bed", text: "go to bed", translation: "ללכת לישון", pos: phrase, pronunciation: "גוֹ טוּ בֶּד" }
+  - { id: "every-day", text: "every day", translation: "כל יום", pos: phrase, pronunciation: "אֶבְרִי דֵיי", example: { text: "I have coffee every day.", translation: "אני שותה קפה כל יום." } }
+  - { id: "what-time", text: "What time…?", translation: "באיזו שעה…? / מה השעה?", pos: phrase, pronunciation: "ווֹט טַאיים", example: { text: "What time is it?", translation: "מה השעה?" } }
+  - { id: "oclock", text: "o'clock", translation: "(בשעה) עגולה", pos: phrase, pronunciation: "אוֹ קְלוֹק", example: { text: "It's nine o'clock.", translation: "השעה תשע." } }
+  - { id: "half-past", text: "half past", translation: "וחצי", pos: phrase, pronunciation: "הַאף פַּאסְט", example: { text: "half past eight", translation: "שמונה וחצי" } }
+  - { id: "at", text: "at", translation: "ב־ (בשעה)", pos: preposition, pronunciation: "אֶט", example: { text: "at six o'clock", translation: "בשעה שש" } }
+  - { id: "in-the-morning", text: "in the morning", translation: "בבוקר", pos: phrase, pronunciation: "אִין דֶ'ה מוֹרְנִינְג" }
+  - { id: "in-the-evening", text: "in the evening", translation: "בערב", pos: phrase, pronunciation: "אִין דֶ'ה אִיבְנִינְג" }
+  - { id: "early", text: "early", translation: "מוקדם", pos: adverb, pronunciation: "אֶרְלִי" }
+  - { id: "late", text: "late", translation: "מאוחר", pos: adverb, pronunciation: "לֵייט" }
+  - { id: "we", text: "we", translation: "אנחנו", pos: pronoun, pronunciation: "וִוי" }
+  - { id: "they", text: "they", translation: "הם, הן", pos: pronoun, pronunciation: "דֶ'יי" }
+  - { id: "do-question", text: "Do you…?", translation: "(שאלה בהווה) אתה…? / את…?", pos: phrase, pronunciation: "דוּ יוּ", example: { text: "Do you work on Sunday?", translation: "את עובדת ביום ראשון?" } }
+  - { id: "dont", text: "don't", translation: "לא (לפני פועל)", pos: phrase, pronunciation: "דוֹנְט", example: { text: "I don't work on Saturday.", translation: "אני לא עובד בשבת." } }
+  - { id: "work-verb", text: "work", translation: "לעבוד", pos: verb, pronunciation: "וֶורְק" }
+  - { id: "sunday", text: "Sunday", translation: "יום ראשון", pos: noun, pronunciation: "סָאנְדֵיי" }
+  - { id: "monday", text: "Monday", translation: "יום שני", pos: noun, pronunciation: "מָאנְדֵיי" }
+  - { id: "tuesday", text: "Tuesday", translation: "יום שלישי", pos: noun, pronunciation: "טְיוּזְדֵיי" }
+  - { id: "wednesday", text: "Wednesday", translation: "יום רביעי", pos: noun, pronunciation: "וֶונְזְדֵיי" }
+  - { id: "thursday", text: "Thursday", translation: "יום חמישי", pos: noun, pronunciation: "ת'רְזְדֵיי" }
+  - { id: "friday", text: "Friday", translation: "יום שישי", pos: noun, pronunciation: "פְרַאיְדֵיי" }
+  - { id: "saturday", text: "Saturday", translation: "שבת", pos: noun, pronunciation: "סֶטֶרְדֵיי" }
+  - { id: "on-day", text: "on (Monday)", translation: "ב־ (ביום מסוים)", pos: preposition, pronunciation: "אוֹן", example: { text: "on Friday", translation: "ביום שישי" } }
+
+grammar:
+  - id: present-simple
+    title: { he: "הווה פשוט: I work, we work", en: "Present simple" }
+    explanation: |
+      כדי לתאר הרגל, משהו שקורה כל יום, משתמשים בפועל כמו שהוא: **I get up at seven.** **We work in Tel Aviv.**
+
+      הצורה זהה ל־I, you, we ו־they. (עם he ו־she מוסיפים s, ביחידה הבאה.)
+
+      שלילה: **don't** לפני הפועל. **I don't work on Saturday.**
+
+      שאלה: **Do** בהתחלה. **Do you work on Sunday?** ועונים **Yes, I do.** או **No, I don't.**
+    examples:
+      - { text: "I have breakfast at eight.", translation: "אני אוכל ארוחת בוקר בשמונה." }
+      - { text: "They don't work on Friday.", translation: "הם לא עובדים ביום שישי." }
+      - { text: "Do you go to bed early? No, I don't.", translation: "את הולכת לישון מוקדם? לא." }
+
+lessons:
+  # ------------------------------------------------------------------ 1
+  - id: u5-l1
+    kind: new
+    title: { he: "אני קמה בשבע", en: "I get up at seven" }
+    exercises:
+      - id: u5-l1-01
+        type: dialogue
+        scene: "בהפסקת צהריים, בן שואל את נועה על הבוקר שלה."
+        lines:
+          - { speaker: "ben", text: "What time do you get up, Noa?", translation: "באיזו שעה את קמה, נועה?" }
+          - { speaker: "noa", text: "I get up at seven. I have breakfast and I go to work.", translation: "אני קמה בשבע. אני אוכלת ארוחת בוקר והולכת לעבודה." }
+          - { speaker: "ben", text: "I get up at six! I go to the gym every day.", translation: "אני קם בשש! אני הולך לחדר כושר כל יום." }
+          - { speaker: "noa", text: "Wow, early!", translation: "וואו, מוקדם!" }
+      - { id: "u5-l1-02", type: "learn", lexeme: "get-up" }
+      - { id: "u5-l1-03", type: "learn", lexeme: "have-breakfast" }
+      - { id: "u5-l1-04", type: "learn", lexeme: "go-to-work" }
+      - id: u5-l1-05
+        type: multiple_choice
+        prompt: "I go to work. – מה פירוש המשפט?"
+        options: [אני הולך לעבודה., אני קם בבוקר., אני הולך הביתה.]
+        correct: 0
+        lexemes: [go-to-work]
+      - { id: "u5-l1-06", type: "learn", lexeme: "go-home" }
+      - { id: "u5-l1-07", type: "learn", lexeme: "have-dinner" }
+      - { id: "u5-l1-08", type: "learn", lexeme: "go-to-bed" }
+      - id: u5-l1-09
+        type: match_pairs
+        pairs:
+          - [get up, לקום]
+          - [have breakfast, ארוחת בוקר]
+          - [go home, ללכת הביתה]
+          - [have dinner, ארוחת ערב]
+          - [go to bed, ללכת לישון]
+        lexemes: [get-up, have-breakfast, go-home, have-dinner, go-to-bed]
+      - { id: "u5-l1-10", type: "learn", lexeme: "every-day" }
+      - id: u5-l1-11
+        type: word_bank
+        prompt: "אני אוכלת ארוחת בוקר כל יום."
+        answers: ["I have breakfast every day."]
+        distractors: [dinner, get]
+        lexemes: [have-breakfast, every-day]
+      - id: u5-l1-12
+        type: listening_choice
+        audioText: "I go to bed at eleven."
+        question: מה שמעתם?
+        options: [אני הולך לישון באחת עשרה., אני קם באחת עשרה., אני הולך הביתה באחת עשרה.]
+        correct: 0
+        lexemes: [go-to-bed, eleven]
+      - id: u5-l1-13
+        type: translate
+        direction: to_target
+        prompt: "אני הולך הביתה."
+        answers: ["I go home.", "I'm going home."]
+        lexemes: [go-home]
+      - id: u5-l1-14
+        type: speak_repeat
+        text: "I get up, I have breakfast and I go to work."
+        translation: "אני קם, אוכל ארוחת בוקר והולך לעבודה."
+        lexemes: [get-up, have-breakfast, go-to-work]
+
+  # ------------------------------------------------------------------ 2
+  - id: u5-l2
+    kind: new
+    title: { he: "מה השעה?", en: "What time is it?" }
+    exercises:
+      - { id: "u5-l2-01", type: "learn", lexeme: "what-time" }
+      - { id: "u5-l2-02", type: "learn", lexeme: "oclock" }
+      - { id: "u5-l2-03", type: "learn", lexeme: "half-past" }
+      - id: u5-l2-04
+        type: tip
+        title: "וחצי באנגלית"
+        text: |
+          8:30 זה half past eight: "חצי אחרי שמונה". השעה באה אחרי.
+
+          ואם רוצים פשוט: eight thirty. שתי הצורות נכונות.
+      - id: u5-l2-05
+        type: multiple_choice
+        prompt: "איך אומרים 9:30?"
+        options: ["half past nine", "half past ten", "nine o'clock"]
+        correct: 0
+        lexemes: [half-past, nine]
+      - { id: "u5-l2-06", type: "learn", lexeme: "at" }
+      - { id: "u5-l2-07", type: "learn", lexeme: "in-the-morning" }
+      - { id: "u5-l2-08", type: "learn", lexeme: "in-the-evening" }
+      - id: u5-l2-09
+        type: fill_blank
+        sentence: "I have dinner ___ eight o'clock."
+        translation: "אני אוכל ארוחת ערב בשמונה."
+        answers: [at]
+        options: [at, on, in]
+        lexemes: [at, have-dinner]
+      - { id: "u5-l2-10", type: "learn", lexeme: "early" }
+      - { id: "u5-l2-11", type: "learn", lexeme: "late" }
+      - id: u5-l2-12
+        type: match_pairs
+        pairs:
+          - [early, מוקדם]
+          - [late, מאוחר]
+          - [in the morning, בבוקר]
+          - [in the evening, בערב]
+          - [o'clock, שעה עגולה]
+        lexemes: [early, late, in-the-morning, in-the-evening, oclock]
+      - id: u5-l2-13
+        type: listening_choice
+        audioText: "It's half past seven."
+        question: מה השעה?
+        options: ["7:30", "6:30", "7:00"]
+        correct: 0
+        lexemes: [half-past, seven]
+      - id: u5-l2-14
+        type: dialogue_gap
+        lines:
+          - { speaker: "noa", text: "What time is it?", translation: "מה השעה?" }
+          - { speaker: "ben", text: "It's ten o'clock.", translation: "השעה עשר." }
+          - { speaker: "noa", text: "Oh no, I'm late!", translation: "אוי לא, אני מאחרת!" }
+        gap: 1
+        distractors: ["It's ten clock.", "At ten o'clock, yes."]
+        lexemes: [oclock, ten]
+      - id: u5-l2-15
+        type: translate
+        direction: to_target
+        prompt: "אני קם מוקדם בבוקר."
+        answers: ["I get up early in the morning.", "I get up early."]
+        lexemes: [get-up, early, in-the-morning]
+      - id: u5-l2-16
+        type: speak_repeat
+        text: "What time is it? It's half past eight."
+        translation: "מה השעה? שמונה וחצי."
+        lexemes: [what-time, half-past]
+
+  # ------------------------------------------------------------------ 3
+  - id: u5-l3
+    kind: grammar
+    grammar: present-simple
+    title: { he: "אנחנו עובדים, הם לא", en: "We work, they don't" }
+    exercises:
+      - { id: "u5-l3-01", type: "learn", lexeme: "work-verb" }
+      - { id: "u5-l3-02", type: "learn", lexeme: "we" }
+      - { id: "u5-l3-03", type: "learn", lexeme: "they" }
+      - id: u5-l3-04
+        type: fill_blank
+        sentence: "We ___ in Tel Aviv."
+        translation: "אנחנו עובדים בתל אביב."
+        answers: [work]
+        options: [work, works, are work]
+        lexemes: [we, work-verb]
+      - { id: "u5-l3-05", type: "learn", lexeme: "dont" }
+      - id: u5-l3-06
+        type: word_bank
+        prompt: "אני לא קמה מוקדם."
+        answers: ["I don't get up early.", "I do not get up early."]
+        distractors: [am, late]
+        lexemes: [dont, get-up, early]
+      - { id: "u5-l3-07", type: "learn", lexeme: "do-question" }
+      - id: u5-l3-08
+        type: multiple_choice
+        prompt: איזו שאלה נכונה?
+        options: ["Do you work every day?", "You work every day do?", "Are you work every day?"]
+        correct: 0
+        lexemes: [do-question, work-verb, every-day]
+      - id: u5-l3-09
+        type: dialogue_gap
+        lines:
+          - { speaker: "ben", text: "Do you have breakfast at home?", translation: "את אוכלת ארוחת בוקר בבית?" }
+          - { speaker: "noa", text: "No, I don't. I have breakfast at work.", translation: "לא. אני אוכלת ארוחת בוקר בעבודה." }
+        gap: 1
+        distractors: ["No, I not. I have breakfast at work.", "No, I'm don't."]
+        lexemes: [dont, have-breakfast]
+      - id: u5-l3-10
+        type: fill_blank
+        sentence: "They ___ go to bed late."
+        translation: "הם לא הולכים לישון מאוחר."
+        answers: ["don't", "do not"]
+        options: ["don't", "doesn't", "not"]
+        lexemes: [they, dont, late]
+      - id: u5-l3-11
+        type: translate
+        direction: to_target
+        prompt: "אתה עובד בבוקר?"
+        answers: ["Do you work in the morning?"]
+        lexemes: [do-question, work-verb, in-the-morning]
+      - id: u5-l3-12
+        type: translate
+        direction: to_source
+        prompt: "We have dinner at eight o'clock."
+        answers: ["אנחנו אוכלים ארוחת ערב בשמונה.", "אנחנו אוכלים ארוחת ערב בשעה שמונה.", "אנחנו אוכלות ארוחת ערב בשמונה."]
+        lexemes: [we, have-dinner]
+      - id: u5-l3-13
+        type: speak_repeat
+        text: "Do you get up early? Yes, I do."
+        translation: "אתה קם מוקדם? כן."
+        lexemes: [do-question, get-up, early]
+
+  # ------------------------------------------------------------------ 4
+  - id: u5-l4
+    kind: listening
+    title: { he: "ימי השבוע", en: "Days of the week" }
+    exercises:
+      - id: u5-l4-01
+        type: dialogue
+        scene: "בן מנסה לקבוע פגישה עם הצוות בישראל."
+        lines:
+          - { speaker: "ben", text: "Can we meet on Friday?", translation: "אפשר להיפגש ביום שישי?" }
+          - { speaker: "noa", text: "Sorry, we don't work on Friday in Israel.", translation: "סליחה, אנחנו לא עובדים בשישי בישראל." }
+          - { speaker: "ben", text: "Really? And on Sunday?", translation: "באמת? וביום ראשון?" }
+          - { speaker: "noa", text: "Yes! We work from Sunday to Thursday.", translation: "כן! אנחנו עובדים מראשון עד חמישי." }
+          - { speaker: "ben", text: "OK, Sunday at ten o'clock.", translation: "בסדר, ראשון בעשר." }
+      - { id: "u5-l4-02", type: "learn", lexeme: "sunday" }
+      - { id: "u5-l4-03", type: "learn", lexeme: "monday" }
+      - { id: "u5-l4-04", type: "learn", lexeme: "tuesday" }
+      - { id: "u5-l4-05", type: "learn", lexeme: "wednesday" }
+      - id: u5-l4-06
+        type: match_pairs
+        pairs:
+          - [Sunday, ראשון]
+          - [Monday, שני]
+          - [Tuesday, שלישי]
+          - [Wednesday, רביעי]
+        lexemes: [sunday, monday, tuesday, wednesday]
+      - { id: "u5-l4-07", type: "learn", lexeme: "thursday" }
+      - { id: "u5-l4-08", type: "learn", lexeme: "friday" }
+      - { id: "u5-l4-09", type: "learn", lexeme: "saturday" }
+      - { id: "u5-l4-10", type: "learn", lexeme: "on-day" }
+      - id: u5-l4-11
+        type: tip
+        title: סוף השבוע של בן
+        text: |
+          באנגליה ובארצות הברית עובדים מיום שני עד שישי, וה־weekend הוא שבת וראשון. Sunday הוא יום חופש.
+
+          אז כשקובעים פגישה עם חו"ל, כדאי לבדוק מה זה "יום עבודה" אצלם.
+      - id: u5-l4-12
+        type: multiple_choice
+        prompt: "באילו ימים עובדים בצוות של נועה?"
+        options: [מראשון עד חמישי, משני עד שישי, כל יום]
+        correct: 0
+        lexemes: [sunday, thursday]
+      - id: u5-l4-13
+        type: fill_blank
+        sentence: "We don't work ___ Saturday."
+        translation: "אנחנו לא עובדים בשבת."
+        answers: ["on"]
+        options: ["on", "at", "in"]
+        lexemes: [on-day, saturday]
+      - id: u5-l4-14
+        type: dialogue_gap
+        lines:
+          - { speaker: "rachel", text: "Do you work on Monday?", translation: "את עובדת ביום שני?" }
+          - { speaker: "noa", text: "Yes, I do. I work from Sunday to Thursday.", translation: "כן. אני עובדת מראשון עד חמישי." }
+        gap: 1
+        distractors: ["Yes, I work at Monday.", "No, it's half past Monday."]
+        lexemes: [monday, sunday, thursday]
+      - id: u5-l4-15
+        type: dictation
+        text: "Wednesday"
+        lexemes: [wednesday]
+      - id: u5-l4-16
+        type: speak_repeat
+        text: "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday."
+        translation: "ראשון, שני, שלישי, רביעי, חמישי, שישי, שבת."
+        lexemes: [sunday, monday, tuesday, wednesday, thursday, friday, saturday]
+
+  # ------------------------------------------------------------------ 5
+  - id: u5-review
+    kind: review
+    title: { he: "חזרה: היום שלי", en: "Review: my day" }
+    exercises:
+      - id: u5-r-01
+        type: match_pairs
+        pairs:
+          - [Friday, שישי]
+          - [Saturday, שבת]
+          - [we, אנחנו]
+          - [they, הם]
+          - [late, מאוחר]
+        lexemes: [friday, saturday, we, they, late]
+      - id: u5-r-02
+        type: listening_choice
+        audioText: "I have dinner at half past seven in the evening."
+        question: מתי ארוחת הערב?
+        options: ["19:30", "7:30 בבוקר", "17:30"]
+        correct: 0
+        lexemes: [have-dinner, half-past, in-the-evening]
+      - id: u5-r-03
+        type: fill_blank
+        sentence: "___ you go to work on Sunday?"
+        translation: "אתה הולך לעבודה ביום ראשון?"
+        answers: [Do]
+        options: [Do, Are, Is]
+        lexemes: [do-question]
+      - id: u5-r-04
+        type: word_bank
+        prompt: "הם הולכים לישון באחת עשרה."
+        answers: ["They go to bed at eleven.", "They go to bed at eleven o'clock."]
+        distractors: [on, get]
+        lexemes: [they, go-to-bed, at, eleven]
+      - id: u5-r-05
+        type: dialogue_gap
+        lines:
+          - { speaker: "ben", text: "What time do you go home?", translation: "באיזו שעה את הולכת הביתה?" }
+          - { speaker: "noa", text: "At six o'clock. And you?", translation: "בשש. ואתה?" }
+          - { speaker: "ben", text: "I go home late, at eight.", translation: "אני הולך הביתה מאוחר, בשמונה." }
+        gap: 1
+        distractors: ["On six o'clock. And you?", "I'm home. Bye."]
+        lexemes: [at, oclock, go-home]
+      - id: u5-r-06
+        type: translate
+        direction: to_target
+        prompt: "אנחנו לא עובדים ביום שבת."
+        answers: ["We don't work on Saturday.", "We do not work on Saturday.", "We don't work on Saturdays."]
+        lexemes: [we, dont, work-verb, saturday]
+      - id: u5-r-07
+        type: multiple_choice
+        prompt: "איך אומרים 6:00?"
+        options: ["six o'clock", "half past six", "six clock"]
+        correct: 0
+        lexemes: [oclock, six]
+      - id: u5-r-08
+        type: translate
+        direction: to_source
+        prompt: "I get up early every day."
+        answers: ["אני קם מוקדם כל יום.", "אני קמה מוקדם כל יום.", "אני קם מוקדם כל יום", "אני קמה מוקדם כל יום"]
+        lexemes: [get-up, early, every-day]
+      - id: u5-r-09
+        type: dictation
+        text: "What time is it?"
+        lexemes: [what-time]
+      - id: u5-r-10
+        type: speak_repeat
+        text: "I work from Sunday to Thursday. I don't work on Friday."
+        translation: "אני עובד מראשון עד חמישי. אני לא עובד בשישי."
+        lexemes: [work-verb, sunday, thursday, dont, friday]

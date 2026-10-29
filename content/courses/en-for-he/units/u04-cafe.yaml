@@ -1,0 +1,393 @@
+id: u04-cafe
+cefr: A1
+scene: cafe
+title:
+  he: בבית הקפה
+  en: At the café
+story: "נועה טסה ללונדון לשבוע עבודה. בבוקר הראשון היא ובן נכנסים לבית הקפה של אלי."
+canDo:
+  - להזמין אוכל ושתייה בנימוס
+  - לבחור גודל ולבקש עוד משהו
+  - לשאול כמה זה עולה ולשלם
+  - להשתמש ב־a, an ובצורת רבים
+
+vocabulary:
+  - { id: "coffee", text: "coffee", translation: "קפה", pos: noun, pronunciation: "קוֹפִי", example: { text: "A coffee, please.", translation: "קפה, בבקשה." } }
+  - { id: "tea", text: "tea", translation: "תה", pos: noun, pronunciation: "טִי" }
+  - { id: "water", text: "water", translation: "מים", pos: noun, pronunciation: "ווֹטֶר", example: { text: "A bottle of water, please.", translation: "בקבוק מים, בבקשה." } }
+  - { id: "small", text: "small", translation: "קטן", pos: adjective, pronunciation: "סְמוֹל" }
+  - { id: "large", text: "large", translation: "גדול", pos: adjective, pronunciation: "לַארְג'", example: { text: "A large coffee, please.", translation: "קפה גדול, בבקשה." } }
+  - { id: "what-can-i-get-you", text: "What can I get you?", translation: "מה אפשר להביא לך?", pos: phrase, pronunciation: "ווֹט קֶן אַיי גֶט יוּ" }
+  - { id: "here-you-are", text: "Here you are.", translation: "בבקשה (כשנותנים משהו).", pos: phrase, pronunciation: "הִיר יוּ אָר" }
+  - { id: "sandwich", text: "sandwich", translation: "כריך", pos: noun, pronunciation: "סֶנְדְוִויץ'" }
+  - { id: "cake", text: "cake", translation: "עוגה", pos: noun, pronunciation: "קֵייק", example: { text: "The chocolate cake is great.", translation: "עוגת השוקולד מצוינת." } }
+  - { id: "salad", text: "salad", translation: "סלט", pos: noun, pronunciation: "סֶלֶד" }
+  - { id: "juice", text: "juice", translation: "מיץ", pos: noun, pronunciation: "ג'וּס", example: { text: "An orange juice, please.", translation: "מיץ תפוזים, בבקשה." } }
+  - { id: "cup", text: "cup", translation: "כוס (של שתייה חמה), ספל", pos: noun, pronunciation: "קָאפ", example: { text: "A cup of tea", translation: "כוס תה" } }
+  - { id: "bottle", text: "bottle", translation: "בקבוק", pos: noun, pronunciation: "בּוֹטְל" }
+  - { id: "anything-else", text: "Anything else?", translation: "עוד משהו?", pos: phrase, pronunciation: "אֶנִית'ינְג אֶלְס" }
+  - { id: "can-i-have", text: "Can I have…?", translation: "אפשר לקבל…?", pos: phrase, pronunciation: "קֶן אַיי הֶב", example: { text: "Can I have a tea, please?", translation: "אפשר לקבל תה, בבקשה?" } }
+  - { id: "a-an", text: "a / an", translation: "(לפני שם עצם ביחיד: \"אחד\")", pos: determiner, pronunciation: "אֶ / אֶן" }
+  - { id: "how-much", text: "How much is it?", translation: "כמה זה עולה?", pos: phrase, pronunciation: "הַאוּ מָאץ' אִיז אִיט" }
+  - { id: "pounds", text: "pounds", translation: "לירות שטרלינג (מטבע בריטניה)", pos: noun, pronunciation: "פַּאוּנְדְז", example: { text: "It's five pounds.", translation: "זה חמש לירות." } }
+  - { id: "the-check", text: "the check", translation: "החשבון (במסעדה)", pos: noun, pronunciation: "דֶ'ה צֶ'ק", example: { text: "Can I have the check, please?", translation: "אפשר לקבל את החשבון?" } }
+  - { id: "by-card", text: "by card", translation: "בכרטיס אשראי", pos: phrase, pronunciation: "בַּאי קַארְד" }
+  - { id: "cash", text: "cash", translation: "מזומן", pos: noun, pronunciation: "קֶשׁ" }
+  - { id: "of-course", text: "Of course.", translation: "כמובן.", pos: phrase, pronunciation: "אוֹב קוֹרְס" }
+
+grammar:
+  - id: a-an-plurals
+    title: { he: "a, an, ורבים", en: "a, an and plurals" }
+    explanation: |
+      בעברית אומרים "קפה, בבקשה". באנגלית, לפני דבר אחד שאפשר לספור, שמים **a**: **a coffee**, **a sandwich**.
+
+      לפני מילה שמתחילה בתנועה (a, e, i, o, u) אומרים **an**, כדי שיהיה קל לבטא: **an orange juice**, **an egg**.
+
+      רבים: ברוב המילים מוסיפים **s**: **two coffees**, **three cakes**. ואין a ברבים.
+
+      ובקשה מנומסת: **Can I have a tea, please?** – אפשר לקבל תה, בבקשה?
+    examples:
+      - { text: "A sandwich and an orange juice, please.", translation: "כריך ומיץ תפוזים, בבקשה." }
+      - { text: "Two coffees, please.", translation: "שני קפה, בבקשה." }
+      - { text: "Can I have a bottle of water?", translation: "אפשר לקבל בקבוק מים?" }
+
+lessons:
+  # ------------------------------------------------------------------ 1
+  - id: u4-l1
+    kind: new
+    title: { he: "קפה גדול, בבקשה", en: "A large coffee, please" }
+    exercises:
+      - id: u4-l1-01
+        type: dialogue
+        scene: "בוקר בלונדון. נועה נכנסת לבית הקפה של אלי, ליד המשרד."
+        lines:
+          - { speaker: "eli", text: "Good morning! What can I get you?", translation: "בוקר טוב! מה אפשר להביא לך?" }
+          - { speaker: "noa", text: "A coffee, please.", translation: "קפה, בבקשה." }
+          - { speaker: "eli", text: "Small or large?", translation: "קטן או גדול?" }
+          - { speaker: "noa", text: "Large, please.", translation: "גדול, בבקשה." }
+          - { speaker: "eli", text: "Here you are.", translation: "בבקשה." }
+          - { speaker: "noa", text: "Thank you!", translation: "תודה!" }
+      - { id: "u4-l1-02", type: "learn", lexeme: "what-can-i-get-you" }
+      - { id: "u4-l1-03", type: "learn", lexeme: "coffee" }
+      - { id: "u4-l1-04", type: "learn", lexeme: "tea" }
+      - id: u4-l1-05
+        type: multiple_choice
+        prompt: "איך מבקשים תה?"
+        options: ["A tea, please.", "A coffee, please.", "Here you are."]
+        correct: 0
+        lexemes: [tea]
+      - { id: "u4-l1-06", type: "learn", lexeme: "small" }
+      - { id: "u4-l1-07", type: "learn", lexeme: "large" }
+      - id: u4-l1-08
+        type: word_bank
+        prompt: "קפה גדול, בבקשה."
+        answers: ["A large coffee, please."]
+        distractors: [small, tea]
+        lexemes: [large, coffee]
+      - { id: "u4-l1-09", type: "learn", lexeme: "water" }
+      - { id: "u4-l1-10", type: "learn", lexeme: "here-you-are" }
+      - id: u4-l1-11
+        type: tip
+        title: "שתי מילים ל\"בבקשה\""
+        text: |
+          בעברית "בבקשה" זה גם כשמבקשים וגם כשנותנים. באנגלית אלה שני דברים שונים.
+
+          מבקשים: please. נותנים: Here you are.
+      - id: u4-l1-12
+        type: match_pairs
+        pairs:
+          - [coffee, קפה]
+          - [tea, תה]
+          - [water, מים]
+          - [small, קטן]
+          - [large, גדול]
+        lexemes: [coffee, tea, water, small, large]
+      - id: u4-l1-13
+        type: dialogue_gap
+        lines:
+          - { speaker: "eli", text: "What can I get you?", translation: "מה אפשר להביא לך?" }
+          - { speaker: "ben", text: "A tea, please.", translation: "תה, בבקשה." }
+          - { speaker: "eli", text: "Small or large?", translation: "קטן או גדול?" }
+          - { speaker: "ben", text: "Small, please.", translation: "קטן, בבקשה." }
+        gap: 3
+        distractors: ["Here you are.", "Small, thank you, goodbye."]
+        lexemes: [small, tea]
+      - id: u4-l1-14
+        type: listening_choice
+        audioText: "A large tea and a small coffee, please."
+        question: מה הזמינו?
+        options: [תה גדול וקפה קטן, תה קטן וקפה גדול, שני קפה גדולים]
+        correct: 0
+        lexemes: [large, tea, small, coffee]
+      - id: u4-l1-15
+        type: speak_repeat
+        text: "Good morning! A large coffee, please."
+        translation: "בוקר טוב! קפה גדול, בבקשה."
+        lexemes: [large, coffee]
+
+  # ------------------------------------------------------------------ 2
+  - id: u4-l2
+    kind: new
+    title: { he: "משהו לאכול", en: "Something to eat" }
+    exercises:
+      - { id: "u4-l2-01", type: "learn", lexeme: "sandwich" }
+      - { id: "u4-l2-02", type: "learn", lexeme: "cake" }
+      - { id: "u4-l2-03", type: "learn", lexeme: "salad" }
+      - id: u4-l2-04
+        type: listening_choice
+        audioText: salad
+        question: מה שמעתם?
+        options: [סלט, כריך, עוגה]
+        correct: 0
+        lexemes: [salad]
+      - { id: "u4-l2-05", type: "learn", lexeme: "juice" }
+      - { id: "u4-l2-06", type: "learn", lexeme: "cup" }
+      - { id: "u4-l2-07", type: "learn", lexeme: "bottle" }
+      - id: u4-l2-08
+        type: match_pairs
+        pairs:
+          - [sandwich, כריך]
+          - [cake, עוגה]
+          - [juice, מיץ]
+          - [cup, ספל]
+          - [bottle, בקבוק]
+        lexemes: [sandwich, cake, juice, cup, bottle]
+      - id: u4-l2-09
+        type: fill_blank
+        sentence: "A ___ of water, please."
+        translation: "בקבוק מים, בבקשה."
+        answers: [bottle]
+        options: [bottle, cup, cake]
+        lexemes: [bottle, water]
+      - { id: "u4-l2-10", type: "learn", lexeme: "anything-else" }
+      - id: u4-l2-11
+        type: dialogue_gap
+        lines:
+          - { speaker: "eli", text: "A cup of tea. Anything else?", translation: "כוס תה. עוד משהו?" }
+          - { speaker: "noa", text: "Yes, a chocolate cake, please.", translation: "כן, עוגת שוקולד, בבקשה." }
+        gap: 1
+        distractors: ["Yes, here you are.", "No, a small."]
+        lexemes: [anything-else, cake]
+      - id: u4-l2-12
+        type: word_bank
+        prompt: "כריך וסלט, בבקשה."
+        answers: ["A sandwich and a salad, please."]
+        distractors: [cake, cup]
+        lexemes: [sandwich, salad]
+      - id: u4-l2-13
+        type: translate
+        direction: to_target
+        prompt: "עוד משהו?"
+        answers: ["Anything else?"]
+        lexemes: [anything-else]
+      - id: u4-l2-14
+        type: speak_repeat
+        text: "A cup of tea and a sandwich, please."
+        translation: "כוס תה וכריך, בבקשה."
+        lexemes: [cup, tea, sandwich]
+
+  # ------------------------------------------------------------------ 3
+  - id: u4-l3
+    kind: grammar
+    grammar: a-an-plurals
+    title: { he: "a או an? ואיך אומרים רבים", en: "a or an?" }
+    exercises:
+      - { id: "u4-l3-01", type: "learn", lexeme: "a-an" }
+      - { id: "u4-l3-02", type: "learn", lexeme: "can-i-have" }
+      - id: u4-l3-03
+        type: fill_blank
+        sentence: "___ orange juice, please."
+        translation: "מיץ תפוזים, בבקשה."
+        answers: [An]
+        options: [An, A]
+        lexemes: [a-an, juice]
+      - id: u4-l3-04
+        type: fill_blank
+        sentence: "___ sandwich, please."
+        translation: "כריך, בבקשה."
+        answers: [A]
+        options: [A, An]
+        lexemes: [a-an, sandwich]
+      - id: u4-l3-05
+        type: multiple_choice
+        prompt: "שלוש עוגות – איך כותבים?"
+        options: ["three cakes", "three cake", "a three cakes"]
+        correct: 0
+        lexemes: [cake, three]
+      - id: u4-l3-06
+        type: word_bank
+        prompt: "אפשר לקבל בקבוק מים?"
+        answers: ["Can I have a bottle of water?", "Can I have a bottle of water, please?"]
+        distractors: [an, cup]
+        lexemes: [can-i-have, bottle, water]
+      - id: u4-l3-07
+        type: translate
+        direction: to_target
+        prompt: "שני קפה, בבקשה."
+        answers: ["Two coffees, please.", "Two coffees please.", "Two coffees, please"]
+        lexemes: [coffee, two]
+      - id: u4-l3-08
+        type: dialogue_gap
+        lines:
+          - { speaker: "eli", text: "What can I get you?", translation: "מה אפשר להביא לך?" }
+          - { speaker: "ben", text: "Can I have an orange juice, please?", translation: "אפשר לקבל מיץ תפוזים, בבקשה?" }
+        gap: 1
+        distractors: ["Can I have a orange juice, please?", "I have orange juice, please?"]
+        lexemes: [can-i-have, a-an, juice]
+      - id: u4-l3-09
+        type: fill_blank
+        sentence: "Can I have two ___, please?"
+        translation: "אפשר לקבל שני כריכים, בבקשה?"
+        answers: [sandwiches]
+        options: [sandwiches, sandwich, a sandwich]
+        lexemes: [sandwich]
+      - id: u4-l3-10
+        type: translate
+        direction: to_source
+        prompt: "Can I have a cup of tea, please?"
+        answers: ["אפשר לקבל כוס תה, בבקשה?", "אפשר לקבל כוס תה בבקשה?", "אפשר כוס תה, בבקשה?"]
+        lexemes: [can-i-have, cup, tea]
+      - id: u4-l3-11
+        type: speak_repeat
+        text: "Can I have an orange juice and a salad, please?"
+        translation: "אפשר לקבל מיץ תפוזים וסלט, בבקשה?"
+        lexemes: [can-i-have, juice, salad]
+
+  # ------------------------------------------------------------------ 4
+  - id: u4-l4
+    kind: listening
+    title: { he: "אפשר לקבל את החשבון?", en: "Can I have the check?" }
+    exercises:
+      - id: u4-l4-01
+        type: dialogue
+        scene: "נועה ובן סיימו לאכול. הגיע הזמן לשלם."
+        lines:
+          - { speaker: "noa", text: "Can I have the check, please?", translation: "אפשר לקבל את החשבון, בבקשה?" }
+          - { speaker: "eli", text: "Of course. Here you are.", translation: "כמובן. בבקשה." }
+          - { speaker: "noa", text: "How much is it?", translation: "כמה זה עולה?" }
+          - { speaker: "eli", text: "It's twelve pounds fifty.", translation: "זה שתים עשרה לירות וחמישים." }
+          - { speaker: "noa", text: "Can I pay by card?", translation: "אפשר לשלם בכרטיס?" }
+          - { speaker: "eli", text: "Yes, card or cash. Thank you!", translation: "כן, כרטיס או מזומן. תודה!" }
+      - { id: "u4-l4-02", type: "learn", lexeme: "the-check" }
+      - { id: "u4-l4-03", type: "learn", lexeme: "of-course" }
+      - { id: "u4-l4-04", type: "learn", lexeme: "how-much" }
+      - { id: "u4-l4-05", type: "learn", lexeme: "pounds" }
+      - { id: "u4-l4-06", type: "learn", lexeme: "by-card" }
+      - { id: "u4-l4-07", type: "learn", lexeme: "cash" }
+      - id: u4-l4-08
+        type: multiple_choice
+        prompt: "כמה עלתה הארוחה של נועה ובן?"
+        options: ["£12.50", "£2.50", "£20.50"]
+        correct: 0
+        lexemes: [pounds, twelve]
+      - id: u4-l4-09
+        type: tip
+        title: check או bill?
+        text: |
+          באמריקה מבקשים the check. באנגליה אומרים בדרך כלל the bill. שתי המילים נכונות ומובנות בכל מקום.
+      - id: u4-l4-10
+        type: listening_choice
+        audioText: "It's four pounds fifty."
+        question: כמה זה עולה?
+        options: ["£4.50", "£14.50", "£4.15"]
+        correct: 0
+        lexemes: [pounds, four]
+      - id: u4-l4-11
+        type: dialogue_gap
+        lines:
+          - { speaker: "ben", text: "How much is it?", translation: "כמה זה עולה?" }
+          - { speaker: "eli", text: "It's six pounds.", translation: "זה שש לירות." }
+          - { speaker: "ben", text: "Can I pay by card?", translation: "אפשר לשלם בכרטיס?" }
+          - { speaker: "eli", text: "Of course.", translation: "כמובן." }
+        gap: 2
+        distractors: ["Can I have the cash?", "Here you are, six pounds?"]
+        lexemes: [by-card]
+      - id: u4-l4-12
+        type: dictation
+        text: "Can I have the check, please?"
+        answers: ["Can I have the check, please?", "Can I have the check please?", "Can I have the bill, please?"]
+        lexemes: [can-i-have, the-check]
+      - id: u4-l4-13
+        type: translate
+        direction: to_target
+        prompt: "כמה זה עולה?"
+        answers: ["How much is it?", "How much is this?", "How much does it cost?"]
+        lexemes: [how-much]
+      - id: u4-l4-14
+        type: speak_repeat
+        text: "How much is it? Can I pay by card?"
+        translation: "כמה זה עולה? אפשר לשלם בכרטיס?"
+        lexemes: [how-much, by-card]
+
+  # ------------------------------------------------------------------ 5
+  - id: u4-review
+    kind: review
+    title: { he: "חזרה: בבית הקפה", en: "Review: at the café" }
+    exercises:
+      - id: u4-r-01
+        type: match_pairs
+        pairs:
+          - [the check, החשבון]
+          - [cash, מזומן]
+          - [Of course., כמובן.]
+          - [juice, מיץ]
+          - [salad, סלט]
+        lexemes: [the-check, cash, of-course, juice, salad]
+      - id: u4-r-02
+        type: fill_blank
+        sentence: "Can I have ___ egg sandwich?"
+        translation: "אפשר לקבל כריך ביצה?"
+        answers: [an]
+        options: [an, a]
+        lexemes: [a-an]
+      - id: u4-r-03
+        type: dialogue_gap
+        lines:
+          - { speaker: "eli", text: "Good afternoon! What can I get you?", translation: "צהריים טובים! מה אפשר להביא לך?" }
+          - { speaker: "rachel", text: "Can I have a small tea and a cake, please?", translation: "אפשר לקבל תה קטן ועוגה, בבקשה?" }
+          - { speaker: "eli", text: "Of course. Anything else?", translation: "כמובן. עוד משהו?" }
+          - { speaker: "rachel", text: "No, thank you.", translation: "לא, תודה." }
+        gap: 1
+        distractors: ["Here you are, a small tea.", "How much is a cake, please, yes."]
+        lexemes: [can-i-have, small, tea, cake]
+      - id: u4-r-04
+        type: listening_choice
+        audioText: "Anything else?"
+        question: מה שמעתם?
+        options: [עוד משהו?, כמה זה עולה?, בבקשה.]
+        correct: 0
+        lexemes: [anything-else]
+      - id: u4-r-05
+        type: word_bank
+        prompt: "שני מיצים וסלט, בבקשה."
+        answers: ["Two juices and a salad, please."]
+        distractors: [an, juice]
+        lexemes: [juice, salad, two]
+      - id: u4-r-06
+        type: multiple_choice
+        prompt: "המלצר נותן לכם את הקפה. מה הוא אומר?"
+        options: ["Here you are.", "Please.", "Anything you are."]
+        correct: 0
+        lexemes: [here-you-are]
+      - id: u4-r-07
+        type: translate
+        direction: to_target
+        prompt: "אפשר לשלם במזומן?"
+        answers: ["Can I pay cash?", "Can I pay in cash?", "Can I pay by cash?", "Can I pay with cash?"]
+        lexemes: [cash]
+      - id: u4-r-08
+        type: translate
+        direction: to_source
+        prompt: "A large coffee and a bottle of water, please."
+        answers: ["קפה גדול ובקבוק מים, בבקשה.", "קפה גדול ובקבוק מים בבקשה", "קפה גדול ובקבוק מים, בבקשה"]
+        lexemes: [large, coffee, bottle, water]
+      - id: u4-r-09
+        type: dictation
+        text: "It's ten pounds."
+        answers: ["It's ten pounds.", "It is ten pounds.", "It's 10 pounds."]
+        lexemes: [pounds, ten]
+      - id: u4-r-10
+        type: speak_repeat
+        text: "Can I have the check, please? Thank you!"
+        translation: "אפשר לקבל את החשבון, בבקשה? תודה!"
+        lexemes: [the-check]

@@ -1,0 +1,392 @@
+id: u08-shopping
+cefr: A1
+scene: shopping
+title:
+  he: קניות
+  en: Shopping
+story: "נועה ורחל בחנות בגדים ברחוב אוקספורד. נועה צריכה ז'קט לפגישה, ורחל מחפשת נעליים."
+canDo:
+  - לבקש בגד במידה ובצבע שרוצים
+  - להשתמש ב־this, that, these, those
+  - לתאר בגדים עם צבע ותואר לפני שם העצם
+  - לשאול מחיר ולהגיד שמשהו זול או יקר
+
+vocabulary:
+  - { id: "shirt", text: "shirt", translation: "חולצה", pos: noun, pronunciation: "שֶׁרְט" }
+  - { id: "dress", text: "dress", translation: "שמלה", pos: noun, pronunciation: "דְרֶס" }
+  - { id: "jeans", text: "jeans", translation: "ג'ינס", pos: noun, pronunciation: "ג'ִינְס" }
+  - { id: "shoes", text: "shoes", translation: "נעליים", pos: noun, pronunciation: "שׁוּז" }
+  - { id: "jacket", text: "jacket", translation: "ז'קט, מעיל קל", pos: noun, pronunciation: "ג'ֶקֶט" }
+  - { id: "bag", text: "bag", translation: "תיק, שקית", pos: noun, pronunciation: "בֶּג" }
+  - { id: "red", text: "red", translation: "אדום", pos: adjective, pronunciation: "רֶד" }
+  - { id: "blue", text: "blue", translation: "כחול", pos: adjective, pronunciation: "בְּלוּ" }
+  - { id: "black", text: "black", translation: "שחור", pos: adjective, pronunciation: "בְּלֶק" }
+  - { id: "white", text: "white", translation: "לבן", pos: adjective, pronunciation: "וַוייט" }
+  - { id: "green", text: "green", translation: "ירוק", pos: adjective, pronunciation: "גְרִין" }
+  - { id: "size", text: "size", translation: "מידה", pos: noun, pronunciation: "סַייז", example: { text: "What size are you?", translation: "מה המידה שלך?" } }
+  - { id: "big", text: "big", translation: "גדול", pos: adjective, pronunciation: "בִּיג" }
+  - { id: "too", text: "too", translation: "מדי (יותר מדי)", pos: adverb, pronunciation: "טוּ", example: { text: "It's too big.", translation: "זה גדול מדי." } }
+  - { id: "try-on", text: "try on", translation: "למדוד (בגד)", pos: verb, pronunciation: "טְרַיי אוֹן", example: { text: "Can I try it on?", translation: "אפשר למדוד את זה?" } }
+  - { id: "cheap", text: "cheap", translation: "זול", pos: adjective, pronunciation: "צ'ִיפ" }
+  - { id: "expensive", text: "expensive", translation: "יקר", pos: adjective, pronunciation: "אִקְסְפֶּנְסִיב" }
+  - { id: "this", text: "this", translation: "זה, הזה (קרוב)", pos: pronoun, pronunciation: "דִ'יס" }
+  - { id: "that", text: "that", translation: "ההוא, ההוא שם (רחוק)", pos: pronoun, pronunciation: "דֶ'ט" }
+  - { id: "these", text: "these", translation: "אלה, האלה (קרובים)", pos: pronoun, pronunciation: "דִ'יז" }
+  - { id: "those", text: "those", translation: "ההם, ההם שם (רחוקים)", pos: pronoun, pronunciation: "דוֹ'וּז" }
+  - { id: "ill-take-it", text: "I'll take it", translation: "אני אקח את זה", pos: phrase, pronunciation: "אַייל טֵייק אִיט" }
+
+grammar:
+  - id: this-that
+    title: { he: "This, that, these, those", en: "This, that, these, those" }
+    explanation: |
+      באנגלית בוחרים מילה לפי שני דברים: קרוב או רחוק, ואחד או כמה.
+
+      - **this** – אחד, קרוב: **this shirt** (החולצה הזאת, שבידי)
+      - **that** – אחד, רחוק: **that dress** (השמלה ההיא, שם)
+      - **these** – כמה, קרובים: **these shoes**
+      - **those** – כמה, רחוקים: **those jeans**
+
+      ושימו לב: **jeans** ו־**shoes** הן תמיד ברבים, אז אומרים **these jeans are…**
+    examples:
+      - { text: "I like this shirt.", translation: "אני אוהבת את החולצה הזאת." }
+      - { text: "Those shoes are expensive.", translation: "הנעליים ההן יקרות." }
+  - id: adjective-order
+    title: { he: "התואר לפני שם העצם", en: "Adjective before noun" }
+    explanation: |
+      בעברית אומרים "חולצה **כחולה**". באנגלית התואר בא **לפני** שם העצם: **a blue shirt**.
+
+      והתואר לא משתנה ברבים: **blue shoes**, לא "blues shoes".
+
+      **too** פירושו "מדי": **too big** = גדול מדי, **too expensive** = יקר מדי.
+    examples:
+      - { text: "a black jacket", translation: "ז'קט שחור" }
+      - { text: "These red shoes are cheap.", translation: "הנעליים האדומות האלה זולות." }
+      - { text: "This dress is too small.", translation: "השמלה הזאת קטנה מדי." }
+
+lessons:
+  # ------------------------------------------------------------------ 1
+  - id: u8-l1
+    kind: new
+    title: { he: "בחנות הבגדים", en: "In the clothes shop" }
+    exercises:
+      - id: u8-l1-01
+        type: dialogue
+        scene: "נועה ורחל נכנסות לחנות בגדים."
+        lines:
+          - { speaker: "rachel", text: "Look, Noa! I like this jacket.", translation: "תראי, נועה! אני אוהבת את הז'קט הזה." }
+          - { speaker: "noa", text: "It's nice. And look at that dress!", translation: "הוא יפה. ותראי את השמלה ההיא!" }
+          - { speaker: "rachel", text: "The red dress? Yes, it's beautiful.", translation: "השמלה האדומה? כן, היא יפהפייה." }
+          - { speaker: "noa", text: "I need a shirt for work.", translation: "אני צריכה חולצה לעבודה." }
+          - { speaker: "rachel", text: "There are white shirts over there.", translation: "יש חולצות לבנות שם." }
+      - { id: "u8-l1-02", type: "learn", lexeme: "jacket" }
+      - { id: "u8-l1-03", type: "learn", lexeme: "dress" }
+      - { id: "u8-l1-04", type: "learn", lexeme: "shirt" }
+      - { id: "u8-l1-05", type: "learn", lexeme: "jeans" }
+      - { id: "u8-l1-06", type: "learn", lexeme: "shoes" }
+      - { id: "u8-l1-07", type: "learn", lexeme: "bag" }
+      - id: u8-l1-08
+        type: match_pairs
+        pairs:
+          - [shirt, חולצה]
+          - [dress, שמלה]
+          - [shoes, נעליים]
+          - [jacket, ז'קט]
+          - [bag, תיק]
+        lexemes: [shirt, dress, shoes, jacket, bag]
+      - { id: "u8-l1-09", type: "learn", lexeme: "red" }
+      - { id: "u8-l1-10", type: "learn", lexeme: "blue" }
+      - { id: "u8-l1-11", type: "learn", lexeme: "black" }
+      - { id: "u8-l1-12", type: "learn", lexeme: "white" }
+      - { id: "u8-l1-13", type: "learn", lexeme: "green" }
+      - id: u8-l1-14
+        type: listening_choice
+        audioText: "a black bag"
+        question: מה שמעתם?
+        options: [תיק שחור, תיק לבן, נעליים שחורות]
+        correct: 0
+        lexemes: [black, bag]
+      - id: u8-l1-15
+        type: word_bank
+        prompt: "אני צריכה חולצה לבנה."
+        answers: ["I need a white shirt."]
+        distractors: [shirt white, black]
+        lexemes: [white, shirt]
+      - id: u8-l1-16
+        type: speak_repeat
+        text: "I like the blue jacket."
+        translation: "אני אוהב את הז'קט הכחול."
+        lexemes: [blue, jacket]
+
+  # ------------------------------------------------------------------ 2
+  - id: u8-l2
+    kind: new
+    title: { he: "אפשר למדוד?", en: "Can I try it on?" }
+    exercises:
+      - id: u8-l2-01
+        type: dialogue
+        scene: "נועה מדברת עם המוכרת, מרים."
+        lines:
+          - { speaker: "noa", text: "Excuse me, can I try on this jacket?", translation: "סליחה, אפשר למדוד את הז'קט הזה?" }
+          - { speaker: "miriam", text: "Of course. What size are you?", translation: "בטח. מה המידה שלך?" }
+          - { speaker: "noa", text: "Small, I think.", translation: "סמול, אני חושבת." }
+          - { speaker: "noa", text: "Hmm, it's too big.", translation: "המממ, הוא גדול מדי." }
+          - { speaker: "miriam", text: "Here you are. This one is small.", translation: "בבקשה. זה בסמול." }
+      - { id: "u8-l2-02", type: "learn", lexeme: "try-on" }
+      - { id: "u8-l2-03", type: "learn", lexeme: "size" }
+      - { id: "u8-l2-04", type: "learn", lexeme: "big" }
+      - { id: "u8-l2-05", type: "learn", lexeme: "too" }
+      - id: u8-l2-06
+        type: tip
+        title: "מידות באנגלית"
+        text: |
+          בחנויות בגדים כותבים מידות באותיות: S (small), M (medium), L (large).
+
+          אפשר לשאול: What size is this? (איזו מידה זאת?)
+      - id: u8-l2-07
+        type: fill_blank
+        sentence: "This shirt is ___ small."
+        translation: "החולצה הזאת קטנה מדי."
+        answers: [too]
+        options: [too, very, two]
+        lexemes: [too, shirt, small]
+      - id: u8-l2-08
+        type: word_bank
+        prompt: "אפשר למדוד את השמלה הזאת?"
+        answers: ["Can I try on this dress?"]
+        distractors: [size, that]
+        lexemes: [try-on, dress]
+      - { id: "u8-l2-09", type: "learn", lexeme: "cheap" }
+      - { id: "u8-l2-10", type: "learn", lexeme: "expensive" }
+      - id: u8-l2-11
+        type: match_pairs
+        pairs:
+          - [cheap, זול]
+          - [expensive, יקר]
+          - [big, גדול]
+          - [small, קטן]
+          - [size, מידה]
+        lexemes: [cheap, expensive, big, small, size]
+      - { id: "u8-l2-12", type: "learn", lexeme: "ill-take-it" }
+      - id: u8-l2-13
+        type: dialogue_gap
+        lines:
+          - { speaker: "noa", text: "How much is this bag?", translation: "כמה עולה התיק הזה?" }
+          - { speaker: "miriam", text: "It's twenty pounds.", translation: "עשרים פאונד." }
+          - { speaker: "noa", text: "That's cheap! I'll take it.", translation: "זה זול! אני אקח אותו." }
+        gap: 2
+        distractors: ["That's cheap! I'll try it.", "That's expensive! I'll take it big."]
+        lexemes: [cheap, ill-take-it, how-much]
+      - id: u8-l2-14
+        type: translate
+        direction: to_target
+        prompt: "זה יקר מדי."
+        answers: ["It's too expensive.", "It is too expensive.", "This is too expensive.", "That's too expensive."]
+        lexemes: [too, expensive]
+      - id: u8-l2-15
+        type: speak_repeat
+        text: "Can I try it on? It's too big."
+        translation: "אפשר למדוד? זה גדול מדי."
+        lexemes: [try-on, too, big]
+
+  # ------------------------------------------------------------------ 3
+  - id: u8-l3
+    kind: grammar
+    grammar: this-that
+    title: { he: "הזה, ההוא, האלה, ההם", en: "This, that, these, those" }
+    exercises:
+      - { id: "u8-l3-01", type: "learn", lexeme: "this" }
+      - { id: "u8-l3-02", type: "learn", lexeme: "that" }
+      - { id: "u8-l3-03", type: "learn", lexeme: "these" }
+      - { id: "u8-l3-04", type: "learn", lexeme: "those" }
+      - id: u8-l3-05
+        type: fill_blank
+        sentence: "I like ___ shoes. (הנעליים האלה, שאני מחזיקה)"
+        translation: "אני אוהבת את הנעליים האלה."
+        answers: [these]
+        options: [these, this, that]
+        lexemes: [these, shoes]
+      - id: u8-l3-06
+        type: fill_blank
+        sentence: "How much is ___ dress? (השמלה ההיא, בחלון)"
+        translation: "כמה עולה השמלה ההיא?"
+        answers: [that]
+        options: [that, those, these]
+        lexemes: [that, dress]
+      - id: u8-l3-07
+        type: multiple_choice
+        prompt: איזה משפט נכון?
+        options: ["Those jeans are expensive.", "That jeans is expensive.", "Those jeans is expensive."]
+        correct: 0
+        lexemes: [those, jeans, expensive]
+      - id: u8-l3-08
+        type: tip
+        title: "התואר לפני שם העצם"
+        text: |
+          חולצה כחולה = a blue shirt. התואר בא קודם.
+
+          והתואר לא מקבל s ברבים: blue shoes.
+      - id: u8-l3-09
+        type: word_bank
+        prompt: "הנעליים האדומות האלה זולות."
+        answers: ["These red shoes are cheap."]
+        distractors: [reds, this]
+        lexemes: [these, red, shoes, cheap]
+      - id: u8-l3-10
+        type: multiple_choice
+        prompt: "איך אומרים 'ז'קט ירוק'?"
+        options: ["a green jacket", "a jacket green", "a greens jacket"]
+        correct: 0
+        lexemes: [green, jacket]
+      - id: u8-l3-11
+        type: translate
+        direction: to_target
+        prompt: "החולצה הזאת גדולה מדי."
+        answers: ["This shirt is too big.", "This shirt's too big."]
+        lexemes: [this, shirt, too, big]
+      - id: u8-l3-12
+        type: translate
+        direction: to_source
+        prompt: "That black bag is expensive."
+        answers: ["התיק השחור ההוא יקר.", "התיק השחור הזה יקר.", "התיק השחור שם יקר."]
+        lexemes: [that, black, bag, expensive]
+      - id: u8-l3-13
+        type: speak_repeat
+        text: "These shoes are too small."
+        translation: "הנעליים האלה קטנות מדי."
+        lexemes: [these, shoes, too]
+
+  # ------------------------------------------------------------------ 4
+  - id: u8-l4
+    kind: listening
+    title: { he: "בקופה", en: "At the till" }
+    exercises:
+      - id: u8-l4-01
+        type: dialogue
+        scene: "רחל מוצאת נעליים. מרים בקופה."
+        lines:
+          - { speaker: "rachel", text: "Excuse me, how much are those black shoes?", translation: "סליחה, כמה עולות הנעליים השחורות ההן?" }
+          - { speaker: "miriam", text: "They're sixty pounds.", translation: "שישים פאונד." }
+          - { speaker: "rachel", text: "That's expensive. Are these cheap?", translation: "זה יקר. האלה זולות?" }
+          - { speaker: "miriam", text: "Yes, these white shoes are thirty pounds.", translation: "כן, הנעליים הלבנות האלה שלושים פאונד." }
+          - { speaker: "rachel", text: "Can I try them on? Size thirty-eight.", translation: "אפשר למדוד? מידה שלושים ושמונה." }
+          - { speaker: "rachel", text: "They're perfect. I'll take them!", translation: "הן מושלמות. אני אקח אותן!" }
+      - id: u8-l4-02
+        type: multiple_choice
+        prompt: "כמה עולות הנעליים השחורות?"
+        options: [60 פאונד, 30 פאונד, 38 פאונד]
+        correct: 0
+        lexemes: [shoes, black]
+      - id: u8-l4-03
+        type: multiple_choice
+        prompt: "אילו נעליים רחל קונה?"
+        options: [הלבנות, השחורות, האדומות]
+        correct: 0
+        lexemes: [white, shoes]
+      - id: u8-l4-04
+        type: listening_choice
+        audioText: "This jacket is too expensive."
+        question: מה הבעיה?
+        options: [הז'קט יקר מדי, הז'קט גדול מדי, הז'קט קטן מדי]
+        correct: 0
+        lexemes: [jacket, too, expensive]
+      - id: u8-l4-05
+        type: dialogue_gap
+        lines:
+          - { speaker: "ben", text: "Can I try on these jeans?", translation: "אפשר למדוד את הג'ינס הזה?" }
+          - { speaker: "miriam", text: "Sure. What size are you?", translation: "בטח. מה המידה שלך?" }
+          - { speaker: "ben", text: "Large, I think.", translation: "לארג', אני חושב." }
+        gap: 1
+        distractors: ["Sure. What colour are you?", "Sure. It's too cheap."]
+        lexemes: [try-on, size, jeans]
+      - id: u8-l4-06
+        type: dictation
+        text: "I like that green dress."
+        lexemes: [that, green, dress]
+      - id: u8-l4-07
+        type: translate
+        direction: to_target
+        prompt: "כמה עולות הנעליים האלה?"
+        answers: ["How much are these shoes?"]
+        lexemes: [how-much, these, shoes]
+      - id: u8-l4-08
+        type: translate
+        direction: to_target
+        prompt: "אני אקח את זה."
+        answers: ["I'll take it.", "I will take it.", "I'll take this.", "I'll take this one."]
+        lexemes: [ill-take-it]
+      - id: u8-l4-09
+        type: speak_repeat
+        text: "How much are those red shoes?"
+        translation: "כמה עולות הנעליים האדומות ההן?"
+        lexemes: [those, red, shoes]
+
+  # ------------------------------------------------------------------ 5
+  - id: u8-review
+    kind: review
+    title: { he: "חזרה: קניות", en: "Review: shopping" }
+    exercises:
+      - id: u8-r-01
+        type: match_pairs
+        pairs:
+          - [red, אדום]
+          - [blue, כחול]
+          - [black, שחור]
+          - [white, לבן]
+          - [green, ירוק]
+        lexemes: [red, blue, black, white, green]
+      - id: u8-r-02
+        type: fill_blank
+        sentence: "___ jeans are too big. (הג'ינס ההוא, שם)"
+        translation: "הג'ינס ההוא גדול מדי."
+        answers: [Those]
+        options: [Those, That, This]
+        lexemes: [those, jeans, too, big]
+      - id: u8-r-03
+        type: listening_choice
+        audioText: "Can I try on this shirt?"
+        question: מה היא רוצה?
+        options: [למדוד חולצה, לקנות חולצה, להחזיר חולצה]
+        correct: 0
+        lexemes: [try-on, shirt]
+      - id: u8-r-04
+        type: word_bank
+        prompt: "אני אוהב את התיק הכחול הזה."
+        answers: ["I like this blue bag."]
+        distractors: [these, bag blue]
+        lexemes: [this, blue, bag]
+      - id: u8-r-05
+        type: dialogue_gap
+        lines:
+          - { speaker: "noa", text: "How much is this jacket?", translation: "כמה עולה הז'קט הזה?" }
+          - { speaker: "eli", text: "It's ninety pounds.", translation: "תשעים פאונד." }
+          - { speaker: "noa", text: "Oh, that's too expensive.", translation: "אוי, זה יקר מדי." }
+        gap: 2
+        distractors: ["Oh, that's too cheap.", "Oh, it's a size."]
+        lexemes: [too, expensive, jacket]
+      - id: u8-r-06
+        type: multiple_choice
+        prompt: "איזה משפט נכון?"
+        options: ["I need a black dress.", "I need a dress black.", "I need a blacks dress."]
+        correct: 0
+        lexemes: [black, dress]
+      - id: u8-r-07
+        type: translate
+        direction: to_target
+        prompt: "הז'קט הזה זול."
+        answers: ["This jacket is cheap.", "This jacket's cheap."]
+        lexemes: [this, jacket, cheap]
+      - id: u8-r-08
+        type: translate
+        direction: to_source
+        prompt: "What size are you?"
+        answers: ["מה המידה שלך?", "איזו מידה את?", "איזו מידה אתה?", "מה המידה שלכם?"]
+        lexemes: [size]
+      - id: u8-r-09
+        type: dictation
+        text: "These shoes are cheap."
+        lexemes: [these, shoes, cheap]
+      - id: u8-r-10
+        type: speak_repeat
+        text: "I like this white shirt. I'll take it."
+        translation: "אני אוהבת את החולצה הלבנה הזאת. אני אקח אותה."
+        lexemes: [this, white, shirt, ill-take-it]

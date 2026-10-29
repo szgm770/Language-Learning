@@ -121,3 +121,21 @@ test("a returning learner opening the site (service worker active) lands on the 
   await page.goto("./");
   await expect(page).toHaveURL(/\/learn\/$/, { timeout: 10_000 });
 });
+
+test("passing the A1 level test unlocks a printable certificate", async ({ page }) => {
+  await page.goto("start/");
+  await page.getByRole("button", { name: /אנגלית/ }).click();
+  await page.getByRole("button", { name: /רגיל/ }).click();
+  await page.getByRole("button", { name: /מאפס/ }).click();
+  await expect(page).toHaveURL(/\/lesson\/en-for-he\/u1-l1\/$/);
+  await page.goto("certificate/en-for-he/");
+  await expect(page.getByText(/התעודה נפתחת אחרי מבחן הרמה/)).toBeVisible();
+
+  await page.goto("lesson/en-for-he/a1-test/");
+  expect(await finishLesson(page)).toBe(0);
+  await expect(page.getByRole("heading", { name: "עברתם את מבחן הרמה!" })).toBeVisible();
+  await page.getByRole("link", { name: "לתעודה שלי" }).click();
+  await expect(page).toHaveURL(/\/certificate\/en-for-he\/$/);
+  await expect(page.getByText("תעודת סיום")).toBeVisible();
+  await expect(page.getByRole("heading", { name: "השם שלכם" })).toBeVisible();
+});

@@ -1,0 +1,369 @@
+id: u07-town
+cefr: A1
+scene: town
+title:
+  he: בעיר
+  en: Around town
+story: "ביום חופשי בלונדון, נועה מחפשת בית מרקחת, סופרמרקט ומוזיאון, ושואלת אנשים ברחוב איך מגיעים."
+canDo:
+  - לשאול איפה נמצא מקום בעיר
+  - להבין ולתת הוראות הגעה פשוטות
+  - לתאר מה יש באזור עם there is ו־there are
+  - לפנות לאנשים בנימוס ברחוב
+
+vocabulary:
+  - { id: "excuse-me", text: "Excuse me", translation: "סליחה (כשפונים למישהו)", pos: phrase, pronunciation: "אִקְסְקְיוּז מִי", example: { text: "Excuse me, where is the station?", translation: "סליחה, איפה התחנה?" } }
+  - { id: "street", text: "street", translation: "רחוב", pos: noun, pronunciation: "סְטְרִיט" }
+  - { id: "station", text: "station", translation: "תחנה (רכבת)", pos: noun, pronunciation: "סְטֵיישְׁן" }
+  - { id: "bank", text: "bank", translation: "בנק", pos: noun, pronunciation: "בֶּנְק" }
+  - { id: "pharmacy", text: "pharmacy", translation: "בית מרקחת", pos: noun, pronunciation: "פַארְמָסִי" }
+  - { id: "supermarket", text: "supermarket", translation: "סופרמרקט", pos: noun, pronunciation: "סוּפֶּרְמַרְקֶט" }
+  - { id: "museum", text: "museum", translation: "מוזיאון", pos: noun, pronunciation: "מְיוּזִיאֶם" }
+  - { id: "park", text: "park", translation: "פארק, גן ציבורי", pos: noun, pronunciation: "פַּארְק" }
+  - { id: "left", text: "left", translation: "שמאלה, שמאל", pos: adverb, pronunciation: "לֶפְט" }
+  - { id: "right", text: "right", translation: "ימינה, ימין", pos: adverb, pronunciation: "רַייט" }
+  - { id: "straight-on", text: "straight on", translation: "ישר", pos: phrase, pronunciation: "סְטְרֵייט אוֹן" }
+  - { id: "turn", text: "turn", translation: "לפנות", pos: verb, pronunciation: "טֶרְן", example: { text: "Turn left.", translation: "פנה שמאלה." } }
+  - { id: "next-to", text: "next to", translation: "ליד, צמוד ל־", pos: preposition, pronunciation: "נֶקְסְט טוּ", example: { text: "The bank is next to the station.", translation: "הבנק ליד התחנה." } }
+  - { id: "opposite", text: "opposite", translation: "מול", pos: preposition, pronunciation: "אוֹפּוֹזִיט" }
+  - { id: "near", text: "near", translation: "קרוב", pos: adverb, pronunciation: "נִיר", example: { text: "Is it near here?", translation: "זה קרוב לכאן?" } }
+  - { id: "far", text: "far", translation: "רחוק", pos: adverb, pronunciation: "פַאר" }
+  - { id: "there-is", text: "there is", translation: "יש (דבר אחד)", pos: phrase, pronunciation: "דֶ'ר אִיז", example: { text: "There is a bank on this street.", translation: "יש בנק ברחוב הזה." } }
+  - { id: "there-are", text: "there are", translation: "יש (כמה דברים)", pos: phrase, pronunciation: "דֶ'ר אָר", example: { text: "There are two museums near here.", translation: "יש שני מוזיאונים קרוב לכאן." } }
+  - { id: "is-there", text: "Is there…?", translation: "יש…? (שאלה)", pos: phrase, pronunciation: "אִיז דֶ'ר", example: { text: "Is there a pharmacy near here?", translation: "יש בית מרקחת קרוב לכאן?" } }
+  - { id: "here", text: "here", translation: "כאן", pos: adverb, pronunciation: "הִיר" }
+
+grammar:
+  - id: there-is-are
+    title: { he: "There is, there are: יש", en: "There is, there are" }
+    explanation: |
+      בעברית "יש בנק ברחוב" ו"יש שני בנקים" זה אותו "יש". באנגלית בוחרים לפי הכמות:
+
+      - **There is** לדבר אחד: **There is a bank on this street.**
+      - **There are** לכמה דברים: **There are two museums.**
+
+      שאלה: הופכים את הסדר. **Is there a pharmacy near here?** ועונים **Yes, there is.** או **No, there isn't.**
+
+      בדיבור מקצרים: **there's**.
+    examples:
+      - { text: "There's a supermarket next to the hotel.", translation: "יש סופרמרקט ליד המלון." }
+      - { text: "There are three parks in this area.", translation: "יש שלושה פארקים באזור הזה." }
+      - { text: "Is there a bank near here? No, there isn't.", translation: "יש בנק קרוב לכאן? לא." }
+
+lessons:
+  # ------------------------------------------------------------------ 1
+  - id: u7-l1
+    kind: new
+    title: { he: "סליחה, איפה התחנה?", en: "Excuse me, where's the station?" }
+    exercises:
+      - id: u7-l1-01
+        type: dialogue
+        scene: "נועה יוצאת מהמלון ולא יודעת איך מגיעים לתחנה."
+        lines:
+          - { speaker: "noa", text: "Excuse me, where is the station?", translation: "סליחה, איפה התחנה?" }
+          - { speaker: "cohen", text: "It's on King Street, next to the bank.", translation: "ברחוב קינג, ליד הבנק." }
+          - { speaker: "noa", text: "Is it far?", translation: "זה רחוק?" }
+          - { speaker: "cohen", text: "No, it's near. Five minutes.", translation: "לא, זה קרוב. חמש דקות." }
+          - { speaker: "noa", text: "Thank you!", translation: "תודה!" }
+      - { id: "u7-l1-02", type: "learn", lexeme: "excuse-me" }
+      - { id: "u7-l1-03", type: "learn", lexeme: "station" }
+      - { id: "u7-l1-04", type: "learn", lexeme: "street" }
+      - id: u7-l1-05
+        type: tip
+        title: "Excuse me או Sorry?"
+        text: |
+          כשפונים לאדם זר ברחוב אומרים Excuse me: "סליחה, אפשר רגע?".
+
+          כשמתנצלים, למשל אחרי שנתקלים במישהו, אומרים Sorry.
+      - { id: "u7-l1-06", type: "learn", lexeme: "bank" }
+      - { id: "u7-l1-07", type: "learn", lexeme: "pharmacy" }
+      - { id: "u7-l1-08", type: "learn", lexeme: "supermarket" }
+      - id: u7-l1-09
+        type: match_pairs
+        pairs:
+          - [station, תחנה]
+          - [street, רחוב]
+          - [bank, בנק]
+          - [pharmacy, בית מרקחת]
+          - [supermarket, סופרמרקט]
+        lexemes: [station, street, bank, pharmacy, supermarket]
+      - { id: "u7-l1-10", type: "learn", lexeme: "museum" }
+      - { id: "u7-l1-11", type: "learn", lexeme: "park" }
+      - { id: "u7-l1-12", type: "learn", lexeme: "near" }
+      - { id: "u7-l1-13", type: "learn", lexeme: "far" }
+      - id: u7-l1-14
+        type: word_bank
+        prompt: "סליחה, איפה המוזיאון?"
+        answers: ["Excuse me, where is the museum?", "Excuse me, where's the museum?"]
+        distractors: [sorry, far]
+        lexemes: [excuse-me, museum]
+      - id: u7-l1-15
+        type: dialogue_gap
+        lines:
+          - { speaker: "noa", text: "Is the park far?", translation: "הפארק רחוק?" }
+          - { speaker: "eli", text: "No, it's near. Ten minutes.", translation: "לא, הוא קרוב. עשר דקות." }
+        gap: 1
+        distractors: ["No, it's far near.", "Excuse me, ten minutes."]
+        lexemes: [near, park]
+      - id: u7-l1-16
+        type: speak_repeat
+        text: "Excuse me, where is the pharmacy?"
+        translation: "סליחה, איפה בית המרקחת?"
+        lexemes: [excuse-me, pharmacy]
+
+  # ------------------------------------------------------------------ 2
+  - id: u7-l2
+    kind: new
+    title: { he: "ימינה, שמאלה, ישר", en: "Left, right, straight on" }
+    exercises:
+      - { id: "u7-l2-01", type: "learn", lexeme: "turn" }
+      - { id: "u7-l2-02", type: "learn", lexeme: "left" }
+      - { id: "u7-l2-03", type: "learn", lexeme: "right" }
+      - { id: "u7-l2-04", type: "learn", lexeme: "straight-on" }
+      - id: u7-l2-05
+        type: listening_choice
+        audioText: "Turn right."
+        question: לאן פונים?
+        options: [ימינה, שמאלה, ישר]
+        correct: 0
+        lexemes: [turn, right]
+      - { id: "u7-l2-06", type: "learn", lexeme: "next-to" }
+      - { id: "u7-l2-07", type: "learn", lexeme: "opposite" }
+      - id: u7-l2-08
+        type: match_pairs
+        pairs:
+          - [left, שמאלה]
+          - [right, ימינה]
+          - [straight on, ישר]
+          - [next to, ליד]
+          - [opposite, מול]
+        lexemes: [left, right, straight-on, next-to, opposite]
+      - id: u7-l2-09
+        type: fill_blank
+        sentence: "The pharmacy is ___ the bank."
+        translation: "בית המרקחת מול הבנק."
+        answers: [opposite]
+        options: [opposite, next, far]
+        lexemes: [opposite, pharmacy, bank]
+      - { id: "u7-l2-10", type: "learn", lexeme: "here" }
+      - id: u7-l2-11
+        type: word_bank
+        prompt: "לך ישר, ואז פנה שמאלה."
+        answers: ["Go straight on, then turn left.", "Go straight on and then turn left."]
+        distractors: [right, next]
+        lexemes: [straight-on, turn, left]
+      - id: u7-l2-12
+        type: dialogue_gap
+        lines:
+          - { speaker: "noa", text: "Excuse me, where is the bank?", translation: "סליחה, איפה הבנק?" }
+          - { speaker: "miriam", text: "Turn right. It's next to the supermarket.", translation: "פני ימינה. הוא ליד הסופרמרקט." }
+        gap: 1
+        distractors: ["Turn right. It's next the supermarket to.", "Yes, it's a bank."]
+        lexemes: [turn, right, next-to, supermarket]
+      - id: u7-l2-13
+        type: translate
+        direction: to_source
+        prompt: "The station is near here."
+        answers: ["התחנה קרובה לכאן.", "התחנה קרוב לכאן.", "התחנה קרובה מכאן.", "התחנה קרובה לפה."]
+        lexemes: [station, near, here]
+      - id: u7-l2-14
+        type: speak_repeat
+        text: "Go straight on and turn left. It's opposite the park."
+        translation: "לך ישר ופנה שמאלה. זה מול הפארק."
+        lexemes: [straight-on, left, opposite, park]
+
+  # ------------------------------------------------------------------ 3
+  - id: u7-l3
+    kind: grammar
+    grammar: there-is-are
+    title: { he: "יש סופרמרקט ליד המלון", en: "There's a supermarket near the hotel" }
+    exercises:
+      - { id: "u7-l3-01", type: "learn", lexeme: "there-is" }
+      - { id: "u7-l3-02", type: "learn", lexeme: "there-are" }
+      - id: u7-l3-03
+        type: fill_blank
+        sentence: "There ___ a bank on this street."
+        translation: "יש בנק ברחוב הזה."
+        answers: [is]
+        options: [is, are]
+        lexemes: [there-is, bank]
+      - id: u7-l3-04
+        type: fill_blank
+        sentence: "There ___ two parks near here."
+        translation: "יש שני פארקים קרוב לכאן."
+        answers: [are]
+        options: [are, is]
+        lexemes: [there-are, park]
+      - { id: "u7-l3-05", type: "learn", lexeme: "is-there" }
+      - id: u7-l3-06
+        type: word_bank
+        prompt: "יש בית מרקחת קרוב לכאן?"
+        answers: ["Is there a pharmacy near here?"]
+        distractors: [are, far]
+        lexemes: [is-there, pharmacy, near]
+      - id: u7-l3-07
+        type: dialogue_gap
+        lines:
+          - { speaker: "noa", text: "Is there a supermarket near here?", translation: "יש סופרמרקט קרוב לכאן?" }
+          - { speaker: "cohen", text: "Yes, there is. It's opposite the station.", translation: "כן. מול התחנה." }
+        gap: 1
+        distractors: ["Yes, there are. It's opposite the station.", "Yes, it is there."]
+        lexemes: [is-there, supermarket, opposite]
+      - id: u7-l3-08
+        type: multiple_choice
+        prompt: איזה משפט נכון?
+        options: ["There are three museums in this city.", "There is three museums in this city.", "Is three museums in this city."]
+        correct: 0
+        lexemes: [there-are, museum]
+      - id: u7-l3-09
+        type: translate
+        direction: to_target
+        prompt: "יש פארק ליד המשרד."
+        answers: ["There is a park next to the office.", "There's a park next to the office.", "There is a park near the office.", "There's a park near the office."]
+        lexemes: [there-is, park, next-to, office]
+      - id: u7-l3-10
+        type: translate
+        direction: to_source
+        prompt: "Is there a bank near here? No, there isn't."
+        answers: ["יש בנק קרוב לכאן? לא.", "יש בנק קרוב לכאן? לא, אין.", "יש בנק בסביבה? לא."]
+        lexemes: [is-there, bank]
+      - id: u7-l3-11
+        type: speak_repeat
+        text: "There's a pharmacy next to the bank."
+        translation: "יש בית מרקחת ליד הבנק."
+        lexemes: [there-is, pharmacy, next-to]
+
+  # ------------------------------------------------------------------ 4
+  - id: u7-l4
+    kind: listening
+    title: { he: "איך מגיעים למוזיאון?", en: "How do I get to the museum?" }
+    exercises:
+      - id: u7-l4-01
+        type: dialogue
+        scene: "נועה רוצה להגיע למוזיאון. היא שואלת את אלי, שעומד ליד בית הקפה."
+        lines:
+          - { speaker: "noa", text: "Excuse me, how do I get to the museum?", translation: "סליחה, איך מגיעים למוזיאון?" }
+          - { speaker: "eli", text: "Go straight on, then turn left at the bank.", translation: "לכי ישר, ואז פני שמאלה ליד הבנק." }
+          - { speaker: "noa", text: "Left at the bank. And then?", translation: "שמאלה ליד הבנק. ואז?" }
+          - { speaker: "eli", text: "The museum is on the right, opposite the park.", translation: "המוזיאון מימין, מול הפארק." }
+          - { speaker: "noa", text: "Is it far?", translation: "זה רחוק?" }
+          - { speaker: "eli", text: "No, about ten minutes.", translation: "לא, בערך עשר דקות." }
+      - id: u7-l4-02
+        type: multiple_choice
+        prompt: "איפה פונים שמאלה?"
+        options: [ליד הבנק, ליד התחנה, ליד הפארק]
+        correct: 0
+        lexemes: [left, bank]
+      - id: u7-l4-03
+        type: multiple_choice
+        prompt: "מה נמצא מול המוזיאון?"
+        options: [פארק, בית מרקחת, סופרמרקט]
+        correct: 0
+        lexemes: [opposite, park]
+      - id: u7-l4-04
+        type: listening_choice
+        audioText: "Turn left, then go straight on."
+        question: מה ההוראות?
+        options: [שמאלה ואז ישר, ימינה ואז ישר, ישר ואז שמאלה]
+        correct: 0
+        lexemes: [left, straight-on]
+      - id: u7-l4-05
+        type: dialogue_gap
+        lines:
+          - { speaker: "rachel", text: "Excuse me, is there a station near here?", translation: "סליחה, יש תחנה קרובה?" }
+          - { speaker: "ben", text: "Yes, there is. Turn right, it's next to the park.", translation: "כן. פני ימינה, היא ליד הפארק." }
+          - { speaker: "rachel", text: "Thank you very much!", translation: "תודה רבה!" }
+        gap: 1
+        distractors: ["Yes, there are. Right is park.", "No, it's a station."]
+        lexemes: [is-there, right, next-to]
+      - id: u7-l4-06
+        type: dictation
+        text: "Turn right at the station."
+        lexemes: [turn, right, station]
+      - id: u7-l4-07
+        type: translate
+        direction: to_target
+        prompt: "זה רחוק?"
+        answers: ["Is it far?", "Is it far away?"]
+        lexemes: [far]
+      - id: u7-l4-08
+        type: translate
+        direction: to_target
+        prompt: "המוזיאון מימין."
+        answers: ["The museum is on the right.", "The museum's on the right."]
+        lexemes: [museum, right]
+      - id: u7-l4-09
+        type: speak_repeat
+        text: "Excuse me, how do I get to the station?"
+        translation: "סליחה, איך מגיעים לתחנה?"
+        lexemes: [excuse-me, station]
+
+  # ------------------------------------------------------------------ 5
+  - id: u7-review
+    kind: review
+    title: { he: "חזרה: בעיר", en: "Review: around town" }
+    exercises:
+      - id: u7-r-01
+        type: match_pairs
+        pairs:
+          - [far, רחוק]
+          - [near, קרוב]
+          - [museum, מוזיאון]
+          - [park, פארק]
+          - [here, כאן]
+        lexemes: [far, near, museum, park, here]
+      - id: u7-r-02
+        type: fill_blank
+        sentence: "___ there a hotel near here?"
+        translation: "יש מלון קרוב לכאן?"
+        answers: [Is]
+        options: [Is, Are, Do]
+        lexemes: [is-there]
+      - id: u7-r-03
+        type: listening_choice
+        audioText: "The bank is opposite the supermarket."
+        question: איפה הבנק?
+        options: [מול הסופרמרקט, ליד הסופרמרקט, רחוק מהסופרמרקט]
+        correct: 0
+        lexemes: [bank, opposite, supermarket]
+      - id: u7-r-04
+        type: word_bank
+        prompt: "יש שתי תחנות ברחוב הזה."
+        answers: ["There are two stations on this street."]
+        distractors: [is, near]
+        lexemes: [there-are, station, street]
+      - id: u7-r-05
+        type: dialogue_gap
+        lines:
+          - { speaker: "noa", text: "Excuse me, where's the pharmacy?", translation: "סליחה, איפה בית המרקחת?" }
+          - { speaker: "cohen", text: "Go straight on. It's on the left.", translation: "לכי ישר. זה משמאל." }
+        gap: 1
+        distractors: ["Sorry, I'm a pharmacy.", "Go straight left on."]
+        lexemes: [straight-on, left]
+      - id: u7-r-06
+        type: multiple_choice
+        prompt: "נתקלתם במישהו ברחוב. מה אומרים?"
+        options: ["Sorry!", "Excuse me, where?", "Turn left!"]
+        correct: 0
+        lexemes: [excuse-me]
+      - id: u7-r-07
+        type: translate
+        direction: to_target
+        prompt: "יש בנק ליד התחנה?"
+        answers: ["Is there a bank next to the station?", "Is there a bank near the station?"]
+        lexemes: [is-there, bank, station]
+      - id: u7-r-08
+        type: translate
+        direction: to_source
+        prompt: "Turn right, then go straight on."
+        answers: ["פנה ימינה, ואז לך ישר.", "פני ימינה, ואז לכי ישר.", "פנה ימינה ואז לך ישר", "תפנה ימינה ואז תלך ישר"]
+        lexemes: [turn, right, straight-on]
+      - id: u7-r-09
+        type: dictation
+        text: "Is it far?"
+        lexemes: [far]
+      - id: u7-r-10
+        type: speak_repeat
+        text: "Is there a supermarket near here? Yes, there is."
+        translation: "יש סופרמרקט קרוב לכאן? כן."
+        lexemes: [is-there, supermarket]

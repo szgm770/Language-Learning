@@ -1,0 +1,518 @@
+id: u10-travel
+cefr: A1
+scene: travel
+title:
+  he: בדרכים
+  en: Travel
+story: "נועה טסה לבקר את מרים במדריד. בשדה התעופה ובמלון היא מסתדרת לבד באנגלית, ואחר כך מספרת לבן איך היה."
+canDo:
+  - "להסתדר בשדה התעופה: כרטיס, דרכון, שער"
+  - לעשות צ'ק־אין במלון ולבקש עזרה
+  - לבקש בנימוס עם I'd like
+  - לספר איפה הייתי ואיך היה, עם was ו־were
+
+vocabulary:
+  - { id: "airport", text: "airport", translation: "שדה תעופה", pos: noun, pronunciation: "אֶרְפּוֹרְט" }
+  - { id: "flight", text: "flight", translation: "טיסה", pos: noun, pronunciation: "פְלַייט" }
+  - { id: "ticket", text: "ticket", translation: "כרטיס", pos: noun, pronunciation: "טִיקֶט" }
+  - { id: "passport", text: "passport", translation: "דרכון", pos: noun, pronunciation: "פַּסְפּוֹרְט" }
+  - { id: "gate", text: "gate", translation: "שער (בשדה התעופה)", pos: noun, pronunciation: "גֵייט", example: { text: "Your flight is at gate twelve.", translation: "הטיסה שלך בשער שתים־עשרה." } }
+  - { id: "hotel", text: "hotel", translation: "מלון", pos: noun, pronunciation: "הוֹטֶל" }
+  - { id: "room", text: "room", translation: "חדר", pos: noun, pronunciation: "רוּם" }
+  - { id: "key", text: "key", translation: "מפתח", pos: noun, pronunciation: "קִי" }
+  - { id: "reservation", text: "reservation", translation: "הזמנה (מראש)", pos: noun, pronunciation: "רֶזֶרְבֵיישְׁן", example: { text: "I have a reservation.", translation: "יש לי הזמנה." } }
+  - { id: "night", text: "night", translation: "לילה", pos: noun, pronunciation: "נַייט", example: { text: "for three nights", translation: "לשלושה לילות" } }
+  - { id: "breakfast", text: "breakfast", translation: "ארוחת בוקר", pos: noun, pronunciation: "בְּרֶקְפַסְט" }
+  - { id: "id-like", text: "I'd like…", translation: "הייתי רוצה… (בנימוס)", pos: phrase, pronunciation: "אַייד לַייק", example: { text: "I'd like a room, please.", translation: "הייתי רוצה חדר, בבקשה." } }
+  - { id: "help", text: "help", translation: "עזרה, לעזור", pos: verb, pronunciation: "הֶלְפּ", example: { text: "Can you help me?", translation: "אתה יכול לעזור לי?" } }
+  - { id: "problem", text: "problem", translation: "בעיה", pos: noun, pronunciation: "פְּרוֹבְּלֶם" }
+  - { id: "was", text: "was", translation: "הייתי, היה, הייתה", pos: verb, pronunciation: "ווֹז", example: { text: "The flight was long.", translation: "הטיסה הייתה ארוכה." } }
+  - { id: "were", text: "were", translation: "היית, היינו, היו", pos: verb, pronunciation: "וֶור", example: { text: "We were in Madrid.", translation: "היינו במדריד." } }
+  - { id: "yesterday", text: "yesterday", translation: "אתמול", pos: adverb, pronunciation: "יֶסְטֶרְדֵיי" }
+  - { id: "last-week", text: "last week", translation: "בשבוע שעבר", pos: phrase, pronunciation: "לַאסְט וִויק" }
+  - { id: "how-was", text: "How was…?", translation: "איך היה…?", pos: phrase, pronunciation: "הַאוּ ווֹז", example: { text: "How was your trip?", translation: "איך היה הטיול שלך?" } }
+
+grammar:
+  - id: id-like
+    title: { he: "I'd like: לבקש בנימוס", en: "I'd like" }
+    explanation: |
+      **I want** נשמע באנגלית ישיר מדי, כמעט גס. בחנות, במלון ובמסעדה אומרים **I'd like**:
+
+      - **I'd like a room, please.** (הייתי רוצה חדר, בבקשה)
+      - **I'd like to check in.** (הייתי רוצה לעשות צ'ק־אין)
+
+      שאלה מנומסת: **Would you like breakfast?** (תרצה ארוחת בוקר?)
+    examples:
+      - { text: "I'd like a ticket to Madrid, please.", translation: "הייתי רוצה כרטיס למדריד, בבקשה." }
+      - { text: "I'd like a coffee.", translation: "הייתי רוצה קפה." }
+  - id: was-were
+    title: { he: "Was ו־were: עבר של to be", en: "Was and were" }
+    explanation: |
+      בעבר, **am** ו־**is** הופכים ל־**was**, ו־**are** הופך ל־**were**:
+
+      - **I was** / **he was** / **she was** / **it was**
+      - **you were** / **we were** / **they were**
+
+      שלילה: **wasn't**, **weren't**. שאלה: **Was it good? Were you tired?**
+    examples:
+      - { text: "I was in Madrid last week.", translation: "הייתי במדריד בשבוע שעבר." }
+      - { text: "The hotel was great.", translation: "המלון היה מעולה." }
+      - { text: "We weren't at home yesterday.", translation: "לא היינו בבית אתמול." }
+
+lessons:
+  # ------------------------------------------------------------------ 1
+  - id: u10-l1
+    kind: new
+    title: { he: "בשדה התעופה", en: "At the airport" }
+    exercises:
+      - id: u10-l1-01
+        type: dialogue
+        scene: "נועה בדלפק בשדה התעופה הית'רו."
+        lines:
+          - { speaker: "cohen", text: "Good morning. Your passport, please.", translation: "בוקר טוב. הדרכון שלך, בבקשה." }
+          - { speaker: "noa", text: "Here you are.", translation: "בבקשה." }
+          - { speaker: "cohen", text: "Thank you. Here's your ticket. Your flight is at gate twelve.", translation: "תודה. הנה הכרטיס שלך. הטיסה שלך בשער שתים־עשרה." }
+          - { speaker: "noa", text: "Gate twelve. Thank you!", translation: "שער שתים־עשרה. תודה!" }
+      - { id: "u10-l1-02", type: "learn", lexeme: "airport" }
+      - { id: "u10-l1-03", type: "learn", lexeme: "passport" }
+      - { id: "u10-l1-04", type: "learn", lexeme: "ticket" }
+      - { id: "u10-l1-05", type: "learn", lexeme: "flight" }
+      - { id: "u10-l1-06", type: "learn", lexeme: "gate" }
+      - id: u10-l1-07
+        type: match_pairs
+        pairs:
+          - [airport, שדה תעופה]
+          - [passport, דרכון]
+          - [ticket, כרטיס]
+          - [flight, טיסה]
+          - [gate, שער]
+        lexemes: [airport, passport, ticket, flight, gate]
+      - id: u10-l1-08
+        type: listening_choice
+        audioText: "Your flight is at gate nine."
+        question: באיזה שער הטיסה?
+        options: ["9", "5", "12"]
+        correct: 0
+        lexemes: [flight, gate, nine]
+      - { id: "u10-l1-09", type: "learn", lexeme: "help" }
+      - { id: "u10-l1-10", type: "learn", lexeme: "problem" }
+      - id: u10-l1-11
+        type: dialogue_gap
+        lines:
+          - { speaker: "noa", text: "Excuse me, can you help me? Where is gate twelve?", translation: "סליחה, אתה יכול לעזור לי? איפה שער שתים־עשרה?" }
+          - { speaker: "eli", text: "No problem. Go straight on and turn left.", translation: "אין בעיה. לכי ישר ופני שמאלה." }
+        gap: 1
+        distractors: ["No problem. Your passport is a gate.", "Yes, I have a problem."]
+        lexemes: [problem, straight-on]
+      - id: u10-l1-12
+        type: word_bank
+        prompt: "איפה הדרכון שלי?"
+        answers: ["Where is my passport?", "Where's my passport?"]
+        distractors: [ticket, your]
+        lexemes: [passport, my, where]
+      - id: u10-l1-13
+        type: translate
+        direction: to_target
+        prompt: "אתה יכול לעזור לי?"
+        answers: ["Can you help me?", "Could you help me?", "Can you help me, please?", "Could you help me, please?"]
+        lexemes: [help]
+      - id: u10-l1-14
+        type: speak_repeat
+        text: "Excuse me, can you help me? I have a problem."
+        translation: "סליחה, אתה יכול לעזור לי? יש לי בעיה."
+        lexemes: [help, problem]
+
+  # ------------------------------------------------------------------ 2
+  - id: u10-l2
+    kind: new
+    title: { he: "צ'ק־אין במלון", en: "Checking in" }
+    exercises:
+      - id: u10-l2-01
+        type: dialogue
+        scene: "נועה מגיעה למלון במדריד."
+        lines:
+          - { speaker: "noa", text: "Good evening. I have a reservation. My name is Noa Levi.", translation: "ערב טוב. יש לי הזמנה. שמי נועה לוי." }
+          - { speaker: "cohen", text: "Welcome! A room for three nights?", translation: "ברוכה הבאה! חדר לשלושה לילות?" }
+          - { speaker: "noa", text: "Yes. Is breakfast in the price?", translation: "כן. ארוחת הבוקר כלולה במחיר?" }
+          - { speaker: "cohen", text: "Yes, from seven to ten. Here's your key. Room forty.", translation: "כן, משבע עד עשר. הנה המפתח שלך. חדר ארבעים." }
+      - { id: "u10-l2-02", type: "learn", lexeme: "hotel" }
+      - { id: "u10-l2-03", type: "learn", lexeme: "reservation" }
+      - { id: "u10-l2-04", type: "learn", lexeme: "room" }
+      - { id: "u10-l2-05", type: "learn", lexeme: "night" }
+      - { id: "u10-l2-06", type: "learn", lexeme: "key" }
+      - { id: "u10-l2-07", type: "learn", lexeme: "breakfast" }
+      - id: u10-l2-08
+        type: match_pairs
+        pairs:
+          - [hotel, מלון]
+          - [room, חדר]
+          - [key, מפתח]
+          - [night, לילה]
+          - [breakfast, ארוחת בוקר]
+        lexemes: [hotel, room, key, night, breakfast]
+      - id: u10-l2-09
+        type: multiple_choice
+        prompt: "כמה לילות נועה במלון?"
+        options: [שלושה, שבעה, עשרה]
+        correct: 0
+        lexemes: [night, three]
+      - { id: "u10-l2-10", type: "learn", lexeme: "id-like" }
+      - id: u10-l2-11
+        type: word_bank
+        prompt: "הייתי רוצה חדר לשני לילות, בבקשה."
+        answers: ["I'd like a room for two nights, please."]
+        distractors: [want, night]
+        lexemes: [id-like, room, two, night]
+      - id: u10-l2-12
+        type: dialogue_gap
+        lines:
+          - { speaker: "cohen", text: "Good evening. Can I help you?", translation: "ערב טוב. אפשר לעזור?" }
+          - { speaker: "ben", text: "Yes, I have a reservation for tonight.", translation: "כן, יש לי הזמנה להלילה." }
+        gap: 1
+        distractors: ["Yes, I have a passport for breakfast.", "Yes, I'm a room."]
+        lexemes: [reservation, help]
+      - id: u10-l2-13
+        type: translate
+        direction: to_source
+        prompt: "Here's your key."
+        answers: ["הנה המפתח שלך.", "הנה המפתח שלך", "הנה המפתח שלכם.", "הנה המפתח."]
+        lexemes: [key, your]
+      - id: u10-l2-14
+        type: speak_repeat
+        text: "Good evening. I have a reservation."
+        translation: "ערב טוב. יש לי הזמנה."
+        lexemes: [good-evening, reservation]
+
+  # ------------------------------------------------------------------ 3
+  - id: u10-l3
+    kind: grammar
+    grammar: was-were
+    title: { he: "איך היה?", en: "How was it?" }
+    exercises:
+      - { id: "u10-l3-01", type: "learn", lexeme: "was" }
+      - { id: "u10-l3-02", type: "learn", lexeme: "were" }
+      - { id: "u10-l3-03", type: "learn", lexeme: "yesterday" }
+      - { id: "u10-l3-04", type: "learn", lexeme: "last-week" }
+      - { id: "u10-l3-05", type: "learn", lexeme: "how-was" }
+      - id: u10-l3-06
+        type: fill_blank
+        sentence: "I ___ in Madrid last week."
+        translation: "הייתי במדריד בשבוע שעבר."
+        answers: [was]
+        options: [was, were, am]
+        lexemes: [was, last-week]
+      - id: u10-l3-07
+        type: fill_blank
+        sentence: "We ___ at the airport yesterday."
+        translation: "היינו בשדה התעופה אתמול."
+        answers: [were]
+        options: [were, was, are]
+        lexemes: [were, airport, yesterday]
+      - id: u10-l3-08
+        type: multiple_choice
+        prompt: איזה משפט נכון?
+        options: ["The hotel was great.", "The hotel were great.", "The hotel is was great."]
+        correct: 0
+        lexemes: [was, hotel]
+      - id: u10-l3-09
+        type: dialogue_gap
+        lines:
+          - { speaker: "ben", text: "How was your flight?", translation: "איך הייתה הטיסה?" }
+          - { speaker: "noa", text: "It was fine, thanks.", translation: "היא הייתה בסדר, תודה." }
+        gap: 1
+        distractors: ["It were fine, thanks.", "It is was fine."]
+        lexemes: [how-was, was, flight]
+      - id: u10-l3-10
+        type: word_bank
+        prompt: "הם היו במלון אתמול."
+        answers: ["They were at the hotel yesterday.", "Yesterday they were at the hotel.", "They were in the hotel yesterday."]
+        distractors: [was, are]
+        lexemes: [were, hotel, yesterday]
+      - id: u10-l3-11
+        type: translate
+        direction: to_target
+        prompt: "איך היה המלון?"
+        answers: ["How was the hotel?"]
+        lexemes: [how-was, hotel]
+      - id: u10-l3-12
+        type: translate
+        direction: to_source
+        prompt: "I wasn't at home yesterday."
+        answers: ["לא הייתי בבית אתמול.", "אתמול לא הייתי בבית.", "לא הייתי בבית אתמול"]
+        lexemes: [was, yesterday]
+      - id: u10-l3-13
+        type: speak_repeat
+        text: "How was your weekend? It was great!"
+        translation: "איך היה סוף השבוע שלך? היה מעולה!"
+        lexemes: [how-was, weekend, was]
+
+  # ------------------------------------------------------------------ 4
+  - id: u10-l4
+    kind: listening
+    title: { he: "חזרה הביתה", en: "Back home" }
+    exercises:
+      - id: u10-l4-01
+        type: dialogue
+        scene: "נועה חוזרת ללונדון ופוגשת את בן בבית הקפה של אלי."
+        lines:
+          - { speaker: "ben", text: "Welcome back! How was Madrid?", translation: "ברוכה השבה! איך היה במדריד?" }
+          - { speaker: "noa", text: "It was great! Miriam was very nice.", translation: "היה מעולה! מרים הייתה מאוד נחמדה." }
+          - { speaker: "ben", text: "And the hotel?", translation: "והמלון?" }
+          - { speaker: "noa", text: "The room was small, but the breakfast was fantastic.", translation: "החדר היה קטן, אבל ארוחת הבוקר הייתה נהדרת." }
+          - { speaker: "ben", text: "Were you tired after the flight?", translation: "היית עייפה אחרי הטיסה?" }
+          - { speaker: "noa", text: "Yes, I was. The flight was late.", translation: "כן. הטיסה איחרה." }
+      - id: u10-l4-02
+        type: multiple_choice
+        prompt: "מה היה מעולה במלון?"
+        options: [ארוחת הבוקר, החדר, המפתח]
+        correct: 0
+        lexemes: [breakfast, was]
+      - id: u10-l4-03
+        type: multiple_choice
+        prompt: "מה הייתה הבעיה בטיסה?"
+        options: [היא איחרה, היא הייתה יקרה, לא היה כרטיס]
+        correct: 0
+        lexemes: [flight, late]
+      - id: u10-l4-04
+        type: listening_choice
+        audioText: "We were in Spain last week."
+        question: מתי הם היו בספרד?
+        options: [בשבוע שעבר, אתמול, היום]
+        correct: 0
+        lexemes: [were, spain, last-week]
+      - id: u10-l4-05
+        type: dialogue_gap
+        lines:
+          - { speaker: "cohen", text: "Would you like breakfast tomorrow?", translation: "תרצי ארוחת בוקר מחר?" }
+          - { speaker: "miriam", text: "Yes, I'd like a coffee and a sandwich, please.", translation: "כן, הייתי רוצה קפה וכריך, בבקשה." }
+        gap: 1
+        distractors: ["Yes, I like a coffee was.", "Yes, I were a sandwich."]
+        lexemes: [id-like, coffee, sandwich]
+      - id: u10-l4-06
+        type: dictation
+        text: "How was your flight?"
+        lexemes: [how-was, flight]
+      - id: u10-l4-07
+        type: translate
+        direction: to_target
+        prompt: "החדר היה קטן."
+        answers: ["The room was small.", "The room was too small."]
+        lexemes: [room, was, small]
+      - id: u10-l4-08
+        type: translate
+        direction: to_target
+        prompt: "הייתי רוצה כרטיס, בבקשה."
+        answers: ["I'd like a ticket, please.", "I would like a ticket, please.", "I'd like a ticket please.", "I would like a ticket please."]
+        lexemes: [id-like, ticket]
+      - id: u10-l4-09
+        type: speak_repeat
+        text: "It was great! The hotel was fantastic."
+        translation: "היה מעולה! המלון היה נהדר."
+        lexemes: [was, hotel]
+
+  # ------------------------------------------------------------------ 5
+  - id: u10-review
+    kind: review
+    title: { he: "חזרה: בדרכים", en: "Review: travel" }
+    exercises:
+      - id: u10-r-01
+        type: match_pairs
+        pairs:
+          - [yesterday, אתמול]
+          - [last week, בשבוע שעבר]
+          - [problem, בעיה]
+          - [help, עזרה]
+          - [reservation, הזמנה]
+        lexemes: [yesterday, last-week, problem, help, reservation]
+      - id: u10-r-02
+        type: fill_blank
+        sentence: "___ you at work yesterday?"
+        translation: "היית בעבודה אתמול?"
+        answers: [Were]
+        options: [Were, Was, Are]
+        lexemes: [were, yesterday]
+      - id: u10-r-03
+        type: listening_choice
+        audioText: "I'd like a room for one night."
+        question: מה היא מבקשת?
+        options: [חדר ללילה אחד, חדר לשבוע, כרטיס לטיסה]
+        correct: 0
+        lexemes: [id-like, room, night]
+      - id: u10-r-04
+        type: word_bank
+        prompt: "הטיסה הייתה ארוכה."
+        answers: ["The flight was long."]
+        distractors: [were, is]
+        lexemes: [flight, was]
+      - id: u10-r-05
+        type: dialogue_gap
+        lines:
+          - { speaker: "rachel", text: "How was your weekend?", translation: "איך היה סוף השבוע שלך?" }
+          - { speaker: "eli", text: "It was great, thanks. We were at the beach.", translation: "היה מעולה, תודה. היינו בחוף." }
+        gap: 1
+        distractors: ["It were great. We was at the beach.", "It's great yesterday."]
+        lexemes: [how-was, was, were]
+      - id: u10-r-06
+        type: multiple_choice
+        prompt: "במלון. מה הכי מנומס?"
+        options: ["I'd like a room, please.", "I want a room.", "Give me a room."]
+        correct: 0
+        lexemes: [id-like, room]
+      - id: u10-r-07
+        type: translate
+        direction: to_target
+        prompt: "היינו בלונדון בשבוע שעבר."
+        answers: ["We were in London last week.", "Last week we were in London."]
+        lexemes: [were, last-week]
+      - id: u10-r-08
+        type: translate
+        direction: to_source
+        prompt: "Where is the airport?"
+        answers: ["איפה שדה התעופה?", "איפה נמל התעופה?", "איפה שדה התעופה"]
+        lexemes: [where, airport]
+      - id: u10-r-09
+        type: dictation
+        text: "I have a reservation."
+        lexemes: [reservation]
+      - id: u10-r-10
+        type: speak_repeat
+        text: "Excuse me, where is gate five?"
+        translation: "סליחה, איפה שער חמש?"
+        lexemes: [excuse-me, gate, five]
+
+  # ------------------------------------------------------------------ A1 level test
+  - id: a1-test
+    kind: test
+    title: { he: "מבחן רמה A1", en: "A1 level test" }
+    exercises:
+      - id: a1-t-01
+        type: multiple_choice
+        prompt: "פוגשים מישהו בפעם הראשונה. מה אומרים?"
+        options: ["Nice to meet you.", "See you later.", "Good night."]
+        correct: 0
+        lexemes: [nice-to-meet-you]
+      - id: a1-t-02
+        type: fill_blank
+        sentence: "She ___ from Spain."
+        translation: "היא מספרד."
+        answers: [is]
+        options: [is, are, am]
+        lexemes: [is, from, spain]
+      - id: a1-t-03
+        type: listening_choice
+        audioText: "My phone number is three, seven, two, nine."
+        question: מה המספר?
+        options: ["3729", "3792", "2739"]
+        correct: 0
+        lexemes: [phone-number]
+      - id: a1-t-04
+        type: word_bank
+        prompt: "יש לי אח ושתי אחיות."
+        answers: ["I have a brother and two sisters."]
+        distractors: [has, sister]
+        lexemes: [i-have, brother, sister]
+      - id: a1-t-05
+        type: fill_blank
+        sentence: "This is my sister. ___ name is Rachel."
+        translation: "זאת אחותי. שמה רחל."
+        answers: [Her]
+        options: [Her, His, She]
+        lexemes: [her, name]
+      - id: a1-t-06
+        type: dialogue_gap
+        lines:
+          - { speaker: "eli", text: "What can I get you?", translation: "מה להביא לך?" }
+          - { speaker: "ben", text: "Can I have a large coffee, please?", translation: "אפשר קפה גדול, בבקשה?" }
+        gap: 1
+        distractors: ["Can I have a coffee large, please?", "I'm a large coffee, please."]
+        lexemes: [can-i-have, large, coffee]
+      - id: a1-t-07
+        type: fill_blank
+        sentence: "Ben ___ up at seven every day."
+        translation: "בן קם בשבע כל יום."
+        answers: [gets]
+        options: [gets, get, getting]
+        lexemes: [get-up, every-day]
+      - id: a1-t-08
+        type: listening_choice
+        audioText: "The meeting is at half past ten."
+        question: מתי הפגישה?
+        options: ["10:30", "10:00", "11:30"]
+        correct: 0
+        lexemes: [meeting, half-past]
+      - id: a1-t-09
+        type: multiple_choice
+        prompt: איזה משפט נכון?
+        options: ["She doesn't work on Friday.", "She don't work on Friday.", "She doesn't works on Friday."]
+        correct: 0
+        lexemes: [doesnt, work-verb, friday]
+      - id: a1-t-10
+        type: translate
+        direction: to_target
+        prompt: "מה אתה עושה?"
+        answers: ["What do you do?"]
+        lexemes: [what-do-you-do]
+      - id: a1-t-11
+        type: fill_blank
+        sentence: "There ___ two banks on this street."
+        translation: "יש שני בנקים ברחוב הזה."
+        answers: [are]
+        options: [are, is, have]
+        lexemes: [there-are, bank, street]
+      - id: a1-t-12
+        type: listening_choice
+        audioText: "Turn left. The station is next to the park."
+        question: איפה התחנה?
+        options: [ליד הפארק, מול הפארק, רחוק מהפארק]
+        correct: 0
+        lexemes: [left, station, next-to, park]
+      - id: a1-t-13
+        type: multiple_choice
+        prompt: "איך אומרים 'ז'קט שחור'?"
+        options: ["a black jacket", "a jacket black", "a blacks jacket"]
+        correct: 0
+        lexemes: [black, jacket]
+      - id: a1-t-14
+        type: fill_blank
+        sentence: "How much are ___ shoes? (הנעליים האלה, בידי)"
+        translation: "כמה עולות הנעליים האלה?"
+        answers: [these]
+        options: [these, this, that]
+        lexemes: [these, shoes, how-much]
+      - id: a1-t-15
+        type: multiple_choice
+        prompt: איזה משפט נכון?
+        options: ["I can swim.", "I can to swim.", "I cans swim."]
+        correct: 0
+        lexemes: [can, swim]
+      - id: a1-t-16
+        type: dialogue_gap
+        lines:
+          - { speaker: "ben", text: "Do you want to watch a movie tonight?", translation: "רוצה לראות סרט הערב?" }
+          - { speaker: "noa", text: "Sorry, I can't. I'm busy.", translation: "מצטערת, אני לא יכולה. אני עסוקה." }
+        gap: 1
+        distractors: ["Sorry, I can. I'm busy.", "Sure, I never."]
+        lexemes: [sorry-i-cant, busy]
+      - id: a1-t-17
+        type: fill_blank
+        sentence: "We ___ in Madrid last week."
+        translation: "היינו במדריד בשבוע שעבר."
+        answers: [were]
+        options: [were, was, are]
+        lexemes: [were, last-week]
+      - id: a1-t-18
+        type: translate
+        direction: to_target
+        prompt: "הייתי רוצה חדר, בבקשה."
+        answers: ["I'd like a room, please.", "I would like a room, please.", "I'd like a room please.", "I would like a room please."]
+        lexemes: [id-like, room]
+      - id: a1-t-19
+        type: translate
+        direction: to_source
+        prompt: "I always cook on Friday."
+        answers: ["אני תמיד מבשל ביום שישי.", "אני תמיד מבשלת ביום שישי.", "תמיד אני מבשל ביום שישי.", "אני תמיד מבשל בשישי.", "אני תמיד מבשלת בשישי."]
+        lexemes: [always, cook, friday]
+      - id: a1-t-20
+        type: dictation
+        text: "How was your weekend?"
+        lexemes: [how-was, weekend]
