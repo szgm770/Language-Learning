@@ -1,0 +1,16 @@
+node_modules/
+.next/
+out/
+dist/
+coverage/
+*.tsbuildinfo
+.env
+.env.local
+.env.*.local
+.DS_Store
+.vercel
+# generated content bundles
+apps/web/public/content/
+test-results/
+playwright-report/
+next-env.d.ts

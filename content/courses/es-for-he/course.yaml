@@ -1,0 +1,12 @@
+id: es-for-he
+source: he
+target: es
+speechLang: es-ES
+title:
+  he: ספרדית לדוברי עברית
+  en: Spanish for Hebrew speakers
+description:
+  he: ספרדית מהיסוד, עם הסברים בעברית והשוואות לעברית.
+  en: Spanish from the ground up, explained in Hebrew.
+units:
+  - a1-01-hola

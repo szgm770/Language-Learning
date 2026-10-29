@@ -1,0 +1,136 @@
+id: a1-01-hola
+cefr: A1
+title:
+  he: ¡Hola! – שלום
+  en: ¡Hola!
+canDo:
+  - לברך לשלום ולהיפרד
+  - להציג את עצמי ולשאול לשם
+
+vocabulary:
+  - { id: hola, text: hola, translation: שלום, pos: interjection, pronunciation: אוֹלָה }
+  - { id: adios, text: adiós, translation: להתראות, pos: interjection, pronunciation: אַדְיוֹס }
+  - { id: buenos-dias, text: buenos días, translation: בוקר טוב, pos: phrase, pronunciation: בּוּאֶנוֹס דִיאַס }
+  - { id: buenas-noches, text: buenas noches, translation: לילה טוב / ערב טוב, pos: phrase, pronunciation: בּוּאֶנַס נוֹצ'ֶס }
+  - { id: gracias, text: gracias, translation: תודה, pos: interjection, pronunciation: גְרַסְיַאס }
+  - { id: por-favor, text: por favor, translation: בבקשה, pos: phrase, pronunciation: פּוֹר פָבוֹר }
+  - { id: si, text: sí, translation: כן, pos: interjection, pronunciation: סִי }
+  - { id: no-es, text: "no", translation: לא, pos: interjection, pronunciation: נוֹ }
+  - { id: me-llamo, text: me llamo, translation: קוראים לי, pos: phrase, pronunciation: מֶה יָאמוֹ }
+  - { id: como-te-llamas, text: ¿Cómo te llamas?, translation: איך קוראים לך?, pos: phrase, pronunciation: קוֹמוֹ טֶה יָאמַס }
+  - { id: mucho-gusto, text: mucho gusto, translation: נעים מאוד, pos: phrase, pronunciation: מוּצ'וֹ גוּסְטוֹ }
+
+grammar:
+  - id: me-llamo
+    title: { he: "Me llamo – קוראים לי", en: "Me llamo" }
+    explanation: |
+      בספרדית מציגים את עצמנו כמעט כמו בעברית: **Me llamo Dana** – "קוראים לי דנה" (מילה במילה: "אני קורא לעצמי").
+
+      שאלה בספרדית נפתחת בסימן שאלה הפוך: **¿Cómo te llamas?** – איך קוראים לך?
+
+      האותיות **ll** נהגות כמו י׳ (יָאמוֹ), ובארגנטינה כמו ז׳.
+    examples:
+      - { text: Me llamo Yossi., translation: קוראים לי יוסי. }
+      - { text: ¿Cómo te llamas?, translation: איך קוראים לך? }
+
+lessons:
+  - id: es-u1-l1
+    kind: new
+    title: { he: ברכות, en: Greetings }
+    exercises:
+      - id: es-u1-l1-e1
+        type: multiple_choice
+        prompt: איך אומרים "שלום" בספרדית?
+        options: [hola, adiós, gracias]
+        correct: 0
+        lexemes: [hola]
+      - id: es-u1-l1-e2
+        type: match_pairs
+        pairs: [[hola, שלום], [adiós, להתראות], [buenos días, בוקר טוב], [gracias, תודה]]
+        lexemes: [hola, adios, buenos-dias, gracias]
+      - id: es-u1-l1-e3
+        type: listening_choice
+        audioText: buenos días
+        question: מה שמעתם?
+        options: [בוקר טוב, לילה טוב, תודה]
+        correct: 0
+        lexemes: [buenos-dias]
+      - id: es-u1-l1-e4
+        type: translate
+        direction: to_target
+        prompt: להתראות
+        answers: [adiós]
+        lexemes: [adios]
+      - id: es-u1-l1-e5
+        type: dictation
+        text: hola
+        lexemes: [hola]
+      - id: es-u1-l1-e6
+        type: speak_repeat
+        text: ¡Buenos días!
+        translation: בוקר טוב!
+        lexemes: [buenos-dias]
+
+  - id: es-u1-l2
+    kind: new
+    title: { he: מילות נימוס, en: Polite words }
+    exercises:
+      - id: es-u1-l2-e1
+        type: match_pairs
+        pairs: [[sí, כן], ["no", לא], [por favor, בבקשה], [gracias, תודה]]
+        lexemes: [si, no-es, por-favor, gracias]
+      - id: es-u1-l2-e2
+        type: word_bank
+        prompt: כן, בבקשה.
+        answers: ["Sí, por favor."]
+        distractors: [gracias, "no"]
+        lexemes: [si, por-favor]
+      - id: es-u1-l2-e3
+        type: translate
+        direction: to_target
+        prompt: לא, תודה.
+        answers: ["No, gracias."]
+        lexemes: [no-es, gracias]
+      - id: es-u1-l2-e4
+        type: listening_choice
+        audioText: buenas noches
+        question: מה שמעתם?
+        options: [לילה טוב, בוקר טוב, להתראות]
+        correct: 0
+        lexemes: [buenas-noches]
+
+  - id: es-u1-l3
+    kind: grammar
+    grammar: me-llamo
+    title: { he: איך קוראים לך?, en: ¿Cómo te llamas? }
+    exercises:
+      - id: es-u1-l3-e1
+        type: word_bank
+        prompt: קוראים לי דנה.
+        answers: [Me llamo Dana.]
+        distractors: [te, hola]
+        lexemes: [me-llamo]
+      - id: es-u1-l3-e2
+        type: multiple_choice
+        prompt: "¿Cómo te llamas? – מה פירוש השאלה?"
+        options: [איך קוראים לך?, מה שלומך?, בן כמה אתה?]
+        correct: 0
+        lexemes: [como-te-llamas]
+      - id: es-u1-l3-e3
+        type: fill_blank
+        sentence: ¿Cómo te ___?
+        translation: איך קוראים לך?
+        answers: [llamas]
+        options: [llamas, llamo, gracias]
+        lexemes: [como-te-llamas]
+      - id: es-u1-l3-e4
+        type: translate
+        direction: to_target
+        prompt: נעים מאוד.
+        answers: [Mucho gusto.]
+        lexemes: [mucho-gusto]
+      - id: es-u1-l3-e5
+        type: speak_repeat
+        text: Hola, me llamo Dana. ¡Mucho gusto!
+        translation: שלום, קוראים לי דנה. נעים מאוד!
+        lexemes: [hola, me-llamo, mucho-gusto]
