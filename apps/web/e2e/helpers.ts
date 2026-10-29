@@ -51,13 +51,20 @@ export async function solve(page: Page, ex: Exercise) {
 }
 
 /** Plays the lesson on screen to the end, answering everything correctly. Returns the number of mistakes. */
+const DONE = /השיעור הושלם|עברתם את מבחן הרמה|כמעט שם/;
+
 export async function finishLesson(page: Page): Promise<number> {
   let mistakes = 0;
   for (let step = 0; step < 60; step++) {
     const stage = page.locator("[data-exercise]");
-    const done = page.getByRole("heading", { name: "השיעור הושלם" });
-    await expect(stage.or(done)).toBeVisible();
+    const done = page.getByRole("heading", { name: DONE });
+    const intro = page.getByRole("button", { name: "לתרגול" });
+    await expect(stage.or(done).or(intro)).toBeVisible();
     if (await done.isVisible()) break;
+    if (await intro.isVisible()) {
+      await intro.click();
+      continue;
+    }
     const id = (await stage.getAttribute("data-exercise"))!;
     if ((await solve(page, exercises.get(id)!)) === "seen") continue;
     const status = page.locator("[data-verdict]");
@@ -65,6 +72,6 @@ export async function finishLesson(page: Page): Promise<number> {
     if ((await status.getAttribute("data-verdict")) !== "correct") mistakes++;
     await page.getByRole("button", { name: "המשך" }).click();
   }
-  await expect(page.getByRole("heading", { name: "השיעור הושלם" })).toBeVisible();
+  await expect(page.getByRole("heading", { name: DONE })).toBeVisible();
   return mistakes;
 }

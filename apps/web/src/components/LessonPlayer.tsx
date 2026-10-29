@@ -6,6 +6,7 @@ import Link from "next/link";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { today } from "@/lib/day";
 import { answer, current, finishOps, isDone, type LessonRun, progress, startRun, summarize } from "@/lib/lesson";
+import { PASS_SCORE } from "@/lib/progress";
 import { sfx } from "@/lib/sfx";
 import { getDeviceId, getState, record } from "@/lib/store";
 import { Confetti } from "./Confetti";
@@ -55,6 +56,7 @@ export function LessonPlayer({
   const [turn, setTurn] = useState(0);
   const [streak, setStreak] = useState(0);
   const [summary, setSummary] = useState<ReturnType<typeof summarize> | null>(null);
+  const passed = !!summary && summary.score >= PASS_SCORE;
 
   const onResult = useCallback(
     (evaluation: Evaluation, ms: number) => {
@@ -134,7 +136,9 @@ export function LessonPlayer({
             <Icon name="trophy" className="size-16" />
           </span>
           <div className="flex flex-col gap-2">
-            <h1 className="text-3xl font-bold">השיעור הושלם!</h1>
+            <h1 className="text-3xl font-bold">
+              {lesson.kind !== "test" ? "השיעור הושלם!" : passed ? "עברתם את מבחן הרמה!" : "כמעט שם!"}
+            </h1>
             <p className="text-lg text-ink-soft">{lesson.title.he}</p>
           </div>
           <dl className="grid w-full grid-cols-3 gap-3">
@@ -154,6 +158,11 @@ export function LessonPlayer({
             </div>
           </dl>
           <div className="flex w-full flex-col gap-3">
+            {lesson.kind === "test" && (
+              <Link href={`/certificate/${courseId}/`} className="btn-primary w-full">
+                {passed ? "לתעודה שלי" : `צריך ${Math.round(PASS_SCORE * 100)}% כדי לקבל תעודה`}
+              </Link>
+            )}
             {nextHref && (
               <Link href={nextHref} className="btn-primary w-full">
                 לשיעור הבא

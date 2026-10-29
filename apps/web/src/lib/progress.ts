@@ -13,6 +13,9 @@ export function currentCourse(state: LearnerState): string | undefined {
   return chosen && enrolled.includes(chosen) ? chosen : enrolled[0];
 }
 
+/** Share of the level test that must be right to earn the certificate. */
+export const PASS_SCORE = 0.7;
+
 export const isCompleted = (state: LearnerState, courseId: string, lessonId: string) =>
   state.lessons.get(lessonKey(courseId, lessonId))?.completed ?? false;
 

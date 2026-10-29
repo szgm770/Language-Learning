@@ -1,0 +1,383 @@
+id: u06-work
+cefr: A1
+scene: work
+title:
+  he: עבודה
+  en: Work
+story: "נועה מסבירה לבן מה היא עושה בחברה, ורחל, אחותו, מספרת על העבודה שלה בבית החולים."
+canDo:
+  - להגיד מה המקצוע שלי ולשאול על מקצוע של אחרים
+  - לתאר מה עושה אדם אחר (he works, she works)
+  - לשאול על אדם אחר עם does
+  - לדבר על המשרד, פגישות ומיילים
+
+vocabulary:
+  - { id: "job", text: "job", translation: "עבודה, משרה", pos: noun, pronunciation: "ג'וֹבּ", example: { text: "I love my job.", translation: "אני אוהבת את העבודה שלי." } }
+  - { id: "what-do-you-do", text: "What do you do?", translation: "במה אתה עובד?", pos: phrase, pronunciation: "ווֹט דוּ יוּ דוּ" }
+  - { id: "engineer", text: "engineer", translation: "מהנדס, מהנדסת", pos: noun, pronunciation: "אֶנְג'ִינִיר", example: { text: "I'm an engineer.", translation: "אני מהנדסת." } }
+  - { id: "teacher", text: "teacher", translation: "מורה", pos: noun, pronunciation: "טִיצֶ'ר" }
+  - { id: "doctor", text: "doctor", translation: "רופא, רופאה", pos: noun, pronunciation: "דוֹקְטוֹר" }
+  - { id: "nurse", text: "nurse", translation: "אח, אחות (בבית חולים)", pos: noun, pronunciation: "נֶרְס" }
+  - { id: "student", text: "student", translation: "סטודנט, תלמיד", pos: noun, pronunciation: "סְטוּדֶנְט" }
+  - { id: "manager", text: "manager", translation: "מנהל, מנהלת", pos: noun, pronunciation: "מֶנֶג'ֶר" }
+  - { id: "office", text: "office", translation: "משרד", pos: noun, pronunciation: "אוֹפִיס", example: { text: "Our office is in London.", translation: "המשרד שלנו בלונדון." } }
+  - { id: "company", text: "company", translation: "חברה (עסק)", pos: noun, pronunciation: "קָאמְפַּנִי" }
+  - { id: "meeting", text: "meeting", translation: "פגישה", pos: noun, pronunciation: "מִיטִינְג", example: { text: "I have a meeting at ten.", translation: "יש לי פגישה בעשר." } }
+  - { id: "email", text: "email", translation: "מייל", pos: noun, pronunciation: "אִימֵייל" }
+  - { id: "computer", text: "computer", translation: "מחשב", pos: noun, pronunciation: "קוֹמְפְּיוּטֶר" }
+  - { id: "busy", text: "busy", translation: "עסוק, עסוקה", pos: adjective, pronunciation: "בִּיזִי", example: { text: "Sorry, I'm busy today.", translation: "סליחה, אני עסוקה היום." } }
+  - { id: "today", text: "today", translation: "היום", pos: adverb, pronunciation: "טוּדֵיי" }
+  - { id: "works", text: "works", translation: "עובד, עובדת (הוא / היא)", pos: verb, pronunciation: "וֶורְקְס", example: { text: "She works in a hospital.", translation: "היא עובדת בבית חולים." } }
+  - { id: "does", text: "Does…?", translation: "(שאלה על הוא / היא)", pos: phrase, pronunciation: "דָאז", example: { text: "Does he work here?", translation: "הוא עובד כאן?" } }
+  - { id: "doesnt", text: "doesn't", translation: "לא (הוא / היא, לפני פועל)", pos: phrase, pronunciation: "דָאזֶנְט", example: { text: "She doesn't work on Sunday.", translation: "היא לא עובדת ביום ראשון." } }
+  - { id: "hospital", text: "hospital", translation: "בית חולים", pos: noun, pronunciation: "הוֹסְפִּיטְל" }
+  - { id: "at-home", text: "at home", translation: "בבית", pos: phrase, pronunciation: "אֶט הוֹם", example: { text: "I work at home on Thursday.", translation: "אני עובדת מהבית ביום חמישי." } }
+  - { id: "like", text: "like", translation: "לאהוב, לחבב", pos: verb, pronunciation: "לַייק", example: { text: "I like my job.", translation: "אני אוהבת את העבודה שלי." } }
+
+grammar:
+  - id: third-person-s
+    title: { he: "He works: ה־s של הוא והיא", en: "He works, she works" }
+    explanation: |
+      בהווה, כשמדברים על **he** או **she** (או על אדם אחד בשמו), מוסיפים **s** לפועל:
+
+      - **I work** אבל **she works**
+      - **I like** אבל **Ben likes**
+
+      שלילה: **doesn't** במקום don't, והפועל חוזר בלי s: **She doesn't work on Sunday.**
+
+      שאלה: **Does** בהתחלה, ושוב בלי s: **Does he work here?** ועונים **Yes, he does.** או **No, he doesn't.**
+    examples:
+      - { text: "Rachel works in a hospital.", translation: "רחל עובדת בבית חולים." }
+      - { text: "Ben doesn't work on Sunday.", translation: "בן לא עובד ביום ראשון." }
+      - { text: "Does Noa like her job? Yes, she does.", translation: "נועה אוהבת את העבודה שלה? כן." }
+
+lessons:
+  # ------------------------------------------------------------------ 1
+  - id: u6-l1
+    kind: new
+    title: { he: "במה את עובדת?", en: "What do you do?" }
+    exercises:
+      - id: u6-l1-01
+        type: dialogue
+        scene: "בארוחת ערב צוות, מרים שואלת את נועה על העבודה שלה."
+        lines:
+          - { speaker: "miriam", text: "What do you do, Noa?", translation: "במה את עובדת, נועה?" }
+          - { speaker: "noa", text: "I'm an engineer. And you?", translation: "אני מהנדסת. ואת?" }
+          - { speaker: "miriam", text: "I'm a manager. And Ben is an engineer too.", translation: "אני מנהלת. וגם בן מהנדס." }
+          - { speaker: "noa", text: "Do you like your job?", translation: "את אוהבת את העבודה שלך?" }
+          - { speaker: "miriam", text: "Yes, I love it!", translation: "כן, אני מתה עליה!" }
+      - { id: "u6-l1-02", type: "learn", lexeme: "what-do-you-do" }
+      - { id: "u6-l1-03", type: "learn", lexeme: "job" }
+      - { id: "u6-l1-04", type: "learn", lexeme: "engineer" }
+      - { id: "u6-l1-05", type: "learn", lexeme: "manager" }
+      - id: u6-l1-06
+        type: tip
+        title: "I'm a teacher: עם a"
+        text: |
+          בעברית אומרים "אני מורה". באנגלית מקצוע של אדם אחד בא עם a או an: I'm a teacher. She's an engineer.
+
+          an לפני תנועה: an engineer, an English teacher.
+      - id: u6-l1-07
+        type: fill_blank
+        sentence: "I'm ___ engineer."
+        translation: "אני מהנדסת."
+        answers: [an]
+        options: [an, a, "-"]
+        lexemes: [engineer, a-an]
+      - { id: "u6-l1-08", type: "learn", lexeme: "teacher" }
+      - { id: "u6-l1-09", type: "learn", lexeme: "doctor" }
+      - { id: "u6-l1-10", type: "learn", lexeme: "nurse" }
+      - { id: "u6-l1-11", type: "learn", lexeme: "student" }
+      - id: u6-l1-12
+        type: match_pairs
+        pairs:
+          - [teacher, מורה]
+          - [doctor, רופא]
+          - [nurse, אחות]
+          - [student, סטודנט]
+          - [manager, מנהל]
+        lexemes: [teacher, doctor, nurse, student, manager]
+      - { id: "u6-l1-13", type: "learn", lexeme: "like" }
+      - id: u6-l1-14
+        type: dialogue_gap
+        lines:
+          - { speaker: "ben", text: "What do you do, Eli?", translation: "במה אתה עובד, אלי?" }
+          - { speaker: "eli", text: "I'm a student, and I work here at the café.", translation: "אני סטודנט, ואני עובד כאן בבית הקפה." }
+        gap: 1
+        distractors: ["I do a student.", "I'm fine, thank you."]
+        lexemes: [student]
+      - id: u6-l1-15
+        type: translate
+        direction: to_target
+        prompt: "אני מורה."
+        answers: ["I'm a teacher.", "I am a teacher."]
+        lexemes: [teacher]
+      - id: u6-l1-16
+        type: speak_repeat
+        text: "What do you do? I'm an engineer. I like my job."
+        translation: "במה אתה עובד? אני מהנדס. אני אוהב את העבודה שלי."
+        lexemes: [what-do-you-do, engineer, like, job]
+
+  # ------------------------------------------------------------------ 2
+  - id: u6-l2
+    kind: new
+    title: { he: "יש לי פגישה", en: "I have a meeting" }
+    exercises:
+      - { id: "u6-l2-01", type: "learn", lexeme: "office" }
+      - { id: "u6-l2-02", type: "learn", lexeme: "company" }
+      - { id: "u6-l2-03", type: "learn", lexeme: "meeting" }
+      - id: u6-l2-04
+        type: word_bank
+        prompt: "יש לי פגישה בעשר."
+        answers: ["I have a meeting at ten.", "I have a meeting at ten o'clock."]
+        distractors: [on, an]
+        lexemes: [i-have, meeting, at, ten]
+      - { id: "u6-l2-05", type: "learn", lexeme: "email" }
+      - { id: "u6-l2-06", type: "learn", lexeme: "computer" }
+      - { id: "u6-l2-07", type: "learn", lexeme: "busy" }
+      - { id: "u6-l2-08", type: "learn", lexeme: "today" }
+      - id: u6-l2-09
+        type: match_pairs
+        pairs:
+          - [office, משרד]
+          - [company, חברה]
+          - [email, מייל]
+          - [computer, מחשב]
+          - [busy, עסוק]
+        lexemes: [office, company, email, computer, busy]
+      - { id: "u6-l2-10", type: "learn", lexeme: "at-home" }
+      - id: u6-l2-11
+        type: dialogue_gap
+        lines:
+          - { speaker: "ben", text: "Are you in the office today?", translation: "את במשרד היום?" }
+          - { speaker: "noa", text: "No, I work at home today.", translation: "לא, אני עובדת מהבית היום." }
+          - { speaker: "ben", text: "OK, I'll send you an email.", translation: "בסדר, אשלח לך מייל." }
+        gap: 1
+        distractors: ["No, I'm an office today.", "Yes, I'm busy home."]
+        lexemes: [at-home, today]
+      - id: u6-l2-12
+        type: listening_choice
+        audioText: "Sorry, I'm very busy today."
+        question: מה שמעתם?
+        options:
+          - סליחה, אני מאוד עסוק היום.
+          - סליחה, אני בבית היום.
+          - אני לא עובד היום.
+        correct: 0
+        lexemes: [busy, today]
+      - id: u6-l2-13
+        type: translate
+        direction: to_source
+        prompt: "Our office is in London."
+        answers: ["המשרד שלנו בלונדון.", "המשרד שלנו נמצא בלונדון.", "המשרד שלנו בלונדון"]
+        lexemes: [our, office]
+      - id: u6-l2-14
+        type: speak_repeat
+        text: "I'm busy today. I have a meeting at ten."
+        translation: "אני עסוק היום. יש לי פגישה בעשר."
+        lexemes: [busy, today, meeting]
+
+  # ------------------------------------------------------------------ 3
+  - id: u6-l3
+    kind: grammar
+    grammar: third-person-s
+    title: { he: "היא עובדת בבית חולים", en: "She works in a hospital" }
+    exercises:
+      - { id: "u6-l3-01", type: "learn", lexeme: "works" }
+      - { id: "u6-l3-02", type: "learn", lexeme: "hospital" }
+      - id: u6-l3-03
+        type: fill_blank
+        sentence: "Rachel ___ in a hospital."
+        translation: "רחל עובדת בבית חולים."
+        answers: [works]
+        options: [works, work, working]
+        lexemes: [works, hospital]
+      - id: u6-l3-04
+        type: multiple_choice
+        prompt: איזה משפט נכון?
+        options: ["Ben likes his job.", "Ben like his job.", "Ben is like his job."]
+        correct: 0
+        lexemes: [like, job]
+      - { id: "u6-l3-05", type: "learn", lexeme: "doesnt" }
+      - id: u6-l3-06
+        type: fill_blank
+        sentence: "Noa ___ work on Friday."
+        translation: "נועה לא עובדת ביום שישי."
+        answers: ["doesn't", "does not"]
+        options: ["doesn't", "don't", "isn't"]
+        lexemes: [doesnt, friday]
+      - { id: "u6-l3-07", type: "learn", lexeme: "does" }
+      - id: u6-l3-08
+        type: word_bank
+        prompt: "הוא עובד במשרד?"
+        answers: ["Does he work in an office?", "Does he work in the office?"]
+        distractors: [works, do]
+        lexemes: [does, office]
+      - id: u6-l3-09
+        type: dialogue_gap
+        lines:
+          - { speaker: "noa", text: "Does Rachel work on Sunday?", translation: "רחל עובדת ביום ראשון?" }
+          - { speaker: "ben", text: "Yes, she does. Nurses work every day.", translation: "כן. אחיות עובדות כל יום." }
+        gap: 1
+        distractors: ["Yes, she works does.", "Yes, she do."]
+        lexemes: [does, nurse]
+      - id: u6-l3-10
+        type: translate
+        direction: to_target
+        prompt: "היא לא עובדת מהבית."
+        answers: ["She doesn't work at home.", "She does not work at home.", "She doesn't work from home.", "She does not work from home."]
+        lexemes: [doesnt, at-home]
+      - id: u6-l3-11
+        type: translate
+        direction: to_source
+        prompt: "He works for a big company."
+        answers: ["הוא עובד בחברה גדולה.", "הוא עובד בשביל חברה גדולה.", "הוא עובד בחברה גדולה"]
+        lexemes: [works, company]
+      - id: u6-l3-12
+        type: speak_repeat
+        text: "She works in a hospital. She doesn't work at home."
+        translation: "היא עובדת בבית חולים. היא לא עובדת מהבית."
+        lexemes: [works, hospital, doesnt]
+
+  # ------------------------------------------------------------------ 4
+  - id: u6-l4
+    kind: listening
+    title: { he: "יום אחד בחיי רחל", en: "A day in Rachel's life" }
+    exercises:
+      - id: u6-l4-01
+        type: dialogue
+        scene: "נועה פוגשת את רחל, אחותו של בן, בבית הקפה."
+        lines:
+          - { speaker: "noa", text: "Ben says you're a nurse.", translation: "בן אומר שאת אחות." }
+          - { speaker: "rachel", text: "Yes, I work in a big hospital in London.", translation: "כן, אני עובדת בבית חולים גדול בלונדון." }
+          - { speaker: "noa", text: "Do you work every day?", translation: "את עובדת כל יום?" }
+          - { speaker: "rachel", text: "No, I work four days a week. But I start very early, at six o'clock.", translation: "לא, ארבעה ימים בשבוע. אבל אני מתחילה מוקדם מאוד, בשש." }
+          - { speaker: "noa", text: "Wow. Do you like it?", translation: "וואו. את אוהבת את זה?" }
+          - { speaker: "rachel", text: "I love it. It's a great job.", translation: "אני מתה על זה. זו עבודה מצוינת." }
+      - id: u6-l4-02
+        type: multiple_choice
+        prompt: "איפה רחל עובדת?"
+        options: [בבית חולים בלונדון, בבית קפה, במשרד של בן]
+        correct: 0
+        lexemes: [hospital]
+      - id: u6-l4-03
+        type: multiple_choice
+        prompt: "כמה ימים בשבוע רחל עובדת?"
+        options: [ארבעה, כל יום, שישה]
+        correct: 0
+        lexemes: [four]
+      - id: u6-l4-04
+        type: listening_choice
+        audioText: "She starts very early, at six o'clock."
+        question: מתי רחל מתחילה לעבוד?
+        options: ["6:00", "7:00", "8:30"]
+        correct: 0
+        lexemes: [early, six]
+      - id: u6-l4-05
+        type: dialogue_gap
+        lines:
+          - { speaker: "noa", text: "What does your sister do?", translation: "במה אחותך עובדת?" }
+          - { speaker: "ben", text: "She's a nurse. She works in a hospital.", translation: "היא אחות. היא עובדת בבית חולים." }
+        gap: 1
+        distractors: ["She's nurse. She work in hospital.", "He's a nurse. He works in a hospital."]
+        lexemes: [nurse, works]
+      - id: u6-l4-06
+        type: fill_blank
+        sentence: "Rachel ___ her job."
+        translation: "רחל אוהבת את העבודה שלה."
+        answers: [likes, loves]
+        lexemes: [like, job]
+      - id: u6-l4-07
+        type: dialogue_gap
+        lines:
+          - { speaker: "ben", text: "Does Noa work at home on Sunday?", translation: "נועה עובדת מהבית ביום ראשון?" }
+          - { speaker: "miriam", text: "No, she doesn't. She's in the office.", translation: "לא. היא במשרד." }
+        gap: 1
+        distractors: ["No, she don't. She's in the office.", "No, she isn't work."]
+        lexemes: [doesnt, office]
+      - id: u6-l4-08
+        type: dictation
+        text: "She works in a hospital."
+        lexemes: [works, hospital]
+      - id: u6-l4-09
+        type: translate
+        direction: to_target
+        prompt: "במה הוא עובד?"
+        answers: ["What does he do?", "What's his job?", "What is his job?"]
+        lexemes: [does, job]
+      - id: u6-l4-10
+        type: speak_repeat
+        text: "My sister is a nurse. She loves her job."
+        translation: "אחותי אחות. היא אוהבת את העבודה שלה."
+        lexemes: [nurse, job]
+
+  # ------------------------------------------------------------------ 5
+  - id: u6-review
+    kind: review
+    title: { he: "חזרה: עבודה", en: "Review: work" }
+    exercises:
+      - id: u6-r-01
+        type: match_pairs
+        pairs:
+          - [meeting, פגישה]
+          - [today, היום]
+          - [at home, בבית]
+          - [hospital, בית חולים]
+          - [job, עבודה]
+        lexemes: [meeting, today, at-home, hospital, job]
+      - id: u6-r-02
+        type: fill_blank
+        sentence: "Ben ___ coffee every morning."
+        translation: "בן שותה קפה כל בוקר."
+        answers: [has, drinks]
+        options: [has, have, having]
+        lexemes: [coffee]
+      - id: u6-r-03
+        type: multiple_choice
+        prompt: "She's ___ doctor."
+        options: [a, an, "-"]
+        correct: 0
+        lexemes: [doctor, a-an]
+      - id: u6-r-04
+        type: word_bank
+        prompt: "הוא לא אוהב את העבודה שלו."
+        answers: ["He doesn't like his job.", "He does not like his job."]
+        distractors: [likes, her]
+        lexemes: [doesnt, like, his, job]
+      - id: u6-r-05
+        type: dialogue_gap
+        lines:
+          - { speaker: "cohen", text: "Good evening. What do you do?", translation: "ערב טוב. במה אתה עובד?" }
+          - { speaker: "ben", text: "I'm an engineer. I work for a big company.", translation: "אני מהנדס. אני עובד בחברה גדולה." }
+        gap: 1
+        distractors: ["I do engineer. I works a company.", "I'm fine. I'm an office."]
+        lexemes: [engineer, company]
+      - id: u6-r-06
+        type: listening_choice
+        audioText: "Does she work on Monday? Yes, she does."
+        question: מה שמעתם?
+        options: [היא עובדת ביום שני? כן., היא לא עובדת ביום שני., הוא עובד ביום שני? לא.]
+        correct: 0
+        lexemes: [does, monday]
+      - id: u6-r-07
+        type: translate
+        direction: to_target
+        prompt: "יש לי הרבה מיילים היום."
+        answers: ["I have a lot of emails today.", "I have many emails today.", "Today I have a lot of emails."]
+        lexemes: [i-have, email, today]
+      - id: u6-r-08
+        type: translate
+        direction: to_source
+        prompt: "Does Eli work at the café?"
+        answers: ["אלי עובד בבית הקפה?", "האם אלי עובד בבית הקפה?"]
+        lexemes: [does]
+      - id: u6-r-09
+        type: dictation
+        text: "I'm busy today."
+        answers: ["I'm busy today.", "I am busy today."]
+        lexemes: [busy, today]
+      - id: u6-r-10
+        type: speak_repeat
+        text: "What does she do? She's a teacher."
+        translation: "במה היא עובדת? היא מורה."
+        lexemes: [does, teacher]

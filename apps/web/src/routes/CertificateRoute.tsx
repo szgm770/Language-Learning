@@ -8,7 +8,7 @@ import { BackLink, LoadError, Loading, ProgressBar, Screen } from "@/components/
 import { flatLessons, loadCourse, useLoad } from "@/lib/content";
 import { uuidv7 } from "@/lib/ids";
 import { languageName } from "@/lib/languages";
-import { isCompleted } from "@/lib/progress";
+import { isCompleted, PASS_SCORE } from "@/lib/progress";
 import { getDeviceId, record, useLearner } from "@/lib/store";
 
 /** A printable certificate once the level test is passed. */
@@ -23,10 +23,12 @@ export function CertificateRoute({ courseId }: { courseId: string }) {
   const lessons = flatLessons(data.units);
   const done = lessons.filter(({ lesson }) => isCompleted(state, courseId, lesson.id)).length;
   const test = lessons.find(({ lesson }) => lesson.kind === "test");
-  const earned = !!test && isCompleted(state, courseId, test.lesson.id);
+  const testProgress = test ? state.lessons.get(`${courseId}/${test.lesson.id}`) : undefined;
+  const tried = !!test && isCompleted(state, courseId, test.lesson.id);
+  const earned = tried && (testProgress?.bestScore ?? 0) >= PASS_SCORE;
   const level = data.units[0]?.cefr ?? "A1";
   const shownName = name ?? saved ?? "";
-  const date = new Date(state.lessons.get(`${courseId}/${test?.lesson.id}`)?.firstCompletedAt ?? Date.now());
+  const date = new Date(testProgress?.firstCompletedAt ?? Date.now());
 
   if (!earned) {
     return (
@@ -37,7 +39,9 @@ export function CertificateRoute({ courseId }: { courseId: string }) {
         </span>
         <h1 className="text-center text-3xl font-bold">תעודת {languageName(data.manifest.target)} ברמה {level}</h1>
         <p className="text-center text-lg text-ink-soft">
-          התעודה נפתחת אחרי מבחן הרמה בסוף כל היחידות. {test ? "" : "מבחן הרמה יתווסף יחד עם היחידות האחרונות."}
+          {tried
+            ? `במבחן הרמה צריך לפחות ${Math.round(PASS_SCORE * 100)}% תשובות נכונות. התוצאה הטובה שלכם: ${Math.round((testProgress?.bestScore ?? 0) * 100)}%. אפשר לחזור על השיעורים ולנסות שוב.`
+            : `התעודה נפתחת אחרי מבחן הרמה בסוף כל היחידות, עם לפחות ${Math.round(PASS_SCORE * 100)}% תשובות נכונות.`}
         </p>
         <ProgressBar value={done / lessons.length} label="התקדמות לתעודה" tone="saffron" />
         <p className="text-center text-ink-soft tabular-nums">

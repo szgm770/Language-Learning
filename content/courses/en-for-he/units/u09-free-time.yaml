@@ -1,0 +1,374 @@
+id: u09-free-time
+cefr: A1
+scene: free-time
+title:
+  he: זמן פנוי
+  en: Free time
+story: "סוף שבוע בלונדון. בן מזמין את נועה לשחק כדורגל, אבל היא מעדיפה לבשל ולראות סרט. מה עושים ביחד?"
+canDo:
+  - לספר מה אני אוהב לעשות בזמן הפנוי
+  - להגיד מה אני יכול ולא יכול לעשות
+  - להזמין מישהו, להסכים ולסרב בנימוס
+  - "להגיד באיזו תדירות: תמיד, לפעמים, אף פעם"
+
+vocabulary:
+  - { id: "weekend", text: "weekend", translation: "סוף שבוע", pos: noun, pronunciation: "וִויקֶנְד", example: { text: "What do you do at the weekend?", translation: "מה אתה עושה בסוף השבוע?" } }
+  - { id: "free-time", text: "free time", translation: "זמן פנוי", pos: phrase, pronunciation: "פְרִי טַיים" }
+  - { id: "music", text: "music", translation: "מוזיקה", pos: noun, pronunciation: "מְיוּזִיק" }
+  - { id: "sport", text: "sport", translation: "ספורט", pos: noun, pronunciation: "סְפּוֹרְט" }
+  - { id: "football", text: "football", translation: "כדורגל", pos: noun, pronunciation: "פוּטְבּוֹל" }
+  - { id: "play", text: "play", translation: "לשחק, לנגן", pos: verb, pronunciation: "פְּלֵיי", example: { text: "I play football.", translation: "אני משחק כדורגל." } }
+  - { id: "watch", text: "watch", translation: "לצפות, לראות", pos: verb, pronunciation: "ווֹץ'", example: { text: "We watch TV.", translation: "אנחנו רואים טלוויזיה." } }
+  - { id: "movie", text: "movie", translation: "סרט", pos: noun, pronunciation: "מוּבִי" }
+  - { id: "swim", text: "swim", translation: "לשחות", pos: verb, pronunciation: "סְוִוים" }
+  - { id: "cook", text: "cook", translation: "לבשל", pos: verb, pronunciation: "קוּק" }
+  - { id: "read", text: "read", translation: "לקרוא", pos: verb, pronunciation: "רִיד" }
+  - { id: "travel-verb", text: "travel", translation: "לטייל, לנסוע", pos: verb, pronunciation: "טְרֶבֶל" }
+  - { id: "can", text: "can", translation: "יכול, יודע (לעשות)", pos: verb, pronunciation: "קֶן", example: { text: "I can swim.", translation: "אני יודע לשחות." } }
+  - { id: "cant", text: "can't", translation: "לא יכול, לא יודע", pos: verb, pronunciation: "קַאנְט", example: { text: "I can't cook.", translation: "אני לא יודעת לבשל." } }
+  - { id: "always", text: "always", translation: "תמיד", pos: adverb, pronunciation: "אוֹלְוֵויז" }
+  - { id: "sometimes", text: "sometimes", translation: "לפעמים", pos: adverb, pronunciation: "סַאמְטַיימְז" }
+  - { id: "never", text: "never", translation: "אף פעם לא", pos: adverb, pronunciation: "נֶבֶר" }
+  - { id: "together", text: "together", translation: "ביחד", pos: adverb, pronunciation: "טוּגֶדֶ'ר" }
+  - { id: "do-you-want-to", text: "Do you want to…?", translation: "אתה רוצה ל…? (הזמנה)", pos: phrase, pronunciation: "דוּ יוּ ווֹנְט טוּ", example: { text: "Do you want to watch a movie?", translation: "רוצה לראות סרט?" } }
+  - { id: "sure", text: "Sure!", translation: "בטח!", pos: phrase, pronunciation: "שׁוּר" }
+  - { id: "maybe", text: "maybe", translation: "אולי", pos: adverb, pronunciation: "מֵייבִּי" }
+  - { id: "sorry-i-cant", text: "Sorry, I can't.", translation: "מצטער, אני לא יכול.", pos: phrase, pronunciation: "סוֹרִי, אַיי קַאנְט" }
+
+grammar:
+  - id: can-cant
+    title: { he: "Can ו־can't: יכול, יודע", en: "Can and can't" }
+    explanation: |
+      **can** אומר "יכול" או "יודע לעשות". הוא לא משתנה לפי הגוף:
+      **I can swim. She can swim.** (בלי s!)
+
+      אחרי **can** בא הפועל בלי **to**: **I can cook**, לא "I can to cook".
+
+      - שלילה: **can't** – **I can't play football.**
+      - שאלה: **Can you swim?** תשובה: **Yes, I can.** / **No, I can't.**
+    examples:
+      - { text: "Ben can play the guitar.", translation: "בן יודע לנגן בגיטרה." }
+      - { text: "I can't come on Saturday.", translation: "אני לא יכולה לבוא בשבת." }
+      - { text: "Can you cook? Yes, I can.", translation: "אתה יודע לבשל? כן." }
+  - id: like-ing
+    title: { he: "Like + ing: אוהב לעשות", en: "Like + -ing" }
+    explanation: |
+      כשאוהבים פעולה, מוסיפים לפועל **ing**:
+      **I like swimming.** (אני אוהב לשחות)
+
+      - swim → **swimming** (מכפילים את m)
+      - cook → **cooking**, read → **reading**
+
+      מילות תדירות באות **לפני** הפועל: **I always cook. She never swims. We sometimes watch movies.**
+    examples:
+      - { text: "Noa likes cooking.", translation: "נועה אוהבת לבשל." }
+      - { text: "I don't like swimming.", translation: "אני לא אוהב לשחות." }
+      - { text: "We always play football on Sunday.", translation: "אנחנו תמיד משחקים כדורגל ביום ראשון." }
+
+lessons:
+  # ------------------------------------------------------------------ 1
+  - id: u9-l1
+    kind: new
+    title: { he: "מה אתה עושה בסוף השבוע?", en: "What do you do at the weekend?" }
+    exercises:
+      - id: u9-l1-01
+        type: dialogue
+        scene: "יום שישי בערב. בן ונועה מדברים על סוף השבוע."
+        lines:
+          - { speaker: "ben", text: "What do you do at the weekend, Noa?", translation: "מה את עושה בסוף השבוע, נועה?" }
+          - { speaker: "noa", text: "I read and I watch movies. And you?", translation: "אני קוראת ורואה סרטים. ואתה?" }
+          - { speaker: "ben", text: "I play football. I love sport!", translation: "אני משחק כדורגל. אני אוהב ספורט!" }
+          - { speaker: "noa", text: "I don't like sport. I like music.", translation: "אני לא אוהבת ספורט. אני אוהבת מוזיקה." }
+      - { id: "u9-l1-02", type: "learn", lexeme: "weekend" }
+      - { id: "u9-l1-03", type: "learn", lexeme: "free-time" }
+      - { id: "u9-l1-04", type: "learn", lexeme: "read" }
+      - { id: "u9-l1-05", type: "learn", lexeme: "watch" }
+      - { id: "u9-l1-06", type: "learn", lexeme: "movie" }
+      - { id: "u9-l1-07", type: "learn", lexeme: "play" }
+      - { id: "u9-l1-08", type: "learn", lexeme: "football" }
+      - { id: "u9-l1-09", type: "learn", lexeme: "sport" }
+      - { id: "u9-l1-10", type: "learn", lexeme: "music" }
+      - id: u9-l1-11
+        type: match_pairs
+        pairs:
+          - [weekend, סוף שבוע]
+          - [movie, סרט]
+          - [music, מוזיקה]
+          - [football, כדורגל]
+          - [read, לקרוא]
+        lexemes: [weekend, movie, music, football, read]
+      - id: u9-l1-12
+        type: listening_choice
+        audioText: "I watch movies at the weekend."
+        question: מה הוא עושה בסוף השבוע?
+        options: [רואה סרטים, משחק כדורגל, קורא ספרים]
+        correct: 0
+        lexemes: [watch, movie, weekend]
+      - id: u9-l1-13
+        type: word_bank
+        prompt: "אני משחק כדורגל בסוף השבוע."
+        answers: ["I play football at the weekend.", "At the weekend I play football."]
+        distractors: [watch, on]
+        lexemes: [play, football, weekend]
+      - id: u9-l1-14
+        type: speak_repeat
+        text: "What do you do in your free time?"
+        translation: "מה אתה עושה בזמן הפנוי?"
+        lexemes: [free-time]
+
+  # ------------------------------------------------------------------ 2
+  - id: u9-l2
+    kind: new
+    title: { he: "רוצה לבוא?", en: "Do you want to come?" }
+    exercises:
+      - { id: "u9-l2-01", type: "learn", lexeme: "swim" }
+      - { id: "u9-l2-02", type: "learn", lexeme: "cook" }
+      - { id: "u9-l2-03", type: "learn", lexeme: "travel-verb" }
+      - { id: "u9-l2-04", type: "learn", lexeme: "together" }
+      - { id: "u9-l2-05", type: "learn", lexeme: "do-you-want-to" }
+      - { id: "u9-l2-06", type: "learn", lexeme: "sure" }
+      - { id: "u9-l2-07", type: "learn", lexeme: "maybe" }
+      - { id: "u9-l2-08", type: "learn", lexeme: "sorry-i-cant" }
+      - id: u9-l2-09
+        type: dialogue
+        scene: "בן מזמין את נועה ואת אלי."
+        lines:
+          - { speaker: "ben", text: "Do you want to play football on Saturday?", translation: "רוצה לשחק כדורגל בשבת?" }
+          - { speaker: "noa", text: "Sorry, I can't. Do you want to cook together?", translation: "מצטערת, אני לא יכולה. רוצה לבשל ביחד?" }
+          - { speaker: "ben", text: "Sure! And then we can watch a movie.", translation: "בטח! ואז נוכל לראות סרט." }
+          - { speaker: "eli", text: "Maybe I can come too.", translation: "אולי גם אני יכול לבוא." }
+      - id: u9-l2-10
+        type: multiple_choice
+        prompt: "חבר מזמין אתכם ואתם רוצים. מה עונים?"
+        options: ["Sure!", "Sorry, I can't.", "Maybe never."]
+        correct: 0
+        lexemes: [sure]
+      - id: u9-l2-11
+        type: dialogue_gap
+        lines:
+          - { speaker: "rachel", text: "Do you want to swim tomorrow?", translation: "רוצה לשחות מחר?" }
+          - { speaker: "noa", text: "Sorry, I can't. I'm busy.", translation: "מצטערת, אני לא יכולה. אני עסוקה." }
+        gap: 1
+        distractors: ["Sorry, I can. I'm busy.", "Sure, I can't swim tomorrow."]
+        lexemes: [sorry-i-cant, swim, busy]
+      - id: u9-l2-12
+        type: word_bank
+        prompt: "רוצה לבשל ביחד?"
+        answers: ["Do you want to cook together?"]
+        distractors: [can, swim]
+        lexemes: [do-you-want-to, cook, together]
+      - id: u9-l2-13
+        type: translate
+        direction: to_source
+        prompt: "Maybe on Sunday."
+        answers: ["אולי ביום ראשון.", "אולי ביום א'.", "אולי ביום א׳."]
+        lexemes: [maybe, sunday]
+      - id: u9-l2-14
+        type: speak_repeat
+        text: "Do you want to watch a movie together?"
+        translation: "רוצה לראות סרט ביחד?"
+        lexemes: [do-you-want-to, watch, movie, together]
+
+  # ------------------------------------------------------------------ 3
+  - id: u9-l3
+    kind: grammar
+    grammar: can-cant
+    title: { he: "אני יודע לשחות", en: "I can swim" }
+    exercises:
+      - { id: "u9-l3-01", type: "learn", lexeme: "can" }
+      - { id: "u9-l3-02", type: "learn", lexeme: "cant" }
+      - id: u9-l3-03
+        type: fill_blank
+        sentence: "She ___ swim. (היא יודעת לשחות)"
+        translation: "היא יודעת לשחות."
+        answers: [can]
+        options: [can, cans, can to]
+        lexemes: [can, swim]
+      - id: u9-l3-04
+        type: multiple_choice
+        prompt: איזה משפט נכון?
+        options: ["Ben can cook.", "Ben cans cook.", "Ben can to cook."]
+        correct: 0
+        lexemes: [can, cook]
+      - id: u9-l3-05
+        type: dialogue_gap
+        lines:
+          - { speaker: "eli", text: "Can you play football?", translation: "אתה יודע לשחק כדורגל?" }
+          - { speaker: "ben", text: "Yes, I can.", translation: "כן." }
+        gap: 1
+        distractors: ["Yes, I can play it football.", "Yes, I do can."]
+        lexemes: [can, play, football]
+      - id: u9-l3-06
+        type: tip
+        title: "like + ing"
+        text: |
+          אוהבים פעולה? מוסיפים ing: I like cooking.
+
+          swim הופך ל־swimming, עם שתי m.
+      - id: u9-l3-07
+        type: fill_blank
+        sentence: "Noa likes ___ ."
+        translation: "נועה אוהבת לבשל."
+        answers: [cooking]
+        options: [cooking, cook, cooks]
+        lexemes: [cook, like]
+      - { id: "u9-l3-08", type: "learn", lexeme: "always" }
+      - { id: "u9-l3-09", type: "learn", lexeme: "sometimes" }
+      - { id: "u9-l3-10", type: "learn", lexeme: "never" }
+      - id: u9-l3-11
+        type: word_bank
+        prompt: "אני אף פעם לא משחק כדורגל."
+        answers: ["I never play football."]
+        distractors: [dont, always]
+        lexemes: [never, play, football]
+      - id: u9-l3-12
+        type: translate
+        direction: to_target
+        prompt: "אני לא יודעת לבשל."
+        answers: ["I can't cook.", "I cannot cook.", "I can not cook."]
+        lexemes: [cant, cook]
+      - id: u9-l3-13
+        type: translate
+        direction: to_target
+        prompt: "אנחנו לפעמים רואים סרטים."
+        answers: ["We sometimes watch movies.", "Sometimes we watch movies.", "We sometimes watch films.", "Sometimes we watch films."]
+        lexemes: [sometimes, watch, movie]
+      - id: u9-l3-14
+        type: speak_repeat
+        text: "I can't swim, but I like reading."
+        translation: "אני לא יודע לשחות, אבל אני אוהב לקרוא."
+        lexemes: [cant, swim, read]
+
+  # ------------------------------------------------------------------ 4
+  - id: u9-l4
+    kind: listening
+    title: { he: "תוכניות לשבת", en: "Plans for Saturday" }
+    exercises:
+      - id: u9-l4-01
+        type: dialogue
+        scene: "רחל מתקשרת למרים כדי לתכנן את השבת."
+        lines:
+          - { speaker: "rachel", text: "Hi Miriam! Do you want to swim on Saturday?", translation: "היי מרים! רוצה לשחות בשבת?" }
+          - { speaker: "miriam", text: "Sorry, I can't swim. But I love music.", translation: "מצטערת, אני לא יודעת לשחות. אבל אני אוהבת מוזיקה." }
+          - { speaker: "rachel", text: "There's a concert in the park.", translation: "יש הופעה בפארק." }
+          - { speaker: "miriam", text: "Great! What time?", translation: "מעולה! באיזו שעה?" }
+          - { speaker: "rachel", text: "At seven. We can have dinner together after.", translation: "בשבע. אפשר לאכול ארוחת ערב ביחד אחר כך." }
+          - { speaker: "miriam", text: "Sure! See you on Saturday.", translation: "בטח! נתראה בשבת." }
+      - id: u9-l4-02
+        type: multiple_choice
+        prompt: "למה מרים לא באה לשחות?"
+        options: [היא לא יודעת לשחות, היא עסוקה, היא לא אוהבת ספורט]
+        correct: 0
+        lexemes: [cant, swim]
+      - id: u9-l4-03
+        type: multiple_choice
+        prompt: "מה הן עושות בשבת?"
+        options: [הולכות להופעה בפארק, משחקות כדורגל, רואות סרט בבית]
+        correct: 0
+        lexemes: [music, together]
+      - id: u9-l4-04
+        type: listening_choice
+        audioText: "I always read at the weekend."
+        question: מה הוא אומר?
+        options: [הוא תמיד קורא בסוף השבוע, הוא לפעמים קורא בסוף השבוע, הוא אף פעם לא קורא]
+        correct: 0
+        lexemes: [always, read, weekend]
+      - id: u9-l4-05
+        type: dialogue_gap
+        lines:
+          - { speaker: "ben", text: "Do you want to travel together in the summer?", translation: "רוצה לטייל ביחד בקיץ?" }
+          - { speaker: "eli", text: "Maybe. I'm very busy at work.", translation: "אולי. אני מאוד עסוק בעבודה." }
+        gap: 1
+        distractors: ["Maybe. I'm very sure at work.", "Never. I always travel."]
+        lexemes: [maybe, travel-verb, together]
+      - id: u9-l4-06
+        type: dictation
+        text: "I like cooking."
+        lexemes: [like, cook]
+      - id: u9-l4-07
+        type: translate
+        direction: to_target
+        prompt: "אתה יודע לשחות?"
+        answers: ["Can you swim?"]
+        lexemes: [can, swim]
+      - id: u9-l4-08
+        type: translate
+        direction: to_source
+        prompt: "She never watches TV."
+        answers: ["היא אף פעם לא רואה טלוויזיה.", "היא אף פעם לא צופה בטלוויזיה.", "היא לעולם לא רואה טלוויזיה."]
+        lexemes: [never, watch]
+      - id: u9-l4-09
+        type: speak_repeat
+        text: "Sure! See you on Saturday."
+        translation: "בטח! נתראה בשבת."
+        lexemes: [sure, saturday]
+
+  # ------------------------------------------------------------------ 5
+  - id: u9-review
+    kind: review
+    title: { he: "חזרה: זמן פנוי", en: "Review: free time" }
+    exercises:
+      - id: u9-r-01
+        type: match_pairs
+        pairs:
+          - [swim, לשחות]
+          - [cook, לבשל]
+          - [together, ביחד]
+          - [maybe, אולי]
+          - [never, אף פעם לא]
+        lexemes: [swim, cook, together, maybe, never]
+      - id: u9-r-02
+        type: fill_blank
+        sentence: "I ___ play the guitar. (אני לא יודע)"
+        translation: "אני לא יודע לנגן בגיטרה."
+        answers: ["can't"]
+        options: ["can't", "don't can", "not can"]
+        lexemes: [cant, play]
+      - id: u9-r-03
+        type: listening_choice
+        audioText: "Do you want to play football?"
+        question: מה הוא שואל?
+        options: [אם רוצים לשחק כדורגל, אם יודעים לשחק כדורגל, אם אוהבים כדורגל]
+        correct: 0
+        lexemes: [do-you-want-to, play, football]
+      - id: u9-r-04
+        type: word_bank
+        prompt: "היא תמיד מבשלת בשבת."
+        answers: ["She always cooks on Saturday."]
+        distractors: [cook, never]
+        lexemes: [always, cook, saturday]
+      - id: u9-r-05
+        type: dialogue_gap
+        lines:
+          - { speaker: "noa", text: "Do you want to watch a movie tonight?", translation: "רוצה לראות סרט הערב?" }
+          - { speaker: "rachel", text: "Sure! What time?", translation: "בטח! באיזו שעה?" }
+        gap: 1
+        distractors: ["Sure! I can't.", "Never! What time?"]
+        lexemes: [sure, watch, movie]
+      - id: u9-r-06
+        type: multiple_choice
+        prompt: "איך מסרבים בנימוס?"
+        options: ["Sorry, I can't.", "No. Bye.", "I never!"]
+        correct: 0
+        lexemes: [sorry-i-cant]
+      - id: u9-r-07
+        type: translate
+        direction: to_target
+        prompt: "אני אוהבת לקרוא."
+        answers: ["I like reading.", "I like to read.", "I love reading.", "I love to read."]
+        lexemes: [like, read]
+      - id: u9-r-08
+        type: translate
+        direction: to_source
+        prompt: "We sometimes travel together."
+        answers: ["אנחנו לפעמים מטיילים ביחד.", "לפעמים אנחנו מטיילים ביחד.", "אנחנו לפעמים נוסעים ביחד.", "לפעמים אנחנו נוסעים ביחד."]
+        lexemes: [sometimes, travel-verb, together]
+      - id: u9-r-09
+        type: dictation
+        text: "Can you cook?"
+        lexemes: [can, cook]
+      - id: u9-r-10
+        type: speak_repeat
+        text: "I can't come on Saturday. Maybe on Sunday?"
+        translation: "אני לא יכול לבוא בשבת. אולי ביום ראשון?"
+        lexemes: [cant, maybe, saturday, sunday]
