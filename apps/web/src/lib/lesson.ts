@@ -1,4 +1,4 @@
-import type { Exercise, Lesson } from "@lingo/content-schema";
+import { type Exercise, isGraded, type Lesson } from "@lingo/content-schema";
 import { type Evaluation, gradeFromAnswer, type Grade, Rating } from "@lingo/engine";
 import { type Op, SCHEMA_VERSION } from "@lingo/sync";
 import { cardKey, uuidv7 } from "./ids";
@@ -18,7 +18,10 @@ export interface LessonRun {
   exercises: Record<string, Exercise>;
   /** Exercise ids still to do, in order. Missed exercises are appended again. */
   queue: string[];
+  /** All steps, for the progress bar. */
   total: number;
+  /** Steps with an answer to check, for the score. */
+  graded: number;
   attempts: Attempt[];
   startedAt: number;
 }
@@ -28,6 +31,7 @@ export function startRun(lesson: Lesson, now: number): LessonRun {
     exercises: Object.fromEntries(lesson.exercises.map((e) => [e.id, e])),
     queue: lesson.exercises.map((e) => e.id),
     total: lesson.exercises.length,
+    graded: lesson.exercises.filter(isGraded).length,
     attempts: [],
     startedAt: now,
   };
@@ -69,7 +73,10 @@ export interface RunSummary {
 
 export function summarize(run: LessonRun, now: number): RunSummary {
   const first = new Map<string, Attempt>();
-  for (const a of run.attempts) if (!first.has(a.exerciseId)) first.set(a.exerciseId, a);
+  for (const a of run.attempts) {
+    const ex = run.exercises[a.exerciseId];
+    if (ex && isGraded(ex) && !first.has(a.exerciseId)) first.set(a.exerciseId, a);
+  }
   const firstTry = [...first.values()].filter((a) => a.correct).length;
 
   // A word gets "Again" if any exercise with it was missed, otherwise a grade from typos and speed.
@@ -82,7 +89,7 @@ export function summarize(run: LessonRun, now: number): RunSummary {
     }
   }
   return {
-    score: run.total === 0 ? 1 : firstTry / run.total,
+    score: run.graded === 0 ? 1 : firstTry / run.graded,
     xp: XP_PER_LESSON + firstTry,
     seconds: Math.round((now - run.startedAt) / 1000),
     grades,

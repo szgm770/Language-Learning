@@ -15,6 +15,12 @@ const ev = new RuleEvaluator();
 
 function correctResponses(ex: Exercise): Response[] {
   switch (ex.type) {
+    case "learn":
+    case "dialogue":
+    case "tip":
+      return [{ type: "seen" }];
+    case "dialogue_gap":
+      return [{ type: "dialogue_gap", choice: ex.lines[ex.gap]!.text }];
     case "multiple_choice":
     case "listening_choice":
       return [{ type: ex.type, choice: ex.correct }];

@@ -31,7 +31,7 @@ export function WordBank({ ex, ctx, locked, onChange }: ExerciseProps<"word_bank
 
   return (
     <div className="flex flex-col gap-6">
-      <h2 className="text-2xl font-medium">תרגמו את המשפט</h2>
+      <h2 className="text-2xl font-bold">תרגמו את המשפט</h2>
       <p className="text-xl">{ex.prompt}</p>
       <div
         dir="ltr"
@@ -40,7 +40,7 @@ export function WordBank({ ex, ctx, locked, onChange }: ExerciseProps<"word_bank
       >
         {chosen.map((i) => tile(i, () => update(chosen.filter((c) => c !== i))))}
       </div>
-      <div dir="ltr" className="flex flex-wrap justify-center gap-2">
+      <div dir="ltr" data-bank className="flex flex-wrap justify-center gap-2">
         {tiles.map((_, i) => tile(i, () => update([...chosen, i]), chosen.includes(i)))}
       </div>
     </div>

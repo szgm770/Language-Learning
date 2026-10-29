@@ -57,7 +57,7 @@ export function MatchPairs({ ex, ctx, locked, onChange }: ExerciseProps<"match_p
 
   return (
     <div className="flex flex-col gap-6">
-      <h2 className="text-2xl font-medium">התאימו את הזוגות</h2>
+      <h2 className="text-2xl font-bold">התאימו את הזוגות</h2>
       <div className="grid grid-cols-2 gap-3">
         <div className="flex flex-col gap-3">{right.map((p) => cell("source", p))}</div>
         <div className="flex flex-col gap-3">{left.map((p) => cell("target", p))}</div>

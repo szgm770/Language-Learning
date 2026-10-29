@@ -11,7 +11,7 @@ import { fileURLToPath } from "node:url";
 import { parse } from "yaml";
 import { z } from "zod";
 import { Course, type CourseManifest, Unit } from "./schema";
-import { validateCourse, validateUnitReferences } from "./validate";
+import { validateCourse, validateTeachingOrder, validateUnitReferences } from "./validate";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "../../..");
 const contentDir = join(root, "content/courses");
@@ -59,10 +59,13 @@ for (const courseId of readdirSync(contentDir)) {
     const unit = load(Unit, file);
     if (!unit) continue;
     if (unit.id !== unitId) problems.push(`${file}: id "${unit.id}" must match file name "${unitId}"`);
-    problems.push(...validateUnitReferences(unit).map((p) => `${file}: ${p}`));
+    problems.push(...validateUnitReferences(unit, { courseWide: true }).map((p) => `${file}: ${p}`));
     units.push(unit);
   }
   problems.push(...validateCourse(course, units).map((p) => `${courseFile}: ${p}`));
+  // Courses written with learn cards must introduce every word before practising it.
+  const usesLearnCards = units.some((u) => u.lessons.some((l) => l.exercises.some((e) => e.type === "learn")));
+  if (usesLearnCards) problems.push(...validateTeachingOrder(units).map((p) => `${courseId}: ${p}`));
 
   const courseOut = join(outDir, courseId);
   mkdirSync(join(courseOut, "units"), { recursive: true });
@@ -75,6 +78,8 @@ for (const courseId of readdirSync(contentDir)) {
       id: unit.id,
       cefr: unit.cefr,
       title: unit.title,
+      scene: unit.scene,
+      story: unit.story,
       lessonCount: unit.lessons.length,
       version,
     });

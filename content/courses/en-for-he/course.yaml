@@ -6,8 +6,16 @@ title:
   he: אנגלית לדוברי עברית
   en: English for Hebrew speakers
 description:
-  he: מהמילים הראשונות ועד שיחה בטוחה.
-  en: From your first words to confident conversation, following the CEFR levels.
+  he: מהמילים הראשונות ועד שיחה בטוחה, עם נועה ובן.
+  en: From your first words to confident conversation, with Noa and Ben.
+characters:
+  - { id: "noa", name: "Noa", he: "נועה", color: "rose", look: "long", pitch: 1.15 }
+  - { id: "ben", name: "Ben", he: "בן", color: "blue", look: "short", pitch: 0.85 }
+  - { id: "rachel", name: "Rachel", he: "רחל", color: "violet", look: "curly", pitch: 1.25 }
+  - { id: "eli", name: "Eli", he: "אלי", color: "amber", look: "short", pitch: 0.95 }
+  - { id: "cohen", name: "Mr. Cohen", he: "מר כהן", color: "teal", look: "bald", pitch: 0.75 }
+  - { id: "miriam", name: "Miriam", he: "מרים", color: "green", look: "long", pitch: 1.1 }
 units:
-  - a1-01-hello
-  - a1-02-numbers
+  - u01-hello
+  - u02-from
+  - u03-family

@@ -3,6 +3,9 @@ import { checkText, type TextVerdict } from "./check";
 
 /** What the learner did, per exercise type. */
 export type Response =
+  /** Learn cards, dialogues and tips: the learner read or listened and moved on. */
+  | { type: "seen" }
+  | { type: "dialogue_gap"; choice: string }
   | { type: "multiple_choice"; choice: number }
   | { type: "listening_choice"; choice: number }
   /** The UI submits once every pair is matched, with the number of wrong attempts on the way. */
@@ -47,8 +50,19 @@ function fromText(input: string, accepted: readonly string[], lang: string): Eva
 
 export class RuleEvaluator implements Evaluator {
   evaluate(ex: Exercise, res: Response, ctx: EvaluationContext): Evaluation {
-    if (ex.type !== res.type) throw new Error(`response type ${res.type} does not match exercise ${ex.type}`);
+    const ungraded = ex.type === "learn" || ex.type === "dialogue" || ex.type === "tip";
+    if (ungraded ? res.type !== "seen" : ex.type !== res.type) {
+      throw new Error(`response type ${res.type} does not match exercise ${ex.type}`);
+    }
     switch (ex.type) {
+      case "learn":
+      case "dialogue":
+      case "tip":
+        return ok("");
+      case "dialogue_gap": {
+        const expected = ex.lines[ex.gap]!.text;
+        return (res as { choice: string }).choice === expected ? ok(expected) : bad(expected);
+      }
       case "multiple_choice":
       case "listening_choice": {
         const expected = ex.options[ex.correct]!;

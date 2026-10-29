@@ -23,9 +23,6 @@ importers:
       '@fontsource-variable/rubik':
         specifier: ^5.2.8
         version: 5.3.0
-      '@fontsource/frank-ruhl-libre':
-        specifier: ^5.2.8
-        version: 5.3.0
       '@lingo/content-schema':
         specifier: workspace:*
         version: link:../../packages/content-schema
@@ -273,9 +270,6 @@ packages:
 
   '@fontsource-variable/rubik@5.3.0':
     resolution: {integrity: sha512-yQUf8qle24MJYA+EuauyF+cqjjN6I715nGjitt3sGmwZA0XfA4fWJcLq1C/diREZl4Qzn1E80nLMc0ipC/a4Lg==}
-
-  '@fontsource/frank-ruhl-libre@5.3.0':
-    resolution: {integrity: sha512-t9cbVzyuEJZGYafP01s7FQ1KAkh/Fs2nakfPzZpPY8BtfvGlZxQRxXAqJ/qluyfZXilpqw0Hk+GlYiWfmSSRTg==}
 
   '@img/colour@1.1.0':
     resolution: {integrity: sha512-Td76q7j57o/tLVdgS746cYARfSyxk8iEfRxewL9h4OMzYhbW4TAcppl0mT4eyqXddh6L/jwoM75mo7ixa/pCeQ==}
@@ -1272,8 +1266,6 @@ snapshots:
     optional: true
 
   '@fontsource-variable/rubik@5.3.0': {}
-
-  '@fontsource/frank-ruhl-libre@5.3.0': {}
 
   '@img/colour@1.1.0':
     optional: true

@@ -2,7 +2,7 @@
 
 import { LessonPlayer } from "@/components/LessonPlayer";
 import { LoadError, Loading } from "@/components/ui";
-import { flatLessons, loadCourse, useLoad } from "@/lib/content";
+import { exerciseContext, flatLessons, loadCourse, useLoad } from "@/lib/content";
 
 export function LessonRoute({ courseId, lessonId }: { courseId: string; lessonId: string }) {
   const { data, error } = useLoad(() => loadCourse(courseId), [courseId]);
@@ -23,7 +23,7 @@ export function LessonRoute({ courseId, lessonId }: { courseId: string; lessonId
       lessonIndex={index}
       grammar={grammar}
       courseId={courseId}
-      ctx={{ target: data.manifest.target, source: data.manifest.source, speechLang: data.manifest.speechLang }}
+      ctx={exerciseContext(data)}
       nextHref={next ? `/lesson/${courseId}/${next.lesson.id}` : null}
     />
   );

@@ -5,6 +5,7 @@ import { SCHEMA_VERSION } from "@lingo/sync";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import { Brand } from "@/components/Brand";
+import { Icon } from "@/components/icons";
 import { BackLink, LoadError, Loading, Word } from "@/components/ui";
 import { loadCourses, loadManifest, loadUnit, useLoad } from "@/lib/content";
 import { uuidv7 } from "@/lib/ids";
@@ -25,14 +26,15 @@ const GOALS = [
   { minutes: 20, label: "אינטנסיבי", newPerDay: 20, note: "למי שיש מטרה קרובה" },
 ];
 
-function Steps({ step }: { step: 1 | 2 }) {
+function Steps({ step }: { step: 1 | 2 | 3 }) {
   return (
-    <div className="flex items-center gap-3" aria-label={`שלב ${step} מתוך 2`}>
+    <div className="flex items-center gap-3" aria-label={`שלב ${step} מתוך 3`}>
       <div className="flex gap-1.5" aria-hidden="true">
-        <span className="h-1.5 w-8 rounded-full bg-cobalt" />
-        <span className={`h-1.5 w-8 rounded-full ${step === 2 ? "bg-cobalt" : "bg-line"}`} />
+        {[1, 2, 3].map((n) => (
+          <span key={n} className={`h-1.5 w-8 rounded-full ${n <= step ? "bg-cobalt" : "bg-line"}`} />
+        ))}
       </div>
-      <span className="text-sm text-ink-soft">שלב {step} מתוך 2</span>
+      <span className="text-sm text-ink-soft">שלב {step} מתוך 3</span>
     </div>
   );
 }
@@ -70,6 +72,7 @@ export default function Start() {
   );
   const [course, setCourse] = useState<string | null>(null);
   const [busy, setBusy] = useState(false);
+  const [firstLesson, setFirstLesson] = useState<string | null>(null);
   if (error) return <LoadError />;
   if (!manifests || !loaded) return <Loading />;
   const enrolled = enrolledCourses(state);
@@ -86,9 +89,11 @@ export default function Start() {
       { ...base(), kind: "setting", field: "dailyGoalMinutes", value: goal.minutes },
       { ...base(), kind: "setting", field: "newPerDay", value: goal.newPerDay },
     ]);
+    if (already) return router.push("/learn/");
     const manifest = await loadManifest(course);
     const first = await loadUnit(course, manifest.units[0]!.id);
-    router.push(already ? "/learn/" : `/lesson/${course}/${first.lessons[0]!.id}`);
+    setFirstLesson(first.lessons[0]!.id);
+    setBusy(false);
   }
 
   async function switchTo(id: string) {
@@ -120,6 +125,47 @@ export default function Start() {
             ))}
           </ul>
           <p className="text-ink-soft">בקרוב גם צרפתית, גרמנית, רוסית ואיטלקית.</p>
+        </>
+      ) : firstLesson ? (
+        <>
+          <div className="flex flex-col gap-3">
+            <Steps step={3} />
+            <h1 className="text-4xl font-bold">מאיפה מתחילים?</h1>
+          </div>
+          <ul className="flex flex-col gap-3">
+            <li>
+              <button
+                type="button"
+                onClick={() => router.push(`/lesson/${chosen.id}/${firstLesson}/`)}
+                className="card flex w-full items-center gap-4 p-5 text-start transition hover:ring-2 hover:ring-cobalt"
+              >
+                <span className="grid size-14 shrink-0 place-items-center rounded-2xl bg-mint-soft text-mint">
+                  <Icon name="play" className="size-7" filled />
+                </span>
+                <span className="flex flex-col">
+                  <span className="text-lg font-bold">אני מתחיל/ה מאפס</span>
+                  <span className="text-ink-soft">השיעור הראשון: המילים הראשונות והיכרות</span>
+                </span>
+              </button>
+            </li>
+            {chosen.units.length > 1 && (
+              <li>
+                <button
+                  type="button"
+                  onClick={() => router.push(`/placement/${chosen.id}/`)}
+                  className="card flex w-full items-center gap-4 p-5 text-start transition hover:ring-2 hover:ring-cobalt"
+                >
+                  <span className="grid size-14 shrink-0 place-items-center rounded-2xl bg-cobalt-soft text-cobalt">
+                    <Icon name="trophy" className="size-7" />
+                  </span>
+                  <span className="flex flex-col">
+                    <span className="text-lg font-bold">אני כבר יודע/ת קצת</span>
+                    <span className="text-ink-soft">מבחן מיקום קצר, ומתחילים ביחידה המתאימה</span>
+                  </span>
+                </button>
+              </li>
+            )}
+          </ul>
         </>
       ) : (
         <>

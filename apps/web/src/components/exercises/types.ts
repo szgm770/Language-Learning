@@ -1,4 +1,4 @@
-import type { Exercise } from "@lingo/content-schema";
+import type { Character, Exercise, Lexeme } from "@lingo/content-schema";
 import type { Response } from "@lingo/engine";
 
 export interface ExerciseContext {
@@ -8,6 +8,10 @@ export interface ExerciseContext {
   source: string;
   /** Voice for text-to-speech, e.g. "en-US". */
   speechLang: string;
+  /** Course characters, for dialogues. */
+  characters: Character[];
+  /** Words of the unit, for learn cards. */
+  lexemes: Map<string, Lexeme>;
 }
 
 export interface ExerciseProps<T extends Exercise["type"]> {

@@ -43,3 +43,31 @@ export function dailyGoal(state: LearnerState, day: string) {
   const minutes = Math.round((d?.seconds ?? 0) / 60);
   return { goalMinutes, minutes, xp: d?.xp ?? 0, done: minutes >= goalMinutes };
 }
+
+/** The current week, Sunday first, with whether the learner was active each day. */
+export function weekActivity(state: LearnerState, day: string): { day: string; active: boolean; isToday: boolean }[] {
+  const d = new Date(`${day}T12:00:00Z`);
+  const sunday = new Date(d);
+  sunday.setUTCDate(d.getUTCDate() - d.getUTCDay());
+  return Array.from({ length: 7 }, (_, i) => {
+    const x = new Date(sunday);
+    x.setUTCDate(sunday.getUTCDate() + i);
+    const key = x.toISOString().slice(0, 10);
+    return { day: key, active: (state.days.get(key)?.xp ?? 0) > 0, isToday: key === day };
+  });
+}
+
+export function totalXp(state: LearnerState): number {
+  let xp = 0;
+  for (const d of state.days.values()) xp += d.xp;
+  return xp;
+}
+
+/** How well a word is known, 0 (new) to 4 (solid), from its review card. */
+export function mastery(card: { state: number; stability: number; lapses: number }): number {
+  if (card.state === State.New) return 0;
+  if (card.stability < 1) return 1;
+  if (card.stability < 7) return 2;
+  if (card.stability < 30) return 3;
+  return 4;
+}

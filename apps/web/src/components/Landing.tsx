@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { speak } from "@/lib/speech";
+import { Avatar } from "./art";
 import { Brand } from "./Brand";
 import { Word } from "./ui";
 
@@ -50,7 +51,7 @@ function TryIt() {
   const [picked, setPicked] = useState<number | null>(null);
   const right = picked === DEMO.correct;
   return (
-    <section aria-labelledby="try" className="flex flex-col gap-4 rounded-3xl bg-surface p-5 shadow-[0_1px_0_var(--color-line)] ring-1 ring-line">
+    <section aria-labelledby="try" className="card flex flex-col gap-4 p-5">
       <h2 id="try" className="text-sm font-medium text-cobalt">
         נסו עכשיו
       </h2>
@@ -85,6 +86,14 @@ function TryIt() {
     </section>
   );
 }
+
+const NOA = { name: "Noa", color: "rose", look: "long" } as const;
+const BEN = { name: "Ben", color: "blue", look: "short" } as const;
+const STORY = [
+  { who: NOA, text: "Hi! I'm Noa.", he: "היי! אני נועה." },
+  { who: BEN, text: "Hello, Noa. I'm Ben.", he: "שלום, נועה. אני בן." },
+  { who: NOA, text: "Nice to meet you, Ben.", he: "נעים להכיר, בן." },
+];
 
 const POINTS = [
   {
@@ -132,7 +141,7 @@ export function Landing() {
         <Greeting />
         <h1 className="text-4xl leading-tight font-bold text-balance sm:text-5xl">שפה חדשה, בעברית פשוטה.</h1>
         <p className="mt-4 max-w-md text-lg text-ink-soft text-pretty">
-          אנגלית וספרדית לדוברי עברית. הסברים בעברית אמיתית, שיעורים קצרים וחזרה חכמה.
+          אנגלית וספרדית לדוברי עברית. שיחות מהחיים, הסברים בעברית אמיתית, ומסלול מסודר עד תעודה.
         </p>
         <Link href="/start/" className="btn-primary mt-8 min-h-14 w-full max-w-sm text-lg">
           להתחיל ללמוד בחינם
@@ -141,6 +150,29 @@ export function Landing() {
       </section>
 
       <TryIt />
+
+      <section aria-labelledby="story" className="mt-12 flex flex-col gap-4">
+        <h2 id="story" className="text-2xl font-bold">
+          לומדים מתוך שיחות אמיתיות
+        </h2>
+        <p className="text-ink-soft">
+          נועה מתל אביב ובן מלונדון עובדים יחד. בכל יחידה פוגשים אותם במצב אחר: היכרות, בית קפה, קניות, נסיעה לחו״ל. כל מילה
+          חדשה מגיעה מתוך שיחה, עם הסבר בעברית.
+        </p>
+        <div className="flex flex-col gap-3 rounded-3xl bg-sunken p-4">
+          {STORY.map((l, i) => (
+            <div key={i} className={`flex items-end gap-2 ${i % 2 ? "flex-row-reverse" : ""}`}>
+              <Avatar character={l.who} className="size-10" />
+              <div
+                className={`rounded-3xl px-4 py-3 ${i % 2 ? "rounded-ee-md bg-cobalt text-white" : "rounded-es-md bg-surface ring-1 ring-line"}`}
+              >
+                <Word text={l.text} lang="en" className="block text-lg" />
+                <span className={`text-sm ${i % 2 ? "text-white/80" : "text-ink-soft"}`}>{l.he}</span>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
 
       <section aria-label="למה כאן" className="mt-12 flex flex-col gap-7">
         {POINTS.map((p) => (
@@ -166,7 +198,7 @@ export function Landing() {
           {LANGS.map((l) => (
             <li
               key={l.lang}
-              className={`flex flex-col gap-1 rounded-2xl p-4 ${l.ready ? "bg-surface ring-1 ring-line" : "border border-dashed border-line"}`}
+              className={`flex flex-col gap-1 rounded-2xl p-4 ${l.ready ? "card" : "border-2 border-dashed border-line"}`}
             >
               <Word text={l.word} lang={l.lang} className={`text-3xl ${l.ready ? "text-cobalt" : "text-ink-soft"}`} />
               <span className="font-medium">{l.name}</span>

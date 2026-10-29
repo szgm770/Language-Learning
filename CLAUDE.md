@@ -5,6 +5,10 @@ https://claude.ai/artifact/GFqUqL1TGLJecV2RuqKfsj
 
 ## Layout
 - `content/courses/<course>/` – course content as YAML (written with AI, reviewed by people). Never put lesson content in code.
+  English A1 follows `docs/curriculum/en-a1.md` (units, lesson pattern, characters Noa/Ben/Rachel/Eli/Miriam/Mr. Cohen).
+  Lesson steps: `learn` (introduce a word), `dialogue`, `dialogue_gap`, `tip` (ungraded) plus the graded exercise types.
+  The build fails if a word is practised before a learn card introduces it.
+  Quote YAML values that contain commas (`scripts/quote-yaml-flow.py <file>` fixes one-line `{ … }` maps).
 - `packages/content-schema` – Zod schema for content + `build-content` (YAML → `apps/web/public/content/*.json`).
 - `packages/engine` – answer checking, the `Evaluator` interface (a future AI evaluator plugs in here), FSRS wrapper (ts-fsrs **v5** API: `fsrs()`, `createEmptyCard()`, `.next()`; v6 changed the API and needs Node 24).
 - `packages/sync` – learner state built from ops (merge rules, streak). No cloud sync today, but the rules **must stay idempotent and order-independent** so it can be added later; the property tests in `sync.test.ts` enforce it.

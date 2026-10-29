@@ -1,0 +1,411 @@
+id: u02-from
+cefr: A1
+scene: globe
+title:
+  he: מאיפה אתם?
+  en: Where are you from?
+story: "פגישת צוות ראשונה: נועה, בן ומרים מכירים קצת יותר, ומחליפים מספרי טלפון."
+canDo:
+  - להגיד מאיפה אני ולשאול מאיפה אחרים
+  - להגיד אילו שפות אני מדבר
+  - לדבר על אדם אחר עם he ו־she
+  - לספור מ־0 עד 10 ולהגיד מספר טלפון
+
+vocabulary:
+  - { id: "where", text: "where", translation: "איפה, מאיפה", pos: adverb, pronunciation: "ווֶר", example: { text: "Where are you from?", translation: "מאיפה אתה?" } }
+  - { id: "from", text: "from", translation: "מ־ (מאיפה מגיעים)", pos: preposition, pronunciation: "פְרוֹם", example: { text: "I'm from Israel.", translation: "אני מישראל." } }
+  - { id: "israel", text: "Israel", translation: "ישראל", pos: noun, pronunciation: "אִיזְרָאֵל" }
+  - { id: "england", text: "England", translation: "אנגליה", pos: noun, pronunciation: "אִינְגְלֶנְד", example: { text: "Ben is from England.", translation: "בן מאנגליה." } }
+  - { id: "the-usa", text: "the USA", translation: "ארצות הברית", pos: noun, pronunciation: "דֶ'ה יוּ אֶס אֵיי", example: { text: "Rachel is in the USA.", translation: "רחל בארצות הברית." } }
+  - { id: "city", text: "city", translation: "עיר", pos: noun, pronunciation: "סִיטִי", example: { text: "London is a big city.", translation: "לונדון היא עיר גדולה." } }
+  - { id: "language", text: "language", translation: "שפה", pos: noun, pronunciation: "לֶנְגְוִוידְג'" }
+  - { id: "speak", text: "speak", translation: "לדבר (שפה)", pos: verb, pronunciation: "סְפִּיק", example: { text: "I speak Hebrew.", translation: "אני מדברת עברית." } }
+  - { id: "hebrew", text: "Hebrew", translation: "עברית", pos: noun, pronunciation: "הִיבְּרוּ" }
+  - { id: "english", text: "English", translation: "אנגלית", pos: noun, pronunciation: "אִינְגְלִישׁ" }
+  - { id: "and", text: "and", translation: "ו־", pos: conjunction, pronunciation: "אֶנְד", example: { text: "Hebrew and English", translation: "עברית ואנגלית" } }
+  - { id: "spain", text: "Spain", translation: "ספרד", pos: noun, pronunciation: "סְפֵּיין" }
+  - { id: "spanish", text: "Spanish", translation: "ספרדית", pos: noun, pronunciation: "סְפֶּנִישׁ" }
+  - { id: "france", text: "France", translation: "צרפת", pos: noun, pronunciation: "פְרַאנְס" }
+  - { id: "french", text: "French", translation: "צרפתית", pos: noun, pronunciation: "פְרֶנְץ'" }
+  - { id: "do-you-speak", text: "Do you speak…?", translation: "אתה מדבר…? / את מדברת…?", pos: phrase, pronunciation: "דוּ יוּ סְפִּיק", example: { text: "Do you speak French?", translation: "את מדברת צרפתית?" } }
+  - { id: "a-little", text: "a little", translation: "קצת", pos: phrase, pronunciation: "אֶ לִיטְל", example: { text: "I speak a little Spanish.", translation: "אני מדבר קצת ספרדית." } }
+  - { id: "he-pronoun", text: "he", translation: "הוא", pos: pronoun, pronunciation: "הִי", example: { text: "He is from England.", translation: "הוא מאנגליה." } }
+  - { id: "she", text: "she", translation: "היא", pos: pronoun, pronunciation: "שִׁי", example: { text: "She is from Spain.", translation: "היא מספרד." } }
+  - { id: "is", text: "is", translation: "(הוא / היא) … – הפועל \"להיות\"", pos: verb, pronunciation: "אִיז" }
+  - { id: "isnt", text: "isn't", translation: "לא (בצורה המקוצרת של is not)", pos: phrase, pronunciation: "אִיזֶנְט", example: { text: "She isn't from France.", translation: "היא לא מצרפת." } }
+  - { id: "zero", text: "zero", translation: "אפס", pos: number, pronunciation: "זִירוֹ" }
+  - { id: "one", text: "one", translation: "אחת", pos: number, pronunciation: "וַואן" }
+  - { id: "two", text: "two", translation: "שתיים", pos: number, pronunciation: "טוּ" }
+  - { id: "three", text: "three", translation: "שלוש", pos: number, pronunciation: "ת'רִי" }
+  - { id: "four", text: "four", translation: "ארבע", pos: number, pronunciation: "פוֹר" }
+  - { id: "five", text: "five", translation: "חמש", pos: number, pronunciation: "פַייב" }
+  - { id: "six", text: "six", translation: "שש", pos: number, pronunciation: "סִיקְס" }
+  - { id: "seven", text: "seven", translation: "שבע", pos: number, pronunciation: "סֶבֶן" }
+  - { id: "eight", text: "eight", translation: "שמונה", pos: number, pronunciation: "אֵייט" }
+  - { id: "nine", text: "nine", translation: "תשע", pos: number, pronunciation: "נַיין" }
+  - { id: "ten", text: "ten", translation: "עשר", pos: number, pronunciation: "טֶן" }
+  - { id: "phone-number", text: "phone number", translation: "מספר טלפון", pos: noun, pronunciation: "פוֹן נַאמְבֶּר", example: { text: "What's your phone number?", translation: "מה מספר הטלפון שלך?" } }
+  - { id: "its", text: "It's", translation: "זה (בצורה המקוצרת)", pos: phrase, pronunciation: "אִיטְס", example: { text: "It's a big city.", translation: "זו עיר גדולה." } }
+
+grammar:
+  - id: he-she-is
+    title: { he: "He is, she is: הוא, היא", en: "He is, she is" }
+    explanation: |
+      כמו ב־I am ו־you are, גם עם "הוא" ו"היא" חייבים פועל. הפעם הוא **is**:
+
+      - **He is from England** – הוא מאנגליה
+      - **She is from Spain** – היא מספרד
+
+      בדיבור מקצרים: **he's**, **she's**.
+
+      שלילה: מוסיפים **not** אחרי is, ובדיבור **isn't**: **She isn't from France.**
+
+      שאלה: מקדימים את is. **Is he from Israel?** ועונים **Yes, he is.** או **No, he isn't.**
+    examples:
+      - { text: "He's from London.", translation: "הוא מלונדון." }
+      - { text: "Is she from Spain? Yes, she is.", translation: "היא מספרד? כן." }
+      - { text: "She isn't from France.", translation: "היא לא מצרפת." }
+
+lessons:
+  # ------------------------------------------------------------------ 1
+  - id: u2-l1
+    kind: new
+    title: { he: "אני מישראל", en: "I'm from Israel" }
+    exercises:
+      - id: u2-l1-01
+        type: dialogue
+        scene: לפני תחילת הפגישה, בן ונועה מדברים קצת.
+        lines:
+          - { speaker: "ben", text: "Where are you from, Noa?", translation: "מאיפה את, נועה?" }
+          - { speaker: "noa", text: "I'm from Israel, from Tel Aviv. And you?", translation: "אני מישראל, מתל אביב. ואתה?" }
+          - { speaker: "ben", text: "I'm from England. I'm from London.", translation: "אני מאנגליה. אני מלונדון." }
+          - { speaker: "noa", text: "London is a great city!", translation: "לונדון היא עיר מצוינת!" }
+      - { id: "u2-l1-02", type: "learn", lexeme: "where" }
+      - { id: "u2-l1-03", type: "learn", lexeme: "from" }
+      - id: u2-l1-04
+        type: fill_blank
+        sentence: "I'm ___ Tel Aviv."
+        translation: "אני מתל אביב."
+        answers: [from]
+        options: [from, where, are]
+        lexemes: [from]
+      - { id: "u2-l1-05", type: "learn", lexeme: "israel" }
+      - { id: "u2-l1-06", type: "learn", lexeme: "england" }
+      - id: u2-l1-07
+        type: multiple_choice
+        prompt: "איך אומרים \"אני מאנגליה\"?"
+        options: ["I'm from England.", "I'm England.", "Where England."]
+        correct: 0
+        lexemes: [from, england]
+      - { id: "u2-l1-08", type: "learn", lexeme: "the-usa" }
+      - { id: "u2-l1-09", type: "learn", lexeme: "city" }
+      - id: u2-l1-10
+        type: match_pairs
+        pairs:
+          - [Israel, ישראל]
+          - [England, אנגליה]
+          - [the USA, ארצות הברית]
+          - [city, עיר]
+          - [where, איפה]
+        lexemes: [israel, england, the-usa, city, where]
+      - id: u2-l1-11
+        type: word_bank
+        prompt: "מאיפה אתה?"
+        answers: ["Where are you from?"]
+        distractors: [is, I'm]
+        lexemes: [where, from]
+      - id: u2-l1-12
+        type: listening_choice
+        audioText: "I'm from the USA."
+        question: מאיפה הדובר?
+        options: [ארצות הברית, אנגליה, ישראל]
+        correct: 0
+        lexemes: [the-usa]
+      - id: u2-l1-13
+        type: dialogue_gap
+        lines:
+          - { speaker: "ben", text: "Where are you from?", translation: "מאיפה את?" }
+          - { speaker: "noa", text: "I'm from Israel.", translation: "אני מישראל." }
+        gap: 1
+        distractors: ["I'm Israel from.", "Where is Israel?"]
+        lexemes: [from, israel]
+      - id: u2-l1-14
+        type: translate
+        direction: to_target
+        prompt: "אני מישראל."
+        answers: ["I'm from Israel.", "I am from Israel."]
+        lexemes: [from, israel]
+      - id: u2-l1-15
+        type: speak_repeat
+        text: "I'm from Israel. And you?"
+        translation: "אני מישראל. ואתה?"
+        lexemes: [from, israel]
+
+  # ------------------------------------------------------------------ 2
+  - id: u2-l2
+    kind: new
+    title: { he: "אילו שפות אתם מדברים?", en: "What languages do you speak?" }
+    exercises:
+      - { id: "u2-l2-01", type: "learn", lexeme: "language" }
+      - { id: "u2-l2-02", type: "learn", lexeme: "speak" }
+      - { id: "u2-l2-03", type: "learn", lexeme: "hebrew" }
+      - { id: "u2-l2-04", type: "learn", lexeme: "english" }
+      - { id: "u2-l2-05", type: "learn", lexeme: "and" }
+      - id: u2-l2-06
+        type: word_bank
+        prompt: "אני מדברת עברית ואנגלית."
+        answers: ["I speak Hebrew and English.", "I speak English and Hebrew."]
+        distractors: [from, is]
+        lexemes: [speak, hebrew, english, and]
+      - { id: "u2-l2-07", type: "learn", lexeme: "spain" }
+      - { id: "u2-l2-08", type: "learn", lexeme: "spanish" }
+      - { id: "u2-l2-09", type: "learn", lexeme: "france" }
+      - { id: "u2-l2-10", type: "learn", lexeme: "french" }
+      - id: u2-l2-11
+        type: match_pairs
+        pairs:
+          - [Spain, ספרד]
+          - [Spanish, ספרדית]
+          - [France, צרפת]
+          - [French, צרפתית]
+          - [language, שפה]
+        lexemes: [spain, spanish, france, french, language]
+      - id: u2-l2-12
+        type: tip
+        title: אות גדולה לשפות ולארצות
+        text: |
+          באנגלית שמות של ארצות, ערים ושפות נכתבים תמיד באות גדולה: Israel, London, Hebrew, English.
+
+          גם כשהמילה באמצע משפט: I speak English and Spanish.
+      - { id: "u2-l2-13", type: "learn", lexeme: "do-you-speak" }
+      - { id: "u2-l2-14", type: "learn", lexeme: "a-little" }
+      - id: u2-l2-15
+        type: dialogue_gap
+        lines:
+          - { speaker: "miriam", text: "Do you speak Spanish, Noa?", translation: "את מדברת ספרדית, נועה?" }
+          - { speaker: "noa", text: "A little. I speak Hebrew and English.", translation: "קצת. אני מדברת עברית ואנגלית." }
+        gap: 1
+        distractors: ["Yes, I'm from Spain.", "Spanish is a city."]
+        lexemes: [a-little, speak]
+      - id: u2-l2-16
+        type: translate
+        direction: to_source
+        prompt: "I speak English and a little French."
+        answers:
+          - "אני מדבר אנגלית וקצת צרפתית."
+          - "אני מדברת אנגלית וקצת צרפתית."
+          - "אני מדבר אנגלית וקצת צרפתית"
+          - "אני מדברת אנגלית וקצת צרפתית"
+        lexemes: [speak, english, a-little, french]
+      - id: u2-l2-17
+        type: speak_repeat
+        text: "Do you speak Hebrew?"
+        translation: "אתה מדבר עברית?"
+        lexemes: [do-you-speak, hebrew]
+
+  # ------------------------------------------------------------------ 3
+  - id: u2-l3
+    kind: grammar
+    grammar: he-she-is
+    title: { he: "הוא מאנגליה, היא מספרד", en: "He's from England, she's from Spain" }
+    exercises:
+      - { id: "u2-l3-01", type: "learn", lexeme: "he-pronoun" }
+      - { id: "u2-l3-02", type: "learn", lexeme: "she" }
+      - { id: "u2-l3-03", type: "learn", lexeme: "is" }
+      - id: u2-l3-04
+        type: fill_blank
+        sentence: "Miriam ___ from Spain."
+        translation: "מרים מספרד."
+        answers: [is]
+        options: [is, are, am]
+        lexemes: [is]
+      - id: u2-l3-05
+        type: multiple_choice
+        prompt: איזה משפט נכון?
+        options: ["He is from England.", "He from England.", "He are from England."]
+        correct: 0
+        lexemes: [he-pronoun, is]
+      - id: u2-l3-06
+        type: word_bank
+        prompt: "היא מספרד."
+        answers: ["She is from Spain.", "She's from Spain."]
+        distractors: [he, are]
+        lexemes: [she, is, spain]
+      - { id: "u2-l3-07", type: "learn", lexeme: "isnt" }
+      - id: u2-l3-08
+        type: fill_blank
+        sentence: "Is Ben from France? No, he ___."
+        translation: "בן מצרפת? לא."
+        answers: ["isn't", "is not"]
+        options: ["isn't", "aren't", "not"]
+        lexemes: [isnt]
+      - id: u2-l3-09
+        type: dialogue_gap
+        lines:
+          - { speaker: "noa", text: "Is Miriam from France?", translation: "מרים מצרפת?" }
+          - { speaker: "ben", text: "No, she isn't. She's from Spain.", translation: "לא. היא מספרד." }
+        gap: 1
+        distractors: ["No, she not. She from Spain.", "Yes, I am from Spain."]
+        lexemes: [isnt, she]
+      - id: u2-l3-10
+        type: translate
+        direction: to_target
+        prompt: "הוא מאנגליה."
+        answers: ["He is from England.", "He's from England."]
+        lexemes: [he-pronoun, is, england]
+      - id: u2-l3-11
+        type: word_bank
+        prompt: "מאיפה היא?"
+        answers: ["Where is she from?"]
+        distractors: [are, he]
+        lexemes: [where, she, is]
+      - id: u2-l3-12
+        type: translate
+        direction: to_source
+        prompt: "She isn't from Israel."
+        answers: ["היא לא מישראל.", "היא לא מישראל"]
+        lexemes: [she, isnt]
+      - id: u2-l3-13
+        type: speak_repeat
+        text: "Is he from London? Yes, he is."
+        translation: "הוא מלונדון? כן."
+        lexemes: [he-pronoun, is]
+
+  # ------------------------------------------------------------------ 4
+  - id: u2-l4
+    kind: new
+    title: { he: "מה מספר הטלפון שלך?", en: "What's your phone number?" }
+    exercises:
+      - id: u2-l4-01
+        type: dialogue
+        scene: אחרי הפגישה, בן רוצה את המספר של נועה בשביל קבוצת הצוות.
+        lines:
+          - { speaker: "ben", text: "Noa, what's your phone number?", translation: "נועה, מה מספר הטלפון שלך?" }
+          - { speaker: "noa", text: "It's zero five four, three two one, seven eight nine zero.", translation: "זה 054-321-7890." }
+          - { speaker: "ben", text: "Zero five four, three two one, seven eight nine zero?", translation: "054-321-7890?" }
+          - { speaker: "noa", text: "Yes!", translation: "כן!" }
+          - { speaker: "ben", text: "Great, thank you!", translation: "מצוין, תודה!" }
+      - { id: "u2-l4-02", type: "learn", lexeme: "phone-number" }
+      - { id: "u2-l4-03", type: "learn", lexeme: "its" }
+      - { id: "u2-l4-04", type: "learn", lexeme: "zero" }
+      - { id: "u2-l4-05", type: "learn", lexeme: "one" }
+      - { id: "u2-l4-06", type: "learn", lexeme: "two" }
+      - { id: "u2-l4-07", type: "learn", lexeme: "three" }
+      - id: u2-l4-08
+        type: match_pairs
+        pairs: [[zero, "0"], [one, "1"], [two, "2"], [three, "3"]]
+        lexemes: [zero, one, two, three]
+      - { id: "u2-l4-09", type: "learn", lexeme: "four" }
+      - { id: "u2-l4-10", type: "learn", lexeme: "five" }
+      - { id: "u2-l4-11", type: "learn", lexeme: "six" }
+      - { id: "u2-l4-12", type: "learn", lexeme: "seven" }
+      - id: u2-l4-13
+        type: listening_choice
+        audioText: six
+        question: איזה מספר שמעתם?
+        options: ["6", "7", "5"]
+        correct: 0
+        lexemes: [six]
+      - { id: "u2-l4-14", type: "learn", lexeme: "eight" }
+      - { id: "u2-l4-15", type: "learn", lexeme: "nine" }
+      - { id: "u2-l4-16", type: "learn", lexeme: "ten" }
+      - id: u2-l4-17
+        type: match_pairs
+        pairs: [[four, "4"], [five, "5"], [seven, "7"], [eight, "8"], [nine, "9"], [ten, "10"]]
+        lexemes: [four, five, seven, eight, nine, ten]
+      - id: u2-l4-18
+        type: dictation
+        text: "three"
+        answers: ["three", "3"]
+        lexemes: [three]
+      - id: u2-l4-19
+        type: listening_choice
+        audioText: "It's zero five two, nine eight four, one six three seven."
+        question: מה המספר?
+        options: ["052-984-1637", "052-948-1637", "053-984-1673"]
+        correct: 0
+        lexemes: [zero, five, two, nine, eight, four, one, six, three, seven]
+      - id: u2-l4-20
+        type: speak_repeat
+        text: "My phone number is zero five four, one two three, four five six seven."
+        translation: "מספר הטלפון שלי הוא 054-123-4567."
+        lexemes: [phone-number]
+
+  # ------------------------------------------------------------------ 5
+  - id: u2-review
+    kind: review
+    title: { he: "חזרה: מאיפה אתם?", en: "Review: where are you from?" }
+    exercises:
+      - id: u2-r-01
+        type: match_pairs
+        pairs:
+          - [Hebrew, עברית]
+          - [France, צרפת]
+          - [a little, קצת]
+          - [language, שפה]
+          - [she, היא]
+        lexemes: [hebrew, france, a-little, language, she]
+      - id: u2-r-02
+        type: multiple_choice
+        prompt: "Rachel is from the USA. – מה נכון?"
+        options: [רחל מארצות הברית., רחל באנגליה., רחל מדברת ספרדית.]
+        correct: 0
+        lexemes: [the-usa]
+      - id: u2-r-03
+        type: fill_blank
+        sentence: "___ are you from?"
+        translation: "מאיפה אתה?"
+        answers: [Where]
+        options: [Where, What's, How]
+        lexemes: [where]
+      - id: u2-r-04
+        type: word_bank
+        prompt: "הוא מדבר עברית ואנגלית."
+        answers: ["He speaks Hebrew and English.", "He speaks English and Hebrew."]
+        distractors: [speak, she]
+        lexemes: [he-pronoun, hebrew, english]
+      - id: u2-r-05
+        type: tip
+        title: speaks עם s
+        text: |
+          שמתם לב? I speak, אבל he speaks. כשמדברים על הוא או היא, הפועל מקבל s בסוף.
+
+          נלמד את זה לעומק ביחידה 6. בינתיים: She speaks French. He speaks Hebrew.
+      - id: u2-r-06
+        type: dialogue_gap
+        lines:
+          - { speaker: "rachel", text: "Hi! Where are you from?", translation: "היי! מאיפה את?" }
+          - { speaker: "noa", text: "I'm from Israel. And you?", translation: "אני מישראל. ואת?" }
+          - { speaker: "rachel", text: "I'm from London.", translation: "אני מלונדון." }
+        gap: 1
+        distractors: ["I'm Israel. Thank you.", "She's from Israel. Bye."]
+        lexemes: [from, israel, and-you]
+      - id: u2-r-07
+        type: listening_choice
+        audioText: "eight"
+        question: איזה מספר שמעתם?
+        options: ["8", "3", "4"]
+        correct: 0
+        lexemes: [eight]
+      - id: u2-r-08
+        type: translate
+        direction: to_target
+        prompt: "היא לא מצרפת."
+        answers: ["She isn't from France.", "She is not from France.", "She's not from France."]
+        lexemes: [she, isnt, france]
+      - id: u2-r-09
+        type: translate
+        direction: to_target
+        prompt: "את מדברת ספרדית?"
+        answers: ["Do you speak Spanish?"]
+        lexemes: [do-you-speak, spanish]
+      - id: u2-r-10
+        type: dictation
+        text: "What's your phone number?"
+        answers: ["What's your phone number?", "What is your phone number?"]
+        lexemes: [phone-number]
+      - id: u2-r-11
+        type: speak_repeat
+        text: "I'm from Israel. I speak Hebrew, English and a little Spanish."
+        translation: "אני מישראל. אני מדבר עברית, אנגלית וקצת ספרדית."
+        lexemes: [from, israel, speak, a-little]

@@ -2,7 +2,7 @@
 
 import { SCHEMA_VERSION, type SettingField, setting } from "@lingo/sync";
 import { useState } from "react";
-import { BackLink, Screen } from "@/components/ui";
+import { AppShell } from "@/components/AppShell";
 import { withBase } from "@/lib/base-path";
 import { db } from "@/lib/db";
 import { uuidv7 } from "@/lib/ids";
@@ -43,6 +43,7 @@ export default function Settings() {
   const theme = setting(state, "theme", "system");
   const goal = setting(state, "dailyGoalMinutes", 10);
   const newPerDay = setting(state, "newPerDay", 10);
+  const sound = setting<boolean | null>(state, "soundOn", true);
   const [confirmClear, setConfirmClear] = useState(false);
 
   async function exportData() {
@@ -56,8 +57,8 @@ export default function Settings() {
   }
 
   return (
-    <Screen className="gap-10 pt-2">
-      <BackLink href="/learn/" />
+    <AppShell>
+    <div className="flex flex-col gap-10 pt-6">
       <h1 className="text-3xl font-semibold">הגדרות</h1>
 
       <section className="flex flex-col gap-6">
@@ -82,6 +83,15 @@ export default function Settings() {
             { value: "dark", label: "כהה" },
           ]}
           onPick={(v) => save("theme", v)}
+        />
+        <Segmented
+          label="צלילים"
+          value={sound === false ? "off" : "on"}
+          options={[
+            { value: "on", label: "פועלים" },
+            { value: "off", label: "כבויים" },
+          ]}
+          onPick={(v) => save("soundOn", v === "on")}
         />
       </section>
 
@@ -114,6 +124,7 @@ export default function Settings() {
           </div>
         )}
       </section>
-    </Screen>
+    </div>
+    </AppShell>
   );
 }

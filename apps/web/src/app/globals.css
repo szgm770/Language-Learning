@@ -1,26 +1,54 @@
 @import "tailwindcss";
 
-/* Design tokens. The memorable element is the word display: words in the language being learned
-   are set large in a dictionary-like serif; the rest of the interface stays quiet. */
-@theme {
+/*
+ * Design system
+ * - Clean and calm like a good textbook, playful where it rewards: tactile buttons that press down,
+ *   bright feedback, one celebration at the end of a lesson.
+ * - One family (Rubik) for Hebrew and Latin; words in the language being learned are larger and bolder.
+ * - Colour carries meaning: cobalt = act, mint = right, rose = wrong, saffron = progress/XP.
+ */
+@theme static {
   --font-sans: "Rubik Variable", "Rubik", system-ui, sans-serif;
-  --font-word: "Frank Ruhl Libre", "Times New Roman", serif;
 
-  --color-ink: #1b2140;
-  --color-ink-soft: #5a6080;
-  --color-paper: #f6f7fb;
+  --color-ink: #12203a;
+  --color-ink-soft: #5b6784;
+  --color-paper: #f4f6fb;
   --color-surface: #ffffff;
-  --color-line: #e2e5f0;
-  --color-cobalt: #3346d3;
-  --color-cobalt-soft: #e7eafc;
-  --color-mint: #138a5e;
-  --color-mint-soft: #e1f5ec;
-  --color-rose: #c93b4c;
-  --color-rose-soft: #fbe7ea;
-  --color-saffron: #f2b53a;
-  --color-saffron-soft: #fdf2d9;
-  /* Spanish accent: deep amber, readable on paper. */
+  --color-sunken: #eef1f8;
+  --color-line: #e1e6f0;
+
+  --color-cobalt: #3b5bfd;
+  --color-cobalt-strong: #2a43c9;
+  --color-cobalt-soft: #e8ecff;
+  --color-mint: #0fa776;
+  --color-mint-strong: #0b815b;
+  --color-mint-soft: #dff7ee;
+  --color-rose: #e8445f;
+  --color-rose-strong: #b92e45;
+  --color-rose-soft: #fde7eb;
+  --color-saffron: #ffb020;
+  --color-saffron-strong: #d48a00;
+  --color-saffron-soft: #fff3d9;
   --color-amber: #b46a00;
+
+  /* Unit and character palette (illustrations, avatars). */
+  --color-u-blue: #4f7cff;
+  --color-u-blue-soft: #e5edff;
+  --color-u-amber: #ffa62b;
+  --color-u-amber-soft: #fff0d6;
+  --color-u-green: #20b486;
+  --color-u-green-soft: #dcf5ec;
+  --color-u-rose: #ff6b81;
+  --color-u-rose-soft: #ffe4e9;
+  --color-u-violet: #8b6cff;
+  --color-u-violet-soft: #eee8ff;
+  --color-u-teal: #14b3c7;
+  --color-u-teal-soft: #dbf5f8;
+  --color-skin: #f6c9a8;
+  --color-hair: #3b2a22;
+
+  --radius-card: 1.25rem;
+  --shadow-press: 0 4px 0 0;
 }
 
 @layer base {
@@ -29,36 +57,56 @@
   }
   :root[data-theme="dark"] {
     color-scheme: dark;
-    --color-ink: #e8eaf6;
-    --color-ink-soft: #a3a8c6;
-    --color-paper: #12152a;
-    --color-surface: #1b1f3a;
-    --color-line: #2c3156;
-    --color-cobalt: #8291ff;
-    --color-cobalt-soft: #262c5c;
-    --color-mint: #4cd39b;
-    --color-mint-soft: #173a30;
-    --color-rose: #ff7d8c;
-    --color-rose-soft: #47212a;
-    --color-saffron-soft: #3e3420;
+    --color-ink: #eaedf7;
+    --color-ink-soft: #a2a9c4;
+    --color-paper: #0f1424;
+    --color-surface: #181f34;
+    --color-sunken: #131a2d;
+    --color-line: #2a3352;
+    --color-cobalt: #7d93ff;
+    --color-cobalt-strong: #4e66e0;
+    --color-cobalt-soft: #222c55;
+    --color-mint: #34d39e;
+    --color-mint-strong: #1c9c72;
+    --color-mint-soft: #133a30;
+    --color-rose: #ff7b90;
+    --color-rose-strong: #c94a5f;
+    --color-rose-soft: #47212b;
+    --color-saffron-soft: #3d3220;
     --color-amber: #f5b547;
+    --color-u-blue-soft: #1f2b52;
+    --color-u-amber-soft: #3b2f1c;
+    --color-u-green-soft: #163a31;
+    --color-u-rose-soft: #3f2129;
+    --color-u-violet-soft: #2a2350;
+    --color-u-teal-soft: #13353b;
   }
   @media (prefers-color-scheme: dark) {
     :root:not([data-theme="light"]) {
       color-scheme: dark;
-      --color-ink: #e8eaf6;
-      --color-ink-soft: #a3a8c6;
-      --color-paper: #12152a;
-      --color-surface: #1b1f3a;
-      --color-line: #2c3156;
-      --color-cobalt: #8291ff;
-      --color-cobalt-soft: #262c5c;
-      --color-mint: #4cd39b;
-      --color-mint-soft: #173a30;
-      --color-rose: #ff7d8c;
-      --color-rose-soft: #47212a;
-      --color-saffron-soft: #3e3420;
+      --color-ink: #eaedf7;
+      --color-ink-soft: #a2a9c4;
+      --color-paper: #0f1424;
+      --color-surface: #181f34;
+      --color-sunken: #131a2d;
+      --color-line: #2a3352;
+      --color-cobalt: #7d93ff;
+      --color-cobalt-strong: #4e66e0;
+      --color-cobalt-soft: #222c55;
+      --color-mint: #34d39e;
+      --color-mint-strong: #1c9c72;
+      --color-mint-soft: #133a30;
+      --color-rose: #ff7b90;
+      --color-rose-strong: #c94a5f;
+      --color-rose-soft: #47212b;
+      --color-saffron-soft: #3d3220;
       --color-amber: #f5b547;
+      --color-u-blue-soft: #1f2b52;
+      --color-u-amber-soft: #3b2f1c;
+      --color-u-green-soft: #163a31;
+      --color-u-rose-soft: #3f2129;
+      --color-u-violet-soft: #2a2350;
+      --color-u-teal-soft: #13353b;
     }
   }
   html {
@@ -66,6 +114,7 @@
     color: var(--color-ink);
     font-family: var(--font-sans);
     -webkit-tap-highlight-color: transparent;
+    text-rendering: optimizeLegibility;
   }
   body {
     min-height: 100dvh;
@@ -74,49 +123,90 @@
   :focus-visible {
     outline: 3px solid var(--color-cobalt);
     outline-offset: 2px;
-    border-radius: 6px;
+    border-radius: 8px;
   }
   @media (prefers-reduced-motion: reduce) {
     *,
     *::before,
     *::after {
       animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
       transition-duration: 0.01ms !important;
     }
   }
 }
 
+/* Tactile button: sits on a darker ledge and presses down into it. */
 @utility btn {
-  @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-xl px-5 text-base font-medium transition active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-40;
+  @apply relative inline-flex min-h-13 items-center justify-center gap-2 rounded-2xl px-6 text-base font-semibold transition-[transform,box-shadow,background-color] duration-100 select-none disabled:cursor-not-allowed disabled:opacity-40;
 }
 
 @layer components {
   .btn-primary {
     @apply btn bg-cobalt text-white;
+    box-shadow: var(--shadow-press) var(--color-cobalt-strong);
   }
-  :root[data-theme="dark"] .btn-primary {
-    color: #12152a;
+  .btn-primary:not(:disabled):active,
+  .btn-success:not(:disabled):active,
+  .btn-danger:not(:disabled):active,
+  .btn-quiet:not(:disabled):active {
+    transform: translateY(4px);
+    box-shadow: 0 0 0 0 transparent;
+  }
+  .btn-success {
+    @apply btn bg-mint text-white;
+    box-shadow: var(--shadow-press) var(--color-mint-strong);
+  }
+  .btn-danger {
+    @apply btn bg-rose text-white;
+    box-shadow: var(--shadow-press) var(--color-rose-strong);
   }
   .btn-quiet {
-    @apply btn border border-line bg-surface text-ink;
+    @apply btn border-2 border-line bg-surface text-ink;
+    box-shadow: var(--shadow-press) var(--color-line);
   }
+  :root[data-theme="dark"] .btn-primary,
+  :root[data-theme="dark"] .btn-success {
+    color: #0f1424;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) .btn-primary,
+    :root:not([data-theme="light"]) .btn-success {
+      color: #0f1424;
+    }
+  }
+
+  /* Answer option: a card that presses down; selected = cobalt. */
   .choice {
-    @apply flex min-h-14 w-full items-center gap-3 rounded-xl border-2 border-line bg-surface px-4 text-start text-lg transition;
+    @apply flex min-h-14 w-full items-center gap-3 rounded-2xl border-2 border-line bg-surface px-4 text-start text-lg transition-[transform,box-shadow,border-color,background-color] duration-100;
+    box-shadow: 0 3px 0 0 var(--color-line);
+  }
+  .choice:not(:disabled):active {
+    transform: translateY(3px);
+    box-shadow: 0 0 0 0 transparent;
   }
   .choice[aria-pressed="true"] {
     @apply border-cobalt bg-cobalt-soft;
+    box-shadow: 0 3px 0 0 var(--color-cobalt);
   }
   .field {
-    @apply w-full rounded-xl border-2 border-line bg-surface px-4 py-3 text-lg outline-none focus:border-cobalt;
+    @apply w-full rounded-2xl border-2 border-line bg-surface px-4 py-3 text-lg outline-none focus:border-cobalt;
   }
-  /* A word in the language being learned. */
+  .card {
+    @apply rounded-[var(--radius-card)] bg-surface;
+    box-shadow:
+      0 0 0 1px var(--color-line),
+      0 2px 0 0 var(--color-line);
+  }
+  /* A word or sentence in the language being learned. */
   .word {
-    font-family: var(--font-word);
-    font-weight: 500;
-    line-height: 1.15;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    line-height: 1.2;
   }
 }
 
+/* ---- Motion: each answers something the learner did, except the landing greeting. ---- */
 @keyframes sheet-up {
   from {
     transform: translateY(100%);
@@ -126,10 +216,75 @@
   }
 }
 .sheet-up {
-  animation: sheet-up 180ms ease-out;
+  animation: sheet-up 200ms cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
-/* The hero greeting: each new word rises into place. The page's one orchestrated motion. */
+@keyframes pop {
+  0% {
+    transform: scale(0.6);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.12);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.pop {
+  animation: pop 320ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
+@keyframes shake {
+  0%,
+  100% {
+    transform: translateX(0);
+  }
+  20%,
+  60% {
+    transform: translateX(-6px);
+  }
+  40%,
+  80% {
+    transform: translateX(6px);
+  }
+}
+.shake {
+  animation: shake 320ms ease-in-out;
+}
+
+@keyframes float-up {
+  0% {
+    transform: translateY(6px);
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-28px);
+    opacity: 0;
+  }
+}
+.float-up {
+  animation: float-up 1100ms ease-out both;
+}
+
+@keyframes rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.rise-in {
+  animation: rise-in 360ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
 @keyframes greeting-in {
   from {
     opacity: 0;
@@ -142,4 +297,14 @@
 }
 .greeting-in {
   animation: greeting-in 420ms cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+/* Progress bar shine while it grows. */
+@keyframes shine {
+  from {
+    transform: translateX(120%);
+  }
+  to {
+    transform: translateX(-120%);
+  }
 }
