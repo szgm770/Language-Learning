@@ -57,7 +57,7 @@ export default function Settings() {
 
   return (
     <Screen className="gap-10 pt-2">
-      <BackLink href="/" />
+      <BackLink href="/learn/" />
       <h1 className="text-3xl font-semibold">הגדרות</h1>
 
       <section className="flex flex-col gap-6">

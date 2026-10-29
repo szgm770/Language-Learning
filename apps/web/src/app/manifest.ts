@@ -10,7 +10,7 @@ export default function manifest(): MetadataRoute.Manifest {
     description: "לימוד שפות לדוברי עברית. עובד גם בלי אינטרנט.",
     lang: "he",
     dir: "rtl",
-    start_url: withBase("/"),
+    start_url: withBase("/learn/"),
     scope: withBase("/"),
     display: "standalone",
     background_color: "#f6f7fb",
