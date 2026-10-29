@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useEffect } from "react";
+import { InstallHint } from "@/components/InstallHint";
 import { TopBar } from "@/components/TopBar";
 import { LoadError, Loading, Screen, Word } from "@/components/ui";
 import { loadCourse, useLoad } from "@/lib/content";
@@ -31,6 +32,7 @@ export default function Home() {
   return (
     <Screen>
       <TopBar />
+      <InstallHint />
       <section className="flex flex-col gap-1 pt-6">
         <p className="text-ink-soft">{data.manifest.title.he}</p>
         <h1 className="text-3xl font-semibold">{next ? next.unit.title.he : "סיימתם את כל השיעורים הזמינים"}</h1>

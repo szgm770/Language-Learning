@@ -2,6 +2,7 @@
 
 import type { CourseManifest, Lexeme, Unit } from "@lingo/content-schema";
 import { useEffect, useState } from "react";
+import { withBase } from "./base-path";
 import { db } from "./db";
 
 export interface CourseSummary {
@@ -19,7 +20,7 @@ export type UnitPack = Unit & { version: string };
  */
 async function cached<T>(key: string, url: string): Promise<T> {
   try {
-    const res = await fetch(url, { cache: "no-cache" });
+    const res = await fetch(withBase(url), { cache: "no-cache" });
     if (!res.ok) throw new Error(String(res.status));
     const data = (await res.json()) as T & { version?: string };
     await db().packs.put({ key, version: data.version ?? "", data, savedAt: Date.now() });

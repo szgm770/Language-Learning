@@ -4,7 +4,6 @@ import type { Exercise } from "@lingo/content-schema";
 import { type Evaluation, type Response, RuleEvaluator } from "@lingo/engine";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { ExerciseView, type ExerciseContext } from "./exercises";
-import { ReportProblem } from "./ReportProblem";
 
 const evaluator = new RuleEvaluator();
 
@@ -34,7 +33,6 @@ export function ExerciseStage({
 }) {
   const [response, setResponse] = useState<Response | null>(null);
   const [result, setResult] = useState<Evaluation | null>(null);
-  const [lastAnswer, setLastAnswer] = useState("");
   const shownAt = useRef(Date.now());
   const continueRef = useRef<HTMLButtonElement>(null);
 
@@ -43,7 +41,6 @@ export function ExerciseStage({
       if (!r || result) return;
       const evaluation = evaluator.evaluate(ex, r, ctx);
       setResult(evaluation);
-      setLastAnswer("text" in r ? r.text : "tiles" in r ? r.tiles.join(" ") : "");
       onResult(evaluation, Date.now() - shownAt.current);
     },
     [ex, ctx, response, result, onResult],
@@ -93,9 +90,6 @@ export function ExerciseStage({
               <p lang={ctx.target} dir="auto" className="word mt-1 text-2xl">
                 {result.expected}
               </p>
-            )}
-            {!result.correct && (
-              <ReportProblem courseId={courseId} exerciseId={ex.id} answer={lastAnswer} />
             )}
           </div>
         )}

@@ -2,17 +2,17 @@
 
 import { setting } from "@lingo/sync";
 import { type ReactNode, useEffect } from "react";
+import { withBase } from "@/lib/base-path";
 import { init, useLearner } from "@/lib/store";
-import { startSync } from "@/lib/sync-client";
 
 export function Providers({ children }: { children: ReactNode }) {
   const { state } = useLearner();
   const theme = setting(state, "theme", "system");
 
   useEffect(() => {
-    void init().then(startSync);
+    void init();
     if ("serviceWorker" in navigator && process.env.NODE_ENV === "production") {
-      void navigator.serviceWorker.register("/sw.js").catch(() => undefined);
+      void navigator.serviceWorker.register(withBase("/sw.js"), { scope: withBase("/") }).catch(() => undefined);
     }
   }, []);
 

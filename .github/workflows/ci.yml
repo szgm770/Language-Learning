@@ -13,14 +13,9 @@ jobs:
   check:
     runs-on: ubuntu-latest
     timeout-minutes: 20
-    services:
-      postgres:
-        image: postgres:16
-        env:
-          POSTGRES_PASSWORD: postgres
-        ports: ["5432:5432"]
-        options: >-
-          --health-cmd pg_isready --health-interval 5s --health-timeout 5s --health-retries 10
+    env:
+      # Build and test exactly as GitHub Pages serves it.
+      PAGES_BASE_PATH: /Language-Learning
     steps:
       - uses: actions/checkout@v4
       - uses: pnpm/action-setup@v4
@@ -29,23 +24,17 @@ jobs:
           node-version-file: .nvmrc
           cache: pnpm
       - run: pnpm install --frozen-lockfile
-
       - name: Content is valid
         run: pnpm content:build
       - name: Types
         run: pnpm typecheck
       - name: Unit and property tests
         run: pnpm test
-      - name: Database schema and row-level security
-        run: scripts/test-db.sh
-        env:
-          DATABASE_URL: postgres://postgres:postgres@localhost:5432/postgres
-      - name: Build
+      - name: Build static site
         run: pnpm build
-
       - name: Install browser
         run: pnpm --filter web exec playwright install --with-deps chromium
-      - name: End-to-end (phone and desktop)
+      - name: End-to-end (phone and desktop, including offline)
         run: pnpm --filter web e2e
       - uses: actions/upload-artifact@v4
         if: failure()

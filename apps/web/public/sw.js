@@ -2,12 +2,13 @@
  * - App code (/_next/static) never changes under the same URL: cache first.
  * - Course content (/content): network first, cached copy when offline.
  * - Pages: network first, cached copy when offline.
- * - /api and /auth are never cached.
  */
-const VERSION = "v1";
+const VERSION = "v2";
 const STATIC = `static-${VERSION}`;
 const RUNTIME = `runtime-${VERSION}`;
-const SHELL = ["/", "/start", "/settings"];
+// The site may live under a sub-path (GitHub Pages): take it from where this worker is registered.
+const BASE = new URL(self.registration.scope).pathname.replace(/\/$/, "");
+const SHELL = [`${BASE}/`, `${BASE}/start/`, `${BASE}/settings/`];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
@@ -53,12 +54,12 @@ self.addEventListener("fetch", (event) => {
   if (request.method !== "GET") return;
   const url = new URL(request.url);
   if (url.origin !== self.location.origin) return;
-  if (url.pathname.startsWith("/api/") || url.pathname.startsWith("/auth/")) return;
+  if (!url.pathname.startsWith(`${BASE}/`)) return;
 
-  if (url.pathname.startsWith("/_next/static/") || url.pathname.startsWith("/fonts/")) {
+  if (url.pathname.startsWith(`${BASE}/_next/static/`)) {
     event.respondWith(cacheFirst(request));
   } else if (request.mode === "navigate") {
-    event.respondWith(networkFirst(request, "/"));
+    event.respondWith(networkFirst(request, `${BASE}/`));
   } else {
     event.respondWith(networkFirst(request));
   }
