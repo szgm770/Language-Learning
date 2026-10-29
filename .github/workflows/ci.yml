@@ -57,7 +57,7 @@ jobs:
         with:
           node-version-file: .nvmrc
           cache: pnpm
-      - uses: actions/setup-java@v4
+      - uses: actions/setup-java@v5
         with:
           distribution: temurin
           java-version: "21"
@@ -66,9 +66,15 @@ jobs:
       - name: Install browser
         run: pnpm --filter web exec playwright install --with-deps chromium
       - name: Rules, store and sync end-to-end
-        run: >
-          pnpm exec firebase emulators:exec --only firestore,auth --project demo-lingo
-          "pnpm test:emulator && pnpm --filter web exec playwright test e2e/sync.spec.ts --project=desktop"
+        run: |
+          set -o pipefail
+          pnpm exec firebase emulators:exec --only firestore,auth --project demo-lingo \
+            "pnpm test:emulator && pnpm --filter web exec playwright test e2e/sync.spec.ts --project=desktop --reporter=line" \
+            2>&1 | tee emulator.log || {
+              # Put the end of the output in an annotation, readable from the PR without opening the logs.
+              echo "::error title=emulator tests::$(tail -n 80 emulator.log | sed 's/%/%25/g' | awk '{printf "%s%%0A", $0}')"
+              exit 1
+            }
       - uses: actions/upload-artifact@v4
         if: failure()
         with:
