@@ -1,0 +1,19 @@
+{
+  "name": "@lingo/engine",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit -p ."
+  },
+  "dependencies": {
+    "@lingo/content-schema": "workspace:*",
+    "ts-fsrs": "^5.4.1"
+  },
+  "devDependencies": {
+    "yaml": "^2.9.1"
+  }
+}

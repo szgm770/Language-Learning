@@ -1,0 +1,126 @@
+@import "tailwindcss";
+
+/* Design tokens. The memorable element is the word display: words in the language being learned
+   are set large in a dictionary-like serif; the rest of the interface stays quiet. */
+@theme {
+  --font-sans: "Rubik Variable", "Rubik", system-ui, sans-serif;
+  --font-word: "Frank Ruhl Libre", "Times New Roman", serif;
+
+  --color-ink: #1b2140;
+  --color-ink-soft: #5a6080;
+  --color-paper: #f6f7fb;
+  --color-surface: #ffffff;
+  --color-line: #e2e5f0;
+  --color-cobalt: #3346d3;
+  --color-cobalt-soft: #e7eafc;
+  --color-mint: #138a5e;
+  --color-mint-soft: #e1f5ec;
+  --color-rose: #c93b4c;
+  --color-rose-soft: #fbe7ea;
+  --color-saffron: #f2b53a;
+  --color-saffron-soft: #fdf2d9;
+}
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+  :root[data-theme="dark"] {
+    color-scheme: dark;
+    --color-ink: #e8eaf6;
+    --color-ink-soft: #a3a8c6;
+    --color-paper: #12152a;
+    --color-surface: #1b1f3a;
+    --color-line: #2c3156;
+    --color-cobalt: #8291ff;
+    --color-cobalt-soft: #262c5c;
+    --color-mint: #4cd39b;
+    --color-mint-soft: #173a30;
+    --color-rose: #ff7d8c;
+    --color-rose-soft: #47212a;
+    --color-saffron-soft: #3e3420;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      color-scheme: dark;
+      --color-ink: #e8eaf6;
+      --color-ink-soft: #a3a8c6;
+      --color-paper: #12152a;
+      --color-surface: #1b1f3a;
+      --color-line: #2c3156;
+      --color-cobalt: #8291ff;
+      --color-cobalt-soft: #262c5c;
+      --color-mint: #4cd39b;
+      --color-mint-soft: #173a30;
+      --color-rose: #ff7d8c;
+      --color-rose-soft: #47212a;
+      --color-saffron-soft: #3e3420;
+    }
+  }
+  html {
+    background: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    min-height: 100dvh;
+    background: var(--color-paper);
+  }
+  :focus-visible {
+    outline: 3px solid var(--color-cobalt);
+    outline-offset: 2px;
+    border-radius: 6px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@utility btn {
+  @apply inline-flex min-h-12 items-center justify-center gap-2 rounded-xl px-5 text-base font-medium transition active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-40;
+}
+
+@layer components {
+  .btn-primary {
+    @apply btn bg-cobalt text-white;
+  }
+  :root[data-theme="dark"] .btn-primary {
+    color: #12152a;
+  }
+  .btn-quiet {
+    @apply btn border border-line bg-surface text-ink;
+  }
+  .choice {
+    @apply flex min-h-14 w-full items-center gap-3 rounded-xl border-2 border-line bg-surface px-4 text-start text-lg transition;
+  }
+  .choice[aria-pressed="true"] {
+    @apply border-cobalt bg-cobalt-soft;
+  }
+  .field {
+    @apply w-full rounded-xl border-2 border-line bg-surface px-4 py-3 text-lg outline-none focus:border-cobalt;
+  }
+  /* A word in the language being learned. */
+  .word {
+    font-family: var(--font-word);
+    font-weight: 500;
+    line-height: 1.15;
+  }
+}
+
+@keyframes sheet-up {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+.sheet-up {
+  animation: sheet-up 180ms ease-out;
+}

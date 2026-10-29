@@ -1,0 +1,13 @@
+id: en-for-he
+source: he
+target: en
+speechLang: en-US
+title:
+  he: אנגלית לדוברי עברית
+  en: English for Hebrew speakers
+description:
+  he: מהמילים הראשונות ועד שיחה בטוחה, לפי רמות CEFR.
+  en: From your first words to confident conversation, following the CEFR levels.
+units:
+  - a1-01-hello
+  - a1-02-numbers
