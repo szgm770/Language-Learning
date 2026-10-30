@@ -49,7 +49,7 @@ vocabulary:
 
 grammar:
   - id: he-she-is
-    title: { he: "He is, she is: הוא, היא", en: "He is, she is" }
+    title: { he: "הוא, היא: He is, she is", en: "He is, she is" }
     explanation: |
       כמו ב־I am ו־you are, גם עם "הוא" ו"היא" חייבים פועל. הפעם הוא **is**:
 

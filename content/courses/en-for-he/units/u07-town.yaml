@@ -35,7 +35,7 @@ vocabulary:
 
 grammar:
   - id: there-is-are
-    title: { he: "There is, there are: יש", en: "There is, there are" }
+    title: { he: "יש: There is, there are", en: "There is, there are" }
     explanation: |
       בעברית "יש בנק ברחוב" ו"יש שני בנקים" זה אותו "יש". באנגלית בוחרים לפי הכמות:
 
@@ -276,6 +276,33 @@ lessons:
         gap: 1
         distractors: ["Yes, there are. Right is park.", "No, it's a station."]
         lexemes: [is-there, right, next-to]
+      - id: u7-l4-11
+        type: dialogue
+        scene: "בן במלון. הוא שואל את מר כהן על סופרמרקט."
+        lines:
+          - { speaker: "ben", text: "Is there a supermarket near the hotel?", translation: "יש סופרמרקט ליד המלון?" }
+          - { speaker: "cohen", text: "Yes, there are two. One is next to the station.", translation: "כן, יש שניים. אחד ליד התחנה." }
+          - { speaker: "ben", text: "And the other?", translation: "והשני?" }
+          - { speaker: "cohen", text: "It's opposite the bank, but it's far.", translation: "הוא מול הבנק, אבל הוא רחוק." }
+      - id: u7-l4-12
+        type: multiple_choice
+        prompt: "כמה סופרמרקטים יש ליד המלון?"
+        options: [שניים, אחד, שלושה]
+        correct: 0
+        lexemes: [there-are, supermarket]
+      - id: u7-l4-13
+        type: multiple_choice
+        prompt: "איפה הסופרמרקט הקרוב?"
+        options: [ליד התחנה, מול הבנק, ליד הפארק]
+        correct: 0
+        lexemes: [next-to, station]
+      - id: u7-l4-14
+        type: listening_choice
+        audioText: "The pharmacy is next to the museum."
+        question: איפה בית המרקחת?
+        options: [ליד המוזיאון, מול המוזיאון, רחוק מהמוזיאון]
+        correct: 0
+        lexemes: [pharmacy, next-to, museum]
       - id: u7-l4-06
         type: dictation
         text: "Turn right at the station."

@@ -36,7 +36,7 @@ vocabulary:
 
 grammar:
   - id: third-person-s
-    title: { he: "He works: ה־s של הוא והיא", en: "He works, she works" }
+    title: { he: "ה־s של הוא והיא: he works", en: "He works, she works" }
     explanation: |
       בהווה, כשמדברים על **he** או **she** (או על אדם אחד בשמו), מוסיפים **s** לפועל:
 
@@ -281,6 +281,33 @@ lessons:
         gap: 1
         distractors: ["She's nurse. She work in hospital.", "He's a nurse. He works in a hospital."]
         lexemes: [nurse, works]
+      - id: u6-l4-11
+        type: dialogue
+        scene: "במשרד. מרים מחפשת את בן."
+        lines:
+          - { speaker: "miriam", text: "Ben, we have a meeting at ten.", translation: "בן, יש לנו פגישה בעשר." }
+          - { speaker: "ben", text: "At ten? Sorry, I'm very busy today.", translation: "בעשר? סליחה, אני מאוד עסוק היום." }
+          - { speaker: "miriam", text: "It's important. It's in my office.", translation: "זה חשוב. זה במשרד שלי." }
+          - { speaker: "ben", text: "OK. See you at ten.", translation: "בסדר. נתראה בעשר." }
+      - id: u6-l4-12
+        type: multiple_choice
+        prompt: "איפה הפגישה?"
+        options: [במשרד של מרים, בבית הקפה, בבית החולים]
+        correct: 0
+        lexemes: [meeting, office]
+      - id: u6-l4-13
+        type: multiple_choice
+        prompt: "מתי הפגישה?"
+        options: ["10:00", "10:30", "12:00"]
+        correct: 0
+        lexemes: [meeting, at]
+      - id: u6-l4-14
+        type: listening_choice
+        audioText: "Eli doesn't work on Saturday."
+        question: מתי אלי לא עובד?
+        options: [בשבת, ביום ראשון, ביום שישי]
+        correct: 0
+        lexemes: [doesnt, saturday]
       - id: u6-l4-06
         type: fill_blank
         sentence: "Rachel ___ her job."

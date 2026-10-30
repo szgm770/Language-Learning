@@ -37,7 +37,7 @@ vocabulary:
 
 grammar:
   - id: a-an-plurals
-    title: { he: "a, an, ורבים", en: "a, an and plurals" }
+    title: { he: "יחיד ורבים: a, an", en: "a, an and plurals" }
     explanation: |
       בעברית אומרים "קפה, בבקשה". באנגלית, לפני דבר אחד שאפשר לספור, שמים **a**: **a coffee**, **a sandwich**.
 

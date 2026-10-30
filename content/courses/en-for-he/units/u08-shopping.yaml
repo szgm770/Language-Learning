@@ -37,7 +37,7 @@ vocabulary:
 
 grammar:
   - id: this-that
-    title: { he: "This, that, these, those", en: "This, that, these, those" }
+    title: { he: "זה, ההוא: this, that, these, those", en: "This, that, these, those" }
     explanation: |
       באנגלית בוחרים מילה לפי שני דברים: קרוב או רחוק, ואחד או כמה.
 
@@ -298,6 +298,34 @@ lessons:
         gap: 1
         distractors: ["Sure. What colour are you?", "Sure. It's too cheap."]
         lexemes: [try-on, size, jeans]
+      - id: u8-l4-11
+        type: dialogue
+        scene: "בן קונה חולצה. מרים עוזרת לו."
+        lines:
+          - { speaker: "ben", text: "Excuse me, can I have this shirt in blue?", translation: "סליחה, אפשר את החולצה הזאת בכחול?" }
+          - { speaker: "miriam", text: "Yes, here you are. What size are you?", translation: "כן, בבקשה. מה המידה שלך?" }
+          - { speaker: "ben", text: "Medium. How much is it?", translation: "מדיום. כמה היא עולה?" }
+          - { speaker: "miriam", text: "It's twenty-five pounds.", translation: "עשרים וחמישה פאונד." }
+          - { speaker: "ben", text: "Great, I'll take it. Can I pay by card?", translation: "מעולה, אני אקח אותה. אפשר לשלם בכרטיס?" }
+      - id: u8-l4-12
+        type: multiple_choice
+        prompt: "באיזה צבע בן רוצה את החולצה?"
+        options: [כחול, שחור, לבן]
+        correct: 0
+        lexemes: [blue, shirt]
+      - id: u8-l4-13
+        type: multiple_choice
+        prompt: "כמה עולה החולצה?"
+        options: [25 פאונד, 20 פאונד, 50 פאונד]
+        correct: 0
+        lexemes: [how-much, pounds]
+      - id: u8-l4-14
+        type: listening_choice
+        audioText: "These jeans are too small."
+        question: מה הבעיה?
+        options: ["הג'ינס קטן מדי", "הג'ינס יקר מדי", "הג'ינס גדול מדי"]
+        correct: 0
+        lexemes: [these, jeans, too]
       - id: u8-l4-06
         type: dictation
         text: "I like that green dress."
