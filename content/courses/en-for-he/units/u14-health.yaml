@@ -1,0 +1,472 @@
+id: u14-health
+cefr: A2
+scene: health
+title:
+  he: אצל הרופא
+  en: At the doctor's
+story: "החורף הראשון של נועה בלונדון. היא מתעוררת עם כאב גרון וחום, קובעת תור אצל ד\"ר שטרן ומקבלת עצות, גם מבן וגם מאמא."
+canDo:
+  - לתאר איך אני מרגיש ומה כואב לי
+  - לקבוע תור אצל רופא
+  - להבין עצות עם should ו־shouldn't
+  - לתת עצה לחבר חולה
+
+vocabulary:
+  - { id: "feel", text: "feel", translation: "להרגיש", pos: "verb", pronunciation: "פִיל", example: { text: "I don't feel well.", translation: "אני לא מרגישה טוב." } }
+  - { id: "sick", text: "sick", translation: "חולה", pos: "adjective", pronunciation: "סִיק" }
+  - { id: "whats-the-matter", text: "What's the matter?", translation: "מה קרה? מה הבעיה?", pos: "phrase", pronunciation: "ווֹטְס דֶ'ה מֶטֶר" }
+  - { id: "headache", text: "headache", translation: "כאב ראש", pos: "noun", pronunciation: "הֶדֵייק" }
+  - { id: "sore-throat", text: "sore throat", translation: "כאב גרון", pos: "noun", pronunciation: "סוֹר תְ'רוֹט" }
+  - { id: "cough", text: "cough", translation: "שיעול", pos: "noun", pronunciation: "קוֹף" }
+  - { id: "fever", text: "fever", translation: "חום (מחלה)", pos: "noun", pronunciation: "פִיבֶר" }
+  - { id: "a-cold", text: "a cold", translation: "הצטננות", pos: "noun", pronunciation: "אֵה קוֹלְד", example: { text: "I've got a cold.", translation: "אני מצוננת." } }
+  - { id: "hurt", text: "hurt", translation: "לכאוב", pos: "verb", pronunciation: "הֶרְט", example: { text: "My back hurts.", translation: "הגב שלי כואב." } }
+  - { id: "head", text: "head", translation: "ראש", pos: "noun", pronunciation: "הֶד" }
+  - { id: "back", text: "back", translation: "גב", pos: "noun", pronunciation: "בֶּק" }
+  - { id: "stomach", text: "stomach", translation: "בטן", pos: "noun", pronunciation: "סְטַאמֶק" }
+  - { id: "appointment", text: "appointment", translation: "תור (לרופא)", pos: "noun", pronunciation: "אַפּוֹינְטְמֶנְט", example: { text: "I'd like to make an appointment.", translation: "הייתי רוצה לקבוע תור." } }
+  - { id: "medicine", text: "medicine", translation: "תרופה", pos: "noun", pronunciation: "מֶדְסִין" }
+  - { id: "prescription", text: "prescription", translation: "מרשם", pos: "noun", pronunciation: "פְּרִיסְקְרִיפְּשְׁן" }
+  - { id: "rest", text: "rest", translation: "לנוח; מנוחה", pos: "verb", pronunciation: "רֶסְט" }
+  - { id: "better", text: "better", translation: "יותר טוב", pos: "adjective", pronunciation: "בֶּטֶר", example: { text: "I feel better today.", translation: "אני מרגישה יותר טוב היום." } }
+  - { id: "worse", text: "worse", translation: "יותר גרוע", pos: "adjective", pronunciation: "וֶורְס" }
+  - { id: "should", text: "should", translation: "כדאי, צריך (עצה)", pos: "verb", pronunciation: "שׁוּד", example: { text: "You should rest.", translation: "כדאי שתנוח." } }
+  - { id: "shouldnt", text: "shouldn't", translation: "לא כדאי, אסור (עצה)", pos: "verb", pronunciation: "שׁוּדֶנְט" }
+  - { id: "have-got", text: "I've got…", translation: "יש לי…", pos: "phrase", pronunciation: "אַייב גוֹט", example: { text: "I've got a headache.", translation: "יש לי כאב ראש." } }
+  - { id: "get-well-soon", text: "Get well soon!", translation: "רפואה שלמה! החלמה מהירה!", pos: "phrase", pronunciation: "גֶט וֶל סוּן" }
+
+grammar:
+  - id: should-advice
+    title: { he: "עצות: should ו־shouldn't", en: "Should and shouldn't" }
+    explanation: |
+      כשנותנים עצה בעברית אומרים "כדאי לך" או "כדאי ש…". באנגלית יש מילה אחת: **should**.
+
+      - **You should rest.** (כדאי שתנוח)
+      - **You shouldn't go to work.** (לא כדאי שתלך לעבודה)
+
+      כמו **can**, גם **should** לא משתנה לפי הגוף, ואחריו בא הפועל בלי to:
+      **She should drink water**, לא "she shoulds" ולא "should to drink".
+
+      שאלה: **Should I call the doctor?** (כדאי שאתקשר לרופא?)
+
+      ועוד דרך להגיד "יש לי" כשמדברים על מחלה: **I've got a cold / a headache / a fever.**
+    examples:
+      - { text: "You should drink a lot of water.", translation: "כדאי לך לשתות הרבה מים." }
+      - { text: "He shouldn't eat sugar.", translation: "לא כדאי לו לאכול סוכר." }
+      - { text: "Should I take this medicine?", translation: "כדאי שאקח את התרופה הזאת?" }
+
+lessons:
+  # ------------------------------------------------------------------ 1
+  - id: u14-l1
+    kind: new
+    title: { he: "אני לא מרגישה טוב", en: "I don't feel well" }
+    exercises:
+      - id: u14-l1-01
+        type: dialogue
+        scene: "בוקר קר. נועה מתקשרת לבן מהמיטה."
+        lines:
+          - { speaker: "ben", text: "Hi Noa. Where are you? The meeting starts in ten minutes.", translation: "היי נועה. איפה את? הפגישה מתחילה בעוד עשר דקות." }
+          - { speaker: "noa", text: "Sorry, Ben. I don't feel well. I'm sick.", translation: "סליחה, בן. אני לא מרגישה טוב. אני חולה." }
+          - { speaker: "ben", text: "Oh no. What's the matter?", translation: "אוי לא. מה קרה?" }
+          - { speaker: "noa", text: "I've got a headache and a sore throat.", translation: "יש לי כאב ראש וכאב גרון." }
+          - { speaker: "ben", text: "Stay at home today. Get well soon!", translation: "תישארי היום בבית. רפואה שלמה!" }
+      - { id: "u14-l1-02", type: "learn", lexeme: "feel" }
+      - { id: "u14-l1-03", type: "learn", lexeme: "sick" }
+      - { id: "u14-l1-04", type: "learn", lexeme: "whats-the-matter" }
+      - { id: "u14-l1-05", type: "learn", lexeme: "have-got" }
+      - { id: "u14-l1-06", type: "learn", lexeme: "headache" }
+      - { id: "u14-l1-07", type: "learn", lexeme: "sore-throat" }
+      - { id: "u14-l1-08", type: "learn", lexeme: "get-well-soon" }
+      - id: u14-l1-09
+        type: multiple_choice
+        prompt: "מה כואב לנועה?"
+        options: [הראש והגרון, הגב, הבטן]
+        correct: 0
+        lexemes: [headache, sore-throat]
+      - { id: "u14-l1-10", type: "learn", lexeme: "cough" }
+      - { id: "u14-l1-11", type: "learn", lexeme: "fever" }
+      - { id: "u14-l1-12", type: "learn", lexeme: "a-cold" }
+      - id: u14-l1-13
+        type: match_pairs
+        pairs:
+          - [headache, כאב ראש]
+          - [sore throat, כאב גרון]
+          - [cough, שיעול]
+          - [fever, חום]
+          - [a cold, הצטננות]
+        lexemes: [headache, sore-throat, cough, fever, a-cold]
+      - id: u14-l1-14
+        type: listening_choice
+        audioText: "I've got a fever and a bad cough."
+        question: מה יש לו?
+        options: [חום ושיעול, כאב ראש, כאב גרון וחום]
+        correct: 0
+        lexemes: [have-got, fever, cough]
+      - id: u14-l1-15
+        type: word_bank
+        prompt: "אני לא מרגיש טוב היום."
+        answers: ["I don't feel well today.", "Today I don't feel well."]
+        distractors: [good, sick]
+        lexemes: [feel, dont, today]
+      - id: u14-l1-16
+        type: speak_repeat
+        text: "I'm sick. I've got a headache and a sore throat."
+        translation: "אני חולה. יש לי כאב ראש וכאב גרון."
+        lexemes: [sick, headache, sore-throat]
+
+  # ------------------------------------------------------------------ 2
+  - id: u14-l2
+    kind: new
+    title: { he: "קובעים תור", en: "Making an appointment" }
+    exercises:
+      - { id: "u14-l2-01", type: "learn", lexeme: "appointment" }
+      - id: u14-l2-02
+        type: dialogue
+        scene: "נועה מתקשרת למרפאה."
+        lines:
+          - { speaker: "noa", text: "Hello, I'd like to make an appointment with Dr. Stern.", translation: "שלום, הייתי רוצה לקבוע תור אצל ד\"ר שטרן." }
+          - { speaker: "dr-stern", text: "Is it urgent? What's the matter?", translation: "זה דחוף? מה הבעיה?" }
+          - { speaker: "noa", text: "I've got a fever and my head hurts.", translation: "יש לי חום והראש כואב לי." }
+          - { speaker: "dr-stern", text: "Can you come today at half past three?", translation: "את יכולה לבוא היום בשלוש וחצי?" }
+          - { speaker: "noa", text: "Yes, thank you.", translation: "כן, תודה." }
+      - { id: "u14-l2-03", type: "learn", lexeme: "hurt" }
+      - { id: "u14-l2-04", type: "learn", lexeme: "head" }
+      - { id: "u14-l2-05", type: "learn", lexeme: "back" }
+      - { id: "u14-l2-06", type: "learn", lexeme: "stomach" }
+      - id: u14-l2-07
+        type: match_pairs
+        pairs:
+          - [head, ראש]
+          - [back, גב]
+          - [stomach, בטן]
+          - [hurt, לכאוב]
+          - [appointment, תור]
+        lexemes: [head, back, stomach, hurt, appointment]
+      - id: u14-l2-08
+        type: tip
+        title: "My head hurts: הכאב שייך למישהו"
+        text: |
+          בעברית אומרים "כואב לי הראש". באנגלית הראש הוא שלי, והוא זה שכואב: My head hurts.
+
+          אותו דבר עם גב ובטן: My back hurts. My stomach hurts.
+      - id: u14-l2-09
+        type: fill_blank
+        sentence: "My back ___ ."
+        translation: "הגב שלי כואב."
+        answers: [hurts]
+        options: [hurts, hurt, is hurt]
+        lexemes: [back, hurt]
+      - id: u14-l2-10
+        type: multiple_choice
+        prompt: "מתי התור של נועה?"
+        options: [היום ב־15:30, מחר ב־15:30, היום ב־13:30]
+        correct: 0
+        lexemes: [appointment, half-past]
+      - id: u14-l2-11
+        type: dialogue_gap
+        lines:
+          - { speaker: "rachel", text: "What's the matter, Ben?", translation: "מה קרה, בן?" }
+          - { speaker: "ben", text: "My stomach hurts. I ate too much cake.", translation: "הבטן כואבת לי. אכלתי יותר מדי עוגה." }
+        gap: 1
+        distractors: ["My stomach hurt me. I eat too much cake.", "I'm a stomach. I ate cake."]
+        lexemes: [stomach, hurt, ate]
+      - id: u14-l2-12
+        type: translate
+        direction: to_target
+        prompt: "הייתי רוצה לקבוע תור."
+        answers: ["I'd like to make an appointment.", "I would like to make an appointment.", "I'd like to make an appointment, please.", "I would like to make an appointment, please."]
+        lexemes: [id-like, appointment]
+      - id: u14-l2-13
+        type: speak_repeat
+        text: "I've got a fever and my head hurts."
+        translation: "יש לי חום והראש שלי כואב."
+        lexemes: [fever, head, hurt]
+
+  # ------------------------------------------------------------------ 3
+  - id: u14-l3
+    kind: grammar
+    grammar: should-advice
+    title: { he: "כדאי לך לנוח", en: "You should rest" }
+    exercises:
+      - { id: "u14-l3-01", type: "learn", lexeme: "should" }
+      - { id: "u14-l3-02", type: "learn", lexeme: "shouldnt" }
+      - { id: "u14-l3-03", type: "learn", lexeme: "rest" }
+      - id: u14-l3-04
+        type: fill_blank
+        sentence: "You've got a fever. You ___ go to work."
+        translation: "יש לך חום. לא כדאי שתלך לעבודה."
+        answers: ["shouldn't"]
+        options: ["shouldn't", "should", "can"]
+        lexemes: [shouldnt, fever]
+      - id: u14-l3-05
+        type: fill_blank
+        sentence: "You ___ drink a lot of water."
+        translation: "כדאי שתשתה הרבה מים."
+        answers: [should]
+        options: [should, shouldn't, shoulds]
+        lexemes: [should, water, a-lot-of]
+      - id: u14-l3-06
+        type: multiple_choice
+        prompt: איזה משפט נכון?
+        options: ["She should rest.", "She shoulds rest.", "She should to rest."]
+        correct: 0
+        lexemes: [should, rest]
+      - id: u14-l3-07
+        type: dialogue_gap
+        lines:
+          - { speaker: "noa", text: "I've got a cough. Should I call the doctor?", translation: "יש לי שיעול. כדאי שאתקשר לרופא?" }
+          - { speaker: "rachel", text: "Yes, you should. And you shouldn't drink cold water.", translation: "כן, כדאי. ולא כדאי שתשתי מים קרים." }
+        gap: 1
+        distractors: ["Yes, you should to. And you shouldn't drink cold water.", "Yes, you should call. And you should not to drink."]
+        lexemes: [should, shouldnt, cough]
+      - id: u14-l3-08
+        type: word_bank
+        prompt: "כדאי לך ללכת לישון מוקדם."
+        answers: ["You should go to bed early."]
+        distractors: [to, late]
+        lexemes: [should, go-to-bed, early]
+      - id: u14-l3-09
+        type: word_bank
+        prompt: "לא כדאי לו לאכול סוכר."
+        answers: ["He shouldn't eat sugar."]
+        distractors: [eats, should]
+        lexemes: [shouldnt, sugar]
+      - id: u14-l3-10
+        type: translate
+        direction: to_target
+        prompt: "כדאי שתנוח היום."
+        answers: ["You should rest today.", "Today you should rest."]
+        lexemes: [should, rest, today]
+      - id: u14-l3-11
+        type: translate
+        direction: to_source
+        prompt: "You shouldn't work today."
+        answers: ["לא כדאי שתעבוד היום.", "לא כדאי שתעבדי היום.", "לא כדאי לך לעבוד היום.", "אסור לך לעבוד היום."]
+        lexemes: [shouldnt, work-verb, today]
+      - id: u14-l3-12
+        type: speak_repeat
+        text: "You should rest and drink a lot of water."
+        translation: "כדאי שתנוח ותשתה הרבה מים."
+        lexemes: [should, rest]
+
+  # ------------------------------------------------------------------ 4
+  - id: u14-l4
+    kind: listening
+    title: { he: "אצל ד\"ר שטרן", en: "With Dr. Stern" }
+    exercises:
+      - { id: "u14-l4-01", type: "learn", lexeme: "medicine" }
+      - { id: "u14-l4-02", type: "learn", lexeme: "prescription" }
+      - { id: "u14-l4-03", type: "learn", lexeme: "better" }
+      - { id: "u14-l4-04", type: "learn", lexeme: "worse" }
+      - id: u14-l4-05
+        type: dialogue
+        scene: "נועה בחדר של ד\"ר שטרן."
+        lines:
+          - { speaker: "dr-stern", text: "Good afternoon. So, what's the matter?", translation: "צהריים טובים. אז מה הבעיה?" }
+          - { speaker: "noa", text: "I've got a fever, a sore throat and a bad cough.", translation: "יש לי חום, כאב גרון ושיעול חזק." }
+          - { speaker: "dr-stern", text: "When did it start?", translation: "מתי זה התחיל?" }
+          - { speaker: "noa", text: "Two days ago. Today it's worse.", translation: "לפני יומיים. היום זה יותר גרוע." }
+          - { speaker: "dr-stern", text: "It's a bad cold. Here's a prescription for some medicine.", translation: "זו הצטננות חזקה. הנה מרשם לתרופה." }
+          - { speaker: "dr-stern", text: "Take it three times a day. You should rest and you shouldn't go to work this week.", translation: "קחי אותה שלוש פעמים ביום. כדאי שתנוחי ולא כדאי שתלכי לעבודה השבוע." }
+          - { speaker: "noa", text: "Thank you, doctor.", translation: "תודה, דוקטור." }
+      - id: u14-l4-06
+        type: multiple_choice
+        prompt: "מתי נועה התחילה להרגיש רע?"
+        options: [לפני יומיים, אתמול, לפני שבוע]
+        correct: 0
+        lexemes: [ago]
+      - id: u14-l4-07
+        type: multiple_choice
+        prompt: "כמה פעמים ביום לקחת את התרופה?"
+        options: [שלוש, פעם אחת, שתיים]
+        correct: 0
+        lexemes: [medicine, three]
+      - id: u14-l4-08
+        type: multiple_choice
+        prompt: "מה הרופא אומר על העבודה?"
+        options: [לא כדאי ללכת השבוע, אפשר ללכת מחר, כדאי לעבוד מהבית]
+        correct: 0
+        lexemes: [shouldnt, work-verb]
+      - id: u14-l4-09
+        type: listening_choice
+        audioText: "I feel better today, but my back still hurts."
+        question: איך הוא מרגיש?
+        options:
+          - "יותר טוב, אבל הגב עדיין כואב"
+          - יותר גרוע
+          - הכול בסדר
+        correct: 0
+        lexemes: [better, back, hurt]
+      - id: u14-l4-10
+        type: dialogue_gap
+        lines:
+          - { speaker: "ben", text: "How do you feel today?", translation: "איך את מרגישה היום?" }
+          - { speaker: "noa", text: "Much better, thanks. The medicine helped.", translation: "הרבה יותר טוב, תודה. התרופה עזרה." }
+        gap: 1
+        distractors: ["Much gooder, thanks. The medicine helped.", "Much better, thanks. The medicine help yesterday."]
+        lexemes: [feel, better, medicine]
+      - id: u14-l4-11
+        type: dictation
+        text: "You should rest and drink water."
+        lexemes: [should, rest]
+      - id: u14-l4-12
+        type: translate
+        direction: to_target
+        prompt: "היום זה יותר גרוע."
+        answers: ["Today it's worse.", "Today it is worse.", "It's worse today.", "It is worse today."]
+        lexemes: [worse, today]
+      - id: u14-l4-13
+        type: speak_repeat
+        text: "Here's a prescription. Take the medicine three times a day."
+        translation: "הנה מרשם. קחי את התרופה שלוש פעמים ביום."
+        lexemes: [prescription, medicine]
+
+  # ------------------------------------------------------------------ 5
+  - id: u14-l5
+    kind: reading
+    title: { he: "הודעה מאמא", en: "A message from Mum" }
+    exercises:
+      - id: u14-l5-01
+        type: reading
+        kind: "הודעת וואטסאפ"
+        title: "Mum"
+        text: |
+          Noa, Ben told me you're sick! Why didn't you call me? How do you feel now?
+
+          Listen to your mother: you should drink hot tea with lemon and honey, and you should eat chicken soup. It's the best medicine!
+
+          You shouldn't go out in the cold, and you shouldn't work on your computer all day. Rest!
+
+          Call me tonight. Love you. Get well soon! ❤️
+        translation: |
+          נועה, בן סיפר לי שאת חולה! למה לא התקשרת אליי? איך את מרגישה עכשיו?
+
+          תקשיבי לאמא שלך: כדאי לך לשתות תה חם עם לימון ודבש, וכדאי לך לאכול מרק עוף. זו התרופה הכי טובה!
+
+          לא כדאי לך לצאת לקור, ולא כדאי לך לעבוד על המחשב כל היום. תנוחי!
+
+          תתקשרי אליי הערב. אוהבת אותך. רפואה שלמה! ❤️
+      - id: u14-l5-02
+        type: multiple_choice
+        prompt: "איך אמא של נועה יודעת שהיא חולה?"
+        options: [בן סיפר לה, נועה התקשרה, הרופא סיפר]
+        correct: 0
+        lexemes: [sick]
+      - id: u14-l5-03
+        type: multiple_choice
+        prompt: "מה אמא אומרת לשתות?"
+        options: [תה חם עם לימון ודבש, מים קרים, קפה]
+        correct: 0
+        lexemes: [should, tea]
+      - id: u14-l5-04
+        type: multiple_choice
+        prompt: "לפי אמא, מה התרופה הכי טובה?"
+        options: [מרק עוף, תה, מנוחה]
+        correct: 0
+        lexemes: [medicine, chicken]
+      - id: u14-l5-05
+        type: multiple_choice
+        prompt: "מה לא כדאי לנועה לעשות?"
+        options: [לעבוד על המחשב כל היום, לשתות תה, לנוח]
+        correct: 0
+        lexemes: [shouldnt, computer]
+      - id: u14-l5-06
+        type: fill_blank
+        sentence: "You ___ go out in the cold."
+        translation: "לא כדאי לך לצאת לקור."
+        answers: ["shouldn't"]
+        options: ["shouldn't", "should", "don't should"]
+        lexemes: [shouldnt]
+      - id: u14-l5-07
+        type: word_bank
+        prompt: "איך את מרגישה עכשיו?"
+        answers: ["How do you feel now?", "How are you feeling now?"]
+        distractors: [does, feels]
+        lexemes: [feel]
+      - id: u14-l5-08
+        type: translate
+        direction: to_target
+        prompt: "כדאי לך לאכול מרק עוף."
+        answers: ["You should eat chicken soup.", "You should have chicken soup.", "You should eat some chicken soup.", "You should have some chicken soup."]
+        lexemes: [should, chicken]
+      - id: u14-l5-09
+        type: translate
+        direction: to_source
+        prompt: "Get well soon!"
+        answers: ["רפואה שלמה!", "החלמה מהירה!", "תרגישי טוב!", "תרגיש טוב!", "רפואה שלמה"]
+        lexemes: [get-well-soon]
+      - id: u14-l5-10
+        type: speak_repeat
+        text: "Thanks, Mum. I feel better today."
+        translation: "תודה, אמא. אני מרגישה יותר טוב היום."
+        lexemes: [feel, better]
+
+  # ------------------------------------------------------------------ 6
+  - id: u14-review
+    kind: review
+    title: { he: "חזרה: אצל הרופא", en: "Review: at the doctor's" }
+    exercises:
+      - id: u14-r-01
+        type: match_pairs
+        pairs:
+          - [medicine, תרופה]
+          - [prescription, מרשם]
+          - [better, יותר טוב]
+          - [worse, יותר גרוע]
+          - [sick, חולה]
+        lexemes: [medicine, prescription, better, worse, sick]
+      - id: u14-r-02
+        type: fill_blank
+        sentence: "___ I take this medicine after dinner?"
+        translation: "כדאי שאקח את התרופה הזאת אחרי ארוחת הערב?"
+        answers: [Should]
+        options: [Should, Do, Am]
+        lexemes: [should, medicine]
+      - id: u14-r-03
+        type: listening_choice
+        audioText: "My stomach hurts and I've got a fever."
+        question: מה הבעיה?
+        options: [כאב בטן וחום, כאב גב וחום, כאב ראש ושיעול]
+        correct: 0
+        lexemes: [stomach, hurt, fever]
+      - id: u14-r-04
+        type: word_bank
+        prompt: "יש לי הצטננות."
+        answers: ["I've got a cold.", "I have a cold.", "I have got a cold."]
+        distractors: [cold, has]
+        lexemes: [have-got, a-cold]
+      - id: u14-r-05
+        type: dialogue_gap
+        lines:
+          - { speaker: "eli", text: "You look tired. What's the matter?", translation: "את נראית עייפה. מה קרה?" }
+          - { speaker: "miriam", text: "I've got a headache. I didn't sleep well.", translation: "יש לי כאב ראש. לא ישנתי טוב." }
+        gap: 1
+        distractors: ["I've got a headache. I didn't slept well.", "I'm a headache. I sleep well."]
+        lexemes: [whats-the-matter, headache, didnt]
+      - id: u14-r-06
+        type: multiple_choice
+        prompt: "חבר חולה. מה אומרים לו?"
+        options: ["Get well soon!", "Sounds great!", "Nice to meet you!"]
+        correct: 0
+        lexemes: [get-well-soon]
+      - id: u14-r-07
+        type: translate
+        direction: to_target
+        prompt: "לא כדאי לך לעבוד היום."
+        answers: ["You shouldn't work today.", "You should not work today.", "Today you shouldn't work."]
+        lexemes: [shouldnt, work-verb, today]
+      - id: u14-r-08
+        type: translate
+        direction: to_source
+        prompt: "My back hurts."
+        answers: ["הגב שלי כואב.", "כואב לי הגב.", "הגב כואב לי."]
+        lexemes: [back, hurt]
+      - id: u14-r-09
+        type: dictation
+        text: "I don't feel well."
+        lexemes: [feel]
+      - id: u14-r-10
+        type: speak_repeat
+        text: "I'd like to make an appointment with the doctor."
+        translation: "הייתי רוצה לקבוע תור אצל הרופא."
+        lexemes: [appointment, doctor]

@@ -12,28 +12,28 @@ canDo:
   - להשתמש ב־a, an ובצורת רבים
 
 vocabulary:
-  - { id: "coffee", text: "coffee", translation: "קפה", pos: noun, pronunciation: "קוֹפִי", example: { text: "A coffee, please.", translation: "קפה, בבקשה." } }
-  - { id: "tea", text: "tea", translation: "תה", pos: noun, pronunciation: "טִי" }
-  - { id: "water", text: "water", translation: "מים", pos: noun, pronunciation: "ווֹטֶר", example: { text: "A bottle of water, please.", translation: "בקבוק מים, בבקשה." } }
-  - { id: "small", text: "small", translation: "קטן", pos: adjective, pronunciation: "סְמוֹל" }
-  - { id: "large", text: "large", translation: "גדול", pos: adjective, pronunciation: "לַארְג'", example: { text: "A large coffee, please.", translation: "קפה גדול, בבקשה." } }
-  - { id: "what-can-i-get-you", text: "What can I get you?", translation: "מה אפשר להביא לך?", pos: phrase, pronunciation: "ווֹט קֶן אַיי גֶט יוּ" }
-  - { id: "here-you-are", text: "Here you are.", translation: "בבקשה (כשנותנים משהו).", pos: phrase, pronunciation: "הִיר יוּ אָר" }
-  - { id: "sandwich", text: "sandwich", translation: "כריך", pos: noun, pronunciation: "סֶנְדְוִויץ'" }
-  - { id: "cake", text: "cake", translation: "עוגה", pos: noun, pronunciation: "קֵייק", example: { text: "The chocolate cake is great.", translation: "עוגת השוקולד מצוינת." } }
-  - { id: "salad", text: "salad", translation: "סלט", pos: noun, pronunciation: "סֶלֶד" }
-  - { id: "juice", text: "juice", translation: "מיץ", pos: noun, pronunciation: "ג'וּס", example: { text: "An orange juice, please.", translation: "מיץ תפוזים, בבקשה." } }
-  - { id: "cup", text: "cup", translation: "כוס (של שתייה חמה), ספל", pos: noun, pronunciation: "קָאפ", example: { text: "A cup of tea", translation: "כוס תה" } }
-  - { id: "bottle", text: "bottle", translation: "בקבוק", pos: noun, pronunciation: "בּוֹטְל" }
-  - { id: "anything-else", text: "Anything else?", translation: "עוד משהו?", pos: phrase, pronunciation: "אֶנִית'ינְג אֶלְס" }
-  - { id: "can-i-have", text: "Can I have…?", translation: "אפשר לקבל…?", pos: phrase, pronunciation: "קֶן אַיי הֶב", example: { text: "Can I have a tea, please?", translation: "אפשר לקבל תה, בבקשה?" } }
-  - { id: "a-an", text: "a / an", translation: "(לפני שם עצם ביחיד: \"אחד\")", pos: determiner, pronunciation: "אֶ / אֶן" }
-  - { id: "how-much", text: "How much is it?", translation: "כמה זה עולה?", pos: phrase, pronunciation: "הַאוּ מָאץ' אִיז אִיט" }
-  - { id: "pounds", text: "pounds", translation: "לירות שטרלינג (מטבע בריטניה)", pos: noun, pronunciation: "פַּאוּנְדְז", example: { text: "It's five pounds.", translation: "זה חמש לירות." } }
-  - { id: "the-check", text: "the check", translation: "החשבון (במסעדה)", pos: noun, pronunciation: "דֶ'ה צֶ'ק", example: { text: "Can I have the check, please?", translation: "אפשר לקבל את החשבון?" } }
-  - { id: "by-card", text: "by card", translation: "בכרטיס אשראי", pos: phrase, pronunciation: "בַּאי קַארְד" }
-  - { id: "cash", text: "cash", translation: "מזומן", pos: noun, pronunciation: "קֶשׁ" }
-  - { id: "of-course", text: "Of course.", translation: "כמובן.", pos: phrase, pronunciation: "אוֹב קוֹרְס" }
+  - { id: "coffee", text: "coffee", translation: "קפה", pos: "noun", pronunciation: "קוֹפִי", example: { text: "A coffee, please.", translation: "קפה, בבקשה." } }
+  - { id: "tea", text: "tea", translation: "תה", pos: "noun", pronunciation: "טִי" }
+  - { id: "water", text: "water", translation: "מים", pos: "noun", pronunciation: "ווֹטֶר", example: { text: "A bottle of water, please.", translation: "בקבוק מים, בבקשה." } }
+  - { id: "small", text: "small", translation: "קטן", pos: "adjective", pronunciation: "סְמוֹל" }
+  - { id: "large", text: "large", translation: "גדול", pos: "adjective", pronunciation: "לַארְג'", example: { text: "A large coffee, please.", translation: "קפה גדול, בבקשה." } }
+  - { id: "what-can-i-get-you", text: "What can I get you?", translation: "מה אפשר להביא לך?", pos: "phrase", pronunciation: "ווֹט קֶן אַיי גֶט יוּ" }
+  - { id: "here-you-are", text: "Here you are.", translation: "בבקשה (כשנותנים משהו).", pos: "phrase", pronunciation: "הִיר יוּ אָר" }
+  - { id: "sandwich", text: "sandwich", translation: "כריך", pos: "noun", pronunciation: "סֶנְדְוִויץ'" }
+  - { id: "cake", text: "cake", translation: "עוגה", pos: "noun", pronunciation: "קֵייק", example: { text: "The chocolate cake is great.", translation: "עוגת השוקולד מצוינת." } }
+  - { id: "salad", text: "salad", translation: "סלט", pos: "noun", pronunciation: "סֶלֶד" }
+  - { id: "juice", text: "juice", translation: "מיץ", pos: "noun", pronunciation: "ג'וּס", example: { text: "An orange juice, please.", translation: "מיץ תפוזים, בבקשה." } }
+  - { id: "cup", text: "cup", translation: "כוס (של שתייה חמה), ספל", pos: "noun", pronunciation: "קָאפ", example: { text: "A cup of tea", translation: "כוס תה" } }
+  - { id: "bottle", text: "bottle", translation: "בקבוק", pos: "noun", pronunciation: "בּוֹטְל" }
+  - { id: "anything-else", text: "Anything else?", translation: "עוד משהו?", pos: "phrase", pronunciation: "אֶנִית'ינְג אֶלְס" }
+  - { id: "can-i-have", text: "Can I have…?", translation: "אפשר לקבל…?", pos: "phrase", pronunciation: "קֶן אַיי הֶב", example: { text: "Can I have a tea, please?", translation: "אפשר לקבל תה, בבקשה?" } }
+  - { id: "a-an", text: "a / an", translation: "(לפני שם עצם ביחיד: \"אחד\")", pos: "determiner", pronunciation: "אֶ / אֶן" }
+  - { id: "how-much", text: "How much is it?", translation: "כמה זה עולה?", pos: "phrase", pronunciation: "הַאוּ מָאץ' אִיז אִיט" }
+  - { id: "pounds", text: "pounds", translation: "לירות שטרלינג (מטבע בריטניה)", pos: "noun", pronunciation: "פַּאוּנְדְז", example: { text: "It's five pounds.", translation: "זה חמש לירות." } }
+  - { id: "the-check", text: "the check", translation: "החשבון (במסעדה)", pos: "noun", pronunciation: "דֶ'ה צֶ'ק", example: { text: "Can I have the check, please?", translation: "אפשר לקבל את החשבון?" } }
+  - { id: "by-card", text: "by card", translation: "בכרטיס אשראי", pos: "phrase", pronunciation: "בַּאי קַארְד" }
+  - { id: "cash", text: "cash", translation: "מזומן", pos: "noun", pronunciation: "קֶשׁ" }
+  - { id: "of-course", text: "Of course.", translation: "כמובן.", pos: "phrase", pronunciation: "אוֹב קוֹרְס" }
 
 grammar:
   - id: a-an-plurals

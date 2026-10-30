@@ -1,0 +1,466 @@
+id: u18-phone
+cefr: A2
+scene: tech
+title:
+  he: ממש עכשיו
+  en: Right now
+story: "יום עמוס בטלפון: הסוללה של נועה נגמרת, הלפטופ לא מתחבר, ובן מתקשר בדיוק כשהיא באמצע משהו. מה כל אחד עושה עכשיו?"
+canDo:
+  - לדבר בטלפון ולבקש לחכות רגע
+  - לספר מה אני עושה עכשיו
+  - להבחין בין "בדרך כלל" ל"עכשיו" (הווה פשוט והווה מתמשך)
+  - לדבר על בעיות פשוטות בטלפון ובמחשב
+
+vocabulary:
+  - { id: "phone", text: "phone", translation: "טלפון", pos: "noun", pronunciation: "פוֹן" }
+  - { id: "call", text: "call", translation: "להתקשר; שיחה", pos: "verb", pronunciation: "קוֹל", example: { text: "Can I call you later?", translation: "אפשר להתקשר אליך אחר כך?" } }
+  - { id: "text-verb", text: "text", translation: "לשלוח הודעה", pos: "verb", pronunciation: "טֶקְסְט", example: { text: "Text me when you arrive.", translation: "תשלחי לי הודעה כשתגיעי." } }
+  - { id: "message", text: "message", translation: "הודעה", pos: "noun", pronunciation: "מֶסֶג'" }
+  - { id: "battery", text: "battery", translation: "סוללה", pos: "noun", pronunciation: "בֶּטֶרִי" }
+  - { id: "charger", text: "charger", translation: "מטען", pos: "noun", pronunciation: "צ'ַארְג'ֶר" }
+  - { id: "laptop", text: "laptop", translation: "מחשב נייד", pos: "noun", pronunciation: "לֶפְּטוֹפּ" }
+  - { id: "password", text: "password", translation: "סיסמה", pos: "noun", pronunciation: "פַּאסְוֶורְד" }
+  - { id: "app", text: "app", translation: "אפליקציה", pos: "noun", pronunciation: "אֶפּ" }
+  - { id: "online", text: "online", translation: "מחובר, ברשת", pos: "adverb", pronunciation: "אוֹנְלַיין" }
+  - { id: "download", text: "download", translation: "להוריד (קובץ)", pos: "verb", pronunciation: "דַאוּנְלוֹד" }
+  - { id: "right-now", text: "right now", translation: "ממש עכשיו", pos: "phrase", pronunciation: "רַייט נַאוּ" }
+  - { id: "at-the-moment", text: "at the moment", translation: "כרגע", pos: "phrase", pronunciation: "אֶט דֶ'ה מוֹמֶנְט" }
+  - { id: "wait", text: "wait", translation: "לחכות", pos: "verb", pronunciation: "וֵויט" }
+  - { id: "hang-on", text: "Hang on!", translation: "רגע! חכה רגע!", pos: "phrase", pronunciation: "הֶנְג אוֹן" }
+  - { id: "be-ing", text: "am / is / are + -ing", translation: "הווה מתמשך (עושה עכשיו)", pos: "phrase", pronunciation: "אֶם / אִיז / אָר … אִינְג", example: { text: "I'm working right now.", translation: "אני עובדת עכשיו." } }
+  - { id: "whats-happening", text: "What's happening?", translation: "מה קורה?", pos: "phrase", pronunciation: "ווֹטְס הֶפֶּנִינְג" }
+  - { id: "cant-hear-you", text: "I can't hear you.", translation: "אני לא שומע אותך.", pos: "phrase", pronunciation: "אַיי קַאנְט הִיר יוּ" }
+  - { id: "call-back", text: "call back", translation: "לחזור (בטלפון)", pos: "verb", pronunciation: "קוֹל בֶּק", example: { text: "I'll call you back.", translation: "אני אחזור אליך." } }
+
+grammar:
+  - id: present-continuous
+    title: { he: "עכשיו או בדרך כלל: I'm working, I work", en: "Present continuous vs present simple" }
+    explanation: |
+      בעברית "אני עובדת" יכול להיות עכשיו וגם בדרך כלל. באנגלית יש שתי צורות:
+
+      - **עכשיו, ברגע זה**: **am / is / are + פועל עם ‎-ing**
+        **I'm working right now. She's talking on the phone.**
+      - **בדרך כלל, הרגל**: הווה פשוט, שכבר למדנו
+        **I work every day. She talks a lot.**
+
+      מילים שעוזרות לזהות: **now, right now, at the moment** → ‎-ing. **every day, usually, always** → הווה פשוט.
+
+      שאלה: **Are you working?** שלילה: **I'm not working at the moment.**
+
+      איות: **write → writing** (בלי e), **sit → sitting** (מכפילים).
+    examples:
+      - { text: "Ben is cooking dinner right now.", translation: "בן מבשל ארוחת ערב עכשיו." }
+      - { text: "Ben cooks every Friday.", translation: "בן מבשל כל יום שישי." }
+      - { text: "What are you doing? I'm waiting for the bus.", translation: "מה אתה עושה? אני מחכה לאוטובוס." }
+
+lessons:
+  # ------------------------------------------------------------------ 1
+  - id: u18-l1
+    kind: new
+    title: { he: "רגע, אני באמצע", en: "Hang on, I'm busy" }
+    exercises:
+      - id: u18-l1-01
+        type: dialogue
+        scene: "בן מתקשר לנועה. היא בסופר."
+        lines:
+          - { speaker: "ben", text: "Hi Noa, are you busy?", translation: "היי נועה, את עסוקה?" }
+          - { speaker: "noa", text: "Hang on… I'm at the supermarket. I'm paying right now.", translation: "רגע… אני בסופר. אני משלמת עכשיו." }
+          - { speaker: "ben", text: "No problem. Can you call me back?", translation: "אין בעיה. את יכולה לחזור אליי?" }
+          - { speaker: "noa", text: "Sure. Sorry, I can't hear you. My battery is low!", translation: "בטח. סליחה, אני לא שומעת אותך. הסוללה שלי נגמרת!" }
+          - { speaker: "ben", text: "OK, text me later!", translation: "בסדר, תשלחי לי הודעה אחר כך!" }
+      - { id: "u18-l1-02", type: "learn", lexeme: "phone" }
+      - { id: "u18-l1-03", type: "learn", lexeme: "call" }
+      - { id: "u18-l1-04", type: "learn", lexeme: "hang-on" }
+      - { id: "u18-l1-05", type: "learn", lexeme: "right-now" }
+      - { id: "u18-l1-06", type: "learn", lexeme: "call-back" }
+      - { id: "u18-l1-07", type: "learn", lexeme: "cant-hear-you" }
+      - { id: "u18-l1-08", type: "learn", lexeme: "battery" }
+      - { id: "u18-l1-09", type: "learn", lexeme: "text-verb" }
+      - id: u18-l1-10
+        type: multiple_choice
+        prompt: "מה נועה עושה כשבן מתקשר?"
+        options: [משלמת בסופר, מבשלת, עובדת]
+        correct: 0
+        lexemes: [right-now]
+      - id: u18-l1-11
+        type: match_pairs
+        pairs:
+          - [call, להתקשר]
+          - [text, לשלוח הודעה]
+          - [battery, סוללה]
+          - [right now, ממש עכשיו]
+          - [call back, לחזור (בטלפון)]
+        lexemes: [call, text-verb, battery, right-now, call-back]
+      - id: u18-l1-12
+        type: listening_choice
+        audioText: "Sorry, I can't talk right now. I'll call you back."
+        question: מה הוא אומר?
+        options: [הוא לא יכול לדבר ויחזור אחר כך, הוא לא שומע טוב, הסוללה נגמרה]
+        correct: 0
+        lexemes: [right-now, call-back]
+      - id: u18-l1-13
+        type: word_bank
+        prompt: "אפשר להתקשר אליך אחר כך?"
+        answers: ["Can I call you later?"]
+        distractors: [back, text]
+        lexemes: [call]
+      - id: u18-l1-14
+        type: speak_repeat
+        text: "Hang on, I can't hear you!"
+        translation: "רגע, אני לא שומע אותך!"
+        lexemes: [hang-on, cant-hear-you]
+
+  # ------------------------------------------------------------------ 2
+  - id: u18-l2
+    kind: new
+    title: { he: "הלפטופ לא עובד", en: "My laptop isn't working" }
+    exercises:
+      - { id: "u18-l2-01", type: "learn", lexeme: "laptop" }
+      - { id: "u18-l2-02", type: "learn", lexeme: "charger" }
+      - { id: "u18-l2-03", type: "learn", lexeme: "password" }
+      - { id: "u18-l2-04", type: "learn", lexeme: "app" }
+      - { id: "u18-l2-05", type: "learn", lexeme: "online" }
+      - { id: "u18-l2-06", type: "learn", lexeme: "download" }
+      - { id: "u18-l2-07", type: "learn", lexeme: "message" }
+      - id: u18-l2-08
+        type: match_pairs
+        pairs:
+          - [laptop, מחשב נייד]
+          - [charger, מטען]
+          - [password, סיסמה]
+          - [download, להוריד]
+          - [message, הודעה]
+        lexemes: [laptop, charger, password, download, message]
+      - id: u18-l2-09
+        type: dialogue
+        scene: "במשרד. דוד מצוות ה־IT עוזר לנועה."
+        lines:
+          - { speaker: "noa", text: "David, my laptop isn't working. I can't get online.", translation: "דוד, הלפטופ שלי לא עובד. אני לא מצליחה להתחבר." }
+          - { speaker: "david", text: "Did you change your password?", translation: "שינית את הסיסמה?" }
+          - { speaker: "noa", text: "Yes, yesterday.", translation: "כן, אתמול." }
+          - { speaker: "david", text: "OK. Download the new app and try again.", translation: "בסדר. תורידי את האפליקציה החדשה ותנסי שוב." }
+      - id: u18-l2-10
+        type: multiple_choice
+        prompt: "מה הבעיה של נועה?"
+        options: [היא לא מצליחה להתחבר לרשת, אין לה מטען, היא שכחה את הטלפון]
+        correct: 0
+        lexemes: [laptop, online]
+      - id: u18-l2-11
+        type: dialogue_gap
+        lines:
+          - { speaker: "noa", text: "Can I use your charger? My phone is dead.", translation: "אפשר להשתמש במטען שלך? הטלפון שלי מת." }
+          - { speaker: "ben", text: "Of course. Here you are.", translation: "בטח. בבקשה." }
+        gap: 1
+        distractors: ["Of course. Here you were.", "Of course. I'm charging you."]
+        lexemes: [charger, phone, here-you-are]
+      - id: u18-l2-12
+        type: translate
+        direction: to_target
+        prompt: "שכחתי את הסיסמה שלי."
+        answers: ["I forgot my password.", "I've forgotten my password.", "I have forgotten my password."]
+        lexemes: [password]
+      - id: u18-l2-13
+        type: translate
+        direction: to_source
+        prompt: "Send me a message."
+        answers: ["תשלח לי הודעה.", "תשלחי לי הודעה.", "שלח לי הודעה.", "שלחי לי הודעה."]
+        lexemes: [message]
+      - id: u18-l2-14
+        type: speak_repeat
+        text: "My laptop isn't working. Can you help me?"
+        translation: "הלפטופ שלי לא עובד. אתה יכול לעזור לי?"
+        lexemes: [laptop, help]
+
+  # ------------------------------------------------------------------ 3
+  - id: u18-l3
+    kind: grammar
+    grammar: present-continuous
+    title: { he: "מה את עושה עכשיו?", en: "What are you doing now?" }
+    exercises:
+      - { id: "u18-l3-01", type: "learn", lexeme: "be-ing" }
+      - { id: "u18-l3-02", type: "learn", lexeme: "at-the-moment" }
+      - { id: "u18-l3-03", type: "learn", lexeme: "wait" }
+      - id: u18-l3-04
+        type: fill_blank
+        sentence: "Shh! I'm ___ on the phone."
+        translation: "שש! אני מדברת בטלפון."
+        answers: [talking]
+        options: [talking, talk, talks]
+        lexemes: [be-ing, phone]
+      - id: u18-l3-05
+        type: fill_blank
+        sentence: "Ben ___ waiting for the bus right now."
+        translation: "בן מחכה לאוטובוס עכשיו."
+        answers: [is]
+        options: [is, are, does]
+        lexemes: [be-ing, wait, bus]
+      - id: u18-l3-06
+        type: multiple_choice
+        prompt: "איזה משפט מתאר הרגל?"
+        options: ["I call my mum every Sunday.", "I'm calling my mum right now.", "I'm calling at the moment."]
+        correct: 0
+        lexemes: [call, every-day]
+      - id: u18-l3-07
+        type: multiple_choice
+        prompt: איזה משפט נכון?
+        options: ["She's working at the moment.", "She working at the moment.", "She works at the moment now."]
+        correct: 0
+        lexemes: [be-ing, at-the-moment]
+      - id: u18-l3-08
+        type: fill_blank
+        sentence: "I usually ___ to work by bus. (go)"
+        translation: "בדרך כלל אני נוסעת לעבודה באוטובוס."
+        answers: [go]
+        options: [go, am going, going]
+        lexemes: [go-to-work]
+      - id: u18-l3-09
+        type: dialogue_gap
+        lines:
+          - { speaker: "rachel", text: "What are you doing?", translation: "מה אתה עושה?" }
+          - { speaker: "ben", text: "I'm cooking dinner. Can I call you back?", translation: "אני מבשל ארוחת ערב. אפשר לחזור אלייך?" }
+        gap: 1
+        distractors: ["I cook dinner now. Can I call you back?", "I'm cook dinner. Can I call you back?"]
+        lexemes: [be-ing, cook, call-back]
+      - id: u18-l3-10
+        type: word_bank
+        prompt: "אנחנו לא עובדים כרגע."
+        answers: ["We aren't working at the moment.", "We're not working at the moment.", "We are not working at the moment."]
+        distractors: [don't, work]
+        lexemes: [be-ing, at-the-moment]
+      - id: u18-l3-11
+        type: translate
+        direction: to_target
+        prompt: "אני מחכה לך בתחנה."
+        answers: ["I'm waiting for you at the station.", "I am waiting for you at the station."]
+        lexemes: [be-ing, wait, station]
+      - id: u18-l3-12
+        type: translate
+        direction: to_source
+        prompt: "What are you doing right now?"
+        answers: ["מה אתה עושה עכשיו?", "מה את עושה עכשיו?", "מה אתם עושים עכשיו?", "מה אתה עושה ממש עכשיו?", "מה את עושה ממש עכשיו?"]
+        lexemes: [be-ing, right-now]
+      - id: u18-l3-13
+        type: speak_repeat
+        text: "I'm working from home at the moment."
+        translation: "אני עובדת מהבית כרגע."
+        lexemes: [be-ing, at-the-moment, at-home]
+
+  # ------------------------------------------------------------------ 4
+  - id: u18-l4
+    kind: listening
+    title: { he: "שיחת וידאו", en: "A video call" }
+    exercises:
+      - { id: "u18-l4-01", type: "learn", lexeme: "whats-happening" }
+      - id: u18-l4-02
+        type: dialogue
+        scene: "שיחת וידאו בין נועה לבין המשפחה בתל אביב, ביום שישי בערב."
+        lines:
+          - { speaker: "noa", text: "Hi everyone! What's happening there?", translation: "היי לכולם! מה קורה אצלכם?" }
+          - { speaker: "rachel", text: "Your mum is cooking, and your dad is watching football.", translation: "אמא שלך מבשלת, ואבא שלך רואה כדורגל." }
+          - { speaker: "noa", text: "Rachel? What are you doing in Tel Aviv?", translation: "רחל? מה את עושה בתל אביב?" }
+          - { speaker: "rachel", text: "Surprise! I'm visiting your family this week.", translation: "הפתעה! אני מבקרת את המשפחה שלך השבוע." }
+          - { speaker: "noa", text: "That's amazing! And it's raining here, of course.", translation: "זה מדהים! ופה יורד גשם, כמובן." }
+          - { speaker: "rachel", text: "Here it's sunny. We're sitting outside!", translation: "פה שמשי. אנחנו יושבים בחוץ!" }
+      - id: u18-l4-03
+        type: multiple_choice
+        prompt: "מה אבא של נועה עושה?"
+        options: [רואה כדורגל, מבשל, יושב בחוץ]
+        correct: 0
+        lexemes: [watch, football]
+      - id: u18-l4-04
+        type: multiple_choice
+        prompt: "למה רחל בתל אביב?"
+        options: [היא מבקרת את המשפחה של נועה, היא עובדת שם, היא גרה שם]
+        correct: 0
+        lexemes: [visit, be-ing]
+      - id: u18-l4-05
+        type: multiple_choice
+        prompt: "איך מזג האוויר בלונדון?"
+        options: [יורד גשם, שמשי, יורד שלג]
+        correct: 0
+        lexemes: [rain]
+      - id: u18-l4-06
+        type: listening_choice
+        audioText: "I'm downloading the app at the moment. Hang on."
+        question: מה היא עושה?
+        options: [מורידה אפליקציה, מחפשת סיסמה, מטעינה את הטלפון]
+        correct: 0
+        lexemes: [download, app, at-the-moment]
+      - id: u18-l4-07
+        type: dialogue_gap
+        lines:
+          - { speaker: "david", text: "Is the laptop working now?", translation: "הלפטופ עובד עכשיו?" }
+          - { speaker: "noa", text: "Yes, thanks! I'm online again.", translation: "כן, תודה! אני שוב מחוברת." }
+        gap: 1
+        distractors: ["Yes, thanks! I online again.", "Yes, thanks! I'm work online."]
+        lexemes: [laptop, online]
+      - id: u18-l4-08
+        type: dictation
+        text: "Can you call me back?"
+        lexemes: [call-back]
+      - id: u18-l4-09
+        type: translate
+        direction: to_target
+        prompt: "יורד גשם עכשיו."
+        answers: ["It's raining now.", "It is raining now.", "It's raining right now.", "It is raining right now."]
+        lexemes: [rain, be-ing]
+      - id: u18-l4-10
+        type: speak_repeat
+        text: "Surprise! I'm visiting your family this week."
+        translation: "הפתעה! אני מבקרת את המשפחה שלך השבוע."
+        lexemes: [be-ing, visit]
+
+  # ------------------------------------------------------------------ 5
+  - id: u18-l5
+    kind: reading
+    title: { he: "צ'אט קבוצתי", en: "A group chat" }
+    exercises:
+      - id: u18-l5-01
+        type: reading
+        kind: "קבוצת וואטסאפ של הצוות"
+        title: "Team London 🇬🇧"
+        text: |
+          Ben (9:02): Morning all! Where is everyone? The meeting is starting.
+
+          Noa (9:03): Sorry! I'm sitting on the train. There's a delay again 🙄
+
+          David (9:04): I'm here, but my laptop is downloading updates. Five minutes!
+
+          Miriam (9:05): I'm working from home today. I'm joining online now.
+
+          Ben (9:06): OK, let's wait ten minutes. I'm making coffee for everyone 😊
+        translation: |
+          בן (9:02): בוקר טוב לכולם! איפה כולם? הפגישה מתחילה.
+
+          נועה (9:03): סליחה! אני יושבת ברכבת. שוב יש עיכוב 🙄
+
+          דוד (9:04): אני כאן, אבל הלפטופ שלי מוריד עדכונים. חמש דקות!
+
+          מרים (9:05): אני עובדת מהבית היום. אני מצטרפת אונליין עכשיו.
+
+          בן (9:06): בסדר, בואו נחכה עשר דקות. אני מכין קפה לכולם 😊
+      - id: u18-l5-02
+        type: multiple_choice
+        prompt: "איפה נועה?"
+        options: [ברכבת, בבית, במשרד]
+        correct: 0
+        lexemes: [train]
+      - id: u18-l5-03
+        type: multiple_choice
+        prompt: "מה הבעיה של דוד?"
+        options: [הלפטופ מוריד עדכונים, אין לו סוללה, הוא שכח סיסמה]
+        correct: 0
+        lexemes: [laptop, download]
+      - id: u18-l5-04
+        type: multiple_choice
+        prompt: "מי עובדת מהבית?"
+        options: [מרים, נועה, רחל]
+        correct: 0
+        lexemes: [at-home]
+      - id: u18-l5-05
+        type: multiple_choice
+        prompt: "מה בן עושה בזמן שהם מחכים?"
+        options: [מכין קפה לכולם, מתקשר לנועה, מתחיל את הפגישה]
+        correct: 0
+        lexemes: [be-ing, coffee]
+      - id: u18-l5-06
+        type: fill_blank
+        sentence: "I'm ___ on the train."
+        translation: "אני יושבת ברכבת."
+        answers: [sitting]
+        options: [sitting, siting, sit]
+        lexemes: [be-ing, train]
+      - id: u18-l5-07
+        type: fill_blank
+        sentence: "Let's ___ ten minutes."
+        translation: "בואו נחכה עשר דקות."
+        answers: [wait]
+        options: [wait, waiting, waits]
+        lexemes: [wait]
+      - id: u18-l5-08
+        type: word_bank
+        prompt: "אני מצטרפת אונליין עכשיו."
+        answers: ["I'm joining online now.", "I am joining online now."]
+        distractors: [join, at]
+        lexemes: [be-ing, online]
+      - id: u18-l5-09
+        type: translate
+        direction: to_target
+        prompt: "הפגישה מתחילה."
+        answers: ["The meeting is starting.", "The meeting's starting.", "The meeting starts."]
+        lexemes: [meeting, start]
+      - id: u18-l5-10
+        type: speak_repeat
+        text: "Sorry, I'm on the train. There's a delay again."
+        translation: "סליחה, אני ברכבת. שוב יש עיכוב."
+        lexemes: [train, delay]
+
+  # ------------------------------------------------------------------ 6
+  - id: u18-review
+    kind: review
+    title: { he: "חזרה: ממש עכשיו", en: "Review: right now" }
+    exercises:
+      - id: u18-r-01
+        type: match_pairs
+        pairs:
+          - [wait, לחכות]
+          - [online, מחובר]
+          - [app, אפליקציה]
+          - [at the moment, כרגע]
+          - [phone, טלפון]
+        lexemes: [wait, online, app, at-the-moment, phone]
+      - id: u18-r-02
+        type: fill_blank
+        sentence: "___ you working at the moment?"
+        translation: "אתה עובד כרגע?"
+        answers: [Are]
+        options: [Are, Do, Is]
+        lexemes: [be-ing, at-the-moment]
+      - id: u18-r-03
+        type: listening_choice
+        audioText: "My battery is low. Can I use your charger?"
+        question: מה היא צריכה?
+        options: [מטען, סיסמה, לפטופ]
+        correct: 0
+        lexemes: [battery, charger]
+      - id: u18-r-04
+        type: word_bank
+        prompt: "היא מדברת בטלפון עכשיו."
+        answers: ["She's talking on the phone now.", "She is talking on the phone now.", "She's talking on the phone right now.", "She is talking on the phone right now."]
+        distractors: [talks, at]
+        lexemes: [be-ing, phone]
+      - id: u18-r-05
+        type: dialogue_gap
+        lines:
+          - { speaker: "eli", text: "Do you usually work on Fridays?", translation: "את בדרך כלל עובדת בימי שישי?" }
+          - { speaker: "miriam", text: "No, I don't. But I'm working this Friday.", translation: "לא. אבל ביום שישי הזה אני עובדת." }
+        gap: 1
+        distractors: ["No, I'm not. But I work this Friday now.", "No, I don't working. But I work this Friday."]
+        lexemes: [be-ing, friday]
+      - id: u18-r-06
+        type: multiple_choice
+        prompt: "מישהו מתקשר ואתם צריכים רגע. מה אומרים?"
+        options: ["Hang on!", "Get well soon!", "Good luck!"]
+        correct: 0
+        lexemes: [hang-on]
+      - id: u18-r-07
+        type: translate
+        direction: to_target
+        prompt: "תשלח לי הודעה כשתגיע."
+        answers: ["Text me when you arrive.", "Send me a message when you arrive.", "Text me when you get there.", "Send me a text when you arrive."]
+        lexemes: [text-verb, message]
+      - id: u18-r-08
+        type: translate
+        direction: to_source
+        prompt: "I'm waiting for the bus."
+        answers: ["אני מחכה לאוטובוס.", "אני מחכה לאוטובוס"]
+        lexemes: [be-ing, wait, bus]
+      - id: u18-r-09
+        type: dictation
+        text: "I'm working right now."
+        lexemes: [be-ing, right-now]
+      - id: u18-r-10
+        type: speak_repeat
+        text: "What are you doing? I'm downloading a new app."
+        translation: "מה אתה עושה? אני מוריד אפליקציה חדשה."
+        lexemes: [be-ing, download, app]

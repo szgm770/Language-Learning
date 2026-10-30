@@ -12,35 +12,35 @@ canDo:
   - לספור עד 100
 
 vocabulary:
-  - { id: "family", text: "family", translation: "משפחה", pos: noun, pronunciation: "פֶמִילִי", example: { text: "This is my family.", translation: "זו המשפחה שלי." } }
-  - { id: "this-is", text: "This is…", translation: "זה… / זו…", pos: phrase, pronunciation: "דִ'יס אִיז", example: { text: "This is my sister.", translation: "זו אחותי." } }
-  - { id: "mother", text: "mother", translation: "אמא", pos: noun, pronunciation: "מָאדֶ'ר", example: { text: "This is my mother, Sarah.", translation: "זו אמא שלי, שרה." } }
-  - { id: "father", text: "father", translation: "אבא", pos: noun, pronunciation: "פָאדֶ'ר" }
-  - { id: "brother", text: "brother", translation: "אח", pos: noun, pronunciation: "בְּרָאדֶ'ר" }
-  - { id: "sister", text: "sister", translation: "אחות", pos: noun, pronunciation: "סִיסְטֶר" }
-  - { id: "who", text: "who", translation: "מי", pos: pronoun, pronunciation: "הוּ", example: { text: "Who is this?", translation: "מי זה?" } }
-  - { id: "i-have", text: "I have", translation: "יש לי", pos: phrase, pronunciation: "אַיי הֶב", example: { text: "I have a brother.", translation: "יש לי אח." } }
-  - { id: "son", text: "son", translation: "בן", pos: noun, pronunciation: "סָאן" }
-  - { id: "daughter", text: "daughter", translation: "בת", pos: noun, pronunciation: "דוֹטֶר" }
-  - { id: "husband", text: "husband", translation: "בעל", pos: noun, pronunciation: "הָאזְבֶּנְד" }
-  - { id: "wife", text: "wife", translation: "אישה (רעיה)", pos: noun, pronunciation: "וַוייף" }
-  - { id: "children", text: "children", translation: "ילדים", pos: noun, pronunciation: "צִ'ילְדְרֶן", example: { text: "I have two children.", translation: "יש לי שני ילדים." } }
-  - { id: "parents", text: "parents", translation: "הורים", pos: noun, pronunciation: "פֶּרֶנְטְס" }
-  - { id: "friend", text: "friend", translation: "חבר, חברה", pos: noun, pronunciation: "פְרֶנְד", example: { text: "Miriam is my friend.", translation: "מרים היא חברה שלי." } }
-  - { id: "his", text: "his", translation: "שלו", pos: determiner, pronunciation: "הִיז", example: { text: "His name is Ben.", translation: "קוראים לו בן." } }
-  - { id: "her", text: "her", translation: "שלה", pos: determiner, pronunciation: "הֶר", example: { text: "Her name is Rachel.", translation: "קוראים לה רחל." } }
-  - { id: "our", text: "our", translation: "שלנו", pos: determiner, pronunciation: "אַוְור" }
-  - { id: "their", text: "their", translation: "שלהם, שלהן", pos: determiner, pronunciation: "דֶ'ר" }
-  - { id: "how-old", text: "How old…?", translation: "בן כמה…? / בת כמה…?", pos: phrase, pronunciation: "הַאוּ אוֹלְד", example: { text: "How old is your sister?", translation: "בת כמה אחותך?" } }
-  - { id: "years-old", text: "years old", translation: "(בגיל) … שנים", pos: phrase, pronunciation: "יִירְז אוֹלְד", example: { text: "He's thirty years old.", translation: "הוא בן שלושים." } }
-  - { id: "eleven", text: "eleven", translation: "אחת עשרה", pos: number, pronunciation: "אִילֶבֶן" }
-  - { id: "twelve", text: "twelve", translation: "שתים עשרה", pos: number, pronunciation: "טְוֶולְב" }
-  - { id: "fifteen", text: "fifteen", translation: "חמש עשרה", pos: number, pronunciation: "פִיפְטִין" }
-  - { id: "twenty", text: "twenty", translation: "עשרים", pos: number, pronunciation: "טְוֶונְטִי" }
-  - { id: "thirty", text: "thirty", translation: "שלושים", pos: number, pronunciation: "ת'רְטִי" }
-  - { id: "forty", text: "forty", translation: "ארבעים", pos: number, pronunciation: "פוֹרְטִי" }
-  - { id: "fifty", text: "fifty", translation: "חמישים", pos: number, pronunciation: "פִיפְטִי" }
-  - { id: "hundred", text: "a hundred", translation: "מאה", pos: number, pronunciation: "אֶ הָאנְדְרֶד" }
+  - { id: "family", text: "family", translation: "משפחה", pos: "noun", pronunciation: "פֶמִילִי", example: { text: "This is my family.", translation: "זו המשפחה שלי." } }
+  - { id: "this-is", text: "This is…", translation: "זה… / זו…", pos: "phrase", pronunciation: "דִ'יס אִיז", example: { text: "This is my sister.", translation: "זו אחותי." } }
+  - { id: "mother", text: "mother", translation: "אמא", pos: "noun", pronunciation: "מָאדֶ'ר", example: { text: "This is my mother, Sarah.", translation: "זו אמא שלי, שרה." } }
+  - { id: "father", text: "father", translation: "אבא", pos: "noun", pronunciation: "פָאדֶ'ר" }
+  - { id: "brother", text: "brother", translation: "אח", pos: "noun", pronunciation: "בְּרָאדֶ'ר" }
+  - { id: "sister", text: "sister", translation: "אחות", pos: "noun", pronunciation: "סִיסְטֶר" }
+  - { id: "who", text: "who", translation: "מי", pos: "pronoun", pronunciation: "הוּ", example: { text: "Who is this?", translation: "מי זה?" } }
+  - { id: "i-have", text: "I have", translation: "יש לי", pos: "phrase", pronunciation: "אַיי הֶב", example: { text: "I have a brother.", translation: "יש לי אח." } }
+  - { id: "son", text: "son", translation: "בן", pos: "noun", pronunciation: "סָאן" }
+  - { id: "daughter", text: "daughter", translation: "בת", pos: "noun", pronunciation: "דוֹטֶר" }
+  - { id: "husband", text: "husband", translation: "בעל", pos: "noun", pronunciation: "הָאזְבֶּנְד" }
+  - { id: "wife", text: "wife", translation: "אישה (רעיה)", pos: "noun", pronunciation: "וַוייף" }
+  - { id: "children", text: "children", translation: "ילדים", pos: "noun", pronunciation: "צִ'ילְדְרֶן", example: { text: "I have two children.", translation: "יש לי שני ילדים." } }
+  - { id: "parents", text: "parents", translation: "הורים", pos: "noun", pronunciation: "פֶּרֶנְטְס" }
+  - { id: "friend", text: "friend", translation: "חבר, חברה", pos: "noun", pronunciation: "פְרֶנְד", example: { text: "Miriam is my friend.", translation: "מרים היא חברה שלי." } }
+  - { id: "his", text: "his", translation: "שלו", pos: "determiner", pronunciation: "הִיז", example: { text: "His name is Ben.", translation: "קוראים לו בן." } }
+  - { id: "her", text: "her", translation: "שלה", pos: "determiner", pronunciation: "הֶר", example: { text: "Her name is Rachel.", translation: "קוראים לה רחל." } }
+  - { id: "our", text: "our", translation: "שלנו", pos: "determiner", pronunciation: "אַוְור" }
+  - { id: "their", text: "their", translation: "שלהם, שלהן", pos: "determiner", pronunciation: "דֶ'ר" }
+  - { id: "how-old", text: "How old…?", translation: "בן כמה…? / בת כמה…?", pos: "phrase", pronunciation: "הַאוּ אוֹלְד", example: { text: "How old is your sister?", translation: "בת כמה אחותך?" } }
+  - { id: "years-old", text: "years old", translation: "(בגיל) … שנים", pos: "phrase", pronunciation: "יִירְז אוֹלְד", example: { text: "He's thirty years old.", translation: "הוא בן שלושים." } }
+  - { id: "eleven", text: "eleven", translation: "אחת עשרה", pos: "number", pronunciation: "אִילֶבֶן" }
+  - { id: "twelve", text: "twelve", translation: "שתים עשרה", pos: "number", pronunciation: "טְוֶולְב" }
+  - { id: "fifteen", text: "fifteen", translation: "חמש עשרה", pos: "number", pronunciation: "פִיפְטִין" }
+  - { id: "twenty", text: "twenty", translation: "עשרים", pos: "number", pronunciation: "טְוֶונְטִי" }
+  - { id: "thirty", text: "thirty", translation: "שלושים", pos: "number", pronunciation: "ת'רְטִי" }
+  - { id: "forty", text: "forty", translation: "ארבעים", pos: "number", pronunciation: "פוֹרְטִי" }
+  - { id: "fifty", text: "fifty", translation: "חמישים", pos: "number", pronunciation: "פִיפְטִי" }
+  - { id: "hundred", text: "a hundred", translation: "מאה", pos: "number", pronunciation: "אֶ הָאנְדְרֶד" }
 
 grammar:
   - id: possessives

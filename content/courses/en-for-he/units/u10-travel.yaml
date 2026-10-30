@@ -12,25 +12,25 @@ canDo:
   - לספר איפה הייתי ואיך היה, עם was ו־were
 
 vocabulary:
-  - { id: "airport", text: "airport", translation: "שדה תעופה", pos: noun, pronunciation: "אֶרְפּוֹרְט" }
-  - { id: "flight", text: "flight", translation: "טיסה", pos: noun, pronunciation: "פְלַייט" }
-  - { id: "ticket", text: "ticket", translation: "כרטיס", pos: noun, pronunciation: "טִיקֶט" }
-  - { id: "passport", text: "passport", translation: "דרכון", pos: noun, pronunciation: "פַּסְפּוֹרְט" }
-  - { id: "gate", text: "gate", translation: "שער (בשדה התעופה)", pos: noun, pronunciation: "גֵייט", example: { text: "Your flight is at gate twelve.", translation: "הטיסה שלך בשער שתים־עשרה." } }
-  - { id: "hotel", text: "hotel", translation: "מלון", pos: noun, pronunciation: "הוֹטֶל" }
-  - { id: "room", text: "room", translation: "חדר", pos: noun, pronunciation: "רוּם" }
-  - { id: "key", text: "key", translation: "מפתח", pos: noun, pronunciation: "קִי" }
-  - { id: "reservation", text: "reservation", translation: "הזמנה (מראש)", pos: noun, pronunciation: "רֶזֶרְבֵיישְׁן", example: { text: "I have a reservation.", translation: "יש לי הזמנה." } }
-  - { id: "night", text: "night", translation: "לילה", pos: noun, pronunciation: "נַייט", example: { text: "for three nights", translation: "לשלושה לילות" } }
-  - { id: "breakfast", text: "breakfast", translation: "ארוחת בוקר", pos: noun, pronunciation: "בְּרֶקְפַסְט" }
-  - { id: "id-like", text: "I'd like…", translation: "הייתי רוצה… (בנימוס)", pos: phrase, pronunciation: "אַייד לַייק", example: { text: "I'd like a room, please.", translation: "הייתי רוצה חדר, בבקשה." } }
-  - { id: "help", text: "help", translation: "עזרה, לעזור", pos: verb, pronunciation: "הֶלְפּ", example: { text: "Can you help me?", translation: "אתה יכול לעזור לי?" } }
-  - { id: "problem", text: "problem", translation: "בעיה", pos: noun, pronunciation: "פְּרוֹבְּלֶם" }
-  - { id: "was", text: "was", translation: "הייתי, היה, הייתה", pos: verb, pronunciation: "ווֹז", example: { text: "The flight was long.", translation: "הטיסה הייתה ארוכה." } }
-  - { id: "were", text: "were", translation: "היית, היינו, היו", pos: verb, pronunciation: "וֶור", example: { text: "We were in Madrid.", translation: "היינו במדריד." } }
-  - { id: "yesterday", text: "yesterday", translation: "אתמול", pos: adverb, pronunciation: "יֶסְטֶרְדֵיי" }
-  - { id: "last-week", text: "last week", translation: "בשבוע שעבר", pos: phrase, pronunciation: "לַאסְט וִויק" }
-  - { id: "how-was", text: "How was…?", translation: "איך היה…?", pos: phrase, pronunciation: "הַאוּ ווֹז", example: { text: "How was your trip?", translation: "איך היה הטיול שלך?" } }
+  - { id: "airport", text: "airport", translation: "שדה תעופה", pos: "noun", pronunciation: "אֶרְפּוֹרְט" }
+  - { id: "flight", text: "flight", translation: "טיסה", pos: "noun", pronunciation: "פְלַייט" }
+  - { id: "ticket", text: "ticket", translation: "כרטיס", pos: "noun", pronunciation: "טִיקֶט" }
+  - { id: "passport", text: "passport", translation: "דרכון", pos: "noun", pronunciation: "פַּסְפּוֹרְט" }
+  - { id: "gate", text: "gate", translation: "שער (בשדה התעופה)", pos: "noun", pronunciation: "גֵייט", example: { text: "Your flight is at gate twelve.", translation: "הטיסה שלך בשער שתים־עשרה." } }
+  - { id: "hotel", text: "hotel", translation: "מלון", pos: "noun", pronunciation: "הוֹטֶל" }
+  - { id: "room", text: "room", translation: "חדר", pos: "noun", pronunciation: "רוּם" }
+  - { id: "key", text: "key", translation: "מפתח", pos: "noun", pronunciation: "קִי" }
+  - { id: "reservation", text: "reservation", translation: "הזמנה (מראש)", pos: "noun", pronunciation: "רֶזֶרְבֵיישְׁן", example: { text: "I have a reservation.", translation: "יש לי הזמנה." } }
+  - { id: "night", text: "night", translation: "לילה", pos: "noun", pronunciation: "נַייט", example: { text: "for three nights", translation: "לשלושה לילות" } }
+  - { id: "breakfast", text: "breakfast", translation: "ארוחת בוקר", pos: "noun", pronunciation: "בְּרֶקְפַסְט" }
+  - { id: "id-like", text: "I'd like…", translation: "הייתי רוצה… (בנימוס)", pos: "phrase", pronunciation: "אַייד לַייק", example: { text: "I'd like a room, please.", translation: "הייתי רוצה חדר, בבקשה." } }
+  - { id: "help", text: "help", translation: "עזרה, לעזור", pos: "verb", pronunciation: "הֶלְפּ", example: { text: "Can you help me?", translation: "אתה יכול לעזור לי?" } }
+  - { id: "problem", text: "problem", translation: "בעיה", pos: "noun", pronunciation: "פְּרוֹבְּלֶם" }
+  - { id: "was", text: "was", translation: "הייתי, היה, הייתה", pos: "verb", pronunciation: "ווֹז", example: { text: "The flight was long.", translation: "הטיסה הייתה ארוכה." } }
+  - { id: "were", text: "were", translation: "היית, היינו, היו", pos: "verb", pronunciation: "וֶור", example: { text: "We were in Madrid.", translation: "היינו במדריד." } }
+  - { id: "yesterday", text: "yesterday", translation: "אתמול", pos: "adverb", pronunciation: "יֶסְטֶרְדֵיי" }
+  - { id: "last-week", text: "last week", translation: "בשבוע שעבר", pos: "phrase", pronunciation: "לַאסְט וִויק" }
+  - { id: "how-was", text: "How was…?", translation: "איך היה…?", pos: "phrase", pronunciation: "הַאוּ ווֹז", example: { text: "How was your trip?", translation: "איך היה הטיול שלך?" } }
 
 grammar:
   - id: id-like

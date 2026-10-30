@@ -1,0 +1,483 @@
+id: u19-party
+cefr: A2
+scene: party
+title:
+  he: חגיגות
+  en: Celebrations
+story: "בן חוגג שלושים, ונועה ורחל מארגנות לו מסיבת הפתעה. מי יביא מה? מי יזמין את מי? ובסוף מגיעה עוד הזמנה, לחתונה."
+canDo:
+  - להזמין מישהו למסיבה ולהגיב להזמנה
+  - להציע עזרה ולהבטיח עם will
+  - לברך ביום הולדת ובחתונה
+  - להשתמש ב־Would you like…?‎ בנימוס
+
+vocabulary:
+  - { id: "birthday", text: "birthday", translation: "יום הולדת", pos: "noun", pronunciation: "בֶּרְתְ'דֵיי" }
+  - { id: "happy-birthday", text: "Happy birthday!", translation: "יום הולדת שמח!", pos: "phrase", pronunciation: "הֶפִּי בֶּרְתְ'דֵיי" }
+  - { id: "party", text: "party", translation: "מסיבה", pos: "noun", pronunciation: "פַּארְטִי" }
+  - { id: "surprise", text: "surprise", translation: "הפתעה", pos: "noun", pronunciation: "סֶרְפְּרַייז" }
+  - { id: "invite", text: "invite", translation: "להזמין (אנשים)", pos: "verb", pronunciation: "אִינְוַייט", example: { text: "Let's invite Eli.", translation: "בוא נזמין את אלי." } }
+  - { id: "invitation", text: "invitation", translation: "הזמנה (לאירוע)", pos: "noun", pronunciation: "אִינְוִיטֵיישְׁן" }
+  - { id: "guests", text: "guests", translation: "אורחים", pos: "noun", pronunciation: "גֶסְטְס" }
+  - { id: "present", text: "present", translation: "מתנה", pos: "noun", pronunciation: "פְּרֶזֶנְט" }
+  - { id: "candles", text: "candles", translation: "נרות", pos: "noun", pronunciation: "קֶנְדְלְז" }
+  - { id: "celebrate", text: "celebrate", translation: "לחגוג", pos: "verb", pronunciation: "סֶלֶבְּרֵייט" }
+  - { id: "dance", text: "dance", translation: "לרקוד", pos: "verb", pronunciation: "דֶנְס" }
+  - { id: "bring", text: "bring", translation: "להביא", pos: "verb", pronunciation: "בְּרִינְג" }
+  - { id: "will", text: "I'll…", translation: "אני אעשה (החלטה, הצעה, הבטחה)", pos: "verb", pronunciation: "אַייל", example: { text: "I'll bring the cake.", translation: "אני אביא את העוגה." } }
+  - { id: "wont", text: "won't", translation: "לא אעשה, לא יקרה (will not)", pos: "verb", pronunciation: "ווֹנְט", example: { text: "I won't tell him.", translation: "אני לא אגיד לו." } }
+  - { id: "promise", text: "promise", translation: "להבטיח; הבטחה", pos: "verb", pronunciation: "פְּרוֹמִיס", example: { text: "I promise!", translation: "אני מבטיחה!" } }
+  - { id: "would-you-like", text: "Would you like…?", translation: "תרצה…? (בנימוס)", pos: "phrase", pronunciation: "ווּד יוּ לַייק", example: { text: "Would you like some cake?", translation: "תרצה עוגה?" } }
+  - { id: "wedding", text: "wedding", translation: "חתונה", pos: "noun", pronunciation: "וֶדִינְג" }
+  - { id: "get-married", text: "get married", translation: "להתחתן", pos: "verb", pronunciation: "גֶט מֶרִיד" }
+  - { id: "congratulations", text: "Congratulations!", translation: "מזל טוב! ברכות!", pos: "phrase", pronunciation: "קוֹנְגְרֶצ'וּלֵיישְׁנְז" }
+  - { id: "id-love-to", text: "I'd love to!", translation: "בשמחה! הייתי שמח!", pos: "phrase", pronunciation: "אַייד לַאב טוּ" }
+
+grammar:
+  - id: will-offers
+    title: { he: "הצעות והבטחות: I'll", en: "Will for offers and promises" }
+    explanation: |
+      כבר למדנו **going to** לתוכניות שהחלטנו עליהן מראש. **will** משמש להחלטה שאנחנו מקבלים **עכשיו**, ברגע הדיבור, להצעה ולהבטחה:
+
+      - החלטה עכשיו: "אין חלב." "**I'll buy some.**"
+      - הצעה: **I'll help you.** (אני אעזור לך)
+      - הבטחה: **I'll call you tomorrow. I promise.**
+
+      **will** לא משתנה לפי הגוף, ובדיבור מקצרים: **I'll, you'll, she'll, we'll**.
+      שלילה: **won't** (will not): **I won't tell anyone.**
+
+      ובנימוס, כשמציעים משהו: **Would you like some cake?** והתשובה: **Yes, please!** או **I'd love to!** (להזמנה).
+    examples:
+      - { text: "The phone is ringing. I'll answer it.", translation: "הטלפון מצלצל. אני אענה." }
+      - { text: "Don't worry, I won't be late.", translation: "אל תדאג, אני לא אאחר." }
+      - { text: "Would you like to come to my party? I'd love to!", translation: "תרצה לבוא למסיבה שלי? בשמחה!" }
+
+lessons:
+  # ------------------------------------------------------------------ 1
+  - id: u19-l1
+    kind: new
+    title: { he: "מסיבת הפתעה", en: "A surprise party" }
+    exercises:
+      - id: u19-l1-01
+        type: dialogue
+        scene: "נועה ורחל בבית הקפה של אלי. ביום שבת בן חוגג שלושים."
+        lines:
+          - { speaker: "rachel", text: "It's Ben's birthday on Saturday. He's going to be thirty!", translation: "בשבת יום ההולדת של בן. הוא הולך להיות בן שלושים!" }
+          - { speaker: "noa", text: "Let's have a surprise party!", translation: "בואי נעשה מסיבת הפתעה!" }
+          - { speaker: "rachel", text: "Great idea. We can celebrate at my flat.", translation: "רעיון מעולה. אפשר לחגוג בדירה שלי." }
+          - { speaker: "noa", text: "How many guests?", translation: "כמה אורחים?" }
+          - { speaker: "rachel", text: "About twenty. Let's invite everyone from the office.", translation: "בערך עשרים. בואי נזמין את כולם מהמשרד." }
+          - { speaker: "eli", text: "A party? I'll make the cake!", translation: "מסיבה? אני אכין את העוגה!" }
+      - { id: "u19-l1-02", type: "learn", lexeme: "birthday" }
+      - { id: "u19-l1-03", type: "learn", lexeme: "party" }
+      - { id: "u19-l1-04", type: "learn", lexeme: "surprise" }
+      - { id: "u19-l1-05", type: "learn", lexeme: "celebrate" }
+      - { id: "u19-l1-06", type: "learn", lexeme: "guests" }
+      - { id: "u19-l1-07", type: "learn", lexeme: "invite" }
+      - id: u19-l1-08
+        type: match_pairs
+        pairs:
+          - [birthday, יום הולדת]
+          - [party, מסיבה]
+          - [surprise, הפתעה]
+          - [guests, אורחים]
+          - [invite, להזמין]
+        lexemes: [birthday, party, surprise, guests, invite]
+      - id: u19-l1-09
+        type: multiple_choice
+        prompt: "איפה תהיה המסיבה?"
+        options: [בדירה של רחל, בבית הקפה, במשרד]
+        correct: 0
+        lexemes: [party, celebrate]
+      - id: u19-l1-10
+        type: multiple_choice
+        prompt: "כמה אורחים יהיו?"
+        options: [בערך עשרים, בערך שלושים, בערך עשרה]
+        correct: 0
+        lexemes: [guests]
+      - { id: "u19-l1-11", type: "learn", lexeme: "happy-birthday" }
+      - { id: "u19-l1-12", type: "learn", lexeme: "present" }
+      - { id: "u19-l1-13", type: "learn", lexeme: "candles" }
+      - id: u19-l1-14
+        type: listening_choice
+        audioText: "There are thirty candles on the cake!"
+        question: כמה נרות על העוגה?
+        options: ["30", "13", "20"]
+        correct: 0
+        lexemes: [candles, thirty]
+      - id: u19-l1-15
+        type: word_bank
+        prompt: "בואו נזמין את כולם מהמשרד."
+        answers: ["Let's invite everyone from the office."]
+        distractors: [invitation, at]
+        lexemes: [invite, office]
+      - id: u19-l1-16
+        type: speak_repeat
+        text: "Happy birthday, Ben! This present is for you."
+        translation: "יום הולדת שמח, בן! המתנה הזאת בשבילך."
+        lexemes: [happy-birthday, present]
+
+  # ------------------------------------------------------------------ 2
+  - id: u19-l2
+    kind: new
+    title: { he: "מי מביא מה?", en: "Who's bringing what?" }
+    exercises:
+      - { id: "u19-l2-01", type: "learn", lexeme: "will" }
+      - { id: "u19-l2-02", type: "learn", lexeme: "bring" }
+      - { id: "u19-l2-03", type: "learn", lexeme: "promise" }
+      - { id: "u19-l2-04", type: "learn", lexeme: "wont" }
+      - id: u19-l2-05
+        type: dialogue
+        scene: "נועה מתקשרת לחברים ומחלקת משימות."
+        lines:
+          - { speaker: "noa", text: "David, can you bring some music?", translation: "דוד, אתה יכול להביא מוזיקה?" }
+          - { speaker: "david", text: "Sure, I'll bring my speakers.", translation: "בטח, אני אביא את הרמקולים שלי." }
+          - { speaker: "noa", text: "Miriam, are you coming from Madrid?", translation: "מרים, את באה ממדריד?" }
+          - { speaker: "miriam", text: "Yes! I'll be there at seven. I promise.", translation: "כן! אני אהיה שם בשבע. אני מבטיחה." }
+          - { speaker: "noa", text: "And remember, it's a surprise. Don't tell Ben!", translation: "ותזכרו, זו הפתעה. אל תגידו לבן!" }
+          - { speaker: "david", text: "Don't worry, I won't say a word.", translation: "אל תדאגי, אני לא אגיד מילה." }
+      - id: u19-l2-06
+        type: multiple_choice
+        prompt: "מה דוד מביא?"
+        options: [רמקולים, עוגה, מתנה]
+        correct: 0
+        lexemes: [bring, will]
+      - id: u19-l2-07
+        type: multiple_choice
+        prompt: "מתי מרים תגיע?"
+        options: [בשבע, בשמונה, בשש]
+        correct: 0
+        lexemes: [will, promise]
+      - id: u19-l2-08
+        type: fill_blank
+        sentence: "Don't worry, I ___ tell him."
+        translation: "אל תדאגי, אני לא אגיד לו."
+        answers: ["won't"]
+        options: ["won't", "will", "don't will"]
+        lexemes: [wont]
+      - id: u19-l2-09
+        type: dialogue_gap
+        lines:
+          - { speaker: "noa", text: "We need some drinks for the party.", translation: "אנחנו צריכים שתייה למסיבה." }
+          - { speaker: "eli", text: "No problem. I'll bring some juice and water.", translation: "אין בעיה. אני אביא מיץ ומים." }
+        gap: 1
+        distractors: ["No problem. I bring yesterday some juice.", "No problem. I'll to bring some juice and water."]
+        lexemes: [will, bring, juice]
+      - id: u19-l2-10
+        type: translate
+        direction: to_target
+        prompt: "אני אביא את המתנה."
+        answers: ["I'll bring the present.", "I will bring the present.", "I'll bring the gift.", "I will bring the gift."]
+        lexemes: [will, bring, present]
+      - id: u19-l2-11
+        type: translate
+        direction: to_source
+        prompt: "I promise I won't be late."
+        answers: ["אני מבטיח שלא אאחר.", "אני מבטיחה שלא אאחר.", "אני מבטיח שאני לא אאחר.", "אני מבטיחה שאני לא אאחר."]
+        lexemes: [promise, wont, late]
+      - id: u19-l2-12
+        type: speak_repeat
+        text: "Don't worry, I won't say a word. I promise!"
+        translation: "אל תדאגי, לא אגיד מילה. אני מבטיח!"
+        lexemes: [wont, promise]
+
+  # ------------------------------------------------------------------ 3
+  - id: u19-l3
+    kind: grammar
+    grammar: will-offers
+    title: { he: "אני אעזור לך", en: "I'll help you" }
+    exercises:
+      - { id: "u19-l3-01", type: "learn", lexeme: "would-you-like" }
+      - { id: "u19-l3-02", type: "learn", lexeme: "id-love-to" }
+      - id: u19-l3-03
+        type: fill_blank
+        sentence: "This bag is heavy. ___ help you."
+        translation: "התיק הזה כבד. אני אעזור לך."
+        answers: ["I'll"]
+        options: ["I'll", "I'm", "I"]
+        lexemes: [will, help]
+      - id: u19-l3-04
+        type: multiple_choice
+        prompt: "איזה משפט הוא החלטה שנעשית עכשיו?"
+        options: ["Oh, there's no milk? I'll buy some.", "I'm going to buy milk tomorrow, I decided yesterday.", "I buy milk every day."]
+        correct: 0
+        lexemes: [will]
+      - id: u19-l3-05
+        type: multiple_choice
+        prompt: איזה משפט נכון?
+        options: ["She'll call you later.", "She'll calls you later.", "She will to call you later."]
+        correct: 0
+        lexemes: [will, call]
+      - id: u19-l3-06
+        type: dialogue_gap
+        lines:
+          - { speaker: "rachel", text: "Would you like to come to the party?", translation: "תרצה לבוא למסיבה?" }
+          - { speaker: "david", text: "I'd love to! What time?", translation: "בשמחה! באיזו שעה?" }
+        gap: 1
+        distractors: ["I'll love to! What time?", "I like to! What time was it?"]
+        lexemes: [would-you-like, id-love-to]
+      - id: u19-l3-07
+        type: fill_blank
+        sentence: "___ you like some cake?"
+        translation: "תרצה עוגה?"
+        answers: [Would]
+        options: [Would, Will, Do]
+        lexemes: [would-you-like, cake]
+      - id: u19-l3-08
+        type: word_bank
+        prompt: "אני אתקשר אליך מחר."
+        answers: ["I'll call you tomorrow.", "I will call you tomorrow.", "Tomorrow I'll call you."]
+        distractors: [calling, going]
+        lexemes: [will, call, tomorrow]
+      - id: u19-l3-09
+        type: word_bank
+        prompt: "הם לא יבואו למסיבה."
+        answers: ["They won't come to the party.", "They will not come to the party."]
+        distractors: [don't, comes]
+        lexemes: [wont, party]
+      - id: u19-l3-10
+        type: translate
+        direction: to_target
+        prompt: "תרצי לבוא לארוחת ערב?"
+        answers: ["Would you like to come to dinner?", "Would you like to come for dinner?", "Would you like to come over for dinner?"]
+        lexemes: [would-you-like, have-dinner]
+      - id: u19-l3-11
+        type: translate
+        direction: to_source
+        prompt: "I'll help you with the cake."
+        answers: ["אני אעזור לך עם העוגה.", "אעזור לך עם העוגה.", "אני אעזור לך בעוגה."]
+        lexemes: [will, help, cake]
+      - id: u19-l3-12
+        type: speak_repeat
+        text: "Would you like some cake? Yes, please!"
+        translation: "תרצה עוגה? כן, בבקשה!"
+        lexemes: [would-you-like, cake]
+
+  # ------------------------------------------------------------------ 4
+  - id: u19-l4
+    kind: listening
+    title: { he: "הפתעה!", en: "Surprise!" }
+    exercises:
+      - { id: "u19-l4-01", type: "learn", lexeme: "dance" }
+      - id: u19-l4-02
+        type: dialogue
+        scene: "שבת, שבע וחצי בערב. בן נכנס לדירה של רחל."
+        lines:
+          - { speaker: "rachel", text: "Shh! He's coming!", translation: "שששש! הוא בא!" }
+          - { speaker: "noa", text: "SURPRISE! Happy birthday, Ben!", translation: "הפתעה! יום הולדת שמח, בן!" }
+          - { speaker: "ben", text: "What?! I can't believe it! Thank you, everyone!", translation: "מה?! אני לא מאמין! תודה לכולם!" }
+          - { speaker: "eli", text: "Here's your cake. Thirty candles!", translation: "הנה העוגה שלך. שלושים נרות!" }
+          - { speaker: "ben", text: "Wow. Who made it?", translation: "וואו. מי הכין אותה?" }
+          - { speaker: "eli", text: "I did. Now, would you like to dance?", translation: "אני. ועכשיו, רוצים לרקוד?" }
+          - { speaker: "david", text: "I'll put on the music!", translation: "אני אשים מוזיקה!" }
+      - id: u19-l4-03
+        type: multiple_choice
+        prompt: "איך בן מגיב?"
+        options: [הוא לא מאמין ומודה לכולם, הוא כועס, הוא הולך הביתה]
+        correct: 0
+        lexemes: [surprise]
+      - id: u19-l4-04
+        type: multiple_choice
+        prompt: "מי הכין את העוגה?"
+        options: [אלי, נועה, רחל]
+        correct: 0
+        lexemes: [made, cake]
+      - id: u19-l4-05
+        type: multiple_choice
+        prompt: "מה דוד עושה?"
+        options: [שם מוזיקה, מביא מתנה, מדליק נרות]
+        correct: 0
+        lexemes: [will, music]
+      - id: u19-l4-06
+        type: listening_choice
+        audioText: "Thank you for the invitation. I'd love to come!"
+        question: מה היא עונה להזמנה?
+        options: [היא תבוא בשמחה, היא לא יכולה לבוא, היא עוד לא יודעת]
+        correct: 0
+        lexemes: [id-love-to]
+      - id: u19-l4-07
+        type: dialogue
+        scene: "בסוף המסיבה, מרים ודוד מספרים משהו."
+        lines:
+          - { speaker: "miriam", text: "Everyone, we have some news. David and I are getting married!", translation: "כולם, יש לנו חדשות. דוד ואני מתחתנים!" }
+          - { speaker: "noa", text: "What?! Congratulations!", translation: "מה?! מזל טוב!" }
+          - { speaker: "david", text: "The wedding is in Madrid in June. You're all invited!", translation: "החתונה במדריד ביוני. כולכם מוזמנים!" }
+          - { speaker: "ben", text: "This is the best birthday ever!", translation: "זה יום ההולדת הכי טוב אי פעם!" }
+      - { id: "u19-l4-08", type: "learn", lexeme: "wedding" }
+      - { id: "u19-l4-09", type: "learn", lexeme: "get-married" }
+      - { id: "u19-l4-10", type: "learn", lexeme: "congratulations" }
+      - id: u19-l4-11
+        type: multiple_choice
+        prompt: "איפה ומתי החתונה?"
+        options: [במדריד ביוני, בלונדון ביוני, במדריד במאי]
+        correct: 0
+        lexemes: [wedding]
+      - id: u19-l4-12
+        type: dialogue_gap
+        lines:
+          - { speaker: "rachel", text: "We're getting married!", translation: "אנחנו מתחתנים!" }
+          - { speaker: "noa", text: "Congratulations! That's wonderful news!", translation: "מזל טוב! איזו חדשה נפלאה!" }
+        gap: 1
+        distractors: ["Get well soon! That's wonderful news!", "Happy birthday! That's wonderful news!"]
+        lexemes: [congratulations, get-married]
+      - id: u19-l4-13
+        type: dictation
+        text: "Would you like to dance?"
+        lexemes: [would-you-like, dance]
+      - id: u19-l4-14
+        type: speak_repeat
+        text: "Congratulations! I'll be at the wedding, I promise."
+        translation: "מזל טוב! אני אהיה בחתונה, אני מבטיחה."
+        lexemes: [congratulations, will, wedding, promise]
+
+  # ------------------------------------------------------------------ 5
+  - id: u19-l5
+    kind: reading
+    title: { he: "הזמנה לחתונה", en: "A wedding invitation" }
+    exercises:
+      - { id: "u19-l5-01", type: "learn", lexeme: "invitation" }
+      - id: u19-l5-02
+        type: reading
+        kind: "הזמנה לחתונה"
+        title: "Miriam & David are getting married!"
+        text: |
+          Together with their families, Miriam García and David Aharoni invite you to celebrate their wedding.
+
+          Saturday, 14 June, at six o'clock in the evening, at the Rose Garden, Madrid.
+
+          There will be dinner, music and a lot of dancing!
+
+          Please let us know if you can come before 1 May. We hope you'll be there!
+
+          No presents, please. Your smile is the best present.
+        translation: |
+          יחד עם משפחותיהם, מרים גרסיה ודוד אהרוני מזמינים אתכם לחגוג את חתונתם.
+
+          שבת, 14 ביוני, בשש בערב, בגן הוורדים, מדריד.
+
+          תהיה ארוחת ערב, מוזיקה והרבה ריקודים!
+
+          אנא הודיעו לנו אם תוכלו להגיע לפני 1 במאי. אנחנו מקווים שתהיו שם!
+
+          בלי מתנות, בבקשה. החיוך שלכם הוא המתנה הכי טובה.
+      - id: u19-l5-03
+        type: multiple_choice
+        prompt: "באיזו שעה החתונה?"
+        options: [בשש בערב, בשבע בערב, בשתיים בצהריים]
+        correct: 0
+        lexemes: [wedding]
+      - id: u19-l5-04
+        type: multiple_choice
+        prompt: "עד מתי צריך להודיע אם באים?"
+        options: [עד 1 במאי, עד 14 ביוני, עד סוף יוני]
+        correct: 0
+        lexemes: [invitation]
+      - id: u19-l5-05
+        type: multiple_choice
+        prompt: "מה הם אומרים על מתנות?"
+        options: [לא צריך מתנות, רק כסף, להביא פרחים]
+        correct: 0
+        lexemes: [present]
+      - id: u19-l5-06
+        type: multiple_choice
+        prompt: "מה יהיה בחתונה?"
+        options:
+          - "ארוחת ערב, מוזיקה וריקודים"
+          - רק עוגה ושתייה
+          - הופעה בפארק
+        correct: 0
+        lexemes: [dance, music]
+      - id: u19-l5-07
+        type: fill_blank
+        sentence: "We hope you'll be ___ !"
+        translation: "אנחנו מקווים שתהיו שם!"
+        answers: [there]
+        options: [there, their, here]
+        lexemes: [hope, will]
+      - id: u19-l5-08
+        type: word_bank
+        prompt: "תודה על ההזמנה!"
+        answers: ["Thank you for the invitation!", "Thanks for the invitation!"]
+        distractors: [invite, to]
+        lexemes: [thank-you, invitation]
+      - id: u19-l5-09
+        type: translate
+        direction: to_target
+        prompt: "אנחנו נבוא לחתונה."
+        answers: ["We'll come to the wedding.", "We will come to the wedding.", "We'll be at the wedding.", "We will be at the wedding."]
+        lexemes: [will, wedding]
+      - id: u19-l5-10
+        type: speak_repeat
+        text: "Thank you for the invitation. We'd love to come!"
+        translation: "תודה על ההזמנה. נשמח מאוד לבוא!"
+        lexemes: [invitation, id-love-to]
+
+  # ------------------------------------------------------------------ 6
+  - id: u19-review
+    kind: review
+    title: { he: "חזרה: חגיגות", en: "Review: celebrations" }
+    exercises:
+      - id: u19-r-01
+        type: match_pairs
+        pairs:
+          - [wedding, חתונה]
+          - [present, מתנה]
+          - [candles, נרות]
+          - [dance, לרקוד]
+          - [bring, להביא]
+        lexemes: [wedding, present, candles, dance, bring]
+      - id: u19-r-02
+        type: fill_blank
+        sentence: "It's raining. ___ take an umbrella."
+        translation: "יורד גשם. אני אקח מטרייה."
+        answers: ["I'll"]
+        options: ["I'll", "I'm going", "I"]
+        lexemes: [will, umbrella]
+      - id: u19-r-03
+        type: listening_choice
+        audioText: "We're celebrating our wedding in June. Would you like to come?"
+        question: מה הם עושים ביוני?
+        options: [חוגגים חתונה, חוגגים יום הולדת, נוסעים לחופשה]
+        correct: 0
+        lexemes: [celebrate, wedding, would-you-like]
+      - id: u19-r-04
+        type: word_bank
+        prompt: "אני מבטיח שאני אבוא."
+        answers: ["I promise I'll come.", "I promise I will come.", "I promise that I'll come."]
+        distractors: [won't, going]
+        lexemes: [promise, will]
+      - id: u19-r-05
+        type: dialogue_gap
+        lines:
+          - { speaker: "eli", text: "Would you like some more cake?", translation: "תרצי עוד עוגה?" }
+          - { speaker: "noa", text: "No, thanks. I'm full!", translation: "לא, תודה. אני מלאה!" }
+        gap: 1
+        distractors: ["No, thanks. I'll full!", "No, I'd love to cake."]
+        lexemes: [would-you-like, cake]
+      - id: u19-r-06
+        type: multiple_choice
+        prompt: "חברים מספרים שהם מתחתנים. מה אומרים?"
+        options: ["Congratulations!", "Get well soon!", "Hang on!"]
+        correct: 0
+        lexemes: [congratulations]
+      - id: u19-r-07
+        type: translate
+        direction: to_target
+        prompt: "בואו נזמין את כולם."
+        answers: ["Let's invite everyone.", "Let's invite everybody."]
+        lexemes: [invite]
+      - id: u19-r-08
+        type: translate
+        direction: to_source
+        prompt: "I won't forget your birthday."
+        answers: ["אני לא אשכח את יום ההולדת שלך.", "לא אשכח את יום ההולדת שלך."]
+        lexemes: [wont, birthday]
+      - id: u19-r-09
+        type: dictation
+        text: "Happy birthday!"
+        lexemes: [happy-birthday]
+      - id: u19-r-10
+        type: speak_repeat
+        text: "Would you like to come to my party? I'd love to!"
+        translation: "תרצה לבוא למסיבה שלי? בשמחה!"
+        lexemes: [would-you-like, party, id-love-to]

@@ -12,28 +12,28 @@ canDo:
   - לשאול מחיר ולהגיד שמשהו זול או יקר
 
 vocabulary:
-  - { id: "shirt", text: "shirt", translation: "חולצה", pos: noun, pronunciation: "שֶׁרְט" }
-  - { id: "dress", text: "dress", translation: "שמלה", pos: noun, pronunciation: "דְרֶס" }
-  - { id: "jeans", text: "jeans", translation: "ג'ינס", pos: noun, pronunciation: "ג'ִינְס" }
-  - { id: "shoes", text: "shoes", translation: "נעליים", pos: noun, pronunciation: "שׁוּז" }
-  - { id: "jacket", text: "jacket", translation: "ז'קט, מעיל קל", pos: noun, pronunciation: "ג'ֶקֶט" }
-  - { id: "bag", text: "bag", translation: "תיק, שקית", pos: noun, pronunciation: "בֶּג" }
-  - { id: "red", text: "red", translation: "אדום", pos: adjective, pronunciation: "רֶד" }
-  - { id: "blue", text: "blue", translation: "כחול", pos: adjective, pronunciation: "בְּלוּ" }
-  - { id: "black", text: "black", translation: "שחור", pos: adjective, pronunciation: "בְּלֶק" }
-  - { id: "white", text: "white", translation: "לבן", pos: adjective, pronunciation: "וַוייט" }
-  - { id: "green", text: "green", translation: "ירוק", pos: adjective, pronunciation: "גְרִין" }
-  - { id: "size", text: "size", translation: "מידה", pos: noun, pronunciation: "סַייז", example: { text: "What size are you?", translation: "מה המידה שלך?" } }
-  - { id: "big", text: "big", translation: "גדול", pos: adjective, pronunciation: "בִּיג" }
-  - { id: "too", text: "too", translation: "מדי (יותר מדי)", pos: adverb, pronunciation: "טוּ", example: { text: "It's too big.", translation: "זה גדול מדי." } }
-  - { id: "try-on", text: "try on", translation: "למדוד (בגד)", pos: verb, pronunciation: "טְרַיי אוֹן", example: { text: "Can I try it on?", translation: "אפשר למדוד את זה?" } }
-  - { id: "cheap", text: "cheap", translation: "זול", pos: adjective, pronunciation: "צ'ִיפ" }
-  - { id: "expensive", text: "expensive", translation: "יקר", pos: adjective, pronunciation: "אִקְסְפֶּנְסִיב" }
-  - { id: "this", text: "this", translation: "זה, הזה (קרוב)", pos: pronoun, pronunciation: "דִ'יס" }
-  - { id: "that", text: "that", translation: "ההוא, ההוא שם (רחוק)", pos: pronoun, pronunciation: "דֶ'ט" }
-  - { id: "these", text: "these", translation: "אלה, האלה (קרובים)", pos: pronoun, pronunciation: "דִ'יז" }
-  - { id: "those", text: "those", translation: "ההם, ההם שם (רחוקים)", pos: pronoun, pronunciation: "דוֹ'וּז" }
-  - { id: "ill-take-it", text: "I'll take it", translation: "אני אקח את זה", pos: phrase, pronunciation: "אַייל טֵייק אִיט" }
+  - { id: "shirt", text: "shirt", translation: "חולצה", pos: "noun", pronunciation: "שֶׁרְט" }
+  - { id: "dress", text: "dress", translation: "שמלה", pos: "noun", pronunciation: "דְרֶס" }
+  - { id: "jeans", text: "jeans", translation: "ג'ינס", pos: "noun", pronunciation: "ג'ִינְס" }
+  - { id: "shoes", text: "shoes", translation: "נעליים", pos: "noun", pronunciation: "שׁוּז" }
+  - { id: "jacket", text: "jacket", translation: "ז'קט, מעיל קל", pos: "noun", pronunciation: "ג'ֶקֶט" }
+  - { id: "bag", text: "bag", translation: "תיק, שקית", pos: "noun", pronunciation: "בֶּג" }
+  - { id: "red", text: "red", translation: "אדום", pos: "adjective", pronunciation: "רֶד" }
+  - { id: "blue", text: "blue", translation: "כחול", pos: "adjective", pronunciation: "בְּלוּ" }
+  - { id: "black", text: "black", translation: "שחור", pos: "adjective", pronunciation: "בְּלֶק" }
+  - { id: "white", text: "white", translation: "לבן", pos: "adjective", pronunciation: "וַוייט" }
+  - { id: "green", text: "green", translation: "ירוק", pos: "adjective", pronunciation: "גְרִין" }
+  - { id: "size", text: "size", translation: "מידה", pos: "noun", pronunciation: "סַייז", example: { text: "What size are you?", translation: "מה המידה שלך?" } }
+  - { id: "big", text: "big", translation: "גדול", pos: "adjective", pronunciation: "בִּיג" }
+  - { id: "too", text: "too", translation: "מדי (יותר מדי)", pos: "adverb", pronunciation: "טוּ", example: { text: "It's too big.", translation: "זה גדול מדי." } }
+  - { id: "try-on", text: "try on", translation: "למדוד (בגד)", pos: "verb", pronunciation: "טְרַיי אוֹן", example: { text: "Can I try it on?", translation: "אפשר למדוד את זה?" } }
+  - { id: "cheap", text: "cheap", translation: "זול", pos: "adjective", pronunciation: "צ'ִיפ" }
+  - { id: "expensive", text: "expensive", translation: "יקר", pos: "adjective", pronunciation: "אִקְסְפֶּנְסִיב" }
+  - { id: "this", text: "this", translation: "זה, הזה (קרוב)", pos: "pronoun", pronunciation: "דִ'יס" }
+  - { id: "that", text: "that", translation: "ההוא, ההוא שם (רחוק)", pos: "pronoun", pronunciation: "דֶ'ט" }
+  - { id: "these", text: "these", translation: "אלה, האלה (קרובים)", pos: "pronoun", pronunciation: "דִ'יז" }
+  - { id: "those", text: "those", translation: "ההם, ההם שם (רחוקים)", pos: "pronoun", pronunciation: "דוֹ'וּז" }
+  - { id: "ill-take-it", text: "I'll take it", translation: "אני אקח את זה", pos: "phrase", pronunciation: "אַייל טֵייק אִיט" }
 
 grammar:
   - id: this-that

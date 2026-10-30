@@ -1,0 +1,465 @@
+id: u17-transport
+cefr: A2
+scene: town
+title:
+  he: להתנייד בעיר
+  en: Getting around
+story: "נועה מגלה את התחבורה בלונדון: הרכבת התחתית, האוטובוסים האדומים והאופניים. היא קונה כרטיסים, מפספסת רכבת, ומחליטה מה הדרך הכי טובה להגיע לעבודה."
+canDo:
+  - לקנות כרטיס ולשאול על רציף ועל החלפה
+  - לשאול כמה זמן לוקחת נסיעה
+  - להשוות בין דרכי נסיעה עם the fastest ו־the most
+  - להבין הודעות על עיכובים
+
+vocabulary:
+  - { id: "bus", text: "bus", translation: "אוטובוס", pos: "noun", pronunciation: "בַּאס" }
+  - { id: "train", text: "train", translation: "רכבת", pos: "noun", pronunciation: "טְרֵיין" }
+  - { id: "underground", text: "the Underground", translation: "הרכבת התחתית (בלונדון)", pos: "noun", pronunciation: "דִ'י אַנְדֶרְגְרַאוּנְד" }
+  - { id: "taxi", text: "taxi", translation: "מונית", pos: "noun", pronunciation: "טֶקְסִי" }
+  - { id: "bike", text: "bike", translation: "אופניים", pos: "noun", pronunciation: "בַּייק" }
+  - { id: "bus-stop", text: "bus stop", translation: "תחנת אוטובוס", pos: "noun", pronunciation: "בַּאס סְטוֹפּ" }
+  - { id: "platform", text: "platform", translation: "רציף", pos: "noun", pronunciation: "פְּלֶטְפוֹרְם", example: { text: "The train leaves from platform 4.", translation: "הרכבת יוצאת מרציף 4." } }
+  - { id: "single-ticket", text: "single ticket", translation: "כרטיס לכיוון אחד", pos: "noun", pronunciation: "סִינְגְל טִיקֶט" }
+  - { id: "return-ticket", text: "return ticket", translation: "כרטיס הלוך ושוב", pos: "noun", pronunciation: "רִיטֶרְן טִיקֶט" }
+  - { id: "change", text: "change", translation: "להחליף (רכבת, קו)", pos: "verb", pronunciation: "צ'ֵיינְג'", example: { text: "Change at Oxford Circus.", translation: "החליפו באוקספורד סירקס." } }
+  - { id: "miss", text: "miss", translation: "לפספס", pos: "verb", pronunciation: "מִיס", example: { text: "I missed the bus.", translation: "פספסתי את האוטובוס." } }
+  - { id: "on-time", text: "on time", translation: "בזמן", pos: "phrase", pronunciation: "אוֹן טַיים" }
+  - { id: "delay", text: "delay", translation: "עיכוב", pos: "noun", pronunciation: "דִילֵיי" }
+  - { id: "journey", text: "journey", translation: "נסיעה, מסע", pos: "noun", pronunciation: "ג'ֶרְנִי" }
+  - { id: "how-long", text: "How long does it take?", translation: "כמה זמן זה לוקח?", pos: "phrase", pronunciation: "הַאוּ לוֹנְג דַאז אִיט טֵייק" }
+  - { id: "it-takes", text: "It takes…", translation: "זה לוקח…", pos: "phrase", pronunciation: "אִיט טֵייקְס", example: { text: "It takes twenty minutes by bus.", translation: "זה לוקח עשרים דקות באוטובוס." } }
+  - { id: "by-transport", text: "by bus / by train", translation: "באוטובוס / ברכבת", pos: "phrase", pronunciation: "בַּיי בַּאס" }
+  - { id: "on-foot", text: "on foot", translation: "ברגל", pos: "phrase", pronunciation: "אוֹן פוּט" }
+  - { id: "the-est", text: "the …-est", translation: "הכי (מילים קצרות)", pos: "phrase", pronunciation: "דֶ'ה …אֶסְט", example: { text: "the fastest way", translation: "הדרך הכי מהירה" } }
+  - { id: "the-most", text: "the most", translation: "הכי (מילים ארוכות)", pos: "phrase", pronunciation: "דֶ'ה מוֹסְט", example: { text: "the most expensive ticket", translation: "הכרטיס הכי יקר" } }
+  - { id: "fast", text: "fast", translation: "מהיר", pos: "adjective", pronunciation: "פַאסְט" }
+  - { id: "slow", text: "slow", translation: "איטי", pos: "adjective", pronunciation: "סְלוֹ" }
+
+grammar:
+  - id: superlatives
+    title: { he: "הכי: the fastest, the most expensive", en: "Superlatives" }
+    explanation: |
+      בעברית אומרים "הכי מהיר". באנגלית, כמו בהשוואה, זה תלוי באורך המילה, ותמיד יש **the** לפני:
+
+      - מילה קצרה: **‎-est**: **fast → the fastest**, **cheap → the cheapest**, **slow → the slowest**
+      - מילה שנגמרת ב־y: **easy → the easiest**
+      - מילה ארוכה: **the most**: **the most expensive**, **the most comfortable**
+      - יוצאי דופן: **good → the best**, **bad → the worst**
+
+      ושאלה שימושית מאוד בנסיעות: **How long does it take?** והתשובה: **It takes twenty minutes.**
+    examples:
+      - { text: "The Underground is the fastest way to get to work.", translation: "הרכבת התחתית היא הדרך הכי מהירה להגיע לעבודה." }
+      - { text: "A taxi is the most expensive.", translation: "מונית היא הכי יקרה." }
+      - { text: "This is the best bike in the shop.", translation: "אלה האופניים הכי טובים בחנות." }
+
+lessons:
+  # ------------------------------------------------------------------ 1
+  - id: u17-l1
+    kind: new
+    title: { he: "בתחנה", en: "At the station" }
+    exercises:
+      - id: u17-l1-01
+        type: dialogue
+        scene: "נועה בקופה בתחנת רכבת. היא רוצה לנסוע לבן בגריניץ'."
+        lines:
+          - { speaker: "noa", text: "Hello. A ticket to Greenwich, please.", translation: "שלום. כרטיס לגריניץ', בבקשה." }
+          - { speaker: "cohen", text: "Single or return?", translation: "לכיוון אחד או הלוך ושוב?" }
+          - { speaker: "noa", text: "Return, please. Which platform is it?", translation: "הלוך ושוב, בבקשה. איזה רציף?" }
+          - { speaker: "cohen", text: "Platform three. You need to change at London Bridge.", translation: "רציף שלוש. צריך להחליף בלונדון ברידג'." }
+          - { speaker: "noa", text: "How long does it take?", translation: "כמה זמן זה לוקח?" }
+          - { speaker: "cohen", text: "It takes about twenty-five minutes.", translation: "זה לוקח בערך עשרים וחמש דקות." }
+      - { id: "u17-l1-02", type: "learn", lexeme: "train" }
+      - { id: "u17-l1-03", type: "learn", lexeme: "single-ticket" }
+      - { id: "u17-l1-04", type: "learn", lexeme: "return-ticket" }
+      - { id: "u17-l1-05", type: "learn", lexeme: "platform" }
+      - { id: "u17-l1-06", type: "learn", lexeme: "change" }
+      - { id: "u17-l1-07", type: "learn", lexeme: "how-long" }
+      - { id: "u17-l1-08", type: "learn", lexeme: "it-takes" }
+      - id: u17-l1-09
+        type: multiple_choice
+        prompt: "איזה כרטיס נועה קונה?"
+        options: [הלוך ושוב, לכיוון אחד, כרטיס חודשי]
+        correct: 0
+        lexemes: [return-ticket]
+      - id: u17-l1-10
+        type: multiple_choice
+        prompt: "איפה צריך להחליף רכבת?"
+        options: [בלונדון ברידג', בגריניץ', ברציף שלוש]
+        correct: 0
+        lexemes: [change]
+      - id: u17-l1-11
+        type: match_pairs
+        pairs:
+          - [platform, רציף]
+          - [single ticket, כרטיס לכיוון אחד]
+          - [return ticket, כרטיס הלוך ושוב]
+          - [change, להחליף]
+          - [train, רכבת]
+        lexemes: [platform, single-ticket, return-ticket, change, train]
+      - id: u17-l1-12
+        type: listening_choice
+        audioText: "The train to Brighton leaves from platform seven."
+        question: מאיזה רציף?
+        options: ["7", "3", "11"]
+        correct: 0
+        lexemes: [train, platform]
+      - id: u17-l1-13
+        type: word_bank
+        prompt: "זה לוקח בערך עשרים דקות."
+        answers: ["It takes about twenty minutes."]
+        distractors: [take, long]
+        lexemes: [it-takes, twenty]
+      - id: u17-l1-14
+        type: speak_repeat
+        text: "A return ticket to Greenwich, please. How long does it take?"
+        translation: "כרטיס הלוך ושוב לגריניץ', בבקשה. כמה זמן זה לוקח?"
+        lexemes: [return-ticket, how-long]
+
+  # ------------------------------------------------------------------ 2
+  - id: u17-l2
+    kind: new
+    title: { he: "אוטובוס, מונית או אופניים?", en: "Bus, taxi or bike?" }
+    exercises:
+      - { id: "u17-l2-01", type: "learn", lexeme: "bus" }
+      - { id: "u17-l2-02", type: "learn", lexeme: "bus-stop" }
+      - { id: "u17-l2-03", type: "learn", lexeme: "underground" }
+      - { id: "u17-l2-04", type: "learn", lexeme: "taxi" }
+      - { id: "u17-l2-05", type: "learn", lexeme: "bike" }
+      - { id: "u17-l2-06", type: "learn", lexeme: "by-transport" }
+      - { id: "u17-l2-07", type: "learn", lexeme: "on-foot" }
+      - id: u17-l2-08
+        type: match_pairs
+        pairs:
+          - [bus, אוטובוס]
+          - [taxi, מונית]
+          - [bike, אופניים]
+          - [bus stop, תחנת אוטובוס]
+          - [on foot, ברגל]
+        lexemes: [bus, taxi, bike, bus-stop, on-foot]
+      - id: u17-l2-09
+        type: tip
+        title: "the Tube"
+        text: |
+          הרכבת התחתית של לונדון נקראת רשמית the Underground, אבל כולם קוראים לה the Tube.
+
+          ובאמריקה אומרים subway.
+      - id: u17-l2-10
+        type: dialogue_gap
+        lines:
+          - { speaker: "eli", text: "How do you get to work?", translation: "איך את מגיעה לעבודה?" }
+          - { speaker: "noa", text: "Usually by bus, but sometimes I go on foot.", translation: "בדרך כלל באוטובוס, אבל לפעמים אני הולכת ברגל." }
+        gap: 1
+        distractors: ["Usually with bus, but sometimes I go on foot.", "Usually by bus, but sometimes I go by foot bike."]
+        lexemes: [by-transport, on-foot, sometimes]
+      - { id: "u17-l2-11", type: "learn", lexeme: "fast" }
+      - { id: "u17-l2-12", type: "learn", lexeme: "slow" }
+      - id: u17-l2-13
+        type: fill_blank
+        sentence: "The bus is ___ than the train."
+        translation: "האוטובוס איטי יותר מהרכבת."
+        answers: [slower]
+        options: [slower, more slow, slowest]
+        lexemes: [bus, slow, than, train]
+      - id: u17-l2-14
+        type: translate
+        direction: to_target
+        prompt: "איפה תחנת האוטובוס?"
+        answers: ["Where is the bus stop?", "Where's the bus stop?"]
+        lexemes: [bus-stop, where]
+      - id: u17-l2-15
+        type: speak_repeat
+        text: "I usually go to work by bike."
+        translation: "בדרך כלל אני נוסע לעבודה באופניים."
+        lexemes: [by-transport, bike, go-to-work]
+
+  # ------------------------------------------------------------------ 3
+  - id: u17-l3
+    kind: grammar
+    grammar: superlatives
+    title: { he: "הדרך הכי מהירה", en: "The fastest way" }
+    exercises:
+      - { id: "u17-l3-01", type: "learn", lexeme: "the-est" }
+      - { id: "u17-l3-02", type: "learn", lexeme: "the-most" }
+      - id: u17-l3-03
+        type: fill_blank
+        sentence: "The Underground is the ___ way to get there."
+        translation: "הרכבת התחתית היא הדרך הכי מהירה להגיע לשם."
+        answers: [fastest]
+        options: [fastest, faster, most fast]
+        lexemes: [the-est, fast, underground]
+      - id: u17-l3-04
+        type: fill_blank
+        sentence: "A taxi is the ___ expensive."
+        translation: "מונית היא הכי יקרה."
+        answers: [most]
+        options: [most, more, much]
+        lexemes: [the-most, taxi, expensive]
+      - id: u17-l3-05
+        type: fill_blank
+        sentence: "The bus is the ___ . (cheap)"
+        translation: "האוטובוס הוא הכי זול."
+        answers: [cheapest]
+        options: [cheapest, cheaper, most cheap]
+        lexemes: [the-est, cheap, bus]
+      - id: u17-l3-06
+        type: multiple_choice
+        prompt: איזה משפט נכון?
+        options: ["It's the best café in London.", "It's the goodest café in London.", "It's the most good café in London."]
+        correct: 0
+        lexemes: [the-est]
+      - id: u17-l3-07
+        type: multiple_choice
+        prompt: "מה ההבדל? faster / the fastest"
+        options: [מהיר יותר / הכי מהיר, הכי מהיר / מהיר יותר, מהיר / איטי]
+        correct: 0
+        lexemes: [fast, the-est]
+      - id: u17-l3-08
+        type: dialogue_gap
+        lines:
+          - { speaker: "noa", text: "What's the cheapest way to get to the airport?", translation: "מה הדרך הכי זולה להגיע לשדה התעופה?" }
+          - { speaker: "ben", text: "The bus. But it's also the slowest!", translation: "האוטובוס. אבל הוא גם הכי איטי!" }
+        gap: 1
+        distractors: ["The bus. But it's also the most slow!", "The bus. But it's also slowest than."]
+        lexemes: [the-est, bus, slow, airport]
+      - id: u17-l3-09
+        type: word_bank
+        prompt: "זה החודש הכי גשום בשנה."
+        answers: ["It's the rainiest month of the year.", "This is the rainiest month of the year.", "It is the rainiest month of the year."]
+        distractors: [most, rainier]
+        lexemes: [the-est, rainy]
+      - id: u17-l3-10
+        type: translate
+        direction: to_target
+        prompt: "זה הכרטיס הכי יקר."
+        answers: ["It's the most expensive ticket.", "This is the most expensive ticket.", "It is the most expensive ticket."]
+        lexemes: [the-most, expensive, ticket]
+      - id: u17-l3-11
+        type: translate
+        direction: to_source
+        prompt: "What's the best way to get there?"
+        answers: ["מה הדרך הכי טובה להגיע לשם?", "מה הדרך הטובה ביותר להגיע לשם?", "איך הכי טוב להגיע לשם?"]
+        lexemes: [the-est]
+      - id: u17-l3-12
+        type: speak_repeat
+        text: "The bike is the cheapest and the fastest way."
+        translation: "האופניים הם הדרך הכי זולה והכי מהירה."
+        lexemes: [bike, the-est, cheap, fast]
+
+  # ------------------------------------------------------------------ 4
+  - id: u17-l4
+    kind: listening
+    title: { he: "יום של עיכובים", en: "A day of delays" }
+    exercises:
+      - { id: "u17-l4-01", type: "learn", lexeme: "miss" }
+      - { id: "u17-l4-02", type: "learn", lexeme: "on-time" }
+      - { id: "u17-l4-03", type: "learn", lexeme: "delay" }
+      - { id: "u17-l4-04", type: "learn", lexeme: "journey" }
+      - id: u17-l4-05
+        type: dialogue
+        scene: "נועה מגיעה מאוחר לפגישה. בן מחכה לה."
+        lines:
+          - { speaker: "ben", text: "There you are! The meeting started ten minutes ago.", translation: "הנה את! הפגישה התחילה לפני עשר דקות." }
+          - { speaker: "noa", text: "I'm so sorry. What a journey!", translation: "אני כל כך מצטערת. איזו נסיעה!" }
+          - { speaker: "noa", text: "First I missed the bus. Then there was a delay on the Underground.", translation: "קודם פספסתי את האוטובוס. אחר כך היה עיכוב ברכבת התחתית." }
+          - { speaker: "ben", text: "Oh no. Why didn't you take a taxi?", translation: "אוי לא. למה לא לקחת מונית?" }
+          - { speaker: "noa", text: "I did! But the traffic was terrible.", translation: "לקחתי! אבל הפקקים היו נוראיים." }
+          - { speaker: "ben", text: "Next time, take a bike. It's always on time!", translation: "בפעם הבאה, קחי אופניים. הם תמיד בזמן!" }
+      - id: u17-l4-06
+        type: multiple_choice
+        prompt: "מה קרה קודם?"
+        options: [נועה פספסה את האוטובוס, היה עיכוב ברכבת, היא לקחה מונית]
+        correct: 0
+        lexemes: [miss, bus]
+      - id: u17-l4-07
+        type: multiple_choice
+        prompt: "מתי התחילה הפגישה?"
+        options: [לפני עשר דקות, לפני שעה, היא עוד לא התחילה]
+        correct: 0
+        lexemes: [ago]
+      - id: u17-l4-08
+        type: multiple_choice
+        prompt: "מה בן מציע?"
+        options: [לנסוע באופניים, לצאת מוקדם יותר, לעבוד מהבית]
+        correct: 0
+        lexemes: [bike, on-time]
+      - id: u17-l4-09
+        type: listening_choice
+        audioText: "We're sorry. There is a twenty-minute delay on this train."
+        question: מה ההודעה?
+        options: [עיכוב של 20 דקות, הרכבת בזמן, הרכבת בוטלה]
+        correct: 0
+        lexemes: [delay, train]
+      - id: u17-l4-10
+        type: dialogue_gap
+        lines:
+          - { speaker: "rachel", text: "Is the train on time?", translation: "הרכבת בזמן?" }
+          - { speaker: "ben", text: "No, there's a delay. It takes forty minutes today.", translation: "לא, יש עיכוב. היום זה לוקח ארבעים דקות." }
+        gap: 1
+        distractors: ["No, there's a delay. It take forty minutes today.", "Yes, there's a delay on time."]
+        lexemes: [on-time, delay, it-takes]
+      - id: u17-l4-11
+        type: dictation
+        text: "I missed the bus this morning."
+        lexemes: [miss, bus]
+      - id: u17-l4-12
+        type: translate
+        direction: to_target
+        prompt: "הרכבת תמיד בזמן."
+        answers: ["The train is always on time.", "The train's always on time."]
+        lexemes: [train, always, on-time]
+      - id: u17-l4-13
+        type: speak_repeat
+        text: "Sorry I'm late. I missed the train."
+        translation: "סליחה שאני מאחרת. פספסתי את הרכבת."
+        lexemes: [late, miss, train]
+
+  # ------------------------------------------------------------------ 5
+  - id: u17-l5
+    kind: reading
+    title: { he: "המדריך לתחבורה בלונדון", en: "A guide to London transport" }
+    exercises:
+      - id: u17-l5-01
+        type: reading
+        kind: "מדריך לתיירים"
+        title: "Getting around London"
+        text: |
+          The Underground (or "the Tube") is usually the fastest way to travel around London. Trains come every few minutes, but they are very busy in the morning.
+
+          The famous red buses are slower, but they are cheaper than the Tube, and you can see the city from the window.
+
+          Taxis are the most comfortable way to travel, but they are also the most expensive.
+
+          And the best way on a sunny day? On foot or by bike! London is bigger than it looks on the map, so take a good pair of shoes.
+        translation: |
+          הרכבת התחתית (או "הטיוב") היא בדרך כלל הדרך הכי מהירה לנסוע בלונדון. הרכבות מגיעות כל כמה דקות, אבל הן מאוד עמוסות בבוקר.
+
+          האוטובוסים האדומים המפורסמים איטיים יותר, אבל הם זולים יותר מהטיוב, ואפשר לראות את העיר מהחלון.
+
+          מוניות הן הדרך הכי נוחה לנסוע, אבל הן גם הכי יקרות.
+
+          והדרך הכי טובה ביום שמשי? ברגל או באופניים! לונדון גדולה יותר ממה שהיא נראית במפה, אז קחו זוג נעליים טובות.
+      - id: u17-l5-02
+        type: multiple_choice
+        prompt: "מה הדרך הכי מהירה?"
+        options: [הרכבת התחתית, האוטובוס, מונית]
+        correct: 0
+        lexemes: [underground, the-est]
+      - id: u17-l5-03
+        type: multiple_choice
+        prompt: "מה היתרון של האוטובוס?"
+        options: [זול יותר ורואים את העיר, מהיר יותר, נוח יותר]
+        correct: 0
+        lexemes: [bus, cheap]
+      - id: u17-l5-04
+        type: multiple_choice
+        prompt: "מה הדרך הכי יקרה?"
+        options: [מונית, הרכבת התחתית, אופניים]
+        correct: 0
+        lexemes: [taxi, the-most]
+      - id: u17-l5-05
+        type: multiple_choice
+        prompt: "מתי הרכבות עמוסות?"
+        options: [בבוקר, בלילה, בסוף השבוע]
+        correct: 0
+        lexemes: [in-the-morning]
+      - id: u17-l5-06
+        type: fill_blank
+        sentence: "Taxis are the most ___ way to travel."
+        translation: "מוניות הן הדרך הכי נוחה לנסוע."
+        answers: [comfortable]
+        options: [comfortable, comfortablest, fast]
+        lexemes: [the-most, taxi]
+      - id: u17-l5-07
+        type: fill_blank
+        sentence: "The red buses are ___ than the Tube."
+        translation: "האוטובוסים האדומים זולים יותר מהטיוב."
+        answers: [cheaper]
+        options: [cheaper, cheapest, more cheap]
+        lexemes: [cheap, than, bus]
+      - id: u17-l5-08
+        type: word_bank
+        prompt: "הדרך הכי טובה היא ברגל."
+        answers: ["The best way is on foot."]
+        distractors: [by, better]
+        lexemes: [the-est, on-foot]
+      - id: u17-l5-09
+        type: translate
+        direction: to_target
+        prompt: "לונדון גדולה יותר מתל אביב."
+        answers: ["London is bigger than Tel Aviv."]
+        lexemes: [big, than]
+      - id: u17-l5-10
+        type: speak_repeat
+        text: "The Tube is the fastest way to travel around London."
+        translation: "הטיוב היא הדרך הכי מהירה לנסוע בלונדון."
+        lexemes: [underground, the-est, fast]
+
+  # ------------------------------------------------------------------ 6
+  - id: u17-review
+    kind: review
+    title: { he: "חזרה: להתנייד בעיר", en: "Review: getting around" }
+    exercises:
+      - id: u17-r-01
+        type: match_pairs
+        pairs:
+          - [delay, עיכוב]
+          - [journey, נסיעה]
+          - [miss, לפספס]
+          - [on time, בזמן]
+          - [fast, מהיר]
+        lexemes: [delay, journey, miss, on-time, fast]
+      - id: u17-r-02
+        type: fill_blank
+        sentence: "How long does it ___ by bus?"
+        translation: "כמה זמן זה לוקח באוטובוס?"
+        answers: [take]
+        options: [take, takes, took]
+        lexemes: [how-long, by-transport]
+      - id: u17-r-03
+        type: listening_choice
+        audioText: "Change at Victoria for the airport train."
+        question: מה צריך לעשות?
+        options: [להחליף רכבת בוויקטוריה, לקנות כרטיס בוויקטוריה, לרדת בשדה התעופה]
+        correct: 0
+        lexemes: [change, train, airport]
+      - id: u17-r-04
+        type: word_bank
+        prompt: "זו המסעדה הכי טובה בעיר."
+        answers: ["It's the best restaurant in the city.", "This is the best restaurant in the city.", "It is the best restaurant in the city."]
+        distractors: [better, most]
+        lexemes: [the-est, city]
+      - id: u17-r-05
+        type: dialogue_gap
+        lines:
+          - { speaker: "cohen", text: "Single or return?", translation: "לכיוון אחד או הלוך ושוב?" }
+          - { speaker: "miriam", text: "Single, please. I'm not coming back today.", translation: "לכיוון אחד, בבקשה. אני לא חוזרת היום." }
+        gap: 1
+        distractors: ["Return, please. I'm not coming back today.", "Single, please. I'm coming back today."]
+        lexemes: [single-ticket, return-ticket]
+      - id: u17-r-06
+        type: multiple_choice
+        prompt: "איזה משפט נכון?"
+        options: ["It's the most beautiful park in London.", "It's the beautifullest park in London.", "It's the more beautiful park in London."]
+        correct: 0
+        lexemes: [the-most, park]
+      - id: u17-r-07
+        type: translate
+        direction: to_target
+        prompt: "פספסתי את הרכבת."
+        answers: ["I missed the train."]
+        lexemes: [miss, train]
+      - id: u17-r-08
+        type: translate
+        direction: to_source
+        prompt: "It takes ten minutes on foot."
+        answers: ["זה לוקח עשר דקות ברגל.", "עשר דקות ברגל.", "זה עשר דקות ברגל."]
+        lexemes: [it-takes, on-foot, ten]
+      - id: u17-r-09
+        type: dictation
+        text: "Which platform is it?"
+        lexemes: [platform]
+      - id: u17-r-10
+        type: speak_repeat
+        text: "What's the fastest way to get to the station?"
+        translation: "מה הדרך הכי מהירה להגיע לתחנה?"
+        lexemes: [the-est, fast, station]

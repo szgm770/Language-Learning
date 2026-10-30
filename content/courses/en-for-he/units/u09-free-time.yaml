@@ -12,28 +12,28 @@ canDo:
   - "להגיד באיזו תדירות: תמיד, לפעמים, אף פעם"
 
 vocabulary:
-  - { id: "weekend", text: "weekend", translation: "סוף שבוע", pos: noun, pronunciation: "וִויקֶנְד", example: { text: "What do you do at the weekend?", translation: "מה אתה עושה בסוף השבוע?" } }
-  - { id: "free-time", text: "free time", translation: "זמן פנוי", pos: phrase, pronunciation: "פְרִי טַיים" }
-  - { id: "music", text: "music", translation: "מוזיקה", pos: noun, pronunciation: "מְיוּזִיק" }
-  - { id: "sport", text: "sport", translation: "ספורט", pos: noun, pronunciation: "סְפּוֹרְט" }
-  - { id: "football", text: "football", translation: "כדורגל", pos: noun, pronunciation: "פוּטְבּוֹל" }
-  - { id: "play", text: "play", translation: "לשחק, לנגן", pos: verb, pronunciation: "פְּלֵיי", example: { text: "I play football.", translation: "אני משחק כדורגל." } }
-  - { id: "watch", text: "watch", translation: "לצפות, לראות", pos: verb, pronunciation: "ווֹץ'", example: { text: "We watch TV.", translation: "אנחנו רואים טלוויזיה." } }
-  - { id: "movie", text: "movie", translation: "סרט", pos: noun, pronunciation: "מוּבִי" }
-  - { id: "swim", text: "swim", translation: "לשחות", pos: verb, pronunciation: "סְוִוים" }
-  - { id: "cook", text: "cook", translation: "לבשל", pos: verb, pronunciation: "קוּק" }
-  - { id: "read", text: "read", translation: "לקרוא", pos: verb, pronunciation: "רִיד" }
-  - { id: "travel-verb", text: "travel", translation: "לטייל, לנסוע", pos: verb, pronunciation: "טְרֶבֶל" }
-  - { id: "can", text: "can", translation: "יכול, יודע (לעשות)", pos: verb, pronunciation: "קֶן", example: { text: "I can swim.", translation: "אני יודע לשחות." } }
-  - { id: "cant", text: "can't", translation: "לא יכול, לא יודע", pos: verb, pronunciation: "קַאנְט", example: { text: "I can't cook.", translation: "אני לא יודעת לבשל." } }
-  - { id: "always", text: "always", translation: "תמיד", pos: adverb, pronunciation: "אוֹלְוֵויז" }
-  - { id: "sometimes", text: "sometimes", translation: "לפעמים", pos: adverb, pronunciation: "סַאמְטַיימְז" }
-  - { id: "never", text: "never", translation: "אף פעם לא", pos: adverb, pronunciation: "נֶבֶר" }
-  - { id: "together", text: "together", translation: "ביחד", pos: adverb, pronunciation: "טוּגֶדֶ'ר" }
-  - { id: "do-you-want-to", text: "Do you want to…?", translation: "אתה רוצה ל…? (הזמנה)", pos: phrase, pronunciation: "דוּ יוּ ווֹנְט טוּ", example: { text: "Do you want to watch a movie?", translation: "רוצה לראות סרט?" } }
-  - { id: "sure", text: "Sure!", translation: "בטח!", pos: phrase, pronunciation: "שׁוּר" }
-  - { id: "maybe", text: "maybe", translation: "אולי", pos: adverb, pronunciation: "מֵייבִּי" }
-  - { id: "sorry-i-cant", text: "Sorry, I can't.", translation: "מצטער, אני לא יכול.", pos: phrase, pronunciation: "סוֹרִי, אַיי קַאנְט" }
+  - { id: "weekend", text: "weekend", translation: "סוף שבוע", pos: "noun", pronunciation: "וִויקֶנְד", example: { text: "What do you do at the weekend?", translation: "מה אתה עושה בסוף השבוע?" } }
+  - { id: "free-time", text: "free time", translation: "זמן פנוי", pos: "phrase", pronunciation: "פְרִי טַיים" }
+  - { id: "music", text: "music", translation: "מוזיקה", pos: "noun", pronunciation: "מְיוּזִיק" }
+  - { id: "sport", text: "sport", translation: "ספורט", pos: "noun", pronunciation: "סְפּוֹרְט" }
+  - { id: "football", text: "football", translation: "כדורגל", pos: "noun", pronunciation: "פוּטְבּוֹל" }
+  - { id: "play", text: "play", translation: "לשחק, לנגן", pos: "verb", pronunciation: "פְּלֵיי", example: { text: "I play football.", translation: "אני משחק כדורגל." } }
+  - { id: "watch", text: "watch", translation: "לצפות, לראות", pos: "verb", pronunciation: "ווֹץ'", example: { text: "We watch TV.", translation: "אנחנו רואים טלוויזיה." } }
+  - { id: "movie", text: "movie", translation: "סרט", pos: "noun", pronunciation: "מוּבִי" }
+  - { id: "swim", text: "swim", translation: "לשחות", pos: "verb", pronunciation: "סְוִוים" }
+  - { id: "cook", text: "cook", translation: "לבשל", pos: "verb", pronunciation: "קוּק" }
+  - { id: "read", text: "read", translation: "לקרוא", pos: "verb", pronunciation: "רִיד" }
+  - { id: "travel-verb", text: "travel", translation: "לטייל, לנסוע", pos: "verb", pronunciation: "טְרֶבֶל" }
+  - { id: "can", text: "can", translation: "יכול, יודע (לעשות)", pos: "verb", pronunciation: "קֶן", example: { text: "I can swim.", translation: "אני יודע לשחות." } }
+  - { id: "cant", text: "can't", translation: "לא יכול, לא יודע", pos: "verb", pronunciation: "קַאנְט", example: { text: "I can't cook.", translation: "אני לא יודעת לבשל." } }
+  - { id: "always", text: "always", translation: "תמיד", pos: "adverb", pronunciation: "אוֹלְוֵויז" }
+  - { id: "sometimes", text: "sometimes", translation: "לפעמים", pos: "adverb", pronunciation: "סַאמְטַיימְז" }
+  - { id: "never", text: "never", translation: "אף פעם לא", pos: "adverb", pronunciation: "נֶבֶר" }
+  - { id: "together", text: "together", translation: "ביחד", pos: "adverb", pronunciation: "טוּגֶדֶ'ר" }
+  - { id: "do-you-want-to", text: "Do you want to…?", translation: "אתה רוצה ל…? (הזמנה)", pos: "phrase", pronunciation: "דוּ יוּ ווֹנְט טוּ", example: { text: "Do you want to watch a movie?", translation: "רוצה לראות סרט?" } }
+  - { id: "sure", text: "Sure!", translation: "בטח!", pos: "phrase", pronunciation: "שׁוּר" }
+  - { id: "maybe", text: "maybe", translation: "אולי", pos: "adverb", pronunciation: "מֵייבִּי" }
+  - { id: "sorry-i-cant", text: "Sorry, I can't.", translation: "מצטער, אני לא יכול.", pos: "phrase", pronunciation: "סוֹרִי, אַיי קַאנְט" }
 
 grammar:
   - id: can-cant

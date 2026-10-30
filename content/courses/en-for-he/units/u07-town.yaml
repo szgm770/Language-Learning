@@ -12,26 +12,26 @@ canDo:
   - לפנות לאנשים בנימוס ברחוב
 
 vocabulary:
-  - { id: "excuse-me", text: "Excuse me", translation: "סליחה (כשפונים למישהו)", pos: phrase, pronunciation: "אִקְסְקְיוּז מִי", example: { text: "Excuse me, where is the station?", translation: "סליחה, איפה התחנה?" } }
-  - { id: "street", text: "street", translation: "רחוב", pos: noun, pronunciation: "סְטְרִיט" }
-  - { id: "station", text: "station", translation: "תחנה (רכבת)", pos: noun, pronunciation: "סְטֵיישְׁן" }
-  - { id: "bank", text: "bank", translation: "בנק", pos: noun, pronunciation: "בֶּנְק" }
-  - { id: "pharmacy", text: "pharmacy", translation: "בית מרקחת", pos: noun, pronunciation: "פַארְמָסִי" }
-  - { id: "supermarket", text: "supermarket", translation: "סופרמרקט", pos: noun, pronunciation: "סוּפֶּרְמַרְקֶט" }
-  - { id: "museum", text: "museum", translation: "מוזיאון", pos: noun, pronunciation: "מְיוּזִיאֶם" }
-  - { id: "park", text: "park", translation: "פארק, גן ציבורי", pos: noun, pronunciation: "פַּארְק" }
-  - { id: "left", text: "left", translation: "שמאלה, שמאל", pos: adverb, pronunciation: "לֶפְט" }
-  - { id: "right", text: "right", translation: "ימינה, ימין", pos: adverb, pronunciation: "רַייט" }
-  - { id: "straight-on", text: "straight on", translation: "ישר", pos: phrase, pronunciation: "סְטְרֵייט אוֹן" }
-  - { id: "turn", text: "turn", translation: "לפנות", pos: verb, pronunciation: "טֶרְן", example: { text: "Turn left.", translation: "פנה שמאלה." } }
-  - { id: "next-to", text: "next to", translation: "ליד, צמוד ל־", pos: preposition, pronunciation: "נֶקְסְט טוּ", example: { text: "The bank is next to the station.", translation: "הבנק ליד התחנה." } }
-  - { id: "opposite", text: "opposite", translation: "מול", pos: preposition, pronunciation: "אוֹפּוֹזִיט" }
-  - { id: "near", text: "near", translation: "קרוב", pos: adverb, pronunciation: "נִיר", example: { text: "Is it near here?", translation: "זה קרוב לכאן?" } }
-  - { id: "far", text: "far", translation: "רחוק", pos: adverb, pronunciation: "פַאר" }
-  - { id: "there-is", text: "there is", translation: "יש (דבר אחד)", pos: phrase, pronunciation: "דֶ'ר אִיז", example: { text: "There is a bank on this street.", translation: "יש בנק ברחוב הזה." } }
-  - { id: "there-are", text: "there are", translation: "יש (כמה דברים)", pos: phrase, pronunciation: "דֶ'ר אָר", example: { text: "There are two museums near here.", translation: "יש שני מוזיאונים קרוב לכאן." } }
-  - { id: "is-there", text: "Is there…?", translation: "יש…? (שאלה)", pos: phrase, pronunciation: "אִיז דֶ'ר", example: { text: "Is there a pharmacy near here?", translation: "יש בית מרקחת קרוב לכאן?" } }
-  - { id: "here", text: "here", translation: "כאן", pos: adverb, pronunciation: "הִיר" }
+  - { id: "excuse-me", text: "Excuse me", translation: "סליחה (כשפונים למישהו)", pos: "phrase", pronunciation: "אִקְסְקְיוּז מִי", example: { text: "Excuse me, where is the station?", translation: "סליחה, איפה התחנה?" } }
+  - { id: "street", text: "street", translation: "רחוב", pos: "noun", pronunciation: "סְטְרִיט" }
+  - { id: "station", text: "station", translation: "תחנה (רכבת)", pos: "noun", pronunciation: "סְטֵיישְׁן" }
+  - { id: "bank", text: "bank", translation: "בנק", pos: "noun", pronunciation: "בֶּנְק" }
+  - { id: "pharmacy", text: "pharmacy", translation: "בית מרקחת", pos: "noun", pronunciation: "פַארְמָסִי" }
+  - { id: "supermarket", text: "supermarket", translation: "סופרמרקט", pos: "noun", pronunciation: "סוּפֶּרְמַרְקֶט" }
+  - { id: "museum", text: "museum", translation: "מוזיאון", pos: "noun", pronunciation: "מְיוּזִיאֶם" }
+  - { id: "park", text: "park", translation: "פארק, גן ציבורי", pos: "noun", pronunciation: "פַּארְק" }
+  - { id: "left", text: "left", translation: "שמאלה, שמאל", pos: "adverb", pronunciation: "לֶפְט" }
+  - { id: "right", text: "right", translation: "ימינה, ימין", pos: "adverb", pronunciation: "רַייט" }
+  - { id: "straight-on", text: "straight on", translation: "ישר", pos: "phrase", pronunciation: "סְטְרֵייט אוֹן" }
+  - { id: "turn", text: "turn", translation: "לפנות", pos: "verb", pronunciation: "טֶרְן", example: { text: "Turn left.", translation: "פנה שמאלה." } }
+  - { id: "next-to", text: "next to", translation: "ליד, צמוד ל־", pos: "preposition", pronunciation: "נֶקְסְט טוּ", example: { text: "The bank is next to the station.", translation: "הבנק ליד התחנה." } }
+  - { id: "opposite", text: "opposite", translation: "מול", pos: "preposition", pronunciation: "אוֹפּוֹזִיט" }
+  - { id: "near", text: "near", translation: "קרוב", pos: "adverb", pronunciation: "נִיר", example: { text: "Is it near here?", translation: "זה קרוב לכאן?" } }
+  - { id: "far", text: "far", translation: "רחוק", pos: "adverb", pronunciation: "פַאר" }
+  - { id: "there-is", text: "there is", translation: "יש (דבר אחד)", pos: "phrase", pronunciation: "דֶ'ר אִיז", example: { text: "There is a bank on this street.", translation: "יש בנק ברחוב הזה." } }
+  - { id: "there-are", text: "there are", translation: "יש (כמה דברים)", pos: "phrase", pronunciation: "דֶ'ר אָר", example: { text: "There are two museums near here.", translation: "יש שני מוזיאונים קרוב לכאן." } }
+  - { id: "is-there", text: "Is there…?", translation: "יש…? (שאלה)", pos: "phrase", pronunciation: "אִיז דֶ'ר", example: { text: "Is there a pharmacy near here?", translation: "יש בית מרקחת קרוב לכאן?" } }
+  - { id: "here", text: "here", translation: "כאן", pos: "adverb", pronunciation: "הִיר" }
 
 grammar:
   - id: there-is-are

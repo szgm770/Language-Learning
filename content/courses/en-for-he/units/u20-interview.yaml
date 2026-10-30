@@ -1,0 +1,650 @@
+id: u20-interview
+cefr: A2
+scene: work
+title:
+  he: הראיון
+  en: The interview
+story: "החברה מחפשת ראש צוות לפרויקט חדש בין תל אביב ללונדון. נועה מגישה מועמדות, מתכוננת עם בן, ומספרת בראיון על הניסיון שלה."
+canDo:
+  - לדבר על ניסיון ועל כישורים בראיון עבודה
+  - "להשתמש בהווה מושלם: I have worked, I have never…"
+  - לשאול Have you ever…?
+  - להשתמש ב־already ו־yet
+
+vocabulary:
+  - { id: "interview", text: "interview", translation: "ראיון", pos: "noun", pronunciation: "אִינְטֶרְוְיוּ" }
+  - { id: "apply", text: "apply", translation: "להגיש מועמדות", pos: "verb", pronunciation: "אַפְּלַיי", example: { text: "I'm going to apply for the job.", translation: "אני הולכת להגיש מועמדות למשרה." } }
+  - { id: "experience", text: "experience", translation: "ניסיון", pos: "noun", pronunciation: "אִיקְסְפִּירִיֶנְס" }
+  - { id: "skills", text: "skills", translation: "כישורים", pos: "noun", pronunciation: "סְקִילְז" }
+  - { id: "team", text: "team", translation: "צוות", pos: "noun", pronunciation: "טִים" }
+  - { id: "team-leader", text: "team leader", translation: "ראש צוות", pos: "noun", pronunciation: "טִים לִידֶר" }
+  - { id: "project", text: "project", translation: "פרויקט", pos: "noun", pronunciation: "פְּרוֹג'ֶקְט" }
+  - { id: "salary", text: "salary", translation: "משכורת", pos: "noun", pronunciation: "סֶלָרִי" }
+  - { id: "strong", text: "strong", translation: "חזק", pos: "adjective", pronunciation: "סְטְרוֹנְג" }
+  - { id: "weak", text: "weak", translation: "חלש", pos: "adjective", pronunciation: "וִויק" }
+  - { id: "have-done", text: "have + done", translation: "הווה מושלם (עשיתי, עד עכשיו)", pos: "phrase", pronunciation: "הֶב דַאן", example: { text: "I have worked in London for a year.", translation: "אני עובדת בלונדון כבר שנה." } }
+  - { id: "have-you-ever", text: "Have you ever…?", translation: "האם אי פעם…?", pos: "phrase", pronunciation: "הֶב יוּ אֶבֶר", example: { text: "Have you ever led a team?", translation: "ניהלת פעם צוות?" } }
+  - { id: "ever", text: "ever", translation: "אי פעם", pos: "adverb", pronunciation: "אֶבֶר" }
+  - { id: "already", text: "already", translation: "כבר", pos: "adverb", pronunciation: "אוֹלְרֶדִי" }
+  - { id: "yet", text: "yet", translation: "עדיין (לא), כבר? (בשאלה)", pos: "adverb", pronunciation: "יֶט", example: { text: "I haven't finished yet.", translation: "עוד לא סיימתי." } }
+  - { id: "been", text: "been", translation: "הייתי (בהווה מושלם, צורה שלישית של be)", pos: "verb", pronunciation: "בִּין", example: { text: "Have you ever been to Japan?", translation: "היית פעם ביפן?" } }
+  - { id: "led", text: "led", translation: "הובלתי, ניהלתי (lead)", pos: "verb", pronunciation: "לֶד" }
+  - { id: "achieve", text: "achieve", translation: "להשיג (הישג)", pos: "verb", pronunciation: "אַצ'ִיב" }
+  - { id: "confident", text: "confident", translation: "בטוח בעצמו", pos: "adjective", pronunciation: "קוֹנְפִידֶנְט" }
+  - { id: "nervous", text: "nervous", translation: "לחוץ, עצבני (מתרגשות)", pos: "adjective", pronunciation: "נֶרְבֶס" }
+
+grammar:
+  - id: present-perfect
+    title: { he: "הווה מושלם: I have worked", en: "Present perfect" }
+    explanation: |
+      בעברית יש עבר אחד. באנגלית יש עוד צורה, **הווה מושלם**, לדברים שקרו בעבר אבל **חשובים עכשיו**: ניסיון בחיים, משהו שכבר קרה או שעוד לא קרה.
+
+      המבנה: **have / has + צורה שלישית של הפועל**
+      - בפעלים רגילים הצורה השלישית זהה לעבר: **worked, lived, finished**
+      - בפעלים יוצאי דופן יש צורה משלה: **be → been**, **do → done**, **see → seen**, **lead → led**
+
+      דוגמאות:
+      - ניסיון: **I have worked with big teams.** / **Have you ever been to Japan?**
+      - **already** (כבר): **I've already sent the email.**
+      - **yet** (עדיין לא, בסוף משפט): **I haven't finished yet.**
+
+      שימו לב: כשאומרים **מתי** בדיוק (yesterday, last year), חוזרים לעבר הפשוט: **I went to Japan last year.**
+    examples:
+      - { text: "I've lived in London for one year.", translation: "אני גרה בלונדון כבר שנה." }
+      - { text: "She has never led a team.", translation: "היא אף פעם לא ניהלה צוות." }
+      - { text: "Have you finished the report yet? Yes, I've already finished it.", translation: "כבר סיימת את הדוח? כן, כבר סיימתי." }
+
+lessons:
+  # ------------------------------------------------------------------ 1
+  - id: u20-l1
+    kind: new
+    title: { he: "משרה חדשה", en: "A new job" }
+    exercises:
+      - id: u20-l1-01
+        type: dialogue
+        scene: "בן מראה לנועה מודעת דרושים פנימית."
+        lines:
+          - { speaker: "ben", text: "Look, Noa. They need a team leader for the new project.", translation: "תראי, נועה. הם צריכים ראש צוות לפרויקט החדש." }
+          - { speaker: "noa", text: "Between London and Tel Aviv? That's perfect for me!", translation: "בין לונדון לתל אביב? זה מושלם בשבילי!" }
+          - { speaker: "ben", text: "You should apply. You have the skills and the experience.", translation: "כדאי שתגישי מועמדות. יש לך את הכישורים ואת הניסיון." }
+          - { speaker: "noa", text: "But I've never been a team leader.", translation: "אבל אף פעם לא הייתי ראש צוות." }
+          - { speaker: "ben", text: "So? You've led a lot of projects. Apply!", translation: "אז מה? הובלת הרבה פרויקטים. תגישי!" }
+      - { id: "u20-l1-02", type: "learn", lexeme: "team" }
+      - { id: "u20-l1-03", type: "learn", lexeme: "team-leader" }
+      - { id: "u20-l1-04", type: "learn", lexeme: "project" }
+      - { id: "u20-l1-05", type: "learn", lexeme: "apply" }
+      - { id: "u20-l1-06", type: "learn", lexeme: "skills" }
+      - { id: "u20-l1-07", type: "learn", lexeme: "experience" }
+      - id: u20-l1-08
+        type: match_pairs
+        pairs:
+          - [team, צוות]
+          - [project, פרויקט]
+          - [apply, להגיש מועמדות]
+          - [skills, כישורים]
+          - [experience, ניסיון]
+        lexemes: [team, project, apply, skills, experience]
+      - id: u20-l1-09
+        type: multiple_choice
+        prompt: "מה נועה דואגת?"
+        options: [היא אף פעם לא הייתה ראש צוות, אין לה כישורים, היא לא רוצה לעבוד בלונדון]
+        correct: 0
+        lexemes: [team-leader]
+      - { id: "u20-l1-10", type: "learn", lexeme: "salary" }
+      - { id: "u20-l1-11", type: "learn", lexeme: "interview" }
+      - id: u20-l1-12
+        type: listening_choice
+        audioText: "The interview is on Tuesday at ten o'clock."
+        question: מתי הראיון?
+        options: [ביום שלישי בעשר, ביום חמישי בעשר, ביום שלישי בשתיים]
+        correct: 0
+        lexemes: [interview, tuesday]
+      - id: u20-l1-13
+        type: word_bank
+        prompt: "אני הולכת להגיש מועמדות למשרה."
+        answers: ["I'm going to apply for the job.", "I am going to apply for the job."]
+        distractors: [to, applying]
+        lexemes: [going-to, apply, job]
+      - id: u20-l1-14
+        type: speak_repeat
+        text: "You should apply. You have the skills and the experience."
+        translation: "כדאי שתגישי מועמדות. יש לך את הכישורים ואת הניסיון."
+        lexemes: [apply, skills, experience]
+
+  # ------------------------------------------------------------------ 2
+  - id: u20-l2
+    kind: new
+    title: { he: "מתכוננים לראיון", en: "Getting ready" }
+    exercises:
+      - { id: "u20-l2-01", type: "learn", lexeme: "strong" }
+      - { id: "u20-l2-02", type: "learn", lexeme: "weak" }
+      - { id: "u20-l2-03", type: "learn", lexeme: "confident" }
+      - { id: "u20-l2-04", type: "learn", lexeme: "nervous" }
+      - { id: "u20-l2-05", type: "learn", lexeme: "achieve" }
+      - id: u20-l2-06
+        type: dialogue
+        scene: "ערב לפני הראיון. בן משחק את המראיין."
+        lines:
+          - { speaker: "ben", text: "OK, first question. What are your strong points?", translation: "בסדר, שאלה ראשונה. מה החוזקות שלך?" }
+          - { speaker: "noa", text: "I'm organized and I work well in a team.", translation: "אני מאורגנת ואני עובדת טוב בצוות." }
+          - { speaker: "ben", text: "And your weak points?", translation: "והחולשות שלך?" }
+          - { speaker: "noa", text: "Sometimes I work too much!", translation: "לפעמים אני עובדת יותר מדי!" }
+          - { speaker: "ben", text: "Ha! Good answer. You sound confident.", translation: "חה! תשובה טובה. את נשמעת בטוחה בעצמך." }
+          - { speaker: "noa", text: "Really? I'm very nervous!", translation: "באמת? אני מאוד לחוצה!" }
+      - id: u20-l2-07
+        type: match_pairs
+        pairs:
+          - [strong, חזק]
+          - [weak, חלש]
+          - [confident, בטוח בעצמו]
+          - [nervous, לחוץ]
+          - [achieve, להשיג]
+        lexemes: [strong, weak, confident, nervous, achieve]
+      - id: u20-l2-08
+        type: multiple_choice
+        prompt: "מה נועה אומרת על החוזקות שלה?"
+        options: [היא מאורגנת ועובדת טוב בצוות, היא מדברת הרבה שפות, היא תמיד בזמן]
+        correct: 0
+        lexemes: [strong, team]
+      - id: u20-l2-09
+        type: tip
+        title: "Strengths and weaknesses"
+        text: |
+          בראיונות באנגלית כמעט תמיד שואלים על strengths (חוזקות) ו־weaknesses (חולשות).
+
+          טיפ: על חולשה, ספרו גם מה אתם עושים כדי להשתפר. I'm working on it.
+      - id: u20-l2-10
+        type: dialogue_gap
+        lines:
+          - { speaker: "rachel", text: "How do you feel about the interview?", translation: "איך את מרגישה לקראת הראיון?" }
+          - { speaker: "noa", text: "A bit nervous, but I'm ready.", translation: "קצת לחוצה, אבל אני מוכנה." }
+        gap: 1
+        distractors: ["A bit nervously, but I'm ready.", "A bit confident nervous, but I ready."]
+        lexemes: [nervous]
+      - id: u20-l2-11
+        type: translate
+        direction: to_target
+        prompt: "אני עובד טוב בצוות."
+        answers: ["I work well in a team.", "I work well in teams.", "I work well with a team."]
+        lexemes: [work-verb, team]
+      - id: u20-l2-12
+        type: translate
+        direction: to_source
+        prompt: "What are your strong points?"
+        answers: ["מה החוזקות שלך?", "מהן החוזקות שלך?", "מה הנקודות החזקות שלך?"]
+        lexemes: [strong]
+      - id: u20-l2-13
+        type: speak_repeat
+        text: "I'm organized, I work well in a team and I'm confident."
+        translation: "אני מאורגנת, אני עובדת טוב בצוות ואני בטוחה בעצמי."
+        lexemes: [team, confident]
+
+  # ------------------------------------------------------------------ 3
+  - id: u20-l3
+    kind: grammar
+    grammar: present-perfect
+    title: { he: "ניהלת פעם צוות?", en: "Have you ever led a team?" }
+    exercises:
+      - { id: "u20-l3-01", type: "learn", lexeme: "have-done" }
+      - { id: "u20-l3-02", type: "learn", lexeme: "have-you-ever" }
+      - { id: "u20-l3-03", type: "learn", lexeme: "ever" }
+      - { id: "u20-l3-04", type: "learn", lexeme: "been" }
+      - { id: "u20-l3-05", type: "learn", lexeme: "led" }
+      - id: u20-l3-06
+        type: fill_blank
+        sentence: "I have ___ in three different companies. (work)"
+        translation: "עבדתי בשלוש חברות שונות."
+        answers: [worked]
+        options: [worked, work, working]
+        lexemes: [have-done, work-verb, company]
+      - id: u20-l3-07
+        type: fill_blank
+        sentence: "She ___ never been to Australia."
+        translation: "היא אף פעם לא הייתה באוסטרליה."
+        answers: [has]
+        options: [has, have, is]
+        lexemes: [have-done, never, been]
+      - id: u20-l3-08
+        type: multiple_choice
+        prompt: איזו שאלה נכונה?
+        options: ["Have you ever led a team?", "Did you ever led a team?", "Have you ever lead a team yesterday?"]
+        correct: 0
+        lexemes: [have-you-ever, led, team]
+      - { id: "u20-l3-09", type: "learn", lexeme: "already" }
+      - { id: "u20-l3-10", type: "learn", lexeme: "yet" }
+      - id: u20-l3-11
+        type: fill_blank
+        sentence: "I haven't finished the project ___ ."
+        translation: "עוד לא סיימתי את הפרויקט."
+        answers: [yet]
+        options: [yet, already, ever]
+        lexemes: [yet, finish, project]
+      - id: u20-l3-12
+        type: fill_blank
+        sentence: "We've ___ sent the email."
+        translation: "כבר שלחנו את המייל."
+        answers: [already]
+        options: [already, yet, ever]
+        lexemes: [already, email]
+      - id: u20-l3-13
+        type: multiple_choice
+        prompt: "איזה משפט נכון?"
+        options: ["I went to Japan last year.", "I have been to Japan last year.", "I have went to Japan last year."]
+        correct: 0
+        lexemes: [went, last-week]
+      - id: u20-l3-14
+        type: dialogue_gap
+        lines:
+          - { speaker: "ben", text: "Have you ever been to Madrid?", translation: "היית פעם במדריד?" }
+          - { speaker: "noa", text: "Yes, I have. I went there last year.", translation: "כן. נסעתי לשם בשנה שעברה." }
+        gap: 1
+        distractors: ["Yes, I have. I have been there last year.", "Yes, I did. I've went there."]
+        lexemes: [have-you-ever, been, went]
+      - id: u20-l3-15
+        type: word_bank
+        prompt: "הוא אף פעם לא ניהל צוות."
+        answers: ["He has never led a team.", "He's never led a team."]
+        distractors: [have, lead]
+        lexemes: [have-done, never, led, team]
+      - id: u20-l3-16
+        type: translate
+        direction: to_target
+        prompt: "היית פעם בלונדון?"
+        answers: ["Have you ever been to London?", "Have you been to London?"]
+        lexemes: [have-you-ever, been]
+      - id: u20-l3-17
+        type: speak_repeat
+        text: "I have worked with big teams, but I've never been a team leader."
+        translation: "עבדתי עם צוותים גדולים, אבל אף פעם לא הייתי ראש צוות."
+        lexemes: [have-done, team, never, been, team-leader]
+
+  # ------------------------------------------------------------------ 4
+  - id: u20-l4
+    kind: listening
+    title: { he: "בראיון", en: "In the interview" }
+    exercises:
+      - id: u20-l4-01
+        type: dialogue
+        scene: "נועה בראיון עם מנהלת הפרויקט, מרים, ועם מנהל מתל אביב בווידאו."
+        lines:
+          - { speaker: "miriam", text: "So, Noa, tell us about your experience.", translation: "אז נועה, ספרי לנו על הניסיון שלך." }
+          - { speaker: "noa", text: "I've worked here for six years. I've led five big projects.", translation: "אני עובדת כאן שש שנים. הובלתי חמישה פרויקטים גדולים." }
+          - { speaker: "miriam", text: "Have you ever worked with teams in two countries?", translation: "עבדת פעם עם צוותים בשתי מדינות?" }
+          - { speaker: "noa", text: "Yes, I have. This year I've worked with London and Tel Aviv every day.", translation: "כן. השנה עבדתי עם לונדון ותל אביב כל יום." }
+          - { speaker: "miriam", text: "What's the biggest thing you've achieved?", translation: "מה הדבר הכי גדול שהשגת?" }
+          - { speaker: "noa", text: "Last year we finished a big project early, and the client was very happy.", translation: "בשנה שעברה סיימנו פרויקט גדול מוקדם, והלקוח היה מאוד מרוצה." }
+          - { speaker: "miriam", text: "Thank you, Noa. We'll call you next week.", translation: "תודה, נועה. נתקשר אלייך בשבוע הבא." }
+      - id: u20-l4-02
+        type: multiple_choice
+        prompt: "כמה זמן נועה עובדת בחברה?"
+        options: [שש שנים, חמש שנים, שנה אחת]
+        correct: 0
+        lexemes: [have-done]
+      - id: u20-l4-03
+        type: multiple_choice
+        prompt: "כמה פרויקטים גדולים היא הובילה?"
+        options: [חמישה, שישה, שניים]
+        correct: 0
+        lexemes: [led, project]
+      - id: u20-l4-04
+        type: multiple_choice
+        prompt: "מה ההישג הכי גדול שלה?"
+        options: [סיימו פרויקט גדול מוקדם, ניהלה צוות של עשרים, עברה ללונדון]
+        correct: 0
+        lexemes: [achieve]
+      - id: u20-l4-05
+        type: multiple_choice
+        prompt: "מתי יתקשרו אליה?"
+        options: [בשבוע הבא, מחר, בחודש הבא]
+        correct: 0
+        lexemes: [will, next-week]
+      - id: u20-l4-06
+        type: listening_choice
+        audioText: "Have you finished the report yet? No, not yet."
+        question: מה התשובה?
+        options: [הוא עוד לא סיים, הוא כבר סיים, הוא לא התחיל]
+        correct: 0
+        lexemes: [yet, finish]
+      - id: u20-l4-07
+        type: dialogue
+        scene: "שבוע אחר כך. הטלפון מצלצל."
+        lines:
+          - { speaker: "miriam", text: "Noa? It's Miriam. Have you heard the news yet?", translation: "נועה? זו מרים. כבר שמעת את החדשות?" }
+          - { speaker: "noa", text: "No… what news?", translation: "לא… איזה חדשות?" }
+          - { speaker: "miriam", text: "You're our new team leader! Congratulations!", translation: "את ראש הצוות החדשה שלנו! מזל טוב!" }
+          - { speaker: "noa", text: "Really?! Thank you! I've never been so happy!", translation: "באמת?! תודה! אף פעם לא הייתי כל כך מאושרת!" }
+      - id: u20-l4-08
+        type: multiple_choice
+        prompt: "מה החדשות?"
+        options: [נועה קיבלה את המשרה, נועה צריכה ראיון נוסף, מרים עוזבת]
+        correct: 0
+        lexemes: [team-leader]
+      - id: u20-l4-09
+        type: dialogue_gap
+        lines:
+          - { speaker: "ben", text: "Did you get the job?", translation: "קיבלת את המשרה?" }
+          - { speaker: "noa", text: "Yes! I've already told my parents.", translation: "כן! כבר סיפרתי להורים שלי." }
+        gap: 1
+        distractors: ["Yes! I've yet told my parents.", "Yes! I already have tell my parents."]
+        lexemes: [already, have-done]
+      - id: u20-l4-10
+        type: dictation
+        text: "I've never been a team leader."
+        lexemes: [never, been, team-leader]
+      - id: u20-l4-11
+        type: translate
+        direction: to_target
+        prompt: "כבר סיימתי."
+        answers: ["I've already finished.", "I have already finished.", "I've finished already.", "I have finished already."]
+        lexemes: [already, finish]
+      - id: u20-l4-12
+        type: speak_repeat
+        text: "I've worked here for six years and I've led five projects."
+        translation: "אני עובדת כאן שש שנים והובלתי חמישה פרויקטים."
+        lexemes: [have-done, led, project]
+
+  # ------------------------------------------------------------------ 5
+  - id: u20-l5
+    kind: reading
+    title: { he: "מכתב מקדים", en: "A cover letter" }
+    exercises:
+      - id: u20-l5-01
+        type: reading
+        kind: "מכתב מועמדות"
+        title: "Application: Team Leader, Project Bridge"
+        text: |
+          Dear Ms. García,
+
+          I would like to apply for the position of Team Leader on Project Bridge.
+
+          I have worked as an engineer in our Tel Aviv office for six years, and I have lived in London for the past year. I have led five projects, and I have worked with teams in Israel, England and the USA.
+
+          I am organized, I communicate well, and I enjoy helping people learn. I have never been a team leader, but I am ready for this challenge.
+
+          Thank you for your time. I hope to hear from you soon.
+
+          Best regards,
+          Noa Levi
+        translation: |
+          גב' גרסיה היקרה,
+
+          ברצוני להגיש מועמדות לתפקיד ראש צוות בפרויקט ברידג'.
+
+          אני עובדת כמהנדסת במשרד שלנו בתל אביב כבר שש שנים, ואני גרה בלונדון בשנה האחרונה. הובלתי חמישה פרויקטים, ועבדתי עם צוותים בישראל, באנגליה ובארצות הברית.
+
+          אני מאורגנת, מתקשרת היטב ונהנית לעזור לאנשים ללמוד. אף פעם לא הייתי ראש צוות, אבל אני מוכנה לאתגר הזה.
+
+          תודה על זמנך. אני מקווה לשמוע ממך בקרוב.
+
+          בברכה,
+          נועה לוי
+      - id: u20-l5-02
+        type: multiple_choice
+        prompt: "מה המקצוע של נועה?"
+        options: [מהנדסת, מורה, מנהלת]
+        correct: 0
+        lexemes: [engineer]
+      - id: u20-l5-03
+        type: multiple_choice
+        prompt: "עם צוותים מאילו מדינות היא עבדה?"
+        options:
+          - "ישראל, אנגליה וארצות הברית"
+          - ישראל וספרד בלבד
+          - רק אנגליה
+        correct: 0
+        lexemes: [team, have-done]
+      - id: u20-l5-04
+        type: multiple_choice
+        prompt: "מה היא כותבת על ניסיון כראש צוות?"
+        options:
+          - "אין לה, אבל היא מוכנה לאתגר"
+          - יש לה שש שנות ניסיון
+          - היא ניהלה חמישה צוותים
+        correct: 0
+        lexemes: [team-leader, never]
+      - id: u20-l5-05
+        type: multiple_choice
+        prompt: "כמה זמן היא גרה בלונדון?"
+        options: [שנה, שש שנים, חודש]
+        correct: 0
+        lexemes: [have-done, live]
+      - id: u20-l5-06
+        type: fill_blank
+        sentence: "I would like to ___ for the position."
+        translation: "ברצוני להגיש מועמדות לתפקיד."
+        answers: [apply]
+        options: [apply, achieve, interview]
+        lexemes: [apply]
+      - id: u20-l5-07
+        type: fill_blank
+        sentence: "I have ___ five projects."
+        translation: "הובלתי חמישה פרויקטים."
+        answers: [led]
+        options: [led, lead, leaded]
+        lexemes: [led, project]
+      - id: u20-l5-08
+        type: word_bank
+        prompt: "אני מקווה לשמוע ממך בקרוב."
+        answers: ["I hope to hear from you soon."]
+        distractors: [hoping, yet]
+        lexemes: [hope, soon]
+      - id: u20-l5-09
+        type: translate
+        direction: to_target
+        prompt: "עבדתי עם צוותים בשלוש מדינות."
+        answers: ["I have worked with teams in three countries.", "I've worked with teams in three countries.", "I worked with teams in three countries."]
+        lexemes: [have-done, team]
+      - id: u20-l5-10
+        type: speak_repeat
+        text: "I have never been a team leader, but I'm ready for this challenge."
+        translation: "אף פעם לא הייתי ראש צוות, אבל אני מוכנה לאתגר הזה."
+        lexemes: [never, been, team-leader]
+
+  # ------------------------------------------------------------------ 6
+  - id: u20-review
+    kind: review
+    title: { he: "חזרה: הראיון", en: "Review: the interview" }
+    exercises:
+      - id: u20-r-01
+        type: match_pairs
+        pairs:
+          - [interview, ראיון]
+          - [salary, משכורת]
+          - [already, כבר]
+          - [ever, אי פעם]
+          - [team leader, ראש צוות]
+        lexemes: [interview, salary, already, ever, team-leader]
+      - id: u20-r-02
+        type: fill_blank
+        sentence: "Have you sent the email ___ ?"
+        translation: "כבר שלחת את המייל?"
+        answers: [yet]
+        options: [yet, already, ever]
+        lexemes: [yet, email]
+      - id: u20-r-03
+        type: listening_choice
+        audioText: "I've never worked in a big company before."
+        question: מה היא אומרת?
+        options: [היא אף פעם לא עבדה בחברה גדולה, היא עבדה בהרבה חברות, היא עובדת בחברה גדולה]
+        correct: 0
+        lexemes: [never, have-done, company]
+      - id: u20-r-04
+        type: word_bank
+        prompt: "היית פעם ביפן?"
+        answers: ["Have you ever been to Japan?"]
+        distractors: [did, was]
+        lexemes: [have-you-ever, been]
+      - id: u20-r-05
+        type: dialogue_gap
+        lines:
+          - { speaker: "david", text: "Has Noa started the new job yet?", translation: "נועה כבר התחילה בתפקיד החדש?" }
+          - { speaker: "ben", text: "Yes, she has. She's already met the whole team.", translation: "כן. היא כבר פגשה את כל הצוות." }
+        gap: 1
+        distractors: ["Yes, she did. She's already meet the whole team.", "Yes, she has. She's yet met the whole team."]
+        lexemes: [already, met, team]
+      - id: u20-r-06
+        type: multiple_choice
+        prompt: "איזה משפט נכון?"
+        options: ["We've already finished.", "We already have finish.", "We've finished yet already."]
+        correct: 0
+        lexemes: [already, finish]
+      - id: u20-r-07
+        type: translate
+        direction: to_target
+        prompt: "עוד לא סיימתי את הפרויקט."
+        answers: ["I haven't finished the project yet.", "I have not finished the project yet."]
+        lexemes: [yet, finish, project]
+      - id: u20-r-08
+        type: translate
+        direction: to_source
+        prompt: "She has a lot of experience."
+        answers: ["יש לה הרבה ניסיון.", "יש לה ניסיון רב."]
+        lexemes: [experience, a-lot-of]
+      - id: u20-r-09
+        type: dictation
+        text: "Have you ever led a team?"
+        lexemes: [have-you-ever, led, team]
+      - id: u20-r-10
+        type: speak_repeat
+        text: "I'd like to apply for the team leader job."
+        translation: "הייתי רוצה להגיש מועמדות למשרת ראש הצוות."
+        lexemes: [apply, team-leader]
+
+  # ------------------------------------------------------------------ A2 level test
+  - id: a2-test
+    kind: test
+    title: { he: "מבחן רמה A2", en: "A2 level test" }
+    exercises:
+      - id: a2-t-01
+        type: fill_blank
+        sentence: "Last year we ___ to a new flat. (move)"
+        translation: "בשנה שעברה עברנו לדירה חדשה."
+        answers: [moved]
+        options: [moved, move, have moved]
+        lexemes: [move, past-ed, flat]
+      - id: a2-t-02
+        type: multiple_choice
+        prompt: איזו שאלה נכונה?
+        options: ["Did you see the concert?", "Did you saw the concert?", "Do you saw the concert?"]
+        correct: 0
+        lexemes: [did, saw, concert]
+      - id: a2-t-03
+        type: fill_blank
+        sentence: "We ___ some friends at the beach yesterday."
+        translation: "פגשנו כמה חברים בחוף אתמול."
+        answers: [met]
+        options: [met, meet, meeted]
+        lexemes: [met, beach]
+      - id: a2-t-04
+        type: fill_blank
+        sentence: "We don't have ___ milk."
+        translation: "אין לנו חלב בכלל."
+        answers: [any]
+        options: [any, some, many]
+        lexemes: [any, milk]
+      - id: a2-t-05
+        type: fill_blank
+        sentence: "How ___ eggs do we need?"
+        translation: "כמה ביצים אנחנו צריכים?"
+        answers: [many]
+        options: [many, much]
+        lexemes: [how-many, egg]
+      - id: a2-t-06
+        type: dialogue_gap
+        lines:
+          - { speaker: "dr-stern", text: "You've got a fever.", translation: "יש לך חום." }
+          - { speaker: "dr-stern", text: "You should rest and you shouldn't go to work.", translation: "כדאי שתנוח ולא כדאי שתלך לעבודה." }
+        gap: 1
+        distractors: ["You should to rest and you shouldn't go to work.", "You shoulds rest and not go to work."]
+        lexemes: [should, shouldnt, rest]
+      - id: a2-t-07
+        type: listening_choice
+        audioText: "My back hurts and I've got a headache."
+        question: מה כואב לו?
+        options: [הגב והראש, הבטן והגרון, הגב והבטן]
+        correct: 0
+        lexemes: [back, hurt, headache]
+      - id: a2-t-08
+        type: word_bank
+        prompt: "אני הולך לבקר את ההורים שלי בחודש הבא."
+        answers: ["I'm going to visit my parents next month.", "I am going to visit my parents next month.", "Next month I'm going to visit my parents."]
+        distractors: [visiting, in]
+        lexemes: [going-to, visit, next-month]
+      - id: a2-t-09
+        type: fill_blank
+        sentence: "London is ___ than Tel Aviv. (cold)"
+        translation: "לונדון קרה יותר מתל אביב."
+        answers: [colder]
+        options: [colder, more cold, coldest]
+        lexemes: [cold, than]
+      - id: a2-t-10
+        type: multiple_choice
+        prompt: "איזה משפט נכון?"
+        options: ["Today is as warm as yesterday.", "Today is as warm than yesterday.", "Today is warm as as yesterday."]
+        correct: 0
+        lexemes: [as-as, warm]
+      - id: a2-t-11
+        type: fill_blank
+        sentence: "A taxi is the ___ expensive way to travel."
+        translation: "מונית היא הדרך הכי יקרה לנסוע."
+        answers: [most]
+        options: [most, more, much]
+        lexemes: [the-most, taxi]
+      - id: a2-t-12
+        type: listening_choice
+        audioText: "It takes twenty minutes by bus, but you need to change at the station."
+        question: מה נכון?
+        options: [עשרים דקות באוטובוס עם החלפה, עשר דקות ברכבת, עשרים דקות ברגל]
+        correct: 0
+        lexemes: [it-takes, change, bus]
+      - id: a2-t-13
+        type: fill_blank
+        sentence: "Shh! The baby is ___ . (sleep)"
+        translation: "שש! התינוק ישן."
+        answers: [sleeping]
+        options: [sleeping, sleeps, sleep]
+        lexemes: [be-ing]
+      - id: a2-t-14
+        type: multiple_choice
+        prompt: "איזה משפט מתאר הרגל?"
+        options: ["I usually work from home on Fridays.", "I'm working from home right now.", "I'm talking at the moment."]
+        correct: 0
+        lexemes: [be-ing, at-home]
+      - id: a2-t-15
+        type: dialogue_gap
+        lines:
+          - { speaker: "noa", text: "There's no juice for the party.", translation: "אין מיץ למסיבה." }
+          - { speaker: "eli", text: "Don't worry. I'll buy some.", translation: "אל תדאגי. אני אקנה." }
+        gap: 1
+        distractors: ["Don't worry. I buy some yesterday.", "Don't worry. I'll to buy some."]
+        lexemes: [will, party]
+      - id: a2-t-16
+        type: translate
+        direction: to_target
+        prompt: "תרצה לבוא למסיבה שלי?"
+        answers: ["Would you like to come to my party?"]
+        lexemes: [would-you-like, party]
+      - id: a2-t-17
+        type: fill_blank
+        sentence: "Have you ___ been to Japan?"
+        translation: "היית פעם ביפן?"
+        answers: [ever]
+        options: [ever, yet, already]
+        lexemes: [have-you-ever, been]
+      - id: a2-t-18
+        type: fill_blank
+        sentence: "I haven't finished the report ___ ."
+        translation: "עוד לא סיימתי את הדוח."
+        answers: [yet]
+        options: [yet, already, ever]
+        lexemes: [yet, finish]
+      - id: a2-t-19
+        type: translate
+        direction: to_source
+        prompt: "We went to the market and bought some fruit."
+        answers: ["הלכנו לשוק וקנינו פירות.", "הלכנו לשוק וקנינו קצת פירות.", "הלכנו לשוק וקנינו כמה פירות."]
+        lexemes: [went, market, bought, fruit]
+      - id: a2-t-20
+        type: dictation
+        text: "What's the weather like today?"
+        lexemes: [whats-the-weather-like]

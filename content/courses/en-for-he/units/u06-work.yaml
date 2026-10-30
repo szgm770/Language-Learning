@@ -12,27 +12,27 @@ canDo:
   - לדבר על המשרד, פגישות ומיילים
 
 vocabulary:
-  - { id: "job", text: "job", translation: "עבודה, משרה", pos: noun, pronunciation: "ג'וֹבּ", example: { text: "I love my job.", translation: "אני אוהבת את העבודה שלי." } }
-  - { id: "what-do-you-do", text: "What do you do?", translation: "במה אתה עובד?", pos: phrase, pronunciation: "ווֹט דוּ יוּ דוּ" }
-  - { id: "engineer", text: "engineer", translation: "מהנדס, מהנדסת", pos: noun, pronunciation: "אֶנְג'ִינִיר", example: { text: "I'm an engineer.", translation: "אני מהנדסת." } }
-  - { id: "teacher", text: "teacher", translation: "מורה", pos: noun, pronunciation: "טִיצֶ'ר" }
-  - { id: "doctor", text: "doctor", translation: "רופא, רופאה", pos: noun, pronunciation: "דוֹקְטוֹר" }
-  - { id: "nurse", text: "nurse", translation: "אח, אחות (בבית חולים)", pos: noun, pronunciation: "נֶרְס" }
-  - { id: "student", text: "student", translation: "סטודנט, תלמיד", pos: noun, pronunciation: "סְטוּדֶנְט" }
-  - { id: "manager", text: "manager", translation: "מנהל, מנהלת", pos: noun, pronunciation: "מֶנֶג'ֶר" }
-  - { id: "office", text: "office", translation: "משרד", pos: noun, pronunciation: "אוֹפִיס", example: { text: "Our office is in London.", translation: "המשרד שלנו בלונדון." } }
-  - { id: "company", text: "company", translation: "חברה (עסק)", pos: noun, pronunciation: "קָאמְפַּנִי" }
-  - { id: "meeting", text: "meeting", translation: "פגישה", pos: noun, pronunciation: "מִיטִינְג", example: { text: "I have a meeting at ten.", translation: "יש לי פגישה בעשר." } }
-  - { id: "email", text: "email", translation: "מייל", pos: noun, pronunciation: "אִימֵייל" }
-  - { id: "computer", text: "computer", translation: "מחשב", pos: noun, pronunciation: "קוֹמְפְּיוּטֶר" }
-  - { id: "busy", text: "busy", translation: "עסוק, עסוקה", pos: adjective, pronunciation: "בִּיזִי", example: { text: "Sorry, I'm busy today.", translation: "סליחה, אני עסוקה היום." } }
-  - { id: "today", text: "today", translation: "היום", pos: adverb, pronunciation: "טוּדֵיי" }
-  - { id: "works", text: "works", translation: "עובד, עובדת (הוא / היא)", pos: verb, pronunciation: "וֶורְקְס", example: { text: "She works in a hospital.", translation: "היא עובדת בבית חולים." } }
-  - { id: "does", text: "Does…?", translation: "(שאלה על הוא / היא)", pos: phrase, pronunciation: "דָאז", example: { text: "Does he work here?", translation: "הוא עובד כאן?" } }
-  - { id: "doesnt", text: "doesn't", translation: "לא (הוא / היא, לפני פועל)", pos: phrase, pronunciation: "דָאזֶנְט", example: { text: "She doesn't work on Sunday.", translation: "היא לא עובדת ביום ראשון." } }
-  - { id: "hospital", text: "hospital", translation: "בית חולים", pos: noun, pronunciation: "הוֹסְפִּיטְל" }
-  - { id: "at-home", text: "at home", translation: "בבית", pos: phrase, pronunciation: "אֶט הוֹם", example: { text: "I work at home on Thursday.", translation: "אני עובדת מהבית ביום חמישי." } }
-  - { id: "like", text: "like", translation: "לאהוב, לחבב", pos: verb, pronunciation: "לַייק", example: { text: "I like my job.", translation: "אני אוהבת את העבודה שלי." } }
+  - { id: "job", text: "job", translation: "עבודה, משרה", pos: "noun", pronunciation: "ג'וֹבּ", example: { text: "I love my job.", translation: "אני אוהבת את העבודה שלי." } }
+  - { id: "what-do-you-do", text: "What do you do?", translation: "במה אתה עובד?", pos: "phrase", pronunciation: "ווֹט דוּ יוּ דוּ" }
+  - { id: "engineer", text: "engineer", translation: "מהנדס, מהנדסת", pos: "noun", pronunciation: "אֶנְג'ִינִיר", example: { text: "I'm an engineer.", translation: "אני מהנדסת." } }
+  - { id: "teacher", text: "teacher", translation: "מורה", pos: "noun", pronunciation: "טִיצֶ'ר" }
+  - { id: "doctor", text: "doctor", translation: "רופא, רופאה", pos: "noun", pronunciation: "דוֹקְטוֹר" }
+  - { id: "nurse", text: "nurse", translation: "אח, אחות (בבית חולים)", pos: "noun", pronunciation: "נֶרְס" }
+  - { id: "student", text: "student", translation: "סטודנט, תלמיד", pos: "noun", pronunciation: "סְטוּדֶנְט" }
+  - { id: "manager", text: "manager", translation: "מנהל, מנהלת", pos: "noun", pronunciation: "מֶנֶג'ֶר" }
+  - { id: "office", text: "office", translation: "משרד", pos: "noun", pronunciation: "אוֹפִיס", example: { text: "Our office is in London.", translation: "המשרד שלנו בלונדון." } }
+  - { id: "company", text: "company", translation: "חברה (עסק)", pos: "noun", pronunciation: "קָאמְפַּנִי" }
+  - { id: "meeting", text: "meeting", translation: "פגישה", pos: "noun", pronunciation: "מִיטִינְג", example: { text: "I have a meeting at ten.", translation: "יש לי פגישה בעשר." } }
+  - { id: "email", text: "email", translation: "מייל", pos: "noun", pronunciation: "אִימֵייל" }
+  - { id: "computer", text: "computer", translation: "מחשב", pos: "noun", pronunciation: "קוֹמְפְּיוּטֶר" }
+  - { id: "busy", text: "busy", translation: "עסוק, עסוקה", pos: "adjective", pronunciation: "בִּיזִי", example: { text: "Sorry, I'm busy today.", translation: "סליחה, אני עסוקה היום." } }
+  - { id: "today", text: "today", translation: "היום", pos: "adverb", pronunciation: "טוּדֵיי" }
+  - { id: "works", text: "works", translation: "עובד, עובדת (הוא / היא)", pos: "verb", pronunciation: "וֶורְקְס", example: { text: "She works in a hospital.", translation: "היא עובדת בבית חולים." } }
+  - { id: "does", text: "Does…?", translation: "(שאלה על הוא / היא)", pos: "phrase", pronunciation: "דָאז", example: { text: "Does he work here?", translation: "הוא עובד כאן?" } }
+  - { id: "doesnt", text: "doesn't", translation: "לא (הוא / היא, לפני פועל)", pos: "phrase", pronunciation: "דָאזֶנְט", example: { text: "She doesn't work on Sunday.", translation: "היא לא עובדת ביום ראשון." } }
+  - { id: "hospital", text: "hospital", translation: "בית חולים", pos: "noun", pronunciation: "הוֹסְפִּיטְל" }
+  - { id: "at-home", text: "at home", translation: "בבית", pos: "phrase", pronunciation: "אֶט הוֹם", example: { text: "I work at home on Thursday.", translation: "אני עובדת מהבית ביום חמישי." } }
+  - { id: "like", text: "like", translation: "לאהוב, לחבב", pos: "verb", pronunciation: "לַייק", example: { text: "I like my job.", translation: "אני אוהבת את העבודה שלי." } }
 
 grammar:
   - id: third-person-s

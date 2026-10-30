@@ -6,7 +6,7 @@ title:
   he: אנגלית לדוברי עברית
   en: English for Hebrew speakers
 description:
-  he: מהמילים הראשונות ועד שיחה בטוחה, עם נועה ובן.
+  he: "מהמילים הראשונות ועד שיחה בטוחה, עם נועה ובן."
   en: From your first words to confident conversation, with Noa and Ben.
 characters:
   - { id: "noa", name: "Noa", he: "נועה", color: "rose", look: "long", pitch: 1.15 }
@@ -15,6 +15,10 @@ characters:
   - { id: "eli", name: "Eli", he: "אלי", color: "amber", look: "short", pitch: 0.95 }
   - { id: "cohen", name: "Mr. Cohen", he: "מר כהן", color: "teal", look: "bald", pitch: 0.75 }
   - { id: "miriam", name: "Miriam", he: "מרים", color: "green", look: "long", pitch: 1.1 }
+  - { id: "katz", name: "Mrs. Katz", he: "גברת כץ", color: "amber", look: "curly", pitch: 1.0 }
+  - { id: "david", name: "David", he: "דוד", color: "teal", look: "short", pitch: 0.9 }
+  - { id: "tamar", name: "Tamar", he: "תמר", color: "green", look: "curly", pitch: 1.2 }
+  - { id: "dr-stern", name: "Dr. Stern", he: "ד\"ר שטרן", color: "violet", look: "bald", pitch: 0.8 }
 units:
   - u01-hello
   - u02-from
@@ -26,3 +30,13 @@ units:
   - u08-shopping
   - u09-free-time
   - u10-travel
+  - u11-home
+  - u12-weekend
+  - u13-food
+  - u14-health
+  - u15-plans
+  - u16-weather
+  - u17-transport
+  - u18-phone
+  - u19-party
+  - u20-interview

@@ -1,0 +1,466 @@
+id: u16-weather
+cefr: A2
+scene: nature
+title:
+  he: מזג אוויר ועונות
+  en: Weather and seasons
+story: "נועה מגלה את מזג האוויר האנגלי: גשם בבוקר, שמש בצהריים ורוח בערב. היא משווה את לונדון לתל אביב, ובן מתכנן טיול לסוף השבוע."
+canDo:
+  - לתאר את מזג האוויר
+  - לדבר על עונות השנה
+  - להשוות בין שני דברים עם ‎-er ו־more
+  - להשתמש ב־as … as
+
+vocabulary:
+  - { id: "weather", text: "weather", translation: "מזג אוויר", pos: "noun", pronunciation: "וֶודֶ'ר", example: { text: "What's the weather like?", translation: "איך מזג האוויר?" } }
+  - { id: "sunny", text: "sunny", translation: "שמשי", pos: "adjective", pronunciation: "סַאנִי" }
+  - { id: "rainy", text: "rainy", translation: "גשום", pos: "adjective", pronunciation: "רֵיינִי" }
+  - { id: "cloudy", text: "cloudy", translation: "מעונן", pos: "adjective", pronunciation: "קְלַאוּדִי" }
+  - { id: "windy", text: "windy", translation: "סוער, יש רוח", pos: "adjective", pronunciation: "וִינְדִי" }
+  - { id: "cold", text: "cold", translation: "קר", pos: "adjective", pronunciation: "קוֹלְד" }
+  - { id: "hot", text: "hot", translation: "חם (מאוד)", pos: "adjective", pronunciation: "הוֹט" }
+  - { id: "warm", text: "warm", translation: "חמים, נעים", pos: "adjective", pronunciation: "ווֹרְם" }
+  - { id: "rain", text: "rain", translation: "גשם; לרדת גשם", pos: "noun", pronunciation: "רֵיין", example: { text: "It's raining.", translation: "יורד גשם." } }
+  - { id: "snow", text: "snow", translation: "שלג", pos: "noun", pronunciation: "סְנוֹ" }
+  - { id: "umbrella", text: "umbrella", translation: "מטרייה", pos: "noun", pronunciation: "אַמְבְּרֶלָה" }
+  - { id: "winter", text: "winter", translation: "חורף", pos: "noun", pronunciation: "וִינְטֶר" }
+  - { id: "spring", text: "spring", translation: "אביב", pos: "noun", pronunciation: "סְפְּרִינְג" }
+  - { id: "autumn", text: "autumn", translation: "סתיו", pos: "noun", pronunciation: "אוֹטֶם" }
+  - { id: "temperature", text: "temperature", translation: "טמפרטורה", pos: "noun", pronunciation: "טֶמְפְּרָצ'ֶר" }
+  - { id: "degrees", text: "degrees", translation: "מעלות", pos: "noun", pronunciation: "דִיגְרִיז", example: { text: "It's twenty degrees.", translation: "עשרים מעלות." } }
+  - { id: "outside", text: "outside", translation: "בחוץ", pos: "adverb", pronunciation: "אַאוּטְסַייד" }
+  - { id: "than", text: "than", translation: "מאשר, מ־ (בהשוואה)", pos: "conjunction", pronunciation: "דֶ'ן", example: { text: "London is colder than Tel Aviv.", translation: "לונדון קרה יותר מתל אביב." } }
+  - { id: "more", text: "more", translation: "יותר", pos: "adverb", pronunciation: "מוֹר" }
+  - { id: "as-as", text: "as … as", translation: "באותה מידה כמו", pos: "phrase", pronunciation: "אֶז … אֶז", example: { text: "It's as hot as Israel!", translation: "חם כמו בישראל!" } }
+  - { id: "whats-the-weather-like", text: "What's the weather like?", translation: "איך מזג האוויר?", pos: "phrase", pronunciation: "ווֹטְס דֶ'ה וֶודֶ'ר לַייק" }
+
+grammar:
+  - id: comparatives
+    title: { he: "השוואה: colder, more expensive", en: "Comparatives" }
+    explanation: |
+      בעברית מוסיפים "יותר": קר יותר, יקר יותר. באנגלית זה תלוי באורך המילה:
+
+      - מילה קצרה (הברה אחת): מוסיפים **‎-er**: **cold → colder**, **warm → warmer**, **cheap → cheaper**.
+      - מילה שנגמרת ב־y: **sunny → sunnier**, **windy → windier**.
+      - מילה ארוכה: **more** לפניה: **more expensive**, **more beautiful**.
+      - יוצאי דופן: **good → better**, **bad → worse**.
+
+      ו"מ־" של ההשוואה הוא **than**: **London is colder than Tel Aviv.**
+
+      כשהשניים שווים: **as … as**: **Today is as warm as yesterday.**
+    examples:
+      - { text: "Winter in London is colder than in Israel.", translation: "החורף בלונדון קר יותר מבישראל." }
+      - { text: "The train is more expensive than the bus.", translation: "הרכבת יקרה יותר מהאוטובוס." }
+      - { text: "Today isn't as sunny as yesterday.", translation: "היום לא שמשי כמו אתמול." }
+
+lessons:
+  # ------------------------------------------------------------------ 1
+  - id: u16-l1
+    kind: new
+    title: { he: "איך מזג האוויר?", en: "What's the weather like?" }
+    exercises:
+      - id: u16-l1-01
+        type: dialogue
+        scene: "נועה מדברת בטלפון עם אבא שלה בתל אביב."
+        lines:
+          - { speaker: "noa", text: "Hi Dad! What's the weather like in Tel Aviv?", translation: "היי אבא! איך מזג האוויר בתל אביב?" }
+          - { speaker: "noa", text: "Sunny and hot? Of course! Here it's cloudy and cold.", translation: "שמשי וחם? ברור! פה מעונן וקר." }
+          - { speaker: "noa", text: "This morning it was rainy, then it was sunny, and now it's windy!", translation: "הבוקר היה גשום, אחר כך היה שמשי, ועכשיו יש רוח!" }
+          - { speaker: "noa", text: "Yes, I've got an umbrella. Always!", translation: "כן, יש לי מטרייה. תמיד!" }
+      - { id: "u16-l1-02", type: "learn", lexeme: "weather" }
+      - { id: "u16-l1-03", type: "learn", lexeme: "whats-the-weather-like" }
+      - { id: "u16-l1-04", type: "learn", lexeme: "sunny" }
+      - { id: "u16-l1-05", type: "learn", lexeme: "hot" }
+      - { id: "u16-l1-06", type: "learn", lexeme: "cloudy" }
+      - { id: "u16-l1-07", type: "learn", lexeme: "cold" }
+      - { id: "u16-l1-08", type: "learn", lexeme: "rainy" }
+      - { id: "u16-l1-09", type: "learn", lexeme: "windy" }
+      - id: u16-l1-10
+        type: match_pairs
+        pairs:
+          - [sunny, שמשי]
+          - [cloudy, מעונן]
+          - [rainy, גשום]
+          - [windy, יש רוח]
+          - [cold, קר]
+        lexemes: [sunny, cloudy, rainy, windy, cold]
+      - { id: "u16-l1-11", type: "learn", lexeme: "umbrella" }
+      - id: u16-l1-12
+        type: multiple_choice
+        prompt: "איך מזג האוויר בתל אביב?"
+        options: [שמשי וחם, מעונן וקר, גשום]
+        correct: 0
+        lexemes: [sunny, hot]
+      - id: u16-l1-13
+        type: listening_choice
+        audioText: "It's cloudy and windy today. Take an umbrella."
+        question: מה מזג האוויר היום?
+        options: [מעונן עם רוח, שמשי וחם, גשום וקר]
+        correct: 0
+        lexemes: [cloudy, windy, umbrella]
+      - id: u16-l1-14
+        type: word_bank
+        prompt: "היום קר ומעונן."
+        answers: ["It's cold and cloudy today.", "Today it's cold and cloudy.", "It is cold and cloudy today."]
+        distractors: [hot, sunny]
+        lexemes: [cold, cloudy, today]
+      - id: u16-l1-15
+        type: speak_repeat
+        text: "What's the weather like in London?"
+        translation: "איך מזג האוויר בלונדון?"
+        lexemes: [whats-the-weather-like]
+
+  # ------------------------------------------------------------------ 2
+  - id: u16-l2
+    kind: new
+    title: { he: "ארבע עונות", en: "Four seasons" }
+    exercises:
+      - { id: "u16-l2-01", type: "learn", lexeme: "winter" }
+      - { id: "u16-l2-02", type: "learn", lexeme: "spring" }
+      - { id: "u16-l2-03", type: "learn", lexeme: "autumn" }
+      - id: u16-l2-04
+        type: match_pairs
+        pairs:
+          - [winter, חורף]
+          - [spring, אביב]
+          - [summer, קיץ]
+          - [autumn, סתיו]
+          - [weather, מזג אוויר]
+        lexemes: [winter, spring, summer, autumn, weather]
+      - { id: "u16-l2-05", type: "learn", lexeme: "rain" }
+      - { id: "u16-l2-06", type: "learn", lexeme: "snow" }
+      - { id: "u16-l2-07", type: "learn", lexeme: "warm" }
+      - { id: "u16-l2-08", type: "learn", lexeme: "temperature" }
+      - { id: "u16-l2-09", type: "learn", lexeme: "degrees" }
+      - { id: "u16-l2-10", type: "learn", lexeme: "outside" }
+      - id: u16-l2-11
+        type: tip
+        title: "It's raining: מזג אוויר מתחיל ב־It"
+        text: |
+          בעברית אומרים "יורד גשם" או "קר". באנגלית כמעט תמיד מתחילים ב־It: It's raining. It's cold. It's 20 degrees.
+
+          ובאנגליה מדברים על מזג האוויר המון. זו דרך מעולה להתחיל שיחה עם כל אחד.
+      - id: u16-l2-12
+        type: listening_choice
+        audioText: "It's five degrees outside and it's raining."
+        question: מה הטמפרטורה?
+        options: [5 מעלות, 15 מעלות, 25 מעלות]
+        correct: 0
+        lexemes: [degrees, outside, rain]
+      - id: u16-l2-13
+        type: dialogue_gap
+        lines:
+          - { speaker: "ben", text: "Does it snow in Israel?", translation: "יורד שלג בישראל?" }
+          - { speaker: "noa", text: "Sometimes, in Jerusalem. But the winter is warm.", translation: "לפעמים, בירושלים. אבל החורף חמים." }
+        gap: 1
+        distractors: ["Sometimes, in Jerusalem. But the winter is snow.", "Never, it's raining degrees."]
+        lexemes: [snow, winter, warm, sometimes]
+      - id: u16-l2-14
+        type: translate
+        direction: to_target
+        prompt: "יורד גשם בחוץ."
+        answers: ["It's raining outside.", "It is raining outside."]
+        lexemes: [rain, outside]
+      - id: u16-l2-15
+        type: speak_repeat
+        text: "In spring the weather is warm and sunny."
+        translation: "באביב מזג האוויר חמים ושמשי."
+        lexemes: [spring, warm, sunny]
+
+  # ------------------------------------------------------------------ 3
+  - id: u16-l3
+    kind: grammar
+    grammar: comparatives
+    title: { he: "קר יותר מבתל אביב", en: "Colder than Tel Aviv" }
+    exercises:
+      - { id: "u16-l3-01", type: "learn", lexeme: "than" }
+      - { id: "u16-l3-02", type: "learn", lexeme: "more" }
+      - id: u16-l3-03
+        type: fill_blank
+        sentence: "London is ___ than Tel Aviv."
+        translation: "לונדון קרה יותר מתל אביב."
+        answers: [colder]
+        options: [colder, more cold, cold]
+        lexemes: [cold, than]
+      - id: u16-l3-04
+        type: fill_blank
+        sentence: "The flat is ___ expensive than the old one."
+        translation: "הדירה יקרה יותר מהישנה."
+        answers: [more]
+        options: [more, most, than]
+        lexemes: [more, expensive, flat]
+      - id: u16-l3-05
+        type: fill_blank
+        sentence: "Today is ___ than yesterday. (sunny)"
+        translation: "היום שמשי יותר מאתמול."
+        answers: [sunnier]
+        options: [sunnier, more sunny, sunnyer]
+        lexemes: [sunny, than]
+      - id: u16-l3-06
+        type: multiple_choice
+        prompt: איזה משפט נכון?
+        options: ["I feel better than yesterday.", "I feel gooder than yesterday.", "I feel more good than yesterday."]
+        correct: 0
+        lexemes: [better, than]
+      - { id: "u16-l3-07", type: "learn", lexeme: "as-as" }
+      - id: u16-l3-08
+        type: multiple_choice
+        prompt: "מה פירוש: The bus is as fast as the train?"
+        options: [האוטובוס מהיר כמו הרכבת, האוטובוס מהיר יותר מהרכבת, האוטובוס איטי יותר מהרכבת]
+        correct: 0
+        lexemes: [as-as]
+      - id: u16-l3-09
+        type: dialogue_gap
+        lines:
+          - { speaker: "miriam", text: "Is Madrid warmer than London?", translation: "מדריד חמה יותר מלונדון?" }
+          - { speaker: "ben", text: "Yes, much warmer. And it's sunnier too.", translation: "כן, הרבה יותר חמה. וגם שמשית יותר." }
+        gap: 1
+        distractors: ["Yes, much more warm. And it's more sunny too.", "Yes, much warmer than. And sunny more."]
+        lexemes: [warm, sunny]
+      - id: u16-l3-10
+        type: word_bank
+        prompt: "החורף בלונדון ארוך יותר מאשר בישראל."
+        answers: ["Winter in London is longer than in Israel.", "The winter in London is longer than in Israel."]
+        distractors: [more, as]
+        lexemes: [winter, than, israel]
+      - id: u16-l3-11
+        type: translate
+        direction: to_target
+        prompt: "היום חם כמו אתמול."
+        answers: ["Today is as hot as yesterday.", "It's as hot as yesterday today.", "Today it's as hot as yesterday.", "Today it is as hot as yesterday."]
+        lexemes: [as-as, hot, yesterday]
+      - id: u16-l3-12
+        type: translate
+        direction: to_source
+        prompt: "The train is more expensive than the bus."
+        answers: ["הרכבת יקרה יותר מהאוטובוס.", "הרכבת יותר יקרה מהאוטובוס."]
+        lexemes: [more, expensive, than]
+      - id: u16-l3-13
+        type: speak_repeat
+        text: "London is colder and rainier than Tel Aviv."
+        translation: "לונדון קרה וגשומה יותר מתל אביב."
+        lexemes: [cold, rainy, than]
+
+  # ------------------------------------------------------------------ 4
+  - id: u16-l4
+    kind: listening
+    title: { he: "טיול בסוף השבוע?", en: "A trip at the weekend?" }
+    exercises:
+      - id: u16-l4-01
+        type: dialogue
+        scene: "בן רוצה לטייל עם נועה בכפר. הם בודקים את התחזית."
+        lines:
+          - { speaker: "ben", text: "Do you want to go to the countryside on Saturday?", translation: "רוצה לנסוע לכפר בשבת?" }
+          - { speaker: "noa", text: "Maybe. What's the weather going to be like?", translation: "אולי. איך יהיה מזג האוויר?" }
+          - { speaker: "ben", text: "Saturday is going to be rainy and windy.", translation: "בשבת הולך להיות גשום ועם רוח." }
+          - { speaker: "noa", text: "Oh no. And Sunday?", translation: "אוי, לא. וביום ראשון?" }
+          - { speaker: "ben", text: "Sunday is better. Sunny and warmer, about eighteen degrees.", translation: "ראשון יותר טוב. שמשי וחמים יותר, בערך שמונה־עשרה מעלות." }
+          - { speaker: "noa", text: "Eighteen? That's warm for London! Let's go on Sunday.", translation: "שמונה־עשרה? זה חם בשביל לונדון! בוא ניסע ביום ראשון." }
+      - id: u16-l4-02
+        type: multiple_choice
+        prompt: "איך יהיה מזג האוויר בשבת?"
+        options: [גשום ועם רוח, שמשי וחם, מושלג]
+        correct: 0
+        lexemes: [rainy, windy]
+      - id: u16-l4-03
+        type: multiple_choice
+        prompt: "מה הטמפרטורה ביום ראשון?"
+        options: [בערך 18 מעלות, בערך 8 מעלות, בערך 28 מעלות]
+        correct: 0
+        lexemes: [degrees]
+      - id: u16-l4-04
+        type: multiple_choice
+        prompt: "מתי הם נוסעים?"
+        options: [ביום ראשון, בשבת, הם לא נוסעים]
+        correct: 0
+        lexemes: [sunday]
+      - id: u16-l4-05
+        type: listening_choice
+        audioText: "Winter here is colder, but summer is as hot as in Spain."
+        question: מה הוא אומר על הקיץ?
+        options: [חם כמו בספרד, קר יותר מבספרד, חם יותר מבספרד]
+        correct: 0
+        lexemes: [as-as, hot, summer]
+      - id: u16-l4-06
+        type: dialogue_gap
+        lines:
+          - { speaker: "eli", text: "Terrible weather today, isn't it?", translation: "מזג אוויר נוראי היום, נכון?" }
+          - { speaker: "noa", text: "Yes! It's colder than yesterday.", translation: "כן! קר יותר מאתמול." }
+        gap: 1
+        distractors: ["Yes! It's more cold than yesterday.", "Yes! It's colder that yesterday."]
+        lexemes: [cold, than]
+      - id: u16-l4-07
+        type: dictation
+        text: "It's sunny and warm today."
+        lexemes: [sunny, warm, today]
+      - id: u16-l4-08
+        type: translate
+        direction: to_target
+        prompt: "איך יהיה מזג האוויר מחר?"
+        answers: ["What's the weather going to be like tomorrow?", "What is the weather going to be like tomorrow?", "What will the weather be like tomorrow?"]
+        lexemes: [weather, going-to, tomorrow]
+      - id: u16-l4-09
+        type: translate
+        direction: to_source
+        prompt: "Sunday is better than Saturday."
+        answers: ["יום ראשון יותר טוב משבת.", "יום ראשון טוב יותר משבת.", "ראשון יותר טוב משבת."]
+        lexemes: [better, than]
+      - id: u16-l4-10
+        type: speak_repeat
+        text: "Saturday is going to be rainy, but Sunday is going to be sunny."
+        translation: "בשבת הולך להיות גשום, אבל ביום ראשון הולך להיות שמשי."
+        lexemes: [rainy, sunny, going-to]
+
+  # ------------------------------------------------------------------ 5
+  - id: u16-l5
+    kind: reading
+    title: { he: "תחזית מזג האוויר", en: "The weather forecast" }
+    exercises:
+      - id: u16-l5-01
+        type: reading
+        kind: "תחזית באתר חדשות"
+        title: "London: weather this week"
+        text: |
+          Monday and Tuesday are going to be cloudy and cold, with a temperature of about 8 degrees.
+
+          On Wednesday there's going to be a lot of rain, and it's going to be very windy in the evening. Don't forget your umbrella!
+
+          Thursday is going to be drier and a little warmer than Wednesday.
+
+          At the weekend we're going to see the sun again: Saturday is going to be sunny, with 14 degrees. It's not as warm as summer, but it's perfect for a walk in the park.
+        translation: |
+          שני ושלישי יהיו מעוננים וקרים, עם טמפרטורה של כ־8 מעלות.
+
+          ביום רביעי ירד הרבה גשם, ובערב תהיה רוח חזקה מאוד. אל תשכחו את המטרייה!
+
+          חמישי יהיה יבש יותר וקצת חמים יותר מרביעי.
+
+          בסוף השבוע נראה שוב את השמש: שבת תהיה שמשית, עם 14 מעלות. זה לא חמים כמו בקיץ, אבל מושלם להליכה בפארק.
+      - id: u16-l5-02
+        type: multiple_choice
+        prompt: "באיזה יום יהיה הכי הרבה גשם?"
+        options: [ברביעי, בשני, בשבת]
+        correct: 0
+        lexemes: [rain, wednesday]
+      - id: u16-l5-03
+        type: multiple_choice
+        prompt: "מה הטמפרטורה בשני ובשלישי?"
+        options: [בערך 8 מעלות, בערך 14 מעלות, בערך 18 מעלות]
+        correct: 0
+        lexemes: [temperature, degrees]
+      - id: u16-l5-04
+        type: multiple_choice
+        prompt: "איך יהיה בשבת?"
+        options:
+          - "שמשי, 14 מעלות"
+          - "גשום, 8 מעלות"
+          - מעונן עם רוח
+        correct: 0
+        lexemes: [sunny, saturday]
+      - id: u16-l5-05
+        type: multiple_choice
+        prompt: "למה שבת מושלמת?"
+        options: [להליכה בפארק, לים, לסקי]
+        correct: 0
+        lexemes: [park]
+      - id: u16-l5-06
+        type: fill_blank
+        sentence: "Thursday is going to be a little ___ than Wednesday."
+        translation: "חמישי יהיה קצת חמים יותר מרביעי."
+        answers: [warmer]
+        options: [warmer, more warm, warm]
+        lexemes: [warm, than]
+      - id: u16-l5-07
+        type: fill_blank
+        sentence: "Don't forget your ___ !"
+        translation: "אל תשכחו את המטרייה!"
+        answers: [umbrella]
+        options: [umbrella, weather, snow]
+        lexemes: [umbrella]
+      - id: u16-l5-08
+        type: word_bank
+        prompt: "זה לא חמים כמו בקיץ."
+        answers: ["It's not as warm as summer.", "It isn't as warm as summer.", "It is not as warm as summer."]
+        distractors: [than, more]
+        lexemes: [as-as, warm, summer]
+      - id: u16-l5-09
+        type: translate
+        direction: to_target
+        prompt: "ביום רביעי הולך להיות סוער מאוד."
+        answers: ["On Wednesday it's going to be very windy.", "It's going to be very windy on Wednesday.", "On Wednesday it is going to be very windy.", "It is going to be very windy on Wednesday.", "Wednesday is going to be very windy."]
+        lexemes: [windy, wednesday, going-to]
+      - id: u16-l5-10
+        type: speak_repeat
+        text: "At the weekend we're going to see the sun again."
+        translation: "בסוף השבוע נראה שוב את השמש."
+        lexemes: [weekend, going-to]
+
+  # ------------------------------------------------------------------ 6
+  - id: u16-review
+    kind: review
+    title: { he: "חזרה: מזג אוויר ועונות", en: "Review: weather and seasons" }
+    exercises:
+      - id: u16-r-01
+        type: match_pairs
+        pairs:
+          - [hot, חם]
+          - [warm, חמים]
+          - [snow, שלג]
+          - [umbrella, מטרייה]
+          - [outside, בחוץ]
+        lexemes: [hot, warm, snow, umbrella, outside]
+      - id: u16-r-02
+        type: fill_blank
+        sentence: "Spain is warmer ___ England."
+        translation: "ספרד חמה יותר מאנגליה."
+        answers: [than]
+        options: [than, that, as]
+        lexemes: [than, warm, spain, england]
+      - id: u16-r-03
+        type: listening_choice
+        audioText: "It's minus two degrees and it's snowing."
+        question: מה מזג האוויר?
+        options: [קר מאוד ויורד שלג, חם ושמשי, גשום עם רוח]
+        correct: 0
+        lexemes: [degrees, snow]
+      - id: u16-r-04
+        type: word_bank
+        prompt: "הסתיו יפה יותר מהאביב."
+        answers: ["Autumn is more beautiful than spring.", "The autumn is more beautiful than the spring."]
+        distractors: [beautifuler, as]
+        lexemes: [autumn, more, than, spring]
+      - id: u16-r-05
+        type: dialogue_gap
+        lines:
+          - { speaker: "rachel", text: "What's the weather like in Australia now?", translation: "איך מזג האוויר באוסטרליה עכשיו?" }
+          - { speaker: "ben", text: "It's summer there, so it's hot and sunny.", translation: "שם קיץ, אז חם ושמשי." }
+        gap: 1
+        distractors: ["It's summer there, so it's snow and cold.", "It's hotter there than sunny."]
+        lexemes: [whats-the-weather-like, summer, hot, sunny]
+      - id: u16-r-06
+        type: multiple_choice
+        prompt: "איזה משפט נכון?"
+        options: ["This hotel is cheaper than that one.", "This hotel is more cheap than that one.", "This hotel is cheaper that that one."]
+        correct: 0
+        lexemes: [cheap, than]
+      - id: u16-r-07
+        type: translate
+        direction: to_target
+        prompt: "החורף פה קר מאוד."
+        answers: ["Winter here is very cold.", "The winter here is very cold.", "The winter is very cold here.", "Winter is very cold here."]
+        lexemes: [winter, cold, here]
+      - id: u16-r-08
+        type: translate
+        direction: to_source
+        prompt: "It's twenty degrees and sunny."
+        answers: ["עשרים מעלות ושמשי.", "עשרים מעלות ושמש.", "יש עשרים מעלות ושמש.", "עשרים מעלות ושמשי"]
+        lexemes: [degrees, sunny]
+      - id: u16-r-09
+        type: dictation
+        text: "What's the weather like today?"
+        lexemes: [whats-the-weather-like, today]
+      - id: u16-r-10
+        type: speak_repeat
+        text: "Today is warmer than yesterday, but it's still windy."
+        translation: "היום חמים יותר מאתמול, אבל עדיין יש רוח."
+        lexemes: [warm, than, windy]
