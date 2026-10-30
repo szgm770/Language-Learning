@@ -74,3 +74,23 @@ export function mastery(card: { state: number; stability: number; lapses: number
   if (card.stability < 30) return 3;
   return 4;
 }
+
+/** The course split into CEFR levels, in order, each with its lessons and level test (if written yet). */
+export function courseLevels(units: UnitPack[]) {
+  const levels: { level: string; units: UnitPack[] }[] = [];
+  for (const u of units) {
+    const last = levels.at(-1);
+    if (last?.level === u.cefr) last.units.push(u);
+    else levels.push({ level: u.cefr, units: [u] });
+  }
+  return levels.map(({ level, units }) => {
+    const lessons = units.flatMap((u) => u.lessons);
+    return { level, units, lessons, test: lessons.find((l) => l.kind === "test") };
+  });
+}
+
+/** Whether the learner passed a level's test (best score at least PASS_SCORE). */
+export function passedTest(state: LearnerState, courseId: string, testId: string | undefined) {
+  if (!testId) return false;
+  return isCompleted(state, courseId, testId) && (state.lessons.get(`${courseId}/${testId}`)?.bestScore ?? 0) >= PASS_SCORE;
+}

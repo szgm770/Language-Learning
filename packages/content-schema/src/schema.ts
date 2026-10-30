@@ -160,8 +160,20 @@ export const Tip = ExerciseBase.extend({
   text: z.string().min(10),
 });
 
+/** A short text to read (an email, a notice, a blog post), with a Hebrew translation on demand. */
+export const Reading = ExerciseBase.extend({
+  type: z.literal("reading"),
+  /** What the text is, in Hebrew: "מייל מבן", "מודעה בבניין". */
+  kind: z.string().min(1),
+  title: z.string().min(1),
+  /** Paragraphs separated by a blank line. */
+  text: z.string().min(40),
+  /** Hebrew translation with the same paragraphs. */
+  translation: z.string().min(20),
+});
+
 /** Steps the learner reads or listens to, without an answer to check. */
-export const UNGRADED_TYPES = ["learn", "dialogue", "tip"] as const;
+export const UNGRADED_TYPES = ["learn", "dialogue", "tip", "reading"] as const;
 
 export const Exercise = z
   .discriminatedUnion("type", [
@@ -169,6 +181,7 @@ export const Exercise = z
     Dialogue,
     DialogueGap,
     Tip,
+    Reading,
     MultipleChoice,
     MatchPairs,
     WordBank,
@@ -206,7 +219,7 @@ export const Lesson = z.object({
 export type Lesson = z.infer<typeof Lesson>;
 
 /** Illustrations available for unit cards (drawn in the web app). */
-export const Scene = z.enum(["hello", "globe", "family", "cafe", "day", "work", "town", "shopping", "free-time", "travel"]);
+export const Scene = z.enum(["hello", "globe", "family", "cafe", "day", "work", "town", "shopping", "free-time", "travel", "home", "food", "health", "nature", "tech", "party", "money", "news", "study"]);
 export type Scene = z.infer<typeof Scene>;
 
 export const Unit = z.object({

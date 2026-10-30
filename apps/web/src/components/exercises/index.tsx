@@ -10,6 +10,7 @@ import { Learn } from "./Learn";
 import { ListeningChoice } from "./ListeningChoice";
 import { MatchPairs } from "./MatchPairs";
 import { MultipleChoice } from "./MultipleChoice";
+import { Reading } from "./Reading";
 import { SpeakRepeat } from "./SpeakRepeat";
 import { Tip } from "./Tip";
 import { Translate } from "./Translate";
@@ -34,6 +35,8 @@ export function ExerciseView(props: {
       return <DialogueGap ex={ex} {...rest} />;
     case "tip":
       return <Tip ex={ex} {...rest} />;
+    case "reading":
+      return <Reading ex={ex} {...rest} />;
     case "multiple_choice":
       return <MultipleChoice ex={ex} {...rest} />;
     case "listening_choice":

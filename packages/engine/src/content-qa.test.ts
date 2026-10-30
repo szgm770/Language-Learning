@@ -18,6 +18,7 @@ function correctResponses(ex: Exercise): Response[] {
     case "learn":
     case "dialogue":
     case "tip":
+    case "reading":
       return [{ type: "seen" }];
     case "dialogue_gap":
       return [{ type: "dialogue_gap", choice: ex.lines[ex.gap]!.text }];
