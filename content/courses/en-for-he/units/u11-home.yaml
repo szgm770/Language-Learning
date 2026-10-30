@@ -1,0 +1,483 @@
+id: u11-home
+cefr: A2
+scene: home
+title:
+  he: דירה חדשה
+  en: A new flat
+story: "החברה שולחת את נועה לשנה במשרד בלונדון. היא מחפשת דירה, פוגשת את בעלת הבית, גברת כץ, ומספרת לבן איך עבר המעבר."
+canDo:
+  - לתאר דירה וחדרים ולהגיד מה יש בהם
+  - לשאול שאלות על דירה להשכרה
+  - לספר מה עשיתי בעבר עם פעלים רגילים (‎-ed)
+  - לשאול ולענות עם Did you…?
+
+vocabulary:
+  - { id: "flat", text: "flat", translation: "דירה", pos: "noun", pronunciation: "פְלֶט", example: { text: "I live in a small flat.", translation: "אני גרה בדירה קטנה." } }
+  - { id: "rent", text: "rent", translation: "שכר דירה; לשכור", pos: "noun", pronunciation: "רֶנְט", example: { text: "The rent is nine hundred pounds a month.", translation: "שכר הדירה תשע מאות פאונד לחודש." } }
+  - { id: "bedroom", text: "bedroom", translation: "חדר שינה", pos: "noun", pronunciation: "בֶּדְרוּם" }
+  - { id: "kitchen", text: "kitchen", translation: "מטבח", pos: "noun", pronunciation: "קִיצֶ'ן" }
+  - { id: "bathroom", text: "bathroom", translation: "חדר אמבטיה", pos: "noun", pronunciation: "בַּאתְ'רוּם" }
+  - { id: "living-room", text: "living room", translation: "סלון", pos: "noun", pronunciation: "לִיבִינְג רוּם" }
+  - { id: "sofa", text: "sofa", translation: "ספה", pos: "noun", pronunciation: "סוֹפָה" }
+  - { id: "bed", text: "bed", translation: "מיטה", pos: "noun", pronunciation: "בֶּד" }
+  - { id: "table", text: "table", translation: "שולחן", pos: "noun", pronunciation: "טֵייבְּל" }
+  - { id: "chair", text: "chair", translation: "כיסא", pos: "noun", pronunciation: "צ'ֶר" }
+  - { id: "window", text: "window", translation: "חלון", pos: "noun", pronunciation: "וִינְדוֹ" }
+  - { id: "furniture", text: "furniture", translation: "רהיטים", pos: "noun", pronunciation: "פֶרְנִיצ'ֶר", example: { text: "The flat has furniture.", translation: "בדירה יש רהיטים." } }
+  - { id: "upstairs", text: "upstairs", translation: "למעלה (בקומה)", pos: "adverb", pronunciation: "אַפְּסְטֶרְז" }
+  - { id: "downstairs", text: "downstairs", translation: "למטה (בקומה)", pos: "adverb", pronunciation: "דַאוּנְסְטֶרְז" }
+  - { id: "landlord", text: "landlord", translation: "בעל הבית (משכיר)", pos: "noun", pronunciation: "לֶנְדְלוֹרְד" }
+  - { id: "quiet", text: "quiet", translation: "שקט", pos: "adjective", pronunciation: "קְוַוייאֶט" }
+  - { id: "noisy", text: "noisy", translation: "רועש", pos: "adjective", pronunciation: "נוֹיזִי" }
+  - { id: "bright", text: "bright", translation: "מואר", pos: "adjective", pronunciation: "בְּרַייט" }
+  - { id: "live", text: "live", translation: "לגור", pos: "verb", pronunciation: "לִיב", example: { text: "Where do you live?", translation: "איפה אתה גר?" } }
+  - { id: "move", text: "move", translation: "לעבור (דירה)", pos: "verb", pronunciation: "מוּב", example: { text: "I moved to London.", translation: "עברתי ללונדון." } }
+  - { id: "want", text: "want", translation: "לרצות", pos: "verb", pronunciation: "ווֹנְט" }
+  - { id: "clean", text: "clean", translation: "לנקות; נקי", pos: "verb", pronunciation: "קְלִין" }
+  - { id: "past-ed", text: "-ed", translation: "סיומת העבר (moved, lived)", pos: "phrase", pronunciation: "אֶד / ט / אִיד", example: { text: "I cleaned the kitchen.", translation: "ניקיתי את המטבח." } }
+  - { id: "did", text: "Did you…?", translation: "האם…? (שאלה בעבר)", pos: "phrase", pronunciation: "דִיד יוּ", example: { text: "Did you like the flat?", translation: "אהבת את הדירה?" } }
+  - { id: "didnt", text: "didn't", translation: "לא (בעבר)", pos: "verb", pronunciation: "דִידֶנְט", example: { text: "I didn't like the kitchen.", translation: "לא אהבתי את המטבח." } }
+
+grammar:
+  - id: past-simple-regular
+    title: { he: "עבר פשוט: I moved, I lived", en: "Past simple: regular verbs" }
+    explanation: |
+      בעברית לכל פועל יש צורת עבר משלו: גרתי, עברתי, ניקיתי. באנגלית, ברוב הפעלים פשוט מוסיפים **‎-ed**, והצורה זהה לכל הגופים:
+
+      - **I moved**, **she moved**, **they moved**
+      - **live → lived**, **clean → cleaned**, **want → wanted**
+
+      שאלה בעבר: **Did** בהתחלה, והפועל חוזר לצורה הרגילה, בלי ed:
+      **Did you like the flat?** ולא "Did you liked".
+
+      שלילה: **didn't** + פועל רגיל: **I didn't like it.**
+
+      תשובה קצרה: **Yes, I did.** / **No, I didn't.**
+    examples:
+      - { text: "Noa moved to London last month.", translation: "נועה עברה ללונדון בחודש שעבר." }
+      - { text: "Did you clean the kitchen? Yes, I did.", translation: "ניקית את המטבח? כן." }
+      - { text: "We didn't want a noisy flat.", translation: "לא רצינו דירה רועשת." }
+
+lessons:
+  # ------------------------------------------------------------------ 1
+  - id: u11-l1
+    kind: new
+    title: { he: "דירה להשכרה", en: "A flat for rent" }
+    exercises:
+      - id: u11-l1-01
+        type: dialogue
+        scene: "נועה הגיעה ללונדון לשנה. גברת כץ, בעלת הבית, מראה לה דירה."
+        lines:
+          - { speaker: "katz", text: "Welcome! This is the living room.", translation: "ברוכה הבאה! זה הסלון." }
+          - { speaker: "noa", text: "It's very bright. I love the big window.", translation: "הוא מאוד מואר. אני אוהבת את החלון הגדול." }
+          - { speaker: "katz", text: "The kitchen is here, and the bedroom is upstairs.", translation: "המטבח כאן, וחדר השינה למעלה." }
+          - { speaker: "noa", text: "And the bathroom?", translation: "וחדר האמבטיה?" }
+          - { speaker: "katz", text: "It's next to the bedroom.", translation: "הוא ליד חדר השינה." }
+          - { speaker: "noa", text: "How much is the rent?", translation: "כמה שכר הדירה?" }
+          - { speaker: "katz", text: "Nine hundred pounds a month.", translation: "תשע מאות פאונד לחודש." }
+      - { id: "u11-l1-02", type: "learn", lexeme: "flat" }
+      - { id: "u11-l1-03", type: "learn", lexeme: "living-room" }
+      - { id: "u11-l1-04", type: "learn", lexeme: "kitchen" }
+      - { id: "u11-l1-05", type: "learn", lexeme: "bedroom" }
+      - { id: "u11-l1-06", type: "learn", lexeme: "bathroom" }
+      - id: u11-l1-07
+        type: match_pairs
+        pairs:
+          - [kitchen, מטבח]
+          - [bedroom, חדר שינה]
+          - [bathroom, חדר אמבטיה]
+          - [living room, סלון]
+          - [flat, דירה]
+        lexemes: [kitchen, bedroom, bathroom, living-room, flat]
+      - { id: "u11-l1-08", type: "learn", lexeme: "upstairs" }
+      - { id: "u11-l1-09", type: "learn", lexeme: "downstairs" }
+      - { id: "u11-l1-10", type: "learn", lexeme: "rent" }
+      - { id: "u11-l1-11", type: "learn", lexeme: "landlord" }
+      - id: u11-l1-12
+        type: listening_choice
+        audioText: "The bedroom is upstairs."
+        question: איפה חדר השינה?
+        options: [למעלה, למטה, ליד המטבח]
+        correct: 0
+        lexemes: [bedroom, upstairs]
+      - id: u11-l1-13
+        type: multiple_choice
+        prompt: "כמה שכר הדירה של נועה?"
+        options: [900 פאונד לחודש, 90 פאונד לחודש, 900 פאונד לשבוע]
+        correct: 0
+        lexemes: [rent]
+      - id: u11-l1-14
+        type: word_bank
+        prompt: "המטבח למטה."
+        answers: ["The kitchen is downstairs.", "The kitchen's downstairs."]
+        distractors: [upstairs, bedroom]
+        lexemes: [kitchen, downstairs]
+      - id: u11-l1-15
+        type: speak_repeat
+        text: "How much is the rent?"
+        translation: "כמה שכר הדירה?"
+        lexemes: [rent]
+
+  # ------------------------------------------------------------------ 2
+  - id: u11-l2
+    kind: new
+    title: { he: "רהיטים ואור", en: "Furniture and light" }
+    exercises:
+      - { id: "u11-l2-01", type: "learn", lexeme: "furniture" }
+      - { id: "u11-l2-02", type: "learn", lexeme: "sofa" }
+      - { id: "u11-l2-03", type: "learn", lexeme: "bed" }
+      - { id: "u11-l2-04", type: "learn", lexeme: "table" }
+      - { id: "u11-l2-05", type: "learn", lexeme: "chair" }
+      - { id: "u11-l2-06", type: "learn", lexeme: "window" }
+      - id: u11-l2-07
+        type: match_pairs
+        pairs:
+          - [sofa, ספה]
+          - [bed, מיטה]
+          - [table, שולחן]
+          - [chair, כיסא]
+          - [window, חלון]
+        lexemes: [sofa, bed, table, chair, window]
+      - { id: "u11-l2-08", type: "learn", lexeme: "quiet" }
+      - { id: "u11-l2-09", type: "learn", lexeme: "noisy" }
+      - { id: "u11-l2-10", type: "learn", lexeme: "bright" }
+      - { id: "u11-l2-11", type: "learn", lexeme: "live" }
+      - { id: "u11-l2-12", type: "learn", lexeme: "want" }
+      - id: u11-l2-13
+        type: dialogue_gap
+        lines:
+          - { speaker: "katz", text: "Do you want a flat with furniture?", translation: "את רוצה דירה עם רהיטים?" }
+          - { speaker: "noa", text: "Yes, please. I want a bed, a table and a sofa.", translation: "כן, בבקשה. אני רוצה מיטה, שולחן וספה." }
+        gap: 1
+        distractors: ["Yes, please. I want a bed, a table and a noisy.", "Yes, I live a sofa."]
+        lexemes: [want, furniture, bed, table, sofa]
+      - id: u11-l2-14
+        type: fill_blank
+        sentence: "The street is very ___. There are a lot of cars."
+        translation: "הרחוב מאוד רועש. יש הרבה מכוניות."
+        answers: [noisy]
+        options: [noisy, quiet, bright]
+        lexemes: [noisy, street]
+      - id: u11-l2-15
+        type: translate
+        direction: to_target
+        prompt: "אני רוצה דירה שקטה."
+        answers: ["I want a quiet flat.", "I want a quiet apartment."]
+        lexemes: [want, quiet, flat]
+      - id: u11-l2-16
+        type: translate
+        direction: to_source
+        prompt: "Where do you live?"
+        answers: ["איפה אתה גר?", "איפה את גרה?", "איפה אתם גרים?", "איפה אתה גר", "איפה את גרה"]
+        lexemes: [live, where]
+      - id: u11-l2-17
+        type: speak_repeat
+        text: "The living room is quiet and bright."
+        translation: "הסלון שקט ומואר."
+        lexemes: [living-room, quiet, bright]
+
+  # ------------------------------------------------------------------ 3
+  - id: u11-l3
+    kind: grammar
+    grammar: past-simple-regular
+    title: { he: "עברתי ללונדון", en: "I moved to London" }
+    exercises:
+      - { id: "u11-l3-01", type: "learn", lexeme: "move" }
+      - { id: "u11-l3-02", type: "learn", lexeme: "clean" }
+      - { id: "u11-l3-03", type: "learn", lexeme: "past-ed" }
+      - id: u11-l3-04
+        type: fill_blank
+        sentence: "Last month I ___ to London. (move)"
+        translation: "בחודש שעבר עברתי ללונדון."
+        answers: [moved]
+        options: [moved, move, moves]
+        lexemes: [move, past-ed]
+      - id: u11-l3-05
+        type: fill_blank
+        sentence: "Yesterday we ___ the kitchen. (clean)"
+        translation: "אתמול ניקינו את המטבח."
+        answers: [cleaned]
+        options: [cleaned, clean, cleans]
+        lexemes: [clean, past-ed, kitchen, yesterday]
+      - id: u11-l3-06
+        type: tip
+        title: "איך מבטאים ‎-ed?"
+        text: |
+          ‎-ed לא תמיד נשמע "אד". ברוב הפעלים שומעים רק ד או ט: moved (מוּבְד), cleaned (קְלִינְד), liked (לַייקְט).
+
+          רק אחרי t או d שומעים "איד": wanted (ווֹנְטִיד), needed (נִידִיד).
+      - { id: "u11-l3-07", type: "learn", lexeme: "did" }
+      - { id: "u11-l3-08", type: "learn", lexeme: "didnt" }
+      - id: u11-l3-09
+        type: multiple_choice
+        prompt: איזו שאלה נכונה?
+        options: ["Did you like the flat?", "Did you liked the flat?", "Do you liked the flat?"]
+        correct: 0
+        lexemes: [did, like, flat]
+      - id: u11-l3-10
+        type: dialogue_gap
+        lines:
+          - { speaker: "ben", text: "Did you live in a flat in Tel Aviv?", translation: "גרת בדירה בתל אביב?" }
+          - { speaker: "noa", text: "Yes, I did. It was small but bright.", translation: "כן. היא הייתה קטנה אבל מוארת." }
+        gap: 1
+        distractors: ["Yes, I lived. It was small but bright.", "Yes, I did live it small."]
+        lexemes: [did, live, was, bright]
+      - id: u11-l3-11
+        type: word_bank
+        prompt: "לא רצינו דירה רועשת."
+        answers: ["We didn't want a noisy flat."]
+        distractors: [wanted, don't]
+        lexemes: [didnt, want, noisy, flat]
+      - id: u11-l3-12
+        type: translate
+        direction: to_target
+        prompt: "היא עברה לדירה חדשה."
+        answers: ["She moved to a new flat.", "She moved into a new flat.", "She moved to a new apartment.", "She moved into a new apartment."]
+        lexemes: [move, past-ed, flat]
+      - id: u11-l3-13
+        type: translate
+        direction: to_source
+        prompt: "Did you clean the bathroom? No, I didn't."
+        answers: ["ניקית את חדר האמבטיה? לא.", "ניקית את האמבטיה? לא.", "ניקית את חדר האמבטיה? לא ניקיתי.", "ניקית את המקלחת? לא."]
+        lexemes: [did, clean, bathroom, didnt]
+      - id: u11-l3-14
+        type: speak_repeat
+        text: "I moved to London last month."
+        translation: "עברתי ללונדון בחודש שעבר."
+        lexemes: [move, past-ed]
+
+  # ------------------------------------------------------------------ 4
+  - id: u11-l4
+    kind: listening
+    title: { he: "איך הייתה ההעברה?", en: "How was the move?" }
+    exercises:
+      - id: u11-l4-01
+        type: dialogue
+        scene: "יום שני בבוקר במשרד. בן שואל את נועה על סוף השבוע."
+        lines:
+          - { speaker: "ben", text: "How was the weekend? Did you move?", translation: "איך היה סוף השבוע? עברת דירה?" }
+          - { speaker: "noa", text: "Yes! I moved on Saturday. Rachel helped me.", translation: "כן! עברתי בשבת. רחל עזרה לי." }
+          - { speaker: "ben", text: "Great. Do you like the flat?", translation: "מעולה. את אוהבת את הדירה?" }
+          - { speaker: "noa", text: "I love it. It's quiet, and the living room is very bright.", translation: "אני מתה עליה. היא שקטה, והסלון מאוד מואר." }
+          - { speaker: "ben", text: "And the landlord?", translation: "ובעלת הבית?" }
+          - { speaker: "noa", text: "Mrs. Katz is very nice. She cleaned the kitchen for me.", translation: "גברת כץ מאוד נחמדה. היא ניקתה בשבילי את המטבח." }
+          - { speaker: "ben", text: "Lucky you! My landlord never cleans anything.", translation: "יש לך מזל! בעל הבית שלי אף פעם לא מנקה כלום." }
+      - id: u11-l4-02
+        type: multiple_choice
+        prompt: "מתי נועה עברה דירה?"
+        options: [בשבת, ביום ראשון, ביום שני]
+        correct: 0
+        lexemes: [move, saturday]
+      - id: u11-l4-03
+        type: multiple_choice
+        prompt: "מי עזרה לנועה?"
+        options: [רחל, גברת כץ, מרים]
+        correct: 0
+        lexemes: [help]
+      - id: u11-l4-04
+        type: multiple_choice
+        prompt: "מה גברת כץ עשתה?"
+        options: [ניקתה את המטבח, ניקתה את הסלון, קנתה ספה]
+        correct: 0
+        lexemes: [clean, kitchen]
+      - id: u11-l4-05
+        type: listening_choice
+        audioText: "We lived downstairs, next to the kitchen."
+        question: איפה הם גרו?
+        options: [למטה ליד המטבח, למעלה ליד המטבח, למטה ליד הסלון]
+        correct: 0
+        lexemes: [live, downstairs]
+      - id: u11-l4-06
+        type: dialogue_gap
+        lines:
+          - { speaker: "rachel", text: "Did you like the old flat?", translation: "אהבת את הדירה הישנה?" }
+          - { speaker: "noa", text: "No, I didn't. It was very noisy.", translation: "לא. היא הייתה מאוד רועשת." }
+        gap: 1
+        distractors: ["No, I don't. It was very noisy.", "No, I didn't liked it."]
+        lexemes: [did, didnt, noisy]
+      - id: u11-l4-07
+        type: dialogue
+        scene: "נועה מתקשרת לגברת כץ."
+        lines:
+          - { speaker: "noa", text: "Hello, Mrs. Katz. There's a problem with the bathroom window.", translation: "שלום, גברת כץ. יש בעיה עם החלון בחדר האמבטיה." }
+          - { speaker: "katz", text: "Oh no. Is it open?", translation: "אוי, לא. הוא פתוח?" }
+          - { speaker: "noa", text: "Yes, and it's very cold.", translation: "כן, ונורא קר." }
+          - { speaker: "katz", text: "I can come tomorrow morning.", translation: "אני יכולה לבוא מחר בבוקר." }
+      - id: u11-l4-08
+        type: multiple_choice
+        prompt: "מה הבעיה בדירה?"
+        options: [החלון בחדר האמבטיה, המיטה בחדר השינה, השולחן במטבח]
+        correct: 0
+        lexemes: [problem, window, bathroom]
+      - id: u11-l4-09
+        type: multiple_choice
+        prompt: "מתי גברת כץ באה?"
+        options: [מחר בבוקר, היום בערב, בשבת]
+        correct: 0
+        lexemes: [in-the-morning]
+      - id: u11-l4-10
+        type: dictation
+        text: "I moved on Saturday."
+        lexemes: [move, saturday]
+      - id: u11-l4-11
+        type: translate
+        direction: to_target
+        prompt: "אהבת את הדירה?"
+        answers: ["Did you like the flat?", "Did you like the apartment?"]
+        lexemes: [did, like, flat]
+      - id: u11-l4-12
+        type: speak_repeat
+        text: "My flat is quiet and the living room is very bright."
+        translation: "הדירה שלי שקטה והסלון מאוד מואר."
+        lexemes: [flat, quiet, living-room, bright]
+
+  # ------------------------------------------------------------------ 5
+  - id: u11-l5
+    kind: reading
+    title: { he: "מודעה: דירה בקמדן", en: "Ad: a flat in Camden" }
+    exercises:
+      - id: u11-l5-01
+        type: reading
+        kind: "מודעה להשכרה"
+        title: "Flat for rent in Camden"
+        text: |
+          A bright one-bedroom flat on a quiet street, five minutes from the station.
+
+          The flat has a large living room with two big windows, a new kitchen and a small bathroom. The bedroom is upstairs.
+
+          The flat comes with furniture: a sofa, a bed, a table and four chairs.
+
+          Rent: £950 a month. No pets, please. Call the landlord, Mr. Levy, on 0207 555 0193.
+        translation: |
+          דירת חדר שינה אחד מוארת ברחוב שקט, חמש דקות מהתחנה.
+
+          בדירה סלון גדול עם שני חלונות גדולים, מטבח חדש וחדר אמבטיה קטן. חדר השינה למעלה.
+
+          הדירה מגיעה עם רהיטים: ספה, מיטה, שולחן וארבעה כיסאות.
+
+          שכר דירה: 950 פאונד לחודש. בלי חיות מחמד, בבקשה. התקשרו לבעל הבית, מר לוי, במספר 0207 555 0193.
+      - id: u11-l5-02
+        type: multiple_choice
+        prompt: "כמה רחוקה הדירה מהתחנה?"
+        options: [חמש דקות, עשר דקות, חצי שעה]
+        correct: 0
+        lexemes: [station, flat]
+      - id: u11-l5-03
+        type: multiple_choice
+        prompt: "מה נכון לגבי הדירה?"
+        options: [יש בה רהיטים, אין בה מטבח, חדר השינה למטה]
+        correct: 0
+        lexemes: [furniture, kitchen, bedroom]
+      - id: u11-l5-04
+        type: multiple_choice
+        prompt: "איך הרחוב?"
+        options: [שקט, רועש, רחוק מהתחנה]
+        correct: 0
+        lexemes: [quiet, street]
+      - id: u11-l5-05
+        type: multiple_choice
+        prompt: "כמה כיסאות יש בדירה?"
+        options: ["4", "2", "1"]
+        correct: 0
+        lexemes: [chair]
+      - id: u11-l5-06
+        type: fill_blank
+        sentence: "The ___ is £950 a month."
+        translation: "שכר הדירה 950 פאונד לחודש."
+        answers: [rent]
+        options: [rent, flat, landlord]
+        lexemes: [rent]
+      - id: u11-l5-07
+        type: fill_blank
+        sentence: "The bedroom is ___ ."
+        translation: "חדר השינה למעלה."
+        answers: [upstairs]
+        options: [upstairs, downstairs, window]
+        lexemes: [bedroom, upstairs]
+      - id: u11-l5-08
+        type: word_bank
+        prompt: "בדירה יש סלון גדול ומטבח חדש."
+        answers: ["The flat has a large living room and a new kitchen.", "The flat has a big living room and a new kitchen."]
+        distractors: [bedroom, have]
+        lexemes: [flat, living-room, kitchen, large]
+      - id: u11-l5-09
+        type: translate
+        direction: to_target
+        prompt: "חדר האמבטיה קטן."
+        answers: ["The bathroom is small.", "The bathroom's small."]
+        lexemes: [bathroom, small]
+      - id: u11-l5-10
+        type: speak_repeat
+        text: "Hello, I'm calling about the flat in Camden."
+        translation: "שלום, אני מתקשרת בקשר לדירה בקמדן."
+        lexemes: [flat]
+
+  # ------------------------------------------------------------------ 6
+  - id: u11-review
+    kind: review
+    title: { he: "חזרה: דירה חדשה", en: "Review: a new flat" }
+    exercises:
+      - id: u11-r-01
+        type: match_pairs
+        pairs:
+          - [quiet, שקט]
+          - [noisy, רועש]
+          - [bright, מואר]
+          - [upstairs, למעלה]
+          - [downstairs, למטה]
+        lexemes: [quiet, noisy, bright, upstairs, downstairs]
+      - id: u11-r-02
+        type: fill_blank
+        sentence: "___ you clean the kitchen yesterday?"
+        translation: "ניקית את המטבח אתמול?"
+        answers: [Did]
+        options: [Did, Do, Does]
+        lexemes: [did, clean, kitchen]
+      - id: u11-r-03
+        type: listening_choice
+        audioText: "We didn't want a flat without furniture."
+        question: מה הם לא רצו?
+        options: [דירה בלי רהיטים, דירה רועשת, דירה רחוקה]
+        correct: 0
+        lexemes: [didnt, want, furniture]
+      - id: u11-r-04
+        type: word_bank
+        prompt: "גרתי בדירה קטנה בתל אביב."
+        answers: ["I lived in a small flat in Tel Aviv."]
+        distractors: [live, big]
+        lexemes: [live, past-ed, small, flat]
+      - id: u11-r-05
+        type: dialogue_gap
+        lines:
+          - { speaker: "katz", text: "Did you like the bedroom?", translation: "אהבת את חדר השינה?" }
+          - { speaker: "noa", text: "Yes, I did. The bed is great.", translation: "כן. המיטה מעולה." }
+        gap: 1
+        distractors: ["Yes, I liked. The bed is great.", "Yes, I do it bed."]
+        lexemes: [did, bedroom, bed]
+      - id: u11-r-06
+        type: multiple_choice
+        prompt: "איזה משפט נכון?"
+        options: ["She didn't move last year.", "She didn't moved last year.", "She not moved last year."]
+        correct: 0
+        lexemes: [didnt, move]
+      - id: u11-r-07
+        type: translate
+        direction: to_target
+        prompt: "יש שולחן וארבעה כיסאות במטבח."
+        answers: ["There is a table and four chairs in the kitchen.", "There's a table and four chairs in the kitchen.", "There are a table and four chairs in the kitchen."]
+        lexemes: [there-is, table, chair, kitchen]
+      - id: u11-r-08
+        type: translate
+        direction: to_source
+        prompt: "The landlord cleaned the windows."
+        answers: ["בעל הבית ניקה את החלונות.", "בעלת הבית ניקתה את החלונות.", "המשכיר ניקה את החלונות."]
+        lexemes: [landlord, clean, window]
+      - id: u11-r-09
+        type: dictation
+        text: "Where do you live?"
+        lexemes: [live]
+      - id: u11-r-10
+        type: speak_repeat
+        text: "Did you move last month? Yes, I did."
+        translation: "עברת דירה בחודש שעבר? כן."
+        lexemes: [did, move]

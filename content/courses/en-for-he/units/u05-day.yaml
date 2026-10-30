@@ -12,34 +12,34 @@ canDo:
   - לשאול שאלות עם do ולענות
 
 vocabulary:
-  - { id: "get-up", text: "get up", translation: "לקום", pos: verb, pronunciation: "גֶט אָפּ", example: { text: "I get up at seven.", translation: "אני קמה בשבע." } }
-  - { id: "have-breakfast", text: "have breakfast", translation: "לאכול ארוחת בוקר", pos: phrase, pronunciation: "הֶב בְּרֶקְפֶסְט" }
-  - { id: "go-to-work", text: "go to work", translation: "ללכת לעבודה", pos: phrase, pronunciation: "גוֹ טוּ וֶורְק" }
-  - { id: "go-home", text: "go home", translation: "ללכת הביתה", pos: phrase, pronunciation: "גוֹ הוֹם" }
-  - { id: "have-dinner", text: "have dinner", translation: "לאכול ארוחת ערב", pos: phrase, pronunciation: "הֶב דִינֶר" }
-  - { id: "go-to-bed", text: "go to bed", translation: "ללכת לישון", pos: phrase, pronunciation: "גוֹ טוּ בֶּד" }
-  - { id: "every-day", text: "every day", translation: "כל יום", pos: phrase, pronunciation: "אֶבְרִי דֵיי", example: { text: "I have coffee every day.", translation: "אני שותה קפה כל יום." } }
-  - { id: "what-time", text: "What time…?", translation: "באיזו שעה…? / מה השעה?", pos: phrase, pronunciation: "ווֹט טַאיים", example: { text: "What time is it?", translation: "מה השעה?" } }
-  - { id: "oclock", text: "o'clock", translation: "(בשעה) עגולה", pos: phrase, pronunciation: "אוֹ קְלוֹק", example: { text: "It's nine o'clock.", translation: "השעה תשע." } }
-  - { id: "half-past", text: "half past", translation: "וחצי", pos: phrase, pronunciation: "הַאף פַּאסְט", example: { text: "half past eight", translation: "שמונה וחצי" } }
-  - { id: "at", text: "at", translation: "ב־ (בשעה)", pos: preposition, pronunciation: "אֶט", example: { text: "at six o'clock", translation: "בשעה שש" } }
-  - { id: "in-the-morning", text: "in the morning", translation: "בבוקר", pos: phrase, pronunciation: "אִין דֶ'ה מוֹרְנִינְג" }
-  - { id: "in-the-evening", text: "in the evening", translation: "בערב", pos: phrase, pronunciation: "אִין דֶ'ה אִיבְנִינְג" }
-  - { id: "early", text: "early", translation: "מוקדם", pos: adverb, pronunciation: "אֶרְלִי" }
-  - { id: "late", text: "late", translation: "מאוחר", pos: adverb, pronunciation: "לֵייט" }
-  - { id: "we", text: "we", translation: "אנחנו", pos: pronoun, pronunciation: "וִוי" }
-  - { id: "they", text: "they", translation: "הם, הן", pos: pronoun, pronunciation: "דֶ'יי" }
-  - { id: "do-question", text: "Do you…?", translation: "(שאלה בהווה) אתה…? / את…?", pos: phrase, pronunciation: "דוּ יוּ", example: { text: "Do you work on Sunday?", translation: "את עובדת ביום ראשון?" } }
-  - { id: "dont", text: "don't", translation: "לא (לפני פועל)", pos: phrase, pronunciation: "דוֹנְט", example: { text: "I don't work on Saturday.", translation: "אני לא עובד בשבת." } }
-  - { id: "work-verb", text: "work", translation: "לעבוד", pos: verb, pronunciation: "וֶורְק" }
-  - { id: "sunday", text: "Sunday", translation: "יום ראשון", pos: noun, pronunciation: "סָאנְדֵיי" }
-  - { id: "monday", text: "Monday", translation: "יום שני", pos: noun, pronunciation: "מָאנְדֵיי" }
-  - { id: "tuesday", text: "Tuesday", translation: "יום שלישי", pos: noun, pronunciation: "טְיוּזְדֵיי" }
-  - { id: "wednesday", text: "Wednesday", translation: "יום רביעי", pos: noun, pronunciation: "וֶונְזְדֵיי" }
-  - { id: "thursday", text: "Thursday", translation: "יום חמישי", pos: noun, pronunciation: "ת'רְזְדֵיי" }
-  - { id: "friday", text: "Friday", translation: "יום שישי", pos: noun, pronunciation: "פְרַאיְדֵיי" }
-  - { id: "saturday", text: "Saturday", translation: "שבת", pos: noun, pronunciation: "סֶטֶרְדֵיי" }
-  - { id: "on-day", text: "on (Monday)", translation: "ב־ (ביום מסוים)", pos: preposition, pronunciation: "אוֹן", example: { text: "on Friday", translation: "ביום שישי" } }
+  - { id: "get-up", text: "get up", translation: "לקום", pos: "verb", pronunciation: "גֶט אָפּ", example: { text: "I get up at seven.", translation: "אני קמה בשבע." } }
+  - { id: "have-breakfast", text: "have breakfast", translation: "לאכול ארוחת בוקר", pos: "phrase", pronunciation: "הֶב בְּרֶקְפֶסְט" }
+  - { id: "go-to-work", text: "go to work", translation: "ללכת לעבודה", pos: "phrase", pronunciation: "גוֹ טוּ וֶורְק" }
+  - { id: "go-home", text: "go home", translation: "ללכת הביתה", pos: "phrase", pronunciation: "גוֹ הוֹם" }
+  - { id: "have-dinner", text: "have dinner", translation: "לאכול ארוחת ערב", pos: "phrase", pronunciation: "הֶב דִינֶר" }
+  - { id: "go-to-bed", text: "go to bed", translation: "ללכת לישון", pos: "phrase", pronunciation: "גוֹ טוּ בֶּד" }
+  - { id: "every-day", text: "every day", translation: "כל יום", pos: "phrase", pronunciation: "אֶבְרִי דֵיי", example: { text: "I have coffee every day.", translation: "אני שותה קפה כל יום." } }
+  - { id: "what-time", text: "What time…?", translation: "באיזו שעה…? / מה השעה?", pos: "phrase", pronunciation: "ווֹט טַאיים", example: { text: "What time is it?", translation: "מה השעה?" } }
+  - { id: "oclock", text: "o'clock", translation: "(בשעה) עגולה", pos: "phrase", pronunciation: "אוֹ קְלוֹק", example: { text: "It's nine o'clock.", translation: "השעה תשע." } }
+  - { id: "half-past", text: "half past", translation: "וחצי", pos: "phrase", pronunciation: "הַאף פַּאסְט", example: { text: "half past eight", translation: "שמונה וחצי" } }
+  - { id: "at", text: "at", translation: "ב־ (בשעה)", pos: "preposition", pronunciation: "אֶט", example: { text: "at six o'clock", translation: "בשעה שש" } }
+  - { id: "in-the-morning", text: "in the morning", translation: "בבוקר", pos: "phrase", pronunciation: "אִין דֶ'ה מוֹרְנִינְג" }
+  - { id: "in-the-evening", text: "in the evening", translation: "בערב", pos: "phrase", pronunciation: "אִין דֶ'ה אִיבְנִינְג" }
+  - { id: "early", text: "early", translation: "מוקדם", pos: "adverb", pronunciation: "אֶרְלִי" }
+  - { id: "late", text: "late", translation: "מאוחר", pos: "adverb", pronunciation: "לֵייט" }
+  - { id: "we", text: "we", translation: "אנחנו", pos: "pronoun", pronunciation: "וִוי" }
+  - { id: "they", text: "they", translation: "הם, הן", pos: "pronoun", pronunciation: "דֶ'יי" }
+  - { id: "do-question", text: "Do you…?", translation: "(שאלה בהווה) אתה…? / את…?", pos: "phrase", pronunciation: "דוּ יוּ", example: { text: "Do you work on Sunday?", translation: "את עובדת ביום ראשון?" } }
+  - { id: "dont", text: "don't", translation: "לא (לפני פועל)", pos: "phrase", pronunciation: "דוֹנְט", example: { text: "I don't work on Saturday.", translation: "אני לא עובד בשבת." } }
+  - { id: "work-verb", text: "work", translation: "לעבוד", pos: "verb", pronunciation: "וֶורְק" }
+  - { id: "sunday", text: "Sunday", translation: "יום ראשון", pos: "noun", pronunciation: "סָאנְדֵיי" }
+  - { id: "monday", text: "Monday", translation: "יום שני", pos: "noun", pronunciation: "מָאנְדֵיי" }
+  - { id: "tuesday", text: "Tuesday", translation: "יום שלישי", pos: "noun", pronunciation: "טְיוּזְדֵיי" }
+  - { id: "wednesday", text: "Wednesday", translation: "יום רביעי", pos: "noun", pronunciation: "וֶונְזְדֵיי" }
+  - { id: "thursday", text: "Thursday", translation: "יום חמישי", pos: "noun", pronunciation: "ת'רְזְדֵיי" }
+  - { id: "friday", text: "Friday", translation: "יום שישי", pos: "noun", pronunciation: "פְרַאיְדֵיי" }
+  - { id: "saturday", text: "Saturday", translation: "שבת", pos: "noun", pronunciation: "סֶטֶרְדֵיי" }
+  - { id: "on-day", text: "on (Monday)", translation: "ב־ (ביום מסוים)", pos: "preposition", pronunciation: "אוֹן", example: { text: "on Friday", translation: "ביום שישי" } }
 
 grammar:
   - id: present-simple

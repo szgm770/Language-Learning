@@ -1,0 +1,494 @@
+id: u12-weekend
+cefr: A2
+scene: free-time
+title:
+  he: סוף השבוע שעבר
+  en: Last weekend
+story: "מרים הגיעה ממדריד לסוף שבוע בלונדון. ביום שני כולם מספרים לאלי בבית הקפה מה הם עשו: שוק, חוף, הופעה וגם קצת בלגן."
+canDo:
+  - לספר מה עשיתי בסוף השבוע
+  - להשתמש בפעלי עבר יוצאי דופן (went, had, saw)
+  - לשאול What did you do?‎ ולהגיב בעניין
+  - לסדר סיפור קצר בזמן עם then ו־after that
+
+vocabulary:
+  - { id: "went", text: "went", translation: "הלכתי, נסעתי (עבר של go)", pos: "verb", pronunciation: "וֶנְט", example: { text: "We went to the beach.", translation: "הלכנו לחוף." } }
+  - { id: "had", text: "had", translation: "היה לי; אכלתי, שתיתי (עבר של have)", pos: "verb", pronunciation: "הֶד", example: { text: "I had a great weekend.", translation: "היה לי סוף שבוע מעולה." } }
+  - { id: "saw", text: "saw", translation: "ראיתי (עבר של see)", pos: "verb", pronunciation: "סוֹ" }
+  - { id: "ate", text: "ate", translation: "אכלתי (עבר של eat)", pos: "verb", pronunciation: "אֵייט" }
+  - { id: "met", text: "met", translation: "פגשתי (עבר של meet)", pos: "verb", pronunciation: "מֶט" }
+  - { id: "bought", text: "bought", translation: "קניתי (עבר של buy)", pos: "verb", pronunciation: "בּוֹט" }
+  - { id: "made", text: "made", translation: "הכנתי, עשיתי (עבר של make)", pos: "verb", pronunciation: "מֵייד" }
+  - { id: "took", text: "took", translation: "לקחתי (עבר של take)", pos: "verb", pronunciation: "טוּק", example: { text: "We took a taxi.", translation: "לקחנו מונית." } }
+  - { id: "beach", text: "beach", translation: "חוף ים", pos: "noun", pronunciation: "בִּיץ'" }
+  - { id: "market", text: "market", translation: "שוק", pos: "noun", pronunciation: "מַארְקֶט" }
+  - { id: "concert", text: "concert", translation: "הופעה, קונצרט", pos: "noun", pronunciation: "קוֹנְסֶרְט" }
+  - { id: "ago", text: "ago", translation: "לפני (זמן)", pos: "adverb", pronunciation: "אָגוֹ", example: { text: "two days ago", translation: "לפני יומיים" } }
+  - { id: "then", text: "then", translation: "ואז", pos: "adverb", pronunciation: "דֶ'ן" }
+  - { id: "after-that", text: "after that", translation: "אחרי זה", pos: "phrase", pronunciation: "אַפְטֶר דֶ'ט" }
+  - { id: "fun", text: "fun", translation: "כיף", pos: "adjective", pronunciation: "פַאן", example: { text: "It was a lot of fun!", translation: "היה ממש כיף!" } }
+  - { id: "boring", text: "boring", translation: "משעמם", pos: "adjective", pronunciation: "בּוֹרִינְג" }
+  - { id: "what-did-you-do", text: "What did you do?", translation: "מה עשית?", pos: "phrase", pronunciation: "ווֹט דִיד יוּ דוּ" }
+  - { id: "really", text: "Really?", translation: "באמת?", pos: "phrase", pronunciation: "רִילִי" }
+  - { id: "sounds-great", text: "That sounds great!", translation: "נשמע מעולה!", pos: "phrase", pronunciation: "דֶ'ט סַאוּנְדְז גְרֵייט" }
+  - { id: "tired", text: "tired", translation: "עייף", pos: "adjective", pronunciation: "טַייאֶרְד" }
+
+grammar:
+  - id: past-simple-irregular
+    title: { he: "עבר יוצא דופן: went, had, saw", en: "Past simple: irregular verbs" }
+    explanation: |
+      כמה מהפעלים הכי נפוצים באנגלית לא מקבלים ‎-ed. לכל אחד יש צורת עבר משלו, ופשוט לומדים אותה בעל פה:
+
+      - **go → went**, **have → had**, **see → saw**, **eat → ate**
+      - **meet → met**, **buy → bought**, **make → made**, **take → took**
+
+      החדשות הטובות: גם כאן הצורה זהה לכל הגופים (**I went, she went, they went**).
+
+      ובשאלה ובשלילה חוזרים לצורה הרגילה, בדיוק כמו בפעלים הרגילים:
+      **Did you go?** (לא "Did you went") ו־**I didn't see it.**
+    examples:
+      - { text: "We went to the market and bought some fruit.", translation: "הלכנו לשוק וקנינו פירות." }
+      - { text: "Did you see the concert? No, I didn't.", translation: "ראית את ההופעה? לא." }
+      - { text: "Miriam met Ben two years ago.", translation: "מרים פגשה את בן לפני שנתיים." }
+
+lessons:
+  # ------------------------------------------------------------------ 1
+  - id: u12-l1
+    kind: new
+    title: { he: "מה עשית בסוף השבוע?", en: "What did you do at the weekend?" }
+    exercises:
+      - id: u12-l1-01
+        type: dialogue
+        scene: "יום שני בבוקר בבית הקפה. אלי שואל את נועה על סוף השבוע."
+        lines:
+          - { speaker: "eli", text: "Morning, Noa! What did you do at the weekend?", translation: "בוקר טוב, נועה! מה עשית בסוף השבוע?" }
+          - { speaker: "noa", text: "Miriam came from Madrid! On Saturday we went to the market.", translation: "מרים הגיעה ממדריד! בשבת הלכנו לשוק." }
+          - { speaker: "eli", text: "Really? That sounds great!", translation: "באמת? נשמע מעולה!" }
+          - { speaker: "noa", text: "It was. We ate a lot and I bought a new bag.", translation: "זה היה. אכלנו המון וקניתי תיק חדש." }
+          - { speaker: "eli", text: "And on Sunday?", translation: "וביום ראשון?" }
+          - { speaker: "noa", text: "We saw a concert in the park. It was so much fun.", translation: "ראינו הופעה בפארק. היה ממש כיף." }
+      - { id: "u12-l1-02", type: "learn", lexeme: "what-did-you-do" }
+      - { id: "u12-l1-03", type: "learn", lexeme: "went" }
+      - { id: "u12-l1-04", type: "learn", lexeme: "market" }
+      - { id: "u12-l1-05", type: "learn", lexeme: "ate" }
+      - { id: "u12-l1-06", type: "learn", lexeme: "bought" }
+      - { id: "u12-l1-07", type: "learn", lexeme: "saw" }
+      - { id: "u12-l1-08", type: "learn", lexeme: "concert" }
+      - id: u12-l1-09
+        type: match_pairs
+        pairs:
+          - [went, הלכתי]
+          - [ate, אכלתי]
+          - [bought, קניתי]
+          - [saw, ראיתי]
+          - [market, שוק]
+        lexemes: [went, ate, bought, saw, market]
+      - { id: "u12-l1-10", type: "learn", lexeme: "really" }
+      - { id: "u12-l1-11", type: "learn", lexeme: "sounds-great" }
+      - { id: "u12-l1-12", type: "learn", lexeme: "fun" }
+      - id: u12-l1-13
+        type: multiple_choice
+        prompt: "מה נועה קנתה בשוק?"
+        options: [תיק חדש, נעליים, ספר]
+        correct: 0
+        lexemes: [bought, bag]
+      - id: u12-l1-14
+        type: listening_choice
+        audioText: "We saw a concert in the park."
+        question: מה הם עשו?
+        options: [ראו הופעה בפארק, הלכו לשוק, אכלו בפארק]
+        correct: 0
+        lexemes: [saw, concert, park]
+      - id: u12-l1-15
+        type: word_bank
+        prompt: "הלכנו לשוק בשבת."
+        answers: ["We went to the market on Saturday.", "On Saturday we went to the market."]
+        distractors: [go, bought]
+        lexemes: [went, market, saturday]
+      - id: u12-l1-16
+        type: speak_repeat
+        text: "What did you do at the weekend?"
+        translation: "מה עשית בסוף השבוע?"
+        lexemes: [what-did-you-do, weekend]
+
+  # ------------------------------------------------------------------ 2
+  - id: u12-l2
+    kind: new
+    title: { he: "יום בחוף", en: "A day at the beach" }
+    exercises:
+      - { id: "u12-l2-01", type: "learn", lexeme: "beach" }
+      - { id: "u12-l2-02", type: "learn", lexeme: "took" }
+      - { id: "u12-l2-03", type: "learn", lexeme: "had" }
+      - { id: "u12-l2-04", type: "learn", lexeme: "met" }
+      - { id: "u12-l2-05", type: "learn", lexeme: "made" }
+      - id: u12-l2-06
+        type: dialogue
+        scene: "בן מספר לאלי על סוף השבוע שלו."
+        lines:
+          - { speaker: "ben", text: "I went to Brighton with Rachel. We took the train.", translation: "נסעתי לברייטון עם רחל. לקחנו את הרכבת." }
+          - { speaker: "eli", text: "Nice! Did you go to the beach?", translation: "נחמד! הלכתם לחוף?" }
+          - { speaker: "ben", text: "Yes, and we met some old friends there.", translation: "כן, ופגשנו שם כמה חברים ותיקים." }
+          - { speaker: "eli", text: "Did you eat fish and chips?", translation: "אכלתם פיש אנד צ'יפס?" }
+          - { speaker: "ben", text: "Of course! Then Rachel made dinner for everyone.", translation: "ברור! ואז רחל הכינה ארוחת ערב לכולם." }
+      - id: u12-l2-07
+        type: match_pairs
+        pairs:
+          - [took, לקחתי]
+          - [had, היה לי]
+          - [met, פגשתי]
+          - [made, הכנתי]
+          - [beach, חוף ים]
+        lexemes: [took, had, met, made, beach]
+      - { id: "u12-l2-08", type: "learn", lexeme: "then" }
+      - { id: "u12-l2-09", type: "learn", lexeme: "tired" }
+      - { id: "u12-l2-10", type: "learn", lexeme: "boring" }
+      - id: u12-l2-11
+        type: multiple_choice
+        prompt: "איך בן ורחל נסעו לברייטון?"
+        options: [ברכבת, באוטובוס, במונית]
+        correct: 0
+        lexemes: [took]
+      - id: u12-l2-12
+        type: dialogue_gap
+        lines:
+          - { speaker: "eli", text: "How was the party?", translation: "איך הייתה המסיבה?" }
+          - { speaker: "miriam", text: "Boring! I went home early. I was very tired.", translation: "משעממת! הלכתי הביתה מוקדם. הייתי מאוד עייפה." }
+        gap: 1
+        distractors: ["Boring! I go home early. I was very tired.", "Fun! I went home boring."]
+        lexemes: [boring, went, tired]
+      - id: u12-l2-13
+        type: fill_blank
+        sentence: "We ___ some old friends at the beach."
+        translation: "פגשנו כמה חברים ותיקים בחוף."
+        answers: [met]
+        options: [met, meet, meeted]
+        lexemes: [met, beach]
+      - id: u12-l2-14
+        type: translate
+        direction: to_target
+        prompt: "היה לי סוף שבוע מעולה."
+        answers: ["I had a great weekend.", "I had a fantastic weekend."]
+        lexemes: [had, great, weekend]
+      - id: u12-l2-15
+        type: speak_repeat
+        text: "We took the train to the beach."
+        translation: "לקחנו את הרכבת לחוף."
+        lexemes: [took, beach]
+
+  # ------------------------------------------------------------------ 3
+  - id: u12-l3
+    kind: grammar
+    grammar: past-simple-irregular
+    title: { he: "הלכנו, ראינו, קנינו", en: "We went, we saw, we bought" }
+    exercises:
+      - id: u12-l3-01
+        type: match_pairs
+        pairs:
+          - [go, went]
+          - [see, saw]
+          - [eat, ate]
+          - [buy, bought]
+          - [take, took]
+        lexemes: [went, saw, ate, bought, took]
+      - id: u12-l3-02
+        type: fill_blank
+        sentence: "Yesterday I ___ a great movie. (see)"
+        translation: "אתמול ראיתי סרט מעולה."
+        answers: [saw]
+        options: [saw, seed, see]
+        lexemes: [saw, movie, yesterday]
+      - id: u12-l3-03
+        type: fill_blank
+        sentence: "She ___ a cake for my birthday. (make)"
+        translation: "היא הכינה עוגה ליום ההולדת שלי."
+        answers: [made]
+        options: [made, maked, make]
+        lexemes: [made, cake]
+      - id: u12-l3-04
+        type: multiple_choice
+        prompt: איזו שאלה נכונה?
+        options: ["Did you go to the concert?", "Did you went to the concert?", "Do you went to the concert?"]
+        correct: 0
+        lexemes: [did, concert]
+      - id: u12-l3-05
+        type: multiple_choice
+        prompt: איזה משפט נכון?
+        options: ["I didn't buy anything.", "I didn't bought anything.", "I not bought anything."]
+        correct: 0
+        lexemes: [didnt, bought]
+      - { id: "u12-l3-06", type: "learn", lexeme: "ago" }
+      - { id: "u12-l3-07", type: "learn", lexeme: "after-that" }
+      - id: u12-l3-08
+        type: tip
+        title: "ago: לפני, אבל בסוף"
+        text: |
+          בעברית "לפני" בא לפני הזמן: לפני שבועיים. באנגלית ago בא אחרי: two weeks ago.
+
+          ושימו לב: עם ago תמיד משתמשים בעבר. I met her two years ago.
+      - id: u12-l3-09
+        type: word_bank
+        prompt: "פגשתי את מרים לפני שלוש שנים."
+        answers: ["I met Miriam three years ago.", "Three years ago I met Miriam."]
+        distractors: [meet, before]
+        lexemes: [met, ago, three]
+      - id: u12-l3-10
+        type: dialogue_gap
+        lines:
+          - { speaker: "rachel", text: "Did you eat at the market?", translation: "אכלת בשוק?" }
+          - { speaker: "miriam", text: "Yes, we did. We had falafel!", translation: "כן. אכלנו פלאפל!" }
+        gap: 1
+        distractors: ["Yes, we ate. We have falafel!", "Yes, we did eat it had."]
+        lexemes: [did, had, market]
+      - id: u12-l3-11
+        type: translate
+        direction: to_target
+        prompt: "הלכנו לחוף, ואחרי זה אכלנו ארוחת ערב."
+        answers: ["We went to the beach, and after that we had dinner.", "We went to the beach and after that we had dinner.", "We went to the beach, and after that we ate dinner.", "We went to the beach and after that we ate dinner."]
+        lexemes: [went, beach, after-that, had]
+      - id: u12-l3-12
+        type: translate
+        direction: to_source
+        prompt: "Did you see Ben yesterday?"
+        answers: ["ראית את בן אתמול?", "ראיתם את בן אתמול?", "פגשת את בן אתמול?", "ראית את בן אתמול"]
+        lexemes: [did, saw, yesterday]
+      - id: u12-l3-13
+        type: speak_repeat
+        text: "I went to the market and bought some fruit."
+        translation: "הלכתי לשוק וקניתי פירות."
+        lexemes: [went, market, bought]
+
+  # ------------------------------------------------------------------ 4
+  - id: u12-l4
+    kind: listening
+    title: { he: "סוף שבוע לא מושלם", en: "Not a perfect weekend" }
+    exercises:
+      - id: u12-l4-01
+        type: dialogue
+        scene: "מרים מספרת לבן על יום ראשון. לא הכול הלך לפי התוכנית."
+        lines:
+          - { speaker: "ben", text: "So, Miriam, how was Sunday?", translation: "נו, מרים, איך היה יום ראשון?" }
+          - { speaker: "miriam", text: "Well, I got up late and I missed the train.", translation: "טוב, קמתי מאוחר ופספסתי את הרכבת." }
+          - { speaker: "ben", text: "Oh no! What did you do?", translation: "אוי לא! מה עשית?" }
+          - { speaker: "miriam", text: "I took a taxi. It was very expensive.", translation: "לקחתי מונית. זה היה מאוד יקר." }
+          - { speaker: "ben", text: "And the museum?", translation: "והמוזיאון?" }
+          - { speaker: "miriam", text: "It was closed! So I went to a café and met Noa there.", translation: "הוא היה סגור! אז הלכתי לבית קפה ופגשתי שם את נועה." }
+          - { speaker: "ben", text: "Ha! So in the end it was a good day.", translation: "חה! אז בסוף זה היה יום טוב." }
+      - id: u12-l4-02
+        type: multiple_choice
+        prompt: "למה מרים לקחה מונית?"
+        options: [היא פספסה את הרכבת, היא הייתה עייפה, היה גשם]
+        correct: 0
+        lexemes: [took]
+      - id: u12-l4-03
+        type: multiple_choice
+        prompt: "מה קרה במוזיאון?"
+        options: [הוא היה סגור, הוא היה משעמם, הוא היה יקר]
+        correct: 0
+        lexemes: [museum]
+      - id: u12-l4-04
+        type: multiple_choice
+        prompt: "את מי מרים פגשה?"
+        options: [את נועה, את רחל, את אלי]
+        correct: 0
+        lexemes: [met]
+      - id: u12-l4-05
+        type: listening_choice
+        audioText: "Two days ago we had dinner at a great restaurant."
+        question: מתי הם אכלו במסעדה?
+        options: [לפני יומיים, לפני שבועיים, אתמול]
+        correct: 0
+        lexemes: [ago, had, two]
+      - id: u12-l4-06
+        type: dialogue_gap
+        lines:
+          - { speaker: "noa", text: "I went to a concert last night.", translation: "הלכתי להופעה אתמול בלילה." }
+          - { speaker: "eli", text: "Really? Was it good?", translation: "באמת? היה טוב?" }
+          - { speaker: "noa", text: "It was a lot of fun!", translation: "היה ממש כיף!" }
+        gap: 1
+        distractors: ["Really? Did it good?", "That sounds boring went."]
+        lexemes: [really, concert]
+      - id: u12-l4-07
+        type: dialogue
+        scene: "אלי מספר על השבת שלו."
+        lines:
+          - { speaker: "eli", text: "I didn't go out on Saturday.", translation: "לא יצאתי בשבת." }
+          - { speaker: "eli", text: "I cleaned the flat, then I made a big lunch for my parents.", translation: "ניקיתי את הדירה, ואז הכנתי ארוחת צהריים גדולה להורים שלי." }
+          - { speaker: "eli", text: "After that we watched a movie. It was a quiet day, but I liked it.", translation: "אחרי זה ראינו סרט. זה היה יום שקט, אבל אהבתי אותו." }
+      - id: u12-l4-08
+        type: multiple_choice
+        prompt: "מה אלי עשה קודם?"
+        options: [ניקה את הדירה, הכין ארוחת צהריים, ראה סרט]
+        correct: 0
+        lexemes: [clean, then]
+      - id: u12-l4-09
+        type: multiple_choice
+        prompt: "איך היה היום של אלי?"
+        options: [שקט אבל טוב, משעמם, מאוד עמוס]
+        correct: 0
+        lexemes: [quiet]
+      - id: u12-l4-10
+        type: dictation
+        text: "We met some friends at the beach."
+        lexemes: [met, beach]
+      - id: u12-l4-11
+        type: translate
+        direction: to_target
+        prompt: "מה עשית אתמול?"
+        answers: ["What did you do yesterday?"]
+        lexemes: [what-did-you-do, yesterday]
+      - id: u12-l4-12
+        type: speak_repeat
+        text: "I got up late and missed the train."
+        translation: "קמתי מאוחר ופספסתי את הרכבת."
+        lexemes: [late]
+
+  # ------------------------------------------------------------------ 5
+  - id: u12-l5
+    kind: reading
+    title: { he: "הבלוג של מרים", en: "Miriam's blog" }
+    exercises:
+      - id: u12-l5-01
+        type: reading
+        kind: "פוסט בבלוג"
+        title: "My weekend in London"
+        text: |
+          Last weekend I visited my friends Noa and Ben in London. I took an early flight from Madrid on Friday and arrived at lunchtime.
+
+          On Saturday Noa and I went to Borough Market. We ate amazing food and I bought cheese for my mother. In the evening we saw a concert in the park. It was cold, but a lot of fun.
+
+          Sunday was not perfect. I got up late, I missed the train and the museum was closed! But I met Noa at a café and we talked for hours.
+
+          I didn't want to go home!
+        translation: |
+          בסוף השבוע שעבר ביקרתי את החברים שלי נועה ובן בלונדון. לקחתי טיסה מוקדמת ממדריד ביום שישי והגעתי בצהריים.
+
+          בשבת נועה ואני הלכנו לשוק בורו. אכלנו אוכל מדהים וקניתי גבינה לאמא שלי. בערב ראינו הופעה בפארק. היה קר, אבל ממש כיף.
+
+          יום ראשון לא היה מושלם. קמתי מאוחר, פספסתי את הרכבת והמוזיאון היה סגור! אבל פגשתי את נועה בבית קפה ודיברנו שעות.
+
+          לא רציתי לחזור הביתה!
+      - id: u12-l5-02
+        type: multiple_choice
+        prompt: "מתי מרים הגיעה ללונדון?"
+        options: [ביום שישי בצהריים, בשבת בבוקר, ביום שישי בלילה]
+        correct: 0
+        lexemes: [friday]
+      - id: u12-l5-03
+        type: multiple_choice
+        prompt: "מה מרים קנתה בשוק?"
+        options: [גבינה לאמא שלה, תיק, פירות]
+        correct: 0
+        lexemes: [bought, market]
+      - id: u12-l5-04
+        type: multiple_choice
+        prompt: "איך הייתה ההופעה?"
+        options: [קר אבל כיף, חם ומשעמם, סגור]
+        correct: 0
+        lexemes: [concert, fun]
+      - id: u12-l5-05
+        type: multiple_choice
+        prompt: "מה מרים מרגישה בסוף?"
+        options: [היא לא רצתה לחזור הביתה, היא שמחה לחזור הביתה, היא הייתה עייפה מדי]
+        correct: 0
+        lexemes: [want]
+      - id: u12-l5-06
+        type: fill_blank
+        sentence: "I ___ an early flight from Madrid."
+        translation: "לקחתי טיסה מוקדמת ממדריד."
+        answers: [took]
+        options: [took, taked, take]
+        lexemes: [took, flight, early]
+      - id: u12-l5-07
+        type: fill_blank
+        sentence: "We ___ amazing food at the market."
+        translation: "אכלנו אוכל מדהים בשוק."
+        answers: [ate]
+        options: [ate, eated, eat]
+        lexemes: [ate, market]
+      - id: u12-l5-08
+        type: word_bank
+        prompt: "המוזיאון היה סגור."
+        answers: ["The museum was closed."]
+        distractors: [were, is]
+        lexemes: [museum, was]
+      - id: u12-l5-09
+        type: translate
+        direction: to_target
+        prompt: "ביקרתי את החברים שלי בלונדון."
+        answers: ["I visited my friends in London."]
+        lexemes: [past-ed, friend]
+      - id: u12-l5-10
+        type: speak_repeat
+        text: "Sunday was not perfect, but I met Noa at a café."
+        translation: "יום ראשון לא היה מושלם, אבל פגשתי את נועה בבית קפה."
+        lexemes: [met, was]
+
+  # ------------------------------------------------------------------ 6
+  - id: u12-review
+    kind: review
+    title: { he: "חזרה: סוף השבוע שעבר", en: "Review: last weekend" }
+    exercises:
+      - id: u12-r-01
+        type: match_pairs
+        pairs:
+          - [met, פגשתי]
+          - [made, הכנתי]
+          - [took, לקחתי]
+          - [ago, לפני]
+          - [boring, משעמם]
+        lexemes: [met, made, took, ago, boring]
+      - id: u12-r-02
+        type: fill_blank
+        sentence: "Did you ___ the concert?"
+        translation: "ראית את ההופעה?"
+        answers: [see]
+        options: [see, saw, seen]
+        lexemes: [did, saw, concert]
+      - id: u12-r-03
+        type: listening_choice
+        audioText: "We went to the beach and then we had lunch."
+        question: מה הם עשו אחרי החוף?
+        options: [אכלו ארוחת צהריים, הלכו לשוק, ראו הופעה]
+        correct: 0
+        lexemes: [went, beach, then, had]
+      - id: u12-r-04
+        type: word_bank
+        prompt: "היא קנתה עוגה בשוק."
+        answers: ["She bought a cake at the market.", "She bought a cake in the market."]
+        distractors: [buy, made]
+        lexemes: [bought, cake, market]
+      - id: u12-r-05
+        type: dialogue_gap
+        lines:
+          - { speaker: "eli", text: "What did you do last night?", translation: "מה עשית אתמול בלילה?" }
+          - { speaker: "ben", text: "Nothing. I was tired, so I went to bed early.", translation: "כלום. הייתי עייף, אז הלכתי לישון מוקדם." }
+        gap: 1
+        distractors: ["Nothing. I am tired, so I go to bed early.", "Nothing. I tired, so I went to bed early."]
+        lexemes: [what-did-you-do, tired, went]
+      - id: u12-r-06
+        type: multiple_choice
+        prompt: "חבר מספר שהוא ראה הופעה מעולה. מה עונים?"
+        options: ["Really? That sounds great!", "Really? I'm boring.", "That sounds tired!"]
+        correct: 0
+        lexemes: [really, sounds-great]
+      - id: u12-r-07
+        type: translate
+        direction: to_target
+        prompt: "לא ראיתי את הסרט."
+        answers: ["I didn't see the movie.", "I didn't see the film.", "I did not see the movie.", "I did not see the film."]
+        lexemes: [didnt, saw, movie]
+      - id: u12-r-08
+        type: translate
+        direction: to_source
+        prompt: "We met two weeks ago."
+        answers: ["נפגשנו לפני שבועיים.", "נפגשנו לפני שבועיים"]
+        lexemes: [met, ago]
+      - id: u12-r-09
+        type: dictation
+        text: "It was a lot of fun."
+        lexemes: [fun, was]
+      - id: u12-r-10
+        type: speak_repeat
+        text: "What did you do at the weekend? I went to the beach."
+        translation: "מה עשית בסוף השבוע? הלכתי לחוף."
+        lexemes: [what-did-you-do, went, beach]

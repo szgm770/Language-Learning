@@ -30,7 +30,7 @@ export async function solve(page: Page, ex: Exercise) {
     case "word_bank": {
       const words = ex.answers[0]!.replace(/[.!?,]/g, "").split(/\s+/);
       for (const w of words) {
-        await page.locator("[data-bank]").getByRole("button", { name: w, exact: true }).first().click();
+        await page.locator("[data-bank]").getByRole("button", { name: w, exact: true, disabled: false }).first().click();
       }
       break;
     }

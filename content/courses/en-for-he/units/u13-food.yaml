@@ -1,0 +1,476 @@
+id: u13-food
+cefr: A2
+scene: food
+title:
+  he: אוכל ובישול
+  en: Food and cooking
+story: "נועה מזמינה את בן ורחל לארוחת שישי בדירה החדשה. היא קונה מצרכים בסופר, מבשלת לפי מתכון של אמא שלה, ובסוף כולם הולכים גם למסעדה."
+canDo:
+  - לקנות מצרכים ולהגיד כמה צריך
+  - להבחין בין דברים שסופרים לדברים שלא סופרים
+  - להשתמש ב־some, any, how much ו־how many
+  - להזמין ארוחה במסעדה
+
+vocabulary:
+  - { id: "bread", text: "bread", translation: "לחם", pos: "noun", pronunciation: "בְּרֶד" }
+  - { id: "milk", text: "milk", translation: "חלב", pos: "noun", pronunciation: "מִילְק" }
+  - { id: "egg", text: "egg", translation: "ביצה", pos: "noun", pronunciation: "אֶג" }
+  - { id: "cheese", text: "cheese", translation: "גבינה", pos: "noun", pronunciation: "צ'ִיז" }
+  - { id: "rice", text: "rice", translation: "אורז", pos: "noun", pronunciation: "רַייס" }
+  - { id: "vegetables", text: "vegetables", translation: "ירקות", pos: "noun", pronunciation: "וֶג'טַבּלְז" }
+  - { id: "fruit", text: "fruit", translation: "פירות", pos: "noun", pronunciation: "פְרוּט" }
+  - { id: "meat", text: "meat", translation: "בשר", pos: "noun", pronunciation: "מִיט" }
+  - { id: "fish", text: "fish", translation: "דג, דגים", pos: "noun", pronunciation: "פִישׁ" }
+  - { id: "chicken", text: "chicken", translation: "עוף", pos: "noun", pronunciation: "צ'ִיקֶן" }
+  - { id: "sugar", text: "sugar", translation: "סוכר", pos: "noun", pronunciation: "שׁוּגָר" }
+  - { id: "salt", text: "salt", translation: "מלח", pos: "noun", pronunciation: "סוֹלְט" }
+  - { id: "recipe", text: "recipe", translation: "מתכון", pos: "noun", pronunciation: "רֶסִיפִּי" }
+  - { id: "some", text: "some", translation: "קצת, כמה", pos: "adjective", pronunciation: "סַאם", example: { text: "I need some eggs.", translation: "אני צריכה כמה ביצים." } }
+  - { id: "any", text: "any", translation: "בכלל, איזשהו (בשאלה ובשלילה)", pos: "adjective", pronunciation: "אֶנִי", example: { text: "We don't have any milk.", translation: "אין לנו בכלל חלב." } }
+  - { id: "how-many", text: "How many…?", translation: "כמה…? (לדברים שסופרים)", pos: "phrase", pronunciation: "הַאוּ מֶנִי", example: { text: "How many eggs do we need?", translation: "כמה ביצים אנחנו צריכים?" } }
+  - { id: "a-lot-of", text: "a lot of", translation: "הרבה", pos: "phrase", pronunciation: "אֵה לוֹט אוֹב" }
+  - { id: "need", text: "need", translation: "לצרוך, צריך", pos: "verb", pronunciation: "נִיד", example: { text: "We need some bread.", translation: "אנחנו צריכים לחם." } }
+  - { id: "menu", text: "menu", translation: "תפריט", pos: "noun", pronunciation: "מֶנְיוּ" }
+  - { id: "order", text: "order", translation: "להזמין (אוכל)", pos: "verb", pronunciation: "אוֹרְדֶר", example: { text: "Are you ready to order?", translation: "אתם מוכנים להזמין?" } }
+  - { id: "main-course", text: "main course", translation: "מנה עיקרית", pos: "noun", pronunciation: "מֵיין קוֹרְס" }
+  - { id: "dessert", text: "dessert", translation: "קינוח", pos: "noun", pronunciation: "דִיזֶרְט" }
+  - { id: "delicious", text: "delicious", translation: "טעים מאוד", pos: "adjective", pronunciation: "דִילִישֶׁס" }
+
+grammar:
+  - id: countable-uncountable
+    title: { he: "סופרים או לא סופרים: some, any, much, many", en: "Countable and uncountable" }
+    explanation: |
+      באנגלית מחלקים את שמות העצם לשניים:
+
+      - **סופרים**: אפשר להגיד "שלוש" לפניהם, ויש להם רבים: **an egg, three eggs**.
+      - **לא סופרים**: חומרים ונוזלים, בלי רבים ובלי a: **milk, rice, bread, sugar**. לא אומרים "a bread" או "breads".
+
+      **some** (קצת, כמה) במשפט חיובי: **I need some eggs. I need some milk.**
+      **any** בשאלה ובשלילה: **Do we have any milk? We don't have any eggs.**
+
+      וכשרוצים לשאול "כמה":
+      - **How many** לדברים שסופרים: **How many eggs?**
+      - **How much** לדברים שלא סופרים: **How much rice?**
+
+      **a lot of** מתאים לשניהם: **a lot of eggs, a lot of milk**.
+    examples:
+      - { text: "We need some bread and some eggs.", translation: "אנחנו צריכים קצת לחם וכמה ביצים." }
+      - { text: "Is there any sugar? No, there isn't any.", translation: "יש סוכר? לא, אין בכלל." }
+      - { text: "How much milk do you want?", translation: "כמה חלב אתה רוצה?" }
+
+lessons:
+  # ------------------------------------------------------------------ 1
+  - id: u13-l1
+    kind: new
+    title: { he: "רשימת קניות", en: "A shopping list" }
+    exercises:
+      - id: u13-l1-01
+        type: dialogue
+        scene: "נועה מתכננת ארוחת שישי ומתקשרת לבן."
+        lines:
+          - { speaker: "noa", text: "I'm at the supermarket. Do you eat meat?", translation: "אני בסופר. אתה אוכל בשר?" }
+          - { speaker: "ben", text: "Yes, but Rachel doesn't. She eats fish.", translation: "כן, אבל רחל לא. היא אוכלת דגים." }
+          - { speaker: "noa", text: "OK. I'll make chicken and fish, with rice and vegetables.", translation: "בסדר. אני אכין עוף ודג, עם אורז וירקות." }
+          - { speaker: "ben", text: "Sounds delicious! Can I bring some fruit?", translation: "נשמע טעים! אפשר להביא פירות?" }
+          - { speaker: "noa", text: "Yes, please. And some bread!", translation: "כן, בבקשה. וגם לחם!" }
+      - { id: "u13-l1-02", type: "learn", lexeme: "meat" }
+      - { id: "u13-l1-03", type: "learn", lexeme: "fish" }
+      - { id: "u13-l1-04", type: "learn", lexeme: "chicken" }
+      - { id: "u13-l1-05", type: "learn", lexeme: "rice" }
+      - { id: "u13-l1-06", type: "learn", lexeme: "vegetables" }
+      - { id: "u13-l1-07", type: "learn", lexeme: "fruit" }
+      - { id: "u13-l1-08", type: "learn", lexeme: "bread" }
+      - id: u13-l1-09
+        type: match_pairs
+        pairs:
+          - [meat, בשר]
+          - [fish, דג]
+          - [chicken, עוף]
+          - [rice, אורז]
+          - [bread, לחם]
+        lexemes: [meat, fish, chicken, rice, bread]
+      - { id: "u13-l1-10", type: "learn", lexeme: "delicious" }
+      - id: u13-l1-11
+        type: multiple_choice
+        prompt: "מה רחל לא אוכלת?"
+        options: [בשר, דגים, ירקות]
+        correct: 0
+        lexemes: [meat]
+      - id: u13-l1-12
+        type: listening_choice
+        audioText: "I'll make chicken with rice and vegetables."
+        question: מה היא מכינה?
+        options: [עוף עם אורז וירקות, דג עם אורז, עוף עם לחם]
+        correct: 0
+        lexemes: [chicken, rice, vegetables]
+      - id: u13-l1-13
+        type: word_bank
+        prompt: "רחל אוכלת דגים, לא בשר."
+        answers: ["Rachel eats fish, not meat."]
+        distractors: [eat, chicken]
+        lexemes: [fish, meat]
+      - id: u13-l1-14
+        type: speak_repeat
+        text: "This chicken is delicious!"
+        translation: "העוף הזה טעים מאוד!"
+        lexemes: [chicken, delicious]
+
+  # ------------------------------------------------------------------ 2
+  - id: u13-l2
+    kind: new
+    title: { he: "המתכון של אמא", en: "Mum's recipe" }
+    exercises:
+      - { id: "u13-l2-01", type: "learn", lexeme: "recipe" }
+      - { id: "u13-l2-02", type: "learn", lexeme: "egg" }
+      - { id: "u13-l2-03", type: "learn", lexeme: "milk" }
+      - { id: "u13-l2-04", type: "learn", lexeme: "cheese" }
+      - { id: "u13-l2-05", type: "learn", lexeme: "sugar" }
+      - { id: "u13-l2-06", type: "learn", lexeme: "salt" }
+      - { id: "u13-l2-07", type: "learn", lexeme: "need" }
+      - id: u13-l2-08
+        type: dialogue
+        scene: "נועה מדברת בווידאו עם אמא שלה בתל אביב."
+        lines:
+          - { speaker: "noa", text: "Mum, I need your cake recipe.", translation: "אמא, אני צריכה את המתכון שלך לעוגה." }
+          - { speaker: "noa", text: "Three eggs, a cup of milk, a cup of sugar… and cheese?", translation: "שלוש ביצים, כוס חלב, כוס סוכר… וגבינה?" }
+          - { speaker: "noa", text: "Oh, it's a cheesecake! OK, and a little salt. Thanks, Mum!", translation: "אה, זו עוגת גבינה! בסדר, וקצת מלח. תודה, אמא!" }
+      - id: u13-l2-09
+        type: match_pairs
+        pairs:
+          - [egg, ביצה]
+          - [milk, חלב]
+          - [cheese, גבינה]
+          - [sugar, סוכר]
+          - [salt, מלח]
+        lexemes: [egg, milk, cheese, sugar, salt]
+      - id: u13-l2-10
+        type: multiple_choice
+        prompt: "כמה ביצים צריך לעוגה?"
+        options: ["3", "2", "4"]
+        correct: 0
+        lexemes: [egg, three]
+      - id: u13-l2-11
+        type: fill_blank
+        sentence: "I ___ a cup of milk for the cake."
+        translation: "אני צריכה כוס חלב לעוגה."
+        answers: [need]
+        options: [need, needs, needing]
+        lexemes: [need, milk, cup]
+      - id: u13-l2-12
+        type: translate
+        direction: to_target
+        prompt: "אני צריך את המתכון."
+        answers: ["I need the recipe.", "I need the recipe, please."]
+        lexemes: [need, recipe]
+      - id: u13-l2-13
+        type: translate
+        direction: to_source
+        prompt: "We need eggs and cheese."
+        answers: ["אנחנו צריכים ביצים וגבינה.", "אנחנו צריכות ביצים וגבינה.", "צריך ביצים וגבינה."]
+        lexemes: [need, egg, cheese]
+      - id: u13-l2-14
+        type: speak_repeat
+        text: "Three eggs, a cup of milk and a cup of sugar."
+        translation: "שלוש ביצים, כוס חלב וכוס סוכר."
+        lexemes: [egg, milk, sugar]
+
+  # ------------------------------------------------------------------ 3
+  - id: u13-l3
+    kind: grammar
+    grammar: countable-uncountable
+    title: { he: "יש לנו חלב?", en: "Do we have any milk?" }
+    exercises:
+      - { id: "u13-l3-01", type: "learn", lexeme: "some" }
+      - { id: "u13-l3-02", type: "learn", lexeme: "any" }
+      - { id: "u13-l3-03", type: "learn", lexeme: "how-many" }
+      - { id: "u13-l3-04", type: "learn", lexeme: "a-lot-of" }
+      - id: u13-l3-05
+        type: multiple_choice
+        prompt: "מה אפשר לספור?"
+        options: [eggs, milk, rice]
+        correct: 0
+        lexemes: [egg, milk, rice]
+      - id: u13-l3-06
+        type: fill_blank
+        sentence: "Do we have ___ milk?"
+        translation: "יש לנו חלב?"
+        answers: [any]
+        options: [any, some, many]
+        lexemes: [any, milk]
+      - id: u13-l3-07
+        type: fill_blank
+        sentence: "I need ___ bread for dinner."
+        translation: "אני צריכה קצת לחם לארוחת ערב."
+        answers: [some]
+        options: [some, any, a]
+        lexemes: [some, bread, need]
+      - id: u13-l3-08
+        type: fill_blank
+        sentence: "How ___ eggs do we need?"
+        translation: "כמה ביצים אנחנו צריכים?"
+        answers: [many]
+        options: [many, much]
+        lexemes: [how-many, egg]
+      - id: u13-l3-09
+        type: fill_blank
+        sentence: "How ___ sugar do you want?"
+        translation: "כמה סוכר אתה רוצה?"
+        answers: [much]
+        options: [much, many]
+        lexemes: [sugar]
+      - id: u13-l3-10
+        type: multiple_choice
+        prompt: איזה משפט נכון?
+        options: ["We don't have any rice.", "We don't have some rice.", "We don't have a rice."]
+        correct: 0
+        lexemes: [any, rice]
+      - id: u13-l3-11
+        type: dialogue_gap
+        lines:
+          - { speaker: "noa", text: "Is there any cheese in the fridge?", translation: "יש גבינה במקרר?" }
+          - { speaker: "ben", text: "No, there isn't any. But there are a lot of eggs.", translation: "לא, אין בכלל. אבל יש הרבה ביצים." }
+        gap: 1
+        distractors: ["No, there isn't some. But there are a lot of eggs.", "No, there aren't any cheeses."]
+        lexemes: [any, cheese, a-lot-of, egg]
+      - id: u13-l3-12
+        type: word_bank
+        prompt: "אין לנו ירקות בכלל."
+        answers: ["We don't have any vegetables."]
+        distractors: [some, much]
+        lexemes: [any, vegetables, dont]
+      - id: u13-l3-13
+        type: translate
+        direction: to_target
+        prompt: "כמה ביצים יש?"
+        answers: ["How many eggs are there?", "How many eggs do we have?", "How many eggs do you have?"]
+        lexemes: [how-many, egg]
+      - id: u13-l3-14
+        type: speak_repeat
+        text: "We need some milk, but we have a lot of eggs."
+        translation: "אנחנו צריכים קצת חלב, אבל יש לנו הרבה ביצים."
+        lexemes: [some, milk, a-lot-of, egg]
+
+  # ------------------------------------------------------------------ 4
+  - id: u13-l4
+    kind: listening
+    title: { he: "במסעדה", en: "At the restaurant" }
+    exercises:
+      - { id: "u13-l4-01", type: "learn", lexeme: "menu" }
+      - { id: "u13-l4-02", type: "learn", lexeme: "order" }
+      - { id: "u13-l4-03", type: "learn", lexeme: "main-course" }
+      - { id: "u13-l4-04", type: "learn", lexeme: "dessert" }
+      - id: u13-l4-05
+        type: dialogue
+        scene: "שבת בערב. נועה, בן ורחל במסעדה. אלי עובד שם בערבים."
+        lines:
+          - { speaker: "eli", text: "Good evening! Here's the menu. Are you ready to order?", translation: "ערב טוב! הנה התפריט. אתם מוכנים להזמין?" }
+          - { speaker: "rachel", text: "Yes. I'd like the fish, please.", translation: "כן. אני אשמח לדג, בבקשה." }
+          - { speaker: "ben", text: "And I'd like the chicken with rice.", translation: "ואני אשמח לעוף עם אורז." }
+          - { speaker: "noa", text: "Do you have any vegetarian main courses?", translation: "יש לכם מנות עיקריות צמחוניות?" }
+          - { speaker: "eli", text: "Yes, the vegetable pasta is delicious.", translation: "כן, הפסטה עם הירקות טעימה מאוד." }
+          - { speaker: "noa", text: "Great, I'll have that. And water for the table, please.", translation: "מעולה, אני אקח את זה. ומים לשולחן, בבקשה." }
+          - { speaker: "eli", text: "Any dessert?", translation: "קינוח?" }
+          - { speaker: "ben", text: "Maybe later. Thanks!", translation: "אולי אחר כך. תודה!" }
+      - id: u13-l4-06
+        type: multiple_choice
+        prompt: "מה רחל הזמינה?"
+        options: [דג, עוף עם אורז, פסטה]
+        correct: 0
+        lexemes: [fish, order]
+      - id: u13-l4-07
+        type: multiple_choice
+        prompt: "מה נועה הזמינה?"
+        options: [פסטה עם ירקות, דג, עוף]
+        correct: 0
+        lexemes: [vegetables, main-course]
+      - id: u13-l4-08
+        type: multiple_choice
+        prompt: "מה עם הקינוח?"
+        options: [אולי אחר כך, הם הזמינו עוגה, הם לא אוהבים קינוחים]
+        correct: 0
+        lexemes: [dessert, maybe]
+      - id: u13-l4-09
+        type: listening_choice
+        audioText: "How many people? A table for three, please."
+        question: לכמה אנשים השולחן?
+        options: ["3", "2", "4"]
+        correct: 0
+        lexemes: [how-many, three, table]
+      - id: u13-l4-10
+        type: dialogue_gap
+        lines:
+          - { speaker: "eli", text: "Are you ready to order?", translation: "אתם מוכנים להזמין?" }
+          - { speaker: "ben", text: "Not yet. Can we have a few more minutes?", translation: "עוד לא. אפשר עוד כמה דקות?" }
+        gap: 1
+        distractors: ["Not yet. Can we have a menu dessert?", "Yes, I ordered yesterday."]
+        lexemes: [order]
+      - id: u13-l4-11
+        type: dictation
+        text: "Can I see the menu, please?"
+        lexemes: [menu, please]
+      - id: u13-l4-12
+        type: translate
+        direction: to_target
+        prompt: "הייתי רוצה את העוף, בבקשה."
+        answers: ["I'd like the chicken, please.", "I would like the chicken, please.", "I'd like the chicken please.", "I would like the chicken please."]
+        lexemes: [id-like, chicken]
+      - id: u13-l4-13
+        type: speak_repeat
+        text: "Are you ready to order? Yes, I'd like the fish, please."
+        translation: "אתם מוכנים להזמין? כן, הייתי רוצה את הדג, בבקשה."
+        lexemes: [order, fish]
+
+  # ------------------------------------------------------------------ 5
+  - id: u13-l5
+    kind: reading
+    title: { he: "מתכון: שקשוקה", en: "Recipe: shakshuka" }
+    exercises:
+      - id: u13-l5-01
+        type: reading
+        kind: "מתכון"
+        title: "Easy shakshuka (for 2)"
+        text: |
+          You need: 4 eggs, 3 tomatoes, 1 red pepper, 1 onion, some olive oil, a little salt and some bread.
+
+          First, cut the onion and the pepper and cook them in a pan with some oil for five minutes.
+
+          Then add the tomatoes and a little salt. Cook for ten minutes.
+
+          After that, make four small holes and put an egg in each one. Cook for six or seven minutes.
+
+          Eat it with fresh bread. It's simple and delicious!
+        translation: |
+          צריך: 4 ביצים, 3 עגבניות, פלפל אדום אחד, בצל אחד, קצת שמן זית, קצת מלח וקצת לחם.
+
+          קודם, חותכים את הבצל והפלפל ומבשלים אותם במחבת עם קצת שמן חמש דקות.
+
+          אחר כך מוסיפים את העגבניות וקצת מלח. מבשלים עשר דקות.
+
+          אחרי זה עושים ארבעה חורים קטנים ושמים ביצה בכל אחד. מבשלים שש או שבע דקות.
+
+          אוכלים עם לחם טרי. זה פשוט וטעים מאוד!
+      - id: u13-l5-02
+        type: multiple_choice
+        prompt: "כמה ביצים צריך?"
+        options: ["4", "3", "2"]
+        correct: 0
+        lexemes: [egg]
+      - id: u13-l5-03
+        type: multiple_choice
+        prompt: "מה מבשלים קודם?"
+        options: [בצל ופלפל, ביצים, עגבניות]
+        correct: 0
+        lexemes: [cook]
+      - id: u13-l5-04
+        type: multiple_choice
+        prompt: "עם מה אוכלים את השקשוקה?"
+        options: [עם לחם טרי, עם אורז, עם גבינה]
+        correct: 0
+        lexemes: [bread]
+      - id: u13-l5-05
+        type: multiple_choice
+        prompt: "לכמה אנשים המתכון?"
+        options: ["2", "4", "6"]
+        correct: 0
+        lexemes: [recipe]
+      - id: u13-l5-06
+        type: fill_blank
+        sentence: "You need ___ olive oil and a little salt."
+        translation: "צריך קצת שמן זית וקצת מלח."
+        answers: [some]
+        options: [some, any, many]
+        lexemes: [some, salt]
+      - id: u13-l5-07
+        type: fill_blank
+        sentence: "___ add the tomatoes."
+        translation: "אחר כך מוסיפים את העגבניות."
+        answers: [Then]
+        options: [Then, Ago, Some]
+        lexemes: [then]
+      - id: u13-l5-08
+        type: word_bank
+        prompt: "זה פשוט וטעים מאוד."
+        answers: ["It's simple and delicious.", "It is simple and delicious."]
+        distractors: [boring, some]
+        lexemes: [delicious]
+      - id: u13-l5-09
+        type: translate
+        direction: to_target
+        prompt: "כמה עגבניות אנחנו צריכים?"
+        answers: ["How many tomatoes do we need?"]
+        lexemes: [how-many, need]
+      - id: u13-l5-10
+        type: speak_repeat
+        text: "First cook the onion, then add the tomatoes."
+        translation: "קודם מבשלים את הבצל, ואז מוסיפים את העגבניות."
+        lexemes: [cook, then]
+
+  # ------------------------------------------------------------------ 6
+  - id: u13-review
+    kind: review
+    title: { he: "חזרה: אוכל ובישול", en: "Review: food and cooking" }
+    exercises:
+      - id: u13-r-01
+        type: match_pairs
+        pairs:
+          - [fruit, פירות]
+          - [vegetables, ירקות]
+          - [menu, תפריט]
+          - [dessert, קינוח]
+          - [recipe, מתכון]
+        lexemes: [fruit, vegetables, menu, dessert, recipe]
+      - id: u13-r-02
+        type: fill_blank
+        sentence: "Is there ___ salt?"
+        translation: "יש מלח?"
+        answers: [any]
+        options: [any, some, a]
+        lexemes: [any, salt]
+      - id: u13-r-03
+        type: listening_choice
+        audioText: "We need some bread, some cheese and six eggs."
+        question: כמה ביצים צריך?
+        options: ["6", "2", "3"]
+        correct: 0
+        lexemes: [need, some, bread, egg]
+      - id: u13-r-04
+        type: word_bank
+        prompt: "כמה חלב אנחנו צריכים?"
+        answers: ["How much milk do we need?"]
+        distractors: [many, any]
+        lexemes: [milk, need]
+      - id: u13-r-05
+        type: dialogue_gap
+        lines:
+          - { speaker: "eli", text: "Would you like a dessert?", translation: "תרצו קינוח?" }
+          - { speaker: "rachel", text: "Yes, please. Can I have the chocolate cake?", translation: "כן, בבקשה. אפשר את עוגת השוקולד?" }
+        gap: 1
+        distractors: ["Yes, please. Can I have some chocolate cakes any?", "Yes, I'm a dessert."]
+        lexemes: [dessert, can-i-have, cake]
+      - id: u13-r-06
+        type: multiple_choice
+        prompt: "איזה משפט נכון?"
+        options: ["I bought some bread.", "I bought a bread.", "I bought some breads."]
+        correct: 0
+        lexemes: [some, bread, bought]
+      - id: u13-r-07
+        type: translate
+        direction: to_target
+        prompt: "אנחנו צריכים קצת אורז."
+        answers: ["We need some rice.", "We need a little rice."]
+        lexemes: [need, some, rice]
+      - id: u13-r-08
+        type: translate
+        direction: to_source
+        prompt: "There are a lot of vegetables in the fridge."
+        answers: ["יש הרבה ירקות במקרר.", "במקרר יש הרבה ירקות."]
+        lexemes: [a-lot-of, vegetables]
+      - id: u13-r-09
+        type: dictation
+        text: "We don't have any milk."
+        lexemes: [any, milk]
+      - id: u13-r-10
+        type: speak_repeat
+        text: "How many eggs do we need? We need four."
+        translation: "כמה ביצים אנחנו צריכים? אנחנו צריכים ארבע."
+        lexemes: [how-many, egg, need]

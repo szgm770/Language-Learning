@@ -1,0 +1,474 @@
+id: u15-plans
+cefr: A2
+scene: day
+title:
+  he: תוכניות וחלומות
+  en: Plans and dreams
+story: "סוף השנה מתקרב. נועה, בן ורחל מדברים על התוכניות שלהם: חופשה, לימודים, חיסכון, וגם חלום אחד גדול."
+canDo:
+  - לספר מה אני מתכנן לעשות
+  - להשתמש ב־going to לעתיד
+  - "לדבר על זמנים בעתיד: מחר, בשבוע הבא, בקרוב"
+  - לשאול חברים על התוכניות שלהם
+
+vocabulary:
+  - { id: "going-to", text: "going to", translation: "הולך ל־ (תוכנית לעתיד)", pos: "phrase", pronunciation: "גוֹאִינְג טוּ", example: { text: "I'm going to visit my parents.", translation: "אני הולכת לבקר את ההורים שלי." } }
+  - { id: "plan", text: "plan", translation: "תוכנית; לתכנן", pos: "noun", pronunciation: "פְּלֶן", example: { text: "What are your plans for the summer?", translation: "מה התוכניות שלך לקיץ?" } }
+  - { id: "tomorrow", text: "tomorrow", translation: "מחר", pos: "adverb", pronunciation: "טוּמוֹרוֹ" }
+  - { id: "next-week", text: "next week", translation: "בשבוע הבא", pos: "phrase", pronunciation: "נֶקְסְט וִויק" }
+  - { id: "next-month", text: "next month", translation: "בחודש הבא", pos: "phrase", pronunciation: "נֶקְסְט מַאנְתְ'" }
+  - { id: "next-year", text: "next year", translation: "בשנה הבאה", pos: "phrase", pronunciation: "נֶקְסְט יִיר" }
+  - { id: "soon", text: "soon", translation: "בקרוב", pos: "adverb", pronunciation: "סוּן" }
+  - { id: "holiday", text: "holiday", translation: "חופשה", pos: "noun", pronunciation: "הוֹלִידֵיי", example: { text: "We're going on holiday in August.", translation: "אנחנו יוצאים לחופשה באוגוסט." } }
+  - { id: "visit", text: "visit", translation: "לבקר", pos: "verb", pronunciation: "וִיזִיט" }
+  - { id: "learn", text: "learn", translation: "ללמוד (משהו חדש)", pos: "verb", pronunciation: "לֶרְן", example: { text: "I'm going to learn Spanish.", translation: "אני הולך ללמוד ספרדית." } }
+  - { id: "start", text: "start", translation: "להתחיל", pos: "verb", pronunciation: "סְטַארְט" }
+  - { id: "finish", text: "finish", translation: "לסיים", pos: "verb", pronunciation: "פִינִישׁ" }
+  - { id: "save-money", text: "save money", translation: "לחסוך כסף", pos: "phrase", pronunciation: "סֵייב מַאנִי" }
+  - { id: "dream", text: "dream", translation: "חלום; לחלום", pos: "noun", pronunciation: "דְרִים" }
+  - { id: "decide", text: "decide", translation: "להחליט", pos: "verb", pronunciation: "דִיסַייד" }
+  - { id: "hope", text: "hope", translation: "לקוות", pos: "verb", pronunciation: "הוֹפּ", example: { text: "I hope so!", translation: "מקווה שכן!" } }
+  - { id: "summer", text: "summer", translation: "קיץ", pos: "noun", pronunciation: "סַאמֶר" }
+  - { id: "course", text: "course", translation: "קורס", pos: "noun", pronunciation: "קוֹרְס" }
+  - { id: "good-luck", text: "Good luck!", translation: "בהצלחה!", pos: "phrase", pronunciation: "גוּד לַאק" }
+  - { id: "what-are-you-going-to-do", text: "What are you going to do?", translation: "מה אתה הולך לעשות?", pos: "phrase", pronunciation: "ווֹט אָר יוּ גוֹאִינְג טוּ דוּ" }
+
+grammar:
+  - id: going-to-future
+    title: { he: "עתיד עם going to", en: "Going to" }
+    explanation: |
+      בעברית אומרים "אני הולכת לבקר את ההורים". באנגלית זה כמעט אותו דבר: **I'm going to visit my parents.**
+
+      משתמשים ב־**going to** לתוכניות שכבר החלטנו עליהן.
+
+      המבנה: **am / is / are + going to + פועל**
+      - **I'm going to** start a course.
+      - **She's going to** save money.
+      - **We're going to** travel next month.
+
+      שאלה: מקדימים את am / is / are: **Are you going to visit Israel?**
+      שלילה: **I'm not going to work tomorrow.**
+
+      בדיבור מהיר going to נשמע לפעמים כמו "גוֹנָה" (gonna). זה בסדר לשמוע, אבל בכתיבה כותבים going to.
+    examples:
+      - { text: "I'm going to learn to cook.", translation: "אני הולך ללמוד לבשל." }
+      - { text: "Are they going to move next year?", translation: "הם הולכים לעבור דירה בשנה הבאה?" }
+      - { text: "Ben isn't going to come tomorrow.", translation: "בן לא הולך לבוא מחר." }
+
+lessons:
+  # ------------------------------------------------------------------ 1
+  - id: u15-l1
+    kind: new
+    title: { he: "מה התוכניות שלך?", en: "What are your plans?" }
+    exercises:
+      - id: u15-l1-01
+        type: dialogue
+        scene: "הפסקת צהריים במשרד. בן ונועה מדברים על הקיץ."
+        lines:
+          - { speaker: "ben", text: "What are your plans for the summer, Noa?", translation: "מה התוכניות שלך לקיץ, נועה?" }
+          - { speaker: "noa", text: "I'm going to visit my family in Israel next month.", translation: "אני הולכת לבקר את המשפחה שלי בישראל בחודש הבא." }
+          - { speaker: "ben", text: "Lovely! For how long?", translation: "יופי! לכמה זמן?" }
+          - { speaker: "noa", text: "Two weeks. What about you?", translation: "שבועיים. ומה איתך?" }
+          - { speaker: "ben", text: "I'm going to start a Spanish course. Miriam is going to help me!", translation: "אני הולך להתחיל קורס ספרדית. מרים הולכת לעזור לי!" }
+      - { id: "u15-l1-02", type: "learn", lexeme: "plan" }
+      - { id: "u15-l1-03", type: "learn", lexeme: "summer" }
+      - { id: "u15-l1-04", type: "learn", lexeme: "going-to" }
+      - { id: "u15-l1-05", type: "learn", lexeme: "visit" }
+      - { id: "u15-l1-06", type: "learn", lexeme: "next-month" }
+      - { id: "u15-l1-07", type: "learn", lexeme: "start" }
+      - { id: "u15-l1-08", type: "learn", lexeme: "course" }
+      - id: u15-l1-09
+        type: multiple_choice
+        prompt: "מה נועה הולכת לעשות בחודש הבא?"
+        options: [לבקר את המשפחה בישראל, להתחיל קורס, לעבור דירה]
+        correct: 0
+        lexemes: [going-to, visit, next-month]
+      - id: u15-l1-10
+        type: multiple_choice
+        prompt: "מי יעזור לבן בספרדית?"
+        options: [מרים, נועה, רחל]
+        correct: 0
+        lexemes: [help, spanish]
+      - id: u15-l1-11
+        type: match_pairs
+        pairs:
+          - [plan, תוכנית]
+          - [summer, קיץ]
+          - [visit, לבקר]
+          - [start, להתחיל]
+          - [course, קורס]
+        lexemes: [plan, summer, visit, start, course]
+      - id: u15-l1-12
+        type: listening_choice
+        audioText: "I'm going to start a new course next month."
+        question: מה הוא הולך לעשות?
+        options: [להתחיל קורס חדש, לסיים קורס, לבקר חבר]
+        correct: 0
+        lexemes: [going-to, start, course]
+      - id: u15-l1-13
+        type: word_bank
+        prompt: "אני הולך לבקר את ההורים שלי."
+        answers: ["I'm going to visit my parents.", "I am going to visit my parents."]
+        distractors: [visiting, go]
+        lexemes: [going-to, visit, parents]
+      - id: u15-l1-14
+        type: speak_repeat
+        text: "What are your plans for the summer?"
+        translation: "מה התוכניות שלך לקיץ?"
+        lexemes: [plan, summer]
+
+  # ------------------------------------------------------------------ 2
+  - id: u15-l2
+    kind: new
+    title: { he: "מחר, בשבוע הבא, בקרוב", en: "Tomorrow, next week, soon" }
+    exercises:
+      - { id: "u15-l2-01", type: "learn", lexeme: "tomorrow" }
+      - { id: "u15-l2-02", type: "learn", lexeme: "next-week" }
+      - { id: "u15-l2-03", type: "learn", lexeme: "next-year" }
+      - { id: "u15-l2-04", type: "learn", lexeme: "soon" }
+      - id: u15-l2-05
+        type: tip
+        title: "next week, בלי the"
+        text: |
+          בעברית אומרים "בשבוע הבא". באנגלית אין מילת יחס ואין the: next week, next month, next year.
+
+          לא אומרים "in the next week" כשמתכוונים לשבוע הבא.
+      - id: u15-l2-06
+        type: match_pairs
+        pairs:
+          - [tomorrow, מחר]
+          - [next week, בשבוע הבא]
+          - [next year, בשנה הבאה]
+          - [soon, בקרוב]
+          - [yesterday, אתמול]
+        lexemes: [tomorrow, next-week, next-year, soon, yesterday]
+      - { id: "u15-l2-07", type: "learn", lexeme: "holiday" }
+      - { id: "u15-l2-08", type: "learn", lexeme: "finish" }
+      - { id: "u15-l2-09", type: "learn", lexeme: "learn" }
+      - id: u15-l2-10
+        type: fill_blank
+        sentence: "We're going on ___ next week."
+        translation: "אנחנו יוצאים לחופשה בשבוע הבא."
+        answers: [holiday]
+        options: [holiday, summer, course]
+        lexemes: [holiday, next-week]
+      - id: u15-l2-11
+        type: dialogue_gap
+        lines:
+          - { speaker: "rachel", text: "When are you going to finish the project?", translation: "מתי אתה הולך לסיים את הפרויקט?" }
+          - { speaker: "ben", text: "Soon, I hope. Maybe next week.", translation: "בקרוב, אני מקווה. אולי בשבוע הבא." }
+        gap: 1
+        distractors: ["Soon, I hope. Maybe last week.", "Yesterday, I'm going to."]
+        lexemes: [finish, soon, next-week]
+      - id: u15-l2-12
+        type: translate
+        direction: to_target
+        prompt: "אני הולכת ללמוד לבשל."
+        answers: ["I'm going to learn to cook.", "I am going to learn to cook.", "I'm going to learn how to cook.", "I am going to learn how to cook."]
+        lexemes: [going-to, learn, cook]
+      - id: u15-l2-13
+        type: translate
+        direction: to_source
+        prompt: "See you tomorrow!"
+        answers: ["נתראה מחר!", "להתראות מחר!", "נתראה מחר"]
+        lexemes: [see-you, tomorrow]
+      - id: u15-l2-14
+        type: speak_repeat
+        text: "We're going on holiday next week."
+        translation: "אנחנו יוצאים לחופשה בשבוע הבא."
+        lexemes: [holiday, next-week]
+
+  # ------------------------------------------------------------------ 3
+  - id: u15-l3
+    kind: grammar
+    grammar: going-to-future
+    title: { he: "אני הולך ל…", en: "I'm going to…" }
+    exercises:
+      - { id: "u15-l3-01", type: "learn", lexeme: "what-are-you-going-to-do" }
+      - id: u15-l3-02
+        type: fill_blank
+        sentence: "She ___ going to visit London."
+        translation: "היא הולכת לבקר בלונדון."
+        answers: [is]
+        options: [is, are, am]
+        lexemes: [going-to, visit]
+      - id: u15-l3-03
+        type: fill_blank
+        sentence: "We ___ going to start a course."
+        translation: "אנחנו הולכים להתחיל קורס."
+        answers: [are]
+        options: [are, is, going]
+        lexemes: [going-to, start, course]
+      - id: u15-l3-04
+        type: multiple_choice
+        prompt: איזה משפט נכון?
+        options: ["I'm going to finish it tomorrow.", "I going to finish it tomorrow.", "I'm going finish it tomorrow."]
+        correct: 0
+        lexemes: [going-to, finish, tomorrow]
+      - id: u15-l3-05
+        type: multiple_choice
+        prompt: איזו שאלה נכונה?
+        options: ["Are you going to travel next year?", "Do you going to travel next year?", "You are going to travel next year?"]
+        correct: 0
+        lexemes: [going-to, travel-verb, next-year]
+      - id: u15-l3-06
+        type: dialogue_gap
+        lines:
+          - { speaker: "eli", text: "What are you going to do at the weekend?", translation: "מה אתה הולך לעשות בסוף השבוע?" }
+          - { speaker: "ben", text: "I'm not going to do anything. I'm going to rest!", translation: "אני לא הולך לעשות כלום. אני הולך לנוח!" }
+        gap: 1
+        distractors: ["I don't going to do anything. I'm going to rest!", "I'm not go to do anything. I rest going!"]
+        lexemes: [what-are-you-going-to-do, rest]
+      - id: u15-l3-07
+        type: word_bank
+        prompt: "הם לא הולכים לבוא מחר."
+        answers: ["They aren't going to come tomorrow.", "They're not going to come tomorrow.", "They are not going to come tomorrow."]
+        distractors: [isn't, coming]
+        lexemes: [going-to, tomorrow]
+      - id: u15-l3-08
+        type: word_bank
+        prompt: "מתי אתה הולך לסיים?"
+        answers: ["When are you going to finish?"]
+        distractors: [do, finishing]
+        lexemes: [going-to, finish]
+      - id: u15-l3-09
+        type: translate
+        direction: to_target
+        prompt: "היא הולכת לעבור ללונדון בשנה הבאה."
+        answers: ["She's going to move to London next year.", "She is going to move to London next year.", "Next year she's going to move to London.", "Next year she is going to move to London."]
+        lexemes: [going-to, move, next-year]
+      - id: u15-l3-10
+        type: translate
+        direction: to_source
+        prompt: "I'm not going to work tomorrow."
+        answers: ["אני לא הולך לעבוד מחר.", "אני לא הולכת לעבוד מחר.", "מחר אני לא הולך לעבוד.", "מחר אני לא הולכת לעבוד.", "אני לא אעבוד מחר."]
+        lexemes: [going-to, work-verb, tomorrow]
+      - id: u15-l3-11
+        type: speak_repeat
+        text: "I'm going to start a Spanish course next month."
+        translation: "אני הולך להתחיל קורס ספרדית בחודש הבא."
+        lexemes: [going-to, start, course, next-month]
+
+  # ------------------------------------------------------------------ 4
+  - id: u15-l4
+    kind: listening
+    title: { he: "החלום של רחל", en: "Rachel's dream" }
+    exercises:
+      - { id: "u15-l4-01", type: "learn", lexeme: "dream" }
+      - { id: "u15-l4-02", type: "learn", lexeme: "decide" }
+      - { id: "u15-l4-03", type: "learn", lexeme: "save-money" }
+      - { id: "u15-l4-04", type: "learn", lexeme: "hope" }
+      - { id: "u15-l4-05", type: "learn", lexeme: "good-luck" }
+      - id: u15-l4-06
+        type: dialogue
+        scene: "רחל מספרת לנועה חדשות גדולות."
+        lines:
+          - { speaker: "rachel", text: "Noa, I decided. I'm going to work in Australia for a year!", translation: "נועה, החלטתי. אני הולכת לעבוד באוסטרליה לשנה!" }
+          - { speaker: "noa", text: "Wow! When?", translation: "וואו! מתי?" }
+          - { speaker: "rachel", text: "Next year. It's my dream. Hospitals there need nurses.", translation: "בשנה הבאה. זה החלום שלי. בבתי החולים שם צריכים אחיות." }
+          - { speaker: "noa", text: "What does Ben think?", translation: "מה בן חושב?" }
+          - { speaker: "rachel", text: "He's happy for me. But first I'm going to save money.", translation: "הוא שמח בשבילי. אבל קודם אני הולכת לחסוך כסף." }
+          - { speaker: "noa", text: "I hope it's going to be amazing. Good luck!", translation: "אני מקווה שזה יהיה מדהים. בהצלחה!" }
+      - id: u15-l4-07
+        type: multiple_choice
+        prompt: "מה החלום של רחל?"
+        options: [לעבוד באוסטרליה, לטייל בספרד, לעבור ללונדון]
+        correct: 0
+        lexemes: [dream]
+      - id: u15-l4-08
+        type: multiple_choice
+        prompt: "מתי היא הולכת?"
+        options: [בשנה הבאה, בחודש הבא, בשבוע הבא]
+        correct: 0
+        lexemes: [next-year]
+      - id: u15-l4-09
+        type: multiple_choice
+        prompt: "מה היא הולכת לעשות קודם?"
+        options: [לחסוך כסף, ללמוד קורס, לבקר בישראל]
+        correct: 0
+        lexemes: [save-money]
+      - id: u15-l4-10
+        type: listening_choice
+        audioText: "We decided to save money for a holiday."
+        question: מה הם החליטו?
+        options: [לחסוך כסף לחופשה, לצאת לחופשה עכשיו, לקנות דירה]
+        correct: 0
+        lexemes: [decide, save-money, holiday]
+      - id: u15-l4-11
+        type: dialogue_gap
+        lines:
+          - { speaker: "noa", text: "I've got a job interview tomorrow.", translation: "יש לי ראיון עבודה מחר." }
+          - { speaker: "eli", text: "Good luck! I hope it goes well.", translation: "בהצלחה! אני מקווה שילך טוב." }
+        gap: 1
+        distractors: ["Get well soon! I hope it goes well.", "Good luck! I hoped it goes well yesterday."]
+        lexemes: [good-luck, hope, tomorrow]
+      - id: u15-l4-12
+        type: dictation
+        text: "It's my dream."
+        lexemes: [dream]
+      - id: u15-l4-13
+        type: translate
+        direction: to_target
+        prompt: "אני מקווה שכן!"
+        answers: ["I hope so!", "I hope so."]
+        lexemes: [hope]
+      - id: u15-l4-14
+        type: speak_repeat
+        text: "I decided. I'm going to work abroad next year."
+        translation: "החלטתי. אני הולכת לעבוד בחו\"ל בשנה הבאה."
+        lexemes: [decide, going-to, next-year]
+
+  # ------------------------------------------------------------------ 5
+  - id: u15-l5
+    kind: reading
+    title: { he: "רשימת המטרות של נועה", en: "Noa's goals" }
+    exercises:
+      - id: u15-l5-01
+        type: reading
+        kind: "רשימה ביומן"
+        title: "My plans for next year"
+        text: |
+          1. I'm going to speak more English at work, in every meeting.
+
+          2. I'm going to learn to cook three new dishes. Mum's recipes first!
+
+          3. I'm going to save money every month for a trip to Japan. It's my dream!
+
+          4. I'm not going to work late every day. I'm going to go home at six and rest.
+
+          5. I'm going to visit Rachel in Australia. I hope!
+        translation: |
+          1. אני הולכת לדבר יותר אנגלית בעבודה, בכל פגישה.
+
+          2. אני הולכת ללמוד לבשל שלוש מנות חדשות. קודם המתכונים של אמא!
+
+          3. אני הולכת לחסוך כסף כל חודש לטיול ליפן. זה החלום שלי!
+
+          4. אני לא הולכת לעבוד עד מאוחר כל יום. אני הולכת ללכת הביתה בשש ולנוח.
+
+          5. אני הולכת לבקר את רחל באוסטרליה. מקווה!
+      - id: u15-l5-02
+        type: multiple_choice
+        prompt: "לאן נועה רוצה לטייל?"
+        options: [ליפן, לאוסטרליה, לספרד]
+        correct: 0
+        lexemes: [dream, save-money]
+      - id: u15-l5-03
+        type: multiple_choice
+        prompt: "כמה מנות חדשות היא הולכת ללמוד לבשל?"
+        options: ["3", "5", "2"]
+        correct: 0
+        lexemes: [learn, cook]
+      - id: u15-l5-04
+        type: multiple_choice
+        prompt: "מתי היא הולכת ללכת הביתה?"
+        options: [בשש, בחמש, בשבע]
+        correct: 0
+        lexemes: [go-home]
+      - id: u15-l5-05
+        type: multiple_choice
+        prompt: "את מי היא רוצה לבקר?"
+        options: [את רחל באוסטרליה, את אמא בישראל, את מרים במדריד]
+        correct: 0
+        lexemes: [visit]
+      - id: u15-l5-06
+        type: fill_blank
+        sentence: "I'm not going to work ___ every day."
+        translation: "אני לא הולכת לעבוד עד מאוחר כל יום."
+        answers: [late]
+        options: [late, early, soon]
+        lexemes: [late, every-day]
+      - id: u15-l5-07
+        type: fill_blank
+        sentence: "I'm going to ___ money every month."
+        translation: "אני הולכת לחסוך כסף כל חודש."
+        answers: [save]
+        options: [save, spend, hope]
+        lexemes: [save-money]
+      - id: u15-l5-08
+        type: word_bank
+        prompt: "אני הולכת לדבר יותר אנגלית בעבודה."
+        answers: ["I'm going to speak more English at work.", "I am going to speak more English at work."]
+        distractors: [speaking, in]
+        lexemes: [going-to, speak, english]
+      - id: u15-l5-09
+        type: translate
+        direction: to_target
+        prompt: "מה התוכניות שלך לשנה הבאה?"
+        answers: ["What are your plans for next year?"]
+        lexemes: [plan, next-year]
+      - id: u15-l5-10
+        type: speak_repeat
+        text: "I'm going to save money for a trip to Japan."
+        translation: "אני הולכת לחסוך כסף לטיול ליפן."
+        lexemes: [going-to, save-money]
+
+  # ------------------------------------------------------------------ 6
+  - id: u15-review
+    kind: review
+    title: { he: "חזרה: תוכניות וחלומות", en: "Review: plans and dreams" }
+    exercises:
+      - id: u15-r-01
+        type: match_pairs
+        pairs:
+          - [decide, להחליט]
+          - [hope, לקוות]
+          - [dream, חלום]
+          - [finish, לסיים]
+          - [learn, ללמוד]
+        lexemes: [decide, hope, dream, finish, learn]
+      - id: u15-r-02
+        type: fill_blank
+        sentence: "Are you going ___ visit Israel?"
+        translation: "אתה הולך לבקר בישראל?"
+        answers: [to]
+        options: [to, for, at]
+        lexemes: [going-to, visit, israel]
+      - id: u15-r-03
+        type: listening_choice
+        audioText: "I'm not going to travel this summer. I'm going to save money."
+        question: מה הוא הולך לעשות בקיץ?
+        options: [לחסוך כסף, לטייל, ללמוד קורס]
+        correct: 0
+        lexemes: [going-to, summer, save-money]
+      - id: u15-r-04
+        type: word_bank
+        prompt: "אנחנו הולכים להחליט בקרוב."
+        answers: ["We're going to decide soon.", "We are going to decide soon."]
+        distractors: [decided, is]
+        lexemes: [going-to, decide, soon]
+      - id: u15-r-05
+        type: dialogue_gap
+        lines:
+          - { speaker: "miriam", text: "Are you going to come to Madrid next month?", translation: "את הולכת לבוא למדריד בחודש הבא?" }
+          - { speaker: "noa", text: "I hope so! I'm going to decide this week.", translation: "מקווה שכן! אני הולכת להחליט השבוע." }
+        gap: 1
+        distractors: ["I hope so! I going to decide this week.", "I hoped! I'm going decide last week."]
+        lexemes: [hope, going-to, decide]
+      - id: u15-r-06
+        type: multiple_choice
+        prompt: "חברה מספרת שיש לה מבחן מחר. מה אומרים?"
+        options: ["Good luck!", "Get well soon!", "Nice to meet you!"]
+        correct: 0
+        lexemes: [good-luck]
+      - id: u15-r-07
+        type: translate
+        direction: to_target
+        prompt: "אני הולך להתחיל קורס בשבוע הבא."
+        answers: ["I'm going to start a course next week.", "I am going to start a course next week.", "Next week I'm going to start a course.", "Next week I am going to start a course."]
+        lexemes: [going-to, start, course, next-week]
+      - id: u15-r-08
+        type: translate
+        direction: to_source
+        prompt: "What are you going to do tomorrow?"
+        answers: ["מה אתה הולך לעשות מחר?", "מה את הולכת לעשות מחר?", "מה אתם הולכים לעשות מחר?", "מה תעשה מחר?", "מה תעשי מחר?"]
+        lexemes: [what-are-you-going-to-do, tomorrow]
+      - id: u15-r-09
+        type: dictation
+        text: "We're going on holiday next month."
+        lexemes: [holiday, next-month]
+      - id: u15-r-10
+        type: speak_repeat
+        text: "What are you going to do next year?"
+        translation: "מה אתה הולך לעשות בשנה הבאה?"
+        lexemes: [what-are-you-going-to-do, next-year]

@@ -12,40 +12,40 @@ canDo:
   - לספור מ־0 עד 10 ולהגיד מספר טלפון
 
 vocabulary:
-  - { id: "where", text: "where", translation: "איפה, מאיפה", pos: adverb, pronunciation: "ווֶר", example: { text: "Where are you from?", translation: "מאיפה אתה?" } }
-  - { id: "from", text: "from", translation: "מ־ (מאיפה מגיעים)", pos: preposition, pronunciation: "פְרוֹם", example: { text: "I'm from Israel.", translation: "אני מישראל." } }
-  - { id: "israel", text: "Israel", translation: "ישראל", pos: noun, pronunciation: "אִיזְרָאֵל" }
-  - { id: "england", text: "England", translation: "אנגליה", pos: noun, pronunciation: "אִינְגְלֶנְד", example: { text: "Ben is from England.", translation: "בן מאנגליה." } }
-  - { id: "the-usa", text: "the USA", translation: "ארצות הברית", pos: noun, pronunciation: "דֶ'ה יוּ אֶס אֵיי", example: { text: "Rachel is in the USA.", translation: "רחל בארצות הברית." } }
-  - { id: "city", text: "city", translation: "עיר", pos: noun, pronunciation: "סִיטִי", example: { text: "London is a big city.", translation: "לונדון היא עיר גדולה." } }
-  - { id: "language", text: "language", translation: "שפה", pos: noun, pronunciation: "לֶנְגְוִוידְג'" }
-  - { id: "speak", text: "speak", translation: "לדבר (שפה)", pos: verb, pronunciation: "סְפִּיק", example: { text: "I speak Hebrew.", translation: "אני מדברת עברית." } }
-  - { id: "hebrew", text: "Hebrew", translation: "עברית", pos: noun, pronunciation: "הִיבְּרוּ" }
-  - { id: "english", text: "English", translation: "אנגלית", pos: noun, pronunciation: "אִינְגְלִישׁ" }
-  - { id: "and", text: "and", translation: "ו־", pos: conjunction, pronunciation: "אֶנְד", example: { text: "Hebrew and English", translation: "עברית ואנגלית" } }
-  - { id: "spain", text: "Spain", translation: "ספרד", pos: noun, pronunciation: "סְפֵּיין" }
-  - { id: "spanish", text: "Spanish", translation: "ספרדית", pos: noun, pronunciation: "סְפֶּנִישׁ" }
-  - { id: "france", text: "France", translation: "צרפת", pos: noun, pronunciation: "פְרַאנְס" }
-  - { id: "french", text: "French", translation: "צרפתית", pos: noun, pronunciation: "פְרֶנְץ'" }
-  - { id: "do-you-speak", text: "Do you speak…?", translation: "אתה מדבר…? / את מדברת…?", pos: phrase, pronunciation: "דוּ יוּ סְפִּיק", example: { text: "Do you speak French?", translation: "את מדברת צרפתית?" } }
-  - { id: "a-little", text: "a little", translation: "קצת", pos: phrase, pronunciation: "אֶ לִיטְל", example: { text: "I speak a little Spanish.", translation: "אני מדבר קצת ספרדית." } }
-  - { id: "he-pronoun", text: "he", translation: "הוא", pos: pronoun, pronunciation: "הִי", example: { text: "He is from England.", translation: "הוא מאנגליה." } }
-  - { id: "she", text: "she", translation: "היא", pos: pronoun, pronunciation: "שִׁי", example: { text: "She is from Spain.", translation: "היא מספרד." } }
-  - { id: "is", text: "is", translation: "(הוא / היא) … – הפועל \"להיות\"", pos: verb, pronunciation: "אִיז" }
-  - { id: "isnt", text: "isn't", translation: "לא (בצורה המקוצרת של is not)", pos: phrase, pronunciation: "אִיזֶנְט", example: { text: "She isn't from France.", translation: "היא לא מצרפת." } }
-  - { id: "zero", text: "zero", translation: "אפס", pos: number, pronunciation: "זִירוֹ" }
-  - { id: "one", text: "one", translation: "אחת", pos: number, pronunciation: "וַואן" }
-  - { id: "two", text: "two", translation: "שתיים", pos: number, pronunciation: "טוּ" }
-  - { id: "three", text: "three", translation: "שלוש", pos: number, pronunciation: "ת'רִי" }
-  - { id: "four", text: "four", translation: "ארבע", pos: number, pronunciation: "פוֹר" }
-  - { id: "five", text: "five", translation: "חמש", pos: number, pronunciation: "פַייב" }
-  - { id: "six", text: "six", translation: "שש", pos: number, pronunciation: "סִיקְס" }
-  - { id: "seven", text: "seven", translation: "שבע", pos: number, pronunciation: "סֶבֶן" }
-  - { id: "eight", text: "eight", translation: "שמונה", pos: number, pronunciation: "אֵייט" }
-  - { id: "nine", text: "nine", translation: "תשע", pos: number, pronunciation: "נַיין" }
-  - { id: "ten", text: "ten", translation: "עשר", pos: number, pronunciation: "טֶן" }
-  - { id: "phone-number", text: "phone number", translation: "מספר טלפון", pos: noun, pronunciation: "פוֹן נַאמְבֶּר", example: { text: "What's your phone number?", translation: "מה מספר הטלפון שלך?" } }
-  - { id: "its", text: "It's", translation: "זה (בצורה המקוצרת)", pos: phrase, pronunciation: "אִיטְס", example: { text: "It's a big city.", translation: "זו עיר גדולה." } }
+  - { id: "where", text: "where", translation: "איפה, מאיפה", pos: "adverb", pronunciation: "ווֶר", example: { text: "Where are you from?", translation: "מאיפה אתה?" } }
+  - { id: "from", text: "from", translation: "מ־ (מאיפה מגיעים)", pos: "preposition", pronunciation: "פְרוֹם", example: { text: "I'm from Israel.", translation: "אני מישראל." } }
+  - { id: "israel", text: "Israel", translation: "ישראל", pos: "noun", pronunciation: "אִיזְרָאֵל" }
+  - { id: "england", text: "England", translation: "אנגליה", pos: "noun", pronunciation: "אִינְגְלֶנְד", example: { text: "Ben is from England.", translation: "בן מאנגליה." } }
+  - { id: "the-usa", text: "the USA", translation: "ארצות הברית", pos: "noun", pronunciation: "דֶ'ה יוּ אֶס אֵיי", example: { text: "Rachel is in the USA.", translation: "רחל בארצות הברית." } }
+  - { id: "city", text: "city", translation: "עיר", pos: "noun", pronunciation: "סִיטִי", example: { text: "London is a big city.", translation: "לונדון היא עיר גדולה." } }
+  - { id: "language", text: "language", translation: "שפה", pos: "noun", pronunciation: "לֶנְגְוִוידְג'" }
+  - { id: "speak", text: "speak", translation: "לדבר (שפה)", pos: "verb", pronunciation: "סְפִּיק", example: { text: "I speak Hebrew.", translation: "אני מדברת עברית." } }
+  - { id: "hebrew", text: "Hebrew", translation: "עברית", pos: "noun", pronunciation: "הִיבְּרוּ" }
+  - { id: "english", text: "English", translation: "אנגלית", pos: "noun", pronunciation: "אִינְגְלִישׁ" }
+  - { id: "and", text: "and", translation: "ו־", pos: "conjunction", pronunciation: "אֶנְד", example: { text: "Hebrew and English", translation: "עברית ואנגלית" } }
+  - { id: "spain", text: "Spain", translation: "ספרד", pos: "noun", pronunciation: "סְפֵּיין" }
+  - { id: "spanish", text: "Spanish", translation: "ספרדית", pos: "noun", pronunciation: "סְפֶּנִישׁ" }
+  - { id: "france", text: "France", translation: "צרפת", pos: "noun", pronunciation: "פְרַאנְס" }
+  - { id: "french", text: "French", translation: "צרפתית", pos: "noun", pronunciation: "פְרֶנְץ'" }
+  - { id: "do-you-speak", text: "Do you speak…?", translation: "אתה מדבר…? / את מדברת…?", pos: "phrase", pronunciation: "דוּ יוּ סְפִּיק", example: { text: "Do you speak French?", translation: "את מדברת צרפתית?" } }
+  - { id: "a-little", text: "a little", translation: "קצת", pos: "phrase", pronunciation: "אֶ לִיטְל", example: { text: "I speak a little Spanish.", translation: "אני מדבר קצת ספרדית." } }
+  - { id: "he-pronoun", text: "he", translation: "הוא", pos: "pronoun", pronunciation: "הִי", example: { text: "He is from England.", translation: "הוא מאנגליה." } }
+  - { id: "she", text: "she", translation: "היא", pos: "pronoun", pronunciation: "שִׁי", example: { text: "She is from Spain.", translation: "היא מספרד." } }
+  - { id: "is", text: "is", translation: "(הוא / היא) … – הפועל \"להיות\"", pos: "verb", pronunciation: "אִיז" }
+  - { id: "isnt", text: "isn't", translation: "לא (בצורה המקוצרת של is not)", pos: "phrase", pronunciation: "אִיזֶנְט", example: { text: "She isn't from France.", translation: "היא לא מצרפת." } }
+  - { id: "zero", text: "zero", translation: "אפס", pos: "number", pronunciation: "זִירוֹ" }
+  - { id: "one", text: "one", translation: "אחת", pos: "number", pronunciation: "וַואן" }
+  - { id: "two", text: "two", translation: "שתיים", pos: "number", pronunciation: "טוּ" }
+  - { id: "three", text: "three", translation: "שלוש", pos: "number", pronunciation: "ת'רִי" }
+  - { id: "four", text: "four", translation: "ארבע", pos: "number", pronunciation: "פוֹר" }
+  - { id: "five", text: "five", translation: "חמש", pos: "number", pronunciation: "פַייב" }
+  - { id: "six", text: "six", translation: "שש", pos: "number", pronunciation: "סִיקְס" }
+  - { id: "seven", text: "seven", translation: "שבע", pos: "number", pronunciation: "סֶבֶן" }
+  - { id: "eight", text: "eight", translation: "שמונה", pos: "number", pronunciation: "אֵייט" }
+  - { id: "nine", text: "nine", translation: "תשע", pos: "number", pronunciation: "נַיין" }
+  - { id: "ten", text: "ten", translation: "עשר", pos: "number", pronunciation: "טֶן" }
+  - { id: "phone-number", text: "phone number", translation: "מספר טלפון", pos: "noun", pronunciation: "פוֹן נַאמְבֶּר", example: { text: "What's your phone number?", translation: "מה מספר הטלפון שלך?" } }
+  - { id: "its", text: "It's", translation: "זה (בצורה המקוצרת)", pos: "phrase", pronunciation: "אִיטְס", example: { text: "It's a big city.", translation: "זו עיר גדולה." } }
 
 grammar:
   - id: he-she-is
