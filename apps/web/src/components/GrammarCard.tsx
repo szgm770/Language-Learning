@@ -10,7 +10,7 @@ import { Word } from "./ui";
 function inline(text: string, target: string): ReactNode[] {
   return text.split(/(\*\*[^*]+\*\*)/g).map((part, i) =>
     part.startsWith("**") ? (
-      <Word key={i} text={part.slice(2, -2)} lang={target} className="rounded-md bg-cobalt-soft px-1.5 text-cobalt" />
+      <Word key={i} text={part.slice(2, -2)} lang={target} className="inline-block max-w-full rounded-md bg-cobalt-soft px-1.5 text-cobalt" />
     ) : (
       <Fragment key={i}>{part}</Fragment>
     ),

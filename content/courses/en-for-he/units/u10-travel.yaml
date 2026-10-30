@@ -34,7 +34,7 @@ vocabulary:
 
 grammar:
   - id: id-like
-    title: { he: "I'd like: לבקש בנימוס", en: "I'd like" }
+    title: { he: "לבקש בנימוס: I'd like", en: "I'd like" }
     explanation: |
       **I want** נשמע באנגלית ישיר מדי, כמעט גס. בחנות, במלון ובמסעדה אומרים **I'd like**:
 
@@ -46,7 +46,7 @@ grammar:
       - { text: "I'd like a ticket to Madrid, please.", translation: "הייתי רוצה כרטיס למדריד, בבקשה." }
       - { text: "I'd like a coffee.", translation: "הייתי רוצה קפה." }
   - id: was-were
-    title: { he: "Was ו־were: עבר של to be", en: "Was and were" }
+    title: { he: "עבר של to be: was, were", en: "Was and were" }
     explanation: |
       בעבר, **am** ו־**is** הופכים ל־**was**, ו־**are** הופך ל־**were**:
 
@@ -133,7 +133,7 @@ lessons:
         lines:
           - { speaker: "noa", text: "Good evening. I have a reservation. My name is Noa Levi.", translation: "ערב טוב. יש לי הזמנה. שמי נועה לוי." }
           - { speaker: "cohen", text: "Welcome! A room for three nights?", translation: "ברוכה הבאה! חדר לשלושה לילות?" }
-          - { speaker: "noa", text: "Yes. Is breakfast in the price?", translation: "כן. ארוחת הבוקר כלולה במחיר?" }
+          - { speaker: "noa", text: "Yes. Is there breakfast?", translation: "כן. יש ארוחת בוקר?" }
           - { speaker: "cohen", text: "Yes, from seven to ten. Here's your key. Room forty.", translation: "כן, משבע עד עשר. הנה המפתח שלך. חדר ארבעים." }
       - { id: "u10-l2-02", type: "learn", lexeme: "hotel" }
       - { id: "u10-l2-03", type: "learn", lexeme: "reservation" }
@@ -288,6 +288,33 @@ lessons:
         gap: 1
         distractors: ["Yes, I like a coffee was.", "Yes, I were a sandwich."]
         lexemes: [id-like, coffee, sandwich]
+      - id: u10-l4-11
+        type: dialogue
+        scene: "מרים בשדה התעופה, ויש לה בעיה."
+        lines:
+          - { speaker: "miriam", text: "Excuse me, I have a problem. Where is gate nine?", translation: "סליחה, יש לי בעיה. איפה שער תשע?" }
+          - { speaker: "cohen", text: "Your flight is at gate five now.", translation: "הטיסה שלך בשער חמש עכשיו." }
+          - { speaker: "miriam", text: "Gate five? Thank you. Is it far?", translation: "שער חמש? תודה. זה רחוק?" }
+          - { speaker: "cohen", text: "No, it's near. Turn right.", translation: "לא, זה קרוב. פני ימינה." }
+      - id: u10-l4-12
+        type: multiple_choice
+        prompt: "מה הבעיה של מרים?"
+        options: [היא לא מוצאת את השער, אין לה דרכון, אין לה כרטיס]
+        correct: 0
+        lexemes: [problem, gate]
+      - id: u10-l4-13
+        type: multiple_choice
+        prompt: "באיזה שער הטיסה עכשיו?"
+        options: ["5", "9", "12"]
+        correct: 0
+        lexemes: [gate, five]
+      - id: u10-l4-14
+        type: listening_choice
+        audioText: "I was at the airport yesterday."
+        question: איפה הוא היה, ומתי?
+        options: [בשדה התעופה אתמול, במלון אתמול, בשדה התעופה בשבוע שעבר]
+        correct: 0
+        lexemes: [was, airport, yesterday]
       - id: u10-l4-06
         type: dictation
         text: "How was your flight?"

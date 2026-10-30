@@ -37,7 +37,7 @@ vocabulary:
 
 grammar:
   - id: can-cant
-    title: { he: "Can ו־can't: יכול, יודע", en: "Can and can't" }
+    title: { he: "יכול, יודע: can, can't", en: "Can and can't" }
     explanation: |
       **can** אומר "יכול" או "יודע לעשות". הוא לא משתנה לפי הגוף:
       **I can swim. She can swim.** (בלי s!)
@@ -51,7 +51,7 @@ grammar:
       - { text: "I can't come on Saturday.", translation: "אני לא יכולה לבוא בשבת." }
       - { text: "Can you cook? Yes, I can.", translation: "אתה יודע לבשל? כן." }
   - id: like-ing
-    title: { he: "Like + ing: אוהב לעשות", en: "Like + -ing" }
+    title: { he: "אוהב לעשות: like + ing", en: "Like + -ing" }
     explanation: |
       כשאוהבים פעולה, מוסיפים לפועל **ing**:
       **I like swimming.** (אני אוהב לשחות)
@@ -281,6 +281,33 @@ lessons:
         gap: 1
         distractors: ["Maybe. I'm very sure at work.", "Never. I always travel."]
         lexemes: [maybe, travel-verb, together]
+      - id: u9-l4-11
+        type: dialogue
+        scene: "בבית הקפה. בן מדבר עם אלי."
+        lines:
+          - { speaker: "ben", text: "Can you play football, Eli?", translation: "אתה יודע לשחק כדורגל, אלי?" }
+          - { speaker: "eli", text: "No, I can't. But I can cook!", translation: "לא. אבל אני יודע לבשל!" }
+          - { speaker: "ben", text: "Great! Do you want to cook dinner on Friday?", translation: "מעולה! רוצה לבשל ארוחת ערב ביום שישי?" }
+          - { speaker: "eli", text: "Sure. I always cook on Friday.", translation: "בטח. אני תמיד מבשל ביום שישי." }
+      - id: u9-l4-12
+        type: multiple_choice
+        prompt: "מה אלי יודע לעשות?"
+        options: [לבשל, לשחק כדורגל, לשחות]
+        correct: 0
+        lexemes: [can, cook]
+      - id: u9-l4-13
+        type: multiple_choice
+        prompt: "מתי אלי תמיד מבשל?"
+        options: [ביום שישי, בשבת, ביום ראשון]
+        correct: 0
+        lexemes: [always, friday]
+      - id: u9-l4-14
+        type: listening_choice
+        audioText: "We sometimes watch movies together."
+        question: מה הם עושים?
+        options: [לפעמים רואים סרטים ביחד, תמיד רואים סרטים ביחד, אף פעם לא רואים סרטים]
+        correct: 0
+        lexemes: [sometimes, watch, together]
       - id: u9-l4-06
         type: dictation
         text: "I like cooking."

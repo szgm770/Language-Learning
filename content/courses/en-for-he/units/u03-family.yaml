@@ -44,7 +44,7 @@ vocabulary:
 
 grammar:
   - id: possessives
-    title: { he: "his, her, our, their: של מי?", en: "his, her, our, their" }
+    title: { he: "של מי: his, her, our, their", en: "his, her, our, their" }
     explanation: |
       בעברית מוסיפים סיומת: אחותו, אחותה. באנגלית שמים מילה לפני השם:
 

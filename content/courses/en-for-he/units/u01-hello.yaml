@@ -156,7 +156,7 @@ vocabulary:
 
 grammar:
   - id: i-am-you-are
-    title: { he: "I am, you are: אני, אתה", en: "I am, you are" }
+    title: { he: "אני, אתה: I am, you are", en: "I am, you are" }
     explanation: |
       בעברית אומרים "אני נועה" בלי שום מילה באמצע. באנגלית חייבים פועל, "להיות":
 
@@ -173,7 +173,7 @@ grammar:
       - { text: "You're Ben.", translation: "אתה בן." }
       - { text: "Are you Ben? Yes, I am.", translation: "אתה בן? כן." }
   - id: whats-your-name
-    title: { he: "What's your name? – איך קוראים לך?", en: "What's your name?" }
+    title: { he: "לשאול לשם: What's your name", en: "What's your name?" }
     explanation: |
       באנגלית לא שואלים "איך קוראים לך", אלא "מה השם שלך": **What's your name?**
 
