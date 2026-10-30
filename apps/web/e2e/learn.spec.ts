@@ -1,5 +1,5 @@
 import { expect, test } from "@playwright/test";
-import { exercises, finishLesson, solve } from "./helpers";
+import { answerWrong, exercises, finishLesson, solve } from "./helpers";
 
 test("a new learner picks English and finishes the first lesson offline-first", async ({ page }) => {
   await page.goto("./");
@@ -90,19 +90,23 @@ test("the placement test skips units the learner already knows", async ({ page }
   await page.getByRole("button", { name: /רגיל/ }).click();
   await page.getByRole("button", { name: /כבר יודע/ }).click();
   await expect(page).toHaveURL(/\/placement\/en-for-he\/$/);
-  // Answer unit 1 correctly (two questions), then miss the first unit 2 question.
+  const current = async () => exercises.get((await page.locator("[data-exercise]").getAttribute("data-exercise"))!)!;
+  // Miss two questions of the A1 level probe: placement goes through A1 unit by unit.
   for (let q = 0; q < 2; q++) {
-    const id = (await page.locator("[data-exercise]").getAttribute("data-exercise"))!;
-    await solve(page, exercises.get(id)!);
+    await answerWrong(page, await current());
+    await page.getByRole("button", { name: "המשך" }).click();
+  }
+  // Unit 1 right (two questions), then miss the first unit 2 question.
+  for (let q = 0; q < 2; q++) {
+    const ex = await current();
+    expect(ex.id.startsWith("u1")).toBe(true);
+    await solve(page, ex);
     await expect(page.locator("[data-verdict]")).toHaveAttribute("data-verdict", "correct");
     await page.getByRole("button", { name: "המשך" }).click();
   }
-  const ex = exercises.get((await page.locator("[data-exercise]").getAttribute("data-exercise"))!)!;
+  const ex = await current();
   expect(ex.id.startsWith("u2")).toBe(true);
-  if (ex.type === "fill_blank" && ex.options) await page.getByRole("button", { name: ex.options.find((o) => !ex.answers.includes(o))!, exact: true }).click();
-  else if (ex.type === "multiple_choice") await page.locator("[data-exercise] .choice").nth(ex.correct === 0 ? 1 : 0).click();
-  else await page.getByRole("textbox").fill("wrong answer");
-  await page.getByRole("button", { name: "בדיקה" }).click();
+  await answerWrong(page, ex);
   await page.getByRole("button", { name: "המשך" }).click();
   await expect(page.getByRole("heading", { name: "מתחילים מיחידה 2" })).toBeVisible();
   await page.getByRole("link", { name: "להתחיל ללמוד" }).click();

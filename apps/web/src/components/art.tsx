@@ -16,6 +16,15 @@ export const SCENE_HUE: Record<Scene, Hue> = {
   shopping: "rose",
   "free-time": "green",
   travel: "teal",
+  home: "amber",
+  food: "green",
+  health: "rose",
+  nature: "teal",
+  tech: "violet",
+  party: "violet",
+  money: "green",
+  news: "blue",
+  study: "blue",
 };
 
 const c = (hue: Hue) => `var(--color-u-${hue})`;
@@ -137,6 +146,96 @@ const SCENES: Record<Scene, (h: Hue) => ReactNode> = {
         d="M60 40l40-18c6-3 11 3 7 8L78 54l4 24-7 4-10-20-14 10 1 8-5 3-6-12-12-6 3-5 8 1 10-14-20-10 4-7z"
         fill={c(h)}
       />
+    </>
+  ),
+  home: (h) => (
+    <>
+      <path d="M18 58L60 24l42 34" fill="none" stroke={INK} strokeWidth="6" strokeLinecap="round" strokeLinejoin="round" />
+      <path d="M28 52l32-26 32 26v44H28z" fill={c(h)} />
+      <rect x="52" y="68" width="16" height="28" rx="3" fill={WHITE} />
+      <rect x="34" y="60" width="13" height="13" rx="2" fill={c("amber")} />
+      <rect x="73" y="60" width="13" height="13" rx="2" fill={c("amber")} />
+      <rect x="78" y="22" width="10" height="18" rx="2" fill={INK} fillOpacity="0.8" />
+      <path d="M8 98h104" stroke={INK} strokeOpacity="0.3" strokeWidth="3" strokeLinecap="round" />
+    </>
+  ),
+  food: (h) => (
+    <>
+      <ellipse cx="60" cy="72" rx="44" ry="22" fill={WHITE} stroke={INK} strokeOpacity="0.2" strokeWidth="2" />
+      <ellipse cx="60" cy="70" rx="30" ry="13" fill={c(h)} />
+      <circle cx="48" cy="66" r="6" fill={c("rose")} />
+      <circle cx="66" cy="64" r="5" fill={c("amber")} />
+      <circle cx="72" cy="73" r="5" fill={c("rose")} />
+      <path d="M50 76c6 2 12 2 16 0" stroke={WHITE} strokeWidth="3" strokeLinecap="round" fill="none" />
+      <path d="M12 28v22M8 28v10a4 4 0 0 0 8 0V28" stroke={INK} strokeWidth="3" fill="none" strokeLinecap="round" />
+      <path d="M106 28c-6 0-8 8-8 14s4 8 8 8v18" stroke={INK} strokeWidth="3" fill="none" strokeLinecap="round" />
+    </>
+  ),
+  health: (h) => (
+    <>
+      <path d="M60 98S20 74 20 46a20 20 0 0 1 40-6 20 20 0 0 1 40 6c0 28-40 52-40 52z" fill={c(h)} />
+      <rect x="52" y="44" width="16" height="40" rx="3" fill={WHITE} />
+      <rect x="40" y="56" width="40" height="16" rx="3" fill={WHITE} />
+    </>
+  ),
+  nature: (h) => (
+    <>
+      <circle cx="84" cy="34" r="14" fill={c("amber")} />
+      <path d="M30 56a14 14 0 0 1 26-6 11 11 0 0 1 18 10H26a8 8 0 0 1 4-4z" fill={WHITE} stroke={INK} strokeOpacity="0.15" strokeWidth="2" />
+      <path d="M8 98l30-34 18 20 14-14 42 28z" fill={c(h)} />
+      <path d="M38 64l8 9-8-2-8 3z" fill={WHITE} />
+      <path d="M40 80v-6M52 92v-6M84 90v-6" stroke={INK} strokeOpacity="0.25" strokeWidth="3" strokeLinecap="round" />
+    </>
+  ),
+  tech: (h) => (
+    <>
+      <rect x="38" y="16" width="44" height="86" rx="10" fill={INK} />
+      <rect x="43" y="25" width="34" height="62" rx="4" fill={c(h)} />
+      <circle cx="60" cy="94" r="3" fill={WHITE} />
+      <rect x="48" y="32" width="14" height="10" rx="5" fill={WHITE} />
+      <rect x="56" y="48" width="16" height="10" rx="5" fill={c("amber")} />
+      <rect x="48" y="64" width="18" height="10" rx="5" fill={WHITE} />
+      <path d="M92 40a14 14 0 0 1 0 20M100 34a24 24 0 0 1 0 32" stroke={c(h)} strokeWidth="4" fill="none" strokeLinecap="round" />
+    </>
+  ),
+  party: (h) => (
+    <>
+      <path d="M28 98l18-62 34 34z" fill={c(h)} />
+      <path d="M38 70l18 10M34 84l12 6" stroke={WHITE} strokeWidth="4" strokeLinecap="round" />
+      <circle cx="84" cy="34" r="14" fill={c("rose")} />
+      <path d="M84 48c-2 8 4 12 0 20" stroke={INK} strokeOpacity="0.4" strokeWidth="2" fill="none" />
+      <circle cx="100" cy="56" r="10" fill={c("amber")} />
+      <path d="M100 66c-2 6 3 9 0 14" stroke={INK} strokeOpacity="0.4" strokeWidth="2" fill="none" />
+      {[[24, 26], [62, 20], [96, 88], [70, 98]].map(([x, y]) => (
+        <rect key={`${x}-${y}`} x={x} y={y} width="6" height="6" rx="1" fill={c("violet")} transform={`rotate(25 ${x} ${y})`} />
+      ))}
+    </>
+  ),
+  money: (h) => (
+    <>
+      <rect x="16" y="40" width="72" height="44" rx="8" fill={c(h)} />
+      <circle cx="52" cy="62" r="11" fill={WHITE} fillOpacity="0.85" />
+      <path d="M24 50h8M72 74h8" stroke={WHITE} strokeWidth="4" strokeLinecap="round" />
+      <circle cx="88" cy="80" r="18" fill={c("amber")} />
+      <circle cx="88" cy="80" r="12" fill="none" stroke={WHITE} strokeOpacity="0.7" strokeWidth="3" />
+      <circle cx="96" cy="44" r="12" fill={c("amber")} />
+    </>
+  ),
+  news: (h) => (
+    <>
+      <rect x="20" y="22" width="72" height="80" rx="6" fill={WHITE} stroke={INK} strokeOpacity="0.2" strokeWidth="2" />
+      <rect x="28" y="30" width="56" height="12" rx="3" fill={c(h)} />
+      <rect x="28" y="50" width="24" height="22" rx="3" fill={c("amber")} />
+      <path d="M58 52h26M58 60h26M58 68h18M28 80h56M28 88h40" stroke={INK} strokeOpacity="0.35" strokeWidth="3.5" strokeLinecap="round" />
+      <path d="M92 40h8a4 4 0 0 1 4 4v50a8 8 0 0 1-8 8h-4" fill="none" stroke={INK} strokeOpacity="0.3" strokeWidth="3" />
+    </>
+  ),
+  study: (h) => (
+    <>
+      <path d="M60 30l46 18-46 18-46-18z" fill={INK} />
+      <path d="M32 58v20c0 8 14 14 28 14s28-6 28-14V58l-28 11z" fill={c(h)} />
+      <path d="M100 50v26" stroke={c("amber")} strokeWidth="4" strokeLinecap="round" />
+      <circle cx="100" cy="80" r="5" fill={c("amber")} />
     </>
   ),
 };

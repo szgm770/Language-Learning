@@ -1,4 +1,4 @@
-import type { Exercise } from "@lingo/content-schema";
+import { type Exercise, isGraded } from "@lingo/content-schema";
 import { checkText, type TextVerdict } from "./check";
 
 /** What the learner did, per exercise type. */
@@ -50,7 +50,7 @@ function fromText(input: string, accepted: readonly string[], lang: string): Eva
 
 export class RuleEvaluator implements Evaluator {
   evaluate(ex: Exercise, res: Response, ctx: EvaluationContext): Evaluation {
-    const ungraded = ex.type === "learn" || ex.type === "dialogue" || ex.type === "tip";
+    const ungraded = !isGraded(ex);
     if (ungraded ? res.type !== "seen" : ex.type !== res.type) {
       throw new Error(`response type ${res.type} does not match exercise ${ex.type}`);
     }
@@ -58,6 +58,7 @@ export class RuleEvaluator implements Evaluator {
       case "learn":
       case "dialogue":
       case "tip":
+      case "reading":
         return ok("");
       case "dialogue_gap": {
         const expected = ex.lines[ex.gap]!.text;

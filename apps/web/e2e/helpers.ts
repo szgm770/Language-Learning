@@ -11,6 +11,7 @@ export async function solve(page: Page, ex: Exercise) {
     case "learn":
     case "dialogue":
     case "tip":
+    case "reading":
       await page.getByRole("button", { name: /^(הבנתי|המשך)$/ }).click();
       return "seen";
     case "dialogue_gap":
@@ -74,4 +75,15 @@ export async function finishLesson(page: Page): Promise<number> {
   }
   await expect(page.getByRole("heading", { name: DONE })).toBeVisible();
   return mistakes;
+}
+
+/** Gives a wrong answer to the exercise on screen and checks it. */
+export async function answerWrong(page: Page, ex: Exercise) {
+  if (ex.type === "fill_blank" && ex.options) await page.getByRole("button", { name: ex.options.find((o) => !ex.answers.includes(o))!, exact: true }).click();
+  else if (ex.type === "multiple_choice" || ex.type === "listening_choice") await page.locator("[data-exercise] .choice").filter({ hasNotText: ex.options[ex.correct]! }).first().click();
+  else if (ex.type === "dialogue_gap") await page.locator("[data-exercise] .choice").filter({ hasText: ex.distractors[0]! }).first().click();
+  else if (ex.type === "word_bank") await page.locator("[data-bank]").getByRole("button").first().click();
+  else await page.getByRole("textbox").fill("wrong answer");
+  await page.getByRole("button", { name: "בדיקה" }).click();
+  await expect(page.locator("[data-verdict]")).not.toHaveAttribute("data-verdict", "correct");
 }
