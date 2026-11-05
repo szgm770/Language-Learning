@@ -1,0 +1,15 @@
+id: en-amirnet
+source: he
+target: en
+speechLang: en-US
+exam: true
+title:
+  he: אימון לאמירנט
+  en: Amirnet practice
+description:
+  he: "שלושה מבחני אימון בסגנון אמירנט: השלמת משפטים, ניסוח מחדש והבנת הנקרא. השאלות נכתבו לאימון, הן לא שאלות אמיתיות מהמבחן, וציון האימון הוא הערכה בלבד."
+  en: Three practice tests in the style of the Amirnet exam.
+units:
+  - exam-1
+  - exam-2
+  - exam-3

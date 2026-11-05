@@ -64,6 +64,8 @@ const Answers = z
 
 export const MultipleChoice = ExerciseBase.extend({
   type: z.literal("multiple_choice"),
+  /** A text the question is about (reading comprehension); shown above the question. */
+  passage: z.string().min(40).optional(),
   prompt: z.string().min(1),
   options: z.array(z.string().min(1)).min(2).max(6),
   correct: z.number().int().min(0),
@@ -263,6 +265,8 @@ export const Course = z.object({
   /** Web Speech API voice language, e.g. "en-US". */
   speechLang: z.string().min(2),
   characters: z.array(Character).default([]),
+  /** An exam-practice track (not a language to learn): hidden from the language list, shown under "Exams". */
+  exam: z.boolean().default(false),
 });
 export type Course = z.infer<typeof Course>;
 

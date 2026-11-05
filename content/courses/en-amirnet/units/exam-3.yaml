@@ -1,0 +1,223 @@
+id: exam-3
+cefr: B2
+scene: study
+title:
+  he: מבחן אימון 3
+  en: Practice test 3
+story: מבחן אימון בסגנון אמירנט, בשלושה חלקים. השאלות נכתבו לאימון ואינן שאלות אמיתיות מהמבחן.
+canDo:
+- להתאמן בהשלמת משפטים, בניסוח מחדש ובהבנת הנקרא
+lessons:
+- id: exam-3-a
+  title:
+    he: השלמת משפטים
+    en: Sentence completion
+  kind: test
+  exercises:
+  - id: exam-3-a-01
+    type: multiple_choice
+    prompt: The two brothers look alike, but their personalities are completely ______.
+    options:
+    - familiar
+    - different
+    - similar
+    - identical
+    correct: 1
+  - id: exam-3-a-02
+    type: multiple_choice
+    prompt: Please ______ the instructions carefully before you begin the exam.
+    options:
+    - read
+    - reading
+    - to read
+    - reads
+    correct: 0
+  - id: exam-3-a-03
+    type: multiple_choice
+    prompt: The mayor refused to ______ to the demands of the protesters.
+    options:
+    - give up on
+    - give in
+    - give out
+    - give away
+    correct: 1
+  - id: exam-3-a-04
+    type: multiple_choice
+    prompt: She has lived in this city ______ she was a little girl.
+    options:
+    - for
+    - during
+    - while
+    - since
+    correct: 3
+  - id: exam-3-a-05
+    type: multiple_choice
+    prompt: The results of the experiment were ______ with what the researchers had expected.
+    options:
+    - consistency
+    - consisted
+    - consistent
+    - consisting
+    correct: 2
+  - id: exam-3-a-06
+    type: multiple_choice
+    prompt: He is the only one of my friends who ______ a motorbike.
+    options:
+    - owns
+    - are owning
+    - owning
+    - own
+    correct: 0
+  - id: exam-3-a-07
+    type: multiple_choice
+    prompt: The old bridge was considered unsafe, so the authorities decided to ______ it.
+    options:
+    - decorate
+    - demolish
+    - declare
+    - donate
+    correct: 1
+  - id: exam-3-a-08
+    type: multiple_choice
+    prompt: Hardly ______ the building when the alarm went off.
+    options:
+    - had we entered
+    - we had entered
+    - did we entered
+    - we entered
+    correct: 0
+  - id: exam-3-a-09
+    type: multiple_choice
+    prompt: The restaurant is famous for its ______ service; the waiters are always friendly and fast.
+    options:
+    - exhausted
+    - excessive
+    - excellent
+    - expensive
+    correct: 2
+  - id: exam-3-a-10
+    type: multiple_choice
+    prompt: You should take an umbrella ______ it rains.
+    options:
+    - although
+    - so that
+    - unless
+    - in case
+    correct: 3
+- id: exam-3-b
+  title:
+    he: ניסוח מחדש
+    en: Restatement
+  kind: test
+  exercises:
+  - id: exam-3-b-01
+    type: multiple_choice
+    prompt: 'Which sentence has the closest meaning to: "Someone has stolen my bicycle."'
+    options:
+    - My bicycle has been stolen.
+    - Someone has been stolen by my bicycle.
+    - My bicycle has stolen someone.
+    - I have stolen my bicycle.
+    correct: 0
+  - id: exam-3-b-02
+    type: multiple_choice
+    prompt: 'Which sentence has the closest meaning to: ""Why don''t we go to the beach on Friday?" said Tali."'
+    options:
+    - Tali warned us not to go to the beach.
+    - Tali suggested going to the beach on Friday.
+    - Tali refused to go to the beach on Friday.
+    - Tali asked why we don't go to the beach.
+    correct: 1
+  - id: exam-3-b-03
+    type: multiple_choice
+    prompt: 'Which sentence has the closest meaning to: "He is the best player in the team."'
+    options:
+    - Every player in the team is better than he is.
+    - He is better than nobody in the team.
+    - No other player in the team is as good as he is.
+    - He is not as good as the others in the team.
+    correct: 2
+  - id: exam-3-b-04
+    type: multiple_choice
+    prompt: 'Which sentence has the closest meaning to: "I''d rather stay at home tonight than go out."'
+    options:
+    - I prefer staying at home tonight to going out.
+    - I will go out if I stay at home tonight.
+    - I must stay at home tonight.
+    - I prefer going out to staying at home tonight.
+    correct: 0
+  - id: exam-3-b-05
+    type: multiple_choice
+    prompt: 'Which sentence has the closest meaning to: "The exam was not as difficult as we had expected."'
+    options:
+    - We expected the exam to be easy, and it was.
+    - The exam was more difficult than we had expected.
+    - The exam was as difficult as we had expected.
+    - The exam was easier than we had expected.
+    correct: 3
+- id: exam-3-c
+  title:
+    he: הבנת הנקרא
+    en: Reading comprehension
+  kind: test
+  exercises:
+  - id: exam-3-c-11
+    type: multiple_choice
+    passage: Honeybees communicate with a "dance". When a bee finds a good source of food, it returns to the hive and moves in a pattern that tells the others where to go. The angle of the dance shows the direction of the food in relation to the sun, and the length of the dance shows how far away it is. Scientists were doubtful when this was first described in the 1940s, but later experiments confirmed it. Today the discovery is considered one of the most important in the study of animal behaviour.
+    prompt: What does the length of the dance show?
+    options:
+    - Which flower to visit.
+    - How far away the food is.
+    - How many bees should go.
+    - How much food there is.
+    correct: 1
+  - id: exam-3-c-12
+    type: multiple_choice
+    passage: Honeybees communicate with a "dance". When a bee finds a good source of food, it returns to the hive and moves in a pattern that tells the others where to go. The angle of the dance shows the direction of the food in relation to the sun, and the length of the dance shows how far away it is. Scientists were doubtful when this was first described in the 1940s, but later experiments confirmed it. Today the discovery is considered one of the most important in the study of animal behaviour.
+    prompt: How did scientists first react to the discovery?
+    options:
+    - They were doubtful.
+    - They accepted it immediately.
+    - They ignored it completely.
+    - They copied the dance.
+    correct: 0
+  - id: exam-3-c-13
+    type: multiple_choice
+    passage: Honeybees communicate with a "dance". When a bee finds a good source of food, it returns to the hive and moves in a pattern that tells the others where to go. The angle of the dance shows the direction of the food in relation to the sun, and the length of the dance shows how far away it is. Scientists were doubtful when this was first described in the 1940s, but later experiments confirmed it. Today the discovery is considered one of the most important in the study of animal behaviour.
+    prompt: What is the main idea of the passage?
+    options:
+    - Bees use a dance to share information.
+    - Bees cannot find food alone.
+    - Scientists dislike studying bees.
+    - The sun controls the hive.
+    correct: 0
+  - id: exam-3-c-21
+    type: multiple_choice
+    passage: When Daniel moved to a new school in the middle of the year, he expected to feel lonely. To his surprise, a classmate named Yoni invited him to join the school's chess club on his very first day. Daniel had never played seriously, and he lost his first ten games. But Yoni kept encouraging him, and by the end of the term Daniel had won his first tournament match. "I didn't just learn chess," he said later. "I learned that a new place can feel like home faster than you think."
+    prompt: How did Daniel expect to feel at the new school?
+    options:
+    - Excited.
+    - Lonely.
+    - Proud.
+    - Angry.
+    correct: 1
+  - id: exam-3-c-22
+    type: multiple_choice
+    passage: When Daniel moved to a new school in the middle of the year, he expected to feel lonely. To his surprise, a classmate named Yoni invited him to join the school's chess club on his very first day. Daniel had never played seriously, and he lost his first ten games. But Yoni kept encouraging him, and by the end of the term Daniel had won his first tournament match. "I didn't just learn chess," he said later. "I learned that a new place can feel like home faster than you think."
+    prompt: What happened to Daniel at the beginning of his chess experience?
+    options:
+    - He lost his first ten games.
+    - He refused to play.
+    - He won every game.
+    - He became club president.
+    correct: 0
+  - id: exam-3-c-23
+    type: multiple_choice
+    passage: When Daniel moved to a new school in the middle of the year, he expected to feel lonely. To his surprise, a classmate named Yoni invited him to join the school's chess club on his very first day. Daniel had never played seriously, and he lost his first ten games. But Yoni kept encouraging him, and by the end of the term Daniel had won his first tournament match. "I didn't just learn chess," he said later. "I learned that a new place can feel like home faster than you think."
+    prompt: What did Daniel learn?
+    options:
+    - Moving schools is always hard.
+    - Chess is easy to master.
+    - A new place can feel like home quickly.
+    - Friends are not important.
+    correct: 2

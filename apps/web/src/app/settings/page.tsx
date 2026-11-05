@@ -1,12 +1,14 @@
 "use client";
 
 import { SCHEMA_VERSION, type SettingField, setting } from "@lingo/sync";
+import Link from "next/link";
 import { useState } from "react";
 import { AppShell } from "@/components/AppShell";
 import { TransferSection } from "@/components/TransferSection";
 import { withBase } from "@/lib/base-path";
 import { db } from "@/lib/db";
 import { uuidv7 } from "@/lib/ids";
+import { currentCourse } from "@/lib/progress";
 import { clearLocalData, getDeviceId, record, useLearner } from "@/lib/store";
 
 function save(field: SettingField, value: string | number | boolean | null) {
@@ -94,6 +96,14 @@ export default function Settings() {
           ]}
           onPick={(v) => save("soundOn", v === "on")}
         />
+      </section>
+
+      <section className="flex flex-col gap-3">
+        <h2 className="text-xl font-semibold">תעודות</h2>
+        <p className="text-ink-soft">תעודה לכל רמה שסיימתם, להדפסה או לשמירה כ־PDF.</p>
+        <Link href={`/certificate/${currentCourse(state) ?? "en-for-he"}/`} className="btn-quiet self-start">
+          התעודות שלי
+        </Link>
       </section>
 
       <TransferSection />

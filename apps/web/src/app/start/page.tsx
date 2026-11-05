@@ -67,7 +67,7 @@ export default function Start() {
   const router = useRouter();
   const { state, loaded } = useLearner();
   const { data: manifests, error } = useLoad(
-    async () => Promise.all((await loadCourses()).map((c) => loadManifest(c.id))),
+    async () => (await Promise.all((await loadCourses()).map((c) => loadManifest(c.id)))).filter((m) => !m.exam),
     [],
   );
   const [course, setCourse] = useState<string | null>(null);

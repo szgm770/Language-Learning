@@ -158,6 +158,9 @@ export default function Dashboard() {
           <Icon name="trophy" className="size-5" />
           התעודה שלי
         </Link>
+        <Link href="/exams/" className="min-h-11 py-2">
+          אימון למבחנים
+        </Link>
         <Link href="/start/" className="min-h-11 py-2">
           לעבור לשפה אחרת
         </Link>
