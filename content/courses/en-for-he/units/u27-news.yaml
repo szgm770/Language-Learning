@@ -1,0 +1,485 @@
+id: u27-news
+cefr: B1
+scene: news
+title:
+  he: בחדשות
+  en: In the news
+story: "האפליקציה של הבנק יוצאת לאוויר, והעיתונים כותבים עליה. נועה והצוות קוראים כותרות, מגיבים לראיון ברדיו ומגלים שגם על טעויות כותבים."
+canDo:
+  - להבין כותרות וידיעות קצרות
+  - להשתמש בסביל בהווה ובעבר (is made, was built)
+  - לספר על חדשות ולהגיב להן
+  - לציין מקור עם according to
+
+vocabulary:
+  - { id: "news", text: "news", translation: "חדשות", pos: "noun", pronunciation: "נְיוּז", example: { text: "Have you heard the news?", translation: "שמעת את החדשות?" } }
+  - { id: "headline", text: "headline", translation: "כותרת", pos: "noun", pronunciation: "הֶדְלַיין" }
+  - { id: "article", text: "article", translation: "כתבה, מאמר", pos: "noun", pronunciation: "אַרְטִיקְל" }
+  - { id: "journalist", text: "journalist", translation: "עיתונאי", pos: "noun", pronunciation: "ג'ֶרְנָלִיסְט" }
+  - { id: "launch", text: "launch", translation: "להשיק; השקה", pos: "verb", pronunciation: "לוֹנְץ'", example: { text: "The app was launched yesterday.", translation: "האפליקציה הושקה אתמול." } }
+  - { id: "announce", text: "announce", translation: "להודיע, להכריז", pos: "verb", pronunciation: "אַנַאוּנְס" }
+  - { id: "according-to", text: "according to", translation: "לפי, על פי", pos: "phrase", pronunciation: "אַקוֹרְדִינְג טוּ", example: { text: "According to the article, it's the best app of the year.", translation: "לפי הכתבה, זו האפליקציה הכי טובה השנה." } }
+  - { id: "users", text: "users", translation: "משתמשים", pos: "noun", pronunciation: "יוּזֶרְז" }
+  - { id: "million", text: "million", translation: "מיליון", pos: "number", pronunciation: "מִילְיוֹן" }
+  - { id: "percent", text: "percent", translation: "אחוז", pos: "noun", pronunciation: "פֶּרְסֶנְט" }
+  - { id: "research", text: "research", translation: "מחקר", pos: "noun", pronunciation: "רִיסֶרְץ'" }
+  - { id: "scientists", text: "scientists", translation: "מדענים", pos: "noun", pronunciation: "סַייאֶנְטִיסְטְס" }
+  - { id: "discover", text: "discover", translation: "לגלות", pos: "verb", pronunciation: "דִיסְקַאבֶר" }
+  - { id: "invent", text: "invent", translation: "להמציא", pos: "verb", pronunciation: "אִינְבֶנְט" }
+  - { id: "built", text: "built", translation: "נבנה, בנו (build)", pos: "verb", pronunciation: "בִּילְט" }
+  - { id: "passive", text: "is made / was made", translation: "סביל (נעשה, נבנה)", pos: "phrase", pronunciation: "אִיז מֵייד", example: { text: "The app was made in London.", translation: "האפליקציה נבנתה בלונדון." } }
+  - { id: "by-agent", text: "by", translation: "על ידי", pos: "preposition", pronunciation: "בַּיי", example: { text: "It was designed by Tamar.", translation: "זה עוצב על ידי תמר." } }
+  - { id: "mistake", text: "mistake", translation: "טעות", pos: "noun", pronunciation: "מִיסְטֵייק" }
+  - { id: "fix", text: "fix", translation: "לתקן", pos: "verb", pronunciation: "פִיקְס" }
+  - { id: "did-you-hear", text: "Did you hear about…?", translation: "שמעת על…?", pos: "phrase", pronunciation: "דִיד יוּ הִיר אַבַּאוּט" }
+
+grammar:
+  - id: passive-voice
+    title: { he: "סביל: It was built, it is made", en: "The passive" }
+    explanation: |
+      בעברית יש בניינים סבילים: "נבנה", "הושק", "תוקן". באנגלית בונים סביל עם **be + צורה שלישית של הפועל**:
+
+      - הווה: **is / are + V3**: **Coffee is grown in Brazil.** (קפה מגודל בברזיל)
+      - עבר: **was / were + V3**: **The app was launched yesterday.** (האפליקציה הושקה אתמול)
+
+      משתמשים בסביל כשהפעולה חשובה יותר מהעושה, או כשלא יודעים מי עשה. וזה נפוץ מאוד בחדשות!
+
+      רוצים לציין מי עשה? **by**: **The app was designed by Tamar.**
+
+      צורות שלישיות שימושיות: **make → made, build → built, write → written, find → found, sell → sold, use → used**.
+    examples:
+      - { text: "The bridge was built in 1894.", translation: "הגשר נבנה ב־1894." }
+      - { text: "The app is used by two million people.", translation: "האפליקציה משמשת שני מיליון אנשים." }
+      - { text: "The mistake was fixed in an hour.", translation: "הטעות תוקנה תוך שעה." }
+
+lessons:
+  # ------------------------------------------------------------------ 1
+  - id: u27-l1
+    kind: new
+    title: { he: "שמעת את החדשות?", en: "Have you heard the news?" }
+    exercises:
+      - id: u27-l1-01
+        type: dialogue
+        scene: "בוקר במשרד. בן מגיע עם הטלפון ביד."
+        lines:
+          - { speaker: "ben", text: "Have you heard the news? We're in the paper!", translation: "שמעת את החדשות? אנחנו בעיתון!" }
+          - { speaker: "noa", text: "What? Show me the headline.", translation: "מה? תראה לי את הכותרת." }
+          - { speaker: "ben", text: "'New bank app launched: one million users in a week.'", translation: "'אפליקציית בנק חדשה הושקה: מיליון משתמשים בשבוע.'" }
+          - { speaker: "noa", text: "A million! Who wrote the article?", translation: "מיליון! מי כתב את הכתבה?" }
+          - { speaker: "ben", text: "A journalist from The Times. According to her, it's the best app of the year.", translation: "עיתונאית מהטיימס. לפיה, זו האפליקציה הכי טובה השנה." }
+      - { id: "u27-l1-02", type: "learn", lexeme: "news" }
+      - { id: "u27-l1-03", type: "learn", lexeme: "headline" }
+      - { id: "u27-l1-04", type: "learn", lexeme: "launch" }
+      - { id: "u27-l1-05", type: "learn", lexeme: "million" }
+      - { id: "u27-l1-06", type: "learn", lexeme: "users" }
+      - { id: "u27-l1-07", type: "learn", lexeme: "article" }
+      - { id: "u27-l1-08", type: "learn", lexeme: "journalist" }
+      - { id: "u27-l1-09", type: "learn", lexeme: "according-to" }
+      - id: u27-l1-10
+        type: match_pairs
+        pairs:
+          - [news, חדשות]
+          - [headline, כותרת]
+          - [article, כתבה]
+          - [journalist, עיתונאי]
+          - [users, משתמשים]
+        lexemes: [news, headline, article, journalist, users]
+      - id: u27-l1-11
+        type: multiple_choice
+        prompt: "כמה משתמשים היו לאפליקציה בשבוע הראשון?"
+        options: [מיליון, מאה אלף, עשרה מיליון]
+        correct: 0
+        lexemes: [million, users]
+      - id: u27-l1-12
+        type: multiple_choice
+        prompt: "מה העיתונאית חושבת?"
+        options: [זו האפליקציה הכי טובה השנה, יש באפליקציה הרבה בעיות, האפליקציה יקרה מדי]
+        correct: 0
+        lexemes: [according-to]
+      - id: u27-l1-13
+        type: listening_choice
+        audioText: "According to the news, two million people used the app last month."
+        question: כמה אנשים השתמשו באפליקציה?
+        options: [שני מיליון, מיליון, עשרים מיליון]
+        correct: 0
+        lexemes: [according-to, million]
+      - id: u27-l1-14
+        type: word_bank
+        prompt: "שמעת את החדשות?"
+        answers: ["Have you heard the news?", "Did you hear the news?"]
+        distractors: [new, listened]
+        lexemes: [news]
+      - id: u27-l1-15
+        type: speak_repeat
+        text: "According to the article, it's the best app of the year."
+        translation: "לפי הכתבה, זו האפליקציה הכי טובה השנה."
+        lexemes: [according-to, article]
+
+  # ------------------------------------------------------------------ 2
+  - id: u27-l2
+    kind: new
+    title: { he: "מדע וטכנולוגיה", en: "Science and technology" }
+    exercises:
+      - { id: "u27-l2-01", type: "learn", lexeme: "research" }
+      - { id: "u27-l2-02", type: "learn", lexeme: "scientists" }
+      - { id: "u27-l2-03", type: "learn", lexeme: "discover" }
+      - { id: "u27-l2-04", type: "learn", lexeme: "invent" }
+      - { id: "u27-l2-05", type: "learn", lexeme: "percent" }
+      - { id: "u27-l2-06", type: "learn", lexeme: "announce" }
+      - { id: "u27-l2-07", type: "learn", lexeme: "did-you-hear" }
+      - id: u27-l2-08
+        type: dialogue
+        scene: "הפסקת צהריים. דוד ותמר קוראים חדשות בטלפון."
+        lines:
+          - { speaker: "david", text: "Did you hear about the new research from Oxford?", translation: "שמעת על המחקר החדש מאוקספורד?" }
+          - { speaker: "tamar", text: "No. What did they discover?", translation: "לא. מה הם גילו?" }
+          - { speaker: "david", text: "Scientists say people who learn languages remember things better when they're old.", translation: "מדענים אומרים שאנשים שלומדים שפות זוכרים דברים טוב יותר כשהם מבוגרים." }
+          - { speaker: "tamar", text: "Really? By how much?", translation: "באמת? בכמה?" }
+          - { speaker: "david", text: "About thirty percent, according to the study.", translation: "בערך שלושים אחוז, לפי המחקר." }
+          - { speaker: "tamar", text: "Great news for Noa and her English!", translation: "חדשות מעולות בשביל נועה והאנגלית שלה!" }
+      - id: u27-l2-09
+        type: match_pairs
+        pairs:
+          - [research, מחקר]
+          - [scientists, מדענים]
+          - [discover, לגלות]
+          - [invent, להמציא]
+          - [announce, להודיע]
+        lexemes: [research, scientists, discover, invent, announce]
+      - id: u27-l2-10
+        type: multiple_choice
+        prompt: "מה המדענים גילו?"
+        options: [מי שלומד שפות זוכר טוב יותר כשהוא מבוגר, שפות קשות למבוגרים, אנגלית היא השפה הכי קלה]
+        correct: 0
+        lexemes: [discover, scientists]
+      - id: u27-l2-11
+        type: multiple_choice
+        prompt: "בכמה?"
+        options: [בערך 30 אחוז, בערך 13 אחוז, בערך 50 אחוז]
+        correct: 0
+        lexemes: [percent]
+      - id: u27-l2-12
+        type: dialogue_gap
+        lines:
+          - { speaker: "ben", text: "Did you hear about the new phone?", translation: "שמעת על הטלפון החדש?" }
+          - { speaker: "david", text: "Yes, they announced it yesterday. It looks amazing.", translation: "כן, הם הכריזו עליו אתמול. הוא נראה מדהים." }
+        gap: 1
+        distractors: ["Yes, they announce it yesterday. It looks amazing.", "Yes, it was announcing yesterday."]
+        lexemes: [did-you-hear, announce]
+      - id: u27-l2-13
+        type: translate
+        direction: to_target
+        prompt: "מדענים גילו משהו חדש."
+        answers: ["Scientists discovered something new.", "Scientists have discovered something new."]
+        lexemes: [scientists, discover]
+      - id: u27-l2-14
+        type: speak_repeat
+        text: "Did you hear about the new research? It's really interesting."
+        translation: "שמעת על המחקר החדש? הוא ממש מעניין."
+        lexemes: [did-you-hear, research]
+
+  # ------------------------------------------------------------------ 3
+  - id: u27-l3
+    kind: grammar
+    grammar: passive-voice
+    title: { he: "האפליקציה הושקה", en: "The app was launched" }
+    exercises:
+      - { id: "u27-l3-01", type: "learn", lexeme: "passive" }
+      - { id: "u27-l3-02", type: "learn", lexeme: "by-agent" }
+      - { id: "u27-l3-03", type: "learn", lexeme: "built" }
+      - id: u27-l3-04
+        type: fill_blank
+        sentence: "The app ___ launched last week."
+        translation: "האפליקציה הושקה בשבוע שעבר."
+        answers: [was]
+        options: [was, is, were]
+        lexemes: [passive, launch]
+      - id: u27-l3-05
+        type: fill_blank
+        sentence: "These phones are ___ in China. (make)"
+        translation: "הטלפונים האלה מיוצרים בסין."
+        answers: [made]
+        options: [made, make, making]
+        lexemes: [passive]
+      - id: u27-l3-06
+        type: fill_blank
+        sentence: "The design was created ___ Tamar."
+        translation: "העיצוב נוצר על ידי תמר."
+        answers: [by]
+        options: [by, from, with]
+        lexemes: [by-agent]
+      - id: u27-l3-07
+        type: multiple_choice
+        prompt: "איזה משפט בסביל?"
+        options: ["The bridge was built in 1894.", "They built the bridge in 1894.", "The bridge is very old."]
+        correct: 0
+        lexemes: [passive, built]
+      - id: u27-l3-08
+        type: multiple_choice
+        prompt: איזה משפט נכון?
+        options: ["English is spoken all over the world.", "English is speak all over the world.", "English speaks all over the world."]
+        correct: 0
+        lexemes: [passive, english]
+      - id: u27-l3-09
+        type: dialogue_gap
+        lines:
+          - { speaker: "noa", text: "Who designed the new logo?", translation: "מי עיצב את הלוגו החדש?" }
+          - { speaker: "ben", text: "It was designed by Tamar.", translation: "הוא עוצב על ידי תמר." }
+        gap: 1
+        distractors: ["It designed by Tamar.", "It was design from Tamar."]
+        lexemes: [passive, by-agent]
+      - id: u27-l3-10
+        type: word_bank
+        prompt: "האפליקציה משמשת מיליוני אנשים."
+        answers: ["The app is used by millions of people."]
+        distractors: [uses, from]
+        lexemes: [passive, by-agent, million]
+      - id: u27-l3-11
+        type: translate
+        direction: to_target
+        prompt: "המשרד נבנה בשנה שעברה."
+        answers: ["The office was built last year."]
+        lexemes: [passive, built, office]
+      - id: u27-l3-12
+        type: translate
+        direction: to_source
+        prompt: "The mistake was found by David."
+        answers: ["הטעות נמצאה על ידי דוד.", "דוד מצא את הטעות."]
+        lexemes: [passive, by-agent, mistake]
+      - id: u27-l3-13
+        type: speak_repeat
+        text: "The app was launched last week and is used by a million people."
+        translation: "האפליקציה הושקה בשבוע שעבר ומשמשת מיליון אנשים."
+        lexemes: [passive, launch, million]
+
+  # ------------------------------------------------------------------ 4
+  - id: u27-l4
+    kind: listening
+    title: { he: "באג בכותרות", en: "A bug in the headlines" }
+    exercises:
+      - { id: "u27-l4-01", type: "learn", lexeme: "mistake" }
+      - { id: "u27-l4-02", type: "learn", lexeme: "fix" }
+      - id: u27-l4-03
+        type: dialogue
+        scene: "ראיון ברדיו. נועה מדברת עם עיתונאית על תקלה באפליקציה."
+        lines:
+          - { speaker: "rachel", text: "Ms. Levi, yesterday some customers saw the wrong balance in the app. What happened?", translation: "גב' לוי, אתמול כמה לקוחות ראו יתרה לא נכונה באפליקציה. מה קרה?" }
+          - { speaker: "noa", text: "There was a mistake in an update. It was found by our team at 9 a.m.", translation: "הייתה טעות בעדכון. היא נמצאה על ידי הצוות שלנו בתשע בבוקר." }
+          - { speaker: "rachel", text: "How many people were affected?", translation: "כמה אנשים הושפעו?" }
+          - { speaker: "noa", text: "About two percent of users. The problem was fixed in forty minutes.", translation: "בערך שני אחוזים מהמשתמשים. הבעיה תוקנה תוך ארבעים דקות." }
+          - { speaker: "rachel", text: "Was any money lost?", translation: "אבד כסף כלשהו?" }
+          - { speaker: "noa", text: "No. No money was lost, and every customer was sent an email.", translation: "לא. לא אבד כסף, ולכל לקוח נשלח מייל." }
+      - id: u27-l4-04
+        type: multiple_choice
+        prompt: "מה הלקוחות ראו?"
+        options: [יתרה לא נכונה, מסך ריק, הודעת שגיאה]
+        correct: 0
+        lexemes: [wrong]
+      - id: u27-l4-05
+        type: multiple_choice
+        prompt: "תוך כמה זמן הבעיה תוקנה?"
+        options: [ארבעים דקות, ארבע שעות, יום שלם]
+        correct: 0
+        lexemes: [fix, passive]
+      - id: u27-l4-06
+        type: multiple_choice
+        prompt: "כמה משתמשים הושפעו?"
+        options: [בערך שני אחוזים, בערך עשרים אחוז, כולם]
+        correct: 0
+        lexemes: [percent, users]
+      - id: u27-l4-07
+        type: multiple_choice
+        prompt: "מה נשלח ללקוחות?"
+        options: [מייל, החזר כספי, מכתב]
+        correct: 0
+        lexemes: [passive, email]
+      - id: u27-l4-08
+        type: listening_choice
+        audioText: "The problem was found in the morning and fixed before lunch."
+        question: מתי הבעיה תוקנה?
+        options: [לפני ארוחת הצהריים, בערב, למחרת]
+        correct: 0
+        lexemes: [passive, fix]
+      - id: u27-l4-09
+        type: dialogue_gap
+        lines:
+          - { speaker: "ben", text: "Was the mistake fixed?", translation: "הטעות תוקנה?" }
+          - { speaker: "david", text: "Yes, it was fixed an hour ago.", translation: "כן, היא תוקנה לפני שעה." }
+        gap: 1
+        distractors: ["Yes, it fixed an hour ago.", "Yes, it was fix an hour ago."]
+        lexemes: [passive, fix, mistake]
+      - id: u27-l4-10
+        type: dictation
+        text: "No money was lost."
+        lexemes: [passive, lost]
+      - id: u27-l4-11
+        type: translate
+        direction: to_target
+        prompt: "הבעיה תוקנה."
+        answers: ["The problem was fixed.", "The problem has been fixed."]
+        lexemes: [passive, fix, problem]
+      - id: u27-l4-12
+        type: speak_repeat
+        text: "There was a mistake in an update, but it was fixed in forty minutes."
+        translation: "הייתה טעות בעדכון, אבל היא תוקנה תוך ארבעים דקות."
+        lexemes: [mistake, passive, fix]
+
+  # ------------------------------------------------------------------ 5
+  - id: u27-l5
+    kind: reading
+    title: { he: "כתבה: גשר בין שתי ערים", en: "Article: a bridge between two cities" }
+    exercises:
+      - id: u27-l5-01
+        type: reading
+        kind: "כתבה בעיתון"
+        title: "The app that was built in two cities"
+        text: |
+          The new mobile app from Northbank was launched last Monday, and it is already used by more than one million people.
+
+          The app was built by a team of twelve in London and Tel Aviv. According to team leader Noa Levi, half of the work was done remotely. "We met on video every morning," she said. "The distance actually helped us. While London was sleeping, Tel Aviv was working."
+
+          The design was created by Tamar Ben-David, who moved from Tel Aviv to London this year. Users say the app is simple and fast: in a survey, 92 percent said they liked it.
+
+          There was one problem: on Tuesday, a mistake in an update showed some customers the wrong balance. It was fixed in forty minutes.
+        translation: |
+          האפליקציה החדשה לנייד של נורת'בנק הושקה ביום שני שעבר, וכבר משמשת יותר ממיליון אנשים.
+
+          האפליקציה נבנתה על ידי צוות של שנים־עשר אנשים בלונדון ובתל אביב. לפי ראש הצוות נועה לוי, חצי מהעבודה נעשה מרחוק. "נפגשנו בווידאו כל בוקר," היא אמרה. "המרחק דווקא עזר לנו. בזמן שלונדון ישנה, תל אביב עבדה."
+
+          העיצוב נוצר על ידי תמר בן־דוד, שעברה מתל אביב ללונדון השנה. המשתמשים אומרים שהאפליקציה פשוטה ומהירה: בסקר, 92 אחוז אמרו שהם אוהבים אותה.
+
+          הייתה בעיה אחת: ביום שלישי, טעות בעדכון הראתה לכמה לקוחות יתרה לא נכונה. היא תוקנה תוך ארבעים דקות.
+      - id: u27-l5-02
+        type: multiple_choice
+        prompt: "כמה אנשים בצוות?"
+        options: [שנים־עשר, עשרים, שישה]
+        correct: 0
+        lexemes: [team, passive]
+      - id: u27-l5-03
+        type: multiple_choice
+        prompt: "לפי נועה, למה המרחק עזר?"
+        options:
+          - "כשלונדון ישנה, תל אביב עבדה"
+          - הם לא נפגשו בכלל
+          - היה פחות רעש
+        correct: 0
+        lexemes: [according-to, remote]
+      - id: u27-l5-04
+        type: multiple_choice
+        prompt: "כמה אחוז מהמשתמשים אוהבים את האפליקציה?"
+        options: ["92", "29", "12"]
+        correct: 0
+        lexemes: [percent, users]
+      - id: u27-l5-05
+        type: multiple_choice
+        prompt: "מי עיצבה את האפליקציה?"
+        options: [תמר, נועה, רחל]
+        correct: 0
+        lexemes: [by-agent]
+      - id: u27-l5-06
+        type: multiple_choice
+        prompt: "מתי האפליקציה הושקה?"
+        options: [ביום שני שעבר, ביום שלישי, לפני חודש]
+        correct: 0
+        lexemes: [launch]
+      - id: u27-l5-07
+        type: fill_blank
+        sentence: "Half of the work was ___ remotely. (do)"
+        translation: "חצי מהעבודה נעשה מרחוק."
+        answers: [done]
+        options: [done, did, do]
+        lexemes: [passive, remote]
+      - id: u27-l5-08
+        type: fill_blank
+        sentence: "The app is already ___ by a million people."
+        translation: "האפליקציה כבר משמשת מיליון אנשים."
+        answers: [used]
+        options: [used, using, use]
+        lexemes: [passive, million]
+      - id: u27-l5-09
+        type: word_bank
+        prompt: "העיצוב נוצר על ידי תמר."
+        answers: ["The design was created by Tamar."]
+        distractors: [from, is]
+        lexemes: [passive, by-agent]
+      - id: u27-l5-10
+        type: translate
+        direction: to_target
+        prompt: "האפליקציה נבנתה בשתי ערים."
+        answers: ["The app was built in two cities."]
+        lexemes: [passive, built, city]
+      - id: u27-l5-11
+        type: speak_repeat
+        text: "While London was sleeping, Tel Aviv was working."
+        translation: "בזמן שלונדון ישנה, תל אביב עבדה."
+        lexemes: [while, was-ing]
+
+  # ------------------------------------------------------------------ 6
+  - id: u27-review
+    kind: review
+    title: { he: "חזרה: בחדשות", en: "Review: in the news" }
+    exercises:
+      - id: u27-r-01
+        type: match_pairs
+        pairs:
+          - [mistake, טעות]
+          - [fix, לתקן]
+          - [launch, להשיק]
+          - [percent, אחוז]
+          - [according to, לפי]
+        lexemes: [mistake, fix, launch, percent, according-to]
+      - id: u27-r-02
+        type: fill_blank
+        sentence: "The first phone was ___ in 1876. (invent)"
+        translation: "הטלפון הראשון הומצא ב־1876."
+        answers: [invented]
+        options: [invented, invent, inventing]
+        lexemes: [passive, invent]
+      - id: u27-r-03
+        type: listening_choice
+        audioText: "The new office was built in only six months."
+        question: כמה זמן לקח לבנות את המשרד?
+        options: [שישה חודשים, שנה, שישה שבועות]
+        correct: 0
+        lexemes: [passive, built, office]
+      - id: u27-r-04
+        type: word_bank
+        prompt: "הכתבה נכתבה על ידי עיתונאית."
+        answers: ["The article was written by a journalist."]
+        distractors: [wrote, from]
+        lexemes: [passive, article, journalist, by-agent]
+      - id: u27-r-05
+        type: dialogue_gap
+        lines:
+          - { speaker: "tamar", text: "Did you hear about the new train line?", translation: "שמעת על קו הרכבת החדש?" }
+          - { speaker: "ben", text: "Yes! It was opened yesterday.", translation: "כן! הוא נפתח אתמול." }
+        gap: 1
+        distractors: ["Yes! It opened by yesterday.", "Yes! It was open yesterday by."]
+        lexemes: [did-you-hear, passive]
+      - id: u27-r-06
+        type: multiple_choice
+        prompt: "איזה משפט נכון?"
+        options: ["Coffee is grown in Brazil.", "Coffee grows by Brazil.", "Coffee is grow in Brazil."]
+        correct: 0
+        lexemes: [passive]
+      - id: u27-r-07
+        type: translate
+        direction: to_target
+        prompt: "לפי החדשות, יורד גשם מחר."
+        answers: ["According to the news, it's going to rain tomorrow.", "According to the news, it will rain tomorrow.", "According to the news, it is going to rain tomorrow."]
+        lexemes: [according-to, news]
+      - id: u27-r-08
+        type: translate
+        direction: to_source
+        prompt: "The app is used by two million people."
+        answers: ["האפליקציה משמשת שני מיליון אנשים.", "שני מיליון אנשים משתמשים באפליקציה.", "באפליקציה משתמשים שני מיליון אנשים."]
+        lexemes: [passive, million]
+      - id: u27-r-09
+        type: dictation
+        text: "Have you heard the news?"
+        lexemes: [news]
+      - id: u27-r-10
+        type: speak_repeat
+        text: "The mistake was found by our team and fixed in forty minutes."
+        translation: "הטעות נמצאה על ידי הצוות שלנו ותוקנה תוך ארבעים דקות."
+        lexemes: [passive, mistake, fix]

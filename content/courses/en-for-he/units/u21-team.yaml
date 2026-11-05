@@ -1,0 +1,505 @@
+id: u21-team
+cefr: B1
+scene: work
+title:
+  he: הצוות החדש
+  en: The new team
+story: "נועה מתחילה כראש צוות בפרויקט ברידג'. היא פוגשת את הצוות בלונדון ובתל אביב, שומעת כמה זמן כל אחד בחברה, ולומדת לנהל שיחת היכרות מקצועית."
+canDo:
+  - להציג את עצמי ואת התפקיד שלי בפגישה
+  - "לשאול ולענות על How long have you…?"
+  - להשתמש ב־for ו־since עם הווה מושלם
+  - להבחין מתי משתמשים בעבר פשוט ומתי בהווה מושלם
+
+vocabulary:
+  - { id: "colleague", text: "colleague", translation: "עמית לעבודה", pos: "noun", pronunciation: "קוֹלִיג" }
+  - { id: "role", text: "role", translation: "תפקיד", pos: "noun", pronunciation: "רוֹל", example: { text: "What's your role in the team?", translation: "מה התפקיד שלך בצוות?" } }
+  - { id: "responsible-for", text: "responsible for", translation: "אחראי על", pos: "phrase", pronunciation: "רִיסְפּוֹנְסִיבְּל פוֹר", example: { text: "I'm responsible for testing.", translation: "אני אחראית על הבדיקות." } }
+  - { id: "department", text: "department", translation: "מחלקה", pos: "noun", pronunciation: "דִיפַּארְטְמֶנְט" }
+  - { id: "join", text: "join", translation: "להצטרף", pos: "verb", pronunciation: "ג'וֹין", example: { text: "I joined the company in 2019.", translation: "הצטרפתי לחברה ב־2019." } }
+  - { id: "since", text: "since", translation: "מאז, מ־ (נקודת התחלה)", pos: "preposition", pronunciation: "סִינְס", example: { text: "since 2019", translation: "מאז 2019" } }
+  - { id: "for-time", text: "for", translation: "במשך (משך זמן)", pos: "preposition", pronunciation: "פוֹר", example: { text: "for three years", translation: "כבר שלוש שנים" } }
+  - { id: "how-long-have", text: "How long have you…?", translation: "כמה זמן אתה כבר…?", pos: "phrase", pronunciation: "הַאוּ לוֹנְג הֶב יוּ", example: { text: "How long have you worked here?", translation: "כמה זמן אתה עובד כאן?" } }
+  - { id: "known", text: "known", translation: "הכרתי (צורה שלישית של know)", pos: "verb", pronunciation: "נוֹן", example: { text: "I've known Ben for a year.", translation: "אני מכירה את בן כבר שנה." } }
+  - { id: "deadline", text: "deadline", translation: "מועד יעד, דדליין", pos: "noun", pronunciation: "דֶדְלַיין" }
+  - { id: "goal", text: "goal", translation: "מטרה, יעד", pos: "noun", pronunciation: "גוֹל" }
+  - { id: "client", text: "client", translation: "לקוח", pos: "noun", pronunciation: "קְלַייאֶנְט" }
+  - { id: "agenda", text: "agenda", translation: "סדר יום (של פגישה)", pos: "noun", pronunciation: "אָג'ֶנְדָה" }
+  - { id: "introduce-yourself", text: "introduce yourself", translation: "להציג את עצמך", pos: "phrase", pronunciation: "אִינְטְרוֹדְיוּס יוֹרְסֶלְף", example: { text: "Could you introduce yourself?", translation: "תוכל להציג את עצמך?" } }
+  - { id: "share", text: "share", translation: "לשתף, לחלוק", pos: "verb", pronunciation: "שֶׁר", example: { text: "Can you share your screen?", translation: "אתה יכול לשתף את המסך?" } }
+  - { id: "remote", text: "remote", translation: "מרחוק (עבודה)", pos: "adjective", pronunciation: "רִימוֹט", example: { text: "Half of the team works remotely.", translation: "חצי מהצוות עובד מרחוק." } }
+  - { id: "look-forward-to", text: "look forward to", translation: "לצפות ל־ (בשמחה)", pos: "phrase", pronunciation: "לוּק פוֹרְוֶורְד טוּ", example: { text: "I look forward to working with you.", translation: "אני מצפה לעבוד איתכם." } }
+  - { id: "welcome-aboard", text: "Welcome aboard!", translation: "ברוכים הבאים לצוות!", pos: "phrase", pronunciation: "וֶולְקַאם אַבּוֹרְד" }
+  - { id: "background", text: "background", translation: "רקע (מקצועי)", pos: "noun", pronunciation: "בֶּקְגְרַאוּנְד" }
+  - { id: "in-charge-of", text: "in charge of", translation: "אחראי על, מנהל את", pos: "phrase", pronunciation: "אִין צ'ַארְג' אוֹב" }
+
+grammar:
+  - id: for-since
+    title: { he: "כמה זמן: for ו־since", en: "Present perfect with for and since" }
+    explanation: |
+      בעברית אומרים "אני עובדת כאן שלוש שנים", בהווה. באנגלית, כשמשהו **התחיל בעבר ועדיין נמשך**, משתמשים בהווה מושלם:
+      **I have worked here for three years.** (ולא "I work here for three years")
+
+      ואיך אומרים "כבר" או "מאז"?
+      - **for** + משך זמן: **for three years, for two months, for a long time**
+      - **since** + נקודת התחלה: **since 2019, since January, since I was a child**
+
+      השאלה: **How long have you worked here?** (כמה זמן אתה עובד כאן?)
+
+      ההבדל מעבר פשוט: **I worked in Tel Aviv for five years.** (זה נגמר, אני כבר לא שם). **I have worked in London for a year.** (ואני עדיין כאן).
+
+      עם know, be ו־live זה בולט במיוחד: **I've known Ben since last year.** (אני מכירה את בן מאז שנה שעברה.)
+    examples:
+      - { text: "David has been in the IT department since 2020.", translation: "דוד במחלקת ה־IT מאז 2020." }
+      - { text: "How long have you known Miriam? For about ten years.", translation: "כמה זמן אתה מכיר את מרים? בערך עשר שנים." }
+      - { text: "I lived in Haifa for two years, then I moved to Tel Aviv.", translation: "גרתי בחיפה שנתיים, ואז עברתי לתל אביב." }
+
+lessons:
+  # ------------------------------------------------------------------ 1
+  - id: u21-l1
+    kind: new
+    title: { he: "פגישת היכרות", en: "The kick-off meeting" }
+    exercises:
+      - id: u21-l1-01
+        type: dialogue
+        scene: "הפגישה הראשונה של פרויקט ברידג'. חלק מהצוות בלונדון, חלק בתל אביב בווידאו."
+        lines:
+          - { speaker: "noa", text: "Good morning, everyone, and welcome to Project Bridge. I'm Noa, the team leader.", translation: "בוקר טוב לכולם, וברוכים הבאים לפרויקט ברידג'. אני נועה, ראש הצוות." }
+          - { speaker: "noa", text: "First, let's look at the agenda. Then I'd like everyone to introduce themselves.", translation: "קודם, בואו נסתכל על סדר היום. אחר כך הייתי רוצה שכל אחד יציג את עצמו." }
+          - { speaker: "david", text: "I'll start. I'm David, from the IT department. I'm responsible for the servers.", translation: "אני אתחיל. אני דוד, ממחלקת ה־IT. אני אחראי על השרתים." }
+          - { speaker: "ben", text: "I'm Ben. I'm in charge of the relationship with the client.", translation: "אני בן. אני אחראי על הקשר עם הלקוח." }
+          - { speaker: "noa", text: "Great. Our goal is simple: a new app for the client, and the deadline is March.", translation: "מעולה. המטרה שלנו פשוטה: אפליקציה חדשה ללקוח, והדדליין הוא מרץ." }
+          - { speaker: "david", text: "March? That's soon!", translation: "מרץ? זה בקרוב!" }
+      - { id: "u21-l1-02", type: "learn", lexeme: "agenda" }
+      - { id: "u21-l1-03", type: "learn", lexeme: "introduce-yourself" }
+      - { id: "u21-l1-04", type: "learn", lexeme: "department" }
+      - { id: "u21-l1-05", type: "learn", lexeme: "responsible-for" }
+      - { id: "u21-l1-06", type: "learn", lexeme: "in-charge-of" }
+      - { id: "u21-l1-07", type: "learn", lexeme: "client" }
+      - { id: "u21-l1-08", type: "learn", lexeme: "goal" }
+      - { id: "u21-l1-09", type: "learn", lexeme: "deadline" }
+      - id: u21-l1-10
+        type: match_pairs
+        pairs:
+          - [agenda, סדר יום]
+          - [department, מחלקה]
+          - [client, לקוח]
+          - [goal, מטרה]
+          - [deadline, מועד יעד]
+        lexemes: [agenda, department, client, goal, deadline]
+      - id: u21-l1-11
+        type: multiple_choice
+        prompt: "על מה דוד אחראי?"
+        options: [על השרתים, על הקשר עם הלקוח, על סדר היום]
+        correct: 0
+        lexemes: [responsible-for]
+      - id: u21-l1-12
+        type: multiple_choice
+        prompt: "למה דוד מופתע?"
+        options: [הדדליין קרוב, הלקוח חדש, אין סדר יום]
+        correct: 0
+        lexemes: [deadline]
+      - id: u21-l1-13
+        type: listening_choice
+        audioText: "I'm in charge of the design, and Ben is responsible for the client."
+        question: על מה הדוברת אחראית?
+        options: [על העיצוב, על הלקוח, על השרתים]
+        correct: 0
+        lexemes: [in-charge-of, responsible-for, client]
+      - id: u21-l1-14
+        type: word_bank
+        prompt: "אני אחראי על הבדיקות."
+        answers: ["I'm responsible for testing.", "I am responsible for testing.", "I'm responsible for the testing.", "I am responsible for the testing."]
+        distractors: [of, charge]
+        lexemes: [responsible-for]
+      - id: u21-l1-15
+        type: speak_repeat
+        text: "Could everyone introduce themselves, please?"
+        translation: "כל אחד יכול להציג את עצמו, בבקשה?"
+        lexemes: [introduce-yourself]
+
+  # ------------------------------------------------------------------ 2
+  - id: u21-l2
+    kind: new
+    title: { he: "עובדים מרחוק", en: "Working remotely" }
+    exercises:
+      - { id: "u21-l2-01", type: "learn", lexeme: "colleague" }
+      - { id: "u21-l2-02", type: "learn", lexeme: "role" }
+      - { id: "u21-l2-03", type: "learn", lexeme: "remote" }
+      - { id: "u21-l2-04", type: "learn", lexeme: "share" }
+      - { id: "u21-l2-05", type: "learn", lexeme: "background" }
+      - id: u21-l2-06
+        type: dialogue
+        scene: "מרים מציגה את תמר, מעצבת חדשה מצוות תל אביב, בשיחת וידאו."
+        lines:
+          - { speaker: "miriam", text: "Noa, can you hear us from Tel Aviv? Our colleague wants to share her screen.", translation: "נועה, את שומעת אותנו מתל אביב? העמיתה שלנו רוצה לשתף את המסך שלה." }
+          - { speaker: "noa", text: "Yes, perfect. Go ahead.", translation: "כן, מושלם. קדימה." }
+          - { speaker: "miriam", text: "This is Tamar. Her background is in design, and her role is the user experience.", translation: "זו תמר. הרקע שלה בעיצוב, והתפקיד שלה הוא חוויית המשתמש." }
+          - { speaker: "noa", text: "Welcome aboard, Tamar! Half of this team works remotely, so we'll meet a lot on video.", translation: "ברוכה הבאה לצוות, תמר! חצי מהצוות הזה עובד מרחוק, אז ניפגש הרבה בווידאו." }
+          - { speaker: "tamar", text: "Thank you! I've worked remotely for two years, so I'm used to it.", translation: "תודה! אני עובדת מרחוק כבר שנתיים, אז אני רגילה לזה." }
+      - id: u21-l2-07
+        type: match_pairs
+        pairs:
+          - [colleague, עמית לעבודה]
+          - [role, תפקיד]
+          - [remote, מרחוק]
+          - [share, לשתף]
+          - [background, רקע]
+        lexemes: [colleague, role, remote, share, background]
+      - { id: "u21-l2-08", type: "learn", lexeme: "welcome-aboard" }
+      - { id: "u21-l2-09", type: "learn", lexeme: "look-forward-to" }
+      - id: u21-l2-10
+        type: multiple_choice
+        prompt: "מה הרקע של תמר?"
+        options: [עיצוב, הנדסה, שיווק]
+        correct: 0
+        lexemes: [background]
+      - id: u21-l2-11
+        type: dialogue_gap
+        lines:
+          - { speaker: "noa", text: "Welcome aboard, Tamar!", translation: "ברוכה הבאה לצוות, תמר!" }
+          - { speaker: "tamar", text: "Thanks! I look forward to working with you all.", translation: "תודה! אני מצפה לעבוד עם כולכם." }
+        gap: 1
+        distractors: ["Thanks! I look forward to work with you all.", "Thanks! I look forward working you all."]
+        lexemes: [welcome-aboard, look-forward-to]
+      - id: u21-l2-12
+        type: tip
+        title: "look forward to + ‎-ing"
+        text: |
+          אחרי look forward to בא פועל עם ‎-ing, לא פועל רגיל: I look forward to meeting you.
+
+          זו טעות נפוצה מאוד, גם אצל דוברי אנגלית מתקדמים. במייל רשמי זה משפט סיום מצוין.
+      - id: u21-l2-13
+        type: translate
+        direction: to_target
+        prompt: "מה התפקיד שלך בצוות?"
+        answers: ["What's your role in the team?", "What is your role in the team?", "What's your role on the team?", "What is your role on the team?"]
+        lexemes: [role, team]
+      - id: u21-l2-14
+        type: translate
+        direction: to_source
+        prompt: "Can you share your screen, please?"
+        answers: ["אתה יכול לשתף את המסך, בבקשה?", "את יכולה לשתף את המסך, בבקשה?", "אפשר לשתף את המסך, בבקשה?", "תוכל לשתף את המסך שלך, בבקשה?", "תוכלי לשתף את המסך שלך, בבקשה?"]
+        lexemes: [share]
+      - id: u21-l2-15
+        type: speak_repeat
+        text: "I look forward to working with you."
+        translation: "אני מצפה לעבוד איתך."
+        lexemes: [look-forward-to]
+
+  # ------------------------------------------------------------------ 3
+  - id: u21-l3
+    kind: grammar
+    grammar: for-since
+    title: { he: "כבר שלוש שנים", en: "For three years" }
+    exercises:
+      - { id: "u21-l3-01", type: "learn", lexeme: "for-time" }
+      - { id: "u21-l3-02", type: "learn", lexeme: "since" }
+      - { id: "u21-l3-03", type: "learn", lexeme: "how-long-have" }
+      - { id: "u21-l3-04", type: "learn", lexeme: "join" }
+      - { id: "u21-l3-05", type: "learn", lexeme: "known" }
+      - id: u21-l3-06
+        type: fill_blank
+        sentence: "I've worked here ___ 2019."
+        translation: "אני עובדת כאן מאז 2019."
+        answers: [since]
+        options: [since, for, from]
+        lexemes: [since]
+      - id: u21-l3-07
+        type: fill_blank
+        sentence: "She's been our client ___ six months."
+        translation: "היא הלקוחה שלנו כבר שישה חודשים."
+        answers: [for]
+        options: [for, since, ago]
+        lexemes: [for-time, client]
+      - id: u21-l3-08
+        type: multiple_choice
+        prompt: "איזה משפט נכון?"
+        options: ["I've lived in London for a year.", "I live in London for a year.", "I've lived in London since a year."]
+        correct: 0
+        lexemes: [for-time, live]
+      - id: u21-l3-09
+        type: multiple_choice
+        prompt: "איזה משפט מתאר משהו שנגמר?"
+        options: ["I worked in Haifa for two years.", "I've worked in Haifa for two years.", "I've worked in Haifa since 2022."]
+        correct: 0
+        lexemes: [for-time]
+      - id: u21-l3-10
+        type: dialogue_gap
+        lines:
+          - { speaker: "noa", text: "How long have you known Ben?", translation: "כמה זמן את מכירה את בן?" }
+          - { speaker: "miriam", text: "I've known him since university.", translation: "אני מכירה אותו מאז האוניברסיטה." }
+        gap: 1
+        distractors: ["I know him since university.", "I've known him for university."]
+        lexemes: [how-long-have, known, since]
+      - id: u21-l3-11
+        type: word_bank
+        prompt: "כמה זמן אתה עובד בחברה?"
+        answers: ["How long have you worked at the company?", "How long have you worked for the company?", "How long have you been at the company?"]
+        distractors: [do, since]
+        lexemes: [how-long-have, company]
+      - id: u21-l3-12
+        type: word_bank
+        prompt: "הוא הצטרף לצוות לפני חודשיים."
+        answers: ["He joined the team two months ago."]
+        distractors: [has, since]
+        lexemes: [join, team, ago]
+      - id: u21-l3-13
+        type: translate
+        direction: to_target
+        prompt: "אני מכיר את דוד כבר עשר שנים."
+        answers: ["I've known David for ten years.", "I have known David for ten years."]
+        lexemes: [known, for-time]
+      - id: u21-l3-14
+        type: translate
+        direction: to_source
+        prompt: "She has been in this department since January."
+        answers: ["היא במחלקה הזאת מאז ינואר.", "היא נמצאת במחלקה הזאת מאז ינואר.", "היא עובדת במחלקה הזאת מאז ינואר."]
+        lexemes: [since, department]
+      - id: u21-l3-15
+        type: speak_repeat
+        text: "How long have you worked here? Since 2019."
+        translation: "כמה זמן אתה עובד כאן? מאז 2019."
+        lexemes: [how-long-have, since]
+
+  # ------------------------------------------------------------------ 4
+  - id: u21-l4
+    kind: listening
+    title: { he: "קפה עם הצוות", en: "Coffee with the team" }
+    exercises:
+      - id: u21-l4-01
+        type: dialogue
+        scene: "הפסקת קפה אחרי הפגישה. נועה מנסה להכיר את דוד טוב יותר."
+        lines:
+          - { speaker: "noa", text: "So, David, how long have you been with the company?", translation: "אז דוד, כמה זמן אתה בחברה?" }
+          - { speaker: "david", text: "Seven years. I joined straight after university.", translation: "שבע שנים. הצטרפתי מיד אחרי האוניברסיטה." }
+          - { speaker: "noa", text: "And have you always worked in IT?", translation: "ותמיד עבדת ב־IT?" }
+          - { speaker: "david", text: "No. For the first two years I worked in sales. I hated it!", translation: "לא. בשנתיים הראשונות עבדתי במכירות. שנאתי את זה!" }
+          - { speaker: "noa", text: "Ha! I understand. And you've known Miriam for a long time, right?", translation: "חה! אני מבינה. ואתה מכיר את מרים הרבה זמן, נכון?" }
+          - { speaker: "david", text: "Since 2021. We met on a project, and now we're getting married!", translation: "מאז 2021. נפגשנו בפרויקט, ועכשיו אנחנו מתחתנים!" }
+          - { speaker: "noa", text: "So projects can change your life. Let's hope this one does too!", translation: "אז פרויקטים יכולים לשנות לך את החיים. בוא נקווה שגם זה ישנה!" }
+      - id: u21-l4-02
+        type: multiple_choice
+        prompt: "כמה זמן דוד בחברה?"
+        options: [שבע שנים, שנתיים, חמש שנים]
+        correct: 0
+        lexemes: [how-long-have]
+      - id: u21-l4-03
+        type: multiple_choice
+        prompt: "איפה דוד עבד בהתחלה?"
+        options: [במכירות, ב־IT, בעיצוב]
+        correct: 0
+        lexemes: [for-time]
+      - id: u21-l4-04
+        type: multiple_choice
+        prompt: "מאז מתי דוד מכיר את מרים?"
+        options: [מאז 2021, מאז האוניברסיטה, מאז השנה שעברה]
+        correct: 0
+        lexemes: [since, known]
+      - id: u21-l4-05
+        type: multiple_choice
+        prompt: "איך דוד הרגיש לגבי העבודה במכירות?"
+        options: [הוא שנא אותה, הוא אהב אותה, היא הייתה משעממת אבל בסדר]
+        correct: 0
+        lexemes: [role]
+      - id: u21-l4-06
+        type: listening_choice
+        audioText: "I've been in charge of this project since the summer."
+        question: מאז מתי היא אחראית על הפרויקט?
+        options: [מאז הקיץ, כבר קיץ שלם, מהקיץ הבא]
+        correct: 0
+        lexemes: [in-charge-of, since, summer]
+      - id: u21-l4-07
+        type: dialogue_gap
+        lines:
+          - { speaker: "ben", text: "Have you met the client yet?", translation: "כבר פגשת את הלקוח?" }
+          - { speaker: "noa", text: "Not yet. The meeting is next Tuesday.", translation: "עוד לא. הפגישה ביום שלישי הבא." }
+        gap: 1
+        distractors: ["Not already. The meeting is next Tuesday.", "Not yet. I met him next Tuesday."]
+        lexemes: [yet, client]
+      - id: u21-l4-08
+        type: dictation
+        text: "I joined the company seven years ago."
+        lexemes: [join, ago]
+      - id: u21-l4-09
+        type: translate
+        direction: to_target
+        prompt: "עבדתי במכירות שנתיים."
+        answers: ["I worked in sales for two years."]
+        lexemes: [for-time]
+      - id: u21-l4-10
+        type: translate
+        direction: to_target
+        prompt: "כמה זמן את מכירה את מרים?"
+        answers: ["How long have you known Miriam?"]
+        lexemes: [how-long-have, known]
+      - id: u21-l4-11
+        type: speak_repeat
+        text: "I've known Miriam since 2021. We met on a project."
+        translation: "אני מכיר את מרים מאז 2021. נפגשנו בפרויקט."
+        lexemes: [known, since]
+
+  # ------------------------------------------------------------------ 5
+  - id: u21-l5
+    kind: reading
+    title: { he: "מייל לצוות", en: "An email to the team" }
+    exercises:
+      - id: u21-l5-01
+        type: reading
+        kind: "מייל"
+        title: "Welcome to Project Bridge!"
+        text: |
+          Hi all,
+
+          Thank you for a great kick-off meeting today. I'm very excited to work with all of you.
+
+          A quick summary: our client is a large bank, and our goal is to build their new mobile app. The deadline for the first version is 31 March. David is responsible for the servers, Tamar is in charge of design, and Ben will manage the relationship with the client.
+
+          Since half of the team works remotely, we'll have a short video meeting every morning at 9:30 London time (11:30 in Tel Aviv). Please share any problems early. It's always easier to fix them together.
+
+          I look forward to working with you!
+
+          Noa
+        translation: |
+          היי לכולם,
+
+          תודה על פגישת פתיחה מעולה היום. אני מאוד מתרגשת לעבוד עם כולכם.
+
+          סיכום קצר: הלקוח שלנו הוא בנק גדול, והמטרה שלנו היא לבנות את האפליקציה החדשה שלהם לנייד. הדדליין לגרסה הראשונה הוא 31 במרץ. דוד אחראי על השרתים, תמר אחראית על העיצוב, ובן ינהל את הקשר עם הלקוח.
+
+          מכיוון שחצי מהצוות עובד מרחוק, תהיה לנו פגישת וידאו קצרה כל בוקר ב־9:30 שעון לונדון (11:30 בתל אביב). אנא שתפו בעיות מוקדם. תמיד קל יותר לפתור אותן ביחד.
+
+          מצפה לעבוד איתכם!
+
+          נועה
+      - id: u21-l5-02
+        type: multiple_choice
+        prompt: "מי הלקוח?"
+        options: [בנק גדול, חברת טלפונים, בית חולים]
+        correct: 0
+        lexemes: [client]
+      - id: u21-l5-03
+        type: multiple_choice
+        prompt: "מה תמר עושה בפרויקט?"
+        options: [אחראית על העיצוב, אחראית על השרתים, מנהלת את הקשר עם הלקוח]
+        correct: 0
+        lexemes: [in-charge-of]
+      - id: u21-l5-04
+        type: multiple_choice
+        prompt: "מתי פגישת הבוקר בתל אביב?"
+        options: ["11:30", "9:30", "10:30"]
+        correct: 0
+        lexemes: [remote, meeting]
+      - id: u21-l5-05
+        type: multiple_choice
+        prompt: "מה נועה מבקשת מהצוות?"
+        options: [לשתף בעיות מוקדם, לעבוד מהמשרד, לשלוח דוח כל יום]
+        correct: 0
+        lexemes: [share, problem]
+      - id: u21-l5-06
+        type: multiple_choice
+        prompt: "למה יש פגישת וידאו כל בוקר?"
+        options: [כי חצי מהצוות עובד מרחוק, כי הלקוח ביקש, כי הדדליין עבר]
+        correct: 0
+        lexemes: [remote]
+      - id: u21-l5-07
+        type: fill_blank
+        sentence: "Our ___ is to build their new mobile app."
+        translation: "המטרה שלנו היא לבנות את האפליקציה החדשה שלהם לנייד."
+        answers: [goal]
+        options: [goal, deadline, agenda]
+        lexemes: [goal]
+      - id: u21-l5-08
+        type: fill_blank
+        sentence: "Ben will manage the relationship with the ___ ."
+        translation: "בן ינהל את הקשר עם הלקוח."
+        answers: [client]
+        options: [client, colleague, department]
+        lexemes: [client]
+      - id: u21-l5-09
+        type: word_bank
+        prompt: "הדדליין לגרסה הראשונה הוא במרץ."
+        answers: ["The deadline for the first version is in March."]
+        distractors: [goal, at]
+        lexemes: [deadline]
+      - id: u21-l5-10
+        type: translate
+        direction: to_target
+        prompt: "תודה על פגישה מעולה."
+        answers: ["Thank you for a great meeting.", "Thanks for a great meeting.", "Thank you for a great meeting!", "Thanks for a great meeting!"]
+        lexemes: [meeting, great]
+      - id: u21-l5-11
+        type: speak_repeat
+        text: "Please share any problems early. It's easier to fix them together."
+        translation: "אנא שתפו בעיות מוקדם. קל יותר לפתור אותן ביחד."
+        lexemes: [share, problem]
+
+  # ------------------------------------------------------------------ 6
+  - id: u21-review
+    kind: review
+    title: { he: "חזרה: הצוות החדש", en: "Review: the new team" }
+    exercises:
+      - id: u21-r-01
+        type: match_pairs
+        pairs:
+          - [responsible for, אחראי על]
+          - [join, להצטרף]
+          - [colleague, עמית]
+          - [look forward to, לצפות ל־]
+          - [since, מאז]
+        lexemes: [responsible-for, join, colleague, look-forward-to, since]
+      - id: u21-r-02
+        type: fill_blank
+        sentence: "I've known Tamar ___ a long time."
+        translation: "אני מכירה את תמר הרבה זמן."
+        answers: [for]
+        options: [for, since, during]
+        lexemes: [known, for-time]
+      - id: u21-r-03
+        type: listening_choice
+        audioText: "We've worked remotely since the beginning of the project."
+        question: מה הם אומרים?
+        options: [הם עובדים מרחוק מתחילת הפרויקט, הם התחילו לעבוד במשרד, הם עבדו מרחוק פעם אחת]
+        correct: 0
+        lexemes: [remote, since, project]
+      - id: u21-r-04
+        type: word_bank
+        prompt: "אני גרה בלונדון כבר שנה."
+        answers: ["I've lived in London for a year.", "I have lived in London for a year.", "I've lived in London for one year.", "I have lived in London for one year."]
+        distractors: [since, live]
+        lexemes: [for-time, live]
+      - id: u21-r-05
+        type: dialogue_gap
+        lines:
+          - { speaker: "david", text: "When did you join the team?", translation: "מתי הצטרפת לצוות?" }
+          - { speaker: "ben", text: "I joined in May.", translation: "הצטרפתי במאי." }
+        gap: 1
+        distractors: ["I've joined in May.", "I have joined since May."]
+        lexemes: [join]
+      - id: u21-r-06
+        type: multiple_choice
+        prompt: "איך מסיימים מייל רשמי בנימוס?"
+        options: ["I look forward to hearing from you.", "I look forward to hear from you.", "I look forward hearing you."]
+        correct: 0
+        lexemes: [look-forward-to]
+      - id: u21-r-07
+        type: translate
+        direction: to_target
+        prompt: "הוא בצוות מאז מרץ."
+        answers: ["He has been in the team since March.", "He's been in the team since March.", "He has been on the team since March.", "He's been on the team since March."]
+        lexemes: [since, team]
+      - id: u21-r-08
+        type: translate
+        direction: to_source
+        prompt: "What's the deadline for this project?"
+        answers: ["מה הדדליין של הפרויקט הזה?", "מתי הדדליין של הפרויקט הזה?", "מה מועד היעד של הפרויקט הזה?"]
+        lexemes: [deadline, project]
+      - id: u21-r-09
+        type: dictation
+        text: "How long have you worked here?"
+        lexemes: [how-long-have]
+      - id: u21-r-10
+        type: speak_repeat
+        text: "I'm Noa, the team leader. I've worked here for six years."
+        translation: "אני נועה, ראש הצוות. אני עובדת כאן שש שנים."
+        lexemes: [team-leader, for-time]

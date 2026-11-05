@@ -515,7 +515,7 @@ lessons:
       - id: a1-t-16
         type: dialogue_gap
         lines:
-          - { speaker: "ben", text: "Do you want to watch a movie tonight?", translation: "רוצה לראות סרט הערב?" }
+          - { speaker: "rachel", text: "Do you want to watch a movie tonight?", translation: "רוצה לראות סרט הערב?" }
           - { speaker: "noa", text: "Sorry, I can't. I'm busy.", translation: "מצטערת, אני לא יכולה. אני עסוקה." }
         gap: 1
         distractors: ["Sorry, I can. I'm busy.", "Sure, I never."]

@@ -1,0 +1,362 @@
+id: u00a-letters
+cefr: A0
+scene: study
+title:
+  he: האלפבית האנגלי
+  en: The English alphabet
+story: "לפני שפוגשים את נועה ובן: מכירים את 26 האותיות, את השמות שלהן ואת הצליל הראשון של כל אחת. בסוף אפשר גם לאיית שם."
+canDo:
+  - לזהות את 26 האותיות באנגלית, גדולות וקטנות
+  - להגיד את השם של כל אות
+  - לשמוע את הצליל הראשון של מילה ולחבר אותו לאות
+  - לאיית את השם שלי באותיות
+
+vocabulary:
+  - { id: "l-a", text: "A a", translation: "האות A (אֵיי) – כמו ב־Apple", pos: "noun", pronunciation: "אֵיי", example: { text: "A – Apple", translation: "תפוח" } }
+  - { id: "l-b", text: "B b", translation: "האות B (בִּי) – כמו ב־Ball", pos: "noun", pronunciation: "בִּי", example: { text: "B – Ball", translation: "כדור" } }
+  - { id: "l-c", text: "C c", translation: "האות C (סִי) – כמו ב־Cat", pos: "noun", pronunciation: "סִי", example: { text: "C – Cat", translation: "חתול" } }
+  - { id: "l-d", text: "D d", translation: "האות D (דִי) – כמו ב־Door", pos: "noun", pronunciation: "דִי", example: { text: "D – Door", translation: "דלת" } }
+  - { id: "l-e", text: "E e", translation: "האות E (אִי) – כמו ב־Egg", pos: "noun", pronunciation: "אִי", example: { text: "E – Egg", translation: "ביצה" } }
+  - { id: "l-f", text: "F f", translation: "האות F (אֶף) – כמו ב־Fish", pos: "noun", pronunciation: "אֶף", example: { text: "F – Fish", translation: "דג" } }
+  - { id: "l-g", text: "G g", translation: "האות G (ג'ִי) – כמו ב־Garden", pos: "noun", pronunciation: "ג'ִי", example: { text: "G – Garden", translation: "גינה" } }
+  - { id: "l-h", text: "H h", translation: "האות H (אֵייץ') – כמו ב־House", pos: "noun", pronunciation: "אֵייץ'", example: { text: "H – House", translation: "בית" } }
+  - { id: "l-i", text: "I i", translation: "האות I (אַיי) – כמו ב־Island", pos: "noun", pronunciation: "אַיי", example: { text: "I – Island", translation: "אי" } }
+  - { id: "l-j", text: "J j", translation: "האות J (ג'ֵיי) – כמו ב־Juice", pos: "noun", pronunciation: "ג'ֵיי", example: { text: "J – Juice", translation: "מיץ" } }
+  - { id: "l-k", text: "K k", translation: "האות K (קֵיי) – כמו ב־Key", pos: "noun", pronunciation: "קֵיי", example: { text: "K – Key", translation: "מפתח" } }
+  - { id: "l-l", text: "L l", translation: "האות L (אֶל) – כמו ב־Lemon", pos: "noun", pronunciation: "אֶל", example: { text: "L – Lemon", translation: "לימון" } }
+  - { id: "l-m", text: "M m", translation: "האות M (אֶם) – כמו ב־Milk", pos: "noun", pronunciation: "אֶם", example: { text: "M – Milk", translation: "חלב" } }
+  - { id: "l-n", text: "N n", translation: "האות N (אֶן) – כמו ב־Name", pos: "noun", pronunciation: "אֶן", example: { text: "N – Name", translation: "שם" } }
+  - { id: "l-o", text: "O o", translation: "האות O (אוֹ) – כמו ב־Orange", pos: "noun", pronunciation: "אוֹ", example: { text: "O – Orange", translation: "תפוז" } }
+  - { id: "l-p", text: "P p", translation: "האות P (פִּי) – כמו ב־Pen", pos: "noun", pronunciation: "פִּי", example: { text: "P – Pen", translation: "עט" } }
+  - { id: "l-q", text: "Q q", translation: "האות Q (קְיוּ) – כמו ב־Queen", pos: "noun", pronunciation: "קְיוּ", example: { text: "Q – Queen", translation: "מלכה" } }
+  - { id: "l-r", text: "R r", translation: "האות R (אַר) – כמו ב־Rice", pos: "noun", pronunciation: "אַר", example: { text: "R – Rice", translation: "אורז" } }
+  - { id: "l-s", text: "S s", translation: "האות S (אֶס) – כמו ב־Sun", pos: "noun", pronunciation: "אֶס", example: { text: "S – Sun", translation: "שמש" } }
+  - { id: "l-t", text: "T t", translation: "האות T (טִי) – כמו ב־Table", pos: "noun", pronunciation: "טִי", example: { text: "T – Table", translation: "שולחן" } }
+  - { id: "l-u", text: "U u", translation: "האות U (יוּ) – כמו ב־Umbrella", pos: "noun", pronunciation: "יוּ", example: { text: "U – Umbrella", translation: "מטרייה" } }
+  - { id: "l-v", text: "V v", translation: "האות V (וִי) – כמו ב־Van", pos: "noun", pronunciation: "וִי", example: { text: "V – Van", translation: "טנדר" } }
+  - { id: "l-w", text: "W w", translation: "האות W (דַאבֶּל־יוּ) – כמו ב־Water", pos: "noun", pronunciation: "דַאבֶּל־יוּ", example: { text: "W – Water", translation: "מים" } }
+  - { id: "l-x", text: "X x", translation: "האות X (אֶקְס) – כמו ב־Box", pos: "noun", pronunciation: "אֶקְס", example: { text: "X – Box", translation: "קופסה" } }
+  - { id: "l-y", text: "Y y", translation: "האות Y (וַואי) – כמו ב־Yes", pos: "noun", pronunciation: "וַואי", example: { text: "Y – Yes", translation: "כן" } }
+  - { id: "l-z", text: "Z z", translation: "האות Z (זִי) – כמו ב־Zero", pos: "noun", pronunciation: "זִי", example: { text: "Z – Zero", translation: "אפס" } }
+
+lessons:
+  - id: u00a-l1
+    kind: new
+    title: { he: "האותיות A–H", en: "Letters A–H" }
+    exercises:
+      - id: u00a-l1-01
+        type: tip
+        title: אותיות עם שם וצליל
+        text: |
+          באנגלית לכל אות יש **שם** (כמו "אֵיי" ל־A) ו**צליל** שהיא משמיעה בתוך מילה (A ב־Apple נשמעת "אֶ").
+          אנחנו מתחילים בשמות. כל אות מופיעה בשתי צורות: **גדולה** (A) ו**קטנה** (a).
+      - { id: "u00a-l1-02", type: "learn", lexeme: "l-a" }
+      - { id: "u00a-l1-03", type: "learn", lexeme: "l-b" }
+      - { id: "u00a-l1-04", type: "learn", lexeme: "l-c" }
+      - { id: "u00a-l1-05", type: "learn", lexeme: "l-d" }
+      - { id: "u00a-l1-06", type: "learn", lexeme: "l-e" }
+      - { id: "u00a-l1-07", type: "learn", lexeme: "l-f" }
+      - { id: "u00a-l1-08", type: "learn", lexeme: "l-g" }
+      - { id: "u00a-l1-09", type: "learn", lexeme: "l-h" }
+      - id: u00a-l1-10
+        type: match_pairs
+        pairs:
+          - [A, a]
+          - [B, b]
+          - [C, c]
+          - [D, d]
+          - [E, e]
+        lexemes: [l-a, l-b, l-c, l-d, l-e]
+      - id: u00a-l1-11
+        type: multiple_choice
+        prompt: "באיזו אות מתחילה המילה Apple?"
+        options: [A, B, D]
+        correct: 0
+        lexemes: [l-a]
+      - id: u00a-l1-12
+        type: multiple_choice
+        prompt: "באיזו אות מתחילה המילה Fish?"
+        options: [F, G, E]
+        correct: 0
+        lexemes: [l-f]
+      - id: u00a-l1-13
+        type: multiple_choice
+        prompt: "באיזו אות מתחילה המילה House?"
+        options: [H, B, C]
+        correct: 0
+        lexemes: [l-h]
+      - id: u00a-l1-14
+        type: listening_choice
+        audioText: "cat"
+        question: איזו מילה שמעתם?
+        options: [cat, hat, bat]
+        correct: 0
+        lexemes: [l-c, l-h]
+      - id: u00a-l1-15
+        type: word_bank
+        prompt: "איך מאייתים bad?"
+        answers: ["B A D"]
+        distractors: [C, E, H]
+        lexemes: [l-b, l-a, l-d]
+      - id: u00a-l1-16
+        type: speak_repeat
+        text: "A, B, C, D, E, F, G, H"
+        translation: "האותיות A עד H."
+        lexemes: [l-a, l-b, l-c, l-d, l-e, l-f, l-g, l-h]
+
+  - id: u00a-l2
+    kind: new
+    title: { he: "האותיות I–Q", en: "Letters I–Q" }
+    exercises:
+      - { id: "u00a-l2-02", type: "learn", lexeme: "l-i" }
+      - { id: "u00a-l2-03", type: "learn", lexeme: "l-j" }
+      - { id: "u00a-l2-04", type: "learn", lexeme: "l-k" }
+      - { id: "u00a-l2-05", type: "learn", lexeme: "l-l" }
+      - { id: "u00a-l2-06", type: "learn", lexeme: "l-m" }
+      - { id: "u00a-l2-07", type: "learn", lexeme: "l-n" }
+      - { id: "u00a-l2-08", type: "learn", lexeme: "l-o" }
+      - { id: "u00a-l2-09", type: "learn", lexeme: "l-p" }
+      - { id: "u00a-l2-10", type: "learn", lexeme: "l-q" }
+      - id: u00a-l2-11
+        type: match_pairs
+        pairs:
+          - [I, i]
+          - [J, j]
+          - [K, k]
+          - [L, l]
+          - [M, m]
+        lexemes: [l-i, l-j, l-k, l-l, l-m]
+      - id: u00a-l2-12
+        type: multiple_choice
+        prompt: "באיזו אות מתחילה המילה Juice?"
+        options: [J, G, K]
+        correct: 0
+        lexemes: [l-j]
+      - id: u00a-l2-13
+        type: multiple_choice
+        prompt: "באיזו אות מתחילה המילה Milk?"
+        options: [M, N, L]
+        correct: 0
+        lexemes: [l-m]
+      - id: u00a-l2-14
+        type: multiple_choice
+        prompt: "באיזו אות מתחילה המילה Pen?"
+        options: [P, Q, O]
+        correct: 0
+        lexemes: [l-p]
+      - id: u00a-l2-15
+        type: listening_choice
+        audioText: "milk"
+        question: איזו מילה שמעתם?
+        options: [milk, silk, mill]
+        correct: 0
+        lexemes: [l-m, l-l]
+      - id: u00a-l2-16
+        type: word_bank
+        prompt: "איך מאייתים pen?"
+        answers: ["P E N"]
+        distractors: [M, K, I]
+        lexemes: [l-p, l-e, l-n]
+      - id: u00a-l2-17
+        type: speak_repeat
+        text: "I, J, K, L, M, N, O, P, Q"
+        translation: "האותיות I עד Q."
+        lexemes: [l-i, l-j, l-k, l-l, l-m, l-n, l-o, l-p, l-q]
+
+  - id: u00a-l3
+    kind: new
+    title: { he: "האותיות R–Z", en: "Letters R–Z" }
+    exercises:
+      - { id: "u00a-l3-02", type: "learn", lexeme: "l-r" }
+      - { id: "u00a-l3-03", type: "learn", lexeme: "l-s" }
+      - { id: "u00a-l3-04", type: "learn", lexeme: "l-t" }
+      - { id: "u00a-l3-05", type: "learn", lexeme: "l-u" }
+      - { id: "u00a-l3-06", type: "learn", lexeme: "l-v" }
+      - { id: "u00a-l3-07", type: "learn", lexeme: "l-w" }
+      - { id: "u00a-l3-08", type: "learn", lexeme: "l-x" }
+      - { id: "u00a-l3-09", type: "learn", lexeme: "l-y" }
+      - { id: "u00a-l3-10", type: "learn", lexeme: "l-z" }
+      - id: u00a-l3-11
+        type: match_pairs
+        pairs:
+          - [R, r]
+          - [S, s]
+          - [T, t]
+          - [U, u]
+          - [V, v]
+        lexemes: [l-r, l-s, l-t, l-u, l-v]
+      - id: u00a-l3-12
+        type: multiple_choice
+        prompt: "באיזו אות מתחילה המילה Sun?"
+        options: [S, Z, X]
+        correct: 0
+        lexemes: [l-s]
+      - id: u00a-l3-13
+        type: multiple_choice
+        prompt: "באיזו אות מתחילה המילה Water?"
+        options: [W, V, U]
+        correct: 0
+        lexemes: [l-w]
+      - id: u00a-l3-14
+        type: multiple_choice
+        prompt: "באיזו אות מתחילה המילה Yes?"
+        options: [Y, Z, R]
+        correct: 0
+        lexemes: [l-y]
+      - id: u00a-l3-15
+        type: tip
+        title: W, V ו־Z – שלוש אותיות שקל לבלבל
+        text: |
+          **W** נקראת "דַאבֶּל־יוּ" (כלומר "U כפולה"), והצליל שלה בתוך מילה מעוגל כמו **או־ו** (water, we).
+          **V** נקראת "וִי", והצליל שלה כמו ה־**ו** העברית הרגילה (very). **Z** נשמעת "זְ" ארוכה, כמו ב־zero.
+      - id: u00a-l3-16
+        type: listening_choice
+        audioText: "very"
+        question: איזו מילה שמעתם?
+        options: [very, berry, wary]
+        correct: 0
+        lexemes: [l-v]
+      - id: u00a-l3-17
+        type: word_bank
+        prompt: "איך מאייתים sun?"
+        answers: ["S U N"]
+        distractors: [Z, V, X]
+        lexemes: [l-s, l-u, l-n]
+      - id: u00a-l3-18
+        type: speak_repeat
+        text: "R, S, T, U, V, W, X, Y, Z"
+        translation: "האותיות R עד Z."
+        lexemes: [l-r, l-s, l-t, l-u, l-v, l-w, l-x, l-y, l-z]
+
+  - id: u00a-l4
+    kind: listening
+    title: { he: "איך מאייתים את השם?", en: "How do you spell your name?" }
+    exercises:
+      - id: u00a-l4-01
+        type: dialogue
+        scene: "שיחת וידאו ראשונה. נועה בתל אביב ובן בלונדון מוודאים איך לאיית את השמות."
+        lines:
+          - { speaker: "ben", text: "Hello! How do you spell your name?", translation: "שלום! איך מאייתים את השם שלך?" }
+          - { speaker: "noa", text: "N, O, A. Noa.", translation: "N, O, A. נועה." }
+          - { speaker: "noa", text: "And you?", translation: "ואתה?" }
+          - { speaker: "ben", text: "B, E, N. Ben.", translation: "B, E, N. בן." }
+      - id: u00a-l4-02
+        type: word_bank
+        prompt: "איך מאייתים Noa?"
+        answers: ["N O A"]
+        distractors: [M, E]
+        lexemes: [l-n, l-o, l-a]
+      - id: u00a-l4-03
+        type: word_bank
+        prompt: "איך מאייתים Ben?"
+        answers: ["B E N"]
+        distractors: [D, A]
+        lexemes: [l-b, l-e, l-n]
+      - id: u00a-l4-04
+        type: multiple_choice
+        prompt: "איזה שם מאויית כאן: R, A, C, H, E, L?"
+        options: [Rachel, Rochel, Racheal]
+        correct: 0
+        lexemes: [l-r, l-a, l-c, l-h, l-e, l-l]
+      - id: u00a-l4-05
+        type: multiple_choice
+        prompt: "איזה שם מאויית כאן: E, L, I?"
+        options: [Eli, Elo, Ale]
+        correct: 0
+        lexemes: [l-e, l-l, l-i]
+      - id: u00a-l4-06
+        type: word_bank
+        prompt: "איך מאייתים Eli?"
+        answers: ["E L I"]
+        distractors: [A, Y]
+        lexemes: [l-e, l-l, l-i]
+      - id: u00a-l4-07
+        type: listening_choice
+        audioText: "Noa"
+        question: איזה שם שמעתם?
+        options: [Noa, Nora, Nina]
+        correct: 0
+        lexemes: [l-n]
+      - id: u00a-l4-08
+        type: listening_choice
+        audioText: "Miriam"
+        question: איזה שם שמעתם?
+        options: [Miriam, Mariam, Mirian]
+        correct: 0
+        lexemes: [l-m]
+      - id: u00a-l4-09
+        type: dictation
+        text: "Ben"
+        lexemes: [l-b]
+      - id: u00a-l4-10
+        type: speak_repeat
+        text: "N, O, A. Noa."
+        translation: "N, O, A. נועה."
+        lexemes: [l-n, l-o, l-a]
+
+  - id: u00a-review
+    kind: review
+    title: { he: "חזרה: האלפבית", en: "Review: the alphabet" }
+    exercises:
+      - id: u00a-r-01
+        type: match_pairs
+        pairs:
+          - [G, g]
+          - [Q, q]
+          - [R, r]
+          - [W, w]
+          - [Y, y]
+        lexemes: [l-g, l-q, l-r, l-w, l-y]
+      - id: u00a-r-02
+        type: multiple_choice
+        prompt: "באיזו אות מתחילה המילה Orange?"
+        options: [O, A, U]
+        correct: 0
+        lexemes: [l-o]
+      - id: u00a-r-03
+        type: multiple_choice
+        prompt: "באיזו אות מתחילה המילה Key?"
+        options: [K, Q, C]
+        correct: 0
+        lexemes: [l-k]
+      - id: u00a-r-04
+        type: multiple_choice
+        prompt: "באיזו אות מתחילה המילה Zero?"
+        options: [Z, S, X]
+        correct: 0
+        lexemes: [l-z]
+      - id: u00a-r-05
+        type: listening_choice
+        audioText: "bed"
+        question: איזו מילה שמעתם?
+        options: [bed, bad, bid]
+        correct: 0
+        lexemes: [l-b, l-e, l-d]
+      - id: u00a-r-06
+        type: listening_choice
+        audioText: "tea"
+        question: איזו מילה שמעתם?
+        options: [tea, key, pea]
+        correct: 0
+        lexemes: [l-t]
+      - id: u00a-r-07
+        type: word_bank
+        prompt: "איך מאייתים box?"
+        answers: ["B O X"]
+        distractors: [S, Z]
+        lexemes: [l-b, l-o, l-x]
+      - id: u00a-r-08
+        type: word_bank
+        prompt: "איך מאייתים yes?"
+        answers: ["Y E S"]
+        distractors: [J, I]
+        lexemes: [l-y, l-e, l-s]
+      - id: u00a-r-09
+        type: dictation
+        text: "cat"
+        lexemes: [l-c, l-a, l-t]
+      - id: u00a-r-10
+        type: speak_repeat
+        text: "A, B, C, D, E, F, G"
+        translation: "האותיות A עד G."
+        lexemes: [l-a, l-b, l-c, l-d, l-e, l-f, l-g]

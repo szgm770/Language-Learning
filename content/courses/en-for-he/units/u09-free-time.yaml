@@ -48,7 +48,7 @@ grammar:
       - שאלה: **Can you swim?** תשובה: **Yes, I can.** / **No, I can't.**
     examples:
       - { text: "Ben can play the guitar.", translation: "בן יודע לנגן בגיטרה." }
-      - { text: "I can't come on Saturday.", translation: "אני לא יכולה לבוא בשבת." }
+      - { text: "I can't come on Sunday.", translation: "אני לא יכולה לבוא ביום ראשון." }
       - { text: "Can you cook? Yes, I can.", translation: "אתה יודע לבשל? כן." }
   - id: like-ing
     title: { he: "אוהב לעשות: like + ing", en: "Like + -ing" }
@@ -133,7 +133,7 @@ lessons:
         type: dialogue
         scene: "בן מזמין את נועה ואת אלי."
         lines:
-          - { speaker: "ben", text: "Do you want to play football on Saturday?", translation: "רוצה לשחק כדורגל בשבת?" }
+          - { speaker: "ben", text: "Do you want to play football on Sunday?", translation: "רוצה לשחק כדורגל ביום ראשון?" }
           - { speaker: "noa", text: "Sorry, I can't. Do you want to cook together?", translation: "מצטערת, אני לא יכולה. רוצה לבשל ביחד?" }
           - { speaker: "ben", text: "Sure! And then we can watch a movie.", translation: "בטח! ואז נוכל לראות סרט." }
           - { speaker: "eli", text: "Maybe I can come too.", translation: "אולי גם אני יכול לבוא." }
@@ -242,18 +242,18 @@ lessons:
   # ------------------------------------------------------------------ 4
   - id: u9-l4
     kind: listening
-    title: { he: "תוכניות לשבת", en: "Plans for Saturday" }
+    title: { he: "תוכניות ליום ראשון", en: "Plans for Sunday" }
     exercises:
       - id: u9-l4-01
         type: dialogue
-        scene: "רחל מתקשרת למרים כדי לתכנן את השבת."
+        scene: "רחל מתקשרת למרים כדי לתכנן את יום ראשון."
         lines:
-          - { speaker: "rachel", text: "Hi Miriam! Do you want to swim on Saturday?", translation: "היי מרים! רוצה לשחות בשבת?" }
+          - { speaker: "rachel", text: "Hi Miriam! Do you want to swim on Sunday?", translation: "היי מרים! רוצה לשחות ביום ראשון?" }
           - { speaker: "miriam", text: "Sorry, I can't swim. But I love music.", translation: "מצטערת, אני לא יודעת לשחות. אבל אני אוהבת מוזיקה." }
           - { speaker: "rachel", text: "There's a concert in the park.", translation: "יש הופעה בפארק." }
           - { speaker: "miriam", text: "Great! What time?", translation: "מעולה! באיזו שעה?" }
           - { speaker: "rachel", text: "At seven. We can have dinner together after.", translation: "בשבע. אפשר לאכול ארוחת ערב ביחד אחר כך." }
-          - { speaker: "miriam", text: "Sure! See you on Saturday.", translation: "בטח! נתראה בשבת." }
+          - { speaker: "miriam", text: "Sure! See you on Sunday.", translation: "בטח! נתראה ביום ראשון." }
       - id: u9-l4-02
         type: multiple_choice
         prompt: "למה מרים לא באה לשחות?"
@@ -262,7 +262,7 @@ lessons:
         lexemes: [cant, swim]
       - id: u9-l4-03
         type: multiple_choice
-        prompt: "מה הן עושות בשבת?"
+        prompt: "מה הן עושות ביום ראשון?"
         options: [הולכות להופעה בפארק, משחקות כדורגל, רואות סרט בבית]
         correct: 0
         lexemes: [music, together]
@@ -298,7 +298,7 @@ lessons:
       - id: u9-l4-13
         type: multiple_choice
         prompt: "מתי אלי תמיד מבשל?"
-        options: [ביום שישי, בשבת, ביום ראשון]
+        options: [ביום שישי, ביום שני, ביום ראשון]
         correct: 0
         lexemes: [always, friday]
       - id: u9-l4-14
@@ -326,9 +326,9 @@ lessons:
         lexemes: [never, watch]
       - id: u9-l4-09
         type: speak_repeat
-        text: "Sure! See you on Saturday."
-        translation: "בטח! נתראה בשבת."
-        lexemes: [sure, saturday]
+        text: "Sure! See you on Sunday."
+        translation: "בטח! נתראה ביום ראשון."
+        lexemes: [sure, sunday]
 
   # ------------------------------------------------------------------ 5
   - id: u9-review
@@ -360,10 +360,10 @@ lessons:
         lexemes: [do-you-want-to, play, football]
       - id: u9-r-04
         type: word_bank
-        prompt: "היא תמיד מבשלת בשבת."
-        answers: ["She always cooks on Saturday."]
+        prompt: "היא תמיד מבשלת ביום שישי."
+        answers: ["She always cooks on Friday."]
         distractors: [cook, never]
-        lexemes: [always, cook, saturday]
+        lexemes: [always, cook, friday]
       - id: u9-r-05
         type: dialogue_gap
         lines:
@@ -396,6 +396,6 @@ lessons:
         lexemes: [can, cook]
       - id: u9-r-10
         type: speak_repeat
-        text: "I can't come on Saturday. Maybe on Sunday?"
-        translation: "אני לא יכול לבוא בשבת. אולי ביום ראשון?"
-        lexemes: [cant, maybe, saturday, sunday]
+        text: "I can't come on Monday. Maybe on Sunday?"
+        translation: "אני לא יכול לבוא ביום שני. אולי ביום ראשון?"
+        lexemes: [cant, maybe, monday, sunday]

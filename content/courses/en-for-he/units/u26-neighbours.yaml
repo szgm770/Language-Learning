@@ -1,0 +1,500 @@
+id: u26-neighbours
+cefr: B1
+scene: home
+title:
+  he: שכנים
+  en: Neighbours
+story: "בדירה מעל נועה עברו שכנים חדשים עם מוזיקה רועשת. היא מבקשת בנימוס, עוזרת לגברת כץ ומבקשת טובה, ומגלה שהשכנה החדשה דווקא נחמדה."
+canDo:
+  - לבקש בקשות בנימוס (Could you…? Would you mind…?)
+  - להתלונן בנימוס על רעש
+  - להשתמש בצירופי פועל נפוצים (turn down, look after)
+  - להציע עזרה ולבקש טובה
+
+vocabulary:
+  - { id: "neighbour", text: "neighbour", translation: "שכן", pos: "noun", pronunciation: "נֵייבּוֹר" }
+  - { id: "noise", text: "noise", translation: "רעש", pos: "noun", pronunciation: "נוֹיז" }
+  - { id: "building", text: "building", translation: "בניין", pos: "noun", pronunciation: "בִּילְדִינְג" }
+  - { id: "parcel", text: "parcel", translation: "חבילה", pos: "noun", pronunciation: "פַּארְסֶל" }
+  - { id: "favour", text: "favour", translation: "טובה", pos: "noun", pronunciation: "פֵייבוֹר", example: { text: "Can I ask you a favour?", translation: "אפשר לבקש ממך טובה?" } }
+  - { id: "could-you", text: "Could you…?", translation: "תוכל…? (בקשה מנומסת)", pos: "phrase", pronunciation: "קוּד יוּ", example: { text: "Could you help me with this?", translation: "תוכל לעזור לי עם זה?" } }
+  - { id: "would-you-mind", text: "Would you mind…ing?", translation: "אכפת לך ל…? (בקשה מנומסת מאוד)", pos: "phrase", pronunciation: "ווּד יוּ מַיינְד", example: { text: "Would you mind closing the window?", translation: "אכפת לך לסגור את החלון?" } }
+  - { id: "turn-down", text: "turn down", translation: "להנמיך (קול)", pos: "verb", pronunciation: "טֶרְן דַאוּן", example: { text: "Could you turn the music down?", translation: "תוכל להנמיך את המוזיקה?" } }
+  - { id: "turn-off", text: "turn off", translation: "לכבות", pos: "verb", pronunciation: "טֶרְן אוֹף" }
+  - { id: "look-after", text: "look after", translation: "לשמור על, לטפל ב־", pos: "verb", pronunciation: "לוּק אַפְטֶר", example: { text: "Could you look after my cat?", translation: "תוכל לשמור על החתול שלי?" } }
+  - { id: "run-out-of", text: "run out of", translation: "להיגמר (למישהו משהו)", pos: "phrase", pronunciation: "רַאן אַאוּט אוֹב", example: { text: "I've run out of milk.", translation: "נגמר לי החלב." } }
+  - { id: "take-out", text: "take out", translation: "להוציא (פח, זבל)", pos: "verb", pronunciation: "טֵייק אַאוּט" }
+  - { id: "rubbish", text: "rubbish", translation: "זבל", pos: "noun", pronunciation: "רַאבִּישׁ" }
+  - { id: "borrow", text: "borrow", translation: "לשאול (משהו ממישהו)", pos: "verb", pronunciation: "בּוֹרוֹ", example: { text: "Can I borrow some sugar?", translation: "אפשר לשאול קצת סוכר?" } }
+  - { id: "lend", text: "lend", translation: "להשאיל (למישהו)", pos: "verb", pronunciation: "לֶנְד" }
+  - { id: "not-at-all", text: "Not at all.", translation: "בכלל לא (=אין בעיה)", pos: "phrase", pronunciation: "נוֹט אֶט אוֹל" }
+  - { id: "no-worries", text: "No worries!", translation: "אין בעיה! הכול בסדר!", pos: "phrase", pronunciation: "נוֹ ווֹרִיז" }
+  - { id: "sorry-to-bother", text: "Sorry to bother you.", translation: "סליחה שאני מטריד.", pos: "phrase", pronunciation: "סוֹרִי טוּ בּוֹדֶ'ר יוּ" }
+  - { id: "away", text: "away", translation: "לא בבית, נסוע", pos: "adverb", pronunciation: "אָוֵויי", example: { text: "I'll be away next week.", translation: "לא אהיה בבית בשבוע הבא." } }
+  - { id: "keep-an-eye-on", text: "keep an eye on", translation: "להשגיח על", pos: "phrase", pronunciation: "קִיפּ אֶן אַיי אוֹן" }
+
+grammar:
+  - id: polite-requests
+    title: { he: "בקשות מנומסות וצירופי פועל", en: "Polite requests and phrasal verbs" }
+    explanation: |
+      בעברית מבקשים "תוכל להנמיך?". באנגלית יש כמה דרגות של נימוס:
+
+      - **Can you…?** רגיל, בין חברים.
+      - **Could you turn the music down?** מנומס יותר.
+      - **Would you mind turning the music down?** מנומס מאוד. אחרי mind בא פועל עם **‎-ing**.
+
+      ושימו לב לתשובה: Would you mind פירושו "אכפת לך?", אז כשמסכימים עונים **No, not at all.** (לא, בכלל לא אכפת לי).
+
+      **צירופי פועל** (phrasal verbs) הם פועל + מילה קטנה שמשנים משמעות: **turn down** (להנמיך), **turn off** (לכבות), **look after** (לשמור על), **run out of** (להיגמר).
+      כשהמושא הוא it או them, הוא נכנס באמצע: **turn it down**, לא "turn down it".
+    examples:
+      - { text: "Could you take out the rubbish, please?", translation: "תוכל להוציא את הזבל, בבקשה?" }
+      - { text: "Would you mind looking after my plants? Not at all!", translation: "אכפת לך לשמור על העציצים שלי? בכלל לא!" }
+      - { text: "The TV is loud. Can you turn it down?", translation: "הטלוויזיה רועשת. אתה יכול להנמיך אותה?" }
+
+lessons:
+  # ------------------------------------------------------------------ 1
+  - id: u26-l1
+    kind: new
+    title: { he: "רעש מלמעלה", en: "Noise from upstairs" }
+    exercises:
+      - id: u26-l1-01
+        type: dialogue
+        scene: "אחת־עשרה בלילה. נועה דופקת בדלת של השכנה החדשה מלמעלה."
+        lines:
+          - { speaker: "noa", text: "Hi, sorry to bother you. I'm Noa, your neighbour from downstairs.", translation: "היי, סליחה שאני מטרידה. אני נועה, השכנה שלך מלמטה." }
+          - { speaker: "tamar", text: "Oh, hi! Nice to meet you. Is everything OK?", translation: "אה, היי! נעים להכיר. הכול בסדר?" }
+          - { speaker: "noa", text: "Well, I have to get up early. Could you turn the music down a bit?", translation: "טוב, אני צריכה לקום מוקדם. תוכלי להנמיך קצת את המוזיקה?" }
+          - { speaker: "tamar", text: "Oh no, I'm so sorry! I didn't know the noise was so bad. I'll turn it off.", translation: "אוי לא, אני כל כך מצטערת! לא ידעתי שהרעש כל כך חזק. אכבה אותה." }
+          - { speaker: "noa", text: "Thanks. No worries!", translation: "תודה. הכול בסדר!" }
+          - { speaker: "tamar", text: "Wait… Noa? From Project Bridge? I'm Tamar! I've just moved to London!", translation: "רגע… נועה? מפרויקט ברידג'? אני תמר! הרגע עברתי ללונדון!" }
+      - { id: "u26-l1-02", type: "learn", lexeme: "sorry-to-bother" }
+      - { id: "u26-l1-03", type: "learn", lexeme: "neighbour" }
+      - { id: "u26-l1-04", type: "learn", lexeme: "could-you" }
+      - { id: "u26-l1-05", type: "learn", lexeme: "turn-down" }
+      - { id: "u26-l1-06", type: "learn", lexeme: "noise" }
+      - { id: "u26-l1-07", type: "learn", lexeme: "turn-off" }
+      - { id: "u26-l1-08", type: "learn", lexeme: "no-worries" }
+      - id: u26-l1-09
+        type: match_pairs
+        pairs:
+          - [neighbour, שכן]
+          - [noise, רעש]
+          - [turn down, להנמיך]
+          - [turn off, לכבות]
+          - [No worries!, אין בעיה!]
+        lexemes: [neighbour, noise, turn-down, turn-off, no-worries]
+      - id: u26-l1-10
+        type: multiple_choice
+        prompt: "מה נועה מבקשת?"
+        options: [להנמיך את המוזיקה, לכבות את האור, לסגור את החלון]
+        correct: 0
+        lexemes: [turn-down]
+      - id: u26-l1-11
+        type: multiple_choice
+        prompt: "מה ההפתעה בסוף?"
+        options: [השכנה היא תמר מהפרויקט, השכנה היא אחות של בן, השכנה עוברת דירה]
+        correct: 0
+        lexemes: [neighbour]
+      - id: u26-l1-12
+        type: listening_choice
+        audioText: "Sorry to bother you, but could you turn the TV down?"
+        question: מה הוא מבקש?
+        options: [להנמיך את הטלוויזיה, לכבות את הטלוויזיה, להגביר את הטלוויזיה]
+        correct: 0
+        lexemes: [sorry-to-bother, could-you, turn-down]
+      - id: u26-l1-13
+        type: word_bank
+        prompt: "תוכל לכבות את האור?"
+        answers: ["Could you turn off the light?", "Could you turn the light off?"]
+        distractors: [down, would]
+        lexemes: [could-you, turn-off]
+      - id: u26-l1-14
+        type: speak_repeat
+        text: "Sorry to bother you. Could you turn the music down a bit?"
+        translation: "סליחה שאני מטרידה. תוכל להנמיך קצת את המוזיקה?"
+        lexemes: [sorry-to-bother, could-you, turn-down]
+
+  # ------------------------------------------------------------------ 2
+  - id: u26-l2
+    kind: new
+    title: { he: "אפשר לבקש טובה?", en: "Can I ask you a favour?" }
+    exercises:
+      - { id: "u26-l2-01", type: "learn", lexeme: "favour" }
+      - { id: "u26-l2-02", type: "learn", lexeme: "away" }
+      - { id: "u26-l2-03", type: "learn", lexeme: "look-after" }
+      - { id: "u26-l2-04", type: "learn", lexeme: "keep-an-eye-on" }
+      - { id: "u26-l2-05", type: "learn", lexeme: "parcel" }
+      - id: u26-l2-06
+        type: dialogue
+        scene: "נועה נוסעת לתל אביב. היא מבקשת עזרה מגברת כץ."
+        lines:
+          - { speaker: "noa", text: "Mrs. Katz, can I ask you a favour? I'll be away for a week.", translation: "גברת כץ, אפשר לבקש טובה? אני לא אהיה בבית שבוע." }
+          - { speaker: "katz", text: "Of course, dear. What do you need?", translation: "בוודאי, יקירתי. מה את צריכה?" }
+          - { speaker: "noa", text: "Could you look after my plants? And I'm waiting for a parcel.", translation: "תוכלי לשמור על העציצים שלי? ואני מחכה לחבילה." }
+          - { speaker: "katz", text: "No problem. I'll keep an eye on the flat too.", translation: "אין בעיה. אשגיח גם על הדירה." }
+          - { speaker: "noa", text: "Thank you so much. I'll bring you something from Israel!", translation: "תודה רבה. אביא לך משהו מישראל!" }
+      - id: u26-l2-07
+        type: match_pairs
+        pairs:
+          - [favour, טובה]
+          - [away, לא בבית]
+          - [look after, לשמור על]
+          - [parcel, חבילה]
+          - [keep an eye on, להשגיח על]
+        lexemes: [favour, away, look-after, parcel, keep-an-eye-on]
+      - id: u26-l2-08
+        type: multiple_choice
+        prompt: "כמה זמן נועה לא תהיה בבית?"
+        options: [שבוע, יומיים, חודש]
+        correct: 0
+        lexemes: [away]
+      - id: u26-l2-09
+        type: multiple_choice
+        prompt: "מה גברת כץ תעשה?"
+        options: [תשמור על העציצים ותשגיח על הדירה, תנקה את הדירה, תשלח את החבילה]
+        correct: 0
+        lexemes: [look-after, keep-an-eye-on]
+      - { id: "u26-l2-10", type: "learn", lexeme: "borrow" }
+      - { id: "u26-l2-11", type: "learn", lexeme: "lend" }
+      - id: u26-l2-12
+        type: tip
+        title: "borrow או lend?"
+        text: |
+          בעברית "להשאיל" ו"לשאול" מבלבלים, וגם באנגלית.
+
+          borrow: אני לוקח ממך. Can I borrow your umbrella?
+          lend: אני נותן לך. Can you lend me your umbrella?
+      - id: u26-l2-13
+        type: fill_blank
+        sentence: "Can I ___ your charger? Mine is at home."
+        translation: "אפשר לשאול את המטען שלך? שלי בבית."
+        answers: [borrow]
+        options: [borrow, lend, take out]
+        lexemes: [borrow, charger]
+      - id: u26-l2-14
+        type: dialogue_gap
+        lines:
+          - { speaker: "ben", text: "Could you lend me twenty pounds? I'll pay you back tomorrow.", translation: "תוכלי להשאיל לי עשרים פאונד? אחזיר לך מחר." }
+          - { speaker: "rachel", text: "Sure, here you are.", translation: "בטח, בבקשה." }
+        gap: 0
+        distractors: ["Could you borrow me twenty pounds? I'll pay you back tomorrow.", "Could you lend to me twenty pounds yesterday?"]
+        lexemes: [lend, could-you]
+      - id: u26-l2-15
+        type: translate
+        direction: to_target
+        prompt: "אפשר לבקש ממך טובה?"
+        answers: ["Can I ask you a favour?", "Can I ask you a favor?", "Could I ask you a favour?", "Could I ask you a favor?"]
+        lexemes: [favour]
+      - id: u26-l2-16
+        type: speak_repeat
+        text: "Could you look after my plants while I'm away?"
+        translation: "תוכלי לשמור על העציצים שלי בזמן שאני לא בבית?"
+        lexemes: [could-you, look-after, away]
+
+  # ------------------------------------------------------------------ 3
+  - id: u26-l3
+    kind: grammar
+    grammar: polite-requests
+    title: { he: "אכפת לך…?", en: "Would you mind…?" }
+    exercises:
+      - { id: "u26-l3-01", type: "learn", lexeme: "would-you-mind" }
+      - { id: "u26-l3-02", type: "learn", lexeme: "not-at-all" }
+      - id: u26-l3-03
+        type: fill_blank
+        sentence: "Would you mind ___ the door?"
+        translation: "אכפת לך לסגור את הדלת?"
+        answers: [closing]
+        options: [closing, close, to close]
+        lexemes: [would-you-mind]
+      - id: u26-l3-04
+        type: multiple_choice
+        prompt: "Would you mind waiting? איך מסכימים?"
+        options: ["No, not at all.", "Yes, I mind.", "Yes, of course I would."]
+        correct: 0
+        lexemes: [would-you-mind, not-at-all]
+      - id: u26-l3-05
+        type: multiple_choice
+        prompt: "מה הכי מנומס?"
+        options: ["Would you mind helping me?", "Help me.", "Can you help me?"]
+        correct: 0
+        lexemes: [would-you-mind]
+      - id: u26-l3-06
+        type: multiple_choice
+        prompt: איזה משפט נכון?
+        options: ["The music is loud. Can you turn it down?", "The music is loud. Can you turn down it?", "The music is loud. Can you down turn it?"]
+        correct: 0
+        lexemes: [turn-down]
+      - { id: "u26-l3-07", type: "learn", lexeme: "run-out-of" }
+      - { id: "u26-l3-08", type: "learn", lexeme: "take-out" }
+      - { id: "u26-l3-09", type: "learn", lexeme: "rubbish" }
+      - id: u26-l3-10
+        type: fill_blank
+        sentence: "We've run ___ of milk. Can you buy some?"
+        translation: "נגמר לנו החלב. אתה יכול לקנות?"
+        answers: [out]
+        options: [out, off, down]
+        lexemes: [run-out-of, milk]
+      - id: u26-l3-11
+        type: dialogue_gap
+        lines:
+          - { speaker: "katz", text: "Would you mind taking out the rubbish tonight?", translation: "אכפת לך להוציא את הזבל הערב?" }
+          - { speaker: "noa", text: "Not at all. I'll do it after dinner.", translation: "בכלל לא. אעשה את זה אחרי ארוחת הערב." }
+        gap: 1
+        distractors: ["Yes, I mind. I'll do it after dinner.", "Not at all. I'll do after dinner it."]
+        lexemes: [would-you-mind, take-out, not-at-all]
+      - id: u26-l3-12
+        type: word_bank
+        prompt: "אכפת לך לשמור על החתול שלי?"
+        answers: ["Would you mind looking after my cat?"]
+        distractors: [look, to]
+        lexemes: [would-you-mind, look-after]
+      - id: u26-l3-13
+        type: translate
+        direction: to_target
+        prompt: "תוכל להוציא את הזבל, בבקשה?"
+        answers: ["Could you take out the rubbish, please?", "Could you take the rubbish out, please?", "Could you take out the trash, please?", "Could you take the trash out, please?"]
+        lexemes: [could-you, take-out, rubbish]
+      - id: u26-l3-14
+        type: translate
+        direction: to_source
+        prompt: "I've run out of coffee."
+        answers: ["נגמר לי הקפה.", "נגמר לי קפה.", "אין לי יותר קפה."]
+        lexemes: [run-out-of, coffee]
+      - id: u26-l3-15
+        type: speak_repeat
+        text: "Would you mind turning the music down? No, not at all."
+        translation: "אכפת לך להנמיך את המוזיקה? לא, בכלל לא."
+        lexemes: [would-you-mind, turn-down, not-at-all]
+
+  # ------------------------------------------------------------------ 4
+  - id: u26-l4
+    kind: listening
+    title: { he: "אסיפת דיירים", en: "The residents' meeting" }
+    exercises:
+      - { id: "u26-l4-01", type: "learn", lexeme: "building" }
+      - id: u26-l4-02
+        type: dialogue
+        scene: "אסיפת דיירים בלובי של הבניין. גברת כץ מנהלת."
+        lines:
+          - { speaker: "katz", text: "Thank you all for coming. First, the rubbish. Please don't leave bags next to the door.", translation: "תודה לכולם שבאתם. קודם, הזבל. בבקשה אל תשאירו שקיות ליד הדלת." }
+          - { speaker: "ben", text: "Could we get a bigger bin? We always run out of space.", translation: "אפשר לקבל פח יותר גדול? תמיד נגמר לנו המקום." }
+          - { speaker: "katz", text: "Good idea. I'll call the council.", translation: "רעיון טוב. אתקשר לעירייה." }
+          - { speaker: "tamar", text: "And I'd like to apologise for the noise last week. I've bought headphones!", translation: "ואני רוצה להתנצל על הרעש בשבוע שעבר. קניתי אוזניות!" }
+          - { speaker: "katz", text: "Thank you, Tamar. Finally, would anyone mind looking after the garden this summer?", translation: "תודה, תמר. ולסיום, למישהו אכפת לטפל בגינה הקיץ?" }
+          - { speaker: "noa", text: "I'll do it. I love plants!", translation: "אני אעשה את זה. אני אוהבת צמחים!" }
+      - id: u26-l4-03
+        type: multiple_choice
+        prompt: "מה הבעיה עם הזבל?"
+        options: [אנשים משאירים שקיות ליד הדלת, אין פח בכלל, הזבל לא נאסף חודש]
+        correct: 0
+        lexemes: [rubbish]
+      - id: u26-l4-04
+        type: multiple_choice
+        prompt: "מה בן מציע?"
+        options: [פח גדול יותר, אסיפה כל שבוע, לשלם לעירייה]
+        correct: 0
+        lexemes: [run-out-of]
+      - id: u26-l4-05
+        type: multiple_choice
+        prompt: "מה תמר קנתה?"
+        options: [אוזניות, פח חדש, צמחים]
+        correct: 0
+        lexemes: [noise]
+      - id: u26-l4-06
+        type: multiple_choice
+        prompt: "מי יטפל בגינה?"
+        options: [נועה, גברת כץ, בן]
+        correct: 0
+        lexemes: [look-after]
+      - id: u26-l4-07
+        type: listening_choice
+        audioText: "Would you mind keeping an eye on my flat? I'm away until Sunday."
+        question: מה היא מבקשת?
+        options: [להשגיח על הדירה עד יום ראשון, לנקות את הדירה, לשמור על החתול]
+        correct: 0
+        lexemes: [would-you-mind, keep-an-eye-on, away]
+      - id: u26-l4-08
+        type: dialogue_gap
+        lines:
+          - { speaker: "noa", text: "Can I borrow your ladder for a minute?", translation: "אפשר לשאול את הסולם שלך לרגע?" }
+          - { speaker: "ben", text: "Sure, no worries. It's in the garden.", translation: "בטח, אין בעיה. הוא בגינה." }
+        gap: 1
+        distractors: ["Sure, no worries. I'll borrow it to you.", "Not at all, I mind."]
+        lexemes: [borrow, no-worries]
+      - id: u26-l4-09
+        type: dictation
+        text: "Could you turn the music down, please?"
+        lexemes: [could-you, turn-down]
+      - id: u26-l4-10
+        type: translate
+        direction: to_target
+        prompt: "הבניין שלנו מאוד שקט."
+        answers: ["Our building is very quiet.", "Our building's very quiet."]
+        lexemes: [building, quiet]
+      - id: u26-l4-11
+        type: speak_repeat
+        text: "I'd like to apologise for the noise last week."
+        translation: "אני רוצה להתנצל על הרעש בשבוע שעבר."
+        lexemes: [apologise, noise]
+
+  # ------------------------------------------------------------------ 5
+  - id: u26-l5
+    kind: reading
+    title: { he: "פתק בבניין", en: "A note in the building" }
+    exercises:
+      - id: u26-l5-01
+        type: reading
+        kind: "פתק על לוח המודעות"
+        title: "Dear neighbours,"
+        text: |
+          Some of you have asked me about the new building rules, so here is a short reminder.
+
+          Please take the rubbish out on Tuesday and Thursday evenings only. The bins are collected early in the morning.
+
+          Please keep the noise down after 11 p.m. If you're having a party, it's a good idea to tell your neighbours first.
+
+          If you're going to be away, please let me know. I'm happy to keep an eye on your flat or collect your parcels.
+
+          And finally: the garden is for everyone! Would you mind cleaning up after you use it?
+
+          Thank you, and enjoy the summer!
+          Ruth Katz, Flat 1
+        translation: |
+          כמה מכם שאלו אותי על כללי הבניין החדשים, אז הנה תזכורת קצרה.
+
+          בבקשה הוציאו את הזבל רק בערבי שלישי וחמישי. הפחים נאספים מוקדם בבוקר.
+
+          בבקשה שמרו על שקט אחרי 11 בלילה. אם אתם עושים מסיבה, רעיון טוב לספר קודם לשכנים.
+
+          אם אתם עומדים להיות מחוץ לבית, בבקשה עדכנו אותי. אשמח להשגיח על הדירה שלכם או לאסוף את החבילות שלכם.
+
+          ולסיום: הגינה היא של כולם! אכפת לכם לנקות אחרי שאתם משתמשים בה?
+
+          תודה, ותיהנו מהקיץ!
+          רות כץ, דירה 1
+      - id: u26-l5-02
+        type: multiple_choice
+        prompt: "מתי מוציאים את הזבל?"
+        options: [בערבי שלישי וחמישי, כל ערב, בבוקר]
+        correct: 0
+        lexemes: [take-out, rubbish]
+      - id: u26-l5-03
+        type: multiple_choice
+        prompt: "ממתי צריך לשמור על שקט?"
+        options: [מ־11 בלילה, מ־10 בלילה, מחצות]
+        correct: 0
+        lexemes: [noise]
+      - id: u26-l5-04
+        type: multiple_choice
+        prompt: "מה כדאי לעשות לפני מסיבה?"
+        options: [לספר לשכנים, לבקש אישור מגברת כץ, לנקות את הגינה]
+        correct: 0
+        lexemes: [neighbour, party]
+      - id: u26-l5-05
+        type: multiple_choice
+        prompt: "מה גברת כץ מציעה למי שנוסע?"
+        options: [להשגיח על הדירה ולאסוף חבילות, להשקות צמחים, לשמור על חיות מחמד]
+        correct: 0
+        lexemes: [keep-an-eye-on, parcel, away]
+      - id: u26-l5-06
+        type: fill_blank
+        sentence: "Would you mind ___ up after you use the garden?"
+        translation: "אכפת לכם לנקות אחרי שאתם משתמשים בגינה?"
+        answers: [cleaning]
+        options: [cleaning, clean, to clean]
+        lexemes: [would-you-mind, clean]
+      - id: u26-l5-07
+        type: fill_blank
+        sentence: "Please keep the ___ down after 11 p.m."
+        translation: "בבקשה שמרו על שקט אחרי 11 בלילה."
+        answers: [noise]
+        options: [noise, music, neighbour]
+        lexemes: [noise]
+      - id: u26-l5-08
+        type: word_bank
+        prompt: "אשמח לאסוף את החבילות שלכם."
+        answers: ["I'm happy to collect your parcels.", "I am happy to collect your parcels."]
+        distractors: [parcel, borrow]
+        lexemes: [parcel]
+      - id: u26-l5-09
+        type: translate
+        direction: to_target
+        prompt: "אם אתם עושים מסיבה, ספרו לשכנים."
+        answers: ["If you're having a party, tell your neighbours.", "If you are having a party, tell your neighbours.", "If you're having a party, tell your neighbors.", "If you have a party, tell your neighbours."]
+        lexemes: [neighbour, party]
+      - id: u26-l5-10
+        type: speak_repeat
+        text: "If you're going to be away, please let me know."
+        translation: "אם אתם עומדים להיות מחוץ לבית, בבקשה עדכנו אותי."
+        lexemes: [away]
+
+  # ------------------------------------------------------------------ 6
+  - id: u26-review
+    kind: review
+    title: { he: "חזרה: שכנים", en: "Review: neighbours" }
+    exercises:
+      - id: u26-r-01
+        type: match_pairs
+        pairs:
+          - [borrow, לשאול (משהו)]
+          - [lend, להשאיל]
+          - [run out of, להיגמר]
+          - [take out, להוציא]
+          - [building, בניין]
+        lexemes: [borrow, lend, run-out-of, take-out, building]
+      - id: u26-r-02
+        type: fill_blank
+        sentence: "Could you lend ___ your umbrella?"
+        translation: "תוכל להשאיל לי את המטרייה שלך?"
+        answers: [me]
+        options: [me, to me, I]
+        lexemes: [lend, umbrella]
+      - id: u26-r-03
+        type: listening_choice
+        audioText: "We've run out of sugar. Could you borrow some from the neighbours?"
+        question: מה נגמר?
+        options: [סוכר, חלב, קפה]
+        correct: 0
+        lexemes: [run-out-of, sugar, borrow]
+      - id: u26-r-04
+        type: word_bank
+        prompt: "אכפת לך לחכות חמש דקות?"
+        answers: ["Would you mind waiting five minutes?", "Would you mind waiting for five minutes?"]
+        distractors: [wait, to]
+        lexemes: [would-you-mind, wait]
+      - id: u26-r-05
+        type: dialogue_gap
+        lines:
+          - { speaker: "tamar", text: "Sorry to bother you. Is this your parcel?", translation: "סליחה שאני מטרידה. זו החבילה שלך?" }
+          - { speaker: "noa", text: "Yes! Thank you so much. I was waiting for it.", translation: "כן! תודה רבה. חיכיתי לה." }
+        gap: 1
+        distractors: ["Yes! Not at all. I mind it.", "Yes! I'm borrowing it to you."]
+        lexemes: [sorry-to-bother, parcel]
+      - id: u26-r-06
+        type: multiple_choice
+        prompt: "השכן שואל: Would you mind closing the window? אתם מסכימים. מה עונים?"
+        options: ["Not at all.", "Yes, I would.", "I mind."]
+        correct: 0
+        lexemes: [not-at-all]
+      - id: u26-r-07
+        type: translate
+        direction: to_target
+        prompt: "תוכל לכבות את הטלוויזיה?"
+        answers: ["Could you turn off the TV?", "Could you turn the TV off?", "Could you turn off the television?", "Could you turn the television off?"]
+        lexemes: [could-you, turn-off]
+      - id: u26-r-08
+        type: translate
+        direction: to_source
+        prompt: "I'll be away next week."
+        answers: ["לא אהיה בבית בשבוע הבא.", "אני לא אהיה בבית בשבוע הבא.", "אני אהיה בחו\"ל בשבוע הבא.", "לא אהיה פה בשבוע הבא."]
+        lexemes: [away, next-week]
+      - id: u26-r-09
+        type: dictation
+        text: "Can I ask you a favour?"
+        lexemes: [favour]
+      - id: u26-r-10
+        type: speak_repeat
+        text: "Would you mind looking after my cat while I'm away?"
+        translation: "אכפת לך לשמור על החתול שלי בזמן שאני לא בבית?"
+        lexemes: [would-you-mind, look-after, away]

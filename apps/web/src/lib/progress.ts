@@ -19,16 +19,22 @@ export const PASS_SCORE = 0.7;
 export const isCompleted = (state: LearnerState, courseId: string, lessonId: string) =>
   state.lessons.get(lessonKey(courseId, lessonId))?.completed ?? false;
 
-/** First lesson in course order that is not completed yet. */
+/**
+ * First lesson in course order that is not completed yet. A level test that was passed over
+ * (placement, or moving progress from another device) does not hold the learner back.
+ */
 export function nextLesson(state: LearnerState, courseId: string, units: UnitPack[]) {
-  return flatLessons(units).find(({ lesson }) => !isCompleted(state, courseId, lesson.id));
+  const reached = state.enrollments.get(courseId)?.position ?? 0;
+  return flatLessons(units).find(({ lesson }, i) => !isCompleted(state, courseId, lesson.id) && !(lesson.kind === "test" && i < reached));
 }
 
-/** A lesson opens once the one before it is completed. */
+/** A lesson opens once the lesson before it is completed. Level tests are optional: they never block what follows. */
 export function lessonOpen(state: LearnerState, courseId: string, units: UnitPack[], lessonId: string): boolean {
   const all = flatLessons(units);
   const i = all.findIndex((l) => l.lesson.id === lessonId);
-  return i <= 0 || isCompleted(state, courseId, all[i - 1]!.lesson.id);
+  let j = i - 1;
+  while (j >= 0 && all[j]!.lesson.kind === "test") j--;
+  return j < 0 || isCompleted(state, courseId, all[j]!.lesson.id);
 }
 
 export function dueCount(state: LearnerState, courseId: string, now = Date.now()): number {

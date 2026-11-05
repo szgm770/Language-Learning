@@ -1,0 +1,584 @@
+id: u40-decision
+cefr: B2
+scene: travel
+title:
+  he: ההחלטה
+  en: The decision
+story: "הגיע הרגע. נועה צריכה להחליט אם להישאר בלונדון או לחזור הביתה ולנהל את המשרד החדש בתל אביב. פרק הסיום של הסיפור, ומבחן רמה B2."
+canDo:
+  - לספר סיפור שלם בזמני עבר שונים
+  - להשתמש יחד בעבר פשוט, מתמשך ומושלם
+  - לדבר על החלטות גדולות ועל סיום פרק בחיים
+  - לעבור את מבחן רמה B2
+
+vocabulary:
+  - { id: "decision", text: "decision", translation: "החלטה", pos: "noun", pronunciation: "דִיסִיז'ֶן" }
+  - { id: "weigh-up", text: "weigh up", translation: "לשקול", pos: "verb", pronunciation: "ווֵי אַפּ" }
+  - { id: "make-up-your-mind", text: "make up your mind", translation: "להחליט סופית", pos: "phrase", pronunciation: "מֵייק אַפּ יוֹר מַיינְד" }
+  - { id: "relocate", text: "relocate", translation: "לעבור דירה/עיר", pos: "verb", pronunciation: "רִילוֹקֵייט" }
+  - { id: "new-chapter", text: "new chapter", translation: "פרק חדש", pos: "noun", pronunciation: "ניוּ צ'ַפְּטֶר" }
+  - { id: "adventure", text: "adventure", translation: "הרפתקה", pos: "noun", pronunciation: "אַדְוֶנְצ'ֶר" }
+  - { id: "settle-down", text: "settle down", translation: "להשתקע", pos: "verb", pronunciation: "סֶטֶל דַאוּן" }
+  - { id: "follow-your-heart", text: "follow your heart", translation: "ללכת אחרי הלב", pos: "phrase", pronunciation: "פּוֹלוֹ יוֹר הַארְט" }
+  - { id: "come-full-circle", text: "come full circle", translation: "לסגור מעגל", pos: "phrase", pronunciation: "קַאם פוּל סֶרְקֶל" }
+  - { id: "farewell", text: "farewell", translation: "פרידה, מסיבת פרידה", pos: "noun", pronunciation: "פֶרוֵול" }
+  - { id: "reunion", text: "reunion", translation: "מפגש מחודש", pos: "noun", pronunciation: "רִיּוּנְיֶן" }
+  - { id: "no-regrets", text: "no regrets", translation: "בלי חרטות", pos: "phrase", pronunciation: "נוֹ רִיגְרֶטְס" }
+  - { id: "had-been-ing", text: "had been + V-ing", translation: "היה (בתהליך) עד אז", pos: "phrase", pronunciation: "הֶד בִּין", example: { text: "She had been working there for years when she left.", translation: "היא עבדה שם שנים כשעזבה." } }
+  - { id: "in-the-end-2", text: "at last", translation: "סוף־סוף", pos: "phrase", pronunciation: "אֶט לַאסְט" }
+
+grammar:
+  - id: narrative-tenses
+    title: { he: "זמני עבר בסיפור", en: "Narrative tenses" }
+    explanation: |
+      בסיפור משלבים כמה זמני עבר, וכל אחד אומר משהו אחר:
+
+      | זמן | מה הוא עושה בסיפור | דוגמה |
+      |---|---|---|
+      | **past simple** | האירועים עצמם, אחד אחרי השני | *She opened the door and walked in.* |
+      | **past continuous** | הרקע והתהליך שהיה באותו רגע | *It was raining while she waited.* |
+      | **past perfect** | מה שקרה **לפני** האירוע | *She had decided before he called.* |
+      | **past perfect continuous** | תהליך ארוך שהיה **לפני** האירוע | *She had been thinking about it for weeks.* |
+
+      טיפ: **used to** ו-**would** מתארים הרגלים בעבר: *We used to meet every Friday.*
+    examples:
+      - { text: "When Noa arrived, the party had already started.", translation: "כשנועה הגיעה, המסיבה כבר התחילה." }
+      - { text: "She was packing while Ben was making coffee.", translation: "היא ארזה בזמן שבן הכין קפה." }
+      - { text: "She had been thinking about it for months before she decided.", translation: "היא חשבה על זה חודשים לפני שהחליטה." }
+
+lessons:
+  # ------------------------------------------------------------------ 1
+  - id: u40-l1
+    kind: new
+    title: { he: "הצעה מתל אביב", en: "An offer from Tel Aviv" }
+    exercises:
+      - id: u40-l1-01
+        type: dialogue
+        scene: "המשרד של מר כהן. ההחלטה הגדולה."
+        lines:
+          - { speaker: "cohen", text: "Noa, we're opening a new office in Tel Aviv. I would like you to lead it.", translation: "נועה, אנחנו פותחים משרד חדש בתל אביב. אני רוצה שתעמדי בראשו." }
+          - { speaker: "noa", text: "That's a big decision. Can I weigh it up for a few days?", translation: "זו החלטה גדולה. אפשר לשקול אותה כמה ימים?" }
+          - { speaker: "cohen", text: "Of course. You would have to relocate in the spring.", translation: "בוודאי. תצטרכי לעבור באביב." }
+          - { speaker: "noa", text: "I have been thinking about home for months. But London has been my home for five years.", translation: "אני חושבת על הבית כבר חודשים. אבל לונדון הייתה הבית שלי חמש שנים." }
+          - { speaker: "cohen", text: "Follow your heart. We will support you either way.", translation: "לכי אחרי הלב. נתמוך בך בכל מקרה." }
+      - { id: "u40-l1-02", type: "learn", lexeme: "decision" }
+      - { id: "u40-l1-03", type: "learn", lexeme: "weigh-up" }
+      - { id: "u40-l1-04", type: "learn", lexeme: "relocate" }
+      - { id: "u40-l1-05", type: "learn", lexeme: "make-up-your-mind" }
+      - { id: "u40-l1-06", type: "learn", lexeme: "follow-your-heart" }
+      - { id: "u40-l1-07", type: "learn", lexeme: "new-chapter" }
+      - id: u40-l1-08
+        type: match_pairs
+        pairs:
+          - [decision, החלטה]
+          - [weigh up, לשקול]
+          - [relocate, לעבור לעיר אחרת]
+          - [follow your heart, ללכת אחרי הלב]
+          - [new chapter, פרק חדש]
+        lexemes: [decision, weigh-up, relocate, follow-your-heart, new-chapter]
+      - id: u40-l1-09
+        type: multiple_choice
+        prompt: "מה מר כהן מציע לנועה?"
+        options: [לנהל את המשרד החדש בתל אביב, לעזוב את החברה, לעבוד מהבית]
+        correct: 0
+        lexemes: [decision, relocate]
+      - id: u40-l1-10
+        type: multiple_choice
+        prompt: "מה נועה מבקשת?"
+        options: [כמה ימים לשקול, לענות מיד, חופשה]
+        correct: 0
+        lexemes: [weigh-up]
+      - id: u40-l1-11
+        type: listening_choice
+        audioText: "I have to make up my mind by Friday."
+        question: מה היא אומרת?
+        options: [שהיא צריכה להחליט עד יום שישי, שהחליטה כבר, שהיא לא צריכה להחליט]
+        correct: 0
+        lexemes: [make-up-your-mind]
+      - id: u40-l1-12
+        type: word_bank
+        prompt: "זו החלטה גדולה."
+        answers: ["It's a big decision.", "It is a big decision.", "That's a big decision.", "This is a big decision."]
+        distractors: [decisions, bigger]
+        lexemes: [decision]
+      - id: u40-l1-13
+        type: speak_repeat
+        text: "Follow your heart. We will support you either way."
+        translation: "לכי אחרי הלב. נתמוך בך בכל מקרה."
+        lexemes: [follow-your-heart]
+
+  # ------------------------------------------------------------------ 2
+  - id: u40-l2
+    kind: new
+    title: { he: "לחשוב ולהחליט", en: "Thinking it over" }
+    exercises:
+      - { id: "u40-l2-01", type: "learn", lexeme: "adventure" }
+      - { id: "u40-l2-02", type: "learn", lexeme: "settle-down" }
+      - { id: "u40-l2-03", type: "learn", lexeme: "come-full-circle" }
+      - { id: "u40-l2-04", type: "learn", lexeme: "no-regrets" }
+      - { id: "u40-l2-05", type: "learn", lexeme: "in-the-end-2" }
+      - id: u40-l2-06
+        type: dialogue
+        scene: "ערב. נועה וחברה, תמר, מטיילות על הגדה."
+        lines:
+          - { speaker: "tamar", text: "So, are you going to stay or go?", translation: "אז, את נשארת או נוסעת?" }
+          - { speaker: "noa", text: "London was an adventure, but I think it's time to settle down near my family.", translation: "לונדון הייתה הרפתקה, אבל אני חושבת שהגיע הזמן להשתקע ליד המשפחה." }
+          - { speaker: "tamar", text: "You came here alone with one suitcase. Now you're going back as a manager.", translation: "הגעת לכאן לבד עם מזוודה אחת. עכשיו את חוזרת כמנהלת." }
+          - { speaker: "noa", text: "It feels like I'm coming full circle. And I have no regrets.", translation: "זה מרגיש כאילו אני סוגרת מעגל. ואין לי חרטות." }
+      - id: u40-l2-07
+        type: match_pairs
+        pairs:
+          - [adventure, הרפתקה]
+          - [settle down, להשתקע]
+          - [come full circle, לסגור מעגל]
+          - [no regrets, בלי חרטות]
+          - [at last, סוף־סוף]
+        lexemes: [adventure, settle-down, come-full-circle, no-regrets, in-the-end-2]
+      - id: u40-l2-08
+        type: multiple_choice
+        prompt: "מה נועה אומרת על לונדון?"
+        options: [שהייתה הרפתקה, שהייתה משעממת, שהייתה קשה מדי]
+        correct: 0
+        lexemes: [adventure]
+      - id: u40-l2-09
+        type: multiple_choice
+        prompt: "מה נועה מרגישה לגבי החזרה?"
+        options: [שהיא סוגרת מעגל, שהיא נכשלה, שהיא מפחדת]
+        correct: 0
+        lexemes: [come-full-circle]
+      - id: u40-l2-10
+        type: dialogue_gap
+        lines:
+          - { speaker: "tamar", text: "Will you miss London?", translation: "תתגעגעי ללונדון?" }
+          - { speaker: "noa", text: "Of course, but I'll visit often.", translation: "בוודאי, אבל אבקר הרבה." }
+        gap: 1
+        distractors: ["Of course, but I visited often.", "Of course, but I'll visiting often."]
+        lexemes: [miss-someone, visit]
+      - id: u40-l2-11
+        type: translate
+        direction: to_target
+        prompt: "אין לי חרטות."
+        answers: ["I have no regrets.", "No regrets.", "I've no regrets.", "I don't have any regrets."]
+        lexemes: [no-regrets]
+      - id: u40-l2-12
+        type: translate
+        direction: to_source
+        prompt: "It's time to settle down."
+        answers: ["הגיע הזמן להשתקע.", "הגיע הזמן להתיישב.", "זה הזמן להשתקע."]
+        lexemes: [settle-down]
+      - id: u40-l2-13
+        type: speak_repeat
+        text: "London was an adventure, but it's time to settle down."
+        translation: "לונדון הייתה הרפתקה, אבל הגיע הזמן להשתקע."
+        lexemes: [adventure, settle-down]
+
+  # ------------------------------------------------------------------ 3
+  - id: u40-l3
+    kind: grammar
+    grammar: narrative-tenses
+    title: { he: "לספר סיפור", en: "Telling a story" }
+    exercises:
+      - { id: "u40-l3-01", type: "learn", lexeme: "had-been-ing" }
+      - id: u40-l3-02
+        type: fill_blank
+        sentence: "When she arrived, the meeting ___ already started."
+        translation: "כשהיא הגיעה, הישיבה כבר התחילה."
+        answers: [had]
+        options: [had, has, was]
+        lexemes: [had-been-ing]
+      - id: u40-l3-03
+        type: fill_blank
+        sentence: "She ___ packing when the phone rang. (be)"
+        translation: "היא הייתה באמצע ארזיה כשהטלפון צלצל."
+        answers: [was]
+        options: [was, had, is]
+        lexemes: [was-ing]
+      - id: u40-l3-04
+        type: fill_blank
+        sentence: "She had been ___ about it for months. (think)"
+        translation: "היא חשבה על זה חודשים."
+        answers: [thinking]
+        options: [thinking, thought, think]
+        lexemes: [had-been-ing]
+      - id: u40-l3-05
+        type: multiple_choice
+        prompt: "איזה זמן מתאר את מה שקרה לפני האירוע?"
+        options: [past perfect, past simple, present perfect]
+        correct: 0
+        lexemes: [have-done]
+      - id: u40-l3-06
+        type: multiple_choice
+        prompt: "איזה משפט נכון?"
+        options: ["When I got home, they had already left.", "When I had got home, they already left.", "When I was getting home, they have already left."]
+        correct: 0
+        lexemes: [had]
+      - id: u40-l3-07
+        type: dialogue_gap
+        lines:
+          - { speaker: "tamar", text: "Why were you so tired yesterday?", translation: "למה היית כל כך עייפה אתמול?" }
+          - { speaker: "noa", text: "I had been packing all night.", translation: "ארזתי כל הלילה." }
+        gap: 1
+        distractors: ["I have been pack all night.", "I was pack all night before."]
+        lexemes: [had-been-ing]
+      - id: u40-l3-08
+        type: word_bank
+        prompt: "כשהגעתי, הוא כבר הלך."
+        answers: ["When I arrived, he had already left.", "When I got there, he had already left."]
+        distractors: [has, was]
+        lexemes: [had, already]
+      - id: u40-l3-09
+        type: translate
+        direction: to_target
+        prompt: "היא חשבה על זה חודשים לפני שהחליטה."
+        answers: ["She had been thinking about it for months before she decided.", "She had been thinking about it for months before deciding."]
+        lexemes: [had-been-ing, decide]
+      - id: u40-l3-10
+        type: translate
+        direction: to_source
+        prompt: "It was raining while we were walking home."
+        answers: ["ירד גשם בזמן שהלכנו הביתה.", "ירד גשם כשהלכנו הביתה."]
+        lexemes: [was-ing, while]
+      - id: u40-l3-11
+        type: speak_repeat
+        text: "She had been thinking about it for weeks before she decided."
+        translation: "היא חשבה על זה שבועות לפני שהחליטה."
+        lexemes: [had-been-ing]
+
+  # ------------------------------------------------------------------ 4
+  - id: u40-l4
+    kind: listening
+    title: { he: "מסיבת פרידה", en: "The farewell party" }
+    exercises:
+      - id: u40-l4-01
+        type: dialogue
+        scene: "מסיבת הפרידה של נועה במשרד. אוכל כשר, מיץ וקפה."
+        lines:
+          - { speaker: "ben", text: "We've all been preparing this farewell for weeks. We wanted it to be perfect.", translation: "כולנו מכינים את מסיבת הפרידה הזאת כבר שבועות. רצינו שתהיה מושלמת." }
+          - { speaker: "noa", text: "I'm so touched. When I arrived in London, I didn't know anyone.", translation: "אני כל כך נרגשת. כשהגעתי ללונדון, לא הכרתי אף אחד." }
+          - { speaker: "eli", text: "And now you've made so many friends. You were working late every night when we first met.", translation: "ועכשיו הכרת כל כך הרבה חברים. כשנפגשנו לראשונה עבדת עד מאוחר כל לילה." }
+          - { speaker: "noa", text: "True! I had been working for three weeks without a day off.", translation: "נכון! עבדתי שלושה שבועות בלי יום חופש." }
+          - { speaker: "cohen", text: "At last you've learned to relax. Welcome to the next chapter, Noa.", translation: "סוף־סוף למדת להירגע. ברוכה הבאה לפרק הבא, נועה." }
+      - id: u40-l4-02
+        type: multiple_choice
+        prompt: "מה הצוות הכין כבר שבועות?"
+        options: [את מסיבת הפרידה, את החוזה, את ההרצאה]
+        correct: 0
+        lexemes: [farewell]
+      - id: u40-l4-03
+        type: multiple_choice
+        prompt: "איך הייתה נועה כשהגיעה ללונדון?"
+        options: [לא הכירה אף אחד, הכירה את כולם, הייתה בחופשה]
+        correct: 0
+        lexemes: [had-been-ing]
+      - id: u40-l4-04
+        type: listening_choice
+        audioText: "By the time I arrived, everyone had gone home."
+        question: מה היא אומרת?
+        options: [עד שהגיעה כולם כבר הלכו, כולם הגיעו אחריה, כולם נשארו]
+        correct: 0
+        lexemes: [had]
+      - id: u40-l4-05
+        type: listening_choice
+        audioText: "She had been waiting for an hour when the bus finally came."
+        question: מה קרה?
+        options: [היא חיכתה שעה לפני שהאוטובוס הגיע, האוטובוס איחר שעה אחרי שהיא הלכה, היא לא חיכתה]
+        correct: 0
+        lexemes: [had-been-ing]
+      - id: u40-l4-06
+        type: dictation
+        text: "At last you have learned to relax."
+        lexemes: [in-the-end-2]
+      - id: u40-l4-07
+        type: translate
+        direction: to_target
+        prompt: "ברוכה הבאה לפרק הבא."
+        answers: ["Welcome to the next chapter.", "Welcome to the next chapter!"]
+        lexemes: [new-chapter]
+      - id: u40-l4-08
+        type: speak_repeat
+        text: "When I arrived in London, I didn't know anyone."
+        translation: "כשהגעתי ללונדון, לא הכרתי אף אחד."
+        lexemes: [farewell]
+
+  # ------------------------------------------------------------------ 5
+  - id: u40-l5
+    kind: reading
+    title: { he: "סיום פרק", en: "The end of a chapter" }
+    exercises:
+      - id: u40-l5-01
+        type: reading
+        kind: "סיפור קצר"
+        title: "Coming home"
+        text: |
+          Noa's plane landed at Ben Gurion Airport on a warm spring morning. She had been dreaming of this moment for months, and now it felt almost unreal.
+
+          While she was waiting for her suitcase, she remembered the day she had left. She had been so nervous that she had forgotten her passport at home, and her mother had run after the taxi with it in her hand. Everybody had laughed about it later.
+
+          Now her family was waiting outside. Her mother was crying, her father was holding a sign that said "Welcome home, Manager!", and her little brother was filming everything on his phone.
+
+          "I wish you had come sooner," her mother whispered. Noa smiled. "I don't," she said. "If I hadn't gone, I wouldn't have learned so much. I have no regrets."
+
+          She picked up her suitcase and walked out into the sunshine. A new chapter had begun.
+        translation: |
+          המטוס של נועה נחת בנתב"ג בבוקר אביבי וחם. היא חלמה על הרגע הזה חודשים, ועכשיו זה כמעט לא נראה אמיתי.
+
+          בזמן שחיכתה למזוודה, היא נזכרה ביום שבו עזבה. היא הייתה כל כך לחוצה שהשאירה את הדרכון בבית, ואמה רצה אחרי המונית עם הדרכון ביד. כולם צחקו על זה אחר כך.
+
+          עכשיו משפחתה חיכתה בחוץ. אמה בכתה, אביה החזיק שלט שאמר "ברוכה השבה הביתה, מנהלת!", ואחיה הקטן צילם הכול בטלפון.
+
+          "הלוואי שהיית באה מוקדם יותר", לחשה אמה. נועה חייכה. "אני לא", אמרה. "אילו לא הייתי נוסעת, לא הייתי לומדת כל כך הרבה. אין לי חרטות."
+
+          היא הרימה את המזוודה ויצאה אל השמש. פרק חדש התחיל.
+      - id: u40-l5-02
+        type: multiple_choice
+        prompt: "מה קרה ביום שנועה עזבה?"
+        options: [היא שכחה את הדרכון ואמה רצה אחרי המונית, היא איחרה לטיסה, היא איבדה את המזוודה]
+        correct: 0
+        lexemes: [passport]
+      - id: u40-l5-03
+        type: multiple_choice
+        prompt: "מה כתוב על השלט של אביה?"
+        options: [ברוכה השבה הביתה, מנהלת, ברוכה הבאה ללונדון, תודה]
+        correct: 0
+        lexemes: [new-chapter]
+      - id: u40-l5-04
+        type: multiple_choice
+        prompt: "למה נועה אומרת שהיא לא מצטערת?"
+        options: [כי למדה הרבה מהנסיעה, כי לא למדה כלום, כי לא רצתה לחזור]
+        correct: 0
+        lexemes: [no-regrets]
+      - id: u40-l5-05
+        type: fill_blank
+        sentence: "She had ___ dreaming of this moment for months."
+        translation: "היא חלמה על הרגע הזה חודשים."
+        answers: [been]
+        options: [been, being, was]
+        lexemes: [had-been-ing]
+      - id: u40-l5-06
+        type: fill_blank
+        sentence: "If I hadn't gone, I wouldn't ___ learned so much."
+        translation: "אילו לא הייתי נוסעת, לא הייתי לומדת כל כך הרבה."
+        answers: [have]
+        options: [have, had, has]
+        lexemes: [if-had-done, would-have]
+      - id: u40-l5-07
+        type: translate
+        direction: to_target
+        prompt: "פרק חדש התחיל."
+        answers: ["A new chapter had begun.", "A new chapter began.", "A new chapter has begun.", "A new chapter started."]
+        lexemes: [new-chapter]
+      - id: u40-l5-08
+        type: speak_repeat
+        text: "If I hadn't gone, I wouldn't have learned so much."
+        translation: "אילו לא הייתי נוסעת, לא הייתי לומדת כל כך הרבה."
+        lexemes: [if-had-done]
+
+  # ------------------------------------------------------------------ 6
+  - id: u40-review
+    kind: review
+    title: { he: "חזרה: ההחלטה", en: "Review: the decision" }
+    exercises:
+      - id: u40-r-01
+        type: match_pairs
+        pairs:
+          - [relocate, לעבור לעיר אחרת]
+          - [settle down, להשתקע]
+          - [farewell, פרידה]
+          - [adventure, הרפתקה]
+          - [decision, החלטה]
+        lexemes: [relocate, settle-down, farewell, adventure, decision]
+      - id: u40-r-02
+        type: fill_blank
+        sentence: "By the time we arrived, the film ___ started."
+        translation: "עד שהגענו, הסרט כבר התחיל."
+        answers: [had]
+        options: [had, has, was]
+        lexemes: [had-been-ing]
+      - id: u40-r-03
+        type: fill_blank
+        sentence: "I was cooking while he ___ the table. (set)"
+        translation: "בישלתי בזמן שהוא ערך את השולחן."
+        answers: [was setting]
+        options: [was setting, had set, sets]
+        lexemes: [was-ing]
+      - id: u40-r-04
+        type: listening_choice
+        audioText: "She had been working there for ten years when she left."
+        question: מה הוא אומר?
+        options: [שהיא עבדה שם עשר שנים לפני שעזבה, שהיא תעבוד עשר שנים, שהיא התחילה לעבוד]
+        correct: 0
+        lexemes: [had-been-ing]
+      - id: u40-r-05
+        type: multiple_choice
+        prompt: "איזה משפט נכון?"
+        options: ["She was crying because she had lost her keys.", "She cried because she was losing her keys before.", "She has cried because she lost her keys."]
+        correct: 0
+        lexemes: [had-been-ing]
+      - id: u40-r-06
+        type: word_bank
+        prompt: "הגיע הזמן להחליט."
+        answers: ["It's time to make a decision.", "It's time to decide.", "It is time to make a decision.", "It is time to decide."]
+        distractors: [made, deciding]
+        lexemes: [decision]
+      - id: u40-r-07
+        type: translate
+        direction: to_target
+        prompt: "אין לי חרטות."
+        answers: ["I have no regrets.", "No regrets.", "I don't have any regrets."]
+        lexemes: [no-regrets]
+      - id: u40-r-08
+        type: translate
+        direction: to_source
+        prompt: "She followed her heart."
+        answers: ["היא הלכה אחרי הלב.", "היא הלכה אחרי הלב שלה."]
+        lexemes: [follow-your-heart]
+      - id: u40-r-09
+        type: dictation
+        text: "A new chapter has begun."
+        lexemes: [new-chapter]
+      - id: u40-r-10
+        type: speak_repeat
+        text: "I have no regrets. It's time for a new chapter."
+        translation: "אין לי חרטות. הגיע הזמן לפרק חדש."
+        lexemes: [no-regrets, new-chapter]
+
+  # ------------------------------------------------------------------ test
+  - id: b2-test
+    kind: test
+    title: { he: "מבחן רמה B2", en: "B2 level test" }
+    exercises:
+      - id: b2-t-01
+        type: fill_blank
+        sentence: "I ___ working here since 2019."
+        translation: "אני עובדת כאן מאז 2019."
+        answers: ["have been"]
+        options: ["have been", "am", "was"]
+        lexemes: [have-been-ing]
+      - id: b2-t-02
+        type: fill_blank
+        sentence: "___ it was raining, we went for a walk."
+        translation: "למרות שירד גשם, יצאנו לטייל."
+        answers: [Although]
+        options: [Although, Despite, However]
+        lexemes: [although]
+      - id: b2-t-03
+        type: fill_blank
+        sentence: "The film was ___ boring that I fell asleep."
+        translation: "הסרט היה כל כך משעמם שהירדמתי."
+        answers: [so]
+        options: [so, such, too]
+        lexemes: [so-such]
+      - id: b2-t-04
+        type: multiple_choice
+        prompt: "איזה משפט נכון?"
+        options: ["I had my laptop repaired yesterday.", "I had repaired my laptop by a technician yesterday.", "I repaired my laptop by a technician."]
+        correct: 0
+        lexemes: [have-it-done]
+      - id: b2-t-05
+        type: dialogue_gap
+        lines:
+          - { speaker: "ben", text: "Have you seen the new report?", translation: "ראית את הדוח החדש?" }
+          - { speaker: "noa", text: "Not yet. It's being printed right now.", translation: "עדיין לא. הוא מודפס עכשיו." }
+        gap: 1
+        distractors: ["Not yet. It is printing right now.", "Not yet. It has print right now."]
+        lexemes: [being-done]
+      - id: b2-t-06
+        type: fill_blank
+        sentence: "If we had asked for more, we would ___ got more."
+        translation: "אילו ביקשנו יותר, היינו מקבלים יותר."
+        answers: [have]
+        options: [have, had, has]
+        lexemes: [if-had-done, would-have]
+      - id: b2-t-07
+        type: multiple_choice
+        prompt: "מה הכי דיפלומטי?"
+        options: ["I'm not sure that would work for us.", "No way.", "That's wrong."]
+        correct: 0
+        lexemes: [im-not-sure]
+      - id: b2-t-08
+        type: fill_blank
+        sentence: "By 2030, they will ___ built a new school."
+        translation: "עד 2030 הם יבנו בית ספר חדש."
+        answers: [have]
+        options: [have, be, had]
+        lexemes: [will-have-done]
+      - id: b2-t-09
+        type: fill_blank
+        sentence: "This time tomorrow, I'll ___ flying to Rome."
+        translation: "מחר בשעה הזאת אהיה באוויר בדרך לרומא."
+        answers: [be]
+        options: [be, have, been]
+        lexemes: [will-be-ing]
+      - id: b2-t-10
+        type: fill_blank
+        sentence: "The lights are off. They ___ be asleep."
+        translation: "האורות כבויים. הם בטח ישנים."
+        answers: [must]
+        options: [must, can't have, might have]
+        lexemes: [must-be]
+      - id: b2-t-11
+        type: fill_blank
+        sentence: "He hasn't called. He ___ have forgotten."
+        translation: "הוא לא התקשר. אולי הוא שכח."
+        answers: [might]
+        options: [might, must be, can't]
+        lexemes: [might-have]
+      - id: b2-t-12
+        type: fill_blank
+        sentence: "The doctor advised him ___ more water."
+        translation: "הרופא יעץ לו לשתות יותר מים."
+        answers: [to drink]
+        options: [to drink, drinking, drink]
+        lexemes: [advise]
+      - id: b2-t-13
+        type: multiple_choice
+        prompt: "איזה משפט נכון?"
+        options: ["She suggested going home early.", "She suggested to go home early.", "She suggested us going home early."]
+        correct: 0
+        lexemes: [suggest]
+      - id: b2-t-14
+        type: fill_blank
+        sentence: "The results were good. ___, we need more data."
+        translation: "התוצאות היו טובות. עם זאת, אנחנו צריכים עוד נתונים."
+        answers: [Nevertheless]
+        options: [Nevertheless, Furthermore, In conclusion]
+        lexemes: [nevertheless]
+      - id: b2-t-15
+        type: multiple_choice
+        prompt: "איזו מילה פותחת סיכום?"
+        options: [In conclusion, Furthermore, To begin with]
+        correct: 0
+        lexemes: [in-conclusion]
+      - id: b2-t-16
+        type: fill_blank
+        sentence: "I wish I ___ more free time."
+        translation: "הלוואי שהיה לי יותר זמן פנוי."
+        answers: [had]
+        options: [had, have, would have]
+        lexemes: [i-wish-past]
+      - id: b2-t-17
+        type: fill_blank
+        sentence: "If only I ___ known!"
+        translation: "הלוואי שהייתי יודע!"
+        answers: [had]
+        options: [had, would, have]
+        lexemes: [if-only]
+      - id: b2-t-18
+        type: fill_blank
+        sentence: "When she arrived, everybody ___ already left."
+        translation: "כשהגיעה, כולם כבר הלכו."
+        answers: [had]
+        options: [had, has, was]
+        lexemes: [had-been-ing]
+      - id: b2-t-19
+        type: translate
+        direction: to_target
+        prompt: "אילו ידעתי, הייתי עוזרת לך."
+        answers: ["If I had known, I would have helped you.", "If I'd known, I would have helped you.", "If I'd known, I'd have helped you."]
+        lexemes: [if-had-done]
+      - id: b2-t-20
+        type: translate
+        direction: to_target
+        prompt: "היא חשבה על זה חודשים לפני שהחליטה."
+        answers: ["She had been thinking about it for months before she decided.", "She had been thinking about it for months before deciding."]
+        lexemes: [had-been-ing]

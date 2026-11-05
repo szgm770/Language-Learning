@@ -1,0 +1,441 @@
+id: u37-science
+cefr: B2
+scene: health
+title:
+  he: בריאות ומדע
+  en: Health and science
+story: "ד\"ר שטרן מציג מחקר חדש על שינה ובריאות, ובן ונועה מדווחים עליו לצוות. הם לומדים לספר מה אחרים אמרו בלי לצטט מילה במילה."
+canDo:
+  - לדווח על דברי אחרים בעזרת פעלי דיווח (suggest, advise, admit, deny…)
+  - לדבר על מחקרים, טיפול ובריאות
+  - להבדיל בין עובדה, טענה והמלצה
+  - לקרוא כתבה על מחקר רפואי
+
+vocabulary:
+  - { id: "study", text: "study", translation: "מחקר; ללמוד", pos: "noun", pronunciation: "סְטַאדִי" }
+  - { id: "evidence", text: "evidence", translation: "ראיות", pos: "noun", pronunciation: "אֶבִּידֶנְס" }
+  - { id: "result-noun", text: "result", translation: "תוצאה", pos: "noun", pronunciation: "רִיזַאלְט" }
+  - { id: "treatment", text: "treatment", translation: "טיפול", pos: "noun", pronunciation: "טְרִיטְמֶנְט" }
+  - { id: "symptom", text: "symptom", translation: "סימפטום, תסמין", pos: "noun", pronunciation: "סִימְפְּטֶם" }
+  - { id: "side-effect", text: "side effect", translation: "תופעת לוואי", pos: "noun", pronunciation: "סַיִיד אִיפֶקְט" }
+  - { id: "recover", text: "recover", translation: "להחלים", pos: "verb", pronunciation: "רִיקַאבֶר" }
+  - { id: "prevent", text: "prevent", translation: "למנוע", pos: "verb", pronunciation: "פְּרִיבֶנְט" }
+  - { id: "claim", text: "claim", translation: "לטעון; טענה", pos: "verb", pronunciation: "קְלֵיים" }
+  - { id: "suggest", text: "suggest", translation: "להציע", pos: "verb", pronunciation: "סַאג'ֶסְט", example: { text: "She suggested going for a walk.", translation: "היא הציעה ללכת לטייל." } }
+  - { id: "advise", text: "advise", translation: "לייעץ", pos: "verb", pronunciation: "אַדְוַויז", example: { text: "The doctor advised him to rest.", translation: "הרופא יעץ לו לנוח." } }
+  - { id: "recommend", text: "recommend", translation: "להמליץ", pos: "verb", pronunciation: "רֶקוֹמֶנְד" }
+  - { id: "admit", text: "admit", translation: "להודות", pos: "verb", pronunciation: "אַדְמִיט", example: { text: "He admitted making a mistake.", translation: "הוא הודה שטעה." } }
+  - { id: "deny", text: "deny", translation: "להכחיש", pos: "verb", pronunciation: "דִינַיי" }
+  - { id: "insist", text: "insist", translation: "להתעקש", pos: "verb", pronunciation: "אִינְסִיסְט" }
+  - { id: "sleep-deprived", text: "sleep-deprived", translation: "חסר שינה", pos: "adjective", pronunciation: "סְלִיפּ דִיפְּרַייבְד" }
+
+grammar:
+  - id: reporting-verbs
+    title: { he: "פעלי דיווח", en: "Reporting verbs" }
+    explanation: |
+      במקום "He said: 'I'll rest'" אפשר לדווח בצורה קצרה וטבעית יותר עם **פועל דיווח**. כל פועל נושא תבנית משלו:
+
+      - **suggest + V-ing**: *She suggested going for a walk.*
+      - **advise / recommend / warn + אדם + to + V**: *The doctor advised him to rest.*
+      - **admit / deny + V-ing**: *He admitted making a mistake. / She denied taking it.*
+      - **insist on + V-ing**: *They insisted on paying.*
+      - **claim + to + V**: *The company claims to be the best.*
+
+      שימו לב: אחרי **suggest** לא אומרים "to":
+      ✗ She suggested to go. ✓ She suggested going.
+    examples:
+      - { text: "Dr. Stern advised us to sleep eight hours.", translation: "ד\"ר שטרן יעץ לנו לישון שמונה שעות." }
+      - { text: "He admitted working late every night.", translation: "הוא הודה שהוא עובד עד מאוחר כל לילה." }
+      - { text: "She suggested taking a short break.", translation: "היא הציעה לקחת הפסקה קצרה." }
+
+lessons:
+  # ------------------------------------------------------------------ 1
+  - id: u37-l1
+    kind: new
+    title: { he: "מחקר חדש על שינה", en: "A new study on sleep" }
+    exercises:
+      - id: u37-l1-01
+        type: dialogue
+        scene: "הרצאה בחברה. ד\"ר שטרן מציג מחקר חדש."
+        lines:
+          - { speaker: "dr-stern", text: "Our study followed two thousand people for five years.", translation: "המחקר שלנו עקב אחרי אלפיים איש במשך חמש שנים." }
+          - { speaker: "dr-stern", text: "The results show clear evidence: people who sleep less than six hours get ill more often.", translation: "התוצאות מראות ראיות ברורות: אנשים שישנים פחות משש שעות חולים לעתים קרובות יותר." }
+          - { speaker: "ben", text: "Is there any treatment for sleep-deprived workers?", translation: "יש טיפול לעובדים חסרי שינה?" }
+          - { speaker: "dr-stern", text: "The best treatment is simple: go to bed earlier. There are no side effects.", translation: "הטיפול הטוב ביותר פשוט: ללכת לישון מוקדם יותר. אין תופעות לוואי." }
+      - { id: "u37-l1-02", type: "learn", lexeme: "study" }
+      - { id: "u37-l1-03", type: "learn", lexeme: "result-noun" }
+      - { id: "u37-l1-04", type: "learn", lexeme: "evidence" }
+      - { id: "u37-l1-05", type: "learn", lexeme: "treatment" }
+      - { id: "u37-l1-06", type: "learn", lexeme: "side-effect" }
+      - { id: "u37-l1-07", type: "learn", lexeme: "sleep-deprived" }
+      - id: u37-l1-08
+        type: match_pairs
+        pairs:
+          - [study, מחקר]
+          - [result, תוצאה]
+          - [evidence, ראיות]
+          - [treatment, טיפול]
+          - [side effect, תופעת לוואי]
+        lexemes: [study, result-noun, evidence, treatment, side-effect]
+      - id: u37-l1-09
+        type: multiple_choice
+        prompt: "כמה זמן נמשך המחקר?"
+        options: [חמש שנים, שנתיים, חודש]
+        correct: 0
+        lexemes: [study]
+      - id: u37-l1-10
+        type: multiple_choice
+        prompt: "מה הטיפול שד\"ר שטרן ממליץ?"
+        options: [ללכת לישון מוקדם יותר, לקחת תרופה, לשתות קפה]
+        correct: 0
+        lexemes: [treatment]
+      - id: u37-l1-11
+        type: listening_choice
+        audioText: "The study found clear evidence of the problem."
+        question: מה המחקר מצא?
+        options: [ראיות ברורות לבעיה, שום דבר, תרופה חדשה]
+        correct: 0
+        lexemes: [study, evidence]
+      - id: u37-l1-12
+        type: word_bank
+        prompt: "אין תופעות לוואי."
+        answers: ["There are no side effects."]
+        distractors: [is, effect]
+        lexemes: [side-effect]
+      - id: u37-l1-13
+        type: speak_repeat
+        text: "The results show clear evidence."
+        translation: "התוצאות מראות ראיות ברורות."
+        lexemes: [result-noun, evidence]
+
+  # ------------------------------------------------------------------ 2
+  - id: u37-l2
+    kind: new
+    title: { he: "אצל הרופא", en: "At the doctor's" }
+    exercises:
+      - { id: "u37-l2-01", type: "learn", lexeme: "symptom" }
+      - { id: "u37-l2-02", type: "learn", lexeme: "recover" }
+      - { id: "u37-l2-03", type: "learn", lexeme: "prevent" }
+      - { id: "u37-l2-04", type: "learn", lexeme: "claim" }
+      - { id: "u37-l2-05", type: "learn", lexeme: "recommend" }
+      - { id: "u37-l2-06", type: "learn", lexeme: "insist" }
+      - id: u37-l2-07
+        type: dialogue
+        scene: "דוד מבקר אצל ד\"ר שטרן."
+        lines:
+          - { speaker: "dr-stern", text: "What are your symptoms?", translation: "מהם התסמינים שלך?" }
+          - { speaker: "david", text: "A cough and a headache for three days. But I insist on going to work.", translation: "שיעול וכאב ראש כבר שלושה ימים. אבל אני מתעקש ללכת לעבודה." }
+          - { speaker: "dr-stern", text: "I recommend resting. You'll recover faster, and you won't infect your colleagues.", translation: "אני ממליץ לנוח. תחלים מהר יותר, ולא תדביק את עמיתיך." }
+          - { speaker: "david", text: "Can I do anything to prevent it next winter?", translation: "אפשר לעשות משהו כדי למנוע את זה בחורף הבא?" }
+          - { speaker: "dr-stern", text: "Sleep well, eat well, and wash your hands often.", translation: "תישן טוב, תאכל טוב, ותרחץ ידיים לעתים קרובות." }
+      - id: u37-l2-08
+        type: match_pairs
+        pairs:
+          - [symptom, תסמין]
+          - [recover, להחלים]
+          - [prevent, למנוע]
+          - [claim, לטעון]
+          - [insist, להתעקש]
+        lexemes: [symptom, recover, prevent, claim, insist]
+      - id: u37-l2-09
+        type: multiple_choice
+        prompt: "מה דוד מתעקש לעשות?"
+        options: [ללכת לעבודה, לנסוע לחופשה, לבקש תרופה]
+        correct: 0
+        lexemes: [insist]
+      - id: u37-l2-10
+        type: multiple_choice
+        prompt: "למה הרופא ממליץ לנוח?"
+        options: [כדי להחלים מהר ולא להדביק אחרים, כי יש חג, כי הוא עסוק]
+        correct: 0
+        lexemes: [recommend, recover]
+      - id: u37-l2-11
+        type: dialogue_gap
+        lines:
+          - { speaker: "dr-stern", text: "Did you take the medicine?", translation: "לקחת את התרופה?" }
+          - { speaker: "david", text: "Yes, I did. I'm starting to recover.", translation: "כן. אני מתחיל להחלים." }
+        gap: 1
+        distractors: ["Yes, I did. I'm starting recovering.", "Yes, I took. I'm start to recover."]
+        lexemes: [recover, medicine]
+      - id: u37-l2-12
+        type: translate
+        direction: to_target
+        prompt: "אילו תסמינים יש לך?"
+        answers: ["What symptoms do you have?", "Which symptoms do you have?", "What are your symptoms?"]
+        lexemes: [symptom]
+      - id: u37-l2-13
+        type: translate
+        direction: to_source
+        prompt: "Sleep can prevent many illnesses."
+        answers: ["שינה יכולה למנוע מחלות רבות.", "שינה יכולה למנוע הרבה מחלות."]
+        lexemes: [prevent]
+      - id: u37-l2-14
+        type: speak_repeat
+        text: "I recommend resting. You'll recover faster."
+        translation: "אני ממליץ לנוח. תחלים מהר יותר."
+        lexemes: [recommend, recover]
+
+  # ------------------------------------------------------------------ 3
+  - id: u37-l3
+    kind: grammar
+    grammar: reporting-verbs
+    title: { he: "הוא הציע, הוא הודה, הוא הכחיש", en: "He suggested, admitted, denied" }
+    exercises:
+      - { id: "u37-l3-01", type: "learn", lexeme: "suggest" }
+      - { id: "u37-l3-02", type: "learn", lexeme: "advise" }
+      - { id: "u37-l3-03", type: "learn", lexeme: "admit" }
+      - { id: "u37-l3-04", type: "learn", lexeme: "deny" }
+      - id: u37-l3-05
+        type: fill_blank
+        sentence: "The doctor advised him ___ rest."
+        translation: "הרופא יעץ לו לנוח."
+        answers: [to]
+        options: [to, resting, for]
+        lexemes: [advise]
+      - id: u37-l3-06
+        type: fill_blank
+        sentence: "She suggested ___ a short break. (take)"
+        translation: "היא הציעה לקחת הפסקה קצרה."
+        answers: [taking]
+        options: [taking, to take, take]
+        lexemes: [suggest]
+      - id: u37-l3-07
+        type: fill_blank
+        sentence: "He admitted ___ the wrong answer. (give)"
+        translation: "הוא הודה שנתן תשובה שגויה."
+        answers: [giving]
+        options: [giving, to give, give]
+        lexemes: [admit]
+      - id: u37-l3-08
+        type: multiple_choice
+        prompt: "איזה משפט נכון?"
+        options: ["She denied taking the money.", "She denied to take the money.", "She denied take the money."]
+        correct: 0
+        lexemes: [deny]
+      - id: u37-l3-09
+        type: multiple_choice
+        prompt: "איזה משפט נכון?"
+        options: ["He suggested going home early.", "He suggested to go home early.", "He suggested us to go home early."]
+        correct: 0
+        lexemes: [suggest]
+      - id: u37-l3-10
+        type: dialogue_gap
+        lines:
+          - { speaker: "noa", text: "What did Dr. Stern say?", translation: "מה אמר ד\"ר שטרן?" }
+          - { speaker: "ben", text: "He advised us to go to bed earlier.", translation: "הוא יעץ לנו ללכת לישון מוקדם יותר." }
+        gap: 1
+        distractors: ["He advised us go to bed earlier.", "He advised to us going to bed earlier."]
+        lexemes: [advise]
+      - id: u37-l3-11
+        type: word_bank
+        prompt: "הוא הודה שהוא עייף."
+        answers: ["He admitted being tired.", "He admitted that he was tired.", "He admitted he was tired."]
+        distractors: [to, tire]
+        lexemes: [admit, tired]
+      - id: u37-l3-12
+        type: translate
+        direction: to_target
+        prompt: "היא הציעה ללכת לטייל."
+        answers: ["She suggested going for a walk.", "She suggested going for a stroll.", "She suggested taking a walk."]
+        lexemes: [suggest]
+      - id: u37-l3-13
+        type: translate
+        direction: to_source
+        prompt: "He denied breaking the window."
+        answers: ["הוא הכחיש ששבר את החלון.", "הוא הכחיש שהוא שבר את החלון."]
+        lexemes: [deny, broke]
+      - id: u37-l3-14
+        type: speak_repeat
+        text: "The doctor advised him to rest and recommended drinking more water."
+        translation: "הרופא יעץ לו לנוח והמליץ לשתות יותר מים."
+        lexemes: [advise, recommend]
+
+  # ------------------------------------------------------------------ 4
+  - id: u37-l4
+    kind: listening
+    title: { he: "מה הוא אמר?", en: "What did he say?" }
+    exercises:
+      - id: u37-l4-01
+        type: dialogue
+        scene: "אחרי ההרצאה. תמר שואלת את בן מה אמר ד\"ר שטרן."
+        lines:
+          - { speaker: "tamar", text: "I missed the lecture. What did Dr. Stern say?", translation: "החמצתי את ההרצאה. מה אמר ד\"ר שטרן?" }
+          - { speaker: "ben", text: "He said that sleep is more important than we think. He advised us to sleep at least seven hours.", translation: "הוא אמר ששינה חשובה יותר ממה שאנחנו חושבים. הוא יעץ לנו לישון לפחות שבע שעות." }
+          - { speaker: "tamar", text: "Did he mention coffee?", translation: "הוא הזכיר קפה?" }
+          - { speaker: "ben", text: "Yes. He suggested drinking less after lunch. Eli admitted having six cups a day!", translation: "כן. הוא הציע לשתות פחות אחרי ארוחת הצהריים. אלי הודה שהוא שותה שישה כוסות ביום!" }
+          - { speaker: "tamar", text: "And Eli didn't deny it?", translation: "ואלי לא הכחיש?" }
+          - { speaker: "ben", text: "No, he laughed and promised to change.", translation: "לא, הוא צחק והבטיח להשתנות." }
+      - id: u37-l4-02
+        type: multiple_choice
+        prompt: "מה ד\"ר שטרן יעץ?"
+        options: [לישון לפחות שבע שעות, לשתות יותר קפה, לעבוד בלילה]
+        correct: 0
+        lexemes: [advise]
+      - id: u37-l4-03
+        type: multiple_choice
+        prompt: "מה אלי הודה?"
+        options: [ששותה שישה כוסות קפה ביום, שלא ישן, שאיחר]
+        correct: 0
+        lexemes: [admit]
+      - id: u37-l4-04
+        type: multiple_choice
+        prompt: "איך אלי הגיב?"
+        options: [צחק והבטיח להשתנות, כעס, הכחיש]
+        correct: 0
+        lexemes: [deny]
+      - id: u37-l4-05
+        type: listening_choice
+        audioText: "She suggested taking a break."
+        question: מה היא עשתה?
+        options: [הציעה לקחת הפסקה, הזהירה לא לקחת, הכחישה שלקחה]
+        correct: 0
+        lexemes: [suggest]
+      - id: u37-l4-06
+        type: dictation
+        text: "He denied breaking the window."
+        lexemes: [deny, broke]
+      - id: u37-l4-07
+        type: translate
+        direction: to_target
+        prompt: "הרופא המליץ לנוח."
+        answers: ["The doctor recommended resting.", "The doctor recommended rest.", "The doctor recommended that I rest.", "The doctor advised me to rest."]
+        lexemes: [recommend, rest]
+      - id: u37-l4-08
+        type: speak_repeat
+        text: "He suggested drinking less coffee after lunch."
+        translation: "הוא הציע לשתות פחות קפה אחרי ארוחת הצהריים."
+        lexemes: [suggest, coffee]
+
+  # ------------------------------------------------------------------ 5
+  - id: u37-l5
+    kind: reading
+    title: { he: "כתבה: האם אפשר לישון פחות?", en: "Can we sleep less?" }
+    exercises:
+      - id: u37-l5-01
+        type: reading
+        kind: "כתבה מדעית"
+        title: "Can we really sleep less?"
+        text: |
+          Some people claim to need only four hours of sleep. A new study suggests that this is almost always a mistake.
+
+          Scientists followed a group of sleep-deprived workers for a year. Many admitted feeling tired, but most insisted that they were fine. The results, however, were clear: they made more mistakes, forgot more, and got ill more often.
+
+          The researchers advised everyone to sleep between seven and nine hours, and recommended going to bed at the same time every night. They also warned people not to look at their phones in bed. None of the treatments has side effects, and the evidence is strong: good sleep can prevent many problems.
+        translation: |
+          יש אנשים הטוענים שהם צריכים רק ארבע שעות שינה. מחקר חדש מציע שזו כמעט תמיד טעות.
+
+          מדענים עקבו אחרי קבוצת עובדים חסרי שינה במשך שנה. רבים הודו שהם מרגישים עייפים, אבל רובם התעקשו שהם בסדר. התוצאות, עם זאת, היו ברורות: הם עשו יותר טעויות, שכחו יותר, וחלו לעתים קרובות יותר.
+
+          החוקרים יעצו לכולם לישון בין שבע לתשע שעות, והמליצו ללכת לישון באותה שעה בכל לילה. הם גם הזהירו אנשים לא להסתכל בטלפון במיטה. לאף אחד מהטיפולים אין תופעות לוואי, והראיות חזקות: שינה טובה יכולה למנוע בעיות רבות.
+      - id: u37-l5-02
+        type: multiple_choice
+        prompt: "מה טוענים חלק מהאנשים?"
+        options: [שהם צריכים רק ארבע שעות שינה, שהם לא צריכים אוכל, שהם ישנים הרבה]
+        correct: 0
+        lexemes: [claim]
+      - id: u37-l5-03
+        type: multiple_choice
+        prompt: "מה התוצאות הראו לגבי חסרי השינה?"
+        options: [הם עשו יותר טעויות וחלו יותר, הם עבדו טוב יותר, אין שינוי]
+        correct: 0
+        lexemes: [result-noun, sleep-deprived]
+      - id: u37-l5-04
+        type: multiple_choice
+        prompt: "מה החוקרים המליצו?"
+        options: [ללכת לישון באותה שעה כל לילה, לשתות הרבה קפה, לישון ארבע שעות]
+        correct: 0
+        lexemes: [recommend]
+      - id: u37-l5-05
+        type: fill_blank
+        sentence: "The researchers advised everyone ___ sleep seven hours."
+        translation: "החוקרים יעצו לכולם לישון שבע שעות."
+        answers: [to]
+        options: [to, for, of]
+        lexemes: [advise]
+      - id: u37-l5-06
+        type: fill_blank
+        sentence: "They recommended ___ to bed at the same time. (go)"
+        translation: "הם המליצו ללכת לישון באותה שעה."
+        answers: [going]
+        options: [going, to go, go]
+        lexemes: [recommend]
+      - id: u37-l5-07
+        type: translate
+        direction: to_target
+        prompt: "שינה טובה יכולה למנוע בעיות."
+        answers: ["Good sleep can prevent problems.", "Good sleep can prevent many problems.", "Sleeping well can prevent problems."]
+        lexemes: [prevent]
+      - id: u37-l5-08
+        type: speak_repeat
+        text: "The evidence is strong: good sleep can prevent many problems."
+        translation: "הראיות חזקות: שינה טובה יכולה למנוע בעיות רבות."
+        lexemes: [evidence, prevent]
+
+  # ------------------------------------------------------------------ 6
+  - id: u37-review
+    kind: review
+    title: { he: "חזרה: בריאות ומדע", en: "Review: health and science" }
+    exercises:
+      - id: u37-r-01
+        type: match_pairs
+        pairs:
+          - [advise, לייעץ]
+          - [admit, להודות]
+          - [deny, להכחיש]
+          - [suggest, להציע]
+          - [recover, להחלים]
+        lexemes: [advise, admit, deny, suggest, recover]
+      - id: u37-r-02
+        type: fill_blank
+        sentence: "The doctor advised her ___ more water."
+        translation: "הרופא יעץ לה לשתות יותר מים."
+        answers: [to drink]
+        options: [to drink, drinking, drink]
+        lexemes: [advise]
+      - id: u37-r-03
+        type: fill_blank
+        sentence: "He admitted ___ the answer. (not know)"
+        translation: "הוא הודה שלא ידע את התשובה."
+        answers: [not knowing]
+        options: [not knowing, not to know, don't know]
+        lexemes: [admit]
+      - id: u37-r-04
+        type: listening_choice
+        audioText: "She insisted on paying for dinner."
+        question: מה היא עשתה?
+        options: [התעקשה לשלם על הארוחה, סירבה לשלם, שכחה לשלם]
+        correct: 0
+        lexemes: [insist]
+      - id: u37-r-05
+        type: multiple_choice
+        prompt: "איזה משפט נכון?"
+        options: ["He denied taking it.", "He denied to take it.", "He denied take it."]
+        correct: 0
+        lexemes: [deny]
+      - id: u37-r-06
+        type: word_bank
+        prompt: "הרופא המליץ לנוח."
+        answers: ["The doctor recommended resting.", "The doctor recommended rest."]
+        distractors: [to, rested]
+        lexemes: [recommend, rest]
+      - id: u37-r-07
+        type: translate
+        direction: to_target
+        prompt: "יש תופעות לוואי?"
+        answers: ["Are there any side effects?", "Are there side effects?", "Does it have side effects?", "Does it have any side effects?"]
+        lexemes: [side-effect]
+      - id: u37-r-08
+        type: translate
+        direction: to_source
+        prompt: "The study suggests that sleep is important."
+        answers: ["המחקר מציע ששינה חשובה.", "המחקר מצביע על כך ששינה חשובה.", "המחקר מעלה שהשינה חשובה."]
+        lexemes: [study, suggest]
+      - id: u37-r-09
+        type: dictation
+        text: "He recovered quickly."
+        lexemes: [recover]
+      - id: u37-r-10
+        type: speak_repeat
+        text: "She suggested taking a break, and he admitted feeling tired."
+        translation: "היא הציעה לקחת הפסקה, והוא הודה שהוא עייף."
+        lexemes: [suggest, admit]

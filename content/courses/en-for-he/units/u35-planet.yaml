@@ -1,0 +1,444 @@
+id: u35-planet
+cefr: B2
+scene: nature
+title:
+  he: הכוכב שלנו
+  en: Our planet
+story: "החברה מחליטה להפוך ל'ירוקה'. נועה, בן ואלי מתכננים את העתיד: מה יקרה בעוד עשר שנים, ומה כבר יהיה גמור עד אז."
+canDo:
+  - לדבר על הסביבה, אנרגיה ומחזור
+  - להשתמש בעתיד ממושך (will be doing) לתאר מה ייעשה בזמן מסוים בעתיד
+  - להשתמש בעתיד מושלם (will have done) לתאר מה יהיה גמור עד זמן מסוים
+  - לקרוא מאמר על שינויי אקלים
+
+vocabulary:
+  - { id: "climate", text: "climate", translation: "אקלים", pos: "noun", pronunciation: "קְלַיימֶט" }
+  - { id: "global-warming", text: "global warming", translation: "התחממות גלובלית", pos: "noun", pronunciation: "גְלוֹבֶּל וּוֹרְמִינְג" }
+  - { id: "environment", text: "environment", translation: "סביבה", pos: "noun", pronunciation: "אִנְוַויְרֶנְמֶנְט" }
+  - { id: "recycle", text: "recycle", translation: "למחזר", pos: "verb", pronunciation: "רִיסַייקֶל" }
+  - { id: "plastic", text: "plastic", translation: "פלסטיק", pos: "noun", pronunciation: "פְּלַסְטִיק" }
+  - { id: "waste", text: "waste", translation: "פסולת; לבזבז", pos: "noun", pronunciation: "וֵויְסְט" }
+  - { id: "reduce", text: "reduce", translation: "להפחית, לצמצם", pos: "verb", pronunciation: "רִידִיוּס" }
+  - { id: "renewable", text: "renewable", translation: "מתחדש", pos: "adjective", pronunciation: "רִינְיוּאֶבֶּל" }
+  - { id: "solar-panel", text: "solar panel", translation: "לוח סולארי", pos: "noun", pronunciation: "סוֹלֶר פֶּנֶל" }
+  - { id: "fossil-fuel", text: "fossil fuel", translation: "דלק מאובנים", pos: "noun", pronunciation: "פוֹסֶל פְיוּאֶל" }
+  - { id: "sustainable", text: "sustainable", translation: "בר־קיימא", pos: "adjective", pronunciation: "סַסְטֵינַבֶּל" }
+  - { id: "forest", text: "forest", translation: "יער", pos: "noun", pronunciation: "פוֹרֶסְט" }
+  - { id: "species", text: "species", translation: "מין (בעולם החי)", pos: "noun", pronunciation: "ספִּישִׁיז" }
+  - { id: "generation", text: "generation", translation: "דור", pos: "noun", pronunciation: "ג'ֶנֶרֵישֶׁן" }
+  - { id: "ban", text: "ban", translation: "לאסור; איסור", pos: "verb", pronunciation: "בַּאן" }
+  - { id: "by-then", text: "by then", translation: "עד אז", pos: "phrase", pronunciation: "בַּיי דֶ'ן", example: { text: "By then, it will be finished.", translation: "עד אז זה כבר יהיה גמור." } }
+  - { id: "this-time-next-year", text: "this time next year", translation: "בשנה הבאה בדיוק בזמן הזה", pos: "phrase", pronunciation: "דִ'יס טַיים נֶקְסְט יִיר" }
+  - { id: "will-be-ing", text: "will be + V-ing", translation: "יהיה בתהליך של… (עתיד ממושך)", pos: "phrase", pronunciation: "ווִיל בִּי", example: { text: "This time tomorrow I'll be flying.", translation: "מחר בשעה הזאת אהיה באוויר." } }
+  - { id: "will-have-done", text: "will have + V3", translation: "כבר יסיים עד… (עתיד מושלם)", pos: "phrase", pronunciation: "ווִיל הֶב", example: { text: "By 2030 we will have planted a million trees.", translation: "עד 2030 כבר נטע מיליון עצים." } }
+  - { id: "by-the-time", text: "by the time", translation: "עד שכש…", pos: "phrase", pronunciation: "בַּיי דֶ'ה טַיים" }
+
+grammar:
+  - id: future-continuous-perfect
+    title: { he: "עתיד ממושך ועתיד מושלם", en: "Future continuous and future perfect" }
+    explanation: |
+      **עתיד ממושך (Future continuous)** – מה יהיה **בתהליך** ברגע מסוים בעתיד:
+      **will be + V-ing**
+      - **This time next year, I'll be working in Haifa.** (בשנה הבאה בדיוק בזמן הזה אעבוד בחיפה)
+      - **Don't call at eight. We'll be having dinner.**
+
+      **עתיד מושלם (Future perfect)** – מה יהיה **כבר גמור** עד רגע מסוים בעתיד:
+      **will have + V3**
+      - **By 2030, the office will have reduced its waste by half.**
+      - **By the time you arrive, I'll have finished.**
+
+      טיפ: **by + זמן** או **by the time** מרמזים על עתיד מושלם. **this time tomorrow** מרמז על עתיד ממושך.
+    examples:
+      - { text: "This time next week, we'll be flying to Rome.", translation: "בשבוע הבא בדיוק בשעה הזאת נהיה באוויר בדרך לרומא." }
+      - { text: "By Friday, I will have finished the report.", translation: "עד יום שישי אסיים את הדוח." }
+      - { text: "By the time you get home, we'll have eaten.", translation: "עד שתגיע הביתה, כבר נאכל." }
+
+lessons:
+  # ------------------------------------------------------------------ 1
+  - id: u35-l1
+    kind: new
+    title: { he: "משרד ירוק", en: "A greener office" }
+    exercises:
+      - id: u35-l1-01
+        type: dialogue
+        scene: "ישיבת צוות. החברה רוצה להפוך ל'ירוקה'."
+        lines:
+          - { speaker: "eli", text: "The company wants to reduce its waste. Any ideas?", translation: "החברה רוצה להפחית את הפסולת שלה. יש רעיונות?" }
+          - { speaker: "noa", text: "We could recycle all our paper and plastic.", translation: "אנחנו יכולים למחזר את כל הנייר והפלסטיק." }
+          - { speaker: "ben", text: "And we could ban plastic cups in the kitchen.", translation: "ואפשר לאסור כוסות פלסטיק במטבח." }
+          - { speaker: "eli", text: "What about energy? The bills are huge.", translation: "ומה לגבי אנרגיה? החשבונות ענקיים." }
+          - { speaker: "noa", text: "Solar panels on the roof. It's renewable and sustainable.", translation: "לוחות סולאריים על הגג. זה מתחדש ובר־קיימא." }
+      - { id: "u35-l1-02", type: "learn", lexeme: "environment" }
+      - { id: "u35-l1-03", type: "learn", lexeme: "waste" }
+      - { id: "u35-l1-04", type: "learn", lexeme: "reduce" }
+      - { id: "u35-l1-05", type: "learn", lexeme: "recycle" }
+      - { id: "u35-l1-06", type: "learn", lexeme: "plastic" }
+      - { id: "u35-l1-07", type: "learn", lexeme: "ban" }
+      - { id: "u35-l1-08", type: "learn", lexeme: "solar-panel" }
+      - { id: "u35-l1-09", type: "learn", lexeme: "renewable" }
+      - { id: "u35-l1-10", type: "learn", lexeme: "sustainable" }
+      - id: u35-l1-11
+        type: match_pairs
+        pairs:
+          - [recycle, למחזר]
+          - [reduce, להפחית]
+          - [ban, לאסור]
+          - [renewable, מתחדש]
+          - [waste, פסולת]
+        lexemes: [recycle, reduce, ban, renewable, waste]
+      - id: u35-l1-12
+        type: multiple_choice
+        prompt: "מה בן מציע?"
+        options: [לאסור כוסות פלסטיק, לעבור לעבוד מהבית, לקנות מכוניות חשמליות]
+        correct: 0
+        lexemes: [ban, plastic]
+      - id: u35-l1-13
+        type: multiple_choice
+        prompt: "מה נועה מציעה לחסוך באנרגיה?"
+        options: [לוחות סולאריים על הגג, לכבות את המחשבים, לסגור את המשרד]
+        correct: 0
+        lexemes: [solar-panel]
+      - id: u35-l1-14
+        type: listening_choice
+        audioText: "We want to reduce our waste and recycle more."
+        question: מה הם רוצים?
+        options: [להפחית פסולת ולמחזר יותר, לקנות יותר, לעבור משרד]
+        correct: 0
+        lexemes: [reduce, waste, recycle]
+      - id: u35-l1-15
+        type: word_bank
+        prompt: "אנחנו צריכים אנרגיה מתחדשת."
+        answers: ["We need renewable energy."]
+        distractors: [renew, energies]
+        lexemes: [renewable, energy]
+      - id: u35-l1-16
+        type: speak_repeat
+        text: "Solar panels are renewable and sustainable."
+        translation: "לוחות סולאריים הם מתחדשים ובני־קיימא."
+        lexemes: [solar-panel, renewable, sustainable]
+
+  # ------------------------------------------------------------------ 2
+  - id: u35-l2
+    kind: new
+    title: { he: "מה קורה לאקלים", en: "What is happening to the climate" }
+    exercises:
+      - { id: "u35-l2-01", type: "learn", lexeme: "climate" }
+      - { id: "u35-l2-02", type: "learn", lexeme: "global-warming" }
+      - { id: "u35-l2-03", type: "learn", lexeme: "fossil-fuel" }
+      - { id: "u35-l2-04", type: "learn", lexeme: "forest" }
+      - { id: "u35-l2-05", type: "learn", lexeme: "species" }
+      - { id: "u35-l2-06", type: "learn", lexeme: "generation" }
+      - id: u35-l2-07
+        type: dialogue
+        scene: "הפסקת קפה. מר כהן, המנהל הוותיק, מדבר עם נועה."
+        lines:
+          - { speaker: "cohen", text: "When I was young, nobody talked about global warming.", translation: "כשהייתי צעיר, אף אחד לא דיבר על התחממות גלובלית." }
+          - { speaker: "noa", text: "Now it's one of the biggest problems of our generation.", translation: "היום זו אחת הבעיות הגדולות של הדור שלנו." }
+          - { speaker: "cohen", text: "Fossil fuels have changed the climate, haven't they?", translation: "דלקי מאובנים שינו את האקלים, לא?" }
+          - { speaker: "noa", text: "Yes, and many species are disappearing with the forests.", translation: "כן, והרבה מינים נעלמים יחד עם היערות." }
+          - { speaker: "cohen", text: "Then we must leave a better world for the next generation.", translation: "אז אנחנו חייבים להשאיר עולם טוב יותר לדור הבא." }
+      - id: u35-l2-08
+        type: match_pairs
+        pairs:
+          - [climate, אקלים]
+          - [global warming, התחממות גלובלית]
+          - [forest, יער]
+          - [species, מין]
+          - [generation, דור]
+        lexemes: [climate, global-warming, forest, species, generation]
+      - id: u35-l2-09
+        type: multiple_choice
+        prompt: "מה גורם לשינוי באקלים לפי הדיאלוג?"
+        options: [דלקי מאובנים, מזג אוויר חם, יותר מדי יערות]
+        correct: 0
+        lexemes: [fossil-fuel, climate]
+      - id: u35-l2-10
+        type: multiple_choice
+        prompt: "מה קורה לבעלי חיים לפי נועה?"
+        options: [מינים רבים נעלמים עם היערות, הם עוברים לערים, הם מתרבים]
+        correct: 0
+        lexemes: [species, forest]
+      - id: u35-l2-11
+        type: dialogue_gap
+        lines:
+          - { speaker: "cohen", text: "What can we do about it?", translation: "מה אנחנו יכולים לעשות בנידון?" }
+          - { speaker: "noa", text: "We can protect the forests and use less fossil fuel.", translation: "אנחנו יכולים להגן על היערות ולהשתמש בפחות דלק מאובנים." }
+        gap: 1
+        distractors: ["We can protecting the forests and use fewer fossil fuel.", "We protect the forests and fossil fuel less use."]
+        lexemes: [protect, forest, fossil-fuel]
+      - id: u35-l2-12
+        type: translate
+        direction: to_target
+        prompt: "אנחנו צריכים להגן על הסביבה."
+        answers: ["We need to protect the environment.", "We have to protect the environment.", "We must protect the environment."]
+        lexemes: [environment, protect]
+      - id: u35-l2-13
+        type: translate
+        direction: to_source
+        prompt: "Global warming is changing the climate."
+        answers: ["ההתחממות הגלובלית משנה את האקלים."]
+        lexemes: [global-warming, climate]
+      - id: u35-l2-14
+        type: speak_repeat
+        text: "We must leave a better world for the next generation."
+        translation: "אנחנו חייבים להשאיר עולם טוב יותר לדור הבא."
+        lexemes: [generation, must]
+
+  # ------------------------------------------------------------------ 3
+  - id: u35-l3
+    kind: grammar
+    grammar: future-continuous-perfect
+    title: { he: "בעוד עשר שנים…", en: "In ten years…" }
+    exercises:
+      - { id: "u35-l3-01", type: "learn", lexeme: "will-be-ing" }
+      - { id: "u35-l3-02", type: "learn", lexeme: "will-have-done" }
+      - { id: "u35-l3-03", type: "learn", lexeme: "by-then" }
+      - { id: "u35-l3-04", type: "learn", lexeme: "by-the-time" }
+      - { id: "u35-l3-05", type: "learn", lexeme: "this-time-next-year" }
+      - id: u35-l3-06
+        type: fill_blank
+        sentence: "This time next year, I'll ___ working in a new office."
+        translation: "בשנה הבאה בדיוק בזמן הזה אעבוד במשרד חדש."
+        answers: [be]
+        options: [be, have, been]
+        lexemes: [will-be-ing, this-time-next-year]
+      - id: u35-l3-07
+        type: fill_blank
+        sentence: "By 2030, we will ___ reduced our waste by half."
+        translation: "עד 2030 נפחית את הפסולת שלנו בחצי."
+        answers: [have]
+        options: [have, be, had]
+        lexemes: [will-have-done, reduce, waste]
+      - id: u35-l3-08
+        type: multiple_choice
+        prompt: "באיזה זמן משתמשים: By Friday, I ___ the report."
+        options: ["will have finished", "will be finishing", "am finishing"]
+        correct: 0
+        lexemes: [will-have-done]
+      - id: u35-l3-09
+        type: multiple_choice
+        prompt: "באיזה זמן משתמשים: Don't call at eight. We ___ dinner."
+        options: ["will be having", "will have had", "have"]
+        correct: 0
+        lexemes: [will-be-ing]
+      - id: u35-l3-10
+        type: dialogue_gap
+        lines:
+          - { speaker: "ben", text: "Can we meet at six?", translation: "אפשר להיפגש בשש?" }
+          - { speaker: "noa", text: "Sorry, at six I'll be picking up the kids. I'll have finished by half past five.", translation: "סליחה, בשש אהיה באיסוף הילדים. אסיים עד חמש וחצי." }
+        gap: 1
+        distractors: ["Sorry, at six I'll have picked up the kids. I'll be finishing by half past five.", "Sorry, at six I pick up the kids. I will finishing by half past five."]
+        lexemes: [will-be-ing, will-have-done]
+      - id: u35-l3-11
+        type: word_bank
+        prompt: "עד שתגיע, כבר אסיים."
+        answers: ["By the time you arrive, I will have finished.", "By the time you arrive, I'll have finished.", "By the time you get here, I'll have finished."]
+        distractors: [be, finishing]
+        lexemes: [by-the-time, will-have-done]
+      - id: u35-l3-12
+        type: translate
+        direction: to_target
+        prompt: "מחר בשעה הזאת אהיה באוויר."
+        answers: ["This time tomorrow I'll be flying.", "This time tomorrow I will be flying.", "At this time tomorrow I'll be flying."]
+        lexemes: [will-be-ing]
+      - id: u35-l3-13
+        type: translate
+        direction: to_source
+        prompt: "By then, the project will have ended."
+        answers: ["עד אז הפרויקט כבר יסתיים.", "עד אז הפרויקט כבר ייגמר.", "עד אז הפרויקט כבר יהיה גמור."]
+        lexemes: [by-then, will-have-done]
+      - id: u35-l3-14
+        type: speak_repeat
+        text: "By 2035 we will have installed solar panels on every roof."
+        translation: "עד 2035 נתקין לוחות סולאריים על כל גג."
+        lexemes: [will-have-done, solar-panel]
+
+  # ------------------------------------------------------------------ 4
+  - id: u35-l4
+    kind: listening
+    title: { he: "תוכנית לעשר שנים", en: "A ten-year plan" }
+    exercises:
+      - id: u35-l4-01
+        type: dialogue
+        scene: "נועה, בן ואלי מציגים תוכנית לעשר שנים."
+        lines:
+          - { speaker: "eli", text: "So, what will we be doing in ten years?", translation: "אז מה נעשה בעוד עשר שנים?" }
+          - { speaker: "noa", text: "We'll be producing all our own energy from solar panels.", translation: "נייצר את כל האנרגיה שלנו בעצמנו מלוחות סולאריים." }
+          - { speaker: "ben", text: "And by then, we'll have stopped using plastic completely.", translation: "ועד אז נפסיק להשתמש בפלסטיק לגמרי." }
+          - { speaker: "eli", text: "Will we have reduced our waste by half by next year?", translation: "האם נפחית את הפסולת בחצי כבר עד שנה הבאה?" }
+          - { speaker: "noa", text: "I think so. By the time the new year starts, we'll have recycled over fifty percent.", translation: "אני חושבת שכן. עד תחילת השנה החדשה נמחזר יותר מחמישים אחוז." }
+      - id: u35-l4-02
+        type: multiple_choice
+        prompt: "מה יעשו בעוד עשר שנים?"
+        options: [ייצרו את כל האנרגיה בעצמם, יעברו לעיר אחרת, יסגרו את החברה]
+        correct: 0
+        lexemes: [will-be-ing, solar-panel]
+      - id: u35-l4-03
+        type: multiple_choice
+        prompt: "מה בן אומר שכבר יהיה גמור עד אז?"
+        options: [הפסקת השימוש בפלסטיק, בניית משרד חדש, גיוס צוות]
+        correct: 0
+        lexemes: [will-have-done, plastic]
+      - id: u35-l4-04
+        type: listening_choice
+        audioText: "By the time you arrive, we will have finished."
+        question: מה הוא אומר?
+        options: [עד שתגיע, כבר נסיים, כשתגיע, נתחיל, אנחנו מסיימים עכשיו]
+        correct: 0
+        lexemes: [by-the-time, will-have-done]
+      - id: u35-l4-05
+        type: listening_choice
+        audioText: "This time next year I'll be working in a new country."
+        question: מה היא אומרת?
+        options: [בשנה הבאה בזמן הזה תעבוד במדינה חדשה, היא עובדת במדינה חדשה, היא עברה מדינה]
+        correct: 0
+        lexemes: [this-time-next-year, will-be-ing]
+      - id: u35-l4-06
+        type: dictation
+        text: "By then, we will have recycled everything."
+        lexemes: [by-then, recycle]
+      - id: u35-l4-07
+        type: translate
+        direction: to_target
+        prompt: "נפחית את הפסולת בחצי."
+        answers: ["We will reduce our waste by half.", "We'll reduce our waste by half.", "We will reduce the waste by half."]
+        lexemes: [reduce, waste]
+      - id: u35-l4-08
+        type: speak_repeat
+        text: "What will we be doing in ten years?"
+        translation: "מה נעשה בעוד עשר שנים?"
+        lexemes: [will-be-ing]
+
+  # ------------------------------------------------------------------ 5
+  - id: u35-l5
+    kind: reading
+    title: { he: "מה יהיה ב-2040?", en: "What will 2040 look like?" }
+    exercises:
+      - id: u35-l5-01
+        type: reading
+        kind: "מאמר דעה"
+        title: "Looking ahead to 2040"
+        text: |
+          Imagine it is the year 2040. By then, most cities will have banned cars that use fossil fuels, and millions of solar panels will be producing clean energy.
+
+          People will be working from home more than ever, so cities will be quieter. Forests that were cut down in the past will be growing again, and some endangered species will have returned.
+
+          But none of this will happen by itself. By the time today's children grow up, our generation will have made some very important decisions. If we act now, we will be able to say that we protected the planet. If we wait, the next generation will be paying the price.
+        translation: |
+          דמיינו שזו שנת 2040. עד אז, רוב הערים יאסרו על מכוניות שפועלות על דלק מאובנים, ומיליוני לוחות סולאריים יפיקו אנרגיה נקייה.
+
+          אנשים יעבדו מהבית יותר מתמיד, ולכן הערים יהיו שקטות יותר. יערות שנכרתו בעבר יגדלו שוב, וכמה מינים בסכנת הכחדה יחזרו.
+
+          אבל שום דבר מזה לא יקרה מעצמו. עד שילדי היום יגדלו, הדור שלנו כבר יקבל כמה החלטות חשובות מאוד. אם נפעל עכשיו, נוכל לומר שהגנו על הכוכב. אם נחכה, הדור הבא ישלם את המחיר.
+      - id: u35-l5-02
+        type: multiple_choice
+        prompt: "מה יהיה בערים ב-2040?"
+        options: [רוב הערים יאסרו מכוניות על דלק מאובנים, אין מכוניות בכלל, אין ערים]
+        correct: 0
+        lexemes: [fossil-fuel, ban]
+      - id: u35-l5-03
+        type: multiple_choice
+        prompt: "למה הערים יהיו שקטות יותר?"
+        options: [אנשים יעבדו מהבית, אין אנשים, ביטלו את הרכבות]
+        correct: 0
+        lexemes: [will-be-ing]
+      - id: u35-l5-04
+        type: multiple_choice
+        prompt: "מה יקרה אם נחכה?"
+        options: [הדור הבא ישלם את המחיר, הכול יסתדר, אקלים יתקרר]
+        correct: 0
+        lexemes: [generation]
+      - id: u35-l5-05
+        type: fill_blank
+        sentence: "By then, most cities will ___ banned these cars."
+        translation: "עד אז רוב הערים יאסרו את המכוניות האלה."
+        answers: [have]
+        options: [have, be, has]
+        lexemes: [will-have-done, ban]
+      - id: u35-l5-06
+        type: fill_blank
+        sentence: "Millions of solar panels will ___ producing clean energy."
+        translation: "מיליוני לוחות סולאריים יפיקו אנרגיה נקייה."
+        answers: [be]
+        options: [be, have, been]
+        lexemes: [will-be-ing, solar-panel]
+      - id: u35-l5-07
+        type: translate
+        direction: to_target
+        prompt: "אם נפעל עכשיו, נגן על הכוכב."
+        answers: ["If we act now, we will protect the planet.", "If we act now, we'll protect the planet.", "If we act now, we can protect the planet."]
+        lexemes: [protect]
+      - id: u35-l5-08
+        type: speak_repeat
+        text: "If we act now, we will protect the planet."
+        translation: "אם נפעל עכשיו, נגן על הכוכב."
+        lexemes: [protect]
+
+  # ------------------------------------------------------------------ 6
+  - id: u35-review
+    kind: review
+    title: { he: "חזרה: הכוכב שלנו", en: "Review: our planet" }
+    exercises:
+      - id: u35-r-01
+        type: match_pairs
+        pairs:
+          - [sustainable, בר־קיימא]
+          - [fossil fuel, דלק מאובנים]
+          - [environment, סביבה]
+          - [global warming, התחממות גלובלית]
+          - [recycle, למחזר]
+        lexemes: [sustainable, fossil-fuel, environment, global-warming, recycle]
+      - id: u35-r-02
+        type: fill_blank
+        sentence: "By next June, I ___ have saved enough money."
+        translation: "עד יוני הבא אחסוך מספיק כסף."
+        answers: [will]
+        options: [will, am, would be]
+        lexemes: [will-have-done]
+      - id: u35-r-03
+        type: fill_blank
+        sentence: "At nine tomorrow, she will be ___ at the airport. (wait)"
+        translation: "מחר בתשע היא תחכה בשדה התעופה."
+        answers: [waiting]
+        options: [waiting, wait, waited]
+        lexemes: [will-be-ing, airport]
+      - id: u35-r-04
+        type: listening_choice
+        audioText: "By the time we get there, the shop will have closed."
+        question: מה הוא אומר?
+        options: [עד שנגיע, החנות כבר תיסגר, החנות פתוחה, החנות נסגרה אתמול]
+        correct: 0
+        lexemes: [by-the-time, will-have-done]
+      - id: u35-r-05
+        type: word_bank
+        prompt: "מחר בשעה הזאת נהיה בטיול."
+        answers: ["This time tomorrow we'll be on a trip.", "This time tomorrow we will be on a trip.", "This time tomorrow we'll be travelling."]
+        distractors: [have, been]
+        lexemes: [will-be-ing, this-time-next-year]
+      - id: u35-r-06
+        type: multiple_choice
+        prompt: "איזה משפט נכון?"
+        options: ["By 2030 they will have built a new school.", "By 2030 they will be building finished a new school.", "By 2030 they have will built a new school."]
+        correct: 0
+        lexemes: [will-have-done]
+      - id: u35-r-07
+        type: translate
+        direction: to_target
+        prompt: "הסביבה חשובה לדור שלנו."
+        answers: ["The environment is important to our generation.", "The environment is important for our generation."]
+        lexemes: [environment, generation]
+      - id: u35-r-08
+        type: translate
+        direction: to_source
+        prompt: "We should ban plastic bags."
+        answers: ["אנחנו צריכים לאסור שקיות פלסטיק.", "כדאי לאסור שקיות פלסטיק.", "צריך לאסור שקיות פלסטיק."]
+        lexemes: [ban, plastic]
+      - id: u35-r-09
+        type: dictation
+        text: "Renewable energy is sustainable."
+        lexemes: [renewable, sustainable]
+      - id: u35-r-10
+        type: speak_repeat
+        text: "By then, we will have reduced our waste by half."
+        translation: "עד אז נפחית את הפסולת שלנו בחצי."
+        lexemes: [by-then, will-have-done, reduce]

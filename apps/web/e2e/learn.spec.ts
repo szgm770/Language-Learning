@@ -9,7 +9,7 @@ test("a new learner picks English and finishes the first lesson offline-first", 
   await page.getByRole("button", { name: /אנגלית/ }).click();
   await page.getByRole("button", { name: /רגיל/ }).click();
   await page.getByRole("button", { name: /מאפס/ }).click();
-  await expect(page).toHaveURL(/\/lesson\/en-for-he\/u1-l1\/$/);
+  await expect(page).toHaveURL(/\/lesson\/en-for-he\/u00a-l1\/$/);
 
   const mistakes = await finishLesson(page);
   expect(mistakes).toBe(0);
@@ -24,7 +24,7 @@ test("a new learner picks English and finishes the first lesson offline-first", 
 
   // The course map shows the first lesson as done and opens the second.
   await page.getByRole("link", { name: "המסלול" }).click();
-  await expect(page.getByRole("link", { name: /בוקר טוב, ותודה/ })).toBeVisible();
+  await expect(page.getByRole("link", { name: /האותיות I–Q/ })).toBeVisible();
 });
 
 test("the landing page has a working sample exercise", async ({ page }) => {
@@ -51,6 +51,7 @@ test("a wrong answer shows the correct one and comes back later", async ({ page 
   await page.getByRole("button", { name: /אנגלית/ }).click();
   await page.getByRole("button", { name: /קליל/ }).click();
   await page.getByRole("button", { name: /מאפס/ }).click();
+  await page.goto("lesson/en-for-he/u1-l1/");
   for (const step of ["u1-l1-01", "u1-l1-02", "u1-l1-03"]) {
     await expect(page.locator("[data-exercise]")).toHaveAttribute("data-exercise", step);
     await page.getByRole("button", { name: /^(הבנתי|המשך)$/ }).click();
@@ -91,6 +92,14 @@ test("the placement test skips units the learner already knows", async ({ page }
   await page.getByRole("button", { name: /כבר יודע/ }).click();
   await expect(page).toHaveURL(/\/placement\/en-for-he\/$/);
   const current = async () => exercises.get((await page.locator("[data-exercise]").getAttribute("data-exercise"))!)!;
+  // The A0 level probe (letters and sounds) is answered correctly, so placement moves on to A1.
+  for (let q = 0; q < 4; q++) {
+    const ex = await current();
+    expect(ex.id.startsWith("a0-t")).toBe(true);
+    await solve(page, ex);
+    await expect(page.locator("[data-verdict]")).toHaveAttribute("data-verdict", "correct");
+    await page.getByRole("button", { name: "המשך" }).click();
+  }
   // Miss two questions of the A1 level probe: placement goes through A1 unit by unit.
   for (let q = 0; q < 2; q++) {
     await answerWrong(page, await current());
@@ -108,7 +117,7 @@ test("the placement test skips units the learner already knows", async ({ page }
   expect(ex.id.startsWith("u2")).toBe(true);
   await answerWrong(page, ex);
   await page.getByRole("button", { name: "המשך" }).click();
-  await expect(page.getByRole("heading", { name: "מתחילים מיחידה 2" })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "מתחילים מיחידה 5" })).toBeVisible();
   await page.getByRole("link", { name: "להתחיל ללמוד" }).click();
   await expect(page).toHaveURL(/\/lesson\/en-for-he\/u2-l1\/$/);
 });
@@ -131,7 +140,7 @@ test("passing the A1 level test unlocks a printable certificate", async ({ page 
   await page.getByRole("button", { name: /אנגלית/ }).click();
   await page.getByRole("button", { name: /רגיל/ }).click();
   await page.getByRole("button", { name: /מאפס/ }).click();
-  await expect(page).toHaveURL(/\/lesson\/en-for-he\/u1-l1\/$/);
+  await expect(page).toHaveURL(/\/lesson\/en-for-he\/u00a-l1\/$/);
   await page.goto("certificate/en-for-he/");
   await expect(page.getByText(/התעודה נפתחת אחרי מבחן הרמה/)).toBeVisible();
 
@@ -142,4 +151,44 @@ test("passing the A1 level test unlocks a printable certificate", async ({ page 
   await expect(page).toHaveURL(/\/certificate\/en-for-he\/$/);
   await expect(page.getByText("תעודת סיום")).toBeVisible();
   await expect(page.getByRole("heading", { name: "השם שלכם" })).toBeVisible();
+});
+
+test("progress moves to another device: a code, a typed code, or a place chosen by hand", async ({ page }) => {
+  await page.goto("start/");
+  await page.getByRole("button", { name: /אנגלית/ }).click();
+  await page.getByRole("button", { name: /רגיל/ }).click();
+  await page.getByRole("button", { name: /מאפס/ }).click();
+  await expect(page.locator("[data-exercise]")).toBeVisible();
+
+  // Choose the place by hand: unit 4 (the first A1 unit follows the three A0 units).
+  await page.goto("settings/");
+  await page.getByRole("button", { name: "בחירת מקום ידנית" }).click();
+  await page.getByLabel("יחידה").selectOption({ index: 5 });
+  await page.getByRole("button", { name: "להמשיך מכאן" }).click();
+  await expect(page.getByText(/ההתקדמות הועברה/)).toBeVisible();
+
+  // The code now points at that lesson, and shows as a QR.
+  await page.getByRole("button", { name: "הצגת הקוד שלי" }).click();
+  await expect(page.getByTestId("transfer-code")).toHaveText("lingo1.en-for-he.u3-l1");
+  await expect(page.getByRole("img", { name: /קוד QR/ })).toBeVisible();
+
+  // A typed code from another device; a wrong one is refused.
+  await page.getByRole("button", { name: "הקלדת קוד" }).click();
+  await page.getByLabel("הקוד מהמכשיר הישן").fill("hello");
+  await page.getByRole("button", { name: "להעביר" }).click();
+  await expect(page.getByText(/הקוד לא תקין/)).toBeVisible();
+  await page.getByLabel("הקוד מהמכשיר הישן").fill("lingo1.en-for-he.u5-l1");
+  await page.getByRole("button", { name: "להעביר" }).click();
+  await expect(page.getByText(/ההתקדמות הועברה/)).toBeVisible();
+  await page.getByRole("button", { name: "הצגת הקוד שלי" }).click();
+  await expect(page.getByTestId("transfer-code")).toHaveText("lingo1.en-for-he.u5-l1");
+
+  // The camera is not available in the test browser: the scanner says so and offers the other ways.
+  await page.getByRole("button", { name: "סריקת קוד" }).click();
+  await expect(page.getByText(/אין גישה למצלמה/)).toBeVisible();
+
+  // The learning path continues from there.
+  await page.goto("learn/");
+  await page.getByRole("link", { name: /^(להמשיך|להתחיל)$/ }).click();
+  await expect(page).toHaveURL(/\/lesson\/en-for-he\/u5-l1\/$/);
 });

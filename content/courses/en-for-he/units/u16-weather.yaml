@@ -248,32 +248,32 @@ lessons:
     exercises:
       - id: u16-l4-01
         type: dialogue
-        scene: "בן רוצה לטייל עם נועה בכפר. הם בודקים את התחזית."
+        scene: "בן רוצה לטייל בכפר עם נועה, אלי ורחל. הם בודקים את התחזית."
         lines:
-          - { speaker: "ben", text: "Do you want to go to the countryside on Saturday?", translation: "רוצה לנסוע לכפר בשבת?" }
+          - { speaker: "ben", text: "Do you want to go to the countryside with Eli and Rachel on Sunday?", translation: "רוצה לנסוע לכפר עם אלי ורחל ביום ראשון?" }
           - { speaker: "noa", text: "Maybe. What's the weather going to be like?", translation: "אולי. איך יהיה מזג האוויר?" }
-          - { speaker: "ben", text: "Saturday is going to be rainy and windy.", translation: "בשבת הולך להיות גשום ועם רוח." }
-          - { speaker: "noa", text: "Oh no. And Sunday?", translation: "אוי, לא. וביום ראשון?" }
-          - { speaker: "ben", text: "Sunday is better. Sunny and warmer, about eighteen degrees.", translation: "ראשון יותר טוב. שמשי וחמים יותר, בערך שמונה־עשרה מעלות." }
-          - { speaker: "noa", text: "Eighteen? That's warm for London! Let's go on Sunday.", translation: "שמונה־עשרה? זה חם בשביל לונדון! בוא ניסע ביום ראשון." }
+          - { speaker: "ben", text: "Sunday is going to be rainy and windy.", translation: "ביום ראשון הולך להיות גשום ועם רוח." }
+          - { speaker: "noa", text: "Oh no. And Monday? It's a bank holiday.", translation: "אוי, לא. וביום שני? זה חג הבנקים." }
+          - { speaker: "ben", text: "Monday is better. Sunny and warmer, about eighteen degrees.", translation: "יום שני יותר טוב. שמשי וחמים יותר, בערך שמונה־עשרה מעלות." }
+          - { speaker: "noa", text: "Eighteen? That's warm for London! Let's go on Monday.", translation: "שמונה־עשרה? זה חם בשביל לונדון! בוא ניסע ביום שני." }
       - id: u16-l4-02
         type: multiple_choice
-        prompt: "איך יהיה מזג האוויר בשבת?"
+        prompt: "איך יהיה מזג האוויר ביום ראשון?"
         options: [גשום ועם רוח, שמשי וחם, מושלג]
         correct: 0
         lexemes: [rainy, windy]
       - id: u16-l4-03
         type: multiple_choice
-        prompt: "מה הטמפרטורה ביום ראשון?"
+        prompt: "מה הטמפרטורה ביום שני?"
         options: [בערך 18 מעלות, בערך 8 מעלות, בערך 28 מעלות]
         correct: 0
         lexemes: [degrees]
       - id: u16-l4-04
         type: multiple_choice
         prompt: "מתי הם נוסעים?"
-        options: [ביום ראשון, בשבת, הם לא נוסעים]
+        options: [ביום שני, ביום ראשון, הם לא נוסעים]
         correct: 0
-        lexemes: [sunday]
+        lexemes: [monday]
       - id: u16-l4-05
         type: listening_choice
         audioText: "Winter here is colder, but summer is as hot as in Spain."
@@ -302,13 +302,13 @@ lessons:
       - id: u16-l4-09
         type: translate
         direction: to_source
-        prompt: "Sunday is better than Saturday."
-        answers: ["יום ראשון יותר טוב משבת.", "יום ראשון טוב יותר משבת.", "ראשון יותר טוב משבת."]
+        prompt: "Monday is better than Sunday."
+        answers: ["יום שני יותר טוב מיום ראשון.", "יום שני טוב יותר מיום ראשון.", "שני יותר טוב מראשון."]
         lexemes: [better, than]
       - id: u16-l4-10
         type: speak_repeat
-        text: "Saturday is going to be rainy, but Sunday is going to be sunny."
-        translation: "בשבת הולך להיות גשום, אבל ביום ראשון הולך להיות שמשי."
+        text: "Sunday is going to be rainy, but Monday is going to be sunny."
+        translation: "ביום ראשון הולך להיות גשום, אבל ביום שני הולך להיות שמשי."
         lexemes: [rainy, sunny, going-to]
 
   # ------------------------------------------------------------------ 5

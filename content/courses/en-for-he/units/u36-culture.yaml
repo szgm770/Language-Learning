@@ -1,0 +1,447 @@
+id: u36-culture
+cefr: B2
+scene: party
+title:
+  he: תרבות ומנהגים
+  en: Culture and customs
+story: "לקוח מיפן, מר סאטו, מגיע לביקור. כל צד מתפלא על מנהגי השני, ויש גם כמה אי־הבנות משעשעות. אפשר רק לנחש מה קרה… ובכל זאת, מנחשים בכל כוחנו."
+canDo:
+  - לשער ולהסיק מסקנות (must / might / can't be)
+  - לשער על העבר (must have / might have / can't have + V3)
+  - לדבר על מנהגים, נימוסים ואי־הבנות בין תרבויות
+  - להתנצל על אי־הבנה בצורה מנומסת
+
+vocabulary:
+  - { id: "custom", text: "custom", translation: "מנהג", pos: "noun", pronunciation: "קַסְטֶם" }
+  - { id: "tradition", text: "tradition", translation: "מסורת", pos: "noun", pronunciation: "טְרַדִישֶׁן" }
+  - { id: "etiquette", text: "etiquette", translation: "נימוסים, כללי התנהגות", pos: "noun", pronunciation: "אֶטִיקֶט" }
+  - { id: "polite", text: "polite", translation: "אדיב", pos: "adjective", pronunciation: "פּוֹלַייט" }
+  - { id: "rude", text: "rude", translation: "גס רוח", pos: "adjective", pronunciation: "רוּד" }
+  - { id: "host", text: "host", translation: "מארח", pos: "noun", pronunciation: "הוֹסְט" }
+  - { id: "guest-of-honour", text: "guest of honour", translation: "אורח כבוד", pos: "noun", pronunciation: "גֶסְט אוֹב אוֹנֶר" }
+  - { id: "gesture", text: "gesture", translation: "מחווה, תנועה", pos: "noun", pronunciation: "ג'ֶסְצ'ֶר" }
+  - { id: "bow", text: "bow", translation: "קידה; להשתחוות", pos: "noun", pronunciation: "באו" }
+  - { id: "offend", text: "offend", translation: "לפגוע (ברגשות)", pos: "verb", pronunciation: "אוֹפֶנְד" }
+  - { id: "misunderstanding", text: "misunderstanding", translation: "אי־הבנה", pos: "noun", pronunciation: "מִיסַנְדֶרְסְטֵנְדִינְג" }
+  - { id: "behave", text: "behave", translation: "להתנהג", pos: "verb", pronunciation: "בִּיהֵייב" }
+  - { id: "unusual", text: "unusual", translation: "יוצא דופן", pos: "adjective", pronunciation: "אַנְיוּז'וּאֶל" }
+  - { id: "must-be", text: "must be", translation: "בוודאי (הוא) / בטח", pos: "phrase", pronunciation: "מַאסְט בִּי", example: { text: "He must be tired after the flight.", translation: "הוא בטח עייף אחרי הטיסה." } }
+  - { id: "might-be", text: "might be", translation: "אולי", pos: "phrase", pronunciation: "מַייט בִּי" }
+  - { id: "cant-be", text: "can't be", translation: "לא ייתכן ש…", pos: "phrase", pronunciation: "קַאנְט בִּי" }
+  - { id: "must-have", text: "must have + V3", translation: "בטח (כבר קרה)", pos: "phrase", pronunciation: "מַאסְט הֶב", example: { text: "She must have missed the train.", translation: "היא בטח פספסה את הרכבת." } }
+  - { id: "might-have", text: "might have + V3", translation: "אולי (קרה)", pos: "phrase", pronunciation: "מַייט הֶב" }
+  - { id: "cant-have", text: "can't have + V3", translation: "לא ייתכן שקרה", pos: "phrase", pronunciation: "קַאנְט הֶב" }
+  - { id: "take-off-shoes", text: "take off your shoes", translation: "להוריד נעליים", pos: "phrase", pronunciation: "טֵייק אוֹף יוֹר שׁוּז" }
+
+grammar:
+  - id: modals-deduction
+    title: { he: "ניחושים ומסקנות: must / might / can't", en: "Modals of deduction" }
+    explanation: |
+      כשיש לנו **ראיות** ואנחנו מסיקים מסקנה, משתמשים בפועלי מודל:
+
+      | ביטחון | הווה | עבר |
+      |---|---|---|
+      | כמעט בטוח שכן | **must be** | **must have + V3** |
+      | אולי | **might / could be** | **might have + V3** |
+      | כמעט בטוח שלא | **can't be** | **can't have + V3** |
+
+      - **He must be tired.** (בטח עייף – יש לי סימנים)
+      - **She might be at home.** (אולי היא בבית)
+      - **They can't have left. Their coats are here.** (לא ייתכן שהלכו – המעילים כאן)
+
+      שימו לב: לשלילה בביטחון לא אומרים **mustn't be** אלא **can't be**.
+    examples:
+      - { text: "He must be hungry. He hasn't eaten all day.", translation: "הוא בטח רעב. הוא לא אכל כל היום." }
+      - { text: "She can't have forgotten. I reminded her yesterday.", translation: "לא ייתכן ששכחה. הזכרתי לה אתמול." }
+      - { text: "They might have taken the wrong road.", translation: "אולי הם נסעו בדרך הלא נכונה." }
+
+lessons:
+  # ------------------------------------------------------------------ 1
+  - id: u36-l1
+    kind: new
+    title: { he: "אורח מיפן", en: "A guest from Japan" }
+    exercises:
+      - id: u36-l1-01
+        type: dialogue
+        scene: "הכנות לביקור של מר סאטו מיפן, לקוח חשוב של החברה."
+        lines:
+          - { speaker: "noa", text: "Mr. Sato is coming on Thursday. He's our guest of honour.", translation: "מר סאטו מגיע ביום חמישי. הוא אורח הכבוד שלנו." }
+          - { speaker: "ben", text: "I read about etiquette in Japan. A bow is polite, but a handshake is fine too.", translation: "קראתי על נימוסים ביפן. קידה זה מנומס, אבל גם לחיצת יד בסדר." }
+          - { speaker: "noa", text: "And it's rude to show up late, so be on time.", translation: "וזה גס רוח להגיע באיחור, אז תהיו בזמן." }
+          - { speaker: "eli", text: "I don't want to offend him by mistake.", translation: "אני לא רוצה לפגוע בו בטעות." }
+          - { speaker: "noa", text: "Just be natural. He's probably nervous too.", translation: "תהיו טבעיים. הוא כנראה גם לחוץ." }
+      - { id: "u36-l1-02", type: "learn", lexeme: "custom" }
+      - { id: "u36-l1-03", type: "learn", lexeme: "etiquette" }
+      - { id: "u36-l1-04", type: "learn", lexeme: "polite" }
+      - { id: "u36-l1-05", type: "learn", lexeme: "rude" }
+      - { id: "u36-l1-06", type: "learn", lexeme: "guest-of-honour" }
+      - { id: "u36-l1-07", type: "learn", lexeme: "bow" }
+      - { id: "u36-l1-08", type: "learn", lexeme: "offend" }
+      - id: u36-l1-09
+        type: match_pairs
+        pairs:
+          - [custom, מנהג]
+          - [etiquette, נימוסים]
+          - [polite, אדיב]
+          - [rude, גס רוח]
+          - [offend, לפגוע]
+        lexemes: [custom, etiquette, polite, rude, offend]
+      - id: u36-l1-10
+        type: multiple_choice
+        prompt: "מה גס רוח ביפן לפי נועה?"
+        options: [להגיע באיחור, ללחוץ יד, לדבר אנגלית]
+        correct: 0
+        lexemes: [rude]
+      - id: u36-l1-11
+        type: multiple_choice
+        prompt: "ממה אלי חושש?"
+        options: [לפגוע במר סאטו בטעות, לאחר, לשכוח את הכרטיסים]
+        correct: 0
+        lexemes: [offend]
+      - id: u36-l1-12
+        type: listening_choice
+        audioText: "It is polite to arrive on time."
+        question: מה נחשב מנומס?
+        options: [להגיע בזמן, להגיע באיחור, לא להגיע]
+        correct: 0
+        lexemes: [polite]
+      - id: u36-l1-13
+        type: word_bank
+        prompt: "אורח הכבוד הגיע."
+        answers: ["The guest of honour has arrived.", "The guest of honour arrived.", "The guest of honour is here."]
+        distractors: [guests, honours]
+        lexemes: [guest-of-honour]
+      - id: u36-l1-14
+        type: speak_repeat
+        text: "I don't want to offend him by mistake."
+        translation: "אני לא רוצה לפגוע בו בטעות."
+        lexemes: [offend, mistake]
+
+  # ------------------------------------------------------------------ 2
+  - id: u36-l2
+    kind: new
+    title: { he: "ארוחת ליל שבת", en: "Friday-night dinner" }
+    exercises:
+      - { id: "u36-l2-01", type: "learn", lexeme: "tradition" }
+      - { id: "u36-l2-02", type: "learn", lexeme: "host" }
+      - { id: "u36-l2-03", type: "learn", lexeme: "gesture" }
+      - { id: "u36-l2-04", type: "learn", lexeme: "unusual" }
+      - { id: "u36-l2-05", type: "learn", lexeme: "behave" }
+      - { id: "u36-l2-06", type: "learn", lexeme: "take-off-shoes" }
+      - id: u36-l2-07
+        type: dialogue
+        scene: "נועה מזמינה את מר סאטו לארוחת ליל שבת אצל הוריה."
+        lines:
+          - { speaker: "noa", text: "Mr. Sato, would you like to join us for Friday-night dinner? It's a family tradition.", translation: "מר סאטו, תרצה להצטרף אלינו לארוחת ליל שבת? זו מסורת משפחתית." }
+          - { speaker: "sato", text: "I'd be honoured. Is there anything I should know?", translation: "אשמח מאוד. יש משהו שכדאי שאדע?" }
+          - { speaker: "noa", text: "We light candles, say a blessing over the wine and the bread, and sing together.", translation: "אנחנו מדליקים נרות, מברכים על היין ועל החלה, ושרים יחד." }
+          - { speaker: "sato", text: "How wonderful. In Japan, we take off our shoes when we enter a home.", translation: "כמה נפלא. ביפן מורידים נעליים כשנכנסים לבית." }
+          - { speaker: "noa", text: "Here you can keep them on. Just bring a smile!", translation: "כאן אפשר להשאיר אותן. פשוט תביא חיוך!" }
+      - id: u36-l2-08
+        type: match_pairs
+        pairs:
+          - [tradition, מסורת]
+          - [host, מארח]
+          - [gesture, מחווה]
+          - [unusual, יוצא דופן]
+          - [behave, להתנהג]
+        lexemes: [tradition, host, gesture, unusual, behave]
+      - id: u36-l2-09
+        type: multiple_choice
+        prompt: "מה עושים בארוחת ליל שבת לפי נועה?"
+        options: [מדליקים נרות, מברכים ושרים, רק אוכלים מהר, צופים בטלוויזיה]
+        correct: 0
+        lexemes: [tradition]
+      - id: u36-l2-10
+        type: multiple_choice
+        prompt: "מה ביפן עושים בכניסה לבית?"
+        options: [מורידים נעליים, מחליפים בגדים, מתכופפים]
+        correct: 0
+        lexemes: [take-off-shoes]
+      - id: u36-l2-11
+        type: dialogue_gap
+        lines:
+          - { speaker: "sato", text: "Is it unusual for guests to sing?", translation: "זה יוצא דופן שאורחים שרים?" }
+          - { speaker: "noa", text: "Not at all! Everyone sings, even if they can't sing well.", translation: "בכלל לא! כולם שרים, גם מי שלא שר טוב." }
+        gap: 1
+        distractors: ["Not at all! Everyone singing, even if they can't sing good.", "Not at all! Everyone sings, even if they didn't sing well."]
+        lexemes: [unusual, not-at-all]
+      - id: u36-l2-12
+        type: translate
+        direction: to_target
+        prompt: "זו מסורת משפחתית."
+        answers: ["It's a family tradition.", "It is a family tradition.", "This is a family tradition."]
+        lexemes: [tradition]
+      - id: u36-l2-13
+        type: translate
+        direction: to_source
+        prompt: "Please take off your shoes."
+        answers: ["בבקשה תוריד את הנעליים.", "בבקשה תורידו את הנעליים.", "בבקשה תוריד נעליים.", "בבקשה תורידי את הנעליים."]
+        lexemes: [take-off-shoes]
+      - id: u36-l2-14
+        type: speak_repeat
+        text: "It's a family tradition. Everyone sings together."
+        translation: "זו מסורת משפחתית. כולם שרים יחד."
+        lexemes: [tradition]
+
+  # ------------------------------------------------------------------ 3
+  - id: u36-l3
+    kind: grammar
+    grammar: modals-deduction
+    title: { he: "בטח, אולי, לא ייתכן", en: "Must, might, can't" }
+    exercises:
+      - { id: "u36-l3-01", type: "learn", lexeme: "must-be" }
+      - { id: "u36-l3-02", type: "learn", lexeme: "might-be" }
+      - { id: "u36-l3-03", type: "learn", lexeme: "cant-be" }
+      - { id: "u36-l3-04", type: "learn", lexeme: "must-have" }
+      - { id: "u36-l3-05", type: "learn", lexeme: "might-have" }
+      - { id: "u36-l3-06", type: "learn", lexeme: "cant-have" }
+      - id: u36-l3-07
+        type: fill_blank
+        sentence: "He hasn't eaten all day. He ___ be hungry."
+        translation: "הוא לא אכל כל היום. הוא בטח רעב."
+        answers: [must]
+        options: [must, can't, might not]
+        lexemes: [must-be]
+      - id: u36-l3-08
+        type: fill_blank
+        sentence: "Their coats are here, so they ___ have left."
+        translation: "המעילים שלהם כאן, אז לא ייתכן שהם הלכו."
+        answers: [can't]
+        options: [can't, must, would]
+        lexemes: [cant-have]
+      - id: u36-l3-09
+        type: multiple_choice
+        prompt: "מה פירוש: She might have missed the bus?"
+        options: ["אולי היא פספסה את האוטובוס", "בטוח שהיא פספסה", "לא ייתכן שפספסה"]
+        correct: 0
+        lexemes: [might-have]
+      - id: u36-l3-10
+        type: multiple_choice
+        prompt: "איזה משפט נכון?"
+        options: ["That can't be the right address.", "That mustn't be the right address.", "That can't being the right address."]
+        correct: 0
+        lexemes: [cant-be]
+      - id: u36-l3-11
+        type: dialogue_gap
+        lines:
+          - { speaker: "ben", text: "Mr. Sato hasn't arrived yet. Where is he?", translation: "מר סאטו עוד לא הגיע. איפה הוא?" }
+          - { speaker: "noa", text: "He might have got stuck in traffic. Let's call him.", translation: "אולי הוא נתקע בפקק. בואו נתקשר אליו." }
+        gap: 1
+        distractors: ["He might got stuck in traffic. Let's call him.", "He must get stuck in traffic. Let's calling him."]
+        lexemes: [might-have]
+      - id: u36-l3-12
+        type: word_bank
+        prompt: "היא בטח שכחה."
+        answers: ["She must have forgotten.", "She must have forgot."]
+        distractors: [forgetting, can]
+        lexemes: [must-have]
+      - id: u36-l3-13
+        type: translate
+        direction: to_target
+        prompt: "זה לא ייתכן."
+        answers: ["That can't be true.", "That can't be right.", "It can't be.", "That can't be."]
+        lexemes: [cant-be]
+      - id: u36-l3-14
+        type: translate
+        direction: to_source
+        prompt: "He must be very tired after the flight."
+        answers: ["הוא בטח מאוד עייף אחרי הטיסה.", "הוא בוודאי עייף מאוד אחרי הטיסה."]
+        lexemes: [must-be, tired]
+      - id: u36-l3-15
+        type: speak_repeat
+        text: "They can't have left. Their coats are still here."
+        translation: "לא ייתכן שהם הלכו. המעילים שלהם עדיין כאן."
+        lexemes: [cant-have]
+
+  # ------------------------------------------------------------------ 4
+  - id: u36-l4
+    kind: listening
+    title: { he: "אי־הבנה", en: "A misunderstanding" }
+    exercises:
+      - id: u36-l4-01
+        type: dialogue
+        scene: "אחרי הארוחה. נועה ובן מנסים להבין מה קרה."
+        lines:
+          - { speaker: "ben", text: "Mr. Sato looked uncomfortable when Eli handed him his business card.", translation: "מר סאטו נראה לא נוח כשאלי הושיט לו את כרטיס הביקור." }
+          - { speaker: "noa", text: "He might have expected Eli to use both hands.", translation: "אולי הוא ציפה שאלי ישתמש בשתי ידיים." }
+          - { speaker: "ben", text: "Eli can't have known that. Nobody told him.", translation: "אלי לא יכול היה לדעת את זה. אף אחד לא אמר לו." }
+          - { speaker: "noa", text: "True. He must have thought it was rude, but he was too polite to say so.", translation: "נכון. הוא בטח חשב שזה גס רוח, אבל היה מנומס מכדי לומר." }
+          - { speaker: "ben", text: "Let's explain it to Eli. It was just a misunderstanding.", translation: "בוא נסביר לאלי. זו הייתה סתם אי־הבנה." }
+      - id: u36-l4-02
+        type: multiple_choice
+        prompt: "מה אולי קרה עם כרטיס הביקור?"
+        options: [אלי לא השתמש בשתי ידיים, אלי איבד אותו, מר סאטו סירב לקחת]
+        correct: 0
+        lexemes: [might-have, misunderstanding]
+      - id: u36-l4-03
+        type: multiple_choice
+        prompt: "למה אלי לא יכול היה לדעת?"
+        options: [אף אחד לא אמר לו, הוא לא קרא, הוא היה עסוק]
+        correct: 0
+        lexemes: [cant-have]
+      - id: u36-l4-04
+        type: listening_choice
+        audioText: "She must have forgotten her keys."
+        question: מה הוא מסיק?
+        options: [שהיא בטח שכחה את המפתחות, שהיא אולי תשכח, שהיא לא שכחה]
+        correct: 0
+        lexemes: [must-have]
+      - id: u36-l4-05
+        type: listening_choice
+        audioText: "It can't be true. I saw him yesterday."
+        question: מה היא אומרת?
+        options: [לא ייתכן שזה נכון, זה בטח נכון, אולי זה נכון]
+        correct: 0
+        lexemes: [cant-be]
+      - id: u36-l4-06
+        type: dictation
+        text: "He might have expected a bow."
+        lexemes: [might-have, bow]
+      - id: u36-l4-07
+        type: translate
+        direction: to_target
+        prompt: "זו הייתה סתם אי־הבנה."
+        answers: ["It was just a misunderstanding.", "It was only a misunderstanding.", "It was a misunderstanding."]
+        lexemes: [misunderstanding]
+      - id: u36-l4-08
+        type: speak_repeat
+        text: "He must have thought it was rude, but he was too polite to say so."
+        translation: "הוא בטח חשב שזה גס רוח, אבל היה מנומס מכדי לומר."
+        lexemes: [must-have, rude, polite]
+
+  # ------------------------------------------------------------------ 5
+  - id: u36-l5
+    kind: reading
+    title: { he: "ללמוד מתרבויות אחרות", en: "Learning from other cultures" }
+    exercises:
+      - id: u36-l5-01
+        type: reading
+        kind: "מאמר"
+        title: "Why customs matter"
+        text: |
+          Every culture has its own customs, and they often seem unusual to outsiders. In some countries, it is polite to arrive a little late; in others, arriving late is rude. In some places guests bring a gift, in others they bring nothing at all.
+
+          Misunderstandings happen all the time. A traveller who sees someone shake their head might think, "They must disagree," when in fact the gesture means "yes" in that country.
+
+          The best advice is simple: ask questions, and don't assume the worst. If someone behaves in a way that surprises you, they might simply be following a tradition you haven't learned yet. And remember: you can't have known everything, and nobody expects you to. What matters is that you try, and that you are willing to learn.
+        translation: |
+          לכל תרבות יש מנהגים משלה, ולעתים קרובות הם נראים יוצאי דופן לזרים. במדינות מסוימות מנומס להגיע קצת באיחור; באחרות איחור הוא גס רוח. במקומות מסוימים אורחים מביאים מתנה, באחרים לא מביאים כלום.
+
+          אי־הבנות קורות כל הזמן. מטייל שרואה מישהו מזיז את הראש לצדדים עלול לחשוב "הם בטח לא מסכימים", ובפועל התנועה הזאת פירושה "כן" באותה מדינה.
+
+          העצה הטובה ביותר פשוטה: שאלו שאלות, ואל תניחו את הגרוע ביותר. אם מישהו מתנהג בדרך שמפתיעה אתכם, ייתכן שהוא פשוט מקיים מסורת שעוד לא למדתם. וזכרו: לא יכולתם לדעת הכול, ואף אחד לא מצפה לזה. מה שחשוב הוא שאתם מנסים, ושאתם מוכנים ללמוד.
+      - id: u36-l5-02
+        type: multiple_choice
+        prompt: "מה הכותב אומר על איחור?"
+        options: [במקומות שונים זה מנומס או גס רוח, זה תמיד גס רוח, זה תמיד בסדר]
+        correct: 0
+        lexemes: [polite, rude]
+      - id: u36-l5-03
+        type: multiple_choice
+        prompt: "מה קורה עם מי שמזיז את הראש?"
+        options: [בחלק מהמדינות זה אומר כן, זה תמיד אומר לא, זה אומר שהוא כועס]
+        correct: 0
+        lexemes: [gesture, misunderstanding]
+      - id: u36-l5-04
+        type: multiple_choice
+        prompt: "מה העצה העיקרית?"
+        options: [לשאול שאלות ולא להניח את הגרוע ביותר, להישאר בבית, לנסוע רק למדינות מוכרות]
+        correct: 0
+        lexemes: [custom]
+      - id: u36-l5-05
+        type: fill_blank
+        sentence: "A traveller might think, 'They ___ disagree.'"
+        translation: "מטייל עלול לחשוב: 'הם בטח לא מסכימים'."
+        answers: [must]
+        options: [must, can't, would]
+        lexemes: [must-be]
+      - id: u36-l5-06
+        type: fill_blank
+        sentence: "You can't ___ known everything."
+        translation: "לא יכולתם לדעת הכול."
+        answers: [have]
+        options: [have, be, had]
+        lexemes: [cant-have]
+      - id: u36-l5-07
+        type: translate
+        direction: to_target
+        prompt: "ייתכן שהוא מקיים מסורת."
+        answers: ["He might be following a tradition.", "He may be following a tradition.", "He could be following a tradition."]
+        lexemes: [might-be, tradition]
+      - id: u36-l5-08
+        type: speak_repeat
+        text: "Ask questions, and don't assume the worst."
+        translation: "שאלו שאלות, ואל תניחו את הגרוע ביותר."
+        lexemes: [custom]
+
+  # ------------------------------------------------------------------ 6
+  - id: u36-review
+    kind: review
+    title: { he: "חזרה: תרבות ומנהגים", en: "Review: culture and customs" }
+    exercises:
+      - id: u36-r-01
+        type: match_pairs
+        pairs:
+          - [guest of honour, אורח כבוד]
+          - [misunderstanding, אי־הבנה]
+          - [gesture, מחווה]
+          - [tradition, מסורת]
+          - [behave, להתנהג]
+        lexemes: [guest-of-honour, misunderstanding, gesture, tradition, behave]
+      - id: u36-r-02
+        type: fill_blank
+        sentence: "The lights are off. They ___ be asleep."
+        translation: "האורות כבויים. הם בטח ישנים."
+        answers: [must]
+        options: [must, can't have, might not have]
+        lexemes: [must-be]
+      - id: u36-r-03
+        type: fill_blank
+        sentence: "I don't know where she is. She ___ be at the library."
+        translation: "אני לא יודע איפה היא. אולי היא בספרייה."
+        answers: [might]
+        options: [might, must have, can't have]
+        lexemes: [might-be]
+      - id: u36-r-04
+        type: listening_choice
+        audioText: "He can't have heard us. He was asleep."
+        question: מה היא מסיקה?
+        options: [שהוא לא שמע אותנו, שהוא שמע אותנו, שהוא אולי שמע]
+        correct: 0
+        lexemes: [cant-have]
+      - id: u36-r-05
+        type: dialogue_gap
+        lines:
+          - { speaker: "tamar", text: "Why is Eli late?", translation: "למה אלי מאחר?" }
+          - { speaker: "ben", text: "He must have missed the bus.", translation: "הוא בטח פספס את האוטובוס." }
+        gap: 1
+        distractors: ["He must miss the bus.", "He can missed the bus."]
+        lexemes: [must-have, miss]
+      - id: u36-r-06
+        type: multiple_choice
+        prompt: "איזה משפט מביע ביטחון גבוה שלא קרה?"
+        options: ["She can't have seen it.", "She might have seen it.", "She must have seen it."]
+        correct: 0
+        lexemes: [cant-have]
+      - id: u36-r-07
+        type: translate
+        direction: to_target
+        prompt: "זה גס רוח להגיע באיחור."
+        answers: ["It's rude to arrive late.", "It is rude to arrive late.", "It's rude to be late.", "It's rude to come late."]
+        lexemes: [rude]
+      - id: u36-r-08
+        type: translate
+        direction: to_source
+        prompt: "It was just a misunderstanding."
+        answers: ["זו הייתה סתם אי־הבנה.", "זו הייתה רק אי־הבנה.", "זאת הייתה סתם אי־הבנה."]
+        lexemes: [misunderstanding]
+      - id: u36-r-09
+        type: dictation
+        text: "Every culture has its own customs."
+        lexemes: [custom]
+      - id: u36-r-10
+        type: speak_repeat
+        text: "He might have expected us to use both hands."
+        translation: "אולי הוא ציפה שנשתמש בשתי ידיים."
+        lexemes: [might-have]

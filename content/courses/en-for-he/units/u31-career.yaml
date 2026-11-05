@@ -1,0 +1,499 @@
+id: u31-career
+cefr: B2
+scene: work
+title:
+  he: מהלכים בקריירה
+  en: Career moves
+story: "הפרויקט הצליח, ונועה מקבלת שתי הצעות: קידום בלונדון, ותפקיד בכיר בתל אביב. בשיחת משוב עם מרים היא מגלה כמה עבדה, כמה התעייפה, ומה היא באמת רוצה."
+canDo:
+  - לנהל שיחת משוב מקצועית ולהגיב לביקורת
+  - לדבר על שאיפות ועל הזדמנויות בקריירה
+  - להשתמש בהווה מושלם מתמשך (I've been working…)
+  - להבחין בין I've worked ל־I've been working
+
+vocabulary:
+  - { id: "career", text: "career", translation: "קריירה", pos: "noun", pronunciation: "קָרִיר" }
+  - { id: "promotion", text: "promotion", translation: "קידום", pos: "noun", pronunciation: "פְּרוֹמוֹשְׁן" }
+  - { id: "get-promoted", text: "get promoted", translation: "לקבל קידום", pos: "phrase", pronunciation: "גֶט פְּרוֹמוֹטֶד" }
+  - { id: "opportunity", text: "opportunity", translation: "הזדמנות", pos: "noun", pronunciation: "אוֹפּוֹרְטְיוּנִיטִי" }
+  - { id: "challenge", text: "challenge", translation: "אתגר", pos: "noun", pronunciation: "צ'ֶלֶנְג'" }
+  - { id: "responsibility", text: "responsibility", translation: "אחריות", pos: "noun", pronunciation: "רִיסְפּוֹנְסִיבִּילִיטִי" }
+  - { id: "feedback", text: "feedback", translation: "משוב", pos: "noun", pronunciation: "פִידְבֶּק" }
+  - { id: "performance-review", text: "performance review", translation: "שיחת הערכה (שנתית)", pos: "noun", pronunciation: "פֶּרְפוֹרְמֶנְס רִיבְיוּ" }
+  - { id: "pay-rise", text: "pay rise", translation: "העלאה במשכורת", pos: "noun", pronunciation: "פֵּיי רַייז" }
+  - { id: "ambitious", text: "ambitious", translation: "שאפתן", pos: "adjective", pronunciation: "אֶמְבִּישֶׁס" }
+  - { id: "overwhelmed", text: "overwhelmed", translation: "מוצף, המום (מעומס)", pos: "adjective", pronunciation: "אוֹבֶרְוֶולְמְד" }
+  - { id: "work-life-balance", text: "work-life balance", translation: "איזון בין עבודה לחיים", pos: "noun", pronunciation: "וֶורְק לַייף בֶּלֶנְס" }
+  - { id: "deserve", text: "deserve", translation: "להיות ראוי ל־, להגיע ל־", pos: "verb", pronunciation: "דִיזֶרְב", example: { text: "You deserve this promotion.", translation: "מגיע לך הקידום הזה." } }
+  - { id: "take-on", text: "take on", translation: "לקחת על עצמי (משימה)", pos: "verb", pronunciation: "טֵייק אוֹן" }
+  - { id: "turn-down-offer", text: "turn down (an offer)", translation: "לדחות (הצעה), לסרב", pos: "verb", pronunciation: "טֶרְן דַאוּן", example: { text: "She turned down the job.", translation: "היא דחתה את המשרה." } }
+  - { id: "recently", text: "recently", translation: "לאחרונה", pos: "adverb", pronunciation: "רִיסֶנְטְלִי" }
+  - { id: "lately", text: "lately", translation: "בזמן האחרון", pos: "adverb", pronunciation: "לֵייטְלִי" }
+  - { id: "have-been-ing", text: "have been + -ing", translation: "הווה מושלם מתמשך (כבר… ועדיין)", pos: "phrase", pronunciation: "הֶב בִּין … אִינְג", example: { text: "I've been working too much lately.", translation: "אני עובדת יותר מדי בזמן האחרון." } }
+  - { id: "to-be-honest", text: "to be honest", translation: "למען האמת, בכנות", pos: "phrase", pronunciation: "טוּ בִּי אוֹנֶסְט" }
+  - { id: "point-taken", text: "That's a fair point.", translation: "נקודה הוגנת. צודק.", pos: "phrase", pronunciation: "דֶ'טְס אֵה פֶר פּוֹינְט" }
+
+grammar:
+  - id: present-perfect-continuous
+    title: { he: "כבר… ועדיין: I've been working", en: "Present perfect continuous" }
+    explanation: |
+      בעברית "אני עובדת על זה כבר שלושה חודשים" (בהווה). באנגלית, כשפעולה **התחילה בעבר ונמשכת עד עכשיו** והדגש הוא על **המשך** שלה, משתמשים ב:
+      **have / has been + ‎-ing**
+      **I've been working on this project for three months.**
+
+      הווה מושלם רגיל מול מתמשך:
+      - **I've written five reports.** (תוצאה, כמה) → הדגש על מה שהושג.
+      - **I've been writing reports all day.** (תהליך) → הדגש על הזמן והמאמץ.
+
+      משתמשים במתמשך גם כשרואים תוצאה של פעולה שזה עתה הסתיימה: **You look tired. Have you been working late?**
+
+      פעלי מצב (know, like, want, believe) לא מקבלים ‎-ing: **I've known her for years**, לא "I've been knowing".
+    examples:
+      - { text: "Noa has been leading the team since January.", translation: "נועה מובילה את הצוות מאז ינואר." }
+      - { text: "How long have you been waiting?", translation: "כמה זמן אתה מחכה?" }
+      - { text: "I've been thinking about your offer.", translation: "חשבתי על ההצעה שלך (ועדיין חושבת)." }
+
+lessons:
+  # ------------------------------------------------------------------ 1
+  - id: u31-l1
+    kind: new
+    title: { he: "שיחת הערכה", en: "The performance review" }
+    exercises:
+      - id: u31-l1-01
+        type: dialogue
+        scene: "שיחת ההערכה השנתית של נועה עם מרים."
+        lines:
+          - { speaker: "miriam", text: "Noa, this is your performance review. Let's start with the good news: the client loves your work.", translation: "נועה, זו שיחת ההערכה שלך. בואי נתחיל בחדשות הטובות: הלקוח אוהב את העבודה שלך." }
+          - { speaker: "noa", text: "Thank you. It's been a real challenge, but I've enjoyed it.", translation: "תודה. זה היה אתגר אמיתי, אבל נהניתי." }
+          - { speaker: "miriam", text: "You've taken on a lot of responsibility this year. And I have some feedback.", translation: "לקחת על עצמך הרבה אחריות השנה. ויש לי קצת משוב." }
+          - { speaker: "noa", text: "Of course. Go ahead.", translation: "בוודאי. בבקשה." }
+          - { speaker: "miriam", text: "You try to do everything yourself. Sometimes you should let the team help.", translation: "את מנסה לעשות הכול לבד. לפעמים כדאי לך לתת לצוות לעזור." }
+          - { speaker: "noa", text: "That's a fair point. To be honest, I've been feeling a bit overwhelmed lately.", translation: "נקודה הוגנת. למען האמת, אני מרגישה קצת מוצפת בזמן האחרון." }
+      - { id: "u31-l1-02", type: "learn", lexeme: "performance-review" }
+      - { id: "u31-l1-03", type: "learn", lexeme: "challenge" }
+      - { id: "u31-l1-04", type: "learn", lexeme: "take-on" }
+      - { id: "u31-l1-05", type: "learn", lexeme: "responsibility" }
+      - { id: "u31-l1-06", type: "learn", lexeme: "feedback" }
+      - { id: "u31-l1-07", type: "learn", lexeme: "point-taken" }
+      - { id: "u31-l1-08", type: "learn", lexeme: "to-be-honest" }
+      - { id: "u31-l1-09", type: "learn", lexeme: "overwhelmed" }
+      - { id: "u31-l1-10", type: "learn", lexeme: "lately" }
+      - id: u31-l1-11
+        type: match_pairs
+        pairs:
+          - [challenge, אתגר]
+          - [responsibility, אחריות]
+          - [feedback, משוב]
+          - [overwhelmed, מוצף]
+          - [lately, בזמן האחרון]
+        lexemes: [challenge, responsibility, feedback, overwhelmed, lately]
+      - id: u31-l1-12
+        type: multiple_choice
+        prompt: "מה המשוב של מרים?"
+        options: [נועה מנסה לעשות הכול לבד, נועה לא מספיק שאפתנית, הלקוח לא מרוצה]
+        correct: 0
+        lexemes: [feedback]
+      - id: u31-l1-13
+        type: multiple_choice
+        prompt: "איך נועה מגיבה?"
+        options: [היא מסכימה ומודה שהיא מוצפת, היא כועסת, היא לא מסכימה]
+        correct: 0
+        lexemes: [point-taken, overwhelmed]
+      - id: u31-l1-14
+        type: listening_choice
+        audioText: "To be honest, I've taken on too much responsibility this year."
+        question: מה היא אומרת?
+        options: [היא לקחה על עצמה יותר מדי אחריות, היא רוצה יותר אחריות, אין לה מספיק עבודה]
+        correct: 0
+        lexemes: [to-be-honest, take-on, responsibility]
+      - id: u31-l1-15
+        type: word_bank
+        prompt: "זה היה אתגר אמיתי."
+        answers: ["It's been a real challenge.", "It has been a real challenge."]
+        distractors: [challenging, was]
+        lexemes: [challenge]
+      - id: u31-l1-16
+        type: speak_repeat
+        text: "That's a fair point. To be honest, I've been feeling overwhelmed lately."
+        translation: "נקודה הוגנת. למען האמת, אני מרגישה מוצפת בזמן האחרון."
+        lexemes: [point-taken, to-be-honest, overwhelmed]
+
+  # ------------------------------------------------------------------ 2
+  - id: u31-l2
+    kind: new
+    title: { he: "שתי הצעות", en: "Two offers" }
+    exercises:
+      - { id: "u31-l2-01", type: "learn", lexeme: "career" }
+      - { id: "u31-l2-02", type: "learn", lexeme: "promotion" }
+      - { id: "u31-l2-03", type: "learn", lexeme: "opportunity" }
+      - { id: "u31-l2-04", type: "learn", lexeme: "pay-rise" }
+      - { id: "u31-l2-05", type: "learn", lexeme: "deserve" }
+      - { id: "u31-l2-06", type: "learn", lexeme: "ambitious" }
+      - id: u31-l2-07
+        type: dialogue
+        scene: "בסוף השיחה, מרים מפתיעה את נועה."
+        lines:
+          - { speaker: "miriam", text: "And now the big news. We'd like to offer you a promotion: head of the London office.", translation: "ועכשיו החדשה הגדולה. אנחנו רוצים להציע לך קידום: ראש המשרד בלונדון." }
+          - { speaker: "noa", text: "Wow. I don't know what to say.", translation: "וואו. אני לא יודעת מה להגיד." }
+          - { speaker: "miriam", text: "It comes with a big pay rise. You deserve it, Noa.", translation: "זה מגיע עם העלאה גדולה במשכורת. מגיע לך, נועה." }
+          - { speaker: "noa", text: "Thank you. But… Tel Aviv called me last week. They've offered me a senior role there too.", translation: "תודה. אבל… תל אביב התקשרו אליי בשבוע שעבר. הם הציעו לי תפקיד בכיר גם שם." }
+          - { speaker: "miriam", text: "Two great opportunities. You're ambitious, so I'm not surprised.", translation: "שתי הזדמנויות מעולות. את שאפתנית, אז אני לא מופתעת." }
+      - id: u31-l2-08
+        type: match_pairs
+        pairs:
+          - [career, קריירה]
+          - [promotion, קידום]
+          - [opportunity, הזדמנות]
+          - [pay rise, העלאה במשכורת]
+          - [ambitious, שאפתן]
+        lexemes: [career, promotion, opportunity, pay-rise, ambitious]
+      - id: u31-l2-09
+        type: multiple_choice
+        prompt: "מה ההצעה של מרים?"
+        options: [ראש המשרד בלונדון, ראש צוות בתל אביב, פרויקט חדש במדריד]
+        correct: 0
+        lexemes: [promotion]
+      - id: u31-l2-10
+        type: multiple_choice
+        prompt: "למה נועה מתלבטת?"
+        options: [גם תל אביב הציעו לה תפקיד בכיר, היא לא רוצה העלאה, היא רוצה לעזוב את החברה]
+        correct: 0
+        lexemes: [opportunity]
+      - { id: "u31-l2-11", type: "learn", lexeme: "get-promoted" }
+      - { id: "u31-l2-12", type: "learn", lexeme: "turn-down-offer" }
+      - { id: "u31-l2-13", type: "learn", lexeme: "work-life-balance" }
+      - id: u31-l2-14
+        type: dialogue_gap
+        lines:
+          - { speaker: "ben", text: "Are you going to accept the promotion?", translation: "את הולכת לקבל את הקידום?" }
+          - { speaker: "noa", text: "I don't know yet. I might turn it down. My work-life balance is terrible.", translation: "אני עוד לא יודעת. אולי אדחה אותו. האיזון בין עבודה לחיים שלי נוראי." }
+        gap: 1
+        distractors: ["I don't know yet. I might turn down it.", "I don't know yet. I might turn it off."]
+        lexemes: [turn-down-offer, work-life-balance]
+      - id: u31-l2-15
+        type: translate
+        direction: to_target
+        prompt: "מגיע לך הקידום הזה."
+        answers: ["You deserve this promotion.", "You deserve the promotion."]
+        lexemes: [deserve, promotion]
+      - id: u31-l2-16
+        type: translate
+        direction: to_source
+        prompt: "She turned down a great opportunity."
+        answers: ["היא דחתה הזדמנות מעולה.", "היא סירבה להזדמנות מעולה.", "היא ויתרה על הזדמנות מעולה."]
+        lexemes: [turn-down-offer, opportunity]
+      - id: u31-l2-17
+        type: speak_repeat
+        text: "Two great opportunities, and I can only choose one."
+        translation: "שתי הזדמנויות מעולות, ואני יכולה לבחור רק אחת."
+        lexemes: [opportunity]
+
+  # ------------------------------------------------------------------ 3
+  - id: u31-l3
+    kind: grammar
+    grammar: present-perfect-continuous
+    title: { he: "אני עובדת על זה כבר חודשים", en: "I've been working on it for months" }
+    exercises:
+      - { id: "u31-l3-01", type: "learn", lexeme: "have-been-ing" }
+      - { id: "u31-l3-02", type: "learn", lexeme: "recently" }
+      - id: u31-l3-03
+        type: fill_blank
+        sentence: "I've been ___ on this project since January."
+        translation: "אני עובדת על הפרויקט הזה מאז ינואר."
+        answers: [working]
+        options: [working, worked, work]
+        lexemes: [have-been-ing, since]
+      - id: u31-l3-04
+        type: fill_blank
+        sentence: "She ___ been waiting for an hour."
+        translation: "היא מחכה כבר שעה."
+        answers: [has]
+        options: [has, have, is]
+        lexemes: [have-been-ing, wait]
+      - id: u31-l3-05
+        type: multiple_choice
+        prompt: "איזה משפט מדגיש תוצאה (כמה)?"
+        options: ["I've written five reports.", "I've been writing reports all day.", "I've been writing since nine."]
+        correct: 0
+        lexemes: [have-done, have-been-ing]
+      - id: u31-l3-06
+        type: multiple_choice
+        prompt: איזה משפט נכון?
+        options: ["I've known her for ten years.", "I've been knowing her for ten years.", "I'm knowing her for ten years."]
+        correct: 0
+        lexemes: [known]
+      - id: u31-l3-07
+        type: dialogue_gap
+        lines:
+          - { speaker: "tamar", text: "You look exhausted. Have you been working late?", translation: "את נראית מותשת. עבדת עד מאוחר?" }
+          - { speaker: "noa", text: "Yes, I've been staying at the office until ten every night.", translation: "כן, אני נשארת במשרד עד עשר כל ערב." }
+        gap: 1
+        distractors: ["Yes, I've stayed at the office until ten every night since.", "Yes, I'm being stay at the office until ten."]
+        lexemes: [have-been-ing]
+      - id: u31-l3-08
+        type: fill_blank
+        sentence: "How long have you ___ learning English?"
+        translation: "כמה זמן אתה לומד אנגלית?"
+        answers: [been]
+        options: [been, being, be]
+        lexemes: [have-been-ing, learn]
+      - id: u31-l3-09
+        type: word_bank
+        prompt: "חשבתי על ההצעה שלך."
+        answers: ["I've been thinking about your offer.", "I have been thinking about your offer."]
+        distractors: [thought, think]
+        lexemes: [have-been-ing]
+      - id: u31-l3-10
+        type: word_bank
+        prompt: "הוא קיבל קידום לאחרונה."
+        answers: ["He got promoted recently.", "He has got promoted recently.", "He was promoted recently.", "Recently he got promoted."]
+        distractors: [lately, promotion]
+        lexemes: [get-promoted, recently]
+      - id: u31-l3-11
+        type: translate
+        direction: to_target
+        prompt: "כמה זמן אתה מחכה?"
+        answers: ["How long have you been waiting?"]
+        lexemes: [have-been-ing, wait]
+      - id: u31-l3-12
+        type: translate
+        direction: to_source
+        prompt: "Noa has been leading the team since January."
+        answers: ["נועה מובילה את הצוות מאז ינואר.", "נועה מנהלת את הצוות מאז ינואר."]
+        lexemes: [have-been-ing, since]
+      - id: u31-l3-13
+        type: speak_repeat
+        text: "I've been thinking about my career a lot lately."
+        translation: "אני חושבת הרבה על הקריירה שלי בזמן האחרון."
+        lexemes: [have-been-ing, career, lately]
+
+  # ------------------------------------------------------------------ 4
+  - id: u31-l4
+    kind: listening
+    title: { he: "עצה מבן", en: "Advice from Ben" }
+    exercises:
+      - id: u31-l4-01
+        type: dialogue
+        scene: "נועה ובן הולכים לאורך התמזה בערב."
+        lines:
+          - { speaker: "ben", text: "You've been very quiet lately. Is it the two offers?", translation: "את מאוד שקטה בזמן האחרון. זה בגלל שתי ההצעות?" }
+          - { speaker: "noa", text: "Yes. I've been making lists for a week: London on one side, Tel Aviv on the other.", translation: "כן. אני מכינה רשימות כבר שבוע: לונדון בצד אחד, תל אביב בצד השני." }
+          - { speaker: "ben", text: "And what does the list say?", translation: "ומה הרשימה אומרת?" }
+          - { speaker: "noa", text: "London is the bigger promotion. But in Tel Aviv I'd be close to my family.", translation: "לונדון זה הקידום הגדול יותר. אבל בתל אביב הייתי קרובה למשפחה." }
+          - { speaker: "ben", text: "Can I be honest? Forget the list. Where do you feel at home?", translation: "אפשר להיות כן? תשכחי מהרשימה. איפה את מרגישה בבית?" }
+          - { speaker: "noa", text: "That's the problem. I've been feeling at home in both places.", translation: "זו הבעיה. אני מרגישה בבית בשני המקומות." }
+          - { speaker: "ben", text: "Then you don't have to decide tonight. Take your time.", translation: "אז את לא צריכה להחליט הלילה. קחי את הזמן." }
+      - id: u31-l4-02
+        type: multiple_choice
+        prompt: "כמה זמן נועה מכינה רשימות?"
+        options: [שבוע, חודש, יום]
+        correct: 0
+        lexemes: [have-been-ing]
+      - id: u31-l4-03
+        type: multiple_choice
+        prompt: "מה היתרון של תל אביב?"
+        options: [קרבה למשפחה, משכורת גבוהה יותר, קידום גדול יותר]
+        correct: 0
+        lexemes: [close-to]
+      - id: u31-l4-04
+        type: multiple_choice
+        prompt: "מה העצה של בן?"
+        options: [לחשוב איפה היא מרגישה בבית, לבחור בלונדון, לבחור את המשכורת הגבוהה]
+        correct: 0
+        lexemes: [to-be-honest]
+      - id: u31-l4-05
+        type: multiple_choice
+        prompt: "מה הבעיה של נועה?"
+        options: [היא מרגישה בבית בשני המקומות, היא לא אוהבת אף אחד מהמקומות, אין לה מספיק זמן]
+        correct: 0
+        lexemes: [have-been-ing]
+      - id: u31-l4-06
+        type: listening_choice
+        audioText: "He's been looking for a new job since he got the feedback."
+        question: מה הוא עושה?
+        options: [מחפש עבודה חדשה מאז המשוב, קיבל קידום, נותן משוב לאחרים]
+        correct: 0
+        lexemes: [have-been-ing, feedback]
+      - id: u31-l4-07
+        type: dialogue_gap
+        lines:
+          - { speaker: "david", text: "Did you hear? Tamar got promoted!", translation: "שמעת? תמר קיבלה קידום!" }
+          - { speaker: "ben", text: "Brilliant. She's been working so hard. She really deserves it.", translation: "מעולה. היא עבדה כל כך קשה. מגיע לה באמת." }
+        gap: 1
+        distractors: ["Brilliant. She's been worked so hard. She really deserves it.", "Brilliant. She works so hard since. She deserved it really."]
+        lexemes: [get-promoted, have-been-ing, deserve]
+      - id: u31-l4-08
+        type: dictation
+        text: "You've been very quiet lately."
+        lexemes: [lately, quiet]
+      - id: u31-l4-09
+        type: translate
+        direction: to_target
+        prompt: "אני לא צריכה להחליט הלילה."
+        answers: ["I don't have to decide tonight.", "I do not have to decide tonight."]
+        lexemes: [dont-have-to, decide]
+      - id: u31-l4-10
+        type: speak_repeat
+        text: "I've been feeling at home in both places."
+        translation: "אני מרגישה בבית בשני המקומות."
+        lexemes: [have-been-ing]
+
+  # ------------------------------------------------------------------ 5
+  - id: u31-l5
+    kind: reading
+    title: { he: "הקידום שלא רציתי", en: "The promotion I didn't want" }
+    exercises:
+      - id: u31-l5-01
+        type: reading
+        kind: "מאמר דעה באתר קריירה"
+        title: "Why I turned down a promotion"
+        text: |
+          Last year I was offered the job I had been working towards for ten years: head of department, with a 30 percent pay rise. I turned it down, and I've never regretted it.
+
+          For months I had been feeling overwhelmed. I'd been answering emails at midnight and missing my children's football matches. The new role would have meant even more responsibility and even less time.
+
+          Many ambitious people believe that a career only moves in one direction: up. But a career is not a ladder; it's more like a map. Sometimes the best opportunity is the one that lets you stay where you are and do your job well.
+
+          I've been working four days a week since then. I'm less tired, my team is happier, and, to be honest, my work has never been better.
+        translation: |
+          בשנה שעברה הציעו לי את התפקיד שעבדתי לקראתו עשר שנים: ראש מחלקה, עם העלאה של 30 אחוז במשכורת. דחיתי אותו, ואף פעם לא התחרטתי.
+
+          במשך חודשים הרגשתי מוצפת. עניתי למיילים בחצות ופספסתי את משחקי הכדורגל של הילדים שלי. התפקיד החדש היה אומר עוד יותר אחריות ועוד פחות זמן.
+
+          הרבה אנשים שאפתנים מאמינים שקריירה זזה רק לכיוון אחד: למעלה. אבל קריירה היא לא סולם; היא יותר כמו מפה. לפעמים ההזדמנות הכי טובה היא זו שמאפשרת לך להישאר איפה שאת ולעשות את העבודה שלך טוב.
+
+          מאז אני עובדת ארבעה ימים בשבוע. אני פחות עייפה, הצוות שלי מאושר יותר, ובכנות, העבודה שלי מעולם לא הייתה טובה יותר.
+      - id: u31-l5-02
+        type: multiple_choice
+        prompt: "מה הוצע לכותבת?"
+        options: ["ראש מחלקה עם העלאה של 30%", "עבודה בחו\"ל", "עבודה מהבית"]
+        correct: 0
+        lexemes: [promotion, pay-rise]
+      - id: u31-l5-03
+        type: multiple_choice
+        prompt: "למה היא דחתה את ההצעה?"
+        options: [היא הייתה מוצפת ורצתה יותר זמן, המשכורת הייתה נמוכה, היא לא אהבה את הצוות]
+        correct: 0
+        lexemes: [overwhelmed, turn-down-offer]
+      - id: u31-l5-04
+        type: multiple_choice
+        prompt: "לפי הכותבת, קריירה היא כמו…"
+        options: [מפה, סולם, מירוץ]
+        correct: 0
+        lexemes: [career]
+      - id: u31-l5-05
+        type: multiple_choice
+        prompt: "כמה ימים בשבוע היא עובדת היום?"
+        options: [ארבעה, חמישה, שלושה]
+        correct: 0
+        lexemes: [have-been-ing]
+      - id: u31-l5-06
+        type: multiple_choice
+        prompt: "האם היא מתחרטת?"
+        options:
+          - "לא, אף פעם"
+          - "כן, קצת"
+          - היא עוד לא יודעת
+        correct: 0
+        lexemes: [to-be-honest]
+      - id: u31-l5-07
+        type: fill_blank
+        sentence: "I've been ___ four days a week since then."
+        translation: "מאז אני עובדת ארבעה ימים בשבוע."
+        answers: [working]
+        options: [working, worked, work]
+        lexemes: [have-been-ing]
+      - id: u31-l5-08
+        type: fill_blank
+        sentence: "Many ___ people believe that a career only moves up."
+        translation: "הרבה אנשים שאפתנים מאמינים שקריירה זזה רק למעלה."
+        answers: [ambitious]
+        options: [ambitious, overwhelmed, honest]
+        lexemes: [ambitious, career]
+      - id: u31-l5-09
+        type: word_bank
+        prompt: "דחיתי את זה, ואף פעם לא התחרטתי."
+        answers: ["I turned it down, and I've never regretted it.", "I turned it down and I've never regretted it.", "I turned it down, and I have never regretted it."]
+        distractors: [off, regret]
+        lexemes: [turn-down-offer]
+      - id: u31-l5-10
+        type: translate
+        direction: to_target
+        prompt: "העבודה שלי מעולם לא הייתה טובה יותר."
+        answers: ["My work has never been better.", "My work's never been better."]
+        lexemes: [never, better]
+      - id: u31-l5-11
+        type: speak_repeat
+        text: "A career is not a ladder; it's more like a map."
+        translation: "קריירה היא לא סולם; היא יותר כמו מפה."
+        lexemes: [career]
+
+  # ------------------------------------------------------------------ 6
+  - id: u31-review
+    kind: review
+    title: { he: "חזרה: מהלכים בקריירה", en: "Review: career moves" }
+    exercises:
+      - id: u31-r-01
+        type: match_pairs
+        pairs:
+          - [deserve, מגיע ל־]
+          - [take on, לקחת על עצמי]
+          - [turn down, לדחות הצעה]
+          - [recently, לאחרונה]
+          - [work-life balance, איזון עבודה וחיים]
+        lexemes: [deserve, take-on, turn-down-offer, recently, work-life-balance]
+      - id: u31-r-02
+        type: fill_blank
+        sentence: "How long ___ you been living in London?"
+        translation: "כמה זמן אתה גר בלונדון?"
+        answers: [have]
+        options: [have, are, did]
+        lexemes: [have-been-ing, live]
+      - id: u31-r-03
+        type: listening_choice
+        audioText: "I've been feeling much better since I started working four days a week."
+        question: למה הוא מרגיש יותר טוב?
+        options: [הוא עובד ארבעה ימים בשבוע, הוא קיבל קידום, הוא עבר דירה]
+        correct: 0
+        lexemes: [have-been-ing]
+      - id: u31-r-04
+        type: word_bank
+        prompt: "היא לקחה על עצמה יותר מדי."
+        answers: ["She has taken on too much.", "She's taken on too much.", "She took on too much."]
+        distractors: [up, off]
+        lexemes: [take-on]
+      - id: u31-r-05
+        type: dialogue_gap
+        lines:
+          - { speaker: "miriam", text: "Your report has a few mistakes.", translation: "יש בדוח שלך כמה טעויות." }
+          - { speaker: "david", text: "That's a fair point. I'll fix them today.", translation: "נקודה הוגנת. אתקן אותן היום." }
+        gap: 1
+        distractors: ["That's a fair point. I've been fixed them today.", "Congratulations! I'll fix them today."]
+        lexemes: [point-taken, fix]
+      - id: u31-r-06
+        type: multiple_choice
+        prompt: "איזה משפט נכון?"
+        options: ["I've been waiting for twenty minutes.", "I've been wait for twenty minutes.", "I'm waiting since twenty minutes."]
+        correct: 0
+        lexemes: [have-been-ing]
+      - id: u31-r-07
+        type: translate
+        direction: to_target
+        prompt: "למען האמת, אני לא רוצה את הקידום."
+        answers: ["To be honest, I don't want the promotion.", "To be honest, I do not want the promotion."]
+        lexemes: [to-be-honest, promotion]
+      - id: u31-r-08
+        type: translate
+        direction: to_source
+        prompt: "It's a great opportunity for your career."
+        answers: ["זו הזדמנות מעולה לקריירה שלך.", "זו הזדמנות נהדרת לקריירה שלך.", "זאת הזדמנות מעולה לקריירה שלך."]
+        lexemes: [opportunity, career]
+      - id: u31-r-09
+        type: dictation
+        text: "I've been thinking about your offer."
+        lexemes: [have-been-ing]
+      - id: u31-r-10
+        type: speak_repeat
+        text: "You've taken on a lot of responsibility. You deserve this promotion."
+        translation: "לקחת על עצמך הרבה אחריות. מגיע לך הקידום הזה."
+        lexemes: [take-on, responsibility, deserve, promotion]

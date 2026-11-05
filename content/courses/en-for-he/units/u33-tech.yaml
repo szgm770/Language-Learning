@@ -1,0 +1,489 @@
+id: u33-tech
+cefr: B2
+scene: tech
+title:
+  he: טכנולוגיה וחברה
+  en: Tech and society
+story: "החשבון של בן ברשת חברתית נפרץ, והצוות מתווכח על בינה מלאכותית, פרטיות וזמן מסך. נועה מנחה דיון בכנס, ומגלה שהשאלות הקשות הן לא טכניות."
+canDo:
+  - לדבר על בינה מלאכותית, פרטיות ורשתות חברתיות
+  - להשתמש בסביל מתקדם (is being, has been, will be)
+  - "להגיד שמישהו עשה משהו בשבילי (have / get something done)"
+  - להציג טיעונים בעד ונגד
+
+vocabulary:
+  - { id: "artificial-intelligence", text: "artificial intelligence (AI)", translation: "בינה מלאכותית", pos: "noun", pronunciation: "אַרְטִיפִישֶׁל אִינְטֶלִיגֶ'נְס" }
+  - { id: "privacy", text: "privacy", translation: "פרטיות", pos: "noun", pronunciation: "פְּרַייבָסִי" }
+  - { id: "data", text: "data", translation: "נתונים, מידע", pos: "noun", pronunciation: "דֵייטָה" }
+  - { id: "personal-information", text: "personal information", translation: "מידע אישי", pos: "noun", pronunciation: "פֶּרְסוֹנֶל אִינְפוֹרְמֵיישְׁן" }
+  - { id: "social-media", text: "social media", translation: "רשתות חברתיות", pos: "noun", pronunciation: "סוֹשֶׁל מִידְיָה" }
+  - { id: "account", text: "account", translation: "חשבון (משתמש)", pos: "noun", pronunciation: "אַקַאוּנְט" }
+  - { id: "hacked", text: "hacked", translation: "נפרץ", pos: "adjective", pronunciation: "הֶקְט", example: { text: "My account was hacked.", translation: "החשבון שלי נפרץ." } }
+  - { id: "protect", text: "protect", translation: "להגן", pos: "verb", pronunciation: "פְּרוֹטֶקְט" }
+  - { id: "algorithm", text: "algorithm", translation: "אלגוריתם", pos: "noun", pronunciation: "אֶלְגוֹרִיתְ'ם" }
+  - { id: "fake-news", text: "fake news", translation: "חדשות כזב", pos: "noun", pronunciation: "פֵייק נְיוּז" }
+  - { id: "screen-time", text: "screen time", translation: "זמן מסך", pos: "noun", pronunciation: "סְקְרִין טַיים" }
+  - { id: "addicted", text: "addicted to", translation: "מכור ל־", pos: "adjective", pronunciation: "אַדִיקְטֶד טוּ" }
+  - { id: "rely-on", text: "rely on", translation: "לסמוך על, להסתמך על", pos: "verb", pronunciation: "רִילַיי אוֹן" }
+  - { id: "replace", text: "replace", translation: "להחליף (במקום)", pos: "verb", pronunciation: "רִיפְּלֵייס", example: { text: "Will AI replace teachers?", translation: "האם בינה מלאכותית תחליף מורים?" } }
+  - { id: "automated", text: "automated", translation: "אוטומטי, ממוכן", pos: "adjective", pronunciation: "אוֹטוֹמֵייטֶד" }
+  - { id: "have-it-done", text: "have / get something done", translation: "לדאוג שמישהו יעשה משהו בשבילי", pos: "phrase", pronunciation: "הֶב סַאמְתִ'ינְג דַאן", example: { text: "I had my phone repaired.", translation: "תיקנתי את הטלפון (במעבדה)." } }
+  - { id: "being-done", text: "is being / has been done", translation: "סביל מתקדם (נעשה עכשיו, כבר נעשה)", pos: "phrase", pronunciation: "אִיז בִּיאִינְג דַאן", example: { text: "The app is being updated.", translation: "האפליקציה מתעדכנת עכשיו." } }
+  - { id: "pros-and-cons", text: "pros and cons", translation: "יתרונות וחסרונות", pos: "phrase", pronunciation: "פְּרוֹז אֶנְד קוֹנְז" }
+  - { id: "on-one-hand", text: "on the one hand", translation: "מצד אחד", pos: "phrase", pronunciation: "אוֹן דֶ'ה וַאן הֶנְד" }
+  - { id: "raise-concerns", text: "raise concerns", translation: "לעורר חששות", pos: "phrase", pronunciation: "רֵייז קוֹנְסֶרְנְז" }
+
+grammar:
+  - id: causative-passive
+    title: { he: "תיקנתי (אצל מישהו): have something done", en: "Causative and advanced passive" }
+    explanation: |
+      בעברית אומרים "תיקנתי את הטלפון" גם כשבעצם תיקנו אותו במעבדה. באנגלית מבדילים:
+      - **I repaired my phone.** (אני תיקנתי, בעצמי)
+      - **I had my phone repaired.** / **I got my phone repaired.** (מישהו אחר תיקן בשבילי)
+
+      המבנה: **have / get + דבר + צורה שלישית**: **I'm having my hair cut. We got the windows cleaned.**
+
+      **סביל בזמנים נוספים**:
+      - עכשיו: **is / are being + V3**: **The servers are being updated.**
+      - הווה מושלם: **has / have been + V3**: **My account has been hacked!**
+      - עתיד: **will be + V3**: **The data will be protected.**
+      - עם מודאלים: **can / should / must be + V3**: **Passwords should be changed regularly.**
+    examples:
+      - { text: "Ben had his account checked by David.", translation: "בן דאג שדוד יבדוק לו את החשבון." }
+      - { text: "Your personal information is being protected.", translation: "המידע האישי שלך מוגן (בתהליך)." }
+      - { text: "Thousands of jobs will be replaced by AI.", translation: "אלפי משרות יוחלפו על ידי בינה מלאכותית." }
+
+lessons:
+  # ------------------------------------------------------------------ 1
+  - id: u33-l1
+    kind: new
+    title: { he: "החשבון שלי נפרץ!", en: "My account has been hacked!" }
+    exercises:
+      - id: u33-l1-01
+        type: dialogue
+        scene: "בוקר במשרד. בן נכנס בלחץ."
+        lines:
+          - { speaker: "ben", text: "David, help! My social media account has been hacked.", translation: "דוד, עזרה! החשבון שלי ברשת החברתית נפרץ." }
+          - { speaker: "david", text: "OK, don't panic. Has any personal information been posted?", translation: "בסדר, בלי פאניקה. פורסם מידע אישי כלשהו?" }
+          - { speaker: "ben", text: "Someone's sending messages to all my friends, asking for money!", translation: "מישהו שולח הודעות לכל החברים שלי ומבקש כסף!" }
+          - { speaker: "david", text: "Classic. First, change all your passwords. I'll get your laptop checked too.", translation: "קלאסי. קודם, תשנה את כל הסיסמאות. אני גם אדאג שיבדקו לך את הלפטופ." }
+          - { speaker: "ben", text: "I always thought my privacy was protected.", translation: "תמיד חשבתי שהפרטיות שלי מוגנת." }
+          - { speaker: "david", text: "Only if you protect it. Did you use the same password for everything?", translation: "רק אם אתה מגן עליה. השתמשת באותה סיסמה לכל דבר?" }
+          - { speaker: "ben", text: "…Maybe.", translation: "…אולי." }
+      - { id: "u33-l1-02", type: "learn", lexeme: "social-media" }
+      - { id: "u33-l1-03", type: "learn", lexeme: "account" }
+      - { id: "u33-l1-04", type: "learn", lexeme: "hacked" }
+      - { id: "u33-l1-05", type: "learn", lexeme: "personal-information" }
+      - { id: "u33-l1-06", type: "learn", lexeme: "privacy" }
+      - { id: "u33-l1-07", type: "learn", lexeme: "protect" }
+      - id: u33-l1-08
+        type: match_pairs
+        pairs:
+          - [social media, רשתות חברתיות]
+          - [account, חשבון]
+          - [hacked, נפרץ]
+          - [privacy, פרטיות]
+          - [protect, להגן]
+        lexemes: [social-media, account, hacked, privacy, protect]
+      - id: u33-l1-09
+        type: multiple_choice
+        prompt: "מה הפורץ עושה?"
+        options: [שולח הודעות לחברים ומבקש כסף, מוחק תמונות, משנה את השם של בן]
+        correct: 0
+        lexemes: [hacked]
+      - id: u33-l1-10
+        type: multiple_choice
+        prompt: "מה הטעות של בן?"
+        options: [אותה סיסמה לכל דבר, הוא לא עדכן את הלפטופ, הוא פתח מייל חשוד]
+        correct: 0
+        lexemes: [password]
+      - id: u33-l1-11
+        type: listening_choice
+        audioText: "Your personal information should be protected with a strong password."
+        question: מה ההמלצה?
+        options: [להגן על המידע עם סיסמה חזקה, לא להשתמש ברשתות חברתיות, לשתף פחות תמונות]
+        correct: 0
+        lexemes: [personal-information, protect]
+      - id: u33-l1-12
+        type: word_bank
+        prompt: "החשבון שלי נפרץ."
+        answers: ["My account has been hacked.", "My account was hacked."]
+        distractors: [hack, is]
+        lexemes: [account, hacked]
+      - id: u33-l1-13
+        type: speak_repeat
+        text: "Has any personal information been posted?"
+        translation: "פורסם מידע אישי כלשהו?"
+        lexemes: [personal-information]
+
+  # ------------------------------------------------------------------ 2
+  - id: u33-l2
+    kind: new
+    title: { he: "בינה מלאכותית: בעד ונגד", en: "AI: pros and cons" }
+    exercises:
+      - { id: "u33-l2-01", type: "learn", lexeme: "artificial-intelligence" }
+      - { id: "u33-l2-02", type: "learn", lexeme: "data" }
+      - { id: "u33-l2-03", type: "learn", lexeme: "algorithm" }
+      - { id: "u33-l2-04", type: "learn", lexeme: "replace" }
+      - { id: "u33-l2-05", type: "learn", lexeme: "automated" }
+      - { id: "u33-l2-06", type: "learn", lexeme: "rely-on" }
+      - { id: "u33-l2-07", type: "learn", lexeme: "pros-and-cons" }
+      - { id: "u33-l2-08", type: "learn", lexeme: "on-one-hand" }
+      - id: u33-l2-09
+        type: dialogue
+        scene: "ארוחת צהריים. תמר ודוד מתווכחים על בינה מלאכותית."
+        lines:
+          - { speaker: "tamar", text: "I use AI every day for design ideas. It saves me hours.", translation: "אני משתמשת בבינה מלאכותית כל יום לרעיונות עיצוב. זה חוסך לי שעות." }
+          - { speaker: "david", text: "On the one hand, it's useful. On the other hand, a lot of jobs will be replaced.", translation: "מצד אחד, זה שימושי. מצד שני, הרבה משרות יוחלפו." }
+          - { speaker: "tamar", text: "Some tasks will be automated, sure. But someone still has to make the decisions.", translation: "חלק מהמשימות יהפכו לאוטומטיות, בטח. אבל מישהו עדיין צריך לקבל את ההחלטות." }
+          - { speaker: "david", text: "My worry is the data. These algorithms learn from our personal information.", translation: "הדאגה שלי היא הנתונים. האלגוריתמים האלה לומדים מהמידע האישי שלנו." }
+          - { speaker: "tamar", text: "Fair point. We shouldn't rely on it for everything.", translation: "נקודה הוגנת. לא כדאי שנסמוך עליה בכל דבר." }
+      - id: u33-l2-10
+        type: match_pairs
+        pairs:
+          - [data, נתונים]
+          - [replace, להחליף]
+          - [automated, אוטומטי]
+          - [rely on, לסמוך על]
+          - [pros and cons, יתרונות וחסרונות]
+        lexemes: [data, replace, automated, rely-on, pros-and-cons]
+      - id: u33-l2-11
+        type: multiple_choice
+        prompt: "ממה דוד חושש?"
+        options: [משרות יוחלפו והנתונים האישיים, שבינה מלאכותית יקרה מדי, שהיא לא עובדת טוב]
+        correct: 0
+        lexemes: [replace, data]
+      - id: u33-l2-12
+        type: dialogue_gap
+        lines:
+          - { speaker: "noa", text: "Should we use AI to answer our clients?", translation: "כדאי שנשתמש בבינה מלאכותית כדי לענות ללקוחות?" }
+          - { speaker: "ben", text: "On the one hand, it's faster. On the other hand, clients want to talk to real people.", translation: "מצד אחד, זה מהיר יותר. מצד שני, לקוחות רוצים לדבר עם אנשים אמיתיים." }
+        gap: 1
+        distractors: ["On one side hand, it's faster. On other, clients want people.", "On the one hand, it's faster. However hand, clients want people."]
+        lexemes: [on-one-hand, on-the-other-hand]
+      - id: u33-l2-13
+        type: translate
+        direction: to_target
+        prompt: "הרבה משימות יהפכו לאוטומטיות."
+        answers: ["A lot of tasks will be automated.", "Many tasks will be automated.", "Lots of tasks will be automated."]
+        lexemes: [automated, passive]
+      - id: u33-l2-14
+        type: translate
+        direction: to_source
+        prompt: "We shouldn't rely on AI for everything."
+        answers: ["לא כדאי שנסמוך על בינה מלאכותית בכל דבר.", "לא כדאי לנו להסתמך על בינה מלאכותית בכל דבר.", "אסור לנו לסמוך על בינה מלאכותית בכל דבר."]
+        lexemes: [rely-on, artificial-intelligence]
+      - id: u33-l2-15
+        type: speak_repeat
+        text: "On the one hand, AI is useful. On the other hand, it raises a lot of questions."
+        translation: "מצד אחד, בינה מלאכותית שימושית. מצד שני, היא מעוררת הרבה שאלות."
+        lexemes: [on-one-hand, artificial-intelligence]
+
+  # ------------------------------------------------------------------ 3
+  - id: u33-l3
+    kind: grammar
+    grammar: causative-passive
+    title: { he: "דאגתי שיתקנו לי", en: "I had it fixed" }
+    exercises:
+      - { id: "u33-l3-01", type: "learn", lexeme: "have-it-done" }
+      - { id: "u33-l3-02", type: "learn", lexeme: "being-done" }
+      - id: u33-l3-03
+        type: multiple_choice
+        prompt: "מה פירוש: I had my laptop repaired?"
+        options: [מישהו תיקן לי את הלפטופ, תיקנתי את הלפטופ בעצמי, הלפטופ שלי שבור]
+        correct: 0
+        lexemes: [have-it-done]
+      - id: u33-l3-04
+        type: fill_blank
+        sentence: "I'm having my hair ___ tomorrow. (cut)"
+        translation: "אני מסתפר מחר."
+        answers: [cut]
+        options: [cut, cutting, to cut]
+        lexemes: [have-it-done]
+      - id: u33-l3-05
+        type: fill_blank
+        sentence: "We got the windows ___ last week. (clean)"
+        translation: "דאגנו שינקו את החלונות בשבוע שעבר."
+        answers: [cleaned]
+        options: [cleaned, clean, cleaning]
+        lexemes: [have-it-done, window]
+      - id: u33-l3-06
+        type: fill_blank
+        sentence: "The servers are ___ updated right now."
+        translation: "השרתים מתעדכנים עכשיו."
+        answers: [being]
+        options: [being, been, be]
+        lexemes: [being-done, server]
+      - id: u33-l3-07
+        type: fill_blank
+        sentence: "Your password has ___ changed."
+        translation: "הסיסמה שלך שונתה."
+        answers: [been]
+        options: [been, being, be]
+        lexemes: [being-done, password]
+      - id: u33-l3-08
+        type: multiple_choice
+        prompt: איזה משפט נכון?
+        options: ["Passwords should be changed regularly.", "Passwords should changed regularly.", "Passwords should be change regularly."]
+        correct: 0
+        lexemes: [being-done, password]
+      - id: u33-l3-09
+        type: dialogue_gap
+        lines:
+          - { speaker: "noa", text: "Is your phone working now?", translation: "הטלפון שלך עובד עכשיו?" }
+          - { speaker: "ben", text: "Yes, I had the screen replaced yesterday.", translation: "כן, החליפו לי את המסך אתמול." }
+        gap: 1
+        distractors: ["Yes, I had replaced the screen by someone yesterday.", "Yes, I had the screen replace yesterday."]
+        lexemes: [have-it-done, replace]
+      - id: u33-l3-10
+        type: word_bank
+        prompt: "המידע שלך יהיה מוגן."
+        answers: ["Your data will be protected.", "Your information will be protected."]
+        distractors: [being, protect]
+        lexemes: [being-done, protect, data]
+      - id: u33-l3-11
+        type: translate
+        direction: to_target
+        prompt: "החשבון שלי נבדק עכשיו."
+        answers: ["My account is being checked.", "My account is being checked now.", "My account is being checked right now."]
+        lexemes: [being-done, account]
+      - id: u33-l3-12
+        type: translate
+        direction: to_source
+        prompt: "I need to get my laptop fixed."
+        answers: ["אני צריך לתקן את הלפטופ שלי.", "אני צריכה לתקן את הלפטופ שלי.", "אני צריך לתת לתקן את הלפטופ שלי.", "אני צריכה לתת לתקן את הלפטופ שלי."]
+        lexemes: [have-it-done, laptop]
+      - id: u33-l3-13
+        type: speak_repeat
+        text: "My account has been hacked, so I'm having it checked."
+        translation: "החשבון שלי נפרץ, אז אני דואג שיבדקו אותו."
+        lexemes: [being-done, hacked, have-it-done]
+
+  # ------------------------------------------------------------------ 4
+  - id: u33-l4
+    kind: listening
+    title: { he: "הדיון בכנס", en: "The panel discussion" }
+    exercises:
+      - { id: "u33-l4-01", type: "learn", lexeme: "fake-news" }
+      - { id: "u33-l4-02", type: "learn", lexeme: "screen-time" }
+      - { id: "u33-l4-03", type: "learn", lexeme: "addicted" }
+      - { id: "u33-l4-04", type: "learn", lexeme: "raise-concerns" }
+      - id: u33-l4-05
+        type: dialogue
+        scene: "נועה מנחה פאנל בכנס טכנולוגיה בלונדון. משתתפים: דוד ותמר."
+        lines:
+          - { speaker: "noa", text: "Welcome, everyone. Today's question: is technology making our lives better or worse?", translation: "ברוכים הבאים. השאלה היום: האם הטכנולוגיה משפרת את חיינו או מרעה אותם?" }
+          - { speaker: "tamar", text: "Better, mostly. Medical research is being transformed by AI. Diseases are being found earlier.", translation: "משפרת, בעיקר. מחקר רפואי משתנה בזכות בינה מלאכותית. מחלות מתגלות מוקדם יותר." }
+          - { speaker: "david", text: "That's true. However, social media raises serious concerns. Fake news spreads faster than the truth.", translation: "זה נכון. עם זאת, הרשתות החברתיות מעוררות חששות רציניים. חדשות כזב מתפשטות מהר יותר מהאמת." }
+          - { speaker: "noa", text: "And what about screen time? Are we addicted to our phones?", translation: "ומה עם זמן מסך? אנחנו מכורים לטלפונים שלנו?" }
+          - { speaker: "tamar", text: "Some of us are. But the problem isn't the technology; it's how it's designed. Many apps are built to keep us scrolling.", translation: "חלק מאיתנו כן. אבל הבעיה היא לא הטכנולוגיה; היא איך שהיא מעוצבת. הרבה אפליקציות בנויות כדי שנמשיך לגלול." }
+          - { speaker: "david", text: "Exactly. So the question isn't 'what can technology do', but 'what should it do'.", translation: "בדיוק. אז השאלה היא לא 'מה הטכנולוגיה יכולה לעשות', אלא 'מה היא צריכה לעשות'." }
+      - id: u33-l4-06
+        type: multiple_choice
+        prompt: "איזו דוגמה חיובית תמר נותנת?"
+        options: [מחלות מתגלות מוקדם יותר, רשתות חברתיות, אפליקציות חדשות]
+        correct: 0
+        lexemes: [being-done]
+      - id: u33-l4-07
+        type: multiple_choice
+        prompt: "מה דוד אומר על חדשות כזב?"
+        options: [הן מתפשטות מהר יותר מהאמת, קל לזהות אותן, הן כבר לא בעיה]
+        correct: 0
+        lexemes: [fake-news, raise-concerns]
+      - id: u33-l4-08
+        type: multiple_choice
+        prompt: "לפי תמר, מה הבעיה עם זמן מסך?"
+        options: [האפליקציות מעוצבות כדי שנמשיך לגלול, הטלפונים זולים מדי, אנשים עובדים יותר מדי]
+        correct: 0
+        lexemes: [screen-time, addicted]
+      - id: u33-l4-09
+        type: multiple_choice
+        prompt: "מה המסקנה של דוד?"
+        options: [השאלה היא מה הטכנולוגיה צריכה לעשות, צריך להפסיק להשתמש בטכנולוגיה, הטכנולוגיה תמיד טובה]
+        correct: 0
+        lexemes: [should]
+      - id: u33-l4-10
+        type: listening_choice
+        audioText: "My screen time has gone up to six hours a day. I think I'm addicted."
+        question: מה הבעיה שלו?
+        options: [שש שעות מסך ביום, הטלפון שלו נפרץ, אין לו טלפון]
+        correct: 0
+        lexemes: [screen-time, addicted]
+      - id: u33-l4-11
+        type: dialogue_gap
+        lines:
+          - { speaker: "ben", text: "Did you see the news about chocolate curing colds?", translation: "ראית את החדשות על שוקולד שמרפא הצטננות?" }
+          - { speaker: "tamar", text: "Careful, that's fake news. It's already been checked.", translation: "זהירות, אלה חדשות כזב. זה כבר נבדק." }
+        gap: 1
+        distractors: ["Careful, that's fake news. It's already being checking.", "Careful, that's fake news. It's already been check."]
+        lexemes: [fake-news, being-done]
+      - id: u33-l4-12
+        type: dictation
+        text: "Many apps are built to keep us scrolling."
+        lexemes: [passive]
+      - id: u33-l4-13
+        type: translate
+        direction: to_target
+        prompt: "אני חושבת שאני מכורה לטלפון שלי."
+        answers: ["I think I'm addicted to my phone.", "I think I am addicted to my phone."]
+        lexemes: [addicted, phone]
+      - id: u33-l4-14
+        type: speak_repeat
+        text: "The question isn't what technology can do, but what it should do."
+        translation: "השאלה היא לא מה הטכנולוגיה יכולה לעשות, אלא מה היא צריכה לעשות."
+        lexemes: [should]
+
+  # ------------------------------------------------------------------ 5
+  - id: u33-l5
+    kind: reading
+    title: { he: "ניסוי: שבוע בלי סמארטפון", en: "Experiment: a week without a smartphone" }
+    exercises:
+      - id: u33-l5-01
+        type: reading
+        kind: "טור אישי בעיתון"
+        title: "I gave up my smartphone for a week. Here's what happened."
+        text: |
+          My screen time was over five hours a day, so I decided to try an experiment: one week with an old phone that could only make calls and send texts.
+
+          The first two days were difficult. I kept reaching for my pocket. I had to ask strangers for directions, and I even had a paper map printed at the library.
+
+          By day four, something had changed. I was reading books on the train. I noticed my neighbours. Conversations felt longer and, honestly, better.
+
+          Not everything was positive. I missed two important emails, and I couldn't pay for parking, because everything is done through apps now.
+
+          Am I giving up my smartphone for good? No. But I've had all my notifications switched off, and my screen time has been cut in half.
+        translation: |
+          זמן המסך שלי היה מעל חמש שעות ביום, אז החלטתי לנסות ניסוי: שבוע אחד עם טלפון ישן שיכול רק להתקשר ולשלוח הודעות.
+
+          היומיים הראשונים היו קשים. כל הזמן הושטתי יד לכיס. הייתי צריך לבקש מזרים הוראות הגעה, ואפילו הדפסתי מפה מנייר בספרייה.
+
+          עד היום הרביעי, משהו השתנה. קראתי ספרים ברכבת. שמתי לב לשכנים שלי. שיחות הרגישו ארוכות יותר ובכנות, טובות יותר.
+
+          לא הכול היה חיובי. פספסתי שני מיילים חשובים, ולא יכולתי לשלם על חניה, כי הכול נעשה דרך אפליקציות היום.
+
+          האם אני מוותר על הסמארטפון לתמיד? לא. אבל כיביתי את כל ההתראות, וזמן המסך שלי ירד בחצי.
+      - id: u33-l5-02
+        type: multiple_choice
+        prompt: "מה היה הניסוי?"
+        options: [שבוע עם טלפון ישן בלי אפליקציות, שבוע בלי טלפון בכלל, שבוע בלי מחשב]
+        correct: 0
+        lexemes: [screen-time]
+      - id: u33-l5-03
+        type: multiple_choice
+        prompt: "מה השתנה ביום הרביעי?"
+        options: [הוא קרא ספרים ושם לב לשכנים, הוא חזר לסמארטפון, הוא הפסיק לדבר עם אנשים]
+        correct: 0
+        lexemes: [neighbour]
+      - id: u33-l5-04
+        type: multiple_choice
+        prompt: "מה היה שלילי?"
+        options: [הוא פספס מיילים ולא יכל לשלם על חניה, הוא הלך לאיבוד, הוא היה בודד]
+        correct: 0
+        lexemes: [email]
+      - id: u33-l5-05
+        type: multiple_choice
+        prompt: "מה התוצאה בסוף?"
+        options: [זמן המסך ירד בחצי, הוא ויתר על הסמארטפון לתמיד, שום דבר לא השתנה]
+        correct: 0
+        lexemes: [being-done, screen-time]
+      - id: u33-l5-06
+        type: fill_blank
+        sentence: "I even had a paper map ___ at the library. (print)"
+        translation: "אפילו הדפסתי מפה מנייר בספרייה."
+        answers: [printed]
+        options: [printed, print, printing]
+        lexemes: [have-it-done]
+      - id: u33-l5-07
+        type: fill_blank
+        sentence: "Everything is ___ through apps now. (do)"
+        translation: "הכול נעשה דרך אפליקציות היום."
+        answers: [done]
+        options: [done, did, doing]
+        lexemes: [passive, app]
+      - id: u33-l5-08
+        type: word_bank
+        prompt: "זמן המסך שלי ירד בחצי."
+        answers: ["My screen time has been cut in half.", "My screen time was cut in half."]
+        distractors: [being, cutting]
+        lexemes: [being-done, screen-time]
+      - id: u33-l5-09
+        type: translate
+        direction: to_target
+        prompt: "היומיים הראשונים היו קשים."
+        answers: ["The first two days were difficult.", "The first two days were hard."]
+        lexemes: [were]
+      - id: u33-l5-10
+        type: speak_repeat
+        text: "I've had all my notifications switched off."
+        translation: "כיביתי את כל ההתראות שלי."
+        lexemes: [have-it-done]
+
+  # ------------------------------------------------------------------ 6
+  - id: u33-review
+    kind: review
+    title: { he: "חזרה: טכנולוגיה וחברה", en: "Review: tech and society" }
+    exercises:
+      - id: u33-r-01
+        type: match_pairs
+        pairs:
+          - [fake news, חדשות כזב]
+          - [screen time, זמן מסך]
+          - [addicted to, מכור ל־]
+          - [algorithm, אלגוריתם]
+          - [raise concerns, לעורר חששות]
+        lexemes: [fake-news, screen-time, addicted, algorithm, raise-concerns]
+      - id: u33-r-02
+        type: fill_blank
+        sentence: "A new office is ___ built next to the station."
+        translation: "משרד חדש נבנה (עכשיו) ליד התחנה."
+        answers: [being]
+        options: [being, been, be]
+        lexemes: [being-done, built]
+      - id: u33-r-03
+        type: listening_choice
+        audioText: "We're having the whole system checked by an expert next week."
+        question: מה יקרה בשבוע הבא?
+        options: [מומחה יבדוק את כל המערכת, הם יבדקו את המערכת בעצמם, המערכת תוחלף]
+        correct: 0
+        lexemes: [have-it-done]
+      - id: u33-r-04
+        type: word_bank
+        prompt: "הנתונים שלך לא יימכרו."
+        answers: ["Your data will not be sold.", "Your data won't be sold."]
+        distractors: [being, sell]
+        lexemes: [being-done, data]
+      - id: u33-r-05
+        type: dialogue_gap
+        lines:
+          - { speaker: "katz", text: "Your hair looks lovely!", translation: "השיער שלך נראה מקסים!" }
+          - { speaker: "noa", text: "Thanks! I had it cut yesterday.", translation: "תודה! הסתפרתי אתמול." }
+        gap: 1
+        distractors: ["Thanks! I cut it by a hairdresser yesterday.", "Thanks! I had cut it yesterday by someone."]
+        lexemes: [have-it-done]
+      - id: u33-r-06
+        type: multiple_choice
+        prompt: "איזה משפט נכון?"
+        options: ["My account has been hacked.", "My account has hacked.", "My account has been hack."]
+        correct: 0
+        lexemes: [being-done, hacked]
+      - id: u33-r-07
+        type: translate
+        direction: to_target
+        prompt: "צריך להגן על הפרטיות שלנו."
+        answers: ["Our privacy should be protected.", "Our privacy must be protected.", "We should protect our privacy.", "We need to protect our privacy."]
+        lexemes: [privacy, protect]
+      - id: u33-r-08
+        type: translate
+        direction: to_source
+        prompt: "Many jobs will be replaced by AI."
+        answers: ["הרבה משרות יוחלפו על ידי בינה מלאכותית.", "משרות רבות יוחלפו על ידי בינה מלאכותית.", "בינה מלאכותית תחליף הרבה משרות."]
+        lexemes: [replace, artificial-intelligence]
+      - id: u33-r-09
+        type: dictation
+        text: "My account has been hacked."
+        lexemes: [hacked, being-done]
+      - id: u33-r-10
+        type: speak_repeat
+        text: "What are the pros and cons of artificial intelligence?"
+        translation: "מה היתרונות והחסרונות של בינה מלאכותית?"
+        lexemes: [pros-and-cons, artificial-intelligence]

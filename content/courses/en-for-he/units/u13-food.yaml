@@ -261,7 +261,7 @@ lessons:
       - { id: "u13-l4-04", type: "learn", lexeme: "dessert" }
       - id: u13-l4-05
         type: dialogue
-        scene: "שבת בערב. נועה, בן ורחל במסעדה. אלי עובד שם בערבים."
+        scene: "יום חמישי בערב. נועה, בן ורחל במסעדה כשרה. אלי עובד שם בערבים."
         lines:
           - { speaker: "eli", text: "Good evening! Here's the menu. Are you ready to order?", translation: "ערב טוב! הנה התפריט. אתם מוכנים להזמין?" }
           - { speaker: "rachel", text: "Yes. I'd like the fish, please.", translation: "כן. אני אשמח לדג, בבקשה." }

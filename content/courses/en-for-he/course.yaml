@@ -18,8 +18,12 @@ characters:
   - { id: "katz", name: "Mrs. Katz", he: "גברת כץ", color: "amber", look: "curly", pitch: 1.0 }
   - { id: "david", name: "David", he: "דוד", color: "teal", look: "short", pitch: 0.9 }
   - { id: "tamar", name: "Tamar", he: "תמר", color: "green", look: "curly", pitch: 1.2 }
+  - { id: "sato", name: "Mr. Sato", he: "מר סאטו", color: "blue", look: "short", pitch: 0.85 }
   - { id: "dr-stern", name: "Dr. Stern", he: "ד\"ר שטרן", color: "violet", look: "bald", pitch: 0.8 }
 units:
+  - u00a-letters
+  - u00b-sounds
+  - u00c-words
   - u01-hello
   - u02-from
   - u03-family
@@ -40,3 +44,23 @@ units:
   - u18-phone
   - u19-party
   - u20-interview
+  - u21-team
+  - u22-stories
+  - u23-lifestyle
+  - u24-complaints
+  - u25-trip
+  - u26-neighbours
+  - u27-news
+  - u28-people
+  - u29-learning
+  - u30-problems
+  - u31-career
+  - u32-city
+  - u33-tech
+  - u34-negotiation
+  - u35-planet
+  - u36-culture
+  - u37-science
+  - u38-presentation
+  - u39-regrets
+  - u40-decision

@@ -1,0 +1,492 @@
+id: u29-learning
+cefr: B1
+scene: study
+title:
+  he: ללמוד כל החיים
+  en: Learning for life
+story: "רחל מתלבטת אם ללמוד תואר שני באוסטרליה, ובן חולם ללמוד לבשל באיטליה. בערב אחד כולם משחקים במשחק: מה היית עושה אם…?"
+canDo:
+  - לדבר על לימודים, מבחנים ותארים
+  - לדמיין מצבים עם משפט תנאי לא אמיתי (If I had…, I would…)
+  - לתת עצה עם If I were you
+  - לספר על דרכים ללמוד ולהשתפר
+
+vocabulary:
+  - { id: "university", text: "university", translation: "אוניברסיטה", pos: "noun", pronunciation: "יוּנִיבֶרְסִיטִי" }
+  - { id: "degree", text: "degree", translation: "תואר", pos: "noun", pronunciation: "דִיגְרִי", example: { text: "She has a degree in nursing.", translation: "יש לה תואר בסיעוד." } }
+  - { id: "subject", text: "subject", translation: "מקצוע (לימודי)", pos: "noun", pronunciation: "סַאבְּג'ֶקְט" }
+  - { id: "exam", text: "exam", translation: "מבחן, בחינה", pos: "noun", pronunciation: "אִיגְזֶם" }
+  - { id: "pass", text: "pass", translation: "לעבור (מבחן)", pos: "verb", pronunciation: "פַּאס" }
+  - { id: "fail", text: "fail", translation: "להיכשל", pos: "verb", pronunciation: "פֵייל" }
+  - { id: "scholarship", text: "scholarship", translation: "מלגה", pos: "noun", pronunciation: "סְקוֹלֶרְשִׁיפּ" }
+  - { id: "study-abroad", text: "study abroad", translation: "ללמוד בחו\"ל", pos: "phrase", pronunciation: "סְטַאדִי אַבְּרוֹד" }
+  - { id: "improve", text: "improve", translation: "לשפר, להשתפר", pos: "verb", pronunciation: "אִימְפְּרוּב" }
+  - { id: "practise", text: "practise", translation: "לתרגל", pos: "verb", pronunciation: "פְּרֶקְטִיס" }
+  - { id: "knowledge", text: "knowledge", translation: "ידע", pos: "noun", pronunciation: "נוֹלֶג'" }
+  - { id: "online-course", text: "online course", translation: "קורס אונליין", pos: "noun", pronunciation: "אוֹנְלַיין קוֹרְס" }
+  - { id: "would", text: "would", translation: "הייתי (עושה) — תנאי דמיוני", pos: "verb", pronunciation: "ווּד", example: { text: "I would travel more.", translation: "הייתי מטייל יותר." } }
+  - { id: "if-would", text: "If I had…, I would…", translation: "אילו היה לי…, הייתי…", pos: "phrase", pronunciation: "אִיף אַיי הֶד … אַיי ווּד", example: { text: "If I had more time, I would learn Italian.", translation: "אילו היה לי יותר זמן, הייתי לומד איטלקית." } }
+  - { id: "if-i-were-you", text: "If I were you…", translation: "במקומך…", pos: "phrase", pronunciation: "אִיף אַיי וֶור יוּ", example: { text: "If I were you, I'd apply.", translation: "במקומך, הייתי מגישה מועמדות." } }
+  - { id: "afford", text: "afford", translation: "להרשות לעצמי (כספית)", pos: "verb", pronunciation: "אַפוֹרְד", example: { text: "I can't afford it.", translation: "אני לא יכול להרשות את זה לעצמי." } }
+  - { id: "fees", text: "fees", translation: "שכר לימוד, דמי", pos: "noun", pronunciation: "פִיז" }
+  - { id: "graduate", text: "graduate", translation: "לסיים לימודים", pos: "verb", pronunciation: "גְרֶג'וּאֵייט" }
+  - { id: "mind-set", text: "it's never too late", translation: "אף פעם לא מאוחר מדי", pos: "phrase", pronunciation: "אִיטְס נֶבֶר טוּ לֵייט" }
+  - { id: "take-exam", text: "take an exam", translation: "לגשת למבחן", pos: "phrase", pronunciation: "טֵייק אֶן אִיגְזֶם" }
+
+grammar:
+  - id: second-conditional
+    title: { he: "אילו… הייתי…: תנאי דמיוני", en: "The second conditional" }
+    explanation: |
+      כבר למדנו תנאי אמיתי: **If it rains, I'll stay home.** (באמת יכול לקרות)
+
+      **תנאי דמיוני** מדבר על משהו לא סביר או לא נכון עכשיו. בעברית "אילו היה לי זמן, הייתי לומדת":
+      **If** + עבר פשוט, **would** + פועל
+      - **If I had more time, I would learn Italian.** (אין לי זמן)
+      - **If I won the lottery, I'd buy a house in London.** (לא סביר)
+
+      שימו לב: העבר אחרי if לא מדבר על העבר! הוא מסמן שזה דמיוני.
+
+      עם be משתמשים ב־**were** לכל הגופים, במיוחד בעצה: **If I were you, I'd apply.** (במקומך, הייתי מגישה)
+
+      שאלה: **What would you do if you had a million pounds?**
+    examples:
+      - { text: "If I lived in Italy, I would eat pasta every day.", translation: "אילו גרתי באיטליה, הייתי אוכל פסטה כל יום." }
+      - { text: "If I were you, I'd take the scholarship.", translation: "במקומך, הייתי לוקחת את המלגה." }
+      - { text: "Rachel would study abroad if she could afford it.", translation: "רחל הייתה לומדת בחו\"ל אילו יכלה להרשות זאת לעצמה." }
+
+lessons:
+  # ------------------------------------------------------------------ 1
+  - id: u29-l1
+    kind: new
+    title: { he: "חוזרים ללימודים?", en: "Back to university?" }
+    exercises:
+      - id: u29-l1-01
+        type: dialogue
+        scene: "רחל מספרת לנועה על הצעה ממלבורן."
+        lines:
+          - { speaker: "rachel", text: "Guess what? A university in Melbourne offered me a place on a master's degree in nursing.", translation: "נחשי מה? אוניברסיטה במלבורן הציעה לי מקום בתואר שני בסיעוד." }
+          - { speaker: "noa", text: "That's amazing! Are you going to study abroad?", translation: "זה מדהים! את הולכת ללמוד בחו\"ל?" }
+          - { speaker: "rachel", text: "I don't know. The fees are very high. I can't afford it.", translation: "אני לא יודעת. שכר הלימוד מאוד גבוה. אני לא יכולה להרשות את זה לעצמי." }
+          - { speaker: "noa", text: "Can you get a scholarship?", translation: "את יכולה לקבל מלגה?" }
+          - { speaker: "rachel", text: "Maybe. But first I have to pass an English exam. Can you believe it?", translation: "אולי. אבל קודם אני צריכה לעבור מבחן באנגלית. את מאמינה?" }
+          - { speaker: "noa", text: "An English exam? For you? Ha! You'll pass easily.", translation: "מבחן באנגלית? בשבילך? חה! את תעברי בקלות." }
+      - { id: "u29-l1-02", type: "learn", lexeme: "university" }
+      - { id: "u29-l1-03", type: "learn", lexeme: "degree" }
+      - { id: "u29-l1-04", type: "learn", lexeme: "study-abroad" }
+      - { id: "u29-l1-05", type: "learn", lexeme: "fees" }
+      - { id: "u29-l1-06", type: "learn", lexeme: "afford" }
+      - { id: "u29-l1-07", type: "learn", lexeme: "scholarship" }
+      - { id: "u29-l1-08", type: "learn", lexeme: "exam" }
+      - { id: "u29-l1-09", type: "learn", lexeme: "pass" }
+      - id: u29-l1-10
+        type: match_pairs
+        pairs:
+          - [university, אוניברסיטה]
+          - [degree, תואר]
+          - [fees, שכר לימוד]
+          - [scholarship, מלגה]
+          - [exam, מבחן]
+        lexemes: [university, degree, fees, scholarship, exam]
+      - id: u29-l1-11
+        type: multiple_choice
+        prompt: "מה הבעיה של רחל?"
+        options: [שכר הלימוד גבוה מדי, היא לא אוהבת את מלבורן, היא נכשלה במבחן]
+        correct: 0
+        lexemes: [fees, afford]
+      - id: u29-l1-12
+        type: multiple_choice
+        prompt: "מה רחל צריכה לעשות קודם?"
+        options: [לעבור מבחן באנגלית, לקבל מלגה, לסיים את העבודה]
+        correct: 0
+        lexemes: [pass, exam]
+      - id: u29-l1-13
+        type: listening_choice
+        audioText: "If you get the scholarship, you won't have to pay the fees."
+        question: מה המלגה תעשה?
+        options: [לא יצטרכו לשלם שכר לימוד, יצטרכו לשלם יותר, יקבלו מקום באוניברסיטה]
+        correct: 0
+        lexemes: [scholarship, fees]
+      - id: u29-l1-14
+        type: word_bank
+        prompt: "אני לא יכול להרשות את זה לעצמי."
+        answers: ["I can't afford it.", "I cannot afford it."]
+        distractors: [buy, don't]
+        lexemes: [afford]
+      - id: u29-l1-15
+        type: speak_repeat
+        text: "A university in Melbourne offered me a place on a master's degree."
+        translation: "אוניברסיטה במלבורן הציעה לי מקום בתואר שני."
+        lexemes: [university, degree]
+
+  # ------------------------------------------------------------------ 2
+  - id: u29-l2
+    kind: new
+    title: { he: "דרכים ללמוד", en: "Ways to learn" }
+    exercises:
+      - { id: "u29-l2-01", type: "learn", lexeme: "subject" }
+      - { id: "u29-l2-02", type: "learn", lexeme: "fail" }
+      - { id: "u29-l2-03", type: "learn", lexeme: "take-exam" }
+      - { id: "u29-l2-04", type: "learn", lexeme: "graduate" }
+      - { id: "u29-l2-05", type: "learn", lexeme: "online-course" }
+      - { id: "u29-l2-06", type: "learn", lexeme: "improve" }
+      - { id: "u29-l2-07", type: "learn", lexeme: "practise" }
+      - { id: "u29-l2-08", type: "learn", lexeme: "knowledge" }
+      - id: u29-l2-09
+        type: dialogue
+        scene: "בן ודוד מדברים על לימודים."
+        lines:
+          - { speaker: "david", text: "What was your best subject at school?", translation: "מה היה המקצוע הכי טוב שלך בבית הספר?" }
+          - { speaker: "ben", text: "History. But I failed maths twice!", translation: "היסטוריה. אבל נכשלתי במתמטיקה פעמיים!" }
+          - { speaker: "david", text: "I graduated in computer science, but I've learned more from online courses.", translation: "סיימתי מדעי המחשב, אבל למדתי יותר מקורסים אונליין." }
+          - { speaker: "ben", text: "Me too. I'm doing a cooking course now. I practise every evening.", translation: "גם אני. אני עושה עכשיו קורס בישול. אני מתרגל כל ערב." }
+          - { speaker: "david", text: "Has your cooking improved?", translation: "הבישול שלך השתפר?" }
+          - { speaker: "ben", text: "Ask Noa. She ate my lasagne last week… and she's still alive!", translation: "תשאל את נועה. היא אכלה את הלזניה שלי בשבוע שעבר… והיא עדיין בחיים!" }
+      - id: u29-l2-10
+        type: match_pairs
+        pairs:
+          - [subject, מקצוע]
+          - [fail, להיכשל]
+          - [graduate, לסיים לימודים]
+          - [improve, להשתפר]
+          - [practise, לתרגל]
+        lexemes: [subject, fail, graduate, improve, practise]
+      - id: u29-l2-11
+        type: multiple_choice
+        prompt: "במה בן נכשל?"
+        options: [במתמטיקה, בהיסטוריה, באנגלית]
+        correct: 0
+        lexemes: [fail]
+      - id: u29-l2-12
+        type: multiple_choice
+        prompt: "מאיפה דוד למד הכי הרבה?"
+        options: [מקורסים אונליין, מהאוניברסיטה, מהעבודה]
+        correct: 0
+        lexemes: [online-course]
+      - id: u29-l2-13
+        type: dialogue_gap
+        lines:
+          - { speaker: "noa", text: "How can I improve my English?", translation: "איך אני יכולה לשפר את האנגלית שלי?" }
+          - { speaker: "tamar", text: "Practise every day, even for ten minutes.", translation: "תתרגלי כל יום, אפילו עשר דקות." }
+        gap: 1
+        distractors: ["Practising every day, even ten minutes ago.", "Fail every day, even for ten minutes."]
+        lexemes: [improve, practise]
+      - id: u29-l2-14
+        type: translate
+        direction: to_target
+        prompt: "היא עברה את כל המבחנים."
+        answers: ["She passed all the exams.", "She passed all her exams.", "She has passed all the exams.", "She has passed all her exams."]
+        lexemes: [pass, exam]
+      - id: u29-l2-15
+        type: speak_repeat
+        text: "I practise every evening, and my cooking has improved a lot."
+        translation: "אני מתרגל כל ערב, והבישול שלי השתפר מאוד."
+        lexemes: [practise, improve]
+
+  # ------------------------------------------------------------------ 3
+  - id: u29-l3
+    kind: grammar
+    grammar: second-conditional
+    title: { he: "מה היית עושה אילו…?", en: "What would you do if…?" }
+    exercises:
+      - { id: "u29-l3-01", type: "learn", lexeme: "would" }
+      - { id: "u29-l3-02", type: "learn", lexeme: "if-would" }
+      - { id: "u29-l3-03", type: "learn", lexeme: "if-i-were-you" }
+      - id: u29-l3-04
+        type: fill_blank
+        sentence: "If I had more money, I ___ study abroad."
+        translation: "אילו היה לי יותר כסף, הייתי לומד בחו\"ל."
+        answers: [would]
+        options: [would, will, did]
+        lexemes: [if-would, would, study-abroad]
+      - id: u29-l3-05
+        type: fill_blank
+        sentence: "If I ___ in Italy, I would eat pasta every day. (live)"
+        translation: "אילו גרתי באיטליה, הייתי אוכל פסטה כל יום."
+        answers: [lived]
+        options: [lived, live, would live]
+        lexemes: [if-would, live]
+      - id: u29-l3-06
+        type: fill_blank
+        sentence: "If I ___ you, I'd take the scholarship."
+        translation: "במקומך, הייתי לוקח את המלגה."
+        answers: [were]
+        options: [were, am, would be]
+        lexemes: [if-i-were-you, scholarship]
+      - id: u29-l3-07
+        type: multiple_choice
+        prompt: "איזה משפט דמיוני (לא סביר)?"
+        options: ["If I won a million pounds, I'd buy a house.", "If it rains, I'll take an umbrella.", "If you heat ice, it melts."]
+        correct: 0
+        lexemes: [if-would]
+      - id: u29-l3-08
+        type: multiple_choice
+        prompt: איזה משפט נכון?
+        options: ["What would you do if you lost your job?", "What will you do if you would lose your job?", "What would you do if you lose your job would?"]
+        correct: 0
+        lexemes: [would]
+      - id: u29-l3-09
+        type: dialogue_gap
+        lines:
+          - { speaker: "rachel", text: "Should I go to Melbourne?", translation: "כדאי שאסע למלבורן?" }
+          - { speaker: "noa", text: "If I were you, I'd go. It's a great chance.", translation: "במקומך, הייתי נוסעת. זו הזדמנות מעולה." }
+        gap: 1
+        distractors: ["If I was you, I'll go. It's a great chance.", "If I am you, I would going."]
+        lexemes: [if-i-were-you]
+      - id: u29-l3-10
+        type: word_bank
+        prompt: "אילו היה לי זמן, הייתי לומד לנגן."
+        answers: ["If I had time, I would learn to play music.", "If I had time, I'd learn to play music.", "I would learn to play music if I had time."]
+        distractors: [will, have]
+        lexemes: [if-would, learn, play]
+      - id: u29-l3-11
+        type: translate
+        direction: to_target
+        prompt: "במקומך, הייתי מגיש מועמדות."
+        answers: ["If I were you, I'd apply.", "If I were you, I would apply.", "If I was you, I'd apply."]
+        lexemes: [if-i-were-you, apply]
+      - id: u29-l3-12
+        type: translate
+        direction: to_source
+        prompt: "What would you do if you had a million pounds?"
+        answers: ["מה היית עושה אילו היה לך מיליון פאונד?", "מה היית עושה אם היה לך מיליון פאונד?", "מה היית עושה עם מיליון פאונד?"]
+        lexemes: [would, million]
+      - id: u29-l3-13
+        type: speak_repeat
+        text: "If I had more time, I would learn Italian."
+        translation: "אילו היה לי יותר זמן, הייתי לומד איטלקית."
+        lexemes: [if-would]
+
+  # ------------------------------------------------------------------ 4
+  - id: u29-l4
+    kind: listening
+    title: { he: "המשחק: מה היית עושה?", en: "The game: what would you do?" }
+    exercises:
+      - { id: "u29-l4-01", type: "learn", lexeme: "mind-set" }
+      - id: u29-l4-02
+        type: dialogue
+        scene: "ערב משחקים אצל תמר. כל אחד עונה על השאלה: מה היית עושה אילו יכולת ללמוד כל דבר?"
+        lines:
+          - { speaker: "tamar", text: "OK, Ben. If you could study anything, anywhere, what would you choose?", translation: "טוב, בן. אילו יכולת ללמוד כל דבר, בכל מקום, מה היית בוחר?" }
+          - { speaker: "ben", text: "Easy. I'd go to a cooking school in Italy for a year.", translation: "קל. הייתי הולך לבית ספר לבישול באיטליה לשנה." }
+          - { speaker: "tamar", text: "Noa?", translation: "נועה?" }
+          - { speaker: "noa", text: "I'd study Japanese. If I spoke Japanese, I could work in Tokyo one day.", translation: "הייתי לומדת יפנית. אילו דיברתי יפנית, יכולתי לעבוד בטוקיו יום אחד." }
+          - { speaker: "david", text: "I would learn to fly a plane. But I'm afraid of heights!", translation: "אני הייתי לומד להטיס מטוס. אבל אני מפחד מגבהים!" }
+          - { speaker: "rachel", text: "Well, I'm not going to dream any more. I've decided: I'm going to Melbourne!", translation: "טוב, אני לא הולכת לחלום יותר. החלטתי: אני נוסעת למלבורן!" }
+          - { speaker: "noa", text: "Really? Rachel, that's fantastic! It's never too late to learn.", translation: "באמת? רחל, זה נהדר! אף פעם לא מאוחר מדי ללמוד." }
+      - id: u29-l4-03
+        type: multiple_choice
+        prompt: "מה בן היה לומד?"
+        options: [בישול באיטליה, יפנית, להטיס מטוס]
+        correct: 0
+        lexemes: [would]
+      - id: u29-l4-04
+        type: multiple_choice
+        prompt: "למה נועה רוצה ללמוד יפנית?"
+        options: [כדי לעבוד בטוקיו יום אחד, כי היא אוהבת אוכל יפני, כי זה קל]
+        correct: 0
+        lexemes: [if-would]
+      - id: u29-l4-05
+        type: multiple_choice
+        prompt: "מה הבעיה של דוד?"
+        options: [הוא מפחד מגבהים, אין לו כסף, אין לו זמן]
+        correct: 0
+        lexemes: [would]
+      - id: u29-l4-06
+        type: multiple_choice
+        prompt: "מה רחל החליטה?"
+        options: [לנסוע למלבורן, להישאר בלונדון, ללמוד יפנית]
+        correct: 0
+        lexemes: [decide]
+      - id: u29-l4-07
+        type: listening_choice
+        audioText: "If I were you, I wouldn't worry about the exam. You'll pass."
+        question: מה העצה?
+        options:
+          - "לא לדאוג, היא תעבור"
+          - ללמוד עוד
+          - לדחות את המבחן
+        correct: 0
+        lexemes: [if-i-were-you, exam, pass]
+      - id: u29-l4-08
+        type: dialogue_gap
+        lines:
+          - { speaker: "katz", text: "I'm seventy. Is it too late to learn the piano?", translation: "אני בת שבעים. מאוחר מדי ללמוד פסנתר?" }
+          - { speaker: "noa", text: "Of course not! It's never too late.", translation: "בטח שלא! אף פעם לא מאוחר מדי." }
+        gap: 1
+        distractors: ["Of course! It's always too late.", "Of course not! It's never too early late."]
+        lexemes: [mind-set]
+      - id: u29-l4-09
+        type: dictation
+        text: "If I were you, I'd go."
+        lexemes: [if-i-were-you]
+      - id: u29-l4-10
+        type: translate
+        direction: to_target
+        prompt: "אילו דיברתי יפנית, הייתי עובדת בטוקיו."
+        answers: ["If I spoke Japanese, I would work in Tokyo.", "If I spoke Japanese, I'd work in Tokyo.", "If I spoke Japanese, I could work in Tokyo."]
+        lexemes: [if-would, speak]
+      - id: u29-l4-11
+        type: speak_repeat
+        text: "If you could study anything, what would you choose?"
+        translation: "אילו יכולת ללמוד כל דבר, מה היית בוחר?"
+        lexemes: [would]
+
+  # ------------------------------------------------------------------ 5
+  - id: u29-l5
+    kind: reading
+    title: { he: "לומדים בגיל 70", en: "Learning at seventy" }
+    exercises:
+      - id: u29-l5-01
+        type: reading
+        kind: "כתבה במגזין"
+        title: "\"It's never too late\": the 70-year-old student"
+        text: |
+          When Ruth Katz retired, her friends asked her what she would do with all her free time. "If I had the energy," she told them, "I would go back to university."
+
+          Five years later, she has a degree in art history. "At first it was difficult," she says. "I hadn't taken an exam for fifty years! I failed my first one. But I practised, and I improved."
+
+          Today Ruth gives free talks at a museum in London. "Young people often ask me for advice," she says. "I always tell them the same thing: if you love a subject, study it. Knowledge is the only thing nobody can take away from you."
+
+          Her next plan? "Japanese. My neighbour Noa wants to learn it too, so we'll study together."
+        translation: |
+          כשרות כץ יצאה לפנסיה, החברות שלה שאלו אותה מה היא תעשה עם כל הזמן הפנוי. "אילו הייתה לי האנרגיה," היא אמרה להן, "הייתי חוזרת לאוניברסיטה."
+
+          חמש שנים אחר כך, יש לה תואר בתולדות האמנות. "בהתחלה זה היה קשה," היא אומרת. "לא ניגשתי למבחן חמישים שנה! נכשלתי בראשון. אבל תרגלתי, והשתפרתי."
+
+          היום רות נותנת הרצאות חינם במוזיאון בלונדון. "צעירים שואלים אותי הרבה פעמים לעצה," היא אומרת. "אני תמיד אומרת להם אותו דבר: אם אתם אוהבים מקצוע, תלמדו אותו. ידע הוא הדבר היחיד שאף אחד לא יכול לקחת מכם."
+
+          התוכנית הבאה שלה? "יפנית. השכנה שלי נועה רוצה ללמוד גם, אז נלמד ביחד."
+      - id: u29-l5-02
+        type: multiple_choice
+        prompt: "מה רות למדה?"
+        options: [תולדות האמנות, יפנית, סיעוד]
+        correct: 0
+        lexemes: [degree]
+      - id: u29-l5-03
+        type: multiple_choice
+        prompt: "מה קרה במבחן הראשון?"
+        options: [היא נכשלה, היא קיבלה ציון מלא, היא לא ניגשה]
+        correct: 0
+        lexemes: [fail, exam]
+      - id: u29-l5-04
+        type: multiple_choice
+        prompt: "מה רות עושה היום?"
+        options: [נותנת הרצאות חינם במוזיאון, מלמדת באוניברסיטה, עובדת בספרייה]
+        correct: 0
+        lexemes: [museum]
+      - id: u29-l5-05
+        type: multiple_choice
+        prompt: "מה העצה של רות לצעירים?"
+        options:
+          - "אם אוהבים מקצוע, ללמוד אותו"
+          - ללמוד מקצוע עם הרבה כסף
+          - לא ללמוד אחרי גיל 30
+        correct: 0
+        lexemes: [subject, knowledge]
+      - id: u29-l5-06
+        type: multiple_choice
+        prompt: "עם מי רות תלמד יפנית?"
+        options: [עם נועה, עם תמר, לבד]
+        correct: 0
+        lexemes: [neighbour]
+      - id: u29-l5-07
+        type: fill_blank
+        sentence: "If I ___ the energy, I would go back to university."
+        translation: "אילו הייתה לי האנרגיה, הייתי חוזרת לאוניברסיטה."
+        answers: [had]
+        options: [had, have, would have]
+        lexemes: [if-would, energy, university]
+      - id: u29-l5-08
+        type: fill_blank
+        sentence: "But I practised, and I ___ ."
+        translation: "אבל תרגלתי, והשתפרתי."
+        answers: [improved]
+        options: [improved, failed, graduated]
+        lexemes: [improve]
+      - id: u29-l5-09
+        type: word_bank
+        prompt: "ידע הוא דבר שאף אחד לא יכול לקחת ממך."
+        answers: ["Knowledge is something nobody can take from you.", "Knowledge is something nobody can take away from you."]
+        distractors: [knows, which]
+        lexemes: [knowledge]
+      - id: u29-l5-10
+        type: translate
+        direction: to_target
+        prompt: "אף פעם לא מאוחר מדי ללמוד."
+        answers: ["It's never too late to learn.", "It is never too late to learn."]
+        lexemes: [mind-set, learn]
+      - id: u29-l5-11
+        type: speak_repeat
+        text: "If you love a subject, study it."
+        translation: "אם אתם אוהבים מקצוע, תלמדו אותו."
+        lexemes: [subject]
+
+  # ------------------------------------------------------------------ 6
+  - id: u29-review
+    kind: review
+    title: { he: "חזרה: ללמוד כל החיים", en: "Review: learning for life" }
+    exercises:
+      - id: u29-r-01
+        type: match_pairs
+        pairs:
+          - [afford, להרשות לעצמי]
+          - [study abroad, ללמוד בחו"ל]
+          - [knowledge, ידע]
+          - [pass, לעבור (מבחן)]
+          - [online course, קורס אונליין]
+        lexemes: [afford, study-abroad, knowledge, pass, online-course]
+      - id: u29-r-02
+        type: fill_blank
+        sentence: "What would you do if you ___ a million pounds?"
+        translation: "מה היית עושה אילו היה לך מיליון פאונד?"
+        answers: [had]
+        options: [had, have, would have]
+        lexemes: [if-would, million]
+      - id: u29-r-03
+        type: listening_choice
+        audioText: "If I lived closer to the office, I would cycle to work."
+        question: למה הוא לא רוכב לעבודה?
+        options: [הוא גר רחוק מהמשרד, אין לו אופניים, הוא לא אוהב לרכוב]
+        correct: 0
+        lexemes: [if-would]
+      - id: u29-r-04
+        type: word_bank
+        prompt: "הוא סיים את הלימודים בשנה שעברה."
+        answers: ["He graduated last year."]
+        distractors: [finished, passes]
+        lexemes: [graduate]
+      - id: u29-r-05
+        type: dialogue_gap
+        lines:
+          - { speaker: "ben", text: "I've got an exam tomorrow and I'm so nervous.", translation: "יש לי מבחן מחר ואני כל כך לחוץ." }
+          - { speaker: "noa", text: "If I were you, I'd go to bed early.", translation: "במקומך, הייתי הולכת לישון מוקדם." }
+        gap: 1
+        distractors: ["If I am you, I'll go to bed early.", "If I were you, I'd going to bed early."]
+        lexemes: [if-i-were-you, exam]
+      - id: u29-r-06
+        type: multiple_choice
+        prompt: "איזה משפט נכון?"
+        options: ["If she had time, she would help.", "If she would have time, she helped.", "If she has time, she would help yesterday."]
+        correct: 0
+        lexemes: [if-would]
+      - id: u29-r-07
+        type: translate
+        direction: to_target
+        prompt: "נכשלתי במבחן הראשון."
+        answers: ["I failed the first exam.", "I failed my first exam."]
+        lexemes: [fail, exam]
+      - id: u29-r-08
+        type: translate
+        direction: to_source
+        prompt: "She got a scholarship to study abroad."
+        answers: ["היא קיבלה מלגה ללמוד בחו\"ל.", "היא קיבלה מלגה כדי ללמוד בחו\"ל."]
+        lexemes: [scholarship, study-abroad]
+      - id: u29-r-09
+        type: dictation
+        text: "It's never too late to learn."
+        lexemes: [mind-set]
+      - id: u29-r-10
+        type: speak_repeat
+        text: "If I could study anything, I would study Japanese."
+        translation: "אילו יכולתי ללמוד כל דבר, הייתי לומדת יפנית."
+        lexemes: [if-would]

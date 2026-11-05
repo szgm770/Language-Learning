@@ -1,0 +1,492 @@
+id: u32-city
+cefr: B2
+scene: nature
+title:
+  he: עיר או כפר?
+  en: City or country?
+story: "רחל חוזרת מאוסטרליה לביקור ומספרת על החיים בעיר קטנה ליד הים. בסוף שבוע בכפר האנגלי, כולם מתווכחים: איפה טוב יותר לגור, ולמה."
+canDo:
+  - להשוות בין חיים בעיר לחיים מחוץ לעיר
+  - להביע ניגוד עם although, however, despite ו־whereas
+  - להשתמש ב־so, such, too ו־enough
+  - לנמק עמדה בוויכוח ידידותי
+
+vocabulary:
+  - { id: "countryside", text: "countryside", translation: "כפר, אזור כפרי", pos: "noun", pronunciation: "קַאנְטְרִיסַייד" }
+  - { id: "suburbs", text: "suburbs", translation: "פרברים", pos: "noun", pronunciation: "סַאבֶּרְבְּז" }
+  - { id: "crowded", text: "crowded", translation: "צפוף, עמוס אנשים", pos: "adjective", pronunciation: "קְרַאוּדֶד" }
+  - { id: "peaceful", text: "peaceful", translation: "שליו, רגוע", pos: "adjective", pronunciation: "פִּיסְפוּל" }
+  - { id: "pollution", text: "pollution", translation: "זיהום", pos: "noun", pronunciation: "פּוֹלוּשְׁן" }
+  - { id: "commute", text: "commute", translation: "נסיעה יומית לעבודה; לנסוע לעבודה", pos: "noun", pronunciation: "קוֹמְיוּט" }
+  - { id: "convenient", text: "convenient", translation: "נוח (מבחינה מעשית)", pos: "adjective", pronunciation: "קוֹנְבִינְיֶנְט" }
+  - { id: "community", text: "community", translation: "קהילה", pos: "noun", pronunciation: "קוֹמְיוּנִיטִי" }
+  - { id: "entertainment", text: "entertainment", translation: "בידור", pos: "noun", pronunciation: "אֶנְטֶרְטֵיינְמֶנְט" }
+  - { id: "cost-of-living", text: "cost of living", translation: "יוקר המחיה", pos: "noun", pronunciation: "קוֹסְט אוֹב לִיבִינְג" }
+  - { id: "quality-of-life", text: "quality of life", translation: "איכות חיים", pos: "noun", pronunciation: "קְווֹלִיטִי אוֹב לַייף" }
+  - { id: "although", text: "although", translation: "למרות ש־", pos: "conjunction", pronunciation: "אוֹלְדֶ'וֹ", example: { text: "Although London is expensive, I love it.", translation: "למרות שלונדון יקרה, אני אוהבת אותה." } }
+  - { id: "however", text: "however", translation: "עם זאת, אולם", pos: "adverb", pronunciation: "הַאוּאֶבֶר" }
+  - { id: "despite", text: "despite", translation: "למרות (+ שם עצם)", pos: "preposition", pronunciation: "דִיסְפַּייט", example: { text: "Despite the rain, we went for a walk.", translation: "למרות הגשם, יצאנו לטיול." } }
+  - { id: "whereas", text: "whereas", translation: "בעוד ש־", pos: "conjunction", pronunciation: "וֶוראֶז" }
+  - { id: "so-such", text: "so / such", translation: "כל כך", pos: "adverb", pronunciation: "סוֹ / סַאץ'", example: { text: "It's so quiet. It's such a quiet place.", translation: "כל כך שקט. זה מקום כל כך שקט." } }
+  - { id: "too-enough", text: "too / enough", translation: "מדי / מספיק", pos: "adverb", pronunciation: "טוּ / אִינַאף", example: { text: "It's too far. It isn't close enough.", translation: "זה רחוק מדי. זה לא קרוב מספיק." } }
+  - { id: "on-the-other-hand", text: "on the other hand", translation: "מצד שני", pos: "phrase", pronunciation: "אוֹן דִ'י אַדֶ'ר הֶנְד" }
+  - { id: "i-see-your-point", text: "I see your point, but…", translation: "אני מבין את הטענה שלך, אבל…", pos: "phrase", pronunciation: "אַיי סִי יוֹר פּוֹינְט בַּאט" }
+  - { id: "lonely", text: "lonely", translation: "בודד", pos: "adjective", pronunciation: "לוֹנְלִי" }
+
+grammar:
+  - id: contrast-so-such
+    title: { he: "ניגוד ועוצמה: although, despite, so, such", en: "Contrast; so and such; too and enough" }
+    explanation: |
+      **ניגוד** ("למרות", "אבל"):
+      - **although** + משפט: **Although it was raining, we went out.**
+      - **despite** + שם עצם או ‎-ing: **Despite the rain, we went out.** (לא "despite it was raining")
+      - **however** בתחילת משפט חדש, עם פסיק: **London is expensive. However, the salaries are higher.**
+      - **whereas** להשוואה בין שני דברים: **London is busy, whereas the village is quiet.**
+
+      **so** ו־**such** ("כל כך"):
+      - **so** + תואר: **It's so quiet.**
+      - **such (a)** + שם עצם: **It's such a quiet village.**
+
+      **too** ו־**enough**:
+      - **too** לפני התואר (שלילי, "מדי"): **It's too expensive.**
+      - **enough** אחרי התואר ("מספיק"): **It isn't cheap enough.** אבל לפני שם עצם: **enough money**.
+    examples:
+      - { text: "Although the countryside is beautiful, I'd feel lonely there.", translation: "למרות שהכפר יפה, הייתי מרגישה בודדה שם." }
+      - { text: "Despite the long commute, Ben loves living in the suburbs.", translation: "למרות הנסיעה הארוכה, בן אוהב לגור בפרברים." }
+      - { text: "It was such a peaceful weekend that I didn't want to leave.", translation: "זה היה סוף שבוע כל כך שליו שלא רציתי לעזוב." }
+
+lessons:
+  # ------------------------------------------------------------------ 1
+  - id: u32-l1
+    kind: new
+    title: { he: "החיים מחוץ לעיר", en: "Life outside the city" }
+    exercises:
+      - id: u32-l1-01
+        type: dialogue
+        scene: "רחל חזרה לביקור מאוסטרליה. היא ונועה בבית קפה צפוף בלונדון."
+        lines:
+          - { speaker: "rachel", text: "London is so crowded! I'd forgotten.", translation: "לונדון כל כך צפופה! שכחתי." }
+          - { speaker: "noa", text: "Where do you live in Australia? In Melbourne?", translation: "איפה את גרה באוסטרליה? במלבורן?" }
+          - { speaker: "rachel", text: "No, in a small town by the sea, an hour from the city. It's so peaceful.", translation: "לא, בעיירה קטנה ליד הים, שעה מהעיר. כל כך שליו שם." }
+          - { speaker: "noa", text: "But isn't the commute terrible?", translation: "אבל הנסיעה לעבודה לא נוראית?" }
+          - { speaker: "rachel", text: "It's long, but there's no traffic and no pollution. And the community is lovely. Everyone knows everyone.", translation: "היא ארוכה, אבל אין פקקים ואין זיהום. והקהילה מקסימה. כולם מכירים את כולם." }
+      - { id: "u32-l1-02", type: "learn", lexeme: "crowded" }
+      - { id: "u32-l1-03", type: "learn", lexeme: "peaceful" }
+      - { id: "u32-l1-04", type: "learn", lexeme: "commute" }
+      - { id: "u32-l1-05", type: "learn", lexeme: "pollution" }
+      - { id: "u32-l1-06", type: "learn", lexeme: "community" }
+      - { id: "u32-l1-07", type: "learn", lexeme: "countryside" }
+      - { id: "u32-l1-08", type: "learn", lexeme: "suburbs" }
+      - id: u32-l1-09
+        type: match_pairs
+        pairs:
+          - [crowded, צפוף]
+          - [peaceful, שליו]
+          - [commute, נסיעה לעבודה]
+          - [pollution, זיהום]
+          - [community, קהילה]
+        lexemes: [crowded, peaceful, commute, pollution, community]
+      - id: u32-l1-10
+        type: multiple_choice
+        prompt: "איפה רחל גרה?"
+        options: [בעיירה קטנה ליד הים, במרכז מלבורן, בכפר בהרים]
+        correct: 0
+        lexemes: [peaceful]
+      - id: u32-l1-11
+        type: multiple_choice
+        prompt: "מה רחל אוהבת בעיירה?"
+        options:
+          - "הקהילה, אין פקקים ואין זיהום"
+          - הבידור
+          - הנסיעה הקצרה לעבודה
+        correct: 0
+        lexemes: [community, pollution]
+      - id: u32-l1-12
+        type: listening_choice
+        audioText: "We moved to the suburbs because the city was too crowded."
+        question: למה הם עברו?
+        options: [העיר הייתה צפופה מדי, הם רצו קהילה, העבודה עברה]
+        correct: 0
+        lexemes: [suburbs, crowded]
+      - id: u32-l1-13
+        type: word_bank
+        prompt: "יש פחות זיהום בכפר."
+        answers: ["There's less pollution in the countryside.", "There is less pollution in the countryside."]
+        distractors: [fewer, city]
+        lexemes: [pollution, countryside]
+      - id: u32-l1-14
+        type: speak_repeat
+        text: "London is so crowded, whereas my town is so peaceful."
+        translation: "לונדון כל כך צפופה, בעוד שהעיירה שלי כל כך שלווה."
+        lexemes: [crowded, peaceful]
+
+  # ------------------------------------------------------------------ 2
+  - id: u32-l2
+    kind: new
+    title: { he: "מה חשוב לך?", en: "What matters to you?" }
+    exercises:
+      - { id: "u32-l2-01", type: "learn", lexeme: "quality-of-life" }
+      - { id: "u32-l2-02", type: "learn", lexeme: "cost-of-living" }
+      - { id: "u32-l2-03", type: "learn", lexeme: "convenient" }
+      - { id: "u32-l2-04", type: "learn", lexeme: "entertainment" }
+      - { id: "u32-l2-05", type: "learn", lexeme: "lonely" }
+      - { id: "u32-l2-06", type: "learn", lexeme: "on-the-other-hand" }
+      - { id: "u32-l2-07", type: "learn", lexeme: "i-see-your-point" }
+      - id: u32-l2-08
+        type: dialogue
+        scene: "בן מצטרף לשיחה, והוויכוח מתחיל."
+        lines:
+          - { speaker: "ben", text: "I could never leave London. Everything is so convenient here: work, theatres, the entertainment!", translation: "לעולם לא הייתי עוזב את לונדון. הכול כל כך נוח כאן: עבודה, תיאטראות, בידור!" }
+          - { speaker: "rachel", text: "I see your point, but the cost of living is crazy. What's your rent now?", translation: "אני מבינה את הטענה שלך, אבל יוקר המחיה מטורף. כמה שכר הדירה שלך עכשיו?" }
+          - { speaker: "ben", text: "Don't ask. On the other hand, I don't need a car.", translation: "אל תשאלי. מצד שני, אני לא צריך מכונית." }
+          - { speaker: "noa", text: "For me, quality of life means people. In a small town I'd feel lonely.", translation: "בשבילי, איכות חיים זה אנשים. בעיירה קטנה הייתי מרגישה בודדה." }
+          - { speaker: "rachel", text: "Lonely? In my town you can't buy milk without a twenty-minute conversation!", translation: "בודדה? בעיירה שלי אי אפשר לקנות חלב בלי שיחה של עשרים דקות!" }
+      - id: u32-l2-09
+        type: match_pairs
+        pairs:
+          - [quality of life, איכות חיים]
+          - [cost of living, יוקר המחיה]
+          - [convenient, נוח]
+          - [entertainment, בידור]
+          - [lonely, בודד]
+        lexemes: [quality-of-life, cost-of-living, convenient, entertainment, lonely]
+      - id: u32-l2-10
+        type: multiple_choice
+        prompt: "מה היתרון של לונדון לפי בן?"
+        options:
+          - "הכול נוח, וגם לא צריך מכונית"
+          - יוקר המחיה נמוך
+          - יש קהילה קטנה
+        correct: 0
+        lexemes: [convenient, on-the-other-hand]
+      - id: u32-l2-11
+        type: multiple_choice
+        prompt: "ממה נועה חוששת בעיירה קטנה?"
+        options: [שתרגיש בודדה, שיהיה לה משעמם בלי בידור, שהנסיעה תהיה ארוכה]
+        correct: 0
+        lexemes: [lonely]
+      - id: u32-l2-12
+        type: dialogue_gap
+        lines:
+          - { speaker: "ben", text: "The city is the best place to live.", translation: "העיר היא המקום הכי טוב לגור בו." }
+          - { speaker: "rachel", text: "I see your point, but it's too expensive for families.", translation: "אני מבינה את הטענה שלך, אבל היא יקרה מדי למשפחות." }
+        gap: 1
+        distractors: ["I see your point, but it's expensive enough for families.", "I see you point, so it's too expensive."]
+        lexemes: [i-see-your-point]
+      - id: u32-l2-13
+        type: translate
+        direction: to_target
+        prompt: "יוקר המחיה בלונדון גבוה מאוד."
+        answers: ["The cost of living in London is very high.", "The cost of living in London is really high."]
+        lexemes: [cost-of-living]
+      - id: u32-l2-14
+        type: translate
+        direction: to_source
+        prompt: "On the other hand, I don't need a car."
+        answers: ["מצד שני, אני לא צריך מכונית.", "מצד שני, אני לא צריכה מכונית.", "מצד שני, אין לי צורך במכונית."]
+        lexemes: [on-the-other-hand]
+      - id: u32-l2-15
+        type: speak_repeat
+        text: "I see your point, but for me quality of life means people."
+        translation: "אני מבין את הטענה שלך, אבל בשבילי איכות חיים זה אנשים."
+        lexemes: [i-see-your-point, quality-of-life]
+
+  # ------------------------------------------------------------------ 3
+  - id: u32-l3
+    kind: grammar
+    grammar: contrast-so-such
+    title: { he: "למרות ש…, כל כך…", en: "Although…, so…" }
+    exercises:
+      - { id: "u32-l3-01", type: "learn", lexeme: "although" }
+      - { id: "u32-l3-02", type: "learn", lexeme: "despite" }
+      - { id: "u32-l3-03", type: "learn", lexeme: "however" }
+      - { id: "u32-l3-04", type: "learn", lexeme: "whereas" }
+      - id: u32-l3-05
+        type: fill_blank
+        sentence: "___ the rain, we went for a walk."
+        translation: "למרות הגשם, יצאנו לטיול."
+        answers: [Despite]
+        options: [Despite, Although, However]
+        lexemes: [despite]
+      - id: u32-l3-06
+        type: fill_blank
+        sentence: "___ it was raining, we went for a walk."
+        translation: "למרות שירד גשם, יצאנו לטיול."
+        answers: [Although]
+        options: [Although, Despite, Whereas]
+        lexemes: [although]
+      - id: u32-l3-07
+        type: fill_blank
+        sentence: "London is expensive. ___, the salaries are higher."
+        translation: "לונדון יקרה. עם זאת, המשכורות גבוהות יותר."
+        answers: [However]
+        options: [However, Despite, Although]
+        lexemes: [however]
+      - { id: "u32-l3-08", type: "learn", lexeme: "so-such" }
+      - { id: "u32-l3-09", type: "learn", lexeme: "too-enough" }
+      - id: u32-l3-10
+        type: fill_blank
+        sentence: "It's ___ a beautiful village."
+        translation: "זה כפר כל כך יפה."
+        answers: [such]
+        options: [such, so, too]
+        lexemes: [so-such]
+      - id: u32-l3-11
+        type: fill_blank
+        sentence: "The flat isn't big ___ for a family."
+        translation: "הדירה לא גדולה מספיק למשפחה."
+        answers: [enough]
+        options: [enough, too, so]
+        lexemes: [too-enough]
+      - id: u32-l3-12
+        type: multiple_choice
+        prompt: איזה משפט נכון?
+        options: ["Despite living far away, he's never late.", "Despite he lives far away, he's never late.", "Although living far away, he's never late."]
+        correct: 0
+        lexemes: [despite]
+      - id: u32-l3-13
+        type: dialogue_gap
+        lines:
+          - { speaker: "noa", text: "Why didn't you buy the house?", translation: "למה לא קניתם את הבית?" }
+          - { speaker: "ben", text: "It was too far from the station, and we didn't have enough money.", translation: "הוא היה רחוק מדי מהתחנה, ולא היה לנו מספיק כסף." }
+        gap: 1
+        distractors: ["It was enough far from the station, and we didn't have too money.", "It was so far from the station, and we didn't have money enough."]
+        lexemes: [too-enough]
+      - id: u32-l3-14
+        type: word_bank
+        prompt: "למרות שהכפר יפה, הייתי מרגישה בודדה."
+        answers: ["Although the countryside is beautiful, I would feel lonely.", "Although the countryside is beautiful, I'd feel lonely."]
+        distractors: [despite, however]
+        lexemes: [although, countryside, lonely]
+      - id: u32-l3-15
+        type: translate
+        direction: to_target
+        prompt: "זה היה סוף שבוע כל כך שליו."
+        answers: ["It was such a peaceful weekend.", "It was such a peaceful weekend!"]
+        lexemes: [so-such, peaceful]
+      - id: u32-l3-16
+        type: translate
+        direction: to_source
+        prompt: "London is busy, whereas the village is quiet."
+        answers: ["לונדון עמוסה, בעוד שהכפר שקט.", "לונדון סואנת, בעוד שהכפר שקט.", "לונדון עמוסה, ואילו הכפר שקט."]
+        lexemes: [whereas]
+      - id: u32-l3-17
+        type: speak_repeat
+        text: "Despite the long commute, he loves living in the suburbs."
+        translation: "למרות הנסיעה הארוכה, הוא אוהב לגור בפרברים."
+        lexemes: [despite, commute, suburbs]
+
+  # ------------------------------------------------------------------ 4
+  - id: u32-l4
+    kind: listening
+    title: { he: "סוף שבוע בכפר", en: "A weekend in the country" }
+    exercises:
+      - id: u32-l4-01
+        type: dialogue
+        scene: "כולם שוכרים בית בכפר בקוטסוולדס לסוף שבוע. יום ראשון בבוקר."
+        lines:
+          - { speaker: "ben", text: "OK, I admit it. This is such a beautiful place.", translation: "בסדר, אני מודה. זה מקום כל כך יפה." }
+          - { speaker: "rachel", text: "Ha! Although you said you'd be bored.", translation: "חה! למרות שאמרת שישעמם לך." }
+          - { speaker: "ben", text: "I was wrong. However, there's no phone signal. How do people work here?", translation: "טעיתי. עם זאת, אין קליטה. איך אנשים עובדים פה?" }
+          - { speaker: "noa", text: "Despite the signal, I slept ten hours. I haven't done that in years.", translation: "למרות הקליטה, ישנתי עשר שעות. לא עשיתי את זה שנים." }
+          - { speaker: "rachel", text: "That's what I mean by quality of life.", translation: "לזה אני מתכוונת באיכות חיים." }
+          - { speaker: "noa", text: "Maybe. But I think I'm a city person. I'd need a weekend like this once a month, not every day.", translation: "אולי. אבל אני חושבת שאני אדם עירוני. הייתי צריכה סוף שבוע כזה פעם בחודש, לא כל יום." }
+      - id: u32-l4-02
+        type: multiple_choice
+        prompt: "מה בן אמר לפני הנסיעה?"
+        options: [שישעמם לו, שהוא רוצה לגור בכפר, שהוא לא יבוא]
+        correct: 0
+        lexemes: [although]
+      - id: u32-l4-03
+        type: multiple_choice
+        prompt: "מה החיסרון שבן מוצא?"
+        options: [אין קליטה בטלפון, אין חנויות, יש יותר מדי אנשים]
+        correct: 0
+        lexemes: [however]
+      - id: u32-l4-04
+        type: multiple_choice
+        prompt: "מה נועה מחליטה?"
+        options: [היא אדם עירוני שצריך הפסקה בכפר פעם בחודש, היא רוצה לעבור לכפר, היא לא אהבה את הכפר]
+        correct: 0
+        lexemes: [countryside]
+      - id: u32-l4-05
+        type: listening_choice
+        audioText: "The village is too small for a supermarket, but it has such a friendly café."
+        question: מה יש בכפר?
+        options: [בית קפה ידידותי, סופרמרקט גדול, תחנת רכבת]
+        correct: 0
+        lexemes: [too-enough, so-such]
+      - id: u32-l4-06
+        type: dialogue_gap
+        lines:
+          - { speaker: "tamar", text: "Would you move to the countryside?", translation: "היית עוברת לכפר?" }
+          - { speaker: "noa", text: "Although I love nature, I think I'd feel lonely.", translation: "למרות שאני אוהבת טבע, אני חושבת שהייתי מרגישה בודדה." }
+        gap: 1
+        distractors: ["Despite I love nature, I think I'd feel lonely.", "However I love nature, I think I'd feel lonely."]
+        lexemes: [although, lonely]
+      - id: u32-l4-07
+        type: dictation
+        text: "This is such a beautiful place."
+        lexemes: [so-such]
+      - id: u32-l4-08
+        type: translate
+        direction: to_target
+        prompt: "למרות הקליטה, ישנתי טוב."
+        answers: ["Despite the signal, I slept well.", "Despite the bad signal, I slept well.", "Despite the phone signal, I slept well."]
+        lexemes: [despite]
+      - id: u32-l4-09
+        type: speak_repeat
+        text: "I'm a city person. However, I need a quiet weekend once a month."
+        translation: "אני אדם עירוני. עם זאת, אני צריכה סוף שבוע שקט פעם בחודש."
+        lexemes: [however]
+
+  # ------------------------------------------------------------------ 5
+  - id: u32-l5
+    kind: reading
+    title: { he: "מחקר: איפה הכי טוב לגור?", en: "Study: where is life best?" }
+    exercises:
+      - id: u32-l5-01
+        type: reading
+        kind: "כתבה במגזין"
+        title: "Are country people happier?"
+        text: |
+          For years, people have left villages for big cities in search of jobs and excitement. Recently, however, the opposite has been happening: since working from home became normal, thousands of families have moved to the countryside.
+
+          Are they happier? According to a new survey, the answer is complicated. People in rural areas reported less stress and a stronger sense of community, whereas city residents were more satisfied with their careers and social lives.
+
+          Although rents are lower outside the cities, the cost of living is not always cheaper. Many families need two cars, and public transport is often too limited to be useful.
+
+          "Quality of life isn't about where you live," says the study's author. "It's about whether your place matches the life you want."
+        translation: |
+          במשך שנים, אנשים עזבו כפרים לערים גדולות בחיפוש אחר עבודה וריגוש. לאחרונה, עם זאת, קורה ההפך: מאז שעבודה מהבית הפכה לנורמלית, אלפי משפחות עברו לאזורים כפריים.
+
+          האם הם מאושרים יותר? לפי סקר חדש, התשובה מורכבת. אנשים באזורים כפריים דיווחו על פחות לחץ ועל תחושת קהילה חזקה יותר, בעוד שתושבי הערים היו מרוצים יותר מהקריירה ומחיי החברה שלהם.
+
+          למרות ששכר הדירה נמוך יותר מחוץ לערים, יוקר המחיה לא תמיד זול יותר. משפחות רבות צריכות שתי מכוניות, והתחבורה הציבורית לרוב מוגבלת מדי כדי להועיל.
+
+          "איכות חיים היא לא עניין של איפה גרים," אומר מחבר המחקר. "זה עניין של האם המקום מתאים לחיים שאתה רוצה."
+      - id: u32-l5-02
+        type: multiple_choice
+        prompt: "מה השתנה לאחרונה?"
+        options: [משפחות עוברות לכפר בגלל עבודה מהבית, אנשים עוזבים את הכפר, ערים נעשו זולות]
+        correct: 0
+        lexemes: [however, countryside]
+      - id: u32-l5-03
+        type: multiple_choice
+        prompt: "מה היתרון של אזורים כפריים לפי הסקר?"
+        options: [פחות לחץ וקהילה חזקה יותר, קריירה טובה יותר, חיי חברה עשירים]
+        correct: 0
+        lexemes: [community, whereas]
+      - id: u32-l5-04
+        type: multiple_choice
+        prompt: "למה יוקר המחיה לא תמיד זול יותר בכפר?"
+        options: [צריך שתי מכוניות והתחבורה מוגבלת, שכר הדירה גבוה, האוכל יקר]
+        correct: 0
+        lexemes: [cost-of-living, although]
+      - id: u32-l5-05
+        type: multiple_choice
+        prompt: "מה המסקנה של החוקר?"
+        options: [המקום צריך להתאים לחיים שרוצים, כפר תמיד עדיף, עיר תמיד עדיפה]
+        correct: 0
+        lexemes: [quality-of-life]
+      - id: u32-l5-06
+        type: fill_blank
+        sentence: "Public transport is often too limited ___ be useful."
+        translation: "התחבורה הציבורית לרוב מוגבלת מדי כדי להועיל."
+        answers: [to]
+        options: [to, for, enough]
+        lexemes: [too-enough]
+      - id: u32-l5-07
+        type: fill_blank
+        sentence: "___ rents are lower, the cost of living is not always cheaper."
+        translation: "למרות ששכר הדירה נמוך יותר, יוקר המחיה לא תמיד זול יותר."
+        answers: [Although]
+        options: [Although, Despite, However]
+        lexemes: [although, cost-of-living]
+      - id: u32-l5-08
+        type: word_bank
+        prompt: "תושבי הערים מרוצים יותר מהקריירה שלהם."
+        answers: ["City residents are more satisfied with their careers."]
+        distractors: [most, by]
+        lexemes: [career]
+      - id: u32-l5-09
+        type: translate
+        direction: to_target
+        prompt: "איכות חיים היא לא עניין של איפה גרים."
+        answers: ["Quality of life isn't about where you live.", "Quality of life is not about where you live."]
+        lexemes: [quality-of-life]
+      - id: u32-l5-10
+        type: speak_repeat
+        text: "People in rural areas reported less stress, whereas city residents were happier with their careers."
+        translation: "אנשים באזורים כפריים דיווחו על פחות לחץ, בעוד שתושבי הערים היו מרוצים יותר מהקריירה."
+        lexemes: [whereas, stress]
+
+  # ------------------------------------------------------------------ 6
+  - id: u32-review
+    kind: review
+    title: { he: "חזרה: עיר או כפר?", en: "Review: city or country?" }
+    exercises:
+      - id: u32-r-01
+        type: match_pairs
+        pairs:
+          - [although, למרות ש־]
+          - [despite, למרות]
+          - [however, עם זאת]
+          - [whereas, בעוד ש־]
+          - [on the other hand, מצד שני]
+        lexemes: [although, despite, however, whereas, on-the-other-hand]
+      - id: u32-r-02
+        type: fill_blank
+        sentence: "The coffee was ___ hot that I couldn't drink it."
+        translation: "הקפה היה כל כך חם שלא יכולתי לשתות אותו."
+        answers: [so]
+        options: [so, such, too]
+        lexemes: [so-such, hot]
+      - id: u32-r-03
+        type: listening_choice
+        audioText: "Despite the pollution, I still prefer living in the city."
+        question: מה הוא מעדיף?
+        options: [לגור בעיר למרות הזיהום, לגור בכפר, לגור בפרברים]
+        correct: 0
+        lexemes: [despite, pollution]
+      - id: u32-r-04
+        type: word_bank
+        prompt: "הדירה יקרה מדי בשבילנו."
+        answers: ["The flat is too expensive for us."]
+        distractors: [enough, so]
+        lexemes: [too-enough, expensive]
+      - id: u32-r-05
+        type: dialogue_gap
+        lines:
+          - { speaker: "rachel", text: "Would you like to live in a small town?", translation: "היית רוצה לגור בעיירה קטנה?" }
+          - { speaker: "ben", text: "I see your point, but I need the entertainment!", translation: "אני מבין את הטענה שלך, אבל אני צריך את הבידור!" }
+        gap: 1
+        distractors: ["I see your point, so I need the entertainment!", "I see you point, although I need entertainment!"]
+        lexemes: [i-see-your-point, entertainment]
+      - id: u32-r-06
+        type: multiple_choice
+        prompt: "איזה משפט נכון?"
+        options: ["It's such a crowded city.", "It's so a crowded city.", "It's such crowded city."]
+        correct: 0
+        lexemes: [so-such, crowded]
+      - id: u32-r-07
+        type: translate
+        direction: to_target
+        prompt: "הנסיעה לעבודה ארוכה מדי."
+        answers: ["The commute is too long.", "My commute is too long."]
+        lexemes: [commute, too-enough]
+      - id: u32-r-08
+        type: translate
+        direction: to_source
+        prompt: "In a small town I would feel lonely."
+        answers: ["בעיירה קטנה הייתי מרגיש בודד.", "בעיירה קטנה הייתי מרגישה בודדה."]
+        lexemes: [lonely]
+      - id: u32-r-09
+        type: dictation
+        text: "Although it was raining, we went out."
+        lexemes: [although]
+      - id: u32-r-10
+        type: speak_repeat
+        text: "The city is so convenient. On the other hand, it's so crowded."
+        translation: "העיר כל כך נוחה. מצד שני, היא כל כך צפופה."
+        lexemes: [convenient, on-the-other-hand, crowded]
