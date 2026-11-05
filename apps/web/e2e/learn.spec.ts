@@ -192,3 +192,13 @@ test("progress moves to another device: a code, a typed code, or a place chosen 
   await page.getByRole("link", { name: /^(להמשיך|להתחיל)$/ }).click();
   await expect(page).toHaveURL(/\/lesson\/en-for-he\/u5-l1\/$/);
 });
+
+test("exam practice: the Amirnet lessons open from the exams page and show reading passages", async ({ page }) => {
+  await page.goto("exams/");
+  await expect(page.getByRole("heading", { name: "אימון לאמירנט" })).toBeVisible();
+  await page.getByRole("link", { name: /הבנת הנקרא/ }).first().click();
+  await expect(page).toHaveURL(/\/lesson\/en-amirnet\/exam-1-c\/$/);
+  await expect(page.getByText(/printing press/)).toBeVisible();
+  const mistakes = await finishLesson(page);
+  expect(mistakes).toBe(0);
+});

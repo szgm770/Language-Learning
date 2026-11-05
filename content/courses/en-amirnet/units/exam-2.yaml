@@ -1,0 +1,223 @@
+id: exam-2
+cefr: B2
+scene: study
+title:
+  he: מבחן אימון 2
+  en: Practice test 2
+story: מבחן אימון בסגנון אמירנט, בשלושה חלקים. השאלות נכתבו לאימון ואינן שאלות אמיתיות מהמבחן.
+canDo:
+- להתאמן בהשלמת משפטים, בניסוח מחדש ובהבנת הנקרא
+lessons:
+- id: exam-2-a
+  title:
+    he: השלמת משפטים
+    en: Sentence completion
+  kind: test
+  exercises:
+  - id: exam-2-a-01
+    type: multiple_choice
+    prompt: The new law is intended to ______ children from dangerous products.
+    options:
+    - provoke
+    - punish
+    - persuade
+    - protect
+    correct: 3
+  - id: exam-2-a-02
+    type: multiple_choice
+    prompt: We were ______ to find that the shop had already closed, although it was only five o'clock.
+    options:
+    - surprisingly
+    - surprising
+    - surprise
+    - surprised
+    correct: 3
+  - id: exam-2-a-03
+    type: multiple_choice
+    prompt: Nobody could ______ the noise any longer, so the neighbours complained.
+    options:
+    - tolerate
+    - tempt
+    - tighten
+    - trade
+    correct: 0
+  - id: exam-2-a-04
+    type: multiple_choice
+    prompt: The manager is looking for someone who is ______ of working under pressure.
+    options:
+    - possible
+    - able
+    - likely
+    - capable
+    correct: 3
+  - id: exam-2-a-05
+    type: multiple_choice
+    prompt: The film was so ______ that I almost fell asleep in the middle.
+    options:
+    - thrilling
+    - hilarious
+    - tedious
+    - remarkable
+    correct: 2
+  - id: exam-2-a-06
+    type: multiple_choice
+    prompt: By the time we arrived, the concert ______ already begun.
+    options:
+    - was
+    - had
+    - has
+    - would
+    correct: 1
+  - id: exam-2-a-07
+    type: multiple_choice
+    prompt: Prices have risen ______ in recent months, and many families find it hard to manage.
+    options:
+    - rarely
+    - scarcely
+    - barely
+    - steadily
+    correct: 3
+  - id: exam-2-a-08
+    type: multiple_choice
+    prompt: He ______ his promise, and everyone stopped trusting him.
+    options:
+    - gave
+    - broke
+    - kept
+    - made
+    correct: 1
+  - id: exam-2-a-09
+    type: multiple_choice
+    prompt: The lecturer spoke so quickly that it was almost ______ to take notes.
+    options:
+    - unavoidable
+    - impossible
+    - impolite
+    - unreasonable
+    correct: 1
+  - id: exam-2-a-10
+    type: multiple_choice
+    prompt: Neither the students nor the teacher ______ aware of the change in the schedule.
+    options:
+    - are
+    - were
+    - have been
+    - was
+    correct: 3
+- id: exam-2-b
+  title:
+    he: ניסוח מחדש
+    en: Restatement
+  kind: test
+  exercises:
+  - id: exam-2-b-01
+    type: multiple_choice
+    prompt: 'Which sentence has the closest meaning to: "He failed the test although he had studied hard."'
+    options:
+    - In spite of studying hard, he failed the test.
+    - Because he studied hard, he failed the test.
+    - He studied hard after he failed the test.
+    - He failed the test, so he studied hard.
+    correct: 0
+  - id: exam-2-b-02
+    type: multiple_choice
+    prompt: 'Which sentence has the closest meaning to: "It''s a pity I didn''t go to the party."'
+    options:
+    - I am glad I went to the party.
+    - I wish I go to the party.
+    - I wish I had gone to the party.
+    - I wish I would go to the party.
+    correct: 2
+  - id: exam-2-b-03
+    type: multiple_choice
+    prompt: 'Which sentence has the closest meaning to: "The film was so long that we left before the end."'
+    options:
+    - The film was long enough to stay until the end.
+    - It was a so long film that we left before the end.
+    - It was such a long film that we left before the end.
+    - We left before the end, so the film was short.
+    correct: 2
+  - id: exam-2-b-04
+    type: multiple_choice
+    prompt: 'Which sentence has the closest meaning to: "They said the bank would open at nine."'
+    options:
+    - According to them, the bank opens at nine.
+    - They opened the bank at nine.
+    - They doubted the bank would open at nine.
+    - They asked whether the bank opened at nine.
+    correct: 0
+  - id: exam-2-b-05
+    type: multiple_choice
+    prompt: 'Which sentence has the closest meaning to: "My sister is a better swimmer than I am."'
+    options:
+    - My sister and I swim equally well.
+    - My sister is not as good a swimmer as I am.
+    - I am a better swimmer than my sister.
+    - I am not as good a swimmer as my sister.
+    correct: 3
+- id: exam-2-c
+  title:
+    he: הבנת הנקרא
+    en: Reading comprehension
+  kind: test
+  exercises:
+  - id: exam-2-c-11
+    type: multiple_choice
+    passage: The city of Venice is slowly sinking. Built on small islands in a lagoon, it has always suffered from floods, but in recent decades the problem has become worse as sea levels rise. A huge system of movable barriers, which took almost twenty years to build, now closes the entrance to the lagoon when the water is expected to be very high. Supporters say that it protects the city's famous buildings. Critics argue that it is very expensive to maintain and that it may harm sea life in the lagoon. Everyone agrees, however, that Venice needs a long-term plan.
+    prompt: Why has flooding in Venice become worse?
+    options:
+    - Sea levels are rising.
+    - Tourists are building more.
+    - The islands are growing.
+    - The lagoon is shrinking.
+    correct: 0
+  - id: exam-2-c-12
+    type: multiple_choice
+    passage: The city of Venice is slowly sinking. Built on small islands in a lagoon, it has always suffered from floods, but in recent decades the problem has become worse as sea levels rise. A huge system of movable barriers, which took almost twenty years to build, now closes the entrance to the lagoon when the water is expected to be very high. Supporters say that it protects the city's famous buildings. Critics argue that it is very expensive to maintain and that it may harm sea life in the lagoon. Everyone agrees, however, that Venice needs a long-term plan.
+    prompt: What do critics of the barriers say?
+    options:
+    - They hide the famous buildings.
+    - They are costly and may harm sea life.
+    - They were built too quickly.
+    - They do not close at all.
+    correct: 1
+  - id: exam-2-c-13
+    type: multiple_choice
+    passage: The city of Venice is slowly sinking. Built on small islands in a lagoon, it has always suffered from floods, but in recent decades the problem has become worse as sea levels rise. A huge system of movable barriers, which took almost twenty years to build, now closes the entrance to the lagoon when the water is expected to be very high. Supporters say that it protects the city's famous buildings. Critics argue that it is very expensive to maintain and that it may harm sea life in the lagoon. Everyone agrees, however, that Venice needs a long-term plan.
+    prompt: What do all sides agree on?
+    options:
+    - The lagoon should be filled in.
+    - The barriers should be removed.
+    - The city needs a long-term plan.
+    - Floods are not a real problem.
+    correct: 2
+  - id: exam-2-c-21
+    type: multiple_choice
+    passage: Last month, a small bakery in our neighbourhood started a new tradition. Every Thursday, it bakes extra loaves and gives them, free of charge, to anyone who cannot afford to buy bread. The owner, Mrs. Lavi, says the idea came from her grandmother, who often left food at the door of poor neighbours. At first, only a few people came, but the news spread, and now there is a line outside the bakery every week. Several shops nearby have decided to copy the idea.
+    prompt: What does the bakery do every Thursday?
+    options:
+    - It gives free bread to people in need.
+    - It closes for the day.
+    - It sells bread at half price.
+    - It teaches people to bake.
+    correct: 0
+  - id: exam-2-c-22
+    type: multiple_choice
+    passage: Last month, a small bakery in our neighbourhood started a new tradition. Every Thursday, it bakes extra loaves and gives them, free of charge, to anyone who cannot afford to buy bread. The owner, Mrs. Lavi, says the idea came from her grandmother, who often left food at the door of poor neighbours. At first, only a few people came, but the news spread, and now there is a line outside the bakery every week. Several shops nearby have decided to copy the idea.
+    prompt: Where did Mrs. Lavi get the idea?
+    options:
+    - From a newspaper.
+    - From her grandmother.
+    - From her customers.
+    - From another bakery.
+    correct: 1
+  - id: exam-2-c-23
+    type: multiple_choice
+    passage: Last month, a small bakery in our neighbourhood started a new tradition. Every Thursday, it bakes extra loaves and gives them, free of charge, to anyone who cannot afford to buy bread. The owner, Mrs. Lavi, says the idea came from her grandmother, who often left food at the door of poor neighbours. At first, only a few people came, but the news spread, and now there is a line outside the bakery every week. Several shops nearby have decided to copy the idea.
+    prompt: What has happened since the news spread?
+    options:
+    - Mrs. Lavi raised her prices.
+    - Fewer people come.
+    - Other shops want to do the same.
+    - The bakery has closed.
+    correct: 2

@@ -1,0 +1,223 @@
+id: exam-1
+cefr: B2
+scene: study
+title:
+  he: מבחן אימון 1
+  en: Practice test 1
+story: מבחן אימון בסגנון אמירנט, בשלושה חלקים. השאלות נכתבו לאימון ואינן שאלות אמיתיות מהמבחן.
+canDo:
+- להתאמן בהשלמת משפטים, בניסוח מחדש ובהבנת הנקרא
+lessons:
+- id: exam-1-a
+  title:
+    he: השלמת משפטים
+    en: Sentence completion
+  kind: test
+  exercises:
+  - id: exam-1-a-01
+    type: multiple_choice
+    prompt: The committee decided to ______ the meeting until next week because several members were ill.
+    options:
+    - postpone
+    - complete
+    - imitate
+    - accelerate
+    correct: 0
+  - id: exam-1-a-02
+    type: multiple_choice
+    prompt: Despite the heavy rain, the match was not ______; the players simply waited and then continued.
+    options:
+    - cancelled
+    - borrowed
+    - repeated
+    - admired
+    correct: 0
+  - id: exam-1-a-03
+    type: multiple_choice
+    prompt: She is so ______ that she never asks for help, even when the task is clearly too difficult.
+    options:
+    - independent
+    - cautious
+    - curious
+    - generous
+    correct: 0
+  - id: exam-1-a-04
+    type: multiple_choice
+    prompt: If I ______ more time, I would learn to play the piano.
+    options:
+    - have
+    - had
+    - will have
+    - having
+    correct: 1
+  - id: exam-1-a-05
+    type: multiple_choice
+    prompt: The company's profits ______ sharply last year, so it had to close two branches.
+    options:
+    - fallen
+    - fall
+    - falls
+    - fell
+    correct: 3
+  - id: exam-1-a-06
+    type: multiple_choice
+    prompt: He apologized for being late and explained that the train had been ______.
+    options:
+    - developed
+    - delayed
+    - delivered
+    - declined
+    correct: 1
+  - id: exam-1-a-07
+    type: multiple_choice
+    prompt: Scientists have ______ a new method for cleaning water cheaply.
+    options:
+    - dismissed
+    - discussed
+    - discovered
+    - distributed
+    correct: 2
+  - id: exam-1-a-08
+    type: multiple_choice
+    prompt: The teacher asked us to hand in the homework ______ Friday at the latest.
+    options:
+    - by
+    - during
+    - since
+    - until
+    correct: 0
+  - id: exam-1-a-09
+    type: multiple_choice
+    prompt: It was a very ______ speech, and many people in the audience were moved to tears.
+    options:
+    - ordinary
+    - touching
+    - careless
+    - boring
+    correct: 1
+  - id: exam-1-a-10
+    type: multiple_choice
+    prompt: I would have called you if I ______ your number.
+    options:
+    - would know
+    - knew
+    - had known
+    - know
+    correct: 2
+- id: exam-1-b
+  title:
+    he: ניסוח מחדש
+    en: Restatement
+  kind: test
+  exercises:
+  - id: exam-1-b-01
+    type: multiple_choice
+    prompt: 'Which sentence has the closest meaning to: "The meeting was called off because of the strike."'
+    options:
+    - The meeting started late because of the strike.
+    - The strike took place after the meeting.
+    - The meeting ended because the strike was over.
+    - The meeting was cancelled because of the strike.
+    correct: 3
+  - id: exam-1-b-02
+    type: multiple_choice
+    prompt: 'Which sentence has the closest meaning to: "I haven''t seen him for three years."'
+    options:
+    - He hasn't seen me for three months.
+    - I have seen him for three years.
+    - I will see him in three years.
+    - The last time I saw him was three years ago.
+    correct: 3
+  - id: exam-1-b-03
+    type: multiple_choice
+    prompt: 'Which sentence has the closest meaning to: "Unless you hurry, you will miss the bus."'
+    options:
+    - If you don't hurry, you will miss the bus.
+    - If you hurry, you will miss the bus.
+    - You will miss the bus because you hurried.
+    - You hurried, so you missed the bus.
+    correct: 0
+  - id: exam-1-b-04
+    type: multiple_choice
+    prompt: 'Which sentence has the closest meaning to: "She is too tired to continue working."'
+    options:
+    - She is not tired, so she continues working.
+    - She is tired enough to continue working.
+    - She continues working although she is tired.
+    - She is so tired that she cannot continue working.
+    correct: 3
+  - id: exam-1-b-05
+    type: multiple_choice
+    prompt: 'Which sentence has the closest meaning to: ""I didn''t break the window," said Dan."'
+    options:
+    - Dan admitted breaking the window.
+    - Dan offered to break the window.
+    - Dan denied breaking the window.
+    - Dan promised to break the window.
+    correct: 2
+- id: exam-1-c
+  title:
+    he: הבנת הנקרא
+    en: Reading comprehension
+  kind: test
+  exercises:
+  - id: exam-1-c-11
+    type: multiple_choice
+    passage: 'The first public libraries in Europe were not open to everyone. In the Middle Ages, books were copied by hand, and each one took months to produce, so only monasteries and wealthy families owned them. This changed in the fifteenth century, when the printing press made books much cheaper. Over the next few hundred years, cities began to open libraries for their citizens, and by the nineteenth century many countries had laws that supported free public libraries. Today, libraries offer far more than books: visitors can borrow music and films, use computers, and attend lectures and workshops.'
+    prompt: Why were books rare in the Middle Ages?
+    options:
+    - There was no paper in Europe.
+    - Each book had to be copied by hand.
+    - People were not interested in reading.
+    - Monasteries forbade owning books.
+    correct: 1
+  - id: exam-1-c-12
+    type: multiple_choice
+    passage: 'The first public libraries in Europe were not open to everyone. In the Middle Ages, books were copied by hand, and each one took months to produce, so only monasteries and wealthy families owned them. This changed in the fifteenth century, when the printing press made books much cheaper. Over the next few hundred years, cities began to open libraries for their citizens, and by the nineteenth century many countries had laws that supported free public libraries. Today, libraries offer far more than books: visitors can borrow music and films, use computers, and attend lectures and workshops.'
+    prompt: What made books cheaper in the fifteenth century?
+    options:
+    - The printing press.
+    - Free public libraries.
+    - New laws.
+    - Wealthy families.
+    correct: 0
+  - id: exam-1-c-13
+    type: multiple_choice
+    passage: 'The first public libraries in Europe were not open to everyone. In the Middle Ages, books were copied by hand, and each one took months to produce, so only monasteries and wealthy families owned them. This changed in the fifteenth century, when the printing press made books much cheaper. Over the next few hundred years, cities began to open libraries for their citizens, and by the nineteenth century many countries had laws that supported free public libraries. Today, libraries offer far more than books: visitors can borrow music and films, use computers, and attend lectures and workshops.'
+    prompt: What does the passage say about libraries today?
+    options:
+    - They are no longer free.
+    - They offer more than books.
+    - They only lend books.
+    - They are closing in many cities.
+    correct: 1
+  - id: exam-1-c-21
+    type: multiple_choice
+    passage: Many people think that sleeping less makes them more productive, but research suggests the opposite. In one study, volunteers who slept only five hours a night for a week made more mistakes and had a harder time remembering new information than those who slept eight hours. Sleep also seems to help the brain "clean up" during the night, removing waste that builds up during the day. Experts therefore recommend that adults sleep between seven and nine hours, and that they avoid bright screens for an hour before bed.
+    prompt: What did the study find about volunteers who slept five hours?
+    options:
+    - They remembered more.
+    - They worked faster.
+    - They felt more energetic.
+    - They made more mistakes.
+    correct: 3
+  - id: exam-1-c-22
+    type: multiple_choice
+    passage: Many people think that sleeping less makes them more productive, but research suggests the opposite. In one study, volunteers who slept only five hours a night for a week made more mistakes and had a harder time remembering new information than those who slept eight hours. Sleep also seems to help the brain "clean up" during the night, removing waste that builds up during the day. Experts therefore recommend that adults sleep between seven and nine hours, and that they avoid bright screens for an hour before bed.
+    prompt: According to the passage, what does sleep do for the brain?
+    options:
+    - It increases screen time.
+    - It helps remove waste.
+    - It stores bright light.
+    - It prevents dreams.
+    correct: 1
+  - id: exam-1-c-23
+    type: multiple_choice
+    passage: Many people think that sleeping less makes them more productive, but research suggests the opposite. In one study, volunteers who slept only five hours a night for a week made more mistakes and had a harder time remembering new information than those who slept eight hours. Sleep also seems to help the brain "clean up" during the night, removing waste that builds up during the day. Experts therefore recommend that adults sleep between seven and nine hours, and that they avoid bright screens for an hour before bed.
+    prompt: What do experts recommend before bed?
+    options:
+    - Avoiding bright screens.
+    - Eating a large meal.
+    - Sleeping only five hours.
+    - Working for an hour.
+    correct: 0
