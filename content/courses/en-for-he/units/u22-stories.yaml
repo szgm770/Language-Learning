@@ -1,0 +1,494 @@
+id: u22-stories
+cefr: B1
+scene: globe
+title:
+  he: מה קרה?
+  en: What happened?
+story: "בן נפל מהאופניים בדרך לעבודה, ונועה שפכה קפה על הלקוח בדיוק כשהיא הציגה את הפרויקט. בארוחת הערב כולם מספרים סיפורים מביכים ומצחיקים."
+canDo:
+  - לספר סיפור קצר על משהו שקרה לי
+  - להשתמש בעבר מתמשך לרקע ובעבר פשוט לאירוע
+  - לחבר משפטים עם when ו־while
+  - להגיב לסיפור של מישהו אחר
+
+vocabulary:
+  - { id: "happen", text: "happen", translation: "לקרות", pos: "verb", pronunciation: "הֶפֶּן", example: { text: "What happened?", translation: "מה קרה?" } }
+  - { id: "story", text: "story", translation: "סיפור", pos: "noun", pronunciation: "סְטוֹרִי" }
+  - { id: "accident", text: "accident", translation: "תאונה", pos: "noun", pronunciation: "אֶקְסִידֶנְט" }
+  - { id: "suddenly", text: "suddenly", translation: "פתאום", pos: "adverb", pronunciation: "סַאדֶנְלִי" }
+  - { id: "while", text: "while", translation: "בזמן ש־", pos: "conjunction", pronunciation: "וַוייל", example: { text: "While I was cycling, it started to rain.", translation: "בזמן שרכבתי, התחיל לרדת גשם." } }
+  - { id: "when", text: "when", translation: "כש־", pos: "conjunction", pronunciation: "וֶן" }
+  - { id: "was-ing", text: "was / were + -ing", translation: "עבר מתמשך (הייתי באמצע…)", pos: "phrase", pronunciation: "ווֹז … אִינְג", example: { text: "I was working when you called.", translation: "עבדתי כשהתקשרת." } }
+  - { id: "fell", text: "fell", translation: "נפלתי (עבר של fall)", pos: "verb", pronunciation: "פֶל" }
+  - { id: "broke", text: "broke", translation: "שברתי (עבר של break)", pos: "verb", pronunciation: "בְּרוֹק" }
+  - { id: "dropped", text: "dropped", translation: "הפלתי (עבר של drop)", pos: "verb", pronunciation: "דְרוֹפְּט" }
+  - { id: "lost", text: "lost", translation: "איבדתי (עבר של lose)", pos: "verb", pronunciation: "לוֹסְט" }
+  - { id: "found", text: "found", translation: "מצאתי (עבר של find)", pos: "verb", pronunciation: "פַאוּנְד" }
+  - { id: "spilled", text: "spilled", translation: "שפכתי", pos: "verb", pronunciation: "סְפִּילְד" }
+  - { id: "funny", text: "funny", translation: "מצחיק", pos: "adjective", pronunciation: "פַאנִי" }
+  - { id: "embarrassing", text: "embarrassing", translation: "מביך", pos: "adjective", pronunciation: "אִמְבֶּרַסִינְג" }
+  - { id: "luckily", text: "luckily", translation: "למזלי, למרבה המזל", pos: "adverb", pronunciation: "לַאקִילִי" }
+  - { id: "unfortunately", text: "unfortunately", translation: "לצערי, למרבה הצער", pos: "adverb", pronunciation: "אַנְפוֹרְצ'ֶנֶטְלִי" }
+  - { id: "at-first", text: "at first", translation: "בהתחלה", pos: "phrase", pronunciation: "אֶט פֶרְסְט" }
+  - { id: "in-the-end", text: "in the end", translation: "בסוף", pos: "phrase", pronunciation: "אִין דִ'י אֶנְד" }
+  - { id: "you-wont-believe", text: "You won't believe what happened!", translation: "לא תאמין מה קרה!", pos: "phrase", pronunciation: "יוּ ווֹנְט בִּילִיב ווֹט הֶפֶּנְד" }
+  - { id: "poor-you", text: "Poor you!", translation: "מסכן! איזה באסה!", pos: "phrase", pronunciation: "פּוּר יוּ" }
+  - { id: "no-way", text: "No way!", translation: "מה אתה אומר! לא יכול להיות!", pos: "phrase", pronunciation: "נוֹ וֵויי" }
+
+grammar:
+  - id: past-continuous
+    title: { he: "באמצע משהו: I was cycling when…", en: "Past continuous vs past simple" }
+    explanation: |
+      בעברית מספרים סיפור בעבר אחד: "רכבתי לעבודה ופתאום נפלתי". באנגלית מבחינים בין שני סוגי עבר:
+
+      - **עבר מתמשך** (was / were + ‎-ing): הרקע, מה שהיה **באמצע** לקרות.
+        **I was cycling to work.** (הייתי באמצע רכיבה)
+      - **עבר פשוט**: האירוע הקצר שקרה **באמצע** הרקע.
+        **I fell.**
+
+      מחברים אותם עם **when** (כש־) ו־**while** (בזמן ש־):
+      - **I was cycling to work when I fell.**
+      - **While I was presenting, I spilled my coffee.**
+
+      בדרך כלל: **while** + עבר מתמשך, **when** + עבר פשוט.
+
+      שאלה: **What were you doing when it happened?** (מה עשית כשזה קרה?)
+    examples:
+      - { text: "It was raining when I left the house.", translation: "ירד גשם כשיצאתי מהבית." }
+      - { text: "While Noa was talking, the client's phone rang.", translation: "בזמן שנועה דיברה, הטלפון של הלקוח צלצל." }
+      - { text: "What were you doing at eight o'clock? I was sleeping!", translation: "מה עשית בשמונה? ישנתי!" }
+
+lessons:
+  # ------------------------------------------------------------------ 1
+  - id: u22-l1
+    kind: new
+    title: { he: "לא תאמיני מה קרה!", en: "You won't believe what happened!" }
+    exercises:
+      - id: u22-l1-01
+        type: dialogue
+        scene: "בן מגיע למשרד עם תחבושת על היד."
+        lines:
+          - { speaker: "noa", text: "Ben! What happened to your arm?", translation: "בן! מה קרה ליד שלך?" }
+          - { speaker: "ben", text: "You won't believe it. I had an accident on my bike.", translation: "לא תאמיני. הייתה לי תאונה עם האופניים." }
+          - { speaker: "noa", text: "Oh no! Poor you!", translation: "אוי לא! מסכן!" }
+          - { speaker: "ben", text: "I was cycling to work, and suddenly a dog ran in front of me. I fell.", translation: "רכבתי לעבודה, ופתאום כלב רץ לפניי. נפלתי." }
+          - { speaker: "noa", text: "Did you break anything?", translation: "שברת משהו?" }
+          - { speaker: "ben", text: "Luckily, no. But I broke my phone!", translation: "למזלי, לא. אבל שברתי את הטלפון!" }
+      - { id: "u22-l1-02", type: "learn", lexeme: "happen" }
+      - { id: "u22-l1-03", type: "learn", lexeme: "you-wont-believe" }
+      - { id: "u22-l1-04", type: "learn", lexeme: "accident" }
+      - { id: "u22-l1-05", type: "learn", lexeme: "poor-you" }
+      - { id: "u22-l1-06", type: "learn", lexeme: "suddenly" }
+      - { id: "u22-l1-07", type: "learn", lexeme: "fell" }
+      - { id: "u22-l1-08", type: "learn", lexeme: "broke" }
+      - { id: "u22-l1-09", type: "learn", lexeme: "luckily" }
+      - id: u22-l1-10
+        type: match_pairs
+        pairs:
+          - [happen, לקרות]
+          - [accident, תאונה]
+          - [suddenly, פתאום]
+          - [fell, נפלתי]
+          - [luckily, למזלי]
+        lexemes: [happen, accident, suddenly, fell, luckily]
+      - id: u22-l1-11
+        type: multiple_choice
+        prompt: "למה בן נפל?"
+        options: [כלב רץ לפניו, ירד גשם, הוא רכב מהר מדי]
+        correct: 0
+        lexemes: [fell, suddenly]
+      - id: u22-l1-12
+        type: multiple_choice
+        prompt: "מה בן שבר?"
+        options: [את הטלפון, את היד, את האופניים]
+        correct: 0
+        lexemes: [broke, phone]
+      - id: u22-l1-13
+        type: listening_choice
+        audioText: "Luckily, nobody was hurt in the accident."
+        question: מה הוא אומר?
+        options: [אף אחד לא נפגע בתאונה, מישהו נפגע בתאונה, לא הייתה תאונה]
+        correct: 0
+        lexemes: [luckily, accident]
+      - id: u22-l1-14
+        type: word_bank
+        prompt: "מה קרה אתמול?"
+        answers: ["What happened yesterday?"]
+        distractors: [did, happen]
+        lexemes: [happen, yesterday]
+      - id: u22-l1-15
+        type: speak_repeat
+        text: "You won't believe what happened this morning!"
+        translation: "לא תאמין מה קרה הבוקר!"
+        lexemes: [you-wont-believe, happen]
+
+  # ------------------------------------------------------------------ 2
+  - id: u22-l2
+    kind: new
+    title: { he: "רגע מביך", en: "An embarrassing moment" }
+    exercises:
+      - { id: "u22-l2-01", type: "learn", lexeme: "embarrassing" }
+      - { id: "u22-l2-02", type: "learn", lexeme: "funny" }
+      - { id: "u22-l2-03", type: "learn", lexeme: "spilled" }
+      - { id: "u22-l2-04", type: "learn", lexeme: "dropped" }
+      - { id: "u22-l2-05", type: "learn", lexeme: "no-way" }
+      - id: u22-l2-06
+        type: dialogue
+        scene: "נועה מספרת לרחל על הפגישה עם הלקוח."
+        lines:
+          - { speaker: "noa", text: "Today was so embarrassing.", translation: "היום היה כל כך מביך." }
+          - { speaker: "rachel", text: "Why? What happened?", translation: "למה? מה קרה?" }
+          - { speaker: "noa", text: "I was presenting the project to the client, and I dropped my coffee.", translation: "הצגתי את הפרויקט ללקוח, והפלתי את הקפה שלי." }
+          - { speaker: "rachel", text: "No way!", translation: "מה את אומרת!" }
+          - { speaker: "noa", text: "I spilled it all over his shoes!", translation: "שפכתי את כולו על הנעליים שלו!" }
+          - { speaker: "rachel", text: "Ha! Sorry, but that's really funny.", translation: "חה! סליחה, אבל זה ממש מצחיק." }
+      - { id: "u22-l2-08", type: "learn", lexeme: "story" }
+      - { id: "u22-l2-11", type: "learn", lexeme: "lost" }
+      - { id: "u22-l2-12", type: "learn", lexeme: "found" }
+      - id: u22-l2-07
+        type: match_pairs
+        pairs:
+          - [embarrassing, מביך]
+          - [funny, מצחיק]
+          - [dropped, הפלתי]
+          - [spilled, שפכתי]
+          - [story, סיפור]
+        lexemes: [embarrassing, funny, dropped, spilled, story]
+      - id: u22-l2-09
+        type: multiple_choice
+        prompt: "על מה נועה שפכה את הקפה?"
+        options: [על הנעליים של הלקוח, על המחשב, על השולחן]
+        correct: 0
+        lexemes: [spilled]
+      - id: u22-l2-10
+        type: dialogue_gap
+        lines:
+          - { speaker: "eli", text: "I lost my keys and waited outside for three hours.", translation: "איבדתי את המפתחות וחיכיתי בחוץ שלוש שעות." }
+          - { speaker: "noa", text: "Poor you! That's terrible.", translation: "מסכן! זה נורא." }
+        gap: 1
+        distractors: ["Congratulations! That's terrible.", "That's funny! Well done."]
+        lexemes: [poor-you, lost, key]
+      - id: u22-l2-13
+        type: fill_blank
+        sentence: "I ___ my wallet yesterday, but luckily I found it."
+        translation: "איבדתי את הארנק אתמול, אבל למזלי מצאתי אותו."
+        answers: [lost]
+        options: [lost, losed, lose]
+        lexemes: [lost, found, luckily]
+      - id: u22-l2-14
+        type: translate
+        direction: to_target
+        prompt: "זה היה כל כך מביך!"
+        answers: ["It was so embarrassing!", "That was so embarrassing!", "It was so embarrassing.", "That was so embarrassing."]
+        lexemes: [embarrassing]
+      - id: u22-l2-15
+        type: speak_repeat
+        text: "I dropped my coffee and spilled it all over his shoes!"
+        translation: "הפלתי את הקפה ושפכתי אותו על כל הנעליים שלו!"
+        lexemes: [dropped, spilled]
+
+  # ------------------------------------------------------------------ 3
+  - id: u22-l3
+    kind: grammar
+    grammar: past-continuous
+    title: { he: "בזמן ש… פתאום", en: "While… suddenly" }
+    exercises:
+      - { id: "u22-l3-01", type: "learn", lexeme: "was-ing" }
+      - { id: "u22-l3-02", type: "learn", lexeme: "while" }
+      - { id: "u22-l3-03", type: "learn", lexeme: "when" }
+      - id: u22-l3-04
+        type: fill_blank
+        sentence: "I ___ cycling to work when I fell."
+        translation: "רכבתי לעבודה כשנפלתי."
+        answers: [was]
+        options: [was, were, did]
+        lexemes: [was-ing, fell, when]
+      - id: u22-l3-05
+        type: fill_blank
+        sentence: "They ___ having dinner when the phone rang."
+        translation: "הם אכלו ארוחת ערב כשהטלפון צלצל."
+        answers: [were]
+        options: [were, was, are]
+        lexemes: [was-ing, when]
+      - id: u22-l3-06
+        type: fill_blank
+        sentence: "While I was presenting, I ___ my coffee. (drop)"
+        translation: "בזמן שהצגתי, הפלתי את הקפה."
+        answers: [dropped]
+        options: [dropped, was dropping, drop]
+        lexemes: [while, dropped]
+      - id: u22-l3-07
+        type: multiple_choice
+        prompt: "מה הרקע ומה האירוע? It was raining when I left the house."
+        options: ["רקע: ירד גשם / אירוע: יצאתי", "רקע: יצאתי / אירוע: ירד גשם", "שניהם אירועים קצרים"]
+        correct: 0
+        lexemes: [was-ing, when]
+      - id: u22-l3-08
+        type: multiple_choice
+        prompt: איזה משפט נכון?
+        options: ["What were you doing when it happened?", "What did you doing when it happened?", "What were you do when it happened?"]
+        correct: 0
+        lexemes: [was-ing, happen]
+      - id: u22-l3-09
+        type: dialogue_gap
+        lines:
+          - { speaker: "david", text: "Why didn't you answer my call?", translation: "למה לא ענית לשיחה שלי?" }
+          - { speaker: "tamar", text: "Sorry, I was driving when you called.", translation: "סליחה, נהגתי כשהתקשרת." }
+        gap: 1
+        distractors: ["Sorry, I drove when you were calling me.", "Sorry, I was drive when you called."]
+        lexemes: [was-ing, when, call]
+      - id: u22-l3-10
+        type: word_bank
+        prompt: "בזמן שהיא עבדה, הלפטופ התקלקל."
+        answers: ["While she was working, the laptop broke.", "The laptop broke while she was working."]
+        distractors: [when, broken]
+        lexemes: [while, was-ing, broke, laptop]
+      - id: u22-l3-11
+        type: translate
+        direction: to_target
+        prompt: "ירד גשם כשיצאנו."
+        answers: ["It was raining when we left.", "It was raining when we went out."]
+        lexemes: [was-ing, when, rain]
+      - id: u22-l3-12
+        type: translate
+        direction: to_source
+        prompt: "I was sleeping when you called."
+        answers: ["ישנתי כשהתקשרת.", "הייתי ישן כשהתקשרת.", "הייתי ישנה כשהתקשרת.", "ישנתי כשהתקשרת"]
+        lexemes: [was-ing, when, call]
+      - id: u22-l3-13
+        type: speak_repeat
+        text: "While I was cycling to work, a dog ran in front of me."
+        translation: "בזמן שרכבתי לעבודה, כלב רץ לפניי."
+        lexemes: [while, was-ing]
+
+  # ------------------------------------------------------------------ 4
+  - id: u22-l4
+    kind: listening
+    title: { he: "סיפורים בארוחת ערב", en: "Stories at dinner" }
+    exercises:
+      - { id: "u22-l4-01", type: "learn", lexeme: "at-first" }
+      - { id: "u22-l4-02", type: "learn", lexeme: "in-the-end" }
+      - { id: "u22-l4-03", type: "learn", lexeme: "unfortunately" }
+      - id: u22-l4-04
+        type: dialogue
+        scene: "ארוחת ערב אצל מרים ודוד. דוד מספר על הטיול הראשון שלו ללונדון."
+        lines:
+          - { speaker: "david", text: "OK, here's my story. My first week in London, I was looking for my hotel.", translation: "טוב, הנה הסיפור שלי. בשבוע הראשון שלי בלונדון, חיפשתי את המלון שלי." }
+          - { speaker: "david", text: "It was dark and it was raining. Unfortunately, my phone battery was dead.", translation: "היה חושך וירד גשם. לצערי, הסוללה בטלפון שלי נגמרה." }
+          - { speaker: "miriam", text: "So what did you do?", translation: "אז מה עשית?" }
+          - { speaker: "david", text: "At first I walked for an hour. Then I asked a man for help.", translation: "בהתחלה הלכתי שעה. אחר כך ביקשתי עזרה מאיש אחד." }
+          - { speaker: "david", text: "While he was explaining the way, I looked up, and the hotel was right behind him!", translation: "בזמן שהוא הסביר את הדרך, הרמתי את הראש, והמלון היה בדיוק מאחוריו!" }
+          - { speaker: "noa", text: "No way! So in the end it was fine.", translation: "לא יכול להיות! אז בסוף היה בסדר." }
+          - { speaker: "david", text: "In the end, yes. But I was very wet!", translation: "בסוף, כן. אבל הייתי רטוב לגמרי!" }
+      - id: u22-l4-05
+        type: multiple_choice
+        prompt: "מה דוד חיפש?"
+        options: [את המלון שלו, את הטלפון שלו, תחנת רכבת]
+        correct: 0
+        lexemes: [was-ing, hotel]
+      - id: u22-l4-06
+        type: multiple_choice
+        prompt: "למה הוא לא השתמש בטלפון?"
+        options: [הסוללה נגמרה, הוא איבד אותו, לא הייתה רשת]
+        correct: 0
+        lexemes: [unfortunately, battery]
+      - id: u22-l4-07
+        type: multiple_choice
+        prompt: "איפה היה המלון?"
+        options: [בדיוק מאחורי האיש, רחוק מאוד, ליד התחנה]
+        correct: 0
+        lexemes: [in-the-end]
+      - id: u22-l4-08
+        type: multiple_choice
+        prompt: "מה היה מזג האוויר?"
+        options: [חושך וגשם, שמשי וחם, קר עם שלג]
+        correct: 0
+        lexemes: [was-ing, rain]
+      - id: u22-l4-09
+        type: listening_choice
+        audioText: "At first I was nervous, but in the end the presentation went really well."
+        question: איך הסתיימה המצגת?
+        options: [טוב מאוד, רע מאוד, היא בוטלה]
+        correct: 0
+        lexemes: [at-first, in-the-end, nervous]
+      - id: u22-l4-10
+        type: dialogue_gap
+        lines:
+          - { speaker: "rachel", text: "I lost my passport at the airport!", translation: "איבדתי את הדרכון שלי בשדה התעופה!" }
+          - { speaker: "ben", text: "No way! What did you do?", translation: "לא יכול להיות! מה עשית?" }
+          - { speaker: "rachel", text: "Luckily, a woman found it and gave it to the police.", translation: "למזלי, אישה מצאה אותו ומסרה אותו למשטרה." }
+        gap: 2
+        distractors: ["Unfortunately, a woman found it and gave it to the police.", "Luckily, a woman was finding it and gave."]
+        lexemes: [lost, found, luckily]
+      - id: u22-l4-11
+        type: dictation
+        text: "What were you doing when it happened?"
+        lexemes: [was-ing, happen]
+      - id: u22-l4-12
+        type: translate
+        direction: to_target
+        prompt: "בהתחלה הלכתי ברגל, ובסוף לקחתי מונית."
+        answers: ["At first I walked, and in the end I took a taxi.", "At first I walked and in the end I took a taxi.", "At first I went on foot, and in the end I took a taxi.", "At first I went on foot and in the end I took a taxi."]
+        lexemes: [at-first, in-the-end, took, taxi]
+      - id: u22-l4-13
+        type: speak_repeat
+        text: "It was dark and it was raining. Unfortunately, my phone was dead."
+        translation: "היה חושך וירד גשם. לצערי, הטלפון שלי היה כבוי."
+        lexemes: [was-ing, unfortunately]
+
+  # ------------------------------------------------------------------ 5
+  - id: u22-l5
+    kind: reading
+    title: { he: "סיפור קצר מהעיתון", en: "A short news story" }
+    exercises:
+      - id: u22-l5-01
+        type: reading
+        kind: "ידיעה קצרה באתר חדשות"
+        title: "Lost ring found after 20 years"
+        text: |
+          A woman from Manchester has found her wedding ring, twenty years after she lost it.
+
+          In 2005, Sarah Miller was working in her garden when she noticed that her ring was missing. She looked everywhere, but she couldn't find it. "I was so sad," she said. "My husband bought me a new one, but it wasn't the same."
+
+          Last Sunday, while her grandson was playing in the garden, he found something small and shiny under a tree. It was the ring!
+
+          "At first I didn't believe it," said Mrs. Miller. "Now I'm never going to take it off again."
+        translation: |
+          אישה ממנצ'סטר מצאה את טבעת הנישואים שלה, עשרים שנה אחרי שאיבדה אותה.
+
+          ב־2005, שרה מילר עבדה בגינה שלה כשהבחינה שהטבעת שלה חסרה. היא חיפשה בכל מקום, אבל לא הצליחה למצוא אותה. "הייתי כל כך עצובה," היא אמרה. "בעלי קנה לי חדשה, אבל זה לא היה אותו דבר."
+
+          ביום ראשון שעבר, בזמן שהנכד שלה שיחק בגינה, הוא מצא משהו קטן ונוצץ מתחת לעץ. זו הייתה הטבעת!
+
+          "בהתחלה לא האמנתי," אמרה גברת מילר. "עכשיו אני אף פעם לא אוריד אותה שוב."
+      - id: u22-l5-02
+        type: multiple_choice
+        prompt: "מה שרה עשתה כשהיא איבדה את הטבעת?"
+        options: [עבדה בגינה, בישלה, טיילה בפארק]
+        correct: 0
+        lexemes: [was-ing, lost]
+      - id: u22-l5-03
+        type: multiple_choice
+        prompt: "מי מצא את הטבעת?"
+        options: [הנכד שלה, בעלה, השכנה]
+        correct: 0
+        lexemes: [found]
+      - id: u22-l5-04
+        type: multiple_choice
+        prompt: "איפה הטבעת הייתה?"
+        options: [מתחת לעץ בגינה, בתוך הבית, ברחוב]
+        correct: 0
+        lexemes: [found]
+      - id: u22-l5-05
+        type: multiple_choice
+        prompt: "כמה זמן הטבעת הייתה אבודה?"
+        options: [עשרים שנה, שנתיים, עשר שנים]
+        correct: 0
+        lexemes: [lost]
+      - id: u22-l5-06
+        type: multiple_choice
+        prompt: "איך שרה הרגישה בהתחלה?"
+        options: [היא לא האמינה, היא כעסה, היא פחדה]
+        correct: 0
+        lexemes: [at-first]
+      - id: u22-l5-07
+        type: fill_blank
+        sentence: "___ her grandson was playing, he found something under a tree."
+        translation: "בזמן שהנכד שלה שיחק, הוא מצא משהו מתחת לעץ."
+        answers: [While]
+        options: [While, When, Since]
+        lexemes: [while, was-ing]
+      - id: u22-l5-08
+        type: fill_blank
+        sentence: "She was working in the garden ___ she noticed the ring was missing."
+        translation: "היא עבדה בגינה כשהבחינה שהטבעת חסרה."
+        answers: [when]
+        options: [when, while, for]
+        lexemes: [when, was-ing]
+      - id: u22-l5-09
+        type: word_bank
+        prompt: "היא חיפשה בכל מקום."
+        answers: ["She looked everywhere."]
+        distractors: [was, found]
+        lexemes: [past-ed]
+      - id: u22-l5-10
+        type: translate
+        direction: to_target
+        prompt: "בהתחלה לא האמנתי."
+        answers: ["At first I didn't believe it.", "At first I didn't believe it!", "At first, I didn't believe it.", "At first I did not believe it."]
+        lexemes: [at-first, didnt]
+      - id: u22-l5-11
+        type: speak_repeat
+        text: "While her grandson was playing in the garden, he found the ring."
+        translation: "בזמן שהנכד שלה שיחק בגינה, הוא מצא את הטבעת."
+        lexemes: [while, was-ing, found]
+
+  # ------------------------------------------------------------------ 6
+  - id: u22-review
+    kind: review
+    title: { he: "חזרה: מה קרה?", en: "Review: what happened?" }
+    exercises:
+      - id: u22-r-01
+        type: match_pairs
+        pairs:
+          - [unfortunately, לצערי]
+          - [at first, בהתחלה]
+          - [in the end, בסוף]
+          - [lost, איבדתי]
+          - [found, מצאתי]
+        lexemes: [unfortunately, at-first, in-the-end, lost, found]
+      - id: u22-r-02
+        type: fill_blank
+        sentence: "What ___ you doing at ten o'clock last night?"
+        translation: "מה עשית בעשר אתמול בלילה?"
+        answers: [were]
+        options: [were, did, was]
+        lexemes: [was-ing]
+      - id: u22-r-03
+        type: listening_choice
+        audioText: "While we were walking in the park, it suddenly started to snow."
+        question: מה קרה?
+        options: [פתאום התחיל לרדת שלג, הם הלכו הביתה, הם איבדו את הדרך]
+        correct: 0
+        lexemes: [while, suddenly, snow]
+      - id: u22-r-04
+        type: word_bank
+        prompt: "היא דיברה בטלפון כשהאוטובוס הגיע."
+        answers: ["She was talking on the phone when the bus arrived.", "She was talking on the phone when the bus came."]
+        distractors: [while, talked]
+        lexemes: [was-ing, when, bus]
+      - id: u22-r-05
+        type: dialogue_gap
+        lines:
+          - { speaker: "tamar", text: "I fell down the stairs this morning.", translation: "נפלתי במדרגות הבוקר." }
+          - { speaker: "noa", text: "Poor you! Are you OK?", translation: "מסכנה! את בסדר?" }
+        gap: 1
+        distractors: ["No way! Congratulations!", "Funny! Well done."]
+        lexemes: [poor-you, fell]
+      - id: u22-r-06
+        type: multiple_choice
+        prompt: "חבר מספר משהו מפתיע. מה אומרים?"
+        options: ["No way!", "Poor you!", "Welcome aboard!"]
+        correct: 0
+        lexemes: [no-way]
+      - id: u22-r-07
+        type: translate
+        direction: to_target
+        prompt: "שברתי את הטלפון שלי."
+        answers: ["I broke my phone."]
+        lexemes: [broke, phone]
+      - id: u22-r-08
+        type: translate
+        direction: to_source
+        prompt: "Luckily, nobody was hurt."
+        answers: ["למזלנו, אף אחד לא נפגע.", "למרבה המזל, אף אחד לא נפגע.", "למזלי, אף אחד לא נפגע.", "למזלם, אף אחד לא נפגע."]
+        lexemes: [luckily]
+      - id: u22-r-09
+        type: dictation
+        text: "It was raining when I left the house."
+        lexemes: [was-ing, when]
+      - id: u22-r-10
+        type: speak_repeat
+        text: "I was presenting the project when I dropped my coffee."
+        translation: "הצגתי את הפרויקט כשהפלתי את הקפה."
+        lexemes: [was-ing, project, dropped]

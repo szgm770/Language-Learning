@@ -31,7 +31,8 @@ export function PlacementRoute({ courseId }: { courseId: string }) {
       const all = flatLessons(data.units);
       const skipped = all.filter(({ unit, lesson }) => data.units.indexOf(unit) < unitIndex && lesson.kind !== "test");
       const ops: Op[] = skipped.map(({ lesson }) => ({ ...base(), kind: "lesson_result", courseId, lessonId: lesson.id, score: 1, completed: true }));
-      if (skipped.length) ops.push({ ...base(), kind: "enroll", courseId, position: skipped.length });
+      const startAt = all.findIndex(({ unit }) => data.units.indexOf(unit) >= unitIndex);
+      if (skipped.length && startAt > 0) ops.push({ ...base(), kind: "enroll", courseId, position: startAt });
       if (ops.length) await record(ops);
     },
     [data, courseId],

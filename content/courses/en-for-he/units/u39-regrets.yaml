@@ -1,0 +1,458 @@
+id: u39-regrets
+cefr: B2
+scene: family
+title:
+  he: משאלות וחרטות
+  en: Wishes and regrets
+story: "נועה מתגעגעת הביתה. בשיחה ארוכה עם אמה, רחל, היא מדברת על מה שהייתה רוצה שיהיה אחרת, על דברים שהיא מצטערת עליהם, ועל מה שבעצם חשוב לה."
+canDo:
+  - להביע משאלות על ההווה (I wish I had…)
+  - להביע חרטה על העבר (I wish I had done…, If only…)
+  - להתלונן בעדינות על דברים שמפריעים (I wish you would…)
+  - לדבר על רגשות כמו געגוע, חרטה וגאווה
+
+vocabulary:
+  - { id: "regret", text: "regret", translation: "חרטה; להצטער על", pos: "noun", pronunciation: "רִיגְרֶט" }
+  - { id: "homesick", text: "homesick", translation: "מתגעגע הביתה", pos: "adjective", pronunciation: "הוֹמְסִיק" }
+  - { id: "miss-someone", text: "miss someone", translation: "להתגעגע למישהו", pos: "phrase", pronunciation: "מִיס סאמוואן" }
+  - { id: "keep-in-touch", text: "keep in touch", translation: "לשמור על קשר", pos: "phrase", pronunciation: "קִיפּ אִין טאץ'" }
+  - { id: "grow-apart", text: "grow apart", translation: "להתרחק זה מזה", pos: "phrase", pronunciation: "גְרוֹ אַפַּארְט" }
+  - { id: "forgive", text: "forgive", translation: "לסלוח", pos: "verb", pronunciation: "פֶרְגִ'יב" }
+  - { id: "realise", text: "realise", translation: "להבין, לשים לב", pos: "verb", pronunciation: "רִיאָלַייז" }
+  - { id: "second-chance", text: "second chance", translation: "הזדמנות שנייה", pos: "noun", pronunciation: "סֶקֶנְד צ'ַאנְס" }
+  - { id: "make-the-most-of", text: "make the most of", translation: "לנצל עד תום", pos: "phrase", pronunciation: "מֵייק דֶ'ה מוֹסְט אוֹב" }
+  - { id: "look-back", text: "look back", translation: "להסתכל אחורה", pos: "phrase", pronunciation: "לוּק בַּאק" }
+  - { id: "lesson", text: "lesson", translation: "לקח; שיעור", pos: "noun", pronunciation: "לֶסֶן" }
+  - { id: "proud", text: "proud", translation: "גאה", pos: "adjective", pronunciation: "פְּרַאוּד" }
+  - { id: "i-wish-past", text: "I wish + past simple", translation: "הלוואי ש… (על ההווה)", pos: "phrase", pronunciation: "אַיי וִויש", example: { text: "I wish I lived closer to my family.", translation: "הלוואי שהייתי גרה קרוב יותר למשפחה שלי." } }
+  - { id: "i-wish-perfect", text: "I wish + had + V3", translation: "הלוואי ש… (על העבר)", pos: "phrase", pronunciation: "אַיי וִויש הֶד", example: { text: "I wish I had called her more often.", translation: "הלוואי שהייתי מתקשרת אליה לעתים קרובות יותר." } }
+  - { id: "i-wish-would", text: "I wish + would", translation: "הלוואי שתפסיק/תשתנה", pos: "phrase", pronunciation: "אַיי וִויש וּוּד" }
+  - { id: "if-only", text: "If only…", translation: "הלוואי, אילו רק…", pos: "phrase", pronunciation: "אִיף אוֹנְלִי", example: { text: "If only I had more time!", translation: "הלוואי שהיה לי יותר זמן!" } }
+  - { id: "too-late", text: "too late", translation: "מאוחר מדי", pos: "phrase", pronunciation: "טוּ לֵייט" }
+
+grammar:
+  - id: wish-if-only
+    title: { he: "הלוואי ש… (I wish / If only)", en: "I wish and If only" }
+    explanation: |
+      **I wish** ו-**If only** מביעים רצון ש**המציאות תהיה אחרת**. הזמן בעברית הוא "הלוואי ש…", אבל באנגלית **מחזירים צעד אחורה בזמן**:
+
+      1. **הווה לא רצוי → I wish + past simple**
+         - **I wish I lived closer.** (בפועל אני לא גר קרוב)
+         - עם to be משתמשים גם ב-**were**: *I wish I were taller.*
+
+      2. **חרטה על העבר → I wish + had + V3**
+         - **I wish I had studied harder.** (לא למדתי מספיק)
+         - **If only I had known!**
+
+      3. **תלונה על מישהו/משהו שמפריע → I wish + would**
+         - **I wish you would stop interrupting.** (תפסיק כבר)
+         - לא אומרים *I wish I would*, כי לא מתלוננים על עצמנו.
+
+      **If only** חזק ורגשי יותר: *If only I had more time!*
+    examples:
+      - { text: "I wish I had more free time.", translation: "הלוואי שהיה לי יותר זמן פנוי." }
+      - { text: "I wish I hadn't said that.", translation: "הלוואי שלא הייתי אומר את זה." }
+      - { text: "If only he would listen!", translation: "הלוואי שהוא היה מקשיב!" }
+
+lessons:
+  # ------------------------------------------------------------------ 1
+  - id: u39-l1
+    kind: new
+    title: { he: "געגועים הביתה", en: "Missing home" }
+    exercises:
+      - id: u39-l1-01
+        type: dialogue
+        scene: "שיחת וידאו של נועה עם אמה, רחל, ביום חמישי בערב."
+        lines:
+          - { speaker: "rachel", text: "You look tired, Noa. Are you all right?", translation: "את נראית עייפה, נועה. הכול בסדר?" }
+          - { speaker: "noa", text: "I'm fine, Mum. Just a bit homesick. I miss you all so much.", translation: "אני בסדר, אמא. רק קצת מתגעגעת הביתה. אני מתגעגעת אליכם כל כך." }
+          - { speaker: "rachel", text: "We miss you too. Dad is cooking for Shabbat tomorrow, and he keeps asking about you.", translation: "גם אנחנו מתגעגעים. אבא מבשל לשבת מחר, והוא כל הזמן שואל עלייך." }
+          - { speaker: "noa", text: "I wish I lived closer. It's hard to keep in touch from so far away.", translation: "הלוואי שהייתי גרה קרוב יותר. קשה לשמור על קשר ממרחק כזה." }
+          - { speaker: "rachel", text: "We talk every week. That's what matters.", translation: "אנחנו מדברים כל שבוע. זה מה שחשוב." }
+      - { id: "u39-l1-02", type: "learn", lexeme: "homesick" }
+      - { id: "u39-l1-03", type: "learn", lexeme: "miss-someone" }
+      - { id: "u39-l1-04", type: "learn", lexeme: "keep-in-touch" }
+      - { id: "u39-l1-05", type: "learn", lexeme: "grow-apart" }
+      - { id: "u39-l1-06", type: "learn", lexeme: "regret" }
+      - { id: "u39-l1-07", type: "learn", lexeme: "proud" }
+      - id: u39-l1-08
+        type: match_pairs
+        pairs:
+          - [homesick, מתגעגע הביתה]
+          - [miss someone, להתגעגע למישהו]
+          - [keep in touch, לשמור על קשר]
+          - [grow apart, להתרחק]
+          - [proud, גאה]
+        lexemes: [homesick, miss-someone, keep-in-touch, grow-apart, proud]
+      - id: u39-l1-09
+        type: multiple_choice
+        prompt: "איך נועה מרגישה?"
+        options: [מתגעגעת הביתה, כועסת, שמחה מאוד]
+        correct: 0
+        lexemes: [homesick]
+      - id: u39-l1-10
+        type: multiple_choice
+        prompt: "מה רחל אומרת שחשוב?"
+        options: [שהן מדברות כל שבוע, שנועה תחזור מיד, שנועה תקבל קידום]
+        correct: 0
+        lexemes: [keep-in-touch]
+      - id: u39-l1-11
+        type: listening_choice
+        audioText: "I really miss my family."
+        question: מה היא אומרת?
+        options: [היא מתגעגעת למשפחה, היא מבקרת את המשפחה, היא לא אוהבת משפחה]
+        correct: 0
+        lexemes: [miss-someone]
+      - id: u39-l1-12
+        type: word_bank
+        prompt: "אני גאה בך."
+        answers: ["I'm proud of you.", "I am proud of you."]
+        distractors: [at, pride]
+        lexemes: [proud]
+      - id: u39-l1-13
+        type: speak_repeat
+        text: "It's hard to keep in touch from so far away."
+        translation: "קשה לשמור על קשר ממרחק כזה."
+        lexemes: [keep-in-touch]
+
+  # ------------------------------------------------------------------ 2
+  - id: u39-l2
+    kind: new
+    title: { he: "מה שלמדנו", en: "What we learned" }
+    exercises:
+      - { id: "u39-l2-01", type: "learn", lexeme: "look-back" }
+      - { id: "u39-l2-02", type: "learn", lexeme: "lesson" }
+      - { id: "u39-l2-03", type: "learn", lexeme: "realise" }
+      - { id: "u39-l2-04", type: "learn", lexeme: "forgive" }
+      - { id: "u39-l2-05", type: "learn", lexeme: "second-chance" }
+      - { id: "u39-l2-06", type: "learn", lexeme: "make-the-most-of" }
+      - id: u39-l2-07
+        type: dialogue
+        scene: "המשך השיחה. רחל מספרת על הצעירות שלה."
+        lines:
+          - { speaker: "rachel", text: "When I look back, I realise I was too strict with your brother.", translation: "כשאני מסתכלת אחורה, אני מבינה שהייתי נוקשה מדי עם אחיך." }
+          - { speaker: "noa", text: "He has forgiven you, Mum. He even told me.", translation: "הוא סלח לך, אמא. הוא אפילו אמר לי." }
+          - { speaker: "rachel", text: "Life gives us second chances, and we have to make the most of them.", translation: "החיים נותנים לנו הזדמנויות שניות, וצריך לנצל אותן עד תום." }
+          - { speaker: "noa", text: "That's the biggest lesson I've learned in London.", translation: "זה הלקח הכי גדול שלמדתי בלונדון." }
+      - id: u39-l2-08
+        type: match_pairs
+        pairs:
+          - [look back, להסתכל אחורה]
+          - [lesson, לקח]
+          - [realise, להבין]
+          - [forgive, לסלוח]
+          - [second chance, הזדמנות שנייה]
+        lexemes: [look-back, lesson, realise, forgive, second-chance]
+      - id: u39-l2-09
+        type: multiple_choice
+        prompt: "מה רחל מבינה כשהיא מסתכלת אחורה?"
+        options: [שהייתה נוקשה מדי עם אחיה של נועה, שהיא גרה רחוק, שהיא עבדה יותר מדי]
+        correct: 0
+        lexemes: [look-back, realise]
+      - id: u39-l2-10
+        type: multiple_choice
+        prompt: "מה רחל אומרת על הזדמנויות שניות?"
+        options: [צריך לנצל אותן, אין כאלה, הן מסוכנות]
+        correct: 0
+        lexemes: [second-chance, make-the-most-of]
+      - id: u39-l2-11
+        type: dialogue_gap
+        lines:
+          - { speaker: "noa", text: "Have you forgiven him?", translation: "סלחת לו?" }
+          - { speaker: "rachel", text: "Of course. Family is more important than being right.", translation: "בוודאי. משפחה חשובה יותר מלהיות צודק." }
+        gap: 1
+        distractors: ["Of course. Family is more important than to be right.", "Of course. Family is most important then being right."]
+        lexemes: [forgive, of-course]
+      - id: u39-l2-12
+        type: translate
+        direction: to_target
+        prompt: "למדתי לקח חשוב."
+        answers: ["I learned an important lesson.", "I've learned an important lesson.", "I learnt an important lesson.", "I have learned an important lesson."]
+        lexemes: [lesson]
+      - id: u39-l2-13
+        type: translate
+        direction: to_source
+        prompt: "Everyone deserves a second chance."
+        answers: ["כל אחד ראוי להזדמנות שנייה.", "כולם ראויים להזדמנות שנייה.", "כל אחד מגיעה לו הזדמנות שנייה."]
+        lexemes: [second-chance, deserve]
+      - id: u39-l2-14
+        type: speak_repeat
+        text: "Life gives us second chances, and we have to make the most of them."
+        translation: "החיים נותנים לנו הזדמנויות שניות, וצריך לנצל אותן עד תום."
+        lexemes: [second-chance, make-the-most-of]
+
+  # ------------------------------------------------------------------ 3
+  - id: u39-l3
+    kind: grammar
+    grammar: wish-if-only
+    title: { he: "הלוואי ש…", en: "I wish…" }
+    exercises:
+      - { id: "u39-l3-01", type: "learn", lexeme: "i-wish-past" }
+      - { id: "u39-l3-02", type: "learn", lexeme: "i-wish-perfect" }
+      - { id: "u39-l3-03", type: "learn", lexeme: "i-wish-would" }
+      - { id: "u39-l3-04", type: "learn", lexeme: "if-only" }
+      - { id: "u39-l3-05", type: "learn", lexeme: "too-late" }
+      - id: u39-l3-06
+        type: fill_blank
+        sentence: "I wish I ___ more free time. (have)"
+        translation: "הלוואי שהיה לי יותר זמן פנוי."
+        answers: [had]
+        options: [had, have, would have]
+        lexemes: [i-wish-past]
+      - id: u39-l3-07
+        type: fill_blank
+        sentence: "I wish I ___ called her yesterday."
+        translation: "הלוואי שהייתי מתקשרת אליה אתמול."
+        answers: [had]
+        options: [had, would, have]
+        lexemes: [i-wish-perfect]
+      - id: u39-l3-08
+        type: fill_blank
+        sentence: "I wish you ___ stop interrupting me."
+        translation: "הלוואי שתפסיק כבר להפריע לי."
+        answers: [would]
+        options: [would, will, did]
+        lexemes: [i-wish-would]
+      - id: u39-l3-09
+        type: multiple_choice
+        prompt: "מה פירוש: I wish I hadn't said that?"
+        options: ["אני מצטער שאמרתי את זה", "אני רוצה לומר את זה", "לא אמרתי את זה ואני שמח"]
+        correct: 0
+        lexemes: [i-wish-perfect]
+      - id: u39-l3-10
+        type: multiple_choice
+        prompt: "איזה משפט נכון?"
+        options: ["If only I had known!", "If only I knew yesterday!", "If only I would known!"]
+        correct: 0
+        lexemes: [if-only]
+      - id: u39-l3-11
+        type: dialogue_gap
+        lines:
+          - { speaker: "noa", text: "Do you regret leaving Israel?", translation: "את מצטערת שעזבת את ישראל?" }
+          - { speaker: "rachel", text: "I wish I had visited you more often, but it's never too late.", translation: "הלוואי שהייתי מבקרת אותך יותר, אבל אף פעם לא מאוחר מדי." }
+        gap: 1
+        distractors: ["I wish I visited you more often, but it's never too late.", "I wish I would have visit you more often, but it's never too late."]
+        lexemes: [i-wish-perfect, too-late]
+      - id: u39-l3-12
+        type: word_bank
+        prompt: "הלוואי שהייתי גר קרוב יותר."
+        answers: ["I wish I lived closer.", "I wish I lived nearer."]
+        distractors: [would, live]
+        lexemes: [i-wish-past]
+      - id: u39-l3-13
+        type: translate
+        direction: to_target
+        prompt: "הלוואי שהיה לי יותר זמן!"
+        answers: ["If only I had more time!", "I wish I had more time.", "I wish I had more time!"]
+        lexemes: [if-only, i-wish-past]
+      - id: u39-l3-14
+        type: translate
+        direction: to_source
+        prompt: "I wish I hadn't eaten so much."
+        answers: ["הלוואי שלא הייתי אוכל כל כך הרבה.", "הלוואי שלא אכלתי כל כך הרבה.", "הלוואי שלא הייתי אוכלת כל כך הרבה."]
+        lexemes: [i-wish-perfect]
+      - id: u39-l3-15
+        type: speak_repeat
+        text: "I wish I had called her more often."
+        translation: "הלוואי שהייתי מתקשרת אליה לעתים קרובות יותר."
+        lexemes: [i-wish-perfect]
+
+  # ------------------------------------------------------------------ 4
+  - id: u39-l4
+    kind: listening
+    title: { he: "אילו רק…", en: "If only…" }
+    exercises:
+      - id: u39-l4-01
+        type: dialogue
+        scene: "הפסקת צהריים במשרד. נועה מדברת עם תמר."
+        lines:
+          - { speaker: "tamar", text: "You seem quiet today. What's on your mind?", translation: "את שקטה היום. מה מטריד אותך?" }
+          - { speaker: "noa", text: "I've been thinking about my choices. I wish I had spent more time with my grandmother before she passed away.", translation: "חשבתי על הבחירות שלי. הלוואי שהייתי מבלה יותר זמן עם סבתא שלי לפני שנפטרה." }
+          - { speaker: "tamar", text: "I'm sorry. If only we could go back in time.", translation: "אני מצטערת. הלוואי שאפשר היה לחזור אחורה בזמן." }
+          - { speaker: "noa", text: "I know it's too late. But I'm trying to learn the lesson: call my family more often.", translation: "אני יודעת שמאוחר מדי. אבל אני מנסה ללמוד מהלקח: להתקשר למשפחה לעתים קרובות יותר." }
+          - { speaker: "tamar", text: "That's a lovely way to remember her.", translation: "זו דרך יפה להנציח אותה." }
+      - id: u39-l4-02
+        type: multiple_choice
+        prompt: "על מה נועה מצטערת?"
+        options: [שלא בילתה מספיק זמן עם סבתה, שעזבה את העבודה, שלא למדה מספיק]
+        correct: 0
+        lexemes: [regret, i-wish-perfect]
+      - id: u39-l4-03
+        type: multiple_choice
+        prompt: "איזה לקח נועה לומדת?"
+        options: [להתקשר למשפחה יותר, לעבוד פחות, לנסוע יותר]
+        correct: 0
+        lexemes: [lesson]
+      - id: u39-l4-04
+        type: listening_choice
+        audioText: "I wish I had listened to my mother."
+        question: מה הוא אומר?
+        options: [מצטער שלא הקשיב לאמו, מקשיב לאמו, לא רוצה להקשיב]
+        correct: 0
+        lexemes: [i-wish-perfect]
+      - id: u39-l4-05
+        type: listening_choice
+        audioText: "I wish he would stop talking so loudly."
+        question: מה היא רוצה?
+        options: [שהוא יפסיק לדבר בקול רם, שהוא ידבר יותר, שהוא ילך]
+        correct: 0
+        lexemes: [i-wish-would]
+      - id: u39-l4-06
+        type: dictation
+        text: "If only I had known!"
+        lexemes: [if-only]
+      - id: u39-l4-07
+        type: translate
+        direction: to_target
+        prompt: "אף פעם לא מאוחר מדי."
+        answers: ["It's never too late.", "It is never too late.", "It's not too late."]
+        lexemes: [too-late]
+      - id: u39-l4-08
+        type: speak_repeat
+        text: "I know it's too late, but I'm trying to learn the lesson."
+        translation: "אני יודעת שמאוחר מדי, אבל אני מנסה ללמוד מהלקח."
+        lexemes: [too-late, lesson]
+
+  # ------------------------------------------------------------------ 5
+  - id: u39-l5
+    kind: reading
+    title: { he: "מכתב לעצמי הצעיר", en: "A letter to my younger self" }
+    exercises:
+      - id: u39-l5-01
+        type: reading
+        kind: "מכתב"
+        title: "Dear younger me"
+        text: |
+          Dear younger me,
+
+          I know you are worried about everything. I wish I could tell you that it will all be fine, because it will. I wish you would relax more and trust yourself.
+
+          There are things I regret. I wish I had called my grandparents more often. I wish I hadn't spent so many evenings worrying about what other people thought. If only I had understood earlier that people care less than we imagine!
+
+          But I am also proud of you. You learned from your mistakes and you kept going. Make the most of every day, keep in touch with the people you love, and remember: it is never too late to start again.
+
+          With love,
+          Me
+        translation: |
+          לעצמי הצעיר,
+
+          אני יודעת שאת מודאגת מהכול. הלוואי שיכולתי לומר לך שהכול יהיה בסדר, כי זה יהיה. הלוואי שהיית נרגעת יותר ומאמינה בעצמך.
+
+          יש דברים שאני מצטערת עליהם. הלוואי שהייתי מתקשרת לסבא וסבתא לעתים קרובות יותר. הלוואי שלא הייתי מבלה כל כך הרבה ערבים בדאגה למה שאחרים חושבים. הלוואי שהבנתי מוקדם יותר שאנשים אכפתיים פחות ממה שאנחנו מדמיינים!
+
+          אבל אני גם גאה בך. למדת מהטעויות והמשכת הלאה. נצלי כל יום עד תום, שמרי על קשר עם האנשים שאת אוהבת, וזכרי: אף פעם לא מאוחר מדי להתחיל מחדש.
+
+          באהבה,
+          אני
+      - id: u39-l5-02
+        type: multiple_choice
+        prompt: "מה הכותבת מבקשת מעצמה הצעירה?"
+        options: [להירגע ולהאמין בעצמה, לעבוד יותר, לנסוע]
+        correct: 0
+        lexemes: [i-wish-would]
+      - id: u39-l5-03
+        type: multiple_choice
+        prompt: "על מה היא מצטערת?"
+        options: [שלא התקשרה לסבא וסבתא ושדאגה מדי, שעזבה את הבית, שלא למדה]
+        correct: 0
+        lexemes: [regret, i-wish-perfect]
+      - id: u39-l5-04
+        type: multiple_choice
+        prompt: "מה המסר האחרון של המכתב?"
+        options: [אף פעם לא מאוחר מדי להתחיל מחדש, כדאי להתחרט, צריך לעבוד קשה]
+        correct: 0
+        lexemes: [too-late]
+      - id: u39-l5-05
+        type: fill_blank
+        sentence: "I wish I ___ called my grandparents more often."
+        translation: "הלוואי שהייתי מתקשרת לסבא וסבתא יותר."
+        answers: [had]
+        options: [had, would, have]
+        lexemes: [i-wish-perfect]
+      - id: u39-l5-06
+        type: fill_blank
+        sentence: "I wish you ___ relax more."
+        translation: "הלוואי שהיית נרגעת יותר."
+        answers: [would]
+        options: [would, will, had]
+        lexemes: [i-wish-would]
+      - id: u39-l5-07
+        type: translate
+        direction: to_target
+        prompt: "אני גאה בך."
+        answers: ["I'm proud of you.", "I am proud of you."]
+        lexemes: [proud]
+      - id: u39-l5-08
+        type: speak_repeat
+        text: "It is never too late to start again."
+        translation: "אף פעם לא מאוחר מדי להתחיל מחדש."
+        lexemes: [too-late]
+
+  # ------------------------------------------------------------------ 6
+  - id: u39-review
+    kind: review
+    title: { he: "חזרה: משאלות וחרטות", en: "Review: wishes and regrets" }
+    exercises:
+      - id: u39-r-01
+        type: match_pairs
+        pairs:
+          - [regret, חרטה]
+          - [forgive, לסלוח]
+          - [homesick, מתגעגע הביתה]
+          - [second chance, הזדמנות שנייה]
+          - [lesson, לקח]
+        lexemes: [regret, forgive, homesick, second-chance, lesson]
+      - id: u39-r-02
+        type: fill_blank
+        sentence: "I wish I ___ taller. (be)"
+        translation: "הלוואי שהייתי גבוה יותר."
+        answers: [were]
+        options: [were, would be, had been]
+        lexemes: [i-wish-past]
+      - id: u39-r-03
+        type: fill_blank
+        sentence: "If only I ___ studied harder at school!"
+        translation: "הלוואי שהייתי לומד יותר קשה בבית הספר!"
+        answers: [had]
+        options: [had, have, would]
+        lexemes: [if-only]
+      - id: u39-r-04
+        type: listening_choice
+        audioText: "I wish I hadn't said that."
+        question: מה הוא מרגיש?
+        options: [חרטה על מה שאמר, גאווה, שמחה]
+        correct: 0
+        lexemes: [i-wish-perfect]
+      - id: u39-r-05
+        type: multiple_choice
+        prompt: "איזה משפט נכון?"
+        options: ["I wish you would listen to me.", "I wish I would listen to you.", "I wish you will listen to me."]
+        correct: 0
+        lexemes: [i-wish-would]
+      - id: u39-r-06
+        type: word_bank
+        prompt: "הלוואי שהייתי יודע."
+        answers: ["I wish I had known.", "If only I had known."]
+        distractors: [knew, would]
+        lexemes: [i-wish-perfect, known]
+      - id: u39-r-07
+        type: translate
+        direction: to_target
+        prompt: "אני מתגעגעת למשפחה שלי."
+        answers: ["I miss my family.", "I'm missing my family."]
+        lexemes: [miss-someone]
+      - id: u39-r-08
+        type: translate
+        direction: to_source
+        prompt: "It's important to keep in touch with friends."
+        answers: ["חשוב לשמור על קשר עם חברים.", "חשוב לשמור על קשר עם חברות."]
+        lexemes: [keep-in-touch]
+      - id: u39-r-09
+        type: dictation
+        text: "It is never too late to start again."
+        lexemes: [too-late]
+      - id: u39-r-10
+        type: speak_repeat
+        text: "I wish I had more time, but I'll make the most of it."
+        translation: "הלוואי שהיה לי יותר זמן, אבל אנצל אותו עד תום."
+        lexemes: [i-wish-past, make-the-most-of]

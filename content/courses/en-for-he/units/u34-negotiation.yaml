@@ -1,0 +1,483 @@
+id: u34-negotiation
+cefr: B2
+scene: money
+title:
+  he: משא ומתן
+  en: Negotiation
+story: "הבנק רוצה להמשיך לעבוד עם הצוות, אבל בתקציב קטן יותר. נועה ובן מנהלים משא ומתן קשה, מתפשרים, ובערב מדברים על מה היה קורה אילו…"
+canDo:
+  - לנהל משא ומתן בשפה דיפלומטית ומנומסת
+  - להציע הצעה נגדית ולהגיע לפשרה
+  - להשתמש במשפט תנאי שלישי (If I had…, I would have…)
+  - לדבר על החלטות בעבר ועל תוצאות אחרות
+
+vocabulary:
+  - { id: "negotiate", text: "negotiate", translation: "לנהל משא ומתן", pos: "verb", pronunciation: "נֶגוֹשִׁיאֵייט" }
+  - { id: "contract", text: "contract", translation: "חוזה", pos: "noun", pronunciation: "קוֹנְטְרֶקְט" }
+  - { id: "deal", text: "deal", translation: "עסקה", pos: "noun", pronunciation: "דִיל", example: { text: "It's a deal!", translation: "עשינו עסקה!" } }
+  - { id: "proposal", text: "proposal", translation: "הצעה (רשמית)", pos: "noun", pronunciation: "פְּרוֹפּוֹזֶל" }
+  - { id: "budget", text: "budget", translation: "תקציב", pos: "noun", pronunciation: "בַּאג'ֶט" }
+  - { id: "discount", text: "discount", translation: "הנחה", pos: "noun", pronunciation: "דִיסְקַאוּנְט" }
+  - { id: "terms", text: "terms", translation: "תנאים (של הסכם)", pos: "noun", pronunciation: "טֶרְמְז" }
+  - { id: "compromise", text: "compromise", translation: "פשרה; להתפשר", pos: "noun", pronunciation: "קוֹמְפְּרוֹמַייז" }
+  - { id: "meet-halfway", text: "meet halfway", translation: "להיפגש באמצע, להתפשר", pos: "phrase", pronunciation: "מִיט הַאפְוֵויי" }
+  - { id: "flexible", text: "flexible", translation: "גמיש", pos: "adjective", pronunciation: "פְלֶקְסִיבֶּל" }
+  - { id: "sign", text: "sign", translation: "לחתום", pos: "verb", pronunciation: "סַיין" }
+  - { id: "reject", text: "reject", translation: "לדחות (הצעה), לסרב", pos: "verb", pronunciation: "רִיג'ֶקְט" }
+  - { id: "i-was-wondering", text: "I was wondering if…", translation: "תהיתי אם… (בקשה מנומסת מאוד)", pos: "phrase", pronunciation: "אַיי ווֹז וַואנְדֶרִינְג אִיף", example: { text: "I was wondering if you could lower the price.", translation: "תהיתי אם תוכלו להוריד את המחיר." } }
+  - { id: "im-not-sure", text: "I'm not sure that…", translation: "אני לא בטוח ש… (ריכוך של 'לא')", pos: "phrase", pronunciation: "אַיים נוֹט שׁוּר דֶ'ט" }
+  - { id: "would-it-be-possible", text: "Would it be possible to…?", translation: "האם יהיה אפשר ל…?", pos: "phrase", pronunciation: "ווּד אִיט בִּי פּוֹסִיבֶּל טוּ" }
+  - { id: "bottom-line", text: "bottom line", translation: "השורה התחתונה", pos: "noun", pronunciation: "בּוֹטוֹם לַיין" }
+  - { id: "would-have", text: "would have + V3", translation: "הייתי עושה (בעבר, ולא עשיתי)", pos: "phrase", pronunciation: "ווּד הֶב", example: { text: "I would have called you.", translation: "הייתי מתקשר אליך." } }
+  - { id: "if-had-done", text: "If I had…, I would have…", translation: "אילו הייתי… (בעבר), הייתי…", pos: "phrase", pronunciation: "אִיף אַיי הֶד … אַיי ווּד הֶב", example: { text: "If we had asked for more, we would have got more.", translation: "אילו ביקשנו יותר, היינו מקבלים יותר." } }
+  - { id: "win-win", text: "win-win", translation: "מצב שבו כולם מרוויחים", pos: "adjective", pronunciation: "וִוין וִוין" }
+  - { id: "walk-away", text: "walk away", translation: "לקום וללכת, לוותר על העסקה", pos: "verb", pronunciation: "ווֹק אַוֵויי" }
+
+grammar:
+  - id: third-conditional
+    title: { he: "אילו (אז)… הייתי…: תנאי בעבר", en: "The third conditional" }
+    explanation: |
+      **תנאי שלישי** מדבר על העבר שכבר לא אפשר לשנות: מה היה קורה אילו משהו היה אחרת.
+      בעברית: "אילו הייתי יודעת, הייתי מתקשרת".
+
+      המבנה: **If + had + V3, would have + V3**
+      - **If I had known, I would have called you.** (לא ידעתי, ולא התקשרתי)
+      - **If we hadn't been flexible, we would have lost the deal.**
+
+      בדיבור מקצרים: **If I'd known, I'd have called.** (ושימו לב, ‎'d פעם אחת = had, פעם אחת = would)
+
+      **שפה דיפלומטית** במשא ומתן מרככת את המסר:
+      - במקום "No": **I'm not sure that would work for us.**
+      - במקום "Lower the price": **I was wondering if you could be more flexible on the price.**
+      - **Would it be possible to…?**
+    examples:
+      - { text: "If we had asked for more, we would have got more.", translation: "אילו ביקשנו יותר, היינו מקבלים יותר." }
+      - { text: "She wouldn't have signed the contract if she had read the terms.", translation: "היא לא הייתה חותמת על החוזה אילו קראה את התנאים." }
+      - { text: "I was wondering if we could meet halfway.", translation: "תהיתי אם נוכל להיפגש באמצע." }
+
+lessons:
+  # ------------------------------------------------------------------ 1
+  - id: u34-l1
+    kind: new
+    title: { he: "התקציב קטן יותר", en: "A smaller budget" }
+    exercises:
+      - id: u34-l1-01
+        type: dialogue
+        scene: "פגישה עם מנהלת הרכש של הבנק (מרים בתפקיד הנציגה). נועה ובן מצד החברה."
+        lines:
+          - { speaker: "miriam", text: "We'd like to renew the contract for next year. However, our budget has been cut by twenty percent.", translation: "נרצה לחדש את החוזה לשנה הבאה. עם זאת, התקציב שלנו קוצץ בעשרים אחוז." }
+          - { speaker: "noa", text: "I see. I'm not sure that we can do the same work for less.", translation: "אני מבינה. אני לא בטוחה שנוכל לעשות את אותה עבודה בפחות." }
+          - { speaker: "miriam", text: "I understand. Could you send us a new proposal?", translation: "אני מבינה. תוכלו לשלוח לנו הצעה חדשה?" }
+          - { speaker: "ben", text: "Of course. Would it be possible to discuss the terms first?", translation: "בוודאי. האם יהיה אפשר לדון קודם בתנאים?" }
+          - { speaker: "miriam", text: "Yes. What's your bottom line?", translation: "כן. מה השורה התחתונה שלכם?" }
+          - { speaker: "noa", text: "We can be flexible on the price if the deadline is flexible too.", translation: "אנחנו יכולים להיות גמישים במחיר אם גם הדדליין יהיה גמיש." }
+      - { id: "u34-l1-02", type: "learn", lexeme: "contract" }
+      - { id: "u34-l1-03", type: "learn", lexeme: "budget" }
+      - { id: "u34-l1-04", type: "learn", lexeme: "im-not-sure" }
+      - { id: "u34-l1-05", type: "learn", lexeme: "proposal" }
+      - { id: "u34-l1-06", type: "learn", lexeme: "would-it-be-possible" }
+      - { id: "u34-l1-07", type: "learn", lexeme: "terms" }
+      - { id: "u34-l1-08", type: "learn", lexeme: "bottom-line" }
+      - { id: "u34-l1-09", type: "learn", lexeme: "flexible" }
+      - id: u34-l1-10
+        type: match_pairs
+        pairs:
+          - [contract, חוזה]
+          - [budget, תקציב]
+          - [proposal, הצעה]
+          - [terms, תנאים]
+          - [flexible, גמיש]
+        lexemes: [contract, budget, proposal, terms, flexible]
+      - id: u34-l1-11
+        type: multiple_choice
+        prompt: "מה הבעיה של הבנק?"
+        options: [התקציב קוצץ בעשרים אחוז, הם לא מרוצים מהעבודה, הם רוצים צוות חדש]
+        correct: 0
+        lexemes: [budget]
+      - id: u34-l1-12
+        type: multiple_choice
+        prompt: "מה נועה מציעה?"
+        options: [גמישות במחיר תמורת גמישות בדדליין, לעבוד בחינם, לבטל את החוזה]
+        correct: 0
+        lexemes: [flexible]
+      - id: u34-l1-13
+        type: listening_choice
+        audioText: "I'm not sure that this proposal would work for us."
+        question: מה היא אומרת בעדינות?
+        options: [ההצעה לא מתאימה להם, ההצעה מעולה, היא צריכה עוד זמן לקרוא]
+        correct: 0
+        lexemes: [im-not-sure, proposal]
+      - id: u34-l1-14
+        type: word_bank
+        prompt: "האם יהיה אפשר לדון בתנאים?"
+        answers: ["Would it be possible to discuss the terms?"]
+        distractors: [will, term]
+        lexemes: [would-it-be-possible, terms]
+      - id: u34-l1-15
+        type: speak_repeat
+        text: "We can be flexible on the price if the deadline is flexible too."
+        translation: "אנחנו יכולים להיות גמישים במחיר אם גם הדדליין יהיה גמיש."
+        lexemes: [flexible, deadline]
+
+  # ------------------------------------------------------------------ 2
+  - id: u34-l2
+    kind: new
+    title: { he: "להיפגש באמצע", en: "Meeting halfway" }
+    exercises:
+      - { id: "u34-l2-01", type: "learn", lexeme: "negotiate" }
+      - { id: "u34-l2-02", type: "learn", lexeme: "i-was-wondering" }
+      - { id: "u34-l2-03", type: "learn", lexeme: "discount" }
+      - { id: "u34-l2-04", type: "learn", lexeme: "compromise" }
+      - { id: "u34-l2-05", type: "learn", lexeme: "meet-halfway" }
+      - { id: "u34-l2-06", type: "learn", lexeme: "reject" }
+      - { id: "u34-l2-07", type: "learn", lexeme: "deal" }
+      - { id: "u34-l2-08", type: "learn", lexeme: "sign" }
+      - id: u34-l2-09
+        type: dialogue
+        scene: "הפגישה השנייה. ההצעה החדשה על השולחן."
+        lines:
+          - { speaker: "miriam", text: "Thank you for the proposal. I was wondering if you could offer a bigger discount.", translation: "תודה על ההצעה. תהיתי אם תוכלו להציע הנחה גדולה יותר." }
+          - { speaker: "noa", text: "I'm afraid fifteen percent is the most we can offer.", translation: "אני חוששת שחמישה־עשר אחוז זה המקסימום שאנחנו יכולים להציע." }
+          - { speaker: "miriam", text: "We were hoping for twenty-five.", translation: "קיווינו לעשרים וחמישה." }
+          - { speaker: "ben", text: "What if we meet halfway? Twenty percent, and the deadline moves to June.", translation: "מה אם ניפגש באמצע? עשרים אחוז, והדדליין זז ליוני." }
+          - { speaker: "miriam", text: "That sounds like a fair compromise. It's a deal.", translation: "זה נשמע כמו פשרה הוגנת. עשינו עסקה." }
+          - { speaker: "noa", text: "Great. We'll send the contract to sign tomorrow.", translation: "מעולה. נשלח את החוזה לחתימה מחר." }
+      - id: u34-l2-10
+        type: match_pairs
+        pairs:
+          - [negotiate, לנהל משא ומתן]
+          - [discount, הנחה]
+          - [compromise, פשרה]
+          - [deal, עסקה]
+          - [sign, לחתום]
+        lexemes: [negotiate, discount, compromise, deal, sign]
+      - id: u34-l2-11
+        type: multiple_choice
+        prompt: "איזו הנחה הסכימו בסוף?"
+        options: [עשרים אחוז, חמישה־עשר אחוז, עשרים וחמישה אחוז]
+        correct: 0
+        lexemes: [discount, meet-halfway]
+      - id: u34-l2-12
+        type: multiple_choice
+        prompt: "מה הצוות קיבל בתמורה?"
+        options: [הדדליין זז ליוני, תקציב גדול יותר, חוזה לשנתיים]
+        correct: 0
+        lexemes: [compromise]
+      - id: u34-l2-13
+        type: dialogue_gap
+        lines:
+          - { speaker: "miriam", text: "Twenty-five percent is our final offer.", translation: "עשרים וחמישה אחוז זו ההצעה הסופית שלנו." }
+          - { speaker: "ben", text: "I'm not sure that works for us. Could we meet halfway?", translation: "אני לא בטוח שזה מתאים לנו. נוכל להיפגש באמצע?" }
+        gap: 1
+        distractors: ["No. Give us halfway now.", "I'm not sure that works for us. Could we meet half?"]
+        lexemes: [im-not-sure, meet-halfway]
+      - id: u34-l2-14
+        type: translate
+        direction: to_target
+        prompt: "תהיתי אם תוכלו להיות גמישים יותר."
+        answers: ["I was wondering if you could be more flexible.", "I was wondering whether you could be more flexible."]
+        lexemes: [i-was-wondering, flexible]
+      - id: u34-l2-15
+        type: translate
+        direction: to_source
+        prompt: "They rejected our first proposal."
+        answers: ["הם דחו את ההצעה הראשונה שלנו.", "הם סירבו להצעה הראשונה שלנו."]
+        lexemes: [reject, proposal]
+      - id: u34-l2-16
+        type: speak_repeat
+        text: "What if we meet halfway? That sounds like a fair compromise."
+        translation: "מה אם ניפגש באמצע? זה נשמע כמו פשרה הוגנת."
+        lexemes: [meet-halfway, compromise]
+
+  # ------------------------------------------------------------------ 3
+  - id: u34-l3
+    kind: grammar
+    grammar: third-conditional
+    title: { he: "אילו הייתי יודעת…", en: "If I had known…" }
+    exercises:
+      - { id: "u34-l3-01", type: "learn", lexeme: "would-have" }
+      - { id: "u34-l3-02", type: "learn", lexeme: "if-had-done" }
+      - id: u34-l3-03
+        type: fill_blank
+        sentence: "If I had known, I ___ have called you."
+        translation: "אילו ידעתי, הייתי מתקשרת אליך."
+        answers: [would]
+        options: [would, will, had]
+        lexemes: [if-had-done, would-have]
+      - id: u34-l3-04
+        type: fill_blank
+        sentence: "If we had ___ for more, we would have got more. (ask)"
+        translation: "אילו ביקשנו יותר, היינו מקבלים יותר."
+        answers: [asked]
+        options: [asked, ask, would ask]
+        lexemes: [if-had-done]
+      - id: u34-l3-05
+        type: multiple_choice
+        prompt: "מה פירוש: If she had read the terms, she wouldn't have signed?"
+        options:
+          - "היא לא קראה, וחתמה"
+          - "היא קראה, ולא חתמה"
+          - היא תקרא ולא תחתום
+        correct: 0
+        lexemes: [if-had-done, terms, sign]
+      - id: u34-l3-06
+        type: multiple_choice
+        prompt: איזה משפט נכון?
+        options: ["If they hadn't been flexible, we would have walked away.", "If they wouldn't be flexible, we had walked away.", "If they weren't flexible, we would walk away yesterday."]
+        correct: 0
+        lexemes: [if-had-done, flexible]
+      - { id: "u34-l3-07", type: "learn", lexeme: "walk-away" }
+      - { id: "u34-l3-08", type: "learn", lexeme: "win-win" }
+      - id: u34-l3-09
+        type: dialogue_gap
+        lines:
+          - { speaker: "ben", text: "Why didn't you tell me about the meeting?", translation: "למה לא סיפרת לי על הפגישה?" }
+          - { speaker: "david", text: "Sorry! If I'd known it was important, I would have told you.", translation: "סליחה! אילו ידעתי שזה חשוב, הייתי מספר לך." }
+        gap: 1
+        distractors: ["Sorry! If I knew it was important, I would tell you yesterday.", "Sorry! If I would know it was important, I had told you."]
+        lexemes: [if-had-done, would-have]
+      - id: u34-l3-10
+        type: word_bank
+        prompt: "אילו קמתי מוקדם יותר, לא הייתי מפספס את הרכבת."
+        answers: ["If I had got up earlier, I wouldn't have missed the train.", "If I'd got up earlier, I wouldn't have missed the train.", "I wouldn't have missed the train if I had got up earlier."]
+        distractors: [will, miss]
+        lexemes: [if-had-done, miss]
+      - id: u34-l3-11
+        type: translate
+        direction: to_target
+        prompt: "אילו ידעתי, הייתי עוזרת לך."
+        answers: ["If I had known, I would have helped you.", "If I'd known, I would have helped you.", "If I'd known, I'd have helped you."]
+        lexemes: [if-had-done, help]
+      - id: u34-l3-12
+        type: translate
+        direction: to_source
+        prompt: "It was a win-win deal for both sides."
+        answers: ["זו הייתה עסקה שבה שני הצדדים הרוויחו.", "זו הייתה עסקה טובה לשני הצדדים.", "זו הייתה עסקת win-win לשני הצדדים."]
+        lexemes: [win-win, deal]
+      - id: u34-l3-13
+        type: speak_repeat
+        text: "If we hadn't been flexible, we would have lost the deal."
+        translation: "אילו לא היינו גמישים, היינו מפסידים את העסקה."
+        lexemes: [if-had-done, flexible, deal]
+
+  # ------------------------------------------------------------------ 4
+  - id: u34-l4
+    kind: listening
+    title: { he: "מה היה קורה אילו…", en: "What would have happened if…" }
+    exercises:
+      - id: u34-l4-01
+        type: dialogue
+        scene: "ערב אחרי החתימה. נועה ובן חוגגים בבית קפה."
+        lines:
+          - { speaker: "ben", text: "Well done! We did it. Twenty percent and a new deadline. It's a win-win.", translation: "כל הכבוד! עשינו את זה. עשרים אחוז ודדליין חדש. כולם מרוויחים." }
+          - { speaker: "noa", text: "To be honest, I almost walked away when they asked for twenty-five.", translation: "בכנות, כמעט קמתי והלכתי כשהם ביקשו עשרים וחמישה." }
+          - { speaker: "ben", text: "I know. I saw your face! If you'd said no, we would have lost the client.", translation: "אני יודע. ראיתי את הפנים שלך! אילו אמרת לא, היינו מפסידים את הלקוח." }
+          - { speaker: "noa", text: "And if you hadn't suggested meeting halfway, we'd still be negotiating.", translation: "ואילו לא היית מציע להיפגש באמצע, עדיין היינו מנהלים משא ומתן." }
+          - { speaker: "ben", text: "We make a good team.", translation: "אנחנו צוות טוב." }
+          - { speaker: "noa", text: "We do. You know, if you hadn't been in that video call three years ago, I'd never have come to London.", translation: "נכון. אתה יודע, אילו לא היית בשיחת הווידאו ההיא לפני שלוש שנים, לעולם לא הייתי מגיעה ללונדון." }
+      - id: u34-l4-02
+        type: multiple_choice
+        prompt: "מתי נועה כמעט ויתרה?"
+        options: [כשהבנק ביקש עשרים וחמישה אחוז, כשהם חתמו, בפגישה הראשונה]
+        correct: 0
+        lexemes: [walk-away]
+      - id: u34-l4-03
+        type: multiple_choice
+        prompt: "לפי בן, מה היה קורה אילו נועה אמרה לא?"
+        options: [היו מפסידים את הלקוח, היו מקבלים יותר, היו צריכים להיפגש שוב]
+        correct: 0
+        lexemes: [if-had-done]
+      - id: u34-l4-04
+        type: multiple_choice
+        prompt: "מה נועה אומרת בסוף?"
+        options: [בלי בן היא לא הייתה מגיעה ללונדון, היא רוצה לחזור לתל אביב, היא רוצה קידום]
+        correct: 0
+        lexemes: [would-have]
+      - id: u34-l4-05
+        type: listening_choice
+        audioText: "If we had signed last month, we would have got a better price."
+        question: מה הוא אומר?
+        options:
+          - "אילו חתמו בחודש שעבר, המחיר היה טוב יותר"
+          - הם חתמו בחודש שעבר
+          - הם יחתמו בחודש הבא
+        correct: 0
+        lexemes: [if-had-done, sign]
+      - id: u34-l4-06
+        type: dialogue_gap
+        lines:
+          - { speaker: "tamar", text: "How did the negotiation go?", translation: "איך הלך המשא ומתן?" }
+          - { speaker: "noa", text: "Well! We reached a compromise, and both sides are happy.", translation: "טוב! הגענו לפשרה, ושני הצדדים מרוצים." }
+        gap: 1
+        distractors: ["Well! We reached a compromise, and both sides would have happy.", "Well! We compromised a deal, and both sides rejected."]
+        lexemes: [negotiate, compromise]
+      - id: u34-l4-07
+        type: dictation
+        text: "If I had known, I would have called you."
+        lexemes: [if-had-done]
+      - id: u34-l4-08
+        type: translate
+        direction: to_target
+        prompt: "עשינו עסקה."
+        answers: ["It's a deal.", "It's a deal!", "We have a deal.", "We made a deal.", "We've got a deal."]
+        lexemes: [deal]
+      - id: u34-l4-09
+        type: speak_repeat
+        text: "If you hadn't suggested meeting halfway, we'd still be negotiating."
+        translation: "אילו לא היית מציע להיפגש באמצע, עדיין היינו מנהלים משא ומתן."
+        lexemes: [if-had-done, meet-halfway, negotiate]
+
+  # ------------------------------------------------------------------ 5
+  - id: u34-l5
+    kind: reading
+    title: { he: "חמישה כללים למשא ומתן", en: "Five rules of negotiation" }
+    exercises:
+      - id: u34-l5-01
+        type: reading
+        kind: "פרק מספר עסקים"
+        title: "The art of the friendly negotiation"
+        text: |
+          Many people think negotiation is a battle. The best negotiators disagree: their goal is a deal that both sides would sign again tomorrow.
+
+          First, know your bottom line before you start. If you don't know when to walk away, you'll accept a bad deal.
+
+          Second, listen more than you talk. Ask questions like "What's most important to you?" You'll often discover that the other side cares about something you can easily give.
+
+          Third, use diplomatic language. "I'm not sure that would work" keeps the conversation open, whereas a simple "No" closes it.
+
+          Finally, think about the long term. Many managers have told me the same story: "If we had pushed harder, we would have won that deal, but we would have lost the client."
+        translation: |
+          אנשים רבים חושבים שמשא ומתן הוא קרב. המשא ומתנים הטובים ביותר לא מסכימים: המטרה שלהם היא עסקה ששני הצדדים היו חותמים עליה שוב מחר.
+
+          ראשית, דעו מה השורה התחתונה שלכם לפני שאתם מתחילים. אם אתם לא יודעים מתי לקום וללכת, תקבלו עסקה גרועה.
+
+          שנית, הקשיבו יותר משאתם מדברים. שאלו שאלות כמו "מה הכי חשוב לכם?" לעתים קרובות תגלו שלצד השני אכפת ממשהו שאתם יכולים לתת בקלות.
+
+          שלישית, השתמשו בשפה דיפלומטית. "אני לא בטוח שזה יעבוד" משאיר את השיחה פתוחה, בעוד ש"לא" פשוט סוגר אותה.
+
+          לבסוף, חשבו לטווח הארוך. הרבה מנהלים סיפרו לי את אותו סיפור: "אילו לחצנו יותר, היינו מנצחים בעסקה ההיא, אבל היינו מפסידים את הלקוח."
+      - id: u34-l5-02
+        type: multiple_choice
+        prompt: "מה המטרה של משא ומתן טוב לפי הכותב?"
+        options: [עסקה ששני הצדדים היו חותמים עליה שוב, לנצח בכל מחיר, לסיים מהר]
+        correct: 0
+        lexemes: [deal, sign]
+      - id: u34-l5-03
+        type: multiple_choice
+        prompt: "למה צריך לדעת את השורה התחתונה?"
+        options: [כדי לדעת מתי לקום וללכת, כדי לבקש יותר, כדי לסיים מהר]
+        correct: 0
+        lexemes: [bottom-line, walk-away]
+      - id: u34-l5-04
+        type: multiple_choice
+        prompt: "מה היתרון של שפה דיפלומטית?"
+        options: [היא משאירה את השיחה פתוחה, היא קצרה יותר, היא מראה כוח]
+        correct: 0
+        lexemes: [im-not-sure]
+      - id: u34-l5-05
+        type: multiple_choice
+        prompt: "מה המסר של הסיפור של המנהלים?"
+        options: [לחץ חזק מדי יכול לעלות בלקוח, תמיד צריך ללחוץ יותר, לקוחות לא חשובים]
+        correct: 0
+        lexemes: [if-had-done]
+      - id: u34-l5-06
+        type: fill_blank
+        sentence: "If you don't know when to walk ___, you'll accept a bad deal."
+        translation: "אם אתם לא יודעים מתי לקום וללכת, תקבלו עסקה גרועה."
+        answers: [away]
+        options: [away, out, off]
+        lexemes: [walk-away]
+      - id: u34-l5-07
+        type: fill_blank
+        sentence: "If we had pushed harder, we would ___ won that deal."
+        translation: "אילו לחצנו יותר, היינו מנצחים בעסקה ההיא."
+        answers: [have]
+        options: [have, had, has]
+        lexemes: [would-have]
+      - id: u34-l5-08
+        type: word_bank
+        prompt: "הקשיבו יותר משאתם מדברים."
+        answers: ["Listen more than you talk."]
+        distractors: [then, most]
+        lexemes: [than]
+      - id: u34-l5-09
+        type: translate
+        direction: to_target
+        prompt: "מה הכי חשוב לכם?"
+        answers: ["What's most important to you?", "What is most important to you?", "What's the most important thing for you?", "What is the most important thing for you?"]
+        lexemes: [the-most]
+      - id: u34-l5-10
+        type: speak_repeat
+        text: "Know your bottom line before you start."
+        translation: "דעו מה השורה התחתונה שלכם לפני שאתם מתחילים."
+        lexemes: [bottom-line]
+
+  # ------------------------------------------------------------------ 6
+  - id: u34-review
+    kind: review
+    title: { he: "חזרה: משא ומתן", en: "Review: negotiation" }
+    exercises:
+      - id: u34-r-01
+        type: match_pairs
+        pairs:
+          - [walk away, לקום וללכת]
+          - [meet halfway, להיפגש באמצע]
+          - [bottom line, השורה התחתונה]
+          - [reject, לדחות]
+          - [win-win, כולם מרוויחים]
+        lexemes: [walk-away, meet-halfway, bottom-line, reject, win-win]
+      - id: u34-r-02
+        type: fill_blank
+        sentence: "If she ___ read the contract, she wouldn't have signed it."
+        translation: "אילו קראה את החוזה, היא לא הייתה חותמת עליו."
+        answers: [had]
+        options: [had, has, would]
+        lexemes: [if-had-done, contract, sign]
+      - id: u34-r-03
+        type: listening_choice
+        audioText: "I was wondering if it would be possible to get a small discount."
+        question: מה הוא מבקש?
+        options: [הנחה קטנה, חוזה חדש, דדליין מאוחר יותר]
+        correct: 0
+        lexemes: [i-was-wondering, discount]
+      - id: u34-r-04
+        type: word_bank
+        prompt: "הם דחו את ההצעה שלנו."
+        answers: ["They rejected our proposal.", "They rejected our offer."]
+        distractors: [refused, proposed]
+        lexemes: [reject, proposal]
+      - id: u34-r-05
+        type: dialogue_gap
+        lines:
+          - { speaker: "miriam", text: "Can you deliver everything by March?", translation: "אתם יכולים לספק הכול עד מרץ?" }
+          - { speaker: "noa", text: "I'm not sure that's possible. Would it be possible to extend the deadline?", translation: "אני לא בטוחה שזה אפשרי. האם יהיה אפשר להאריך את הדדליין?" }
+        gap: 1
+        distractors: ["No. Extend the deadline.", "I'm not sure that's possible. Would it possible extend the deadline?"]
+        lexemes: [im-not-sure, would-it-be-possible, deadline]
+      - id: u34-r-06
+        type: multiple_choice
+        prompt: "מה הכי דיפלומטי?"
+        options: ["I'm not sure that would work for us.", "No way.", "That's a terrible idea."]
+        correct: 0
+        lexemes: [im-not-sure]
+      - id: u34-r-07
+        type: translate
+        direction: to_target
+        prompt: "התקציב שלנו קוצץ."
+        answers: ["Our budget has been cut.", "Our budget was cut."]
+        lexemes: [budget, being-done]
+      - id: u34-r-08
+        type: translate
+        direction: to_source
+        prompt: "We can be flexible on the price."
+        answers: ["אנחנו יכולים להיות גמישים במחיר.", "אנחנו יכולות להיות גמישות במחיר.", "אפשר להיות גמישים במחיר."]
+        lexemes: [flexible]
+      - id: u34-r-09
+        type: dictation
+        text: "That sounds like a fair compromise."
+        lexemes: [compromise]
+      - id: u34-r-10
+        type: speak_repeat
+        text: "If we had pushed harder, we would have lost the client."
+        translation: "אילו לחצנו יותר, היינו מפסידים את הלקוח."
+        lexemes: [if-had-done, would-have]

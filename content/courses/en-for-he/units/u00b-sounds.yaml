@@ -1,0 +1,335 @@
+id: u00b-sounds
+cefr: A0
+scene: study
+title:
+  he: הצלילים של האנגלית
+  en: The sounds of English
+story: "באנגלית יש צלילים שאין בעברית, ולהפך. כאן לומדים לשמוע ולהגות את אלה שמבלבלים הכי הרבה דוברי עברית."
+canDo:
+  - להגות את ה־th באנגלית (think, this)
+  - להבדיל בין w ל־v ובין r ל־l
+  - להבדיל בין תנועות קצרות לארוכות (ship / sheep)
+  - להבדיל בין sh, ch ו־j
+
+vocabulary:
+  - { id: "s-th-soft", text: "th (think)", translation: "ת' רפה: הלשון בין השיניים והאוויר יוצא בלי קול", pos: "noun", pronunciation: "ת'", example: { text: "think, three, thank you", translation: "לחשוב, שלוש, תודה" } }
+  - { id: "s-th-voiced", text: "th (this)", translation: "ד' רפה: אותו מקום בפה, אבל עם קול", pos: "noun", pronunciation: "ד'", example: { text: "this, that, the", translation: "זה, ההוא, ה־" } }
+  - { id: "s-w", text: "w", translation: "ו' מעוגלת: השפתיים מתעגלות כמו ב־u", pos: "noun", pronunciation: "וו", example: { text: "water, week, window", translation: "מים, שבוע, חלון" } }
+  - { id: "s-v", text: "v", translation: "ו' רגילה: שפה תחתונה נוגעת בשיניים העליונות", pos: "noun", pronunciation: "ו", example: { text: "very, visit, five", translation: "מאוד, לבקר, חמש" } }
+  - { id: "s-r", text: "r", translation: "ר' אנגלית: הלשון לא נוגעת בחך ולא מרטיטים", pos: "noun", pronunciation: "ר", example: { text: "red, right, run", translation: "אדום, ימין, לרוץ" } }
+  - { id: "s-sh", text: "sh", translation: "ש' כמו בעברית", pos: "noun", pronunciation: "ש", example: { text: "ship, shop, fish", translation: "ספינה, חנות, דג" } }
+  - { id: "s-ch", text: "ch", translation: "צ'", pos: "noun", pronunciation: "צ'", example: { text: "chair, cheese, teacher", translation: "כיסא, גבינה, מורה" } }
+  - { id: "s-j", text: "j", translation: "ג'", pos: "noun", pronunciation: "ג'", example: { text: "job, juice, jacket", translation: "עבודה, מיץ, ז'קט" } }
+  - { id: "s-long-ee", text: "ee / ea", translation: "אי ארוכה (שפתיים רחבות, הצליל מתמשך)", pos: "noun", pronunciation: "אִי", example: { text: "sheep, tea, see", translation: "כבשה, תה, לראות" } }
+  - { id: "s-short-i", text: "i", translation: "אִ קצרה וחלשה", pos: "noun", pronunciation: "אִ", example: { text: "ship, sit, big", translation: "ספינה, לשבת, גדול" } }
+  - { id: "s-short-a", text: "a (cat)", translation: "אֶ פתוחה: הפה נפתח לרווחה", pos: "noun", pronunciation: "אֶ", example: { text: "cat, hat, bag", translation: "חתול, כובע, תיק" } }
+  - { id: "s-short-u", text: "u (cup)", translation: "אַ קצרה וקרובה לעברית 'אַ'", pos: "noun", pronunciation: "אַ", example: { text: "cup, bus, sun", translation: "כוס, אוטובוס, שמש" } }
+  - { id: "s-silent-e", text: "silent e", translation: "e בסוף מילה לא נשמעת, אבל מארכת את התנועה שלפניה", pos: "noun", pronunciation: "-", example: { text: "name, like, home", translation: "שם, אוהב, בית" } }
+
+lessons:
+  - id: u00b-l1
+    kind: new
+    title: { he: "ה־th", en: "The th sound" }
+    exercises:
+      - id: u00b-l1-01
+        type: tip
+        title: הצליל הכי מפורסם באנגלית
+        text: |
+          ה־**th** לא קיים בעברית. מניחים את **קצה הלשון בין השיניים** ונושפים.
+          יש שני סוגים: בלי קול כמו ב־**think**, ועם קול (הגרון רוטט) כמו ב־**this**.
+          מי שאומר "סינק" או "דיס" יובן, אבל כדאי להתאמן.
+      - { id: "u00b-l1-02", type: "learn", lexeme: "s-th-soft" }
+      - { id: "u00b-l1-03", type: "learn", lexeme: "s-th-voiced" }
+      - id: u00b-l1-04
+        type: listening_choice
+        audioText: "think"
+        question: איזו מילה שמעתם?
+        options: [think, sink, tink]
+        correct: 0
+        lexemes: [s-th-soft]
+      - id: u00b-l1-05
+        type: listening_choice
+        audioText: "three"
+        question: איזו מילה שמעתם?
+        options: [three, tree, free]
+        correct: 0
+        lexemes: [s-th-soft]
+      - id: u00b-l1-06
+        type: listening_choice
+        audioText: "thank you"
+        question: איזו מילה שמעתם?
+        options: [thank you, sank you, tank you]
+        correct: 0
+        lexemes: [s-th-soft]
+      - id: u00b-l1-07
+        type: listening_choice
+        audioText: "this"
+        question: איזו מילה שמעתם?
+        options: [this, dis, zis]
+        correct: 0
+        lexemes: [s-th-voiced]
+      - id: u00b-l1-08
+        type: multiple_choice
+        prompt: "איזו מילה מתחילה בצליל th רפה (בלי קול)?"
+        options: [thumb, this, that]
+        correct: 0
+        lexemes: [s-th-soft, s-th-voiced]
+      - id: u00b-l1-09
+        type: multiple_choice
+        prompt: "איזו מילה מתחילה בצליל th עם קול?"
+        options: [that, thin, thank]
+        correct: 0
+        lexemes: [s-th-soft, s-th-voiced]
+      - id: u00b-l1-10
+        type: dictation
+        text: "thank you"
+        lexemes: [s-th-soft]
+      - id: u00b-l1-11
+        type: speak_repeat
+        text: "Thank you. This is three."
+        translation: "תודה. זה שלוש."
+        lexemes: [s-th-soft, s-th-voiced]
+
+  - id: u00b-l2
+    kind: new
+    title: { he: "W, V ו־R", en: "W, V and R" }
+    exercises:
+      - { id: "u00b-l2-01", type: "learn", lexeme: "s-w" }
+      - { id: "u00b-l2-02", type: "learn", lexeme: "s-v" }
+      - { id: "u00b-l2-03", type: "learn", lexeme: "s-r" }
+      - id: u00b-l2-04
+        type: listening_choice
+        audioText: "west"
+        question: איזו מילה שמעתם?
+        options: [west, vest, rest]
+        correct: 0
+        lexemes: [s-w]
+      - id: u00b-l2-05
+        type: listening_choice
+        audioText: "very"
+        question: איזו מילה שמעתם?
+        options: [very, berry, wary]
+        correct: 0
+        lexemes: [s-v]
+      - id: u00b-l2-06
+        type: listening_choice
+        audioText: "right"
+        question: איזו מילה שמעתם?
+        options: [right, light, night]
+        correct: 0
+        lexemes: [s-r]
+      - id: u00b-l2-07
+        type: listening_choice
+        audioText: "wet"
+        question: איזו מילה שמעתם?
+        options: [wet, vet, get]
+        correct: 0
+        lexemes: [s-w]
+      - id: u00b-l2-08
+        type: multiple_choice
+        prompt: "איזו מילה מתחילה בצליל w (שפתיים מעוגלות)?"
+        options: [water, very, visit]
+        correct: 0
+        lexemes: [s-w, s-v]
+      - id: u00b-l2-09
+        type: multiple_choice
+        prompt: "איזו מילה מתחילה בצליל v (שפה תחתונה על השיניים)?"
+        options: [visit, week, window]
+        correct: 0
+        lexemes: [s-w, s-v]
+      - id: u00b-l2-10
+        type: dictation
+        text: "very red"
+        lexemes: [s-v, s-r]
+      - id: u00b-l2-11
+        type: speak_repeat
+        text: "Where is the red van?"
+        translation: "איפה הטנדר האדום?"
+        lexemes: [s-w, s-r, s-v]
+
+  - id: u00b-l3
+    kind: new
+    title: { he: "תנועות קצרות וארוכות", en: "Short and long vowels" }
+    exercises:
+      - id: u00b-l3-01
+        type: tip
+        title: ship או sheep?
+        text: |
+          בעברית "שִׁיר" ו"שִׁר" נשמעות כמעט אותו דבר, אבל באנגלית אורך התנועה **משנה את המילה**.
+          **ship** (ספינה) עם אִ קצרה וחלשה, **sheep** (כבשה) עם אִי ארוכה ומתוחה.
+          כך גם: sit / seat, live / leave, bit / beat.
+      - { id: "u00b-l3-02", type: "learn", lexeme: "s-long-ee" }
+      - { id: "u00b-l3-03", type: "learn", lexeme: "s-short-i" }
+      - { id: "u00b-l3-04", type: "learn", lexeme: "s-short-a" }
+      - { id: "u00b-l3-05", type: "learn", lexeme: "s-short-u" }
+      - id: u00b-l3-06
+        type: listening_choice
+        audioText: "ship"
+        question: איזו מילה שמעתם?
+        options: [ship, sheep, shop]
+        correct: 0
+        lexemes: [s-short-i, s-long-ee]
+      - id: u00b-l3-07
+        type: listening_choice
+        audioText: "seat"
+        question: איזו מילה שמעתם?
+        options: [seat, sit, set]
+        correct: 0
+        lexemes: [s-long-ee]
+      - id: u00b-l3-08
+        type: listening_choice
+        audioText: "cat"
+        question: איזו מילה שמעתם?
+        options: [cat, cut, cot]
+        correct: 0
+        lexemes: [s-short-a]
+      - id: u00b-l3-09
+        type: listening_choice
+        audioText: "bus"
+        question: איזו מילה שמעתם?
+        options: [bus, bass, boss]
+        correct: 0
+        lexemes: [s-short-u]
+      - id: u00b-l3-10
+        type: multiple_choice
+        prompt: "איזו מילה מתחילה באִי ארוכה?"
+        options: [eat, it, if]
+        correct: 0
+        lexemes: [s-long-ee, s-short-i]
+      - id: u00b-l3-11
+        type: dictation
+        text: "sheep"
+        lexemes: [s-long-ee]
+      - id: u00b-l3-12
+        type: speak_repeat
+        text: "The ship is big. The sheep is small."
+        translation: "הספינה גדולה. הכבשה קטנה."
+        lexemes: [s-short-i, s-long-ee]
+
+  - id: u00b-l4
+    kind: new
+    title: { he: "SH, CH, J ו־e שותקת", en: "SH, CH, J and the silent e" }
+    exercises:
+      - { id: "u00b-l4-01", type: "learn", lexeme: "s-sh" }
+      - { id: "u00b-l4-02", type: "learn", lexeme: "s-ch" }
+      - { id: "u00b-l4-03", type: "learn", lexeme: "s-j" }
+      - { id: "u00b-l4-04", type: "learn", lexeme: "s-silent-e" }
+      - id: u00b-l4-05
+        type: listening_choice
+        audioText: "ship"
+        question: איזו מילה שמעתם?
+        options: [ship, chip, sip]
+        correct: 0
+        lexemes: [s-sh]
+      - id: u00b-l4-06
+        type: listening_choice
+        audioText: "cheese"
+        question: איזו מילה שמעתם?
+        options: [cheese, jeez, seize]
+        correct: 0
+        lexemes: [s-ch]
+      - id: u00b-l4-07
+        type: listening_choice
+        audioText: "juice"
+        question: איזו מילה שמעתם?
+        options: [juice, choose, shoes]
+        correct: 0
+        lexemes: [s-j]
+      - id: u00b-l4-08
+        type: listening_choice
+        audioText: "like"
+        question: איזו מילה שמעתם?
+        options: [like, lick, lack]
+        correct: 0
+        lexemes: [s-silent-e]
+      - id: u00b-l4-09
+        type: match_pairs
+        pairs:
+          - [sh, ש]
+          - [ch, צ']
+          - [j, ג']
+          - [th, ת' / ד']
+          - [w, וו]
+        lexemes: [s-sh, s-ch, s-j, s-th-soft, s-w]
+      - id: u00b-l4-10
+        type: multiple_choice
+        prompt: "איזו מילה נקראת עם e שותקת?"
+        options: [name, red, pen]
+        correct: 0
+        lexemes: [s-silent-e]
+      - id: u00b-l4-11
+        type: dictation
+        text: "juice"
+        lexemes: [s-j]
+      - id: u00b-l4-12
+        type: speak_repeat
+        text: "Cheese, juice and fish, please."
+        translation: "גבינה, מיץ ודג, בבקשה."
+        lexemes: [s-ch, s-j, s-sh]
+
+  - id: u00b-review
+    kind: review
+    title: { he: "חזרה: הצלילים", en: "Review: sounds" }
+    exercises:
+      - id: u00b-r-01
+        type: listening_choice
+        audioText: "thin"
+        question: איזו מילה שמעתם?
+        options: [thin, tin, sin]
+        correct: 0
+        lexemes: [s-th-soft]
+      - id: u00b-r-02
+        type: listening_choice
+        audioText: "van"
+        question: איזו מילה שמעתם?
+        options: [van, one, ban]
+        correct: 0
+        lexemes: [s-v]
+      - id: u00b-r-03
+        type: listening_choice
+        audioText: "leave"
+        question: איזו מילה שמעתם?
+        options: [leave, live, love]
+        correct: 0
+        lexemes: [s-long-ee]
+      - id: u00b-r-04
+        type: listening_choice
+        audioText: "chair"
+        question: איזו מילה שמעתם?
+        options: [chair, share, hair]
+        correct: 0
+        lexemes: [s-ch]
+      - id: u00b-r-05
+        type: multiple_choice
+        prompt: "איזה צליל יש ב־think?"
+        options: [th בלי קול, th עם קול, s]
+        correct: 0
+        lexemes: [s-th-soft]
+      - id: u00b-r-06
+        type: multiple_choice
+        prompt: "איזו מילה מתחילה בג'?"
+        options: [job, shop, chop]
+        correct: 0
+        lexemes: [s-j]
+      - id: u00b-r-07
+        type: match_pairs
+        pairs:
+          - [ship, ספינה]
+          - [sheep, כבשה]
+          - [cat, חתול]
+          - [bus, אוטובוס]
+          - [name, שם]
+        lexemes: [s-short-i, s-long-ee, s-short-a, s-short-u, s-silent-e]
+      - id: u00b-r-08
+        type: dictation
+        text: "three"
+        lexemes: [s-th-soft]
+      - id: u00b-r-09
+        type: dictation
+        text: "water"
+        lexemes: [s-w]
+      - id: u00b-r-10
+        type: speak_repeat
+        text: "This is the ship. That is the sheep."
+        translation: "זו הספינה. ההיא הכבשה."
+        lexemes: [s-th-voiced, s-short-i, s-long-ee]

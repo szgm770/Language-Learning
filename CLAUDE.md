@@ -5,7 +5,7 @@ https://claude.ai/artifact/GFqUqL1TGLJecV2RuqKfsj
 
 ## Layout
 - `content/courses/<course>/` – course content as YAML (written with AI, reviewed by people). Never put lesson content in code.
-  English A1 follows `docs/curriculum/en-a1.md` (units, lesson pattern, characters Noa/Ben/Rachel/Eli/Miriam/Mr. Cohen).
+  English runs A0 → B2 (43 units). A0 (letters, sounds, first words) follows `docs/curriculum/en-a0.md`; A1 follows `docs/curriculum/en-a1.md` (units, lesson pattern, characters Noa/Ben/Rachel/Eli/Miriam/Mr. Cohen); A2–B2 follow `docs/curriculum/en-a2-b2.md`.
   Lesson steps: `learn` (introduce a word), `dialogue`, `dialogue_gap`, `tip` (ungraded) plus the graded exercise types.
   The build fails if a word is practised before a learn card introduces it.
   Quote YAML values that contain commas (`scripts/quote-yaml-flow.py <file>` fixes one-line `{ … }` maps).
@@ -14,12 +14,21 @@ https://claude.ai/artifact/GFqUqL1TGLJecV2RuqKfsj
 - `packages/sync` – learner state built from ops (merge rules, streak). No cloud sync today, but the rules **must stay idempotent and order-independent** so it can be added later; the property tests in `sync.test.ts` enforce it.
 - `apps/web` – Next.js 16 app exported as a **static site** (`output: "export"`) for GitHub Pages under `PAGES_BASE_PATH`. No server, no API routes, no database: all learner data is in IndexedDB. Use `withBase()` for any URL not made by next/link. Dynamic routes need `generateStaticParams` (see `lib/static-params.ts`). Read `node_modules/next/dist/docs/` before using Next APIs: `params`, `cookies()` and `headers()` are async; middleware is now `proxy.ts`.
 
+## Content must suit Torah-observant Jewish learners
+All content (any course) is for shomer Torah u'mitzvot users. When writing or reviewing YAML:
+- Nothing happens on Shabbat or yom tov (no travel, shopping, work, sport, cooking, concerts, parties). Put weekend activities on Friday morning or Sunday. A Friday-night dinner with family is fine and welcome.
+- Food is kosher: no pork, shellfish, or meat with dairy in the same meal. Restaurants are kosher.
+- No alcohol-centred scenes (pub, bar, "cheers"); wine only for Kiddush. No Christmas, Easter, Halloween, Valentine's Day.
+- Modest, non-romantic content: no dating, boyfriend/girlfriend, kissing, mixed dancing, mixed pair outings (use groups, family, colleagues). Husband/wife and engagement are fine.
+- Run `pnpm check` and grep for `Saturday|pub|wine|date|dance` after writing a unit.
+
 ## Rules that protect learner data
 1. Every change is recorded as an op in IndexedDB; state is rebuilt from ops.
 2. Card state is recomputed from the review log, never stored as truth.
 3. Any new op kind needs: a Zod schema in `ops.ts`, a merge rule in `state.ts`, and a case in the property-test generator.
 4. iOS Safari evicts site data after 7 days without a visit unless installed to the home screen (`InstallHint`).
-5. A Firebase-based sync existed on the `firebase` branch (PR #2, closed) if cloud backup is ever wanted.
+5. Moving to another device needs no server: Settings → "מעבר למכשיר אחר" shows a QR of a short position code (`lingo1.<course>.<next lesson id>[.<passed tests>]`, see `lib/transfer.ts`), scans it with the camera (BarcodeDetector or jsQR), accepts it typed, lets the learner pick a place by hand, and imports the JSON export. Applying a code only marks lessons done (same as placement); it never undoes progress. Level tests never block the next lesson.
+6. A Firebase-based sync existed on the `firebase` branch (PR #2, closed) if cloud backup is ever wanted.
 
 ## Commands
 - `pnpm check` – types, tests, content validation

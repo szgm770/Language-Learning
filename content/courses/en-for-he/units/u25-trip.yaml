@@ -1,0 +1,484 @@
+id: u25-trip
+cefr: B1
+scene: travel
+title:
+  he: מתכננים נסיעה
+  en: Planning a trip
+story: "בן והצוות טסים לתל אביב לשבוע עבודה, ומשם כולם ממשיכים לחתונה של מרים ודוד במדריד. הזמנות, שינויים, ביטולים, ומה עושים כשהטיסה מתעכבת."
+canDo:
+  - להזמין מלון וכרטיסים ולשנות הזמנה
+  - לדבר על תוכניות קבועות עם הווה מתמשך
+  - לבחור בין will, going to והווה מתמשך לעתיד
+  - להבין מסלול טיול ופרטי הזמנה
+
+vocabulary:
+  - { id: "book", text: "book", translation: "להזמין (מקום, כרטיס)", pos: "verb", pronunciation: "בּוּק", example: { text: "I've booked a hotel.", translation: "הזמנתי מלון." } }
+  - { id: "booking", text: "booking", translation: "הזמנה (של מקום)", pos: "noun", pronunciation: "בּוּקִינְג" }
+  - { id: "accommodation", text: "accommodation", translation: "לינה, מקום מגורים", pos: "noun", pronunciation: "אַקוֹמוֹדֵיישְׁן" }
+  - { id: "itinerary", text: "itinerary", translation: "מסלול, לוח זמנים לנסיעה", pos: "noun", pronunciation: "אַייטִינֶרֶרִי" }
+  - { id: "luggage", text: "luggage", translation: "מטען, מזוודות", pos: "noun", pronunciation: "לַאגִיג'" }
+  - { id: "departure", text: "departure", translation: "המראה, יציאה", pos: "noun", pronunciation: "דִיפַּארְצ'ֶר" }
+  - { id: "arrival", text: "arrival", translation: "נחיתה, הגעה", pos: "noun", pronunciation: "אָרַייבֶל" }
+  - { id: "cancel", text: "cancel", translation: "לבטל", pos: "verb", pronunciation: "קֶנְסֶל" }
+  - { id: "postpone", text: "postpone", translation: "לדחות (למועד מאוחר)", pos: "verb", pronunciation: "פּוֹסְטְפּוֹן" }
+  - { id: "check-in", text: "check in", translation: "לעשות צ'ק־אין", pos: "verb", pronunciation: "צ'ֶק אִין" }
+  - { id: "check-out", text: "check out", translation: "לעשות צ'ק־אאוט", pos: "verb", pronunciation: "צ'ֶק אַאוּט" }
+  - { id: "pick-up", text: "pick up", translation: "לאסוף (מישהו)", pos: "verb", pronunciation: "פִּיק אַפּ", example: { text: "I'll pick you up at the airport.", translation: "אני אאסוף אותך משדה התעופה." } }
+  - { id: "sightseeing", text: "sightseeing", translation: "סיור באתרים", pos: "noun", pronunciation: "סַייטְסִיאִינְג" }
+  - { id: "guided-tour", text: "guided tour", translation: "סיור מודרך", pos: "noun", pronunciation: "גַייִדִיד טוּר" }
+  - { id: "abroad", text: "abroad", translation: "בחו\"ל", pos: "adverb", pronunciation: "אַבְּרוֹד" }
+  - { id: "on-business", text: "on business", translation: "בנסיעת עבודה", pos: "phrase", pronunciation: "אוֹן בִּיזְנֶס" }
+  - { id: "continuous-future", text: "I'm meeting… (future)", translation: "הווה מתמשך לתוכנית קבועה", pos: "phrase", pronunciation: "אַיים מִיטִינְג", example: { text: "I'm flying to Tel Aviv on Monday.", translation: "אני טס לתל אביב ביום שני." } }
+  - { id: "confirm", text: "confirm", translation: "לאשר", pos: "verb", pronunciation: "קוֹנְפֶרְם" }
+  - { id: "available", text: "available", translation: "פנוי, זמין", pos: "adjective", pronunciation: "אָבֵיילַבֶּל" }
+  - { id: "fully-booked", text: "fully booked", translation: "מלא, אין מקום", pos: "phrase", pronunciation: "פוּלִי בּוּקְט" }
+
+grammar:
+  - id: future-forms
+    title: { he: "שלוש דרכים לעתיד", en: "Will, going to and present continuous" }
+    explanation: |
+      בעברית יש עתיד אחד: "אטוס", "אפגוש". באנגלית בוחרים לפי סוג התוכנית:
+
+      - **הווה מתמשך**: סידור **קבוע** עם תאריך, שעה, כרטיס או פגישה ביומן.
+        **I'm flying to Tel Aviv on Monday.** (יש לי כרטיס) **We're meeting the client at ten.**
+      - **going to**: כוונה, תוכנית שהחלטתי עליה, עוד בלי פרטים סגורים.
+        **I'm going to visit Jerusalem one day.**
+      - **will**: החלטה ברגע הדיבור, הצעה, הבטחה או ניחוש.
+        **The flight is late? I'll call the hotel.** / **I think you'll love Madrid.**
+
+      טיפ: אם אפשר לכתוב את זה ביומן, כנראה שזה הווה מתמשך.
+    examples:
+      - { text: "Tamar is picking us up at the airport at eight.", translation: "תמר אוספת אותנו משדה התעופה בשמונה." }
+      - { text: "We're going to do some sightseeing if we have time.", translation: "אנחנו מתכוונים לעשות קצת סיורים אם יהיה לנו זמן." }
+      - { text: "It's fully booked? OK, I'll try another hotel.", translation: "מלא? בסדר, אנסה מלון אחר." }
+
+lessons:
+  # ------------------------------------------------------------------ 1
+  - id: u25-l1
+    kind: new
+    title: { he: "מזמינים מלון", en: "Booking a hotel" }
+    exercises:
+      - id: u25-l1-01
+        type: dialogue
+        scene: "בן מתקשר למלון בתל אביב."
+        lines:
+          - { speaker: "ben", text: "Hello, I'd like to book two rooms for five nights, from the 3rd of June.", translation: "שלום, הייתי רוצה להזמין שני חדרים לחמישה לילות, מה־3 ביוני." }
+          - { speaker: "cohen", text: "Let me check… I'm afraid we're fully booked on the 3rd.", translation: "רגע אבדוק… אני חושש שאנחנו מלאים ב־3." }
+          - { speaker: "ben", text: "Oh. Do you have anything available from the 4th?", translation: "אה. יש לכם משהו פנוי מה־4?" }
+          - { speaker: "cohen", text: "Yes, two rooms are available from the 4th. Breakfast is included.", translation: "כן, שני חדרים פנויים מה־4. ארוחת בוקר כלולה." }
+          - { speaker: "ben", text: "Great. Can you confirm the booking by email?", translation: "מעולה. אפשר לאשר את ההזמנה במייל?" }
+          - { speaker: "cohen", text: "Of course. You can check in from two o'clock.", translation: "בוודאי. אפשר לעשות צ'ק־אין משתיים." }
+      - { id: "u25-l1-02", type: "learn", lexeme: "book" }
+      - { id: "u25-l1-03", type: "learn", lexeme: "booking" }
+      - { id: "u25-l1-04", type: "learn", lexeme: "fully-booked" }
+      - { id: "u25-l1-05", type: "learn", lexeme: "available" }
+      - { id: "u25-l1-06", type: "learn", lexeme: "confirm" }
+      - { id: "u25-l1-07", type: "learn", lexeme: "check-in" }
+      - { id: "u25-l1-08", type: "learn", lexeme: "check-out" }
+      - { id: "u25-l1-09", type: "learn", lexeme: "accommodation" }
+      - id: u25-l1-10
+        type: match_pairs
+        pairs:
+          - [book, להזמין]
+          - [available, פנוי]
+          - [confirm, לאשר]
+          - [fully booked, מלא]
+          - [accommodation, לינה]
+        lexemes: [book, available, confirm, fully-booked, accommodation]
+      - id: u25-l1-11
+        type: multiple_choice
+        prompt: "למה בן לא יכול להזמין מה־3 ביוני?"
+        options: [המלון מלא, המלון סגור, זה יקר מדי]
+        correct: 0
+        lexemes: [fully-booked]
+      - id: u25-l1-12
+        type: multiple_choice
+        prompt: "מאיזו שעה אפשר לעשות צ'ק־אין?"
+        options: [משתיים, משתים־עשרה, מארבע]
+        correct: 0
+        lexemes: [check-in]
+      - id: u25-l1-13
+        type: listening_choice
+        audioText: "Check out is at eleven, and you can leave your luggage at reception."
+        question: מתי הצ'ק־אאוט?
+        options: [באחת־עשרה, בשתיים, בעשר]
+        correct: 0
+        lexemes: [check-out]
+      - id: u25-l1-14
+        type: word_bank
+        prompt: "יש לכם חדר פנוי הלילה?"
+        answers: ["Do you have a room available tonight?", "Do you have any rooms available tonight?"]
+        distractors: [booked, has]
+        lexemes: [available, room]
+      - id: u25-l1-15
+        type: speak_repeat
+        text: "I'd like to book two rooms for five nights."
+        translation: "הייתי רוצה להזמין שני חדרים לחמישה לילות."
+        lexemes: [book, room, night]
+
+  # ------------------------------------------------------------------ 2
+  - id: u25-l2
+    kind: new
+    title: { he: "המסלול", en: "The itinerary" }
+    exercises:
+      - { id: "u25-l2-01", type: "learn", lexeme: "itinerary" }
+      - { id: "u25-l2-02", type: "learn", lexeme: "departure" }
+      - { id: "u25-l2-03", type: "learn", lexeme: "arrival" }
+      - { id: "u25-l2-04", type: "learn", lexeme: "luggage" }
+      - { id: "u25-l2-05", type: "learn", lexeme: "pick-up" }
+      - { id: "u25-l2-06", type: "learn", lexeme: "on-business" }
+      - { id: "u25-l2-07", type: "learn", lexeme: "abroad" }
+      - id: u25-l2-08
+        type: dialogue
+        scene: "נועה עוברת עם בן ודוד על המסלול."
+        lines:
+          - { speaker: "noa", text: "OK, here's the itinerary. Departure from Heathrow is on Sunday at 10:30.", translation: "בסדר, הנה המסלול. ההמראה מהית'רו ביום ראשון ב־10:30." }
+          - { speaker: "noa", text: "Arrival in Tel Aviv is at 17:15, and Tamar is picking us up.", translation: "הנחיתה בתל אביב ב־17:15, ותמר אוספת אותנו." }
+          - { speaker: "david", text: "Is this your first time in Israel on business, Ben?", translation: "זו הפעם הראשונה שלך בישראל בנסיעת עבודה, בן?" }
+          - { speaker: "ben", text: "Yes! I've been abroad a lot, but never to Israel.", translation: "כן! הייתי בחו\"ל הרבה, אבל אף פעם לא בישראל." }
+          - { speaker: "noa", text: "Bring light luggage. It's going to be hot!", translation: "תביאו מטען קל. הולך להיות חם!" }
+      - id: u25-l2-09
+        type: match_pairs
+        pairs:
+          - [itinerary, מסלול]
+          - [departure, המראה]
+          - [arrival, נחיתה]
+          - [luggage, מטען]
+          - [abroad, בחו"ל]
+        lexemes: [itinerary, departure, arrival, luggage, abroad]
+      - id: u25-l2-10
+        type: multiple_choice
+        prompt: "מי אוסף אותם משדה התעופה?"
+        options: [תמר, נועה, מר כהן]
+        correct: 0
+        lexemes: [pick-up]
+      - id: u25-l2-11
+        type: multiple_choice
+        prompt: "מתי הנחיתה בתל אביב?"
+        options: ["17:15", "10:30", "15:17"]
+        correct: 0
+        lexemes: [arrival]
+      - id: u25-l2-12
+        type: dialogue_gap
+        lines:
+          - { speaker: "tamar", text: "What time does your flight land?", translation: "באיזו שעה הטיסה שלכם נוחתת?" }
+          - { speaker: "noa", text: "At quarter past five. Can you pick us up?", translation: "ברבע אחרי חמש. את יכולה לאסוף אותנו?" }
+        gap: 1
+        distractors: ["At quarter past five. Can you pick up us?", "At quarter past five. Can you pick us?"]
+        lexemes: [pick-up]
+      - id: u25-l2-13
+        type: translate
+        direction: to_target
+        prompt: "אני נוסע לחו\"ל בנסיעת עבודה."
+        answers: ["I'm going abroad on business.", "I am going abroad on business.", "I'm travelling abroad on business.", "I'm traveling abroad on business."]
+        lexemes: [abroad, on-business]
+      - id: u25-l2-14
+        type: speak_repeat
+        text: "Departure is at half past ten, and Tamar is picking us up."
+        translation: "ההמראה בעשר וחצי, ותמר אוספת אותנו."
+        lexemes: [departure, pick-up]
+
+  # ------------------------------------------------------------------ 3
+  - id: u25-l3
+    kind: grammar
+    grammar: future-forms
+    title: { he: "אני טס ביום שני", en: "I'm flying on Monday" }
+    exercises:
+      - { id: "u25-l3-01", type: "learn", lexeme: "continuous-future" }
+      - id: u25-l3-02
+        type: multiple_choice
+        prompt: "יש לך כרטיס טיסה ליום שני. מה אומרים?"
+        options: ["I'm flying to Madrid on Monday.", "I'll fly to Madrid on Monday, I think.", "I fly to Madrid maybe."]
+        correct: 0
+        lexemes: [continuous-future]
+      - id: u25-l3-03
+        type: multiple_choice
+        prompt: "החלטה עכשיו, ברגע הדיבור:"
+        options: ["The taxi isn't here? I'll call another one.", "I'm calling another one next Tuesday.", "I'm going to call another one last week."]
+        correct: 0
+        lexemes: [will]
+      - id: u25-l3-04
+        type: multiple_choice
+        prompt: "כוונה, בלי פרטים סגורים:"
+        options: ["One day I'm going to visit Japan.", "I'm visiting Japan at 6:30 tomorrow.", "I visit Japan one day."]
+        correct: 0
+        lexemes: [going-to]
+      - id: u25-l3-05
+        type: fill_blank
+        sentence: "We ___ meeting the client at ten tomorrow."
+        translation: "אנחנו פוגשים את הלקוח מחר בעשר."
+        answers: [are]
+        options: [are, will, going]
+        lexemes: [continuous-future, client]
+      - id: u25-l3-06
+        type: fill_blank
+        sentence: "It's raining? I ___ take an umbrella."
+        translation: "יורד גשם? אקח מטרייה."
+        answers: ["'ll"]
+        options: ["'ll", "'m going", "'m"]
+        lexemes: [will, umbrella]
+      - id: u25-l3-07
+        type: dialogue_gap
+        lines:
+          - { speaker: "david", text: "What are you doing on Friday evening?", translation: "מה אתה עושה ביום שישי בערב?" }
+          - { speaker: "ben", text: "I'm having dinner with Noa's family.", translation: "אני אוכל ארוחת ערב עם המשפחה של נועה." }
+        gap: 1
+        distractors: ["I have dinner with Noa's family yesterday.", "I'll having dinner with Noa's family."]
+        lexemes: [continuous-future, have-dinner]
+      - id: u25-l3-08
+        type: word_bank
+        prompt: "תמר אוספת אותנו בשמונה."
+        answers: ["Tamar is picking us up at eight.", "Tamar's picking us up at eight."]
+        distractors: [will, picks]
+        lexemes: [continuous-future, pick-up]
+      - id: u25-l3-09
+        type: word_bank
+        prompt: "אני חושב שתאהבי את מדריד."
+        answers: ["I think you'll love Madrid.", "I think you will love Madrid."]
+        distractors: [going, loving]
+        lexemes: [will]
+      - id: u25-l3-10
+        type: translate
+        direction: to_target
+        prompt: "אני טסה לתל אביב ביום ראשון."
+        answers: ["I'm flying to Tel Aviv on Sunday.", "I am flying to Tel Aviv on Sunday.", "On Sunday I'm flying to Tel Aviv."]
+        lexemes: [continuous-future, sunday]
+      - id: u25-l3-11
+        type: translate
+        direction: to_source
+        prompt: "We're going to do some sightseeing if we have time."
+        answers: ["אנחנו מתכוונים לטייל קצת אם יהיה לנו זמן.", "אנחנו הולכים לעשות קצת סיורים אם יהיה לנו זמן.", "נטייל קצת אם יהיה לנו זמן.", "אנחנו הולכים לטייל קצת אם יהיה לנו זמן."]
+        lexemes: [going-to, sightseeing]
+      - id: u25-l3-12
+        type: speak_repeat
+        text: "I'm flying on Sunday, and I'm meeting the client on Monday."
+        translation: "אני טס ביום ראשון, ואני פוגש את הלקוח ביום שני."
+        lexemes: [continuous-future, client]
+
+  # ------------------------------------------------------------------ 4
+  - id: u25-l4
+    kind: listening
+    title: { he: "הטיסה בוטלה", en: "The flight is cancelled" }
+    exercises:
+      - { id: "u25-l4-01", type: "learn", lexeme: "cancel" }
+      - { id: "u25-l4-02", type: "learn", lexeme: "postpone" }
+      - id: u25-l4-03
+        type: dialogue
+        scene: "שדה התעופה בתל אביב, בדרך לחתונה במדריד. ההודעה על הלוח לא טובה."
+        lines:
+          - { speaker: "ben", text: "Noa, look at the board. Our flight to Madrid is cancelled!", translation: "נועה, תסתכלי על הלוח. הטיסה שלנו למדריד בוטלה!" }
+          - { speaker: "noa", text: "What? The wedding is tomorrow evening!", translation: "מה? החתונה מחר בערב!" }
+          - { speaker: "cohen", text: "I'm sorry. We can put you on the 7 a.m. flight tomorrow.", translation: "אני מצטער. אנחנו יכולים להעביר אתכם לטיסה של 7 בבוקר מחר." }
+          - { speaker: "noa", text: "What time does it arrive in Madrid?", translation: "באיזו שעה היא נוחתת במדריד?" }
+          - { speaker: "cohen", text: "At 11:30, local time.", translation: "ב־11:30, שעון מקומי." }
+          - { speaker: "ben", text: "That's fine. The wedding starts at six. We'll make it!", translation: "זה בסדר. החתונה מתחילה בשש. נספיק!" }
+          - { speaker: "noa", text: "OK. I'll call Miriam and tell her. And we'll need a hotel for tonight.", translation: "בסדר. אתקשר למרים ואספר לה. ונצטרך מלון להלילה." }
+      - id: u25-l4-04
+        type: multiple_choice
+        prompt: "מה הבעיה?"
+        options: [הטיסה למדריד בוטלה, הטיסה מתעכבת בשעה, הם איבדו את המזוודות]
+        correct: 0
+        lexemes: [cancel, flight]
+      - id: u25-l4-05
+        type: multiple_choice
+        prompt: "מתי הטיסה החדשה נוחתת במדריד?"
+        options: ["11:30", "7:00", "18:00"]
+        correct: 0
+        lexemes: [arrival]
+      - id: u25-l4-06
+        type: multiple_choice
+        prompt: "מה נועה תעשה?"
+        options: [תתקשר למרים ותחפש מלון להלילה, תבטל את הנסיעה, תדחה את החתונה]
+        correct: 0
+        lexemes: [will]
+      - id: u25-l4-07
+        type: listening_choice
+        audioText: "The meeting is postponed until next Thursday."
+        question: מה קרה לפגישה?
+        options: [נדחתה ליום חמישי הבא, בוטלה, הוקדמה למחר]
+        correct: 0
+        lexemes: [postpone, meeting]
+      - id: u25-l4-08
+        type: dialogue_gap
+        lines:
+          - { speaker: "miriam", text: "Are you still coming to the wedding?", translation: "אתם עדיין באים לחתונה?" }
+          - { speaker: "noa", text: "Of course! We're arriving at 11:30 tomorrow.", translation: "ברור! אנחנו נוחתים מחר ב־11:30." }
+        gap: 1
+        distractors: ["Of course! We arrive yesterday at 11:30.", "Of course! We're going arrive at 11:30."]
+        lexemes: [continuous-future, arrive]
+      - id: u25-l4-09
+        type: dictation
+        text: "Our flight is cancelled."
+        lexemes: [cancel, flight]
+      - id: u25-l4-10
+        type: translate
+        direction: to_target
+        prompt: "נצטרך מלון להלילה."
+        answers: ["We'll need a hotel for tonight.", "We will need a hotel for tonight."]
+        lexemes: [will, hotel]
+      - id: u25-l4-11
+        type: speak_repeat
+        text: "Don't worry, we'll make it. The wedding starts at six."
+        translation: "אל תדאגי, נספיק. החתונה מתחילה בשש."
+        lexemes: [will, wedding]
+
+  # ------------------------------------------------------------------ 5
+  - id: u25-l5
+    kind: reading
+    title: { he: "אישור הזמנה", en: "Booking confirmation" }
+    exercises:
+      - { id: "u25-l5-01", type: "learn", lexeme: "sightseeing" }
+      - { id: "u25-l5-02", type: "learn", lexeme: "guided-tour" }
+      - id: u25-l5-03
+        type: reading
+        kind: "מייל אישור מהמלון"
+        title: "Your booking is confirmed"
+        text: |
+          Dear Mr. Taylor,
+
+          Thank you for booking with Hotel Sol, Madrid. We are happy to confirm your reservation:
+
+          Two double rooms, 15–17 June (2 nights). Check-in from 3 p.m., check-out by 11 a.m. Breakfast is included.
+
+          Arriving early? You are welcome to leave your luggage at reception and start sightseeing. Our free guided tour of the old city leaves from the hotel every day at 10 a.m.
+
+          You can cancel your booking free of charge until 10 June. After that date, we will charge the first night.
+
+          We look forward to welcoming you!
+        translation: |
+          מר טיילור היקר,
+
+          תודה שהזמנת במלון סול, מדריד. אנו שמחים לאשר את ההזמנה שלך:
+
+          שני חדרים זוגיים, 15–17 ביוני (2 לילות). צ'ק־אין משלוש אחר הצהריים, צ'ק־אאוט עד אחת־עשרה בבוקר. ארוחת בוקר כלולה.
+
+          מגיעים מוקדם? אתם מוזמנים להשאיר את המטען בקבלה ולצאת לסיור. הסיור המודרך החינמי שלנו בעיר העתיקה יוצא מהמלון כל יום בעשר בבוקר.
+
+          אפשר לבטל את ההזמנה ללא תשלום עד 10 ביוני. אחרי תאריך זה, נחייב את הלילה הראשון.
+
+          מצפים לארח אתכם!
+      - id: u25-l5-04
+        type: multiple_choice
+        prompt: "כמה לילות ההזמנה?"
+        options: [שניים, שלושה, אחד]
+        correct: 0
+        lexemes: [booking, night]
+      - id: u25-l5-05
+        type: multiple_choice
+        prompt: "מה אפשר לעשות כשמגיעים מוקדם?"
+        options: [להשאיר מטען בקבלה, לעשות צ'ק־אין מוקדם, לאכול ארוחת בוקר]
+        correct: 0
+        lexemes: [luggage]
+      - id: u25-l5-06
+        type: multiple_choice
+        prompt: "מתי יוצא הסיור המודרך?"
+        options: [כל יום בעשר בבוקר, רק בסוף השבוע, בשלוש אחר הצהריים]
+        correct: 0
+        lexemes: [guided-tour]
+      - id: u25-l5-07
+        type: multiple_choice
+        prompt: "מה קורה אם מבטלים אחרי 10 ביוני?"
+        options: [משלמים על הלילה הראשון, משלמים על כל ההזמנה, לא משלמים כלום]
+        correct: 0
+        lexemes: [cancel]
+      - id: u25-l5-08
+        type: fill_blank
+        sentence: "We are happy to ___ your reservation."
+        translation: "אנו שמחים לאשר את ההזמנה שלך."
+        answers: [confirm]
+        options: [confirm, cancel, postpone]
+        lexemes: [confirm]
+      - id: u25-l5-09
+        type: fill_blank
+        sentence: "Check-out is ___ 11 a.m."
+        translation: "צ'ק־אאוט עד אחת־עשרה בבוקר."
+        answers: [by]
+        options: [by, since, for]
+        lexemes: [check-out]
+      - id: u25-l5-10
+        type: word_bank
+        prompt: "אפשר לבטל בחינם עד 10 ביוני."
+        answers: ["You can cancel free of charge until 10 June.", "You can cancel for free until 10 June."]
+        distractors: [postpone, since]
+        lexemes: [cancel]
+      - id: u25-l5-11
+        type: translate
+        direction: to_target
+        prompt: "ארוחת הבוקר כלולה."
+        answers: ["Breakfast is included.", "The breakfast is included."]
+        lexemes: [breakfast]
+      - id: u25-l5-12
+        type: speak_repeat
+        text: "Can we leave our luggage at reception?"
+        translation: "אפשר להשאיר את המטען שלנו בקבלה?"
+        lexemes: [luggage]
+
+  # ------------------------------------------------------------------ 6
+  - id: u25-review
+    kind: review
+    title: { he: "חזרה: מתכננים נסיעה", en: "Review: planning a trip" }
+    exercises:
+      - id: u25-r-01
+        type: match_pairs
+        pairs:
+          - [cancel, לבטל]
+          - [postpone, לדחות]
+          - [pick up, לאסוף]
+          - [sightseeing, סיור באתרים]
+          - [on business, בנסיעת עבודה]
+        lexemes: [cancel, postpone, pick-up, sightseeing, on-business]
+      - id: u25-r-02
+        type: fill_blank
+        sentence: "I've got the tickets. We ___ flying on Friday."
+        translation: "יש לי את הכרטיסים. אנחנו טסים ביום שישי."
+        answers: [are]
+        options: [are, will, going]
+        lexemes: [continuous-future]
+      - id: u25-r-03
+        type: listening_choice
+        audioText: "The hotel is fully booked, so I'll try the one next to the station."
+        question: מה הוא יעשה?
+        options: [ינסה מלון ליד התחנה, יבטל את הנסיעה, יחכה לחדר פנוי]
+        correct: 0
+        lexemes: [fully-booked, will]
+      - id: u25-r-04
+        type: word_bank
+        prompt: "הם דחו את הפגישה לשבוע הבא."
+        answers: ["They postponed the meeting until next week.", "They postponed the meeting to next week."]
+        distractors: [cancelled, since]
+        lexemes: [postpone, meeting, next-week]
+      - id: u25-r-05
+        type: dialogue_gap
+        lines:
+          - { speaker: "tamar", text: "Have you booked accommodation in Madrid?", translation: "הזמנתם לינה במדריד?" }
+          - { speaker: "ben", text: "Yes, and the hotel has already confirmed.", translation: "כן, והמלון כבר אישר." }
+        gap: 1
+        distractors: ["Yes, and the hotel has already cancel.", "Yes, and the hotel confirm already yesterday."]
+        lexemes: [accommodation, confirm, already]
+      - id: u25-r-06
+        type: multiple_choice
+        prompt: "איזה משפט מתאר סידור קבוע ביומן?"
+        options: ["I'm seeing the dentist at four.", "I'll see the dentist, I think.", "I see the dentist always."]
+        correct: 0
+        lexemes: [continuous-future]
+      - id: u25-r-07
+        type: translate
+        direction: to_target
+        prompt: "הייתי רוצה לבטל את ההזמנה שלי."
+        answers: ["I'd like to cancel my booking.", "I would like to cancel my booking.", "I'd like to cancel my reservation.", "I would like to cancel my reservation."]
+        lexemes: [cancel, booking]
+      - id: u25-r-08
+        type: translate
+        direction: to_source
+        prompt: "I'll pick you up at the airport."
+        answers: ["אני אאסוף אותך משדה התעופה.", "אאסוף אותך משדה התעופה.", "אני אאסוף אותך בשדה התעופה.", "אאסוף אותך בשדה התעופה."]
+        lexemes: [will, pick-up, airport]
+      - id: u25-r-09
+        type: dictation
+        text: "Do you have a room available?"
+        lexemes: [available, room]
+      - id: u25-r-10
+        type: speak_repeat
+        text: "We're flying to Madrid on Sunday for the wedding."
+        translation: "אנחנו טסים למדריד ביום ראשון לחתונה."
+        lexemes: [continuous-future, wedding]

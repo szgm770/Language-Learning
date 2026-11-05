@@ -1,0 +1,633 @@
+id: u30-problems
+cefr: B1
+scene: tech
+title:
+  he: פותרים בעיות
+  en: Problem solving
+story: "יום חמישי, אחת־עשרה בלילה: השרתים של האפליקציה קורסים. נועה, דוד והלקוח בטלפונים. ביום שני נועה מספרת לבן מה כל אחד אמר, ואיך פתרו את המשבר."
+canDo:
+  - לתאר בעיה טכנית ומה עשו כדי לפתור אותה
+  - "למסור מה מישהו אמר (דיבור עקיף: said, told, asked)"
+  - לתת ולהבין הוראות צעד אחר צעד
+  - לדבר על פתרונות במצב לחוץ
+
+vocabulary:
+  - { id: "crash", text: "crash", translation: "לקרוס (מחשב, מערכת)", pos: "verb", pronunciation: "קְרֶשׁ", example: { text: "The servers crashed at 11 p.m.", translation: "השרתים קרסו ב־11 בלילה." } }
+  - { id: "server", text: "server", translation: "שרת", pos: "noun", pronunciation: "סֶרְבֶר" }
+  - { id: "backup", text: "backup", translation: "גיבוי", pos: "noun", pronunciation: "בֶּקְאַפּ" }
+  - { id: "restart", text: "restart", translation: "להפעיל מחדש", pos: "verb", pronunciation: "רִיסְטַארְט" }
+  - { id: "solution", text: "solution", translation: "פתרון", pos: "noun", pronunciation: "סוֹלוּשְׁן" }
+  - { id: "urgent", text: "urgent", translation: "דחוף", pos: "adjective", pronunciation: "אֶרְג'ֶנְט" }
+  - { id: "sort-out", text: "sort out", translation: "לסדר, לפתור", pos: "verb", pronunciation: "סוֹרְט אַאוּט", example: { text: "Don't worry, we'll sort it out.", translation: "אל תדאגי, נסדר את זה." } }
+  - { id: "figure-out", text: "figure out", translation: "להבין, לפענח", pos: "verb", pronunciation: "פִיגְיֶר אַאוּט" }
+  - { id: "deal-with", text: "deal with", translation: "לטפל ב־", pos: "verb", pronunciation: "דִיל וִויד'" }
+  - { id: "instructions", text: "instructions", translation: "הוראות", pos: "noun", pronunciation: "אִינְסְטְרַאקְשְׁנְז" }
+  - { id: "explain", text: "explain", translation: "להסביר", pos: "verb", pronunciation: "אִיקְסְפְּלֵיין" }
+  - { id: "warn", text: "warn", translation: "להזהיר", pos: "verb", pronunciation: "ווֹרְן" }
+  - { id: "said", text: "said (that)", translation: "אמר (ש־)", pos: "verb", pronunciation: "סֶד", example: { text: "David said that the server was down.", translation: "דוד אמר שהשרת נפל." } }
+  - { id: "told", text: "told (me) that", translation: "אמר לי ש־, סיפר לי ש־", pos: "verb", pronunciation: "טוֹלְד", example: { text: "She told me that she was tired.", translation: "היא אמרה לי שהיא עייפה." } }
+  - { id: "asked-if", text: "asked if / asked me to", translation: "שאל אם / ביקש ממני ל־", pos: "phrase", pronunciation: "אַסְקְט אִיף", example: { text: "He asked me to call him.", translation: "הוא ביקש ממני להתקשר אליו." } }
+  - { id: "step-by-step", text: "step by step", translation: "צעד אחר צעד", pos: "phrase", pronunciation: "סְטֶפּ בַּיי סְטֶפּ" }
+  - { id: "first-of-all", text: "first of all", translation: "קודם כול", pos: "phrase", pronunciation: "פֶרְסְט אוֹב אוֹל" }
+  - { id: "as-soon-as", text: "as soon as", translation: "ברגע ש־, מיד כש־", pos: "phrase", pronunciation: "אֶז סוּן אֶז", example: { text: "Call me as soon as it works.", translation: "תתקשר אליי ברגע שזה עובד." } }
+  - { id: "down", text: "down", translation: "לא פועל (מערכת)", pos: "adjective", pronunciation: "דַאוּן", example: { text: "The website is down.", translation: "האתר לא עובד." } }
+  - { id: "calm-down", text: "calm down", translation: "להירגע", pos: "verb", pronunciation: "קַאלְם דַאוּן" }
+
+grammar:
+  - id: reported-speech
+    title: { he: "דיבור עקיף: He said that…", en: "Reported speech" }
+    explanation: |
+      בעברית מוסרים דברים בלי לשנות את הזמן: "דוד אמר: השרת לא עובד" → "דוד אמר שהשרת **לא עובד**". באנגלית, כשמוסרים אחרי **said** או **told**, בדרך כלל זזים **צעד אחד אחורה בזמן**:
+
+      - "The server **is** down." → David said (that) the server **was** down.
+      - "I **can** fix it." → He said he **could** fix it.
+      - "We **will** call you." → They said they **would** call me.
+      - "I **fixed** it." → She said she **had fixed** it.
+
+      **said** בלי אדם, **told** עם אדם: **He said that…** / **He told me that…** (לא "He said me").
+
+      שאלות ובקשות:
+      - "Is it working?" → She **asked if** it was working.
+      - "Please call me." → He **asked me to** call him.
+    examples:
+      - { text: "Noa said that she was very tired.", translation: "נועה אמרה שהיא מאוד עייפה." }
+      - { text: "The client told us he would call back.", translation: "הלקוח אמר לנו שהוא יחזור אלינו." }
+      - { text: "Ben asked if the app was working again.", translation: "בן שאל אם האפליקציה עובדת שוב." }
+
+lessons:
+  # ------------------------------------------------------------------ 1
+  - id: u30-l1
+    kind: new
+    title: { he: "השרתים קרסו", en: "The servers are down" }
+    exercises:
+      - id: u30-l1-01
+        type: dialogue
+        scene: "יום חמישי, 23:05. הטלפון של נועה מצלצל."
+        lines:
+          - { speaker: "david", text: "Noa, sorry to call so late. It's urgent. The servers have crashed.", translation: "נועה, סליחה שאני מתקשר כל כך מאוחר. זה דחוף. השרתים קרסו." }
+          - { speaker: "noa", text: "What? Is the app down?", translation: "מה? האפליקציה לא עובדת?" }
+          - { speaker: "david", text: "Completely. Nobody can log in.", translation: "לגמרי. אף אחד לא מצליח להתחבר." }
+          - { speaker: "noa", text: "OK, calm down. First of all, do we have a backup?", translation: "בסדר, תירגע. קודם כול, יש לנו גיבוי?" }
+          - { speaker: "david", text: "Yes, from six o'clock. I'm trying to restart everything now.", translation: "כן, משש. אני מנסה להפעיל הכול מחדש עכשיו." }
+          - { speaker: "noa", text: "Good. I'll deal with the client. Call me as soon as you know more.", translation: "טוב. אני אטפל בלקוח. תתקשר אליי ברגע שתדע יותר." }
+      - { id: "u30-l1-02", type: "learn", lexeme: "urgent" }
+      - { id: "u30-l1-03", type: "learn", lexeme: "server" }
+      - { id: "u30-l1-04", type: "learn", lexeme: "crash" }
+      - { id: "u30-l1-05", type: "learn", lexeme: "down" }
+      - { id: "u30-l1-06", type: "learn", lexeme: "calm-down" }
+      - { id: "u30-l1-07", type: "learn", lexeme: "first-of-all" }
+      - { id: "u30-l1-08", type: "learn", lexeme: "backup" }
+      - { id: "u30-l1-09", type: "learn", lexeme: "restart" }
+      - { id: "u30-l1-13", type: "learn", lexeme: "deal-with" }
+      - { id: "u30-l1-14", type: "learn", lexeme: "as-soon-as" }
+      - id: u30-l1-10
+        type: match_pairs
+        pairs:
+          - [urgent, דחוף]
+          - [server, שרת]
+          - [crash, לקרוס]
+          - [backup, גיבוי]
+          - [restart, להפעיל מחדש]
+        lexemes: [urgent, server, crash, backup, restart]
+      - id: u30-l1-11
+        type: multiple_choice
+        prompt: "מה הבעיה?"
+        options: [השרתים קרסו ואף אחד לא מתחבר, הלקוח כועס, דוד איבד את הטלפון]
+        correct: 0
+        lexemes: [crash, down]
+      - id: u30-l1-12
+        type: multiple_choice
+        prompt: "על מה נועה תטפל?"
+        options: [בלקוח, בשרתים, בגיבוי]
+        correct: 0
+        lexemes: [deal-with]
+      - id: u30-l1-15
+        type: listening_choice
+        audioText: "The website is down. Call me as soon as it's working again."
+        question: מה היא מבקשת?
+        options: [להתקשר ברגע שהאתר חוזר לעבוד, לתקן את האתר מחר, לבנות אתר חדש]
+        correct: 0
+        lexemes: [down, as-soon-as]
+      - id: u30-l1-16
+        type: word_bank
+        prompt: "קודם כול, תירגע."
+        answers: ["First of all, calm down."]
+        distractors: [down, first]
+        lexemes: [first-of-all, calm-down]
+      - id: u30-l1-17
+        type: speak_repeat
+        text: "It's urgent. The servers have crashed."
+        translation: "זה דחוף. השרתים קרסו."
+        lexemes: [urgent, server, crash]
+
+  # ------------------------------------------------------------------ 2
+  - id: u30-l2
+    kind: new
+    title: { he: "צעד אחר צעד", en: "Step by step" }
+    exercises:
+      - { id: "u30-l2-01", type: "learn", lexeme: "instructions" }
+      - { id: "u30-l2-02", type: "learn", lexeme: "step-by-step" }
+      - { id: "u30-l2-03", type: "learn", lexeme: "explain" }
+      - { id: "u30-l2-04", type: "learn", lexeme: "figure-out" }
+      - { id: "u30-l2-05", type: "learn", lexeme: "sort-out" }
+      - { id: "u30-l2-06", type: "learn", lexeme: "solution" }
+      - id: u30-l2-07
+        type: dialogue
+        scene: "חצות. דוד מסביר לתמר בווידאו מה לעשות."
+        lines:
+          - { speaker: "tamar", text: "David, I'm online. Explain what I need to do, step by step.", translation: "דוד, אני מחוברת. תסביר מה אני צריכה לעשות, צעד אחר צעד." }
+          - { speaker: "david", text: "First, open the control panel. Then click on 'Servers'.", translation: "קודם, פתחי את לוח הבקרה. אחר כך לחצי על 'שרתים'." }
+          - { speaker: "tamar", text: "Done. There's a red light on server three.", translation: "בוצע. יש אור אדום על שרת שלוש." }
+          - { speaker: "david", text: "That's the problem! I couldn't figure it out. Now restart it.", translation: "זו הבעיה! לא הצלחתי להבין את זה. עכשיו תפעילי אותו מחדש." }
+          - { speaker: "tamar", text: "It's green now! I think we've found the solution.", translation: "הוא ירוק עכשיו! אני חושבת שמצאנו את הפתרון." }
+          - { speaker: "david", text: "Brilliant. I knew we'd sort it out.", translation: "מבריק. ידעתי שנסדר את זה." }
+      - id: u30-l2-08
+        type: match_pairs
+        pairs:
+          - [instructions, הוראות]
+          - [explain, להסביר]
+          - [figure out, לפענח]
+          - [sort out, לסדר]
+          - [solution, פתרון]
+        lexemes: [instructions, explain, figure-out, sort-out, solution]
+      - id: u30-l2-09
+        type: multiple_choice
+        prompt: "איפה הייתה הבעיה?"
+        options: [בשרת שלוש, בלוח הבקרה, בטלפון של תמר]
+        correct: 0
+        lexemes: [server]
+      - id: u30-l2-10
+        type: multiple_choice
+        prompt: "מה תמר עשתה כדי לפתור?"
+        options: [הפעילה מחדש את השרת, התקשרה ללקוח, מחקה את הגיבוי]
+        correct: 0
+        lexemes: [restart, solution]
+      - id: u30-l2-11
+        type: dialogue_gap
+        lines:
+          - { speaker: "noa", text: "Can you explain the problem to the client?", translation: "אתה יכול להסביר את הבעיה ללקוח?" }
+          - { speaker: "ben", text: "Sure. I'll explain it to him in simple words.", translation: "בטח. אסביר לו את זה במילים פשוטות." }
+        gap: 1
+        distractors: ["Sure. I'll explain him it in simple words.", "Sure. I'll explain to him it simple."]
+        lexemes: [explain]
+      - id: u30-l2-12
+        type: tip
+        title: "explain it to me"
+        text: |
+          בעברית "תסביר לי". באנגלית לא אומרים explain me, אלא explain to me או explain it to me.
+
+          Can you explain this to me? היא דרך מנומסת ונפוצה מאוד לבקש הסבר.
+      - id: u30-l2-13
+        type: translate
+        direction: to_target
+        prompt: "אל תדאגי, נסדר את זה."
+        answers: ["Don't worry, we'll sort it out.", "Don't worry, we will sort it out.", "Don't worry. We'll sort it out."]
+        lexemes: [sort-out]
+      - id: u30-l2-14
+        type: translate
+        direction: to_source
+        prompt: "I couldn't figure out the problem."
+        answers: ["לא הצלחתי להבין את הבעיה.", "לא הצלחתי לפענח את הבעיה.", "לא הבנתי מה הבעיה."]
+        lexemes: [figure-out, problem]
+      - id: u30-l2-15
+        type: speak_repeat
+        text: "Explain what I need to do, step by step."
+        translation: "תסביר מה אני צריכה לעשות, צעד אחר צעד."
+        lexemes: [explain, step-by-step]
+
+  # ------------------------------------------------------------------ 3
+  - id: u30-l3
+    kind: grammar
+    grammar: reported-speech
+    title: { he: "הוא אמר ש…", en: "He said that…" }
+    exercises:
+      - { id: "u30-l3-01", type: "learn", lexeme: "said" }
+      - { id: "u30-l3-02", type: "learn", lexeme: "told" }
+      - { id: "u30-l3-03", type: "learn", lexeme: "asked-if" }
+      - id: u30-l3-04
+        type: fill_blank
+        sentence: "David: 'The server is down.' → David said that the server ___ down."
+        translation: "דוד אמר שהשרת לא עובד."
+        answers: [was]
+        options: [was, is, were]
+        lexemes: [said, down]
+      - id: u30-l3-05
+        type: fill_blank
+        sentence: "Tamar: 'I can fix it.' → Tamar said she ___ fix it."
+        translation: "תמר אמרה שהיא יכולה לתקן את זה."
+        answers: [could]
+        options: [could, can, would]
+        lexemes: [said, fix]
+      - id: u30-l3-06
+        type: fill_blank
+        sentence: "The client: 'I will call you.' → He told us he ___ call us."
+        translation: "הלקוח אמר לנו שהוא יתקשר אלינו."
+        answers: [would]
+        options: [would, will, could]
+        lexemes: [told, call]
+      - id: u30-l3-07
+        type: multiple_choice
+        prompt: איזה משפט נכון?
+        options: ["She told me that she was tired.", "She said me that she was tired.", "She told that she was tired."]
+        correct: 0
+        lexemes: [told, said]
+      - id: u30-l3-08
+        type: multiple_choice
+        prompt: "Ben: 'Is the app working?' איך מוסרים את זה?"
+        options: ["Ben asked if the app was working.", "Ben asked is the app working.", "Ben said if the app working."]
+        correct: 0
+        lexemes: [asked-if]
+      - id: u30-l3-09
+        type: dialogue_gap
+        lines:
+          - { speaker: "ben", text: "What did the client say?", translation: "מה הלקוח אמר?" }
+          - { speaker: "noa", text: "He said he was very happy with our solution.", translation: "הוא אמר שהוא מאוד מרוצה מהפתרון שלנו." }
+        gap: 1
+        distractors: ["He said me he was very happy with our solution.", "He told he is very happy with our solution."]
+        lexemes: [said, solution]
+      - id: u30-l3-10
+        type: word_bank
+        prompt: "היא ביקשה ממני להתקשר אליה."
+        answers: ["She asked me to call her."]
+        distractors: [said, if]
+        lexemes: [asked-if, call]
+      - id: u30-l3-11
+        type: translate
+        direction: to_target
+        prompt: "דוד אמר לי שהוא עייף."
+        answers: ["David told me that he was tired.", "David told me he was tired."]
+        lexemes: [told, tired]
+      - id: u30-l3-12
+        type: translate
+        direction: to_source
+        prompt: "She asked if I could help her."
+        answers: ["היא שאלה אם אני יכול לעזור לה.", "היא שאלה אם אני יכולה לעזור לה.", "היא שאלה אם אוכל לעזור לה."]
+        lexemes: [asked-if, help]
+      - id: u30-l3-13
+        type: speak_repeat
+        text: "David said that the server was down, and Tamar said she could fix it."
+        translation: "דוד אמר שהשרת לא עובד, ותמר אמרה שהיא יכולה לתקן אותו."
+        lexemes: [said, server, down]
+
+  # ------------------------------------------------------------------ 4
+  - id: u30-l4
+    kind: listening
+    title: { he: "מה כולם אמרו", en: "What everyone said" }
+    exercises:
+      - { id: "u30-l4-01", type: "learn", lexeme: "warn" }
+      - id: u30-l4-02
+        type: dialogue
+        scene: "יום שני בבוקר. בן לא היה זמין בסוף השבוע, ונועה מספרת לו."
+        lines:
+          - { speaker: "ben", text: "So what happened on Thursday? I saw twenty missed calls!", translation: "אז מה קרה ביום חמישי? ראיתי עשרים שיחות שלא נענו!" }
+          - { speaker: "noa", text: "The servers crashed at eleven. David called and said nobody could log in.", translation: "השרתים קרסו באחת־עשרה. דוד התקשר ואמר שאף אחד לא מצליח להתחבר." }
+          - { speaker: "ben", text: "And the client?", translation: "והלקוח?" }
+          - { speaker: "noa", text: "He was angry at first. He told me he would cancel the contract!", translation: "בהתחלה הוא כעס. הוא אמר לי שהוא יבטל את החוזה!" }
+          - { speaker: "noa", text: "But I explained that we had a backup, and I promised we would sort it out by morning.", translation: "אבל הסברתי שיש לנו גיבוי, והבטחתי שנסדר את זה עד הבוקר." }
+          - { speaker: "ben", text: "And did you?", translation: "והסדרתם?" }
+          - { speaker: "noa", text: "By one a.m.! Tamar found the problem. This morning the client sent an email. He said we were the best team he'd ever worked with.", translation: "עד אחת בלילה! תמר מצאה את הבעיה. הבוקר הלקוח שלח מייל. הוא כתב שאנחנו הצוות הכי טוב שהוא עבד איתו אי פעם." }
+      - id: u30-l4-03
+        type: multiple_choice
+        prompt: "מה הלקוח אמר בהתחלה?"
+        options: [שהוא יבטל את החוזה, שהוא מבין, שהוא יתקשר מחר]
+        correct: 0
+        lexemes: [told]
+      - id: u30-l4-04
+        type: multiple_choice
+        prompt: "מה נועה הבטיחה?"
+        options: [שיסדרו את זה עד הבוקר, שיחזירו כסף ללקוח, שזה לא יקרה שוב]
+        correct: 0
+        lexemes: [promise, sort-out]
+      - id: u30-l4-05
+        type: multiple_choice
+        prompt: "מתי הבעיה נפתרה?"
+        options: [עד אחת בלילה, ביום שישי בצהריים, ביום שני בבוקר]
+        correct: 0
+        lexemes: [solution]
+      - id: u30-l4-06
+        type: multiple_choice
+        prompt: "מה הלקוח כתב בסוף?"
+        options: [שהם הצוות הכי טוב שעבד איתו, שהוא עוזב, שהוא צריך עוד גיבוי]
+        correct: 0
+        lexemes: [said]
+      - id: u30-l4-07
+        type: listening_choice
+        audioText: "I warned them that the server was too old, but nobody listened."
+        question: על מה הוא הזהיר?
+        options: [שהשרת ישן מדי, שאין גיבוי, שהלקוח כועס]
+        correct: 0
+        lexemes: [warn, server]
+      - id: u30-l4-08
+        type: dialogue_gap
+        lines:
+          - { speaker: "katz", text: "Noa, you look exhausted.", translation: "נועה, את נראית מותשת." }
+          - { speaker: "noa", text: "I am! I told my team I'd take a day off.", translation: "אני באמת! אמרתי לצוות שלי שאקח יום חופש." }
+        gap: 1
+        distractors: ["I am! I said my team I'd take a day off.", "I am! I told to my team I'll take a day off."]
+        lexemes: [told]
+      - id: u30-l4-09
+        type: dictation
+        text: "He said he would call back."
+        lexemes: [said, would]
+      - id: u30-l4-10
+        type: translate
+        direction: to_target
+        prompt: "הוא שאל אם האפליקציה עובדת."
+        answers: ["He asked if the app was working.", "He asked whether the app was working.", "He asked if the app worked."]
+        lexemes: [asked-if, app]
+      - id: u30-l4-11
+        type: speak_repeat
+        text: "I promised the client that we would sort it out by morning."
+        translation: "הבטחתי ללקוח שנסדר את זה עד הבוקר."
+        lexemes: [promise, would, sort-out]
+
+  # ------------------------------------------------------------------ 5
+  - id: u30-l5
+    kind: reading
+    title: { he: "דוח תקלה", en: "Incident report" }
+    exercises:
+      - id: u30-l5-01
+        type: reading
+        kind: "דוח פנימי"
+        title: "Incident report: app outage, Thursday 23:00–01:00"
+        text: |
+          What happened: At 23:00 on Thursday, the mobile app stopped working. Users could not log in for two hours.
+
+          Why it happened: An old server could not deal with the number of users after a new update. In March, David warned the team that this server was too slow, but it was not replaced.
+
+          What we did: David restarted the main system using the 18:00 backup. Tamar found that server three was the problem and restarted it at 00:55. Noa explained the situation to the client and told him that no data was lost.
+
+          Next steps: The old server will be replaced this month. We will test every update on a copy of the system first.
+        translation: |
+          מה קרה: ב־23:00 ביום חמישי, האפליקציה לנייד הפסיקה לעבוד. משתמשים לא יכלו להתחבר במשך שעתיים.
+
+          למה זה קרה: שרת ישן לא הצליח להתמודד עם מספר המשתמשים אחרי עדכון חדש. במרץ, דוד הזהיר את הצוות שהשרת הזה איטי מדי, אבל הוא לא הוחלף.
+
+          מה עשינו: דוד הפעיל מחדש את המערכת הראשית בעזרת הגיבוי מ־18:00. תמר מצאה שהבעיה בשרת שלוש והפעילה אותו מחדש ב־00:55. נועה הסבירה את המצב ללקוח ואמרה לו שלא אבד מידע.
+
+          הצעדים הבאים: השרת הישן יוחלף החודש. נבדוק כל עדכון קודם על עותק של המערכת.
+      - id: u30-l5-02
+        type: multiple_choice
+        prompt: "כמה זמן משתמשים לא יכלו להתחבר?"
+        options: [שעתיים, שעה, חצי יום]
+        correct: 0
+        lexemes: [down]
+      - id: u30-l5-03
+        type: multiple_choice
+        prompt: "למה זה קרה?"
+        options: [שרת ישן לא עמד בעומס אחרי עדכון, מישהו מחק את הגיבוי, הייתה הפסקת חשמל]
+        correct: 0
+        lexemes: [server]
+      - id: u30-l5-04
+        type: multiple_choice
+        prompt: "על מה דוד הזהיר במרץ?"
+        options: [שהשרת איטי מדי, שאין גיבוי, שהעדכון לא טוב]
+        correct: 0
+        lexemes: [warn]
+      - id: u30-l5-05
+        type: multiple_choice
+        prompt: "מה יקרה החודש?"
+        options: [השרת הישן יוחלף, הצוות יעבוד בלילות, הלקוח יעזוב]
+        correct: 0
+        lexemes: [passive]
+      - id: u30-l5-06
+        type: fill_blank
+        sentence: "Noa told the client that no data ___ lost."
+        translation: "נועה אמרה ללקוח שלא אבד מידע."
+        answers: [was]
+        options: [was, is, will]
+        lexemes: [told, passive]
+      - id: u30-l5-07
+        type: fill_blank
+        sentence: "David ___ the team that the server was too slow."
+        translation: "דוד הזהיר את הצוות שהשרת איטי מדי."
+        answers: [warned]
+        options: [warned, said, asked]
+        lexemes: [warn]
+      - id: u30-l5-08
+        type: word_bank
+        prompt: "הוא הפעיל מחדש את המערכת בעזרת הגיבוי."
+        answers: ["He restarted the system using the backup.", "He restarted the system with the backup."]
+        distractors: [restart, by]
+        lexemes: [restart, backup]
+      - id: u30-l5-09
+        type: translate
+        direction: to_target
+        prompt: "השרת הישן יוחלף."
+        answers: ["The old server will be replaced."]
+        lexemes: [server, passive]
+      - id: u30-l5-10
+        type: speak_repeat
+        text: "We will test every update on a copy of the system first."
+        translation: "נבדוק כל עדכון קודם על עותק של המערכת."
+        lexemes: [will]
+
+  # ------------------------------------------------------------------ 6
+  - id: u30-review
+    kind: review
+    title: { he: "חזרה: פותרים בעיות", en: "Review: problem solving" }
+    exercises:
+      - id: u30-r-01
+        type: match_pairs
+        pairs:
+          - [warn, להזהיר]
+          - [deal with, לטפל ב־]
+          - [calm down, להירגע]
+          - [as soon as, ברגע ש־]
+          - [first of all, קודם כול]
+        lexemes: [warn, deal-with, calm-down, as-soon-as, first-of-all]
+      - id: u30-r-02
+        type: fill_blank
+        sentence: "She ___ me that the meeting was cancelled."
+        translation: "היא אמרה לי שהפגישה בוטלה."
+        answers: [told]
+        options: [told, said, asked]
+        lexemes: [told, cancel]
+      - id: u30-r-03
+        type: listening_choice
+        audioText: "He asked me to send him the instructions as soon as possible."
+        question: מה הוא ביקש?
+        options: [לשלוח לו את ההוראות בהקדם, להסביר לו בטלפון, לבוא למשרד]
+        correct: 0
+        lexemes: [asked-if, instructions, as-soon-as]
+      - id: u30-r-04
+        type: word_bank
+        prompt: "הם אמרו שהם יגיעו מאוחר."
+        answers: ["They said they would be late.", "They said that they would be late.", "They said they'd be late."]
+        distractors: [will, told]
+        lexemes: [said, would, late]
+      - id: u30-r-05
+        type: dialogue_gap
+        lines:
+          - { speaker: "david", text: "The website is down again!", translation: "האתר שוב לא עובד!" }
+          - { speaker: "noa", text: "OK. First of all, let's check the backup.", translation: "בסדר. קודם כול, בוא נבדוק את הגיבוי." }
+        gap: 1
+        distractors: ["OK. First of all, let's crash the backup.", "OK. At first of all, we check backup."]
+        lexemes: [first-of-all, backup]
+      - id: u30-r-06
+        type: multiple_choice
+        prompt: "'I'm busy,' said Ben. איך מוסרים?"
+        options: ["Ben said he was busy.", "Ben said he is busy yesterday.", "Ben told he was busy."]
+        correct: 0
+        lexemes: [said, busy]
+      - id: u30-r-07
+        type: translate
+        direction: to_target
+        prompt: "זה דחוף. השרת קרס."
+        answers: ["It's urgent. The server has crashed.", "It's urgent. The server crashed.", "It is urgent. The server has crashed.", "It is urgent. The server crashed."]
+        lexemes: [urgent, server, crash]
+      - id: u30-r-08
+        type: translate
+        direction: to_source
+        prompt: "Can you explain it to me step by step?"
+        answers: ["אתה יכול להסביר לי את זה צעד אחר צעד?", "את יכולה להסביר לי את זה צעד אחר צעד?", "תוכל להסביר לי את זה צעד אחר צעד?", "תוכלי להסביר לי את זה צעד אחר צעד?"]
+        lexemes: [explain, step-by-step]
+      - id: u30-r-09
+        type: dictation
+        text: "We found the solution."
+        lexemes: [solution]
+      - id: u30-r-10
+        type: speak_repeat
+        text: "The client told me he would cancel the contract."
+        translation: "הלקוח אמר לי שהוא יבטל את החוזה."
+        lexemes: [told, would, cancel]
+
+  # ------------------------------------------------------------------ B1 level test
+  - id: b1-test
+    kind: test
+    title: { he: "מבחן רמה B1", en: "B1 level test" }
+    exercises:
+      - id: b1-t-01
+        type: fill_blank
+        sentence: "I've worked here ___ 2019."
+        translation: "אני עובדת כאן מאז 2019."
+        answers: [since]
+        options: [since, for, from]
+        lexemes: [since]
+      - id: b1-t-02
+        type: dialogue_gap
+        lines:
+          - { speaker: "noa", text: "How long have you known Miriam?", translation: "כמה זמן אתה מכיר את מרים?" }
+          - { speaker: "david", text: "I've known her for four years.", translation: "אני מכיר אותה ארבע שנים." }
+        gap: 1
+        distractors: ["I know her for four years.", "I've known her since four years."]
+        lexemes: [how-long-have, known, for-time]
+      - id: b1-t-03
+        type: fill_blank
+        sentence: "I was cycling to work ___ I fell."
+        translation: "רכבתי לעבודה כשנפלתי."
+        answers: [when]
+        options: [when, while, during]
+        lexemes: [when, was-ing, fell]
+      - id: b1-t-04
+        type: multiple_choice
+        prompt: איזה משפט נכון?
+        options: ["While she was presenting, her phone rang.", "While she presented, her phone was ringing.", "While she was present, her phone ringing."]
+        correct: 0
+        lexemes: [while, was-ing]
+      - id: b1-t-05
+        type: fill_blank
+        sentence: "I ___ to drink five coffees a day."
+        translation: "פעם שתיתי חמישה קפה ביום."
+        answers: [used]
+        options: [used, use, was used]
+        lexemes: [used-to]
+      - id: b1-t-06
+        type: fill_blank
+        sentence: "If you sleep more, you ___ feel better."
+        translation: "אם תישן יותר, תרגיש יותר טוב."
+        answers: ["'ll"]
+        options: ["'ll", "'d", "are"]
+        lexemes: [if-will]
+      - id: b1-t-07
+        type: multiple_choice
+        prompt: "מה פירוש: You don't have to come?"
+        options: [לא צריך לבוא, אסור לבוא, חייבים לבוא]
+        correct: 0
+        lexemes: [dont-have-to]
+      - id: b1-t-08
+        type: fill_blank
+        sentence: "You ___ use the machine. It's dangerous."
+        translation: "אסור להשתמש במכונה. היא מסוכנת."
+        answers: ["mustn't"]
+        options: ["mustn't", "don't have to", "must"]
+        lexemes: [mustnt]
+      - id: b1-t-09
+        type: multiple_choice
+        prompt: "יש לך כרטיס ליום שני. מה אומרים?"
+        options: ["I'm flying to Madrid on Monday.", "I'll fly to Madrid on Monday, I think.", "I fly to Madrid on Monday maybe."]
+        correct: 0
+        lexemes: [continuous-future]
+      - id: b1-t-10
+        type: fill_blank
+        sentence: "Would you mind ___ the window?"
+        translation: "אכפת לך לסגור את החלון?"
+        answers: [closing]
+        options: [closing, close, to close]
+        lexemes: [would-you-mind]
+      - id: b1-t-11
+        type: fill_blank
+        sentence: "The music is loud. Can you turn ___ down?"
+        translation: "המוזיקה רועשת. אתה יכול להנמיך אותה?"
+        answers: [it]
+        options: [it, them, its]
+        lexemes: [turn-down]
+      - id: b1-t-12
+        type: fill_blank
+        sentence: "The app ___ launched last week."
+        translation: "האפליקציה הושקה בשבוע שעבר."
+        answers: [was]
+        options: [was, is, has]
+        lexemes: [passive, launch]
+      - id: b1-t-13
+        type: listening_choice
+        audioText: "The new office was designed by a famous architect."
+        question: מה נאמר על המשרד?
+        options: [הוא עוצב על ידי אדריכל מפורסם, הוא נבנה לפני הרבה שנים, הוא נמכר לאדריכל]
+        correct: 0
+        lexemes: [passive, by-agent]
+      - id: b1-t-14
+        type: fill_blank
+        sentence: "That's the café ___ we met."
+        translation: "זה בית הקפה שבו נפגשנו."
+        answers: [where]
+        options: [where, which, who]
+        lexemes: [where-rel]
+      - id: b1-t-15
+        type: fill_blank
+        sentence: "She's the neighbour ___ looks after my cat."
+        translation: "היא השכנה ששומרת על החתול שלי."
+        answers: [who]
+        options: [who, which, where]
+        lexemes: [who-rel, look-after]
+      - id: b1-t-16
+        type: fill_blank
+        sentence: "If I ___ you, I'd take the job."
+        translation: "במקומך, הייתי לוקח את העבודה."
+        answers: [were]
+        options: [were, am, will be]
+        lexemes: [if-i-were-you]
+      - id: b1-t-17
+        type: word_bank
+        prompt: "אילו היה לי יותר זמן, הייתי לומדת יפנית."
+        answers: ["If I had more time, I would learn Japanese.", "If I had more time, I'd learn Japanese.", "I would learn Japanese if I had more time."]
+        distractors: [will, have]
+        lexemes: [if-would]
+      - id: b1-t-18
+        type: multiple_choice
+        prompt: "'The server is down,' said David. איך מוסרים?"
+        options: ["David said that the server was down.", "David told that the server is down.", "David said me the server was down."]
+        correct: 0
+        lexemes: [said, down]
+      - id: b1-t-19
+        type: translate
+        direction: to_target
+        prompt: "היא ביקשה ממני להתקשר אליה."
+        answers: ["She asked me to call her."]
+        lexemes: [asked-if]
+      - id: b1-t-20
+        type: translate
+        direction: to_source
+        prompt: "I look forward to working with you."
+        answers: ["אני מצפה לעבוד איתך.", "אני מצפה לעבוד איתכם.", "אני מצפה לעבוד אתך.", "אני מחכה לעבוד איתך."]
+        lexemes: [look-forward-to]

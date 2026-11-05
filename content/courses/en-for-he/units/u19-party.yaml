@@ -60,9 +60,9 @@ lessons:
     exercises:
       - id: u19-l1-01
         type: dialogue
-        scene: "נועה ורחל בבית הקפה של אלי. ביום שבת בן חוגג שלושים."
+        scene: "נועה ורחל בבית הקפה של אלי. ביום ראשון בן חוגג שלושים."
         lines:
-          - { speaker: "rachel", text: "It's Ben's birthday on Saturday. He's going to be thirty!", translation: "בשבת יום ההולדת של בן. הוא הולך להיות בן שלושים!" }
+          - { speaker: "rachel", text: "It's Ben's birthday on Sunday. He's going to be thirty!", translation: "ביום ראשון יום ההולדת של בן. הוא הולך להיות בן שלושים!" }
           - { speaker: "noa", text: "Let's have a surprise party!", translation: "בואי נעשה מסיבת הפתעה!" }
           - { speaker: "rachel", text: "Great idea. We can celebrate at my flat.", translation: "רעיון מעולה. אפשר לחגוג בדירה שלי." }
           - { speaker: "noa", text: "How many guests?", translation: "כמה אורחים?" }
@@ -261,14 +261,14 @@ lessons:
       - { id: "u19-l4-01", type: "learn", lexeme: "dance" }
       - id: u19-l4-02
         type: dialogue
-        scene: "שבת, שבע וחצי בערב. בן נכנס לדירה של רחל."
+        scene: "יום ראשון, שבע וחצי בערב. בן נכנס לדירה של רחל."
         lines:
           - { speaker: "rachel", text: "Shh! He's coming!", translation: "שששש! הוא בא!" }
           - { speaker: "noa", text: "SURPRISE! Happy birthday, Ben!", translation: "הפתעה! יום הולדת שמח, בן!" }
           - { speaker: "ben", text: "What?! I can't believe it! Thank you, everyone!", translation: "מה?! אני לא מאמין! תודה לכולם!" }
           - { speaker: "eli", text: "Here's your cake. Thirty candles!", translation: "הנה העוגה שלך. שלושים נרות!" }
           - { speaker: "ben", text: "Wow. Who made it?", translation: "וואו. מי הכין אותה?" }
-          - { speaker: "eli", text: "I did. Now, would you like to dance?", translation: "אני. ועכשיו, רוצים לרקוד?" }
+          - { speaker: "eli", text: "I did. Now, would you like some?", translation: "אני. ועכשיו, רוצים קצת?" }
           - { speaker: "david", text: "I'll put on the music!", translation: "אני אשים מוזיקה!" }
       - id: u19-l4-03
         type: multiple_choice
@@ -322,8 +322,8 @@ lessons:
         lexemes: [congratulations, get-married]
       - id: u19-l4-13
         type: dictation
-        text: "Would you like to dance?"
-        lexemes: [would-you-like, dance]
+        text: "The children love to dance."
+        lexemes: [dance]
       - id: u19-l4-14
         type: speak_repeat
         text: "Congratulations! I'll be at the wedding, I promise."
@@ -343,7 +343,7 @@ lessons:
         text: |
           Together with their families, Miriam García and David Aharoni invite you to celebrate their wedding.
 
-          Saturday, 14 June, at six o'clock in the evening, at the Rose Garden, Madrid.
+          Sunday, 15 June, at six o'clock in the evening, at the Rose Garden, Madrid.
 
           There will be dinner, music and a lot of dancing!
 
@@ -353,7 +353,7 @@ lessons:
         translation: |
           יחד עם משפחותיהם, מרים גרסיה ודוד אהרוני מזמינים אתכם לחגוג את חתונתם.
 
-          שבת, 14 ביוני, בשש בערב, בגן הוורדים, מדריד.
+          יום ראשון, 15 ביוני, בשש בערב, בגן הוורדים, מדריד.
 
           תהיה ארוחת ערב, מוזיקה והרבה ריקודים!
 
@@ -369,7 +369,7 @@ lessons:
       - id: u19-l5-04
         type: multiple_choice
         prompt: "עד מתי צריך להודיע אם באים?"
-        options: [עד 1 במאי, עד 14 ביוני, עד סוף יוני]
+        options: [עד 1 במאי, עד 15 ביוני, עד סוף יוני]
         correct: 0
         lexemes: [invitation]
       - id: u19-l5-05

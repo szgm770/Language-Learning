@@ -1,0 +1,450 @@
+id: u38-presentation
+cefr: B2
+scene: news
+title:
+  he: ההרצאה
+  en: The presentation
+story: "נועה מוזמנת להרצות בכנס מקצועי. היא לומדת לבנות הרצאה, להשתמש בשפה רשמית ובמילות קישור, ולענות על שאלות מהקהל."
+canDo:
+  - לבנות הרצאה עם פתיחה, גוף וסיכום
+  - להשתמש במילות קישור פורמליות (furthermore, nevertheless, consequently)
+  - לדבר ולכתוב ברמה רשמית
+  - לענות על שאלות מהקהל בנימוס
+
+vocabulary:
+  - { id: "audience", text: "audience", translation: "קהל", pos: "noun", pronunciation: "אוֹדִיאֶנְס" }
+  - { id: "slide", text: "slide", translation: "שקופית", pos: "noun", pronunciation: "סְלַייד" }
+  - { id: "outline", text: "outline", translation: "מתווה, ראשי פרקים", pos: "noun", pronunciation: "אַאוּטְלַיין" }
+  - { id: "key-point", text: "key point", translation: "נקודה מרכזית", pos: "noun", pronunciation: "קִי פּוֹינְט" }
+  - { id: "statistics", text: "statistics", translation: "סטטיסטיקה, נתונים", pos: "noun", pronunciation: "סְטַטִיסְטִיקְס" }
+  - { id: "conference", text: "conference", translation: "כנס", pos: "noun", pronunciation: "קוֹנְפֶרֶנְס" }
+  - { id: "to-begin-with", text: "to begin with", translation: "קודם כול, בתחילה", pos: "phrase", pronunciation: "טוּ בִּיגִין וִוית'" }
+  - { id: "furthermore", text: "furthermore", translation: "יתרה מזאת", pos: "adverb", pronunciation: "פֶרְדֶ'רְמוֹר" }
+  - { id: "in-addition", text: "in addition", translation: "בנוסף", pos: "phrase", pronunciation: "אִין אֶדִישֶׁן" }
+  - { id: "nevertheless", text: "nevertheless", translation: "למרות זאת", pos: "adverb", pronunciation: "נֶוֶורְדֶ'לֶס" }
+  - { id: "consequently", text: "consequently", translation: "כתוצאה מכך", pos: "adverb", pronunciation: "קוֹנְסִיקְוֶונְטְלִי" }
+  - { id: "in-conclusion", text: "in conclusion", translation: "לסיכום", pos: "phrase", pronunciation: "אִין קֶנְקְלוּז'ֶן" }
+  - { id: "i-would-like-to", text: "I would like to…", translation: "ברצוני… (רשמי)", pos: "phrase", pronunciation: "אַיי וּוּד לַייק טוּ" }
+  - { id: "on-behalf-of", text: "on behalf of", translation: "מטעם, בשם", pos: "phrase", pronunciation: "אוֹן בִּיהַאף אוֹב" }
+  - { id: "refer-to", text: "refer to", translation: "להתייחס ל…", pos: "verb", pronunciation: "רִיפֶר טוּ" }
+  - { id: "any-questions", text: "Are there any questions?", translation: "יש שאלות?", pos: "phrase", pronunciation: "אַר דֶ'ר אֶנִי קְוֶוסְצ'ֶנְז" }
+  - { id: "good-question", text: "That's a good question.", translation: "זו שאלה טובה.", pos: "phrase", pronunciation: "דֶ'טְס אַ גוּד קְוֶוסְצ'ֶן" }
+  - { id: "sum-up", text: "to sum up", translation: "לסכם", pos: "phrase", pronunciation: "טוּ סַאם אַפּ" }
+
+grammar:
+  - id: linking-words
+    title: { he: "מילות קישור ושפה רשמית", en: "Linking words and formal register" }
+    explanation: |
+      **מילות קישור** מחברות רעיונות ועוזרות לשומעים לעקוב אחרי הדברים:
+
+      - **הוספה:** *furthermore, in addition, moreover* – ‏"בנוסף"
+      - **ניגוד:** *however, nevertheless* – ‏"אבל / למרות זאת"
+      - **תוצאה:** *consequently, as a result* – ‏"כתוצאה מכך"
+      - **סיכום:** *in conclusion, to sum up* – ‏"לסיכום"
+
+      במילות קישור פורמליות שמים בדרך כלל **פסיק** אחריהן:
+      **The results were good. Nevertheless, we need more data.**
+
+      **שפה רשמית** אומרת: משפטים שלמים, בלי קיצורים (**do not** במקום **don't**) ובקשות מנומסות:
+      - **I would like to thank you all for coming.**
+      - **On behalf of the company, welcome.**
+    examples:
+      - { text: "Sales rose by ten percent. Furthermore, costs fell.", translation: "המכירות עלו בעשרה אחוזים. יתרה מזאת, העלויות ירדו." }
+      - { text: "The weather was bad. Nevertheless, the conference was a success.", translation: "מזג האוויר היה גרוע. למרות זאת, הכנס הצליח." }
+      - { text: "In conclusion, we recommend a new approach.", translation: "לסיכום, אנו ממליצים על גישה חדשה." }
+
+lessons:
+  # ------------------------------------------------------------------ 1
+  - id: u38-l1
+    kind: new
+    title: { he: "כנס מקצועי", en: "The conference" }
+    exercises:
+      - id: u38-l1-01
+        type: dialogue
+        scene: "לפני ההרצאה. נועה מתכוננת עם בן."
+        lines:
+          - { speaker: "ben", text: "How many people are in the audience?", translation: "כמה אנשים יש בקהל?" }
+          - { speaker: "noa", text: "About two hundred. It's the biggest conference I've ever spoken at.", translation: "בערך מאתיים. זה הכנס הכי גדול שדיברתי בו אי פעם." }
+          - { speaker: "ben", text: "Is your outline ready?", translation: "המתווה שלך מוכן?" }
+          - { speaker: "noa", text: "Yes. Ten slides, three key points, and some statistics.", translation: "כן. עשר שקופיות, שלוש נקודות מרכזיות וקצת נתונים." }
+          - { speaker: "ben", text: "Don't read the slides. Talk to the audience.", translation: "אל תקראי מהשקופיות. תדברי אל הקהל." }
+      - { id: "u38-l1-02", type: "learn", lexeme: "conference" }
+      - { id: "u38-l1-03", type: "learn", lexeme: "audience" }
+      - { id: "u38-l1-04", type: "learn", lexeme: "outline" }
+      - { id: "u38-l1-05", type: "learn", lexeme: "slide" }
+      - { id: "u38-l1-06", type: "learn", lexeme: "key-point" }
+      - { id: "u38-l1-07", type: "learn", lexeme: "statistics" }
+      - id: u38-l1-08
+        type: match_pairs
+        pairs:
+          - [conference, כנס]
+          - [audience, קהל]
+          - [outline, מתווה]
+          - [slide, שקופית]
+          - [statistics, נתונים]
+        lexemes: [conference, audience, outline, slide, statistics]
+      - id: u38-l1-09
+        type: multiple_choice
+        prompt: "כמה אנשים יהיו בקהל?"
+        options: [בערך מאתיים, עשרים, אלפיים]
+        correct: 0
+        lexemes: [audience]
+      - id: u38-l1-10
+        type: multiple_choice
+        prompt: "מה בן מייעץ לנועה?"
+        options: [לא לקרוא מהשקופיות, להוסיף עוד שקופיות, לדבר מהר]
+        correct: 0
+        lexemes: [slide, audience]
+      - id: u38-l1-11
+        type: listening_choice
+        audioText: "My presentation has ten slides and three key points."
+        question: מה יש בהרצאה?
+        options: [עשר שקופיות ושלוש נקודות מרכזיות, שלוש שקופיות ועשר נקודות, רק נתונים]
+        correct: 0
+        lexemes: [slide, key-point]
+      - id: u38-l1-12
+        type: word_bank
+        prompt: "הקהל היה גדול."
+        answers: ["The audience was big.", "The audience was large."]
+        distractors: [were, audiences]
+        lexemes: [audience, big]
+      - id: u38-l1-13
+        type: speak_repeat
+        text: "Ten slides, three key points, and some statistics."
+        translation: "עשר שקופיות, שלוש נקודות מרכזיות וקצת נתונים."
+        lexemes: [slide, key-point, statistics]
+
+  # ------------------------------------------------------------------ 2
+  - id: u38-l2
+    kind: new
+    title: { he: "פתיחה וסיום", en: "Opening and closing" }
+    exercises:
+      - { id: "u38-l2-01", type: "learn", lexeme: "i-would-like-to" }
+      - { id: "u38-l2-02", type: "learn", lexeme: "on-behalf-of" }
+      - { id: "u38-l2-03", type: "learn", lexeme: "to-begin-with" }
+      - { id: "u38-l2-04", type: "learn", lexeme: "refer-to" }
+      - { id: "u38-l2-05", type: "learn", lexeme: "sum-up" }
+      - { id: "u38-l2-06", type: "learn", lexeme: "in-conclusion" }
+      - id: u38-l2-07
+        type: dialogue
+        scene: "נועה עולה לבמה."
+        lines:
+          - { speaker: "noa", text: "Good morning, everyone. On behalf of my company, I would like to thank you for coming.", translation: "בוקר טוב לכולם. בשם החברה שלי, ברצוני להודות לכם על שהגעתם." }
+          - { speaker: "noa", text: "To begin with, I will refer to some surprising statistics.", translation: "קודם כול, אתייחס לכמה נתונים מפתיעים." }
+          - { speaker: "noa", text: "To sum up the first part: teamwork matters.", translation: "לסכם את החלק הראשון: עבודת צוות חשובה." }
+          - { speaker: "noa", text: "In conclusion, small changes can make a big difference. Thank you.", translation: "לסיכום, שינויים קטנים יכולים לעשות הבדל גדול. תודה." }
+      - id: u38-l2-08
+        type: match_pairs
+        pairs:
+          - [to begin with, קודם כול]
+          - [on behalf of, בשם]
+          - [refer to, להתייחס]
+          - [in conclusion, לסיכום]
+          - [I would like to, ברצוני]
+        lexemes: [to-begin-with, on-behalf-of, refer-to, in-conclusion, i-would-like-to]
+      - id: u38-l2-09
+        type: multiple_choice
+        prompt: "איך נועה מתחילה את ההרצאה?"
+        options: [מודה לקהל בשם החברה, מספרת בדיחה, מציגה נתונים]
+        correct: 0
+        lexemes: [on-behalf-of, i-would-like-to]
+      - id: u38-l2-10
+        type: multiple_choice
+        prompt: "איזו מילה מסיימת הרצאה?"
+        options: [In conclusion, To begin with, Furthermore]
+        correct: 0
+        lexemes: [in-conclusion]
+      - id: u38-l2-11
+        type: dialogue_gap
+        lines:
+          - { speaker: "miriam", text: "Could you repeat the second point?", translation: "תוכלי לחזור על הנקודה השנייה?" }
+          - { speaker: "noa", text: "Certainly. I would like to refer to slide four.", translation: "בוודאי. ברצוני להתייחס לשקופית ארבע." }
+        gap: 1
+        distractors: ["Certainly. I would like refer slide four.", "Certainly. I like to referring to slide four."]
+        lexemes: [i-would-like-to, refer-to]
+      - id: u38-l2-12
+        type: translate
+        direction: to_target
+        prompt: "ברצוני להודות לכם."
+        answers: ["I would like to thank you.", "I'd like to thank you.", "I would like to thank you all."]
+        lexemes: [i-would-like-to]
+      - id: u38-l2-13
+        type: translate
+        direction: to_source
+        prompt: "On behalf of the team, welcome."
+        answers: ["בשם הצוות, ברוכים הבאים.", "מטעם הצוות, ברוכים הבאים.", "בשם הצוות, ברוכים הבאות."]
+        lexemes: [on-behalf-of]
+      - id: u38-l2-14
+        type: speak_repeat
+        text: "On behalf of my company, I would like to thank you for coming."
+        translation: "בשם החברה שלי, ברצוני להודות לכם על שהגעתם."
+        lexemes: [on-behalf-of, i-would-like-to]
+
+  # ------------------------------------------------------------------ 3
+  - id: u38-l3
+    kind: grammar
+    grammar: linking-words
+    title: { he: "מילות קישור", en: "Linking words" }
+    exercises:
+      - { id: "u38-l3-01", type: "learn", lexeme: "furthermore" }
+      - { id: "u38-l3-02", type: "learn", lexeme: "in-addition" }
+      - { id: "u38-l3-03", type: "learn", lexeme: "nevertheless" }
+      - { id: "u38-l3-04", type: "learn", lexeme: "consequently" }
+      - id: u38-l3-05
+        type: fill_blank
+        sentence: "The task was difficult. ___, we finished on time."
+        translation: "המשימה הייתה קשה. למרות זאת סיימנו בזמן."
+        answers: [Nevertheless]
+        options: [Nevertheless, Furthermore, Consequently]
+        lexemes: [nevertheless]
+      - id: u38-l3-06
+        type: fill_blank
+        sentence: "Prices rose. ___, fewer people bought the product."
+        translation: "המחירים עלו. כתוצאה מכך פחות אנשים קנו את המוצר."
+        answers: [Consequently]
+        options: [Consequently, Nevertheless, In addition]
+        lexemes: [consequently]
+      - id: u38-l3-07
+        type: fill_blank
+        sentence: "The plan is cheap. ___, it is easy to start."
+        translation: "התוכנית זולה. בנוסף, קל להתחיל אותה."
+        answers: [Furthermore]
+        options: [Furthermore, However, Nevertheless]
+        lexemes: [furthermore]
+      - id: u38-l3-08
+        type: multiple_choice
+        prompt: "איזה משפט פורמלי יותר?"
+        options: ["I would like to thank you all.", "Thanks, guys!", "Well done, everyone."]
+        correct: 0
+        lexemes: [i-would-like-to]
+      - id: u38-l3-09
+        type: multiple_choice
+        prompt: "מה פירוש In addition?"
+        options: [בנוסף, לסיכום, למרות זאת]
+        correct: 0
+        lexemes: [in-addition]
+      - id: u38-l3-10
+        type: dialogue_gap
+        lines:
+          - { speaker: "eli", text: "The sales figures were excellent.", translation: "נתוני המכירות היו מצוינים." }
+          - { speaker: "noa", text: "Yes. Furthermore, we gained fifty new customers.", translation: "כן. יתרה מזאת, הרווחנו חמישים לקוחות חדשים." }
+        gap: 1
+        distractors: ["Yes. Nevertheless, we gained fifty new customers.", "Yes. Consequently, we gain fifty new customer."]
+        lexemes: [furthermore, client]
+      - id: u38-l3-11
+        type: word_bank
+        prompt: "הנתונים טובים. עם זאת, אנחנו צריכים עוד זמן."
+        answers: ["The figures are good. However, we need more time.", "The figures are good. Nevertheless, we need more time.", "The data is good. However, we need more time.", "The data is good. Nevertheless, we need more time."]
+        distractors: [furthermore, lot]
+        lexemes: [however, nevertheless]
+      - id: u38-l3-12
+        type: translate
+        direction: to_target
+        prompt: "לסיכום, אנחנו ממליצים על גישה חדשה."
+        answers: ["In conclusion, we recommend a new approach.", "To sum up, we recommend a new approach.", "In conclusion, we recommend a new way."]
+        lexemes: [in-conclusion, recommend]
+      - id: u38-l3-13
+        type: translate
+        direction: to_source
+        prompt: "It rained all day. Nevertheless, the conference was a success."
+        answers: ["ירד גשם כל היום. למרות זאת הכנס הצליח.", "ירד גשם כל היום. עם זאת הכנס הצליח."]
+        lexemes: [nevertheless, conference]
+      - id: u38-l3-14
+        type: speak_repeat
+        text: "The results were good. Furthermore, costs fell."
+        translation: "התוצאות היו טובות. יתרה מזאת, העלויות ירדו."
+        lexemes: [furthermore, result-noun]
+
+  # ------------------------------------------------------------------ 4
+  - id: u38-l4
+    kind: listening
+    title: { he: "שאלות מהקהל", en: "Questions from the audience" }
+    exercises:
+      - id: u38-l4-01
+        type: dialogue
+        scene: "אחרי ההרצאה. הקהל שואל שאלות."
+        lines:
+          - { speaker: "noa", text: "Are there any questions?", translation: "יש שאלות?" }
+          - { speaker: "miriam", text: "Yes. How did you measure the results?", translation: "כן. איך מדדתם את התוצאות?" }
+          - { speaker: "noa", text: "That's a good question. We used customer surveys. In addition, we looked at sales figures.", translation: "זו שאלה טובה. השתמשנו בסקרי לקוחות. בנוסף, בדקנו את נתוני המכירות." }
+          - { speaker: "cohen", text: "Would you say the method works for small companies?", translation: "היית אומרת שהשיטה עובדת גם בחברות קטנות?" }
+          - { speaker: "noa", text: "I believe so. Nevertheless, every company is different, so I would suggest starting with a small test.", translation: "אני מאמינה שכן. עם זאת, כל חברה שונה, ולכן הייתי מציעה להתחיל בניסוי קטן." }
+          - { speaker: "cohen", text: "Thank you. A very interesting talk.", translation: "תודה. הרצאה מעניינת מאוד." }
+      - id: u38-l4-02
+        type: multiple_choice
+        prompt: "איך מדדו את התוצאות?"
+        options: [בסקרי לקוחות ובנתוני מכירות, בניחושים, בראיונות עם עובדים]
+        correct: 0
+        lexemes: [result-noun]
+      - id: u38-l4-03
+        type: multiple_choice
+        prompt: "מה נועה מציעה לחברות קטנות?"
+        options: [להתחיל בניסוי קטן, לא לנסות, לשכור יועץ]
+        correct: 0
+        lexemes: [suggest]
+      - id: u38-l4-04
+        type: listening_choice
+        audioText: "That's a good question. Let me refer to the second slide."
+        question: מה היא אומרת?
+        options: [שזו שאלה טובה ושתתייחס לשקופית השנייה, שהיא לא יודעת, שההרצאה נגמרה]
+        correct: 0
+        lexemes: [good-question, refer-to]
+      - id: u38-l4-05
+        type: dictation
+        text: "Are there any questions?"
+        lexemes: [any-questions]
+      - id: u38-l4-06
+        type: translate
+        direction: to_target
+        prompt: "זו שאלה טובה."
+        answers: ["That's a good question.", "That is a good question.", "It's a good question.", "It is a good question."]
+        lexemes: [good-question]
+      - id: u38-l4-07
+        type: translate
+        direction: to_target
+        prompt: "יש שאלות?"
+        answers: ["Are there any questions?", "Any questions?", "Do you have any questions?"]
+        lexemes: [any-questions]
+      - id: u38-l4-08
+        type: speak_repeat
+        text: "That's a good question. In addition, we looked at sales figures."
+        translation: "זו שאלה טובה. בנוסף, בדקנו את נתוני המכירות."
+        lexemes: [good-question, in-addition]
+
+  # ------------------------------------------------------------------ 5
+  - id: u38-l5
+    kind: reading
+    title: { he: "איך לבנות הרצאה טובה", en: "How to give a great talk" }
+    exercises:
+      - id: u38-l5-01
+        type: reading
+        kind: "מדריך"
+        title: "A simple guide to great presentations"
+        text: |
+          Good presentations are not about slides. They are about people.
+
+          To begin with, know your audience. Consequently, you can choose examples that matter to them. Furthermore, keep your outline simple: an introduction, three key points, and a conclusion.
+
+          Many speakers fill their slides with text. Nevertheless, research suggests that audiences remember pictures and stories much better than words. In addition, a short pause can be more powerful than another sentence.
+
+          Finally, practise aloud. Even experienced speakers admit feeling nervous. In conclusion: prepare carefully, speak clearly, and smile.
+        translation: |
+          הרצאות טובות אינן עוסקות בשקופיות. הן עוסקות באנשים.
+
+          קודם כול, הכירו את הקהל שלכם. כתוצאה מכך תוכלו לבחור דוגמאות שחשובות לו. יתרה מזאת, שמרו על מתווה פשוט: הקדמה, שלוש נקודות מרכזיות וסיכום.
+
+          הרבה מרצים ממלאים את השקופיות בטקסט. עם זאת, מחקרים מצביעים על כך שהקהל זוכר תמונות וסיפורים הרבה יותר טוב ממילים. בנוסף, הפסקה קצרה יכולה להיות חזקה יותר ממשפט נוסף.
+
+          לבסוף, התאמנו בקול. גם מרצים ותיקים מודים שהם מתרגשים. לסיכום: התכוננו בקפידה, דברו בבהירות, וחייכו.
+      - id: u38-l5-02
+        type: multiple_choice
+        prompt: "על מה ההרצאה הטובה, לפי הכותב?"
+        options: [על אנשים, על שקופיות, על נתונים]
+        correct: 0
+        lexemes: [audience]
+      - id: u38-l5-03
+        type: multiple_choice
+        prompt: "מה הקהל זוכר טוב יותר?"
+        options: [תמונות וסיפורים, טקסט, נתונים]
+        correct: 0
+        lexemes: [slide, audience]
+      - id: u38-l5-04
+        type: multiple_choice
+        prompt: "מה אפילו מרצים ותיקים מודים?"
+        options: [שהם מתרגשים, שהם משעממים, שהם לא מתכוננים]
+        correct: 0
+        lexemes: [admit]
+      - id: u38-l5-05
+        type: fill_blank
+        sentence: "Know your audience. ___, you can choose better examples."
+        translation: "הכירו את הקהל. כתוצאה מכך תוכלו לבחור דוגמאות טובות יותר."
+        answers: [Consequently]
+        options: [Consequently, Nevertheless, In conclusion]
+        lexemes: [consequently]
+      - id: u38-l5-06
+        type: fill_blank
+        sentence: "Many speakers use a lot of text. ___, audiences remember pictures better."
+        translation: "הרבה מרצים משתמשים בהרבה טקסט. עם זאת, הקהל זוכר תמונות טוב יותר."
+        answers: [Nevertheless]
+        options: [Nevertheless, Furthermore, Consequently]
+        lexemes: [nevertheless]
+      - id: u38-l5-07
+        type: translate
+        direction: to_target
+        prompt: "התכוננו בקפידה ודברו בבהירות."
+        answers: ["Prepare carefully and speak clearly.", "Prepare carefully, and speak clearly."]
+        lexemes: [in-conclusion]
+      - id: u38-l5-08
+        type: speak_repeat
+        text: "In conclusion: prepare carefully, speak clearly, and smile."
+        translation: "לסיכום: התכוננו בקפידה, דברו בבהירות, וחייכו."
+        lexemes: [in-conclusion]
+
+  # ------------------------------------------------------------------ 6
+  - id: u38-review
+    kind: review
+    title: { he: "חזרה: ההרצאה", en: "Review: the presentation" }
+    exercises:
+      - id: u38-r-01
+        type: match_pairs
+        pairs:
+          - [furthermore, יתרה מזאת]
+          - [nevertheless, למרות זאת]
+          - [consequently, כתוצאה מכך]
+          - [in addition, בנוסף]
+          - [to sum up, לסכם]
+        lexemes: [furthermore, nevertheless, consequently, in-addition, sum-up]
+      - id: u38-r-02
+        type: fill_blank
+        sentence: "On ___ of the company, I would like to welcome you."
+        translation: "בשם החברה, ברצוני לברך אתכם."
+        answers: [behalf]
+        options: [behalf, name, part]
+        lexemes: [on-behalf-of]
+      - id: u38-r-03
+        type: fill_blank
+        sentence: "It was raining. ___, we went for a walk."
+        translation: "ירד גשם. למרות זאת יצאנו לטייל."
+        answers: [Nevertheless]
+        options: [Nevertheless, Consequently, Furthermore]
+        lexemes: [nevertheless]
+      - id: u38-r-04
+        type: listening_choice
+        audioText: "In conclusion, I would like to thank the audience."
+        question: מה הדובר עושה?
+        options: [מסכם ומודה לקהל, פותח הרצאה, שואל שאלה]
+        correct: 0
+        lexemes: [in-conclusion, audience]
+      - id: u38-r-05
+        type: multiple_choice
+        prompt: "איזה משפט הכי רשמי?"
+        options: ["I would like to ask a question.", "Can I ask something?", "Hey, quick question!"]
+        correct: 0
+        lexemes: [i-would-like-to]
+      - id: u38-r-06
+        type: word_bank
+        prompt: "שקופית ארבע מראה נתונים חשובים."
+        answers: ["Slide four shows important statistics.", "Slide four shows important data."]
+        distractors: [show, statistic]
+        lexemes: [slide, statistics]
+      - id: u38-r-07
+        type: translate
+        direction: to_target
+        prompt: "ברצוני להתייחס לנקודה הראשונה."
+        answers: ["I would like to refer to the first point.", "I'd like to refer to the first point.", "I would like to refer to the first key point."]
+        lexemes: [i-would-like-to, refer-to]
+      - id: u38-r-08
+        type: translate
+        direction: to_source
+        prompt: "That's a good question."
+        answers: ["זו שאלה טובה.", "זאת שאלה טובה."]
+        lexemes: [good-question]
+      - id: u38-r-09
+        type: dictation
+        text: "Furthermore, costs fell by ten percent."
+        lexemes: [furthermore]
+      - id: u38-r-10
+        type: speak_repeat
+        text: "To begin with, I will refer to some statistics."
+        translation: "קודם כול, אתייחס לכמה נתונים."
+        lexemes: [to-begin-with, refer-to, statistics]

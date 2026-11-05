@@ -1,0 +1,481 @@
+id: u28-people
+cefr: B1
+scene: family
+title:
+  he: אנשים בחיים שלי
+  en: People in my life
+story: "ההורים של נועה באים לבקר בלונדון. היא מכירה להם את בן, את תמר ואת גברת כץ, ומתארת לכל אחד את האנשים שהיא אוהבת: מי טוב לב, מי ביישן, ומי דומה למי."
+canDo:
+  - לתאר אופי של אנשים
+  - להוסיף מידע עם who, which, that ו־where
+  - לדבר על דמיון במשפחה ועל ילדות
+  - להגיד עם מי אני מסתדר טוב
+
+vocabulary:
+  - { id: "kind", text: "kind", translation: "טוב לב", pos: "adjective", pronunciation: "קַיינְד" }
+  - { id: "generous", text: "generous", translation: "נדיב", pos: "adjective", pronunciation: "ג'ֶנֶרֶס" }
+  - { id: "honest", text: "honest", translation: "ישר, כן", pos: "adjective", pronunciation: "אוֹנֶסְט" }
+  - { id: "shy", text: "shy", translation: "ביישן", pos: "adjective", pronunciation: "שַׁיי" }
+  - { id: "outgoing", text: "outgoing", translation: "חברותי, מוחצן", pos: "adjective", pronunciation: "אַאוּטְגוֹאִינְג" }
+  - { id: "patient", text: "patient", translation: "סבלני", pos: "adjective", pronunciation: "פֵּיישֶׁנְט" }
+  - { id: "reliable", text: "reliable", translation: "אמין", pos: "adjective", pronunciation: "רִילַייאַבְּל" }
+  - { id: "hard-working", text: "hard-working", translation: "חרוץ", pos: "adjective", pronunciation: "הַארְד וֶורְקִינְג" }
+  - { id: "lazy", text: "lazy", translation: "עצלן", pos: "adjective", pronunciation: "לֵייזִי" }
+  - { id: "selfish", text: "selfish", translation: "אנוכי", pos: "adjective", pronunciation: "סֶלְפִישׁ" }
+  - { id: "personality", text: "personality", translation: "אישיות", pos: "noun", pronunciation: "פֶּרְסוֹנֶלִיטִי" }
+  - { id: "who-rel", text: "who", translation: "ש־ (על אנשים)", pos: "pronoun", pronunciation: "הוּ", example: { text: "Ben is the colleague who helped me.", translation: "בן הוא העמית שעזר לי." } }
+  - { id: "which-rel", text: "which", translation: "ש־ (על דברים)", pos: "pronoun", pronunciation: "וִויץ'", example: { text: "This is the café which I love.", translation: "זה בית הקפה שאני אוהבת." } }
+  - { id: "where-rel", text: "where", translation: "ש־ (על מקומות), איפה ש־", pos: "pronoun", pronunciation: "וֶור", example: { text: "This is the street where I live.", translation: "זה הרחוב שבו אני גרה." } }
+  - { id: "get-on-with", text: "get on with", translation: "להסתדר עם", pos: "phrase", pronunciation: "גֶט אוֹן וִויד'", example: { text: "I get on well with my colleagues.", translation: "אני מסתדרת טוב עם העמיתים שלי." } }
+  - { id: "look-like", text: "look like", translation: "להיראות כמו, לדמות ל־ (במראה)", pos: "phrase", pronunciation: "לוּק לַייק" }
+  - { id: "take-after", text: "take after", translation: "להיות דומה ל־ (באופי, במשפחה)", pos: "phrase", pronunciation: "טֵייק אַפְטֶר", example: { text: "I take after my mother.", translation: "אני דומה לאמא שלי." } }
+  - { id: "grow-up", text: "grow up", translation: "לגדול", pos: "verb", pronunciation: "גְרוֹ אַפּ", example: { text: "I grew up in Haifa.", translation: "גדלתי בחיפה." } }
+  - { id: "childhood", text: "childhood", translation: "ילדות", pos: "noun", pronunciation: "צ'ַיילְדְהוּד" }
+  - { id: "close-to", text: "close to", translation: "קרוב ל־ (רגשית)", pos: "phrase", pronunciation: "קְלוֹס טוּ", example: { text: "I'm very close to my sister.", translation: "אני מאוד קרובה לאחותי." } }
+
+grammar:
+  - id: relative-clauses
+    title: { he: "משפטי זיקה: who, which, where", en: "Relative clauses" }
+    explanation: |
+      בעברית "ש־" עובד לכל דבר: האיש **ש**עזר, הספר **ש**קניתי, העיר **ש**גדלתי בה. באנגלית בוחרים לפי מה שמתארים:
+
+      - **who** על אנשים: **She's the neighbour who helped me.**
+      - **which** על דברים ובעלי חיים: **It's the app which we built.**
+      - **that** אפשר גם לאנשים וגם לדברים, בעיקר בדיבור: **the man that called, the book that I read**.
+      - **where** על מקומות: **That's the café where we met.**
+
+      שימו לב: אין צורך לחזור על המילה. בעברית "העיר שגדלתי **בה**", באנגלית **the city where I grew up** (בלי "in it").
+
+      ואם ה־who / which / that הוא המושא (ולא העושה), אפשר גם להשמיט: **the book (that) I read**.
+    examples:
+      - { text: "Mrs. Katz is the landlady who looks after everyone.", translation: "גברת כץ היא בעלת הבית שדואגת לכולם." }
+      - { text: "This is the photo which my dad took.", translation: "זו התמונה שאבא שלי צילם." }
+      - { text: "Haifa is the city where I grew up.", translation: "חיפה היא העיר שבה גדלתי." }
+
+lessons:
+  # ------------------------------------------------------------------ 1
+  - id: u28-l1
+    kind: new
+    title: { he: "תכירו את החברים שלי", en: "Meet my friends" }
+    exercises:
+      - id: u28-l1-01
+        type: dialogue
+        scene: "ההורים של נועה בלונדון. בשיחת וידאו לפני כן, נועה מספרת לאמא על החברים."
+        lines:
+          - { speaker: "noa", text: "Mum, you'll love Ben. He's so kind and generous. He always pays for coffee!", translation: "אמא, את תאהבי את בן. הוא כל כך טוב לב ונדיב. הוא תמיד משלם על הקפה!" }
+          - { speaker: "noa", text: "Tamar is a bit shy at first, but she's really funny when you know her.", translation: "תמר קצת ביישנית בהתחלה, אבל היא ממש מצחיקה כשמכירים אותה." }
+          - { speaker: "noa", text: "And David is very outgoing. He talks to everyone!", translation: "ודוד מאוד חברותי. הוא מדבר עם כולם!" }
+          - { speaker: "noa", text: "Mrs. Katz is very patient with me. She's like a grandmother.", translation: "גברת כץ מאוד סבלנית איתי. היא כמו סבתא." }
+      - { id: "u28-l1-02", type: "learn", lexeme: "personality" }
+      - { id: "u28-l1-03", type: "learn", lexeme: "kind" }
+      - { id: "u28-l1-04", type: "learn", lexeme: "generous" }
+      - { id: "u28-l1-05", type: "learn", lexeme: "shy" }
+      - { id: "u28-l1-06", type: "learn", lexeme: "outgoing" }
+      - { id: "u28-l1-07", type: "learn", lexeme: "patient" }
+      - id: u28-l1-08
+        type: match_pairs
+        pairs:
+          - [kind, טוב לב]
+          - [generous, נדיב]
+          - [shy, ביישן]
+          - [outgoing, חברותי]
+          - [patient, סבלני]
+        lexemes: [kind, generous, shy, outgoing, patient]
+      - id: u28-l1-09
+        type: multiple_choice
+        prompt: "למה נועה אומרת שבן נדיב?"
+        options: [הוא תמיד משלם על הקפה, הוא עוזר לכולם, הוא נותן מתנות]
+        correct: 0
+        lexemes: [generous]
+      - id: u28-l1-10
+        type: multiple_choice
+        prompt: "איך תמר בהתחלה?"
+        options: [קצת ביישנית, מאוד חברותית, עצבנית]
+        correct: 0
+        lexemes: [shy]
+      - id: u28-l1-11
+        type: listening_choice
+        audioText: "My brother is very outgoing, but I'm quite shy."
+        question: מה היא אומרת?
+        options: [האח חברותי והיא ביישנית, שניהם ביישנים, האח ביישן והיא חברותית]
+        correct: 0
+        lexemes: [outgoing, shy]
+      - id: u28-l1-12
+        type: word_bank
+        prompt: "היא מאוד סבלנית עם ילדים."
+        answers: ["She's very patient with children.", "She is very patient with children."]
+        distractors: [kind, for]
+        lexemes: [patient, children]
+      - id: u28-l1-13
+        type: speak_repeat
+        text: "Ben is kind and generous, and Tamar is very funny."
+        translation: "בן טוב לב ונדיב, ותמר מאוד מצחיקה."
+        lexemes: [kind, generous, funny]
+
+  # ------------------------------------------------------------------ 2
+  - id: u28-l2
+    kind: new
+    title: { he: "טוב, רע, אמין", en: "Good, bad, reliable" }
+    exercises:
+      - { id: "u28-l2-01", type: "learn", lexeme: "honest" }
+      - { id: "u28-l2-02", type: "learn", lexeme: "reliable" }
+      - { id: "u28-l2-03", type: "learn", lexeme: "hard-working" }
+      - { id: "u28-l2-04", type: "learn", lexeme: "lazy" }
+      - { id: "u28-l2-05", type: "learn", lexeme: "selfish" }
+      - id: u28-l2-06
+        type: dialogue
+        scene: "אבא של נועה שואל על העבודה."
+        lines:
+          - { speaker: "noa", text: "My team is great. David is very reliable. If he says he'll do something, he does it.", translation: "הצוות שלי מעולה. דוד מאוד אמין. אם הוא אומר שיעשה משהו, הוא עושה." }
+          - { speaker: "noa", text: "Tamar is so hard-working. She never stops!", translation: "תמר כל כך חרוצה. היא לא מפסיקה אף פעם!" }
+          - { speaker: "noa", text: "And Ben is always honest with me, even when I don't want to hear it.", translation: "ובן תמיד כן איתי, גם כשאני לא רוצה לשמוע." }
+          - { speaker: "noa", text: "My old boss was the opposite: lazy and a bit selfish.", translation: "הבוס הקודם שלי היה ההפך: עצלן וקצת אנוכי." }
+      - id: u28-l2-07
+        type: match_pairs
+        pairs:
+          - [honest, ישר]
+          - [reliable, אמין]
+          - [hard-working, חרוץ]
+          - [lazy, עצלן]
+          - [selfish, אנוכי]
+        lexemes: [honest, reliable, hard-working, lazy, selfish]
+      - id: u28-l2-08
+        type: multiple_choice
+        prompt: "למה נועה אומרת שדוד אמין?"
+        options:
+          - "כשהוא מבטיח, הוא עושה"
+          - הוא תמיד מגיע מוקדם
+          - הוא לא מאחר לפגישות
+        correct: 0
+        lexemes: [reliable]
+      - id: u28-l2-09
+        type: multiple_choice
+        prompt: "מה ההפך של hard-working?"
+        options: [lazy, honest, reliable]
+        correct: 0
+        lexemes: [hard-working, lazy]
+      - id: u28-l2-10
+        type: fill_blank
+        sentence: "He only thinks about himself. He's so ___ ."
+        translation: "הוא חושב רק על עצמו. הוא כל כך אנוכי."
+        answers: [selfish]
+        options: [selfish, generous, shy]
+        lexemes: [selfish]
+      - id: u28-l2-11
+        type: dialogue_gap
+        lines:
+          - { speaker: "katz", text: "What do you think of your new team leader?", translation: "מה את חושבת על ראש הצוות החדשה שלך?" }
+          - { speaker: "tamar", text: "She's great. She's honest, and she listens to everyone.", translation: "היא מעולה. היא כנה, והיא מקשיבה לכולם." }
+        gap: 1
+        distractors: ["She's great. She's lazy, and she listens to everyone.", "She's honestly great listen everyone."]
+        lexemes: [honest]
+      - id: u28-l2-12
+        type: translate
+        direction: to_target
+        prompt: "הוא העובד הכי חרוץ בצוות."
+        answers: ["He's the most hard-working person in the team.", "He is the most hard-working person in the team.", "He's the hardest-working person in the team.", "He's the most hard-working person on the team.", "He's the hardest-working person on the team."]
+        lexemes: [hard-working, the-most, team]
+      - id: u28-l2-13
+        type: speak_repeat
+        text: "David is very reliable, and Tamar is so hard-working."
+        translation: "דוד מאוד אמין, ותמר כל כך חרוצה."
+        lexemes: [reliable, hard-working]
+
+  # ------------------------------------------------------------------ 3
+  - id: u28-l3
+    kind: grammar
+    grammar: relative-clauses
+    title: { he: "האיש שעזר לי", en: "The man who helped me" }
+    exercises:
+      - { id: "u28-l3-01", type: "learn", lexeme: "who-rel" }
+      - { id: "u28-l3-02", type: "learn", lexeme: "which-rel" }
+      - { id: "u28-l3-03", type: "learn", lexeme: "where-rel" }
+      - id: u28-l3-04
+        type: fill_blank
+        sentence: "Ben is the colleague ___ helped me on my first day."
+        translation: "בן הוא העמית שעזר לי ביום הראשון."
+        answers: [who]
+        options: [who, which, where]
+        lexemes: [who-rel, colleague]
+      - id: u28-l3-05
+        type: fill_blank
+        sentence: "This is the app ___ we built."
+        translation: "זו האפליקציה שבנינו."
+        answers: [which]
+        options: [which, who, where]
+        lexemes: [which-rel]
+      - id: u28-l3-06
+        type: fill_blank
+        sentence: "That's the café ___ I met Ben."
+        translation: "זה בית הקפה שבו פגשתי את בן."
+        answers: [where]
+        options: [where, which, who]
+        lexemes: [where-rel]
+      - id: u28-l3-07
+        type: multiple_choice
+        prompt: איזה משפט נכון?
+        options: ["Tel Aviv is the city where I live.", "Tel Aviv is the city where I live in it.", "Tel Aviv is the city who I live."]
+        correct: 0
+        lexemes: [where-rel, live]
+      - id: u28-l3-08
+        type: multiple_choice
+        prompt: "איפה אפשר להשתמש ב־that?"
+        options: ["the book that I read", "the city that I live in it", "Tamar, that is my neighbour"]
+        correct: 0
+        lexemes: [which-rel]
+      - id: u28-l3-09
+        type: dialogue_gap
+        lines:
+          - { speaker: "noa", text: "Who's Mrs. Katz?", translation: "מי זו גברת כץ?" }
+          - { speaker: "ben", text: "She's the landlady who lives downstairs.", translation: "היא בעלת הבית שגרה למטה." }
+        gap: 1
+        distractors: ["She's the landlady which lives downstairs.", "She's the landlady who she lives downstairs."]
+        lexemes: [who-rel, downstairs]
+      - id: u28-l3-10
+        type: word_bank
+        prompt: "זה המלון שבו ישנו."
+        answers: ["This is the hotel where we slept.", "That's the hotel where we slept.", "This is the hotel where we stayed."]
+        distractors: [which, it]
+        lexemes: [where-rel, hotel]
+      - id: u28-l3-11
+        type: translate
+        direction: to_target
+        prompt: "זה הספר שאמא שלי נתנה לי."
+        answers: ["This is the book which my mother gave me.", "This is the book that my mother gave me.", "This is the book my mother gave me.", "This is the book which my mum gave me.", "This is the book that my mum gave me.", "This is the book my mum gave me."]
+        lexemes: [which-rel]
+      - id: u28-l3-12
+        type: translate
+        direction: to_source
+        prompt: "I have a friend who speaks five languages."
+        answers: ["יש לי חבר שמדבר חמש שפות.", "יש לי חברה שמדברת חמש שפות."]
+        lexemes: [who-rel, language]
+      - id: u28-l3-13
+        type: speak_repeat
+        text: "Haifa is the city where I grew up."
+        translation: "חיפה היא העיר שבה גדלתי."
+        lexemes: [where-rel]
+
+  # ------------------------------------------------------------------ 4
+  - id: u28-l4
+    kind: listening
+    title: { he: "על מי את דומה?", en: "Who do you take after?" }
+    exercises:
+      - { id: "u28-l4-01", type: "learn", lexeme: "look-like" }
+      - { id: "u28-l4-02", type: "learn", lexeme: "take-after" }
+      - { id: "u28-l4-03", type: "learn", lexeme: "grow-up" }
+      - { id: "u28-l4-04", type: "learn", lexeme: "childhood" }
+      - { id: "u28-l4-05", type: "learn", lexeme: "close-to" }
+      - { id: "u28-l4-06", type: "learn", lexeme: "get-on-with" }
+      - id: u28-l4-07
+        type: dialogue
+        scene: "ארוחת ערב. ההורים של נועה פוגשים את בן ואת רחל."
+        lines:
+          - { speaker: "rachel", text: "Noa, you really look like your mum!", translation: "נועה, את ממש דומה לאמא שלך!" }
+          - { speaker: "noa", text: "Everyone says that. But I take after my dad. We're both very stubborn!", translation: "כולם אומרים את זה. אבל באופי אני דומה לאבא. שנינו מאוד עקשנים!" }
+          - { speaker: "ben", text: "Where did you grow up, Noa? Tel Aviv?", translation: "איפה גדלת, נועה? בתל אביב?" }
+          - { speaker: "noa", text: "No, in Haifa. We moved to Tel Aviv when I was fifteen.", translation: "לא, בחיפה. עברנו לתל אביב כשהייתי בת חמש־עשרה." }
+          - { speaker: "rachel", text: "Ben and I grew up in a small town near Brighton. We had a very happy childhood.", translation: "בן ואני גדלנו בעיירה קטנה ליד ברייטון. הייתה לנו ילדות מאוד מאושרת." }
+          - { speaker: "ben", text: "And we're still very close. Well, most of the time!", translation: "ואנחנו עדיין מאוד קרובים. טוב, רוב הזמן!" }
+      - id: u28-l4-08
+        type: multiple_choice
+        prompt: "למי נועה דומה באופי?"
+        options: [לאבא שלה, לאמא שלה, לאח שלה]
+        correct: 0
+        lexemes: [take-after]
+      - id: u28-l4-09
+        type: multiple_choice
+        prompt: "איפה נועה גדלה?"
+        options: [בחיפה, בתל אביב, בירושלים]
+        correct: 0
+        lexemes: [grow-up]
+      - id: u28-l4-10
+        type: multiple_choice
+        prompt: "מה ההבדל בין look like ל־take after?"
+        options: [מראה מול אופי, אופי מול מראה, אין הבדל]
+        correct: 0
+        lexemes: [look-like, take-after]
+      - id: u28-l4-11
+        type: listening_choice
+        audioText: "I get on really well with my sister. We're very close."
+        question: מה היא אומרת על אחותה?
+        options: [הן מסתדרות טוב וקרובות מאוד, הן לא מדברות, הן דומות במראה]
+        correct: 0
+        lexemes: [get-on-with, close-to]
+      - id: u28-l4-12
+        type: dialogue_gap
+        lines:
+          - { speaker: "katz", text: "Do you get on with your brother?", translation: "את מסתדרת עם אח שלך?" }
+          - { speaker: "rachel", text: "Yes, we get on really well. He's my best friend.", translation: "כן, אנחנו מסתדרים ממש טוב. הוא החבר הכי טוב שלי." }
+        gap: 1
+        distractors: ["Yes, we get really well on. He's my best friend.", "Yes, we take after really well."]
+        lexemes: [get-on-with]
+      - id: u28-l4-13
+        type: dictation
+        text: "I take after my father."
+        lexemes: [take-after]
+      - id: u28-l4-14
+        type: translate
+        direction: to_target
+        prompt: "גדלתי בעיר קטנה."
+        answers: ["I grew up in a small town.", "I grew up in a small city."]
+        lexemes: [grow-up]
+      - id: u28-l4-15
+        type: speak_repeat
+        text: "I look like my mum, but I take after my dad."
+        translation: "אני דומה לאמא שלי במראה, אבל באופי אני דומה לאבא שלי."
+        lexemes: [look-like, take-after]
+
+  # ------------------------------------------------------------------ 5
+  - id: u28-l5
+    kind: reading
+    title: { he: "האדם שהכי השפיע עליי", en: "The person who inspired me" }
+    exercises:
+      - id: u28-l5-01
+        type: reading
+        kind: "חיבור בבלוג"
+        title: "The person who changed my life"
+        text: |
+          When I was twelve, I had an English teacher who changed my life. Her name was Mrs. Shapiro.
+
+          I was a very shy child, and English was the subject which I hated most. Mrs. Shapiro was patient and kind. She never laughed at my mistakes. Instead, she gave me books about places where I wanted to travel: London, New York, Sydney.
+
+          She was also honest. When my homework was lazy, she told me! But she always believed in me.
+
+          Today I work in London and speak English every day. Last year I found her on social media and sent her a message: "Thank you. You're the teacher who made all this possible."
+
+          She wrote back: "I always knew you could do it."
+        translation: |
+          כשהייתי בת שתים־עשרה, הייתה לי מורה לאנגלית ששינתה את חיי. קראו לה גברת שפירא.
+
+          הייתי ילדה מאוד ביישנית, ואנגלית הייתה המקצוע ששנאתי הכי הרבה. גברת שפירא הייתה סבלנית וטובת לב. היא אף פעם לא צחקה על הטעויות שלי. במקום זה, היא נתנה לי ספרים על מקומות שרציתי לטייל בהם: לונדון, ניו יורק, סידני.
+
+          היא גם הייתה כנה. כשעשיתי שיעורי בית בעצלנות, היא אמרה לי! אבל היא תמיד האמינה בי.
+
+          היום אני עובדת בלונדון ומדברת אנגלית כל יום. בשנה שעברה מצאתי אותה ברשתות החברתיות ושלחתי לה הודעה: "תודה. את המורה שאפשרה את כל זה."
+
+          היא ענתה: "תמיד ידעתי שתצליחי."
+      - id: u28-l5-02
+        type: multiple_choice
+        prompt: "איזו ילדה הייתה הכותבת?"
+        options: [ביישנית, חברותית, עצלנית]
+        correct: 0
+        lexemes: [shy, childhood]
+      - id: u28-l5-03
+        type: multiple_choice
+        prompt: "מה גברת שפירא נתנה לה?"
+        options: [ספרים על מקומות שרצתה לטייל בהם, שיעורים פרטיים, ציונים גבוהים]
+        correct: 0
+        lexemes: [where-rel]
+      - id: u28-l5-04
+        type: multiple_choice
+        prompt: "למה הכותבת אומרת שהמורה הייתה כנה?"
+        options: [היא אמרה לה כשהעבודה הייתה עצלנית, היא תמיד צחקה, היא לא נתנה שיעורי בית]
+        correct: 0
+        lexemes: [honest, lazy]
+      - id: u28-l5-05
+        type: multiple_choice
+        prompt: "מה המורה ענתה?"
+        options: [תמיד ידעתי שתצליחי, מי את?, אני זוכרת שהיית עצלנית]
+        correct: 0
+        lexemes: [who-rel]
+      - id: u28-l5-06
+        type: fill_blank
+        sentence: "I had an English teacher ___ changed my life."
+        translation: "הייתה לי מורה לאנגלית ששינתה את חיי."
+        answers: [who]
+        options: [who, which, where]
+        lexemes: [who-rel, teacher]
+      - id: u28-l5-07
+        type: fill_blank
+        sentence: "English was the subject ___ I hated most."
+        translation: "אנגלית הייתה המקצוע ששנאתי הכי הרבה."
+        answers: [which]
+        options: [which, who, where]
+        lexemes: [which-rel]
+      - id: u28-l5-08
+        type: word_bank
+        prompt: "היא אף פעם לא צחקה על הטעויות שלי."
+        answers: ["She never laughed at my mistakes."]
+        distractors: [on, mistake]
+        lexemes: [never, mistake]
+      - id: u28-l5-09
+        type: translate
+        direction: to_target
+        prompt: "היא הייתה סבלנית וטובת לב."
+        answers: ["She was patient and kind.", "She was kind and patient."]
+        lexemes: [patient, kind]
+      - id: u28-l5-10
+        type: speak_repeat
+        text: "You're the teacher who made all this possible."
+        translation: "את המורה שאפשרה את כל זה."
+        lexemes: [who-rel, teacher]
+
+  # ------------------------------------------------------------------ 6
+  - id: u28-review
+    kind: review
+    title: { he: "חזרה: אנשים בחיים שלי", en: "Review: people in my life" }
+    exercises:
+      - id: u28-r-01
+        type: match_pairs
+        pairs:
+          - [grow up, לגדול]
+          - [childhood, ילדות]
+          - [look like, להיראות כמו]
+          - [get on with, להסתדר עם]
+          - [personality, אישיות]
+        lexemes: [grow-up, childhood, look-like, get-on-with, personality]
+      - id: u28-r-02
+        type: fill_blank
+        sentence: "The woman ___ lives next door is a doctor."
+        translation: "האישה שגרה בבית הסמוך היא רופאה."
+        answers: [who]
+        options: [who, which, where]
+        lexemes: [who-rel, doctor]
+      - id: u28-r-03
+        type: listening_choice
+        audioText: "This is the restaurant where we celebrated my birthday."
+        question: מה המקום הזה?
+        options: [המסעדה שבה הם חגגו את יום ההולדת, המסעדה שבה הם עובדים, המסעדה שהם לא אוהבים]
+        correct: 0
+        lexemes: [where-rel]
+      - id: u28-r-04
+        type: word_bank
+        prompt: "אני מאוד קרוב לאחי."
+        answers: ["I'm very close to my brother.", "I am very close to my brother."]
+        distractors: [with, near]
+        lexemes: [close-to, brother]
+      - id: u28-r-05
+        type: dialogue_gap
+        lines:
+          - { speaker: "david", text: "Which phone is yours?", translation: "איזה טלפון שלך?" }
+          - { speaker: "tamar", text: "The one which is on the table.", translation: "זה שעל השולחן." }
+        gap: 1
+        distractors: ["The one who is on the table.", "The one where is on the table."]
+        lexemes: [which-rel, table]
+      - id: u28-r-06
+        type: multiple_choice
+        prompt: "מה ההפך של generous?"
+        options: [selfish, shy, honest]
+        correct: 0
+        lexemes: [generous, selfish]
+      - id: u28-r-07
+        type: translate
+        direction: to_target
+        prompt: "היא מאוד חברותית ומצחיקה."
+        answers: ["She's very outgoing and funny.", "She is very outgoing and funny."]
+        lexemes: [outgoing, funny]
+      - id: u28-r-08
+        type: translate
+        direction: to_source
+        prompt: "He's the most reliable person I know."
+        answers: ["הוא האדם הכי אמין שאני מכיר.", "הוא האדם הכי אמין שאני מכירה.", "הוא האיש הכי אמין שאני מכיר."]
+        lexemes: [reliable]
+      - id: u28-r-09
+        type: dictation
+        text: "Where did you grow up?"
+        lexemes: [grow-up]
+      - id: u28-r-10
+        type: speak_repeat
+        text: "Mrs. Katz is the neighbour who looks after everyone."
+        translation: "גברת כץ היא השכנה שדואגת לכולם."
+        lexemes: [who-rel, neighbour, look-after]

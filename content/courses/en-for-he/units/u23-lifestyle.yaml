@@ -1,0 +1,523 @@
+id: u23-lifestyle
+cefr: B1
+scene: health
+title:
+  he: הרגלים בריאים
+  en: Healthy habits
+story: "הפרויקט לוחץ, ונועה ישנה מעט, אוכלת מהר ולא זזה. ד\"ר שטרן ובן משכנעים אותה לשנות הרגלים: מה היה פעם, מה יקרה אם…"
+canDo:
+  - לדבר על הרגלים בריאים ולא בריאים
+  - לספר מה עשיתי פעם ואני כבר לא עושה (used to)
+  - להשתמש במשפטי תנאי אמיתיים (if + will)
+  - לתת ולקבל עצות על סגנון חיים
+
+vocabulary:
+  - { id: "habit", text: "habit", translation: "הרגל", pos: "noun", pronunciation: "הֶבִּיט" }
+  - { id: "healthy", text: "healthy", translation: "בריא", pos: "adjective", pronunciation: "הֶלְתִ'י" }
+  - { id: "unhealthy", text: "unhealthy", translation: "לא בריא", pos: "adjective", pronunciation: "אַנְהֶלְתִ'י" }
+  - { id: "exercise", text: "exercise", translation: "פעילות גופנית; להתאמן", pos: "noun", pronunciation: "אֶקְסֶרְסַייז", example: { text: "I don't get enough exercise.", translation: "אני לא עושה מספיק פעילות גופנית." } }
+  - { id: "gym", text: "gym", translation: "חדר כושר", pos: "noun", pronunciation: "ג'ִים" }
+  - { id: "diet", text: "diet", translation: "תזונה, דיאטה", pos: "noun", pronunciation: "דַייאֶט" }
+  - { id: "sleep", text: "sleep", translation: "שינה; לישון", pos: "noun", pronunciation: "סְלִיפּ" }
+  - { id: "stress", text: "stress", translation: "לחץ, סטרס", pos: "noun", pronunciation: "סְטְרֶס" }
+  - { id: "stressed", text: "stressed", translation: "לחוץ", pos: "adjective", pronunciation: "סְטְרֶסְט" }
+  - { id: "relax", text: "relax", translation: "להירגע", pos: "verb", pronunciation: "רִילֶקְס" }
+  - { id: "energy", text: "energy", translation: "אנרגיה", pos: "noun", pronunciation: "אֶנֶרְג'ִי" }
+  - { id: "enough", text: "enough", translation: "מספיק", pos: "adjective", pronunciation: "אִינַאף" }
+  - { id: "give-up", text: "give up", translation: "להפסיק, לוותר על", pos: "verb", pronunciation: "גִיב אַפּ", example: { text: "I gave up sugar.", translation: "הפסקתי לאכול סוכר." } }
+  - { id: "take-up", text: "take up", translation: "להתחיל (תחביב)", pos: "verb", pronunciation: "טֵייק אַפּ", example: { text: "I took up yoga.", translation: "התחלתי יוגה." } }
+  - { id: "used-to", text: "used to", translation: "נהגתי ל־ (פעם, כבר לא)", pos: "phrase", pronunciation: "יוּזְד טוּ", example: { text: "I used to run every day.", translation: "פעם רצתי כל יום." } }
+  - { id: "if-will", text: "if … will", translation: "אם… אז… (תנאי אמיתי)", pos: "phrase", pronunciation: "אִיף … וִויל", example: { text: "If you sleep more, you'll feel better.", translation: "אם תישני יותר, תרגישי יותר טוב." } }
+  - { id: "unless", text: "unless", translation: "אלא אם כן", pos: "conjunction", pronunciation: "אַנְלֶס" }
+  - { id: "get-fit", text: "get fit", translation: "להיכנס לכושר", pos: "phrase", pronunciation: "גֶט פִיט" }
+  - { id: "lose-weight", text: "lose weight", translation: "לרדת במשקל", pos: "phrase", pronunciation: "לוּז וֵויט" }
+  - { id: "skip", text: "skip", translation: "לדלג על (ארוחה)", pos: "verb", pronunciation: "סְקִיפּ", example: { text: "Don't skip breakfast.", translation: "אל תדלגי על ארוחת הבוקר." } }
+
+grammar:
+  - id: used-to-first-conditional
+    title: { he: "פעם ועכשיו, אם… אז…: used to ו־if", en: "Used to and the first conditional" }
+    explanation: |
+      **used to** מתאר הרגל או מצב **בעבר שכבר לא קיים**. בעברית אומרים "פעם…" או "הייתי נוהג…":
+      **I used to run every morning.** (פעם רצתי כל בוקר, היום כבר לא)
+      שאלה ושלילה, כמו בכל עבר: **Did you use to…? I didn't use to…** (בלי d!)
+
+      **משפט תנאי אמיתי** מדבר על משהו שבאמת יכול לקרות:
+      **If** + הווה פשוט, **will** + פועל
+      - **If you sleep more, you'll have more energy.**
+      - **You'll feel better if you exercise.** (אפשר להפוך את הסדר)
+
+      שימו לב: אחרי **if** לא אומרים will. בעברית "אם תישני", אבל באנגלית **If you sleep**, ולא "If you will sleep".
+
+      **unless** = אלא אם כן (if not): **You won't get fit unless you exercise.**
+    examples:
+      - { text: "Noa used to drink five coffees a day.", translation: "נועה נהגה לשתות חמישה קפה ביום." }
+      - { text: "If I go to bed early, I'll get up at six.", translation: "אם אלך לישון מוקדם, אקום בשש." }
+      - { text: "I won't go to the gym unless you come with me.", translation: "אני לא אלך לחדר כושר אלא אם כן תבוא איתי." }
+
+lessons:
+  # ------------------------------------------------------------------ 1
+  - id: u23-l1
+    kind: new
+    title: { he: "אין לי אנרגיה", en: "I've got no energy" }
+    exercises:
+      - id: u23-l1-01
+        type: dialogue
+        scene: "בדיקה שגרתית אצל ד\"ר שטרן."
+        lines:
+          - { speaker: "dr-stern", text: "So, Noa, how are you feeling these days?", translation: "אז נועה, איך את מרגישה בימים האלה?" }
+          - { speaker: "noa", text: "Tired. I've got no energy, and I'm always stressed.", translation: "עייפה. אין לי אנרגיה, ואני כל הזמן לחוצה." }
+          - { speaker: "dr-stern", text: "How much sleep do you get?", translation: "כמה את ישנה?" }
+          - { speaker: "noa", text: "About five hours. I work until midnight.", translation: "בערך חמש שעות. אני עובדת עד חצות." }
+          - { speaker: "dr-stern", text: "That isn't enough. And your diet? Do you get any exercise?", translation: "זה לא מספיק. ומה עם התזונה? את עושה פעילות גופנית?" }
+          - { speaker: "noa", text: "Honestly? Coffee, sandwiches and no exercise at all.", translation: "בכנות? קפה, כריכים ובכלל בלי פעילות גופנית." }
+      - { id: "u23-l1-02", type: "learn", lexeme: "energy" }
+      - { id: "u23-l1-03", type: "learn", lexeme: "stressed" }
+      - { id: "u23-l1-04", type: "learn", lexeme: "sleep" }
+      - { id: "u23-l1-05", type: "learn", lexeme: "enough" }
+      - { id: "u23-l1-06", type: "learn", lexeme: "diet" }
+      - { id: "u23-l1-07", type: "learn", lexeme: "exercise" }
+      - id: u23-l1-08
+        type: match_pairs
+        pairs:
+          - [energy, אנרגיה]
+          - [stressed, לחוץ]
+          - [sleep, שינה]
+          - [enough, מספיק]
+          - [diet, תזונה]
+        lexemes: [energy, stressed, sleep, enough, diet]
+      - id: u23-l1-09
+        type: multiple_choice
+        prompt: "כמה שעות נועה ישנה?"
+        options: [בערך חמש, בערך שבע, בערך שמונה]
+        correct: 0
+        lexemes: [sleep]
+      - id: u23-l1-10
+        type: multiple_choice
+        prompt: "מה נועה אוכלת ושותה?"
+        options: [קפה וכריכים, סלטים ומים, פירות ותה]
+        correct: 0
+        lexemes: [diet]
+      - { id: "u23-l1-11", type: "learn", lexeme: "healthy" }
+      - { id: "u23-l1-12", type: "learn", lexeme: "unhealthy" }
+      - { id: "u23-l1-13", type: "learn", lexeme: "habit" }
+      - id: u23-l1-14
+        type: listening_choice
+        audioText: "Five hours of sleep isn't enough. It's a very unhealthy habit."
+        question: מה הרופא חושב?
+        options: [חמש שעות שינה זה הרגל לא בריא, חמש שעות שינה זה מספיק, שינה פחות חשובה מתזונה]
+        correct: 0
+        lexemes: [sleep, enough, unhealthy, habit]
+      - id: u23-l1-15
+        type: word_bank
+        prompt: "אני לא עושה מספיק פעילות גופנית."
+        answers: ["I don't get enough exercise.", "I don't do enough exercise."]
+        distractors: [any, healthy]
+        lexemes: [enough, exercise]
+      - id: u23-l1-16
+        type: speak_repeat
+        text: "I'm always stressed and I've got no energy."
+        translation: "אני כל הזמן לחוצה ואין לי אנרגיה."
+        lexemes: [stressed, energy]
+
+  # ------------------------------------------------------------------ 2
+  - id: u23-l2
+    kind: new
+    title: { he: "מתחילים מחדש", en: "A fresh start" }
+    exercises:
+      - { id: "u23-l2-01", type: "learn", lexeme: "gym" }
+      - { id: "u23-l2-02", type: "learn", lexeme: "get-fit" }
+      - { id: "u23-l2-03", type: "learn", lexeme: "give-up" }
+      - { id: "u23-l2-04", type: "learn", lexeme: "take-up" }
+      - { id: "u23-l2-05", type: "learn", lexeme: "skip" }
+      - { id: "u23-l2-06", type: "learn", lexeme: "relax" }
+      - { id: "u23-l2-07", type: "learn", lexeme: "stress" }
+      - id: u23-l2-08
+        type: dialogue
+        scene: "נועה מספרת לבן על ההחלטות שלה."
+        lines:
+          - { speaker: "noa", text: "Dr. Stern says I need to change my habits.", translation: "ד\"ר שטרן אומר שאני צריכה לשנות הרגלים." }
+          - { speaker: "ben", text: "So what's the plan?", translation: "אז מה התוכנית?" }
+          - { speaker: "noa", text: "I'm going to give up coffee after lunch and stop skipping breakfast.", translation: "אני הולכת להפסיק קפה אחרי ארוחת הצהריים ולהפסיק לדלג על ארוחת הבוקר." }
+          - { speaker: "ben", text: "And exercise?", translation: "ופעילות גופנית?" }
+          - { speaker: "noa", text: "I want to take up yoga. It's good for stress.", translation: "אני רוצה להתחיל יוגה. זה טוב ללחץ." }
+          - { speaker: "ben", text: "Great idea. Come to the gym with me on Tuesdays too. We'll get fit together!", translation: "רעיון מעולה. תבואי איתי גם לחדר כושר בימי שלישי. ניכנס לכושר ביחד!" }
+      - id: u23-l2-09
+        type: match_pairs
+        pairs:
+          - [give up, להפסיק]
+          - [take up, להתחיל (תחביב)]
+          - [skip, לדלג על]
+          - [relax, להירגע]
+          - [get fit, להיכנס לכושר]
+        lexemes: [give-up, take-up, skip, relax, get-fit]
+      - id: u23-l2-10
+        type: multiple_choice
+        prompt: "על מה נועה הולכת לוותר?"
+        options: [קפה אחרי ארוחת הצהריים, ארוחת בוקר, יוגה]
+        correct: 0
+        lexemes: [give-up]
+      - id: u23-l2-11
+        type: multiple_choice
+        prompt: "מה בן מציע?"
+        options: [ללכת יחד לחדר כושר, ללכת ליוגה, לישון יותר]
+        correct: 0
+        lexemes: [gym, get-fit]
+      - id: u23-l2-12
+        type: dialogue_gap
+        lines:
+          - { speaker: "tamar", text: "How do you relax after work?", translation: "איך את נרגעת אחרי העבודה?" }
+          - { speaker: "miriam", text: "I took up swimming last year. It's perfect for stress.", translation: "התחלתי לשחות בשנה שעברה. זה מושלם ללחץ." }
+        gap: 1
+        distractors: ["I gave up swimming last year. It's perfect for stress.", "I took swimming up yesterday stress."]
+        lexemes: [relax, take-up, stress]
+      - id: u23-l2-13
+        type: translate
+        direction: to_target
+        prompt: "אל תדלגי על ארוחת הבוקר."
+        answers: ["Don't skip breakfast.", "Do not skip breakfast.", "Don't skip breakfast!"]
+        lexemes: [skip, breakfast]
+      - id: u23-l2-14
+        type: translate
+        direction: to_source
+        prompt: "I gave up sugar last month."
+        answers: ["הפסקתי לאכול סוכר בחודש שעבר.", "ויתרתי על סוכר בחודש שעבר.", "הפסקתי סוכר בחודש שעבר."]
+        lexemes: [give-up, sugar]
+      - id: u23-l2-15
+        type: speak_repeat
+        text: "I want to take up yoga. It's good for stress."
+        translation: "אני רוצה להתחיל יוגה. זה טוב ללחץ."
+        lexemes: [take-up, stress]
+
+  # ------------------------------------------------------------------ 3
+  - id: u23-l3
+    kind: grammar
+    grammar: used-to-first-conditional
+    title: { he: "פעם רצתי. אם ארוץ…", en: "I used to run. If I run…" }
+    exercises:
+      - { id: "u23-l3-01", type: "learn", lexeme: "used-to" }
+      - id: u23-l3-02
+        type: fill_blank
+        sentence: "I ___ to play football, but now I prefer swimming."
+        translation: "פעם שיחקתי כדורגל, אבל עכשיו אני מעדיף לשחות."
+        answers: [used]
+        options: [used, use, using]
+        lexemes: [used-to]
+      - id: u23-l3-03
+        type: multiple_choice
+        prompt: "מה פירוש: Ben used to smoke?"
+        options:
+          - "פעם בן עישן, היום כבר לא"
+          - בן מעשן עכשיו
+          - בן אף פעם לא עישן
+        correct: 0
+        lexemes: [used-to]
+      - id: u23-l3-04
+        type: multiple_choice
+        prompt: איזו שאלה נכונה?
+        options: ["Did you use to live in Haifa?", "Did you used to live in Haifa?", "Used you to live in Haifa?"]
+        correct: 0
+        lexemes: [used-to]
+      - { id: "u23-l3-05", type: "learn", lexeme: "if-will" }
+      - id: u23-l3-06
+        type: fill_blank
+        sentence: "If you sleep more, you ___ feel better."
+        translation: "אם תישן יותר, תרגיש יותר טוב."
+        answers: [will]
+        options: [will, would, are]
+        lexemes: [if-will, sleep, feel]
+      - id: u23-l3-07
+        type: fill_blank
+        sentence: "If it ___ tomorrow, we'll go to the gym."
+        translation: "אם ירד גשם מחר, נלך לחדר כושר."
+        answers: [rains]
+        options: [rains, will rain, rained]
+        lexemes: [if-will, gym, tomorrow]
+      - id: u23-l3-08
+        type: multiple_choice
+        prompt: איזה משפט נכון?
+        options: ["If I finish early, I'll call you.", "If I will finish early, I'll call you.", "If I finish early, I call you tomorrow will."]
+        correct: 0
+        lexemes: [if-will]
+      - { id: "u23-l3-09", type: "learn", lexeme: "unless" }
+      - id: u23-l3-10
+        type: fill_blank
+        sentence: "You won't get fit ___ you exercise."
+        translation: "לא תיכנס לכושר אלא אם כן תתאמן."
+        answers: [unless]
+        options: [unless, if, when]
+        lexemes: [unless, get-fit]
+      - id: u23-l3-11
+        type: dialogue_gap
+        lines:
+          - { speaker: "ben", text: "Are you coming to the gym tonight?", translation: "את באה לחדר כושר הערב?" }
+          - { speaker: "noa", text: "If I finish work on time, I'll come.", translation: "אם אסיים לעבוד בזמן, אבוא." }
+        gap: 1
+        distractors: ["If I will finish work on time, I'll come.", "If I finish work on time, I come will."]
+        lexemes: [if-will, gym]
+      - id: u23-l3-12
+        type: word_bank
+        prompt: "אם תלך לישון מוקדם, יהיה לך יותר אנרגיה."
+        answers: ["If you go to bed early, you'll have more energy.", "If you go to bed early, you will have more energy.", "You'll have more energy if you go to bed early."]
+        distractors: [would, had]
+        lexemes: [if-will, go-to-bed, energy]
+      - id: u23-l3-13
+        type: translate
+        direction: to_target
+        prompt: "פעם עבדתי עד חצות."
+        answers: ["I used to work until midnight.", "I used to work till midnight."]
+        lexemes: [used-to]
+      - id: u23-l3-14
+        type: translate
+        direction: to_source
+        prompt: "If you don't eat breakfast, you'll be tired."
+        answers: ["אם לא תאכל ארוחת בוקר, תהיה עייף.", "אם לא תאכלי ארוחת בוקר, תהיי עייפה.", "אם לא תאכלו ארוחת בוקר, תהיו עייפים."]
+        lexemes: [if-will, breakfast, tired]
+      - id: u23-l3-15
+        type: speak_repeat
+        text: "I used to drink five coffees a day. Now I drink two."
+        translation: "פעם שתיתי חמישה קפה ביום. עכשיו אני שותה שניים."
+        lexemes: [used-to]
+
+  # ------------------------------------------------------------------ 4
+  - id: u23-l4
+    kind: listening
+    title: { he: "חודש אחרי", en: "One month later" }
+    exercises:
+      - { id: "u23-l4-01", type: "learn", lexeme: "lose-weight" }
+      - id: u23-l4-02
+        type: dialogue
+        scene: "חודש אחרי. נועה ובן יוצאים מחדר הכושר."
+        lines:
+          - { speaker: "ben", text: "You look great, Noa. How do you feel?", translation: "את נראית מעולה, נועה. איך את מרגישה?" }
+          - { speaker: "noa", text: "So much better! I used to wake up tired every day. Now I sleep seven hours.", translation: "הרבה יותר טוב! פעם קמתי עייפה כל יום. עכשיו אני ישנה שבע שעות." }
+          - { speaker: "ben", text: "And the yoga?", translation: "והיוגה?" }
+          - { speaker: "noa", text: "I love it. I'm much less stressed, even at work.", translation: "אני אוהבת את זה. אני הרבה פחות לחוצה, אפילו בעבודה." }
+          - { speaker: "ben", text: "I've lost three kilos since we started!", translation: "ירדתי שלושה קילו מאז שהתחלנו!" }
+          - { speaker: "noa", text: "Well done! If we continue like this, we'll run the London half marathon in the spring.", translation: "כל הכבוד! אם נמשיך ככה, נרוץ את חצי המרתון של לונדון באביב." }
+          - { speaker: "ben", text: "Hmm. Only if you buy the coffee after it!", translation: "המממ. רק אם את קונה את הקפה אחריו!" }
+      - id: u23-l4-03
+        type: multiple_choice
+        prompt: "כמה שעות נועה ישנה עכשיו?"
+        options: [שבע, חמש, שמונה]
+        correct: 0
+        lexemes: [sleep]
+      - id: u23-l4-04
+        type: multiple_choice
+        prompt: "מה השתנה בגלל היוגה?"
+        options: [היא פחות לחוצה, היא ירדה במשקל, היא קמה מוקדם יותר]
+        correct: 0
+        lexemes: [stressed]
+      - id: u23-l4-05
+        type: multiple_choice
+        prompt: "כמה קילו בן ירד?"
+        options: [שלושה, חמישה, שניים]
+        correct: 0
+        lexemes: [lose-weight]
+      - id: u23-l4-06
+        type: multiple_choice
+        prompt: "מה נועה מציעה לעשות באביב?"
+        options: [לרוץ חצי מרתון, להתחיל יוגה, ללכת לחדר כושר כל יום]
+        correct: 0
+        lexemes: [if-will, spring]
+      - id: u23-l4-07
+        type: listening_choice
+        audioText: "If you skip lunch, you'll eat too much in the evening."
+        question: מה יקרה אם מדלגים על ארוחת צהריים?
+        options: [אוכלים יותר מדי בערב, יורדים במשקל, יש יותר אנרגיה]
+        correct: 0
+        lexemes: [if-will, skip]
+      - id: u23-l4-08
+        type: dialogue_gap
+        lines:
+          - { speaker: "eli", text: "Didn't you use to drink a lot of coffee?", translation: "לא שתית פעם הרבה קפה?" }
+          - { speaker: "noa", text: "Yes, I did. But I've given up coffee after lunch.", translation: "כן. אבל הפסקתי קפה אחרי ארוחת הצהריים." }
+        gap: 1
+        distractors: ["Yes, I used. But I've given up coffee after lunch.", "Yes, I did. But I've taken up coffee after lunch."]
+        lexemes: [used-to, give-up]
+      - id: u23-l4-09
+        type: dictation
+        text: "If you sleep more, you'll feel better."
+        lexemes: [if-will, sleep]
+      - id: u23-l4-10
+        type: translate
+        direction: to_target
+        prompt: "אני הרבה פחות לחוצה."
+        answers: ["I'm much less stressed.", "I am much less stressed.", "I'm a lot less stressed.", "I am a lot less stressed."]
+        lexemes: [stressed]
+      - id: u23-l4-11
+        type: speak_repeat
+        text: "If we continue like this, we'll run a half marathon in the spring."
+        translation: "אם נמשיך ככה, נרוץ חצי מרתון באביב."
+        lexemes: [if-will, spring]
+
+  # ------------------------------------------------------------------ 5
+  - id: u23-l5
+    kind: reading
+    title: { he: "חמישה טיפים לשינה טובה", en: "Five tips for better sleep" }
+    exercises:
+      - id: u23-l5-01
+        type: reading
+        kind: "כתבה במגזין בריאות"
+        title: "Five tips for better sleep"
+        text: |
+          Most adults need seven to nine hours of sleep a night, but many of us don't get enough. Here are five simple habits that really work.
+
+          1. Go to bed at the same time every night, even at the weekend. If your body has a routine, you'll fall asleep faster.
+
+          2. Don't drink coffee after 2 p.m. It stays in your body for up to ten hours.
+
+          3. Put your phone away an hour before bed. The light from the screen tells your brain it's still daytime.
+
+          4. Get some exercise during the day, but not late in the evening.
+
+          5. Keep your bedroom cool, dark and quiet.
+
+          Change one habit at a time. If you try to change everything at once, you'll probably give up.
+        translation: |
+          רוב המבוגרים צריכים שבע עד תשע שעות שינה בלילה, אבל רבים מאיתנו לא ישנים מספיק. הנה חמישה הרגלים פשוטים שבאמת עובדים.
+
+          1. לכו לישון באותה שעה כל ערב, גם בסוף השבוע. אם לגוף שלכם יש שגרה, תירדמו מהר יותר.
+
+          2. אל תשתו קפה אחרי שתיים בצהריים. הוא נשאר בגוף עד עשר שעות.
+
+          3. הניחו את הטלפון בצד שעה לפני השינה. האור מהמסך אומר למוח שעדיין יום.
+
+          4. עשו פעילות גופנית במהלך היום, אבל לא מאוחר בערב.
+
+          5. שמרו על חדר השינה קריר, חשוך ושקט.
+
+          שנו הרגל אחד בכל פעם. אם תנסו לשנות הכול בבת אחת, כנראה שתוותרו.
+      - id: u23-l5-02
+        type: multiple_choice
+        prompt: "כמה שעות שינה מבוגרים צריכים?"
+        options: [שבע עד תשע, חמש עד שש, עשר עד שתים־עשרה]
+        correct: 0
+        lexemes: [sleep]
+      - id: u23-l5-03
+        type: multiple_choice
+        prompt: "עד איזו שעה מותר לשתות קפה?"
+        options: [שתיים בצהריים, שש בערב, עשר בבוקר]
+        correct: 0
+        lexemes: [coffee]
+      - id: u23-l5-04
+        type: multiple_choice
+        prompt: "למה להניח את הטלפון בצד?"
+        options: [האור מהמסך אומר למוח שעדיין יום, הוא רועש מדי, הוא לא בריא לעיניים]
+        correct: 0
+        lexemes: [phone]
+      - id: u23-l5-05
+        type: multiple_choice
+        prompt: "מה העצה האחרונה?"
+        options: [לשנות הרגל אחד בכל פעם, לשנות הכול בבת אחת, ללכת לרופא]
+        correct: 0
+        lexemes: [habit, give-up]
+      - id: u23-l5-06
+        type: multiple_choice
+        prompt: "איך צריך להיות חדר השינה?"
+        options:
+          - "קריר, חשוך ושקט"
+          - חם ומואר
+          - עם טלוויזיה
+        correct: 0
+        lexemes: [quiet]
+      - id: u23-l5-07
+        type: fill_blank
+        sentence: "If your body has a routine, you'll fall ___ faster."
+        translation: "אם לגוף שלכם יש שגרה, תירדמו מהר יותר."
+        answers: [asleep]
+        options: [asleep, sleep, sleeping]
+        lexemes: [if-will, sleep]
+      - id: u23-l5-08
+        type: fill_blank
+        sentence: "Many of us don't get ___ sleep."
+        translation: "רבים מאיתנו לא ישנים מספיק."
+        answers: [enough]
+        options: [enough, too, much]
+        lexemes: [enough, sleep]
+      - id: u23-l5-09
+        type: word_bank
+        prompt: "שנו הרגל אחד בכל פעם."
+        answers: ["Change one habit at a time."]
+        distractors: [habits, in]
+        lexemes: [habit]
+      - id: u23-l5-10
+        type: translate
+        direction: to_target
+        prompt: "אם תנסו לשנות הכול, תוותרו."
+        answers: ["If you try to change everything, you'll give up.", "If you try to change everything, you will give up."]
+        lexemes: [if-will, give-up]
+      - id: u23-l5-11
+        type: speak_repeat
+        text: "Put your phone away an hour before bed."
+        translation: "הניחו את הטלפון בצד שעה לפני השינה."
+        lexemes: [phone]
+
+  # ------------------------------------------------------------------ 6
+  - id: u23-review
+    kind: review
+    title: { he: "חזרה: הרגלים בריאים", en: "Review: healthy habits" }
+    exercises:
+      - id: u23-r-01
+        type: match_pairs
+        pairs:
+          - [habit, הרגל]
+          - [healthy, בריא]
+          - [gym, חדר כושר]
+          - [lose weight, לרדת במשקל]
+          - [unless, אלא אם כן]
+        lexemes: [habit, healthy, gym, lose-weight, unless]
+      - id: u23-r-02
+        type: fill_blank
+        sentence: "If you ___ breakfast, you'll be hungry at ten."
+        translation: "אם תדלג על ארוחת הבוקר, תהיה רעב בעשר."
+        answers: [skip]
+        options: [skip, will skip, skipped]
+        lexemes: [if-will, skip, breakfast]
+      - id: u23-r-03
+        type: listening_choice
+        audioText: "We used to eat a lot of fast food, but now we cook at home."
+        question: מה השתנה?
+        options: [עכשיו הם מבשלים בבית, עכשיו הם אוכלים בחוץ, הם הפסיקו לבשל]
+        correct: 0
+        lexemes: [used-to, cook]
+      - id: u23-r-04
+        type: word_bank
+        prompt: "פעם הייתי לחוצה כל הזמן."
+        answers: ["I used to be stressed all the time.", "I used to be stressed all of the time."]
+        distractors: [use, was]
+        lexemes: [used-to, stressed]
+      - id: u23-r-05
+        type: dialogue_gap
+        lines:
+          - { speaker: "dr-stern", text: "How's the new diet?", translation: "איך התזונה החדשה?" }
+          - { speaker: "ben", text: "Good! I've got more energy, and I've lost three kilos.", translation: "טובה! יש לי יותר אנרגיה, וירדתי שלושה קילו." }
+        gap: 1
+        distractors: ["Good! I've got more energy, and I've lose three kilos.", "Good! I used to have more energy now."]
+        lexemes: [diet, energy, lose-weight]
+      - id: u23-r-06
+        type: multiple_choice
+        prompt: "איזה משפט נכון?"
+        options: ["I won't come unless you invite me.", "I won't come unless you will invite me.", "I don't come unless you invited me."]
+        correct: 0
+        lexemes: [unless, invite]
+      - id: u23-r-07
+        type: translate
+        direction: to_target
+        prompt: "התחלתי לשחות בשנה שעברה."
+        answers: ["I took up swimming last year.", "I started swimming last year."]
+        lexemes: [take-up, swim]
+      - id: u23-r-08
+        type: translate
+        direction: to_source
+        prompt: "You'll feel better if you relax."
+        answers: ["תרגיש יותר טוב אם תירגע.", "תרגישי יותר טוב אם תירגעי.", "אם תירגע, תרגיש יותר טוב.", "אם תירגעי, תרגישי יותר טוב."]
+        lexemes: [if-will, relax, better]
+      - id: u23-r-09
+        type: dictation
+        text: "I used to run every morning."
+        lexemes: [used-to]
+      - id: u23-r-10
+        type: speak_repeat
+        text: "If I go to bed early, I'll have more energy tomorrow."
+        translation: "אם אלך לישון מוקדם, יהיה לי יותר אנרגיה מחר."
+        lexemes: [if-will, energy]

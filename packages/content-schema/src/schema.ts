@@ -8,7 +8,7 @@ export const Id = z
 export const LangCode = z.enum(["he", "en", "es", "ru", "fr", "de", "it", "pt", "ar", "yi", "zh", "ja", "ko"]);
 export type LangCode = z.infer<typeof LangCode>;
 
-export const Cefr = z.enum(["A1", "A2", "B1", "B2", "C1", "C2"]);
+export const Cefr = z.enum(["A0", "A1", "A2", "B1", "B2", "C1", "C2"]);
 export type Cefr = z.infer<typeof Cefr>;
 
 /** Text shown in the learner's interface language. */

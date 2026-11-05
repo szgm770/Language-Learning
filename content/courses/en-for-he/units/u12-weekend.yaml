@@ -62,7 +62,7 @@ lessons:
         scene: "יום שני בבוקר בבית הקפה. אלי שואל את נועה על סוף השבוע."
         lines:
           - { speaker: "eli", text: "Morning, Noa! What did you do at the weekend?", translation: "בוקר טוב, נועה! מה עשית בסוף השבוע?" }
-          - { speaker: "noa", text: "Miriam came from Madrid! On Saturday we went to the market.", translation: "מרים הגיעה ממדריד! בשבת הלכנו לשוק." }
+          - { speaker: "noa", text: "Miriam came from Madrid! On Friday we went to the market.", translation: "מרים הגיעה ממדריד! ביום שישי הלכנו לשוק." }
           - { speaker: "eli", text: "Really? That sounds great!", translation: "באמת? נשמע מעולה!" }
           - { speaker: "noa", text: "It was. We ate a lot and I bought a new bag.", translation: "זה היה. אכלנו המון וקניתי תיק חדש." }
           - { speaker: "eli", text: "And on Sunday?", translation: "וביום ראשון?" }
@@ -101,10 +101,10 @@ lessons:
         lexemes: [saw, concert, park]
       - id: u12-l1-15
         type: word_bank
-        prompt: "הלכנו לשוק בשבת."
-        answers: ["We went to the market on Saturday.", "On Saturday we went to the market."]
+        prompt: "הלכנו לשוק ביום שישי."
+        answers: ["We went to the market on Friday.", "On Friday we went to the market."]
         distractors: [go, bought]
-        lexemes: [went, market, saturday]
+        lexemes: [went, market, friday]
       - id: u12-l1-16
         type: speak_repeat
         text: "What did you do at the weekend?"
@@ -309,9 +309,9 @@ lessons:
         lexemes: [really, concert]
       - id: u12-l4-07
         type: dialogue
-        scene: "אלי מספר על השבת שלו."
+        scene: "אלי מספר על יום ראשון שלו."
         lines:
-          - { speaker: "eli", text: "I didn't go out on Saturday.", translation: "לא יצאתי בשבת." }
+          - { speaker: "eli", text: "I didn't go out on Sunday.", translation: "לא יצאתי ביום ראשון." }
           - { speaker: "eli", text: "I cleaned the flat, then I made a big lunch for my parents.", translation: "ניקיתי את הדירה, ואז הכנתי ארוחת צהריים גדולה להורים שלי." }
           - { speaker: "eli", text: "After that we watched a movie. It was a quiet day, but I liked it.", translation: "אחרי זה ראינו סרט. זה היה יום שקט, אבל אהבתי אותו." }
       - id: u12-l4-08
@@ -350,19 +350,19 @@ lessons:
       - id: u12-l5-01
         type: reading
         kind: "פוסט בבלוג"
-        title: "My weekend in London"
+        title: "My week in London"
         text: |
-          Last weekend I visited my friends Noa and Ben in London. I took an early flight from Madrid on Friday and arrived at lunchtime.
+          Last week I visited my friends Noa and Ben in London. I took an early flight from Madrid on Sunday and arrived at lunchtime.
 
-          On Saturday Noa and I went to Borough Market. We ate amazing food and I bought cheese for my mother. In the evening we saw a concert in the park. It was cold, but a lot of fun.
+          On Monday Noa and I went to Borough Market. We ate amazing food and I bought cheese for my mother. In the evening we saw a concert in the park. It was cold, but a lot of fun.
 
           Sunday was not perfect. I got up late, I missed the train and the museum was closed! But I met Noa at a café and we talked for hours.
 
           I didn't want to go home!
         translation: |
-          בסוף השבוע שעבר ביקרתי את החברים שלי נועה ובן בלונדון. לקחתי טיסה מוקדמת ממדריד ביום שישי והגעתי בצהריים.
+          בשבוע שעבר ביקרתי את החברים שלי נועה ובן בלונדון. לקחתי טיסה מוקדמת ממדריד ביום ראשון והגעתי בצהריים.
 
-          בשבת נועה ואני הלכנו לשוק בורו. אכלנו אוכל מדהים וקניתי גבינה לאמא שלי. בערב ראינו הופעה בפארק. היה קר, אבל ממש כיף.
+          ביום שני נועה ואני הלכנו לשוק בורו. אכלנו אוכל מדהים וקניתי גבינה לאמא שלי. בערב ראינו הופעה בפארק. היה קר, אבל ממש כיף.
 
           יום ראשון לא היה מושלם. קמתי מאוחר, פספסתי את הרכבת והמוזיאון היה סגור! אבל פגשתי את נועה בבית קפה ודיברנו שעות.
 
@@ -370,9 +370,9 @@ lessons:
       - id: u12-l5-02
         type: multiple_choice
         prompt: "מתי מרים הגיעה ללונדון?"
-        options: [ביום שישי בצהריים, בשבת בבוקר, ביום שישי בלילה]
+        options: [ביום ראשון בצהריים, ביום שני בבוקר, ביום ראשון בלילה]
         correct: 0
-        lexemes: [friday]
+        lexemes: [sunday]
       - id: u12-l5-03
         type: multiple_choice
         prompt: "מה מרים קנתה בשוק?"

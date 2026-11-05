@@ -12,6 +12,7 @@ import { Icon, type IconName } from "./icons";
 import { Ring } from "./ui";
 
 const LEVEL_NAME: Record<string, string> = {
+  A0: "לפני שמתחילים: אותיות, צלילים ומילים ראשונות",
   A1: "מתחילים: מילים ומשפטים ראשונים",
   A2: "בסיסי: להסתדר במצבים יומיומיים",
   B1: "בינוני: לדבר בחופשיות על רוב הנושאים",

@@ -3,6 +3,7 @@
 import { SCHEMA_VERSION, type SettingField, setting } from "@lingo/sync";
 import { useState } from "react";
 import { AppShell } from "@/components/AppShell";
+import { TransferSection } from "@/components/TransferSection";
 import { withBase } from "@/lib/base-path";
 import { db } from "@/lib/db";
 import { uuidv7 } from "@/lib/ids";
@@ -94,6 +95,8 @@ export default function Settings() {
           onPick={(v) => save("soundOn", v === "on")}
         />
       </section>
+
+      <TransferSection />
 
       <section className="flex flex-col gap-3">
         <h2 className="text-xl font-semibold">הנתונים שלי</h2>

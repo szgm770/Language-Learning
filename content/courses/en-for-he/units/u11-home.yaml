@@ -256,7 +256,7 @@ lessons:
         scene: "יום שני בבוקר במשרד. בן שואל את נועה על סוף השבוע."
         lines:
           - { speaker: "ben", text: "How was the weekend? Did you move?", translation: "איך היה סוף השבוע? עברת דירה?" }
-          - { speaker: "noa", text: "Yes! I moved on Saturday. Rachel helped me.", translation: "כן! עברתי בשבת. רחל עזרה לי." }
+          - { speaker: "noa", text: "Yes! I moved on Sunday. Rachel helped me.", translation: "כן! עברתי ביום ראשון. רחל עזרה לי." }
           - { speaker: "ben", text: "Great. Do you like the flat?", translation: "מעולה. את אוהבת את הדירה?" }
           - { speaker: "noa", text: "I love it. It's quiet, and the living room is very bright.", translation: "אני מתה עליה. היא שקטה, והסלון מאוד מואר." }
           - { speaker: "ben", text: "And the landlord?", translation: "ובעלת הבית?" }
@@ -265,9 +265,9 @@ lessons:
       - id: u11-l4-02
         type: multiple_choice
         prompt: "מתי נועה עברה דירה?"
-        options: [בשבת, ביום ראשון, ביום שני]
+        options: [ביום ראשון, ביום שני, ביום שלישי]
         correct: 0
-        lexemes: [move, saturday]
+        lexemes: [move, sunday]
       - id: u11-l4-03
         type: multiple_choice
         prompt: "מי עזרה לנועה?"
@@ -312,13 +312,13 @@ lessons:
       - id: u11-l4-09
         type: multiple_choice
         prompt: "מתי גברת כץ באה?"
-        options: [מחר בבוקר, היום בערב, בשבת]
+        options: [מחר בבוקר, היום בערב, ביום שני]
         correct: 0
         lexemes: [in-the-morning]
       - id: u11-l4-10
         type: dictation
-        text: "I moved on Saturday."
-        lexemes: [move, saturday]
+        text: "I moved on Sunday."
+        lexemes: [move, sunday]
       - id: u11-l4-11
         type: translate
         direction: to_target

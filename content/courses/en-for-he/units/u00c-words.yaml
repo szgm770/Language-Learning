@@ -1,0 +1,395 @@
+id: u00c-words
+cefr: A0
+scene: hello
+title:
+  he: מילים שכבר מכירים
+  en: Words you already know
+story: "טוב לדעת: מאות מילים באנגלית הן גם בעברית! כאן אוספים 22 מהן, ובסוף עושים מבחן קטן שמסכם את רמת הפתיחה."
+canDo:
+  - לזהות מילים באנגלית שדומות לעברית
+  - לקרוא ולכתוב כ־20 מילים ראשונות
+  - להגות אותן נכון, לפי כללי הצלילים
+  - לעבור את מבחן רמה A0
+
+vocabulary:
+  - { id: "banana", text: "banana", translation: "בננה", pos: "noun", pronunciation: "בַּנֵנָה", example: { text: "I like bananas.", translation: "אני אוהב בננות." } }
+  - { id: "pizza", text: "pizza", translation: "פיצה", pos: "noun", pronunciation: "פִּיצָה", example: { text: "A small pizza, please.", translation: "פיצה קטנה, בבקשה." } }
+  - { id: "chocolate", text: "chocolate", translation: "שוקולד", pos: "noun", pronunciation: "צ'וֹקְלֶט", example: { text: "I love chocolate.", translation: "אני מת על שוקולד." } }
+  - { id: "tomato", text: "tomato", translation: "עגבנייה", pos: "noun", pronunciation: "טוֹמֵייטוֹ", example: { text: "Tomato soup is hot.", translation: "מרק עגבניות חם." } }
+  - { id: "avocado", text: "avocado", translation: "אבוקדו", pos: "noun", pronunciation: "אָבוֹקָדוֹ", example: { text: "An avocado sandwich.", translation: "כריך אבוקדו." } }
+  - { id: "yogurt", text: "yogurt", translation: "יוגורט", pos: "noun", pronunciation: "יוֹגֶרְט", example: { text: "Yogurt with fruit.", translation: "יוגורט עם פירות." } }
+  - { id: "internet", text: "internet", translation: "אינטרנט", pos: "noun", pronunciation: "אִינְטֶרְנֶט", example: { text: "The internet is fast.", translation: "האינטרנט מהיר." } }
+  - { id: "radio", text: "radio", translation: "רדיו", pos: "noun", pronunciation: "רֵייְדִיוֹ", example: { text: "Turn on the radio.", translation: "תדליק את הרדיו." } }
+  - { id: "video", text: "video", translation: "סרטון", pos: "noun", pronunciation: "וִידְיוֹ", example: { text: "A short video.", translation: "סרטון קצר." } }
+  - { id: "photo", text: "photo", translation: "תמונה", pos: "noun", pronunciation: "פוֹטוֹ", example: { text: "A photo of my family.", translation: "תמונה של המשפחה שלי." } }
+  - { id: "camera", text: "camera", translation: "מצלמה", pos: "noun", pronunciation: "קַמְרָה", example: { text: "My camera is new.", translation: "המצלמה שלי חדשה." } }
+  - { id: "tennis", text: "tennis", translation: "טניס", pos: "noun", pronunciation: "טֶנִיס", example: { text: "We play tennis.", translation: "אנחנו משחקים טניס." } }
+  - { id: "basketball", text: "basketball", translation: "כדורסל", pos: "noun", pronunciation: "בַּסְקֶטְבּוֹל", example: { text: "He plays basketball.", translation: "הוא משחק כדורסל." } }
+  - { id: "hobby", text: "hobby", translation: "תחביב", pos: "noun", pronunciation: "הוֹבִּי", example: { text: "My hobby is music.", translation: "התחביב שלי הוא מוזיקה." } }
+  - { id: "stop", text: "stop", translation: "עצור; תחנה", pos: "noun", pronunciation: "סְטוֹפּ", example: { text: "Stop here, please.", translation: "תעצור כאן, בבקשה." } }
+  - { id: "metro", text: "metro", translation: "מטרו", pos: "noun", pronunciation: "מֶטְרוֹ", example: { text: "The metro is fast.", translation: "המטרו מהיר." } }
+  - { id: "pilot", text: "pilot", translation: "טייס", pos: "noun", pronunciation: "פַּיילֶט", example: { text: "The pilot is tall.", translation: "הטייס גבוה." } }
+  - { id: "tourist", text: "tourist", translation: "תייר", pos: "noun", pronunciation: "טוּרִיסְט", example: { text: "I'm a tourist.", translation: "אני תייר." } }
+  - { id: "visa", text: "visa", translation: "ויזה", pos: "noun", pronunciation: "וִיזָה", example: { text: "I need a visa.", translation: "אני צריך ויזה." } }
+  - { id: "dollar", text: "dollar", translation: "דולר", pos: "noun", pronunciation: "דוֹלֶר", example: { text: "Ten dollars.", translation: "עשרה דולרים." } }
+  - { id: "kilo", text: "kilo", translation: "קילו", pos: "noun", pronunciation: "קִילוֹ", example: { text: "A kilo of tomatoes.", translation: "קילו עגבניות." } }
+  - { id: "idea", text: "idea", translation: "רעיון", pos: "noun", pronunciation: "אַיְדִיָה", example: { text: "Good idea!", translation: "רעיון טוב!" } }
+
+lessons:
+  - id: u00c-l1
+    kind: new
+    title: { he: "אוכל", en: "Food" }
+    exercises:
+      - { id: "u00c-l1-02", type: "learn", lexeme: "banana" }
+      - { id: "u00c-l1-03", type: "learn", lexeme: "pizza" }
+      - { id: "u00c-l1-04", type: "learn", lexeme: "chocolate" }
+      - { id: "u00c-l1-05", type: "learn", lexeme: "tomato" }
+      - { id: "u00c-l1-06", type: "learn", lexeme: "avocado" }
+      - { id: "u00c-l1-07", type: "learn", lexeme: "yogurt" }
+      - id: u00c-l1-08
+        type: match_pairs
+        pairs:
+          - [banana, בננה]
+          - [pizza, פיצה]
+          - [chocolate, שוקולד]
+          - [tomato, עגבנייה]
+          - [avocado, אבוקדו]
+        lexemes: [banana, pizza, chocolate, tomato, avocado]
+      - id: u00c-l1-09
+        type: multiple_choice
+        prompt: "מה פירוש banana?"
+        options: [בננה, חלב, מים]
+        correct: 0
+        lexemes: [banana]
+      - id: u00c-l1-10
+        type: listening_choice
+        audioText: "pizza"
+        question: איזו מילה שמעתם?
+        options: [pizza, banana, chocolate]
+        correct: 0
+        lexemes: [pizza]
+      - id: u00c-l1-11
+        type: dictation
+        text: "chocolate"
+        lexemes: [chocolate]
+      - id: u00c-l1-12
+        type: translate
+        direction: to_target
+        prompt: "יוגורט"
+        answers: ["yogurt"]
+        lexemes: [yogurt]
+      - id: u00c-l1-13
+        type: speak_repeat
+        text: "I like bananas."
+        translation: "אני אוהב בננות."
+        lexemes: [banana]
+
+  - id: u00c-l2
+    kind: new
+    title: { he: "מדיה וטכנולוגיה", en: "Media and technology" }
+    exercises:
+      - { id: "u00c-l2-02", type: "learn", lexeme: "internet" }
+      - { id: "u00c-l2-03", type: "learn", lexeme: "radio" }
+      - { id: "u00c-l2-04", type: "learn", lexeme: "video" }
+      - { id: "u00c-l2-05", type: "learn", lexeme: "photo" }
+      - { id: "u00c-l2-06", type: "learn", lexeme: "camera" }
+      - id: u00c-l2-07
+        type: match_pairs
+        pairs:
+          - [internet, אינטרנט]
+          - [radio, רדיו]
+          - [video, סרטון]
+          - [photo, תמונה]
+          - [camera, מצלמה]
+        lexemes: [internet, radio, video, photo, camera]
+      - id: u00c-l2-08
+        type: multiple_choice
+        prompt: "מה פירוש internet?"
+        options: [אינטרנט, שם, לא]
+        correct: 0
+        lexemes: [internet]
+      - id: u00c-l2-09
+        type: listening_choice
+        audioText: "radio"
+        question: איזו מילה שמעתם?
+        options: [radio, internet, video]
+        correct: 0
+        lexemes: [radio]
+      - id: u00c-l2-10
+        type: dictation
+        text: "video"
+        lexemes: [video]
+      - id: u00c-l2-11
+        type: translate
+        direction: to_target
+        prompt: "מצלמה"
+        answers: ["camera"]
+        lexemes: [camera]
+      - id: u00c-l2-12
+        type: speak_repeat
+        text: "The internet is fast."
+        translation: "האינטרנט מהיר."
+        lexemes: [internet]
+
+  - id: u00c-l3
+    kind: new
+    title: { he: "ספורט ותחביבים", en: "Sport and hobbies" }
+    exercises:
+      - { id: "u00c-l3-02", type: "learn", lexeme: "tennis" }
+      - { id: "u00c-l3-03", type: "learn", lexeme: "basketball" }
+      - { id: "u00c-l3-04", type: "learn", lexeme: "hobby" }
+      - { id: "u00c-l3-05", type: "learn", lexeme: "idea" }
+      - id: u00c-l3-06
+        type: match_pairs
+        pairs:
+          - [tennis, טניס]
+          - [basketball, כדורסל]
+          - [hobby, תחביב]
+          - [idea, רעיון]
+        lexemes: [tennis, basketball, hobby, idea]
+      - id: u00c-l3-07
+        type: multiple_choice
+        prompt: "מה פירוש tennis?"
+        options: [טניס, שם, לא]
+        correct: 0
+        lexemes: [tennis]
+      - id: u00c-l3-08
+        type: listening_choice
+        audioText: "basketball"
+        question: איזו מילה שמעתם?
+        options: [basketball, tennis, hobby]
+        correct: 0
+        lexemes: [basketball]
+      - id: u00c-l3-09
+        type: dictation
+        text: "hobby"
+        lexemes: [hobby]
+      - id: u00c-l3-10
+        type: translate
+        direction: to_target
+        prompt: "רעיון"
+        answers: ["idea"]
+        lexemes: [idea]
+      - id: u00c-l3-11
+        type: speak_repeat
+        text: "We play tennis."
+        translation: "אנחנו משחקים טניס."
+        lexemes: [tennis]
+
+  - id: u00c-l4
+    kind: new
+    title: { he: "בדרכים", en: "On the road" }
+    exercises:
+      - { id: "u00c-l4-02", type: "learn", lexeme: "stop" }
+      - { id: "u00c-l4-03", type: "learn", lexeme: "metro" }
+      - { id: "u00c-l4-04", type: "learn", lexeme: "pilot" }
+      - { id: "u00c-l4-05", type: "learn", lexeme: "tourist" }
+      - { id: "u00c-l4-06", type: "learn", lexeme: "visa" }
+      - { id: "u00c-l4-07", type: "learn", lexeme: "dollar" }
+      - { id: "u00c-l4-08", type: "learn", lexeme: "kilo" }
+      - id: u00c-l4-09
+        type: match_pairs
+        pairs:
+          - [stop, עצור; תחנה]
+          - [metro, מטרו]
+          - [pilot, טייס]
+          - [tourist, תייר]
+          - [visa, ויזה]
+        lexemes: [stop, metro, pilot, tourist, visa]
+      - id: u00c-l4-10
+        type: multiple_choice
+        prompt: "מה פירוש stop?"
+        options: [עצור; תחנה, שם, לא]
+        correct: 0
+        lexemes: [stop]
+      - id: u00c-l4-11
+        type: listening_choice
+        audioText: "metro"
+        question: איזו מילה שמעתם?
+        options: [metro, stop, pilot]
+        correct: 0
+        lexemes: [metro]
+      - id: u00c-l4-12
+        type: dictation
+        text: "pilot"
+        lexemes: [pilot]
+      - id: u00c-l4-13
+        type: translate
+        direction: to_target
+        prompt: "קילו"
+        answers: ["kilo"]
+        lexemes: [kilo]
+      - id: u00c-l4-14
+        type: speak_repeat
+        text: "Stop here, please."
+        translation: "תעצור כאן, בבקשה."
+        lexemes: [stop]
+
+  - id: u00c-review
+    kind: review
+    title: { he: "חזרה: מילים שכבר מכירים", en: "Review: words you already know" }
+    exercises:
+      - id: u00c-r-01
+        type: match_pairs
+        pairs:
+          - [banana, בננה]
+          - [video, סרטון]
+          - [tennis, טניס]
+          - [metro, מטרו]
+          - [dollar, דולר]
+        lexemes: [banana, video, tennis, metro, dollar]
+      - id: u00c-r-02
+        type: match_pairs
+        pairs:
+          - [pizza, פיצה]
+          - [camera, מצלמה]
+          - [hobby, תחביב]
+          - [visa, ויזה]
+          - [kilo, קילו]
+        lexemes: [pizza, camera, hobby, visa, kilo]
+      - id: u00c-r-03
+        type: listening_choice
+        audioText: "internet"
+        question: איזו מילה שמעתם?
+        options: [internet, interval, internal]
+        correct: 0
+        lexemes: [internet]
+      - id: u00c-r-04
+        type: listening_choice
+        audioText: "tourist"
+        question: איזו מילה שמעתם?
+        options: [tourist, tourism, tour]
+        correct: 0
+        lexemes: [tourist]
+      - id: u00c-r-05
+        type: translate
+        direction: to_target
+        prompt: "תמונה"
+        answers: ["photo"]
+        lexemes: [photo]
+      - id: u00c-r-06
+        type: translate
+        direction: to_target
+        prompt: "שוקולד"
+        answers: ["chocolate"]
+        lexemes: [chocolate]
+      - id: u00c-r-07
+        type: dictation
+        text: "basketball"
+        lexemes: [basketball]
+      - id: u00c-r-08
+        type: multiple_choice
+        prompt: "מה פירוש pilot?"
+        options: [טייס, נהג, מורה]
+        correct: 0
+        lexemes: [pilot]
+      - id: u00c-r-09
+        type: speak_repeat
+        text: "Good idea!"
+        translation: "רעיון טוב!"
+        lexemes: [idea]
+      - id: u00c-r-10
+        type: speak_repeat
+        text: "I'm a tourist."
+        translation: "אני תייר."
+        lexemes: [tourist]
+
+  - id: a0-test
+    kind: test
+    title: { he: "מבחן רמה A0", en: "A0 level test" }
+    exercises:
+      - id: a0-t-01
+        type: multiple_choice
+        prompt: "באיזו אות מתחילה המילה Apple?"
+        options: [A, E, I]
+        correct: 0
+        lexemes: [l-a]
+      - id: a0-t-02
+        type: multiple_choice
+        prompt: "באיזו אות מתחילה המילה Water?"
+        options: [W, V, B]
+        correct: 0
+        lexemes: [l-w]
+      - id: a0-t-03
+        type: word_bank
+        prompt: "איך מאייתים Noa?"
+        answers: ["N O A"]
+        distractors: [M, E]
+        lexemes: [l-n, l-o, l-a]
+      - id: a0-t-04
+        type: word_bank
+        prompt: "איך מאייתים Ben?"
+        answers: ["B E N"]
+        distractors: [D, A]
+        lexemes: [l-b, l-e, l-n]
+      - id: a0-t-05
+        type: listening_choice
+        audioText: "think"
+        question: איזו מילה שמעתם?
+        options: [think, sink, tick]
+        correct: 0
+        lexemes: [s-th-soft]
+      - id: a0-t-06
+        type: listening_choice
+        audioText: "sheep"
+        question: איזו מילה שמעתם?
+        options: [sheep, ship, shop]
+        correct: 0
+        lexemes: [s-long-ee]
+      - id: a0-t-07
+        type: listening_choice
+        audioText: "very"
+        question: איזו מילה שמעתם?
+        options: [very, berry, wary]
+        correct: 0
+        lexemes: [s-v]
+      - id: a0-t-08
+        type: listening_choice
+        audioText: "cheese"
+        question: איזו מילה שמעתם?
+        options: [cheese, shiza, juice]
+        correct: 0
+        lexemes: [s-ch]
+      - id: a0-t-09
+        type: multiple_choice
+        prompt: "איזו מילה מתחילה ב־th עם קול?"
+        options: [this, think, three]
+        correct: 0
+        lexemes: [s-th-voiced]
+      - id: a0-t-10
+        type: match_pairs
+        pairs:
+          - [banana, בננה]
+          - [internet, אינטרנט]
+          - [tennis, טניס]
+          - [pilot, טייס]
+          - [visa, ויזה]
+        lexemes: [banana, internet, tennis, pilot, visa]
+      - id: a0-t-11
+        type: translate
+        direction: to_target
+        prompt: "מצלמה"
+        answers: ["camera"]
+        lexemes: [camera]
+      - id: a0-t-12
+        type: translate
+        direction: to_target
+        prompt: "שוקולד"
+        answers: ["chocolate"]
+        lexemes: [chocolate]
+      - id: a0-t-13
+        type: dictation
+        text: "tourist"
+        lexemes: [tourist]
+      - id: a0-t-14
+        type: listening_choice
+        audioText: "basketball"
+        question: איזו מילה שמעתם?
+        options: [basketball, football, baseball]
+        correct: 0
+        lexemes: [basketball]
+      - id: a0-t-15
+        type: speak_repeat
+        text: "Thank you. Good idea!"
+        translation: "תודה. רעיון טוב!"
+        lexemes: [s-th-soft, idea]

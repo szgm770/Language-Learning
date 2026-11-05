@@ -1,0 +1,475 @@
+id: u24-complaints
+cefr: B1
+scene: money
+title:
+  he: זה לא עובד
+  en: It doesn't work
+story: "נועה הזמינה אונליין מכונת קפה חדשה, והיא הגיעה שבורה. עכשיו היא צריכה להתלונן, להחזיר ולקבל את הכסף בחזרה, באנגלית ובנימוס."
+canDo:
+  - להתלונן בנימוס על מוצר או שירות
+  - לבקש החזר כספי או החלפה
+  - "להבחין בין have to, must ו־don't have to"
+  - להבין תנאים של חנות אונליין
+
+vocabulary:
+  - { id: "delivery", text: "delivery", translation: "משלוח", pos: "noun", pronunciation: "דִילִיבֶרִי" }
+  - { id: "arrive", text: "arrive", translation: "להגיע", pos: "verb", pronunciation: "אָרַייב" }
+  - { id: "broken", text: "broken", translation: "שבור", pos: "adjective", pronunciation: "בְּרוֹקֶן" }
+  - { id: "damaged", text: "damaged", translation: "פגום, ניזוק", pos: "adjective", pronunciation: "דֶמִיג'ְד" }
+  - { id: "wrong", text: "wrong", translation: "לא נכון, שגוי", pos: "adjective", pronunciation: "רוֹנְג", example: { text: "They sent the wrong colour.", translation: "הם שלחו צבע לא נכון." } }
+  - { id: "complain", text: "complain", translation: "להתלונן", pos: "verb", pronunciation: "קוֹמְפְּלֵיין" }
+  - { id: "complaint", text: "complaint", translation: "תלונה", pos: "noun", pronunciation: "קוֹמְפְּלֵיינְט" }
+  - { id: "customer-service", text: "customer service", translation: "שירות לקוחות", pos: "noun", pronunciation: "קַאסְטוֹמֶר סֶרְוִיס" }
+  - { id: "refund", text: "refund", translation: "החזר כספי", pos: "noun", pronunciation: "רִיפַאנְד" }
+  - { id: "receipt", text: "receipt", translation: "קבלה", pos: "noun", pronunciation: "רִיסִיט" }
+  - { id: "return-item", text: "return", translation: "להחזיר (מוצר)", pos: "verb", pronunciation: "רִיטֶרְן", example: { text: "I'd like to return this.", translation: "הייתי רוצה להחזיר את זה." } }
+  - { id: "exchange", text: "exchange", translation: "להחליף (מוצר)", pos: "verb", pronunciation: "אִיקְסְצ'ֵיינְג'" }
+  - { id: "have-to", text: "have to", translation: "צריך, חייב (חובה מבחוץ)", pos: "phrase", pronunciation: "הֶב טוּ", example: { text: "You have to keep the receipt.", translation: "צריך לשמור את הקבלה." } }
+  - { id: "must", text: "must", translation: "חייב (חובה, כלל)", pos: "verb", pronunciation: "מַאסְט" }
+  - { id: "mustnt", text: "mustn't", translation: "אסור", pos: "verb", pronunciation: "מַאסֶנְט" }
+  - { id: "dont-have-to", text: "don't have to", translation: "לא צריך, לא חייב", pos: "phrase", pronunciation: "דוֹנְט הֶב טוּ", example: { text: "You don't have to pay for delivery.", translation: "לא צריך לשלם על המשלוח." } }
+  - { id: "im-afraid", text: "I'm afraid…", translation: "אני חושש ש… (פתיחה מנומסת לבשורה רעה)", pos: "phrase", pronunciation: "אַיים אַפְרֵייד", example: { text: "I'm afraid there's a problem.", translation: "אני חושש שיש בעיה." } }
+  - { id: "apologise", text: "apologise", translation: "להתנצל", pos: "verb", pronunciation: "אַפּוֹלוֹג'ַייז" }
+  - { id: "within", text: "within", translation: "תוך (זמן)", pos: "preposition", pronunciation: "וִויד'ִין", example: { text: "within 30 days", translation: "תוך 30 יום" } }
+  - { id: "order-number", text: "order number", translation: "מספר הזמנה", pos: "noun", pronunciation: "אוֹרְדֶר נַאמְבֶּר" }
+
+grammar:
+  - id: obligation
+    title: { he: "חובה ואיסור: have to, must, don't have to", en: "Have to, must, don't have to" }
+    explanation: |
+      בעברית "צריך", "חייב" ו"אסור". באנגלית:
+
+      - **have to** = צריך, חייבים (בדרך כלל כלל או חובה מבחוץ): **You have to keep the receipt.** בגוף שלישי: **she has to**.
+      - **must** = חייב (רשמי יותר, או משהו שאני מרגיש שחשוב): **I must call the shop today.** בשלטים ובתקנונים: **Items must be returned within 30 days.**
+      - **mustn't** = **אסור**: **You mustn't open the box.**
+      - **don't have to** = **לא צריך**, אין חובה (אבל מותר!): **You don't have to pay for delivery.**
+
+      זו המלכודת הגדולה: **mustn't** ו־**don't have to** נשמעים דומים, אבל המשמעות שונה לגמרי. "אסור לך" מול "לא חייב".
+
+      בעבר יש רק **had to**: **I had to wait for an hour.**
+    examples:
+      - { text: "You have to show your receipt.", translation: "צריך להציג את הקבלה." }
+      - { text: "You mustn't use the machine if it's damaged.", translation: "אסור להשתמש במכונה אם היא פגומה." }
+      - { text: "You don't have to come to the shop. We'll collect it.", translation: "לא צריך לבוא לחנות. נאסוף את זה." }
+
+lessons:
+  # ------------------------------------------------------------------ 1
+  - id: u24-l1
+    kind: new
+    title: { he: "המשלוח הגיע שבור", en: "The delivery arrived broken" }
+    exercises:
+      - id: u24-l1-01
+        type: dialogue
+        scene: "נועה פותחת את הקופסה. רחל אצלה."
+        lines:
+          - { speaker: "noa", text: "My new coffee machine has finally arrived!", translation: "מכונת הקפה החדשה שלי סוף סוף הגיעה!" }
+          - { speaker: "rachel", text: "Let's see… Oh no. The box is damaged.", translation: "בואי נראה… אוי לא. הקופסה פגומה." }
+          - { speaker: "noa", text: "And the machine is broken! Look at the glass.", translation: "והמכונה שבורה! תסתכלי על הזכוכית." }
+          - { speaker: "rachel", text: "And it's the wrong colour. You ordered black, didn't you?", translation: "וזה גם הצבע הלא נכון. הזמנת שחור, לא?" }
+          - { speaker: "noa", text: "Yes! I'm going to complain. Where's the receipt?", translation: "כן! אני הולכת להתלונן. איפה הקבלה?" }
+      - { id: "u24-l1-02", type: "learn", lexeme: "delivery" }
+      - { id: "u24-l1-03", type: "learn", lexeme: "arrive" }
+      - { id: "u24-l1-04", type: "learn", lexeme: "damaged" }
+      - { id: "u24-l1-05", type: "learn", lexeme: "broken" }
+      - { id: "u24-l1-06", type: "learn", lexeme: "wrong" }
+      - { id: "u24-l1-07", type: "learn", lexeme: "complain" }
+      - { id: "u24-l1-08", type: "learn", lexeme: "receipt" }
+      - id: u24-l1-09
+        type: match_pairs
+        pairs:
+          - [delivery, משלוח]
+          - [damaged, פגום]
+          - [broken, שבור]
+          - [complain, להתלונן]
+          - [receipt, קבלה]
+        lexemes: [delivery, damaged, broken, complain, receipt]
+      - id: u24-l1-10
+        type: multiple_choice
+        prompt: "מה הבעיות במשלוח?"
+        options: [המכונה שבורה והצבע לא נכון, המשלוח איחר, אין קבלה]
+        correct: 0
+        lexemes: [broken, wrong]
+      - id: u24-l1-11
+        type: listening_choice
+        audioText: "The delivery arrived three days late, and the box was damaged."
+        question: מה הבעיה?
+        options: [איחור וקופסה פגומה, מוצר לא נכון, אין קבלה]
+        correct: 0
+        lexemes: [delivery, arrive, damaged]
+      - id: u24-l1-12
+        type: word_bank
+        prompt: "הם שלחו את הצבע הלא נכון."
+        answers: ["They sent the wrong colour.", "They sent the wrong color."]
+        distractors: [broken, colours]
+        lexemes: [wrong]
+      - id: u24-l1-13
+        type: speak_repeat
+        text: "The machine arrived broken, and it's the wrong colour."
+        translation: "המכונה הגיעה שבורה, וזה הצבע הלא נכון."
+        lexemes: [arrive, broken, wrong]
+
+  # ------------------------------------------------------------------ 2
+  - id: u24-l2
+    kind: new
+    title: { he: "שירות לקוחות", en: "Customer service" }
+    exercises:
+      - { id: "u24-l2-01", type: "learn", lexeme: "customer-service" }
+      - { id: "u24-l2-02", type: "learn", lexeme: "order-number" }
+      - { id: "u24-l2-03", type: "learn", lexeme: "im-afraid" }
+      - { id: "u24-l2-04", type: "learn", lexeme: "complaint" }
+      - { id: "u24-l2-05", type: "learn", lexeme: "apologise" }
+      - id: u24-l2-06
+        type: dialogue
+        scene: "נועה מתקשרת לשירות הלקוחות של החנות."
+        lines:
+          - { speaker: "cohen", text: "Customer service, good morning. How can I help you?", translation: "שירות לקוחות, בוקר טוב. איך אפשר לעזור?" }
+          - { speaker: "noa", text: "Hello. I'm afraid I'd like to make a complaint.", translation: "שלום. אני חוששת שאני רוצה להגיש תלונה." }
+          - { speaker: "cohen", text: "I'm sorry to hear that. What's your order number?", translation: "צר לי לשמוע. מה מספר ההזמנה שלך?" }
+          - { speaker: "noa", text: "It's 4-5-8-2-1. The coffee machine arrived broken.", translation: "4-5-8-2-1. מכונת הקפה הגיעה שבורה." }
+          - { speaker: "cohen", text: "I really apologise for that. Would you like a refund or a new machine?", translation: "אני מאוד מתנצל על כך. תרצי החזר כספי או מכונה חדשה?" }
+      - { id: "u24-l2-07", type: "learn", lexeme: "refund" }
+      - { id: "u24-l2-08", type: "learn", lexeme: "return-item" }
+      - { id: "u24-l2-09", type: "learn", lexeme: "exchange" }
+      - id: u24-l2-10
+        type: match_pairs
+        pairs:
+          - [refund, החזר כספי]
+          - [return, להחזיר]
+          - [exchange, להחליף]
+          - [complaint, תלונה]
+          - [apologise, להתנצל]
+        lexemes: [refund, return-item, exchange, complaint, apologise]
+      - id: u24-l2-11
+        type: multiple_choice
+        prompt: "מה הנציג מציע?"
+        options: [החזר כספי או מכונה חדשה, הנחה של 10%, לתקן את המכונה]
+        correct: 0
+        lexemes: [refund]
+      - id: u24-l2-12
+        type: tip
+        title: "I'm afraid: הבשורה הרעה, בנימוס"
+        text: |
+          I'm afraid לא אומר פה "אני מפחד". זו דרך מנומסת מאוד להתחיל משפט עם בשורה לא נעימה: I'm afraid we're closed.
+
+          באנגליה מתלוננים בנימוס, בשקט ובפירוט. תלונה רגועה עובדת הרבה יותר טוב.
+      - id: u24-l2-13
+        type: dialogue_gap
+        lines:
+          - { speaker: "miriam", text: "I'd like to return these shoes.", translation: "הייתי רוצה להחזיר את הנעליים האלה." }
+          - { speaker: "cohen", text: "Of course. Do you have the receipt?", translation: "בוודאי. יש לך את הקבלה?" }
+        gap: 1
+        distractors: ["Of course. Do you have the refund?", "Of course. Are you the receipt?"]
+        lexemes: [return-item, receipt]
+      - id: u24-l2-14
+        type: translate
+        direction: to_target
+        prompt: "הייתי רוצה החזר כספי, בבקשה."
+        answers: ["I'd like a refund, please.", "I would like a refund, please.", "I'd like a refund please.", "I would like a refund please."]
+        lexemes: [refund, id-like]
+      - id: u24-l2-15
+        type: speak_repeat
+        text: "I'm afraid I'd like to make a complaint."
+        translation: "אני חוששת שאני רוצה להגיש תלונה."
+        lexemes: [im-afraid, complaint]
+
+  # ------------------------------------------------------------------ 3
+  - id: u24-l3
+    kind: grammar
+    grammar: obligation
+    title: { he: "חייבים, אסור, לא צריך", en: "Must, mustn't, don't have to" }
+    exercises:
+      - { id: "u24-l3-01", type: "learn", lexeme: "have-to" }
+      - { id: "u24-l3-02", type: "learn", lexeme: "must" }
+      - { id: "u24-l3-03", type: "learn", lexeme: "mustnt" }
+      - { id: "u24-l3-04", type: "learn", lexeme: "dont-have-to" }
+      - { id: "u24-l3-05", type: "learn", lexeme: "within" }
+      - id: u24-l3-06
+        type: multiple_choice
+        prompt: "מה פירוש: You don't have to pay?"
+        options: [לא צריך לשלם, אסור לשלם, חייבים לשלם]
+        correct: 0
+        lexemes: [dont-have-to]
+      - id: u24-l3-07
+        type: multiple_choice
+        prompt: "מה פירוש: You mustn't open the box?"
+        options: [אסור לפתוח את הקופסה, לא צריך לפתוח את הקופסה, חייבים לפתוח את הקופסה]
+        correct: 0
+        lexemes: [mustnt]
+      - id: u24-l3-08
+        type: fill_blank
+        sentence: "She ___ to keep the receipt."
+        translation: "היא צריכה לשמור את הקבלה."
+        answers: [has]
+        options: [has, have, must]
+        lexemes: [have-to, receipt]
+      - id: u24-l3-09
+        type: fill_blank
+        sentence: "Items ___ be returned within 30 days."
+        translation: "יש להחזיר מוצרים תוך 30 יום."
+        answers: [must]
+        options: [must, mustn't, don't have to]
+        lexemes: [must, return-item, within]
+      - id: u24-l3-10
+        type: fill_blank
+        sentence: "Delivery is free. You ___ pay for it."
+        translation: "המשלוח חינם. לא צריך לשלם עליו."
+        answers: ["don't have to"]
+        options: ["don't have to", "mustn't", "have to"]
+        lexemes: [dont-have-to, delivery]
+      - id: u24-l3-11
+        type: dialogue_gap
+        lines:
+          - { speaker: "noa", text: "Why were you late?", translation: "למה איחרת?" }
+          - { speaker: "ben", text: "Sorry, I had to wait for the delivery.", translation: "סליחה, הייתי צריך לחכות למשלוח." }
+        gap: 1
+        distractors: ["Sorry, I must waited for the delivery.", "Sorry, I have to waited for the delivery."]
+        lexemes: [have-to, delivery]
+      - id: u24-l3-12
+        type: word_bank
+        prompt: "אסור להשתמש במכונה."
+        answers: ["You mustn't use the machine.", "You must not use the machine."]
+        distractors: [don't, have]
+        lexemes: [mustnt]
+      - id: u24-l3-13
+        type: translate
+        direction: to_target
+        prompt: "לא צריך לבוא לחנות."
+        answers: ["You don't have to come to the shop.", "You do not have to come to the shop.", "You don't have to come to the store."]
+        lexemes: [dont-have-to]
+      - id: u24-l3-14
+        type: translate
+        direction: to_source
+        prompt: "I had to call customer service three times."
+        answers: ["הייתי צריך להתקשר לשירות הלקוחות שלוש פעמים.", "הייתי צריכה להתקשר לשירות הלקוחות שלוש פעמים.", "נאלצתי להתקשר לשירות הלקוחות שלוש פעמים."]
+        lexemes: [have-to, customer-service]
+      - id: u24-l3-15
+        type: speak_repeat
+        text: "You have to keep the receipt, but you don't have to pay for delivery."
+        translation: "צריך לשמור את הקבלה, אבל לא צריך לשלם על המשלוח."
+        lexemes: [have-to, dont-have-to, receipt]
+
+  # ------------------------------------------------------------------ 4
+  - id: u24-l4
+    kind: listening
+    title: { he: "התלונה השנייה", en: "The second complaint" }
+    exercises:
+      - id: u24-l4-01
+        type: dialogue
+        scene: "שבוע אחר כך. המכונה החדשה עוד לא הגיעה, ונועה מתקשרת שוב."
+        lines:
+          - { speaker: "noa", text: "Hello, I called last week about order 45821. The new machine hasn't arrived yet.", translation: "שלום, התקשרתי בשבוע שעבר לגבי הזמנה 45821. המכונה החדשה עוד לא הגיעה." }
+          - { speaker: "cohen", text: "Let me check… I'm afraid there's a problem. It's not in stock.", translation: "רגע אבדוק… אני חושש שיש בעיה. היא לא במלאי." }
+          - { speaker: "noa", text: "That's really disappointing. I've already waited ten days.", translation: "זה באמת מאכזב. כבר חיכיתי עשרה ימים." }
+          - { speaker: "cohen", text: "I completely understand. We can give you a full refund today.", translation: "אני מבין לגמרי. אנחנו יכולים לתת לך החזר מלא היום." }
+          - { speaker: "noa", text: "And the broken machine? Do I have to send it back?", translation: "והמכונה השבורה? אני צריכה לשלוח אותה בחזרה?" }
+          - { speaker: "cohen", text: "No, you don't have to. A driver will collect it on Thursday.", translation: "לא, לא צריך. נהג יאסוף אותה ביום חמישי." }
+          - { speaker: "noa", text: "Perfect. Thank you for your help.", translation: "מושלם. תודה על העזרה." }
+      - id: u24-l4-02
+        type: multiple_choice
+        prompt: "למה המכונה החדשה לא הגיעה?"
+        options: [היא לא במלאי, הנהג איחר, ההזמנה בוטלה]
+        correct: 0
+        lexemes: [im-afraid]
+      - id: u24-l4-03
+        type: multiple_choice
+        prompt: "כמה זמן נועה כבר מחכה?"
+        options: [עשרה ימים, שבוע, שלושה ימים]
+        correct: 0
+        lexemes: [have-done]
+      - id: u24-l4-04
+        type: multiple_choice
+        prompt: "מה נועה מקבלת בסוף?"
+        options: [החזר מלא, מכונה חדשה, הנחה]
+        correct: 0
+        lexemes: [refund]
+      - id: u24-l4-05
+        type: multiple_choice
+        prompt: "מה יקרה למכונה השבורה?"
+        options: [נהג יאסוף אותה ביום חמישי, נועה תשלח אותה בדואר, נועה תזרוק אותה]
+        correct: 0
+        lexemes: [dont-have-to]
+      - id: u24-l4-06
+        type: listening_choice
+        audioText: "You must return the item within fourteen days."
+        question: עד מתי צריך להחזיר?
+        options: [תוך 14 יום, תוך 40 יום, תוך 4 ימים]
+        correct: 0
+        lexemes: [must, return-item, within]
+      - id: u24-l4-07
+        type: dialogue_gap
+        lines:
+          - { speaker: "cohen", text: "Can I exchange it for a different size?", translation: "אפשר להחליף אותו למידה אחרת?" }
+          - { speaker: "miriam", text: "Yes, but you have to bring the receipt.", translation: "כן, אבל צריך להביא את הקבלה." }
+        gap: 1
+        distractors: ["Yes, but you mustn't bring the receipt.", "Yes, but you has to bring the receipt."]
+        lexemes: [exchange, have-to, receipt]
+      - id: u24-l4-08
+        type: dictation
+        text: "The new machine hasn't arrived yet."
+        lexemes: [arrive, yet]
+      - id: u24-l4-09
+        type: translate
+        direction: to_target
+        prompt: "אני צריכה לשלוח את זה בחזרה?"
+        answers: ["Do I have to send it back?"]
+        lexemes: [have-to]
+      - id: u24-l4-10
+        type: speak_repeat
+        text: "That's really disappointing. I've already waited ten days."
+        translation: "זה באמת מאכזב. כבר חיכיתי עשרה ימים."
+        lexemes: [already]
+
+  # ------------------------------------------------------------------ 5
+  - id: u24-l5
+    kind: reading
+    title: { he: "מדיניות החזרות", en: "Returns policy" }
+    exercises:
+      - id: u24-l5-01
+        type: reading
+        kind: "מדיניות החזרות באתר"
+        title: "Our returns policy"
+        text: |
+          We want you to love your order. If you don't, you can return it within 30 days for a full refund.
+
+          Items must be unused and in their original box. You have to include the receipt or your order number.
+
+          You don't have to pay for returns: print the free label from your account and take the parcel to any post office.
+
+          If an item arrives damaged, please contact customer service within 48 hours. You mustn't use a damaged electrical item.
+
+          Refunds usually take five to seven working days.
+        translation: |
+          אנחנו רוצים שתאהבו את ההזמנה שלכם. אם לא, אפשר להחזיר אותה תוך 30 יום לקבלת החזר מלא.
+
+          המוצרים חייבים להיות לא משומשים ובקופסה המקורית. צריך לצרף את הקבלה או את מספר ההזמנה.
+
+          לא צריך לשלם על החזרות: הדפיסו את התווית החינמית מהחשבון שלכם וקחו את החבילה לכל סניף דואר.
+
+          אם מוצר מגיע פגום, אנא פנו לשירות הלקוחות תוך 48 שעות. אסור להשתמש במוצר חשמלי פגום.
+
+          החזרים לוקחים בדרך כלל חמישה עד שבעה ימי עבודה.
+      - id: u24-l5-02
+        type: multiple_choice
+        prompt: "תוך כמה זמן אפשר להחזיר מוצר?"
+        options: [30 יום, 48 שעות, 7 ימים]
+        correct: 0
+        lexemes: [return-item, within]
+      - id: u24-l5-03
+        type: multiple_choice
+        prompt: "כמה עולה להחזיר מוצר?"
+        options: [שום דבר, זה תלוי במוצר, חמישה פאונד]
+        correct: 0
+        lexemes: [dont-have-to]
+      - id: u24-l5-04
+        type: multiple_choice
+        prompt: "מה עושים אם מוצר מגיע פגום?"
+        options: [פונים לשירות לקוחות תוך 48 שעות, מחזירים אותו לדואר, משתמשים בו בזהירות]
+        correct: 0
+        lexemes: [damaged, customer-service]
+      - id: u24-l5-05
+        type: multiple_choice
+        prompt: "כמה זמן לוקח לקבל את הכסף?"
+        options: [5 עד 7 ימי עבודה, 48 שעות, 30 יום]
+        correct: 0
+        lexemes: [refund]
+      - id: u24-l5-06
+        type: fill_blank
+        sentence: "Items ___ be in their original box."
+        translation: "המוצרים חייבים להיות בקופסה המקורית."
+        answers: [must]
+        options: [must, mustn't, don't have to]
+        lexemes: [must]
+      - id: u24-l5-07
+        type: fill_blank
+        sentence: "You ___ use a damaged electrical item."
+        translation: "אסור להשתמש במוצר חשמלי פגום."
+        answers: ["mustn't"]
+        options: ["mustn't", "don't have to", "must"]
+        lexemes: [mustnt, damaged]
+      - id: u24-l5-08
+        type: word_bank
+        prompt: "צריך לצרף את הקבלה."
+        answers: ["You have to include the receipt."]
+        distractors: [must, has]
+        lexemes: [have-to, receipt]
+      - id: u24-l5-09
+        type: translate
+        direction: to_target
+        prompt: "אפשר להחזיר את זה תוך 30 יום."
+        answers: ["You can return it within 30 days.", "You can return it within thirty days.", "It can be returned within 30 days."]
+        lexemes: [return-item, within]
+      - id: u24-l5-10
+        type: speak_repeat
+        text: "If an item arrives damaged, contact customer service."
+        translation: "אם מוצר מגיע פגום, פנו לשירות הלקוחות."
+        lexemes: [damaged, customer-service]
+
+  # ------------------------------------------------------------------ 6
+  - id: u24-review
+    kind: review
+    title: { he: "חזרה: זה לא עובד", en: "Review: it doesn't work" }
+    exercises:
+      - id: u24-r-01
+        type: match_pairs
+        pairs:
+          - [must, חייב]
+          - [mustn't, אסור]
+          - [don't have to, לא צריך]
+          - [within, תוך]
+          - [wrong, לא נכון]
+        lexemes: [must, mustnt, dont-have-to, within, wrong]
+      - id: u24-r-02
+        type: fill_blank
+        sentence: "Last week I ___ to wait for two hours."
+        translation: "בשבוע שעבר הייתי צריכה לחכות שעתיים."
+        answers: [had]
+        options: [had, have, must]
+        lexemes: [have-to]
+      - id: u24-r-03
+        type: listening_choice
+        audioText: "I'm afraid we can't give you a refund without the receipt."
+        question: למה אין החזר?
+        options: [אין קבלה, עברו 30 יום, המוצר פגום]
+        correct: 0
+        lexemes: [im-afraid, refund, receipt]
+      - id: u24-r-04
+        type: word_bank
+        prompt: "הייתי רוצה להחליף את זה למידה אחרת."
+        answers: ["I'd like to exchange it for a different size.", "I would like to exchange it for a different size.", "I'd like to exchange this for a different size."]
+        distractors: [return, refund]
+        lexemes: [exchange, size]
+      - id: u24-r-05
+        type: dialogue_gap
+        lines:
+          - { speaker: "cohen", text: "I'm afraid the shop is closing.", translation: "אני חושש שהחנות נסגרת." }
+          - { speaker: "ben", text: "No problem. I'll come back tomorrow.", translation: "אין בעיה. אחזור מחר." }
+        gap: 1
+        distractors: ["No problem. I came back tomorrow.", "No problem. I'm afraid of tomorrow."]
+        lexemes: [im-afraid, will]
+      - id: u24-r-06
+        type: multiple_choice
+        prompt: "איזה משפט אומר שאין חובה?"
+        options: ["You don't have to book.", "You mustn't book.", "You must book."]
+        correct: 0
+        lexemes: [dont-have-to]
+      - id: u24-r-07
+        type: translate
+        direction: to_target
+        prompt: "המשלוח הגיע פגום."
+        answers: ["The delivery arrived damaged.", "The delivery came damaged.", "The parcel arrived damaged."]
+        lexemes: [delivery, arrive, damaged]
+      - id: u24-r-08
+        type: translate
+        direction: to_source
+        prompt: "I'd like to make a complaint."
+        answers: ["הייתי רוצה להגיש תלונה.", "אני רוצה להגיש תלונה.", "ברצוני להגיש תלונה."]
+        lexemes: [complaint]
+      - id: u24-r-09
+        type: dictation
+        text: "Do you have the receipt?"
+        lexemes: [receipt]
+      - id: u24-r-10
+        type: speak_repeat
+        text: "I really apologise. We'll send you a full refund today."
+        translation: "אני מאוד מתנצל. נשלח לך החזר מלא היום."
+        lexemes: [apologise, refund]
