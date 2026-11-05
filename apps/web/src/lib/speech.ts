@@ -21,8 +21,11 @@ export interface SpeakOptions {
   pitch?: number;
 }
 
+/** A letter card reads "A a": say the letter once, not twice. */
+export const spokenText = (text: string) => text.replace(/^(\p{L}) \1$/iu, "$1");
+
 function utterance(text: string, lang: string, opts: SpeakOptions) {
-  const u = new SpeechSynthesisUtterance(text);
+  const u = new SpeechSynthesisUtterance(spokenText(text));
   u.lang = lang;
   u.rate = opts.slow ? 0.6 : 0.95;
   u.pitch = opts.pitch ?? 1;
