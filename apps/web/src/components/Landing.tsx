@@ -202,7 +202,7 @@ export function Landing() {
             >
               <Word text={l.word} lang={l.lang} className={`text-3xl ${l.ready ? "text-cobalt" : "text-ink-soft"}`} />
               <span className="font-medium">{l.name}</span>
-              <span className="text-sm text-ink-soft">{l.ready ? "זמין עכשיו, מ־A0 ועד B2" : "בקרוב"}</span>
+              <span className="text-sm text-ink-soft">{l.ready ? "זמין עכשיו, מ־A0 ועד C1" : "בקרוב"}</span>
             </li>
           ))}
         </ul>

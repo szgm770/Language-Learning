@@ -1,0 +1,758 @@
+id: u45-idioms
+cefr: C1
+scene: free-time
+title:
+  he: לדבר כמו שצריך
+  en: Sounding natural
+story: צוות המשרד יוצא לטיול ביום ראשון בבוקר בגליל. בדרך נועה, אלי ובן מתחרים בביטויים, פעלים צירופיים והמעטה בריטית, ולומדים להישמע טבעיים.
+canDo:
+- להבין ולהשתמש בביטויים נפוצים (a blessing in disguise, break the ice)
+- להבחין בין פעלים צירופיים נפרדים ובלתי נפרדים
+- להבין המעטה, אירוניה והומור
+- לספר סיפור קצר בשפה חיה
+vocabulary:
+- id: blessing-in-disguise
+  text: a blessing in disguise
+  translation: ברכה בתחפושת (משהו רע שהתברר כטוב)
+  pos: phrase
+- id: break-the-ice
+  text: break the ice
+  translation: לשבור את הקרח
+  pos: phrase
+- id: on-the-same-page
+  text: be on the same page
+  translation: להיות באותו עמוד, להבין אחד את השני
+  pos: phrase
+- id: hit-the-nail
+  text: hit the nail on the head
+  translation: לפגוע בול
+  pos: phrase
+- id: bite-the-bullet
+  text: bite the bullet
+  translation: לנשוך את השפתיים ולעשות את זה
+  pos: phrase
+- id: cut-corners
+  text: cut corners
+  translation: לעשות קיצורי דרך על חשבון איכות
+  pos: phrase
+- id: blue-moon
+  text: once in a blue moon
+  translation: פעם בכמה שנים
+  pos: phrase
+- id: under-the-weather
+  text: under the weather
+  translation: לא מרגיש טוב
+  pos: phrase
+- id: extra-mile
+  text: go the extra mile
+  translation: להשקיע מעבר למצופה
+  pos: phrase
+- id: hang-of-it
+  text: get the hang of it
+  translation: להתרגל, לקלוט את העניין
+  pos: phrase
+- id: piece-of-cake
+  text: a piece of cake
+  translation: קל מאוד
+  pos: phrase
+- id: tip-of-iceberg
+  text: the tip of the iceberg
+  translation: קצה הקרחון
+  pos: phrase
+- id: square-one
+  text: back to square one
+  translation: חזרה לנקודת ההתחלה
+  pos: phrase
+- id: outside-the-box
+  text: think outside the box
+  translation: לחשוב מחוץ לקופסה
+  pos: phrase
+- id: come-up-with
+  text: come up with
+  translation: להמציא, להעלות (רעיון)
+  pos: verb
+- id: put-off
+  text: put off
+  translation: לדחות
+  pos: verb
+grammar:
+- id: idioms
+  title:
+    he: ביטויים ופעלים צירופיים
+    en: Idioms and phrasal verbs
+  explanation: '**ביטויים (idioms)** אי אפשר לתרגם מילה במילה. צריך ללמוד אותם כמו מילה אחת: *break the ice* אינו "לשבור קרח" אלא להפיג מבוכה בתחילת שיחה.
+
+
+    **פעלים צירופיים (phrasal verbs)** הם פועל + מילית (put off, come up with):
+
+    - "**נפרדים:** אפשר לשים מושא באמצע: *put the meeting **off*** (וגם *put off the meeting*). אם המושא הוא כינוי, חייבים באמצע: *put **it** off*."
+
+    - "**בלתי נפרדים:** המושא תמיד אחרי: *come up with **an idea***, *look after **the kids***."
+
+
+    **המעטה (understatement)** נפוצה באנגלית: *It''s not bad* = מצוין, *It was a bit of a surprise* = הפתעה גדולה. חשוב להבין את הטון, לא רק את המילים.'
+  examples:
+  - text: We need to put the meeting off until Sunday.
+    translation: אנחנו צריכים לדחות את הפגישה ליום ראשון.
+  - text: She came up with a brilliant idea.
+    translation: היא העלתה רעיון מצוין.
+  - text: Losing that deal was a blessing in disguise.
+    translation: אובדן העסקה ההיא היה ברכה בתחפושת.
+lessons:
+- id: u45-l1
+  kind: new
+  title:
+    he: בדרך לגליל
+    en: On the way to the Galilee
+  exercises:
+  - id: u45-l1-01
+    type: dialogue
+    scene: הצוות באוטובוס, יום ראשון בבוקר.
+    lines:
+    - speaker: ben
+      text: 'Let me break the ice: who has the worst sense of direction here?'
+      translation: 'בואו אשבור את הקרח: למי יש את חוש הכיוון הגרוע ביותר כאן?'
+    - speaker: eli
+      text: Noa, definitely. She once got lost in her own building.
+      translation: נועה, בהחלט. היא הלכה לאיבוד פעם בבניין של עצמה.
+    - speaker: noa
+      text: That was once in a blue moon! Anyway, losing the keys last week was a blessing in disguise.
+      translation: זה קרה פעם בכמה שנים! בכל אופן, אובדן המפתחות בשבוע שעבר היה ברכה בתחפושת.
+    - speaker: ben
+      text: How so?
+      translation: איך?
+    - speaker: noa
+      text: I finally bit the bullet and got a smart lock. It's a piece of cake to use.
+      translation: סוף־סוף נשכתי שפתיים וקניתי מנעול חכם. קל מאוד להשתמש בו.
+  - id: u45-l1-02
+    type: learn
+    lexeme: break-the-ice
+  - id: u45-l1-03
+    type: learn
+    lexeme: blue-moon
+  - id: u45-l1-04
+    type: learn
+    lexeme: blessing-in-disguise
+  - id: u45-l1-05
+    type: learn
+    lexeme: bite-the-bullet
+  - id: u45-l1-06
+    type: learn
+    lexeme: piece-of-cake
+  - id: u45-l1-07
+    type: learn
+    lexeme: under-the-weather
+  - id: u45-l1-08
+    type: match_pairs
+    pairs:
+    - - break the ice
+      - לשבור את הקרח
+    - - once in a blue moon
+      - פעם בכמה שנים
+    - - a blessing in disguise
+      - ברכה בתחפושת
+    - - bite the bullet
+      - לנשוך שפתיים
+    - - a piece of cake
+      - קל מאוד
+    lexemes:
+    - break-the-ice
+    - blue-moon
+    - blessing-in-disguise
+    - bite-the-bullet
+    - piece-of-cake
+  - id: u45-l1-09
+    type: multiple_choice
+    prompt: מה בן עושה בתחילת הנסיעה?
+    options:
+    - שובר את הקרח
+    - מתלונן
+    - ישן
+    correct: 0
+    lexemes:
+    - break-the-ice
+  - id: u45-l1-10
+    type: multiple_choice
+    prompt: מה נועה אומרת על אובדן המפתחות?
+    options:
+    - שזו הייתה ברכה בתחפושת
+    - שזו טרגדיה
+    - שזה קרה פעמיים
+    correct: 0
+    lexemes:
+    - blessing-in-disguise
+  - id: u45-l1-11
+    type: listening_choice
+    audioText: I'm feeling a bit under the weather today.
+    question: איך הדובר מרגיש?
+    options:
+    - לא טוב
+    - מצוין
+    - רעב
+    correct: 0
+    lexemes:
+    - under-the-weather
+  - id: u45-l1-12
+    type: word_bank
+    prompt: זה קל מאוד.
+    answers:
+    - It is a piece of cake.
+    - It's a piece of cake.
+    - That is a piece of cake.
+    - That's a piece of cake.
+    distractors:
+    - pieces
+    - an
+    lexemes:
+    - piece-of-cake
+  - id: u45-l1-13
+    type: translate
+    direction: to_target
+    prompt: אני רואה אותו פעם בכמה שנים.
+    answers:
+    - I see him once in a blue moon.
+    lexemes:
+    - blue-moon
+  - id: u45-l1-14
+    type: speak_repeat
+    text: Losing the keys was a blessing in disguise.
+    translation: אובדן המפתחות היה ברכה בתחפושת.
+    lexemes:
+    - blessing-in-disguise
+- id: u45-l2
+  kind: new
+  title:
+    he: בשביל לעבוד טוב
+    en: Working well
+  exercises:
+  - id: u45-l2-01
+    type: learn
+    lexeme: on-the-same-page
+  - id: u45-l2-02
+    type: learn
+    lexeme: hit-the-nail
+  - id: u45-l2-03
+    type: learn
+    lexeme: cut-corners
+  - id: u45-l2-04
+    type: learn
+    lexeme: extra-mile
+  - id: u45-l2-05
+    type: learn
+    lexeme: hang-of-it
+  - id: u45-l2-06
+    type: learn
+    lexeme: outside-the-box
+  - id: u45-l2-07
+    type: dialogue
+    scene: הפסקה בשביל קפה בנחל.
+    lines:
+    - speaker: eli
+      text: I think we're finally on the same page about the new project.
+      translation: אני חושב שסוף־סוף אנחנו באותו עמוד לגבי הפרויקט החדש.
+    - speaker: noa
+      text: 'You hit the nail on the head: we shouldn''t cut corners on quality.'
+      translation: 'פגעת בול: אסור לנו לעשות קיצורי דרך באיכות.'
+    - speaker: miriam
+      text: The new system is hard, but I'm getting the hang of it.
+      translation: המערכת החדשה קשה, אבל אני מתרגלת.
+    - speaker: ben
+      text: Let's think outside the box. Everyone who goes the extra mile gets a coffee on me.
+      translation: בואו נחשוב מחוץ לקופסה. כל מי שמשקיע מעבר למצופה מקבל קפה על חשבוני.
+  - id: u45-l2-08
+    type: match_pairs
+    pairs:
+    - - be on the same page
+      - באותו עמוד
+    - - hit the nail on the head
+      - לפגוע בול
+    - - cut corners
+      - קיצורי דרך
+    - - go the extra mile
+      - להשקיע יותר
+    - - get the hang of it
+      - להתרגל
+    lexemes:
+    - on-the-same-page
+    - hit-the-nail
+    - cut-corners
+    - extra-mile
+    - hang-of-it
+  - id: u45-l2-09
+    type: multiple_choice
+    prompt: למה נועה אומרת שאלי פגע בול?
+    options:
+    - כי אסור לעשות קיצורי דרך באיכות
+    - כי הוא הגיע ראשון
+    - כי הוא הציע קפה
+    correct: 0
+    lexemes:
+    - hit-the-nail
+    - cut-corners
+  - id: u45-l2-10
+    type: multiple_choice
+    prompt: מה בן מציע למי שמשקיע מעבר למצופה?
+    options:
+    - קפה על חשבונו
+    - יום חופש
+    - העלאה
+    correct: 0
+    lexemes:
+    - extra-mile
+  - id: u45-l2-11
+    type: dialogue_gap
+    lines:
+    - speaker: ben
+      text: Do we all understand the plan?
+      translation: כולנו מבינים את התוכנית?
+    - speaker: noa
+      text: Yes, I think we're on the same page.
+      translation: כן, אני חושבת שאנחנו באותו עמוד.
+    gap: 1
+    distractors:
+    - Yes, I think we are in the same page.
+    - Yes, I think we're at same page.
+    lexemes:
+    - on-the-same-page
+  - id: u45-l2-12
+    type: translate
+    direction: to_target
+    prompt: הוא פגע בול.
+    answers:
+    - He hit the nail on the head.
+    - He has hit the nail on the head.
+    lexemes:
+    - hit-the-nail
+  - id: u45-l2-13
+    type: translate
+    direction: to_source
+    prompt: We shouldn't cut corners.
+    answers:
+    - אסור לנו לעשות קיצורי דרך.
+    - לא כדאי שנעשה קיצורי דרך.
+    lexemes:
+    - cut-corners
+  - id: u45-l2-14
+    type: speak_repeat
+    text: Let's think outside the box.
+    translation: בואו נחשוב מחוץ לקופסה.
+    lexemes:
+    - outside-the-box
+- id: u45-l3
+  kind: grammar
+  title:
+    he: פעלים צירופיים
+    en: Phrasal verbs
+  grammar: idioms
+  exercises:
+  - id: u45-l3-01
+    type: learn
+    lexeme: tip-of-iceberg
+  - id: u45-l3-02
+    type: learn
+    lexeme: square-one
+  - id: u45-l3-03
+    type: learn
+    lexeme: come-up-with
+  - id: u45-l3-04
+    type: learn
+    lexeme: put-off
+  - id: u45-l3-05
+    type: fill_blank
+    sentence: We need to put the meeting ___ until Sunday.
+    translation: צריך לדחות את הפגישה ליום ראשון.
+    answers:
+    - 'off'
+    options:
+    - 'off'
+    - away
+    - out
+    lexemes:
+    - put-off
+  - id: u45-l3-06
+    type: fill_blank
+    sentence: She came ___ with a brilliant idea.
+    translation: היא העלתה רעיון מצוין.
+    answers:
+    - up
+    options:
+    - up
+    - 'on'
+    - over
+    lexemes:
+    - come-up-with
+  - id: u45-l3-07
+    type: fill_blank
+    sentence: The meeting? Let's put ___ off.
+    translation: הפגישה? בוא נדחה אותה.
+    answers:
+    - it
+    options:
+    - it
+    - off it
+    - that off
+    lexemes:
+    - put-off
+  - id: u45-l3-08
+    type: fill_blank
+    sentence: This is only the tip of the ___.
+    translation: זה רק קצה הקרחון.
+    answers:
+    - iceberg
+    options:
+    - iceberg
+    - ice
+    - island
+    lexemes:
+    - tip-of-iceberg
+  - id: u45-l3-09
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Put it off.
+    - Put off it.
+    - Put off to it.
+    correct: 0
+    lexemes:
+    - put-off
+  - id: u45-l3-10
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - She came up with an idea.
+    - She came an idea up with.
+    - She came with up an idea.
+    correct: 0
+    lexemes:
+    - come-up-with
+  - id: u45-l3-11
+    type: word_bank
+    prompt: חזרנו לנקודת ההתחלה.
+    answers:
+    - We are back to square one.
+    - We're back to square one.
+    distractors:
+    - at
+    - backed
+    lexemes:
+    - square-one
+  - id: u45-l3-12
+    type: translate
+    direction: to_target
+    prompt: אנחנו לא יכולים לדחות את זה.
+    answers:
+    - We can't put it off.
+    - We cannot put it off.
+    lexemes:
+    - put-off
+  - id: u45-l3-13
+    type: translate
+    direction: to_target
+    prompt: צריך להעלות רעיון חדש.
+    answers:
+    - We need to come up with a new idea.
+    - We have to come up with a new idea.
+    - We need to come up with a new one.
+    lexemes:
+    - come-up-with
+  - id: u45-l3-14
+    type: translate
+    direction: to_source
+    prompt: That's just the tip of the iceberg.
+    answers:
+    - זה רק קצה הקרחון.
+    lexemes:
+    - tip-of-iceberg
+  - id: u45-l3-15
+    type: dictation
+    text: We are back to square one.
+    lexemes:
+    - square-one
+- id: u45-l4
+  kind: listening
+  title:
+    he: מנוחה ליד המים
+    en: A break by the stream
+  exercises:
+  - id: u45-l4-01
+    type: dialogue
+    scene: אחרי ההליכה.
+    lines:
+    - speaker: ben
+      text: That hike was a bit of a challenge, wasn't it?
+      translation: הטיול הזה היה קצת אתגר, לא?
+    - speaker: eli
+      text: A bit? I'm exhausted. I could do with a seat.
+      translation: קצת? אני מותש. הייתי שמח לשבת.
+    - speaker: noa
+      text: Don't worry, the way back is a piece of cake. It's downhill.
+      translation: אל תדאג, הדרך חזרה קלה מאוד. זה בירידה.
+    - speaker: miriam
+      text: Not bad for a group of office workers. I wouldn't say we're in bad shape.
+      translation: לא רע לקבוצה של עובדי משרד. לא הייתי אומרת שאנחנו במצב רע.
+    - speaker: ben
+      text: High praise! Right, who's going to come up with a name for our hiking club?
+      translation: שבח גדול! טוב, מי יעלה שם לחוג הטיולים שלנו?
+  - id: u45-l4-02
+    type: multiple_choice
+    prompt: איך אלי מרגיש?
+    options:
+    - מותש
+    - מלא אנרגיה
+    - משועמם
+    correct: 0
+    lexemes: []
+  - id: u45-l4-03
+    type: multiple_choice
+    prompt: מה נועה אומרת על הדרך חזרה?
+    options:
+    - שהיא קלה
+    - שהיא ארוכה
+    - שהיא מסוכנת
+    correct: 0
+    lexemes:
+    - piece-of-cake
+  - id: u45-l4-04
+    type: listening_choice
+    audioText: Not bad for a group of office workers.
+    question: מה הדובר מתכוון?
+    options:
+    - שהם עשו עבודה טובה
+    - שהם גרועים
+    - שהם לא הלכו
+    correct: 0
+    lexemes: []
+  - id: u45-l4-05
+    type: dictation
+    text: Who is going to come up with a name for our club?
+    lexemes:
+    - come-up-with
+  - id: u45-l4-06
+    type: translate
+    direction: to_target
+    prompt: הטיול היה קצת אתגר.
+    answers:
+    - The hike was a bit of a challenge.
+    - The trip was a bit of a challenge.
+    - The walk was a bit of a challenge.
+    lexemes: []
+  - id: u45-l4-07
+    type: speak_repeat
+    text: Who's going to come up with a name?
+    translation: מי יעלה שם?
+    lexemes:
+    - come-up-with
+- id: u45-l5
+  kind: reading
+  title:
+    he: פינת השפה
+    en: Language corner
+  exercises:
+  - id: u45-l5-01
+    type: reading
+    kind: מדור שפה
+    title: Why idioms matter
+    text: 'Learning vocabulary is one thing; sounding natural is another. Native speakers use idioms constantly, often without noticing. If someone says, "We''re back to square one," they mean that all progress has been lost, and nobody is talking about a board game.
+
+
+      Idioms are tricky because their meaning cannot be guessed from the words. Nobody literally bites a bullet. Nevertheless, once you get the hang of a few dozen common expressions, conversations become much easier to follow.
+
+
+      Understatement is another feature of English humour. When a British person says, "It wasn''t the best day," they may well mean it was a disaster. Listening for tone is therefore as important as listening for words.
+
+
+      Our advice? Don''t cut corners. Learn idioms in context, put off the temptation to translate them, and try to come up with your own examples.
+
+      '
+    translation: 'ללמוד אוצר מילים זה דבר אחד; להישמע טבעי זה דבר אחר. דוברי שפת אם משתמשים בביטויים כל הזמן, לעיתים בלי לשים לב. כשמישהו אומר "We''re back to square one", הוא מתכוון שכל ההתקדמות אבדה, ואף אחד לא מדבר על משחק לוח.
+
+
+      ביטויים הם מורכבים כי אי אפשר לנחש את משמעותם מהמילים. איש אינו נושך כדור באמת. עם זאת, ברגע שקולטים כמה עשרות ביטויים נפוצים, קל הרבה יותר לעקוב אחרי שיחות.
+
+
+      המעטה היא עוד מאפיין של ההומור האנגלי. כשבריטי אומר "It wasn''t the best day", הוא עשוי להתכוון שזה היה אסון. האזנה לטון חשובה לא פחות מהאזנה למילים.
+
+
+      העצה שלנו? אל תעשו קיצורי דרך. למדו ביטויים בהקשר, דחו את הפיתוי לתרגם אותם, ונסו להעלות דוגמאות משלכם.
+
+      '
+  - id: u45-l5-02
+    type: multiple_choice
+    prompt: מה פירוש 'back to square one'?
+    options:
+    - כל ההתקדמות אבדה
+    - המשחק נגמר
+    - הכול טוב
+    correct: 0
+    lexemes:
+    - square-one
+  - id: u45-l5-03
+    type: multiple_choice
+    prompt: למה ביטויים מורכבים?
+    options:
+    - אי אפשר לנחש את משמעותם מהמילים
+    - הם ארוכים
+    - הם ישנים
+    correct: 0
+    lexemes: []
+  - id: u45-l5-04
+    type: multiple_choice
+    prompt: מה בריטי עשוי לומר כשהיה אסון?
+    options:
+    - It wasn't the best day.
+    - It was a disaster.
+    - It was fantastic.
+    correct: 0
+    lexemes: []
+  - id: u45-l5-05
+    type: multiple_choice
+    prompt: מהי העצה של הכותב?
+    options:
+    - ללמוד ביטויים בהקשר
+    - לתרגם כל ביטוי
+    - להתעלם מביטויים
+    correct: 0
+    lexemes:
+    - cut-corners
+  - id: u45-l5-06
+    type: fill_blank
+    sentence: Once you get the ___ of a few expressions, it's easier.
+    translation: ברגע שקולטים כמה ביטויים, זה קל יותר.
+    answers:
+    - hang
+    options:
+    - hang
+    - hand
+    - hold
+    lexemes:
+    - hang-of-it
+  - id: u45-l5-07
+    type: fill_blank
+    sentence: Try to come ___ with your own examples.
+    translation: נסו להעלות דוגמאות משלכם.
+    answers:
+    - up
+    options:
+    - up
+    - out
+    - in
+    lexemes:
+    - come-up-with
+  - id: u45-l5-08
+    type: translate
+    direction: to_target
+    prompt: אל תעשו קיצורי דרך.
+    answers:
+    - Don't cut corners.
+    - Do not cut corners.
+    lexemes:
+    - cut-corners
+- id: u45-review
+  kind: review
+  title:
+    he: 'חזרה: לדבר כמו שצריך'
+    en: 'Review: sounding natural'
+  exercises:
+  - id: u45-review-01
+    type: match_pairs
+    pairs:
+    - - break the ice
+      - לשבור את הקרח
+    - - bite the bullet
+      - לנשוך שפתיים
+    - - under the weather
+      - לא מרגיש טוב
+    - - a piece of cake
+      - קל מאוד
+    - - square one
+      - נקודת ההתחלה
+    lexemes:
+    - break-the-ice
+    - bite-the-bullet
+    - under-the-weather
+    - piece-of-cake
+    - square-one
+  - id: u45-review-02
+    type: fill_blank
+    sentence: She always goes the extra ___ for her clients.
+    translation: היא תמיד משקיעה מעבר למצופה למען הלקוחות.
+    answers:
+    - mile
+    options:
+    - mile
+    - step
+    - road
+    lexemes:
+    - extra-mile
+  - id: u45-review-03
+    type: fill_blank
+    sentence: You hit the nail on the ___.
+    translation: פגעת בול.
+    answers:
+    - head
+    options:
+    - head
+    - nail
+    - wall
+    lexemes:
+    - hit-the-nail
+  - id: u45-review-04
+    type: listening_choice
+    audioText: Let's put the meeting off until Sunday.
+    question: מה הדובר מציע?
+    options:
+    - לדחות את הפגישה ליום ראשון
+    - לבטל את הפגישה
+    - להקדים את הפגישה
+    correct: 0
+    lexemes:
+    - put-off
+  - id: u45-review-05
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - I'll put it off.
+    - I'll put off it.
+    - I'll put it off it.
+    correct: 0
+    lexemes:
+    - put-off
+  - id: u45-review-06
+    type: word_bank
+    prompt: אנחנו באותו עמוד.
+    answers:
+    - We are on the same page.
+    - We're on the same page.
+    distractors:
+    - in
+    - at
+    lexemes:
+    - on-the-same-page
+  - id: u45-review-07
+    type: translate
+    direction: to_target
+    prompt: נסה לחשוב מחוץ לקופסה.
+    answers:
+    - Try to think outside the box.
+    - Try thinking outside the box.
+    lexemes:
+    - outside-the-box
+  - id: u45-review-08
+    type: translate
+    direction: to_source
+    prompt: It happens once in a blue moon.
+    answers:
+    - זה קורה פעם בכמה שנים.
+    lexemes:
+    - blue-moon
+  - id: u45-review-09
+    type: dictation
+    text: Losing the deal was a blessing in disguise.
+    lexemes:
+    - blessing-in-disguise
+  - id: u45-review-10
+    type: speak_repeat
+    text: We came up with a great idea.
+    translation: העלינו רעיון מצוין.
+    lexemes:
+    - come-up-with

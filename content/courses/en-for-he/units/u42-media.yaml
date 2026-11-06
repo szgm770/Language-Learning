@@ -1,0 +1,763 @@
+id: u42-media
+cefr: C1
+scene: news
+title:
+  he: עובדות או סיפורים
+  en: Fact or fiction?
+story: סיפור שקרי על החברה מתפשט ברשת. נועה, אלי ומרים בודקים מקורות, מגיבים לעיתונאים ולומדים להדגיש את מה שחשוב בעזרת משפטי הדגשה כמו What matters is…
+canDo:
+- לדבר על מקורות, אמינות והטיה בחדשות
+- להדגיש רעיון בעזרת It was… who / What… is
+- לנסח תגובה מדודה לעיתונאי
+- לקרוא ביקורת על הסתמכות על רשתות חברתיות
+vocabulary:
+- id: credible
+  text: credible
+  translation: אמין
+  pos: adjective
+- id: bias
+  text: bias
+  translation: הטיה, משוא פנים
+  pos: noun
+- id: misleading
+  text: misleading
+  translation: מטעה
+  pos: adjective
+- id: scrutiny
+  text: scrutiny
+  translation: בחינה מדוקדקת
+  pos: noun
+- id: retract
+  text: retract
+  translation: לחזור בו (מהצהרה)
+  pos: verb
+- id: allegation
+  text: allegation
+  translation: האשמה (שלא הוכחה)
+  pos: noun
+- id: verify
+  text: verify
+  translation: לאמת
+  pos: verb
+- id: misinformation
+  text: misinformation
+  translation: מידע שגוי
+  pos: noun
+- id: viral
+  text: viral
+  translation: ויראלי, מתפשט במהירות
+  pos: adjective
+- id: clickbait
+  text: clickbait
+  translation: פיתיון קליקים
+  pos: noun
+- id: editorial
+  text: editorial
+  translation: מאמר מערכת
+  pos: noun
+- id: whistleblower
+  text: whistleblower
+  translation: חושף שחיתויות
+  pos: noun
+- id: rumour
+  text: rumour
+  translation: שמועה
+  pos: noun
+- id: outlet
+  text: outlet
+  translation: כלי תקשורת, ערוץ
+  pos: noun
+- id: hoax
+  text: hoax
+  translation: מתיחה, ידיעת כזב
+  pos: noun
+- id: fact-check
+  text: fact-check
+  translation: לבדוק עובדות
+  pos: verb
+grammar:
+- id: cleft
+  title:
+    he: משפטי הדגשה
+    en: Cleft sentences
+  explanation: 'כדי להדגיש חלק מהמשפט, מפצלים אותו לשניים:
+
+
+    - "**What** + נושא + פועל + **is / was** + ההדגשה: *What I need **is** more time.* (במקום: I need more time.)"
+
+    - "**It is / was** + ההדגשה + **who / that**: *It was Noa **who** found the mistake.*"
+
+    - **The reason** (why)… **is that**: *The reason we checked **is that** the story seemed false.*
+
+    - "**All** (that) + נושא + פועל + **is**: *All I want **is** the truth.*"
+
+    - **What happened was that**…: *What happened **was that** the post went viral.*
+
+
+    בעברית אפשר פשוט לשנות סדר או הטעמה; באנגלית דרוש מבנה מלא. המבנה מתאים לדיבור משכנע ולמסמכים, ומגיע הרבה בראיונות ובמבחנים.'
+  examples:
+  - text: What worries me is the lack of evidence.
+    translation: מה שמדאיג אותי הוא היעדר ראיות.
+  - text: It was the journalist who verified the story.
+    translation: העיתונאי הוא שאימת את הסיפור.
+  - text: All we need is a credible source.
+    translation: כל מה שאנחנו צריכים הוא מקור אמין.
+lessons:
+- id: u42-l1
+  kind: new
+  title:
+    he: הידיעה שהתפשטה
+    en: The viral story
+  exercises:
+  - id: u42-l1-01
+    type: dialogue
+    scene: בוקר במשרד. מרים מראה לנועה פוסט.
+    lines:
+    - speaker: miriam
+      text: Have you seen this? There's a viral post saying our company hides data.
+      translation: ראית את זה? יש פוסט ויראלי שאומר שהחברה שלנו מסתירה נתונים.
+    - speaker: noa
+      text: That's a serious allegation. Where did it come from?
+      translation: זו האשמה חמורה. מאיפה זה הגיע?
+    - speaker: miriam
+      text: An anonymous outlet. The headline is clickbait, but people are sharing it.
+      translation: כלי תקשורת אנונימי. הכותרת היא פיתיון קליקים, אבל אנשים משתפים.
+    - speaker: eli
+      text: What worries me is that nobody tried to verify it.
+      translation: מה שמדאיג אותי הוא שאף אחד לא ניסה לאמת את זה.
+    - speaker: noa
+      text: Then we'll fact-check it ourselves, and answer calmly. It was probably a rumour from the start.
+      translation: אז נבדוק עובדות בעצמנו ונענה בשקט. כנראה שזו הייתה שמועה מההתחלה.
+  - id: u42-l1-02
+    type: learn
+    lexeme: credible
+  - id: u42-l1-03
+    type: learn
+    lexeme: bias
+  - id: u42-l1-04
+    type: learn
+    lexeme: misleading
+  - id: u42-l1-05
+    type: learn
+    lexeme: allegation
+  - id: u42-l1-06
+    type: learn
+    lexeme: verify
+  - id: u42-l1-07
+    type: learn
+    lexeme: viral
+  - id: u42-l1-08
+    type: match_pairs
+    pairs:
+    - - credible
+      - אמין
+    - - bias
+      - הטיה
+    - - misleading
+      - מטעה
+    - - allegation
+      - האשמה
+    - - verify
+      - לאמת
+    lexemes:
+    - credible
+    - bias
+    - misleading
+    - allegation
+    - verify
+  - id: u42-l1-09
+    type: multiple_choice
+    prompt: מה הפוסט טוען על החברה?
+    options:
+    - שהיא מסתירה נתונים
+    - שהיא פושטת רגל
+    - שהיא מפטרת עובדים
+    correct: 0
+    lexemes:
+    - allegation
+  - id: u42-l1-10
+    type: multiple_choice
+    prompt: מה מדאיג את אלי?
+    options:
+    - שאיש לא ניסה לאמת את הסיפור
+    - שהסיפור אמת
+    - שהכותרת ארוכה
+    correct: 0
+    lexemes:
+    - verify
+  - id: u42-l1-11
+    type: listening_choice
+    audioText: The headline is misleading.
+    question: מה הדובר אומר?
+    options:
+    - שהכותרת מטעה
+    - שהכותרת מרגשת
+    - שהכותרת קצרה
+    correct: 0
+    lexemes:
+    - misleading
+  - id: u42-l1-12
+    type: word_bank
+    prompt: זה מקור אמין.
+    answers:
+    - It is a credible source.
+    - It's a credible source.
+    - This is a credible source.
+    distractors:
+    - credibly
+    - an
+    lexemes:
+    - credible
+  - id: u42-l1-13
+    type: translate
+    direction: to_target
+    prompt: הפוסט הזה ויראלי.
+    answers:
+    - This post is viral.
+    - This post has gone viral.
+    - The post is viral.
+    lexemes:
+    - viral
+  - id: u42-l1-14
+    type: speak_repeat
+    text: That is a serious allegation.
+    translation: זו האשמה חמורה.
+    lexemes:
+    - allegation
+- id: u42-l2
+  kind: new
+  title:
+    he: עיתונות ואחריות
+    en: Press and responsibility
+  exercises:
+  - id: u42-l2-01
+    type: learn
+    lexeme: scrutiny
+  - id: u42-l2-02
+    type: learn
+    lexeme: retract
+  - id: u42-l2-03
+    type: learn
+    lexeme: misinformation
+  - id: u42-l2-04
+    type: learn
+    lexeme: clickbait
+  - id: u42-l2-05
+    type: learn
+    lexeme: editorial
+  - id: u42-l2-06
+    type: learn
+    lexeme: outlet
+  - id: u42-l2-07
+    type: dialogue
+    scene: שיחה עם עיתונאית מקומית.
+    lines:
+    - speaker: noa
+      text: Thank you for calling. We take misinformation seriously.
+      translation: תודה שהתקשרת. אנחנו מתייחסים ברצינות למידע שגוי.
+    - speaker: miriam
+      text: The outlet that published the story should retract it.
+      translation: כלי התקשורת שפרסם את הסיפור צריך לחזור בו ממנו.
+    - speaker: noa
+      text: What matters is accuracy. Our data can stand up to any scrutiny.
+      translation: מה שחשוב הוא דיוק. הנתונים שלנו עומדים בכל בחינה.
+    - speaker: eli
+      text: I read the editorial. It was written by someone who never visited our office.
+      translation: קראתי את מאמר המערכת. הוא נכתב על ידי מי שמעולם לא ביקר במשרד שלנו.
+  - id: u42-l2-08
+    type: match_pairs
+    pairs:
+    - - scrutiny
+      - בחינה מדוקדקת
+    - - retract
+      - לחזור בו
+    - - misinformation
+      - מידע שגוי
+    - - clickbait
+      - פיתיון קליקים
+    - - editorial
+      - מאמר מערכת
+    lexemes:
+    - scrutiny
+    - retract
+    - misinformation
+    - clickbait
+    - editorial
+  - id: u42-l2-09
+    type: multiple_choice
+    prompt: מה נועה אומרת שחשוב?
+    options:
+    - דיוק
+    - מהירות
+    - פרסום
+    correct: 0
+    lexemes:
+    - scrutiny
+  - id: u42-l2-10
+    type: multiple_choice
+    prompt: מה כלי התקשורת צריך לעשות לפי מרים?
+    options:
+    - לחזור בו מהסיפור
+    - לפרסם עוד כתבה
+    - לסגור את האתר
+    correct: 0
+    lexemes:
+    - retract
+    - outlet
+  - id: u42-l2-11
+    type: dialogue_gap
+    lines:
+    - speaker: noa
+      text: Will the outlet admit its mistake?
+      translation: האם כלי התקשורת יודה בטעות?
+    - speaker: miriam
+      text: I hope it will retract the story.
+      translation: אני מקווה שהוא יחזור בו מהסיפור.
+    gap: 1
+    distractors:
+    - I hope it will to retract the story.
+    - I hope it retracting the story.
+    lexemes:
+    - retract
+  - id: u42-l2-12
+    type: translate
+    direction: to_target
+    prompt: הנתונים שלנו עומדים בכל בחינה.
+    answers:
+    - Our data can stand up to any scrutiny.
+    - Our data can withstand any scrutiny.
+    - Our data stands up to any scrutiny.
+    lexemes:
+    - scrutiny
+  - id: u42-l2-13
+    type: translate
+    direction: to_source
+    prompt: Misinformation spreads quickly online.
+    answers:
+    - מידע שגוי מתפשט במהירות ברשת.
+    - מידע שגוי מתפשט מהר באינטרנט.
+    lexemes:
+    - misinformation
+  - id: u42-l2-14
+    type: speak_repeat
+    text: What matters is accuracy.
+    translation: מה שחשוב הוא דיוק.
+    lexemes: []
+- id: u42-l3
+  kind: grammar
+  title:
+    he: משפטי הדגשה
+    en: Cleft sentences
+  grammar: cleft
+  exercises:
+  - id: u42-l3-01
+    type: learn
+    lexeme: whistleblower
+  - id: u42-l3-02
+    type: learn
+    lexeme: rumour
+  - id: u42-l3-03
+    type: learn
+    lexeme: hoax
+  - id: u42-l3-04
+    type: learn
+    lexeme: fact-check
+  - id: u42-l3-05
+    type: fill_blank
+    sentence: ___ worries me is the lack of evidence.
+    translation: מה שמדאיג אותי הוא היעדר ראיות.
+    answers:
+    - What
+    options:
+    - What
+    - That
+    - It
+    lexemes: []
+  - id: u42-l3-06
+    type: fill_blank
+    sentence: It was the journalist ___ verified the story.
+    translation: העיתונאי הוא שאימת את הסיפור.
+    answers:
+    - who
+    options:
+    - who
+    - what
+    - which is
+    lexemes:
+    - verify
+  - id: u42-l3-07
+    type: fill_blank
+    sentence: All we need ___ a credible source.
+    translation: כל מה שאנחנו צריכים הוא מקור אמין.
+    answers:
+    - is
+    options:
+    - is
+    - are
+    - be
+    lexemes:
+    - credible
+  - id: u42-l3-08
+    type: fill_blank
+    sentence: The reason we checked ___ that the story seemed false.
+    translation: הסיבה שבדקנו היא שהסיפור נראה כוזב.
+    answers:
+    - is
+    options:
+    - is
+    - was been
+    - are
+    lexemes: []
+  - id: u42-l3-09
+    type: multiple_choice
+    prompt: איזה משפט מדגיש את 'הזמן'?
+    options:
+    - What I need is more time.
+    - I need what is more time.
+    - It is I need more time.
+    correct: 0
+    lexemes: []
+  - id: u42-l3-10
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - It was Noa who found the mistake.
+    - It was Noa which found the mistake.
+    - Was Noa who found the mistake.
+    correct: 0
+    lexemes: []
+  - id: u42-l3-11
+    type: word_bank
+    prompt: מה שחשוב הוא האמת.
+    answers:
+    - What matters is the truth.
+    - What is important is the truth.
+    - What counts is the truth.
+    distractors:
+    - it
+    - matter
+    lexemes: []
+  - id: u42-l3-12
+    type: translate
+    direction: to_target
+    prompt: כל מה שאני רוצה הוא ידיעה אמינה.
+    answers:
+    - All I want is a credible story.
+    - All I want is a reliable story.
+    - All I want is credible news.
+    lexemes:
+    - credible
+  - id: u42-l3-13
+    type: translate
+    direction: to_target
+    prompt: זו הייתה מתיחה, לא עובדה.
+    answers:
+    - It was a hoax, not a fact.
+    - It was a hoax, not fact.
+    lexemes:
+    - hoax
+  - id: u42-l3-14
+    type: translate
+    direction: to_source
+    prompt: What happened was that the post went viral.
+    answers:
+    - מה שקרה הוא שהפוסט הפך לוויראלי.
+    - מה שקרה היה שהפוסט הפך לוויראלי.
+    lexemes:
+    - viral
+  - id: u42-l3-15
+    type: dictation
+    text: It was the whistleblower who revealed the truth.
+    lexemes:
+    - whistleblower
+- id: u42-l4
+  kind: listening
+  title:
+    he: הצהרה לעיתונות
+    en: Press statement
+  exercises:
+  - id: u42-l4-01
+    type: dialogue
+    scene: נועה מקליטה תגובה קצרה.
+    lines:
+    - speaker: noa
+      text: Good afternoon. I would like to respond to the rumour about our company.
+      translation: צהריים טובים. ברצוני להגיב לשמועה על החברה שלנו.
+    - speaker: noa
+      text: What happened was that a post went viral, and many people believed it.
+      translation: מה שקרה הוא שפוסט הפך לוויראלי והרבה אנשים האמינו לו.
+    - speaker: noa
+      text: It was our own data that proved the story false.
+      translation: הנתונים שלנו עצמם הם שהוכיחו שהסיפור שקרי.
+    - speaker: noa
+      text: All we ask is that outlets verify information before they publish it.
+      translation: כל מה שאנחנו מבקשים הוא שכלי תקשורת יאמתו מידע לפני הפרסום.
+    - speaker: noa
+      text: Thank you. We welcome any scrutiny.
+      translation: תודה. אנחנו מקבלים כל בחינה בברכה.
+  - id: u42-l4-02
+    type: multiple_choice
+    prompt: מה נועה מבקשת מכלי התקשורת?
+    options:
+    - לאמת מידע לפני פרסום
+    - לא לכתוב עלינו
+    - לחזור על הסיפור
+    correct: 0
+    lexemes:
+    - verify
+  - id: u42-l4-03
+    type: multiple_choice
+    prompt: מה הוכיח שהסיפור שקרי?
+    options:
+    - הנתונים של החברה
+    - פוסט אחר
+    - מאמר מערכת
+    correct: 0
+    lexemes: []
+  - id: u42-l4-04
+    type: listening_choice
+    audioText: It was our data that proved the story false.
+    question: מה הוכיח שהסיפור שקרי?
+    options:
+    - הנתונים של החברה
+    - עיתונאי
+    - שמועה
+    correct: 0
+    lexemes: []
+  - id: u42-l4-05
+    type: dictation
+    text: All we ask is that outlets verify information.
+    lexemes:
+    - verify
+  - id: u42-l4-06
+    type: translate
+    direction: to_target
+    prompt: מה שקרה הוא שהפוסט הפך לוויראלי.
+    answers:
+    - What happened was that the post went viral.
+    - What happened was that the post became viral.
+    lexemes:
+    - viral
+  - id: u42-l4-07
+    type: speak_repeat
+    text: We welcome any scrutiny.
+    translation: אנחנו מקבלים כל בחינה בברכה.
+    lexemes:
+    - scrutiny
+- id: u42-l5
+  kind: reading
+  title:
+    he: איך מזהים חדשות כוזבות
+    en: Spotting fake news
+  exercises:
+  - id: u42-l5-01
+    type: reading
+    kind: מאמר דעה
+    title: How to spot misinformation
+    text: 'We live in an age of information overload, and not everything we read online is true. What makes misinformation so powerful is that it often looks credible.
+
+
+      First, check the source. Is it a known outlet, or an anonymous site? Be careful with clickbait headlines: they are designed to make you click, not to inform you. It is often the headline that is misleading, not the article itself.
+
+
+      Second, look for bias. Does the writer present both sides, or only one? Reliable journalists welcome scrutiny and retract mistakes openly.
+
+
+      Finally, verify before you share. All it takes is a few minutes of fact-checking to stop a rumour or a hoax from going viral. What matters most is not who is first, but who is right.
+
+      '
+    translation: 'אנחנו חיים בעידן של עומס מידע, ולא כל מה שאנחנו קוראים ברשת נכון. מה שהופך מידע שגוי לכל כך חזק הוא שהוא נראה לעיתים קרובות אמין.
+
+
+      ראשית, בדקו את המקור. האם זה כלי תקשורת מוכר או אתר אנונימי? היזהרו מכותרות פיתיון קליקים: הן נועדו לגרום לכם ללחוץ, לא לידע אתכם. לעיתים קרובות הכותרת היא המטעה, לא הכתבה עצמה.
+
+
+      שנית, חפשו הטיה. האם הכותב מציג את שני הצדדים או רק אחד? עיתונאים אמינים מקבלים בברכה בחינה מדוקדקת וחוזרים בהם מטעויות בגלוי.
+
+
+      לבסוף, אמתו לפני ששיתפתם. כמה דקות של בדיקת עובדות מספיקות כדי למנוע משמועה או ממתיחה להפוך לוויראליות. מה שחשוב ביותר הוא לא מי הראשון, אלא מי צודק.
+
+      '
+  - id: u42-l5-02
+    type: multiple_choice
+    prompt: מה הופך מידע שגוי לחזק?
+    options:
+    - הוא נראה אמין
+    - הוא ארוך
+    - הוא יקר
+    correct: 0
+    lexemes:
+    - misinformation
+    - credible
+  - id: u42-l5-03
+    type: multiple_choice
+    prompt: למה נועדו כותרות פיתיון קליקים?
+    options:
+    - לגרום לאנשים ללחוץ
+    - לתת מידע מדויק
+    - לתקן טעויות
+    correct: 0
+    lexemes:
+    - clickbait
+  - id: u42-l5-04
+    type: multiple_choice
+    prompt: מה עושים עיתונאים אמינים?
+    options:
+    - מקבלים בחינה וחוזרים בהם מטעויות
+    - מסתירים מקורות
+    - מוחקים תגובות
+    correct: 0
+    lexemes:
+    - retract
+    - scrutiny
+  - id: u42-l5-05
+    type: multiple_choice
+    prompt: מה חשוב ביותר לפי הכותב?
+    options:
+    - להיות צודק, לא ראשון
+    - להיות מהיר
+    - להיות ויראלי
+    correct: 0
+    lexemes:
+    - viral
+  - id: u42-l5-06
+    type: fill_blank
+    sentence: What makes it powerful ___ that it looks credible.
+    translation: מה שהופך אותו לחזק הוא שהוא נראה אמין.
+    answers:
+    - is
+    options:
+    - is
+    - are
+    - be
+    lexemes:
+    - credible
+  - id: u42-l5-07
+    type: fill_blank
+    sentence: It is the headline ___ is misleading.
+    translation: הכותרת היא המטעה.
+    answers:
+    - that
+    options:
+    - that
+    - what
+    - where
+    lexemes:
+    - misleading
+  - id: u42-l5-08
+    type: translate
+    direction: to_target
+    prompt: בדקו את המקור לפני ששיתפתם.
+    answers:
+    - Check the source before you share.
+    - Check the source before sharing.
+    lexemes:
+    - verify
+- id: u42-review
+  kind: review
+  title:
+    he: 'חזרה: עובדות או סיפורים'
+    en: 'Review: fact or fiction'
+  exercises:
+  - id: u42-review-01
+    type: match_pairs
+    pairs:
+    - - credible
+      - אמין
+    - - allegation
+      - האשמה
+    - - retract
+      - לחזור בו
+    - - hoax
+      - מתיחה
+    - - outlet
+      - כלי תקשורת
+    lexemes:
+    - credible
+    - allegation
+    - retract
+    - hoax
+    - outlet
+  - id: u42-review-02
+    type: fill_blank
+    sentence: We need to ___ the information before we publish it.
+    translation: אנחנו צריכים לאמת את המידע לפני שנפרסם.
+    answers:
+    - verify
+    options:
+    - verify
+    - retract
+    - leverage
+    lexemes:
+    - verify
+  - id: u42-review-03
+    type: fill_blank
+    sentence: ___ I want is the truth.
+    translation: כל מה שאני רוצה הוא האמת.
+    answers:
+    - All
+    options:
+    - All
+    - Which
+    - That
+    lexemes: []
+  - id: u42-review-04
+    type: listening_choice
+    audioText: What worries me is the bias in that article.
+    question: מה מדאיג את הדובר?
+    options:
+    - ההטיה בכתבה
+    - אורך הכתבה
+    - המחיר
+    correct: 0
+    lexemes:
+    - bias
+  - id: u42-review-05
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - It was the editor who retracted the story.
+    - It was the editor which retracted the story.
+    - It the editor was who retracted the story.
+    correct: 0
+    lexemes:
+    - editorial
+  - id: u42-review-06
+    type: word_bank
+    prompt: הסיבה היא שהסיפור היה מטעה.
+    answers:
+    - The reason is that the story was misleading.
+    distractors:
+    - why
+    - were
+    lexemes:
+    - misleading
+  - id: u42-review-07
+    type: translate
+    direction: to_target
+    prompt: מה שקרה הוא שהשמועה התפשטה.
+    answers:
+    - What happened was that the rumour spread.
+    - What happened was that the rumor spread.
+    lexemes:
+    - rumour
+  - id: u42-review-08
+    type: translate
+    direction: to_source
+    prompt: All we need is a credible source.
+    answers:
+    - כל מה שאנחנו צריכים הוא מקור אמין.
+    lexemes:
+    - credible
+  - id: u42-review-09
+    type: dictation
+    text: Misinformation can go viral in minutes.
+    lexemes:
+    - misinformation
+    - viral
+  - id: u42-review-10
+    type: speak_repeat
+    text: It was the whistleblower who revealed the truth.
+    translation: החושף שחיתויות הוא שגילה את האמת.
+    lexemes:
+    - whistleblower
