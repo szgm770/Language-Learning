@@ -202,3 +202,19 @@ test("exam practice: the Amirnet lessons open from the exams page and show readi
   const mistakes = await finishLesson(page);
   expect(mistakes).toBe(0);
 });
+
+test("alphabet cards stay out of the word list, and practice pages open", async ({ page }) => {
+  await page.goto("start/");
+  await page.getByRole("button", { name: /אנגלית/ }).click();
+  await page.getByRole("button", { name: /רגיל/ }).click();
+  await page.getByRole("button", { name: /מאפס/ }).click();
+  await page.getByRole("button", { name: "המשך" }).click();
+  await expect(page.getByText("אות חדשה")).toBeVisible();
+  await finishLesson(page);
+  await page.goto("words/");
+  await expect(page.getByText("אין כאן מילים")).toBeVisible();
+  await page.goto("achievements/");
+  await expect(page.getByText("ההישגים שלי")).toBeVisible();
+  await page.goto("review/en-for-he/?mode=weak");
+  await expect(page.getByText("אין כרגע מילים חלשות")).toBeVisible();
+});

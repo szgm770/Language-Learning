@@ -21,7 +21,7 @@ export async function solve(page: Page, ex: Exercise) {
       break;
     case "multiple_choice":
     case "listening_choice":
-      await page.getByRole("button", { name: ex.options[ex.correct]!, exact: false }).first().click();
+      await page.locator("[data-exercise] .choice").nth(ex.correct).click();
       break;
     case "match_pairs":
       for (const [target, source] of ex.pairs) {

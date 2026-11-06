@@ -8,11 +8,11 @@ import { AppShell } from "@/components/AppShell";
 import { KIND } from "@/components/CoursePath";
 import { Icon } from "@/components/icons";
 import { InstallHint } from "@/components/InstallHint";
-import { LoadError, Loading, Ring } from "@/components/ui";
-import { loadCourse, useLoad } from "@/lib/content";
+import { LoadError, Loading, Ring, SpeakButton, Word } from "@/components/ui";
+import { lexemeIndex, loadCourse, useLoad } from "@/lib/content";
 import { today } from "@/lib/day";
 import { languageName } from "@/lib/languages";
-import { currentCourse, dailyGoal, dueCount, isCompleted, nextLesson, streak, totalXp, weekActivity } from "@/lib/progress";
+import { currentCourse, dailyGoal, dueCount, isCompleted, nextLesson, reviewCards, streak, totalXp, weekActivity, weakCards, weeklySummary, wordOfTheDay } from "@/lib/progress";
 import { useLearner } from "@/lib/store";
 
 const DAY_LETTERS = ["א", "ב", "ג", "ד", "ה", "ו", "ש"];
@@ -45,6 +45,11 @@ export default function Dashboard() {
   const goal = dailyGoal(state, day);
   const st = streak(state, day);
   const week = weekActivity(state, day);
+  const summary = weeklySummary(state, day);
+  const weak = weakCards(state, courseId).length;
+  const known = reviewCards(state, courseId).length;
+  const wotd = wordOfTheDay(state, courseId, day);
+  const wotdWord = wotd ? lexemeIndex(data.units).get(wotd) : undefined;
   const unit = next?.unit ?? data.units.at(-1)!;
   const unitIndex = data.units.indexOf(unit);
   const lessonIndex = next ? unit.lessons.indexOf(next.lesson) : unit.lessons.length - 1;
@@ -126,6 +131,27 @@ export default function Dashboard() {
         {due > 0 && <span className="rounded-full bg-saffron px-3 py-1 font-bold text-[#12203a] tabular-nums">{due}</span>}
       </Link>
 
+      {known > 0 && (
+        <div className="mt-3 grid grid-cols-2 gap-3">
+          <Link href={`/review/${courseId}/?mode=quick`} className="card flex flex-col gap-1 p-4">
+            <Icon name="flame" className="size-6 text-saffron" />
+            <span className="font-bold">5 דקות</span>
+            <span className="text-sm text-ink-soft">תרגול מהיר</span>
+          </Link>
+          <Link href={`/review/${courseId}/?mode=weak`} className="card flex flex-col gap-1 p-4">
+            <Icon name="repeat" className="size-6 text-cobalt" />
+            <span className="font-bold">מילים חלשות</span>
+            <span className="text-sm text-ink-soft">{weak > 0 ? `${weak} מילים לחיזוק` : "אין כרגע"}</span>
+          </Link>
+        </div>
+      )}
+
+      {st.length > 0 && !st.activeToday && (
+        <p className="mt-4 rounded-2xl bg-saffron-soft p-3 text-center font-semibold text-saffron-strong">
+          הרצף שלכם ({st.length} ימים) מחכה להיום. אפילו שיעור אחד שומר עליו.
+        </p>
+      )}
+
       <section className="card mt-4 flex items-center gap-4 p-4" aria-label="היעד היומי">
         <Ring value={goal.minutes / goal.goalMinutes} size={64} tone="var(--color-saffron)">
           <Icon name={goal.done ? "check" : "flame"} className={`size-6 ${goal.done ? "text-mint" : "text-saffron"}`} filled={!goal.done} />
@@ -153,7 +179,35 @@ export default function Dashboard() {
         </div>
       </section>
 
-      <nav className="mt-6 flex justify-between text-cobalt">
+      <section className="card mt-4 flex flex-col gap-2 p-4" aria-label="סיכום שבועי">
+        <h2 className="font-bold">
+          השבוע: {summary.activeDays} מתוך {summary.goalDays} ימים
+        </h2>
+        <span className="h-2 overflow-hidden rounded-full bg-sunken">
+          <span className="block h-full rounded-full bg-mint" style={{ width: `${Math.min(1, summary.activeDays / summary.goalDays) * 100}%` }} />
+        </span>
+        <p className="text-sm text-ink-soft">
+          {summary.minutes} דקות, {summary.xp} נקודות
+          {summary.lastWeekMinutes > 0 && ` · שבוע שעבר: ${summary.lastWeekMinutes} דקות`}
+          {summary.activeDays >= summary.goalDays && " · עמדתם ביעד השבועי!"}
+        </p>
+      </section>
+
+      {wotdWord && (
+        <section className="card mt-4 flex items-center gap-3 p-4" aria-label="המילה של היום">
+          <SpeakButton text={wotdWord.text} lang={manifest.speechLang} size="sm" label={`השמעה: ${wotdWord.text}`} />
+          <span className="flex min-w-0 flex-1 flex-col">
+            <span className="text-xs font-semibold text-cobalt">המילה של היום</span>
+            <Word text={wotdWord.text} lang={manifest.target} className="text-xl" />
+            <span className="truncate text-sm text-ink-soft">{wotdWord.translation}</span>
+          </span>
+        </section>
+      )}
+
+      <nav className="mt-6 flex flex-wrap justify-between gap-x-4 text-cobalt">
+        <Link href="/achievements/" className="min-h-11 py-2">
+          ההישגים שלי
+        </Link>
         <Link href={`/certificate/${courseId}/`} className="flex min-h-11 items-center gap-1 py-2">
           <Icon name="trophy" className="size-5" />
           התעודה שלי
