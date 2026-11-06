@@ -20,7 +20,7 @@ export function AppShell({ children }: { children: ReactNode }) {
       <main className="flex flex-1 flex-col px-4 pb-28">{children}</main>
       <nav
         aria-label="ניווט ראשי"
-        className="fixed inset-x-0 bottom-0 z-20 border-t border-line bg-surface/95 pb-[env(safe-area-inset-bottom)] backdrop-blur"
+        className="fixed inset-x-0 bottom-0 z-20 print:hidden border-t border-line bg-surface/95 pb-[env(safe-area-inset-bottom)] backdrop-blur"
       >
         <ul className="mx-auto grid max-w-xl grid-cols-4">
           {TABS.map((t) => {

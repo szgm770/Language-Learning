@@ -33,7 +33,7 @@ export function Learn({ ex, ctx }: ExerciseProps<"learn">) {
     <div className="flex flex-col gap-5">
       <p className="flex items-center gap-2 text-sm font-semibold text-cobalt">
         <Icon name="star" className="size-5" filled />
-        מילה חדשה
+        {/^l-/.test(lx.id) ? "אות חדשה" : /^s-/.test(lx.id) ? "צליל חדש" : "מילה חדשה"}
       </p>
       <div className="card flex flex-col items-center gap-3 px-5 py-8 text-center">
         <Word text={lx.text} lang={ctx.target} className="text-5xl text-cobalt" />

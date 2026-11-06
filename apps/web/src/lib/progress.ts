@@ -1,4 +1,5 @@
 import { State } from "@lingo/engine";
+import { parseCardKey } from "./ids";
 import { allCards, computeStreak, isEnrolled, type LearnerState, lessonKey, setting } from "@lingo/sync";
 import type { UnitPack } from "./content";
 import { flatLessons } from "./content";
@@ -37,8 +38,22 @@ export function lessonOpen(state: LearnerState, courseId: string, units: UnitPac
   return j < 0 || isCompleted(state, courseId, all[j]!.lesson.id);
 }
 
+/** Letter and sound cards (A0) are for learning the alphabet, not for spaced repetition lists. */
+export const isAlphabetCard = (cardKey: string) => /^[ls]-/.test(parseCardKey(cardKey).lexemeId);
+
+/** Cards the learner has met, without the alphabet. */
+export const reviewCards = (state: LearnerState, courseId: string) =>
+  allCards(state, courseId).filter((c) => c.card.state !== State.New && !isAlphabetCard(c.key));
+
 export function dueCount(state: LearnerState, courseId: string, now = Date.now()): number {
-  return allCards(state, courseId).filter((c) => c.card.state !== State.New && c.card.due <= now).length;
+  return reviewCards(state, courseId).filter((c) => c.card.due <= now).length;
+}
+
+/** Words that keep slipping: missed more than once, or missed at least once and still not solid. Worst first. */
+export function weakCards(state: LearnerState, courseId: string) {
+  return reviewCards(state, courseId)
+    .filter((c) => c.card.lapses >= 2 || (c.card.lapses >= 1 && mastery(c.card) <= 2))
+    .sort((a, b) => b.card.lapses - a.card.lapses || a.card.stability - b.card.stability);
 }
 
 export function streak(state: LearnerState, day: string) {
@@ -99,4 +114,80 @@ export function courseLevels(units: UnitPack[]) {
 export function passedTest(state: LearnerState, courseId: string, testId: string | undefined) {
   if (!testId) return false;
   return isCompleted(state, courseId, testId) && (state.lessons.get(`${courseId}/${testId}`)?.bestScore ?? 0) >= PASS_SCORE;
+}
+
+const addDays = (day: string, n: number) => {
+  const d = new Date(`${day}T12:00:00Z`);
+  d.setUTCDate(d.getUTCDate() + n);
+  return d.toISOString().slice(0, 10);
+};
+
+/** Days with learning, minutes and XP for a week (Sunday first), plus last week's minutes for comparison. */
+export function weeklySummary(state: LearnerState, day: string) {
+  const sunday = addDays(day, -new Date(`${day}T12:00:00Z`).getUTCDay());
+  const sum = (from: string) => {
+    let activeDays = 0, seconds = 0, xp = 0;
+    for (let i = 0; i < 7; i++) {
+      const d = state.days.get(addDays(from, i));
+      if (d && d.xp > 0) activeDays++;
+      seconds += d?.seconds ?? 0;
+      xp += d?.xp ?? 0;
+    }
+    return { activeDays, minutes: Math.round(seconds / 60), xp };
+  };
+  return { goalDays: 5, ...sum(sunday), lastWeekMinutes: sum(addDays(sunday, -7)).minutes };
+}
+
+/** A word to look at today: the same all day, different tomorrow, from the words met so far. */
+export function wordOfTheDay(state: LearnerState, courseId: string, day: string): string | undefined {
+  const keys = reviewCards(state, courseId).map((c) => parseCardKey(c.key).lexemeId).sort();
+  if (keys.length === 0) return undefined;
+  let h = 0;
+  for (const ch of `${courseId}${day}`) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
+  return keys[h % keys.length];
+}
+
+export interface Achievement {
+  id: string;
+  title: string;
+  hint: string;
+  value: number;
+  target: number;
+}
+
+/** Badges are computed from the learner's history, so nothing extra is stored and they can never get out of sync. */
+export function achievements(state: LearnerState, courseId: string, day: string): Achievement[] {
+  let lessons = 0, perfect = 0, tests = 0, xp = 0, minutes = 0;
+  for (const [key, p] of state.lessons) {
+    if (!key.startsWith(`${courseId}/`) || !p.completed) continue;
+    if (/-test$/.test(key)) {
+      if (p.bestScore >= PASS_SCORE) tests++;
+    } else lessons++;
+    if (p.bestScore >= 1) perfect++;
+  }
+  for (const d of state.days.values()) {
+    xp += d.xp;
+    minutes += (d.seconds ?? 0) / 60;
+  }
+  const cards = reviewCards(state, courseId);
+  const solid = cards.filter((c) => mastery(c.card) >= 3).length;
+  const st = streak(state, day).length;
+  const a = (id: string, title: string, hint: string, value: number, target: number): Achievement => ({ id, title, hint, value: Math.min(value, target), target });
+  return [
+    a("first", "הצעד הראשון", "סיימו שיעור ראשון", lessons, 1),
+    a("l25", "בדרך", "סיימו 25 שיעורים", lessons, 25),
+    a("l100", "מתמידים", "סיימו 100 שיעורים", lessons, 100),
+    a("l250", "מסלול שלם", "סיימו 250 שיעורים", lessons, 250),
+    a("s3", "שלושה ימים ברצף", "למדו 3 ימים ברצף", st, 3),
+    a("s7", "שבוע שלם", "למדו 7 ימים ברצף", st, 7),
+    a("s30", "חודש של למידה", "למדו 30 ימים ברצף", st, 30),
+    a("w100", "100 מילים", "הכירו 100 מילים", cards.length, 100),
+    a("w500", "500 מילים", "הכירו 500 מילים", cards.length, 500),
+    a("w1000", "1,000 מילים", "הכירו 1,000 מילים", cards.length, 1000),
+    a("solid", "מילים חזקות", "50 מילים שאתם זוכרים היטב", solid, 50),
+    a("perfect", "בלי טעויות", "10 שיעורים ב־100%", perfect, 10),
+    a("tests", "עוברים רמה", "עברו מבחן רמה", tests, 1),
+    a("hour", "שעה של אנגלית", "60 דקות למידה", Math.round(minutes), 60),
+    a("xp", "5,000 נקודות", "צברו 5,000 נקודות ניסיון", xp, 5000),
+  ];
 }

@@ -2,12 +2,13 @@
 
 import type { Exercise, Lexeme } from "@lingo/content-schema";
 import { dailyQueue, type Evaluation, gradeFromAnswer } from "@lingo/engine";
-import { allCards, SCHEMA_VERSION } from "@lingo/sync";
+import { SCHEMA_VERSION } from "@lingo/sync";
 import Link from "next/link";
 import { useCallback, useMemo, useState } from "react";
 import { today } from "@/lib/day";
 import { uuidv7, parseCardKey } from "@/lib/ids";
 import { XP_PER_LESSON } from "@/lib/lesson";
+import { reviewCards, weakCards } from "@/lib/progress";
 import { modeFor, reviewExercise } from "@/lib/review";
 import { getDeviceId, record, useLearner } from "@/lib/store";
 import { ExerciseStage } from "./ExerciseStage";
@@ -20,14 +21,23 @@ interface Item {
 }
 
 /** Today's spaced-repetition session: each due word once; a miss comes back once at the end. */
-export function ReviewPlayer({ courseId, lexemes, ctx }: { courseId: string; lexemes: Map<string, Lexeme>; ctx: ExerciseContext }) {
+export type ReviewMode = "due" | "weak" | "quick";
+const QUICK_ITEMS = 15; // about five minutes
+
+export function ReviewPlayer({ courseId, lexemes, ctx, mode = "due" }: { courseId: string; lexemes: Map<string, Lexeme>; ctx: ExerciseContext; mode?: ReviewMode }) {
   const { state } = useLearner();
   const [startedAt] = useState(Date.now());
   // The session is fixed when it starts, so answering does not reshuffle it.
   const initial = useMemo<Item[]>(() => {
-    const cards = allCards(state, courseId).filter((c) => c.card.state !== 0);
     const pool = [...lexemes.values()];
-    return dailyQueue(cards, { now: startedAt, newPerDay: 0, maxReviews: 200 })
+    const due = dailyQueue(reviewCards(state, courseId), { now: startedAt, newPerDay: 0, maxReviews: 200 });
+    const picked =
+      mode === "weak"
+        ? weakCards(state, courseId).slice(0, 20)
+        : mode === "quick"
+          ? [...due, ...reviewCards(state, courseId).filter((c) => !due.some((d) => d.key === c.key)).sort((a, b) => a.card.stability - b.card.stability)].slice(0, QUICK_ITEMS)
+          : due;
+    return picked
       .map((c, i) => {
         const lx = lexemes.get(parseCardKey(c.key).lexemeId);
         return lx ? { key: c.key, ex: reviewExercise(lx, pool, modeFor(c.card, i), i + startedAt) } : null;
@@ -98,8 +108,10 @@ export function ReviewPlayer({ courseId, lexemes, ctx }: { courseId: string; lex
   if (initial.length === 0) {
     return (
       <Screen className="items-center justify-center gap-4 text-center">
-        <h1 className="text-2xl font-semibold">אין מילים לחזרה כרגע</h1>
-        <p className="text-ink-soft">מילים חוזרות לתרגול בדיוק כשהן מתחילות להישכח. המשיכו בשיעור הבא.</p>
+        <h1 className="text-2xl font-semibold">{mode === "weak" ? "אין כרגע מילים חלשות" : "אין מילים לחזרה כרגע"}</h1>
+        <p className="text-ink-soft">
+          {mode === "weak" ? "מילים שנכשלתם בהן שוב ושוב יופיעו כאן. כרגע אתם במצב טוב." : "מילים חוזרות לתרגול בדיוק כשהן מתחילות להישכח. המשיכו בשיעור הבא."}
+        </p>
         <Link href="/learn/" className="btn-primary">
           למסך הבית
         </Link>
@@ -122,7 +134,7 @@ export function ReviewPlayer({ courseId, lexemes, ctx }: { courseId: string; lex
       )}
       {finished && (
         <div className="flex flex-1 flex-col items-center justify-center gap-6 text-center">
-          <h1 className="text-3xl font-semibold">החזרה להיום הושלמה</h1>
+          <h1 className="text-3xl font-semibold">{mode === "due" ? "החזרה להיום הושלמה" : "התרגול הושלם"}</h1>
           <p className="text-ink-soft">תרגלתם {graded.size} מילים. הן יחזרו בדיוק בזמן שכדאי.</p>
           <Link href="/learn/" className="btn-primary w-full">
             למסך הבית

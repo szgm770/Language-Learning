@@ -37,6 +37,24 @@ function load<T>(schema: z.ZodType<T>, file: string): T | undefined {
   return result.data;
 }
 
+/**
+ * Authors write the right answer first; the learner must not see that. The order is shuffled here,
+ * the same way on every build (seeded by the exercise id), so a lesson looks the same every time.
+ */
+function shuffleAnswers(unit: Unit): Unit {
+  const relative = /\b(both|none of|all of|neither)\b|שתי התשובות|כל התשובות|אף אחת/i;
+  for (const lesson of unit.lessons) {
+    for (const ex of lesson.exercises) {
+      if ((ex.type !== "multiple_choice" && ex.type !== "listening_choice") || ex.options.some((o) => relative.test(o))) continue;
+      const right = ex.options[ex.correct]!;
+      const keyed = ex.options.map((o, i) => ({ o, k: hash(`${ex.id}:${i}`) })).sort((a, b) => a.k.localeCompare(b.k));
+      ex.options = keyed.map((x) => x.o);
+      ex.correct = ex.options.indexOf(right);
+    }
+  }
+  return unit;
+}
+
 const hash = (s: string) => createHash("sha256").update(s).digest("hex").slice(0, 16);
 
 rmSync(outDir, { recursive: true, force: true });
@@ -60,7 +78,7 @@ for (const courseId of readdirSync(contentDir)) {
     if (!unit) continue;
     if (unit.id !== unitId) problems.push(`${file}: id "${unit.id}" must match file name "${unitId}"`);
     problems.push(...validateUnitReferences(unit, { courseWide: true }).map((p) => `${file}: ${p}`));
-    units.push(unit);
+    units.push(shuffleAnswers(unit));
   }
   problems.push(...validateCourse(course, units).map((p) => `${courseFile}: ${p}`));
   // Courses written with learn cards must introduce every word before practising it.
