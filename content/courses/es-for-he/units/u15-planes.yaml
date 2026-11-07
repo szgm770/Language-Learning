@@ -1,0 +1,1109 @@
+id: u15-planes
+cefr: A2
+scene: free-time
+title:
+  he: תוכניות ומזג אוויר
+  en: Plans and weather
+story: 'יעל ולוסיה מתכננות את סוף השבוע: יום שישי בבוקר, יום ראשון בפארק. הן בודקות מה מזג האוויר ולומדות לדבר על העתיד הקרוב עם ir a.'
+canDo:
+- 'לדבר על תוכניות: voy a visitar, vamos a comer'
+- 'להזמין ולהסכים: ¿Quieres venir? Sí, claro'
+- 'לתאר מזג אוויר: hace sol, llueve, hace frío'
+- להשתמש ב־pensar, mañana, la próxima semana
+vocabulary:
+- id: manana-adv
+  text: mañana
+  translation: מחר
+  pos: adverb
+  example:
+    text: Mañana voy a la oficina.
+    translation: מחר אני הולכת למשרד.
+- id: semana
+  text: la semana
+  translation: שבוע
+  pos: noun
+- id: fin-de-semana
+  text: el fin de semana
+  translation: סוף השבוע
+  pos: noun
+- id: proximo
+  text: próximo / próxima
+  translation: הבא, הקרוב
+  pos: adjective
+- id: pensar
+  text: pensar
+  translation: לחשוב, לתכנן
+  pos: verb
+- id: visitar
+  text: visitar
+  translation: לבקר
+  pos: verb
+- id: invitar
+  text: invitar
+  translation: להזמין
+  pos: verb
+- id: venir
+  text: venir
+  translation: לבוא
+  pos: verb
+  example:
+    text: ¿Quieres venir?
+    translation: רוצה לבוא?
+- id: tiempo
+  text: el tiempo
+  translation: מזג האוויר, זמן
+  pos: noun
+- id: sol
+  text: el sol
+  translation: שמש
+  pos: noun
+- id: lluvia
+  text: la lluvia
+  translation: גשם
+  pos: noun
+- id: llover
+  text: llover
+  translation: לרדת (גשם)
+  pos: verb
+- id: viento
+  text: el viento
+  translation: רוח
+  pos: noun
+- id: nublado
+  text: nublado
+  translation: מעונן
+  pos: adjective
+- id: hace
+  text: hace (frío / calor / sol)
+  translation: יש (קר / חם / שמש) — מזג אוויר
+  pos: phrase
+- id: primavera
+  text: la primavera
+  translation: אביב
+  pos: noun
+- id: verano
+  text: el verano
+  translation: קיץ
+  pos: noun
+- id: otono
+  text: el otoño
+  translation: סתיו
+  pos: noun
+- id: invierno
+  text: el invierno
+  translation: חורף
+  pos: noun
+- id: parque-lugar
+  text: el parque
+  translation: הפארק
+  pos: noun
+- id: amigo
+  text: el amigo / la amiga
+  translation: חבר / חברה
+  pos: noun
+- id: plan-lugar
+  text: el plan
+  translation: תוכנית
+  pos: noun
+grammar:
+- id: ir-a-inf
+  title:
+    he: ir a + מקור, ומזג אוויר
+    en: Going to, and weather
+  explanation: '**העתיד הקרוב:** **ir** (שכבר למדנו) + **a** + פועל במקור = "עומד ל־":
+
+
+    | בספרדית | בעברית |
+
+    |---|---|
+
+    | **Voy a** visitar a mi familia. | אני הולכת לבקר את המשפחה שלי. |
+
+    | **¿Vas a** venir mañana? | אתה בא מחר? |
+
+    | **Va a** llover. | עומד לרדת גשם. |
+
+    | **Vamos a** comer. | אנחנו הולכים לאכול. |
+
+    | **Van a** trabajar. | הם הולכים לעבוד. |
+
+
+    זה העתיד הנפוץ ביותר בדיבור. ב־B1 נלמד גם את צורת העתיד ("hablaré").
+
+    **pensar** + מקור = "מתכוון": *Pienso visitar Oaxaca* (e → ie: *pienso, piensas, piensa, pensamos, piensan*).
+
+    **venir** = לבוא (חריג): *vengo, vienes, viene, venimos, vienen*.
+
+
+    **מזג אוויר:** בספרדית אומרים **"עושה"** (hace): *Hace frío / calor / sol / viento.* אבל: *Llueve* (יורד גשם), *Está nublado* (מעונן). שאלה: **¿Qué tiempo hace?**
+
+    שימו לב: **tiempo** = גם ''זמן'' וגם ''מזג אוויר''. *Tengo tiempo.* (יש לי זמן.)'
+  examples:
+  - text: Mañana vamos a visitar a Dani.
+    translation: מחר אנחנו הולכים לבקר את דני.
+  - text: Hoy hace sol, pero mañana va a llover.
+    translation: היום יש שמש אבל מחר ירד גשם.
+  - text: ¿Quieres venir al parque el domingo?
+    translation: רוצה לבוא לפארק ביום ראשון?
+lessons:
+- id: u15-l1
+  kind: new
+  title:
+    he: תוכניות לסוף השבוע
+    en: Weekend plans
+  exercises:
+  - id: u15-l1-01
+    type: dialogue
+    scene: יום חמישי, בהפסקה.
+    lines:
+    - speaker: lucia
+      text: Yael, ¿qué vas a hacer este fin de semana?
+      translation: יעל, מה את הולכת לעשות בסוף השבוע?
+    - speaker: yael
+      text: El viernes voy a preparar la cena de Shabat. El sábado voy a descansar y rezar.
+      translation: ביום שישי אני מכינה את סעודת השבת. בשבת אני נחה ומתפללת.
+    - speaker: lucia
+      text: ¿Y el domingo?
+      translation: ובראשון?
+    - speaker: yael
+      text: El domingo voy a visitar el parque con unos amigos. ¿Quieres venir?
+      translation: ביום ראשון אני הולכת לפארק עם כמה חברים. רוצה לבוא?
+  - id: u15-l1-02
+    type: learn
+    lexeme: manana-adv
+  - id: u15-l1-03
+    type: learn
+    lexeme: semana
+  - id: u15-l1-04
+    type: learn
+    lexeme: fin-de-semana
+  - id: u15-l1-05
+    type: learn
+    lexeme: proximo
+  - id: u15-l1-06
+    type: learn
+    lexeme: pensar
+  - id: u15-l1-07
+    type: learn
+    lexeme: visitar
+  - id: u15-l1-08
+    type: learn
+    lexeme: invitar
+  - id: u15-l1-09
+    type: learn
+    lexeme: venir
+  - id: u15-l1-10
+    type: learn
+    lexeme: parque-lugar
+  - id: u15-l1-11
+    type: learn
+    lexeme: amigo
+  - id: u15-l1-12
+    type: learn
+    lexeme: plan-lugar
+  - id: u15-l1-13
+    type: tip
+    title: 'הערה: סוף השבוע'
+    text: 'בספרדית *el fin de semana* הוא שבת־ראשון. אצלנו, בהקשר שלנו, שבת נשארת יום מנוחה ויום ראשון נשאר יום של תוכניות.
+
+      '
+  - id: u15-l1-14
+    type: match_pairs
+    pairs:
+    - - mañana
+      - מחר
+    - - la semana
+      - שבוע
+    - - el fin de semana
+      - סוף השבוע
+    - - próximo
+      - הבא
+    - - el plan
+      - תוכנית
+    lexemes:
+    - manana-adv
+    - semana
+    - fin-de-semana
+    - proximo
+    - plan-lugar
+  - id: u15-l1-15
+    type: match_pairs
+    pairs:
+    - - pensar
+      - לתכנן
+    - - visitar
+      - לבקר
+    - - invitar
+      - להזמין
+    - - venir
+      - לבוא
+    - - el amigo
+      - חבר
+    lexemes:
+    - pensar
+    - visitar
+    - invitar
+    - venir
+    - amigo
+  - id: u15-l1-16
+    type: multiple_choice
+    prompt: מה פירוש 'mañana' (עם ñ, בלי 'la')?
+    options:
+    - מחר
+    - בבוקר
+    - אתמול
+    correct: 0
+    lexemes:
+    - manana-adv
+    - manana-dia
+  - id: u15-l1-17
+    type: multiple_choice
+    prompt: איך אומרים 'השבוע הבא'?
+    options:
+    - la próxima semana
+    - la semana próximo
+    - el próximo semana
+    correct: 0
+    lexemes:
+    - proximo
+    - semana
+  - id: u15-l1-18
+    type: multiple_choice
+    prompt: איך מזמינים?
+    options:
+    - ¿Quieres venir?
+    - ¿Quieres vivir?
+    - ¿Quieres visitar?
+    correct: 0
+    lexemes:
+    - querer
+    - venir
+    - vivir
+    - visitar
+  - id: u15-l1-19
+    type: listening_choice
+    audioText: Mañana voy a visitar a un amigo.
+    question: מה עושים מחר?
+    options:
+    - מבקרים חבר
+    - הולכים לשוק
+    - נחים
+    correct: 0
+    lexemes:
+    - manana-adv
+    - ir
+    - visitar
+    - amigo
+    - mercado
+    - descansar
+  - id: u15-l1-20
+    type: listening_choice
+    audioText: Este fin de semana vamos al parque.
+    question: לאן הולכים?
+    options:
+    - לפארק
+    - לשוק
+    - למשרד
+    correct: 0
+    lexemes:
+    - fin-de-semana
+    - ir
+    - parque-lugar
+    - mercado
+    - oficina
+  - id: u15-l1-21
+    type: translate
+    direction: to_target
+    prompt: מחר
+    answers:
+    - mañana
+    lexemes:
+    - manana-adv
+  - id: u15-l1-22
+    type: translate
+    direction: to_target
+    prompt: חבר ותוכנית
+    answers:
+    - un amigo y un plan
+    - amigo y plan
+    lexemes:
+    - amigo
+    - plan-lugar
+    - y
+  - id: u15-l1-23
+    type: translate
+    direction: to_source
+    prompt: la próxima semana
+    answers:
+    - השבוע הבא
+    lexemes:
+    - proximo
+    - semana
+  - id: u15-l1-24
+    type: dictation
+    text: Mañana es domingo.
+    lexemes:
+    - manana-adv
+    - domingo
+  - id: u15-l1-25
+    type: speak_repeat
+    text: ¿Quieres venir al parque?
+    translation: רוצה לבוא לפארק?
+    lexemes:
+    - querer
+    - venir
+    - parque-lugar
+- id: u15-l2
+  kind: new
+  title:
+    he: מזג אוויר ועונות
+    en: Weather and seasons
+  exercises:
+  - id: u15-l2-01
+    type: learn
+    lexeme: tiempo
+  - id: u15-l2-02
+    type: learn
+    lexeme: sol
+  - id: u15-l2-03
+    type: learn
+    lexeme: lluvia
+  - id: u15-l2-04
+    type: learn
+    lexeme: llover
+  - id: u15-l2-05
+    type: learn
+    lexeme: viento
+  - id: u15-l2-06
+    type: learn
+    lexeme: nublado
+  - id: u15-l2-07
+    type: learn
+    lexeme: hace
+  - id: u15-l2-08
+    type: learn
+    lexeme: primavera
+  - id: u15-l2-09
+    type: learn
+    lexeme: verano
+  - id: u15-l2-10
+    type: learn
+    lexeme: otono
+  - id: u15-l2-11
+    type: learn
+    lexeme: invierno
+  - id: u15-l2-12
+    type: match_pairs
+    pairs:
+    - - el tiempo
+      - מזג האוויר
+    - - el sol
+      - שמש
+    - - la lluvia
+      - גשם
+    - - el viento
+      - רוח
+    - - nublado
+      - מעונן
+    lexemes:
+    - tiempo
+    - sol
+    - lluvia
+    - viento
+    - nublado
+  - id: u15-l2-13
+    type: match_pairs
+    pairs:
+    - - la primavera
+      - אביב
+    - - el verano
+      - קיץ
+    - - el otoño
+      - סתיו
+    - - el invierno
+      - חורף
+    - - llover
+      - לרדת גשם
+    lexemes:
+    - primavera
+    - verano
+    - otono
+    - invierno
+    - llover
+  - id: u15-l2-14
+    type: multiple_choice
+    prompt: איך שואלים על מזג האוויר?
+    options:
+    - ¿Qué tiempo hace?
+    - ¿Qué hora es?
+    - ¿Cuánto cuesta?
+    correct: 0
+    lexemes:
+    - tiempo
+    - hace
+    - que-hora
+    - cuanto-cuesta
+  - id: u15-l2-15
+    type: multiple_choice
+    prompt: מה פירוש 'Hace calor'?
+    options:
+    - חם
+    - קר
+    - יורד גשם
+    correct: 0
+    lexemes:
+    - hace
+    - calor
+    - frio
+    - llover
+  - id: u15-l2-16
+    type: multiple_choice
+    prompt: מה פירוש 'Está nublado'?
+    options:
+    - מעונן
+    - שמש
+    - רוח
+    correct: 0
+    lexemes:
+    - nublado
+    - sol
+    - viento
+  - id: u15-l2-17
+    type: listening_choice
+    audioText: Hoy hace sol y no hace viento.
+    question: מה מזג האוויר?
+    options:
+    - שמש ובלי רוח
+    - גשם ורוח
+    - מעונן וקר
+    correct: 0
+    lexemes:
+    - hace
+    - sol
+    - viento
+    - llover
+    - nublado
+    - frio
+  - id: u15-l2-18
+    type: listening_choice
+    audioText: En invierno llueve mucho.
+    question: מתי יורד הרבה גשם?
+    options:
+    - בחורף
+    - בקיץ
+    - באביב
+    correct: 0
+    lexemes:
+    - invierno
+    - llover
+    - verano
+    - primavera
+  - id: u15-l2-19
+    type: fill_blank
+    sentence: En verano ___ mucho calor.
+    translation: בקיץ חם מאוד.
+    answers:
+    - hace
+    options:
+    - hace
+    - tiene
+    - está
+    lexemes:
+    - verano
+    - hace
+    - calor
+  - id: u15-l2-20
+    type: fill_blank
+    sentence: Hoy ___ mucho. Necesitas un abrigo. (גשם)
+    translation: היום יורד הרבה גשם. אתה צריך מעיל.
+    answers:
+    - llueve
+    options:
+    - llueve
+    - llover
+    - lluvia
+    lexemes:
+    - llover
+    - necesitar
+    - abrigo
+  - id: u15-l2-21
+    type: word_bank
+    prompt: היום יש שמש.
+    answers:
+    - Hoy hace sol.
+    distractors:
+    - Está
+    - tiene
+    lexemes:
+    - hoy
+    - hace
+    - sol
+  - id: u15-l2-22
+    type: translate
+    direction: to_target
+    prompt: בחורף קר.
+    answers:
+    - En invierno hace frío.
+    lexemes:
+    - invierno
+    - hace
+    - frio
+  - id: u15-l2-23
+    type: translate
+    direction: to_target
+    prompt: מעונן.
+    answers:
+    - Está nublado.
+    lexemes:
+    - nublado
+  - id: u15-l2-24
+    type: translate
+    direction: to_source
+    prompt: ¿Qué tiempo hace hoy?
+    answers:
+    - איזה מזג אוויר היום?
+    - מה מזג האוויר היום?
+    lexemes:
+    - tiempo
+    - hace
+    - hoy
+  - id: u15-l2-25
+    type: dictation
+    text: Hace viento en otoño.
+    lexemes:
+    - hace
+    - viento
+    - otono
+- id: u15-l3
+  kind: grammar
+  title:
+    he: ir a + פועל
+    en: Going to + verb
+  grammar: ir-a-inf
+  exercises:
+  - id: u15-l3-01
+    type: fill_blank
+    sentence: Yo ___ a visitar a mi familia.
+    translation: אני הולך לבקר את המשפחה.
+    answers:
+    - voy
+    options:
+    - voy
+    - vas
+    - va
+    lexemes:
+    - ir
+    - visitar
+    - familia
+  - id: u15-l3-02
+    type: fill_blank
+    sentence: ¿Tú ___ a venir mañana?
+    translation: אתה בא מחר?
+    answers:
+    - vas
+    options:
+    - vas
+    - voy
+    - van
+    lexemes:
+    - ir
+    - venir
+    - manana-adv
+  - id: u15-l3-03
+    type: fill_blank
+    sentence: Ella ___ a llover.
+    translation: הולך לרדת גשם.
+    answers:
+    - va
+    options:
+    - va
+    - vas
+    - van
+    lexemes:
+    - ir
+    - llover
+  - id: u15-l3-04
+    type: fill_blank
+    sentence: Nosotros ___ a comer en el parque.
+    translation: אנחנו הולכים לאכול בפארק.
+    answers:
+    - vamos
+    options:
+    - vamos
+    - van
+    - voy
+    lexemes:
+    - ir
+    - comer
+    - parque-lugar
+  - id: u15-l3-05
+    type: fill_blank
+    sentence: Ellos ___ a invitar a unos amigos.
+    translation: הם הולכים להזמין כמה חברים.
+    answers:
+    - van
+    options:
+    - van
+    - va
+    - vamos
+    lexemes:
+    - ir
+    - invitar
+    - amigo
+  - id: u15-l3-06
+    type: fill_blank
+    sentence: Voy ___ visitar a Dani.
+    translation: אני הולך לבקר את דני.
+    answers:
+    - a
+    options:
+    - a
+    - en
+    - de
+    lexemes:
+    - ir
+    - visitar
+  - id: u15-l3-07
+    type: fill_blank
+    sentence: Yo ___ visitar a mi abuela. (מתכוון)
+    translation: אני מתכוון לבקר את סבתא.
+    answers:
+    - pienso
+    options:
+    - pienso
+    - pensamos
+    - pensar
+    lexemes:
+    - pensar
+    - visitar
+    - abuela
+  - id: u15-l3-08
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Vamos a comer.
+    - Vamos comer.
+    - Vamos de comer.
+    correct: 0
+    lexemes:
+    - ir
+    - comer
+  - id: u15-l3-09
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Mañana va a llover.
+    - Mañana llover va.
+    - Mañana va llover.
+    correct: 0
+    lexemes:
+    - manana-adv
+    - ir
+    - llover
+  - id: u15-l3-10
+    type: multiple_choice
+    prompt: מה פירוש 'Voy a estudiar'?
+    options:
+    - אני הולך ללמוד
+    - אני למדתי
+    - אני לא לומד
+    correct: 0
+    lexemes:
+    - ir
+    - estudiar
+  - id: u15-l3-11
+    type: word_bank
+    prompt: מחר אנחנו הולכים לפארק.
+    answers:
+    - Mañana vamos al parque.
+    distractors:
+    - Hoy
+    - vas
+    lexemes:
+    - manana-adv
+    - ir
+    - parque-lugar
+  - id: u15-l3-12
+    type: word_bank
+    prompt: אני הולך לבקר חבר.
+    answers:
+    - Voy a visitar a un amigo.
+    distractors:
+    - Va
+    - comer
+    lexemes:
+    - ir
+    - visitar
+    - amigo
+  - id: u15-l3-13
+    type: translate
+    direction: to_target
+    prompt: מחר יירד גשם.
+    answers:
+    - Mañana va a llover.
+    lexemes:
+    - manana-adv
+    - ir
+    - llover
+  - id: u15-l3-14
+    type: translate
+    direction: to_target
+    prompt: אנחנו הולכים לנוח.
+    answers:
+    - Vamos a descansar.
+    lexemes:
+    - ir
+    - descansar
+  - id: u15-l3-15
+    type: translate
+    direction: to_source
+    prompt: ¿Vas a venir al parque?
+    answers:
+    - אתה בא לפארק?
+    - את באה לפארק?
+    lexemes:
+    - ir
+    - venir
+    - parque-lugar
+  - id: u15-l3-16
+    type: translate
+    direction: to_source
+    prompt: La próxima semana voy a trabajar mucho.
+    answers:
+    - בשבוע הבא אני הולך לעבוד הרבה
+    - בשבוע הבא אני הולכת לעבוד הרבה
+    lexemes:
+    - proximo
+    - semana
+    - ir
+    - trabajar
+- id: u15-l4
+  kind: listening
+  title:
+    he: תוכנית ליום ראשון
+    en: A Sunday plan
+  exercises:
+  - id: u15-l4-01
+    type: dialogue
+    scene: לוסיה ויעל מתכננות.
+    lines:
+    - speaker: lucia
+      text: El domingo va a hacer sol. ¡Vamos al parque!
+      translation: ביום ראשון תהיה שמש. בואו נלך לפארק!
+    - speaker: yael
+      text: Perfecto. Voy a invitar a Sofía y a Mateo. Podemos comer allí.
+      translation: מצוין. אני אזמין את סופיה ומתאו. נוכל לאכול שם.
+    - speaker: lucia
+      text: Yo voy a llevar fruta y agua. ¿Tú qué vas a llevar?
+      translation: אני אביא פירות ומים. ומה את תביאי?
+    - speaker: yael
+      text: Voy a llevar pan y pescado. Todo kosher, claro.
+      translation: אני אביא לחם ודג. הכול כשר, כמובן.
+  - id: u15-l4-02
+    type: multiple_choice
+    prompt: איזה מזג אוויר יהיה ביום ראשון?
+    options:
+    - שמש
+    - גשם
+    - רוח
+    correct: 0
+    lexemes:
+    - sol
+    - lluvia
+    - viento
+  - id: u15-l4-03
+    type: multiple_choice
+    prompt: מה לוסיה תביא?
+    options:
+    - פירות ומים
+    - לחם ודג
+    - מרק
+    correct: 0
+    lexemes:
+    - fruta
+    - agua
+    - pan
+    - pescado
+    - sopa
+  - id: u15-l4-04
+    type: multiple_choice
+    prompt: מי מוזמן?
+    options:
+    - סופיה ומתאו
+    - דון ריקרדו
+    - ההורים של יעל
+    correct: 0
+    lexemes:
+    - invitar
+    - padres
+  - id: u15-l4-05
+    type: listening_choice
+    audioText: Mañana va a llover.
+    question: מה יהיה מחר?
+    options:
+    - גשם
+    - שמש
+    - רוח
+    correct: 0
+    lexemes:
+    - manana-adv
+    - llover
+    - sol
+    - viento
+  - id: u15-l4-06
+    type: listening_choice
+    audioText: Vamos a visitar el parque.
+    question: מה עושים?
+    options:
+    - מבקרים בפארק
+    - קונים בגדים
+    - אוכלים במסעדה
+    correct: 0
+    lexemes:
+    - visitar
+    - parque-lugar
+    - ropa
+    - comer
+  - id: u15-l4-07
+    type: dictation
+    text: El fin de semana vamos al parque.
+    lexemes:
+    - fin-de-semana
+    - ir
+    - parque-lugar
+  - id: u15-l4-08
+    type: translate
+    direction: to_target
+    prompt: מה אתה הולך לעשות מחר?
+    answers:
+    - ¿Qué vas a hacer mañana?
+    lexemes:
+    - ir
+    - manana-adv
+  - id: u15-l4-09
+    type: speak_repeat
+    text: Voy a invitar a mis amigos.
+    translation: אני אזמין את החברים שלי.
+    lexemes:
+    - ir
+    - invitar
+    - amigo
+- id: u15-l5
+  kind: reading
+  title:
+    he: הזמנה
+    en: An invitation
+  exercises:
+  - id: u15-l5-01
+    type: reading
+    kind: הזמנה
+    title: Invitación al parque
+    text: '¡Hola, amigos! El domingo vamos a ir al parque.
+
+      Va a hacer sol y no va a hacer mucho frío. Vamos a comer fruta, pan y pescado (todo kosher).
+
+      ¿Quieres venir? Vamos a salir a las diez. Responde antes del viernes.
+
+      '
+    translation: 'שלום חברים! ביום ראשון אנחנו הולכים לפארק.
+
+      תהיה שמש ולא יהיה קר מאוד. נאכל פירות, לחם ודג (הכול כשר).
+
+      רוצה לבוא? יוצאים בעשר. ענו עד יום שישי.
+
+      '
+  - id: u15-l5-02
+    type: multiple_choice
+    prompt: מתי הטיול?
+    options:
+    - ביום ראשון
+    - בשבת
+    - ביום שני
+    correct: 0
+    lexemes:
+    - domingo
+    - sabado
+    - lunes
+  - id: u15-l5-03
+    type: multiple_choice
+    prompt: מה יהיה מזג האוויר?
+    options:
+    - שמש בלי קור גדול
+    - גשם
+    - רוח חזקה
+    correct: 0
+    lexemes:
+    - sol
+    - frio
+    - lluvia
+    - viento
+  - id: u15-l5-04
+    type: fill_blank
+    sentence: Vamos ___ comer en el parque.
+    translation: נאכל בפארק.
+    answers:
+    - a
+    options:
+    - a
+    - de
+    - en
+    lexemes:
+    - ir
+    - comer
+    - parque-lugar
+  - id: u15-l5-05
+    type: translate
+    direction: to_target
+    prompt: אני הולך לבוא ביום ראשון.
+    answers:
+    - Voy a venir el domingo.
+    lexemes:
+    - ir
+    - venir
+    - domingo
+- id: u15-review
+  kind: review
+  title:
+    he: 'חזרה: תוכניות ומזג אוויר'
+    en: 'Review: plans and weather'
+  exercises:
+  - id: u15-review-01
+    type: match_pairs
+    pairs:
+    - - mañana
+      - מחר
+    - - la semana
+      - שבוע
+    - - el sol
+      - שמש
+    - - la lluvia
+      - גשם
+    - - el viento
+      - רוח
+    lexemes:
+    - manana-adv
+    - semana
+    - sol
+    - lluvia
+    - viento
+  - id: u15-review-02
+    type: match_pairs
+    pairs:
+    - - la primavera
+      - אביב
+    - - el verano
+      - קיץ
+    - - el otoño
+      - סתיו
+    - - el invierno
+      - חורף
+    - - el amigo
+      - חבר
+    lexemes:
+    - primavera
+    - verano
+    - otono
+    - invierno
+    - amigo
+  - id: u15-review-03
+    type: fill_blank
+    sentence: Mañana ___ a llover.
+    translation: מחר ירד גשם.
+    answers:
+    - va
+    options:
+    - va
+    - voy
+    - vas
+    lexemes:
+    - manana-adv
+    - ir
+    - llover
+  - id: u15-review-04
+    type: fill_blank
+    sentence: En invierno ___ frío.
+    translation: בחורף קר.
+    answers:
+    - hace
+    options:
+    - hace
+    - tiene
+    - es
+    lexemes:
+    - invierno
+    - hace
+    - frio
+  - id: u15-review-05
+    type: multiple_choice
+    prompt: מה פירוש '¿Quieres venir?'
+    options:
+    - רוצה לבוא?
+    - רוצה לגור?
+    - רוצה לשתות?
+    correct: 0
+    lexemes:
+    - querer
+    - venir
+    - vivir
+    - beber
+  - id: u15-review-06
+    type: listening_choice
+    audioText: Este fin de semana voy a descansar.
+    question: מה עושים?
+    options:
+    - נחים
+    - עובדים
+    - קונים
+    correct: 0
+    lexemes:
+    - fin-de-semana
+    - ir
+    - descansar
+    - trabajar
+    - comprar
+  - id: u15-review-07
+    type: word_bank
+    prompt: אנחנו הולכים לנוח.
+    answers:
+    - Vamos a descansar.
+    distractors:
+    - Voy
+    - comer
+    lexemes:
+    - ir
+    - descansar
+  - id: u15-review-08
+    type: translate
+    direction: to_target
+    prompt: מה מזג האוויר?
+    answers:
+    - ¿Qué tiempo hace?
+    lexemes:
+    - tiempo
+    - hace
+  - id: u15-review-09
+    type: translate
+    direction: to_source
+    prompt: Voy a invitar a mis amigos.
+    answers:
+    - אני אזמין את החברים שלי
+    - אני אזמין את החברים שלי.
+    lexemes:
+    - ir
+    - invitar
+    - amigo
+  - id: u15-review-10
+    type: dictation
+    text: Hoy hace sol.
+    lexemes:
+    - hoy
+    - hace
+    - sol
+  - id: u15-review-11
+    type: speak_repeat
+    text: Mañana vamos al parque.
+    translation: מחר אנחנו הולכים לפארק.
+    lexemes:
+    - manana-adv
+    - ir
+    - parque-lugar

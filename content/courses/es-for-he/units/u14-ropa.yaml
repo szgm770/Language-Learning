@@ -1,0 +1,1135 @@
+id: u14-ropa
+cefr: A2
+scene: shopping
+title:
+  he: בגדים והשוואות
+  en: Clothes and comparisons
+story: לקראת אירוע במשרד יעל קונה בגדים בחנות של מרכז העיר. היא משווה מחירים, צבעים וגדלים, ולומדת להגיד 'יותר מ…', 'פחות מ…', 'הכי…', 'טוב יותר'.
+canDo:
+- לדבר על בגדים, צבעים ומידות
+- 'להשוות: más caro que, menos grande que, tan bonito como'
+- להשתמש ב־mejor, peor, mayor, menor
+- לבקש מידה אחרת ולהתלבט בין שתי אפשרויות
+vocabulary:
+- id: ropa
+  text: la ropa
+  translation: בגדים
+  pos: noun
+- id: pantalones
+  text: los pantalones
+  translation: מכנסיים
+  pos: noun
+- id: falda
+  text: la falda
+  translation: חצאית
+  pos: noun
+- id: vestido
+  text: el vestido
+  translation: שמלה
+  pos: noun
+- id: abrigo
+  text: el abrigo
+  translation: מעיל
+  pos: noun
+- id: kipa
+  text: la kipá
+  translation: כיפה
+  pos: noun
+- id: talla
+  text: la talla
+  translation: מידה
+  pos: noun
+- id: probarse
+  text: probarse
+  translation: למדוד
+  pos: verb
+- id: rojo
+  text: rojo / roja
+  translation: אדום
+  pos: adjective
+- id: azul
+  text: azul
+  translation: כחול
+  pos: adjective
+- id: verde
+  text: verde
+  translation: ירוק
+  pos: adjective
+- id: negro
+  text: negro / negra
+  translation: שחור
+  pos: adjective
+- id: blanco
+  text: blanco / blanca
+  translation: לבן
+  pos: adjective
+- id: nuevo
+  text: nuevo / nueva
+  translation: חדש
+  pos: adjective
+- id: viejo
+  text: viejo / vieja
+  translation: ישן, זקן
+  pos: adjective
+- id: largo
+  text: largo / larga
+  translation: ארוך
+  pos: adjective
+- id: corto
+  text: corto / corta
+  translation: קצר
+  pos: adjective
+- id: mas-que
+  text: más… que
+  translation: יותר מ־
+  pos: phrase
+  example:
+    text: Este vestido es más caro que ese.
+    translation: השמלה הזאת יקרה מזו.
+- id: menos-que
+  text: menos… que
+  translation: פחות מ־
+  pos: phrase
+- id: tan-como
+  text: tan… como
+  translation: כמו, באותה מידה כמו
+  pos: phrase
+- id: bueno
+  text: bueno / buena
+  translation: טוב
+  pos: adjective
+- id: malo
+  text: malo / mala
+  translation: רע
+  pos: adjective
+- id: mejor
+  text: mejor
+  translation: טוב יותר
+  pos: adjective
+- id: peor
+  text: peor
+  translation: גרוע יותר
+  pos: adjective
+grammar:
+- id: comparativos
+  title:
+    he: השוואות
+    en: Comparisons
+  explanation: '**השוואה** בספרדית דומה מאוד לעברית ("יותר… מ־", "פחות… מ־"):
+
+
+    * **más + תואר + que** — יותר מ־: *El abrigo es **más caro que** la camisa.*
+
+    * **menos + תואר + que** — פחות מ־: *La falda es **menos larga que** el vestido.*
+
+    * **tan + תואר + como** — באותה מידה: *Es **tan bonito como** el rojo.*
+
+    * אותו דבר עם **פעלים ושמות עצם:** *Trabajo **más que** tú.* | *Tengo **menos** ropa **que** ella.*
+
+
+    **ארבעה מיוחדים** (בלי más):
+
+    | רגיל | יותר |
+
+    |---|---|
+
+    | bueno (טוב) | **mejor** (טוב יותר) |
+
+    | malo (רע) | **peor** (גרוע יותר) |
+
+    | grande (גדול, גיל) | **mayor** (מבוגר יותר) |
+
+    | pequeño / joven | **menor** (צעיר יותר) |
+
+
+    אומרים **mejor que**: *Este color es mejor que el negro.*
+
+    **סופרלטיב:** אל הצורה המשווה מוסיפים el / la: *el más barato* (הזול ביותר), *la mejor* (הטובה ביותר).
+
+    **צבעים והתאמה:** *rojo* → *roja* (נקבה); *azul, verde* לא משתנים בין זכר לנקבה. תואר בא אחרי שם העצם: *un abrigo negro*, *una falda larga*.'
+  examples:
+  - text: Los zapatos negros son más baratos que los azules.
+    translation: הנעליים השחורות זולות מהכחולות.
+  - text: Esta falda es tan larga como esa.
+    translation: החצאית הזאת ארוכה כמו ההיא.
+  - text: Este abrigo es mejor que el viejo.
+    translation: המעיל הזה טוב מהישן.
+lessons:
+- id: u14-l1
+  kind: new
+  title:
+    he: בגדים וצבעים
+    en: Clothes and colors
+  exercises:
+  - id: u14-l1-01
+    type: dialogue
+    scene: בחנות הבגדים.
+    lines:
+    - speaker: sofia
+      text: Yael, mira este vestido azul. Es muy bonito.
+      translation: יעל, תראי את השמלה הכחולה הזאת. היא יפה מאוד.
+    - speaker: yael
+      text: Sí, pero la falda negra es más larga y yo prefiero la manga larga.
+      translation: כן, אבל החצאית השחורה ארוכה יותר ואני מעדיפה שרוול ארוך.
+    - speaker: sofia
+      text: ¿Qué talla necesitas?
+      translation: איזו מידה את צריכה?
+    - speaker: yael
+      text: Necesito la talla mediana. ¿Puedo probarme el vestido?
+      translation: אני צריכה מידה בינונית. אפשר למדוד את השמלה?
+  - id: u14-l1-02
+    type: learn
+    lexeme: ropa
+  - id: u14-l1-03
+    type: learn
+    lexeme: pantalones
+  - id: u14-l1-04
+    type: learn
+    lexeme: falda
+  - id: u14-l1-05
+    type: learn
+    lexeme: vestido
+  - id: u14-l1-06
+    type: learn
+    lexeme: abrigo
+  - id: u14-l1-07
+    type: learn
+    lexeme: kipa
+  - id: u14-l1-08
+    type: learn
+    lexeme: talla
+  - id: u14-l1-09
+    type: learn
+    lexeme: probarse
+  - id: u14-l1-10
+    type: learn
+    lexeme: rojo
+  - id: u14-l1-11
+    type: learn
+    lexeme: azul
+  - id: u14-l1-12
+    type: learn
+    lexeme: verde
+  - id: u14-l1-13
+    type: learn
+    lexeme: negro
+  - id: u14-l1-14
+    type: learn
+    lexeme: blanco
+  - id: u14-l1-15
+    type: match_pairs
+    pairs:
+    - - la ropa
+      - בגדים
+    - - los pantalones
+      - מכנסיים
+    - - la falda
+      - חצאית
+    - - el vestido
+      - שמלה
+    - - el abrigo
+      - מעיל
+    lexemes:
+    - ropa
+    - pantalones
+    - falda
+    - vestido
+    - abrigo
+  - id: u14-l1-16
+    type: match_pairs
+    pairs:
+    - - rojo
+      - אדום
+    - - azul
+      - כחול
+    - - verde
+      - ירוק
+    - - negro
+      - שחור
+    - - blanco
+      - לבן
+    lexemes:
+    - rojo
+    - azul
+    - verde
+    - negro
+    - blanco
+  - id: u14-l1-17
+    type: multiple_choice
+    prompt: מה פירוש 'la talla'?
+    options:
+    - המידה
+    - הצבע
+    - המחיר
+    correct: 0
+    lexemes:
+    - talla
+    - color
+    - cuenta
+  - id: u14-l1-18
+    type: multiple_choice
+    prompt: איך אומרים 'אפשר למדוד?'
+    options:
+    - ¿Puedo probarme esto?
+    - ¿Puedo comprarme esto?
+    - ¿Puedo llamarme esto?
+    correct: 0
+    lexemes:
+    - poder
+    - probarse
+    - esto
+    - comprar
+    - llamar
+  - id: u14-l1-19
+    type: multiple_choice
+    prompt: איך אומרים 'מעיל שחור'?
+    options:
+    - un abrigo negro
+    - un negro abrigo
+    - un abrigo es negro
+    correct: 0
+    lexemes:
+    - abrigo
+    - negro
+  - id: u14-l1-20
+    type: listening_choice
+    audioText: la falda roja
+    question: מה שמעתם?
+    options:
+    - החצאית האדומה
+    - השמלה האדומה
+    - החולצה האדומה
+    correct: 0
+    lexemes:
+    - falda
+    - rojo
+    - vestido
+    - camisa
+  - id: u14-l1-21
+    type: listening_choice
+    audioText: Necesito un abrigo azul.
+    question: מה שמעתם?
+    options:
+    - אני צריך מעיל כחול
+    - אני צריך שמלה כחולה
+    - אני צריך חולצה כחולה
+    correct: 0
+    lexemes:
+    - necesitar
+    - abrigo
+    - azul
+    - vestido
+    - camisa
+  - id: u14-l1-22
+    type: translate
+    direction: to_target
+    prompt: שמלה אדומה
+    answers:
+    - un vestido rojo
+    - vestido rojo
+    - el vestido rojo
+    lexemes:
+    - vestido
+    - rojo
+  - id: u14-l1-23
+    type: translate
+    direction: to_target
+    prompt: מעיל שחור
+    answers:
+    - un abrigo negro
+    - abrigo negro
+    - el abrigo negro
+    lexemes:
+    - abrigo
+    - negro
+  - id: u14-l1-24
+    type: translate
+    direction: to_source
+    prompt: los pantalones verdes
+    answers:
+    - המכנסיים הירוקים
+    - מכנסיים ירוקים
+    lexemes:
+    - pantalones
+    - verde
+  - id: u14-l1-25
+    type: dictation
+    text: una camisa blanca
+    lexemes:
+    - camisa
+    - blanco
+  - id: u14-l1-26
+    type: speak_repeat
+    text: Necesito una falda negra.
+    translation: אני צריכה חצאית שחורה.
+    lexemes:
+    - necesitar
+    - falda
+    - negro
+- id: u14-l2
+  kind: new
+  title:
+    he: חדש, ישן, ארוך, קצר
+    en: New, old, long, short
+  exercises:
+  - id: u14-l2-01
+    type: learn
+    lexeme: nuevo
+  - id: u14-l2-02
+    type: learn
+    lexeme: viejo
+  - id: u14-l2-03
+    type: learn
+    lexeme: largo
+  - id: u14-l2-04
+    type: learn
+    lexeme: corto
+  - id: u14-l2-05
+    type: learn
+    lexeme: bueno
+  - id: u14-l2-06
+    type: learn
+    lexeme: malo
+  - id: u14-l2-07
+    type: learn
+    lexeme: mejor
+  - id: u14-l2-08
+    type: learn
+    lexeme: peor
+  - id: u14-l2-09
+    type: match_pairs
+    pairs:
+    - - nuevo
+      - חדש
+    - - viejo
+      - ישן
+    - - largo
+      - ארוך
+    - - corto
+      - קצר
+    lexemes:
+    - nuevo
+    - viejo
+    - largo
+    - corto
+  - id: u14-l2-10
+    type: match_pairs
+    pairs:
+    - - bueno
+      - טוב
+    - - malo
+      - רע
+    - - mejor
+      - טוב יותר
+    - - peor
+      - גרוע יותר
+    lexemes:
+    - bueno
+    - malo
+    - mejor
+    - peor
+  - id: u14-l2-11
+    type: multiple_choice
+    prompt: מה ההפך של 'largo'?
+    options:
+    - corto
+    - nuevo
+    - grande
+    correct: 0
+    lexemes:
+    - largo
+    - corto
+    - nuevo
+    - grande
+  - id: u14-l2-12
+    type: multiple_choice
+    prompt: מה ההפך של 'bueno'?
+    options:
+    - malo
+    - viejo
+    - caro
+    correct: 0
+    lexemes:
+    - bueno
+    - malo
+    - viejo
+    - caro
+  - id: u14-l2-13
+    type: multiple_choice
+    prompt: מה פירוש 'mejor'?
+    options:
+    - טוב יותר
+    - גרוע יותר
+    - הכי יקר
+    correct: 0
+    lexemes:
+    - mejor
+    - peor
+    - caro
+  - id: u14-l2-14
+    type: listening_choice
+    audioText: Mi abrigo es viejo.
+    question: איך המעיל?
+    options:
+    - ישן
+    - חדש
+    - יקר
+    correct: 0
+    lexemes:
+    - abrigo
+    - viejo
+    - nuevo
+    - caro
+  - id: u14-l2-15
+    type: listening_choice
+    audioText: La falda es muy corta.
+    question: איך החצאית?
+    options:
+    - קצרה
+    - ארוכה
+    - חדשה
+    correct: 0
+    lexemes:
+    - falda
+    - corto
+    - largo
+    - nuevo
+  - id: u14-l2-16
+    type: dialogue
+    scene: בחנות, יעל מתלבטת.
+    lines:
+    - speaker: yael
+      text: El vestido rojo es muy corto. ¿Tiene uno más largo?
+      translation: השמלה האדומה קצרה מאוד. יש אחת ארוכה יותר?
+    - speaker: sofia
+      text: Sí, este azul es largo y nuevo. Es mejor.
+      translation: כן, הכחולה הזאת ארוכה וחדשה. היא טובה יותר.
+    - speaker: yael
+      text: ¡Perfecto! ¿Cuánto cuesta?
+      translation: מושלם! כמה היא עולה?
+  - id: u14-l2-17
+    type: fill_blank
+    sentence: El abrigo nuevo es ___ que el viejo. (טוב)
+    translation: המעיל החדש טוב מהישן.
+    answers:
+    - mejor
+    options:
+    - mejor
+    - peor
+    - más bueno
+    lexemes:
+    - abrigo
+    - nuevo
+    - viejo
+    - mejor
+  - id: u14-l2-18
+    type: fill_blank
+    sentence: Esta camisa es muy ___. No es larga. (קצרה)
+    translation: החולצה הזאת קצרה מאוד.
+    answers:
+    - corta
+    options:
+    - corta
+    - larga
+    - nueva
+    lexemes:
+    - camisa
+    - corto
+    - largo
+  - id: u14-l2-19
+    type: word_bank
+    prompt: אני רוצה שמלה חדשה.
+    answers:
+    - Quiero un vestido nuevo.
+    distractors:
+    - Tengo
+    - viejo
+    lexemes:
+    - querer
+    - vestido
+    - nuevo
+  - id: u14-l2-20
+    type: translate
+    direction: to_target
+    prompt: הנעליים הישנות.
+    answers:
+    - los zapatos viejos
+    lexemes:
+    - zapatos
+    - viejo
+  - id: u14-l2-21
+    type: translate
+    direction: to_target
+    prompt: זה גרוע.
+    answers:
+    - Es malo.
+    - Esto es malo.
+    lexemes:
+    - malo
+  - id: u14-l2-22
+    type: translate
+    direction: to_source
+    prompt: Mi ropa es nueva.
+    answers:
+    - הבגדים שלי חדשים
+    lexemes:
+    - mi
+    - ropa
+    - nuevo
+  - id: u14-l2-23
+    type: dictation
+    text: Un vestido largo y nuevo.
+    lexemes:
+    - vestido
+    - largo
+    - nuevo
+- id: u14-l3
+  kind: grammar
+  title:
+    he: más, menos, tan
+    en: More, less, as
+  grammar: comparativos
+  exercises:
+  - id: u14-l3-01
+    type: learn
+    lexeme: mas-que
+  - id: u14-l3-02
+    type: learn
+    lexeme: menos-que
+  - id: u14-l3-03
+    type: learn
+    lexeme: tan-como
+  - id: u14-l3-04
+    type: fill_blank
+    sentence: El abrigo es ___ caro que la camisa.
+    translation: המעיל יקר יותר מהחולצה.
+    answers:
+    - más
+    options:
+    - más
+    - menos
+    - tan
+    lexemes:
+    - abrigo
+    - mas-que
+    - caro
+    - camisa
+  - id: u14-l3-05
+    type: fill_blank
+    sentence: La falda es ___ larga que el vestido. (פחות)
+    translation: החצאית פחות ארוכה מהשמלה.
+    answers:
+    - menos
+    options:
+    - menos
+    - más
+    - tan
+    lexemes:
+    - falda
+    - menos-que
+    - largo
+    - vestido
+  - id: u14-l3-06
+    type: fill_blank
+    sentence: Este color es tan bonito ___ el azul.
+    translation: הצבע הזה יפה כמו הכחול.
+    answers:
+    - como
+    options:
+    - como
+    - que
+    - de
+    lexemes:
+    - tan-como
+    - bonito
+    - azul
+  - id: u14-l3-07
+    type: fill_blank
+    sentence: Los zapatos negros son ___ que los blancos. (טובים יותר)
+    translation: הנעליים השחורות טובות מהלבנות.
+    answers:
+    - mejores
+    options:
+    - mejores
+    - mejor
+    - más buenos
+    lexemes:
+    - zapatos
+    - negro
+    - blanco
+    - mejor
+  - id: u14-l3-08
+    type: fill_blank
+    sentence: Mi hermana es ___ que yo. (צעירה יותר)
+    translation: אחותי צעירה ממני.
+    answers:
+    - menor
+    options:
+    - menor
+    - mayor
+    - más joven
+    lexemes:
+    - hermana
+    - menor
+  - id: u14-l3-09
+    type: fill_blank
+    sentence: Esta bolsa es la ___ barata. (הכי)
+    translation: התיק הזה הכי זול.
+    answers:
+    - más
+    options:
+    - más
+    - menos
+    - tan
+    lexemes:
+    - bolsa
+    - barato
+    - mas-que
+  - id: u14-l3-10
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - El libro es más caro que la camisa.
+    - El libro es más caro de la camisa.
+    - El libro es más caro como la camisa.
+    correct: 0
+    lexemes:
+    - libro
+    - mas-que
+    - caro
+    - camisa
+  - id: u14-l3-11
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Este abrigo es mejor que ese.
+    - Este abrigo es más bueno que ese.
+    - Este abrigo es mejor de ese.
+    correct: 0
+    lexemes:
+    - abrigo
+    - mejor
+  - id: u14-l3-12
+    type: multiple_choice
+    prompt: מה פירוש 'tan grande como'?
+    options:
+    - גדול כמו
+    - גדול יותר מ־
+    - קטן מ־
+    correct: 0
+    lexemes:
+    - tan-como
+    - grande
+    - mas-que
+  - id: u14-l3-13
+    type: word_bank
+    prompt: החולצה הזאת יקרה יותר מזו.
+    answers:
+    - Esta camisa es más cara que esa.
+    distractors:
+    - menos
+    - como
+    lexemes:
+    - camisa
+    - mas-que
+    - caro
+  - id: u14-l3-14
+    type: word_bank
+    prompt: אני גדולה מאחי.
+    answers:
+    - Soy mayor que mi hermano.
+    distractors:
+    - menor
+    - más
+    lexemes:
+    - mayor
+    - hermano
+  - id: u14-l3-15
+    type: translate
+    direction: to_target
+    prompt: הספר הזה טוב יותר מהישן.
+    answers:
+    - Este libro es mejor que el viejo.
+    lexemes:
+    - libro
+    - mejor
+    - viejo
+  - id: u14-l3-16
+    type: translate
+    direction: to_target
+    prompt: החצאית פחות יקרה מהשמלה.
+    answers:
+    - La falda es menos cara que el vestido.
+    lexemes:
+    - falda
+    - menos-que
+    - caro
+    - vestido
+  - id: u14-l3-17
+    type: translate
+    direction: to_source
+    prompt: Mi abrigo es tan nuevo como el tuyo.
+    answers:
+    - המעיל שלי חדש כמו שלך
+    - המעיל שלי חדש כמו המעיל שלך
+    lexemes:
+    - abrigo
+    - tan-como
+    - nuevo
+  - id: u14-l3-18
+    type: translate
+    direction: to_source
+    prompt: El verde es el más bonito.
+    answers:
+    - הירוק הוא הכי יפה
+    - הירוק הוא היפה ביותר
+    lexemes:
+    - verde
+    - bonito
+    - mas-que
+- id: u14-l4
+  kind: listening
+  title:
+    he: להחליט מה לקנות
+    en: Deciding what to buy
+  exercises:
+  - id: u14-l4-01
+    type: dialogue
+    scene: סופיה ויעל בחנות.
+    lines:
+    - speaker: sofia
+      text: 'Mira: el vestido verde cuesta cien pesos, y el azul cuesta ochenta.'
+      translation: 'תראי: השמלה הירוקה עולה מאה פסו והכחולה שמונים.'
+    - speaker: yael
+      text: El azul es más barato y es más largo. Es mejor para mí.
+      translation: הכחולה זולה יותר וארוכה יותר. היא טובה יותר בשבילי.
+    - speaker: sofia
+      text: ¿Y la talla?
+      translation: ומה עם המידה?
+    - speaker: yael
+      text: Me queda bien. Voy a comprar el azul.
+      translation: היא מתאימה לי. אני קונה את הכחולה.
+  - id: u14-l4-02
+    type: multiple_choice
+    prompt: כמה עולה השמלה הכחולה?
+    options:
+    - 80 פסו
+    - 100 פסו
+    - 18 פסו
+    correct: 0
+    lexemes:
+    - vestido
+    - azul
+    - ochenta
+    - cien
+    - dieciocho
+  - id: u14-l4-03
+    type: multiple_choice
+    prompt: למה יעל מעדיפה את הכחולה?
+    options:
+    - זולה וארוכה יותר
+    - חדשה יותר
+    - שחורה
+    correct: 0
+    lexemes:
+    - azul
+    - barato
+    - largo
+    - nuevo
+    - negro
+  - id: u14-l4-04
+    type: multiple_choice
+    prompt: מה יעל תקנה?
+    options:
+    - את הכחולה
+    - את הירוקה
+    - את האדומה
+    correct: 0
+    lexemes:
+    - comprar
+    - azul
+    - verde
+    - rojo
+  - id: u14-l4-05
+    type: listening_choice
+    audioText: El abrigo blanco es más caro que el negro.
+    question: איזה מעיל יקר יותר?
+    options:
+    - הלבן
+    - השחור
+    - שניהם אותו דבר
+    correct: 0
+    lexemes:
+    - abrigo
+    - blanco
+    - negro
+    - mas-que
+    - caro
+    - tan-como
+  - id: u14-l4-06
+    type: listening_choice
+    audioText: La falda larga es mejor.
+    question: איזו חצאית טובה יותר?
+    options:
+    - הארוכה
+    - הקצרה
+    - הישנה
+    correct: 0
+    lexemes:
+    - falda
+    - largo
+    - corto
+    - viejo
+    - mejor
+  - id: u14-l4-07
+    type: dictation
+    text: El vestido azul es más barato.
+    lexemes:
+    - vestido
+    - azul
+    - barato
+    - mas-que
+  - id: u14-l4-08
+    type: translate
+    direction: to_target
+    prompt: הכחול זול יותר.
+    answers:
+    - El azul es más barato.
+    lexemes:
+    - azul
+    - barato
+    - mas-que
+  - id: u14-l4-09
+    type: speak_repeat
+    text: Esta ropa es mejor que la vieja.
+    translation: הבגדים האלה טובים מהישנים.
+    lexemes:
+    - ropa
+    - mejor
+    - viejo
+- id: u14-l5
+  kind: reading
+  title:
+    he: מודעת מבצע
+    en: A sale notice
+  exercises:
+  - id: u14-l5-01
+    type: reading
+    kind: מודעה
+    title: Tienda La Moda – oferta de la semana
+    text: 'Vestidos largos: 90 pesos. Faldas negras: 60 pesos. Camisas blancas: 45 pesos.
+
+      Abrigos nuevos, más baratos que en el centro. Todas las tallas.
+
+      Cerramos los viernes a la una. Sábado: cerrado.
+
+      '
+    translation: 'חנות לה מודה – מבצע השבוע
+
+      שמלות ארוכות: 90 פסו. חצאיות שחורות: 60 פסו. חולצות לבנות: 45 פסו.
+
+      מעילים חדשים, זולים יותר מאשר במרכז. כל המידות.
+
+      סוגרים בימי שישי באחת. שבת: סגור.
+
+      '
+  - id: u14-l5-02
+    type: multiple_choice
+    prompt: כמה עולות החצאיות?
+    options:
+    - 60 פסו
+    - 90 פסו
+    - 45 פסו
+    correct: 0
+    lexemes:
+    - falda
+    - sesenta
+    - noventa
+    - cuarenta
+    - cinco
+  - id: u14-l5-03
+    type: multiple_choice
+    prompt: מתי החנות סגורה בשבת?
+    options:
+    - כל היום
+    - בבוקר
+    - בערב
+    correct: 0
+    lexemes:
+    - sabado
+    - manana-dia
+    - noche
+  - id: u14-l5-04
+    type: fill_blank
+    sentence: Los abrigos son ___ baratos que en el centro.
+    translation: המעילים זולים יותר מאשר במרכז.
+    answers:
+    - más
+    options:
+    - más
+    - menos
+    - tan
+    lexemes:
+    - abrigo
+    - mas-que
+    - barato
+  - id: u14-l5-05
+    type: translate
+    direction: to_target
+    prompt: אני צריכה חולצה לבנה.
+    answers:
+    - Necesito una camisa blanca.
+    lexemes:
+    - necesitar
+    - camisa
+    - blanco
+- id: u14-review
+  kind: review
+  title:
+    he: 'חזרה: בגדים והשוואות'
+    en: 'Review: clothes and comparisons'
+  exercises:
+  - id: u14-review-01
+    type: match_pairs
+    pairs:
+    - - la falda
+      - חצאית
+    - - el vestido
+      - שמלה
+    - - el abrigo
+      - מעיל
+    - - los pantalones
+      - מכנסיים
+    - - la talla
+      - מידה
+    lexemes:
+    - falda
+    - vestido
+    - abrigo
+    - pantalones
+    - talla
+  - id: u14-review-02
+    type: match_pairs
+    pairs:
+    - - nuevo
+      - חדש
+    - - viejo
+      - ישן
+    - - largo
+      - ארוך
+    - - corto
+      - קצר
+    - - mejor
+      - טוב יותר
+    lexemes:
+    - nuevo
+    - viejo
+    - largo
+    - corto
+    - mejor
+  - id: u14-review-03
+    type: fill_blank
+    sentence: La falda es ___ larga que el vestido.
+    translation: החצאית ארוכה יותר מהשמלה.
+    answers:
+    - más
+    options:
+    - más
+    - menos
+    - tan
+    lexemes:
+    - falda
+    - mas-que
+    - largo
+    - vestido
+  - id: u14-review-04
+    type: fill_blank
+    sentence: Este abrigo es ___ que el viejo. (טוב יותר)
+    translation: המעיל הזה טוב יותר מהישן.
+    answers:
+    - mejor
+    options:
+    - mejor
+    - más bueno
+    - buenísimo
+    lexemes:
+    - abrigo
+    - mejor
+    - viejo
+  - id: u14-review-05
+    type: multiple_choice
+    prompt: מה פירוש 'menos caro'?
+    options:
+    - פחות יקר
+    - יותר יקר
+    - הכי יקר
+    correct: 0
+    lexemes:
+    - menos-que
+    - caro
+    - mas-que
+  - id: u14-review-06
+    type: listening_choice
+    audioText: Necesito una talla más grande.
+    question: מה שמעתם?
+    options:
+    - אני צריך מידה גדולה יותר
+    - אני צריך מידה קטנה יותר
+    - אני צריך בגד חדש
+    correct: 0
+    lexemes:
+    - necesitar
+    - talla
+    - grande
+    - mas-que
+    - pequeno
+    - ropa
+    - nuevo
+  - id: u14-review-07
+    type: word_bank
+    prompt: הכחולה זולה יותר.
+    answers:
+    - La azul es más barata.
+    distractors:
+    - menos
+    - tan
+    lexemes:
+    - azul
+    - mas-que
+    - barato
+  - id: u14-review-08
+    type: translate
+    direction: to_target
+    prompt: אני רוצה למדוד את השמלה.
+    answers:
+    - Quiero probarme el vestido.
+    lexemes:
+    - querer
+    - probarse
+    - vestido
+  - id: u14-review-09
+    type: translate
+    direction: to_source
+    prompt: Mi camisa es tan nueva como tu abrigo.
+    answers:
+    - החולצה שלי חדשה כמו המעיל שלך
+    lexemes:
+    - camisa
+    - tan-como
+    - nuevo
+    - abrigo
+  - id: u14-review-10
+    type: dictation
+    text: Un abrigo negro y largo.
+    lexemes:
+    - abrigo
+    - negro
+    - largo
+  - id: u14-review-11
+    type: speak_repeat
+    text: ¿Puedo probarme esta falda?
+    translation: אפשר למדוד את החצאית הזאת?
+    lexemes:
+    - poder
+    - probarse
+    - falda

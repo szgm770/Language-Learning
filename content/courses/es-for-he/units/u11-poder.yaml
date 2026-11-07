@@ -1,0 +1,1097 @@
+id: u11-poder
+cefr: A2
+scene: work
+title:
+  he: אפשר? צריך? חייב?
+  en: Can, must, need to
+story: 'שבוע שני של יעל בחברה. הדוקטור הררה נותן לה משימות, והיא צריכה לבקש עזרה, לבקש הסבר ולהסכים או לסרב בנימוס. הפעלים החדשים: poder, deber, tener que.'
+canDo:
+- 'לבקש בנימוס: ¿Puedo…? ¿Puede ayudarme?'
+- 'להגיד מה אני חייב ומה אני יכול: tengo que, debo, puedo'
+- 'לבקש חזרה והסבר: más despacio, otra vez'
+- לדבר על המחשב, הדואר והעבודה במשרד
+vocabulary:
+- id: poder
+  text: poder
+  translation: יכול, מותר, אפשר
+  pos: verb
+  example:
+    text: ¿Puedo abrir la ventana?
+    translation: אפשר לפתוח את החלון?
+- id: deber
+  text: deber
+  translation: חייב, צריך (מוסרית / מקצועית)
+  pos: verb
+- id: tener-que
+  text: tener que
+  translation: חייב, צריך (עובדתית)
+  pos: phrase
+  example:
+    text: Tengo que escribir un correo.
+    translation: אני צריך לכתוב מייל.
+- id: ayudar
+  text: ayudar
+  translation: לעזור
+  pos: verb
+- id: esperar
+  text: esperar
+  translation: לחכות, לקוות
+  pos: verb
+- id: entender
+  text: entender
+  translation: להבין
+  pos: verb
+- id: repetir
+  text: repetir
+  translation: לחזור על
+  pos: verb
+- id: despacio
+  text: despacio
+  translation: לאט
+  pos: adverb
+- id: otra-vez
+  text: otra vez
+  translation: שוב
+  pos: phrase
+- id: un-momento
+  text: un momento
+  translation: רגע
+  pos: phrase
+- id: ahora
+  text: ahora
+  translation: עכשיו
+  pos: adverb
+- id: un-poco
+  text: un poco
+  translation: קצת
+  pos: phrase
+- id: computadora
+  text: la computadora
+  translation: מחשב
+  pos: noun
+- id: correo
+  text: el correo
+  translation: דואר, מייל
+  pos: noun
+- id: celular
+  text: el celular
+  translation: טלפון נייד
+  pos: noun
+- id: archivo
+  text: el archivo
+  translation: קובץ
+  pos: noun
+- id: enviar
+  text: enviar
+  translation: לשלוח
+  pos: verb
+- id: problema
+  text: el problema
+  translation: בעיה
+  pos: noun
+- id: posible
+  text: posible
+  translation: אפשרי
+  pos: adjective
+- id: imposible
+  text: imposible
+  translation: בלתי אפשרי
+  pos: adjective
+- id: claro
+  text: claro
+  translation: ברור, בטח
+  pos: adverb
+grammar:
+- id: poder-deber
+  title:
+    he: poder, deber, tener que
+    en: Modal verbs
+  explanation: '**poder** = "יכול / אפשר". בגזרה הרגילה o נהפך ל־**ue** (כמו costar), פרט ל־nosotros:
+
+
+    | כינוי | poder |
+
+    |---|---|
+
+    | yo | **puedo** |
+
+    | tú | **puedes** |
+
+    | él / ella / usted | **puede** |
+
+    | nosotros | **podemos** |
+
+    | ellos / ustedes | **pueden** |
+
+
+    אחרי poder, deber ו־tener que בא **פועל במקור** (בלי סיומת מוטה): *Puedo abrir*, *Debo escribir*, *Tengo que llamar*.
+
+    * **¿Puedo + מקור?** = "אפשר ל…?" (בקשה לעצמי): *¿Puedo entrar?*
+
+    * **¿Puede/Puedes + מקור?** = "אתה יכול ל…?" (בקשה מאחר): *¿Puede repetir, por favor?*
+
+    * **tener que** = חייבים כי צריך (עובדה); **deber** = צריך כי נכון / מוסרי: *Debes estudiar.*
+
+    * **ayudar** — *¿Puedes ayudarme?* (אפשר לעזור לי?) — **me** מתחבר לסוף הפועל במקור.'
+  examples:
+  - text: ¿Puede hablar más despacio, por favor?
+    translation: אפשר לדבר לאט יותר, בבקשה?
+  - text: Tengo que enviar un archivo.
+    translation: אני צריך לשלוח קובץ.
+  - text: No podemos trabajar el sábado.
+    translation: אנחנו לא יכולים לעבוד בשבת.
+lessons:
+- id: u11-l1
+  kind: new
+  title:
+    he: בקשות בנימוס
+    en: Polite requests
+  exercises:
+  - id: u11-l1-01
+    type: dialogue
+    scene: הדוקטור הררה מדבר מהר עם יעל.
+    lines:
+    - speaker: herrera
+      text: Yael, necesito el archivo para hoy. ¿Puedes enviarlo ahora?
+      translation: יעל, אני צריך את הקובץ להיום. את יכולה לשלוח אותו עכשיו?
+    - speaker: yael
+      text: Perdón, no entiendo bien. ¿Puede hablar más despacio?
+      translation: סליחה, אני לא מבינה היטב. אפשר לדבר לאט יותר?
+    - speaker: herrera
+      text: Claro. Necesito el archivo hoy. Es importante.
+      translation: בטח. אני צריך את הקובץ היום. זה חשוב.
+    - speaker: yael
+      text: Entendido. Lo envío en un momento.
+      translation: הבנתי. אני שולחת אותו ברגע.
+  - id: u11-l1-02
+    type: learn
+    lexeme: poder
+  - id: u11-l1-03
+    type: learn
+    lexeme: tener-que
+  - id: u11-l1-04
+    type: learn
+    lexeme: deber
+  - id: u11-l1-05
+    type: learn
+    lexeme: ayudar
+  - id: u11-l1-06
+    type: learn
+    lexeme: entender
+  - id: u11-l1-07
+    type: learn
+    lexeme: repetir
+  - id: u11-l1-08
+    type: learn
+    lexeme: despacio
+  - id: u11-l1-09
+    type: learn
+    lexeme: otra-vez
+  - id: u11-l1-10
+    type: learn
+    lexeme: un-momento
+  - id: u11-l1-11
+    type: learn
+    lexeme: ahora
+  - id: u11-l1-12
+    type: learn
+    lexeme: un-poco
+  - id: u11-l1-13
+    type: learn
+    lexeme: claro
+  - id: u11-l1-14
+    type: match_pairs
+    pairs:
+    - - poder
+      - יכול
+    - - ayudar
+      - לעזור
+    - - entender
+      - להבין
+    - - repetir
+      - לחזור על
+    lexemes:
+    - poder
+    - ayudar
+    - entender
+    - repetir
+  - id: u11-l1-15
+    type: match_pairs
+    pairs:
+    - - despacio
+      - לאט
+    - - otra vez
+      - שוב
+    - - un momento
+      - רגע
+    - - ahora
+      - עכשיו
+    - - un poco
+      - קצת
+    lexemes:
+    - despacio
+    - otra-vez
+    - un-momento
+    - ahora
+    - un-poco
+  - id: u11-l1-16
+    type: multiple_choice
+    prompt: מה אומרים כשלא מבינים?
+    options:
+    - No entiendo. ¿Puede repetir?
+    - No quiero. Gracias.
+    - Tengo que ir.
+    correct: 0
+    lexemes:
+    - entender
+    - poder
+    - repetir
+    - querer
+  - id: u11-l1-17
+    type: multiple_choice
+    prompt: מה פירוש '¿Puede hablar más despacio?'
+    options:
+    - אפשר לדבר יותר לאט?
+    - אפשר לדבר יותר חזק?
+    - אפשר לדבר ספרדית?
+    correct: 0
+    lexemes:
+    - poder
+    - hablar
+    - despacio
+    - espanol-lengua
+  - id: u11-l1-18
+    type: multiple_choice
+    prompt: מה פירוש 'claro'?
+    options:
+    - בטח / ברור
+    - אולי
+    - לא
+    correct: 0
+    lexemes:
+    - claro
+  - id: u11-l1-19
+    type: listening_choice
+    audioText: ¿Puede repetir, por favor?
+    question: מה מבקשים?
+    options:
+    - לחזור על זה
+    - לדבר מהר
+    - לכתוב
+    correct: 0
+    lexemes:
+    - poder
+    - repetir
+    - hablar
+    - escribir
+  - id: u11-l1-20
+    type: listening_choice
+    audioText: Un momento, por favor.
+    question: מה שמעתם?
+    options:
+    - רגע, בבקשה
+    - שוב, בבקשה
+    - לאט, בבקשה
+    correct: 0
+    lexemes:
+    - un-momento
+    - otra-vez
+    - despacio
+  - id: u11-l1-21
+    type: translate
+    direction: to_target
+    prompt: אפשר לדבר לאט?
+    answers:
+    - ¿Puede hablar despacio?
+    - ¿Puedes hablar despacio?
+    - ¿Puede hablar más despacio?
+    - ¿Puedes hablar más despacio?
+    lexemes:
+    - poder
+    - hablar
+    - despacio
+  - id: u11-l1-22
+    type: translate
+    direction: to_target
+    prompt: אני לא מבין.
+    answers:
+    - No entiendo.
+    lexemes:
+    - entender
+  - id: u11-l1-23
+    type: translate
+    direction: to_source
+    prompt: Otra vez, por favor.
+    answers:
+    - שוב, בבקשה
+    lexemes:
+    - otra-vez
+    - por-favor
+  - id: u11-l1-24
+    type: dictation
+    text: No entiendo, un poco más despacio.
+    lexemes:
+    - entender
+    - un-poco
+    - despacio
+  - id: u11-l1-25
+    type: speak_repeat
+    text: ¿Puede hablar más despacio?
+    translation: אפשר לדבר יותר לאט?
+    lexemes:
+    - poder
+    - hablar
+    - despacio
+- id: u11-l2
+  kind: new
+  title:
+    he: במשרד
+    en: In the office
+  exercises:
+  - id: u11-l2-01
+    type: learn
+    lexeme: computadora
+  - id: u11-l2-02
+    type: learn
+    lexeme: correo
+  - id: u11-l2-03
+    type: learn
+    lexeme: celular
+  - id: u11-l2-04
+    type: learn
+    lexeme: archivo
+  - id: u11-l2-05
+    type: learn
+    lexeme: enviar
+  - id: u11-l2-06
+    type: learn
+    lexeme: problema
+  - id: u11-l2-07
+    type: learn
+    lexeme: posible
+  - id: u11-l2-08
+    type: learn
+    lexeme: imposible
+  - id: u11-l2-09
+    type: learn
+    lexeme: esperar
+  - id: u11-l2-10
+    type: match_pairs
+    pairs:
+    - - la computadora
+      - מחשב
+    - - el correo
+      - דואר, מייל
+    - - el celular
+      - טלפון נייד
+    - - el archivo
+      - קובץ
+    - - el problema
+      - בעיה
+    lexemes:
+    - computadora
+    - correo
+    - celular
+    - archivo
+    - problema
+  - id: u11-l2-11
+    type: match_pairs
+    pairs:
+    - - enviar
+      - לשלוח
+    - - esperar
+      - לחכות
+    - - posible
+      - אפשרי
+    - - imposible
+      - בלתי אפשרי
+    - - ayudar
+      - לעזור
+    lexemes:
+    - enviar
+    - esperar
+    - posible
+    - imposible
+    - ayudar
+  - id: u11-l2-12
+    type: dialogue
+    scene: יעל ולוסיה ליד המחשב.
+    lines:
+    - speaker: yael
+      text: Lucía, tengo un problema con la computadora. ¿Puedes ayudarme?
+      translation: לוסיה, יש לי בעיה עם המחשב. את יכולה לעזור לי?
+    - speaker: lucia
+      text: Claro. ¿Qué pasa?
+      translation: בטח. מה קרה?
+    - speaker: yael
+      text: No puedo abrir el archivo. Es imposible.
+      translation: אני לא יכולה לפתוח את הקובץ. זה בלתי אפשרי.
+    - speaker: lucia
+      text: No es imposible. Espera un momento... ¡Ya está!
+      translation: זה לא בלתי אפשרי. חכי רגע... הנה!
+  - id: u11-l2-13
+    type: multiple_choice
+    prompt: מה פירוש 'el problema'?
+    options:
+    - הבעיה
+    - הפתרון
+    - המחשב
+    correct: 0
+    lexemes:
+    - problema
+    - computadora
+  - id: u11-l2-14
+    type: multiple_choice
+    prompt: מה פירוש 'No puedo abrir el archivo'?
+    options:
+    - אני לא יכולה לפתוח את הקובץ
+    - אני לא רוצה לשלוח קובץ
+    - אני לא מבינה את הקובץ
+    correct: 0
+    lexemes:
+    - poder
+    - abrir
+    - archivo
+    - querer
+    - enviar
+    - entender
+  - id: u11-l2-15
+    type: listening_choice
+    audioText: Tengo que enviar un correo.
+    question: מה אני צריך לעשות?
+    options:
+    - לשלוח מייל
+    - לקרוא מייל
+    - לפתוח קובץ
+    correct: 0
+    lexemes:
+    - tener-que
+    - enviar
+    - correo
+    - leer
+    - abrir
+    - archivo
+  - id: u11-l2-16
+    type: listening_choice
+    audioText: ¿Puedes esperar un momento?
+    question: מה מבקשים?
+    options:
+    - לחכות רגע
+    - לבוא עכשיו
+    - לעזור
+    correct: 0
+    lexemes:
+    - poder
+    - esperar
+    - un-momento
+    - ayudar
+  - id: u11-l2-17
+    type: fill_blank
+    sentence: Necesito ___ el correo.
+    translation: אני צריך לשלוח את המייל.
+    answers:
+    - enviar
+    options:
+    - enviar
+    - enviado
+    - envío
+    lexemes:
+    - necesitar
+    - enviar
+    - correo
+  - id: u11-l2-18
+    type: fill_blank
+    sentence: Es ___ abrir el archivo. (בלתי אפשרי)
+    translation: בלתי אפשרי לפתוח את הקובץ.
+    answers:
+    - imposible
+    options:
+    - imposible
+    - posible
+    - claro
+    lexemes:
+    - imposible
+    - abrir
+    - archivo
+  - id: u11-l2-19
+    type: word_bank
+    prompt: אני צריכה את המחשב.
+    answers:
+    - Necesito la computadora.
+    distractors:
+    - Tengo
+    - el
+    lexemes:
+    - necesitar
+    - computadora
+  - id: u11-l2-20
+    type: translate
+    direction: to_target
+    prompt: יש בעיה עם הקובץ.
+    answers:
+    - Hay un problema con el archivo.
+    lexemes:
+    - hay
+    - problema
+    - con
+    - archivo
+  - id: u11-l2-21
+    type: translate
+    direction: to_target
+    prompt: אני שולחת מייל.
+    answers:
+    - Envío un correo.
+    lexemes:
+    - enviar
+    - correo
+  - id: u11-l2-22
+    type: translate
+    direction: to_source
+    prompt: ¿Es posible?
+    answers:
+    - האם זה אפשרי?
+    - זה אפשרי?
+    lexemes:
+    - posible
+  - id: u11-l2-23
+    type: dictation
+    text: El celular y la computadora.
+    lexemes:
+    - celular
+    - computadora
+- id: u11-l3
+  kind: grammar
+  title:
+    he: poder, deber, tener que
+    en: Poder, deber, tener que
+  grammar: poder-deber
+  exercises:
+  - id: u11-l3-01
+    type: fill_blank
+    sentence: Yo ___ ayudar.
+    translation: אני יכול לעזור.
+    answers:
+    - puedo
+    options:
+    - puedo
+    - puedes
+    - puede
+    lexemes:
+    - poder
+    - ayudar
+  - id: u11-l3-02
+    type: fill_blank
+    sentence: ¿Tú ___ esperar?
+    translation: אתה יכול לחכות?
+    answers:
+    - puedes
+    options:
+    - puedes
+    - puedo
+    - podemos
+    lexemes:
+    - poder
+    - esperar
+  - id: u11-l3-03
+    type: fill_blank
+    sentence: Ella ___ hablar español.
+    translation: היא יכולה לדבר ספרדית.
+    answers:
+    - puede
+    options:
+    - puede
+    - pueden
+    - puedes
+    lexemes:
+    - poder
+    - hablar
+    - espanol-lengua
+  - id: u11-l3-04
+    type: fill_blank
+    sentence: Nosotros ___ trabajar hoy.
+    translation: אנחנו יכולים לעבוד היום.
+    answers:
+    - podemos
+    options:
+    - podemos
+    - pueden
+    - puedo
+    lexemes:
+    - poder
+    - trabajar
+    - hoy
+  - id: u11-l3-05
+    type: fill_blank
+    sentence: Ellos no ___ llegar tarde.
+    translation: הם לא יכולים להגיע מאוחר.
+    answers:
+    - pueden
+    options:
+    - pueden
+    - puede
+    - podemos
+    lexemes:
+    - poder
+    - llegar
+    - tarde-adv
+  - id: u11-l3-06
+    type: fill_blank
+    sentence: Yo ___ que enviar un correo.
+    translation: אני חייב לשלוח מייל.
+    answers:
+    - tengo
+    options:
+    - tengo
+    - tiene
+    - tienes
+    lexemes:
+    - tener-que
+    - enviar
+    - correo
+  - id: u11-l3-07
+    type: fill_blank
+    sentence: Nosotros no ___ trabajar el sábado.
+    translation: אנחנו לא יכולים לעבוד בשבת.
+    answers:
+    - podemos
+    options:
+    - podemos
+    - puede
+    - pueden
+    lexemes:
+    - poder
+    - trabajar
+    - sabado
+  - id: u11-l3-08
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Puedo hablar español.
+    - Puedo hablo español.
+    - Puedo hablando español.
+    correct: 0
+    lexemes:
+    - poder
+    - hablar
+    - espanol-lengua
+  - id: u11-l3-09
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Tengo que estudiar.
+    - Tengo estudiar.
+    - Tengo que estudio.
+    correct: 0
+    lexemes:
+    - tener-que
+    - estudiar
+  - id: u11-l3-10
+    type: multiple_choice
+    prompt: איזה מבין שני המשפטים הוא בקשה מנומסת?
+    options:
+    - ¿Puede ayudarme?
+    - ¡Ayuda!
+    - Yo ayudo.
+    correct: 0
+    lexemes:
+    - poder
+    - ayudar
+  - id: u11-l3-11
+    type: word_bank
+    prompt: אני לא יכול לדבר עכשיו.
+    answers:
+    - No puedo hablar ahora.
+    distractors:
+    - Puede
+    - hablo
+    lexemes:
+    - poder
+    - hablar
+    - ahora
+  - id: u11-l3-12
+    type: word_bank
+    prompt: אנחנו חייבים לחכות.
+    answers:
+    - Tenemos que esperar.
+    distractors:
+    - Tienen
+    - esperamos
+    lexemes:
+    - tener-que
+    - esperar
+  - id: u11-l3-13
+    type: translate
+    direction: to_target
+    prompt: אני צריכה לעבוד היום.
+    answers:
+    - Tengo que trabajar hoy.
+    lexemes:
+    - tener-que
+    - trabajar
+    - hoy
+  - id: u11-l3-14
+    type: translate
+    direction: to_target
+    prompt: אתה יכול לשלוח את הקובץ?
+    answers:
+    - ¿Puedes enviar el archivo?
+    - ¿Puede enviar el archivo?
+    lexemes:
+    - poder
+    - enviar
+    - archivo
+  - id: u11-l3-15
+    type: translate
+    direction: to_source
+    prompt: No podemos hablar ahora.
+    answers:
+    - אנחנו לא יכולים לדבר עכשיו
+    lexemes:
+    - poder
+    - hablar
+    - ahora
+  - id: u11-l3-16
+    type: translate
+    direction: to_source
+    prompt: Debes estudiar más.
+    answers:
+    - אתה צריך ללמוד יותר
+    - את צריכה ללמוד יותר
+    lexemes:
+    - deber
+    - estudiar
+- id: u11-l4
+  kind: listening
+  title:
+    he: יום עמוס
+    en: A busy day
+  exercises:
+  - id: u11-l4-01
+    type: dialogue
+    scene: הדוקטור הררה ויעל בשיחה.
+    lines:
+    - speaker: herrera
+      text: Yael, tienes que terminar el informe hoy. ¿Puedes?
+      translation: יעל, את צריכה לסיים את הדוח היום. את יכולה?
+    - speaker: yael
+      text: Puedo trabajar hasta las dos. El viernes no puedo trabajar más tarde.
+      translation: אני יכולה לעבוד עד שתיים. ביום שישי אני לא יכולה לעבוד יותר מאוחר.
+    - speaker: herrera
+      text: Está bien. Debes enviarlo antes de las dos.
+      translation: בסדר. את צריכה לשלוח אותו לפני שתיים.
+    - speaker: yael
+      text: Claro. Gracias por entender.
+      translation: בטח. תודה על ההבנה.
+  - id: u11-l4-02
+    type: multiple_choice
+    prompt: עד מתי יעל יכולה לעבוד?
+    options:
+    - עד שתיים
+    - עד חמש
+    - עד שמונה
+    correct: 0
+    lexemes:
+    - poder
+    - trabajar
+    - dos
+    - cinco
+    - ocho
+  - id: u11-l4-03
+    type: multiple_choice
+    prompt: מה היא צריכה לעשות היום?
+    options:
+    - לסיים את הדוח
+    - לקרוא ספר
+    - ללכת לשוק
+    correct: 0
+    lexemes:
+    - tener-que
+    - libro
+    - mercado
+  - id: u11-l4-04
+    type: multiple_choice
+    prompt: למה יעל לא יכולה לעבוד אחרי שתיים?
+    options:
+    - זה יום שישי
+    - היא רעבה
+    - היא בבית
+    correct: 0
+    lexemes:
+    - viernes
+    - poder
+    - trabajar
+  - id: u11-l4-05
+    type: listening_choice
+    audioText: No puedo hablar ahora.
+    question: מה שמעתם?
+    options:
+    - אני לא יכול לדבר עכשיו
+    - אני לא רוצה לדבר
+    - אני לא מבין
+    correct: 0
+    lexemes:
+    - poder
+    - hablar
+    - ahora
+    - querer
+    - entender
+  - id: u11-l4-06
+    type: listening_choice
+    audioText: Tengo que enviar el archivo.
+    question: מה צריך?
+    options:
+    - לשלוח את הקובץ
+    - לפתוח את הקובץ
+    - לקרוא את הקובץ
+    correct: 0
+    lexemes:
+    - tener-que
+    - enviar
+    - archivo
+    - abrir
+    - leer
+  - id: u11-l4-07
+    type: dictation
+    text: Puedo trabajar hasta las dos.
+    lexemes:
+    - poder
+    - trabajar
+    - dos
+  - id: u11-l4-08
+    type: translate
+    direction: to_target
+    prompt: אני לא יכולה לעבוד בשבת.
+    answers:
+    - No puedo trabajar el sábado.
+    lexemes:
+    - poder
+    - trabajar
+    - sabado
+  - id: u11-l4-09
+    type: speak_repeat
+    text: Tengo que enviar un correo ahora.
+    translation: אני צריכה לשלוח מייל עכשיו.
+    lexemes:
+    - tener-que
+    - enviar
+    - correo
+    - ahora
+- id: u11-l5
+  kind: reading
+  title:
+    he: הודעה בצוות
+    en: A team message
+  exercises:
+  - id: u11-l5-01
+    type: reading
+    kind: הודעה
+    title: Mensaje para el equipo
+    text: 'Hola equipo. Hoy tenemos que enviar el informe antes de las dos.
+
+      Yael no puede trabajar más tarde porque es viernes. Mateo puede ayudar con el archivo.
+
+      ¿Alguien puede revisar el correo? Gracias por la ayuda.
+
+      '
+    translation: 'שלום לצוות. היום אנחנו צריכים לשלוח את הדוח לפני שתיים.
+
+      יעל לא יכולה לעבוד מאוחר יותר כי זה יום שישי. מתאו יכול לעזור עם הקובץ.
+
+      מישהו יכול לבדוק את המייל? תודה על העזרה.
+
+      '
+  - id: u11-l5-02
+    type: multiple_choice
+    prompt: עד מתי שולחים את הדוח?
+    options:
+    - לפני שתיים
+    - בשבת
+    - אחרי שמונה
+    correct: 0
+    lexemes:
+    - enviar
+    - dos
+    - sabado
+    - ocho
+  - id: u11-l5-03
+    type: multiple_choice
+    prompt: מי יכול לעזור עם הקובץ?
+    options:
+    - מתאו
+    - לוסיה
+    - יעל
+    correct: 0
+    lexemes:
+    - ayudar
+    - archivo
+    - poder
+  - id: u11-l5-04
+    type: fill_blank
+    sentence: Yael no ___ trabajar más tarde.
+    translation: יעל לא יכולה לעבוד יותר מאוחר.
+    answers:
+    - puede
+    options:
+    - puede
+    - puedo
+    - pueden
+    lexemes:
+    - poder
+    - trabajar
+    - tarde-adv
+  - id: u11-l5-05
+    type: translate
+    direction: to_target
+    prompt: אנחנו צריכים לשלוח את הדוח.
+    answers:
+    - Tenemos que enviar el informe.
+    lexemes:
+    - tener-que
+    - enviar
+- id: u11-review
+  kind: review
+  title:
+    he: 'חזרה: אפשר? צריך?'
+    en: 'Review: can, must'
+  exercises:
+  - id: u11-review-01
+    type: match_pairs
+    pairs:
+    - - poder
+      - יכול
+    - - ayudar
+      - לעזור
+    - - esperar
+      - לחכות
+    - - entender
+      - להבין
+    - - enviar
+      - לשלוח
+    lexemes:
+    - poder
+    - ayudar
+    - esperar
+    - entender
+    - enviar
+  - id: u11-review-02
+    type: match_pairs
+    pairs:
+    - - la computadora
+      - מחשב
+    - - el correo
+      - מייל
+    - - el archivo
+      - קובץ
+    - - el problema
+      - בעיה
+    - - el celular
+      - נייד
+    lexemes:
+    - computadora
+    - correo
+    - archivo
+    - problema
+    - celular
+  - id: u11-review-03
+    type: fill_blank
+    sentence: Yo no ___ trabajar el sábado.
+    translation: אני לא יכול לעבוד בשבת.
+    answers:
+    - puedo
+    options:
+    - puedo
+    - puede
+    - podemos
+    lexemes:
+    - poder
+    - trabajar
+    - sabado
+  - id: u11-review-04
+    type: fill_blank
+    sentence: Ellos ___ que esperar.
+    translation: הם חייבים לחכות.
+    answers:
+    - tienen
+    options:
+    - tienen
+    - tiene
+    - tenemos
+    lexemes:
+    - tener-que
+    - esperar
+  - id: u11-review-05
+    type: multiple_choice
+    prompt: מה פירוש '¿Puedes repetir?'
+    options:
+    - אתה יכול לחזור על זה?
+    - אתה רוצה לשתות?
+    - אתה גר כאן?
+    correct: 0
+    lexemes:
+    - poder
+    - repetir
+    - querer
+    - beber
+    - vivir
+  - id: u11-review-06
+    type: listening_choice
+    audioText: Tengo un problema con el celular.
+    question: מה הבעיה?
+    options:
+    - הנייד
+    - המחשב
+    - הקובץ
+    correct: 0
+    lexemes:
+    - problema
+    - celular
+    - computadora
+    - archivo
+  - id: u11-review-07
+    type: word_bank
+    prompt: אפשר לחכות רגע?
+    answers:
+    - ¿Puedes esperar un momento?
+    distractors:
+    - Tengo
+    - ayudar
+    lexemes:
+    - poder
+    - esperar
+    - un-momento
+  - id: u11-review-08
+    type: translate
+    direction: to_target
+    prompt: אני צריך לשלוח קובץ.
+    answers:
+    - Tengo que enviar un archivo.
+    lexemes:
+    - tener-que
+    - enviar
+    - archivo
+  - id: u11-review-09
+    type: translate
+    direction: to_source
+    prompt: ¿Puede ayudarme, por favor?
+    answers:
+    - אפשר שתעזור לי, בבקשה?
+    - אפשר לעזור לי, בבקשה?
+    - אתה יכול לעזור לי, בבקשה?
+    lexemes:
+    - poder
+    - ayudar
+    - por-favor
+  - id: u11-review-10
+    type: dictation
+    text: No puedo hablar ahora.
+    lexemes:
+    - poder
+    - hablar
+    - ahora
+  - id: u11-review-11
+    type: speak_repeat
+    text: Un momento, por favor.
+    translation: רגע, בבקשה.
+    lexemes:
+    - un-momento
+    - por-favor

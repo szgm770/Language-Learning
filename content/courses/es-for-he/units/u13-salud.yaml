@@ -1,0 +1,1063 @@
+id: u13-salud
+cefr: A2
+scene: health
+title:
+  he: איך אתה מרגיש?
+  en: How are you feeling?
+story: 'יעל מתעוררת עם כאב גרון וחום. היא הולכת לרופא ולבית המרקחת, ולומדת לתאר כאב, מחלה והרגשה: me duele la garganta, tengo fiebre, estoy enfermo.'
+canDo:
+- 'לומר מה כואב: me duele la cabeza, me duelen los ojos'
+- 'לתאר הרגשה עם tener: tengo hambre, frío, fiebre'
+- לבקש תור ולהבין הוראות רופא
+- 'לאחל החלמה: ¡Que te mejores!'
+vocabulary:
+- id: cuerpo
+  text: el cuerpo
+  translation: הגוף
+  pos: noun
+- id: cabeza
+  text: la cabeza
+  translation: ראש
+  pos: noun
+- id: garganta
+  text: la garganta
+  translation: גרון
+  pos: noun
+- id: estomago
+  text: el estómago
+  translation: בטן, קיבה
+  pos: noun
+- id: ojo
+  text: el ojo
+  translation: עין
+  pos: noun
+- id: espalda
+  text: la espalda
+  translation: גב
+  pos: noun
+- id: pierna
+  text: la pierna
+  translation: רגל
+  pos: noun
+- id: doler
+  text: doler
+  translation: לכאוב
+  pos: verb
+  example:
+    text: Me duele la cabeza.
+    translation: כואב לי הראש.
+- id: enfermo
+  text: enfermo / enferma
+  translation: חולה
+  pos: adjective
+- id: fiebre
+  text: la fiebre
+  translation: חום
+  pos: noun
+- id: tos
+  text: la tos
+  translation: שיעול
+  pos: noun
+- id: medicina
+  text: la medicina
+  translation: תרופה
+  pos: noun
+- id: cita
+  text: la cita
+  translation: תור, פגישה
+  pos: noun
+- id: descansar
+  text: descansar
+  translation: לנוח
+  pos: verb
+- id: tomar
+  text: tomar
+  translation: לקחת, לשתות
+  pos: verb
+- id: hambre
+  text: tener hambre
+  translation: להיות רעב
+  pos: phrase
+- id: sed
+  text: tener sed
+  translation: להיות צמא
+  pos: phrase
+- id: frio
+  text: tener frío
+  translation: לקפוא, להיות קר
+  pos: phrase
+- id: calor
+  text: tener calor
+  translation: להיות חם
+  pos: phrase
+- id: sueno
+  text: tener sueño
+  translation: להיות ישנוני
+  pos: phrase
+- id: mejor-saludo
+  text: ¡que te mejores!
+  translation: רפואה שלמה!
+  pos: phrase
+grammar:
+- id: doler-tener
+  title:
+    he: doler ופתגמי tener
+    en: Doler and tener expressions
+  explanation: "**doler** = \"לכאוב\". הוא עובד כמו **gustar** (שפגשנו): מי שכואב לו הוא ה־me/te/le, והחלק בגוף הוא הנושא:\n* **Me duele** la cabeza. (כואב לי הראש) — חלק אחד: *duele*\n* **Me duelen** los ojos. (כואבות לי העיניים) — כמה: *duelen*\n* **¿Te duele** la garganta? | **Le duele** la espalda.\n(o → ue, כמו poder: *duele*, *duelen*.)\n\n**tener + שם עצם** — בספרדית **\"יש לי חום\"** (לא \"אני חם\"): \n* **Tengo hambre** (רעב), **sed** (צמא), **frío** (קר), **calor** (חם), **sueño** (ישנוני), **fiebre**, **tos**.\n* בעברית אומרים \"אני רעב\" (תואר), בספרדית \"יש לי רעב\". לכן *לא* אומרים *soy hambre*.\n* עם mucho: **Tengo mucho frío.** (לא muy!)\n\n**estar + תואר** מתאר מצב עכשווי: *Estoy enfermo / cansado.* לעומת **ser** (תכונה קבועה): *Soy alta.*\n**tomar** = לקחת (תרופה) וגם לשתות: *Tomo la medicina dos veces al día.*"
+  examples:
+  - text: Me duele la garganta y tengo fiebre.
+    translation: כואב לי הגרון ויש לי חום.
+  - text: ¿Te duelen los ojos?
+    translation: כואבות לך העיניים?
+  - text: Tengo mucha sed.
+    translation: אני מאוד צמא.
+lessons:
+- id: u13-l1
+  kind: new
+  title:
+    he: חלקי הגוף
+    en: Parts of the body
+  exercises:
+  - id: u13-l1-01
+    type: dialogue
+    scene: בבוקר, הודעה לסופיה.
+    lines:
+    - speaker: yael
+      text: Sofía, hoy no puedo ir a la oficina. Estoy enferma.
+      translation: סופיה, היום אני לא יכולה לבוא למשרד. אני חולה.
+    - speaker: sofia
+      text: ¡Qué mal! ¿Qué tienes?
+      translation: איזה באסה! מה יש לך?
+    - speaker: yael
+      text: Me duele la garganta y la cabeza. Tengo fiebre.
+      translation: כואב לי הגרון והראש. יש לי חום.
+    - speaker: sofia
+      text: Tienes que ir al médico. ¡Que te mejores!
+      translation: את צריכה ללכת לרופא. רפואה שלמה!
+  - id: u13-l1-02
+    type: learn
+    lexeme: cuerpo
+  - id: u13-l1-03
+    type: learn
+    lexeme: cabeza
+  - id: u13-l1-04
+    type: learn
+    lexeme: garganta
+  - id: u13-l1-05
+    type: learn
+    lexeme: estomago
+  - id: u13-l1-06
+    type: learn
+    lexeme: ojo
+  - id: u13-l1-07
+    type: learn
+    lexeme: espalda
+  - id: u13-l1-08
+    type: learn
+    lexeme: pierna
+  - id: u13-l1-09
+    type: learn
+    lexeme: enfermo
+  - id: u13-l1-10
+    type: learn
+    lexeme: mejor-saludo
+  - id: u13-l1-11
+    type: match_pairs
+    pairs:
+    - - la cabeza
+      - ראש
+    - - la garganta
+      - גרון
+    - - el estómago
+      - בטן
+    - - el ojo
+      - עין
+    - - la mano
+      - יד
+    lexemes:
+    - cabeza
+    - garganta
+    - estomago
+    - ojo
+    - mano
+  - id: u13-l1-12
+    type: match_pairs
+    pairs:
+    - - la espalda
+      - גב
+    - - la pierna
+      - רגל
+    - - el cuerpo
+      - הגוף
+    - - enfermo
+      - חולה
+    - - ¡que te mejores!
+      - רפואה שלמה!
+    lexemes:
+    - espalda
+    - pierna
+    - cuerpo
+    - enfermo
+    - mejor-saludo
+  - id: u13-l1-13
+    type: multiple_choice
+    prompt: מה פירוש 'la garganta'?
+    options:
+    - גרון
+    - בטן
+    - גב
+    correct: 0
+    lexemes:
+    - garganta
+    - estomago
+    - espalda
+  - id: u13-l1-14
+    type: multiple_choice
+    prompt: מה אומרים לחולה?
+    options:
+    - ¡Que te mejores!
+    - ¡Buen provecho!
+    - ¡Hasta mañana!
+    correct: 0
+    lexemes:
+    - mejor-saludo
+    - hasta-manana
+  - id: u13-l1-15
+    type: multiple_choice
+    prompt: מה פירוש 'estoy enferma'?
+    options:
+    - אני חולה
+    - אני עייפה
+    - אני רעבה
+    correct: 0
+    lexemes:
+    - enfermo
+    - cansado
+  - id: u13-l1-16
+    type: listening_choice
+    audioText: la espalda
+    question: מה שמעתם?
+    options:
+    - הגב
+    - הרגל
+    - הראש
+    correct: 0
+    lexemes:
+    - espalda
+    - pierna
+    - cabeza
+  - id: u13-l1-17
+    type: listening_choice
+    audioText: Estoy enfermo hoy.
+    question: איך הדובר?
+    options:
+    - חולה
+    - עייף
+    - שמח
+    correct: 0
+    lexemes:
+    - enfermo
+    - cansado
+  - id: u13-l1-18
+    type: translate
+    direction: to_target
+    prompt: הראש
+    answers:
+    - la cabeza
+    lexemes:
+    - cabeza
+  - id: u13-l1-19
+    type: translate
+    direction: to_target
+    prompt: העיניים והידיים
+    answers:
+    - los ojos y las manos
+    lexemes:
+    - ojo
+    - mano
+    - y
+  - id: u13-l1-20
+    type: translate
+    direction: to_source
+    prompt: el estómago
+    answers:
+    - הבטן
+    - בטן
+    - הקיבה
+    lexemes:
+    - estomago
+  - id: u13-l1-21
+    type: dictation
+    text: La cabeza y la garganta.
+    lexemes:
+    - cabeza
+    - garganta
+  - id: u13-l1-22
+    type: speak_repeat
+    text: ¡Que te mejores!
+    translation: רפואה שלמה!
+    lexemes:
+    - mejor-saludo
+- id: u13-l2
+  kind: new
+  title:
+    he: מה כואב ומה יש לי
+    en: What hurts, what I have
+  exercises:
+  - id: u13-l2-01
+    type: learn
+    lexeme: doler
+  - id: u13-l2-02
+    type: learn
+    lexeme: fiebre
+  - id: u13-l2-03
+    type: learn
+    lexeme: tos
+  - id: u13-l2-04
+    type: learn
+    lexeme: medicina
+  - id: u13-l2-05
+    type: learn
+    lexeme: cita
+  - id: u13-l2-06
+    type: learn
+    lexeme: descansar
+  - id: u13-l2-07
+    type: learn
+    lexeme: tomar
+  - id: u13-l2-08
+    type: learn
+    lexeme: hambre
+  - id: u13-l2-09
+    type: learn
+    lexeme: sed
+  - id: u13-l2-10
+    type: learn
+    lexeme: frio
+  - id: u13-l2-11
+    type: learn
+    lexeme: calor
+  - id: u13-l2-12
+    type: learn
+    lexeme: sueno
+  - id: u13-l2-13
+    type: match_pairs
+    pairs:
+    - - la fiebre
+      - חום
+    - - la tos
+      - שיעול
+    - - la medicina
+      - תרופה
+    - - la cita
+      - תור
+    - - descansar
+      - לנוח
+    lexemes:
+    - fiebre
+    - tos
+    - medicina
+    - cita
+    - descansar
+  - id: u13-l2-14
+    type: match_pairs
+    pairs:
+    - - tengo hambre
+      - אני רעב
+    - - tengo sed
+      - אני צמא
+    - - tengo frío
+      - קר לי
+    - - tengo calor
+      - חם לי
+    - - tengo sueño
+      - אני ישנוני
+    lexemes:
+    - hambre
+    - sed
+    - frio
+    - calor
+    - sueno
+  - id: u13-l2-15
+    type: dialogue
+    scene: אצל הרופא.
+    lines:
+    - speaker: herrera
+      text: Buenos días. ¿Qué le pasa?
+      translation: בוקר טוב. מה קרה?
+    - speaker: yael
+      text: Me duele la garganta y tengo tos. Tengo fiebre desde ayer.
+      translation: כואב לי הגרון ויש לי שיעול. יש לי חום מאתמול.
+    - speaker: herrera
+      text: Debe descansar y tomar esta medicina dos veces al día. Mucha agua.
+      translation: צריך לנוח ולקחת את התרופה הזאת פעמיים ביום. הרבה מים.
+    - speaker: yael
+      text: Gracias, doctor.
+      translation: תודה, דוקטור.
+  - id: u13-l2-16
+    type: multiple_choice
+    prompt: מה הרופא ממליץ?
+    options:
+    - לנוח ולקחת תרופה
+    - ללכת לעבודה
+    - לא לשתות מים
+    correct: 0
+    lexemes:
+    - descansar
+    - tomar
+    - medicina
+    - trabajar
+    - agua
+  - id: u13-l2-17
+    type: multiple_choice
+    prompt: איך אומרים 'כואב לי הראש'?
+    options:
+    - Me duele la cabeza.
+    - Tengo duele la cabeza.
+    - Duelo la cabeza.
+    correct: 0
+    lexemes:
+    - doler
+    - cabeza
+  - id: u13-l2-18
+    type: multiple_choice
+    prompt: איך אומרים 'יש לי חום'?
+    options:
+    - Tengo fiebre.
+    - Soy fiebre.
+    - Estoy fiebre.
+    correct: 0
+    lexemes:
+    - fiebre
+    - tener
+  - id: u13-l2-19
+    type: listening_choice
+    audioText: Tengo mucha sed.
+    question: מה מרגיש?
+    options:
+    - צמא
+    - רעב
+    - קר לו
+    correct: 0
+    lexemes:
+    - sed
+    - hambre
+    - frio
+  - id: u13-l2-20
+    type: listening_choice
+    audioText: Me duelen los ojos.
+    question: מה כואב?
+    options:
+    - העיניים
+    - הגב
+    - הבטן
+    correct: 0
+    lexemes:
+    - doler
+    - ojo
+    - espalda
+    - estomago
+  - id: u13-l2-21
+    type: fill_blank
+    sentence: Me ___ la cabeza.
+    translation: כואב לי הראש.
+    answers:
+    - duele
+    options:
+    - duele
+    - duelen
+    - duelo
+    lexemes:
+    - doler
+    - cabeza
+  - id: u13-l2-22
+    type: fill_blank
+    sentence: Me ___ los ojos.
+    translation: כואבות לי העיניים.
+    answers:
+    - duelen
+    options:
+    - duelen
+    - duele
+    - dolen
+    lexemes:
+    - doler
+    - ojo
+  - id: u13-l2-23
+    type: fill_blank
+    sentence: Tengo ___ porque no desayuno. (רעב)
+    translation: אני רעב כי לא אכלתי ארוחת בוקר.
+    answers:
+    - hambre
+    options:
+    - hambre
+    - sed
+    - frío
+    lexemes:
+    - hambre
+  - id: u13-l2-24
+    type: word_bank
+    prompt: יש לי שיעול.
+    answers:
+    - Tengo tos.
+    distractors:
+    - Soy
+    - Estoy
+    lexemes:
+    - tos
+    - tener
+  - id: u13-l2-25
+    type: translate
+    direction: to_target
+    prompt: כואבת לי הגרון.
+    answers:
+    - Me duele la garganta.
+    lexemes:
+    - doler
+    - garganta
+  - id: u13-l2-26
+    type: translate
+    direction: to_target
+    prompt: אני צריך לנוח.
+    answers:
+    - Tengo que descansar.
+    lexemes:
+    - tener-que
+    - descansar
+  - id: u13-l2-27
+    type: translate
+    direction: to_source
+    prompt: Tomo la medicina por la mañana.
+    answers:
+    - אני לוקח את התרופה בבוקר
+    - אני לוקחת את התרופה בבוקר
+    lexemes:
+    - tomar
+    - medicina
+    - manana-dia
+  - id: u13-l2-28
+    type: dictation
+    text: Tengo fiebre y tos.
+    lexemes:
+    - fiebre
+    - tos
+- id: u13-l3
+  kind: grammar
+  title:
+    he: doler ו־tener
+    en: Doler and tener
+  grammar: doler-tener
+  exercises:
+  - id: u13-l3-01
+    type: fill_blank
+    sentence: ¿Te ___ la espalda?
+    translation: כואב לך הגב?
+    answers:
+    - duele
+    options:
+    - duele
+    - duelen
+    - duelo
+    lexemes:
+    - doler
+    - espalda
+  - id: u13-l3-02
+    type: fill_blank
+    sentence: Le ___ las piernas.
+    translation: כואבות לו הרגליים.
+    answers:
+    - duelen
+    options:
+    - duelen
+    - duele
+    - dolen
+    lexemes:
+    - doler
+    - pierna
+  - id: u13-l3-03
+    type: fill_blank
+    sentence: Tengo ___ frío. (מאוד)
+    translation: קר לי מאוד.
+    answers:
+    - mucho
+    options:
+    - mucho
+    - muy
+    - mucha
+    lexemes:
+    - frio
+  - id: u13-l3-04
+    type: fill_blank
+    sentence: Tengo ___ sed. (הרבה)
+    translation: אני מאוד צמא.
+    answers:
+    - mucha
+    options:
+    - mucha
+    - mucho
+    - muy
+    lexemes:
+    - sed
+  - id: u13-l3-05
+    type: fill_blank
+    sentence: Ella ___ fiebre.
+    translation: יש לה חום.
+    answers:
+    - tiene
+    options:
+    - tiene
+    - tienes
+    - es
+    lexemes:
+    - tener
+    - fiebre
+  - id: u13-l3-06
+    type: fill_blank
+    sentence: Nosotros ___ hambre.
+    translation: אנחנו רעבים.
+    answers:
+    - tenemos
+    options:
+    - tenemos
+    - tienen
+    - somos
+    lexemes:
+    - tener
+    - hambre
+  - id: u13-l3-07
+    type: fill_blank
+    sentence: Yo ___ enfermo hoy.
+    translation: אני חולה היום.
+    answers:
+    - estoy
+    options:
+    - estoy
+    - soy
+    - tengo
+    lexemes:
+    - estar
+    - enfermo
+    - hoy
+  - id: u13-l3-08
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Tengo hambre.
+    - Soy hambre.
+    - Estoy hambre.
+    correct: 0
+    lexemes:
+    - hambre
+  - id: u13-l3-09
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Me duelen las piernas.
+    - Me duele las piernas.
+    - Me dolen las piernas.
+    correct: 0
+    lexemes:
+    - doler
+    - pierna
+  - id: u13-l3-10
+    type: multiple_choice
+    prompt: מתי משתמשים ב־'mucha' ב'mucha sed'?
+    options:
+    - כי sed נקבה
+    - כי sed רבים
+    - כי sed זכר
+    correct: 0
+    lexemes:
+    - sed
+  - id: u13-l3-11
+    type: word_bank
+    prompt: כואבות לי הרגליים.
+    answers:
+    - Me duelen las piernas.
+    distractors:
+    - duele
+    - Tengo
+    lexemes:
+    - doler
+    - pierna
+  - id: u13-l3-12
+    type: word_bank
+    prompt: אני צמא מאוד.
+    answers:
+    - Tengo mucha sed.
+    distractors:
+    - Soy
+    - muy
+    lexemes:
+    - sed
+    - tener
+  - id: u13-l3-13
+    type: translate
+    direction: to_target
+    prompt: יש לי חום וכואבת הגרון.
+    answers:
+    - Tengo fiebre y me duele la garganta.
+    lexemes:
+    - fiebre
+    - doler
+    - garganta
+  - id: u13-l3-14
+    type: translate
+    direction: to_target
+    prompt: הוא קר לו.
+    answers:
+    - Tiene frío.
+    - Él tiene frío.
+    lexemes:
+    - frio
+    - tener
+  - id: u13-l3-15
+    type: translate
+    direction: to_source
+    prompt: ¿Te duele la cabeza?
+    answers:
+    - כואב לך הראש?
+    - כואב לך ראש?
+    lexemes:
+    - doler
+    - cabeza
+  - id: u13-l3-16
+    type: translate
+    direction: to_source
+    prompt: Estamos cansados y tenemos sueño.
+    answers:
+    - אנחנו עייפים וישנוניים
+    - אנחנו עייפים ורוצים לישון
+    lexemes:
+    - estar
+    - cansado
+    - sueno
+    - tener
+- id: u13-l4
+  kind: listening
+  title:
+    he: אצל הרופא
+    en: At the doctor's
+  exercises:
+  - id: u13-l4-01
+    type: dialogue
+    scene: הרופא מדבר עם יעל.
+    lines:
+    - speaker: herrera
+      text: ¿Qué síntomas tiene?
+      translation: אילו תסמינים יש?
+    - speaker: yael
+      text: Tengo tos y me duele la cabeza. No tengo hambre.
+      translation: יש לי שיעול וכואב לי הראש. אין לי תיאבון.
+    - speaker: herrera
+      text: ¿Tiene fiebre?
+      translation: יש חום?
+    - speaker: yael
+      text: Sí, un poco. Y tengo mucho sueño.
+      translation: כן, קצת. ואני מאוד ישנונית.
+  - id: u13-l4-02
+    type: multiple_choice
+    prompt: מה כואב ליעל?
+    options:
+    - הראש
+    - הרגל
+    - הגב
+    correct: 0
+    lexemes:
+    - cabeza
+    - pierna
+    - espalda
+  - id: u13-l4-03
+    type: multiple_choice
+    prompt: האם יש לה חום?
+    options:
+    - כן, קצת
+    - לא
+    - הרבה מאוד
+    correct: 0
+    lexemes:
+    - fiebre
+    - un-poco
+  - id: u13-l4-04
+    type: multiple_choice
+    prompt: מה היא לא רוצה?
+    options:
+    - לאכול
+    - לדבר
+    - לשתות
+    correct: 0
+    lexemes:
+    - hambre
+    - comer
+    - hablar
+    - beber
+  - id: u13-l4-05
+    type: listening_choice
+    audioText: Me duele la garganta y tengo tos.
+    question: מה הבעיות?
+    options:
+    - גרון ושיעול
+    - ראש וחום
+    - בטן וגב
+    correct: 0
+    lexemes:
+    - doler
+    - garganta
+    - tos
+    - cabeza
+    - fiebre
+    - estomago
+    - espalda
+  - id: u13-l4-06
+    type: listening_choice
+    audioText: Tomo la medicina tres veces al día.
+    question: כמה פעמים ביום?
+    options:
+    - שלוש
+    - שתיים
+    - חמש
+    correct: 0
+    lexemes:
+    - tomar
+    - medicina
+    - tres
+    - dos
+    - cinco
+  - id: u13-l4-07
+    type: dictation
+    text: Tengo mucha fiebre.
+    lexemes:
+    - fiebre
+  - id: u13-l4-08
+    type: translate
+    direction: to_target
+    prompt: אני צריכה לקחת תרופה.
+    answers:
+    - Tengo que tomar una medicina.
+    - Tengo que tomar la medicina.
+    lexemes:
+    - tener-que
+    - tomar
+    - medicina
+  - id: u13-l4-09
+    type: speak_repeat
+    text: Me duele la cabeza y tengo fiebre.
+    translation: כואב לי הראש ויש לי חום.
+    lexemes:
+    - doler
+    - cabeza
+    - fiebre
+- id: u13-l5
+  kind: reading
+  title:
+    he: הודעה מהמרפאה
+    en: A clinic note
+  exercises:
+  - id: u13-l5-01
+    type: reading
+    kind: הודעה
+    title: Nota de la doctora
+    text: 'Paciente: Yael. Síntomas: tos, fiebre y dolor de garganta.
+
+      Debe descansar dos días y tomar la medicina por la mañana y por la noche. Mucha agua, no frío.
+
+      Cita de revisión: el domingo a las diez.
+
+      '
+    translation: 'מטופלת: יעל. תסמינים: שיעול, חום וכאב גרון.
+
+      עליה לנוח יומיים ולקחת את התרופה בבוקר ובערב. הרבה מים, בלי קור.
+
+      תור לבדיקת מעקב: ביום ראשון בעשר.
+
+      '
+  - id: u13-l5-02
+    type: multiple_choice
+    prompt: מתי נוטלים את התרופה?
+    options:
+    - בבוקר ובערב
+    - רק בצהריים
+    - בשבת
+    correct: 0
+    lexemes:
+    - medicina
+    - manana-dia
+    - noche
+    - sabado
+  - id: u13-l5-03
+    type: multiple_choice
+    prompt: מתי תור המעקב?
+    options:
+    - ביום ראשון בעשר
+    - ביום שני בתשע
+    - בשבת
+    correct: 0
+    lexemes:
+    - cita
+    - domingo
+    - diez
+    - lunes
+    - nueve
+    - sabado
+  - id: u13-l5-04
+    type: fill_blank
+    sentence: Debe ___ dos días.
+    translation: צריך לנוח יומיים.
+    answers:
+    - descansar
+    options:
+    - descansar
+    - trabajar
+    - caminar
+    lexemes:
+    - descansar
+  - id: u13-l5-05
+    type: translate
+    direction: to_target
+    prompt: אני צריכה תור לרופא.
+    answers:
+    - Necesito una cita con el médico.
+    - Necesito una cita con el doctor.
+    lexemes:
+    - necesitar
+    - cita
+    - doctor
+- id: u13-review
+  kind: review
+  title:
+    he: 'חזרה: בריאות'
+    en: 'Review: health'
+  exercises:
+  - id: u13-review-01
+    type: match_pairs
+    pairs:
+    - - la cabeza
+      - ראש
+    - - la garganta
+      - גרון
+    - - la espalda
+      - גב
+    - - la pierna
+      - רגל
+    - - el ojo
+      - עין
+    lexemes:
+    - cabeza
+    - garganta
+    - espalda
+    - pierna
+    - ojo
+  - id: u13-review-02
+    type: match_pairs
+    pairs:
+    - - tengo hambre
+      - רעב
+    - - tengo sed
+      - צמא
+    - - tengo frío
+      - קר לי
+    - - tengo calor
+      - חם לי
+    - - tengo fiebre
+      - יש לי חום
+    lexemes:
+    - hambre
+    - sed
+    - frio
+    - calor
+    - fiebre
+  - id: u13-review-03
+    type: fill_blank
+    sentence: Me ___ la cabeza.
+    translation: כואב לי הראש.
+    answers:
+    - duele
+    options:
+    - duele
+    - duelen
+    - tiene
+    lexemes:
+    - doler
+    - cabeza
+  - id: u13-review-04
+    type: fill_blank
+    sentence: Tengo mucha ___.
+    translation: אני מאוד צמא.
+    answers:
+    - sed
+    options:
+    - sed
+    - hambre
+    - frío
+    lexemes:
+    - sed
+  - id: u13-review-05
+    type: multiple_choice
+    prompt: מה פירוש 'estoy enfermo'?
+    options:
+    - אני חולה
+    - אני רעב
+    - אני כואב
+    correct: 0
+    lexemes:
+    - enfermo
+    - hambre
+  - id: u13-review-06
+    type: listening_choice
+    audioText: Me duelen las piernas.
+    question: מה כואב?
+    options:
+    - הרגליים
+    - הידיים
+    - העיניים
+    correct: 0
+    lexemes:
+    - doler
+    - pierna
+    - mano
+    - ojo
+  - id: u13-review-07
+    type: word_bank
+    prompt: רפואה שלמה!
+    answers:
+    - ¡Que te mejores!
+    distractors:
+    - Tengo
+    - duele
+    lexemes:
+    - mejor-saludo
+  - id: u13-review-08
+    type: translate
+    direction: to_target
+    prompt: יש לי חום ושיעול.
+    answers:
+    - Tengo fiebre y tos.
+    lexemes:
+    - fiebre
+    - tos
+  - id: u13-review-09
+    type: translate
+    direction: to_source
+    prompt: Debes descansar y tomar la medicina.
+    answers:
+    - אתה צריך לנוח ולקחת את התרופה
+    - את צריכה לנוח ולקחת את התרופה
+    lexemes:
+    - deber
+    - descansar
+    - tomar
+    - medicina
+  - id: u13-review-10
+    type: dictation
+    text: Me duele la garganta.
+    lexemes:
+    - doler
+    - garganta
+  - id: u13-review-11
+    type: speak_repeat
+    text: Tengo fiebre y me duele la cabeza.
+    translation: יש לי חום וכואב לי הראש.
+    lexemes:
+    - fiebre
+    - doler
+    - cabeza
