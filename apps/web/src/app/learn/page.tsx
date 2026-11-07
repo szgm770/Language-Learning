@@ -6,7 +6,7 @@ import { useEffect } from "react";
 import { SCENE_HUE, SceneArt } from "@/components/art";
 import { AppShell } from "@/components/AppShell";
 import { KIND } from "@/components/CoursePath";
-import { Icon } from "@/components/icons";
+import { Icon, type IconName } from "@/components/icons";
 import { InstallHint } from "@/components/InstallHint";
 import { LoadError, Loading, Ring, SpeakButton, Word } from "@/components/ui";
 import { lexemeIndex, loadCourse, useLoad } from "@/lib/content";
@@ -204,20 +204,18 @@ export default function Dashboard() {
         </section>
       )}
 
-      <nav className="mt-6 flex flex-wrap justify-between gap-x-4 text-cobalt">
-        <Link href="/achievements/" className="min-h-11 py-2">
-          ההישגים שלי
-        </Link>
-        <Link href={`/certificate/${courseId}/`} className="flex min-h-11 items-center gap-1 py-2">
-          <Icon name="trophy" className="size-5" />
-          התעודה שלי
-        </Link>
-        <Link href="/exams/" className="min-h-11 py-2">
-          אימון למבחנים
-        </Link>
-        <Link href="/start/" className="min-h-11 py-2">
-          לעבור לשפה אחרת
-        </Link>
+      <nav className="mt-6 grid grid-cols-2 gap-3" aria-label="עוד באתר">
+        {[
+          { href: "/achievements/", icon: "star", label: "ההישגים שלי" },
+          { href: `/certificate/${courseId}/`, icon: "trophy", label: "התעודה שלי" },
+          { href: "/exams/", icon: "grammar", label: "אימון למבחנים" },
+          { href: "/start/", icon: "chat", label: "לעבור לשפה אחרת" },
+        ].map((l) => (
+          <Link key={l.href} href={l.href} className="card flex min-h-14 items-center gap-3 p-3 text-cobalt">
+            <Icon name={l.icon as IconName} className="size-6 shrink-0" />
+            <span className="font-semibold">{l.label}</span>
+          </Link>
+        ))}
       </nav>
     </AppShell>
   );
