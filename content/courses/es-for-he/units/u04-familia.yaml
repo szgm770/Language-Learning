@@ -1,0 +1,1005 @@
+id: u04-familia
+cefr: A1
+scene: family
+title:
+  he: המשפחה שלי
+  en: My family
+story: דוניה כרמן מראה ליעל תמונות של הנכדים שלה, ויעל מספרת על המשפחה שלה בישראל. בדרך יעל לומדת מילים של משפחה ואיך אומרים 'שלי', 'שלך' ו'שלו'.
+canDo:
+- 'לדבר על בני משפחה: הורים, אחים, ילדים, סבים'
+- להשתמש ב־mi, tu, su וברבים mis, tus, sus
+- לשאול ולענות כמה אחים יש
+- 'ליצור רבים של שמות עצם: hermano → hermanos'
+vocabulary:
+- id: padre
+  text: el padre
+  translation: אבא, אב
+  pos: noun
+- id: madre
+  text: la madre
+  translation: אמא, אם
+  pos: noun
+- id: padres
+  text: los padres
+  translation: ההורים
+  pos: noun
+- id: hermano
+  text: el hermano
+  translation: אח
+  pos: noun
+- id: hermana
+  text: la hermana
+  translation: אחות
+  pos: noun
+- id: hijo
+  text: el hijo
+  translation: בן
+  pos: noun
+- id: hija
+  text: la hija
+  translation: בת
+  pos: noun
+- id: esposo
+  text: el esposo
+  translation: בעל
+  pos: noun
+- id: esposa
+  text: la esposa
+  translation: אישה (בת זוג נשואה)
+  pos: noun
+- id: abuelo
+  text: el abuelo
+  translation: סבא
+  pos: noun
+- id: abuela
+  text: la abuela
+  translation: סבתא
+  pos: noun
+- id: nieto
+  text: el nieto / la nieta
+  translation: נכד / נכדה
+  pos: noun
+- id: tu-pos
+  text: tu
+  translation: שלך (אחד)
+  pos: determiner
+  example:
+    text: Tu madre es simpática.
+    translation: אמא שלך נחמדה.
+- id: su
+  text: su
+  translation: שלו, שלה, שלהם, שלכם
+  pos: determiner
+  example:
+    text: Su hermano es mexicano.
+    translation: האח שלו מקסיקני.
+- id: nuestro
+  text: nuestro / nuestra
+  translation: שלנו
+  pos: determiner
+- id: mayor
+  text: mayor
+  translation: 'מבוגר / גדול (באחים: הגדול)'
+  pos: adjective
+- id: menor
+  text: menor
+  translation: 'צעיר / קטן (באחים: הקטן)'
+  pos: adjective
+- id: simpatico
+  text: simpático / simpática
+  translation: נחמד / נחמדה
+  pos: adjective
+- id: grande
+  text: grande
+  translation: גדול / גדולה
+  pos: adjective
+- id: quien
+  text: ¿quién?
+  translation: מי?
+  pos: phrase
+- id: un-una
+  text: un / una
+  translation: אחד / אחת (לא מוגדר)
+  pos: determiner
+grammar:
+- id: posesivos
+  title:
+    he: שלי, שלך, שלו, ורבים
+    en: Possessives and plurals
+  explanation: '**מילות שייכות** באות **לפני** שם העצם, ולא אחריו:
+
+
+    | בעברית | בספרדית |
+
+    |---|---|
+
+    | אמא **שלי** | **mi** madre |
+
+    | אח **שלך** | **tu** hermano |
+
+    | בן **שלו / שלה** | **su** hijo |
+
+    | הבית **שלנו** | **nuestro** hijo / **nuestra** hija |
+
+
+    ברבים מוסיפים **s**: *mi hermano* → ***mis*** *hermanos*; *tu hermana* → ***tus*** *hermanas*; *su hijo* → ***sus*** *hijos*.
+
+    *su* יכול להיות "שלו", "שלה", "שלהם" או "שלכם", וההקשר מבהיר. כדי להבהיר: **la madre de Dani**.
+
+
+    **רבים של שמות עצם:** אחרי תנועה מוסיפים **-s** (*hermano → hermanos*); אחרי עיצור מוסיפים **-es** (*papel → papeles*). הערה חשובה: **los padres** פירושו "ההורים" (אבא ואמא), לא רק "אבות".
+
+    וגם: *el hermano* (זכר), *la hermana* (נקבה), *los hermanos* = "האחים" (כשיש גם אחיות).'
+  examples:
+  - text: Mi madre es de Israel.
+    translation: אמא שלי מישראל.
+  - text: Mis hermanos son jóvenes.
+    translation: האחים שלי צעירים.
+  - text: Sus padres son simpáticos.
+    translation: ההורים שלו (שלה) נחמדים.
+lessons:
+- id: u04-l1
+  kind: new
+  title:
+    he: אבא, אמא ואחים
+    en: Parents and siblings
+  exercises:
+  - id: u04-l1-01
+    type: dialogue
+    scene: דוניה כרמן מראה תמונות ליעל.
+    lines:
+    - speaker: carmen
+      text: Yael, mira. Esta es mi familia.
+      translation: יעל, תראי. זו המשפחה שלי.
+    - speaker: yael
+      text: ¡Qué bonita! ¿Quién es él?
+      translation: איזה יפה! מי זה?
+    - speaker: carmen
+      text: 'Es mi esposo. Y ellos son mis hijos: un hijo y una hija.'
+      translation: 'זה בעלי. ואלה הילדים שלי: בן ובת.'
+    - speaker: yael
+      text: Tienes una familia muy grande.
+      translation: יש לך משפחה גדולה מאוד.
+  - id: u04-l1-02
+    type: learn
+    lexeme: padre
+  - id: u04-l1-03
+    type: learn
+    lexeme: madre
+  - id: u04-l1-04
+    type: learn
+    lexeme: padres
+  - id: u04-l1-05
+    type: learn
+    lexeme: hermano
+  - id: u04-l1-06
+    type: learn
+    lexeme: hermana
+  - id: u04-l1-07
+    type: learn
+    lexeme: hijo
+  - id: u04-l1-08
+    type: learn
+    lexeme: hija
+  - id: u04-l1-09
+    type: learn
+    lexeme: esposo
+  - id: u04-l1-10
+    type: learn
+    lexeme: esposa
+  - id: u04-l1-11
+    type: match_pairs
+    pairs:
+    - - el padre
+      - אבא
+    - - la madre
+      - אמא
+    - - el hermano
+      - אח
+    - - la hermana
+      - אחות
+    - - los padres
+      - ההורים
+    lexemes:
+    - padre
+    - madre
+    - hermano
+    - hermana
+    - padres
+  - id: u04-l1-12
+    type: match_pairs
+    pairs:
+    - - el hijo
+      - בן
+    - - la hija
+      - בת
+    - - el esposo
+      - בעל
+    - - la esposa
+      - אישה
+    - - la familia
+      - משפחה
+    lexemes:
+    - hijo
+    - hija
+    - esposo
+    - esposa
+    - familia
+  - id: u04-l1-13
+    type: multiple_choice
+    prompt: מה פירוש 'la hermana'?
+    options:
+    - אחות
+    - אמא
+    - בת
+    correct: 0
+    lexemes:
+    - hermana
+    - madre
+    - hija
+  - id: u04-l1-14
+    type: multiple_choice
+    prompt: איך אומרים 'בן' בספרדית?
+    options:
+    - el hijo
+    - el hermano
+    - el padre
+    correct: 0
+    lexemes:
+    - hijo
+    - hermano
+    - padre
+  - id: u04-l1-15
+    type: listening_choice
+    audioText: la madre
+    question: מה שמעתם?
+    options:
+    - אמא
+    - אחות
+    - בת
+    correct: 0
+    lexemes:
+    - madre
+    - hermana
+    - hija
+  - id: u04-l1-16
+    type: listening_choice
+    audioText: los padres
+    question: מה שמעתם?
+    options:
+    - ההורים
+    - האחים
+    - הבנים
+    correct: 0
+    lexemes:
+    - padres
+    - hermano
+    - hijo
+  - id: u04-l1-17
+    type: translate
+    direction: to_target
+    prompt: אחות
+    answers:
+    - la hermana
+    - hermana
+    lexemes:
+    - hermana
+  - id: u04-l1-18
+    type: translate
+    direction: to_source
+    prompt: el esposo
+    answers:
+    - בעל
+    - הבעל
+    lexemes:
+    - esposo
+  - id: u04-l1-19
+    type: dictation
+    text: el padre y la madre
+    lexemes:
+    - padre
+    - madre
+    - y
+  - id: u04-l1-20
+    type: speak_repeat
+    text: El padre, la madre y los hijos.
+    translation: האבא, האמא והילדים.
+    lexemes:
+    - padre
+    - madre
+    - hijo
+- id: u04-l2
+  kind: new
+  title:
+    he: סבים, נכדים ותארים
+    en: Grandparents and adjectives
+  exercises:
+  - id: u04-l2-01
+    type: learn
+    lexeme: abuelo
+  - id: u04-l2-02
+    type: learn
+    lexeme: abuela
+  - id: u04-l2-03
+    type: learn
+    lexeme: nieto
+  - id: u04-l2-04
+    type: learn
+    lexeme: mayor
+  - id: u04-l2-05
+    type: learn
+    lexeme: menor
+  - id: u04-l2-06
+    type: learn
+    lexeme: simpatico
+  - id: u04-l2-07
+    type: learn
+    lexeme: grande
+  - id: u04-l2-08
+    type: learn
+    lexeme: quien
+  - id: u04-l2-09
+    type: learn
+    lexeme: un-una
+  - id: u04-l2-10
+    type: match_pairs
+    pairs:
+    - - el abuelo
+      - סבא
+    - - la abuela
+      - סבתא
+    - - el nieto
+      - נכד
+    - - mayor
+      - גדול
+    - - menor
+      - קטן
+    lexemes:
+    - abuelo
+    - abuela
+    - nieto
+    - mayor
+    - menor
+  - id: u04-l2-11
+    type: dialogue
+    scene: יעל ודוניה כרמן ממשיכות לדבר.
+    lines:
+    - speaker: carmen
+      text: Mi abuela es de Oaxaca. Mi hermano mayor es muy simpático.
+      translation: סבתא שלי מאוכסאקה. האח הגדול שלי נחמד מאוד.
+    - speaker: yael
+      text: ¿Y tu hermana menor? ¿Cuántos años tiene?
+      translation: ואחותך הקטנה? בת כמה היא?
+    - speaker: carmen
+      text: Mi hermana menor es joven. ¡Es muy simpática!
+      translation: אחותי הקטנה צעירה. היא נחמדה מאוד!
+  - id: u04-l2-12
+    type: multiple_choice
+    prompt: איך אומרים 'סבתא'?
+    options:
+    - la abuela
+    - la madre
+    - la nieta
+    correct: 0
+    lexemes:
+    - abuela
+    - madre
+    - nieto
+  - id: u04-l2-13
+    type: multiple_choice
+    prompt: מה פירוש 'simpático'?
+    options:
+    - נחמד
+    - גדול
+    - צעיר
+    correct: 0
+    lexemes:
+    - simpatico
+    - grande
+    - menor
+  - id: u04-l2-14
+    type: multiple_choice
+    prompt: איך שואלים 'מי זה?'
+    options:
+    - ¿Quién es?
+    - ¿Cómo es?
+    - ¿De dónde es?
+    correct: 0
+    lexemes:
+    - quien
+  - id: u04-l2-15
+    type: fill_blank
+    sentence: Mi abuelo es muy ___.
+    translation: סבא שלי נחמד מאוד.
+    answers:
+    - simpático
+    options:
+    - simpático
+    - joven
+    - mayor
+    lexemes:
+    - abuelo
+    - simpatico
+  - id: u04-l2-16
+    type: fill_blank
+    sentence: Mi hermana ___ tiene quince años.
+    translation: אחותי הקטנה בת חמש־עשרה.
+    answers:
+    - menor
+    options:
+    - menor
+    - mayor
+    - simpático
+    lexemes:
+    - hermana
+    - menor
+    - tener
+    - quince
+    - ano
+  - id: u04-l2-17
+    type: listening_choice
+    audioText: Mi abuela es simpática.
+    question: איך הסבתא?
+    options:
+    - נחמדה
+    - גדולה
+    - צעירה
+    correct: 0
+    lexemes:
+    - abuela
+    - simpatico
+    - grande
+  - id: u04-l2-18
+    type: word_bank
+    prompt: הנכד שלי צעיר.
+    answers:
+    - Mi nieto es joven.
+    distractors:
+    - Mis
+    - hermano
+    lexemes:
+    - nieto
+    - joven
+    - mi
+  - id: u04-l2-19
+    type: translate
+    direction: to_target
+    prompt: יש לי אחות קטנה.
+    answers:
+    - Tengo una hermana menor.
+    lexemes:
+    - tener
+    - un-una
+    - hermana
+    - menor
+  - id: u04-l2-20
+    type: translate
+    direction: to_source
+    prompt: Mi abuelo es muy mayor.
+    answers:
+    - סבא שלי מבוגר מאוד
+    - סבא שלי מבוגר מאד
+    - סבא שלי זקן מאוד
+    lexemes:
+    - abuelo
+    - mayor
+  - id: u04-l2-21
+    type: dictation
+    text: Mi hermana menor es simpática.
+    lexemes:
+    - hermana
+    - menor
+    - simpatico
+- id: u04-l3
+  kind: grammar
+  title:
+    he: mi, tu, su ורבים
+    en: mi, tu, su and plurals
+  grammar: posesivos
+  exercises:
+  - id: u04-l3-01
+    type: learn
+    lexeme: tu-pos
+  - id: u04-l3-02
+    type: learn
+    lexeme: su
+  - id: u04-l3-03
+    type: learn
+    lexeme: nuestro
+  - id: u04-l3-04
+    type: fill_blank
+    sentence: ___ madre es de Israel. (שלי)
+    translation: אמא שלי מישראל.
+    answers:
+    - Mi
+    options:
+    - Mi
+    - Mis
+    - Su
+    lexemes:
+    - mi
+    - madre
+    - israel
+  - id: u04-l3-05
+    type: fill_blank
+    sentence: ___ hermanos son jóvenes. (שלי)
+    translation: האחים שלי צעירים.
+    answers:
+    - Mis
+    options:
+    - Mis
+    - Mi
+    - Tu
+    lexemes:
+    - mi
+    - hermano
+    - joven
+  - id: u04-l3-06
+    type: fill_blank
+    sentence: ¿Cómo se llama ___ padre? (שלך)
+    translation: איך קוראים לאביך?
+    answers:
+    - tu
+    options:
+    - tu
+    - tus
+    - mi
+    lexemes:
+    - tu-pos
+    - padre
+    - como-te-llamas
+  - id: u04-l3-07
+    type: fill_blank
+    sentence: Dani y ___ esposa son simpáticos. (שלו)
+    translation: דני ואשתו נחמדים.
+    answers:
+    - su
+    options:
+    - su
+    - sus
+    - mi
+    lexemes:
+    - su
+    - esposa
+    - simpatico
+  - id: u04-l3-08
+    type: fill_blank
+    sentence: ___ hijos tienen dos años. (שלנו)
+    translation: הילדים שלנו בני שנתיים.
+    answers:
+    - Nuestros
+    options:
+    - Nuestros
+    - Nuestro
+    - Mis
+    lexemes:
+    - nuestro
+    - hijo
+    - dos
+    - ano
+  - id: u04-l3-09
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Mis padres son de Israel.
+    - Mi padres son de Israel.
+    - Mis padre es de Israel.
+    correct: 0
+    lexemes:
+    - mi
+    - padres
+    - ser
+    - israel
+  - id: u04-l3-10
+    type: multiple_choice
+    prompt: איך אומרים 'האחים שלך'?
+    options:
+    - tus hermanos
+    - tu hermanos
+    - tus hermano
+    correct: 0
+    lexemes:
+    - tu-pos
+    - hermano
+  - id: u04-l3-11
+    type: multiple_choice
+    prompt: מה פירוש 'sus hijos'?
+    options:
+    - הילדים שלו / שלה
+    - הילד שלי
+    - הילדים שלנו
+    correct: 0
+    lexemes:
+    - su
+    - hijo
+  - id: u04-l3-12
+    type: word_bank
+    prompt: אמא שלי ואבא שלי.
+    answers:
+    - Mi madre y mi padre.
+    distractors:
+    - Mis
+    - tu
+    lexemes:
+    - mi
+    - madre
+    - padre
+    - y
+  - id: u04-l3-13
+    type: word_bank
+    prompt: האחות שלך נחמדה.
+    answers:
+    - Tu hermana es simpática.
+    distractors:
+    - Mi
+    - son
+    lexemes:
+    - tu-pos
+    - hermana
+    - simpatico
+  - id: u04-l3-14
+    type: translate
+    direction: to_target
+    prompt: ההורים שלי נחמדים.
+    answers:
+    - Mis padres son simpáticos.
+    lexemes:
+    - mi
+    - padres
+    - simpatico
+  - id: u04-l3-15
+    type: translate
+    direction: to_target
+    prompt: הסבתא שלה מישראל.
+    answers:
+    - Su abuela es de Israel.
+    lexemes:
+    - su
+    - abuela
+    - israel
+  - id: u04-l3-16
+    type: translate
+    direction: to_source
+    prompt: Nuestros nietos son jóvenes.
+    answers:
+    - הנכדים שלנו צעירים
+    lexemes:
+    - nuestro
+    - nieto
+    - joven
+  - id: u04-l3-17
+    type: translate
+    direction: to_source
+    prompt: Mis hermanos tienen veinte y diecinueve años.
+    answers:
+    - לאחים שלי יש עשרים ותשע־עשרה שנים
+    - האחים שלי בני עשרים ותשע־עשרה
+    - האחים שלי בני עשרים ותשע עשרה
+    lexemes:
+    - mi
+    - hermano
+    - tener
+- id: u04-l4
+  kind: listening
+  title:
+    he: בן כמה האח שלך?
+    en: How old is your brother?
+  exercises:
+  - id: u04-l4-01
+    type: dialogue
+    scene: הפסקת צהריים עם לוסיה.
+    lines:
+    - speaker: lucia
+      text: Yael, ¿cuántos hermanos tienes?
+      translation: יעל, כמה אחים יש לך?
+    - speaker: yael
+      text: Tengo dos hermanos y una hermana. Mi hermana es la menor.
+      translation: יש לי שני אחים ואחות. אחותי היא הצעירה.
+    - speaker: lucia
+      text: ¡Qué bien! Yo tengo un hermano mayor. Mis padres son de Puebla.
+      translation: איזה יופי! יש לי אח גדול. ההורים שלי מפואבלה.
+    - speaker: yael
+      text: Mis padres son de Israel. Mi madre es muy simpática.
+      translation: ההורים שלי מישראל. אמא שלי נחמדה מאוד.
+  - id: u04-l4-02
+    type: multiple_choice
+    prompt: כמה אחים יש ליעל?
+    options:
+    - שני אחים ואחות
+    - אח אחד
+    - שלוש אחיות
+    correct: 0
+    lexemes:
+    - tener
+    - hermano
+    - hermana
+    - dos
+  - id: u04-l4-03
+    type: multiple_choice
+    prompt: מי הצעירה אצל יעל?
+    options:
+    - האחות
+    - האח
+    - האמא
+    correct: 0
+    lexemes:
+    - hermana
+    - menor
+  - id: u04-l4-04
+    type: multiple_choice
+    prompt: מאיפה ההורים של לוסיה?
+    options:
+    - מפואבלה
+    - מישראל
+    - מספרד
+    correct: 0
+    lexemes:
+    - padres
+  - id: u04-l4-05
+    type: listening_choice
+    audioText: Tengo un hermano mayor.
+    question: מה שמעתם?
+    options:
+    - יש לי אח גדול
+    - יש לי אחות קטנה
+    - יש לי שני אחים
+    correct: 0
+    lexemes:
+    - tener
+    - hermano
+    - mayor
+  - id: u04-l4-06
+    type: dictation
+    text: Mis padres son simpáticos.
+    lexemes:
+    - mi
+    - padres
+    - simpatico
+  - id: u04-l4-07
+    type: translate
+    direction: to_target
+    prompt: כמה אחים יש לך?
+    answers:
+    - ¿Cuántos hermanos tienes?
+    lexemes:
+    - cuantos
+    - hermano
+    - tener
+  - id: u04-l4-08
+    type: speak_repeat
+    text: Tengo dos hermanos y una hermana.
+    translation: יש לי שני אחים ואחות.
+    lexemes:
+    - tener
+    - hermano
+    - hermana
+    - dos
+- id: u04-l5
+  kind: reading
+  title:
+    he: העץ של המשפחה
+    en: The family tree
+  exercises:
+  - id: u04-l5-01
+    type: reading
+    kind: טקסט
+    title: Mi familia
+    text: 'Me llamo Yael y esta es mi familia.
+
+      Mis padres son de Israel. Mi padre se llama David y mi madre se llama Ruth. Son muy simpáticos.
+
+      Tengo dos hermanos y una hermana. Mi hermano mayor es muy simpático. Mi hermana menor tiene diecisiete años.
+
+      Mis abuelos también son de Israel, y tienen cuatro nietos.
+
+      '
+    translation: 'קוראים לי יעל וזו המשפחה שלי.
+
+      ההורים שלי מישראל. אבא שלי נקרא דוד ואמא שלי נקראת רות. הם נחמדים מאוד.
+
+      יש לי שני אחים ואחות. האח הגדול שלי נחמד מאוד. לאחותי הקטנה שבע־עשרה שנים.
+
+      גם הסבים שלי מישראל, ויש להם ארבעה נכדים.
+
+      '
+  - id: u04-l5-02
+    type: multiple_choice
+    prompt: איך קוראים לאבא של יעל?
+    options:
+    - David
+    - Ruth
+    - Mateo
+    correct: 0
+    lexemes:
+    - padre
+    - como-te-llamas
+  - id: u04-l5-03
+    type: multiple_choice
+    prompt: בת כמה אחותה הקטנה?
+    options:
+    - '17'
+    - '30'
+    - '12'
+    correct: 0
+    lexemes:
+    - hermana
+    - menor
+    - diecisiete
+  - id: u04-l5-04
+    type: multiple_choice
+    prompt: כמה נכדים יש לסבים?
+    options:
+    - ארבעה
+    - שניים
+    - שלושה
+    correct: 0
+    lexemes:
+    - abuelo
+    - nieto
+  - id: u04-l5-05
+    type: fill_blank
+    sentence: Mis abuelos ___ cuatro nietos.
+    translation: לסבים שלי יש ארבעה נכדים.
+    answers:
+    - tienen
+    options:
+    - tienen
+    - tiene
+    - tienes
+    lexemes:
+    - abuelo
+    - tener
+    - nieto
+  - id: u04-l5-06
+    type: translate
+    direction: to_target
+    prompt: אבא שלי נחמד.
+    answers:
+    - Mi padre es simpático.
+    lexemes:
+    - mi
+    - padre
+    - simpatico
+- id: u04-review
+  kind: review
+  title:
+    he: 'חזרה: המשפחה שלי'
+    en: 'Review: my family'
+  exercises:
+  - id: u04-review-01
+    type: match_pairs
+    pairs:
+    - - el padre
+      - אבא
+    - - la madre
+      - אמא
+    - - el hijo
+      - בן
+    - - la hija
+      - בת
+    - - el abuelo
+      - סבא
+    lexemes:
+    - padre
+    - madre
+    - hijo
+    - hija
+    - abuelo
+  - id: u04-review-02
+    type: match_pairs
+    pairs:
+    - - mi
+      - שלי
+    - - tu
+      - שלך
+    - - su
+      - שלו / שלה
+    - - nuestro
+      - שלנו
+    - - mayor
+      - גדול
+    lexemes:
+    - mi
+    - tu-pos
+    - su
+    - nuestro
+    - mayor
+  - id: u04-review-03
+    type: fill_blank
+    sentence: Ellos son ___ padres. (שלי)
+    translation: אלה ההורים שלי.
+    answers:
+    - mis
+    options:
+    - mis
+    - mi
+    - su
+    lexemes:
+    - mi
+    - padres
+  - id: u04-review-04
+    type: fill_blank
+    sentence: ¿Cuántos ___ tienes?
+    translation: כמה אחים יש לך?
+    answers:
+    - hermanos
+    options:
+    - hermanos
+    - hermano
+    - hermana
+    lexemes:
+    - cuantos
+    - hermano
+    - tener
+  - id: u04-review-05
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Su hermana es simpática.
+    - Su hermana es simpático.
+    - Sus hermana es simpática.
+    correct: 0
+    lexemes:
+    - su
+    - hermana
+    - simpatico
+  - id: u04-review-06
+    type: listening_choice
+    audioText: Mi abuelo es muy mayor.
+    question: מה שמעתם?
+    options:
+    - סבא שלי מבוגר מאוד
+    - סבא שלי צעיר מאוד
+    - סבתא שלי מבוגרת מאוד
+    correct: 0
+    lexemes:
+    - abuelo
+    - mayor
+  - id: u04-review-07
+    type: word_bank
+    prompt: הבן שלנו בן חמש.
+    answers:
+    - Nuestro hijo tiene cinco años.
+    distractors:
+    - Mis
+    - es
+    lexemes:
+    - nuestro
+    - hijo
+    - tener
+    - cinco
+    - ano
+  - id: u04-review-08
+    type: translate
+    direction: to_target
+    prompt: יש לי אחות.
+    answers:
+    - Tengo una hermana.
+    lexemes:
+    - tener
+    - un-una
+    - hermana
+  - id: u04-review-09
+    type: translate
+    direction: to_source
+    prompt: Mis padres son jóvenes.
+    answers:
+    - ההורים שלי צעירים
+    lexemes:
+    - mi
+    - padres
+    - joven
+  - id: u04-review-10
+    type: dictation
+    text: Mi familia es grande.
+    lexemes:
+    - mi
+    - familia
+    - grande
+  - id: u04-review-11
+    type: speak_repeat
+    text: Esta es mi familia.
+    translation: זו המשפחה שלי.
+    lexemes:
+    - mi
+    - familia
