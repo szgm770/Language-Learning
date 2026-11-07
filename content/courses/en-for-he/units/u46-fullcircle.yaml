@@ -1,0 +1,980 @@
+id: u46-fullcircle
+cefr: C1
+scene: party
+title:
+  he: סוגרים מעגל
+  en: Full circle
+story: 'המשרד בתל אביב חוגג שנה. בן מגיע מלונדון, מר כהן נואם, ונועה מסתכלת אחורה על המסע. היחידה האחרונה בקורס: ניגוד והסתייגות ברמה גבוהה, סיכום, ומבחן רמה C1.'
+canDo:
+- להביע ניגוד והסתייגות (albeit, whereas, notwithstanding, much as)
+- להסתכל לאחור ולסכם מסע בשפה עשירה
+- לשלב את כל המבנים של רמה C1
+- לעבור את מבחן רמה C1
+vocabulary:
+- id: albeit
+  text: albeit
+  translation: אם כי
+  pos: conjunction
+- id: notwithstanding
+  text: notwithstanding
+  translation: למרות
+  pos: preposition
+- id: nonetheless
+  text: nonetheless
+  translation: בכל זאת, עם זאת
+  pos: adverb
+- id: hence
+  text: hence
+  translation: לכן, מכאן
+  pos: adverb
+- id: thereby
+  text: thereby
+  translation: ובכך
+  pos: adverb
+- id: legacy
+  text: legacy
+  translation: מורשת
+  pos: noun
+- id: mentor
+  text: mentor
+  translation: מנטור, מדריך
+  pos: noun
+- id: hindsight
+  text: hindsight
+  translation: ראייה לאחור
+  pos: noun
+- id: resilient
+  text: resilient
+  translation: עמיד, חסון
+  pos: adjective
+- id: wholeheartedly
+  text: wholeheartedly
+  translation: בכל הלב
+  pos: adverb
+- id: pursue
+  text: pursue
+  translation: לרדוף אחרי, להתמיד ב־
+  pos: verb
+- id: fulfilling
+  text: fulfilling
+  translation: מספק, מעניק סיפוק
+  pos: adjective
+- id: handover
+  text: handover
+  translation: העברת מקל
+  pos: noun
+grammar:
+- id: concession
+  title:
+    he: ניגוד והסתייגות
+    en: Concession and contrast
+  explanation: 'ברמת C1 מביעים ניגוד בצורות עשירות יותר מ־but:
+
+
+    - "**albeit** + תיאור (אם כי): *a good result, **albeit** a small one.*"
+
+    - "**whereas / while** מנגדים שני דברים: *Tel Aviv is hot, **whereas** London is cool.*"
+
+    - "**notwithstanding** + שם עצם (למרות): ***Notwithstanding** the delay, we finished.*"
+
+    - "**much as / although / even though** + משפט: ***Much as** I respect him, I disagree.*"
+
+    - "**However + תואר**: ***However** hard she tried, she couldn''t win.*"
+
+    - "**nonetheless / nevertheless** (מילת קישור, אחריה פסיק): *It was late. **Nonetheless**, they continued.*"
+
+
+    תוצאה: **hence** (לכן, ואחריו שם עצם), **thereby** (ובכך): *She trained the team, **thereby** improving results.*'
+  examples:
+  - text: It was a success, albeit a small one.
+    translation: זו הייתה הצלחה, אם כי קטנה.
+  - text: Notwithstanding the delay, the launch went well.
+    translation: למרות העיכוב, ההשקה עברה יפה.
+  - text: However hard she tried, she could not persuade him.
+    translation: ככל שניסתה, היא לא הצליחה לשכנע אותו.
+lessons:
+- id: u46-l1
+  kind: new
+  title:
+    he: חוגגים שנה
+    en: One year on
+  exercises:
+  - id: u46-l1-01
+    type: dialogue
+    scene: מסיבת שנה למשרד, יום ראשון אחר הצהריים.
+    lines:
+    - speaker: cohen
+      text: I would like to thank everyone. This office is my greatest success, albeit one that began with a little doubt.
+      translation: ברצוני להודות לכולם. המשרד הזה הוא ההצלחה הגדולה ביותר שלי, אם כי כזו שהתחילה בקצת ספק.
+    - speaker: ben
+      text: Noa, you pursued this goal when others hesitated.
+      translation: נועה, רדפת אחרי המטרה הזאת כשאחרים היססו.
+    - speaker: noa
+      text: Hindsight is wonderful. At the time, I was terrified.
+      translation: ראייה לאחור היא נפלאה. באותו זמן פחדתי מאוד.
+    - speaker: cohen
+      text: Yet you were resilient, and you left a real legacy in London.
+      translation: ובכל זאת היית חסונה, והשארת מורשת אמיתית בלונדון.
+    - speaker: noa
+      text: I had a wonderful mentor. Thank you, Mr. Cohen.
+      translation: היה לי מנטור נפלא. תודה, מר כהן.
+  - id: u46-l1-02
+    type: learn
+    lexeme: albeit
+  - id: u46-l1-03
+    type: learn
+    lexeme: pursue
+  - id: u46-l1-04
+    type: learn
+    lexeme: hindsight
+  - id: u46-l1-05
+    type: learn
+    lexeme: resilient
+  - id: u46-l1-06
+    type: learn
+    lexeme: legacy
+  - id: u46-l1-07
+    type: learn
+    lexeme: mentor
+  - id: u46-l1-08
+    type: match_pairs
+    pairs:
+    - - albeit
+      - אם כי
+    - - pursue
+      - לרדוף אחרי
+    - - hindsight
+      - ראייה לאחור
+    - - resilient
+      - חסון
+    - - legacy
+      - מורשת
+    lexemes:
+    - albeit
+    - pursue
+    - hindsight
+    - resilient
+    - legacy
+  - id: u46-l1-09
+    type: multiple_choice
+    prompt: מה מר כהן אומר על נועה?
+    options:
+    - שהייתה חסונה והשאירה מורשת
+    - שהייתה מפוחדת
+    - שעזבה
+    correct: 0
+    lexemes:
+    - resilient
+    - legacy
+  - id: u46-l1-10
+    type: multiple_choice
+    prompt: למי נועה מודה?
+    options:
+    - למנטור שלה, מר כהן
+    - לבן
+    - לאלי
+    correct: 0
+    lexemes:
+    - mentor
+  - id: u46-l1-11
+    type: listening_choice
+    audioText: Hindsight is a wonderful thing.
+    question: מה הדובר אומר?
+    options:
+    - שראייה לאחור היא נפלאה
+    - שהוא מפחד
+    - שהוא שכח
+    correct: 0
+    lexemes:
+    - hindsight
+  - id: u46-l1-12
+    type: word_bank
+    prompt: זו הצלחה, אם כי קטנה.
+    answers:
+    - It is a success, albeit a small one.
+    - It's a success, albeit a small one.
+    distractors:
+    - although
+    - an
+    lexemes:
+    - albeit
+  - id: u46-l1-13
+    type: translate
+    direction: to_target
+    prompt: היא נחושה ורדפה אחרי החלום שלה.
+    answers:
+    - She is determined and pursued her dream.
+    - She is determined and she pursued her dream.
+    lexemes:
+    - pursue
+  - id: u46-l1-14
+    type: speak_repeat
+    text: You left a real legacy.
+    translation: השארת מורשת אמיתית.
+    lexemes:
+    - legacy
+- id: u46-l2
+  kind: new
+  title:
+    he: מסתכלים אחורה
+    en: Looking back
+  exercises:
+  - id: u46-l2-01
+    type: learn
+    lexeme: nonetheless
+  - id: u46-l2-02
+    type: learn
+    lexeme: hence
+  - id: u46-l2-03
+    type: learn
+    lexeme: thereby
+  - id: u46-l2-04
+    type: learn
+    lexeme: fulfilling
+  - id: u46-l2-05
+    type: learn
+    lexeme: wholeheartedly
+  - id: u46-l2-06
+    type: dialogue
+    scene: שיחה בין נועה לבן.
+    lines:
+    - speaker: ben
+      text: London was exciting, whereas Tel Aviv feels like home.
+      translation: לונדון הייתה מרגשת, ואילו תל אביב מרגישה כמו בית.
+    - speaker: noa
+      text: True. Nonetheless, the year abroad changed me. I was nervous at first, hence my terrible English.
+      translation: נכון. בכל זאת, השנה בחו"ל שינתה אותי. בהתחלה הייתי לחוצה, ומכאן האנגלית הנוראית שלי.
+    - speaker: ben
+      text: Your English is excellent now. You trained the new staff, thereby improving the whole team.
+      translation: האנגלית שלך מצוינת עכשיו. הכשרת את העובדים החדשים, ובכך שיפרת את הצוות כולו.
+    - speaker: noa
+      text: The work is fulfilling. I wholeheartedly recommend taking the risk.
+      translation: העבודה מספקת. אני ממליצה בכל הלב לקחת את הסיכון.
+  - id: u46-l2-07
+    type: match_pairs
+    pairs:
+    - - nonetheless
+      - בכל זאת
+    - - whereas
+      - בעוד ש
+    - - hence
+      - לכן
+    - - thereby
+      - ובכך
+    - - wholeheartedly
+      - בכל הלב
+    lexemes:
+    - nonetheless
+    - whereas
+    - hence
+    - thereby
+    - wholeheartedly
+  - id: u46-l2-08
+    type: multiple_choice
+    prompt: איך נועה מרגישה לגבי העבודה?
+    options:
+    - שהיא מספקת
+    - שהיא משעממת
+    - שהיא קשה מדי
+    correct: 0
+    lexemes:
+    - fulfilling
+  - id: u46-l2-09
+    type: multiple_choice
+    prompt: מה בן אומר על תל אביב?
+    options:
+    - שהיא מרגישה כמו בית
+    - שהיא קרה
+    - שהיא יקרה
+    correct: 0
+    lexemes:
+    - whereas
+  - id: u46-l2-10
+    type: dialogue_gap
+    lines:
+    - speaker: ben
+      text: How did you improve the team?
+      translation: איך שיפרת את הצוות?
+    - speaker: noa
+      text: I trained the staff, thereby improving results.
+      translation: הכשרתי את העובדים, ובכך שיפרתי תוצאות.
+    gap: 1
+    distractors:
+    - I trained the staff, there improving results.
+    - I trained the staff, thereby improved results.
+    lexemes:
+    - thereby
+  - id: u46-l2-11
+    type: translate
+    direction: to_target
+    prompt: לונדון קרה, ואילו תל אביב חמה.
+    answers:
+    - London is cold, whereas Tel Aviv is hot.
+    - London is cool, whereas Tel Aviv is hot.
+    - London is cold, while Tel Aviv is hot.
+    lexemes:
+    - whereas
+  - id: u46-l2-12
+    type: translate
+    direction: to_source
+    prompt: I wholeheartedly agree.
+    answers:
+    - אני מסכים בכל לב.
+    - אני מסכימה בכל לב.
+    - אני מסכים בכל הלב.
+    - אני מסכימה בכל הלב.
+    lexemes:
+    - wholeheartedly
+  - id: u46-l2-13
+    type: speak_repeat
+    text: The work is fulfilling.
+    translation: העבודה מספקת.
+    lexemes:
+    - fulfilling
+- id: u46-l3
+  kind: grammar
+  title:
+    he: ניגוד והסתייגות
+    en: Concession
+  grammar: concession
+  exercises:
+  - id: u46-l3-01
+    type: learn
+    lexeme: handover
+  - id: u46-l3-02
+    type: fill_blank
+    sentence: It was a good result, ___ a small one.
+    translation: זו הייתה תוצאה טובה, אם כי קטנה.
+    answers:
+    - albeit
+    options:
+    - albeit
+    - whereas
+    - hence
+    lexemes:
+    - albeit
+  - id: u46-l3-03
+    type: fill_blank
+    sentence: Tel Aviv is hot, ___ London is cool.
+    translation: תל אביב חמה, ואילו לונדון קרירה.
+    answers:
+    - whereas
+    options:
+    - whereas
+    - albeit
+    - hence
+    lexemes:
+    - whereas
+  - id: u46-l3-04
+    type: fill_blank
+    sentence: ___ the delay, the launch went well.
+    translation: למרות העיכוב, ההשקה עברה יפה.
+    answers:
+    - Notwithstanding
+    options:
+    - Notwithstanding
+    - Whereas
+    - Hence
+    lexemes:
+    - notwithstanding
+  - id: u46-l3-05
+    type: fill_blank
+    sentence: ___ hard she tried, she could not win.
+    translation: ככל שניסתה, היא לא הצליחה לנצח.
+    answers:
+    - However
+    options:
+    - However
+    - Whatever
+    - Whereas
+    lexemes: []
+  - id: u46-l3-06
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Much as I like him, I disagree.
+    - Much as I like him but I disagree.
+    - Much I like him, I disagree.
+    correct: 0
+    lexemes: []
+  - id: u46-l3-07
+    type: multiple_choice
+    prompt: מה פירוש thereby?
+    options:
+    - ובכך
+    - בעוד ש
+    - למרות
+    correct: 0
+    lexemes:
+    - thereby
+  - id: u46-l3-08
+    type: word_bank
+    prompt: למרות הקושי, הצלחנו.
+    answers:
+    - Notwithstanding the difficulty, we succeeded.
+    distractors:
+    - although
+    - whereas
+    lexemes:
+    - notwithstanding
+  - id: u46-l3-09
+    type: translate
+    direction: to_target
+    prompt: זו הייתה החלטה טובה, אם כי קשה.
+    answers:
+    - It was a good decision, albeit a difficult one.
+    - It was a good decision, albeit difficult.
+    lexemes:
+    - albeit
+  - id: u46-l3-10
+    type: translate
+    direction: to_target
+    prompt: היא אימנה את הצוות, ובכך שיפרה את התוצאות.
+    answers:
+    - She trained the team, thereby improving the results.
+    - She trained the team, thereby improving results.
+    - She trained the staff, thereby improving the results.
+    lexemes:
+    - thereby
+  - id: u46-l3-11
+    type: translate
+    direction: to_source
+    prompt: It was late. Nonetheless, they carried on.
+    answers:
+    - זה היה מאוחר. בכל זאת הם המשיכו.
+    - היה מאוחר. עם זאת הם המשיכו.
+    lexemes:
+    - nonetheless
+  - id: u46-l3-12
+    type: dictation
+    text: Notwithstanding the delay, the launch went well.
+    lexemes:
+    - notwithstanding
+  - id: u46-l3-13
+    type: translate
+    direction: to_target
+    prompt: העברת המקל הייתה חלקה.
+    answers:
+    - The handover was smooth.
+    lexemes:
+    - handover
+- id: u46-l4
+  kind: listening
+  title:
+    he: הנאום של מר כהן
+    en: Mr. Cohen's speech
+  exercises:
+  - id: u46-l4-01
+    type: dialogue
+    scene: נאום בסוף המסיבה.
+    lines:
+    - speaker: cohen
+      text: A year ago, many of us were sceptical. Nonetheless, this team pursued a bold idea.
+      translation: לפני שנה רבים מאיתנו היו ספקניים. בכל זאת הצוות הזה רדף אחרי רעיון נועז.
+    - speaker: cohen
+      text: Never have I been so proud of a project.
+      translation: מעולם לא הייתי גאה כל כך בפרויקט.
+    - speaker: cohen
+      text: What impressed me most was how resilient you were during the setbacks.
+      translation: מה שהרשים אותי יותר מכול היה כמה חסונים הייתם בזמן המכשולים.
+    - speaker: cohen
+      text: Notwithstanding the challenges, you built a culture where people thrive.
+      translation: למרות האתגרים, בניתם תרבות שבה אנשים משגשגים.
+    - speaker: cohen
+      text: So here's to the next chapter. Thank you, and mazal tov!
+      translation: אז לכבוד הפרק הבא. תודה ומזל טוב!
+  - id: u46-l4-02
+    type: multiple_choice
+    prompt: מה הרשים את מר כהן יותר מכול?
+    options:
+    - החוסן בזמן המכשולים
+    - המחירים
+    - המשרד
+    correct: 0
+    lexemes:
+    - resilient
+  - id: u46-l4-03
+    type: multiple_choice
+    prompt: מה הצוות בנה?
+    options:
+    - תרבות שבה אנשים משגשגים
+    - מבנה חדש
+    - חברה חדשה
+    correct: 0
+    lexemes:
+    - thrive
+  - id: u46-l4-04
+    type: listening_choice
+    audioText: Never have I been so proud of a project.
+    question: מה הדובר אומר?
+    options:
+    - שהוא גאה מאוד בפרויקט
+    - שהוא מאוכזב
+    - שהוא פורש
+    correct: 0
+    lexemes: []
+  - id: u46-l4-05
+    type: dictation
+    text: What impressed me most was how resilient you were.
+    lexemes:
+    - resilient
+  - id: u46-l4-06
+    type: translate
+    direction: to_target
+    prompt: מעולם לא הייתי גאה כל כך.
+    answers:
+    - Never have I been so proud.
+    lexemes: []
+  - id: u46-l4-07
+    type: speak_repeat
+    text: Notwithstanding the challenges, you built a great team.
+    translation: למרות האתגרים, בניתם צוות נהדר.
+    lexemes:
+    - notwithstanding
+- id: u46-l5
+  kind: reading
+  title:
+    he: מכתב מנועה
+    en: A letter from Noa
+  exercises:
+  - id: u46-l5-01
+    type: reading
+    kind: מכתב
+    title: A letter to my younger self
+    text: 'Dear Noa,
+
+
+      A year ago, you thought leading an office was impossible. Hindsight tells me otherwise. The path was long, albeit rewarding, and every setback taught me something.
+
+
+      Whereas you feared failure, I now see that failure is part of any fulfilling career. Notwithstanding the stress, you built a team that thrives, thereby proving that confidence grows through action. Hence my advice: pursue what scares you.
+
+
+      Remember your mentor, who believed in you wholeheartedly. Remember Ben, who trusted you with the handover. And remember your family, who waited for you at home.
+
+
+      Nonetheless, keep one thing: never stop learning. The English you struggled with at the very beginning is now a bridge between two worlds.
+
+
+      With love,
+
+      Noa
+
+      '
+    translation: 'נועה היקרה,
+
+
+      לפני שנה חשבת שניהול משרד הוא בלתי אפשרי. ראייה לאחור אומרת לי אחרת. הדרך הייתה ארוכה, אם כי מתגמלת, וכל מכשול לימד אותי משהו.
+
+
+      בעוד שאת פחדת מכישלון, אני רואה עכשיו שכישלון הוא חלק מכל קריירה מספקת. למרות הלחץ, בנית צוות שמשגשג, ובכך הוכחת שביטחון גדל דרך מעשה. מכאן העצה שלי: רדפי אחרי מה שמפחיד אותך.
+
+
+      זכרי את המנטור שלך, שהאמין בך בכל הלב. זכרי את בן, שסמך עליך בהעברת המקל. וזכרי את המשפחה שלך, שחיכתה לך בבית.
+
+
+      ובכל זאת, שמרי דבר אחד: לעולם אל תפסיקי ללמוד. האנגלית שהתקשית בה בתחילת הדרך היא עכשיו גשר בין שני עולמות.
+
+
+      באהבה,
+
+      נועה
+
+      '
+  - id: u46-l5-02
+    type: multiple_choice
+    prompt: מה הכותבת חושבת על הדרך?
+    options:
+    - ארוכה אך מתגמלת
+    - קצרה וקלה
+    - מיותרת
+    correct: 0
+    lexemes:
+    - albeit
+  - id: u46-l5-03
+    type: multiple_choice
+    prompt: מה הכישלון לפי המכתב?
+    options:
+    - חלק מקריירה מספקת
+    - סוף הדרך
+    - סיבה לעזוב
+    correct: 0
+    lexemes:
+    - fulfilling
+  - id: u46-l5-04
+    type: multiple_choice
+    prompt: מה העצה של נועה לעצמה?
+    options:
+    - לרדוף אחרי מה שמפחיד
+    - להישאר במקום
+    - לוותר
+    correct: 0
+    lexemes:
+    - pursue
+  - id: u46-l5-05
+    type: multiple_choice
+    prompt: מה האנגלית הפכה להיות?
+    options:
+    - גשר בין שני עולמות
+    - מכשול
+    - תחביב
+    correct: 0
+    lexemes: []
+  - id: u46-l5-06
+    type: fill_blank
+    sentence: The path was long, ___ rewarding.
+    translation: הדרך הייתה ארוכה, אם כי מתגמלת.
+    answers:
+    - albeit
+    options:
+    - albeit
+    - whereas
+    - hence
+    lexemes:
+    - albeit
+  - id: u46-l5-07
+    type: fill_blank
+    sentence: ___ you feared failure, I now see it differently.
+    translation: בעוד שאת פחדת מכישלון, אני רואה את זה אחרת.
+    answers:
+    - Whereas
+    options:
+    - Whereas
+    - Albeit
+    - Hence
+    lexemes:
+    - whereas
+  - id: u46-l5-08
+    type: translate
+    direction: to_target
+    prompt: מכאן העצה שלי.
+    answers:
+    - Hence my advice.
+    - Hence, my advice.
+    - Hence my advice is this.
+    lexemes:
+    - hence
+- id: u46-review
+  kind: review
+  title:
+    he: 'חזרה: סוגרים מעגל'
+    en: 'Review: full circle'
+  exercises:
+  - id: u46-review-01
+    type: match_pairs
+    pairs:
+    - - albeit
+      - אם כי
+    - - notwithstanding
+      - למרות
+    - - whereas
+      - בעוד ש
+    - - hindsight
+      - ראייה לאחור
+    - - legacy
+      - מורשת
+    lexemes:
+    - albeit
+    - notwithstanding
+    - whereas
+    - hindsight
+    - legacy
+  - id: u46-review-02
+    type: fill_blank
+    sentence: ___ the cost, we decided to go ahead.
+    translation: למרות העלות, החלטנו להמשיך.
+    answers:
+    - Notwithstanding
+    options:
+    - Notwithstanding
+    - Whereas
+    - Hence
+    lexemes:
+    - notwithstanding
+  - id: u46-review-03
+    type: fill_blank
+    sentence: Much as I admire her, I ___ disagree.
+    translation: כמה שאני מעריך אותה, אני לא מסכים.
+    answers:
+    - must
+    options:
+    - must
+    - do
+    - am
+    lexemes: []
+  - id: u46-review-04
+    type: listening_choice
+    audioText: It was a small success, albeit an important one.
+    question: מה הדובר אומר?
+    options:
+    - שההצלחה קטנה אך חשובה
+    - שההצלחה גדולה
+    - שלא הייתה הצלחה
+    correct: 0
+    lexemes:
+    - albeit
+  - id: u46-review-05
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - However tired he was, he kept working.
+    - However he was tired, he kept working.
+    - However tired was he, he kept working.
+    correct: 0
+    lexemes: []
+  - id: u46-review-06
+    type: word_bank
+    prompt: בעוד ש־לונדון קרה, תל אביב חמה.
+    answers:
+    - Whereas London is cold, Tel Aviv is hot.
+    - Whereas London is cool, Tel Aviv is hot.
+    distractors:
+    - albeit
+    - hence
+    lexemes:
+    - whereas
+  - id: u46-review-07
+    type: translate
+    direction: to_target
+    prompt: הם התמידו, ובכך הצליחו.
+    answers:
+    - They persevered, thereby succeeding.
+    - They persisted, thereby succeeding.
+    lexemes:
+    - thereby
+  - id: u46-review-08
+    type: translate
+    direction: to_source
+    prompt: The work is fulfilling, albeit demanding.
+    answers:
+    - העבודה מספקת, אם כי תובענית.
+    - העבודה מספקת, אם כי מאתגרת.
+    lexemes:
+    - fulfilling
+    - albeit
+  - id: u46-review-09
+    type: dictation
+    text: Hindsight is a wonderful thing.
+    lexemes:
+    - hindsight
+  - id: u46-review-10
+    type: speak_repeat
+    text: I wholeheartedly recommend it.
+    translation: אני ממליצה על זה בכל הלב.
+    lexemes:
+    - wholeheartedly
+- id: c1-test
+  kind: test
+  title:
+    he: מבחן רמה C1
+    en: C1 level test
+  exercises:
+  - id: c1-test-01
+    type: fill_blank
+    sentence: Never ___ I seen such a motivated team.
+    translation: מעולם לא ראיתי צוות כל כך מלא מוטיבציה.
+    answers:
+    - have
+    options:
+    - have
+    - did
+    - had been
+    lexemes: []
+  - id: c1-test-02
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Not only did she lead the project, but she also trained the staff.
+    - Not only she led the project, but she also trained the staff.
+    - Not only did she led the project, but also she trained the staff.
+    correct: 0
+    lexemes:
+    - accountable
+  - id: c1-test-03
+    type: fill_blank
+    sentence: A team ___ when there is rapport.
+    translation: צוות משגשג כשיש קשר טוב.
+    answers:
+    - thrives
+    options:
+    - thrives
+    - retracts
+    - undermines
+    lexemes:
+    - thrive
+    - rapport
+  - id: c1-test-04
+    type: fill_blank
+    sentence: ___ worries me is the lack of evidence.
+    translation: מה שמדאיג אותי הוא חוסר הראיות.
+    answers:
+    - What
+    options:
+    - What
+    - That
+    - Which
+    lexemes: []
+  - id: c1-test-05
+    type: multiple_choice
+    prompt: מה פירוש 'misleading'?
+    options:
+    - מטעה
+    - מרגש
+    - מהיר
+    correct: 0
+    lexemes:
+    - misleading
+  - id: c1-test-06
+    type: translate
+    direction: to_target
+    prompt: חשוב שכל אחד יאמת את המידע.
+    answers:
+    - It is important that everyone verify the information.
+    - It is important that everybody verify the information.
+    - It is vital that everyone verify the information.
+    lexemes:
+    - verify
+  - id: c1-test-07
+    type: fill_blank
+    sentence: It is essential that he ___ present.
+    translation: חיוני שהוא יהיה נוכח.
+    answers:
+    - be
+    options:
+    - be
+    - is
+    - will be
+    lexemes: []
+  - id: c1-test-08
+    type: fill_blank
+    sentence: ___ you need help, please call us.
+    translation: אם תצטרכו עזרה, אנא התקשרו.
+    answers:
+    - Should
+    options:
+    - Should
+    - Would
+    - Did
+    lexemes: []
+  - id: c1-test-09
+    type: multiple_choice
+    prompt: מה פירוש 'breach'?
+    options:
+    - הפרה
+    - פיצוי
+    - סעיף
+    correct: 0
+    lexemes:
+    - breach
+  - id: c1-test-10
+    type: listening_choice
+    audioText: The two companies signed a binding agreement.
+    question: מה הדובר אומר?
+    options:
+    - שהחברות חתמו על הסכם מחייב
+    - שהחברות התמזגו
+    - שההסכם בוטל
+    correct: 0
+    lexemes:
+    - binding
+  - id: c1-test-11
+    type: fill_blank
+    sentence: Remote workers ___ to feel more independent.
+    translation: עובדים מרחוק נוטים להרגיש עצמאיים יותר.
+    answers:
+    - tend
+    options:
+    - tend
+    - tends
+    - tending
+    lexemes: []
+  - id: c1-test-12
+    type: multiple_choice
+    prompt: איזה משפט זהיר יותר?
+    options:
+    - The data suggest a link.
+    - The data prove a link.
+    - The data are a link.
+    correct: 0
+    lexemes:
+    - imply
+  - id: c1-test-13
+    type: word_bank
+    prompt: הייתה ירידה חדה במכירות.
+    answers:
+    - There was a sharp decline in sales.
+    - There was a sharp decline in the sales.
+    distractors:
+    - of
+    - fall
+    lexemes:
+    - decline
+  - id: c1-test-14
+    type: fill_blank
+    sentence: We have to put the decision ___ until Sunday.
+    translation: צריך לדחות את ההחלטה ליום ראשון.
+    answers:
+    - 'off'
+    options:
+    - 'off'
+    - away
+    - over
+    lexemes:
+    - put-off
+  - id: c1-test-15
+    type: multiple_choice
+    prompt: מה פירוש 'break the ice'?
+    options:
+    - להפיג מבוכה בתחילת שיחה
+    - לשבור משהו
+    - להתקרר
+    correct: 0
+    lexemes:
+    - break-the-ice
+  - id: c1-test-16
+    type: translate
+    direction: to_target
+    prompt: הם חזרו לנקודת ההתחלה.
+    answers:
+    - They are back to square one.
+    - They were back to square one.
+    - They went back to square one.
+    lexemes:
+    - square-one
+  - id: c1-test-17
+    type: fill_blank
+    sentence: It was a good result, ___ a small one.
+    translation: זו הייתה תוצאה טובה, אם כי קטנה.
+    answers:
+    - albeit
+    options:
+    - albeit
+    - whereas
+    - hence
+    lexemes:
+    - albeit
+  - id: c1-test-18
+    type: fill_blank
+    sentence: ___ the delay, the event was a success.
+    translation: למרות העיכוב, האירוע הצליח.
+    answers:
+    - Notwithstanding
+    options:
+    - Notwithstanding
+    - Whereas
+    - Hence
+    lexemes:
+    - notwithstanding
+  - id: c1-test-19
+    type: dictation
+    text: Hindsight is a wonderful thing.
+    lexemes:
+    - hindsight
+  - id: c1-test-20
+    type: translate
+    direction: to_source
+    prompt: However hard she tried, she could not persuade him.
+    answers:
+    - ככל שניסתה, היא לא הצליחה לשכנע אותו.
+    - לא משנה כמה ניסתה, היא לא הצליחה לשכנע אותו.
+    lexemes: []

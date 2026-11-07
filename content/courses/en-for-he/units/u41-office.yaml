@@ -1,0 +1,773 @@
+id: u41-office
+cefr: C1
+scene: work
+title:
+  he: המשרד החדש
+  en: The new office
+story: נועה חזרה לתל אביב ומנהלת את המשרד החדש. היא לומדת שפה של ניהול, הובלת צוות ושיחות עם בעלי עניין, ומשתמשת במבנים מודגשים כמו Never have I…
+canDo:
+- לדבר על ניהול, האצלת סמכויות ואבני דרך
+- להדגיש רעיון בעזרת היפוך (Not only… but also, Rarely does…)
+- לנהל שיחה מקצועית עם צוות ובעלי עניין
+- לקרוא ולכתוב דוח קצר בשפה מקצועית
+vocabulary:
+- id: delegate
+  text: delegate
+  translation: להאציל סמכויות
+  pos: verb
+  example:
+    text: A good manager knows when to delegate.
+    translation: מנהל טוב יודע מתי להאציל סמכויות.
+- id: stakeholder
+  text: stakeholder
+  translation: בעל עניין
+  pos: noun
+- id: milestone
+  text: milestone
+  translation: אבן דרך
+  pos: noun
+- id: accountable
+  text: accountable
+  translation: אחראי (ונדרש לתת דין וחשבון)
+  pos: adjective
+- id: streamline
+  text: streamline
+  translation: לייעל
+  pos: verb
+- id: setback
+  text: setback
+  translation: מכשול, נסיגה
+  pos: noun
+- id: thrive
+  text: thrive
+  translation: לשגשג
+  pos: verb
+- id: undertake
+  text: undertake
+  translation: לקחת על עצמו (משימה)
+  pos: verb
+- id: consensus
+  text: consensus
+  translation: הסכמה כללית
+  pos: noun
+- id: rapport
+  text: rapport
+  translation: הבנה וקשר טוב
+  pos: noun
+- id: pitfall
+  text: pitfall
+  translation: מלכודת, קושי נסתר
+  pos: noun
+- id: leverage
+  text: leverage
+  translation: לנצל, להשתמש ביתרון
+  pos: verb
+- id: scalable
+  text: scalable
+  translation: ניתן להרחבה
+  pos: adjective
+- id: onboarding
+  text: onboarding
+  translation: קליטת עובדים חדשים
+  pos: noun
+- id: overhaul
+  text: overhaul
+  translation: שינוי יסודי
+  pos: noun
+- id: bandwidth
+  text: bandwidth
+  translation: פניוּת, יכולת לקחת עוד משימות
+  pos: noun
+grammar:
+- id: inversion
+  title:
+    he: היפוך להדגשה
+    en: Inversion for emphasis
+  explanation: 'כשפותחים משפט במילה שלילית או מגבילה, **הפועל העזר קופץ לפני הנושא**, כמו בשאלה. זה נשמע רשמי ומדגיש:
+
+
+    - "**Never** have I seen such a fast team. (במקום: I have never seen…)"
+
+    - **Rarely** does she miss a deadline.
+
+    - **Not only** did we finish early, **but** we also saved money.
+
+    - **Hardly** had we started **when** the phone rang.
+
+    - **No sooner** had he left **than** it began to rain.
+
+    - **Only after** the meeting did I understand the problem.
+
+
+    אם אין פועל עזר, מוסיפים do/does/did: *Rarely **does** she…* בעברית הסדר נשאר רגיל ("לעולם לא ראיתי"), ובאנגלית ההיפוך הוא כלי סגנוני שמופיע במבחנים ובנאומים.'
+  examples:
+  - text: Never have I worked with such a motivated team.
+    translation: מעולם לא עבדתי עם צוות כל כך מוטיבציה.
+  - text: Not only did she lead the project, but she also trained the new staff.
+    translation: היא לא רק הובילה את הפרויקט, אלא גם הכשירה את העובדים החדשים.
+  - text: Hardly had the meeting started when the power went out.
+    translation: בקושי התחילה הפגישה והחשמל נפל.
+lessons:
+- id: u41-l1
+  kind: new
+  title:
+    he: מנהלת משרד
+    en: Running an office
+  exercises:
+  - id: u41-l1-01
+    type: dialogue
+    scene: היום הראשון במשרד החדש בתל אביב.
+    lines:
+    - speaker: noa
+      text: Welcome to the new office, everyone. Our first milestone is the product launch in March.
+      translation: ברוכים הבאים למשרד החדש. אבן הדרך הראשונה שלנו היא השקת המוצר במרץ.
+    - speaker: eli
+      text: Who will be accountable for the budget?
+      translation: מי יהיה אחראי על התקציב?
+    - speaker: noa
+      text: I will. But I plan to delegate the daily work, because I can't do everything myself.
+      translation: אני. אבל אני מתכננת להאציל את העבודה היומיומית, כי אני לא יכולה לעשות הכול בעצמי.
+    - speaker: eli
+      text: And the stakeholders in London?
+      translation: ומה עם בעלי העניין בלונדון?
+    - speaker: noa
+      text: Ben will keep them informed. Our job is to streamline the process and avoid setbacks.
+      translation: בן יעדכן אותם. התפקיד שלנו הוא לייעל את התהליך ולמנוע מכשולים.
+    - speaker: miriam
+      text: Never have I seen a team start with so much energy.
+      translation: מעולם לא ראיתי צוות שמתחיל עם כל כך הרבה אנרגיה.
+  - id: u41-l1-02
+    type: learn
+    lexeme: delegate
+  - id: u41-l1-03
+    type: learn
+    lexeme: stakeholder
+  - id: u41-l1-04
+    type: learn
+    lexeme: milestone
+  - id: u41-l1-05
+    type: learn
+    lexeme: accountable
+  - id: u41-l1-06
+    type: learn
+    lexeme: streamline
+  - id: u41-l1-07
+    type: learn
+    lexeme: setback
+  - id: u41-l1-08
+    type: match_pairs
+    pairs:
+    - - delegate
+      - להאציל
+    - - stakeholder
+      - בעל עניין
+    - - milestone
+      - אבן דרך
+    - - accountable
+      - אחראי
+    - - streamline
+      - לייעל
+    lexemes:
+    - delegate
+    - stakeholder
+    - milestone
+    - accountable
+    - streamline
+  - id: u41-l1-09
+    type: multiple_choice
+    prompt: מה אבן הדרך הראשונה של המשרד?
+    options:
+    - השקת המוצר במרץ
+    - פתיחת סניף בלונדון
+    - גיוס עשרה עובדים
+    correct: 0
+    lexemes:
+    - milestone
+  - id: u41-l1-10
+    type: multiple_choice
+    prompt: מי אחראי על התקציב?
+    options:
+    - נועה
+    - אלי
+    - בן
+    correct: 0
+    lexemes:
+    - accountable
+  - id: u41-l1-11
+    type: listening_choice
+    audioText: I plan to delegate the daily work.
+    question: מה נועה מתכננת?
+    options:
+    - להאציל את העבודה היומיומית
+    - לעשות הכול בעצמה
+    - לעזוב את המשרד
+    correct: 0
+    lexemes:
+    - delegate
+  - id: u41-l1-12
+    type: word_bank
+    prompt: אני אחראית על התקציב.
+    answers:
+    - I am accountable for the budget.
+    - I'm accountable for the budget.
+    distractors:
+    - accountably
+    - are
+    lexemes:
+    - accountable
+  - id: u41-l1-13
+    type: translate
+    direction: to_target
+    prompt: אנחנו רוצים לייעל את התהליך.
+    answers:
+    - We want to streamline the process.
+    - We would like to streamline the process.
+    lexemes:
+    - streamline
+  - id: u41-l1-14
+    type: speak_repeat
+    text: Our first milestone is the launch in March.
+    translation: אבן הדרך הראשונה שלנו היא ההשקה במרץ.
+    lexemes:
+    - milestone
+- id: u41-l2
+  kind: new
+  title:
+    he: צוות ואמון
+    en: Team and trust
+  exercises:
+  - id: u41-l2-01
+    type: learn
+    lexeme: thrive
+  - id: u41-l2-02
+    type: learn
+    lexeme: undertake
+  - id: u41-l2-03
+    type: learn
+    lexeme: consensus
+  - id: u41-l2-04
+    type: learn
+    lexeme: rapport
+  - id: u41-l2-05
+    type: learn
+    lexeme: pitfall
+  - id: u41-l2-06
+    type: learn
+    lexeme: leverage
+  - id: u41-l2-07
+    type: dialogue
+    scene: ישיבת צוות ראשונה.
+    lines:
+    - speaker: noa
+      text: Before we undertake anything big, I'd like us to reach a consensus.
+      translation: לפני שניקח על עצמנו משהו גדול, הייתי רוצה שנגיע להסכמה.
+    - speaker: eli
+      text: Agreed. The biggest pitfall is moving too fast.
+      translation: מסכים. המלכודת הגדולה ביותר היא להתקדם מהר מדי.
+    - speaker: miriam
+      text: We can leverage Ben's experience from London.
+      translation: אפשר לנצל את הניסיון של בן מלונדון.
+    - speaker: noa
+      text: Good idea. A team thrives when there is real rapport between people.
+      translation: רעיון טוב. צוות משגשג כשיש קשר אמיתי בין האנשים.
+    - speaker: eli
+      text: So, who wants coffee? Rapport starts in the kitchen!
+      translation: אז מי רוצה קפה? הקשר מתחיל במטבח!
+  - id: u41-l2-08
+    type: match_pairs
+    pairs:
+    - - thrive
+      - לשגשג
+    - - undertake
+      - לקחת על עצמו
+    - - consensus
+      - הסכמה כללית
+    - - rapport
+      - קשר טוב
+    - - pitfall
+      - מלכודת
+    lexemes:
+    - thrive
+    - undertake
+    - consensus
+    - rapport
+    - pitfall
+  - id: u41-l2-09
+    type: multiple_choice
+    prompt: מה לדעת נועה גורם לצוות לשגשג?
+    options:
+    - קשר טוב בין האנשים
+    - שכר גבוה
+    - פגישות ארוכות
+    correct: 0
+    lexemes:
+    - thrive
+    - rapport
+  - id: u41-l2-10
+    type: multiple_choice
+    prompt: מהי המלכודת הגדולה ביותר לפי אלי?
+    options:
+    - להתקדם מהר מדי
+    - להאציל יותר מדי
+    - לדבר עם לונדון
+    correct: 0
+    lexemes:
+    - pitfall
+  - id: u41-l2-11
+    type: dialogue_gap
+    lines:
+    - speaker: noa
+      text: Do we all agree on the plan?
+      translation: כולנו מסכימים על התוכנית?
+    - speaker: eli
+      text: Yes, I think we have reached a consensus.
+      translation: כן, אני חושב שהגענו להסכמה.
+    gap: 1
+    distractors:
+    - Yes, I think we have reach a consensus.
+    - Yes, I think we are reaching consensus a.
+    lexemes:
+    - consensus
+  - id: u41-l2-12
+    type: translate
+    direction: to_target
+    prompt: צוות משגשג כשיש אמון.
+    answers:
+    - A team thrives when there is trust.
+    - A team thrives when there's trust.
+    - Teams thrive when there is trust.
+    lexemes:
+    - thrive
+  - id: u41-l2-13
+    type: translate
+    direction: to_source
+    prompt: We should leverage our experience.
+    answers:
+    - אנחנו צריכים לנצל את הניסיון שלנו.
+    - כדאי שננצל את הניסיון שלנו.
+    lexemes:
+    - leverage
+  - id: u41-l2-14
+    type: speak_repeat
+    text: A team thrives when there is real rapport.
+    translation: צוות משגשג כשיש קשר אמיתי.
+    lexemes:
+    - thrive
+    - rapport
+- id: u41-l3
+  kind: grammar
+  title:
+    he: היפוך להדגשה
+    en: Inversion
+  grammar: inversion
+  exercises:
+  - id: u41-l3-01
+    type: learn
+    lexeme: scalable
+  - id: u41-l3-02
+    type: learn
+    lexeme: onboarding
+  - id: u41-l3-03
+    type: learn
+    lexeme: overhaul
+  - id: u41-l3-04
+    type: learn
+    lexeme: bandwidth
+  - id: u41-l3-05
+    type: fill_blank
+    sentence: Never ___ I seen such a fast team.
+    translation: מעולם לא ראיתי צוות כל כך מהיר.
+    answers:
+    - have
+    options:
+    - have
+    - did
+    - had been
+    lexemes: []
+  - id: u41-l3-06
+    type: fill_blank
+    sentence: Rarely ___ she miss a deadline.
+    translation: לעיתים נדירות היא מפספסת מועד.
+    answers:
+    - does
+    options:
+    - does
+    - has
+    - is
+    lexemes: []
+  - id: u41-l3-07
+    type: fill_blank
+    sentence: Not only did we finish early, ___ we also saved money.
+    translation: לא רק שסיימנו מוקדם, אלא גם חסכנו כסף.
+    answers:
+    - but
+    options:
+    - but
+    - and
+    - than
+    lexemes: []
+  - id: u41-l3-08
+    type: fill_blank
+    sentence: Hardly had we started ___ the phone rang.
+    translation: בקושי התחלנו והטלפון צלצל.
+    answers:
+    - when
+    options:
+    - when
+    - than
+    - that
+    lexemes: []
+  - id: u41-l3-09
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Rarely does she complain.
+    - Rarely she complains.
+    - Rarely does she complains.
+    correct: 0
+    lexemes: []
+  - id: u41-l3-10
+    type: multiple_choice
+    prompt: מה פירוש No sooner had he left than it rained?
+    options:
+    - ברגע שהוא יצא התחיל גשם
+    - הוא יצא אחרי הגשם
+    - הוא לא יצא בגלל הגשם
+    correct: 0
+    lexemes: []
+  - id: u41-l3-11
+    type: word_bank
+    prompt: לעולם לא עבדתי עם צוות כזה.
+    answers:
+    - Never have I worked with such a team.
+    distractors:
+    - did
+    - worked have
+    lexemes: []
+  - id: u41-l3-12
+    type: translate
+    direction: to_target
+    prompt: רק אחרי הפגישה הבנתי את הבעיה.
+    answers:
+    - Only after the meeting did I understand the problem.
+    - Only after the meeting I understood the problem.
+    lexemes: []
+  - id: u41-l3-13
+    type: translate
+    direction: to_source
+    prompt: Not only did she lead the project, but she also trained the staff.
+    answers:
+    - היא לא רק הובילה את הפרויקט, אלא גם הכשירה את הצוות.
+    lexemes: []
+  - id: u41-l3-14
+    type: dictation
+    text: Never have I seen such an efficient team.
+    lexemes: []
+  - id: u41-l3-15
+    type: translate
+    direction: to_target
+    prompt: התוכנית ניתנת להרחבה.
+    answers:
+    - The plan is scalable.
+    - The plan is scaleable.
+    lexemes:
+    - scalable
+  - id: u41-l3-16
+    type: translate
+    direction: to_target
+    prompt: אין לי פניוּת לעוד פרויקט.
+    answers:
+    - I don't have the bandwidth for another project.
+    - I do not have the bandwidth for another project.
+    - I don't have enough bandwidth for another project.
+    lexemes:
+    - bandwidth
+- id: u41-l4
+  kind: listening
+  title:
+    he: שיחת הצוות
+    en: Team call
+  exercises:
+  - id: u41-l4-01
+    type: dialogue
+    scene: שיחת וידאו עם בן בלונדון.
+    lines:
+    - speaker: ben
+      text: How is the onboarding going? Have the new hires settled in?
+      translation: איך הולכת קליטת העובדים? העובדים החדשים השתלבו?
+    - speaker: noa
+      text: Better than expected. Not only have they learned the system, but they have also suggested improvements.
+      translation: טוב מהצפוי. הם לא רק למדו את המערכת, אלא גם הציעו שיפורים.
+    - speaker: ben
+      text: Impressive. What about the overhaul of the reporting process?
+      translation: מרשים. ומה עם השינוי היסודי בתהליך הדיווח?
+    - speaker: noa
+      text: Rarely do I say this, but we are ahead of schedule.
+      translation: לעיתים נדירות אני אומרת את זה, אבל אנחנו לפני לוח הזמנים.
+    - speaker: ben
+      text: Then let's make sure the new process is scalable before we celebrate.
+      translation: אז בואו נוודא שהתהליך החדש ניתן להרחבה לפני שחוגגים.
+  - id: u41-l4-02
+    type: multiple_choice
+    prompt: איך הולכת קליטת העובדים?
+    options:
+    - טוב מהצפוי
+    - גרוע מהצפוי
+    - עוד לא התחילה
+    correct: 0
+    lexemes:
+    - onboarding
+  - id: u41-l4-03
+    type: multiple_choice
+    prompt: מה בן מבקש לוודא?
+    options:
+    - שהתהליך החדש ניתן להרחבה
+    - שכולם חוגגים
+    - שנועה חוזרת ללונדון
+    correct: 0
+    lexemes:
+    - scalable
+  - id: u41-l4-04
+    type: listening_choice
+    audioText: Rarely do I say this, but we are ahead of schedule.
+    question: מה הדובר אומר?
+    options:
+    - שהם לפני לוח הזמנים
+    - שהם מאחרים
+    - שהוא לא יודע
+    correct: 0
+    lexemes: []
+  - id: u41-l4-05
+    type: dictation
+    text: Not only have they learned the system, but they have also suggested improvements.
+    lexemes:
+    - onboarding
+  - id: u41-l4-06
+    type: translate
+    direction: to_target
+    prompt: הקליטה של העובדים החדשים הצליחה.
+    answers:
+    - The onboarding of the new employees was successful.
+    - The onboarding of the new staff was successful.
+    - The onboarding of the new hires was successful.
+    lexemes:
+    - onboarding
+  - id: u41-l4-07
+    type: speak_repeat
+    text: Rarely do I say this, but we are ahead of schedule.
+    translation: לעיתים נדירות אני אומרת את זה, אבל אנחנו לפני לוח הזמנים.
+    lexemes: []
+- id: u41-l5
+  kind: reading
+  title:
+    he: דוח רבעוני
+    en: The quarterly report
+  exercises:
+  - id: u41-l5-01
+    type: reading
+    kind: דוח קצר
+    title: 'Tel Aviv office: first quarter report'
+    text: 'The Tel Aviv office has completed its first quarter, and the results exceed our expectations.
+
+
+      Not only did the team reach the first milestone ahead of schedule, but it also built strong relationships with every stakeholder. Responsibility was shared clearly: each manager was accountable for one area, and daily tasks were delegated to team members. Consequently, no one was overloaded.
+
+
+      There were setbacks, of course. Rarely does a new office avoid pitfalls, and ours was no exception: the first version of the onboarding process took too long. After an overhaul, new employees now become productive in two weeks instead of six.
+
+
+      Looking ahead, our priority is to keep the process scalable. If the team continues to thrive, we will need more bandwidth, and we recommend hiring three more people.
+
+      '
+    translation: 'משרד תל אביב סיים את הרבעון הראשון שלו, והתוצאות עולות על הציפיות.
+
+
+      הצוות לא רק הגיע לאבן הדרך הראשונה לפני הזמן, אלא גם בנה קשרים חזקים עם כל בעלי העניין. האחריות חולקה בבירור: כל מנהל היה אחראי על תחום אחד, ומשימות יומיומיות הואצלו לחברי הצוות. כתוצאה מכך איש לא היה עמוס יתר על המידה.
+
+
+      היו גם מכשולים, כמובן. לעיתים נדירות משרד חדש נמנע ממלכודות, והמשרד שלנו לא היה יוצא דופן: הגרסה הראשונה של תהליך קליטת העובדים נמשכה זמן רב מדי. אחרי שינוי יסודי, עובדים חדשים הופכים עכשיו לפרודוקטיביים בשבועיים במקום בשישה.
+
+
+      מבט קדימה: העדיפות שלנו היא לשמור על תהליך שניתן להרחבה. אם הצוות ימשיך לשגשג, נזדקק ליותר פניוּת, ואנחנו ממליצים לגייס שלושה אנשים נוספים.
+
+      '
+  - id: u41-l5-02
+    type: multiple_choice
+    prompt: מה הדוח אומר על אבן הדרך הראשונה?
+    options:
+    - הושגה לפני הזמן
+    - הושגה באיחור
+    - בוטלה
+    correct: 0
+    lexemes:
+    - milestone
+  - id: u41-l5-03
+    type: multiple_choice
+    prompt: מה הבעיה בגרסה הראשונה של תהליך הקליטה?
+    options:
+    - הוא לקח יותר מדי זמן
+    - הוא היה יקר
+    - אף אחד לא השתמש בו
+    correct: 0
+    lexemes:
+    - onboarding
+  - id: u41-l5-04
+    type: multiple_choice
+    prompt: כמה זמן לוקח היום לעובד חדש להיות פרודוקטיבי?
+    options:
+    - שבועיים
+    - שישה שבועות
+    - חודש
+    correct: 0
+    lexemes:
+    - overhaul
+  - id: u41-l5-05
+    type: multiple_choice
+    prompt: מה הצוות ממליץ לעשות בהמשך?
+    options:
+    - לגייס שלושה אנשים
+    - לסגור את המשרד
+    - להפסיק את הפרויקט
+    correct: 0
+    lexemes:
+    - bandwidth
+  - id: u41-l5-06
+    type: fill_blank
+    sentence: Not only ___ the team finish early, but it also saved money.
+    translation: הצוות לא רק סיים מוקדם, אלא גם חסך כסף.
+    answers:
+    - did
+    options:
+    - did
+    - has
+    - was
+    lexemes: []
+  - id: u41-l5-07
+    type: fill_blank
+    sentence: ___ does a new office avoid every pitfall.
+    translation: לעיתים נדירות משרד חדש נמנע מכל המלכודות.
+    answers:
+    - Rarely
+    options:
+    - Rarely
+    - Always
+    - Often
+    lexemes:
+    - pitfall
+  - id: u41-l5-08
+    type: translate
+    direction: to_target
+    prompt: כל מנהל היה אחראי על תחום אחד.
+    answers:
+    - Each manager was accountable for one area.
+    - Every manager was accountable for one area.
+    lexemes:
+    - accountable
+- id: u41-review
+  kind: review
+  title:
+    he: 'חזרה: המשרד החדש'
+    en: 'Review: the new office'
+  exercises:
+  - id: u41-review-01
+    type: match_pairs
+    pairs:
+    - - delegate
+      - להאציל
+    - - setback
+      - מכשול
+    - - consensus
+      - הסכמה כללית
+    - - leverage
+      - לנצל
+    - - overhaul
+      - שינוי יסודי
+    lexemes:
+    - delegate
+    - setback
+    - consensus
+    - leverage
+    - overhaul
+  - id: u41-review-02
+    type: fill_blank
+    sentence: A manager must ___ some tasks to the team.
+    translation: מנהל חייב להאציל משימות לצוות.
+    answers:
+    - delegate
+    options:
+    - delegate
+    - undertake
+    - thrive
+    lexemes:
+    - delegate
+  - id: u41-review-03
+    type: fill_blank
+    sentence: Never ___ I met such a helpful stakeholder.
+    translation: מעולם לא פגשתי בעל עניין כל כך מועיל.
+    answers:
+    - have
+    options:
+    - have
+    - did
+    - am
+    lexemes:
+    - stakeholder
+  - id: u41-review-04
+    type: listening_choice
+    audioText: Not only did we finish early, but we also saved money.
+    question: מה קרה?
+    options:
+    - סיימו מוקדם וגם חסכו כסף
+    - איחרו וחרגו מהתקציב
+    - ביטלו את הפרויקט
+    correct: 0
+    lexemes: []
+  - id: u41-review-05
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Hardly had we arrived when it began to rain.
+    - Hardly we had arrived when it began to rain.
+    - Hardly had we arrived than it began to rain.
+    correct: 0
+    lexemes: []
+  - id: u41-review-06
+    type: word_bank
+    prompt: רק אחרי הפגישה הבנו את הבעיה.
+    answers:
+    - Only after the meeting did we understand the problem.
+    distractors:
+    - we did
+    - understood
+    lexemes: []
+  - id: u41-review-07
+    type: translate
+    direction: to_target
+    prompt: אני אחראי על הצוות.
+    answers:
+    - I am accountable for the team.
+    - I'm accountable for the team.
+    - I am responsible for the team.
+    lexemes:
+    - accountable
+  - id: u41-review-08
+    type: translate
+    direction: to_source
+    prompt: A good team thrives on rapport.
+    answers:
+    - צוות טוב משגשג על קשר טוב.
+    - צוות טוב משגשג בזכות קשר טוב.
+    lexemes:
+    - thrive
+    - rapport
+  - id: u41-review-09
+    type: dictation
+    text: Rarely does she miss a milestone.
+    lexemes:
+    - milestone
+  - id: u41-review-10
+    type: speak_repeat
+    text: Not only did we reach the milestone, but we also saved money.
+    translation: לא רק הגענו לאבן הדרך, אלא גם חסכנו כסף.
+    lexemes:
+    - milestone

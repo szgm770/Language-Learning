@@ -1,0 +1,774 @@
+id: u44-ideas
+cefr: C1
+scene: study
+title:
+  he: רעיונות גדולים
+  en: Big ideas
+story: 'נועה מוזמנת להרצות באוניברסיטה על עבודה מרחוק. היא לומדת לדבר בזהירות אקדמית: לטעון בלי להגזים, להציג מגמות ולהשתמש בשמות עצם מופשטים.'
+canDo:
+- לדבר על מגמות, ראיות ומסקנות בשפה אקדמית
+- להשתמש בזהירות מילולית (tend to, it appears that, arguably)
+- להמיר פעלים לשמות עצם (decide → decision, grow → growth)
+- לקרוא ולסכם טיעון כתוב
+vocabulary:
+- id: hypothesis
+  text: hypothesis
+  translation: השערה
+  pos: noun
+- id: phenomenon
+  text: phenomenon
+  translation: תופעה
+  pos: noun
+- id: correlation
+  text: correlation
+  translation: מתאם, קשר סטטיסטי
+  pos: noun
+- id: imply
+  text: imply
+  translation: לרמוז, להצביע על
+  pos: verb
+- id: substantial
+  text: substantial
+  translation: משמעותי, ניכר
+  pos: adjective
+- id: contradict
+  text: contradict
+  translation: לסתור
+  pos: verb
+- id: undermine
+  text: undermine
+  translation: לקעקע, לערער
+  pos: verb
+- id: advocate
+  text: advocate
+  translation: לתמוך ב־, לדגול ב־
+  pos: verb
+- id: reinforce
+  text: reinforce
+  translation: לחזק
+  pos: verb
+- id: inevitable
+  text: inevitable
+  translation: בלתי נמנע
+  pos: adjective
+- id: sceptical
+  text: sceptical
+  translation: ספקני
+  pos: adjective
+- id: arguably
+  text: arguably
+  translation: ניתן לטעון ש־
+  pos: adverb
+- id: trend
+  text: trend
+  translation: מגמה
+  pos: noun
+- id: decline
+  text: decline
+  translation: ירידה, שקיעה
+  pos: noun
+- id: surge
+  text: surge
+  translation: זינוק, עלייה חדה
+  pos: noun
+- id: conclusive
+  text: conclusive
+  translation: חד־משמעי, מכריע
+  pos: adjective
+grammar:
+- id: hedging
+  title:
+    he: זהירות אקדמית ושמות עצם מופשטים
+    en: Hedging and nominalisation
+  explanation: 'באנגלית אקדמית נמנעים מטענות מוחלטות. משתמשים ב**מרככים (hedging)**:
+
+    - **tend to** – *Remote workers tend to be more productive.*
+
+    - **It appears / seems that…** – *It appears that the trend is growing.*
+
+    - **may / might / could** ו־**arguably**, **to some extent**, **in most cases**
+
+    - "**suggest** במקום prove: *The data suggest a link.*"
+
+
+    כדי להישמע מקצועי הופכים **פעלים לשמות עצם** (nominalisation) ומקבלים משפט צפוף יותר:
+
+    - *Prices rose sharply.* → **The sharp rise in prices** surprised everyone.
+
+    - *They decided quickly.* → **Their quick decision** helped.
+
+    - *Companies grow.* → **The growth of companies** continues.
+
+
+    שימו לב לתוספות: *a rise **in***, *a decline **in***, *an increase **in***.'
+  examples:
+  - text: Remote work tends to improve concentration.
+    translation: עבודה מרחוק נוטה לשפר ריכוז.
+  - text: The sharp rise in prices surprised everyone.
+    translation: העלייה החדה במחירים הפתיעה את כולם.
+  - text: Arguably, the results are not conclusive.
+    translation: ניתן לטעון שהתוצאות אינן חד־משמעיות.
+lessons:
+- id: u44-l1
+  kind: new
+  title:
+    he: הרצאת אורח
+    en: The guest lecture
+  exercises:
+  - id: u44-l1-01
+    type: dialogue
+    scene: אחרי ההרצאה באוניברסיטה.
+    lines:
+    - speaker: david
+      text: Dr. Levy, you said remote work improves productivity. Is that proven?
+      translation: ד"ר לוי, אמרת שעבודה מרחוק משפרת פריון. האם זה הוכח?
+    - speaker: noa
+      text: Not conclusively. The data imply a link, but a correlation is not proof.
+      translation: לא באופן חד־משמעי. הנתונים מצביעים על קשר, אבל מתאם אינו הוכחה.
+    - speaker: david
+      text: So your hypothesis could be wrong?
+      translation: אז ההשערה שלך עלולה להיות שגויה?
+    - speaker: noa
+      text: Of course. I am sceptical of any claim that sounds too simple. It is a complex phenomenon.
+      translation: בוודאי. אני ספקנית כלפי כל טענה שנשמעת פשוטה מדי. זו תופעה מורכבת.
+    - speaker: david
+      text: And the substantial increase in remote jobs?
+      translation: ומה לגבי העלייה המשמעותית במשרות מרחוק?
+    - speaker: noa
+      text: That trend is real. Whether it will continue is another question.
+      translation: המגמה הזאת אמיתית. אם היא תימשך זו שאלה אחרת.
+  - id: u44-l1-02
+    type: learn
+    lexeme: hypothesis
+  - id: u44-l1-03
+    type: learn
+    lexeme: phenomenon
+  - id: u44-l1-04
+    type: learn
+    lexeme: correlation
+  - id: u44-l1-05
+    type: learn
+    lexeme: imply
+  - id: u44-l1-06
+    type: learn
+    lexeme: substantial
+  - id: u44-l1-07
+    type: learn
+    lexeme: sceptical
+  - id: u44-l1-08
+    type: match_pairs
+    pairs:
+    - - hypothesis
+      - השערה
+    - - phenomenon
+      - תופעה
+    - - correlation
+      - מתאם
+    - - imply
+      - להצביע על
+    - - substantial
+      - משמעותי
+    lexemes:
+    - hypothesis
+    - phenomenon
+    - correlation
+    - imply
+    - substantial
+  - id: u44-l1-09
+    type: multiple_choice
+    prompt: מה נועה אומרת על הקשר בין עבודה מרחוק לפריון?
+    options:
+    - שהוא לא הוכח באופן חד־משמעי
+    - שהוא הוכח
+    - שאין קשר בכלל
+    correct: 0
+    lexemes:
+    - correlation
+    - imply
+  - id: u44-l1-10
+    type: multiple_choice
+    prompt: איך נועה מגדירה את עצמה?
+    options:
+    - ספקנית כלפי טענות פשוטות
+    - תומכת בכל טענה
+    - לא מתעניינת
+    correct: 0
+    lexemes:
+    - sceptical
+  - id: u44-l1-11
+    type: listening_choice
+    audioText: A correlation is not proof.
+    question: מה הדובר אומר?
+    options:
+    - שמתאם אינו הוכחה
+    - שהכול הוכח
+    - שהנתונים חסרים
+    correct: 0
+    lexemes:
+    - correlation
+  - id: u44-l1-12
+    type: word_bank
+    prompt: זו תופעה מורכבת.
+    answers:
+    - It is a complex phenomenon.
+    - It's a complex phenomenon.
+    - This is a complex phenomenon.
+    distractors:
+    - phenomena
+    - are
+    lexemes:
+    - phenomenon
+  - id: u44-l1-13
+    type: translate
+    direction: to_target
+    prompt: יש לי השערה חדשה.
+    answers:
+    - I have a new hypothesis.
+    lexemes:
+    - hypothesis
+  - id: u44-l1-14
+    type: speak_repeat
+    text: A correlation is not proof.
+    translation: מתאם אינו הוכחה.
+    lexemes:
+    - correlation
+- id: u44-l2
+  kind: new
+  title:
+    he: טיעון וראיות
+    en: Argument and evidence
+  exercises:
+  - id: u44-l2-01
+    type: learn
+    lexeme: contradict
+  - id: u44-l2-02
+    type: learn
+    lexeme: undermine
+  - id: u44-l2-03
+    type: learn
+    lexeme: advocate
+  - id: u44-l2-04
+    type: learn
+    lexeme: reinforce
+  - id: u44-l2-05
+    type: learn
+    lexeme: inevitable
+  - id: u44-l2-06
+    type: learn
+    lexeme: conclusive
+  - id: u44-l2-07
+    type: dialogue
+    scene: דיון בסמינר.
+    lines:
+    - speaker: tamar
+      text: Some studies contradict your claim. They undermine the idea that offices are unnecessary.
+      translation: יש מחקרים שסותרים את הטענה שלך. הם מערערים את הרעיון שמשרדים מיותרים.
+    - speaker: noa
+      text: I don't advocate abolishing offices. I advocate flexibility.
+      translation: אני לא דוגלת בביטול משרדים. אני דוגלת בגמישות.
+    - speaker: tamar
+      text: Is change inevitable, then?
+      translation: אז שינוי הוא בלתי נמנע?
+    - speaker: noa
+      text: Arguably. Yet no study is fully conclusive, and each new result can reinforce or weaken our view.
+      translation: ניתן לטעון שכן. אבל אף מחקר אינו חד־משמעי לגמרי, וכל תוצאה חדשה יכולה לחזק או להחליש את הדעה שלנו.
+  - id: u44-l2-08
+    type: match_pairs
+    pairs:
+    - - contradict
+      - לסתור
+    - - undermine
+      - לערער
+    - - advocate
+      - לדגול
+    - - reinforce
+      - לחזק
+    - - inevitable
+      - בלתי נמנע
+    lexemes:
+    - contradict
+    - undermine
+    - advocate
+    - reinforce
+    - inevitable
+  - id: u44-l2-09
+    type: multiple_choice
+    prompt: מה נועה תומכת בו?
+    options:
+    - בגמישות
+    - בביטול משרדים
+    - בשינוי שם
+    correct: 0
+    lexemes:
+    - advocate
+  - id: u44-l2-10
+    type: multiple_choice
+    prompt: מה אפשר לומר על מחקרים לפי נועה?
+    options:
+    - אף מחקר אינו חד־משמעי לגמרי
+    - כולם נכונים
+    - כולם שגויים
+    correct: 0
+    lexemes:
+    - conclusive
+  - id: u44-l2-11
+    type: dialogue_gap
+    lines:
+    - speaker: tamar
+      text: Do you think the change will happen?
+      translation: את חושבת שהשינוי יקרה?
+    - speaker: noa
+      text: Arguably, it is inevitable.
+      translation: ניתן לטעון שהוא בלתי נמנע.
+    gap: 1
+    distractors:
+    - Arguable, it is inevitable.
+    - Arguably, it inevitable.
+    lexemes:
+    - inevitable
+  - id: u44-l2-12
+    type: translate
+    direction: to_target
+    prompt: המחקר הזה סותר את ההשערה.
+    answers:
+    - This study contradicts the hypothesis.
+    - The study contradicts the hypothesis.
+    - This research contradicts the hypothesis.
+    lexemes:
+    - contradict
+    - hypothesis
+  - id: u44-l2-13
+    type: translate
+    direction: to_source
+    prompt: The new results reinforce our view.
+    answers:
+    - התוצאות החדשות מחזקות את הדעה שלנו.
+    - התוצאות החדשות מחזקות את העמדה שלנו.
+    lexemes:
+    - reinforce
+  - id: u44-l2-14
+    type: speak_repeat
+    text: No study is fully conclusive.
+    translation: אף מחקר אינו חד־משמעי לגמרי.
+    lexemes:
+    - conclusive
+- id: u44-l3
+  kind: grammar
+  title:
+    he: זהירות אקדמית
+    en: Hedging
+  grammar: hedging
+  exercises:
+  - id: u44-l3-01
+    type: learn
+    lexeme: trend
+  - id: u44-l3-02
+    type: learn
+    lexeme: decline
+  - id: u44-l3-03
+    type: learn
+    lexeme: surge
+  - id: u44-l3-04
+    type: learn
+    lexeme: arguably
+  - id: u44-l3-05
+    type: fill_blank
+    sentence: Remote workers ___ to be more productive.
+    translation: עובדים מרחוק נוטים להיות פרודוקטיביים יותר.
+    answers:
+    - tend
+    options:
+    - tend
+    - tends
+    - are tending
+    lexemes: []
+  - id: u44-l3-06
+    type: fill_blank
+    sentence: It ___ that the trend is growing.
+    translation: נראה שהמגמה גוברת.
+    answers:
+    - appears
+    options:
+    - appears
+    - appear
+    - is appearing
+    lexemes:
+    - trend
+  - id: u44-l3-07
+    type: fill_blank
+    sentence: There was a sharp rise ___ prices.
+    translation: הייתה עלייה חדה במחירים.
+    answers:
+    - in
+    options:
+    - in
+    - of
+    - 'on'
+    lexemes: []
+  - id: u44-l3-08
+    type: fill_blank
+    sentence: The data ___ a link, but do not prove it.
+    translation: הנתונים מצביעים על קשר, אך אינם מוכיחים אותו.
+    answers:
+    - suggest
+    options:
+    - suggest
+    - prove
+    - confirm
+    lexemes:
+    - imply
+  - id: u44-l3-09
+    type: multiple_choice
+    prompt: איזה משפט זהיר יותר?
+    options:
+    - The results may indicate a link.
+    - The results prove a link.
+    - The results are a link.
+    correct: 0
+    lexemes: []
+  - id: u44-l3-10
+    type: multiple_choice
+    prompt: 'איזה שם עצם מתאים: They decided quickly.'
+    options:
+    - Their quick decision
+    - Their quickly decide
+    - Their decided quick
+    correct: 0
+    lexemes: []
+  - id: u44-l3-11
+    type: word_bank
+    prompt: הייתה ירידה חדה במכירות.
+    answers:
+    - There was a sharp decline in sales.
+    - There was a sharp decline in the sales.
+    distractors:
+    - of
+    - declined
+    lexemes:
+    - decline
+  - id: u44-l3-12
+    type: translate
+    direction: to_target
+    prompt: ניתן לטעון שהתוצאות אינן חד־משמעיות.
+    answers:
+    - Arguably, the results are not conclusive.
+    - Arguably, the results are inconclusive.
+    lexemes:
+    - arguably
+    - conclusive
+  - id: u44-l3-13
+    type: translate
+    direction: to_target
+    prompt: הייתה עלייה חדה בביקוש.
+    answers:
+    - There was a surge in demand.
+    - There was a sharp rise in demand.
+    - There was a sudden surge in demand.
+    lexemes:
+    - surge
+  - id: u44-l3-14
+    type: translate
+    direction: to_source
+    prompt: There is a growing trend towards remote work.
+    answers:
+    - יש מגמה גוברת לעבודה מרחוק.
+    - יש מגמה גדלה לעבודה מרחוק.
+    lexemes:
+    - trend
+  - id: u44-l3-15
+    type: dictation
+    text: Remote work tends to reduce stress.
+    lexemes: []
+- id: u44-l4
+  kind: listening
+  title:
+    he: תוצאות המחקר
+    en: Research results
+  exercises:
+  - id: u44-l4-01
+    type: dialogue
+    scene: הצגת ממצאים בכנס.
+    lines:
+    - speaker: noa
+      text: Our survey shows a substantial decline in commuting time.
+      translation: הסקר שלנו מראה ירידה משמעותית בזמן הנסיעה.
+    - speaker: noa
+      text: It appears that employees who work from home tend to feel more independent.
+      translation: נראה שעובדים שעובדים מהבית נוטים להרגיש עצמאיים יותר.
+    - speaker: noa
+      text: However, we saw a surge in loneliness among new staff, which undermines the simple picture.
+      translation: עם זאת, ראינו זינוק בבדידות אצל עובדים חדשים, מה שמערער את התמונה הפשוטה.
+    - speaker: noa
+      text: 'Our conclusion is cautious: the evidence suggests, but does not prove, that flexibility is beneficial.'
+      translation: 'המסקנה שלנו זהירה: הראיות מצביעות, אך לא מוכיחות, שגמישות מועילה.'
+  - id: u44-l4-02
+    type: multiple_choice
+    prompt: מה הסקר מראה על זמן הנסיעה?
+    options:
+    - ירידה משמעותית
+    - עלייה
+    - אין שינוי
+    correct: 0
+    lexemes:
+    - decline
+    - substantial
+  - id: u44-l4-03
+    type: multiple_choice
+    prompt: מה ראו אצל עובדים חדשים?
+    options:
+    - זינוק בבדידות
+    - זינוק בהכנסות
+    - ירידה בלחץ
+    correct: 0
+    lexemes:
+    - surge
+  - id: u44-l4-04
+    type: listening_choice
+    audioText: The evidence suggests, but does not prove, that flexibility is beneficial.
+    question: מהי המסקנה?
+    options:
+    - 'זהירה: מצביעה אך לא מוכיחה'
+    - 'מוחלטת: הכול הוכח'
+    - שלילית
+    correct: 0
+    lexemes:
+    - conclusive
+  - id: u44-l4-05
+    type: dictation
+    text: It appears that employees tend to feel more independent.
+    lexemes: []
+  - id: u44-l4-06
+    type: translate
+    direction: to_target
+    prompt: הראיות מצביעות על כך שהשינוי מועיל.
+    answers:
+    - The evidence suggests that the change is beneficial.
+    - The evidence suggests the change is beneficial.
+    - The evidence indicates that the change is beneficial.
+    lexemes: []
+  - id: u44-l4-07
+    type: speak_repeat
+    text: Our conclusion is cautious.
+    translation: המסקנה שלנו זהירה.
+    lexemes: []
+- id: u44-l5
+  kind: reading
+  title:
+    he: מאמר דעה
+    en: An opinion article
+  exercises:
+  - id: u44-l5-01
+    type: reading
+    kind: מאמר דעה
+    title: Is the office dead?
+    text: 'Few phenomena have changed working life as dramatically as remote work. A substantial number of companies now allow employees to work from home, and the trend shows no sign of reversing.
+
+
+      Advocates argue that flexibility improves productivity and well-being. Yet critics point out that the evidence is far from conclusive. Some studies contradict the optimistic view, suggesting that collaboration declines when teams rarely meet.
+
+
+      It would be easy to draw a simple conclusion, but a correlation between remote work and higher output does not necessarily imply a cause. Arguably, the quality of management matters more than the location of the desk.
+
+
+      What seems inevitable is that the office will change rather than disappear. Companies that thrive will probably reinforce their culture, whether their people sit together or not.
+
+      '
+    translation: 'מעטות התופעות ששינו את חיי העבודה באופן דרמטי כמו עבודה מרחוק. מספר ניכר של חברות מאפשר כיום לעובדים לעבוד מהבית, והמגמה אינה מראה סימנים של היפוך.
+
+
+      התומכים טוענים שגמישות משפרת פריון ורווחה. אולם המבקרים מצביעים על כך שהראיות רחוקות מלהיות חד־משמעיות. מחקרים מסוימים סותרים את התפיסה האופטימית ומרמזים שהשיתוף פעולה יורד כשצוותים נפגשים לעיתים רחוקות.
+
+
+      קל להסיק מסקנה פשוטה, אך מתאם בין עבודה מרחוק לתפוקה גבוהה אינו בהכרח מעיד על סיבה. ניתן לטעון שאיכות הניהול חשובה יותר ממיקום השולחן.
+
+
+      נראה בלתי נמנע שהמשרד ישתנה ולא ייעלם. חברות ששוגשגו כנראה יחזקו את התרבות שלהן, בין אם אנשיהן יושבים יחד ובין אם לא.
+
+      '
+  - id: u44-l5-02
+    type: multiple_choice
+    prompt: מה קורה למגמה של עבודה מרחוק?
+    options:
+    - היא לא מראה סימני היפוך
+    - היא נעלמת
+    - היא רק בתחילתה
+    correct: 0
+    lexemes:
+    - trend
+  - id: u44-l5-03
+    type: multiple_choice
+    prompt: מה טוענים המבקרים?
+    options:
+    - שהראיות רחוקות מלהיות חד־משמעיות
+    - שהמשרד חשוב
+    - שאין מחקרים
+    correct: 0
+    lexemes:
+    - conclusive
+  - id: u44-l5-04
+    type: multiple_choice
+    prompt: מה חשוב יותר לפי הכותב?
+    options:
+    - איכות הניהול
+    - מיקום השולחן
+    - גודל החברה
+    correct: 0
+    lexemes:
+    - arguably
+  - id: u44-l5-05
+    type: multiple_choice
+    prompt: מה נראה בלתי נמנע?
+    options:
+    - שהמשרד ישתנה
+    - שהמשרד ייסגר
+    - שכולם יחזרו למשרד
+    correct: 0
+    lexemes:
+    - inevitable
+  - id: u44-l5-06
+    type: fill_blank
+    sentence: A correlation does not necessarily ___ a cause.
+    translation: מתאם אינו בהכרח מעיד על סיבה.
+    answers:
+    - imply
+    options:
+    - imply
+    - advocate
+    - reinforce
+    lexemes:
+    - imply
+    - correlation
+  - id: u44-l5-07
+    type: fill_blank
+    sentence: Some studies ___ the optimistic view.
+    translation: מחקרים מסוימים סותרים את התפיסה האופטימית.
+    answers:
+    - contradict
+    options:
+    - contradict
+    - reinforce
+    - advocate
+    lexemes:
+    - contradict
+  - id: u44-l5-08
+    type: translate
+    direction: to_target
+    prompt: העלייה המשמעותית במשרות מרחוק לא תיעצר.
+    answers:
+    - The substantial rise in remote jobs will not stop.
+    - The substantial increase in remote jobs will not stop.
+    - The substantial rise in remote jobs will not end.
+    lexemes:
+    - substantial
+    - trend
+- id: u44-review
+  kind: review
+  title:
+    he: 'חזרה: רעיונות גדולים'
+    en: 'Review: big ideas'
+  exercises:
+  - id: u44-review-01
+    type: match_pairs
+    pairs:
+    - - hypothesis
+      - השערה
+    - - undermine
+      - לערער
+    - - advocate
+      - לדגול
+    - - surge
+      - זינוק
+    - - conclusive
+      - חד־משמעי
+    lexemes:
+    - hypothesis
+    - undermine
+    - advocate
+    - surge
+    - conclusive
+  - id: u44-review-02
+    type: fill_blank
+    sentence: Workers ___ to be happier at home.
+    translation: עובדים נוטים להיות מאושרים יותר בבית.
+    answers:
+    - tend
+    options:
+    - tend
+    - tends
+    - tending
+    lexemes: []
+  - id: u44-review-03
+    type: fill_blank
+    sentence: There was a decline ___ sales last year.
+    translation: הייתה ירידה במכירות בשנה שעברה.
+    answers:
+    - in
+    options:
+    - in
+    - at
+    - of
+    lexemes:
+    - decline
+  - id: u44-review-04
+    type: listening_choice
+    audioText: Arguably, the trend is inevitable.
+    question: מה הדובר אומר?
+    options:
+    - שניתן לטעון שהמגמה בלתי נמנעת
+    - שהמגמה נעצרה
+    - שהוא לא יודע
+    correct: 0
+    lexemes:
+    - arguably
+    - inevitable
+  - id: u44-review-05
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - The data suggest a link.
+    - The data suggests prove a link.
+    - The data suggest to a link.
+    correct: 0
+    lexemes: []
+  - id: u44-review-06
+    type: word_bank
+    prompt: אני ספקנית כלפי הטענה.
+    answers:
+    - I am sceptical of the claim.
+    - I'm sceptical of the claim.
+    - I am sceptical about the claim.
+    distractors:
+    - sceptic
+    - of
+    lexemes:
+    - sceptical
+  - id: u44-review-07
+    type: translate
+    direction: to_target
+    prompt: נראה שהמגמה נמשכת.
+    answers:
+    - It appears that the trend is continuing.
+    - It seems that the trend is continuing.
+    - It appears that the trend continues.
+    lexemes:
+    - trend
+  - id: u44-review-08
+    type: translate
+    direction: to_source
+    prompt: This phenomenon is complex.
+    answers:
+    - התופעה הזאת מורכבת.
+    lexemes:
+    - phenomenon
+  - id: u44-review-09
+    type: dictation
+    text: The evidence is not conclusive.
+    lexemes:
+    - conclusive
+  - id: u44-review-10
+    type: speak_repeat
+    text: A correlation does not imply a cause.
+    translation: מתאם אינו מעיד על סיבה.
+    lexemes:
+    - correlation
+    - imply
