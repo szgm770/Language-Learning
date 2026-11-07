@@ -6,7 +6,16 @@ Course id `yi-for-he`. Dialect: Litvish (Northeastern), taken as the base for Ch
 - `yi` is a valid language code; the UI treats it as right-to-left.
 - Answer checking strips niqqud, so a missing or extra pasekh/komets mark on an alef is forgiven.
 
-## What has to be built before content
+## Decisions (2026-11-08)
+- Litvish base (Belarus/Lithuania). Reviewer fills in the exact vowel values.
+- No recordings for now. The course sets `speechLang: none`: no play buttons, nothing is spoken, and no listening/dictation/speak tasks are written. Audio can be added later as files without changing lessons.
+- Story gets Chassidic scenes, including a trip to the Rebbe (a visit to 770 / a Yud Tes Kislev farbrengen), a melamed, a Rebbetzin's class.
+
+## Done in code (this PR)
+- `normalize` unifies װ ױ ײ with וו וי יי for `lang: yi` (tests in `normalize-yi.test.ts`).
+- `speechLang: none` turns speech off everywhere (`speech.ts`, `SpeakButton`).
+
+## What had to be built before content (done above, kept for reference)
 1. **Yiddish letter digraphs in `normalize`.** Hebrew keyboards type וו / וי / יי, while text may contain the single letters װ ױ ײ (U+05F0–05F2). Map them to the two-letter forms (and strip the marks on ײַ) so both spellings match. Add a test.
 2. **No machine voice.** Browsers have no Yiddish voice; with `lang: yi` the code would fall back to some other voice and read Hebrew letters wrongly. Decide: hide all play/record buttons for this course until we have **recorded audio by a Chabad Yiddish speaker**, then add an `audio` path to the schema. Until then listening/speak tasks are not used.
 3. Spelling rule for the course: YIVO-like, Hebrew-origin words as in Hebrew (see notes). One spelling in all files, enforced by a content test (list of forbidden variants).
