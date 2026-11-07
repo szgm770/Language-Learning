@@ -521,3 +521,16 @@ lessons:
         text: "If I go to bed early, I'll have more energy tomorrow."
         translation: "אם אלך לישון מוקדם, יהיה לי יותר אנרגיה מחר."
         lexemes: [if-will, energy]
+      - id: u23-w-01
+        type: write
+        prompt: "תארו הרגל בריא שהיה לכם פעם ומה אתם מתכננים לשנות: מה השתנה ומה יקרה אם תמשיכו?"
+        minWords: 30
+        checks:
+          - label: "השתמשתם ב־used to"
+            any: ["\\bused to\\b"]
+          - label: "השתמשתם במשפט תנאי (if ... will)"
+            any: ["\\bif\\b.*\\bwill\\b", "\\bif\\b.*\\b(?:I|you|we|they|he|she)'ll\\b"]
+          - label: "הזכרתם הרגל (sleep, sport, food...)"
+            any: ["\\bsleep", "\\bsport", "\\bwalk", "\\beat", "\\bwater\\b", "\\brun"]
+        model: "I used to sleep only five hours a night and I rarely did any sport. Now I walk every morning and I go to bed early. If I keep this habit, I will feel stronger and I will have more energy for my family and my work."
+        lexemes: []

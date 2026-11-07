@@ -772,3 +772,28 @@ lessons:
     lexemes:
     - correlation
     - imply
+  - id: u44-w-01
+    type: write
+    prompt: כתבו פסקה אקדמית קצרה על מגמה שאתם מכירים. היזהרו מטענות מוחלטות (tend to, it appears that, may).
+    minWords: 45
+    checks:
+    - label: השתמשתם בזהירות (tend to / appears / seems / may / arguably)
+      any:
+      - \btend(s)? to\b
+      - \bit (appears|seems)\b
+      - \bmay\b
+      - \bmight\b
+      - \barguably\b
+      - \bsuggests?\b
+    - label: הזכרתם מגמה או נתון (rise in / decline in / increase in)
+      any:
+      - \b(rise|decline|increase|growth|drop|surge|fall) in\b
+    - label: הזכרתם ראיה או מחקר
+      any:
+      - \bevidence\b
+      - \bstudy\b
+      - \bresearch\b
+      - \bdata\b
+      - \bsurvey\b
+    model: Recent data suggest a sharp rise in the number of people who study online. It appears that students tend to prefer flexible schedules, although the evidence is not conclusive. Arguably, the decline in attendance at traditional classes may reflect a change in habits rather than a lack of interest.
+    lexemes: []

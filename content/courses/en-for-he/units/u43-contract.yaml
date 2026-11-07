@@ -768,3 +768,24 @@ lessons:
     translation: אף צד אינו רשאי לסיים את ההסכם ללא הודעה.
     lexemes:
     - terminate
+  - id: u43-w-01
+    type: write
+    prompt: 'נסחו מכתב רשמי ללקוח: אתם מציעים תיקון בחוזה ומציינים שאם יהיו שאלות הוא מוזמן לפנות. השתמשו ב־Should you... ובצורת subjunctive.'
+    minWords: 50
+    checks:
+    - label: השתמשתם ב־Should you / Were / Had (תנאי הפוך)
+      any:
+      - \bShould you\b
+      - \bWere (I|we|you)\b
+      - \bHad (we|you|I)\b
+    - label: השתמשתם בצורת subjunctive (that + בסיס הפועל)
+      any:
+      - \b(suggest|recommend|insist|require|demand|essential|vital|important) that \w+ (be|sign|amend|pay|send|provide|have)\b
+    - label: הזכרתם חוזה או סעיף
+      any:
+      - \bcontract\b
+      - \bclause\b
+      - \bagreement\b
+      - \bterms\b
+    model: Dear Mr. Sato, Thank you for your letter. We recommend that the contract be amended before signing, and we suggest that clause nine be rewritten. It is essential that both parties sign by Friday. Should you have any questions about the agreement, please do not hesitate to contact us. Yours sincerely, Noa Levy.
+    lexemes: []

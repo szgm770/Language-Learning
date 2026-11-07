@@ -497,3 +497,16 @@ lessons:
         text: "You've taken on a lot of responsibility. You deserve this promotion."
         translation: "לקחת על עצמך הרבה אחריות. מגיע לך הקידום הזה."
         lexemes: [take-on, responsibility, deserve, promotion]
+      - id: u31-w-01
+        type: write
+        prompt: "כתבו על ההישגים שלכם בשנה האחרונה ומה אתם עושים לאחרונה. כללו משפט אחד בהווה מושלם מתמשך."
+        minWords: 45
+        checks:
+          - label: "השתמשתם בהווה מושלם מתמשך (have been + ing)"
+            any: ["\\bhave been \\w+ing\\b", "\\bhas been \\w+ing\\b"]
+          - label: "הזכרתם הישג או פרויקט"
+            any: ["\\bproject\\b", "\\bpromotion\\b", "\\bachieve", "\\bsuccess", "\\bgoal\\b"]
+          - label: "הזכרתם יעד לעתיד"
+            any: ["\\bwant to\\b", "\\bplan to\\b", "\\bhope to\\b", "\\bwould like to\\b", "\\bgoal\\b"]
+        model: "This year has been a busy one. I have been leading a new project since January, and I have been learning how to manage a team. We achieved our main goal in October, which gave me a lot of confidence. Next year I hope to take on a bigger role and to travel more for work."
+        lexemes: []

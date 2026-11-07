@@ -490,3 +490,16 @@ lessons:
         text: "If I could study anything, I would study Japanese."
         translation: "אילו יכולתי ללמוד כל דבר, הייתי לומדת יפנית."
         lexemes: [if-would]
+      - id: u29-w-01
+        type: write
+        prompt: "אם היה לכם זמן וכסף, איזה קורס הייתם לומדים ולמה? (תנאי שני)"
+        minWords: 30
+        checks:
+          - label: "השתמשתם בתנאי שני (if + past, would)"
+            any: ["\\bif\\b.*\\b(had|was|were|could)\\b.*\\bwould\\b", "\\bwould\\b.*\\bif\\b.*\\b(had|was|were|could)\\b"]
+          - label: "הזכרתם נושא ללימוד"
+            any: ["\\bcourse\\b", "\\bstudy\\b", "\\blearn\\b", "\\bdegree\\b", "\\blanguage\\b"]
+          - label: "נימקתם (because / so)"
+            any: ["\\bbecause\\b", "\\bso\\b", "\\bsince\\b"]
+        model: "If I had more time, I would study music at university, because I have always loved the piano. If I could choose any city, I would study in Vienna. I think I would learn a lot there, and I would meet interesting people."
+        lexemes: []

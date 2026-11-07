@@ -1,0 +1,1133 @@
+id: v4-words
+cefr: B2
+scene: study
+title:
+  he: הרחבת אוצר מילים 4
+  en: Word builder 4
+story: עוד מילים חשובות בשימוש יומיומי, מקובצות בשיעורים קצרים. כל מילה מופיעה במשפט, ואחר כך מתרגלים אותה.
+canDo:
+- להבין ולהשתמש במילים נפוצות נוספות
+- לזהות את המילים במשפטים אמיתיים
+vocabulary:
+- id: appreciate
+  text: appreciate
+  translation: להעריך
+  pos: verb
+  example:
+    text: I really appreciate your help.
+    translation: אני באמת מעריך את העזרה שלך.
+- id: dry
+  text: dry
+  translation: יבש; לייבש
+  pos: adjective
+  example:
+    text: The clothes are dry now.
+    translation: הבגדים יבשים עכשיו.
+- id: edge
+  text: edge
+  translation: קצה
+  pos: noun
+  example:
+    text: Do not stand at the edge of the road.
+    translation: אל תעמדו בקצה הכביש.
+- id: forever
+  text: forever
+  translation: לנצח
+  pos: adverb
+  example:
+    text: I will remember this day forever.
+    translation: אזכור את היום הזה לנצח.
+- id: injury
+  text: injury
+  translation: פציעה
+  pos: noun
+  example:
+    text: He had a knee injury last year.
+    translation: הייתה לו פציעה בברך בשנה שעברה.
+- id: iron
+  text: iron
+  translation: ברזל; לגהץ
+  pos: noun
+  example:
+    text: The gate is made of iron.
+    translation: השער עשוי ברזל.
+- id: magazine
+  text: magazine
+  translation: מגזין
+  pos: noun
+  example:
+    text: I read a magazine on the train.
+    translation: קראתי מגזין ברכבת.
+- id: somewhere
+  text: somewhere
+  translation: איפשהו
+  pos: adverb
+  example:
+    text: I left my keys somewhere in the house.
+    translation: השארתי את המפתחות איפשהו בבית.
+- id: strategy
+  text: strategy
+  translation: אסטרטגיה
+  pos: noun
+  example:
+    text: We need a new strategy.
+    translation: אנחנו צריכים אסטרטגיה חדשה.
+- id: exist
+  text: exist
+  translation: להתקיים, להיות קיים
+  pos: verb
+  example:
+    text: Dinosaurs no longer exist.
+    translation: דינוזאורים כבר לא קיימים.
+- id: mountain
+  text: mountain
+  translation: הר
+  pos: noun
+  example:
+    text: We hiked up the mountain.
+    translation: טיילנו במעלה ההר.
+- id: taste
+  text: taste
+  translation: טעם; לטעום
+  pos: noun
+  example:
+    text: I like the taste of lemon.
+    translation: אני אוהב את הטעם של לימון.
+- id: victory
+  text: victory
+  translation: ניצחון
+  pos: noun
+  example:
+    text: The team celebrated its victory.
+    translation: הקבוצה חגגה את הניצחון שלה.
+- id: assistant
+  text: assistant
+  translation: עוזר, עוזרת
+  pos: noun
+  example:
+    text: She is my personal assistant.
+    translation: היא העוזרת האישית שלי.
+- id: clothes
+  text: clothes
+  translation: בגדים
+  pos: noun
+  example:
+    text: I need to buy new clothes.
+    translation: אני צריך לקנות בגדים חדשים.
+- id: electric
+  text: electric
+  translation: חשמלי
+  pos: adjective
+  example:
+    text: He drives an electric car.
+    translation: הוא נוהג במכונית חשמלית.
+- id: emergency
+  text: emergency
+  translation: מצב חירום
+  pos: noun
+  example:
+    text: Call this number in an emergency.
+    translation: התקשרו למספר הזה במקרה חירום.
+- id: entirely
+  text: entirely
+  translation: לגמרי
+  pos: adverb
+  example:
+    text: I entirely agree with you.
+    translation: אני מסכים איתך לגמרי.
+- id: festival
+  text: festival
+  translation: פסטיבל, חג
+  pos: noun
+  example:
+    text: The town has a music festival every summer.
+    translation: בעיר יש פסטיבל מוזיקה בכל קיץ.
+- id: massive
+  text: massive
+  translation: עצום
+  pos: adjective
+  example:
+    text: They built a massive bridge.
+    translation: הם בנו גשר עצום.
+- id: plenty
+  text: plenty
+  translation: הרבה, מספיק
+  pos: noun
+  example:
+    text: There is plenty of time.
+    translation: יש מספיק זמן.
+- id: proper
+  text: proper
+  translation: ראוי, מתאים
+  pos: adjective
+  example:
+    text: You need proper shoes for hiking.
+    translation: צריך נעליים מתאימות לטיולים.
+- id: session
+  text: session
+  translation: מפגש, סבב
+  pos: noun
+  example:
+    text: The training session starts at nine.
+    translation: מפגש האימון מתחיל בתשע.
+- id: teaching
+  text: teaching
+  translation: הוראה
+  pos: noun
+  example:
+    text: She loves teaching children.
+    translation: היא אוהבת ללמד ילדים.
+- id: transfer
+  text: transfer
+  translation: העברה; להעביר
+  pos: noun
+  example:
+    text: I made a bank transfer yesterday.
+    translation: ביצעתי העברה בנקאית אתמול.
+- id: zone
+  text: zone
+  translation: אזור
+  pos: noun
+  example:
+    text: This is a quiet zone.
+    translation: זה אזור שקט.
+- id: advanced
+  text: advanced
+  translation: מתקדם
+  pos: adjective
+  example:
+    text: He is in the advanced class.
+    translation: הוא בכיתה המתקדמת.
+- id: boat
+  text: boat
+  translation: סירה
+  pos: noun
+  example:
+    text: We crossed the lake by boat.
+    translation: חצינו את האגם בסירה.
+- id: capacity
+  text: capacity
+  translation: קיבולת, יכולת
+  pos: noun
+  example:
+    text: The hall has a capacity of two hundred people.
+    translation: באולם יש מקום לכמאתיים איש.
+- id: duty
+  text: duty
+  translation: חובה, תפקיד
+  pos: noun
+  example:
+    text: It is my duty to help.
+    translation: זו חובתי לעזור.
+- id: mix
+  text: mix
+  translation: לערבב; תערובת
+  pos: verb
+  example:
+    text: Mix the flour and the eggs.
+    translation: ערבבו את הקמח והביצים.
+- id: purchase
+  text: purchase
+  translation: רכישה; לרכוש
+  pos: noun
+  example:
+    text: Keep the receipt of your purchase.
+    translation: שמרו את הקבלה של הרכישה.
+- id: remove
+  text: remove
+  translation: להסיר
+  pos: verb
+  example:
+    text: Please remove your shoes.
+    translation: אנא הסירו את הנעליים.
+- id: steel
+  text: steel
+  translation: פלדה
+  pos: noun
+  example:
+    text: The table is made of steel.
+    translation: השולחן עשוי פלדה.
+- id: suit
+  text: suit
+  translation: חליפה; להתאים
+  pos: noun
+  example:
+    text: He wore a dark suit to the interview.
+    translation: הוא לבש חליפה כהה לראיון.
+- id: mad
+  text: mad
+  translation: כועס, מטורף
+  pos: adjective
+  example:
+    text: She was mad about the delay.
+    translation: היא כעסה על העיכוב.
+lessons:
+- id: v4-l1
+  kind: new
+  title:
+    he: מילים חדשות 1
+    en: New words 1
+  exercises:
+  - id: v4-l1-01
+    type: learn
+    lexeme: appreciate
+    lexemes: []
+  - id: v4-l1-02
+    type: learn
+    lexeme: dry
+    lexemes: []
+  - id: v4-l1-03
+    type: learn
+    lexeme: edge
+    lexemes: []
+  - id: v4-l1-04
+    type: learn
+    lexeme: forever
+    lexemes: []
+  - id: v4-l1-05
+    type: learn
+    lexeme: injury
+    lexemes: []
+  - id: v4-l1-06
+    type: learn
+    lexeme: iron
+    lexemes: []
+  - id: v4-l1-07
+    type: learn
+    lexeme: magazine
+    lexemes: []
+  - id: v4-l1-08
+    type: learn
+    lexeme: somewhere
+    lexemes: []
+  - id: v4-l1-09
+    type: learn
+    lexeme: strategy
+    lexemes: []
+  - id: v4-l1-10
+    type: learn
+    lexeme: exist
+    lexemes: []
+  - id: v4-l1-11
+    type: match_pairs
+    pairs:
+    - - appreciate
+      - להעריך
+    - - dry
+      - יבש
+    - - edge
+      - קצה
+    - - forever
+      - לנצח
+    - - injury
+      - פציעה
+    lexemes:
+    - appreciate
+    - dry
+    - edge
+    - forever
+    - injury
+  - id: v4-l1-12
+    type: match_pairs
+    pairs:
+    - - iron
+      - ברזל
+    - - magazine
+      - מגזין
+    - - somewhere
+      - איפשהו
+    - - strategy
+      - אסטרטגיה
+    - - exist
+      - להתקיים
+    lexemes:
+    - iron
+    - magazine
+    - somewhere
+    - strategy
+    - exist
+  - id: v4-l1-13
+    type: multiple_choice
+    prompt: מה פירוש appreciate?
+    options:
+    - להעריך
+    - איפשהו
+    - ברזל; לגהץ
+    correct: 0
+    lexemes:
+    - appreciate
+  - id: v4-l1-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: יבש?'
+    options:
+    - dry
+    - strategy
+    - injury
+    correct: 0
+    lexemes:
+    - dry
+  - id: v4-l1-15
+    type: multiple_choice
+    prompt: מה פירוש edge?
+    options:
+    - קצה
+    - לנצח
+    - ברזל; לגהץ
+    correct: 0
+    lexemes:
+    - edge
+  - id: v4-l1-16
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: לנצח?'
+    options:
+    - forever
+    - iron
+    - somewhere
+    correct: 0
+    lexemes:
+    - forever
+  - id: v4-l1-17
+    type: multiple_choice
+    prompt: מה פירוש injury?
+    options:
+    - פציעה
+    - להתקיים, להיות קיים
+    - מגזין
+    correct: 0
+    lexemes:
+    - injury
+  - id: v4-l1-18
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: ברזל?'
+    options:
+    - iron
+    - strategy
+    - somewhere
+    correct: 0
+    lexemes:
+    - iron
+  - id: v4-l1-19
+    type: fill_blank
+    sentence: I will remember this day ___.
+    translation: אזכור את היום הזה לנצח.
+    answers:
+    - forever
+    options:
+    - forever
+    - appreciate
+    - magazine
+    lexemes:
+    - forever
+  - id: v4-l1-20
+    type: fill_blank
+    sentence: He had a knee ___ last year.
+    translation: הייתה לו פציעה בברך בשנה שעברה.
+    answers:
+    - injury
+    options:
+    - injury
+    - edge
+    - iron
+    lexemes:
+    - injury
+  - id: v4-l1-21
+    type: fill_blank
+    sentence: The gate is made of ___.
+    translation: השער עשוי ברזל.
+    answers:
+    - iron
+    options:
+    - iron
+    - appreciate
+    - forever
+    lexemes:
+    - iron
+  - id: v4-l1-22
+    type: fill_blank
+    sentence: I read a ___ on the train.
+    translation: קראתי מגזין ברכבת.
+    answers:
+    - magazine
+    options:
+    - magazine
+    - appreciate
+    - iron
+    lexemes:
+    - magazine
+  - id: v4-l1-23
+    type: fill_blank
+    sentence: I left my keys ___ in the house.
+    translation: השארתי את המפתחות איפשהו בבית.
+    answers:
+    - somewhere
+    options:
+    - somewhere
+    - exist
+    - appreciate
+    lexemes:
+    - somewhere
+  - id: v4-l1-24
+    type: fill_blank
+    sentence: We need a new ___.
+    translation: אנחנו צריכים אסטרטגיה חדשה.
+    answers:
+    - strategy
+    options:
+    - strategy
+    - edge
+    - iron
+    lexemes:
+    - strategy
+  - id: v4-l1-25
+    type: fill_blank
+    sentence: Dinosaurs no longer ___.
+    translation: דינוזאורים כבר לא קיימים.
+    answers:
+    - exist
+    options:
+    - exist
+    - magazine
+    - somewhere
+    lexemes:
+    - exist
+  - id: v4-l1-26
+    type: dictation
+    text: We need a new strategy.
+    lexemes:
+    - strategy
+  - id: v4-l1-27
+    type: dictation
+    text: Dinosaurs no longer exist.
+    lexemes:
+    - exist
+- id: v4-l2
+  kind: new
+  title:
+    he: מילים חדשות 2
+    en: New words 2
+  exercises:
+  - id: v4-l2-01
+    type: learn
+    lexeme: mountain
+    lexemes: []
+  - id: v4-l2-02
+    type: learn
+    lexeme: taste
+    lexemes: []
+  - id: v4-l2-03
+    type: learn
+    lexeme: victory
+    lexemes: []
+  - id: v4-l2-04
+    type: learn
+    lexeme: assistant
+    lexemes: []
+  - id: v4-l2-05
+    type: learn
+    lexeme: clothes
+    lexemes: []
+  - id: v4-l2-06
+    type: learn
+    lexeme: electric
+    lexemes: []
+  - id: v4-l2-07
+    type: learn
+    lexeme: emergency
+    lexemes: []
+  - id: v4-l2-08
+    type: learn
+    lexeme: entirely
+    lexemes: []
+  - id: v4-l2-09
+    type: learn
+    lexeme: festival
+    lexemes: []
+  - id: v4-l2-10
+    type: learn
+    lexeme: massive
+    lexemes: []
+  - id: v4-l2-11
+    type: match_pairs
+    pairs:
+    - - mountain
+      - הר
+    - - taste
+      - טעם
+    - - victory
+      - ניצחון
+    - - assistant
+      - עוזר
+    - - clothes
+      - בגדים
+    lexemes:
+    - mountain
+    - taste
+    - victory
+    - assistant
+    - clothes
+  - id: v4-l2-12
+    type: match_pairs
+    pairs:
+    - - electric
+      - חשמלי
+    - - emergency
+      - מצב חירום
+    - - entirely
+      - לגמרי
+    - - festival
+      - פסטיבל
+    - - massive
+      - עצום
+    lexemes:
+    - electric
+    - emergency
+    - entirely
+    - festival
+    - massive
+  - id: v4-l2-13
+    type: multiple_choice
+    prompt: מה פירוש mountain?
+    options:
+    - הר
+    - חשמלי
+    - עצום
+    correct: 0
+    lexemes:
+    - mountain
+  - id: v4-l2-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: טעם?'
+    options:
+    - taste
+    - mountain
+    - electric
+    correct: 0
+    lexemes:
+    - taste
+  - id: v4-l2-15
+    type: multiple_choice
+    prompt: מה פירוש victory?
+    options:
+    - ניצחון
+    - עוזר, עוזרת
+    - מצב חירום
+    correct: 0
+    lexemes:
+    - victory
+  - id: v4-l2-16
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: עוזר?'
+    options:
+    - assistant
+    - emergency
+    - massive
+    correct: 0
+    lexemes:
+    - assistant
+  - id: v4-l2-17
+    type: multiple_choice
+    prompt: מה פירוש clothes?
+    options:
+    - בגדים
+    - חשמלי
+    - פסטיבל, חג
+    correct: 0
+    lexemes:
+    - clothes
+  - id: v4-l2-18
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: חשמלי?'
+    options:
+    - electric
+    - clothes
+    - victory
+    correct: 0
+    lexemes:
+    - electric
+  - id: v4-l2-19
+    type: fill_blank
+    sentence: She is my personal ___.
+    translation: היא העוזרת האישית שלי.
+    answers:
+    - assistant
+    options:
+    - assistant
+    - victory
+    - massive
+    lexemes:
+    - assistant
+  - id: v4-l2-20
+    type: fill_blank
+    sentence: I need to buy new ___.
+    translation: אני צריך לקנות בגדים חדשים.
+    answers:
+    - clothes
+    options:
+    - clothes
+    - victory
+    - entirely
+    lexemes:
+    - clothes
+  - id: v4-l2-21
+    type: fill_blank
+    sentence: He drives an ___ car.
+    translation: הוא נוהג במכונית חשמלית.
+    answers:
+    - electric
+    options:
+    - electric
+    - taste
+    - clothes
+    lexemes:
+    - electric
+  - id: v4-l2-22
+    type: fill_blank
+    sentence: Call this number in an ___.
+    translation: התקשרו למספר הזה במקרה חירום.
+    answers:
+    - emergency
+    options:
+    - emergency
+    - entirely
+    - taste
+    lexemes:
+    - emergency
+  - id: v4-l2-23
+    type: fill_blank
+    sentence: I ___ agree with you.
+    translation: אני מסכים איתך לגמרי.
+    answers:
+    - entirely
+    options:
+    - entirely
+    - massive
+    - assistant
+    lexemes:
+    - entirely
+  - id: v4-l2-24
+    type: fill_blank
+    sentence: The town has a music ___ every summer.
+    translation: בעיר יש פסטיבל מוזיקה בכל קיץ.
+    answers:
+    - festival
+    options:
+    - festival
+    - clothes
+    - massive
+    lexemes:
+    - festival
+  - id: v4-l2-25
+    type: fill_blank
+    sentence: They built a ___ bridge.
+    translation: הם בנו גשר עצום.
+    answers:
+    - massive
+    options:
+    - massive
+    - taste
+    - festival
+    lexemes:
+    - massive
+  - id: v4-l2-26
+    type: dictation
+    text: The town has a music festival every summer.
+    lexemes:
+    - festival
+  - id: v4-l2-27
+    type: dictation
+    text: They built a massive bridge.
+    lexemes:
+    - massive
+- id: v4-l3
+  kind: new
+  title:
+    he: מילים חדשות 3
+    en: New words 3
+  exercises:
+  - id: v4-l3-01
+    type: learn
+    lexeme: plenty
+    lexemes: []
+  - id: v4-l3-02
+    type: learn
+    lexeme: proper
+    lexemes: []
+  - id: v4-l3-03
+    type: learn
+    lexeme: session
+    lexemes: []
+  - id: v4-l3-04
+    type: learn
+    lexeme: teaching
+    lexemes: []
+  - id: v4-l3-05
+    type: learn
+    lexeme: transfer
+    lexemes: []
+  - id: v4-l3-06
+    type: learn
+    lexeme: zone
+    lexemes: []
+  - id: v4-l3-07
+    type: learn
+    lexeme: advanced
+    lexemes: []
+  - id: v4-l3-08
+    type: learn
+    lexeme: boat
+    lexemes: []
+  - id: v4-l3-09
+    type: learn
+    lexeme: capacity
+    lexemes: []
+  - id: v4-l3-10
+    type: learn
+    lexeme: duty
+    lexemes: []
+  - id: v4-l3-11
+    type: match_pairs
+    pairs:
+    - - plenty
+      - הרבה
+    - - proper
+      - ראוי
+    - - session
+      - מפגש
+    - - teaching
+      - הוראה
+    - - transfer
+      - העברה
+    lexemes:
+    - plenty
+    - proper
+    - session
+    - teaching
+    - transfer
+  - id: v4-l3-12
+    type: match_pairs
+    pairs:
+    - - zone
+      - אזור
+    - - advanced
+      - מתקדם
+    - - boat
+      - סירה
+    - - capacity
+      - קיבולת
+    - - duty
+      - חובה
+    lexemes:
+    - zone
+    - advanced
+    - boat
+    - capacity
+    - duty
+  - id: v4-l3-13
+    type: multiple_choice
+    prompt: מה פירוש plenty?
+    options:
+    - הרבה, מספיק
+    - ראוי, מתאים
+    - מפגש, סבב
+    correct: 0
+    lexemes:
+    - plenty
+  - id: v4-l3-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: ראוי?'
+    options:
+    - proper
+    - advanced
+    - capacity
+    correct: 0
+    lexemes:
+    - proper
+  - id: v4-l3-15
+    type: multiple_choice
+    prompt: מה פירוש session?
+    options:
+    - מפגש, סבב
+    - קיבולת, יכולת
+    - סירה
+    correct: 0
+    lexemes:
+    - session
+  - id: v4-l3-16
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: הוראה?'
+    options:
+    - teaching
+    - boat
+    - advanced
+    correct: 0
+    lexemes:
+    - teaching
+  - id: v4-l3-17
+    type: multiple_choice
+    prompt: מה פירוש transfer?
+    options:
+    - העברה; להעביר
+    - מפגש, סבב
+    - הרבה, מספיק
+    correct: 0
+    lexemes:
+    - transfer
+  - id: v4-l3-18
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: אזור?'
+    options:
+    - zone
+    - duty
+    - session
+    correct: 0
+    lexemes:
+    - zone
+  - id: v4-l3-19
+    type: fill_blank
+    sentence: She loves ___ children.
+    translation: היא אוהבת ללמד ילדים.
+    answers:
+    - teaching
+    options:
+    - teaching
+    - transfer
+    - advanced
+    lexemes:
+    - teaching
+  - id: v4-l3-20
+    type: fill_blank
+    sentence: I made a bank ___ yesterday.
+    translation: ביצעתי העברה בנקאית אתמול.
+    answers:
+    - transfer
+    options:
+    - transfer
+    - advanced
+    - boat
+    lexemes:
+    - transfer
+  - id: v4-l3-21
+    type: fill_blank
+    sentence: This is a quiet ___.
+    translation: זה אזור שקט.
+    answers:
+    - zone
+    options:
+    - zone
+    - proper
+    - boat
+    lexemes:
+    - zone
+  - id: v4-l3-22
+    type: fill_blank
+    sentence: He is in the ___ class.
+    translation: הוא בכיתה המתקדמת.
+    answers:
+    - advanced
+    options:
+    - advanced
+    - transfer
+    - capacity
+    lexemes:
+    - advanced
+  - id: v4-l3-23
+    type: fill_blank
+    sentence: We crossed the lake by ___.
+    translation: חצינו את האגם בסירה.
+    answers:
+    - boat
+    options:
+    - boat
+    - capacity
+    - session
+    lexemes:
+    - boat
+  - id: v4-l3-24
+    type: fill_blank
+    sentence: The hall has a ___ of two hundred people.
+    translation: באולם יש מקום לכמאתיים איש.
+    answers:
+    - capacity
+    options:
+    - capacity
+    - advanced
+    - plenty
+    lexemes:
+    - capacity
+  - id: v4-l3-25
+    type: fill_blank
+    sentence: It is my ___ to help.
+    translation: זו חובתי לעזור.
+    answers:
+    - duty
+    options:
+    - duty
+    - capacity
+    - proper
+    lexemes:
+    - duty
+  - id: v4-l3-26
+    type: dictation
+    text: The hall has a capacity of two hundred people.
+    lexemes:
+    - capacity
+  - id: v4-l3-27
+    type: dictation
+    text: It is my duty to help.
+    lexemes:
+    - duty
+- id: v4-l4
+  kind: new
+  title:
+    he: מילים חדשות 4
+    en: New words 4
+  exercises:
+  - id: v4-l4-01
+    type: learn
+    lexeme: mix
+    lexemes: []
+  - id: v4-l4-02
+    type: learn
+    lexeme: purchase
+    lexemes: []
+  - id: v4-l4-03
+    type: learn
+    lexeme: remove
+    lexemes: []
+  - id: v4-l4-04
+    type: learn
+    lexeme: steel
+    lexemes: []
+  - id: v4-l4-05
+    type: learn
+    lexeme: suit
+    lexemes: []
+  - id: v4-l4-06
+    type: learn
+    lexeme: mad
+    lexemes: []
+  - id: v4-l4-07
+    type: match_pairs
+    pairs:
+    - - mix
+      - לערבב
+    - - purchase
+      - רכישה
+    - - remove
+      - להסיר
+    - - steel
+      - פלדה
+    - - suit
+      - חליפה
+    lexemes:
+    - mix
+    - purchase
+    - remove
+    - steel
+    - suit
+  - id: v4-l4-08
+    type: multiple_choice
+    prompt: מה פירוש mix?
+    options:
+    - לערבב; תערובת
+    - חליפה; להתאים
+    - רכישה; לרכוש
+    correct: 0
+    lexemes:
+    - mix
+  - id: v4-l4-09
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: רכישה?'
+    options:
+    - purchase
+    - mix
+    - remove
+    correct: 0
+    lexemes:
+    - purchase
+  - id: v4-l4-10
+    type: multiple_choice
+    prompt: מה פירוש remove?
+    options:
+    - להסיר
+    - פלדה
+    - חליפה; להתאים
+    correct: 0
+    lexemes:
+    - remove
+  - id: v4-l4-11
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: פלדה?'
+    options:
+    - steel
+    - remove
+    - purchase
+    correct: 0
+    lexemes:
+    - steel
+  - id: v4-l4-12
+    type: multiple_choice
+    prompt: מה פירוש suit?
+    options:
+    - חליפה; להתאים
+    - פלדה
+    - להסיר
+    correct: 0
+    lexemes:
+    - suit
+  - id: v4-l4-13
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: כועס?'
+    options:
+    - mad
+    - steel
+    - purchase
+    correct: 0
+    lexemes:
+    - mad
+  - id: v4-l4-14
+    type: fill_blank
+    sentence: The table is made of ___.
+    translation: השולחן עשוי פלדה.
+    answers:
+    - steel
+    options:
+    - steel
+    - mix
+    - purchase
+    lexemes:
+    - steel
+  - id: v4-l4-15
+    type: fill_blank
+    sentence: He wore a dark ___ to the interview.
+    translation: הוא לבש חליפה כהה לראיון.
+    answers:
+    - suit
+    options:
+    - suit
+    - mix
+    - mad
+    lexemes:
+    - suit
+  - id: v4-l4-16
+    type: fill_blank
+    sentence: She was ___ about the delay.
+    translation: היא כעסה על העיכוב.
+    answers:
+    - mad
+    options:
+    - mad
+    - steel
+    - mix
+    lexemes:
+    - mad
+  - id: v4-l4-17
+    type: dictation
+    text: He wore a dark suit to the interview.
+    lexemes:
+    - suit
+  - id: v4-l4-18
+    type: dictation
+    text: She was mad about the delay.
+    lexemes:
+    - mad

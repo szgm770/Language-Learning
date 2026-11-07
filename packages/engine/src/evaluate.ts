@@ -14,6 +14,7 @@ export type Response =
   | { type: "fill_blank"; text: string }
   | { type: "translate"; text: string }
   | { type: "dictation"; text: string }
+  | { type: "write"; text: string }
   /** Self-assessment after comparing the recording with the speaker. */
   | { type: "speak_repeat"; selfRating: "good" | "retry" };
 
@@ -85,6 +86,10 @@ export class RuleEvaluator implements Evaluator {
         );
       case "dictation":
         return fromText((res as { text: string }).text, ex.answers ?? [ex.text], ctx.target);
+      case "write": {
+        const r = checkWriting((res as { text: string }).text, ex);
+        return r.pass ? ok(ex.model) : bad(ex.model);
+      }
       case "speak_repeat":
         return (res as { selfRating: string }).selfRating === "good" ? ok(ex.text) : bad(ex.text);
     }
@@ -112,4 +117,21 @@ export function seededShuffle<T>(items: readonly T[], seed: number): T[] {
     [out[i], out[j]] = [out[j]!, out[i]!];
   }
   return out;
+}
+
+/** Rule-based check of a free text: enough words, and at least 60% of the required items present. */
+export function checkWriting(text: string, ex: Pick<Extract<Exercise, { type: "write" }>, "minWords" | "checks">) {
+  const words = (text.match(/[\p{L}\p{N}'’-]+/gu) ?? []).length;
+  const results = ex.checks.map((c) => ({
+    label: c.label,
+    ok: c.any.some((p) => {
+      try {
+        return new RegExp(p, "iu").test(text);
+      } catch {
+        return false;
+      }
+    }),
+  }));
+  const passed = results.filter((r) => r.ok).length;
+  return { words, enough: words >= ex.minWords, results, passed, pass: words >= ex.minWords && passed >= Math.ceil(ex.checks.length * 0.6) };
 }

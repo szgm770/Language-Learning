@@ -14,6 +14,7 @@ import { Reading } from "./Reading";
 import { SpeakRepeat } from "./SpeakRepeat";
 import { Tip } from "./Tip";
 import { Translate } from "./Translate";
+import { Write } from "./Write";
 import type { ExerciseContext } from "./types";
 import { WordBank } from "./WordBank";
 
@@ -53,5 +54,7 @@ export function ExerciseView(props: {
       return <Dictation ex={ex} {...rest} />;
     case "speak_repeat":
       return <SpeakRepeat ex={ex} {...rest} />;
+    case "write":
+      return <Write ex={ex} {...rest} />;
   }
 }

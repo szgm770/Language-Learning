@@ -439,3 +439,16 @@ lessons:
         text: "She suggested taking a break, and he admitted feeling tired."
         translation: "היא הציעה לקחת הפסקה, והוא הודה שהוא עייף."
         lexemes: [suggest, admit]
+      - id: u37-w-01
+        type: write
+        prompt: "סכמו ידיעה מדעית (אמיתית או דמיונית) בעזרת פעלי דיווח: suggest, advise, deny, admit, claim."
+        minWords: 45
+        checks:
+          - label: "השתמשתם בפועל דיווח"
+            any: ["\\bsuggest", "\\badvis", "\\bdeny", "\\bdenied\\b", "\\badmit", "\\bclaim", "\\bwarn"]
+          - label: "הזכרתם מחקר או מדענים"
+            any: ["\\bstudy\\b", "\\bresearch", "\\bscientist", "\\bdoctor", "\\bexperiment"]
+          - label: "הוספתם מסקנה"
+            any: ["\\bconclude", "\\bresult", "\\bshows?\\b", "\\bproves?\\b", "\\bfound\\b"]
+        model: "A recent study found that regular walking improves memory. The researchers suggested that adults should walk for thirty minutes a day. One scientist admitted that the sample was small, but she denied that the results were a coincidence. The doctors advised patients to try it."
+        lexemes: []

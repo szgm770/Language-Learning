@@ -44,6 +44,8 @@ units:
   - u18-phone
   - u19-party
   - u20-interview
+  - v1-words
+  - v2-words
   - u21-team
   - u22-stories
   - u23-lifestyle
@@ -54,6 +56,8 @@ units:
   - u28-people
   - u29-learning
   - u30-problems
+  - v3-words
+  - v4-words
   - u31-career
   - u32-city
   - u33-tech
@@ -64,6 +68,8 @@ units:
   - u38-presentation
   - u39-regrets
   - u40-decision
+  - v5-words
+  - v6-words
   - u41-office
   - u42-media
   - u43-contract

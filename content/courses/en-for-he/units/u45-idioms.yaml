@@ -756,3 +756,33 @@ lessons:
     translation: העלינו רעיון מצוין.
     lexemes:
     - come-up-with
+  - id: u45-w-01
+    type: write
+    prompt: ספרו על יום שעבר עליכם בצורה טבעית ושלבו לפחות שני ביטויים (idioms) או פעלים צירופיים.
+    minWords: 50
+    checks:
+    - label: השתמשתם בלפחות ביטוי אחד
+      any:
+      - \bpiece of cake\b
+      - \bblessing in disguise\b
+      - \bbreak the ice\b
+      - \bunder the weather\b
+      - \bon the same page\b
+      - \bback to square one\b
+      - \bonce in a blue moon\b
+      - \bthe extra mile\b
+      - \bhang of it\b
+      - \bbite the bullet\b
+    - label: השתמשתם בפועל צירופי (put off, come up with, look after...)
+      any:
+      - \bput (it |that |the \w+ )?off\b
+      - \bcome up with\b
+      - \blook (after|for|into)\b
+      - \bgive up\b
+      - \bfind out\b
+      - \bturn (up|down|on|off)\b
+    - label: סיפרתם מה קרה (עבר)
+      any:
+      - \b(was|were|went|had|got|made|felt)\b
+    model: Yesterday I felt a bit under the weather, so I put my meeting off until the afternoon. It turned out to be a blessing in disguise, because I came up with a new idea while I was resting. By evening I was on the same page with my team, and the plan was a piece of cake.
+    lexemes: []

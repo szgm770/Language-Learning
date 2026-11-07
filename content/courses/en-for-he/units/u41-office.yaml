@@ -771,3 +771,30 @@ lessons:
     translation: לא רק הגענו לאבן הדרך, אלא גם חסכנו כסף.
     lexemes:
     - milestone
+  - id: u41-w-01
+    type: write
+    prompt: כתבו דוח קצר של מנהל על שבוע עבודה. השתמשו בהיפוך (Never have... / Not only did... / Rarely does...).
+    minWords: 45
+    checks:
+    - label: השתמשתם בהיפוך (Never have / Not only did / Rarely does / Hardly had)
+      any:
+      - \bNever (have|had|did|do)\b
+      - \bNot only (did|do|does|have|has|had)\b
+      - \bRarely (do|does|did|have|has)\b
+      - \bHardly had\b
+      - \bNo sooner had\b
+    - label: הזכרתם אבן דרך או משימה
+      any:
+      - \bmilestone\b
+      - \bdeadline\b
+      - \btask\b
+      - \bproject\b
+      - \blaunch\b
+    - label: הזכרתם האצלה או אחריות
+      any:
+      - \bdelegat
+      - \baccountable\b
+      - \bresponsib
+      - \bstakeholder
+    model: Weekly report. Not only did the team reach the milestone ahead of schedule, but it also received excellent feedback from every stakeholder. Rarely have I seen such commitment. I delegated the testing to two colleagues, who were accountable for the results. Never have we had so few problems in a launch week.
+    lexemes: []

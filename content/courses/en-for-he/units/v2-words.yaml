@@ -1,0 +1,1218 @@
+id: v2-words
+cefr: B1
+scene: study
+title:
+  he: הרחבת אוצר מילים 2
+  en: Word builder 2
+story: עוד מילים חשובות בשימוש יומיומי, מקובצות בשיעורים קצרים. כל מילה מופיעה במשפט, ואחר כך מתרגלים אותה.
+canDo:
+- להבין ולהשתמש במילים נפוצות נוספות
+- לזהות את המילים במשפטים אמיתיים
+vocabulary:
+- id: theory
+  text: theory
+  translation: תיאוריה
+  pos: noun
+  example:
+    text: This theory explains the results.
+    translation: התיאוריה הזו מסבירה את התוצאות.
+- id: catch
+  text: catch
+  translation: לתפוס
+  pos: verb
+  example:
+    text: Try to catch the ball.
+    translation: נסו לתפוס את הכדור.
+- id: coast
+  text: coast
+  translation: חוף, קו חוף
+  pos: noun
+  example:
+    text: We drove along the coast.
+    translation: נסענו לאורך החוף.
+- id: economy
+  text: economy
+  translation: כלכלה
+  pos: noun
+  example:
+    text: The economy is growing slowly.
+    translation: הכלכלה צומחת לאט.
+- id: mission
+  text: mission
+  translation: משימה
+  pos: noun
+  example:
+    text: Our mission is to help students.
+    translation: המשימה שלנו היא לעזור לתלמידים.
+- id: application
+  text: application
+  translation: בקשה, אפליקציה
+  pos: noun
+  example:
+    text: I sent my application yesterday.
+    translation: שלחתי את הבקשה שלי אתמול.
+- id: condition
+  text: condition
+  translation: מצב, תנאי
+  pos: noun
+  example:
+    text: The car is in good condition.
+    translation: המכונית במצב טוב.
+- id: freedom
+  text: freedom
+  translation: חופש
+  pos: noun
+  example:
+    text: Freedom of speech is important.
+    translation: חופש הביטוי חשוב.
+- id: attempt
+  text: attempt
+  translation: ניסיון; לנסות
+  pos: noun
+  example:
+    text: It was a good attempt.
+    translation: זה היה ניסיון טוב.
+- id: channel
+  text: channel
+  translation: ערוץ
+  pos: noun
+  example:
+    text: Change the channel, please.
+    translation: החלף ערוץ, בבקשה.
+- id: protection
+  text: protection
+  translation: הגנה
+  pos: noun
+  example:
+    text: Wear a hat for protection from the sun.
+    translation: חבשו כובע להגנה מהשמש.
+- id: ride
+  text: ride
+  translation: נסיעה; לרכב
+  pos: noun
+  example:
+    text: Thanks for the ride home.
+    translation: תודה על הנסיעה הביתה.
+- id: serve
+  text: serve
+  translation: להגיש, לשרת
+  pos: verb
+  example:
+    text: They serve breakfast until ten.
+    translation: הם מגישים ארוחת בוקר עד עשר.
+- id: speech
+  text: speech
+  translation: נאום
+  pos: noun
+  example:
+    text: He gave a short speech at the wedding.
+    translation: הוא נשא נאום קצר בחתונה.
+- id: partner
+  text: partner
+  translation: שותף
+  pos: noun
+  example:
+    text: My business partner lives in Haifa.
+    translation: השותף העסקי שלי גר בחיפה.
+- id: structure
+  text: structure
+  translation: מבנה
+  pos: noun
+  example:
+    text: The structure of the building is old.
+    translation: המבנה של הבניין ישן.
+- id: traditional
+  text: traditional
+  translation: מסורתי
+  pos: adjective
+  example:
+    text: We ate a traditional dinner.
+    translation: אכלנו ארוחת ערב מסורתית.
+- id: brand
+  text: brand
+  translation: מותג
+  pos: noun
+  example:
+    text: This brand is very popular.
+    translation: המותג הזה מאוד פופולרי.
+- id: critical
+  text: critical
+  translation: קריטי, ביקורתי
+  pos: adjective
+  example:
+    text: It is critical to finish on time.
+    translation: קריטי לסיים בזמן.
+- id: digital
+  text: digital
+  translation: דיגיטלי
+  pos: adjective
+  example:
+    text: I bought a digital camera.
+    translation: קניתי מצלמה דיגיטלית.
+- id: mental
+  text: mental
+  translation: נפשי, מנטלי
+  pos: adjective
+  example:
+    text: Sleep is important for mental health.
+    translation: שינה חשובה לבריאות הנפש.
+- id: mouth
+  text: mouth
+  translation: פה
+  pos: noun
+  example:
+    text: Open your mouth, please.
+    translation: פתחו את הפה, בבקשה.
+- id: realize
+  text: realize
+  translation: להבין, לשים לב
+  pos: verb
+  example:
+    text: I did not realize it was so late.
+    translation: לא שמתי לב שזה כל כך מאוחר.
+- id: remain
+  text: remain
+  translation: להישאר
+  pos: verb
+  example:
+    text: Please remain seated.
+    translation: אנא הישארו במקומותיכם.
+- id: scale
+  text: scale
+  translation: קנה מידה, סולם
+  pos: noun
+  example:
+    text: On a scale of one to ten, I give it nine.
+    translation: בסולם של אחת עד עשר, אני נותן לזה תשע.
+- id: score
+  text: score
+  translation: ציון, תוצאה
+  pos: noun
+  example:
+    text: What was the final score?
+    translation: מה הייתה התוצאה הסופית?
+- id: separate
+  text: separate
+  translation: נפרד; להפריד
+  pos: adjective
+  example:
+    text: We have separate rooms.
+    translation: יש לנו חדרים נפרדים.
+- id: surface
+  text: surface
+  translation: משטח, פני השטח
+  pos: noun
+  example:
+    text: The surface of the table is clean.
+    translation: משטח השולחן נקי.
+- id: throw
+  text: throw
+  translation: לזרוק
+  pos: verb
+  example:
+    text: Do not throw paper on the floor.
+    translation: אל תזרקו נייר על הרצפה.
+- id: fashion
+  text: fashion
+  translation: אופנה
+  pos: noun
+  example:
+    text: She works in the fashion industry.
+    translation: היא עובדת בתעשיית האופנה.
+- id: hill
+  text: hill
+  translation: גבעה
+  pos: noun
+  example:
+    text: Our house is on a hill.
+    translation: הבית שלנו על גבעה.
+- id: metal
+  text: metal
+  translation: מתכת
+  pos: noun
+  example:
+    text: The box is made of metal.
+    translation: הקופסה עשויה ממתכת.
+- id: profile
+  text: profile
+  translation: פרופיל
+  pos: noun
+  example:
+    text: Please update your profile.
+    translation: אנא עדכנו את הפרופיל שלכם.
+- id: pull
+  text: pull
+  translation: למשוך
+  pos: verb
+  example:
+    text: Pull the door, don't push it.
+    translation: משכו את הדלת, אל תדחפו.
+- id: target
+  text: target
+  translation: יעד, מטרה
+  pos: noun
+  example:
+    text: We reached our target this month.
+    translation: הגענו ליעד שלנו החודש.
+- id: memory
+  text: memory
+  translation: זיכרון
+  pos: noun
+  example:
+    text: I have a good memory for faces.
+    translation: יש לי זיכרון טוב לפרצופים.
+- id: supply
+  text: supply
+  translation: אספקה; לספק
+  pos: noun
+  example:
+    text: We need a new supply of paper.
+    translation: אנחנו צריכים אספקה חדשה של נייר.
+- id: weird
+  text: weird
+  translation: מוזר
+  pos: adjective
+  example:
+    text: That is a weird noise.
+    translation: זה רעש מוזר.
+- id: variety
+  text: variety
+  translation: מגוון
+  pos: noun
+  example:
+    text: The shop sells a variety of cheese.
+    translation: החנות מוכרת מגוון גבינות.
+lessons:
+- id: v2-l1
+  kind: new
+  title:
+    he: מילים חדשות 1
+    en: New words 1
+  exercises:
+  - id: v2-l1-01
+    type: learn
+    lexeme: theory
+    lexemes: []
+  - id: v2-l1-02
+    type: learn
+    lexeme: catch
+    lexemes: []
+  - id: v2-l1-03
+    type: learn
+    lexeme: coast
+    lexemes: []
+  - id: v2-l1-04
+    type: learn
+    lexeme: economy
+    lexemes: []
+  - id: v2-l1-05
+    type: learn
+    lexeme: mission
+    lexemes: []
+  - id: v2-l1-06
+    type: learn
+    lexeme: application
+    lexemes: []
+  - id: v2-l1-07
+    type: learn
+    lexeme: condition
+    lexemes: []
+  - id: v2-l1-08
+    type: learn
+    lexeme: freedom
+    lexemes: []
+  - id: v2-l1-09
+    type: learn
+    lexeme: attempt
+    lexemes: []
+  - id: v2-l1-10
+    type: learn
+    lexeme: channel
+    lexemes: []
+  - id: v2-l1-11
+    type: match_pairs
+    pairs:
+    - - theory
+      - תיאוריה
+    - - catch
+      - לתפוס
+    - - coast
+      - חוף
+    - - economy
+      - כלכלה
+    - - mission
+      - משימה
+    lexemes:
+    - theory
+    - catch
+    - coast
+    - economy
+    - mission
+  - id: v2-l1-12
+    type: match_pairs
+    pairs:
+    - - application
+      - בקשה
+    - - condition
+      - מצב
+    - - freedom
+      - חופש
+    - - attempt
+      - ניסיון
+    - - channel
+      - ערוץ
+    lexemes:
+    - application
+    - condition
+    - freedom
+    - attempt
+    - channel
+  - id: v2-l1-13
+    type: multiple_choice
+    prompt: מה פירוש theory?
+    options:
+    - תיאוריה
+    - כלכלה
+    - לתפוס
+    correct: 0
+    lexemes:
+    - theory
+  - id: v2-l1-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: לתפוס?'
+    options:
+    - catch
+    - coast
+    - condition
+    correct: 0
+    lexemes:
+    - catch
+  - id: v2-l1-15
+    type: multiple_choice
+    prompt: מה פירוש coast?
+    options:
+    - חוף, קו חוף
+    - לתפוס
+    - תיאוריה
+    correct: 0
+    lexemes:
+    - coast
+  - id: v2-l1-16
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: כלכלה?'
+    options:
+    - economy
+    - channel
+    - theory
+    correct: 0
+    lexemes:
+    - economy
+  - id: v2-l1-17
+    type: multiple_choice
+    prompt: מה פירוש mission?
+    options:
+    - משימה
+    - ניסיון; לנסות
+    - חופש
+    correct: 0
+    lexemes:
+    - mission
+  - id: v2-l1-18
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: בקשה?'
+    options:
+    - application
+    - theory
+    - catch
+    correct: 0
+    lexemes:
+    - application
+  - id: v2-l1-19
+    type: fill_blank
+    sentence: The ___ is growing slowly.
+    translation: הכלכלה צומחת לאט.
+    answers:
+    - economy
+    options:
+    - economy
+    - attempt
+    - theory
+    lexemes:
+    - economy
+  - id: v2-l1-20
+    type: fill_blank
+    sentence: Our ___ is to help students.
+    translation: המשימה שלנו היא לעזור לתלמידים.
+    answers:
+    - mission
+    options:
+    - mission
+    - theory
+    - channel
+    lexemes:
+    - mission
+  - id: v2-l1-21
+    type: fill_blank
+    sentence: I sent my ___ yesterday.
+    translation: שלחתי את הבקשה שלי אתמול.
+    answers:
+    - application
+    options:
+    - application
+    - condition
+    - freedom
+    lexemes:
+    - application
+  - id: v2-l1-22
+    type: fill_blank
+    sentence: The car is in good ___.
+    translation: המכונית במצב טוב.
+    answers:
+    - condition
+    options:
+    - condition
+    - economy
+    - mission
+    lexemes:
+    - condition
+  - id: v2-l1-23
+    type: fill_blank
+    sentence: ___ of speech is important.
+    translation: חופש הביטוי חשוב.
+    answers:
+    - Freedom
+    options:
+    - Freedom
+    - attempt
+    - coast
+    lexemes:
+    - freedom
+  - id: v2-l1-24
+    type: fill_blank
+    sentence: It was a good ___.
+    translation: זה היה ניסיון טוב.
+    answers:
+    - attempt
+    options:
+    - attempt
+    - condition
+    - channel
+    lexemes:
+    - attempt
+  - id: v2-l1-25
+    type: fill_blank
+    sentence: Change the ___, please.
+    translation: החלף ערוץ, בבקשה.
+    answers:
+    - channel
+    options:
+    - channel
+    - theory
+    - economy
+    lexemes:
+    - channel
+  - id: v2-l1-26
+    type: dictation
+    text: It was a good attempt.
+    lexemes:
+    - attempt
+  - id: v2-l1-27
+    type: dictation
+    text: Change the channel, please.
+    lexemes:
+    - channel
+- id: v2-l2
+  kind: new
+  title:
+    he: מילים חדשות 2
+    en: New words 2
+  exercises:
+  - id: v2-l2-01
+    type: learn
+    lexeme: protection
+    lexemes: []
+  - id: v2-l2-02
+    type: learn
+    lexeme: ride
+    lexemes: []
+  - id: v2-l2-03
+    type: learn
+    lexeme: serve
+    lexemes: []
+  - id: v2-l2-04
+    type: learn
+    lexeme: speech
+    lexemes: []
+  - id: v2-l2-05
+    type: learn
+    lexeme: partner
+    lexemes: []
+  - id: v2-l2-06
+    type: learn
+    lexeme: structure
+    lexemes: []
+  - id: v2-l2-07
+    type: learn
+    lexeme: traditional
+    lexemes: []
+  - id: v2-l2-08
+    type: learn
+    lexeme: brand
+    lexemes: []
+  - id: v2-l2-09
+    type: learn
+    lexeme: critical
+    lexemes: []
+  - id: v2-l2-10
+    type: learn
+    lexeme: digital
+    lexemes: []
+  - id: v2-l2-11
+    type: match_pairs
+    pairs:
+    - - protection
+      - הגנה
+    - - ride
+      - נסיעה
+    - - serve
+      - להגיש
+    - - speech
+      - נאום
+    - - partner
+      - שותף
+    lexemes:
+    - protection
+    - ride
+    - serve
+    - speech
+    - partner
+  - id: v2-l2-12
+    type: match_pairs
+    pairs:
+    - - structure
+      - מבנה
+    - - traditional
+      - מסורתי
+    - - brand
+      - מותג
+    - - critical
+      - קריטי
+    - - digital
+      - דיגיטלי
+    lexemes:
+    - structure
+    - traditional
+    - brand
+    - critical
+    - digital
+  - id: v2-l2-13
+    type: multiple_choice
+    prompt: מה פירוש protection?
+    options:
+    - הגנה
+    - נסיעה; לרכב
+    - דיגיטלי
+    correct: 0
+    lexemes:
+    - protection
+  - id: v2-l2-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: נסיעה?'
+    options:
+    - ride
+    - serve
+    - digital
+    correct: 0
+    lexemes:
+    - ride
+  - id: v2-l2-15
+    type: multiple_choice
+    prompt: מה פירוש serve?
+    options:
+    - להגיש, לשרת
+    - נסיעה; לרכב
+    - שותף
+    correct: 0
+    lexemes:
+    - serve
+  - id: v2-l2-16
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: נאום?'
+    options:
+    - speech
+    - traditional
+    - partner
+    correct: 0
+    lexemes:
+    - speech
+  - id: v2-l2-17
+    type: multiple_choice
+    prompt: מה פירוש partner?
+    options:
+    - שותף
+    - מסורתי
+    - דיגיטלי
+    correct: 0
+    lexemes:
+    - partner
+  - id: v2-l2-18
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: מבנה?'
+    options:
+    - structure
+    - ride
+    - digital
+    correct: 0
+    lexemes:
+    - structure
+  - id: v2-l2-19
+    type: fill_blank
+    sentence: He gave a short ___ at the wedding.
+    translation: הוא נשא נאום קצר בחתונה.
+    answers:
+    - speech
+    options:
+    - speech
+    - digital
+    - protection
+    lexemes:
+    - speech
+  - id: v2-l2-20
+    type: fill_blank
+    sentence: My business ___ lives in Haifa.
+    translation: השותף העסקי שלי גר בחיפה.
+    answers:
+    - partner
+    options:
+    - partner
+    - traditional
+    - ride
+    lexemes:
+    - partner
+  - id: v2-l2-21
+    type: fill_blank
+    sentence: The ___ of the building is old.
+    translation: המבנה של הבניין ישן.
+    answers:
+    - structure
+    options:
+    - structure
+    - serve
+    - protection
+    lexemes:
+    - structure
+  - id: v2-l2-22
+    type: fill_blank
+    sentence: We ate a ___ dinner.
+    translation: אכלנו ארוחת ערב מסורתית.
+    answers:
+    - traditional
+    options:
+    - traditional
+    - partner
+    - ride
+    lexemes:
+    - traditional
+  - id: v2-l2-23
+    type: fill_blank
+    sentence: This ___ is very popular.
+    translation: המותג הזה מאוד פופולרי.
+    answers:
+    - brand
+    options:
+    - brand
+    - critical
+    - traditional
+    lexemes:
+    - brand
+  - id: v2-l2-24
+    type: fill_blank
+    sentence: It is ___ to finish on time.
+    translation: קריטי לסיים בזמן.
+    answers:
+    - critical
+    options:
+    - critical
+    - speech
+    - protection
+    lexemes:
+    - critical
+  - id: v2-l2-25
+    type: fill_blank
+    sentence: I bought a ___ camera.
+    translation: קניתי מצלמה דיגיטלית.
+    answers:
+    - digital
+    options:
+    - digital
+    - brand
+    - serve
+    lexemes:
+    - digital
+  - id: v2-l2-26
+    type: dictation
+    text: It is critical to finish on time.
+    lexemes:
+    - critical
+  - id: v2-l2-27
+    type: dictation
+    text: I bought a digital camera.
+    lexemes:
+    - digital
+- id: v2-l3
+  kind: new
+  title:
+    he: מילים חדשות 3
+    en: New words 3
+  exercises:
+  - id: v2-l3-01
+    type: learn
+    lexeme: mental
+    lexemes: []
+  - id: v2-l3-02
+    type: learn
+    lexeme: mouth
+    lexemes: []
+  - id: v2-l3-03
+    type: learn
+    lexeme: realize
+    lexemes: []
+  - id: v2-l3-04
+    type: learn
+    lexeme: remain
+    lexemes: []
+  - id: v2-l3-05
+    type: learn
+    lexeme: scale
+    lexemes: []
+  - id: v2-l3-06
+    type: learn
+    lexeme: score
+    lexemes: []
+  - id: v2-l3-07
+    type: learn
+    lexeme: separate
+    lexemes: []
+  - id: v2-l3-08
+    type: learn
+    lexeme: surface
+    lexemes: []
+  - id: v2-l3-09
+    type: learn
+    lexeme: throw
+    lexemes: []
+  - id: v2-l3-10
+    type: learn
+    lexeme: fashion
+    lexemes: []
+  - id: v2-l3-11
+    type: match_pairs
+    pairs:
+    - - mental
+      - נפשי
+    - - mouth
+      - פה
+    - - realize
+      - להבין
+    - - remain
+      - להישאר
+    - - scale
+      - קנה מידה
+    lexemes:
+    - mental
+    - mouth
+    - realize
+    - remain
+    - scale
+  - id: v2-l3-12
+    type: match_pairs
+    pairs:
+    - - score
+      - ציון
+    - - separate
+      - נפרד
+    - - surface
+      - משטח
+    - - throw
+      - לזרוק
+    - - fashion
+      - אופנה
+    lexemes:
+    - score
+    - separate
+    - surface
+    - throw
+    - fashion
+  - id: v2-l3-13
+    type: multiple_choice
+    prompt: מה פירוש mental?
+    options:
+    - נפשי, מנטלי
+    - פה
+    - אופנה
+    correct: 0
+    lexemes:
+    - mental
+  - id: v2-l3-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: פה?'
+    options:
+    - mouth
+    - score
+    - throw
+    correct: 0
+    lexemes:
+    - mouth
+  - id: v2-l3-15
+    type: multiple_choice
+    prompt: מה פירוש realize?
+    options:
+    - להבין, לשים לב
+    - פה
+    - משטח, פני השטח
+    correct: 0
+    lexemes:
+    - realize
+  - id: v2-l3-16
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: להישאר?'
+    options:
+    - remain
+    - fashion
+    - mouth
+    correct: 0
+    lexemes:
+    - remain
+  - id: v2-l3-17
+    type: multiple_choice
+    prompt: מה פירוש scale?
+    options:
+    - קנה מידה, סולם
+    - נפשי, מנטלי
+    - ציון, תוצאה
+    correct: 0
+    lexemes:
+    - scale
+  - id: v2-l3-18
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: ציון?'
+    options:
+    - score
+    - mouth
+    - fashion
+    correct: 0
+    lexemes:
+    - score
+  - id: v2-l3-19
+    type: fill_blank
+    sentence: Please ___ seated.
+    translation: אנא הישארו במקומותיכם.
+    answers:
+    - remain
+    options:
+    - remain
+    - throw
+    - mouth
+    lexemes:
+    - remain
+  - id: v2-l3-20
+    type: fill_blank
+    sentence: On a ___ of one to ten, I give it nine.
+    translation: בסולם של אחת עד עשר, אני נותן לזה תשע.
+    answers:
+    - scale
+    options:
+    - scale
+    - mouth
+    - throw
+    lexemes:
+    - scale
+  - id: v2-l3-21
+    type: fill_blank
+    sentence: What was the final ___?
+    translation: מה הייתה התוצאה הסופית?
+    answers:
+    - score
+    options:
+    - score
+    - remain
+    - fashion
+    lexemes:
+    - score
+  - id: v2-l3-22
+    type: fill_blank
+    sentence: We have ___ rooms.
+    translation: יש לנו חדרים נפרדים.
+    answers:
+    - separate
+    options:
+    - separate
+    - fashion
+    - remain
+    lexemes:
+    - separate
+  - id: v2-l3-23
+    type: fill_blank
+    sentence: The ___ of the table is clean.
+    translation: משטח השולחן נקי.
+    answers:
+    - surface
+    options:
+    - surface
+    - score
+    - mouth
+    lexemes:
+    - surface
+  - id: v2-l3-24
+    type: fill_blank
+    sentence: Do not ___ paper on the floor.
+    translation: אל תזרקו נייר על הרצפה.
+    answers:
+    - throw
+    options:
+    - throw
+    - remain
+    - fashion
+    lexemes:
+    - throw
+  - id: v2-l3-25
+    type: fill_blank
+    sentence: She works in the ___ industry.
+    translation: היא עובדת בתעשיית האופנה.
+    answers:
+    - fashion
+    options:
+    - fashion
+    - mouth
+    - separate
+    lexemes:
+    - fashion
+  - id: v2-l3-26
+    type: dictation
+    text: Do not throw paper on the floor.
+    lexemes:
+    - throw
+  - id: v2-l3-27
+    type: dictation
+    text: She works in the fashion industry.
+    lexemes:
+    - fashion
+- id: v2-l4
+  kind: new
+  title:
+    he: מילים חדשות 4
+    en: New words 4
+  exercises:
+  - id: v2-l4-01
+    type: learn
+    lexeme: hill
+    lexemes: []
+  - id: v2-l4-02
+    type: learn
+    lexeme: metal
+    lexemes: []
+  - id: v2-l4-03
+    type: learn
+    lexeme: profile
+    lexemes: []
+  - id: v2-l4-04
+    type: learn
+    lexeme: pull
+    lexemes: []
+  - id: v2-l4-05
+    type: learn
+    lexeme: target
+    lexemes: []
+  - id: v2-l4-06
+    type: learn
+    lexeme: memory
+    lexemes: []
+  - id: v2-l4-07
+    type: learn
+    lexeme: supply
+    lexemes: []
+  - id: v2-l4-08
+    type: learn
+    lexeme: weird
+    lexemes: []
+  - id: v2-l4-09
+    type: learn
+    lexeme: variety
+    lexemes: []
+  - id: v2-l4-10
+    type: match_pairs
+    pairs:
+    - - hill
+      - גבעה
+    - - metal
+      - מתכת
+    - - profile
+      - פרופיל
+    - - pull
+      - למשוך
+    - - target
+      - יעד
+    lexemes:
+    - hill
+    - metal
+    - profile
+    - pull
+    - target
+  - id: v2-l4-11
+    type: match_pairs
+    pairs:
+    - - memory
+      - זיכרון
+    - - supply
+      - אספקה
+    - - weird
+      - מוזר
+    - - variety
+      - מגוון
+    lexemes:
+    - memory
+    - supply
+    - weird
+    - variety
+  - id: v2-l4-12
+    type: multiple_choice
+    prompt: מה פירוש hill?
+    options:
+    - גבעה
+    - מתכת
+    - פרופיל
+    correct: 0
+    lexemes:
+    - hill
+  - id: v2-l4-13
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: מתכת?'
+    options:
+    - metal
+    - weird
+    - variety
+    correct: 0
+    lexemes:
+    - metal
+  - id: v2-l4-14
+    type: multiple_choice
+    prompt: מה פירוש profile?
+    options:
+    - פרופיל
+    - מתכת
+    - אספקה; לספק
+    correct: 0
+    lexemes:
+    - profile
+  - id: v2-l4-15
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: למשוך?'
+    options:
+    - pull
+    - target
+    - weird
+    correct: 0
+    lexemes:
+    - pull
+  - id: v2-l4-16
+    type: multiple_choice
+    prompt: מה פירוש target?
+    options:
+    - יעד, מטרה
+    - למשוך
+    - גבעה
+    correct: 0
+    lexemes:
+    - target
+  - id: v2-l4-17
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: זיכרון?'
+    options:
+    - memory
+    - variety
+    - pull
+    correct: 0
+    lexemes:
+    - memory
+  - id: v2-l4-18
+    type: fill_blank
+    sentence: ___ the door, don't push it.
+    translation: משכו את הדלת, אל תדחפו.
+    answers:
+    - Pull
+    options:
+    - Pull
+    - hill
+    - variety
+    lexemes:
+    - pull
+  - id: v2-l4-19
+    type: fill_blank
+    sentence: We reached our ___ this month.
+    translation: הגענו ליעד שלנו החודש.
+    answers:
+    - target
+    options:
+    - target
+    - memory
+    - weird
+    lexemes:
+    - target
+  - id: v2-l4-20
+    type: fill_blank
+    sentence: I have a good ___ for faces.
+    translation: יש לי זיכרון טוב לפרצופים.
+    answers:
+    - memory
+    options:
+    - memory
+    - variety
+    - pull
+    lexemes:
+    - memory
+  - id: v2-l4-21
+    type: fill_blank
+    sentence: We need a new ___ of paper.
+    translation: אנחנו צריכים אספקה חדשה של נייר.
+    answers:
+    - supply
+    options:
+    - supply
+    - target
+    - profile
+    lexemes:
+    - supply
+  - id: v2-l4-22
+    type: fill_blank
+    sentence: That is a ___ noise.
+    translation: זה רעש מוזר.
+    answers:
+    - weird
+    options:
+    - weird
+    - target
+    - profile
+    lexemes:
+    - weird
+  - id: v2-l4-23
+    type: fill_blank
+    sentence: The shop sells a ___ of cheese.
+    translation: החנות מוכרת מגוון גבינות.
+    answers:
+    - variety
+    options:
+    - variety
+    - weird
+    - supply
+    lexemes:
+    - variety
+  - id: v2-l4-24
+    type: dictation
+    text: That is a weird noise.
+    lexemes:
+    - weird
+  - id: v2-l4-25
+    type: dictation
+    text: The shop sells a variety of cheese.
+    lexemes:
+    - variety

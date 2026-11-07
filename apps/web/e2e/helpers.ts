@@ -49,6 +49,9 @@ export async function solve(page: Page, ex: Exercise) {
     case "speak_repeat":
       await page.getByRole("button", { name: "אמרתי נכון" }).click();
       break;
+    case "write":
+      await page.getByRole("textbox").fill(ex.model);
+      break;
   }
   await page.getByRole("button", { name: "בדיקה" }).click();
 }

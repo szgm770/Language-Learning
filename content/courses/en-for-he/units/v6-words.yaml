@@ -1,0 +1,1244 @@
+id: v6-words
+cefr: C1
+scene: study
+title:
+  he: הרחבת אוצר מילים 6
+  en: Word builder 6
+story: עוד מילים חשובות בשימוש יומיומי, מקובצות בשיעורים קצרים. כל מילה מופיעה במשפט, ואחר כך מתרגלים אותה.
+canDo:
+- להבין ולהשתמש במילים נפוצות נוספות
+- לזהות את המילים במשפטים אמיתיים
+vocabulary:
+- id: argument
+  text: argument
+  translation: ויכוח, טיעון
+  pos: noun
+  example:
+    text: They had an argument about money.
+    translation: היה להם ויכוח על כסף.
+- id: conflict
+  text: conflict
+  translation: סכסוך, התנגשות
+  pos: noun
+  example:
+    text: There was a conflict between the two teams.
+    translation: היה סכסוך בין שתי הקבוצות.
+- id: debate
+  text: debate
+  translation: דיון; לדון
+  pos: noun
+  example:
+    text: There was a long debate about the budget.
+    translation: היה דיון ארוך על התקציב.
+- id: documents
+  text: documents
+  translation: מסמכים
+  pos: noun
+  example:
+    text: Bring all the documents to the meeting.
+    translation: הביאו את כל המסמכים לפגישה.
+- id: escape
+  text: escape
+  translation: לברוח; מילוט
+  pos: verb
+  example:
+    text: The bird tried to escape from the cage.
+    translation: הציפור ניסתה לברוח מהכלוב.
+- id: phase
+  text: phase
+  translation: שלב
+  pos: noun
+  example:
+    text: This is the last phase of the project.
+    translation: זה השלב האחרון של הפרויקט.
+- id: requirements
+  text: requirements
+  translation: דרישות
+  pos: noun
+  example:
+    text: Check the requirements before you apply.
+    translation: בדקו את הדרישות לפני שאתם מגישים בקשה.
+- id: revenue
+  text: revenue
+  translation: הכנסות
+  pos: noun
+  example:
+    text: The company's revenue grew this year.
+    translation: הכנסות החברה גדלו השנה.
+- id: secure
+  text: secure
+  translation: בטוח; להבטיח
+  pos: adjective
+  example:
+    text: Keep your password secure.
+    translation: שמרו על הסיסמה שלכם בטוחה.
+- id: strange
+  text: strange
+  translation: מוזר
+  pos: adjective
+  example:
+    text: I heard a strange sound.
+    translation: שמעתי קול מוזר.
+- id: talent
+  text: talent
+  translation: כישרון
+  pos: noun
+  example:
+    text: She has a talent for music.
+    translation: יש לה כישרון למוזיקה.
+- id: blame
+  text: blame
+  translation: להאשים; אשמה
+  pos: verb
+  example:
+    text: Don't blame me for the delay.
+    translation: אל תאשימו אותי בעיכוב.
+- id: coverage
+  text: coverage
+  translation: סיקור, כיסוי
+  pos: noun
+  example:
+    text: The news gave full coverage of the event.
+    translation: החדשות סיקרו את האירוע במלואו.
+- id: display
+  text: display
+  translation: תצוגה; להציג
+  pos: noun
+  example:
+    text: The shop has a nice display in the window.
+    translation: בחנות יש תצוגה יפה בחלון.
+- id: incredible
+  text: incredible
+  translation: מדהים, לא ייאמן
+  pos: adjective
+  example:
+    text: The view was incredible.
+    translation: הנוף היה מדהים.
+- id: inspired
+  text: inspired
+  translation: מתרגש, מקבל השראה
+  pos: adjective
+  example:
+    text: I felt inspired by her story.
+    translation: קיבלתי השראה מהסיפור שלה.
+- id: ministry
+  text: ministry
+  translation: משרד ממשלתי
+  pos: noun
+  example:
+    text: She works at the Ministry of Education.
+    translation: היא עובדת במשרד החינוך.
+- id: mode
+  text: mode
+  translation: מצב, אופן
+  pos: noun
+  example:
+    text: Put your phone in silent mode.
+    translation: העבירו את הטלפון למצב שקט.
+- id: obvious
+  text: obvious
+  translation: ברור
+  pos: adjective
+  example:
+    text: The answer is obvious.
+    translation: התשובה ברורה.
+- id: remaining
+  text: remaining
+  translation: שנותר
+  pos: adjective
+  example:
+    text: The remaining tickets are on sale.
+    translation: הכרטיסים שנותרו למכירה.
+- id: vision
+  text: vision
+  translation: חזון, ראייה
+  pos: noun
+  example:
+    text: He has a clear vision for the company.
+    translation: יש לו חזון ברור לחברה.
+- id: crisis
+  text: crisis
+  translation: משבר
+  pos: noun
+  example:
+    text: The company is facing a crisis.
+    translation: החברה ניצבת מול משבר.
+- id: literature
+  text: literature
+  translation: ספרות
+  pos: noun
+  example:
+    text: She studies English literature.
+    translation: היא לומדת ספרות אנגלית.
+- id: mayor
+  text: mayor
+  translation: ראש עירייה
+  pos: noun
+  example:
+    text: The mayor opened the new school.
+    translation: ראש העירייה פתח את בית הספר החדש.
+- id: theme
+  text: theme
+  translation: נושא, רעיון מרכזי
+  pos: noun
+  example:
+    text: The theme of the party is the sea.
+    translation: נושא המסיבה הוא הים.
+- id: tiny
+  text: tiny
+  translation: זעיר
+  pos: adjective
+  example:
+    text: The baby has tiny hands.
+    translation: לתינוק יש ידיים זעירות.
+- id: typically
+  text: typically
+  translation: בדרך כלל
+  pos: adverb
+  example:
+    text: Typically, we start at nine.
+    translation: בדרך כלל אנחנו מתחילים בתשע.
+- id: capable
+  text: capable
+  translation: מסוגל
+  pos: adjective
+  example:
+    text: She is capable of great things.
+    translation: היא מסוגלת לדברים גדולים.
+- id: desire
+  text: desire
+  translation: רצון, תשוקה
+  pos: noun
+  example:
+    text: He has a strong desire to learn.
+    translation: יש לו רצון חזק ללמוד.
+- id: familiar
+  text: familiar
+  translation: מוכר
+  pos: adjective
+  example:
+    text: Your face looks familiar.
+    translation: הפנים שלך נראות מוכרות.
+- id: relevant
+  text: relevant
+  translation: רלוונטי
+  pos: adjective
+  example:
+    text: Is this information relevant?
+    translation: האם המידע הזה רלוונטי?
+- id: seek
+  text: seek
+  translation: לחפש, לבקש
+  pos: verb
+  example:
+    text: Seek help if you need it.
+    translation: בקשו עזרה אם אתם צריכים.
+- id: unable
+  text: unable
+  translation: לא מסוגל
+  pos: adjective
+  example:
+    text: I am unable to attend the meeting.
+    translation: אני לא יכול להגיע לפגישה.
+- id: upset
+  text: upset
+  translation: נסער, מוטרד
+  pos: adjective
+  example:
+    text: She was upset about the news.
+    translation: היא הייתה נסערת מהחדשות.
+- id: creative
+  text: creative
+  translation: יצירתי
+  pos: adjective
+  example:
+    text: He is a very creative child.
+    translation: הוא ילד יצירתי מאוד.
+- id: extreme
+  text: extreme
+  translation: קיצוני
+  pos: adjective
+  example:
+    text: The weather was extreme this week.
+    translation: מזג האוויר היה קיצוני השבוע.
+- id: threat
+  text: threat
+  translation: איום
+  pos: noun
+  example:
+    text: Pollution is a threat to the sea.
+    translation: זיהום הוא איום על הים.
+- id: empty
+  text: empty
+  translation: ריק
+  pos: adjective
+  example:
+    text: The fridge is empty.
+    translation: המקרר ריק.
+- id: instance
+  text: instance
+  translation: מקרה, דוגמה
+  pos: noun
+  example:
+    text: For instance, you can call me.
+    translation: למשל, אפשר להתקשר אליי.
+- id: reasonable
+  text: reasonable
+  translation: סביר, הגיוני
+  pos: adjective
+  example:
+    text: The price is reasonable.
+    translation: המחיר סביר.
+lessons:
+- id: v6-l1
+  kind: new
+  title:
+    he: מילים חדשות 1
+    en: New words 1
+  exercises:
+  - id: v6-l1-01
+    type: learn
+    lexeme: argument
+    lexemes: []
+  - id: v6-l1-02
+    type: learn
+    lexeme: conflict
+    lexemes: []
+  - id: v6-l1-03
+    type: learn
+    lexeme: debate
+    lexemes: []
+  - id: v6-l1-04
+    type: learn
+    lexeme: documents
+    lexemes: []
+  - id: v6-l1-05
+    type: learn
+    lexeme: escape
+    lexemes: []
+  - id: v6-l1-06
+    type: learn
+    lexeme: phase
+    lexemes: []
+  - id: v6-l1-07
+    type: learn
+    lexeme: requirements
+    lexemes: []
+  - id: v6-l1-08
+    type: learn
+    lexeme: revenue
+    lexemes: []
+  - id: v6-l1-09
+    type: learn
+    lexeme: secure
+    lexemes: []
+  - id: v6-l1-10
+    type: learn
+    lexeme: strange
+    lexemes: []
+  - id: v6-l1-11
+    type: match_pairs
+    pairs:
+    - - argument
+      - ויכוח
+    - - conflict
+      - סכסוך
+    - - debate
+      - דיון
+    - - documents
+      - מסמכים
+    - - escape
+      - לברוח
+    lexemes:
+    - argument
+    - conflict
+    - debate
+    - documents
+    - escape
+  - id: v6-l1-12
+    type: match_pairs
+    pairs:
+    - - phase
+      - שלב
+    - - requirements
+      - דרישות
+    - - revenue
+      - הכנסות
+    - - secure
+      - בטוח
+    - - strange
+      - מוזר
+    lexemes:
+    - phase
+    - requirements
+    - revenue
+    - secure
+    - strange
+  - id: v6-l1-13
+    type: multiple_choice
+    prompt: מה פירוש argument?
+    options:
+    - ויכוח, טיעון
+    - מוזר
+    - הכנסות
+    correct: 0
+    lexemes:
+    - argument
+  - id: v6-l1-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: סכסוך?'
+    options:
+    - conflict
+    - documents
+    - debate
+    correct: 0
+    lexemes:
+    - conflict
+  - id: v6-l1-15
+    type: multiple_choice
+    prompt: מה פירוש debate?
+    options:
+    - דיון; לדון
+    - לברוח; מילוט
+    - שלב
+    correct: 0
+    lexemes:
+    - debate
+  - id: v6-l1-16
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: מסמכים?'
+    options:
+    - documents
+    - debate
+    - requirements
+    correct: 0
+    lexemes:
+    - documents
+  - id: v6-l1-17
+    type: multiple_choice
+    prompt: מה פירוש escape?
+    options:
+    - לברוח; מילוט
+    - בטוח; להבטיח
+    - מסמכים
+    correct: 0
+    lexemes:
+    - escape
+  - id: v6-l1-18
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: שלב?'
+    options:
+    - phase
+    - revenue
+    - strange
+    correct: 0
+    lexemes:
+    - phase
+  - id: v6-l1-19
+    type: fill_blank
+    sentence: Bring all the ___ to the meeting.
+    translation: הביאו את כל המסמכים לפגישה.
+    answers:
+    - documents
+    options:
+    - documents
+    - revenue
+    - debate
+    lexemes:
+    - documents
+  - id: v6-l1-20
+    type: fill_blank
+    sentence: The bird tried to ___ from the cage.
+    translation: הציפור ניסתה לברוח מהכלוב.
+    answers:
+    - escape
+    options:
+    - escape
+    - requirements
+    - debate
+    lexemes:
+    - escape
+  - id: v6-l1-21
+    type: fill_blank
+    sentence: This is the last ___ of the project.
+    translation: זה השלב האחרון של הפרויקט.
+    answers:
+    - phase
+    options:
+    - phase
+    - escape
+    - revenue
+    lexemes:
+    - phase
+  - id: v6-l1-22
+    type: fill_blank
+    sentence: Check the ___ before you apply.
+    translation: בדקו את הדרישות לפני שאתם מגישים בקשה.
+    answers:
+    - requirements
+    options:
+    - requirements
+    - strange
+    - conflict
+    lexemes:
+    - requirements
+  - id: v6-l1-23
+    type: fill_blank
+    sentence: The company's ___ grew this year.
+    translation: הכנסות החברה גדלו השנה.
+    answers:
+    - revenue
+    options:
+    - revenue
+    - debate
+    - argument
+    lexemes:
+    - revenue
+  - id: v6-l1-24
+    type: fill_blank
+    sentence: Keep your password ___.
+    translation: שמרו על הסיסמה שלכם בטוחה.
+    answers:
+    - secure
+    options:
+    - secure
+    - revenue
+    - documents
+    lexemes:
+    - secure
+  - id: v6-l1-25
+    type: fill_blank
+    sentence: I heard a ___ sound.
+    translation: שמעתי קול מוזר.
+    answers:
+    - strange
+    options:
+    - strange
+    - secure
+    - argument
+    lexemes:
+    - strange
+  - id: v6-l1-26
+    type: dictation
+    text: Keep your password secure.
+    lexemes:
+    - secure
+  - id: v6-l1-27
+    type: dictation
+    text: I heard a strange sound.
+    lexemes:
+    - strange
+- id: v6-l2
+  kind: new
+  title:
+    he: מילים חדשות 2
+    en: New words 2
+  exercises:
+  - id: v6-l2-01
+    type: learn
+    lexeme: talent
+    lexemes: []
+  - id: v6-l2-02
+    type: learn
+    lexeme: blame
+    lexemes: []
+  - id: v6-l2-03
+    type: learn
+    lexeme: coverage
+    lexemes: []
+  - id: v6-l2-04
+    type: learn
+    lexeme: display
+    lexemes: []
+  - id: v6-l2-05
+    type: learn
+    lexeme: incredible
+    lexemes: []
+  - id: v6-l2-06
+    type: learn
+    lexeme: inspired
+    lexemes: []
+  - id: v6-l2-07
+    type: learn
+    lexeme: ministry
+    lexemes: []
+  - id: v6-l2-08
+    type: learn
+    lexeme: mode
+    lexemes: []
+  - id: v6-l2-09
+    type: learn
+    lexeme: obvious
+    lexemes: []
+  - id: v6-l2-10
+    type: learn
+    lexeme: remaining
+    lexemes: []
+  - id: v6-l2-11
+    type: match_pairs
+    pairs:
+    - - talent
+      - כישרון
+    - - blame
+      - להאשים
+    - - coverage
+      - סיקור
+    - - display
+      - תצוגה
+    - - incredible
+      - מדהים
+    lexemes:
+    - talent
+    - blame
+    - coverage
+    - display
+    - incredible
+  - id: v6-l2-12
+    type: match_pairs
+    pairs:
+    - - inspired
+      - מתרגש
+    - - ministry
+      - משרד ממשלתי
+    - - mode
+      - מצב
+    - - obvious
+      - ברור
+    - - remaining
+      - שנותר
+    lexemes:
+    - inspired
+    - ministry
+    - mode
+    - obvious
+    - remaining
+  - id: v6-l2-13
+    type: multiple_choice
+    prompt: מה פירוש talent?
+    options:
+    - כישרון
+    - מצב, אופן
+    - ברור
+    correct: 0
+    lexemes:
+    - talent
+  - id: v6-l2-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: להאשים?'
+    options:
+    - blame
+    - remaining
+    - inspired
+    correct: 0
+    lexemes:
+    - blame
+  - id: v6-l2-15
+    type: multiple_choice
+    prompt: מה פירוש coverage?
+    options:
+    - סיקור, כיסוי
+    - מצב, אופן
+    - תצוגה; להציג
+    correct: 0
+    lexemes:
+    - coverage
+  - id: v6-l2-16
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: תצוגה?'
+    options:
+    - display
+    - coverage
+    - mode
+    correct: 0
+    lexemes:
+    - display
+  - id: v6-l2-17
+    type: multiple_choice
+    prompt: מה פירוש incredible?
+    options:
+    - מדהים, לא ייאמן
+    - ברור
+    - מתרגש, מקבל השראה
+    correct: 0
+    lexemes:
+    - incredible
+  - id: v6-l2-18
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: מתרגש?'
+    options:
+    - inspired
+    - mode
+    - obvious
+    correct: 0
+    lexemes:
+    - inspired
+  - id: v6-l2-19
+    type: fill_blank
+    sentence: The shop has a nice ___ in the window.
+    translation: בחנות יש תצוגה יפה בחלון.
+    answers:
+    - display
+    options:
+    - display
+    - obvious
+    - ministry
+    lexemes:
+    - display
+  - id: v6-l2-20
+    type: fill_blank
+    sentence: The view was ___.
+    translation: הנוף היה מדהים.
+    answers:
+    - incredible
+    options:
+    - incredible
+    - coverage
+    - display
+    lexemes:
+    - incredible
+  - id: v6-l2-21
+    type: fill_blank
+    sentence: I felt ___ by her story.
+    translation: קיבלתי השראה מהסיפור שלה.
+    answers:
+    - inspired
+    options:
+    - inspired
+    - talent
+    - display
+    lexemes:
+    - inspired
+  - id: v6-l2-22
+    type: fill_blank
+    sentence: She works at the ___ of Education.
+    translation: היא עובדת במשרד החינוך.
+    answers:
+    - Ministry
+    options:
+    - Ministry
+    - coverage
+    - remaining
+    lexemes:
+    - ministry
+  - id: v6-l2-23
+    type: fill_blank
+    sentence: Put your phone in silent ___.
+    translation: העבירו את הטלפון למצב שקט.
+    answers:
+    - mode
+    options:
+    - mode
+    - talent
+    - remaining
+    lexemes:
+    - mode
+  - id: v6-l2-24
+    type: fill_blank
+    sentence: The answer is ___.
+    translation: התשובה ברורה.
+    answers:
+    - obvious
+    options:
+    - obvious
+    - talent
+    - coverage
+    lexemes:
+    - obvious
+  - id: v6-l2-25
+    type: fill_blank
+    sentence: The ___ tickets are on sale.
+    translation: הכרטיסים שנותרו למכירה.
+    answers:
+    - remaining
+    options:
+    - remaining
+    - obvious
+    - talent
+    lexemes:
+    - remaining
+  - id: v6-l2-26
+    type: dictation
+    text: The answer is obvious.
+    lexemes:
+    - obvious
+  - id: v6-l2-27
+    type: dictation
+    text: The remaining tickets are on sale.
+    lexemes:
+    - remaining
+- id: v6-l3
+  kind: new
+  title:
+    he: מילים חדשות 3
+    en: New words 3
+  exercises:
+  - id: v6-l3-01
+    type: learn
+    lexeme: vision
+    lexemes: []
+  - id: v6-l3-02
+    type: learn
+    lexeme: crisis
+    lexemes: []
+  - id: v6-l3-03
+    type: learn
+    lexeme: literature
+    lexemes: []
+  - id: v6-l3-04
+    type: learn
+    lexeme: mayor
+    lexemes: []
+  - id: v6-l3-05
+    type: learn
+    lexeme: theme
+    lexemes: []
+  - id: v6-l3-06
+    type: learn
+    lexeme: tiny
+    lexemes: []
+  - id: v6-l3-07
+    type: learn
+    lexeme: typically
+    lexemes: []
+  - id: v6-l3-08
+    type: learn
+    lexeme: capable
+    lexemes: []
+  - id: v6-l3-09
+    type: learn
+    lexeme: desire
+    lexemes: []
+  - id: v6-l3-10
+    type: learn
+    lexeme: familiar
+    lexemes: []
+  - id: v6-l3-11
+    type: match_pairs
+    pairs:
+    - - vision
+      - חזון
+    - - crisis
+      - משבר
+    - - literature
+      - ספרות
+    - - mayor
+      - ראש עירייה
+    - - theme
+      - נושא
+    lexemes:
+    - vision
+    - crisis
+    - literature
+    - mayor
+    - theme
+  - id: v6-l3-12
+    type: match_pairs
+    pairs:
+    - - tiny
+      - זעיר
+    - - typically
+      - בדרך כלל
+    - - capable
+      - מסוגל
+    - - desire
+      - רצון
+    - - familiar
+      - מוכר
+    lexemes:
+    - tiny
+    - typically
+    - capable
+    - desire
+    - familiar
+  - id: v6-l3-13
+    type: multiple_choice
+    prompt: מה פירוש vision?
+    options:
+    - חזון, ראייה
+    - רצון, תשוקה
+    - נושא, רעיון מרכזי
+    correct: 0
+    lexemes:
+    - vision
+  - id: v6-l3-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: משבר?'
+    options:
+    - crisis
+    - familiar
+    - literature
+    correct: 0
+    lexemes:
+    - crisis
+  - id: v6-l3-15
+    type: multiple_choice
+    prompt: מה פירוש literature?
+    options:
+    - ספרות
+    - בדרך כלל
+    - חזון, ראייה
+    correct: 0
+    lexemes:
+    - literature
+  - id: v6-l3-16
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: ראש עירייה?'
+    options:
+    - mayor
+    - desire
+    - capable
+    correct: 0
+    lexemes:
+    - mayor
+  - id: v6-l3-17
+    type: multiple_choice
+    prompt: מה פירוש theme?
+    options:
+    - נושא, רעיון מרכזי
+    - רצון, תשוקה
+    - זעיר
+    correct: 0
+    lexemes:
+    - theme
+  - id: v6-l3-18
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: זעיר?'
+    options:
+    - tiny
+    - vision
+    - desire
+    correct: 0
+    lexemes:
+    - tiny
+  - id: v6-l3-19
+    type: fill_blank
+    sentence: The ___ opened the new school.
+    translation: ראש העירייה פתח את בית הספר החדש.
+    answers:
+    - mayor
+    options:
+    - mayor
+    - theme
+    - capable
+    lexemes:
+    - mayor
+  - id: v6-l3-20
+    type: fill_blank
+    sentence: The ___ of the party is the sea.
+    translation: נושא המסיבה הוא הים.
+    answers:
+    - theme
+    options:
+    - theme
+    - familiar
+    - tiny
+    lexemes:
+    - theme
+  - id: v6-l3-21
+    type: fill_blank
+    sentence: The baby has ___ hands.
+    translation: לתינוק יש ידיים זעירות.
+    answers:
+    - tiny
+    options:
+    - tiny
+    - desire
+    - literature
+    lexemes:
+    - tiny
+  - id: v6-l3-22
+    type: fill_blank
+    sentence: ___, we start at nine.
+    translation: בדרך כלל אנחנו מתחילים בתשע.
+    answers:
+    - Typically
+    options:
+    - Typically
+    - desire
+    - mayor
+    lexemes:
+    - typically
+  - id: v6-l3-23
+    type: fill_blank
+    sentence: She is ___ of great things.
+    translation: היא מסוגלת לדברים גדולים.
+    answers:
+    - capable
+    options:
+    - capable
+    - crisis
+    - mayor
+    lexemes:
+    - capable
+  - id: v6-l3-24
+    type: fill_blank
+    sentence: He has a strong ___ to learn.
+    translation: יש לו רצון חזק ללמוד.
+    answers:
+    - desire
+    options:
+    - desire
+    - mayor
+    - literature
+    lexemes:
+    - desire
+  - id: v6-l3-25
+    type: fill_blank
+    sentence: Your face looks ___.
+    translation: הפנים שלך נראות מוכרות.
+    answers:
+    - familiar
+    options:
+    - familiar
+    - typically
+    - desire
+    lexemes:
+    - familiar
+  - id: v6-l3-26
+    type: dictation
+    text: He has a strong desire to learn.
+    lexemes:
+    - desire
+  - id: v6-l3-27
+    type: dictation
+    text: Your face looks familiar.
+    lexemes:
+    - familiar
+- id: v6-l4
+  kind: new
+  title:
+    he: מילים חדשות 4
+    en: New words 4
+  exercises:
+  - id: v6-l4-01
+    type: learn
+    lexeme: relevant
+    lexemes: []
+  - id: v6-l4-02
+    type: learn
+    lexeme: seek
+    lexemes: []
+  - id: v6-l4-03
+    type: learn
+    lexeme: unable
+    lexemes: []
+  - id: v6-l4-04
+    type: learn
+    lexeme: upset
+    lexemes: []
+  - id: v6-l4-05
+    type: learn
+    lexeme: creative
+    lexemes: []
+  - id: v6-l4-06
+    type: learn
+    lexeme: extreme
+    lexemes: []
+  - id: v6-l4-07
+    type: learn
+    lexeme: threat
+    lexemes: []
+  - id: v6-l4-08
+    type: learn
+    lexeme: empty
+    lexemes: []
+  - id: v6-l4-09
+    type: learn
+    lexeme: instance
+    lexemes: []
+  - id: v6-l4-10
+    type: learn
+    lexeme: reasonable
+    lexemes: []
+  - id: v6-l4-11
+    type: match_pairs
+    pairs:
+    - - relevant
+      - רלוונטי
+    - - seek
+      - לחפש
+    - - unable
+      - לא מסוגל
+    - - upset
+      - נסער
+    - - creative
+      - יצירתי
+    lexemes:
+    - relevant
+    - seek
+    - unable
+    - upset
+    - creative
+  - id: v6-l4-12
+    type: match_pairs
+    pairs:
+    - - extreme
+      - קיצוני
+    - - threat
+      - איום
+    - - empty
+      - ריק
+    - - instance
+      - מקרה
+    - - reasonable
+      - סביר
+    lexemes:
+    - extreme
+    - threat
+    - empty
+    - instance
+    - reasonable
+  - id: v6-l4-13
+    type: multiple_choice
+    prompt: מה פירוש relevant?
+    options:
+    - רלוונטי
+    - איום
+    - ריק
+    correct: 0
+    lexemes:
+    - relevant
+  - id: v6-l4-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: לחפש?'
+    options:
+    - seek
+    - upset
+    - empty
+    correct: 0
+    lexemes:
+    - seek
+  - id: v6-l4-15
+    type: multiple_choice
+    prompt: מה פירוש unable?
+    options:
+    - לא מסוגל
+    - סביר, הגיוני
+    - יצירתי
+    correct: 0
+    lexemes:
+    - unable
+  - id: v6-l4-16
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: נסער?'
+    options:
+    - upset
+    - reasonable
+    - threat
+    correct: 0
+    lexemes:
+    - upset
+  - id: v6-l4-17
+    type: multiple_choice
+    prompt: מה פירוש creative?
+    options:
+    - יצירתי
+    - מקרה, דוגמה
+    - לחפש, לבקש
+    correct: 0
+    lexemes:
+    - creative
+  - id: v6-l4-18
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: קיצוני?'
+    options:
+    - extreme
+    - relevant
+    - upset
+    correct: 0
+    lexemes:
+    - extreme
+  - id: v6-l4-19
+    type: fill_blank
+    sentence: She was ___ about the news.
+    translation: היא הייתה נסערת מהחדשות.
+    answers:
+    - upset
+    options:
+    - upset
+    - relevant
+    - reasonable
+    lexemes:
+    - upset
+  - id: v6-l4-20
+    type: fill_blank
+    sentence: He is a very ___ child.
+    translation: הוא ילד יצירתי מאוד.
+    answers:
+    - creative
+    options:
+    - creative
+    - empty
+    - instance
+    lexemes:
+    - creative
+  - id: v6-l4-21
+    type: fill_blank
+    sentence: The weather was ___ this week.
+    translation: מזג האוויר היה קיצוני השבוע.
+    answers:
+    - extreme
+    options:
+    - extreme
+    - threat
+    - upset
+    lexemes:
+    - extreme
+  - id: v6-l4-22
+    type: fill_blank
+    sentence: Pollution is a ___ to the sea.
+    translation: זיהום הוא איום על הים.
+    answers:
+    - threat
+    options:
+    - threat
+    - reasonable
+    - seek
+    lexemes:
+    - threat
+  - id: v6-l4-23
+    type: fill_blank
+    sentence: The fridge is ___.
+    translation: המקרר ריק.
+    answers:
+    - empty
+    options:
+    - empty
+    - seek
+    - upset
+    lexemes:
+    - empty
+  - id: v6-l4-24
+    type: fill_blank
+    sentence: For ___, you can call me.
+    translation: למשל, אפשר להתקשר אליי.
+    answers:
+    - instance
+    options:
+    - instance
+    - threat
+    - relevant
+    lexemes:
+    - instance
+  - id: v6-l4-25
+    type: fill_blank
+    sentence: The price is ___.
+    translation: המחיר סביר.
+    answers:
+    - reasonable
+    options:
+    - reasonable
+    - empty
+    - creative
+    lexemes:
+    - reasonable
+  - id: v6-l4-26
+    type: dictation
+    text: For instance, you can call me.
+    lexemes:
+    - instance
+  - id: v6-l4-27
+    type: dictation
+    text: The price is reasonable.
+    lexemes:
+    - reasonable

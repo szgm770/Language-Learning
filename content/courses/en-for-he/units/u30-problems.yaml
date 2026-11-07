@@ -491,6 +491,20 @@ lessons:
         text: "The client told me he would cancel the contract."
         translation: "הלקוח אמר לי שהוא יבטל את החוזה."
         lexemes: [told, would, cancel]
+      - id: u30-w-01
+        type: write
+        prompt: "דווחו על שיחה: מה אמר לכם עמית בעבודה ומה ביקש? (דיבור עקיף)"
+        minWords: 30
+        checks:
+          - label: "השתמשתם בדיבור עקיף (said / told / asked)"
+            any: ["\\bsaid\\b", "\\btold\\b", "\\basked\\b"]
+          - label: "השתמשתם ב־that או if"
+            any: ["\\bthat\\b", "\\bif\\b", "\\bwhether\\b"]
+          - label: "הזכרתם בעיה או משימה"
+            any: ["\\bproblem\\b", "\\bcomputer\\b", "\\bfile\\b", "\\breport\\b", "\\bsystem\\b", "\\bmeeting\\b"]
+        model: "This morning Eli told me that the system was not working. He asked me if I could check the problem before the meeting. I said that I would look at it immediately, and I told him that I would send him the report by noon."
+        lexemes: []
+
 
   # ------------------------------------------------------------------ B1 level test
   - id: b1-test

@@ -441,6 +441,20 @@ lessons:
         text: "I have no regrets. It's time for a new chapter."
         translation: "אין לי חרטות. הגיע הזמן לפרק חדש."
         lexemes: [no-regrets, new-chapter]
+      - id: u40-w-01
+        type: write
+        prompt: "כתבו על החלטה גדולה בחייכם (אמיתית או דמיונית): מה חשבתם קודם ומה החלטתם?"
+        minWords: 45
+        checks:
+          - label: "השתמשתם בעבר מושלם (had + p.p.)"
+            any: ["\\bhad (been|done|decided|thought|planned|wanted|\\w+ed)\\b"]
+          - label: "השתמשתם בעבר פשוט"
+            any: ["\\b(decided|chose|went|moved|accepted|said|took)\\b"]
+          - label: "הזכרתם נימוק"
+            any: ["\\bbecause\\b", "\\bso\\b", "\\bsince\\b", "\\bthe reason\\b"]
+        model: "I had been thinking about moving for months before I finally decided. I had lived abroad for a year, and I had made good friends there. In the end I chose to go home, because my family was waiting, and I knew that I could always visit my friends."
+        lexemes: []
+
 
   # ------------------------------------------------------------------ test
   - id: b2-test

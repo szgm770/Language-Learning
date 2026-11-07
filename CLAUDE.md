@@ -5,7 +5,7 @@ https://claude.ai/artifact/GFqUqL1TGLJecV2RuqKfsj
 
 ## Layout
 - `content/courses/<course>/` – course content as YAML (written with AI, reviewed by people). Never put lesson content in code.
-  English runs A0 → C1 (49 units). A0 (letters, sounds, first words) follows `docs/curriculum/en-a0.md`; A1 follows `docs/curriculum/en-a1.md` (units, lesson pattern, characters Noa/Ben/Rachel/Eli/Miriam/Mr. Cohen); A2–B2 follow `docs/curriculum/en-a2-b2.md`; C1 (u41–u46, level test `c1-test`) follows `docs/curriculum/en-c1.md`.
+  English runs A0 → C1 (55 units; v1–v6 are word-builder packs). A0 (letters, sounds, first words) follows `docs/curriculum/en-a0.md`; A1 follows `docs/curriculum/en-a1.md` (units, lesson pattern, characters Noa/Ben/Rachel/Eli/Miriam/Mr. Cohen); A2–B2 follow `docs/curriculum/en-a2-b2.md`; C1 (u41–u46, level test `c1-test`) follows `docs/curriculum/en-c1.md`.
   Lesson steps: `learn` (introduce a word), `dialogue`, `dialogue_gap`, `tip` (ungraded) plus the graded exercise types.
   The build fails if a word is practised before a learn card introduces it.
   Quote YAML values that contain commas (`scripts/quote-yaml-flow.py <file>` fixes one-line `{ … }` maps).

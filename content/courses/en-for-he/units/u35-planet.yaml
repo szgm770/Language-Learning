@@ -442,3 +442,16 @@ lessons:
         text: "By then, we will have reduced our waste by half."
         translation: "עד אז נפחית את הפסולת שלנו בחצי."
         lexemes: [by-then, will-have-done, reduce]
+      - id: u35-w-01
+        type: write
+        prompt: "כתבו על העולם בעוד עשרים שנה. השתמשו ב־will be + ing או will have + p.p. ועל התחזית שלכם לסביבה."
+        minWords: 45
+        checks:
+          - label: "השתמשתם בעתיד מתמשך או מושלם (will be ...ing / will have ...)"
+            any: ["\\bwill be \\w+ing\\b", "\\bwill have \\w+(ed|en)\\b", "\\bwill have (been|done|made|become|gone|got)\\b"]
+          - label: "הזכרתם נושא סביבתי (energy, recycling, climate...)"
+            any: ["\\benergy\\b", "\\brecycl", "\\bclimate\\b", "\\bsolar\\b", "\\bpollution\\b", "\\bplastic\\b"]
+          - label: "הוספתם זמן עתידי (by 20xx, in twenty years)"
+            any: ["\\bby 20\\d\\d\\b", "\\bin (twenty|ten|thirty) years\\b", "\\bin the future\\b"]
+        model: "In twenty years, most cars will be running on electricity, and many families will be producing their own solar energy. By 2045 we will have reduced plastic waste, I hope, and cities will be greener. Climate change will remain a challenge, but I believe people will have learned to cooperate."
+        lexemes: []

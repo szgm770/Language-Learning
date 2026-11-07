@@ -487,3 +487,16 @@ lessons:
         text: "What are the pros and cons of artificial intelligence?"
         translation: "מה היתרונות והחסרונות של בינה מלאכותית?"
         lexemes: [pros-and-cons, artificial-intelligence]
+      - id: u33-w-01
+        type: write
+        prompt: "האם הרשתות החברתיות עושות טוב או רע? כתבו דעה והשתמשו במבנה causative (have / get something done) או בסביל."
+        minWords: 45
+        checks:
+          - label: "השתמשתם ב־have/get something done"
+            any: ["\\b(have|had|get|got) (my|our|your|the|a|an|their) \\w+ (\\w+ )?(done|fixed|repaired|checked|cleaned|made)\\b", "\\b(have|had|get|got) \\w+ \\w+ed\\b"]
+          - label: "הבעתם דעה (I think / in my opinion)"
+            any: ["\\bI think\\b", "\\bin my opinion\\b", "\\bI believe\\b", "\\bI feel\\b"]
+          - label: "הזכרתם יתרון וחיסרון"
+            any: ["\\bon the one hand\\b", "\\badvantage", "\\bdisadvantage", "\\bbenefit", "\\brisk\\b", "\\bdanger"]
+        model: "I believe social media has both benefits and risks. It lets us keep in touch with friends, and I had my photos shared with relatives abroad. On the other hand, our data is collected by companies, which is a danger. In my opinion, we should read the rules carefully before we agree to anything."
+        lexemes: []

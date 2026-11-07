@@ -456,3 +456,16 @@ lessons:
         text: "I wish I had more time, but I'll make the most of it."
         translation: "הלוואי שהיה לי יותר זמן, אבל אנצל אותו עד תום."
         lexemes: [i-wish-past, make-the-most-of]
+      - id: u39-w-01
+        type: write
+        prompt: "כתבו על משהו שהייתם רוצים לשנות מהעבר ועל משהו שהייתם רוצים עכשיו. השתמשו ב־I wish / If only."
+        minWords: 45
+        checks:
+          - label: "השתמשתם ב־I wish או If only"
+            any: ["\\bI wish\\b", "\\bIf only\\b"]
+          - label: "הזכרתם עבר מושלם (had + p.p.)"
+            any: ["\\bhad (been|done|gone|studied|known|stayed|learned|learnt|taken|seen|spoken|called|\\w+ed)\\b"]
+          - label: "הזכרתם משאלה להווה (wish ... would/could/were)"
+            any: ["\\bwish\\b.*\\b(would|could|were|had)\\b"]
+        model: "I wish I had studied music when I was young. If only I had practised every day, I might be a musician now. I also wish I could spend more time with my family, and I wish my work were less stressful. But I try to enjoy the life I have."
+        lexemes: []
