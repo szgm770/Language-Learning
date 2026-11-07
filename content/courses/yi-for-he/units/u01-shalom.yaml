@@ -1,0 +1,444 @@
+id: u01-shalom
+cefr: A1
+scene: hello
+title:
+  he: שלום עליכם
+  en: Hello
+story: 'מנחם מגיע לכפר חב״ד, ואצל הסבא והסבתא הוא מתחיל לדבר יידיש: ברכות, שם ומוצא.'
+canDo:
+- לברך ולהשיב לברכה
+- לומר איך קוראים לי ומאין אני
+- להודות ולהיפרד
+vocabulary:
+- id: sholem
+  text: שלום־עליכם
+  translation: שלום עליכם (ברכת שלום)
+  pos: noun
+  example:
+    text: שלום־עליכם, זיידע!
+    translation: שלום עליכם, סבא!
+- id: aleykhem
+  text: עליכם־שלום
+  translation: עליכם שלום (התשובה לברכה)
+  pos: noun
+- id: vi
+  text: ווי
+  translation: איך / איפה
+  pos: adverb
+  pronunciation: vi
+  example:
+    text: ווי גייט עס?
+    translation: מה שלומך? (איך זה הולך?)
+- id: geyt
+  text: גייט
+  translation: הולך
+  pos: verb
+  pronunciation: geyt
+- id: es
+  text: עס
+  translation: זה
+  pos: pronoun
+  pronunciation: es
+- id: dank
+  text: אַ דאַנק
+  translation: תודה
+  pos: noun
+  example:
+    text: גוט, אַ דאַנק.
+    translation: טוב, תודה.
+- id: bite
+  text: ביטע
+  translation: בבקשה
+  pos: noun
+- id: gezunt
+  text: זײַ געזונט
+  translation: להתראות (בריאות)
+  pos: noun
+- id: zeyer
+  text: זייער
+  translation: מאוד
+  pos: adverb
+  pronunciation: zeyer
+- id: heysn
+  text: הייסן
+  translation: להיקרא
+  pos: verb
+  pronunciation: heysn
+  example:
+    text: איך הייס מנחם.
+    translation: קוראים לי מנחם.
+- id: bin
+  text: בין
+  translation: (אני) הוא / נמצא
+  pos: verb
+  pronunciation: bin
+  example:
+    text: איך בין פֿון ישראל.
+    translation: אני מישראל.
+- id: fun
+  text: פֿון
+  translation: מ־
+  pos: preposition
+  pronunciation: fun
+- id: yisroel
+  text: ישראל
+  translation: ארץ ישראל
+  pos: noun
+lessons:
+- id: u01-l1
+  kind: new
+  title:
+    he: ברכות
+    en: Lesson
+  exercises:
+  - id: u01-l1-01
+    type: tip
+    title: ברכת שלום
+    text: 'הברכה הרגילה היא **שלום־עליכם**, והתשובה היא **עליכם־שלום**, בדיוק כמו בלשון הקודש.
+
+      שואלים מה שלומו: **ווי גייט עס?** (איך זה הולך?), ועונים: **גוט, אַ דאַנק** (טוב, תודה).
+
+      נפרדים עם **זײַ געזונט**.
+
+      '
+  - id: u01-l1-02
+    type: learn
+    lexeme: sholem
+  - id: u01-l1-03
+    type: learn
+    lexeme: aleykhem
+  - id: u01-l1-04
+    type: learn
+    lexeme: vi
+  - id: u01-l1-05
+    type: learn
+    lexeme: geyt
+  - id: u01-l1-06
+    type: learn
+    lexeme: es
+  - id: u01-l1-07
+    type: learn
+    lexeme: dank
+  - id: u01-l1-08
+    type: learn
+    lexeme: bite
+  - id: u01-l1-09
+    type: learn
+    lexeme: gezunt
+  - id: u01-l1-10
+    type: learn
+    lexeme: zeyer
+  - id: u01-l1-11
+    type: dialogue
+    scene: home
+    lines:
+    - speaker: zeyde
+      text: שלום־עליכם, מנחם!
+      translation: שלום עליכם, מנחם!
+    - speaker: menachem
+      text: עליכם־שלום, זיידע!
+      translation: עליכם שלום, סבא!
+    - speaker: zeyde
+      text: ווי גייט עס?
+      translation: מה שלומך?
+    - speaker: menachem
+      text: גוט, אַ דאַנק.
+      translation: טוב, תודה.
+  - id: u01-l1-12
+    type: match_pairs
+    pairs:
+    - - שלום־עליכם
+      - שלום עליכם (ברכת שלום)
+    - - עליכם־שלום
+      - עליכם שלום (התשובה לברכה)
+    - - ווי
+      - איך / איפה
+    - - גייט
+      - הולך
+    - - עס
+      - זה
+    - - אַ דאַנק
+      - תודה
+    lexemes:
+    - sholem
+    - aleykhem
+    - vi
+    - geyt
+    - es
+    - dank
+  - id: u01-l1-13
+    type: multiple_choice
+    prompt: מה פירוש שלום־עליכם?
+    options:
+    - שלום עליכם (ברכת שלום)
+    - עליכם שלום (התשובה לברכה)
+    - איך / איפה
+    correct: 0
+    lexemes:
+    - sholem
+  - id: u01-l1-14
+    type: multiple_choice
+    prompt: מה פירוש עליכם־שלום?
+    options:
+    - עליכם שלום (התשובה לברכה)
+    - שלום עליכם (ברכת שלום)
+    - איך / איפה
+    correct: 0
+    lexemes:
+    - aleykhem
+  - id: u01-l1-15
+    type: multiple_choice
+    prompt: מה פירוש ווי?
+    options:
+    - איך / איפה
+    - שלום עליכם (ברכת שלום)
+    - עליכם שלום (התשובה לברכה)
+    correct: 0
+    lexemes:
+    - vi
+  - id: u01-l1-16
+    type: multiple_choice
+    prompt: מה פירוש גייט?
+    options:
+    - הולך
+    - שלום עליכם (ברכת שלום)
+    - עליכם שלום (התשובה לברכה)
+    correct: 0
+    lexemes:
+    - geyt
+  - id: u01-l1-17
+    type: multiple_choice
+    prompt: מה פירוש עס?
+    options:
+    - זה
+    - שלום עליכם (ברכת שלום)
+    - עליכם שלום (התשובה לברכה)
+    correct: 0
+    lexemes:
+    - es
+  - id: u01-l1-18
+    type: multiple_choice
+    prompt: מה פירוש אַ דאַנק?
+    options:
+    - תודה
+    - שלום עליכם (ברכת שלום)
+    - עליכם שלום (התשובה לברכה)
+    correct: 0
+    lexemes:
+    - dank
+- id: u01-l2
+  kind: new
+  title:
+    he: שם ומוצא
+    en: Lesson
+  exercises:
+  - id: u01-l2-01
+    type: learn
+    lexeme: heysn
+  - id: u01-l2-02
+    type: learn
+    lexeme: bin
+  - id: u01-l2-03
+    type: learn
+    lexeme: fun
+  - id: u01-l2-04
+    type: learn
+    lexeme: yisroel
+  - id: u01-l2-05
+    type: dialogue
+    scene: home
+    lines:
+    - speaker: bobe
+      text: ווי הייסט איר?
+      translation: איך קוראים לכם?
+    - speaker: menachem
+      text: איך הייס מנחם.
+      translation: קוראים לי מנחם.
+  - id: u01-l2-06
+    type: match_pairs
+    pairs:
+    - - הייסן
+      - להיקרא
+    - - בין
+      - (אני) הוא / נמצא
+    - - פֿון
+      - מ־
+    - - ישראל
+      - ארץ ישראל
+    lexemes:
+    - heysn
+    - bin
+    - fun
+    - yisroel
+  - id: u01-l2-07
+    type: multiple_choice
+    prompt: מה פירוש הייסן?
+    options:
+    - להיקרא
+    - (אני) הוא / נמצא
+    - מ־
+    correct: 0
+    lexemes:
+    - heysn
+  - id: u01-l2-08
+    type: multiple_choice
+    prompt: מה פירוש בין?
+    options:
+    - (אני) הוא / נמצא
+    - להיקרא
+    - מ־
+    correct: 0
+    lexemes:
+    - bin
+  - id: u01-l2-09
+    type: multiple_choice
+    prompt: מה פירוש פֿון?
+    options:
+    - מ־
+    - להיקרא
+    - (אני) הוא / נמצא
+    correct: 0
+    lexemes:
+    - fun
+  - id: u01-l2-10
+    type: multiple_choice
+    prompt: מה פירוש ישראל?
+    options:
+    - ארץ ישראל
+    - להיקרא
+    - (אני) הוא / נמצא
+    correct: 0
+    lexemes:
+    - yisroel
+- id: u01-review
+  kind: review
+  title:
+    he: 'חזרה: שלום עליכם'
+    en: Review
+  exercises:
+  - id: u01-review-01
+    type: match_pairs
+    pairs:
+    - - שלום־עליכם
+      - שלום עליכם (ברכת שלום)
+    - - עליכם־שלום
+      - עליכם שלום (התשובה לברכה)
+    - - אַ דאַנק
+      - תודה
+    - - ביטע
+      - בבקשה
+    - - זײַ געזונט
+      - להתראות (בריאות)
+    lexemes:
+    - sholem
+    - aleykhem
+    - dank
+    - bite
+    - gezunt
+  - id: u01-review-02
+    type: multiple_choice
+    prompt: מה עונים על שלום־עליכם?
+    options:
+    - עליכם־שלום
+    - זײַ געזונט
+    - ביטע
+    correct: 0
+    lexemes:
+    - aleykhem
+  - id: u01-review-03
+    type: multiple_choice
+    prompt: איך אומרים תודה?
+    options:
+    - אַ דאַנק
+    - ביטע
+    - זייער
+    correct: 0
+    lexemes:
+    - dank
+  - id: u01-review-04
+    type: translate
+    direction: to_source
+    prompt: ווי גייט עס?
+    answers:
+    - מה שלומך
+    - איך זה הולך
+    - מה שלומכם
+    - מה נשמע
+    lexemes:
+    - vi
+    - geyt
+    - es
+  - id: u01-review-05
+    type: translate
+    direction: to_source
+    prompt: איך הייס מנחם.
+    answers:
+    - קוראים לי מנחם
+    lexemes:
+    - heysn
+  - id: u01-review-06
+    type: translate
+    direction: to_source
+    prompt: איך בין פֿון ישראל.
+    answers:
+    - אני מישראל
+    - אני מארץ ישראל
+    lexemes:
+    - bin
+    - fun
+    - yisroel
+  - id: u01-review-07
+    type: translate
+    direction: to_target
+    prompt: תודה
+    answers:
+    - אַ דאַנק
+    - א דאנק
+    lexemes:
+    - dank
+  - id: u01-review-08
+    type: translate
+    direction: to_target
+    prompt: אני מישראל
+    answers:
+    - איך בין פֿון ישראל
+    lexemes:
+    - bin
+    - fun
+    - yisroel
+  - id: u01-review-09
+    type: fill_blank
+    sentence: איך ___ מנחם.
+    translation: קוראים לי מנחם
+    answers:
+    - הייס
+    options:
+    - הייס
+    - בין
+    - גייט
+    lexemes:
+    - heysn
+  - id: u01-review-10
+    type: fill_blank
+    sentence: איך ___ פֿון ישראל.
+    translation: אני מישראל
+    answers:
+    - בין
+    options:
+    - בין
+    - הייס
+    - גייט
+    lexemes:
+    - bin
+  - id: u01-review-11
+    type: word_bank
+    prompt: אני מישראל
+    answers:
+    - איך בין פֿון ישראל
+    distractors:
+    - הייס
+    - גייט
+    lexemes:
+    - bin
+    - fun
+    - yisroel

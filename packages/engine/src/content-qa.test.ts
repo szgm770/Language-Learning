@@ -59,6 +59,8 @@ for (const courseId of readdirSync(root)) {
               const right = ex.pairs.map((pair) => pair[1]);
               expect(new Set(left).size, `${ex.id} repeats a word on the left`).toBe(left.length);
               expect(new Set(right).size, `${ex.id} repeats a word on the right`).toBe(right.length);
+              // Both sides of a pair showing the same text cannot be told apart on screen.
+              for (const pair of ex.pairs) expect(pair[0], `${ex.id} pairs "${pair[0]}" with itself`).not.toBe(pair[1]);
             }
             if (ex.type === "word_bank") {
               const tiles = wordBankTiles(ex, 1);

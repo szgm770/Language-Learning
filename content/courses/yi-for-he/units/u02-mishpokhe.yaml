@@ -1,0 +1,433 @@
+id: u02-mishpokhe
+cefr: A1
+scene: family
+title:
+  he: המשפחה
+  en: Family
+story: סבא וסבתא מראים למנחם תמונות של כל המשפחה, והוא לומד לומר מי זה מי.
+canDo:
+- לומר מי כל אחד במשפחה
+- להשתמש ב־דאָס איז (זה הוא)
+- 'לתאר בקצרה: גדול, יפה'
+vocabulary:
+- id: zeyde
+  text: זיידע
+  translation: סבא
+  pos: noun
+  pronunciation: zeyde
+  example:
+    text: דאָס איז מײַן זיידע.
+    translation: זה סבא שלי.
+- id: bobe
+  text: באָבע
+  translation: סבתא
+  pos: noun
+  pronunciation: bobe
+  example:
+    text: דאָס איז מײַן באָבע.
+    translation: זו סבתא שלי.
+- id: bruder
+  text: ברודער
+  translation: אח
+  pos: noun
+  pronunciation: bruder
+- id: shvester
+  text: שוועסטער
+  translation: אחות
+  pos: noun
+  pronunciation: shvester
+- id: zun
+  text: זון
+  translation: בן
+  pos: noun
+  pronunciation: zun
+- id: tokhter
+  text: טאָכטער
+  translation: בת
+  pos: noun
+  pronunciation: tokhter
+- id: kind
+  text: קינד
+  translation: ילד
+  pos: noun
+  pronunciation: kind
+- id: mishpokhe
+  text: משפחה
+  translation: בני המשפחה
+  pos: noun
+  example:
+    text: מײַן משפחה איז גרויס.
+    translation: המשפחה שלי גדולה.
+- id: iz
+  text: איז
+  translation: הוא / היא / זה (נמצא, הוא)
+  pos: verb
+  pronunciation: iz
+- id: groys
+  text: גרויס
+  translation: גדול
+  pos: adjective
+  pronunciation: groys
+- id: sheyn
+  text: שיין
+  translation: יפה
+  pos: adjective
+  pronunciation: sheyn
+- id: un
+  text: און
+  translation: ו־
+  pos: conjunction
+  pronunciation: un
+lessons:
+- id: u02-l1
+  kind: new
+  title:
+    he: סבא, סבתא ואחים
+    en: Lesson
+  exercises:
+  - id: u02-l1-01
+    type: tip
+    title: זה הוא
+    text: 'כדי להציג מישהו אומרים **דאָס איז** ואחר כך את השם או הקרבה: **דאָס איז מײַן זיידע** (זה סבא שלי).
+
+      **איז** פירושו "הוא" או "נמצא", כמו "is" באנגלית. בעברית אין את המילה הזאת בהווה.
+
+      **מײַן** פירושו "שלי".
+
+      '
+  - id: u02-l1-02
+    type: learn
+    lexeme: zeyde
+  - id: u02-l1-03
+    type: learn
+    lexeme: bobe
+  - id: u02-l1-04
+    type: learn
+    lexeme: bruder
+  - id: u02-l1-05
+    type: learn
+    lexeme: shvester
+  - id: u02-l1-06
+    type: learn
+    lexeme: zun
+  - id: u02-l1-07
+    type: learn
+    lexeme: tokhter
+  - id: u02-l1-08
+    type: match_pairs
+    pairs:
+    - - זיידע
+      - סבא
+    - - באָבע
+      - סבתא
+    - - ברודער
+      - אח
+    - - שוועסטער
+      - אחות
+    - - זון
+      - בן
+    - - טאָכטער
+      - בת
+    lexemes:
+    - zeyde
+    - bobe
+    - bruder
+    - shvester
+    - zun
+    - tokhter
+  - id: u02-l1-09
+    type: multiple_choice
+    prompt: מה פירוש זיידע?
+    options:
+    - סבא
+    - סבתא
+    - אח
+    correct: 0
+    lexemes:
+    - zeyde
+  - id: u02-l1-10
+    type: multiple_choice
+    prompt: מה פירוש באָבע?
+    options:
+    - סבתא
+    - סבא
+    - אח
+    correct: 0
+    lexemes:
+    - bobe
+  - id: u02-l1-11
+    type: multiple_choice
+    prompt: מה פירוש ברודער?
+    options:
+    - אח
+    - סבא
+    - סבתא
+    correct: 0
+    lexemes:
+    - bruder
+  - id: u02-l1-12
+    type: multiple_choice
+    prompt: מה פירוש שוועסטער?
+    options:
+    - אחות
+    - סבא
+    - סבתא
+    correct: 0
+    lexemes:
+    - shvester
+  - id: u02-l1-13
+    type: multiple_choice
+    prompt: מה פירוש זון?
+    options:
+    - בן
+    - סבא
+    - סבתא
+    correct: 0
+    lexemes:
+    - zun
+  - id: u02-l1-14
+    type: multiple_choice
+    prompt: מה פירוש טאָכטער?
+    options:
+    - בת
+    - סבא
+    - סבתא
+    correct: 0
+    lexemes:
+    - tokhter
+- id: u02-l2
+  kind: new
+  title:
+    he: עוד במשפחה
+    en: Lesson
+  exercises:
+  - id: u02-l2-01
+    type: learn
+    lexeme: kind
+  - id: u02-l2-02
+    type: learn
+    lexeme: mishpokhe
+  - id: u02-l2-03
+    type: learn
+    lexeme: iz
+  - id: u02-l2-04
+    type: learn
+    lexeme: groys
+  - id: u02-l2-05
+    type: learn
+    lexeme: sheyn
+  - id: u02-l2-06
+    type: learn
+    lexeme: un
+  - id: u02-l2-07
+    type: dialogue
+    scene: home
+    lines:
+    - speaker: menachem
+      text: זיידע, דאָס איז מײַן שוועסטער.
+      translation: סבא, זו אחותי.
+    - speaker: zeyde
+      text: זייער שיין!
+      translation: יפה מאוד!
+  - id: u02-l2-08
+    type: match_pairs
+    pairs:
+    - - קינד
+      - ילד
+    - - משפחה
+      - בני המשפחה
+    - - איז
+      - הוא / היא / זה (נמצא, הוא)
+    - - גרויס
+      - גדול
+    - - שיין
+      - יפה
+    - - און
+      - ו־
+    lexemes:
+    - kind
+    - mishpokhe
+    - iz
+    - groys
+    - sheyn
+    - un
+  - id: u02-l2-09
+    type: multiple_choice
+    prompt: מה פירוש קינד?
+    options:
+    - ילד
+    - בני המשפחה
+    - הוא / היא / זה (נמצא, הוא)
+    correct: 0
+    lexemes:
+    - kind
+  - id: u02-l2-10
+    type: multiple_choice
+    prompt: מה פירוש משפחה?
+    options:
+    - בני המשפחה
+    - ילד
+    - הוא / היא / זה (נמצא, הוא)
+    correct: 0
+    lexemes:
+    - mishpokhe
+  - id: u02-l2-11
+    type: multiple_choice
+    prompt: מה פירוש איז?
+    options:
+    - הוא / היא / זה (נמצא, הוא)
+    - ילד
+    - בני המשפחה
+    correct: 0
+    lexemes:
+    - iz
+  - id: u02-l2-12
+    type: multiple_choice
+    prompt: מה פירוש גרויס?
+    options:
+    - גדול
+    - ילד
+    - בני המשפחה
+    correct: 0
+    lexemes:
+    - groys
+  - id: u02-l2-13
+    type: multiple_choice
+    prompt: מה פירוש שיין?
+    options:
+    - יפה
+    - ילד
+    - בני המשפחה
+    correct: 0
+    lexemes:
+    - sheyn
+  - id: u02-l2-14
+    type: multiple_choice
+    prompt: מה פירוש און?
+    options:
+    - ו־
+    - ילד
+    - בני המשפחה
+    correct: 0
+    lexemes:
+    - un
+- id: u02-review
+  kind: review
+  title:
+    he: 'חזרה: המשפחה'
+    en: Review
+  exercises:
+  - id: u02-review-01
+    type: match_pairs
+    pairs:
+    - - זיידע
+      - סבא
+    - - באָבע
+      - סבתא
+    - - ברודער
+      - אח
+    - - שוועסטער
+      - אחות
+    - - זון
+      - בן
+    - - טאָכטער
+      - בת
+    lexemes:
+    - zeyde
+    - bobe
+    - bruder
+    - shvester
+    - zun
+    - tokhter
+  - id: u02-review-02
+    type: multiple_choice
+    prompt: איך אומרים ביידיש 'סבתא'?
+    options:
+    - באָבע
+    - זיידע
+    - שוועסטער
+    correct: 0
+    lexemes:
+    - bobe
+  - id: u02-review-03
+    type: multiple_choice
+    prompt: איך אומרים ביידיש 'אחות'?
+    options:
+    - שוועסטער
+    - ברודער
+    - טאָכטער
+    correct: 0
+    lexemes:
+    - shvester
+  - id: u02-review-04
+    type: multiple_choice
+    prompt: מה פירוש גרויס?
+    options:
+    - גדול
+    - יפה
+    - קטן
+    correct: 0
+    lexemes:
+    - groys
+  - id: u02-review-05
+    type: translate
+    direction: to_source
+    prompt: דאָס איז מײַן זיידע.
+    answers:
+    - זה סבא שלי
+    - זה הסבא שלי
+    lexemes:
+    - zeyde
+    - iz
+  - id: u02-review-06
+    type: translate
+    direction: to_source
+    prompt: דאָס איז מײַן באָבע.
+    answers:
+    - זו סבתא שלי
+    - זאת סבתא שלי
+    - זו הסבתא שלי
+    lexemes:
+    - bobe
+    - iz
+  - id: u02-review-07
+    type: translate
+    direction: to_target
+    prompt: זה אחי
+    answers:
+    - דאָס איז מײַן ברודער
+    lexemes:
+    - bruder
+    - iz
+  - id: u02-review-08
+    type: translate
+    direction: to_target
+    prompt: זו אחותי
+    answers:
+    - דאָס איז מײַן שוועסטער
+    lexemes:
+    - shvester
+    - iz
+  - id: u02-review-09
+    type: fill_blank
+    sentence: דאָס ___ מײַן זיידע.
+    translation: זה סבא שלי
+    answers:
+    - איז
+    options:
+    - איז
+    - און
+    - שיין
+    lexemes:
+    - iz
+  - id: u02-review-10
+    type: word_bank
+    prompt: זו סבתא שלי
+    answers:
+    - דאָס איז מײַן באָבע
+    distractors:
+    - זיידע
+    - שוועסטער
+    lexemes:
+    - bobe
+    - iz
