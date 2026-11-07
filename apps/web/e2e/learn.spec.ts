@@ -236,7 +236,12 @@ for (const id of ["u01-l2", "u02-l1", "u02-l3", "u03-l1", "u03-l3", "u04-l1", "u
 
 test("on a new device any course can be chosen when moving progress", async ({ page }) => {
   await page.goto("settings/", { waitUntil: "networkidle" });
-  await page.getByRole("button", { name: "בחירת מקום ידנית" }).click();
+  // A fresh page may not be interactive yet: click again until the tab is open.
+  const manual = page.getByRole("button", { name: "בחירת מקום ידנית" });
+  await expect(async () => {
+    if ((await manual.getAttribute("aria-pressed")) !== "true") await manual.click();
+    await expect(manual).toHaveAttribute("aria-pressed", "true", { timeout: 1000 });
+  }).toPass();
   await page.getByLabel("קורס").selectOption({ label: "ספרדית לדוברי עברית" });
   await page.getByLabel("יחידה").selectOption({ index: 4 });
   await page.getByRole("button", { name: "להמשיך מכאן" }).click();
