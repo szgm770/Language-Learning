@@ -227,7 +227,7 @@ test("Spanish can be started from zero", async ({ page }) => {
   await expect(page).toHaveURL(/\/lesson\/es-for-he\/u00a-l1\/$/);
 });
 
-for (const id of ["u01-l2", "u02-l1", "u02-l3", "u03-l1", "u03-l3", "u04-l1", "u04-l3", "u05-l1", "u05-l3", "u06-l1", "u06-l3", "u07-l1", "u07-l3", "u08-l1", "u08-l3", "u09-l1", "u09-l3", "u10-l1", "u10-l3", "a1-test", "u11-l1", "u11-l3", "u12-l1", "u12-l3", "u13-l1", "u13-l3", "u14-l1", "u14-l3", "u15-l1", "u15-l3", "u16-l1", "u16-l3", "u17-l1", "u17-l3", "u18-l1", "u18-l3", "u19-l1", "u19-l3", "u20-l1", "u20-l3", "a2-test", "u21-l1", "u21-l3", "u21-review", "u22-l3", "u22-review", "u23-l1", "u23-l3", "u24-l1", "u24-l3", "u24-review"]) {
+for (const id of ["u01-l2", "u02-l1", "u02-l3", "u03-l1", "u03-l3", "u04-l1", "u04-l3", "u05-l1", "u05-l3", "u06-l1", "u06-l3", "u07-l1", "u07-l3", "u08-l1", "u08-l3", "u09-l1", "u09-l3", "u10-l1", "u10-l3", "a1-test", "u11-l1", "u11-l3", "u12-l1", "u12-l3", "u13-l1", "u13-l3", "u14-l1", "u14-l3", "u15-l1", "u15-l3", "u16-l1", "u16-l3", "u17-l1", "u17-l3", "u18-l1", "u18-l3", "u19-l1", "u19-l3", "u20-l1", "u20-l3", "a2-test", "u21-l1", "u21-l3", "u21-review", "u22-l3", "u22-review", "u23-l1", "u23-l3", "u24-l1", "u24-l3", "u24-review", "u25-l1", "u25-l3", "u25-review", "u26-l1", "u26-l3", "u26-review", "u27-l1", "u27-l3", "u27-review", "u28-l1", "u28-l3", "u28-review", "u29-l1", "u29-l3", "u29-review", "u30-l1", "u30-l3", "u30-review", "b1-test"]) {
   test(`Spanish lesson ${id} can be solved from the content`, async ({ page }) => {
     await page.goto(`lesson/es-for-he/${id}/`);
     await finishLesson(page);

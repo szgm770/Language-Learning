@@ -1,0 +1,1092 @@
+id: u26-pronombres
+cefr: B1
+scene: work
+title:
+  he: 'אותו, לו, לי: כינויי מושא'
+  en: Object pronouns
+story: 'שבוע של מסירות במשרד: מסמכים, חבילות, חוזים. יעל לומדת להחליף שמות עצם בכינויים (lo, la, le, me) כדי לא לחזור על עצמה, ואת הצירוף המסובך se lo.'
+canDo:
+- 'להחליף מושא ישיר בכינוי: lo, la, los, las'
+- 'להחליף מושא עקיף: me, te, le, nos, les'
+- 'לשים את הכינוי נכון: לפני הפועל או בסוף המקור'
+- להבין את se lo / se la ('לו את זה')
+vocabulary:
+- id: entregar
+  text: entregar
+  translation: למסור, להגיש
+  pos: verb
+- id: mostrar
+  text: mostrar
+  translation: להראות
+  pos: verb
+- id: prestar
+  text: prestar
+  translation: להשאיל
+  pos: verb
+- id: regalar
+  text: regalar
+  translation: להעניק מתנה
+  pos: verb
+- id: traer
+  text: traer
+  translation: להביא
+  pos: verb
+- id: contestar
+  text: contestar
+  translation: לענות
+  pos: verb
+- id: avisar
+  text: avisar
+  translation: להודיע
+  pos: verb
+- id: revisar
+  text: revisar
+  translation: לבדוק
+  pos: verb
+- id: firmar
+  text: firmar
+  translation: לחתום
+  pos: verb
+- id: paquete
+  text: el paquete
+  translation: חבילה
+  pos: noun
+- id: documento
+  text: el documento
+  translation: מסמך
+  pos: noun
+- id: contrato
+  text: el contrato
+  translation: חוזה
+  pos: noun
+- id: carta
+  text: la carta
+  translation: מכתב
+  pos: noun
+- id: mensaje
+  text: el mensaje
+  translation: הודעה
+  pos: noun
+- id: lo-la
+  text: lo / la / los / las
+  translation: אותו / אותה / אותם / אותן
+  pos: pronoun
+- id: le-les
+  text: le / les
+  translation: לו, לה / להם
+  pos: pronoun
+- id: me-te
+  text: me / te / nos
+  translation: לי / לך / לנו
+  pos: pronoun
+- id: se-lo
+  text: se lo / se la
+  translation: לו / לה את זה
+  pos: pronoun
+- id: todavia-no-p
+  text: aún
+  translation: עדיין
+  pos: adverb
+- id: urgente
+  text: urgente
+  translation: דחוף
+  pos: adjective
+- id: listo-p
+  text: terminado
+  translation: גמור
+  pos: adjective
+grammar:
+- id: pronombres-objeto
+  title:
+    he: כינויי מושא
+    en: Object pronouns
+  explanation: 'בעברית "אותו / אותה" ו"לו / לה" מתחברים לפועל ("שלחתי אותו", "נתתי לו"). בספרדית יש שתי קבוצות:
+
+
+    **מושא ישיר** (מה / מי שפועלים עליו): **lo** (אותו, זכר), **la** (אותה), **los** (אותם), **las** (אותן)
+
+    * *¿Enviaste el informe? Sí, **lo** envié.* | *¿Viste a Ana? Sí, **la** vi.*
+
+
+    **מושא עקיף** (למי): **me** (לי), **te** (לך), **le** (לו / לה / לך-בנימוס), **nos** (לנו), **les** (להם / לכם)
+
+    * *Mateo **me** dio el archivo.* | *Le escribí un correo a doña Carmen.*
+
+
+    **מיקום:** הכינוי בא **לפני הפועל המוטה**: *Lo tengo.* אבל נצמד ל**מקור** או ל**gerundio**: *Quiero revisarlo.* | *Estoy escribiéndolo.* (ואפשר גם: *Lo quiero revisar.*)
+
+    **בשלילה:** *No lo envié.* (no לפני הכינוי)
+
+
+    **שני כינויים ביחד:** קודם עקיף ואחר כך ישיר (**me lo, te lo, nos lo**): *¿Me enviaste el archivo? Sí, **te lo** envié.*
+
+    כש־le/les פוגשים lo/la/los/las, הם נהפכים ל־**se**: *Le entregué el contrato.* → *Se lo entregué.* (מסרתי לו אותו)
+
+
+    **הערה:** את המושא הישיר שהוא אדם מוסיפים "a": *Vi **a** Mateo.* (לא *vi Mateo*)'
+  examples:
+  - text: El contrato es urgente. Voy a firmarlo hoy.
+    translation: החוזה דחוף. אני הולך לחתום עליו היום.
+  - text: ¿Le diste el paquete a Dani? Sí, se lo di ayer.
+    translation: נתת לדני את החבילה? כן, נתתי לו אותה אתמול.
+  - text: Mi jefe me envió un mensaje y yo lo contesté.
+    translation: הבוס שלי שלח לי הודעה ואני עניתי לה.
+lessons:
+- id: u26-l1
+  kind: new
+  title:
+    he: מסמכים וחבילות
+    en: Documents and packages
+  exercises:
+  - id: u26-l1-01
+    type: dialogue
+    scene: הדוקטור הררה ויעל במשרד.
+    lines:
+    - speaker: herrera
+      text: Yael, ¿ya revisaste el contrato?
+      translation: יעל, כבר בדקת את החוזה?
+    - speaker: yael
+      text: Sí, lo revisé ayer. Hoy voy a mandárselo a los clientes.
+      translation: כן, בדקתי אותו אתמול. היום אני שולחת אותו ללקוחות.
+    - speaker: herrera
+      text: ¿Y el paquete? ¿Lo recibiste?
+      translation: והחבילה? קיבלת אותה?
+    - speaker: yael
+      text: Todavía no la he recibido. Les avisaré si llega.
+      translation: עדיין לא קיבלתי אותה. אודיע להם אם היא תגיע.
+  - id: u26-l1-02
+    type: learn
+    lexeme: entregar
+  - id: u26-l1-03
+    type: learn
+    lexeme: mostrar
+  - id: u26-l1-04
+    type: learn
+    lexeme: revisar
+  - id: u26-l1-05
+    type: learn
+    lexeme: firmar
+  - id: u26-l1-06
+    type: learn
+    lexeme: avisar
+  - id: u26-l1-07
+    type: learn
+    lexeme: contestar
+  - id: u26-l1-08
+    type: learn
+    lexeme: paquete
+  - id: u26-l1-09
+    type: learn
+    lexeme: documento
+  - id: u26-l1-10
+    type: learn
+    lexeme: contrato
+  - id: u26-l1-11
+    type: learn
+    lexeme: carta
+  - id: u26-l1-12
+    type: learn
+    lexeme: mensaje
+  - id: u26-l1-13
+    type: learn
+    lexeme: urgente
+  - id: u26-l1-14
+    type: match_pairs
+    pairs:
+    - - entregar
+      - למסור
+    - - mostrar
+      - להראות
+    - - revisar
+      - לבדוק
+    - - firmar
+      - לחתום
+    - - avisar
+      - להודיע
+    lexemes:
+    - entregar
+    - mostrar
+    - revisar
+    - firmar
+    - avisar
+  - id: u26-l1-15
+    type: match_pairs
+    pairs:
+    - - el paquete
+      - חבילה
+    - - el documento
+      - מסמך
+    - - el contrato
+      - חוזה
+    - - la carta
+      - מכתב
+    - - el mensaje
+      - הודעה
+    lexemes:
+    - paquete
+    - documento
+    - contrato
+    - carta
+    - mensaje
+  - id: u26-l1-16
+    type: multiple_choice
+    prompt: מה פירוש 'lo revisé'?
+    options:
+    - בדקתי אותו
+    - בדקתי לו
+    - בדקתי אותה
+    correct: 0
+    lexemes:
+    - revisar
+  - id: u26-l1-17
+    type: multiple_choice
+    prompt: מה פירוש 'la recibí'?
+    options:
+    - קיבלתי אותה
+    - קיבלתי אותו
+    - קיבלתי להם
+    correct: 0
+    lexemes:
+    - recibir
+  - id: u26-l1-18
+    type: multiple_choice
+    prompt: איזה כינוי מתאים ל־'el contrato'?
+    options:
+    - lo
+    - la
+    - los
+    correct: 0
+    lexemes:
+    - contrato
+  - id: u26-l1-19
+    type: listening_choice
+    audioText: Lo envié ayer.
+    question: מה קרה?
+    options:
+    - שלחתי אותו אתמול
+    - קיבלתי אותו אתמול
+    - כתבתי אותו אתמול
+    correct: 0
+    lexemes:
+    - enviar
+    - ayer
+    - recibir
+    - escribir
+  - id: u26-l1-20
+    type: listening_choice
+    audioText: Todavía no la he firmado.
+    question: מה עדיין לא עשו?
+    options:
+    - לא חתמו עליה
+    - לא שלחו אותה
+    - לא קראו אותה
+    correct: 0
+    lexemes:
+    - todavia
+    - haber
+    - firmar
+    - enviar
+    - leer
+  - id: u26-l1-21
+    type: translate
+    direction: to_target
+    prompt: בדקתי אותו.
+    answers:
+    - Lo revisé.
+    lexemes:
+    - revisar
+  - id: u26-l1-22
+    type: translate
+    direction: to_target
+    prompt: שלחתי אותה.
+    answers:
+    - La envié.
+    lexemes:
+    - enviar
+  - id: u26-l1-23
+    type: translate
+    direction: to_source
+    prompt: Voy a firmarlo.
+    answers:
+    - אני הולך לחתום עליו
+    - אני הולכת לחתום עליו
+    lexemes:
+    - ir
+    - firmar
+  - id: u26-l1-24
+    type: dictation
+    text: Lo recibí y lo revisé.
+    lexemes:
+    - recibir
+    - revisar
+  - id: u26-l1-25
+    type: speak_repeat
+    text: Ya lo revisé y lo firmé.
+    translation: כבר בדקתי אותו וחתמתי עליו.
+    lexemes:
+    - ya
+    - revisar
+    - firmar
+- id: u26-l2
+  kind: new
+  title:
+    he: למי? לי, לך, לו
+    en: To whom?
+  exercises:
+  - id: u26-l2-01
+    type: learn
+    lexeme: prestar
+  - id: u26-l2-02
+    type: learn
+    lexeme: regalar
+  - id: u26-l2-03
+    type: learn
+    lexeme: traer
+  - id: u26-l2-04
+    type: learn
+    lexeme: lo-la
+  - id: u26-l2-05
+    type: learn
+    lexeme: le-les
+  - id: u26-l2-06
+    type: learn
+    lexeme: me-te
+  - id: u26-l2-07
+    type: learn
+    lexeme: se-lo
+  - id: u26-l2-08
+    type: learn
+    lexeme: todavia-no-p
+  - id: u26-l2-09
+    type: learn
+    lexeme: listo-p
+  - id: u26-l2-10
+    type: match_pairs
+    pairs:
+    - - prestar
+      - להשאיל
+    - - regalar
+      - לתת מתנה
+    - - traer
+      - להביא
+    - - lo / la
+      - אותו / אותה
+    - - le / les
+      - לו / להם
+    lexemes:
+    - prestar
+    - regalar
+    - traer
+    - lo-la
+    - le-les
+  - id: u26-l2-11
+    type: match_pairs
+    pairs:
+    - - me / te / nos
+      - לי / לך / לנו
+    - - se lo / se la
+      - לו את זה
+    - - aún
+      - עדיין
+    - - terminado
+      - גמור
+    - - el paquete
+      - חבילה
+    lexemes:
+    - me-te
+    - se-lo
+    - todavia-no-p
+    - listo-p
+    - paquete
+  - id: u26-l2-12
+    type: dialogue
+    scene: בהפסקה, מתאו ויעל.
+    lines:
+    - speaker: mateo
+      text: Yael, ¿me prestas tu celular un momento?
+      translation: יעל, תשאילי לי את הנייד שלך לרגע?
+    - speaker: yael
+      text: Claro, te lo presto. Pero no lo pierdas.
+      translation: בטח, אני משאילה לך אותו. אבל אל תאבד אותו.
+    - speaker: mateo
+      text: Gracias. Luego te lo devuelvo.
+      translation: תודה. אחר כך אחזיר לך אותו.
+  - id: u26-l2-13
+    type: multiple_choice
+    prompt: מה פירוש 'te lo presto'?
+    options:
+    - אני משאיל לך אותו
+    - אני משאיל לו אותו
+    - אתה משאיל לי
+    correct: 0
+    lexemes:
+    - prestar
+  - id: u26-l2-14
+    type: multiple_choice
+    prompt: מה פירוש 'se lo di'?
+    options:
+    - נתתי לו אותו
+    - נתתי לך אותו
+    - נתתי לי אותו
+    correct: 0
+    lexemes:
+    - dar
+  - id: u26-l2-15
+    type: multiple_choice
+    prompt: 'מה הצורה הנכונה: ''Le doy el libro a ella''?'
+    options:
+    - Se lo doy.
+    - Le lo doy.
+    - Lo le doy.
+    correct: 0
+    lexemes:
+    - dar
+    - libro
+  - id: u26-l2-16
+    type: listening_choice
+    audioText: Te lo traigo mañana.
+    question: מה מבטיחים?
+    options:
+    - להביא לך את זה מחר
+    - להחזיר לך אותו אתמול
+    - לקנות לך אותו
+    correct: 0
+    lexemes:
+    - traer
+    - manana-adv
+    - devolver
+    - ayer
+    - comprar
+  - id: u26-l2-17
+    type: listening_choice
+    audioText: Me lo regalaron mis padres.
+    question: מה קרה?
+    options:
+    - ההורים נתנו לי את זה במתנה
+    - קניתי את זה
+    - איבדתי את זה
+    correct: 0
+    lexemes:
+    - regalar
+    - padres
+    - comprar
+    - perder
+  - id: u26-l2-18
+    type: fill_blank
+    sentence: ¿El libro? Ya ___ devolví. (a mi amiga)
+    translation: הספר? כבר החזרתי אותו אליה.
+    answers:
+    - se lo
+    options:
+    - se lo
+    - le lo
+    - lo se
+    lexemes:
+    - devolver
+    - libro
+  - id: u26-l2-19
+    type: fill_blank
+    sentence: ¿La carta? ___ envié ayer.
+    translation: המכתב? שלחתי אותו אתמול.
+    answers:
+    - La
+    options:
+    - La
+    - Lo
+    - Le
+    lexemes:
+    - carta
+    - enviar
+    - ayer
+  - id: u26-l2-20
+    type: fill_blank
+    sentence: ¿Los documentos? ___ firmé.
+    translation: המסמכים? חתמתי עליהם.
+    answers:
+    - Los
+    options:
+    - Los
+    - Las
+    - Lo
+    lexemes:
+    - documento
+    - firmar
+  - id: u26-l2-21
+    type: word_bank
+    prompt: אני מחזיר לך אותו.
+    answers:
+    - Te lo devuelvo.
+    distractors:
+    - Lo te
+    - Le
+    lexemes:
+    - devolver
+  - id: u26-l2-22
+    type: translate
+    direction: to_target
+    prompt: נתתי לה את המכתב.
+    answers:
+    - Le di la carta.
+    - Se la di.
+    lexemes:
+    - dar
+    - carta
+  - id: u26-l2-23
+    type: translate
+    direction: to_source
+    prompt: ¿Me prestas el contrato?
+    answers:
+    - תשאיל לי את החוזה?
+    - תשאילי לי את החוזה?
+    lexemes:
+    - prestar
+    - contrato
+  - id: u26-l2-24
+    type: dictation
+    text: Te lo doy mañana.
+    lexemes:
+    - dar
+    - manana-adv
+- id: u26-l3
+  kind: grammar
+  title:
+    he: כינויי מושא
+    en: Object pronouns
+  grammar: pronombres-objeto
+  exercises:
+  - id: u26-l3-01
+    type: fill_blank
+    sentence: ¿El informe? Lo ___ ayer. (terminar, yo)
+    translation: הדוח? סיימתי אותו אתמול.
+    answers:
+    - terminé
+    options:
+    - terminé
+    - terminó
+    - termino
+    lexemes:
+    - informe
+    - terminar
+    - ayer
+  - id: u26-l3-02
+    type: fill_blank
+    sentence: ¿La carta? ___ escribí.
+    translation: המכתב? כתבתי אותו.
+    answers:
+    - La
+    options:
+    - La
+    - Lo
+    - Le
+    lexemes:
+    - carta
+    - escribir
+  - id: u26-l3-03
+    type: fill_blank
+    sentence: ¿Los clientes? ___ llamé.
+    translation: הלקוחות? התקשרתי אליהם.
+    answers:
+    - Los
+    options:
+    - Los
+    - Les
+    - Las
+    lexemes:
+    - cliente
+    - llamar
+  - id: u26-l3-04
+    type: fill_blank
+    sentence: Le di el paquete a Mateo. → ___ di.
+    translation: נתתי לו אותה.
+    answers:
+    - Se lo
+    options:
+    - Se lo
+    - Le lo
+    - Lo se
+    lexemes:
+    - dar
+    - paquete
+  - id: u26-l3-05
+    type: fill_blank
+    sentence: Quiero ___ (revisar + el contrato).
+    translation: אני רוצה לבדוק אותו.
+    answers:
+    - revisarlo
+    options:
+    - revisarlo
+    - lo revisar
+    - revisar lo
+    lexemes:
+    - querer
+    - revisar
+    - contrato
+  - id: u26-l3-06
+    type: fill_blank
+    sentence: Estoy ___ (escribir + el correo).
+    translation: אני כותבת אותו.
+    answers:
+    - escribiéndolo
+    options:
+    - escribiéndolo
+    - lo escribiendo
+    - escribiendo lo
+    lexemes:
+    - estar
+    - escribir
+    - correo
+  - id: u26-l3-07
+    type: fill_blank
+    sentence: ¿Me ___ el archivo? (enviar, tú)
+    translation: תשלח לי את הקובץ?
+    answers:
+    - envías
+    options:
+    - envías
+    - envía
+    - envío
+    lexemes:
+    - enviar
+    - archivo
+  - id: u26-l3-08
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Lo revisé.
+    - Revisé lo.
+    - Le revisé.
+    correct: 0
+    lexemes:
+    - revisar
+  - id: u26-l3-09
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - No lo he visto.
+    - Lo no he visto.
+    - No he lo visto.
+    correct: 0
+    lexemes:
+    - haber
+    - ver
+  - id: u26-l3-10
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Quiero revisarlo ahora.
+    - Quiero revisar lo ahora.
+    - Quiero lo revisarlo ahora.
+    correct: 0
+    lexemes:
+    - querer
+    - revisar
+    - ahora
+  - id: u26-l3-11
+    type: word_bank
+    prompt: בדקתי אותו.
+    answers:
+    - Lo revisé.
+    distractors:
+    - La
+    - Les
+    lexemes:
+    - revisar
+  - id: u26-l3-12
+    type: word_bank
+    prompt: נתתי לו אותו.
+    answers:
+    - Se lo di.
+    distractors:
+    - Le lo
+    - Lo se
+    lexemes:
+    - dar
+  - id: u26-l3-13
+    type: translate
+    direction: to_target
+    prompt: אני שולחת לך אותו.
+    answers:
+    - Te lo envío.
+    lexemes:
+    - enviar
+  - id: u26-l3-14
+    type: translate
+    direction: to_target
+    prompt: החוזה? כבר חתמתי עליו.
+    answers:
+    - ¿El contrato? Ya lo firmé.
+    lexemes:
+    - contrato
+    - ya
+    - firmar
+  - id: u26-l3-15
+    type: translate
+    direction: to_source
+    prompt: Me lo prestó Mateo.
+    answers:
+    - מתאו השאיל לי אותו
+    lexemes:
+    - prestar
+  - id: u26-l3-16
+    type: translate
+    direction: to_source
+    prompt: Se lo dije ayer.
+    answers:
+    - אמרתי לו את זה אתמול
+    - אמרתי לה את זה אתמול
+    lexemes:
+    - decir
+    - ayer
+- id: u26-l4
+  kind: listening
+  title:
+    he: מי קיבל מה?
+    en: Who got what?
+  exercises:
+  - id: u26-l4-01
+    type: dialogue
+    scene: שיחה על חבילות.
+    lines:
+    - speaker: sofia
+      text: ¿Dónde está el paquete para el cliente? ¿Ya se lo enviaste?
+      translation: איפה החבילה ללקוח? כבר שלחת לו אותה?
+    - speaker: yael
+      text: Sí, se lo envié esta mañana. Y el contrato también.
+      translation: כן, שלחתי לו אותה הבוקר. ואת החוזה גם.
+    - speaker: sofia
+      text: ¿Lo firmaron?
+      translation: הם חתמו עליו?
+    - speaker: yael
+      text: Todavía no. Les voy a avisar otra vez mañana.
+      translation: עדיין לא. אני אודיע להם שוב מחר.
+  - id: u26-l4-02
+    type: multiple_choice
+    prompt: מה שלחה יעל?
+    options:
+    - חבילה וחוזה
+    - רק מכתב
+    - קובץ
+    correct: 0
+    lexemes:
+    - paquete
+    - contrato
+    - carta
+    - archivo
+  - id: u26-l4-03
+    type: multiple_choice
+    prompt: האם חתמו על החוזה?
+    options:
+    - עדיין לא
+    - כן
+    - לא ידוע
+    correct: 0
+    lexemes:
+    - todavia
+    - firmar
+  - id: u26-l4-04
+    type: multiple_choice
+    prompt: מה יעל תעשה מחר?
+    options:
+    - תודיע להם שוב
+    - תחתום
+    - תשלח עוד חבילה
+    correct: 0
+    lexemes:
+    - avisar
+    - firmar
+    - paquete
+  - id: u26-l4-05
+    type: listening_choice
+    audioText: Se lo di a Mateo ayer.
+    question: מה קרה?
+    options:
+    - נתתי לו אותו אתמול
+    - נתתי לו אותו מחר
+    - נתתי לה אותו
+    correct: 0
+    lexemes:
+    - dar
+    - ayer
+    - manana-adv
+  - id: u26-l4-06
+    type: listening_choice
+    audioText: Te lo explico más tarde.
+    question: מה מבטיחים?
+    options:
+    - להסביר מאוחר יותר
+    - להסביר עכשיו
+    - לא להסביר
+    correct: 0
+    lexemes:
+    - tarde-adv
+    - ahora
+  - id: u26-l4-07
+    type: dictation
+    text: Se lo envié esta mañana.
+    lexemes:
+    - enviar
+    - manana-dia
+  - id: u26-l4-08
+    type: translate
+    direction: to_target
+    prompt: שלחתי לך אותה.
+    answers:
+    - Te la envié.
+    lexemes:
+    - enviar
+  - id: u26-l4-09
+    type: speak_repeat
+    text: Se lo di ayer y lo firmó.
+    translation: נתתי לו אותו אתמול והוא חתם עליו.
+    lexemes:
+    - dar
+    - ayer
+    - firmar
+- id: u26-l5
+  kind: reading
+  title:
+    he: רשימת משימות
+    en: A to-do list
+  exercises:
+  - id: u26-l5-01
+    type: reading
+    kind: רשימה
+    title: Pendientes de Yael
+    text: '1. El contrato: lo revisé, pero todavía no lo he firmado. Voy a firmarlo hoy.
+
+      2. El paquete para el cliente: ya se lo envié. Esperar su respuesta.
+
+      3. Los mensajes: los contesté. Falta el mensaje de Dani: se lo contesto mañana.
+
+      4. El informe: lo estoy escribiendo. Es urgente.
+
+      '
+    translation: '1. החוזה: בדקתי אותו אבל עדיין לא חתמתי עליו. אחתום עליו היום.
+
+      2. החבילה ללקוח: כבר שלחתי לו אותה. לחכות לתשובה.
+
+      3. ההודעות: עניתי להן. חסרה ההודעה של דני: אענה לו מחר.
+
+      4. הדוח: אני כותבת אותו עכשיו. דחוף.
+
+      '
+  - id: u26-l5-02
+    type: multiple_choice
+    prompt: מה עם החוזה?
+    options:
+    - נבדק, עוד לא נחתם
+    - נחתם
+    - לא נבדק
+    correct: 0
+    lexemes:
+    - contrato
+    - revisar
+    - firmar
+  - id: u26-l5-03
+    type: multiple_choice
+    prompt: מה דחוף?
+    options:
+    - הדוח
+    - החבילה
+    - ההודעות
+    correct: 0
+    lexemes:
+    - informe
+    - paquete
+    - mensaje
+    - urgente
+  - id: u26-l5-04
+    type: fill_blank
+    sentence: 'El paquete: ya ___ envié.'
+    translation: 'החבילה: כבר שלחתי לו אותה.'
+    answers:
+    - se la
+    options:
+    - se la
+    - le la
+    - la se
+    lexemes:
+    - paquete
+    - enviar
+  - id: u26-l5-05
+    type: translate
+    direction: to_target
+    prompt: אני כותבת אותו.
+    answers:
+    - Lo estoy escribiendo.
+    - Estoy escribiéndolo.
+    lexemes:
+    - estar
+    - escribir
+- id: u26-review
+  kind: review
+  title:
+    he: 'חזרה: כינויי מושא + כתיבה'
+    en: 'Review: object pronouns + writing'
+  exercises:
+  - id: u26-review-01
+    type: match_pairs
+    pairs:
+    - - el paquete
+      - חבילה
+    - - el contrato
+      - חוזה
+    - - el mensaje
+      - הודעה
+    - - la carta
+      - מכתב
+    - - el documento
+      - מסמך
+    lexemes:
+    - paquete
+    - contrato
+    - mensaje
+    - carta
+    - documento
+  - id: u26-review-02
+    type: match_pairs
+    pairs:
+    - - entregar
+      - למסור
+    - - firmar
+      - לחתום
+    - - revisar
+      - לבדוק
+    - - prestar
+      - להשאיל
+    - - contestar
+      - לענות
+    lexemes:
+    - entregar
+    - firmar
+    - revisar
+    - prestar
+    - contestar
+  - id: u26-review-03
+    type: fill_blank
+    sentence: ¿La carta? ___ envié ayer.
+    translation: המכתב? שלחתי אותו אתמול.
+    answers:
+    - La
+    options:
+    - La
+    - Lo
+    - Le
+    lexemes:
+    - carta
+    - enviar
+    - ayer
+  - id: u26-review-04
+    type: fill_blank
+    sentence: Le di el libro. → ___ di.
+    translation: נתתי לו אותו.
+    answers:
+    - Se lo
+    options:
+    - Se lo
+    - Le lo
+    - Lo se
+    lexemes:
+    - dar
+    - libro
+  - id: u26-review-05
+    type: multiple_choice
+    prompt: מה פירוש 'Te lo mando mañana'?
+    options:
+    - אשלח לך אותו מחר
+    - שלחתי לך אותו
+    - אני שולח לו
+    correct: 0
+    lexemes:
+    - manana-adv
+  - id: u26-review-06
+    type: listening_choice
+    audioText: Ya lo firmé.
+    question: מה עשו?
+    options:
+    - חתמו עליו
+    - שלחו אותו
+    - קיבלו אותו
+    correct: 0
+    lexemes:
+    - ya
+    - firmar
+    - enviar
+    - recibir
+  - id: u26-review-07
+    type: word_bank
+    prompt: בדקתי אותה.
+    answers:
+    - La revisé.
+    distractors:
+    - Lo
+    - Las
+    lexemes:
+    - revisar
+  - id: u26-review-08
+    type: translate
+    direction: to_target
+    prompt: אני אתן לך אותו.
+    answers:
+    - Te lo daré.
+    - Te lo voy a dar.
+    lexemes:
+    - dar
+  - id: u26-review-09
+    type: translate
+    direction: to_source
+    prompt: ¿Me lo puedes enviar?
+    answers:
+    - אתה יכול לשלוח לי את זה?
+    - את יכולה לשלוח לי את זה?
+    lexemes:
+    - poder
+    - enviar
+  - id: u26-review-10
+    type: dictation
+    text: Lo recibí ayer.
+    lexemes:
+    - recibir
+    - ayer
+  - id: u26-review-11
+    type: speak_repeat
+    text: Se lo entregué a Mateo.
+    translation: מסרתי לו את זה.
+    lexemes:
+    - entregar
+  - id: u26-review-12
+    type: write
+    prompt: 'כתבו הודעה קצרה לעמית על משימה: מה כבר עשיתם (lo / la), מה נתתם למי (le / se lo), ומה עוד נשאר. השתמשו בכינויי מושא.'
+    minWords: 35
+    checks:
+    - label: השתמשתם בכינוי ישיר (lo, la, los, las)
+      any:
+      - \blo\b
+      - \bla\b
+      - \blos\b
+      - \blas\b
+      - \w+(rlo|rla|rlos|rlas)\b
+    - label: השתמשתם בכינוי עקיף (me, te, le, les, se lo, se la)
+      any:
+      - \bme\b
+      - \bte\b
+      - \ble\b
+      - \bles\b
+      - se lo
+      - se la
+    - label: הזכרתם מסמך, חבילה, חוזה או דוח
+      any:
+      - contrato
+      - paquete
+      - documento
+      - informe
+      - mensaje
+      - carta
+      - archivo
+    - label: הזכרתם פעולה שנעשתה או עדיין לא (ya / todavía)
+      any:
+      - \bya\b
+      - todavia
+      - \bmanana\b
+    model: Hola Mateo. El contrato ya lo revisé y se lo envié al cliente. El paquete todavía no lo he recibido, pero te lo aviso cuando llegue. El informe lo estoy escribiendo y te lo mando mañana. Si necesitas algo, dímelo.
+    lexemes: []
