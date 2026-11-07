@@ -1,0 +1,1218 @@
+id: v1-words
+cefr: B1
+scene: study
+title:
+  he: הרחבת אוצר מילים 1
+  en: Word builder 1
+story: עוד מילים חשובות בשימוש יומיומי, מקובצות בשיעורים קצרים. כל מילה מופיעה במשפט, ואחר כך מתרגלים אותה.
+canDo:
+- להבין ולהשתמש במילים נפוצות נוספות
+- לזהות את המילים במשפטים אמיתיים
+vocabulary:
+- id: practice
+  text: practice
+  translation: תרגול, אימון
+  pos: noun
+  example:
+    text: Practice makes perfect.
+    translation: תרגול עושה מושלם.
+- id: voice
+  text: voice
+  translation: קול
+  pos: noun
+  example:
+    text: She has a beautiful voice.
+    translation: יש לה קול יפה.
+- id: safe
+  text: safe
+  translation: בטוח
+  pos: adjective
+  example:
+    text: Is it safe to swim here?
+    translation: האם בטוח לשחות כאן?
+- id: deep
+  text: deep
+  translation: עמוק
+  pos: adjective
+  example:
+    text: The lake is very deep.
+    translation: האגם עמוק מאוד.
+- id: popular
+  text: popular
+  translation: פופולרי
+  pos: adjective
+  example:
+    text: This is a popular restaurant.
+    translation: זו מסעדה פופולרית.
+- id: response
+  text: response
+  translation: תגובה, תשובה
+  pos: noun
+  example:
+    text: I am waiting for your response.
+    translation: אני מחכה לתגובה שלך.
+- id: respect
+  text: respect
+  translation: כבוד; לכבד
+  pos: noun
+  example:
+    text: We show respect to our teachers.
+    translation: אנחנו מראים כבוד למורים שלנו.
+- id: pain
+  text: pain
+  translation: כאב
+  pos: noun
+  example:
+    text: I have a pain in my back.
+    translation: יש לי כאב בגב.
+- id: river
+  text: river
+  translation: נהר
+  pos: noun
+  example:
+    text: The river is wide and slow.
+    translation: הנהר רחב ואיטי.
+- id: speed
+  text: speed
+  translation: מהירות
+  pos: noun
+  example:
+    text: The speed limit is fifty.
+    translation: מגבלת המהירות היא חמישים.
+- id: standard
+  text: standard
+  translation: סטנדרט, רמה
+  pos: noun
+  example:
+    text: The hotel has a high standard.
+    translation: למלון יש רמה גבוהה.
+- id: peace
+  text: peace
+  translation: שלום, שקט
+  pos: noun
+  example:
+    text: I need some peace and quiet.
+    translation: אני צריך קצת שקט ושלווה.
+- id: pressure
+  text: pressure
+  translation: לחץ
+  pos: noun
+  example:
+    text: She works well under pressure.
+    translation: היא עובדת טוב בלחץ.
+- id: focus
+  text: focus
+  translation: להתמקד; מיקוד
+  pos: verb
+  example:
+    text: It is hard to focus when it is noisy.
+    translation: קשה להתרכז כשיש רעש.
+- id: particular
+  text: particular
+  translation: מסוים, מיוחד
+  pos: adjective
+  example:
+    text: Is there a particular reason?
+    translation: האם יש סיבה מסוימת?
+- id: previous
+  text: previous
+  translation: קודם, קודם לכן
+  pos: adjective
+  example:
+    text: My previous job was in a school.
+    translation: העבודה הקודמת שלי הייתה בבית ספר.
+- id: consider
+  text: consider
+  translation: לשקול, להתחשב
+  pos: verb
+  example:
+    text: Please consider my offer.
+    translation: אנא שקלו את ההצעה שלי.
+- id: immediately
+  text: immediately
+  translation: מיד
+  pos: adverb
+  example:
+    text: Call me immediately.
+    translation: התקשר אליי מיד.
+- id: sell
+  text: sell
+  translation: למכור
+  pos: verb
+  example:
+    text: They sell fresh bread every morning.
+    translation: הם מוכרים לחם טרי כל בוקר.
+- id: ability
+  text: ability
+  translation: יכולת
+  pos: noun
+  example:
+    text: He has the ability to learn fast.
+    translation: יש לו יכולת ללמוד מהר.
+- id: collection
+  text: collection
+  translation: אוסף
+  pos: noun
+  example:
+    text: She has a large collection of stamps.
+    translation: יש לה אוסף גדול של בולים.
+- id: opinion
+  text: opinion
+  translation: דעה
+  pos: noun
+  example:
+    text: In my opinion, it is a good idea.
+    translation: לדעתי, זה רעיון טוב.
+- id: physical
+  text: physical
+  translation: גופני, פיזי
+  pos: adjective
+  example:
+    text: Physical exercise is good for you.
+    translation: פעילות גופנית טובה לך.
+- id: active
+  text: active
+  translation: פעיל
+  pos: adjective
+  example:
+    text: My grandmother is still very active.
+    translation: סבתא שלי עדיין פעילה מאוד.
+- id: effort
+  text: effort
+  translation: מאמץ
+  pos: noun
+  example:
+    text: It took a lot of effort.
+    translation: זה דרש הרבה מאמץ.
+- id: wear
+  text: wear
+  translation: ללבוש
+  pos: verb
+  example:
+    text: I usually wear a jacket in winter.
+    translation: בדרך כלל אני לובש מעיל בחורף.
+- id: details
+  text: details
+  translation: פרטים
+  pos: noun
+  example:
+    text: Please send me the details.
+    translation: אנא שלחו לי את הפרטים.
+- id: direct
+  text: direct
+  translation: ישיר
+  pos: adjective
+  example:
+    text: There is a direct train to the city.
+    translation: יש רכבת ישירה לעיר.
+- id: rich
+  text: rich
+  translation: עשיר
+  pos: adjective
+  example:
+    text: The soup is rich and tasty.
+    translation: המרק עשיר וטעים.
+- id: skin
+  text: skin
+  translation: עור
+  pos: noun
+  example:
+    text: Use cream to protect your skin.
+    translation: השתמשו בקרם כדי להגן על העור.
+- id: sweet
+  text: sweet
+  translation: מתוק
+  pos: adjective
+  example:
+    text: The cake is too sweet for me.
+    translation: העוגה מתוקה מדי בשבילי.
+- id: glad
+  text: glad
+  translation: שמח
+  pos: adjective
+  example:
+    text: I am glad you came.
+    translation: אני שמח שבאת.
+- id: overall
+  text: overall
+  translation: בסך הכול
+  pos: adverb
+  example:
+    text: Overall, it was a great week.
+    translation: בסך הכול זה היה שבוע נהדר.
+- id: carry
+  text: carry
+  translation: לשאת, לסחוב
+  pos: verb
+  example:
+    text: Can you carry this bag for me?
+    translation: אפשר לשאת בשבילי את התיק הזה?
+- id: reality
+  text: reality
+  translation: מציאות
+  pos: noun
+  example:
+    text: The dream became a reality.
+    translation: החלום הפך למציאות.
+- id: spot
+  text: spot
+  translation: מקום, כתם
+  pos: noun
+  example:
+    text: This is a lovely spot for a picnic.
+    translation: זה מקום יפהפה לפיקניק.
+- id: comment
+  text: comment
+  translation: הערה; להגיב
+  pos: noun
+  example:
+    text: Thank you for your comment.
+    translation: תודה על ההערה שלך.
+- id: equipment
+  text: equipment
+  translation: ציוד
+  pos: noun
+  example:
+    text: We bought new equipment for the office.
+    translation: קנינו ציוד חדש למשרד.
+- id: purpose
+  text: purpose
+  translation: מטרה
+  pos: noun
+  example:
+    text: What is the purpose of this meeting?
+    translation: מה מטרת הפגישה הזו?
+lessons:
+- id: v1-l1
+  kind: new
+  title:
+    he: מילים חדשות 1
+    en: New words 1
+  exercises:
+  - id: v1-l1-01
+    type: learn
+    lexeme: practice
+    lexemes: []
+  - id: v1-l1-02
+    type: learn
+    lexeme: voice
+    lexemes: []
+  - id: v1-l1-03
+    type: learn
+    lexeme: safe
+    lexemes: []
+  - id: v1-l1-04
+    type: learn
+    lexeme: deep
+    lexemes: []
+  - id: v1-l1-05
+    type: learn
+    lexeme: popular
+    lexemes: []
+  - id: v1-l1-06
+    type: learn
+    lexeme: response
+    lexemes: []
+  - id: v1-l1-07
+    type: learn
+    lexeme: respect
+    lexemes: []
+  - id: v1-l1-08
+    type: learn
+    lexeme: pain
+    lexemes: []
+  - id: v1-l1-09
+    type: learn
+    lexeme: river
+    lexemes: []
+  - id: v1-l1-10
+    type: learn
+    lexeme: speed
+    lexemes: []
+  - id: v1-l1-11
+    type: match_pairs
+    pairs:
+    - - practice
+      - תרגול
+    - - voice
+      - קול
+    - - safe
+      - בטוח
+    - - deep
+      - עמוק
+    - - popular
+      - פופולרי
+    lexemes:
+    - practice
+    - voice
+    - safe
+    - deep
+    - popular
+  - id: v1-l1-12
+    type: match_pairs
+    pairs:
+    - - response
+      - תגובה
+    - - respect
+      - כבוד
+    - - pain
+      - כאב
+    - - river
+      - נהר
+    - - speed
+      - מהירות
+    lexemes:
+    - response
+    - respect
+    - pain
+    - river
+    - speed
+  - id: v1-l1-13
+    type: multiple_choice
+    prompt: מה פירוש practice?
+    options:
+    - תרגול, אימון
+    - נהר
+    - פופולרי
+    correct: 0
+    lexemes:
+    - practice
+  - id: v1-l1-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: קול?'
+    options:
+    - voice
+    - popular
+    - speed
+    correct: 0
+    lexemes:
+    - voice
+  - id: v1-l1-15
+    type: multiple_choice
+    prompt: מה פירוש safe?
+    options:
+    - בטוח
+    - תגובה, תשובה
+    - קול
+    correct: 0
+    lexemes:
+    - safe
+  - id: v1-l1-16
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: עמוק?'
+    options:
+    - deep
+    - safe
+    - response
+    correct: 0
+    lexemes:
+    - deep
+  - id: v1-l1-17
+    type: multiple_choice
+    prompt: מה פירוש popular?
+    options:
+    - פופולרי
+    - בטוח
+    - נהר
+    correct: 0
+    lexemes:
+    - popular
+  - id: v1-l1-18
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: תגובה?'
+    options:
+    - response
+    - deep
+    - river
+    correct: 0
+    lexemes:
+    - response
+  - id: v1-l1-19
+    type: fill_blank
+    sentence: The lake is very ___.
+    translation: האגם עמוק מאוד.
+    answers:
+    - deep
+    options:
+    - deep
+    - speed
+    - safe
+    lexemes:
+    - deep
+  - id: v1-l1-20
+    type: fill_blank
+    sentence: This is a ___ restaurant.
+    translation: זו מסעדה פופולרית.
+    answers:
+    - popular
+    options:
+    - popular
+    - pain
+    - voice
+    lexemes:
+    - popular
+  - id: v1-l1-21
+    type: fill_blank
+    sentence: I am waiting for your ___.
+    translation: אני מחכה לתגובה שלך.
+    answers:
+    - response
+    options:
+    - response
+    - river
+    - respect
+    lexemes:
+    - response
+  - id: v1-l1-22
+    type: fill_blank
+    sentence: We show ___ to our teachers.
+    translation: אנחנו מראים כבוד למורים שלנו.
+    answers:
+    - respect
+    options:
+    - respect
+    - practice
+    - deep
+    lexemes:
+    - respect
+  - id: v1-l1-23
+    type: fill_blank
+    sentence: I have a ___ in my back.
+    translation: יש לי כאב בגב.
+    answers:
+    - pain
+    options:
+    - pain
+    - popular
+    - speed
+    lexemes:
+    - pain
+  - id: v1-l1-24
+    type: fill_blank
+    sentence: The ___ is wide and slow.
+    translation: הנהר רחב ואיטי.
+    answers:
+    - river
+    options:
+    - river
+    - pain
+    - practice
+    lexemes:
+    - river
+  - id: v1-l1-25
+    type: fill_blank
+    sentence: The ___ limit is fifty.
+    translation: מגבלת המהירות היא חמישים.
+    answers:
+    - speed
+    options:
+    - speed
+    - popular
+    - response
+    lexemes:
+    - speed
+  - id: v1-l1-26
+    type: dictation
+    text: The river is wide and slow.
+    lexemes:
+    - river
+  - id: v1-l1-27
+    type: dictation
+    text: The speed limit is fifty.
+    lexemes:
+    - speed
+- id: v1-l2
+  kind: new
+  title:
+    he: מילים חדשות 2
+    en: New words 2
+  exercises:
+  - id: v1-l2-01
+    type: learn
+    lexeme: standard
+    lexemes: []
+  - id: v1-l2-02
+    type: learn
+    lexeme: peace
+    lexemes: []
+  - id: v1-l2-03
+    type: learn
+    lexeme: pressure
+    lexemes: []
+  - id: v1-l2-04
+    type: learn
+    lexeme: focus
+    lexemes: []
+  - id: v1-l2-05
+    type: learn
+    lexeme: particular
+    lexemes: []
+  - id: v1-l2-06
+    type: learn
+    lexeme: previous
+    lexemes: []
+  - id: v1-l2-07
+    type: learn
+    lexeme: consider
+    lexemes: []
+  - id: v1-l2-08
+    type: learn
+    lexeme: immediately
+    lexemes: []
+  - id: v1-l2-09
+    type: learn
+    lexeme: sell
+    lexemes: []
+  - id: v1-l2-10
+    type: learn
+    lexeme: ability
+    lexemes: []
+  - id: v1-l2-11
+    type: match_pairs
+    pairs:
+    - - standard
+      - סטנדרט
+    - - peace
+      - שלום
+    - - pressure
+      - לחץ
+    - - focus
+      - להתמקד
+    - - particular
+      - מסוים
+    lexemes:
+    - standard
+    - peace
+    - pressure
+    - focus
+    - particular
+  - id: v1-l2-12
+    type: match_pairs
+    pairs:
+    - - previous
+      - קודם
+    - - consider
+      - לשקול
+    - - immediately
+      - מיד
+    - - sell
+      - למכור
+    - - ability
+      - יכולת
+    lexemes:
+    - previous
+    - consider
+    - immediately
+    - sell
+    - ability
+  - id: v1-l2-13
+    type: multiple_choice
+    prompt: מה פירוש standard?
+    options:
+    - סטנדרט, רמה
+    - קודם, קודם לכן
+    - יכולת
+    correct: 0
+    lexemes:
+    - standard
+  - id: v1-l2-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: שלום?'
+    options:
+    - peace
+    - focus
+    - particular
+    correct: 0
+    lexemes:
+    - peace
+  - id: v1-l2-15
+    type: multiple_choice
+    prompt: מה פירוש pressure?
+    options:
+    - לחץ
+    - למכור
+    - להתמקד; מיקוד
+    correct: 0
+    lexemes:
+    - pressure
+  - id: v1-l2-16
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: להתמקד?'
+    options:
+    - focus
+    - standard
+    - pressure
+    correct: 0
+    lexemes:
+    - focus
+  - id: v1-l2-17
+    type: multiple_choice
+    prompt: מה פירוש particular?
+    options:
+    - מסוים, מיוחד
+    - מיד
+    - סטנדרט, רמה
+    correct: 0
+    lexemes:
+    - particular
+  - id: v1-l2-18
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: קודם?'
+    options:
+    - previous
+    - focus
+    - particular
+    correct: 0
+    lexemes:
+    - previous
+  - id: v1-l2-19
+    type: fill_blank
+    sentence: It is hard to ___ when it is noisy.
+    translation: קשה להתרכז כשיש רעש.
+    answers:
+    - focus
+    options:
+    - focus
+    - particular
+    - pressure
+    lexemes:
+    - focus
+  - id: v1-l2-20
+    type: fill_blank
+    sentence: Is there a ___ reason?
+    translation: האם יש סיבה מסוימת?
+    answers:
+    - particular
+    options:
+    - particular
+    - immediately
+    - previous
+    lexemes:
+    - particular
+  - id: v1-l2-21
+    type: fill_blank
+    sentence: My ___ job was in a school.
+    translation: העבודה הקודמת שלי הייתה בבית ספר.
+    answers:
+    - previous
+    options:
+    - previous
+    - immediately
+    - sell
+    lexemes:
+    - previous
+  - id: v1-l2-22
+    type: fill_blank
+    sentence: Please ___ my offer.
+    translation: אנא שקלו את ההצעה שלי.
+    answers:
+    - consider
+    options:
+    - consider
+    - pressure
+    - ability
+    lexemes:
+    - consider
+  - id: v1-l2-23
+    type: fill_blank
+    sentence: Call me ___.
+    translation: התקשר אליי מיד.
+    answers:
+    - immediately
+    options:
+    - immediately
+    - focus
+    - standard
+    lexemes:
+    - immediately
+  - id: v1-l2-24
+    type: fill_blank
+    sentence: They ___ fresh bread every morning.
+    translation: הם מוכרים לחם טרי כל בוקר.
+    answers:
+    - sell
+    options:
+    - sell
+    - immediately
+    - pressure
+    lexemes:
+    - sell
+  - id: v1-l2-25
+    type: fill_blank
+    sentence: He has the ___ to learn fast.
+    translation: יש לו יכולת ללמוד מהר.
+    answers:
+    - ability
+    options:
+    - ability
+    - immediately
+    - peace
+    lexemes:
+    - ability
+  - id: v1-l2-26
+    type: dictation
+    text: They sell fresh bread every morning.
+    lexemes:
+    - sell
+  - id: v1-l2-27
+    type: dictation
+    text: He has the ability to learn fast.
+    lexemes:
+    - ability
+- id: v1-l3
+  kind: new
+  title:
+    he: מילים חדשות 3
+    en: New words 3
+  exercises:
+  - id: v1-l3-01
+    type: learn
+    lexeme: collection
+    lexemes: []
+  - id: v1-l3-02
+    type: learn
+    lexeme: opinion
+    lexemes: []
+  - id: v1-l3-03
+    type: learn
+    lexeme: physical
+    lexemes: []
+  - id: v1-l3-04
+    type: learn
+    lexeme: active
+    lexemes: []
+  - id: v1-l3-05
+    type: learn
+    lexeme: effort
+    lexemes: []
+  - id: v1-l3-06
+    type: learn
+    lexeme: wear
+    lexemes: []
+  - id: v1-l3-07
+    type: learn
+    lexeme: details
+    lexemes: []
+  - id: v1-l3-08
+    type: learn
+    lexeme: direct
+    lexemes: []
+  - id: v1-l3-09
+    type: learn
+    lexeme: rich
+    lexemes: []
+  - id: v1-l3-10
+    type: learn
+    lexeme: skin
+    lexemes: []
+  - id: v1-l3-11
+    type: match_pairs
+    pairs:
+    - - collection
+      - אוסף
+    - - opinion
+      - דעה
+    - - physical
+      - גופני
+    - - active
+      - פעיל
+    - - effort
+      - מאמץ
+    lexemes:
+    - collection
+    - opinion
+    - physical
+    - active
+    - effort
+  - id: v1-l3-12
+    type: match_pairs
+    pairs:
+    - - wear
+      - ללבוש
+    - - details
+      - פרטים
+    - - direct
+      - ישיר
+    - - rich
+      - עשיר
+    - - skin
+      - עור
+    lexemes:
+    - wear
+    - details
+    - direct
+    - rich
+    - skin
+  - id: v1-l3-13
+    type: multiple_choice
+    prompt: מה פירוש collection?
+    options:
+    - אוסף
+    - ישיר
+    - גופני, פיזי
+    correct: 0
+    lexemes:
+    - collection
+  - id: v1-l3-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: דעה?'
+    options:
+    - opinion
+    - active
+    - rich
+    correct: 0
+    lexemes:
+    - opinion
+  - id: v1-l3-15
+    type: multiple_choice
+    prompt: מה פירוש physical?
+    options:
+    - גופני, פיזי
+    - עור
+    - עשיר
+    correct: 0
+    lexemes:
+    - physical
+  - id: v1-l3-16
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: פעיל?'
+    options:
+    - active
+    - collection
+    - wear
+    correct: 0
+    lexemes:
+    - active
+  - id: v1-l3-17
+    type: multiple_choice
+    prompt: מה פירוש effort?
+    options:
+    - מאמץ
+    - דעה
+    - עור
+    correct: 0
+    lexemes:
+    - effort
+  - id: v1-l3-18
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: ללבוש?'
+    options:
+    - wear
+    - collection
+    - effort
+    correct: 0
+    lexemes:
+    - wear
+  - id: v1-l3-19
+    type: fill_blank
+    sentence: My grandmother is still very ___.
+    translation: סבתא שלי עדיין פעילה מאוד.
+    answers:
+    - active
+    options:
+    - active
+    - wear
+    - rich
+    lexemes:
+    - active
+  - id: v1-l3-20
+    type: fill_blank
+    sentence: It took a lot of ___.
+    translation: זה דרש הרבה מאמץ.
+    answers:
+    - effort
+    options:
+    - effort
+    - physical
+    - active
+    lexemes:
+    - effort
+  - id: v1-l3-21
+    type: fill_blank
+    sentence: I usually ___ a jacket in winter.
+    translation: בדרך כלל אני לובש מעיל בחורף.
+    answers:
+    - wear
+    options:
+    - wear
+    - collection
+    - skin
+    lexemes:
+    - wear
+  - id: v1-l3-22
+    type: fill_blank
+    sentence: Please send me the ___.
+    translation: אנא שלחו לי את הפרטים.
+    answers:
+    - details
+    options:
+    - details
+    - effort
+    - rich
+    lexemes:
+    - details
+  - id: v1-l3-23
+    type: fill_blank
+    sentence: There is a ___ train to the city.
+    translation: יש רכבת ישירה לעיר.
+    answers:
+    - direct
+    options:
+    - direct
+    - effort
+    - rich
+    lexemes:
+    - direct
+  - id: v1-l3-24
+    type: fill_blank
+    sentence: The soup is ___ and tasty.
+    translation: המרק עשיר וטעים.
+    answers:
+    - rich
+    options:
+    - rich
+    - effort
+    - skin
+    lexemes:
+    - rich
+  - id: v1-l3-25
+    type: fill_blank
+    sentence: Use cream to protect your ___.
+    translation: השתמשו בקרם כדי להגן על העור.
+    answers:
+    - skin
+    options:
+    - skin
+    - physical
+    - active
+    lexemes:
+    - skin
+  - id: v1-l3-26
+    type: dictation
+    text: The soup is rich and tasty.
+    lexemes:
+    - rich
+  - id: v1-l3-27
+    type: dictation
+    text: Use cream to protect your skin.
+    lexemes:
+    - skin
+- id: v1-l4
+  kind: new
+  title:
+    he: מילים חדשות 4
+    en: New words 4
+  exercises:
+  - id: v1-l4-01
+    type: learn
+    lexeme: sweet
+    lexemes: []
+  - id: v1-l4-02
+    type: learn
+    lexeme: glad
+    lexemes: []
+  - id: v1-l4-03
+    type: learn
+    lexeme: overall
+    lexemes: []
+  - id: v1-l4-04
+    type: learn
+    lexeme: carry
+    lexemes: []
+  - id: v1-l4-05
+    type: learn
+    lexeme: reality
+    lexemes: []
+  - id: v1-l4-06
+    type: learn
+    lexeme: spot
+    lexemes: []
+  - id: v1-l4-07
+    type: learn
+    lexeme: comment
+    lexemes: []
+  - id: v1-l4-08
+    type: learn
+    lexeme: equipment
+    lexemes: []
+  - id: v1-l4-09
+    type: learn
+    lexeme: purpose
+    lexemes: []
+  - id: v1-l4-10
+    type: match_pairs
+    pairs:
+    - - sweet
+      - מתוק
+    - - glad
+      - שמח
+    - - overall
+      - בסך הכול
+    - - carry
+      - לשאת
+    - - reality
+      - מציאות
+    lexemes:
+    - sweet
+    - glad
+    - overall
+    - carry
+    - reality
+  - id: v1-l4-11
+    type: match_pairs
+    pairs:
+    - - spot
+      - מקום
+    - - comment
+      - הערה
+    - - equipment
+      - ציוד
+    - - purpose
+      - מטרה
+    lexemes:
+    - spot
+    - comment
+    - equipment
+    - purpose
+  - id: v1-l4-12
+    type: multiple_choice
+    prompt: מה פירוש sweet?
+    options:
+    - מתוק
+    - שמח
+    - מציאות
+    correct: 0
+    lexemes:
+    - sweet
+  - id: v1-l4-13
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: שמח?'
+    options:
+    - glad
+    - sweet
+    - carry
+    correct: 0
+    lexemes:
+    - glad
+  - id: v1-l4-14
+    type: multiple_choice
+    prompt: מה פירוש overall?
+    options:
+    - בסך הכול
+    - מטרה
+    - הערה; להגיב
+    correct: 0
+    lexemes:
+    - overall
+  - id: v1-l4-15
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: לשאת?'
+    options:
+    - carry
+    - spot
+    - equipment
+    correct: 0
+    lexemes:
+    - carry
+  - id: v1-l4-16
+    type: multiple_choice
+    prompt: מה פירוש reality?
+    options:
+    - מציאות
+    - לשאת, לסחוב
+    - מתוק
+    correct: 0
+    lexemes:
+    - reality
+  - id: v1-l4-17
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: מקום?'
+    options:
+    - spot
+    - equipment
+    - reality
+    correct: 0
+    lexemes:
+    - spot
+  - id: v1-l4-18
+    type: fill_blank
+    sentence: Can you ___ this bag for me?
+    translation: אפשר לשאת בשבילי את התיק הזה?
+    answers:
+    - carry
+    options:
+    - carry
+    - comment
+    - spot
+    lexemes:
+    - carry
+  - id: v1-l4-19
+    type: fill_blank
+    sentence: The dream became a ___.
+    translation: החלום הפך למציאות.
+    answers:
+    - reality
+    options:
+    - reality
+    - purpose
+    - sweet
+    lexemes:
+    - reality
+  - id: v1-l4-20
+    type: fill_blank
+    sentence: This is a lovely ___ for a picnic.
+    translation: זה מקום יפהפה לפיקניק.
+    answers:
+    - spot
+    options:
+    - spot
+    - carry
+    - equipment
+    lexemes:
+    - spot
+  - id: v1-l4-21
+    type: fill_blank
+    sentence: Thank you for your ___.
+    translation: תודה על ההערה שלך.
+    answers:
+    - comment
+    options:
+    - comment
+    - purpose
+    - overall
+    lexemes:
+    - comment
+  - id: v1-l4-22
+    type: fill_blank
+    sentence: We bought new ___ for the office.
+    translation: קנינו ציוד חדש למשרד.
+    answers:
+    - equipment
+    options:
+    - equipment
+    - spot
+    - glad
+    lexemes:
+    - equipment
+  - id: v1-l4-23
+    type: fill_blank
+    sentence: What is the ___ of this meeting?
+    translation: מה מטרת הפגישה הזו?
+    answers:
+    - purpose
+    options:
+    - purpose
+    - carry
+    - spot
+    lexemes:
+    - purpose
+  - id: v1-l4-24
+    type: dictation
+    text: We bought new equipment for the office.
+    lexemes:
+    - equipment
+  - id: v1-l4-25
+    type: dictation
+    text: What is the purpose of this meeting?
+    lexemes:
+    - purpose

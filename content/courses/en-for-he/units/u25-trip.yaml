@@ -482,3 +482,16 @@ lessons:
         text: "We're flying to Madrid on Sunday for the wedding."
         translation: "אנחנו טסים למדריד ביום ראשון לחתונה."
         lexemes: [continuous-future, wedding]
+      - id: u25-w-01
+        type: write
+        prompt: "תכננו טיול קצר: לאן אתם נוסעים, מתי, ומה אתם הולכים לעשות שם?"
+        minWords: 30
+        checks:
+          - label: "השתמשת ב־going to או will"
+            any: ["\\bgoing to\\b", "\\bwill\\b"]
+          - label: "הזכרתם מקום או תאריך"
+            any: ["\\bon (Sunday|Monday|Tuesday|Wednesday|Thursday|Friday)\\b", "\\bnext (week|month)\\b", "\\bin (March|April|May|June|July|August|September|October|November|December)\\b"]
+          - label: "הזכרתם פעילות (visit, see, walk...)"
+            any: ["\\bvisit", "\\bsee\\b", "\\bwalk", "\\bhike", "\\bmuseum"]
+        model: "Next month I am going to visit Rome with my wife. We are flying on Sunday morning and we will stay in a small hotel near the centre. On Monday we will visit the museums, and on Tuesday we are going to walk through the old town and eat at a kosher restaurant."
+        lexemes: []

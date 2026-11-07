@@ -479,3 +479,16 @@ lessons:
         text: "Mrs. Katz is the neighbour who looks after everyone."
         translation: "גברת כץ היא השכנה שדואגת לכולם."
         lexemes: [who-rel, neighbour, look-after]
+      - id: u28-w-01
+        type: write
+        prompt: "תארו אדם חשוב בחייכם בעזרת who / which / that: איך הוא נראה ומה האופי שלו?"
+        minWords: 30
+        checks:
+          - label: "השתמשתם ב־who, which או that"
+            any: ["\\bwho\\b", "\\bwhich\\b", "\\bthat\\b"]
+          - label: "תיארתם אופי (kind, funny, patient...)"
+            any: ["\\bkind\\b", "\\bfunny\\b", "\\bpatient\\b", "\\bclever\\b", "\\bgenerous\\b", "\\bfriendly\\b"]
+          - label: "הזכרתם את הקשר (my father, friend...)"
+            any: ["\\bmy (father|mother|brother|sister|friend|teacher|wife|husband|grandfather|grandmother)\\b"]
+        model: "My grandfather is a man who always has time for everyone. He is kind and funny, and he tells stories that make us laugh. He lives in the house where my father grew up. He taught me the things that I use every day."
+        lexemes: []

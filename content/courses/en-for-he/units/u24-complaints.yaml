@@ -473,3 +473,16 @@ lessons:
         text: "I really apologise. We'll send you a full refund today."
         translation: "אני מאוד מתנצל. נשלח לך החזר מלא היום."
         lexemes: [apologise, refund]
+      - id: u24-w-01
+        type: write
+        prompt: "כתבו תלונה מנומסת לחנות: הזמנתם משהו והוא הגיע פגום. מה אתם מבקשים?"
+        minWords: 30
+        checks:
+          - label: "תיארתם את הבעיה"
+            any: ["\\bbroken\\b", "\\bdamaged\\b", "\\bdoesn't work\\b", "\\bwrong\\b", "\\bfaulty\\b"]
+          - label: "ביקשתם החזר או החלפה"
+            any: ["\\brefund\\b", "\\breplace", "\\bexchange\\b"]
+          - label: "השתמשתם בביטוי מנומס"
+            any: ["\\bcould you\\b", "\\bwould you\\b", "\\bI would like\\b", "\\bplease\\b"]
+        model: "Dear Sir or Madam, I ordered a lamp from your website last week, but it arrived broken. I would like a refund, or you could send me a replacement. Please let me know what I have to do. I have attached a photo of the problem. Thank you for your help."
+        lexemes: []

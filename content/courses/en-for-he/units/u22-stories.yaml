@@ -492,3 +492,16 @@ lessons:
         text: "I was presenting the project when I dropped my coffee."
         translation: "הצגתי את הפרויקט כשהפלתי את הקפה."
         lexemes: [was-ing, project, dropped]
+      - id: u22-w-01
+        type: write
+        prompt: "ספרו על מקרה מצחיק או מפתיע שקרה לכם. מה קרה בזמן שעשיתם משהו אחר?"
+        minWords: 30
+        checks:
+          - label: "השתמשתם ב־when או while"
+            any: ["\\bwhen\\b", "\\bwhile\\b"]
+          - label: "השתמשתם בזמן עבר מתמשך (was / were + ing)"
+            any: ["\\b(was|were) \\w+ing\\b"]
+          - label: "השתמשתם בזמן עבר פשוט"
+            any: ["\\w+ed\\b", "\\b(went|saw|had|took|came|met|found)\\b"]
+        model: "Last week I was waiting for the bus when I saw my old teacher. She was carrying a huge box, so I helped her. While we were walking, she told me a funny story about my class. We laughed so much that we missed the bus, but it was a lovely morning."
+        lexemes: []

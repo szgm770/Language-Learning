@@ -763,6 +763,37 @@ lessons:
     translation: אני ממליצה על זה בכל הלב.
     lexemes:
     - wholeheartedly
+  - id: u46-w-01
+    type: write
+    prompt: 'כתבו מכתב קצר לעצמכם בעוד שנה: מה אתם מקווים להשיג? השתמשו ב־albeit, whereas או notwithstanding.'
+    minWords: 45
+    checks:
+    - label: השתמשתם ב־albeit / whereas / notwithstanding / much as / hence / thereby
+      any:
+      - \balbeit\b
+      - \bwhereas\b
+      - \bnotwithstanding\b
+      - \bmuch as\b
+      - \bhence\b
+      - \bthereby\b
+      - \bnonetheless\b
+    - label: הזכרתם יעד או תקווה
+      any:
+      - \bhope\b
+      - \bgoal\b
+      - \bwant\b
+      - \bdream\b
+      - \bplan\b
+      - \bachieve\b
+    - label: הסתכלתם אחורה (hindsight / looking back)
+      any:
+      - \bhindsight\b
+      - \blooking back\b
+      - \bin retrospect\b
+      - \blast year\b
+      - \bhave learned\b
+    model: Dear me, a year from now you will have grown, albeit slowly. Whereas last year you doubted yourself, I hope that you now trust your decisions. Notwithstanding the difficulties, you reached your main goal, and hindsight will show that every step was worth it. Keep learning and keep smiling.
+    lexemes: []
 - id: c1-test
   kind: test
   title:

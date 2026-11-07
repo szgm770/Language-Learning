@@ -761,3 +761,29 @@ lessons:
     translation: החושף שחיתויות הוא שגילה את האמת.
     lexemes:
     - whistleblower
+  - id: u42-w-01
+    type: write
+    prompt: כתבו תגובה לעיתונאי על שמועה שהופצה על הארגון שלכם. השתמשו במשפטי הדגשה (What... is / It was... who).
+    minWords: 45
+    checks:
+    - label: השתמשתם במשפט הדגשה (What ... is/was; It was ... who/that; All ... is)
+      any:
+      - '\bWhat \w+(?: \w+){0,5} (is|was)\b'
+      - \bIt (is|was) [^.]{1,40} (who|that)\b
+      - \bAll (I|we) (want|need|ask) is\b
+      - \bThe reason [^.]{1,40} is that\b
+    - label: הזכרתם אימות או מקור
+      any:
+      - \bverify
+      - \bsource
+      - \bevidence
+      - \bfact
+      - \bdata\b
+    - label: דרשתם תיקון או התנצלות
+      any:
+      - \bretract
+      - \bcorrect
+      - \bapolog
+      - \bwithdraw
+    model: Thank you for contacting us. What worries us is that the story was published without verification. It was our own data that proved the claim false, and all we ask is that the outlet correct the mistake. We hope the editor will retract the article and publish an apology.
+    lexemes: []

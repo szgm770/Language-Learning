@@ -490,3 +490,16 @@ lessons:
         text: "The city is so convenient. On the other hand, it's so crowded."
         translation: "העיר כל כך נוחה. מצד שני, היא כל כך צפופה."
         lexemes: [convenient, on-the-other-hand, crowded]
+      - id: u32-w-01
+        type: write
+        prompt: "עיר או כפר? כתבו איפה אתם מעדיפים לגור ונמקו. השתמשו ב־so / such, too / enough ובמילת ניגוד."
+        minWords: 45
+        checks:
+          - label: "השתמשתם ב־so או such"
+            any: ["\\bso \\w+", "\\bsuch (a|an)\\b"]
+          - label: "השתמשתם ב־too או enough"
+            any: ["\\btoo\\b", "\\benough\\b"]
+          - label: "השתמשתם במילת ניגוד (however, although, but, while)"
+            any: ["\\bhowever\\b", "\\balthough\\b", "\\bwhile\\b", "\\bbut\\b", "\\bdespite\\b"]
+        model: "I would prefer to live in a small town. The city is so noisy that I cannot rest, and flats are too expensive for young families. However, a town has enough space and fresh air, and it is such a friendly place. Although jobs are fewer, I think the quality of life is better."
+        lexemes: []

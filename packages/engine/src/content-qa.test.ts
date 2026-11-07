@@ -36,6 +36,8 @@ function correctResponses(ex: Exercise): Response[] {
       return (ex.answers ?? [ex.text]).map((text) => ({ type: "dictation", text }));
     case "speak_repeat":
       return [{ type: "speak_repeat", selfRating: "good" }];
+    case "write":
+      return [{ type: "write", text: ex.model }];
   }
 }
 

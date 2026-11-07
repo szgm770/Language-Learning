@@ -503,3 +503,16 @@ lessons:
         text: "I'm Noa, the team leader. I've worked here for six years."
         translation: "אני נועה, ראש הצוות. אני עובדת כאן שש שנים."
         lexemes: [team-leader, for-time]
+      - id: u21-w-01
+        type: write
+        prompt: "כתבו הודעה קצרה לצוות חדש שבו אתם מציגים את עצמכם: איפה אתם עובדים, כמה זמן ומה אתם אוהבים בעבודה."
+        minWords: 30
+        checks:
+          - label: "אמרתם כמה זמן (for / since)"
+            any: ["\\bfor\\b", "\\bsince\\b"]
+          - label: "הזכרתם את התפקיד או העבודה"
+            any: ["\\bwork", "\\bjob\\b", "\\bmanager\\b", "\\bteam\\b"]
+          - label: "כתבתם בזמן הווה מושלם (have / has)"
+            any: ["\\bhave (been|worked|lived)", "\\bhas (been|worked)"]
+        model: "Hi everyone, my name is Dan and I am the new designer. I have worked in this field for six years, and I have lived in Tel Aviv since 2020. I love working in a team, because I learn something new every day. I look forward to meeting you all this week."
+        lexemes: []

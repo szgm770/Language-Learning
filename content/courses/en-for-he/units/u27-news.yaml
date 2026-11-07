@@ -483,3 +483,16 @@ lessons:
         text: "The mistake was found by our team and fixed in forty minutes."
         translation: "הטעות נמצאה על ידי הצוות שלנו ותוקנה תוך ארבעים דקות."
         lexemes: [passive, mistake, fix]
+      - id: u27-w-01
+        type: write
+        prompt: "כתבו כותרת וכמה משפטים על אירוע חדשותי דמיוני בעיר שלכם, בעיקר בסביל (passive)."
+        minWords: 30
+        checks:
+          - label: "השתמשתם בסביל (was/were/is + p.p.)"
+            any: ["\\b(was|were|is|are|been) \\w+(ed|en)\\b"]
+          - label: "הזכרתם מי או מה"
+            any: ["\\bcity\\b", "\\bschool\\b", "\\bbridge\\b", "\\bpark\\b", "\\bstreet\\b", "\\bbuilding\\b"]
+          - label: "הוספתם תאריך או זמן"
+            any: ["\\byesterday\\b", "\\blast (night|week|month)\\b", "\\bthis morning\\b", "\\bon (Sunday|Monday|Tuesday|Wednesday|Thursday|Friday)\\b"]
+        model: "New bridge opened in our city. The bridge was built in only two years and it was opened yesterday by the mayor. Thousands of people are expected to use it every day. Another park will be created next to it, and the old road will be closed this month."
+        lexemes: []

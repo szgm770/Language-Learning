@@ -498,3 +498,16 @@ lessons:
         text: "Would you mind looking after my cat while I'm away?"
         translation: "אכפת לך לשמור על החתול שלי בזמן שאני לא בבית?"
         lexemes: [would-you-mind, look-after, away]
+      - id: u26-w-01
+        type: write
+        prompt: "כתבו פתק מנומס לשכן שמרעיש בערב: מה הבעיה ומה אתם מבקשים?"
+        minWords: 30
+        checks:
+          - label: "ביקשתם בנימוס (could you / would you mind)"
+            any: ["\\bcould you\\b", "\\bwould you mind\\b", "\\bwould you\\b"]
+          - label: "תיארתם את הרעש או הבעיה"
+            any: ["\\bnoise\\b", "\\bnoisy\\b", "\\bloud\\b", "\\bmusic\\b"]
+          - label: "הוספתם תודה או התנצלות"
+            any: ["\\bthank", "\\bsorry\\b", "\\bapologi[sz]e\\b"]
+        model: "Hello neighbour, I am sorry to bother you, but the music has been quite loud in the evenings, and my children cannot sleep. Would you mind turning it down after nine o'clock? I would really appreciate it. Thank you very much for understanding."
+        lexemes: []

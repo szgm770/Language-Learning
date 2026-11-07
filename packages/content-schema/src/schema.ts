@@ -174,6 +174,23 @@ export const Reading = ExerciseBase.extend({
   translation: z.string().min(20),
 });
 
+/**
+ * Free writing for advanced learners, checked by rules (no AI): a minimum length and a few things the text must
+ * contain. Each check passes when any of its regular expressions matches (case-insensitive).
+ */
+export const Write = ExerciseBase.extend({
+  type: z.literal("write"),
+  /** The task, in the learner's language. */
+  prompt: z.string().min(10),
+  minWords: z.number().int().min(10).max(300).default(30),
+  checks: z
+    .array(z.strictObject({ label: z.string().min(2), any: z.array(z.string().min(1)).min(1) }))
+    .min(2)
+    .max(8),
+  /** A model answer: shown after checking, and it must pass its own checks. */
+  model: z.string().min(40),
+});
+
 /** Steps the learner reads or listens to, without an answer to check. */
 export const UNGRADED_TYPES = ["learn", "dialogue", "tip", "reading"] as const;
 
@@ -192,6 +209,7 @@ export const Exercise = z
     Dictation,
     ListeningChoice,
     SpeakRepeat,
+    Write,
   ])
   .superRefine((ex, ctx) => {
     if ((ex.type === "multiple_choice" || ex.type === "listening_choice") && ex.correct >= ex.options.length) {

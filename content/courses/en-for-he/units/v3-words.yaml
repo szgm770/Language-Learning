@@ -1,0 +1,1218 @@
+id: v3-words
+cefr: B2
+scene: study
+title:
+  he: הרחבת אוצר מילים 3
+  en: Word builder 3
+story: עוד מילים חשובות בשימוש יומיומי, מקובצות בשיעורים קצרים. כל מילה מופיעה במשפט, ואחר כך מתרגלים אותה.
+canDo:
+- להבין ולהשתמש במילים נפוצות נוספות
+- לזהות את המילים במשפטים אמיתיים
+vocabulary:
+- id: apparently
+  text: apparently
+  translation: כנראה, לכאורה
+  pos: adverb
+  example:
+    text: Apparently, the shop is closed today.
+    translation: כנראה שהחנות סגורה היום.
+- id: artist
+  text: artist
+  translation: אמן, אמנית
+  pos: noun
+  example:
+    text: My sister is a talented artist.
+    translation: אחותי היא אמנית מוכשרת.
+- id: option
+  text: option
+  translation: אפשרות
+  pos: noun
+  example:
+    text: We have two options.
+    translation: יש לנו שתי אפשרויות.
+- id: stone
+  text: stone
+  translation: אבן
+  pos: noun
+  example:
+    text: The old wall is made of stone.
+    translation: החומה העתיקה בנויה מאבן.
+- id: wild
+  text: wild
+  translation: פראי
+  pos: adjective
+  example:
+    text: We saw wild flowers on the hill.
+    translation: ראינו פרחי בר על הגבעה.
+- id: winner
+  text: winner
+  translation: מנצח, זוכה
+  pos: noun
+  example:
+    text: Who is the winner of the game?
+    translation: מי הזוכה במשחק?
+- id: correct
+  text: correct
+  translation: נכון; לתקן
+  pos: adjective
+  example:
+    text: Your answer is correct.
+    translation: התשובה שלך נכונה.
+- id: extremely
+  text: extremely
+  translation: במיוחד
+  pos: adverb
+  example:
+    text: The test was extremely difficult.
+    translation: המבחן היה קשה במיוחד.
+- id: handle
+  text: handle
+  translation: לטפל, להתמודד
+  pos: verb
+  example:
+    text: Can you handle this problem?
+    translation: אתה יכול לטפל בבעיה הזו?
+- id: indeed
+  text: indeed
+  translation: אכן, באמת
+  pos: adverb
+  example:
+    text: It was indeed a great idea.
+    translation: זה אכן היה רעיון נהדר.
+- id: negative
+  text: negative
+  translation: שלילי
+  pos: adjective
+  example:
+    text: He has a negative attitude.
+    translation: יש לו גישה שלילית.
+- id: trouble
+  text: trouble
+  translation: בעיה, צרה
+  pos: noun
+  example:
+    text: I am having trouble with my computer.
+    translation: יש לי בעיה עם המחשב.
+- id: advantage
+  text: advantage
+  translation: יתרון
+  pos: noun
+  example:
+    text: Speaking English is a big advantage.
+    translation: לדעת אנגלית זה יתרון גדול.
+- id: aware
+  text: aware
+  translation: מודע
+  pos: adjective
+  example:
+    text: Are you aware of the problem?
+    translation: האם אתה מודע לבעיה?
+- id: function
+  text: function
+  translation: תפקיד, פונקציה
+  pos: noun
+  example:
+    text: What is the function of this button?
+    translation: מה התפקיד של הכפתור הזה?
+- id: influence
+  text: influence
+  translation: השפעה; להשפיע
+  pos: noun
+  example:
+    text: Parents have a big influence on children.
+    translation: להורים יש השפעה גדולה על ילדים.
+- id: length
+  text: length
+  translation: אורך
+  pos: noun
+  example:
+    text: What is the length of the table?
+    translation: מה אורך השולחן?
+- id: possibly
+  text: possibly
+  translation: אולי, ייתכן
+  pos: adverb
+  example:
+    text: It could possibly rain tomorrow.
+    translation: ייתכן שיירד גשם מחר.
+- id: software
+  text: software
+  translation: תוכנה
+  pos: noun
+  example:
+    text: We need to update the software.
+    translation: אנחנו צריכים לעדכן את התוכנה.
+- id: tough
+  text: tough
+  translation: קשה, חזק
+  pos: adjective
+  example:
+    text: It was a tough week at work.
+    translation: זה היה שבוע קשה בעבודה.
+- id: request
+  text: request
+  translation: בקשה; לבקש
+  pos: noun
+  example:
+    text: I have a small request.
+    translation: יש לי בקשה קטנה.
+- id: stick
+  text: stick
+  translation: מקל; להידבק
+  pos: noun
+  example:
+    text: The dog ran after the stick.
+    translation: הכלב רץ אחרי המקל.
+- id: vehicle
+  text: vehicle
+  translation: רכב
+  pos: noun
+  example:
+    text: You need a large vehicle for the trip.
+    translation: צריך רכב גדול לטיול.
+- id: volume
+  text: volume
+  translation: עוצמת קול, כרך
+  pos: noun
+  example:
+    text: Please turn down the volume.
+    translation: אנא הנמיכו את העוצמה.
+- id: beauty
+  text: beauty
+  translation: יופי
+  pos: noun
+  example:
+    text: We admired the beauty of the lake.
+    translation: התפעלנו מיופיו של האגם.
+- id: concerned
+  text: concerned
+  translation: מודאג, קשור
+  pos: adjective
+  example:
+    text: I am concerned about the exam.
+    translation: אני מודאג לגבי המבחן.
+- id: develop
+  text: develop
+  translation: לפתח
+  pos: verb
+  example:
+    text: They want to develop a new app.
+    translation: הם רוצים לפתח אפליקציה חדשה.
+- id: existing
+  text: existing
+  translation: קיים
+  pos: adjective
+  example:
+    text: We can use the existing equipment.
+    translation: אפשר להשתמש בציוד הקיים.
+- id: farm
+  text: farm
+  translation: חווה
+  pos: noun
+  example:
+    text: My uncle has a farm in the north.
+    translation: לדוד שלי יש חווה בצפון.
+- id: file
+  text: file
+  translation: קובץ, תיק
+  pos: noun
+  example:
+    text: I saved the file on my computer.
+    translation: שמרתי את הקובץ במחשב.
+- id: roll
+  text: roll
+  translation: גליל, לחמנייה; להתגלגל
+  pos: noun
+  example:
+    text: I ate a roll with cheese.
+    translation: אכלתי לחמנייה עם גבינה.
+- id: slightly
+  text: slightly
+  translation: במעט
+  pos: adverb
+  example:
+    text: The price is slightly higher this year.
+    translation: המחיר מעט גבוה יותר השנה.
+- id: technical
+  text: technical
+  translation: טכני
+  pos: adjective
+  example:
+    text: We had a technical problem.
+    translation: הייתה לנו בעיה טכנית.
+- id: treat
+  text: treat
+  translation: לטפל, לנהוג ב־
+  pos: verb
+  example:
+    text: Doctors treat many patients every day.
+    translation: רופאים מטפלים בהרבה חולים בכל יום.
+- id: unique
+  text: unique
+  translation: ייחודי
+  pos: adjective
+  example:
+    text: Every snowflake is unique.
+    translation: כל פתית שלג ייחודית.
+- id: reference
+  text: reference
+  translation: הפניה, המלצה
+  pos: noun
+  example:
+    text: He gave me a good reference.
+    translation: הוא נתן לי המלצה טובה.
+- id: alternative
+  text: alternative
+  translation: חלופה; חלופי
+  pos: noun
+  example:
+    text: Is there an alternative?
+    translation: האם יש חלופה?
+- id: sky
+  text: sky
+  translation: שמיים
+  pos: noun
+  example:
+    text: The sky is clear tonight.
+    translation: השמיים בהירים הלילה.
+- id: valley
+  text: valley
+  translation: עמק
+  pos: noun
+  example:
+    text: The village is in a green valley.
+    translation: הכפר נמצא בעמק ירוק.
+lessons:
+- id: v3-l1
+  kind: new
+  title:
+    he: מילים חדשות 1
+    en: New words 1
+  exercises:
+  - id: v3-l1-01
+    type: learn
+    lexeme: apparently
+    lexemes: []
+  - id: v3-l1-02
+    type: learn
+    lexeme: artist
+    lexemes: []
+  - id: v3-l1-03
+    type: learn
+    lexeme: option
+    lexemes: []
+  - id: v3-l1-04
+    type: learn
+    lexeme: stone
+    lexemes: []
+  - id: v3-l1-05
+    type: learn
+    lexeme: wild
+    lexemes: []
+  - id: v3-l1-06
+    type: learn
+    lexeme: winner
+    lexemes: []
+  - id: v3-l1-07
+    type: learn
+    lexeme: correct
+    lexemes: []
+  - id: v3-l1-08
+    type: learn
+    lexeme: extremely
+    lexemes: []
+  - id: v3-l1-09
+    type: learn
+    lexeme: handle
+    lexemes: []
+  - id: v3-l1-10
+    type: learn
+    lexeme: indeed
+    lexemes: []
+  - id: v3-l1-11
+    type: match_pairs
+    pairs:
+    - - apparently
+      - כנראה
+    - - artist
+      - אמן
+    - - option
+      - אפשרות
+    - - stone
+      - אבן
+    - - wild
+      - פראי
+    lexemes:
+    - apparently
+    - artist
+    - option
+    - stone
+    - wild
+  - id: v3-l1-12
+    type: match_pairs
+    pairs:
+    - - winner
+      - מנצח
+    - - correct
+      - נכון
+    - - extremely
+      - במיוחד
+    - - handle
+      - לטפל
+    - - indeed
+      - אכן
+    lexemes:
+    - winner
+    - correct
+    - extremely
+    - handle
+    - indeed
+  - id: v3-l1-13
+    type: multiple_choice
+    prompt: מה פירוש apparently?
+    options:
+    - כנראה, לכאורה
+    - לטפל, להתמודד
+    - פראי
+    correct: 0
+    lexemes:
+    - apparently
+  - id: v3-l1-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: אמן?'
+    options:
+    - artist
+    - apparently
+    - handle
+    correct: 0
+    lexemes:
+    - artist
+  - id: v3-l1-15
+    type: multiple_choice
+    prompt: מה פירוש option?
+    options:
+    - אפשרות
+    - אמן, אמנית
+    - נכון; לתקן
+    correct: 0
+    lexemes:
+    - option
+  - id: v3-l1-16
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: אבן?'
+    options:
+    - stone
+    - apparently
+    - wild
+    correct: 0
+    lexemes:
+    - stone
+  - id: v3-l1-17
+    type: multiple_choice
+    prompt: מה פירוש wild?
+    options:
+    - פראי
+    - אמן, אמנית
+    - כנראה, לכאורה
+    correct: 0
+    lexemes:
+    - wild
+  - id: v3-l1-18
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: מנצח?'
+    options:
+    - winner
+    - option
+    - stone
+    correct: 0
+    lexemes:
+    - winner
+  - id: v3-l1-19
+    type: fill_blank
+    sentence: The old wall is made of ___.
+    translation: החומה העתיקה בנויה מאבן.
+    answers:
+    - stone
+    options:
+    - stone
+    - correct
+    - handle
+    lexemes:
+    - stone
+  - id: v3-l1-20
+    type: fill_blank
+    sentence: We saw ___ flowers on the hill.
+    translation: ראינו פרחי בר על הגבעה.
+    answers:
+    - wild
+    options:
+    - wild
+    - handle
+    - correct
+    lexemes:
+    - wild
+  - id: v3-l1-21
+    type: fill_blank
+    sentence: Who is the ___ of the game?
+    translation: מי הזוכה במשחק?
+    answers:
+    - winner
+    options:
+    - winner
+    - apparently
+    - stone
+    lexemes:
+    - winner
+  - id: v3-l1-22
+    type: fill_blank
+    sentence: Your answer is ___.
+    translation: התשובה שלך נכונה.
+    answers:
+    - correct
+    options:
+    - correct
+    - stone
+    - winner
+    lexemes:
+    - correct
+  - id: v3-l1-23
+    type: fill_blank
+    sentence: The test was ___ difficult.
+    translation: המבחן היה קשה במיוחד.
+    answers:
+    - extremely
+    options:
+    - extremely
+    - stone
+    - correct
+    lexemes:
+    - extremely
+  - id: v3-l1-24
+    type: fill_blank
+    sentence: Can you ___ this problem?
+    translation: אתה יכול לטפל בבעיה הזו?
+    answers:
+    - handle
+    options:
+    - handle
+    - indeed
+    - winner
+    lexemes:
+    - handle
+  - id: v3-l1-25
+    type: fill_blank
+    sentence: It was ___ a great idea.
+    translation: זה אכן היה רעיון נהדר.
+    answers:
+    - indeed
+    options:
+    - indeed
+    - extremely
+    - handle
+    lexemes:
+    - indeed
+  - id: v3-l1-26
+    type: dictation
+    text: Can you handle this problem?
+    lexemes:
+    - handle
+  - id: v3-l1-27
+    type: dictation
+    text: It was indeed a great idea.
+    lexemes:
+    - indeed
+- id: v3-l2
+  kind: new
+  title:
+    he: מילים חדשות 2
+    en: New words 2
+  exercises:
+  - id: v3-l2-01
+    type: learn
+    lexeme: negative
+    lexemes: []
+  - id: v3-l2-02
+    type: learn
+    lexeme: trouble
+    lexemes: []
+  - id: v3-l2-03
+    type: learn
+    lexeme: advantage
+    lexemes: []
+  - id: v3-l2-04
+    type: learn
+    lexeme: aware
+    lexemes: []
+  - id: v3-l2-05
+    type: learn
+    lexeme: function
+    lexemes: []
+  - id: v3-l2-06
+    type: learn
+    lexeme: influence
+    lexemes: []
+  - id: v3-l2-07
+    type: learn
+    lexeme: length
+    lexemes: []
+  - id: v3-l2-08
+    type: learn
+    lexeme: possibly
+    lexemes: []
+  - id: v3-l2-09
+    type: learn
+    lexeme: software
+    lexemes: []
+  - id: v3-l2-10
+    type: learn
+    lexeme: tough
+    lexemes: []
+  - id: v3-l2-11
+    type: match_pairs
+    pairs:
+    - - negative
+      - שלילי
+    - - trouble
+      - בעיה
+    - - advantage
+      - יתרון
+    - - aware
+      - מודע
+    - - function
+      - תפקיד
+    lexemes:
+    - negative
+    - trouble
+    - advantage
+    - aware
+    - function
+  - id: v3-l2-12
+    type: match_pairs
+    pairs:
+    - - influence
+      - השפעה
+    - - length
+      - אורך
+    - - possibly
+      - אולי
+    - - software
+      - תוכנה
+    - - tough
+      - קשה
+    lexemes:
+    - influence
+    - length
+    - possibly
+    - software
+    - tough
+  - id: v3-l2-13
+    type: multiple_choice
+    prompt: מה פירוש negative?
+    options:
+    - שלילי
+    - אורך
+    - השפעה; להשפיע
+    correct: 0
+    lexemes:
+    - negative
+  - id: v3-l2-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: בעיה?'
+    options:
+    - trouble
+    - possibly
+    - function
+    correct: 0
+    lexemes:
+    - trouble
+  - id: v3-l2-15
+    type: multiple_choice
+    prompt: מה פירוש advantage?
+    options:
+    - יתרון
+    - אולי, ייתכן
+    - תוכנה
+    correct: 0
+    lexemes:
+    - advantage
+  - id: v3-l2-16
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: מודע?'
+    options:
+    - aware
+    - tough
+    - advantage
+    correct: 0
+    lexemes:
+    - aware
+  - id: v3-l2-17
+    type: multiple_choice
+    prompt: מה פירוש function?
+    options:
+    - תפקיד, פונקציה
+    - אולי, ייתכן
+    - אורך
+    correct: 0
+    lexemes:
+    - function
+  - id: v3-l2-18
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: השפעה?'
+    options:
+    - influence
+    - aware
+    - advantage
+    correct: 0
+    lexemes:
+    - influence
+  - id: v3-l2-19
+    type: fill_blank
+    sentence: Are you ___ of the problem?
+    translation: האם אתה מודע לבעיה?
+    answers:
+    - aware
+    options:
+    - aware
+    - length
+    - tough
+    lexemes:
+    - aware
+  - id: v3-l2-20
+    type: fill_blank
+    sentence: What is the ___ of this button?
+    translation: מה התפקיד של הכפתור הזה?
+    answers:
+    - function
+    options:
+    - function
+    - software
+    - trouble
+    lexemes:
+    - function
+  - id: v3-l2-21
+    type: fill_blank
+    sentence: Parents have a big ___ on children.
+    translation: להורים יש השפעה גדולה על ילדים.
+    answers:
+    - influence
+    options:
+    - influence
+    - function
+    - advantage
+    lexemes:
+    - influence
+  - id: v3-l2-22
+    type: fill_blank
+    sentence: What is the ___ of the table?
+    translation: מה אורך השולחן?
+    answers:
+    - length
+    options:
+    - length
+    - trouble
+    - negative
+    lexemes:
+    - length
+  - id: v3-l2-23
+    type: fill_blank
+    sentence: It could ___ rain tomorrow.
+    translation: ייתכן שיירד גשם מחר.
+    answers:
+    - possibly
+    options:
+    - possibly
+    - length
+    - trouble
+    lexemes:
+    - possibly
+  - id: v3-l2-24
+    type: fill_blank
+    sentence: We need to update the ___.
+    translation: אנחנו צריכים לעדכן את התוכנה.
+    answers:
+    - software
+    options:
+    - software
+    - aware
+    - influence
+    lexemes:
+    - software
+  - id: v3-l2-25
+    type: fill_blank
+    sentence: It was a ___ week at work.
+    translation: זה היה שבוע קשה בעבודה.
+    answers:
+    - tough
+    options:
+    - tough
+    - possibly
+    - function
+    lexemes:
+    - tough
+  - id: v3-l2-26
+    type: dictation
+    text: We need to update the software.
+    lexemes:
+    - software
+  - id: v3-l2-27
+    type: dictation
+    text: It was a tough week at work.
+    lexemes:
+    - tough
+- id: v3-l3
+  kind: new
+  title:
+    he: מילים חדשות 3
+    en: New words 3
+  exercises:
+  - id: v3-l3-01
+    type: learn
+    lexeme: request
+    lexemes: []
+  - id: v3-l3-02
+    type: learn
+    lexeme: stick
+    lexemes: []
+  - id: v3-l3-03
+    type: learn
+    lexeme: vehicle
+    lexemes: []
+  - id: v3-l3-04
+    type: learn
+    lexeme: volume
+    lexemes: []
+  - id: v3-l3-05
+    type: learn
+    lexeme: beauty
+    lexemes: []
+  - id: v3-l3-06
+    type: learn
+    lexeme: concerned
+    lexemes: []
+  - id: v3-l3-07
+    type: learn
+    lexeme: develop
+    lexemes: []
+  - id: v3-l3-08
+    type: learn
+    lexeme: existing
+    lexemes: []
+  - id: v3-l3-09
+    type: learn
+    lexeme: farm
+    lexemes: []
+  - id: v3-l3-10
+    type: learn
+    lexeme: file
+    lexemes: []
+  - id: v3-l3-11
+    type: match_pairs
+    pairs:
+    - - request
+      - בקשה
+    - - stick
+      - מקל
+    - - vehicle
+      - רכב
+    - - volume
+      - עוצמת קול
+    - - beauty
+      - יופי
+    lexemes:
+    - request
+    - stick
+    - vehicle
+    - volume
+    - beauty
+  - id: v3-l3-12
+    type: match_pairs
+    pairs:
+    - - concerned
+      - מודאג
+    - - develop
+      - לפתח
+    - - existing
+      - קיים
+    - - farm
+      - חווה
+    - - file
+      - קובץ
+    lexemes:
+    - concerned
+    - develop
+    - existing
+    - farm
+    - file
+  - id: v3-l3-13
+    type: multiple_choice
+    prompt: מה פירוש request?
+    options:
+    - בקשה; לבקש
+    - קיים
+    - יופי
+    correct: 0
+    lexemes:
+    - request
+  - id: v3-l3-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: מקל?'
+    options:
+    - stick
+    - vehicle
+    - farm
+    correct: 0
+    lexemes:
+    - stick
+  - id: v3-l3-15
+    type: multiple_choice
+    prompt: מה פירוש vehicle?
+    options:
+    - רכב
+    - בקשה; לבקש
+    - קובץ, תיק
+    correct: 0
+    lexemes:
+    - vehicle
+  - id: v3-l3-16
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: עוצמת קול?'
+    options:
+    - volume
+    - vehicle
+    - file
+    correct: 0
+    lexemes:
+    - volume
+  - id: v3-l3-17
+    type: multiple_choice
+    prompt: מה פירוש beauty?
+    options:
+    - יופי
+    - קובץ, תיק
+    - עוצמת קול, כרך
+    correct: 0
+    lexemes:
+    - beauty
+  - id: v3-l3-18
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: מודאג?'
+    options:
+    - concerned
+    - existing
+    - volume
+    correct: 0
+    lexemes:
+    - concerned
+  - id: v3-l3-19
+    type: fill_blank
+    sentence: Please turn down the ___.
+    translation: אנא הנמיכו את העוצמה.
+    answers:
+    - volume
+    options:
+    - volume
+    - file
+    - concerned
+    lexemes:
+    - volume
+  - id: v3-l3-20
+    type: fill_blank
+    sentence: We admired the ___ of the lake.
+    translation: התפעלנו מיופיו של האגם.
+    answers:
+    - beauty
+    options:
+    - beauty
+    - develop
+    - farm
+    lexemes:
+    - beauty
+  - id: v3-l3-21
+    type: fill_blank
+    sentence: I am ___ about the exam.
+    translation: אני מודאג לגבי המבחן.
+    answers:
+    - concerned
+    options:
+    - concerned
+    - volume
+    - stick
+    lexemes:
+    - concerned
+  - id: v3-l3-22
+    type: fill_blank
+    sentence: They want to ___ a new app.
+    translation: הם רוצים לפתח אפליקציה חדשה.
+    answers:
+    - develop
+    options:
+    - develop
+    - request
+    - vehicle
+    lexemes:
+    - develop
+  - id: v3-l3-23
+    type: fill_blank
+    sentence: We can use the ___ equipment.
+    translation: אפשר להשתמש בציוד הקיים.
+    answers:
+    - existing
+    options:
+    - existing
+    - farm
+    - develop
+    lexemes:
+    - existing
+  - id: v3-l3-24
+    type: fill_blank
+    sentence: My uncle has a ___ in the north.
+    translation: לדוד שלי יש חווה בצפון.
+    answers:
+    - farm
+    options:
+    - farm
+    - request
+    - stick
+    lexemes:
+    - farm
+  - id: v3-l3-25
+    type: fill_blank
+    sentence: I saved the ___ on my computer.
+    translation: שמרתי את הקובץ במחשב.
+    answers:
+    - file
+    options:
+    - file
+    - request
+    - volume
+    lexemes:
+    - file
+  - id: v3-l3-26
+    type: dictation
+    text: My uncle has a farm in the north.
+    lexemes:
+    - farm
+  - id: v3-l3-27
+    type: dictation
+    text: I saved the file on my computer.
+    lexemes:
+    - file
+- id: v3-l4
+  kind: new
+  title:
+    he: מילים חדשות 4
+    en: New words 4
+  exercises:
+  - id: v3-l4-01
+    type: learn
+    lexeme: roll
+    lexemes: []
+  - id: v3-l4-02
+    type: learn
+    lexeme: slightly
+    lexemes: []
+  - id: v3-l4-03
+    type: learn
+    lexeme: technical
+    lexemes: []
+  - id: v3-l4-04
+    type: learn
+    lexeme: treat
+    lexemes: []
+  - id: v3-l4-05
+    type: learn
+    lexeme: unique
+    lexemes: []
+  - id: v3-l4-06
+    type: learn
+    lexeme: reference
+    lexemes: []
+  - id: v3-l4-07
+    type: learn
+    lexeme: alternative
+    lexemes: []
+  - id: v3-l4-08
+    type: learn
+    lexeme: sky
+    lexemes: []
+  - id: v3-l4-09
+    type: learn
+    lexeme: valley
+    lexemes: []
+  - id: v3-l4-10
+    type: match_pairs
+    pairs:
+    - - roll
+      - גליל
+    - - slightly
+      - במעט
+    - - technical
+      - טכני
+    - - treat
+      - לטפל
+    - - unique
+      - ייחודי
+    lexemes:
+    - roll
+    - slightly
+    - technical
+    - treat
+    - unique
+  - id: v3-l4-11
+    type: match_pairs
+    pairs:
+    - - reference
+      - הפניה
+    - - alternative
+      - חלופה
+    - - sky
+      - שמיים
+    - - valley
+      - עמק
+    lexemes:
+    - reference
+    - alternative
+    - sky
+    - valley
+  - id: v3-l4-12
+    type: multiple_choice
+    prompt: מה פירוש roll?
+    options:
+    - גליל, לחמנייה; להתגלגל
+    - ייחודי
+    - חלופה; חלופי
+    correct: 0
+    lexemes:
+    - roll
+  - id: v3-l4-13
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: במעט?'
+    options:
+    - slightly
+    - roll
+    - reference
+    correct: 0
+    lexemes:
+    - slightly
+  - id: v3-l4-14
+    type: multiple_choice
+    prompt: מה פירוש technical?
+    options:
+    - טכני
+    - עמק
+    - הפניה, המלצה
+    correct: 0
+    lexemes:
+    - technical
+  - id: v3-l4-15
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: לטפל?'
+    options:
+    - treat
+    - valley
+    - unique
+    correct: 0
+    lexemes:
+    - treat
+  - id: v3-l4-16
+    type: multiple_choice
+    prompt: מה פירוש unique?
+    options:
+    - ייחודי
+    - שמיים
+    - לטפל, לנהוג ב־
+    correct: 0
+    lexemes:
+    - unique
+  - id: v3-l4-17
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: הפניה?'
+    options:
+    - reference
+    - sky
+    - technical
+    correct: 0
+    lexemes:
+    - reference
+  - id: v3-l4-18
+    type: fill_blank
+    sentence: Doctors ___ many patients every day.
+    translation: רופאים מטפלים בהרבה חולים בכל יום.
+    answers:
+    - treat
+    options:
+    - treat
+    - slightly
+    - valley
+    lexemes:
+    - treat
+  - id: v3-l4-19
+    type: fill_blank
+    sentence: Every snowflake is ___.
+    translation: כל פתית שלג ייחודית.
+    answers:
+    - unique
+    options:
+    - unique
+    - treat
+    - alternative
+    lexemes:
+    - unique
+  - id: v3-l4-20
+    type: fill_blank
+    sentence: He gave me a good ___.
+    translation: הוא נתן לי המלצה טובה.
+    answers:
+    - reference
+    options:
+    - reference
+    - slightly
+    - technical
+    lexemes:
+    - reference
+  - id: v3-l4-21
+    type: fill_blank
+    sentence: Is there an ___?
+    translation: האם יש חלופה?
+    answers:
+    - alternative
+    options:
+    - alternative
+    - valley
+    - slightly
+    lexemes:
+    - alternative
+  - id: v3-l4-22
+    type: fill_blank
+    sentence: The ___ is clear tonight.
+    translation: השמיים בהירים הלילה.
+    answers:
+    - sky
+    options:
+    - sky
+    - slightly
+    - alternative
+    lexemes:
+    - sky
+  - id: v3-l4-23
+    type: fill_blank
+    sentence: The village is in a green ___.
+    translation: הכפר נמצא בעמק ירוק.
+    answers:
+    - valley
+    options:
+    - valley
+    - roll
+    - treat
+    lexemes:
+    - valley
+  - id: v3-l4-24
+    type: dictation
+    text: The sky is clear tonight.
+    lexemes:
+    - sky
+  - id: v3-l4-25
+    type: dictation
+    text: The village is in a green valley.
+    lexemes:
+    - valley

@@ -445,3 +445,16 @@ lessons:
         text: "He might have expected us to use both hands."
         translation: "אולי הוא ציפה שנשתמש בשתי ידיים."
         lexemes: [might-have]
+      - id: u36-w-01
+        type: write
+        prompt: "פגשתם מנהג זר שלא הבנתם. כתבו מה חשבתם שזה אומר, בעזרת must / might / can't have."
+        minWords: 45
+        checks:
+          - label: "השתמשתם ב־must, might או can't have"
+            any: ["\\bmust (have|be)\\b", "\\bmight (have|be)\\b", "\\bcan't (have|be)\\b", "\\bcould (have|be)\\b"]
+          - label: "תיארתם מנהג או חג"
+            any: ["\\btradition\\b", "\\bcustom\\b", "\\bfestival\\b", "\\bholiday\\b", "\\bceremony\\b"]
+          - label: "הסברתם את התגובה שלכם"
+            any: ["\\bbecause\\b", "\\bso\\b", "\\bI thought\\b", "\\bI realised\\b", "\\bI realized\\b"]
+        model: "At the festival, everyone was wearing red, and I thought it must be a special tradition. A man told me it might have started hundreds of years ago. I realised I had misunderstood, because it can't have been just fashion. It was a wonderful lesson about respect for other customs."
+        lexemes: []

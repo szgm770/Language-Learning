@@ -1,0 +1,1244 @@
+id: v5-words
+cefr: C1
+scene: study
+title:
+  he: הרחבת אוצר מילים 5
+  en: Word builder 5
+story: עוד מילים חשובות בשימוש יומיומי, מקובצות בשיעורים קצרים. כל מילה מופיעה במשפט, ואחר כך מתרגלים אותה.
+canDo:
+- להבין ולהשתמש במילים נפוצות נוספות
+- לזהות את המילים במשפטים אמיתיים
+vocabulary:
+- id: border
+  text: border
+  translation: גבול
+  pos: noun
+  example:
+    text: We crossed the border at noon.
+    translation: חצינו את הגבול בצהריים.
+- id: crew
+  text: crew
+  translation: צוות (בספינה/במטוס)
+  pos: noun
+  example:
+    text: The crew welcomed the passengers.
+    translation: הצוות קיבל את פני הנוסעים.
+- id: elements
+  text: elements
+  translation: מרכיבים, יסודות
+  pos: noun
+  example:
+    text: Trust is one of the key elements of teamwork.
+    translation: אמון הוא אחד המרכיבים המרכזיים בעבודת צוות.
+- id: ensure
+  text: ensure
+  translation: להבטיח, לוודא
+  pos: verb
+  example:
+    text: Please ensure that the door is locked.
+    translation: אנא וודאו שהדלת נעולה.
+- id: intended
+  text: intended
+  translation: מיועד, מכוון
+  pos: adjective
+  example:
+    text: The gift was intended for my mother.
+    translation: המתנה הייתה מיועדת לאמא שלי.
+- id: ocean
+  text: ocean
+  translation: אוקיינוס
+  pos: noun
+  example:
+    text: The ocean was calm in the morning.
+    translation: האוקיינוס היה רגוע בבוקר.
+- id: profit
+  text: profit
+  translation: רווח
+  pos: noun
+  example:
+    text: The shop made a small profit.
+    translation: החנות הרוויחה רווח קטן.
+- id: appearance
+  text: appearance
+  translation: מראה, הופעה
+  pos: noun
+  example:
+    text: His appearance has changed a lot.
+    translation: המראה שלו השתנה מאוד.
+- id: domestic
+  text: domestic
+  translation: ביתי, מקומי
+  pos: adjective
+  example:
+    text: We offer domestic and international flights.
+    translation: אנו מציעים טיסות מקומיות ובינלאומיות.
+- id: historical
+  text: historical
+  translation: היסטורי
+  pos: adjective
+  example:
+    text: It is a historical building.
+    translation: זה בניין היסטורי.
+- id: jump
+  text: jump
+  translation: לקפוץ
+  pos: verb
+  example:
+    text: The children like to jump on the bed.
+    translation: הילדים אוהבים לקפוץ על המיטה.
+- id: minimum
+  text: minimum
+  translation: מינימום
+  pos: noun
+  example:
+    text: You need a minimum of two hours.
+    translation: צריך מינימום של שעתיים.
+- id: ancient
+  text: ancient
+  translation: עתיק
+  pos: adjective
+  example:
+    text: We visited an ancient city.
+    translation: ביקרנו בעיר עתיקה.
+- id: communication
+  text: communication
+  translation: תקשורת
+  pos: noun
+  example:
+    text: Good communication saves time.
+    translation: תקשורת טובה חוסכת זמן.
+- id: connected
+  text: connected
+  translation: מחובר
+  pos: adjective
+  example:
+    text: Is the printer connected to the network?
+    translation: האם המדפסת מחוברת לרשת?
+- id: express
+  text: express
+  translation: להביע; מהיר
+  pos: verb
+  example:
+    text: It is hard to express my feelings.
+    translation: קשה לי להביע את הרגשות שלי.
+- id: flow
+  text: flow
+  translation: זרימה; לזרום
+  pos: noun
+  example:
+    text: The flow of water was strong.
+    translation: זרימת המים הייתה חזקה.
+- id: hero
+  text: hero
+  translation: גיבור
+  pos: noun
+  example:
+    text: My father is my hero.
+    translation: אבא שלי הוא הגיבור שלי.
+- id: joke
+  text: joke
+  translation: בדיחה
+  pos: noun
+  example:
+    text: He told a funny joke.
+    translation: הוא סיפר בדיחה מצחיקה.
+- id: loan
+  text: loan
+  translation: הלוואה
+  pos: noun
+  example:
+    text: They took a loan to buy a flat.
+    translation: הם לקחו הלוואה לקניית דירה.
+- id: soft
+  text: soft
+  translation: רך
+  pos: adjective
+  example:
+    text: The bed is soft and warm.
+    translation: המיטה רכה וחמה.
+- id: appeal
+  text: appeal
+  translation: משיכה; לפנות
+  pos: noun
+  example:
+    text: The idea has a wide appeal.
+    translation: לרעיון יש משיכה רחבה.
+- id: appropriate
+  text: appropriate
+  translation: מתאים, ראוי
+  pos: adjective
+  example:
+    text: Wear appropriate clothes for the event.
+    translation: לבשו בגדים מתאימים לאירוע.
+- id: device
+  text: device
+  translation: מכשיר
+  pos: noun
+  example:
+    text: Turn off your device before the flight.
+    translation: כבו את המכשיר לפני הטיסה.
+- id: drama
+  text: drama
+  translation: דרמה
+  pos: noun
+  example:
+    text: We watched a drama about two families.
+    translation: צפינו בדרמה על שתי משפחות.
+- id: entry
+  text: entry
+  translation: כניסה, רשומה
+  pos: noun
+  example:
+    text: Entry to the museum is free today.
+    translation: הכניסה למוזיאון חינם היום.
+- id: era
+  text: era
+  translation: תקופה, עידן
+  pos: noun
+  example:
+    text: It was the era of big changes.
+    translation: זה היה עידן של שינויים גדולים.
+- id: factor
+  text: factor
+  translation: גורם
+  pos: noun
+  example:
+    text: Price is an important factor.
+    translation: המחיר הוא גורם חשוב.
+- id: grant
+  text: grant
+  translation: מענק; להעניק
+  pos: noun
+  example:
+    text: The school received a grant for books.
+    translation: בית הספר קיבל מענק לספרים.
+- id: pool
+  text: pool
+  translation: בריכה
+  pos: noun
+  example:
+    text: The children are playing in the pool.
+    translation: הילדים משחקים בבריכה.
+- id: route
+  text: route
+  translation: מסלול
+  pos: noun
+  example:
+    text: We took the shortest route.
+    translation: לקחנו את המסלול הקצר ביותר.
+- id: scientific
+  text: scientific
+  translation: מדעי
+  pos: adjective
+  example:
+    text: This is a scientific discovery.
+    translation: זו תגלית מדעית.
+- id: storm
+  text: storm
+  translation: סערה
+  pos: noun
+  example:
+    text: A storm is coming tonight.
+    translation: סערה מתקרבת הלילה.
+- id: strike
+  text: strike
+  translation: שביתה; לפגוע
+  pos: noun
+  example:
+    text: The workers went on strike.
+    translation: העובדים יצאו לשביתה.
+- id: equal
+  text: equal
+  translation: שווה
+  pos: adjective
+  example:
+    text: All people are equal.
+    translation: כל בני האדם שווים.
+- id: finance
+  text: finance
+  translation: מימון, כספים
+  pos: noun
+  example:
+    text: She works in finance.
+    translation: היא עובדת בתחום הכספים.
+- id: identity
+  text: identity
+  translation: זהות
+  pos: noun
+  example:
+    text: Please show your identity card.
+    translation: אנא הציגו תעודת זהות.
+- id: maintain
+  text: maintain
+  translation: לתחזק, לשמר
+  pos: verb
+  example:
+    text: It is important to maintain a healthy life.
+    translation: חשוב לשמור על אורח חיים בריא.
+- id: numerous
+  text: numerous
+  translation: רבים
+  pos: adjective
+  example:
+    text: There are numerous reasons.
+    translation: יש סיבות רבות.
+- id: specifically
+  text: specifically
+  translation: במיוחד, בפירוט
+  pos: adverb
+  example:
+    text: I asked specifically for a window seat.
+    translation: ביקשתי במיוחד מושב ליד החלון.
+lessons:
+- id: v5-l1
+  kind: new
+  title:
+    he: מילים חדשות 1
+    en: New words 1
+  exercises:
+  - id: v5-l1-01
+    type: learn
+    lexeme: border
+    lexemes: []
+  - id: v5-l1-02
+    type: learn
+    lexeme: crew
+    lexemes: []
+  - id: v5-l1-03
+    type: learn
+    lexeme: elements
+    lexemes: []
+  - id: v5-l1-04
+    type: learn
+    lexeme: ensure
+    lexemes: []
+  - id: v5-l1-05
+    type: learn
+    lexeme: intended
+    lexemes: []
+  - id: v5-l1-06
+    type: learn
+    lexeme: ocean
+    lexemes: []
+  - id: v5-l1-07
+    type: learn
+    lexeme: profit
+    lexemes: []
+  - id: v5-l1-08
+    type: learn
+    lexeme: appearance
+    lexemes: []
+  - id: v5-l1-09
+    type: learn
+    lexeme: domestic
+    lexemes: []
+  - id: v5-l1-10
+    type: learn
+    lexeme: historical
+    lexemes: []
+  - id: v5-l1-11
+    type: match_pairs
+    pairs:
+    - - border
+      - גבול
+    - - crew
+      - צוות
+    - - elements
+      - מרכיבים
+    - - ensure
+      - להבטיח
+    - - intended
+      - מיועד
+    lexemes:
+    - border
+    - crew
+    - elements
+    - ensure
+    - intended
+  - id: v5-l1-12
+    type: match_pairs
+    pairs:
+    - - ocean
+      - אוקיינוס
+    - - profit
+      - רווח
+    - - appearance
+      - מראה
+    - - domestic
+      - ביתי
+    - - historical
+      - היסטורי
+    lexemes:
+    - ocean
+    - profit
+    - appearance
+    - domestic
+    - historical
+  - id: v5-l1-13
+    type: multiple_choice
+    prompt: מה פירוש border?
+    options:
+    - גבול
+    - רווח
+    - ביתי, מקומי
+    correct: 0
+    lexemes:
+    - border
+  - id: v5-l1-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: צוות?'
+    options:
+    - crew
+    - elements
+    - appearance
+    correct: 0
+    lexemes:
+    - crew
+  - id: v5-l1-15
+    type: multiple_choice
+    prompt: מה פירוש elements?
+    options:
+    - מרכיבים, יסודות
+    - גבול
+    - להבטיח, לוודא
+    correct: 0
+    lexemes:
+    - elements
+  - id: v5-l1-16
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: להבטיח?'
+    options:
+    - ensure
+    - ocean
+    - appearance
+    correct: 0
+    lexemes:
+    - ensure
+  - id: v5-l1-17
+    type: multiple_choice
+    prompt: מה פירוש intended?
+    options:
+    - מיועד, מכוון
+    - היסטורי
+    - גבול
+    correct: 0
+    lexemes:
+    - intended
+  - id: v5-l1-18
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: אוקיינוס?'
+    options:
+    - ocean
+    - elements
+    - ensure
+    correct: 0
+    lexemes:
+    - ocean
+  - id: v5-l1-19
+    type: fill_blank
+    sentence: Please ___ that the door is locked.
+    translation: אנא וודאו שהדלת נעולה.
+    answers:
+    - ensure
+    options:
+    - ensure
+    - border
+    - historical
+    lexemes:
+    - ensure
+  - id: v5-l1-20
+    type: fill_blank
+    sentence: The gift was ___ for my mother.
+    translation: המתנה הייתה מיועדת לאמא שלי.
+    answers:
+    - intended
+    options:
+    - intended
+    - ocean
+    - elements
+    lexemes:
+    - intended
+  - id: v5-l1-21
+    type: fill_blank
+    sentence: The ___ was calm in the morning.
+    translation: האוקיינוס היה רגוע בבוקר.
+    answers:
+    - ocean
+    options:
+    - ocean
+    - elements
+    - crew
+    lexemes:
+    - ocean
+  - id: v5-l1-22
+    type: fill_blank
+    sentence: The shop made a small ___.
+    translation: החנות הרוויחה רווח קטן.
+    answers:
+    - profit
+    options:
+    - profit
+    - border
+    - elements
+    lexemes:
+    - profit
+  - id: v5-l1-23
+    type: fill_blank
+    sentence: His ___ has changed a lot.
+    translation: המראה שלו השתנה מאוד.
+    answers:
+    - appearance
+    options:
+    - appearance
+    - historical
+    - ensure
+    lexemes:
+    - appearance
+  - id: v5-l1-24
+    type: fill_blank
+    sentence: We offer ___ and international flights.
+    translation: אנו מציעים טיסות מקומיות ובינלאומיות.
+    answers:
+    - domestic
+    options:
+    - domestic
+    - ocean
+    - ensure
+    lexemes:
+    - domestic
+  - id: v5-l1-25
+    type: fill_blank
+    sentence: It is a ___ building.
+    translation: זה בניין היסטורי.
+    answers:
+    - historical
+    options:
+    - historical
+    - crew
+    - ensure
+    lexemes:
+    - historical
+  - id: v5-l1-26
+    type: dictation
+    text: We offer domestic and international flights.
+    lexemes:
+    - domestic
+  - id: v5-l1-27
+    type: dictation
+    text: It is a historical building.
+    lexemes:
+    - historical
+- id: v5-l2
+  kind: new
+  title:
+    he: מילים חדשות 2
+    en: New words 2
+  exercises:
+  - id: v5-l2-01
+    type: learn
+    lexeme: jump
+    lexemes: []
+  - id: v5-l2-02
+    type: learn
+    lexeme: minimum
+    lexemes: []
+  - id: v5-l2-03
+    type: learn
+    lexeme: ancient
+    lexemes: []
+  - id: v5-l2-04
+    type: learn
+    lexeme: communication
+    lexemes: []
+  - id: v5-l2-05
+    type: learn
+    lexeme: connected
+    lexemes: []
+  - id: v5-l2-06
+    type: learn
+    lexeme: express
+    lexemes: []
+  - id: v5-l2-07
+    type: learn
+    lexeme: flow
+    lexemes: []
+  - id: v5-l2-08
+    type: learn
+    lexeme: hero
+    lexemes: []
+  - id: v5-l2-09
+    type: learn
+    lexeme: joke
+    lexemes: []
+  - id: v5-l2-10
+    type: learn
+    lexeme: loan
+    lexemes: []
+  - id: v5-l2-11
+    type: match_pairs
+    pairs:
+    - - jump
+      - לקפוץ
+    - - minimum
+      - מינימום
+    - - ancient
+      - עתיק
+    - - communication
+      - תקשורת
+    - - connected
+      - מחובר
+    lexemes:
+    - jump
+    - minimum
+    - ancient
+    - communication
+    - connected
+  - id: v5-l2-12
+    type: match_pairs
+    pairs:
+    - - express
+      - להביע
+    - - flow
+      - זרימה
+    - - hero
+      - גיבור
+    - - joke
+      - בדיחה
+    - - loan
+      - הלוואה
+    lexemes:
+    - express
+    - flow
+    - hero
+    - joke
+    - loan
+  - id: v5-l2-13
+    type: multiple_choice
+    prompt: מה פירוש jump?
+    options:
+    - לקפוץ
+    - זרימה; לזרום
+    - הלוואה
+    correct: 0
+    lexemes:
+    - jump
+  - id: v5-l2-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: מינימום?'
+    options:
+    - minimum
+    - ancient
+    - flow
+    correct: 0
+    lexemes:
+    - minimum
+  - id: v5-l2-15
+    type: multiple_choice
+    prompt: מה פירוש ancient?
+    options:
+    - עתיק
+    - בדיחה
+    - הלוואה
+    correct: 0
+    lexemes:
+    - ancient
+  - id: v5-l2-16
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: תקשורת?'
+    options:
+    - communication
+    - express
+    - ancient
+    correct: 0
+    lexemes:
+    - communication
+  - id: v5-l2-17
+    type: multiple_choice
+    prompt: מה פירוש connected?
+    options:
+    - מחובר
+    - בדיחה
+    - עתיק
+    correct: 0
+    lexemes:
+    - connected
+  - id: v5-l2-18
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: להביע?'
+    options:
+    - express
+    - hero
+    - flow
+    correct: 0
+    lexemes:
+    - express
+  - id: v5-l2-19
+    type: fill_blank
+    sentence: Good ___ saves time.
+    translation: תקשורת טובה חוסכת זמן.
+    answers:
+    - communication
+    options:
+    - communication
+    - connected
+    - ancient
+    lexemes:
+    - communication
+  - id: v5-l2-20
+    type: fill_blank
+    sentence: Is the printer ___ to the network?
+    translation: האם המדפסת מחוברת לרשת?
+    answers:
+    - connected
+    options:
+    - connected
+    - express
+    - communication
+    lexemes:
+    - connected
+  - id: v5-l2-21
+    type: fill_blank
+    sentence: It is hard to ___ my feelings.
+    translation: קשה לי להביע את הרגשות שלי.
+    answers:
+    - express
+    options:
+    - express
+    - hero
+    - jump
+    lexemes:
+    - express
+  - id: v5-l2-22
+    type: fill_blank
+    sentence: The ___ of water was strong.
+    translation: זרימת המים הייתה חזקה.
+    answers:
+    - flow
+    options:
+    - flow
+    - ancient
+    - hero
+    lexemes:
+    - flow
+  - id: v5-l2-23
+    type: fill_blank
+    sentence: My father is my ___.
+    translation: אבא שלי הוא הגיבור שלי.
+    answers:
+    - hero
+    options:
+    - hero
+    - joke
+    - loan
+    lexemes:
+    - hero
+  - id: v5-l2-24
+    type: fill_blank
+    sentence: He told a funny ___.
+    translation: הוא סיפר בדיחה מצחיקה.
+    answers:
+    - joke
+    options:
+    - joke
+    - communication
+    - minimum
+    lexemes:
+    - joke
+  - id: v5-l2-25
+    type: fill_blank
+    sentence: They took a ___ to buy a flat.
+    translation: הם לקחו הלוואה לקניית דירה.
+    answers:
+    - loan
+    options:
+    - loan
+    - jump
+    - joke
+    lexemes:
+    - loan
+  - id: v5-l2-26
+    type: dictation
+    text: He told a funny joke.
+    lexemes:
+    - joke
+  - id: v5-l2-27
+    type: dictation
+    text: They took a loan to buy a flat.
+    lexemes:
+    - loan
+- id: v5-l3
+  kind: new
+  title:
+    he: מילים חדשות 3
+    en: New words 3
+  exercises:
+  - id: v5-l3-01
+    type: learn
+    lexeme: soft
+    lexemes: []
+  - id: v5-l3-02
+    type: learn
+    lexeme: appeal
+    lexemes: []
+  - id: v5-l3-03
+    type: learn
+    lexeme: appropriate
+    lexemes: []
+  - id: v5-l3-04
+    type: learn
+    lexeme: device
+    lexemes: []
+  - id: v5-l3-05
+    type: learn
+    lexeme: drama
+    lexemes: []
+  - id: v5-l3-06
+    type: learn
+    lexeme: entry
+    lexemes: []
+  - id: v5-l3-07
+    type: learn
+    lexeme: era
+    lexemes: []
+  - id: v5-l3-08
+    type: learn
+    lexeme: factor
+    lexemes: []
+  - id: v5-l3-09
+    type: learn
+    lexeme: grant
+    lexemes: []
+  - id: v5-l3-10
+    type: learn
+    lexeme: pool
+    lexemes: []
+  - id: v5-l3-11
+    type: match_pairs
+    pairs:
+    - - soft
+      - רך
+    - - appeal
+      - משיכה
+    - - appropriate
+      - מתאים
+    - - device
+      - מכשיר
+    - - drama
+      - דרמה
+    lexemes:
+    - soft
+    - appeal
+    - appropriate
+    - device
+    - drama
+  - id: v5-l3-12
+    type: match_pairs
+    pairs:
+    - - entry
+      - כניסה
+    - - era
+      - תקופה
+    - - factor
+      - גורם
+    - - grant
+      - מענק
+    - - pool
+      - בריכה
+    lexemes:
+    - entry
+    - era
+    - factor
+    - grant
+    - pool
+  - id: v5-l3-13
+    type: multiple_choice
+    prompt: מה פירוש soft?
+    options:
+    - רך
+    - מכשיר
+    - מתאים, ראוי
+    correct: 0
+    lexemes:
+    - soft
+  - id: v5-l3-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: משיכה?'
+    options:
+    - appeal
+    - drama
+    - factor
+    correct: 0
+    lexemes:
+    - appeal
+  - id: v5-l3-15
+    type: multiple_choice
+    prompt: מה פירוש appropriate?
+    options:
+    - מתאים, ראוי
+    - מענק; להעניק
+    - משיכה; לפנות
+    correct: 0
+    lexemes:
+    - appropriate
+  - id: v5-l3-16
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: מכשיר?'
+    options:
+    - device
+    - drama
+    - pool
+    correct: 0
+    lexemes:
+    - device
+  - id: v5-l3-17
+    type: multiple_choice
+    prompt: מה פירוש drama?
+    options:
+    - דרמה
+    - רך
+    - מענק; להעניק
+    correct: 0
+    lexemes:
+    - drama
+  - id: v5-l3-18
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: כניסה?'
+    options:
+    - entry
+    - appeal
+    - era
+    correct: 0
+    lexemes:
+    - entry
+  - id: v5-l3-19
+    type: fill_blank
+    sentence: Turn off your ___ before the flight.
+    translation: כבו את המכשיר לפני הטיסה.
+    answers:
+    - device
+    options:
+    - device
+    - pool
+    - factor
+    lexemes:
+    - device
+  - id: v5-l3-20
+    type: fill_blank
+    sentence: We watched a ___ about two families.
+    translation: צפינו בדרמה על שתי משפחות.
+    answers:
+    - drama
+    options:
+    - drama
+    - entry
+    - era
+    lexemes:
+    - drama
+  - id: v5-l3-21
+    type: fill_blank
+    sentence: ___ to the museum is free today.
+    translation: הכניסה למוזיאון חינם היום.
+    answers:
+    - Entry
+    options:
+    - Entry
+    - factor
+    - pool
+    lexemes:
+    - entry
+  - id: v5-l3-22
+    type: fill_blank
+    sentence: It was the ___ of big changes.
+    translation: זה היה עידן של שינויים גדולים.
+    answers:
+    - era
+    options:
+    - era
+    - pool
+    - factor
+    lexemes:
+    - era
+  - id: v5-l3-23
+    type: fill_blank
+    sentence: Price is an important ___.
+    translation: המחיר הוא גורם חשוב.
+    answers:
+    - factor
+    options:
+    - factor
+    - soft
+    - grant
+    lexemes:
+    - factor
+  - id: v5-l3-24
+    type: fill_blank
+    sentence: The school received a ___ for books.
+    translation: בית הספר קיבל מענק לספרים.
+    answers:
+    - grant
+    options:
+    - grant
+    - era
+    - drama
+    lexemes:
+    - grant
+  - id: v5-l3-25
+    type: fill_blank
+    sentence: The children are playing in the ___.
+    translation: הילדים משחקים בבריכה.
+    answers:
+    - pool
+    options:
+    - pool
+    - device
+    - appeal
+    lexemes:
+    - pool
+  - id: v5-l3-26
+    type: dictation
+    text: The school received a grant for books.
+    lexemes:
+    - grant
+  - id: v5-l3-27
+    type: dictation
+    text: The children are playing in the pool.
+    lexemes:
+    - pool
+- id: v5-l4
+  kind: new
+  title:
+    he: מילים חדשות 4
+    en: New words 4
+  exercises:
+  - id: v5-l4-01
+    type: learn
+    lexeme: route
+    lexemes: []
+  - id: v5-l4-02
+    type: learn
+    lexeme: scientific
+    lexemes: []
+  - id: v5-l4-03
+    type: learn
+    lexeme: storm
+    lexemes: []
+  - id: v5-l4-04
+    type: learn
+    lexeme: strike
+    lexemes: []
+  - id: v5-l4-05
+    type: learn
+    lexeme: equal
+    lexemes: []
+  - id: v5-l4-06
+    type: learn
+    lexeme: finance
+    lexemes: []
+  - id: v5-l4-07
+    type: learn
+    lexeme: identity
+    lexemes: []
+  - id: v5-l4-08
+    type: learn
+    lexeme: maintain
+    lexemes: []
+  - id: v5-l4-09
+    type: learn
+    lexeme: numerous
+    lexemes: []
+  - id: v5-l4-10
+    type: learn
+    lexeme: specifically
+    lexemes: []
+  - id: v5-l4-11
+    type: match_pairs
+    pairs:
+    - - route
+      - מסלול
+    - - scientific
+      - מדעי
+    - - storm
+      - סערה
+    - - strike
+      - שביתה
+    - - equal
+      - שווה
+    lexemes:
+    - route
+    - scientific
+    - storm
+    - strike
+    - equal
+  - id: v5-l4-12
+    type: match_pairs
+    pairs:
+    - - finance
+      - מימון
+    - - identity
+      - זהות
+    - - maintain
+      - לתחזק
+    - - numerous
+      - רבים
+    - - specifically
+      - במיוחד
+    lexemes:
+    - finance
+    - identity
+    - maintain
+    - numerous
+    - specifically
+  - id: v5-l4-13
+    type: multiple_choice
+    prompt: מה פירוש route?
+    options:
+    - מסלול
+    - לתחזק, לשמר
+    - שווה
+    correct: 0
+    lexemes:
+    - route
+  - id: v5-l4-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: מדעי?'
+    options:
+    - scientific
+    - specifically
+    - route
+    correct: 0
+    lexemes:
+    - scientific
+  - id: v5-l4-15
+    type: multiple_choice
+    prompt: מה פירוש storm?
+    options:
+    - סערה
+    - מסלול
+    - שווה
+    correct: 0
+    lexemes:
+    - storm
+  - id: v5-l4-16
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: שביתה?'
+    options:
+    - strike
+    - storm
+    - maintain
+    correct: 0
+    lexemes:
+    - strike
+  - id: v5-l4-17
+    type: multiple_choice
+    prompt: מה פירוש equal?
+    options:
+    - שווה
+    - רבים
+    - מסלול
+    correct: 0
+    lexemes:
+    - equal
+  - id: v5-l4-18
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: מימון?'
+    options:
+    - finance
+    - identity
+    - strike
+    correct: 0
+    lexemes:
+    - finance
+  - id: v5-l4-19
+    type: fill_blank
+    sentence: The workers went on ___.
+    translation: העובדים יצאו לשביתה.
+    answers:
+    - strike
+    options:
+    - strike
+    - finance
+    - equal
+    lexemes:
+    - strike
+  - id: v5-l4-20
+    type: fill_blank
+    sentence: All people are ___.
+    translation: כל בני האדם שווים.
+    answers:
+    - equal
+    options:
+    - equal
+    - numerous
+    - scientific
+    lexemes:
+    - equal
+  - id: v5-l4-21
+    type: fill_blank
+    sentence: She works in ___.
+    translation: היא עובדת בתחום הכספים.
+    answers:
+    - finance
+    options:
+    - finance
+    - specifically
+    - numerous
+    lexemes:
+    - finance
+  - id: v5-l4-22
+    type: fill_blank
+    sentence: Please show your ___ card.
+    translation: אנא הציגו תעודת זהות.
+    answers:
+    - identity
+    options:
+    - identity
+    - storm
+    - specifically
+    lexemes:
+    - identity
+  - id: v5-l4-23
+    type: fill_blank
+    sentence: It is important to ___ a healthy life.
+    translation: חשוב לשמור על אורח חיים בריא.
+    answers:
+    - maintain
+    options:
+    - maintain
+    - strike
+    - specifically
+    lexemes:
+    - maintain
+  - id: v5-l4-24
+    type: fill_blank
+    sentence: There are ___ reasons.
+    translation: יש סיבות רבות.
+    answers:
+    - numerous
+    options:
+    - numerous
+    - storm
+    - route
+    lexemes:
+    - numerous
+  - id: v5-l4-25
+    type: fill_blank
+    sentence: I asked ___ for a window seat.
+    translation: ביקשתי במיוחד מושב ליד החלון.
+    answers:
+    - specifically
+    options:
+    - specifically
+    - identity
+    - route
+    lexemes:
+    - specifically
+  - id: v5-l4-26
+    type: dictation
+    text: There are numerous reasons.
+    lexemes:
+    - numerous
+  - id: v5-l4-27
+    type: dictation
+    text: I asked specifically for a window seat.
+    lexemes:
+    - specifically

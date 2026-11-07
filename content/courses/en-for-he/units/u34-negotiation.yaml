@@ -481,3 +481,16 @@ lessons:
         text: "If we had pushed harder, we would have lost the client."
         translation: "אילו לחצנו יותר, היינו מפסידים את הלקוח."
         lexemes: [if-had-done, would-have]
+      - id: u34-w-01
+        type: write
+        prompt: "כתבו הצעה למשא ומתן: מה אתם מבקשים ומה אתם מוכנים לוותר עליו? השתמשו בשפה דיפלומטית ובתנאי שלישי."
+        minWords: 45
+        checks:
+          - label: "השתמשתם בתנאי שלישי (if + had, would have)"
+            any: ["\\bif\\b.*\\bhad\\b.*\\bwould have\\b", "\\bwould have\\b.*\\bif\\b.*\\bhad\\b"]
+          - label: "ניסחתם בקשה דיפלומטית (would, perhaps, I wonder)"
+            any: ["\\bwould\\b", "\\bperhaps\\b", "\\bI wonder\\b", "\\bmight\\b"]
+          - label: "הצעתם פשרה"
+            any: ["\\bcompromise\\b", "\\bmeet\\b", "\\bin return\\b", "\\bagree\\b", "\\bdeal\\b"]
+        model: "We would like to propose a longer contract with a lower price. In return, we could agree to pay on time every month. If we had known about the extra fees, we would have asked for a different deal. Perhaps we can meet halfway and reach a compromise that works for both sides."
+        lexemes: []

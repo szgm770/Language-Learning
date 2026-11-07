@@ -448,3 +448,16 @@ lessons:
         text: "To begin with, I will refer to some statistics."
         translation: "קודם כול, אתייחס לכמה נתונים."
         lexemes: [to-begin-with, refer-to, statistics]
+      - id: u38-w-01
+        type: write
+        prompt: "כתבו פתיחה וסיכום קצרים להרצאה על נושא שאתם מכירים. השתמשו במילות קישור רשמיות."
+        minWords: 40
+        checks:
+          - label: "השתמשתם במילת קישור רשמית (furthermore, nevertheless...)"
+            any: ["\\bfurthermore\\b", "\\bnevertheless\\b", "\\bconsequently\\b", "\\bin addition\\b", "\\bmoreover\\b"]
+          - label: "כללתם פתיחה רשמית"
+            any: ["\\bI would like to\\b", "\\bgood (morning|afternoon|evening)\\b", "\\bon behalf of\\b", "\\bto begin with\\b"]
+          - label: "כללתם סיכום"
+            any: ["\\bin conclusion\\b", "\\bto sum up\\b", "\\bto conclude\\b", "\\bthank you\\b"]
+        model: "Good morning, everyone. I would like to begin by thanking you for coming. To begin with, remote work has grown rapidly. Furthermore, it has changed how teams communicate. Nevertheless, the office still has value. In conclusion, flexibility works best. Thank you for listening."
+        lexemes: []
