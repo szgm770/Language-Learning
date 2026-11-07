@@ -1,0 +1,1073 @@
+id: u06-precios
+cefr: A1
+scene: shopping
+title:
+  he: כמה זה עולה?
+  en: How much is it?
+story: לפני שיעור במשרד, יעל יוצאת עם מתאו לשוק לקנות מתנה קטנה למשפחה בישראל. היא לומדת את המספרים עד מאה ואיך שואלים כמה משהו עולה.
+canDo:
+- לספור עד 100
+- לשאול ולהבין מחירים בפסו
+- להשתמש ב־cuesta / cuestan
+- להגיד 'יקר' ו'זול' ולהשתמש ב־esto
+vocabulary:
+- id: veintiuno
+  text: veintiuno
+  translation: עשרים ואחד
+  pos: number
+- id: veinticinco
+  text: veinticinco
+  translation: עשרים וחמש
+  pos: number
+- id: treinta
+  text: treinta
+  translation: שלושים
+  pos: number
+- id: cuarenta
+  text: cuarenta
+  translation: ארבעים
+  pos: number
+- id: cincuenta
+  text: cincuenta
+  translation: חמישים
+  pos: number
+- id: sesenta
+  text: sesenta
+  translation: שישים
+  pos: number
+- id: setenta
+  text: setenta
+  translation: שבעים
+  pos: number
+- id: ochenta
+  text: ochenta
+  translation: שמונים
+  pos: number
+- id: noventa
+  text: noventa
+  translation: תשעים
+  pos: number
+- id: cien
+  text: cien
+  translation: מאה
+  pos: number
+- id: peso
+  text: el peso
+  translation: פסו (המטבע של מקסיקו)
+  pos: noun
+- id: costar
+  text: costar
+  translation: לעלות
+  pos: verb
+  example:
+    text: ¿Cuánto cuesta?
+    translation: כמה זה עולה?
+- id: cuanto-cuesta
+  text: ¿cuánto cuesta?
+  translation: כמה זה עולה?
+  pos: phrase
+- id: caro
+  text: caro / cara
+  translation: יקר / יקרה
+  pos: adjective
+- id: barato
+  text: barato / barata
+  translation: זול / זולה
+  pos: adjective
+- id: comprar
+  text: comprar
+  translation: לקנות
+  pos: verb
+- id: tienda
+  text: la tienda
+  translation: חנות
+  pos: noun
+- id: mercado
+  text: el mercado
+  translation: שוק
+  pos: noun
+- id: esto
+  text: esto
+  translation: זה (בלי לדעת מה שמו)
+  pos: pronoun
+- id: libro
+  text: el libro
+  translation: ספר
+  pos: noun
+- id: camisa
+  text: la camisa
+  translation: חולצה
+  pos: noun
+- id: zapatos
+  text: los zapatos
+  translation: נעליים
+  pos: noun
+- id: bolsa
+  text: la bolsa
+  translation: תיק, שקית
+  pos: noun
+- id: dinero
+  text: el dinero
+  translation: כסף
+  pos: noun
+grammar:
+- id: decenas
+  title:
+    he: מספרים 21–100 ו־cuesta / cuestan
+    en: Numbers 21–100 and cuesta / cuestan
+  explanation: '**עשרות:** treinta (30), cuarenta (40), cincuenta (50), sesenta (60), setenta (70), ochenta (80), noventa (90), **cien** (100).
+
+
+    **מ־31 ואילך** אומרים עשרות + **y** + יחידה, בשלוש מילים נפרדות: *treinta **y** cinco* (35), *cuarenta **y** dos* (42), *noventa y nueve* (99).
+
+    **21–29** הם מילה אחת, בלי y: *veintiuno, veintidós, veintitrés, veinticuatro, veinticinco* … *veintinueve* (שימו לב לטעם: veintidós, veintitrés, veintiséis).
+
+
+    **כמה זה עולה?** → **¿Cuánto cuesta?** (דבר אחד) / **¿Cuánto cuestan?** (כמה דברים).
+
+    * ¿Cuánto **cuesta** el libro? **Cuesta** cuarenta pesos.
+
+    * ¿Cuánto **cuestan** los zapatos? **Cuestan** cien pesos.
+
+    (costar הוא פועל ממשפחת o → ue: *cuesta*, *cuestan*, אבל בלי *costa*.)
+
+
+    **esto** = "זה" כשלא יודעים או לא אומרים את שם הדבר: *¿Cuánto cuesta esto?*'
+  examples:
+  - text: El libro cuesta cuarenta y cinco pesos.
+    translation: הספר עולה ארבעים וחמישה פסו.
+  - text: Los zapatos cuestan cien pesos.
+    translation: הנעליים עולות מאה פסו.
+  - text: ¿Cuánto cuesta esto?
+    translation: כמה זה עולה?
+lessons:
+- id: u06-l1
+  kind: new
+  title:
+    he: עשרות עד 100
+    en: Tens up to 100
+  exercises:
+  - id: u06-l1-01
+    type: dialogue
+    scene: בשוק, בעמדה של דון ריקרדו.
+    lines:
+    - speaker: yael
+      text: Buenos días. ¿Cuánto cuesta esto?
+      translation: בוקר טוב. כמה זה עולה?
+    - speaker: ricardo
+      text: Cuesta treinta pesos.
+      translation: זה עולה שלושים פסו.
+    - speaker: yael
+      text: Treinta... ¡Está barato! Quiero dos.
+      translation: שלושים... זול! אני רוצה שניים.
+    - speaker: ricardo
+      text: Entonces son sesenta pesos.
+      translation: אז זה שישים פסו.
+  - id: u06-l1-02
+    type: learn
+    lexeme: veintiuno
+  - id: u06-l1-03
+    type: learn
+    lexeme: veinticinco
+  - id: u06-l1-04
+    type: learn
+    lexeme: treinta
+  - id: u06-l1-05
+    type: learn
+    lexeme: cuarenta
+  - id: u06-l1-06
+    type: learn
+    lexeme: cincuenta
+  - id: u06-l1-07
+    type: learn
+    lexeme: sesenta
+  - id: u06-l1-08
+    type: learn
+    lexeme: setenta
+  - id: u06-l1-09
+    type: learn
+    lexeme: ochenta
+  - id: u06-l1-10
+    type: learn
+    lexeme: noventa
+  - id: u06-l1-11
+    type: learn
+    lexeme: cien
+  - id: u06-l1-12
+    type: learn
+    lexeme: peso
+  - id: u06-l1-13
+    type: tip
+    title: 21–29 מילה אחת, 31+ בשלוש
+    text: '20: *veinte*. 21–29: מילה אחת (*veintiuno, veinticinco*). מ־30: עשרות + y + יחידה: *treinta y uno*, *cuarenta y cinco*.
+
+      '
+  - id: u06-l1-14
+    type: match_pairs
+    pairs:
+    - - treinta
+      - '30'
+    - - cuarenta
+      - '40'
+    - - cincuenta
+      - '50'
+    - - sesenta
+      - '60'
+    - - setenta
+      - '70'
+    lexemes:
+    - treinta
+    - cuarenta
+    - cincuenta
+    - sesenta
+    - setenta
+  - id: u06-l1-15
+    type: match_pairs
+    pairs:
+    - - ochenta
+      - '80'
+    - - noventa
+      - '90'
+    - - cien
+      - '100'
+    - - veintiuno
+      - '21'
+    - - veinticinco
+      - '25'
+    lexemes:
+    - ochenta
+    - noventa
+    - cien
+    - veintiuno
+    - veinticinco
+  - id: u06-l1-16
+    type: multiple_choice
+    prompt: איזה מספר הוא 'cincuenta'?
+    options:
+    - '50'
+    - '15'
+    - '5'
+    correct: 0
+    lexemes:
+    - cincuenta
+    - quince
+    - cinco
+  - id: u06-l1-17
+    type: multiple_choice
+    prompt: איזה מספר הוא 'noventa'?
+    options:
+    - '90'
+    - '19'
+    - '99'
+    correct: 0
+    lexemes:
+    - noventa
+    - diecinueve
+  - id: u06-l1-18
+    type: listening_choice
+    audioText: sesenta
+    question: איזה מספר שמעתם?
+    options:
+    - '60'
+    - '16'
+    - '70'
+    correct: 0
+    lexemes:
+    - sesenta
+    - dieciseis
+    - setenta
+  - id: u06-l1-19
+    type: listening_choice
+    audioText: cuarenta y cinco
+    question: איזה מספר שמעתם?
+    options:
+    - '45'
+    - '54'
+    - '40'
+    correct: 0
+    lexemes:
+    - cuarenta
+    - cinco
+  - id: u06-l1-20
+    type: translate
+    direction: to_target
+    prompt: שמונים
+    answers:
+    - ochenta
+    lexemes:
+    - ochenta
+  - id: u06-l1-21
+    type: translate
+    direction: to_target
+    prompt: שלושים וחמש
+    answers:
+    - treinta y cinco
+    lexemes:
+    - treinta
+    - cinco
+    - y
+  - id: u06-l1-22
+    type: translate
+    direction: to_source
+    prompt: noventa y nueve
+    answers:
+    - תשעים ותשע
+    - '99'
+    lexemes:
+    - noventa
+    - nueve
+    - y
+  - id: u06-l1-23
+    type: dictation
+    text: treinta pesos
+    lexemes:
+    - treinta
+    - peso
+  - id: u06-l1-24
+    type: speak_repeat
+    text: Cuarenta y cinco pesos.
+    translation: ארבעים וחמישה פסו.
+    lexemes:
+    - cuarenta
+    - cinco
+    - peso
+- id: u06-l2
+  kind: new
+  title:
+    he: מה קונים בשוק
+    en: What to buy at the market
+  exercises:
+  - id: u06-l2-01
+    type: learn
+    lexeme: costar
+  - id: u06-l2-02
+    type: learn
+    lexeme: cuanto-cuesta
+  - id: u06-l2-03
+    type: learn
+    lexeme: esto
+  - id: u06-l2-04
+    type: learn
+    lexeme: caro
+  - id: u06-l2-05
+    type: learn
+    lexeme: barato
+  - id: u06-l2-06
+    type: learn
+    lexeme: comprar
+  - id: u06-l2-07
+    type: learn
+    lexeme: tienda
+  - id: u06-l2-08
+    type: learn
+    lexeme: mercado
+  - id: u06-l2-09
+    type: learn
+    lexeme: libro
+  - id: u06-l2-10
+    type: learn
+    lexeme: camisa
+  - id: u06-l2-11
+    type: learn
+    lexeme: zapatos
+  - id: u06-l2-12
+    type: learn
+    lexeme: bolsa
+  - id: u06-l2-13
+    type: learn
+    lexeme: dinero
+  - id: u06-l2-14
+    type: match_pairs
+    pairs:
+    - - el libro
+      - ספר
+    - - la camisa
+      - חולצה
+    - - los zapatos
+      - נעליים
+    - - la bolsa
+      - תיק
+    - - el mercado
+      - שוק
+    lexemes:
+    - libro
+    - camisa
+    - zapatos
+    - bolsa
+    - mercado
+  - id: u06-l2-15
+    type: match_pairs
+    pairs:
+    - - caro
+      - יקר
+    - - barato
+      - זול
+    - - la tienda
+      - חנות
+    - - el dinero
+      - כסף
+    - - comprar
+      - לקנות
+    lexemes:
+    - caro
+    - barato
+    - tienda
+    - dinero
+    - comprar
+  - id: u06-l2-16
+    type: multiple_choice
+    prompt: מה פירוש '¿Cuánto cuesta?'
+    options:
+    - כמה זה עולה?
+    - כמה זה שוקל?
+    - כמה שנים?
+    correct: 0
+    lexemes:
+    - cuanto-cuesta
+    - cuantos-anos
+  - id: u06-l2-17
+    type: multiple_choice
+    prompt: איך אומרים 'זול'?
+    options:
+    - barato
+    - caro
+    - grande
+    correct: 0
+    lexemes:
+    - barato
+    - caro
+    - grande
+  - id: u06-l2-18
+    type: multiple_choice
+    prompt: איך אומרים 'אני רוצה לקנות'?
+    options:
+    - Quiero comprar
+    - Quiero comer
+    - Quiero costar
+    correct: 0
+    lexemes:
+    - querer
+    - comprar
+  - id: u06-l2-19
+    type: listening_choice
+    audioText: ¿Cuánto cuesta el libro?
+    question: מה שאלו?
+    options:
+    - כמה עולה הספר?
+    - כמה עולה החולצה?
+    - כמה עולות הנעליים?
+    correct: 0
+    lexemes:
+    - cuanto-cuesta
+    - libro
+    - camisa
+    - zapatos
+  - id: u06-l2-20
+    type: listening_choice
+    audioText: Es muy caro.
+    question: מה שמעתם?
+    options:
+    - זה יקר מאוד
+    - זה זול מאוד
+    - זה גדול מאוד
+    correct: 0
+    lexemes:
+    - caro
+    - barato
+    - grande
+  - id: u06-l2-21
+    type: fill_blank
+    sentence: El libro es muy ___.
+    translation: הספר יקר מאוד.
+    answers:
+    - caro
+    options:
+    - caro
+    - barato
+    - joven
+    lexemes:
+    - libro
+    - caro
+  - id: u06-l2-22
+    type: fill_blank
+    sentence: La bolsa es ___, solo treinta pesos.
+    translation: התיק זול, רק שלושים פסו.
+    answers:
+    - barata
+    options:
+    - barata
+    - cara
+    - joven
+    lexemes:
+    - bolsa
+    - barato
+    - treinta
+    - peso
+    - solo-solamente
+  - id: u06-l2-23
+    type: word_bank
+    prompt: אני רוצה לקנות ספר.
+    answers:
+    - Quiero comprar un libro.
+    distractors:
+    - comer
+    - una
+    lexemes:
+    - querer
+    - comprar
+    - libro
+    - un-una
+  - id: u06-l2-24
+    type: translate
+    direction: to_target
+    prompt: כמה עולה החולצה?
+    answers:
+    - ¿Cuánto cuesta la camisa?
+    lexemes:
+    - cuanto-cuesta
+    - camisa
+  - id: u06-l2-25
+    type: translate
+    direction: to_target
+    prompt: זה יקר.
+    answers:
+    - Es caro.
+    - Esto es caro.
+    lexemes:
+    - caro
+  - id: u06-l2-26
+    type: translate
+    direction: to_source
+    prompt: Quiero comprar zapatos.
+    answers:
+    - אני רוצה לקנות נעליים
+    lexemes:
+    - querer
+    - comprar
+    - zapatos
+  - id: u06-l2-27
+    type: dictation
+    text: La tienda y el mercado.
+    lexemes:
+    - tienda
+    - mercado
+- id: u06-l3
+  kind: grammar
+  title:
+    he: cuesta, cuestan ומחירים
+    en: Cuesta, cuestan and prices
+  grammar: decenas
+  exercises:
+  - id: u06-l3-01
+    type: fill_blank
+    sentence: ¿Cuánto ___ el libro?
+    translation: כמה עולה הספר?
+    answers:
+    - cuesta
+    options:
+    - cuesta
+    - cuestan
+    - cuestas
+    lexemes:
+    - costar
+    - libro
+  - id: u06-l3-02
+    type: fill_blank
+    sentence: ¿Cuánto ___ los zapatos?
+    translation: כמה עולות הנעליים?
+    answers:
+    - cuestan
+    options:
+    - cuestan
+    - cuesta
+    - costar
+    lexemes:
+    - costar
+    - zapatos
+  - id: u06-l3-03
+    type: fill_blank
+    sentence: La camisa cuesta ___ pesos.
+    translation: החולצה עולה ארבעים וחמישה פסו.
+    answers:
+    - cuarenta y cinco
+    options:
+    - cuarenta y cinco
+    - cuarenta cinco
+    - cuatro y cinco
+    lexemes:
+    - camisa
+    - cuarenta
+    - cinco
+    - peso
+  - id: u06-l3-04
+    type: fill_blank
+    sentence: Los zapatos cuestan ___ pesos.
+    translation: הנעליים עולות שמונים פסו.
+    answers:
+    - ochenta
+    options:
+    - ochenta
+    - ocho
+    - dieciocho
+    lexemes:
+    - zapatos
+    - ochenta
+    - peso
+  - id: u06-l3-05
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - La bolsa cuesta setenta pesos.
+    - La bolsa cuestan setenta pesos.
+    - La bolsa cuestas setenta pesos.
+    correct: 0
+    lexemes:
+    - bolsa
+    - costar
+    - setenta
+    - peso
+  - id: u06-l3-06
+    type: multiple_choice
+    prompt: איך אומרים 64?
+    options:
+    - sesenta y cuatro
+    - sesenta cuatro
+    - seis y cuatro
+    correct: 0
+    lexemes:
+    - sesenta
+    - cuatro
+    - y
+  - id: u06-l3-07
+    type: multiple_choice
+    prompt: מה פירוש 'treinta y dos'?
+    options:
+    - '32'
+    - '23'
+    - '302'
+    correct: 0
+    lexemes:
+    - treinta
+    - dos
+  - id: u06-l3-08
+    type: word_bank
+    prompt: הספר עולה חמישים פסו.
+    answers:
+    - El libro cuesta cincuenta pesos.
+    distractors:
+    - cuestan
+    - cinco
+    lexemes:
+    - libro
+    - costar
+    - cincuenta
+    - peso
+  - id: u06-l3-09
+    type: word_bank
+    prompt: הנעליים עולות מאה פסו.
+    answers:
+    - Los zapatos cuestan cien pesos.
+    distractors:
+    - cuesta
+    - diez
+    lexemes:
+    - zapatos
+    - costar
+    - cien
+    - peso
+  - id: u06-l3-10
+    type: translate
+    direction: to_target
+    prompt: כמה עולות הנעליים?
+    answers:
+    - ¿Cuánto cuestan los zapatos?
+    lexemes:
+    - cuanto-cuesta
+    - zapatos
+    - costar
+  - id: u06-l3-11
+    type: translate
+    direction: to_target
+    prompt: התיק עולה עשרים וחמישה פסו.
+    answers:
+    - La bolsa cuesta veinticinco pesos.
+    lexemes:
+    - bolsa
+    - costar
+    - veinticinco
+    - peso
+  - id: u06-l3-12
+    type: translate
+    direction: to_source
+    prompt: ¿Cuánto cuesta esto?
+    answers:
+    - כמה זה עולה?
+    lexemes:
+    - cuanto-cuesta
+    - esto
+  - id: u06-l3-13
+    type: translate
+    direction: to_source
+    prompt: Cuesta noventa y nueve pesos.
+    answers:
+    - זה עולה תשעים ותשעה פסו
+    - זה עולה 99 פסו
+    lexemes:
+    - costar
+    - noventa
+    - nueve
+    - peso
+  - id: u06-l3-14
+    type: fill_blank
+    sentence: Treinta más cuarenta son ___.
+    translation: שלושים ועוד ארבעים הם שבעים.
+    answers:
+    - setenta
+    options:
+    - setenta
+    - sesenta
+    - ochenta
+    lexemes:
+    - treinta
+    - cuarenta
+    - setenta
+  - id: u06-l3-15
+    type: fill_blank
+    sentence: Cien menos cincuenta son ___.
+    translation: מאה פחות חמישים הם חמישים.
+    answers:
+    - cincuenta
+    options:
+    - cincuenta
+    - quince
+    - cuarenta
+    lexemes:
+    - cien
+    - cincuenta
+- id: u06-l4
+  kind: listening
+  title:
+    he: מתנה למשפחה
+    en: A gift for the family
+  exercises:
+  - id: u06-l4-01
+    type: dialogue
+    scene: בעמדה בשוק.
+    lines:
+    - speaker: yael
+      text: Don Ricardo, quiero comprar un libro para mi padre. ¿Cuánto cuesta?
+      translation: דון ריקרדו, אני רוצה לקנות ספר לאבא שלי. כמה זה עולה?
+    - speaker: ricardo
+      text: Este cuesta sesenta pesos. Es un libro muy bonito.
+      translation: זה עולה שישים פסו. זה ספר יפה מאוד.
+    - speaker: yael
+      text: Es un poco caro. ¿Y la bolsa?
+      translation: קצת יקר. ומה עם התיק?
+    - speaker: ricardo
+      text: La bolsa cuesta veinticinco pesos. Es barata.
+      translation: התיק עולה עשרים וחמישה פסו. זה זול.
+  - id: u06-l4-02
+    type: multiple_choice
+    prompt: כמה עולה הספר?
+    options:
+    - 60 פסו
+    - 16 פסו
+    - 65 פסו
+    correct: 0
+    lexemes:
+    - libro
+    - sesenta
+    - dieciseis
+  - id: u06-l4-03
+    type: multiple_choice
+    prompt: כמה עולה התיק?
+    options:
+    - 25 פסו
+    - 15 פסו
+    - 52 פסו
+    correct: 0
+    lexemes:
+    - bolsa
+    - veinticinco
+    - quince
+  - id: u06-l4-04
+    type: multiple_choice
+    prompt: מה יעל חושבת על הספר?
+    options:
+    - קצת יקר
+    - זול מאוד
+    - גדול מאוד
+    correct: 0
+    lexemes:
+    - libro
+    - caro
+  - id: u06-l4-05
+    type: listening_choice
+    audioText: Los zapatos cuestan cien pesos.
+    question: כמה עולות הנעליים?
+    options:
+    - 100 פסו
+    - 10 פסו
+    - 50 פסו
+    correct: 0
+    lexemes:
+    - zapatos
+    - cien
+    - diez
+    - cincuenta
+  - id: u06-l4-06
+    type: listening_choice
+    audioText: La camisa cuesta cuarenta pesos.
+    question: כמה עולה החולצה?
+    options:
+    - 40 פסו
+    - 14 פסו
+    - 4 פסו
+    correct: 0
+    lexemes:
+    - camisa
+    - cuarenta
+    - catorce
+    - cuatro
+  - id: u06-l4-07
+    type: dictation
+    text: Cuesta setenta y cinco pesos.
+    lexemes:
+    - costar
+    - setenta
+    - cinco
+    - peso
+  - id: u06-l4-08
+    type: translate
+    direction: to_target
+    prompt: זה זול מאוד.
+    answers:
+    - Es muy barato.
+    - Esto es muy barato.
+    lexemes:
+    - barato
+  - id: u06-l4-09
+    type: speak_repeat
+    text: ¿Cuánto cuestan los zapatos?
+    translation: כמה עולות הנעליים?
+    lexemes:
+    - cuanto-cuesta
+    - zapatos
+    - costar
+- id: u06-l5
+  kind: reading
+  title:
+    he: רשימת קניות
+    en: A shopping list
+  exercises:
+  - id: u06-l5-01
+    type: reading
+    kind: רשימה
+    title: Lista del mercado
+    text: 'Libro para mi padre: 60 pesos.
+
+      Bolsa para mi madre: 25 pesos.
+
+      Camisa para mi hermano: 45 pesos.
+
+      Todo es barato. ¡Hoy tengo dinero para comprar mucho!
+
+      '
+    translation: 'ספר לאבא שלי: 60 פסו.
+
+      תיק לאמא שלי: 25 פסו.
+
+      חולצה לאח שלי: 45 פסו.
+
+      הכול זול. היום יש לי כסף לקנות הרבה!
+
+      '
+  - id: u06-l5-02
+    type: multiple_choice
+    prompt: כמה עולה הספר?
+    options:
+    - 60 פסו
+    - 45 פסו
+    - 25 פסו
+    correct: 0
+    lexemes:
+    - libro
+    - sesenta
+    - cuarenta
+    - veinticinco
+  - id: u06-l5-03
+    type: multiple_choice
+    prompt: למי התיק?
+    options:
+    - לאמא
+    - לאבא
+    - לאח
+    correct: 0
+    lexemes:
+    - bolsa
+    - madre
+  - id: u06-l5-04
+    type: fill_blank
+    sentence: Todo es ___.
+    translation: הכול זול.
+    answers:
+    - barato
+    options:
+    - barato
+    - caro
+    - joven
+    lexemes:
+    - barato
+  - id: u06-l5-05
+    type: translate
+    direction: to_target
+    prompt: אני רוצה לקנות חולצה לאח שלי.
+    answers:
+    - Quiero comprar una camisa para mi hermano.
+    lexemes:
+    - querer
+    - comprar
+    - camisa
+    - hermano
+- id: u06-review
+  kind: review
+  title:
+    he: 'חזרה: מחירים'
+    en: 'Review: prices'
+  exercises:
+  - id: u06-review-01
+    type: match_pairs
+    pairs:
+    - - cuarenta
+      - '40'
+    - - cincuenta
+      - '50'
+    - - sesenta
+      - '60'
+    - - ochenta
+      - '80'
+    - - cien
+      - '100'
+    lexemes:
+    - cuarenta
+    - cincuenta
+    - sesenta
+    - ochenta
+    - cien
+  - id: u06-review-02
+    type: match_pairs
+    pairs:
+    - - caro
+      - יקר
+    - - barato
+      - זול
+    - - el mercado
+      - שוק
+    - - el libro
+      - ספר
+    - - el dinero
+      - כסף
+    lexemes:
+    - caro
+    - barato
+    - mercado
+    - libro
+    - dinero
+  - id: u06-review-03
+    type: fill_blank
+    sentence: ¿Cuánto ___ las bolsas?
+    translation: כמה עולים התיקים?
+    answers:
+    - cuestan
+    options:
+    - cuestan
+    - cuesta
+    - cuestas
+    lexemes:
+    - costar
+    - bolsa
+  - id: u06-review-04
+    type: fill_blank
+    sentence: El libro cuesta cien pesos. Es muy ___.
+    translation: הספר עולה מאה פסו. הוא יקר מאוד.
+    answers:
+    - caro
+    options:
+    - caro
+    - barato
+    - joven
+    lexemes:
+    - libro
+    - caro
+    - cien
+    - peso
+  - id: u06-review-05
+    type: listening_choice
+    audioText: Cuesta treinta y cinco pesos.
+    question: כמה זה עולה?
+    options:
+    - 35 פסו
+    - 53 פסו
+    - 30 פסו
+    correct: 0
+    lexemes:
+    - costar
+    - treinta
+    - cinco
+    - peso
+  - id: u06-review-06
+    type: multiple_choice
+    prompt: מה פירוש 'barato'?
+    options:
+    - זול
+    - יקר
+    - חדש
+    correct: 0
+    lexemes:
+    - barato
+    - caro
+  - id: u06-review-07
+    type: word_bank
+    prompt: הספר עולה שישים פסו.
+    answers:
+    - El libro cuesta sesenta pesos.
+    distractors:
+    - cuestan
+    - seis
+    lexemes:
+    - libro
+    - costar
+    - sesenta
+    - peso
+  - id: u06-review-08
+    type: translate
+    direction: to_target
+    prompt: כמה עולה זה?
+    answers:
+    - ¿Cuánto cuesta esto?
+    lexemes:
+    - cuanto-cuesta
+    - esto
+  - id: u06-review-09
+    type: translate
+    direction: to_source
+    prompt: Quiero comprar una bolsa.
+    answers:
+    - אני רוצה לקנות תיק
+    lexemes:
+    - querer
+    - comprar
+    - bolsa
+  - id: u06-review-10
+    type: dictation
+    text: Cincuenta pesos.
+    lexemes:
+    - cincuenta
+    - peso
+  - id: u06-review-11
+    type: speak_repeat
+    text: ¿Cuánto cuesta el libro?
+    translation: כמה עולה הספר?
+    lexemes:
+    - cuanto-cuesta
+    - libro

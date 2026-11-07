@@ -227,9 +227,9 @@ test("Spanish can be started from zero", async ({ page }) => {
   await expect(page).toHaveURL(/\/lesson\/es-for-he\/u00a-l1\/$/);
 });
 
-test("Spanish A1 lessons can be solved from the content", async ({ page }) => {
-  for (const id of ["u01-l2", "u02-l1", "u02-l3", "u03-l1", "u03-l3", "u04-l1", "u04-l3"]) {
+for (const id of ["u01-l2", "u02-l1", "u02-l3", "u03-l1", "u03-l3", "u04-l1", "u04-l3", "u05-l1", "u05-l3", "u06-l1", "u06-l3"]) {
+  test(`Spanish lesson ${id} can be solved from the content`, async ({ page }) => {
     await page.goto(`lesson/es-for-he/${id}/`);
     await finishLesson(page);
-  }
-});
+  });
+}

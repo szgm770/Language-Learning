@@ -1,0 +1,1045 @@
+id: u05-comida
+cefr: A1
+scene: cafe
+title:
+  he: קפה ואוכל
+  en: Café and food
+story: בהפסקת הצהריים יעל, מתאו וסופיה יורדים לקפיטריה הכשרה של דוניה כרמן. יעל לומדת להזמין אוכל, להגיד מה היא רוצה ומה היא אוהבת.
+canDo:
+- 'להזמין אוכל ושתייה: quiero un café, por favor'
+- להשתמש ב־querer בהווה
+- 'להגיד מה אני אוהב: me gusta / me gustan'
+- לבקש את החשבון ולהגיד con / sin
+vocabulary:
+- id: agua
+  text: el agua
+  translation: מים
+  pos: noun
+- id: te
+  text: el té
+  translation: תה
+  pos: noun
+- id: jugo
+  text: el jugo
+  translation: מיץ
+  pos: noun
+- id: leche
+  text: la leche
+  translation: חלב
+  pos: noun
+- id: pan
+  text: el pan
+  translation: לחם
+  pos: noun
+- id: huevo
+  text: el huevo
+  translation: ביצה
+  pos: noun
+- id: ensalada
+  text: la ensalada
+  translation: סלט
+  pos: noun
+- id: fruta
+  text: la fruta
+  translation: פרי, פירות
+  pos: noun
+- id: pollo
+  text: el pollo
+  translation: עוף
+  pos: noun
+- id: pescado
+  text: el pescado
+  translation: דג (כמאכל)
+  pos: noun
+- id: arroz
+  text: el arroz
+  translation: אורז
+  pos: noun
+- id: sopa
+  text: la sopa
+  translation: מרק
+  pos: noun
+- id: comida
+  text: la comida
+  translation: אוכל, ארוחה
+  pos: noun
+- id: desayuno
+  text: el desayuno
+  translation: ארוחת בוקר
+  pos: noun
+- id: kosher
+  text: kosher
+  translation: כשר
+  pos: adjective
+- id: querer
+  text: querer
+  translation: לרצות
+  pos: verb
+  example:
+    text: Quiero un café.
+    translation: אני רוצה קפה.
+- id: gustar
+  text: gustar
+  translation: להיות אהוב (על מישהו)
+  pos: verb
+  example:
+    text: Me gusta el café.
+    translation: אני אוהב קפה.
+- id: mucho
+  text: mucho
+  translation: הרבה, מאוד
+  pos: adverb
+- id: que
+  text: ¿qué?
+  translation: מה?
+  pos: phrase
+- id: con
+  text: con
+  translation: עם
+  pos: preposition
+- id: sin
+  text: sin
+  translation: בלי
+  pos: preposition
+- id: cuenta
+  text: la cuenta
+  translation: החשבון
+  pos: noun
+grammar:
+- id: querer-gustar
+  title:
+    he: querer ו־gustar
+    en: Querer and gustar
+  explanation: '**querer** = "לרצות". הפועל לא רגיל (**e → ie**) ברוב הצורות:
+
+
+    | כינוי | querer | דוגמה |
+
+    |---|---|---|
+
+    | yo | **quiero** | Quiero un café. |
+
+    | tú | **quieres** | ¿Qué quieres? |
+
+    | él / ella / usted | **quiere** | Ella quiere agua. |
+
+    | nosotros | **queremos** | Queremos la cuenta. |
+
+    | ellos / ustedes | **quieren** | Quieren pescado. |
+
+
+    **gustar** עובד בכיוון **הפוך** מהעברית "אני אוהב", ודווקא קרוב ל**"זה מוצא חן בעיני"**. מי שאוהב הוא "מי שמוצא חן בעיניו" (me), ומה שאוהבים הוא הנושא:
+
+
+    * **Me gusta** el café. = הקפה מוצא חן בעיני = אני אוהב קפה.
+
+    * **Me gustan** los huevos. (רבים: gustan)
+
+    * **¿Te gusta** la sopa? = את אוהבת מרק?
+
+    * **Le gusta** el té. = הוא / היא אוהב/ת תה.
+
+
+    אם אוהבים משהו אחד (או פועל): **gusta**. אם אוהבים כמה דברים: **gustan**. ואם רוצים להגיד "אני מאוד אוהב": **me gusta mucho**.'
+  examples:
+  - text: Quiero un café con leche, por favor.
+    translation: אני רוצה קפה עם חלב, בבקשה.
+  - text: Me gusta mucho la sopa.
+    translation: אני אוהב מאוד מרק.
+  - text: Me gustan los huevos.
+    translation: אני אוהב ביצים.
+lessons:
+- id: u05-l1
+  kind: new
+  title:
+    he: שתייה ולחם
+    en: Drinks and bread
+  exercises:
+  - id: u05-l1-01
+    type: dialogue
+    scene: בקפיטריה של דוניה כרמן.
+    lines:
+    - speaker: carmen
+      text: Buenos días, Yael. ¿Qué quieres?
+      translation: בוקר טוב, יעל. מה את רוצה?
+    - speaker: yael
+      text: Quiero un café, por favor.
+      translation: אני רוצה קפה, בבקשה.
+    - speaker: carmen
+      text: ¿Con leche?
+      translation: עם חלב?
+    - speaker: yael
+      text: Sí, con leche. Y también quiero agua.
+      translation: כן, עם חלב. וגם אני רוצה מים.
+  - id: u05-l1-02
+    type: learn
+    lexeme: agua
+  - id: u05-l1-03
+    type: learn
+    lexeme: te
+  - id: u05-l1-04
+    type: learn
+    lexeme: jugo
+  - id: u05-l1-05
+    type: learn
+    lexeme: leche
+  - id: u05-l1-06
+    type: learn
+    lexeme: pan
+  - id: u05-l1-07
+    type: learn
+    lexeme: huevo
+  - id: u05-l1-08
+    type: learn
+    lexeme: desayuno
+  - id: u05-l1-09
+    type: learn
+    lexeme: con
+  - id: u05-l1-10
+    type: learn
+    lexeme: sin
+  - id: u05-l1-11
+    type: tip
+    title: el agua? כן, 'el'
+    text: 'המילה *agua* נקבה, אבל לפני שמות עצם נקביים שמתחילים ב־a מודגשת אומרים *el agua* ולא *la agua*, רק כדי שהצלילים לא יתנגשו. התואר ממשיך להיות נקבי: *el agua fría*.
+
+      '
+  - id: u05-l1-12
+    type: match_pairs
+    pairs:
+    - - el agua
+      - מים
+    - - el té
+      - תה
+    - - el jugo
+      - מיץ
+    - - la leche
+      - חלב
+    - - el pan
+      - לחם
+    lexemes:
+    - agua
+    - te
+    - jugo
+    - leche
+    - pan
+  - id: u05-l1-13
+    type: multiple_choice
+    prompt: מה פירוש 'con leche'?
+    options:
+    - עם חלב
+    - בלי חלב
+    - עם מים
+    correct: 0
+    lexemes:
+    - con
+    - leche
+    - sin
+  - id: u05-l1-14
+    type: multiple_choice
+    prompt: איך אומרים 'קפה בלי חלב'?
+    options:
+    - café sin leche
+    - café con leche
+    - café con agua
+    correct: 0
+    lexemes:
+    - cafe
+    - sin
+    - leche
+  - id: u05-l1-15
+    type: listening_choice
+    audioText: el jugo
+    question: מה שמעתם?
+    options:
+    - המיץ
+    - המים
+    - התה
+    correct: 0
+    lexemes:
+    - jugo
+    - agua
+    - te
+  - id: u05-l1-16
+    type: listening_choice
+    audioText: un café con leche
+    question: מה שמעתם?
+    options:
+    - קפה עם חלב
+    - קפה בלי חלב
+    - תה עם חלב
+    correct: 0
+    lexemes:
+    - cafe
+    - con
+    - leche
+  - id: u05-l1-17
+    type: translate
+    direction: to_target
+    prompt: מים
+    answers:
+    - agua
+    - el agua
+    lexemes:
+    - agua
+  - id: u05-l1-18
+    type: translate
+    direction: to_target
+    prompt: תה בלי חלב
+    answers:
+    - té sin leche
+    - el té sin leche
+    lexemes:
+    - te
+    - sin
+    - leche
+  - id: u05-l1-19
+    type: translate
+    direction: to_source
+    prompt: pan y huevo
+    answers:
+    - לחם וביצה
+    lexemes:
+    - pan
+    - y
+    - huevo
+  - id: u05-l1-20
+    type: dictation
+    text: el desayuno
+    lexemes:
+    - desayuno
+  - id: u05-l1-21
+    type: speak_repeat
+    text: Un café con leche, por favor.
+    translation: קפה עם חלב, בבקשה.
+    lexemes:
+    - cafe
+    - con
+    - leche
+    - por-favor
+- id: u05-l2
+  kind: new
+  title:
+    he: ארוחת צהריים
+    en: Lunch
+  exercises:
+  - id: u05-l2-01
+    type: learn
+    lexeme: querer
+  - id: u05-l2-02
+    type: learn
+    lexeme: comida
+  - id: u05-l2-03
+    type: learn
+    lexeme: kosher
+  - id: u05-l2-04
+    type: learn
+    lexeme: ensalada
+  - id: u05-l2-05
+    type: learn
+    lexeme: fruta
+  - id: u05-l2-06
+    type: learn
+    lexeme: pollo
+  - id: u05-l2-07
+    type: learn
+    lexeme: pescado
+  - id: u05-l2-08
+    type: learn
+    lexeme: arroz
+  - id: u05-l2-09
+    type: learn
+    lexeme: sopa
+  - id: u05-l2-10
+    type: learn
+    lexeme: cuenta
+  - id: u05-l2-11
+    type: learn
+    lexeme: mucho
+  - id: u05-l2-12
+    type: learn
+    lexeme: que
+  - id: u05-l2-13
+    type: dialogue
+    scene: בצהריים, בקפיטריה הכשרה.
+    lines:
+    - speaker: mateo
+      text: Yael, la comida aquí es kosher. ¿Qué quieres?
+      translation: יעל, האוכל כאן כשר. מה את רוצה?
+    - speaker: yael
+      text: Quiero pescado con arroz y ensalada.
+      translation: אני רוצה דג עם אורז וסלט.
+    - speaker: sofia
+      text: Yo quiero sopa y pollo. ¡Tengo mucha hambre!
+      translation: אני רוצה מרק ועוף. אני רעבה מאוד!
+    - speaker: mateo
+      text: Y yo, fruta. Camarero, la cuenta, por favor.
+      translation: ואני, פירות. מלצר, החשבון, בבקשה.
+  - id: u05-l2-14
+    type: match_pairs
+    pairs:
+    - - el pollo
+      - עוף
+    - - el pescado
+      - דג
+    - - el arroz
+      - אורז
+    - - la sopa
+      - מרק
+    - - la ensalada
+      - סלט
+    lexemes:
+    - pollo
+    - pescado
+    - arroz
+    - sopa
+    - ensalada
+  - id: u05-l2-15
+    type: multiple_choice
+    prompt: מה פירוש 'la cuenta'?
+    options:
+    - החשבון
+    - התפריט
+    - המנה
+    correct: 0
+    lexemes:
+    - cuenta
+    - menu
+    - comida
+  - id: u05-l2-16
+    type: multiple_choice
+    prompt: איך אומרים 'אוכל כשר'?
+    options:
+    - comida kosher
+    - fruta kosher
+    - agua kosher
+    correct: 0
+    lexemes:
+    - comida
+    - kosher
+  - id: u05-l2-17
+    type: multiple_choice
+    prompt: מה שואלים כדי לדעת מה מישהו רוצה?
+    options:
+    - ¿Qué quieres?
+    - ¿Quién quieres?
+    - ¿Cuántos quieres?
+    correct: 0
+    lexemes:
+    - que
+    - querer
+  - id: u05-l2-18
+    type: listening_choice
+    audioText: pescado con arroz
+    question: מה שמעתם?
+    options:
+    - דג עם אורז
+    - עוף עם אורז
+    - דג עם סלט
+    correct: 0
+    lexemes:
+    - pescado
+    - con
+    - arroz
+  - id: u05-l2-19
+    type: listening_choice
+    audioText: la sopa y la ensalada
+    question: מה שמעתם?
+    options:
+    - המרק והסלט
+    - המרק והפירות
+    - האורז והסלט
+    correct: 0
+    lexemes:
+    - sopa
+    - ensalada
+    - y
+  - id: u05-l2-20
+    type: fill_blank
+    sentence: Quiero pollo ___ arroz.
+    translation: אני רוצה עוף עם אורז.
+    answers:
+    - con
+    options:
+    - con
+    - sin
+    - y
+    lexemes:
+    - querer
+    - pollo
+    - arroz
+    - con
+  - id: u05-l2-21
+    type: fill_blank
+    sentence: La sopa ___ pan, por favor.
+    translation: המרק בלי לחם, בבקשה.
+    answers:
+    - sin
+    options:
+    - sin
+    - con
+    - y
+    lexemes:
+    - sopa
+    - pan
+    - sin
+    - por-favor
+  - id: u05-l2-22
+    type: word_bank
+    prompt: אני רוצה סלט.
+    answers:
+    - Quiero una ensalada.
+    - Quiero ensalada.
+    distractors:
+    - Quieres
+    - la
+    lexemes:
+    - querer
+    - ensalada
+    - un-una
+  - id: u05-l2-23
+    type: translate
+    direction: to_target
+    prompt: אני רוצה דג ואורז.
+    answers:
+    - Quiero pescado y arroz.
+    lexemes:
+    - querer
+    - pescado
+    - arroz
+    - y
+  - id: u05-l2-24
+    type: translate
+    direction: to_target
+    prompt: החשבון, בבקשה.
+    answers:
+    - La cuenta, por favor.
+    lexemes:
+    - cuenta
+    - por-favor
+  - id: u05-l2-25
+    type: translate
+    direction: to_source
+    prompt: ¿Qué quieres, sopa o ensalada?
+    answers:
+    - מה אתה רוצה, מרק או סלט?
+    - מה את רוצה, מרק או סלט?
+    lexemes:
+    - que
+    - querer
+    - sopa
+    - ensalada
+  - id: u05-l2-26
+    type: dictation
+    text: Quiero fruta y agua.
+    lexemes:
+    - querer
+    - fruta
+    - agua
+    - y
+- id: u05-l3
+  kind: grammar
+  title:
+    he: querer ו־gustar
+    en: Querer and gustar
+  grammar: querer-gustar
+  exercises:
+  - id: u05-l3-01
+    type: learn
+    lexeme: gustar
+  - id: u05-l3-02
+    type: fill_blank
+    sentence: Yo ___ un té.
+    translation: אני רוצה תה.
+    answers:
+    - quiero
+    options:
+    - quiero
+    - quieres
+    - quiere
+    lexemes:
+    - querer
+    - te
+  - id: u05-l3-03
+    type: fill_blank
+    sentence: ¿Tú ___ pan?
+    translation: אתה רוצה לחם?
+    answers:
+    - quieres
+    options:
+    - quieres
+    - quiero
+    - queremos
+    lexemes:
+    - querer
+    - pan
+  - id: u05-l3-04
+    type: fill_blank
+    sentence: Sofía ___ sopa.
+    translation: סופיה רוצה מרק.
+    answers:
+    - quiere
+    options:
+    - quiere
+    - quieren
+    - quieres
+    lexemes:
+    - querer
+    - sopa
+  - id: u05-l3-05
+    type: fill_blank
+    sentence: Nosotros ___ la cuenta.
+    translation: אנחנו רוצים את החשבון.
+    answers:
+    - queremos
+    options:
+    - queremos
+    - quieren
+    - quiero
+    lexemes:
+    - querer
+    - cuenta
+  - id: u05-l3-06
+    type: fill_blank
+    sentence: Me ___ el café.
+    translation: אני אוהב קפה.
+    answers:
+    - gusta
+    options:
+    - gusta
+    - gustan
+    - gustar
+    lexemes:
+    - gustar
+    - cafe
+  - id: u05-l3-07
+    type: fill_blank
+    sentence: Me ___ los huevos.
+    translation: אני אוהב ביצים.
+    answers:
+    - gustan
+    options:
+    - gustan
+    - gusta
+    - gustas
+    lexemes:
+    - gustar
+    - huevo
+  - id: u05-l3-08
+    type: fill_blank
+    sentence: ¿Te ___ la sopa?
+    translation: את אוהבת מרק?
+    answers:
+    - gusta
+    options:
+    - gusta
+    - gustan
+    - gustas
+    lexemes:
+    - gustar
+    - sopa
+  - id: u05-l3-09
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Me gusta la fruta.
+    - Me gustan la fruta.
+    - Yo gusto la fruta.
+    correct: 0
+    lexemes:
+    - gustar
+    - fruta
+  - id: u05-l3-10
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Me gustan los huevos.
+    - Me gusta los huevos.
+    - Yo gustan los huevos.
+    correct: 0
+    lexemes:
+    - gustar
+    - huevo
+  - id: u05-l3-11
+    type: word_bank
+    prompt: אני אוהב מאוד את הקפה.
+    answers:
+    - Me gusta mucho el café.
+    distractors:
+    - gustan
+    - quiero
+    lexemes:
+    - gustar
+    - mucho
+    - cafe
+  - id: u05-l3-12
+    type: word_bank
+    prompt: הוא רוצה עוף.
+    answers:
+    - Él quiere pollo.
+    distractors:
+    - quieres
+    - gusta
+    lexemes:
+    - querer
+    - pollo
+    - el
+  - id: u05-l3-13
+    type: translate
+    direction: to_target
+    prompt: אני אוהב תה בלי חלב.
+    answers:
+    - Me gusta el té sin leche.
+    lexemes:
+    - gustar
+    - te
+    - sin
+    - leche
+  - id: u05-l3-14
+    type: translate
+    direction: to_target
+    prompt: אנחנו רוצים פירות.
+    answers:
+    - Queremos fruta.
+    lexemes:
+    - querer
+    - fruta
+  - id: u05-l3-15
+    type: translate
+    direction: to_source
+    prompt: ¿Te gusta el pescado?
+    answers:
+    - אתה אוהב דג?
+    - את אוהבת דג?
+    lexemes:
+    - gustar
+    - pescado
+  - id: u05-l3-16
+    type: translate
+    direction: to_source
+    prompt: Ellos quieren la cuenta.
+    answers:
+    - הם רוצים את החשבון
+    lexemes:
+    - querer
+    - cuenta
+- id: u05-l4
+  kind: listening
+  title:
+    he: ההזמנה
+    en: The order
+  exercises:
+  - id: u05-l4-01
+    type: dialogue
+    scene: סופיה, יעל ומתאו מזמינים.
+    lines:
+    - speaker: carmen
+      text: ¿Qué quieren hoy?
+      translation: מה אתם רוצים היום?
+    - speaker: sofia
+      text: Yo quiero sopa. Me gusta mucho tu sopa, doña Carmen.
+      translation: אני רוצה מרק. אני אוהבת מאוד את המרק שלך, דוניה כרמן.
+    - speaker: yael
+      text: Para mí, pescado con arroz. No quiero pan.
+      translation: בשבילי, דג עם אורז. אני לא רוצה לחם.
+    - speaker: mateo
+      text: Yo quiero una ensalada y agua. Después, un té.
+      translation: אני רוצה סלט ומים. אחר כך, תה.
+  - id: u05-l4-02
+    type: multiple_choice
+    prompt: מה סופיה אוהבת?
+    options:
+    - את המרק
+    - את הדג
+    - את הסלט
+    correct: 0
+    lexemes:
+    - gustar
+    - sopa
+  - id: u05-l4-03
+    type: multiple_choice
+    prompt: מה יעל לא רוצה?
+    options:
+    - לחם
+    - אורז
+    - דג
+    correct: 0
+    lexemes:
+    - querer
+    - pan
+  - id: u05-l4-04
+    type: multiple_choice
+    prompt: מה מתאו רוצה אחרי האוכל?
+    options:
+    - תה
+    - קפה
+    - מיץ
+    correct: 0
+    lexemes:
+    - te
+  - id: u05-l4-05
+    type: listening_choice
+    audioText: Quiero pescado con arroz.
+    question: מה הדובר רוצה?
+    options:
+    - דג עם אורז
+    - עוף עם אורז
+    - דג עם סלט
+    correct: 0
+    lexemes:
+    - querer
+    - pescado
+    - arroz
+  - id: u05-l4-06
+    type: listening_choice
+    audioText: Me gustan las frutas.
+    question: מה הדובר אוהב?
+    options:
+    - פירות
+    - ביצים
+    - מרק
+    correct: 0
+    lexemes:
+    - gustar
+    - fruta
+  - id: u05-l4-07
+    type: dictation
+    text: Me gusta mucho el pescado.
+    lexemes:
+    - gustar
+    - mucho
+    - pescado
+  - id: u05-l4-08
+    type: translate
+    direction: to_target
+    prompt: אני לא רוצה לחם.
+    answers:
+    - No quiero pan.
+    lexemes:
+    - querer
+    - pan
+  - id: u05-l4-09
+    type: speak_repeat
+    text: Para mí, sopa y ensalada, por favor.
+    translation: בשבילי, מרק וסלט, בבקשה.
+    lexemes:
+    - sopa
+    - ensalada
+    - por-favor
+- id: u05-l5
+  kind: reading
+  title:
+    he: התפריט של דוניה כרמן
+    en: Doña Carmen's menu
+  exercises:
+  - id: u05-l5-01
+    type: reading
+    kind: תפריט
+    title: Menú de la cafetería
+    text: 'Desayuno: pan, huevos, té o café. Con leche o sin leche.
+
+      Comida: sopa, pescado con arroz, pollo con ensalada. Fruta.
+
+      Toda la comida es kosher. ¡Bienvenidos!
+
+      '
+    translation: 'ארוחת בוקר: לחם, ביצים, תה או קפה. עם חלב או בלי חלב.
+
+      ארוחת צהריים: מרק, דג עם אורז, עוף עם סלט. פירות.
+
+      כל האוכל כשר. ברוכים הבאים!
+
+      '
+  - id: u05-l5-02
+    type: multiple_choice
+    prompt: מה יש לארוחת בוקר?
+    options:
+    - לחם, ביצים, תה או קפה
+    - מרק ועוף
+    - רק פירות
+    correct: 0
+    lexemes:
+    - desayuno
+    - pan
+    - huevo
+    - te
+  - id: u05-l5-03
+    type: multiple_choice
+    prompt: איך האוכל במקום?
+    options:
+    - כשר
+    - רק עם חלב
+    - רק מרק
+    correct: 0
+    lexemes:
+    - comida
+    - kosher
+  - id: u05-l5-04
+    type: fill_blank
+    sentence: Toda la ___ es kosher.
+    translation: כל האוכל כשר.
+    answers:
+    - comida
+    options:
+    - comida
+    - fruta
+    - leche
+    lexemes:
+    - comida
+    - kosher
+  - id: u05-l5-05
+    type: translate
+    direction: to_target
+    prompt: אני רוצה תה עם חלב.
+    answers:
+    - Quiero té con leche.
+    lexemes:
+    - querer
+    - te
+    - con
+    - leche
+- id: u05-review
+  kind: review
+  title:
+    he: 'חזרה: קפה ואוכל'
+    en: 'Review: café and food'
+  exercises:
+  - id: u05-review-01
+    type: match_pairs
+    pairs:
+    - - el agua
+      - מים
+    - - la leche
+      - חלב
+    - - el pan
+      - לחם
+    - - el huevo
+      - ביצה
+    - - el jugo
+      - מיץ
+    lexemes:
+    - agua
+    - leche
+    - pan
+    - huevo
+    - jugo
+  - id: u05-review-02
+    type: match_pairs
+    pairs:
+    - - el pollo
+      - עוף
+    - - el pescado
+      - דג
+    - - la sopa
+      - מרק
+    - - el arroz
+      - אורז
+    - - la fruta
+      - פרי
+    lexemes:
+    - pollo
+    - pescado
+    - sopa
+    - arroz
+    - fruta
+  - id: u05-review-03
+    type: fill_blank
+    sentence: Yo ___ una sopa.
+    translation: אני רוצה מרק.
+    answers:
+    - quiero
+    options:
+    - quiero
+    - quiere
+    - quieren
+    lexemes:
+    - querer
+    - sopa
+    - un-una
+  - id: u05-review-04
+    type: fill_blank
+    sentence: Me ___ los huevos.
+    translation: אני אוהב ביצים.
+    answers:
+    - gustan
+    options:
+    - gustan
+    - gusta
+    - gustar
+    lexemes:
+    - gustar
+    - huevo
+  - id: u05-review-05
+    type: multiple_choice
+    prompt: מה פירוש 'sin leche'?
+    options:
+    - בלי חלב
+    - עם חלב
+    - עם מים
+    correct: 0
+    lexemes:
+    - sin
+    - leche
+    - con
+  - id: u05-review-06
+    type: listening_choice
+    audioText: Queremos la cuenta.
+    question: מה שמעתם?
+    options:
+    - אנחנו רוצים את החשבון
+    - אני רוצה את החשבון
+    - הם רוצים את החשבון
+    correct: 0
+    lexemes:
+    - querer
+    - cuenta
+  - id: u05-review-07
+    type: word_bank
+    prompt: אני אוהב מרק.
+    answers:
+    - Me gusta la sopa.
+    distractors:
+    - gustan
+    - quiero
+    lexemes:
+    - gustar
+    - sopa
+  - id: u05-review-08
+    type: translate
+    direction: to_target
+    prompt: אני רוצה קפה בלי חלב.
+    answers:
+    - Quiero café sin leche.
+    - Quiero un café sin leche.
+    lexemes:
+    - querer
+    - cafe
+    - sin
+    - leche
+  - id: u05-review-09
+    type: translate
+    direction: to_source
+    prompt: Ella quiere pescado con arroz.
+    answers:
+    - היא רוצה דג עם אורז
+    lexemes:
+    - querer
+    - pescado
+    - arroz
+    - con
+  - id: u05-review-10
+    type: dictation
+    text: Me gusta el té con leche.
+    lexemes:
+    - gustar
+    - te
+    - con
+    - leche
+  - id: u05-review-11
+    type: speak_repeat
+    text: ¿Qué quieres? Quiero pollo.
+    translation: מה אתה רוצה? אני רוצה עוף.
+    lexemes:
+    - que
+    - querer
+    - pollo
