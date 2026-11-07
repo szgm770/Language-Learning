@@ -1,0 +1,1377 @@
+id: u10-ciudad
+cefr: A1
+scene: town
+title:
+  he: 'בעיר: איך מגיעים?'
+  en: In the city
+story: יום שישי בבוקר. יעל יוצאת לבית הכנסת ולחנות כשרה, ואין לה מפה. היא לומדת לשאול איך מגיעים, להבין הוראות, ולהגיד לאן היא הולכת. בסוף היחידה מחכה מבחן הרמה של A1.
+canDo:
+- 'לומר לאן אני הולך עם ir: voy a…'
+- 'לשאול איך מגיעים: ¿Cómo llego a…?'
+- 'להבין הוראות: derecha, izquierda, todo recto'
+- לדבר על מקומות בעיר ועל תחבורה
+vocabulary:
+- id: ir
+  text: ir
+  translation: ללכת, לנסוע
+  pos: verb
+  example:
+    text: Voy a la oficina.
+    translation: אני הולך למשרד.
+- id: a
+  text: a
+  translation: ל־, אל
+  pos: preposition
+- id: calle
+  text: la calle
+  translation: רחוב
+  pos: noun
+- id: plaza
+  text: la plaza
+  translation: כיכר
+  pos: noun
+- id: esquina
+  text: la esquina
+  translation: פינה
+  pos: noun
+- id: sinagoga
+  text: la sinagoga
+  translation: בית כנסת
+  pos: noun
+- id: farmacia
+  text: la farmacia
+  translation: בית מרקחת
+  pos: noun
+- id: estacion
+  text: la estación
+  translation: תחנה
+  pos: noun
+- id: autobus
+  text: el autobús
+  translation: אוטובוס
+  pos: noun
+- id: metro
+  text: el metro
+  translation: רכבת תחתית
+  pos: noun
+- id: derecha
+  text: a la derecha
+  translation: ימינה
+  pos: phrase
+- id: izquierda
+  text: a la izquierda
+  translation: שמאלה
+  pos: phrase
+- id: todo-recto
+  text: todo recto
+  translation: ישר
+  pos: phrase
+- id: como-llego
+  text: ¿cómo llego a…?
+  translation: איך מגיעים ל־…?
+  pos: phrase
+- id: doblar
+  text: doblar
+  translation: לפנות
+  pos: verb
+- id: cruzar
+  text: cruzar
+  translation: לחצות
+  pos: verb
+- id: mapa-ciudad
+  text: la ciudad
+  translation: העיר
+  pos: noun
+- id: lejos-cerca
+  text: a cinco minutos
+  translation: במרחק חמש דקות
+  pos: phrase
+grammar:
+- id: ir-presente
+  title:
+    he: הפועל ir והמילית a
+    en: The verb ir and a
+  explanation: '**ir** = "ללכת / לנסוע". הוא פועל חריג לגמרי, וצריך לשנן אותו:
+
+
+    | כינוי | ir |
+
+    |---|---|
+
+    | yo | **voy** |
+
+    | tú | **vas** |
+
+    | él / ella / usted | **va** |
+
+    | nosotros | **vamos** |
+
+    | ellos / ustedes | **van** |
+
+
+    אחרי ir אומרים **a** ("ל־"): *Voy **a** la sinagoga.*
+
+    כש־a פוגש את **el**, הם מתחברים ל־**al**: *Voy **al** mercado* (לא a el mercado). ל־la, los, las לא קורה כלום: *a la calle, a los museos.*
+
+
+    **כיוונים:** *a la derecha* (ימינה), *a la izquierda* (שמאלה), *todo recto* (ישר). פעלים שימושיים: **doblar** (לפנות), **cruzar** (לחצות), **caminar**.
+
+    **איך מגיעים?** → **¿Cómo llego a la sinagoga?** ("llego" מ־llegar).
+
+
+    **ir a + פועל** פירושו ''עומד ל־'': *Voy a comer* (אני הולך לאכול, או: אני אוכל בקרוב).'
+  examples:
+  - text: Voy a la sinagoga el viernes por la noche.
+    translation: אני הולכת לבית הכנסת בליל שישי.
+  - text: Cruzas la calle y doblas a la derecha.
+    translation: חוצים את הרחוב ופונים ימינה.
+  - text: Vamos al mercado.
+    translation: אנחנו הולכים לשוק.
+lessons:
+- id: u10-l1
+  kind: new
+  title:
+    he: מקומות בעיר
+    en: Places in the city
+  exercises:
+  - id: u10-l1-01
+    type: dialogue
+    scene: יום שישי בבוקר, ברחוב.
+    lines:
+    - speaker: yael
+      text: Perdón, señor. ¿Cómo llego a la sinagoga?
+      translation: סליחה, אדוני. איך מגיעים לבית הכנסת?
+    - speaker: ricardo
+      text: Es fácil. Va todo recto y dobla a la derecha en la esquina.
+      translation: זה קל. ממשיכה ישר ופונה ימינה בפינה.
+    - speaker: yael
+      text: ¿Está lejos?
+      translation: זה רחוק?
+    - speaker: ricardo
+      text: No, está a cinco minutos. Cerca de la plaza.
+      translation: לא, זה במרחק חמש דקות. ליד הכיכר.
+  - id: u10-l1-02
+    type: learn
+    lexeme: calle
+  - id: u10-l1-03
+    type: learn
+    lexeme: plaza
+  - id: u10-l1-04
+    type: learn
+    lexeme: esquina
+  - id: u10-l1-05
+    type: learn
+    lexeme: sinagoga
+  - id: u10-l1-06
+    type: learn
+    lexeme: farmacia
+  - id: u10-l1-07
+    type: learn
+    lexeme: estacion
+  - id: u10-l1-08
+    type: learn
+    lexeme: autobus
+  - id: u10-l1-09
+    type: learn
+    lexeme: metro
+  - id: u10-l1-10
+    type: learn
+    lexeme: mapa-ciudad
+  - id: u10-l1-11
+    type: match_pairs
+    pairs:
+    - - la calle
+      - רחוב
+    - - la plaza
+      - כיכר
+    - - la esquina
+      - פינה
+    - - la ciudad
+      - העיר
+    - - la sinagoga
+      - בית כנסת
+    lexemes:
+    - calle
+    - plaza
+    - esquina
+    - mapa-ciudad
+    - sinagoga
+  - id: u10-l1-12
+    type: match_pairs
+    pairs:
+    - - la farmacia
+      - בית מרקחת
+    - - la estación
+      - תחנה
+    - - el autobús
+      - אוטובוס
+    - - el metro
+      - רכבת תחתית
+    - - el banco
+      - בנק
+    lexemes:
+    - farmacia
+    - estacion
+    - autobus
+    - metro
+    - banco
+  - id: u10-l1-13
+    type: multiple_choice
+    prompt: מה פירוש 'la sinagoga'?
+    options:
+    - בית כנסת
+    - בית ספר
+    - בית חולים
+    correct: 0
+    lexemes:
+    - sinagoga
+    - hospital
+  - id: u10-l1-14
+    type: multiple_choice
+    prompt: איך אומרים 'רחוב'?
+    options:
+    - la calle
+    - la plaza
+    - la esquina
+    correct: 0
+    lexemes:
+    - calle
+    - plaza
+    - esquina
+  - id: u10-l1-15
+    type: multiple_choice
+    prompt: איך אומרים 'אוטובוס'?
+    options:
+    - el autobús
+    - el metro
+    - el taxi
+    correct: 0
+    lexemes:
+    - autobus
+    - metro
+    - taxi
+  - id: u10-l1-16
+    type: listening_choice
+    audioText: la farmacia
+    question: מה שמעתם?
+    options:
+    - בית המרקחת
+    - הבנק
+    - התחנה
+    correct: 0
+    lexemes:
+    - farmacia
+    - banco
+    - estacion
+  - id: u10-l1-17
+    type: listening_choice
+    audioText: el metro
+    question: מה שמעתם?
+    options:
+    - הרכבת התחתית
+    - האוטובוס
+    - המונית
+    correct: 0
+    lexemes:
+    - metro
+    - autobus
+    - taxi
+  - id: u10-l1-18
+    type: translate
+    direction: to_target
+    prompt: הרחוב והכיכר
+    answers:
+    - la calle y la plaza
+    lexemes:
+    - calle
+    - plaza
+    - y
+  - id: u10-l1-19
+    type: translate
+    direction: to_source
+    prompt: la estación de autobús
+    answers:
+    - תחנת האוטובוס
+    - תחנת אוטובוס
+    lexemes:
+    - estacion
+    - autobus
+  - id: u10-l1-20
+    type: dictation
+    text: la plaza y la esquina
+    lexemes:
+    - plaza
+    - esquina
+  - id: u10-l1-21
+    type: speak_repeat
+    text: La sinagoga está cerca de la plaza.
+    translation: בית הכנסת קרוב לכיכר.
+    lexemes:
+    - sinagoga
+    - estar
+    - cerca
+    - plaza
+- id: u10-l2
+  kind: new
+  title:
+    he: כיוונים
+    en: Directions
+  exercises:
+  - id: u10-l2-01
+    type: learn
+    lexeme: ir
+  - id: u10-l2-02
+    type: learn
+    lexeme: a
+  - id: u10-l2-03
+    type: learn
+    lexeme: derecha
+  - id: u10-l2-04
+    type: learn
+    lexeme: izquierda
+  - id: u10-l2-05
+    type: learn
+    lexeme: todo-recto
+  - id: u10-l2-06
+    type: learn
+    lexeme: como-llego
+  - id: u10-l2-07
+    type: learn
+    lexeme: doblar
+  - id: u10-l2-08
+    type: learn
+    lexeme: cruzar
+  - id: u10-l2-09
+    type: learn
+    lexeme: lejos-cerca
+  - id: u10-l2-10
+    type: tip
+    title: 'אל תבלבלו: a ו־ha'
+    text: 'בספרדית **a** (ל־) כתובה בלי h. המילה *ha* היא פועל עזר שנלמד בהמשך, ולא נשתמש בה כרגע.
+
+      '
+  - id: u10-l2-11
+    type: match_pairs
+    pairs:
+    - - a la derecha
+      - ימינה
+    - - a la izquierda
+      - שמאלה
+    - - todo recto
+      - ישר
+    - - doblar
+      - לפנות
+    - - cruzar
+      - לחצות
+    lexemes:
+    - derecha
+    - izquierda
+    - todo-recto
+    - doblar
+    - cruzar
+  - id: u10-l2-12
+    type: multiple_choice
+    prompt: מה פירוש 'todo recto'?
+    options:
+    - ישר
+    - ימינה
+    - שמאלה
+    correct: 0
+    lexemes:
+    - todo-recto
+    - derecha
+    - izquierda
+  - id: u10-l2-13
+    type: multiple_choice
+    prompt: איך שואלים 'איך מגיעים לבנק?'
+    options:
+    - ¿Cómo llego al banco?
+    - ¿Dónde llego al banco?
+    - ¿Qué llego al banco?
+    correct: 0
+    lexemes:
+    - como-llego
+    - banco
+  - id: u10-l2-14
+    type: multiple_choice
+    prompt: מה פירוש 'Dobla a la izquierda'?
+    options:
+    - פנה שמאלה
+    - חצה ישר
+    - פנה ימינה
+    correct: 0
+    lexemes:
+    - doblar
+    - izquierda
+    - derecha
+  - id: u10-l2-15
+    type: listening_choice
+    audioText: Cruza la calle.
+    question: מה אומרים לכם?
+    options:
+    - חצו את הרחוב
+    - פנו ימינה
+    - לכו ישר
+    correct: 0
+    lexemes:
+    - cruzar
+    - calle
+    - derecha
+    - todo-recto
+  - id: u10-l2-16
+    type: listening_choice
+    audioText: Está a cinco minutos.
+    question: מה שמעתם?
+    options:
+    - זה במרחק חמש דקות
+    - זה רחוק מאוד
+    - זה קרוב מאוד
+    correct: 0
+    lexemes:
+    - lejos-cerca
+    - cinco
+    - lejos
+    - cerca
+  - id: u10-l2-17
+    type: fill_blank
+    sentence: Dobla ___ la derecha.
+    translation: פנה ימינה.
+    answers:
+    - a
+    options:
+    - a
+    - en
+    - de
+    lexemes:
+    - doblar
+    - derecha
+    - a
+  - id: u10-l2-18
+    type: fill_blank
+    sentence: Cruzas la ___ y llegas a la plaza.
+    translation: חוצים את הרחוב ומגיעים לכיכר.
+    answers:
+    - calle
+    options:
+    - calle
+    - puerta
+    - mesa
+    lexemes:
+    - cruzar
+    - calle
+    - llegar
+    - plaza
+  - id: u10-l2-19
+    type: word_bank
+    prompt: איך מגיעים לבית הכנסת?
+    answers:
+    - ¿Cómo llego a la sinagoga?
+    distractors:
+    - Dónde
+    - hay
+    lexemes:
+    - como-llego
+    - sinagoga
+  - id: u10-l2-20
+    type: translate
+    direction: to_target
+    prompt: פנו שמאלה.
+    answers:
+    - Doble a la izquierda.
+    - Dobla a la izquierda.
+    lexemes:
+    - doblar
+    - izquierda
+  - id: u10-l2-21
+    type: translate
+    direction: to_target
+    prompt: זה ישר.
+    answers:
+    - Es todo recto.
+    - Está todo recto.
+    lexemes:
+    - todo-recto
+  - id: u10-l2-22
+    type: translate
+    direction: to_source
+    prompt: Cruzo la plaza.
+    answers:
+    - אני חוצה את הכיכר
+    - אני חוצה את הכיכר.
+    lexemes:
+    - cruzar
+    - plaza
+  - id: u10-l2-23
+    type: dictation
+    text: Todo recto y a la derecha.
+    lexemes:
+    - todo-recto
+    - derecha
+- id: u10-l3
+  kind: grammar
+  title:
+    he: הפועל ir
+    en: The verb ir
+  grammar: ir-presente
+  exercises:
+  - id: u10-l3-01
+    type: fill_blank
+    sentence: Yo ___ a la sinagoga.
+    translation: אני הולכת לבית הכנסת.
+    answers:
+    - voy
+    options:
+    - voy
+    - vas
+    - va
+    lexemes:
+    - ir
+    - sinagoga
+  - id: u10-l3-02
+    type: fill_blank
+    sentence: ¿Tú ___ al mercado?
+    translation: אתה הולך לשוק?
+    answers:
+    - vas
+    options:
+    - vas
+    - voy
+    - van
+    lexemes:
+    - ir
+    - mercado
+  - id: u10-l3-03
+    type: fill_blank
+    sentence: Ella ___ a la farmacia.
+    translation: היא הולכת לבית המרקחת.
+    answers:
+    - va
+    options:
+    - va
+    - vas
+    - van
+    lexemes:
+    - ir
+    - farmacia
+  - id: u10-l3-04
+    type: fill_blank
+    sentence: Nosotros ___ a la plaza.
+    translation: אנחנו הולכים לכיכר.
+    answers:
+    - vamos
+    options:
+    - vamos
+    - van
+    - voy
+    lexemes:
+    - ir
+    - plaza
+  - id: u10-l3-05
+    type: fill_blank
+    sentence: Ellos ___ en autobús.
+    translation: הם נוסעים באוטובוס.
+    answers:
+    - van
+    options:
+    - van
+    - va
+    - vamos
+    lexemes:
+    - ir
+    - autobus
+  - id: u10-l3-06
+    type: fill_blank
+    sentence: Voy ___ banco. (a + el)
+    translation: אני הולכת לבנק.
+    answers:
+    - al
+    options:
+    - al
+    - a el
+    - del
+    lexemes:
+    - ir
+    - banco
+  - id: u10-l3-07
+    type: fill_blank
+    sentence: Vamos ___ la oficina.
+    translation: אנחנו הולכים למשרד.
+    answers:
+    - a
+    options:
+    - a
+    - al
+    - en
+    lexemes:
+    - ir
+    - oficina
+  - id: u10-l3-08
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Voy al mercado.
+    - Voy a el mercado.
+    - Voy el mercado.
+    correct: 0
+    lexemes:
+    - ir
+    - mercado
+  - id: u10-l3-09
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Vamos a la plaza.
+    - Vamos la plaza.
+    - Vamos en plaza.
+    correct: 0
+    lexemes:
+    - ir
+    - plaza
+  - id: u10-l3-10
+    type: multiple_choice
+    prompt: מה פירוש 'Voy a comer'?
+    options:
+    - אני הולך לאכול
+    - אני אכלתי
+    - אני לא אוכל
+    correct: 0
+    lexemes:
+    - ir
+    - comer
+  - id: u10-l3-11
+    type: word_bank
+    prompt: אני הולך לבית הכנסת.
+    answers:
+    - Voy a la sinagoga.
+    distractors:
+    - Va
+    - al
+    lexemes:
+    - ir
+    - sinagoga
+  - id: u10-l3-12
+    type: word_bank
+    prompt: אנחנו הולכים לשוק.
+    answers:
+    - Vamos al mercado.
+    distractors:
+    - Voy
+    - a la
+    lexemes:
+    - ir
+    - mercado
+  - id: u10-l3-13
+    type: translate
+    direction: to_target
+    prompt: אתה הולך למשרד?
+    answers:
+    - ¿Vas a la oficina?
+    - ¿Vas a la oficina hoy?
+    lexemes:
+    - ir
+    - oficina
+  - id: u10-l3-14
+    type: translate
+    direction: to_target
+    prompt: הם הולכים לבית המרקחת.
+    answers:
+    - Van a la farmacia.
+    - Ellos van a la farmacia.
+    lexemes:
+    - ir
+    - farmacia
+  - id: u10-l3-15
+    type: translate
+    direction: to_source
+    prompt: Mateo va a la estación.
+    answers:
+    - מתאו הולך לתחנה
+    lexemes:
+    - ir
+    - estacion
+  - id: u10-l3-16
+    type: translate
+    direction: to_source
+    prompt: ¿Cómo llego al mercado?
+    answers:
+    - איך מגיעים לשוק?
+    lexemes:
+    - como-llego
+    - mercado
+- id: u10-l4
+  kind: listening
+  title:
+    he: שואלים בדרך
+    en: Asking the way
+  exercises:
+  - id: u10-l4-01
+    type: dialogue
+    scene: יעל עוצרת אישה ברחוב.
+    lines:
+    - speaker: yael
+      text: Perdón, ¿dónde está la farmacia?
+      translation: סליחה, איפה בית המרקחת?
+    - speaker: carmen
+      text: Está en la plaza. Cruzas la calle y doblas a la izquierda.
+      translation: הוא בכיכר. חוצים את הרחוב ופונים שמאלה.
+    - speaker: yael
+      text: ¿Y la tienda kosher?
+      translation: ואיפה החנות הכשרה?
+    - speaker: carmen
+      text: Está cerca de la sinagoga, a diez minutos. Vas en autobús o caminas.
+      translation: היא קרובה לבית הכנסת, במרחק עשר דקות. נוסעים באוטובוס או הולכים ברגל.
+  - id: u10-l4-02
+    type: multiple_choice
+    prompt: איך מגיעים לבית המרקחת?
+    options:
+    - חוצים ופונים שמאלה
+    - ישר ופונים ימינה
+    - נוסעים במטרו
+    correct: 0
+    lexemes:
+    - farmacia
+    - cruzar
+    - doblar
+    - izquierda
+    - derecha
+    - metro
+  - id: u10-l4-03
+    type: multiple_choice
+    prompt: איפה החנות הכשרה?
+    options:
+    - ליד בית הכנסת
+    - בכיכר
+    - ליד המשרד
+    correct: 0
+    lexemes:
+    - tienda
+    - kosher
+    - sinagoga
+    - plaza
+    - oficina
+  - id: u10-l4-04
+    type: multiple_choice
+    prompt: איך מגיעים לחנות?
+    options:
+    - באוטובוס או ברגל
+    - רק במטרו
+    - במונית
+    correct: 0
+    lexemes:
+    - autobus
+    - caminar
+    - metro
+    - taxi
+  - id: u10-l4-05
+    type: listening_choice
+    audioText: Dobla a la derecha en la esquina.
+    question: מה עושים?
+    options:
+    - פונים ימינה בפינה
+    - חוצים את הכיכר
+    - הולכים ישר
+    correct: 0
+    lexemes:
+    - doblar
+    - derecha
+    - esquina
+    - plaza
+    - todo-recto
+  - id: u10-l4-06
+    type: listening_choice
+    audioText: Voy a la estación en metro.
+    question: איך נוסעים?
+    options:
+    - ברכבת תחתית
+    - באוטובוס
+    - ברגל
+    correct: 0
+    lexemes:
+    - ir
+    - estacion
+    - metro
+    - autobus
+    - caminar
+  - id: u10-l4-07
+    type: dictation
+    text: Cruzo la calle y voy a la plaza.
+    lexemes:
+    - cruzar
+    - calle
+    - ir
+    - plaza
+  - id: u10-l4-08
+    type: translate
+    direction: to_target
+    prompt: איפה בית המרקחת?
+    answers:
+    - ¿Dónde está la farmacia?
+    lexemes:
+    - donde
+    - estar
+    - farmacia
+  - id: u10-l4-09
+    type: speak_repeat
+    text: Voy a la sinagoga en autobús.
+    translation: אני נוסעת לבית הכנסת באוטובוס.
+    lexemes:
+    - ir
+    - sinagoga
+    - autobus
+- id: u10-l5
+  kind: reading
+  title:
+    he: ביום שישי בעיר
+    en: Friday in the city
+  exercises:
+  - id: u10-l5-01
+    type: reading
+    kind: סיפור
+    title: Un viernes en la ciudad
+    text: 'Hoy es viernes. Yael va a la oficina temprano y trabaja hasta las dos.
+
+      Después va a la tienda kosher: camina cinco minutos, cruza la plaza y dobla a la derecha.
+
+      Compra pan y pescado para la cena de Shabat. Por la tarde va a la sinagoga con Doña Carmen.
+
+      '
+    translation: 'היום יום שישי. יעל הולכת למשרד מוקדם ועובדת עד שתיים.
+
+      אחר כך היא הולכת לחנות הכשרה: הולכת חמש דקות, חוצה את הכיכר ופונה ימינה.
+
+      היא קונה לחם ודג לסעודת שבת. אחר הצהריים היא הולכת לבית הכנסת עם דוניה כרמן.
+
+      '
+  - id: u10-l5-02
+    type: multiple_choice
+    prompt: מה יעל קונה?
+    options:
+    - לחם ודג
+    - עוף וסלט
+    - ספר
+    correct: 0
+    lexemes:
+    - comprar
+    - pan
+    - pescado
+    - pollo
+    - ensalada
+    - libro
+  - id: u10-l5-03
+    type: multiple_choice
+    prompt: עם מי היא הולכת לבית הכנסת?
+    options:
+    - עם דוניה כרמן
+    - עם מתאו
+    - לבד
+    correct: 0
+    lexemes:
+    - sinagoga
+  - id: u10-l5-04
+    type: fill_blank
+    sentence: Yael va a la oficina ___.
+    translation: יעל הולכת למשרד מוקדם.
+    answers:
+    - temprano
+    options:
+    - temprano
+    - tarde
+    - lejos
+    lexemes:
+    - ir
+    - oficina
+    - temprano
+  - id: u10-l5-05
+    type: translate
+    direction: to_target
+    prompt: אני הולך לשוק ביום שישי.
+    answers:
+    - Voy al mercado el viernes.
+    lexemes:
+    - ir
+    - mercado
+    - viernes
+- id: u10-review
+  kind: review
+  title:
+    he: 'חזרה: בעיר'
+    en: 'Review: in the city'
+  exercises:
+  - id: u10-review-01
+    type: match_pairs
+    pairs:
+    - - la calle
+      - רחוב
+    - - la plaza
+      - כיכר
+    - - la farmacia
+      - בית מרקחת
+    - - la estación
+      - תחנה
+    - - el metro
+      - רכבת תחתית
+    lexemes:
+    - calle
+    - plaza
+    - farmacia
+    - estacion
+    - metro
+  - id: u10-review-02
+    type: match_pairs
+    pairs:
+    - - a la derecha
+      - ימינה
+    - - a la izquierda
+      - שמאלה
+    - - todo recto
+      - ישר
+    - - doblar
+      - לפנות
+    - - cruzar
+      - לחצות
+    lexemes:
+    - derecha
+    - izquierda
+    - todo-recto
+    - doblar
+    - cruzar
+  - id: u10-review-03
+    type: fill_blank
+    sentence: Nosotros ___ al banco.
+    translation: אנחנו הולכים לבנק.
+    answers:
+    - vamos
+    options:
+    - vamos
+    - van
+    - voy
+    lexemes:
+    - ir
+    - banco
+  - id: u10-review-04
+    type: fill_blank
+    sentence: ¿Cómo ___ a la sinagoga?
+    translation: איך מגיעים לבית הכנסת?
+    answers:
+    - llego
+    options:
+    - llego
+    - llega
+    - llegas
+    lexemes:
+    - como-llego
+    - sinagoga
+  - id: u10-review-05
+    type: listening_choice
+    audioText: Voy al mercado el domingo.
+    question: מתי אני הולך לשוק?
+    options:
+    - ביום ראשון
+    - בשבת
+    - ביום שישי
+    correct: 0
+    lexemes:
+    - ir
+    - mercado
+    - domingo
+    - sabado
+    - viernes
+  - id: u10-review-06
+    type: multiple_choice
+    prompt: מה פירוש 'Cruzas la calle'?
+    options:
+    - חוצים את הרחוב
+    - פונים בפינה
+    - הולכים הביתה
+    correct: 0
+    lexemes:
+    - cruzar
+    - calle
+    - doblar
+  - id: u10-review-07
+    type: word_bank
+    prompt: אני הולכת לבית המרקחת.
+    answers:
+    - Voy a la farmacia.
+    distractors:
+    - Vas
+    - al
+    lexemes:
+    - ir
+    - farmacia
+  - id: u10-review-08
+    type: translate
+    direction: to_target
+    prompt: איפה התחנה?
+    answers:
+    - ¿Dónde está la estación?
+    lexemes:
+    - donde
+    - estar
+    - estacion
+  - id: u10-review-09
+    type: translate
+    direction: to_source
+    prompt: Doblo a la izquierda.
+    answers:
+    - אני פונה שמאלה
+    - אני פונה שמאלה.
+    lexemes:
+    - doblar
+    - izquierda
+  - id: u10-review-10
+    type: dictation
+    text: Voy a la plaza.
+    lexemes:
+    - ir
+    - plaza
+  - id: u10-review-11
+    type: speak_repeat
+    text: ¿Cómo llego a la estación?
+    translation: איך מגיעים לתחנה?
+    lexemes:
+    - como-llego
+    - estacion
+- id: a1-test
+  kind: test
+  title:
+    he: מבחן רמה A1
+    en: A1 level test
+  exercises:
+  - id: a1-test-01
+    type: multiple_choice
+    prompt: איך אומרים 'אני ישראלי'?
+    options:
+    - Soy israelí.
+    - Estoy israelí.
+    - Tengo israelí.
+    correct: 0
+    lexemes:
+    - ser
+    - israeli
+  - id: a1-test-02
+    type: multiple_choice
+    prompt: איך שואלים 'מאיפה אתה?'
+    options:
+    - ¿De dónde eres?
+    - ¿Cómo eres?
+    - ¿Dónde estás?
+    correct: 0
+    lexemes:
+    - de-donde
+    - ser
+  - id: a1-test-03
+    type: fill_blank
+    sentence: Mateo ___ mexicano.
+    translation: מתאו מקסיקני.
+    answers:
+    - es
+    options:
+    - es
+    - está
+    - tiene
+    lexemes:
+    - ser
+    - mexicano
+  - id: a1-test-04
+    type: fill_blank
+    sentence: Yo ___ veinte años.
+    translation: אני בן עשרים.
+    answers:
+    - tengo
+    options:
+    - tengo
+    - soy
+    - estoy
+    lexemes:
+    - tener
+    - veinte
+    - ano
+  - id: a1-test-05
+    type: multiple_choice
+    prompt: איך אומרים 'האחים שלי'?
+    options:
+    - mis hermanos
+    - mi hermanos
+    - tus hermano
+    correct: 0
+    lexemes:
+    - mi
+    - hermano
+  - id: a1-test-06
+    type: fill_blank
+    sentence: Ella ___ pescado con arroz.
+    translation: היא רוצה דג עם אורז.
+    answers:
+    - quiere
+    options:
+    - quiere
+    - quieren
+    - quieres
+    lexemes:
+    - querer
+    - pescado
+    - arroz
+  - id: a1-test-07
+    type: multiple_choice
+    prompt: מה פירוש 'Me gusta el té'?
+    options:
+    - אני אוהב תה
+    - אני רוצה תה
+    - יש לי תה
+    correct: 0
+    lexemes:
+    - gustar
+    - te
+    - querer
+    - tener
+  - id: a1-test-08
+    type: multiple_choice
+    prompt: מה פירוש '¿Cuánto cuesta el libro?'
+    options:
+    - כמה עולה הספר?
+    - כמה שנים לספר?
+    - איפה הספר?
+    correct: 0
+    lexemes:
+    - cuanto-cuesta
+    - libro
+  - id: a1-test-09
+    type: fill_blank
+    sentence: Los zapatos cuestan ___ pesos.
+    translation: הנעליים עולות שמונים פסו.
+    answers:
+    - ochenta
+    options:
+    - ochenta
+    - ocho
+    - dieciocho
+    lexemes:
+    - zapatos
+    - ochenta
+    - peso
+  - id: a1-test-10
+    type: fill_blank
+    sentence: En la cocina ___ una mesa.
+    translation: במטבח יש שולחן.
+    answers:
+    - hay
+    options:
+    - hay
+    - está
+    - es
+    lexemes:
+    - hay
+    - cocina
+    - mesa
+  - id: a1-test-11
+    type: fill_blank
+    sentence: La mezuzá ___ en la puerta.
+    translation: המזוזה נמצאת על הדלת.
+    answers:
+    - está
+    options:
+    - está
+    - hay
+    - es
+    lexemes:
+    - mezuza
+    - estar
+    - puerta
+  - id: a1-test-12
+    type: fill_blank
+    sentence: Nosotros ___ español.
+    translation: אנחנו מדברים ספרדית.
+    answers:
+    - hablamos
+    options:
+    - hablamos
+    - hablan
+    - habla
+    lexemes:
+    - hablar
+    - espanol-lengua
+  - id: a1-test-13
+    type: fill_blank
+    sentence: Yo no ___ el sábado.
+    translation: אני לא עובד בשבת.
+    answers:
+    - trabajo
+    options:
+    - trabajo
+    - trabaja
+    - trabajas
+    lexemes:
+    - trabajar
+    - sabado
+  - id: a1-test-14
+    type: fill_blank
+    sentence: Ellos ___ en México.
+    translation: הם גרים במקסיקו.
+    answers:
+    - viven
+    options:
+    - viven
+    - vive
+    - vivimos
+    lexemes:
+    - vivir
+    - mexico
+  - id: a1-test-15
+    type: multiple_choice
+    prompt: מה השעה? 'Son las tres y media'
+    options:
+    - '3:30'
+    - '3:15'
+    - '2:30'
+    correct: 0
+    lexemes:
+    - son-las
+    - tres
+    - media
+  - id: a1-test-16
+    type: fill_blank
+    sentence: La reunión es ___ las nueve.
+    translation: הפגישה בתשע.
+    answers:
+    - a
+    options:
+    - a
+    - en
+    - de
+    lexemes:
+    - reunion
+    - a-las
+    - nueve
+  - id: a1-test-17
+    type: fill_blank
+    sentence: Nosotros ___ a la sinagoga.
+    translation: אנחנו הולכים לבית הכנסת.
+    answers:
+    - vamos
+    options:
+    - vamos
+    - van
+    - voy
+    lexemes:
+    - ir
+    - sinagoga
+  - id: a1-test-18
+    type: multiple_choice
+    prompt: איך אומרים 'פנה ימינה'?
+    options:
+    - Dobla a la derecha.
+    - Cruza la derecha.
+    - Come a la derecha.
+    correct: 0
+    lexemes:
+    - doblar
+    - derecha
+  - id: a1-test-19
+    type: word_bank
+    prompt: אני רוצה קפה בלי חלב.
+    answers:
+    - Quiero café sin leche.
+    distractors:
+    - Tengo
+    - con
+    lexemes:
+    - querer
+    - cafe
+    - sin
+    - leche
+  - id: a1-test-20
+    type: word_bank
+    prompt: יש לי שני אחים.
+    answers:
+    - Tengo dos hermanos.
+    distractors:
+    - Soy
+    - tres
+    lexemes:
+    - tener
+    - dos
+    - hermano
+  - id: a1-test-21
+    type: translate
+    direction: to_target
+    prompt: איפה השירותים?
+    answers:
+    - ¿Dónde está el baño?
+    lexemes:
+    - donde
+    - estar
+    - bano
+  - id: a1-test-22
+    type: translate
+    direction: to_target
+    prompt: אני גר קרוב למשרד.
+    answers:
+    - Vivo cerca de la oficina.
+    lexemes:
+    - vivir
+    - cerca
+    - oficina
+  - id: a1-test-23
+    type: translate
+    direction: to_source
+    prompt: Mi madre es muy simpática.
+    answers:
+    - אמא שלי נחמדה מאוד
+    lexemes:
+    - mi
+    - madre
+    - simpatico
+  - id: a1-test-24
+    type: translate
+    direction: to_source
+    prompt: ¿Cómo llego a la plaza?
+    answers:
+    - איך מגיעים לכיכר?
+    lexemes:
+    - como-llego
+    - plaza
+  - id: a1-test-25
+    type: listening_choice
+    audioText: Son las ocho y cuarto.
+    question: מה השעה?
+    options:
+    - שמונה ורבע
+    - שמונה וחצי
+    - תשע ורבע
+    correct: 0
+    lexemes:
+    - son-las
+    - ocho
+    - cuarto-hora
+    - media
+    - nueve
+  - id: a1-test-26
+    type: listening_choice
+    audioText: Cuesta cuarenta y cinco pesos.
+    question: כמה זה עולה?
+    options:
+    - 45 פסו
+    - 54 פסו
+    - 40 פסו
+    correct: 0
+    lexemes:
+    - costar
+    - cuarenta
+    - cinco
+    - peso
+  - id: a1-test-27
+    type: dictation
+    text: Voy a la farmacia.
+    lexemes:
+    - ir
+    - farmacia
+  - id: a1-test-28
+    type: speak_repeat
+    text: Soy de Israel y vivo en México.
+    translation: אני מישראל וגרה במקסיקו.
+    lexemes:
+    - ser
+    - israel
+    - vivir
+    - mexico

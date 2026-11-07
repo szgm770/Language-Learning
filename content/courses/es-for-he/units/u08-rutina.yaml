@@ -1,0 +1,1043 @@
+id: u08-rutina
+cefr: A1
+scene: day
+title:
+  he: היום שלי
+  en: My day
+story: 'שבוע בחייה של יעל: עבודה, לימוד ספרדית, הליכה ברחוב, ארוחת ערב. היא לומדת את הפעלים הרגילים שמסתיימים ב־ar, את ימות השבוע, ושמה שבת קודש כבר שם: sábado הוא Shabat.'
+canDo:
+- לספר מה אני עושה ביום רגיל
+- 'להטות פעלים רגילים ב־ar: trabajo, trabajas, trabaja…'
+- לומר את ימות השבוע
+- לשלול משפט עם no
+vocabulary:
+- id: lunes
+  text: el lunes
+  translation: יום שני
+  pos: noun
+- id: martes
+  text: el martes
+  translation: יום שלישי
+  pos: noun
+- id: miercoles
+  text: el miércoles
+  translation: יום רביעי
+  pos: noun
+- id: jueves
+  text: el jueves
+  translation: יום חמישי
+  pos: noun
+- id: viernes
+  text: el viernes
+  translation: יום שישי
+  pos: noun
+- id: sabado
+  text: el sábado
+  translation: יום שבת (שבת)
+  pos: noun
+- id: domingo
+  text: el domingo
+  translation: יום ראשון
+  pos: noun
+- id: trabajar
+  text: trabajar
+  translation: לעבוד
+  pos: verb
+  example:
+    text: Trabajo en la oficina.
+    translation: אני עובד במשרד.
+- id: hablar
+  text: hablar
+  translation: לדבר
+  pos: verb
+- id: estudiar
+  text: estudiar
+  translation: ללמוד
+  pos: verb
+- id: llegar
+  text: llegar
+  translation: להגיע
+  pos: verb
+- id: caminar
+  text: caminar
+  translation: ללכת ברגל
+  pos: verb
+- id: desayunar
+  text: desayunar
+  translation: לאכול ארוחת בוקר
+  pos: verb
+- id: cenar
+  text: cenar
+  translation: לאכול ארוחת ערב
+  pos: verb
+- id: necesitar
+  text: necesitar
+  translation: להזדקק ל־, לצטרך
+  pos: verb
+- id: llamar
+  text: llamar
+  translation: להתקשר, לקרוא
+  pos: verb
+- id: manana-dia
+  text: la mañana
+  translation: הבוקר
+  pos: noun
+- id: tarde-dia
+  text: la tarde
+  translation: אחר הצהריים
+  pos: noun
+- id: noche
+  text: la noche
+  translation: הלילה, הערב
+  pos: noun
+- id: hoy
+  text: hoy
+  translation: היום
+  pos: adverb
+- id: temprano
+  text: temprano
+  translation: מוקדם
+  pos: adverb
+- id: siempre
+  text: siempre
+  translation: תמיד
+  pos: adverb
+- id: todos-los-dias
+  text: todos los días
+  translation: כל יום
+  pos: phrase
+- id: espanol-lengua
+  text: el español
+  translation: ספרדית (השפה)
+  pos: noun
+- id: oficina
+  text: la oficina
+  translation: משרד
+  pos: noun
+grammar:
+- id: ar-presente
+  title:
+    he: פעלים רגילים ב־ar
+    en: Regular -ar verbs
+  explanation: 'רוב הפעלים בספרדית מסתיימים ב־**ar**, **er** או **ir**. הפעלים ב־**ar** הם הרגילים והנפוצים ביותר, והם כולם מוטים אותו דבר: מורידים את **ar** ומוסיפים סיומת.
+
+
+    | כינוי | סיומת | trabajar | hablar |
+
+    |---|---|---|---|
+
+    | yo | **-o** | trabajo | hablo |
+
+    | tú | **-as** | trabajas | hablas |
+
+    | él / ella / usted | **-a** | trabaja | habla |
+
+    | nosotros | **-amos** | trabajamos | hablamos |
+
+    | ellos / ustedes | **-an** | trabajan | hablan |
+
+
+    מי שמכיר עברית כבר מתרגל: גם בעברית הסיומת מספרת מי עושה (אני עובד**ת**, אנחנו עובד**ים**). לכן אפשר להשמיט את הכינוי: *Trabajo en la oficina.*
+
+    **שלילה:** מניחים **no** לפני הפועל: *No trabajo el sábado.*
+
+    **ימות השבוע** הם זכר ובלי אות גדולה. **el sábado** = "בשבת" ("ביום שבת"). המילה *sábado* באה מ־*Shabat*, ולכן בקורס הזה בשבת לא עובדים ולא עושים תוכניות: זה יום מנוחה.'
+  examples:
+  - text: Trabajo en la oficina todos los días.
+    translation: אני עובדת במשרד כל יום.
+  - text: Mateo habla español y un poco de hebreo.
+    translation: מתאו מדבר ספרדית וקצת עברית.
+  - text: No trabajamos el sábado.
+    translation: אנחנו לא עובדים בשבת.
+lessons:
+- id: u08-l1
+  kind: new
+  title:
+    he: ימות השבוע
+    en: Days of the week
+  exercises:
+  - id: u08-l1-01
+    type: dialogue
+    scene: תוכנית השבוע.
+    lines:
+    - speaker: sofia
+      text: Yael, ¿trabajas el viernes?
+      translation: יעל, את עובדת ביום שישי?
+    - speaker: yael
+      text: Sí, trabajo hasta las dos. El viernes llego temprano.
+      translation: כן, אני עובדת עד שתיים. ביום שישי אני מגיעה מוקדם.
+    - speaker: sofia
+      text: ¿Y el sábado?
+      translation: ובשבת?
+    - speaker: yael
+      text: El sábado es Shabat. No trabajo. Descanso con mi comunidad.
+      translation: שבת היא שבת. אני לא עובדת. אני נחה עם הקהילה שלי.
+  - id: u08-l1-02
+    type: tip
+    title: sábado = שבת
+    text: 'המילה הספרדית *sábado* באה מ־*Shabat* (שבת). וגם בשפות רבות אחרות: sabato (איטלקית), samedi (צרפתית). אנחנו מכירים כבר את היום הזה.
+
+      '
+  - id: u08-l1-03
+    type: learn
+    lexeme: lunes
+  - id: u08-l1-04
+    type: learn
+    lexeme: martes
+  - id: u08-l1-05
+    type: learn
+    lexeme: miercoles
+  - id: u08-l1-06
+    type: learn
+    lexeme: jueves
+  - id: u08-l1-07
+    type: learn
+    lexeme: viernes
+  - id: u08-l1-08
+    type: learn
+    lexeme: sabado
+  - id: u08-l1-09
+    type: learn
+    lexeme: domingo
+  - id: u08-l1-10
+    type: match_pairs
+    pairs:
+    - - el lunes
+      - יום שני
+    - - el martes
+      - יום שלישי
+    - - el miércoles
+      - יום רביעי
+    - - el jueves
+      - יום חמישי
+    lexemes:
+    - lunes
+    - martes
+    - miercoles
+    - jueves
+  - id: u08-l1-11
+    type: match_pairs
+    pairs:
+    - - el viernes
+      - יום שישי
+    - - el sábado
+      - שבת
+    - - el domingo
+      - יום ראשון
+    - - hoy
+      - היום
+    lexemes:
+    - viernes
+    - sabado
+    - domingo
+  - id: u08-l1-12
+    type: multiple_choice
+    prompt: איזה יום הוא 'el jueves'?
+    options:
+    - יום חמישי
+    - יום רביעי
+    - יום שישי
+    correct: 0
+    lexemes:
+    - jueves
+    - miercoles
+    - viernes
+  - id: u08-l1-13
+    type: multiple_choice
+    prompt: איך אומרים 'שבת' בספרדית?
+    options:
+    - el sábado
+    - el domingo
+    - el viernes
+    correct: 0
+    lexemes:
+    - sabado
+    - domingo
+    - viernes
+  - id: u08-l1-14
+    type: listening_choice
+    audioText: el martes
+    question: מה שמעתם?
+    options:
+    - יום שלישי
+    - יום שני
+    - יום רביעי
+    correct: 0
+    lexemes:
+    - martes
+    - lunes
+    - miercoles
+  - id: u08-l1-15
+    type: listening_choice
+    audioText: el domingo
+    question: מה שמעתם?
+    options:
+    - יום ראשון
+    - שבת
+    - יום שישי
+    correct: 0
+    lexemes:
+    - domingo
+    - sabado
+    - viernes
+  - id: u08-l1-16
+    type: translate
+    direction: to_target
+    prompt: יום ראשון
+    answers:
+    - el domingo
+    - domingo
+    lexemes:
+    - domingo
+  - id: u08-l1-17
+    type: translate
+    direction: to_source
+    prompt: el lunes y el martes
+    answers:
+    - יום שני ויום שלישי
+    lexemes:
+    - lunes
+    - martes
+    - y
+  - id: u08-l1-18
+    type: dictation
+    text: lunes, martes, miércoles
+    lexemes:
+    - lunes
+    - martes
+    - miercoles
+  - id: u08-l1-19
+    type: speak_repeat
+    text: El viernes y el sábado.
+    translation: יום שישי ושבת.
+    lexemes:
+    - viernes
+    - sabado
+- id: u08-l2
+  kind: new
+  title:
+    he: מה עושים כל יום
+    en: What you do every day
+  exercises:
+  - id: u08-l2-01
+    type: learn
+    lexeme: trabajar
+  - id: u08-l2-02
+    type: learn
+    lexeme: hablar
+  - id: u08-l2-03
+    type: learn
+    lexeme: estudiar
+  - id: u08-l2-04
+    type: learn
+    lexeme: llegar
+  - id: u08-l2-05
+    type: learn
+    lexeme: caminar
+  - id: u08-l2-06
+    type: learn
+    lexeme: desayunar
+  - id: u08-l2-07
+    type: learn
+    lexeme: cenar
+  - id: u08-l2-08
+    type: learn
+    lexeme: necesitar
+  - id: u08-l2-09
+    type: learn
+    lexeme: llamar
+  - id: u08-l2-10
+    type: learn
+    lexeme: manana-dia
+  - id: u08-l2-11
+    type: learn
+    lexeme: tarde-dia
+  - id: u08-l2-12
+    type: learn
+    lexeme: noche
+  - id: u08-l2-13
+    type: learn
+    lexeme: hoy
+  - id: u08-l2-14
+    type: learn
+    lexeme: temprano
+  - id: u08-l2-15
+    type: learn
+    lexeme: siempre
+  - id: u08-l2-16
+    type: learn
+    lexeme: todos-los-dias
+  - id: u08-l2-17
+    type: learn
+    lexeme: espanol-lengua
+  - id: u08-l2-18
+    type: learn
+    lexeme: oficina
+  - id: u08-l2-19
+    type: match_pairs
+    pairs:
+    - - trabajar
+      - לעבוד
+    - - hablar
+      - לדבר
+    - - estudiar
+      - ללמוד
+    - - caminar
+      - ללכת
+    - - llegar
+      - להגיע
+    lexemes:
+    - trabajar
+    - hablar
+    - estudiar
+    - caminar
+    - llegar
+  - id: u08-l2-20
+    type: match_pairs
+    pairs:
+    - - desayunar
+      - ארוחת בוקר
+    - - cenar
+      - ארוחת ערב
+    - - la mañana
+      - הבוקר
+    - - la tarde
+      - אחר הצהריים
+    - - la noche
+      - הערב
+    lexemes:
+    - desayunar
+    - cenar
+    - manana-dia
+    - tarde-dia
+    - noche
+  - id: u08-l2-21
+    type: multiple_choice
+    prompt: מה פירוש 'estudiar'?
+    options:
+    - ללמוד
+    - לעבוד
+    - לדבר
+    correct: 0
+    lexemes:
+    - estudiar
+    - trabajar
+    - hablar
+  - id: u08-l2-22
+    type: multiple_choice
+    prompt: איך אומרים 'כל יום'?
+    options:
+    - todos los días
+    - siempre
+    - hoy
+    correct: 0
+    lexemes:
+    - todos-los-dias
+    - siempre
+    - hoy
+  - id: u08-l2-23
+    type: multiple_choice
+    prompt: מה פירוש 'temprano'?
+    options:
+    - מוקדם
+    - מאוחר
+    - תמיד
+    correct: 0
+    lexemes:
+    - temprano
+    - siempre
+  - id: u08-l2-24
+    type: listening_choice
+    audioText: Llego a la oficina temprano.
+    question: מתי מגיעים?
+    options:
+    - מוקדם
+    - מאוחר
+    - תמיד
+    correct: 0
+    lexemes:
+    - llegar
+    - oficina
+    - temprano
+    - siempre
+  - id: u08-l2-25
+    type: listening_choice
+    audioText: Desayuno por la mañana.
+    question: מתי אוכלים ארוחת בוקר?
+    options:
+    - בבוקר
+    - בערב
+    - בצהריים
+    correct: 0
+    lexemes:
+    - desayunar
+    - manana-dia
+    - noche
+    - tarde-dia
+  - id: u08-l2-26
+    type: translate
+    direction: to_target
+    prompt: אני לומד ספרדית.
+    answers:
+    - Estudio español.
+    lexemes:
+    - estudiar
+    - espanol-lengua
+  - id: u08-l2-27
+    type: translate
+    direction: to_target
+    prompt: הוא מגיע מוקדם.
+    answers:
+    - Llega temprano.
+    - Él llega temprano.
+    lexemes:
+    - llegar
+    - temprano
+  - id: u08-l2-28
+    type: translate
+    direction: to_source
+    prompt: Cenamos con la familia.
+    answers:
+    - אנחנו אוכלים ארוחת ערב עם המשפחה
+    lexemes:
+    - cenar
+    - familia
+    - con
+  - id: u08-l2-29
+    type: translate
+    direction: to_source
+    prompt: Siempre hablo español en la oficina.
+    answers:
+    - אני תמיד מדבר ספרדית במשרד
+    - אני תמיד מדברת ספרדית במשרד
+    lexemes:
+    - siempre
+    - hablar
+    - espanol-lengua
+    - oficina
+  - id: u08-l2-30
+    type: dictation
+    text: Trabajo todos los días.
+    lexemes:
+    - trabajar
+    - todos-los-dias
+- id: u08-l3
+  kind: grammar
+  title:
+    he: הטיית פעלי ar
+    en: Conjugating -ar verbs
+  grammar: ar-presente
+  exercises:
+  - id: u08-l3-01
+    type: fill_blank
+    sentence: Yo ___ en la oficina.
+    translation: אני עובד במשרד.
+    answers:
+    - trabajo
+    options:
+    - trabajo
+    - trabajas
+    - trabaja
+    lexemes:
+    - trabajar
+    - oficina
+  - id: u08-l3-02
+    type: fill_blank
+    sentence: Tú ___ español muy bien.
+    translation: אתה מדבר ספרדית טוב מאוד.
+    answers:
+    - hablas
+    options:
+    - hablas
+    - hablo
+    - habla
+    lexemes:
+    - hablar
+    - espanol-lengua
+  - id: u08-l3-03
+    type: fill_blank
+    sentence: Dani ___ temprano.
+    translation: דני מגיע מוקדם.
+    answers:
+    - llega
+    options:
+    - llega
+    - llegas
+    - llegan
+    lexemes:
+    - llegar
+    - temprano
+  - id: u08-l3-04
+    type: fill_blank
+    sentence: Nosotros ___ todos los días.
+    translation: אנחנו לומדים כל יום.
+    answers:
+    - estudiamos
+    options:
+    - estudiamos
+    - estudian
+    - estudio
+    lexemes:
+    - estudiar
+    - todos-los-dias
+  - id: u08-l3-05
+    type: fill_blank
+    sentence: Mis padres ___ en casa.
+    translation: ההורים שלי אוכלים ארוחת ערב בבית.
+    answers:
+    - cenan
+    options:
+    - cenan
+    - cena
+    - cenamos
+    lexemes:
+    - padres
+    - cenar
+    - casa
+  - id: u08-l3-06
+    type: fill_blank
+    sentence: Yo no ___ el sábado.
+    translation: אני לא עובד בשבת.
+    answers:
+    - trabajo
+    options:
+    - trabajo
+    - trabaja
+    - trabajas
+    lexemes:
+    - trabajar
+    - sabado
+  - id: u08-l3-07
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Ella habla español.
+    - Ella hablo español.
+    - Ella hablamos español.
+    correct: 0
+    lexemes:
+    - hablar
+    - espanol-lengua
+  - id: u08-l3-08
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - No trabajo el sábado.
+    - Trabajo no el sábado.
+    - No trabajar el sábado.
+    correct: 0
+    lexemes:
+    - trabajar
+    - sabado
+  - id: u08-l3-09
+    type: multiple_choice
+    prompt: מה הסיומת של 'nosotros' בפעלי ar?
+    options:
+    - -amos
+    - -an
+    - -as
+    correct: 0
+    lexemes:
+    - trabajar
+  - id: u08-l3-10
+    type: word_bank
+    prompt: אנחנו מדברים ספרדית.
+    answers:
+    - Hablamos español.
+    distractors:
+    - Hablan
+    - hablo
+    lexemes:
+    - hablar
+    - espanol-lengua
+  - id: u08-l3-11
+    type: word_bank
+    prompt: אני לא עובד ביום ראשון.
+    answers:
+    - No trabajo el domingo.
+    distractors:
+    - trabaja
+    - lunes
+    lexemes:
+    - trabajar
+    - domingo
+  - id: u08-l3-12
+    type: translate
+    direction: to_target
+    prompt: אתה עובד כל יום?
+    answers:
+    - ¿Trabajas todos los días?
+    lexemes:
+    - trabajar
+    - todos-los-dias
+  - id: u08-l3-13
+    type: translate
+    direction: to_target
+    prompt: היא לא לומדת היום.
+    answers:
+    - No estudia hoy.
+    - Ella no estudia hoy.
+    lexemes:
+    - estudiar
+    - hoy
+  - id: u08-l3-14
+    type: translate
+    direction: to_source
+    prompt: Desayunamos temprano.
+    answers:
+    - אנחנו אוכלים ארוחת בוקר מוקדם
+    lexemes:
+    - desayunar
+    - temprano
+  - id: u08-l3-15
+    type: translate
+    direction: to_source
+    prompt: Los viernes llego temprano.
+    answers:
+    - בימי שישי אני מגיע מוקדם
+    - בימי שישי אני מגיעה מוקדם
+    - ביום שישי אני מגיע מוקדם
+    - ביום שישי אני מגיעה מוקדם
+    lexemes:
+    - viernes
+    - llegar
+    - temprano
+- id: u08-l4
+  kind: listening
+  title:
+    he: שבוע של יעל
+    en: Yael's week
+  exercises:
+  - id: u08-l4-01
+    type: dialogue
+    scene: בשיחה עם לוסיה.
+    lines:
+    - speaker: lucia
+      text: Yael, ¿qué haces por la mañana?
+      translation: יעל, מה את עושה בבוקר?
+    - speaker: yael
+      text: Desayuno temprano y camino a la oficina. Trabajo hasta la tarde.
+      translation: אני אוכלת ארוחת בוקר מוקדם והולכת ברגל למשרד. אני עובדת עד אחר הצהריים.
+    - speaker: lucia
+      text: ¿Y por la noche?
+      translation: ובערב?
+    - speaker: yael
+      text: Estudio español, hablo con mi familia y ceno. El viernes por la noche cenamos con la comunidad.
+      translation: אני לומדת ספרדית, מדברת עם המשפחה ואוכלת ארוחת ערב. בליל שישי אנחנו אוכלים עם הקהילה.
+  - id: u08-l4-02
+    type: multiple_choice
+    prompt: איך יעל מגיעה למשרד?
+    options:
+    - ברגל
+    - במונית
+    - באוטובוס
+    correct: 0
+    lexemes:
+    - caminar
+    - taxi
+  - id: u08-l4-03
+    type: multiple_choice
+    prompt: מה יעל עושה בערב?
+    options:
+    - לומדת ספרדית ומדברת עם המשפחה
+    - עובדת
+    - הולכת לשוק
+    correct: 0
+    lexemes:
+    - estudiar
+    - hablar
+    - familia
+    - trabajar
+    - mercado
+  - id: u08-l4-04
+    type: multiple_choice
+    prompt: עם מי הם אוכלים בליל שישי?
+    options:
+    - עם הקהילה
+    - עם דון ריקרדו
+    - לבד
+    correct: 0
+    lexemes:
+    - cenar
+    - viernes
+    - con
+  - id: u08-l4-05
+    type: listening_choice
+    audioText: Estudio español por la noche.
+    question: מתי לומדים ספרדית?
+    options:
+    - בערב
+    - בבוקר
+    - אחר הצהריים
+    correct: 0
+    lexemes:
+    - estudiar
+    - espanol-lengua
+    - noche
+    - manana-dia
+    - tarde-dia
+  - id: u08-l4-06
+    type: listening_choice
+    audioText: Mateo camina a la oficina.
+    question: איך מתאו מגיע?
+    options:
+    - ברגל
+    - במונית
+    - באוטובוס
+    correct: 0
+    lexemes:
+    - caminar
+    - oficina
+  - id: u08-l4-07
+    type: dictation
+    text: Hablo español todos los días.
+    lexemes:
+    - hablar
+    - espanol-lengua
+    - todos-los-dias
+  - id: u08-l4-08
+    type: translate
+    direction: to_target
+    prompt: אני לא עובד בשבת.
+    answers:
+    - No trabajo el sábado.
+    lexemes:
+    - trabajar
+    - sabado
+  - id: u08-l4-09
+    type: speak_repeat
+    text: Trabajo, estudio y hablo español.
+    translation: אני עובד, לומד ומדבר ספרדית.
+    lexemes:
+    - trabajar
+    - estudiar
+    - hablar
+    - espanol-lengua
+- id: u08-l5
+  kind: reading
+  title:
+    he: יום שישי
+    en: A Friday
+  exercises:
+  - id: u08-l5-01
+    type: reading
+    kind: יומן
+    title: El viernes de Yael
+    text: 'El viernes llego temprano a la oficina. Trabajo hasta las dos. Después camino a mi casa.
+
+      Por la tarde preparo la cena de Shabat. Por la noche cenamos con la comunidad: hablamos, cantamos y descansamos.
+
+      El sábado no trabajo. El domingo estudio español.
+
+      '
+    translation: 'ביום שישי אני מגיעה מוקדם למשרד. אני עובדת עד שתיים. אחר כך אני הולכת ברגל הביתה.
+
+      אחר הצהריים אני מכינה את סעודת השבת. בערב אנחנו אוכלים עם הקהילה: מדברים, שרים ונחים.
+
+      בשבת אני לא עובדת. ביום ראשון אני לומדת ספרדית.
+
+      '
+  - id: u08-l5-02
+    type: multiple_choice
+    prompt: עד מתי יעל עובדת ביום שישי?
+    options:
+    - עד שתיים
+    - עד שמונה
+    - עד ארבע
+    correct: 0
+    lexemes:
+    - trabajar
+    - viernes
+    - dos
+    - ocho
+    - cuatro
+  - id: u08-l5-03
+    type: multiple_choice
+    prompt: מה יעל עושה בשבת?
+    options:
+    - לא עובדת
+    - לומדת ספרדית
+    - הולכת לשוק
+    correct: 0
+    lexemes:
+    - sabado
+    - trabajar
+    - estudiar
+    - mercado
+  - id: u08-l5-04
+    type: multiple_choice
+    prompt: מתי יעל לומדת ספרדית?
+    options:
+    - ביום ראשון
+    - ביום שישי
+    - בשבת
+    correct: 0
+    lexemes:
+    - estudiar
+    - domingo
+    - viernes
+    - sabado
+  - id: u08-l5-05
+    type: fill_blank
+    sentence: El sábado no ___.
+    translation: בשבת אני לא עובדת.
+    answers:
+    - trabajo
+    options:
+    - trabajo
+    - trabaja
+    - trabajas
+    lexemes:
+    - trabajar
+    - sabado
+  - id: u08-l5-06
+    type: translate
+    direction: to_target
+    prompt: ביום שישי אני מגיע מוקדם.
+    answers:
+    - El viernes llego temprano.
+    lexemes:
+    - viernes
+    - llegar
+    - temprano
+- id: u08-review
+  kind: review
+  title:
+    he: 'חזרה: היום שלי'
+    en: 'Review: my day'
+  exercises:
+  - id: u08-review-01
+    type: match_pairs
+    pairs:
+    - - el lunes
+      - יום שני
+    - - el jueves
+      - יום חמישי
+    - - el viernes
+      - יום שישי
+    - - el sábado
+      - שבת
+    - - el domingo
+      - יום ראשון
+    lexemes:
+    - lunes
+    - jueves
+    - viernes
+    - sabado
+    - domingo
+  - id: u08-review-02
+    type: match_pairs
+    pairs:
+    - - trabajar
+      - לעבוד
+    - - hablar
+      - לדבר
+    - - estudiar
+      - ללמוד
+    - - cenar
+      - ארוחת ערב
+    - - llegar
+      - להגיע
+    lexemes:
+    - trabajar
+    - hablar
+    - estudiar
+    - cenar
+    - llegar
+  - id: u08-review-03
+    type: fill_blank
+    sentence: Nosotros ___ español.
+    translation: אנחנו מדברים ספרדית.
+    answers:
+    - hablamos
+    options:
+    - hablamos
+    - hablan
+    - hablo
+    lexemes:
+    - hablar
+    - espanol-lengua
+  - id: u08-review-04
+    type: fill_blank
+    sentence: Ella ___ temprano.
+    translation: היא מגיעה מוקדם.
+    answers:
+    - llega
+    options:
+    - llega
+    - llegas
+    - llego
+    lexemes:
+    - llegar
+    - temprano
+  - id: u08-review-05
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - No trabajo el sábado.
+    - No trabajas yo el sábado.
+    - Trabajo no sábado.
+    correct: 0
+    lexemes:
+    - trabajar
+    - sabado
+  - id: u08-review-06
+    type: listening_choice
+    audioText: Camino a la oficina todos los días.
+    question: מה שמעתם?
+    options:
+    - אני הולך ברגל למשרד כל יום
+    - אני נוסע למשרד כל יום
+    - אני עובד במשרד כל יום
+    correct: 0
+    lexemes:
+    - caminar
+    - oficina
+    - todos-los-dias
+  - id: u08-review-07
+    type: word_bank
+    prompt: אני לומדת ספרדית בערב.
+    answers:
+    - Estudio español por la noche.
+    distractors:
+    - estudias
+    - mañana
+    lexemes:
+    - estudiar
+    - espanol-lengua
+    - noche
+  - id: u08-review-08
+    type: translate
+    direction: to_target
+    prompt: הם עובדים ביום שני.
+    answers:
+    - Trabajan el lunes.
+    - Ellos trabajan el lunes.
+    lexemes:
+    - trabajar
+    - lunes
+  - id: u08-review-09
+    type: translate
+    direction: to_source
+    prompt: ¿Hablas español?
+    answers:
+    - אתה מדבר ספרדית?
+    - את מדברת ספרדית?
+    lexemes:
+    - hablar
+    - espanol-lengua
+  - id: u08-review-10
+    type: dictation
+    text: Hoy estudio y trabajo.
+    lexemes:
+    - hoy
+    - estudiar
+    - trabajar
+  - id: u08-review-11
+    type: speak_repeat
+    text: Hablo español todos los días.
+    translation: אני מדבר ספרדית כל יום.
+    lexemes:
+    - hablar
+    - espanol-lengua
+    - todos-los-dias
