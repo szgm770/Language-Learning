@@ -1,0 +1,1099 @@
+id: u28-imperativo
+cefr: B1
+scene: health
+title:
+  he: 'קדימה, בואו, אל תדאגו: ציווי'
+  en: Commands (imperative)
+story: 'דני עייף מדי אחרי שבוע עבודה, והדוקטור הררה נותן הוראות: ''descansa'', ''toma agua'', ''no trabajes tanto''. יעל לומדת לתת הוראות, בקשות ואזהרות, בנימוס (usted) ובחברות (tú).'
+canDo:
+- 'לתת הוראה לחבר (tú): habla, come, escribe'
+- 'לתת הוראה בנימוס (usted): hable, coma, escriba'
+- 'לצוות על פעלים לא רגילים: ven, sal, pon, haz, di, ten, ve'
+- 'לצוות בשלילה: no hables, no comas'
+vocabulary:
+- id: cerrar
+  text: cerrar
+  translation: לסגור
+  pos: verb
+- id: escuchar
+  text: escuchar
+  translation: להקשיב
+  pos: verb
+- id: poner
+  text: poner
+  translation: לשים
+  pos: verb
+- id: apagar
+  text: apagar
+  translation: לכבות
+  pos: verb
+- id: encender
+  text: encender
+  translation: להדליק
+  pos: verb
+- id: sentarse
+  text: sentarse
+  translation: לשבת
+  pos: verb
+- id: seguir
+  text: seguir
+  translation: להמשיך
+  pos: verb
+- id: respirar
+  text: respirar
+  translation: לנשום
+  pos: verb
+- id: luz
+  text: la luz
+  translation: אור
+  pos: noun
+- id: cuidado
+  text: el cuidado
+  translation: זהירות
+  pos: noun
+- id: tranquilo
+  text: tranquilo
+  translation: רגוע
+  pos: adjective
+- id: rapido
+  text: rápido
+  translation: מהר
+  pos: adverb
+- id: imp-tu
+  text: habla / come / escribe
+  translation: דבר / אכול / כתוב
+  pos: phrase
+- id: imp-usted
+  text: hable / coma / escriba
+  translation: (בנימוס) דבר / אכול / כתוב
+  pos: phrase
+- id: imp-irr
+  text: ven, sal, pon, haz, di, ten, ve
+  translation: בוא, צא, שים, עשה, אמור, החזק, לך
+  pos: phrase
+- id: no-imp
+  text: no hables / no comas
+  translation: אל תדבר / אל תאכל
+  pos: phrase
+- id: agua-p
+  text: el agua
+  translation: מים
+  pos: noun
+- id: preocuparse
+  text: preocuparse
+  translation: לדאוג
+  pos: verb
+- id: amable
+  text: amable
+  translation: אדיב
+  pos: adjective
+- id: jefe-p
+  text: el médico
+  translation: הרופא
+  pos: noun
+grammar:
+- id: imperativo
+  title:
+    he: ציווי
+    en: Imperative
+  explanation: 'בעברית ציווי הוא צורה נפרדת: "דבר!", "אכלי!". בספרדית:
+
+
+    **tú (חיובי):** כמו גוף שלישי יחיד בהווה: *hablar → **habla**, comer → **come**, escribir → **escribe***
+
+    **usted (חיובי ושלילי):** הסיומת ההפוכה: ‑ar → **‑e**, ‑er/‑ir → **‑a**: *Hable más despacio. | Coma algo. | Escriba aquí.*
+
+    **שלילה (tú):** *no* + הסיומת ההפוכה + ‑s: *No hables tan rápido. | No comas eso. | No escribas.*
+
+
+    **שמונה פעלים לא רגילים (tú, חיובי) – כדאי לזכור:**
+
+    *ve* (ir) | *ven* (venir) | *sal* (salir) | *pon* (poner) | *haz* (hacer) | *di* (decir) | *ten* (tener) | *sé* (ser)
+
+    * *Ven aquí. | Sal ahora. | Pon la mesa. | Haz la tarea. | Di la verdad. | Ten cuidado. | Sé amable.*
+
+
+    **כינויים:** בציווי חיובי הכינוי **נצמד** לסוף ("sentarse" → *siéntate*), ובשלילי הוא **בא לפני**: *Dímelo.* (תגיד לי אותו) | *No me lo digas.* (אל תגיד לי אותו)
+
+    בציווי חיובי ההטעמה נשמרת, ולכן מופיע סימן הטעמה: *dime → dímelo*
+
+
+    **הערה:** בספרדית מקסיקנית מקובל להוסיף *por favor* ו"¿Me puedes…?" כדי לרכך את הציווי. בלי זה זה נשמע חד.'
+  examples:
+  - text: Siéntate y descansa un poco.
+    translation: שב ונוח קצת.
+  - text: No trabajes tanto. Ten cuidado con tu salud.
+    translation: אל תעבוד כל כך הרבה. תיזהר עם הבריאות שלך.
+  - text: Señor Dani, tome agua y respire despacio.
+    translation: אדון דני, שתה מים ונשום לאט.
+lessons:
+- id: u28-l1
+  kind: new
+  title:
+    he: הוראות בסיסיות
+    en: Basic commands
+  exercises:
+  - id: u28-l1-01
+    type: dialogue
+    scene: דני עייף. הדוקטור הררה נותן הוראות.
+    lines:
+    - speaker: herrera
+      text: Dani, siéntate y descansa. Respira despacio.
+      translation: דני, שב ונוח. נשום לאט.
+    - speaker: dani
+      text: No puedo descansar. Tengo mucho trabajo.
+      translation: אני לא יכול לנוח. יש לי הרבה עבודה.
+    - speaker: herrera
+      text: Entonces apaga la computadora y ve a casa. Come algo y toma agua.
+      translation: אז כבה את המחשב ולך הביתה. תאכל משהו ותשתה מים.
+  - id: u28-l1-02
+    type: learn
+    lexeme: sentarse
+  - id: u28-l1-03
+    type: learn
+    lexeme: respirar
+  - id: u28-l1-04
+    type: learn
+    lexeme: cerrar
+  - id: u28-l1-05
+    type: learn
+    lexeme: apagar
+  - id: u28-l1-06
+    type: learn
+    lexeme: encender
+  - id: u28-l1-07
+    type: learn
+    lexeme: escuchar
+  - id: u28-l1-08
+    type: learn
+    lexeme: seguir
+  - id: u28-l1-09
+    type: learn
+    lexeme: preocuparse
+  - id: u28-l1-10
+    type: learn
+    lexeme: amable
+  - id: u28-l1-11
+    type: learn
+    lexeme: poner
+  - id: u28-l1-12
+    type: learn
+    lexeme: luz
+  - id: u28-l1-13
+    type: learn
+    lexeme: cuidado
+  - id: u28-l1-14
+    type: learn
+    lexeme: tranquilo
+  - id: u28-l1-15
+    type: learn
+    lexeme: rapido
+  - id: u28-l1-16
+    type: match_pairs
+    pairs:
+    - - sentarse
+      - לשבת
+    - - descansar
+      - לנוח
+    - - respirar
+      - לנשום
+    - - cerrar
+      - לסגור
+    - - apagar
+      - לכבות
+    lexemes:
+    - sentarse
+    - descansar
+    - respirar
+    - cerrar
+    - apagar
+  - id: u28-l1-17
+    type: match_pairs
+    pairs:
+    - - encender
+      - להדליק
+    - - escuchar
+      - להקשיב
+    - - seguir
+      - להמשיך
+    - - poner
+      - לשים
+    - - la luz
+      - אור
+    lexemes:
+    - encender
+    - escuchar
+    - seguir
+    - poner
+    - luz
+  - id: u28-l1-18
+    type: multiple_choice
+    prompt: מה פירוש 'Descansa'?
+    options:
+    - נוח
+    - הוא נח
+    - אני נח
+    correct: 0
+    lexemes:
+    - descansar
+  - id: u28-l1-19
+    type: multiple_choice
+    prompt: מה פירוש 'Cierra la puerta'?
+    options:
+    - סגור את הדלת
+    - פתח את הדלת
+    - הוא סוגר את הדלת
+    correct: 0
+    lexemes:
+    - cerrar
+    - puerta
+  - id: u28-l1-20
+    type: multiple_choice
+    prompt: מה פירוש 'Apaga la luz'?
+    options:
+    - כבה את האור
+    - הדלק את האור
+    - האור כבה
+    correct: 0
+    lexemes:
+    - apagar
+    - luz
+  - id: u28-l1-21
+    type: listening_choice
+    audioText: Escucha con cuidado.
+    question: מה מבקשים?
+    options:
+    - להקשיב בזהירות
+    - לדבר בזהירות
+    - לכתוב בזהירות
+    correct: 0
+    lexemes:
+    - escuchar
+    - cuidado
+    - hablar
+    - escribir
+  - id: u28-l1-22
+    type: listening_choice
+    audioText: Respira despacio y descansa.
+    question: מה מבקשים?
+    options:
+    - לנשום לאט ולנוח
+    - לדבר מהר
+    - לעבוד
+    correct: 0
+    lexemes:
+    - respirar
+    - despacio
+    - descansar
+    - trabajar
+  - id: u28-l1-23
+    type: translate
+    direction: to_target
+    prompt: שב כאן.
+    answers:
+    - Siéntate aquí.
+    lexemes:
+    - sentarse
+    - aqui
+  - id: u28-l1-24
+    type: translate
+    direction: to_target
+    prompt: סגור את החלון.
+    answers:
+    - Cierra la ventana.
+    lexemes:
+    - cerrar
+    - ventana
+  - id: u28-l1-25
+    type: translate
+    direction: to_source
+    prompt: Ten cuidado.
+    answers:
+    - תיזהר
+    - תיזהרי
+    - היזהר
+    - היזהרי
+    lexemes:
+    - tener
+    - cuidado
+  - id: u28-l1-26
+    type: dictation
+    text: Cierra la puerta, por favor.
+    lexemes:
+    - cerrar
+    - puerta
+  - id: u28-l1-27
+    type: speak_repeat
+    text: Siéntate y descansa un poco.
+    translation: שב ונוח קצת.
+    lexemes:
+    - sentarse
+    - descansar
+- id: u28-l2
+  kind: new
+  title:
+    he: 'בנימוס: usted'
+    en: 'Polite: usted'
+  exercises:
+  - id: u28-l2-01
+    type: learn
+    lexeme: imp-tu
+  - id: u28-l2-02
+    type: learn
+    lexeme: imp-usted
+  - id: u28-l2-03
+    type: learn
+    lexeme: imp-irr
+  - id: u28-l2-04
+    type: learn
+    lexeme: no-imp
+  - id: u28-l2-05
+    type: learn
+    lexeme: agua-p
+  - id: u28-l2-06
+    type: learn
+    lexeme: jefe-p
+  - id: u28-l2-07
+    type: match_pairs
+    pairs:
+    - - habla / come / escribe
+      - tú, חיובי
+    - - hable / coma / escriba
+      - usted
+    - - ven, sal, pon, haz
+      - לא רגילים
+    - - no hables / no comas
+      - שלילה
+    - - el médico
+      - הרופא
+    lexemes:
+    - imp-tu
+    - imp-usted
+    - imp-irr
+    - no-imp
+    - jefe-p
+  - id: u28-l2-08
+    type: match_pairs
+    pairs:
+    - - el agua
+      - מים
+    - - la luz
+      - אור
+    - - tranquilo
+      - רגוע
+    - - rápido
+      - מהר
+    lexemes:
+    - agua-p
+    - luz
+    - tranquilo
+    - rapido
+  - id: u28-l2-09
+    type: dialogue
+    scene: הדוקטור הררה ודונה כרמן.
+    lines:
+    - speaker: herrera
+      text: Doña Carmen, pase y siéntese, por favor. Hable con calma.
+      translation: דונה כרמן, היכנסי ושבי בבקשה. דברי ברוגע.
+    - speaker: carmen
+      text: Gracias, doctor. Me siento mal, estoy muy cansada.
+      translation: תודה, דוקטור. אני מרגישה רע, אני עייפה מאוד.
+    - speaker: herrera
+      text: Tome agua, coma poco y no se preocupe. Descanse hoy.
+      translation: שתי מים, אכלי מעט ואל תדאגי. נוחי היום.
+  - id: u28-l2-10
+    type: multiple_choice
+    prompt: מה פירוש 'Hable despacio'?
+    options:
+    - דבר לאט (בנימוס)
+    - הוא מדבר לאט
+    - אל תדבר
+    correct: 0
+    lexemes:
+    - hablar
+    - despacio
+  - id: u28-l2-11
+    type: multiple_choice
+    prompt: איזו צורה נימוסית של 'comer'?
+    options:
+    - coma
+    - come
+    - comes
+    correct: 0
+    lexemes:
+    - comer
+  - id: u28-l2-12
+    type: multiple_choice
+    prompt: איזו צורה של 'tú' נכונה ל'escribir'?
+    options:
+    - escribe
+    - escriba
+    - escribes
+    correct: 0
+    lexemes:
+    - escribir
+  - id: u28-l2-13
+    type: listening_choice
+    audioText: No hables tan rápido.
+    question: מה מבקשים?
+    options:
+    - לא לדבר כל כך מהר
+    - לדבר מהר
+    - לדבר לאט
+    correct: 0
+    lexemes:
+    - hablar
+    - rapido
+    - despacio
+  - id: u28-l2-14
+    type: listening_choice
+    audioText: Tome agua, por favor.
+    question: מה מבקשים?
+    options:
+    - לשתות מים
+    - לקנות מים
+    - להביא מים
+    correct: 0
+    lexemes:
+    - tomar
+    - agua-p
+    - comprar
+    - traer
+  - id: u28-l2-15
+    type: fill_blank
+    sentence: (tú) ___ aquí, por favor. (venir)
+    translation: בוא הנה, בבקשה.
+    answers:
+    - Ven
+    options:
+    - Ven
+    - Viene
+    - Venga
+    lexemes:
+    - venir
+    - aqui
+  - id: u28-l2-16
+    type: fill_blank
+    sentence: (tú) ___ cuidado. (tener)
+    translation: תיזהר.
+    answers:
+    - Ten
+    options:
+    - Ten
+    - Tiene
+    - Ten tú
+    lexemes:
+    - tener
+    - cuidado
+  - id: u28-l2-17
+    type: fill_blank
+    sentence: (usted) ___ por aquí. (pasar)
+    translation: (בנימוס) עברי דרך כאן.
+    answers:
+    - Pase
+    options:
+    - Pase
+    - Pasa
+    - Pasas
+    lexemes:
+    - pasar
+    - aqui
+  - id: u28-l2-18
+    type: fill_blank
+    sentence: (tú, no) No ___ tanto. (trabajar)
+    translation: אל תעבוד כל כך הרבה.
+    answers:
+    - trabajes
+    options:
+    - trabajes
+    - trabaja
+    - trabajas
+    lexemes:
+    - trabajar
+  - id: u28-l2-19
+    type: word_bank
+    prompt: תשתה מים.
+    answers:
+    - Toma agua.
+    distractors:
+    - Tomo agua
+    - Toma el agua tú
+    lexemes:
+    - tomar
+    - agua-p
+  - id: u28-l2-20
+    type: word_bank
+    prompt: אל תדאג.
+    answers:
+    - No te preocupes.
+    distractors:
+    - No preocupas
+    - No te preocupas
+    lexemes:
+    - preocuparse
+  - id: u28-l2-21
+    type: translate
+    direction: to_target
+    prompt: תן לי את זה.
+    answers:
+    - Dámelo.
+    lexemes:
+    - dar
+  - id: u28-l2-22
+    type: translate
+    direction: to_source
+    prompt: Coma poco y descanse.
+    answers:
+    - תאכל מעט ותנוח
+    - תאכלי מעט ותנוחי
+    lexemes:
+    - comer
+    - descansar
+  - id: u28-l2-23
+    type: dictation
+    text: No hables tan rápido.
+    lexemes:
+    - hablar
+    - rapido
+- id: u28-l3
+  kind: grammar
+  title:
+    he: צווים
+    en: Commands
+  grammar: imperativo
+  exercises:
+  - id: u28-l3-01
+    type: fill_blank
+    sentence: (tú) ___ la puerta. (cerrar)
+    translation: סגור את הדלת.
+    answers:
+    - Cierra
+    options:
+    - Cierra
+    - Cierre
+    - Cierras
+    lexemes:
+    - cerrar
+    - puerta
+  - id: u28-l3-02
+    type: fill_blank
+    sentence: (usted) ___ la luz. (apagar)
+    translation: (בנימוס) כבה את האור.
+    answers:
+    - Apague
+    options:
+    - Apague
+    - Apaga
+    - Apagas
+    lexemes:
+    - apagar
+    - luz
+  - id: u28-l3-03
+    type: fill_blank
+    sentence: (tú) ___ la verdad. (decir)
+    translation: תגיד את האמת.
+    answers:
+    - Di
+    options:
+    - Di
+    - Dice
+    - Dices
+    lexemes:
+    - decir
+  - id: u28-l3-04
+    type: fill_blank
+    sentence: (tú) ___ a casa. (ir)
+    translation: לך הביתה.
+    answers:
+    - Ve
+    options:
+    - Ve
+    - Va
+    - Vas
+    lexemes:
+    - ir
+    - casa
+  - id: u28-l3-05
+    type: fill_blank
+    sentence: (tú) ___ la mesa. (poner)
+    translation: שים את השולחן.
+    answers:
+    - Pon
+    options:
+    - Pon
+    - Pone
+    - Pones
+    lexemes:
+    - poner
+    - mesa
+  - id: u28-l3-06
+    type: fill_blank
+    sentence: (tú) ___ ahora. (salir)
+    translation: צא עכשיו.
+    answers:
+    - Sal
+    options:
+    - Sal
+    - Sale
+    - Sales
+    lexemes:
+    - salir
+    - ahora
+  - id: u28-l3-07
+    type: fill_blank
+    sentence: (tú, no) No ___ eso. (comer)
+    translation: אל תאכל את זה.
+    answers:
+    - comas
+    options:
+    - comas
+    - comes
+    - come
+    lexemes:
+    - comer
+  - id: u28-l3-08
+    type: fill_blank
+    sentence: (tú, no) No ___ tarde. (llegar)
+    translation: אל תאחר.
+    answers:
+    - llegues
+    options:
+    - llegues
+    - llegas
+    - llega
+    lexemes:
+    - llegar
+    - tarde-adv
+  - id: u28-l3-09
+    type: multiple_choice
+    prompt: איזה משפט נכון (usted)?
+    options:
+    - Escriba aquí.
+    - Escribe aquí (usted).
+    - Escribo aquí.
+    correct: 0
+    lexemes:
+    - escribir
+    - aqui
+  - id: u28-l3-10
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - No hables.
+    - No habla (tú).
+    - No hablas (tú).
+    correct: 0
+    lexemes:
+    - hablar
+  - id: u28-l3-11
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Sé amable.
+    - Eres amable (ציווי).
+    - Es amable (ציווי).
+    correct: 0
+    lexemes:
+    - ser
+    - amable
+  - id: u28-l3-12
+    type: word_bank
+    prompt: בוא הנה.
+    answers:
+    - Ven aquí.
+    distractors:
+    - Viene aquí
+    - Venga tú aquí
+    lexemes:
+    - venir
+    - aqui
+  - id: u28-l3-13
+    type: word_bank
+    prompt: אל תדבר מהר.
+    answers:
+    - No hables rápido.
+    distractors:
+    - No habla rápido
+    - No hablas rápido
+    lexemes:
+    - hablar
+    - rapido
+  - id: u28-l3-14
+    type: translate
+    direction: to_target
+    prompt: כתוב לי.
+    answers:
+    - Escríbeme.
+    lexemes:
+    - escribir
+  - id: u28-l3-15
+    type: translate
+    direction: to_target
+    prompt: תהיה רגוע.
+    answers:
+    - Sé tranquilo.
+    - Estate tranquilo.
+    - Tranquilo.
+    lexemes:
+    - ser
+    - tranquilo
+  - id: u28-l3-16
+    type: translate
+    direction: to_source
+    prompt: Dime la verdad.
+    answers:
+    - תגיד לי את האמת
+    - תגידי לי את האמת
+    lexemes:
+    - decir
+  - id: u28-l3-17
+    type: translate
+    direction: to_source
+    prompt: No me lo digas.
+    answers:
+    - אל תגיד לי את זה
+    - אל תגידי לי את זה
+    lexemes:
+    - decir
+- id: u28-l4
+  kind: listening
+  title:
+    he: בבית החולים
+    en: At the clinic
+  exercises:
+  - id: u28-l4-01
+    type: dialogue
+    scene: הדוקטור הררה ויעל מדברים על דני.
+    lines:
+    - speaker: yael
+      text: Doctor, Dani no descansa. ¿Qué le digo?
+      translation: דוקטור, דני לא נח. מה לומר לו?
+    - speaker: herrera
+      text: Dígale que apague el celular y duerma ocho horas. Que no trabaje de noche.
+      translation: תגידי לו שיכבה את הנייד וישן שמונה שעות. שלא יעבוד בלילה.
+    - speaker: yael
+      text: Se lo digo mañana. ¿Algo más?
+      translation: אגיד לו את זה מחר. עוד משהו?
+    - speaker: herrera
+      text: Sí, que tome agua y coma bien. Ah, y ten paciencia con él.
+      translation: כן, שישתה מים ויאכל טוב. אה, ותהיי סבלנית איתו.
+  - id: u28-l4-02
+    type: multiple_choice
+    prompt: מה צריך דני לעשות עם הנייד?
+    options:
+    - לכבות אותו
+    - להדליק אותו
+    - להשאיל אותו
+    correct: 0
+    lexemes:
+    - apagar
+    - encender
+    - prestar
+  - id: u28-l4-03
+    type: multiple_choice
+    prompt: כמה שעות לישון?
+    options:
+    - שמונה
+    - שש
+    - עשר
+    correct: 0
+    lexemes:
+    - dormir
+    - hora
+  - id: u28-l4-04
+    type: multiple_choice
+    prompt: מה הדוקטור מבקש מיעל?
+    options:
+    - להיות סבלנית
+    - לכבות את האור
+    - לחתום
+    correct: 0
+    lexemes:
+    - tener
+    - luz
+    - firmar
+  - id: u28-l4-05
+    type: listening_choice
+    audioText: Que apague la luz.
+    question: מה אומרים?
+    options:
+    - שיכבה את האור
+    - שידליק את האור
+    - שיסגור את הדלת
+    correct: 0
+    lexemes:
+    - apagar
+    - luz
+    - encender
+    - cerrar
+    - puerta
+  - id: u28-l4-06
+    type: listening_choice
+    audioText: No te preocupes.
+    question: מה אומרים?
+    options:
+    - אל תדאג
+    - תדאג
+    - תחזור
+    correct: 0
+    lexemes:
+    - preocuparse
+  - id: u28-l4-07
+    type: dictation
+    text: Apaga el celular, por favor.
+    lexemes:
+    - apagar
+  - id: u28-l4-08
+    type: translate
+    direction: to_target
+    prompt: תכבה את האור.
+    answers:
+    - Apaga la luz.
+    lexemes:
+    - apagar
+    - luz
+  - id: u28-l4-09
+    type: speak_repeat
+    text: Apaga la luz y descansa.
+    translation: כבה את האור ונוח.
+    lexemes:
+    - apagar
+    - luz
+    - descansar
+- id: u28-l5
+  kind: reading
+  title:
+    he: הוראות למחלה
+    en: A note with instructions
+  exercises:
+  - id: u28-l5-01
+    type: reading
+    kind: פתק
+    title: Una nota para Dani
+    text: 'Dani:
+
+      Hoy no vengas a la oficina. Descansa en casa.
+
+      Apaga el celular y duerme bien. Toma agua y come algo ligero.
+
+      No trabajes de noche. Si te sientes mal, llámame. Ten cuidado.
+
+      Yael
+
+      '
+    translation: 'דני:
+
+      היום אל תבוא למשרד. נוח בבית.
+
+      כבה את הנייד וישן טוב. שתה מים ואכול משהו קל.
+
+      אל תעבוד בלילה. אם אתה מרגיש רע, התקשר אליי. תיזהר.
+
+      יעל
+
+      '
+  - id: u28-l5-02
+    type: multiple_choice
+    prompt: מה דני לא צריך לעשות היום?
+    options:
+    - לבוא למשרד
+    - לשתות מים
+    - לישון
+    correct: 0
+    lexemes:
+    - oficina
+    - tomar
+    - dormir
+  - id: u28-l5-03
+    type: multiple_choice
+    prompt: מה לעשות אם מרגישים רע?
+    options:
+    - להתקשר ליעל
+    - להמשיך לעבוד
+    - לצאת
+    correct: 0
+    lexemes:
+    - llamar
+    - trabajar
+    - salir
+  - id: u28-l5-04
+    type: fill_blank
+    sentence: No ___ de noche. (trabajar, tú)
+    translation: אל תעבוד בלילה.
+    answers:
+    - trabajes
+    options:
+    - trabajes
+    - trabajas
+    - trabaja
+    lexemes:
+    - trabajar
+  - id: u28-l5-05
+    type: translate
+    direction: to_target
+    prompt: אל תבוא למשרד.
+    answers:
+    - No vengas a la oficina.
+    lexemes:
+    - venir
+    - oficina
+- id: u28-review
+  kind: review
+  title:
+    he: 'חזרה: ציווי + כתיבה'
+    en: 'Review: commands + writing'
+  exercises:
+  - id: u28-review-01
+    type: match_pairs
+    pairs:
+    - - sentarse
+      - לשבת
+    - - descansar
+      - לנוח
+    - - respirar
+      - לנשום
+    - - cerrar
+      - לסגור
+    - - apagar
+      - לכבות
+    lexemes:
+    - sentarse
+    - descansar
+    - respirar
+    - cerrar
+    - apagar
+  - id: u28-review-02
+    type: match_pairs
+    pairs:
+    - - la luz
+      - אור
+    - - el cuidado
+      - זהירות
+    - - tranquilo
+      - רגוע
+    - - rápido
+      - מהר
+    - - el agua
+      - מים
+    lexemes:
+    - luz
+    - cuidado
+    - tranquilo
+    - rapido
+    - agua-p
+  - id: u28-review-03
+    type: fill_blank
+    sentence: (tú) ___ aquí. (venir)
+    translation: בוא הנה.
+    answers:
+    - Ven
+    options:
+    - Ven
+    - Viene
+    - Venga
+    lexemes:
+    - venir
+    - aqui
+  - id: u28-review-04
+    type: fill_blank
+    sentence: (tú, no) No ___ tanto. (hablar)
+    translation: אל תדבר כל כך הרבה.
+    answers:
+    - hables
+    options:
+    - hables
+    - habla
+    - hablas
+    lexemes:
+    - hablar
+  - id: u28-review-05
+    type: multiple_choice
+    prompt: מה פירוש 'Dímelo'?
+    options:
+    - תגיד לי את זה
+    - אמרתי לך
+    - הוא אומר לי
+    correct: 0
+    lexemes:
+    - decir
+  - id: u28-review-06
+    type: listening_choice
+    audioText: Siéntese, por favor.
+    question: מה מבקשים?
+    options:
+    - לשבת (בנימוס)
+    - לקום
+    - לצאת
+    correct: 0
+    lexemes:
+    - sentarse
+    - levantarse
+    - salir
+  - id: u28-review-07
+    type: word_bank
+    prompt: תנוח היום.
+    answers:
+    - Descansa hoy.
+    distractors:
+    - Descanso hoy
+    lexemes:
+    - descansar
+    - hoy
+  - id: u28-review-08
+    type: translate
+    direction: to_target
+    prompt: אל תדאגי.
+    answers:
+    - No te preocupes.
+    lexemes:
+    - preocuparse
+  - id: u28-review-09
+    type: translate
+    direction: to_source
+    prompt: Sal ahora y ten cuidado.
+    answers:
+    - צא עכשיו ותיזהר
+    lexemes:
+    - salir
+    - tener
+    - cuidado
+  - id: u28-review-10
+    type: dictation
+    text: Cierra la puerta y apaga la luz.
+    lexemes:
+    - cerrar
+    - apagar
+  - id: u28-review-11
+    type: speak_repeat
+    text: No hables tan rápido, por favor.
+    translation: אל תדבר כל כך מהר, בבקשה.
+    lexemes:
+    - hablar
+    - rapido
+  - id: u28-review-12
+    type: write
+    prompt: 'כתבו פתק קצר לחבר עייף או חולה: תנו לו 3–4 הוראות (חיוביות ושליליות) באמצעות ציווי. למשל מה לעשות היום, ומה לא.'
+    minWords: 30
+    checks:
+    - label: הוראה חיובית (ציווי)
+      any:
+      - \b(descansa|toma|come|duerme|ven|sal|haz|pon|ten|llama|apaga|cierra|bebe|escribe|respira|sientate)\b
+    - label: הוראה שלילית (no + ציווי)
+      any:
+      - \bno\s+(trabajes|vengas|hables|comas|salgas|salgas|olvides|te preocupes|bebas|llegues|hagas|pongas|digas|vayas|tomes|escribas)\b
+    - label: הוראה עם 'por favor' או כינוי (-te, -me)
+      any:
+      - por favor
+      - \w+(te|me|lo|la)\b
+    - label: הזכרתם בית, משרד, מים, אוכל או שינה
+      any:
+      - casa
+      - oficina
+      - agua
+      - comer
+      - comida
+      - dormir
+      - trabajo
+      - descans
+    model: Hola Dani. Hoy descansa en casa. Toma agua y come algo ligero, por favor. No vengas a la oficina y no trabajes de noche. Apaga el celular y duerme bien. Si te sientes mal, llámame.
+    lexemes: []

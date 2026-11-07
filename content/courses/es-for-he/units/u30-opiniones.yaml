@@ -1,0 +1,1423 @@
+id: u30-opiniones
+cefr: B1
+scene: news
+title:
+  he: מה דעתך? חדשות, דעות והסכמה
+  en: Opinions and news
+story: 'בבית של דון ריקרדו, כל ערב קוראים את החדשות המקומיות ומתווכחים בנימוס: על פרויקט הספרייה בשכונה. יעל לומדת להגיד מה היא חושבת, להסכים, לא להסכים ולהסביר.'
+canDo:
+- 'להביע דעה: creo que, pienso que, me parece que'
+- 'להסכים ולא להסכים: estoy de acuerdo, no estoy de acuerdo'
+- לשלב סובג'ונקטיב אחרי no creo que
+- לקרוא ולסכם כתבה קצרה
+vocabulary:
+- id: periodico
+  text: el periódico
+  translation: עיתון
+  pos: noun
+- id: articulo
+  text: el artículo
+  translation: כתבה, מאמר
+  pos: noun
+- id: opinion
+  text: la opinión
+  translation: דעה
+  pos: noun
+- id: comunidad
+  text: la comunidad
+  translation: קהילה
+  pos: noun
+- id: biblioteca
+  text: la biblioteca
+  translation: ספרייה
+  pos: noun
+- id: cambio
+  text: el cambio
+  translation: שינוי
+  pos: noun
+- id: creer
+  text: creer
+  translation: להאמין, לחשוב
+  pos: verb
+- id: parecer
+  text: parecer
+  translation: להיראות, להיות נראה
+  pos: verb
+- id: explicar
+  text: explicar
+  translation: להסביר
+  pos: verb
+- id: comentar
+  text: comentar
+  translation: להגיב
+  pos: verb
+- id: cierto
+  text: cierto
+  translation: נכון, מסוים
+  pos: adjective
+- id: razon
+  text: la razón
+  translation: צדק, סיבה
+  pos: noun
+- id: de-acuerdo
+  text: estar de acuerdo
+  translation: להסכים
+  pos: phrase
+- id: tener-razon
+  text: tener razón
+  translation: להיות צודק
+  pos: phrase
+- id: creo-que
+  text: creo que
+  translation: אני חושבת ש
+  pos: phrase
+- id: no-creo-que
+  text: no creo que
+  translation: אני לא חושבת ש
+  pos: phrase
+- id: me-parece
+  text: me parece que
+  translation: נראה לי ש
+  pos: phrase
+- id: por-un-lado
+  text: por un lado… por otro
+  translation: מצד אחד… מצד שני
+  pos: phrase
+grammar:
+- id: opinar
+  title:
+    he: להביע דעה
+    en: Giving opinions
+  explanation: 'בעברית "אני חושב ש…" ואחריו הווה רגיל, וגם "אני לא חושב ש…" ואחריו הווה. בספרדית יש הבדל:
+
+
+    **דעה חיובית – אינדיקטיב:** *Creo que **es** buena idea.* | *Me parece que **tiene** razón.* | *Pienso que **va** a funcionar.*
+
+    **דעה שלילית או ספק – סובג''ונקטיב:** *No creo que **sea** buena idea.* | *No pienso que **tenga** razón.* | *Dudo que **funcione**.*
+
+
+    **הסכמה:**
+
+    * *Estoy de acuerdo.* | *No estoy de acuerdo con eso.* | *Tienes razón.* | *Es cierto.*
+
+    * **Estar de acuerdo con** (+ אדם או דעה): *Estoy de acuerdo con Mateo.*
+
+
+    **לנמק ולהשוות:** *Por un lado… por otro lado…* (מצד אחד… מצד שני) | *Sin embargo* (אולם) | *Por eso* (בגלל זה) | *Aunque* (אף על פי ש)
+
+
+    **הערה:** שאלה "¿Crees que **sea**…?" מתחלפת בין אינדיקטיב לסובג''ונקטיב; במקסיקו נפוץ יותר *¿Crees que **es**…?*. בשלילה, *no creo que* תמיד לוקח סובג''ונקטיב.'
+  examples:
+  - text: Creo que la biblioteca es una buena idea.
+    translation: אני חושבת שהספרייה היא רעיון טוב.
+  - text: No creo que sea fácil, pero estoy de acuerdo con el plan.
+    translation: אני לא חושבת שזה יהיה קל, אבל אני מסכימה עם התוכנית.
+  - text: Por un lado cuesta dinero; por otro lado ayuda a la comunidad.
+    translation: מצד אחד זה עולה כסף; מצד שני זה עוזר לקהילה.
+lessons:
+- id: u30-l1
+  kind: new
+  title:
+    he: מה אתה חושב?
+    en: What do you think?
+  exercises:
+  - id: u30-l1-01
+    type: dialogue
+    scene: בבית של דון ריקרדו, בערב.
+    lines:
+    - speaker: ricardo
+      text: Yael, ¿leíste el artículo del periódico? Hablan de una biblioteca nueva.
+      translation: יעל, קראת את הכתבה בעיתון? כותבים על ספרייה חדשה.
+    - speaker: yael
+      text: Sí. Creo que es una buena idea para la comunidad.
+      translation: כן. אני חושבת שזה רעיון טוב לקהילה.
+    - speaker: ricardo
+      text: Yo no creo que sea tan fácil. Cuesta mucho dinero.
+      translation: אני לא חושב שזה יהיה כל כך קל. זה עולה הרבה כסף.
+    - speaker: yael
+      text: Tienes razón en eso, pero estoy de acuerdo con el plan.
+      translation: צדקת בזה, אבל אני מסכימה עם התוכנית.
+  - id: u30-l1-02
+    type: learn
+    lexeme: periodico
+  - id: u30-l1-03
+    type: learn
+    lexeme: articulo
+  - id: u30-l1-04
+    type: learn
+    lexeme: opinion
+  - id: u30-l1-05
+    type: learn
+    lexeme: comunidad
+  - id: u30-l1-06
+    type: learn
+    lexeme: biblioteca
+  - id: u30-l1-07
+    type: learn
+    lexeme: cambio
+  - id: u30-l1-08
+    type: learn
+    lexeme: creer
+  - id: u30-l1-09
+    type: learn
+    lexeme: parecer
+  - id: u30-l1-10
+    type: learn
+    lexeme: creo-que
+  - id: u30-l1-11
+    type: learn
+    lexeme: no-creo-que
+  - id: u30-l1-12
+    type: learn
+    lexeme: me-parece
+  - id: u30-l1-13
+    type: learn
+    lexeme: de-acuerdo
+  - id: u30-l1-14
+    type: learn
+    lexeme: tener-razon
+  - id: u30-l1-15
+    type: match_pairs
+    pairs:
+    - - el periódico
+      - עיתון
+    - - el artículo
+      - כתבה
+    - - la opinión
+      - דעה
+    - - la comunidad
+      - קהילה
+    - - la biblioteca
+      - ספרייה
+    lexemes:
+    - periodico
+    - articulo
+    - opinion
+    - comunidad
+    - biblioteca
+  - id: u30-l1-16
+    type: match_pairs
+    pairs:
+    - - creo que
+      - אני חושבת ש
+    - - no creo que
+      - אני לא חושבת ש
+    - - me parece que
+      - נראה לי ש
+    - - estar de acuerdo
+      - להסכים
+    - - tener razón
+      - להיות צודק
+    lexemes:
+    - creo-que
+    - no-creo-que
+    - me-parece
+    - de-acuerdo
+    - tener-razon
+  - id: u30-l1-17
+    type: multiple_choice
+    prompt: מה פירוש 'Estoy de acuerdo'?
+    options:
+    - אני מסכים
+    - אני לא מסכים
+    - אני צודק
+    correct: 0
+    lexemes:
+    - de-acuerdo
+  - id: u30-l1-18
+    type: multiple_choice
+    prompt: מה פירוש 'Tienes razón'?
+    options:
+    - אתה צודק
+    - יש לך סיבה
+    - אתה טועה
+    correct: 0
+    lexemes:
+    - tener-razon
+  - id: u30-l1-19
+    type: multiple_choice
+    prompt: מה פירוש 'Me parece que es bueno'?
+    options:
+    - נראה לי שזה טוב
+    - זה לא טוב
+    - אני לא יודע
+    correct: 0
+    lexemes:
+    - me-parece
+  - id: u30-l1-20
+    type: listening_choice
+    audioText: Creo que es buena idea.
+    question: מה אומרים?
+    options:
+    - אני חושבת שזה רעיון טוב
+    - אני לא חושבת שזה טוב
+    - אני לא יודעת
+    correct: 0
+    lexemes:
+    - creo-que
+    - idea
+    - no-creo-que
+  - id: u30-l1-21
+    type: listening_choice
+    audioText: No estoy de acuerdo con eso.
+    question: מה אומרים?
+    options:
+    - אני לא מסכים עם זה
+    - אני מסכים
+    - אני לא יודע
+    correct: 0
+    lexemes:
+    - de-acuerdo
+  - id: u30-l1-22
+    type: translate
+    direction: to_target
+    prompt: אני חושבת שזה חשוב.
+    answers:
+    - Creo que es importante.
+    lexemes:
+    - creo-que
+    - importante
+  - id: u30-l1-23
+    type: translate
+    direction: to_target
+    prompt: אתה צודק.
+    answers:
+    - Tienes razón.
+    lexemes:
+    - tener-razon
+  - id: u30-l1-24
+    type: translate
+    direction: to_source
+    prompt: Me parece que tiene razón.
+    answers:
+    - נראה לי שהוא צודק
+    - נראה לי שהיא צודקת
+    lexemes:
+    - me-parece
+    - tener-razon
+  - id: u30-l1-25
+    type: dictation
+    text: Estoy de acuerdo con el plan.
+    lexemes:
+    - de-acuerdo
+  - id: u30-l1-26
+    type: speak_repeat
+    text: Creo que es una buena idea.
+    translation: אני חושבת שזה רעיון טוב.
+    lexemes:
+    - creo-que
+- id: u30-l2
+  kind: new
+  title:
+    he: מצד אחד, מצד שני
+    en: On the one hand
+  exercises:
+  - id: u30-l2-01
+    type: learn
+    lexeme: explicar
+  - id: u30-l2-02
+    type: learn
+    lexeme: comentar
+  - id: u30-l2-03
+    type: learn
+    lexeme: cierto
+  - id: u30-l2-04
+    type: learn
+    lexeme: razon
+  - id: u30-l2-05
+    type: learn
+    lexeme: por-un-lado
+  - id: u30-l2-06
+    type: match_pairs
+    pairs:
+    - - explicar
+      - להסביר
+    - - comentar
+      - להגיב
+    - - cierto
+      - נכון
+    - - la razón
+      - צדק
+    - - el cambio
+      - שינוי
+    lexemes:
+    - explicar
+    - comentar
+    - cierto
+    - razon
+    - cambio
+  - id: u30-l2-07
+    type: match_pairs
+    pairs:
+    - - por un lado… por otro
+      - מצד אחד… מצד שני
+    - - creer
+      - לחשוב
+    - - parecer
+      - להיראות
+    - - la opinión
+      - דעה
+    - - el artículo
+      - כתבה
+    lexemes:
+    - por-un-lado
+    - creer
+    - parecer
+    - opinion
+    - articulo
+  - id: u30-l2-08
+    type: dialogue
+    scene: דיון בנימוס.
+    lines:
+    - speaker: mateo
+      text: Por un lado, la biblioteca ayuda a los niños. Por otro lado, cuesta mucho.
+      translation: מצד אחד הספרייה עוזרת לילדים. מצד שני היא עולה הרבה.
+    - speaker: sofia
+      text: Es cierto. No creo que el gobierno local tenga dinero ahora.
+      translation: נכון. אני לא חושבת שלעירייה יש כסף עכשיו.
+    - speaker: yael
+      text: Me parece que la comunidad puede ayudar. Voy a comentar el artículo.
+      translation: נראה לי שהקהילה יכולה לעזור. אני אגיב על הכתבה.
+  - id: u30-l2-09
+    type: multiple_choice
+    prompt: מה פירוש 'Es cierto'?
+    options:
+    - זה נכון
+    - זה לא נכון
+    - זה קשה
+    correct: 0
+    lexemes:
+    - cierto
+  - id: u30-l2-10
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - No creo que sea difícil.
+    - No creo que es difícil.
+    - No creo ser difícil.
+    correct: 0
+    lexemes:
+    - no-creo-que
+    - dificil
+  - id: u30-l2-11
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Creo que tiene razón.
+    - Creo que tenga razón.
+    - Creo tiene razón.
+    correct: 0
+    lexemes:
+    - creo-que
+    - tener-razon
+  - id: u30-l2-12
+    type: listening_choice
+    audioText: Por un lado es caro, por otro lado ayuda.
+    question: מה אומרים?
+    options:
+    - יש יתרונות וחסרונות
+    - זה זול
+    - זה לא עוזר
+    correct: 0
+    lexemes:
+    - caro
+    - ayudar
+    - barato
+  - id: u30-l2-13
+    type: listening_choice
+    audioText: No creo que tenga razón.
+    question: מה אומרים?
+    options:
+    - אני לא חושב שהוא צודק
+    - הוא צודק
+    - אני לא יודע
+    correct: 0
+    lexemes:
+    - no-creo-que
+    - tener-razon
+  - id: u30-l2-14
+    type: fill_blank
+    sentence: Creo que ___ razón. (él, tener)
+    translation: אני חושבת שהוא צודק.
+    answers:
+    - tiene
+    options:
+    - tiene
+    - tenga
+    - tener
+    lexemes:
+    - creo-que
+    - tener-razon
+  - id: u30-l2-15
+    type: fill_blank
+    sentence: No creo que ___ difícil. (ser)
+    translation: אני לא חושבת שזה קשה.
+    answers:
+    - sea
+    options:
+    - sea
+    - es
+    - será
+    lexemes:
+    - no-creo-que
+    - dificil
+  - id: u30-l2-16
+    type: fill_blank
+    sentence: Estoy de acuerdo ___ Mateo.
+    translation: אני מסכימה עם מתאו.
+    answers:
+    - con
+    options:
+    - con
+    - de
+    - a
+    lexemes:
+    - de-acuerdo
+  - id: u30-l2-17
+    type: fill_blank
+    sentence: No creo que ___ tiempo. (ellos, tener)
+    translation: אני לא חושבת שיהיה להם זמן.
+    answers:
+    - tengan
+    options:
+    - tengan
+    - tienen
+    - tener
+    lexemes:
+    - no-creo-que
+    - tener
+    - tiempo
+  - id: u30-l2-18
+    type: word_bank
+    prompt: אני חושבת שהוא צודק.
+    answers:
+    - Creo que tiene razón.
+    distractors:
+    - Creo que tenga razón
+    lexemes:
+    - creo-que
+    - tener-razon
+  - id: u30-l2-19
+    type: word_bank
+    prompt: אני לא חושבת שזה קל.
+    answers:
+    - No creo que sea fácil.
+    distractors:
+    - No creo que es fácil
+    lexemes:
+    - no-creo-que
+    - facil
+  - id: u30-l2-20
+    type: translate
+    direction: to_target
+    prompt: אני מסכימה איתך.
+    answers:
+    - Estoy de acuerdo contigo.
+    lexemes:
+    - de-acuerdo
+  - id: u30-l2-21
+    type: translate
+    direction: to_source
+    prompt: Por un lado me gusta, por otro lado no.
+    answers:
+    - מצד אחד זה מוצא חן בעיניי, מצד שני לא
+    lexemes:
+    - por-un-lado
+    - gustar
+  - id: u30-l2-22
+    type: dictation
+    text: Voy a comentar el artículo.
+    lexemes:
+    - comentar
+    - articulo
+- id: u30-l3
+  kind: grammar
+  title:
+    he: 'דעה: אינדיקטיב או סובג''ונקטיב?'
+    en: Opinions
+  grammar: opinar
+  exercises:
+  - id: u30-l3-01
+    type: fill_blank
+    sentence: Creo que ___ una buena idea. (ser)
+    translation: אני חושבת שזה רעיון טוב.
+    answers:
+    - es
+    options:
+    - es
+    - sea
+    - ser
+    lexemes:
+    - creo-que
+    - ser
+  - id: u30-l3-02
+    type: fill_blank
+    sentence: No creo que ___ una buena idea. (ser)
+    translation: אני לא חושבת שזה רעיון טוב.
+    answers:
+    - sea
+    options:
+    - sea
+    - es
+    - será
+    lexemes:
+    - no-creo-que
+    - ser
+  - id: u30-l3-03
+    type: fill_blank
+    sentence: Me parece que ___ razón. (ella, tener)
+    translation: נראה לי שהיא צודקת.
+    answers:
+    - tiene
+    options:
+    - tiene
+    - tenga
+    - tener
+    lexemes:
+    - me-parece
+    - tener-razon
+  - id: u30-l3-04
+    type: fill_blank
+    sentence: Dudo que ___ tiempo. (nosotros, tener)
+    translation: אני מפקפקת שיהיה לנו זמן.
+    answers:
+    - tengamos
+    options:
+    - tengamos
+    - tenemos
+    - tener
+    lexemes:
+    - dudar
+    - tener
+    - tiempo
+  - id: u30-l3-05
+    type: fill_blank
+    sentence: Pienso que ___ importante. (ser)
+    translation: אני חושבת שזה חשוב.
+    answers:
+    - es
+    options:
+    - es
+    - sea
+    - fue
+    lexemes:
+    - pensar
+    - ser
+    - importante
+  - id: u30-l3-06
+    type: fill_blank
+    sentence: No pienso que ___ problemas. (haber)
+    translation: אני לא חושבת שיהיו בעיות.
+    answers:
+    - haya
+    options:
+    - haya
+    - hay
+    - habrá
+    lexemes:
+    - pensar
+    - problema
+  - id: u30-l3-07
+    type: fill_blank
+    sentence: No creo que él ___ aquí. (estar)
+    translation: אני לא חושבת שהוא כאן.
+    answers:
+    - esté
+    options:
+    - esté
+    - está
+    - estar
+    lexemes:
+    - no-creo-que
+    - estar
+    - aqui
+  - id: u30-l3-08
+    type: fill_blank
+    sentence: Creo que él ___ a venir. (ir)
+    translation: אני חושבת שהוא יבוא.
+    answers:
+    - va
+    options:
+    - va
+    - vaya
+    - ir
+    lexemes:
+    - creo-que
+    - ir
+    - venir
+  - id: u30-l3-09
+    type: multiple_choice
+    prompt: מה צריך אחרי 'no creo que'?
+    options:
+    - סובג'ונקטיב
+    - אינדיקטיב
+    - מקור
+    correct: 0
+    lexemes:
+    - no-creo-que
+  - id: u30-l3-10
+    type: multiple_choice
+    prompt: מה צריך אחרי 'creo que'?
+    options:
+    - אינדיקטיב
+    - סובג'ונקטיב
+    - תנאי
+    correct: 0
+    lexemes:
+    - creo-que
+  - id: u30-l3-11
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - No creo que venga.
+    - No creo que viene.
+    - No creo venga.
+    correct: 0
+    lexemes:
+    - no-creo-que
+    - venir
+  - id: u30-l3-12
+    type: word_bank
+    prompt: אני חושבת שהם צודקים.
+    answers:
+    - Creo que tienen razón.
+    distractors:
+    - Creo que tengan razón
+    lexemes:
+    - creo-que
+    - tener-razon
+  - id: u30-l3-13
+    type: word_bank
+    prompt: אני לא חושבת שזה נכון.
+    answers:
+    - No creo que sea cierto.
+    distractors:
+    - No creo que es cierto
+    lexemes:
+    - no-creo-que
+    - cierto
+  - id: u30-l3-14
+    type: translate
+    direction: to_target
+    prompt: נראה לי שזה קשה.
+    answers:
+    - Me parece que es difícil.
+    lexemes:
+    - me-parece
+    - dificil
+  - id: u30-l3-15
+    type: translate
+    direction: to_target
+    prompt: אני לא חושבת שהוא יבוא.
+    answers:
+    - No creo que venga.
+    lexemes:
+    - no-creo-que
+    - venir
+  - id: u30-l3-16
+    type: translate
+    direction: to_source
+    prompt: Pienso que es una buena opinión.
+    answers:
+    - אני חושבת שזו דעה טובה
+    lexemes:
+    - pensar
+    - opinion
+  - id: u30-l3-17
+    type: translate
+    direction: to_source
+    prompt: No creo que tengas razón.
+    answers:
+    - אני לא חושבת שאתה צודק
+    - אני לא חושבת שאת צודקת
+    lexemes:
+    - no-creo-que
+    - tener-razon
+- id: u30-l4
+  kind: listening
+  title:
+    he: בעיתון
+    en: In the paper
+  exercises:
+  - id: u30-l4-01
+    type: dialogue
+    scene: דון ריקרדו ויעל מסכמים את הכתבה.
+    lines:
+    - speaker: ricardo
+      text: El artículo dice que la biblioteca abre en marzo. ¿Qué piensas?
+      translation: הכתבה אומרת שהספרייה נפתחת במרץ. מה את חושבת?
+    - speaker: yael
+      text: Me parece una buena noticia, pero dudo que abra a tiempo.
+      translation: נראה לי חדשות טובות, אבל אני מפקפקת שהיא תיפתח בזמן.
+    - speaker: ricardo
+      text: Estoy de acuerdo. Ojalá que la comunidad ayude con los libros.
+      translation: אני מסכים. הלוואי שהקהילה תעזור עם הספרים.
+    - speaker: yael
+      text: Puedo escribir un comentario en el periódico. Creo que es importante.
+      translation: אני יכולה לכתוב תגובה בעיתון. אני חושבת שזה חשוב.
+  - id: u30-l4-02
+    type: multiple_choice
+    prompt: מתי נפתחת הספרייה?
+    options:
+    - במרץ
+    - בדצמבר
+    - מחר
+    correct: 0
+    lexemes:
+    - marzo
+    - diciembre
+    - manana-adv
+  - id: u30-l4-03
+    type: multiple_choice
+    prompt: מה יעל מפקפקת?
+    options:
+    - שתיפתח בזמן
+    - שהיא טובה
+    - שהיא קיימת
+    correct: 0
+    lexemes:
+    - dudar
+    - a-tiempo
+    - biblioteca
+  - id: u30-l4-04
+    type: multiple_choice
+    prompt: מה יעל יכולה לעשות?
+    options:
+    - לכתוב תגובה בעיתון
+    - לסגור את הספרייה
+    - לחתום חוזה
+    correct: 0
+    lexemes:
+    - comentar
+    - periodico
+    - cerrar
+    - contrato
+  - id: u30-l4-05
+    type: listening_choice
+    audioText: Dudo que abra a tiempo.
+    question: מה אומרים?
+    options:
+    - אני מפקפקת שתיפתח בזמן
+    - היא נפתחת בזמן
+    - היא סגורה
+    correct: 0
+    lexemes:
+    - dudar
+    - abrir
+    - a-tiempo
+    - cerrar
+  - id: u30-l4-06
+    type: listening_choice
+    audioText: Es una noticia importante.
+    question: מה אומרים?
+    options:
+    - זו חדשה חשובה
+    - זה מכתב
+    - זו מתנה
+    correct: 0
+    lexemes:
+    - noticia
+    - importante
+    - carta
+    - regalo
+  - id: u30-l4-07
+    type: dictation
+    text: Creo que es una buena noticia.
+    lexemes:
+    - creo-que
+    - noticia
+  - id: u30-l4-08
+    type: translate
+    direction: to_target
+    prompt: אני לא מסכימה.
+    answers:
+    - No estoy de acuerdo.
+    lexemes:
+    - de-acuerdo
+  - id: u30-l4-09
+    type: speak_repeat
+    text: Creo que es importante, pero no creo que sea fácil.
+    translation: אני חושבת שזה חשוב, אבל אני לא חושבת שזה יהיה קל.
+    lexemes:
+    - creo-que
+    - no-creo-que
+    - importante
+    - facil
+- id: u30-l5
+  kind: reading
+  title:
+    he: כתבה קצרה
+    en: A short article
+  exercises:
+  - id: u30-l5-01
+    type: reading
+    kind: כתבה
+    title: Nueva biblioteca para la colonia
+    text: 'La comunidad de la colonia va a abrir una biblioteca nueva en marzo. Muchas familias creen que es una buena idea, porque los niños necesitan libros.
+
+      Sin embargo, algunos vecinos no creen que sea fácil: cuesta dinero y necesitan voluntarios.
+
+      El director de la escuela dice: «Es importante que todos ayudemos».
+
+      '
+    translation: 'קהילת השכונה תפתח ספרייה חדשה במרץ. הרבה משפחות חושבות שזה רעיון טוב כי ילדים צריכים ספרים.
+
+      אולם כמה שכנים לא חושבים שזה יהיה קל: זה עולה כסף וצריך מתנדבים.
+
+      מנהל בית הספר אומר: «חשוב שכולנו נעזור».
+
+      '
+  - id: u30-l5-02
+    type: multiple_choice
+    prompt: מה צריך לספרייה?
+    options:
+    - כסף ומתנדבים
+    - רק ספרים
+    - שום דבר
+    correct: 0
+    lexemes:
+    - dinero
+    - biblioteca
+  - id: u30-l5-03
+    type: multiple_choice
+    prompt: מה מנהל בית הספר אומר?
+    options:
+    - חשוב שכולם יעזרו
+    - שאין צורך
+    - שהיא יקרה
+    correct: 0
+    lexemes:
+    - escuela
+    - ayudar
+    - caro
+  - id: u30-l5-04
+    type: fill_blank
+    sentence: Algunos no creen que ___ fácil. (ser)
+    translation: חלקם לא חושבים שזה יהיה קל.
+    answers:
+    - sea
+    options:
+    - sea
+    - es
+    - será
+    lexemes:
+    - no-creo-que
+    - facil
+  - id: u30-l5-05
+    type: translate
+    direction: to_target
+    prompt: הקהילה תפתח ספרייה.
+    answers:
+    - La comunidad va a abrir una biblioteca.
+    lexemes:
+    - comunidad
+    - ir
+    - abrir
+    - biblioteca
+- id: u30-review
+  kind: review
+  title:
+    he: 'חזרה: דעות + כתיבה'
+    en: 'Review: opinions + writing'
+  exercises:
+  - id: u30-review-01
+    type: match_pairs
+    pairs:
+    - - el periódico
+      - עיתון
+    - - el artículo
+      - כתבה
+    - - la opinión
+      - דעה
+    - - la comunidad
+      - קהילה
+    - - la biblioteca
+      - ספרייה
+    lexemes:
+    - periodico
+    - articulo
+    - opinion
+    - comunidad
+    - biblioteca
+  - id: u30-review-02
+    type: match_pairs
+    pairs:
+    - - creo que
+      - אני חושבת ש
+    - - no creo que
+      - אני לא חושבת ש
+    - - tener razón
+      - להיות צודק
+    - - estar de acuerdo
+      - להסכים
+    - - cierto
+      - נכון
+    lexemes:
+    - creo-que
+    - no-creo-que
+    - tener-razon
+    - de-acuerdo
+    - cierto
+  - id: u30-review-03
+    type: fill_blank
+    sentence: No creo que ___ razón. (él, tener)
+    translation: אני לא חושבת שהוא צודק.
+    answers:
+    - tenga
+    options:
+    - tenga
+    - tiene
+    - tener
+    lexemes:
+    - no-creo-que
+    - tener-razon
+  - id: u30-review-04
+    type: fill_blank
+    sentence: Creo que ___ buena idea. (ser)
+    translation: אני חושבת שזה רעיון טוב.
+    answers:
+    - es
+    options:
+    - es
+    - sea
+    - ser
+    lexemes:
+    - creo-que
+    - ser
+  - id: u30-review-05
+    type: multiple_choice
+    prompt: מה פירוש 'Por un lado… por otro lado'?
+    options:
+    - מצד אחד… מצד שני
+    - בגלל… בשביל
+    - ראשון… אחרון
+    correct: 0
+    lexemes:
+    - por-un-lado
+  - id: u30-review-06
+    type: listening_choice
+    audioText: Estoy de acuerdo contigo.
+    question: מה אומרים?
+    options:
+    - אני מסכימה איתך
+    - אני לא מסכימה
+    - אני צודקת
+    correct: 0
+    lexemes:
+    - de-acuerdo
+    - tener-razon
+  - id: u30-review-07
+    type: word_bank
+    prompt: אני לא חושבת שהוא יבוא.
+    answers:
+    - No creo que venga.
+    distractors:
+    - No creo que viene
+    lexemes:
+    - no-creo-que
+    - venir
+  - id: u30-review-08
+    type: translate
+    direction: to_target
+    prompt: אתה צודק, אבל אני לא מסכימה.
+    answers:
+    - Tienes razón, pero no estoy de acuerdo.
+    lexemes:
+    - tener-razon
+    - de-acuerdo
+  - id: u30-review-09
+    type: translate
+    direction: to_source
+    prompt: Me parece que es cierto.
+    answers:
+    - נראה לי שזה נכון
+    lexemes:
+    - me-parece
+    - cierto
+  - id: u30-review-10
+    type: dictation
+    text: No creo que sea fácil.
+    lexemes:
+    - no-creo-que
+    - facil
+  - id: u30-review-11
+    type: speak_repeat
+    text: Estoy de acuerdo con el plan.
+    translation: אני מסכימה עם התוכנית.
+    lexemes:
+    - de-acuerdo
+  - id: u30-review-12
+    type: write
+    prompt: כתבו תגובה קצרה לכתבה על נושא שמעניין אתכם (ספרייה, שכונה, בית ספר, עיר). הביעו דעה (creo que…), הסתייגות (no creo que…), הסכמה או אי־הסכמה (estoy de acuerdo / no estoy de acuerdo), וגם 'מצד אחד… מצד שני'.
+    minWords: 40
+    checks:
+    - label: דעה חיובית (creo que / pienso que / me parece que)
+      any:
+      - creo que
+      - pienso que
+      - me parece que
+    - label: הסתייגות או ספק (no creo que / dudo que + סובג'ונקטיב)
+      any:
+      - no creo que
+      - no pienso que
+      - dudo que
+    - label: הסכמה או אי־הסכמה
+      any:
+      - de acuerdo
+      - tengo razon
+      - tienes razon
+      - es cierto
+    - label: מצד אחד… מצד שני, sin embargo או aunque
+      any:
+      - por un lado
+      - por otro
+      - sin embargo
+      - aunque
+      - pero
+    model: Leí el artículo sobre la biblioteca de la colonia. Creo que es una buena idea para la comunidad. Por un lado, los niños necesitan libros; por otro lado, cuesta mucho dinero. No creo que sea fácil, pero estoy de acuerdo con el plan. Ojalá que muchos vecinos ayuden.
+    lexemes: []
+- id: b1-test
+  kind: test
+  title:
+    he: מבחן רמה B1
+    en: B1 level test
+  exercises:
+  - id: b1-test-01
+    type: fill_blank
+    sentence: Cuando era niña, yo ___ en México. (vivir, imperfecto)
+    translation: כשהייתי ילדה, גרתי במקסיקו.
+    answers:
+    - vivía
+    options:
+    - vivía
+    - viví
+    - vivo
+    lexemes:
+    - vivir
+  - id: b1-test-02
+    type: fill_blank
+    sentence: Ayer ___ al mercado y compré fruta. (ir)
+    translation: אתמול הלכתי לשוק וקניתי פירות.
+    answers:
+    - fui
+    options:
+    - fui
+    - iba
+    - voy
+    lexemes:
+    - ayer
+    - ir
+    - mercado
+  - id: b1-test-03
+    type: multiple_choice
+    prompt: 'מה ההבדל: ''Comía'' מול ''Comí''?'
+    options:
+    - חוזר או מתמשך / פעם אחת
+    - אין הבדל
+    - עתיד / עבר
+    correct: 0
+    lexemes:
+    - comer
+  - id: b1-test-04
+    type: fill_blank
+    sentence: Yo ya ___ el informe. (escribir, pretérito perfecto)
+    translation: כבר כתבתי את הדוח.
+    answers:
+    - he escrito
+    options:
+    - he escrito
+    - escribí
+    - escribía
+    lexemes:
+    - ya
+    - escribir
+    - informe
+  - id: b1-test-05
+    type: fill_blank
+    sentence: Mañana yo ___ al aeropuerto. (ir, futuro)
+    translation: מחר אלך לשדה התעופה.
+    answers:
+    - iré
+    options:
+    - iré
+    - voy
+    - iba
+    lexemes:
+    - manana-adv
+    - ir
+    - aeropuerto
+  - id: b1-test-06
+    type: fill_blank
+    sentence: Si tuviera tiempo, ___ más. (viajar, condicional)
+    translation: אם היה לי זמן, הייתי נוסעת יותר.
+    answers:
+    - viajaría
+    options:
+    - viajaría
+    - viajo
+    - viajé
+    lexemes:
+    - tener
+    - tiempo
+    - viajar
+  - id: b1-test-07
+    type: multiple_choice
+    prompt: מה פירוש 'Lo hice ayer'?
+    options:
+    - עשיתי את זה אתמול
+    - אעשה את זה מחר
+    - אני עושה את זה
+    correct: 0
+    lexemes:
+    - hacer
+    - ayer
+  - id: b1-test-08
+    type: fill_blank
+    sentence: ¿La carta? Se ___ di a Mateo.
+    translation: המכתב? נתתי לו אותו.
+    answers:
+    - la
+    options:
+    - la
+    - lo
+    - le
+    lexemes:
+    - carta
+    - dar
+  - id: b1-test-09
+    type: fill_blank
+    sentence: Este regalo es ___ mi hermana.
+    translation: המתנה הזאת בשביל אחותי.
+    answers:
+    - para
+    options:
+    - para
+    - por
+    - de
+    lexemes:
+    - hermana
+  - id: b1-test-10
+    type: fill_blank
+    sentence: Gracias ___ tu ayuda.
+    translation: תודה על העזרה שלך.
+    answers:
+    - por
+    options:
+    - por
+    - para
+    - en
+    lexemes:
+    - ayuda
+  - id: b1-test-11
+    type: fill_blank
+    sentence: (tú) ___ aquí, por favor. (venir)
+    translation: בוא הנה, בבקשה.
+    answers:
+    - Ven
+    options:
+    - Ven
+    - Viene
+    - Venga
+    lexemes:
+    - venir
+    - aqui
+  - id: b1-test-12
+    type: fill_blank
+    sentence: (tú, no) No ___ tanto. (hablar)
+    translation: אל תדבר כל כך הרבה.
+    answers:
+    - hables
+    options:
+    - hables
+    - hablas
+    - habla
+    lexemes:
+    - hablar
+  - id: b1-test-13
+    type: fill_blank
+    sentence: Quiero que (tú) ___ conmigo. (venir)
+    translation: אני רוצה שתבוא איתי.
+    answers:
+    - vengas
+    options:
+    - vengas
+    - vienes
+    - venir
+    lexemes:
+    - querer
+    - venir
+  - id: b1-test-14
+    type: fill_blank
+    sentence: No creo que ___ difícil. (ser)
+    translation: אני לא חושבת שזה קשה.
+    answers:
+    - sea
+    options:
+    - sea
+    - es
+    - será
+    lexemes:
+    - no-creo-que
+    - dificil
+  - id: b1-test-15
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Espero que vengas.
+    - Espero que vienes.
+    - Espero venir tú.
+    correct: 0
+    lexemes:
+    - esperar
+    - venir
+  - id: b1-test-16
+    type: multiple_choice
+    prompt: מה פירוש 'ojalá'?
+    options:
+    - הלוואי
+    - בבקשה
+    - תודה
+    correct: 0
+    lexemes:
+    - ojala
+  - id: b1-test-17
+    type: multiple_choice
+    prompt: מה פירוש 'Estoy de acuerdo'?
+    options:
+    - אני מסכים
+    - אני צודק
+    - אני לא יודע
+    correct: 0
+    lexemes:
+    - de-acuerdo
+  - id: b1-test-18
+    type: word_bank
+    prompt: אני חושבת שהוא צודק.
+    answers:
+    - Creo que tiene razón.
+    distractors:
+    - Creo que tenga razón
+    lexemes:
+    - creo-que
+    - tener-razon
+  - id: b1-test-19
+    type: word_bank
+    prompt: אני לא חושבת שהוא יבוא.
+    answers:
+    - No creo que venga.
+    distractors:
+    - No creo que viene
+    lexemes:
+    - no-creo-que
+    - venir
+  - id: b1-test-20
+    type: word_bank
+    prompt: הלוואי שהמבחן יהיה קל.
+    answers:
+    - Ojalá que el examen sea fácil.
+    distractors:
+    - Ojalá que el examen es fácil
+    lexemes:
+    - ojala
+    - examen
+    - facil
+  - id: b1-test-21
+    type: translate
+    direction: to_target
+    prompt: שלחתי לך אותו אתמול.
+    answers:
+    - Te lo envié ayer.
+    lexemes:
+    - enviar
+    - ayer
+  - id: b1-test-22
+    type: translate
+    direction: to_target
+    prompt: אני צריכה שתעזור לי.
+    answers:
+    - Necesito que me ayudes.
+    lexemes:
+    - necesitar
+    - ayudar
+  - id: b1-test-23
+    type: translate
+    direction: to_target
+    prompt: בגלל זה אני לא מסכימה.
+    answers:
+    - Por eso no estoy de acuerdo.
+    lexemes:
+    - por-eso
+    - de-acuerdo
+  - id: b1-test-24
+    type: translate
+    direction: to_source
+    prompt: Cuando llegué, ellos ya salieron.
+    answers:
+    - כשהגעתי, הם כבר יצאו
+    lexemes:
+    - llegar
+    - salir
+    - ya
+  - id: b1-test-25
+    type: translate
+    direction: to_source
+    prompt: Siempre íbamos a la playa en verano.
+    answers:
+    - תמיד היינו הולכים לחוף בקיץ
+    - תמיד הלכנו לחוף בקיץ
+    lexemes:
+    - siempre
+    - ir
+    - verano
+  - id: b1-test-26
+    type: translate
+    direction: to_source
+    prompt: Dudo que tengamos tiempo.
+    answers:
+    - אני מפקפק שיהיה לנו זמן
+    - אני מפקפקת שיהיה לנו זמן
+    lexemes:
+    - dudar
+    - tener
+    - tiempo
+  - id: b1-test-27
+    type: listening_choice
+    audioText: Espero que vengas mañana.
+    question: מה אומרים?
+    options:
+    - אני מקווה שתבוא מחר
+    - בוא אתמול
+    - אני לא יודע
+    correct: 0
+    lexemes:
+    - esperar
+    - venir
+    - manana-adv
+    - ayer
+  - id: b1-test-28
+    type: listening_choice
+    audioText: Se lo di a Mateo.
+    question: מה קרה?
+    options:
+    - נתתי לו אותו
+    - קיבלתי ממנו
+    - אמרתי לו
+    correct: 0
+    lexemes:
+    - dar
+    - recibir
+    - decir
+  - id: b1-test-29
+    type: dictation
+    text: Creo que es una buena idea.
+    lexemes:
+    - creo-que
+    - idea
+  - id: b1-test-30
+    type: speak_repeat
+    text: No creo que sea fácil, pero estoy de acuerdo.
+    translation: אני לא חושבת שזה יהיה קל, אבל אני מסכימה.
+    lexemes:
+    - no-creo-que
+    - facil
+    - de-acuerdo

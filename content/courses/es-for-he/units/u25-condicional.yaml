@@ -1,0 +1,1090 @@
+id: u25-condicional
+cefr: B1
+scene: work
+title:
+  he: עצות ובקשות מנומסות
+  en: Advice and polite conditionals
+story: דני עובד קשה מדי ומרגיש מותש. יעל, לוסיה ומתאו נותנים לו עצות. יעל לומדת את ה־condicional (hablaría), שמשמש לעצות, בקשות מנומסות והשערות על מה שהיה קורה.
+canDo:
+- 'לתת עצה: Yo en tu lugar descansaría. Deberías hablar con tu jefe.'
+- 'לבקש בנימוס: ¿Podrías ayudarme? Me gustaría…'
+- 'להשתמש בתנאי: hablaría, comerías, viviríamos'
+- להבין ולהשתמש ב־estaría, tendría, haría, diría
+vocabulary:
+- id: consejo
+  text: el consejo
+  translation: עצה
+  pos: noun
+- id: aconsejar
+  text: aconsejar
+  translation: לייעץ
+  pos: verb
+- id: sugerir
+  text: sugerir
+  translation: להציע (רעיון)
+  pos: verb
+- id: recomendar
+  text: recomendar
+  translation: להמליץ
+  pos: verb
+- id: en-tu-lugar
+  text: en tu lugar
+  translation: במקומך
+  pos: phrase
+- id: deberias
+  text: deberías
+  translation: כדאי לך, אתה צריך
+  pos: phrase
+- id: podrias
+  text: podrías
+  translation: אתה יכול (נימוס)
+  pos: phrase
+- id: seria
+  text: sería
+  translation: יהיה / היה (תנאי)
+  pos: phrase
+- id: estres
+  text: el estrés
+  translation: לחץ
+  pos: noun
+- id: vacaciones
+  text: las vacaciones
+  translation: חופשה
+  pos: noun
+- id: carga
+  text: la carga de trabajo
+  translation: עומס עבודה
+  pos: noun
+- id: equilibrio
+  text: el equilibrio
+  translation: איזון
+  pos: noun
+- id: pausa
+  text: la pausa
+  translation: הפסקה
+  pos: noun
+- id: hablar-con
+  text: hablar con
+  translation: לדבר עם
+  pos: phrase
+- id: pedir-ayuda
+  text: pedir ayuda
+  translation: לבקש עזרה
+  pos: phrase
+- id: saludable
+  text: saludable
+  translation: בריא
+  pos: adjective
+- id: sin-duda
+  text: sin duda
+  translation: ללא ספק
+  pos: phrase
+- id: quizas
+  text: quizás
+  translation: אולי
+  pos: adverb
+- id: convenir
+  text: convenir
+  translation: כדאי
+  pos: verb
+grammar:
+- id: condicional
+  title:
+    he: 'תנאי: hablaría'
+    en: The conditional
+  explanation: '**ה־condicional** נבנה כמו העתיד: **מקור + סיומות**, אבל הסיומות הן של ה־imperfecto של er/ir:
+
+
+    | כינוי | סיומת | hablar |
+
+    |---|---|---|
+
+    | yo | **-ía** | hablaría |
+
+    | tú | **-ías** | hablarías |
+
+    | él / ella / usted | **-ía** | hablaría |
+
+    | nosotros | **-íamos** | hablaríamos |
+
+    | ellos / ustedes | **-ían** | hablarían |
+
+
+    **אותם גזעים לא רגילים כמו בעתיד:** *tendría, haría, podría, diría, saldría, vendría, pondría, sabría, querría, habría.*
+
+    (ser הוא רגיל כאן: *sería*; ir: *iría*.)
+
+
+    **שימושים:**
+
+    1. **בקשה מנומסת:** *¿Podrías ayudarme?* | *Me gustaría una taza de té.*
+
+    2. **עצה:** *Yo en tu lugar descansaría.* | *Deberías hablar con tu jefe.* | *Podrías tomar unas vacaciones.*
+
+    3. **השערה:** *Sería mejor hablar mañana.* | *Con más tiempo, lo haría.*
+
+    4. **עתיד בתוך עבר (דיבור עקיף):** *Dijo que vendría.* (אמר שיבוא)
+
+
+    **דרכים להציע:** *te aconsejo que…*, *te recomiendo…*, *sería bueno…*, *quizás deberías…*.
+
+    הערה: *deber* ו־*poder* בתנאי (*debería, podría*) הם הנפוצים ביותר לעצות.'
+  examples:
+  - text: Yo en tu lugar descansaría un poco.
+    translation: במקומך הייתי נח קצת.
+  - text: ¿Podrías ayudarme con este archivo?
+    translation: תוכל לעזור לי עם הקובץ הזה?
+  - text: Dijo que vendría a las ocho.
+    translation: הוא אמר שיבוא בשמונה.
+lessons:
+- id: u25-l1
+  kind: new
+  title:
+    he: לתת עצה
+    en: Giving advice
+  exercises:
+  - id: u25-l1-01
+    type: dialogue
+    scene: דני נראה עייף. הצוות מנסה לעזור.
+    lines:
+    - speaker: lucia
+      text: Dani, te veo agotado. Trabajas demasiado.
+      translation: דני, אתה נראה מותש. אתה עובד יותר מדי.
+    - speaker: dani
+      text: Es verdad. Tengo mucha carga de trabajo y casi no duermo.
+      translation: זה נכון. יש לי הרבה עומס ואני כמעט לא ישן.
+    - speaker: yael
+      text: Yo en tu lugar hablaría con el jefe. Deberías pedir ayuda.
+      translation: במקומך הייתי מדברת עם הבוס. כדאי לך לבקש עזרה.
+    - speaker: mateo
+      text: Y podrías tomar unos días de vacaciones. Te haría bien.
+      translation: ואתה יכול לקחת כמה ימי חופשה. זה יעשה לך טוב.
+  - id: u25-l1-02
+    type: learn
+    lexeme: consejo
+  - id: u25-l1-03
+    type: learn
+    lexeme: aconsejar
+  - id: u25-l1-04
+    type: learn
+    lexeme: recomendar
+  - id: u25-l1-05
+    type: learn
+    lexeme: sugerir
+  - id: u25-l1-06
+    type: learn
+    lexeme: en-tu-lugar
+  - id: u25-l1-07
+    type: learn
+    lexeme: deberias
+  - id: u25-l1-08
+    type: learn
+    lexeme: podrias
+  - id: u25-l1-09
+    type: learn
+    lexeme: estres
+  - id: u25-l1-10
+    type: learn
+    lexeme: vacaciones
+  - id: u25-l1-11
+    type: learn
+    lexeme: carga
+  - id: u25-l1-12
+    type: learn
+    lexeme: pausa
+  - id: u25-l1-13
+    type: learn
+    lexeme: equilibrio
+  - id: u25-l1-14
+    type: match_pairs
+    pairs:
+    - - el consejo
+      - עצה
+    - - aconsejar
+      - לייעץ
+    - - recomendar
+      - להמליץ
+    - - sugerir
+      - להציע
+    - - en tu lugar
+      - במקומך
+    lexemes:
+    - consejo
+    - aconsejar
+    - recomendar
+    - sugerir
+    - en-tu-lugar
+  - id: u25-l1-15
+    type: match_pairs
+    pairs:
+    - - el estrés
+      - לחץ
+    - - las vacaciones
+      - חופשה
+    - - la carga
+      - עומס
+    - - la pausa
+      - הפסקה
+    - - el equilibrio
+      - איזון
+    lexemes:
+    - estres
+    - vacaciones
+    - carga
+    - pausa
+    - equilibrio
+  - id: u25-l1-16
+    type: multiple_choice
+    prompt: מה פירוש 'Deberías descansar'?
+    options:
+    - כדאי לך לנוח
+    - אתה נח
+    - נחת אתמול
+    correct: 0
+    lexemes:
+    - deberias
+    - descansar
+  - id: u25-l1-17
+    type: multiple_choice
+    prompt: מה פירוש 'Yo en tu lugar hablaría con él'?
+    options:
+    - במקומך הייתי מדבר איתו
+    - דיברתי איתו
+    - אדבר איתו מחר
+    correct: 0
+    lexemes:
+    - en-tu-lugar
+    - hablar
+  - id: u25-l1-18
+    type: multiple_choice
+    prompt: איזה משפט הוא עצה?
+    options:
+    - Podrías tomar unas vacaciones.
+    - Tomaste unas vacaciones.
+    - Tomo unas vacaciones.
+    correct: 0
+    lexemes:
+    - podrias
+    - vacaciones
+  - id: u25-l1-19
+    type: listening_choice
+    audioText: Te recomiendo descansar más.
+    question: מה עושים?
+    options:
+    - ממליצים לנוח
+    - אוסרים לנוח
+    - מבקשים לעבוד
+    correct: 0
+    lexemes:
+    - recomendar
+    - descansar
+    - trabajar
+  - id: u25-l1-20
+    type: listening_choice
+    audioText: Deberías pedir ayuda.
+    question: מה הוא ממליץ?
+    options:
+    - לבקש עזרה
+    - לא לדבר
+    - לצאת
+    correct: 0
+    lexemes:
+    - deberias
+    - pedir
+    - ayudar
+    - hablar
+    - salir
+  - id: u25-l1-21
+    type: translate
+    direction: to_target
+    prompt: אני ממליץ לך לנוח.
+    answers:
+    - Te recomiendo descansar.
+    - Te recomiendo que descanses.
+    lexemes:
+    - recomendar
+    - descansar
+  - id: u25-l1-22
+    type: translate
+    direction: to_target
+    prompt: במקומך הייתי מדבר.
+    answers:
+    - Yo en tu lugar hablaría.
+    - En tu lugar hablaría.
+    lexemes:
+    - en-tu-lugar
+    - hablar
+  - id: u25-l1-23
+    type: translate
+    direction: to_source
+    prompt: Podrías tomar unas pausas.
+    answers:
+    - אתה יכול לקחת כמה הפסקות
+    lexemes:
+    - podrias
+    - tomar
+    - pausa
+  - id: u25-l1-24
+    type: dictation
+    text: Deberías descansar.
+    lexemes:
+    - deberias
+    - descansar
+  - id: u25-l1-25
+    type: speak_repeat
+    text: Yo en tu lugar descansaría.
+    translation: במקומך הייתי נחה.
+    lexemes:
+    - en-tu-lugar
+    - descansar
+- id: u25-l2
+  kind: new
+  title:
+    he: לייעץ ולבקש בנימוס
+    en: Advice and polite requests
+  exercises:
+  - id: u25-l2-01
+    type: learn
+    lexeme: seria
+  - id: u25-l2-02
+    type: learn
+    lexeme: saludable
+  - id: u25-l2-03
+    type: learn
+    lexeme: sin-duda
+  - id: u25-l2-04
+    type: learn
+    lexeme: quizas
+  - id: u25-l2-05
+    type: learn
+    lexeme: convenir
+  - id: u25-l2-06
+    type: learn
+    lexeme: hablar-con
+  - id: u25-l2-07
+    type: learn
+    lexeme: pedir-ayuda
+  - id: u25-l2-08
+    type: match_pairs
+    pairs:
+    - - sería
+      - היה / יהיה
+    - - saludable
+      - בריא
+    - - sin duda
+      - ללא ספק
+    - - quizás
+      - אולי
+    - - convenir
+      - כדאי
+    lexemes:
+    - seria
+    - saludable
+    - sin-duda
+    - quizas
+    - convenir
+  - id: u25-l2-09
+    type: match_pairs
+    pairs:
+    - - hablar con
+      - לדבר עם
+    - - pedir ayuda
+      - לבקש עזרה
+    - - la pausa
+      - הפסקה
+    - - el estrés
+      - לחץ
+    - - las vacaciones
+      - חופשה
+    lexemes:
+    - hablar-con
+    - pedir-ayuda
+    - pausa
+    - estres
+    - vacaciones
+  - id: u25-l2-10
+    type: dialogue
+    scene: יעל נותנת עוד עצה.
+    lines:
+    - speaker: yael
+      text: Sería muy saludable hacer una pausa cada dos horas. Además, quizás podrías caminar un poco.
+      translation: זה יהיה מאוד בריא לעשות הפסקה כל שעתיים. בנוסף, אולי תוכל ללכת קצת.
+    - speaker: dani
+      text: Sí, sin duda me haría bien. ¿Me ayudarías a organizar mi semana?
+      translation: כן, בוודאי זה יעשה לי טוב. תעזרי לי לארגן את השבוע?
+    - speaker: yael
+      text: Con gusto. Podríamos empezar mañana.
+      translation: בשמחה. נוכל להתחיל מחר.
+  - id: u25-l2-11
+    type: multiple_choice
+    prompt: מה פירוש 'sin duda'?
+    options:
+    - ללא ספק
+    - אולי
+    - אף פעם
+    correct: 0
+    lexemes:
+    - sin-duda
+    - tal-vez
+    - nunca
+  - id: u25-l2-12
+    type: multiple_choice
+    prompt: מה פירוש '¿Me ayudarías?'
+    options:
+    - תעזור לי?
+    - עזרת לי?
+    - אתה עוזר לי?
+    correct: 0
+    lexemes:
+    - ayudar
+  - id: u25-l2-13
+    type: multiple_choice
+    prompt: מה פירוש 'Sería saludable'?
+    options:
+    - זה יהיה בריא
+    - זה היה בריא אתמול
+    - זה בריא תמיד
+    correct: 0
+    lexemes:
+    - seria
+    - saludable
+  - id: u25-l2-14
+    type: listening_choice
+    audioText: Podríamos empezar mañana.
+    question: מה מציעים?
+    options:
+    - להתחיל מחר
+    - להתחיל אתמול
+    - לא להתחיל
+    correct: 0
+    lexemes:
+    - manana-adv
+    - ayer
+  - id: u25-l2-15
+    type: listening_choice
+    audioText: Quizás deberías hablar con tu jefe.
+    question: מה מציעים?
+    options:
+    - לדבר עם הבוס
+    - לעזוב
+    - לנסוע
+    correct: 0
+    lexemes:
+    - quizas
+    - deberias
+    - hablar-con
+    - jefe
+    - viajar
+  - id: u25-l2-16
+    type: fill_blank
+    sentence: Yo en tu lugar ___ más. (descansar, תנאי)
+    translation: במקומך הייתי נח יותר.
+    answers:
+    - descansaría
+    options:
+    - descansaría
+    - descansaré
+    - descanso
+    lexemes:
+    - en-tu-lugar
+    - descansar
+  - id: u25-l2-17
+    type: fill_blank
+    sentence: ¿___ ayudarme? (poder, תנאי)
+    translation: תוכל לעזור לי?
+    answers:
+    - Podrías
+    options:
+    - Podrías
+    - Puedes
+    - Podrá
+    lexemes:
+    - podrias
+    - ayudar
+  - id: u25-l2-18
+    type: word_bank
+    prompt: אולי כדאי לך לנוח.
+    answers:
+    - Quizás deberías descansar.
+    distractors:
+    - Quizás
+    - debes
+    lexemes:
+    - quizas
+    - deberias
+    - descansar
+  - id: u25-l2-19
+    type: translate
+    direction: to_target
+    prompt: זה יהיה בריא.
+    answers:
+    - Sería saludable.
+    lexemes:
+    - seria
+    - saludable
+  - id: u25-l2-20
+    type: translate
+    direction: to_source
+    prompt: ¿Me ayudarías a organizar la semana?
+    answers:
+    - תעזור לי לארגן את השבוע?
+    - תעזרי לי לארגן את השבוע?
+    lexemes:
+    - ayudar
+    - semana
+  - id: u25-l2-21
+    type: dictation
+    text: Sin duda sería mejor.
+    lexemes:
+    - sin-duda
+    - seria
+    - mejor
+- id: u25-l3
+  kind: grammar
+  title:
+    he: תנאי
+    en: The conditional
+  grammar: condicional
+  exercises:
+  - id: u25-l3-01
+    type: fill_blank
+    sentence: Yo ___ con él. (hablar, תנאי)
+    translation: הייתי מדבר איתו.
+    answers:
+    - hablaría
+    options:
+    - hablaría
+    - hablaré
+    - hablo
+    lexemes:
+    - hablar
+  - id: u25-l3-02
+    type: fill_blank
+    sentence: Tú ___ más. (descansar, תנאי)
+    translation: היית נח יותר.
+    answers:
+    - descansarías
+    options:
+    - descansarías
+    - descansarás
+    - descansas
+    lexemes:
+    - descansar
+  - id: u25-l3-03
+    type: fill_blank
+    sentence: Ella ___ en Israel. (vivir, תנאי)
+    translation: היא הייתה גרה בישראל.
+    answers:
+    - viviría
+    options:
+    - viviría
+    - vivirá
+    - vive
+    lexemes:
+    - vivir
+    - israel
+  - id: u25-l3-04
+    type: fill_blank
+    sentence: Nosotros ___ el informe. (escribir, תנאי)
+    translation: היינו כותבים את הדוח.
+    answers:
+    - escribiríamos
+    options:
+    - escribiríamos
+    - escribiremos
+    - escribimos
+    lexemes:
+    - escribir
+    - informe
+  - id: u25-l3-05
+    type: fill_blank
+    sentence: Ellos ___ más tiempo. (tener, תנאי)
+    translation: היה להם יותר זמן.
+    answers:
+    - tendrían
+    options:
+    - tendrían
+    - tendrán
+    - tienen
+    lexemes:
+    - tener
+    - tiempo
+  - id: u25-l3-06
+    type: fill_blank
+    sentence: Yo no ___ eso. (hacer, תנאי)
+    translation: לא הייתי עושה את זה.
+    answers:
+    - haría
+    options:
+    - haría
+    - haré
+    - hago
+    lexemes:
+    - hacer
+  - id: u25-l3-07
+    type: fill_blank
+    sentence: Dijo que ___ a las ocho. (venir, תנאי)
+    translation: הוא אמר שיבוא בשמונה.
+    answers:
+    - vendría
+    options:
+    - vendría
+    - vendrá
+    - viene
+    lexemes:
+    - decir
+    - venir
+    - ocho
+  - id: u25-l3-08
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Me gustaría un café.
+    - Me gustara un café.
+    - Me gustó un café ahora.
+    correct: 0
+    lexemes:
+    - me-gustaria
+    - cafe
+  - id: u25-l3-09
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Yo en tu lugar hablaría.
+    - Yo en tu lugar hablaré.
+    - Yo en tu lugar hablaba.
+    correct: 0
+    lexemes:
+    - en-tu-lugar
+    - hablar
+  - id: u25-l3-10
+    type: multiple_choice
+    prompt: מה הצורה של 'poder' בתנאי עם yo?
+    options:
+    - podría
+    - poderé
+    - puedería
+    correct: 0
+    lexemes:
+    - poder
+  - id: u25-l3-11
+    type: word_bank
+    prompt: תוכל לעזור לי?
+    answers:
+    - ¿Podrías ayudarme?
+    distractors:
+    - Podrá
+    - puedes
+    lexemes:
+    - podrias
+    - ayudar
+  - id: u25-l3-12
+    type: word_bank
+    prompt: הייתי רוצה לנוח.
+    answers:
+    - Me gustaría descansar.
+    distractors:
+    - Gusta
+    - descanso
+    lexemes:
+    - me-gustaria
+    - descansar
+  - id: u25-l3-13
+    type: translate
+    direction: to_target
+    prompt: הייתי מדבר עם הבוס.
+    answers:
+    - Hablaría con el jefe.
+    lexemes:
+    - hablar
+    - jefe
+  - id: u25-l3-14
+    type: translate
+    direction: to_target
+    prompt: היה יותר טוב לנוח.
+    answers:
+    - Sería mejor descansar.
+    lexemes:
+    - seria
+    - mejor
+    - descansar
+  - id: u25-l3-15
+    type: translate
+    direction: to_source
+    prompt: Deberías hablar con tu jefe.
+    answers:
+    - כדאי לך לדבר עם הבוס שלך
+    - אתה צריך לדבר עם הבוס שלך
+    lexemes:
+    - deberias
+    - hablar-con
+    - jefe
+  - id: u25-l3-16
+    type: translate
+    direction: to_source
+    prompt: Dijo que llegaría tarde.
+    answers:
+    - הוא אמר שיגיע מאוחר
+    - היא אמרה שתגיע מאוחר
+    lexemes:
+    - decir
+    - llegar
+    - tarde-adv
+- id: u25-l4
+  kind: listening
+  title:
+    he: בקשה והמלצה
+    en: A request and a recommendation
+  exercises:
+  - id: u25-l4-01
+    type: dialogue
+    scene: יעל מתייעצת עם הדוקטור הררה.
+    lines:
+    - speaker: yael
+      text: Doctor, me gustaría pedirle un consejo. Tengo mucha carga de trabajo.
+      translation: דוקטור, הייתי רוצה לבקש ממך עצה. יש לי הרבה עומס עבודה.
+    - speaker: herrera
+      text: Yo en su lugar hablaría con el equipo. Podrían dividir las tareas.
+      translation: במקומך הייתי מדבר עם הצוות. הם יכולים לחלק את המשימות.
+    - speaker: yael
+      text: ¿Cree que sería buena idea contratar a alguien?
+      translation: אתה חושב שזה יהיה רעיון טוב לשכור מישהו?
+    - speaker: herrera
+      text: Sin duda. Sería mejor para todos.
+      translation: בוודאי. זה יהיה טוב יותר לכולם.
+  - id: u25-l4-02
+    type: multiple_choice
+    prompt: מה הדוקטור ממליץ?
+    options:
+    - לדבר עם הצוות
+    - לעבוד יותר
+    - לצאת לחופשה
+    correct: 0
+    lexemes:
+    - hablar
+    - equipo
+    - trabajar
+    - vacaciones
+  - id: u25-l4-03
+    type: multiple_choice
+    prompt: מה יעל שואלת?
+    options:
+    - אם כדאי לשכור מישהו
+    - אם לצאת
+    - אם לנסוע
+    correct: 0
+    lexemes:
+    - seria
+    - salir
+    - viajar
+  - id: u25-l4-04
+    type: multiple_choice
+    prompt: מה הוא עונה?
+    options:
+    - בוודאי
+    - אף פעם
+    - אולי לא
+    correct: 0
+    lexemes:
+    - sin-duda
+    - nunca
+    - tal-vez
+  - id: u25-l4-05
+    type: listening_choice
+    audioText: Podrías pedirle ayuda a Mateo.
+    question: מה מציעים?
+    options:
+    - לבקש מתאו עזרה
+    - לבקש מדני
+    - לבקש מהבוס
+    correct: 0
+    lexemes:
+    - podrias
+    - pedir-ayuda
+    - jefe
+  - id: u25-l4-06
+    type: listening_choice
+    audioText: Me gustaría descansar un poco.
+    question: מה רוצים?
+    options:
+    - לנוח קצת
+    - לעבוד
+    - לאכול
+    correct: 0
+    lexemes:
+    - me-gustaria
+    - descansar
+    - un-poco
+    - trabajar
+    - comer
+  - id: u25-l4-07
+    type: dictation
+    text: Yo en tu lugar descansaría.
+    lexemes:
+    - en-tu-lugar
+    - descansar
+  - id: u25-l4-08
+    type: translate
+    direction: to_target
+    prompt: תוכל לעזור לי?
+    answers:
+    - ¿Podrías ayudarme?
+    lexemes:
+    - podrias
+    - ayudar
+  - id: u25-l4-09
+    type: speak_repeat
+    text: Sería mejor hablar con el equipo.
+    translation: יהיה טוב יותר לדבר עם הצוות.
+    lexemes:
+    - seria
+    - mejor
+    - hablar-con
+    - equipo
+- id: u25-l5
+  kind: reading
+  title:
+    he: עצה במייל
+    en: Advice by email
+  exercises:
+  - id: u25-l5-01
+    type: reading
+    kind: מייל
+    title: 'Re: Estoy agotado'
+    text: 'Hola Dani:
+
+      Entiendo cómo te sientes. En tu lugar, hablaría con el jefe sobre la carga de trabajo. Podrías proponer dividir las tareas del equipo.
+
+      También sería bueno hacer pausas durante el día y tomar unas vacaciones cuando puedas. Un buen equilibrio entre trabajo y descanso te haría mucho bien.
+
+      Si quieres, te ayudaría a preparar la conversación.
+
+      '
+    translation: 'שלום דני:
+
+      אני מבינה איך אתה מרגיש. במקומך הייתי מדברת עם הבוס על עומס העבודה. אתה יכול להציע לחלק את המשימות בצוות.
+
+      כדאי גם לעשות הפסקות במהלך היום ולקחת חופשה כשאפשר. איזון טוב בין עבודה למנוחה יעשה לך טוב מאוד.
+
+      אם תרצה, אעזור לך להכין את השיחה.
+
+      '
+  - id: u25-l5-02
+    type: multiple_choice
+    prompt: מה יעל מציעה לדני לעשות עם הבוס?
+    options:
+    - לדבר ולהציע לחלק משימות
+    - להתפטר
+    - להתעלם
+    correct: 0
+    lexemes:
+    - hablar-con
+    - jefe
+    - trabajo
+  - id: u25-l5-03
+    type: multiple_choice
+    prompt: מה עוד עוזר?
+    options:
+    - הפסקות וחופשה
+    - קפה נוסף
+    - עבודה בשבת
+    correct: 0
+    lexemes:
+    - pausa
+    - vacaciones
+    - cafe
+    - trabajar
+    - sabado
+  - id: u25-l5-04
+    type: fill_blank
+    sentence: En tu lugar ___ con el jefe. (hablar)
+    translation: במקומך הייתי מדבר עם הבוס.
+    answers:
+    - hablaría
+    options:
+    - hablaría
+    - hablaré
+    - hablé
+    lexemes:
+    - en-tu-lugar
+    - hablar
+    - jefe
+  - id: u25-l5-05
+    type: translate
+    direction: to_target
+    prompt: הייתי עוזרת לך.
+    answers:
+    - Te ayudaría.
+    lexemes:
+    - ayudar
+- id: u25-review
+  kind: review
+  title:
+    he: 'חזרה: עצות + כתיבה'
+    en: 'Review: advice + writing'
+  exercises:
+  - id: u25-review-01
+    type: match_pairs
+    pairs:
+    - - el consejo
+      - עצה
+    - - el estrés
+      - לחץ
+    - - las vacaciones
+      - חופשה
+    - - la pausa
+      - הפסקה
+    - - el equilibrio
+      - איזון
+    lexemes:
+    - consejo
+    - estres
+    - vacaciones
+    - pausa
+    - equilibrio
+  - id: u25-review-02
+    type: match_pairs
+    pairs:
+    - - quizás
+      - אולי
+    - - sin duda
+      - ללא ספק
+    - - saludable
+      - בריא
+    - - recomendar
+      - להמליץ
+    - - sugerir
+      - להציע
+    lexemes:
+    - quizas
+    - sin-duda
+    - saludable
+    - recomendar
+    - sugerir
+  - id: u25-review-03
+    type: fill_blank
+    sentence: Yo ___ más. (descansar, תנאי)
+    translation: הייתי נח יותר.
+    answers:
+    - descansaría
+    options:
+    - descansaría
+    - descansaré
+    - descanso
+    lexemes:
+    - descansar
+  - id: u25-review-04
+    type: fill_blank
+    sentence: ¿___ ayudarme, por favor? (poder, תנאי)
+    translation: תוכל לעזור לי, בבקשה?
+    answers:
+    - Podrías
+    options:
+    - Podrías
+    - Puedes
+    - Podrá
+    lexemes:
+    - podrias
+    - ayudar
+    - por-favor
+  - id: u25-review-05
+    type: multiple_choice
+    prompt: מה פירוש 'tendría más tiempo'?
+    options:
+    - היה לי יותר זמן
+    - יהיה לי יותר זמן
+    - יש לי יותר זמן
+    correct: 0
+    lexemes:
+    - tener
+    - tiempo
+  - id: u25-review-06
+    type: listening_choice
+    audioText: Me gustaría viajar a Israel.
+    question: מה רוצים?
+    options:
+    - לנסוע לישראל
+    - לגור בישראל
+    - ללמוד בישראל
+    correct: 0
+    lexemes:
+    - me-gustaria
+    - viajar
+    - israel
+    - vivir
+    - estudiar
+  - id: u25-review-07
+    type: word_bank
+    prompt: הייתי מדבר איתו.
+    answers:
+    - Hablaría con él.
+    distractors:
+    - Hablaré
+    - habló
+    lexemes:
+    - hablar
+  - id: u25-review-08
+    type: translate
+    direction: to_target
+    prompt: אולי כדאי לך לנוח.
+    answers:
+    - Quizás deberías descansar.
+    lexemes:
+    - quizas
+    - deberias
+    - descansar
+  - id: u25-review-09
+    type: translate
+    direction: to_source
+    prompt: Sería mejor tomar unas vacaciones.
+    answers:
+    - יהיה טוב יותר לקחת חופשה
+    lexemes:
+    - seria
+    - mejor
+    - tomar
+    - vacaciones
+  - id: u25-review-10
+    type: dictation
+    text: Sin duda sería saludable.
+    lexemes:
+    - sin-duda
+    - seria
+    - saludable
+  - id: u25-review-11
+    type: speak_repeat
+    text: Yo en tu lugar pediría ayuda.
+    translation: במקומך הייתי מבקשת עזרה.
+    lexemes:
+    - en-tu-lugar
+    - pedir-ayuda
+  - id: u25-review-12
+    type: write
+    prompt: חבר מרגיש עייף וחסר זמן. כתבו לו מייל עם עצות. השתמשו ב־condicional וב־deberías / podrías.
+    minWords: 40
+    checks:
+    - label: השתמשתם ב־condicional (…ía/…ías/…ían)
+      any:
+      - \w+(ria|rias|rian|riamos)\b
+    - label: השתמשתם ב־deberías, podrías או sería
+      any:
+      - deberias
+      - podrias
+      - seria
+      - deberia
+      - podria
+    - label: הצעתם עצה (en tu lugar, recomiendo, sugiero, aconsejo)
+      any:
+      - en tu lugar
+      - recomiendo
+      - sugiero
+      - aconsejo
+      - recomendaria
+    - label: הזכרתם מנוחה, חופשה או הפסקה
+      any:
+      - \bdescans
+      - vacacion
+      - \bpausa
+      - \bdormir
+    model: Hola Dani. En tu lugar, hablaría con el jefe sobre la carga de trabajo. Deberías descansar más y podrías tomar unas vacaciones. Te recomiendo hacer pausas durante el día. También sería bueno dormir ocho horas. Si quieres, te ayudaría a organizar tus tareas.
+    lexemes: []

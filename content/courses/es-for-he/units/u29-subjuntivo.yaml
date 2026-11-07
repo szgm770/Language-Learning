@@ -1,0 +1,1130 @@
+id: u29-subjuntivo
+cefr: B1
+scene: study
+title:
+  he: 'אני רוצה ש…: הסובג''ונקטיב הראשון'
+  en: First subjunctive
+story: 'לוסיה נבחנת בקרוב והכול סביבה מקווים, מבקשים ומאחלים: ''quiero que estudies'', ''espero que apruebes'', ''ojalá que sea fácil''. יעל פוגשת את הסובג''ונקטיב, מצב הרוח של רצון וספק.'
+canDo:
+- לבקש מאחרים בעזרת quiero que / necesito que / pido que
+- 'לבטא תקווה ורצון: espero que, ojalá'
+- להשתמש ב־es importante que / es posible que
+- לזהות צורות הסובג'ונקטיב בהווה (hable, coma, sea, tenga, vaya)
+vocabulary:
+- id: ojala
+  text: ojalá
+  translation: הלוואי
+  pos: interjection
+- id: examen
+  text: el examen
+  translation: מבחן
+  pos: noun
+- id: aprobar
+  text: aprobar
+  translation: לעבור (מבחן)
+  pos: verb
+- id: suerte
+  text: la suerte
+  translation: מזל
+  pos: noun
+- id: dudar
+  text: dudar
+  translation: לפקפק
+  pos: verb
+- id: alegrarse
+  text: alegrarse de que
+  translation: לשמוח ש
+  pos: phrase
+- id: quiero-que
+  text: quiero que
+  translation: אני רוצה ש
+  pos: phrase
+- id: espero-que
+  text: espero que
+  translation: אני מקווה ש
+  pos: phrase
+- id: necesito-que
+  text: necesito que
+  translation: אני צריכה ש
+  pos: phrase
+- id: es-importante-que
+  text: es importante que
+  translation: חשוב ש
+  pos: phrase
+- id: es-posible-que
+  text: es posible que
+  translation: ייתכן ש
+  pos: phrase
+- id: subj-reg
+  text: hable, coma, viva
+  translation: צורות סובג'ונקטיב רגילות
+  pos: phrase
+- id: subj-irr
+  text: sea, tenga, vaya, haga
+  translation: צורות סובג'ונקטיב לא רגילות
+  pos: phrase
+- id: sin-embargo-p
+  text: aunque
+  translation: אף על פי ש
+  pos: conjunction
+- id: tema
+  text: el tema
+  translation: נושא
+  pos: noun
+- id: repasar
+  text: repasar
+  translation: לחזור על החומר
+  pos: verb
+- id: preparar-p
+  text: preparar
+  translation: להכין
+  pos: verb
+- id: calma-p
+  text: la calma
+  translation: רוגע
+  pos: noun
+- id: resultado
+  text: el resultado
+  translation: תוצאה
+  pos: noun
+grammar:
+- id: subjuntivo-presente
+  title:
+    he: סובג'ונקטיב בהווה
+    en: Present subjunctive
+  explanation: 'בעברית יש משהו דומה: "אני רוצה **שתבוא**" (עתיד) ולא "שאתה בא". בספרדית זה **סובג''ונקטיב**: הפועל השני משנה צורה כשיש רצון, בקשה, תקווה, ספק או הערכה.
+
+
+    **המבנה:** פועל ראשון (רצון) + **que** + פועל שני בסובג''ונקטיב, וכשיש **שני נושאים שונים**:
+
+    * *Quiero que **estudies**.* (אני רוצה שתלמד) | *Espero que **apruebes**.* (אני מקווה שתעבור)
+
+    * *Necesito que me **ayudes**.* | *Es importante que **repases**.*
+
+    כשיש **נושא אחד** משתמשים במקור: *Quiero estudiar.* (אני רוצה ללמוד)
+
+
+    **איך יוצרים (הווה):** לוקחים את גוף ראשון יחיד בהווה (yo hablo → habl‑) ומחליפים את התנועה:
+
+    ‑ar → **‑e, ‑es, ‑e, ‑emos, ‑en**: *hable, hables, hable*
+
+    ‑er/‑ir → **‑a, ‑as, ‑a, ‑amos, ‑an**: *coma, comas, coma*
+
+
+    **לא רגילים:** *ser → sea* | *tener → tenga* | *ir → vaya* | *hacer → haga* | *venir → venga* | *poder → pueda* | *saber → sepa* | *estar → esté*
+
+
+    **מתי משתמשים:** רצון (*querer que*), בקשה (*pedir que*), תקווה (*esperar que*, *ojalá*), ספק (*dudar que*), רגש (*alegrarse de que*), הערכה (*es importante que*, *es posible que*).
+
+    **ojalá** + סובג''ונקטיב = הלוואי: *Ojalá que sea fácil.*
+
+
+    **הערה:** אחרי "creo que" משתמשים בהווה רגיל: *Creo que es fácil.* אבל *No creo que **sea** fácil.*'
+  examples:
+  - text: Quiero que estudies más, Lucía.
+    translation: אני רוצה שתלמדי יותר, לוסיה.
+  - text: Espero que apruebes el examen. Ojalá que sea fácil.
+    translation: אני מקווה שתעברי את המבחן. הלוואי שיהיה קל.
+  - text: Es importante que repases los temas.
+    translation: חשוב שתחזרי על הנושאים.
+lessons:
+- id: u29-l1
+  kind: new
+  title:
+    he: מקווים ומבקשים
+    en: Hoping and asking
+  exercises:
+  - id: u29-l1-01
+    type: dialogue
+    scene: לפני המבחן של לוסיה.
+    lines:
+    - speaker: yael
+      text: Lucía, ¿estás nerviosa por el examen?
+      translation: לוסיה, את לחוצה מהמבחן?
+    - speaker: lucia
+      text: Un poco. Quiero que me ayudes a repasar.
+      translation: קצת. אני רוצה שתעזרי לי לחזור על החומר.
+    - speaker: yael
+      text: Claro. Espero que apruebes. Ojalá que sea fácil.
+      translation: בטח. אני מקווה שתעברי. הלוואי שיהיה קל.
+    - speaker: lucia
+      text: Gracias. Es importante que tenga calma.
+      translation: תודה. חשוב שיהיה לי רוגע.
+  - id: u29-l1-02
+    type: learn
+    lexeme: ojala
+  - id: u29-l1-03
+    type: learn
+    lexeme: examen
+  - id: u29-l1-04
+    type: learn
+    lexeme: aprobar
+  - id: u29-l1-05
+    type: learn
+    lexeme: suerte
+  - id: u29-l1-06
+    type: learn
+    lexeme: repasar
+  - id: u29-l1-07
+    type: learn
+    lexeme: tema
+  - id: u29-l1-08
+    type: learn
+    lexeme: resultado
+  - id: u29-l1-09
+    type: learn
+    lexeme: quiero-que
+  - id: u29-l1-10
+    type: learn
+    lexeme: espero-que
+  - id: u29-l1-11
+    type: learn
+    lexeme: necesito-que
+  - id: u29-l1-12
+    type: learn
+    lexeme: es-importante-que
+  - id: u29-l1-13
+    type: match_pairs
+    pairs:
+    - - ojalá
+      - הלוואי
+    - - el examen
+      - מבחן
+    - - aprobar
+      - לעבור
+    - - la suerte
+      - מזל
+    - - repasar
+      - לחזור על החומר
+    lexemes:
+    - ojala
+    - examen
+    - aprobar
+    - suerte
+    - repasar
+  - id: u29-l1-14
+    type: match_pairs
+    pairs:
+    - - quiero que
+      - אני רוצה ש
+    - - espero que
+      - אני מקווה ש
+    - - necesito que
+      - אני צריכה ש
+    - - es importante que
+      - חשוב ש
+    - - el tema
+      - נושא
+    lexemes:
+    - quiero-que
+    - espero-que
+    - necesito-que
+    - es-importante-que
+    - tema
+  - id: u29-l1-15
+    type: multiple_choice
+    prompt: מה פירוש 'Espero que apruebes'?
+    options:
+    - אני מקווה שתעבור
+    - אני מקווה שעברתי
+    - אני עוברת
+    correct: 0
+    lexemes:
+    - esperar
+    - aprobar
+  - id: u29-l1-16
+    type: multiple_choice
+    prompt: מה פירוש 'Quiero que estudies'?
+    options:
+    - אני רוצה שתלמד
+    - אני רוצה ללמוד
+    - אני לומד
+    correct: 0
+    lexemes:
+    - querer
+    - estudiar
+  - id: u29-l1-17
+    type: multiple_choice
+    prompt: מה פירוש 'ojalá'?
+    options:
+    - הלוואי
+    - בסדר
+    - בבקשה
+    correct: 0
+    lexemes:
+    - ojala
+  - id: u29-l1-18
+    type: listening_choice
+    audioText: Espero que tengas suerte.
+    question: מה מאחלים?
+    options:
+    - שיהיה לך מזל
+    - שתלמד
+    - שתעבוד
+    correct: 0
+    lexemes:
+    - esperar
+    - tener
+    - suerte
+    - estudiar
+    - trabajar
+  - id: u29-l1-19
+    type: listening_choice
+    audioText: Necesito que me ayudes.
+    question: מה מבקשים?
+    options:
+    - שיעזרו לי
+    - לעזור לך
+    - ללכת
+    correct: 0
+    lexemes:
+    - necesitar
+    - ayudar
+    - ir
+  - id: u29-l1-20
+    type: translate
+    direction: to_target
+    prompt: אני מקווה שתבוא.
+    answers:
+    - Espero que vengas.
+    lexemes:
+    - esperar
+    - venir
+  - id: u29-l1-21
+    type: translate
+    direction: to_target
+    prompt: אני רוצה שתעזור לי.
+    answers:
+    - Quiero que me ayudes.
+    lexemes:
+    - querer
+    - ayudar
+  - id: u29-l1-22
+    type: translate
+    direction: to_source
+    prompt: Ojalá que apruebes.
+    answers:
+    - הלוואי שתעבור
+    - הלוואי שתעברי
+    lexemes:
+    - ojala
+    - aprobar
+  - id: u29-l1-23
+    type: dictation
+    text: Espero que apruebes el examen.
+    lexemes:
+    - esperar
+    - aprobar
+    - examen
+  - id: u29-l1-24
+    type: speak_repeat
+    text: Quiero que estudies más.
+    translation: אני רוצה שתלמד יותר.
+    lexemes:
+    - querer
+    - estudiar
+- id: u29-l2
+  kind: new
+  title:
+    he: ספק ורגש
+    en: Doubt and emotion
+  exercises:
+  - id: u29-l2-01
+    type: learn
+    lexeme: dudar
+  - id: u29-l2-02
+    type: learn
+    lexeme: alegrarse
+  - id: u29-l2-03
+    type: learn
+    lexeme: es-posible-que
+  - id: u29-l2-04
+    type: learn
+    lexeme: subj-reg
+  - id: u29-l2-05
+    type: learn
+    lexeme: subj-irr
+  - id: u29-l2-06
+    type: learn
+    lexeme: sin-embargo-p
+  - id: u29-l2-07
+    type: learn
+    lexeme: preparar-p
+  - id: u29-l2-08
+    type: learn
+    lexeme: calma-p
+  - id: u29-l2-09
+    type: match_pairs
+    pairs:
+    - - dudar
+      - לפקפק
+    - - alegrarse de que
+      - לשמוח ש
+    - - es posible que
+      - ייתכן ש
+    - - aunque
+      - אף על פי ש
+    - - preparar
+      - להכין
+    lexemes:
+    - dudar
+    - alegrarse
+    - es-posible-que
+    - sin-embargo-p
+    - preparar-p
+  - id: u29-l2-10
+    type: match_pairs
+    pairs:
+    - - hable, coma
+      - רגיל
+    - - sea, tenga, vaya
+      - לא רגיל
+    - - la calma
+      - רוגע
+    - - el resultado
+      - תוצאה
+    - - la suerte
+      - מזל
+    lexemes:
+    - subj-reg
+    - subj-irr
+    - calma-p
+    - resultado
+    - suerte
+  - id: u29-l2-11
+    type: dialogue
+    scene: אחרי המבחן.
+    lines:
+    - speaker: lucia
+      text: Me alegro de que estés aquí. Dudo que haya sido fácil, pero lo hice.
+      translation: אני שמחה שאת כאן. אני מפקפקת שזה היה קל, אבל עשיתי את זה.
+    - speaker: yael
+      text: Es posible que saques una buena nota. Ojalá que el resultado llegue pronto.
+      translation: ייתכן שתקבלי ציון טוב. הלוואי שהתוצאה תגיע בקרוב.
+    - speaker: lucia
+      text: Sí. Voy a esperar con calma.
+      translation: כן. אני אחכה ברוגע.
+  - id: u29-l2-12
+    type: multiple_choice
+    prompt: מה פירוש 'Dudo que venga'?
+    options:
+    - אני מפקפק שיבוא
+    - אני יודע שיבוא
+    - הוא בא
+    correct: 0
+    lexemes:
+    - dudar
+    - venir
+  - id: u29-l2-13
+    type: multiple_choice
+    prompt: מה פירוש 'Me alegro de que vengas'?
+    options:
+    - אני שמח שאתה בא
+    - אני בא
+    - אתה שמח
+    correct: 0
+    lexemes:
+    - alegrarse
+    - venir
+  - id: u29-l2-14
+    type: multiple_choice
+    prompt: איזו צורה נכונה? 'Espero que ___ bien.' (estar)
+    options:
+    - estés
+    - estás
+    - estar
+    correct: 0
+    lexemes:
+    - esperar
+  - id: u29-l2-15
+    type: listening_choice
+    audioText: Es posible que llueva.
+    question: מה אומרים?
+    options:
+    - ייתכן שיירד גשם
+    - יורד גשם
+    - לא ירד גשם
+    correct: 0
+    lexemes:
+    - es-posible-que
+    - lluvia
+  - id: u29-l2-16
+    type: listening_choice
+    audioText: Me alegro de que estés aquí.
+    question: מה אומרים?
+    options:
+    - אני שמחה שאת כאן
+    - אני כאן
+    - אני בדרך
+    correct: 0
+    lexemes:
+    - alegrarse
+  - id: u29-l2-17
+    type: fill_blank
+    sentence: Espero que ___ pronto. (venir, él)
+    translation: אני מקווה שיבוא בקרוב.
+    answers:
+    - venga
+    options:
+    - venga
+    - viene
+    - vendrá
+    lexemes:
+    - esperar
+    - venir
+    - pronto
+  - id: u29-l2-18
+    type: fill_blank
+    sentence: Quiero que ___ más. (estudiar, tú)
+    translation: אני רוצה שתלמד יותר.
+    answers:
+    - estudies
+    options:
+    - estudies
+    - estudias
+    - estudia
+    lexemes:
+    - querer
+    - estudiar
+  - id: u29-l2-19
+    type: fill_blank
+    sentence: Ojalá que ___ fácil. (ser)
+    translation: הלוואי שיהיה קל.
+    answers:
+    - sea
+    options:
+    - sea
+    - es
+    - será
+    lexemes:
+    - ojala
+    - ser
+  - id: u29-l2-20
+    type: fill_blank
+    sentence: Es importante que ___ calma. (tú, tener)
+    translation: חשוב שיהיה לך רוגע.
+    answers:
+    - tengas
+    options:
+    - tengas
+    - tienes
+    - tener
+    lexemes:
+    - es-importante-que
+    - tener
+    - calma-p
+  - id: u29-l2-21
+    type: word_bank
+    prompt: אני מקווה שתעברי.
+    answers:
+    - Espero que apruebes.
+    distractors:
+    - Espero aprobar
+    - Espero que apruebas
+    lexemes:
+    - esperar
+    - aprobar
+  - id: u29-l2-22
+    type: word_bank
+    prompt: אני רוצה שתבוא.
+    answers:
+    - Quiero que vengas.
+    distractors:
+    - Quiero venir
+    - Quiero que vienes
+    lexemes:
+    - querer
+    - venir
+  - id: u29-l2-23
+    type: translate
+    direction: to_target
+    prompt: ייתכן שיהיה קל.
+    answers:
+    - Es posible que sea fácil.
+    lexemes:
+    - es-posible-que
+    - ser
+  - id: u29-l2-24
+    type: translate
+    direction: to_source
+    prompt: Dudo que tenga tiempo.
+    answers:
+    - אני מפקפק שיהיה לו זמן
+    - אני מפקפקת שיהיה לו זמן
+    - אני מפקפקת שיהיה לה זמן
+    lexemes:
+    - dudar
+    - tener
+    - tiempo
+  - id: u29-l2-25
+    type: dictation
+    text: Me alegro de que vengas.
+    lexemes:
+    - alegrarse
+    - venir
+- id: u29-l3
+  kind: grammar
+  title:
+    he: סובג'ונקטיב
+    en: Subjunctive
+  grammar: subjuntivo-presente
+  exercises:
+  - id: u29-l3-01
+    type: fill_blank
+    sentence: Quiero que (tú) ___ la verdad. (decir → digas)
+    translation: אני רוצה שתאמר את האמת.
+    answers:
+    - digas
+    options:
+    - digas
+    - dices
+    - decir
+    lexemes:
+    - querer
+    - decir
+  - id: u29-l3-02
+    type: fill_blank
+    sentence: Espero que ___ bien. (ellos, comer)
+    translation: אני מקווה שיאכלו טוב.
+    answers:
+    - coman
+    options:
+    - coman
+    - comen
+    - comer
+    lexemes:
+    - esperar
+    - comer
+  - id: u29-l3-03
+    type: fill_blank
+    sentence: Necesito que (tú) me ___. (ayudar)
+    translation: אני צריכה שתעזור לי.
+    answers:
+    - ayudes
+    options:
+    - ayudes
+    - ayudas
+    - ayuda
+    lexemes:
+    - necesitar
+    - ayudar
+  - id: u29-l3-04
+    type: fill_blank
+    sentence: Es posible que ___ mañana. (él, venir)
+    translation: ייתכן שיבוא מחר.
+    answers:
+    - venga
+    options:
+    - venga
+    - viene
+    - vendrá
+    lexemes:
+    - es-posible-que
+    - venir
+    - manana-adv
+  - id: u29-l3-05
+    type: fill_blank
+    sentence: Ojalá que ___ buen tiempo. (hacer)
+    translation: הלוואי שיהיה מזג אוויר טוב.
+    answers:
+    - haga
+    options:
+    - haga
+    - hace
+    - hará
+    lexemes:
+    - ojala
+    - hacer
+    - tiempo
+  - id: u29-l3-06
+    type: fill_blank
+    sentence: Quiero que (tú) ___ conmigo. (ir)
+    translation: אני רוצה שתבוא איתי / תלך איתי.
+    answers:
+    - vayas
+    options:
+    - vayas
+    - vas
+    - ir
+    lexemes:
+    - querer
+    - ir
+  - id: u29-l3-07
+    type: fill_blank
+    sentence: Es importante que ___ puntual. (tú, ser)
+    translation: חשוב שתהיה דייקן.
+    answers:
+    - seas
+    options:
+    - seas
+    - eres
+    - ser
+    lexemes:
+    - es-importante-que
+    - ser
+  - id: u29-l3-08
+    type: fill_blank
+    sentence: Espero que ___ razón. (tú, tener)
+    translation: אני מקווה שאתה צודק.
+    answers:
+    - tengas
+    options:
+    - tengas
+    - tienes
+    - tener
+    lexemes:
+    - esperar
+    - tener
+  - id: u29-l3-09
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Quiero que vengas.
+    - Quiero que vienes.
+    - Quiero venir tú.
+    correct: 0
+    lexemes:
+    - querer
+    - venir
+  - id: u29-l3-10
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Espero que sea fácil.
+    - Espero que es fácil.
+    - Espero ser fácil.
+    correct: 0
+    lexemes:
+    - esperar
+    - ser
+  - id: u29-l3-11
+    type: multiple_choice
+    prompt: מתי משתמשים במקור (ללא que)?
+    options:
+    - כשיש נושא אחד
+    - כשיש שני נושאים
+    - כשיש ספק
+    correct: 0
+    lexemes:
+    - querer
+  - id: u29-l3-12
+    type: word_bank
+    prompt: אני רוצה שתבוא.
+    answers:
+    - Quiero que vengas.
+    distractors:
+    - Quiero que vienes
+    lexemes:
+    - querer
+    - venir
+  - id: u29-l3-13
+    type: word_bank
+    prompt: הלוואי שיהיה קל.
+    answers:
+    - Ojalá que sea fácil.
+    distractors:
+    - Ojalá que es fácil
+    lexemes:
+    - ojala
+    - ser
+  - id: u29-l3-14
+    type: translate
+    direction: to_target
+    prompt: אני צריכה שתעזור לי.
+    answers:
+    - Necesito que me ayudes.
+    lexemes:
+    - necesitar
+    - ayudar
+  - id: u29-l3-15
+    type: translate
+    direction: to_target
+    prompt: חשוב שתלמד.
+    answers:
+    - Es importante que estudies.
+    lexemes:
+    - es-importante-que
+    - estudiar
+  - id: u29-l3-16
+    type: translate
+    direction: to_source
+    prompt: Espero que tengas suerte.
+    answers:
+    - אני מקווה שיהיה לך מזל
+    lexemes:
+    - esperar
+    - tener
+    - suerte
+  - id: u29-l3-17
+    type: translate
+    direction: to_source
+    prompt: Dudo que sea verdad.
+    answers:
+    - אני מפקפק שזה נכון
+    - אני מפקפקת שזה נכון
+    lexemes:
+    - dudar
+    - ser
+- id: u29-l4
+  kind: listening
+  title:
+    he: שיחה על המבחן
+    en: A chat about the exam
+  exercises:
+  - id: u29-l4-01
+    type: dialogue
+    scene: סופיה, יעל ולוסיה.
+    lines:
+    - speaker: sofia
+      text: Lucía, espero que estudies bien. Es importante que descanses también.
+      translation: לוסיה, אני מקווה שתלמדי טוב. חשוב שגם תנוחי.
+    - speaker: lucia
+      text: Sí, mamá. Quiero que me preguntes los temas esta noche.
+      translation: כן, אמא. אני רוצה שתשאלי אותי את הנושאים הערב.
+    - speaker: yael
+      text: Y yo espero que apruebes. Ojalá que el examen no sea difícil.
+      translation: ואני מקווה שתעברי. הלוואי שהמבחן לא יהיה קשה.
+    - speaker: sofia
+      text: Dudo que sea difícil. Ella estudió mucho.
+      translation: אני מפקפקת שיהיה קשה. היא למדה הרבה.
+  - id: u29-l4-02
+    type: multiple_choice
+    prompt: מה סופיה רוצה שלוסיה תעשה?
+    options:
+    - ללמוד ולנוח
+    - לעבוד
+    - לצאת
+    correct: 0
+    lexemes:
+    - estudiar
+    - descansar
+    - trabajar
+    - salir
+  - id: u29-l4-03
+    type: multiple_choice
+    prompt: מה לוסיה מבקשת?
+    options:
+    - שישאלו אותה את הנושאים
+    - שתיעזר באינטרנט
+    - שיהיה לה מזל
+    correct: 0
+    lexemes:
+    - pedir
+    - tema
+    - suerte
+  - id: u29-l4-04
+    type: multiple_choice
+    prompt: מה יעל מקווה?
+    options:
+    - שהמבחן לא יהיה קשה
+    - שתהיה חופשה
+    - שלוסיה תיסע
+    correct: 0
+    lexemes:
+    - esperar
+    - examen
+    - viajar
+  - id: u29-l4-05
+    type: listening_choice
+    audioText: Dudo que sea difícil.
+    question: מה אומרים?
+    options:
+    - אני מפקפק שיהיה קשה
+    - זה קשה מאוד
+    - זה קל
+    correct: 0
+    lexemes:
+    - dudar
+    - ser
+    - dificil
+    - facil
+  - id: u29-l4-06
+    type: listening_choice
+    audioText: Espero que tengas suerte.
+    question: מה מאחלים?
+    options:
+    - מזל
+    - כסף
+    - זמן
+    correct: 0
+    lexemes:
+    - esperar
+    - suerte
+    - dinero
+    - tiempo
+  - id: u29-l4-07
+    type: dictation
+    text: Quiero que me preguntes los temas.
+    lexemes:
+    - querer
+    - tema
+  - id: u29-l4-08
+    type: translate
+    direction: to_target
+    prompt: אני מקווה שיהיה לך מזל.
+    answers:
+    - Espero que tengas suerte.
+    lexemes:
+    - esperar
+    - tener
+    - suerte
+  - id: u29-l4-09
+    type: speak_repeat
+    text: Ojalá que apruebes el examen.
+    translation: הלוואי שתעברי את המבחן.
+    lexemes:
+    - ojala
+    - aprobar
+    - examen
+- id: u29-l5
+  kind: reading
+  title:
+    he: מכתב עידוד
+    en: An encouraging note
+  exercises:
+  - id: u29-l5-01
+    type: reading
+    kind: פתק
+    title: Para Lucía
+    text: 'Querida Lucía:
+
+      Mañana es tu examen. Quiero que descanses hoy y que no tengas miedo. Es importante que desayunes bien.
+
+      Espero que los temas sean fáciles. Ojalá que el resultado llegue pronto.
+
+      Dudo que tengas problemas: estudiaste mucho.
+
+      Con cariño, Yael
+
+      '
+    translation: 'לוסיה היקרה:
+
+      מחר המבחן שלך. אני רוצה שתנוחי היום ושלא תפחדי. חשוב שתאכלי ארוחת בוקר טובה.
+
+      אני מקווה שהנושאים יהיו קלים. הלוואי שהתוצאה תגיע בקרוב.
+
+      אני מפקפקת שיהיו לך בעיות: למדת הרבה.
+
+      באהבה, יעל
+
+      '
+  - id: u29-l5-02
+    type: multiple_choice
+    prompt: מה יעל רוצה שלוסיה תעשה היום?
+    options:
+    - תנוח
+    - תעבוד
+    - תיסע
+    correct: 0
+    lexemes:
+    - querer
+    - descansar
+    - trabajar
+    - viajar
+  - id: u29-l5-03
+    type: multiple_choice
+    prompt: מה חשוב לפי יעל?
+    options:
+    - לאכול ארוחת בוקר טובה
+    - ללמוד עוד
+    - להתקשר
+    correct: 0
+    lexemes:
+    - es-importante-que
+    - desayunar
+    - estudiar
+    - llamar
+  - id: u29-l5-04
+    type: fill_blank
+    sentence: Espero que los temas ___ fáciles. (ser)
+    translation: אני מקווה שהנושאים יהיו קלים.
+    answers:
+    - sean
+    options:
+    - sean
+    - son
+    - serán
+    lexemes:
+    - esperar
+    - tema
+    - ser
+  - id: u29-l5-05
+    type: translate
+    direction: to_target
+    prompt: אני מקווה שהתוצאה תגיע בקרוב.
+    answers:
+    - Espero que el resultado llegue pronto.
+    lexemes:
+    - esperar
+    - resultado
+    - pronto
+- id: u29-review
+  kind: review
+  title:
+    he: 'חזרה: סובג''ונקטיב + כתיבה'
+    en: 'Review: subjunctive + writing'
+  exercises:
+  - id: u29-review-01
+    type: match_pairs
+    pairs:
+    - - el examen
+      - מבחן
+    - - aprobar
+      - לעבור
+    - - repasar
+      - לחזור על החומר
+    - - el tema
+      - נושא
+    - - el resultado
+      - תוצאה
+    lexemes:
+    - examen
+    - aprobar
+    - repasar
+    - tema
+    - resultado
+  - id: u29-review-02
+    type: match_pairs
+    pairs:
+    - - quiero que
+      - אני רוצה ש
+    - - espero que
+      - אני מקווה ש
+    - - ojalá
+      - הלוואי
+    - - dudar
+      - לפקפק
+    - - es posible que
+      - ייתכן ש
+    lexemes:
+    - quiero-que
+    - espero-que
+    - ojala
+    - dudar
+    - es-posible-que
+  - id: u29-review-03
+    type: fill_blank
+    sentence: Quiero que ___ aquí. (tú, estar)
+    translation: אני רוצה שתהיה כאן.
+    answers:
+    - estés
+    options:
+    - estés
+    - estás
+    - estar
+    lexemes:
+    - querer
+    - estar
+  - id: u29-review-04
+    type: fill_blank
+    sentence: Espero que ella ___ el examen. (aprobar)
+    translation: אני מקווה שהיא תעבור את המבחן.
+    answers:
+    - apruebe
+    options:
+    - apruebe
+    - aprueba
+    - aprobará
+    lexemes:
+    - esperar
+    - aprobar
+    - examen
+  - id: u29-review-05
+    type: multiple_choice
+    prompt: מה פירוש 'Ojalá que venga'?
+    options:
+    - הלוואי שיבוא
+    - הוא בא
+    - בוא
+    correct: 0
+    lexemes:
+    - ojala
+    - venir
+  - id: u29-review-06
+    type: listening_choice
+    audioText: Es importante que repases.
+    question: מה אומרים?
+    options:
+    - חשוב שתחזור על החומר
+    - חשוב ללמוד
+    - חשוב לנוח
+    correct: 0
+    lexemes:
+    - es-importante-que
+    - repasar
+    - estudiar
+    - descansar
+  - id: u29-review-07
+    type: word_bank
+    prompt: אני מקווה שתצליח.
+    answers:
+    - Espero que tengas suerte.
+    distractors:
+    - Espero que tienes suerte
+    lexemes:
+    - esperar
+    - tener
+    - suerte
+  - id: u29-review-08
+    type: translate
+    direction: to_target
+    prompt: הלוואי שיהיה קל.
+    answers:
+    - Ojalá que sea fácil.
+    lexemes:
+    - ojala
+    - ser
+  - id: u29-review-09
+    type: translate
+    direction: to_source
+    prompt: Dudo que venga.
+    answers:
+    - אני מפקפק שיבוא
+    - אני מפקפקת שיבוא
+    lexemes:
+    - dudar
+    - venir
+  - id: u29-review-10
+    type: dictation
+    text: Espero que estés bien.
+    lexemes:
+    - esperar
+    - estar
+  - id: u29-review-11
+    type: speak_repeat
+    text: Es importante que descanses.
+    translation: חשוב שתנוח.
+    lexemes:
+    - es-importante-que
+    - descansar
+  - id: u29-review-12
+    type: write
+    prompt: כתבו הודעת עידוד לחבר או חבר שיש לו מבחן או אירוע חשוב. השתמשו ב־espero que, quiero que או ojalá כדי לבטא תקווה ובקשה, וגם ב־es importante que.
+    minWords: 35
+    checks:
+    - label: quiero que / espero que / necesito que
+      any:
+      - quiero que
+      - espero que
+      - necesito que
+      - pido que
+    - label: ojalá או es importante que
+      any:
+      - ojala
+      - es importante que
+      - es posible que
+      - dudo que
+    - label: צורת סובג'ונקטיב (sea, tenga, vaya, apruebes, estudies…)
+      any:
+      - \b(sea|seas|tenga|tengas|vaya|vayas|apruebe|apruebes|estudie|estudies|descanse|descanses|haga|hagas|venga|vengas|este|estes)\b
+    - label: הזכרתם מבחן, ציון, למידה או מזל
+      any:
+      - examen
+      - prueba
+      - nota
+      - estudi
+      - suerte
+      - tema
+      - resultado
+    model: Hola Lucía. Mañana es tu examen y espero que todo salga bien. Quiero que descanses hoy y que no estés nerviosa. Es importante que desayunes bien. Ojalá que los temas sean fáciles y que tengas mucha suerte. Dudo que tengas problemas, porque estudiaste mucho.
+    lexemes: []

@@ -1,0 +1,1071 @@
+id: u27-por-para
+cefr: B1
+scene: travel
+title:
+  he: בשביל או בגלל? por ו־para
+  en: Por vs. para
+story: 'יעל מתכננת נסיעה עסקית לגוואדלחרה ומתאמת הכול: כרטיסים, מתנות, מועדים. בדרך היא מגלה שבספרדית יש שתי מילים לכל מה שבעברית נקרא ''בשביל'' ו''בגלל''.'
+canDo:
+- להשתמש ב־para למטרה, ליעד ולמועד אחרון
+- להשתמש ב־por לסיבה, למשך זמן, להחלפה ולמעבר דרך מקום
+- להבחין בין 'בשביל' (para) ל'בגלל' (por)
+- 'להבין ביטויים קבועים: por favor, por eso, para siempre'
+vocabulary:
+- id: viaje-b
+  text: el viaje de negocios
+  translation: נסיעת עסקים
+  pos: phrase
+- id: plazo
+  text: el plazo
+  translation: מועד אחרון
+  pos: noun
+- id: motivo
+  text: el motivo
+  translation: סיבה
+  pos: noun
+- id: por-p
+  text: por
+  translation: בגלל; דרך; במשך; תמורת
+  pos: preposition
+- id: para-p
+  text: para
+  translation: בשביל; כדי; עד
+  pos: preposition
+- id: por-eso
+  text: por eso
+  translation: בגלל זה
+  pos: phrase
+- id: por-fin
+  text: por fin
+  translation: סוף סוף
+  pos: phrase
+- id: por-favor-p
+  text: por favor
+  translation: בבקשה
+  pos: phrase
+- id: para-que
+  text: para qué
+  translation: בשביל מה
+  pos: phrase
+- id: pagar
+  text: pagar
+  translation: לשלם
+  pos: verb
+- id: terminar-p
+  text: terminar
+  translation: לסיים
+  pos: verb
+- id: esperar-p
+  text: esperar
+  translation: לחכות
+  pos: verb
+- id: gracias-p
+  text: gracias por
+  translation: תודה על
+  pos: phrase
+- id: a-tiempo
+  text: a tiempo
+  translation: בזמן
+  pos: phrase
+- id: trafico
+  text: el tráfico
+  translation: תנועה, פקקים
+  pos: noun
+- id: ayuda
+  text: la ayuda
+  translation: עזרה
+  pos: noun
+- id: todo
+  text: todo
+  translation: הכול
+  pos: pronoun
+grammar:
+- id: por-para
+  title:
+    he: por מול para
+    en: Por vs. para
+  explanation: 'בעברית "בשביל" ו"בגלל" שונות. בספרדית זה בדיוק ההבדל בין **para** ל־**por**.
+
+
+    **para** – מטרה, כיוון, תאריך יעד, מקבל:
+
+    * **למי?** *Este regalo es **para** Sofía.* (בשביל סופיה)
+
+    * **כדי:** *Estudio **para** aprender.* | *Voy a Guadalajara **para** una reunión.*
+
+    * **עד / לקראת מועד:** *Necesito el informe **para** el viernes.*
+
+    * **לאן:** *Salgo **para** el aeropuerto.*
+
+
+    **por** – סיבה, דרך, משך, תמורה:
+
+    * **בגלל:** *Llegué tarde **por** el tráfico.* | *Gracias **por** tu ayuda.*
+
+    * **דרך / ליד:** *Caminamos **por** el parque.*
+
+    * **במשך / בתקופה:** *Viajé **por** tres semanas.* | *por la mañana* (בבוקר)
+
+    * **תמורת / במקום:** *Pagué cien pesos **por** el boleto.* | *Cambio este libro **por** otro.*
+
+    * **באמצעות:** *Te llamo **por** teléfono.*
+
+
+    **כלל אצבע:** שאלו "בשביל מה?" → *para*. שאלו "בגלל מה?" → *por*.
+
+    **ביטויים קבועים:** *por favor, por eso* (בגלל זה), *por fin, por ejemplo, para siempre, ¿para qué?* (בשביל מה?), *¿por qué?* (למה, בגלל מה)
+
+
+    **הערה:** שימו לב להבדל: *¿Por qué?* (בשתי מילים) = למה; *porque* = כי.'
+  examples:
+  - text: Compré este regalo para mi hermana, por su cumpleaños.
+    translation: קניתי את המתנה הזאת בשביל אחותי, לכבוד יום ההולדת שלה.
+  - text: Pagué mil pesos por el boleto.
+    translation: שילמתי אלף פזו עבור הכרטיס.
+  - text: Necesito el plazo para el lunes.
+    translation: אני צריכה את המועד עד יום שני.
+lessons:
+- id: u27-l1
+  kind: new
+  title:
+    he: כרטיסים ופגישות
+    en: Tickets and meetings
+  exercises:
+  - id: u27-l1-01
+    type: dialogue
+    scene: יעל ודוקטור הררה מתכננים נסיעה.
+    lines:
+    - speaker: herrera
+      text: Yael, ¿para quién es el boleto?
+      translation: יעל, בשביל מי הכרטיס?
+    - speaker: yael
+      text: Es para mí. Viajo a Guadalajara para una reunión.
+      translation: הוא בשבילי. אני נוסעת לגוואדלחרה לפגישה.
+    - speaker: herrera
+      text: ¿Cuánto pagaste por el boleto?
+      translation: כמה שילמת על הכרטיס?
+    - speaker: yael
+      text: Pagué ochocientos pesos. Lo necesito para el jueves.
+      translation: שילמתי שמונה מאות פזו. אני צריכה אותו לקראת יום חמישי.
+  - id: u27-l1-02
+    type: learn
+    lexeme: viaje-b
+  - id: u27-l1-03
+    type: learn
+    lexeme: plazo
+  - id: u27-l1-04
+    type: learn
+    lexeme: motivo
+  - id: u27-l1-05
+    type: learn
+    lexeme: trafico
+  - id: u27-l1-06
+    type: learn
+    lexeme: pagar
+  - id: u27-l1-07
+    type: learn
+    lexeme: por-p
+  - id: u27-l1-08
+    type: learn
+    lexeme: para-p
+  - id: u27-l1-09
+    type: learn
+    lexeme: a-tiempo
+  - id: u27-l1-10
+    type: match_pairs
+    pairs:
+    - - el boleto
+      - כרטיס
+    - - el regalo
+      - מתנה
+    - - el plazo
+      - מועד אחרון
+    - - la reunión
+      - פגישה
+    - - el motivo
+      - סיבה
+    lexemes:
+    - boleto
+    - regalo
+    - plazo
+    - reunion
+    - motivo
+  - id: u27-l1-11
+    type: match_pairs
+    pairs:
+    - - pagar
+      - לשלם
+    - - cambiar
+      - להחליף
+    - - viajar
+      - לנסוע
+    - - por
+      - בגלל / דרך
+    - - para
+      - בשביל / כדי
+    lexemes:
+    - pagar
+    - cambiar
+    - viajar
+    - por-p
+    - para-p
+  - id: u27-l1-12
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה: ''Este regalo es ___ mi madre''?'
+    options:
+    - para
+    - por
+    - de
+    correct: 0
+    lexemes:
+    - regalo
+  - id: u27-l1-13
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה: ''Pagué cien pesos ___ el boleto''?'
+    options:
+    - por
+    - para
+    - en
+    correct: 0
+    lexemes:
+    - pagar
+    - boleto
+  - id: u27-l1-14
+    type: multiple_choice
+    prompt: מה פירוש 'para el jueves'?
+    options:
+    - עד יום חמישי
+    - בגלל יום חמישי
+    - דרך יום חמישי
+    correct: 0
+    lexemes:
+    - plazo
+  - id: u27-l1-15
+    type: listening_choice
+    audioText: Viajo para una reunión.
+    question: למה נוסעים?
+    options:
+    - לפגישה
+    - בגלל פגישה
+    - תמורת פגישה
+    correct: 0
+    lexemes:
+    - viajar
+    - reunion
+  - id: u27-l1-16
+    type: listening_choice
+    audioText: Llegué tarde por el tráfico.
+    question: למה איחרו?
+    options:
+    - בגלל התנועה
+    - בשביל התנועה
+    - דרך התנועה
+    correct: 0
+    lexemes:
+    - llegar
+    - tarde-adv
+    - trafico
+  - id: u27-l1-17
+    type: translate
+    direction: to_target
+    prompt: זה בשבילך.
+    answers:
+    - Es para ti.
+    lexemes:
+    - ser
+  - id: u27-l1-18
+    type: translate
+    direction: to_target
+    prompt: שילמתי על הכרטיס.
+    answers:
+    - Pagué por el boleto.
+    lexemes:
+    - pagar
+    - boleto
+  - id: u27-l1-19
+    type: translate
+    direction: to_source
+    prompt: Necesito el informe para el lunes.
+    answers:
+    - אני צריך את הדוח עד יום שני
+    - אני צריכה את הדוח עד יום שני
+    lexemes:
+    - necesitar
+    - informe
+  - id: u27-l1-20
+    type: dictation
+    text: Este regalo es para ti.
+    lexemes:
+    - regalo
+  - id: u27-l1-21
+    type: speak_repeat
+    text: Viajo para una reunión importante.
+    translation: אני נוסעת לפגישה חשובה.
+    lexemes:
+    - viajar
+    - reunion
+- id: u27-l2
+  kind: new
+  title:
+    he: בגלל, דרך, במשך
+    en: Because of, through, during
+  exercises:
+  - id: u27-l2-01
+    type: learn
+    lexeme: por-eso
+  - id: u27-l2-02
+    type: learn
+    lexeme: por-fin
+  - id: u27-l2-03
+    type: learn
+    lexeme: por-favor-p
+  - id: u27-l2-04
+    type: learn
+    lexeme: para-que
+  - id: u27-l2-05
+    type: learn
+    lexeme: terminar-p
+  - id: u27-l2-06
+    type: learn
+    lexeme: esperar-p
+  - id: u27-l2-07
+    type: learn
+    lexeme: gracias-p
+  - id: u27-l2-08
+    type: learn
+    lexeme: ayuda
+  - id: u27-l2-09
+    type: learn
+    lexeme: todo
+  - id: u27-l2-10
+    type: match_pairs
+    pairs:
+    - - por eso
+      - בגלל זה
+    - - por fin
+      - סוף סוף
+    - - por favor
+      - בבקשה
+    - - ¿para qué?
+      - בשביל מה?
+    - - gracias por
+      - תודה על
+    lexemes:
+    - por-eso
+    - por-fin
+    - por-favor-p
+    - para-que
+    - gracias-p
+  - id: u27-l2-11
+    type: match_pairs
+    pairs:
+    - - terminar
+      - לסיים
+    - - esperar
+      - לחכות
+    - - pasar
+      - לעבור
+    - - a tiempo
+      - בזמן
+    - - el motivo
+      - סיבה
+    lexemes:
+    - terminar-p
+    - esperar-p
+    - pasar
+    - a-tiempo
+    - motivo
+  - id: u27-l2-12
+    type: dialogue
+    scene: בדרך לתחנה.
+    lines:
+    - speaker: lucia
+      text: Yael, ¿por dónde pasa el autobús?
+      translation: יעל, דרך איפה האוטובוס עובר?
+    - speaker: yael
+      text: Pasa por el centro. Tardamos como una hora por el tráfico.
+      translation: הוא עובר דרך המרכז. לוקח לנו בערך שעה בגלל התנועה.
+    - speaker: lucia
+      text: Por fin salimos. Gracias por esperarme.
+      translation: סוף סוף יוצאות. תודה שחיכית לי.
+  - id: u27-l2-13
+    type: multiple_choice
+    prompt: מה פירוש 'por el parque'?
+    options:
+    - דרך הפארק
+    - בשביל הפארק
+    - עד הפארק
+    correct: 0
+    lexemes:
+    - parque
+  - id: u27-l2-14
+    type: multiple_choice
+    prompt: מה פירוש 'Gracias por esperarme'?
+    options:
+    - תודה שחיכית לי
+    - תודה בשביל לחכות
+    - תודה עד שחיכית
+    correct: 0
+    lexemes:
+    - esperar
+  - id: u27-l2-15
+    type: multiple_choice
+    prompt: מה פירוש 'por la mañana'?
+    options:
+    - בבוקר
+    - בגלל הבוקר
+    - בשביל הבוקר
+    correct: 0
+    lexemes:
+    - manana-dia
+  - id: u27-l2-16
+    type: listening_choice
+    audioText: Estudié por tres horas.
+    question: כמה זמן?
+    options:
+    - שלוש שעות
+    - עד שלוש שעות
+    - בשביל שלוש שעות
+    correct: 0
+    lexemes:
+    - estudiar
+    - hora
+  - id: u27-l2-17
+    type: listening_choice
+    audioText: Lo hago para ayudarte.
+    question: למה?
+    options:
+    - כדי לעזור לך
+    - בגלל שעזרת
+    - דרך עזרה
+    correct: 0
+    lexemes:
+    - hacer
+    - ayudar
+  - id: u27-l2-18
+    type: fill_blank
+    sentence: Llegué tarde ___ el tráfico.
+    translation: איחרתי בגלל התנועה.
+    answers:
+    - por
+    options:
+    - por
+    - para
+    - en
+    lexemes:
+    - llegar
+    - tarde-adv
+  - id: u27-l2-19
+    type: fill_blank
+    sentence: Estudio español ___ viajar a México.
+    translation: אני לומדת ספרדית כדי לנסוע למקסיקו.
+    answers:
+    - para
+    options:
+    - para
+    - por
+    - de
+    lexemes:
+    - estudiar
+    - viajar
+  - id: u27-l2-20
+    type: fill_blank
+    sentence: Caminamos ___ el parque.
+    translation: הלכנו בפארק / דרך הפארק.
+    answers:
+    - por
+    options:
+    - por
+    - para
+    - a
+    lexemes:
+    - caminar
+    - parque
+  - id: u27-l2-21
+    type: fill_blank
+    sentence: Compré un regalo ___ Dani.
+    translation: קניתי מתנה בשביל דני.
+    answers:
+    - para
+    options:
+    - para
+    - por
+    - con
+    lexemes:
+    - comprar
+    - regalo
+  - id: u27-l2-22
+    type: word_bank
+    prompt: תודה על העזרה.
+    answers:
+    - Gracias por la ayuda.
+    distractors:
+    - para la
+    - de la
+    lexemes:
+    - ayuda
+  - id: u27-l2-23
+    type: translate
+    direction: to_target
+    prompt: אני מחכה לך.
+    answers:
+    - Te espero.
+    lexemes:
+    - esperar
+  - id: u27-l2-24
+    type: translate
+    direction: to_source
+    prompt: Llámame por teléfono.
+    answers:
+    - תתקשר אליי בטלפון
+    - תתקשרי אליי בטלפון
+    lexemes:
+    - llamar
+    - telefono
+  - id: u27-l2-25
+    type: dictation
+    text: Gracias por esperarme.
+    lexemes:
+    - esperar
+- id: u27-l3
+  kind: grammar
+  title:
+    he: por או para?
+    en: Por or para?
+  grammar: por-para
+  exercises:
+  - id: u27-l3-01
+    type: fill_blank
+    sentence: Este libro es ___ mi hijo.
+    translation: הספר הזה בשביל הבן שלי.
+    answers:
+    - para
+    options:
+    - para
+    - por
+    - de
+    lexemes:
+    - libro
+    - hijo
+  - id: u27-l3-02
+    type: fill_blank
+    sentence: Gracias ___ tu ayuda.
+    translation: תודה על העזרה שלך.
+    answers:
+    - por
+    options:
+    - por
+    - para
+    - en
+    lexemes:
+    - ayuda
+  - id: u27-l3-03
+    type: fill_blank
+    sentence: Necesito el contrato ___ el martes.
+    translation: אני צריכה את החוזה עד יום שלישי.
+    answers:
+    - para
+    options:
+    - para
+    - por
+    - en
+    lexemes:
+    - contrato
+    - necesitar
+  - id: u27-l3-04
+    type: fill_blank
+    sentence: Viajé ___ Europa tres semanas.
+    translation: נסעתי באירופה שלושה שבועות.
+    answers:
+    - por
+    options:
+    - por
+    - para
+    - a
+    lexemes:
+    - viajar
+  - id: u27-l3-05
+    type: fill_blank
+    sentence: Pagué diez pesos ___ el café.
+    translation: שילמתי עשרה פזו על הקפה.
+    answers:
+    - por
+    options:
+    - por
+    - para
+    - de
+    lexemes:
+    - pagar
+    - cafe
+  - id: u27-l3-06
+    type: fill_blank
+    sentence: Salgo ___ el aeropuerto ahora.
+    translation: אני יוצאת לשדה התעופה עכשיו.
+    answers:
+    - para
+    options:
+    - para
+    - por
+    - en
+    lexemes:
+    - salir
+    - aeropuerto
+    - ahora
+  - id: u27-l3-07
+    type: fill_blank
+    sentence: ¿___ qué estudias español?
+    translation: בשביל מה את לומדת ספרדית?
+    answers:
+    - Para
+    options:
+    - Para
+    - Por
+    - De
+    lexemes:
+    - estudiar
+  - id: u27-l3-08
+    type: fill_blank
+    sentence: Llegamos tarde ___ la lluvia.
+    translation: איחרנו בגלל הגשם.
+    answers:
+    - por
+    options:
+    - por
+    - para
+    - con
+    lexemes:
+    - llegar
+    - tarde-adv
+    - lluvia
+  - id: u27-l3-09
+    type: multiple_choice
+    prompt: מתי משתמשים ב־para?
+    options:
+    - כשיש מטרה או מועד יעד
+    - כשיש סיבה
+    - כשיש תמורה
+    correct: 0
+    lexemes:
+    - para-p
+  - id: u27-l3-10
+    type: multiple_choice
+    prompt: מתי משתמשים ב־por?
+    options:
+    - כשיש סיבה או משך
+    - כשיש מטרה
+    - כשיש מקבל
+    correct: 0
+    lexemes:
+    - por-p
+  - id: u27-l3-11
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Estudio para aprender.
+    - Estudio por aprender.
+    - Estudio de aprender.
+    correct: 0
+    lexemes:
+    - estudiar
+  - id: u27-l3-12
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Caminamos por la calle.
+    - Caminamos para la calle.
+    - Caminamos en por la calle.
+    correct: 0
+    lexemes:
+    - caminar
+    - calle
+  - id: u27-l3-13
+    type: word_bank
+    prompt: זה בשבילך.
+    answers:
+    - Es para ti.
+    distractors:
+    - Es por ti
+    lexemes:
+    - ser
+  - id: u27-l3-14
+    type: word_bank
+    prompt: תודה על הכול.
+    answers:
+    - Gracias por todo.
+    distractors:
+    - Gracias para todo
+    lexemes:
+    - todo
+  - id: u27-l3-15
+    type: translate
+    direction: to_target
+    prompt: אני לומדת כדי לעבוד.
+    answers:
+    - Estudio para trabajar.
+    lexemes:
+    - estudiar
+    - trabajar
+  - id: u27-l3-16
+    type: translate
+    direction: to_target
+    prompt: שילמתי עליו מאה פזו.
+    answers:
+    - Pagué cien pesos por él.
+    lexemes:
+    - pagar
+  - id: u27-l3-17
+    type: translate
+    direction: to_source
+    prompt: Hablamos por teléfono.
+    answers:
+    - אנחנו מדברים בטלפון
+    - דיברנו בטלפון
+    lexemes:
+    - hablar
+    - telefono
+  - id: u27-l3-18
+    type: translate
+    direction: to_source
+    prompt: Lo necesito para mañana.
+    answers:
+    - אני צריך את זה עד מחר
+    - אני צריכה את זה עד מחר
+    lexemes:
+    - necesitar
+    - manana-adv
+- id: u27-l4
+  kind: listening
+  title:
+    he: לוגיסטיקה
+    en: Logistics
+  exercises:
+  - id: u27-l4-01
+    type: dialogue
+    scene: יעל ושרה בטלפון.
+    lines:
+    - speaker: sofia
+      text: Yael, ¿para cuándo es el viaje?
+      translation: יעל, לאיזה מועד הנסיעה?
+    - speaker: yael
+      text: Es para la semana próxima. Ya pagué el boleto, por fin.
+      translation: זה לשבוע הבא. כבר שילמתי על הכרטיס, סוף סוף.
+    - speaker: sofia
+      text: ¿Y el regalo para el cliente?
+      translation: והמתנה ללקוח?
+    - speaker: yael
+      text: Lo compré ayer. Es para su familia, por la fiesta de su hijo.
+      translation: קניתי אותה אתמול. היא למשפחה שלו, לכבוד המסיבה של הבן שלו.
+  - id: u27-l4-02
+    type: multiple_choice
+    prompt: מתי הנסיעה?
+    options:
+    - בשבוע הבא
+    - מחר
+    - בחודש הבא
+    correct: 0
+    lexemes:
+    - semana
+    - proximo
+    - manana-adv
+  - id: u27-l4-03
+    type: multiple_choice
+    prompt: בשביל מי המתנה?
+    options:
+    - למשפחת הלקוח
+    - ליעל
+    - לסופיה
+    correct: 0
+    lexemes:
+    - regalo
+    - familia
+    - cliente
+  - id: u27-l4-04
+    type: multiple_choice
+    prompt: על מה יעל שילמה?
+    options:
+    - על הכרטיס
+    - על המתנה
+    - על החוזה
+    correct: 0
+    lexemes:
+    - boleto
+    - regalo
+    - contrato
+    - pagar
+  - id: u27-l4-05
+    type: listening_choice
+    audioText: ¿Para qué lo compraste?
+    question: מה שואלים?
+    options:
+    - בשביל מה קנית את זה
+    - למי קנית את זה
+    - מתי קנית את זה
+    correct: 0
+    lexemes:
+    - comprar
+    - cuando
+  - id: u27-l4-06
+    type: listening_choice
+    audioText: Me quedé por la lluvia.
+    question: למה נשארו?
+    options:
+    - בגלל הגשם
+    - כדי לראות גשם
+    - דרך הגשם
+    correct: 0
+    lexemes:
+    - lluvia
+  - id: u27-l4-07
+    type: dictation
+    text: Pagué por el boleto.
+    lexemes:
+    - pagar
+    - boleto
+  - id: u27-l4-08
+    type: translate
+    direction: to_target
+    prompt: תודה שחיכית לי.
+    answers:
+    - Gracias por esperarme.
+    lexemes:
+    - esperar
+  - id: u27-l4-09
+    type: speak_repeat
+    text: Es para ti, por tu cumpleaños.
+    translation: זה בשבילך, לכבוד יום ההולדת שלך.
+    lexemes:
+    - cumpleanos
+- id: u27-l5
+  kind: reading
+  title:
+    he: מכתב תודה
+    en: A thank-you note
+  exercises:
+  - id: u27-l5-01
+    type: reading
+    kind: מכתב
+    title: Una nota de Yael
+    text: 'Querida doña Carmen:
+
+      Gracias por todo. Por fin terminé mi viaje y estoy de vuelta. Este regalo es para usted y para don Ricardo, por su amabilidad.
+
+      Lo compré en Guadalajara, y pagué poco por él. Lo envío por correo, así llega para el viernes.
+
+      Un abrazo, Yael
+
+      '
+    translation: 'דונה כרמן היקרה:
+
+      תודה על הכול. סוף סוף סיימתי את הנסיעה ואני חזרה. המתנה הזאת היא בשבילך ובשביל דון ריקרדו, בגלל הנדיבות שלכם.
+
+      קניתי אותה בגוואדלחרה, ושילמתי עליה מעט. אני שולחת אותה בדואר, כך שתגיע עד יום שישי.
+
+      חיבוק, יעל
+
+      '
+  - id: u27-l5-02
+    type: multiple_choice
+    prompt: בשביל מי המתנה?
+    options:
+    - דונה כרמן ודון ריקרדו
+    - יעל
+    - לוסיה
+    correct: 0
+    lexemes:
+    - regalo
+  - id: u27-l5-03
+    type: multiple_choice
+    prompt: איך היא נשלחה?
+    options:
+    - בדואר
+    - ביד
+    - בטלפון
+    correct: 0
+    lexemes:
+    - correo
+    - mano
+    - telefono
+  - id: u27-l5-04
+    type: fill_blank
+    sentence: Gracias ___ todo.
+    translation: תודה על הכול.
+    answers:
+    - por
+    options:
+    - por
+    - para
+    - de
+    lexemes:
+    - todo
+  - id: u27-l5-05
+    type: translate
+    direction: to_target
+    prompt: זה בשבילך ובשביל דון ריקרדו.
+    answers:
+    - Es para usted y para don Ricardo.
+    lexemes:
+    - ser
+- id: u27-review
+  kind: review
+  title:
+    he: 'חזרה: por ו־para + כתיבה'
+    en: 'Review: por/para + writing'
+  exercises:
+  - id: u27-review-01
+    type: match_pairs
+    pairs:
+    - - el boleto
+      - כרטיס
+    - - el regalo
+      - מתנה
+    - - el plazo
+      - מועד אחרון
+    - - la reunión
+      - פגישה
+    - - el motivo
+      - סיבה
+    lexemes:
+    - boleto
+    - regalo
+    - plazo
+    - reunion
+    - motivo
+  - id: u27-review-02
+    type: match_pairs
+    pairs:
+    - - por eso
+      - בגלל זה
+    - - por fin
+      - סוף סוף
+    - - por favor
+      - בבקשה
+    - - ¿para qué?
+      - בשביל מה?
+    - - a tiempo
+      - בזמן
+    lexemes:
+    - por-eso
+    - por-fin
+    - por-favor-p
+    - para-que
+    - a-tiempo
+  - id: u27-review-03
+    type: fill_blank
+    sentence: Esto es ___ ti.
+    translation: זה בשבילך.
+    answers:
+    - para
+    options:
+    - para
+    - por
+    - de
+    lexemes:
+    - ser
+  - id: u27-review-04
+    type: fill_blank
+    sentence: Estoy aquí ___ la reunión.
+    translation: אני כאן בגלל הפגישה.
+    answers:
+    - por
+    options:
+    - por
+    - para
+    - en
+    lexemes:
+    - reunion
+  - id: u27-review-05
+    type: multiple_choice
+    prompt: מה פירוש 'Voy para allá'?
+    options:
+    - אני בדרך לשם
+    - אני בגלל שם
+    - אני הולך דרך שם
+    correct: 0
+    lexemes:
+    - ir
+  - id: u27-review-06
+    type: listening_choice
+    audioText: Pagué cien pesos por el regalo.
+    question: מה קרה?
+    options:
+    - שילמו על המתנה
+    - קנו מתנה בשביל מאה
+    - קיבלו מתנה
+    correct: 0
+    lexemes:
+    - pagar
+    - regalo
+    - comprar
+    - recibir
+  - id: u27-review-07
+    type: word_bank
+    prompt: אני צריכה את זה למחר.
+    answers:
+    - Lo necesito para mañana.
+    distractors:
+    - Lo necesito por mañana
+    lexemes:
+    - necesitar
+    - manana-adv
+  - id: u27-review-08
+    type: translate
+    direction: to_target
+    prompt: תודה על הכול.
+    answers:
+    - Gracias por todo.
+    lexemes:
+    - todo
+  - id: u27-review-09
+    type: translate
+    direction: to_source
+    prompt: ¿Para qué lo necesitas?
+    answers:
+    - בשביל מה אתה צריך את זה?
+    - בשביל מה את צריכה את זה?
+    lexemes:
+    - necesitar
+  - id: u27-review-10
+    type: dictation
+    text: Voy a Guadalajara para una reunión.
+    lexemes:
+    - ir
+    - reunion
+  - id: u27-review-11
+    type: speak_repeat
+    text: Gracias por tu ayuda.
+    translation: תודה על העזרה שלך.
+    lexemes:
+    - ayuda
+  - id: u27-review-12
+    type: write
+    prompt: 'כתבו הודעה קצרה על נסיעה או משימה: למה נסעתם או עשיתם משהו (para), מה שילמתם ועל מה (por), ובשביל מי היה משהו. השתמשו ב־por וב־para.'
+    minWords: 35
+    checks:
+    - label: השתמשתם ב־para
+      any:
+      - \bpara\b
+    - label: השתמשתם ב־por
+      any:
+      - \bpor\b
+    - label: הזכרתם נסיעה, מתנה, כרטיס או פגישה
+      any:
+      - viaje
+      - viaj
+      - regalo
+      - boleto
+      - reunion
+      - trabajo
+      - comprar
+    - label: הזכרתם זמן או מועד
+      any:
+      - lunes
+      - martes
+      - jueves
+      - viernes
+      - semana
+      - manana
+      - ayer
+      - hoy
+      - hora
+    model: El lunes viajé a Guadalajara para una reunión de trabajo. Pagué quinientos pesos por el boleto. También compré un regalo para el cliente, por su cumpleaños. Llegué tarde por el tráfico, pero por fin terminé todo para el viernes.
+    lexemes: []
