@@ -1,0 +1,1025 @@
+id: u09-horas
+cefr: A1
+scene: day
+title:
+  he: מה השעה?
+  en: What time is it?
+story: 'יעל מקבלת לוח זמנים חדש במשרד. היא לומדת לשאול מה השעה, לקבוע פגישות בשעה מדויקת, ואת שתי משפחות הפעלים האחרות: er ו־ir.'
+canDo:
+- לשאול ולומר מה השעה
+- 'להגיד ''בשעה…'': a las ocho'
+- 'להטות פעלים ב־er וב־ir: comer, vivir'
+- לשאול ¿cuándo? ולקבוע פגישה
+vocabulary:
+- id: hora
+  text: la hora
+  translation: שעה
+  pos: noun
+- id: que-hora
+  text: ¿qué hora es?
+  translation: מה השעה?
+  pos: phrase
+- id: son-las
+  text: es la una / son las…
+  translation: השעה היא…
+  pos: phrase
+- id: a-las
+  text: a las…
+  translation: בשעה…
+  pos: phrase
+- id: media
+  text: y media
+  translation: וחצי
+  pos: phrase
+- id: cuarto-hora
+  text: y cuarto / menos cuarto
+  translation: ורבע / רבע ל־
+  pos: phrase
+- id: en-punto
+  text: en punto
+  translation: בדיוק (בשעה עגולה)
+  pos: phrase
+- id: mediodia
+  text: el mediodía
+  translation: צהריים
+  pos: noun
+- id: tarde-adv
+  text: tarde
+  translation: מאוחר
+  pos: adverb
+- id: cuando
+  text: ¿cuándo?
+  translation: מתי?
+  pos: phrase
+- id: comer
+  text: comer
+  translation: לאכול
+  pos: verb
+  example:
+    text: Como pollo y ensalada.
+    translation: אני אוכל עוף וסלט.
+- id: beber
+  text: beber
+  translation: לשתות
+  pos: verb
+- id: leer
+  text: leer
+  translation: לקרוא
+  pos: verb
+- id: aprender
+  text: aprender
+  translation: ללמוד, להכיר
+  pos: verb
+- id: vivir
+  text: vivir
+  translation: לגור, לחיות
+  pos: verb
+  example:
+    text: Vivo en México.
+    translation: אני גר במקסיקו.
+- id: escribir
+  text: escribir
+  translation: לכתוב
+  pos: verb
+- id: abrir
+  text: abrir
+  translation: לפתוח
+  pos: verb
+- id: reunion
+  text: la reunión
+  translation: פגישה, ישיבה
+  pos: noun
+- id: despues
+  text: después
+  translation: אחר כך
+  pos: adverb
+grammar:
+- id: er-ir-presente
+  title:
+    he: פעלי er ו־ir, והשעה
+    en: Regular -er/-ir verbs and telling time
+  explanation: '**פעלים ב־er וב־ir** מוטים כמעט כמו פעלי ar. ההבדל היחיד בין שתי הקבוצות הוא ב־**nosotros**:
+
+
+    | כינוי | comer (er) | vivir (ir) |
+
+    |---|---|---|
+
+    | yo | como | vivo |
+
+    | tú | comes | vives |
+
+    | él / ella / usted | come | vive |
+
+    | nosotros | comemos | **vivimos** |
+
+    | ellos / ustedes | comen | viven |
+
+
+    **השעה:**
+
+    * מה השעה? → **¿Qué hora es?**
+
+    * השעה אחת: **Es la una.** שאר השעות: **Son las dos / tres / cuatro…**
+
+    * וחצי: **Son las tres y media.** ורבע: **y cuarto.** רבע ל־: **menos cuarto.** (Son las cuatro **menos cuarto** = 3:45.)
+
+    * בדיוק: **en punto** (Son las cinco en punto).
+
+    * **בשעה…** = **a la una / a las dos…**: *La reunión es a las ocho.* (בשביל "פגישה היא בשמונה")
+
+    * הצהריים: **mediodía**. בבוקר/בערב: **de la mañana / de la tarde / de la noche**.'
+  examples:
+  - text: Son las ocho y media.
+    translation: השעה שמונה וחצי.
+  - text: La reunión es a las diez en punto.
+    translation: הפגישה היא בעשר בדיוק.
+  - text: Vivimos en la Ciudad de México.
+    translation: אנחנו גרים במקסיקו סיטי.
+lessons:
+- id: u09-l1
+  kind: new
+  title:
+    he: מה השעה?
+    en: What time is it?
+  exercises:
+  - id: u09-l1-01
+    type: dialogue
+    scene: בבוקר במשרד.
+    lines:
+    - speaker: yael
+      text: Buenos días, Mateo. ¿Qué hora es?
+      translation: בוקר טוב, מתאו. מה השעה?
+    - speaker: mateo
+      text: Son las ocho y media.
+      translation: שמונה וחצי.
+    - speaker: yael
+      text: ¿A qué hora es la reunión?
+      translation: באיזו שעה הפגישה?
+    - speaker: mateo
+      text: Es a las nueve en punto. ¡No llegues tarde!
+      translation: היא בתשע בדיוק. אל תאחרי!
+  - id: u09-l1-02
+    type: learn
+    lexeme: hora
+  - id: u09-l1-03
+    type: learn
+    lexeme: que-hora
+  - id: u09-l1-04
+    type: learn
+    lexeme: son-las
+  - id: u09-l1-05
+    type: learn
+    lexeme: a-las
+  - id: u09-l1-06
+    type: learn
+    lexeme: media
+  - id: u09-l1-07
+    type: learn
+    lexeme: cuarto-hora
+  - id: u09-l1-08
+    type: learn
+    lexeme: en-punto
+  - id: u09-l1-09
+    type: learn
+    lexeme: mediodia
+  - id: u09-l1-10
+    type: learn
+    lexeme: tarde-adv
+  - id: u09-l1-11
+    type: learn
+    lexeme: cuando
+  - id: u09-l1-12
+    type: learn
+    lexeme: reunion
+  - id: u09-l1-13
+    type: tip
+    title: אחת – יחיד, השאר – רבים
+    text: '**Es la una** (יחיד, כי ''אחת'' אחת). מכל שעה אחרת: **Son las dos, las tres…**. עם ''וחצי'': *Son las dos y media.*
+
+      '
+  - id: u09-l1-14
+    type: match_pairs
+    pairs:
+    - - Es la una.
+      - השעה אחת.
+    - - Son las dos.
+      - השעה שתיים.
+    - - Son las tres y media.
+      - שלוש וחצי.
+    - - Son las cuatro y cuarto.
+      - ארבע ורבע.
+    - - Son las cinco en punto.
+      - חמש בדיוק.
+    lexemes:
+    - son-las
+    - media
+    - cuarto-hora
+    - en-punto
+  - id: u09-l1-15
+    type: multiple_choice
+    prompt: איך שואלים 'מה השעה?'
+    options:
+    - ¿Qué hora es?
+    - ¿Cuántas horas?
+    - ¿Cuándo es?
+    correct: 0
+    lexemes:
+    - que-hora
+    - hora
+    - cuando
+  - id: u09-l1-16
+    type: multiple_choice
+    prompt: מה פירוש 'Son las seis y media'?
+    options:
+    - שש וחצי
+    - חצי שש
+    - שש ורבע
+    correct: 0
+    lexemes:
+    - son-las
+    - media
+    - cuarto-hora
+  - id: u09-l1-17
+    type: multiple_choice
+    prompt: איך אומרים 'בשעה שמונה'?
+    options:
+    - a las ocho
+    - en ocho
+    - de las ocho
+    correct: 0
+    lexemes:
+    - a-las
+    - ocho
+  - id: u09-l1-18
+    type: listening_choice
+    audioText: Son las tres en punto.
+    question: מה השעה?
+    options:
+    - שלוש בדיוק
+    - שלוש וחצי
+    - ארבע בדיוק
+    correct: 0
+    lexemes:
+    - son-las
+    - tres
+    - en-punto
+    - media
+    - cuatro
+  - id: u09-l1-19
+    type: listening_choice
+    audioText: La reunión es a las diez.
+    question: מתי הפגישה?
+    options:
+    - בעשר
+    - בשתיים
+    - בחמש
+    correct: 0
+    lexemes:
+    - reunion
+    - a-las
+    - diez
+    - dos
+    - cinco
+  - id: u09-l1-20
+    type: translate
+    direction: to_target
+    prompt: מה השעה?
+    answers:
+    - ¿Qué hora es?
+    lexemes:
+    - que-hora
+  - id: u09-l1-21
+    type: translate
+    direction: to_target
+    prompt: השעה שתיים.
+    answers:
+    - Son las dos.
+    lexemes:
+    - son-las
+    - dos
+  - id: u09-l1-22
+    type: translate
+    direction: to_source
+    prompt: Es la una y media.
+    answers:
+    - השעה אחת וחצי
+    lexemes:
+    - son-las
+    - media
+    - uno
+  - id: u09-l1-23
+    type: dictation
+    text: Son las ocho y media.
+    lexemes:
+    - son-las
+    - ocho
+    - media
+  - id: u09-l1-24
+    type: speak_repeat
+    text: La reunión es a las nueve en punto.
+    translation: הפגישה בתשע בדיוק.
+    lexemes:
+    - reunion
+    - a-las
+    - nueve
+    - en-punto
+- id: u09-l2
+  kind: new
+  title:
+    he: אוכלים, שותים, קוראים
+    en: Eat, drink, read
+  exercises:
+  - id: u09-l2-01
+    type: learn
+    lexeme: comer
+  - id: u09-l2-02
+    type: learn
+    lexeme: beber
+  - id: u09-l2-03
+    type: learn
+    lexeme: leer
+  - id: u09-l2-04
+    type: learn
+    lexeme: aprender
+  - id: u09-l2-05
+    type: learn
+    lexeme: vivir
+  - id: u09-l2-06
+    type: learn
+    lexeme: escribir
+  - id: u09-l2-07
+    type: learn
+    lexeme: abrir
+  - id: u09-l2-08
+    type: learn
+    lexeme: despues
+  - id: u09-l2-09
+    type: match_pairs
+    pairs:
+    - - comer
+      - לאכול
+    - - beber
+      - לשתות
+    - - leer
+      - לקרוא
+    - - escribir
+      - לכתוב
+    lexemes:
+    - comer
+    - beber
+    - leer
+    - escribir
+  - id: u09-l2-10
+    type: match_pairs
+    pairs:
+    - - aprender
+      - ללמוד
+    - - vivir
+      - לגור
+    - - abrir
+      - לפתוח
+    - - después
+      - אחר כך
+    lexemes:
+    - aprender
+    - vivir
+    - abrir
+    - despues
+  - id: u09-l2-11
+    type: multiple_choice
+    prompt: מה פירוש 'vivir'?
+    options:
+    - לגור
+    - לשתות
+    - לקרוא
+    correct: 0
+    lexemes:
+    - vivir
+    - beber
+    - leer
+  - id: u09-l2-12
+    type: multiple_choice
+    prompt: איך אומרים 'לכתוב'?
+    options:
+    - escribir
+    - leer
+    - abrir
+    correct: 0
+    lexemes:
+    - escribir
+    - leer
+    - abrir
+  - id: u09-l2-13
+    type: listening_choice
+    audioText: Como pollo y ensalada.
+    question: מה שמעתם?
+    options:
+    - אני אוכל עוף וסלט
+    - אני שותה מים
+    - אני קורא ספר
+    correct: 0
+    lexemes:
+    - comer
+    - pollo
+    - ensalada
+    - beber
+    - agua
+    - leer
+    - libro
+  - id: u09-l2-14
+    type: listening_choice
+    audioText: Vivo cerca de la oficina.
+    question: איפה גרים?
+    options:
+    - קרוב למשרד
+    - רחוק מהמשרד
+    - בבית
+    correct: 0
+    lexemes:
+    - vivir
+    - cerca
+    - oficina
+    - lejos
+    - casa
+  - id: u09-l2-15
+    type: translate
+    direction: to_target
+    prompt: אני שותה מים.
+    answers:
+    - Bebo agua.
+    lexemes:
+    - beber
+    - agua
+  - id: u09-l2-16
+    type: translate
+    direction: to_target
+    prompt: אני גר בישראל.
+    answers:
+    - Vivo en Israel.
+    lexemes:
+    - vivir
+    - israel
+  - id: u09-l2-17
+    type: translate
+    direction: to_source
+    prompt: Aprendo español.
+    answers:
+    - אני לומד ספרדית
+    lexemes:
+    - aprender
+    - espanol-lengua
+  - id: u09-l2-18
+    type: translate
+    direction: to_source
+    prompt: Abro la puerta.
+    answers:
+    - אני פותח את הדלת
+    - אני פותחת את הדלת
+    lexemes:
+    - abrir
+    - puerta
+  - id: u09-l2-19
+    type: dictation
+    text: Escribo y leo en español.
+    lexemes:
+    - escribir
+    - leer
+    - espanol-lengua
+- id: u09-l3
+  kind: grammar
+  title:
+    he: er ו־ir והשעה
+    en: -er/-ir and time
+  grammar: er-ir-presente
+  exercises:
+  - id: u09-l3-01
+    type: fill_blank
+    sentence: Yo ___ pollo con arroz.
+    translation: אני אוכל עוף עם אורז.
+    answers:
+    - como
+    options:
+    - como
+    - comes
+    - come
+    lexemes:
+    - comer
+    - pollo
+    - arroz
+  - id: u09-l3-02
+    type: fill_blank
+    sentence: Tú ___ en México.
+    translation: אתה גר במקסיקו.
+    answers:
+    - vives
+    options:
+    - vives
+    - vivo
+    - vive
+    lexemes:
+    - vivir
+    - mexico
+  - id: u09-l3-03
+    type: fill_blank
+    sentence: Ella ___ un libro.
+    translation: היא קוראת ספר.
+    answers:
+    - lee
+    options:
+    - lee
+    - leo
+    - lees
+    lexemes:
+    - leer
+    - libro
+  - id: u09-l3-04
+    type: fill_blank
+    sentence: Nosotros ___ en Israel.
+    translation: אנחנו גרים בישראל.
+    answers:
+    - vivimos
+    options:
+    - vivimos
+    - viven
+    - vivo
+    lexemes:
+    - vivir
+    - israel
+  - id: u09-l3-05
+    type: fill_blank
+    sentence: Nosotros ___ a las dos.
+    translation: אנחנו אוכלים בשתיים.
+    answers:
+    - comemos
+    options:
+    - comemos
+    - comen
+    - como
+    lexemes:
+    - comer
+    - a-las
+    - dos
+  - id: u09-l3-06
+    type: fill_blank
+    sentence: Ellos ___ té por la noche.
+    translation: הם שותים תה בערב.
+    answers:
+    - beben
+    options:
+    - beben
+    - bebe
+    - bebemos
+    lexemes:
+    - beber
+    - te
+    - noche
+  - id: u09-l3-07
+    type: fill_blank
+    sentence: La reunión es ___ las tres.
+    translation: הפגישה בשלוש.
+    answers:
+    - a
+    options:
+    - a
+    - en
+    - de
+    lexemes:
+    - reunion
+    - a-las
+    - tres
+  - id: u09-l3-08
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Son las cuatro y media.
+    - Es las cuatro y media.
+    - Son la cuatro y media.
+    correct: 0
+    lexemes:
+    - son-las
+    - cuatro
+    - media
+  - id: u09-l3-09
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Es la una.
+    - Son la una.
+    - Son las una.
+    correct: 0
+    lexemes:
+    - son-las
+    - uno
+  - id: u09-l3-10
+    type: multiple_choice
+    prompt: מה פירוש 'Son las cinco menos cuarto'?
+    options:
+    - '4:45'
+    - '5:15'
+    - '5:45'
+    correct: 0
+    lexemes:
+    - son-las
+    - cuarto-hora
+    - cinco
+  - id: u09-l3-11
+    type: word_bank
+    prompt: אני גר קרוב למשרד.
+    answers:
+    - Vivo cerca de la oficina.
+    distractors:
+    - Vives
+    - lejos
+    lexemes:
+    - vivir
+    - cerca
+    - oficina
+  - id: u09-l3-12
+    type: word_bank
+    prompt: הפגישה בשמונה בדיוק.
+    answers:
+    - La reunión es a las ocho en punto.
+    distractors:
+    - Son
+    - media
+    lexemes:
+    - reunion
+    - a-las
+    - ocho
+    - en-punto
+  - id: u09-l3-13
+    type: translate
+    direction: to_target
+    prompt: אני אוכל בצהריים.
+    answers:
+    - Como al mediodía.
+    - Como a mediodía.
+    lexemes:
+    - comer
+    - mediodia
+  - id: u09-l3-14
+    type: translate
+    direction: to_target
+    prompt: אנחנו כותבים אחר כך.
+    answers:
+    - Escribimos después.
+    lexemes:
+    - escribir
+    - despues
+  - id: u09-l3-15
+    type: translate
+    direction: to_source
+    prompt: ¿A qué hora comes?
+    answers:
+    - באיזו שעה אתה אוכל?
+    - באיזו שעה את אוכלת?
+    lexemes:
+    - a-las
+    - comer
+    - hora
+  - id: u09-l3-16
+    type: translate
+    direction: to_source
+    prompt: Son las diez y cuarto.
+    answers:
+    - השעה עשר ורבע
+    lexemes:
+    - son-las
+    - diez
+    - cuarto-hora
+- id: u09-l4
+  kind: listening
+  title:
+    he: סדר היום
+    en: The schedule
+  exercises:
+  - id: u09-l4-01
+    type: dialogue
+    scene: מתאו מסביר ליעל את לוח הזמנים.
+    lines:
+    - speaker: mateo
+      text: Yael, mañana la reunión es a las diez. Comemos a la una.
+      translation: יעל, מחר הפגישה בעשר. אנחנו אוכלים באחת.
+    - speaker: yael
+      text: ¿Y el viernes?
+      translation: ומה ביום שישי?
+    - speaker: mateo
+      text: El viernes cerramos temprano, a las dos. ¿Vives cerca de la oficina?
+      translation: ביום שישי אנחנו סוגרים מוקדם, בשתיים. את גרה קרוב למשרד?
+    - speaker: yael
+      text: Sí, vivo a diez minutos. Leo y estudio después de la comida.
+      translation: כן, אני גרה במרחק עשר דקות. אני קוראת ולומדת אחרי האוכל.
+  - id: u09-l4-02
+    type: multiple_choice
+    prompt: מתי הפגישה?
+    options:
+    - בעשר
+    - באחת
+    - בשתיים
+    correct: 0
+    lexemes:
+    - reunion
+    - diez
+    - uno
+    - dos
+  - id: u09-l4-03
+    type: multiple_choice
+    prompt: מתי אוכלים?
+    options:
+    - באחת
+    - בעשר
+    - בשתיים
+    correct: 0
+    lexemes:
+    - comer
+    - uno
+    - diez
+    - dos
+  - id: u09-l4-04
+    type: multiple_choice
+    prompt: מתי סוגרים ביום שישי?
+    options:
+    - בשתיים
+    - באחת
+    - בעשר
+    correct: 0
+    lexemes:
+    - viernes
+    - dos
+    - uno
+    - diez
+  - id: u09-l4-05
+    type: listening_choice
+    audioText: Son las siete y cuarto.
+    question: מה השעה?
+    options:
+    - שבע ורבע
+    - שבע וחצי
+    - שמונה ורבע
+    correct: 0
+    lexemes:
+    - son-las
+    - siete
+    - cuarto-hora
+    - media
+    - ocho
+  - id: u09-l4-06
+    type: listening_choice
+    audioText: Como a las dos.
+    question: מתי אוכלים?
+    options:
+    - בשתיים
+    - בשלוש
+    - באחת
+    correct: 0
+    lexemes:
+    - comer
+    - a-las
+    - dos
+    - tres
+    - uno
+  - id: u09-l4-07
+    type: dictation
+    text: La reunión es a las nueve.
+    lexemes:
+    - reunion
+    - a-las
+    - nueve
+  - id: u09-l4-08
+    type: translate
+    direction: to_target
+    prompt: אני גר קרוב.
+    answers:
+    - Vivo cerca.
+    lexemes:
+    - vivir
+    - cerca
+  - id: u09-l4-09
+    type: speak_repeat
+    text: ¿A qué hora es la reunión?
+    translation: באיזו שעה הפגישה?
+    lexemes:
+    - a-las
+    - hora
+    - reunion
+- id: u09-l5
+  kind: reading
+  title:
+    he: לוח זמנים
+    en: A schedule
+  exercises:
+  - id: u09-l5-01
+    type: reading
+    kind: לוח
+    title: El horario de Yael
+    text: 'Lunes: 9:00 reunión de equipo. 1:00 comemos.
+
+      Miércoles: 8:30 escribo informes. 12:00 almuerzo en la cafetería.
+
+      Viernes: llego temprano y cierro la oficina a las 2:00. Después camino a casa.
+
+      Sábado: no trabajo.
+
+      '
+    translation: 'יום שני: 9:00 ישיבת צוות. 1:00 אוכלים.
+
+      יום רביעי: 8:30 כותבת דוחות. 12:00 ארוחת צהריים בקפיטריה.
+
+      יום שישי: מגיעה מוקדם וסוגרת את המשרד בשתיים. אחר כך הולכת הביתה ברגל.
+
+      שבת: לא עובדת.
+
+      '
+  - id: u09-l5-02
+    type: multiple_choice
+    prompt: מתי הישיבה ביום שני?
+    options:
+    - בתשע
+    - באחת
+    - בשמונה וחצי
+    correct: 0
+    lexemes:
+    - reunion
+    - nueve
+    - uno
+    - ocho
+    - media
+  - id: u09-l5-03
+    type: multiple_choice
+    prompt: מתי סוגרים ביום שישי?
+    options:
+    - בשתיים
+    - בצהריים
+    - באחת
+    correct: 0
+    lexemes:
+    - viernes
+    - dos
+    - mediodia
+    - uno
+  - id: u09-l5-04
+    type: fill_blank
+    sentence: El sábado no ___.
+    translation: בשבת לא עובדים.
+    answers:
+    - trabajo
+    options:
+    - trabajo
+    - como
+    - vivo
+    lexemes:
+    - sabado
+    - trabajar
+  - id: u09-l5-05
+    type: translate
+    direction: to_target
+    prompt: הישיבה בתשע.
+    answers:
+    - La reunión es a las nueve.
+    lexemes:
+    - reunion
+    - a-las
+    - nueve
+- id: u09-review
+  kind: review
+  title:
+    he: 'חזרה: שעות ופעלים'
+    en: 'Review: time and verbs'
+  exercises:
+  - id: u09-review-01
+    type: match_pairs
+    pairs:
+    - - comer
+      - לאכול
+    - - beber
+      - לשתות
+    - - leer
+      - לקרוא
+    - - vivir
+      - לגור
+    - - abrir
+      - לפתוח
+    lexemes:
+    - comer
+    - beber
+    - leer
+    - vivir
+    - abrir
+  - id: u09-review-02
+    type: match_pairs
+    pairs:
+    - - ¿qué hora es?
+      - מה השעה?
+    - - en punto
+      - בדיוק
+    - - y media
+      - וחצי
+    - - tarde
+      - מאוחר
+    - - después
+      - אחר כך
+    lexemes:
+    - que-hora
+    - en-punto
+    - media
+    - tarde-adv
+    - despues
+  - id: u09-review-03
+    type: fill_blank
+    sentence: Yo ___ en México.
+    translation: אני גר במקסיקו.
+    answers:
+    - vivo
+    options:
+    - vivo
+    - vive
+    - vivimos
+    lexemes:
+    - vivir
+    - mexico
+  - id: u09-review-04
+    type: fill_blank
+    sentence: Ellos ___ pescado.
+    translation: הם אוכלים דג.
+    answers:
+    - comen
+    options:
+    - comen
+    - come
+    - comemos
+    lexemes:
+    - comer
+    - pescado
+  - id: u09-review-05
+    type: multiple_choice
+    prompt: מה השעה? 'Son las tres y cuarto'
+    options:
+    - '3:15'
+    - '3:45'
+    - '2:15'
+    correct: 0
+    lexemes:
+    - son-las
+    - tres
+    - cuarto-hora
+  - id: u09-review-06
+    type: listening_choice
+    audioText: Es la una y media.
+    question: מה השעה?
+    options:
+    - אחת וחצי
+    - שתיים וחצי
+    - אחת בדיוק
+    correct: 0
+    lexemes:
+    - son-las
+    - uno
+    - media
+    - dos
+    - en-punto
+  - id: u09-review-07
+    type: word_bank
+    prompt: הפגישה בעשר.
+    answers:
+    - La reunión es a las diez.
+    distractors:
+    - Son
+    - y
+    lexemes:
+    - reunion
+    - a-las
+    - diez
+  - id: u09-review-08
+    type: translate
+    direction: to_target
+    prompt: אני כותב ואני קורא.
+    answers:
+    - Escribo y leo.
+    lexemes:
+    - escribir
+    - leer
+  - id: u09-review-09
+    type: translate
+    direction: to_source
+    prompt: ¿Cuándo es la reunión?
+    answers:
+    - מתי הפגישה?
+    lexemes:
+    - cuando
+    - reunion
+  - id: u09-review-10
+    type: dictation
+    text: Son las nueve en punto.
+    lexemes:
+    - son-las
+    - nueve
+    - en-punto
+  - id: u09-review-11
+    type: speak_repeat
+    text: Vivo cerca de la oficina.
+    translation: אני גר קרוב למשרד.
+    lexemes:
+    - vivir
+    - cerca
+    - oficina

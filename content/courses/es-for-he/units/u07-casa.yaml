@@ -1,0 +1,1140 @@
+id: u07-casa
+cefr: A1
+scene: home
+title:
+  he: הבית והדירה
+  en: Home
+story: יעל שוכרת דירה קטנה בקרבת המשרד, ודוניה כרמן, בעלת הבית, מראה לה אותה. יעל לומדת לתאר חדרים ורהיטים ואיפה כל דבר נמצא.
+canDo:
+- 'לתאר בית: חדרים ורהיטים'
+- להשתמש ב־hay ('יש') וב־estar ('נמצא')
+- 'להגיד איפה דברים נמצאים: en, sobre, debajo de, al lado de'
+- לשאול ¿dónde está…?
+vocabulary:
+- id: casa
+  text: la casa
+  translation: בית
+  pos: noun
+- id: apartamento
+  text: el apartamento
+  translation: דירה
+  pos: noun
+- id: cocina
+  text: la cocina
+  translation: מטבח
+  pos: noun
+- id: bano
+  text: el baño
+  translation: שירותים, חדר רחצה
+  pos: noun
+- id: sala
+  text: la sala
+  translation: סלון
+  pos: noun
+- id: cuarto
+  text: el cuarto
+  translation: חדר
+  pos: noun
+- id: mesa
+  text: la mesa
+  translation: שולחן
+  pos: noun
+- id: silla
+  text: la silla
+  translation: כיסא
+  pos: noun
+- id: cama
+  text: la cama
+  translation: מיטה
+  pos: noun
+- id: ventana
+  text: la ventana
+  translation: חלון
+  pos: noun
+- id: puerta
+  text: la puerta
+  translation: דלת
+  pos: noun
+- id: mezuza
+  text: la mezuzá
+  translation: מזוזה
+  pos: noun
+- id: hay
+  text: hay
+  translation: יש, ישנם
+  pos: verb
+  example:
+    text: Hay una mesa en la cocina.
+    translation: יש שולחן במטבח.
+- id: estar
+  text: estar
+  translation: להימצא, להיות (מקום, מצב)
+  pos: verb
+  example:
+    text: La cama está en el cuarto.
+    translation: המיטה נמצאת בחדר.
+- id: donde
+  text: ¿dónde?
+  translation: איפה?
+  pos: phrase
+- id: aqui
+  text: aquí
+  translation: כאן
+  pos: adverb
+- id: alli
+  text: allí
+  translation: שם
+  pos: adverb
+- id: en
+  text: en
+  translation: ב־, על (במקום)
+  pos: preposition
+- id: sobre
+  text: sobre
+  translation: על, מעל
+  pos: preposition
+- id: debajo
+  text: debajo de
+  translation: מתחת ל־
+  pos: preposition
+- id: al-lado
+  text: al lado de
+  translation: ליד
+  pos: preposition
+- id: cerca
+  text: cerca de
+  translation: קרוב ל־
+  pos: preposition
+- id: lejos
+  text: lejos de
+  translation: רחוק מ־
+  pos: preposition
+- id: pequeno
+  text: pequeño / pequeña
+  translation: קטן / קטנה
+  pos: adjective
+- id: bonito
+  text: bonito / bonita
+  translation: יפה
+  pos: adjective
+grammar:
+- id: hay-estar
+  title:
+    he: 'hay ו־estar: ''יש'' ו''נמצא'''
+    en: Hay and estar
+  explanation: 'בעברית יש שתי דרכים שונות: **יש** ("יש שולחן במטבח") ו**נמצא** ("השולחן נמצא במטבח"). בספרדית אותו הדבר, והשתיים מתאימות בדיוק:
+
+
+    * **hay** = **יש**. צורה אחת לכולם, ביחיד וברבים: *Hay una mesa. Hay dos sillas.*
+
+    * **estar** = **נמצא**. מתחבר לדבר מסוים וידוע: *La mesa **está** en la cocina.*
+
+
+    **estar** בהווה:
+
+
+    | כינוי | estar |
+
+    |---|---|
+
+    | yo | **estoy** |
+
+    | tú | **estás** |
+
+    | él / ella / usted | **está** |
+
+    | nosotros | **estamos** |
+
+    | ellos / ustedes | **están** |
+
+
+    * **hay** + דבר *לא* ידוע (un, una, dos…): *Hay una ventana.*
+
+    * **estar** + דבר ידוע (el, la, mi, su…): *La ventana está aquí.*
+
+    * שאלה: **¿Dónde está** el baño? (איפה השירותים?) ו־**¿Hay** un baño? (יש שירותים?)
+
+
+    **ser** מול **estar:** *ser* = מי / מה הדבר (זהות), *estar* = איפה הוא נמצא ואיך הוא עכשיו. יעל **es** israelí, אבל יעל **está** en México.'
+  examples:
+  - text: Hay una mezuzá en la puerta.
+    translation: יש מזוזה על הדלת.
+  - text: ¿Dónde está el baño?
+    translation: איפה השירותים?
+  - text: La cama está al lado de la ventana.
+    translation: המיטה נמצאת ליד החלון.
+lessons:
+- id: u07-l1
+  kind: new
+  title:
+    he: חדרים ורהיטים
+    en: Rooms and furniture
+  exercises:
+  - id: u07-l1-01
+    type: dialogue
+    scene: דוניה כרמן מראה ליעל את הדירה.
+    lines:
+    - speaker: carmen
+      text: Bienvenida, Yael. Este es tu apartamento. Es pequeño, pero bonito.
+      translation: ברוכה הבאה, יעל. זו הדירה שלך. היא קטנה, אבל יפה.
+    - speaker: yael
+      text: ¡Me gusta mucho! Hay una cocina y un baño.
+      translation: אני מאוד אוהבת! יש מטבח ושירותים.
+    - speaker: carmen
+      text: Sí, y aquí hay una mesa y dos sillas. En la puerta hay una mezuzá.
+      translation: כן, וכאן יש שולחן ושני כיסאות. על הדלת יש מזוזה.
+    - speaker: yael
+      text: Gracias, doña Carmen. ¡Es perfecto!
+      translation: תודה, דוניה כרמן. זה מושלם!
+  - id: u07-l1-02
+    type: learn
+    lexeme: casa
+  - id: u07-l1-03
+    type: learn
+    lexeme: apartamento
+  - id: u07-l1-04
+    type: learn
+    lexeme: cocina
+  - id: u07-l1-05
+    type: learn
+    lexeme: bano
+  - id: u07-l1-06
+    type: learn
+    lexeme: sala
+  - id: u07-l1-07
+    type: learn
+    lexeme: cuarto
+  - id: u07-l1-08
+    type: learn
+    lexeme: mesa
+  - id: u07-l1-09
+    type: learn
+    lexeme: silla
+  - id: u07-l1-10
+    type: learn
+    lexeme: cama
+  - id: u07-l1-11
+    type: learn
+    lexeme: ventana
+  - id: u07-l1-12
+    type: learn
+    lexeme: puerta
+  - id: u07-l1-13
+    type: learn
+    lexeme: mezuza
+  - id: u07-l1-14
+    type: learn
+    lexeme: pequeno
+  - id: u07-l1-15
+    type: learn
+    lexeme: bonito
+  - id: u07-l1-16
+    type: match_pairs
+    pairs:
+    - - la casa
+      - בית
+    - - el apartamento
+      - דירה
+    - - la cocina
+      - מטבח
+    - - el baño
+      - שירותים
+    - - la sala
+      - סלון
+    lexemes:
+    - casa
+    - apartamento
+    - cocina
+    - bano
+    - sala
+  - id: u07-l1-17
+    type: match_pairs
+    pairs:
+    - - la mesa
+      - שולחן
+    - - la silla
+      - כיסא
+    - - la cama
+      - מיטה
+    - - la ventana
+      - חלון
+    - - la puerta
+      - דלת
+    lexemes:
+    - mesa
+    - silla
+    - cama
+    - ventana
+    - puerta
+  - id: u07-l1-18
+    type: multiple_choice
+    prompt: מה פירוש 'la mezuzá'?
+    options:
+    - מזוזה
+    - חלון
+    - מיטה
+    correct: 0
+    lexemes:
+    - mezuza
+    - ventana
+    - cama
+  - id: u07-l1-19
+    type: multiple_choice
+    prompt: איפה ישנים?
+    options:
+    - en la cama
+    - en la cocina
+    - en la mesa
+    correct: 0
+    lexemes:
+    - cama
+    - cocina
+    - mesa
+  - id: u07-l1-20
+    type: listening_choice
+    audioText: la cocina
+    question: מה שמעתם?
+    options:
+    - המטבח
+    - הסלון
+    - השירותים
+    correct: 0
+    lexemes:
+    - cocina
+    - sala
+    - bano
+  - id: u07-l1-21
+    type: listening_choice
+    audioText: Es un apartamento pequeño.
+    question: מה שמעתם?
+    options:
+    - זו דירה קטנה
+    - זו דירה גדולה
+    - זה בית קטן
+    correct: 0
+    lexemes:
+    - apartamento
+    - pequeno
+    - casa
+  - id: u07-l1-22
+    type: translate
+    direction: to_target
+    prompt: שולחן וכיסא
+    answers:
+    - una mesa y una silla
+    - mesa y silla
+    - la mesa y la silla
+    lexemes:
+    - mesa
+    - silla
+    - y
+  - id: u07-l1-23
+    type: translate
+    direction: to_target
+    prompt: חלון קטן
+    answers:
+    - una ventana pequeña
+    - ventana pequeña
+    - la ventana pequeña
+    lexemes:
+    - ventana
+    - pequeno
+  - id: u07-l1-24
+    type: translate
+    direction: to_source
+    prompt: el cuarto
+    answers:
+    - החדר
+    - חדר
+    lexemes:
+    - cuarto
+  - id: u07-l1-25
+    type: dictation
+    text: la casa bonita
+    lexemes:
+    - casa
+    - bonito
+  - id: u07-l1-26
+    type: speak_repeat
+    text: Mi casa es pequeña pero bonita.
+    translation: הבית שלי קטן אבל יפה.
+    lexemes:
+    - mi
+    - casa
+    - pequeno
+    - bonito
+- id: u07-l2
+  kind: new
+  title:
+    he: איפה זה?
+    en: Where is it?
+  exercises:
+  - id: u07-l2-01
+    type: learn
+    lexeme: hay
+  - id: u07-l2-02
+    type: learn
+    lexeme: estar
+  - id: u07-l2-03
+    type: learn
+    lexeme: donde
+  - id: u07-l2-04
+    type: learn
+    lexeme: aqui
+  - id: u07-l2-05
+    type: learn
+    lexeme: alli
+  - id: u07-l2-06
+    type: learn
+    lexeme: en
+  - id: u07-l2-07
+    type: learn
+    lexeme: sobre
+  - id: u07-l2-08
+    type: learn
+    lexeme: debajo
+  - id: u07-l2-09
+    type: learn
+    lexeme: al-lado
+  - id: u07-l2-10
+    type: learn
+    lexeme: cerca
+  - id: u07-l2-11
+    type: learn
+    lexeme: lejos
+  - id: u07-l2-12
+    type: tip
+    title: יש = hay, נמצא = estar
+    text: 'בעברית **יש** ו**נמצא** הן שתי מילים, ובספרדית גם: **hay** (יש) ו־**está** (נמצא). *Hay una mesa* = יש שולחן. *La mesa está aquí* = השולחן נמצא כאן.
+
+      '
+  - id: u07-l2-13
+    type: match_pairs
+    pairs:
+    - - en
+      - ב־ / על
+    - - sobre
+      - מעל
+    - - debajo de
+      - מתחת ל־
+    - - al lado de
+      - ליד
+    - - cerca de
+      - קרוב ל־
+    lexemes:
+    - en
+    - sobre
+    - debajo
+    - al-lado
+    - cerca
+  - id: u07-l2-14
+    type: match_pairs
+    pairs:
+    - - aquí
+      - כאן
+    - - allí
+      - שם
+    - - lejos de
+      - רחוק מ־
+    - - ¿dónde?
+      - איפה?
+    - - hay
+      - יש
+    lexemes:
+    - aqui
+    - alli
+    - lejos
+    - donde
+    - hay
+  - id: u07-l2-15
+    type: multiple_choice
+    prompt: מה פירוש 'debajo de'?
+    options:
+    - מתחת ל־
+    - מעל
+    - ליד
+    correct: 0
+    lexemes:
+    - debajo
+    - sobre
+    - al-lado
+  - id: u07-l2-16
+    type: multiple_choice
+    prompt: איך שואלים 'איפה השירותים?'
+    options:
+    - ¿Dónde está el baño?
+    - ¿Cómo está el baño?
+    - ¿Qué es el baño?
+    correct: 0
+    lexemes:
+    - donde
+    - estar
+    - bano
+  - id: u07-l2-17
+    type: multiple_choice
+    prompt: איך אומרים 'יש כיסא'?
+    options:
+    - Hay una silla.
+    - Está una silla.
+    - Es una silla.
+    correct: 0
+    lexemes:
+    - hay
+    - silla
+  - id: u07-l2-18
+    type: listening_choice
+    audioText: La mesa está en la cocina.
+    question: איפה השולחן?
+    options:
+    - במטבח
+    - בסלון
+    - בחדר
+    correct: 0
+    lexemes:
+    - mesa
+    - estar
+    - cocina
+    - sala
+    - cuarto
+  - id: u07-l2-19
+    type: listening_choice
+    audioText: El libro está sobre la mesa.
+    question: איפה הספר?
+    options:
+    - על השולחן
+    - מתחת לשולחן
+    - ליד השולחן
+    correct: 0
+    lexemes:
+    - libro
+    - sobre
+    - debajo
+    - al-lado
+    - mesa
+  - id: u07-l2-20
+    type: fill_blank
+    sentence: El libro está ___ la mesa. (על)
+    translation: הספר על השולחן.
+    answers:
+    - sobre
+    options:
+    - sobre
+    - debajo de
+    - lejos de
+    lexemes:
+    - libro
+    - sobre
+    - mesa
+  - id: u07-l2-21
+    type: fill_blank
+    sentence: El libro está ___ la silla. (מתחת)
+    translation: הספר מתחת לכיסא.
+    answers:
+    - debajo de
+    options:
+    - debajo de
+    - sobre
+    - en
+    lexemes:
+    - libro
+    - debajo
+    - silla
+  - id: u07-l2-22
+    type: fill_blank
+    sentence: La cama está ___ la ventana. (ליד)
+    translation: המיטה ליד החלון.
+    answers:
+    - al lado de
+    options:
+    - al lado de
+    - debajo de
+    - lejos de
+    lexemes:
+    - cama
+    - al-lado
+    - ventana
+  - id: u07-l2-23
+    type: word_bank
+    prompt: איפה המטבח?
+    answers:
+    - ¿Dónde está la cocina?
+    distractors:
+    - Hay
+    - Cómo
+    lexemes:
+    - donde
+    - estar
+    - cocina
+  - id: u07-l2-24
+    type: translate
+    direction: to_target
+    prompt: הכיסא ליד השולחן.
+    answers:
+    - La silla está al lado de la mesa.
+    lexemes:
+    - silla
+    - estar
+    - al-lado
+    - mesa
+  - id: u07-l2-25
+    type: translate
+    direction: to_source
+    prompt: ¿Dónde está la mezuzá?
+    answers:
+    - איפה המזוזה?
+    lexemes:
+    - donde
+    - estar
+    - mezuza
+  - id: u07-l2-26
+    type: dictation
+    text: La puerta está aquí.
+    lexemes:
+    - puerta
+    - estar
+    - aqui
+- id: u07-l3
+  kind: grammar
+  title:
+    he: hay ו־estar
+    en: Hay and estar
+  grammar: hay-estar
+  exercises:
+  - id: u07-l3-01
+    type: fill_blank
+    sentence: Yo ___ en casa.
+    translation: אני בבית.
+    answers:
+    - estoy
+    options:
+    - estoy
+    - estás
+    - está
+    lexemes:
+    - estar
+    - casa
+  - id: u07-l3-02
+    type: fill_blank
+    sentence: ¿Tú ___ aquí?
+    translation: אתה כאן?
+    answers:
+    - estás
+    options:
+    - estás
+    - estoy
+    - están
+    lexemes:
+    - estar
+    - aqui
+  - id: u07-l3-03
+    type: fill_blank
+    sentence: Mi hermana ___ en el cuarto.
+    translation: אחותי בחדר.
+    answers:
+    - está
+    options:
+    - está
+    - están
+    - estás
+    lexemes:
+    - hermana
+    - estar
+    - cuarto
+  - id: u07-l3-04
+    type: fill_blank
+    sentence: Nosotros ___ en la cocina.
+    translation: אנחנו במטבח.
+    answers:
+    - estamos
+    options:
+    - estamos
+    - están
+    - estoy
+    lexemes:
+    - estar
+    - cocina
+  - id: u07-l3-05
+    type: fill_blank
+    sentence: Mis padres ___ allí.
+    translation: ההורים שלי שם.
+    answers:
+    - están
+    options:
+    - están
+    - está
+    - estamos
+    lexemes:
+    - padres
+    - estar
+    - alli
+  - id: u07-l3-06
+    type: fill_blank
+    sentence: En la sala ___ dos sillas.
+    translation: בסלון יש שני כיסאות.
+    answers:
+    - hay
+    options:
+    - hay
+    - están
+    - es
+    lexemes:
+    - hay
+    - sala
+    - silla
+    - dos
+  - id: u07-l3-07
+    type: fill_blank
+    sentence: ¿___ un baño en el apartamento?
+    translation: יש שירותים בדירה?
+    answers:
+    - Hay
+    options:
+    - Hay
+    - Está
+    - Es
+    lexemes:
+    - hay
+    - bano
+    - apartamento
+  - id: u07-l3-08
+    type: fill_blank
+    sentence: La mezuzá ___ en la puerta.
+    translation: המזוזה נמצאת על הדלת.
+    answers:
+    - está
+    options:
+    - está
+    - hay
+    - es
+    lexemes:
+    - mezuza
+    - estar
+    - puerta
+  - id: u07-l3-09
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Hay una mesa en la cocina.
+    - Está una mesa en la cocina.
+    - Es una mesa en la cocina.
+    correct: 0
+    lexemes:
+    - hay
+    - mesa
+    - cocina
+  - id: u07-l3-10
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - La mesa está en la cocina.
+    - La mesa hay en la cocina.
+    - La mesa es en la cocina.
+    correct: 0
+    lexemes:
+    - mesa
+    - estar
+    - cocina
+  - id: u07-l3-11
+    type: multiple_choice
+    prompt: מה ההבדל? 'Yael es israelí' / 'Yael está en México'
+    options:
+    - ser = מי היא, estar = איפה היא
+    - שניהם אותו דבר
+    - estar = מי היא, ser = איפה היא
+    correct: 0
+    lexemes:
+    - ser
+    - estar
+    - israeli
+    - mexico
+  - id: u07-l3-12
+    type: word_bank
+    prompt: יש חלון במטבח.
+    answers:
+    - Hay una ventana en la cocina.
+    distractors:
+    - Está
+    - sala
+    lexemes:
+    - hay
+    - ventana
+    - cocina
+  - id: u07-l3-13
+    type: word_bank
+    prompt: הספר נמצא כאן.
+    answers:
+    - El libro está aquí.
+    distractors:
+    - Hay
+    - allí
+    lexemes:
+    - libro
+    - estar
+    - aqui
+  - id: u07-l3-14
+    type: translate
+    direction: to_target
+    prompt: אני בבית.
+    answers:
+    - Estoy en casa.
+    lexemes:
+    - estar
+    - casa
+  - id: u07-l3-15
+    type: translate
+    direction: to_target
+    prompt: יש מיטה בחדר.
+    answers:
+    - Hay una cama en el cuarto.
+    lexemes:
+    - hay
+    - cama
+    - cuarto
+  - id: u07-l3-16
+    type: translate
+    direction: to_source
+    prompt: Estamos cerca de la casa.
+    answers:
+    - אנחנו קרובים לבית
+    - אנחנו קרוב לבית
+    lexemes:
+    - estar
+    - cerca
+    - casa
+- id: u07-l4
+  kind: listening
+  title:
+    he: סיור בדירה
+    en: A tour of the apartment
+  exercises:
+  - id: u07-l4-01
+    type: dialogue
+    scene: יעל ודוניה כרמן בסיור בדירה.
+    lines:
+    - speaker: yael
+      text: Doña Carmen, ¿dónde está el baño?
+      translation: דוניה כרמן, איפה השירותים?
+    - speaker: carmen
+      text: Está al lado del cuarto. La cocina está aquí, cerca de la sala.
+      translation: הם ליד החדר. המטבח כאן, קרוב לסלון.
+    - speaker: yael
+      text: ¿Hay una mesa en la cocina?
+      translation: יש שולחן במטבח?
+    - speaker: carmen
+      text: Sí, hay una mesa y dos sillas. Y hay una ventana grande.
+      translation: כן, יש שולחן ושני כיסאות. ויש חלון גדול.
+  - id: u07-l4-02
+    type: multiple_choice
+    prompt: איפה השירותים?
+    options:
+    - ליד החדר
+    - בסלון
+    - ליד הדלת
+    correct: 0
+    lexemes:
+    - bano
+    - al-lado
+    - cuarto
+  - id: u07-l4-03
+    type: multiple_choice
+    prompt: מה יש במטבח?
+    options:
+    - שולחן ושני כיסאות
+    - מיטה
+    - ספר
+    correct: 0
+    lexemes:
+    - cocina
+    - mesa
+    - silla
+    - dos
+  - id: u07-l4-04
+    type: multiple_choice
+    prompt: איזה חלון יש?
+    options:
+    - גדול
+    - קטן
+    - אין חלון
+    correct: 0
+    lexemes:
+    - ventana
+    - grande
+    - pequeno
+  - id: u07-l4-05
+    type: listening_choice
+    audioText: La cama está cerca de la ventana.
+    question: איפה המיטה?
+    options:
+    - קרוב לחלון
+    - רחוק מהחלון
+    - מתחת לחלון
+    correct: 0
+    lexemes:
+    - cama
+    - cerca
+    - lejos
+    - debajo
+    - ventana
+  - id: u07-l4-06
+    type: listening_choice
+    audioText: Hay tres sillas en la sala.
+    question: כמה כיסאות?
+    options:
+    - שלושה
+    - שניים
+    - חמישה
+    correct: 0
+    lexemes:
+    - hay
+    - tres
+    - dos
+    - cinco
+    - silla
+    - sala
+  - id: u07-l4-07
+    type: dictation
+    text: La mesa está en la sala.
+    lexemes:
+    - mesa
+    - estar
+    - sala
+  - id: u07-l4-08
+    type: translate
+    direction: to_target
+    prompt: הדלת רחוקה.
+    answers:
+    - La puerta está lejos.
+    lexemes:
+    - puerta
+    - estar
+    - lejos
+  - id: u07-l4-09
+    type: speak_repeat
+    text: ¿Dónde está la cocina?
+    translation: איפה המטבח?
+    lexemes:
+    - donde
+    - estar
+    - cocina
+- id: u07-l5
+  kind: reading
+  title:
+    he: הדירה החדשה
+    en: The new apartment
+  exercises:
+  - id: u07-l5-01
+    type: reading
+    kind: תיאור
+    title: Mi apartamento
+    text: 'Mi apartamento es pequeño, pero bonito. Está cerca de la oficina.
+
+      Hay una sala, un cuarto, una cocina y un baño.
+
+      En la cocina hay una mesa y dos sillas. La cama está al lado de la ventana.
+
+      En la puerta hay una mezuzá. ¡Me gusta mucho mi casa nueva!
+
+      '
+    translation: 'הדירה שלי קטנה אבל יפה. היא קרובה למשרד.
+
+      יש סלון, חדר, מטבח ושירותים.
+
+      במטבח יש שולחן ושני כיסאות. המיטה ליד החלון.
+
+      על הדלת יש מזוזה. אני מאוד אוהבת את הבית החדש שלי!
+
+      '
+  - id: u07-l5-02
+    type: multiple_choice
+    prompt: איפה הדירה?
+    options:
+    - קרוב למשרד
+    - רחוק מהמשרד
+    - בישראל
+    correct: 0
+    lexemes:
+    - apartamento
+    - cerca
+    - lejos
+    - israel
+  - id: u07-l5-03
+    type: multiple_choice
+    prompt: איפה המיטה?
+    options:
+    - ליד החלון
+    - במטבח
+    - מתחת לשולחן
+    correct: 0
+    lexemes:
+    - cama
+    - al-lado
+    - ventana
+  - id: u07-l5-04
+    type: fill_blank
+    sentence: En la puerta ___ una mezuzá.
+    translation: על הדלת יש מזוזה.
+    answers:
+    - hay
+    options:
+    - hay
+    - está
+    - es
+    lexemes:
+    - hay
+    - puerta
+    - mezuza
+  - id: u07-l5-05
+    type: translate
+    direction: to_target
+    prompt: הדירה שלי קרובה למשרד.
+    answers:
+    - Mi apartamento está cerca de la oficina.
+    lexemes:
+    - mi
+    - apartamento
+    - estar
+    - cerca
+- id: u07-review
+  kind: review
+  title:
+    he: 'חזרה: הבית'
+    en: 'Review: home'
+  exercises:
+  - id: u07-review-01
+    type: match_pairs
+    pairs:
+    - - la cocina
+      - מטבח
+    - - la sala
+      - סלון
+    - - el cuarto
+      - חדר
+    - - el baño
+      - שירותים
+    - - la puerta
+      - דלת
+    lexemes:
+    - cocina
+    - sala
+    - cuarto
+    - bano
+    - puerta
+  - id: u07-review-02
+    type: match_pairs
+    pairs:
+    - - sobre
+      - מעל
+    - - debajo de
+      - מתחת
+    - - al lado de
+      - ליד
+    - - cerca de
+      - קרוב
+    - - lejos de
+      - רחוק
+    lexemes:
+    - sobre
+    - debajo
+    - al-lado
+    - cerca
+    - lejos
+  - id: u07-review-03
+    type: fill_blank
+    sentence: Yo ___ en la cocina.
+    translation: אני במטבח.
+    answers:
+    - estoy
+    options:
+    - estoy
+    - hay
+    - soy
+    lexemes:
+    - estar
+    - cocina
+  - id: u07-review-04
+    type: fill_blank
+    sentence: En la sala ___ una mesa.
+    translation: בסלון יש שולחן.
+    answers:
+    - hay
+    options:
+    - hay
+    - está
+    - es
+    lexemes:
+    - hay
+    - sala
+    - mesa
+  - id: u07-review-05
+    type: multiple_choice
+    prompt: מה פירוש '¿Dónde está la ventana?'
+    options:
+    - איפה החלון?
+    - מה זה החלון?
+    - כמה עולה החלון?
+    correct: 0
+    lexemes:
+    - donde
+    - estar
+    - ventana
+  - id: u07-review-06
+    type: listening_choice
+    audioText: El libro está debajo de la cama.
+    question: איפה הספר?
+    options:
+    - מתחת למיטה
+    - על המיטה
+    - ליד המיטה
+    correct: 0
+    lexemes:
+    - libro
+    - debajo
+    - sobre
+    - al-lado
+    - cama
+  - id: u07-review-07
+    type: word_bank
+    prompt: הכיסא ליד החלון.
+    answers:
+    - La silla está al lado de la ventana.
+    distractors:
+    - hay
+    - sobre
+    lexemes:
+    - silla
+    - estar
+    - al-lado
+    - ventana
+  - id: u07-review-08
+    type: translate
+    direction: to_target
+    prompt: יש מזוזה על הדלת.
+    answers:
+    - Hay una mezuzá en la puerta.
+    lexemes:
+    - hay
+    - mezuza
+    - puerta
+  - id: u07-review-09
+    type: translate
+    direction: to_source
+    prompt: Estamos en casa.
+    answers:
+    - אנחנו בבית
+    lexemes:
+    - estar
+    - casa
+  - id: u07-review-10
+    type: dictation
+    text: El apartamento es bonito.
+    lexemes:
+    - apartamento
+    - bonito
+  - id: u07-review-11
+    type: speak_repeat
+    text: Hay una mesa en la cocina.
+    translation: יש שולחן במטבח.
+    lexemes:
+    - hay
+    - mesa
+    - cocina
