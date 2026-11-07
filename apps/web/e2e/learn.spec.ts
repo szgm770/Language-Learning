@@ -233,3 +233,14 @@ for (const id of ["u01-l2", "u02-l1", "u02-l3", "u03-l1", "u03-l3", "u04-l1", "u
     await finishLesson(page);
   });
 }
+
+test("on a new device any course can be chosen when moving progress", async ({ page }) => {
+  await page.goto("settings/", { waitUntil: "networkidle" });
+  await page.getByRole("button", { name: "בחירת מקום ידנית" }).click();
+  await page.getByLabel("קורס").selectOption({ label: "ספרדית לדוברי עברית" });
+  await page.getByLabel("יחידה").selectOption({ index: 4 });
+  await page.getByRole("button", { name: "להמשיך מכאן" }).click();
+  await expect(page.getByRole("status")).toContainText("ההתקדמות הועברה");
+  await page.getByRole("link", { name: "להמשיך ללמוד" }).click();
+  await expect(page).toHaveURL(/\/learn\/$/);
+});

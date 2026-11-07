@@ -61,10 +61,11 @@ export default function Settings() {
 
   return (
     <AppShell>
-    <div className="flex flex-col gap-10 pt-6">
+    <div className="flex flex-col gap-5 pt-6 pb-8">
       <h1 className="text-3xl font-semibold">הגדרות</h1>
 
-      <section className="flex flex-col gap-6">
+      <section className="card flex flex-col gap-6 p-5" aria-labelledby="learning-h">
+        <h2 id="learning-h" className="text-xl font-semibold">לימוד</h2>
         <Segmented
           label="יעד יומי"
           value={goal}
@@ -77,6 +78,10 @@ export default function Settings() {
           options={[5, 10, 15, 20].map((m) => ({ value: m, label: String(m) }))}
           onPick={(v) => save("newPerDay", v)}
         />
+      </section>
+
+      <section className="card flex flex-col gap-6 p-5" aria-labelledby="look-h">
+        <h2 id="look-h" className="text-xl font-semibold">מראה וצלילים</h2>
         <Segmented
           label="מראה"
           value={theme as string}
@@ -98,7 +103,7 @@ export default function Settings() {
         />
       </section>
 
-      <section className="flex flex-col gap-3">
+      <section className="card flex flex-col gap-3 p-5">
         <h2 className="text-xl font-semibold">תעודות</h2>
         <p className="text-ink-soft">תעודה לכל רמה שסיימתם, להדפסה או לשמירה כ־PDF.</p>
         <Link href={`/certificate/${currentCourse(state) ?? "en-for-he"}/`} className="btn-quiet self-start">
@@ -108,7 +113,7 @@ export default function Settings() {
 
       <TransferSection />
 
-      <section className="flex flex-col gap-3">
+      <section className="card flex flex-col gap-3 p-5">
         <h2 className="text-xl font-semibold">הנתונים שלי</h2>
         <button className="btn-quiet self-start" onClick={exportData}>
           הורדת כל הנתונים (JSON)
