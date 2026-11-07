@@ -401,7 +401,7 @@ lessons:
     options:
     - Atentamente,
     - Chao,
-    - Besos,
+    - Un abrazo,
     correct: 0
     lexemes:
     - atentamente
@@ -1287,7 +1287,7 @@ lessons:
     options:
     - Atentamente,
     - Chao,
-    - Besos,
+    - Un abrazo,
     correct: 0
     lexemes:
     - atentamente

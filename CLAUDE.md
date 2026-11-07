@@ -6,6 +6,7 @@ https://claude.ai/artifact/GFqUqL1TGLJecV2RuqKfsj
 ## Layout
 - `content/courses/<course>/` – course content as YAML (written with AI, reviewed by people). Never put lesson content in code.
   English runs A0 → C1 (55 units; v1–v6 are word-builder packs). A0 (letters, sounds, first words) follows `docs/curriculum/en-a0.md`; A1 follows `docs/curriculum/en-a1.md` (units, lesson pattern, characters Noa/Ben/Rachel/Eli/Miriam/Mr. Cohen); A2–B2 follow `docs/curriculum/en-a2-b2.md`; C1 (u41–u46, level test `c1-test`) follows `docs/curriculum/en-c1.md`.
+  Spanish (`es-for-he`, Latin-American, Yael in Mexico City) runs A0 → C1 in 49 units: u00a–u00c (A0), u01–u10 (A1), u11–u20 (A2), u21–u30 (B1), u31–u40 (B2), u41–u46 (C1), p1–p6 word packs, and level tests a1/a2/b1/b2/c1-test. Blueprint and method differences from English: `docs/curriculum/es.md`. From B1 on every review lesson ends with a `write` task (free writing, checked by regex; accents are folded in `checkWriting`, so write patterns without accents). The Spanish storyline is deliberately different from the English one.
   Lesson steps: `learn` (introduce a word), `dialogue`, `dialogue_gap`, `tip` (ungraded) plus the graded exercise types.
   The build fails if a word is practised before a learn card introduces it.
   Quote YAML values that contain commas (`scripts/quote-yaml-flow.py <file>` fixes one-line `{ … }` maps).

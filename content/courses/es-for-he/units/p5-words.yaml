@@ -1,0 +1,959 @@
+id: p5-words
+cefr: B2
+scene: news
+title:
+  he: 'הרחבת אוצר מילים 5: חברה וחדשות'
+  en: 'Word builder 5: society and news'
+story: מילים לקריאת חדשות ולשיחה על חברה, חינוך, כלכלה וסביבה. כל מילה מופיעה במשפט.
+canDo:
+- להבין ולהשתמש במילים נפוצות נוספות
+- לזהות את המילים במשפטים אמיתיים
+vocabulary:
+- id: p5-encuesta
+  text: la encuesta
+  translation: סקר
+  pos: noun
+  example:
+    text: Según la encuesta, la mayoría está de acuerdo.
+    translation: לפי הסקר, רוב האנשים מסכימים.
+- id: p5-ley
+  text: la ley
+  translation: חוק
+  pos: noun
+  example:
+    text: La nueva ley entra en vigor en marzo.
+    translation: החוק החדש נכנס לתוקף במרץ.
+- id: p5-derecho
+  text: el derecho
+  translation: זכות
+  pos: noun
+  example:
+    text: Todos tenemos derecho a la educación.
+    translation: לכולנו יש זכות לחינוך.
+- id: p5-obligacion
+  text: la obligación
+  translation: חובה
+  pos: noun
+  example:
+    text: Cuidar a los demás es una obligación.
+    translation: לדאוג לאחרים זו חובה.
+- id: p5-sociedad
+  text: la sociedad
+  translation: חברה
+  pos: noun
+  example:
+    text: La sociedad cambia muy rápido.
+    translation: החברה משתנה מהר מאוד.
+- id: p5-economia
+  text: la economía
+  translation: כלכלה
+  pos: noun
+  example:
+    text: La economía del país creció este año.
+    translation: כלכלת המדינה צמחה השנה.
+- id: p5-empleo
+  text: el empleo
+  translation: תעסוקה, משרה
+  pos: noun
+  example:
+    text: Muchos jóvenes buscan empleo.
+    translation: הרבה צעירים מחפשים עבודה.
+- id: p5-educacion
+  text: la educación
+  translation: חינוך
+  pos: noun
+  example:
+    text: La educación es la base del futuro.
+    translation: החינוך הוא הבסיס לעתיד.
+- id: p5-transporte
+  text: el transporte
+  translation: תחבורה
+  pos: noun
+  example:
+    text: El transporte público es barato en la ciudad.
+    translation: התחבורה הציבורית זולה בעיר.
+- id: p5-contaminacion
+  text: la contaminación
+  translation: זיהום
+  pos: noun
+  example:
+    text: La contaminación del aire preocupa a todos.
+    translation: זיהום האוויר מדאיג את כולם.
+- id: p5-reciclaje
+  text: el reciclaje
+  translation: מיחזור
+  pos: noun
+  example:
+    text: El reciclaje ayuda a cuidar el planeta.
+    translation: המיחזור עוזר לשמור על כדור הארץ.
+- id: p5-servicio
+  text: el servicio
+  translation: שירות
+  pos: noun
+  example:
+    text: El servicio de salud mejoró mucho.
+    translation: שירותי הבריאות השתפרו מאוד.
+- id: p5-informar
+  text: informar
+  translation: להודיע, לדווח
+  pos: verb
+  example:
+    text: Los periódicos deben informar con honestidad.
+    translation: העיתונים צריכים לדווח ביושר.
+- id: p5-denunciar
+  text: denunciar
+  translation: להתלונן, לדווח על
+  pos: verb
+  example:
+    text: Es importante denunciar los abusos.
+    translation: חשוב לדווח על התעללויות.
+- id: p5-regular
+  text: regular
+  translation: להסדיר
+  pos: verb
+  example:
+    text: El gobierno quiere regular los precios.
+    translation: הממשלה רוצה להסדיר את המחירים.
+- id: p5-invertir
+  text: invertir
+  translation: להשקיע
+  pos: verb
+  example:
+    text: La ciudad va a invertir en transporte.
+    translation: העיר הולכת להשקיע בתחבורה.
+- id: p5-apoyar
+  text: apoyar
+  translation: לתמוך
+  pos: verb
+  example:
+    text: Muchos vecinos quieren apoyar el proyecto.
+    translation: הרבה שכנים רוצים לתמוך בפרויקט.
+- id: p5-reducir
+  text: reducir
+  translation: להפחית
+  pos: verb
+  example:
+    text: Queremos reducir la contaminación.
+    translation: אנחנו רוצים להפחית את הזיהום.
+- id: p5-publico
+  text: público
+  translation: ציבורי
+  pos: adjective
+  example:
+    text: El parque es un espacio público.
+    translation: הפארק הוא מרחב ציבורי.
+- id: p5-social
+  text: social
+  translation: חברתי
+  pos: adjective
+  example:
+    text: Es un problema social muy serio.
+    translation: זו בעיה חברתית רצינית מאוד.
+- id: p5-urbano
+  text: urbano
+  translation: עירוני
+  pos: adjective
+  example:
+    text: El transporte urbano es esencial.
+    translation: התחבורה העירונית חיונית.
+- id: p5-sostenible
+  text: sostenible
+  translation: בר־קיימא
+  pos: adjective
+  example:
+    text: Buscamos una solución sostenible.
+    translation: אנחנו מחפשים פתרון בר־קיימא.
+- id: p5-vulnerable
+  text: vulnerable
+  translation: פגיע
+  pos: adjective
+  example:
+    text: Los niños son un grupo vulnerable.
+    translation: ילדים הם קבוצה פגיעה.
+- id: p5-gratuito
+  text: gratuito
+  translation: חינם
+  pos: adjective
+  example:
+    text: El servicio es gratuito para estudiantes.
+    translation: השירות הוא בחינם לסטודנטים.
+- id: p5-eficaz
+  text: eficaz
+  translation: יעיל
+  pos: adjective
+  example:
+    text: Es una medida eficaz y barata.
+    translation: זהו צעד יעיל וזול.
+lessons:
+- id: p5-l1
+  kind: new
+  title:
+    he: חבילה 5 – חלק 1
+    en: Pack 5 – part 1
+  exercises:
+  - id: p5-l1-01
+    type: learn
+    lexeme: p5-encuesta
+  - id: p5-l1-02
+    type: learn
+    lexeme: p5-ley
+  - id: p5-l1-03
+    type: learn
+    lexeme: p5-derecho
+  - id: p5-l1-04
+    type: learn
+    lexeme: p5-obligacion
+  - id: p5-l1-05
+    type: learn
+    lexeme: p5-sociedad
+  - id: p5-l1-06
+    type: learn
+    lexeme: p5-economia
+  - id: p5-l1-07
+    type: learn
+    lexeme: p5-empleo
+  - id: p5-l1-08
+    type: learn
+    lexeme: p5-educacion
+  - id: p5-l1-09
+    type: match_pairs
+    pairs:
+    - - la encuesta
+      - סקר
+    - - la ley
+      - חוק
+    - - el derecho
+      - זכות
+    - - la obligación
+      - חובה
+    lexemes:
+    - p5-encuesta
+    - p5-ley
+    - p5-derecho
+    - p5-obligacion
+  - id: p5-l1-10
+    type: match_pairs
+    pairs:
+    - - la sociedad
+      - חברה
+    - - la economía
+      - כלכלה
+    - - el empleo
+      - תעסוקה, משרה
+    - - la educación
+      - חינוך
+    lexemes:
+    - p5-sociedad
+    - p5-economia
+    - p5-empleo
+    - p5-educacion
+  - id: p5-l1-11
+    type: multiple_choice
+    prompt: מה פירוש la encuesta?
+    options:
+    - סקר
+    - חברתי
+    - ציבורי
+    correct: 0
+    lexemes:
+    - p5-encuesta
+  - id: p5-l1-12
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: חוק?'
+    options:
+    - la ley
+    - eficaz
+    - social
+    correct: 0
+    lexemes:
+    - p5-ley
+  - id: p5-l1-13
+    type: multiple_choice
+    prompt: מה פירוש el derecho?
+    options:
+    - זכות
+    - מיחזור
+    - חינם
+    correct: 0
+    lexemes:
+    - p5-derecho
+  - id: p5-l1-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: חובה?'
+    options:
+    - la obligación
+    - la contaminación
+    - eficaz
+    correct: 0
+    lexemes:
+    - p5-obligacion
+  - id: p5-l1-15
+    type: multiple_choice
+    prompt: מה פירוש la sociedad?
+    options:
+    - חברה
+    - להפחית
+    - להתלונן, לדווח על
+    correct: 0
+    lexemes:
+    - p5-sociedad
+  - id: p5-l1-16
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: כלכלה?'
+    options:
+    - la economía
+    - denunciar
+    - el transporte
+    correct: 0
+    lexemes:
+    - p5-economia
+  - id: p5-l1-17
+    type: multiple_choice
+    prompt: מה פירוש el empleo?
+    options:
+    - תעסוקה, משרה
+    - להודיע, לדווח
+    - תחבורה
+    correct: 0
+    lexemes:
+    - p5-empleo
+  - id: p5-l1-18
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: חינוך?'
+    options:
+    - la educación
+    - social
+    - el servicio
+    correct: 0
+    lexemes:
+    - p5-educacion
+  - id: p5-l1-19
+    type: fill_blank
+    sentence: Según la ___, la mayoría está de acuerdo.
+    translation: לפי הסקר, רוב האנשים מסכימים.
+    answers:
+    - encuesta
+    options:
+    - encuesta
+    - reciclaje
+    - transporte
+    lexemes:
+    - p5-encuesta
+  - id: p5-l1-20
+    type: fill_blank
+    sentence: La nueva ___ entra en vigor en marzo.
+    translation: החוק החדש נכנס לתוקף במרץ.
+    answers:
+    - ley
+    options:
+    - ley
+    - reciclaje
+    - contaminación
+    lexemes:
+    - p5-ley
+  - id: p5-l1-21
+    type: fill_blank
+    sentence: Todos tenemos ___ a la educación.
+    translation: לכולנו יש זכות לחינוך.
+    answers:
+    - derecho
+    options:
+    - derecho
+    - contaminación
+    - reciclaje
+    lexemes:
+    - p5-derecho
+  - id: p5-l1-22
+    type: fill_blank
+    sentence: Cuidar a los demás es una ___.
+    translation: לדאוג לאחרים זו חובה.
+    answers:
+    - obligación
+    options:
+    - obligación
+    - servicio
+    - reciclaje
+    lexemes:
+    - p5-obligacion
+  - id: p5-l1-23
+    type: fill_blank
+    sentence: La ___ cambia muy rápido.
+    translation: החברה משתנה מהר מאוד.
+    answers:
+    - sociedad
+    options:
+    - sociedad
+    - contaminación
+    - servicio
+    lexemes:
+    - p5-sociedad
+  - id: p5-l1-24
+    type: fill_blank
+    sentence: La ___ del país creció este año.
+    translation: כלכלת המדינה צמחה השנה.
+    answers:
+    - economía
+    options:
+    - economía
+    - contaminación
+    - reciclaje
+    lexemes:
+    - p5-economia
+  - id: p5-l1-25
+    type: fill_blank
+    sentence: Muchos jóvenes buscan ___.
+    translation: הרבה צעירים מחפשים עבודה.
+    answers:
+    - empleo
+    options:
+    - empleo
+    - reciclaje
+    - servicio
+    lexemes:
+    - p5-empleo
+  - id: p5-l1-26
+    type: fill_blank
+    sentence: La ___ es la base del futuro.
+    translation: החינוך הוא הבסיס לעתיד.
+    answers:
+    - educación
+    options:
+    - educación
+    - servicio
+    - transporte
+    lexemes:
+    - p5-educacion
+  - id: p5-l1-27
+    type: dictation
+    text: Muchos jóvenes buscan empleo.
+    lexemes:
+    - p5-empleo
+  - id: p5-l1-28
+    type: dictation
+    text: La nueva ley entra en vigor en marzo.
+    lexemes:
+    - p5-ley
+- id: p5-l2
+  kind: new
+  title:
+    he: חבילה 5 – חלק 2
+    en: Pack 5 – part 2
+  exercises:
+  - id: p5-l2-01
+    type: learn
+    lexeme: p5-transporte
+  - id: p5-l2-02
+    type: learn
+    lexeme: p5-contaminacion
+  - id: p5-l2-03
+    type: learn
+    lexeme: p5-reciclaje
+  - id: p5-l2-04
+    type: learn
+    lexeme: p5-servicio
+  - id: p5-l2-05
+    type: learn
+    lexeme: p5-informar
+  - id: p5-l2-06
+    type: learn
+    lexeme: p5-denunciar
+  - id: p5-l2-07
+    type: learn
+    lexeme: p5-regular
+  - id: p5-l2-08
+    type: learn
+    lexeme: p5-invertir
+  - id: p5-l2-09
+    type: match_pairs
+    pairs:
+    - - el transporte
+      - תחבורה
+    - - la contaminación
+      - זיהום
+    - - el reciclaje
+      - מיחזור
+    - - el servicio
+      - שירות
+    lexemes:
+    - p5-transporte
+    - p5-contaminacion
+    - p5-reciclaje
+    - p5-servicio
+  - id: p5-l2-10
+    type: match_pairs
+    pairs:
+    - - informar
+      - להודיע, לדווח
+    - - denunciar
+      - להתלונן, לדווח על
+    - - regular
+      - להסדיר
+    - - invertir
+      - להשקיע
+    lexemes:
+    - p5-informar
+    - p5-denunciar
+    - p5-regular
+    - p5-invertir
+  - id: p5-l2-11
+    type: multiple_choice
+    prompt: מה פירוש el transporte?
+    options:
+    - תחבורה
+    - בר־קיימא
+    - להפחית
+    correct: 0
+    lexemes:
+    - p5-transporte
+  - id: p5-l2-12
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: זיהום?'
+    options:
+    - la contaminación
+    - la sociedad
+    - vulnerable
+    correct: 0
+    lexemes:
+    - p5-contaminacion
+  - id: p5-l2-13
+    type: multiple_choice
+    prompt: מה פירוש el reciclaje?
+    options:
+    - מיחזור
+    - חינוך
+    - עירוני
+    correct: 0
+    lexemes:
+    - p5-reciclaje
+  - id: p5-l2-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: שירות?'
+    options:
+    - el servicio
+    - el derecho
+    - social
+    correct: 0
+    lexemes:
+    - p5-servicio
+  - id: p5-l2-15
+    type: multiple_choice
+    prompt: מה פירוש informar?
+    options:
+    - להודיע, לדווח
+    - חינם
+    - חובה
+    correct: 0
+    lexemes:
+    - p5-informar
+  - id: p5-l2-16
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: להתלונן, לדווח על?'
+    options:
+    - denunciar
+    - social
+    - reducir
+    correct: 0
+    lexemes:
+    - p5-denunciar
+  - id: p5-l2-17
+    type: multiple_choice
+    prompt: מה פירוש regular?
+    options:
+    - להסדיר
+    - לתמוך
+    - להפחית
+    correct: 0
+    lexemes:
+    - p5-regular
+  - id: p5-l2-18
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: להשקיע?'
+    options:
+    - invertir
+    - la encuesta
+    - vulnerable
+    correct: 0
+    lexemes:
+    - p5-invertir
+  - id: p5-l2-19
+    type: fill_blank
+    sentence: El ___ público es barato en la ciudad.
+    translation: התחבורה הציבורית זולה בעיר.
+    answers:
+    - transporte
+    options:
+    - transporte
+    - economía
+    - obligación
+    lexemes:
+    - p5-transporte
+  - id: p5-l2-20
+    type: fill_blank
+    sentence: La ___ del aire preocupa a todos.
+    translation: זיהום האוויר מדאיג את כולם.
+    answers:
+    - contaminación
+    options:
+    - contaminación
+    - educación
+    - empleo
+    lexemes:
+    - p5-contaminacion
+  - id: p5-l2-21
+    type: fill_blank
+    sentence: El ___ ayuda a cuidar el planeta.
+    translation: המיחזור עוזר לשמור על כדור הארץ.
+    answers:
+    - reciclaje
+    options:
+    - reciclaje
+    - educación
+    - derecho
+    lexemes:
+    - p5-reciclaje
+  - id: p5-l2-22
+    type: fill_blank
+    sentence: El ___ de salud mejoró mucho.
+    translation: שירותי הבריאות השתפרו מאוד.
+    answers:
+    - servicio
+    options:
+    - servicio
+    - sociedad
+    - encuesta
+    lexemes:
+    - p5-servicio
+  - id: p5-l2-23
+    type: fill_blank
+    sentence: Los periódicos deben ___ con honestidad.
+    translation: העיתונים צריכים לדווח ביושר.
+    answers:
+    - informar
+    options:
+    - informar
+    - reducir
+    - apoyar
+    lexemes:
+    - p5-informar
+  - id: p5-l2-24
+    type: fill_blank
+    sentence: Es importante ___ los abusos.
+    translation: חשוב לדווח על התעללויות.
+    answers:
+    - denunciar
+    options:
+    - denunciar
+    - reducir
+    - apoyar
+    lexemes:
+    - p5-denunciar
+  - id: p5-l2-25
+    type: fill_blank
+    sentence: El gobierno quiere ___ los precios.
+    translation: הממשלה רוצה להסדיר את המחירים.
+    answers:
+    - regular
+    options:
+    - regular
+    - reducir
+    - apoyar
+    lexemes:
+    - p5-regular
+  - id: p5-l2-26
+    type: fill_blank
+    sentence: La ciudad va a ___ en transporte.
+    translation: העיר הולכת להשקיע בתחבורה.
+    answers:
+    - invertir
+    options:
+    - invertir
+    - reducir
+    - apoyar
+    lexemes:
+    - p5-invertir
+  - id: p5-l2-27
+    type: dictation
+    text: La ciudad va a invertir en transporte.
+    lexemes:
+    - p5-invertir
+  - id: p5-l2-28
+    type: dictation
+    text: Es importante denunciar los abusos.
+    lexemes:
+    - p5-denunciar
+- id: p5-l3
+  kind: new
+  title:
+    he: חבילה 5 – חלק 3
+    en: Pack 5 – part 3
+  exercises:
+  - id: p5-l3-01
+    type: learn
+    lexeme: p5-apoyar
+  - id: p5-l3-02
+    type: learn
+    lexeme: p5-reducir
+  - id: p5-l3-03
+    type: learn
+    lexeme: p5-publico
+  - id: p5-l3-04
+    type: learn
+    lexeme: p5-social
+  - id: p5-l3-05
+    type: learn
+    lexeme: p5-urbano
+  - id: p5-l3-06
+    type: learn
+    lexeme: p5-sostenible
+  - id: p5-l3-07
+    type: learn
+    lexeme: p5-vulnerable
+  - id: p5-l3-08
+    type: learn
+    lexeme: p5-gratuito
+  - id: p5-l3-09
+    type: learn
+    lexeme: p5-eficaz
+  - id: p5-l3-10
+    type: match_pairs
+    pairs:
+    - - apoyar
+      - לתמוך
+    - - reducir
+      - להפחית
+    - - público
+      - ציבורי
+    - - social
+      - חברתי
+    lexemes:
+    - p5-apoyar
+    - p5-reducir
+    - p5-publico
+    - p5-social
+  - id: p5-l3-11
+    type: match_pairs
+    pairs:
+    - - urbano
+      - עירוני
+    - - sostenible
+      - בר־קיימא
+    - - vulnerable
+      - פגיע
+    - - gratuito
+      - חינם
+    - - eficaz
+      - יעיל
+    lexemes:
+    - p5-urbano
+    - p5-sostenible
+    - p5-vulnerable
+    - p5-gratuito
+    - p5-eficaz
+  - id: p5-l3-12
+    type: multiple_choice
+    prompt: מה פירוש apoyar?
+    options:
+    - לתמוך
+    - להסדיר
+    - תעסוקה, משרה
+    correct: 0
+    lexemes:
+    - p5-apoyar
+  - id: p5-l3-13
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: להפחית?'
+    options:
+    - reducir
+    - la encuesta
+    - la obligación
+    correct: 0
+    lexemes:
+    - p5-reducir
+  - id: p5-l3-14
+    type: multiple_choice
+    prompt: מה פירוש público?
+    options:
+    - ציבורי
+    - להתלונן, לדווח על
+    - להשקיע
+    correct: 0
+    lexemes:
+    - p5-publico
+  - id: p5-l3-15
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: חברתי?'
+    options:
+    - social
+    - denunciar
+    - invertir
+    correct: 0
+    lexemes:
+    - p5-social
+  - id: p5-l3-16
+    type: multiple_choice
+    prompt: מה פירוש urbano?
+    options:
+    - עירוני
+    - להודיע, לדווח
+    - להשקיע
+    correct: 0
+    lexemes:
+    - p5-urbano
+  - id: p5-l3-17
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: בר־קיימא?'
+    options:
+    - sostenible
+    - el derecho
+    - informar
+    correct: 0
+    lexemes:
+    - p5-sostenible
+  - id: p5-l3-18
+    type: multiple_choice
+    prompt: מה פירוש vulnerable?
+    options:
+    - פגיע
+    - חברה
+    - תעסוקה, משרה
+    correct: 0
+    lexemes:
+    - p5-vulnerable
+  - id: p5-l3-19
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: חינם?'
+    options:
+    - gratuito
+    - la contaminación
+    - la obligación
+    correct: 0
+    lexemes:
+    - p5-gratuito
+  - id: p5-l3-20
+    type: multiple_choice
+    prompt: מה פירוש eficaz?
+    options:
+    - יעיל
+    - להשקיע
+    - תעסוקה, משרה
+    correct: 0
+    lexemes:
+    - p5-eficaz
+  - id: p5-l3-21
+    type: fill_blank
+    sentence: Muchos vecinos quieren ___ el proyecto.
+    translation: הרבה שכנים רוצים לתמוך בפרויקט.
+    answers:
+    - apoyar
+    options:
+    - apoyar
+    - denunciar
+    - invertir
+    lexemes:
+    - p5-apoyar
+  - id: p5-l3-22
+    type: fill_blank
+    sentence: Queremos ___ la contaminación.
+    translation: אנחנו רוצים להפחית את הזיהום.
+    answers:
+    - reducir
+    options:
+    - reducir
+    - informar
+    - denunciar
+    lexemes:
+    - p5-reducir
+  - id: p5-l3-23
+    type: fill_blank
+    sentence: El parque es un espacio ___.
+    translation: הפארק הוא מרחב ציבורי.
+    answers:
+    - público
+    options:
+    - público
+    - regular
+    - reciclaje
+    lexemes:
+    - p5-publico
+  - id: p5-l3-24
+    type: fill_blank
+    sentence: Es un problema ___ muy serio.
+    translation: זו בעיה חברתית רצינית מאוד.
+    answers:
+    - social
+    options:
+    - social
+    - obligación
+    - regular
+    lexemes:
+    - p5-social
+  - id: p5-l3-25
+    type: fill_blank
+    sentence: El transporte ___ es esencial.
+    translation: התחבורה העירונית חיונית.
+    answers:
+    - urbano
+    options:
+    - urbano
+    - invertir
+    - informar
+    lexemes:
+    - p5-urbano
+  - id: p5-l3-26
+    type: fill_blank
+    sentence: Buscamos una solución ___.
+    translation: אנחנו מחפשים פתרון בר־קיימא.
+    answers:
+    - sostenible
+    options:
+    - sostenible
+    - derecho
+    - encuesta
+    lexemes:
+    - p5-sostenible
+  - id: p5-l3-27
+    type: fill_blank
+    sentence: Los niños son un grupo ___.
+    translation: ילדים הם קבוצה פגיעה.
+    answers:
+    - vulnerable
+    options:
+    - vulnerable
+    - sociedad
+    - encuesta
+    lexemes:
+    - p5-vulnerable
+  - id: p5-l3-28
+    type: fill_blank
+    sentence: El servicio es ___ para estudiantes.
+    translation: השירות הוא בחינם לסטודנטים.
+    answers:
+    - gratuito
+    options:
+    - gratuito
+    - sociedad
+    - invertir
+    lexemes:
+    - p5-gratuito
+  - id: p5-l3-29
+    type: fill_blank
+    sentence: Es una medida ___ y barata.
+    translation: זהו צעד יעיל וזול.
+    answers:
+    - eficaz
+    options:
+    - eficaz
+    - encuesta
+    - contaminación
+    lexemes:
+    - p5-eficaz
+  - id: p5-l3-30
+    type: dictation
+    text: Los niños son un grupo vulnerable.
+    lexemes:
+    - p5-vulnerable
+  - id: p5-l3-31
+    type: dictation
+    text: Es un problema social muy serio.
+    lexemes:
+    - p5-social

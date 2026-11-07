@@ -208,7 +208,8 @@ export default function Dashboard() {
         {[
           { href: "/achievements/", icon: "star", label: "ההישגים שלי" },
           { href: `/certificate/${courseId}/`, icon: "trophy", label: "התעודה שלי" },
-          { href: "/exams/", icon: "grammar", label: "אימון למבחנים" },
+          // Exam practice (Amirnet) exists for English only.
+          ...(manifest.target === "en" ? [{ href: "/exams/", icon: "grammar", label: "אימון למבחנים" }] : []),
           { href: "/start/", icon: "chat", label: "לעבור לשפה אחרת" },
         ].map((l) => (
           <Link key={l.href} href={l.href} className="card flex min-h-14 items-center gap-3 p-3 text-cobalt">

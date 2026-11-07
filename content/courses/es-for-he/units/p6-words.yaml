@@ -1,0 +1,959 @@
+id: p6-words
+cefr: C1
+scene: study
+title:
+  he: 'הרחבת אוצר מילים 6: שפה מופשטת ומתקדמת'
+  en: 'Word builder 6: advanced and abstract'
+story: 'מילים לשיחה מתקדמת ולכתיבה אקדמית: מושגים, פעלים רטוריים ותארים מדויקים. כל מילה מופיעה במשפט.'
+canDo:
+- להבין ולהשתמש במילים נפוצות נוספות
+- לזהות את המילים במשפטים אמיתיים
+vocabulary:
+- id: p6-tendencia
+  text: la tendencia
+  translation: מגמה
+  pos: noun
+  example:
+    text: Hay una tendencia a trabajar desde casa.
+    translation: יש מגמה לעבוד מהבית.
+- id: p6-criterio
+  text: el criterio
+  translation: קריטריון, שיקול דעת
+  pos: noun
+  example:
+    text: Cada uno tiene su propio criterio.
+    translation: לכל אחד יש שיקול דעת משלו.
+- id: p6-alcance
+  text: el alcance
+  translation: היקף, טווח
+  pos: noun
+  example:
+    text: El alcance del proyecto es enorme.
+    translation: היקף הפרויקט עצום.
+- id: p6-premisa
+  text: la premisa
+  translation: הנחת יסוד
+  pos: noun
+  example:
+    text: La premisa del argumento es falsa.
+    translation: הנחת היסוד של הטיעון שגויה.
+- id: p6-vinculo
+  text: el vínculo
+  translation: קשר, זיקה
+  pos: noun
+  example:
+    text: Existe un vínculo entre ambos temas.
+    translation: קיים קשר בין שני הנושאים.
+- id: p6-brecha
+  text: la brecha
+  translation: פער
+  pos: noun
+  example:
+    text: Hay una brecha entre la teoría y la práctica.
+    translation: יש פער בין התיאוריה לפרקטיקה.
+- id: p6-rasgo
+  text: el rasgo
+  translation: תכונה, מאפיין
+  pos: noun
+  example:
+    text: La paciencia es un rasgo importante.
+    translation: סבלנות היא תכונה חשובה.
+- id: p6-ambito
+  text: el ámbito
+  translation: תחום, היקף
+  pos: noun
+  example:
+    text: En el ámbito laboral, la puntualidad es clave.
+    translation: בתחום העבודה, דייקנות היא מפתח.
+- id: p6-perspectiva
+  text: la perspectiva
+  translation: נקודת מבט, אופק
+  pos: noun
+  example:
+    text: Desde esa perspectiva, el problema cambia.
+    translation: מנקודת המבט הזו הבעיה משתנה.
+- id: p6-sesgo
+  text: el sesgo
+  translation: הטיה
+  pos: noun
+  example:
+    text: Todo estudio puede tener un sesgo.
+    translation: בכל מחקר יכולה להיות הטיה.
+- id: p6-coyuntura
+  text: la coyuntura
+  translation: מצב, צירוף נסיבות
+  pos: noun
+  example:
+    text: En esta coyuntura, es mejor esperar.
+    translation: במצב הנוכחי עדיף לחכות.
+- id: p6-planteamiento
+  text: el planteamiento
+  translation: גישה, הצגת הבעיה
+  pos: noun
+  example:
+    text: Su planteamiento del problema es original.
+    translation: הגישה שלו לבעיה מקורית.
+- id: p6-plantear
+  text: plantear
+  translation: להציג, להעלות
+  pos: verb
+  example:
+    text: Quiero plantear una pregunta importante.
+    translation: אני רוצה להעלות שאלה חשובה.
+- id: p6-abordar
+  text: abordar
+  translation: לגשת ל, להתמודד עם
+  pos: verb
+  example:
+    text: Hay que abordar el tema con cuidado.
+    translation: צריך לגשת לנושא בזהירות.
+- id: p6-fomentar
+  text: fomentar
+  translation: לעודד
+  pos: verb
+  example:
+    text: La escuela debe fomentar la lectura.
+    translation: בית הספר צריך לעודד קריאה.
+- id: p6-sostener
+  text: sostener
+  translation: לטעון, להחזיק
+  pos: verb
+  example:
+    text: Algunos expertos sostienen que es posible.
+    translation: כמה מומחים טוענים שזה אפשרי.
+- id: p6-asumir
+  text: asumir
+  translation: לקבל על עצמו
+  pos: verb
+  example:
+    text: Tienes que asumir tu responsabilidad.
+    translation: אתה צריך לקבל על עצמך את האחריות.
+- id: p6-reflejar
+  text: reflejar
+  translation: לשקף
+  pos: verb
+  example:
+    text: Los datos pueden reflejar la realidad.
+    translation: הנתונים יכולים לשקף את המציאות.
+- id: p6-subrayar
+  text: subrayar
+  translation: להדגיש
+  pos: verb
+  example:
+    text: Quiero subrayar este punto.
+    translation: אני רוצה להדגיש את הנקודה הזו.
+- id: p6-cuestionar
+  text: cuestionar
+  translation: להטיל ספק, לשאול
+  pos: verb
+  example:
+    text: No dudes en cuestionar lo que lees.
+    translation: אל תהסס להטיל ספק במה שאתה קורא.
+- id: p6-sutil
+  text: sutil
+  translation: עדין, דק
+  pos: adjective
+  example:
+    text: Hay una diferencia sutil entre las dos palabras.
+    translation: יש הבדל עדין בין שתי המילים.
+- id: p6-pertinente
+  text: pertinente
+  translation: רלוונטי, במקום
+  pos: adjective
+  example:
+    text: Tu comentario fue muy pertinente.
+    translation: ההערה שלך הייתה במקום.
+- id: p6-ambiguo
+  text: ambiguo
+  translation: דו־משמעי
+  pos: adjective
+  example:
+    text: El mensaje es ambiguo y confuso.
+    translation: המסר דו־משמעי ומבלבל.
+- id: p6-coherente
+  text: coherente
+  translation: קוהרנטי, עקבי
+  pos: adjective
+  example:
+    text: Su argumento es claro y coherente.
+    translation: הטיעון שלו ברור ועקבי.
+- id: p6-inherente
+  text: inherente
+  translation: טבוע, מובנה
+  pos: adjective
+  example:
+    text: El riesgo es inherente a este tipo de inversión.
+    translation: הסיכון טבוע בסוג כזה של השקעה.
+lessons:
+- id: p6-l1
+  kind: new
+  title:
+    he: חבילה 6 – חלק 1
+    en: Pack 6 – part 1
+  exercises:
+  - id: p6-l1-01
+    type: learn
+    lexeme: p6-tendencia
+  - id: p6-l1-02
+    type: learn
+    lexeme: p6-criterio
+  - id: p6-l1-03
+    type: learn
+    lexeme: p6-alcance
+  - id: p6-l1-04
+    type: learn
+    lexeme: p6-premisa
+  - id: p6-l1-05
+    type: learn
+    lexeme: p6-vinculo
+  - id: p6-l1-06
+    type: learn
+    lexeme: p6-brecha
+  - id: p6-l1-07
+    type: learn
+    lexeme: p6-rasgo
+  - id: p6-l1-08
+    type: learn
+    lexeme: p6-ambito
+  - id: p6-l1-09
+    type: match_pairs
+    pairs:
+    - - la tendencia
+      - מגמה
+    - - el criterio
+      - קריטריון, שיקול דעת
+    - - el alcance
+      - היקף, טווח
+    - - la premisa
+      - הנחת יסוד
+    lexemes:
+    - p6-tendencia
+    - p6-criterio
+    - p6-alcance
+    - p6-premisa
+  - id: p6-l1-10
+    type: match_pairs
+    pairs:
+    - - el vínculo
+      - קשר, זיקה
+    - - la brecha
+      - פער
+    - - el rasgo
+      - תכונה, מאפיין
+    - - el ámbito
+      - תחום, היקף
+    lexemes:
+    - p6-vinculo
+    - p6-brecha
+    - p6-rasgo
+    - p6-ambito
+  - id: p6-l1-11
+    type: multiple_choice
+    prompt: מה פירוש la tendencia?
+    options:
+    - מגמה
+    - נקודת מבט, אופק
+    - טבוע, מובנה
+    correct: 0
+    lexemes:
+    - p6-tendencia
+  - id: p6-l1-12
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: קריטריון, שיקול דעת?'
+    options:
+    - el criterio
+    - abordar
+    - asumir
+    correct: 0
+    lexemes:
+    - p6-criterio
+  - id: p6-l1-13
+    type: multiple_choice
+    prompt: מה פירוש el alcance?
+    options:
+    - היקף, טווח
+    - קוהרנטי, עקבי
+    - לטעון, להחזיק
+    correct: 0
+    lexemes:
+    - p6-alcance
+  - id: p6-l1-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: הנחת יסוד?'
+    options:
+    - la premisa
+    - cuestionar
+    - ambiguo
+    correct: 0
+    lexemes:
+    - p6-premisa
+  - id: p6-l1-15
+    type: multiple_choice
+    prompt: מה פירוש el vínculo?
+    options:
+    - קשר, זיקה
+    - גישה, הצגת הבעיה
+    - להציג, להעלות
+    correct: 0
+    lexemes:
+    - p6-vinculo
+  - id: p6-l1-16
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: פער?'
+    options:
+    - la brecha
+    - reflejar
+    - sutil
+    correct: 0
+    lexemes:
+    - p6-brecha
+  - id: p6-l1-17
+    type: multiple_choice
+    prompt: מה פירוש el rasgo?
+    options:
+    - תכונה, מאפיין
+    - לגשת ל, להתמודד עם
+    - טבוע, מובנה
+    correct: 0
+    lexemes:
+    - p6-rasgo
+  - id: p6-l1-18
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: תחום, היקף?'
+    options:
+    - el ámbito
+    - fomentar
+    - subrayar
+    correct: 0
+    lexemes:
+    - p6-ambito
+  - id: p6-l1-19
+    type: fill_blank
+    sentence: Hay una ___ a trabajar desde casa.
+    translation: יש מגמה לעבוד מהבית.
+    answers:
+    - tendencia
+    options:
+    - tendencia
+    - perspectiva
+    - planteamiento
+    lexemes:
+    - p6-tendencia
+  - id: p6-l1-20
+    type: fill_blank
+    sentence: Cada uno tiene su propio ___.
+    translation: לכל אחד יש שיקול דעת משלו.
+    answers:
+    - criterio
+    options:
+    - criterio
+    - planteamiento
+    - coyuntura
+    lexemes:
+    - p6-criterio
+  - id: p6-l1-21
+    type: fill_blank
+    sentence: El ___ del proyecto es enorme.
+    translation: היקף הפרויקט עצום.
+    answers:
+    - alcance
+    options:
+    - alcance
+    - planteamiento
+    - coyuntura
+    lexemes:
+    - p6-alcance
+  - id: p6-l1-22
+    type: fill_blank
+    sentence: La ___ del argumento es falsa.
+    translation: הנחת היסוד של הטיעון שגויה.
+    answers:
+    - premisa
+    options:
+    - premisa
+    - perspectiva
+    - planteamiento
+    lexemes:
+    - p6-premisa
+  - id: p6-l1-23
+    type: fill_blank
+    sentence: Existe un ___ entre ambos temas.
+    translation: קיים קשר בין שני הנושאים.
+    answers:
+    - vínculo
+    options:
+    - vínculo
+    - sesgo
+    - perspectiva
+    lexemes:
+    - p6-vinculo
+  - id: p6-l1-24
+    type: fill_blank
+    sentence: Hay una ___ entre la teoría y la práctica.
+    translation: יש פער בין התיאוריה לפרקטיקה.
+    answers:
+    - brecha
+    options:
+    - brecha
+    - perspectiva
+    - sesgo
+    lexemes:
+    - p6-brecha
+  - id: p6-l1-25
+    type: fill_blank
+    sentence: La paciencia es un ___ importante.
+    translation: סבלנות היא תכונה חשובה.
+    answers:
+    - rasgo
+    options:
+    - rasgo
+    - coyuntura
+    - perspectiva
+    lexemes:
+    - p6-rasgo
+  - id: p6-l1-26
+    type: fill_blank
+    sentence: En el ___ laboral, la puntualidad es clave.
+    translation: בתחום העבודה, דייקנות היא מפתח.
+    answers:
+    - ámbito
+    options:
+    - ámbito
+    - sesgo
+    - coyuntura
+    lexemes:
+    - p6-ambito
+  - id: p6-l1-27
+    type: dictation
+    text: El alcance del proyecto es enorme.
+    lexemes:
+    - p6-alcance
+  - id: p6-l1-28
+    type: dictation
+    text: Existe un vínculo entre ambos temas.
+    lexemes:
+    - p6-vinculo
+- id: p6-l2
+  kind: new
+  title:
+    he: חבילה 6 – חלק 2
+    en: Pack 6 – part 2
+  exercises:
+  - id: p6-l2-01
+    type: learn
+    lexeme: p6-perspectiva
+  - id: p6-l2-02
+    type: learn
+    lexeme: p6-sesgo
+  - id: p6-l2-03
+    type: learn
+    lexeme: p6-coyuntura
+  - id: p6-l2-04
+    type: learn
+    lexeme: p6-planteamiento
+  - id: p6-l2-05
+    type: learn
+    lexeme: p6-plantear
+  - id: p6-l2-06
+    type: learn
+    lexeme: p6-abordar
+  - id: p6-l2-07
+    type: learn
+    lexeme: p6-fomentar
+  - id: p6-l2-08
+    type: learn
+    lexeme: p6-sostener
+  - id: p6-l2-09
+    type: match_pairs
+    pairs:
+    - - la perspectiva
+      - נקודת מבט, אופק
+    - - el sesgo
+      - הטיה
+    - - la coyuntura
+      - מצב, צירוף נסיבות
+    - - el planteamiento
+      - גישה, הצגת הבעיה
+    lexemes:
+    - p6-perspectiva
+    - p6-sesgo
+    - p6-coyuntura
+    - p6-planteamiento
+  - id: p6-l2-10
+    type: match_pairs
+    pairs:
+    - - plantear
+      - להציג, להעלות
+    - - abordar
+      - לגשת ל, להתמודד עם
+    - - fomentar
+      - לעודד
+    - - sostener
+      - לטעון, להחזיק
+    lexemes:
+    - p6-plantear
+    - p6-abordar
+    - p6-fomentar
+    - p6-sostener
+  - id: p6-l2-11
+    type: multiple_choice
+    prompt: מה פירוש la perspectiva?
+    options:
+    - נקודת מבט, אופק
+    - רלוונטי, במקום
+    - פער
+    correct: 0
+    lexemes:
+    - p6-perspectiva
+  - id: p6-l2-12
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: הטיה?'
+    options:
+    - el sesgo
+    - cuestionar
+    - inherente
+    correct: 0
+    lexemes:
+    - p6-sesgo
+  - id: p6-l2-13
+    type: multiple_choice
+    prompt: מה פירוש la coyuntura?
+    options:
+    - מצב, צירוף נסיבות
+    - מגמה
+    - קוהרנטי, עקבי
+    correct: 0
+    lexemes:
+    - p6-coyuntura
+  - id: p6-l2-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: גישה, הצגת הבעיה?'
+    options:
+    - el planteamiento
+    - asumir
+    - el rasgo
+    correct: 0
+    lexemes:
+    - p6-planteamiento
+  - id: p6-l2-15
+    type: multiple_choice
+    prompt: מה פירוש plantear?
+    options:
+    - להציג, להעלות
+    - מגמה
+    - פער
+    correct: 0
+    lexemes:
+    - p6-plantear
+  - id: p6-l2-16
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: לגשת ל, להתמודד עם?'
+    options:
+    - abordar
+    - el rasgo
+    - coherente
+    correct: 0
+    lexemes:
+    - p6-abordar
+  - id: p6-l2-17
+    type: multiple_choice
+    prompt: מה פירוש fomentar?
+    options:
+    - לעודד
+    - דו־משמעי
+    - קריטריון, שיקול דעת
+    correct: 0
+    lexemes:
+    - p6-fomentar
+  - id: p6-l2-18
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: לטעון, להחזיק?'
+    options:
+    - sostener
+    - la brecha
+    - la premisa
+    correct: 0
+    lexemes:
+    - p6-sostener
+  - id: p6-l2-19
+    type: fill_blank
+    sentence: Desde esa ___, el problema cambia.
+    translation: מנקודת המבט הזו הבעיה משתנה.
+    answers:
+    - perspectiva
+    options:
+    - perspectiva
+    - rasgo
+    - alcance
+    lexemes:
+    - p6-perspectiva
+  - id: p6-l2-20
+    type: fill_blank
+    sentence: Todo estudio puede tener un ___.
+    translation: בכל מחקר יכולה להיות הטיה.
+    answers:
+    - sesgo
+    options:
+    - sesgo
+    - vínculo
+    - rasgo
+    lexemes:
+    - p6-sesgo
+  - id: p6-l2-21
+    type: fill_blank
+    sentence: En esta ___, es mejor esperar.
+    translation: במצב הנוכחי עדיף לחכות.
+    answers:
+    - coyuntura
+    options:
+    - coyuntura
+    - vínculo
+    - brecha
+    lexemes:
+    - p6-coyuntura
+  - id: p6-l2-22
+    type: fill_blank
+    sentence: Su ___ del problema es original.
+    translation: הגישה שלו לבעיה מקורית.
+    answers:
+    - planteamiento
+    options:
+    - planteamiento
+    - rasgo
+    - vínculo
+    lexemes:
+    - p6-planteamiento
+  - id: p6-l2-23
+    type: fill_blank
+    sentence: Quiero ___ una pregunta importante.
+    translation: אני רוצה להעלות שאלה חשובה.
+    answers:
+    - plantear
+    options:
+    - plantear
+    - asumir
+    - cuestionar
+    lexemes:
+    - p6-plantear
+  - id: p6-l2-24
+    type: fill_blank
+    sentence: Hay que ___ el tema con cuidado.
+    translation: צריך לגשת לנושא בזהירות.
+    answers:
+    - abordar
+    options:
+    - abordar
+    - reflejar
+    - subrayar
+    lexemes:
+    - p6-abordar
+  - id: p6-l2-25
+    type: fill_blank
+    sentence: La escuela debe ___ la lectura.
+    translation: בית הספר צריך לעודד קריאה.
+    answers:
+    - fomentar
+    options:
+    - fomentar
+    - cuestionar
+    - asumir
+    lexemes:
+    - p6-fomentar
+  - id: p6-l2-26
+    type: fill_blank
+    sentence: Algunos expertos ___ que es posible.
+    translation: כמה מומחים טוענים שזה אפשרי.
+    answers:
+    - sostienen
+    options:
+    - sostienen
+    - subrayar
+    - asumir
+    lexemes:
+    - p6-sostener
+  - id: p6-l2-27
+    type: dictation
+    text: Algunos expertos sostienen que es posible.
+    lexemes:
+    - p6-sostener
+  - id: p6-l2-28
+    type: dictation
+    text: Desde esa perspectiva, el problema cambia.
+    lexemes:
+    - p6-perspectiva
+- id: p6-l3
+  kind: new
+  title:
+    he: חבילה 6 – חלק 3
+    en: Pack 6 – part 3
+  exercises:
+  - id: p6-l3-01
+    type: learn
+    lexeme: p6-asumir
+  - id: p6-l3-02
+    type: learn
+    lexeme: p6-reflejar
+  - id: p6-l3-03
+    type: learn
+    lexeme: p6-subrayar
+  - id: p6-l3-04
+    type: learn
+    lexeme: p6-cuestionar
+  - id: p6-l3-05
+    type: learn
+    lexeme: p6-sutil
+  - id: p6-l3-06
+    type: learn
+    lexeme: p6-pertinente
+  - id: p6-l3-07
+    type: learn
+    lexeme: p6-ambiguo
+  - id: p6-l3-08
+    type: learn
+    lexeme: p6-coherente
+  - id: p6-l3-09
+    type: learn
+    lexeme: p6-inherente
+  - id: p6-l3-10
+    type: match_pairs
+    pairs:
+    - - asumir
+      - לקבל על עצמו
+    - - reflejar
+      - לשקף
+    - - subrayar
+      - להדגיש
+    - - cuestionar
+      - להטיל ספק, לשאול
+    lexemes:
+    - p6-asumir
+    - p6-reflejar
+    - p6-subrayar
+    - p6-cuestionar
+  - id: p6-l3-11
+    type: match_pairs
+    pairs:
+    - - sutil
+      - עדין, דק
+    - - pertinente
+      - רלוונטי, במקום
+    - - ambiguo
+      - דו־משמעי
+    - - coherente
+      - קוהרנטי, עקבי
+    - - inherente
+      - טבוע, מובנה
+    lexemes:
+    - p6-sutil
+    - p6-pertinente
+    - p6-ambiguo
+    - p6-coherente
+    - p6-inherente
+  - id: p6-l3-12
+    type: multiple_choice
+    prompt: מה פירוש asumir?
+    options:
+    - לקבל על עצמו
+    - לעודד
+    - תחום, היקף
+    correct: 0
+    lexemes:
+    - p6-asumir
+  - id: p6-l3-13
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: לשקף?'
+    options:
+    - reflejar
+    - el planteamiento
+    - abordar
+    correct: 0
+    lexemes:
+    - p6-reflejar
+  - id: p6-l3-14
+    type: multiple_choice
+    prompt: מה פירוש subrayar?
+    options:
+    - להדגיש
+    - גישה, הצגת הבעיה
+    - הטיה
+    correct: 0
+    lexemes:
+    - p6-subrayar
+  - id: p6-l3-15
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: להטיל ספק, לשאול?'
+    options:
+    - cuestionar
+    - el sesgo
+    - el vínculo
+    correct: 0
+    lexemes:
+    - p6-cuestionar
+  - id: p6-l3-16
+    type: multiple_choice
+    prompt: מה פירוש sutil?
+    options:
+    - עדין, דק
+    - קריטריון, שיקול דעת
+    - הנחת יסוד
+    correct: 0
+    lexemes:
+    - p6-sutil
+  - id: p6-l3-17
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: רלוונטי, במקום?'
+    options:
+    - pertinente
+    - plantear
+    - el ámbito
+    correct: 0
+    lexemes:
+    - p6-pertinente
+  - id: p6-l3-18
+    type: multiple_choice
+    prompt: מה פירוש ambiguo?
+    options:
+    - דו־משמעי
+    - לטעון, להחזיק
+    - להציג, להעלות
+    correct: 0
+    lexemes:
+    - p6-ambiguo
+  - id: p6-l3-19
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: קוהרנטי, עקבי?'
+    options:
+    - coherente
+    - la premisa
+    - el criterio
+    correct: 0
+    lexemes:
+    - p6-coherente
+  - id: p6-l3-20
+    type: multiple_choice
+    prompt: מה פירוש inherente?
+    options:
+    - טבוע, מובנה
+    - תחום, היקף
+    - גישה, הצגת הבעיה
+    correct: 0
+    lexemes:
+    - p6-inherente
+  - id: p6-l3-21
+    type: fill_blank
+    sentence: Tienes que ___ tu responsabilidad.
+    translation: אתה צריך לקבל על עצמך את האחריות.
+    answers:
+    - asumir
+    options:
+    - asumir
+    - sostienen
+    - abordar
+    lexemes:
+    - p6-asumir
+  - id: p6-l3-22
+    type: fill_blank
+    sentence: Los datos pueden ___ la realidad.
+    translation: הנתונים יכולים לשקף את המציאות.
+    answers:
+    - reflejar
+    options:
+    - reflejar
+    - sostienen
+    - abordar
+    lexemes:
+    - p6-reflejar
+  - id: p6-l3-23
+    type: fill_blank
+    sentence: Quiero ___ este punto.
+    translation: אני רוצה להדגיש את הנקודה הזו.
+    answers:
+    - subrayar
+    options:
+    - subrayar
+    - abordar
+    - sostienen
+    lexemes:
+    - p6-subrayar
+  - id: p6-l3-24
+    type: fill_blank
+    sentence: No dudes en ___ lo que lees.
+    translation: אל תהסס להטיל ספק במה שאתה קורא.
+    answers:
+    - cuestionar
+    options:
+    - cuestionar
+    - plantear
+    - fomentar
+    lexemes:
+    - p6-cuestionar
+  - id: p6-l3-25
+    type: fill_blank
+    sentence: Hay una diferencia ___ entre las dos palabras.
+    translation: יש הבדל עדין בין שתי המילים.
+    answers:
+    - sutil
+    options:
+    - sutil
+    - criterio
+    - premisa
+    lexemes:
+    - p6-sutil
+  - id: p6-l3-26
+    type: fill_blank
+    sentence: Tu comentario fue muy ___.
+    translation: ההערה שלך הייתה במקום.
+    answers:
+    - pertinente
+    options:
+    - pertinente
+    - sesgo
+    - abordar
+    lexemes:
+    - p6-pertinente
+  - id: p6-l3-27
+    type: fill_blank
+    sentence: El mensaje es ___ y confuso.
+    translation: המסר דו־משמעי ומבלבל.
+    answers:
+    - ambiguo
+    options:
+    - ambiguo
+    - vínculo
+    - coyuntura
+    lexemes:
+    - p6-ambiguo
+  - id: p6-l3-28
+    type: fill_blank
+    sentence: Su argumento es claro y ___.
+    translation: הטיעון שלו ברור ועקבי.
+    answers:
+    - coherente
+    options:
+    - coherente
+    - abordar
+    - rasgo
+    lexemes:
+    - p6-coherente
+  - id: p6-l3-29
+    type: fill_blank
+    sentence: El riesgo es ___ a este tipo de inversión.
+    translation: הסיכון טבוע בסוג כזה של השקעה.
+    answers:
+    - inherente
+    options:
+    - inherente
+    - plantear
+    - planteamiento
+    lexemes:
+    - p6-inherente
+  - id: p6-l3-30
+    type: dictation
+    text: El mensaje es ambiguo y confuso.
+    lexemes:
+    - p6-ambiguo
+  - id: p6-l3-31
+    type: dictation
+    text: Los datos pueden reflejar la realidad.
+    lexemes:
+    - p6-reflejar

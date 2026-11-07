@@ -53,6 +53,13 @@ for (const courseId of readdirSync(root)) {
               const r = ev.evaluate(ex, res, { target: course.target, source: course.source });
               expect(r.correct, `${ex.id} rejects ${JSON.stringify(res)}`).toBe(true);
             }
+            if (ex.type === "match_pairs") {
+              // A repeated word on either side makes the pair ambiguous to tap (and to solve).
+              const left = ex.pairs.map((pair) => pair[0]);
+              const right = ex.pairs.map((pair) => pair[1]);
+              expect(new Set(left).size, `${ex.id} repeats a word on the left`).toBe(left.length);
+              expect(new Set(right).size, `${ex.id} repeats a word on the right`).toBe(right.length);
+            }
             if (ex.type === "word_bank") {
               const tiles = wordBankTiles(ex, 1);
               for (const w of ex.answers[0]!.replace(/[.!?,]/g, "").split(/\s+/)) {

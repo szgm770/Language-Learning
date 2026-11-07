@@ -1,0 +1,1314 @@
+id: u46-cultura
+cefr: C1
+scene: family
+title:
+  he: 'שפה, זהות ותרבות: סוף השנה של יעל'
+  en: Language, identity and culture
+story: 'שנה עברה. יעל מארחת ארוחת ערב של פרידה לשכנים, לעמיתים ולמשפחת סופיה. היא מדברת ספרדית בביטחון על זהות, על מסורת ועל מה שלמדה על מקסיקו: איך שומרים על מנהגים בארץ אחרת, ואיך שפה משנה את מי שאנחנו.'
+canDo:
+- לדבר על זהות, מסורת ושפה בטון משכנע
+- להסביר מנהגים מהתרבות שלך לאנשים אחרים
+- להשתתף בשיחה על ניואנסים תרבותיים בלי להתנצל על ההבדלים
+- לסכם חוויה בצורה מורכבת ומדויקת
+vocabulary:
+- id: identidad
+  text: la identidad
+  translation: זהות
+  pos: noun
+- id: tradicion
+  text: la tradición
+  translation: מסורת
+  pos: noun
+- id: costumbre
+  text: la costumbre
+  translation: מנהג, הרגל
+  pos: noun
+- id: intercambio
+  text: el intercambio
+  translation: חילופי
+  pos: noun
+- id: tolerancia
+  text: la tolerancia
+  translation: סובלנות
+  pos: noun
+- id: convivencia
+  text: la convivencia
+  translation: דו־קיום
+  pos: noun
+- id: patrimonio
+  text: el patrimonio
+  translation: מורשת
+  pos: noun
+- id: bilingue
+  text: bilingüe
+  translation: דו־לשוני
+  pos: adjective
+- id: acento
+  text: el acento
+  translation: מבטא
+  pos: noun
+- id: traduccion
+  text: la traducción
+  translation: תרגום
+  pos: noun
+- id: prejuicio
+  text: el prejuicio
+  translation: דעה קדומה
+  pos: noun
+- id: enriquecer
+  text: enriquecer
+  translation: להעשיר
+  pos: verb
+- id: compartir-p
+  text: compartir
+  translation: לחלוק
+  pos: verb
+- id: respetar
+  text: respetar
+  translation: לכבד
+  pos: verb
+- id: preservar
+  text: preservar
+  translation: לשמר
+  pos: verb
+- id: adaptarse
+  text: adaptarse
+  translation: להסתגל
+  pos: verb
+- id: pertenecer
+  text: pertenecer
+  translation: להשתייך
+  pos: verb
+- id: a-lo-largo
+  text: a lo largo de
+  translation: לאורך
+  pos: phrase
+grammar:
+- id: cultura-identidad
+  title:
+    he: לדבר על תרבות וזהות
+    en: Talking about culture and identity
+  explanation: 'בכיתה מתקדמת מדברים על רעיונות, לא רק על אירועים. כדאי לשלוט במבנים מורכבים שפגשנו לאורך הקורס, ולחבר אותם:
+
+
+    **ניסוח זהירות ותרבות:**
+
+    * *Cada cultura tiene sus costumbres; **lo importante es que** nos respetemos.* (lo importante es que + סובג''ונקטיב)
+
+    * *No creo que **haya** una sola forma correcta de vivir.*
+
+    * *Aunque **seamos** diferentes, compartimos valores.*
+
+
+    **לבטא שינוי ולמידה:**
+
+    * *Me **hizo** reflexionar que…* | *Gracias a este año, **he aprendido** a…* | ***A lo largo de** estos meses, **me di cuenta de** que…*
+
+
+    **לדבר על זהות:**
+
+    * *Pertenezco a una comunidad que **preserva** sus tradiciones.* | *Ser bilingüe **enriquece** la identidad.*
+
+    * *Hay quienes piensan que… mientras que otros sostienen que…*
+
+
+    **הערה על כבוד הדדי:** כשמסבירים מנהג (למשל שבת, כשרות) לאנשים אחרים, הטון הנעים: *Para mí es importante… y me alegra poder compartirlo con ustedes.* – מסביר בלי לשפוט.
+
+
+    **סיכום שנה:** *Si tuviera que resumir este año, diría que… | Lo que más valoro es… | Ojalá pudiera volver.*
+
+
+    **הערה:** הנושא רגיש; עדיף להתחיל מ"אני" ולא מ"אתם": *Yo suelo… / En mi comunidad se acostumbra…*'
+  examples:
+  - text: A lo largo de este año, me di cuenta de que ser bilingüe enriquece la identidad.
+    translation: לאורך השנה הזאת הבנתי שדו־לשוניות מעשירה את הזהות.
+  - text: Cada cultura tiene sus tradiciones; lo importante es que nos respetemos.
+    translation: לכל תרבות יש מסורות; החשוב הוא שנכבד זה את זה.
+  - text: Si tuviera que resumir este año, diría que aprendí a escuchar.
+    translation: אילו הייתי צריכה לסכם את השנה, הייתי אומרת שלמדתי להקשיב.
+lessons:
+- id: u46-l1
+  kind: new
+  title:
+    he: זהות ומסורת
+    en: Identity and tradition
+  exercises:
+  - id: u46-l1-01
+    type: dialogue
+    scene: ארוחת פרידה של יעל.
+    lines:
+    - speaker: sofia
+      text: Yael, cuéntanos cómo fue este año.
+      translation: יעל, ספרי לנו איך הייתה השנה.
+    - speaker: yael
+      text: A lo largo de estos meses, me di cuenta de que ser bilingüe enriquece la identidad. Preservo mis tradiciones, y también aprendí las de ustedes.
+      translation: לאורך החודשים האלה הבנתי שדו־לשוניות מעשירה את הזהות. אני שומרת על המסורות שלי, ולמדתי גם את שלכם.
+    - speaker: ricardo
+      text: Lo importante es que nos respetemos y compartamos.
+      translation: החשוב הוא שנכבד זה את זה ונחלוק.
+  - id: u46-l1-02
+    type: learn
+    lexeme: identidad
+  - id: u46-l1-03
+    type: learn
+    lexeme: tradicion
+  - id: u46-l1-04
+    type: learn
+    lexeme: costumbre
+  - id: u46-l1-05
+    type: learn
+    lexeme: intercambio
+  - id: u46-l1-06
+    type: learn
+    lexeme: tolerancia
+  - id: u46-l1-07
+    type: learn
+    lexeme: convivencia
+  - id: u46-l1-08
+    type: learn
+    lexeme: patrimonio
+  - id: u46-l1-09
+    type: learn
+    lexeme: bilingue
+  - id: u46-l1-10
+    type: learn
+    lexeme: acento
+  - id: u46-l1-11
+    type: learn
+    lexeme: traduccion
+  - id: u46-l1-12
+    type: learn
+    lexeme: prejuicio
+  - id: u46-l1-13
+    type: learn
+    lexeme: a-lo-largo
+  - id: u46-l1-14
+    type: learn
+    lexeme: enriquecer
+  - id: u46-l1-15
+    type: learn
+    lexeme: respetar
+  - id: u46-l1-16
+    type: match_pairs
+    pairs:
+    - - la identidad
+      - זהות
+    - - la tradición
+      - מסורת
+    - - la costumbre
+      - מנהג
+    - - el intercambio
+      - חילופי
+    - - la tolerancia
+      - סובלנות
+    lexemes:
+    - identidad
+    - tradicion
+    - costumbre
+    - intercambio
+    - tolerancia
+  - id: u46-l1-17
+    type: match_pairs
+    pairs:
+    - - la convivencia
+      - דו־קיום
+    - - el patrimonio
+      - מורשת
+    - - bilingüe
+      - דו־לשוני
+    - - el acento
+      - מבטא
+    - - el prejuicio
+      - דעה קדומה
+    lexemes:
+    - convivencia
+    - patrimonio
+    - bilingue
+    - acento
+    - prejuicio
+  - id: u46-l1-18
+    type: multiple_choice
+    prompt: מה פירוש 'a lo largo de'?
+    options:
+    - לאורך
+    - בסוף
+    - לפני
+    correct: 0
+    lexemes:
+    - a-lo-largo
+  - id: u46-l1-19
+    type: multiple_choice
+    prompt: מה פירוש 'ser bilingüe'?
+    options:
+    - להיות דו־לשוני
+    - להיות מתרגם
+    - להיות בלשן
+    correct: 0
+    lexemes:
+    - bilingue
+  - id: u46-l1-20
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Lo importante es que nos respetemos.
+    - Lo importante es que nos respetamos.
+    - Lo importante es respetamos.
+    correct: 0
+    lexemes:
+    - respetar
+  - id: u46-l1-21
+    type: listening_choice
+    audioText: Cada cultura tiene sus tradiciones.
+    question: מה אומרים?
+    options:
+    - לכל תרבות יש מסורות
+    - יש תרבות אחת
+    - אין מסורות
+    correct: 0
+    lexemes:
+    - tradicion
+    - identidad
+  - id: u46-l1-22
+    type: listening_choice
+    audioText: Ser bilingüe enriquece la identidad.
+    question: מה אומרים?
+    options:
+    - דו־לשוניות מעשירה את הזהות
+    - זהות נעלמת
+    - אין הבדל
+    correct: 0
+    lexemes:
+    - bilingue
+    - enriquecer
+    - identidad
+  - id: u46-l1-23
+    type: translate
+    direction: to_target
+    prompt: לאורך השנה למדתי הרבה.
+    answers:
+    - A lo largo del año aprendí mucho.
+    lexemes:
+    - a-lo-largo
+    - aprender
+  - id: u46-l1-24
+    type: translate
+    direction: to_target
+    prompt: לכל תרבות יש מנהגים.
+    answers:
+    - Cada cultura tiene sus costumbres.
+    lexemes:
+    - costumbre
+  - id: u46-l1-25
+    type: translate
+    direction: to_source
+    prompt: La tolerancia es importante en la convivencia.
+    answers:
+    - סובלנות חשובה בדו־קיום
+    lexemes:
+    - tolerancia
+    - convivencia
+    - importante
+  - id: u46-l1-26
+    type: dictation
+    text: A lo largo de este año, aprendí mucho.
+    lexemes:
+    - a-lo-largo
+    - aprender
+  - id: u46-l1-27
+    type: speak_repeat
+    text: Lo importante es que nos respetemos.
+    translation: החשוב הוא שנכבד זה את זה.
+    lexemes:
+    - respetar
+- id: u46-l2
+  kind: new
+  title:
+    he: לשמר ולהסתגל
+    en: Preserving and adapting
+  exercises:
+  - id: u46-l2-01
+    type: learn
+    lexeme: compartir-p
+  - id: u46-l2-02
+    type: learn
+    lexeme: preservar
+  - id: u46-l2-03
+    type: learn
+    lexeme: adaptarse
+  - id: u46-l2-04
+    type: learn
+    lexeme: pertenecer
+  - id: u46-l2-05
+    type: match_pairs
+    pairs:
+    - - enriquecer
+      - להעשיר
+    - - compartir
+      - לחלוק
+    - - respetar
+      - לכבד
+    - - preservar
+      - לשמר
+    - - adaptarse
+      - להסתגל
+    lexemes:
+    - enriquecer
+    - compartir-p
+    - respetar
+    - preservar
+    - adaptarse
+  - id: u46-l2-06
+    type: match_pairs
+    pairs:
+    - - pertenecer
+      - להשתייך
+    - - la identidad
+      - זהות
+    - - la convivencia
+      - דו־קיום
+    - - el patrimonio
+      - מורשת
+    - - el prejuicio
+      - דעה קדומה
+    lexemes:
+    - pertenecer
+    - identidad
+    - convivencia
+    - patrimonio
+    - prejuicio
+  - id: u46-l2-07
+    type: dialogue
+    scene: שיחה עם מתאו.
+    lines:
+    - speaker: mateo
+      text: ¿Cómo preservas tus costumbres aquí?
+      translation: איך את שומרת על המנהגים שלך כאן?
+    - speaker: yael
+      text: Me adapto, pero no dejo de ser quien soy. Comparto mis tradiciones con gusto, y respeto las suyas.
+      translation: אני מסתגלת, אבל לא מפסיקה להיות מי שאני. אני חולקת את המסורות שלי בשמחה, ומכבדת את שלכם.
+    - speaker: mateo
+      text: Si tuviera que vivir en otro país, intentaría hacer lo mismo.
+      translation: אילו הייתי צריך לחיות בארץ אחרת, הייתי מנסה לעשות אותו דבר.
+  - id: u46-l2-08
+    type: multiple_choice
+    prompt: מה פירוש 'preservar'?
+    options:
+    - לשמר
+    - להרוס
+    - לשכוח
+    correct: 0
+    lexemes:
+    - preservar
+  - id: u46-l2-09
+    type: multiple_choice
+    prompt: מה פירוש 'adaptarse'?
+    options:
+    - להסתגל
+    - להתנגד
+    - להתרחק
+    correct: 0
+    lexemes:
+    - adaptarse
+  - id: u46-l2-10
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Me adapto, pero no dejo de ser quien soy.
+    - Me adapto, pero no dejo ser quien soy.
+    - Me adapto, pero no dejé ser quién soy.
+    correct: 0
+    lexemes:
+    - adaptarse
+    - dejar-de
+  - id: u46-l2-11
+    type: listening_choice
+    audioText: Comparto mis tradiciones con gusto.
+    question: מה אומרים?
+    options:
+    - אני חולקת את המסורות שלי בשמחה
+    - אני מסתירה את המסורות
+    - אני שוכחת מסורות
+    correct: 0
+    lexemes:
+    - compartir-p
+    - tradicion
+  - id: u46-l2-12
+    type: listening_choice
+    audioText: Respeto sus costumbres.
+    question: מה אומרים?
+    options:
+    - אני מכבדת את המנהגים שלהם
+    - אני לא מכבדת
+    - אני לא מכירה
+    correct: 0
+    lexemes:
+    - respetar
+    - costumbre
+  - id: u46-l2-13
+    type: fill_blank
+    sentence: Ser bilingüe ___ la identidad. (enriquecer)
+    translation: דו־לשוניות מעשירה את הזהות.
+    answers:
+    - enriquece
+    options:
+    - enriquece
+    - enriquecen
+    - enriquecía
+    lexemes:
+    - bilingue
+    - enriquecer
+    - identidad
+  - id: u46-l2-14
+    type: fill_blank
+    sentence: Cada cultura ___ sus tradiciones. (tener)
+    translation: לכל תרבות יש את המסורות שלה.
+    answers:
+    - tiene
+    options:
+    - tiene
+    - tengan
+    - tenía
+    lexemes:
+    - tradicion
+  - id: u46-l2-15
+    type: fill_blank
+    sentence: Aunque ___ diferentes, compartimos valores. (ser)
+    translation: אף שאנחנו שונים, אנחנו חולקים ערכים.
+    answers:
+    - seamos
+    options:
+    - seamos
+    - somos
+    - fuimos
+    lexemes:
+    - compartir-p
+  - id: u46-l2-16
+    type: fill_blank
+    sentence: Si tuviera que resumir, ___ que aprendí a escuchar. (decir)
+    translation: אילו הייתי צריכה לסכם, הייתי אומרת שלמדתי להקשיב.
+    answers:
+    - diría
+    options:
+    - diría
+    - digo
+    - dije
+    lexemes:
+    - decir
+    - escuchar
+  - id: u46-l2-17
+    type: word_bank
+    prompt: אני שומרת על המסורות שלי.
+    answers:
+    - Preservo mis tradiciones.
+    distractors:
+    - Preservo mi tradicionar
+    lexemes:
+    - preservar
+    - tradicion
+  - id: u46-l2-18
+    type: word_bank
+    prompt: אני מכבדת את התרבות שלכם.
+    answers:
+    - Respeto su cultura.
+    distractors:
+    - Respeto sus cultura
+    lexemes:
+    - respetar
+  - id: u46-l2-19
+    type: translate
+    direction: to_target
+    prompt: אני מסתגלת, אבל נשארת מי שאני.
+    answers:
+    - Me adapto, pero sigo siendo quien soy.
+    lexemes:
+    - adaptarse
+    - seguir-gerundio
+  - id: u46-l2-20
+    type: translate
+    direction: to_source
+    prompt: Pertenezco a una comunidad que preserva sus tradiciones.
+    answers:
+    - אני שייכת לקהילה ששומרת על המסורות שלה
+    - אני שייך לקהילה ששומרת על המסורות שלה
+    lexemes:
+    - pertenecer
+    - preservar
+    - tradicion
+  - id: u46-l2-21
+    type: dictation
+    text: Respeto sus costumbres.
+    lexemes:
+    - respetar
+    - costumbre
+- id: u46-l3
+  kind: grammar
+  title:
+    he: ניסוח מורכב
+    en: Complex phrasing
+  grammar: cultura-identidad
+  exercises:
+  - id: u46-l3-01
+    type: fill_blank
+    sentence: Lo importante es que nos ___. (respetar)
+    translation: החשוב הוא שנכבד זה את זה.
+    answers:
+    - respetemos
+    options:
+    - respetemos
+    - respetamos
+    - respetaremos
+    lexemes:
+    - respetar
+  - id: u46-l3-02
+    type: fill_blank
+    sentence: No creo que ___ una sola forma. (haber)
+    translation: אני לא חושבת שיש דרך אחת בלבד.
+    answers:
+    - haya
+    options:
+    - haya
+    - hay
+    - había
+    lexemes:
+    - no-creo-que
+  - id: u46-l3-03
+    type: fill_blank
+    sentence: Aunque ___ diferentes, nos entendemos. (ser, nosotros)
+    translation: אף שאנחנו שונים, אנחנו מבינים זה את זה.
+    answers:
+    - seamos
+    options:
+    - seamos
+    - somos
+    - fuimos
+    lexemes:
+    - entender
+  - id: u46-l3-04
+    type: fill_blank
+    sentence: Gracias a este año, ___ aprendido a escuchar. (haber, yo)
+    translation: בזכות השנה הזאת למדתי להקשיב.
+    answers:
+    - he
+    options:
+    - he
+    - había
+    - habría
+    lexemes:
+    - aprender
+    - escuchar
+  - id: u46-l3-05
+    type: fill_blank
+    sentence: Si tuviera que resumir, ___ que fue un buen año. (decir)
+    translation: אילו הייתי צריכה לסכם, הייתי אומרת שזו הייתה שנה טובה.
+    answers:
+    - diría
+    options:
+    - diría
+    - digo
+    - dije
+    lexemes:
+    - decir
+  - id: u46-l3-06
+    type: fill_blank
+    sentence: Ojalá ___ volver pronto. (poder, yo)
+    translation: הלוואי שאוכל לחזור בקרוב.
+    answers:
+    - pudiera
+    options:
+    - pudiera
+    - puedo
+    - podré
+    lexemes:
+    - ojala-pasado
+    - poder
+    - volver
+  - id: u46-l3-07
+    type: multiple_choice
+    prompt: מתי משתמשים ב־lo importante es que?
+    options:
+    - לפני סובג'ונקטיב
+    - לפני אינדיקטיב בלבד
+    - לפני מקור בלבד
+    correct: 0
+    lexemes:
+    - importante
+  - id: u46-l3-08
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - A lo largo de este año me di cuenta de que cambié.
+    - A lo largo de este año me di cuenta de que cambiaré ayer.
+    - A lo largo del año me da cuenta que cambié.
+    correct: 0
+    lexemes:
+    - a-lo-largo
+  - id: u46-l3-09
+    type: word_bank
+    prompt: אילו הייתי צריכה לסכם.
+    answers:
+    - Si tuviera que resumir.
+    distractors:
+    - Si tendría que resumir
+    lexemes:
+    - si-irreal
+    - tener-que
+  - id: u46-l3-10
+    type: word_bank
+    prompt: אני שייכת לקהילה.
+    answers:
+    - Pertenezco a una comunidad.
+    distractors:
+    - Pertenezco una comunidad
+    lexemes:
+    - pertenecer
+    - comunidad
+  - id: u46-l3-11
+    type: translate
+    direction: to_target
+    prompt: החשוב הוא שנכבד זה את זה.
+    answers:
+    - Lo importante es que nos respetemos.
+    lexemes:
+    - importante
+    - respetar
+  - id: u46-l3-12
+    type: translate
+    direction: to_target
+    prompt: אף שאנחנו שונים, אנחנו חולקים ערכים.
+    answers:
+    - Aunque seamos diferentes, compartimos valores.
+    lexemes:
+    - compartir-p
+  - id: u46-l3-13
+    type: translate
+    direction: to_source
+    prompt: A lo largo de estos meses, me di cuenta de muchas cosas.
+    answers:
+    - לאורך החודשים האלה הבנתי הרבה דברים
+    lexemes:
+    - a-lo-largo
+  - id: u46-l3-14
+    type: translate
+    direction: to_source
+    prompt: Ojalá pudiera volver pronto.
+    answers:
+    - הלוואי שאוכל לחזור בקרוב
+    lexemes:
+    - ojala-pasado
+    - poder
+    - volver
+- id: u46-l4
+  kind: reading
+  title:
+    he: נאום פרידה
+    en: A farewell speech
+  exercises:
+  - id: u46-l4-01
+    type: reading
+    kind: נאום
+    title: Una cena de despedida
+    text: 'Queridos amigos:
+
+      A lo largo de este año aprendí mucho más que una lengua. Aprendí que la identidad no se pierde cuando uno se adapta, sino que se enriquece. Preservo mis tradiciones, pero también agradezco las suyas.
+
+      Si tuviera que resumir este año, diría que lo más valioso fue la convivencia. Ojalá pudiéramos volver a cenar juntos pronto. Gracias por todo.
+
+      '
+    translation: 'חברים יקרים:
+
+      לאורך השנה הזאת למדתי הרבה יותר משפה. למדתי שהזהות לא אובדת כשמסתגלים, אלא מתעשרת. אני שומרת על המסורות שלי, אבל גם מודה על שלכם.
+
+      אילו הייתי צריכה לסכם את השנה, הייתי אומרת שהדבר היקר ביותר היה הדו־קיום. הלוואי שנוכל לחזור ולהתכנס לארוחה בקרוב. תודה על הכול.
+
+      '
+  - id: u46-l4-02
+    type: multiple_choice
+    prompt: מה יעל למדה?
+    options:
+    - שהזהות מתעשרת בהסתגלות
+    - שצריך לשכוח מסורות
+    - שצריך לעזוב
+    correct: 0
+    lexemes:
+    - identidad
+    - adaptarse
+    - enriquecer
+  - id: u46-l4-03
+    type: multiple_choice
+    prompt: מה היה היקר ביותר?
+    options:
+    - הדו־קיום
+    - הכסף
+    - העבודה
+    correct: 0
+    lexemes:
+    - convivencia
+    - dinero
+    - trabajo
+  - id: u46-l4-04
+    type: fill_blank
+    sentence: La identidad se ___ cuando uno se adapta. (enriquecer)
+    translation: הזהות מתעשרת כשמסתגלים.
+    answers:
+    - enriquece
+    options:
+    - enriquece
+    - enriquecen
+    - enriquecía
+    lexemes:
+    - identidad
+    - enriquecer
+    - adaptarse
+  - id: u46-l4-05
+    type: translate
+    direction: to_target
+    prompt: אני שומרת על המסורות שלי.
+    answers:
+    - Preservo mis tradiciones.
+    lexemes:
+    - preservar
+    - tradicion
+- id: u46-review
+  kind: review
+  title:
+    he: 'חזרה: זהות ותרבות + כתיבה'
+    en: Review + writing
+  exercises:
+  - id: u46-review-01
+    type: match_pairs
+    pairs:
+    - - la identidad
+      - זהות
+    - - la tradición
+      - מסורת
+    - - la costumbre
+      - מנהג
+    - - la convivencia
+      - דו־קיום
+    - - el patrimonio
+      - מורשת
+    lexemes:
+    - identidad
+    - tradicion
+    - costumbre
+    - convivencia
+    - patrimonio
+  - id: u46-review-02
+    type: match_pairs
+    pairs:
+    - - enriquecer
+      - להעשיר
+    - - compartir
+      - לחלוק
+    - - respetar
+      - לכבד
+    - - preservar
+      - לשמר
+    - - adaptarse
+      - להסתגל
+    lexemes:
+    - enriquecer
+    - compartir-p
+    - respetar
+    - preservar
+    - adaptarse
+  - id: u46-review-03
+    type: fill_blank
+    sentence: Lo importante es que nos ___. (respetar)
+    translation: החשוב הוא שנכבד זה את זה.
+    answers:
+    - respetemos
+    options:
+    - respetemos
+    - respetamos
+    - respetaremos
+    lexemes:
+    - respetar
+  - id: u46-review-04
+    type: fill_blank
+    sentence: Aunque ___ diferentes, compartimos. (ser)
+    translation: אף שאנחנו שונים, אנחנו חולקים.
+    answers:
+    - seamos
+    options:
+    - seamos
+    - somos
+    - fuimos
+    lexemes:
+    - compartir-p
+  - id: u46-review-05
+    type: multiple_choice
+    prompt: מה פירוש 'a lo largo de'?
+    options:
+    - לאורך
+    - במקום
+    - בלי
+    correct: 0
+    lexemes:
+    - a-lo-largo
+  - id: u46-review-06
+    type: listening_choice
+    audioText: Ser bilingüe enriquece la identidad.
+    question: מה אומרים?
+    options:
+    - דו־לשוניות מעשירה את הזהות
+    - זהות נעלמת
+    - שפה מפרידה
+    correct: 0
+    lexemes:
+    - bilingue
+    - enriquecer
+    - identidad
+  - id: u46-review-07
+    type: word_bank
+    prompt: אני שומרת על המסורות שלי.
+    answers:
+    - Preservo mis tradiciones.
+    distractors:
+    - Preservo mi tradicionar
+    lexemes:
+    - preservar
+    - tradicion
+  - id: u46-review-08
+    type: translate
+    direction: to_target
+    prompt: לכל תרבות יש מנהגים.
+    answers:
+    - Cada cultura tiene sus costumbres.
+    lexemes:
+    - costumbre
+  - id: u46-review-09
+    type: translate
+    direction: to_source
+    prompt: Si tuviera que resumir este año, diría que aprendí a escuchar.
+    answers:
+    - אילו הייתי צריכה לסכם את השנה, הייתי אומרת שלמדתי להקשיב
+    lexemes:
+    - decir
+    - escuchar
+  - id: u46-review-10
+    type: dictation
+    text: Lo importante es que nos respetemos.
+    lexemes:
+    - respetar
+  - id: u46-review-11
+    type: speak_repeat
+    text: Aprendí mucho a lo largo de este año.
+    translation: למדתי הרבה לאורך השנה.
+    lexemes:
+    - a-lo-largo
+    - aprender
+  - id: u46-review-12
+    type: write
+    prompt: כתבו נאום או מכתב סיכום (8–10 משפטים) על שנה, על חוויה או על מקום שהשפיעו עליכם. דברו על זהות, מסורת ושפה; הסבירו מה למדתם (a lo largo de…, me di cuenta de que…); השתמשו בסובג'ונקטיב (lo importante es que…, aunque seamos…, ojalá pudiera…), בתנאי (si tuviera que resumir… diría…) ובחיבורים (sin embargo, por lo tanto, en definitiva).
+    minWords: 90
+    checks:
+    - label: a lo largo de / me di cuenta de que / gracias a
+      any:
+      - a lo largo de
+      - me di cuenta de que
+      - gracias a
+      - he aprendido
+    - label: סובג'ונקטיב (lo importante es que / aunque seamos / ojalá pudiera / no creo que haya)
+      any:
+      - lo importante es que
+      - aunque seamos
+      - aunque sea
+      - ojala pudiera
+      - no creo que
+      - es importante que
+    - label: תנאי (si tuviera que… diría / sería / podría)
+      any:
+      - si tuviera que
+      - diria
+      - seria
+      - podria
+      - me gustaria
+    - label: חיבור (sin embargo / por lo tanto / en definitiva / además)
+      any:
+      - sin embargo
+      - por lo tanto
+      - en definitiva
+      - ademas
+      - no obstante
+      - en conclusion
+    - label: נושאי זהות ותרבות (identidad, tradición, lengua, comunidad, respeto, costumbre)
+      any:
+      - identidad
+      - tradicion
+      - tradiciones
+      - lengua
+      - idioma
+      - comunidad
+      - respeto
+      - costumbre
+      - convivencia
+    model: 'Queridos amigos: A lo largo de este año me di cuenta de que la identidad no se pierde cuando uno se adapta, sino que se enriquece. Lo importante es que nos respetemos y compartamos nuestras tradiciones. Aunque seamos diferentes, tenemos muchos valores en común. No creo que haya una sola manera de vivir; sin embargo, creo que la tolerancia es clave. Si tuviera que resumir este año, diría que aprendí a escuchar. Además, hice amigos de verdad. Ojalá pudiera volver pronto. En definitiva, esta experiencia cambió mi forma de ver el mundo.'
+    lexemes: []
+- id: c1-test
+  kind: test
+  title:
+    he: מבחן רמה C1
+    en: C1 level test
+  exercises:
+  - id: c1-test-01
+    type: fill_blank
+    sentence: Quizás ___ tarde. (llegar, él)
+    translation: אולי יגיע מאוחר.
+    answers:
+    - llegue
+    options:
+    - llegue
+    - llega
+    - llegará
+    lexemes:
+    - quizas
+    - llegar
+    - tarde-adv
+  - id: c1-test-02
+    type: fill_blank
+    sentence: A lo mejor ___ razón. (tener, él)
+    translation: אולי הוא צודק.
+    answers:
+    - tiene
+    options:
+    - tiene
+    - tenga
+    - tuviera
+    lexemes:
+    - a-lo-mejor
+    - tener-razon
+  - id: c1-test-03
+    type: fill_blank
+    sentence: Por mucho que lo ___, no gana. (intentar, él)
+    translation: ככל שינסה, הוא לא ינצח.
+    answers:
+    - intente
+    options:
+    - intente
+    - intenta
+    - intentará
+    lexemes:
+    - por-mucho-que
+    - intentar
+    - ganar
+  - id: c1-test-04
+    type: multiple_choice
+    prompt: מה פירוש 'Serán las tres'?
+    options:
+    - בטח כבר שלוש
+    - יהיה שלוש
+    - היה שלוש
+    correct: 0
+    lexemes:
+    - futuro-conj
+  - id: c1-test-05
+    type: multiple_choice
+    prompt: מה פירוש 'ni modo'?
+    options:
+    - אין מה לעשות
+    - בשום אופן
+    - בכל מקרה
+    correct: 0
+    lexemes:
+    - ni-modo
+  - id: c1-test-06
+    type: multiple_choice
+    prompt: מה פירוש 'costar un ojo de la cara'?
+    options:
+    - להיות יקר מאוד
+    - להיות זול
+    - להיות מכוער
+    correct: 0
+    lexemes:
+    - ojo-cara
+  - id: c1-test-07
+    type: fill_blank
+    sentence: Voy a ___ una mano a Mateo. (עזור)
+    translation: אני אעזור למתאו.
+    answers:
+    - echar
+    options:
+    - echar
+    - poner
+    - meter
+    lexemes:
+    - echar-mano
+  - id: c1-test-08
+    type: fill_blank
+    sentence: Metí la ___. (טעיתי)
+    translation: טעיתי.
+    answers:
+    - pata
+    options:
+    - pata
+    - mano
+    - cara
+    lexemes:
+    - meter-pata
+  - id: c1-test-09
+    type: fill_blank
+    sentence: El ___ de los precios afectó a todos. (עלייה)
+    translation: העלייה במחירים השפיעה על כולם.
+    answers:
+    - aumento
+    options:
+    - aumento
+    - aumentar
+    - aumentó
+    lexemes:
+    - aumento
+  - id: c1-test-10
+    type: fill_blank
+    sentence: Los resultados ___ un cambio. (sugerir)
+    translation: התוצאות מצביעות על שינוי.
+    answers:
+    - sugieren
+    options:
+    - sugieren
+    - sugiere
+    - sugerían
+    lexemes:
+    - resultados
+    - sugerir-p
+  - id: c1-test-11
+    type: multiple_choice
+    prompt: איזה ביטוי זהיר יותר?
+    options:
+    - Parece indicar que…
+    - Es así que…
+    - Siempre ocurre que…
+    correct: 0
+    lexemes:
+    - parece-indicar
+  - id: c1-test-12
+    type: fill_blank
+    sentence: Si bien ___ cierto que ahorra tiempo, hay desventajas.
+    translation: אמנם נכון שזה חוסך זמן, יש חסרונות.
+    answers:
+    - es
+    options:
+    - es
+    - sea
+    - fue
+    lexemes:
+    - si-bien
+    - cierto
+    - desventaja
+  - id: c1-test-13
+    type: fill_blank
+    sentence: No estoy convencida de que ___ mejor. (ser)
+    translation: אני לא משוכנעת שזה טוב יותר.
+    answers:
+    - sea
+    options:
+    - sea
+    - es
+    - fue
+    lexemes:
+    - no-convencido
+    - mejor
+  - id: c1-test-14
+    type: fill_blank
+    sentence: ___ más practico, más aprendo.
+    translation: ככל שאתרגל יותר אלמד יותר.
+    answers:
+    - Cuanto
+    options:
+    - Cuanto
+    - Cuando
+    - Como
+    lexemes:
+    - cuanto-mas
+  - id: c1-test-15
+    type: fill_blank
+    sentence: Llovía cuando yo ___. (salir – אירוע)
+    translation: ירד גשם כשיצאתי.
+    answers:
+    - salí
+    options:
+    - salí
+    - salía
+    - había salido
+    lexemes:
+    - salir
+  - id: c1-test-16
+    type: fill_blank
+    sentence: Ya ___ oscurecido cuando llegué. (haber)
+    translation: כבר החשיך כשהגעתי.
+    answers:
+    - había
+    options:
+    - había
+    - ha
+    - hubo
+    lexemes:
+    - llegar
+  - id: c1-test-17
+    type: multiple_choice
+    prompt: מה הזמן לפעולה פתאומית בסיפור?
+    options:
+    - pretérito
+    - imperfecto
+    - futuro
+    correct: 0
+    lexemes:
+    - de-repente
+  - id: c1-test-18
+    type: multiple_choice
+    prompt: מה פירוש 'como si flotara'?
+    options:
+    - כאילו ריחף
+    - כי ריחף
+    - אם ריחף
+    correct: 0
+    lexemes:
+    - simil
+  - id: c1-test-19
+    type: fill_blank
+    sentence: Lo importante es que nos ___. (respetar)
+    translation: החשוב הוא שנכבד זה את זה.
+    answers:
+    - respetemos
+    options:
+    - respetemos
+    - respetamos
+    - respetaremos
+    lexemes:
+    - respetar
+  - id: c1-test-20
+    type: fill_blank
+    sentence: Aunque ___ diferentes, compartimos valores. (ser)
+    translation: אף שאנחנו שונים, אנחנו חולקים ערכים.
+    answers:
+    - seamos
+    options:
+    - seamos
+    - somos
+    - fuimos
+    lexemes:
+    - compartir-p
+  - id: c1-test-21
+    type: multiple_choice
+    prompt: מה פירוש 'a lo largo de'?
+    options:
+    - לאורך
+    - בסוף
+    - לפני
+    correct: 0
+    lexemes:
+    - a-lo-largo
+  - id: c1-test-22
+    type: word_bank
+    prompt: אולי הוא יודע.
+    answers:
+    - Quizás lo sepa.
+    distractors:
+    - Quizás lo sabría
+    lexemes:
+    - quizas
+    - saber
+  - id: c1-test-23
+    type: word_bank
+    prompt: לדעתי, יש יתרונות.
+    answers:
+    - En mi opinión, hay ventajas.
+    distractors:
+    - En mi opinión tiene ventajas ayer
+    lexemes:
+    - en-mi-opinion
+    - ventaja
+  - id: c1-test-24
+    type: word_bank
+    prompt: אני שומרת על המסורות שלי.
+    answers:
+    - Preservo mis tradiciones.
+    distractors:
+    - Preservo mi tradicionar
+    lexemes:
+    - preservar
+    - tradicion
+  - id: c1-test-25
+    type: translate
+    direction: to_target
+    prompt: ככל שנסביר, הוא לא יבין.
+    answers:
+    - Por más que expliquemos, no va a entender.
+    lexemes:
+    - por-mas-que
+    - explicar
+    - entender
+  - id: c1-test-26
+    type: translate
+    direction: to_target
+    prompt: ראוי להדגיש את ההשפעה.
+    answers:
+    - Cabe destacar el impacto.
+    lexemes:
+    - cabe-destacar
+    - impacto
+  - id: c1-test-27
+    type: translate
+    direction: to_target
+    prompt: פתאום האור כבה.
+    answers:
+    - De repente se apagó la luz.
+    lexemes:
+    - de-repente
+    - luz
+  - id: c1-test-28
+    type: translate
+    direction: to_source
+    prompt: Tendrían problemas con los permisos.
+    answers:
+    - כנראה היו להם בעיות עם הרישיונות
+    lexemes:
+    - cond-conj
+    - problema
+  - id: c1-test-29
+    type: translate
+    direction: to_source
+    prompt: Si tuviera que resumir este año, diría que aprendí a escuchar.
+    answers:
+    - אילו הייתי צריכה לסכם את השנה, הייתי אומרת שלמדתי להקשיב
+    lexemes:
+    - decir
+    - escuchar
+  - id: c1-test-30
+    type: listening_choice
+    audioText: Por muy difícil que sea, lo intento.
+    question: מה אומרים?
+    options:
+    - ככל שזה קשה, אני מנסה
+    - זה קל ולכן אני מנסה
+    - אני לא מנסה
+    correct: 0
+    lexemes:
+    - por-muy
+    - dificil
+    - intentar
+  - id: c1-test-31
+    type: listening_choice
+    audioText: Ahorita vengo.
+    question: מה אומרים?
+    options:
+    - אני חוזרת עוד רגע
+    - אני לא חוזרת
+    - חזרתי אתמול
+    correct: 0
+    lexemes:
+    - ahorita
+    - venir
+  - id: c1-test-32
+    type: dictation
+    text: Cabe destacar que el estudio es nuevo.
+    lexemes:
+    - cabe-destacar
+    - estudio
+  - id: c1-test-33
+    type: speak_repeat
+    text: Lo importante es que nos respetemos y compartamos.
+    translation: החשוב הוא שנכבד זה את זה ונחלוק.
+    lexemes:
+    - respetar
+    - compartir-p

@@ -23,7 +23,7 @@ vocabulary:
   pos: noun
   pronunciation: בּ
   example:
-    text: vaso, bebé, vino
+    text: vaso, bebé, vela
     translation: דוגמאות
 - id: s-c-k
   text: ca co cu / qu
@@ -55,7 +55,7 @@ vocabulary:
   pos: noun
   pronunciation: ח
   example:
-    text: gente, jugo, jamón
+    text: gente, jugo, jabón
     translation: דוגמאות
 - id: s-h-silent
   text: h

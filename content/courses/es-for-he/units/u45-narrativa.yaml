@@ -1,0 +1,947 @@
+id: u45-narrativa
+cefr: C1
+scene: free-time
+title:
+  he: 'לספר סיפור: זמני עבר, תיאור ודימויים'
+  en: Storytelling
+story: יעל מגישה סיפור קצר לתחרות כתיבה של הקהילה. הדוקטור הררה מסבירה איך להתחיל, איך להחליף קצב ('de repente'), איך לתאר ('como si') ואיך לסיים. יעל מרכיבה את כל זמני העבר בסיפור אחד.
+canDo:
+- 'לבנות עלילה: פתיחה, התפתחות, שיא, סיום'
+- לשלב pretérito, imperfecto ו־pluscuamperfecto בסיפור אחד
+- לתאר באמצעות דימויים (como si, tan… como) ושמות תואר חיים
+- להשתמש במחברי סיפור (de repente, al cabo de, mientras, poco después)
+vocabulary:
+- id: relato
+  text: el relato
+  translation: סיפור קצר
+  pos: noun
+- id: trama
+  text: la trama
+  translation: עלילה
+  pos: noun
+- id: escena
+  text: la escena
+  translation: סצנה
+  pos: noun
+- id: desenlace
+  text: el desenlace
+  translation: סיום
+  pos: noun
+- id: narrador
+  text: el narrador
+  translation: מספר
+  pos: noun
+- id: ambiente
+  text: el ambiente
+  translation: אווירה
+  pos: noun
+- id: al-cabo-de
+  text: al cabo de
+  translation: כעבור
+  pos: phrase
+- id: poco-despues
+  text: poco después
+  translation: זמן קצר אחרי
+  pos: phrase
+- id: mientras-tanto
+  text: mientras tanto
+  translation: בינתיים
+  pos: phrase
+- id: en-aquel-momento
+  text: en aquel momento
+  translation: באותו רגע
+  pos: phrase
+- id: erase-una-vez
+  text: érase una vez
+  translation: היה היה פעם
+  pos: phrase
+- id: metafora
+  text: la metáfora
+  translation: מטאפורה
+  pos: noun
+- id: simil
+  text: el símil
+  translation: דימוי
+  pos: noun
+- id: vivo
+  text: vivo / vívido
+  translation: חי, ציורי
+  pos: adjective
+- id: sentirse-p
+  text: sentirse
+  translation: להרגיש
+  pos: verb
+- id: describir
+  text: describir
+  translation: לתאר
+  pos: verb
+- id: volver
+  text: volver
+  translation: לחזור
+  pos: verb
+- id: miedo
+  text: el miedo
+  translation: פחד
+  pos: noun
+- id: silencioso
+  text: silencioso
+  translation: שקט
+  pos: adjective
+- id: imaginar
+  text: imaginar
+  translation: לדמיין
+  pos: verb
+grammar:
+- id: narrar
+  title:
+    he: סיפור ותיאור
+    en: Narrative and description
+  explanation: 'סיפור טוב מאזן בין **רקע** (imperfecto) ל**אירועים** (pretérito) ל**מה שקרה קודם** (pluscuamperfecto).
+
+
+    **החלוקה:**
+
+    * **Imperfecto** – רקע, תיאור, הרגל: *Llovía y la calle estaba vacía. Yo caminaba despacio.*
+
+    * **Pretérito** – אירוע שנגמר, התקדמות העלילה: *De repente **escuché** un ruido y **me detuve**.*
+
+    * **Pluscuamperfecto** – מה שקרה קודם: *Ya **había oscurecido** cuando llegué.*
+
+
+    **מחברי סיפור:** *érase una vez* (היה היה) | *de repente* (פתאום) | *en aquel momento* (באותו רגע) | *mientras tanto* (בינתיים) | *al cabo de una hora* (כעבור שעה) | *poco después* (זמן קצר אחרי) | *finalmente / al final*
+
+
+    **תיאור חי:**
+
+    * *como si* + סובג''ונקטיב בעבר: *Caminaba **como si** flotara.* (כאילו ריחפה)
+
+    * *tan… como*: *Era **tan** silencioso **como** una biblioteca.*
+
+    * מטאפורה: *Sus ojos eran dos faros.* | סימיל: *Corría como el viento.*
+
+
+    **שימו לב:** שילוב נכון: *Mientras **caminaba** (רקע), **vi** (אירוע) a un hombre.*
+
+
+    **הערה:** במקסיקו סיפורים בעל־פה פותחים לעיתים ב*"Pues resulta que…"* (אז מסתבר ש…) – אבל בכתיבה ספרותית פותחים ב*érase una vez* או בתיאור סצנה.'
+  examples:
+  - text: Llovía y la calle estaba vacía. De repente escuché un ruido y me detuve.
+    translation: ירד גשם והרחוב היה ריק. פתאום שמעתי רעש ועצרתי.
+  - text: Ya había oscurecido cuando llegué. Caminaba como si flotara.
+    translation: כבר החשיך כשהגעתי. הלכתי כאילו ריחפתי.
+  - text: Al cabo de una hora, poco después de que se fuera la luz, volvió.
+    translation: כעבור שעה, זמן קצר אחרי שהאור כבה, היא חזרה.
+lessons:
+- id: u45-l1
+  kind: new
+  title:
+    he: מבנה סיפור
+    en: Story structure
+  exercises:
+  - id: u45-l1-01
+    type: dialogue
+    scene: יעל ודוקטור הררה על הסיפור.
+    lines:
+    - speaker: herrera
+      text: 'Todo cuento tiene una trama: inicio, desarrollo y desenlace. ¿Cómo vas a empezar?'
+      translation: 'לכל סיפור יש עלילה: פתיחה, התפתחות וסיום. איך תתחילי?'
+    - speaker: yael
+      text: 'Con el ambiente: «Llovía y la calle estaba vacía.» Después, de repente, escucho un ruido.'
+      translation: 'עם האווירה: «ירד גשם והרחוב היה ריק.» אחר כך, פתאום, שומעת רעש.'
+    - speaker: herrera
+      text: Muy bien. Usa el imperfecto para el fondo y el pretérito para la acción.
+      translation: יפה מאוד. השתמשי באימפרפקט לרקע ובפרטריט לפעולה.
+  - id: u45-l1-02
+    type: learn
+    lexeme: relato
+  - id: u45-l1-03
+    type: learn
+    lexeme: trama
+  - id: u45-l1-04
+    type: learn
+    lexeme: escena
+  - id: u45-l1-05
+    type: learn
+    lexeme: desenlace
+  - id: u45-l1-06
+    type: learn
+    lexeme: narrador
+  - id: u45-l1-07
+    type: learn
+    lexeme: ambiente
+  - id: u45-l1-08
+    type: learn
+    lexeme: volver
+  - id: u45-l1-09
+    type: learn
+    lexeme: miedo
+  - id: u45-l1-10
+    type: learn
+    lexeme: silencioso
+  - id: u45-l1-11
+    type: learn
+    lexeme: al-cabo-de
+  - id: u45-l1-12
+    type: learn
+    lexeme: poco-despues
+  - id: u45-l1-13
+    type: learn
+    lexeme: mientras-tanto
+  - id: u45-l1-14
+    type: learn
+    lexeme: en-aquel-momento
+  - id: u45-l1-15
+    type: learn
+    lexeme: erase-una-vez
+  - id: u45-l1-16
+    type: match_pairs
+    pairs:
+    - - el relato
+      - סיפור
+    - - la trama
+      - עלילה
+    - - la escena
+      - סצנה
+    - - el desenlace
+      - סיום
+    - - el narrador
+      - מספר
+    lexemes:
+    - relato
+    - trama
+    - escena
+    - desenlace
+    - narrador
+  - id: u45-l1-17
+    type: match_pairs
+    pairs:
+    - - de repente
+      - פתאום
+    - - al cabo de
+      - כעבור
+    - - poco después
+      - זמן קצר אחרי
+    - - mientras tanto
+      - בינתיים
+    - - érase una vez
+      - היה היה
+    lexemes:
+    - de-repente
+    - al-cabo-de
+    - poco-despues
+    - mientras-tanto
+    - erase-una-vez
+  - id: u45-l1-18
+    type: multiple_choice
+    prompt: איזה זמן לרקע ולתיאור?
+    options:
+    - imperfecto
+    - pretérito
+    - futuro
+    correct: 0
+    lexemes:
+    - ambiente
+  - id: u45-l1-19
+    type: multiple_choice
+    prompt: איזה זמן לפעולה שהסתיימה?
+    options:
+    - pretérito
+    - imperfecto
+    - condicional
+    correct: 0
+    lexemes:
+    - trama
+  - id: u45-l1-20
+    type: multiple_choice
+    prompt: מה פירוש 'de repente'?
+    options:
+    - פתאום
+    - לאט
+    - בהדרגה
+    correct: 0
+    lexemes:
+    - de-repente
+  - id: u45-l1-21
+    type: listening_choice
+    audioText: Llovía y la calle estaba vacía.
+    question: מה אומרים?
+    options:
+    - ירד גשם והרחוב היה ריק
+    - שמעתי רעש
+    - הרחוב היה מלא
+    correct: 0
+    lexemes:
+    - ambiente
+    - escena
+  - id: u45-l1-22
+    type: listening_choice
+    audioText: Al cabo de una hora volvió.
+    question: מה אומרים?
+    options:
+    - כעבור שעה הוא חזר
+    - הוא חזר מיד
+    - הוא לא חזר
+    correct: 0
+    lexemes:
+    - al-cabo-de
+    - hora
+    - volver
+  - id: u45-l1-23
+    type: translate
+    direction: to_target
+    prompt: פתאום שמעתי רעש.
+    answers:
+    - De repente escuché un ruido.
+    lexemes:
+    - de-repente
+    - escuchar
+  - id: u45-l1-24
+    type: translate
+    direction: to_target
+    prompt: ירד גשם והרחוב היה ריק.
+    answers:
+    - Llovía y la calle estaba vacía.
+    lexemes:
+    - ambiente
+  - id: u45-l1-25
+    type: translate
+    direction: to_source
+    prompt: Mientras tanto, ella esperaba.
+    answers:
+    - בינתיים היא חיכתה
+    lexemes:
+    - mientras-tanto
+    - esperar
+  - id: u45-l1-26
+    type: dictation
+    text: De repente escuché un ruido.
+    lexemes:
+    - de-repente
+    - escuchar
+  - id: u45-l1-27
+    type: speak_repeat
+    text: Érase una vez una mujer que caminaba sola.
+    translation: היה היה פעם אישה שהלכה לבד.
+    lexemes:
+    - erase-una-vez
+    - caminar
+- id: u45-l2
+  kind: new
+  title:
+    he: תיאור ודימויים
+    en: Description and imagery
+  exercises:
+  - id: u45-l2-01
+    type: learn
+    lexeme: metafora
+  - id: u45-l2-02
+    type: learn
+    lexeme: simil
+  - id: u45-l2-03
+    type: learn
+    lexeme: vivo
+  - id: u45-l2-04
+    type: learn
+    lexeme: sentirse-p
+  - id: u45-l2-05
+    type: learn
+    lexeme: describir
+  - id: u45-l2-06
+    type: learn
+    lexeme: imaginar
+  - id: u45-l2-07
+    type: match_pairs
+    pairs:
+    - - la metáfora
+      - מטאפורה
+    - - el símil
+      - דימוי
+    - - vívido
+      - חי
+    - - describir
+      - לתאר
+    - - imaginar
+      - לדמיין
+    lexemes:
+    - metafora
+    - simil
+    - vivo
+    - describir
+    - imaginar
+  - id: u45-l2-08
+    type: match_pairs
+    pairs:
+    - - sentirse
+      - להרגיש
+    - - el relato
+      - סיפור
+    - - la trama
+      - עלילה
+    - - el ambiente
+      - אווירה
+    - - el desenlace
+      - סיום
+    lexemes:
+    - sentirse-p
+    - relato
+    - trama
+    - ambiente
+    - desenlace
+  - id: u45-l2-09
+    type: dialogue
+    scene: תיאור סצנה.
+    lines:
+    - speaker: yael
+      text: Caminaba como si flotara, tan cansada como una piedra. En aquel momento sentí que alguien me observaba.
+      translation: הלכתי כאילו ריחפתי, עייפה כמו אבן. באותו רגע הרגשתי שמישהו מתבונן בי.
+    - speaker: herrera
+      text: 'Buen símil: «tan cansada como una piedra». Y «como si flotara» da una imagen viva.'
+      translation: 'דימוי טוב: «עייפה כמו אבן». ו«כאילו ריחפתי» נותן תמונה חיה.'
+  - id: u45-l2-10
+    type: multiple_choice
+    prompt: מה זה 'como si flotara'?
+    options:
+    - כאילו ריחף
+    - כי ריחף
+    - אם ריחף
+    correct: 0
+    lexemes:
+    - simil
+  - id: u45-l2-11
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Caminaba como si flotara.
+    - Caminaba como si flota.
+    - Caminaba como si flotará.
+    correct: 0
+    lexemes:
+    - simil
+  - id: u45-l2-12
+    type: multiple_choice
+    prompt: איזה זמן אחרי 'como si' בסיפור בעבר?
+    options:
+    - סובג'ונקטיב בעבר
+    - הווה
+    - עתיד
+    correct: 0
+    lexemes:
+    - simil
+  - id: u45-l2-13
+    type: listening_choice
+    audioText: Era tan silencioso como una biblioteca.
+    question: מה אומרים?
+    options:
+    - היה שקט כמו ספרייה
+    - היה רועש
+    - היה ריק
+    correct: 0
+    lexemes:
+    - simil
+    - silencioso
+    - biblioteca
+  - id: u45-l2-14
+    type: listening_choice
+    audioText: En aquel momento sentí miedo.
+    question: מה אומרים?
+    options:
+    - באותו רגע הרגשתי פחד
+    - התחלתי לצחוק
+    - נרדמתי
+    correct: 0
+    lexemes:
+    - en-aquel-momento
+    - sentirse-p
+    - miedo
+  - id: u45-l2-15
+    type: fill_blank
+    sentence: Caminaba como si ___. (flotar)
+    translation: הלכה כאילו ריחפה.
+    answers:
+    - flotara
+    options:
+    - flotara
+    - flota
+    - flotó
+    lexemes:
+    - simil
+  - id: u45-l2-16
+    type: fill_blank
+    sentence: Era ___ silencioso como una piedra.
+    translation: היה שקט כמו אבן.
+    answers:
+    - tan
+    options:
+    - tan
+    - tanto
+    - más
+    lexemes:
+    - simil
+  - id: u45-l2-17
+    type: fill_blank
+    sentence: ___ vez, había una casa. (Érase)
+    translation: היה היה פעם בית.
+    answers:
+    - Érase una
+    options:
+    - Érase una
+    - Era una
+    - Eres una
+    lexemes:
+    - erase-una-vez
+  - id: u45-l2-18
+    type: fill_blank
+    sentence: ___ una hora, llegó. (כעבור)
+    translation: כעבור שעה הוא הגיע.
+    answers:
+    - Al cabo de
+    options:
+    - Al cabo de
+    - Antes de
+    - Para
+    lexemes:
+    - al-cabo-de
+    - llegar
+  - id: u45-l2-19
+    type: word_bank
+    prompt: פתאום החשיך.
+    answers:
+    - De repente oscureció.
+    distractors:
+    - De repente oscurecía
+    lexemes:
+    - de-repente
+  - id: u45-l2-20
+    type: word_bank
+    prompt: בינתיים היא חיכתה.
+    answers:
+    - Mientras tanto, esperaba.
+    distractors:
+    - Mientras tanto, esperó ayer
+    lexemes:
+    - mientras-tanto
+    - esperar
+  - id: u45-l2-21
+    type: translate
+    direction: to_target
+    prompt: היא הלכה כאילו ריחפה.
+    answers:
+    - Caminaba como si flotara.
+    lexemes:
+    - simil
+    - caminar
+  - id: u45-l2-22
+    type: translate
+    direction: to_source
+    prompt: Sus ojos eran dos faros.
+    answers:
+    - עיניה היו שני מגדלורים
+    - עיניו היו שני מגדלורים
+    lexemes:
+    - metafora
+  - id: u45-l2-23
+    type: dictation
+    text: Caminaba como si flotara.
+    lexemes:
+    - simil
+    - caminar
+- id: u45-l3
+  kind: grammar
+  title:
+    he: זמנים בסיפור
+    en: Tenses in a story
+  grammar: narrar
+  exercises:
+  - id: u45-l3-01
+    type: fill_blank
+    sentence: Llovía cuando yo ___. (salir – אירוע)
+    translation: ירד גשם כשיצאתי.
+    answers:
+    - salí
+    options:
+    - salí
+    - salía
+    - había salido
+    lexemes:
+    - salir
+  - id: u45-l3-02
+    type: fill_blank
+    sentence: Mientras ___, escuché un ruido. (caminar, yo – רקע)
+    translation: בזמן שהלכתי שמעתי רעש.
+    answers:
+    - caminaba
+    options:
+    - caminaba
+    - caminé
+    - caminaré
+    lexemes:
+    - caminar
+    - escuchar
+  - id: u45-l3-03
+    type: fill_blank
+    sentence: Ya ___ oscurecido cuando llegué. (haber)
+    translation: כבר החשיך כשהגעתי.
+    answers:
+    - había
+    options:
+    - había
+    - ha
+    - hubo
+    lexemes:
+    - llegar
+  - id: u45-l3-04
+    type: fill_blank
+    sentence: De repente ___ la luz. (apagarse)
+    translation: פתאום הלכה האור.
+    answers:
+    - se apagó
+    options:
+    - se apagó
+    - se apagaba
+    - se había apagado
+    lexemes:
+    - de-repente
+    - apagar
+    - luz
+  - id: u45-l3-05
+    type: fill_blank
+    sentence: Era una casa vieja y ___ muy oscura. (estar)
+    translation: זה היה בית ישן והוא היה מאוד חשוך.
+    answers:
+    - estaba
+    options:
+    - estaba
+    - estuvo
+    - estaría
+    lexemes:
+    - ambiente
+  - id: u45-l3-06
+    type: fill_blank
+    sentence: Al día siguiente, ella ___ pronto. (salir)
+    translation: למחרת היא יצאה מוקדם.
+    answers:
+    - salió
+    options:
+    - salió
+    - salía
+    - había salido
+    lexemes:
+    - al-dia-siguiente
+    - salir
+  - id: u45-l3-07
+    type: multiple_choice
+    prompt: מה הזמן לפעולה פתאומית?
+    options:
+    - pretérito
+    - imperfecto
+    - futuro
+    correct: 0
+    lexemes:
+    - de-repente
+  - id: u45-l3-08
+    type: multiple_choice
+    prompt: מה הזמן לתיאור אווירה?
+    options:
+    - imperfecto
+    - pretérito
+    - condicional
+    correct: 0
+    lexemes:
+    - ambiente
+  - id: u45-l3-09
+    type: multiple_choice
+    prompt: מה הזמן למה שקרה קודם?
+    options:
+    - pluscuamperfecto
+    - pretérito
+    - futuro
+    correct: 0
+    lexemes:
+    - trama
+  - id: u45-l3-10
+    type: word_bank
+    prompt: בזמן שהלכתי, ראיתי אותו.
+    answers:
+    - Mientras caminaba, lo vi.
+    distractors:
+    - Mientras caminé, lo veía
+    lexemes:
+    - caminar
+    - ver
+  - id: u45-l3-11
+    type: word_bank
+    prompt: כבר החשיך כשהגעתי.
+    answers:
+    - Ya había oscurecido cuando llegué.
+    distractors:
+    - Ya oscurecía cuando había llegado
+    lexemes:
+    - llegar
+  - id: u45-l3-12
+    type: translate
+    direction: to_target
+    prompt: היה גשם ושמעתי רעש.
+    answers:
+    - Llovía y escuché un ruido.
+    lexemes:
+    - escuchar
+  - id: u45-l3-13
+    type: translate
+    direction: to_target
+    prompt: כעבור שעה היא יצאה.
+    answers:
+    - Al cabo de una hora, salió.
+    lexemes:
+    - al-cabo-de
+    - salir
+  - id: u45-l3-14
+    type: translate
+    direction: to_source
+    prompt: Érase una vez una mujer.
+    answers:
+    - היה היה פעם אישה
+    lexemes:
+    - erase-una-vez
+  - id: u45-l3-15
+    type: translate
+    direction: to_source
+    prompt: Poco después, volvió la luz.
+    answers:
+    - זמן קצר אחרי חזר האור
+    lexemes:
+    - poco-despues
+    - volver
+    - luz
+- id: u45-l4
+  kind: reading
+  title:
+    he: סיפור קצר
+    en: A short story
+  exercises:
+  - id: u45-l4-01
+    type: reading
+    kind: סיפור
+    title: La luz de la calle
+    text: 'Era tarde y llovía. La calle estaba vacía; el aire olía a tierra mojada. Caminaba despacio, como si flotara, cuando de repente se apagó la luz.
+
+      En aquel momento recordé que mi madre había dicho: «No salgas sola de noche». Mientras tanto, a lo lejos, una ventana se iluminó.
+
+      Al cabo de unos minutos, alguien abrió la puerta y dijo: «Pasa, te estábamos esperando». Entré sin dudar.
+
+      '
+    translation: 'היה מאוחר וירד גשם. הרחוב היה ריק; האוויר הריח מאדמה רטובה. הלכתי לאט, כאילו ריחפתי, כשפתאום האור כבה.
+
+      באותו רגע נזכרתי שאמא שלי אמרה: «אל תצאי לבד בלילה». בינתיים, ממרחק, חלון הואר.
+
+      כעבור כמה דקות מישהו פתח את הדלת ואמר: «היכנסי, חיכינו לך». נכנסתי בלי להסס.
+
+      '
+  - id: u45-l4-02
+    type: multiple_choice
+    prompt: מה קרה פתאום?
+    options:
+    - האור כבה
+    - התחיל גשם
+    - נסגרה דלת
+    correct: 0
+    lexemes:
+    - de-repente
+    - luz
+    - lluvia
+    - puerta
+  - id: u45-l4-03
+    type: multiple_choice
+    prompt: מה קרה בסוף?
+    options:
+    - הדלת נפתחה והיא נכנסה
+    - היא חזרה הביתה
+    - היא נרדמה
+    correct: 0
+    lexemes:
+    - puerta
+    - casa
+    - dormir
+  - id: u45-l4-04
+    type: fill_blank
+    sentence: Caminaba como si ___. (flotar)
+    translation: הלכתי כאילו ריחפתי.
+    answers:
+    - flotara
+    options:
+    - flotara
+    - flota
+    - flotó
+    lexemes:
+    - simil
+  - id: u45-l4-05
+    type: translate
+    direction: to_target
+    prompt: פתאום האור כבה.
+    answers:
+    - De repente se apagó la luz.
+    lexemes:
+    - de-repente
+    - luz
+- id: u45-review
+  kind: review
+  title:
+    he: 'חזרה: סיפור + כתיבה'
+    en: Review + writing
+  exercises:
+  - id: u45-review-01
+    type: match_pairs
+    pairs:
+    - - la trama
+      - עלילה
+    - - el desenlace
+      - סיום
+    - - el ambiente
+      - אווירה
+    - - la escena
+      - סצנה
+    - - el relato
+      - סיפור
+    lexemes:
+    - trama
+    - desenlace
+    - ambiente
+    - escena
+    - relato
+  - id: u45-review-02
+    type: match_pairs
+    pairs:
+    - - de repente
+      - פתאום
+    - - poco después
+      - זמן קצר אחרי
+    - - mientras tanto
+      - בינתיים
+    - - al cabo de
+      - כעבור
+    - - en aquel momento
+      - באותו רגע
+    lexemes:
+    - de-repente
+    - poco-despues
+    - mientras-tanto
+    - al-cabo-de
+    - en-aquel-momento
+  - id: u45-review-03
+    type: fill_blank
+    sentence: Llovía cuando ___. (llegar, yo)
+    translation: ירד גשם כשהגעתי.
+    answers:
+    - llegué
+    options:
+    - llegué
+    - llegaba
+    - había llegado
+    lexemes:
+    - llegar
+  - id: u45-review-04
+    type: fill_blank
+    sentence: Ya ___ salido cuando llamé. (haber)
+    translation: הוא כבר יצא כשהתקשרתי.
+    answers:
+    - había
+    options:
+    - había
+    - ha
+    - hubo
+    lexemes:
+    - llamar
+    - salir
+  - id: u45-review-05
+    type: multiple_choice
+    prompt: מה פירוש 'como si volara'?
+    options:
+    - כאילו עף
+    - כי עף
+    - אם יעוף
+    correct: 0
+    lexemes:
+    - simil
+  - id: u45-review-06
+    type: listening_choice
+    audioText: Érase una vez una casa vieja.
+    question: מה אומרים?
+    options:
+    - היה היה פעם בית ישן
+    - יש בית חדש
+    - בית נסגר
+    correct: 0
+    lexemes:
+    - erase-una-vez
+    - casa
+  - id: u45-review-07
+    type: word_bank
+    prompt: פתאום שמעתי רעש.
+    answers:
+    - De repente escuché un ruido.
+    distractors:
+    - De repente escuchaba un ruido
+    lexemes:
+    - de-repente
+    - escuchar
+  - id: u45-review-08
+    type: translate
+    direction: to_target
+    prompt: בינתיים היא חיכתה.
+    answers:
+    - Mientras tanto, esperaba.
+    lexemes:
+    - mientras-tanto
+    - esperar
+  - id: u45-review-09
+    type: translate
+    direction: to_source
+    prompt: Era tan silencioso como una biblioteca.
+    answers:
+    - היה שקט כמו ספרייה
+    lexemes:
+    - simil
+    - biblioteca
+  - id: u45-review-10
+    type: dictation
+    text: De repente se apagó la luz.
+    lexemes:
+    - de-repente
+    - luz
+  - id: u45-review-11
+    type: speak_repeat
+    text: Caminaba como si flotara.
+    translation: הלכה כאילו ריחפה.
+    lexemes:
+    - simil
+    - caminar
+  - id: u45-review-12
+    type: write
+    prompt: 'כתבו סיפור קצר (8–10 משפטים) מתאים לכל קהל: פתחו באווירה (imperfecto: llovía, estaba), הוסיפו אירוע פתאומי (de repente + pretérito), הזכירו משהו שקרה קודם (pluscuamperfecto), השתמשו בדימוי (como si… / tan… como) וסיימו עם מחבר זמן (al cabo de / poco después / al final).'
+    minWords: 80
+    checks:
+    - label: רקע ב־imperfecto (llovía, era, estaba, caminaba, había)
+      any:
+      - \b(llovia|era|estaba|caminaba|habia|hacia|tenia|veia|queria|sabia|esperaba)\b
+    - label: אירוע פתאומי (de repente / en aquel momento + pretérito)
+      any:
+      - de repente
+      - en aquel momento
+      - de pronto
+    - label: pluscuamperfecto (había + participio)
+      any:
+      - \bhabia\s+\w+(ado|ido|to|cho)\b
+    - label: דימוי (como si… / tan… como…)
+      any:
+      - como si
+      - tan \w+ como
+      - como un
+      - como una
+    - label: מחבר זמן (al cabo de / poco después / mientras tanto / al final)
+      any:
+      - al cabo de
+      - poco despues
+      - mientras tanto
+      - al final
+      - finalmente
+    model: Era una tarde de invierno y llovía. La calle estaba vacía y yo caminaba despacio, como si flotara. De repente se apagó la luz y escuché un ruido. En aquel momento recordé que mi madre me había dicho que no saliera sola de noche. Mientras tanto, en una ventana lejana se encendió una vela. Poco después, una mujer abrió la puerta y me sonrió. Su voz era tan cálida como una taza de té. Al final entré, y la noche ya no me dio miedo.
+    lexemes: []

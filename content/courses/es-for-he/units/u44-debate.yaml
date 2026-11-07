@@ -1,0 +1,957 @@
+id: u44-debate
+cefr: C1
+scene: study
+title:
+  he: 'לא רק… אלא גם: וויכוח וטיעון'
+  en: Debate and argument
+story: 'בכיתה אונליין מתקיים דיון על החלפת העבודה מהבית בעבודה במשרד. יעל מנסה להשתתף: ''Si bien es cierto que…'', ''No solo… sino también…'', ''Tienes parte de razón, pero…''. היא לומדת לטעון, להסתייג ולהתנגד בנימוס ובביטחון.'
+canDo:
+- 'להציג עמדה ולנמק: en mi opinión, desde mi punto de vista'
+- 'להסכים חלקית ולמתן: si bien, tienes parte de razón, me gustaría matizar'
+- 'להשתמש במבנים רטוריים: no solo… sino también, cuanto más… más, ya sea… o'
+- 'להתנגד בנימוס: no estoy convencida de que + סובג''ונקטיב'
+vocabulary:
+- id: opinar
+  text: opinar
+  translation: להביע דעה
+  pos: verb
+- id: punto-de-vista
+  text: el punto de vista
+  translation: נקודת מבט
+  pos: noun
+- id: postura
+  text: la postura
+  translation: עמדה
+  pos: noun
+- id: ventaja
+  text: la ventaja
+  translation: יתרון
+  pos: noun
+- id: desventaja
+  text: la desventaja
+  translation: חיסרון
+  pos: noun
+- id: a-favor
+  text: a favor
+  translation: בעד
+  pos: phrase
+- id: en-contra
+  text: en contra
+  translation: נגד
+  pos: phrase
+- id: si-bien
+  text: si bien
+  translation: אף ש
+  pos: conjunction
+- id: no-solo
+  text: no solo… sino también
+  translation: לא רק… אלא גם
+  pos: phrase
+- id: cuanto-mas
+  text: cuanto más… más
+  translation: ככל ש… יותר
+  pos: phrase
+- id: ya-sea
+  text: ya sea… o
+  translation: בין אם… ובין אם
+  pos: phrase
+- id: matizar
+  text: matizar
+  translation: למתן, לדייק
+  pos: verb
+- id: parte-razon
+  text: tener parte de razón
+  translation: להיות צודק חלקית
+  pos: phrase
+- id: no-convencido
+  text: no estoy convencido de que
+  translation: אני לא משוכנע ש
+  pos: phrase
+- id: desde-mi
+  text: desde mi punto de vista
+  translation: מנקודת מבטי
+  pos: phrase
+- id: en-mi-opinion
+  text: en mi opinión
+  translation: לדעתי
+  pos: phrase
+- id: refutar
+  text: refutar
+  translation: להפריך
+  pos: verb
+- id: argumentar
+  text: argumentar
+  translation: לטעון, להתווכח
+  pos: verb
+grammar:
+- id: argumentar
+  title:
+    he: טיעון ווויכוח
+    en: Argumentation
+  explanation: 'בעברית אנחנו אומרים "לדעתי", "אמנם… אך", "לא רק… אלא גם". בספרדית:
+
+
+    **להציג עמדה:** *En mi opinión,…* | *Desde mi punto de vista,…* | *Estoy a favor / en contra de…*
+
+    **להסכים חלקית ולמתן:**
+
+    * ***Si bien** es cierto que + אינדיקטיב, + טענה נגדית*: ***Si bien** es cierto que ahorra tiempo, también aísla.*
+
+    * *Tienes **parte de razón**, pero…* | *Me gustaría **matizar**…* (ללמתן, לדייק) | *Hasta cierto punto,…* (עד גבול מסוים)
+
+    **ספק ושלילת תוקף (+ סובג''ונקטיב):** *No estoy convencida de que **sea** mejor.* | *No creo que **tenga** razón.* | *Dudo que **funcione**.*
+
+    **מבנים רטוריים:**
+
+    * ***no solo… sino también***: *No solo ahorra dinero, **sino también** tiempo.*
+
+    * ***cuanto más… más / menos***: ***Cuanto más** practico, **más** aprendo.*
+
+    * ***ya sea… o***: *Ya sea en casa o en la oficina, hay que concentrarse.*
+
+    * *mientras que / en cambio / por el contrario* (לעומת זאת)
+
+    **סיכום:** *En definitiva,…* (בסופו של דבר) | *Por todo ello,…* (בשל כל אלה) | *En resumen,…*
+
+
+    **נימוס בוויכוח:** *Entiendo tu postura, pero…* | *Respeto tu opinión, aunque…* | *¿No crees que…?*
+
+
+    **הערה:** בוויכוח תרבותי, פתחו בהסכמה חלקית לפני שאתם מתנגדים: זה נשמע חכם ומכבד יותר.'
+  examples:
+  - text: Si bien es cierto que trabajar desde casa ahorra tiempo, no estoy convencida de que sea mejor para todos.
+    translation: אמנם עבודה מהבית חוסכת זמן, אך אני לא משוכנעת שזה טוב יותר לכולם.
+  - text: No solo ahorra tiempo, sino también dinero.
+    translation: זה חוסך לא רק זמן אלא גם כסף.
+  - text: Cuanto más practico, más aprendo.
+    translation: ככל שאני מתרגלת יותר, אני לומדת יותר.
+lessons:
+- id: u44-l1
+  kind: new
+  title:
+    he: בעד ונגד
+    en: For and against
+  exercises:
+  - id: u44-l1-01
+    type: dialogue
+    scene: 'דיון בכיתה: עבודה מהבית.'
+    lines:
+    - speaker: mateo
+      text: Estoy a favor de trabajar desde casa. Desde mi punto de vista, ahorra tiempo.
+      translation: אני בעד עבודה מהבית. מנקודת מבטי היא חוסכת זמן.
+    - speaker: yael
+      text: Tienes parte de razón. Si bien es cierto que ahorra tiempo, no estoy convencida de que sea mejor para todos.
+      translation: אתה צודק חלקית. אמנם היא חוסכת זמן, אבל אני לא משוכנעת שהיא טובה יותר לכולם.
+    - speaker: mateo
+      text: ¿Por qué?
+      translation: למה?
+    - speaker: yael
+      text: No solo se pierde el contacto, sino también la rutina.
+      translation: לא רק שאובד הקשר, אלא גם השגרה.
+  - id: u44-l1-02
+    type: learn
+    lexeme: opinar
+  - id: u44-l1-03
+    type: learn
+    lexeme: punto-de-vista
+  - id: u44-l1-04
+    type: learn
+    lexeme: postura
+  - id: u44-l1-05
+    type: learn
+    lexeme: ventaja
+  - id: u44-l1-06
+    type: learn
+    lexeme: desventaja
+  - id: u44-l1-07
+    type: learn
+    lexeme: a-favor
+  - id: u44-l1-08
+    type: learn
+    lexeme: en-contra
+  - id: u44-l1-09
+    type: learn
+    lexeme: si-bien
+  - id: u44-l1-10
+    type: learn
+    lexeme: no-solo
+  - id: u44-l1-11
+    type: learn
+    lexeme: parte-razon
+  - id: u44-l1-12
+    type: learn
+    lexeme: no-convencido
+  - id: u44-l1-13
+    type: learn
+    lexeme: argumentar
+  - id: u44-l1-14
+    type: match_pairs
+    pairs:
+    - - opinar
+      - להביע דעה
+    - - el punto de vista
+      - נקודת מבט
+    - - la postura
+      - עמדה
+    - - la ventaja
+      - יתרון
+    - - la desventaja
+      - חיסרון
+    lexemes:
+    - opinar
+    - punto-de-vista
+    - postura
+    - ventaja
+    - desventaja
+  - id: u44-l1-15
+    type: match_pairs
+    pairs:
+    - - a favor
+      - בעד
+    - - en contra
+      - נגד
+    - - si bien
+      - אף ש
+    - - no solo… sino también
+      - לא רק… אלא גם
+    - - argumentar
+      - לטעון
+    lexemes:
+    - a-favor
+    - en-contra
+    - si-bien
+    - no-solo
+    - argumentar
+  - id: u44-l1-16
+    type: multiple_choice
+    prompt: מה פירוש 'estoy a favor'?
+    options:
+    - אני בעד
+    - אני נגד
+    - אני לא יודע
+    correct: 0
+    lexemes:
+    - a-favor
+  - id: u44-l1-17
+    type: multiple_choice
+    prompt: מה פירוש 'tienes parte de razón'?
+    options:
+    - אתה צודק חלקית
+    - אתה טועה לגמרי
+    - אתה צודק לגמרי
+    correct: 0
+    lexemes:
+    - parte-razon
+  - id: u44-l1-18
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - No estoy convencida de que sea mejor.
+    - No estoy convencida de que es mejor.
+    - No estoy convencida que fue mejor.
+    correct: 0
+    lexemes:
+    - no-convencido
+  - id: u44-l1-19
+    type: listening_choice
+    audioText: Si bien es cierto, no estoy convencida.
+    question: מה אומרים?
+    options:
+    - אמנם נכון, אך אני לא משוכנעת
+    - נכון ואני משוכנעת
+    - לא נכון
+    correct: 0
+    lexemes:
+    - si-bien
+    - no-convencido
+    - cierto
+  - id: u44-l1-20
+    type: listening_choice
+    audioText: No solo ahorra tiempo, sino también dinero.
+    question: מה אומרים?
+    options:
+    - חוסך לא רק זמן אלא גם כסף
+    - חוסך רק זמן
+    - מבזבז כסף
+    correct: 0
+    lexemes:
+    - no-solo
+    - ahorrar
+    - dinero
+  - id: u44-l1-21
+    type: translate
+    direction: to_target
+    prompt: אני בעד.
+    answers:
+    - Estoy a favor.
+    lexemes:
+    - a-favor
+  - id: u44-l1-22
+    type: translate
+    direction: to_target
+    prompt: מנקודת מבטי, זה חשוב.
+    answers:
+    - Desde mi punto de vista, es importante.
+    lexemes:
+    - punto-de-vista
+    - importante
+  - id: u44-l1-23
+    type: translate
+    direction: to_source
+    prompt: Tiene parte de razón.
+    answers:
+    - הוא צודק חלקית
+    - היא צודקת חלקית
+    lexemes:
+    - parte-razon
+  - id: u44-l1-24
+    type: dictation
+    text: No estoy convencida de que sea mejor.
+    lexemes:
+    - no-convencido
+  - id: u44-l1-25
+    type: speak_repeat
+    text: En mi opinión, hay ventajas y desventajas.
+    translation: לדעתי יש יתרונות וחסרונות.
+    lexemes:
+    - ventaja
+    - desventaja
+- id: u44-l2
+  kind: new
+  title:
+    he: למתן ולסכם
+    en: Moderating and concluding
+  exercises:
+  - id: u44-l2-01
+    type: learn
+    lexeme: matizar
+  - id: u44-l2-02
+    type: learn
+    lexeme: refutar
+  - id: u44-l2-03
+    type: learn
+    lexeme: desde-mi
+  - id: u44-l2-04
+    type: learn
+    lexeme: en-mi-opinion
+  - id: u44-l2-05
+    type: learn
+    lexeme: cuanto-mas
+  - id: u44-l2-06
+    type: learn
+    lexeme: ya-sea
+  - id: u44-l2-07
+    type: match_pairs
+    pairs:
+    - - matizar
+      - למתן
+    - - refutar
+      - להפריך
+    - - desde mi punto de vista
+      - מנקודת מבטי
+    - - en mi opinión
+      - לדעתי
+    - - cuanto más… más
+      - ככל ש… יותר
+    lexemes:
+    - matizar
+    - refutar
+    - desde-mi
+    - en-mi-opinion
+    - cuanto-mas
+  - id: u44-l2-08
+    type: match_pairs
+    pairs:
+    - - ya sea… o
+      - בין אם… ובין אם
+    - - la ventaja
+      - יתרון
+    - - la desventaja
+      - חיסרון
+    - - la postura
+      - עמדה
+    - - opinar
+      - להביע דעה
+    lexemes:
+    - ya-sea
+    - ventaja
+    - desventaja
+    - postura
+    - opinar
+  - id: u44-l2-09
+    type: dialogue
+    scene: המשך הדיון.
+    lines:
+    - speaker: sofia
+      text: 'Me gustaría matizar: ya sea en casa o en la oficina, lo importante es la organización.'
+      translation: 'הייתי רוצה למתן: בין אם בבית ובין אם במשרד, החשוב הוא ארגון.'
+    - speaker: yael
+      text: Estoy de acuerdo. Cuanto más organizada estoy, más productiva soy.
+      translation: אני מסכימה. ככל שאני מאורגנת יותר, אני יותר פרודוקטיבית.
+    - speaker: mateo
+      text: Entonces, en definitiva, depende de la persona.
+      translation: אז בסופו של דבר זה תלוי באדם.
+  - id: u44-l2-10
+    type: multiple_choice
+    prompt: מה פירוש 'cuanto más… más'?
+    options:
+    - ככל ש… יותר
+    - פחות… פחות
+    - אחרי… לפני
+    correct: 0
+    lexemes:
+    - cuanto-mas
+  - id: u44-l2-11
+    type: multiple_choice
+    prompt: מה פירוש 'ya sea… o'?
+    options:
+    - בין אם… ובין אם
+    - בגלל… אבל
+    - כש… אז
+    correct: 0
+    lexemes:
+    - ya-sea
+  - id: u44-l2-12
+    type: multiple_choice
+    prompt: מה פירוש 'me gustaría matizar'?
+    options:
+    - הייתי רוצה למתן
+    - הייתי רוצה לחתום
+    - הייתי רוצה לנסוע
+    correct: 0
+    lexemes:
+    - matizar
+  - id: u44-l2-13
+    type: listening_choice
+    audioText: Cuanto más practico, más aprendo.
+    question: מה אומרים?
+    options:
+    - ככל שאתרגל יותר אלמד יותר
+    - אתרגל פחות
+    - לא אלמד
+    correct: 0
+    lexemes:
+    - cuanto-mas
+    - practicar-p
+    - aprender
+  - id: u44-l2-14
+    type: listening_choice
+    audioText: Ya sea en casa o en la oficina.
+    question: מה אומרים?
+    options:
+    - בין אם בבית ובין אם במשרד
+    - רק בבית
+    - רק במשרד
+    correct: 0
+    lexemes:
+    - ya-sea
+    - casa
+    - oficina
+  - id: u44-l2-15
+    type: fill_blank
+    sentence: ___ más practico, más aprendo.
+    translation: ככל שאתרגל יותר אלמד יותר.
+    answers:
+    - Cuanto
+    options:
+    - Cuanto
+    - Cuando
+    - Como
+    lexemes:
+    - cuanto-mas
+  - id: u44-l2-16
+    type: fill_blank
+    sentence: No solo ahorra tiempo, ___ también dinero.
+    translation: זה חוסך לא רק זמן אלא גם כסף.
+    answers:
+    - sino
+    options:
+    - sino
+    - pero
+    - si no
+    lexemes:
+    - no-solo
+    - ahorrar
+  - id: u44-l2-17
+    type: fill_blank
+    sentence: ___ bien es cierto que es caro, es útil.
+    translation: אמנם זה יקר אבל שימושי.
+    answers:
+    - Si
+    options:
+    - Si
+    - Sí
+    - Se
+    lexemes:
+    - si-bien
+    - caro
+  - id: u44-l2-18
+    type: fill_blank
+    sentence: No estoy convencida de que ___ mejor. (ser)
+    translation: אני לא משוכנעת שזה טוב יותר.
+    answers:
+    - sea
+    options:
+    - sea
+    - es
+    - fue
+    lexemes:
+    - no-convencido
+    - mejor
+  - id: u44-l2-19
+    type: word_bank
+    prompt: לדעתי, זה חשוב.
+    answers:
+    - En mi opinión, es importante.
+    distractors:
+    - En mi opinión es importante ayer
+    lexemes:
+    - en-mi-opinion
+    - importante
+  - id: u44-l2-20
+    type: word_bank
+    prompt: הוא צודק חלקית.
+    answers:
+    - Tiene parte de razón.
+    distractors:
+    - Tienes parte de razón ella
+    lexemes:
+    - parte-razon
+  - id: u44-l2-21
+    type: translate
+    direction: to_target
+    prompt: ככל שאלמד יותר, אדע יותר.
+    answers:
+    - Cuanto más estudio, más sé.
+    lexemes:
+    - cuanto-mas
+    - estudiar
+    - saber
+  - id: u44-l2-22
+    type: translate
+    direction: to_source
+    prompt: Entiendo tu postura, pero no estoy de acuerdo.
+    answers:
+    - אני מבין את עמדתך, אבל אני לא מסכים
+    - אני מבינה את עמדתך, אבל אני לא מסכימה
+    lexemes:
+    - postura
+    - de-acuerdo
+  - id: u44-l2-23
+    type: dictation
+    text: Cuanto más practico, más aprendo.
+    lexemes:
+    - cuanto-mas
+- id: u44-l3
+  kind: grammar
+  title:
+    he: מבנים רטוריים
+    en: Rhetorical structures
+  grammar: argumentar
+  exercises:
+  - id: u44-l3-01
+    type: fill_blank
+    sentence: ___ ahorra tiempo, sino también dinero. (לא רק)
+    translation: זה חוסך לא רק זמן אלא גם כסף.
+    answers:
+    - No solo
+    options:
+    - No solo
+    - Solo no
+    - No sino
+    lexemes:
+    - no-solo
+    - ahorrar
+  - id: u44-l3-02
+    type: fill_blank
+    sentence: Si bien es cierto que ___ caro, es bueno. (ser)
+    translation: אמנם זה יקר, אבל זה טוב.
+    answers:
+    - es
+    options:
+    - es
+    - sea
+    - fue
+    lexemes:
+    - si-bien
+    - caro
+  - id: u44-l3-03
+    type: fill_blank
+    sentence: No estoy convencida de que ___ razón. (tener, él)
+    translation: אני לא משוכנעת שהוא צודק.
+    answers:
+    - tenga
+    options:
+    - tenga
+    - tiene
+    - tendría
+    lexemes:
+    - no-convencido
+    - tener-razon
+  - id: u44-l3-04
+    type: fill_blank
+    sentence: Cuanto ___ estudio, más aprendo.
+    translation: ככל שאלמד יותר, אלמד יותר.
+    answers:
+    - más
+    options:
+    - más
+    - menos
+    - tan
+    lexemes:
+    - cuanto-mas
+    - estudiar
+  - id: u44-l3-05
+    type: fill_blank
+    sentence: ___ sea en casa o en la oficina, trabajo bien.
+    translation: בין אם בבית ובין אם במשרד, אני עובדת טוב.
+    answers:
+    - Ya
+    options:
+    - Ya
+    - Sí
+    - Si
+    lexemes:
+    - ya-sea
+    - casa
+    - oficina
+  - id: u44-l3-06
+    type: fill_blank
+    sentence: Entiendo tu ___, pero no estoy de acuerdo. (עמדה)
+    translation: אני מבינה את עמדתך, אבל אני לא מסכימה.
+    answers:
+    - postura
+    options:
+    - postura
+    - opinar
+    - ventaja
+    lexemes:
+    - postura
+    - de-acuerdo
+  - id: u44-l3-07
+    type: multiple_choice
+    prompt: מה בא אחרי 'si bien es cierto que'?
+    options:
+    - אינדיקטיב + טענה נגדית
+    - סובג'ונקטיב
+    - מקור
+    correct: 0
+    lexemes:
+    - si-bien
+    - cierto
+  - id: u44-l3-08
+    type: multiple_choice
+    prompt: מה בא אחרי 'no estoy convencida de que'?
+    options:
+    - סובג'ונקטיב
+    - אינדיקטיב
+    - תנאי
+    correct: 0
+    lexemes:
+    - no-convencido
+  - id: u44-l3-09
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Cuanto más trabajo, más cansada estoy.
+    - Cuanto más trabajo, más cansada soy.
+    - Cuando más trabajo, más cansada estoy.
+    correct: 0
+    lexemes:
+    - cuanto-mas
+    - trabajar
+    - cansado-p
+  - id: u44-l3-10
+    type: word_bank
+    prompt: לא רק זמן אלא גם כסף.
+    answers:
+    - No solo tiempo, sino también dinero.
+    distractors:
+    - No solo tiempo pero también dinero
+    lexemes:
+    - no-solo
+    - dinero
+  - id: u44-l3-11
+    type: word_bank
+    prompt: לדעתי, יש יתרונות.
+    answers:
+    - En mi opinión, hay ventajas.
+    distractors:
+    - En mi opinión tiene ventajas ayer
+    lexemes:
+    - en-mi-opinion
+    - ventaja
+  - id: u44-l3-12
+    type: translate
+    direction: to_target
+    prompt: אני לא משוכנעת שזה נכון.
+    answers:
+    - No estoy convencida de que sea cierto.
+    lexemes:
+    - no-convencido
+    - cierto
+  - id: u44-l3-13
+    type: translate
+    direction: to_target
+    prompt: אמנם זה קשה, אבל אפשרי.
+    answers:
+    - Si bien es difícil, es posible.
+    lexemes:
+    - si-bien
+    - dificil
+    - posible
+  - id: u44-l3-14
+    type: translate
+    direction: to_source
+    prompt: Hasta cierto punto, tiene razón.
+    answers:
+    - עד גבול מסוים הוא צודק
+    - עד גבול מסוים היא צודקת
+    lexemes:
+    - tener-razon
+  - id: u44-l3-15
+    type: translate
+    direction: to_source
+    prompt: Me gustaría matizar eso.
+    answers:
+    - הייתי רוצה למתן את זה
+    - הייתי רוצה לדייק את זה
+    lexemes:
+    - matizar
+- id: u44-l4
+  kind: reading
+  title:
+    he: מאמר דעה
+    en: An opinion piece
+  exercises:
+  - id: u44-l4-01
+    type: reading
+    kind: מאמר
+    title: 'Trabajo en casa: ¿sí o no?'
+    text: 'En mi opinión, trabajar desde casa tiene ventajas y desventajas. Si bien es cierto que ahorra tiempo, no estoy convencida de que sea mejor para todos.
+
+      No solo se pierde el contacto con los compañeros, sino también la rutina. Cuanto más tiempo se trabaja sola, más difícil es separar el trabajo de la vida personal.
+
+      En definitiva, ya sea en casa o en la oficina, lo importante es la organización.
+
+      '
+    translation: 'לדעתי, לעבוד מהבית יש יתרונות וחסרונות. אמנם זה חוסך זמן, אך אני לא משוכנעת שזה טוב יותר לכולם.
+
+      לא רק שאובד הקשר עם העמיתים, אלא גם השגרה. ככל שעובדים יותר זמן לבד, קשה יותר להפריד בין עבודה לחיים אישיים.
+
+      בסופו של דבר, בין אם בבית ובין אם במשרד, החשוב הוא ארגון.
+
+      '
+  - id: u44-l4-02
+    type: multiple_choice
+    prompt: מה היתרון שהכותבת מציינת?
+    options:
+    - חיסכון בזמן
+    - שכר גבוה
+    - יותר חופשה
+    correct: 0
+    lexemes:
+    - ventaja
+    - ahorrar
+    - dinero
+  - id: u44-l4-03
+    type: multiple_choice
+    prompt: מה המסקנה?
+    options:
+    - החשוב הוא ארגון
+    - צריך לעבוד רק בבית
+    - צריך לעבוד רק במשרד
+    correct: 0
+    lexemes:
+    - oficina
+    - casa
+  - id: u44-l4-04
+    type: fill_blank
+    sentence: Si ___ es cierto que ahorra tiempo, hay desventajas.
+    translation: אמנם חוסך זמן, יש חסרונות.
+    answers:
+    - bien
+    options:
+    - bien
+    - mal
+    - mejor
+    lexemes:
+    - si-bien
+    - desventaja
+  - id: u44-l4-05
+    type: translate
+    direction: to_target
+    prompt: לדעתי, יש יתרונות וחסרונות.
+    answers:
+    - En mi opinión, hay ventajas y desventajas.
+    lexemes:
+    - en-mi-opinion
+    - ventaja
+    - desventaja
+- id: u44-review
+  kind: review
+  title:
+    he: 'חזרה: טיעון + כתיבה'
+    en: Review + writing
+  exercises:
+  - id: u44-review-01
+    type: match_pairs
+    pairs:
+    - - la ventaja
+      - יתרון
+    - - la desventaja
+      - חיסרון
+    - - la postura
+      - עמדה
+    - - a favor
+      - בעד
+    - - en contra
+      - נגד
+    lexemes:
+    - ventaja
+    - desventaja
+    - postura
+    - a-favor
+    - en-contra
+  - id: u44-review-02
+    type: match_pairs
+    pairs:
+    - - si bien
+      - אף ש
+    - - no solo… sino también
+      - לא רק… אלא גם
+    - - cuanto más… más
+      - ככל ש… יותר
+    - - ya sea… o
+      - בין אם… ובין אם
+    - - matizar
+      - למתן
+    lexemes:
+    - si-bien
+    - no-solo
+    - cuanto-mas
+    - ya-sea
+    - matizar
+  - id: u44-review-03
+    type: fill_blank
+    sentence: No estoy convencida de que ___ mejor. (ser)
+    translation: אני לא משוכנעת שזה טוב יותר.
+    answers:
+    - sea
+    options:
+    - sea
+    - es
+    - fue
+    lexemes:
+    - no-convencido
+    - mejor
+  - id: u44-review-04
+    type: fill_blank
+    sentence: ___ más practico, más aprendo.
+    translation: ככל שאתרגל יותר אלמד יותר.
+    answers:
+    - Cuanto
+    options:
+    - Cuanto
+    - Cuando
+    - Como
+    lexemes:
+    - cuanto-mas
+  - id: u44-review-05
+    type: multiple_choice
+    prompt: מה פירוש 'tiene parte de razón'?
+    options:
+    - צודק חלקית
+    - צודק לגמרי
+    - טועה לגמרי
+    correct: 0
+    lexemes:
+    - parte-razon
+  - id: u44-review-06
+    type: listening_choice
+    audioText: En mi opinión, hay ventajas y desventajas.
+    question: מה אומרים?
+    options:
+    - לדעתי יש יתרונות וחסרונות
+    - אין יתרונות
+    - אין חסרונות
+    correct: 0
+    lexemes:
+    - en-mi-opinion
+    - ventaja
+    - desventaja
+  - id: u44-review-07
+    type: word_bank
+    prompt: אני בעד.
+    answers:
+    - Estoy a favor.
+    distractors:
+    - Estoy en favor ayer
+    lexemes:
+    - a-favor
+  - id: u44-review-08
+    type: translate
+    direction: to_target
+    prompt: לא רק זמן אלא גם כסף.
+    answers:
+    - No solo tiempo, sino también dinero.
+    lexemes:
+    - no-solo
+    - dinero
+  - id: u44-review-09
+    type: translate
+    direction: to_source
+    prompt: Respeto tu postura, aunque no estoy de acuerdo.
+    answers:
+    - אני מכבד את עמדתך, אף שאני לא מסכים
+    - אני מכבדת את עמדתך, אף שאני לא מסכימה
+    lexemes:
+    - postura
+    - de-acuerdo
+  - id: u44-review-10
+    type: dictation
+    text: Si bien es cierto, no estoy convencida.
+    lexemes:
+    - si-bien
+    - no-convencido
+  - id: u44-review-11
+    type: speak_repeat
+    text: En definitiva, depende de la persona.
+    translation: בסופו של דבר זה תלוי באדם.
+    lexemes:
+    - opinar
+  - id: u44-review-12
+    type: write
+    prompt: 'כתבו מאמר דעה קצר (6–8 משפטים) בעד או נגד טענה שבחרתם (למשל: לימוד אונליין, עבודה מהבית, לימוד שפות מוקדם). הציגו עמדה (en mi opinión / estoy a favor / en contra), הסכימו חלקית (si bien es cierto que / tiene parte de razón), הסתייגו (no estoy convencida de que + סובג''ונקטיב), ועשו שימוש ב־no solo… sino también או cuanto más… más, וסיימו ב־en definitiva.'
+    minWords: 70
+    checks:
+    - label: עמדה (en mi opinión / desde mi punto de vista / estoy a favor / en contra)
+      any:
+      - en mi opinion
+      - desde mi punto de vista
+      - estoy a favor
+      - estoy en contra
+      - a favor
+      - en contra
+    - label: הסכמה חלקית או מתן (si bien es cierto / parte de razón / matizar)
+      any:
+      - si bien
+      - parte de razon
+      - matizar
+      - hasta cierto punto
+    - label: הסתייגות עם סובג'ונקטיב (no estoy convencida de que / no creo que)
+      any:
+      - no estoy convencida de que
+      - no estoy convencido de que
+      - no creo que
+      - dudo que
+    - label: מבנה רטורי (no solo… sino también / cuanto más / ya sea / en definitiva)
+      any:
+      - no solo
+      - cuanto mas
+      - ya sea
+      - en definitiva
+      - en resumen
+      - por todo ello
+    model: En mi opinión, estudiar en línea tiene ventajas y desventajas. Si bien es cierto que ahorra tiempo y dinero, no estoy convencida de que sea la mejor opción para todos. Tiene parte de razón quien dice que se pierde el contacto con los compañeros. No solo se pierde el contacto, sino también la motivación. Cuanto más tiempo se estudia sola, más difícil es mantener la constancia. En definitiva, ya sea en línea o en el aula, lo importante es la disciplina.
+    lexemes: []
