@@ -1,0 +1,1054 @@
+id: u00c-palabras
+cefr: A0
+scene: travel
+title:
+  he: מילים שאתם כבר מכירים
+  en: Words you already know
+story: יעל נוחתת במקסיקו. היא מגלה שהיא כבר מבינה הרבה מילים בספרדית, כי הן דומות לעברית ולאנגלית.
+canDo:
+- לקרוא ולהבין כ־24 מילים בינלאומיות בספרדית
+- לדעת מתי להשתמש ב־el ומתי ב־la
+- לקרוא סימני הטעמה ופיסוק הפוך (¿ ¡)
+vocabulary:
+- id: hotel
+  text: el hotel
+  translation: מלון
+  pos: noun
+  pronunciation: אֶל הוֹטֶל
+  example:
+    text: El hotel está en el centro.
+    translation: המלון נמצא במרכז.
+- id: banco
+  text: el banco
+  translation: בנק
+  pos: noun
+  pronunciation: אֶל בַּנְקוֹ
+  example:
+    text: El banco abre a las nueve.
+    translation: הבנק נפתח בתשע.
+- id: familia
+  text: la familia
+  translation: משפחה
+  pos: noun
+  pronunciation: לָה פָמִילְיָה
+  example:
+    text: Mi familia es grande.
+    translation: המשפחה שלי גדולה.
+- id: musica
+  text: la música
+  translation: מוזיקה
+  pos: noun
+  pronunciation: לָה מוּסִיקָה
+  example:
+    text: Me gusta la música.
+    translation: אני אוהב מוזיקה.
+- id: restaurante
+  text: el restaurante
+  translation: מסעדה
+  pos: noun
+  pronunciation: אֶל רֶסְטָאוּרַנְטֶה
+  example:
+    text: El restaurante es kosher.
+    translation: המסעדה כשרה.
+- id: hospital
+  text: el hospital
+  translation: בית חולים
+  pos: noun
+  pronunciation: אֶל אוֹספִּיטָל
+  example:
+    text: El hospital está cerca.
+    translation: בית החולים קרוב.
+- id: telefono
+  text: el teléfono
+  translation: טלפון
+  pos: noun
+  pronunciation: אֶל טֶלֶפוֹנוֹ
+  example:
+    text: Mi teléfono no funciona.
+    translation: הטלפון שלי לא עובד.
+- id: taxi
+  text: el taxi
+  translation: מונית
+  pos: noun
+  pronunciation: אֶל טַקְסִי
+  example:
+    text: Necesito un taxi.
+    translation: אני צריך מונית.
+- id: cafe
+  text: el café
+  translation: קפה
+  pos: noun
+  pronunciation: אֶל קָפֶה
+  example:
+    text: Un café, por favor.
+    translation: קפה, בבקשה.
+- id: chocolate
+  text: el chocolate
+  translation: שוקולד
+  pos: noun
+  pronunciation: אֶל צ'וֹקוֹלָטֶה
+  example:
+    text: Me encanta el chocolate.
+    translation: אני מת על שוקולד.
+- id: pizza
+  text: la pizza
+  translation: פיצה
+  pos: noun
+  pronunciation: לָה פִּיסָה
+  example:
+    text: La pizza es deliciosa.
+    translation: הפיצה טעימה מאוד.
+- id: futbol
+  text: el fútbol
+  translation: כדורגל
+  pos: noun
+  pronunciation: אֶל פוּטְבּוֹל
+  example:
+    text: El fútbol es popular.
+    translation: כדורגל פופולרי.
+- id: tenis
+  text: el tenis
+  translation: טניס
+  pos: noun
+  pronunciation: אֶל טֶנִיס
+  example:
+    text: Juego al tenis los domingos.
+    translation: אני משחק טניס בימי ראשון.
+- id: turista
+  text: el turista
+  translation: תייר
+  pos: noun
+  pronunciation: אֶל טוּרִיסְטָה
+  example:
+    text: El turista pregunta por el mapa.
+    translation: התייר שואל על המפה.
+- id: doctor
+  text: el doctor
+  translation: רופא
+  pos: noun
+  pronunciation: אֶל דוֹקְטוֹר
+  example:
+    text: El doctor es amable.
+    translation: הרופא אדיב.
+- id: color
+  text: el color
+  translation: צבע
+  pos: noun
+  pronunciation: אֶל קוֹלוֹר
+  example:
+    text: ¿Qué color te gusta?
+    translation: איזה צבע אתה אוהב?
+- id: animal
+  text: el animal
+  translation: בעל חיים
+  pos: noun
+  pronunciation: אֶל אָנִימָל
+  example:
+    text: El perro es un animal.
+    translation: הכלב הוא בעל חיים.
+- id: plan
+  text: el plan
+  translation: תוכנית
+  pos: noun
+  pronunciation: אֶל פְּלָאן
+  example:
+    text: ¿Tienes un plan para hoy?
+    translation: יש לך תוכנית להיום?
+- id: idea
+  text: la idea
+  translation: רעיון
+  pos: noun
+  pronunciation: לָה אִידֶאָה
+  example:
+    text: Es una buena idea.
+    translation: זה רעיון טוב.
+- id: mapa
+  text: el mapa
+  translation: מפה
+  pos: noun
+  pronunciation: אֶל מָפָּה
+  example:
+    text: Necesito un mapa de la ciudad.
+    translation: אני צריך מפה של העיר.
+- id: menu
+  text: el menú
+  translation: תפריט
+  pos: noun
+  pronunciation: אֶל מֶנוּ
+  example:
+    text: ¿Puedo ver el menú?
+    translation: אפשר לראות את התפריט?
+- id: aeropuerto
+  text: el aeropuerto
+  translation: שדה תעופה
+  pos: noun
+  pronunciation: אֶל אָאֶרוֹפּוּאֶרְטוֹ
+  example:
+    text: El aeropuerto es grande.
+    translation: שדה התעופה גדול.
+- id: museo
+  text: el museo
+  translation: מוזיאון
+  pos: noun
+  pronunciation: אֶל מוּסֶאוֹ
+  example:
+    text: El museo abre el domingo.
+    translation: המוזיאון נפתח ביום ראשון.
+- id: parque
+  text: el parque
+  translation: פארק
+  pos: noun
+  pronunciation: אֶל פָּרְקֶה
+  example:
+    text: El parque es bonito.
+    translation: הפארק יפה.
+lessons:
+- id: u00c-l1
+  kind: new
+  title:
+    he: במלון ובעיר
+    en: Words
+  exercises:
+  - id: u00c-l1-01
+    type: dialogue
+    scene: יעל נוחתת בשדה התעופה ופוגשת את מתאו.
+    lines:
+    - speaker: mateo
+      text: ¡Hola! ¿Eres Yael?
+      translation: שלום! את יעל?
+    - speaker: yael
+      text: Sí, soy Yael. ¿Tú eres Mateo?
+      translation: כן, אני יעל. אתה מתאו?
+    - speaker: mateo
+      text: Sí. Bienvenida a México. El taxi está allí.
+      translation: כן. ברוכה הבאה למקסיקו. המונית שם.
+    - speaker: yael
+      text: Gracias. ¿El hotel está cerca?
+      translation: תודה. המלון קרוב?
+  - id: u00c-l1-02
+    type: tip
+    title: כל שם עצם בא עם el או la
+    text: 'בספרדית לכל שם עצם יש **מין**: זכר (**el**) או נקבה (**la**), כמו בעברית. לכן **לומדים כל מילה עם המין שלה**: *el hotel*, *la música*.
+
+      הכלל המועיל: מילים שנגמרות ב־**-o** הן בדרך כלל זכר, וב־**-a** בדרך כלל נקבה. יש יוצאים מן הכלל (*el mapa*, *el día*), ולכן הם מופיעים כאן עם el.
+
+      '
+  - id: u00c-l1-03
+    type: learn
+    lexeme: hotel
+  - id: u00c-l1-04
+    type: learn
+    lexeme: banco
+  - id: u00c-l1-05
+    type: learn
+    lexeme: familia
+  - id: u00c-l1-06
+    type: learn
+    lexeme: musica
+  - id: u00c-l1-07
+    type: learn
+    lexeme: restaurante
+  - id: u00c-l1-08
+    type: learn
+    lexeme: hospital
+  - id: u00c-l1-09
+    type: learn
+    lexeme: telefono
+  - id: u00c-l1-10
+    type: learn
+    lexeme: taxi
+  - id: u00c-l1-11
+    type: match_pairs
+    pairs:
+    - - el hotel
+      - מלון
+    - - el banco
+      - בנק
+    - - la familia
+      - משפחה
+    - - la música
+      - מוזיקה
+    - - el restaurante
+      - מסעדה
+    lexemes:
+    - hotel
+    - banco
+    - familia
+    - musica
+    - restaurante
+  - id: u00c-l1-12
+    type: match_pairs
+    pairs:
+    - - la música
+      - מוזיקה
+    - - el restaurante
+      - מסעדה
+    - - el hospital
+      - בית חולים
+    - - el teléfono
+      - טלפון
+    - - el taxi
+      - מונית
+    lexemes:
+    - musica
+    - restaurante
+    - hospital
+    - telefono
+    - taxi
+  - id: u00c-l1-13
+    type: multiple_choice
+    prompt: מה פירוש el hotel?
+    options:
+    - מלון
+    - בנק
+    - משפחה
+    correct: 0
+    lexemes:
+    - hotel
+  - id: u00c-l1-14
+    type: multiple_choice
+    prompt: מה פירוש el banco?
+    options:
+    - בנק
+    - מלון
+    - משפחה
+    correct: 0
+    lexemes:
+    - banco
+  - id: u00c-l1-15
+    type: multiple_choice
+    prompt: מה פירוש la familia?
+    options:
+    - משפחה
+    - מלון
+    - בנק
+    correct: 0
+    lexemes:
+    - familia
+  - id: u00c-l1-16
+    type: multiple_choice
+    prompt: מה פירוש la música?
+    options:
+    - מוזיקה
+    - מלון
+    - בנק
+    correct: 0
+    lexemes:
+    - musica
+  - id: u00c-l1-17
+    type: multiple_choice
+    prompt: מה פירוש el restaurante?
+    options:
+    - מסעדה
+    - מלון
+    - בנק
+    correct: 0
+    lexemes:
+    - restaurante
+  - id: u00c-l1-18
+    type: listening_choice
+    audioText: el hospital
+    question: איזו מילה שמעתם?
+    options:
+    - el hospital
+    - el hotel
+    - el banco
+    correct: 0
+    lexemes:
+    - hospital
+  - id: u00c-l1-19
+    type: listening_choice
+    audioText: el teléfono
+    question: איזו מילה שמעתם?
+    options:
+    - el teléfono
+    - el hotel
+    - el banco
+    correct: 0
+    lexemes:
+    - telefono
+  - id: u00c-l1-20
+    type: listening_choice
+    audioText: el taxi
+    question: איזו מילה שמעתם?
+    options:
+    - el taxi
+    - el hotel
+    - el banco
+    correct: 0
+    lexemes:
+    - taxi
+  - id: u00c-l1-21
+    type: dictation
+    text: hospital
+    lexemes:
+    - hospital
+  - id: u00c-l1-22
+    type: dictation
+    text: teléfono
+    lexemes:
+    - telefono
+  - id: u00c-l1-23
+    type: dictation
+    text: taxi
+    lexemes:
+    - taxi
+  - id: u00c-l1-24
+    type: speak_repeat
+    text: El hotel está en el centro.
+    translation: המלון נמצא במרכז.
+    lexemes:
+    - hotel
+- id: u00c-l2
+  kind: new
+  title:
+    he: אוכל, ספורט ואנשים
+    en: Words
+  exercises:
+  - id: u00c-l2-01
+    type: tip
+    title: סימני ההטעמה
+    text: 'בספרדית **ההטעמה** נופלת בדרך כלל על ההברה לפני האחרונה (*música* – המוּ, *familia* – המִי). כשהיא נופלת במקום אחר, **כותבים סימן הטעמה (´)**: *café*, *teléfono*, *fútbol*.
+
+      הסימן לא משנה את הצליל של האות, רק מראה איפה מדגישים.
+
+      '
+  - id: u00c-l2-02
+    type: learn
+    lexeme: cafe
+  - id: u00c-l2-03
+    type: learn
+    lexeme: chocolate
+  - id: u00c-l2-04
+    type: learn
+    lexeme: pizza
+  - id: u00c-l2-05
+    type: learn
+    lexeme: futbol
+  - id: u00c-l2-06
+    type: learn
+    lexeme: tenis
+  - id: u00c-l2-07
+    type: learn
+    lexeme: turista
+  - id: u00c-l2-08
+    type: learn
+    lexeme: doctor
+  - id: u00c-l2-09
+    type: learn
+    lexeme: color
+  - id: u00c-l2-10
+    type: match_pairs
+    pairs:
+    - - el café
+      - קפה
+    - - el chocolate
+      - שוקולד
+    - - la pizza
+      - פיצה
+    - - el fútbol
+      - כדורגל
+    - - el tenis
+      - טניס
+    lexemes:
+    - cafe
+    - chocolate
+    - pizza
+    - futbol
+    - tenis
+  - id: u00c-l2-11
+    type: match_pairs
+    pairs:
+    - - el fútbol
+      - כדורגל
+    - - el tenis
+      - טניס
+    - - el turista
+      - תייר
+    - - el doctor
+      - רופא
+    - - el color
+      - צבע
+    lexemes:
+    - futbol
+    - tenis
+    - turista
+    - doctor
+    - color
+  - id: u00c-l2-12
+    type: multiple_choice
+    prompt: מה פירוש el café?
+    options:
+    - קפה
+    - שוקולד
+    - פיצה
+    correct: 0
+    lexemes:
+    - cafe
+  - id: u00c-l2-13
+    type: multiple_choice
+    prompt: מה פירוש el chocolate?
+    options:
+    - שוקולד
+    - קפה
+    - פיצה
+    correct: 0
+    lexemes:
+    - chocolate
+  - id: u00c-l2-14
+    type: multiple_choice
+    prompt: מה פירוש la pizza?
+    options:
+    - פיצה
+    - קפה
+    - שוקולד
+    correct: 0
+    lexemes:
+    - pizza
+  - id: u00c-l2-15
+    type: multiple_choice
+    prompt: מה פירוש el fútbol?
+    options:
+    - כדורגל
+    - קפה
+    - שוקולד
+    correct: 0
+    lexemes:
+    - futbol
+  - id: u00c-l2-16
+    type: multiple_choice
+    prompt: מה פירוש el tenis?
+    options:
+    - טניס
+    - קפה
+    - שוקולד
+    correct: 0
+    lexemes:
+    - tenis
+  - id: u00c-l2-17
+    type: listening_choice
+    audioText: el turista
+    question: איזו מילה שמעתם?
+    options:
+    - el turista
+    - el café
+    - el chocolate
+    correct: 0
+    lexemes:
+    - turista
+  - id: u00c-l2-18
+    type: listening_choice
+    audioText: el doctor
+    question: איזו מילה שמעתם?
+    options:
+    - el doctor
+    - el café
+    - el chocolate
+    correct: 0
+    lexemes:
+    - doctor
+  - id: u00c-l2-19
+    type: listening_choice
+    audioText: el color
+    question: איזו מילה שמעתם?
+    options:
+    - el color
+    - el café
+    - el chocolate
+    correct: 0
+    lexemes:
+    - color
+  - id: u00c-l2-20
+    type: dictation
+    text: turista
+    lexemes:
+    - turista
+  - id: u00c-l2-21
+    type: dictation
+    text: doctor
+    lexemes:
+    - doctor
+  - id: u00c-l2-22
+    type: dictation
+    text: color
+    lexemes:
+    - color
+  - id: u00c-l2-23
+    type: speak_repeat
+    text: Un café, por favor.
+    translation: קפה, בבקשה.
+    lexemes:
+    - cafe
+- id: u00c-l3
+  kind: new
+  title:
+    he: דברים ומקומות
+    en: Words
+  exercises:
+  - id: u00c-l3-01
+    type: tip
+    title: שאלות וקריאות
+    text: 'בספרדית **פותחים וגם סוגרים** משפטי שאלה וקריאה: **¿Cómo estás?** **¡Hola!**
+
+      הסימן ההפוך בתחילת המשפט עוזר לדעת מראש שזו שאלה. כשכותבים באתר אפשר ללחוץ על המקשים המיוחדים ¿ ו־¡.
+
+      '
+  - id: u00c-l3-02
+    type: learn
+    lexeme: animal
+  - id: u00c-l3-03
+    type: learn
+    lexeme: plan
+  - id: u00c-l3-04
+    type: learn
+    lexeme: idea
+  - id: u00c-l3-05
+    type: learn
+    lexeme: mapa
+  - id: u00c-l3-06
+    type: learn
+    lexeme: menu
+  - id: u00c-l3-07
+    type: learn
+    lexeme: aeropuerto
+  - id: u00c-l3-08
+    type: learn
+    lexeme: museo
+  - id: u00c-l3-09
+    type: learn
+    lexeme: parque
+  - id: u00c-l3-10
+    type: match_pairs
+    pairs:
+    - - el animal
+      - בעל חיים
+    - - el plan
+      - תוכנית
+    - - la idea
+      - רעיון
+    - - el mapa
+      - מפה
+    - - el menú
+      - תפריט
+    lexemes:
+    - animal
+    - plan
+    - idea
+    - mapa
+    - menu
+  - id: u00c-l3-11
+    type: match_pairs
+    pairs:
+    - - el mapa
+      - מפה
+    - - el menú
+      - תפריט
+    - - el aeropuerto
+      - שדה תעופה
+    - - el museo
+      - מוזיאון
+    - - el parque
+      - פארק
+    lexemes:
+    - mapa
+    - menu
+    - aeropuerto
+    - museo
+    - parque
+  - id: u00c-l3-12
+    type: multiple_choice
+    prompt: מה פירוש el animal?
+    options:
+    - בעל חיים
+    - תוכנית
+    - רעיון
+    correct: 0
+    lexemes:
+    - animal
+  - id: u00c-l3-13
+    type: multiple_choice
+    prompt: מה פירוש el plan?
+    options:
+    - תוכנית
+    - בעל חיים
+    - רעיון
+    correct: 0
+    lexemes:
+    - plan
+  - id: u00c-l3-14
+    type: multiple_choice
+    prompt: מה פירוש la idea?
+    options:
+    - רעיון
+    - בעל חיים
+    - תוכנית
+    correct: 0
+    lexemes:
+    - idea
+  - id: u00c-l3-15
+    type: multiple_choice
+    prompt: מה פירוש el mapa?
+    options:
+    - מפה
+    - בעל חיים
+    - תוכנית
+    correct: 0
+    lexemes:
+    - mapa
+  - id: u00c-l3-16
+    type: multiple_choice
+    prompt: מה פירוש el menú?
+    options:
+    - תפריט
+    - בעל חיים
+    - תוכנית
+    correct: 0
+    lexemes:
+    - menu
+  - id: u00c-l3-17
+    type: listening_choice
+    audioText: el aeropuerto
+    question: איזו מילה שמעתם?
+    options:
+    - el aeropuerto
+    - el animal
+    - el plan
+    correct: 0
+    lexemes:
+    - aeropuerto
+  - id: u00c-l3-18
+    type: listening_choice
+    audioText: el museo
+    question: איזו מילה שמעתם?
+    options:
+    - el museo
+    - el animal
+    - el plan
+    correct: 0
+    lexemes:
+    - museo
+  - id: u00c-l3-19
+    type: listening_choice
+    audioText: el parque
+    question: איזו מילה שמעתם?
+    options:
+    - el parque
+    - el animal
+    - el plan
+    correct: 0
+    lexemes:
+    - parque
+  - id: u00c-l3-20
+    type: dictation
+    text: aeropuerto
+    lexemes:
+    - aeropuerto
+  - id: u00c-l3-21
+    type: dictation
+    text: museo
+    lexemes:
+    - museo
+  - id: u00c-l3-22
+    type: dictation
+    text: parque
+    lexemes:
+    - parque
+  - id: u00c-l3-23
+    type: speak_repeat
+    text: El perro es un animal.
+    translation: הכלב הוא בעל חיים.
+    lexemes:
+    - animal
+- id: u00c-review
+  kind: review
+  title:
+    he: 'חזרה: מילים בינלאומיות'
+    en: 'Review: familiar words'
+  exercises:
+  - id: u00c-review-01
+    type: match_pairs
+    pairs:
+    - - el hotel
+      - מלון
+    - - el banco
+      - בנק
+    - - la familia
+      - משפחה
+    - - la música
+      - מוזיקה
+    - - el restaurante
+      - מסעדה
+    lexemes:
+    - hotel
+    - banco
+    - familia
+    - musica
+    - restaurante
+  - id: u00c-review-02
+    type: match_pairs
+    pairs:
+    - - el café
+      - קפה
+    - - el chocolate
+      - שוקולד
+    - - la pizza
+      - פיצה
+    - - el fútbol
+      - כדורגל
+    - - el tenis
+      - טניס
+    lexemes:
+    - cafe
+    - chocolate
+    - pizza
+    - futbol
+    - tenis
+  - id: u00c-review-03
+    type: match_pairs
+    pairs:
+    - - el animal
+      - בעל חיים
+    - - el plan
+      - תוכנית
+    - - la idea
+      - רעיון
+    - - el mapa
+      - מפה
+    - - el menú
+      - תפריט
+    lexemes:
+    - animal
+    - plan
+    - idea
+    - mapa
+    - menu
+  - id: u00c-review-04
+    type: multiple_choice
+    prompt: איזה מילה היא נקבה?
+    options:
+    - la música
+    - el banco
+    - el plan
+    correct: 0
+    lexemes:
+    - musica
+  - id: u00c-review-05
+    type: multiple_choice
+    prompt: איזה מילה היא זכר?
+    options:
+    - el color
+    - la idea
+    - la familia
+    correct: 0
+    lexemes:
+    - color
+  - id: u00c-review-06
+    type: listening_choice
+    audioText: el aeropuerto
+    question: איזו מילה שמעתם?
+    options:
+    - el aeropuerto
+    - el aeroplano
+    - el aeropuerta
+    correct: 0
+    lexemes:
+    - aeropuerto
+  - id: u00c-review-07
+    type: listening_choice
+    audioText: el teléfono
+    question: איזו מילה שמעתם?
+    options:
+    - el teléfono
+    - el telefón
+    - la teléfona
+    correct: 0
+    lexemes:
+    - telefono
+  - id: u00c-review-08
+    type: word_bank
+    prompt: אני צריך מונית.
+    answers:
+    - Necesito un taxi.
+    distractors:
+    - una
+    - taxis
+    lexemes:
+    - taxi
+  - id: u00c-review-09
+    type: translate
+    direction: to_target
+    prompt: המלון קרוב.
+    answers:
+    - El hotel está cerca.
+    lexemes:
+    - hotel
+  - id: u00c-review-10
+    type: translate
+    direction: to_source
+    prompt: La pizza es deliciosa.
+    answers:
+    - הפיצה טעימה מאוד.
+    - הפיצה טעימה.
+    lexemes:
+    - pizza
+  - id: u00c-review-11
+    type: dictation
+    text: el museo
+    lexemes:
+    - museo
+  - id: u00c-review-12
+    type: speak_repeat
+    text: ¿Puedo ver el menú?
+    translation: אפשר לראות את התפריט?
+    lexemes:
+    - menu
+- id: a0-test
+  kind: test
+  title:
+    he: מבחן A0
+    en: A0 level test
+  exercises:
+  - id: a0-test-01
+    type: multiple_choice
+    prompt: איך קוראים לאות J?
+    options:
+    - jota
+    - hache
+    - ye
+    correct: 0
+    lexemes:
+    - l-j
+  - id: a0-test-02
+    type: multiple_choice
+    prompt: איך נקראת המילה hola?
+    options:
+    - אוֹלָה
+    - חוֹלָה
+    - הוֹלָה
+    correct: 0
+    lexemes:
+    - s-h-silent
+  - id: a0-test-03
+    type: multiple_choice
+    prompt: איזה צליל מתחיל cine?
+    options:
+    - ס'
+    - ק'
+    - צ'
+    correct: 0
+    lexemes:
+    - s-c-s
+  - id: a0-test-04
+    type: multiple_choice
+    prompt: איזה צליל מתחיל gente?
+    options:
+    - ח'
+    - ג'
+    - ז'
+    correct: 0
+    lexemes:
+    - s-g-j
+  - id: a0-test-05
+    type: multiple_choice
+    prompt: מה פירוש pero?
+    options:
+    - אבל
+    - כלב
+    - שנה
+    correct: 0
+    lexemes:
+    - s-r-tap
+  - id: a0-test-06
+    type: multiple_choice
+    prompt: איזו מילה פירושה 'שנה'?
+    options:
+    - año
+    - ano
+    - aña
+    correct: 0
+    lexemes:
+    - s-n-tilde
+  - id: a0-test-07
+    type: listening_choice
+    audioText: perro
+    question: איזו מילה שמעתם?
+    options:
+    - perro
+    - pero
+    - pelo
+    correct: 0
+    lexemes:
+    - s-rr
+  - id: a0-test-08
+    type: listening_choice
+    audioText: equis
+    question: איזו אות שמעתם?
+    options:
+    - X x
+    - S s
+    - Z z
+    correct: 0
+    lexemes:
+    - l-x
+  - id: a0-test-09
+    type: multiple_choice
+    prompt: איזו מילה היא נקבה?
+    options:
+    - la música
+    - el banco
+    - el plan
+    correct: 0
+    lexemes:
+    - musica
+  - id: a0-test-10
+    type: multiple_choice
+    prompt: מה פירוש el aeropuerto?
+    options:
+    - שדה תעופה
+    - מלון
+    - בנק
+    correct: 0
+    lexemes:
+    - aeropuerto
+  - id: a0-test-11
+    type: multiple_choice
+    prompt: איך קוראים לסימן ¿?
+    options:
+    - פותח שאלה
+    - סוגר משפט
+    - הטעמה
+    correct: 0
+    lexemes: []
+  - id: a0-test-12
+    type: listening_choice
+    audioText: el restaurante
+    question: איזו מילה שמעתם?
+    options:
+    - el restaurante
+    - el restaurant
+    - la restaurante
+    correct: 0
+    lexemes:
+    - restaurante
+  - id: a0-test-13
+    type: translate
+    direction: to_target
+    prompt: הקפה טוב.
+    answers:
+    - El café es bueno.
+    - El café está bueno.
+    lexemes:
+    - cafe
+  - id: a0-test-14
+    type: translate
+    direction: to_source
+    prompt: ¿Tienes un plan para hoy?
+    answers:
+    - יש לך תוכנית להיום?
+    lexemes:
+    - plan
+  - id: a0-test-15
+    type: dictation
+    text: el teléfono
+    lexemes:
+    - telefono
