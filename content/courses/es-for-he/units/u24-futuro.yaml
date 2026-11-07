@@ -1,0 +1,1105 @@
+id: u24-futuro
+cefr: B1
+scene: work
+title:
+  he: מה יהיה?
+  en: The future
+story: 'סוף שנה. יעל מתכננת את השנה הבאה: פרויקט חדש, טיול משפחתי, שיעורי ספרדית מתקדמים. היא לומדת את העתיד הפשוט (hablaré), הבטחות, חיזויים והסקות.'
+canDo:
+- 'להשתמש בעתיד הפשוט: hablaré, comerás, vivirán'
+- 'לשנן את הפעלים הנפוצים עם גזע לא רגיל: tendré, haré, podré, diré, saldré'
+- 'להבטיח, לחזות ולהסיק: Mañana lloverá. ¿Dónde estará?'
+- להבדיל בין ir a + מקור לבין עתיד פשוט
+vocabulary:
+- id: futuro
+  text: el futuro
+  translation: העתיד
+  pos: noun
+- id: proximo-ano
+  text: el año que viene
+  translation: בשנה הבאה
+  pos: phrase
+- id: dentro-de
+  text: dentro de
+  translation: בעוד (זמן)
+  pos: phrase
+- id: algun-dia
+  text: algún día
+  translation: יום אחד, מתישהו
+  pos: phrase
+- id: prometer
+  text: prometer
+  translation: להבטיח
+  pos: verb
+- id: ofrecer
+  text: ofrecer
+  translation: להציע
+  pos: verb
+- id: planear
+  text: planear
+  translation: לתכנן
+  pos: verb
+- id: mudarse
+  text: mudarse
+  translation: לעבור דירה
+  pos: verb
+- id: crecer
+  text: crecer
+  translation: לגדול
+  pos: verb
+- id: mejorar
+  text: mejorar
+  translation: להשתפר, לשפר
+  pos: verb
+- id: cambiar
+  text: cambiar
+  translation: לשנות
+  pos: verb
+- id: lograr
+  text: lograr
+  translation: להשיג, להצליח
+  pos: verb
+- id: meta
+  text: la meta
+  translation: מטרה
+  pos: noun
+- id: sueno-meta
+  text: el sueño
+  translation: חלום
+  pos: noun
+- id: oportunidad
+  text: la oportunidad
+  translation: הזדמנות
+  pos: noun
+- id: promesa
+  text: la promesa
+  translation: הבטחה
+  pos: noun
+- id: probablemente
+  text: probablemente
+  translation: כנראה
+  pos: adverb
+- id: seguramente
+  text: seguramente
+  translation: בוודאי
+  pos: adverb
+- id: seguro
+  text: seguro / segura
+  translation: בטוח
+  pos: adjective
+- id: tal-vez
+  text: tal vez
+  translation: אולי
+  pos: adverb
+grammar:
+- id: futuro
+  title:
+    he: עתיד פשוט
+    en: The simple future
+  explanation: '**העתיד הפשוט** בנוי מ**מקור + סיומות** (בכל שלוש קבוצות הפעלים אותן סיומות):
+
+
+    | כינוי | סיומת | hablar |
+
+    |---|---|---|
+
+    | yo | **-é** | hablaré |
+
+    | tú | **-ás** | hablarás |
+
+    | él / ella / usted | **-á** | hablará |
+
+    | nosotros | **-emos** | hablaremos |
+
+    | ellos / ustedes | **-án** | hablarán |
+
+
+    **אין צורך להסיר שום דבר:** עוטפים את המקור כמו שהוא.
+
+
+    **גזעים לא רגילים** (הסיומות זהות): tener → **tendr-é**, hacer → **har-é**, poder → **podr-é**, decir → **dir-é**, salir → **saldr-é**, venir → **vendr-é**, poner → **pondr-é**, saber → **sabr-é**, querer → **querr-é**, haber → **habr-á** (יהיה).
+
+
+    **מתי עתיד פשוט ומתי ir a?**
+
+    * *ir a + מקור* — תוכנית קרובה, רצון: *Voy a comer.*
+
+    * עתיד פשוט — הבטחה, חיזוי, החלטה רשמית: *Te llamaré mañana.* | *Mañana lloverá.*
+
+    * **הסקה:** עתיד פשוט גם מבטא ניחוש בהווה: *¿Dónde estará Mateo?* (איפה הוא כבר? / אני תוהה). *Estará en una reunión.*
+
+
+    **מילות עתיד:** *mañana, la próxima semana, el año que viene, dentro de dos meses, algún día.*'
+  examples:
+  - text: El año que viene tendré más responsabilidades.
+    translation: בשנה הבאה יהיו לי יותר אחריות.
+  - text: Te prometo que te llamaré mañana.
+    translation: אני מבטיח לך שאתקשר מחר.
+  - text: ¿Dónde estará mi cartera? Seguramente estará en casa.
+    translation: איפה הארנק שלי? בוודאי בבית.
+lessons:
+- id: u24-l1
+  kind: new
+  title:
+    he: השנה הבאה
+    en: Next year
+  exercises:
+  - id: u24-l1-01
+    type: dialogue
+    scene: פגישת סיכום שנה עם הדוקטור הררה.
+    lines:
+    - speaker: herrera
+      text: Yael, ¿qué planes tienes para el año que viene?
+      translation: יעל, מה התוכניות שלך לשנה הבאה?
+    - speaker: yael
+      text: Trabajaré en el proyecto nuevo y estudiaré español avanzado. También visitaré a mi familia en Israel.
+      translation: אני אעבוד בפרויקט החדש ואלמד ספרדית מתקדמת. וגם אבקר את המשפחה שלי בישראל.
+    - speaker: herrera
+      text: Perfecto. Dentro de seis meses tendremos una evaluación.
+      translation: מצוין. בעוד חצי שנה תהיה לנו הערכה.
+    - speaker: yael
+      text: Estaré lista. Se lo prometo.
+      translation: אהיה מוכנה. אני מבטיחה.
+  - id: u24-l1-02
+    type: learn
+    lexeme: futuro
+  - id: u24-l1-03
+    type: learn
+    lexeme: proximo-ano
+  - id: u24-l1-04
+    type: learn
+    lexeme: dentro-de
+  - id: u24-l1-05
+    type: learn
+    lexeme: algun-dia
+  - id: u24-l1-06
+    type: learn
+    lexeme: prometer
+  - id: u24-l1-07
+    type: learn
+    lexeme: planear
+  - id: u24-l1-08
+    type: learn
+    lexeme: mejorar
+  - id: u24-l1-09
+    type: learn
+    lexeme: cambiar
+  - id: u24-l1-10
+    type: learn
+    lexeme: lograr
+  - id: u24-l1-11
+    type: learn
+    lexeme: meta
+  - id: u24-l1-12
+    type: learn
+    lexeme: promesa
+  - id: u24-l1-13
+    type: match_pairs
+    pairs:
+    - - el futuro
+      - העתיד
+    - - el año que viene
+      - בשנה הבאה
+    - - dentro de
+      - בעוד
+    - - algún día
+      - יום אחד
+    - - la meta
+      - מטרה
+    lexemes:
+    - futuro
+    - proximo-ano
+    - dentro-de
+    - algun-dia
+    - meta
+  - id: u24-l1-14
+    type: match_pairs
+    pairs:
+    - - prometer
+      - להבטיח
+    - - planear
+      - לתכנן
+    - - mejorar
+      - לשפר
+    - - cambiar
+      - לשנות
+    - - lograr
+      - להצליח
+    lexemes:
+    - prometer
+    - planear
+    - mejorar
+    - cambiar
+    - lograr
+  - id: u24-l1-15
+    type: multiple_choice
+    prompt: מה פירוש 'dentro de dos meses'?
+    options:
+    - בעוד חודשיים
+    - לפני חודשיים
+    - חודשיים
+    correct: 0
+    lexemes:
+    - dentro-de
+    - dos
+    - hace-tiempo
+  - id: u24-l1-16
+    type: multiple_choice
+    prompt: מה פירוש 'trabajaré'?
+    options:
+    - אעבוד
+    - עבדתי
+    - אני עובד
+    correct: 0
+    lexemes:
+    - trabajar
+  - id: u24-l1-17
+    type: multiple_choice
+    prompt: איזה משפט הוא הבטחה?
+    options:
+    - Te llamaré mañana.
+    - Te llamé ayer.
+    - Te llamo siempre.
+    correct: 0
+    lexemes:
+    - llamar
+    - manana-adv
+    - ayer
+    - siempre
+  - id: u24-l1-18
+    type: listening_choice
+    audioText: El año que viene estudiaré más.
+    question: מה מתכננים?
+    options:
+    - ללמוד יותר
+    - לעבוד פחות
+    - לנסוע
+    correct: 0
+    lexemes:
+    - proximo-ano
+    - estudiar
+    - trabajar
+    - viajar
+  - id: u24-l1-19
+    type: listening_choice
+    audioText: Dentro de un mes cambiaré de trabajo.
+    question: מתי?
+    options:
+    - בעוד חודש
+    - בעוד שנה
+    - אתמול
+    correct: 0
+    lexemes:
+    - dentro-de
+    - cambiar
+    - trabajo
+    - ayer
+  - id: u24-l1-20
+    type: translate
+    direction: to_target
+    prompt: אעבוד בשנה הבאה.
+    answers:
+    - Trabajaré el año que viene.
+    lexemes:
+    - trabajar
+    - proximo-ano
+  - id: u24-l1-21
+    type: translate
+    direction: to_target
+    prompt: אני מבטיח.
+    answers:
+    - Lo prometo.
+    - Prometo.
+    lexemes:
+    - prometer
+  - id: u24-l1-22
+    type: translate
+    direction: to_source
+    prompt: Algún día lograré mi meta.
+    answers:
+    - יום אחד אשיג את המטרה שלי
+    lexemes:
+    - algun-dia
+    - lograr
+    - meta
+  - id: u24-l1-23
+    type: dictation
+    text: Dentro de un año mejoraré.
+    lexemes:
+    - dentro-de
+    - mejorar
+  - id: u24-l1-24
+    type: speak_repeat
+    text: El año que viene viajaré a Israel.
+    translation: בשנה הבאה אטוס לישראל.
+    lexemes:
+    - proximo-ano
+    - viajar
+    - israel
+- id: u24-l2
+  kind: new
+  title:
+    he: חלומות והזדמנויות
+    en: Dreams and opportunities
+  exercises:
+  - id: u24-l2-01
+    type: learn
+    lexeme: ofrecer
+  - id: u24-l2-02
+    type: learn
+    lexeme: mudarse
+  - id: u24-l2-03
+    type: learn
+    lexeme: crecer
+  - id: u24-l2-04
+    type: learn
+    lexeme: sueno-meta
+  - id: u24-l2-05
+    type: learn
+    lexeme: oportunidad
+  - id: u24-l2-06
+    type: learn
+    lexeme: probablemente
+  - id: u24-l2-07
+    type: learn
+    lexeme: seguramente
+  - id: u24-l2-08
+    type: learn
+    lexeme: seguro
+  - id: u24-l2-09
+    type: learn
+    lexeme: tal-vez
+  - id: u24-l2-10
+    type: match_pairs
+    pairs:
+    - - ofrecer
+      - להציע
+    - - mudarse
+      - לעבור דירה
+    - - crecer
+      - לגדול
+    - - el sueño
+      - חלום
+    - - la oportunidad
+      - הזדמנות
+    lexemes:
+    - ofrecer
+    - mudarse
+    - crecer
+    - sueno-meta
+    - oportunidad
+  - id: u24-l2-11
+    type: match_pairs
+    pairs:
+    - - probablemente
+      - כנראה
+    - - seguramente
+      - בוודאי
+    - - seguro
+      - בטוח
+    - - tal vez
+      - אולי
+    - - la promesa
+      - הבטחה
+    lexemes:
+    - probablemente
+    - seguramente
+    - seguro
+    - tal-vez
+    - promesa
+  - id: u24-l2-12
+    type: dialogue
+    scene: שיחת אפשרויות.
+    lines:
+    - speaker: sofia
+      text: Yael, ¿te mudarás a otro apartamento el año que viene?
+      translation: יעל, תעברי דירה בשנה הבאה?
+    - speaker: yael
+      text: Tal vez. Probablemente me quedaré aquí, porque estoy contenta. Pero si me ofrecen un puesto mejor, lo aceptaré.
+      translation: אולי. כנראה אשאר כאן כי אני מרוצה. אבל אם יציעו לי תפקיד טוב יותר, אקבל.
+    - speaker: sofia
+      text: ¡Qué bien! Seguramente tendrás muchas oportunidades.
+      translation: איזה יופי! בוודאי יהיו לך הרבה הזדמנויות.
+  - id: u24-l2-13
+    type: multiple_choice
+    prompt: מה פירוש 'tal vez'?
+    options:
+    - אולי
+    - בוודאי
+    - אף פעם
+    correct: 0
+    lexemes:
+    - tal-vez
+    - seguramente
+    - nunca
+  - id: u24-l2-14
+    type: multiple_choice
+    prompt: מה פירוש 'seguramente'?
+    options:
+    - בוודאי
+    - כנראה אולי
+    - אף פעם
+    correct: 0
+    lexemes:
+    - seguramente
+    - probablemente
+    - nunca
+  - id: u24-l2-15
+    type: multiple_choice
+    prompt: איזה משפט מבטא הסקה (ניחוש)?
+    options:
+    - ¿Dónde estará Mateo?
+    - ¿Dónde está Mateo?
+    - ¿Dónde estuvo Mateo?
+    correct: 0
+    lexemes:
+    - donde
+    - estar
+  - id: u24-l2-16
+    type: listening_choice
+    audioText: Probablemente llegaré tarde.
+    question: מה אומרים?
+    options:
+    - כנראה אגיע מאוחר
+    - אגיע בוודאי מוקדם
+    - לא אגיע
+    correct: 0
+    lexemes:
+    - probablemente
+    - llegar
+    - tarde-adv
+    - temprano
+  - id: u24-l2-17
+    type: listening_choice
+    audioText: Tal vez me mudaré.
+    question: מה אומרים?
+    options:
+    - אולי אעבור דירה
+    - בוודאי אעבור דירה
+    - עברתי דירה
+    correct: 0
+    lexemes:
+    - tal-vez
+    - mudarse
+    - seguramente
+  - id: u24-l2-18
+    type: fill_blank
+    sentence: Mañana ___ mucho. (llover, עתיד)
+    translation: מחר ירד הרבה גשם.
+    answers:
+    - lloverá
+    options:
+    - lloverá
+    - llueve
+    - llovió
+    lexemes:
+    - manana-adv
+    - llover
+    - mucho
+  - id: u24-l2-19
+    type: fill_blank
+    sentence: El niño ___ pronto. (crecer, עתיד)
+    translation: הילד יגדל מהר.
+    answers:
+    - crecerá
+    options:
+    - crecerá
+    - crece
+    - creció
+    lexemes:
+    - crecer
+    - nino
+    - pronto
+  - id: u24-l2-20
+    type: word_bank
+    prompt: אולי אעבור דירה.
+    answers:
+    - Tal vez me mudaré.
+    distractors:
+    - Me mudo
+    - mudé
+    lexemes:
+    - tal-vez
+    - mudarse
+  - id: u24-l2-21
+    type: translate
+    direction: to_target
+    prompt: בוודאי יהיו לך הזדמנויות.
+    answers:
+    - Seguramente tendrás oportunidades.
+    lexemes:
+    - seguramente
+    - tener
+    - oportunidad
+  - id: u24-l2-22
+    type: translate
+    direction: to_source
+    prompt: Probablemente crecerá mucho.
+    answers:
+    - כנראה הוא יגדל הרבה
+    - כנראה היא תגדל הרבה
+    lexemes:
+    - probablemente
+    - crecer
+    - mucho
+  - id: u24-l2-23
+    type: dictation
+    text: Tal vez tendré una oportunidad.
+    lexemes:
+    - tal-vez
+    - tener
+    - oportunidad
+- id: u24-l3
+  kind: grammar
+  title:
+    he: עתיד פשוט
+    en: Simple future
+  grammar: futuro
+  exercises:
+  - id: u24-l3-01
+    type: fill_blank
+    sentence: Yo ___ mañana. (hablar)
+    translation: אדבר מחר.
+    answers:
+    - hablaré
+    options:
+    - hablaré
+    - hablará
+    - hablo
+    lexemes:
+    - hablar
+    - manana-adv
+  - id: u24-l3-02
+    type: fill_blank
+    sentence: Tú ___ el informe. (escribir)
+    translation: תכתוב את הדוח.
+    answers:
+    - escribirás
+    options:
+    - escribirás
+    - escribirá
+    - escribes
+    lexemes:
+    - escribir
+    - informe
+  - id: u24-l3-03
+    type: fill_blank
+    sentence: Ella ___ en Israel. (vivir)
+    translation: היא תגור בישראל.
+    answers:
+    - vivirá
+    options:
+    - vivirá
+    - vivirán
+    - vive
+    lexemes:
+    - vivir
+    - israel
+  - id: u24-l3-04
+    type: fill_blank
+    sentence: Nosotros ___ a las ocho. (salir)
+    translation: נצא בשמונה.
+    answers:
+    - saldremos
+    options:
+    - saldremos
+    - saldrán
+    - salimos
+    lexemes:
+    - salir
+    - ocho
+  - id: u24-l3-05
+    type: fill_blank
+    sentence: Yo ___ más tiempo. (tener)
+    translation: יהיה לי יותר זמן.
+    answers:
+    - tendré
+    options:
+    - tendré
+    - tendrá
+    - tengo
+    lexemes:
+    - tener
+    - tiempo
+  - id: u24-l3-06
+    type: fill_blank
+    sentence: Mañana yo lo ___ . (hacer)
+    translation: מחר אעשה את זה.
+    answers:
+    - haré
+    options:
+    - haré
+    - hará
+    - hago
+    lexemes:
+    - hacer
+    - manana-adv
+  - id: u24-l3-07
+    type: fill_blank
+    sentence: Ellos no ___ venir. (poder)
+    translation: הם לא יוכלו לבוא.
+    answers:
+    - podrán
+    options:
+    - podrán
+    - podrá
+    - pueden
+    lexemes:
+    - poder
+    - venir
+  - id: u24-l3-08
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Hablaré con él.
+    - Hablarí con él.
+    - Hablaré con él ayer.
+    correct: 0
+    lexemes:
+    - hablar
+    - ayer
+  - id: u24-l3-09
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Tendré una reunión.
+    - Teneré una reunión.
+    - Tendrá yo una reunión.
+    correct: 0
+    lexemes:
+    - tener
+    - reunion
+  - id: u24-l3-10
+    type: multiple_choice
+    prompt: מה ההבדל בין 'Voy a comer' ל־'Comeré'?
+    options:
+    - תוכנית קרובה מול הבטחה / חיזוי
+    - אין הבדל
+    - עבר מול עתיד
+    correct: 0
+    lexemes:
+    - ir
+    - comer
+  - id: u24-l3-11
+    type: word_bank
+    prompt: אני אעבוד בשנה הבאה.
+    answers:
+    - Trabajaré el año que viene.
+    distractors:
+    - Trabajo
+    - trabajé
+    lexemes:
+    - trabajar
+    - proximo-ano
+  - id: u24-l3-12
+    type: word_bank
+    prompt: היא תבוא מחר.
+    answers:
+    - Vendrá mañana.
+    distractors:
+    - Viene
+    - vino
+    lexemes:
+    - venir
+    - manana-adv
+  - id: u24-l3-13
+    type: translate
+    direction: to_target
+    prompt: נעשה את זה.
+    answers:
+    - Lo haremos.
+    lexemes:
+    - hacer
+  - id: u24-l3-14
+    type: translate
+    direction: to_target
+    prompt: הם יגיעו מאוחר.
+    answers:
+    - Llegarán tarde.
+    lexemes:
+    - llegar
+    - tarde-adv
+  - id: u24-l3-15
+    type: translate
+    direction: to_source
+    prompt: ¿Dónde estará mi cartera?
+    answers:
+    - איפה הארנק שלי כבר?
+    - איפה כבר הארנק שלי?
+    - איפה הארנק שלי, אני תוהה?
+    lexemes:
+    - donde
+    - estar
+    - cartera
+  - id: u24-l3-16
+    type: translate
+    direction: to_source
+    prompt: Saldremos a las siete y llegaremos a las nueve.
+    answers:
+    - נצא בשבע ונגיע בתשע
+    lexemes:
+    - salir
+    - siete
+    - llegar
+    - nueve
+- id: u24-l4
+  kind: listening
+  title:
+    he: הבטחות ותחזיות
+    en: Promises and predictions
+  exercises:
+  - id: u24-l4-01
+    type: dialogue
+    scene: סופיה ויעל מדברות על המחר.
+    lines:
+    - speaker: sofia
+      text: ¿Qué tiempo hará mañana?
+      translation: איזה מזג אוויר יהיה מחר?
+    - speaker: yael
+      text: Según el pronóstico, lloverá por la mañana y por la tarde hará sol.
+      translation: לפי התחזית, בבוקר ירד גשם ואחר הצהריים תהיה שמש.
+    - speaker: sofia
+      text: Entonces iremos al parque por la tarde. ¿Vendrás?
+      translation: אז נלך לפארק אחר הצהריים. תבואי?
+    - speaker: yael
+      text: Seguramente sí. Te llamaré cuando salga de la oficina.
+      translation: בוודאי כן. אתקשר אלייך כשאצא מהמשרד.
+  - id: u24-l4-02
+    type: multiple_choice
+    prompt: מה מזג האוויר מחר בבוקר?
+    options:
+    - גשם
+    - שמש
+    - רוח
+    correct: 0
+    lexemes:
+    - llover
+    - sol
+    - viento
+  - id: u24-l4-03
+    type: multiple_choice
+    prompt: מתי ילכו לפארק?
+    options:
+    - אחר הצהריים
+    - בבוקר
+    - בערב
+    correct: 0
+    lexemes:
+    - parque-lugar
+    - tarde-dia
+    - manana-dia
+    - noche
+  - id: u24-l4-04
+    type: multiple_choice
+    prompt: מתי יעל תתקשר?
+    options:
+    - כשתצא מהמשרד
+    - בבוקר
+    - בשבת
+    correct: 0
+    lexemes:
+    - llamar
+    - salir
+    - oficina
+    - manana-dia
+    - sabado
+  - id: u24-l4-05
+    type: listening_choice
+    audioText: Mañana lloverá y hará frío.
+    question: מה תהיה התחזית?
+    options:
+    - גשם וקור
+    - שמש וחום
+    - רוח ושמש
+    correct: 0
+    lexemes:
+    - llover
+    - hace
+    - frio
+    - sol
+    - calor
+    - viento
+  - id: u24-l4-06
+    type: listening_choice
+    audioText: Te prometo que vendré.
+    question: מה מבטיחים?
+    options:
+    - לבוא
+    - לא לבוא
+    - להתקשר
+    correct: 0
+    lexemes:
+    - prometer
+    - venir
+    - llamar
+  - id: u24-l4-07
+    type: dictation
+    text: Mañana saldré temprano.
+    lexemes:
+    - manana-adv
+    - salir
+    - temprano
+  - id: u24-l4-08
+    type: translate
+    direction: to_target
+    prompt: מחר תהיה שמש.
+    answers:
+    - Mañana hará sol.
+    lexemes:
+    - manana-adv
+    - hace
+    - sol
+  - id: u24-l4-09
+    type: speak_repeat
+    text: Mañana te llamaré y saldremos.
+    translation: מחר אתקשר אליך ונצא.
+    lexemes:
+    - manana-adv
+    - llamar
+    - salir
+- id: u24-l5
+  kind: reading
+  title:
+    he: מכתב לעצמי
+    en: A letter to myself
+  exercises:
+  - id: u24-l5-01
+    type: reading
+    kind: מכתב
+    title: Una carta para el año que viene
+    text: 'Querida Yael del futuro:
+
+      El año que viene espero haber logrado muchas metas. Seguramente hablarás español mucho mejor y dirigirás tu propio proyecto.
+
+      Tal vez te mudarás a un apartamento más grande, pero probablemente seguirás visitando a doña Carmen los viernes. ¡No olvides tus promesas!
+
+      '
+    translation: 'יעל מהעתיד היקרה:
+
+      בשנה הבאה אני מקווה שהשגתי הרבה מטרות. בוודאי תדברי ספרדית הרבה יותר טוב ותנהלי פרויקט משלך.
+
+      אולי תעברי לדירה גדולה יותר, אבל כנראה שתמשיכי לבקר את דוניה כרמן בימי שישי. אל תשכחי את ההבטחות שלך!
+
+      '
+  - id: u24-l5-02
+    type: multiple_choice
+    prompt: מה יעל מקווה להשיג?
+    options:
+    - מטרות ופרויקט משלה
+    - כסף
+    - חופשה
+    correct: 0
+    lexemes:
+    - lograr
+    - meta
+    - proyecto
+    - dinero
+  - id: u24-l5-03
+    type: multiple_choice
+    prompt: מה היא כנראה תמשיך לעשות בימי שישי?
+    options:
+    - לבקר את דוניה כרמן
+    - לעבוד מאוחר
+    - לטוס
+    correct: 0
+    lexemes:
+    - probablemente
+    - viernes
+    - trabajar
+    - tarde-adv
+  - id: u24-l5-04
+    type: fill_blank
+    sentence: Tal vez te ___ a un apartamento más grande. (mudarse, עתיד)
+    translation: אולי תעברי לדירה גדולה יותר.
+    answers:
+    - mudarás
+    options:
+    - mudarás
+    - mudas
+    - mudaste
+    lexemes:
+    - tal-vez
+    - mudarse
+    - apartamento
+    - grande
+  - id: u24-l5-05
+    type: translate
+    direction: to_target
+    prompt: אל תשכחי את ההבטחות.
+    answers:
+    - No olvides las promesas.
+    - No olvides tus promesas.
+    lexemes:
+    - olvidar
+    - promesa
+- id: u24-review
+  kind: review
+  title:
+    he: 'חזרה: עתיד + כתיבה'
+    en: 'Review: future + writing'
+  exercises:
+  - id: u24-review-01
+    type: match_pairs
+    pairs:
+    - - la meta
+      - מטרה
+    - - el sueño
+      - חלום
+    - - la promesa
+      - הבטחה
+    - - la oportunidad
+      - הזדמנות
+    - - el futuro
+      - העתיד
+    lexemes:
+    - meta
+    - sueno-meta
+    - promesa
+    - oportunidad
+    - futuro
+  - id: u24-review-02
+    type: match_pairs
+    pairs:
+    - - probablemente
+      - כנראה
+    - - seguramente
+      - בוודאי
+    - - tal vez
+      - אולי
+    - - algún día
+      - יום אחד
+    - - dentro de
+      - בעוד
+    lexemes:
+    - probablemente
+    - seguramente
+    - tal-vez
+    - algun-dia
+    - dentro-de
+  - id: u24-review-03
+    type: fill_blank
+    sentence: Mañana yo ___ la verdad. (decir, עתיד)
+    translation: מחר אומר את האמת.
+    answers:
+    - diré
+    options:
+    - diré
+    - dirá
+    - digo
+    lexemes:
+    - manana-adv
+    - decir
+  - id: u24-review-04
+    type: fill_blank
+    sentence: Nosotros ___ en Israel. (estar, עתיד)
+    translation: נהיה בישראל.
+    answers:
+    - estaremos
+    options:
+    - estaremos
+    - estarán
+    - estamos
+    lexemes:
+    - estar
+    - israel
+  - id: u24-review-05
+    type: multiple_choice
+    prompt: מה פירוש 'Vendrán mañana'?
+    options:
+    - הם יבואו מחר
+    - הם באו אתמול
+    - הם באים כל יום
+    correct: 0
+    lexemes:
+    - venir
+    - manana-adv
+    - ayer
+  - id: u24-review-06
+    type: listening_choice
+    audioText: Te llamaré dentro de una hora.
+    question: מתי יתקשרו?
+    options:
+    - בעוד שעה
+    - אתמול
+    - בעוד שבוע
+    correct: 0
+    lexemes:
+    - llamar
+    - dentro-de
+    - hora
+    - ayer
+    - semana
+  - id: u24-review-07
+    type: word_bank
+    prompt: בשנה הבאה אתקשר.
+    answers:
+    - El año que viene llamaré.
+    distractors:
+    - Llamo
+    - llamé
+    lexemes:
+    - proximo-ano
+    - llamar
+  - id: u24-review-08
+    type: translate
+    direction: to_target
+    prompt: אולי אצא מחר.
+    answers:
+    - Tal vez saldré mañana.
+    lexemes:
+    - tal-vez
+    - salir
+    - manana-adv
+  - id: u24-review-09
+    type: translate
+    direction: to_source
+    prompt: Seguramente tendremos más tiempo.
+    answers:
+    - בוודאי יהיה לנו יותר זמן
+    lexemes:
+    - seguramente
+    - tener
+    - tiempo
+  - id: u24-review-10
+    type: dictation
+    text: Algún día lo lograré.
+    lexemes:
+    - algun-dia
+    - lograr
+  - id: u24-review-11
+    type: speak_repeat
+    text: Te prometo que lo haré.
+    translation: אני מבטיח לך שאעשה את זה.
+    lexemes:
+    - prometer
+    - hacer
+  - id: u24-review-12
+    type: write
+    prompt: 'כתבו על התוכניות שלכם לשנה הבאה: מה תעשו, איפה תהיו ומה כנראה יקרה. השתמשו בעתיד הפשוט.'
+    minWords: 40
+    checks:
+    - label: השתמשתם בעתיד הפשוט (…aré/…erá/…irán)
+      any:
+      - \w+(are|ere|ire|aras|eras|iras|ara|era|ira|aremos|eremos|iremos|aran|eran|iran)\b
+      - \b(tendre|hare|podre|dire|saldre|vendre|pondre|sabre|querre|habra)\b
+    - label: השתמשתם ב־tal vez / probablemente / seguramente
+      any:
+      - tal vez
+      - probablemente
+      - seguramente
+    - label: הזכרתם זמן עתידי (el año que viene, dentro de, mañana, algún día)
+      any:
+      - el ano que viene
+      - dentro de
+      - \bmanana\b
+      - algun dia
+      - proxim
+    - label: הזכרתם עבודה, משפחה או טיול
+      any:
+      - \btrabaj
+      - \bfamilia
+      - \bviaj
+      - \bproyecto
+      - \bvisit
+    model: El año que viene trabajaré en un proyecto nuevo y estudiaré español avanzado. Dentro de seis meses viajaré a Israel para visitar a mi familia. Probablemente me mudaré a un apartamento más grande, y tal vez tendré una oportunidad para dirigir un equipo. Seguramente será un año difícil, pero lo lograré.
+    lexemes: []

@@ -1,0 +1,1123 @@
+id: u21-imperfecto
+cefr: B1
+scene: family
+title:
+  he: כשהייתי קטן
+  en: When I was little
+story: 'ערב שבת בבית של דוניה כרמן. כולם מספרים על הילדות שלהם, ויעל לומדת את זמן העבר השני: ה־imperfecto, שמתאר מה היה רגיל ומה היה מסביב. בעברית אנחנו אומרים ''הייתי הולך'', ובספרדית זה בדיוק ה־imperfecto: iba.'
+canDo:
+- 'לספר על הילדות: Cuando era niña, vivía en…'
+- להשתמש ב־imperfecto להרגלים ולתיאורים בעבר
+- להטות -ar, -er, -ir ואת שלושת החריגים ser, ir, ver
+- 'להשתמש במילות הרגל: siempre, a menudo, cada día, de niño'
+vocabulary:
+- id: infancia
+  text: la infancia
+  translation: ילדות
+  pos: noun
+- id: nino
+  text: el niño / la niña
+  translation: ילד / ילדה
+  pos: noun
+- id: escuela
+  text: la escuela
+  translation: בית ספר
+  pos: noun
+- id: recreo
+  text: el recreo
+  translation: הפסקה
+  pos: noun
+- id: pueblo
+  text: el pueblo
+  translation: כפר, עיירה
+  pos: noun
+- id: vecino
+  text: el vecino / la vecina
+  translation: שכן / שכנה
+  pos: noun
+- id: jugar
+  text: jugar
+  translation: לשחק
+  pos: verb
+  example:
+    text: Jugábamos en el parque.
+    translation: שיחקנו בפארק.
+- id: recordar
+  text: recordar
+  translation: לזכור
+  pos: verb
+- id: extranar
+  text: extrañar
+  translation: להתגעגע ל־
+  pos: verb
+- id: cantar
+  text: cantar
+  translation: לשיר
+  pos: verb
+- id: antes
+  text: antes
+  translation: פעם, לפני כן
+  pos: adverb
+- id: entonces
+  text: entonces
+  translation: אז, באותה תקופה
+  pos: adverb
+- id: a-menudo
+  text: a menudo
+  translation: לעתים קרובות
+  pos: phrase
+- id: cada-dia
+  text: cada día
+  translation: כל יום
+  pos: phrase
+- id: de-nino
+  text: de niño / de niña
+  translation: בילדותי
+  pos: phrase
+- id: mientras
+  text: mientras
+  translation: בזמן ש־
+  pos: conjunction
+- id: cuando-conj
+  text: cuando
+  translation: כש־
+  pos: conjunction
+- id: feliz-i
+  text: la alegría
+  translation: שמחה
+  pos: noun
+- id: cuento
+  text: el cuento
+  translation: סיפור
+  pos: noun
+- id: jardin
+  text: el jardín
+  translation: גינה
+  pos: noun
+grammar:
+- id: imperfecto
+  title:
+    he: 'imperfecto: מה היה רגיל'
+    en: The imperfect
+  explanation: 'ה־**imperfecto** מתאר **רקע, הרגל ותיאור** בעבר, ולא אירוע בודד שנגמר. בעברית נשמע לנו מוכר: "הייתי הולך לבית הספר ברגל", "היה חם ושמשי".
+
+
+    | כינוי | -ar (jugar) | -er / -ir (comer, vivir) |
+
+    |---|---|---|
+
+    | yo | jug**aba** | com**ía** / viv**ía** |
+
+    | tú | jug**abas** | com**ías** / viv**ías** |
+
+    | él / ella / usted | jug**aba** | com**ía** / viv**ía** |
+
+    | nosotros | jug**ábamos** | com**íamos** / viv**íamos** |
+
+    | ellos / ustedes | jug**aban** | com**ían** / viv**ían** |
+
+
+    **רק שלושה חריגים בכל השפה:**
+
+    * **ser:** era, eras, era, éramos, eran
+
+    * **ir:** iba, ibas, iba, íbamos, iban
+
+    * **ver:** veía, veías, veía, veíamos, veían
+
+
+    **מילים שמעידות על imperfecto:** *siempre, a menudo, cada día, todos los días, de niño, antes, entonces, mientras.*
+
+    **דוגמאות:** *De niña vivía en un pueblo pequeño.* (תיאור) | *Cada viernes mi abuela cocinaba.* (הרגל) | *Hacía frío y llovía.* (רקע)
+
+    **לעומת pretérito:** *Ayer fui al parque* (פעם אחת, נגמר) מול *Antes iba al parque cada día* (הרגל).
+
+    שימו לב: בעברית נאמר "הייתי הולך" גם לעבר רגיל וגם ל"פעם הייתי…". זה הרמז שלך ל־imperfecto.'
+  examples:
+  - text: Cuando era niña, vivía en un pueblo pequeño.
+    translation: כשהייתי ילדה גרתי בעיירה קטנה.
+  - text: Mi abuela siempre cantaba mientras cocinaba.
+    translation: סבתא שלי תמיד שרה בזמן שבישלה.
+  - text: Íbamos a la escuela a pie.
+    translation: הלכנו לבית הספר ברגל.
+lessons:
+- id: u21-l1
+  kind: new
+  title:
+    he: הילדות שלי
+    en: My childhood
+  exercises:
+  - id: u21-l1-01
+    type: dialogue
+    scene: ליל שבת בבית של דוניה כרמן, אחרי הסעודה.
+    lines:
+    - speaker: carmen
+      text: Yael, cuéntanos de tu infancia. ¿Dónde vivías?
+      translation: יעל, ספרי לנו על הילדות שלך. איפה גרת?
+    - speaker: yael
+      text: Vivía en una ciudad pequeña en Israel. Mi escuela estaba cerca de mi casa y íbamos a pie.
+      translation: גרתי בעיר קטנה בישראל. בית הספר היה קרוב לבית והלכנו ברגל.
+    - speaker: carmen
+      text: ¿Y qué hacían en el recreo?
+      translation: ומה עשיתם בהפסקה?
+    - speaker: yael
+      text: Jugábamos y cantábamos. Mis abuelos siempre me contaban cuentos.
+      translation: שיחקנו ושרנו. הסבים שלי תמיד סיפרו לי סיפורים.
+  - id: u21-l1-02
+    type: learn
+    lexeme: infancia
+  - id: u21-l1-03
+    type: learn
+    lexeme: nino
+  - id: u21-l1-04
+    type: learn
+    lexeme: escuela
+  - id: u21-l1-05
+    type: learn
+    lexeme: recreo
+  - id: u21-l1-06
+    type: learn
+    lexeme: pueblo
+  - id: u21-l1-07
+    type: learn
+    lexeme: vecino
+  - id: u21-l1-08
+    type: learn
+    lexeme: jugar
+  - id: u21-l1-09
+    type: learn
+    lexeme: cantar
+  - id: u21-l1-10
+    type: learn
+    lexeme: antes
+  - id: u21-l1-11
+    type: learn
+    lexeme: entonces
+  - id: u21-l1-12
+    type: learn
+    lexeme: de-nino
+  - id: u21-l1-13
+    type: learn
+    lexeme: cuento
+  - id: u21-l1-14
+    type: tip
+    title: הרמז העברי
+    text: 'כשהיית אומר בעברית ''הייתי הולך'', ''היינו משחקים'', ''היה חם'', אלה בדיוק צורות ה־imperfecto: *iba*, *jugábamos*, *hacía calor*. הקשיבו לעברית שלכם, היא עוזרת.
+
+      '
+  - id: u21-l1-15
+    type: match_pairs
+    pairs:
+    - - la infancia
+      - ילדות
+    - - el niño
+      - ילד
+    - - la escuela
+      - בית ספר
+    - - el recreo
+      - הפסקה
+    - - el pueblo
+      - עיירה
+    lexemes:
+    - infancia
+    - nino
+    - escuela
+    - recreo
+    - pueblo
+  - id: u21-l1-16
+    type: match_pairs
+    pairs:
+    - - jugar
+      - לשחק
+    - - cantar
+      - לשיר
+    - - antes
+      - פעם
+    - - entonces
+      - אז
+    - - el cuento
+      - סיפור
+    lexemes:
+    - jugar
+    - cantar
+    - antes
+    - entonces
+    - cuento
+  - id: u21-l1-17
+    type: multiple_choice
+    prompt: מה פירוש 'de niño'?
+    options:
+    - בילדותי
+    - בעתיד
+    - בבית הספר
+    correct: 0
+    lexemes:
+    - de-nino
+    - escuela
+  - id: u21-l1-18
+    type: multiple_choice
+    prompt: מה פירוש 'jugábamos'?
+    options:
+    - שיחקנו (כהרגל)
+    - נשחק
+    - שיחקתי פעם אחת
+    correct: 0
+    lexemes:
+    - jugar
+  - id: u21-l1-19
+    type: multiple_choice
+    prompt: איזה משפט מתאר הרגל בעבר?
+    options:
+    - Íbamos a pie cada día.
+    - Fuimos a pie ayer.
+    - Iremos a pie mañana.
+    correct: 0
+    lexemes:
+    - ir
+    - ayer
+    - manana-adv
+  - id: u21-l1-20
+    type: listening_choice
+    audioText: Cuando era niña, vivía en un pueblo.
+    question: איפה גרה?
+    options:
+    - בעיירה
+    - בעיר גדולה
+    - בחו"ל
+    correct: 0
+    lexemes:
+    - nino
+    - vivir
+    - pueblo
+  - id: u21-l1-21
+    type: listening_choice
+    audioText: Jugábamos en el recreo.
+    question: מתי שיחקו?
+    options:
+    - בהפסקה
+    - בלילה
+    - בשבת
+    correct: 0
+    lexemes:
+    - jugar
+    - recreo
+    - noche
+    - sabado
+  - id: u21-l1-22
+    type: translate
+    direction: to_target
+    prompt: בילדותי גרתי בעיירה.
+    answers:
+    - De niña vivía en un pueblo.
+    - De niño vivía en un pueblo.
+    - De niña vivía en un pueblo pequeño.
+    lexemes:
+    - de-nino
+    - vivir
+    - pueblo
+  - id: u21-l1-23
+    type: translate
+    direction: to_target
+    prompt: שרנו בהפסקה.
+    answers:
+    - Cantábamos en el recreo.
+    lexemes:
+    - cantar
+    - recreo
+  - id: u21-l1-24
+    type: translate
+    direction: to_source
+    prompt: Mis vecinos siempre jugaban conmigo.
+    answers:
+    - השכנים שלי תמיד שיחקו איתי
+    lexemes:
+    - vecino
+    - jugar
+  - id: u21-l1-25
+    type: dictation
+    text: Antes jugábamos mucho.
+    lexemes:
+    - antes
+    - jugar
+  - id: u21-l1-26
+    type: speak_repeat
+    text: Cuando era niña, jugaba en el recreo.
+    translation: כשהייתי ילדה שיחקתי בהפסקה.
+    lexemes:
+    - nino
+    - jugar
+    - recreo
+- id: u21-l2
+  kind: new
+  title:
+    he: הרגלים ופרטים
+    en: Habits and details
+  exercises:
+  - id: u21-l2-01
+    type: learn
+    lexeme: recordar
+  - id: u21-l2-02
+    type: learn
+    lexeme: extranar
+  - id: u21-l2-03
+    type: learn
+    lexeme: a-menudo
+  - id: u21-l2-04
+    type: learn
+    lexeme: cada-dia
+  - id: u21-l2-05
+    type: learn
+    lexeme: mientras
+  - id: u21-l2-06
+    type: learn
+    lexeme: cuando-conj
+  - id: u21-l2-07
+    type: learn
+    lexeme: feliz-i
+  - id: u21-l2-08
+    type: learn
+    lexeme: jardin
+  - id: u21-l2-09
+    type: match_pairs
+    pairs:
+    - - recordar
+      - לזכור
+    - - extrañar
+      - להתגעגע
+    - - a menudo
+      - לעתים קרובות
+    - - cada día
+      - כל יום
+    - - mientras
+      - בזמן ש־
+    lexemes:
+    - recordar
+    - extranar
+    - a-menudo
+    - cada-dia
+    - mientras
+  - id: u21-l2-10
+    type: match_pairs
+    pairs:
+    - - cuando
+      - כש־
+    - - la alegría
+      - שמחה
+    - - el jardín
+      - גינה
+    - - la infancia
+      - ילדות
+    - - el cuento
+      - סיפור
+    lexemes:
+    - cuando-conj
+    - feliz-i
+    - jardin
+    - infancia
+    - cuento
+  - id: u21-l2-11
+    type: dialogue
+    scene: יעל מספרת על סבתא.
+    lines:
+    - speaker: yael
+      text: Recuerdo que mi abuela tenía un jardín grande. Cada viernes preparaba pan para Shabat.
+      translation: אני זוכרת שלסבתא שלי הייתה גינה גדולה. בכל יום שישי היא הכינה לחם לשבת.
+    - speaker: carmen
+      text: ¡Qué bonito! ¿Y tú la ayudabas?
+      translation: איזה יפה! ואת עזרת לה?
+    - speaker: yael
+      text: Sí. Yo ponía la mesa mientras ella cantaba. Extraño esos días.
+      translation: כן. אני ערכתי את השולחן בזמן שהיא שרה. אני מתגעגעת לימים האלה.
+  - id: u21-l2-12
+    type: multiple_choice
+    prompt: מה פירוש 'extraño esos días'?
+    options:
+    - אני מתגעגע לימים האלה
+    - אני לא אוהב את הימים
+    - אני זוכר את הימים
+    correct: 0
+    lexemes:
+    - extranar
+    - recordar
+  - id: u21-l2-13
+    type: multiple_choice
+    prompt: מה פירוש 'mientras ella cantaba'?
+    options:
+    - בזמן שהיא שרה
+    - אחרי שהיא שרה
+    - כי היא שרה
+    correct: 0
+    lexemes:
+    - mientras
+    - cantar
+  - id: u21-l2-14
+    type: multiple_choice
+    prompt: מה פירוש 'a menudo'?
+    options:
+    - לעתים קרובות
+    - אף פעם
+    - פעם אחת
+    correct: 0
+    lexemes:
+    - a-menudo
+    - nunca
+  - id: u21-l2-15
+    type: listening_choice
+    audioText: Cada viernes mi abuela hacía pan.
+    question: מתי הכינה לחם?
+    options:
+    - כל יום שישי
+    - כל יום ראשון
+    - כל יום
+    correct: 0
+    lexemes:
+    - cada-dia
+    - viernes
+    - domingo
+    - abuela
+  - id: u21-l2-16
+    type: listening_choice
+    audioText: Recordaba a mi abuela a menudo.
+    question: כמה פעמים?
+    options:
+    - לעתים קרובות
+    - אף פעם
+    - פעם אחת
+    correct: 0
+    lexemes:
+    - recordar
+    - abuela
+    - a-menudo
+    - nunca
+  - id: u21-l2-17
+    type: fill_blank
+    sentence: Mi abuela ___ un jardín grande. (tener, imperfecto)
+    translation: לסבתא שלי הייתה גינה גדולה.
+    answers:
+    - tenía
+    options:
+    - tenía
+    - tuvo
+    - tiene
+    lexemes:
+    - abuela
+    - tener
+    - jardin
+    - grande
+  - id: u21-l2-18
+    type: fill_blank
+    sentence: Yo ___ la mesa mientras ella cantaba. (poner)
+    translation: ערכתי את השולחן בזמן שהיא שרה.
+    answers:
+    - ponía
+    options:
+    - ponía
+    - puse
+    - pongo
+    lexemes:
+    - mientras
+    - cantar
+  - id: u21-l2-19
+    type: word_bank
+    prompt: אני התגעגעתי לימים האלה.
+    answers:
+    - Extrañaba esos días.
+    distractors:
+    - Extraño
+    - extrañé
+    lexemes:
+    - extranar
+  - id: u21-l2-20
+    type: translate
+    direction: to_target
+    prompt: תמיד זכרתי את הגינה.
+    answers:
+    - Siempre recordaba el jardín.
+    lexemes:
+    - siempre
+    - recordar
+    - jardin
+  - id: u21-l2-21
+    type: translate
+    direction: to_source
+    prompt: Cada día jugábamos en el jardín.
+    answers:
+    - כל יום שיחקנו בגינה
+    lexemes:
+    - cada-dia
+    - jugar
+    - jardin
+  - id: u21-l2-22
+    type: dictation
+    text: Cuando era niña, extrañaba a mi abuela.
+    lexemes:
+    - cuando-conj
+    - nino
+    - extranar
+    - abuela
+- id: u21-l3
+  kind: grammar
+  title:
+    he: imperfecto
+    en: The imperfect
+  grammar: imperfecto
+  exercises:
+  - id: u21-l3-01
+    type: fill_blank
+    sentence: Yo ___ en un pueblo. (vivir)
+    translation: גרתי בעיירה.
+    answers:
+    - vivía
+    options:
+    - vivía
+    - viví
+    - vivo
+    lexemes:
+    - vivir
+    - pueblo
+  - id: u21-l3-02
+    type: fill_blank
+    sentence: Tú ___ mucho de niño. (jugar)
+    translation: שיחקת הרבה בילדותך.
+    answers:
+    - jugabas
+    options:
+    - jugabas
+    - jugaste
+    - juegas
+    lexemes:
+    - jugar
+    - de-nino
+  - id: u21-l3-03
+    type: fill_blank
+    sentence: Mi abuela ___ pan. (hacer)
+    translation: סבתא שלי הכינה לחם.
+    answers:
+    - hacía
+    options:
+    - hacía
+    - hizo
+    - hace
+    lexemes:
+    - abuela
+    - hacer
+    - pan
+  - id: u21-l3-04
+    type: fill_blank
+    sentence: Nosotros ___ a la escuela a pie. (ir)
+    translation: הלכנו לבית הספר ברגל.
+    answers:
+    - íbamos
+    options:
+    - íbamos
+    - fuimos
+    - vamos
+    lexemes:
+    - ir
+    - escuela
+  - id: u21-l3-05
+    type: fill_blank
+    sentence: Ellos ___ cuentos. (contar)
+    translation: הם סיפרו סיפורים.
+    answers:
+    - contaban
+    options:
+    - contaban
+    - contaron
+    - cuentan
+    lexemes:
+    - cuento
+  - id: u21-l3-06
+    type: fill_blank
+    sentence: Antes yo ___ muy pequeña. (ser)
+    translation: פעם הייתי קטנה מאוד.
+    answers:
+    - era
+    options:
+    - era
+    - fui
+    - soy
+    lexemes:
+    - antes
+    - ser
+    - pequeno
+  - id: u21-l3-07
+    type: fill_blank
+    sentence: Mis padres ___ la televisión. (ver)
+    translation: ההורים שלי היו רואים טלוויזיה.
+    answers:
+    - veían
+    options:
+    - veían
+    - vieron
+    - ven
+    lexemes:
+    - padres
+    - ver
+  - id: u21-l3-08
+    type: multiple_choice
+    prompt: מה הסיומת של yo בפעלי -er/-ir ב־imperfecto?
+    options:
+    - -ía
+    - -aba
+    - -é
+    correct: 0
+    lexemes:
+    - comer
+    - vivir
+  - id: u21-l3-09
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Antes íbamos al parque.
+    - Antes fuimos al parque.
+    - Antes vamos al parque.
+    correct: 0
+    lexemes:
+    - antes
+    - ir
+    - parque-lugar
+  - id: u21-l3-10
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Cuando era niña, cantaba mucho.
+    - Cuando fui niña, cantaba mucho.
+    - Cuando soy niña, cantaba.
+    correct: 0
+    lexemes:
+    - cuando-conj
+    - nino
+    - cantar
+  - id: u21-l3-11
+    type: word_bank
+    prompt: בילדותי שיחקתי בגינה.
+    answers:
+    - De niña jugaba en el jardín.
+    distractors:
+    - Jugué
+    - fui
+    lexemes:
+    - de-nino
+    - jugar
+    - jardin
+  - id: u21-l3-12
+    type: word_bank
+    prompt: הסבתא שלי תמיד שרה.
+    answers:
+    - Mi abuela siempre cantaba.
+    distractors:
+    - cantó
+    - cantan
+    lexemes:
+    - abuela
+    - siempre
+    - cantar
+  - id: u21-l3-13
+    type: translate
+    direction: to_target
+    prompt: בבית הספר היינו שרים.
+    answers:
+    - En la escuela cantábamos.
+    lexemes:
+    - escuela
+    - cantar
+  - id: u21-l3-14
+    type: translate
+    direction: to_target
+    prompt: כל יום הייתי הולכת ברגל.
+    answers:
+    - Cada día iba a pie.
+    - Todos los días iba a pie.
+    lexemes:
+    - cada-dia
+    - ir
+  - id: u21-l3-15
+    type: translate
+    direction: to_source
+    prompt: Mis vecinos eran muy simpáticos.
+    answers:
+    - השכנים שלי היו נחמדים מאוד
+    lexemes:
+    - vecino
+    - ser
+    - simpatico
+  - id: u21-l3-16
+    type: translate
+    direction: to_source
+    prompt: Siempre extrañaba mi pueblo.
+    answers:
+    - תמיד התגעגעתי לעיירה שלי
+    lexemes:
+    - siempre
+    - extranar
+    - pueblo
+- id: u21-l4
+  kind: listening
+  title:
+    he: סיפורי ילדות
+    en: Childhood stories
+  exercises:
+  - id: u21-l4-01
+    type: dialogue
+    scene: דני וסופיה מספרים.
+    lines:
+    - speaker: dani
+      text: Cuando era niño, mi familia vivía en Puebla. Mis abuelos tenían un jardín enorme.
+      translation: כשהייתי ילד משפחתי גרה בפואבלה. לסבים שלי הייתה גינה ענקית.
+    - speaker: sofia
+      text: 'Yo era muy diferente: vivía en la ciudad y no tenía jardín. Pero jugaba mucho con mis vecinos.'
+      translation: 'אני הייתי שונה מאוד: גרתי בעיר ולא הייתה לי גינה. אבל שיחקתי הרבה עם השכנים.'
+    - speaker: dani
+      text: ¿Qué hacían en el recreo?
+      translation: מה עשיתם בהפסקה?
+    - speaker: sofia
+      text: Cantábamos y contábamos cuentos. Era muy divertido.
+      translation: שרנו וסיפרנו סיפורים. היה מאוד כיף.
+  - id: u21-l4-02
+    type: multiple_choice
+    prompt: איפה דני גר בילדותו?
+    options:
+    - בפואבלה
+    - במקסיקו סיטי
+    - בישראל
+    correct: 0
+    lexemes:
+    - vivir
+    - israel
+  - id: u21-l4-03
+    type: multiple_choice
+    prompt: מה היה לסבים של דני?
+    options:
+    - גינה ענקית
+    - חנות
+    - מכונית
+    correct: 0
+    lexemes:
+    - abuelo
+    - jardin
+    - tienda
+  - id: u21-l4-04
+    type: multiple_choice
+    prompt: מה סופיה עשתה עם השכנים?
+    options:
+    - שיחקה
+    - למדה
+    - ישנה
+    correct: 0
+    lexemes:
+    - vecino
+    - jugar
+    - estudiar
+    - dormir
+  - id: u21-l4-05
+    type: listening_choice
+    audioText: Cuando era niño, vivía en Puebla.
+    question: איפה גר?
+    options:
+    - בפואבלה
+    - במקסיקו סיטי
+    - בישראל
+    correct: 0
+    lexemes:
+    - nino
+    - vivir
+    - mexico
+    - israel
+  - id: u21-l4-06
+    type: listening_choice
+    audioText: Jugábamos y cantábamos todos los días.
+    question: מה עשו?
+    options:
+    - שיחקו ושרו
+    - למדו ועבדו
+    - אכלו וישנו
+    correct: 0
+    lexemes:
+    - jugar
+    - cantar
+    - estudiar
+    - trabajar
+    - comer
+    - dormir
+  - id: u21-l4-07
+    type: dictation
+    text: De niña jugaba con mis vecinos.
+    lexemes:
+    - de-nino
+    - jugar
+    - vecino
+  - id: u21-l4-08
+    type: translate
+    direction: to_target
+    prompt: הסבא שלי היה נחמד.
+    answers:
+    - Mi abuelo era simpático.
+    lexemes:
+    - abuelo
+    - ser
+    - simpatico
+  - id: u21-l4-09
+    type: speak_repeat
+    text: Mi abuela siempre cantaba mientras cocinaba.
+    translation: סבתא שלי תמיד שרה בזמן שבישלה.
+    lexemes:
+    - abuela
+    - siempre
+    - cantar
+    - mientras
+- id: u21-l5
+  kind: reading
+  title:
+    he: זיכרון מהילדות
+    en: A childhood memory
+  exercises:
+  - id: u21-l5-01
+    type: reading
+    kind: זיכרון
+    title: Mi viernes favorito
+    text: 'Cuando yo era niña, el viernes era mi día favorito. Mi abuela se levantaba temprano y preparaba pan y sopa. Mi abuelo ponía la mesa con flores.
+
+      Nosotros llegábamos a su casa antes de la noche. Toda la familia cantaba y contaba cuentos. Yo me sentía muy feliz.
+
+      Hoy extraño esos viernes.
+
+      '
+    translation: 'כשהייתי ילדה, יום שישי היה היום האהוב עליי. סבתא שלי קמה מוקדם והכינה לחם ומרק. סבא שלי ערך את השולחן עם פרחים.
+
+      אנחנו הגענו לבית שלהם לפני הלילה. כל המשפחה שרה וסיפרה סיפורים. הרגשתי מאושרת מאוד.
+
+      היום אני מתגעגעת לימי שישי האלה.
+
+      '
+  - id: u21-l5-02
+    type: multiple_choice
+    prompt: מה סבתא הכינה?
+    options:
+    - לחם ומרק
+    - דג ואורז
+    - סלט ופירות
+    correct: 0
+    lexemes:
+    - abuela
+    - pan
+    - sopa
+    - pescado
+    - arroz
+    - ensalada
+    - fruta
+  - id: u21-l5-03
+    type: multiple_choice
+    prompt: מתי הגיעה המשפחה?
+    options:
+    - לפני הלילה
+    - בבוקר
+    - אחרי שבת
+    correct: 0
+    lexemes:
+    - noche
+    - manana-dia
+    - sabado
+  - id: u21-l5-04
+    type: fill_blank
+    sentence: Mi abuelo ___ la mesa. (poner)
+    translation: סבא שלי ערך את השולחן.
+    answers:
+    - ponía
+    options:
+    - ponía
+    - puso
+    - pone
+    lexemes:
+    - abuelo
+    - mesa
+  - id: u21-l5-05
+    type: translate
+    direction: to_target
+    prompt: אני מתגעגעת לימי שישי האלה.
+    answers:
+    - Extraño esos viernes.
+    lexemes:
+    - extranar
+    - viernes
+- id: u21-review
+  kind: review
+  title:
+    he: 'חזרה: imperfecto + כתיבה'
+    en: 'Review: the imperfect + writing'
+  exercises:
+  - id: u21-review-01
+    type: match_pairs
+    pairs:
+    - - la infancia
+      - ילדות
+    - - el pueblo
+      - עיירה
+    - - el recreo
+      - הפסקה
+    - - el cuento
+      - סיפור
+    - - el vecino
+      - שכן
+    lexemes:
+    - infancia
+    - pueblo
+    - recreo
+    - cuento
+    - vecino
+  - id: u21-review-02
+    type: match_pairs
+    pairs:
+    - - a menudo
+      - לעתים קרובות
+    - - cada día
+      - כל יום
+    - - mientras
+      - בזמן ש־
+    - - antes
+      - פעם
+    - - entonces
+      - אז
+    lexemes:
+    - a-menudo
+    - cada-dia
+    - mientras
+    - antes
+    - entonces
+  - id: u21-review-03
+    type: fill_blank
+    sentence: Mi abuela ___ pan cada viernes. (hacer)
+    translation: סבתא שלי הכינה לחם בכל שישי.
+    answers:
+    - hacía
+    options:
+    - hacía
+    - hizo
+    - hace
+    lexemes:
+    - abuela
+    - hacer
+    - pan
+    - viernes
+  - id: u21-review-04
+    type: fill_blank
+    sentence: Nosotros ___ a pie. (ir)
+    translation: הלכנו ברגל.
+    answers:
+    - íbamos
+    options:
+    - íbamos
+    - fuimos
+    - vamos
+    lexemes:
+    - ir
+  - id: u21-review-05
+    type: multiple_choice
+    prompt: מה פירוש 'vivía'?
+    options:
+    - גרתי / גר (בעבר, כהרגל)
+    - גר עכשיו
+    - גרתי פעם אחת
+    correct: 0
+    lexemes:
+    - vivir
+  - id: u21-review-06
+    type: listening_choice
+    audioText: Mis padres siempre cantaban.
+    question: מה עשו?
+    options:
+    - שרו תמיד
+    - שרו אתמול
+    - שרו פעם אחת
+    correct: 0
+    lexemes:
+    - padres
+    - siempre
+    - cantar
+    - ayer
+  - id: u21-review-07
+    type: word_bank
+    prompt: בילדותי הייתי שרה הרבה.
+    answers:
+    - De niña cantaba mucho.
+    distractors:
+    - Canté
+    - fui
+    lexemes:
+    - de-nino
+    - cantar
+    - mucho
+  - id: u21-review-08
+    type: translate
+    direction: to_target
+    prompt: כשהייתי ילדה גרנו בעיירה.
+    answers:
+    - Cuando era niña, vivíamos en un pueblo.
+    lexemes:
+    - cuando-conj
+    - nino
+    - vivir
+    - pueblo
+  - id: u21-review-09
+    type: translate
+    direction: to_source
+    prompt: Antes jugaba mucho con mis vecinos.
+    answers:
+    - פעם שיחקתי הרבה עם השכנים שלי
+    lexemes:
+    - antes
+    - jugar
+    - mucho
+    - vecino
+  - id: u21-review-10
+    type: dictation
+    text: Cada día íbamos a la escuela.
+    lexemes:
+    - cada-dia
+    - ir
+    - escuela
+  - id: u21-review-11
+    type: speak_repeat
+    text: Cuando era niña, vivía en un pueblo.
+    translation: כשהייתי ילדה גרתי בעיירה.
+    lexemes:
+    - nino
+    - vivir
+    - pueblo
+  - id: u21-review-12
+    type: write
+    prompt: 'כתבו על הילדות שלכם: איפה גרתם, מה עשיתם בהרגל, מי היה איתכם. השתמשו ב־imperfecto.'
+    minWords: 35
+    checks:
+    - label: השתמשתם ב־imperfecto של -ar (…aba/…aban)
+      any:
+      - aba\b
+      - abas\b
+      - aban\b
+      - abamos\b
+    - label: השתמשתם ב־imperfecto של -er/-ir (…ía/…ían)
+      any:
+      - ia\b
+      - ias\b
+      - ian\b
+      - iamos\b
+    - label: השתמשתם במילת הרגל (siempre, a menudo, cada, de niño, antes)
+      any:
+      - \bsiempre\b
+      - \ba menudo\b
+      - \bcada\b
+      - \bde nin
+      - \bantes\b
+      - \btodos los dias\b
+    - label: הזכרתם אדם מהמשפחה או חבר
+      any:
+      - \babuel
+      - \bpadre
+      - \bmadre
+      - \bhermano
+      - \bhermana
+      - \bamig
+      - \bvecin
+      - \bfamilia
+    model: Cuando era niña, vivía en un pueblo pequeño. Mi familia era muy unida y siempre comíamos juntos los viernes. Mi abuela cocinaba pan y yo la ayudaba. Después íbamos a la sinagoga con mis hermanos. Era una vida tranquila y yo era muy feliz.
+    lexemes: []

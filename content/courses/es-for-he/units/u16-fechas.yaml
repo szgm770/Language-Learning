@@ -107,10 +107,6 @@ vocabulary:
   text: ¿cuál?
   translation: איזה, מה (בחירה)
   pos: phrase
-- id: de-mes
-  text: de
-  translation: של (בתאריך)
-  pos: preposition
 - id: ano-nuevo
   text: el Año Nuevo
   translation: ראש השנה האזרחית

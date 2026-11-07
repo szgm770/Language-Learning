@@ -1,0 +1,1125 @@
+id: u22-contraste
+cefr: B1
+scene: day
+title:
+  he: 'סיפור: מה קרה ומה היה מסביב'
+  en: Telling a story
+story: 'יעל מספרת לצוות על בוקר מוזר: ירד גשם, היא איחרה לאוטובוס ומצאה ארנק על המדרכה. עכשיו היא צריכה לשלב את שני זמני העבר: מה היה ברקע (imperfecto) ומה קרה (pretérito).'
+canDo:
+- לספר סיפור שלם בעבר עם שני הזמנים
+- להבחין בין אירוע (pretérito) לרקע (imperfecto)
+- להשתמש ב־de repente, un día, mientras, cuando
+- 'להבין פעלים שמשנים משמעות: saber, conocer, querer, poder'
+vocabulary:
+- id: de-repente
+  text: de repente
+  translation: פתאום
+  pos: adverb
+- id: un-dia
+  text: un día
+  translation: יום אחד
+  pos: phrase
+- id: ese-dia
+  text: ese día
+  translation: באותו יום
+  pos: phrase
+- id: sorpresa
+  text: la sorpresa
+  translation: הפתעה
+  pos: noun
+- id: accidente
+  text: el accidente
+  translation: תאונה
+  pos: noun
+- id: perder
+  text: perder
+  translation: לאבד, להפסיד
+  pos: verb
+- id: olvidar
+  text: olvidar
+  translation: לשכוח
+  pos: verb
+- id: ocurrir
+  text: ocurrir
+  translation: לקרות
+  pos: verb
+- id: reir
+  text: reír
+  translation: לצחוק
+  pos: verb
+- id: llorar
+  text: llorar
+  translation: לבכות
+  pos: verb
+- id: cartera
+  text: la cartera
+  translation: ארנק
+  pos: noun
+- id: acera
+  text: la acera
+  translation: מדרכה
+  pos: noun
+- id: lluvioso
+  text: lluvioso
+  translation: גשום
+  pos: adjective
+- id: asustado
+  text: asustado / asustada
+  translation: מפוחד
+  pos: adjective
+- id: sorprendido
+  text: sorprendido / sorprendida
+  translation: מופתע
+  pos: adjective
+- id: policia
+  text: la policía
+  translation: משטרה
+  pos: noun
+- id: dueno
+  text: el dueño / la dueña
+  translation: הבעלים
+  pos: noun
+- id: devolver
+  text: devolver
+  translation: להחזיר
+  pos: verb
+- id: agradecido
+  text: agradecido / agradecida
+  translation: אסיר תודה
+  pos: adjective
+grammar:
+- id: contraste
+  title:
+    he: pretérito או imperfecto?
+    en: Preterite vs imperfect
+  explanation: 'בעברית יש זמן עבר אחד, אז זה החלק הקשה ביותר. הנה שאלת מפתח:
+
+
+    > **האם זה אירוע שהתחיל ונגמר (נקודה בציר הזמן), או רקע / הרגל / תיאור (קו)?**
+
+
+    | **pretérito** (אירוע) | **imperfecto** (רקע) |
+
+    |---|---|
+
+    | פעולה שנגמרה: *Vi una cartera.* | תיאור: *Llovía y hacía frío.* |
+
+    | אירוע אחד / סדר אירועים: *Llegué, abrí, entré.* | הרגל: *Siempre tomaba el autobús.* |
+
+    | פעולה פתאומית: *De repente, oí un ruido.* | פעולה ברקע בזמן שקרה משהו: *Caminaba cuando vi un perro.* |
+
+    | זמן מוגדר: *Ayer, el lunes, a las ocho* | זמן לא מוגדר: *Antes, entonces, mientras* |
+
+
+    **סיפור טיפוסי:** רקע ב־imperfecto, אירועים ב־pretérito: *Llovía (רקע) y yo caminaba (רקע) cuando de repente vi (אירוע) una cartera. La recogí (אירוע) y llamé (אירוע) a la policía.*
+
+
+    **פעלים שמשנים משמעות:**
+
+    * **saber:** *sabía* = ידעתי | *supe* = גיליתי
+
+    * **conocer:** *conocía* = הכרתי (כבר) | *conocí* = פגשתי לראשונה
+
+    * **querer:** *quería* = רציתי | *quise* = ניסיתי; *no quise* = סירבתי
+
+    * **poder:** *podía* = יכולתי | *pude* = הצלחתי'
+  examples:
+  - text: Llovía mucho cuando salí de casa.
+    translation: ירד גשם חזק כשיצאתי מהבית.
+  - text: Encontré una cartera en la acera y llamé al dueño.
+    translation: מצאתי ארנק על המדרכה והתקשרתי לבעלים.
+  - text: No sabía nada, pero ayer supe la verdad.
+    translation: לא ידעתי כלום, אבל אתמול גיליתי את האמת.
+lessons:
+- id: u22-l1
+  kind: new
+  title:
+    he: בוקר מוזר
+    en: A strange morning
+  exercises:
+  - id: u22-l1-01
+    type: dialogue
+    scene: הפסקת קפה, יום חמישי.
+    lines:
+    - speaker: yael
+      text: ¿Saben qué me pasó esta mañana? Llovía mucho y yo caminaba a la estación cuando de repente vi una cartera en la acera.
+      translation: יודעים מה קרה לי הבוקר? ירד גשם חזק ואני הלכתי לתחנה כשפתאום ראיתי ארנק על המדרכה.
+    - speaker: sofia
+      text: ¿Y qué hiciste?
+      translation: ומה עשית?
+    - speaker: yael
+      text: La recogí, busqué un documento y llamé al dueño. Estaba muy asustado, pero muy agradecido.
+      translation: הרמתי אותו, חיפשתי תעודה והתקשרתי לבעלים. הוא היה מפוחד מאוד, אבל אסיר תודה.
+  - id: u22-l1-02
+    type: learn
+    lexeme: de-repente
+  - id: u22-l1-03
+    type: learn
+    lexeme: un-dia
+  - id: u22-l1-04
+    type: learn
+    lexeme: ese-dia
+  - id: u22-l1-05
+    type: learn
+    lexeme: sorpresa
+  - id: u22-l1-06
+    type: learn
+    lexeme: accidente
+  - id: u22-l1-07
+    type: learn
+    lexeme: cartera
+  - id: u22-l1-08
+    type: learn
+    lexeme: acera
+  - id: u22-l1-09
+    type: learn
+    lexeme: lluvioso
+  - id: u22-l1-10
+    type: learn
+    lexeme: asustado
+  - id: u22-l1-11
+    type: learn
+    lexeme: sorprendido
+  - id: u22-l1-12
+    type: learn
+    lexeme: agradecido
+  - id: u22-l1-13
+    type: match_pairs
+    pairs:
+    - - de repente
+      - פתאום
+    - - un día
+      - יום אחד
+    - - ese día
+      - באותו יום
+    - - la sorpresa
+      - הפתעה
+    - - el accidente
+      - תאונה
+    lexemes:
+    - de-repente
+    - un-dia
+    - ese-dia
+    - sorpresa
+    - accidente
+  - id: u22-l1-14
+    type: match_pairs
+    pairs:
+    - - la cartera
+      - ארנק
+    - - la acera
+      - מדרכה
+    - - lluvioso
+      - גשום
+    - - asustado
+      - מפוחד
+    - - sorprendido
+      - מופתע
+    lexemes:
+    - cartera
+    - acera
+    - lluvioso
+    - asustado
+    - sorprendido
+  - id: u22-l1-15
+    type: multiple_choice
+    prompt: מה פירוש 'de repente'?
+    options:
+    - פתאום
+    - לאט
+    - תמיד
+    correct: 0
+    lexemes:
+    - de-repente
+    - despacio
+    - siempre
+  - id: u22-l1-16
+    type: multiple_choice
+    prompt: איזה חלק במשפט הוא הרקע? 'Llovía cuando salí.'
+    options:
+    - Llovía
+    - salí
+    - cuando
+    correct: 0
+    lexemes:
+    - llover
+  - id: u22-l1-17
+    type: multiple_choice
+    prompt: מה פירוש 'agradecido'?
+    options:
+    - אסיר תודה
+    - מופתע
+    - מפוחד
+    correct: 0
+    lexemes:
+    - agradecido
+    - sorprendido
+    - asustado
+  - id: u22-l1-18
+    type: listening_choice
+    audioText: De repente vi una cartera.
+    question: מה קרה?
+    options:
+    - ראיתי ארנק
+    - מצאתי ספר
+    - שמעתי רעש
+    correct: 0
+    lexemes:
+    - de-repente
+    - ver
+    - cartera
+    - libro
+  - id: u22-l1-19
+    type: listening_choice
+    audioText: Era un día lluvioso.
+    question: איך היה מזג האוויר?
+    options:
+    - גשום
+    - שמשי
+    - חם
+    correct: 0
+    lexemes:
+    - lluvioso
+    - sol
+    - calor
+  - id: u22-l1-20
+    type: translate
+    direction: to_target
+    prompt: פתאום
+    answers:
+    - de repente
+    lexemes:
+    - de-repente
+  - id: u22-l1-21
+    type: translate
+    direction: to_target
+    prompt: ארנק על המדרכה
+    answers:
+    - una cartera en la acera
+    - cartera en la acera
+    - la cartera en la acera
+    lexemes:
+    - cartera
+    - acera
+  - id: u22-l1-22
+    type: translate
+    direction: to_source
+    prompt: Un día vi un accidente.
+    answers:
+    - יום אחד ראיתי תאונה
+    lexemes:
+    - un-dia
+    - ver
+    - accidente
+  - id: u22-l1-23
+    type: dictation
+    text: De repente, una sorpresa.
+    lexemes:
+    - de-repente
+    - sorpresa
+  - id: u22-l1-24
+    type: speak_repeat
+    text: Llovía cuando vi la cartera.
+    translation: ירד גשם כשראיתי את הארנק.
+    lexemes:
+    - llover
+    - ver
+    - cartera
+- id: u22-l2
+  kind: new
+  title:
+    he: פעולות בסיפור
+    en: Story actions
+  exercises:
+  - id: u22-l2-01
+    type: learn
+    lexeme: perder
+  - id: u22-l2-02
+    type: learn
+    lexeme: olvidar
+  - id: u22-l2-03
+    type: learn
+    lexeme: ocurrir
+  - id: u22-l2-04
+    type: learn
+    lexeme: reir
+  - id: u22-l2-05
+    type: learn
+    lexeme: llorar
+  - id: u22-l2-06
+    type: learn
+    lexeme: policia
+  - id: u22-l2-07
+    type: learn
+    lexeme: dueno
+  - id: u22-l2-08
+    type: learn
+    lexeme: devolver
+  - id: u22-l2-09
+    type: match_pairs
+    pairs:
+    - - perder
+      - לאבד
+    - - olvidar
+      - לשכוח
+    - - encontrar
+      - למצוא
+    - - ocurrir
+      - לקרות
+    - - devolver
+      - להחזיר
+    lexemes:
+    - perder
+    - olvidar
+    - encontrar
+    - ocurrir
+    - devolver
+  - id: u22-l2-10
+    type: match_pairs
+    pairs:
+    - - reír
+      - לצחוק
+    - - llorar
+      - לבכות
+    - - la policía
+      - משטרה
+    - - el dueño
+      - בעלים
+    - - la sorpresa
+      - הפתעה
+    lexemes:
+    - reir
+    - llorar
+    - policia
+    - dueno
+    - sorpresa
+  - id: u22-l2-11
+    type: dialogue
+    scene: הבעלים מגיע.
+    lines:
+    - speaker: herrera
+      text: Gracias, señorita. Perdí mi cartera ayer y no sabía qué hacer.
+      translation: תודה, גברת. איבדתי את הארנק אתמול ולא ידעתי מה לעשות.
+    - speaker: yael
+      text: Usted estaba tranquilo cuando llegó, pero yo estaba nerviosa.
+      translation: אתה היית רגוע כשהגעת, אבל אני הייתי לחוצה.
+    - speaker: herrera
+      text: Es verdad. Voy a devolverle el favor algún día.
+      translation: זה נכון. אני אחזיר לך טובה יום אחד.
+  - id: u22-l2-12
+    type: multiple_choice
+    prompt: מה פירוש 'devolver'?
+    options:
+    - להחזיר
+    - לשכוח
+    - לאבד
+    correct: 0
+    lexemes:
+    - devolver
+    - olvidar
+    - perder
+  - id: u22-l2-13
+    type: multiple_choice
+    prompt: מה פירוש 'perdí mi cartera'?
+    options:
+    - איבדתי את הארנק
+    - מצאתי את הארנק
+    - קניתי ארנק
+    correct: 0
+    lexemes:
+    - perder
+    - encontrar
+    - comprar
+  - id: u22-l2-14
+    type: multiple_choice
+    prompt: מי הבעלים של הארנק?
+    options:
+    - הדוקטור הררה
+    - מתאו
+    - סופיה
+    correct: 0
+    lexemes:
+    - dueno
+  - id: u22-l2-15
+    type: listening_choice
+    audioText: Olvidé mi cartera en casa.
+    question: מה קרה?
+    options:
+    - שכחתי ארנק בבית
+    - איבדתי ארנק
+    - מצאתי ארנק
+    correct: 0
+    lexemes:
+    - olvidar
+    - cartera
+    - casa
+    - perder
+    - encontrar
+  - id: u22-l2-16
+    type: listening_choice
+    audioText: Mientras llorábamos, él se reía.
+    question: מה עשה הוא?
+    options:
+    - צחק
+    - בכה
+    - נעלם
+    correct: 0
+    lexemes:
+    - llorar
+    - reir
+  - id: u22-l2-17
+    type: fill_blank
+    sentence: Ayer ___ mi cartera en la calle. (perder, yo)
+    translation: אתמול איבדתי את הארנק ברחוב.
+    answers:
+    - perdí
+    options:
+    - perdí
+    - perdía
+    - pierdo
+    lexemes:
+    - ayer
+    - perder
+    - cartera
+    - calle
+  - id: u22-l2-18
+    type: fill_blank
+    sentence: El dueño ___ muy asustado. (estar, רקע)
+    translation: הבעלים היה מפוחד מאוד.
+    answers:
+    - estaba
+    options:
+    - estaba
+    - estuvo
+    - está
+    lexemes:
+    - dueno
+    - asustado
+    - estar
+  - id: u22-l2-19
+    type: word_bank
+    prompt: איבדתי את הארנק אתמול.
+    answers:
+    - Perdí la cartera ayer.
+    distractors:
+    - Pierdo
+    - perdía
+    lexemes:
+    - perder
+    - cartera
+    - ayer
+  - id: u22-l2-20
+    type: translate
+    direction: to_target
+    prompt: שכחתי את הארנק.
+    answers:
+    - Olvidé la cartera.
+    lexemes:
+    - olvidar
+    - cartera
+  - id: u22-l2-21
+    type: translate
+    direction: to_source
+    prompt: La policía llegó de repente.
+    answers:
+    - המשטרה הגיעה פתאום
+    lexemes:
+    - policia
+    - llegar
+    - de-repente
+  - id: u22-l2-22
+    type: dictation
+    text: El dueño lloraba y reía.
+    lexemes:
+    - dueno
+    - llorar
+    - reir
+- id: u22-l3
+  kind: grammar
+  title:
+    he: pretérito או imperfecto?
+    en: Preterite vs imperfect
+  grammar: contraste
+  exercises:
+  - id: u22-l3-01
+    type: fill_blank
+    sentence: Ayer ___ una cartera. (ver, אירוע)
+    translation: אתמול ראיתי ארנק.
+    answers:
+    - vi
+    options:
+    - vi
+    - veía
+    - veo
+    lexemes:
+    - ayer
+    - ver
+    - cartera
+  - id: u22-l3-02
+    type: fill_blank
+    sentence: ___ mucho y hacía frío. (llover, רקע)
+    translation: ירד גשם הרבה והיה קר.
+    answers:
+    - Llovía
+    options:
+    - Llovía
+    - Llovió
+    - Llueve
+    lexemes:
+    - llover
+    - hace
+    - frio
+  - id: u22-l3-03
+    type: fill_blank
+    sentence: Cuando yo ___ a casa, ya era tarde. (llegar, אירוע)
+    translation: כשהגעתי הביתה כבר היה מאוחר.
+    answers:
+    - llegué
+    options:
+    - llegué
+    - llegaba
+    - llego
+    lexemes:
+    - llegar
+    - casa
+    - tarde-adv
+  - id: u22-l3-04
+    type: fill_blank
+    sentence: Mientras yo ___, él dormía. (estudiar, רקע)
+    translation: בזמן שאני למדתי הוא ישן.
+    answers:
+    - estudiaba
+    options:
+    - estudiaba
+    - estudié
+    - estudio
+    lexemes:
+    - mientras
+    - estudiar
+    - dormir
+  - id: u22-l3-05
+    type: fill_blank
+    sentence: De repente, la puerta ___. (abrirse)
+    translation: פתאום הדלת נפתחה.
+    answers:
+    - se abrió
+    options:
+    - se abrió
+    - se abría
+    - se abre
+    lexemes:
+    - de-repente
+    - puerta
+    - abrir
+  - id: u22-l3-06
+    type: fill_blank
+    sentence: Todos los días yo ___ el autobús. (tomar, הרגל)
+    translation: כל יום לקחתי את האוטובוס.
+    answers:
+    - tomaba
+    options:
+    - tomaba
+    - tomé
+    - tomo
+    lexemes:
+    - cada-dia
+    - autobus
+    - tomar
+  - id: u22-l3-07
+    type: fill_blank
+    sentence: Antes yo no ___ a Mateo. (conocer, ידעתי מי הוא)
+    translation: פעם לא הכרתי את מתאו.
+    answers:
+    - conocía
+    options:
+    - conocía
+    - conocí
+    - conozco
+    lexemes:
+    - antes
+    - conocer
+  - id: u22-l3-08
+    type: fill_blank
+    sentence: Ayer ___ a Mateo en la oficina. (conocer, פגשתי לראשונה)
+    translation: אתמול הכרתי את מתאו במשרד.
+    answers:
+    - conocí
+    options:
+    - conocí
+    - conocía
+    - conozco
+    lexemes:
+    - ayer
+    - conocer
+    - oficina
+  - id: u22-l3-09
+    type: multiple_choice
+    prompt: מתי משתמשים ב־imperfecto?
+    options:
+    - לרקע, הרגל ותיאור
+    - לאירוע שנגמר
+    - לעתיד
+    correct: 0
+    lexemes:
+    - ayer
+  - id: u22-l3-10
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Llovía cuando salí.
+    - Llovió cuando salía.
+    - Llovía cuando salía todo el día.
+    correct: 0
+    lexemes:
+    - llover
+    - salir
+  - id: u22-l3-11
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Antes tomaba el autobús, pero ayer caminé.
+    - Antes tomé el autobús, pero ayer caminaba.
+    - Antes tomaba el autobús, pero ayer caminaba.
+    correct: 0
+    lexemes:
+    - antes
+    - tomar
+    - autobus
+    - ayer
+    - caminar
+  - id: u22-l3-12
+    type: word_bank
+    prompt: כשהגעתי ירד גשם.
+    answers:
+    - Cuando llegué, llovía.
+    distractors:
+    - llegaba
+    - llovió
+    lexemes:
+    - llegar
+    - llover
+  - id: u22-l3-13
+    type: word_bank
+    prompt: הלכתי ברחוב כשפתאום ראיתי ארנק.
+    answers:
+    - Caminaba por la calle cuando de repente vi una cartera.
+    distractors:
+    - Caminé
+    - veía
+    lexemes:
+    - caminar
+    - calle
+    - de-repente
+    - ver
+    - cartera
+  - id: u22-l3-14
+    type: translate
+    direction: to_target
+    prompt: היה קר ויורד גשם.
+    answers:
+    - Hacía frío y llovía.
+    lexemes:
+    - hace
+    - frio
+    - llover
+  - id: u22-l3-15
+    type: translate
+    direction: to_target
+    prompt: אתמול הכרתי אותה.
+    answers:
+    - Ayer la conocí.
+    lexemes:
+    - ayer
+    - conocer
+  - id: u22-l3-16
+    type: translate
+    direction: to_source
+    prompt: Mientras comíamos, sonó el teléfono.
+    answers:
+    - בזמן שאכלנו הטלפון צלצל
+    lexemes:
+    - mientras
+    - comer
+    - telefono
+  - id: u22-l3-17
+    type: translate
+    direction: to_source
+    prompt: Cuando era niña, no lloraba, pero ayer lloré.
+    answers:
+    - כשהייתי ילדה לא בכיתי, אבל אתמול בכיתי
+    lexemes:
+    - nino
+    - llorar
+    - ayer
+- id: u22-l4
+  kind: listening
+  title:
+    he: מה קרה שם?
+    en: What happened there?
+  exercises:
+  - id: u22-l4-01
+    type: dialogue
+    scene: סופיה מספרת על תאונה קטנה.
+    lines:
+    - speaker: sofia
+      text: Ayer volvía a casa en autobús. Llovía y había mucho tráfico.
+      translation: אתמול חזרתי הביתה באוטובוס. ירד גשם והייתה הרבה תנועה.
+    - speaker: mateo
+      text: ¿Y qué pasó?
+      translation: ומה קרה?
+    - speaker: sofia
+      text: De repente, el autobús frenó y todos nos asustamos. Un niño cruzó la calle corriendo.
+      translation: פתאום האוטובוס בלם וכולנו נבהלנו. ילד חצה את הכביש בריצה.
+    - speaker: mateo
+      text: ¡Qué susto! ¿Estaba bien el niño?
+      translation: איזה פחד! הילד היה בסדר?
+  - id: u22-l4-02
+    type: multiple_choice
+    prompt: מה היה מזג האוויר?
+    options:
+    - גשם
+    - שמש
+    - רוח
+    correct: 0
+    lexemes:
+    - llover
+    - sol
+    - viento
+  - id: u22-l4-03
+    type: multiple_choice
+    prompt: מה קרה פתאום?
+    options:
+    - האוטובוס בלם
+    - האוטובוס התקלקל
+    - האוטובוס איחר
+    correct: 0
+    lexemes:
+    - de-repente
+    - autobus
+    - retraso
+  - id: u22-l4-04
+    type: multiple_choice
+    prompt: מי חצה את הכביש?
+    options:
+    - ילד
+    - זקן
+    - שוטר
+    correct: 0
+    lexemes:
+    - nino
+    - policia
+  - id: u22-l4-05
+    type: listening_choice
+    audioText: Caminaba cuando vi un accidente.
+    question: מה עשה כשראה תאונה?
+    options:
+    - הלך
+    - רץ
+    - ישב
+    correct: 0
+    lexemes:
+    - caminar
+    - ver
+    - accidente
+  - id: u22-l4-06
+    type: listening_choice
+    audioText: Un día encontró una cartera.
+    question: מה קרה?
+    options:
+    - מצא ארנק
+    - איבד ארנק
+    - קנה ארנק
+    correct: 0
+    lexemes:
+    - un-dia
+    - encontrar
+    - cartera
+    - perder
+    - comprar
+  - id: u22-l4-07
+    type: dictation
+    text: De repente, llovía mucho.
+    lexemes:
+    - de-repente
+    - llover
+    - mucho
+  - id: u22-l4-08
+    type: translate
+    direction: to_target
+    prompt: בזמן שירד גשם, חזרתי הביתה.
+    answers:
+    - Mientras llovía, volvía a casa.
+    - Mientras llovía, regresaba a casa.
+    lexemes:
+    - mientras
+    - llover
+    - casa
+  - id: u22-l4-09
+    type: speak_repeat
+    text: Caminaba cuando de repente vi una cartera.
+    translation: הלכתי כשפתאום ראיתי ארנק.
+    lexemes:
+    - caminar
+    - de-repente
+    - ver
+    - cartera
+- id: u22-l5
+  kind: reading
+  title:
+    he: הסיפור המלא
+    en: The full story
+  exercises:
+  - id: u22-l5-01
+    type: reading
+    kind: סיפור
+    title: La cartera en la acera
+    text: 'Era una mañana lluviosa y yo caminaba a la estación. Hacía mucho frío y no había mucha gente en la calle.
+
+      De repente vi una cartera en la acera. La recogí, busqué un documento y llamé al dueño. Él estaba muy asustado porque la cartera tenía todo su dinero.
+
+      Media hora después llegó, me dio las gracias y quiso darme un regalo. Yo no quise aceptar, pero me sentí muy contenta.
+
+      '
+    translation: 'זה היה בוקר גשום ואני הלכתי לתחנה. היה קר מאוד ולא היו הרבה אנשים ברחוב.
+
+      פתאום ראיתי ארנק על המדרכה. הרמתי אותו, חיפשתי תעודה והתקשרתי לבעלים. הוא היה מפוחד מאוד כי בארנק היה כל הכסף שלו.
+
+      חצי שעה אחר כך הוא הגיע, הודה לי ורצה לתת לי מתנה. אני לא הסכמתי לקבל, אבל הרגשתי שמחה מאוד.
+
+      '
+  - id: u22-l5-02
+    type: multiple_choice
+    prompt: איך היה הבוקר?
+    options:
+    - גשום וקר
+    - שמשי וחם
+    - רוחני
+    correct: 0
+    lexemes:
+    - lluvioso
+    - frio
+    - sol
+    - calor
+  - id: u22-l5-03
+    type: multiple_choice
+    prompt: למה הבעלים היה מפוחד?
+    options:
+    - היה בארנק כל הכסף שלו
+    - הוא איחר
+    - הוא היה חולה
+    correct: 0
+    lexemes:
+    - dueno
+    - asustado
+    - dinero
+    - enfermo
+  - id: u22-l5-04
+    type: multiple_choice
+    prompt: מה יעל עשתה כשהוא רצה לתת מתנה?
+    options:
+    - לא קיבלה
+    - קיבלה
+    - בכתה
+    correct: 0
+    lexemes:
+    - regalo
+    - llorar
+  - id: u22-l5-05
+    type: fill_blank
+    sentence: Era una mañana lluviosa y yo ___ a la estación. (caminar, רקע)
+    translation: זה היה בוקר גשום ואני הלכתי לתחנה.
+    answers:
+    - caminaba
+    options:
+    - caminaba
+    - caminé
+    - camino
+    lexemes:
+    - caminar
+    - estacion
+    - lluvioso
+  - id: u22-l5-06
+    type: fill_blank
+    sentence: De repente ___ una cartera. (ver, אירוע)
+    translation: פתאום ראיתי ארנק.
+    answers:
+    - vi
+    options:
+    - vi
+    - veía
+    - veo
+    lexemes:
+    - de-repente
+    - ver
+    - cartera
+- id: u22-review
+  kind: review
+  title:
+    he: 'חזרה: סיפור + כתיבה'
+    en: 'Review: telling a story + writing'
+  exercises:
+  - id: u22-review-01
+    type: match_pairs
+    pairs:
+    - - de repente
+      - פתאום
+    - - un día
+      - יום אחד
+    - - la cartera
+      - ארנק
+    - - la acera
+      - מדרכה
+    - - devolver
+      - להחזיר
+    lexemes:
+    - de-repente
+    - un-dia
+    - cartera
+    - acera
+    - devolver
+  - id: u22-review-02
+    type: match_pairs
+    pairs:
+    - - perder
+      - לאבד
+    - - olvidar
+      - לשכוח
+    - - llorar
+      - לבכות
+    - - reír
+      - לצחוק
+    - - ocurrir
+      - לקרות
+    lexemes:
+    - perder
+    - olvidar
+    - llorar
+    - reir
+    - ocurrir
+  - id: u22-review-03
+    type: fill_blank
+    sentence: Llovía cuando yo ___. (salir)
+    translation: ירד גשם כשיצאתי.
+    answers:
+    - salí
+    options:
+    - salí
+    - salía
+    - salgo
+    lexemes:
+    - llover
+    - salir
+  - id: u22-review-04
+    type: fill_blank
+    sentence: Mientras ella ___, él trabajaba. (dormir)
+    translation: בזמן שהיא ישנה הוא עבד.
+    answers:
+    - dormía
+    options:
+    - dormía
+    - durmió
+    - duerme
+    lexemes:
+    - mientras
+    - dormir
+    - trabajar
+  - id: u22-review-05
+    type: multiple_choice
+    prompt: מה הצורה של רקע?
+    options:
+    - imperfecto
+    - pretérito
+    - futuro
+    correct: 0
+    lexemes:
+    - ayer
+  - id: u22-review-06
+    type: listening_choice
+    audioText: Ayer perdí mi cartera.
+    question: מה קרה?
+    options:
+    - איבדתי ארנק
+    - מצאתי ארנק
+    - שכחתי ארנק
+    correct: 0
+    lexemes:
+    - ayer
+    - perder
+    - cartera
+    - encontrar
+    - olvidar
+  - id: u22-review-07
+    type: word_bank
+    prompt: ירד גשם כשהגעתי.
+    answers:
+    - Llovía cuando llegué.
+    distractors:
+    - Llovió
+    - llegaba
+    lexemes:
+    - llover
+    - llegar
+  - id: u22-review-08
+    type: translate
+    direction: to_target
+    prompt: פתאום ראיתי תאונה.
+    answers:
+    - De repente vi un accidente.
+    lexemes:
+    - de-repente
+    - ver
+    - accidente
+  - id: u22-review-09
+    type: translate
+    direction: to_source
+    prompt: Un día encontró la cartera y llamó al dueño.
+    answers:
+    - יום אחד הוא מצא את הארנק והתקשר לבעלים
+    lexemes:
+    - un-dia
+    - encontrar
+    - cartera
+    - llamar
+    - dueno
+  - id: u22-review-10
+    type: dictation
+    text: Era un día lluvioso.
+    lexemes:
+    - lluvioso
+  - id: u22-review-11
+    type: speak_repeat
+    text: De repente, la puerta se abrió.
+    translation: פתאום הדלת נפתחה.
+    lexemes:
+    - de-repente
+    - puerta
+    - abrir
+  - id: u22-review-12
+    type: write
+    prompt: 'ספרו על יום מיוחד: מה היה מסביב (imperfecto) ומה קרה (pretérito). השתמשו ב־de repente.'
+    minWords: 40
+    checks:
+    - label: רקע ב־imperfecto (…aba/…ía)
+      any:
+      - aba\b
+      - abas\b
+      - ia\b
+      - ian\b
+      - aban\b
+    - label: אירועים ב־pretérito (…é/…ó/…í/…ió)
+      any:
+      - \w+e\b
+      - \w+o\b
+      - \w+ieron\b
+      - \w+aron\b
+    - label: השתמשתם ב־de repente או un día
+      any:
+      - de repente
+      - un dia
+      - ese dia
+    - label: שילבתם cuando או mientras
+      any:
+      - \bcuando\b
+      - \bmientras\b
+    model: Era una mañana tranquila y yo caminaba por el parque. Hacía sol y los niños jugaban cerca. De repente escuché un grito y vi a un niño en el suelo. Corrí hacia él y lo ayudé a levantarse. Cuando llegó su madre, él ya no lloraba y todos nos reímos. Fue un día inolvidable.
+    lexemes: []

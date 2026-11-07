@@ -1,6 +1,6 @@
 import type { Exercise } from "@lingo/content-schema";
 import { describe, expect, it } from "vitest";
-import { RuleEvaluator, seededShuffle, wordBankTiles } from "./evaluate";
+import { checkWriting, RuleEvaluator, seededShuffle, wordBankTiles } from "./evaluate";
 
 const ctx = { target: "en", source: "he" };
 const ev = new RuleEvaluator();
@@ -60,5 +60,16 @@ describe("new lesson steps", () => {
     };
     expect(ev.evaluate(ex, { type: "dialogue_gap", choice: "I'm fine, thanks." }, ctx).correct).toBe(true);
     expect(ev.evaluate(ex, { type: "dialogue_gap", choice: "My name is Sam." }, ctx)).toMatchObject({ correct: false, expected: "I'm fine, thanks." });
+  });
+});
+
+describe("checkWriting with accents", () => {
+  const ex = { minWords: 5, checks: [{ label: "past tense", any: ["\\bhable\\b", "\\bhablo\\b"] }, { label: "año", any: ["\\bañ"] }] };
+  it("matches patterns written without accents, with or without accents typed", () => {
+    expect(checkWriting("Ayer hablé con mi madre de nuestro año", ex).passed).toBe(2);
+    expect(checkWriting("Ayer hable con mi madre de nuestro año", ex).passed).toBe(2);
+  });
+  it("keeps ñ distinct from n", () => {
+    expect(checkWriting("Ayer hable con mi madre de nuestro ano", ex).passed).toBe(1);
   });
 });
