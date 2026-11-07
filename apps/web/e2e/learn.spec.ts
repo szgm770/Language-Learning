@@ -249,3 +249,18 @@ test("on a new device any course can be chosen when moving progress", async ({ p
   await page.getByRole("link", { name: "להמשיך ללמוד" }).click();
   await expect(page).toHaveURL(/\/learn\/$/);
 });
+
+test("Yiddish can be started from zero", async ({ page }) => {
+  await page.goto("start/");
+  await page.getByRole("button", { name: /יידיש/ }).click();
+  await page.getByRole("button", { name: /רגיל/ }).click();
+  await page.getByRole("button", { name: /מאפס/ }).click();
+  await expect(page).toHaveURL(/\/lesson\/yi-for-he\/u00a-l1\/$/);
+});
+
+for (const id of ["u00a-l1", "u00a-review", "u00b-l1", "u00b-l2", "u00b-l3", "u00b-review", "u00c-l1", "u00c-l2", "u00c-review"]) {
+  test(`Yiddish lesson ${id} can be solved from the content`, async ({ page }) => {
+    await page.goto(`lesson/yi-for-he/${id}/`);
+    await finishLesson(page);
+  });
+}

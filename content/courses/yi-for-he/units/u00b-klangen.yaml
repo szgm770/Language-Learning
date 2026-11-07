@@ -1,0 +1,587 @@
+id: u00b-klangen
+cefr: A0
+scene: study
+title:
+  he: הצלילים בליטאית
+  en: Litvish sounds
+story: סבא של מנחם מדבר יידיש ליטאית. מנחם לומד לקרוא מילים ולהבין איך הן נשמעות אצלו.
+canDo:
+- לקרוא את צירופי האותיות הכפולים
+- להגות שמונה מילים ביידיש הליטאית
+- לדעת שיש ניבים שונים ביידיש
+vocabulary:
+- id: d-yy
+  text: יי
+  translation: 'שני יודים: הצליל ey'
+  pos: noun
+  pronunciation: ey
+  example:
+    text: קליין
+    translation: קטן
+- id: d-vy
+  text: וי
+  translation: 'ו ואחריה י: בליטאית גם הצליל ey'
+  pos: noun
+  pronunciation: ey
+  example:
+    text: ברויט
+    translation: לחם
+- id: d-pasekh-yy
+  text: ײַ
+  translation: 'שני יודים עם פתח מתחת: הצליל ay'
+  pos: noun
+  pronunciation: ay
+  example:
+    text: מײַן
+    translation: שלי
+- id: d-vv
+  text: וו
+  translation: 'שתי וו: העיצור v'
+  pos: noun
+  pronunciation: v
+  example:
+    text: וואָס
+    translation: מה
+- id: w-dos
+  text: דאָס
+  translation: זה / את זה
+  pos: noun
+  pronunciation: dos
+  example:
+    text: דאָס איז גוט.
+    translation: זה טוב.
+- id: w-zogn
+  text: זאָגן
+  translation: לומר
+  pos: verb
+  pronunciation: zogn
+  example:
+    text: איך וויל זאָגן.
+    translation: אני רוצה לומר.
+- id: w-kugl
+  text: קוגל
+  translation: קוגל (פשטידה)
+  pos: noun
+  pronunciation: kugl
+- id: w-shtetl
+  text: שטעטל
+  translation: עיירה יהודית קטנה
+  pos: noun
+  pronunciation: shtetl
+- id: w-kleyn
+  text: קליין
+  translation: קטן
+  pos: adjective
+  pronunciation: kleyn
+- id: w-tsvey
+  text: צוויי
+  translation: שתיים
+  pos: adjective
+  pronunciation: tsvey
+- id: w-breyt
+  text: ברויט
+  translation: לחם
+  pos: noun
+  pronunciation: breyt
+- id: w-mayn
+  text: מײַן
+  translation: שלי
+  pos: determiner
+  pronunciation: mayn
+lessons:
+- id: u00b-l1
+  kind: new
+  title:
+    he: אותיות כפולות
+    en: Double letters
+  exercises:
+  - id: u00b-l1-01
+    type: tip
+    title: שתי אותיות, צליל אחד
+    text: 'ביידיש יש צירופי אותיות שמייצגים צליל אחד:
+
+      **יי** נקרא ey, ו**וו** נקרא v (כמו בעברית, ו בתחילת מילה).
+
+      **וי** נקרא בליטאית ey (בחסידות אחרות שומעים oy), ו**ײַ** עם הפתח נקרא ay.
+
+      שימו לב: בליטאית **יי** ו**וי** נשמעות דומה, אבל הכתיב שונה, ולכן צריך לזכור איך כל מילה נכתבת.
+
+      '
+  - id: u00b-l1-02
+    type: learn
+    lexeme: d-yy
+  - id: u00b-l1-03
+    type: learn
+    lexeme: d-vy
+  - id: u00b-l1-04
+    type: learn
+    lexeme: d-pasekh-yy
+  - id: u00b-l1-05
+    type: learn
+    lexeme: d-vv
+  - id: u00b-l1-06
+    type: match_pairs
+    pairs:
+    - - יי
+      - קליין
+    - - וי
+      - ברויט
+    - - ײַ
+      - מײַן
+    - - וו
+      - וואָס
+    lexemes:
+    - d-yy
+    - d-vy
+    - d-pasekh-yy
+    - d-vv
+  - id: u00b-l1-07
+    type: multiple_choice
+    prompt: איך נקראות האותיות יי?
+    options:
+    - ey
+    - ay
+    - v
+    correct: 0
+    lexemes:
+    - d-yy
+  - id: u00b-l1-08
+    type: multiple_choice
+    prompt: איך נקראות האותיות וי?
+    options:
+    - ey
+    - ay
+    - v
+    correct: 0
+    lexemes:
+    - d-vy
+  - id: u00b-l1-09
+    type: multiple_choice
+    prompt: איך נקראות האותיות ײַ?
+    options:
+    - ay
+    - ey
+    - ey
+    correct: 0
+    lexemes:
+    - d-pasekh-yy
+  - id: u00b-l1-10
+    type: multiple_choice
+    prompt: איך נקראות האותיות וו?
+    options:
+    - v
+    - ey
+    - ey
+    correct: 0
+    lexemes:
+    - d-vv
+  - id: u00b-l1-11
+    type: multiple_choice
+    prompt: איזה צירוף נקרא ey?
+    options:
+    - יי
+    - ײַ
+    - וו
+    correct: 0
+    lexemes:
+    - d-yy
+  - id: u00b-l1-12
+    type: multiple_choice
+    prompt: איזה צירוף נקרא ey?
+    options:
+    - וי
+    - ײַ
+    - וו
+    correct: 0
+    lexemes:
+    - d-vy
+  - id: u00b-l1-13
+    type: multiple_choice
+    prompt: איזה צירוף נקרא ay?
+    options:
+    - ײַ
+    - יי
+    - וי
+    correct: 0
+    lexemes:
+    - d-pasekh-yy
+  - id: u00b-l1-14
+    type: multiple_choice
+    prompt: איזה צירוף נקרא v?
+    options:
+    - וו
+    - יי
+    - וי
+    correct: 0
+    lexemes:
+    - d-vv
+- id: u00b-l2
+  kind: new
+  title:
+    he: המילים הראשונות
+    en: Words
+  exercises:
+  - id: u00b-l2-01
+    type: tip
+    title: הניבים של היידיש
+    text: 'ביידיש יש כמה ניבים. בקורס הזה לומדים את **הליטאי**, שמדברים בחב״ד.
+
+      דוגמה: המילה "קטן" נשמעת **kleyn** בליטאית, ו**klayn** בחסידויות פולניות. גם **dos** (ליטאי) מול **dus**, ו**kugl** מול **kigl**.
+
+      שני הניבים נכונים, אבל בקורס הזה ההגייה היא הליטאית.
+
+      '
+  - id: u00b-l2-02
+    type: learn
+    lexeme: w-dos
+  - id: u00b-l2-03
+    type: learn
+    lexeme: w-zogn
+  - id: u00b-l2-04
+    type: learn
+    lexeme: w-kugl
+  - id: u00b-l2-05
+    type: learn
+    lexeme: w-shtetl
+  - id: u00b-l2-06
+    type: match_pairs
+    pairs:
+    - - דאָס
+      - dos
+    - - זאָגן
+      - zogn
+    - - קוגל
+      - kugl
+    - - שטעטל
+      - shtetl
+    lexemes:
+    - w-dos
+    - w-zogn
+    - w-kugl
+    - w-shtetl
+  - id: u00b-l2-07
+    type: multiple_choice
+    prompt: איך קוראים את המילה דאָס?
+    options:
+    - dos
+    - zogn
+    - kugl
+    correct: 0
+    lexemes:
+    - w-dos
+  - id: u00b-l2-08
+    type: multiple_choice
+    prompt: איך קוראים את המילה זאָגן?
+    options:
+    - zogn
+    - dos
+    - kugl
+    correct: 0
+    lexemes:
+    - w-zogn
+  - id: u00b-l2-09
+    type: multiple_choice
+    prompt: איך קוראים את המילה קוגל?
+    options:
+    - kugl
+    - dos
+    - zogn
+    correct: 0
+    lexemes:
+    - w-kugl
+  - id: u00b-l2-10
+    type: multiple_choice
+    prompt: איך קוראים את המילה שטעטל?
+    options:
+    - shtetl
+    - dos
+    - zogn
+    correct: 0
+    lexemes:
+    - w-shtetl
+  - id: u00b-l2-11
+    type: multiple_choice
+    prompt: מה פירוש דאָס?
+    options:
+    - זה / את זה
+    - לומר
+    - קוגל (פשטידה)
+    correct: 0
+    lexemes:
+    - w-dos
+  - id: u00b-l2-12
+    type: multiple_choice
+    prompt: מה פירוש זאָגן?
+    options:
+    - לומר
+    - זה / את זה
+    - קוגל (פשטידה)
+    correct: 0
+    lexemes:
+    - w-zogn
+  - id: u00b-l2-13
+    type: multiple_choice
+    prompt: מה פירוש קוגל?
+    options:
+    - קוגל (פשטידה)
+    - זה / את זה
+    - לומר
+    correct: 0
+    lexemes:
+    - w-kugl
+  - id: u00b-l2-14
+    type: multiple_choice
+    prompt: מה פירוש שטעטל?
+    options:
+    - עיירה יהודית קטנה
+    - זה / את זה
+    - לומר
+    correct: 0
+    lexemes:
+    - w-shtetl
+- id: u00b-l3
+  kind: new
+  title:
+    he: עוד מילים
+    en: Words
+  exercises:
+  - id: u00b-l3-01
+    type: learn
+    lexeme: w-kleyn
+  - id: u00b-l3-02
+    type: learn
+    lexeme: w-tsvey
+  - id: u00b-l3-03
+    type: learn
+    lexeme: w-breyt
+  - id: u00b-l3-04
+    type: learn
+    lexeme: w-mayn
+  - id: u00b-l3-05
+    type: match_pairs
+    pairs:
+    - - קליין
+      - kleyn
+    - - צוויי
+      - tsvey
+    - - ברויט
+      - breyt
+    - - מײַן
+      - mayn
+    lexemes:
+    - w-kleyn
+    - w-tsvey
+    - w-breyt
+    - w-mayn
+  - id: u00b-l3-06
+    type: multiple_choice
+    prompt: איך קוראים את המילה קליין?
+    options:
+    - kleyn
+    - tsvey
+    - breyt
+    correct: 0
+    lexemes:
+    - w-kleyn
+  - id: u00b-l3-07
+    type: multiple_choice
+    prompt: איך קוראים את המילה צוויי?
+    options:
+    - tsvey
+    - kleyn
+    - breyt
+    correct: 0
+    lexemes:
+    - w-tsvey
+  - id: u00b-l3-08
+    type: multiple_choice
+    prompt: איך קוראים את המילה ברויט?
+    options:
+    - breyt
+    - kleyn
+    - tsvey
+    correct: 0
+    lexemes:
+    - w-breyt
+  - id: u00b-l3-09
+    type: multiple_choice
+    prompt: איך קוראים את המילה מײַן?
+    options:
+    - mayn
+    - kleyn
+    - tsvey
+    correct: 0
+    lexemes:
+    - w-mayn
+  - id: u00b-l3-10
+    type: multiple_choice
+    prompt: מה פירוש קליין?
+    options:
+    - קטן
+    - שתיים
+    - לחם
+    correct: 0
+    lexemes:
+    - w-kleyn
+  - id: u00b-l3-11
+    type: multiple_choice
+    prompt: מה פירוש צוויי?
+    options:
+    - שתיים
+    - קטן
+    - לחם
+    correct: 0
+    lexemes:
+    - w-tsvey
+  - id: u00b-l3-12
+    type: multiple_choice
+    prompt: מה פירוש ברויט?
+    options:
+    - לחם
+    - קטן
+    - שתיים
+    correct: 0
+    lexemes:
+    - w-breyt
+  - id: u00b-l3-13
+    type: multiple_choice
+    prompt: מה פירוש מײַן?
+    options:
+    - שלי
+    - קטן
+    - שתיים
+    correct: 0
+    lexemes:
+    - w-mayn
+- id: u00b-review
+  kind: review
+  title:
+    he: 'חזרה: הצלילים'
+    en: 'Review: the sounds'
+  exercises:
+  - id: u00b-review-01
+    type: match_pairs
+    pairs:
+    - - דאָס
+      - dos
+    - - זאָגן
+      - zogn
+    - - קוגל
+      - kugl
+    - - שטעטל
+      - shtetl
+    lexemes:
+    - w-dos
+    - w-zogn
+    - w-kugl
+    - w-shtetl
+  - id: u00b-review-02
+    type: match_pairs
+    pairs:
+    - - קליין
+      - kleyn
+    - - צוויי
+      - tsvey
+    - - ברויט
+      - breyt
+    - - מײַן
+      - mayn
+    lexemes:
+    - w-kleyn
+    - w-tsvey
+    - w-breyt
+    - w-mayn
+  - id: u00b-review-03
+    type: multiple_choice
+    prompt: איך קוראים בליטאית את המילה קליין?
+    options:
+    - kleyn
+    - klayn
+    - kloyn
+    correct: 0
+    lexemes:
+    - w-kleyn
+  - id: u00b-review-04
+    type: multiple_choice
+    prompt: איך קוראים בליטאית את המילה ברויט?
+    options:
+    - breyt
+    - broyt
+    - brayt
+    correct: 0
+    lexemes:
+    - w-breyt
+  - id: u00b-review-05
+    type: multiple_choice
+    prompt: איך קוראים בליטאית את המילה קוגל?
+    options:
+    - kugl
+    - kigl
+    - kogl
+    correct: 0
+    lexemes:
+    - w-kugl
+  - id: u00b-review-06
+    type: multiple_choice
+    prompt: איך קוראים בליטאית את המילה דאָס?
+    options:
+    - dos
+    - dus
+    - das
+    correct: 0
+    lexemes:
+    - w-dos
+  - id: u00b-review-07
+    type: translate
+    direction: to_source
+    prompt: קליין
+    answers:
+    - קטן
+    lexemes:
+    - w-kleyn
+  - id: u00b-review-08
+    type: translate
+    direction: to_source
+    prompt: צוויי
+    answers:
+    - שתיים
+    - שניים
+    - שתי
+    - שני
+    lexemes:
+    - w-tsvey
+  - id: u00b-review-09
+    type: translate
+    direction: to_source
+    prompt: ברויט
+    answers:
+    - לחם
+    lexemes:
+    - w-breyt
+  - id: u00b-review-10
+    type: translate
+    direction: to_source
+    prompt: שטעטל
+    answers:
+    - עיירה
+    - עיירה יהודית
+    - עיירה קטנה
+    lexemes:
+    - w-shtetl
+  - id: u00b-review-11
+    type: translate
+    direction: to_target
+    prompt: לחם
+    answers:
+    - ברויט
+    lexemes:
+    - w-breyt
+  - id: u00b-review-12
+    type: translate
+    direction: to_target
+    prompt: שלי
+    answers:
+    - מײַן
+    - מיין
+    lexemes:
+    - w-mayn

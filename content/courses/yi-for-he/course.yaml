@@ -1,0 +1,18 @@
+id: yi-for-he
+source: he
+target: yi
+speechLang: none
+title:
+  he: יידיש לדוברי עברית
+  en: Yiddish for Hebrew speakers
+description:
+  he: "יידיש ליטאית, כמו שמדברים בחב״ד, עם מנחם אצל סבא וסבתא בכפר חב״ד."
+  en: Litvish Yiddish as spoken in Chabad, with Menachem at his grandparents' in Kfar Chabad.
+characters:
+  - { id: "menachem", name: "Menachem", he: "מנחם", color: "blue", look: "short", pitch: 1.0 }
+  - { id: "zeyde", name: "Zeyde", he: "זיידע", color: "teal", look: "bald", pitch: 0.8 }
+  - { id: "bobe", name: "Bobe", he: "באָבע", color: "rose", look: "curly", pitch: 1.1 }
+units:
+  - u00a-oysyes
+  - u00b-klangen
+  - u00c-ershte-verter

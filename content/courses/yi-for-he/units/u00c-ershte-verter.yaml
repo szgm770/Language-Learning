@@ -1,0 +1,480 @@
+id: u00c-ershte-verter
+cefr: A0
+scene: home
+title:
+  he: המילים הראשונות
+  en: First words
+story: מנחם מגיע לבית של סבא וסבתא. הוא מכיר מילים מהבית, ושומע גם מילים שלא הכיר.
+canDo:
+- להבין ולכתוב כמה מילים בסיסיות ביידיש
+- לזהות מילים עבריות שנכתבות כמו בעברית
+- לקרוא אותן בליטאית
+vocabulary:
+- id: ikh
+  text: איך
+  translation: אני
+  pos: noun
+  pronunciation: ikh
+- id: du
+  text: דו
+  translation: אתה / את
+  pos: noun
+  pronunciation: du
+- id: yo
+  text: יאָ
+  translation: כן
+  pos: noun
+  pronunciation: yo
+- id: neyn
+  text: ניין
+  translation: לא
+  pos: noun
+  pronunciation: neyn
+- id: gut
+  text: גוט
+  translation: טוב
+  pos: adjective
+  pronunciation: gut
+- id: mame
+  text: מאַמע
+  translation: אמא
+  pos: noun
+  pronunciation: mame
+- id: tate
+  text: טאַטע
+  translation: אבא
+  pos: noun
+  pronunciation: tate
+- id: shabes
+  text: שבת
+  translation: יום השבת
+  pos: noun
+- id: toyre
+  text: תורה
+  translation: התורה
+  pos: noun
+- id: shalom
+  text: שלום
+  translation: ברכת שלום
+  pos: noun
+- id: brokhe
+  text: ברכה
+  translation: ברכה או איחול
+  pos: noun
+lessons:
+- id: u00c-l1
+  kind: new
+  title:
+    he: אני, אתה, כן ולא
+    en: Words
+  exercises:
+  - id: u00c-l1-01
+    type: tip
+    title: מילים קצרות
+    text: 'המילים האלה הן הבסיס לכל משפט: **איך** (אני), **דו** (אתה או את), **יאָ** (כן), **ניין** (לא), **גוט** (טוב).
+
+      שימו לב לכתיב: **ניין** נקראת neyn, ו**גוט** נקראת gut.
+
+      '
+  - id: u00c-l1-02
+    type: learn
+    lexeme: ikh
+  - id: u00c-l1-03
+    type: learn
+    lexeme: du
+  - id: u00c-l1-04
+    type: learn
+    lexeme: yo
+  - id: u00c-l1-05
+    type: learn
+    lexeme: neyn
+  - id: u00c-l1-06
+    type: learn
+    lexeme: gut
+  - id: u00c-l1-07
+    type: match_pairs
+    pairs:
+    - - איך
+      - אני
+    - - דו
+      - אתה / את
+    - - יאָ
+      - כן
+    - - ניין
+      - לא
+    - - גוט
+      - טוב
+    lexemes:
+    - ikh
+    - du
+    - yo
+    - neyn
+    - gut
+  - id: u00c-l1-08
+    type: multiple_choice
+    prompt: מה פירוש איך?
+    options:
+    - אני
+    - אתה / את
+    - כן
+    correct: 0
+    lexemes:
+    - ikh
+  - id: u00c-l1-09
+    type: multiple_choice
+    prompt: מה פירוש דו?
+    options:
+    - אתה / את
+    - אני
+    - כן
+    correct: 0
+    lexemes:
+    - du
+  - id: u00c-l1-10
+    type: multiple_choice
+    prompt: מה פירוש יאָ?
+    options:
+    - כן
+    - אני
+    - אתה / את
+    correct: 0
+    lexemes:
+    - yo
+  - id: u00c-l1-11
+    type: multiple_choice
+    prompt: מה פירוש ניין?
+    options:
+    - לא
+    - אני
+    - אתה / את
+    correct: 0
+    lexemes:
+    - neyn
+  - id: u00c-l1-12
+    type: multiple_choice
+    prompt: מה פירוש גוט?
+    options:
+    - טוב
+    - אני
+    - אתה / את
+    correct: 0
+    lexemes:
+    - gut
+  - id: u00c-l1-13
+    type: translate
+    direction: to_source
+    prompt: איך
+    answers:
+    - אני
+    lexemes:
+    - ikh
+  - id: u00c-l1-14
+    type: translate
+    direction: to_source
+    prompt: דו
+    answers:
+    - אתה
+    - את
+    lexemes:
+    - du
+  - id: u00c-l1-15
+    type: translate
+    direction: to_source
+    prompt: יאָ
+    answers:
+    - כן
+    lexemes:
+    - yo
+  - id: u00c-l1-16
+    type: translate
+    direction: to_source
+    prompt: ניין
+    answers:
+    - לא
+    lexemes:
+    - neyn
+  - id: u00c-l1-17
+    type: translate
+    direction: to_source
+    prompt: גוט
+    answers:
+    - טוב
+    lexemes:
+    - gut
+- id: u00c-l2
+  kind: new
+  title:
+    he: משפחה ומילים עבריות
+    en: Words
+  exercises:
+  - id: u00c-l2-01
+    type: tip
+    title: מילים מעברית
+    text: 'מילים רבות ביידיש באות מעברית, ו**נכתבות כמו בעברית**: שבת, תורה, שלום, ברכה.
+
+      בניגוד לשאר היידיש, הן לא נכתבות לפי התנועות של היידיש, אלא באותו כתיב כמו בלשון הקודש.
+
+      '
+  - id: u00c-l2-02
+    type: learn
+    lexeme: mame
+  - id: u00c-l2-03
+    type: learn
+    lexeme: tate
+  - id: u00c-l2-04
+    type: learn
+    lexeme: shabes
+  - id: u00c-l2-05
+    type: learn
+    lexeme: toyre
+  - id: u00c-l2-06
+    type: learn
+    lexeme: shalom
+  - id: u00c-l2-07
+    type: learn
+    lexeme: brokhe
+  - id: u00c-l2-08
+    type: match_pairs
+    pairs:
+    - - מאַמע
+      - אמא
+    - - טאַטע
+      - אבא
+    - - שבת
+      - יום השבת
+    - - תורה
+      - התורה
+    - - שלום
+      - ברכת שלום
+    - - ברכה
+      - ברכה או איחול
+    lexemes:
+    - mame
+    - tate
+    - shabes
+    - toyre
+    - shalom
+    - brokhe
+  - id: u00c-l2-09
+    type: multiple_choice
+    prompt: מה פירוש מאַמע?
+    options:
+    - אמא
+    - אבא
+    - יום השבת
+    correct: 0
+    lexemes:
+    - mame
+  - id: u00c-l2-10
+    type: multiple_choice
+    prompt: מה פירוש טאַטע?
+    options:
+    - אבא
+    - אמא
+    - יום השבת
+    correct: 0
+    lexemes:
+    - tate
+  - id: u00c-l2-11
+    type: multiple_choice
+    prompt: מה פירוש שבת?
+    options:
+    - יום השבת
+    - אמא
+    - אבא
+    correct: 0
+    lexemes:
+    - shabes
+  - id: u00c-l2-12
+    type: multiple_choice
+    prompt: מה פירוש תורה?
+    options:
+    - התורה
+    - אמא
+    - אבא
+    correct: 0
+    lexemes:
+    - toyre
+  - id: u00c-l2-13
+    type: multiple_choice
+    prompt: מה פירוש שלום?
+    options:
+    - ברכת שלום
+    - אמא
+    - אבא
+    correct: 0
+    lexemes:
+    - shalom
+  - id: u00c-l2-14
+    type: multiple_choice
+    prompt: מה פירוש ברכה?
+    options:
+    - ברכה או איחול
+    - אמא
+    - אבא
+    correct: 0
+    lexemes:
+    - brokhe
+  - id: u00c-l2-15
+    type: translate
+    direction: to_source
+    prompt: מאַמע
+    answers:
+    - אמא
+    lexemes:
+    - mame
+  - id: u00c-l2-16
+    type: translate
+    direction: to_source
+    prompt: טאַטע
+    answers:
+    - אבא
+    lexemes:
+    - tate
+  - id: u00c-l2-17
+    type: translate
+    direction: to_source
+    prompt: שבת
+    answers:
+    - יום השבת
+    - שבת
+    lexemes:
+    - shabes
+  - id: u00c-l2-18
+    type: translate
+    direction: to_source
+    prompt: תורה
+    answers:
+    - התורה
+    - תורה
+    lexemes:
+    - toyre
+  - id: u00c-l2-19
+    type: translate
+    direction: to_source
+    prompt: שלום
+    answers:
+    - ברכת שלום
+    - שלום
+    lexemes:
+    - shalom
+  - id: u00c-l2-20
+    type: translate
+    direction: to_source
+    prompt: ברכה
+    answers:
+    - ברכה או איחול
+    - ברכה
+    - איחול
+    lexemes:
+    - brokhe
+- id: u00c-review
+  kind: review
+  title:
+    he: 'חזרה: המילים הראשונות'
+    en: 'Review: first words'
+  exercises:
+  - id: u00c-review-01
+    type: match_pairs
+    pairs:
+    - - איך
+      - אני
+    - - דו
+      - אתה / את
+    - - יאָ
+      - כן
+    - - ניין
+      - לא
+    - - גוט
+      - טוב
+    - - מאַמע
+      - אמא
+    lexemes:
+    - ikh
+    - du
+    - yo
+    - neyn
+    - gut
+    - mame
+  - id: u00c-review-02
+    type: match_pairs
+    pairs:
+    - - טאַטע
+      - אבא
+    - - שבת
+      - יום השבת
+    - - תורה
+      - התורה
+    - - שלום
+      - ברכת שלום
+    - - ברכה
+      - ברכה או איחול
+    lexemes:
+    - tate
+    - shabes
+    - toyre
+    - shalom
+    - brokhe
+  - id: u00c-review-03
+    type: multiple_choice
+    prompt: איך אומרים ביידיש 'כן'?
+    options:
+    - יאָ
+    - ניין
+    - גוט
+    correct: 0
+    lexemes:
+    - yo
+  - id: u00c-review-04
+    type: multiple_choice
+    prompt: איך אומרים ביידיש 'לא'?
+    options:
+    - ניין
+    - יאָ
+    - דו
+    correct: 0
+    lexemes:
+    - neyn
+  - id: u00c-review-05
+    type: multiple_choice
+    prompt: איך אומרים ביידיש 'אמא'?
+    options:
+    - מאַמע
+    - טאַטע
+    - שלום
+    correct: 0
+    lexemes:
+    - mame
+  - id: u00c-review-06
+    type: translate
+    direction: to_target
+    prompt: אבא
+    answers:
+    - טאַטע
+    lexemes:
+    - tate
+  - id: u00c-review-07
+    type: translate
+    direction: to_target
+    prompt: טוב
+    answers:
+    - גוט
+    lexemes:
+    - gut
+  - id: u00c-review-08
+    type: translate
+    direction: to_target
+    prompt: אני
+    answers:
+    - איך
+    lexemes:
+    - ikh
+  - id: u00c-review-09
+    type: translate
+    direction: to_source
+    prompt: שלום
+    answers:
+    - ברכת שלום
+    - שלום
+    lexemes:
+    - shalom

@@ -5,6 +5,9 @@ export function speechSupported(): boolean {
   return typeof window !== "undefined" && "speechSynthesis" in window;
 }
 
+/** A course whose `speechLang` is "none" has no machine voice (e.g. Yiddish); nothing is spoken and no play buttons show. */
+export const NO_VOICE = "none";
+
 function pickVoice(lang: string): SpeechSynthesisVoice | undefined {
   const voices = window.speechSynthesis.getVoices();
   const base = lang.split("-")[0]!;
@@ -35,7 +38,7 @@ function utterance(text: string, lang: string, opts: SpeakOptions) {
 }
 
 export function speak(text: string, lang: string, opts: SpeakOptions | boolean = {}): void {
-  if (!speechSupported()) return;
+  if (!speechSupported() || lang === NO_VOICE) return;
   const o = typeof opts === "boolean" ? { slow: opts } : opts;
   window.speechSynthesis.cancel();
   window.speechSynthesis.speak(utterance(text, lang, o));
@@ -47,7 +50,7 @@ export function speakSequence(
   lang: string,
   onLine: (index: number) => void,
 ): () => void {
-  if (!speechSupported()) return () => undefined;
+  if (!speechSupported() || lang === NO_VOICE) return () => undefined;
   const synth = window.speechSynthesis;
   synth.cancel();
   let stopped = false;
