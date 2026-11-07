@@ -1,0 +1,943 @@
+id: u43-academico
+cefr: C1
+scene: study
+title:
+  he: 'ספרדית אקדמית: ניסוח, שמות פעולה, הסתייגות'
+  en: Academic Spanish
+story: 'יעל כותבת מאמר קצר לקורס באוניברסיטה בגוואדלחרה: ''Cabe destacar que…'', ''El aumento de…'', ''Se ha demostrado que…''. היא לומדת לנסח בסגנון אקדמי: שמות פעולה, ניסוח עקיף, והסתייגות מדודה.'
+canDo:
+- להפוך פעלים לשמות פעולה (aumentar → el aumento)
+- להשתמש בניסוח אל־אישי (se ha demostrado, cabe señalar)
+- לצטט ולהפנות למקורות
+- להסתייג בזהירות (parece indicar, podría sugerir)
+vocabulary:
+- id: aumento
+  text: el aumento
+  translation: עלייה
+  pos: noun
+- id: disminucion
+  text: la disminución
+  translation: ירידה
+  pos: noun
+- id: desarrollo
+  text: el desarrollo
+  translation: התפתחות
+  pos: noun
+- id: impacto
+  text: el impacto
+  translation: השפעה
+  pos: noun
+- id: factor
+  text: el factor
+  translation: גורם
+  pos: noun
+- id: estudio
+  text: el estudio
+  translation: מחקר
+  pos: noun
+- id: cabe-destacar
+  text: cabe destacar que
+  translation: ראוי להדגיש ש
+  pos: phrase
+- id: se-ha-demostrado
+  text: se ha demostrado que
+  translation: הוכח ש
+  pos: phrase
+- id: segun-fuentes
+  text: según los datos
+  translation: לפי הנתונים
+  pos: phrase
+- id: parece-indicar
+  text: parece indicar que
+  translation: נראה שמצביע על כך
+  pos: phrase
+- id: en-este-sentido
+  text: en este sentido
+  translation: מבחינה זו
+  pos: phrase
+- id: cabe-senalar
+  text: cabe señalar
+  translation: ראוי לציין
+  pos: phrase
+- id: analizar
+  text: analizar
+  translation: לנתח
+  pos: verb
+- id: sugerir-p
+  text: sugerir
+  translation: להצביע על
+  pos: verb
+- id: concluir
+  text: concluir
+  translation: להסיק
+  pos: verb
+- id: demostrar
+  text: demostrar
+  translation: להוכיח
+  pos: verb
+- id: resultados
+  text: los resultados
+  translation: התוצאות
+  pos: noun
+- id: fuente
+  text: la fuente
+  translation: מקור
+  pos: noun
+grammar:
+- id: academico
+  title:
+    he: ניסוח אקדמי
+    en: Academic style
+  explanation: 'בעברית אקדמית אנחנו כותבים "העלייה במחירים", "נמצא כי", "ראוי לציין". בספרדית:
+
+
+    **שמות פעולה (nominalización) – מעדיפים שם עצם במקום פועל:**
+
+    * *aumentar → **el aumento*** | *disminuir → **la disminución*** | *desarrollar → **el desarrollo*** | *analizar → **el análisis***
+
+    * ***El aumento** de los precios afectó a las familias.* (במקום: *Los precios aumentaron y afectaron…*)
+
+
+    **ניסוח אל־אישי עם se:**
+
+    * ***Se ha demostrado que** el ejercicio mejora la salud.* | ***Se observa** una disminución.* | ***Se puede concluir que**…*
+
+
+    **ביטויים אקדמיים קבועים:**
+
+    * *Cabe destacar / señalar que…* (ראוי להדגיש / לציין ש) | *En este sentido,…* (מבחינה זו) | *Según los datos,…* | *Por lo tanto,…* | *En cambio,…*
+
+
+    **הסתייגות (hedging) – חשוב באקדמיה:**
+
+    * *Parece indicar que…* | *Los resultados sugieren que…* | *Podría explicarse por…* | *Es probable que… + סובג''ונקטיב* | *Tiende a…*
+
+    * במקום "זה כך": *Esto parece indicar que…* או *Es posible que… sea…*
+
+
+    **ציטוט והפניה:** *Según García (2020),… | De acuerdo con el estudio,… | Como señala la fuente,…*
+
+
+    **הערה:** האקדמיה מעדיפה משפטים ארוכים עם מחברים, אבל משפט אחד שמעביר רעיון אחד טוב יותר ממשפט ארוך ומבולבל.'
+  examples:
+  - text: Cabe destacar que el aumento de los precios afectó a las familias.
+    translation: ראוי להדגיש שהעלייה במחירים השפיעה על המשפחות.
+  - text: Se ha demostrado que el estudio constante mejora los resultados.
+    translation: הוכח שלימוד עקבי משפר את התוצאות.
+  - text: Los datos parecen indicar que el factor principal es el tiempo.
+    translation: הנתונים נראים כמצביעים על כך שהגורם העיקרי הוא הזמן.
+lessons:
+- id: u43-l1
+  kind: new
+  title:
+    he: שמות פעולה
+    en: Nominalisation
+  exercises:
+  - id: u43-l1-01
+    type: dialogue
+    scene: יעל ומרצה על המאמר.
+    lines:
+    - speaker: herrera
+      text: Cabe destacar que tu texto usa muchos verbos. En el estilo académico, prefiere sustantivos.
+      translation: ראוי להדגיש שהטקסט שלך משתמש בהרבה פעלים. בסגנון אקדמי, העדיפי שמות עצם.
+    - speaker: yael
+      text: '¿Por ejemplo: «El aumento de los precios afectó a las familias»?'
+      translation: 'למשל: «העלייה במחירים השפיעה על המשפחות»?'
+    - speaker: herrera
+      text: 'Exacto. Y añade la fuente: según los datos del estudio…'
+      translation: 'בדיוק. ותוסיפי מקור: לפי נתוני המחקר…'
+  - id: u43-l1-02
+    type: learn
+    lexeme: aumento
+  - id: u43-l1-03
+    type: learn
+    lexeme: disminucion
+  - id: u43-l1-04
+    type: learn
+    lexeme: desarrollo
+  - id: u43-l1-05
+    type: learn
+    lexeme: impacto
+  - id: u43-l1-06
+    type: learn
+    lexeme: factor
+  - id: u43-l1-07
+    type: learn
+    lexeme: estudio
+  - id: u43-l1-08
+    type: learn
+    lexeme: resultados
+  - id: u43-l1-09
+    type: learn
+    lexeme: fuente
+  - id: u43-l1-10
+    type: learn
+    lexeme: analizar
+  - id: u43-l1-11
+    type: learn
+    lexeme: demostrar
+  - id: u43-l1-12
+    type: learn
+    lexeme: concluir
+  - id: u43-l1-13
+    type: learn
+    lexeme: sugerir-p
+  - id: u43-l1-14
+    type: match_pairs
+    pairs:
+    - - el aumento
+      - עלייה
+    - - la disminución
+      - ירידה
+    - - el desarrollo
+      - התפתחות
+    - - el impacto
+      - השפעה
+    - - el factor
+      - גורם
+    lexemes:
+    - aumento
+    - disminucion
+    - desarrollo
+    - impacto
+    - factor
+  - id: u43-l1-15
+    type: match_pairs
+    pairs:
+    - - el estudio
+      - מחקר
+    - - los resultados
+      - תוצאות
+    - - la fuente
+      - מקור
+    - - analizar
+      - לנתח
+    - - demostrar
+      - להוכיח
+    lexemes:
+    - estudio
+    - resultados
+    - fuente
+    - analizar
+    - demostrar
+  - id: u43-l1-16
+    type: multiple_choice
+    prompt: איזה שם עצם נגזר מ־'aumentar'?
+    options:
+    - el aumento
+    - la aumentación
+    - el aumentar
+    correct: 0
+    lexemes:
+    - aumento
+  - id: u43-l1-17
+    type: multiple_choice
+    prompt: איזה משפט יותר אקדמי?
+    options:
+    - El aumento de los precios afectó a las familias.
+    - Los precios subieron y las familias sufrieron.
+    - ¡Qué caro está todo!
+    correct: 0
+    lexemes:
+    - aumento
+    - impacto
+  - id: u43-l1-18
+    type: multiple_choice
+    prompt: מה פירוש 'demostrar'?
+    options:
+    - להוכיח
+    - להראות בטלוויזיה
+    - להחזיר
+    correct: 0
+    lexemes:
+    - demostrar
+  - id: u43-l1-19
+    type: listening_choice
+    audioText: Los resultados sugieren una disminución.
+    question: מה אומרים?
+    options:
+    - התוצאות מצביעות על ירידה
+    - התוצאות מראות עלייה
+    - אין תוצאות
+    correct: 0
+    lexemes:
+    - resultados
+    - sugerir-p
+    - disminucion
+    - aumento
+  - id: u43-l1-20
+    type: listening_choice
+    audioText: Es necesario analizar los datos.
+    question: מה אומרים?
+    options:
+    - צריך לנתח את הנתונים
+    - צריך לשלוח נתונים
+    - צריך לחתום
+    correct: 0
+    lexemes:
+    - analizar
+    - firmar
+  - id: u43-l1-21
+    type: translate
+    direction: to_target
+    prompt: העלייה במחירים.
+    answers:
+    - El aumento de los precios.
+    lexemes:
+    - aumento
+  - id: u43-l1-22
+    type: translate
+    direction: to_target
+    prompt: הירידה בתוצאות.
+    answers:
+    - La disminución de los resultados.
+    lexemes:
+    - disminucion
+    - resultados
+  - id: u43-l1-23
+    type: translate
+    direction: to_source
+    prompt: El impacto fue importante.
+    answers:
+    - ההשפעה הייתה חשובה
+    lexemes:
+    - impacto
+    - importante
+  - id: u43-l1-24
+    type: dictation
+    text: Los resultados sugieren una disminución.
+    lexemes:
+    - resultados
+    - sugerir-p
+    - disminucion
+  - id: u43-l1-25
+    type: speak_repeat
+    text: Cabe destacar el impacto del estudio.
+    translation: ראוי להדגיש את ההשפעה של המחקר.
+    lexemes:
+    - impacto
+    - estudio
+- id: u43-l2
+  kind: new
+  title:
+    he: ביטויים והסתייגות
+    en: Phrases and hedging
+  exercises:
+  - id: u43-l2-01
+    type: learn
+    lexeme: cabe-destacar
+  - id: u43-l2-02
+    type: learn
+    lexeme: cabe-senalar
+  - id: u43-l2-03
+    type: learn
+    lexeme: se-ha-demostrado
+  - id: u43-l2-04
+    type: learn
+    lexeme: segun-fuentes
+  - id: u43-l2-05
+    type: learn
+    lexeme: parece-indicar
+  - id: u43-l2-06
+    type: learn
+    lexeme: en-este-sentido
+  - id: u43-l2-07
+    type: match_pairs
+    pairs:
+    - - cabe destacar que
+      - ראוי להדגיש
+    - - cabe señalar
+      - ראוי לציין
+    - - se ha demostrado que
+      - הוכח ש
+    - - según los datos
+      - לפי הנתונים
+    - - parece indicar
+      - נראה כמצביע
+    lexemes:
+    - cabe-destacar
+    - cabe-senalar
+    - se-ha-demostrado
+    - segun-fuentes
+    - parece-indicar
+  - id: u43-l2-08
+    type: match_pairs
+    pairs:
+    - - en este sentido
+      - מבחינה זו
+    - - el factor
+      - גורם
+    - - el estudio
+      - מחקר
+    - - el impacto
+      - השפעה
+    - - la fuente
+      - מקור
+    lexemes:
+    - en-este-sentido
+    - factor
+    - estudio
+    - impacto
+    - fuente
+  - id: u43-l2-09
+    type: dialogue
+    scene: יעל קוראת את הפסקה שלה.
+    lines:
+    - speaker: yael
+      text: Según los datos, el aumento parece indicar un cambio. Se ha demostrado que el factor principal es el tiempo.
+      translation: לפי הנתונים, העלייה נראית כמצביעה על שינוי. הוכח שהגורם העיקרי הוא הזמן.
+    - speaker: herrera
+      text: 'Cuidado: «parece indicar» es prudente, pero «se ha demostrado» necesita una fuente.'
+      translation: 'זהירות: «נראה כמצביע» זהיר, אבל «הוכח» דורש מקור.'
+    - speaker: yael
+      text: 'Entonces: «Según el estudio de García, se ha demostrado…»'
+      translation: 'אז: «לפי המחקר של גרסיה, הוכח…»'
+  - id: u43-l2-10
+    type: multiple_choice
+    prompt: איזה ביטוי זהיר יותר?
+    options:
+    - Parece indicar que…
+    - Es así que…
+    - Siempre ocurre que…
+    correct: 0
+    lexemes:
+    - parece-indicar
+  - id: u43-l2-11
+    type: multiple_choice
+    prompt: איזה ביטוי דורש מקור?
+    options:
+    - Se ha demostrado que…
+    - Quizás…
+    - A lo mejor…
+    correct: 0
+    lexemes:
+    - se-ha-demostrado
+    - fuente
+  - id: u43-l2-12
+    type: multiple_choice
+    prompt: מה פירוש 'cabe señalar'?
+    options:
+    - ראוי לציין
+    - אפשר לצאת
+    - צריך לחתום
+    correct: 0
+    lexemes:
+    - cabe-senalar
+  - id: u43-l2-13
+    type: listening_choice
+    audioText: Según los datos, hubo un aumento.
+    question: מה אומרים?
+    options:
+    - לפי הנתונים הייתה עלייה
+    - הייתה ירידה
+    - אין נתונים
+    correct: 0
+    lexemes:
+    - segun-fuentes
+    - aumento
+    - disminucion
+  - id: u43-l2-14
+    type: listening_choice
+    audioText: Cabe destacar este factor.
+    question: מה אומרים?
+    options:
+    - ראוי להדגיש את הגורם הזה
+    - יש להתעלם
+    - הגורם נעלם
+    correct: 0
+    lexemes:
+    - cabe-destacar
+    - factor
+  - id: u43-l2-15
+    type: fill_blank
+    sentence: ___ destacar que el estudio es nuevo. (ראוי)
+    translation: ראוי להדגיש שהמחקר חדש.
+    answers:
+    - Cabe
+    options:
+    - Cabe
+    - Cabo
+    - Cabía
+    lexemes:
+    - cabe-destacar
+    - estudio
+  - id: u43-l2-16
+    type: fill_blank
+    sentence: Se ___ demostrado que mejora. (haber)
+    translation: הוכח שזה משפר.
+    answers:
+    - ha
+    options:
+    - ha
+    - han
+    - hay
+    lexemes:
+    - se-ha-demostrado
+  - id: u43-l2-17
+    type: fill_blank
+    sentence: Los datos ___ indicar un cambio. (parecer)
+    translation: הנתונים נראים כמצביעים על שינוי.
+    answers:
+    - parecen
+    options:
+    - parecen
+    - parece
+    - parecía
+    lexemes:
+    - parece-indicar
+  - id: u43-l2-18
+    type: fill_blank
+    sentence: ___ este sentido, el factor es clave. (מבחינה זו)
+    translation: מבחינה זו הגורם מרכזי.
+    answers:
+    - En
+    options:
+    - En
+    - De
+    - Por
+    lexemes:
+    - en-este-sentido
+    - factor
+  - id: u43-l2-19
+    type: word_bank
+    prompt: ראוי לציין.
+    answers:
+    - Cabe señalar.
+    distractors:
+    - Cabe señalo
+    lexemes:
+    - cabe-senalar
+  - id: u43-l2-20
+    type: word_bank
+    prompt: לפי הנתונים.
+    answers:
+    - Según los datos.
+    distractors:
+    - Según de los datos
+    lexemes:
+    - segun-fuentes
+  - id: u43-l2-21
+    type: translate
+    direction: to_target
+    prompt: הוכח שזה עובד.
+    answers:
+    - Se ha demostrado que funciona.
+    lexemes:
+    - se-ha-demostrado
+  - id: u43-l2-22
+    type: translate
+    direction: to_source
+    prompt: Los resultados sugieren que el factor es el tiempo.
+    answers:
+    - התוצאות מצביעות על כך שהגורם הוא הזמן
+    lexemes:
+    - resultados
+    - sugerir-p
+    - factor
+  - id: u43-l2-23
+    type: dictation
+    text: Cabe señalar este impacto.
+    lexemes:
+    - cabe-senalar
+    - impacto
+- id: u43-l3
+  kind: grammar
+  title:
+    he: כתיבה מדעית
+    en: Scientific writing
+  grammar: academico
+  exercises:
+  - id: u43-l3-01
+    type: fill_blank
+    sentence: ___ aumento de los precios afectó a todos.
+    translation: העלייה במחירים השפיעה על כולם.
+    answers:
+    - El
+    options:
+    - El
+    - La
+    - Lo
+    lexemes:
+    - aumento
+  - id: u43-l3-02
+    type: fill_blank
+    sentence: ___ disminución de las ventas fue notable.
+    translation: הירידה במכירות הייתה בולטת.
+    answers:
+    - La
+    options:
+    - La
+    - El
+    - Lo
+    lexemes:
+    - disminucion
+  - id: u43-l3-03
+    type: fill_blank
+    sentence: Los resultados ___ que hay un cambio. (sugerir)
+    translation: התוצאות מצביעות על שינוי.
+    answers:
+    - sugieren
+    options:
+    - sugieren
+    - sugiere
+    - sugerían
+    lexemes:
+    - resultados
+    - sugerir-p
+  - id: u43-l3-04
+    type: fill_blank
+    sentence: Se ___ que hay un cambio. (concluir)
+    translation: מסיקים שיש שינוי.
+    answers:
+    - concluye
+    options:
+    - concluye
+    - concluyen
+    - concluía
+    lexemes:
+    - concluir
+  - id: u43-l3-05
+    type: fill_blank
+    sentence: Es probable que el factor ___ el tiempo. (ser)
+    translation: סביר שהגורם הוא הזמן.
+    answers:
+    - sea
+    options:
+    - sea
+    - es
+    - fue
+    lexemes:
+    - factor
+  - id: u43-l3-06
+    type: fill_blank
+    sentence: Según el estudio, ___ un aumento. (haber)
+    translation: לפי המחקר יש עלייה.
+    answers:
+    - hay
+    options:
+    - hay
+    - haya
+    - había
+    lexemes:
+    - estudio
+    - aumento
+  - id: u43-l3-07
+    type: multiple_choice
+    prompt: מה עדיף באקדמיה?
+    options:
+    - 'שם עצם: el aumento de'
+    - 'פועל: aumentó'
+    - 'ביטוי: subió mucho'
+    correct: 0
+    lexemes:
+    - aumento
+  - id: u43-l3-08
+    type: multiple_choice
+    prompt: איזה ביטוי זהיר?
+    options:
+    - Los datos sugieren que…
+    - Es obvio que…
+    - Todo el mundo sabe que…
+    correct: 0
+    lexemes:
+    - sugerir-p
+  - id: u43-l3-09
+    type: multiple_choice
+    prompt: איזו תוספת נחוצה אחרי 'se ha demostrado'?
+    options:
+    - מקור
+    - פסיק
+    - סימן קריאה
+    correct: 0
+    lexemes:
+    - se-ha-demostrado
+    - fuente
+  - id: u43-l3-10
+    type: word_bank
+    prompt: הנתונים נראים כמצביעים על כך.
+    answers:
+    - Los datos parecen indicar eso.
+    distractors:
+    - Los datos parece indicar eso
+    lexemes:
+    - parece-indicar
+  - id: u43-l3-11
+    type: word_bank
+    prompt: מבחינה זו, זה חשוב.
+    answers:
+    - En este sentido, es importante.
+    distractors:
+    - En este sentido es mucho padre
+    lexemes:
+    - en-este-sentido
+    - importante
+  - id: u43-l3-12
+    type: translate
+    direction: to_target
+    prompt: ראוי להדגיש את ההשפעה.
+    answers:
+    - Cabe destacar el impacto.
+    lexemes:
+    - cabe-destacar
+    - impacto
+  - id: u43-l3-13
+    type: translate
+    direction: to_target
+    prompt: לפי המחקר, יש ירידה.
+    answers:
+    - Según el estudio, hay una disminución.
+    lexemes:
+    - estudio
+    - disminucion
+  - id: u43-l3-14
+    type: translate
+    direction: to_source
+    prompt: Se puede concluir que el factor es clave.
+    answers:
+    - אפשר להסיק שהגורם מרכזי
+    lexemes:
+    - concluir
+    - factor
+  - id: u43-l3-15
+    type: translate
+    direction: to_source
+    prompt: Los resultados parecen indicar un cambio.
+    answers:
+    - התוצאות נראות כמצביעות על שינוי
+    lexemes:
+    - resultados
+    - parece-indicar
+- id: u43-l4
+  kind: reading
+  title:
+    he: תקציר מחקר
+    en: A study abstract
+  exercises:
+  - id: u43-l4-01
+    type: reading
+    kind: תקציר
+    title: Resumen
+    text: 'Este estudio analiza el impacto de la enseñanza en línea en el aprendizaje de idiomas. Según los datos, se observa un aumento del tiempo de práctica, pero una disminución de la interacción oral.
+
+      Cabe destacar que el factor principal parece ser la falta de contacto con hablantes nativos. En este sentido, los resultados sugieren que el desarrollo de programas mixtos podría mejorar el aprendizaje.
+
+      '
+    translation: 'המחקר מנתח את ההשפעה של הוראה מקוונת על לימוד שפות. לפי הנתונים נצפית עלייה בזמן התרגול, אך ירידה באינטראקציה בעל־פה.
+
+      ראוי להדגיש שהגורם העיקרי נראה חוסר המגע עם דוברי שפת אם. מבחינה זו, התוצאות מצביעות על כך שפיתוח תוכניות משולבות עשוי לשפר את הלמידה.
+
+      '
+  - id: u43-l4-02
+    type: multiple_choice
+    prompt: מה נמצא?
+    options:
+    - עלייה בתרגול וירידה באינטראקציה
+    - ירידה בתרגול
+    - שיפור בכל התחומים
+    correct: 0
+    lexemes:
+    - aumento
+    - disminucion
+  - id: u43-l4-03
+    type: multiple_choice
+    prompt: מה מציעה התוצאה?
+    options:
+    - תוכניות משולבות
+    - לוותר על הלימוד
+    - לעצור את המחקר
+    correct: 0
+    lexemes:
+    - resultados
+    - desarrollo
+  - id: u43-l4-04
+    type: fill_blank
+    sentence: Este estudio ___ el impacto de la enseñanza. (analizar)
+    translation: המחקר מנתח את ההשפעה.
+    answers:
+    - analiza
+    options:
+    - analiza
+    - analizan
+    - analizó
+    lexemes:
+    - estudio
+    - analizar
+    - impacto
+  - id: u43-l4-05
+    type: translate
+    direction: to_target
+    prompt: ראוי להדגיש שהגורם העיקרי הוא המגע.
+    answers:
+    - Cabe destacar que el factor principal es el contacto.
+    lexemes:
+    - cabe-destacar
+    - factor
+- id: u43-review
+  kind: review
+  title:
+    he: 'חזרה: ספרדית אקדמית + כתיבה'
+    en: Review + writing
+  exercises:
+  - id: u43-review-01
+    type: match_pairs
+    pairs:
+    - - el aumento
+      - עלייה
+    - - la disminución
+      - ירידה
+    - - el impacto
+      - השפעה
+    - - el factor
+      - גורם
+    - - el estudio
+      - מחקר
+    lexemes:
+    - aumento
+    - disminucion
+    - impacto
+    - factor
+    - estudio
+  - id: u43-review-02
+    type: match_pairs
+    pairs:
+    - - cabe destacar
+      - ראוי להדגיש
+    - - se ha demostrado
+      - הוכח
+    - - según los datos
+      - לפי הנתונים
+    - - parece indicar
+      - נראה כמצביע
+    - - en este sentido
+      - מבחינה זו
+    lexemes:
+    - cabe-destacar
+    - se-ha-demostrado
+    - segun-fuentes
+    - parece-indicar
+    - en-este-sentido
+  - id: u43-review-03
+    type: fill_blank
+    sentence: Los resultados ___ un cambio. (sugerir)
+    translation: התוצאות מצביעות על שינוי.
+    answers:
+    - sugieren
+    options:
+    - sugieren
+    - sugiere
+    - sugerían
+    lexemes:
+    - resultados
+    - sugerir-p
+  - id: u43-review-04
+    type: fill_blank
+    sentence: ___ destacar este impacto. (ראוי)
+    translation: ראוי להדגיש את ההשפעה.
+    answers:
+    - Cabe
+    options:
+    - Cabe
+    - Cabo
+    - Cabía
+    lexemes:
+    - cabe-destacar
+    - impacto
+  - id: u43-review-05
+    type: multiple_choice
+    prompt: מה פירוש 'concluir'?
+    options:
+    - להסיק
+    - להתחיל
+    - לשלוח
+    correct: 0
+    lexemes:
+    - concluir
+  - id: u43-review-06
+    type: listening_choice
+    audioText: Se ha demostrado que mejora.
+    question: מה אומרים?
+    options:
+    - הוכח שזה משפר
+    - זה לא משפר
+    - אני מראה
+    correct: 0
+    lexemes:
+    - se-ha-demostrado
+  - id: u43-review-07
+    type: word_bank
+    prompt: העלייה בתוצאות.
+    answers:
+    - El aumento de los resultados.
+    distractors:
+    - La aumenta de los resultados
+    lexemes:
+    - aumento
+    - resultados
+  - id: u43-review-08
+    type: translate
+    direction: to_target
+    prompt: לפי המחקר.
+    answers:
+    - Según el estudio.
+    lexemes:
+    - estudio
+  - id: u43-review-09
+    type: translate
+    direction: to_source
+    prompt: Parece indicar un cambio.
+    answers:
+    - נראה כמצביע על שינוי
+    lexemes:
+    - parece-indicar
+  - id: u43-review-10
+    type: dictation
+    text: Cabe señalar este factor.
+    lexemes:
+    - cabe-senalar
+    - factor
+  - id: u43-review-11
+    type: speak_repeat
+    text: Los datos parecen indicar un cambio.
+    translation: הנתונים נראים כמצביעים על שינוי.
+    lexemes:
+    - parece-indicar
+  - id: u43-review-12
+    type: write
+    prompt: כתבו תקציר אקדמי קצר (6–8 משפטים) על נושא שמעניין אתכם (לימוד שפות, עבודה, טכנולוגיה, בריאות). השתמשו בשמות פעולה (el aumento de, la disminución de), בניסוח אל־אישי (se observa, se ha demostrado), בהסתייגות (parece indicar, sugiere) ובביטוי אקדמי (cabe destacar, en este sentido, según los datos).
+    minWords: 70
+    checks:
+    - label: שמות פעולה (el aumento de, la disminución de, el desarrollo de, el impacto de)
+      any:
+      - el aumento de
+      - la disminucion de
+      - el desarrollo de
+      - el impacto de
+      - el analisis de
+      - la mejora de
+    - label: ניסוח אל־אישי (se observa, se ha demostrado, se puede concluir)
+      any:
+      - se observa
+      - se ha demostrado
+      - se puede concluir
+      - se concluye
+      - se analiza
+      - se nota
+    - label: הסתייגות (parece indicar, sugiere, podría)
+      any:
+      - parece indicar
+      - parecen indicar
+      - sugiere
+      - sugieren
+      - podria
+      - es probable que
+      - tiende a
+    - label: ביטוי אקדמי (cabe destacar / señalar, en este sentido, según los datos)
+      any:
+      - cabe destacar
+      - cabe senalar
+      - en este sentido
+      - segun los datos
+      - de acuerdo con
+      - segun el estudio
+    model: Este estudio analiza el impacto de la tecnología en el aprendizaje. Según los datos, se observa un aumento del tiempo de estudio, pero también una disminución de la concentración. Cabe destacar que el factor principal parece ser la distracción. En este sentido, los resultados sugieren que el desarrollo de hábitos podría mejorar el rendimiento. Se ha demostrado que las pausas regulares ayudan a mantener la atención. Por lo tanto, es probable que un uso moderado de la tecnología tenga un efecto positivo.
+    lexemes: []

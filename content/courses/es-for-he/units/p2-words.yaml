@@ -1,0 +1,959 @@
+id: p2-words
+cefr: B1
+scene: family
+title:
+  he: 'הרחבת אוצר מילים 2: רגשות ואופי'
+  en: 'Word builder 2: feelings and character'
+story: מילים לתיאור רגשות ותכונות אופי, ולשיחה אמיתית על אנשים. כל מילה מופיעה במשפט.
+canDo:
+- להבין ולהשתמש במילים נפוצות נוספות
+- לזהות את המילים במשפטים אמיתיים
+vocabulary:
+- id: p2-ilusion
+  text: la ilusión
+  translation: התרגשות, תקווה
+  pos: noun
+  example:
+    text: Me hace mucha ilusión el viaje.
+    translation: הנסיעה מאוד מרגשת אותי.
+- id: p2-tristeza
+  text: la tristeza
+  translation: עצב
+  pos: noun
+  example:
+    text: Sus ojos mostraban tristeza.
+    translation: עיניו הראו עצב.
+- id: p2-enojo
+  text: el enojo
+  translation: כעס
+  pos: noun
+  example:
+    text: Su enojo desapareció rápido.
+    translation: הכעס שלו נעלם מהר.
+- id: p2-susto
+  text: el susto
+  translation: בהלה
+  pos: noun
+  example:
+    text: ¡Qué susto me diste!
+    translation: איזו בהלה גרמת לי!
+- id: p2-verguenza
+  text: la vergüenza
+  translation: מבוכה, בושה
+  pos: noun
+  example:
+    text: Me da vergüenza hablar en público.
+    translation: אני מתביישת לדבר בפומבי.
+- id: p2-orgullo
+  text: el orgullo
+  translation: גאווה
+  pos: noun
+  example:
+    text: Mis padres sienten orgullo por mí.
+    translation: ההורים שלי גאים בי.
+- id: p2-confianza
+  text: la confianza
+  translation: אמון, ביטחון
+  pos: noun
+  example:
+    text: Tengo mucha confianza en mi equipo.
+    translation: יש לי הרבה אמון בצוות שלי.
+- id: p2-paciencia
+  text: la paciencia
+  translation: סבלנות
+  pos: noun
+  example:
+    text: Los niños necesitan paciencia.
+    translation: ילדים צריכים סבלנות.
+- id: p2-orgulloso
+  text: orgulloso
+  translation: גאה
+  pos: adjective
+  example:
+    text: Mi padre está muy orgulloso de ti.
+    translation: אבא שלי מאוד גאה בך.
+- id: p2-timido
+  text: tímido
+  translation: ביישן
+  pos: adjective
+  example:
+    text: Mi hijo es muy tímido con extraños.
+    translation: הבן שלי מאוד ביישן עם זרים.
+- id: p2-generoso
+  text: generoso
+  translation: נדיב
+  pos: adjective
+  example:
+    text: Don Ricardo es un hombre generoso.
+    translation: דון ריקרדו הוא אדם נדיב.
+- id: p2-terco
+  text: terco
+  translation: עקשן
+  pos: adjective
+  example:
+    text: Mi hermano es muy terco.
+    translation: אחי עקשן מאוד.
+- id: p2-honesto
+  text: honesto
+  translation: ישר
+  pos: adjective
+  example:
+    text: Un buen amigo es siempre honesto.
+    translation: חבר טוב הוא תמיד ישר.
+- id: p2-sincero
+  text: sincero
+  translation: כן, אמיתי
+  pos: adjective
+  example:
+    text: Quiero ser sincero contigo.
+    translation: אני רוצה להיות כנה איתך.
+- id: p2-curioso
+  text: curioso
+  translation: סקרן
+  pos: adjective
+  example:
+    text: El niño es muy curioso y pregunta todo.
+    translation: הילד סקרן מאוד ושואל על הכול.
+- id: p2-nervioso
+  text: nervioso
+  translation: עצבני, לחוץ
+  pos: adjective
+  example:
+    text: Estoy nervioso antes del examen.
+    translation: אני לחוצה לפני המבחן.
+- id: p2-preocupado
+  text: preocupado
+  translation: מודאג
+  pos: adjective
+  example:
+    text: Mi mamá está preocupado por mí.
+    translation: אמא שלי מודאגת בגללי.
+- id: p2-agradecido
+  text: agradecido
+  translation: אסיר תודה
+  pos: adjective
+  example:
+    text: Estoy muy agradecido por tu ayuda.
+    translation: אני מאוד אסיר תודה על העזרה שלך.
+- id: p2-ansioso
+  text: ansioso
+  translation: חרד, משתוקק
+  pos: adjective
+  example:
+    text: Está ansioso por saber el resultado.
+    translation: הוא משתוקק לדעת את התוצאה.
+- id: p2-enojarse
+  text: enojarse
+  translation: להתכעס
+  pos: verb
+  example:
+    text: No quiero enojarme contigo.
+    translation: אני לא רוצה להתכעס עליך.
+- id: p2-asustarse
+  text: asustarse
+  translation: להיבהל
+  pos: verb
+  example:
+    text: El perro va a asustarse con el ruido.
+    translation: הכלב ייבהל מהרעש.
+- id: p2-emocionarse
+  text: emocionarse
+  translation: להתרגש
+  pos: verb
+  example:
+    text: Siempre me emociono al ver a mi familia.
+    translation: אני תמיד מתרגשת כשאני רואה את המשפחה שלי.
+- id: p2-confiar
+  text: confiar
+  translation: לבטוח
+  pos: verb
+  example:
+    text: Puedes confiar en mí.
+    translation: אתה יכול לסמוך עליי.
+- id: p2-reirse
+  text: reírse
+  translation: לצחוק
+  pos: verb
+  example:
+    text: Todos empezaron a reírse.
+    translation: כולם התחילו לצחוק.
+- id: p2-abrazar
+  text: abrazar
+  translation: לחבק
+  pos: verb
+  example:
+    text: Quiero abrazar a mi hermano.
+    translation: אני רוצה לחבק את אחי.
+lessons:
+- id: p2-l1
+  kind: new
+  title:
+    he: חבילה 2 – חלק 1
+    en: Pack 2 – part 1
+  exercises:
+  - id: p2-l1-01
+    type: learn
+    lexeme: p2-ilusion
+  - id: p2-l1-02
+    type: learn
+    lexeme: p2-tristeza
+  - id: p2-l1-03
+    type: learn
+    lexeme: p2-enojo
+  - id: p2-l1-04
+    type: learn
+    lexeme: p2-susto
+  - id: p2-l1-05
+    type: learn
+    lexeme: p2-verguenza
+  - id: p2-l1-06
+    type: learn
+    lexeme: p2-orgullo
+  - id: p2-l1-07
+    type: learn
+    lexeme: p2-confianza
+  - id: p2-l1-08
+    type: learn
+    lexeme: p2-paciencia
+  - id: p2-l1-09
+    type: match_pairs
+    pairs:
+    - - la ilusión
+      - התרגשות, תקווה
+    - - la tristeza
+      - עצב
+    - - el enojo
+      - כעס
+    - - el susto
+      - בהלה
+    lexemes:
+    - p2-ilusion
+    - p2-tristeza
+    - p2-enojo
+    - p2-susto
+  - id: p2-l1-10
+    type: match_pairs
+    pairs:
+    - - la vergüenza
+      - מבוכה, בושה
+    - - el orgullo
+      - גאווה
+    - - la confianza
+      - אמון, ביטחון
+    - - la paciencia
+      - סבלנות
+    lexemes:
+    - p2-verguenza
+    - p2-orgullo
+    - p2-confianza
+    - p2-paciencia
+  - id: p2-l1-11
+    type: multiple_choice
+    prompt: מה פירוש la ilusión?
+    options:
+    - התרגשות, תקווה
+    - מודאג
+    - גאה
+    correct: 0
+    lexemes:
+    - p2-ilusion
+  - id: p2-l1-12
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: עצב?'
+    options:
+    - la tristeza
+    - confiar
+    - tímido
+    correct: 0
+    lexemes:
+    - p2-tristeza
+  - id: p2-l1-13
+    type: multiple_choice
+    prompt: מה פירוש el enojo?
+    options:
+    - כעס
+    - חרד, משתוקק
+    - גאה
+    correct: 0
+    lexemes:
+    - p2-enojo
+  - id: p2-l1-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: בהלה?'
+    options:
+    - el susto
+    - nervioso
+    - agradecido
+    correct: 0
+    lexemes:
+    - p2-susto
+  - id: p2-l1-15
+    type: multiple_choice
+    prompt: מה פירוש la vergüenza?
+    options:
+    - מבוכה, בושה
+    - עצבני, לחוץ
+    - לצחוק
+    correct: 0
+    lexemes:
+    - p2-verguenza
+  - id: p2-l1-16
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: גאווה?'
+    options:
+    - el orgullo
+    - emocionarse
+    - honesto
+    correct: 0
+    lexemes:
+    - p2-orgullo
+  - id: p2-l1-17
+    type: multiple_choice
+    prompt: מה פירוש la confianza?
+    options:
+    - אמון, ביטחון
+    - נדיב
+    - לחבק
+    correct: 0
+    lexemes:
+    - p2-confianza
+  - id: p2-l1-18
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: סבלנות?'
+    options:
+    - la paciencia
+    - terco
+    - reírse
+    correct: 0
+    lexemes:
+    - p2-paciencia
+  - id: p2-l1-19
+    type: fill_blank
+    sentence: Me hace mucha ___ el viaje.
+    translation: הנסיעה מאוד מרגשת אותי.
+    answers:
+    - ilusión
+    options:
+    - ilusión
+    - emociono
+    - curioso
+    lexemes:
+    - p2-ilusion
+  - id: p2-l1-20
+    type: fill_blank
+    sentence: Sus ojos mostraban ___.
+    translation: עיניו הראו עצב.
+    answers:
+    - tristeza
+    options:
+    - tristeza
+    - nervioso
+    - enojarme
+    lexemes:
+    - p2-tristeza
+  - id: p2-l1-21
+    type: fill_blank
+    sentence: Su ___ desapareció rápido.
+    translation: הכעס שלו נעלם מהר.
+    answers:
+    - enojo
+    options:
+    - enojo
+    - agradecido
+    - reírse
+    lexemes:
+    - p2-enojo
+  - id: p2-l1-22
+    type: fill_blank
+    sentence: ¡Qué ___ me diste!
+    translation: איזו בהלה גרמת לי!
+    answers:
+    - susto
+    options:
+    - susto
+    - preocupado
+    - generoso
+    lexemes:
+    - p2-susto
+  - id: p2-l1-23
+    type: fill_blank
+    sentence: Me da ___ hablar en público.
+    translation: אני מתביישת לדבר בפומבי.
+    answers:
+    - vergüenza
+    options:
+    - vergüenza
+    - reírse
+    - enojarme
+    lexemes:
+    - p2-verguenza
+  - id: p2-l1-24
+    type: fill_blank
+    sentence: Mis padres sienten ___ por mí.
+    translation: ההורים שלי גאים בי.
+    answers:
+    - orgullo
+    options:
+    - orgullo
+    - terco
+    - curioso
+    lexemes:
+    - p2-orgullo
+  - id: p2-l1-25
+    type: fill_blank
+    sentence: Tengo mucha ___ en mi equipo.
+    translation: יש לי הרבה אמון בצוות שלי.
+    answers:
+    - confianza
+    options:
+    - confianza
+    - ansioso
+    - preocupado
+    lexemes:
+    - p2-confianza
+  - id: p2-l1-26
+    type: fill_blank
+    sentence: Los niños necesitan ___.
+    translation: ילדים צריכים סבלנות.
+    answers:
+    - paciencia
+    options:
+    - paciencia
+    - nervioso
+    - sincero
+    lexemes:
+    - p2-paciencia
+  - id: p2-l1-27
+    type: dictation
+    text: Mis padres sienten orgullo por mí.
+    lexemes:
+    - p2-orgullo
+  - id: p2-l1-28
+    type: dictation
+    text: ¡Qué susto me diste!
+    lexemes:
+    - p2-susto
+- id: p2-l2
+  kind: new
+  title:
+    he: חבילה 2 – חלק 2
+    en: Pack 2 – part 2
+  exercises:
+  - id: p2-l2-01
+    type: learn
+    lexeme: p2-orgulloso
+  - id: p2-l2-02
+    type: learn
+    lexeme: p2-timido
+  - id: p2-l2-03
+    type: learn
+    lexeme: p2-generoso
+  - id: p2-l2-04
+    type: learn
+    lexeme: p2-terco
+  - id: p2-l2-05
+    type: learn
+    lexeme: p2-honesto
+  - id: p2-l2-06
+    type: learn
+    lexeme: p2-sincero
+  - id: p2-l2-07
+    type: learn
+    lexeme: p2-curioso
+  - id: p2-l2-08
+    type: learn
+    lexeme: p2-nervioso
+  - id: p2-l2-09
+    type: match_pairs
+    pairs:
+    - - orgulloso
+      - גאה
+    - - tímido
+      - ביישן
+    - - generoso
+      - נדיב
+    - - terco
+      - עקשן
+    lexemes:
+    - p2-orgulloso
+    - p2-timido
+    - p2-generoso
+    - p2-terco
+  - id: p2-l2-10
+    type: match_pairs
+    pairs:
+    - - honesto
+      - ישר
+    - - sincero
+      - כן, אמיתי
+    - - curioso
+      - סקרן
+    - - nervioso
+      - עצבני, לחוץ
+    lexemes:
+    - p2-honesto
+    - p2-sincero
+    - p2-curioso
+    - p2-nervioso
+  - id: p2-l2-11
+    type: multiple_choice
+    prompt: מה פירוש orgulloso?
+    options:
+    - גאה
+    - התרגשות, תקווה
+    - אמון, ביטחון
+    correct: 0
+    lexemes:
+    - p2-orgulloso
+  - id: p2-l2-12
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: ביישן?'
+    options:
+    - tímido
+    - el enojo
+    - preocupado
+    correct: 0
+    lexemes:
+    - p2-timido
+  - id: p2-l2-13
+    type: multiple_choice
+    prompt: מה פירוש generoso?
+    options:
+    - נדיב
+    - אמון, ביטחון
+    - מודאג
+    correct: 0
+    lexemes:
+    - p2-generoso
+  - id: p2-l2-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: עקשן?'
+    options:
+    - terco
+    - confiar
+    - la tristeza
+    correct: 0
+    lexemes:
+    - p2-terco
+  - id: p2-l2-15
+    type: multiple_choice
+    prompt: מה פירוש honesto?
+    options:
+    - ישר
+    - בהלה
+    - לחבק
+    correct: 0
+    lexemes:
+    - p2-honesto
+  - id: p2-l2-16
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: כן, אמיתי?'
+    options:
+    - sincero
+    - la paciencia
+    - asustarse
+    correct: 0
+    lexemes:
+    - p2-sincero
+  - id: p2-l2-17
+    type: multiple_choice
+    prompt: מה פירוש curioso?
+    options:
+    - סקרן
+    - כעס
+    - חרד, משתוקק
+    correct: 0
+    lexemes:
+    - p2-curioso
+  - id: p2-l2-18
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: עצבני, לחוץ?'
+    options:
+    - nervioso
+    - la tristeza
+    - la paciencia
+    correct: 0
+    lexemes:
+    - p2-nervioso
+  - id: p2-l2-19
+    type: fill_blank
+    sentence: Mi padre está muy ___ de ti.
+    translation: אבא שלי מאוד גאה בך.
+    answers:
+    - orgulloso
+    options:
+    - orgulloso
+    - agradecido
+    - preocupado
+    lexemes:
+    - p2-orgulloso
+  - id: p2-l2-20
+    type: fill_blank
+    sentence: Mi hijo es muy ___ con extraños.
+    translation: הבן שלי מאוד ביישן עם זרים.
+    answers:
+    - tímido
+    options:
+    - tímido
+    - preocupado
+    - agradecido
+    lexemes:
+    - p2-timido
+  - id: p2-l2-21
+    type: fill_blank
+    sentence: Don Ricardo es un hombre ___.
+    translation: דון ריקרדו הוא אדם נדיב.
+    answers:
+    - generoso
+    options:
+    - generoso
+    - preocupado
+    - ansioso
+    lexemes:
+    - p2-generoso
+  - id: p2-l2-22
+    type: fill_blank
+    sentence: Mi hermano es muy ___.
+    translation: אחי עקשן מאוד.
+    answers:
+    - terco
+    options:
+    - terco
+    - ansioso
+    - preocupado
+    lexemes:
+    - p2-terco
+  - id: p2-l2-23
+    type: fill_blank
+    sentence: Un buen amigo es siempre ___.
+    translation: חבר טוב הוא תמיד ישר.
+    answers:
+    - honesto
+    options:
+    - honesto
+    - preocupado
+    - agradecido
+    lexemes:
+    - p2-honesto
+  - id: p2-l2-24
+    type: fill_blank
+    sentence: Quiero ser ___ contigo.
+    translation: אני רוצה להיות כנה איתך.
+    answers:
+    - sincero
+    options:
+    - sincero
+    - agradecido
+    - preocupado
+    lexemes:
+    - p2-sincero
+  - id: p2-l2-25
+    type: fill_blank
+    sentence: El niño es muy ___ y pregunta todo.
+    translation: הילד סקרן מאוד ושואל על הכול.
+    answers:
+    - curioso
+    options:
+    - curioso
+    - preocupado
+    - ansioso
+    lexemes:
+    - p2-curioso
+  - id: p2-l2-26
+    type: fill_blank
+    sentence: Estoy ___ antes del examen.
+    translation: אני לחוצה לפני המבחן.
+    answers:
+    - nervioso
+    options:
+    - nervioso
+    - ansioso
+    - agradecido
+    lexemes:
+    - p2-nervioso
+  - id: p2-l2-27
+    type: dictation
+    text: Mi padre está muy orgulloso de ti.
+    lexemes:
+    - p2-orgulloso
+  - id: p2-l2-28
+    type: dictation
+    text: Don Ricardo es un hombre generoso.
+    lexemes:
+    - p2-generoso
+- id: p2-l3
+  kind: new
+  title:
+    he: חבילה 2 – חלק 3
+    en: Pack 2 – part 3
+  exercises:
+  - id: p2-l3-01
+    type: learn
+    lexeme: p2-preocupado
+  - id: p2-l3-02
+    type: learn
+    lexeme: p2-agradecido
+  - id: p2-l3-03
+    type: learn
+    lexeme: p2-ansioso
+  - id: p2-l3-04
+    type: learn
+    lexeme: p2-enojarse
+  - id: p2-l3-05
+    type: learn
+    lexeme: p2-asustarse
+  - id: p2-l3-06
+    type: learn
+    lexeme: p2-emocionarse
+  - id: p2-l3-07
+    type: learn
+    lexeme: p2-confiar
+  - id: p2-l3-08
+    type: learn
+    lexeme: p2-reirse
+  - id: p2-l3-09
+    type: learn
+    lexeme: p2-abrazar
+  - id: p2-l3-10
+    type: match_pairs
+    pairs:
+    - - preocupado
+      - מודאג
+    - - agradecido
+      - אסיר תודה
+    - - ansioso
+      - חרד, משתוקק
+    - - enojarse
+      - להתכעס
+    lexemes:
+    - p2-preocupado
+    - p2-agradecido
+    - p2-ansioso
+    - p2-enojarse
+  - id: p2-l3-11
+    type: match_pairs
+    pairs:
+    - - asustarse
+      - להיבהל
+    - - emocionarse
+      - להתרגש
+    - - confiar
+      - לבטוח
+    - - reírse
+      - לצחוק
+    - - abrazar
+      - לחבק
+    lexemes:
+    - p2-asustarse
+    - p2-emocionarse
+    - p2-confiar
+    - p2-reirse
+    - p2-abrazar
+  - id: p2-l3-12
+    type: multiple_choice
+    prompt: מה פירוש preocupado?
+    options:
+    - מודאג
+    - עקשן
+    - סקרן
+    correct: 0
+    lexemes:
+    - p2-preocupado
+  - id: p2-l3-13
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: אסיר תודה?'
+    options:
+    - agradecido
+    - orgulloso
+    - generoso
+    correct: 0
+    lexemes:
+    - p2-agradecido
+  - id: p2-l3-14
+    type: multiple_choice
+    prompt: מה פירוש ansioso?
+    options:
+    - חרד, משתוקק
+    - עצב
+    - נדיב
+    correct: 0
+    lexemes:
+    - p2-ansioso
+  - id: p2-l3-15
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: להתכעס?'
+    options:
+    - enojarse
+    - generoso
+    - la paciencia
+    correct: 0
+    lexemes:
+    - p2-enojarse
+  - id: p2-l3-16
+    type: multiple_choice
+    prompt: מה פירוש asustarse?
+    options:
+    - להיבהל
+    - עצבני, לחוץ
+    - גאה
+    correct: 0
+    lexemes:
+    - p2-asustarse
+  - id: p2-l3-17
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: להתרגש?'
+    options:
+    - emocionarse
+    - sincero
+    - terco
+    correct: 0
+    lexemes:
+    - p2-emocionarse
+  - id: p2-l3-18
+    type: multiple_choice
+    prompt: מה פירוש confiar?
+    options:
+    - לבטוח
+    - נדיב
+    - עקשן
+    correct: 0
+    lexemes:
+    - p2-confiar
+  - id: p2-l3-19
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: לצחוק?'
+    options:
+    - reírse
+    - terco
+    - generoso
+    correct: 0
+    lexemes:
+    - p2-reirse
+  - id: p2-l3-20
+    type: multiple_choice
+    prompt: מה פירוש abrazar?
+    options:
+    - לחבק
+    - כן, אמיתי
+    - סבלנות
+    correct: 0
+    lexemes:
+    - p2-abrazar
+  - id: p2-l3-21
+    type: fill_blank
+    sentence: Mi mamá está ___ por mí.
+    translation: אמא שלי מודאגת בגללי.
+    answers:
+    - preocupado
+    options:
+    - preocupado
+    - orgulloso
+    - generoso
+    lexemes:
+    - p2-preocupado
+  - id: p2-l3-22
+    type: fill_blank
+    sentence: Estoy muy ___ por tu ayuda.
+    translation: אני מאוד אסיר תודה על העזרה שלך.
+    answers:
+    - agradecido
+    options:
+    - agradecido
+    - curioso
+    - generoso
+    lexemes:
+    - p2-agradecido
+  - id: p2-l3-23
+    type: fill_blank
+    sentence: Está ___ por saber el resultado.
+    translation: הוא משתוקק לדעת את התוצאה.
+    answers:
+    - ansioso
+    options:
+    - ansioso
+    - curioso
+    - orgulloso
+    lexemes:
+    - p2-ansioso
+  - id: p2-l3-24
+    type: fill_blank
+    sentence: No quiero ___ contigo.
+    translation: אני לא רוצה להתכעס עליך.
+    answers:
+    - enojarme
+    options:
+    - enojarme
+    - nervioso
+    - vergüenza
+    lexemes:
+    - p2-enojarse
+  - id: p2-l3-25
+    type: fill_blank
+    sentence: El perro va a ___ con el ruido.
+    translation: הכלב ייבהל מהרעש.
+    answers:
+    - asustarse
+    options:
+    - asustarse
+    - nervioso
+    - sincero
+    lexemes:
+    - p2-asustarse
+  - id: p2-l3-26
+    type: fill_blank
+    sentence: Siempre me ___ al ver a mi familia.
+    translation: אני תמיד מתרגשת כשאני רואה את המשפחה שלי.
+    answers:
+    - emociono
+    options:
+    - emociono
+    - tímido
+    - susto
+    lexemes:
+    - p2-emocionarse
+  - id: p2-l3-27
+    type: fill_blank
+    sentence: Puedes ___ en mí.
+    translation: אתה יכול לסמוך עליי.
+    answers:
+    - confiar
+    options:
+    - confiar
+    - tímido
+    - susto
+    lexemes:
+    - p2-confiar
+  - id: p2-l3-28
+    type: fill_blank
+    sentence: Todos empezaron a ___.
+    translation: כולם התחילו לצחוק.
+    answers:
+    - reírse
+    options:
+    - reírse
+    - generoso
+    - susto
+    lexemes:
+    - p2-reirse
+  - id: p2-l3-29
+    type: fill_blank
+    sentence: Quiero ___ a mi hermano.
+    translation: אני רוצה לחבק את אחי.
+    answers:
+    - abrazar
+    options:
+    - abrazar
+    - tristeza
+    - orgulloso
+    lexemes:
+    - p2-abrazar
+  - id: p2-l3-30
+    type: dictation
+    text: Siempre me emociono al ver a mi familia.
+    lexemes:
+    - p2-emocionarse
+  - id: p2-l3-31
+    type: dictation
+    text: Estoy muy agradecido por tu ayuda.
+    lexemes:
+    - p2-agradecido

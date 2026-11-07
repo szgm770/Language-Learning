@@ -1,0 +1,959 @@
+id: p3-words
+cefr: B1
+scene: tech
+title:
+  he: 'הרחבת אוצר מילים 3: עבודה וטכנולוגיה'
+  en: 'Word builder 3: work and technology'
+story: 'מילים לעבודה, למחשב ולטלפון: כלים, פעולות ותקלות יומיומיות. כל מילה מופיעה במשפט.'
+canDo:
+- להבין ולהשתמש במילים נפוצות נוספות
+- לזהות את המילים במשפטים אמיתיים
+vocabulary:
+- id: p3-horario
+  text: el horario
+  translation: לוח זמנים, שעות
+  pos: noun
+  example:
+    text: El horario de la oficina es de nueve a seis.
+    translation: שעות המשרד הן מתשע עד שש.
+- id: p3-herramienta
+  text: la herramienta
+  translation: כלי
+  pos: noun
+  example:
+    text: Esta herramienta nos ahorra mucho tiempo.
+    translation: הכלי הזה חוסך לנו הרבה זמן.
+- id: p3-contrasena
+  text: la contraseña
+  translation: סיסמה
+  pos: noun
+  example:
+    text: Olvidé la contraseña de mi correo.
+    translation: שכחתי את הסיסמה של הדואר שלי.
+- id: p3-pantalla
+  text: la pantalla
+  translation: מסך
+  pos: noun
+  example:
+    text: La pantalla de mi laptop es muy brillante.
+    translation: המסך של הלפטופ שלי בהיר מאוד.
+- id: p3-teclado
+  text: el teclado
+  translation: מקלדת
+  pos: noun
+  example:
+    text: Necesito un teclado en español.
+    translation: אני צריכה מקלדת בספרדית.
+- id: p3-red
+  text: la red
+  translation: רשת
+  pos: noun
+  example:
+    text: No hay red en este lugar.
+    translation: אין רשת במקום הזה.
+- id: p3-aplicacion
+  text: la aplicación
+  translation: אפליקציה
+  pos: noun
+  example:
+    text: Descargué una aplicación nueva para estudiar.
+    translation: הורדתי אפליקציה חדשה ללימוד.
+- id: p3-actualizacion
+  text: la actualización
+  translation: עדכון
+  pos: noun
+  example:
+    text: La actualización tarda diez minutos.
+    translation: העדכון לוקח עשר דקות.
+- id: p3-respaldo
+  text: el respaldo
+  translation: גיבוי
+  pos: noun
+  example:
+    text: Hago un respaldo de mis archivos cada semana.
+    translation: אני עושה גיבוי לקבצים שלי כל שבוע.
+- id: p3-plataforma
+  text: la plataforma
+  translation: פלטפורמה
+  pos: noun
+  example:
+    text: Usamos una plataforma para las clases.
+    translation: אנחנו משתמשים בפלטפורמה לשיעורים.
+- id: p3-raton
+  text: el ratón
+  translation: עכבר (מחשב)
+  pos: noun
+  example:
+    text: Mi ratón no funciona bien.
+    translation: העכבר שלי לא עובד טוב.
+- id: p3-cargador
+  text: el cargador
+  translation: מטען
+  pos: noun
+  example:
+    text: Olvidé el cargador del celular.
+    translation: שכחתי את המטען של הנייד.
+- id: p3-descargar
+  text: descargar
+  translation: להוריד (קובץ)
+  pos: verb
+  example:
+    text: Voy a descargar el archivo ahora.
+    translation: אני אוריד את הקובץ עכשיו.
+- id: p3-subir
+  text: subir
+  translation: להעלות
+  pos: verb
+  example:
+    text: Tengo que subir la tarea a la plataforma.
+    translation: אני צריכה להעלות את שיעורי הבית לפלטפורמה.
+- id: p3-guardar
+  text: guardar
+  translation: לשמור
+  pos: verb
+  example:
+    text: No olvides guardar el documento.
+    translation: אל תשכח לשמור את המסמך.
+- id: p3-actualizar
+  text: actualizar
+  translation: לעדכן
+  pos: verb
+  example:
+    text: Hay que actualizar el programa.
+    translation: צריך לעדכן את התוכנה.
+- id: p3-instalar
+  text: instalar
+  translation: להתקין
+  pos: verb
+  example:
+    text: Mateo me ayudó a instalar la aplicación.
+    translation: מתאו עזר לי להתקין את האפליקציה.
+- id: p3-conectarse
+  text: conectarse
+  translation: להתחבר
+  pos: verb
+  example:
+    text: Es difícil conectarse desde el tren.
+    translation: קשה להתחבר מהרכבת.
+- id: p3-borrar
+  text: borrar
+  translation: למחוק
+  pos: verb
+  example:
+    text: Voy a borrar los mensajes viejos.
+    translation: אמחק את ההודעות הישנות.
+- id: p3-programar
+  text: programar
+  translation: לתכנת, לתזמן
+  pos: verb
+  example:
+    text: Mi trabajo es programar aplicaciones.
+    translation: העבודה שלי היא לתכנת אפליקציות.
+- id: p3-imprimir
+  text: imprimir
+  translation: להדפיס
+  pos: verb
+  example:
+    text: ¿Puedes imprimir este documento?
+    translation: אתה יכול להדפיס את המסמך הזה?
+- id: p3-escanear
+  text: escanear
+  translation: לסרוק
+  pos: verb
+  example:
+    text: Tengo que escanear mi pasaporte.
+    translation: אני צריכה לסרוק את הדרכון שלי.
+- id: p3-disponible
+  text: disponible
+  translation: זמין, פנוי
+  pos: adjective
+  example:
+    text: El cliente no está disponible hoy.
+    translation: הלקוח לא זמין היום.
+- id: p3-lento
+  text: lento
+  translation: איטי
+  pos: adjective
+  example:
+    text: El internet está muy lento hoy.
+    translation: האינטרנט איטי מאוד היום.
+- id: p3-compatible
+  text: compatible
+  translation: תואם
+  pos: adjective
+  example:
+    text: Esta aplicación no es compatible con mi celular.
+    translation: האפליקציה הזו לא תואמת לנייד שלי.
+lessons:
+- id: p3-l1
+  kind: new
+  title:
+    he: חבילה 3 – חלק 1
+    en: Pack 3 – part 1
+  exercises:
+  - id: p3-l1-01
+    type: learn
+    lexeme: p3-horario
+  - id: p3-l1-02
+    type: learn
+    lexeme: p3-herramienta
+  - id: p3-l1-03
+    type: learn
+    lexeme: p3-contrasena
+  - id: p3-l1-04
+    type: learn
+    lexeme: p3-pantalla
+  - id: p3-l1-05
+    type: learn
+    lexeme: p3-teclado
+  - id: p3-l1-06
+    type: learn
+    lexeme: p3-red
+  - id: p3-l1-07
+    type: learn
+    lexeme: p3-aplicacion
+  - id: p3-l1-08
+    type: learn
+    lexeme: p3-actualizacion
+  - id: p3-l1-09
+    type: match_pairs
+    pairs:
+    - - el horario
+      - לוח זמנים, שעות
+    - - la herramienta
+      - כלי
+    - - la contraseña
+      - סיסמה
+    - - la pantalla
+      - מסך
+    lexemes:
+    - p3-horario
+    - p3-herramienta
+    - p3-contrasena
+    - p3-pantalla
+  - id: p3-l1-10
+    type: match_pairs
+    pairs:
+    - - el teclado
+      - מקלדת
+    - - la red
+      - רשת
+    - - la aplicación
+      - אפליקציה
+    - - la actualización
+      - עדכון
+    lexemes:
+    - p3-teclado
+    - p3-red
+    - p3-aplicacion
+    - p3-actualizacion
+  - id: p3-l1-11
+    type: multiple_choice
+    prompt: מה פירוש el horario?
+    options:
+    - לוח זמנים, שעות
+    - להעלות
+    - גיבוי
+    correct: 0
+    lexemes:
+    - p3-horario
+  - id: p3-l1-12
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: כלי?'
+    options:
+    - la herramienta
+    - descargar
+    - compatible
+    correct: 0
+    lexemes:
+    - p3-herramienta
+  - id: p3-l1-13
+    type: multiple_choice
+    prompt: מה פירוש la contraseña?
+    options:
+    - סיסמה
+    - לתכנת, לתזמן
+    - לסרוק
+    correct: 0
+    lexemes:
+    - p3-contrasena
+  - id: p3-l1-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: מסך?'
+    options:
+    - la pantalla
+    - borrar
+    - instalar
+    correct: 0
+    lexemes:
+    - p3-pantalla
+  - id: p3-l1-15
+    type: multiple_choice
+    prompt: מה פירוש el teclado?
+    options:
+    - מקלדת
+    - להוריד (קובץ)
+    - עכבר (מחשב)
+    correct: 0
+    lexemes:
+    - p3-teclado
+  - id: p3-l1-16
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: רשת?'
+    options:
+    - la red
+    - programar
+    - subir
+    correct: 0
+    lexemes:
+    - p3-red
+  - id: p3-l1-17
+    type: multiple_choice
+    prompt: מה פירוש la aplicación?
+    options:
+    - אפליקציה
+    - להתקין
+    - להעלות
+    correct: 0
+    lexemes:
+    - p3-aplicacion
+  - id: p3-l1-18
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: עדכון?'
+    options:
+    - la actualización
+    - escanear
+    - disponible
+    correct: 0
+    lexemes:
+    - p3-actualizacion
+  - id: p3-l1-19
+    type: fill_blank
+    sentence: El ___ de la oficina es de nueve a seis.
+    translation: שעות המשרד הן מתשע עד שש.
+    answers:
+    - horario
+    options:
+    - horario
+    - plataforma
+    - respaldo
+    lexemes:
+    - p3-horario
+  - id: p3-l1-20
+    type: fill_blank
+    sentence: Esta ___ nos ahorra mucho tiempo.
+    translation: הכלי הזה חוסך לנו הרבה זמן.
+    answers:
+    - herramienta
+    options:
+    - herramienta
+    - ratón
+    - respaldo
+    lexemes:
+    - p3-herramienta
+  - id: p3-l1-21
+    type: fill_blank
+    sentence: Olvidé la ___ de mi correo.
+    translation: שכחתי את הסיסמה של הדואר שלי.
+    answers:
+    - contraseña
+    options:
+    - contraseña
+    - ratón
+    - plataforma
+    lexemes:
+    - p3-contrasena
+  - id: p3-l1-22
+    type: fill_blank
+    sentence: La ___ de mi laptop es muy brillante.
+    translation: המסך של הלפטופ שלי בהיר מאוד.
+    answers:
+    - pantalla
+    options:
+    - pantalla
+    - respaldo
+    - ratón
+    lexemes:
+    - p3-pantalla
+  - id: p3-l1-23
+    type: fill_blank
+    sentence: Necesito un ___ en español.
+    translation: אני צריכה מקלדת בספרדית.
+    answers:
+    - teclado
+    options:
+    - teclado
+    - ratón
+    - respaldo
+    lexemes:
+    - p3-teclado
+  - id: p3-l1-24
+    type: fill_blank
+    sentence: No hay ___ en este lugar.
+    translation: אין רשת במקום הזה.
+    answers:
+    - red
+    options:
+    - red
+    - respaldo
+    - ratón
+    lexemes:
+    - p3-red
+  - id: p3-l1-25
+    type: fill_blank
+    sentence: Descargué una ___ nueva para estudiar.
+    translation: הורדתי אפליקציה חדשה ללימוד.
+    answers:
+    - aplicación
+    options:
+    - aplicación
+    - cargador
+    - respaldo
+    lexemes:
+    - p3-aplicacion
+  - id: p3-l1-26
+    type: fill_blank
+    sentence: La ___ tarda diez minutos.
+    translation: העדכון לוקח עשר דקות.
+    answers:
+    - actualización
+    options:
+    - actualización
+    - ratón
+    - cargador
+    lexemes:
+    - p3-actualizacion
+  - id: p3-l1-27
+    type: dictation
+    text: La pantalla de mi laptop es muy brillante.
+    lexemes:
+    - p3-pantalla
+  - id: p3-l1-28
+    type: dictation
+    text: Necesito un teclado en español.
+    lexemes:
+    - p3-teclado
+- id: p3-l2
+  kind: new
+  title:
+    he: חבילה 3 – חלק 2
+    en: Pack 3 – part 2
+  exercises:
+  - id: p3-l2-01
+    type: learn
+    lexeme: p3-respaldo
+  - id: p3-l2-02
+    type: learn
+    lexeme: p3-plataforma
+  - id: p3-l2-03
+    type: learn
+    lexeme: p3-raton
+  - id: p3-l2-04
+    type: learn
+    lexeme: p3-cargador
+  - id: p3-l2-05
+    type: learn
+    lexeme: p3-descargar
+  - id: p3-l2-06
+    type: learn
+    lexeme: p3-subir
+  - id: p3-l2-07
+    type: learn
+    lexeme: p3-guardar
+  - id: p3-l2-08
+    type: learn
+    lexeme: p3-actualizar
+  - id: p3-l2-09
+    type: match_pairs
+    pairs:
+    - - el respaldo
+      - גיבוי
+    - - la plataforma
+      - פלטפורמה
+    - - el ratón
+      - עכבר (מחשב)
+    - - el cargador
+      - מטען
+    lexemes:
+    - p3-respaldo
+    - p3-plataforma
+    - p3-raton
+    - p3-cargador
+  - id: p3-l2-10
+    type: match_pairs
+    pairs:
+    - - descargar
+      - להוריד (קובץ)
+    - - subir
+      - להעלות
+    - - guardar
+      - לשמור
+    - - actualizar
+      - לעדכן
+    lexemes:
+    - p3-descargar
+    - p3-subir
+    - p3-guardar
+    - p3-actualizar
+  - id: p3-l2-11
+    type: multiple_choice
+    prompt: מה פירוש el respaldo?
+    options:
+    - גיבוי
+    - לוח זמנים, שעות
+    - מסך
+    correct: 0
+    lexemes:
+    - p3-respaldo
+  - id: p3-l2-12
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: פלטפורמה?'
+    options:
+    - la plataforma
+    - la herramienta
+    - borrar
+    correct: 0
+    lexemes:
+    - p3-plataforma
+  - id: p3-l2-13
+    type: multiple_choice
+    prompt: מה פירוש el ratón?
+    options:
+    - עכבר (מחשב)
+    - כלי
+    - אפליקציה
+    correct: 0
+    lexemes:
+    - p3-raton
+  - id: p3-l2-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: מטען?'
+    options:
+    - el cargador
+    - compatible
+    - la herramienta
+    correct: 0
+    lexemes:
+    - p3-cargador
+  - id: p3-l2-15
+    type: multiple_choice
+    prompt: מה פירוש descargar?
+    options:
+    - להוריד (קובץ)
+    - מסך
+    - מקלדת
+    correct: 0
+    lexemes:
+    - p3-descargar
+  - id: p3-l2-16
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: להעלות?'
+    options:
+    - subir
+    - la red
+    - la actualización
+    correct: 0
+    lexemes:
+    - p3-subir
+  - id: p3-l2-17
+    type: multiple_choice
+    prompt: מה פירוש guardar?
+    options:
+    - לשמור
+    - זמין, פנוי
+    - להתחבר
+    correct: 0
+    lexemes:
+    - p3-guardar
+  - id: p3-l2-18
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: לעדכן?'
+    options:
+    - actualizar
+    - borrar
+    - disponible
+    correct: 0
+    lexemes:
+    - p3-actualizar
+  - id: p3-l2-19
+    type: fill_blank
+    sentence: Hago un ___ de mis archivos cada semana.
+    translation: אני עושה גיבוי לקבצים שלי כל שבוע.
+    answers:
+    - respaldo
+    options:
+    - respaldo
+    - herramienta
+    - horario
+    lexemes:
+    - p3-respaldo
+  - id: p3-l2-20
+    type: fill_blank
+    sentence: Usamos una ___ para las clases.
+    translation: אנחנו משתמשים בפלטפורמה לשיעורים.
+    answers:
+    - plataforma
+    options:
+    - plataforma
+    - contraseña
+    - herramienta
+    lexemes:
+    - p3-plataforma
+  - id: p3-l2-21
+    type: fill_blank
+    sentence: Mi ___ no funciona bien.
+    translation: העכבר שלי לא עובד טוב.
+    answers:
+    - ratón
+    options:
+    - ratón
+    - herramienta
+    - aplicación
+    lexemes:
+    - p3-raton
+  - id: p3-l2-22
+    type: fill_blank
+    sentence: Olvidé el ___ del celular.
+    translation: שכחתי את המטען של הנייד.
+    answers:
+    - cargador
+    options:
+    - cargador
+    - contraseña
+    - teclado
+    lexemes:
+    - p3-cargador
+  - id: p3-l2-23
+    type: fill_blank
+    sentence: Voy a ___ el archivo ahora.
+    translation: אני אוריד את הקובץ עכשיו.
+    answers:
+    - descargar
+    options:
+    - descargar
+    - imprimir
+    - borrar
+    lexemes:
+    - p3-descargar
+  - id: p3-l2-24
+    type: fill_blank
+    sentence: Tengo que ___ la tarea a la plataforma.
+    translation: אני צריכה להעלות את שיעורי הבית לפלטפורמה.
+    answers:
+    - subir
+    options:
+    - subir
+    - imprimir
+    - programar
+    lexemes:
+    - p3-subir
+  - id: p3-l2-25
+    type: fill_blank
+    sentence: No olvides ___ el documento.
+    translation: אל תשכח לשמור את המסמך.
+    answers:
+    - guardar
+    options:
+    - guardar
+    - escanear
+    - conectarse
+    lexemes:
+    - p3-guardar
+  - id: p3-l2-26
+    type: fill_blank
+    sentence: Hay que ___ el programa.
+    translation: צריך לעדכן את התוכנה.
+    answers:
+    - actualizar
+    options:
+    - actualizar
+    - imprimir
+    - escanear
+    lexemes:
+    - p3-actualizar
+  - id: p3-l2-27
+    type: dictation
+    text: Tengo que subir la tarea a la plataforma.
+    lexemes:
+    - p3-subir
+  - id: p3-l2-28
+    type: dictation
+    text: Hay que actualizar el programa.
+    lexemes:
+    - p3-actualizar
+- id: p3-l3
+  kind: new
+  title:
+    he: חבילה 3 – חלק 3
+    en: Pack 3 – part 3
+  exercises:
+  - id: p3-l3-01
+    type: learn
+    lexeme: p3-instalar
+  - id: p3-l3-02
+    type: learn
+    lexeme: p3-conectarse
+  - id: p3-l3-03
+    type: learn
+    lexeme: p3-borrar
+  - id: p3-l3-04
+    type: learn
+    lexeme: p3-programar
+  - id: p3-l3-05
+    type: learn
+    lexeme: p3-imprimir
+  - id: p3-l3-06
+    type: learn
+    lexeme: p3-escanear
+  - id: p3-l3-07
+    type: learn
+    lexeme: p3-disponible
+  - id: p3-l3-08
+    type: learn
+    lexeme: p3-lento
+  - id: p3-l3-09
+    type: learn
+    lexeme: p3-compatible
+  - id: p3-l3-10
+    type: match_pairs
+    pairs:
+    - - instalar
+      - להתקין
+    - - conectarse
+      - להתחבר
+    - - borrar
+      - למחוק
+    - - programar
+      - לתכנת, לתזמן
+    lexemes:
+    - p3-instalar
+    - p3-conectarse
+    - p3-borrar
+    - p3-programar
+  - id: p3-l3-11
+    type: match_pairs
+    pairs:
+    - - imprimir
+      - להדפיס
+    - - escanear
+      - לסרוק
+    - - disponible
+      - זמין, פנוי
+    - - lento
+      - איטי
+    - - compatible
+      - תואם
+    lexemes:
+    - p3-imprimir
+    - p3-escanear
+    - p3-disponible
+    - p3-lento
+    - p3-compatible
+  - id: p3-l3-12
+    type: multiple_choice
+    prompt: מה פירוש instalar?
+    options:
+    - להתקין
+    - לוח זמנים, שעות
+    - לעדכן
+    correct: 0
+    lexemes:
+    - p3-instalar
+  - id: p3-l3-13
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: להתחבר?'
+    options:
+    - conectarse
+    - la contraseña
+    - guardar
+    correct: 0
+    lexemes:
+    - p3-conectarse
+  - id: p3-l3-14
+    type: multiple_choice
+    prompt: מה פירוש borrar?
+    options:
+    - למחוק
+    - פלטפורמה
+    - להעלות
+    correct: 0
+    lexemes:
+    - p3-borrar
+  - id: p3-l3-15
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: לתכנת, לתזמן?'
+    options:
+    - programar
+    - la aplicación
+    - guardar
+    correct: 0
+    lexemes:
+    - p3-programar
+  - id: p3-l3-16
+    type: multiple_choice
+    prompt: מה פירוש imprimir?
+    options:
+    - להדפיס
+    - לוח זמנים, שעות
+    - לעדכן
+    correct: 0
+    lexemes:
+    - p3-imprimir
+  - id: p3-l3-17
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: לסרוק?'
+    options:
+    - escanear
+    - la red
+    - la actualización
+    correct: 0
+    lexemes:
+    - p3-escanear
+  - id: p3-l3-18
+    type: multiple_choice
+    prompt: מה פירוש disponible?
+    options:
+    - זמין, פנוי
+    - מקלדת
+    - להוריד (קובץ)
+    correct: 0
+    lexemes:
+    - p3-disponible
+  - id: p3-l3-19
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: איטי?'
+    options:
+    - lento
+    - el cargador
+    - el teclado
+    correct: 0
+    lexemes:
+    - p3-lento
+  - id: p3-l3-20
+    type: multiple_choice
+    prompt: מה פירוש compatible?
+    options:
+    - תואם
+    - לוח זמנים, שעות
+    - גיבוי
+    correct: 0
+    lexemes:
+    - p3-compatible
+  - id: p3-l3-21
+    type: fill_blank
+    sentence: Mateo me ayudó a ___ la aplicación.
+    translation: מתאו עזר לי להתקין את האפליקציה.
+    answers:
+    - instalar
+    options:
+    - instalar
+    - subir
+    - actualizar
+    lexemes:
+    - p3-instalar
+  - id: p3-l3-22
+    type: fill_blank
+    sentence: Es difícil ___ desde el tren.
+    translation: קשה להתחבר מהרכבת.
+    answers:
+    - conectarse
+    options:
+    - conectarse
+    - descargar
+    - subir
+    lexemes:
+    - p3-conectarse
+  - id: p3-l3-23
+    type: fill_blank
+    sentence: Voy a ___ los mensajes viejos.
+    translation: אמחק את ההודעות הישנות.
+    answers:
+    - borrar
+    options:
+    - borrar
+    - actualizar
+    - descargar
+    lexemes:
+    - p3-borrar
+  - id: p3-l3-24
+    type: fill_blank
+    sentence: Mi trabajo es ___ aplicaciones.
+    translation: העבודה שלי היא לתכנת אפליקציות.
+    answers:
+    - programar
+    options:
+    - programar
+    - subir
+    - descargar
+    lexemes:
+    - p3-programar
+  - id: p3-l3-25
+    type: fill_blank
+    sentence: ¿Puedes ___ este documento?
+    translation: אתה יכול להדפיס את המסמך הזה?
+    answers:
+    - imprimir
+    options:
+    - imprimir
+    - subir
+    - descargar
+    lexemes:
+    - p3-imprimir
+  - id: p3-l3-26
+    type: fill_blank
+    sentence: Tengo que ___ mi pasaporte.
+    translation: אני צריכה לסרוק את הדרכון שלי.
+    answers:
+    - escanear
+    options:
+    - escanear
+    - descargar
+    - subir
+    lexemes:
+    - p3-escanear
+  - id: p3-l3-27
+    type: fill_blank
+    sentence: El cliente no está ___ hoy.
+    translation: הלקוח לא זמין היום.
+    answers:
+    - disponible
+    options:
+    - disponible
+    - guardar
+    - cargador
+    lexemes:
+    - p3-disponible
+  - id: p3-l3-28
+    type: fill_blank
+    sentence: El internet está muy ___ hoy.
+    translation: האינטרנט איטי מאוד היום.
+    answers:
+    - lento
+    options:
+    - lento
+    - actualizar
+    - descargar
+    lexemes:
+    - p3-lento
+  - id: p3-l3-29
+    type: fill_blank
+    sentence: Esta aplicación no es ___ con mi celular.
+    translation: האפליקציה הזו לא תואמת לנייד שלי.
+    answers:
+    - compatible
+    options:
+    - compatible
+    - subir
+    - respaldo
+    lexemes:
+    - p3-compatible
+  - id: p3-l3-30
+    type: dictation
+    text: Es difícil conectarse desde el tren.
+    lexemes:
+    - p3-conectarse
+  - id: p3-l3-31
+    type: dictation
+    text: ¿Puedes imprimir este documento?
+    lexemes:
+    - p3-imprimir

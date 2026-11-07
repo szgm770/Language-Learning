@@ -1,0 +1,924 @@
+id: p1-words
+cefr: B1
+scene: home
+title:
+  he: 'הרחבת אוצר מילים 1: חיי יומיום בבית'
+  en: 'Word builder 1: daily life'
+story: 'מילים שימושיות לבית, לעיר ולשגרה: חפצים, מקומות ופעולות קטנות. כל מילה מופיעה במשפט, ואחר כך מתרגלים אותה.'
+canDo:
+- להבין ולהשתמש במילים נפוצות נוספות
+- לזהות את המילים במשפטים אמיתיים
+vocabulary:
+- id: p1-llave
+  text: la llave
+  translation: מפתח
+  pos: noun
+  example:
+    text: ¿Dónde dejé la llave?
+    translation: איפה השארתי את המפתח?
+- id: p1-espejo
+  text: el espejo
+  translation: מראה
+  pos: noun
+  example:
+    text: Me miro en el espejo cada mañana.
+    translation: אני מסתכלת במראה כל בוקר.
+- id: p1-basura
+  text: la basura
+  translation: זבל
+  pos: noun
+  example:
+    text: Saco la basura por la noche.
+    translation: אני מוציאה את הזבל בלילה.
+- id: p1-cepillo
+  text: el cepillo
+  translation: מברשת
+  pos: noun
+  example:
+    text: Uso un cepillo de dientes suave.
+    translation: אני משתמשת במברשת שיניים רכה.
+- id: p1-toalla
+  text: la toalla
+  translation: מגבת
+  pos: noun
+  example:
+    text: Necesito una toalla limpia.
+    translation: אני צריכה מגבת נקייה.
+- id: p1-jabon
+  text: el jabón
+  translation: סבון
+  pos: noun
+  example:
+    text: Lávate las manos con jabón y agua.
+    translation: תרחץ ידיים בסבון ובמים.
+- id: p1-regadera
+  text: la regadera
+  translation: מקלחת (מקסיקו)
+  pos: noun
+  example:
+    text: Me gusta la regadera con agua tibia.
+    translation: אני אוהבת מקלחת עם מים פושרים.
+- id: p1-propina
+  text: la propina
+  translation: טיפ
+  pos: noun
+  example:
+    text: Dejamos una propina al mesero.
+    translation: השארנו טיפ למלצר.
+- id: p1-fila
+  text: la fila
+  translation: תור, שורה
+  pos: noun
+  example:
+    text: Hay una fila larga en el banco.
+    translation: יש תור ארוך בבנק.
+- id: p1-llanta
+  text: la llanta
+  translation: צמיג
+  pos: noun
+  example:
+    text: Una llanta del coche está ponchada.
+    translation: צמיג אחד של המכונית מפונצ'ר.
+- id: p1-ascensor
+  text: el ascensor
+  translation: מעלית
+  pos: noun
+  example:
+    text: El ascensor está descompuesto.
+    translation: המעלית מקולקלת.
+- id: p1-escalera
+  text: la escalera
+  translation: מדרגות, סולם
+  pos: noun
+  example:
+    text: Subo por la escalera porque es rápido.
+    translation: אני עולה במדרגות כי זה מהיר.
+- id: p1-almohada
+  text: la almohada
+  translation: כרית
+  pos: noun
+  example:
+    text: Prefiero una almohada suave.
+    translation: אני מעדיפה כרית רכה.
+- id: p1-cobija
+  text: la cobija
+  translation: שמיכה
+  pos: noun
+  example:
+    text: Hace frío; trae otra cobija.
+    translation: קר; תביא עוד שמיכה.
+- id: p1-lavar
+  text: lavar
+  translation: לשטוף, לכבס
+  pos: verb
+  example:
+    text: Hoy voy a lavar la ropa.
+    translation: היום אכבס את הבגדים.
+- id: p1-barrer
+  text: barrer
+  translation: לטאטא
+  pos: verb
+  example:
+    text: Mi hermano barre el piso cada viernes.
+    translation: אחי מטאטא את הרצפה כל יום שישי.
+- id: p1-planchar
+  text: planchar
+  translation: לגהץ
+  pos: verb
+  example:
+    text: Siempre plancho la camisa antes de salir.
+    translation: אני תמיד מגהצת את החולצה לפני שיוצאים.
+- id: p1-ordenar
+  text: ordenar
+  translation: לסדר
+  pos: verb
+  example:
+    text: Voy a ordenar mi cuarto hoy.
+    translation: אסדר את החדר שלי היום.
+- id: p1-tirar
+  text: tirar
+  translation: לזרוק
+  pos: verb
+  example:
+    text: No debes tirar papeles en la calle.
+    translation: אסור לזרוק ניירות ברחוב.
+- id: p1-enchufar
+  text: enchufar
+  translation: לחבר לחשמל
+  pos: verb
+  example:
+    text: Tienes que enchufar el cargador.
+    translation: אתה צריך לחבר את המטען לחשמל.
+- id: p1-reparar
+  text: reparar
+  translation: לתקן
+  pos: verb
+  example:
+    text: El técnico va a reparar la lavadora.
+    translation: הטכנאי הולך לתקן את מכונת הכביסה.
+- id: p1-recoger
+  text: recoger
+  translation: לאסוף
+  pos: verb
+  example:
+    text: Paso a recoger a mi hija a las tres.
+    translation: אני עוברת לאסוף את הבת שלי בשלוש.
+- id: p1-colgar
+  text: colgar
+  translation: לתלות
+  pos: verb
+  example:
+    text: Voy a colgar la ropa en el patio.
+    translation: אתלה את הכביסה בחצר.
+- id: p1-secar
+  text: secar
+  translation: לייבש
+  pos: verb
+  example:
+    text: Uso la secadora para secar la ropa.
+    translation: אני משתמשת במייבש כדי לייבש את הכביסה.
+lessons:
+- id: p1-l1
+  kind: new
+  title:
+    he: חבילה 1 – חלק 1
+    en: Pack 1 – part 1
+  exercises:
+  - id: p1-l1-01
+    type: learn
+    lexeme: p1-llave
+  - id: p1-l1-02
+    type: learn
+    lexeme: p1-espejo
+  - id: p1-l1-03
+    type: learn
+    lexeme: p1-basura
+  - id: p1-l1-04
+    type: learn
+    lexeme: p1-cepillo
+  - id: p1-l1-05
+    type: learn
+    lexeme: p1-toalla
+  - id: p1-l1-06
+    type: learn
+    lexeme: p1-jabon
+  - id: p1-l1-07
+    type: learn
+    lexeme: p1-regadera
+  - id: p1-l1-08
+    type: learn
+    lexeme: p1-propina
+  - id: p1-l1-09
+    type: match_pairs
+    pairs:
+    - - la llave
+      - מפתח
+    - - el espejo
+      - מראה
+    - - la basura
+      - זבל
+    - - el cepillo
+      - מברשת
+    lexemes:
+    - p1-llave
+    - p1-espejo
+    - p1-basura
+    - p1-cepillo
+  - id: p1-l1-10
+    type: match_pairs
+    pairs:
+    - - la toalla
+      - מגבת
+    - - el jabón
+      - סבון
+    - - la regadera
+      - מקלחת (מקסיקו)
+    - - la propina
+      - טיפ
+    lexemes:
+    - p1-toalla
+    - p1-jabon
+    - p1-regadera
+    - p1-propina
+  - id: p1-l1-11
+    type: multiple_choice
+    prompt: מה פירוש la llave?
+    options:
+    - מפתח
+    - צמיג
+    - לטאטא
+    correct: 0
+    lexemes:
+    - p1-llave
+  - id: p1-l1-12
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: מראה?'
+    options:
+    - el espejo
+    - lavar
+    - colgar
+    correct: 0
+    lexemes:
+    - p1-espejo
+  - id: p1-l1-13
+    type: multiple_choice
+    prompt: מה פירוש la basura?
+    options:
+    - זבל
+    - מדרגות, סולם
+    - שמיכה
+    correct: 0
+    lexemes:
+    - p1-basura
+  - id: p1-l1-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: מברשת?'
+    options:
+    - el cepillo
+    - tirar
+    - reparar
+    correct: 0
+    lexemes:
+    - p1-cepillo
+  - id: p1-l1-15
+    type: multiple_choice
+    prompt: מה פירוש la toalla?
+    options:
+    - מגבת
+    - לזרוק
+    - לגהץ
+    correct: 0
+    lexemes:
+    - p1-toalla
+  - id: p1-l1-16
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: סבון?'
+    options:
+    - el jabón
+    - enchufar
+    - reparar
+    correct: 0
+    lexemes:
+    - p1-jabon
+  - id: p1-l1-17
+    type: multiple_choice
+    prompt: מה פירוש la regadera?
+    options:
+    - מקלחת (מקסיקו)
+    - מעלית
+    - מדרגות, סולם
+    correct: 0
+    lexemes:
+    - p1-regadera
+  - id: p1-l1-18
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: טיפ?'
+    options:
+    - la propina
+    - la almohada
+    - la fila
+    correct: 0
+    lexemes:
+    - p1-propina
+  - id: p1-l1-19
+    type: fill_blank
+    sentence: ¿Dónde dejé la ___?
+    translation: איפה השארתי את המפתח?
+    answers:
+    - llave
+    options:
+    - llave
+    - llanta
+    - almohada
+    lexemes:
+    - p1-llave
+  - id: p1-l1-20
+    type: fill_blank
+    sentence: Me miro en el ___ cada mañana.
+    translation: אני מסתכלת במראה כל בוקר.
+    answers:
+    - espejo
+    options:
+    - espejo
+    - fila
+    - cobija
+    lexemes:
+    - p1-espejo
+  - id: p1-l1-21
+    type: fill_blank
+    sentence: Saco la ___ por la noche.
+    translation: אני מוציאה את הזבל בלילה.
+    answers:
+    - basura
+    options:
+    - basura
+    - llanta
+    - ascensor
+    lexemes:
+    - p1-basura
+  - id: p1-l1-22
+    type: fill_blank
+    sentence: Uso un ___ de dientes suave.
+    translation: אני משתמשת במברשת שיניים רכה.
+    answers:
+    - cepillo
+    options:
+    - cepillo
+    - llanta
+    - fila
+    lexemes:
+    - p1-cepillo
+  - id: p1-l1-23
+    type: fill_blank
+    sentence: Necesito una ___ limpia.
+    translation: אני צריכה מגבת נקייה.
+    answers:
+    - toalla
+    options:
+    - toalla
+    - ascensor
+    - fila
+    lexemes:
+    - p1-toalla
+  - id: p1-l1-24
+    type: fill_blank
+    sentence: Lávate las manos con ___ y agua.
+    translation: תרחץ ידיים בסבון ובמים.
+    answers:
+    - jabón
+    options:
+    - jabón
+    - escalera
+    - ascensor
+    lexemes:
+    - p1-jabon
+  - id: p1-l1-25
+    type: fill_blank
+    sentence: Me gusta la ___ con agua tibia.
+    translation: אני אוהבת מקלחת עם מים פושרים.
+    answers:
+    - regadera
+    options:
+    - regadera
+    - escalera
+    - cobija
+    lexemes:
+    - p1-regadera
+  - id: p1-l1-26
+    type: fill_blank
+    sentence: Dejamos una ___ al mesero.
+    translation: השארנו טיפ למלצר.
+    answers:
+    - propina
+    options:
+    - propina
+    - fila
+    - cobija
+    lexemes:
+    - p1-propina
+  - id: p1-l1-27
+    type: dictation
+    text: Dejamos una propina al mesero.
+    lexemes:
+    - p1-propina
+  - id: p1-l1-28
+    type: dictation
+    text: Lávate las manos con jabón y agua.
+    lexemes:
+    - p1-jabon
+- id: p1-l2
+  kind: new
+  title:
+    he: חבילה 1 – חלק 2
+    en: Pack 1 – part 2
+  exercises:
+  - id: p1-l2-01
+    type: learn
+    lexeme: p1-fila
+  - id: p1-l2-02
+    type: learn
+    lexeme: p1-llanta
+  - id: p1-l2-03
+    type: learn
+    lexeme: p1-ascensor
+  - id: p1-l2-04
+    type: learn
+    lexeme: p1-escalera
+  - id: p1-l2-05
+    type: learn
+    lexeme: p1-almohada
+  - id: p1-l2-06
+    type: learn
+    lexeme: p1-cobija
+  - id: p1-l2-07
+    type: learn
+    lexeme: p1-lavar
+  - id: p1-l2-08
+    type: learn
+    lexeme: p1-barrer
+  - id: p1-l2-09
+    type: match_pairs
+    pairs:
+    - - la fila
+      - תור, שורה
+    - - la llanta
+      - צמיג
+    - - el ascensor
+      - מעלית
+    - - la escalera
+      - מדרגות, סולם
+    lexemes:
+    - p1-fila
+    - p1-llanta
+    - p1-ascensor
+    - p1-escalera
+  - id: p1-l2-10
+    type: match_pairs
+    pairs:
+    - - la almohada
+      - כרית
+    - - la cobija
+      - שמיכה
+    - - lavar
+      - לשטוף, לכבס
+    - - barrer
+      - לטאטא
+    lexemes:
+    - p1-almohada
+    - p1-cobija
+    - p1-lavar
+    - p1-barrer
+  - id: p1-l2-11
+    type: multiple_choice
+    prompt: מה פירוש la fila?
+    options:
+    - תור, שורה
+    - מקלחת (מקסיקו)
+    - לסדר
+    correct: 0
+    lexemes:
+    - p1-fila
+  - id: p1-l2-12
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: צמיג?'
+    options:
+    - la llanta
+    - planchar
+    - el jabón
+    correct: 0
+    lexemes:
+    - p1-llanta
+  - id: p1-l2-13
+    type: multiple_choice
+    prompt: מה פירוש el ascensor?
+    options:
+    - מעלית
+    - לזרוק
+    - לתקן
+    correct: 0
+    lexemes:
+    - p1-ascensor
+  - id: p1-l2-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: מדרגות, סולם?'
+    options:
+    - la escalera
+    - secar
+    - recoger
+    correct: 0
+    lexemes:
+    - p1-escalera
+  - id: p1-l2-15
+    type: multiple_choice
+    prompt: מה פירוש la almohada?
+    options:
+    - כרית
+    - מגבת
+    - לתלות
+    correct: 0
+    lexemes:
+    - p1-almohada
+  - id: p1-l2-16
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: שמיכה?'
+    options:
+    - la cobija
+    - secar
+    - el cepillo
+    correct: 0
+    lexemes:
+    - p1-cobija
+  - id: p1-l2-17
+    type: multiple_choice
+    prompt: מה פירוש lavar?
+    options:
+    - לשטוף, לכבס
+    - טיפ
+    - מברשת
+    correct: 0
+    lexemes:
+    - p1-lavar
+  - id: p1-l2-18
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: לטאטא?'
+    options:
+    - barrer
+    - el jabón
+    - tirar
+    correct: 0
+    lexemes:
+    - p1-barrer
+  - id: p1-l2-19
+    type: fill_blank
+    sentence: Hay una ___ larga en el banco.
+    translation: יש תור ארוך בבנק.
+    answers:
+    - fila
+    options:
+    - fila
+    - cepillo
+    - llave
+    lexemes:
+    - p1-fila
+  - id: p1-l2-20
+    type: fill_blank
+    sentence: Una ___ del coche está ponchada.
+    translation: צמיג אחד של המכונית מפונצ'ר.
+    answers:
+    - llanta
+    options:
+    - llanta
+    - propina
+    - cepillo
+    lexemes:
+    - p1-llanta
+  - id: p1-l2-21
+    type: fill_blank
+    sentence: El ___ está descompuesto.
+    translation: המעלית מקולקלת.
+    answers:
+    - ascensor
+    options:
+    - ascensor
+    - llave
+    - basura
+    lexemes:
+    - p1-ascensor
+  - id: p1-l2-22
+    type: fill_blank
+    sentence: Subo por la ___ porque es rápido.
+    translation: אני עולה במדרגות כי זה מהיר.
+    answers:
+    - escalera
+    options:
+    - escalera
+    - llave
+    - espejo
+    lexemes:
+    - p1-escalera
+  - id: p1-l2-23
+    type: fill_blank
+    sentence: Prefiero una ___ suave.
+    translation: אני מעדיפה כרית רכה.
+    answers:
+    - almohada
+    options:
+    - almohada
+    - cepillo
+    - propina
+    lexemes:
+    - p1-almohada
+  - id: p1-l2-24
+    type: fill_blank
+    sentence: Hace frío; trae otra ___.
+    translation: קר; תביא עוד שמיכה.
+    answers:
+    - cobija
+    options:
+    - cobija
+    - espejo
+    - llave
+    lexemes:
+    - p1-cobija
+  - id: p1-l2-25
+    type: fill_blank
+    sentence: Hoy voy a ___ la ropa.
+    translation: היום אכבס את הבגדים.
+    answers:
+    - lavar
+    options:
+    - lavar
+    - enchufar
+    - plancho
+    lexemes:
+    - p1-lavar
+  - id: p1-l2-26
+    type: fill_blank
+    sentence: Mi hermano ___ el piso cada viernes.
+    translation: אחי מטאטא את הרצפה כל יום שישי.
+    answers:
+    - barre
+    options:
+    - barre
+    - tirar
+    - enchufar
+    lexemes:
+    - p1-barrer
+  - id: p1-l2-27
+    type: dictation
+    text: El ascensor está descompuesto.
+    lexemes:
+    - p1-ascensor
+  - id: p1-l2-28
+    type: dictation
+    text: Mi hermano barre el piso cada viernes.
+    lexemes:
+    - p1-barrer
+- id: p1-l3
+  kind: new
+  title:
+    he: חבילה 1 – חלק 3
+    en: Pack 1 – part 3
+  exercises:
+  - id: p1-l3-01
+    type: learn
+    lexeme: p1-planchar
+  - id: p1-l3-02
+    type: learn
+    lexeme: p1-ordenar
+  - id: p1-l3-03
+    type: learn
+    lexeme: p1-tirar
+  - id: p1-l3-04
+    type: learn
+    lexeme: p1-enchufar
+  - id: p1-l3-05
+    type: learn
+    lexeme: p1-reparar
+  - id: p1-l3-06
+    type: learn
+    lexeme: p1-recoger
+  - id: p1-l3-07
+    type: learn
+    lexeme: p1-colgar
+  - id: p1-l3-08
+    type: learn
+    lexeme: p1-secar
+  - id: p1-l3-09
+    type: match_pairs
+    pairs:
+    - - planchar
+      - לגהץ
+    - - ordenar
+      - לסדר
+    - - tirar
+      - לזרוק
+    - - enchufar
+      - לחבר לחשמל
+    lexemes:
+    - p1-planchar
+    - p1-ordenar
+    - p1-tirar
+    - p1-enchufar
+  - id: p1-l3-10
+    type: match_pairs
+    pairs:
+    - - reparar
+      - לתקן
+    - - recoger
+      - לאסוף
+    - - colgar
+      - לתלות
+    - - secar
+      - לייבש
+    lexemes:
+    - p1-reparar
+    - p1-recoger
+    - p1-colgar
+    - p1-secar
+  - id: p1-l3-11
+    type: multiple_choice
+    prompt: מה פירוש planchar?
+    options:
+    - לגהץ
+    - צמיג
+    - מגבת
+    correct: 0
+    lexemes:
+    - p1-planchar
+  - id: p1-l3-12
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: לסדר?'
+    options:
+    - ordenar
+    - la regadera
+    - la escalera
+    correct: 0
+    lexemes:
+    - p1-ordenar
+  - id: p1-l3-13
+    type: multiple_choice
+    prompt: מה פירוש tirar?
+    options:
+    - לזרוק
+    - סבון
+    - לטאטא
+    correct: 0
+    lexemes:
+    - p1-tirar
+  - id: p1-l3-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: לחבר לחשמל?'
+    options:
+    - enchufar
+    - la propina
+    - la llave
+    correct: 0
+    lexemes:
+    - p1-enchufar
+  - id: p1-l3-15
+    type: multiple_choice
+    prompt: מה פירוש reparar?
+    options:
+    - לתקן
+    - טיפ
+    - שמיכה
+    correct: 0
+    lexemes:
+    - p1-reparar
+  - id: p1-l3-16
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: לאסוף?'
+    options:
+    - recoger
+    - el jabón
+    - la propina
+    correct: 0
+    lexemes:
+    - p1-recoger
+  - id: p1-l3-17
+    type: multiple_choice
+    prompt: מה פירוש colgar?
+    options:
+    - לתלות
+    - כרית
+    - טיפ
+    correct: 0
+    lexemes:
+    - p1-colgar
+  - id: p1-l3-18
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: לייבש?'
+    options:
+    - secar
+    - el cepillo
+    - la basura
+    correct: 0
+    lexemes:
+    - p1-secar
+  - id: p1-l3-19
+    type: fill_blank
+    sentence: Siempre ___ la camisa antes de salir.
+    translation: אני תמיד מגהצת את החולצה לפני שיוצאים.
+    answers:
+    - plancho
+    options:
+    - plancho
+    - lavar
+    - barre
+    lexemes:
+    - p1-planchar
+  - id: p1-l3-20
+    type: fill_blank
+    sentence: Voy a ___ mi cuarto hoy.
+    translation: אסדר את החדר שלי היום.
+    answers:
+    - ordenar
+    options:
+    - ordenar
+    - lavar
+    - barre
+    lexemes:
+    - p1-ordenar
+  - id: p1-l3-21
+    type: fill_blank
+    sentence: No debes ___ papeles en la calle.
+    translation: אסור לזרוק ניירות ברחוב.
+    answers:
+    - tirar
+    options:
+    - tirar
+    - barre
+    - lavar
+    lexemes:
+    - p1-tirar
+  - id: p1-l3-22
+    type: fill_blank
+    sentence: Tienes que ___ el cargador.
+    translation: אתה צריך לחבר את המטען לחשמל.
+    answers:
+    - enchufar
+    options:
+    - enchufar
+    - barre
+    - lavar
+    lexemes:
+    - p1-enchufar
+  - id: p1-l3-23
+    type: fill_blank
+    sentence: El técnico va a ___ la lavadora.
+    translation: הטכנאי הולך לתקן את מכונת הכביסה.
+    answers:
+    - reparar
+    options:
+    - reparar
+    - barre
+    - lavar
+    lexemes:
+    - p1-reparar
+  - id: p1-l3-24
+    type: fill_blank
+    sentence: Paso a ___ a mi hija a las tres.
+    translation: אני עוברת לאסוף את הבת שלי בשלוש.
+    answers:
+    - recoger
+    options:
+    - recoger
+    - barre
+    - lavar
+    lexemes:
+    - p1-recoger
+  - id: p1-l3-25
+    type: fill_blank
+    sentence: Voy a ___ la ropa en el patio.
+    translation: אתלה את הכביסה בחצר.
+    answers:
+    - colgar
+    options:
+    - colgar
+    - barre
+    - lavar
+    lexemes:
+    - p1-colgar
+  - id: p1-l3-26
+    type: fill_blank
+    sentence: Uso la secadora para ___ la ropa.
+    translation: אני משתמשת במייבש כדי לייבש את הכביסה.
+    answers:
+    - secar
+    options:
+    - secar
+    - lavar
+    - barre
+    lexemes:
+    - p1-secar
+  - id: p1-l3-27
+    type: dictation
+    text: Voy a ordenar mi cuarto hoy.
+    lexemes:
+    - p1-ordenar
+  - id: p1-l3-28
+    type: dictation
+    text: Voy a colgar la ropa en el patio.
+    lexemes:
+    - p1-colgar

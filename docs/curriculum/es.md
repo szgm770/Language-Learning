@@ -38,4 +38,7 @@ Yael (יעל) moves to Mexico City for a year to work at a software company. Peo
 
 ## Status
 
-A0 is written first (this file's commit). Each later stage ships as its own pull request.
+All levels are written: A0 (3 units), A1 u01–u10, A2 u11–u20, B1 u21–u30, B2 u31–u40, C1 u41–u46, word packs p1–p6 (about 150 words), and the five level tests.
+
+Checked automatically: content schema, learn-before-practise, every listed answer is accepted, match pairs have unique sides, write models pass their own checks, and a phone e2e run solves a sample of lessons in every unit.
+**Not yet checked by a person.** The Spanish was written with AI. Before the course is called finished it needs a review by a native Spanish speaker (Mexican if possible) and by a Torah-observant reader: accents, naturalness of the dialogues, the Hebrew explanations, and the observance rules in CLAUDE.md.

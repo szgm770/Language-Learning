@@ -1,0 +1,954 @@
+id: u41-matices
+cefr: C1
+scene: news
+title:
+  he: 'אולי, כנראה, ככל ש…: ניואנסים של הודאות'
+  en: 'Nuance: certainty and conjecture'
+story: 'יעל מגיעה לרמה שבה אי אפשר לומר רק ''כן'' או ''לא''. בכתבה על פרויקט העיר היא קוראת: ''Quizás se apruebe'', ''Serán las tres'', ''Por mucho que lo intenten…''. היא לומדת לבטא ספק, הערכה והסתייגות בדיוק של דוברת מתקדמת.'
+canDo:
+- 'לבטא ספק והנחה: quizás, tal vez, a lo mejor, seguramente'
+- 'להשתמש בעתיד ובתנאי של הנחה: serán las tres, tendría treinta años'
+- 'לבטא ויתור: por mucho que, por más que, aunque + סובג''ונקטיב'
+- להבחין בין ודאות (indicativo) ולא־ודאות (subjuntivo)
+vocabulary:
+- id: a-lo-mejor
+  text: a lo mejor
+  translation: אולי (+ אינדיקטיב)
+  pos: phrase
+- id: posiblemente
+  text: posiblemente
+  translation: אולי, ייתכן
+  pos: adverb
+- id: acaso
+  text: acaso
+  translation: אולי, במקרה
+  pos: adverb
+- id: intentar
+  text: intentar
+  translation: לנסות
+  pos: verb
+- id: ganar
+  text: ganar
+  translation: לנצח, להרוויח
+  pos: verb
+- id: funcionar
+  text: funcionar
+  translation: לעבוד, לפעול
+  pos: verb
+- id: por-mucho-que
+  text: por mucho que
+  translation: ככל ש… (לא משנה כמה)
+  pos: conjunction
+- id: por-mas-que
+  text: por más que
+  translation: ככל ש…
+  pos: conjunction
+- id: por-muy
+  text: por muy… que
+  translation: ככל ש… (תואר)
+  pos: phrase
+- id: a-pesar-de-que
+  text: a pesar de que
+  translation: למרות ש
+  pos: conjunction
+- id: conjetura
+  text: la conjetura
+  translation: השערה
+  pos: noun
+- id: hipotesis
+  text: la hipótesis
+  translation: השערה, תיאוריה
+  pos: noun
+- id: futuro-conj
+  text: serán las tres
+  translation: בטח כבר שלוש
+  pos: phrase
+- id: cond-conj
+  text: tendría treinta años
+  translation: בערך בן שלושים
+  pos: phrase
+- id: dudoso
+  text: dudoso
+  translation: מפוקפק
+  pos: adjective
+- id: certeza
+  text: la certeza
+  translation: ודאות
+  pos: noun
+- id: incertidumbre
+  text: la incertidumbre
+  translation: אי־ודאות
+  pos: noun
+- id: matiz
+  text: el matiz
+  translation: ניואנס
+  pos: noun
+grammar:
+- id: matices-modo
+  title:
+    he: ודאות, השערה וויתור
+    en: Certainty, conjecture and concession
+  explanation: 'בעברית אפשר לומר "אולי הוא יבוא", "כנראה שהוא בא", "ככל שירצה – לא יצליח". בספרדית הבחירה בין **אינדיקטיב** ל**סובג''ונקטיב** מראה כמה את בטוחה:
+
+
+    **אולי:**
+
+    * *quizás / tal vez / posiblemente* + **סובג''ונקטיב** (אי־ודאות): *Quizás **llegue** tarde.* | *Tal vez **tenga** razón.* — אבל + **אינדיקטיב** אם את בטוחה יותר: *Quizás **llegó** ya.*
+
+    * *a lo mejor* תמיד + **אינדיקטיב** (דיבורי, מקסיקני): *A lo mejor **llega** tarde.*
+
+    * *seguramente / probablemente / acaso* – לפי מידת הוודאות.
+
+
+    **השערה (עתיד ותנאי):** הערכה על הווה ועבר:
+
+    * **עתיד = השערה על הווה:** *Serán las tres.* (בטח כבר שלוש) | *Estará en casa.* (כנראה שהוא בבית)
+
+    * **תנאי = השערה על עבר:** *Tendría treinta años.* (הוא היה בערך בן שלושים) | *Llegaría tarde.* (כנראה איחר)
+
+
+    **ויתור (לא משנה כמה):**
+
+    * *por mucho que / por más que* + סובג''ונקטיב: ***Por mucho que** estudies, no vas a saber todo.* (ככל שתלמד…)
+
+    * *por muy + תואר + que* + סובג''ונקטיב: ***Por muy** difícil **que** sea, lo intento.*
+
+    * *aunque*: עובדה → אינדיקטיב (*Aunque llueve, salgo*); אפשרות → סובג''ונקטיב (*Aunque llueva, saldré*).
+
+    * *a pesar de que* + אינדיקטיב (עובדה): *A pesar de que está cansado, trabaja.*
+
+
+    **הערה:** כשאת רוצה להישמע זהירה, העדיפי *seguramente* ו־*probablemente* על פני "sí" ו־"no".'
+  examples:
+  - text: Quizás se apruebe el proyecto. A lo mejor llega la semana próxima.
+    translation: אולי הפרויקט יאושר. אולי הוא יגיע בשבוע הבא.
+  - text: Serán las tres. Tendría unos treinta años cuando llegó.
+    translation: בטח כבר שלוש. הוא היה בערך בן שלושים כשהגיע.
+  - text: Por mucho que lo intenten, no van a ganar.
+    translation: ככל שינסו, הם לא ינצחו.
+lessons:
+- id: u41-l1
+  kind: new
+  title:
+    he: אולי ובטח
+    en: Maybe and probably
+  exercises:
+  - id: u41-l1-01
+    type: dialogue
+    scene: יעל ומתאו קוראים כתבה.
+    lines:
+    - speaker: mateo
+      text: ¿Crees que aprueben el proyecto de la ciudad?
+      translation: את חושבת שיאשרו את הפרויקט של העיר?
+    - speaker: yael
+      text: Quizás lo aprueben, pero a lo mejor tardan meses. Seguramente falta presupuesto.
+      translation: אולי יאשרו, אבל אולי יתעכבו חודשים. כנראה חסר תקציב.
+    - speaker: mateo
+      text: Serán las tres. Vamos a comer, y luego seguimos leyendo.
+      translation: בטח כבר שלוש. נלך לאכול ואז נמשיך לקרוא.
+  - id: u41-l1-02
+    type: learn
+    lexeme: a-lo-mejor
+  - id: u41-l1-03
+    type: learn
+    lexeme: posiblemente
+  - id: u41-l1-04
+    type: learn
+    lexeme: acaso
+  - id: u41-l1-05
+    type: learn
+    lexeme: intentar
+  - id: u41-l1-06
+    type: learn
+    lexeme: ganar
+  - id: u41-l1-07
+    type: learn
+    lexeme: funcionar
+  - id: u41-l1-08
+    type: learn
+    lexeme: conjetura
+  - id: u41-l1-09
+    type: learn
+    lexeme: hipotesis
+  - id: u41-l1-10
+    type: learn
+    lexeme: certeza
+  - id: u41-l1-11
+    type: learn
+    lexeme: incertidumbre
+  - id: u41-l1-12
+    type: learn
+    lexeme: matiz
+  - id: u41-l1-13
+    type: learn
+    lexeme: dudoso
+  - id: u41-l1-14
+    type: match_pairs
+    pairs:
+    - - quizás
+      - אולי
+    - - a lo mejor
+      - אולי (דיבורי)
+    - - seguramente
+      - בוודאי
+    - - probablemente
+      - כנראה
+    - - posiblemente
+      - ייתכן
+    lexemes:
+    - quizas
+    - a-lo-mejor
+    - seguramente
+    - probablemente
+    - posiblemente
+  - id: u41-l1-15
+    type: match_pairs
+    pairs:
+    - - la conjetura
+      - השערה
+    - - la hipótesis
+      - תיאוריה
+    - - la certeza
+      - ודאות
+    - - la incertidumbre
+      - אי־ודאות
+    - - el matiz
+      - ניואנס
+    lexemes:
+    - conjetura
+    - hipotesis
+    - certeza
+    - incertidumbre
+    - matiz
+  - id: u41-l1-16
+    type: multiple_choice
+    prompt: מה פירוש 'Quizás llegue tarde'?
+    options:
+    - אולי יגיע מאוחר
+    - בטח הגיע מאוחר
+    - הגיע מאוחר
+    correct: 0
+    lexemes:
+    - quizas
+    - llegar
+    - tarde-adv
+  - id: u41-l1-17
+    type: multiple_choice
+    prompt: איזה משפט נכון (דיבורי)?
+    options:
+    - A lo mejor llega tarde.
+    - A lo mejor llegue tarde.
+    - A lo mejor llegara tarde.
+    correct: 0
+    lexemes:
+    - a-lo-mejor
+    - llegar
+  - id: u41-l1-18
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Tal vez tenga razón.
+    - Tal vez tiene razón (ספק גדול).
+    - Tal vez tendría razón ayer.
+    correct: 0
+    lexemes:
+    - quizas
+    - tener-razon
+  - id: u41-l1-19
+    type: listening_choice
+    audioText: Seguramente llega mañana.
+    question: מה אומרים?
+    options:
+    - כנראה יגיע מחר
+    - הוא הגיע אתמול
+    - הוא לא יגיע
+    correct: 0
+    lexemes:
+    - seguramente
+    - llegar
+    - manana-adv
+  - id: u41-l1-20
+    type: listening_choice
+    audioText: A lo mejor no puede venir.
+    question: מה אומרים?
+    options:
+    - אולי הוא לא יוכל לבוא
+    - הוא בא
+    - בטח יבוא
+    correct: 0
+    lexemes:
+    - a-lo-mejor
+    - poder
+    - venir
+  - id: u41-l1-21
+    type: translate
+    direction: to_target
+    prompt: אולי הוא יבוא.
+    answers:
+    - Quizás venga.
+    - Tal vez venga.
+    - A lo mejor viene.
+    lexemes:
+    - quizas
+    - venir
+  - id: u41-l1-22
+    type: translate
+    direction: to_target
+    prompt: כנראה שהוא עייף.
+    answers:
+    - Seguramente está cansado.
+    - Probablemente está cansado.
+    lexemes:
+    - seguramente
+    - estar
+  - id: u41-l1-23
+    type: translate
+    direction: to_source
+    prompt: Posiblemente tenga razón.
+    answers:
+    - אולי הוא צודק
+    - ייתכן שהוא צודק
+    lexemes:
+    - posiblemente
+    - tener-razon
+  - id: u41-l1-24
+    type: dictation
+    text: Quizás lo aprueben.
+    lexemes:
+    - quizas
+    - aprobar
+  - id: u41-l1-25
+    type: speak_repeat
+    text: A lo mejor llega la semana próxima.
+    translation: אולי הוא יגיע בשבוע הבא.
+    lexemes:
+    - a-lo-mejor
+    - llegar
+- id: u41-l2
+  kind: new
+  title:
+    he: השערה וויתור
+    en: Conjecture and concession
+  exercises:
+  - id: u41-l2-01
+    type: learn
+    lexeme: futuro-conj
+  - id: u41-l2-02
+    type: learn
+    lexeme: cond-conj
+  - id: u41-l2-03
+    type: learn
+    lexeme: por-mucho-que
+  - id: u41-l2-04
+    type: learn
+    lexeme: por-mas-que
+  - id: u41-l2-05
+    type: learn
+    lexeme: por-muy
+  - id: u41-l2-06
+    type: learn
+    lexeme: a-pesar-de-que
+  - id: u41-l2-07
+    type: match_pairs
+    pairs:
+    - - por mucho que
+      - ככל ש
+    - - por más que
+      - לא משנה כמה
+    - - por muy… que
+      - ככל ש… (תואר)
+    - - a pesar de que
+      - למרות ש
+    - - serán las tres
+      - בטח שלוש
+    lexemes:
+    - por-mucho-que
+    - por-mas-que
+    - por-muy
+    - a-pesar-de-que
+    - futuro-conj
+  - id: u41-l2-08
+    type: dialogue
+    scene: דיון בארוחת צהריים.
+    lines:
+    - speaker: sofia
+      text: Por mucho que lo intenten, no van a terminar este año.
+      translation: ככל שינסו, הם לא יסיימו השנה.
+    - speaker: yael
+      text: A pesar de que tienen presupuesto, hay muchos problemas. Tendrían problemas con los permisos.
+      translation: למרות שיש להם תקציב, יש הרבה בעיות. כנראה היו להם בעיות עם הרישיונות.
+    - speaker: sofia
+      text: Por muy difícil que sea, algún día lo harán.
+      translation: ככל שזה יהיה קשה, יום אחד הם יעשו את זה.
+  - id: u41-l2-09
+    type: multiple_choice
+    prompt: מה פירוש 'Por mucho que estudies'?
+    options:
+    - ככל שתלמד
+    - בגלל שלמדת
+    - כי למדת
+    correct: 0
+    lexemes:
+    - por-mucho-que
+    - estudiar
+  - id: u41-l2-10
+    type: multiple_choice
+    prompt: מה פירוש 'Estará en casa'?
+    options:
+    - כנראה הוא בבית
+    - הוא היה בבית
+    - הוא יהיה בבית
+    correct: 0
+    lexemes:
+    - estar
+    - casa
+  - id: u41-l2-11
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Por muy difícil que sea, lo intento.
+    - Por muy difícil que es, lo intento.
+    - Por muy difícil sería, lo intento.
+    correct: 0
+    lexemes:
+    - por-muy
+    - dificil
+  - id: u41-l2-12
+    type: listening_choice
+    audioText: Por más que lo intente, no puedo.
+    question: מה אומרים?
+    options:
+    - ככל שאנסה, אני לא יכול
+    - ניסיתי ויכולתי
+    - לא ניסיתי
+    correct: 0
+    lexemes:
+    - por-mas-que
+    - intentar
+    - poder
+  - id: u41-l2-13
+    type: listening_choice
+    audioText: Tendría treinta años cuando llegó.
+    question: מה אומרים?
+    options:
+    - הוא היה בערך בן שלושים כשהגיע
+    - הוא בן שלושים
+    - הוא יהיה בן שלושים
+    correct: 0
+    lexemes:
+    - cond-conj
+    - llegar
+  - id: u41-l2-14
+    type: fill_blank
+    sentence: Por mucho que ___, no va a ganar. (intentar, él)
+    translation: ככל שינסה, הוא לא ינצח.
+    answers:
+    - intente
+    options:
+    - intente
+    - intenta
+    - intentará
+    lexemes:
+    - por-mucho-que
+    - intentar
+  - id: u41-l2-15
+    type: fill_blank
+    sentence: Por muy difícil que ___, lo hago. (ser)
+    translation: ככל שזה יהיה קשה, אעשה.
+    answers:
+    - sea
+    options:
+    - sea
+    - es
+    - fue
+    lexemes:
+    - por-muy
+    - dificil
+  - id: u41-l2-16
+    type: fill_blank
+    sentence: ___ las tres. (בטח)
+    translation: בטח כבר שלוש.
+    answers:
+    - Serán
+    options:
+    - Serán
+    - Eran
+    - Son
+    lexemes:
+    - futuro-conj
+  - id: u41-l2-17
+    type: fill_blank
+    sentence: A pesar de que ___ cansado, trabaja. (estar)
+    translation: למרות שהוא עייף, הוא עובד.
+    answers:
+    - está
+    options:
+    - está
+    - esté
+    - estuviera
+    lexemes:
+    - a-pesar-de-que
+    - estar
+  - id: u41-l2-18
+    type: word_bank
+    prompt: ככל שתלמד, לא תדע הכול.
+    answers:
+    - Por mucho que estudies, no vas a saberlo todo.
+    distractors:
+    - Por mucho que estudias, no vas a saberlo todo
+    lexemes:
+    - por-mucho-que
+    - estudiar
+    - saber
+  - id: u41-l2-19
+    type: word_bank
+    prompt: כנראה שהוא בבית.
+    answers:
+    - Estará en casa.
+    distractors:
+    - Estaba en casa
+    lexemes:
+    - estar
+    - casa
+  - id: u41-l2-20
+    type: translate
+    direction: to_target
+    prompt: ככל שאנסה, זה קשה.
+    answers:
+    - Por más que lo intente, es difícil.
+    lexemes:
+    - por-mas-que
+    - intentar
+    - dificil
+  - id: u41-l2-21
+    type: translate
+    direction: to_source
+    prompt: Tendrían problemas con los permisos.
+    answers:
+    - כנראה היו להם בעיות עם הרישיונות
+    lexemes:
+    - cond-conj
+    - problema
+  - id: u41-l2-22
+    type: dictation
+    text: Por mucho que lo intenten, no van a ganar.
+    lexemes:
+    - por-mucho-que
+    - intentar
+- id: u41-l3
+  kind: grammar
+  title:
+    he: מידת הוודאות
+    en: Degrees of certainty
+  grammar: matices-modo
+  exercises:
+  - id: u41-l3-01
+    type: fill_blank
+    sentence: Quizás ___ razón. (tener, él)
+    translation: אולי הוא צודק.
+    answers:
+    - tenga
+    options:
+    - tenga
+    - tiene
+    - tendría
+    lexemes:
+    - quizas
+    - tener-razon
+  - id: u41-l3-02
+    type: fill_blank
+    sentence: A lo mejor ___ razón. (tener, él)
+    translation: אולי הוא צודק.
+    answers:
+    - tiene
+    options:
+    - tiene
+    - tenga
+    - tuviera
+    lexemes:
+    - a-lo-mejor
+    - tener-razon
+  - id: u41-l3-03
+    type: fill_blank
+    sentence: Por más que ___, no puedo. (intentar, yo)
+    translation: ככל שאנסה, אני לא יכול.
+    answers:
+    - intente
+    options:
+    - intente
+    - intento
+    - intenté
+    lexemes:
+    - por-mas-que
+    - intentar
+  - id: u41-l3-04
+    type: fill_blank
+    sentence: Aunque ___ mañana, salgo. (llover – אפשרות)
+    translation: גם אם ירד גשם מחר, אצא.
+    answers:
+    - llueva
+    options:
+    - llueva
+    - llueve
+    - llovió
+    lexemes:
+    - manana-adv
+    - salir
+  - id: u41-l3-05
+    type: fill_blank
+    sentence: Aunque ___, salgo. (llover – עובדה, יורד עכשיו)
+    translation: אף על פי שיורד גשם, אני יוצאת.
+    answers:
+    - llueve
+    options:
+    - llueve
+    - llueva
+    - lloverá
+    lexemes:
+    - salir
+  - id: u41-l3-06
+    type: fill_blank
+    sentence: Ahora ___ las cuatro. (בטח)
+    translation: עכשיו בטח ארבע.
+    answers:
+    - serán
+    options:
+    - serán
+    - eran
+    - son
+    lexemes:
+    - futuro-conj
+  - id: u41-l3-07
+    type: fill_blank
+    sentence: Ayer ___ las cuatro. (בטח היה)
+    translation: אתמול בטח היה ארבע.
+    answers:
+    - serían
+    options:
+    - serían
+    - serán
+    - son
+    lexemes:
+    - cond-conj
+  - id: u41-l3-08
+    type: multiple_choice
+    prompt: מתי quizás + אינדיקטיב?
+    options:
+    - כשיש יותר ודאות
+    - כשיש ספק גדול
+    - אף פעם
+    correct: 0
+    lexemes:
+    - quizas
+  - id: u41-l3-09
+    type: multiple_choice
+    prompt: איזו צורה מתארת השערה על עבר?
+    options:
+    - 'תנאי: tendría'
+    - 'עתיד: tendrá'
+    - 'הווה: tiene'
+    correct: 0
+    lexemes:
+    - cond-conj
+  - id: u41-l3-10
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Por mucho que lo intente, no gano.
+    - Por mucho que lo intento, no gano.
+    - Por mucho lo intente, no gano.
+    correct: 0
+    lexemes:
+    - por-mucho-que
+    - intentar
+    - ganar
+  - id: u41-l3-11
+    type: word_bank
+    prompt: אולי הוא יודע.
+    answers:
+    - Quizás lo sepa.
+    distractors:
+    - Quizás lo sabría
+    lexemes:
+    - quizas
+    - saber
+  - id: u41-l3-12
+    type: word_bank
+    prompt: כנראה הם בבית.
+    answers:
+    - Estarán en casa.
+    distractors:
+    - Estaban en casa
+    lexemes:
+    - estar
+    - casa
+  - id: u41-l3-13
+    type: translate
+    direction: to_target
+    prompt: ככל שתנסה, זה לא יעבוד.
+    answers:
+    - Por mucho que lo intentes, no va a funcionar.
+    lexemes:
+    - por-mucho-que
+    - intentar
+    - funcionar
+  - id: u41-l3-14
+    type: translate
+    direction: to_target
+    prompt: אולי הם איחרו.
+    answers:
+    - Quizás llegaran tarde.
+    - Tal vez llegaran tarde.
+    lexemes:
+    - quizas
+    - llegar
+    - tarde-adv
+  - id: u41-l3-15
+    type: translate
+    direction: to_source
+    prompt: A lo mejor no viene.
+    answers:
+    - אולי הוא לא יבוא
+    lexemes:
+    - a-lo-mejor
+    - venir
+  - id: u41-l3-16
+    type: translate
+    direction: to_source
+    prompt: Probablemente tengamos que esperar.
+    answers:
+    - כנראה נצטרך לחכות
+    lexemes:
+    - probablemente
+    - tener-que
+    - esperar
+- id: u41-l4
+  kind: reading
+  title:
+    he: כתבה עם הסתייגות
+    en: A hedged article
+  exercises:
+  - id: u41-l4-01
+    type: reading
+    kind: כתבה
+    title: ¿Se construirá el parque?
+    text: 'Según fuentes del ayuntamiento, quizás se apruebe el proyecto del parque, aunque nada es seguro. Probablemente los trabajos empiecen en primavera, pero a lo mejor se retrasen por falta de presupuesto.
+
+      Un vecino, que tendría unos sesenta años, dijo: «Por mucho que lo prometan, no creo que lo terminen». Los expertos creen que, por muy complicado que sea, el proyecto es viable.
+
+      '
+    translation: 'לפי מקורות בעירייה, אולי יאושר פרויקט הפארק, אם כי שום דבר לא בטוח. כנראה העבודות יתחילו באביב, אבל אולי יתעכבו בגלל חוסר תקציב.
+
+      שכן, שבערך בן שישים, אמר: «ככל שיבטיחו, אני לא חושב שיסיימו». המומחים סבורים שככל שהפרויקט מסובך, הוא ישים.
+
+      '
+  - id: u41-l4-02
+    type: multiple_choice
+    prompt: מה המצב של הפרויקט?
+    options:
+    - לא בטוח
+    - בטוח
+    - בוטל
+    correct: 0
+    lexemes:
+    - quizas
+    - certeza
+  - id: u41-l4-03
+    type: multiple_choice
+    prompt: מה השכן חושב?
+    options:
+    - שלא יסיימו
+    - שיסיימו מחר
+    - שיבנו מהר
+    correct: 0
+    lexemes:
+    - por-mucho-que
+    - terminar
+  - id: u41-l4-04
+    type: fill_blank
+    sentence: Quizás se ___ el proyecto. (aprobar)
+    translation: אולי יאושר הפרויקט.
+    answers:
+    - apruebe
+    options:
+    - apruebe
+    - aprueba
+    - aprobó
+    lexemes:
+    - quizas
+    - aprobar
+  - id: u41-l4-05
+    type: translate
+    direction: to_target
+    prompt: אולי הוא יתעכב.
+    answers:
+    - Quizás se retrase.
+    lexemes:
+    - quizas
+    - retrasar
+- id: u41-review
+  kind: review
+  title:
+    he: 'חזרה: ניואנסים + כתיבה'
+    en: Review + writing
+  exercises:
+  - id: u41-review-01
+    type: match_pairs
+    pairs:
+    - - quizás
+      - אולי
+    - - a lo mejor
+      - אולי (דיבורי)
+    - - seguramente
+      - בוודאי
+    - - probablemente
+      - כנראה
+    - - posiblemente
+      - ייתכן
+    lexemes:
+    - quizas
+    - a-lo-mejor
+    - seguramente
+    - probablemente
+    - posiblemente
+  - id: u41-review-02
+    type: match_pairs
+    pairs:
+    - - por mucho que
+      - ככל ש
+    - - a pesar de que
+      - למרות ש
+    - - la conjetura
+      - השערה
+    - - la certeza
+      - ודאות
+    - - el matiz
+      - ניואנס
+    lexemes:
+    - por-mucho-que
+    - a-pesar-de-que
+    - conjetura
+    - certeza
+    - matiz
+  - id: u41-review-03
+    type: fill_blank
+    sentence: Quizás ___ tarde. (llegar, él)
+    translation: אולי יגיע מאוחר.
+    answers:
+    - llegue
+    options:
+    - llegue
+    - llega
+    - llegará
+    lexemes:
+    - quizas
+    - llegar
+    - tarde-adv
+  - id: u41-review-04
+    type: fill_blank
+    sentence: Por mucho que ___, no gano. (intentar, yo)
+    translation: ככל שאנסה, אני לא מנצח.
+    answers:
+    - intente
+    options:
+    - intente
+    - intento
+    - intenté
+    lexemes:
+    - por-mucho-que
+    - intentar
+    - ganar
+  - id: u41-review-05
+    type: multiple_choice
+    prompt: מה פירוש 'Serán las tres'?
+    options:
+    - בטח כבר שלוש
+    - יהיה שלוש
+    - היה שלוש
+    correct: 0
+    lexemes:
+    - futuro-conj
+  - id: u41-review-06
+    type: listening_choice
+    audioText: A lo mejor no viene.
+    question: מה אומרים?
+    options:
+    - אולי הוא לא יבוא
+    - הוא לא בא
+    - בטח יבוא
+    correct: 0
+    lexemes:
+    - a-lo-mejor
+    - venir
+  - id: u41-review-07
+    type: word_bank
+    prompt: אולי יש לו זמן.
+    answers:
+    - Quizás tenga tiempo.
+    distractors:
+    - Quizás tendría tiempo hoy
+    lexemes:
+    - quizas
+    - tener
+    - tiempo
+  - id: u41-review-08
+    type: translate
+    direction: to_target
+    prompt: ככל שנסביר, הוא לא יבין.
+    answers:
+    - Por más que expliquemos, no va a entender.
+    lexemes:
+    - por-mas-que
+    - explicar
+    - entender
+  - id: u41-review-09
+    type: translate
+    direction: to_source
+    prompt: Probablemente tenga razón.
+    answers:
+    - כנראה הוא צודק
+    lexemes:
+    - probablemente
+    - tener-razon
+  - id: u41-review-10
+    type: dictation
+    text: Quizás se apruebe el proyecto.
+    lexemes:
+    - quizas
+    - aprobar
+  - id: u41-review-11
+    type: speak_repeat
+    text: Por mucho que lo intenten, no van a ganar.
+    translation: ככל שינסו, הם לא ינצחו.
+    lexemes:
+    - por-mucho-que
+    - intentar
+    - ganar
+  - id: u41-review-12
+    type: write
+    prompt: 'כתבו ניתוח זהיר (5–7 משפטים) של שאלה פתוחה: האם פרויקט, החלטה או שינוי ייצליחו. השתמשו בביטויי ספק והשערה (quizás, a lo mejor, probablemente, seguramente), בויתור (por mucho que / por más que / por muy… que / aunque), ובהשערה (עתיד או תנאי: estará, serán, tendría).'
+    minWords: 60
+    checks:
+    - label: אולי / כנראה (quizás, tal vez, a lo mejor, probablemente, seguramente)
+      any:
+      - quizas
+      - tal vez
+      - a lo mejor
+      - probablemente
+      - seguramente
+      - posiblemente
+    - label: ויתור (por mucho que / por más que / por muy… que / a pesar de que / aunque)
+      any:
+      - por mucho que
+      - por mas que
+      - por muy
+      - a pesar de que
+      - aunque
+    - label: 'השערה: עתיד או תנאי (será, estará, tendrá, tendría, estaría)'
+      any:
+      - \b(sera|seran|estara|estaran|tendra|tendran|tendria|tendrian|estaria|estarian|llegaria|llegara)\b
+    - label: סובג'ונקטיב (llegue, tenga, sea, apruebe, intente…)
+      any:
+      - \b(llegue|tenga|sea|apruebe|intente|intenten|funcione|pueda|logre|logren|haya|termine|terminen)\b
+    model: Quizás el proyecto se apruebe este año, pero a lo mejor se retrase por falta de dinero. Probablemente los vecinos estén contentos, aunque algunos no creen que sea posible. Por mucho que lo prometan, no hay garantía. Por muy complicado que sea, creo que es viable. Seguramente habrá cambios; tendría que haber más información. El resultado depende del presupuesto, y por eso conviene esperar antes de opinar con seguridad.
+    lexemes: []

@@ -1,0 +1,928 @@
+id: u42-modismos
+cefr: C1
+scene: free-time
+title:
+  he: '''ahorita'', ''ni modo'', ''echar una mano'': ניבים ומקסיקנית יומיומית'
+  en: Idioms and everyday Mexican Spanish
+story: 'אחרי שנה, יעל שומעת מקסיקנים אמיתיים: ''ahorita vengo'', ''¡qué padre!'', ''ni modo'', ''me costó un ojo de la cara''. סופיה מלמדת אותה ניבים וביטויים יומיומיים, ואיך להבחין מתי מתאים להשתמש בהם.'
+canDo:
+- להבין ולהשתמש בביטויים יומיומיים מקסיקניים (ahorita, ni modo, qué padre, platicar)
+- להבין ניבים נפוצים (costar un ojo de la cara, echar una mano, meter la pata)
+- להבחין בין סגנון רשמי לדיבורי
+- להימנע ממילות סלנג שאינן מתאימות
+vocabulary:
+- id: ahorita
+  text: ahorita
+  translation: עוד רגע; ממש עכשיו
+  pos: adverb
+- id: ni-modo
+  text: ni modo
+  translation: אין מה לעשות
+  pos: phrase
+- id: que-padre
+  text: ¡qué padre!
+  translation: איזה יופי!
+  pos: phrase
+- id: platicar
+  text: platicar
+  translation: לשוחח
+  pos: verb
+- id: mande
+  text: ¿mande?
+  translation: סליחה? (בנימוס)
+  pos: phrase
+- id: orale
+  text: ¡órale!
+  translation: יאללה! / וואו!
+  pos: interjection
+- id: echar-mano
+  text: echar una mano
+  translation: לעזור
+  pos: phrase
+- id: meter-pata
+  text: meter la pata
+  translation: לעשות טעות
+  pos: phrase
+- id: ojo-cara
+  text: costar un ojo de la cara
+  translation: לעלות הון
+  pos: phrase
+- id: ponerse-pilas
+  text: ponerse las pilas
+  translation: להתאמץ
+  pos: phrase
+- id: dar-lata
+  text: dar lata
+  translation: להציק
+  pos: phrase
+- id: estar-nubes
+  text: estar en las nubes
+  translation: להיות בעננים
+  pos: phrase
+- id: tomar-pelo
+  text: tomar el pelo
+  translation: לעבוד על מישהו
+  pos: phrase
+- id: hablar-claro
+  text: hablar claro
+  translation: לדבר ברור
+  pos: phrase
+- id: con-gusto
+  text: con mucho gusto
+  translation: בשמחה
+  pos: phrase
+- id: no-hay-de-que
+  text: no hay de qué
+  translation: אין בעד מה
+  pos: phrase
+- id: coloquial
+  text: coloquial
+  translation: דיבורי
+  pos: adjective
+- id: registro
+  text: el registro
+  translation: רמת שפה
+  pos: noun
+grammar:
+- id: modismos-mx
+  title:
+    he: ניבים ורמת שפה
+    en: Idioms and register
+  explanation: 'ניבים הם הדבר שהכי קשה לתרגם מילה במילה: "עלה לו עין מהראש" בעברית, **costar un ojo de la cara** בספרדית ("עין מהפנים"). חשוב להבין את המשמעות ולא את המילים.
+
+
+    **ביטויים מקסיקניים יומיומיים (לא וולגריים):**
+
+    * ***ahorita*** – בדרך כלל "עוד מעט" (גם "ממש עכשיו"): *Ahorita vengo.* (אני באה עוד רגע)
+
+    * ***ni modo*** – אין מה לעשות: *No llegó el pedido. Ni modo.*
+
+    * ***¡Qué padre!*** – איזה יופי! (מקסיקו) | *chido* (נוער) – מתאים בין חברים
+
+    * ***platicar*** – לשוחח (במקום *hablar*): *Vamos a platicar.*
+
+    * ***¿Mande?*** – סליחה? מה? (בנימוס, במקום *¿Qué?*)
+
+    * ***¡Órale!*** – יאללה / וואו
+
+
+    **ניבים נפוצים:**
+
+    * *echar una mano* – לעזור | *meter la pata* – לעשות טעות מביכה | *costar un ojo de la cara* – לעלות הון
+
+    * *ponerse las pilas* – להתאמץ, להתעורר | *dar lata* – להציק | *estar en las nubes* – להיות בעננים | *tomar el pelo* – לעבוד על מישהו
+
+
+    **נימוסים:** *con mucho gusto* (בשמחה), *no hay de qué* (אין בעד מה), *a sus órdenes* (לשירותך – בחנויות)
+
+
+    **רמת שפה (registro):**
+
+    * **רשמי:** *Le agradezco su atención.* | **ידידותי:** *Gracias, qué amable.* | **דיבורי:** *¡Qué padre, gracias!*
+
+    * בעבודה ועם מבוגרים: *usted*, בלי סלנג. עם חברים: *tú* ובדיבורית.
+
+
+    **הערה:** יש מילות סלנג מקסיקניות פוגעניות או וולגריות; הקורס הזה לא מלמד אותן. אם שומעים מילה לא מוכרת, עדיף לשאול "¿Qué significa?" מאשר לחקות.'
+  examples:
+  - text: Ahorita vengo. ¿Me echas una mano con esto?
+    translation: אני חוזרת עוד רגע. תעזור לי עם זה?
+  - text: El viaje me costó un ojo de la cara, pero ni modo, ¡qué padre fue!
+    translation: הנסיעה עלתה לי הון, אבל אין מה לעשות, איזה כיף זה היה!
+  - text: Metí la pata con el pedido, pero me puse las pilas y lo arreglé.
+    translation: טעיתי בהזמנה, אבל התאמצתי ותיקנתי.
+lessons:
+- id: u42-l1
+  kind: new
+  title:
+    he: מקסיקנית יומיומית
+    en: Everyday Mexican
+  exercises:
+  - id: u42-l1-01
+    type: dialogue
+    scene: יעל וסופיה בקפה.
+    lines:
+    - speaker: sofia
+      text: ¿Mande? No te escuché bien. Ahorita vengo, voy por unos papeles.
+      translation: סליחה? לא שמעתי טוב. אני חוזרת עוד רגע, הולכת להביא ניירות.
+    - speaker: yael
+      text: Ni modo, te espero. ¡Qué padre es platicar contigo!
+      translation: אין מה לעשות, אחכה לך. איזה כיף לשוחח איתך!
+    - speaker: sofia
+      text: ¡Órale! Gracias, Yael. Con mucho gusto.
+      translation: יאללה! תודה, יעל. בשמחה.
+  - id: u42-l1-02
+    type: learn
+    lexeme: ahorita
+  - id: u42-l1-03
+    type: learn
+    lexeme: ni-modo
+  - id: u42-l1-04
+    type: learn
+    lexeme: que-padre
+  - id: u42-l1-05
+    type: learn
+    lexeme: platicar
+  - id: u42-l1-06
+    type: learn
+    lexeme: mande
+  - id: u42-l1-07
+    type: learn
+    lexeme: orale
+  - id: u42-l1-08
+    type: learn
+    lexeme: con-gusto
+  - id: u42-l1-09
+    type: learn
+    lexeme: no-hay-de-que
+  - id: u42-l1-10
+    type: learn
+    lexeme: coloquial
+  - id: u42-l1-11
+    type: learn
+    lexeme: registro
+  - id: u42-l1-12
+    type: match_pairs
+    pairs:
+    - - ahorita
+      - עוד רגע
+    - - ni modo
+      - אין מה לעשות
+    - - ¡qué padre!
+      - איזה יופי
+    - - platicar
+      - לשוחח
+    - - ¿mande?
+      - סליחה?
+    lexemes:
+    - ahorita
+    - ni-modo
+    - que-padre
+    - platicar
+    - mande
+  - id: u42-l1-13
+    type: match_pairs
+    pairs:
+    - - ¡órale!
+      - יאללה
+    - - con mucho gusto
+      - בשמחה
+    - - no hay de qué
+      - אין בעד מה
+    - - coloquial
+      - דיבורי
+    - - el registro
+      - רמת שפה
+    lexemes:
+    - orale
+    - con-gusto
+    - no-hay-de-que
+    - coloquial
+    - registro
+  - id: u42-l1-14
+    type: multiple_choice
+    prompt: מה פירוש 'Ahorita vengo'?
+    options:
+    - אני חוזר עוד רגע
+    - אני לא בא
+    - באתי אתמול
+    correct: 0
+    lexemes:
+    - ahorita
+    - venir
+  - id: u42-l1-15
+    type: multiple_choice
+    prompt: מה פירוש 'Ni modo'?
+    options:
+    - אין מה לעשות
+    - בשום אופן
+    - בכל דרך
+    correct: 0
+    lexemes:
+    - ni-modo
+  - id: u42-l1-16
+    type: multiple_choice
+    prompt: איך אומרים בנימוס 'מה?' במקסיקו?
+    options:
+    - ¿Mande?
+    - ¿Qué?
+    - ¡Oye!
+    correct: 0
+    lexemes:
+    - mande
+  - id: u42-l1-17
+    type: listening_choice
+    audioText: ¡Qué padre!
+    question: מה אומרים?
+    options:
+    - איזה יופי!
+    - איזה עצוב
+    - איזה אבא
+    correct: 0
+    lexemes:
+    - que-padre
+  - id: u42-l1-18
+    type: listening_choice
+    audioText: Vamos a platicar.
+    question: מה אומרים?
+    options:
+    - בואו נשוחח
+    - בואו נאכל
+    - בואו נלך
+    correct: 0
+    lexemes:
+    - platicar
+    - comer
+    - ir
+  - id: u42-l1-19
+    type: translate
+    direction: to_target
+    prompt: אני חוזרת עוד רגע.
+    answers:
+    - Ahorita vengo.
+    lexemes:
+    - ahorita
+    - venir
+  - id: u42-l1-20
+    type: translate
+    direction: to_target
+    prompt: אין מה לעשות.
+    answers:
+    - Ni modo.
+    lexemes:
+    - ni-modo
+  - id: u42-l1-21
+    type: translate
+    direction: to_source
+    prompt: ¡Qué padre es platicar contigo!
+    answers:
+    - איזה כיף לשוחח איתך
+    lexemes:
+    - que-padre
+    - platicar
+  - id: u42-l1-22
+    type: dictation
+    text: Ahorita vengo.
+    lexemes:
+    - ahorita
+    - venir
+  - id: u42-l1-23
+    type: speak_repeat
+    text: Con mucho gusto.
+    translation: בשמחה.
+    lexemes:
+    - con-gusto
+- id: u42-l2
+  kind: new
+  title:
+    he: ניבים נפוצים
+    en: Common idioms
+  exercises:
+  - id: u42-l2-01
+    type: learn
+    lexeme: echar-mano
+  - id: u42-l2-02
+    type: learn
+    lexeme: meter-pata
+  - id: u42-l2-03
+    type: learn
+    lexeme: ojo-cara
+  - id: u42-l2-04
+    type: learn
+    lexeme: ponerse-pilas
+  - id: u42-l2-05
+    type: learn
+    lexeme: dar-lata
+  - id: u42-l2-06
+    type: learn
+    lexeme: estar-nubes
+  - id: u42-l2-07
+    type: learn
+    lexeme: tomar-pelo
+  - id: u42-l2-08
+    type: learn
+    lexeme: hablar-claro
+  - id: u42-l2-09
+    type: match_pairs
+    pairs:
+    - - echar una mano
+      - לעזור
+    - - meter la pata
+      - לטעות
+    - - un ojo de la cara
+      - הון
+    - - ponerse las pilas
+      - להתאמץ
+    - - dar lata
+      - להציק
+    lexemes:
+    - echar-mano
+    - meter-pata
+    - ojo-cara
+    - ponerse-pilas
+    - dar-lata
+  - id: u42-l2-10
+    type: match_pairs
+    pairs:
+    - - estar en las nubes
+      - בעננים
+    - - tomar el pelo
+      - לעבוד על
+    - - hablar claro
+      - לדבר ברור
+    - - ahorita
+      - עוד רגע
+    - - ni modo
+      - אין מה לעשות
+    lexemes:
+    - estar-nubes
+    - tomar-pelo
+    - hablar-claro
+    - ahorita
+    - ni-modo
+  - id: u42-l2-11
+    type: dialogue
+    scene: בעבודה, אחרי טעות.
+    lines:
+    - speaker: mateo
+      text: Metí la pata con el pedido. Costó un ojo de la cara.
+      translation: עשיתי טעות בהזמנה. זה עלה הון.
+    - speaker: yael
+      text: Ni modo. Ponte las pilas y habla claro con el cliente. Yo te echo una mano.
+      translation: אין מה לעשות. התאמץ ודבר ברור עם הלקוח. אני אעזור לך.
+    - speaker: mateo
+      text: Gracias. No me tomes el pelo, ¿de verdad me ayudas?
+      translation: תודה. אל תעבדי עליי, באמת תעזרי לי?
+  - id: u42-l2-12
+    type: multiple_choice
+    prompt: מה פירוש 'meter la pata'?
+    options:
+    - לעשות טעות
+    - לבנות
+    - לרוץ
+    correct: 0
+    lexemes:
+    - meter-pata
+  - id: u42-l2-13
+    type: multiple_choice
+    prompt: מה פירוש 'costar un ojo de la cara'?
+    options:
+    - להיות יקר מאוד
+    - להיות זול
+    - להיות מכוער
+    correct: 0
+    lexemes:
+    - ojo-cara
+  - id: u42-l2-14
+    type: multiple_choice
+    prompt: מה פירוש 'echar una mano'?
+    options:
+    - לעזור
+    - להפיל יד
+    - לשחק
+    correct: 0
+    lexemes:
+    - echar-mano
+  - id: u42-l2-15
+    type: listening_choice
+    audioText: Estás en las nubes.
+    question: מה אומרים?
+    options:
+    - אתה בעננים (לא מרוכז)
+    - אתה בשמיים
+    - יורד גשם
+    correct: 0
+    lexemes:
+    - estar-nubes
+  - id: u42-l2-16
+    type: listening_choice
+    audioText: Ponte las pilas.
+    question: מה אומרים?
+    options:
+    - תתאמץ
+    - תחליף סוללות
+    - תישן
+    correct: 0
+    lexemes:
+    - ponerse-pilas
+  - id: u42-l2-17
+    type: fill_blank
+    sentence: Voy a ___ una mano. (עזור)
+    translation: אני אעזור.
+    answers:
+    - echar
+    options:
+    - echar
+    - poner
+    - meter
+    lexemes:
+    - echar-mano
+  - id: u42-l2-18
+    type: fill_blank
+    sentence: Metí la ___ con el pedido. (טעות)
+    translation: טעיתי בהזמנה.
+    answers:
+    - pata
+    options:
+    - pata
+    - mano
+    - cabeza
+    lexemes:
+    - meter-pata
+    - pedido
+  - id: u42-l2-19
+    type: fill_blank
+    sentence: Me costó un ojo de la ___. (הון)
+    translation: זה עלה לי הון.
+    answers:
+    - cara
+    options:
+    - cara
+    - mano
+    - cabeza
+    lexemes:
+    - ojo-cara
+  - id: u42-l2-20
+    type: fill_blank
+    sentence: No me ___ el pelo. (תעבוד עליי)
+    translation: אל תעבוד עליי.
+    answers:
+    - tomes
+    options:
+    - tomes
+    - tomas
+    - toma
+    lexemes:
+    - tomar-pelo
+  - id: u42-l2-21
+    type: word_bank
+    prompt: תתאמץ.
+    answers:
+    - Ponte las pilas.
+    distractors:
+    - Pon las pilas tú
+    lexemes:
+    - ponerse-pilas
+  - id: u42-l2-22
+    type: word_bank
+    prompt: אני אעזור לך.
+    answers:
+    - Te echo una mano.
+    distractors:
+    - Te hecho una mano
+    lexemes:
+    - echar-mano
+  - id: u42-l2-23
+    type: translate
+    direction: to_target
+    prompt: זה עלה לי הון.
+    answers:
+    - Me costó un ojo de la cara.
+    lexemes:
+    - ojo-cara
+  - id: u42-l2-24
+    type: translate
+    direction: to_source
+    prompt: No me des lata.
+    answers:
+    - אל תציק לי
+    - אל תציקי לי
+    lexemes:
+    - dar-lata
+  - id: u42-l2-25
+    type: dictation
+    text: Metí la pata.
+    lexemes:
+    - meter-pata
+- id: u42-l3
+  kind: grammar
+  title:
+    he: רמת שפה
+    en: Register
+  grammar: modismos-mx
+  exercises:
+  - id: u42-l3-01
+    type: multiple_choice
+    prompt: איזה משפט מתאים לבוס?
+    options:
+    - Le agradezco su atención.
+    - ¡Qué padre, gracias!
+    - Órale, gracias.
+    correct: 0
+    lexemes:
+    - registro
+  - id: u42-l3-02
+    type: multiple_choice
+    prompt: איזה משפט מתאים לחבר?
+    options:
+    - ¡Qué padre, gracias!
+    - Le agradezco su atención.
+    - Quedo a su disposición.
+    correct: 0
+    lexemes:
+    - que-padre
+    - registro
+  - id: u42-l3-03
+    type: multiple_choice
+    prompt: איזה משפט רשמי יותר?
+    options:
+    - ¿Podría repetir, por favor?
+    - ¿Mande?
+    - ¿Qué dijiste?
+    correct: 0
+    lexemes:
+    - mande
+    - registro
+  - id: u42-l3-04
+    type: multiple_choice
+    prompt: מתי נחוץ להימנע מסלנג?
+    options:
+    - במכתב רשמי
+    - בשיחה עם חברים
+    - בין ילדים
+    correct: 0
+    lexemes:
+    - coloquial
+    - registro
+  - id: u42-l3-05
+    type: fill_blank
+    sentence: ¿___? No te escuché bien. (בנימוס, מקסיקו)
+    translation: סליחה? לא שמעתי טוב.
+    answers:
+    - Mande
+    options:
+    - Mande
+    - Qué
+    - Oye
+    lexemes:
+    - mande
+  - id: u42-l3-06
+    type: fill_blank
+    sentence: ___ vengo. (עוד רגע)
+    translation: אני חוזרת עוד רגע.
+    answers:
+    - Ahorita
+    options:
+    - Ahorita
+    - Ayer
+    - Antes
+    lexemes:
+    - ahorita
+  - id: u42-l3-07
+    type: fill_blank
+    sentence: ¡Qué ___! (איזה יופי)
+    translation: איזה יופי!
+    answers:
+    - padre
+    options:
+    - padre
+    - madre
+    - hijo
+    lexemes:
+    - que-padre
+  - id: u42-l3-08
+    type: fill_blank
+    sentence: No ___ de qué. (אין בעד מה)
+    translation: אין בעד מה.
+    answers:
+    - hay
+    options:
+    - hay
+    - tiene
+    - es
+    lexemes:
+    - no-hay-de-que
+  - id: u42-l3-09
+    type: word_bank
+    prompt: בשמחה.
+    answers:
+    - Con mucho gusto.
+    distractors:
+    - Con mucha gusto
+    lexemes:
+    - con-gusto
+  - id: u42-l3-10
+    type: word_bank
+    prompt: אין מה לעשות.
+    answers:
+    - Ni modo.
+    distractors:
+    - No modo
+    lexemes:
+    - ni-modo
+  - id: u42-l3-11
+    type: translate
+    direction: to_target
+    prompt: בואו נשוחח.
+    answers:
+    - Vamos a platicar.
+    lexemes:
+    - platicar
+  - id: u42-l3-12
+    type: translate
+    direction: to_target
+    prompt: הרגע טעיתי.
+    answers:
+    - Acabo de meter la pata.
+    lexemes:
+    - acabar-de
+    - meter-pata
+  - id: u42-l3-13
+    type: translate
+    direction: to_source
+    prompt: Estás en las nubes.
+    answers:
+    - אתה בעננים
+    - את בעננים
+    lexemes:
+    - estar-nubes
+  - id: u42-l3-14
+    type: translate
+    direction: to_source
+    prompt: Me están tomando el pelo.
+    answers:
+    - עובדים עליי
+    lexemes:
+    - tomar-pelo
+- id: u42-l4
+  kind: reading
+  title:
+    he: שיחה בין חברים
+    en: A chat between friends
+  exercises:
+  - id: u42-l4-01
+    type: reading
+    kind: שיחה
+    title: Entre amigos
+    text: '—¿Mande? ¿Qué dijiste?
+
+      —Que ahorita vengo, voy a echarle una mano a Mateo. Metió la pata con un pedido.
+
+      —¡Órale! Ni modo. ¿Costó mucho?
+
+      —Un ojo de la cara. Pero se puso las pilas y lo arregló. ¡Qué padre que somos un buen equipo!
+
+      '
+    translation: '—סליחה? מה אמרת?
+
+      —שאני חוזרת עוד רגע, אני הולכת לעזור למתאו. הוא טעה בהזמנה.
+
+      —יאללה! אין מה לעשות. זה עלה הרבה?
+
+      —הון. אבל הוא התאמץ ותיקן. איזה כיף שאנחנו צוות טוב!
+
+      '
+  - id: u42-l4-02
+    type: multiple_choice
+    prompt: מה קרה למתאו?
+    options:
+    - טעה בהזמנה
+    - קיבל מתנה
+    - נסע
+    correct: 0
+    lexemes:
+    - meter-pata
+    - pedido
+    - viajar
+  - id: u42-l4-03
+    type: multiple_choice
+    prompt: איך זה נגמר?
+    options:
+    - הוא תיקן
+    - הוא ויתר
+    - הלקוח ביטל
+    correct: 0
+    lexemes:
+    - ponerse-pilas
+    - arreglar
+  - id: u42-l4-04
+    type: fill_blank
+    sentence: Voy a ___ una mano a Mateo.
+    translation: אני אעזור למתאו.
+    answers:
+    - echar
+    options:
+    - echar
+    - poner
+    - meter
+    lexemes:
+    - echar-mano
+  - id: u42-l4-05
+    type: translate
+    direction: to_target
+    prompt: אין מה לעשות.
+    answers:
+    - Ni modo.
+    lexemes:
+    - ni-modo
+- id: u42-review
+  kind: review
+  title:
+    he: 'חזרה: ניבים + כתיבה'
+    en: Review + writing
+  exercises:
+  - id: u42-review-01
+    type: match_pairs
+    pairs:
+    - - ahorita
+      - עוד רגע
+    - - ni modo
+      - אין מה לעשות
+    - - platicar
+      - לשוחח
+    - - ¿mande?
+      - סליחה?
+    - - ¡qué padre!
+      - איזה יופי
+    lexemes:
+    - ahorita
+    - ni-modo
+    - platicar
+    - mande
+    - que-padre
+  - id: u42-review-02
+    type: match_pairs
+    pairs:
+    - - echar una mano
+      - לעזור
+    - - meter la pata
+      - לטעות
+    - - ponerse las pilas
+      - להתאמץ
+    - - dar lata
+      - להציק
+    - - tomar el pelo
+      - לעבוד על
+    lexemes:
+    - echar-mano
+    - meter-pata
+    - ponerse-pilas
+    - dar-lata
+    - tomar-pelo
+  - id: u42-review-03
+    type: fill_blank
+    sentence: Me costó un ojo de la ___.
+    translation: זה עלה לי הון.
+    answers:
+    - cara
+    options:
+    - cara
+    - mano
+    - pata
+    lexemes:
+    - ojo-cara
+  - id: u42-review-04
+    type: fill_blank
+    sentence: Metí la ___. (טעיתי)
+    translation: טעיתי.
+    answers:
+    - pata
+    options:
+    - pata
+    - mano
+    - cara
+    lexemes:
+    - meter-pata
+  - id: u42-review-05
+    type: multiple_choice
+    prompt: מה פירוש 'estar en las nubes'?
+    options:
+    - להיות בעננים
+    - לטוס
+    - להתקרר
+    correct: 0
+    lexemes:
+    - estar-nubes
+  - id: u42-review-06
+    type: listening_choice
+    audioText: Ahorita vengo.
+    question: מה אומרים?
+    options:
+    - אני חוזר עוד רגע
+    - אני לא חוזר
+    - חזרתי אתמול
+    correct: 0
+    lexemes:
+    - ahorita
+    - venir
+  - id: u42-review-07
+    type: word_bank
+    prompt: אני אעזור לך.
+    answers:
+    - Te echo una mano.
+    distractors:
+    - Te hecho una mano
+    lexemes:
+    - echar-mano
+  - id: u42-review-08
+    type: translate
+    direction: to_target
+    prompt: בשמחה, אין בעד מה.
+    answers:
+    - Con mucho gusto, no hay de qué.
+    lexemes:
+    - con-gusto
+    - no-hay-de-que
+  - id: u42-review-09
+    type: translate
+    direction: to_source
+    prompt: Ni modo, ponte las pilas.
+    answers:
+    - אין מה לעשות, תתאמץ
+    lexemes:
+    - ni-modo
+    - ponerse-pilas
+  - id: u42-review-10
+    type: dictation
+    text: Con mucho gusto.
+    lexemes:
+    - con-gusto
+  - id: u42-review-11
+    type: speak_repeat
+    text: ¡Qué padre es platicar contigo!
+    translation: איזה כיף לשוחח איתך!
+    lexemes:
+    - que-padre
+    - platicar
+  - id: u42-review-12
+    type: write
+    prompt: כתבו שיחה קצרה (דיאלוג מדומיין) בין שני חברים או חברות על משהו שקרה בעבודה, בכיתה או בבית. שלבו לפחות ארבעה ביטויים יומיומיים או ניבים (ahorita, ni modo, qué padre, mande, platicar, echar una mano, meter la pata, ponerse las pilas, costar un ojo de la cara…). שמרו על סגנון ידידותי ולא וולגרי.
+    minWords: 60
+    checks:
+    - label: ביטוי מקסיקני יומיומי (ahorita, ni modo, qué padre, mande, platicar, órale)
+      any:
+      - ahorita
+      - ni modo
+      - que padre
+      - mande
+      - platicar
+      - orale
+      - con mucho gusto
+    - label: ניב (echar una mano, meter la pata, ojo de la cara, ponerse las pilas, tomar el pelo)
+      any:
+      - echar una mano
+      - echarle una mano
+      - meter la pata
+      - meti la pata
+      - ojo de la cara
+      - ponerse las pilas
+      - pon las pilas
+      - me puse las pilas
+      - tomar el pelo
+      - dar lata
+    - label: 'שימוש ב־tú (דיבורי): echas, pon, tienes, ayudas…'
+      any:
+      - \b(echas|ayudas|puedes|quieres|tienes|pon|ponte|dime|oye)\b
+    - label: 'הקשר: עבודה, ארוחה, פרויקט או בעיה'
+      any:
+      - pedido
+      - trabajo
+      - proyecto
+      - cliente
+      - problema
+      - clase
+      - casa
+      - comer
+      - reunion
+    model: —¿Mande? ¿Qué pasó con el pedido? —Metí la pata, ni modo. Costó un ojo de la cara. —Ahorita platicamos con el cliente. Yo te echo una mano. —¡Órale, gracias! Me puse las pilas y lo arreglo hoy mismo. —Qué padre que tenemos un buen equipo. Con mucho gusto, ya verás que sale bien, y después platicamos con calma sobre el proyecto nuevo.
+    lexemes: []
