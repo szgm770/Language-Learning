@@ -26,10 +26,10 @@ Course id `yi-for-he`. Dialect: Litvish (Northeastern), taken as the base for Ch
 |-------|---------|
 | Script | Hebrew letters: A0 is short. Teach pasekh vs komets alef, the digraphs, and that vowels are letters, not niqqud. |
 | Source of words | Germanic core + Hebrew/Aramaic + Slavic. Hebrew-origin words are an easy bridge for Hebrew speakers: flag them. |
-| Gender | three genders (der/di/dos): every noun taught with its article. |
+| Gender | Litvish has no neuter (feminine, masculine, "mixed"); every noun is taught with its article; the exact rules need the reviewer. Not the three-gender der/di/dos of Standard Yiddish. |
 | Cases | nominative / accusative / dative: starts at A2, light. |
-| Verbs | verb second position, separable prefixes, *hobn/zayn* in the perfect. |
-| Pronunciation | Litvish vowel set to be written down by the reviewer (not by us). |
+| Verbs | verb second position, separable prefixes; Litvish forms the past with *hobn* only; conditional with the infinitive (*ikh volt esn*). |
+| Pronunciation | Litvish: i u e ə o a, diphthongs ey ay oy, no long/short, shuruk = u. Examples: dos, zogn, kugl, kleyn, tsvey, breyt, shtetl. Details beyond these go through the reviewer. |
 
 ## Story (proposal, to be confirmed)
 Different from English and Spanish. A grandson from Kfar Chabad spends a year with his Yiddish-speaking grandparents; neighbours, a shopkeeper, a melamed, a Rebbetzin's class. Shabbat, farbrengen, Chassidic stories give natural scenes. Mixed outings are groups or family only.
