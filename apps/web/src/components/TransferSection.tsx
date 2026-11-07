@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import qrcode from "qrcode-generator";
 import { z } from "zod";
-import { loadCourse, type UnitPack, useLoad } from "@/lib/content";
+import { loadCourse, loadCourses, type UnitPack, useLoad } from "@/lib/content";
 import { currentCourse } from "@/lib/progress";
 import { getDeviceId, ingest, record, useLearner } from "@/lib/store";
 import { currentPosition, encodePosition, type Position, parsePosition, planPosition } from "@/lib/transfer";
@@ -96,7 +96,10 @@ const field = "min-h-11 w-full rounded-xl border-2 border-line bg-surface px-3 t
 
 export function TransferSection() {
   const { state } = useLearner();
-  const courseId = currentCourse(state);
+  const { data: courses } = useLoad(loadCourses, []);
+  // The course the code is for. On a new device nothing is enrolled yet, so the learner can pick any course.
+  const [picked, setPicked] = useState<string | null>(null);
+  const courseId = picked ?? currentCourse(state) ?? courses?.[0]?.id;
   const { data } = useLoad(() => (courseId ? loadCourse(courseId) : Promise.resolve(undefined)), [courseId]);
   const [mode, setMode] = useState<Mode>(null);
   const [message, setMessage] = useState<{ tone: "ok" | "bad"; text: string; next?: string } | null>(null);
@@ -157,7 +160,7 @@ export function TransferSection() {
   );
 
   return (
-    <section className="flex flex-col gap-4" aria-labelledby="transfer-h">
+    <section className="card flex flex-col gap-4 p-5" aria-labelledby="transfer-h">
       <h2 id="transfer-h" className="text-xl font-semibold">מעבר למכשיר אחר</h2>
       <p className="text-ink-soft">
         כדי להמשיך מאותו מקום בטלפון או במחשב אחר: הציגו קוד במכשיר הישן וסרקו אותו במכשיר החדש. אם אי אפשר לסרוק, אפשר להקליד את הקוד או לבחור את המקום ידנית.
@@ -169,9 +172,22 @@ export function TransferSection() {
         {tab("manual", "בחירת מקום ידנית")}
       </div>
 
+      {courses && courses.length > 1 && (mode === "show" || mode === "manual") && (
+        <label className="flex flex-col gap-2">
+          <span className="font-medium">קורס</span>
+          <select className={field} value={courseId ?? ""} onChange={(e) => setPicked(e.target.value)}>
+            {courses.map((c) => (
+              <option key={c.id} value={c.id}>
+                {c.title.he}
+              </option>
+            ))}
+          </select>
+        </label>
+      )}
+
       {mode === "show" &&
         (mine ? (
-          <div className="card flex flex-col gap-3 p-4">
+          <div className="rounded-2xl bg-sunken flex flex-col gap-3 p-4">
             <Qr text={code} />
             <p className="text-center text-sm text-ink-soft">פתחו באתר במכשיר החדש: הגדרות ← מעבר למכשיר אחר ← סריקת קוד.</p>
             <div className="flex flex-wrap items-center justify-center gap-2">
@@ -186,14 +202,14 @@ export function TransferSection() {
             </div>
           </div>
         ) : (
-          <p className="card p-4">עוד אין התקדמות להעביר. התחילו שיעור ראשון ואז חזרו לכאן.</p>
+          <p className="rounded-2xl bg-sunken p-4">בקורס הזה עוד אין התקדמות להעביר. התחילו שיעור ראשון ואז חזרו לכאן.</p>
         ))}
 
-      {mode === "scan" && <div className="card p-4"><Scanner onCode={onScanned} onFail={onScanFail} /></div>}
+      {mode === "scan" && <div className="rounded-2xl bg-sunken p-4"><Scanner onCode={onScanned} onFail={onScanFail} /></div>}
 
       {mode === "paste" && (
         <form
-          className="card flex flex-col gap-3 p-4"
+          className="flex flex-col gap-3 rounded-2xl bg-sunken p-4"
           onSubmit={(e) => {
             e.preventDefault();
             const pos = parsePosition(typed);
@@ -209,7 +225,7 @@ export function TransferSection() {
         </form>
       )}
 
-      {mode === "manual" && (units && courseId ? <Manual courseId={courseId} units={units} onPick={apply} /> : <p className="card p-4">צריך קודם לבחור קורס.</p>)}
+      {mode === "manual" && (units && courseId ? <Manual key={courseId} courseId={courseId} units={units} onPick={apply} /> : <p className="rounded-2xl bg-sunken p-4">טוענים את הקורס…</p>)}
 
       <div className="flex flex-col gap-2">
         <label className="btn-quiet cursor-pointer self-start">
@@ -248,7 +264,7 @@ function Manual({ courseId, units, onPick }: { courseId: string; units: UnitPack
   const preview = planPosition(pos, state, units, getDeviceId());
 
   return (
-    <div className="card flex flex-col gap-4 p-4">
+    <div className="flex flex-col gap-4 rounded-2xl bg-sunken p-4">
       <p>בחרו את השיעור שממנו רוצים להמשיך. כל מה שלפניו יסומן כהושלם. התקדמות שכבר יש לכם לא נמחקת.</p>
       <label className="flex flex-col gap-2">
         <span className="font-medium">יחידה</span>
