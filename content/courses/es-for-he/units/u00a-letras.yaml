@@ -1,0 +1,1151 @@
+id: u00a-letras
+cefr: A0
+scene: study
+title:
+  he: האותיות
+  en: The letters
+story: הספרדית נכתבת כמעט בדיוק כמו שהיא נשמעת. כאן לומדים את 27 האותיות ואת השמות שלהן, ומיד קוראים מילים אמיתיות.
+canDo:
+- לזהות ולהגות את כל 27 אותיות האלפבית הספרדי
+- לאיית שם בספרדית
+- לקרוא מילים פשוטות בקול
+vocabulary:
+- id: l-a
+  text: A a
+  translation: 'האות A, שמה בספרדית: a'
+  pos: noun
+  pronunciation: אָ
+  example:
+    text: agua
+    translation: מים
+- id: l-b
+  text: B b
+  translation: 'האות B, שמה בספרדית: be'
+  pos: noun
+  pronunciation: בֶּה
+  example:
+    text: bien
+    translation: טוב
+- id: l-c
+  text: C c
+  translation: 'האות C, שמה בספרדית: ce'
+  pos: noun
+  pronunciation: סֶה
+  example:
+    text: casa
+    translation: בית
+- id: l-d
+  text: D d
+  translation: 'האות D, שמה בספרדית: de'
+  pos: noun
+  pronunciation: דֶּה
+  example:
+    text: dedo
+    translation: אצבע
+- id: l-e
+  text: E e
+  translation: 'האות E, שמה בספרדית: e'
+  pos: noun
+  pronunciation: אֶ
+  example:
+    text: el
+    translation: ה־
+- id: l-f
+  text: F f
+  translation: 'האות F, שמה בספרדית: efe'
+  pos: noun
+  pronunciation: אֶפֶה
+  example:
+    text: foto
+    translation: תמונה
+- id: l-g
+  text: G g
+  translation: 'האות G, שמה בספרדית: ge'
+  pos: noun
+  pronunciation: חֶה
+  example:
+    text: gato
+    translation: חתול
+- id: l-h
+  text: H h
+  translation: 'האות H, שמה בספרדית: hache'
+  pos: noun
+  pronunciation: אָצֶ'ה
+  example:
+    text: hola
+    translation: שלום
+- id: l-i
+  text: I i
+  translation: 'האות I, שמה בספרדית: i'
+  pos: noun
+  pronunciation: אִי
+  example:
+    text: isla
+    translation: אי
+- id: l-j
+  text: J j
+  translation: 'האות J, שמה בספרדית: jota'
+  pos: noun
+  pronunciation: חוֹטָה
+  example:
+    text: jugo
+    translation: מיץ
+- id: l-k
+  text: K k
+  translation: 'האות K, שמה בספרדית: ka'
+  pos: noun
+  pronunciation: קָה
+  example:
+    text: kilo
+    translation: קילו
+- id: l-l
+  text: L l
+  translation: 'האות L, שמה בספרדית: ele'
+  pos: noun
+  pronunciation: אֶלֶה
+  example:
+    text: luz
+    translation: אור
+- id: l-m
+  text: M m
+  translation: 'האות M, שמה בספרדית: eme'
+  pos: noun
+  pronunciation: אֶמֶה
+  example:
+    text: mesa
+    translation: שולחן
+- id: l-n
+  text: N n
+  translation: 'האות N, שמה בספרדית: ene'
+  pos: noun
+  pronunciation: אֶנֶה
+  example:
+    text: nada
+    translation: כלום
+- id: l-n-tilde
+  text: Ñ ñ
+  translation: 'האות Ñ, שמה בספרדית: eñe'
+  pos: noun
+  pronunciation: אֶנְיֶה
+  example:
+    text: año
+    translation: שנה
+- id: l-o
+  text: O o
+  translation: 'האות O, שמה בספרדית: o'
+  pos: noun
+  pronunciation: אוֹ
+  example:
+    text: ojo
+    translation: עין
+- id: l-p
+  text: P p
+  translation: 'האות P, שמה בספרדית: pe'
+  pos: noun
+  pronunciation: פֶּה
+  example:
+    text: pan
+    translation: לחם
+- id: l-q
+  text: Q q
+  translation: 'האות Q, שמה בספרדית: cu'
+  pos: noun
+  pronunciation: קוּ
+  example:
+    text: queso
+    translation: גבינה
+- id: l-r
+  text: R r
+  translation: 'האות R, שמה בספרדית: erre'
+  pos: noun
+  pronunciation: אֶרֶה
+  example:
+    text: río
+    translation: נהר
+- id: l-s
+  text: S s
+  translation: 'האות S, שמה בספרדית: ese'
+  pos: noun
+  pronunciation: אֶסֶה
+  example:
+    text: sol
+    translation: שמש
+- id: l-t
+  text: T t
+  translation: 'האות T, שמה בספרדית: te'
+  pos: noun
+  pronunciation: טֶה
+  example:
+    text: taza
+    translation: כוס
+- id: l-u
+  text: U u
+  translation: 'האות U, שמה בספרדית: u'
+  pos: noun
+  pronunciation: אוּ
+  example:
+    text: uno
+    translation: אחד
+- id: l-v
+  text: V v
+  translation: 'האות V, שמה בספרדית: uve'
+  pos: noun
+  pronunciation: אוּבֶּה
+  example:
+    text: vaso
+    translation: כוס (זכוכית)
+- id: l-w
+  text: W w
+  translation: 'האות W, שמה בספרדית: doble ve'
+  pos: noun
+  pronunciation: דוֹבְּלֶה בֶּה
+  example:
+    text: web
+    translation: אינטרנט
+- id: l-x
+  text: X x
+  translation: 'האות X, שמה בספרדית: equis'
+  pos: noun
+  pronunciation: אֶקִּיס
+  example:
+    text: taxi
+    translation: מונית
+- id: l-y
+  text: Y y
+  translation: 'האות Y, שמה בספרדית: ye'
+  pos: noun
+  pronunciation: יֶה
+  example:
+    text: yo
+    translation: אני
+- id: l-z
+  text: Z z
+  translation: 'האות Z, שמה בספרדית: zeta'
+  pos: noun
+  pronunciation: סֶטָה
+  example:
+    text: zapato
+    translation: נעל
+lessons:
+- id: u00a-l1
+  kind: new
+  title:
+    he: 'אות ראשונות: A עד G'
+    en: Letters
+  exercises:
+  - id: u00a-l1-01
+    type: tip
+    title: הספרדית נקראת כמו שהיא כתובה
+    text: 'בספרדית **כמעט כל אות מייצגת צליל אחד קבוע**, ולכן אפשר ללמוד לקרוא תוך שעה. יש 27 אותיות, כולל **ñ** שאינה באנגלית.
+
+      התנועות **a e i o u** נשמעות כמעט בדיוק כמו אַ אֶ אִ אוֹ אוּ בעברית: קצרות, ברורות ולא מתארכות.
+
+      לכל אות יש גם **שם** (a, be, ce…), ובשיעור הזה לומדים אותם כדי שיהיה אפשר לאיית.
+
+      '
+  - id: u00a-l1-02
+    type: learn
+    lexeme: l-a
+  - id: u00a-l1-03
+    type: learn
+    lexeme: l-b
+  - id: u00a-l1-04
+    type: learn
+    lexeme: l-c
+  - id: u00a-l1-05
+    type: learn
+    lexeme: l-d
+  - id: u00a-l1-06
+    type: learn
+    lexeme: l-e
+  - id: u00a-l1-07
+    type: learn
+    lexeme: l-f
+  - id: u00a-l1-08
+    type: learn
+    lexeme: l-g
+  - id: u00a-l1-09
+    type: match_pairs
+    pairs:
+    - - A a
+      - a
+    - - B b
+      - be
+    - - C c
+      - ce
+    - - D d
+      - de
+    - - E e
+      - e
+    lexemes:
+    - l-a
+    - l-b
+    - l-c
+    - l-d
+    - l-e
+  - id: u00a-l1-10
+    type: match_pairs
+    pairs:
+    - - C c
+      - ce
+    - - D d
+      - de
+    - - E e
+      - e
+    - - F f
+      - efe
+    - - G g
+      - ge
+    lexemes:
+    - l-c
+    - l-d
+    - l-e
+    - l-f
+    - l-g
+  - id: u00a-l1-11
+    type: multiple_choice
+    prompt: איך קוראים לאות A?
+    options:
+    - a
+    - be
+    - ce
+    correct: 0
+    lexemes:
+    - l-a
+  - id: u00a-l1-12
+    type: multiple_choice
+    prompt: איך קוראים לאות B?
+    options:
+    - be
+    - a
+    - ce
+    correct: 0
+    lexemes:
+    - l-b
+  - id: u00a-l1-13
+    type: multiple_choice
+    prompt: איך קוראים לאות C?
+    options:
+    - ce
+    - a
+    - be
+    correct: 0
+    lexemes:
+    - l-c
+  - id: u00a-l1-14
+    type: multiple_choice
+    prompt: איך קוראים לאות D?
+    options:
+    - de
+    - a
+    - be
+    correct: 0
+    lexemes:
+    - l-d
+  - id: u00a-l1-15
+    type: multiple_choice
+    prompt: איך קוראים לאות E?
+    options:
+    - e
+    - a
+    - be
+    correct: 0
+    lexemes:
+    - l-e
+  - id: u00a-l1-16
+    type: multiple_choice
+    prompt: איך קוראים לאות F?
+    options:
+    - efe
+    - a
+    - be
+    correct: 0
+    lexemes:
+    - l-f
+  - id: u00a-l1-17
+    type: listening_choice
+    audioText: a
+    question: איזו אות שמעתם?
+    options:
+    - A a
+    - B b
+    - C c
+    correct: 0
+    lexemes:
+    - l-a
+  - id: u00a-l1-18
+    type: listening_choice
+    audioText: be
+    question: איזו אות שמעתם?
+    options:
+    - B b
+    - A a
+    - C c
+    correct: 0
+    lexemes:
+    - l-b
+  - id: u00a-l1-19
+    type: listening_choice
+    audioText: ce
+    question: איזו אות שמעתם?
+    options:
+    - C c
+    - A a
+    - B b
+    correct: 0
+    lexemes:
+    - l-c
+  - id: u00a-l1-20
+    type: listening_choice
+    audioText: de
+    question: איזו אות שמעתם?
+    options:
+    - D d
+    - A a
+    - B b
+    correct: 0
+    lexemes:
+    - l-d
+  - id: u00a-l1-21
+    type: dictation
+    text: el
+    lexemes:
+    - l-e
+  - id: u00a-l1-22
+    type: dictation
+    text: foto
+    lexemes:
+    - l-f
+  - id: u00a-l1-23
+    type: dictation
+    text: gato
+    lexemes:
+    - l-g
+  - id: u00a-l1-24
+    type: speak_repeat
+    text: a, be, ce
+    translation: A, B, C
+    lexemes:
+    - l-a
+    - l-b
+    - l-c
+- id: u00a-l2
+  kind: new
+  title:
+    he: האותיות H עד N
+    en: Letters
+  exercises:
+  - id: u00a-l2-01
+    type: learn
+    lexeme: l-h
+  - id: u00a-l2-02
+    type: learn
+    lexeme: l-i
+  - id: u00a-l2-03
+    type: learn
+    lexeme: l-j
+  - id: u00a-l2-04
+    type: learn
+    lexeme: l-k
+  - id: u00a-l2-05
+    type: learn
+    lexeme: l-l
+  - id: u00a-l2-06
+    type: learn
+    lexeme: l-m
+  - id: u00a-l2-07
+    type: learn
+    lexeme: l-n
+  - id: u00a-l2-08
+    type: match_pairs
+    pairs:
+    - - H h
+      - hache
+    - - I i
+      - i
+    - - J j
+      - jota
+    - - K k
+      - ka
+    - - L l
+      - ele
+    lexemes:
+    - l-h
+    - l-i
+    - l-j
+    - l-k
+    - l-l
+  - id: u00a-l2-09
+    type: match_pairs
+    pairs:
+    - - J j
+      - jota
+    - - K k
+      - ka
+    - - L l
+      - ele
+    - - M m
+      - eme
+    - - N n
+      - ene
+    lexemes:
+    - l-j
+    - l-k
+    - l-l
+    - l-m
+    - l-n
+  - id: u00a-l2-10
+    type: multiple_choice
+    prompt: איך קוראים לאות H?
+    options:
+    - hache
+    - i
+    - jota
+    correct: 0
+    lexemes:
+    - l-h
+  - id: u00a-l2-11
+    type: multiple_choice
+    prompt: איך קוראים לאות I?
+    options:
+    - i
+    - hache
+    - jota
+    correct: 0
+    lexemes:
+    - l-i
+  - id: u00a-l2-12
+    type: multiple_choice
+    prompt: איך קוראים לאות J?
+    options:
+    - jota
+    - hache
+    - i
+    correct: 0
+    lexemes:
+    - l-j
+  - id: u00a-l2-13
+    type: multiple_choice
+    prompt: איך קוראים לאות K?
+    options:
+    - ka
+    - hache
+    - i
+    correct: 0
+    lexemes:
+    - l-k
+  - id: u00a-l2-14
+    type: multiple_choice
+    prompt: איך קוראים לאות L?
+    options:
+    - ele
+    - hache
+    - i
+    correct: 0
+    lexemes:
+    - l-l
+  - id: u00a-l2-15
+    type: multiple_choice
+    prompt: איך קוראים לאות M?
+    options:
+    - eme
+    - hache
+    - i
+    correct: 0
+    lexemes:
+    - l-m
+  - id: u00a-l2-16
+    type: listening_choice
+    audioText: hache
+    question: איזו אות שמעתם?
+    options:
+    - H h
+    - I i
+    - J j
+    correct: 0
+    lexemes:
+    - l-h
+  - id: u00a-l2-17
+    type: listening_choice
+    audioText: i
+    question: איזו אות שמעתם?
+    options:
+    - I i
+    - H h
+    - J j
+    correct: 0
+    lexemes:
+    - l-i
+  - id: u00a-l2-18
+    type: listening_choice
+    audioText: jota
+    question: איזו אות שמעתם?
+    options:
+    - J j
+    - H h
+    - I i
+    correct: 0
+    lexemes:
+    - l-j
+  - id: u00a-l2-19
+    type: listening_choice
+    audioText: ka
+    question: איזו אות שמעתם?
+    options:
+    - K k
+    - H h
+    - I i
+    correct: 0
+    lexemes:
+    - l-k
+  - id: u00a-l2-20
+    type: dictation
+    text: luz
+    lexemes:
+    - l-l
+  - id: u00a-l2-21
+    type: dictation
+    text: mesa
+    lexemes:
+    - l-m
+  - id: u00a-l2-22
+    type: dictation
+    text: nada
+    lexemes:
+    - l-n
+  - id: u00a-l2-23
+    type: speak_repeat
+    text: hache, i, jota
+    translation: H, I, J
+    lexemes:
+    - l-h
+    - l-i
+    - l-j
+- id: u00a-l3
+  kind: new
+  title:
+    he: האותיות Ñ עד T
+    en: Letters
+  exercises:
+  - id: u00a-l3-01
+    type: tip
+    title: האות Ñ
+    text: '**ñ** נקראת *eñe* והצליל שלה הוא כמו **"ני"** בעברית: *año* (שנה) נשמעת "אַנְיוֹ".
+
+      שימו לב: **ñ אינה n עם קישוט**, זו אות נפרדת שמשנה את המשמעות: *año* (שנה) מול *ano* (פי הטבעת).
+
+      במקלדת של האתר יש כפתור מיוחד ל־ñ.
+
+      '
+  - id: u00a-l3-02
+    type: learn
+    lexeme: l-n-tilde
+  - id: u00a-l3-03
+    type: learn
+    lexeme: l-o
+  - id: u00a-l3-04
+    type: learn
+    lexeme: l-p
+  - id: u00a-l3-05
+    type: learn
+    lexeme: l-q
+  - id: u00a-l3-06
+    type: learn
+    lexeme: l-r
+  - id: u00a-l3-07
+    type: learn
+    lexeme: l-s
+  - id: u00a-l3-08
+    type: learn
+    lexeme: l-t
+  - id: u00a-l3-09
+    type: match_pairs
+    pairs:
+    - - Ñ ñ
+      - eñe
+    - - O o
+      - o
+    - - P p
+      - pe
+    - - Q q
+      - cu
+    - - R r
+      - erre
+    lexemes:
+    - l-n-tilde
+    - l-o
+    - l-p
+    - l-q
+    - l-r
+  - id: u00a-l3-10
+    type: match_pairs
+    pairs:
+    - - P p
+      - pe
+    - - Q q
+      - cu
+    - - R r
+      - erre
+    - - S s
+      - ese
+    - - T t
+      - te
+    lexemes:
+    - l-p
+    - l-q
+    - l-r
+    - l-s
+    - l-t
+  - id: u00a-l3-11
+    type: multiple_choice
+    prompt: איך קוראים לאות Ñ?
+    options:
+    - eñe
+    - o
+    - pe
+    correct: 0
+    lexemes:
+    - l-n-tilde
+  - id: u00a-l3-12
+    type: multiple_choice
+    prompt: איך קוראים לאות O?
+    options:
+    - o
+    - eñe
+    - pe
+    correct: 0
+    lexemes:
+    - l-o
+  - id: u00a-l3-13
+    type: multiple_choice
+    prompt: איך קוראים לאות P?
+    options:
+    - pe
+    - eñe
+    - o
+    correct: 0
+    lexemes:
+    - l-p
+  - id: u00a-l3-14
+    type: multiple_choice
+    prompt: איך קוראים לאות Q?
+    options:
+    - cu
+    - eñe
+    - o
+    correct: 0
+    lexemes:
+    - l-q
+  - id: u00a-l3-15
+    type: multiple_choice
+    prompt: איך קוראים לאות R?
+    options:
+    - erre
+    - eñe
+    - o
+    correct: 0
+    lexemes:
+    - l-r
+  - id: u00a-l3-16
+    type: multiple_choice
+    prompt: איך קוראים לאות S?
+    options:
+    - ese
+    - eñe
+    - o
+    correct: 0
+    lexemes:
+    - l-s
+  - id: u00a-l3-17
+    type: listening_choice
+    audioText: eñe
+    question: איזו אות שמעתם?
+    options:
+    - Ñ ñ
+    - O o
+    - P p
+    correct: 0
+    lexemes:
+    - l-n-tilde
+  - id: u00a-l3-18
+    type: listening_choice
+    audioText: o
+    question: איזו אות שמעתם?
+    options:
+    - O o
+    - Ñ ñ
+    - P p
+    correct: 0
+    lexemes:
+    - l-o
+  - id: u00a-l3-19
+    type: listening_choice
+    audioText: pe
+    question: איזו אות שמעתם?
+    options:
+    - P p
+    - Ñ ñ
+    - O o
+    correct: 0
+    lexemes:
+    - l-p
+  - id: u00a-l3-20
+    type: listening_choice
+    audioText: cu
+    question: איזו אות שמעתם?
+    options:
+    - Q q
+    - Ñ ñ
+    - O o
+    correct: 0
+    lexemes:
+    - l-q
+  - id: u00a-l3-21
+    type: dictation
+    text: río
+    lexemes:
+    - l-r
+  - id: u00a-l3-22
+    type: dictation
+    text: sol
+    lexemes:
+    - l-s
+  - id: u00a-l3-23
+    type: dictation
+    text: taza
+    lexemes:
+    - l-t
+  - id: u00a-l3-24
+    type: speak_repeat
+    text: eñe, o, pe
+    translation: Ñ, O, P
+    lexemes:
+    - l-n-tilde
+    - l-o
+    - l-p
+- id: u00a-l4
+  kind: new
+  title:
+    he: האותיות U עד Z
+    en: Letters
+  exercises:
+  - id: u00a-l4-01
+    type: learn
+    lexeme: l-u
+  - id: u00a-l4-02
+    type: learn
+    lexeme: l-v
+  - id: u00a-l4-03
+    type: learn
+    lexeme: l-w
+  - id: u00a-l4-04
+    type: learn
+    lexeme: l-x
+  - id: u00a-l4-05
+    type: learn
+    lexeme: l-y
+  - id: u00a-l4-06
+    type: learn
+    lexeme: l-z
+  - id: u00a-l4-07
+    type: match_pairs
+    pairs:
+    - - U u
+      - u
+    - - V v
+      - uve
+    - - W w
+      - doble ve
+    - - X x
+      - equis
+    - - Y y
+      - ye
+    lexemes:
+    - l-u
+    - l-v
+    - l-w
+    - l-x
+    - l-y
+  - id: u00a-l4-08
+    type: match_pairs
+    pairs:
+    - - V v
+      - uve
+    - - W w
+      - doble ve
+    - - X x
+      - equis
+    - - Y y
+      - ye
+    - - Z z
+      - zeta
+    lexemes:
+    - l-v
+    - l-w
+    - l-x
+    - l-y
+    - l-z
+  - id: u00a-l4-09
+    type: multiple_choice
+    prompt: איך קוראים לאות U?
+    options:
+    - u
+    - uve
+    - doble ve
+    correct: 0
+    lexemes:
+    - l-u
+  - id: u00a-l4-10
+    type: multiple_choice
+    prompt: איך קוראים לאות V?
+    options:
+    - uve
+    - u
+    - doble ve
+    correct: 0
+    lexemes:
+    - l-v
+  - id: u00a-l4-11
+    type: multiple_choice
+    prompt: איך קוראים לאות W?
+    options:
+    - doble ve
+    - u
+    - uve
+    correct: 0
+    lexemes:
+    - l-w
+  - id: u00a-l4-12
+    type: multiple_choice
+    prompt: איך קוראים לאות X?
+    options:
+    - equis
+    - u
+    - uve
+    correct: 0
+    lexemes:
+    - l-x
+  - id: u00a-l4-13
+    type: multiple_choice
+    prompt: איך קוראים לאות Y?
+    options:
+    - ye
+    - u
+    - uve
+    correct: 0
+    lexemes:
+    - l-y
+  - id: u00a-l4-14
+    type: multiple_choice
+    prompt: איך קוראים לאות Z?
+    options:
+    - zeta
+    - u
+    - uve
+    correct: 0
+    lexemes:
+    - l-z
+  - id: u00a-l4-15
+    type: listening_choice
+    audioText: u
+    question: איזו אות שמעתם?
+    options:
+    - U u
+    - V v
+    - W w
+    correct: 0
+    lexemes:
+    - l-u
+  - id: u00a-l4-16
+    type: listening_choice
+    audioText: uve
+    question: איזו אות שמעתם?
+    options:
+    - V v
+    - U u
+    - W w
+    correct: 0
+    lexemes:
+    - l-v
+  - id: u00a-l4-17
+    type: listening_choice
+    audioText: doble ve
+    question: איזו אות שמעתם?
+    options:
+    - W w
+    - U u
+    - V v
+    correct: 0
+    lexemes:
+    - l-w
+  - id: u00a-l4-18
+    type: listening_choice
+    audioText: equis
+    question: איזו אות שמעתם?
+    options:
+    - X x
+    - U u
+    - V v
+    correct: 0
+    lexemes:
+    - l-x
+  - id: u00a-l4-19
+    type: dictation
+    text: taxi
+    lexemes:
+    - l-x
+  - id: u00a-l4-20
+    type: dictation
+    text: yo
+    lexemes:
+    - l-y
+  - id: u00a-l4-21
+    type: dictation
+    text: zapato
+    lexemes:
+    - l-z
+  - id: u00a-l4-22
+    type: speak_repeat
+    text: u, uve, doble ve
+    translation: U, V, W
+    lexemes:
+    - l-u
+    - l-v
+    - l-w
+- id: u00a-review
+  kind: review
+  title:
+    he: 'חזרה: האותיות'
+    en: 'Review: the letters'
+  exercises:
+  - id: u00a-review-01
+    type: match_pairs
+    pairs:
+    - - B b
+      - be
+    - - H h
+      - hache
+    - - J j
+      - jota
+    - - Q q
+      - cu
+    - - Y y
+      - ye
+    lexemes:
+    - l-b
+    - l-h
+    - l-j
+    - l-q
+    - l-y
+  - id: u00a-review-02
+    type: match_pairs
+    pairs:
+    - - G g
+      - ge
+    - - V v
+      - uve
+    - - W w
+      - doble ve
+    - - X x
+      - equis
+    - - Z z
+      - zeta
+    lexemes:
+    - l-g
+    - l-v
+    - l-w
+    - l-x
+    - l-z
+  - id: u00a-review-03
+    type: multiple_choice
+    prompt: איך קוראים לאות H?
+    options:
+    - hache
+    - ache
+    - jota
+    correct: 0
+    lexemes:
+    - l-h
+  - id: u00a-review-04
+    type: multiple_choice
+    prompt: איך קוראים לאות J?
+    options:
+    - jota
+    - hache
+    - ye
+    correct: 0
+    lexemes:
+    - l-j
+  - id: u00a-review-05
+    type: multiple_choice
+    prompt: איך קוראים לאות Ñ?
+    options:
+    - eñe
+    - ene
+    - eme
+    correct: 0
+    lexemes:
+    - l-n-tilde
+  - id: u00a-review-06
+    type: listening_choice
+    audioText: equis
+    question: איזו אות שמעתם?
+    options:
+    - X x
+    - S s
+    - Z z
+    correct: 0
+    lexemes:
+    - l-x
+  - id: u00a-review-07
+    type: listening_choice
+    audioText: uve
+    question: איזו אות שמעתם?
+    options:
+    - V v
+    - B b
+    - W w
+    correct: 0
+    lexemes:
+    - l-v
+  - id: u00a-review-08
+    type: listening_choice
+    audioText: erre
+    question: איזו אות שמעתם?
+    options:
+    - R r
+    - E e
+    - L l
+    correct: 0
+    lexemes:
+    - l-r
+  - id: u00a-review-09
+    type: word_bank
+    prompt: איך מאייתים 'sol'? (שמש)
+    answers:
+    - ese o ele
+    distractors:
+    - eme
+    - pe
+    lexemes:
+    - l-s
+    - l-o
+    - l-l
+  - id: u00a-review-10
+    type: dictation
+    text: año
+    lexemes:
+    - l-n-tilde
+  - id: u00a-review-11
+    type: dictation
+    text: queso
+    lexemes:
+    - l-q
+  - id: u00a-review-12
+    type: speak_repeat
+    text: ese, o, ele
+    translation: S, O, L
+    lexemes:
+    - l-s
+    - l-o
+    - l-l

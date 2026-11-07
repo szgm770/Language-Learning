@@ -61,7 +61,8 @@ export function normalize(text: string, opts: NormalizeOptions = {}): string {
   }
   if (stripMarks) {
     s = s.replace(HEBREW_POINTS, "").replace(ARABIC_HARAKAT, "");
-    s = s.normalize("NFD").replace(COMBINING_MARKS, "").normalize("NFC");
+    // ñ is a letter of its own in Spanish (año / ano are different words), so it keeps its tilde.
+    s = s.replace(/ñ/g, "\u0001").normalize("NFD").replace(COMBINING_MARKS, "").normalize("NFC").replace(/\u0001/g, "ñ");
   }
   // Apostrophes left inside words (e.g. "o'clock") are kept; everything else that is punctuation goes.
   s = s.replace(/'/g, "\u0000").replace(PUNCTUATION, " ").replace(/\u0000/g, "'");

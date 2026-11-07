@@ -1,0 +1,420 @@
+id: u00b-sonidos
+cefr: A0
+scene: study
+title:
+  he: הצלילים של הספרדית
+  en: The sounds of Spanish
+story: בספרדית יש כללי הגייה קבועים. כאן לומדים את הכללים שמבלבלים הכי הרבה דוברי עברית, ומתחילים להבדיל בין צלילים דומים.
+canDo:
+- לקרוא נכון b, v, c, z, g, j, h, ll, ñ, r ו־rr
+- להבדיל בין pero לבין perro
+- לקרוא מילה חדשה בקול ולהגות אותה נכון
+vocabulary:
+- id: s-vowels
+  text: a e i o u
+  translation: חמש תנועות טהורות וקצרות, כמעט כמו אַ אֶ אִ אוֹ אוּ בעברית. אין תנועות ארוכות או מתחלפות
+  pos: noun
+  example:
+    text: casa, mesa, ropa
+    translation: דוגמאות
+- id: s-b-v
+  text: b / v
+  translation: 'שתי האותיות נשמעות אותו דבר: ב'' (כמו בעברית, ולא ו''). *vaca* ו־*baca* נשמעות כמעט זהה'
+  pos: noun
+  pronunciation: בּ
+  example:
+    text: vaso, bebé, vino
+    translation: דוגמאות
+- id: s-c-k
+  text: ca co cu / qu
+  translation: 'c לפני a, o, u וגם qu לפני e, i: צליל ק'''
+  pos: noun
+  pronunciation: ק
+  example:
+    text: casa, queso, quiero
+    translation: דוגמאות
+- id: s-c-s
+  text: ce ci / z
+  translation: 'c לפני e, i וכן z: ס'' (באמריקה הלטינית)'
+  pos: noun
+  pronunciation: ס
+  example:
+    text: cena, cine, zapato
+    translation: דוגמאות
+- id: s-g-hard
+  text: ga go gu / gue gui
+  translation: 'g לפני a, o, u: ג'' קשה. כדי לקבל ג'' לפני e, i כותבים gue, gui (ה־u שקטה)'
+  pos: noun
+  pronunciation: ג
+  example:
+    text: gato, gusto, guitarra
+    translation: דוגמאות
+- id: s-g-j
+  text: ge gi / j
+  translation: 'g לפני e, i וגם j: ח'' (כמו בעברית, גרונית)'
+  pos: noun
+  pronunciation: ח
+  example:
+    text: gente, jugo, jamón
+    translation: דוגמאות
+- id: s-h-silent
+  text: h
+  translation: 'h שותקת. מתעלמים ממנה: *hola* נשמעת ''אוֹלָה'''
+  pos: noun
+  example:
+    text: hola, hotel, hermano
+    translation: דוגמאות
+- id: s-ll-y
+  text: ll / y
+  translation: 'שתיהן נשמעות כמו י'' או ג'' (באמריקה הלטינית לרוב י''): *llave*, *yo*'
+  pos: noun
+  pronunciation: י
+  example:
+    text: llave, yo, calle
+    translation: דוגמאות
+- id: s-n-tilde
+  text: ñ
+  translation: 'ני: *año*, *niño*, *mañana*'
+  pos: noun
+  pronunciation: ני
+  example:
+    text: año, niño, mañana
+    translation: דוגמאות
+- id: s-ch
+  text: ch
+  translation: 'צ'' כמו בעברית: *chocolate*, *mucho*'
+  pos: noun
+  pronunciation: צ'
+  example:
+    text: chocolate, mucho, noche
+    translation: דוגמאות
+- id: s-r-tap
+  text: r
+  translation: 'ר'' קצרה, נגיעה אחת של הלשון בחך (לא ר'' גרונית כמו בעברית): *pero*, *cara*'
+  pos: noun
+  pronunciation: ר
+  example:
+    text: pero, cara, para
+    translation: דוגמאות
+- id: s-rr
+  text: rr / r בתחילת מילה
+  translation: 'ר'' מתגלגלת עם מספר נגיעות: *perro*, *carro*, *rojo*. זה הצליל שמבדיל בין *pero* (אבל) ל־*perro* (כלב)'
+  pos: noun
+  pronunciation: רר
+  example:
+    text: perro, carro, rojo
+    translation: דוגמאות
+lessons:
+- id: u00b-l1
+  kind: new
+  title:
+    he: תנועות ו־b/v/h
+    en: Vowels, b/v and h
+  exercises:
+  - id: u00b-l1-01
+    type: tip
+    title: תנועות נקיות
+    text: 'בספרדית יש **רק חמש תנועות**, והן תמיד נשמעות אותו דבר: **a** כמו אַ, **e** כמו אֶ, **i** כמו אִי, **o** כמו אוֹ, **u** כמו אוּ.
+
+      אין צורך לנחש כמו באנגלית: *casa* היא תמיד "קָסָה", *mesa* היא תמיד "מֶסָה".
+
+      שתי אותיות מפתיעות: **b ו־v נשמעות אותו דבר** (ב''), ו־**h שותקת**.
+
+      '
+  - id: u00b-l1-02
+    type: learn
+    lexeme: s-vowels
+  - id: u00b-l1-03
+    type: learn
+    lexeme: s-b-v
+  - id: u00b-l1-04
+    type: learn
+    lexeme: s-h-silent
+  - id: u00b-l1-05
+    type: multiple_choice
+    prompt: איך נקראת המילה casa?
+    options:
+    - קָסָה
+    - קֵייסָה
+    - כֵּיס
+    correct: 0
+    lexemes:
+    - s-vowels
+  - id: u00b-l1-06
+    type: multiple_choice
+    prompt: איזה צליל מתחיל המילה vaso?
+    options:
+    - ב'
+    - ו'
+    - פ'
+    correct: 0
+    lexemes:
+    - s-b-v
+  - id: u00b-l1-07
+    type: multiple_choice
+    prompt: איך נקראת המילה hola?
+    options:
+    - אוֹלָה
+    - חוֹלָה
+    - הוֹלָה
+    correct: 0
+    lexemes:
+    - s-h-silent
+  - id: u00b-l1-08
+    type: listening_choice
+    audioText: vaso
+    question: איזו מילה שמעתם?
+    options:
+    - vaso
+    - baso
+    - faso
+    correct: 0
+    lexemes:
+    - s-b-v
+  - id: u00b-l1-09
+    type: listening_choice
+    audioText: hotel
+    question: איזו מילה שמעתם?
+    options:
+    - hotel
+    - jotel
+    - ojtel
+    correct: 0
+    lexemes:
+    - s-h-silent
+  - id: u00b-l1-10
+    type: dictation
+    text: hola
+    lexemes:
+    - s-h-silent
+  - id: u00b-l1-11
+    type: dictation
+    text: mesa
+    lexemes:
+    - s-vowels
+  - id: u00b-l1-12
+    type: speak_repeat
+    text: Hola, buenos días.
+    translation: שלום, בוקר טוב.
+    lexemes:
+    - s-h-silent
+- id: u00b-l2
+  kind: new
+  title:
+    he: c, z, qu, g, j
+    en: c, z, qu, g and j
+  exercises:
+  - id: u00b-l2-01
+    type: tip
+    title: האותיות שמשנות צליל
+    text: '**c** ו־**g** משתנות לפי האות שאחריהן:
+
+      - **ca co cu → ק''**, **ce ci → ס''** (וגם **z** = ס'' באמריקה הלטינית).
+
+      - **ga go gu → ג''**, **ge gi → ח''** (וגם **j** = ח'').
+
+      כדי לכתוב ק'' לפני e/i משתמשים ב־**qu** (*queso*), וכדי לכתוב ג'' לפני e/i משתמשים ב־**gu** (*guitarra*). ה־u לא נשמעת.
+
+      '
+  - id: u00b-l2-02
+    type: learn
+    lexeme: s-c-k
+  - id: u00b-l2-03
+    type: learn
+    lexeme: s-c-s
+  - id: u00b-l2-04
+    type: learn
+    lexeme: s-g-hard
+  - id: u00b-l2-05
+    type: learn
+    lexeme: s-g-j
+  - id: u00b-l2-06
+    type: multiple_choice
+    prompt: איזה צליל מתחיל cine?
+    options:
+    - ס'
+    - ק'
+    - צ'
+    correct: 0
+    lexemes:
+    - s-c-s
+  - id: u00b-l2-07
+    type: multiple_choice
+    prompt: איזה צליל מתחיל casa?
+    options:
+    - ק'
+    - ס'
+    - ח'
+    correct: 0
+    lexemes:
+    - s-c-k
+  - id: u00b-l2-08
+    type: multiple_choice
+    prompt: איזה צליל מתחיל gente?
+    options:
+    - ח'
+    - ג'
+    - ז'
+    correct: 0
+    lexemes:
+    - s-g-j
+  - id: u00b-l2-09
+    type: multiple_choice
+    prompt: איזה צליל מתחיל gato?
+    options:
+    - ג'
+    - ח'
+    - ק'
+    correct: 0
+    lexemes:
+    - s-g-hard
+  - id: u00b-l2-10
+    type: listening_choice
+    audioText: queso
+    question: איזו מילה שמעתם?
+    options:
+    - queso
+    - keso
+    - cheso
+    correct: 0
+    lexemes:
+    - s-c-k
+  - id: u00b-l2-11
+    type: listening_choice
+    audioText: jugo
+    question: איזו מילה שמעתם?
+    options:
+    - jugo
+    - yugo
+    - gugo
+    correct: 0
+    lexemes:
+    - s-g-j
+  - id: u00b-l2-12
+    type: dictation
+    text: zapato
+    lexemes:
+    - s-c-s
+  - id: u00b-l2-13
+    type: dictation
+    text: guitarra
+    lexemes:
+    - s-g-hard
+  - id: u00b-l2-14
+    type: speak_repeat
+    text: Quiero un jugo, por favor.
+    translation: אני רוצה מיץ, בבקשה.
+    lexemes:
+    - s-c-k
+    - s-g-j
+- id: u00b-l3
+  kind: new
+  title:
+    he: ll, ñ, ch, r, rr
+    en: ll, ñ, ch, r and rr
+  exercises:
+  - id: u00b-l3-01
+    type: tip
+    title: הצליל R
+    text: '**r** אחת היא **נגיעה קצרה** של קצה הלשון בחך (כמו ה־t הרכה באנגלית *water* בארה"ב). **rr** (וגם r בתחילת מילה) היא **גלגול**.
+
+      הדוברים העבריים שרגילים לר'' גרונית צריכים קצת אימון, אבל גם ר'' גרונית מובנת.
+
+      הבדל במשמעות: **pero** (אבל) ≠ **perro** (כלב).
+
+      '
+  - id: u00b-l3-02
+    type: learn
+    lexeme: s-ll-y
+  - id: u00b-l3-03
+    type: learn
+    lexeme: s-n-tilde
+  - id: u00b-l3-04
+    type: learn
+    lexeme: s-ch
+  - id: u00b-l3-05
+    type: learn
+    lexeme: s-r-tap
+  - id: u00b-l3-06
+    type: learn
+    lexeme: s-rr
+  - id: u00b-l3-07
+    type: multiple_choice
+    prompt: מה ההבדל בין pero לבין perro?
+    options:
+    - pero = אבל, perro = כלב
+    - שתיהן אותו דבר
+    - pero = כלב, perro = אבל
+    correct: 0
+    lexemes:
+    - s-r-tap
+    - s-rr
+  - id: u00b-l3-08
+    type: multiple_choice
+    prompt: איך נשמעת ñ?
+    options:
+    - ני
+    - נ' בלבד
+    - ג'
+    correct: 0
+    lexemes:
+    - s-n-tilde
+  - id: u00b-l3-09
+    type: multiple_choice
+    prompt: איזו מילה פירושה 'שנה'?
+    options:
+    - año
+    - ano
+    - aña
+    correct: 0
+    lexemes:
+    - s-n-tilde
+  - id: u00b-l3-10
+    type: listening_choice
+    audioText: perro
+    question: איזו מילה שמעתם?
+    options:
+    - perro
+    - pero
+    - pelo
+    correct: 0
+    lexemes:
+    - s-rr
+  - id: u00b-l3-11
+    type: listening_choice
+    audioText: pero
+    question: איזו מילה שמעתם?
+    options:
+    - pero
+    - perro
+    - pelo
+    correct: 0
+    lexemes:
+    - s-r-tap
+  - id: u00b-l3-12
+    type: listening_choice
+    audioText: carro
+    question: איזו מילה שמעתם?
+    options:
+    - carro
+    - caro
+    - cayo
+    correct: 0
+    lexemes:
+    - s-rr
+  - id: u00b-l3-13
+    type: dictation
+    text: mañana
+    lexemes:
+    - s-n-tilde
+  - id: u00b-l3-14
+    type: dictation
+    text: chocolate
+    lexemes:
+    - s-ch
+  - id: u00b-l3-15
+    type: speak_repeat
+    text: El perro es muy simpático.
+    translation: הכלב מאוד חביב.
+    lexemes:
+    - s-rr

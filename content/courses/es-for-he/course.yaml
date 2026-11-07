@@ -1,12 +1,23 @@
 id: es-for-he
 source: he
 target: es
-speechLang: es-ES
+speechLang: es-MX
 title:
   he: ספרדית לדוברי עברית
   en: Spanish for Hebrew speakers
 description:
-  he: ספרדית מהיסוד, עם הסברים בעברית והשוואות לעברית.
-  en: Spanish from the ground up, explained in Hebrew.
+  he: "מהאותיות הראשונות ועד שיחה בטוחה, עם יעל במקסיקו סיטי."
+  en: From your first letters to confident conversation, with Yael in Mexico City.
+characters:
+  - { id: "yael", name: "Yael", he: "יעל", color: "rose", look: "long", pitch: 1.15 }
+  - { id: "mateo", name: "Mateo", he: "מתאו", color: "blue", look: "short", pitch: 0.9 }
+  - { id: "sofia", name: "Sofía", he: "סופיה", color: "violet", look: "curly", pitch: 1.2 }
+  - { id: "ricardo", name: "Don Ricardo", he: "דון ריקרדו", color: "teal", look: "bald", pitch: 0.75 }
+  - { id: "carmen", name: "Doña Carmen", he: "דוניה כרמן", color: "amber", look: "curly", pitch: 1.0 }
+  - { id: "lucia", name: "Lucía", he: "לוסיה", color: "green", look: "long", pitch: 1.1 }
+  - { id: "dani", name: "Dani", he: "דני", color: "amber", look: "short", pitch: 0.95 }
+  - { id: "herrera", name: "Dr. Herrera", he: "ד\"ר הרֶרה", color: "violet", look: "bald", pitch: 0.8 }
 units:
-  - a1-01-hola
+  - u00a-letras
+  - u00b-sonidos
+  - u00c-palabras

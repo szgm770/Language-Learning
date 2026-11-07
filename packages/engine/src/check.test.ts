@@ -44,3 +44,11 @@ describe("checkText", () => {
     expect(checkText("café", ["cafe"], "en").verdict).toBe("correct");
   });
 });
+
+describe("Spanish", () => {
+  it("keeps ñ as its own letter but forgives missing accents", () => {
+    expect(checkText("ano", ["año"], "es").verdict).toBe("wrong");
+    expect(checkText("año", ["año"], "es").verdict).toBe("correct");
+    expect(checkText("como estas", ["¿Cómo estás?"], "es").verdict).toBe("accent");
+  });
+});

@@ -218,3 +218,11 @@ test("alphabet cards stay out of the word list, and practice pages open", async 
   await page.goto("review/en-for-he/?mode=weak");
   await expect(page.getByText("אין כרגע מילים חלשות")).toBeVisible();
 });
+
+test("Spanish can be started from zero", async ({ page }) => {
+  await page.goto("start/");
+  await page.getByRole("button", { name: /ספרדית/ }).click();
+  await page.getByRole("button", { name: /רגיל/ }).click();
+  await page.getByRole("button", { name: /מאפס/ }).click();
+  await expect(page).toHaveURL(/\/lesson\/es-for-he\/u00a-l1\/$/);
+});
