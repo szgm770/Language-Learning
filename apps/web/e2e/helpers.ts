@@ -3,7 +3,7 @@ import type { Exercise, Unit } from "@lingo/content-schema";
 import { expect, type Page } from "@playwright/test";
 
 const read = <T,>(path: string) => JSON.parse(readFileSync(new URL(`../public/content/${path}`, import.meta.url), "utf8")) as T;
-const courses = ["en-for-he", "en-amirnet", "es-for-he"];
+const courses = ["en-for-he", "en-amirnet", "es-for-he", "yi-for-he"];
 const byCourse = new Map<string, Map<string, Exercise>>(
   courses.map((course) => {
     const units = read<{ units: { id: string }[] }>(`${course}/manifest.json`).units.map((u) => read<Unit>(`${course}/units/${u.id}.json`));

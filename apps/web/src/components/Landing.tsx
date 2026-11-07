@@ -120,7 +120,8 @@ const POINTS = [
 
 const LANGS: { word: string; lang: string; name: string; ready: boolean; note?: string }[] = [
   { word: "Hello", lang: "en", name: "אנגלית", ready: true, note: "זמין עכשיו, מ־A0 ועד C1" },
-  { word: "¡Hola!", lang: "es", name: "ספרדית", ready: false, note: "בבנייה: מתחילים מ־A0" },
+  { word: "¡Hola!", lang: "es", name: "ספרדית", ready: true, note: "זמין עכשיו, מ־A0 ועד C1" },
+  { word: "שלום", lang: "yi", name: "יידיש", ready: false, note: "בבנייה: יידיש ליטאית, מתחילים מ־A0" },
   { word: "Bonjour", lang: "fr", name: "צרפתית", ready: false },
   { word: "Hallo", lang: "de", name: "גרמנית", ready: false },
   { word: "Привет", lang: "ru", name: "רוסית", ready: false },
