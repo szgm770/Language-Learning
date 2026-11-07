@@ -3,10 +3,20 @@ import type { Exercise, Unit } from "@lingo/content-schema";
 import { expect, type Page } from "@playwright/test";
 
 const read = <T,>(path: string) => JSON.parse(readFileSync(new URL(`../public/content/${path}`, import.meta.url), "utf8")) as T;
-const units = ["en-for-he", "en-amirnet", "es-for-he"].flatMap((course) =>
-  read<{ units: { id: string }[] }>(`${course}/manifest.json`).units.map((u) => read<Unit>(`${course}/units/${u.id}.json`)),
+const courses = ["en-for-he", "en-amirnet", "es-for-he"];
+const byCourse = new Map<string, Map<string, Exercise>>(
+  courses.map((course) => {
+    const units = read<{ units: { id: string }[] }>(`${course}/manifest.json`).units.map((u) => read<Unit>(`${course}/units/${u.id}.json`));
+    return [course, new Map(units.flatMap((u) => u.lessons.flatMap((l) => l.exercises.map((e) => [e.id, e] as const))))];
+  }),
 );
-export const exercises = new Map<string, Exercise>(units.flatMap((u) => u.lessons.flatMap((l) => l.exercises.map((e) => [e.id, e] as const))));
+/** Exercise ids repeat between courses, so look them up in the course of the page being tested. */
+export const exercises = {
+  get(id: string, page: Page): Exercise | undefined {
+    const course = /\/(?:lesson|review|placement)\/([^/]+)\//.exec(page.url())?.[1] ?? "en-for-he";
+    return byCourse.get(course)?.get(id);
+  },
+};
 /** Answers the exercise on screen correctly, using the course content. */
 export async function solve(page: Page, ex: Exercise) {
   switch (ex.type) {
@@ -72,7 +82,7 @@ export async function finishLesson(page: Page): Promise<number> {
       continue;
     }
     const id = (await stage.getAttribute("data-exercise"))!;
-    if ((await solve(page, exercises.get(id)!)) === "seen") continue;
+    if ((await solve(page, exercises.get(id, page)!)) === "seen") continue;
     const status = page.locator("[data-verdict]");
     await expect(status).toBeVisible();
     if ((await status.getAttribute("data-verdict")) !== "correct") mistakes++;

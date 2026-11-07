@@ -1,0 +1,829 @@
+id: u02-de-donde
+cefr: A1
+scene: globe
+title:
+  he: מאיפה את?
+  en: Where are you from?
+story: 'יעל פוגשת את סופיה ואת מתאו בהפסקה. הם מספרים מאיפה הם, ויעל לומדת את הפועל החשוב ביותר בספרדית: ser.'
+canDo:
+- 'להציג את עצמי: אני יעל, אני ישראלית'
+- לשאול ולענות מאיפה אתם
+- להתאים תואר לזכר או לנקבה (mexicano / mexicana)
+- להשתמש בכינויי גוף yo, tú, él, ella, nosotros, ellos
+vocabulary:
+- id: yo
+  text: yo
+  translation: אני
+  pos: pronoun
+- id: tu
+  text: tú
+  translation: אתה / את
+  pos: pronoun
+- id: el
+  text: él
+  translation: הוא
+  pos: pronoun
+- id: ella
+  text: ella
+  translation: היא
+  pos: pronoun
+- id: nosotros
+  text: nosotros
+  translation: אנחנו
+  pos: pronoun
+- id: ellos
+  text: ellos
+  translation: הם
+  pos: pronoun
+- id: ser
+  text: ser
+  translation: להיות (זהות, מוצא, מקצוע)
+  pos: verb
+  example:
+    text: Yo soy Yael.
+    translation: אני יעל.
+- id: de
+  text: de
+  translation: מ־, של
+  pos: preposition
+- id: de-donde
+  text: ¿de dónde?
+  translation: מאיפה?
+  pos: phrase
+- id: israel
+  text: Israel
+  translation: ישראל
+  pos: noun
+- id: mexico
+  text: México
+  translation: מקסיקו
+  pos: noun
+- id: espana
+  text: España
+  translation: ספרד
+  pos: noun
+- id: argentina
+  text: Argentina
+  translation: ארגנטינה
+  pos: noun
+- id: israeli
+  text: israelí
+  translation: ישראלי / ישראלית
+  pos: adjective
+- id: mexicano
+  text: mexicano / mexicana
+  translation: מקסיקני / מקסיקנית
+  pos: adjective
+- id: espanol
+  text: español / española
+  translation: ספרדי / ספרדית
+  pos: adjective
+- id: argentino
+  text: argentino / argentina
+  translation: ארגנטינאי / ארגנטינאית
+  pos: adjective
+- id: y
+  text: y
+  translation: ו־
+  pos: conjunction
+- id: tambien
+  text: también
+  translation: גם
+  pos: adverb
+- id: estudiante
+  text: el / la estudiante
+  translation: סטודנט / סטודנטית
+  pos: noun
+grammar:
+- id: ser-present
+  title:
+    he: הפועל ser
+    en: The verb ser
+  explanation: '**ser** פירושו "להיות" וממנו אומרים **מי אתם ומאיפה**: שם, מוצא, מקצוע, זהות.
+
+    בעברית לא אומרים "הוא" בהווה ("אני ישראלית"), אבל בספרדית **חייבים פועל**:
+
+
+    | כינוי | ser | דוגמה |
+
+    |---|---|---|
+
+    | yo | **soy** | Yo soy Yael. |
+
+    | tú | **eres** | Tú eres Mateo. |
+
+    | él / ella / usted | **es** | Ella es mexicana. |
+
+    | nosotros | **somos** | Somos colegas. |
+
+    | ellos / ustedes | **son** | Ellos son españoles. |
+
+
+    הכינוי (*yo*, *tú*) **לא חובה**, כי הסיומת מספרת מי מדבר: *Soy israelí.*
+
+    תארים מתאימים למין: **-o** לזכר, **-a** לנקבה: *mexicano / mexicana*. תארים שנגמרים ב־**-í** או ב־**-e** (*israelí*, *estudiante*) אינם משתנים.'
+  examples:
+  - text: Soy israelí, soy de Israel.
+    translation: אני ישראלית (ישראלי), אני מישראל.
+  - text: Mateo es mexicano y Sofía es mexicana.
+    translation: מתאו מקסיקני וסופיה מקסיקנית.
+  - text: Nosotros somos estudiantes.
+    translation: אנחנו סטודנטים.
+lessons:
+- id: u02-l1
+  kind: new
+  title:
+    he: מי אני
+    en: Who am I
+  exercises:
+  - id: u02-l1-01
+    type: dialogue
+    scene: הפסקת קפה במשרד.
+    lines:
+    - speaker: sofia
+      text: Hola, soy Sofía. ¿Tú eres Yael?
+      translation: שלום, אני סופיה. את יעל?
+    - speaker: yael
+      text: Sí, yo soy Yael. Mucho gusto.
+      translation: כן, אני יעל. נעים להכיר.
+    - speaker: sofia
+      text: ¿De dónde eres?
+      translation: מאיפה את?
+    - speaker: yael
+      text: Soy de Israel. Soy israelí. ¿Y tú?
+      translation: אני מישראל. אני ישראלית. ואת?
+    - speaker: sofia
+      text: Yo soy de México. Soy mexicana.
+      translation: אני ממקסיקו. אני מקסיקנית.
+  - id: u02-l1-02
+    type: learn
+    lexeme: yo
+  - id: u02-l1-03
+    type: learn
+    lexeme: tu
+  - id: u02-l1-04
+    type: learn
+    lexeme: el
+  - id: u02-l1-05
+    type: learn
+    lexeme: ella
+  - id: u02-l1-06
+    type: learn
+    lexeme: nosotros
+  - id: u02-l1-07
+    type: learn
+    lexeme: ellos
+  - id: u02-l1-08
+    type: match_pairs
+    pairs:
+    - - yo
+      - אני
+    - - tú
+      - אתה / את
+    - - él
+      - הוא
+    - - ella
+      - היא
+    - - nosotros
+      - אנחנו
+    lexemes:
+    - yo
+    - tu
+    - el
+    - ella
+    - nosotros
+  - id: u02-l1-09
+    type: multiple_choice
+    prompt: איזה כינוי פירושו 'היא'?
+    options:
+    - ella
+    - él
+    - ellos
+    correct: 0
+    lexemes:
+    - ella
+  - id: u02-l1-10
+    type: multiple_choice
+    prompt: איזה כינוי פירושו 'אנחנו'?
+    options:
+    - nosotros
+    - ellos
+    - yo
+    correct: 0
+    lexemes:
+    - nosotros
+  - id: u02-l1-11
+    type: listening_choice
+    audioText: Yo
+    question: איזה כינוי שמעתם?
+    options:
+    - yo
+    - tú
+    - él
+    correct: 0
+    lexemes:
+    - yo
+  - id: u02-l1-12
+    type: translate
+    direction: to_target
+    prompt: אני
+    answers:
+    - Yo
+    - yo
+    lexemes:
+    - yo
+  - id: u02-l1-13
+    type: translate
+    direction: to_source
+    prompt: tú y yo
+    answers:
+    - אתה ואני
+    - את ואני
+    lexemes:
+    - tu
+    - yo
+  - id: u02-l1-14
+    type: speak_repeat
+    text: Yo, tú, él, ella.
+    translation: אני, אתה, הוא, היא.
+    lexemes:
+    - yo
+    - tu
+    - el
+    - ella
+- id: u02-l2
+  kind: new
+  title:
+    he: מקומות ומוצא
+    en: Places and origin
+  exercises:
+  - id: u02-l2-01
+    type: learn
+    lexeme: ser
+  - id: u02-l2-02
+    type: learn
+    lexeme: de
+  - id: u02-l2-03
+    type: learn
+    lexeme: de-donde
+  - id: u02-l2-04
+    type: learn
+    lexeme: israel
+  - id: u02-l2-05
+    type: learn
+    lexeme: mexico
+  - id: u02-l2-06
+    type: learn
+    lexeme: espana
+  - id: u02-l2-07
+    type: learn
+    lexeme: argentina
+  - id: u02-l2-08
+    type: dialogue
+    scene: שיחה עם מתאו.
+    lines:
+    - speaker: mateo
+      text: ¿De dónde eres, Yael?
+      translation: מאיפה את, יעל?
+    - speaker: yael
+      text: Soy de Israel. ¿Y tú?
+      translation: אני מישראל. ואתה?
+    - speaker: mateo
+      text: Yo soy de México. Sofía es de Argentina.
+      translation: אני ממקסיקו. סופיה מארגנטינה.
+    - speaker: yael
+      text: ¡Qué bien!
+      translation: איזה יופי!
+  - id: u02-l2-09
+    type: match_pairs
+    pairs:
+    - - Israel
+      - ישראל
+    - - México
+      - מקסיקו
+    - - España
+      - ספרד
+    - - Argentina
+      - ארגנטינה
+    - - ¿de dónde?
+      - מאיפה?
+    lexemes:
+    - israel
+    - mexico
+    - espana
+    - argentina
+    - de-donde
+  - id: u02-l2-10
+    type: multiple_choice
+    prompt: איך שואלים 'מאיפה את?'
+    options:
+    - ¿De dónde eres?
+    - ¿Cómo te llamas?
+    - ¿Y tú?
+    correct: 0
+    lexemes:
+    - de-donde
+  - id: u02-l2-11
+    type: multiple_choice
+    prompt: מאיפה מתאו?
+    options:
+    - de México
+    - de Israel
+    - de España
+    correct: 0
+    lexemes:
+    - mexico
+    - de
+  - id: u02-l2-12
+    type: fill_blank
+    sentence: Yo ___ de Israel.
+    translation: אני מישראל.
+    answers:
+    - soy
+    options:
+    - soy
+    - eres
+    - es
+    lexemes:
+    - ser
+  - id: u02-l2-13
+    type: fill_blank
+    sentence: Tú ___ de México.
+    translation: אתה ממקסיקו.
+    answers:
+    - eres
+    options:
+    - eres
+    - soy
+    - somos
+    lexemes:
+    - ser
+  - id: u02-l2-14
+    type: translate
+    direction: to_target
+    prompt: אני מישראל.
+    answers:
+    - Soy de Israel.
+    - Yo soy de Israel.
+    lexemes:
+    - ser
+    - de
+    - israel
+  - id: u02-l2-15
+    type: translate
+    direction: to_source
+    prompt: ¿De dónde eres?
+    answers:
+    - מאיפה אתה?
+    - מאיפה את?
+    lexemes:
+    - de-donde
+  - id: u02-l2-16
+    type: speak_repeat
+    text: Soy de Israel. ¿De dónde eres?
+    translation: אני מישראל. מאיפה אתה?
+    lexemes:
+    - ser
+    - de
+    - de-donde
+- id: u02-l3
+  kind: grammar
+  title:
+    he: ser ותארים
+    en: Ser and adjectives
+  grammar: ser-present
+  exercises:
+  - id: u02-l3-01
+    type: learn
+    lexeme: israeli
+  - id: u02-l3-02
+    type: learn
+    lexeme: mexicano
+  - id: u02-l3-03
+    type: learn
+    lexeme: espanol
+  - id: u02-l3-04
+    type: learn
+    lexeme: argentino
+  - id: u02-l3-05
+    type: learn
+    lexeme: y
+  - id: u02-l3-06
+    type: learn
+    lexeme: tambien
+  - id: u02-l3-07
+    type: learn
+    lexeme: estudiante
+  - id: u02-l3-08
+    type: fill_blank
+    sentence: Yo ___ israelí.
+    translation: אני ישראלי.
+    answers:
+    - soy
+    options:
+    - soy
+    - es
+    - son
+    lexemes:
+    - ser
+    - israeli
+  - id: u02-l3-09
+    type: fill_blank
+    sentence: Ella ___ mexicana.
+    translation: היא מקסיקנית.
+    answers:
+    - es
+    options:
+    - es
+    - eres
+    - somos
+    lexemes:
+    - ser
+    - mexicano
+  - id: u02-l3-10
+    type: fill_blank
+    sentence: Nosotros ___ estudiantes.
+    translation: אנחנו סטודנטים.
+    answers:
+    - somos
+    options:
+    - somos
+    - son
+    - soy
+    lexemes:
+    - ser
+    - estudiante
+  - id: u02-l3-11
+    type: fill_blank
+    sentence: Mateo es mexican___.
+    translation: מתאו מקסיקני.
+    answers:
+    - o
+    options:
+    - o
+    - a
+    - e
+    lexemes:
+    - mexicano
+  - id: u02-l3-12
+    type: fill_blank
+    sentence: Sofía es mexican___.
+    translation: סופיה מקסיקנית.
+    answers:
+    - a
+    options:
+    - a
+    - o
+    - e
+    lexemes:
+    - mexicano
+  - id: u02-l3-13
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Ellos son españoles.
+    - Ellos es españoles.
+    - Ellos soy españoles.
+    correct: 0
+    lexemes:
+    - ser
+    - espanol
+  - id: u02-l3-14
+    type: word_bank
+    prompt: אני ישראלית וגם סטודנטית.
+    answers:
+    - Soy israelí y también soy estudiante.
+    distractors:
+    - eres
+    - argentina
+    lexemes:
+    - israeli
+    - tambien
+    - estudiante
+  - id: u02-l3-15
+    type: translate
+    direction: to_target
+    prompt: היא ארגנטינאית.
+    answers:
+    - Ella es argentina.
+    lexemes:
+    - ella
+    - argentino
+  - id: u02-l3-16
+    type: translate
+    direction: to_target
+    prompt: אנחנו מקסיקנים.
+    answers:
+    - Somos mexicanos.
+    - Nosotros somos mexicanos.
+    lexemes:
+    - ser
+    - mexicano
+  - id: u02-l3-17
+    type: translate
+    direction: to_source
+    prompt: Yo soy de España. Soy española.
+    answers:
+    - אני מספרד. אני ספרדית.
+    lexemes:
+    - espana
+    - espanol
+- id: u02-l4
+  kind: listening
+  title:
+    he: בהפסקה
+    en: During the break
+  exercises:
+  - id: u02-l4-01
+    type: dialogue
+    scene: סופיה, מתאו ויעל מדברים.
+    lines:
+    - speaker: sofia
+      text: Yael, ¿tú eres estudiante?
+      translation: יעל, את סטודנטית?
+    - speaker: yael
+      text: No, no soy estudiante. Soy de Israel y trabajo aquí. ¿Y tú?
+      translation: לא, אני לא סטודנטית. אני מישראל ועובדת כאן. ואת?
+    - speaker: sofia
+      text: Yo soy colega de Mateo. Somos mexicanos, pero mis padres son españoles.
+      translation: אני עמיתה של מתאו. אנחנו מקסיקנים, אבל ההורים שלי ספרדים.
+    - speaker: mateo
+      text: Y yo también soy mexicano. ¡Somos un buen equipo!
+      translation: וגם אני מקסיקני. אנחנו צוות טוב!
+  - id: u02-l4-02
+    type: multiple_choice
+    prompt: האם יעל סטודנטית?
+    options:
+    - לא
+    - כן
+    - לא ידוע
+    correct: 0
+    lexemes:
+    - estudiante
+  - id: u02-l4-03
+    type: multiple_choice
+    prompt: מאיפה ההורים של סופיה?
+    options:
+    - מספרד
+    - מישראל
+    - מארגנטינה
+    correct: 0
+    lexemes:
+    - espanol
+  - id: u02-l4-04
+    type: listening_choice
+    audioText: Somos mexicanos.
+    question: מה שמעתם?
+    options:
+    - אנחנו מקסיקנים
+    - הם מקסיקנים
+    - אני מקסיקני
+    correct: 0
+    lexemes:
+    - mexicano
+    - ser
+  - id: u02-l4-05
+    type: dictation
+    text: Soy de Israel.
+    lexemes:
+    - ser
+    - de
+    - israel
+  - id: u02-l4-06
+    type: translate
+    direction: to_target
+    prompt: אני לא סטודנטית.
+    answers:
+    - No soy estudiante.
+    lexemes:
+    - ser
+    - estudiante
+  - id: u02-l4-07
+    type: speak_repeat
+    text: Somos mexicanos y también somos colegas.
+    translation: אנחנו מקסיקנים וגם עמיתים.
+    lexemes:
+    - ser
+    - mexicano
+    - tambien
+- id: u02-l5
+  kind: reading
+  title:
+    he: כרטיס ביקור
+    en: A short profile
+  exercises:
+  - id: u02-l5-01
+    type: reading
+    kind: פרופיל
+    title: Perfil de Yael
+    text: 'Me llamo Yael y soy de Israel. Soy israelí y también soy estudiante de español.
+
+      Mi amigo Mateo es mexicano. Su colega Sofía también es mexicana, pero sus padres son españoles.
+
+      En México todos somos un buen equipo.
+
+      '
+    translation: 'קוראים לי יעל ואני מישראל. אני ישראלית וגם סטודנטית לספרדית.
+
+      החבר שלי מתאו מקסיקני. העמיתה שלו סופיה גם היא מקסיקנית, אבל ההורים שלה ספרדים.
+
+      במקסיקו כולנו צוות טוב.
+
+      '
+  - id: u02-l5-02
+    type: multiple_choice
+    prompt: מאיפה יעל?
+    options:
+    - מישראל
+    - ממקסיקו
+    - מספרד
+    correct: 0
+    lexemes:
+    - israel
+  - id: u02-l5-03
+    type: multiple_choice
+    prompt: מה הלאום של מתאו?
+    options:
+    - מקסיקני
+    - ספרדי
+    - ארגנטינאי
+    correct: 0
+    lexemes:
+    - mexicano
+  - id: u02-l5-04
+    type: multiple_choice
+    prompt: מה הלאום של ההורים של סופיה?
+    options:
+    - ספרדים
+    - ישראלים
+    - מקסיקנים
+    correct: 0
+    lexemes:
+    - espanol
+  - id: u02-l5-05
+    type: fill_blank
+    sentence: Mateo ___ mexicano.
+    translation: מתאו מקסיקני.
+    answers:
+    - es
+    options:
+    - es
+    - soy
+    - son
+    lexemes:
+    - ser
+  - id: u02-l5-06
+    type: fill_blank
+    sentence: Yo ___ de Israel.
+    translation: אני מישראל.
+    answers:
+    - soy
+    options:
+    - soy
+    - eres
+    - es
+    lexemes:
+    - ser
+  - id: u02-l5-07
+    type: translate
+    direction: to_target
+    prompt: אנחנו צוות טוב.
+    answers:
+    - Somos un buen equipo.
+    lexemes:
+    - ser
+- id: u02-review
+  kind: review
+  title:
+    he: 'חזרה: מאיפה את?'
+    en: 'Review: where are you from'
+  exercises:
+  - id: u02-review-01
+    type: match_pairs
+    pairs:
+    - - yo
+      - אני
+    - - tú
+      - אתה / את
+    - - ella
+      - היא
+    - - nosotros
+      - אנחנו
+    - - ellos
+      - הם
+    lexemes:
+    - yo
+    - tu
+    - ella
+    - nosotros
+    - ellos
+  - id: u02-review-02
+    type: match_pairs
+    pairs:
+    - - Israel
+      - ישראל
+    - - México
+      - מקסיקו
+    - - España
+      - ספרד
+    - - también
+      - גם
+    - - y
+      - ו־
+    lexemes:
+    - israel
+    - mexico
+    - espana
+    - tambien
+    - y
+  - id: u02-review-03
+    type: fill_blank
+    sentence: Ellos ___ argentinos.
+    translation: הם ארגנטינאים.
+    answers:
+    - son
+    options:
+    - son
+    - somos
+    - es
+    lexemes:
+    - ser
+    - argentino
+  - id: u02-review-04
+    type: fill_blank
+    sentence: ¿De ___ eres?
+    translation: מאיפה אתה?
+    answers:
+    - dónde
+    options:
+    - dónde
+    - cómo
+    - qué
+    lexemes:
+    - de-donde
+  - id: u02-review-05
+    type: listening_choice
+    audioText: Ella es israelí.
+    question: מה שמעתם?
+    options:
+    - היא ישראלית
+    - הוא ישראלי
+    - הם ישראלים
+    correct: 0
+    lexemes:
+    - ella
+    - israeli
+  - id: u02-review-06
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Sofía es mexicana.
+    - Sofía es mexicano.
+    - Sofía soy mexicana.
+    correct: 0
+    lexemes:
+    - mexicano
+    - ser
+  - id: u02-review-07
+    type: word_bank
+    prompt: אני מספרד.
+    answers:
+    - Soy de España.
+    distractors:
+    - eres
+    - argentina
+    lexemes:
+    - espana
+  - id: u02-review-08
+    type: translate
+    direction: to_target
+    prompt: אתה ישראלי וגם סטודנט.
+    answers:
+    - Eres israelí y también eres estudiante.
+    - Tú eres israelí y también estudiante.
+    lexemes:
+    - israeli
+    - estudiante
+  - id: u02-review-09
+    type: translate
+    direction: to_source
+    prompt: Somos de México.
+    answers:
+    - אנחנו ממקסיקו.
+    lexemes:
+    - ser
+    - mexico
+  - id: u02-review-10
+    type: dictation
+    text: Soy mexicana.
+    lexemes:
+    - ser
+    - mexicano
+  - id: u02-review-11
+    type: speak_repeat
+    text: Yo soy Yael. Soy de Israel.
+    translation: אני יעל. אני מישראל.
+    lexemes:
+    - yo
+    - ser
+    - israel

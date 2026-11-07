@@ -1,0 +1,775 @@
+id: u01-hola
+cefr: A1
+scene: hello
+title:
+  he: שלום!
+  en: Hello!
+story: יעל מגיעה ליום הראשון בעבודה במקסיקו סיטי. היא פוגשת את מתאו, את דוניה כרמן ואת דון ריקרדו, ולומדת לברך, להציג את עצמה ולשאול מה שלומם.
+canDo:
+- לברך בבוקר, אחר הצהריים וערב
+- להציג את עצמי ולשאול איך קוראים לאחר
+- לשאול מה שלום ולענות
+- להבחין בין tú ל־usted
+vocabulary:
+- id: hola
+  text: hola
+  translation: שלום
+  pos: interjection
+  example:
+    text: ¡Hola, Yael!
+    translation: שלום, יעל!
+- id: buenos-dias
+  text: buenos días
+  translation: בוקר טוב
+  pos: phrase
+- id: buenas-tardes
+  text: buenas tardes
+  translation: צהריים טובים / אחר צהריים טובים
+  pos: phrase
+- id: buenas-noches
+  text: buenas noches
+  translation: ערב טוב / לילה טוב
+  pos: phrase
+- id: adios
+  text: adiós
+  translation: להתראות
+  pos: interjection
+- id: hasta-luego
+  text: hasta luego
+  translation: להתראות (עוד מעט)
+  pos: phrase
+- id: hasta-manana
+  text: hasta mañana
+  translation: להתראות מחר
+  pos: phrase
+- id: por-favor
+  text: por favor
+  translation: בבקשה (כשמבקשים)
+  pos: phrase
+- id: gracias
+  text: gracias
+  translation: תודה
+  pos: interjection
+- id: de-nada
+  text: de nada
+  translation: על לא דבר
+  pos: phrase
+- id: perdon
+  text: perdón
+  translation: סליחה
+  pos: interjection
+- id: si
+  text: sí
+  translation: כן
+  pos: adverb
+- id: 'no'
+  text: 'no'
+  translation: לא
+  pos: adverb
+- id: me-llamo
+  text: me llamo
+  translation: קוראים לי
+  pos: phrase
+  example:
+    text: Me llamo Yael.
+    translation: קוראים לי יעל.
+- id: como-te-llamas
+  text: ¿cómo te llamas?
+  translation: איך קוראים לך?
+  pos: phrase
+- id: mucho-gusto
+  text: mucho gusto
+  translation: נעים להכיר
+  pos: phrase
+- id: como-estas
+  text: ¿cómo estás?
+  translation: מה שלומך?
+  pos: phrase
+- id: bien
+  text: bien
+  translation: טוב
+  pos: adverb
+- id: y-tu
+  text: ¿y tú?
+  translation: ואתה/ואת?
+  pos: phrase
+- id: senor
+  text: el señor
+  translation: האדון
+  pos: noun
+- id: senora
+  text: la señora
+  translation: הגברת
+  pos: noun
+grammar:
+- id: tu-usted
+  title:
+    he: tú ו־usted
+    en: Tú and usted
+  explanation: 'בספרדית יש **שתי דרכים לומר "אתה/את"**:
+
+    - "**tú** (בלשון נוחה): לחברים, משפחה, ילדים, עמיתים: *¿Cómo te llamas? ¿Cómo estás?*"
+
+    - "**usted** (בלשון מכבדת): למבוגרים שלא מכירים, ללקוחות, לאנשים חשובים: *¿Cómo se llama? ¿Cómo está usted?*"
+
+
+    בשאלה *¿Cómo estás?* אומרים **tú**, ובשאלה *¿Cómo está usted?* אומרים **usted**. הפועל משתנה: estás ← está.
+
+    לא ניתן לדעת מהעברית איזו צורה לבחור, כי בעברית הלשון אחת. הכלל הפשוט: **כשיש ספק, השתמשו ב־usted**; אנשים יתקנו אתכם ויעברו ל־tú בעצמם.
+
+    באמריקה הלטינית יש רק *ustedes* לרבים ("אתם/אתן"), לא *vosotros* של ספרד.'
+  examples:
+  - text: ¿Cómo te llamas?
+    translation: איך קוראים לך? (tú)
+  - text: ¿Cómo se llama usted?
+    translation: איך קוראים לך? (usted, מכבד)
+  - text: ¿Cómo está usted, señor Ricardo?
+    translation: מה שלומך, אדון ריקרדו?
+lessons:
+- id: u01-l1
+  kind: new
+  title:
+    he: ברכות
+    en: Greetings
+  exercises:
+  - id: u01-l1-01
+    type: dialogue
+    scene: הבוקר הראשון של יעל במשרד.
+    lines:
+    - speaker: mateo
+      text: ¡Buenos días! Yo soy Mateo.
+      translation: בוקר טוב! אני מתאו.
+    - speaker: yael
+      text: ¡Hola, Mateo! Buenos días.
+      translation: שלום, מתאו! בוקר טוב.
+    - speaker: mateo
+      text: Hasta luego, Yael.
+      translation: להתראות, יעל.
+    - speaker: yael
+      text: Adiós, Mateo. ¡Hasta mañana!
+      translation: להתראות, מתאו. נתראה מחר!
+  - id: u01-l1-02
+    type: learn
+    lexeme: hola
+  - id: u01-l1-03
+    type: learn
+    lexeme: buenos-dias
+  - id: u01-l1-04
+    type: learn
+    lexeme: buenas-tardes
+  - id: u01-l1-05
+    type: learn
+    lexeme: buenas-noches
+  - id: u01-l1-06
+    type: learn
+    lexeme: adios
+  - id: u01-l1-07
+    type: learn
+    lexeme: hasta-luego
+  - id: u01-l1-08
+    type: learn
+    lexeme: hasta-manana
+  - id: u01-l1-09
+    type: match_pairs
+    pairs:
+    - - hola
+      - שלום
+    - - buenos días
+      - בוקר טוב
+    - - buenas tardes
+      - צהריים טובים
+    - - adiós
+      - להתראות
+    - - hasta mañana
+      - להתראות מחר
+    lexemes:
+    - hola
+    - buenos-dias
+    - buenas-tardes
+    - adios
+    - hasta-manana
+  - id: u01-l1-10
+    type: multiple_choice
+    prompt: מה אומרים בבוקר?
+    options:
+    - buenos días
+    - buenas noches
+    - hasta luego
+    correct: 0
+    lexemes:
+    - buenos-dias
+  - id: u01-l1-11
+    type: multiple_choice
+    prompt: מה אומרים כשנפרדים עד מחר?
+    options:
+    - hasta mañana
+    - buenas tardes
+    - hola
+    correct: 0
+    lexemes:
+    - hasta-manana
+  - id: u01-l1-12
+    type: listening_choice
+    audioText: Buenas noches.
+    question: מה שמעתם?
+    options:
+    - ערב טוב / לילה טוב
+    - בוקר טוב
+    - להתראות
+    correct: 0
+    lexemes:
+    - buenas-noches
+  - id: u01-l1-13
+    type: word_bank
+    prompt: בוקר טוב, מתאו.
+    answers:
+    - Buenos días, Mateo.
+    distractors:
+    - Buenas
+    - día
+    lexemes:
+    - buenos-dias
+  - id: u01-l1-14
+    type: translate
+    direction: to_target
+    prompt: שלום ולהתראות.
+    answers:
+    - Hola y adiós.
+    - Hola, adiós.
+    lexemes:
+    - hola
+    - adios
+  - id: u01-l1-15
+    type: speak_repeat
+    text: ¡Buenos días! ¡Hasta luego!
+    translation: בוקר טוב! להתראות!
+    lexemes:
+    - buenos-dias
+    - hasta-luego
+- id: u01-l2
+  kind: new
+  title:
+    he: נימוסים
+    en: Polite words
+  exercises:
+  - id: u01-l2-01
+    type: learn
+    lexeme: por-favor
+  - id: u01-l2-02
+    type: learn
+    lexeme: gracias
+  - id: u01-l2-03
+    type: learn
+    lexeme: de-nada
+  - id: u01-l2-04
+    type: learn
+    lexeme: perdon
+  - id: u01-l2-05
+    type: learn
+    lexeme: si
+  - id: u01-l2-06
+    type: learn
+    lexeme: 'no'
+  - id: u01-l2-07
+    type: dialogue
+    scene: בבית הקפה של דוניה כרמן.
+    lines:
+    - speaker: yael
+      text: Un café, por favor.
+      translation: קפה, בבקשה.
+    - speaker: carmen
+      text: Sí, claro. Aquí tiene.
+      translation: בטח. בבקשה (הנה).
+    - speaker: yael
+      text: Gracias.
+      translation: תודה.
+    - speaker: carmen
+      text: De nada.
+      translation: על לא דבר.
+  - id: u01-l2-08
+    type: match_pairs
+    pairs:
+    - - por favor
+      - בבקשה
+    - - gracias
+      - תודה
+    - - de nada
+      - על לא דבר
+    - - perdón
+      - סליחה
+    - - sí
+      - כן
+    lexemes:
+    - por-favor
+    - gracias
+    - de-nada
+    - perdon
+    - si
+  - id: u01-l2-09
+    type: multiple_choice
+    prompt: מה עונים על gracias?
+    options:
+    - de nada
+    - por favor
+    - perdón
+    correct: 0
+    lexemes:
+    - de-nada
+  - id: u01-l2-10
+    type: multiple_choice
+    prompt: איך מבקשים בנימוס?
+    options:
+    - por favor
+    - adiós
+    - 'no'
+    correct: 0
+    lexemes:
+    - por-favor
+  - id: u01-l2-11
+    type: dialogue_gap
+    lines:
+    - speaker: yael
+      text: Gracias, Mateo.
+      translation: תודה, מתאו.
+    - speaker: mateo
+      text: De nada, Yael.
+      translation: על לא דבר, יעל.
+    gap: 1
+    distractors:
+    - Por favor, Yael.
+    - Perdón, Yael.
+    lexemes:
+    - de-nada
+  - id: u01-l2-12
+    type: translate
+    direction: to_target
+    prompt: תודה רבה.
+    answers:
+    - Muchas gracias.
+    - Gracias.
+    lexemes:
+    - gracias
+  - id: u01-l2-13
+    type: translate
+    direction: to_source
+    prompt: Perdón, ¿sí o no?
+    answers:
+    - סליחה, כן או לא?
+    lexemes:
+    - perdon
+    - si
+    - 'no'
+  - id: u01-l2-14
+    type: speak_repeat
+    text: Por favor. Gracias. De nada.
+    translation: בבקשה. תודה. על לא דבר.
+    lexemes:
+    - por-favor
+    - gracias
+    - de-nada
+- id: u01-l3
+  kind: grammar
+  title:
+    he: tú ו־usted
+    en: Tú and usted
+  grammar: tu-usted
+  exercises:
+  - id: u01-l3-01
+    type: learn
+    lexeme: me-llamo
+  - id: u01-l3-02
+    type: learn
+    lexeme: como-te-llamas
+  - id: u01-l3-03
+    type: learn
+    lexeme: mucho-gusto
+  - id: u01-l3-04
+    type: learn
+    lexeme: como-estas
+  - id: u01-l3-05
+    type: learn
+    lexeme: bien
+  - id: u01-l3-06
+    type: learn
+    lexeme: y-tu
+  - id: u01-l3-07
+    type: learn
+    lexeme: senor
+  - id: u01-l3-08
+    type: learn
+    lexeme: senora
+  - id: u01-l3-09
+    type: fill_blank
+    sentence: Me ___ Yael.
+    translation: קוראים לי יעל.
+    answers:
+    - llamo
+    options:
+    - llamo
+    - llamas
+    - llama
+    lexemes:
+    - me-llamo
+  - id: u01-l3-10
+    type: fill_blank
+    sentence: ¿Cómo te ___?
+    translation: איך קוראים לך?
+    answers:
+    - llamas
+    options:
+    - llamas
+    - llamo
+    - llama
+    lexemes:
+    - como-te-llamas
+  - id: u01-l3-11
+    type: fill_blank
+    sentence: Mucho ___.
+    translation: נעים להכיר.
+    answers:
+    - gusto
+    options:
+    - gusto
+    - gracias
+    - bien
+    lexemes:
+    - mucho-gusto
+  - id: u01-l3-12
+    type: multiple_choice
+    prompt: מה אומרים לדון ריקרדו, אדם מבוגר שלא מכירים?
+    options:
+    - ¿Cómo está usted?
+    - ¿Cómo estás?
+    - ¿Y tú?
+    correct: 0
+    lexemes:
+    - senor
+  - id: u01-l3-13
+    type: multiple_choice
+    prompt: איך עונים על ¿Cómo estás?
+    options:
+    - Bien, gracias. ¿Y tú?
+    - Me llamo bien.
+    - De nada.
+    correct: 0
+    lexemes:
+    - como-estas
+    - bien
+    - y-tu
+  - id: u01-l3-14
+    type: word_bank
+    prompt: איך קוראים לך?
+    answers:
+    - ¿Cómo te llamas?
+    distractors:
+    - se
+    - llamo
+    lexemes:
+    - como-te-llamas
+  - id: u01-l3-15
+    type: translate
+    direction: to_target
+    prompt: קוראים לי יעל. נעים להכיר.
+    answers:
+    - Me llamo Yael. Mucho gusto.
+    - Me llamo Yael, mucho gusto.
+    lexemes:
+    - me-llamo
+    - mucho-gusto
+  - id: u01-l3-16
+    type: translate
+    direction: to_target
+    prompt: מה שלומך? טוב, תודה.
+    answers:
+    - ¿Cómo estás? Bien, gracias.
+    - ¿Cómo estás? Bien, gracias
+    lexemes:
+    - como-estas
+    - bien
+    - gracias
+  - id: u01-l3-17
+    type: translate
+    direction: to_source
+    prompt: Buenos días, señor Ricardo.
+    answers:
+    - בוקר טוב, אדון ריקרדו.
+    lexemes:
+    - senor
+    - buenos-dias
+- id: u01-l4
+  kind: listening
+  title:
+    he: בבניין
+    en: In the building
+  exercises:
+  - id: u01-l4-01
+    type: dialogue
+    scene: יעל פוגשת את דון ריקרדו, בעל הבית.
+    lines:
+    - speaker: ricardo
+      text: Buenas tardes. ¿Cómo se llama usted?
+      translation: צהריים טובים. איך קוראים לך? (usted)
+    - speaker: yael
+      text: Buenas tardes, señor. Me llamo Yael. Mucho gusto.
+      translation: צהריים טובים, אדוני. קוראים לי יעל. נעים להכיר.
+    - speaker: ricardo
+      text: Mucho gusto, señorita Yael. ¿Cómo está?
+      translation: נעים מאוד, העלמה יעל. מה שלומך?
+    - speaker: yael
+      text: Bien, gracias. ¿Y usted, señor?
+      translation: טוב, תודה. ואתה, אדוני?
+    - speaker: ricardo
+      text: Bien, gracias. Hasta luego.
+      translation: טוב, תודה. להתראות.
+  - id: u01-l4-02
+    type: multiple_choice
+    prompt: איך דון ריקרדו שואל את יעל איך קוראים לה?
+    options:
+    - ¿Cómo se llama usted?
+    - ¿Cómo te llamas?
+    - ¿Y tú?
+    correct: 0
+    lexemes:
+    - como-te-llamas
+  - id: u01-l4-03
+    type: multiple_choice
+    prompt: מה היא עונה?
+    options:
+    - Me llamo Yael.
+    - Se llama Yael.
+    - Hasta luego.
+    correct: 0
+    lexemes:
+    - me-llamo
+  - id: u01-l4-04
+    type: listening_choice
+    audioText: Buenas tardes. ¿Cómo está usted?
+    question: מה הדובר שואל?
+    options:
+    - מה שלומך (בכבוד)
+    - איך קוראים לך
+    - מתי נפגש
+    correct: 0
+    lexemes:
+    - como-estas
+  - id: u01-l4-05
+    type: dictation
+    text: Mucho gusto, señor.
+    lexemes:
+    - mucho-gusto
+    - senor
+  - id: u01-l4-06
+    type: translate
+    direction: to_target
+    prompt: בוקר טוב, גברת.
+    answers:
+    - Buenos días, señora.
+    lexemes:
+    - buenos-dias
+    - senora
+  - id: u01-l4-07
+    type: speak_repeat
+    text: Me llamo Yael. Mucho gusto.
+    translation: קוראים לי יעל. נעים להכיר.
+    lexemes:
+    - me-llamo
+    - mucho-gusto
+- id: u01-l5
+  kind: reading
+  title:
+    he: הודעה ראשונה
+    en: The first message
+  exercises:
+  - id: u01-l5-01
+    type: reading
+    kind: הודעה
+    title: Un mensaje de Mateo
+    text: '¡Hola, Yael! Buenos días. Me llamo Mateo. Mucho gusto.
+
+      ¿Cómo estás? Yo estoy bien, gracias. Hoy es tu primer día en la oficina.
+
+      ¡Bienvenida a México! Hasta luego.
+
+      '
+    translation: 'שלום, יעל! בוקר טוב. קוראים לי מתאו. נעים להכיר.
+
+      מה שלומך? אני בסדר, תודה. היום הוא היום הראשון שלך במשרד.
+
+      ברוכה הבאה למקסיקו! להתראות.
+
+      '
+  - id: u01-l5-02
+    type: multiple_choice
+    prompt: מי כתב את ההודעה?
+    options:
+    - מתאו
+    - דון ריקרדו
+    - דוניה כרמן
+    correct: 0
+    lexemes:
+    - hola
+  - id: u01-l5-03
+    type: multiple_choice
+    prompt: איך מתאו מרגיש?
+    options:
+    - bien (טוב)
+    - mal (רע)
+    - no sé (לא יודע)
+    correct: 0
+    lexemes:
+    - bien
+  - id: u01-l5-04
+    type: multiple_choice
+    prompt: מה היום הראשון של יעל?
+    options:
+    - במשרד
+    - בבית קפה
+    - בשדה התעופה
+    correct: 0
+    lexemes: []
+  - id: u01-l5-05
+    type: fill_blank
+    sentence: ¡Hola, Yael! ___ días.
+    translation: שלום, יעל! בוקר טוב.
+    answers:
+    - Buenos
+    options:
+    - Buenos
+    - Buenas
+    - Bueno
+    lexemes:
+    - buenos-dias
+  - id: u01-l5-06
+    type: fill_blank
+    sentence: Me llamo Mateo. Mucho ___.
+    translation: קוראים לי מתאו. נעים להכיר.
+    answers:
+    - gusto
+    options:
+    - gusto
+    - gracias
+    - bien
+    lexemes:
+    - mucho-gusto
+  - id: u01-l5-07
+    type: translate
+    direction: to_target
+    prompt: שלום, אני מתאו.
+    answers:
+    - Hola, soy Mateo.
+    - Hola, me llamo Mateo.
+    lexemes:
+    - hola
+    - me-llamo
+- id: u01-review
+  kind: review
+  title:
+    he: 'חזרה: שלום!'
+    en: 'Review: hello'
+  exercises:
+  - id: u01-review-01
+    type: match_pairs
+    pairs:
+    - - buenos días
+      - בוקר טוב
+    - - gracias
+      - תודה
+    - - perdón
+      - סליחה
+    - - hasta mañana
+      - להתראות מחר
+    - - mucho gusto
+      - נעים להכיר
+    lexemes:
+    - buenos-dias
+    - gracias
+    - perdon
+    - hasta-manana
+    - mucho-gusto
+  - id: u01-review-02
+    type: fill_blank
+    sentence: ¿Cómo te ___?
+    translation: איך קוראים לך?
+    answers:
+    - llamas
+    options:
+    - llamas
+    - llamo
+    - llama
+    lexemes:
+    - como-te-llamas
+  - id: u01-review-03
+    type: fill_blank
+    sentence: Buenas ___, señora.
+    translation: צהריים טובים, גברת.
+    answers:
+    - tardes
+    options:
+    - tardes
+    - días
+    - gracias
+    lexemes:
+    - buenas-tardes
+  - id: u01-review-04
+    type: listening_choice
+    audioText: Hasta luego, Mateo.
+    question: מה שמעתם?
+    options:
+    - להתראות
+    - שלום
+    - תודה
+    correct: 0
+    lexemes:
+    - hasta-luego
+  - id: u01-review-05
+    type: multiple_choice
+    prompt: איך מתנצלים?
+    options:
+    - perdón
+    - de nada
+    - bien
+    correct: 0
+    lexemes:
+    - perdon
+  - id: u01-review-06
+    type: word_bank
+    prompt: תודה, ואתה?
+    answers:
+    - Gracias, ¿y tú?
+    distractors:
+    - usted
+    - bien
+    lexemes:
+    - gracias
+    - y-tu
+  - id: u01-review-07
+    type: translate
+    direction: to_target
+    prompt: קוראים לי יעל.
+    answers:
+    - Me llamo Yael.
+    lexemes:
+    - me-llamo
+  - id: u01-review-08
+    type: translate
+    direction: to_source
+    prompt: ¿Cómo estás? Bien, gracias.
+    answers:
+    - מה שלומך? טוב, תודה.
+    lexemes:
+    - como-estas
+    - bien
+  - id: u01-review-09
+    type: dictation
+    text: Buenos días, señor.
+    lexemes:
+    - buenos-dias
+    - senor
+  - id: u01-review-10
+    type: speak_repeat
+    text: ¡Hola! Me llamo Yael. ¿Cómo te llamas?
+    translation: שלום! קוראים לי יעל. איך קוראים לך?
+    lexemes:
+    - hola
+    - me-llamo
+    - como-te-llamas

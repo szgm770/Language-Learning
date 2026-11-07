@@ -91,7 +91,7 @@ test("the placement test skips units the learner already knows", async ({ page }
   await page.getByRole("button", { name: /רגיל/ }).click();
   await page.getByRole("button", { name: /כבר יודע/ }).click();
   await expect(page).toHaveURL(/\/placement\/en-for-he\/$/);
-  const current = async () => exercises.get((await page.locator("[data-exercise]").getAttribute("data-exercise"))!)!;
+  const current = async () => exercises.get((await page.locator("[data-exercise]").getAttribute("data-exercise"))!, page)!;
   // The A0 level probe (letters and sounds) is answered correctly, so placement moves on to A1.
   for (let q = 0; q < 4; q++) {
     const ex = await current();
@@ -225,4 +225,11 @@ test("Spanish can be started from zero", async ({ page }) => {
   await page.getByRole("button", { name: /רגיל/ }).click();
   await page.getByRole("button", { name: /מאפס/ }).click();
   await expect(page).toHaveURL(/\/lesson\/es-for-he\/u00a-l1\/$/);
+});
+
+test("Spanish A1 lessons can be solved from the content", async ({ page }) => {
+  for (const id of ["u01-l2", "u02-l1", "u02-l3"]) {
+    await page.goto(`lesson/es-for-he/${id}/`);
+    await finishLesson(page);
+  }
 });
