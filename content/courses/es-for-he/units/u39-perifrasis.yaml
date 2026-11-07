@@ -1,0 +1,950 @@
+id: u39-perifrasis
+cefr: B2
+scene: free-time
+title:
+  he: 'הרגלים ושינויים: פעלים מורכבים'
+  en: Verb phrases
+story: 'יעל מסכמת שנה: ''Acabo de terminar el curso'', ''sigo practicando'', ''dejé de usar el traductor'', ''volví a leer libros'', ''suelo caminar al mercado''. היא לומדת צירופי פועל קצרים שמתארים התחלה, המשך, סיום וחזרה.'
+canDo:
+- 'לבטא התחלה: empezar a, ponerse a'
+- 'לבטא המשך: seguir + gerundio, llevar + gerundio'
+- 'לבטא סיום וחזרה: dejar de, acabar de, volver a'
+- 'לבטא הרגל וקרבה: soler, estar a punto de'
+vocabulary:
+- id: empezar-a
+  text: empezar a
+  translation: להתחיל ל
+  pos: phrase
+- id: ponerse-a
+  text: ponerse a
+  translation: להתחיל פתאום ל
+  pos: phrase
+- id: seguir-gerundio
+  text: seguir + -ando/-iendo
+  translation: להמשיך ל
+  pos: phrase
+- id: llevar-gerundio
+  text: llevar + tiempo + -ando
+  translation: כבר… זמן
+  pos: phrase
+- id: dejar-de
+  text: dejar de
+  translation: להפסיק ל
+  pos: phrase
+- id: acabar-de
+  text: acabar de
+  translation: הרגע ש
+  pos: phrase
+- id: volver-a
+  text: volver a
+  translation: לעשות שוב
+  pos: phrase
+- id: soler
+  text: soler
+  translation: להיות רגיל ל
+  pos: verb
+- id: estar-a-punto
+  text: estar a punto de
+  translation: לקראת, על סף
+  pos: phrase
+- id: tardar-en
+  text: tardar en
+  translation: לקחת זמן ל
+  pos: phrase
+- id: terminar-de
+  text: terminar de
+  translation: לסיים ל
+  pos: phrase
+- id: hacerse-habito
+  text: acostumbrarse a
+  translation: להתרגל ל
+  pos: phrase
+- id: habito
+  text: el hábito
+  translation: הרגל
+  pos: noun
+- id: progreso
+  text: el progreso
+  translation: התקדמות
+  pos: noun
+- id: practicar-p
+  text: practicar
+  translation: לתרגל
+  pos: verb
+- id: constancia
+  text: la constancia
+  translation: התמדה
+  pos: noun
+- id: traductor
+  text: el traductor
+  translation: מתרגם
+  pos: noun
+grammar:
+- id: perifrasis
+  title:
+    he: צירופי פועל
+    en: Verb phrases
+  explanation: 'בעברית אנחנו אומרים "התחלתי ללמוד", "המשכתי לעבוד", "הפסקתי לעשן", "הרגע סיימתי". בספרדית זה פועל עזר + מילית + פועל:
+
+
+    **התחלה:** *empezar a* + מקור, *ponerse a* (פתאום): *Empecé **a** estudiar.* | *Se puso **a** llorar.*
+
+    **המשך:** *seguir* + gerundio: *Sigo **practicando**.* | *llevar + זמן + gerundio*: *Llevo un año **viviendo** aquí.* (אני גרה כאן שנה)
+
+    **סיום / הפסקה:** *dejar de* + מקור: *Dejé **de** usar el traductor.* | *terminar de*: *Terminé **de** escribir.*
+
+    **מקרוב:** *acabar de* + מקור (הרגע): *Acabo **de** llegar.* (הרגע הגעתי)
+
+    **שוב:** *volver a* + מקור: *Volví **a** leer.* (קראתי שוב)
+
+    **הרגל:** *soler* + מקור: *Suelo caminar al mercado.* (בדרך כלל אני הולכת)
+
+    **קרוב לקרות:** *estar a punto de*: *Estoy a punto **de** salir.* (עוד רגע אצא)
+
+    **שימו לב:** אחרי כל מילית יחס (a, de) בא **מקור**, לא gerundio. רק עם *seguir* ו*llevar* בא gerundio.
+
+
+    **הערה:** *tener que* (צריך), *deber* (צריך מוסרית), *hay que* (אל־אישי) הם צירופים נוספים שכבר הכרתם.'
+  examples:
+  - text: Acabo de terminar el curso y sigo practicando todos los días.
+    translation: הרגע סיימתי את הקורס ואני ממשיכה לתרגל כל יום.
+  - text: Dejé de usar el traductor y volví a leer libros en español.
+    translation: הפסקתי להשתמש במתרגם וחזרתי לקרוא ספרים בספרדית.
+  - text: Llevo un año viviendo aquí y suelo caminar al mercado.
+    translation: אני גרה כאן שנה ובדרך כלל הולכת ברגל לשוק.
+lessons:
+- id: u39-l1
+  kind: new
+  title:
+    he: התחלה והמשך
+    en: Starting and continuing
+  exercises:
+  - id: u39-l1-01
+    type: dialogue
+    scene: יעל ומתאו מסכמים שנה.
+    lines:
+    - speaker: mateo
+      text: Yael, ¿sigues practicando español?
+      translation: יעל, את ממשיכה לתרגל ספרדית?
+    - speaker: yael
+      text: Sí. Llevo un año viviendo aquí y todavía sigo aprendiendo. Empecé a leer periódicos.
+      translation: כן. אני גרה כאן שנה ועדיין ממשיכה ללמוד. התחלתי לקרוא עיתונים.
+    - speaker: mateo
+      text: Y dejaste de usar el traductor, ¿verdad?
+      translation: והפסקת להשתמש במתרגם, נכון?
+  - id: u39-l1-02
+    type: learn
+    lexeme: empezar-a
+  - id: u39-l1-03
+    type: learn
+    lexeme: ponerse-a
+  - id: u39-l1-04
+    type: learn
+    lexeme: seguir-gerundio
+  - id: u39-l1-05
+    type: learn
+    lexeme: llevar-gerundio
+  - id: u39-l1-06
+    type: learn
+    lexeme: dejar-de
+  - id: u39-l1-07
+    type: learn
+    lexeme: terminar-de
+  - id: u39-l1-08
+    type: learn
+    lexeme: habito
+  - id: u39-l1-09
+    type: learn
+    lexeme: progreso
+  - id: u39-l1-10
+    type: learn
+    lexeme: practicar-p
+  - id: u39-l1-11
+    type: learn
+    lexeme: constancia
+  - id: u39-l1-12
+    type: learn
+    lexeme: traductor
+  - id: u39-l1-13
+    type: match_pairs
+    pairs:
+    - - empezar a
+      - להתחיל ל
+    - - ponerse a
+      - להתחיל פתאום
+    - - seguir + gerundio
+      - להמשיך
+    - - dejar de
+      - להפסיק
+    - - terminar de
+      - לסיים ל
+    lexemes:
+    - empezar-a
+    - ponerse-a
+    - seguir-gerundio
+    - dejar-de
+    - terminar-de
+  - id: u39-l1-14
+    type: match_pairs
+    pairs:
+    - - el hábito
+      - הרגל
+    - - el progreso
+      - התקדמות
+    - - la meta
+      - מטרה
+    - - practicar
+      - לתרגל
+    - - la constancia
+      - התמדה
+    lexemes:
+    - habito
+    - progreso
+    - meta
+    - practicar-p
+    - constancia
+  - id: u39-l1-15
+    type: multiple_choice
+    prompt: מה פירוש 'Sigo trabajando'?
+    options:
+    - אני ממשיך לעבוד
+    - הפסקתי לעבוד
+    - התחלתי לעבוד
+    correct: 0
+    lexemes:
+    - seguir-gerundio
+    - trabajar
+  - id: u39-l1-16
+    type: multiple_choice
+    prompt: מה פירוש 'Dejé de fumar'?
+    options:
+    - הפסקתי לעשן
+    - התחלתי לעשן
+    - אני מעשן
+    correct: 0
+    lexemes:
+    - dejar-de
+  - id: u39-l1-17
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Empecé a estudiar.
+    - Empecé estudiando.
+    - Empecé de estudiar.
+    correct: 0
+    lexemes:
+    - empezar-a
+    - estudiar
+  - id: u39-l1-18
+    type: listening_choice
+    audioText: Llevo un año viviendo aquí.
+    question: מה אומרים?
+    options:
+    - אני גר כאן שנה
+    - התחלתי לגור כאן
+    - עברתי מכאן
+    correct: 0
+    lexemes:
+    - llevar-gerundio
+    - vivir
+  - id: u39-l1-19
+    type: listening_choice
+    audioText: Sigo practicando todos los días.
+    question: מה אומרים?
+    options:
+    - אני ממשיך לתרגל כל יום
+    - הפסקתי לתרגל
+    - אתרגל מחר
+    correct: 0
+    lexemes:
+    - seguir-gerundio
+    - practicar-p
+  - id: u39-l1-20
+    type: translate
+    direction: to_target
+    prompt: הפסקתי להשתמש במתרגם.
+    answers:
+    - Dejé de usar el traductor.
+    lexemes:
+    - dejar-de
+    - traductor
+  - id: u39-l1-21
+    type: translate
+    direction: to_target
+    prompt: התחלתי לקרוא.
+    answers:
+    - Empecé a leer.
+    lexemes:
+    - empezar-a
+    - leer
+  - id: u39-l1-22
+    type: translate
+    direction: to_source
+    prompt: Terminé de escribir el ensayo.
+    answers:
+    - סיימתי לכתוב את החיבור
+    lexemes:
+    - terminar-de
+    - escribir
+    - ensayo
+  - id: u39-l1-23
+    type: dictation
+    text: Sigo practicando todos los días.
+    lexemes:
+    - seguir-gerundio
+    - practicar-p
+  - id: u39-l1-24
+    type: speak_repeat
+    text: Llevo un año viviendo aquí.
+    translation: אני גרה כאן שנה.
+    lexemes:
+    - llevar-gerundio
+    - vivir
+- id: u39-l2
+  kind: new
+  title:
+    he: חזרה, הרגע, הרגל
+    en: Again, just now, habit
+  exercises:
+  - id: u39-l2-01
+    type: learn
+    lexeme: acabar-de
+  - id: u39-l2-02
+    type: learn
+    lexeme: volver-a
+  - id: u39-l2-03
+    type: learn
+    lexeme: soler
+  - id: u39-l2-04
+    type: learn
+    lexeme: estar-a-punto
+  - id: u39-l2-05
+    type: learn
+    lexeme: tardar-en
+  - id: u39-l2-06
+    type: learn
+    lexeme: hacerse-habito
+  - id: u39-l2-07
+    type: match_pairs
+    pairs:
+    - - acabar de
+      - הרגע ש
+    - - volver a
+      - לעשות שוב
+    - - soler
+      - להיות רגיל
+    - - estar a punto de
+      - על סף
+    - - tardar en
+      - לקחת זמן
+    lexemes:
+    - acabar-de
+    - volver-a
+    - soler
+    - estar-a-punto
+    - tardar-en
+  - id: u39-l2-08
+    type: match_pairs
+    pairs:
+    - - acostumbrarse a
+      - להתרגל
+    - - el hábito
+      - הרגל
+    - - la meta
+      - מטרה
+    - - la constancia
+      - התמדה
+    - - el progreso
+      - התקדמות
+    lexemes:
+    - hacerse-habito
+    - habito
+    - meta
+    - constancia
+    - progreso
+  - id: u39-l2-09
+    type: dialogue
+    scene: בבוקר, יעל ודון ריקרדו.
+    lines:
+    - speaker: ricardo
+      text: Yael, ¿ya desayunaste?
+      translation: יעל, כבר אכלת ארוחת בוקר?
+    - speaker: yael
+      text: Acabo de terminar. Suelo desayunar a las siete. Estoy a punto de salir.
+      translation: הרגע סיימתי. בדרך כלל אני אוכלת בשבע. עוד רגע אני יוצאת.
+    - speaker: ricardo
+      text: Si no tardas en volver, vuelve a pasar por aquí.
+      translation: אם לא תתעכבי לחזור, תעברי שוב כאן.
+  - id: u39-l2-10
+    type: multiple_choice
+    prompt: מה פירוש 'Acabo de llegar'?
+    options:
+    - הרגע הגעתי
+    - אני מגיע מחר
+    - הגעתי אתמול
+    correct: 0
+    lexemes:
+    - acabar-de
+    - llegar
+  - id: u39-l2-11
+    type: multiple_choice
+    prompt: מה פירוש 'Volví a leer'?
+    options:
+    - קראתי שוב
+    - לא קראתי
+    - קראתי פעם אחת
+    correct: 0
+    lexemes:
+    - volver-a
+    - leer
+  - id: u39-l2-12
+    type: multiple_choice
+    prompt: מה פירוש 'Suelo caminar'?
+    options:
+    - בדרך כלל אני הולך
+    - הלכתי אתמול
+    - אני הולך עכשיו
+    correct: 0
+    lexemes:
+    - soler
+    - caminar
+  - id: u39-l2-13
+    type: listening_choice
+    audioText: Estoy a punto de salir.
+    question: מה אומרים?
+    options:
+    - עוד רגע אני יוצא
+    - יצאתי אתמול
+    - לא אצא
+    correct: 0
+    lexemes:
+    - estar-a-punto
+    - salir
+  - id: u39-l2-14
+    type: listening_choice
+    audioText: No tardes en volver.
+    question: מה אומרים?
+    options:
+    - אל תתעכב לחזור
+    - חזור מחר
+    - אל תחזור
+    correct: 0
+    lexemes:
+    - tardar-en
+  - id: u39-l2-15
+    type: fill_blank
+    sentence: Acabo ___ llegar.
+    translation: הרגע הגעתי.
+    answers:
+    - de
+    options:
+    - de
+    - a
+    - en
+    lexemes:
+    - acabar-de
+    - llegar
+  - id: u39-l2-16
+    type: fill_blank
+    sentence: Volví ___ leer libros. (שוב)
+    translation: חזרתי לקרוא ספרים.
+    answers:
+    - a
+    options:
+    - a
+    - de
+    - en
+    lexemes:
+    - volver-a
+    - leer
+    - libro
+  - id: u39-l2-17
+    type: fill_blank
+    sentence: Dejé ___ fumar.
+    translation: הפסקתי לעשן.
+    answers:
+    - de
+    options:
+    - de
+    - a
+    - en
+    lexemes:
+    - dejar-de
+  - id: u39-l2-18
+    type: fill_blank
+    sentence: Llevo un año ___ aquí. (vivir)
+    translation: אני גרה כאן שנה.
+    answers:
+    - viviendo
+    options:
+    - viviendo
+    - vivir
+    - vivido
+    lexemes:
+    - llevar-gerundio
+    - vivir
+  - id: u39-l2-19
+    type: word_bank
+    prompt: בדרך כלל אני קמה בשש.
+    answers:
+    - Suelo levantarme a las seis.
+    - Me suelo levantar a las seis.
+    distractors:
+    - Soy levantarme a las seis
+    lexemes:
+    - soler
+    - levantarse
+    - a-las
+  - id: u39-l2-20
+    type: word_bank
+    prompt: הרגע סיימתי.
+    answers:
+    - Acabo de terminar.
+    distractors:
+    - Acabo terminar
+    lexemes:
+    - acabar-de
+    - terminar
+  - id: u39-l2-21
+    type: translate
+    direction: to_target
+    prompt: אני שוב לומדת ספרדית.
+    answers:
+    - Vuelvo a estudiar español.
+    lexemes:
+    - volver-a
+    - estudiar
+  - id: u39-l2-22
+    type: translate
+    direction: to_source
+    prompt: Estoy a punto de salir.
+    answers:
+    - עוד רגע אני יוצאת
+    - אני על סף יציאה
+    - אני עומדת לצאת
+    lexemes:
+    - estar-a-punto
+    - salir
+  - id: u39-l2-23
+    type: dictation
+    text: Suelo desayunar a las siete.
+    lexemes:
+    - soler
+    - desayunar
+- id: u39-l3
+  kind: grammar
+  title:
+    he: איזו מילית?
+    en: Which preposition?
+  grammar: perifrasis
+  exercises:
+  - id: u39-l3-01
+    type: fill_blank
+    sentence: Empecé ___ estudiar hace un año.
+    translation: התחלתי ללמוד לפני שנה.
+    answers:
+    - a
+    options:
+    - a
+    - de
+    - en
+    lexemes:
+    - empezar-a
+    - estudiar
+  - id: u39-l3-02
+    type: fill_blank
+    sentence: Dejé ___ usar el traductor.
+    translation: הפסקתי להשתמש במתרגם.
+    answers:
+    - de
+    options:
+    - de
+    - a
+    - en
+    lexemes:
+    - dejar-de
+    - traductor
+  - id: u39-l3-03
+    type: fill_blank
+    sentence: Acabo ___ salir de la oficina.
+    translation: הרגע יצאתי מהמשרד.
+    answers:
+    - de
+    options:
+    - de
+    - a
+    - por
+    lexemes:
+    - acabar-de
+    - salir
+    - oficina
+  - id: u39-l3-04
+    type: fill_blank
+    sentence: Vuelvo ___ intentar mañana.
+    translation: אנסה שוב מחר.
+    answers:
+    - a
+    options:
+    - a
+    - de
+    - en
+    lexemes:
+    - volver-a
+    - manana-adv
+  - id: u39-l3-05
+    type: fill_blank
+    sentence: Sigo ___ en el mismo trabajo. (trabajar)
+    translation: אני ממשיכה לעבוד באותו מקום.
+    answers:
+    - trabajando
+    options:
+    - trabajando
+    - trabajar
+    - trabajado
+    lexemes:
+    - seguir-gerundio
+    - trabajo
+  - id: u39-l3-06
+    type: fill_blank
+    sentence: Llevo dos años ___ español. (estudiar)
+    translation: אני לומדת ספרדית שנתיים.
+    answers:
+    - estudiando
+    options:
+    - estudiando
+    - estudiar
+    - estudiado
+    lexemes:
+    - llevar-gerundio
+    - estudiar
+  - id: u39-l3-07
+    type: fill_blank
+    sentence: Estoy a punto ___ terminar.
+    translation: אני על סף סיום.
+    answers:
+    - de
+    options:
+    - de
+    - a
+    - en
+    lexemes:
+    - estar-a-punto
+    - terminar
+  - id: u39-l3-08
+    type: multiple_choice
+    prompt: מה בא אחרי 'dejar de'?
+    options:
+    - מקור
+    - gerundio
+    - פרטיציפ
+    correct: 0
+    lexemes:
+    - dejar-de
+  - id: u39-l3-09
+    type: multiple_choice
+    prompt: מה בא אחרי 'seguir'?
+    options:
+    - gerundio
+    - מקור
+    - פרטיציפ
+    correct: 0
+    lexemes:
+    - seguir-gerundio
+  - id: u39-l3-10
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Acabo de comer.
+    - Acabo comiendo.
+    - Acabo a comer.
+    correct: 0
+    lexemes:
+    - acabar-de
+    - comer
+  - id: u39-l3-11
+    type: word_bank
+    prompt: אני ממשיך ללמוד.
+    answers:
+    - Sigo estudiando.
+    distractors:
+    - Sigo a estudiar
+    lexemes:
+    - seguir-gerundio
+    - estudiar
+  - id: u39-l3-12
+    type: word_bank
+    prompt: הפסקתי לעבוד.
+    answers:
+    - Dejé de trabajar.
+    distractors:
+    - Dejé a trabajar
+    lexemes:
+    - dejar-de
+    - trabajar
+  - id: u39-l3-13
+    type: translate
+    direction: to_target
+    prompt: התחלתי לדבר.
+    answers:
+    - Empecé a hablar.
+    lexemes:
+    - empezar-a
+    - hablar
+  - id: u39-l3-14
+    type: translate
+    direction: to_target
+    prompt: אני גרה כאן שנה.
+    answers:
+    - Llevo un año viviendo aquí.
+    lexemes:
+    - llevar-gerundio
+    - vivir
+  - id: u39-l3-15
+    type: translate
+    direction: to_source
+    prompt: Se puso a llorar.
+    answers:
+    - הוא פרץ בבכי
+    - היא פרצה בבכי
+    - הוא התחיל לבכות פתאום
+    lexemes:
+    - ponerse-a
+  - id: u39-l3-16
+    type: translate
+    direction: to_source
+    prompt: Suelo salir temprano.
+    answers:
+    - בדרך כלל אני יוצא מוקדם
+    - בדרך כלל אני יוצאת מוקדם
+    lexemes:
+    - soler
+    - salir
+- id: u39-l4
+  kind: reading
+  title:
+    he: סיכום שנה
+    en: A year in review
+  exercises:
+  - id: u39-l4-01
+    type: reading
+    kind: יומן
+    title: Un año después
+    text: 'Acabo de cumplir un año en México. Al principio dependía del traductor, pero dejé de usarlo y empecé a leer periódicos.
+
+      Ahora suelo hablar español con mis vecinos y sigo practicando todos los días. Estoy a punto de terminar mi curso. Si todo sale bien, voy a volver a escribir mi diario, pero ya en español.
+
+      '
+    translation: 'הרגע מלאה לי שנה במקסיקו. בהתחלה הייתי תלויה במתרגם, אבל הפסקתי להשתמש בו והתחלתי לקרוא עיתונים.
+
+      עכשיו בדרך כלל אני מדברת ספרדית עם השכנים וממשיכה לתרגל כל יום. אני על סף סיום הקורס. אם הכול ילך טוב, אחזור לכתוב את היומן שלי, אבל כבר בספרדית.
+
+      '
+  - id: u39-l4-02
+    type: multiple_choice
+    prompt: מה יעל הפסיקה לעשות?
+    options:
+    - להשתמש במתרגם
+    - לקרוא
+    - לדבר
+    correct: 0
+    lexemes:
+    - dejar-de
+    - traductor
+    - leer
+    - hablar
+  - id: u39-l4-03
+    type: multiple_choice
+    prompt: מה היא עומדת לסיים?
+    options:
+    - את הקורס
+    - את היומן
+    - את העבודה
+    correct: 0
+    lexemes:
+    - estar-a-punto
+    - terminar
+    - trabajo
+  - id: u39-l4-04
+    type: fill_blank
+    sentence: Acabo ___ cumplir un año.
+    translation: הרגע מלאה לי שנה.
+    answers:
+    - de
+    options:
+    - de
+    - a
+    - en
+    lexemes:
+    - acabar-de
+  - id: u39-l4-05
+    type: translate
+    direction: to_target
+    prompt: אני ממשיכה לתרגל.
+    answers:
+    - Sigo practicando.
+    lexemes:
+    - seguir-gerundio
+    - practicar-p
+- id: u39-review
+  kind: review
+  title:
+    he: 'חזרה: צירופי פועל + כתיבה'
+    en: Review + writing
+  exercises:
+  - id: u39-review-01
+    type: match_pairs
+    pairs:
+    - - empezar a
+      - להתחיל
+    - - dejar de
+      - להפסיק
+    - - acabar de
+      - הרגע
+    - - volver a
+      - שוב
+    - - soler
+      - בדרך כלל
+    lexemes:
+    - empezar-a
+    - dejar-de
+    - acabar-de
+    - volver-a
+    - soler
+  - id: u39-review-02
+    type: match_pairs
+    pairs:
+    - - seguir + gerundio
+      - להמשיך
+    - - llevar + gerundio
+      - כבר זמן
+    - - estar a punto de
+      - על סף
+    - - tardar en
+      - לקחת זמן
+    - - terminar de
+      - לסיים
+    lexemes:
+    - seguir-gerundio
+    - llevar-gerundio
+    - estar-a-punto
+    - tardar-en
+    - terminar-de
+  - id: u39-review-03
+    type: fill_blank
+    sentence: Dejé ___ fumar.
+    translation: הפסקתי לעשן.
+    answers:
+    - de
+    options:
+    - de
+    - a
+    - en
+    lexemes:
+    - dejar-de
+  - id: u39-review-04
+    type: fill_blank
+    sentence: Empecé ___ correr.
+    translation: התחלתי לרוץ.
+    answers:
+    - a
+    options:
+    - a
+    - de
+    - en
+    lexemes:
+    - empezar-a
+  - id: u39-review-05
+    type: multiple_choice
+    prompt: מה פירוש 'Acabo de comer'?
+    options:
+    - הרגע אכלתי
+    - אוכל מחר
+    - אכלתי אתמול
+    correct: 0
+    lexemes:
+    - acabar-de
+    - comer
+  - id: u39-review-06
+    type: listening_choice
+    audioText: Suelo levantarme a las seis.
+    question: מה אומרים?
+    options:
+    - בדרך כלל אני קמה בשש
+    - קמתי בשש
+    - אקום בשש
+    correct: 0
+    lexemes:
+    - soler
+    - levantarse
+  - id: u39-review-07
+    type: word_bank
+    prompt: אני ממשיכה לעבוד.
+    answers:
+    - Sigo trabajando.
+    distractors:
+    - Sigo trabajar
+    lexemes:
+    - seguir-gerundio
+    - trabajar
+  - id: u39-review-08
+    type: translate
+    direction: to_target
+    prompt: חזרתי לקרוא.
+    answers:
+    - Volví a leer.
+    lexemes:
+    - volver-a
+    - leer
+  - id: u39-review-09
+    type: translate
+    direction: to_source
+    prompt: Llevo dos meses estudiando.
+    answers:
+    - אני לומדת כבר חודשיים
+    - אני לומד כבר חודשיים
+    lexemes:
+    - llevar-gerundio
+    - estudiar
+  - id: u39-review-10
+    type: dictation
+    text: Acabo de terminar el curso.
+    lexemes:
+    - acabar-de
+    - terminar
+  - id: u39-review-11
+    type: speak_repeat
+    text: Estoy a punto de salir.
+    translation: עוד רגע אני יוצאת.
+    lexemes:
+    - estar-a-punto
+    - salir
+  - id: u39-review-12
+    type: write
+    prompt: 'כתבו יומן קצר על שינוי בחייכם בשנה האחרונה: מה הפסקתם (dejé de), מה התחלתם (empecé a), מה אתם ממשיכים (sigo + gerundio / llevo… + gerundio), מה קרה הרגע (acabo de), מה אתם עושים בדרך כלל (suelo), ומה אתם על סף (estoy a punto de).'
+    minWords: 50
+    checks:
+    - label: empecé a / empiezo a / me puse a
+      any:
+      - empece a
+      - empiezo a
+      - me puse a
+      - comence a
+    - label: dejé de / dejo de
+      any:
+      - deje de
+      - dejo de
+    - label: sigo / llevo + gerundio
+      any:
+      - sigo \w+(ando|iendo)
+      - llevo \w+ \w+ \w+(ando|iendo)
+      - llevo \w+(ando|iendo)
+      - sigue \w+(ando|iendo)
+    - label: acabo de / volví a / suelo / estoy a punto de
+      any:
+      - acabo de
+      - volvi a
+      - vuelvo a
+      - suelo
+      - estoy a punto de
+    model: Hace un año empecé a vivir en México. Dejé de usar el traductor y empecé a leer periódicos. Sigo practicando todos los días y llevo seis meses estudiando con un curso. Suelo hablar español con mis vecinos. Acabo de terminar un ensayo y estoy a punto de empezar otro. Volví a escribir mi diario.
+    lexemes: []

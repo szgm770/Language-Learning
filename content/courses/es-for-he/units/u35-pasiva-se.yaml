@@ -1,0 +1,932 @@
+id: u35-pasiva-se
+cefr: B2
+scene: town
+title:
+  he: 'נבנה, נמכר, נשכח: סביל ו־se'
+  en: Passive and se
+story: 'יעל מטיילת עם סופיה במרכז ההיסטורי ומתבוננת בשלטים: ''Se vende'', ''Se habla inglés'', ''Fue construido en 1700''. היא לומדת שבספרדית אומרים ''נמכר'' בשתי דרכים, ושדברים ''נשכחים'' ממנו בלי אשמה: ''Se me olvidó''.'
+canDo:
+- 'להשתמש בסביל עם ser + participio: fue construido'
+- 'להשתמש ב־se סביל ואל־אישי: se vende, se habla'
+- להשתמש ב־se me olvidó (אירוע בלתי מכוון)
+- לקרוא שלטים ומודעות
+vocabulary:
+- id: construir
+  text: construir
+  translation: לבנות
+  pos: verb
+- id: fundar
+  text: fundar
+  translation: להקים
+  pos: verb
+- id: vender-p
+  text: vender
+  translation: למכור
+  pos: verb
+- id: alquilar
+  text: alquilar
+  translation: להשכיר, לשכור
+  pos: verb
+- id: cerrado-p
+  text: cerrado
+  translation: סגור
+  pos: adjective
+- id: iglesia-p
+  text: el edificio
+  translation: בניין
+  pos: noun
+- id: siglo
+  text: el siglo
+  translation: מאה
+  pos: noun
+- id: anuncio
+  text: el anuncio
+  translation: מודעה, שלט
+  pos: noun
+- id: aviso
+  text: el aviso
+  translation: הודעה
+  pos: noun
+- id: pasiva-ser
+  text: fue construido
+  translation: נבנה
+  pos: phrase
+- id: se-pasivo
+  text: se vende, se habla
+  translation: נמכר, מדברים
+  pos: phrase
+- id: se-me
+  text: se me olvidó
+  translation: שכחתי (בלי כוונה)
+  pos: phrase
+- id: por-agente
+  text: fue escrito por…
+  translation: נכתב על ידי
+  pos: phrase
+- id: se-prohibe
+  text: se prohíbe
+  translation: אסור
+  pos: phrase
+- id: se-requiere
+  text: se requiere
+  translation: נדרש
+  pos: phrase
+- id: se-ofrece
+  text: se ofrece
+  translation: מוצע
+  pos: phrase
+- id: antiguo
+  text: antiguo
+  translation: עתיק
+  pos: adjective
+grammar:
+- id: pasiva-se
+  title:
+    he: סביל ו־se
+    en: Passive voice and se
+  explanation: 'בעברית יש בניין סביל (פּוּעַל, נִפְעַל): "נבנה", "נמכר". בספרדית שתי דרכים:
+
+
+    **1. סביל עם ser + פרטיציפ** (בכתיבה, חדשות, היסטוריה) – הפרטיציפ מתאים בגזרה ובמספר:
+
+    * *El museo **fue construido** en 1800.* | *Las casas **fueron vendidas**.* | *La carta **fue escrita por** Yael.* (על ידי)
+
+
+    **2. se סביל / se אל־אישי** (בדיבור, שלטים) – ‏**se + פועל**:
+
+    * *Se vende casa.* (בית למכירה) | *Se venden casas.* | *Se habla español aquí.* | *No se permite fumar.*
+
+    * עם שם עצם רבים: הפועל ברבים (*se venden*). עם אדם כמושא: *Se busca a una persona.*
+
+
+    **3. se me… (אירוע לא מכוון)** – בעברית "נשכח לי", "נפל לי":
+
+    * *Se me olvidó la llave.* (שכחתי את המפתח) | *Se me cayó el vaso.* (נפל לי הכוס) | *Se nos acabó el tiempo.*
+
+    * אפשר לראות את זה כמו "המפתח נשכח ממני": הנושא הוא הדבר, לא אני.
+
+
+    **שלטים נפוצים:** *Se prohíbe… | Se requiere… | Se ofrece… | Se alquila | Se vende | Se habla inglés | Cerrado*
+
+
+    **הערה:** כשיש מבצע ("על ידי") משתמשים בסביל עם ser; כשאין, מעדיפים se.'
+  examples:
+  - text: El museo fue fundado en el siglo XIX.
+    translation: המוזיאון הוקם במאה ה־19.
+  - text: Se alquilan cuartos y se habla inglés.
+    translation: מושכרים חדרים ומדברים אנגלית.
+  - text: Se me olvidó el pasaporte en casa.
+    translation: שכחתי את הדרכון בבית.
+lessons:
+- id: u35-l1
+  kind: new
+  title:
+    he: בעיר העתיקה
+    en: In the old city
+  exercises:
+  - id: u35-l1-01
+    type: dialogue
+    scene: יעל וסופיה במרכז העיר.
+    lines:
+    - speaker: yael
+      text: Sofía, ¿cuándo fue construido este edificio?
+      translation: סופיה, מתי נבנה הבניין הזה?
+    - speaker: sofia
+      text: Fue construido en el siglo XVIII. Ahora es un museo.
+      translation: הוא נבנה במאה ה־18. עכשיו זה מוזיאון.
+    - speaker: yael
+      text: 'Mira ese letrero: «Se alquilan cuartos». Y aquí: «Se habla inglés».'
+      translation: 'תראי את השלט הזה: «מושכרים חדרים». ופה: «מדברים אנגלית».'
+  - id: u35-l1-02
+    type: learn
+    lexeme: construir
+  - id: u35-l1-03
+    type: learn
+    lexeme: fundar
+  - id: u35-l1-04
+    type: learn
+    lexeme: vender-p
+  - id: u35-l1-05
+    type: learn
+    lexeme: alquilar
+  - id: u35-l1-06
+    type: learn
+    lexeme: iglesia-p
+  - id: u35-l1-07
+    type: learn
+    lexeme: siglo
+  - id: u35-l1-08
+    type: learn
+    lexeme: anuncio
+  - id: u35-l1-09
+    type: learn
+    lexeme: aviso
+  - id: u35-l1-10
+    type: learn
+    lexeme: antiguo
+  - id: u35-l1-11
+    type: learn
+    lexeme: cerrado-p
+  - id: u35-l1-12
+    type: learn
+    lexeme: pasiva-ser
+  - id: u35-l1-13
+    type: learn
+    lexeme: se-pasivo
+  - id: u35-l1-14
+    type: match_pairs
+    pairs:
+    - - construir
+      - לבנות
+    - - fundar
+      - להקים
+    - - vender
+      - למכור
+    - - alquilar
+      - להשכיר
+    - - el museo
+      - מוזיאון
+    lexemes:
+    - construir
+    - fundar
+    - vender-p
+    - alquilar
+    - museo
+  - id: u35-l1-15
+    type: match_pairs
+    pairs:
+    - - el edificio
+      - בניין
+    - - el siglo
+      - מאה
+    - - el anuncio
+      - שלט
+    - - el aviso
+      - הודעה
+    - - antiguo
+      - עתיק
+    lexemes:
+    - iglesia-p
+    - siglo
+    - anuncio
+    - aviso
+    - antiguo
+  - id: u35-l1-16
+    type: multiple_choice
+    prompt: מה פירוש 'Se vende casa'?
+    options:
+    - בית למכירה
+    - הבית נמכר אתמול
+    - אני מוכר בית
+    correct: 0
+    lexemes:
+    - se-pasivo
+    - vender-p
+  - id: u35-l1-17
+    type: multiple_choice
+    prompt: מה פירוש 'fue construido'?
+    options:
+    - נבנה
+    - בונה
+    - יבנה
+    correct: 0
+    lexemes:
+    - pasiva-ser
+    - construir
+  - id: u35-l1-18
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Se venden casas.
+    - Se vende casas.
+    - Se vendo casas.
+    correct: 0
+    lexemes:
+    - se-pasivo
+    - vender-p
+  - id: u35-l1-19
+    type: listening_choice
+    audioText: El museo fue fundado en 1900.
+    question: מה אומרים?
+    options:
+    - המוזיאון הוקם ב־1900
+    - המוזיאון נסגר
+    - המוזיאון נמכר
+    correct: 0
+    lexemes:
+    - museo
+    - fundar
+    - cerrado-p
+    - vender-p
+  - id: u35-l1-20
+    type: listening_choice
+    audioText: Se alquilan cuartos.
+    question: מה אומרים?
+    options:
+    - מושכרים חדרים
+    - מוכרים חדרים
+    - חדרים נסגרו
+    correct: 0
+    lexemes:
+    - alquilar
+    - vender-p
+    - cerrado-p
+  - id: u35-l1-21
+    type: translate
+    direction: to_target
+    prompt: נבנה במאה ה־18.
+    answers:
+    - Fue construido en el siglo XVIII.
+    lexemes:
+    - pasiva-ser
+    - construir
+    - siglo
+  - id: u35-l1-22
+    type: translate
+    direction: to_target
+    prompt: מדברים כאן אנגלית.
+    answers:
+    - Aquí se habla inglés.
+    lexemes:
+    - se-pasivo
+    - hablar
+  - id: u35-l1-23
+    type: translate
+    direction: to_source
+    prompt: Se vende este edificio antiguo.
+    answers:
+    - הבניין העתיק הזה למכירה
+    lexemes:
+    - se-pasivo
+    - vender-p
+    - iglesia-p
+    - antiguo
+  - id: u35-l1-24
+    type: dictation
+    text: Se alquilan cuartos.
+    lexemes:
+    - alquilar
+  - id: u35-l1-25
+    type: speak_repeat
+    text: Fue construido en el siglo XVIII.
+    translation: הוא נבנה במאה ה־18.
+    lexemes:
+    - pasiva-ser
+    - construir
+    - siglo
+- id: u35-l2
+  kind: new
+  title:
+    he: שלטים ואיסורים
+    en: Signs and rules
+  exercises:
+  - id: u35-l2-01
+    type: learn
+    lexeme: se-me
+  - id: u35-l2-02
+    type: learn
+    lexeme: por-agente
+  - id: u35-l2-03
+    type: learn
+    lexeme: se-prohibe
+  - id: u35-l2-04
+    type: learn
+    lexeme: se-requiere
+  - id: u35-l2-05
+    type: learn
+    lexeme: se-ofrece
+  - id: u35-l2-06
+    type: match_pairs
+    pairs:
+    - - se prohíbe
+      - אסור
+    - - se requiere
+      - נדרש
+    - - se ofrece
+      - מוצע
+    - - cerrado
+      - סגור
+    - - se me olvidó
+      - שכחתי
+    lexemes:
+    - se-prohibe
+    - se-requiere
+    - se-ofrece
+    - cerrado-p
+    - se-me
+  - id: u35-l2-07
+    type: dialogue
+    scene: בכניסה למוזיאון.
+    lines:
+    - speaker: yael
+      text: Se me olvidó el boleto. ¿Se puede pagar aquí?
+      translation: שכחתי את הכרטיס. אפשר לשלם כאן?
+    - speaker: sofia
+      text: Sí, pero se prohíbe tomar fotos adentro. Y se requiere un documento.
+      translation: כן, אבל אסור לצלם בפנים. ונדרש מסמך.
+    - speaker: yael
+      text: Aquí está. Qué bueno que no estaba cerrado.
+      translation: הנה. טוב שזה לא היה סגור.
+  - id: u35-l2-08
+    type: multiple_choice
+    prompt: מה פירוש 'Se me olvidó'?
+    options:
+    - שכחתי (בלי כוונה)
+    - שכחו אותי
+    - אני שוכח
+    correct: 0
+    lexemes:
+    - se-me
+  - id: u35-l2-09
+    type: multiple_choice
+    prompt: מה פירוש 'Se prohíbe fumar'?
+    options:
+    - אסור לעשן
+    - מותר לעשן
+    - מעשנים
+    correct: 0
+    lexemes:
+    - se-prohibe
+  - id: u35-l2-10
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Se me cayó el vaso.
+    - Me cayó se el vaso.
+    - Se cayó me el vaso.
+    correct: 0
+    lexemes:
+    - se-me
+  - id: u35-l2-11
+    type: listening_choice
+    audioText: Se requiere un documento.
+    question: מה אומרים?
+    options:
+    - נדרש מסמך
+    - אסור מסמך
+    - מוצע מסמך
+    correct: 0
+    lexemes:
+    - se-requiere
+    - documento
+    - se-prohibe
+    - se-ofrece
+  - id: u35-l2-12
+    type: listening_choice
+    audioText: Se me acabó el tiempo.
+    question: מה אומרים?
+    options:
+    - נגמר לי הזמן
+    - הזמן נמכר
+    - הזמן נשכח
+    correct: 0
+    lexemes:
+    - se-me
+    - tiempo
+  - id: u35-l2-13
+    type: fill_blank
+    sentence: Aquí ___ español. (hablar)
+    translation: מדברים כאן ספרדית.
+    answers:
+    - se habla
+    options:
+    - se habla
+    - hablan
+    - hablo
+    lexemes:
+    - se-pasivo
+    - hablar
+  - id: u35-l2-14
+    type: fill_blank
+    sentence: Se ___ cuartos. (alquilar – רבים)
+    translation: מושכרים חדרים.
+    answers:
+    - alquilan
+    options:
+    - alquilan
+    - alquila
+    - alquilo
+    lexemes:
+    - alquilar
+  - id: u35-l2-15
+    type: fill_blank
+    sentence: Se ___ olvidó la llave. (a mí)
+    translation: שכחתי את המפתח.
+    answers:
+    - me
+    options:
+    - me
+    - te
+    - le
+    lexemes:
+    - se-me
+  - id: u35-l2-16
+    type: fill_blank
+    sentence: La carta fue ___ por Yael. (escribir)
+    translation: המכתב נכתב על ידי יעל.
+    answers:
+    - escrita
+    options:
+    - escrita
+    - escrito
+    - escribió
+    lexemes:
+    - por-agente
+    - carta
+    - escribir
+  - id: u35-l2-17
+    type: word_bank
+    prompt: אסור לצלם.
+    answers:
+    - Se prohíbe tomar fotos.
+    distractors:
+    - Se prohíbo tomar fotos
+    lexemes:
+    - se-prohibe
+    - tomar
+  - id: u35-l2-18
+    type: word_bank
+    prompt: שכחתי את הכרטיס.
+    answers:
+    - Se me olvidó el boleto.
+    distractors:
+    - Me olvidó el boleto se
+    lexemes:
+    - se-me
+    - boleto
+  - id: u35-l2-19
+    type: translate
+    direction: to_target
+    prompt: מושכרים חדרים.
+    answers:
+    - Se alquilan cuartos.
+    lexemes:
+    - alquilar
+  - id: u35-l2-20
+    type: translate
+    direction: to_source
+    prompt: Se requiere un documento.
+    answers:
+    - נדרש מסמך
+    lexemes:
+    - se-requiere
+    - documento
+  - id: u35-l2-21
+    type: dictation
+    text: Se prohíbe tomar fotos.
+    lexemes:
+    - se-prohibe
+    - tomar
+- id: u35-l3
+  kind: grammar
+  title:
+    he: סביל ו־se
+    en: Passive and se
+  grammar: pasiva-se
+  exercises:
+  - id: u35-l3-01
+    type: fill_blank
+    sentence: El libro fue ___ en 1900. (escribir)
+    translation: הספר נכתב ב־1900.
+    answers:
+    - escrito
+    options:
+    - escrito
+    - escribido
+    - escribió
+    lexemes:
+    - escribir
+    - libro
+  - id: u35-l3-02
+    type: fill_blank
+    sentence: Las casas fueron ___ ayer. (vender)
+    translation: הבתים נמכרו אתמול.
+    answers:
+    - vendidas
+    options:
+    - vendidas
+    - vendido
+    - vendió
+    lexemes:
+    - vender-p
+    - ayer
+  - id: u35-l3-03
+    type: fill_blank
+    sentence: Se ___ cuartos. (alquilar)
+    translation: מושכרים חדרים.
+    answers:
+    - alquilan
+    options:
+    - alquilan
+    - alquila
+    - alquilo
+    lexemes:
+    - alquilar
+  - id: u35-l3-04
+    type: fill_blank
+    sentence: Se ___ casa. (vender – יחיד)
+    translation: בית למכירה.
+    answers:
+    - vende
+    options:
+    - vende
+    - venden
+    - vendo
+    lexemes:
+    - vender-p
+  - id: u35-l3-05
+    type: fill_blank
+    sentence: Se ___ cayó el vaso. (a mí)
+    translation: הכוס נפלה לי.
+    answers:
+    - me
+    options:
+    - me
+    - le
+    - te
+    lexemes:
+    - se-me
+  - id: u35-l3-06
+    type: fill_blank
+    sentence: Se nos ___ el tiempo. (acabar)
+    translation: נגמר לנו הזמן.
+    answers:
+    - acabó
+    options:
+    - acabó
+    - acabamos
+    - acabaron
+    lexemes:
+    - se-me
+    - tiempo
+  - id: u35-l3-07
+    type: multiple_choice
+    prompt: מתי עדיף ser + פרטיציפ?
+    options:
+    - כשצריך לציין מבצע
+    - בדיבור יומיומי
+    - בשלטים
+    correct: 0
+    lexemes:
+    - pasiva-ser
+  - id: u35-l3-08
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Se venden casas.
+    - Se vende casas.
+    - Se venden casa.
+    correct: 0
+    lexemes:
+    - se-pasivo
+    - vender-p
+  - id: u35-l3-09
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - La casa fue construida en 1900.
+    - La casa fue construido en 1900.
+    - La casa fue construir en 1900.
+    correct: 0
+    lexemes:
+    - pasiva-ser
+    - construir
+  - id: u35-l3-10
+    type: word_bank
+    prompt: נבנה בשנת 1900.
+    answers:
+    - Fue construido en 1900.
+    distractors:
+    - Fue construir en 1900
+    lexemes:
+    - pasiva-ser
+    - construir
+  - id: u35-l3-11
+    type: word_bank
+    prompt: מדברים כאן עברית.
+    answers:
+    - Aquí se habla hebreo.
+    distractors:
+    - Aquí habla hebreo se
+    lexemes:
+    - se-pasivo
+    - hablar
+  - id: u35-l3-12
+    type: translate
+    direction: to_target
+    prompt: הבניין נבנה על ידי עובדים.
+    answers:
+    - El edificio fue construido por trabajadores.
+    lexemes:
+    - iglesia-p
+    - construir
+    - por-agente
+    - trabajar
+  - id: u35-l3-13
+    type: translate
+    direction: to_target
+    prompt: נגמר לי הכסף.
+    answers:
+    - Se me acabó el dinero.
+    lexemes:
+    - se-me
+    - dinero
+  - id: u35-l3-14
+    type: translate
+    direction: to_source
+    prompt: Se me cayó el celular.
+    answers:
+    - הנייד נפל לי
+    lexemes:
+    - se-me
+    - celular
+  - id: u35-l3-15
+    type: translate
+    direction: to_source
+    prompt: No se permite entrar.
+    answers:
+    - אסור להיכנס
+    - לא מותר להיכנס
+    lexemes:
+    - permitir
+- id: u35-l4
+  kind: reading
+  title:
+    he: שלטים בעיר
+    en: City signs
+  exercises:
+  - id: u35-l4-01
+    type: reading
+    kind: שלטים
+    title: En la calle
+    text: '«Se alquilan cuartos. Se requiere un depósito.»
+
+      «Se prohíbe estacionar. Fue cerrado por obras.»
+
+      «El museo fue fundado en 1876. Se ofrece visita guiada en español e inglés.»
+
+      «Se vende casa antigua. Se acepta pago en efectivo.»
+
+      '
+    translation: '«מושכרים חדרים. נדרשת פיקדון.»
+
+      «אסור לחנות. נסגר בגלל עבודות.»
+
+      «המוזיאון הוקם ב־1876. מוצע סיור מודרך בספרדית ובאנגלית.»
+
+      «למכירה בית עתיק. מקבלים תשלום במזומן.»
+
+      '
+  - id: u35-l4-02
+    type: multiple_choice
+    prompt: מתי הוקם המוזיאון?
+    options:
+    - ב־1876
+    - ב־1976
+    - במאה ה־18
+    correct: 0
+    lexemes:
+    - museo
+    - fundar
+    - siglo
+  - id: u35-l4-03
+    type: multiple_choice
+    prompt: באילו שפות יש סיור?
+    options:
+    - ספרדית ואנגלית
+    - רק ספרדית
+    - עברית
+    correct: 0
+    lexemes:
+    - museo
+    - hablar
+  - id: u35-l4-04
+    type: fill_blank
+    sentence: Se ___ estacionar. (אסור)
+    translation: אסור לחנות.
+    answers:
+    - prohíbe
+    options:
+    - prohíbe
+    - prohíben
+    - prohíbo
+    lexemes:
+    - se-prohibe
+  - id: u35-l4-05
+    type: translate
+    direction: to_target
+    prompt: נדרש פיקדון.
+    answers:
+    - Se requiere un depósito.
+    lexemes:
+    - se-requiere
+- id: u35-review
+  kind: review
+  title:
+    he: 'חזרה: סביל ו־se + כתיבה'
+    en: Review + writing
+  exercises:
+  - id: u35-review-01
+    type: match_pairs
+    pairs:
+    - - construir
+      - לבנות
+    - - fundar
+      - להקים
+    - - alquilar
+      - להשכיר
+    - - el museo
+      - מוזיאון
+    - - el siglo
+      - מאה
+    lexemes:
+    - construir
+    - fundar
+    - alquilar
+    - museo
+    - siglo
+  - id: u35-review-02
+    type: match_pairs
+    pairs:
+    - - se prohíbe
+      - אסור
+    - - se requiere
+      - נדרש
+    - - se ofrece
+      - מוצע
+    - - el anuncio
+      - שלט
+    - - antiguo
+      - עתיק
+    lexemes:
+    - se-prohibe
+    - se-requiere
+    - se-ofrece
+    - anuncio
+    - antiguo
+  - id: u35-review-03
+    type: fill_blank
+    sentence: Se ___ casas. (vender – רבים)
+    translation: נמכרים בתים.
+    answers:
+    - venden
+    options:
+    - venden
+    - vende
+    - vendo
+    lexemes:
+    - se-pasivo
+    - vender-p
+  - id: u35-review-04
+    type: fill_blank
+    sentence: El museo fue ___ en 1900. (fundar)
+    translation: המוזיאון הוקם ב־1900.
+    answers:
+    - fundado
+    options:
+    - fundado
+    - fundido
+    - fundó
+    lexemes:
+    - museo
+    - fundar
+  - id: u35-review-05
+    type: multiple_choice
+    prompt: מה פירוש 'Se me olvidó'?
+    options:
+    - שכחתי בלי כוונה
+    - שכחו אותי
+    - אני לא שוכח
+    correct: 0
+    lexemes:
+    - se-me
+  - id: u35-review-06
+    type: listening_choice
+    audioText: Se habla inglés aquí.
+    question: מה אומרים?
+    options:
+    - מדברים כאן אנגלית
+    - מלמדים אנגלית
+    - מוכרים אנגלית
+    correct: 0
+    lexemes:
+    - se-pasivo
+    - hablar
+  - id: u35-review-07
+    type: word_bank
+    prompt: אסור לעשן.
+    answers:
+    - Se prohíbe fumar.
+    distractors:
+    - Se prohíbo fumar
+    lexemes:
+    - se-prohibe
+  - id: u35-review-08
+    type: translate
+    direction: to_target
+    prompt: שכחתי את הדרכון.
+    answers:
+    - Se me olvidó el pasaporte.
+    lexemes:
+    - se-me
+    - pasaporte
+  - id: u35-review-09
+    type: translate
+    direction: to_source
+    prompt: El edificio fue construido en 1700.
+    answers:
+    - הבניין נבנה ב־1700
+    lexemes:
+    - iglesia-p
+    - construir
+  - id: u35-review-10
+    type: dictation
+    text: Se alquilan cuartos.
+    lexemes:
+    - alquilar
+  - id: u35-review-11
+    type: speak_repeat
+    text: Se me cayó el vaso.
+    translation: הכוס נפלה לי.
+    lexemes:
+    - se-me
+  - id: u35-review-12
+    type: write
+    prompt: 'כתבו 3–4 שלטים או מודעות מדומיינים לעסק, בניין או אירוע, והסבירו מה קרה ליד: מה נמכר, נדרש, אסור או מוצע (se vende / se requiere / se prohíbe / se ofrece), ומתי נבנה או הוקם משהו (fue construido / fue fundado). הוסיפו משפט אחד עם se me.'
+    minWords: 40
+    checks:
+    - label: se + פועל (se vende, se alquila, se habla, se requiere, se prohíbe, se ofrece)
+      any:
+      - se vende
+      - se venden
+      - se alquila
+      - se alquilan
+      - se habla
+      - se requiere
+      - se prohibe
+      - se ofrece
+      - se acepta
+    - label: סביל עם ser (fue construido / fue fundado)
+      any:
+      - fue construid
+      - fue fundad
+      - fue escrit
+      - fue cerrad
+      - fueron construid
+      - fueron fundad
+    - label: se me / se nos (אירוע בלתי מכוון)
+      any:
+      - se me
+      - se nos
+    - label: הזכרתם בניין, חנות, מוזיאון או שנה
+      any:
+      - museo
+      - edificio
+      - casa
+      - tienda
+      - siglo
+      - ano
+      - 'mil '
+      - cuarto
+    model: Se alquilan cuartos en el centro. Se requiere un depósito. Se prohíbe fumar. El edificio fue construido en el siglo XIX y fue cerrado por obras. Se habla inglés y español. Se me olvidó pedir el precio, pero se ofrece una visita gratis.
+    lexemes: []

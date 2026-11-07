@@ -1,0 +1,924 @@
+id: u36-estilo-indirecto
+cefr: B2
+scene: work
+title:
+  he: 'הוא אמר ש…: דיבור עקיף'
+  en: Reported speech
+story: 'אחרי פגישה עם לקוח חשוב, יעל צריכה לדווח לצוות מה כל אחד אמר: ''Dijo que vendría'', ''Preguntó si ya habíamos terminado'', ''Pidió que le mandáramos el informe''. היא לומדת להעביר דברים בלי לשנות את המשמעות.'
+canDo:
+- 'לדווח על אמירה: dijo que + זמן מוסט'
+- 'לדווח על שאלה: preguntó si / qué / cuándo'
+- 'לדווח על בקשה או הוראה: pidió que + סובג''ונקטיב בעבר'
+- לשנות זמנים ומילות זמן/מקום
+vocabulary:
+- id: afirmar
+  text: afirmar
+  translation: לטעון, לאשר
+  pos: verb
+- id: responder
+  text: responder
+  translation: להשיב
+  pos: verb
+- id: confirmar
+  text: confirmar
+  translation: לאשר
+  pos: verb
+- id: dijo-que
+  text: dijo que
+  translation: הוא אמר ש
+  pos: phrase
+- id: pidio-que
+  text: pidió que
+  translation: הוא ביקש ש
+  pos: phrase
+- id: anoche-p
+  text: aquel día
+  translation: באותו יום
+  pos: phrase
+- id: al-dia-siguiente
+  text: al día siguiente
+  translation: למחרת
+  pos: phrase
+- id: la-semana-anterior
+  text: la semana anterior
+  translation: בשבוע שלפני
+  pos: phrase
+- id: propuesta
+  text: la propuesta
+  translation: הצעה
+  pos: noun
+- id: reaccion
+  text: la reacción
+  translation: תגובה
+  pos: noun
+- id: conversacion
+  text: la conversación
+  translation: שיחה
+  pos: noun
+grammar:
+- id: estilo-indirecto
+  title:
+    he: דיבור עקיף
+    en: Reported speech
+  explanation: 'בעברית: "הוא אמר: *אני אבוא*" → "הוא אמר שיבוא". בספרדית הזמן מוסט **צעד אחורה** כשהפועל המדווח בעבר:
+
+
+    | ציטוט ישיר | דיבור עקיף |
+
+    |---|---|
+
+    | "Estoy cansado." | Dijo que **estaba** cansado. (הווה → אימפרפקט) |
+
+    | "Voy a venir." | Dijo que **iba a venir**. |
+
+    | "Vendré mañana." | Dijo que **vendría** al día siguiente. (עתיד → תנאי) |
+
+    | "Terminé el informe." | Dijo que **había terminado** el informe. (פרטריט → pluscuamperfecto) |
+
+    | "He hablado con él." | Dijo que **había hablado** con él. |
+
+    | "Si puedo, voy." | Dijo que **si podía, iría**. |
+
+
+    **שאלות:** *"¿Ya terminaste?"* → *Preguntó **si** ya había terminado.* | *"¿Cuándo vienes?"* → *Preguntó **cuándo** venía.*
+
+    **בקשות והוראות:** *"Envíame el informe."* → *Pidió **que le enviara** el informe.* (סובג''ונקטיב בעבר) | *Me dijo que **lo hiciera**.*
+
+
+    **שינויי מילים:** *aquí → allí* | *hoy → ese día* | *mañana → al día siguiente* | *ayer → el día anterior* | *ahora → entonces* | *este → ese*
+
+
+    **הערה:** אם הפועל המדווח בהווה (*Dice que viene*), הזמן לא משתנה. ואם הדבר נכון גם עכשיו, מותר להשאיר הווה: *Dijo que la reunión es a las tres.*'
+  examples:
+  - text: El cliente dijo que le gustaba la propuesta y que la firmaría al día siguiente.
+    translation: הלקוח אמר שהוא אוהב את ההצעה ושיחתום עליה למחרת.
+  - text: Preguntó si ya habíamos terminado el informe.
+    translation: הוא שאל אם כבר סיימנו את הדוח.
+  - text: Me pidió que le mandara los documentos.
+    translation: הוא ביקש ממני שאשלח לו את המסמכים.
+lessons:
+- id: u36-l1
+  kind: new
+  title:
+    he: מה הוא אמר?
+    en: What did he say?
+  exercises:
+  - id: u36-l1-01
+    type: dialogue
+    scene: יעל מדווחת לסופיה אחרי הפגישה.
+    lines:
+    - speaker: sofia
+      text: ¿Qué dijo el cliente?
+      translation: מה הלקוח אמר?
+    - speaker: yael
+      text: Dijo que le gustaba la propuesta y que la firmaría al día siguiente.
+      translation: הוא אמר שההצעה מוצאת חן בעיניו ושיחתום עליה למחרת.
+    - speaker: sofia
+      text: ¿Preguntó algo?
+      translation: הוא שאל משהו?
+    - speaker: yael
+      text: Sí, preguntó si ya habíamos terminado el contrato. Y pidió que le mandáramos los documentos.
+      translation: כן, שאל אם כבר סיימנו את החוזה. וביקש שנשלח לו את המסמכים.
+  - id: u36-l1-02
+    type: learn
+    lexeme: afirmar
+  - id: u36-l1-03
+    type: learn
+    lexeme: responder
+  - id: u36-l1-04
+    type: learn
+    lexeme: confirmar
+  - id: u36-l1-05
+    type: learn
+    lexeme: propuesta
+  - id: u36-l1-06
+    type: learn
+    lexeme: reaccion
+  - id: u36-l1-07
+    type: learn
+    lexeme: conversacion
+  - id: u36-l1-08
+    type: learn
+    lexeme: dijo-que
+  - id: u36-l1-09
+    type: learn
+    lexeme: al-dia-siguiente
+  - id: u36-l1-10
+    type: match_pairs
+    pairs:
+    - - afirmar
+      - לטעון
+    - - responder
+      - להשיב
+    - - preguntar
+      - לשאול
+    - - confirmar
+      - לאשר
+    - - prometer
+      - להבטיח
+    lexemes:
+    - afirmar
+    - responder
+    - preguntar
+    - confirmar
+    - prometer
+  - id: u36-l1-11
+    type: match_pairs
+    pairs:
+    - - la propuesta
+      - הצעה
+    - - la reacción
+      - תגובה
+    - - la conversación
+      - שיחה
+    - - dijo que
+      - הוא אמר ש
+    - - al día siguiente
+      - למחרת
+    lexemes:
+    - propuesta
+    - reaccion
+    - conversacion
+    - dijo-que
+    - al-dia-siguiente
+  - id: u36-l1-12
+    type: multiple_choice
+    prompt: מה פירוש 'Dijo que vendría'?
+    options:
+    - אמר שיבוא
+    - אמר שבא
+    - אומר שיבוא
+    correct: 0
+    lexemes:
+    - dijo-que
+    - venir
+  - id: u36-l1-13
+    type: multiple_choice
+    prompt: איזה זמן אחרי 'dijo que' למשפט 'Estoy cansado'?
+    options:
+    - estaba
+    - estoy
+    - estaré
+    correct: 0
+    lexemes:
+    - dijo-que
+    - estar
+  - id: u36-l1-14
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Dijo que había terminado.
+    - Dijo que terminó ayer.
+    - Dijo que ha terminar.
+    correct: 0
+    lexemes:
+    - dijo-que
+    - terminar
+  - id: u36-l1-15
+    type: listening_choice
+    audioText: Dijo que firmaría al día siguiente.
+    question: מה אומרים?
+    options:
+    - אמר שיחתום למחרת
+    - חתם אתמול
+    - אמר שלא יחתום
+    correct: 0
+    lexemes:
+    - dijo-que
+    - firmar
+    - al-dia-siguiente
+  - id: u36-l1-16
+    type: listening_choice
+    audioText: Preguntó si ya habíamos terminado.
+    question: מה אומרים?
+    options:
+    - שאל אם כבר סיימנו
+    - ביקש לסיים
+    - אמר שסיימנו
+    correct: 0
+    lexemes:
+    - preguntar
+    - terminar
+  - id: u36-l1-17
+    type: translate
+    direction: to_target
+    prompt: הוא אמר שיבוא למחרת.
+    answers:
+    - Dijo que vendría al día siguiente.
+    lexemes:
+    - dijo-que
+    - venir
+    - al-dia-siguiente
+  - id: u36-l1-18
+    type: translate
+    direction: to_target
+    prompt: הוא שאל אם סיימתי.
+    answers:
+    - Preguntó si había terminado.
+    lexemes:
+    - preguntar
+    - terminar
+  - id: u36-l1-19
+    type: translate
+    direction: to_source
+    prompt: Prometió que lo haría.
+    answers:
+    - הבטיח שיעשה את זה
+    - הבטיח שתעשה את זה
+    lexemes:
+    - prometer
+    - hacer
+  - id: u36-l1-20
+    type: dictation
+    text: Dijo que le gustaba la propuesta.
+    lexemes:
+    - dijo-que
+    - propuesta
+  - id: u36-l1-21
+    type: speak_repeat
+    text: Dijo que firmaría al día siguiente.
+    translation: הוא אמר שיחתום למחרת.
+    lexemes:
+    - dijo-que
+    - firmar
+    - al-dia-siguiente
+- id: u36-l2
+  kind: new
+  title:
+    he: שאלות ובקשות
+    en: Questions and requests
+  exercises:
+  - id: u36-l2-01
+    type: learn
+    lexeme: pidio-que
+  - id: u36-l2-02
+    type: learn
+    lexeme: la-semana-anterior
+  - id: u36-l2-03
+    type: learn
+    lexeme: anoche-p
+  - id: u36-l2-04
+    type: match_pairs
+    pairs:
+    - - pidió que
+      - ביקש ש
+    - - la semana anterior
+      - בשבוע שלפני
+    - - aquel día
+      - באותו יום
+    - - al día siguiente
+      - למחרת
+    - - la propuesta
+      - הצעה
+    lexemes:
+    - pidio-que
+    - la-semana-anterior
+    - anoche-p
+    - al-dia-siguiente
+    - propuesta
+  - id: u36-l2-05
+    type: dialogue
+    scene: דון ריקרדו שואל על הפגישה.
+    lines:
+    - speaker: ricardo
+      text: ¿Qué te preguntó el cliente?
+      translation: מה הלקוח שאל אותך?
+    - speaker: yael
+      text: Me preguntó cuándo podíamos entregar. Le respondí que la semana anterior habíamos terminado.
+      translation: הוא שאל אותי מתי נוכל למסור. עניתי לו שבשבוע שעבר כבר סיימנו.
+    - speaker: ricardo
+      text: ¿Y qué pidió?
+      translation: ומה הוא ביקש?
+    - speaker: yael
+      text: Pidió que le enviáramos la propuesta aquel mismo día.
+      translation: הוא ביקש שנשלח לו את ההצעה באותו יום.
+  - id: u36-l2-06
+    type: multiple_choice
+    prompt: איך מדווחים על 'Envíame el informe'?
+    options:
+    - Pidió que le enviara el informe.
+    - Pidió que le envíe el informe.
+    - Pidió enviar el informe.
+    correct: 0
+    lexemes:
+    - pidio-que
+    - enviar
+    - informe
+  - id: u36-l2-07
+    type: multiple_choice
+    prompt: איך מדווחים על '¿Ya terminaste?'?
+    options:
+    - Preguntó si ya había terminado.
+    - Preguntó que ya terminé.
+    - Preguntó ya terminaste.
+    correct: 0
+    lexemes:
+    - preguntar
+    - terminar
+  - id: u36-l2-08
+    type: multiple_choice
+    prompt: מה פירוש 'aquel día'?
+    options:
+    - באותו יום
+    - היום
+    - מחר
+    correct: 0
+    lexemes:
+    - anoche-p
+  - id: u36-l2-09
+    type: listening_choice
+    audioText: Me pidió que lo llamara.
+    question: מה אומרים?
+    options:
+    - ביקש ממני להתקשר אליו
+    - התקשר אליי
+    - אמר שהתקשר
+    correct: 0
+    lexemes:
+    - pidio-que
+    - llamar
+  - id: u36-l2-10
+    type: listening_choice
+    audioText: Preguntó cuándo podíamos entregar.
+    question: מה אומרים?
+    options:
+    - שאל מתי נוכל למסור
+    - אמר מתי מסרנו
+    - ביקש למסור
+    correct: 0
+    lexemes:
+    - preguntar
+    - entregar
+    - poder
+  - id: u36-l2-11
+    type: fill_blank
+    sentence: Dijo que ___ cansado. (estar, אימפרפקט)
+    translation: הוא אמר שהוא עייף.
+    answers:
+    - estaba
+    options:
+    - estaba
+    - está
+    - estuvo
+    lexemes:
+    - dijo-que
+    - estar
+  - id: u36-l2-12
+    type: fill_blank
+    sentence: Dijo que ___ al día siguiente. (venir, תנאי)
+    translation: הוא אמר שיבוא למחרת.
+    answers:
+    - vendría
+    options:
+    - vendría
+    - vendrá
+    - viene
+    lexemes:
+    - dijo-que
+    - venir
+    - al-dia-siguiente
+  - id: u36-l2-13
+    type: fill_blank
+    sentence: Pidió que le ___ el informe. (enviar, אנחנו – סובג'ונקטיב עבר)
+    translation: ביקש שנשלח לו את הדוח.
+    answers:
+    - enviáramos
+    options:
+    - enviáramos
+    - enviemos
+    - enviamos
+    lexemes:
+    - pidio-que
+    - enviar
+    - informe
+  - id: u36-l2-14
+    type: fill_blank
+    sentence: Preguntó ___ ya habíamos terminado.
+    translation: שאל אם כבר סיימנו.
+    answers:
+    - si
+    options:
+    - si
+    - que
+    - como
+    lexemes:
+    - preguntar
+    - terminar
+  - id: u36-l2-15
+    type: word_bank
+    prompt: הוא אמר שהוא עסוק.
+    answers:
+    - Dijo que estaba ocupado.
+    distractors:
+    - Dijo que está ocupado ayer
+    lexemes:
+    - dijo-que
+    - estar
+    - ocupado
+  - id: u36-l2-16
+    type: word_bank
+    prompt: הוא ביקש שנחכה.
+    answers:
+    - Pidió que esperáramos.
+    distractors:
+    - Pidió que esperemos
+    lexemes:
+    - pidio-que
+    - esperar
+  - id: u36-l2-17
+    type: translate
+    direction: to_target
+    prompt: היא שאלה אם יש זמן.
+    answers:
+    - Preguntó si había tiempo.
+    lexemes:
+    - preguntar
+    - tiempo
+  - id: u36-l2-18
+    type: translate
+    direction: to_source
+    prompt: Me dijo que lo hiciera.
+    answers:
+    - הוא אמר לי לעשות את זה
+    - הוא אמר לי שאעשה את זה
+    lexemes:
+    - dijo-que
+    - hacer
+  - id: u36-l2-19
+    type: dictation
+    text: Pidió que le enviáramos la propuesta.
+    lexemes:
+    - pidio-que
+    - enviar
+    - propuesta
+- id: u36-l3
+  kind: grammar
+  title:
+    he: הסטת זמנים
+    en: Shifting tenses
+  grammar: estilo-indirecto
+  exercises:
+  - id: u36-l3-01
+    type: fill_blank
+    sentence: '"Voy a viajar." → Dijo que ___ a viajar.'
+    translation: אמר שהוא הולך לנסוע.
+    answers:
+    - iba
+    options:
+    - iba
+    - va
+    - fue
+    lexemes:
+    - dijo-que
+    - viajar
+  - id: u36-l3-02
+    type: fill_blank
+    sentence: '"Terminé." → Dijo que ___ terminado.'
+    translation: אמר שסיים.
+    answers:
+    - había
+    options:
+    - había
+    - ha
+    - hubo
+    lexemes:
+    - dijo-que
+    - terminar
+  - id: u36-l3-03
+    type: fill_blank
+    sentence: '"Vendré." → Dijo que ___.'
+    translation: אמר שיבוא.
+    answers:
+    - vendría
+    options:
+    - vendría
+    - vendrá
+    - viene
+    lexemes:
+    - dijo-que
+    - venir
+  - id: u36-l3-04
+    type: fill_blank
+    sentence: '"¿Dónde vives?" → Preguntó dónde ___.'
+    translation: שאל איפה אני גר.
+    answers:
+    - vivía
+    options:
+    - vivía
+    - vivo
+    - vivió
+    lexemes:
+    - preguntar
+    - vivir
+  - id: u36-l3-05
+    type: fill_blank
+    sentence: '"Llámame." → Pidió que lo ___.'
+    translation: ביקש שאתקשר אליו.
+    answers:
+    - llamara
+    options:
+    - llamara
+    - llame
+    - llamo
+    lexemes:
+    - pidio-que
+    - llamar
+  - id: u36-l3-06
+    type: fill_blank
+    sentence: '"Hoy no puedo." → Dijo que ese día no ___.'
+    translation: אמר שבאותו יום הוא לא יכול.
+    answers:
+    - podía
+    options:
+    - podía
+    - puede
+    - pudo
+    lexemes:
+    - dijo-que
+    - poder
+  - id: u36-l3-07
+    type: fill_blank
+    sentence: '"Si tengo tiempo, voy." → Dijo que si ___ tiempo, iría.'
+    translation: אמר שאם יהיה לו זמן, יבוא.
+    answers:
+    - tenía
+    options:
+    - tenía
+    - tiene
+    - tendría
+    lexemes:
+    - dijo-que
+    - si-c
+    - tener
+    - tiempo
+  - id: u36-l3-08
+    type: multiple_choice
+    prompt: מה קורה לעתיד בדיבור עקיף?
+    options:
+    - הופך לתנאי
+    - נשאר עתיד
+    - הופך להווה
+    correct: 0
+    lexemes:
+    - dijo-que
+  - id: u36-l3-09
+    type: multiple_choice
+    prompt: מה קורה לפרטריט בדיבור עקיף?
+    options:
+    - הופך ל־pluscuamperfecto
+    - נשאר פרטריט
+    - הופך לעתיד
+    correct: 0
+    lexemes:
+    - dijo-que
+  - id: u36-l3-10
+    type: multiple_choice
+    prompt: איך אומרים 'mañana' בדיבור עקיף?
+    options:
+    - al día siguiente
+    - mañana
+    - ayer
+    correct: 0
+    lexemes:
+    - al-dia-siguiente
+    - manana-adv
+  - id: u36-l3-11
+    type: word_bank
+    prompt: אמר שיתקשר.
+    answers:
+    - Dijo que llamaría.
+    distractors:
+    - Dijo que llamará
+    lexemes:
+    - dijo-que
+    - llamar
+  - id: u36-l3-12
+    type: word_bank
+    prompt: שאל מתי נבוא.
+    answers:
+    - Preguntó cuándo vendríamos.
+    distractors:
+    - Preguntó cuándo vendremos
+    lexemes:
+    - preguntar
+    - venir
+  - id: u36-l3-13
+    type: translate
+    direction: to_target
+    prompt: הוא אמר שכבר אכל.
+    answers:
+    - Dijo que ya había comido.
+    lexemes:
+    - dijo-que
+    - comer
+  - id: u36-l3-14
+    type: translate
+    direction: to_target
+    prompt: היא ביקשה שאעזור לה.
+    answers:
+    - Pidió que la ayudara.
+    lexemes:
+    - pidio-que
+    - ayudar
+  - id: u36-l3-15
+    type: translate
+    direction: to_source
+    prompt: Dijo que no podía venir ese día.
+    answers:
+    - אמר שהוא לא יכול לבוא באותו יום
+    lexemes:
+    - dijo-que
+    - poder
+    - venir
+  - id: u36-l3-16
+    type: translate
+    direction: to_source
+    prompt: Preguntó dónde estaba el contrato.
+    answers:
+    - שאל איפה החוזה
+    lexemes:
+    - preguntar
+    - estar
+    - contrato
+- id: u36-l4
+  kind: reading
+  title:
+    he: דו״ח פגישה
+    en: Meeting notes
+  exercises:
+  - id: u36-l4-01
+    type: reading
+    kind: סיכום
+    title: Resumen de la reunión
+    text: 'El cliente dijo que le gustaba la propuesta, pero que necesitaba más tiempo para decidir. Preguntó si podíamos reducir el precio y si habíamos revisado el contrato.
+
+      Yo respondí que sí, que ya lo habíamos revisado, y que el lunes le mandaríamos la versión final. Él pidió que se la enviáramos por correo.
+
+      También prometió que nos daría una respuesta al día siguiente.
+
+      '
+    translation: 'הלקוח אמר שההצעה מוצאת חן בעיניו, אבל שהוא צריך עוד זמן להחליט. הוא שאל אם אפשר להוזיל את המחיר ואם בדקנו את החוזה.
+
+      עניתי שכן, שכבר בדקנו אותו, ושביום שני נשלח לו את הגרסה הסופית. הוא ביקש שנשלח לו אותה בדואר.
+
+      הוא גם הבטיח שיתן לנו תשובה למחרת.
+
+      '
+  - id: u36-l4-02
+    type: multiple_choice
+    prompt: מה הלקוח שאל?
+    options:
+    - אם אפשר להוזיל מחיר
+    - אם הוא יכול לבוא
+    - מי חתם
+    correct: 0
+    lexemes:
+    - preguntar
+    - firmar
+  - id: u36-l4-03
+    type: multiple_choice
+    prompt: מתי הוא יענה?
+    options:
+    - למחרת
+    - בשבוע הבא
+    - אתמול
+    correct: 0
+    lexemes:
+    - al-dia-siguiente
+    - responder
+  - id: u36-l4-04
+    type: fill_blank
+    sentence: Él pidió que se la ___ por correo. (enviar, nosotros)
+    translation: הוא ביקש שנשלח לו אותה בדואר.
+    answers:
+    - enviáramos
+    options:
+    - enviáramos
+    - enviemos
+    - enviamos
+    lexemes:
+    - pidio-que
+    - enviar
+    - correo
+  - id: u36-l4-05
+    type: translate
+    direction: to_target
+    prompt: הוא הבטיח שיענה למחרת.
+    answers:
+    - Prometió que respondería al día siguiente.
+    lexemes:
+    - prometer
+    - responder
+    - al-dia-siguiente
+- id: u36-review
+  kind: review
+  title:
+    he: 'חזרה: דיבור עקיף + כתיבה'
+    en: Review + writing
+  exercises:
+  - id: u36-review-01
+    type: match_pairs
+    pairs:
+    - - afirmar
+      - לטעון
+    - - responder
+      - להשיב
+    - - preguntar
+      - לשאול
+    - - confirmar
+      - לאשר
+    - - prometer
+      - להבטיח
+    lexemes:
+    - afirmar
+    - responder
+    - preguntar
+    - confirmar
+    - prometer
+  - id: u36-review-02
+    type: match_pairs
+    pairs:
+    - - la propuesta
+      - הצעה
+    - - la reacción
+      - תגובה
+    - - la conversación
+      - שיחה
+    - - al día siguiente
+      - למחרת
+    - - aquel día
+      - באותו יום
+    lexemes:
+    - propuesta
+    - reaccion
+    - conversacion
+    - al-dia-siguiente
+    - anoche-p
+  - id: u36-review-03
+    type: fill_blank
+    sentence: '"Estoy ocupado." → Dijo que ___ ocupado.'
+    translation: אמר שהוא עסוק.
+    answers:
+    - estaba
+    options:
+    - estaba
+    - está
+    - estuvo
+    lexemes:
+    - dijo-que
+    - ocupado
+  - id: u36-review-04
+    type: fill_blank
+    sentence: '"Llegué tarde." → Dijo que ___ llegado tarde.'
+    translation: אמר שאיחר.
+    answers:
+    - había
+    options:
+    - había
+    - ha
+    - hubo
+    lexemes:
+    - dijo-que
+    - llegar
+    - tarde-adv
+  - id: u36-review-05
+    type: multiple_choice
+    prompt: מה פירוש 'Pidió que esperáramos'?
+    options:
+    - ביקש שנחכה
+    - חיכה לנו
+    - נחכה
+    correct: 0
+    lexemes:
+    - pidio-que
+    - esperar
+  - id: u36-review-06
+    type: listening_choice
+    audioText: Dijo que vendría al día siguiente.
+    question: מה אומרים?
+    options:
+    - אמר שיבוא למחרת
+    - בא למחרת
+    - יבוא אתמול
+    correct: 0
+    lexemes:
+    - dijo-que
+    - venir
+    - al-dia-siguiente
+  - id: u36-review-07
+    type: word_bank
+    prompt: שאל אם כבר סיימתי.
+    answers:
+    - Preguntó si ya había terminado.
+    distractors:
+    - Preguntó que ya terminé
+    lexemes:
+    - preguntar
+    - terminar
+  - id: u36-review-08
+    type: translate
+    direction: to_target
+    prompt: אמר שיתקשר למחרת.
+    answers:
+    - Dijo que llamaría al día siguiente.
+    lexemes:
+    - dijo-que
+    - llamar
+    - al-dia-siguiente
+  - id: u36-review-09
+    type: translate
+    direction: to_source
+    prompt: Me pidió que lo ayudara.
+    answers:
+    - הוא ביקש ממני לעזור לו
+    lexemes:
+    - pidio-que
+    - ayudar
+  - id: u36-review-10
+    type: dictation
+    text: Preguntó si ya habíamos terminado.
+    lexemes:
+    - preguntar
+    - terminar
+  - id: u36-review-11
+    type: speak_repeat
+    text: Dijo que le gustaba la propuesta.
+    translation: הוא אמר שההצעה מוצאת חן בעיניו.
+    lexemes:
+    - dijo-que
+    - propuesta
+  - id: u36-review-12
+    type: write
+    prompt: 'דמיינו שיחה עם לקוח, מורה או חבר, ודווחו בכתב על מה שנאמר: מה הוא אמר (dijo que…), מה הוא שאל (preguntó si… / cuándo…), מה הוא ביקש (pidió que…), ומה הבטיח (prometió que…). השתמשו בזמנים מוסטים.'
+    minWords: 50
+    checks:
+    - label: dijo que + זמן מוסט (estaba, tenía, iba a, había, vendría)
+      any:
+      - dijo que
+      - dijeron que
+      - afirmo que
+      - comento que
+    - label: preguntó si / cuándo / qué
+      any:
+      - pregunto si
+      - pregunto cuando
+      - pregunto que
+      - pregunto donde
+      - pregunto como
+    - label: pidió que + סובג'ונקטיב בעבר
+      any:
+      - pidio que
+      - pedi que
+      - me pidio
+      - nos pidio
+    - label: הבטיח או עתיד מדווח (prometió, vendría, haría, llamaría…)
+      any:
+      - prometio
+      - vendria
+      - haria
+      - llamaria
+      - daria
+      - enviaria
+      - firmaria
+    model: El cliente dijo que le gustaba la propuesta, pero que necesitaba más tiempo. Preguntó si ya habíamos revisado el contrato y cuándo podíamos entregar la versión final. Pidió que le enviáramos los documentos por correo. También prometió que nos daría una respuesta al día siguiente y que llamaría por teléfono.
+    lexemes: []

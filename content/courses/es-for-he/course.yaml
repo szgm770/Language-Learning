@@ -17,6 +17,8 @@ characters:
   - { id: "lucia", name: "Lucía", he: "לוסיה", color: "green", look: "long", pitch: 1.1 }
   - { id: "dani", name: "Dani", he: "דני", color: "amber", look: "short", pitch: 0.95 }
   - { id: "herrera", name: "Dr. Herrera", he: "ד\"ר הרֶרה", color: "violet", look: "bald", pitch: 0.8 }
+  - { id: "mama", name: "Mamá", he: "אמא", color: "rose", look: "curly", pitch: 1.05 }
+  - { id: "papa", name: "Papá", he: "אבא", color: "blue", look: "short", pitch: 0.85 }
 units:
   - u00a-letras
   - u00b-sonidos
@@ -51,3 +53,13 @@ units:
   - u28-imperativo
   - u29-subjuntivo
   - u30-opiniones
+  - u31-subjuntivo-uso
+  - u32-subj-imperfecto
+  - u33-condicionales
+  - u34-pluscuamperfecto
+  - u35-pasiva-se
+  - u36-estilo-indirecto
+  - u37-conectores
+  - u38-relativos
+  - u39-perifrasis
+  - u40-formal

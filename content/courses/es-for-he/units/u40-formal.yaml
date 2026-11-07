@@ -1,0 +1,1374 @@
+id: u40-formal
+cefr: B2
+scene: work
+title:
+  he: מכתב רשמי ועסקי
+  en: Formal writing
+story: 'יעל כותבת מכתב רשמי ללקוח חשוב ולמשרד ממשלתי: פנייה בנימוס, בקשה, תלונה, תודה. היא לומדת את הנוסחים הקבועים בספרדית עסקית: ''Estimado señor'', ''me dirijo a usted para…'', ''le agradecería que…'', ''quedo a su disposición''.'
+canDo:
+- לפתוח ולסיים מכתב רשמי
+- לנסח בקשה מנומסת (le agradecería que…, quisiera solicitar)
+- לנסח תלונה והסבר בנימוס
+- לצרף מסמכים ולבקש אישור
+vocabulary:
+- id: estimado
+  text: estimado / estimada
+  translation: נכבד, נכבדה
+  pos: adjective
+- id: dirigirse
+  text: dirigirse a
+  translation: לפנות אל
+  pos: phrase
+- id: solicitar
+  text: solicitar
+  translation: לבקש (רשמית)
+  pos: verb
+- id: adjuntar
+  text: adjuntar
+  translation: לצרף
+  pos: verb
+- id: agradecer
+  text: agradecer
+  translation: להודות
+  pos: verb
+- id: quejarse-p
+  text: presentar una queja
+  translation: להגיש תלונה
+  pos: phrase
+- id: le-agradeceria
+  text: le agradecería que…
+  translation: אודה לך אם…
+  pos: phrase
+- id: quedo-a-su-disposicion
+  text: quedo a su disposición
+  translation: אני עומדת לרשותך
+  pos: phrase
+- id: atentamente
+  text: atentamente
+  translation: בכבוד רב
+  pos: adverb
+- id: cordial-saludo
+  text: un cordial saludo
+  translation: בברכה
+  pos: phrase
+- id: a-la-espera
+  text: a la espera de
+  translation: מצפה ל
+  pos: phrase
+- id: sin-otro-particular
+  text: sin otro particular
+  translation: ללא נושא נוסף
+  pos: phrase
+- id: cotizacion
+  text: la cotización
+  translation: הצעת מחיר
+  pos: noun
+- id: factura
+  text: la factura
+  translation: חשבונית
+  pos: noun
+- id: pedido
+  text: el pedido
+  translation: הזמנה
+  pos: noun
+- id: entrega
+  text: la entrega
+  translation: מסירה, אספקה
+  pos: noun
+- id: garantia
+  text: la garantía
+  translation: אחריות
+  pos: noun
+- id: respuesta-p
+  text: la respuesta
+  translation: תשובה
+  pos: noun
+grammar:
+- id: registro-formal
+  title:
+    he: מכתב רשמי
+    en: Formal register
+  explanation: 'בעברית מכתב רשמי נפתח ב"לכבוד" ונחתם ב"בכבוד רב". בספרדית יש מבנה קבוע, תמיד ב־**usted**:
+
+
+    **פתיחה:** *Estimado señor Ramírez:* / *Estimada señora López:* / *A quien corresponda:* (למי שזה נוגע)
+
+    **מטרה:** *Me dirijo a usted para solicitar…* | *Le escribo para informarle que…* | *En relación con su pedido…*
+
+    **בקשה מנומסת:**
+
+    * *Le agradecería que me **enviara** la cotización.* (תנאי + סובג''ונקטיב עבר – עדין מאוד)
+
+    * *Quisiera **solicitar** información sobre…* | *¿Sería posible **adjuntar** la factura?*
+
+    **תלונה בנימוס:** *Lamento informarle que el pedido no llegó. Le solicito que **revise** el caso.*
+
+    **צירוף:** *Adjunto encontrará…* | *Se adjunta la factura.*
+
+    **סיום:** *Quedo a su disposición para cualquier duda.* | *A la espera de su respuesta,* | *Atentamente,* / *Un cordial saludo,* / *Cordialmente,*
+
+
+    **כללי סגנון:**
+
+    * תמיד **usted**, פנייה בגוף שלישי: *le agradezco* (לא "te agradezco").
+
+    * משפטים ארוכים עם מחברים: *Por lo tanto, le solicito…* | *No obstante…*
+
+    * שמות תואר נימוסיים: *estimado, atento, amable, cordial*
+
+
+    **הערה:** במקסיקו מקובל להוסיף *Estimado(a) + תואר + שם* ולסיים ב*Atentamente*. פחות מקובל "Cordiales saludos" מאשר בספרד.'
+  examples:
+  - text: 'Estimado señor Ramírez: Me dirijo a usted para solicitar una cotización.'
+    translation: 'אדון רמירז הנכבד: אני פונה אליך כדי לבקש הצעת מחיר.'
+  - text: Le agradecería que me enviara la factura. Adjunto encontrará el pedido.
+    translation: אודה לך אם תשלח לי את החשבונית. מצורפת ההזמנה.
+  - text: Quedo a su disposición. Atentamente, Yael Cohen.
+    translation: אני עומדת לרשותך. בכבוד רב, יעל כהן.
+lessons:
+- id: u40-l1
+  kind: new
+  title:
+    he: פתיחה ובקשה
+    en: Opening and requesting
+  exercises:
+  - id: u40-l1-01
+    type: dialogue
+    scene: יעל מכינה מכתב עם דוקטור הררה.
+    lines:
+    - speaker: yael
+      text: Doctor, ¿cómo empiezo el correo al cliente?
+      translation: דוקטור, איך אני פותחת את המכתב ללקוח?
+    - speaker: herrera
+      text: 'Con «Estimado señor Ramírez:». Luego: «Me dirijo a usted para solicitar una cotización.»'
+      translation: 'ב«אדון רמירז הנכבד:». אחר כך: «אני פונה אליך כדי לבקש הצעת מחיר.»'
+    - speaker: yael
+      text: 'Y para pedir algo: «Le agradecería que me enviara la factura.»'
+      translation: 'ולבקש משהו: «אודה לך אם תשלח לי את החשבונית.»'
+  - id: u40-l1-02
+    type: learn
+    lexeme: estimado
+  - id: u40-l1-03
+    type: learn
+    lexeme: dirigirse
+  - id: u40-l1-04
+    type: learn
+    lexeme: solicitar
+  - id: u40-l1-05
+    type: learn
+    lexeme: adjuntar
+  - id: u40-l1-06
+    type: learn
+    lexeme: agradecer
+  - id: u40-l1-07
+    type: learn
+    lexeme: cotizacion
+  - id: u40-l1-08
+    type: learn
+    lexeme: factura
+  - id: u40-l1-09
+    type: learn
+    lexeme: pedido
+  - id: u40-l1-10
+    type: learn
+    lexeme: entrega
+  - id: u40-l1-11
+    type: learn
+    lexeme: garantia
+  - id: u40-l1-12
+    type: learn
+    lexeme: respuesta-p
+  - id: u40-l1-13
+    type: learn
+    lexeme: le-agradeceria
+  - id: u40-l1-14
+    type: match_pairs
+    pairs:
+    - - estimado
+      - נכבד
+    - - solicitar
+      - לבקש
+    - - adjuntar
+      - לצרף
+    - - agradecer
+      - להודות
+    - - dirigirse a
+      - לפנות אל
+    lexemes:
+    - estimado
+    - solicitar
+    - adjuntar
+    - agradecer
+    - dirigirse
+  - id: u40-l1-15
+    type: match_pairs
+    pairs:
+    - - la cotización
+      - הצעת מחיר
+    - - la factura
+      - חשבונית
+    - - el pedido
+      - הזמנה
+    - - la entrega
+      - מסירה
+    - - la garantía
+      - אחריות
+    lexemes:
+    - cotizacion
+    - factura
+    - pedido
+    - entrega
+    - garantia
+  - id: u40-l1-16
+    type: multiple_choice
+    prompt: איך פותחים מכתב רשמי לאדון?
+    options:
+    - 'Estimado señor:'
+    - 'Hola señor:'
+    - 'Querido señor:'
+    correct: 0
+    lexemes:
+    - estimado
+  - id: u40-l1-17
+    type: multiple_choice
+    prompt: מה פירוש 'Le agradecería que me enviara…'?
+    options:
+    - אודה לך אם תשלח לי…
+    - שלחתי לך…
+    - אני שולח לך…
+    correct: 0
+    lexemes:
+    - le-agradeceria
+    - enviar
+  - id: u40-l1-18
+    type: multiple_choice
+    prompt: מה פירוש 'Adjunto encontrará'?
+    options:
+    - מצורף תמצא
+    - שלחתי אתמול
+    - אני מצרף מחר
+    correct: 0
+    lexemes:
+    - adjuntar
+  - id: u40-l1-19
+    type: listening_choice
+    audioText: Me dirijo a usted para solicitar una cotización.
+    question: מה אומרים?
+    options:
+    - פונה כדי לבקש הצעת מחיר
+    - מבקש חשבונית
+    - מבטל הזמנה
+    correct: 0
+    lexemes:
+    - dirigirse
+    - solicitar
+    - cotizacion
+    - factura
+    - pedido
+  - id: u40-l1-20
+    type: listening_choice
+    audioText: Le agradecería que me enviara la factura.
+    question: מה אומרים?
+    options:
+    - אודה לך אם תשלח חשבונית
+    - שלחתי חשבונית
+    - אני לא צריך חשבונית
+    correct: 0
+    lexemes:
+    - le-agradeceria
+    - enviar
+    - factura
+  - id: u40-l1-21
+    type: translate
+    direction: to_target
+    prompt: אני פונה אליך כדי לבקש מידע.
+    answers:
+    - Me dirijo a usted para solicitar información.
+    lexemes:
+    - dirigirse
+    - solicitar
+  - id: u40-l1-22
+    type: translate
+    direction: to_target
+    prompt: אודה לך אם תשלח לי את ההצעה.
+    answers:
+    - Le agradecería que me enviara la cotización.
+    lexemes:
+    - le-agradeceria
+    - enviar
+    - cotizacion
+  - id: u40-l1-23
+    type: translate
+    direction: to_source
+    prompt: Adjunto encontrará la factura.
+    answers:
+    - מצורפת החשבונית
+    - מצורף תמצא את החשבונית
+    lexemes:
+    - adjuntar
+    - factura
+  - id: u40-l1-24
+    type: dictation
+    text: Estimado señor Ramírez.
+    lexemes:
+    - estimado
+  - id: u40-l1-25
+    type: speak_repeat
+    text: Me dirijo a usted para solicitar una cotización.
+    translation: אני פונה אליך כדי לבקש הצעת מחיר.
+    lexemes:
+    - dirigirse
+    - solicitar
+    - cotizacion
+- id: u40-l2
+  kind: new
+  title:
+    he: תלונה וסיום
+    en: Complaint and closing
+  exercises:
+  - id: u40-l2-01
+    type: learn
+    lexeme: quejarse-p
+  - id: u40-l2-02
+    type: learn
+    lexeme: quedo-a-su-disposicion
+  - id: u40-l2-03
+    type: learn
+    lexeme: atentamente
+  - id: u40-l2-04
+    type: learn
+    lexeme: cordial-saludo
+  - id: u40-l2-05
+    type: learn
+    lexeme: a-la-espera
+  - id: u40-l2-06
+    type: learn
+    lexeme: sin-otro-particular
+  - id: u40-l2-07
+    type: match_pairs
+    pairs:
+    - - quedo a su disposición
+      - אני עומד לרשותך
+    - - atentamente
+      - בכבוד רב
+    - - un cordial saludo
+      - בברכה
+    - - a la espera de
+      - מצפה ל
+    - - sin otro particular
+      - ללא נושא נוסף
+    lexemes:
+    - quedo-a-su-disposicion
+    - atentamente
+    - cordial-saludo
+    - a-la-espera
+    - sin-otro-particular
+  - id: u40-l2-08
+    type: match_pairs
+    pairs:
+    - - presentar una queja
+      - להגיש תלונה
+    - - la respuesta
+      - תשובה
+    - - la garantía
+      - אחריות
+    - - la entrega
+      - אספקה
+    - - el pedido
+      - הזמנה
+    lexemes:
+    - quejarse-p
+    - respuesta-p
+    - garantia
+    - entrega
+    - pedido
+  - id: u40-l2-09
+    type: dialogue
+    scene: יעל מנסחת תלונה בנימוס.
+    lines:
+    - speaker: yael
+      text: Lamento informarle que el pedido no llegó a tiempo. Le solicito que revise el caso.
+      translation: אני מצטערת להודיעך שההזמנה לא הגיעה בזמן. אבקש ממך לבדוק את המקרה.
+    - speaker: herrera
+      text: Muy bien. Termina con «A la espera de su respuesta, quedo a su disposición.»
+      translation: יפה מאוד. סיימי ב«מצפה לתשובתך, אני עומדת לרשותך.»
+    - speaker: yael
+      text: 'Y firmo: «Atentamente, Yael Cohen.»'
+      translation: 'ואני חותמת: «בכבוד רב, יעל כהן.»'
+  - id: u40-l2-10
+    type: multiple_choice
+    prompt: איך מסיימים מכתב רשמי?
+    options:
+    - Atentamente,
+    - Chao,
+    - Besos,
+    correct: 0
+    lexemes:
+    - atentamente
+  - id: u40-l2-11
+    type: multiple_choice
+    prompt: מה פירוש 'a la espera de su respuesta'?
+    options:
+    - מצפה לתשובתך
+    - קיבלתי תשובה
+    - אין תשובה
+    correct: 0
+    lexemes:
+    - a-la-espera
+    - respuesta-p
+  - id: u40-l2-12
+    type: multiple_choice
+    prompt: איזה משפט נימוסי?
+    options:
+    - Le solicito que revise el caso.
+    - Revisa el caso.
+    - Tienes que revisar el caso.
+    correct: 0
+    lexemes:
+    - solicitar
+  - id: u40-l2-13
+    type: listening_choice
+    audioText: Quedo a su disposición para cualquier duda.
+    question: מה אומרים?
+    options:
+    - אני עומדת לרשותך לכל שאלה
+    - אין לי שאלות
+    - לא אענה
+    correct: 0
+    lexemes:
+    - quedo-a-su-disposicion
+  - id: u40-l2-14
+    type: listening_choice
+    audioText: Lamento informarle que el pedido no llegó.
+    question: מה אומרים?
+    options:
+    - מצטער להודיע שההזמנה לא הגיעה
+    - ההזמנה הגיעה
+    - ביטלתי הזמנה
+    correct: 0
+    lexemes:
+    - pedido
+    - entrega
+  - id: u40-l2-15
+    type: fill_blank
+    sentence: Le ___ que revise el caso. (solicitar, yo)
+    translation: אני מבקשת ממך לבדוק את המקרה.
+    answers:
+    - solicito
+    options:
+    - solicito
+    - solicita
+    - solicitaba
+    lexemes:
+    - solicitar
+  - id: u40-l2-16
+    type: fill_blank
+    sentence: ___ encontrará la factura. (מצורף)
+    translation: מצורפת החשבונית.
+    answers:
+    - Adjunto
+    options:
+    - Adjunto
+    - Adjuntas
+    - Adjuntamos
+    lexemes:
+    - adjuntar
+    - factura
+  - id: u40-l2-17
+    type: fill_blank
+    sentence: Le ___ que me enviara la cotización. (אודה)
+    translation: אודה לך אם תשלח לי את ההצעה.
+    answers:
+    - agradecería
+    options:
+    - agradecería
+    - agradezco
+    - agradecí
+    lexemes:
+    - le-agradeceria
+    - cotizacion
+  - id: u40-l2-18
+    type: fill_blank
+    sentence: A la espera ___ su respuesta.
+    translation: מצפה לתשובתך.
+    answers:
+    - de
+    options:
+    - de
+    - a
+    - en
+    lexemes:
+    - a-la-espera
+    - respuesta-p
+  - id: u40-l2-19
+    type: word_bank
+    prompt: בכבוד רב.
+    answers:
+    - Atentamente.
+    distractors:
+    - Hola.
+    lexemes:
+    - atentamente
+  - id: u40-l2-20
+    type: word_bank
+    prompt: אני עומדת לרשותך.
+    answers:
+    - Quedo a su disposición.
+    distractors:
+    - Quedas a su disposición
+    lexemes:
+    - quedo-a-su-disposicion
+  - id: u40-l2-21
+    type: translate
+    direction: to_target
+    prompt: מצורפת החשבונית.
+    answers:
+    - Se adjunta la factura.
+    - Adjunto la factura.
+    lexemes:
+    - adjuntar
+    - factura
+  - id: u40-l2-22
+    type: translate
+    direction: to_source
+    prompt: Le escribo para solicitar una cotización.
+    answers:
+    - אני כותבת לך כדי לבקש הצעת מחיר
+    - אני כותב לך כדי לבקש הצעת מחיר
+    lexemes:
+    - solicitar
+    - cotizacion
+  - id: u40-l2-23
+    type: dictation
+    text: Quedo a su disposición.
+    lexemes:
+    - quedo-a-su-disposicion
+- id: u40-l3
+  kind: grammar
+  title:
+    he: רשמי או לא?
+    en: Formal or not?
+  grammar: registro-formal
+  exercises:
+  - id: u40-l3-01
+    type: fill_blank
+    sentence: 'Estimado señor: Me ___ a usted para solicitar información. (dirigir)'
+    translation: אני פונה אליך כדי לבקש מידע.
+    answers:
+    - dirijo
+    options:
+    - dirijo
+    - dirige
+    - dirigía
+    lexemes:
+    - dirigirse
+    - solicitar
+  - id: u40-l3-02
+    type: fill_blank
+    sentence: Le ___ que me enviara la cotización. (agradecer – תנאי)
+    translation: אודה לך אם תשלח לי את ההצעה.
+    answers:
+    - agradecería
+    options:
+    - agradecería
+    - agradezco
+    - agradecí
+    lexemes:
+    - le-agradeceria
+    - cotizacion
+  - id: u40-l3-03
+    type: fill_blank
+    sentence: Le agradecería que me ___ la factura. (enviar – סובג'ונקטיב עבר)
+    translation: אודה לך אם תשלח לי את החשבונית.
+    answers:
+    - enviara
+    options:
+    - enviara
+    - envíe
+    - envía
+    lexemes:
+    - le-agradeceria
+    - enviar
+    - factura
+  - id: u40-l3-04
+    type: fill_blank
+    sentence: Quedo ___ su disposición.
+    translation: אני עומדת לרשותך.
+    answers:
+    - a
+    options:
+    - a
+    - de
+    - en
+    lexemes:
+    - quedo-a-su-disposicion
+  - id: u40-l3-05
+    type: fill_blank
+    sentence: Le solicito que ___ el pedido. (revisar)
+    translation: אני מבקשת שתבדוק את ההזמנה.
+    answers:
+    - revise
+    options:
+    - revise
+    - revisa
+    - revisó
+    lexemes:
+    - solicitar
+    - pedido
+  - id: u40-l3-06
+    type: multiple_choice
+    prompt: איזו צורה נכונה למכתב רשמי?
+    options:
+    - Le agradezco su ayuda.
+    - Te agradezco tu ayuda.
+    - Gracias, bro.
+    correct: 0
+    lexemes:
+    - agradecer
+  - id: u40-l3-07
+    type: multiple_choice
+    prompt: איזה פתיח נכון?
+    options:
+    - 'Estimada señora López:'
+    - 'Hola señora López:'
+    - 'Oye, señora López:'
+    correct: 0
+    lexemes:
+    - estimado
+  - id: u40-l3-08
+    type: multiple_choice
+    prompt: איזה סיום מתאים לעסקים?
+    options:
+    - Atentamente,
+    - Nos vemos,
+    - Chao,
+    correct: 0
+    lexemes:
+    - atentamente
+  - id: u40-l3-09
+    type: word_bank
+    prompt: אודה לך אם תענה.
+    answers:
+    - Le agradecería que me respondiera.
+    distractors:
+    - Te agradezco que respondas
+    lexemes:
+    - le-agradeceria
+    - respuesta-p
+  - id: u40-l3-10
+    type: word_bank
+    prompt: אני מצפה לתשובתך.
+    answers:
+    - Quedo a la espera de su respuesta.
+    distractors:
+    - Espero tu respuesta chao
+    lexemes:
+    - a-la-espera
+    - respuesta-p
+  - id: u40-l3-11
+    type: translate
+    direction: to_target
+    prompt: מצורפת ההזמנה.
+    answers:
+    - Se adjunta el pedido.
+    - Adjunto el pedido.
+    lexemes:
+    - adjuntar
+    - pedido
+  - id: u40-l3-12
+    type: translate
+    direction: to_target
+    prompt: אני מבקשת הצעת מחיר.
+    answers:
+    - Solicito una cotización.
+    lexemes:
+    - solicitar
+    - cotizacion
+  - id: u40-l3-13
+    type: translate
+    direction: to_source
+    prompt: Le agradezco su pronta respuesta.
+    answers:
+    - אני מודה לך על תשובתך המהירה
+    lexemes:
+    - agradecer
+    - respuesta-p
+  - id: u40-l3-14
+    type: translate
+    direction: to_source
+    prompt: No obstante, el pedido no llegó.
+    answers:
+    - עם זאת, ההזמנה לא הגיעה
+    lexemes:
+    - no-obstante
+    - pedido
+- id: u40-l4
+  kind: reading
+  title:
+    he: מכתב ללקוח
+    en: A letter to a client
+  exercises:
+  - id: u40-l4-01
+    type: reading
+    kind: מכתב
+    title: Un correo formal
+    text: 'Estimado señor Ramírez:
+
+      Me dirijo a usted para solicitar una cotización de los equipos que mencionó en su pedido. Adjunto encontrará la factura anterior.
+
+      Le agradecería que me respondiera antes del viernes, ya que necesitamos confirmar la entrega.
+
+      Quedo a su disposición para cualquier duda.
+
+      Atentamente,
+
+      Yael Cohen
+
+      '
+    translation: 'אדון רמירז הנכבד:
+
+      אני פונה אליך כדי לבקש הצעת מחיר לציוד שציינת בהזמנה שלך. מצורפת החשבונית הקודמת.
+
+      אודה לך אם תענה לי לפני יום שישי, מאחר שאנחנו צריכים לאשר את האספקה.
+
+      אני עומדת לרשותך לכל שאלה.
+
+      בכבוד רב,
+
+      יעל כהן
+
+      '
+  - id: u40-l4-02
+    type: multiple_choice
+    prompt: מה יעל מבקשת?
+    options:
+    - הצעת מחיר
+    - חשבונית
+    - החזר כסף
+    correct: 0
+    lexemes:
+    - cotizacion
+    - factura
+  - id: u40-l4-03
+    type: multiple_choice
+    prompt: עד מתי היא רוצה תשובה?
+    options:
+    - עד יום שישי
+    - מחר
+    - בשבוע הבא
+    correct: 0
+    lexemes:
+    - respuesta-p
+  - id: u40-l4-04
+    type: fill_blank
+    sentence: Le ___ que me respondiera. (agradecer, תנאי)
+    translation: אודה לך אם תענה לי.
+    answers:
+    - agradecería
+    options:
+    - agradecería
+    - agradezco
+    - agradecí
+    lexemes:
+    - le-agradeceria
+    - respuesta-p
+  - id: u40-l4-05
+    type: translate
+    direction: to_target
+    prompt: אני עומדת לרשותך.
+    answers:
+    - Quedo a su disposición.
+    lexemes:
+    - quedo-a-su-disposicion
+- id: u40-review
+  kind: review
+  title:
+    he: 'חזרה: מכתב רשמי + כתיבה'
+    en: Review + writing
+  exercises:
+  - id: u40-review-01
+    type: match_pairs
+    pairs:
+    - - estimado
+      - נכבד
+    - - solicitar
+      - לבקש
+    - - adjuntar
+      - לצרף
+    - - agradecer
+      - להודות
+    - - atentamente
+      - בכבוד רב
+    lexemes:
+    - estimado
+    - solicitar
+    - adjuntar
+    - agradecer
+    - atentamente
+  - id: u40-review-02
+    type: match_pairs
+    pairs:
+    - - la cotización
+      - הצעת מחיר
+    - - la factura
+      - חשבונית
+    - - el pedido
+      - הזמנה
+    - - la entrega
+      - אספקה
+    - - la garantía
+      - אחריות
+    lexemes:
+    - cotizacion
+    - factura
+    - pedido
+    - entrega
+    - garantia
+  - id: u40-review-03
+    type: fill_blank
+    sentence: Me ___ a usted para solicitar información. (dirigir)
+    translation: אני פונה אליך כדי לבקש מידע.
+    answers:
+    - dirijo
+    options:
+    - dirijo
+    - dirige
+    - dirigía
+    lexemes:
+    - dirigirse
+    - solicitar
+  - id: u40-review-04
+    type: fill_blank
+    sentence: Le agradecería que me ___ pronto. (responder)
+    translation: אודה לך אם תענה מהר.
+    answers:
+    - respondiera
+    options:
+    - respondiera
+    - responde
+    - respondió
+    lexemes:
+    - le-agradeceria
+    - respuesta-p
+  - id: u40-review-05
+    type: multiple_choice
+    prompt: מה פירוש 'Quedo a su disposición'?
+    options:
+    - אני עומדת לרשותך
+    - אני נשארת בבית
+    - אני לא פנויה
+    correct: 0
+    lexemes:
+    - quedo-a-su-disposicion
+  - id: u40-review-06
+    type: listening_choice
+    audioText: A la espera de su respuesta.
+    question: מה אומרים?
+    options:
+    - מצפה לתשובתך
+    - הגבתי כבר
+    - לא אענה
+    correct: 0
+    lexemes:
+    - a-la-espera
+    - respuesta-p
+  - id: u40-review-07
+    type: word_bank
+    prompt: בכבוד רב.
+    answers:
+    - Atentamente.
+    distractors:
+    - Hola.
+    lexemes:
+    - atentamente
+  - id: u40-review-08
+    type: translate
+    direction: to_target
+    prompt: מצורפת החשבונית.
+    answers:
+    - Se adjunta la factura.
+    - Adjunto la factura.
+    lexemes:
+    - adjuntar
+    - factura
+  - id: u40-review-09
+    type: translate
+    direction: to_source
+    prompt: Le solicito que revise el pedido.
+    answers:
+    - אני מבקשת שתבדוק את ההזמנה
+    - אני מבקש שתבדוק את ההזמנה
+    lexemes:
+    - solicitar
+    - pedido
+  - id: u40-review-10
+    type: dictation
+    text: Quedo a su disposición.
+    lexemes:
+    - quedo-a-su-disposicion
+  - id: u40-review-11
+    type: speak_repeat
+    text: Le agradecería que me respondiera.
+    translation: אודה לך אם תענה לי.
+    lexemes:
+    - le-agradeceria
+    - respuesta-p
+  - id: u40-review-12
+    type: write
+    prompt: 'כתבו מכתב רשמי קצר (usted) לחברה או למוסד: פתיחה (Estimado/a…), מטרת הפנייה (me dirijo a usted para… / le escribo para…), בקשה מנומסת (le agradecería que… + סובג''ונקטיב עבר), צירוף מסמך (adjunto), וסיום (quedo a su disposición / atentamente).'
+    minWords: 55
+    checks:
+    - label: פתיחה רשמית (Estimado/a, A quien corresponda)
+      any:
+      - estimado
+      - estimada
+      - a quien corresponda
+    - label: מטרת הפנייה (me dirijo a usted / le escribo para / solicito)
+      any:
+      - me dirijo a usted
+      - le escribo para
+      - solicito
+      - quisiera solicitar
+    - label: בקשה מנומסת (le agradecería que… / le solicito que…)
+      any:
+      - le agradeceria que
+      - le solicito que
+      - le pido que
+    - label: צירוף או סיום (adjunto / quedo a su disposición / atentamente)
+      any:
+      - adjunto
+      - se adjunta
+      - quedo a su disposicion
+      - atentamente
+      - un cordial saludo
+    model: 'Estimada señora López: Me dirijo a usted para solicitar información sobre el curso de verano. Adjunto encontrará mis datos y mi currículum. Le agradecería que me enviara el horario y el precio antes del lunes, ya que necesito organizar mi viaje. Le agradezco de antemano su atención y su pronta respuesta. Quedo a su disposición para cualquier duda. Atentamente, Yael Cohen.'
+    lexemes: []
+- id: b2-test
+  kind: test
+  title:
+    he: מבחן רמה B2
+    en: B2 level test
+  exercises:
+  - id: b2-test-01
+    type: fill_blank
+    sentence: Es necesario que ___ hoy. (terminar, nosotros)
+    translation: הכרחי שנסיים היום.
+    answers:
+    - terminemos
+    options:
+    - terminemos
+    - terminamos
+    - terminar
+    lexemes:
+    - es-necesario-que
+    - terminar
+  - id: b2-test-02
+    type: fill_blank
+    sentence: Cuando ___, te llamo. (llegar, yo – עתיד)
+    translation: כשאגיע, אתקשר.
+    answers:
+    - llegue
+    options:
+    - llegue
+    - llego
+    - llegaré
+    lexemes:
+    - cuando-c
+    - llegar
+    - llamar
+  - id: b2-test-03
+    type: fill_blank
+    sentence: Lo explico para que ___. (entender, tú)
+    translation: אסביר כדי שתבין.
+    answers:
+    - entiendas
+    options:
+    - entiendas
+    - entiendes
+    - entender
+    lexemes:
+    - para-que-c
+    - entender
+  - id: b2-test-04
+    type: multiple_choice
+    prompt: מה פירוש 'a menos que llueva'?
+    options:
+    - אלא אם כן ירד גשם
+    - בגלל הגשם
+    - אחרי הגשם
+    correct: 0
+    lexemes:
+    - a-menos-que
+    - llover
+  - id: b2-test-05
+    type: fill_blank
+    sentence: Quería que (tú) ___ conmigo. (venir)
+    translation: רציתי שתבוא איתי.
+    answers:
+    - vinieras
+    options:
+    - vinieras
+    - vengas
+    - vienes
+    lexemes:
+    - querer
+    - venir
+  - id: b2-test-06
+    type: fill_blank
+    sentence: Ojalá ___ más tiempo. (tener, yo)
+    translation: הלוואי שהיה לי יותר זמן.
+    answers:
+    - tuviera
+    options:
+    - tuviera
+    - tengo
+    - tenga
+    lexemes:
+    - ojala-pasado
+    - tener
+    - tiempo
+  - id: b2-test-07
+    type: multiple_choice
+    prompt: מה פירוש 'como si fuera'?
+    options:
+    - כאילו הוא
+    - אם הוא
+    - כי הוא
+    correct: 0
+    lexemes:
+    - como-si
+    - ser
+  - id: b2-test-08
+    type: fill_blank
+    sentence: Si ___ tiempo, voy. (tener, yo)
+    translation: אם יהיה לי זמן, אלך.
+    answers:
+    - tengo
+    options:
+    - tengo
+    - tuviera
+    - tendría
+    lexemes:
+    - si-real
+    - tener
+    - tiempo
+  - id: b2-test-09
+    type: fill_blank
+    sentence: Si ___ tiempo, iría. (tener, yo)
+    translation: אילו היה לי זמן, הייתי הולכת.
+    answers:
+    - tuviera
+    options:
+    - tuviera
+    - tengo
+    - tendría
+    lexemes:
+    - si-irreal
+    - tener
+    - tiempo
+  - id: b2-test-10
+    type: fill_blank
+    sentence: Si hubiera sabido, ___ venido. (haber)
+    translation: אילו ידעתי, הייתי באה.
+    answers:
+    - habría
+    options:
+    - habría
+    - había
+    - hubiera
+    lexemes:
+    - si-pasado
+    - habria
+  - id: b2-test-11
+    type: fill_blank
+    sentence: Cuando llegué, ellos ya ___ salido. (haber)
+    translation: כשהגעתי, הם כבר יצאו.
+    answers:
+    - habían
+    options:
+    - habían
+    - han
+    - hubo
+    lexemes:
+    - ya-habia
+    - salir
+    - llegar
+  - id: b2-test-12
+    type: multiple_choice
+    prompt: מה הפרטיציפ של 'escribir'?
+    options:
+    - escrito
+    - escribido
+    - escribió
+    correct: 0
+    lexemes:
+    - participio-irr
+    - escribir
+  - id: b2-test-13
+    type: fill_blank
+    sentence: Se ___ casas. (vender – רבים)
+    translation: נמכרים בתים.
+    answers:
+    - venden
+    options:
+    - venden
+    - vende
+    - vendo
+    lexemes:
+    - se-pasivo
+    - vender-p
+  - id: b2-test-14
+    type: fill_blank
+    sentence: El museo fue ___ en 1900. (fundar)
+    translation: המוזיאון הוקם ב־1900.
+    answers:
+    - fundado
+    options:
+    - fundado
+    - fundó
+    - fundar
+    lexemes:
+    - fundar
+  - id: b2-test-15
+    type: multiple_choice
+    prompt: מה פירוש 'Se me olvidó'?
+    options:
+    - שכחתי בלי כוונה
+    - שכחו אותי
+    - אני לא שוכח
+    correct: 0
+    lexemes:
+    - se-me
+  - id: b2-test-16
+    type: fill_blank
+    sentence: '"Estoy ocupado." → Dijo que ___ ocupado.'
+    translation: אמר שהוא עסוק.
+    answers:
+    - estaba
+    options:
+    - estaba
+    - está
+    - estuvo
+    lexemes:
+    - dijo-que
+    - estar
+    - ocupado
+  - id: b2-test-17
+    type: fill_blank
+    sentence: '"Vendré." → Dijo que ___.'
+    translation: אמר שיבוא.
+    answers:
+    - vendría
+    options:
+    - vendría
+    - vendrá
+    - viene
+    lexemes:
+    - dijo-que
+    - venir
+  - id: b2-test-18
+    type: fill_blank
+    sentence: Me pidió que lo ___. (llamar, yo)
+    translation: ביקש שאתקשר אליו.
+    answers:
+    - llamara
+    options:
+    - llamara
+    - llame
+    - llamo
+    lexemes:
+    - pidio-que
+    - llamar
+  - id: b2-test-19
+    type: fill_blank
+    sentence: ___, es difícil. (אולם)
+    translation: אולם זה קשה.
+    answers:
+    - Sin embargo
+    options:
+    - Sin embargo
+    - Ya que
+    - Por lo tanto
+    lexemes:
+    - sin-embargo
+    - dificil
+  - id: b2-test-20
+    type: fill_blank
+    sentence: Perdí el vuelo; ___, llegué tarde. (לכן)
+    translation: החמצתי את הטיסה; לכן איחרתי.
+    answers:
+    - por lo tanto
+    options:
+    - por lo tanto
+    - ya que
+    - a pesar de
+    lexemes:
+    - por-lo-tanto
+  - id: b2-test-21
+    type: fill_blank
+    sentence: La persona con ___ hablé es amable.
+    translation: האדם שאיתו דיברתי אדיב.
+    answers:
+    - quien
+    options:
+    - quien
+    - que
+    - lo que
+    lexemes:
+    - con-quien
+    - hablar
+  - id: b2-test-22
+    type: fill_blank
+    sentence: ___ más me gusta es el mercado.
+    translation: מה שהכי אוהבת הוא השוק.
+    answers:
+    - Lo que
+    options:
+    - Lo que
+    - El que
+    - Cuyo
+    lexemes:
+    - lo-que
+    - mercado-p
+  - id: b2-test-23
+    type: fill_blank
+    sentence: Mi amigo, ___ madre es de Oaxaca, canta.
+    translation: החבר שלי, שאמא שלו מאואחאקה, שר.
+    answers:
+    - cuya
+    options:
+    - cuya
+    - cuyo
+    - que
+    lexemes:
+    - cuyo
+  - id: b2-test-24
+    type: fill_blank
+    sentence: Dejé ___ usar el traductor.
+    translation: הפסקתי להשתמש במתרגם.
+    answers:
+    - de
+    options:
+    - de
+    - a
+    - en
+    lexemes:
+    - dejar-de
+    - traductor
+  - id: b2-test-25
+    type: fill_blank
+    sentence: Llevo un año ___ aquí. (vivir)
+    translation: אני גרה כאן שנה.
+    answers:
+    - viviendo
+    options:
+    - viviendo
+    - vivir
+    - vivido
+    lexemes:
+    - llevar-gerundio
+    - vivir
+  - id: b2-test-26
+    type: fill_blank
+    sentence: Le ___ que me enviara la factura. (אודה)
+    translation: אודה לך אם תשלח לי את החשבונית.
+    answers:
+    - agradecería
+    options:
+    - agradecería
+    - agradezco
+    - agradecí
+    lexemes:
+    - le-agradeceria
+    - factura
+  - id: b2-test-27
+    type: multiple_choice
+    prompt: איזה סיום מתאים למכתב רשמי?
+    options:
+    - Atentamente,
+    - Chao,
+    - Besos,
+    correct: 0
+    lexemes:
+    - atentamente
+  - id: b2-test-28
+    type: word_bank
+    prompt: הלוואי שהיה לי זמן.
+    answers:
+    - Ojalá tuviera tiempo.
+    distractors:
+    - Ojalá tengo tiempo
+    lexemes:
+    - ojala-pasado
+    - tener
+    - tiempo
+  - id: b2-test-29
+    type: word_bank
+    prompt: הוא אמר שהוא עייף.
+    answers:
+    - Dijo que estaba cansado.
+    distractors:
+    - Dijo que está cansado ayer
+    lexemes:
+    - dijo-que
+    - estar
+  - id: b2-test-30
+    type: translate
+    direction: to_target
+    prompt: אילו ידעתי, הייתי מתקשרת.
+    answers:
+    - Si hubiera sabido, habría llamado.
+    lexemes:
+    - si-pasado
+    - llamar
+  - id: b2-test-31
+    type: translate
+    direction: to_target
+    prompt: מושכרים חדרים.
+    answers:
+    - Se alquilan cuartos.
+    lexemes:
+    - alquilar
+  - id: b2-test-32
+    type: translate
+    direction: to_source
+    prompt: Acabo de terminar el curso.
+    answers:
+    - הרגע סיימתי את הקורס
+    lexemes:
+    - acabar-de
+    - terminar
+  - id: b2-test-33
+    type: translate
+    direction: to_source
+    prompt: En conclusión, fue una buena decisión.
+    answers:
+    - לסיכום, זו הייתה החלטה טובה
+    lexemes:
+    - en-conclusion
+    - decision
+  - id: b2-test-34
+    type: listening_choice
+    audioText: Preguntó si ya habíamos terminado.
+    question: מה אומרים?
+    options:
+    - שאל אם כבר סיימנו
+    - אמר שסיימנו
+    - ביקש לסיים
+    correct: 0
+    lexemes:
+    - preguntar
+    - terminar
+  - id: b2-test-35
+    type: dictation
+    text: Me dirijo a usted para solicitar información.
+    lexemes:
+    - dirigirse
+    - solicitar
+  - id: b2-test-36
+    type: speak_repeat
+    text: Si hubiera sabido, habría venido antes.
+    translation: אילו ידעתי, הייתי מגיעה קודם.
+    lexemes:
+    - si-pasado
+    - venir
