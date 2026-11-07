@@ -1,0 +1,963 @@
+id: u38-relativos
+cefr: B2
+scene: home
+title:
+  he: 'האדם שאיתו, הדבר ש…: משפטי זיקה'
+  en: Relative clauses
+story: 'יעל מתארת לאמא בטלפון את החיים החדשים: ''La señora que vive abajo'', ''el restaurante donde comemos'', ''lo que más me gusta es…'', ''mi amigo cuya madre es de Oaxaca''. היא לומדת לחבר משפטים ארוכים ולהסביר מי ומה.'
+canDo:
+- לחבר משפטים עם que, quien, donde
+- להשתמש ב־el que / la que / lo que
+- להשתמש ב־cuyo (ששלו)
+- להבחין בין זיקה מגדירה לתוספת (עם פסיקים)
+vocabulary:
+- id: vecina
+  text: la vecina
+  translation: שכנה
+  pos: noun
+- id: barrio
+  text: el barrio
+  translation: שכונה
+  pos: noun
+- id: mercado-p
+  text: la tienda
+  translation: חנות
+  pos: noun
+- id: el-que
+  text: el que / la que
+  translation: זה ש, זו ש
+  pos: pronoun
+- id: lo-que
+  text: lo que
+  translation: מה ש
+  pos: pronoun
+- id: donde-p
+  text: donde
+  translation: שבו, איפה ש
+  pos: adverb
+- id: cuyo
+  text: cuyo / cuya
+  translation: ששלו, ששלה
+  pos: pronoun
+- id: el-cual
+  text: el cual / la cual
+  translation: אשר
+  pos: pronoun
+- id: que-rel
+  text: que (זיקה)
+  translation: ש
+  pos: pronoun
+- id: lo-mejor
+  text: lo mejor
+  translation: הדבר הטוב ביותר
+  pos: phrase
+- id: lo-peor
+  text: lo peor
+  translation: הדבר הגרוע ביותר
+  pos: phrase
+- id: con-quien
+  text: con quien
+  translation: שאיתו
+  pos: phrase
+- id: de-quien
+  text: de quien
+  translation: שעליו
+  pos: phrase
+- id: en-el-que
+  text: en el que
+  translation: שבו
+  pos: phrase
+- id: sobre-el-que
+  text: sobre el que
+  translation: שעליו
+  pos: phrase
+- id: descripcion
+  text: la descripción
+  translation: תיאור
+  pos: noun
+- id: personaje
+  text: el personaje
+  translation: דמות
+  pos: noun
+grammar:
+- id: relativos
+  title:
+    he: משפטי זיקה
+    en: Relative clauses
+  explanation: 'בעברית "ש" אחת מחברת הכול: "האישה שגרה למטה", "הספר שקראתי". בספרדית יש כמה מילות זיקה:
+
+
+    **que** (הנפוץ ביותר – אדם, דבר, מקום): *La vecina **que** vive abajo es amable.* | *El libro **que** leí es bueno.*
+
+    **quien / quienes** (אדם, אחרי מילית יחס או עם פסיק): *El amigo con **quien** hablé es de Oaxaca.* | *Mateo, **quien** trabaja conmigo, es mi amigo.*
+
+    **el que / la que / los que / las que** (אחרי מילית יחס, או "זה ש…"): *La casa en **la que** vivo es vieja.* | ***El que** llega primero gana.*
+
+    **lo que** (מה ש…, בלי שם עצם): ***Lo que** más me gusta es el mercado.* | *No entiendo **lo que** dices.* | ***Lo mejor** es esperar.*
+
+    **donde** (מקום): *El restaurante **donde** comemos es kosher.*
+
+    **cuyo / cuya / cuyos / cuyas** (ששלו – מתאים לדבר הנושא): *Mi amigo, **cuya** madre es de Oaxaca, canta bien.*
+
+
+    **זיקה מגדירה / מוסיפה:**
+
+    * בלי פסיק: מגדירה (*Los vecinos que viven abajo…* – רק אלה שגרים למטה)
+
+    * עם פסיק: מוסיפה (*Los vecinos, que viven abajo, …* – כל השכנים, ואגב הם גרים למטה)
+
+
+    **הערה:** אחרי מילית יחס אי אפשר "que" לבד: ✗ *la casa en que vivo* (נפוץ בכתיבה, אבל הצורה התקנית: *en la que / donde*).'
+  examples:
+  - text: La señora que vive abajo es doña Carmen, con quien hablo mucho.
+    translation: האישה שגרה למטה היא דונה כרמן, שאיתה אני מדברת הרבה.
+  - text: Lo que más me gusta del barrio es el mercado donde compro fruta.
+    translation: מה שהכי אוהבת בשכונה זה השוק שבו אני קונה פירות.
+  - text: Mi amigo, cuya madre es de Oaxaca, cocina muy bien.
+    translation: החבר שלי, שאמא שלו מאואחאקה, מבשל מצוין.
+lessons:
+- id: u38-l1
+  kind: new
+  title:
+    he: השכנה שלמטה
+    en: The neighbour downstairs
+  exercises:
+  - id: u38-l1-01
+    type: dialogue
+    scene: יעל מספרת לאמא.
+    lines:
+    - speaker: yael
+      text: Mamá, la señora que vive abajo es doña Carmen. Es la persona con quien más hablo.
+      translation: אמא, האישה שגרה למטה היא דונה כרמן. היא האדם שאיתו אני מדברת הכי הרבה.
+    - speaker: mama
+      text: ¿Y el barrio? ¿Es tranquilo?
+      translation: והשכונה? שקטה?
+    - speaker: yael
+      text: Sí. Lo que más me gusta es el mercado donde compro fruta.
+      translation: כן. מה שהכי אוהבת זה השוק שבו אני קונה פירות.
+  - id: u38-l1-02
+    type: learn
+    lexeme: vecina
+  - id: u38-l1-03
+    type: learn
+    lexeme: barrio
+  - id: u38-l1-04
+    type: learn
+    lexeme: mercado-p
+  - id: u38-l1-05
+    type: learn
+    lexeme: que-rel
+  - id: u38-l1-06
+    type: learn
+    lexeme: donde-p
+  - id: u38-l1-07
+    type: learn
+    lexeme: lo-que
+  - id: u38-l1-08
+    type: learn
+    lexeme: con-quien
+  - id: u38-l1-09
+    type: learn
+    lexeme: lo-mejor
+  - id: u38-l1-10
+    type: learn
+    lexeme: lo-peor
+  - id: u38-l1-11
+    type: match_pairs
+    pairs:
+    - - la vecina
+      - שכנה
+    - - el barrio
+      - שכונה
+    - - la tienda
+      - חנות
+    - - donde
+      - שבו
+    - - lo que
+      - מה ש
+    lexemes:
+    - vecina
+    - barrio
+    - mercado-p
+    - donde-p
+    - lo-que
+  - id: u38-l1-12
+    type: match_pairs
+    pairs:
+    - - que
+      - ש
+    - - quien
+      - מי ש
+    - - con quien
+      - שאיתו
+    - - lo mejor
+      - הדבר הטוב
+    - - lo peor
+      - הדבר הגרוע
+    lexemes:
+    - que-rel
+    - quien
+    - con-quien
+    - lo-mejor
+    - lo-peor
+  - id: u38-l1-13
+    type: multiple_choice
+    prompt: מה פירוש 'la vecina que vive abajo'?
+    options:
+    - השכנה שגרה למטה
+    - השכנה למטה
+    - שכנה גרה
+    correct: 0
+    lexemes:
+    - vecina
+    - que-rel
+  - id: u38-l1-14
+    type: multiple_choice
+    prompt: מה פירוש 'lo que más me gusta'?
+    options:
+    - מה שהכי אוהבת
+    - מי שהכי אוהב
+    - איפה שאוהב
+    correct: 0
+    lexemes:
+    - lo-que
+  - id: u38-l1-15
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - El libro que leí es bueno.
+    - El libro lo que leí es bueno.
+    - El libro quien leí es bueno.
+    correct: 0
+    lexemes:
+    - que-rel
+  - id: u38-l1-16
+    type: listening_choice
+    audioText: Lo que más me gusta es el barrio.
+    question: מה אומרים?
+    options:
+    - מה שהכי אוהב זו השכונה
+    - השכונה לא מוצאת חן
+    - אני גר רחוק
+    correct: 0
+    lexemes:
+    - lo-que
+    - barrio
+  - id: u38-l1-17
+    type: listening_choice
+    audioText: La tienda donde compro está cerca.
+    question: מה אומרים?
+    options:
+    - החנות שבה אני קונה קרובה
+    - החנות רחוקה
+    - אני לא קונה
+    correct: 0
+    lexemes:
+    - mercado-p
+    - donde-p
+  - id: u38-l1-18
+    type: translate
+    direction: to_target
+    prompt: האישה שגרה למטה.
+    answers:
+    - La señora que vive abajo.
+    lexemes:
+    - vecina
+    - que-rel
+  - id: u38-l1-19
+    type: translate
+    direction: to_target
+    prompt: מה שאני אוהבת זה השוק.
+    answers:
+    - Lo que me gusta es el mercado.
+    lexemes:
+    - lo-que
+    - mercado-p
+  - id: u38-l1-20
+    type: translate
+    direction: to_source
+    prompt: El restaurante donde comemos es kosher.
+    answers:
+    - המסעדה שבה אנחנו אוכלים כשרה
+    lexemes:
+    - donde-p
+    - comer
+  - id: u38-l1-21
+    type: dictation
+    text: La señora que vive abajo es amable.
+    lexemes:
+    - que-rel
+    - vecina
+  - id: u38-l1-22
+    type: speak_repeat
+    text: Lo mejor es el barrio.
+    translation: הדבר הטוב ביותר הוא השכונה.
+    lexemes:
+    - lo-mejor
+    - barrio
+- id: u38-l2
+  kind: new
+  title:
+    he: שלו ושאיתו
+    en: Whose and with whom
+  exercises:
+  - id: u38-l2-01
+    type: learn
+    lexeme: el-que
+  - id: u38-l2-02
+    type: learn
+    lexeme: cuyo
+  - id: u38-l2-03
+    type: learn
+    lexeme: el-cual
+  - id: u38-l2-04
+    type: learn
+    lexeme: de-quien
+  - id: u38-l2-05
+    type: learn
+    lexeme: en-el-que
+  - id: u38-l2-06
+    type: learn
+    lexeme: sobre-el-que
+  - id: u38-l2-07
+    type: learn
+    lexeme: descripcion
+  - id: u38-l2-08
+    type: learn
+    lexeme: personaje
+  - id: u38-l2-09
+    type: match_pairs
+    pairs:
+    - - el que / la que
+      - זה ש
+    - - cuyo / cuya
+      - ששלו
+    - - el cual
+      - אשר
+    - - de quien
+      - שעליו
+    - - en el que
+      - שבו
+    lexemes:
+    - el-que
+    - cuyo
+    - el-cual
+    - de-quien
+    - en-el-que
+  - id: u38-l2-10
+    type: match_pairs
+    pairs:
+    - - sobre el que
+      - שעליו
+    - - la descripción
+      - תיאור
+    - - el personaje
+      - דמות
+    - - la vecina
+      - שכנה
+    - - el barrio
+      - שכונה
+    lexemes:
+    - sobre-el-que
+    - descripcion
+    - personaje
+    - vecina
+    - barrio
+  - id: u38-l2-11
+    type: dialogue
+    scene: שיחה על חברים.
+    lines:
+    - speaker: sofia
+      text: Mateo, cuya madre es de Oaxaca, cocina muy bien.
+      translation: מתאו, שאמא שלו מאואחאקה, מבשל מצוין.
+    - speaker: yael
+      text: Es la persona de quien más aprendo sobre comida. El libro sobre el que hablamos es de él.
+      translation: הוא האדם שממנו אני לומדת הכי הרבה על אוכל. הספר שעליו דיברנו הוא שלו.
+    - speaker: sofia
+      text: La casa en la que vive es muy bonita.
+      translation: הבית שבו הוא גר יפה מאוד.
+  - id: u38-l2-12
+    type: multiple_choice
+    prompt: מה פירוש 'cuya madre'?
+    options:
+    - ששלו אמא
+    - איפה אמא
+    - מי אמא
+    correct: 0
+    lexemes:
+    - cuyo
+  - id: u38-l2-13
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - La casa en la que vivo es vieja.
+    - La casa en que la vivo es vieja.
+    - La casa en lo que vivo es vieja.
+    correct: 0
+    lexemes:
+    - en-el-que
+  - id: u38-l2-14
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - El amigo con quien hablé es de Oaxaca.
+    - El amigo con que hablé es de Oaxaca.
+    - El amigo con lo que hablé es de Oaxaca.
+    correct: 0
+    lexemes:
+    - con-quien
+  - id: u38-l2-15
+    type: listening_choice
+    audioText: Mi amigo, cuya madre es de Oaxaca, canta.
+    question: מה אומרים?
+    options:
+    - החבר שאמא שלו מאואחאקה שר
+    - החבר שלי מאואחאקה
+    - האמא שרה
+    correct: 0
+    lexemes:
+    - cuyo
+    - cantar
+  - id: u38-l2-16
+    type: listening_choice
+    audioText: El libro sobre el que hablamos es bueno.
+    question: מה אומרים?
+    options:
+    - הספר שעליו דיברנו טוב
+    - הספר לא טוב
+    - לא דיברנו
+    correct: 0
+    lexemes:
+    - sobre-el-que
+    - hablar
+    - libro
+  - id: u38-l2-17
+    type: fill_blank
+    sentence: La persona con ___ hablo es amable.
+    translation: האדם שאיתו אני מדברת אדיב.
+    answers:
+    - quien
+    options:
+    - quien
+    - lo que
+    - cuyo
+    lexemes:
+    - con-quien
+    - hablar
+  - id: u38-l2-18
+    type: fill_blank
+    sentence: Mateo, ___ madre es de Oaxaca, cocina bien.
+    translation: מתאו, שאמא שלו מאואחאקה, מבשל טוב.
+    answers:
+    - cuya
+    options:
+    - cuya
+    - cuyo
+    - que
+    lexemes:
+    - cuyo
+  - id: u38-l2-19
+    type: fill_blank
+    sentence: ___ más me gusta es el mercado.
+    translation: מה שהכי אוהבת הוא השוק.
+    answers:
+    - Lo que
+    options:
+    - Lo que
+    - El que
+    - Que
+    lexemes:
+    - lo-que
+    - mercado-p
+  - id: u38-l2-20
+    type: fill_blank
+    sentence: La casa en ___ vivo es vieja.
+    translation: הבית שבו אני גרה ישן.
+    answers:
+    - la que
+    options:
+    - la que
+    - lo que
+    - que
+    lexemes:
+    - en-el-que
+    - vivir
+  - id: u38-l2-21
+    type: word_bank
+    prompt: האישה שאיתה דיברתי.
+    answers:
+    - La señora con quien hablé.
+    distractors:
+    - La señora con que hablé
+    lexemes:
+    - con-quien
+    - hablar
+  - id: u38-l2-22
+    type: word_bank
+    prompt: הספר שקראתי.
+    answers:
+    - El libro que leí.
+    distractors:
+    - El libro lo que leí
+    lexemes:
+    - que-rel
+    - leer
+    - libro
+  - id: u38-l2-23
+    type: translate
+    direction: to_target
+    prompt: הבית שבו אני גרה.
+    answers:
+    - La casa donde vivo.
+    - La casa en la que vivo.
+    lexemes:
+    - donde-p
+    - vivir
+    - casa
+  - id: u38-l2-24
+    type: translate
+    direction: to_source
+    prompt: Lo mejor es esperar.
+    answers:
+    - הכי טוב לחכות
+    - הדבר הטוב ביותר הוא לחכות
+    lexemes:
+    - lo-mejor
+    - esperar
+  - id: u38-l2-25
+    type: dictation
+    text: Lo que más me gusta es el mercado.
+    lexemes:
+    - lo-que
+    - mercado-p
+- id: u38-l3
+  kind: grammar
+  title:
+    he: איזו מילת זיקה?
+    en: Which relative?
+  grammar: relativos
+  exercises:
+  - id: u38-l3-01
+    type: fill_blank
+    sentence: El libro ___ leí es bueno.
+    translation: הספר שקראתי טוב.
+    answers:
+    - que
+    options:
+    - que
+    - quien
+    - cuyo
+    lexemes:
+    - que-rel
+    - leer
+  - id: u38-l3-02
+    type: fill_blank
+    sentence: La persona con ___ hablé es amable.
+    translation: האדם שאיתו דיברתי אדיב.
+    answers:
+    - quien
+    options:
+    - quien
+    - que
+    - lo que
+    lexemes:
+    - con-quien
+    - hablar
+  - id: u38-l3-03
+    type: fill_blank
+    sentence: El barrio ___ vivo es tranquilo.
+    translation: השכונה שבה אני גרה שקטה.
+    answers:
+    - donde
+    options:
+    - donde
+    - quien
+    - cuyo
+    lexemes:
+    - donde-p
+    - vivir
+    - barrio
+  - id: u38-l3-04
+    type: fill_blank
+    sentence: ___ dices es verdad.
+    translation: מה שאתה אומר נכון.
+    answers:
+    - Lo que
+    options:
+    - Lo que
+    - El que
+    - Que
+    lexemes:
+    - lo-que
+    - decir
+  - id: u38-l3-05
+    type: fill_blank
+    sentence: Mi amigo, ___ hermano es médico, vive aquí.
+    translation: החבר שלי, שאחיו רופא, גר כאן.
+    answers:
+    - cuyo
+    options:
+    - cuyo
+    - cuya
+    - que
+    lexemes:
+    - cuyo
+    - hermano
+  - id: u38-l3-06
+    type: fill_blank
+    sentence: La casa en ___ vivo es vieja.
+    translation: הבית שבו אני גרה ישן.
+    answers:
+    - la que
+    options:
+    - la que
+    - lo que
+    - quien
+    lexemes:
+    - en-el-que
+    - vivir
+  - id: u38-l3-07
+    type: fill_blank
+    sentence: ___ llega primero gana.
+    translation: מי שמגיע ראשון מנצח.
+    answers:
+    - El que
+    options:
+    - El que
+    - Lo que
+    - Cuyo
+    lexemes:
+    - el-que
+    - llegar
+  - id: u38-l3-08
+    type: multiple_choice
+    prompt: מתי משתמשים ב־cuyo?
+    options:
+    - כשמדובר בבעלות
+    - כשמדובר במקום
+    - כשמדובר בזמן
+    correct: 0
+    lexemes:
+    - cuyo
+  - id: u38-l3-09
+    type: multiple_choice
+    prompt: 'מה ההבדל: ''Los vecinos que viven abajo'' מול ''Los vecinos, que viven abajo,''?'
+    options:
+    - מגדירה מול מוסיפה
+    - אין הבדל
+    - זמן מול מקום
+    correct: 0
+    lexemes:
+    - que-rel
+    - vecina
+  - id: u38-l3-10
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Lo que dices es verdad.
+    - El que dices es verdad.
+    - Que dices es verdad.
+    correct: 0
+    lexemes:
+    - lo-que
+    - decir
+  - id: u38-l3-11
+    type: word_bank
+    prompt: הבית שבו גרתי.
+    answers:
+    - La casa donde viví.
+    distractors:
+    - La casa quien viví
+    lexemes:
+    - donde-p
+    - vivir
+    - casa
+  - id: u38-l3-12
+    type: word_bank
+    prompt: מה שחשוב הוא לנסות.
+    answers:
+    - Lo importante es intentar.
+    distractors:
+    - El importante es intentar
+    lexemes:
+    - importante
+    - lo-que
+  - id: u38-l3-13
+    type: translate
+    direction: to_target
+    prompt: האיש שאיתו עבדתי.
+    answers:
+    - El hombre con quien trabajé.
+    lexemes:
+    - con-quien
+    - trabajar
+  - id: u38-l3-14
+    type: translate
+    direction: to_target
+    prompt: הספר שעליו דיברנו.
+    answers:
+    - El libro sobre el que hablamos.
+    lexemes:
+    - sobre-el-que
+    - hablar
+    - libro
+  - id: u38-l3-15
+    type: translate
+    direction: to_source
+    prompt: La vecina, que vive abajo, es amable.
+    answers:
+    - השכנה, שגרה למטה, אדיבה
+    lexemes:
+    - vecina
+    - que-rel
+  - id: u38-l3-16
+    type: translate
+    direction: to_source
+    prompt: No entiendo lo que dices.
+    answers:
+    - אני לא מבין מה שאתה אומר
+    - אני לא מבינה מה שאתה אומר
+    lexemes:
+    - entender
+    - lo-que
+    - decir
+- id: u38-l4
+  kind: reading
+  title:
+    he: תיאור השכונה
+    en: Describing the neighbourhood
+  exercises:
+  - id: u38-l4-01
+    type: reading
+    kind: תיאור
+    title: Mi barrio
+    text: 'Vivo en un barrio tranquilo donde casi todos se conocen. La señora que vive abajo es doña Carmen, con quien hablo todos los días.
+
+      Lo que más me gusta es el mercado donde compro fruta fresca. Don Ricardo, cuya casa está cerca, siempre me saluda.
+
+      La cafetería en la que desayuno tiene la mejor limonada de la ciudad.
+
+      '
+    translation: 'אני גרה בשכונה שקטה שבה כמעט כולם מכירים. האישה שגרה למטה היא דונה כרמן, שאיתה אני מדברת כל יום.
+
+      מה שהכי אוהבת הוא השוק שבו אני קונה פירות טריים. דון ריקרדו, שביתו קרוב, תמיד מברך אותי.
+
+      בית הקפה שבו אני אוכלת ארוחת בוקר יש לו את הלימונדה הכי טובה בעיר.
+
+      '
+  - id: u38-l4-02
+    type: multiple_choice
+    prompt: עם מי יעל מדברת כל יום?
+    options:
+    - עם דונה כרמן
+    - עם מתאו
+    - עם סופיה
+    correct: 0
+    lexemes:
+    - con-quien
+    - hablar
+  - id: u38-l4-03
+    type: multiple_choice
+    prompt: מה הכי מוצא חן בעיניה?
+    options:
+    - השוק
+    - בית הקפה
+    - הבית
+    correct: 0
+    lexemes:
+    - lo-que
+    - mercado-p
+    - cafe
+  - id: u38-l4-04
+    type: fill_blank
+    sentence: El mercado ___ compro fruta es bueno.
+    translation: השוק שבו אני קונה פירות טוב.
+    answers:
+    - donde
+    options:
+    - donde
+    - quien
+    - cuyo
+    lexemes:
+    - donde-p
+    - mercado-p
+  - id: u38-l4-05
+    type: translate
+    direction: to_target
+    prompt: מה שהכי אוהבת הוא השוק.
+    answers:
+    - Lo que más me gusta es el mercado.
+    lexemes:
+    - lo-que
+    - mercado-p
+- id: u38-review
+  kind: review
+  title:
+    he: 'חזרה: זיקה + כתיבה'
+    en: Review + writing
+  exercises:
+  - id: u38-review-01
+    type: match_pairs
+    pairs:
+    - - la vecina
+      - שכנה
+    - - el barrio
+      - שכונה
+    - - la descripción
+      - תיאור
+    - - el personaje
+      - דמות
+    - - lo mejor
+      - הכי טוב
+    lexemes:
+    - vecina
+    - barrio
+    - descripcion
+    - personaje
+    - lo-mejor
+  - id: u38-review-02
+    type: match_pairs
+    pairs:
+    - - que
+      - ש
+    - - quien
+      - מי ש
+    - - donde
+      - שבו
+    - - cuyo
+      - ששלו
+    - - lo que
+      - מה ש
+    lexemes:
+    - que-rel
+    - quien
+    - donde-p
+    - cuyo
+    - lo-que
+  - id: u38-review-03
+    type: fill_blank
+    sentence: El hombre con ___ trabajo es amable.
+    translation: האיש שאיתו אני עובדת אדיב.
+    answers:
+    - quien
+    options:
+    - quien
+    - que
+    - donde
+    lexemes:
+    - con-quien
+    - trabajar
+  - id: u38-review-04
+    type: fill_blank
+    sentence: ___ más me gusta es el mercado.
+    translation: מה שהכי אוהבת הוא השוק.
+    answers:
+    - Lo que
+    options:
+    - Lo que
+    - El que
+    - Cuyo
+    lexemes:
+    - lo-que
+    - mercado-p
+  - id: u38-review-05
+    type: multiple_choice
+    prompt: מה פירוש 'cuya hermana'?
+    options:
+    - ששלו אחות
+    - איפה אחות
+    - מי אחות
+    correct: 0
+    lexemes:
+    - cuyo
+    - hermana
+  - id: u38-review-06
+    type: listening_choice
+    audioText: La casa donde vivo es vieja.
+    question: מה אומרים?
+    options:
+    - הבית שבו אני גרה ישן
+    - הבית חדש
+    - אני לא גרה שם
+    correct: 0
+    lexemes:
+    - donde-p
+    - vivir
+    - casa
+  - id: u38-review-07
+    type: word_bank
+    prompt: האישה שאיתה דיברתי.
+    answers:
+    - La señora con quien hablé.
+    distractors:
+    - La señora con que hablé
+    lexemes:
+    - con-quien
+    - hablar
+  - id: u38-review-08
+    type: translate
+    direction: to_target
+    prompt: הספר שקראתי טוב.
+    answers:
+    - El libro que leí es bueno.
+    lexemes:
+    - que-rel
+    - leer
+    - libro
+  - id: u38-review-09
+    type: translate
+    direction: to_source
+    prompt: Lo mejor es esperar.
+    answers:
+    - הכי טוב לחכות
+    - הדבר הטוב ביותר הוא לחכות
+    lexemes:
+    - lo-mejor
+    - esperar
+  - id: u38-review-10
+    type: dictation
+    text: La vecina que vive abajo es amable.
+    lexemes:
+    - vecina
+    - que-rel
+  - id: u38-review-11
+    type: speak_repeat
+    text: Lo que dices es verdad.
+    translation: מה שאתה אומר נכון.
+    lexemes:
+    - lo-que
+    - decir
+  - id: u38-review-12
+    type: write
+    prompt: 'תארו את השכונה, העבודה או הכיתה שלכם בעזרת משפטי זיקה: אדם שאתם מכירים (la persona que / con quien), מקום (donde / en el que), הדבר שאתם הכי אוהבים (lo que más me gusta), ומישהו עם פרט עליו (cuyo/cuya).'
+    minWords: 50
+    checks:
+    - label: que (la persona que, el lugar que…)
+      any:
+      - \bque\b
+    - label: quien / con quien / de quien
+      any:
+      - quien
+      - con quien
+      - de quien
+      - a quien
+    - label: lo que / lo mejor / lo peor
+      any:
+      - lo que
+      - lo mejor
+      - lo peor
+      - lo importante
+    - label: donde / en el que / en la que
+      any:
+      - donde
+      - en el que
+      - en la que
+      - sobre el que
+    - label: cuyo / cuya / cuyos / cuyas
+      any:
+      - cuyo
+      - cuya
+      - cuyos
+      - cuyas
+    model: Vivo en un barrio donde todos se conocen. La señora que vive abajo es doña Carmen, con quien hablo todos los días. Lo que más me gusta es el mercado en el que compro fruta. Mi vecino Ricardo, cuya casa está cerca, siempre me saluda. Lo mejor del barrio es que nadie tiene prisa.
+    lexemes: []

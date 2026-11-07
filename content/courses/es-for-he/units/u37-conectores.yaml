@@ -1,0 +1,951 @@
+id: u37-conectores
+cefr: B2
+scene: study
+title:
+  he: 'אולם, לכן, ובכל זאת: מחברי שיח'
+  en: Connectors
+story: 'יעל כותבת עבודת סיכום על השנה שלה במקסיקו עבור קורס אונליין. הדוקטור הררה, שמלמדת בקורס, מבקשת שהטקסט יזרום. יעל לומדת מחברים שמארגנים טיעון: además, sin embargo, por lo tanto, a pesar de.'
+canDo:
+- לחבר רעיונות בעזרת además, también, incluso
+- 'להביע ניגוד: sin embargo, en cambio, a pesar de, aunque'
+- 'להביע סיבה ותוצאה: por lo tanto, ya que, así que'
+- 'לפתוח ולסכם טקסט: en primer lugar, en conclusión'
+vocabulary:
+- id: ademas
+  text: además
+  translation: בנוסף
+  pos: adverb
+- id: sin-embargo
+  text: sin embargo
+  translation: אולם
+  pos: adverb
+- id: en-cambio
+  text: en cambio
+  translation: לעומת זאת
+  pos: phrase
+- id: a-pesar-de
+  text: a pesar de
+  translation: למרות
+  pos: phrase
+- id: por-lo-tanto
+  text: por lo tanto
+  translation: לכן
+  pos: phrase
+- id: ya-que
+  text: ya que
+  translation: מאחר ש
+  pos: conjunction
+- id: asi-que
+  text: así que
+  translation: אז, לכן
+  pos: conjunction
+- id: de-hecho
+  text: de hecho
+  translation: למעשה
+  pos: phrase
+- id: incluso
+  text: incluso
+  translation: אפילו
+  pos: adverb
+- id: mientras-que
+  text: mientras que
+  translation: בעוד ש
+  pos: conjunction
+- id: en-primer-lugar
+  text: en primer lugar
+  translation: ראשית
+  pos: phrase
+- id: en-conclusion
+  text: en conclusión
+  translation: לסיכום
+  pos: phrase
+- id: no-obstante
+  text: no obstante
+  translation: עם זאת
+  pos: phrase
+- id: dado-que
+  text: dado que
+  translation: היות ש
+  pos: conjunction
+- id: aun-asi
+  text: aun así
+  translation: ובכל זאת
+  pos: phrase
+- id: ensayo
+  text: el ensayo
+  translation: חיבור, מאמר
+  pos: noun
+- id: argumento
+  text: el argumento
+  translation: טיעון
+  pos: noun
+grammar:
+- id: conectores
+  title:
+    he: מחברי שיח
+    en: Discourse connectors
+  explanation: 'בעברית אנחנו מארגנים טקסט עם "אולם", "לכן", "לעומת זאת". בספרדית:
+
+
+    **תוספת:** *además* (בנוסף) | *también* | *incluso* (אפילו) | *de hecho* (למעשה)
+
+    * *El curso es útil. **Además**, es barato.*
+
+
+    **ניגוד:**
+
+    * *sin embargo / no obstante* (אולם, עם זאת) – בתחילת משפט או אחרי פסיק: *Quería ir. **Sin embargo**, estaba cansada.*
+
+    * *en cambio* (לעומת זאת), *mientras que* (בעוד ש): *Yo estudio de noche, **mientras que** él estudia de mañana.*
+
+    * *a pesar de* + שם עצם או מקור (למרות): ***A pesar de** la lluvia, salimos.* | *aunque* (למרות ש) + אינדיקטיב או סובג''ונקטיב.
+
+    * *aun así* (ובכל זאת): *Estaba cansada. **Aun así**, vino.*
+
+
+    **סיבה ותוצאה:**
+
+    * *ya que / dado que / puesto que* (מאחר ש): *Llegué tarde **ya que** perdí el autobús.*
+
+    * *por lo tanto / así que / por eso* (לכן): *Perdí el autobús, **por lo tanto**, llegué tarde.*
+
+
+    **מבנה טיעון:** *en primer lugar* (ראשית) → *en segundo lugar* → *además* → *sin embargo* → *en conclusión / para terminar* (לסיכום)
+
+    **הערה:** בדיבור מקסיקני נפוץ *entonces* ו*o sea*. בכתיבה אקדמית משתמשים ב־*por lo tanto*, *no obstante*, *dado que*.'
+  examples:
+  - text: En primer lugar, el curso es útil; además, es barato. Sin embargo, es difícil.
+    translation: ראשית הקורס שימושי; בנוסף הוא זול. אולם הוא קשה.
+  - text: A pesar de la lluvia, salimos; por lo tanto, llegamos mojados.
+    translation: למרות הגשם יצאנו; לכן הגענו רטובים.
+  - text: En conclusión, aprendí mucho, ya que hablé español todos los días.
+    translation: לסיכום, למדתי הרבה, מאחר שדיברתי ספרדית כל יום.
+lessons:
+- id: u37-l1
+  kind: new
+  title:
+    he: להוסיף ולהתנגד
+    en: Adding and contrasting
+  exercises:
+  - id: u37-l1-01
+    type: dialogue
+    scene: יעל ופרופסור הררה על הטקסט.
+    lines:
+    - speaker: herrera
+      text: Tu texto es claro; además, usas buen vocabulario. Sin embargo, faltan conectores.
+      translation: הטקסט שלך ברור; בנוסף את משתמשת באוצר מילים טוב. אולם חסרים מחברים.
+    - speaker: yael
+      text: A pesar de mi esfuerzo, mis ideas parecen sueltas. Por lo tanto, voy a reorganizar el ensayo.
+      translation: למרות המאמץ, הרעיונות שלי נראים מפוזרים. לכן אארגן מחדש את החיבור.
+    - speaker: herrera
+      text: Aun así, el argumento es bueno. Sin duda va a mejorar.
+      translation: ובכל זאת הטיעון טוב. ללא ספק זה ישתפר.
+  - id: u37-l1-02
+    type: learn
+    lexeme: ademas
+  - id: u37-l1-03
+    type: learn
+    lexeme: sin-embargo
+  - id: u37-l1-04
+    type: learn
+    lexeme: en-cambio
+  - id: u37-l1-05
+    type: learn
+    lexeme: a-pesar-de
+  - id: u37-l1-06
+    type: learn
+    lexeme: aun-asi
+  - id: u37-l1-07
+    type: learn
+    lexeme: de-hecho
+  - id: u37-l1-08
+    type: learn
+    lexeme: incluso
+  - id: u37-l1-09
+    type: learn
+    lexeme: ensayo
+  - id: u37-l1-10
+    type: learn
+    lexeme: argumento
+  - id: u37-l1-11
+    type: match_pairs
+    pairs:
+    - - además
+      - בנוסף
+    - - sin embargo
+      - אולם
+    - - en cambio
+      - לעומת זאת
+    - - a pesar de
+      - למרות
+    - - aun así
+      - ובכל זאת
+    lexemes:
+    - ademas
+    - sin-embargo
+    - en-cambio
+    - a-pesar-de
+    - aun-asi
+  - id: u37-l1-12
+    type: match_pairs
+    pairs:
+    - - sin duda
+      - ללא ספק
+    - - de hecho
+      - למעשה
+    - - incluso
+      - אפילו
+    - - el ensayo
+      - חיבור
+    - - el argumento
+      - טיעון
+    lexemes:
+    - sin-duda
+    - de-hecho
+    - incluso
+    - ensayo
+    - argumento
+  - id: u37-l1-13
+    type: multiple_choice
+    prompt: מה פירוש 'sin embargo'?
+    options:
+    - אולם
+    - לכן
+    - בנוסף
+    correct: 0
+    lexemes:
+    - sin-embargo
+  - id: u37-l1-14
+    type: multiple_choice
+    prompt: 'איזה מחבר מתאים: ''Estaba cansada. ___, vino.''?'
+    options:
+    - Aun así
+    - Por lo tanto
+    - Además
+    correct: 0
+    lexemes:
+    - aun-asi
+  - id: u37-l1-15
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - A pesar de la lluvia, salimos.
+    - A pesar la lluvia, salimos.
+    - A pesar que la lluvia, salimos.
+    correct: 0
+    lexemes:
+    - a-pesar-de
+  - id: u37-l1-16
+    type: listening_choice
+    audioText: Es barato; además, es útil.
+    question: מה אומרים?
+    options:
+    - זול ובנוסף שימושי
+    - זול אבל לא שימושי
+    - לא זול
+    correct: 0
+    lexemes:
+    - ademas
+    - barato
+  - id: u37-l1-17
+    type: listening_choice
+    audioText: Yo estudio de noche, en cambio, él estudia de mañana.
+    question: מה אומרים?
+    options:
+    - אני לומד בלילה, ולעומת זאת הוא בבוקר
+    - שנינו בלילה
+    - שנינו בבוקר
+    correct: 0
+    lexemes:
+    - en-cambio
+    - estudiar
+  - id: u37-l1-18
+    type: translate
+    direction: to_target
+    prompt: אולם, זה קשה.
+    answers:
+    - Sin embargo, es difícil.
+    lexemes:
+    - sin-embargo
+    - dificil
+  - id: u37-l1-19
+    type: translate
+    direction: to_target
+    prompt: למרות הגשם יצאנו.
+    answers:
+    - A pesar de la lluvia, salimos.
+    lexemes:
+    - a-pesar-de
+    - lluvia
+    - salir
+  - id: u37-l1-20
+    type: translate
+    direction: to_source
+    prompt: Además, es muy barato.
+    answers:
+    - בנוסף, זה מאוד זול
+    lexemes:
+    - ademas
+    - barato
+  - id: u37-l1-21
+    type: dictation
+    text: Sin embargo, estaba cansada.
+    lexemes:
+    - sin-embargo
+  - id: u37-l1-22
+    type: speak_repeat
+    text: A pesar de todo, estoy contenta.
+    translation: למרות הכול, אני מרוצה.
+    lexemes:
+    - a-pesar-de
+- id: u37-l2
+  kind: new
+  title:
+    he: סיבה ותוצאה
+    en: Cause and effect
+  exercises:
+  - id: u37-l2-01
+    type: learn
+    lexeme: por-lo-tanto
+  - id: u37-l2-02
+    type: learn
+    lexeme: ya-que
+  - id: u37-l2-03
+    type: learn
+    lexeme: asi-que
+  - id: u37-l2-04
+    type: learn
+    lexeme: mientras-que
+  - id: u37-l2-05
+    type: learn
+    lexeme: en-primer-lugar
+  - id: u37-l2-06
+    type: learn
+    lexeme: en-conclusion
+  - id: u37-l2-07
+    type: learn
+    lexeme: no-obstante
+  - id: u37-l2-08
+    type: learn
+    lexeme: dado-que
+  - id: u37-l2-09
+    type: match_pairs
+    pairs:
+    - - por lo tanto
+      - לכן
+    - - ya que
+      - מאחר ש
+    - - así que
+      - אז
+    - - dado que
+      - היות ש
+    - - no obstante
+      - עם זאת
+    lexemes:
+    - por-lo-tanto
+    - ya-que
+    - asi-que
+    - dado-que
+    - no-obstante
+  - id: u37-l2-10
+    type: match_pairs
+    pairs:
+    - - mientras que
+      - בעוד ש
+    - - en primer lugar
+      - ראשית
+    - - en conclusión
+      - לסיכום
+    - - el ensayo
+      - חיבור
+    - - sin duda
+      - ללא ספק
+    lexemes:
+    - mientras-que
+    - en-primer-lugar
+    - en-conclusion
+    - ensayo
+    - sin-duda
+  - id: u37-l2-11
+    type: dialogue
+    scene: יעל קוראת את פתיחת העבודה.
+    lines:
+    - speaker: yael
+      text: En primer lugar, aprendí mucho, ya que hablé español todos los días.
+      translation: ראשית למדתי הרבה, מאחר שדיברתי ספרדית כל יום.
+    - speaker: herrera
+      text: ¿Y en segundo lugar?
+      translation: ובמקום השני?
+    - speaker: yael
+      text: Además, conocí gente nueva. En conclusión, fue una experiencia muy positiva.
+      translation: בנוסף הכרתי אנשים חדשים. לסיכום, זו הייתה חוויה חיובית מאוד.
+  - id: u37-l2-12
+    type: multiple_choice
+    prompt: איזה מחבר מציין סיבה?
+    options:
+    - ya que
+    - por lo tanto
+    - aun así
+    correct: 0
+    lexemes:
+    - ya-que
+  - id: u37-l2-13
+    type: multiple_choice
+    prompt: איזה מחבר מציין תוצאה?
+    options:
+    - por lo tanto
+    - ya que
+    - dado que
+    correct: 0
+    lexemes:
+    - por-lo-tanto
+  - id: u37-l2-14
+    type: multiple_choice
+    prompt: מה פירוש 'en conclusión'?
+    options:
+    - לסיכום
+    - ראשית
+    - בנוסף
+    correct: 0
+    lexemes:
+    - en-conclusion
+  - id: u37-l2-15
+    type: listening_choice
+    audioText: Perdí el autobús, por lo tanto llegué tarde.
+    question: מה אומרים?
+    options:
+    - החמצתי אוטובוס ולכן איחרתי
+    - איחרתי כי הייתי עייף
+    - הגעתי בזמן
+    correct: 0
+    lexemes:
+    - por-lo-tanto
+    - perder
+    - autobus
+    - llegar
+  - id: u37-l2-16
+    type: listening_choice
+    audioText: Llegué tarde ya que perdí el autobús.
+    question: מה אומרים?
+    options:
+    - איחרתי מאחר שהחמצתי אוטובוס
+    - איחרתי ולכן החמצתי
+    - הגעתי בזמן
+    correct: 0
+    lexemes:
+    - ya-que
+    - perder
+    - autobus
+  - id: u37-l2-17
+    type: fill_blank
+    sentence: Perdí el vuelo; ___, llegué tarde. (לכן)
+    translation: החמצתי את הטיסה; לכן איחרתי.
+    answers:
+    - por lo tanto
+    options:
+    - por lo tanto
+    - ya que
+    - a pesar de
+    lexemes:
+    - por-lo-tanto
+  - id: u37-l2-18
+    type: fill_blank
+    sentence: Llegué tarde ___ perdí el vuelo. (מאחר ש)
+    translation: איחרתי מאחר שהחמצתי את הטיסה.
+    answers:
+    - ya que
+    options:
+    - ya que
+    - por lo tanto
+    - sin embargo
+    lexemes:
+    - ya-que
+  - id: u37-l2-19
+    type: fill_blank
+    sentence: Yo estudio de noche, ___ él estudia de mañana. (בעוד ש)
+    translation: אני לומד בלילה, בעוד שהוא לומד בבוקר.
+    answers:
+    - mientras que
+    options:
+    - mientras que
+    - así que
+    - ya que
+    lexemes:
+    - mientras-que
+  - id: u37-l2-20
+    type: fill_blank
+    sentence: ___ lugar, es útil. (ראשית)
+    translation: ראשית, זה שימושי.
+    answers:
+    - En primer
+    options:
+    - En primer
+    - En segundo
+    - En último
+    lexemes:
+    - en-primer-lugar
+  - id: u37-l2-21
+    type: word_bank
+    prompt: לכן אני נשארת.
+    answers:
+    - Por lo tanto, me quedo.
+    distractors:
+    - Por lo tanto me quedaría
+    lexemes:
+    - por-lo-tanto
+    - quedarse-p
+  - id: u37-l2-22
+    type: word_bank
+    prompt: לסיכום, זה טוב.
+    answers:
+    - En conclusión, es bueno.
+    distractors:
+    - En conclusión es buena idea
+    lexemes:
+    - en-conclusion
+  - id: u37-l2-23
+    type: translate
+    direction: to_target
+    prompt: מאחר שהיה קר, נשארנו בבית.
+    answers:
+    - Ya que hacía frío, nos quedamos en casa.
+    - Dado que hacía frío, nos quedamos en casa.
+    lexemes:
+    - ya-que
+    - frio
+    - quedarse-p
+    - casa
+  - id: u37-l2-24
+    type: translate
+    direction: to_source
+    prompt: Así que me quedé.
+    answers:
+    - אז נשארתי
+    - אז נשארתי שם
+    lexemes:
+    - asi-que
+    - quedarse-p
+  - id: u37-l2-25
+    type: dictation
+    text: En primer lugar, es útil.
+    lexemes:
+    - en-primer-lugar
+- id: u37-l3
+  kind: grammar
+  title:
+    he: לבחור מחבר
+    en: Choosing a connector
+  grammar: conectores
+  exercises:
+  - id: u37-l3-01
+    type: fill_blank
+    sentence: El curso es caro. ___, es muy bueno. (ובכל זאת)
+    translation: הקורס יקר. ובכל זאת הוא טוב מאוד.
+    answers:
+    - Aun así
+    options:
+    - Aun así
+    - Por lo tanto
+    - Ya que
+    lexemes:
+    - aun-asi
+    - caro
+  - id: u37-l3-02
+    type: fill_blank
+    sentence: Llovía; ___, nos quedamos. (לכן)
+    translation: ירד גשם; לכן נשארנו.
+    answers:
+    - por lo tanto
+    options:
+    - por lo tanto
+    - sin embargo
+    - a pesar de
+    lexemes:
+    - por-lo-tanto
+    - llover
+    - quedarse-p
+  - id: u37-l3-03
+    type: fill_blank
+    sentence: ___ la lluvia, salimos. (למרות)
+    translation: למרות הגשם יצאנו.
+    answers:
+    - A pesar de
+    options:
+    - A pesar de
+    - Ya que
+    - Por lo tanto
+    lexemes:
+    - a-pesar-de
+    - lluvia
+    - salir
+  - id: u37-l3-04
+    type: fill_blank
+    sentence: Es barato. ___, es práctico. (בנוסף)
+    translation: זה זול. בנוסף זה מעשי.
+    answers:
+    - Además
+    options:
+    - Además
+    - Sin embargo
+    - Por lo tanto
+    lexemes:
+    - ademas
+    - barato
+  - id: u37-l3-05
+    type: fill_blank
+    sentence: Me gusta, ___ es difícil. (אבל / אולם)
+    translation: זה מוצא חן בעיניי, אולם זה קשה.
+    answers:
+    - sin embargo
+    options:
+    - sin embargo
+    - ya que
+    - así que
+    lexemes:
+    - sin-embargo
+    - gustar
+    - dificil
+  - id: u37-l3-06
+    type: fill_blank
+    sentence: No fui ___ estaba enfermo. (כי)
+    translation: לא הלכתי כי הייתי חולה.
+    answers:
+    - ya que
+    options:
+    - ya que
+    - aunque
+    - por lo tanto
+    lexemes:
+    - ya-que
+    - enfermo
+  - id: u37-l3-07
+    type: multiple_choice
+    prompt: איזה מחבר מציין ניגוד?
+    options:
+    - sin embargo
+    - por lo tanto
+    - además
+    correct: 0
+    lexemes:
+    - sin-embargo
+  - id: u37-l3-08
+    type: multiple_choice
+    prompt: איזה מחבר מציין תוספת?
+    options:
+    - además
+    - a pesar de
+    - aun así
+    correct: 0
+    lexemes:
+    - ademas
+  - id: u37-l3-09
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - A pesar de estar cansada, trabajó.
+    - A pesar que estaba cansada, trabajó.
+    - A pesar de que cansada, trabajó.
+    correct: 0
+    lexemes:
+    - a-pesar-de
+    - trabajar
+  - id: u37-l3-10
+    type: word_bank
+    prompt: אולם הוא לא בא.
+    answers:
+    - Sin embargo, no vino.
+    distractors:
+    - Sin embargo no vendrá
+    lexemes:
+    - sin-embargo
+    - venir
+  - id: u37-l3-11
+    type: word_bank
+    prompt: בעוד שהיא עובדת, הוא לומד.
+    answers:
+    - Mientras que ella trabaja, él estudia.
+    distractors:
+    - Mientras que ella trabajó él estudia
+    lexemes:
+    - mientras-que
+    - trabajar
+    - estudiar
+  - id: u37-l3-12
+    type: translate
+    direction: to_target
+    prompt: ללא ספק זה חשוב.
+    answers:
+    - Sin duda es importante.
+    lexemes:
+    - sin-duda
+    - importante
+  - id: u37-l3-13
+    type: translate
+    direction: to_target
+    prompt: לסיכום, הייתה חוויה טובה.
+    answers:
+    - En conclusión, fue una buena experiencia.
+    lexemes:
+    - en-conclusion
+  - id: u37-l3-14
+    type: translate
+    direction: to_source
+    prompt: Dado que no tengo tiempo, no voy.
+    answers:
+    - היות שאין לי זמן, אני לא הולך
+    - היות שאין לי זמן, אני לא הולכת
+    lexemes:
+    - dado-que
+    - tener
+    - tiempo
+    - ir
+  - id: u37-l3-15
+    type: translate
+    direction: to_source
+    prompt: De hecho, ya lo había terminado.
+    answers:
+    - למעשה, כבר סיימתי את זה
+    lexemes:
+    - de-hecho
+    - ya-habia
+    - terminar
+- id: u37-l4
+  kind: reading
+  title:
+    he: עבודה קצרה
+    en: A short essay
+  exercises:
+  - id: u37-l4-01
+    type: reading
+    kind: חיבור
+    title: Mi año en México
+    text: 'En primer lugar, aprendí mucho español, ya que lo hablé todos los días. Además, conocí a gente muy amable.
+
+      Sin embargo, no todo fue fácil: al principio extrañaba a mi familia. A pesar de eso, me quedé, y por lo tanto pude terminar mi proyecto.
+
+      En conclusión, sin duda fue la mejor decisión del año.
+
+      '
+    translation: 'ראשית, למדתי הרבה ספרדית, מאחר שדיברתי אותה כל יום. בנוסף הכרתי אנשים אדיבים מאוד.
+
+      אולם לא הכול היה קל: בהתחלה התגעגעתי למשפחה. למרות זאת נשארתי, ולכן הצלחתי לסיים את הפרויקט שלי.
+
+      לסיכום, ללא ספק זו הייתה ההחלטה הטובה ביותר של השנה.
+
+      '
+  - id: u37-l4-02
+    type: multiple_choice
+    prompt: למה יעל למדה הרבה?
+    options:
+    - כי דיברה ספרדית כל יום
+    - כי למדה במוזיאון
+    - כי חזרה הביתה
+    correct: 0
+    lexemes:
+    - ya-que
+    - hablar
+    - museo
+  - id: u37-l4-03
+    type: multiple_choice
+    prompt: מה היה קשה בהתחלה?
+    options:
+    - להתגעגע למשפחה
+    - העבודה
+    - הכסף
+    correct: 0
+    lexemes:
+    - extranar
+    - trabajo
+    - dinero
+  - id: u37-l4-04
+    type: fill_blank
+    sentence: ___, no todo fue fácil. (אולם)
+    translation: אולם לא הכול היה קל.
+    answers:
+    - Sin embargo
+    options:
+    - Sin embargo
+    - Por lo tanto
+    - Ya que
+    lexemes:
+    - sin-embargo
+    - facil
+  - id: u37-l4-05
+    type: translate
+    direction: to_target
+    prompt: לסיכום, זה היה טוב.
+    answers:
+    - En conclusión, fue bueno.
+    lexemes:
+    - en-conclusion
+- id: u37-review
+  kind: review
+  title:
+    he: 'חזרה: מחברים + כתיבה'
+    en: Review + writing
+  exercises:
+  - id: u37-review-01
+    type: match_pairs
+    pairs:
+    - - además
+      - בנוסף
+    - - sin embargo
+      - אולם
+    - - por lo tanto
+      - לכן
+    - - a pesar de
+      - למרות
+    - - ya que
+      - מאחר ש
+    lexemes:
+    - ademas
+    - sin-embargo
+    - por-lo-tanto
+    - a-pesar-de
+    - ya-que
+  - id: u37-review-02
+    type: match_pairs
+    pairs:
+    - - en primer lugar
+      - ראשית
+    - - en conclusión
+      - לסיכום
+    - - mientras que
+      - בעוד ש
+    - - de hecho
+      - למעשה
+    - - aun así
+      - ובכל זאת
+    lexemes:
+    - en-primer-lugar
+    - en-conclusion
+    - mientras-que
+    - de-hecho
+    - aun-asi
+  - id: u37-review-03
+    type: fill_blank
+    sentence: Estaba cansada. ___, fui. (ובכל זאת)
+    translation: הייתי עייפה. ובכל זאת הלכתי.
+    answers:
+    - Aun así
+    options:
+    - Aun así
+    - Por eso
+    - Ya que
+    lexemes:
+    - aun-asi
+    - cansado-p
+    - ir
+  - id: u37-review-04
+    type: fill_blank
+    sentence: Es útil; ___, es barato. (בנוסף)
+    translation: זה שימושי; בנוסף זה זול.
+    answers:
+    - además
+    options:
+    - además
+    - a pesar de
+    - ya que
+    lexemes:
+    - ademas
+    - barato
+  - id: u37-review-05
+    type: multiple_choice
+    prompt: מה פירוש 'dado que'?
+    options:
+    - היות ש
+    - אולם
+    - ראשית
+    correct: 0
+    lexemes:
+    - dado-que
+  - id: u37-review-06
+    type: listening_choice
+    audioText: A pesar de todo, estoy contenta.
+    question: מה אומרים?
+    options:
+    - למרות הכול אני מרוצה
+    - בגלל הכול אני עצובה
+    - אני לא מרוצה
+    correct: 0
+    lexemes:
+    - a-pesar-de
+    - contento
+  - id: u37-review-07
+    type: word_bank
+    prompt: לכן זה חשוב.
+    answers:
+    - Por lo tanto, es importante.
+    distractors:
+    - Por lo tanto es importa
+    lexemes:
+    - por-lo-tanto
+    - importante
+  - id: u37-review-08
+    type: translate
+    direction: to_target
+    prompt: ראשית, זה זול.
+    answers:
+    - En primer lugar, es barato.
+    lexemes:
+    - en-primer-lugar
+    - barato
+  - id: u37-review-09
+    type: translate
+    direction: to_source
+    prompt: Sin duda, es una buena idea.
+    answers:
+    - ללא ספק זה רעיון טוב
+    lexemes:
+    - sin-duda
+    - idea
+  - id: u37-review-10
+    type: dictation
+    text: En conclusión, fue una buena experiencia.
+    lexemes:
+    - en-conclusion
+  - id: u37-review-11
+    type: speak_repeat
+    text: Sin embargo, estaba cansada.
+    translation: אולם הייתי עייפה.
+    lexemes:
+    - sin-embargo
+  - id: u37-review-12
+    type: write
+    prompt: 'כתבו חיבור קצר (4–6 משפטים) על נושא שאתם מכירים (שנה, עבודה, מקום, חוויה). השתמשו בלפחות חמישה מחברים שונים: ראשית (en primer lugar), בנוסף (además), ניגוד (sin embargo / en cambio / a pesar de), סיבה או תוצאה (ya que / por lo tanto), ולסיכום (en conclusión).'
+    minWords: 60
+    checks:
+    - label: 'פתיחה: en primer lugar / para empezar'
+      any:
+      - en primer lugar
+      - para empezar
+      - primero
+    - label: 'תוספת: además / también / incluso / de hecho'
+      any:
+      - ademas
+      - incluso
+      - de hecho
+      - tambien
+    - label: 'ניגוד: sin embargo / en cambio / a pesar de / aun así / no obstante'
+      any:
+      - sin embargo
+      - en cambio
+      - a pesar de
+      - aun asi
+      - no obstante
+      - mientras que
+    - label: 'סיבה/תוצאה: ya que / dado que / por lo tanto / así que'
+      any:
+      - ya que
+      - dado que
+      - por lo tanto
+      - asi que
+      - puesto que
+    - label: 'סיכום: en conclusión / para terminar'
+      any:
+      - en conclusion
+      - para terminar
+      - en resumen
+      - finalmente
+    model: En primer lugar, mi trabajo es interesante, ya que aprendo cosas nuevas todos los días. Además, mis compañeros son muy amables. Sin embargo, a veces tengo mucho trabajo y llego tarde a casa. A pesar de eso, me gusta mi trabajo y también mi ciudad. Por lo tanto, pienso quedarme otro año. En conclusión, sin duda fue una buena decisión.
+    lexemes: []

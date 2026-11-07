@@ -1,0 +1,913 @@
+id: u34-pluscuamperfecto
+cefr: B2
+scene: travel
+title:
+  he: 'כבר קרה קודם: pluscuamperfecto'
+  en: Past perfect
+story: 'יעל מגיעה מאוחר לשדה התעופה בגוואדלחרה: ''Cuando llegué, el vuelo ya había salido''. היא מספרת למתאו מה כבר קרה לפני ומה היה קורה אילו, ולומדת לסדר אירועים בעבר.'
+canDo:
+- לבנות pluscuamperfecto (había + participio)
+- לספר מה קרה לפני אירוע אחר בעבר
+- להשתמש בפרטיציפים לא רגילים (escrito, visto, hecho, dicho, puesto)
+- 'לדבר על חרטה בעבר: habría ido, habría dicho'
+vocabulary:
+- id: equipaje
+  text: el equipaje
+  translation: מטען
+  pos: noun
+- id: retrasar
+  text: retrasar
+  translation: לעכב
+  pos: verb
+- id: ya-habia
+  text: ya había…
+  translation: כבר היה…
+  pos: phrase
+- id: todavia-no-habia
+  text: todavía no había…
+  translation: עוד לא היה…
+  pos: phrase
+- id: participio-irr
+  text: escrito, visto, hecho, dicho, puesto, abierto
+  translation: פרטיציפים לא רגילים
+  pos: phrase
+- id: pluscuamperfecto
+  text: había + participio
+  translation: הוא היה… (קודם)
+  pos: phrase
+- id: despues-de-p
+  text: después de
+  translation: אחרי
+  pos: preposition
+- id: al-llegar
+  text: al llegar
+  translation: בהגעה, כשהגעתי
+  pos: phrase
+- id: justo
+  text: justo
+  translation: בדיוק
+  pos: adverb
+grammar:
+- id: pluscuamperfecto
+  title:
+    he: עבר מושלם (pluscuamperfecto)
+    en: Past perfect
+  explanation: 'בעברית "כשהגעתי, הוא כבר **היה יצא**" (עבר רחוק) – ספרדית משתמשת במבנה מסודר: **había + participio**.
+
+
+    **המבנה:** haber באימפרפקט (**había, habías, había, habíamos, habían**) + פרטיציפ (‑ado / ‑ido):
+
+    * *Cuando llegué, el vuelo ya **había salido**.* (כשהגעתי, הטיסה כבר יצאה)
+
+    * *Todavía no **habíamos comido**.* | *Ya **había hablado** con ella.*
+
+
+    **פרטיציפים לא רגילים:** *hacer → **hecho*** | *decir → **dicho*** | *ver → **visto*** | *escribir → **escrito*** | *poner → **puesto*** | *abrir → **abierto*** | *volver → **vuelto*** | *romper → **roto***
+
+
+    **משמעות:** פעולה שהסתיימה **לפני** פעולה אחרת בעבר:
+
+    * *Perdí el vuelo porque **había olvidado** el pasaporte.* (קודם שכחתי, אחר כך החמצתי)
+
+
+    **תנאי מושלם (habría + participio):** מה **היה קורה**: *Si hubiera salido antes, **habría llegado** a tiempo.* | *Habría llamado, pero no tenía tu número.*
+
+    **מילים נפוצות:** *ya* (כבר) | *todavía no* (עדיין לא) | *antes de* (לפני) | *después de* (אחרי) | *justo* (בדיוק) | *al + מקור* (כש…): *Al llegar, vi que…*
+
+
+    **הערה:** במקסיקו משתמשים בפרטריט בדיבור יומיומי ("ya salió"), אבל pluscuamperfecto חיוני בסיפור מסודר ובכתיבה.'
+  examples:
+  - text: Cuando llegué al aeropuerto, el vuelo ya había salido.
+    translation: כשהגעתי לשדה התעופה, הטיסה כבר יצאה.
+  - text: No sabía que habías vuelto. ¿Qué habías hecho?
+    translation: לא ידעתי שחזרת. מה עשית (קודם)?
+  - text: Habría llegado a tiempo si no hubiera perdido el equipaje.
+    translation: הייתי מגיעה בזמן לולא איבדתי את המטען.
+lessons:
+- id: u34-l1
+  kind: new
+  title:
+    he: הטיסה שיצאה
+    en: The flight that left
+  exercises:
+  - id: u34-l1-01
+    type: dialogue
+    scene: יעל מספרת למתאו על היום הקשה.
+    lines:
+    - speaker: yael
+      text: Cuando llegué al aeropuerto, el vuelo ya había salido.
+      translation: כשהגעתי לשדה התעופה, הטיסה כבר יצאה.
+    - speaker: mateo
+      text: ¿Por qué? ¿No habías salido temprano?
+      translation: למה? לא יצאת מוקדם?
+    - speaker: yael
+      text: Sí, pero había olvidado el pasaporte. Tuve que volver a casa.
+      translation: כן, אבל שכחתי את הדרכון. הייתי צריכה לחזור הביתה.
+  - id: u34-l1-02
+    type: learn
+    lexeme: equipaje
+  - id: u34-l1-03
+    type: learn
+    lexeme: retrasar
+  - id: u34-l1-04
+    type: learn
+    lexeme: ya-habia
+  - id: u34-l1-05
+    type: learn
+    lexeme: todavia-no-habia
+  - id: u34-l1-06
+    type: learn
+    lexeme: pluscuamperfecto
+  - id: u34-l1-07
+    type: learn
+    lexeme: participio-irr
+  - id: u34-l1-08
+    type: learn
+    lexeme: justo
+  - id: u34-l1-09
+    type: match_pairs
+    pairs:
+    - - el vuelo
+      - טיסה
+    - - perder
+      - להפסיד
+    - - el equipaje
+      - מטען
+    - - retrasar
+      - לעכב
+    - - justo
+      - בדיוק
+    lexemes:
+    - vuelo
+    - perder
+    - equipaje
+    - retrasar
+    - justo
+  - id: u34-l1-10
+    type: match_pairs
+    pairs:
+    - - ya había
+      - כבר היה
+    - - todavía no había
+      - עוד לא היה
+    - - había + participio
+      - pluscuamperfecto
+    - - antes de
+      - לפני
+    - - escrito, visto, hecho
+      - לא רגילים
+    lexemes:
+    - ya-habia
+    - todavia-no-habia
+    - pluscuamperfecto
+    - antes-de
+    - participio-irr
+  - id: u34-l1-11
+    type: multiple_choice
+    prompt: מה פירוש 'ya había salido'?
+    options:
+    - כבר יצא
+    - יצא עכשיו
+    - עוד לא יצא
+    correct: 0
+    lexemes:
+    - ya-habia
+    - salir
+  - id: u34-l1-12
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Yo había comido.
+    - Yo he comido ayer.
+    - Yo comería ayer.
+    correct: 0
+    lexemes:
+    - pluscuamperfecto
+    - comer
+  - id: u34-l1-13
+    type: multiple_choice
+    prompt: מה הפרטיציפ של 'hacer'?
+    options:
+    - hecho
+    - hacido
+    - hacer
+    correct: 0
+    lexemes:
+    - participio-irr
+    - hacer
+  - id: u34-l1-14
+    type: listening_choice
+    audioText: Cuando llegué, ya habían salido.
+    question: מה אומרים?
+    options:
+    - כשהגעתי הם כבר יצאו
+    - הם יצאו אחרי שהגעתי
+    - הם לא יצאו
+    correct: 0
+    lexemes:
+    - pluscuamperfecto
+    - llegar
+    - salir
+  - id: u34-l1-15
+    type: listening_choice
+    audioText: Todavía no había comido.
+    question: מה אומרים?
+    options:
+    - עוד לא אכלתי
+    - כבר אכלתי
+    - אוכל מחר
+    correct: 0
+    lexemes:
+    - todavia-no-habia
+    - comer
+  - id: u34-l1-16
+    type: translate
+    direction: to_target
+    prompt: כבר שכחתי.
+    answers:
+    - Ya había olvidado.
+    lexemes:
+    - ya-habia
+    - olvidar
+  - id: u34-l1-17
+    type: translate
+    direction: to_target
+    prompt: הטיסה כבר יצאה.
+    answers:
+    - El vuelo ya había salido.
+    lexemes:
+    - vuelo
+    - ya-habia
+    - salir
+  - id: u34-l1-18
+    type: translate
+    direction: to_source
+    prompt: Yo había perdido el equipaje.
+    answers:
+    - איבדתי את המטען
+    - אבדתי את המטען
+    lexemes:
+    - pluscuamperfecto
+    - perder
+    - equipaje
+  - id: u34-l1-19
+    type: dictation
+    text: El vuelo ya había salido.
+    lexemes:
+    - vuelo
+    - ya-habia
+    - salir
+  - id: u34-l1-20
+    type: speak_repeat
+    text: Cuando llegué, ya habían salido.
+    translation: כשהגעתי הם כבר יצאו.
+    lexemes:
+    - pluscuamperfecto
+    - llegar
+    - salir
+- id: u34-l2
+  kind: new
+  title:
+    he: לפני ואחרי
+    en: Before and after
+  exercises:
+  - id: u34-l2-01
+    type: learn
+    lexeme: despues-de-p
+  - id: u34-l2-02
+    type: learn
+    lexeme: al-llegar
+  - id: u34-l2-03
+    type: match_pairs
+    pairs:
+    - - antes de
+      - לפני
+    - - después de
+      - אחרי
+    - - al llegar
+      - בהגעה
+    - - el vuelo
+      - טיסה
+    - - justo
+      - בדיוק
+    lexemes:
+    - antes-de
+    - despues-de-p
+    - al-llegar
+    - vuelo
+    - justo
+  - id: u34-l2-04
+    type: dialogue
+    scene: בשדה התעופה.
+    lines:
+    - speaker: herrera
+      text: Al llegar, vi que habías dejado la maleta. Ya la había puesto en el coche.
+      translation: כשהגעתי ראיתי שהשארת את המזוודה. כבר שמתי אותה ברכב.
+    - speaker: yael
+      text: Gracias. Después de pasar el control, nos vemos. ¿Habías escrito a Sofía?
+      translation: תודה. אחרי שנעבור את הבידוק, נתראה. כתבת לסופיה?
+    - speaker: herrera
+      text: Sí, le había escrito antes de salir.
+      translation: כן, כתבתי לה לפני שיצאתי.
+  - id: u34-l2-05
+    type: multiple_choice
+    prompt: מה פירוש 'después de pasar'?
+    options:
+    - אחרי שנעבור
+    - לפני שנעבור
+    - כשעברנו
+    correct: 0
+    lexemes:
+    - despues-de-p
+    - pasar
+  - id: u34-l2-06
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Ya lo había visto.
+    - Ya lo habías vido.
+    - Ya lo había ver.
+    correct: 0
+    lexemes:
+    - ya-habia
+    - ver
+  - id: u34-l2-07
+    type: multiple_choice
+    prompt: איזה פרטיציפ נכון ל־escribir?
+    options:
+    - escrito
+    - escribido
+    - escribió
+    correct: 0
+    lexemes:
+    - participio-irr
+    - escribir
+  - id: u34-l2-08
+    type: listening_choice
+    audioText: Al llegar, vi que ya había cerrado.
+    question: מה אומרים?
+    options:
+    - כשהגעתי ראיתי שכבר נסגר
+    - הגעתי אחרי שפתחו
+    - לא נסגר
+    correct: 0
+    lexemes:
+    - al-llegar
+    - cerrar
+    - abrir
+  - id: u34-l2-09
+    type: listening_choice
+    audioText: Antes de salir, ya había comido.
+    question: מה אומרים?
+    options:
+    - לפני שיצאתי כבר אכלתי
+    - אכלתי אחרי שיצאתי
+    - לא אכלתי
+    correct: 0
+    lexemes:
+    - antes-de
+    - salir
+    - comer
+  - id: u34-l2-10
+    type: fill_blank
+    sentence: Ya ___ la puerta. (cerrar, yo)
+    translation: כבר סגרתי את הדלת.
+    answers:
+    - había cerrado
+    options:
+    - había cerrado
+    - he cerrado
+    - cerraba
+    lexemes:
+    - ya-habia
+    - cerrar
+    - puerta
+  - id: u34-l2-11
+    type: fill_blank
+    sentence: Ellos ya ___ cuando llegué. (salir)
+    translation: הם כבר יצאו כשהגעתי.
+    answers:
+    - habían salido
+    options:
+    - habían salido
+    - han salido
+    - salían
+    lexemes:
+    - ya-habia
+    - salir
+    - llegar
+  - id: u34-l2-12
+    type: fill_blank
+    sentence: ¿Ya ___ el informe? (escribir, tú)
+    translation: כבר כתבת את הדוח?
+    answers:
+    - habías escrito
+    options:
+    - habías escrito
+    - has escrito
+    - escribías
+    lexemes:
+    - ya-habia
+    - escribir
+    - informe
+  - id: u34-l2-13
+    type: fill_blank
+    sentence: Todavía no lo ___ hecho. (haber, yo)
+    translation: עוד לא עשיתי את זה.
+    answers:
+    - había
+    options:
+    - había
+    - hube
+    - he
+    lexemes:
+    - todavia-no-habia
+    - hacer
+  - id: u34-l2-14
+    type: word_bank
+    prompt: כבר אכלתי.
+    answers:
+    - Ya había comido.
+    distractors:
+    - Ya he comido ayer
+    - Ya comía
+    lexemes:
+    - ya-habia
+    - comer
+  - id: u34-l2-15
+    type: word_bank
+    prompt: הם כבר פתחו.
+    answers:
+    - Ya habían abierto.
+    distractors:
+    - Ya habían abrido
+    lexemes:
+    - ya-habia
+    - abrir
+  - id: u34-l2-16
+    type: translate
+    direction: to_target
+    prompt: לפני שיצאתי, כתבתי לה.
+    answers:
+    - Antes de salir, le había escrito.
+    lexemes:
+    - antes-de
+    - salir
+    - escribir
+  - id: u34-l2-17
+    type: translate
+    direction: to_source
+    prompt: Al llegar, ya habían cerrado.
+    answers:
+    - כשהגעתי, כבר סגרו
+    lexemes:
+    - al-llegar
+    - cerrar
+  - id: u34-l2-18
+    type: dictation
+    text: Ya había hablado con ella.
+    lexemes:
+    - ya-habia
+    - hablar
+- id: u34-l3
+  kind: grammar
+  title:
+    he: לפני הכול
+    en: First things first
+  grammar: pluscuamperfecto
+  exercises:
+  - id: u34-l3-01
+    type: fill_blank
+    sentence: Yo ya ___ cuando llegaste. (comer)
+    translation: אני כבר אכלתי כשהגעת.
+    answers:
+    - había comido
+    options:
+    - había comido
+    - he comido
+    - comí
+    lexemes:
+    - ya-habia
+    - comer
+    - llegar
+  - id: u34-l3-02
+    type: fill_blank
+    sentence: Nosotros ya ___ el vuelo. (perder)
+    translation: כבר החמצנו את הטיסה.
+    answers:
+    - habíamos perdido
+    options:
+    - habíamos perdido
+    - hemos perdido
+    - perdemos
+    lexemes:
+    - ya-habia
+    - perder
+    - vuelo
+  - id: u34-l3-03
+    type: fill_blank
+    sentence: Ella ya lo ___ dicho. (haber)
+    translation: היא כבר אמרה את זה.
+    answers:
+    - había
+    options:
+    - había
+    - ha
+    - hubo
+    lexemes:
+    - ya-habia
+    - decir
+  - id: u34-l3-04
+    type: fill_blank
+    sentence: Ya ___ puesto la mesa. (haber, yo)
+    translation: כבר שמתי את השולחן.
+    answers:
+    - había
+    options:
+    - había
+    - he
+    - hube
+    lexemes:
+    - ya-habia
+    - poner
+    - mesa
+  - id: u34-l3-05
+    type: fill_blank
+    sentence: Habría llegado, pero ___ el vuelo. (perder, yo)
+    translation: הייתי מגיעה, אבל החמצתי את הטיסה.
+    answers:
+    - perdí
+    options:
+    - perdí
+    - pierdo
+    - perdería
+    lexemes:
+    - perder
+    - vuelo
+    - llegar
+  - id: u34-l3-06
+    type: fill_blank
+    sentence: Habría ___ si lo hubiera sabido. (venir)
+    translation: הייתי באה אילו ידעתי.
+    answers:
+    - venido
+    options:
+    - venido
+    - vendría
+    - viniera
+    lexemes:
+    - venir
+  - id: u34-l3-07
+    type: fill_blank
+    sentence: Ya habían ___ la tienda. (abrir)
+    translation: הם כבר פתחו את החנות.
+    answers:
+    - abierto
+    options:
+    - abierto
+    - abrido
+    - abrió
+    lexemes:
+    - ya-habia
+    - abrir
+  - id: u34-l3-08
+    type: multiple_choice
+    prompt: מה הפרטיציפ של 'ver'?
+    options:
+    - visto
+    - vido
+    - ver
+    correct: 0
+    lexemes:
+    - participio-irr
+    - ver
+  - id: u34-l3-09
+    type: multiple_choice
+    prompt: מה פירוש 'Todavía no habíamos comido'?
+    options:
+    - עוד לא אכלנו
+    - כבר אכלנו
+    - נאכל
+    correct: 0
+    lexemes:
+    - todavia-no-habia
+    - comer
+  - id: u34-l3-10
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Cuando llegué, ya había salido.
+    - Cuando llegué, ya salía.
+    - Cuando llegué, ya saldría.
+    correct: 0
+    lexemes:
+    - pluscuamperfecto
+    - llegar
+    - salir
+  - id: u34-l3-11
+    type: word_bank
+    prompt: הוא כבר כתב לי.
+    answers:
+    - Ya me había escrito.
+    distractors:
+    - Ya me ha escribido
+    lexemes:
+    - ya-habia
+    - escribir
+  - id: u34-l3-12
+    type: word_bank
+    prompt: עוד לא ראיתי את זה.
+    answers:
+    - Todavía no lo había visto.
+    distractors:
+    - Todavía no lo habíamos vido
+    lexemes:
+    - todavia-no-habia
+    - ver
+  - id: u34-l3-13
+    type: translate
+    direction: to_target
+    prompt: כשהגעתי, כבר אכלו.
+    answers:
+    - Cuando llegué, ya habían comido.
+    lexemes:
+    - llegar
+    - ya-habia
+    - comer
+  - id: u34-l3-14
+    type: translate
+    direction: to_target
+    prompt: לפני שהגעת, כבר סגרתי.
+    answers:
+    - Antes de que llegaras, ya había cerrado.
+    lexemes:
+    - antes-de
+    - llegar
+    - ya-habia
+    - cerrar
+  - id: u34-l3-15
+    type: translate
+    direction: to_source
+    prompt: Había olvidado el pasaporte.
+    answers:
+    - שכחתי את הדרכון
+    - שכחתי את הדרכון (קודם)
+    lexemes:
+    - pluscuamperfecto
+    - olvidar
+    - pasaporte
+  - id: u34-l3-16
+    type: translate
+    direction: to_source
+    prompt: ¿Ya habías llegado?
+    answers:
+    - כבר הגעת?
+    lexemes:
+    - ya-habia
+    - llegar
+- id: u34-l4
+  kind: reading
+  title:
+    he: סיפור על נסיעה
+    en: A travel story
+  exercises:
+  - id: u34-l4-01
+    type: reading
+    kind: סיפור
+    title: El día del vuelo
+    text: 'Ese día salí temprano, pero cuando llegué al aeropuerto, el vuelo ya había salido. Yo había olvidado el pasaporte en casa y tuve que volver.
+
+      Mateo ya había llamado a la oficina y había avisado que iba a llegar tarde. Habría sido más fácil si hubiera revisado mi bolsa antes de salir.
+
+      Al final tomé otro vuelo y llegué justo para la reunión.
+
+      '
+    translation: 'באותו יום יצאתי מוקדם, אבל כשהגעתי לשדה התעופה, הטיסה כבר יצאה. שכחתי את הדרכון בבית והייתי צריכה לחזור.
+
+      מתאו כבר התקשר למשרד והודיע שאאחר. היה קל יותר אילו בדקתי את התיק לפני שיצאתי.
+
+      בסוף לקחתי טיסה אחרת והגעתי בדיוק לפגישה.
+
+      '
+  - id: u34-l4-02
+    type: multiple_choice
+    prompt: למה יעל החמיצה את הטיסה?
+    options:
+    - שכחה את הדרכון
+    - איחרה בגלל התנועה
+    - הטיסה בוטלה
+    correct: 0
+    lexemes:
+    - perder
+    - vuelo
+    - olvidar
+  - id: u34-l4-03
+    type: multiple_choice
+    prompt: מה מתאו עשה?
+    options:
+    - הודיע למשרד שהיא תאחר
+    - לקח את הטיסה
+    - שכח את התיק
+    correct: 0
+    lexemes:
+    - avisar
+    - oficina
+    - tomar
+  - id: u34-l4-04
+    type: fill_blank
+    sentence: El vuelo ya ___ salido cuando llegué.
+    translation: הטיסה כבר יצאה כשהגעתי.
+    answers:
+    - había
+    options:
+    - había
+    - ha
+    - hubo
+    lexemes:
+    - vuelo
+    - ya-habia
+    - salir
+  - id: u34-l4-05
+    type: translate
+    direction: to_target
+    prompt: שכחתי את הדרכון.
+    answers:
+    - Había olvidado el pasaporte.
+    - Olvidé el pasaporte.
+    lexemes:
+    - olvidar
+    - pasaporte
+- id: u34-review
+  kind: review
+  title:
+    he: 'חזרה: pluscuamperfecto + כתיבה'
+    en: Review + writing
+  exercises:
+  - id: u34-review-01
+    type: match_pairs
+    pairs:
+    - - el vuelo
+      - טיסה
+    - - perder
+      - להחמיץ
+    - - el equipaje
+      - מטען
+    - - retrasar
+      - לעכב
+    - - justo
+      - בדיוק
+    lexemes:
+    - vuelo
+    - perder
+    - equipaje
+    - retrasar
+    - justo
+  - id: u34-review-02
+    type: match_pairs
+    pairs:
+    - - antes de
+      - לפני
+    - - después de
+      - אחרי
+    - - al llegar
+      - בהגעה
+    - - ya había
+      - כבר היה
+    - - todavía no había
+      - עוד לא היה
+    lexemes:
+    - antes-de
+    - despues-de-p
+    - al-llegar
+    - ya-habia
+    - todavia-no-habia
+  - id: u34-review-03
+    type: fill_blank
+    sentence: Ya ___ hecho todo. (haber, yo)
+    translation: כבר עשיתי הכול.
+    answers:
+    - había
+    options:
+    - había
+    - he
+    - hube
+    lexemes:
+    - ya-habia
+    - hacer
+  - id: u34-review-04
+    type: fill_blank
+    sentence: Cuando llegué, ellos ya ___. (salir)
+    translation: כשהגעתי, הם כבר יצאו.
+    answers:
+    - habían salido
+    options:
+    - habían salido
+    - han salido
+    - salían
+    lexemes:
+    - llegar
+    - ya-habia
+    - salir
+  - id: u34-review-05
+    type: multiple_choice
+    prompt: מה פירוש 'Habría ido'?
+    options:
+    - הייתי הולך
+    - הלכתי
+    - אלך
+    correct: 0
+    lexemes:
+    - ir
+  - id: u34-review-06
+    type: listening_choice
+    audioText: Todavía no había salido.
+    question: מה אומרים?
+    options:
+    - עוד לא יצא
+    - כבר יצא
+    - יצא אתמול
+    correct: 0
+    lexemes:
+    - todavia-no-habia
+    - salir
+  - id: u34-review-07
+    type: word_bank
+    prompt: כבר כתבתי.
+    answers:
+    - Ya había escrito.
+    distractors:
+    - Ya he escribido
+    lexemes:
+    - ya-habia
+    - escribir
+  - id: u34-review-08
+    type: translate
+    direction: to_target
+    prompt: כשהגעתי, כבר שכחתי.
+    answers:
+    - Cuando llegué, ya había olvidado.
+    lexemes:
+    - llegar
+    - ya-habia
+    - olvidar
+  - id: u34-review-09
+    type: translate
+    direction: to_source
+    prompt: Ya lo había visto.
+    answers:
+    - כבר ראיתי את זה
+    - ראיתי את זה כבר
+    lexemes:
+    - ya-habia
+    - ver
+  - id: u34-review-10
+    type: dictation
+    text: Antes de salir, ya había comido.
+    lexemes:
+    - antes-de
+    - salir
+    - comer
+  - id: u34-review-11
+    type: speak_repeat
+    text: Cuando llegué, ya habían salido.
+    translation: כשהגעתי הם כבר יצאו.
+    lexemes:
+    - llegar
+    - salir
+  - id: u34-review-12
+    type: write
+    prompt: כתבו סיפור קצר על יום שבו משהו השתבש (נסיעה, פגישה, אירוע). ספרו מה כבר קרה לפני (había + participio), מה קרה אחר כך, ומה היה קורה אילו (habría… si hubiera…).
+    minWords: 50
+    checks:
+    - label: pluscuamperfecto (había / habían / habíamos + ‑ado/‑ido)
+      any:
+      - \bhabia\s+\w+(ado|ido|to|cho|so)\b
+      - \bhabian\s+\w+(ado|ido|to|cho|so)\b
+      - \bhabiamos\s+\w+(ado|ido|to|cho|so)\b
+      - \bhabias\s+\w+(ado|ido|to|cho|so)\b
+    - label: ya / todavía no / antes de / después de
+      any:
+      - ya habia
+      - ya habian
+      - todavia no
+      - antes de
+      - despues de
+      - al llegar
+    - label: תנאי מושלם (habría + participio או hubiera)
+      any:
+      - habria
+      - hubiera
+      - hubieramos
+    - label: הזכרתם טיסה, פגישה, מטען או זמן
+      any:
+      - vuelo
+      - reunion
+      - equipaje
+      - aeropuerto
+      - tren
+      - autobus
+      - hora
+      - tarde
+      - temprano
+    model: Ese día salí temprano, pero cuando llegué a la estación, el autobús ya había salido. Había olvidado mi bolsa en casa y tuve que volver. Mateo ya había llamado a la oficina para avisar. Después de esperar una hora, tomé otro autobús. Habría llegado a tiempo si hubiera revisado mi bolsa antes de salir. Al llegar, la reunión todavía no había terminado.
+    lexemes: []

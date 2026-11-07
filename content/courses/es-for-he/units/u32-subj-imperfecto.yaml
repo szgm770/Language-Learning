@@ -1,0 +1,932 @@
+id: u32-subj-imperfecto
+cefr: B2
+scene: family
+title:
+  he: הייתי רוצה ש… סובג'ונקטיב בעבר
+  en: Imperfect subjunctive
+story: 'בערב שישי יעל מתקשרת הביתה ומספרת להוריה על השנה. אמא שלה סיפרה: ''רציתי שתישארי, אבל הצעתי שתיסעי''. יעל פוגשת את הסובג''ונקטיב בעבר: quería que vinieras, ojalá tuviera, como si fuera.'
+canDo:
+- לבנות את הסובג'ונקטיב בעבר (hablara, comiera, tuviera, fuera)
+- 'לבטא רצון, עצה וציפייה בעבר: quería que, me pidió que'
+- 'להביע משאלה על ההווה: ojalá tuviera tiempo'
+- 'להשתמש ב־como si… ובבקשות מנומסות: quisiera, pudiera'
+vocabulary:
+- id: permitir
+  text: permitir
+  translation: להתיר
+  pos: verb
+- id: insistir
+  text: insistir
+  translation: להתעקש
+  pos: verb
+- id: prohibir
+  text: prohibir
+  translation: לאסור
+  pos: verb
+- id: exigir
+  text: exigir
+  translation: לדרוש
+  pos: verb
+- id: madre-p
+  text: la mamá
+  translation: אמא
+  pos: noun
+- id: padre-p
+  text: el papá
+  translation: אבא
+  pos: noun
+- id: de-nina
+  text: de niña / de niño
+  translation: בילדותי
+  pos: phrase
+- id: como-si
+  text: como si
+  translation: כאילו
+  pos: conjunction
+- id: subj-imp
+  text: hablara / comiera / viviera
+  translation: סובג'ונקטיב בעבר (ללא ערך זמן)
+  pos: phrase
+- id: subj-imp-irr
+  text: tuviera, fuera, hiciera, pudiera, dijera
+  translation: סובג'ונקטיב בעבר – לא רגילים
+  pos: phrase
+- id: quisiera-p
+  text: quisiera / pudiera
+  translation: בקשה בנימוס
+  pos: phrase
+- id: ojala-pasado
+  text: ojalá tuviera
+  translation: הלוואי שהיה לי (עכשיו)
+  pos: phrase
+- id: lejos-p
+  text: lejos de
+  translation: רחוק מ
+  pos: phrase
+grammar:
+- id: subj-imperfecto
+  title:
+    he: סובג'ונקטיב בעבר
+    en: Imperfect subjunctive
+  explanation: 'כש**הפועל הראשון בעבר** או בתנאי, הפועל השני עובר **לסובג''ונקטיב בעבר**: *Quería que **vinieras**.* (רציתי שתבוא) | *Me pidió que **esperara**.* (ביקש שאחכה)
+
+
+    **איך בונים:** לוקחים את **ellos בפרטריט** (hablaron → habla‑), מורידים את ‑ron, ומוסיפים **‑ra, ‑ras, ‑ra, ‑ramos, ‑ran**:
+
+    *hablar → hablara, hablaras, hablara, habláramos, hablaran* | *comer → comiera…* | *vivir → viviera…*
+
+    (אפשרי גם ‑se: *hablase* – ספרותי יותר)
+
+
+    **לא רגילים** (כל מה שהפרטריט שלו לא רגיל): *tener → **tuviera*** | *ser/ir → **fuera*** | *hacer → **hiciera*** | *poder → **pudiera*** | *decir → **dijera*** | *venir → **viniera*** | *querer → **quisiera*** | *estar → **estuviera***
+
+
+    **שימושים עיקריים:**
+
+    * **רצון / בקשה / עצה בעבר:** *Mi madre quería que **volviera**.* | *Me aconsejó que **descansara**.*
+
+    * **הלוואי על ההווה (שלא קיים):** *Ojalá **tuviera** más tiempo.* (הלוואי שהיה לי יותר זמן – אבל אין)
+
+    * **כאילו:** *Habla como si **fuera** experta.* (כאילו היא מומחית)
+
+    * **בקשה מנומסת:** *Quisiera un café.* | *¿Pudiera ayudarme?* (קל יותר מ"podría" בקשות רשמיות)
+
+
+    **הערה:** כמו בעברית ("רציתי שתבוא"), הזמן של הפועל הראשון קובע. עבר או תנאי → סובג''ונקטיב בעבר; הווה או עתיד → סובג''ונקטיב בהווה.'
+  examples:
+  - text: Mi mamá quería que me quedara, pero me aconsejó que viajara.
+    translation: אמא שלי רצתה שאשאר, אבל יעצה לי שאסע.
+  - text: Ojalá tuviera más tiempo para llamar.
+    translation: הלוואי שהיה לי יותר זמן להתקשר.
+  - text: Habla español como si fuera de México.
+    translation: היא מדברת ספרדית כאילו היא ממקסיקו.
+lessons:
+- id: u32-l1
+  kind: new
+  title:
+    he: מה רצו ממני
+    en: What they wanted
+  exercises:
+  - id: u32-l1-01
+    type: dialogue
+    scene: שיחה עם אמא ביום שישי.
+    lines:
+    - speaker: yael
+      text: Mamá, ¿extrañas la casa?
+      translation: אמא, את מתגעגעת לבית?
+    - speaker: mama
+      text: Mucho. Quería que te quedaras, pero te aconsejé que viajaras.
+      translation: מאוד. רציתי שתישארי, אבל יעצתי לך שתיסעי.
+    - speaker: yael
+      text: Gracias por eso. Mi papá insistió en que yo llamara cada semana.
+      translation: תודה על זה. אבא התעקש שאתקשר כל שבוע.
+  - id: u32-l1-02
+    type: learn
+    lexeme: permitir
+  - id: u32-l1-03
+    type: learn
+    lexeme: insistir
+  - id: u32-l1-04
+    type: learn
+    lexeme: prohibir
+  - id: u32-l1-05
+    type: learn
+    lexeme: exigir
+  - id: u32-l1-06
+    type: learn
+    lexeme: de-nina
+  - id: u32-l1-07
+    type: learn
+    lexeme: subj-imp
+  - id: u32-l1-08
+    type: learn
+    lexeme: subj-imp-irr
+  - id: u32-l1-09
+    type: match_pairs
+    pairs:
+    - - aconsejar
+      - לייעץ
+    - - permitir
+      - להתיר
+    - - sugerir
+      - להציע
+    - - insistir
+      - להתעקש
+    - - prohibir
+      - לאסור
+    lexemes:
+    - aconsejar
+    - permitir
+    - sugerir
+    - insistir
+    - prohibir
+  - id: u32-l1-10
+    type: match_pairs
+    pairs:
+    - - exigir
+      - לדרוש
+    - - la infancia
+      - ילדות
+    - - el recuerdo
+      - זיכרון
+    - - extrañar
+      - להתגעגע
+    - - de niña
+      - בילדותי
+    lexemes:
+    - exigir
+    - infancia
+    - recuerdo
+    - extranar
+    - de-nina
+  - id: u32-l1-11
+    type: multiple_choice
+    prompt: מה פירוש 'Quería que vinieras'?
+    options:
+    - רציתי שתבוא
+    - רוצה שתבוא
+    - אני בא
+    correct: 0
+    lexemes:
+    - querer
+    - venir
+  - id: u32-l1-12
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Me pidió que esperara.
+    - Me pidió que espero.
+    - Me pidió esperara.
+    correct: 0
+    lexemes:
+    - pedir
+    - esperar
+  - id: u32-l1-13
+    type: multiple_choice
+    prompt: מה צורת 'tener' בסובג'ונקטיב בעבר?
+    options:
+    - tuviera
+    - tenga
+    - tenía
+    correct: 0
+    lexemes:
+    - tener
+  - id: u32-l1-14
+    type: listening_choice
+    audioText: Me aconsejó que descansara.
+    question: מה אומרים?
+    options:
+    - יעץ לי לנוח
+    - יעץ לי לעבוד
+    - יעץ לי לנסוע
+    correct: 0
+    lexemes:
+    - aconsejar
+    - descansar
+    - trabajar
+    - viajar
+  - id: u32-l1-15
+    type: listening_choice
+    audioText: Mi padre insistió en que llamara.
+    question: מה אומרים?
+    options:
+    - אבא התעקש שאתקשר
+    - אבא התקשר
+    - אבא נסע
+    correct: 0
+    lexemes:
+    - insistir
+    - llamar
+    - viajar
+  - id: u32-l1-16
+    type: translate
+    direction: to_target
+    prompt: רציתי שתישארי.
+    answers:
+    - Quería que te quedaras.
+    lexemes:
+    - querer
+  - id: u32-l1-17
+    type: translate
+    direction: to_target
+    prompt: הוא ביקש שאחכה.
+    answers:
+    - Me pidió que esperara.
+    lexemes:
+    - pedir
+    - esperar
+  - id: u32-l1-18
+    type: translate
+    direction: to_source
+    prompt: Mi mamá quería que yo estudiara.
+    answers:
+    - אמא שלי רצתה שאלמד
+    lexemes:
+    - querer
+    - estudiar
+  - id: u32-l1-19
+    type: dictation
+    text: Quería que te quedaras.
+    lexemes:
+    - querer
+  - id: u32-l1-20
+    type: speak_repeat
+    text: Me aconsejó que viajara.
+    translation: הוא יעץ לי לנסוע.
+    lexemes:
+    - aconsejar
+    - viajar
+- id: u32-l2
+  kind: new
+  title:
+    he: הלוואי, כאילו, בנימוס
+    en: If only
+  exercises:
+  - id: u32-l2-01
+    type: learn
+    lexeme: como-si
+  - id: u32-l2-02
+    type: learn
+    lexeme: quisiera-p
+  - id: u32-l2-03
+    type: learn
+    lexeme: ojala-pasado
+  - id: u32-l2-04
+    type: learn
+    lexeme: lejos-p
+  - id: u32-l2-05
+    type: learn
+    lexeme: madre-p
+  - id: u32-l2-06
+    type: learn
+    lexeme: padre-p
+  - id: u32-l2-07
+    type: match_pairs
+    pairs:
+    - - como si
+      - כאילו
+    - - quisiera / pudiera
+      - בנימוס
+    - - ojalá tuviera
+      - הלוואי שהיה
+    - - lejos de
+      - רחוק מ
+    - - la mamá
+      - אמא
+    lexemes:
+    - como-si
+    - quisiera-p
+    - ojala-pasado
+    - lejos-p
+    - madre-p
+  - id: u32-l2-08
+    type: dialogue
+    scene: שיחת וידאו עם הורים.
+    lines:
+    - speaker: papa
+      text: Hablas como si fueras de aquí, Yael.
+      translation: את מדברת כאילו את מכאן, יעל.
+    - speaker: yael
+      text: Ojalá tuviera más tiempo para llamar. Estoy lejos de casa.
+      translation: הלוואי שהיה לי יותר זמן להתקשר. אני רחוקה מהבית.
+    - speaker: papa
+      text: Quisiera que volvieras pronto, pero entiendo.
+      translation: הייתי רוצה שתחזרי בקרוב, אבל אני מבין.
+  - id: u32-l2-09
+    type: multiple_choice
+    prompt: מה פירוש 'como si fuera'?
+    options:
+    - כאילו הוא
+    - כי הוא
+    - אם הוא
+    correct: 0
+    lexemes:
+    - como-si
+    - ser
+  - id: u32-l2-10
+    type: multiple_choice
+    prompt: מה פירוש 'Ojalá tuviera tiempo'?
+    options:
+    - הלוואי שהיה לי זמן
+    - יש לי זמן
+    - היה לי זמן
+    correct: 0
+    lexemes:
+    - ojala-pasado
+    - tener
+    - tiempo
+  - id: u32-l2-11
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Ojalá fuera más fácil.
+    - Ojalá es más fácil.
+    - Ojalá será más fácil.
+    correct: 0
+    lexemes:
+    - ojala-pasado
+    - facil
+  - id: u32-l2-12
+    type: listening_choice
+    audioText: Quisiera que vinieras mañana.
+    question: מה אומרים?
+    options:
+    - הייתי רוצה שתבוא מחר
+    - בוא מחר
+    - אני בא מחר
+    correct: 0
+    lexemes:
+    - quisiera-p
+    - venir
+    - manana-adv
+  - id: u32-l2-13
+    type: listening_choice
+    audioText: Habla como si fuera de México.
+    question: מה אומרים?
+    options:
+    - מדברת כאילו היא ממקסיקו
+    - מדברת על מקסיקו
+    - היא ממקסיקו
+    correct: 0
+    lexemes:
+    - como-si
+    - ser
+    - hablar
+  - id: u32-l2-14
+    type: fill_blank
+    sentence: Mi madre quería que yo ___ en casa. (estar)
+    translation: אמא רצתה שאהיה בבית.
+    answers:
+    - estuviera
+    options:
+    - estuviera
+    - esté
+    - estaba
+    lexemes:
+    - madre-p
+    - querer
+    - estar
+    - casa
+  - id: u32-l2-15
+    type: fill_blank
+    sentence: Me pidió que ___ la verdad. (decir, yo)
+    translation: הוא ביקש שאגיד את האמת.
+    answers:
+    - dijera
+    options:
+    - dijera
+    - diga
+    - dije
+    lexemes:
+    - pedir
+    - decir
+  - id: u32-l2-16
+    type: fill_blank
+    sentence: Ojalá ___ más dinero. (tener, yo)
+    translation: הלוואי שהיה לי יותר כסף.
+    answers:
+    - tuviera
+    options:
+    - tuviera
+    - tengo
+    - tenga
+    lexemes:
+    - ojala-pasado
+    - tener
+    - dinero
+  - id: u32-l2-17
+    type: fill_blank
+    sentence: Quería que ___ conmigo. (venir, tú)
+    translation: רציתי שתבוא איתי.
+    answers:
+    - vinieras
+    options:
+    - vinieras
+    - vengas
+    - vienes
+    lexemes:
+    - querer
+    - venir
+  - id: u32-l2-18
+    type: word_bank
+    prompt: הלוואי שהיה לי זמן.
+    answers:
+    - Ojalá tuviera tiempo.
+    distractors:
+    - Ojalá tengo tiempo
+    - Ojalá tenía tiempo
+    lexemes:
+    - ojala-pasado
+    - tener
+    - tiempo
+  - id: u32-l2-19
+    type: word_bank
+    prompt: רציתי שתחכה.
+    answers:
+    - Quería que esperaras.
+    distractors:
+    - Quería que esperas
+    - Quería que esperes
+    lexemes:
+    - querer
+    - esperar
+  - id: u32-l2-20
+    type: translate
+    direction: to_target
+    prompt: הוא ביקש שאתקשר.
+    answers:
+    - Me pidió que llamara.
+    lexemes:
+    - pedir
+    - llamar
+  - id: u32-l2-21
+    type: translate
+    direction: to_source
+    prompt: Quisiera que me ayudaras.
+    answers:
+    - הייתי רוצה שתעזור לי
+    - הייתי רוצה שתעזרי לי
+    lexemes:
+    - quisiera-p
+    - ayudar
+  - id: u32-l2-22
+    type: dictation
+    text: Ojalá tuviera más tiempo.
+    lexemes:
+    - ojala-pasado
+    - tener
+    - tiempo
+- id: u32-l3
+  kind: grammar
+  title:
+    he: סובג'ונקטיב בעבר
+    en: Imperfect subjunctive
+  grammar: subj-imperfecto
+  exercises:
+  - id: u32-l3-01
+    type: fill_blank
+    sentence: Quería que (tú) ___ más. (estudiar)
+    translation: רציתי שתלמד יותר.
+    answers:
+    - estudiaras
+    options:
+    - estudiaras
+    - estudies
+    - estudiabas
+    lexemes:
+    - querer
+    - estudiar
+  - id: u32-l3-02
+    type: fill_blank
+    sentence: Me aconsejó que ___ pronto. (salir, yo)
+    translation: יעץ לי לצאת בקרוב.
+    answers:
+    - saliera
+    options:
+    - saliera
+    - salga
+    - salía
+    lexemes:
+    - aconsejar
+    - salir
+    - pronto
+  - id: u32-l3-03
+    type: fill_blank
+    sentence: Mi padre quería que ___ en casa. (comer, nosotros)
+    translation: אבא רצה שנאכל בבית.
+    answers:
+    - comiéramos
+    options:
+    - comiéramos
+    - comamos
+    - comíamos
+    lexemes:
+    - padre-p
+    - querer
+    - comer
+    - casa
+  - id: u32-l3-04
+    type: fill_blank
+    sentence: Dudé que ellos ___ razón. (tener)
+    translation: פקפקתי שהם צודקים.
+    answers:
+    - tuvieran
+    options:
+    - tuvieran
+    - tengan
+    - tenían
+    lexemes:
+    - dudar
+    - tener-razon
+  - id: u32-l3-05
+    type: fill_blank
+    sentence: Ojalá ___ más fácil. (ser)
+    translation: הלוואי שהיה קל יותר.
+    answers:
+    - fuera
+    options:
+    - fuera
+    - es
+    - fue
+    lexemes:
+    - ojala-pasado
+    - facil
+  - id: u32-l3-06
+    type: fill_blank
+    sentence: Me pidió que ___ la tarea. (hacer, yo)
+    translation: ביקש שאעשה את שיעורי הבית.
+    answers:
+    - hiciera
+    options:
+    - hiciera
+    - haga
+    - hice
+    lexemes:
+    - pedir
+    - hacer
+  - id: u32-l3-07
+    type: fill_blank
+    sentence: Esperaba que ___ ayudarme. (poder, tú)
+    translation: קיוויתי שתוכל לעזור לי.
+    answers:
+    - pudieras
+    options:
+    - pudieras
+    - puedas
+    - podías
+    lexemes:
+    - esperar
+    - poder
+    - ayudar
+  - id: u32-l3-08
+    type: multiple_choice
+    prompt: איך בונים סובג'ונקטיב בעבר?
+    options:
+    - 'מ־ellos בפרטריט: ‑ron → ‑ra'
+    - מ־yo בהווה
+    - ממקור + ‑ía
+    correct: 0
+    lexemes:
+    - subj-imp
+  - id: u32-l3-09
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Quería que vinieras.
+    - Quería que vengas.
+    - Quería que vienes.
+    correct: 0
+    lexemes:
+    - querer
+    - venir
+  - id: u32-l3-10
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Habla como si fuera experta.
+    - Habla como si es experta.
+    - Habla como si será experta.
+    correct: 0
+    lexemes:
+    - como-si
+    - ser
+  - id: u32-l3-11
+    type: word_bank
+    prompt: רציתי שתבוא.
+    answers:
+    - Quería que vinieras.
+    distractors:
+    - Quería que vengas
+    - Quería que vienes
+    lexemes:
+    - querer
+    - venir
+  - id: u32-l3-12
+    type: word_bank
+    prompt: הלוואי שהיה לי אוטו.
+    answers:
+    - Ojalá tuviera coche.
+    - Ojalá tuviera un coche.
+    distractors:
+    - Ojalá tengo coche
+    lexemes:
+    - ojala-pasado
+    - tener
+  - id: u32-l3-13
+    type: translate
+    direction: to_target
+    prompt: הוא ביקש שנצא.
+    answers:
+    - Nos pidió que saliéramos.
+    lexemes:
+    - pedir
+    - salir
+  - id: u32-l3-14
+    type: translate
+    direction: to_target
+    prompt: הלוואי שהיה קל.
+    answers:
+    - Ojalá fuera fácil.
+    lexemes:
+    - ojala-pasado
+    - facil
+  - id: u32-l3-15
+    type: translate
+    direction: to_source
+    prompt: Mi mamá exigió que yo llamara.
+    answers:
+    - אמא שלי דרשה שאתקשר
+    lexemes:
+    - exigir
+    - llamar
+  - id: u32-l3-16
+    type: translate
+    direction: to_source
+    prompt: Me sugirió que descansara.
+    answers:
+    - הוא הציע לי לנוח
+    - הוא הציע לי שאנוח
+    lexemes:
+    - sugerir
+    - descansar
+- id: u32-l4
+  kind: reading
+  title:
+    he: מכתב מהבית
+    en: A letter from home
+  exercises:
+  - id: u32-l4-01
+    type: reading
+    kind: מכתב
+    title: Una carta de mamá
+    text: 'Querida Yael:
+
+      Cuando eras niña, yo quería que fueras valiente, y ahora lo eres. Tu papá insistió en que viajaras. Yo te aconsejé que no tuvieras miedo.
+
+      Ojalá estuvieras aquí para la cena de Shabat, pero entiendo que trabajas. Hablas como si vivieras allí desde siempre.
+
+      Te extrañamos. Mamá
+
+      '
+    translation: 'יעל היקרה:
+
+      כשהיית ילדה רציתי שתהיי אמיצה, ועכשיו את כזאת. אבא שלך התעקש שתיסעי. אני יעצתי לך שלא תפחדי.
+
+      הלוואי שהיית כאן לארוחת שבת, אבל אני מבינה שאת עובדת. את מדברת כאילו את גרה שם מאז ומתמיד.
+
+      אנחנו מתגעגעים אליך. אמא
+
+      '
+  - id: u32-l4-02
+    type: multiple_choice
+    prompt: מה אמא רצתה מיעל כילדה?
+    options:
+    - שתהיה אמיצה
+    - שתישאר בבית
+    - שתלמד
+    correct: 0
+    lexemes:
+    - querer
+    - estudiar
+  - id: u32-l4-03
+    type: multiple_choice
+    prompt: על מה אמא מצטערת?
+    options:
+    - שיעל לא כאן לארוחת שבת
+    - שיעל עובדת
+    - שיעל גרה שם
+    correct: 0
+    lexemes:
+    - trabajar
+    - vivir
+  - id: u32-l4-04
+    type: fill_blank
+    sentence: Tu papá insistió en que ___. (viajar, tú)
+    translation: אבא התעקש שתיסעי.
+    answers:
+    - viajaras
+    options:
+    - viajaras
+    - viajes
+    - viajabas
+    lexemes:
+    - insistir
+    - viajar
+  - id: u32-l4-05
+    type: translate
+    direction: to_target
+    prompt: הלוואי שהיית כאן.
+    answers:
+    - Ojalá estuvieras aquí.
+    lexemes:
+    - ojala-pasado
+    - estar
+    - aqui
+- id: u32-review
+  kind: review
+  title:
+    he: 'חזרה: סובג''ונקטיב בעבר + כתיבה'
+    en: Review + writing
+  exercises:
+  - id: u32-review-01
+    type: match_pairs
+    pairs:
+    - - aconsejar
+      - לייעץ
+    - - permitir
+      - להתיר
+    - - sugerir
+      - להציע
+    - - insistir
+      - להתעקש
+    - - extrañar
+      - להתגעגע
+    lexemes:
+    - aconsejar
+    - permitir
+    - sugerir
+    - insistir
+    - extranar
+  - id: u32-review-02
+    type: match_pairs
+    pairs:
+    - - la infancia
+      - ילדות
+    - - el recuerdo
+      - זיכרון
+    - - como si
+      - כאילו
+    - - de niña
+      - בילדותי
+    - - lejos de
+      - רחוק מ
+    lexemes:
+    - infancia
+    - recuerdo
+    - como-si
+    - de-nina
+    - lejos-p
+  - id: u32-review-03
+    type: fill_blank
+    sentence: Quería que ___ aquí. (estar, tú)
+    translation: רציתי שתהיה כאן.
+    answers:
+    - estuvieras
+    options:
+    - estuvieras
+    - estés
+    - estabas
+    lexemes:
+    - querer
+    - estar
+    - aqui
+  - id: u32-review-04
+    type: fill_blank
+    sentence: Ojalá ___ razón. (tener, yo)
+    translation: הלוואי שהייתי צודקת.
+    answers:
+    - tuviera
+    options:
+    - tuviera
+    - tenga
+    - tengo
+    lexemes:
+    - ojala-pasado
+    - tener-razon
+  - id: u32-review-05
+    type: multiple_choice
+    prompt: מה פירוש 'Me aconsejó que durmiera'?
+    options:
+    - יעץ לי לישון
+    - אני ישן
+    - הוא ישן
+    correct: 0
+    lexemes:
+    - aconsejar
+    - dormir
+  - id: u32-review-06
+    type: listening_choice
+    audioText: Mi mamá quería que llamara.
+    question: מה אומרים?
+    options:
+    - אמא רצתה שאתקשר
+    - אמא התקשרה
+    - אמא ענתה
+    correct: 0
+    lexemes:
+    - madre-p
+    - querer
+    - llamar
+    - contestar
+  - id: u32-review-07
+    type: word_bank
+    prompt: הלוואי שהיה לי זמן.
+    answers:
+    - Ojalá tuviera tiempo.
+    distractors:
+    - Ojalá tengo tiempo
+    lexemes:
+    - ojala-pasado
+    - tener
+    - tiempo
+  - id: u32-review-08
+    type: translate
+    direction: to_target
+    prompt: רציתי שתבוא איתי.
+    answers:
+    - Quería que vinieras conmigo.
+    lexemes:
+    - querer
+    - venir
+  - id: u32-review-09
+    type: translate
+    direction: to_source
+    prompt: Me pidió que esperara un momento.
+    answers:
+    - ביקש שאחכה רגע
+    lexemes:
+    - pedir
+    - esperar
+  - id: u32-review-10
+    type: dictation
+    text: Quería que te quedaras.
+    lexemes:
+    - querer
+  - id: u32-review-11
+    type: speak_repeat
+    text: Hablas como si fueras de aquí.
+    translation: את מדברת כאילו את מכאן.
+    lexemes:
+    - como-si
+    - ser
+    - hablar
+  - id: u32-review-12
+    type: write
+    prompt: 'כתבו על ילדותכם או על מישהו שעזר לכם: מה רצו או ביקשו ממכם (quería que… / me pidió que…), עצה שקיבלתם (me aconsejó que…), ומשאלה על ההווה (ojalá…).'
+    minWords: 40
+    checks:
+    - label: רצון או בקשה בעבר (quería que / me pidió que)
+      any:
+      - queria que
+      - me pidio que
+      - mi madre queria
+      - mi padre queria
+      - insistio en que
+    - label: עצה (me aconsejó / me sugirió que)
+      any:
+      - me aconsejo que
+      - me sugirio que
+      - me recomendo que
+    - label: משאלה על ההווה (ojalá + בעבר)
+      any:
+      - ojala tuviera
+      - ojala fuera
+      - ojala pudiera
+      - ojala estuviera
+      - ojala hiciera
+      - como si fuera
+    - label: סובג'ונקטיב בעבר (‑ara/‑iera)
+      any:
+      - \b\w+(ara|aras|iera|ieras|ieran|aran|iéramos|áramos)\b
+    model: De niña, mi mamá quería que estudiara mucho. Mi papá me pidió que ayudara en casa los viernes. Mi maestra me aconsejó que leyera todos los días. Ojalá tuviera más tiempo ahora para leer. Mi madre habla como si todavía fuera una niña de mi edad.
+    lexemes: []

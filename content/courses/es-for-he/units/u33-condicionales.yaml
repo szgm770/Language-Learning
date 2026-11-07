@@ -1,0 +1,960 @@
+id: u33-condicionales
+cefr: B2
+scene: money
+title:
+  he: 'אם… אז…: משפטי תנאי'
+  en: If-clauses
+story: יעל שוקלת אם להאריך את השהות במקסיקו. מתאו שואל 'אם תישארי, מה תעשי?', סופיה אומרת 'אילו הייתי במקומך…', ודון ריקרדו מספר מה היה קורה אילו… יעל לומדת את שלושת סוגי משפטי התנאי.
+canDo:
+- 'לבטא תנאי אפשרי: si tengo, voy'
+- 'לבטא תנאי דמיוני: si tuviera, iría'
+- 'לבטא חרטה: si hubiera sabido, habría venido'
+- להבחין בין si + אינדיקטיב ל־si + סובג'ונקטיב
+vocabulary:
+- id: decision
+  text: la decisión
+  translation: החלטה
+  pos: noun
+- id: ahorrar
+  text: ahorrar
+  translation: לחסוך
+  pos: verb
+- id: arrepentirse
+  text: arrepentirse
+  translation: להתחרט
+  pos: verb
+- id: suponer
+  text: suponer
+  translation: להניח
+  pos: verb
+- id: quedarse-p
+  text: quedarse
+  translation: להישאר
+  pos: verb
+- id: si-c
+  text: si
+  translation: אם
+  pos: conjunction
+- id: si-real
+  text: si tengo, voy
+  translation: תנאי אפשרי
+  pos: phrase
+- id: si-irreal
+  text: si tuviera, iría
+  translation: תנאי דמיוני
+  pos: phrase
+- id: si-pasado
+  text: si hubiera sabido, habría venido
+  translation: תנאי בעבר
+  pos: phrase
+- id: de-lo-contrario
+  text: de lo contrario
+  translation: אחרת
+  pos: phrase
+- id: siempre-que
+  text: siempre que
+  translation: בתנאי ש
+  pos: conjunction
+- id: por-si-acaso
+  text: por si acaso
+  translation: ליתר ביטחון
+  pos: phrase
+- id: habria
+  text: habría
+  translation: היה (מושלם)
+  pos: verb
+- id: hubiera
+  text: hubiera
+  translation: היה (סובג'ונקטיב)
+  pos: verb
+grammar:
+- id: si-clauses
+  title:
+    he: משפטי תנאי
+    en: Conditional sentences
+  explanation: 'בעברית "אם יהיה לי זמן, אבוא", "אילו היה לי זמן, הייתי בא", "אילו היה לי זמן, הייתי בא (אז)". בספרדית יש בדיוק שלוש מדרגות, והזמנים קבועים:
+
+
+    **1. אפשרי / אמיתי:** si + **הווה** → **הווה / עתיד / ציווי**
+
+    * *Si **tengo** tiempo, **voy**.* | *Si **llueve**, **me quedo** en casa.* | *Si **puedes**, **llámame**.*
+
+
+    **2. דמיוני / לא סביר בהווה:** si + **סובג''ונקטיב בעבר** → **תנאי (-ría)**
+
+    * *Si **tuviera** tiempo, **iría**.* (אילו היה לי זמן, הייתי הולכת) | *Si yo **fuera** tú, me **quedaría**.* (אילו הייתי במקומך)
+
+    * גם: *En tu lugar, me quedaría.*
+
+
+    **3. לא התממש בעבר (חרטה):** si + **pluscuamperfecto סובג''ונקטיב (hubiera + participio)** → **תנאי מושלם (habría + participio)**
+
+    * *Si **hubiera sabido**, **habría venido**.* (אילו ידעתי, הייתי בא) | *Si **hubiéramos salido** antes, **habríamos llegado**.*
+
+
+    **איסור חשוב:** אחרי **si** אין **‑ría** ואין **סובג''ונקטיב בהווה**: ✗ *Si tendría…* ✗ *Si tenga…* ✓ *Si tuviera…*
+
+    **מילים נוספות:** *siempre que* (בתנאי ש), *de lo contrario* (אחרת), *por si acaso* (ליתר ביטחון)
+
+
+    **הערה:** בדיבור מקסיקני מדברים גם בלי תנאי: *Si me dices, te ayudo.* (אם תגיד לי, אעזור) – טבעי לגמרי.'
+  examples:
+  - text: Si tengo tiempo, voy contigo.
+    translation: אם יהיה לי זמן, אבוא איתך.
+  - text: Si fuera tú, me quedaría un año más.
+    translation: אילו הייתי במקומך, הייתי נשארת עוד שנה.
+  - text: Si hubiera sabido, habría venido antes.
+    translation: אילו ידעתי, הייתי מגיעה קודם.
+lessons:
+- id: u33-l1
+  kind: new
+  title:
+    he: אם יהיה זמן
+    en: If there's time
+  exercises:
+  - id: u33-l1-01
+    type: dialogue
+    scene: על כוס קפה, מתאו ויעל.
+    lines:
+    - speaker: mateo
+      text: Yael, si te quedas otro año, ¿qué vas a hacer?
+      translation: יעל, אם תישארי עוד שנה, מה תעשי?
+    - speaker: yael
+      text: Si me quedo, voy a ahorrar más. Si no, vuelvo a casa en diciembre.
+      translation: אם אישאר, אחסוך יותר. אם לא, אחזור הביתה בדצמבר.
+    - speaker: mateo
+      text: Es una gran oportunidad. Si quieres, hablo con el gerente.
+      translation: זו הזדמנות גדולה. אם את רוצה, אדבר עם המנהל.
+  - id: u33-l1-02
+    type: learn
+    lexeme: decision
+  - id: u33-l1-03
+    type: learn
+    lexeme: ahorrar
+  - id: u33-l1-04
+    type: learn
+    lexeme: quedarse-p
+  - id: u33-l1-05
+    type: learn
+    lexeme: suponer
+  - id: u33-l1-06
+    type: learn
+    lexeme: si-c
+  - id: u33-l1-07
+    type: learn
+    lexeme: si-real
+  - id: u33-l1-08
+    type: learn
+    lexeme: siempre-que
+  - id: u33-l1-09
+    type: learn
+    lexeme: de-lo-contrario
+  - id: u33-l1-10
+    type: learn
+    lexeme: por-si-acaso
+  - id: u33-l1-11
+    type: match_pairs
+    pairs:
+    - - la decisión
+      - החלטה
+    - - la oportunidad
+      - הזדמנות
+    - - ahorrar
+      - לחסוך
+    - - quedarse
+      - להישאר
+    - - suponer
+      - להניח
+    lexemes:
+    - decision
+    - oportunidad
+    - ahorrar
+    - quedarse-p
+    - suponer
+  - id: u33-l1-12
+    type: match_pairs
+    pairs:
+    - - si
+      - אם
+    - - siempre que
+      - בתנאי ש
+    - - de lo contrario
+      - אחרת
+    - - por si acaso
+      - ליתר ביטחון
+    - - si tengo, voy
+      - תנאי אפשרי
+    lexemes:
+    - si-c
+    - siempre-que
+    - de-lo-contrario
+    - por-si-acaso
+    - si-real
+  - id: u33-l1-13
+    type: multiple_choice
+    prompt: מה פירוש 'Si llueve, me quedo'?
+    options:
+    - אם ירד גשם, אשאר
+    - ירד גשם ונשארתי
+    - אם ירד, נשארתי
+    correct: 0
+    lexemes:
+    - quedarse-p
+    - llover
+  - id: u33-l1-14
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Si tengo tiempo, voy.
+    - Si tendré tiempo, voy.
+    - Si tenga tiempo, voy.
+    correct: 0
+    lexemes:
+    - si-real
+    - tener
+    - tiempo
+  - id: u33-l1-15
+    type: multiple_choice
+    prompt: מה פירוש 'por si acaso'?
+    options:
+    - ליתר ביטחון
+    - במקרה שלא
+    - אחרי זה
+    correct: 0
+    lexemes:
+    - por-si-acaso
+  - id: u33-l1-16
+    type: listening_choice
+    audioText: Si me quedo, ahorro más.
+    question: מה אומרים?
+    options:
+    - אם אשאר, אחסוך יותר
+    - נשארתי וחסכתי
+    - לא אשאר
+    correct: 0
+    lexemes:
+    - quedarse-p
+    - ahorrar
+  - id: u33-l1-17
+    type: listening_choice
+    audioText: Si puedes, llámame.
+    question: מה אומרים?
+    options:
+    - אם תוכל, התקשר אליי
+    - התקשרתי אליך
+    - אני לא יכול
+    correct: 0
+    lexemes:
+    - si-real
+    - poder
+    - llamar
+  - id: u33-l1-18
+    type: translate
+    direction: to_target
+    prompt: אם יהיה זמן, אבוא.
+    answers:
+    - Si tengo tiempo, voy.
+    - Si tengo tiempo, iré.
+    lexemes:
+    - si-real
+    - tener
+    - tiempo
+    - ir
+  - id: u33-l1-19
+    type: translate
+    direction: to_target
+    prompt: אם ירד גשם, נישאר בבית.
+    answers:
+    - Si llueve, nos quedamos en casa.
+    lexemes:
+    - si-real
+    - llover
+    - quedarse-p
+    - casa
+  - id: u33-l1-20
+    type: translate
+    direction: to_source
+    prompt: Si quieres, te ayudo.
+    answers:
+    - אם תרצה, אעזור לך
+    - אם תרצי, אעזור לך
+    lexemes:
+    - si-real
+    - querer
+    - ayudar
+  - id: u33-l1-21
+    type: dictation
+    text: Si tengo tiempo, voy contigo.
+    lexemes:
+    - si-real
+    - tener
+    - tiempo
+  - id: u33-l1-22
+    type: speak_repeat
+    text: Si me quedo, voy a ahorrar más.
+    translation: אם אישאר, אחסוך יותר.
+    lexemes:
+    - quedarse-p
+    - ahorrar
+- id: u33-l2
+  kind: new
+  title:
+    he: אילו הייתי…
+    en: If I were…
+  exercises:
+  - id: u33-l2-01
+    type: learn
+    lexeme: si-irreal
+  - id: u33-l2-02
+    type: learn
+    lexeme: arrepentirse
+  - id: u33-l2-03
+    type: learn
+    lexeme: si-pasado
+  - id: u33-l2-04
+    type: learn
+    lexeme: habria
+  - id: u33-l2-05
+    type: learn
+    lexeme: hubiera
+  - id: u33-l2-06
+    type: match_pairs
+    pairs:
+    - - si tuviera, iría
+      - תנאי דמיוני
+    - - en tu lugar
+      - במקומך
+    - - la decisión
+      - החלטה
+    - - ahorrar
+      - לחסוך
+    - - la oportunidad
+      - הזדמנות
+    lexemes:
+    - si-irreal
+    - en-tu-lugar
+    - decision
+    - ahorrar
+    - oportunidad
+  - id: u33-l2-07
+    type: dialogue
+    scene: סופיה מייעצת ליעל.
+    lines:
+    - speaker: sofia
+      text: Si yo fuera tú, me quedaría. En tu lugar, aceptaría la oportunidad.
+      translation: אילו הייתי במקומך, הייתי נשארת. במקומך הייתי מקבלת את ההזדמנות.
+    - speaker: yael
+      text: Si tuviera más tiempo para pensar, decidiría mejor.
+      translation: אילו היה לי יותר זמן לחשוב, הייתי מחליטה טוב יותר.
+    - speaker: sofia
+      text: Si no te arrepientes, ya decidiste.
+      translation: אם את לא מתחרטת, כבר החלטת.
+  - id: u33-l2-08
+    type: multiple_choice
+    prompt: מה פירוש 'Si fuera tú'?
+    options:
+    - אילו הייתי במקומך
+    - אם אני אתה
+    - כשהייתי אתה
+    correct: 0
+    lexemes:
+    - si-irreal
+    - ser
+  - id: u33-l2-09
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Si tuviera dinero, viajaría.
+    - Si tendría dinero, viajaría.
+    - Si tengo dinero, viajaría.
+    correct: 0
+    lexemes:
+    - si-irreal
+    - tener
+    - dinero
+    - viajar
+  - id: u33-l2-10
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Si pudiera, ayudaría.
+    - Si podría, ayudaría.
+    - Si puede, ayudaría.
+    correct: 0
+    lexemes:
+    - si-irreal
+    - poder
+    - ayudar
+  - id: u33-l2-11
+    type: listening_choice
+    audioText: En tu lugar, me quedaría.
+    question: מה אומרים?
+    options:
+    - במקומך הייתי נשארת
+    - אני נשארת
+    - נשארתי
+    correct: 0
+    lexemes:
+    - en-tu-lugar
+    - quedarse-p
+  - id: u33-l2-12
+    type: listening_choice
+    audioText: Si tuviera tiempo, iría.
+    question: מה אומרים?
+    options:
+    - אילו היה לי זמן, הייתי הולכת
+    - יש לי זמן ואלך
+    - היה לי זמן והלכתי
+    correct: 0
+    lexemes:
+    - si-irreal
+    - tener
+    - tiempo
+    - ir
+  - id: u33-l2-13
+    type: fill_blank
+    sentence: Si ___ dinero, viajaría. (tener, yo)
+    translation: אילו היה לי כסף, הייתי נוסעת.
+    answers:
+    - tuviera
+    options:
+    - tuviera
+    - tengo
+    - tendría
+    lexemes:
+    - si-irreal
+    - tener
+    - dinero
+    - viajar
+  - id: u33-l2-14
+    type: fill_blank
+    sentence: Si yo ___ tú, me quedaría. (ser)
+    translation: אילו הייתי במקומך, הייתי נשארת.
+    answers:
+    - fuera
+    options:
+    - fuera
+    - soy
+    - sería
+    lexemes:
+    - si-irreal
+    - ser
+  - id: u33-l2-15
+    type: fill_blank
+    sentence: Si tuviera tiempo, ___. (ir, yo)
+    translation: אילו היה לי זמן, הייתי הולכת.
+    answers:
+    - iría
+    options:
+    - iría
+    - voy
+    - fui
+    lexemes:
+    - si-irreal
+    - ir
+  - id: u33-l2-16
+    type: fill_blank
+    sentence: Si pudiéramos, ___ más. (ahorrar, nosotros)
+    translation: אילו יכולנו, היינו חוסכים יותר.
+    answers:
+    - ahorraríamos
+    options:
+    - ahorraríamos
+    - ahorramos
+    - ahorrábamos
+    lexemes:
+    - si-irreal
+    - ahorrar
+  - id: u33-l2-17
+    type: word_bank
+    prompt: אילו הייתי במקומך.
+    answers:
+    - Si fuera tú.
+    distractors:
+    - Si sería tú
+    - Si soy tú
+    lexemes:
+    - si-irreal
+    - ser
+  - id: u33-l2-18
+    type: word_bank
+    prompt: במקומך הייתי מחליטה.
+    answers:
+    - En tu lugar, decidiría.
+    distractors:
+    - En tu lugar, decido
+    lexemes:
+    - en-tu-lugar
+    - decision
+  - id: u33-l2-19
+    type: translate
+    direction: to_target
+    prompt: אילו היה לי כסף, הייתי חוסכת.
+    answers:
+    - Si tuviera dinero, ahorraría.
+    lexemes:
+    - si-irreal
+    - tener
+    - dinero
+    - ahorrar
+  - id: u33-l2-20
+    type: translate
+    direction: to_source
+    prompt: Si pudiera, me quedaría.
+    answers:
+    - אילו יכולתי, הייתי נשארת
+    - אילו יכולתי, הייתי נשאר
+    lexemes:
+    - si-irreal
+    - poder
+    - quedarse-p
+  - id: u33-l2-21
+    type: dictation
+    text: Si fuera tú, me quedaría.
+    lexemes:
+    - si-irreal
+    - quedarse-p
+- id: u33-l3
+  kind: grammar
+  title:
+    he: שלוש מדרגות
+    en: Three types
+  grammar: si-clauses
+  exercises:
+  - id: u33-l3-01
+    type: fill_blank
+    sentence: Si ___ tiempo, voy. (tener, yo)
+    translation: אם יהיה לי זמן, אלך.
+    answers:
+    - tengo
+    options:
+    - tengo
+    - tuviera
+    - tendría
+    lexemes:
+    - si-real
+    - tener
+    - tiempo
+  - id: u33-l3-02
+    type: fill_blank
+    sentence: Si ___ tiempo, iría. (tener, yo)
+    translation: אילו היה לי זמן, הייתי הולכת.
+    answers:
+    - tuviera
+    options:
+    - tuviera
+    - tengo
+    - tendría
+    lexemes:
+    - si-irreal
+    - tener
+    - tiempo
+  - id: u33-l3-03
+    type: fill_blank
+    sentence: Si hubiera sabido, ___ venido. (haber)
+    translation: אילו ידעתי, הייתי באה.
+    answers:
+    - habría
+    options:
+    - habría
+    - había
+    - hubiera
+    lexemes:
+    - si-pasado
+    - habria
+  - id: u33-l3-04
+    type: fill_blank
+    sentence: Si ___ sabido, habría venido. (haber)
+    translation: אילו ידעתי, הייתי באה.
+    answers:
+    - hubiera
+    options:
+    - hubiera
+    - habría
+    - había
+    lexemes:
+    - si-pasado
+    - hubiera
+  - id: u33-l3-05
+    type: fill_blank
+    sentence: Si llueve, ___ en casa. (quedarse, nosotros)
+    translation: אם ירד גשם, נישאר בבית.
+    answers:
+    - nos quedamos
+    options:
+    - nos quedamos
+    - nos quedaríamos
+    - nos quedáramos
+    lexemes:
+    - si-real
+    - llover
+    - quedarse-p
+    - casa
+  - id: u33-l3-06
+    type: fill_blank
+    sentence: Si yo ___ rico, ahorraría. (ser)
+    translation: אילו הייתי עשירה, הייתי חוסכת.
+    answers:
+    - fuera
+    options:
+    - fuera
+    - soy
+    - sería
+    lexemes:
+    - si-irreal
+    - ahorrar
+  - id: u33-l3-07
+    type: fill_blank
+    sentence: Si ___ antes, habríamos llegado. (salir, nosotros)
+    translation: אילו יצאנו קודם, היינו מגיעים.
+    answers:
+    - hubiéramos salido
+    options:
+    - hubiéramos salido
+    - saldríamos
+    - salimos
+    lexemes:
+    - si-pasado
+    - salir
+    - llegar
+  - id: u33-l3-08
+    type: multiple_choice
+    prompt: מה הזמן אחרי si במדרגה 2?
+    options:
+    - סובג'ונקטיב בעבר
+    - תנאי (-ría)
+    - עתיד
+    correct: 0
+    lexemes:
+    - si-irreal
+  - id: u33-l3-09
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Si tuviera dinero, compraría.
+    - Si tendría dinero, compraría.
+    - Si tenga dinero, compraría.
+    correct: 0
+    lexemes:
+    - si-irreal
+    - tener
+    - dinero
+    - comprar
+  - id: u33-l3-10
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Si hubiera sabido, habría venido.
+    - Si habría sabido, hubiera venido.
+    - Si sabía, vendría.
+    correct: 0
+    lexemes:
+    - si-pasado
+  - id: u33-l3-11
+    type: word_bank
+    prompt: אם אוכל, אבוא.
+    answers:
+    - Si puedo, voy.
+    distractors:
+    - Si pudiera voy
+    lexemes:
+    - si-real
+    - poder
+    - ir
+  - id: u33-l3-12
+    type: word_bank
+    prompt: אילו ידעתי, הייתי באה.
+    answers:
+    - Si hubiera sabido, habría venido.
+    distractors:
+    - Si habría sabido, hubiera venido
+    lexemes:
+    - si-pasado
+  - id: u33-l3-13
+    type: translate
+    direction: to_target
+    prompt: אם תרצי, אעזור לך.
+    answers:
+    - Si quieres, te ayudo.
+    lexemes:
+    - si-real
+    - querer
+    - ayudar
+  - id: u33-l3-14
+    type: translate
+    direction: to_target
+    prompt: אילו היה לי זמן, הייתי לומדת.
+    answers:
+    - Si tuviera tiempo, estudiaría.
+    lexemes:
+    - si-irreal
+    - tener
+    - tiempo
+    - estudiar
+  - id: u33-l3-15
+    type: translate
+    direction: to_source
+    prompt: Si hubiéramos salido antes, habríamos llegado.
+    answers:
+    - אילו יצאנו קודם, היינו מגיעים
+    lexemes:
+    - si-pasado
+    - salir
+    - llegar
+  - id: u33-l3-16
+    type: translate
+    direction: to_source
+    prompt: Si fuera tú, no me arrepentiría.
+    answers:
+    - אילו הייתי במקומך, לא הייתי מתחרטת
+    lexemes:
+    - si-irreal
+    - arrepentirse
+- id: u33-l4
+  kind: reading
+  title:
+    he: שיחה על החלטה
+    en: A talk about a decision
+  exercises:
+  - id: u33-l4-01
+    type: reading
+    kind: שיחה
+    title: La decisión de Yael
+    text: 'Si me quedo en México, voy a ahorrar más y voy a mejorar mi español. Si regreso a casa, estaré con mi familia, pero perderé esta oportunidad.
+
+      Mi mamá dice: «Si fueras mi hija pequeña, te pediría que regresaras. Pero eres adulta».
+
+      Si hubiera sabido hace un año lo bien que me iba a ir aquí, habría venido antes. Siempre que pienso en esto, sonrío.
+
+      '
+    translation: 'אם אישאר במקסיקו, אחסוך יותר ואשפר את הספרדית שלי. אם אחזור הביתה, אהיה עם המשפחה, אבל אפסיד את ההזדמנות הזאת.
+
+      אמא שלי אומרת: «אילו היית הבת הקטנה שלי, הייתי מבקשת ממך לחזור. אבל את בוגרת».
+
+      אילו ידעתי לפני שנה כמה טוב יהיה לי כאן, הייתי מגיעה קודם. כל פעם שאני חושבת על זה, אני מחייכת.
+
+      '
+  - id: u33-l4-02
+    type: multiple_choice
+    prompt: מה יקרה אם יעל תישאר?
+    options:
+    - תחסוך ותשפר ספרדית
+    - תחזור הביתה
+    - תפסיק לעבוד
+    correct: 0
+    lexemes:
+    - quedarse-p
+    - ahorrar
+  - id: u33-l4-03
+    type: multiple_choice
+    prompt: מה היה קורה אילו ידעה קודם?
+    options:
+    - הייתה מגיעה מוקדם יותר
+    - הייתה נשארת בבית
+    - הייתה מתחרטת
+    correct: 0
+    lexemes:
+    - si-pasado
+    - arrepentirse
+  - id: u33-l4-04
+    type: fill_blank
+    sentence: Si me quedo, ___ más. (ahorrar, yo)
+    translation: אם אשאר, אחסוך יותר.
+    answers:
+    - ahorraré
+    options:
+    - ahorraré
+    - ahorraría
+    - ahorrara
+    lexemes:
+    - si-real
+    - quedarse-p
+    - ahorrar
+  - id: u33-l4-05
+    type: translate
+    direction: to_target
+    prompt: אם אחזור הביתה, אהיה עם המשפחה.
+    answers:
+    - Si regreso a casa, estaré con mi familia.
+    lexemes:
+    - si-real
+    - casa
+    - familia
+- id: u33-review
+  kind: review
+  title:
+    he: 'חזרה: תנאים + כתיבה'
+    en: Review + writing
+  exercises:
+  - id: u33-review-01
+    type: match_pairs
+    pairs:
+    - - la decisión
+      - החלטה
+    - - la oportunidad
+      - הזדמנות
+    - - ahorrar
+      - לחסוך
+    - - quedarse
+      - להישאר
+    - - suponer
+      - להניח
+    lexemes:
+    - decision
+    - oportunidad
+    - ahorrar
+    - quedarse-p
+    - suponer
+  - id: u33-review-02
+    type: match_pairs
+    pairs:
+    - - de lo contrario
+      - אחרת
+    - - siempre que
+      - בתנאי ש
+    - - por si acaso
+      - ליתר ביטחון
+    - - en tu lugar
+      - במקומך
+    - - si
+      - אם
+    lexemes:
+    - de-lo-contrario
+    - siempre-que
+    - por-si-acaso
+    - en-tu-lugar
+    - si-c
+  - id: u33-review-03
+    type: fill_blank
+    sentence: Si ___, te llamo. (poder, yo)
+    translation: אם אוכל, אתקשר.
+    answers:
+    - puedo
+    options:
+    - puedo
+    - pudiera
+    - podría
+    lexemes:
+    - si-real
+    - poder
+    - llamar
+  - id: u33-review-04
+    type: fill_blank
+    sentence: Si ___ más tiempo, viajaría. (tener, yo)
+    translation: אילו היה לי יותר זמן, הייתי נוסעת.
+    answers:
+    - tuviera
+    options:
+    - tuviera
+    - tengo
+    - tendría
+    lexemes:
+    - si-irreal
+    - tener
+    - tiempo
+    - viajar
+  - id: u33-review-05
+    type: multiple_choice
+    prompt: מה פירוש 'Si hubiera sabido…'?
+    options:
+    - אילו ידעתי…
+    - אם אדע…
+    - כשידעתי…
+    correct: 0
+    lexemes:
+    - si-pasado
+  - id: u33-review-06
+    type: listening_choice
+    audioText: Si fuera tú, lo haría.
+    question: מה אומרים?
+    options:
+    - אילו הייתי במקומך, הייתי עושה את זה
+    - אני עושה את זה
+    - עשיתי את זה
+    correct: 0
+    lexemes:
+    - si-irreal
+    - ser
+    - hacer
+  - id: u33-review-07
+    type: word_bank
+    prompt: אילו יכולתי, הייתי נשארת.
+    answers:
+    - Si pudiera, me quedaría.
+    distractors:
+    - Si puedo me quedaría
+    lexemes:
+    - si-irreal
+    - poder
+    - quedarse-p
+  - id: u33-review-08
+    type: translate
+    direction: to_target
+    prompt: אילו ידעתי, הייתי מתקשרת.
+    answers:
+    - Si hubiera sabido, habría llamado.
+    lexemes:
+    - si-pasado
+    - llamar
+  - id: u33-review-09
+    type: translate
+    direction: to_source
+    prompt: Si llueve, no salimos.
+    answers:
+    - אם ירד גשם, לא נצא
+    lexemes:
+    - si-real
+    - llover
+    - salir
+  - id: u33-review-10
+    type: dictation
+    text: Si tengo tiempo, voy contigo.
+    lexemes:
+    - si-real
+    - tener
+    - tiempo
+  - id: u33-review-11
+    type: speak_repeat
+    text: En tu lugar, me quedaría.
+    translation: במקומך הייתי נשארת.
+    lexemes:
+    - en-tu-lugar
+    - quedarse-p
+  - id: u33-review-12
+    type: write
+    prompt: 'כתבו על החלטה שאתם שוקלים או שקיבלתם. כללו שלושה סוגי תנאי: אפשרי (si + הווה), דמיוני (si + tuviera/fuera + ‑ría), וחרטה או תנאי בעבר (si hubiera… habría…).'
+    minWords: 45
+    checks:
+    - label: תנאי אפשרי (si + הווה)
+      any:
+      - si tengo
+      - si puedo
+      - si quiero
+      - si me quedo
+      - si voy
+      - si llueve
+      - si hay
+      - si regreso
+    - label: תנאי דמיוני (si + tuviera / fuera / pudiera + ‑ría)
+      any:
+      - si tuviera
+      - si fuera
+      - si pudiera
+      - si estuviera
+      - si tuviese
+      - si hiciera
+    - label: תנאי בעבר (hubiera + habría)
+      any:
+      - hubiera
+      - habria
+    - label: הזכרתם החלטה, הזדמנות, כסף, זמן או משפחה
+      any:
+      - decision
+      - oportunidad
+      - dinero
+      - tiempo
+      - familia
+      - trabajo
+      - casa
+    model: Si tengo tiempo el año que viene, voy a estudiar más. Si tuviera más dinero, viajaría por todo México. Si hubiera sabido hace un año que esta oportunidad era tan buena, habría tomado la decisión antes. En tu lugar, yo no esperaría más. Si puedes, decide pronto, porque el tiempo pasa.
+    lexemes: []
