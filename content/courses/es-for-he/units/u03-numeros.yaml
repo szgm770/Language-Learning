@@ -1,0 +1,1058 @@
+id: u03-numeros
+cefr: A1
+scene: work
+title:
+  he: מספרים וגיל
+  en: Numbers and age
+story: בסוף היום הראשון מחליפים מספרי טלפון. יעל לומדת לספור עד עשרים, לומדת מה גילם של דני ולוסיה, ופוגשת את הפועל tener.
+canDo:
+- לספור מ־0 עד 20
+- להגיד ולהבין מספר טלפון ספרה אחר ספרה
+- 'לשאול ולענות על גיל: tengo veinte años'
+- להשתמש בפועל tener בהווה
+vocabulary:
+- id: cero
+  text: cero
+  translation: המספר 0
+  pos: number
+- id: uno
+  text: uno
+  translation: המספר 1
+  pos: number
+- id: dos
+  text: dos
+  translation: המספר 2
+  pos: number
+- id: tres
+  text: tres
+  translation: המספר 3
+  pos: number
+- id: cuatro
+  text: cuatro
+  translation: המספר 4
+  pos: number
+- id: cinco
+  text: cinco
+  translation: המספר 5
+  pos: number
+- id: seis
+  text: seis
+  translation: המספר 6
+  pos: number
+- id: siete
+  text: siete
+  translation: המספר 7
+  pos: number
+- id: ocho
+  text: ocho
+  translation: המספר 8
+  pos: number
+- id: nueve
+  text: nueve
+  translation: המספר 9
+  pos: number
+- id: diez
+  text: diez
+  translation: המספר 10
+  pos: number
+- id: once
+  text: once
+  translation: המספר 11
+  pos: number
+- id: doce
+  text: doce
+  translation: המספר 12
+  pos: number
+- id: trece
+  text: trece
+  translation: המספר 13
+  pos: number
+- id: catorce
+  text: catorce
+  translation: המספר 14
+  pos: number
+- id: quince
+  text: quince
+  translation: המספר 15
+  pos: number
+- id: dieciseis
+  text: dieciséis
+  translation: המספר 16
+  pos: number
+- id: diecisiete
+  text: diecisiete
+  translation: המספר 17
+  pos: number
+- id: dieciocho
+  text: dieciocho
+  translation: המספר 18
+  pos: number
+- id: diecinueve
+  text: diecinueve
+  translation: המספר 19
+  pos: number
+- id: veinte
+  text: veinte
+  translation: המספר 20
+  pos: number
+- id: numero
+  text: el número
+  translation: המספר
+  pos: noun
+- id: mi
+  text: mi
+  translation: שלי (לפני שם עצם)
+  pos: determiner
+- id: tener
+  text: tener
+  translation: 'להיות ל־, לְיֵשׁ לי (גם: גיל)'
+  pos: verb
+  example:
+    text: Tengo veinte años.
+    translation: אני בן עשרים.
+- id: ano
+  text: el año
+  translation: שנה
+  pos: noun
+- id: cuantos
+  text: ¿cuántos?
+  translation: כמה? (ספירה)
+  pos: phrase
+- id: cuantos-anos
+  text: ¿cuántos años tienes?
+  translation: בן / בת כמה אתה / את?
+  pos: phrase
+- id: joven
+  text: joven
+  translation: צעיר / צעירה
+  pos: adjective
+- id: solo-solamente
+  text: solo
+  translation: רק
+  pos: adverb
+grammar:
+- id: tener-presente
+  title:
+    he: הפועל tener ואיך אומרים גיל
+    en: The verb tener and age
+  explanation: '**tener** פירושו "יש ל־" ("להחזיק"). הוא פועל חשוב מאוד, והוא **לא רגיל**:
+
+
+    | כינוי | tener | דוגמה |
+
+    |---|---|---|
+
+    | yo | **tengo** | Tengo un teléfono. |
+
+    | tú | **tienes** | ¿Tienes veinte años? |
+
+    | él / ella / usted | **tiene** | Ella tiene diecinueve años. |
+
+    | nosotros | **tenemos** | Tenemos tiempo. |
+
+    | ellos / ustedes | **tienen** | Ellos tienen dos teléfonos. |
+
+
+    **גיל:** בעברית אומרים "אני בן 19" (*להיות*). בספרדית אומרים "**יש לי** 19 שנים": **Tengo diecinueve años.**
+
+    לכן *לא* אומרים "soy diecinueve". השאלה: **¿Cuántos años tienes?**
+
+    שימו לב: *año* ב־**ñ** (לא *ano*, שזו מילה אחרת ולא מנומסת).'
+  examples:
+  - text: Dani tiene diecinueve años.
+    translation: דני בן תשע־עשרה.
+  - text: ¿Cuántos años tienes?
+    translation: בן כמה אתה?
+  - text: Tengo veinte años.
+    translation: אני בן עשרים.
+lessons:
+- id: u03-l1
+  kind: new
+  title:
+    he: 0–10 ומספר טלפון
+    en: 0–10 and phone numbers
+  exercises:
+  - id: u03-l1-01
+    type: dialogue
+    scene: סוף היום במשרד. מחליפים מספרי טלפון.
+    lines:
+    - speaker: sofia
+      text: Yael, ¿tienes un número de teléfono mexicano?
+      translation: יעל, יש לך מספר טלפון מקסיקני?
+    - speaker: yael
+      text: Sí. Mi número es el cinco, cinco, uno, dos, tres, cuatro, siete, ocho.
+      translation: כן. המספר שלי הוא 5, 5, 1, 2, 3, 4, 7, 8.
+    - speaker: sofia
+      text: Perfecto. Yo soy el cinco, cinco, nueve, cero, seis, uno, dos, tres.
+      translation: מצוין. אני 5, 5, 9, 0, 6, 1, 2, 3.
+    - speaker: yael
+      text: Gracias, Sofía. Hasta mañana.
+      translation: תודה, סופיה. להתראות מחר.
+  - id: u03-l1-02
+    type: tip
+    title: איך אומרים מספר טלפון
+    text: 'במקסיקו אומרים מספר טלפון **ספרה אחר ספרה** או בזוגות. תתרגלו להאזין לכל ספרה בנפרד, כי זה מה ששומעים בחיים האמיתיים.
+
+      '
+  - id: u03-l1-03
+    type: learn
+    lexeme: cero
+  - id: u03-l1-04
+    type: learn
+    lexeme: uno
+  - id: u03-l1-05
+    type: learn
+    lexeme: dos
+  - id: u03-l1-06
+    type: learn
+    lexeme: tres
+  - id: u03-l1-07
+    type: learn
+    lexeme: cuatro
+  - id: u03-l1-08
+    type: learn
+    lexeme: cinco
+  - id: u03-l1-09
+    type: learn
+    lexeme: seis
+  - id: u03-l1-10
+    type: learn
+    lexeme: siete
+  - id: u03-l1-11
+    type: learn
+    lexeme: ocho
+  - id: u03-l1-12
+    type: learn
+    lexeme: nueve
+  - id: u03-l1-13
+    type: learn
+    lexeme: diez
+  - id: u03-l1-14
+    type: learn
+    lexeme: numero
+  - id: u03-l1-15
+    type: learn
+    lexeme: mi
+  - id: u03-l1-16
+    type: match_pairs
+    pairs:
+    - - cero
+      - '0'
+    - - uno
+      - '1'
+    - - dos
+      - '2'
+    - - tres
+      - '3'
+    - - cuatro
+      - '4'
+    - - cinco
+      - '5'
+    lexemes:
+    - cero
+    - uno
+    - dos
+    - tres
+    - cuatro
+    - cinco
+  - id: u03-l1-17
+    type: match_pairs
+    pairs:
+    - - seis
+      - '6'
+    - - siete
+      - '7'
+    - - ocho
+      - '8'
+    - - nueve
+      - '9'
+    - - diez
+      - '10'
+    lexemes:
+    - seis
+    - siete
+    - ocho
+    - nueve
+    - diez
+  - id: u03-l1-18
+    type: multiple_choice
+    prompt: איזה מספר הוא 'siete'?
+    options:
+    - '7'
+    - '6'
+    - '9'
+    correct: 0
+    lexemes:
+    - siete
+    - seis
+    - nueve
+  - id: u03-l1-19
+    type: multiple_choice
+    prompt: איך אומרים 8 בספרדית?
+    options:
+    - ocho
+    - nueve
+    - diez
+    correct: 0
+    lexemes:
+    - ocho
+    - nueve
+    - diez
+  - id: u03-l1-20
+    type: listening_choice
+    audioText: cinco
+    question: איזה מספר שמעתם?
+    options:
+    - '5'
+    - '3'
+    - '6'
+    correct: 0
+    lexemes:
+    - cinco
+    - tres
+    - seis
+  - id: u03-l1-21
+    type: listening_choice
+    audioText: nueve
+    question: איזה מספר שמעתם?
+    options:
+    - '9'
+    - '8'
+    - '4'
+    correct: 0
+    lexemes:
+    - nueve
+    - ocho
+    - cuatro
+  - id: u03-l1-22
+    type: translate
+    direction: to_target
+    prompt: שלוש
+    answers:
+    - tres
+    lexemes:
+    - tres
+  - id: u03-l1-23
+    type: translate
+    direction: to_source
+    prompt: diez
+    answers:
+    - עשר
+    - עשרה
+    - '10'
+    lexemes:
+    - diez
+  - id: u03-l1-24
+    type: dictation
+    text: cuatro, seis, ocho
+    lexemes:
+    - cuatro
+    - seis
+    - ocho
+  - id: u03-l1-25
+    type: speak_repeat
+    text: Mi número es el cero, uno, dos.
+    translation: המספר שלי הוא 0, 1, 2.
+    lexemes:
+    - numero
+    - mi
+    - cero
+    - uno
+    - dos
+- id: u03-l2
+  kind: new
+  title:
+    he: 11–20
+    en: 11–20
+  exercises:
+  - id: u03-l2-01
+    type: learn
+    lexeme: once
+  - id: u03-l2-02
+    type: learn
+    lexeme: doce
+  - id: u03-l2-03
+    type: learn
+    lexeme: trece
+  - id: u03-l2-04
+    type: learn
+    lexeme: catorce
+  - id: u03-l2-05
+    type: learn
+    lexeme: quince
+  - id: u03-l2-06
+    type: learn
+    lexeme: dieciseis
+  - id: u03-l2-07
+    type: learn
+    lexeme: diecisiete
+  - id: u03-l2-08
+    type: learn
+    lexeme: dieciocho
+  - id: u03-l2-09
+    type: learn
+    lexeme: diecinueve
+  - id: u03-l2-10
+    type: learn
+    lexeme: veinte
+  - id: u03-l2-11
+    type: match_pairs
+    pairs:
+    - - once
+      - '11'
+    - - doce
+      - '12'
+    - - trece
+      - '13'
+    - - catorce
+      - '14'
+    - - quince
+      - '15'
+    lexemes:
+    - once
+    - doce
+    - trece
+    - catorce
+    - quince
+  - id: u03-l2-12
+    type: match_pairs
+    pairs:
+    - - dieciséis
+      - '16'
+    - - diecisiete
+      - '17'
+    - - dieciocho
+      - '18'
+    - - diecinueve
+      - '19'
+    - - veinte
+      - '20'
+    lexemes:
+    - dieciseis
+    - diecisiete
+    - dieciocho
+    - diecinueve
+    - veinte
+  - id: u03-l2-13
+    type: tip
+    title: 11–15 לבדם, 16–19 מורכבים
+    text: '**once, doce, trece, catorce, quince** הם מילים בפני עצמן. מ־16 עד 19 הם מורכבים מ־**dieci-** (עשר) ועוד ספרה: dieci+seis → **dieciséis**. שימו לב לטעם בשמונה־עשרה: *dieciocho* (בלי ''i'' כפולה).
+
+      '
+  - id: u03-l2-14
+    type: multiple_choice
+    prompt: איזה מספר הוא 'trece'?
+    options:
+    - '13'
+    - '12'
+    - '30'
+    correct: 0
+    lexemes:
+    - trece
+    - doce
+  - id: u03-l2-15
+    type: multiple_choice
+    prompt: איך אומרים 15?
+    options:
+    - quince
+    - cinco
+    - catorce
+    correct: 0
+    lexemes:
+    - quince
+    - cinco
+    - catorce
+  - id: u03-l2-16
+    type: multiple_choice
+    prompt: איך אומרים 20?
+    options:
+    - veinte
+    - diecinueve
+    - doce
+    correct: 0
+    lexemes:
+    - veinte
+    - diecinueve
+    - doce
+  - id: u03-l2-17
+    type: listening_choice
+    audioText: dieciséis
+    question: איזה מספר שמעתם?
+    options:
+    - '16'
+    - '6'
+    - '17'
+    correct: 0
+    lexemes:
+    - dieciseis
+    - seis
+    - diecisiete
+  - id: u03-l2-18
+    type: listening_choice
+    audioText: catorce
+    question: איזה מספר שמעתם?
+    options:
+    - '14'
+    - '4'
+    - '13'
+    correct: 0
+    lexemes:
+    - catorce
+    - cuatro
+    - trece
+  - id: u03-l2-19
+    type: fill_blank
+    sentence: Nueve más uno son ___.
+    translation: תשע ועוד אחד הם עשר.
+    answers:
+    - diez
+    options:
+    - diez
+    - once
+    - doce
+    lexemes:
+    - nueve
+    - uno
+    - diez
+  - id: u03-l2-20
+    type: fill_blank
+    sentence: Diez más cinco son ___.
+    translation: עשר ועוד חמש הן חמש־עשרה.
+    answers:
+    - quince
+    options:
+    - quince
+    - catorce
+    - veinte
+    lexemes:
+    - diez
+    - cinco
+    - quince
+  - id: u03-l2-21
+    type: word_bank
+    prompt: שתים־עשרה
+    answers:
+    - Doce
+    distractors:
+    - Trece
+    - Once
+    lexemes:
+    - doce
+    - trece
+    - once
+  - id: u03-l2-22
+    type: translate
+    direction: to_target
+    prompt: עשרים
+    answers:
+    - veinte
+    lexemes:
+    - veinte
+  - id: u03-l2-23
+    type: translate
+    direction: to_source
+    prompt: diecisiete
+    answers:
+    - שבע־עשרה
+    - שבעה־עשר
+    - '17'
+    - שבע עשרה
+    - שבעה עשר
+    lexemes:
+    - diecisiete
+  - id: u03-l2-24
+    type: dictation
+    text: once, doce, trece
+    lexemes:
+    - once
+    - doce
+    - trece
+  - id: u03-l2-25
+    type: speak_repeat
+    text: Quince, dieciséis, diecisiete.
+    translation: 15, 16, 17.
+    lexemes:
+    - quince
+    - dieciseis
+    - diecisiete
+- id: u03-l3
+  kind: grammar
+  title:
+    he: tener וגיל
+    en: Tener and age
+  grammar: tener-presente
+  exercises:
+  - id: u03-l3-01
+    type: learn
+    lexeme: tener
+  - id: u03-l3-02
+    type: learn
+    lexeme: ano
+  - id: u03-l3-03
+    type: learn
+    lexeme: cuantos
+  - id: u03-l3-04
+    type: learn
+    lexeme: cuantos-anos
+  - id: u03-l3-05
+    type: learn
+    lexeme: joven
+  - id: u03-l3-06
+    type: learn
+    lexeme: solo-solamente
+  - id: u03-l3-07
+    type: fill_blank
+    sentence: Yo ___ veinte años.
+    translation: אני בן עשרים.
+    answers:
+    - tengo
+    options:
+    - tengo
+    - tienes
+    - tiene
+    lexemes:
+    - tener
+    - veinte
+    - ano
+  - id: u03-l3-08
+    type: fill_blank
+    sentence: Tú ___ diecinueve años.
+    translation: אתה בן תשע־עשרה.
+    answers:
+    - tienes
+    options:
+    - tienes
+    - tengo
+    - tenemos
+    lexemes:
+    - tener
+    - diecinueve
+    - ano
+  - id: u03-l3-09
+    type: fill_blank
+    sentence: Dani ___ diecinueve años.
+    translation: דני בן תשע־עשרה.
+    answers:
+    - tiene
+    options:
+    - tiene
+    - tienes
+    - tienen
+    lexemes:
+    - tener
+    - diecinueve
+    - ano
+  - id: u03-l3-10
+    type: fill_blank
+    sentence: Nosotros ___ un teléfono.
+    translation: יש לנו טלפון.
+    answers:
+    - tenemos
+    options:
+    - tenemos
+    - tienen
+    - tengo
+    lexemes:
+    - tener
+    - telefono
+  - id: u03-l3-11
+    type: multiple_choice
+    prompt: איך שואלים 'בן כמה אתה?'
+    options:
+    - ¿Cuántos años tienes?
+    - ¿Cuántos años eres?
+    - ¿Cómo años tienes?
+    correct: 0
+    lexemes:
+    - cuantos-anos
+  - id: u03-l3-12
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Tengo quince años.
+    - Soy quince años.
+    - Tienes quince años yo.
+    correct: 0
+    lexemes:
+    - tener
+    - quince
+    - ano
+  - id: u03-l3-13
+    type: word_bank
+    prompt: אני בן שבע־עשרה.
+    answers:
+    - Tengo diecisiete años.
+    distractors:
+    - Soy
+    - Tiene
+    lexemes:
+    - tener
+    - diecisiete
+    - ano
+  - id: u03-l3-14
+    type: word_bank
+    prompt: בן כמה אתה?
+    answers:
+    - ¿Cuántos años tienes?
+    distractors:
+    - Cuántas
+    - eres
+    lexemes:
+    - cuantos-anos
+  - id: u03-l3-15
+    type: translate
+    direction: to_target
+    prompt: בת כמה היא?
+    answers:
+    - ¿Cuántos años tiene?
+    - ¿Cuántos años tiene ella?
+    lexemes:
+    - cuantos-anos
+    - ella
+  - id: u03-l3-16
+    type: translate
+    direction: to_target
+    prompt: יש לי שני טלפונים.
+    answers:
+    - Tengo dos teléfonos.
+    lexemes:
+    - tener
+    - dos
+    - telefono
+  - id: u03-l3-17
+    type: translate
+    direction: to_source
+    prompt: Ellos tienen doce años.
+    answers:
+    - יש להם שתים־עשרה שנים
+    - הם בני שתים־עשרה
+    - הם בני שתים עשרה
+    lexemes:
+    - tener
+    - doce
+    - ano
+  - id: u03-l3-18
+    type: translate
+    direction: to_source
+    prompt: Mi número es el uno, dos, tres.
+    answers:
+    - המספר שלי הוא 1, 2, 3
+    - המספר שלי הוא אחד שתיים שלוש
+    - המספר שלי הוא אחת, שתיים, שלוש
+    - המספר שלי הוא אחד, שתיים, שלוש
+    lexemes:
+    - numero
+    - mi
+- id: u03-l4
+  kind: listening
+  title:
+    he: מי בן כמה?
+    en: How old is everyone?
+  exercises:
+  - id: u03-l4-01
+    type: dialogue
+    scene: בהפסקה, דני ולוסיה מדברים עם יעל.
+    lines:
+    - speaker: lucia
+      text: Yael, ¿cuántos años tienes?
+      translation: יעל, בת כמה את?
+    - speaker: yael
+      text: Yo tengo veinte... no, perdón, tengo muchos más. Y tú, ¿cuántos años tienes?
+      translation: יש לי עשרים... לא, סליחה, הרבה יותר. ואת, בת כמה את?
+    - speaker: lucia
+      text: Yo tengo diecinueve años. Dani tiene veinte.
+      translation: אני בת תשע־עשרה. לדני יש עשרים.
+    - speaker: dani
+      text: Sí, tengo veinte años. Somos jóvenes, pero trabajamos mucho.
+      translation: כן, אני בן עשרים. אנחנו צעירים, אבל עובדים הרבה.
+  - id: u03-l4-02
+    type: multiple_choice
+    prompt: בת כמה לוסיה?
+    options:
+    - '19'
+    - '20'
+    - '18'
+    correct: 0
+    lexemes:
+    - diecinueve
+    - veinte
+  - id: u03-l4-03
+    type: multiple_choice
+    prompt: בן כמה דני?
+    options:
+    - '20'
+    - '19'
+    - '12'
+    correct: 0
+    lexemes:
+    - veinte
+    - diecinueve
+  - id: u03-l4-04
+    type: listening_choice
+    audioText: Tengo diecisiete años.
+    question: בן / בת כמה הדובר?
+    options:
+    - '17'
+    - '16'
+    - '7'
+    correct: 0
+    lexemes:
+    - diecisiete
+    - dieciseis
+    - siete
+  - id: u03-l4-05
+    type: listening_choice
+    audioText: Ella tiene quince años.
+    question: בת כמה היא?
+    options:
+    - '15'
+    - '5'
+    - '14'
+    correct: 0
+    lexemes:
+    - quince
+    - cinco
+    - catorce
+  - id: u03-l4-06
+    type: dictation
+    text: Tengo diecinueve años.
+    lexemes:
+    - tener
+    - diecinueve
+    - ano
+  - id: u03-l4-07
+    type: translate
+    direction: to_target
+    prompt: אני בן שמונה־עשרה.
+    answers:
+    - Tengo dieciocho años.
+    lexemes:
+    - tener
+    - dieciocho
+    - ano
+  - id: u03-l4-08
+    type: speak_repeat
+    text: Dani tiene veinte años.
+    translation: דני בן עשרים.
+    lexemes:
+    - tener
+    - veinte
+    - ano
+- id: u03-l5
+  kind: reading
+  title:
+    he: הודעה על הפרטים
+    en: A contact note
+  exercises:
+  - id: u03-l5-01
+    type: reading
+    kind: הודעה
+    title: Datos del equipo
+    text: 'Equipo de México. Tres personas jóvenes.
+
+      Lucía tiene diecinueve años. Dani tiene veinte años. Sofía tiene quince... no, ¡tiene muchos más!
+
+      Mi número es el cinco, cinco, uno, dos, tres, cuatro, siete, ocho.
+
+      '
+    translation: 'צוות מקסיקו. שלושה אנשים צעירים.
+
+      ללוסיה תשע־עשרה. לדני עשרים. לסופיה חמש־עשרה... לא, הרבה יותר!
+
+      המספר שלי הוא 5, 5, 1, 2, 3, 4, 7, 8.
+
+      '
+  - id: u03-l5-02
+    type: multiple_choice
+    prompt: בן כמה דני?
+    options:
+    - '20'
+    - '19'
+    - '15'
+    correct: 0
+    lexemes:
+    - veinte
+    - diecinueve
+    - quince
+  - id: u03-l5-03
+    type: multiple_choice
+    prompt: מה המספר האחרון במספר הטלפון?
+    options:
+    - '8'
+    - '7'
+    - '3'
+    correct: 0
+    lexemes:
+    - ocho
+    - siete
+    - tres
+  - id: u03-l5-04
+    type: fill_blank
+    sentence: Lucía ___ diecinueve años.
+    translation: ללוסיה תשע־עשרה.
+    answers:
+    - tiene
+    options:
+    - tiene
+    - tienes
+    - tengo
+    lexemes:
+    - tener
+    - diecinueve
+    - ano
+  - id: u03-l5-05
+    type: translate
+    direction: to_target
+    prompt: המספר שלי הוא חמש, חמש, אחד.
+    answers:
+    - Mi número es el cinco, cinco, uno.
+    lexemes:
+    - numero
+    - mi
+    - cinco
+    - uno
+- id: u03-review
+  kind: review
+  title:
+    he: 'חזרה: מספרים וגיל'
+    en: 'Review: numbers and age'
+  exercises:
+  - id: u03-review-01
+    type: match_pairs
+    pairs:
+    - - cero
+      - '0'
+    - - tres
+      - '3'
+    - - seis
+      - '6'
+    - - nueve
+      - '9'
+    - - doce
+      - '12'
+    lexemes:
+    - cero
+    - tres
+    - seis
+    - nueve
+    - doce
+  - id: u03-review-02
+    type: match_pairs
+    pairs:
+    - - quince
+      - '15'
+    - - dieciocho
+      - '18'
+    - - veinte
+      - '20'
+    - - diez
+      - '10'
+    - - once
+      - '11'
+    lexemes:
+    - quince
+    - dieciocho
+    - veinte
+    - diez
+    - once
+  - id: u03-review-03
+    type: fill_blank
+    sentence: Yo ___ veinte años.
+    translation: אני בן עשרים.
+    answers:
+    - tengo
+    options:
+    - tengo
+    - tiene
+    - tienes
+    lexemes:
+    - tener
+    - veinte
+    - ano
+  - id: u03-review-04
+    type: fill_blank
+    sentence: ¿Cuántos ___ tienes?
+    translation: בן כמה אתה?
+    answers:
+    - años
+    options:
+    - años
+    - números
+    - teléfonos
+    lexemes:
+    - cuantos-anos
+    - ano
+  - id: u03-review-05
+    type: listening_choice
+    audioText: Tengo trece años.
+    question: בן / בת כמה הדובר?
+    options:
+    - '13'
+    - '3'
+    - '30'
+    correct: 0
+    lexemes:
+    - tener
+    - trece
+    - tres
+  - id: u03-review-06
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Ella tiene quince años.
+    - Ella es quince años.
+    - Ella tienes quince años.
+    correct: 0
+    lexemes:
+    - tener
+    - quince
+    - ano
+  - id: u03-review-07
+    type: word_bank
+    prompt: דני בן עשרים.
+    answers:
+    - Dani tiene veinte años.
+    distractors:
+    - es
+    - tienes
+    lexemes:
+    - tener
+    - veinte
+    - ano
+  - id: u03-review-08
+    type: translate
+    direction: to_target
+    prompt: יש לי מספר טלפון.
+    answers:
+    - Tengo un número de teléfono.
+    lexemes:
+    - tener
+    - numero
+    - telefono
+  - id: u03-review-09
+    type: translate
+    direction: to_source
+    prompt: Mi número es el siete, ocho, nueve.
+    answers:
+    - המספר שלי הוא 7, 8, 9
+    - המספר שלי הוא שבע, שמונה, תשע
+    - המספר שלי הוא שבע שמונה תשע
+    lexemes:
+    - numero
+    - mi
+    - siete
+    - ocho
+    - nueve
+  - id: u03-review-10
+    type: dictation
+    text: Tengo veinte años.
+    lexemes:
+    - tener
+    - veinte
+    - ano
+  - id: u03-review-11
+    type: speak_repeat
+    text: ¿Cuántos años tienes?
+    translation: בן כמה אתה?
+    lexemes:
+    - cuantos-anos

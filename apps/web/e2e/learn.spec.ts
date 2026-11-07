@@ -228,7 +228,7 @@ test("Spanish can be started from zero", async ({ page }) => {
 });
 
 test("Spanish A1 lessons can be solved from the content", async ({ page }) => {
-  for (const id of ["u01-l2", "u02-l1", "u02-l3"]) {
+  for (const id of ["u01-l2", "u02-l1", "u02-l3", "u03-l1", "u03-l3", "u04-l1", "u04-l3"]) {
     await page.goto(`lesson/es-for-he/${id}/`);
     await finishLesson(page);
   }
