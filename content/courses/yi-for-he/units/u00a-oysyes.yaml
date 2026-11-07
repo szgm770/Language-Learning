@@ -1,0 +1,297 @@
+id: u00a-oysyes
+cefr: A0
+scene: study
+title:
+  he: האותיות והתנועות
+  en: Letters and vowels
+story: מנחם נוסע לשנה אל סבא וסבתא בכפר חב״ד. הם מדברים יידיש, והיידיש נכתבת באותיות עבריות, אבל התנועות שלה אחרות.
+canDo:
+- לקרוא יידיש באותיות עבריות
+- לזהות את התנועות הכתובות באותיות
+- להבחין בין אַ (a) לבין אָ (o)
+vocabulary:
+- id: v-pasekh-alef
+  text: אַ
+  translation: 'אלף עם פתח: הצליל a'
+  pos: noun
+  pronunciation: a
+  example:
+    text: מאַמע
+    translation: אמא
+- id: v-komets-alef
+  text: אָ
+  translation: 'אלף עם קמץ: הצליל o'
+  pos: noun
+  pronunciation: o
+  example:
+    text: דאָס
+    translation: זה
+- id: v-ayin
+  text: ע
+  translation: העי״ן היא תנועה (e) ולא עיצור
+  pos: noun
+  pronunciation: e
+  example:
+    text: שטעטל
+    translation: עיירה יהודית קטנה
+- id: v-yud
+  text: י
+  translation: היוד היא התנועה i
+  pos: noun
+  pronunciation: i
+  example:
+    text: איך
+    translation: אני
+- id: v-vov
+  text: ו
+  translation: הוו היא התנועה u
+  pos: noun
+  pronunciation: u
+  example:
+    text: קוגל
+    translation: קוגל (פשטידה)
+lessons:
+- id: u00a-l1
+  kind: new
+  title:
+    he: התנועות באותיות
+    en: Vowel letters
+  exercises:
+  - id: u00a-l1-01
+    type: tip
+    title: יידיש נכתבת באותיות עבריות
+    text: 'יידיש נכתבת **מימין לשמאל באותיות עבריות**, ולכן אתם כבר יודעים לקרוא את רוב האותיות.
+
+      ההבדל הגדול: **התנועות נכתבות באותיות** ולא בניקוד. לכן **ו**, **י**, **ע** ו**א** הן לפעמים תנועות ולא עיצורים.
+
+      רק האלף נשארת עם סימן: **אַ** (פתח) נקראת a, ו**אָ** (קמץ) נקראת o.
+
+      שימו לב: בשיעורים האלה כותבים את התנועות לפי היידיש הליטאית, כמו שמדברים בחב״ד.
+
+      '
+  - id: u00a-l1-02
+    type: learn
+    lexeme: v-pasekh-alef
+  - id: u00a-l1-03
+    type: learn
+    lexeme: v-komets-alef
+  - id: u00a-l1-04
+    type: learn
+    lexeme: v-ayin
+  - id: u00a-l1-05
+    type: learn
+    lexeme: v-yud
+  - id: u00a-l1-06
+    type: learn
+    lexeme: v-vov
+  - id: u00a-l1-07
+    type: match_pairs
+    pairs:
+    - - אַ
+      - a
+    - - אָ
+      - o
+    - - ע
+      - e
+    - - י
+      - i
+    - - ו
+      - u
+    lexemes:
+    - v-pasekh-alef
+    - v-komets-alef
+    - v-ayin
+    - v-yud
+    - v-vov
+  - id: u00a-l1-08
+    type: multiple_choice
+    prompt: איזה צליל מייצגת האות אַ?
+    options:
+    - a
+    - o
+    - e
+    correct: 0
+    lexemes:
+    - v-pasekh-alef
+  - id: u00a-l1-09
+    type: multiple_choice
+    prompt: איזה צליל מייצגת האות אָ?
+    options:
+    - o
+    - a
+    - e
+    correct: 0
+    lexemes:
+    - v-komets-alef
+  - id: u00a-l1-10
+    type: multiple_choice
+    prompt: איזה צליל מייצגת האות ע?
+    options:
+    - e
+    - a
+    - o
+    correct: 0
+    lexemes:
+    - v-ayin
+  - id: u00a-l1-11
+    type: multiple_choice
+    prompt: איזה צליל מייצגת האות י?
+    options:
+    - i
+    - a
+    - o
+    correct: 0
+    lexemes:
+    - v-yud
+  - id: u00a-l1-12
+    type: multiple_choice
+    prompt: איזה צליל מייצגת האות ו?
+    options:
+    - u
+    - a
+    - o
+    correct: 0
+    lexemes:
+    - v-vov
+  - id: u00a-l1-13
+    type: multiple_choice
+    prompt: איזו אות מייצגת את הצליל a?
+    options:
+    - אַ
+    - אָ
+    - ע
+    correct: 0
+    lexemes:
+    - v-pasekh-alef
+  - id: u00a-l1-14
+    type: multiple_choice
+    prompt: איזו אות מייצגת את הצליל o?
+    options:
+    - אָ
+    - אַ
+    - ע
+    correct: 0
+    lexemes:
+    - v-komets-alef
+  - id: u00a-l1-15
+    type: multiple_choice
+    prompt: איזו אות מייצגת את הצליל e?
+    options:
+    - ע
+    - אַ
+    - אָ
+    correct: 0
+    lexemes:
+    - v-ayin
+  - id: u00a-l1-16
+    type: multiple_choice
+    prompt: איזו אות מייצגת את הצליל i?
+    options:
+    - י
+    - אַ
+    - אָ
+    correct: 0
+    lexemes:
+    - v-yud
+  - id: u00a-l1-17
+    type: multiple_choice
+    prompt: איזו אות מייצגת את הצליל u?
+    options:
+    - ו
+    - אַ
+    - אָ
+    correct: 0
+    lexemes:
+    - v-vov
+- id: u00a-review
+  kind: review
+  title:
+    he: 'חזרה: האותיות והתנועות'
+    en: 'Review: letters and vowels'
+  exercises:
+  - id: u00a-review-01
+    type: match_pairs
+    pairs:
+    - - אַ
+      - a
+    - - אָ
+      - o
+    - - ע
+      - e
+    - - י
+      - i
+    - - ו
+      - u
+    lexemes:
+    - v-pasekh-alef
+    - v-komets-alef
+    - v-ayin
+    - v-yud
+    - v-vov
+  - id: u00a-review-02
+    type: multiple_choice
+    prompt: איך נקראת האות אָ (אלף עם קמץ)?
+    options:
+    - o
+    - a
+    - e
+    correct: 0
+    lexemes:
+    - v-komets-alef
+  - id: u00a-review-03
+    type: multiple_choice
+    prompt: איך נקראת האות אַ (אלף עם פתח)?
+    options:
+    - a
+    - o
+    - u
+    correct: 0
+    lexemes:
+    - v-pasekh-alef
+  - id: u00a-review-04
+    type: multiple_choice
+    prompt: איזו אות מייצגת את התנועה e?
+    options:
+    - ע
+    - י
+    - ו
+    correct: 0
+    lexemes:
+    - v-ayin
+  - id: u00a-review-05
+    type: multiple_choice
+    prompt: איזו אות מייצגת את התנועה u?
+    options:
+    - ו
+    - י
+    - ע
+    correct: 0
+    lexemes:
+    - v-vov
+  - id: u00a-review-06
+    type: translate
+    direction: to_source
+    prompt: דאָס
+    answers:
+    - זה
+    - את זה
+    - זאת
+    lexemes:
+    - v-komets-alef
+  - id: u00a-review-07
+    type: translate
+    direction: to_source
+    prompt: איך
+    answers:
+    - אני
+    lexemes:
+    - v-yud
+  - id: u00a-review-08
+    type: translate
+    direction: to_source
+    prompt: מאַמע
+    answers:
+    - אמא
+    - אימא
+    lexemes:
+    - v-pasekh-alef
