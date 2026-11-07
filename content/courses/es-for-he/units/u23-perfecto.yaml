@@ -1,0 +1,1107 @@
+id: u23-perfecto
+cefr: B1
+scene: free-time
+title:
+  he: 'ניסיון: האם אי פעם…?'
+  en: 'Experiences: have you ever…?'
+story: 'בראיון עבודה פנימי יעל צריכה לספר על הניסיון שלה: איפה כבר היתה, מה כבר עשתה ומה עוד לא. היא לומדת את ה־pretérito perfecto (he hecho), ואת המילים ya, todavía, nunca, alguna vez.'
+canDo:
+- 'לדבר על ניסיון: He trabajado en… He estado en…'
+- 'לשאול: ¿Has estado alguna vez en…?'
+- להשתמש ב־ya, todavía no, nunca, alguna vez
+- ליצור participio (hablado, comido, vivido) ואת החריגים (hecho, dicho, visto)
+vocabulary:
+- id: haber
+  text: haber (he, has, ha, hemos, han)
+  translation: 'פועל עזר: ''כבר עשיתי'''
+  pos: verb
+  example:
+    text: He terminado el informe.
+    translation: סיימתי את הדוח.
+- id: ya
+  text: ya
+  translation: כבר
+  pos: adverb
+- id: todavia
+  text: todavía
+  translation: עדיין
+  pos: adverb
+- id: alguna-vez
+  text: alguna vez
+  translation: אי פעם
+  pos: phrase
+- id: nunca-he
+  text: nunca he…
+  translation: מעולם לא…
+  pos: phrase
+- id: experiencia
+  text: la experiencia
+  translation: ניסיון
+  pos: noun
+- id: entrevista
+  text: la entrevista
+  translation: ראיון
+  pos: noun
+- id: curriculum
+  text: el currículum
+  translation: קורות חיים
+  pos: noun
+- id: puesto
+  text: el puesto
+  translation: תפקיד, משרה
+  pos: noun
+- id: habilidad
+  text: la habilidad
+  translation: כישרון, יכולת
+  pos: noun
+- id: hecho
+  text: hecho
+  translation: נעשה, עשיתי
+  pos: verb
+- id: dicho
+  text: dicho
+  translation: אמר
+  pos: verb
+- id: visto
+  text: visto
+  translation: ראה
+  pos: verb
+- id: escrito
+  text: escrito
+  translation: כתב
+  pos: verb
+- id: abierto
+  text: abierto
+  translation: פתח, פתוח
+  pos: verb
+- id: varias-veces
+  text: varias veces
+  translation: כמה פעמים
+  pos: phrase
+- id: una-vez
+  text: una vez
+  translation: פעם אחת
+  pos: phrase
+grammar:
+- id: perfecto
+  title:
+    he: 'pretérito perfecto: he hecho'
+    en: The present perfect
+  explanation: '**pretérito perfecto** = **haber** (בהווה) + **participio**. הוא משמש לדבר על **ניסיון ועל מה שהתרחש עד עכשיו** ("כבר עשיתי", "מעולם לא ביקרתי").
+
+
+    **haber:** he, has, ha, hemos, han.
+
+    **participio:** -ar → **-ado**, -er/-ir → **-ido**:
+
+    * hablar → hablado | comer → comido | vivir → vivido
+
+
+    **חריגים שחשוב לדעת:** hacer → **hecho**, decir → **dicho**, ver → **visto**, escribir → **escrito**, abrir → **abierto**, poner → **puesto**, volver → **vuelto**.
+
+
+    **דוגמאות:**
+
+    * *He trabajado en tres empresas.* | *¿Has estado alguna vez en Israel?* | *Todavía no he terminado.* | *Ya hemos comido.*
+
+
+    **מילים שמלוות אותו:** *ya* (כבר), *todavía no* (עדיין לא), *nunca* (אף פעם), *alguna vez* (אי פעם), *varias veces*, *una vez*.
+
+    **אין להפריד:** he + participio צמודים: *No he comido* (ולא *He no comido*).
+
+    **הערה למקסיקו:** בדיבור יומיומי במקסיקו אומרים לעתים קרובות גם בעבר פשוט (*Ya comí*), אבל לניסיון ("עד היום") ה־perfecto הוא הצורה הטבעית.'
+  examples:
+  - text: Nunca he estado en Argentina, pero he visitado Chile.
+    translation: אף פעם לא הייתי בארגנטינה, אבל ביקרתי בצ'ילה.
+  - text: ¿Ya has enviado el currículum?
+    translation: כבר שלחת את קורות החיים?
+  - text: Todavía no he recibido una respuesta.
+    translation: עדיין לא קיבלתי תשובה.
+lessons:
+- id: u23-l1
+  kind: new
+  title:
+    he: ניסיון מקצועי
+    en: Work experience
+  exercises:
+  - id: u23-l1-01
+    type: dialogue
+    scene: ראיון פנימי עם הדוקטור הררה.
+    lines:
+    - speaker: herrera
+      text: Yael, cuéntame de tu experiencia. ¿Has trabajado antes en proyectos grandes?
+      translation: יעל, ספרי לי על הניסיון שלך. עבדת בעבר בפרויקטים גדולים?
+    - speaker: yael
+      text: Sí. He trabajado en tres empresas y he dirigido un equipo de cinco personas.
+      translation: כן. עבדתי בשלוש חברות והובלתי צוות של חמישה אנשים.
+    - speaker: herrera
+      text: ¿Has hecho presentaciones en español?
+      translation: הצגת מצגות בספרדית?
+    - speaker: yael
+      text: Todavía no, pero he practicado mucho y ya he preparado una.
+      translation: עדיין לא, אבל התאמנתי הרבה וכבר הכנתי אחת.
+  - id: u23-l1-02
+    type: learn
+    lexeme: haber
+  - id: u23-l1-03
+    type: learn
+    lexeme: ya
+  - id: u23-l1-04
+    type: learn
+    lexeme: todavia
+  - id: u23-l1-05
+    type: learn
+    lexeme: alguna-vez
+  - id: u23-l1-06
+    type: learn
+    lexeme: experiencia
+  - id: u23-l1-07
+    type: learn
+    lexeme: entrevista
+  - id: u23-l1-08
+    type: learn
+    lexeme: curriculum
+  - id: u23-l1-09
+    type: learn
+    lexeme: puesto
+  - id: u23-l1-10
+    type: learn
+    lexeme: habilidad
+  - id: u23-l1-11
+    type: learn
+    lexeme: varias-veces
+  - id: u23-l1-12
+    type: learn
+    lexeme: una-vez
+  - id: u23-l1-13
+    type: tip
+    title: he + participio, צמודים
+    text: 'הפועל he/has/ha/hemos/han והפועל המרכזי (hablado) יוצרים יחד זמן אחד. אי אפשר להכניס ביניהם מילה: *No he comido*, *Ya he terminado*. המילה ''no'' או ''ya'' באה לפני he.
+
+      '
+  - id: u23-l1-14
+    type: match_pairs
+    pairs:
+    - - he
+      - (אני) כבר
+    - - ya
+      - כבר
+    - - todavía
+      - עדיין
+    - - alguna vez
+      - אי פעם
+    - - varias veces
+      - כמה פעמים
+    lexemes:
+    - haber
+    - ya
+    - todavia
+    - alguna-vez
+    - varias-veces
+  - id: u23-l1-15
+    type: match_pairs
+    pairs:
+    - - la experiencia
+      - ניסיון
+    - - la entrevista
+      - ראיון
+    - - el currículum
+      - קורות חיים
+    - - el puesto
+      - תפקיד
+    - - la habilidad
+      - כישרון
+    lexemes:
+    - experiencia
+    - entrevista
+    - curriculum
+    - puesto
+    - habilidad
+  - id: u23-l1-16
+    type: multiple_choice
+    prompt: מה פירוש 'todavía no'?
+    options:
+    - עדיין לא
+    - כבר
+    - אף פעם
+    correct: 0
+    lexemes:
+    - todavia
+    - ya
+    - nunca
+  - id: u23-l1-17
+    type: multiple_choice
+    prompt: מה פירוש '¿Has trabajado alguna vez en una empresa?'
+    options:
+    - עבדת אי פעם בחברה?
+    - עבדת אתמול בחברה?
+    - תעבוד בחברה?
+    correct: 0
+    lexemes:
+    - haber
+    - alguna-vez
+    - trabajar
+    - empresa
+    - ayer
+  - id: u23-l1-18
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - He terminado el informe.
+    - Terminado he el informe.
+    - He terminar el informe.
+    correct: 0
+    lexemes:
+    - haber
+    - terminar
+    - informe
+  - id: u23-l1-19
+    type: listening_choice
+    audioText: Ya he enviado el currículum.
+    question: מה כבר עשו?
+    options:
+    - שלחו קורות חיים
+    - קיבלו קורות חיים
+    - כתבו קורות חיים
+    correct: 0
+    lexemes:
+    - ya
+    - enviar
+    - curriculum
+    - recibir
+    - escribir
+  - id: u23-l1-20
+    type: listening_choice
+    audioText: Todavía no he recibido respuesta.
+    question: מה המצב?
+    options:
+    - עדיין לא קיבלו תשובה
+    - כבר קיבלו תשובה
+    - לא שלחו
+    correct: 0
+    lexemes:
+    - todavia
+    - recibir
+    - ya
+    - enviar
+  - id: u23-l1-21
+    type: translate
+    direction: to_target
+    prompt: כבר סיימתי.
+    answers:
+    - Ya he terminado.
+    - Ya terminé.
+    lexemes:
+    - ya
+    - haber
+    - terminar
+  - id: u23-l1-22
+    type: translate
+    direction: to_target
+    prompt: הניסיון שלי
+    answers:
+    - mi experiencia
+    - Mi experiencia
+    lexemes:
+    - experiencia
+    - mi
+  - id: u23-l1-23
+    type: translate
+    direction: to_source
+    prompt: ¿Has trabajado alguna vez en equipo?
+    answers:
+    - עבדת אי פעם בצוות?
+    lexemes:
+    - haber
+    - trabajar
+    - alguna-vez
+    - equipo
+  - id: u23-l1-24
+    type: dictation
+    text: Todavía no he terminado.
+    lexemes:
+    - todavia
+    - haber
+    - terminar
+  - id: u23-l1-25
+    type: speak_repeat
+    text: Ya he preparado el currículum.
+    translation: כבר הכנתי את קורות החיים.
+    lexemes:
+    - ya
+    - haber
+    - preparar
+    - curriculum
+- id: u23-l2
+  kind: new
+  title:
+    he: participios
+    en: Participles
+  exercises:
+  - id: u23-l2-01
+    type: learn
+    lexeme: hecho
+  - id: u23-l2-02
+    type: learn
+    lexeme: dicho
+  - id: u23-l2-03
+    type: learn
+    lexeme: visto
+  - id: u23-l2-04
+    type: learn
+    lexeme: escrito
+  - id: u23-l2-05
+    type: learn
+    lexeme: abierto
+  - id: u23-l2-06
+    type: learn
+    lexeme: nunca-he
+  - id: u23-l2-07
+    type: tip
+    title: שישה חריגים בלבד
+    text: 'רוב ה־participios הם -ado/-ido. שנן את הרשימה הקצרה: *hecho, dicho, visto, escrito, abierto, puesto, vuelto*. אל תנסו ''hacido'' ו''decido''.
+
+      '
+  - id: u23-l2-08
+    type: match_pairs
+    pairs:
+    - - hecho
+      - עשיתי (hacer)
+    - - dicho
+      - אמרתי (decir)
+    - - visto
+      - ראיתי (ver)
+    - - escrito
+      - כתבתי (escribir)
+    - - abierto
+      - פתחתי (abrir)
+    lexemes:
+    - hecho
+    - dicho
+    - visto
+    - escrito
+    - abierto
+  - id: u23-l2-09
+    type: multiple_choice
+    prompt: איך הוא ה־participio של hacer?
+    options:
+    - hecho
+    - hacido
+    - hacerado
+    correct: 0
+    lexemes:
+    - hecho
+  - id: u23-l2-10
+    type: multiple_choice
+    prompt: איך הוא ה־participio של escribir?
+    options:
+    - escrito
+    - escribido
+    - escribiendo
+    correct: 0
+    lexemes:
+    - escrito
+  - id: u23-l2-11
+    type: multiple_choice
+    prompt: מה פירוש 'nunca he estado en Chile'?
+    options:
+    - אף פעם לא הייתי בצ'ילה
+    - הייתי בצ'ילה אתמול
+    - אני בצ'ילה עכשיו
+    correct: 0
+    lexemes:
+    - nunca-he
+    - estar
+  - id: u23-l2-12
+    type: dialogue
+    scene: שיחה על חופשות.
+    lines:
+    - speaker: sofia
+      text: ¿Has visto las pirámides de Teotihuacán?
+      translation: ראית את הפירמידות בטאוטיהואקאן?
+    - speaker: yael
+      text: Sí, las he visto dos veces. Y he escrito sobre ellas en mi diario.
+      translation: כן, ראיתי אותן פעמיים. וכתבתי עליהן ביומן שלי.
+    - speaker: sofia
+      text: Yo nunca he estado. Mi hermano me ha dicho que es increíble.
+      translation: אני אף פעם לא הייתי. אחי אמר לי שזה מדהים.
+  - id: u23-l2-13
+    type: listening_choice
+    audioText: Nunca he visto el mar.
+    question: מה אומרים?
+    options:
+    - לא ראיתי אף פעם את הים
+    - ראיתי את הים אתמול
+    - אני רואה את הים
+    correct: 0
+    lexemes:
+    - nunca-he
+    - ver
+  - id: u23-l2-14
+    type: listening_choice
+    audioText: Mi hermano me ha dicho la verdad.
+    question: מה אחי עשה?
+    options:
+    - אמר לי את האמת
+    - כתב לי
+    - פתח לי
+    correct: 0
+    lexemes:
+    - hermano
+    - decir
+    - escribir
+    - abrir
+  - id: u23-l2-15
+    type: fill_blank
+    sentence: Ya he ___ el correo. (escribir)
+    translation: כבר כתבתי את המייל.
+    answers:
+    - escrito
+    options:
+    - escrito
+    - escribido
+    - escribí
+    lexemes:
+    - ya
+    - haber
+    - escribir
+    - correo
+  - id: u23-l2-16
+    type: fill_blank
+    sentence: ¿Has ___ la película? (ver)
+    translation: ראית את הסרט?
+    answers:
+    - visto
+    options:
+    - visto
+    - vido
+    - veído
+    lexemes:
+    - haber
+    - ver
+    - pelicula
+  - id: u23-l2-17
+    type: fill_blank
+    sentence: Todavía no hemos ___ nada. (decir)
+    translation: עדיין לא אמרנו כלום.
+    answers:
+    - dicho
+    options:
+    - dicho
+    - decido
+    - decirado
+    lexemes:
+    - todavia
+    - haber
+    - decir
+  - id: u23-l2-18
+    type: word_bank
+    prompt: אף פעם לא עשיתי את זה.
+    answers:
+    - Nunca he hecho eso.
+    distractors:
+    - Hice
+    - hacido
+    lexemes:
+    - nunca-he
+    - hacer
+  - id: u23-l2-19
+    type: translate
+    direction: to_target
+    prompt: כבר פתחתי את הדלת.
+    answers:
+    - Ya he abierto la puerta.
+    lexemes:
+    - ya
+    - haber
+    - abrir
+    - puerta
+  - id: u23-l2-20
+    type: translate
+    direction: to_source
+    prompt: Nunca hemos visto esa película.
+    answers:
+    - אף פעם לא ראינו את הסרט הזה
+    lexemes:
+    - nunca-he
+    - ver
+    - pelicula
+  - id: u23-l2-21
+    type: dictation
+    text: He escrito y he dicho todo.
+    lexemes:
+    - haber
+    - escribir
+    - decir
+- id: u23-l3
+  kind: grammar
+  title:
+    he: he + participio
+    en: He + participle
+  grammar: perfecto
+  exercises:
+  - id: u23-l3-01
+    type: fill_blank
+    sentence: Yo ___ trabajado en una empresa grande. (haber)
+    translation: עבדתי בחברה גדולה.
+    answers:
+    - he
+    options:
+    - he
+    - has
+    - ha
+    lexemes:
+    - haber
+    - trabajar
+    - empresa
+  - id: u23-l3-02
+    type: fill_blank
+    sentence: ¿Tú ___ estado en Israel? (haber)
+    translation: היית בישראל?
+    answers:
+    - has
+    options:
+    - has
+    - he
+    - han
+    lexemes:
+    - haber
+    - estar
+    - israel
+  - id: u23-l3-03
+    type: fill_blank
+    sentence: Ella ya ___ terminado. (haber)
+    translation: היא כבר סיימה.
+    answers:
+    - ha
+    options:
+    - ha
+    - han
+    - hemos
+    lexemes:
+    - ya
+    - haber
+    - terminar
+  - id: u23-l3-04
+    type: fill_blank
+    sentence: Nosotros ___ vivido en México. (haber)
+    translation: גרנו במקסיקו.
+    answers:
+    - hemos
+    options:
+    - hemos
+    - han
+    - he
+    lexemes:
+    - haber
+    - vivir
+    - mexico
+  - id: u23-l3-05
+    type: fill_blank
+    sentence: Ellos todavía no ___ llegado. (haber)
+    translation: הם עדיין לא הגיעו.
+    answers:
+    - han
+    options:
+    - han
+    - ha
+    - hemos
+    lexemes:
+    - todavia
+    - haber
+    - llegar
+  - id: u23-l3-06
+    type: fill_blank
+    sentence: Yo he ___ mucho. (comer)
+    translation: אכלתי הרבה.
+    answers:
+    - comido
+    options:
+    - comido
+    - comado
+    - comiendo
+    lexemes:
+    - haber
+    - comer
+    - mucho
+  - id: u23-l3-07
+    type: fill_blank
+    sentence: Ella ha ___ en Israel. (vivir)
+    translation: היא גרה בישראל.
+    answers:
+    - vivido
+    options:
+    - vivido
+    - vivado
+    - viviendo
+    lexemes:
+    - haber
+    - vivir
+    - israel
+  - id: u23-l3-08
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - No he comido todavía.
+    - He no comido todavía.
+    - No comido he todavía.
+    correct: 0
+    lexemes:
+    - haber
+    - comer
+    - todavia
+  - id: u23-l3-09
+    type: multiple_choice
+    prompt: מתי עדיף perfecto?
+    options:
+    - לניסיון עד היום
+    - לאירוע ספציפי אתמול
+    - להרגל בילדות
+    correct: 0
+    lexemes:
+    - ayer
+  - id: u23-l3-10
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Nunca he estado en Chile.
+    - Nunca estado he en Chile.
+    - Nunca he estando en Chile.
+    correct: 0
+    lexemes:
+    - nunca-he
+    - estar
+  - id: u23-l3-11
+    type: word_bank
+    prompt: כבר אכלתי.
+    answers:
+    - Ya he comido.
+    distractors:
+    - Hecho
+    - Comí
+    lexemes:
+    - ya
+    - haber
+    - comer
+  - id: u23-l3-12
+    type: word_bank
+    prompt: עדיין לא סיימנו.
+    answers:
+    - Todavía no hemos terminado.
+    distractors:
+    - Ya
+    - han
+    lexemes:
+    - todavia
+    - haber
+    - terminar
+  - id: u23-l3-13
+    type: translate
+    direction: to_target
+    prompt: עבדתי בשלוש חברות.
+    answers:
+    - He trabajado en tres empresas.
+    lexemes:
+    - haber
+    - trabajar
+    - tres
+    - empresa
+  - id: u23-l3-14
+    type: translate
+    direction: to_target
+    prompt: האם ראית אי פעם את הים?
+    answers:
+    - ¿Has visto alguna vez el mar?
+    lexemes:
+    - haber
+    - ver
+    - alguna-vez
+  - id: u23-l3-15
+    type: translate
+    direction: to_source
+    prompt: Mis padres han vivido en Israel toda la vida.
+    answers:
+    - ההורים שלי גרו בישראל כל החיים
+    lexemes:
+    - padres
+    - haber
+    - vivir
+    - israel
+  - id: u23-l3-16
+    type: translate
+    direction: to_source
+    prompt: Todavía no he escrito el informe.
+    answers:
+    - עדיין לא כתבתי את הדוח
+    lexemes:
+    - todavia
+    - haber
+    - escribir
+    - informe
+- id: u23-l4
+  kind: listening
+  title:
+    he: ראיון
+    en: The interview
+  exercises:
+  - id: u23-l4-01
+    type: dialogue
+    scene: הראיון ממשיך.
+    lines:
+    - speaker: herrera
+      text: ¿Ha dirigido proyectos en español?
+      translation: האם ניהלת פרויקטים בספרדית?
+    - speaker: yael
+      text: Todavía no, pero he participado en reuniones y he escrito muchos informes.
+      translation: עדיין לא, אבל השתתפתי בפגישות וכתבתי הרבה דוחות.
+    - speaker: herrera
+      text: ¿Ha tenido algún problema con el idioma?
+      translation: היה לך אי פעם קושי עם השפה?
+    - speaker: yael
+      text: Al principio sí, pero ahora he aprendido mucho. Cada día hablo más.
+      translation: בהתחלה כן, אבל עכשיו למדתי הרבה. כל יום אני מדברת יותר.
+  - id: u23-l4-02
+    type: multiple_choice
+    prompt: האם יעל כבר ניהלה פרויקט בספרדית?
+    options:
+    - עדיין לא
+    - כן, הרבה
+    - לא ידוע
+    correct: 0
+    lexemes:
+    - todavia
+    - ya
+  - id: u23-l4-03
+    type: multiple_choice
+    prompt: מה היא כן עשתה?
+    options:
+    - השתתפה בפגישות וכתבה דוחות
+    - ניהלה צוות
+    - פתחה חברה
+    correct: 0
+    lexemes:
+    - reunion
+    - escribir
+    - informe
+    - equipo
+    - empresa
+  - id: u23-l4-04
+    type: multiple_choice
+    prompt: איך היא מרגישה עכשיו עם השפה?
+    options:
+    - למדה הרבה
+    - שכחה הכול
+    - לא מדברת
+    correct: 0
+    lexemes:
+    - aprender
+    - olvidar
+    - hablar
+  - id: u23-l4-05
+    type: listening_choice
+    audioText: Nunca he trabajado en Argentina.
+    question: מה אומרים?
+    options:
+    - אף פעם לא עבדתי בארגנטינה
+    - עבדתי בארגנטינה
+    - אעבוד בארגנטינה
+    correct: 0
+    lexemes:
+    - nunca-he
+    - trabajar
+    - argentina
+  - id: u23-l4-06
+    type: listening_choice
+    audioText: Ya hemos hablado varias veces.
+    question: כמה פעמים?
+    options:
+    - כמה פעמים
+    - פעם אחת
+    - אף פעם
+    correct: 0
+    lexemes:
+    - ya
+    - haber
+    - hablar
+    - varias-veces
+    - una-vez
+    - nunca
+  - id: u23-l4-07
+    type: dictation
+    text: Ya he escrito el currículum.
+    lexemes:
+    - ya
+    - haber
+    - escribir
+    - curriculum
+  - id: u23-l4-08
+    type: translate
+    direction: to_target
+    prompt: עדיין לא התחלתי.
+    answers:
+    - Todavía no he empezado.
+    lexemes:
+    - todavia
+    - haber
+  - id: u23-l4-09
+    type: speak_repeat
+    text: He trabajado en tres empresas.
+    translation: עבדתי בשלוש חברות.
+    lexemes:
+    - haber
+    - trabajar
+    - tres
+    - empresa
+- id: u23-l5
+  kind: reading
+  title:
+    he: מכתב מקדים
+    en: A cover letter
+  exercises:
+  - id: u23-l5-01
+    type: reading
+    kind: מכתב
+    title: Carta de presentación
+    text: 'Estimado Dr. Herrera:
+
+      Me llamo Yael y he trabajado durante cinco años como programadora. He participado en proyectos internacionales y he aprendido a trabajar en equipo.
+
+      Todavía no he dirigido un equipo grande, pero he organizado reuniones y he escrito informes para clientes. Ya he preparado mi currículum y espero su respuesta.
+
+      Atentamente, Yael.
+
+      '
+    translation: 'ד"ר הררה היקר:
+
+      שמי יעל ועבדתי חמש שנים כמתכנתת. השתתפתי בפרויקטים בינלאומיים ולמדתי לעבוד בצוות.
+
+      עדיין לא ניהלתי צוות גדול, אבל ארגנתי פגישות וכתבתי דוחות ללקוחות. כבר הכנתי את קורות החיים ואני מצפה לתשובתך.
+
+      בכבוד, יעל.
+
+      '
+  - id: u23-l5-02
+    type: multiple_choice
+    prompt: כמה שנים יעל עבדה כמתכנתת?
+    options:
+    - חמש
+    - שלוש
+    - עשר
+    correct: 0
+    lexemes:
+    - programador
+    - cinco
+    - tres
+    - diez
+  - id: u23-l5-03
+    type: multiple_choice
+    prompt: מה היא עדיין לא עשתה?
+    options:
+    - לא ניהלה צוות גדול
+    - לא כתבה דוחות
+    - לא ארגנה פגישות
+    correct: 0
+    lexemes:
+    - todavia
+    - equipo
+    - escribir
+    - informe
+    - reunion
+  - id: u23-l5-04
+    type: fill_blank
+    sentence: Todavía no ___ dirigido un equipo grande.
+    translation: עדיין לא ניהלתי צוות גדול.
+    answers:
+    - he
+    options:
+    - he
+    - hay
+    - ha
+    lexemes:
+    - todavia
+    - haber
+    - equipo
+    - grande
+  - id: u23-l5-05
+    type: translate
+    direction: to_target
+    prompt: כבר הכנתי את קורות החיים.
+    answers:
+    - Ya he preparado el currículum.
+    lexemes:
+    - ya
+    - haber
+    - preparar
+    - curriculum
+- id: u23-review
+  kind: review
+  title:
+    he: 'חזרה: perfecto + כתיבה'
+    en: 'Review: present perfect + writing'
+  exercises:
+  - id: u23-review-01
+    type: match_pairs
+    pairs:
+    - - ya
+      - כבר
+    - - todavía
+      - עדיין
+    - - alguna vez
+      - אי פעם
+    - - varias veces
+      - כמה פעמים
+    - - una vez
+      - פעם אחת
+    lexemes:
+    - ya
+    - todavia
+    - alguna-vez
+    - varias-veces
+    - una-vez
+  - id: u23-review-02
+    type: match_pairs
+    pairs:
+    - - hecho
+      - עשה
+    - - dicho
+      - אמר
+    - - visto
+      - ראה
+    - - escrito
+      - כתב
+    - - abierto
+      - פתח
+    lexemes:
+    - hecho
+    - dicho
+    - visto
+    - escrito
+    - abierto
+  - id: u23-review-03
+    type: fill_blank
+    sentence: Yo ___ comido ya. (haber)
+    translation: כבר אכלתי.
+    answers:
+    - he
+    options:
+    - he
+    - has
+    - ha
+    lexemes:
+    - haber
+    - comer
+    - ya
+  - id: u23-review-04
+    type: fill_blank
+    sentence: Ellos han ___ en Israel. (vivir)
+    translation: הם גרו בישראל.
+    answers:
+    - vivido
+    options:
+    - vivido
+    - vivado
+    - viviendo
+    lexemes:
+    - haber
+    - vivir
+    - israel
+  - id: u23-review-05
+    type: multiple_choice
+    prompt: מה פירוש 'Nunca he estado en Perú'?
+    options:
+    - לא הייתי אף פעם בפרו
+    - הייתי בפרו
+    - אהיה בפרו
+    correct: 0
+    lexemes:
+    - nunca-he
+    - estar
+  - id: u23-review-06
+    type: listening_choice
+    audioText: Todavía no he llamado a mi familia.
+    question: מה עדיין לא עשו?
+    options:
+    - לא התקשרו למשפחה
+    - לא אכלו
+    - לא עבדו
+    correct: 0
+    lexemes:
+    - todavia
+    - haber
+    - llamar
+    - familia
+    - comer
+    - trabajar
+  - id: u23-review-07
+    type: word_bank
+    prompt: כבר פתחתי את הקובץ.
+    answers:
+    - Ya he abierto el archivo.
+    distractors:
+    - Hice
+    - abrí
+    lexemes:
+    - ya
+    - haber
+    - abrir
+    - archivo
+  - id: u23-review-08
+    type: translate
+    direction: to_target
+    prompt: האם כבר סיימת?
+    answers:
+    - ¿Ya has terminado?
+    lexemes:
+    - ya
+    - haber
+    - terminar
+  - id: u23-review-09
+    type: translate
+    direction: to_source
+    prompt: He visto muchas películas.
+    answers:
+    - ראיתי הרבה סרטים
+    lexemes:
+    - haber
+    - ver
+    - pelicula
+  - id: u23-review-10
+    type: dictation
+    text: Nunca he estado allí.
+    lexemes:
+    - nunca-he
+    - estar
+    - alli
+  - id: u23-review-11
+    type: speak_repeat
+    text: Todavía no he terminado el informe.
+    translation: עדיין לא סיימתי את הדוח.
+    lexemes:
+    - todavia
+    - haber
+    - terminar
+    - informe
+  - id: u23-review-12
+    type: write
+    prompt: 'כתבו על הניסיון שלכם: מה כבר עשיתם (he…), מה עדיין לא (todavía no) ואיפה אף פעם לא הייתם (nunca).'
+    minWords: 40
+    checks:
+    - label: השתמשתם ב־he / has / ha + participio
+      any:
+      - \b(he|has|ha|hemos|han) \w+(ado|ido|to|cho)\b
+    - label: השתמשתם ב־todavía no או ya
+      any:
+      - todavia no
+      - \bya\b
+    - label: השתמשתם ב־nunca
+      any:
+      - \bnunca\b
+    - label: הזכרתם מקום או עבודה
+      any:
+      - \btrabaj
+      - \bempresa
+      - \bviaj
+      - \bestado\b
+      - \bvivid
+    model: He trabajado en tres empresas y he viajado a varios países. Ya he aprendido español y hebreo, pero todavía no he aprendido árabe. Nunca he estado en Argentina, aunque he visto muchas fotos. Este año he escrito dos informes y he hecho una presentación en español.
+    lexemes: []

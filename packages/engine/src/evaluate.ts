@@ -120,13 +120,25 @@ export function seededShuffle<T>(items: readonly T[], seed: number): T[] {
 }
 
 /** Rule-based check of a free text: enough words, and at least 60% of the required items present. */
+/** Accents are removed (ñ is kept) so check patterns can be written without them and still match what a learner typed. */
+function foldAccents(s: string): string {
+  return s
+    .replace(/ñ/g, "\uE000")
+    .replace(/Ñ/g, "\uE001")
+    .normalize("NFD")
+    .replace(/\p{M}/gu, "")
+    .replace(/\uE000/g, "ñ")
+    .replace(/\uE001/g, "Ñ");
+}
+
 export function checkWriting(text: string, ex: Pick<Extract<Exercise, { type: "write" }>, "minWords" | "checks">) {
   const words = (text.match(/[\p{L}\p{N}'’-]+/gu) ?? []).length;
+  const folded = foldAccents(text);
   const results = ex.checks.map((c) => ({
     label: c.label,
     ok: c.any.some((p) => {
       try {
-        return new RegExp(p, "iu").test(text);
+        return new RegExp(p, "iu").test(folded);
       } catch {
         return false;
       }
