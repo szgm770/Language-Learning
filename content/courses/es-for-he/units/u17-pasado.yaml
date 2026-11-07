@@ -1,0 +1,1093 @@
+id: u17-pasado
+cefr: A2
+scene: day
+title:
+  he: מה עשיתי? (עבר)
+  en: What did I do? (past tense)
+story: 'יום שני בבוקר. סופיה שואלת את יעל מה עשתה בסוף השבוע, ויעל לומדת לספר על העבר. בעברית יש זמן עבר אחד ובספרדית יש שניים, אבל מתחילים בקל: ה־pretérito הרגיל.'
+canDo:
+- לספר מה עשיתי אתמול ובשבוע שעבר
+- 'להטות פעלים רגילים בעבר: hablé, hablaste, habló…'
+- 'להשתמש בסימני זמן: ayer, anoche, la semana pasada'
+- לשאול ¿Qué hiciste…? ולענות
+vocabulary:
+- id: ayer
+  text: ayer
+  translation: אתמול
+  pos: adverb
+- id: anoche
+  text: anoche
+  translation: אמש, אתמול בלילה
+  pos: adverb
+- id: pasado
+  text: pasado / pasada
+  translation: שעבר
+  pos: adjective
+- id: hace-tiempo
+  text: hace + זמן
+  translation: לפני (זמן)
+  pos: phrase
+- id: terminar
+  text: terminar
+  translation: לסיים
+  pos: verb
+- id: recibir
+  text: recibir
+  translation: לקבל
+  pos: verb
+- id: salir
+  text: salir
+  translation: לצאת
+  pos: verb
+- id: decidir
+  text: decidir
+  translation: להחליט
+  pos: verb
+- id: preparar
+  text: preparar
+  translation: להכין
+  pos: verb
+- id: encontrar
+  text: encontrar
+  translation: למצוא, להיפגש
+  pos: verb
+- id: informe
+  text: el informe
+  translation: דוח
+  pos: noun
+- id: pelicula
+  text: la película
+  translation: סרט
+  pos: noun
+- id: cena
+  text: la cena
+  translation: ארוחת הערב
+  pos: noun
+- id: viaje
+  text: el viaje
+  translation: טיול, נסיעה
+  pos: noun
+- id: noticia
+  text: la noticia
+  translation: חדשה
+  pos: noun
+- id: rato
+  text: el rato
+  translation: זמן קצר, פרק זמן
+  pos: noun
+- id: pasar
+  text: pasar
+  translation: לעבור, לבלות
+  pos: verb
+- id: llevar
+  text: llevar
+  translation: לקחת, להביא, ללבוש
+  pos: verb
+- id: mirar
+  text: mirar
+  translation: להסתכל, לצפות
+  pos: verb
+grammar:
+- id: preterito-regular
+  title:
+    he: עבר (pretérito) – פעלים רגילים
+    en: The preterite of regular verbs
+  explanation: 'בעברית יש זמן עבר אחד ("דיברתי, דיברת, דיבר"). בספרדית יש שניים: ה־**pretérito** (מה שקרה ונגמר) וה־**imperfecto** (רקע, הרגל). אנחנו מתחילים בראשון, והוא דומה מאוד לעבר העברי: הסיומת מספרת מי עשה.
+
+
+    | כינוי | -ar (hablar) | -er / -ir (comer, vivir) |
+
+    |---|---|---|
+
+    | yo | habl**é** | com**í** / viv**í** |
+
+    | tú | habl**aste** | com**iste** / viv**iste** |
+
+    | él / ella / usted | habl**ó** | com**ió** / viv**ió** |
+
+    | nosotros | habl**amos** | com**imos** / viv**imos** |
+
+    | ellos / ustedes | habl**aron** | com**ieron** / viv**ieron** |
+
+
+    * **שימו לב לטעם** (האקסנט): *hablé* ו־*habló* מוטעמים בסוף. בלי האקסנט זה פועל אחר (hablo = אני מדבר).
+
+    * ב־nosotros -ar/-ir נראים כמו ההווה (*hablamos*): ההקשר ("ayer") מבהיר.
+
+    * **איותים:** *llegar* → yo **llegué** (gu), *buscar* → yo **busqué** (qu).
+
+    * **סימני זמן:** *ayer* (אתמול), *anoche* (אמש), *la semana pasada*, *el año pasado*, **hace** + זמן: *hace dos días* (לפני יומיים).
+
+    * שאלה: **¿Qué hiciste ayer?** (מה עשית אתמול?)'
+  examples:
+  - text: Ayer trabajé hasta las dos y comí en casa.
+    translation: אתמול עבדתי עד שתיים ואכלתי בבית.
+  - text: La semana pasada llegamos tarde a la reunión.
+    translation: בשבוע שעבר הגענו באיחור לפגישה.
+  - text: Mateo escribió el informe y lo envió.
+    translation: מתאו כתב את הדוח ושלח אותו.
+lessons:
+- id: u17-l1
+  kind: new
+  title:
+    he: אתמול ובשבוע שעבר
+    en: Yesterday and last week
+  exercises:
+  - id: u17-l1-01
+    type: dialogue
+    scene: יום שני בבוקר במשרד.
+    lines:
+    - speaker: sofia
+      text: Buenos días, Yael. ¿Qué hiciste el fin de semana?
+      translation: בוקר טוב, יעל. מה עשית בסוף השבוע?
+    - speaker: yael
+      text: El viernes preparé la cena y fuimos a la sinagoga. El sábado descansé. El domingo caminé por el parque.
+      translation: ביום שישי הכנתי את הסעודה והלכנו לבית הכנסת. בשבת נחתי. ביום ראשון טיילתי בפארק.
+    - speaker: sofia
+      text: ¡Qué bien! Yo trabajé mucho y vi una película.
+      translation: איזה יופי! אני עבדתי הרבה וראיתי סרט.
+    - speaker: yael
+      text: ¿Qué película viste?
+      translation: איזה סרט ראית?
+  - id: u17-l1-02
+    type: learn
+    lexeme: ayer
+  - id: u17-l1-03
+    type: learn
+    lexeme: anoche
+  - id: u17-l1-04
+    type: learn
+    lexeme: pasado
+  - id: u17-l1-05
+    type: learn
+    lexeme: hace-tiempo
+  - id: u17-l1-06
+    type: learn
+    lexeme: pasar
+  - id: u17-l1-07
+    type: learn
+    lexeme: llevar
+  - id: u17-l1-08
+    type: learn
+    lexeme: pelicula
+  - id: u17-l1-09
+    type: learn
+    lexeme: viaje
+  - id: u17-l1-10
+    type: learn
+    lexeme: noticia
+  - id: u17-l1-11
+    type: learn
+    lexeme: informe
+  - id: u17-l1-12
+    type: tip
+    title: אקסנט שמשנה משמעות
+    text: '*hablo* = אני מדבר (הווה). *habló* = הוא דיבר (עבר). *hablé* = אני דיברתי. האקסנט בסוף המילה מראה לאיזה זמן הכוונה, ולכן חשוב לשמוע ולכתוב אותו נכון.
+
+      '
+  - id: u17-l1-13
+    type: match_pairs
+    pairs:
+    - - ayer
+      - אתמול
+    - - anoche
+      - אמש
+    - - la semana pasada
+      - בשבוע שעבר
+    - - hace dos días
+      - לפני יומיים
+    - - el informe
+      - הדוח
+    lexemes:
+    - ayer
+    - anoche
+    - pasado
+    - hace-tiempo
+    - informe
+  - id: u17-l1-14
+    type: match_pairs
+    pairs:
+    - - pasar
+      - לבלות
+    - - llevar
+      - לקחת, ללבוש
+    - - la película
+      - סרט
+    - - el viaje
+      - טיול
+    - - la noticia
+      - חדשה
+    lexemes:
+    - pasar
+    - llevar
+    - pelicula
+    - viaje
+    - noticia
+  - id: u17-l1-15
+    type: multiple_choice
+    prompt: מה פירוש 'ayer'?
+    options:
+    - אתמול
+    - מחר
+    - היום
+    correct: 0
+    lexemes:
+    - ayer
+    - manana-adv
+    - hoy
+  - id: u17-l1-16
+    type: multiple_choice
+    prompt: מה פירוש 'la semana pasada'?
+    options:
+    - בשבוע שעבר
+    - בשבוע הבא
+    - השבוע
+    correct: 0
+    lexemes:
+    - semana
+    - pasado
+    - proximo
+  - id: u17-l1-17
+    type: multiple_choice
+    prompt: מה פירוש 'hace tres días'?
+    options:
+    - לפני שלושה ימים
+    - בעוד שלושה ימים
+    - שלושה ימים
+    correct: 0
+    lexemes:
+    - hace-tiempo
+    - tres
+  - id: u17-l1-18
+    type: listening_choice
+    audioText: Ayer trabajé hasta las dos.
+    question: מתי עבדו?
+    options:
+    - אתמול
+    - מחר
+    - השבוע
+    correct: 0
+    lexemes:
+    - ayer
+    - trabajar
+    - manana-adv
+    - semana
+  - id: u17-l1-19
+    type: listening_choice
+    audioText: Anoche llegué tarde.
+    question: מתי הגיעו?
+    options:
+    - אמש
+    - אתמול בבוקר
+    - מחר
+    correct: 0
+    lexemes:
+    - anoche
+    - llegar
+    - tarde-adv
+    - ayer
+    - manana-adv
+  - id: u17-l1-20
+    type: translate
+    direction: to_target
+    prompt: אתמול
+    answers:
+    - ayer
+    lexemes:
+    - ayer
+  - id: u17-l1-21
+    type: translate
+    direction: to_target
+    prompt: בשבוע שעבר
+    answers:
+    - la semana pasada
+    lexemes:
+    - semana
+    - pasado
+  - id: u17-l1-22
+    type: translate
+    direction: to_source
+    prompt: anoche
+    answers:
+    - אמש
+    - אתמול בלילה
+    lexemes:
+    - anoche
+  - id: u17-l1-23
+    type: dictation
+    text: La semana pasada, ayer y anoche.
+    lexemes:
+    - semana
+    - pasado
+    - ayer
+    - anoche
+  - id: u17-l1-24
+    type: speak_repeat
+    text: Ayer trabajé en casa.
+    translation: אתמול עבדתי בבית.
+    lexemes:
+    - ayer
+    - trabajar
+    - casa
+- id: u17-l2
+  kind: new
+  title:
+    he: מה עשינו
+    en: What we did
+  exercises:
+  - id: u17-l2-01
+    type: learn
+    lexeme: terminar
+  - id: u17-l2-02
+    type: learn
+    lexeme: recibir
+  - id: u17-l2-03
+    type: learn
+    lexeme: salir
+  - id: u17-l2-04
+    type: learn
+    lexeme: decidir
+  - id: u17-l2-05
+    type: learn
+    lexeme: preparar
+  - id: u17-l2-06
+    type: learn
+    lexeme: encontrar
+  - id: u17-l2-07
+    type: learn
+    lexeme: cena
+  - id: u17-l2-08
+    type: learn
+    lexeme: rato
+  - id: u17-l2-09
+    type: learn
+    lexeme: mirar
+  - id: u17-l2-10
+    type: match_pairs
+    pairs:
+    - - terminar
+      - לסיים
+    - - recibir
+      - לקבל
+    - - salir
+      - לצאת
+    - - decidir
+      - להחליט
+    - - preparar
+      - להכין
+    lexemes:
+    - terminar
+    - recibir
+    - salir
+    - decidir
+    - preparar
+  - id: u17-l2-11
+    type: match_pairs
+    pairs:
+    - - encontrar
+      - למצוא
+    - - la cena
+      - ארוחת ערב
+    - - el rato
+      - פרק זמן
+    - - mirar
+      - להסתכל
+    - - hablar
+      - לדבר
+    lexemes:
+    - encontrar
+    - cena
+    - rato
+    - mirar
+    - hablar
+  - id: u17-l2-12
+    type: dialogue
+    scene: יעל ולוסיה מדברות על אתמול.
+    lines:
+    - speaker: lucia
+      text: Ayer salí a las cinco y compré pan. ¿Tú qué hiciste?
+      translation: אתמול יצאתי בחמש וקניתי לחם. ומה עשית את?
+    - speaker: yael
+      text: Terminé el informe y preparé la cena. Mateo recibió el archivo.
+      translation: סיימתי את הדוח והכנתי את ארוחת הערב. מתאו קיבל את הקובץ.
+    - speaker: lucia
+      text: ¿Y después?
+      translation: ואחר כך?
+    - speaker: yael
+      text: Después hablé con mi familia por teléfono.
+      translation: אחר כך דיברתי עם המשפחה בטלפון.
+  - id: u17-l2-13
+    type: multiple_choice
+    prompt: מה פירוש 'terminé'?
+    options:
+    - סיימתי
+    - התחלתי
+    - החלטתי
+    correct: 0
+    lexemes:
+    - terminar
+    - decidir
+  - id: u17-l2-14
+    type: multiple_choice
+    prompt: מה פירוש 'Mateo recibió el archivo'?
+    options:
+    - מתאו קיבל את הקובץ
+    - מתאו שלח את הקובץ
+    - מתאו פתח את הקובץ
+    correct: 0
+    lexemes:
+    - recibir
+    - archivo
+    - enviar
+    - abrir
+  - id: u17-l2-15
+    type: multiple_choice
+    prompt: איך אומרים 'יצאתי'?
+    options:
+    - salí
+    - sale
+    - salgo
+    correct: 0
+    lexemes:
+    - salir
+  - id: u17-l2-16
+    type: listening_choice
+    audioText: Preparé la cena.
+    question: מה עשה הדובר?
+    options:
+    - הכין ארוחת ערב
+    - אכל ארוחת ערב
+    - קנה ארוחת ערב
+    correct: 0
+    lexemes:
+    - preparar
+    - cena
+    - comer
+    - comprar
+  - id: u17-l2-17
+    type: listening_choice
+    audioText: Terminamos el informe ayer.
+    question: מתי סיימו?
+    options:
+    - אתמול
+    - מחר
+    - בשבוע שעבר
+    correct: 0
+    lexemes:
+    - terminar
+    - informe
+    - ayer
+    - manana-adv
+    - semana
+  - id: u17-l2-18
+    type: fill_blank
+    sentence: Ayer ___ el informe. (terminar, yo)
+    translation: אתמול סיימתי את הדוח.
+    answers:
+    - terminé
+    options:
+    - terminé
+    - terminó
+    - termino
+    lexemes:
+    - ayer
+    - terminar
+    - informe
+  - id: u17-l2-19
+    type: fill_blank
+    sentence: Ella ___ el correo. (recibir)
+    translation: היא קיבלה את המייל.
+    answers:
+    - recibió
+    options:
+    - recibió
+    - recibí
+    - recibe
+    lexemes:
+    - recibir
+    - correo
+  - id: u17-l2-20
+    type: word_bank
+    prompt: אתמול הכנתי ארוחת ערב.
+    answers:
+    - Ayer preparé la cena.
+    distractors:
+    - Mañana
+    - preparó
+    lexemes:
+    - ayer
+    - preparar
+    - cena
+  - id: u17-l2-21
+    type: translate
+    direction: to_target
+    prompt: אתמול סיימתי.
+    answers:
+    - Ayer terminé.
+    lexemes:
+    - ayer
+    - terminar
+  - id: u17-l2-22
+    type: translate
+    direction: to_target
+    prompt: אנחנו החלטנו.
+    answers:
+    - Decidimos.
+    - Nosotros decidimos.
+    lexemes:
+    - decidir
+  - id: u17-l2-23
+    type: translate
+    direction: to_source
+    prompt: Salí de la oficina a las dos.
+    answers:
+    - יצאתי מהמשרד בשתיים
+    lexemes:
+    - salir
+    - oficina
+    - dos
+  - id: u17-l2-24
+    type: dictation
+    text: Recibí un correo ayer.
+    lexemes:
+    - recibir
+    - correo
+    - ayer
+- id: u17-l3
+  kind: grammar
+  title:
+    he: עבר רגיל
+    en: Regular preterite
+  grammar: preterito-regular
+  exercises:
+  - id: u17-l3-01
+    type: fill_blank
+    sentence: Yo ___ ayer. (hablar)
+    translation: אתמול דיברתי.
+    answers:
+    - hablé
+    options:
+    - hablé
+    - habló
+    - hablo
+    lexemes:
+    - hablar
+    - ayer
+  - id: u17-l3-02
+    type: fill_blank
+    sentence: Tú ___ en casa. (comer)
+    translation: אכלת בבית.
+    answers:
+    - comiste
+    options:
+    - comiste
+    - comí
+    - comió
+    lexemes:
+    - comer
+    - casa
+  - id: u17-l3-03
+    type: fill_blank
+    sentence: Ella ___ a las dos. (salir)
+    translation: היא יצאה בשתיים.
+    answers:
+    - salió
+    options:
+    - salió
+    - salí
+    - sale
+    lexemes:
+    - salir
+    - a-las
+    - dos
+  - id: u17-l3-04
+    type: fill_blank
+    sentence: Nosotros ___ el informe. (escribir)
+    translation: כתבנו את הדוח.
+    answers:
+    - escribimos
+    options:
+    - escribimos
+    - escribieron
+    - escribí
+    lexemes:
+    - escribir
+    - informe
+  - id: u17-l3-05
+    type: fill_blank
+    sentence: Ellos ___ en Israel. (vivir)
+    translation: הם גרו בישראל.
+    answers:
+    - vivieron
+    options:
+    - vivieron
+    - vivió
+    - vivimos
+    lexemes:
+    - vivir
+    - israel
+  - id: u17-l3-06
+    type: fill_blank
+    sentence: Anoche yo ___ tarde. (llegar)
+    translation: אמש הגעתי מאוחר.
+    answers:
+    - llegué
+    options:
+    - llegué
+    - llegó
+    - llegaste
+    lexemes:
+    - anoche
+    - llegar
+    - tarde-adv
+  - id: u17-l3-07
+    type: fill_blank
+    sentence: Ayer ___ un libro. (leer, yo)
+    translation: אתמול קראתי ספר.
+    answers:
+    - leí
+    options:
+    - leí
+    - leyó
+    - leo
+    lexemes:
+    - ayer
+    - leer
+    - libro
+  - id: u17-l3-08
+    type: multiple_choice
+    prompt: מה פירוש 'habló'?
+    options:
+    - הוא דיבר
+    - אני מדבר
+    - אני דיברתי
+    correct: 0
+    lexemes:
+    - hablar
+  - id: u17-l3-09
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Ayer comí pescado.
+    - Ayer como pescado.
+    - Ayer comiendo pescado.
+    correct: 0
+    lexemes:
+    - ayer
+    - comer
+    - pescado
+  - id: u17-l3-10
+    type: multiple_choice
+    prompt: מה ההבדל בין 'hablo' ל־'habló'?
+    options:
+    - הווה לעומת עבר
+    - אין הבדל
+    - יחיד לעומת רבים
+    correct: 0
+    lexemes:
+    - hablar
+  - id: u17-l3-11
+    type: word_bank
+    prompt: אתמול כתבתי מייל.
+    answers:
+    - Ayer escribí un correo.
+    distractors:
+    - Mañana
+    - escribió
+    lexemes:
+    - ayer
+    - escribir
+    - correo
+  - id: u17-l3-12
+    type: word_bank
+    prompt: הם הגיעו מאוחר.
+    answers:
+    - Llegaron tarde.
+    distractors:
+    - Llegó
+    - tarde
+    lexemes:
+    - llegar
+    - tarde-adv
+  - id: u17-l3-13
+    type: translate
+    direction: to_target
+    prompt: אתמול קניתי לחם.
+    answers:
+    - Ayer compré pan.
+    lexemes:
+    - ayer
+    - comprar
+    - pan
+  - id: u17-l3-14
+    type: translate
+    direction: to_target
+    prompt: אתה למדת ספרדית.
+    answers:
+    - Estudiaste español.
+    - Tú estudiaste español.
+    lexemes:
+    - estudiar
+    - espanol-lengua
+  - id: u17-l3-15
+    type: translate
+    direction: to_source
+    prompt: Mateo escribió el informe.
+    answers:
+    - מתאו כתב את הדוח
+    lexemes:
+    - escribir
+    - informe
+  - id: u17-l3-16
+    type: translate
+    direction: to_source
+    prompt: Los viernes llegamos temprano, pero ayer llegamos tarde.
+    answers:
+    - בימי שישי אנחנו מגיעים מוקדם אבל אתמול הגענו מאוחר
+    lexemes:
+    - viernes
+    - llegar
+    - temprano
+    - ayer
+    - tarde-adv
+- id: u17-l4
+  kind: listening
+  title:
+    he: מה קרה בסוף השבוע
+    en: What happened at the weekend
+  exercises:
+  - id: u17-l4-01
+    type: dialogue
+    scene: סופיה ויעל בשיחה.
+    lines:
+    - speaker: sofia
+      text: ¿Qué hiciste el domingo?
+      translation: מה עשית ביום ראשון?
+    - speaker: yael
+      text: Caminé por el parque, comí con unos amigos y leí un libro.
+      translation: טיילתי בפארק, אכלתי עם כמה חברים וקראתי ספר.
+    - speaker: sofia
+      text: ¿Y el sábado?
+      translation: ובשבת?
+    - speaker: yael
+      text: Descansé, recé y comí con la familia. No trabajé ni usé el celular.
+      translation: נחתי, התפללתי ואכלתי עם המשפחה. לא עבדתי ולא השתמשתי בנייד.
+  - id: u17-l4-02
+    type: multiple_choice
+    prompt: מה יעל עשתה ביום ראשון?
+    options:
+    - טיילה בפארק
+    - עבדה במשרד
+    - נסעה לטיול
+    correct: 0
+    lexemes:
+    - caminar
+    - parque-lugar
+    - trabajar
+    - oficina
+    - viaje
+  - id: u17-l4-03
+    type: multiple_choice
+    prompt: מה יעל עשתה בשבת?
+    options:
+    - נחה והתפללה
+    - עבדה
+    - קנתה
+    correct: 0
+    lexemes:
+    - descansar
+    - rezar
+    - trabajar
+    - comprar
+  - id: u17-l4-04
+    type: multiple_choice
+    prompt: מה יעל לא עשתה בשבת?
+    options:
+    - לא השתמשה בנייד
+    - לא אכלה
+    - לא התפללה
+    correct: 0
+    lexemes:
+    - celular
+    - comer
+    - rezar
+  - id: u17-l4-05
+    type: listening_choice
+    audioText: Ayer leí un libro y comí en casa.
+    question: מה עשו?
+    options:
+    - קראו ספר ואכלו בבית
+    - עבדו ואכלו בחוץ
+    - ישנו ואכלו בבית
+    correct: 0
+    lexemes:
+    - leer
+    - libro
+    - comer
+    - casa
+    - trabajar
+    - dormir
+  - id: u17-l4-06
+    type: listening_choice
+    audioText: La semana pasada viajamos a Puebla.
+    question: מתי נסעו?
+    options:
+    - בשבוע שעבר
+    - השבוע
+    - מחר
+    correct: 0
+    lexemes:
+    - semana
+    - pasado
+    - proximo
+    - manana-adv
+  - id: u17-l4-07
+    type: dictation
+    text: Ayer caminé por el parque.
+    lexemes:
+    - ayer
+    - caminar
+    - parque-lugar
+  - id: u17-l4-08
+    type: translate
+    direction: to_target
+    prompt: אתמול בלילה אכלתי עם המשפחה.
+    answers:
+    - Anoche comí con la familia.
+    lexemes:
+    - anoche
+    - comer
+    - familia
+  - id: u17-l4-09
+    type: speak_repeat
+    text: Ayer terminé el informe y salí temprano.
+    translation: אתמול סיימתי את הדוח ויצאתי מוקדם.
+    lexemes:
+    - ayer
+    - terminar
+    - informe
+    - salir
+    - temprano
+- id: u17-l5
+  kind: reading
+  title:
+    he: אימייל לחברה
+    en: An email to a friend
+  exercises:
+  - id: u17-l5-01
+    type: reading
+    kind: אימייל
+    title: Un correo para Ana
+    text: 'Hola Ana. ¿Cómo estás? Te cuento mi semana.
+
+      El lunes trabajé mucho y terminé el informe. El martes recibí buenas noticias: ¡mi jefe decidió darme más responsabilidad!
+
+      El viernes preparé la cena de Shabat y comimos con unos amigos. Descansé mucho el sábado.
+
+      Hoy llamé a mi familia en Israel. ¡Hablamos una hora!
+
+      '
+    translation: 'שלום אנה. מה שלומך? אני מספרת לך על השבוע שלי.
+
+      ביום שני עבדתי הרבה וסיימתי את הדוח. ביום שלישי קיבלתי חדשות טובות: הבוס שלי החליט לתת לי עוד אחריות!
+
+      ביום שישי הכנתי את סעודת השבת ואכלנו עם כמה חברים. נחתי הרבה בשבת.
+
+      היום התקשרתי למשפחה בישראל. דיברנו שעה!
+
+      '
+  - id: u17-l5-02
+    type: multiple_choice
+    prompt: מה קרה ביום שלישי?
+    options:
+    - יעל קיבלה חדשות טובות
+    - יעל נסעה
+    - יעל הלכה לרופא
+    correct: 0
+    lexemes:
+    - recibir
+    - noticia
+    - viaje
+    - doctor
+  - id: u17-l5-03
+    type: multiple_choice
+    prompt: מה יעל עשתה ביום שישי?
+    options:
+    - הכינה סעודת שבת
+    - סיימה דוח
+    - טסה לישראל
+    correct: 0
+    lexemes:
+    - preparar
+    - cena
+    - terminar
+    - informe
+    - israel
+  - id: u17-l5-04
+    type: fill_blank
+    sentence: Ayer ___ a mi familia. (llamar)
+    translation: אתמול התקשרתי למשפחה.
+    answers:
+    - llamé
+    options:
+    - llamé
+    - llamó
+    - llamo
+    lexemes:
+    - ayer
+    - llamar
+    - familia
+  - id: u17-l5-05
+    type: translate
+    direction: to_target
+    prompt: אתמול דיברנו שעה.
+    answers:
+    - Ayer hablamos una hora.
+    lexemes:
+    - ayer
+    - hablar
+    - hora
+- id: u17-review
+  kind: review
+  title:
+    he: 'חזרה: עבר רגיל'
+    en: 'Review: regular past'
+  exercises:
+  - id: u17-review-01
+    type: match_pairs
+    pairs:
+    - - ayer
+      - אתמול
+    - - anoche
+      - אמש
+    - - hace-tiempo
+      - לפני
+    - - terminar
+      - לסיים
+    - - recibir
+      - לקבל
+    lexemes:
+    - ayer
+    - anoche
+    - hace-tiempo
+    - terminar
+    - recibir
+  - id: u17-review-02
+    type: match_pairs
+    pairs:
+    - - hablé
+      - דיברתי
+    - - comiste
+      - אכלת
+    - - salió
+      - יצא
+    - - escribimos
+      - כתבנו
+    - - vivieron
+      - גרו
+    lexemes:
+    - hablar
+    - comer
+    - salir
+    - escribir
+    - vivir
+  - id: u17-review-03
+    type: fill_blank
+    sentence: Ayer yo ___ en la oficina. (trabajar)
+    translation: אתמול עבדתי במשרד.
+    answers:
+    - trabajé
+    options:
+    - trabajé
+    - trabajó
+    - trabajo
+    lexemes:
+    - ayer
+    - trabajar
+    - oficina
+  - id: u17-review-04
+    type: fill_blank
+    sentence: Ellos ___ el informe. (terminar)
+    translation: הם סיימו את הדוח.
+    answers:
+    - terminaron
+    options:
+    - terminaron
+    - terminó
+    - terminamos
+    lexemes:
+    - terminar
+    - informe
+  - id: u17-review-05
+    type: multiple_choice
+    prompt: מה פירוש 'comimos'?
+    options:
+    - אכלנו
+    - אכלתי
+    - אכלו
+    correct: 0
+    lexemes:
+    - comer
+  - id: u17-review-06
+    type: listening_choice
+    audioText: Anoche salimos a las ocho.
+    question: מתי יצאו?
+    options:
+    - אמש בשמונה
+    - מחר בשמונה
+    - אתמול בבוקר
+    correct: 0
+    lexemes:
+    - anoche
+    - salir
+    - ocho
+    - manana-adv
+    - ayer
+  - id: u17-review-07
+    type: word_bank
+    prompt: אתמול למדתי ספרדית.
+    answers:
+    - Ayer estudié español.
+    distractors:
+    - Mañana
+    - estudió
+    lexemes:
+    - ayer
+    - estudiar
+    - espanol-lengua
+  - id: u17-review-08
+    type: translate
+    direction: to_target
+    prompt: בשבוע שעבר עבדנו הרבה.
+    answers:
+    - La semana pasada trabajamos mucho.
+    lexemes:
+    - semana
+    - pasado
+    - trabajar
+    - mucho
+  - id: u17-review-09
+    type: translate
+    direction: to_source
+    prompt: Ella recibió un correo ayer.
+    answers:
+    - היא קיבלה מייל אתמול
+    lexemes:
+    - recibir
+    - correo
+    - ayer
+  - id: u17-review-10
+    type: dictation
+    text: Ayer caminé y comí.
+    lexemes:
+    - ayer
+    - caminar
+    - comer
+  - id: u17-review-11
+    type: speak_repeat
+    text: Ayer hablé con mi familia.
+    translation: אתמול דיברתי עם המשפחה שלי.
+    lexemes:
+    - ayer
+    - hablar
+    - familia

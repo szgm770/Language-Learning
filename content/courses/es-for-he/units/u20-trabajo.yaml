@@ -1,0 +1,1480 @@
+id: u20-trabajo
+cefr: A2
+scene: work
+title:
+  he: עבודה ומה אני עושה עכשיו
+  en: Work and right now
+story: חודש אחרי ההגעה, יעל מדברת בשיחת וידאו עם חברה, וחברים חדשים שואלים על עבודתה. היא לומדת מקצועות, לדבר על מה שקורה עכשיו עם estar + gerundio ולהשוות ser ו־estar. בסוף היחידה מחכה מבחן הרמה של A2.
+canDo:
+- לדבר על מקצוע וכל מה שקשור לעבודה
+- 'לתאר מה קורה עכשיו: estoy trabajando'
+- לבחור בין ser ל־estar בביטחון
+- 'לשאול ולענות על העבודה: ¿en qué trabajas?'
+vocabulary:
+- id: ingeniero
+  text: el ingeniero / la ingeniera
+  translation: מהנדס / מהנדסת
+  pos: noun
+- id: programador
+  text: el programador / la programadora
+  translation: מתכנת / מתכנתת
+  pos: noun
+- id: gerente
+  text: el / la gerente
+  translation: מנהל / מנהלת
+  pos: noun
+- id: maestro
+  text: el maestro / la maestra
+  translation: מורה
+  pos: noun
+- id: abogado
+  text: el abogado / la abogada
+  translation: עורך דין
+  pos: noun
+- id: empresa
+  text: la empresa
+  translation: חברה
+  pos: noun
+- id: equipo
+  text: el equipo
+  translation: צוות, קבוצה
+  pos: noun
+- id: proyecto
+  text: el proyecto
+  translation: פרויקט
+  pos: noun
+- id: cliente
+  text: el cliente
+  translation: לקוח
+  pos: noun
+- id: jefe
+  text: el jefe / la jefa
+  translation: הבוס
+  pos: noun
+- id: trabajo
+  text: el trabajo
+  translation: עבודה
+  pos: noun
+- id: en-que
+  text: ¿en qué trabajas?
+  translation: במה אתה עובד?
+  pos: phrase
+- id: gerundio
+  text: estar + -ando / -iendo
+  translation: פועל בהווה מתמשך
+  pos: phrase
+  example:
+    text: Estoy trabajando.
+    translation: אני עובד (עכשיו).
+- id: ahora-mismo
+  text: ahora mismo
+  translation: ממש עכשיו
+  pos: phrase
+- id: ocupado
+  text: ocupado / ocupada
+  translation: עסוק
+  pos: adjective
+- id: libre
+  text: libre
+  translation: פנוי, חופשי
+  pos: adjective
+- id: importante
+  text: importante
+  translation: חשוב
+  pos: adjective
+- id: dificil
+  text: difícil
+  translation: קשה
+  pos: adjective
+- id: facil
+  text: fácil
+  translation: קל
+  pos: adjective
+- id: contento
+  text: contento / contenta
+  translation: מרוצה
+  pos: adjective
+grammar:
+- id: estar-gerundio
+  title:
+    he: estar + gerundio, ו־ser מול estar
+    en: The progressive and ser vs estar
+  explanation: '**מה אני עושה עכשיו?** בעברית: "אני עובד" (גם עכשיו וגם בדרך כלל). בספרדית אפשר לחדד: **estar + gerundio**.
+
+    * גזע של ar + **-ando**: hablar → **hablando**, trabajar → **trabajando**
+
+    * גזע של er / ir + **-iendo**: comer → **comiendo**, escribir → **escribiendo**
+
+    * חריגים: leer → **leyendo**, dormir → **durmiendo**, decir → **diciendo**, ir → **yendo**.
+
+    * *Estoy trabajando.* | *¿Qué estás haciendo?* | *Está escribiendo un correo.* | *Estamos esperando.*
+
+    **Present simple** מספר עובדה והרגל: *Trabajo en una empresa.* **Estar + gerundio** מדגיש "ממש עכשיו": *Ahora mismo estoy trabajando.*
+
+
+    **ser או estar?** סיכום:
+
+    | ser | estar |
+
+    |---|---|
+
+    | מי / מה: *Soy ingeniera.* | איפה: *Estoy en la oficina.* |
+
+    | תכונה קבועה: *Es simpático.* | מצב / הרגשה: *Está ocupado.* |
+
+    | מוצא, שעה, תאריך: *Soy de Israel. Son las dos.* | פעולה עכשווית: *Estoy leyendo.* |
+
+    | מקצוע: *Mateo es gerente.* | תוצאה: *La puerta está abierta.* |
+
+    זכרו: **ser** = מי שאני, **estar** = איפה ואיך אני עכשיו.'
+  examples:
+  - text: Soy programadora, pero ahora estoy hablando con un cliente.
+    translation: אני מתכנתת, אבל עכשיו אני מדברת עם לקוח.
+  - text: Mateo es gerente y está muy ocupado.
+    translation: מתאו הוא מנהל והוא עסוק מאוד.
+  - text: ¿Qué estás haciendo? Estoy escribiendo un informe.
+    translation: מה אתה עושה? אני כותב דוח.
+lessons:
+- id: u20-l1
+  kind: new
+  title:
+    he: מקצועות
+    en: Professions
+  exercises:
+  - id: u20-l1-01
+    type: dialogue
+    scene: חברים חדשים שואלים על העבודה.
+    lines:
+    - speaker: lucia
+      text: Yael, ¿en qué trabajas?
+      translation: יעל, במה את עובדת?
+    - speaker: yael
+      text: Soy programadora. Trabajo en una empresa de tecnología. Mi equipo es muy bueno.
+      translation: אני מתכנתת. אני עובדת בחברת טכנולוגיה. הצוות שלי טוב מאוד.
+    - speaker: lucia
+      text: Yo soy ingeniera. Dani es abogado y Mateo es gerente.
+      translation: אני מהנדסת. דני הוא עורך דין ומתאו הוא מנהל.
+    - speaker: yael
+      text: ¡Qué interesante! Cada uno tiene un trabajo importante.
+      translation: איזה מעניין! לכל אחד יש עבודה חשובה.
+  - id: u20-l1-02
+    type: learn
+    lexeme: ingeniero
+  - id: u20-l1-03
+    type: learn
+    lexeme: programador
+  - id: u20-l1-04
+    type: learn
+    lexeme: gerente
+  - id: u20-l1-05
+    type: learn
+    lexeme: maestro
+  - id: u20-l1-06
+    type: learn
+    lexeme: abogado
+  - id: u20-l1-07
+    type: learn
+    lexeme: empresa
+  - id: u20-l1-08
+    type: learn
+    lexeme: equipo
+  - id: u20-l1-09
+    type: learn
+    lexeme: proyecto
+  - id: u20-l1-10
+    type: learn
+    lexeme: cliente
+  - id: u20-l1-11
+    type: learn
+    lexeme: jefe
+  - id: u20-l1-12
+    type: learn
+    lexeme: trabajo
+  - id: u20-l1-13
+    type: learn
+    lexeme: en-que
+  - id: u20-l1-14
+    type: match_pairs
+    pairs:
+    - - el ingeniero
+      - מהנדס
+    - - el programador
+      - מתכנת
+    - - el gerente
+      - מנהל
+    - - el maestro
+      - מורה
+    - - el abogado
+      - עורך דין
+    lexemes:
+    - ingeniero
+    - programador
+    - gerente
+    - maestro
+    - abogado
+  - id: u20-l1-15
+    type: match_pairs
+    pairs:
+    - - la empresa
+      - חברה
+    - - el equipo
+      - צוות
+    - - el proyecto
+      - פרויקט
+    - - el cliente
+      - לקוח
+    - - el jefe
+      - הבוס
+    lexemes:
+    - empresa
+    - equipo
+    - proyecto
+    - cliente
+    - jefe
+  - id: u20-l1-16
+    type: multiple_choice
+    prompt: איך שואלים 'במה אתה עובד?'
+    options:
+    - ¿En qué trabajas?
+    - ¿Dónde trabajas?
+    - ¿Cuándo trabajas?
+    correct: 0
+    lexemes:
+    - en-que
+    - trabajar
+    - donde
+    - cuando
+  - id: u20-l1-17
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Soy ingeniera.
+    - Estoy ingeniera.
+    - Tengo ingeniera.
+    correct: 0
+    lexemes:
+    - ser
+    - ingeniero
+    - estar
+    - tener
+  - id: u20-l1-18
+    type: multiple_choice
+    prompt: מה פירוש 'el equipo'?
+    options:
+    - הצוות
+    - החברה
+    - הלקוח
+    correct: 0
+    lexemes:
+    - equipo
+    - empresa
+    - cliente
+  - id: u20-l1-19
+    type: listening_choice
+    audioText: Soy programadora.
+    question: מה המקצוע?
+    options:
+    - מתכנתת
+    - מהנדסת
+    - מורה
+    correct: 0
+    lexemes:
+    - programador
+    - ingeniero
+    - maestro
+  - id: u20-l1-20
+    type: listening_choice
+    audioText: Trabajo en una empresa grande.
+    question: איפה עובדת?
+    options:
+    - בחברה גדולה
+    - בבית ספר
+    - בבית חולים
+    correct: 0
+    lexemes:
+    - trabajar
+    - empresa
+    - grande
+    - hospital
+  - id: u20-l1-21
+    type: translate
+    direction: to_target
+    prompt: אני מהנדס.
+    answers:
+    - Soy ingeniero.
+    lexemes:
+    - ingeniero
+    - ser
+  - id: u20-l1-22
+    type: translate
+    direction: to_target
+    prompt: הלקוח והבוס
+    answers:
+    - el cliente y el jefe
+    lexemes:
+    - cliente
+    - jefe
+  - id: u20-l1-23
+    type: translate
+    direction: to_source
+    prompt: el equipo del proyecto
+    answers:
+    - צוות הפרויקט
+    - הצוות של הפרויקט
+    lexemes:
+    - equipo
+    - proyecto
+  - id: u20-l1-24
+    type: dictation
+    text: Soy gerente de una empresa.
+    lexemes:
+    - gerente
+    - empresa
+  - id: u20-l1-25
+    type: speak_repeat
+    text: Trabajo en una empresa de tecnología.
+    translation: אני עובדת בחברת טכנולוגיה.
+    lexemes:
+    - trabajar
+    - empresa
+- id: u20-l2
+  kind: new
+  title:
+    he: תארים של עבודה
+    en: Work adjectives
+  exercises:
+  - id: u20-l2-01
+    type: learn
+    lexeme: gerundio
+  - id: u20-l2-02
+    type: learn
+    lexeme: ahora-mismo
+  - id: u20-l2-03
+    type: learn
+    lexeme: ocupado
+  - id: u20-l2-04
+    type: learn
+    lexeme: libre
+  - id: u20-l2-05
+    type: learn
+    lexeme: importante
+  - id: u20-l2-06
+    type: learn
+    lexeme: dificil
+  - id: u20-l2-07
+    type: learn
+    lexeme: facil
+  - id: u20-l2-08
+    type: learn
+    lexeme: contento
+  - id: u20-l2-09
+    type: match_pairs
+    pairs:
+    - - ocupado
+      - עסוק
+    - - libre
+      - פנוי
+    - - importante
+      - חשוב
+    - - difícil
+      - קשה
+    - - fácil
+      - קל
+    lexemes:
+    - ocupado
+    - libre
+    - importante
+    - dificil
+    - facil
+  - id: u20-l2-10
+    type: match_pairs
+    pairs:
+    - - contento
+      - מרוצה
+    - - ahora mismo
+      - ממש עכשיו
+    - - el trabajo
+      - עבודה
+    - - la empresa
+      - חברה
+    - - el proyecto
+      - פרויקט
+    lexemes:
+    - contento
+    - ahora-mismo
+    - trabajo
+    - empresa
+    - proyecto
+  - id: u20-l2-11
+    type: dialogue
+    scene: שיחת קפה קצרה.
+    lines:
+    - speaker: mateo
+      text: Yael, ¿estás libre? Tengo una pregunta sobre el proyecto.
+      translation: יעל, את פנויה? יש לי שאלה על הפרויקט.
+    - speaker: yael
+      text: Ahora mismo estoy ocupada, estoy hablando con un cliente. ¿Te llamo en diez minutos?
+      translation: ממש עכשיו אני עסוקה, אני מדברת עם לקוח. אני יכולה להתקשר בעוד עשר דקות?
+    - speaker: mateo
+      text: Claro. No es urgente, pero es importante.
+      translation: בטח. זה לא דחוף, אבל זה חשוב.
+    - speaker: yael
+      text: Perfecto. Estoy contenta con el proyecto, pero es difícil.
+      translation: מצוין. אני מרוצה מהפרויקט, אבל הוא קשה.
+  - id: u20-l2-12
+    type: multiple_choice
+    prompt: מה פירוש 'estoy ocupado'?
+    options:
+    - אני עסוק
+    - אני פנוי
+    - אני עייף
+    correct: 0
+    lexemes:
+    - ocupado
+    - libre
+    - cansado
+  - id: u20-l2-13
+    type: multiple_choice
+    prompt: מה פירוש 'Es fácil'?
+    options:
+    - זה קל
+    - זה קשה
+    - זה חשוב
+    correct: 0
+    lexemes:
+    - facil
+    - dificil
+    - importante
+  - id: u20-l2-14
+    type: multiple_choice
+    prompt: מה פירוש 'ahora mismo'?
+    options:
+    - ממש עכשיו
+    - אחר כך
+    - אתמול
+    correct: 0
+    lexemes:
+    - ahora-mismo
+    - luego
+    - ayer
+  - id: u20-l2-15
+    type: listening_choice
+    audioText: Estoy libre a las cinco.
+    question: מתי פנוי?
+    options:
+    - בחמש
+    - בשלוש
+    - בשבע
+    correct: 0
+    lexemes:
+    - libre
+    - a-las
+    - cinco
+    - tres
+    - siete
+  - id: u20-l2-16
+    type: listening_choice
+    audioText: El proyecto es importante y difícil.
+    question: איך הפרויקט?
+    options:
+    - חשוב וקשה
+    - קל ומהיר
+    - קצר ויקר
+    correct: 0
+    lexemes:
+    - proyecto
+    - importante
+    - dificil
+    - facil
+    - corto
+    - caro
+  - id: u20-l2-17
+    type: fill_blank
+    sentence: Estoy ___ ahora. No puedo hablar. (עסוק)
+    translation: אני עסוק עכשיו. אני לא יכול לדבר.
+    answers:
+    - ocupado
+    options:
+    - ocupado
+    - libre
+    - contento
+    lexemes:
+    - ocupado
+    - poder
+    - hablar
+  - id: u20-l2-18
+    type: fill_blank
+    sentence: El trabajo es ___, pero estoy contenta. (קשה)
+    translation: העבודה קשה, אבל אני מרוצה.
+    answers:
+    - difícil
+    options:
+    - difícil
+    - fácil
+    - libre
+    lexemes:
+    - trabajo
+    - dificil
+    - contento
+  - id: u20-l2-19
+    type: word_bank
+    prompt: אני מרוצה מהעבודה.
+    answers:
+    - Estoy contenta con el trabajo.
+    distractors:
+    - Soy
+    - fácil
+    lexemes:
+    - estar
+    - contento
+    - trabajo
+  - id: u20-l2-20
+    type: translate
+    direction: to_target
+    prompt: אני פנוי היום.
+    answers:
+    - Estoy libre hoy.
+    lexemes:
+    - estar
+    - libre
+    - hoy
+  - id: u20-l2-21
+    type: translate
+    direction: to_target
+    prompt: זה חשוב מאוד.
+    answers:
+    - Es muy importante.
+    lexemes:
+    - importante
+  - id: u20-l2-22
+    type: translate
+    direction: to_source
+    prompt: Está ocupada ahora mismo.
+    answers:
+    - היא עסוקה ממש עכשיו
+    lexemes:
+    - ocupado
+    - ahora-mismo
+  - id: u20-l2-23
+    type: dictation
+    text: El trabajo es difícil.
+    lexemes:
+    - trabajo
+    - dificil
+- id: u20-l3
+  kind: grammar
+  title:
+    he: estar + gerundio
+    en: The progressive
+  grammar: estar-gerundio
+  exercises:
+  - id: u20-l3-01
+    type: fill_blank
+    sentence: Yo estoy ___ ahora. (trabajar)
+    translation: אני עובד עכשיו.
+    answers:
+    - trabajando
+    options:
+    - trabajando
+    - trabajar
+    - trabajo
+    lexemes:
+    - estar
+    - trabajar
+    - ahora-mismo
+  - id: u20-l3-02
+    type: fill_blank
+    sentence: Ella está ___ un correo. (escribir)
+    translation: היא כותבת מייל.
+    answers:
+    - escribiendo
+    options:
+    - escribiendo
+    - escribando
+    - escribir
+    lexemes:
+    - estar
+    - escribir
+    - correo
+  - id: u20-l3-03
+    type: fill_blank
+    sentence: Nosotros estamos ___ el informe. (leer)
+    translation: אנחנו קוראים את הדוח.
+    answers:
+    - leyendo
+    options:
+    - leyendo
+    - leiendo
+    - leer
+    lexemes:
+    - estar
+    - leer
+    - informe
+  - id: u20-l3-04
+    type: fill_blank
+    sentence: ¿Qué ___ haciendo? (tú)
+    translation: מה אתה עושה?
+    answers:
+    - estás
+    options:
+    - estás
+    - estoy
+    - está
+    lexemes:
+    - estar
+    - hacer
+  - id: u20-l3-05
+    type: fill_blank
+    sentence: Ellos están ___ con un cliente. (hablar)
+    translation: הם מדברים עם לקוח.
+    answers:
+    - hablando
+    options:
+    - hablando
+    - hablar
+    - hablan
+    lexemes:
+    - estar
+    - hablar
+    - cliente
+  - id: u20-l3-06
+    type: fill_blank
+    sentence: Mateo ___ gerente. (ser)
+    translation: מתאו הוא מנהל.
+    answers:
+    - es
+    options:
+    - es
+    - está
+    - son
+    lexemes:
+    - gerente
+    - ser
+  - id: u20-l3-07
+    type: fill_blank
+    sentence: Mateo ___ ocupado. (estar)
+    translation: מתאו עסוק.
+    answers:
+    - está
+    options:
+    - está
+    - es
+    - están
+    lexemes:
+    - ocupado
+    - estar
+  - id: u20-l3-08
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Estoy leyendo.
+    - Estoy leer.
+    - Estoy leído.
+    correct: 0
+    lexemes:
+    - estar
+    - leer
+  - id: u20-l3-09
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Soy ingeniera.
+    - Estoy ingeniera.
+    - Voy ingeniera.
+    correct: 0
+    lexemes:
+    - ingeniero
+    - ser
+    - estar
+    - ir
+  - id: u20-l3-10
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - La oficina está lejos.
+    - La oficina es lejos.
+    - La oficina hay lejos.
+    correct: 0
+    lexemes:
+    - oficina
+    - estar
+    - lejos
+    - ser
+    - hay
+  - id: u20-l3-11
+    type: word_bank
+    prompt: אני עובדת ממש עכשיו.
+    answers:
+    - Estoy trabajando ahora mismo.
+    distractors:
+    - Trabajo
+    - soy
+    lexemes:
+    - estar
+    - trabajar
+    - ahora-mismo
+  - id: u20-l3-12
+    type: word_bank
+    prompt: הם כותבים דוח.
+    answers:
+    - Están escribiendo un informe.
+    distractors:
+    - Escriben
+    - son
+    lexemes:
+    - estar
+    - escribir
+    - informe
+  - id: u20-l3-13
+    type: translate
+    direction: to_target
+    prompt: אני לומד ספרדית עכשיו.
+    answers:
+    - Estoy estudiando español ahora.
+    - Ahora estoy estudiando español.
+    lexemes:
+    - estar
+    - estudiar
+    - espanol-lengua
+    - ahora
+  - id: u20-l3-14
+    type: translate
+    direction: to_target
+    prompt: מה את עושה?
+    answers:
+    - ¿Qué estás haciendo?
+    lexemes:
+    - estar
+    - hacer
+  - id: u20-l3-15
+    type: translate
+    direction: to_source
+    prompt: Estamos esperando al cliente.
+    answers:
+    - אנחנו מחכים ללקוח
+    lexemes:
+    - estar
+    - esperar
+    - cliente
+  - id: u20-l3-16
+    type: translate
+    direction: to_source
+    prompt: Mi jefe es simpático, pero hoy está ocupado.
+    answers:
+    - הבוס שלי נחמד אבל היום הוא עסוק
+    lexemes:
+    - jefe
+    - simpatico
+    - hoy
+    - ocupado
+- id: u20-l4
+  kind: listening
+  title:
+    he: שיחת וידאו
+    en: A video call
+  exercises:
+  - id: u20-l4-01
+    type: dialogue
+    scene: יעל בשיחת וידאו עם לוסיה.
+    lines:
+    - speaker: yael
+      text: Hola, Lucía. ¿Qué estás haciendo?
+      translation: שלום, לוסיה. מה את עושה?
+    - speaker: lucia
+      text: Estoy preparando la cena. Mi mamá está leyendo y mi papá está hablando por teléfono.
+      translation: אני מכינה ארוחת ערב. אמא שלי קוראת ואבא שלי מדבר בטלפון.
+    - speaker: yael
+      text: Yo estoy trabajando todavía. Estoy escribiendo un informe.
+      translation: אני עדיין עובדת. אני כותבת דוח.
+    - speaker: lucia
+      text: ¡Qué bien! ¿Estás contenta con el trabajo?
+      translation: איזה יופי! את מרוצה מהעבודה?
+  - id: u20-l4-02
+    type: multiple_choice
+    prompt: מה לוסיה עושה?
+    options:
+    - מכינה ארוחת ערב
+    - עובדת
+    - ישנה
+    correct: 0
+    lexemes:
+    - preparar
+    - cena
+    - trabajar
+    - dormir
+  - id: u20-l4-03
+    type: multiple_choice
+    prompt: מה האמא עושה?
+    options:
+    - קוראת
+    - מדברת בטלפון
+    - אוכלת
+    correct: 0
+    lexemes:
+    - leer
+    - hablar
+    - comer
+  - id: u20-l4-04
+    type: multiple_choice
+    prompt: מה יעל עושה?
+    options:
+    - כותבת דוח
+    - מדברת עם לקוח
+    - יוצאת
+    correct: 0
+    lexemes:
+    - escribir
+    - informe
+    - cliente
+    - salir
+  - id: u20-l4-05
+    type: listening_choice
+    audioText: Estoy comiendo con mi familia.
+    question: מה עושה?
+    options:
+    - אוכל עם המשפחה
+    - עובד
+    - לומד
+    correct: 0
+    lexemes:
+    - comer
+    - familia
+    - trabajar
+    - estudiar
+  - id: u20-l4-06
+    type: listening_choice
+    audioText: Están durmiendo ahora.
+    question: מה עושים?
+    options:
+    - ישנים
+    - אוכלים
+    - עובדים
+    correct: 0
+    lexemes:
+    - dormir
+    - comer
+    - trabajar
+  - id: u20-l4-07
+    type: dictation
+    text: Estoy escribiendo un informe.
+    lexemes:
+    - estar
+    - escribir
+    - informe
+  - id: u20-l4-08
+    type: translate
+    direction: to_target
+    prompt: אני לא עובד עכשיו.
+    answers:
+    - No estoy trabajando ahora.
+    lexemes:
+    - estar
+    - trabajar
+    - ahora
+  - id: u20-l4-09
+    type: speak_repeat
+    text: ¿Qué estás haciendo ahora?
+    translation: מה אתה עושה עכשיו?
+    lexemes:
+    - estar
+    - hacer
+    - ahora
+- id: u20-l5
+  kind: reading
+  title:
+    he: פרופיל בעבודה
+    en: A work profile
+  exercises:
+  - id: u20-l5-01
+    type: reading
+    kind: פרופיל
+    title: Perfil profesional
+    text: 'Me llamo Yael y soy programadora. Trabajo en una empresa de tecnología en la Ciudad de México.
+
+      Mi equipo es pequeño, pero muy bueno. Ahora estamos trabajando en un proyecto importante para un cliente.
+
+      Mi jefe, Mateo, es simpático. Estoy contenta con mi trabajo, aunque a veces es difícil.
+
+      '
+    translation: 'קוראים לי יעל ואני מתכנתת. אני עובדת בחברת טכנולוגיה במקסיקו סיטי.
+
+      הצוות שלי קטן אבל טוב מאוד. עכשיו אנחנו עובדים על פרויקט חשוב ללקוח.
+
+      הבוס שלי, מתאו, נחמד. אני מרוצה מהעבודה, אם כי לפעמים היא קשה.
+
+      '
+  - id: u20-l5-02
+    type: multiple_choice
+    prompt: מה המקצוע של יעל?
+    options:
+    - מתכנתת
+    - עורכת דין
+    - מורה
+    correct: 0
+    lexemes:
+    - programador
+    - abogado
+    - maestro
+  - id: u20-l5-03
+    type: multiple_choice
+    prompt: איך הצוות?
+    options:
+    - קטן וטוב
+    - גדול ויקר
+    - חדש
+    correct: 0
+    lexemes:
+    - equipo
+    - grande
+    - caro
+    - nuevo
+  - id: u20-l5-04
+    type: fill_blank
+    sentence: Ahora estamos ___ en un proyecto.
+    translation: עכשיו אנחנו עובדים על פרויקט.
+    answers:
+    - trabajando
+    options:
+    - trabajando
+    - trabajamos
+    - trabajar
+    lexemes:
+    - estar
+    - trabajar
+    - proyecto
+  - id: u20-l5-05
+    type: translate
+    direction: to_target
+    prompt: אני מרוצה מהעבודה.
+    answers:
+    - Estoy contenta con el trabajo.
+    - Estoy contento con el trabajo.
+    lexemes:
+    - estar
+    - contento
+    - trabajo
+- id: u20-review
+  kind: review
+  title:
+    he: 'חזרה: עבודה והווה מתמשך'
+    en: 'Review: work and progressive'
+  exercises:
+  - id: u20-review-01
+    type: match_pairs
+    pairs:
+    - - el ingeniero
+      - מהנדס
+    - - el gerente
+      - מנהל
+    - - el abogado
+      - עורך דין
+    - - la empresa
+      - חברה
+    - - el cliente
+      - לקוח
+    lexemes:
+    - ingeniero
+    - gerente
+    - abogado
+    - empresa
+    - cliente
+  - id: u20-review-02
+    type: match_pairs
+    pairs:
+    - - ocupado
+      - עסוק
+    - - libre
+      - פנוי
+    - - difícil
+      - קשה
+    - - fácil
+      - קל
+    - - contento
+      - מרוצה
+    lexemes:
+    - ocupado
+    - libre
+    - dificil
+    - facil
+    - contento
+  - id: u20-review-03
+    type: fill_blank
+    sentence: Yo ___ trabajando ahora mismo.
+    translation: אני עובד ממש עכשיו.
+    answers:
+    - estoy
+    options:
+    - estoy
+    - soy
+    - estás
+    lexemes:
+    - estar
+    - trabajar
+    - ahora-mismo
+  - id: u20-review-04
+    type: fill_blank
+    sentence: Ella ___ ingeniera.
+    translation: היא מהנדסת.
+    answers:
+    - es
+    options:
+    - es
+    - está
+    - son
+    lexemes:
+    - ingeniero
+    - ser
+  - id: u20-review-05
+    type: multiple_choice
+    prompt: מה פירוש '¿Qué estás haciendo?'
+    options:
+    - מה אתה עושה (עכשיו)?
+    - מה עשית?
+    - מה תעשה?
+    correct: 0
+    lexemes:
+    - estar
+    - hacer
+  - id: u20-review-06
+    type: listening_choice
+    audioText: Estamos comiendo.
+    question: מה עושים?
+    options:
+    - אוכלים
+    - עובדים
+    - לומדים
+    correct: 0
+    lexemes:
+    - comer
+    - trabajar
+    - estudiar
+  - id: u20-review-07
+    type: word_bank
+    prompt: אני כותבת דוח.
+    answers:
+    - Estoy escribiendo un informe.
+    distractors:
+    - Escribo
+    - soy
+    lexemes:
+    - estar
+    - escribir
+    - informe
+  - id: u20-review-08
+    type: translate
+    direction: to_target
+    prompt: הלקוח ממתין.
+    answers:
+    - El cliente está esperando.
+    lexemes:
+    - cliente
+    - estar
+    - esperar
+  - id: u20-review-09
+    type: translate
+    direction: to_source
+    prompt: Soy gerente y estoy muy ocupado.
+    answers:
+    - אני מנהל ואני עסוק מאוד
+    lexemes:
+    - gerente
+    - ser
+    - ocupado
+    - estar
+  - id: u20-review-10
+    type: dictation
+    text: Mi trabajo es importante.
+    lexemes:
+    - trabajo
+    - importante
+  - id: u20-review-11
+    type: speak_repeat
+    text: Estoy hablando con un cliente.
+    translation: אני מדברת עם לקוח.
+    lexemes:
+    - estar
+    - hablar
+    - cliente
+- id: a2-test
+  kind: test
+  title:
+    he: מבחן רמה A2
+    en: A2 level test
+  exercises:
+  - id: a2-test-01
+    type: fill_blank
+    sentence: Yo ___ ayudarte. (poder)
+    translation: אני יכול לעזור לך.
+    answers:
+    - puedo
+    options:
+    - puedo
+    - puede
+    - podemos
+    lexemes:
+    - poder
+    - ayudar
+  - id: a2-test-02
+    type: multiple_choice
+    prompt: איך מבקשים בנימוס לחזור על דברים?
+    options:
+    - ¿Podría repetir, por favor?
+    - ¡Repite!
+    - Yo repito.
+    correct: 0
+    lexemes:
+    - podria
+    - repetir
+    - por-favor
+  - id: a2-test-03
+    type: fill_blank
+    sentence: Nosotros ___ que esperar. (tener que)
+    translation: אנחנו חייבים לחכות.
+    answers:
+    - tenemos
+    options:
+    - tenemos
+    - tienen
+    - tengo
+    lexemes:
+    - tener-que
+    - esperar
+  - id: a2-test-04
+    type: fill_blank
+    sentence: Yo me ___ a las seis. (levantarse)
+    translation: אני קם בשש.
+    answers:
+    - levanto
+    options:
+    - levanto
+    - levantas
+    - levantamos
+    lexemes:
+    - levantarse
+    - a-las
+    - seis
+  - id: a2-test-05
+    type: fill_blank
+    sentence: Yo me ___ a las diez. (acostarse)
+    translation: אני הולך לישון בעשר.
+    answers:
+    - acuesto
+    options:
+    - acuesto
+    - acostamos
+    - acuestas
+    lexemes:
+    - acostarse
+    - a-las
+    - diez
+  - id: a2-test-06
+    type: multiple_choice
+    prompt: מה פירוש 'Me duele la cabeza'?
+    options:
+    - כואב לי הראש
+    - יש לי ראש
+    - אני שוכח את הראש
+    correct: 0
+    lexemes:
+    - doler
+    - cabeza
+  - id: a2-test-07
+    type: fill_blank
+    sentence: Tengo mucha ___. (צמא)
+    translation: אני מאוד צמא.
+    answers:
+    - sed
+    options:
+    - sed
+    - hambre
+    - frío
+    lexemes:
+    - sed
+  - id: a2-test-08
+    type: fill_blank
+    sentence: El abrigo es ___ caro que la camisa. (יותר)
+    translation: המעיל יקר יותר מהחולצה.
+    answers:
+    - más
+    options:
+    - más
+    - menos
+    - tan
+    lexemes:
+    - abrigo
+    - mas-que
+    - caro
+    - camisa
+  - id: a2-test-09
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Este abrigo es mejor que ese.
+    - Este abrigo es más bueno que ese.
+    - Este abrigo es bueno de ese.
+    correct: 0
+    lexemes:
+    - abrigo
+    - mejor
+  - id: a2-test-10
+    type: fill_blank
+    sentence: Mañana ___ a llover.
+    translation: מחר ירד גשם.
+    answers:
+    - va
+    options:
+    - va
+    - voy
+    - vas
+    lexemes:
+    - manana-adv
+    - ir
+    - llover
+  - id: a2-test-11
+    type: multiple_choice
+    prompt: 'מה מזג האוויר: ''Hace sol''?'
+    options:
+    - יש שמש
+    - יורד גשם
+    - מעונן
+    correct: 0
+    lexemes:
+    - hace
+    - sol
+    - llover
+    - nublado
+  - id: a2-test-12
+    type: multiple_choice
+    prompt: איך אומרים '3 ביוני'?
+    options:
+    - el tres de junio
+    - junio de tres
+    - el junio tres
+    correct: 0
+    lexemes:
+    - tres
+    - junio
+  - id: a2-test-13
+    type: fill_blank
+    sentence: Ayer yo ___ en la oficina. (trabajar)
+    translation: אתמול עבדתי במשרד.
+    answers:
+    - trabajé
+    options:
+    - trabajé
+    - trabajó
+    - trabajo
+    lexemes:
+    - ayer
+    - trabajar
+    - oficina
+  - id: a2-test-14
+    type: fill_blank
+    sentence: Ella ___ un correo. (recibir)
+    translation: היא קיבלה מייל.
+    answers:
+    - recibió
+    options:
+    - recibió
+    - recibí
+    - recibe
+    lexemes:
+    - recibir
+    - correo
+  - id: a2-test-15
+    type: fill_blank
+    sentence: Ayer yo ___ al mercado. (ir)
+    translation: אתמול הלכתי לשוק.
+    answers:
+    - fui
+    options:
+    - fui
+    - fue
+    - fuimos
+    lexemes:
+    - ayer
+    - ir
+    - mercado
+  - id: a2-test-16
+    type: fill_blank
+    sentence: ¿Qué ___ tú ayer? (hacer)
+    translation: מה עשית אתמול?
+    answers:
+    - hiciste
+    options:
+    - hiciste
+    - hice
+    - hizo
+    lexemes:
+    - hacer
+    - ayer
+  - id: a2-test-17
+    type: fill_blank
+    sentence: Ellos ___ en casa. (estar, עבר)
+    translation: הם היו בבית.
+    answers:
+    - estuvieron
+    options:
+    - estuvieron
+    - estuvo
+    - estuve
+    lexemes:
+    - estar
+    - casa
+  - id: a2-test-18
+    type: multiple_choice
+    prompt: מה פירוש 'Quisiera una habitación'?
+    options:
+    - הייתי רוצה חדר
+    - יש לי חדר
+    - אני בחדר
+    correct: 0
+    lexemes:
+    - quisiera
+    - habitacion
+    - tener
+  - id: a2-test-19
+    type: multiple_choice
+    prompt: מה פירוש 'ida y vuelta'?
+    options:
+    - הלוך וחזור
+    - ישיר
+    - מאוחר
+    correct: 0
+    lexemes:
+    - ida-vuelta
+    - directo
+    - tarde-adv
+  - id: a2-test-20
+    type: fill_blank
+    sentence: Yo estoy ___ ahora. (trabajar)
+    translation: אני עובד עכשיו.
+    answers:
+    - trabajando
+    options:
+    - trabajando
+    - trabajar
+    - trabajo
+    lexemes:
+    - estar
+    - trabajar
+    - ahora-mismo
+  - id: a2-test-21
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - La oficina está lejos.
+    - La oficina es lejos.
+    - La oficina hay lejos.
+    correct: 0
+    lexemes:
+    - oficina
+    - estar
+    - lejos
+    - ser
+    - hay
+  - id: a2-test-22
+    type: word_bank
+    prompt: אפשר לדבר לאט יותר?
+    answers:
+    - ¿Puede hablar más despacio?
+    distractors:
+    - Tengo
+    - tiene
+    lexemes:
+    - poder
+    - hablar
+    - despacio
+  - id: a2-test-23
+    type: word_bank
+    prompt: אני נוטלת ידיים ומתפללת.
+    answers:
+    - Me lavo las manos y rezo.
+    distractors:
+    - Se
+    - Lavo
+    lexemes:
+    - lavarse
+    - mano
+    - rezar
+  - id: a2-test-24
+    type: word_bank
+    prompt: הם הגיעו מאוחר.
+    answers:
+    - Llegaron tarde.
+    distractors:
+    - Llegó
+    - temprano
+    lexemes:
+    - llegar
+    - tarde-adv
+  - id: a2-test-25
+    type: translate
+    direction: to_target
+    prompt: אתמול הלכנו וראינו הכול.
+    answers:
+    - Ayer fuimos y vimos todo.
+    lexemes:
+    - ayer
+    - ir
+    - ver
+  - id: a2-test-26
+    type: translate
+    direction: to_target
+    prompt: הייתי רוצה אוכל כשר.
+    answers:
+    - Quisiera comida kosher.
+    lexemes:
+    - quisiera
+    - kosher-menu
+  - id: a2-test-27
+    type: translate
+    direction: to_source
+    prompt: Tengo fiebre y me duele la garganta.
+    answers:
+    - יש לי חום וכואב לי הגרון
+    lexemes:
+    - fiebre
+    - doler
+    - garganta
+  - id: a2-test-28
+    type: translate
+    direction: to_source
+    prompt: La semana pasada trabajamos mucho.
+    answers:
+    - בשבוע שעבר עבדנו הרבה
+    lexemes:
+    - semana
+    - pasado
+    - trabajar
+    - mucho
+  - id: a2-test-29
+    type: listening_choice
+    audioText: Mi cumpleaños es el cinco de abril.
+    question: מתי יום ההולדת?
+    options:
+    - 5 באפריל
+    - 15 באפריל
+    - 5 במאי
+    correct: 0
+    lexemes:
+    - cumpleanos
+    - cinco
+    - abril
+    - quince
+    - mayo
+  - id: a2-test-30
+    type: dictation
+    text: Ayer terminé el informe.
+    lexemes:
+    - ayer
+    - terminar
+    - informe
+  - id: a2-test-31
+    type: speak_repeat
+    text: Estoy hablando con un cliente.
+    translation: אני מדברת עם לקוח.
+    lexemes:
+    - estar
+    - hablar
+    - cliente

@@ -1,0 +1,1080 @@
+id: u16-fechas
+cefr: A2
+scene: party
+title:
+  he: תאריכים וחגים
+  en: Dates and holidays
+story: חג מתקרב. יעל מספרת לחברים במשרד על ראש השנה ופסח, שואלת מתי יום ההולדת של סופיה ולומדת להגיד תאריכים.
+canDo:
+- 'להגיד חודשים ותאריכים: el quince de marzo'
+- לשאול ולענות מתי יום ההולדת
+- לספר על חגי ישראל בספרדית
+- 'לאחל: ¡Feliz cumpleaños! ¡Feliz Pésaj!'
+vocabulary:
+- id: enero
+  text: enero
+  translation: ינואר
+  pos: noun
+- id: febrero
+  text: febrero
+  translation: פברואר
+  pos: noun
+- id: marzo
+  text: marzo
+  translation: מרץ
+  pos: noun
+- id: abril
+  text: abril
+  translation: אפריל
+  pos: noun
+- id: mayo
+  text: mayo
+  translation: מאי
+  pos: noun
+- id: junio
+  text: junio
+  translation: יוני
+  pos: noun
+- id: julio
+  text: julio
+  translation: יולי
+  pos: noun
+- id: agosto
+  text: agosto
+  translation: אוגוסט
+  pos: noun
+- id: septiembre
+  text: septiembre
+  translation: ספטמבר
+  pos: noun
+- id: octubre
+  text: octubre
+  translation: אוקטובר
+  pos: noun
+- id: noviembre
+  text: noviembre
+  translation: נובמבר
+  pos: noun
+- id: diciembre
+  text: diciembre
+  translation: דצמבר
+  pos: noun
+- id: fecha
+  text: la fecha
+  translation: תאריך
+  pos: noun
+- id: cumpleanos
+  text: el cumpleaños
+  translation: יום הולדת
+  pos: noun
+- id: regalo
+  text: el regalo
+  translation: מתנה
+  pos: noun
+- id: fiesta-dia
+  text: el día festivo
+  translation: חג, יום חופש
+  pos: noun
+- id: feliz
+  text: feliz
+  translation: שמח, מאושר
+  pos: adjective
+- id: pesaj
+  text: Pésaj
+  translation: פסח
+  pos: noun
+- id: rosh
+  text: Rosh Hashaná
+  translation: ראש השנה
+  pos: noun
+- id: januca
+  text: Janucá
+  translation: חנוכה
+  pos: noun
+- id: purim
+  text: Purim
+  translation: פורים
+  pos: noun
+- id: sucot
+  text: Sucot
+  translation: סוכות
+  pos: noun
+- id: celebrar
+  text: celebrar
+  translation: לחגוג
+  pos: verb
+- id: cual
+  text: ¿cuál?
+  translation: איזה, מה (בחירה)
+  pos: phrase
+- id: de-mes
+  text: de
+  translation: של (בתאריך)
+  pos: preposition
+- id: ano-nuevo
+  text: el Año Nuevo
+  translation: ראש השנה האזרחית
+  pos: noun
+grammar:
+- id: fechas
+  title:
+    he: תאריכים ו־¿cuál?
+    en: Dates
+  explanation: '**תאריך** נאמר כך: **el + מספר + de + חודש (+ de + שנה)**.
+
+    * *Hoy es el quince de marzo.* (היום ה־15 במרץ.)
+
+    * *Mi cumpleaños es el tres de junio.*
+
+    * היום הראשון בחודש הוא היחיד שמשתמש ב**מספר סידורי**: *el primero de enero*. כל השאר משתמשים במספר רגיל: *el dos de enero*.
+
+    * שנה: *dos mil veintiséis* (2026).
+
+
+    **שאלות:**
+
+    * **¿Cuál es la fecha de hoy?** — מה התאריך היום?
+
+    * **¿Cuándo es tu cumpleaños?** — מתי יום ההולדת שלך?
+
+    * **¿Qué día es hoy?** — איזה יום היום? (יום בשבוע)
+
+
+    **¿cuál?** משמש לבחירה בין כמה אפשרויות ("איזה?" / "מה?"); **¿qué?** מבקש הגדרה. *¿Cuál es tu número?* | *¿Qué es esto?*
+
+    **חודשים וימי השבוע** נכתבים באות קטנה בספרדית.
+
+    **חגים:** שמות החגים העבריים נכתבים עם אות גדולה: *Pésaj, Rosh Hashaná, Janucá, Purim, Sucot.*
+
+    **אחלות:** *¡Feliz cumpleaños!* | *¡Feliz Pésaj!* | *¡Feliz Janucá!* | *¡Shaná Tová!* (ל־Rosh Hashaná, כרגיל).'
+  examples:
+  - text: Mi cumpleaños es el tres de junio.
+    translation: יום ההולדת שלי בשלישי ביוני.
+  - text: Pésaj es en marzo o en abril.
+    translation: פסח הוא במרץ או באפריל.
+  - text: ¡Feliz Janucá!
+    translation: חג חנוכה שמח!
+lessons:
+- id: u16-l1
+  kind: new
+  title:
+    he: החודשים
+    en: The months
+  exercises:
+  - id: u16-l1-01
+    type: dialogue
+    scene: מתכננים מתנה.
+    lines:
+    - speaker: sofia
+      text: Yael, mi cumpleaños es el diez de octubre. ¿Cuándo es el tuyo?
+      translation: יעל, יום ההולדת שלי בעשירי באוקטובר. מתי שלך?
+    - speaker: yael
+      text: Mi cumpleaños es el cinco de abril. A veces es cerca de Pésaj.
+      translation: יום ההולדת שלי בחמישי באפריל. לפעמים זה קרוב לפסח.
+    - speaker: sofia
+      text: ¡Qué bonito! ¿Vas a celebrar?
+      translation: איזה יפה! את הולכת לחגוג?
+    - speaker: yael
+      text: Sí, con mi familia y mis amigos.
+      translation: כן, עם המשפחה והחברים שלי.
+  - id: u16-l1-02
+    type: learn
+    lexeme: enero
+  - id: u16-l1-03
+    type: learn
+    lexeme: febrero
+  - id: u16-l1-04
+    type: learn
+    lexeme: marzo
+  - id: u16-l1-05
+    type: learn
+    lexeme: abril
+  - id: u16-l1-06
+    type: learn
+    lexeme: mayo
+  - id: u16-l1-07
+    type: learn
+    lexeme: junio
+  - id: u16-l1-08
+    type: learn
+    lexeme: julio
+  - id: u16-l1-09
+    type: learn
+    lexeme: agosto
+  - id: u16-l1-10
+    type: learn
+    lexeme: septiembre
+  - id: u16-l1-11
+    type: learn
+    lexeme: octubre
+  - id: u16-l1-12
+    type: learn
+    lexeme: noviembre
+  - id: u16-l1-13
+    type: learn
+    lexeme: diciembre
+  - id: u16-l1-14
+    type: match_pairs
+    pairs:
+    - - enero
+      - ינואר
+    - - febrero
+      - פברואר
+    - - marzo
+      - מרץ
+    - - abril
+      - אפריל
+    - - mayo
+      - מאי
+    - - junio
+      - יוני
+    lexemes:
+    - enero
+    - febrero
+    - marzo
+    - abril
+    - mayo
+    - junio
+  - id: u16-l1-15
+    type: match_pairs
+    pairs:
+    - - julio
+      - יולי
+    - - agosto
+      - אוגוסט
+    - - septiembre
+      - ספטמבר
+    - - octubre
+      - אוקטובר
+    - - noviembre
+      - נובמבר
+    - - diciembre
+      - דצמבר
+    lexemes:
+    - julio
+    - agosto
+    - septiembre
+    - octubre
+    - noviembre
+    - diciembre
+  - id: u16-l1-16
+    type: multiple_choice
+    prompt: איזה חודש הוא 'marzo'?
+    options:
+    - מרץ
+    - מאי
+    - יוני
+    correct: 0
+    lexemes:
+    - marzo
+    - mayo
+    - junio
+  - id: u16-l1-17
+    type: multiple_choice
+    prompt: איזה חודש הוא 'septiembre'?
+    options:
+    - ספטמבר
+    - אוקטובר
+    - נובמבר
+    correct: 0
+    lexemes:
+    - septiembre
+    - octubre
+    - noviembre
+  - id: u16-l1-18
+    type: multiple_choice
+    prompt: איזה חודש לפני 'abril'?
+    options:
+    - marzo
+    - mayo
+    - febrero
+    correct: 0
+    lexemes:
+    - abril
+    - marzo
+    - mayo
+    - febrero
+  - id: u16-l1-19
+    type: listening_choice
+    audioText: noviembre
+    question: איזה חודש שמעתם?
+    options:
+    - נובמבר
+    - דצמבר
+    - אוקטובר
+    correct: 0
+    lexemes:
+    - noviembre
+    - diciembre
+    - octubre
+  - id: u16-l1-20
+    type: listening_choice
+    audioText: enero
+    question: איזה חודש שמעתם?
+    options:
+    - ינואר
+    - פברואר
+    - יוני
+    correct: 0
+    lexemes:
+    - enero
+    - febrero
+    - junio
+  - id: u16-l1-21
+    type: translate
+    direction: to_target
+    prompt: אוגוסט
+    answers:
+    - agosto
+    lexemes:
+    - agosto
+  - id: u16-l1-22
+    type: translate
+    direction: to_target
+    prompt: יולי ויוני
+    answers:
+    - julio y junio
+    lexemes:
+    - julio
+    - junio
+    - y
+  - id: u16-l1-23
+    type: translate
+    direction: to_source
+    prompt: diciembre
+    answers:
+    - דצמבר
+    lexemes:
+    - diciembre
+  - id: u16-l1-24
+    type: dictation
+    text: enero, febrero, marzo
+    lexemes:
+    - enero
+    - febrero
+    - marzo
+  - id: u16-l1-25
+    type: speak_repeat
+    text: Marzo, abril y mayo.
+    translation: מרץ, אפריל ומאי.
+    lexemes:
+    - marzo
+    - abril
+    - mayo
+- id: u16-l2
+  kind: new
+  title:
+    he: יום הולדת וחגים
+    en: Birthdays and holidays
+  exercises:
+  - id: u16-l2-01
+    type: learn
+    lexeme: fecha
+  - id: u16-l2-02
+    type: learn
+    lexeme: cumpleanos
+  - id: u16-l2-03
+    type: learn
+    lexeme: regalo
+  - id: u16-l2-04
+    type: learn
+    lexeme: fiesta-dia
+  - id: u16-l2-05
+    type: learn
+    lexeme: feliz
+  - id: u16-l2-06
+    type: learn
+    lexeme: celebrar
+  - id: u16-l2-07
+    type: learn
+    lexeme: cual
+  - id: u16-l2-08
+    type: learn
+    lexeme: pesaj
+  - id: u16-l2-09
+    type: learn
+    lexeme: rosh
+  - id: u16-l2-10
+    type: learn
+    lexeme: januca
+  - id: u16-l2-11
+    type: learn
+    lexeme: purim
+  - id: u16-l2-12
+    type: learn
+    lexeme: sucot
+  - id: u16-l2-13
+    type: learn
+    lexeme: ano-nuevo
+  - id: u16-l2-14
+    type: tip
+    title: שמות החגים
+    text: 'שמות החגים העבריים נכתבים בספרדית עם אות גדולה, ובלי תרגום: **Pésaj, Rosh Hashaná, Janucá, Purim, Sucot**. את ''ראש השנה האזרחית'' אומרים **Año Nuevo**. החגים הללו שייכים לך, ויש בהם הרבה מילים יפות.
+
+      '
+  - id: u16-l2-15
+    type: match_pairs
+    pairs:
+    - - la fecha
+      - תאריך
+    - - el cumpleaños
+      - יום הולדת
+    - - el regalo
+      - מתנה
+    - - celebrar
+      - לחגוג
+    - - feliz
+      - שמח
+    lexemes:
+    - fecha
+    - cumpleanos
+    - regalo
+    - celebrar
+    - feliz
+  - id: u16-l2-16
+    type: match_pairs
+    pairs:
+    - - Pésaj
+      - פסח
+    - - Rosh Hashaná
+      - ראש השנה
+    - - Janucá
+      - חנוכה
+    - - Purim
+      - פורים
+    - - Sucot
+      - סוכות
+    lexemes:
+    - pesaj
+    - rosh
+    - januca
+    - purim
+    - sucot
+  - id: u16-l2-17
+    type: multiple_choice
+    prompt: מה אומרים ביום הולדת?
+    options:
+    - ¡Feliz cumpleaños!
+    - ¡Buenas noches!
+    - ¡Hasta luego!
+    correct: 0
+    lexemes:
+    - feliz
+    - cumpleanos
+    - buenas-noches
+    - hasta-luego
+  - id: u16-l2-18
+    type: multiple_choice
+    prompt: מה פירוש '¿Cuál es la fecha?'
+    options:
+    - מה התאריך?
+    - מה השעה?
+    - מה המחיר?
+    correct: 0
+    lexemes:
+    - cual
+    - fecha
+    - que-hora
+    - cuanto-cuesta
+  - id: u16-l2-19
+    type: multiple_choice
+    prompt: איך אומרים 'חג שמח לפסח'?
+    options:
+    - ¡Feliz Pésaj!
+    - ¡Feliz Purim!
+    - ¡Feliz fecha!
+    correct: 0
+    lexemes:
+    - feliz
+    - pesaj
+    - purim
+    - fecha
+  - id: u16-l2-20
+    type: listening_choice
+    audioText: ¡Feliz Janucá!
+    question: איזה חג?
+    options:
+    - חנוכה
+    - פורים
+    - פסח
+    correct: 0
+    lexemes:
+    - feliz
+    - januca
+    - purim
+    - pesaj
+  - id: u16-l2-21
+    type: listening_choice
+    audioText: Mi cumpleaños es en mayo.
+    question: מתי יום ההולדת?
+    options:
+    - במאי
+    - ביוני
+    - במרץ
+    correct: 0
+    lexemes:
+    - cumpleanos
+    - mayo
+    - junio
+    - marzo
+  - id: u16-l2-22
+    type: fill_blank
+    sentence: ¿___ es tu cumpleaños? (מתי)
+    translation: מתי יום ההולדת שלך?
+    answers:
+    - Cuándo
+    options:
+    - Cuándo
+    - Cuánto
+    - Dónde
+    lexemes:
+    - cumpleanos
+    - cuando
+  - id: u16-l2-23
+    type: fill_blank
+    sentence: ¿___ es la fecha de hoy?
+    translation: מה התאריך היום?
+    answers:
+    - Cuál
+    options:
+    - Cuál
+    - Qué
+    - Quién
+    lexemes:
+    - cual
+    - fecha
+    - hoy
+  - id: u16-l2-24
+    type: translate
+    direction: to_target
+    prompt: מתנה ליום הולדת
+    answers:
+    - un regalo de cumpleaños
+    - regalo de cumpleaños
+    - un regalo para el cumpleaños
+    lexemes:
+    - regalo
+    - cumpleanos
+  - id: u16-l2-25
+    type: translate
+    direction: to_target
+    prompt: חג שמח!
+    answers:
+    - ¡Feliz fiesta!
+    - ¡Feliz día festivo!
+    lexemes:
+    - feliz
+    - fiesta-dia
+  - id: u16-l2-26
+    type: translate
+    direction: to_source
+    prompt: Vamos a celebrar Sucot.
+    answers:
+    - אנחנו הולכים לחגוג סוכות
+    - אנחנו חוגגים סוכות
+    lexemes:
+    - ir
+    - celebrar
+    - sucot
+  - id: u16-l2-27
+    type: dictation
+    text: Feliz cumpleaños.
+    lexemes:
+    - feliz
+    - cumpleanos
+- id: u16-l3
+  kind: grammar
+  title:
+    he: תאריכים
+    en: Dates
+  grammar: fechas
+  exercises:
+  - id: u16-l3-01
+    type: fill_blank
+    sentence: Hoy es el ___ de marzo. (15)
+    translation: היום ה־15 במרץ.
+    answers:
+    - quince
+    options:
+    - quince
+    - cinco
+    - cincuenta
+    lexemes:
+    - quince
+    - marzo
+  - id: u16-l3-02
+    type: fill_blank
+    sentence: Mi cumpleaños es el tres ___ junio.
+    translation: יום ההולדת שלי בשלישי ביוני.
+    answers:
+    - de
+    options:
+    - de
+    - en
+    - a
+    lexemes:
+    - cumpleanos
+    - tres
+    - junio
+  - id: u16-l3-03
+    type: fill_blank
+    sentence: El ___ de enero es Año Nuevo. (הראשון)
+    translation: הראשון בינואר הוא Año Nuevo.
+    answers:
+    - primero
+    options:
+    - primero
+    - uno
+    - primer
+    lexemes:
+    - enero
+    - ano-nuevo
+  - id: u16-l3-04
+    type: fill_blank
+    sentence: Pésaj es en ___ o abril.
+    translation: פסח הוא במרץ או באפריל.
+    answers:
+    - marzo
+    options:
+    - marzo
+    - mayo
+    - agosto
+    lexemes:
+    - pesaj
+    - marzo
+    - abril
+  - id: u16-l3-05
+    type: fill_blank
+    sentence: ¿___ es tu número?
+    translation: מה (איזה) המספר שלך?
+    answers:
+    - Cuál
+    options:
+    - Cuál
+    - Qué
+    - Cuándo
+    lexemes:
+    - cual
+    - numero
+  - id: u16-l3-06
+    type: multiple_choice
+    prompt: איך אומרים '5 באפריל'?
+    options:
+    - el cinco de abril
+    - abril de cinco
+    - el abril cinco
+    correct: 0
+    lexemes:
+    - cinco
+    - abril
+  - id: u16-l3-07
+    type: multiple_choice
+    prompt: איך אומרים 'ה־1 במאי'?
+    options:
+    - el primero de mayo
+    - el uno de mayo
+    - mayo uno
+    correct: 0
+    lexemes:
+    - mayo
+  - id: u16-l3-08
+    type: multiple_choice
+    prompt: מתי שואלים '¿Qué día es hoy?'
+    options:
+    - כשרוצים יום בשבוע
+    - כשרוצים שנה
+    - כשרוצים שעה
+    correct: 0
+    lexemes:
+    - domingo
+    - lunes
+    - viernes
+  - id: u16-l3-09
+    type: word_bank
+    prompt: יום ההולדת שלי בעשרים ביולי.
+    answers:
+    - Mi cumpleaños es el veinte de julio.
+    distractors:
+    - Hoy
+    - en
+    lexemes:
+    - cumpleanos
+    - veinte
+    - julio
+  - id: u16-l3-10
+    type: word_bank
+    prompt: היום ה־12 בדצמבר.
+    answers:
+    - Hoy es el doce de diciembre.
+    distractors:
+    - Mañana
+    - en
+    lexemes:
+    - hoy
+    - doce
+    - diciembre
+  - id: u16-l3-11
+    type: translate
+    direction: to_target
+    prompt: מתי יום ההולדת שלך?
+    answers:
+    - ¿Cuándo es tu cumpleaños?
+    lexemes:
+    - cuando
+    - cumpleanos
+  - id: u16-l3-12
+    type: translate
+    direction: to_target
+    prompt: פסח הוא באפריל.
+    answers:
+    - Pésaj es en abril.
+    lexemes:
+    - pesaj
+    - abril
+  - id: u16-l3-13
+    type: translate
+    direction: to_source
+    prompt: Mi cumpleaños es el diez de octubre.
+    answers:
+    - יום ההולדת שלי בעשירי באוקטובר
+    - יום ההולדת שלי ב־10 באוקטובר
+    lexemes:
+    - cumpleanos
+    - diez
+    - octubre
+  - id: u16-l3-14
+    type: translate
+    direction: to_source
+    prompt: ¿Cuál es la fecha de hoy?
+    answers:
+    - מה התאריך היום?
+    lexemes:
+    - cual
+    - fecha
+    - hoy
+- id: u16-l4
+  kind: listening
+  title:
+    he: מתי ה…?
+    en: When is…?
+  exercises:
+  - id: u16-l4-01
+    type: dialogue
+    scene: הצוות מתכנן אירוע.
+    lines:
+    - speaker: mateo
+      text: Yael, ¿cuándo es Rosh Hashaná este año?
+      translation: יעל, מתי ראש השנה השנה?
+    - speaker: yael
+      text: Este año es en septiembre. Después viene Sucot, en octubre.
+      translation: השנה זה בספטמבר. אחר כך בא סוכות, באוקטובר.
+    - speaker: sofia
+      text: ¡Qué interesante! Y Janucá, ¿cuándo es?
+      translation: איזה מעניין! וחנוכה, מתי?
+    - speaker: yael
+      text: Normalmente en diciembre. Es una fiesta muy bonita. Encendemos velas ocho días.
+      translation: בדרך כלל בדצמבר. זה חג מאוד יפה. מדליקים נרות שמונה ימים.
+  - id: u16-l4-02
+    type: multiple_choice
+    prompt: מתי ראש השנה השנה?
+    options:
+    - בספטמבר
+    - באוקטובר
+    - בדצמבר
+    correct: 0
+    lexemes:
+    - rosh
+    - septiembre
+    - octubre
+    - diciembre
+  - id: u16-l4-03
+    type: multiple_choice
+    prompt: מתי סוכות?
+    options:
+    - באוקטובר
+    - בספטמבר
+    - במרץ
+    correct: 0
+    lexemes:
+    - sucot
+    - octubre
+    - septiembre
+    - marzo
+  - id: u16-l4-04
+    type: multiple_choice
+    prompt: כמה ימים מדליקים נרות בחנוכה?
+    options:
+    - שמונה
+    - שבעה
+    - חמישה
+    correct: 0
+    lexemes:
+    - januca
+    - ocho
+    - siete
+    - cinco
+  - id: u16-l4-05
+    type: listening_choice
+    audioText: Mi cumpleaños es el veinte de enero.
+    question: מתי יום ההולדת?
+    options:
+    - 20 בינואר
+    - 12 בינואר
+    - 20 בפברואר
+    correct: 0
+    lexemes:
+    - cumpleanos
+    - veinte
+    - enero
+    - doce
+    - febrero
+  - id: u16-l4-06
+    type: listening_choice
+    audioText: Hoy es el trece de febrero.
+    question: מה התאריך?
+    options:
+    - 13 בפברואר
+    - 3 בפברואר
+    - 13 בינואר
+    correct: 0
+    lexemes:
+    - hoy
+    - trece
+    - febrero
+    - tres
+    - enero
+  - id: u16-l4-07
+    type: dictation
+    text: Pésaj es en abril.
+    lexemes:
+    - pesaj
+    - abril
+  - id: u16-l4-08
+    type: translate
+    direction: to_target
+    prompt: מתי חנוכה?
+    answers:
+    - ¿Cuándo es Janucá?
+    lexemes:
+    - cuando
+    - januca
+  - id: u16-l4-09
+    type: speak_repeat
+    text: ¿Cuál es la fecha de hoy?
+    translation: מה התאריך של היום?
+    lexemes:
+    - cual
+    - fecha
+    - hoy
+- id: u16-l5
+  kind: reading
+  title:
+    he: לוח שנה
+    en: A calendar
+  exercises:
+  - id: u16-l5-01
+    type: reading
+    kind: לוח
+    title: Calendario de fiestas
+    text: 'En septiembre u octubre: Rosh Hashaná y Yom Kipur. Después, Sucot.
+
+      En diciembre, normalmente: Janucá. En marzo: Purim. En marzo o abril: Pésaj.
+
+      En cada fiesta celebramos con la familia, comemos juntos y damos gracias. ¡Feliz fiesta!
+
+      '
+    translation: 'בספטמבר או באוקטובר: ראש השנה ויום כיפור. אחר כך סוכות.
+
+      בדצמבר, בדרך כלל: חנוכה. במרץ: פורים. במרץ או באפריל: פסח.
+
+      בכל חג אנחנו חוגגים עם המשפחה, אוכלים יחד ומודים. חג שמח!
+
+      '
+  - id: u16-l5-02
+    type: multiple_choice
+    prompt: מתי חנוכה בדרך כלל?
+    options:
+    - בדצמבר
+    - במרץ
+    - בספטמבר
+    correct: 0
+    lexemes:
+    - januca
+    - diciembre
+    - marzo
+    - septiembre
+  - id: u16-l5-03
+    type: multiple_choice
+    prompt: מתי פורים?
+    options:
+    - במרץ
+    - באוקטובר
+    - בדצמבר
+    correct: 0
+    lexemes:
+    - purim
+    - marzo
+    - octubre
+    - diciembre
+  - id: u16-l5-04
+    type: fill_blank
+    sentence: En cada fiesta ___ con la familia.
+    translation: בכל חג אנחנו חוגגים עם המשפחה.
+    answers:
+    - celebramos
+    options:
+    - celebramos
+    - celebran
+    - celebro
+    lexemes:
+    - celebrar
+    - familia
+  - id: u16-l5-05
+    type: translate
+    direction: to_target
+    prompt: פסח הוא חג.
+    answers:
+    - Pésaj es una fiesta.
+    lexemes:
+    - pesaj
+- id: u16-review
+  kind: review
+  title:
+    he: 'חזרה: תאריכים וחגים'
+    en: 'Review: dates and holidays'
+  exercises:
+  - id: u16-review-01
+    type: match_pairs
+    pairs:
+    - - enero
+      - ינואר
+    - - marzo
+      - מרץ
+    - - mayo
+      - מאי
+    - - julio
+      - יולי
+    - - octubre
+      - אוקטובר
+    lexemes:
+    - enero
+    - marzo
+    - mayo
+    - julio
+    - octubre
+  - id: u16-review-02
+    type: match_pairs
+    pairs:
+    - - el regalo
+      - מתנה
+    - - el cumpleaños
+      - יום הולדת
+    - - celebrar
+      - לחגוג
+    - - feliz
+      - שמח
+    - - la fecha
+      - תאריך
+    lexemes:
+    - regalo
+    - cumpleanos
+    - celebrar
+    - feliz
+    - fecha
+  - id: u16-review-03
+    type: fill_blank
+    sentence: Hoy es el ___ de abril. (3)
+    translation: היום ה־3 באפריל.
+    answers:
+    - tres
+    options:
+    - tres
+    - trece
+    - treinta
+    lexemes:
+    - tres
+    - abril
+  - id: u16-review-04
+    type: fill_blank
+    sentence: Mi cumpleaños es ___ junio. (ב־)
+    translation: יום ההולדת שלי ביוני.
+    answers:
+    - en
+    options:
+    - en
+    - de
+    - a
+    lexemes:
+    - cumpleanos
+    - junio
+  - id: u16-review-05
+    type: multiple_choice
+    prompt: מה פירוש '¡Feliz Pésaj!'?
+    options:
+    - פסח שמח!
+    - יום הולדת שמח!
+    - שנה טובה!
+    correct: 0
+    lexemes:
+    - feliz
+    - pesaj
+    - cumpleanos
+  - id: u16-review-06
+    type: listening_choice
+    audioText: Sucot es en octubre.
+    question: מתי סוכות?
+    options:
+    - באוקטובר
+    - במרץ
+    - בספטמבר
+    correct: 0
+    lexemes:
+    - sucot
+    - octubre
+    - marzo
+    - septiembre
+  - id: u16-review-07
+    type: word_bank
+    prompt: מתי החג?
+    answers:
+    - ¿Cuándo es la fiesta?
+    distractors:
+    - Cuál
+    - qué
+    lexemes:
+    - cuando
+    - fiesta-dia
+  - id: u16-review-08
+    type: translate
+    direction: to_target
+    prompt: יום ההולדת שלי בנובמבר.
+    answers:
+    - Mi cumpleaños es en noviembre.
+    lexemes:
+    - cumpleanos
+    - noviembre
+  - id: u16-review-09
+    type: translate
+    direction: to_source
+    prompt: ¿Cuál es la fecha de hoy?
+    answers:
+    - מה התאריך היום?
+    lexemes:
+    - cual
+    - fecha
+    - hoy
+  - id: u16-review-10
+    type: dictation
+    text: Feliz cumpleaños y feliz fiesta.
+    lexemes:
+    - feliz
+    - cumpleanos
+    - fiesta-dia
+  - id: u16-review-11
+    type: speak_repeat
+    text: Mi cumpleaños es el cinco de abril.
+    translation: יום ההולדת שלי בחמישי באפריל.
+    lexemes:
+    - cumpleanos
+    - cinco
+    - abril

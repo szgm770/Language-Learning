@@ -1,0 +1,1098 @@
+id: u19-viajes
+cefr: A2
+scene: travel
+title:
+  he: בשדה התעופה ובמלון
+  en: Airport and hotel
+story: יעל מתכננת נסיעה לישראל לחג. היא קונה כרטיס, מזמינה ארוחה כשרה בטיסה ומסדרת חדר במלון בדרך. היא לומדת בקשות מנומסות עם quisiera ואיך לפתור בעיות בנסיעה.
+canDo:
+- לקנות כרטיס ולבקש ארוחה כשרה
+- להזמין חדר במלון ולשאול על פרטים
+- 'לבקש בנימוס: quisiera, me gustaría, ¿podría…?'
+- 'להבין הודעות בשדה תעופה: salida, llegada, retraso'
+vocabulary:
+- id: avion
+  text: el avión
+  translation: מטוס
+  pos: noun
+- id: vuelo
+  text: el vuelo
+  translation: טיסה
+  pos: noun
+- id: boleto
+  text: el boleto
+  translation: כרטיס
+  pos: noun
+- id: maleta
+  text: la maleta
+  translation: מזוודה
+  pos: noun
+- id: pasaporte
+  text: el pasaporte
+  translation: דרכון
+  pos: noun
+- id: salida
+  text: la salida
+  translation: יציאה
+  pos: noun
+- id: llegada
+  text: la llegada
+  translation: הגעה, נחיתה
+  pos: noun
+- id: retraso
+  text: el retraso
+  translation: עיכוב
+  pos: noun
+- id: reserva
+  text: la reserva
+  translation: הזמנה
+  pos: noun
+- id: habitacion
+  text: la habitación
+  translation: חדר
+  pos: noun
+- id: reservar
+  text: reservar
+  translation: להזמין (מקום)
+  pos: verb
+- id: pedir
+  text: pedir
+  translation: לבקש, להזמין
+  pos: verb
+- id: preguntar
+  text: preguntar
+  translation: לשאול (שאלה)
+  pos: verb
+- id: quisiera
+  text: quisiera
+  translation: הייתי רוצה
+  pos: phrase
+  example:
+    text: Quisiera una habitación, por favor.
+    translation: הייתי רוצה חדר, בבקשה.
+- id: me-gustaria
+  text: me gustaría
+  translation: הייתי רוצה, יהיה לי נעים
+  pos: phrase
+- id: podria
+  text: ¿podría…?
+  translation: האם תוכל…? (מנומס)
+  pos: phrase
+- id: kosher-menu
+  text: comida kosher
+  translation: אוכל כשר
+  pos: phrase
+- id: ida-vuelta
+  text: ida y vuelta
+  translation: הלוך ושוב
+  pos: phrase
+- id: directo
+  text: directo
+  translation: ישיר
+  pos: adjective
+- id: noche-hotel
+  text: la noche
+  translation: לילה (בלינה)
+  pos: noun
+- id: incluido
+  text: incluido / incluida
+  translation: כלול
+  pos: adjective
+- id: desayuno-incluido
+  text: desayuno incluido
+  translation: ארוחת בוקר כלולה
+  pos: phrase
+grammar:
+- id: cortesia
+  title:
+    he: 'נימוס: quisiera ו־podría'
+    en: Polite requests
+  explanation: 'בנסיעה ובמלון חשוב לדבר **בנימוס**. הבסיס:
+
+
+    * **Quisiera** + שם עצם או מקור = "הייתי רוצה": *Quisiera una habitación.* | *Quisiera reservar un vuelo.* (צורה מנומסת של *quiero*, זו המילה המועדפת בחנויות ובמלונות.)
+
+    * **Me gustaría** + מקור = "הייתי רוצה / יהיה נחמד": *Me gustaría viajar a Israel.*
+
+    * **¿Podría + מקור?** = "האם תוכל?": *¿Podría repetir, por favor?* | *¿Podría darme la llave?* (נימוס גבוה, צורת התנאי של poder.)
+
+    * **¿Me puede…?** = "אפשר לי…?": *¿Me puede ayudar?*
+
+
+    **pedir** (לבקש, להזמין) ו**preguntar** (לשאול שאלה) הם שני פעלים נפרדים, כמו בעברית "ביקש" ו"שאל":
+
+    * *Pedí comida kosher.* (ביקשתי אוכל כשר) — **pedir** פועל e → i: *pido, pides, pide, pedimos, piden.*
+
+    * *Pregunté la hora.* (שאלתי מה השעה)
+
+
+    **מונחי נסיעה:** *ida* (הלוך), *ida y vuelta* (הלוך וחזור), *vuelo directo* (ישיר), *retraso* (עיכוב).'
+  examples:
+  - text: Quisiera un boleto de ida y vuelta, por favor.
+    translation: הייתי רוצה כרטיס הלוך וחזור, בבקשה.
+  - text: ¿Podría darme una comida kosher?
+    translation: האם אפשר לקבל ארוחה כשרה?
+  - text: Me gustaría una habitación con desayuno incluido.
+    translation: הייתי רוצה חדר עם ארוחת בוקר כלולה.
+lessons:
+- id: u19-l1
+  kind: new
+  title:
+    he: בשדה התעופה
+    en: At the airport
+  exercises:
+  - id: u19-l1-01
+    type: dialogue
+    scene: בדלפק של חברת התעופה.
+    lines:
+    - speaker: ricardo
+      text: Buenos días. ¿En qué le puedo ayudar?
+      translation: בוקר טוב. איך אפשר לעזור?
+    - speaker: yael
+      text: Buenos días. Quisiera un boleto de ida y vuelta a Tel Aviv, por favor.
+      translation: בוקר טוב. הייתי רוצה כרטיס הלוך וחזור לתל אביב, בבקשה.
+    - speaker: ricardo
+      text: ¿Para qué fecha?
+      translation: לאיזה תאריך?
+    - speaker: yael
+      text: Quiero salir el domingo. Y quisiera pedir comida kosher en el vuelo.
+      translation: אני רוצה לצאת ביום ראשון. והייתי רוצה לבקש אוכל כשר בטיסה.
+  - id: u19-l1-02
+    type: learn
+    lexeme: avion
+  - id: u19-l1-03
+    type: learn
+    lexeme: vuelo
+  - id: u19-l1-04
+    type: learn
+    lexeme: boleto
+  - id: u19-l1-05
+    type: learn
+    lexeme: maleta
+  - id: u19-l1-06
+    type: learn
+    lexeme: pasaporte
+  - id: u19-l1-07
+    type: learn
+    lexeme: salida
+  - id: u19-l1-08
+    type: learn
+    lexeme: llegada
+  - id: u19-l1-09
+    type: learn
+    lexeme: retraso
+  - id: u19-l1-10
+    type: learn
+    lexeme: quisiera
+  - id: u19-l1-11
+    type: learn
+    lexeme: kosher-menu
+  - id: u19-l1-12
+    type: learn
+    lexeme: ida-vuelta
+  - id: u19-l1-13
+    type: learn
+    lexeme: directo
+  - id: u19-l1-14
+    type: match_pairs
+    pairs:
+    - - el avión
+      - מטוס
+    - - el vuelo
+      - טיסה
+    - - el boleto
+      - כרטיס
+    - - la maleta
+      - מזוודה
+    - - el pasaporte
+      - דרכון
+    lexemes:
+    - avion
+    - vuelo
+    - boleto
+    - maleta
+    - pasaporte
+  - id: u19-l1-15
+    type: match_pairs
+    pairs:
+    - - la salida
+      - יציאה
+    - - la llegada
+      - הגעה
+    - - el retraso
+      - עיכוב
+    - - ida y vuelta
+      - הלוך וחזור
+    - - directo
+      - ישיר
+    lexemes:
+    - salida
+    - llegada
+    - retraso
+    - ida-vuelta
+    - directo
+  - id: u19-l1-16
+    type: multiple_choice
+    prompt: מה פירוש 'quisiera'?
+    options:
+    - הייתי רוצה
+    - אני רוצה
+    - אתה רוצה
+    correct: 0
+    lexemes:
+    - quisiera
+    - querer
+  - id: u19-l1-17
+    type: multiple_choice
+    prompt: איך מבקשים אוכל כשר?
+    options:
+    - Quisiera comida kosher.
+    - Tengo comida kosher.
+    - Soy comida kosher.
+    correct: 0
+    lexemes:
+    - quisiera
+    - kosher-menu
+    - tener
+  - id: u19-l1-18
+    type: multiple_choice
+    prompt: מה פירוש 'vuelo directo'?
+    options:
+    - טיסה ישירה
+    - טיסה מאוחרת
+    - טיסה זולה
+    correct: 0
+    lexemes:
+    - vuelo
+    - directo
+    - tarde-adv
+    - barato
+  - id: u19-l1-19
+    type: listening_choice
+    audioText: Quisiera un boleto de ida y vuelta.
+    question: מה רוצים?
+    options:
+    - כרטיס הלוך וחזור
+    - מזוודה
+    - דרכון
+    correct: 0
+    lexemes:
+    - quisiera
+    - boleto
+    - ida-vuelta
+    - maleta
+    - pasaporte
+  - id: u19-l1-20
+    type: listening_choice
+    audioText: El vuelo tiene un retraso de una hora.
+    question: מה הבעיה?
+    options:
+    - יש עיכוב
+    - בוטלה הטיסה
+    - הטיסה מוקדמת
+    correct: 0
+    lexemes:
+    - vuelo
+    - retraso
+    - tarde-adv
+    - temprano
+  - id: u19-l1-21
+    type: translate
+    direction: to_target
+    prompt: מזוודה ודרכון
+    answers:
+    - una maleta y un pasaporte
+    - maleta y pasaporte
+    - la maleta y el pasaporte
+    lexemes:
+    - maleta
+    - pasaporte
+  - id: u19-l1-22
+    type: translate
+    direction: to_target
+    prompt: הייתי רוצה כרטיס.
+    answers:
+    - Quisiera un boleto.
+    lexemes:
+    - quisiera
+    - boleto
+  - id: u19-l1-23
+    type: translate
+    direction: to_source
+    prompt: la salida del vuelo
+    answers:
+    - יציאת הטיסה
+    - הטיסה יוצאת
+    lexemes:
+    - salida
+    - vuelo
+  - id: u19-l1-24
+    type: dictation
+    text: Quisiera comida kosher, por favor.
+    lexemes:
+    - quisiera
+    - kosher-menu
+    - por-favor
+  - id: u19-l1-25
+    type: speak_repeat
+    text: Quisiera un vuelo directo.
+    translation: הייתי רוצה טיסה ישירה.
+    lexemes:
+    - quisiera
+    - vuelo
+    - directo
+- id: u19-l2
+  kind: new
+  title:
+    he: במלון
+    en: At the hotel
+  exercises:
+  - id: u19-l2-01
+    type: learn
+    lexeme: reserva
+  - id: u19-l2-02
+    type: learn
+    lexeme: habitacion
+  - id: u19-l2-03
+    type: learn
+    lexeme: reservar
+  - id: u19-l2-04
+    type: learn
+    lexeme: me-gustaria
+  - id: u19-l2-05
+    type: learn
+    lexeme: podria
+  - id: u19-l2-06
+    type: learn
+    lexeme: noche-hotel
+  - id: u19-l2-07
+    type: learn
+    lexeme: incluido
+  - id: u19-l2-08
+    type: learn
+    lexeme: desayuno-incluido
+  - id: u19-l2-09
+    type: learn
+    lexeme: pedir
+  - id: u19-l2-10
+    type: learn
+    lexeme: preguntar
+  - id: u19-l2-11
+    type: match_pairs
+    pairs:
+    - - la reserva
+      - הזמנה
+    - - la habitación
+      - חדר
+    - - reservar
+      - להזמין
+    - - la noche
+      - לילה
+    - - incluido
+      - כלול
+    lexemes:
+    - reserva
+    - habitacion
+    - reservar
+    - noche-hotel
+    - incluido
+  - id: u19-l2-12
+    type: match_pairs
+    pairs:
+    - - pedir
+      - לבקש
+    - - preguntar
+      - לשאול
+    - - me gustaría
+      - הייתי רוצה
+    - - ¿podría…?
+      - האם תוכל…?
+    - - desayuno incluido
+      - ארוחת בוקר כלולה
+    lexemes:
+    - pedir
+    - preguntar
+    - me-gustaria
+    - podria
+    - desayuno-incluido
+  - id: u19-l2-13
+    type: dialogue
+    scene: בקבלה של המלון.
+    lines:
+    - speaker: carmen
+      text: Buenas tardes. ¿Tiene una reserva?
+      translation: שלום. יש לך הזמנה?
+    - speaker: yael
+      text: Sí, reservé una habitación para dos noches. Me gustaría una habitación tranquila.
+      translation: כן, הזמנתי חדר לשני לילות. הייתי רוצה חדר שקט.
+    - speaker: carmen
+      text: Perfecto. El desayuno está incluido. ¿Podría darme su pasaporte?
+      translation: מצוין. ארוחת הבוקר כלולה. האם תוכלי לתת לי את הדרכון?
+    - speaker: yael
+      text: Claro. ¿Podría decirme dónde está el comedor?
+      translation: בטח. האם תוכלי להגיד לי איפה חדר האוכל?
+  - id: u19-l2-14
+    type: multiple_choice
+    prompt: מה פירוש '¿Podría ayudarme?'
+    options:
+    - האם תוכל לעזור לי?
+    - האם אתה צריך עזרה?
+    - האם עזרת?
+    correct: 0
+    lexemes:
+    - podria
+    - ayudar
+    - necesitar
+  - id: u19-l2-15
+    type: multiple_choice
+    prompt: מה ההבדל בין pedir ל־preguntar?
+    options:
+    - pedir = לבקש, preguntar = לשאול
+    - pedir = לשאול, preguntar = לבקש
+    - אין הבדל
+    correct: 0
+    lexemes:
+    - pedir
+    - preguntar
+  - id: u19-l2-16
+    type: multiple_choice
+    prompt: מה פירוש 'desayuno incluido'?
+    options:
+    - ארוחת בוקר כלולה
+    - ארוחת ערב יקרה
+    - ארוחת בוקר מאוחרת
+    correct: 0
+    lexemes:
+    - desayuno-incluido
+    - desayunar
+    - caro
+    - tarde-adv
+  - id: u19-l2-17
+    type: listening_choice
+    audioText: Reservé una habitación para tres noches.
+    question: לכמה לילות?
+    options:
+    - שלושה
+    - שניים
+    - חמישה
+    correct: 0
+    lexemes:
+    - reservar
+    - habitacion
+    - noche-hotel
+    - tres
+    - dos
+    - cinco
+  - id: u19-l2-18
+    type: listening_choice
+    audioText: ¿Podría darme la llave?
+    question: מה מבקשים?
+    options:
+    - את המפתח
+    - את הדרכון
+    - את החשבון
+    correct: 0
+    lexemes:
+    - podria
+    - pasaporte
+    - cuenta
+  - id: u19-l2-19
+    type: fill_blank
+    sentence: ___ una habitación para dos noches. (הייתי רוצה)
+    translation: הייתי רוצה חדר לשני לילות.
+    answers:
+    - Quisiera
+    options:
+    - Quisiera
+    - Quiero
+    - Quieres
+    lexemes:
+    - quisiera
+    - habitacion
+    - noche-hotel
+    - dos
+  - id: u19-l2-20
+    type: fill_blank
+    sentence: ¿___ decirme dónde está el baño?
+    translation: האם תוכל להגיד לי איפה השירותים?
+    answers:
+    - Podría
+    options:
+    - Podría
+    - Puedo
+    - Poder
+    lexemes:
+    - podria
+    - donde
+    - estar
+    - bano
+  - id: u19-l2-21
+    type: word_bank
+    prompt: הזמנתי חדר.
+    answers:
+    - Reservé una habitación.
+    distractors:
+    - Reservar
+    - reserva
+    lexemes:
+    - reservar
+    - habitacion
+  - id: u19-l2-22
+    type: translate
+    direction: to_target
+    prompt: אני שואלת מה השעה.
+    answers:
+    - Pregunto qué hora es.
+    lexemes:
+    - preguntar
+    - que-hora
+  - id: u19-l2-23
+    type: translate
+    direction: to_target
+    prompt: הייתי רוצה לבקש אוכל כשר.
+    answers:
+    - Quisiera pedir comida kosher.
+    - Me gustaría pedir comida kosher.
+    lexemes:
+    - quisiera
+    - pedir
+    - kosher-menu
+  - id: u19-l2-24
+    type: translate
+    direction: to_source
+    prompt: ¿Tiene una reserva?
+    answers:
+    - יש לך הזמנה?
+    - יש לכם הזמנה?
+    lexemes:
+    - reserva
+  - id: u19-l2-25
+    type: dictation
+    text: El desayuno está incluido.
+    lexemes:
+    - desayuno-incluido
+    - estar
+- id: u19-l3
+  kind: grammar
+  title:
+    he: בקשות מנומסות
+    en: Polite requests
+  grammar: cortesia
+  exercises:
+  - id: u19-l3-01
+    type: fill_blank
+    sentence: ___ un café, por favor. (הייתי רוצה)
+    translation: הייתי רוצה קפה, בבקשה.
+    answers:
+    - Quisiera
+    options:
+    - Quisiera
+    - Quiero
+    - Quieres
+    lexemes:
+    - quisiera
+    - cafe
+    - por-favor
+  - id: u19-l3-02
+    type: fill_blank
+    sentence: Me ___ una habitación tranquila.
+    translation: הייתי רוצה חדר שקט.
+    answers:
+    - gustaría
+    options:
+    - gustaría
+    - gusta
+    - gustan
+    lexemes:
+    - me-gustaria
+    - habitacion
+  - id: u19-l3-03
+    type: fill_blank
+    sentence: ¿___ repetir, por favor?
+    translation: האם תוכל לחזור על זה?
+    answers:
+    - Podría
+    options:
+    - Podría
+    - Puedo
+    - Poder
+    lexemes:
+    - podria
+    - repetir
+    - por-favor
+  - id: u19-l3-04
+    type: fill_blank
+    sentence: Yo ___ comida kosher en el vuelo. (pedir, עבר)
+    translation: ביקשתי אוכל כשר בטיסה.
+    answers:
+    - pedí
+    options:
+    - pedí
+    - pidió
+    - pido
+    lexemes:
+    - pedir
+    - kosher-menu
+    - vuelo
+  - id: u19-l3-05
+    type: fill_blank
+    sentence: Ella ___ la hora. (preguntar, עבר)
+    translation: היא שאלה מה השעה.
+    answers:
+    - preguntó
+    options:
+    - preguntó
+    - pregunté
+    - preguntan
+    lexemes:
+    - preguntar
+    - que-hora
+  - id: u19-l3-06
+    type: fill_blank
+    sentence: Nosotros ___ una habitación. (reservar, עבר)
+    translation: הזמנו חדר.
+    answers:
+    - reservamos
+    options:
+    - reservamos
+    - reservaron
+    - reservo
+    lexemes:
+    - reservar
+    - habitacion
+  - id: u19-l3-07
+    type: multiple_choice
+    prompt: איזה משפט הכי מנומס?
+    options:
+    - ¿Podría ayudarme, por favor?
+    - ¡Ayúdame!
+    - Necesito ayuda ahora.
+    correct: 0
+    lexemes:
+    - podria
+    - ayudar
+    - por-favor
+    - necesitar
+  - id: u19-l3-08
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Quisiera reservar una habitación.
+    - Quisiera reservo una habitación.
+    - Quiero reservando una habitación.
+    correct: 0
+    lexemes:
+    - quisiera
+    - reservar
+    - habitacion
+  - id: u19-l3-09
+    type: multiple_choice
+    prompt: מה פירוש 'ida y vuelta'?
+    options:
+    - הלוך וחזור
+    - רק הלוך
+    - ישיר
+    correct: 0
+    lexemes:
+    - ida-vuelta
+    - directo
+  - id: u19-l3-10
+    type: word_bank
+    prompt: הייתי רוצה לשאול משהו.
+    answers:
+    - Quisiera preguntar algo.
+    distractors:
+    - Quiero
+    - pedir
+    lexemes:
+    - quisiera
+    - preguntar
+  - id: u19-l3-11
+    type: word_bank
+    prompt: האם תוכל לעזור לי?
+    answers:
+    - ¿Podría ayudarme?
+    distractors:
+    - Puedo
+    - pide
+    lexemes:
+    - podria
+    - ayudar
+  - id: u19-l3-12
+    type: translate
+    direction: to_target
+    prompt: הייתי רוצה חדר לשלושה לילות.
+    answers:
+    - Quisiera una habitación para tres noches.
+    lexemes:
+    - quisiera
+    - habitacion
+    - noche-hotel
+    - tres
+  - id: u19-l3-13
+    type: translate
+    direction: to_target
+    prompt: האם תוכל לתת לי כרטיס?
+    answers:
+    - ¿Podría darme un boleto?
+    - ¿Podría dar me un boleto?
+    lexemes:
+    - podria
+    - dar
+    - boleto
+  - id: u19-l3-14
+    type: translate
+    direction: to_source
+    prompt: Me gustaría viajar a Israel en abril.
+    answers:
+    - הייתי רוצה לנסוע לישראל באפריל
+    lexemes:
+    - me-gustaria
+    - viajar
+    - israel
+    - abril
+  - id: u19-l3-15
+    type: translate
+    direction: to_source
+    prompt: ¿Podría decirme dónde está la salida?
+    answers:
+    - האם תוכל להגיד לי איפה היציאה?
+    lexemes:
+    - podria
+    - decir
+    - donde
+    - estar
+    - salida
+- id: u19-l4
+  kind: listening
+  title:
+    he: הודעות בשדה התעופה
+    en: Airport announcements
+  exercises:
+  - id: u19-l4-01
+    type: dialogue
+    scene: הודעה ואחר כך שיחה.
+    lines:
+    - speaker: ricardo
+      text: 'Atención, pasajeros del vuelo a Tel Aviv: hay un retraso de una hora.'
+      translation: 'תשומת לב, נוסעי הטיסה לתל אביב: יש עיכוב של שעה.'
+    - speaker: yael
+      text: Perdón, ¿podría decirme la nueva hora de salida?
+      translation: סליחה, האם תוכל להגיד לי מה שעת היציאה החדשה?
+    - speaker: ricardo
+      text: La nueva salida es a las doce y media. Su comida kosher ya está en el avión.
+      translation: היציאה החדשה היא בשתים־עשרה וחצי. הארוחה הכשרה שלך כבר במטוס.
+    - speaker: yael
+      text: Muchas gracias. Voy a esperar aquí.
+      translation: תודה רבה. אני אחכה כאן.
+  - id: u19-l4-02
+    type: multiple_choice
+    prompt: כמה זמן העיכוב?
+    options:
+    - שעה
+    - שעתיים
+    - חצי שעה
+    correct: 0
+    lexemes:
+    - retraso
+    - hora
+    - dos
+    - media
+  - id: u19-l4-03
+    type: multiple_choice
+    prompt: מתי היציאה החדשה?
+    options:
+    - בשתים־עשרה וחצי
+    - באחת
+    - בשמונה
+    correct: 0
+    lexemes:
+    - salida
+    - doce
+    - media
+    - uno
+    - ocho
+  - id: u19-l4-04
+    type: multiple_choice
+    prompt: מה כבר במטוס?
+    options:
+    - האוכל הכשר
+    - המזוודה
+    - הדרכון
+    correct: 0
+    lexemes:
+    - kosher-menu
+    - maleta
+    - pasaporte
+    - avion
+  - id: u19-l4-05
+    type: listening_choice
+    audioText: El vuelo directo sale a las nueve.
+    question: מתי יוצא?
+    options:
+    - בתשע
+    - באחת
+    - בשבע
+    correct: 0
+    lexemes:
+    - vuelo
+    - directo
+    - salida
+    - nueve
+    - uno
+    - siete
+  - id: u19-l4-06
+    type: listening_choice
+    audioText: Pedí comida kosher en el avión.
+    question: מה ביקשו?
+    options:
+    - אוכל כשר
+    - מים
+    - תה
+    correct: 0
+    lexemes:
+    - pedir
+    - kosher-menu
+    - avion
+    - agua
+    - te
+  - id: u19-l4-07
+    type: dictation
+    text: Hay un retraso de una hora.
+    lexemes:
+    - retraso
+    - hora
+  - id: u19-l4-08
+    type: translate
+    direction: to_target
+    prompt: האם תוכל להגיד לי את השעה?
+    answers:
+    - ¿Podría decirme la hora?
+    lexemes:
+    - podria
+    - decir
+    - hora
+  - id: u19-l4-09
+    type: speak_repeat
+    text: ¿Podría decirme dónde está la salida?
+    translation: האם תוכל להגיד לי איפה היציאה?
+    lexemes:
+    - podria
+    - decir
+    - donde
+    - estar
+    - salida
+- id: u19-l5
+  kind: reading
+  title:
+    he: אישור הזמנה
+    en: A booking confirmation
+  exercises:
+  - id: u19-l5-01
+    type: reading
+    kind: אישור
+    title: Confirmación de reserva
+    text: 'Pasajera: Yael Cohen. Vuelo directo México–Tel Aviv, salida el domingo a las 12:30.
+
+      Boleto de ida y vuelta. Comida kosher pedida. Una maleta incluida.
+
+      Hotel: una habitación, dos noches, desayuno incluido. Gracias por reservar con nosotros.
+
+      '
+    translation: 'נוסעת: יעל כהן. טיסה ישירה מקסיקו–תל אביב, יציאה ביום ראשון בשעה 12:30.
+
+      כרטיס הלוך וחזור. אוכל כשר הוזמן. מזוודה אחת כלולה.
+
+      מלון: חדר אחד, שני לילות, ארוחת בוקר כלולה. תודה שהזמנתם אצלנו.
+
+      '
+  - id: u19-l5-02
+    type: multiple_choice
+    prompt: מתי יוצאת הטיסה?
+    options:
+    - ביום ראשון
+    - בשבת
+    - ביום שישי
+    correct: 0
+    lexemes:
+    - domingo
+    - sabado
+    - viernes
+  - id: u19-l5-03
+    type: multiple_choice
+    prompt: מה כלול?
+    options:
+    - מזוודה אחת וארוחת בוקר
+    - רק כרטיס
+    - דרכון
+    correct: 0
+    lexemes:
+    - maleta
+    - desayuno-incluido
+    - boleto
+    - pasaporte
+  - id: u19-l5-04
+    type: fill_blank
+    sentence: El boleto es de ida y ___.
+    translation: הכרטיס הוא הלוך וחזור.
+    answers:
+    - vuelta
+    options:
+    - vuelta
+    - salida
+    - llegada
+    lexemes:
+    - boleto
+    - ida-vuelta
+  - id: u19-l5-05
+    type: translate
+    direction: to_target
+    prompt: הזמנתי טיסה ישירה.
+    answers:
+    - Reservé un vuelo directo.
+    lexemes:
+    - reservar
+    - vuelo
+    - directo
+- id: u19-review
+  kind: review
+  title:
+    he: 'חזרה: נסיעות'
+    en: 'Review: travel'
+  exercises:
+  - id: u19-review-01
+    type: match_pairs
+    pairs:
+    - - el avión
+      - מטוס
+    - - el vuelo
+      - טיסה
+    - - el boleto
+      - כרטיס
+    - - la maleta
+      - מזוודה
+    - - el retraso
+      - עיכוב
+    lexemes:
+    - avion
+    - vuelo
+    - boleto
+    - maleta
+    - retraso
+  - id: u19-review-02
+    type: match_pairs
+    pairs:
+    - - la reserva
+      - הזמנה
+    - - la habitación
+      - חדר
+    - - pedir
+      - לבקש
+    - - preguntar
+      - לשאול
+    - - incluido
+      - כלול
+    lexemes:
+    - reserva
+    - habitacion
+    - pedir
+    - preguntar
+    - incluido
+  - id: u19-review-03
+    type: fill_blank
+    sentence: ___ una habitación, por favor. (הייתי רוצה)
+    translation: הייתי רוצה חדר, בבקשה.
+    answers:
+    - Quisiera
+    options:
+    - Quisiera
+    - Quiero
+    - Quieres
+    lexemes:
+    - quisiera
+    - habitacion
+    - por-favor
+  - id: u19-review-04
+    type: fill_blank
+    sentence: ¿___ ayudarme?
+    translation: האם תוכל לעזור לי?
+    answers:
+    - Podría
+    options:
+    - Podría
+    - Puedo
+    - Puede
+    lexemes:
+    - podria
+    - ayudar
+  - id: u19-review-05
+    type: multiple_choice
+    prompt: מה פירוש 'ida y vuelta'?
+    options:
+    - הלוך וחזור
+    - רק הלוך
+    - בלי עיכוב
+    correct: 0
+    lexemes:
+    - ida-vuelta
+    - retraso
+  - id: u19-review-06
+    type: listening_choice
+    audioText: Reservé un vuelo directo.
+    question: מה הזמינו?
+    options:
+    - טיסה ישירה
+    - חדר
+    - מזוודה
+    correct: 0
+    lexemes:
+    - reservar
+    - vuelo
+    - directo
+    - habitacion
+    - maleta
+  - id: u19-review-07
+    type: word_bank
+    prompt: הייתי רוצה אוכל כשר.
+    answers:
+    - Quisiera comida kosher.
+    distractors:
+    - Quiero
+    - pedir
+    lexemes:
+    - quisiera
+    - kosher-menu
+  - id: u19-review-08
+    type: translate
+    direction: to_target
+    prompt: האם תוכל לחזור על זה?
+    answers:
+    - ¿Podría repetir?
+    lexemes:
+    - podria
+    - repetir
+  - id: u19-review-09
+    type: translate
+    direction: to_source
+    prompt: Pedí una habitación tranquila.
+    answers:
+    - ביקשתי חדר שקט
+    lexemes:
+    - pedir
+    - habitacion
+  - id: u19-review-10
+    type: dictation
+    text: Quisiera reservar un vuelo.
+    lexemes:
+    - quisiera
+    - reservar
+    - vuelo
+  - id: u19-review-11
+    type: speak_repeat
+    text: Quisiera una habitación para dos noches.
+    translation: הייתי רוצה חדר לשני לילות.
+    lexemes:
+    - quisiera
+    - habitacion
+    - noche-hotel
+    - dos

@@ -1,0 +1,1082 @@
+id: u18-irregulares
+cefr: A2
+scene: travel
+title:
+  he: 'הטיול שלי: עבר לא רגיל'
+  en: 'My trip: irregular past'
+story: 'סוף השבוע הארוך: יעל נסעה עם חברים לפירמידות של טאוטיהואקאן. היא לומדת לספר על הטיול ואת הפעלים הנפוצים בעבר שלא מתנהגים כרגיל: fui, hice, tuve, estuve.'
+canDo:
+- 'לספר על טיול בעבר: fui, vi, hice, estuve'
+- להטות את ser/ir, hacer, tener, estar, ver בעבר
+- להבין את ההבדל בין ser ו־ir בעבר (אותה צורה!)
+- לשאול ¿Cómo fue? ¿Qué hiciste? ¿Adónde fuiste?
+vocabulary:
+- id: hacer
+  text: hacer
+  translation: לעשות, ליצור
+  pos: verb
+  example:
+    text: ¿Qué hiciste ayer?
+    translation: מה עשית אתמול?
+- id: ver
+  text: ver
+  translation: לראות
+  pos: verb
+- id: dar
+  text: dar
+  translation: לתת
+  pos: verb
+- id: decir
+  text: decir
+  translation: לומר
+  pos: verb
+- id: viajar
+  text: viajar
+  translation: לנסוע, לטייל
+  pos: verb
+- id: conocer
+  text: conocer
+  translation: להכיר (מקום / אדם)
+  pos: verb
+- id: sacar
+  text: sacar fotos
+  translation: לצלם
+  pos: phrase
+- id: foto
+  text: la foto
+  translation: תמונה
+  pos: noun
+- id: piramide
+  text: la pirámide
+  translation: פירמידה
+  pos: noun
+- id: historia
+  text: la historia
+  translation: היסטוריה, סיפור
+  pos: noun
+- id: guia
+  text: el guía
+  translation: מדריך
+  pos: noun
+- id: recuerdo
+  text: el recuerdo
+  translation: זיכרון, מזכרת
+  pos: noun
+- id: increible
+  text: increíble
+  translation: מדהים
+  pos: adjective
+- id: interesante
+  text: interesante
+  translation: מעניין
+  pos: adjective
+- id: cansado-p
+  text: agotado
+  translation: מותש
+  pos: adjective
+- id: adonde
+  text: ¿adónde?
+  translation: לאן?
+  pos: phrase
+- id: como-fue
+  text: ¿cómo fue?
+  translation: איך היה?
+  pos: phrase
+- id: durante
+  text: durante
+  translation: במהלך
+  pos: preposition
+- id: fuera
+  text: afuera
+  translation: בחוץ
+  pos: adverb
+grammar:
+- id: preterito-irregular
+  title:
+    he: עבר לא רגיל
+    en: Irregular preterite
+  explanation: 'חלק מהפעלים הכי נפוצים הם **לא רגילים** בעבר. כדאי לשנן אותם בבלוק:
+
+
+    **ser / ir** (שניהם אותה צורה בעבר!): **fui, fuiste, fue, fuimos, fueron**
+
+    * *Fui a Teotihuacán.* (הלכתי = ir) | *Fue un viaje increíble.* (היה = ser). ההקשר מבהיר.
+
+
+    **hacer:** **hice, hiciste, hizo, hicimos, hicieron** (*hizo* עם z)
+
+    **tener:** **tuve, tuviste, tuvo, tuvimos, tuvieron**
+
+    **estar:** **estuve, estuviste, estuvo, estuvimos, estuvieron**
+
+    **poder:** **pude…** | **venir:** **vine, viniste, vino…** | **decir:** **dije, dijiste, dijo…, dijeron**
+
+    **ver / dar:** **vi, viste, vio, vimos, vieron** | **di, diste, dio, dimos, dieron** (בלי אקסנט!)
+
+
+    **כללים שעוזרים לזכור:**
+
+    1. הסיומות של אלה **אחרות** מהרגילות: **-e, -iste, -o, -imos, -ieron** (בלי אקסנט).
+
+    2. הגזע משתנה: tener → **tuv-**, estar → **estuv-**, hacer → **hic-**, venir → **vin-**.
+
+    3. אחרי j בגזע (decir → **dij-**) הסיומת ל־ellos היא **-eron** (לא -ieron).
+
+
+    שאלות: **¿Adónde fuiste?** (לאן הלכת?) | **¿Cómo fue?** (איך היה?) | **¿Qué hiciste?**'
+  examples:
+  - text: Fui con unos amigos a las pirámides y tuve un día increíble.
+    translation: הלכתי עם כמה חברים לפירמידות והיה לי יום מדהים.
+  - text: ¿Qué hicieron ayer? Vimos una película.
+    translation: מה עשיתם אתמול? ראינו סרט.
+  - text: Estuvimos allí tres horas.
+    translation: היינו שם שלוש שעות.
+lessons:
+- id: u18-l1
+  kind: new
+  title:
+    he: מספרים על טיול
+    en: Talking about a trip
+  exercises:
+  - id: u18-l1-01
+    type: dialogue
+    scene: יום שני, ליד מכונת הקפה.
+    lines:
+    - speaker: sofia
+      text: Yael, ¿adónde fuiste el fin de semana?
+      translation: יעל, לאן הלכת בסוף השבוע?
+    - speaker: yael
+      text: Fui a las pirámides de Teotihuacán con unos amigos. ¡Fue increíble!
+      translation: הלכתי לפירמידות של טאוטיהואקאן עם כמה חברים. זה היה מדהים!
+    - speaker: sofia
+      text: ¿Qué hiciste allí?
+      translation: מה עשית שם?
+    - speaker: yael
+      text: Vimos las pirámides, sacamos muchas fotos y conocimos a un guía muy simpático.
+      translation: ראינו את הפירמידות, צילמנו הרבה תמונות והכרנו מדריך נחמד מאוד.
+  - id: u18-l1-02
+    type: learn
+    lexeme: hacer
+  - id: u18-l1-03
+    type: learn
+    lexeme: ver
+  - id: u18-l1-04
+    type: learn
+    lexeme: conocer
+  - id: u18-l1-05
+    type: learn
+    lexeme: viajar
+  - id: u18-l1-06
+    type: learn
+    lexeme: sacar
+  - id: u18-l1-07
+    type: learn
+    lexeme: foto
+  - id: u18-l1-08
+    type: learn
+    lexeme: piramide
+  - id: u18-l1-09
+    type: learn
+    lexeme: historia
+  - id: u18-l1-10
+    type: learn
+    lexeme: guia
+  - id: u18-l1-11
+    type: learn
+    lexeme: recuerdo
+  - id: u18-l1-12
+    type: learn
+    lexeme: adonde
+  - id: u18-l1-13
+    type: learn
+    lexeme: como-fue
+  - id: u18-l1-14
+    type: learn
+    lexeme: increible
+  - id: u18-l1-15
+    type: match_pairs
+    pairs:
+    - - hacer
+      - לעשות
+    - - ver
+      - לראות
+    - - conocer
+      - להכיר
+    - - viajar
+      - לנסוע
+    - - sacar fotos
+      - לצלם
+    lexemes:
+    - hacer
+    - ver
+    - conocer
+    - viajar
+    - sacar
+  - id: u18-l1-16
+    type: match_pairs
+    pairs:
+    - - la foto
+      - תמונה
+    - - la pirámide
+      - פירמידה
+    - - la historia
+      - היסטוריה
+    - - el guía
+      - מדריך
+    - - el recuerdo
+      - זיכרון
+    lexemes:
+    - foto
+    - piramide
+    - historia
+    - guia
+    - recuerdo
+  - id: u18-l1-17
+    type: multiple_choice
+    prompt: מה פירוש '¿Adónde fuiste?'
+    options:
+    - לאן הלכת?
+    - איפה היית?
+    - מה עשית?
+    correct: 0
+    lexemes:
+    - adonde
+    - ir
+    - donde
+    - estar
+    - hacer
+  - id: u18-l1-18
+    type: multiple_choice
+    prompt: מה פירוש '¿Cómo fue?'
+    options:
+    - איך היה?
+    - איפה זה?
+    - מי היה?
+    correct: 0
+    lexemes:
+    - como-fue
+    - donde
+    - quien
+  - id: u18-l1-19
+    type: multiple_choice
+    prompt: מה פירוש 'vimos'?
+    options:
+    - ראינו
+    - היינו
+    - עשינו
+    correct: 0
+    lexemes:
+    - ver
+    - estar
+    - hacer
+  - id: u18-l1-20
+    type: listening_choice
+    audioText: Fui a las pirámides.
+    question: לאן הלך?
+    options:
+    - לפירמידות
+    - לשוק
+    - לפארק
+    correct: 0
+    lexemes:
+    - ir
+    - piramide
+    - mercado
+    - parque-lugar
+  - id: u18-l1-21
+    type: listening_choice
+    audioText: Sacamos muchas fotos.
+    question: מה עשו?
+    options:
+    - צילמו תמונות
+    - קנו מתנות
+    - כתבו מכתבים
+    correct: 0
+    lexemes:
+    - sacar
+    - foto
+    - comprar
+    - regalo
+    - escribir
+  - id: u18-l1-22
+    type: translate
+    direction: to_target
+    prompt: לאן הלכת?
+    answers:
+    - ¿Adónde fuiste?
+    lexemes:
+    - adonde
+    - ir
+  - id: u18-l1-23
+    type: translate
+    direction: to_target
+    prompt: ראיתי את הפירמידות.
+    answers:
+    - Vi las pirámides.
+    lexemes:
+    - ver
+    - piramide
+  - id: u18-l1-24
+    type: translate
+    direction: to_source
+    prompt: ¿Qué hiciste?
+    answers:
+    - מה עשית?
+    lexemes:
+    - hacer
+  - id: u18-l1-25
+    type: dictation
+    text: Fui y vi las pirámides.
+    lexemes:
+    - ir
+    - ver
+    - piramide
+  - id: u18-l1-26
+    type: speak_repeat
+    text: Fue un viaje increíble.
+    translation: זה היה טיול מדהים.
+    lexemes:
+    - viaje
+    - increible
+- id: u18-l2
+  kind: new
+  title:
+    he: תיאור הטיול
+    en: Describing the trip
+  exercises:
+  - id: u18-l2-01
+    type: learn
+    lexeme: dar
+  - id: u18-l2-02
+    type: learn
+    lexeme: decir
+  - id: u18-l2-03
+    type: learn
+    lexeme: interesante
+  - id: u18-l2-04
+    type: learn
+    lexeme: cansado-p
+  - id: u18-l2-05
+    type: learn
+    lexeme: durante
+  - id: u18-l2-06
+    type: learn
+    lexeme: fuera
+  - id: u18-l2-07
+    type: match_pairs
+    pairs:
+    - - dar
+      - לתת
+    - - decir
+      - לומר
+    - - increíble
+      - מדהים
+    - - interesante
+      - מעניין
+    - - agotado
+      - מותש
+    lexemes:
+    - dar
+    - decir
+    - increible
+    - interesante
+    - cansado-p
+  - id: u18-l2-08
+    type: match_pairs
+    pairs:
+    - - durante
+      - במהלך
+    - - afuera
+      - בחוץ
+    - - ¿cómo fue?
+      - איך היה?
+    - - el viaje
+      - טיול
+    - - la película
+      - סרט
+    lexemes:
+    - durante
+    - fuera
+    - como-fue
+    - viaje
+    - pelicula
+  - id: u18-l2-09
+    type: dialogue
+    scene: מתאו שואל על הטיול.
+    lines:
+    - speaker: mateo
+      text: ¿Cómo fue el viaje?
+      translation: איך היה הטיול?
+    - speaker: yael
+      text: Fue interesante, pero estuve agotada. Caminamos durante cinco horas.
+      translation: היה מעניין, אבל הייתי מותשת. הלכנו חמש שעות.
+    - speaker: mateo
+      text: ¿Qué te dijo el guía?
+      translation: מה המדריך אמר לך?
+    - speaker: yael
+      text: Me dio un libro de historia. Fue un lindo recuerdo.
+      translation: הוא נתן לי ספר היסטוריה. זה היה זיכרון יפה.
+  - id: u18-l2-10
+    type: multiple_choice
+    prompt: מה פירוש 'increíble'?
+    options:
+    - מדהים
+    - מותש
+    - מעניין
+    correct: 0
+    lexemes:
+    - increible
+    - cansado-p
+    - interesante
+  - id: u18-l2-11
+    type: multiple_choice
+    prompt: איך אומרים 'במהלך הטיול'?
+    options:
+    - durante el viaje
+    - afuera el viaje
+    - dar el viaje
+    correct: 0
+    lexemes:
+    - durante
+    - fuera
+    - dar
+    - viaje
+  - id: u18-l2-12
+    type: multiple_choice
+    prompt: מה פירוש 'me dio un libro'?
+    options:
+    - הוא נתן לי ספר
+    - הוא ראה ספר
+    - הוא קנה ספר
+    correct: 0
+    lexemes:
+    - dar
+    - libro
+    - ver
+    - comprar
+  - id: u18-l2-13
+    type: listening_choice
+    audioText: El viaje fue interesante.
+    question: איך היה הטיול?
+    options:
+    - מעניין
+    - מותש
+    - קצר
+    correct: 0
+    lexemes:
+    - viaje
+    - interesante
+    - cansado-p
+    - corto
+  - id: u18-l2-14
+    type: listening_choice
+    audioText: Me dijo que fue increíble.
+    question: מה הוא אמר?
+    options:
+    - שהיה מדהים
+    - שהיה קשה
+    - שהיה יקר
+    correct: 0
+    lexemes:
+    - decir
+    - increible
+    - caro
+  - id: u18-l2-15
+    type: fill_blank
+    sentence: El viaje ___ increíble. (ser, עבר)
+    translation: הטיול היה מדהים.
+    answers:
+    - fue
+    options:
+    - fue
+    - fui
+    - fueron
+    lexemes:
+    - viaje
+    - increible
+  - id: u18-l2-16
+    type: fill_blank
+    sentence: Ellos me ___ un recuerdo. (dar)
+    translation: הם נתנו לי מזכרת.
+    answers:
+    - dieron
+    options:
+    - dieron
+    - dio
+    - di
+    lexemes:
+    - dar
+    - recuerdo
+  - id: u18-l2-17
+    type: word_bank
+    prompt: הטיול היה מעניין.
+    answers:
+    - El viaje fue interesante.
+    distractors:
+    - es
+    - fui
+    lexemes:
+    - viaje
+    - interesante
+  - id: u18-l2-18
+    type: translate
+    direction: to_target
+    prompt: הוא אמר שזה מעניין.
+    answers:
+    - Dijo que es interesante.
+    - Dijo que fue interesante.
+    lexemes:
+    - decir
+    - interesante
+  - id: u18-l2-19
+    type: translate
+    direction: to_source
+    prompt: Caminamos durante tres horas.
+    answers:
+    - הלכנו במשך שלוש שעות
+    lexemes:
+    - caminar
+    - durante
+    - tres
+    - hora
+  - id: u18-l2-20
+    type: dictation
+    text: El guía dijo mucho.
+    lexemes:
+    - guia
+    - decir
+- id: u18-l3
+  kind: grammar
+  title:
+    he: ser/ir, hacer, tener, estar
+    en: Irregular verbs
+  grammar: preterito-irregular
+  exercises:
+  - id: u18-l3-01
+    type: fill_blank
+    sentence: Ayer yo ___ al mercado. (ir)
+    translation: אתמול הלכתי לשוק.
+    answers:
+    - fui
+    options:
+    - fui
+    - fue
+    - fuimos
+    lexemes:
+    - ayer
+    - ir
+    - mercado
+  - id: u18-l3-02
+    type: fill_blank
+    sentence: El viaje ___ interesante. (ser)
+    translation: הטיול היה מעניין.
+    answers:
+    - fue
+    options:
+    - fue
+    - fui
+    - fueron
+    lexemes:
+    - viaje
+    - interesante
+  - id: u18-l3-03
+    type: fill_blank
+    sentence: ¿Qué ___ tú el domingo? (hacer)
+    translation: מה עשית ביום ראשון?
+    answers:
+    - hiciste
+    options:
+    - hiciste
+    - hice
+    - hizo
+    lexemes:
+    - hacer
+    - domingo
+  - id: u18-l3-04
+    type: fill_blank
+    sentence: Ella ___ mucho trabajo. (tener)
+    translation: היה לה הרבה עבודה.
+    answers:
+    - tuvo
+    options:
+    - tuvo
+    - tuve
+    - tuvieron
+    lexemes:
+    - tener
+    - trabajar
+  - id: u18-l3-05
+    type: fill_blank
+    sentence: Nosotros ___ en Puebla. (estar)
+    translation: היינו בפואבלה.
+    answers:
+    - estuvimos
+    options:
+    - estuvimos
+    - estuvieron
+    - estuve
+    lexemes:
+    - estar
+  - id: u18-l3-06
+    type: fill_blank
+    sentence: Yo ___ las pirámides. (ver)
+    translation: ראיתי את הפירמידות.
+    answers:
+    - vi
+    options:
+    - vi
+    - vio
+    - vimos
+    lexemes:
+    - ver
+    - piramide
+  - id: u18-l3-07
+    type: fill_blank
+    sentence: Ellos ___ que no. (decir)
+    translation: הם אמרו שלא.
+    answers:
+    - dijeron
+    options:
+    - dijeron
+    - dijo
+    - dije
+    lexemes:
+    - decir
+  - id: u18-l3-08
+    type: fill_blank
+    sentence: Yo ___ el libro a mi hermana. (dar)
+    translation: נתתי את הספר לאחותי.
+    answers:
+    - di
+    options:
+    - di
+    - dio
+    - dieron
+    lexemes:
+    - dar
+    - libro
+    - hermana
+  - id: u18-l3-09
+    type: multiple_choice
+    prompt: 'מה פירוש ''fue'' בשני המשפטים: ''Fue a Puebla'' / ''Fue un día bonito''?'
+    options:
+    - הלך / היה
+    - היה / הלך
+    - תמיד 'הלך'
+    correct: 0
+    lexemes:
+    - ir
+  - id: u18-l3-10
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Hice mi trabajo.
+    - Hací mi trabajo.
+    - Hizo mi trabajo yo.
+    correct: 0
+    lexemes:
+    - hacer
+    - trabajar
+  - id: u18-l3-11
+    type: multiple_choice
+    prompt: מה פירוש 'tuvimos'?
+    options:
+    - היה לנו
+    - היינו
+    - ראינו
+    correct: 0
+    lexemes:
+    - tener
+    - estar
+    - ver
+  - id: u18-l3-12
+    type: word_bank
+    prompt: אתמול הייתי בבית.
+    answers:
+    - Ayer estuve en casa.
+    distractors:
+    - Fui
+    - está
+    lexemes:
+    - ayer
+    - estar
+    - casa
+  - id: u18-l3-13
+    type: word_bank
+    prompt: אנחנו ראינו סרט.
+    answers:
+    - Vimos una película.
+    distractors:
+    - Veo
+    - vio
+    lexemes:
+    - ver
+    - pelicula
+  - id: u18-l3-14
+    type: translate
+    direction: to_target
+    prompt: הלכתי למשרד אתמול.
+    answers:
+    - Fui a la oficina ayer.
+    - Ayer fui a la oficina.
+    lexemes:
+    - ir
+    - oficina
+    - ayer
+  - id: u18-l3-15
+    type: translate
+    direction: to_target
+    prompt: מה עשיתם?
+    answers:
+    - ¿Qué hicieron?
+    - ¿Qué hicieron ustedes?
+    lexemes:
+    - hacer
+  - id: u18-l3-16
+    type: translate
+    direction: to_source
+    prompt: Tuve un día muy largo.
+    answers:
+    - היה לי יום ארוך מאוד
+    lexemes:
+    - tener
+    - largo
+  - id: u18-l3-17
+    type: translate
+    direction: to_source
+    prompt: Estuvimos allí tres días.
+    answers:
+    - היינו שם שלושה ימים
+    lexemes:
+    - estar
+    - alli
+    - tres
+- id: u18-l4
+  kind: listening
+  title:
+    he: סיפור טיול
+    en: A trip story
+  exercises:
+  - id: u18-l4-01
+    type: dialogue
+    scene: יעל מספרת לדוקטור הררה.
+    lines:
+    - speaker: herrera
+      text: Yael, me dijeron que fuiste a Teotihuacán. ¿Cómo fue?
+      translation: יעל, אמרו לי שהלכת לטאוטיהואקאן. איך היה?
+    - speaker: yael
+      text: Fue fantástico. Fuimos el domingo, vimos las pirámides y hicimos una caminata.
+      translation: היה פנטסטי. הלכנו ביום ראשון, ראינו את הפירמידות ועשינו הליכה.
+    - speaker: herrera
+      text: ¿Tuvieron guía?
+      translation: היה לכם מדריך?
+    - speaker: yael
+      text: Sí, tuvimos un guía muy simpático. Nos dio mucha información.
+      translation: כן, היה לנו מדריך נחמד מאוד. הוא נתן לנו הרבה מידע.
+  - id: u18-l4-02
+    type: multiple_choice
+    prompt: מתי הלכו?
+    options:
+    - ביום ראשון
+    - בשבת
+    - ביום שישי
+    correct: 0
+    lexemes:
+    - domingo
+    - sabado
+    - viernes
+  - id: u18-l4-03
+    type: multiple_choice
+    prompt: מה הם עשו?
+    options:
+    - ראו פירמידות והלכו
+    - קנו בגדים
+    - ישנו
+    correct: 0
+    lexemes:
+    - ver
+    - piramide
+    - caminar
+    - comprar
+    - ropa
+    - dormir
+  - id: u18-l4-04
+    type: multiple_choice
+    prompt: איך היה המדריך?
+    options:
+    - נחמד
+    - מותש
+    - יקר
+    correct: 0
+    lexemes:
+    - guia
+    - simpatico
+    - cansado-p
+    - caro
+  - id: u18-l4-05
+    type: listening_choice
+    audioText: Fuimos a Puebla en autobús.
+    question: איך נסעו?
+    options:
+    - באוטובוס
+    - ברכבת
+    - ברגל
+    correct: 0
+    lexemes:
+    - ir
+    - autobus
+    - metro
+    - caminar
+  - id: u18-l4-06
+    type: listening_choice
+    audioText: Vi una película increíble.
+    question: מה ראו?
+    options:
+    - סרט מדהים
+    - פירמידה
+    - ספר
+    correct: 0
+    lexemes:
+    - ver
+    - pelicula
+    - increible
+    - piramide
+    - libro
+  - id: u18-l4-07
+    type: dictation
+    text: Fuimos y vimos mucho.
+    lexemes:
+    - ir
+    - ver
+    - mucho
+  - id: u18-l4-08
+    type: translate
+    direction: to_target
+    prompt: הלכנו ביום ראשון.
+    answers:
+    - Fuimos el domingo.
+    lexemes:
+    - ir
+    - domingo
+  - id: u18-l4-09
+    type: speak_repeat
+    text: Fuimos a las pirámides y vimos mucho.
+    translation: הלכנו לפירמידות וראינו הרבה.
+    lexemes:
+    - ir
+    - piramide
+    - ver
+    - mucho
+- id: u18-l5
+  kind: reading
+  title:
+    he: מכתב מהטיול
+    en: A postcard
+  exercises:
+  - id: u18-l5-01
+    type: reading
+    kind: גלויה
+    title: Una tarjeta de Teotihuacán
+    text: 'Querida familia: ¡Estuve en Teotihuacán! Fuimos en autobús y llegamos a las nueve.
+
+      Vimos la Pirámide del Sol y la Pirámide de la Luna. Sacamos fotos y comimos fruta y pan.
+
+      Tuve un guía muy simpático. Fue un día increíble. Volví cansada, pero feliz.
+
+      '
+    translation: 'משפחה יקרה: הייתי בטאוטיהואקאן! נסענו באוטובוס והגענו בתשע.
+
+      ראינו את פירמידת השמש ואת פירמידת הירח. צילמנו תמונות ואכלנו פירות ולחם.
+
+      היה לי מדריך נחמד מאוד. זה היה יום מדהים. חזרתי עייפה אבל שמחה.
+
+      '
+  - id: u18-l5-02
+    type: multiple_choice
+    prompt: איך הגיעו?
+    options:
+    - באוטובוס
+    - ברכבת
+    - במונית
+    correct: 0
+    lexemes:
+    - autobus
+    - metro
+    - taxi
+  - id: u18-l5-03
+    type: multiple_choice
+    prompt: מה אכלו?
+    options:
+    - פירות ולחם
+    - עוף ואורז
+    - מרק
+    correct: 0
+    lexemes:
+    - fruta
+    - pan
+    - pollo
+    - arroz
+    - sopa
+  - id: u18-l5-04
+    type: fill_blank
+    sentence: Ayer ___ a Teotihuacán. (ir, nosotros)
+    translation: אתמול הלכנו לטאוטיהואקאן.
+    answers:
+    - fuimos
+    options:
+    - fuimos
+    - fueron
+    - fue
+    lexemes:
+    - ayer
+    - ir
+  - id: u18-l5-05
+    type: translate
+    direction: to_target
+    prompt: היה לי מדריך נחמד.
+    answers:
+    - Tuve un guía simpático.
+    - Tuve un guía muy simpático.
+    lexemes:
+    - tener
+    - guia
+    - simpatico
+- id: u18-review
+  kind: review
+  title:
+    he: 'חזרה: עבר לא רגיל'
+    en: 'Review: irregular past'
+  exercises:
+  - id: u18-review-01
+    type: match_pairs
+    pairs:
+    - - fui
+      - הלכתי
+    - - hice
+      - עשיתי
+    - - tuve
+      - היה לי
+    - - estuve
+      - הייתי
+    - - vi
+      - ראיתי
+    lexemes:
+    - ir
+    - hacer
+    - tener
+    - estar
+    - ver
+  - id: u18-review-02
+    type: match_pairs
+    pairs:
+    - - dijo
+      - הוא אמר
+    - - dio
+      - הוא נתן
+    - - fue
+      - היה
+    - - vinimos
+      - באנו
+    - - pudieron
+      - הם יכלו
+    lexemes:
+    - decir
+    - dar
+    - ir
+    - venir
+    - poder
+  - id: u18-review-03
+    type: fill_blank
+    sentence: Ellos ___ en casa. (estar)
+    translation: הם היו בבית.
+    answers:
+    - estuvieron
+    options:
+    - estuvieron
+    - estuvo
+    - estuve
+    lexemes:
+    - estar
+    - casa
+  - id: u18-review-04
+    type: fill_blank
+    sentence: ¿Qué ___ tú ayer? (hacer)
+    translation: מה עשית אתמול?
+    answers:
+    - hiciste
+    options:
+    - hiciste
+    - hice
+    - hizo
+    lexemes:
+    - hacer
+    - ayer
+  - id: u18-review-05
+    type: multiple_choice
+    prompt: מה פירוש 'fuimos'?
+    options:
+    - הלכנו / היינו
+    - הלכתי
+    - הם הלכו
+    correct: 0
+    lexemes:
+    - ir
+  - id: u18-review-06
+    type: listening_choice
+    audioText: Tuve un día increíble.
+    question: איך היה היום?
+    options:
+    - מדהים
+    - קשה
+    - קצר
+    correct: 0
+    lexemes:
+    - tener
+    - increible
+    - corto
+  - id: u18-review-07
+    type: word_bank
+    prompt: אתמול ראיתי סרט.
+    answers:
+    - Ayer vi una película.
+    distractors:
+    - Veo
+    - vio
+    lexemes:
+    - ayer
+    - ver
+    - pelicula
+  - id: u18-review-08
+    type: translate
+    direction: to_target
+    prompt: הלכנו וראינו הכול.
+    answers:
+    - Fuimos y vimos todo.
+    lexemes:
+    - ir
+    - ver
+  - id: u18-review-09
+    type: translate
+    direction: to_source
+    prompt: ¿Adónde fueron ustedes?
+    answers:
+    - לאן הלכתם?
+    lexemes:
+    - adonde
+    - ir
+  - id: u18-review-10
+    type: dictation
+    text: Ayer hice mucho.
+    lexemes:
+    - ayer
+    - hacer
+    - mucho
+  - id: u18-review-11
+    type: speak_repeat
+    text: Ayer fui y vi las pirámides.
+    translation: אתמול הלכתי וראיתי את הפירמידות.
+    lexemes:
+    - ayer
+    - ir
+    - ver
+    - piramide
