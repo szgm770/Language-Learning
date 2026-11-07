@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import type { ReactNode } from "react";
-import { speak, speechSupported } from "@/lib/speech";
+import { NO_VOICE, speak, speechSupported } from "@/lib/speech";
 import { Icon } from "./icons";
 
 const RTL = ["he", "yi", "ar"];
@@ -31,7 +31,7 @@ export function SpeakButton({
   pitch?: number;
   slow?: boolean;
 }) {
-  if (!speechSupported()) return null;
+  if (!speechSupported() || lang === NO_VOICE) return null;
   const dim = slow ? "h-12 gap-1.5 px-4" : { sm: "size-9", md: "size-12", lg: "size-20" }[size];
   const icon = { sm: "size-5", md: "size-6", lg: "size-9" }[size];
   return (

@@ -1,0 +1,41 @@
+# Yiddish for Hebrew speakers – blueprint (draft)
+
+Course id `yi-for-he`. Dialect: Litvish (Northeastern), taken as the base for Chabad Yiddish (owner's decision; not independently verified, see `yi-notes.md`). Torah-observant content, Chabad setting. Same content rules as the other courses (CLAUDE.md).
+
+## What the existing code already gives us
+- `yi` is a valid language code; the UI treats it as right-to-left.
+- Answer checking strips niqqud, so a missing or extra pasekh/komets mark on an alef is forgiven.
+
+## Decisions (2026-11-08)
+- Litvish base (Belarus/Lithuania). Reviewer fills in the exact vowel values.
+- No recordings for now. The course sets `speechLang: none`: no play buttons, nothing is spoken, and no listening/dictation/speak tasks are written. Audio can be added later as files without changing lessons.
+- Story gets Chassidic scenes, including a trip to the Rebbe (a visit to 770 / a Yud Tes Kislev farbrengen), a melamed, a Rebbetzin's class.
+
+## Done in code (this PR)
+- `normalize` unifies װ ױ ײ with וו וי יי for `lang: yi` (tests in `normalize-yi.test.ts`).
+- `speechLang: none` turns speech off everywhere (`speech.ts`, `SpeakButton`).
+
+## What had to be built before content (done above, kept for reference)
+1. **Yiddish letter digraphs in `normalize`.** Hebrew keyboards type וו / וי / יי, while text may contain the single letters װ ױ ײ (U+05F0–05F2). Map them to the two-letter forms (and strip the marks on ײַ) so both spellings match. Add a test.
+2. **No machine voice.** Browsers have no Yiddish voice; with `lang: yi` the code would fall back to some other voice and read Hebrew letters wrongly. Decide: hide all play/record buttons for this course until we have **recorded audio by a Chabad Yiddish speaker**, then add an `audio` path to the schema. Until then listening/speak tasks are not used.
+3. Spelling rule for the course: YIVO-like, Hebrew-origin words as in Hebrew (see notes). One spelling in all files, enforced by a content test (list of forbidden variants).
+4. Course `dialect` note shown to the learner (Litvish base).
+
+## Method differences from Spanish and English
+| Topic | Yiddish |
+|-------|---------|
+| Script | Hebrew letters: A0 is short. Teach pasekh vs komets alef, the digraphs, and that vowels are letters, not niqqud. |
+| Source of words | Germanic core + Hebrew/Aramaic + Slavic. Hebrew-origin words are an easy bridge for Hebrew speakers: flag them. |
+| Gender | Litvish has no neuter (feminine, masculine, "mixed"); every noun is taught with its article; the exact rules need the reviewer. Not the three-gender der/di/dos of Standard Yiddish. |
+| Cases | nominative / accusative / dative: starts at A2, light. |
+| Verbs | verb second position, separable prefixes; Litvish forms the past with *hobn* only; conditional with the infinitive (*ikh volt esn*). |
+| Pronunciation | Litvish: i u e ə o a, diphthongs ey ay oy, no long/short, shuruk = u. Examples: dos, zogn, kugl, kleyn, tsvey, breyt, shtetl. Details beyond these go through the reviewer. |
+
+## Story (proposal, to be confirmed)
+Different from English and Spanish. A grandson from Kfar Chabad spends a year with his Yiddish-speaking grandparents; neighbours, a shopkeeper, a melamed, a Rebbetzin's class. Shabbat, farbrengen, Chassidic stories give natural scenes. Mixed outings are groups or family only.
+
+## Levels
+A0 (letters, sounds, cognates from Hebrew) → A1 → A2 → B1 → B2 first; C1 later. Chassidic vocabulary (Tanya, sichos) gets its own word packs, as in the other courses.
+
+## Review
+A Chabad Yiddish-speaking reviewer signs off every unit. The AI draft is not reviewed content.
