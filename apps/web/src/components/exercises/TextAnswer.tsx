@@ -51,6 +51,7 @@ export function TextAnswer({
   return (
     <div className="flex flex-col gap-3">
       {field}
+      <p className="text-center text-sm text-ink-soft">אותיות ספרדיות שאין במקלדת: לחצו כדי להוסיף לתשובה</p>
       <div className="flex flex-wrap justify-center gap-2" dir="ltr" role="group" aria-label="אותיות מיוחדות">
         {keys.map((k) => (
           <button key={k} type="button" className="btn-quiet min-h-11 min-w-11 px-3 text-lg" onClick={() => insert(k)} disabled={locked}>
