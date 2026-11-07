@@ -1,0 +1,1138 @@
+id: u12-reflexivos
+cefr: A2
+scene: day
+title:
+  he: הבוקר שלי
+  en: My morning routine
+story: 'יעל מספרת ללוסיה איך נראה בוקר רגיל שלה: קמה, נוטלת ידיים, מתפללת, אוכלת ויוצאת. בדרך היא לומדת פעלים עם ''me'', ''te'', ''se'', ופעלים ש''נשברים באמצע'': me acuesto, me despierto.'
+canDo:
+- לספר על שגרת הבוקר והערב
+- 'להשתמש בפעלים חוזרים: me levanto, te lavas, se viste'
+- להבין פעלים שמשתנים באמצע (e→ie, o→ue, e→i)
+- 'לסדר אירועים: primero, luego, después, por último'
+vocabulary:
+- id: despertarse
+  text: despertarse
+  translation: להתעורר
+  pos: verb
+  example:
+    text: Me despierto a las seis.
+    translation: אני מתעורר בשש.
+- id: levantarse
+  text: levantarse
+  translation: לקום
+  pos: verb
+- id: lavarse
+  text: lavarse
+  translation: להתרחץ, לשטוף את עצמי
+  pos: verb
+- id: ducharse
+  text: ducharse
+  translation: להתקלח
+  pos: verb
+- id: vestirse
+  text: vestirse
+  translation: להתלבש
+  pos: verb
+- id: acostarse
+  text: acostarse
+  translation: ללכת לישון
+  pos: verb
+- id: dormir
+  text: dormir
+  translation: לישון
+  pos: verb
+- id: rezar
+  text: rezar
+  translation: להתפלל
+  pos: verb
+- id: mano
+  text: la mano
+  translation: יד
+  pos: noun
+- id: primero
+  text: primero
+  translation: קודם כול, ראשית
+  pos: adverb
+- id: luego
+  text: luego
+  translation: אחר כך
+  pos: adverb
+- id: por-ultimo
+  text: por último
+  translation: לבסוף
+  pos: phrase
+- id: antes-de
+  text: antes de
+  translation: לפני
+  pos: preposition
+- id: despues-de
+  text: después de
+  translation: אחרי
+  pos: preposition
+- id: cansado
+  text: cansado / cansada
+  translation: עייף / עייפה
+  pos: adjective
+- id: listo
+  text: listo / lista
+  translation: מוכן / מוכנה
+  pos: adjective
+- id: pronto
+  text: pronto
+  translation: בקרוב, מהר
+  pos: adverb
+- id: a-veces
+  text: a veces
+  translation: לפעמים
+  pos: phrase
+- id: nunca
+  text: nunca
+  translation: אף פעם
+  pos: adverb
+- id: normalmente
+  text: normalmente
+  translation: בדרך כלל
+  pos: adverb
+grammar:
+- id: reflexivos
+  title:
+    he: פעלים חוזרים ופעלים 'נשברים'
+    en: Reflexive verbs and stem changes
+  explanation: '**פעלים חוזרים** (reflexivos) הם פעלים שבהם הפעולה חוזרת אל מי שעושה אותה. בעברית יש להם בניין שלם (התרחץ, התלבש, התעורר). בספרדית מוסיפים כינוי לפני הפועל:
+
+
+    | כינוי | כינוי חוזר | levantarse |
+
+    |---|---|---|
+
+    | yo | **me** | me levanto |
+
+    | tú | **te** | te levantas |
+
+    | él / ella / usted | **se** | se levanta |
+
+    | nosotros | **nos** | nos levantamos |
+
+    | ellos / ustedes | **se** | se levantan |
+
+
+    המקור מסתיים ב־**se**: *levantarse*, *lavarse*. הכינוי **חייב** להופיע: *Me levanto temprano.* (ולא *Levanto temprano*).
+
+    כשמדברים על חלק גוף משתמשים ב־el/la, **לא** ב־mi: *Me lavo **las** manos.*
+
+
+    **פעלים "נשברים":** בכמה פעלים התנועה שבתוך הגזע משתנה כשהיא מודגשת, ובשני האנשים של nosotros לא:
+
+    * **e → ie:** despertarse → *me despierto*, *nos despertamos*
+
+    * **o → ue:** acostarse → *me acuesto*, dormir → *duermo*, *dormimos*
+
+    * **e → i:** vestirse → *me visto*, *nos vestimos*
+
+    (כבר פגשנו אותם: querer → *quiero*, poder → *puedo*.)
+
+
+    **סדר:** *primero, luego, después, por último.* **antes de / después de** + פועל במקור: *después de desayunar*.'
+  examples:
+  - text: Me despierto temprano y me lavo las manos.
+    translation: אני מתעוררת מוקדם ונוטלת ידיים.
+  - text: Se acuesta tarde porque estudia.
+    translation: הוא הולך לישון מאוחר כי הוא לומד.
+  - text: Después de rezar, desayuno.
+    translation: אחרי התפילה אני אוכלת ארוחת בוקר.
+lessons:
+- id: u12-l1
+  kind: new
+  title:
+    he: הבוקר שלי
+    en: My morning
+  exercises:
+  - id: u12-l1-01
+    type: dialogue
+    scene: לוסיה ויעל שותות קפה.
+    lines:
+    - speaker: lucia
+      text: Yael, ¿a qué hora te levantas?
+      translation: יעל, באיזו שעה את קמה?
+    - speaker: yael
+      text: Normalmente me despierto a las seis. Primero me lavo las manos y rezo.
+      translation: בדרך כלל אני מתעוררת בשש. קודם כול אני נוטלת ידיים ומתפללת.
+    - speaker: lucia
+      text: ¿Y después?
+      translation: ואחר כך?
+    - speaker: yael
+      text: Luego me ducho, me visto y desayuno. Salgo a las ocho.
+      translation: אחר כך אני מתקלחת, מתלבשת ואוכלת. אני יוצאת בשמונה.
+  - id: u12-l1-02
+    type: learn
+    lexeme: despertarse
+  - id: u12-l1-03
+    type: learn
+    lexeme: levantarse
+  - id: u12-l1-04
+    type: learn
+    lexeme: lavarse
+  - id: u12-l1-05
+    type: learn
+    lexeme: ducharse
+  - id: u12-l1-06
+    type: learn
+    lexeme: vestirse
+  - id: u12-l1-07
+    type: learn
+    lexeme: rezar
+  - id: u12-l1-08
+    type: learn
+    lexeme: mano
+  - id: u12-l1-09
+    type: learn
+    lexeme: primero
+  - id: u12-l1-10
+    type: learn
+    lexeme: luego
+  - id: u12-l1-11
+    type: learn
+    lexeme: por-ultimo
+  - id: u12-l1-12
+    type: match_pairs
+    pairs:
+    - - despertarse
+      - להתעורר
+    - - levantarse
+      - לקום
+    - - lavarse
+      - להתרחץ
+    - - ducharse
+      - להתקלח
+    - - vestirse
+      - להתלבש
+    lexemes:
+    - despertarse
+    - levantarse
+    - lavarse
+    - ducharse
+    - vestirse
+  - id: u12-l1-13
+    type: match_pairs
+    pairs:
+    - - rezar
+      - להתפלל
+    - - la mano
+      - יד
+    - - primero
+      - קודם כול
+    - - luego
+      - אחר כך
+    - - por último
+      - לבסוף
+    lexemes:
+    - rezar
+    - mano
+    - primero
+    - luego
+    - por-ultimo
+  - id: u12-l1-14
+    type: multiple_choice
+    prompt: מה פירוש 'me levanto'?
+    options:
+    - אני קם
+    - אני מתקלח
+    - אני מתלבש
+    correct: 0
+    lexemes:
+    - levantarse
+    - ducharse
+    - vestirse
+  - id: u12-l1-15
+    type: multiple_choice
+    prompt: איך אומרים 'אני נוטל ידיים'?
+    options:
+    - Me lavo las manos.
+    - Lavo las manos me.
+    - Me lavar las manos.
+    correct: 0
+    lexemes:
+    - lavarse
+    - mano
+  - id: u12-l1-16
+    type: multiple_choice
+    prompt: איזה מילה פותחת רצף?
+    options:
+    - primero
+    - luego
+    - por último
+    correct: 0
+    lexemes:
+    - primero
+    - luego
+    - por-ultimo
+  - id: u12-l1-17
+    type: listening_choice
+    audioText: Me despierto a las seis.
+    question: באיזו שעה מתעוררים?
+    options:
+    - בשש
+    - בשבע
+    - בחמש
+    correct: 0
+    lexemes:
+    - despertarse
+    - a-las
+    - seis
+    - siete
+    - cinco
+  - id: u12-l1-18
+    type: listening_choice
+    audioText: Primero me lavo las manos.
+    question: מה עושים קודם?
+    options:
+    - נוטלים ידיים
+    - מתפללים
+    - אוכלים
+    correct: 0
+    lexemes:
+    - primero
+    - lavarse
+    - mano
+    - rezar
+    - desayunar
+  - id: u12-l1-19
+    type: translate
+    direction: to_target
+    prompt: אני קם.
+    answers:
+    - Me levanto.
+    lexemes:
+    - levantarse
+  - id: u12-l1-20
+    type: translate
+    direction: to_target
+    prompt: אני מתלבש.
+    answers:
+    - Me visto.
+    lexemes:
+    - vestirse
+  - id: u12-l1-21
+    type: translate
+    direction: to_source
+    prompt: Me ducho y me visto.
+    answers:
+    - אני מתקלח ומתלבש
+    - אני מתקלחת ומתלבשת
+    lexemes:
+    - ducharse
+    - vestirse
+    - y
+  - id: u12-l1-22
+    type: dictation
+    text: Primero me levanto.
+    lexemes:
+    - primero
+    - levantarse
+  - id: u12-l1-23
+    type: speak_repeat
+    text: Me levanto, me lavo y rezo.
+    translation: אני קמה, נוטלת ידיים ומתפללת.
+    lexemes:
+    - levantarse
+    - lavarse
+    - rezar
+- id: u12-l2
+  kind: new
+  title:
+    he: הערב והשינה
+    en: Evening and sleep
+  exercises:
+  - id: u12-l2-01
+    type: learn
+    lexeme: acostarse
+  - id: u12-l2-02
+    type: learn
+    lexeme: dormir
+  - id: u12-l2-03
+    type: learn
+    lexeme: antes-de
+  - id: u12-l2-04
+    type: learn
+    lexeme: despues-de
+  - id: u12-l2-05
+    type: learn
+    lexeme: cansado
+  - id: u12-l2-06
+    type: learn
+    lexeme: listo
+  - id: u12-l2-07
+    type: learn
+    lexeme: pronto
+  - id: u12-l2-08
+    type: learn
+    lexeme: a-veces
+  - id: u12-l2-09
+    type: learn
+    lexeme: nunca
+  - id: u12-l2-10
+    type: learn
+    lexeme: normalmente
+  - id: u12-l2-11
+    type: match_pairs
+    pairs:
+    - - acostarse
+      - ללכת לישון
+    - - dormir
+      - לישון
+    - - cansado
+      - עייף
+    - - listo
+      - מוכן
+    - - pronto
+      - בקרוב
+    lexemes:
+    - acostarse
+    - dormir
+    - cansado
+    - listo
+    - pronto
+  - id: u12-l2-12
+    type: match_pairs
+    pairs:
+    - - antes de
+      - לפני
+    - - después de
+      - אחרי
+    - - a veces
+      - לפעמים
+    - - nunca
+      - אף פעם
+    - - normalmente
+      - בדרך כלל
+    lexemes:
+    - antes-de
+    - despues-de
+    - a-veces
+    - nunca
+    - normalmente
+  - id: u12-l2-13
+    type: dialogue
+    scene: בערב, שיחה קצרה.
+    lines:
+    - speaker: sofia
+      text: Yael, estás cansada. ¿A qué hora te acuestas?
+      translation: יעל, את עייפה. באיזו שעה את הולכת לישון?
+    - speaker: yael
+      text: Normalmente me acuesto a las diez, pero a veces estudio hasta tarde.
+      translation: בדרך כלל אני הולכת לישון בעשר, אבל לפעמים אני לומדת עד מאוחר.
+    - speaker: sofia
+      text: Debes dormir más. Nunca duermes ocho horas.
+      translation: את צריכה לישון יותר. את אף פעם לא ישנה שמונה שעות.
+    - speaker: yael
+      text: Tienes razón. Hoy me acuesto temprano.
+      translation: את צודקת. היום אני הולכת לישון מוקדם.
+  - id: u12-l2-14
+    type: multiple_choice
+    prompt: מה פירוש 'nunca'?
+    options:
+    - אף פעם
+    - תמיד
+    - לפעמים
+    correct: 0
+    lexemes:
+    - nunca
+    - siempre
+    - a-veces
+  - id: u12-l2-15
+    type: multiple_choice
+    prompt: מה פירוש 'después de comer'?
+    options:
+    - אחרי האוכל
+    - לפני האוכל
+    - בזמן האוכל
+    correct: 0
+    lexemes:
+    - despues-de
+    - antes-de
+    - comer
+  - id: u12-l2-16
+    type: multiple_choice
+    prompt: איך אומרים 'אני הולך לישון'?
+    options:
+    - Me acuesto.
+    - Me acuestas.
+    - Acuesto me.
+    correct: 0
+    lexemes:
+    - acostarse
+  - id: u12-l2-17
+    type: listening_choice
+    audioText: Normalmente duermo siete horas.
+    question: כמה ישנים?
+    options:
+    - שבע שעות
+    - שש שעות
+    - שמונה שעות
+    correct: 0
+    lexemes:
+    - normalmente
+    - dormir
+    - hora
+    - siete
+    - seis
+    - ocho
+  - id: u12-l2-18
+    type: listening_choice
+    audioText: Antes de dormir, rezo.
+    question: מה עושים לפני השינה?
+    options:
+    - מתפללים
+    - קוראים
+    - אוכלים
+    correct: 0
+    lexemes:
+    - antes-de
+    - dormir
+    - rezar
+    - leer
+    - comer
+  - id: u12-l2-19
+    type: fill_blank
+    sentence: Antes ___ comer, me lavo las manos.
+    translation: לפני האוכל אני נוטל ידיים.
+    answers:
+    - de
+    options:
+    - de
+    - a
+    - en
+    lexemes:
+    - antes-de
+    - comer
+    - lavarse
+    - mano
+  - id: u12-l2-20
+    type: fill_blank
+    sentence: ___ me acuesto a las diez. (בדרך כלל)
+    translation: בדרך כלל אני הולך לישון בעשר.
+    answers:
+    - Normalmente
+    options:
+    - Normalmente
+    - Nunca
+    - Pronto
+    lexemes:
+    - normalmente
+    - acostarse
+  - id: u12-l2-21
+    type: word_bank
+    prompt: אני עייף היום.
+    answers:
+    - Estoy cansado hoy.
+    distractors:
+    - Soy
+    - pronto
+    lexemes:
+    - estar
+    - cansado
+    - hoy
+  - id: u12-l2-22
+    type: translate
+    direction: to_target
+    prompt: אני לא ישן אף פעם מאוחר.
+    answers:
+    - Nunca duermo tarde.
+    lexemes:
+    - nunca
+    - dormir
+    - tarde-adv
+  - id: u12-l2-23
+    type: translate
+    direction: to_target
+    prompt: לפעמים אני עייפה.
+    answers:
+    - A veces estoy cansada.
+    lexemes:
+    - a-veces
+    - estar
+    - cansado
+  - id: u12-l2-24
+    type: translate
+    direction: to_source
+    prompt: Después de cenar, estudio.
+    answers:
+    - אחרי ארוחת הערב אני לומד
+    - אחרי ארוחת הערב אני לומדת
+    lexemes:
+    - despues-de
+    - cenar
+    - estudiar
+  - id: u12-l2-25
+    type: dictation
+    text: Normalmente me acuesto temprano.
+    lexemes:
+    - normalmente
+    - acostarse
+    - temprano
+- id: u12-l3
+  kind: grammar
+  title:
+    he: פעלים חוזרים
+    en: Reflexive verbs
+  grammar: reflexivos
+  exercises:
+  - id: u12-l3-01
+    type: fill_blank
+    sentence: Yo ___ levanto a las seis.
+    translation: אני קם בשש.
+    answers:
+    - me
+    options:
+    - me
+    - te
+    - se
+    lexemes:
+    - levantarse
+    - a-las
+    - seis
+  - id: u12-l3-02
+    type: fill_blank
+    sentence: Tú ___ lavas las manos.
+    translation: אתה נוטל ידיים.
+    answers:
+    - te
+    options:
+    - te
+    - me
+    - se
+    lexemes:
+    - lavarse
+    - mano
+  - id: u12-l3-03
+    type: fill_blank
+    sentence: Ella ___ viste rápido.
+    translation: היא מתלבשת מהר.
+    answers:
+    - se
+    options:
+    - se
+    - me
+    - nos
+    lexemes:
+    - vestirse
+  - id: u12-l3-04
+    type: fill_blank
+    sentence: Nosotros ___ despertamos temprano.
+    translation: אנחנו מתעוררים מוקדם.
+    answers:
+    - nos
+    options:
+    - nos
+    - se
+    - me
+    lexemes:
+    - despertarse
+    - temprano
+  - id: u12-l3-05
+    type: fill_blank
+    sentence: Yo me ___ a las diez. (acostarse)
+    translation: אני הולך לישון בעשר.
+    answers:
+    - acuesto
+    options:
+    - acuesto
+    - acosto
+    - acostamos
+    lexemes:
+    - acostarse
+    - a-las
+    - diez
+  - id: u12-l3-06
+    type: fill_blank
+    sentence: Yo me ___ temprano. (despertarse)
+    translation: אני מתעורר מוקדם.
+    answers:
+    - despierto
+    options:
+    - despierto
+    - despertó
+    - despertamos
+    lexemes:
+    - despertarse
+    - temprano
+  - id: u12-l3-07
+    type: fill_blank
+    sentence: Yo ___ ocho horas. (dormir)
+    translation: אני ישן שמונה שעות.
+    answers:
+    - duermo
+    options:
+    - duermo
+    - dormo
+    - dormimos
+    lexemes:
+    - dormir
+    - hora
+    - ocho
+  - id: u12-l3-08
+    type: fill_blank
+    sentence: Nosotros ___ siete horas. (dormir)
+    translation: אנחנו ישנים שבע שעות.
+    answers:
+    - dormimos
+    options:
+    - dormimos
+    - duermen
+    - duermo
+    lexemes:
+    - dormir
+    - hora
+    - siete
+  - id: u12-l3-09
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Me visto y desayuno.
+    - Visto me y desayuno.
+    - Me vestir y desayuno.
+    correct: 0
+    lexemes:
+    - vestirse
+    - desayunar
+  - id: u12-l3-10
+    type: multiple_choice
+    prompt: איך אומרים 'אנחנו מתקלחים'?
+    options:
+    - Nos duchamos.
+    - Se duchamos.
+    - Nos duchan.
+    correct: 0
+    lexemes:
+    - ducharse
+  - id: u12-l3-11
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Me lavo las manos.
+    - Me lavo mis manos.
+    - Lavo me las manos.
+    correct: 0
+    lexemes:
+    - lavarse
+    - mano
+  - id: u12-l3-12
+    type: word_bank
+    prompt: אני קם בשבע.
+    answers:
+    - Me levanto a las siete.
+    distractors:
+    - Se
+    - levanta
+    lexemes:
+    - levantarse
+    - a-las
+    - siete
+  - id: u12-l3-13
+    type: word_bank
+    prompt: אנחנו מתעוררים מוקדם.
+    answers:
+    - Nos despertamos temprano.
+    distractors:
+    - Me
+    - despiertan
+    lexemes:
+    - despertarse
+    - temprano
+  - id: u12-l3-14
+    type: translate
+    direction: to_target
+    prompt: היא הולכת לישון בעשר.
+    answers:
+    - Se acuesta a las diez.
+    - Ella se acuesta a las diez.
+    lexemes:
+    - acostarse
+    - a-las
+    - diez
+  - id: u12-l3-15
+    type: translate
+    direction: to_target
+    prompt: אתה ישן מעט.
+    answers:
+    - Duermes poco.
+    - Duermes un poco.
+    lexemes:
+    - dormir
+    - un-poco
+  - id: u12-l3-16
+    type: translate
+    direction: to_source
+    prompt: Se lava las manos antes de comer.
+    answers:
+    - הוא נוטל ידיים לפני האוכל
+    - היא נוטלת ידיים לפני האוכל
+    lexemes:
+    - lavarse
+    - mano
+    - antes-de
+    - comer
+  - id: u12-l3-17
+    type: translate
+    direction: to_source
+    prompt: Después de rezar, me visto.
+    answers:
+    - אחרי התפילה אני מתלבש
+    - אחרי התפילה אני מתלבשת
+    lexemes:
+    - despues-de
+    - rezar
+    - vestirse
+- id: u12-l4
+  kind: listening
+  title:
+    he: שגרה
+    en: Routine
+  exercises:
+  - id: u12-l4-01
+    type: dialogue
+    scene: מתאו ויעל משווים שגרות.
+    lines:
+    - speaker: mateo
+      text: Yo me levanto a las siete y desayuno rápido. ¿Y tú?
+      translation: אני קם בשבע ואוכל מהר. ואת?
+    - speaker: yael
+      text: Yo me levanto a las seis. Me lavo las manos, rezo y desayuno con calma.
+      translation: אני קמה בשש. נוטלת ידיים, מתפללת ואוכלת בנחת.
+    - speaker: mateo
+      text: ¿Y por la noche?
+      translation: ובערב?
+    - speaker: yael
+      text: Ceno, estudio un poco y me acuesto a las diez. Nunca me acuesto tarde.
+      translation: אני אוכלת, לומדת קצת והולכת לישון בעשר. אף פעם לא הולכת לישון מאוחר.
+  - id: u12-l4-02
+    type: multiple_choice
+    prompt: באיזו שעה מתאו קם?
+    options:
+    - בשבע
+    - בשש
+    - בשמונה
+    correct: 0
+    lexemes:
+    - levantarse
+    - a-las
+    - siete
+    - seis
+    - ocho
+  - id: u12-l4-03
+    type: multiple_choice
+    prompt: מה יעל עושה לפני ארוחת הבוקר?
+    options:
+    - נוטלת ידיים ומתפללת
+    - רצה
+    - קוראת מיילים
+    correct: 0
+    lexemes:
+    - lavarse
+    - mano
+    - rezar
+    - correo
+  - id: u12-l4-04
+    type: multiple_choice
+    prompt: מתי יעל הולכת לישון?
+    options:
+    - בעשר
+    - באחת עשרה
+    - בתשע
+    correct: 0
+    lexemes:
+    - acostarse
+    - diez
+    - once
+    - nueve
+  - id: u12-l4-05
+    type: listening_choice
+    audioText: Duermo siete horas.
+    question: כמה ישנים?
+    options:
+    - שבע שעות
+    - שש שעות
+    - שמונה שעות
+    correct: 0
+    lexemes:
+    - dormir
+    - siete
+    - seis
+    - ocho
+    - hora
+  - id: u12-l4-06
+    type: listening_choice
+    audioText: Se levanta a las siete.
+    question: מתי קם?
+    options:
+    - בשבע
+    - בשש
+    - בשמונה
+    correct: 0
+    lexemes:
+    - levantarse
+    - a-las
+    - siete
+    - seis
+    - ocho
+  - id: u12-l4-07
+    type: dictation
+    text: Me lavo las manos y rezo.
+    lexemes:
+    - lavarse
+    - mano
+    - rezar
+  - id: u12-l4-08
+    type: translate
+    direction: to_target
+    prompt: אני לא הולכת לישון מאוחר.
+    answers:
+    - No me acuesto tarde.
+    lexemes:
+    - acostarse
+    - tarde-adv
+  - id: u12-l4-09
+    type: speak_repeat
+    text: Primero me levanto, luego me lavo las manos.
+    translation: קודם אני קמה, אחר כך נוטלת ידיים.
+    lexemes:
+    - primero
+    - levantarse
+    - luego
+    - lavarse
+    - mano
+- id: u12-l5
+  kind: reading
+  title:
+    he: בוקר של יום שישי
+    en: A Friday morning
+  exercises:
+  - id: u12-l5-01
+    type: reading
+    kind: יומן
+    title: Un viernes de Yael
+    text: 'Los viernes me despierto a las seis. Primero me lavo las manos y rezo. Luego me ducho, me visto y desayuno.
+
+      Antes de salir, preparo la comida de Shabat. Por la tarde estoy cansada, pero estoy lista.
+
+      Por la noche cenamos en familia y a veces cantamos. Nunca trabajo el sábado.
+
+      '
+    translation: 'בימי שישי אני מתעוררת בשש. קודם כול אני נוטלת ידיים ומתפללת. אחר כך אני מתקלחת, מתלבשת ואוכלת ארוחת בוקר.
+
+      לפני שאני יוצאת אני מכינה את האוכל לשבת. אחר הצהריים אני עייפה, אבל אני מוכנה.
+
+      בערב אנחנו אוכלים כמשפחה ולפעמים שרים. אני אף פעם לא עובדת בשבת.
+
+      '
+  - id: u12-l5-02
+    type: multiple_choice
+    prompt: באיזו שעה יעל מתעוררת בימי שישי?
+    options:
+    - בשש
+    - בשבע
+    - בחמש
+    correct: 0
+    lexemes:
+    - despertarse
+    - viernes
+    - seis
+    - siete
+    - cinco
+  - id: u12-l5-03
+    type: multiple_choice
+    prompt: מה היא עושה לפני שהיא יוצאת?
+    options:
+    - מכינה אוכל לשבת
+    - הולכת לישון
+    - קונה זאת
+    correct: 0
+    lexemes:
+    - antes-de
+    - comida
+    - dormir
+    - comprar
+  - id: u12-l5-04
+    type: multiple_choice
+    prompt: מה יעל אף פעם לא עושה בשבת?
+    options:
+    - עובדת
+    - אוכלת
+    - שרה
+    correct: 0
+    lexemes:
+    - nunca
+    - trabajar
+    - sabado
+    - comer
+  - id: u12-l5-05
+    type: fill_blank
+    sentence: Los viernes ___ despierto a las seis.
+    translation: בימי שישי אני מתעוררת בשש.
+    answers:
+    - me
+    options:
+    - me
+    - te
+    - se
+    lexemes:
+    - despertarse
+    - viernes
+    - seis
+  - id: u12-l5-06
+    type: translate
+    direction: to_target
+    prompt: אני לא עובד אף פעם בשבת.
+    answers:
+    - Nunca trabajo el sábado.
+    lexemes:
+    - nunca
+    - trabajar
+    - sabado
+- id: u12-review
+  kind: review
+  title:
+    he: 'חזרה: שגרת היום'
+    en: 'Review: daily routine'
+  exercises:
+  - id: u12-review-01
+    type: match_pairs
+    pairs:
+    - - levantarse
+      - לקום
+    - - lavarse
+      - להתרחץ
+    - - ducharse
+      - להתקלח
+    - - vestirse
+      - להתלבש
+    - - acostarse
+      - ללכת לישון
+    lexemes:
+    - levantarse
+    - lavarse
+    - ducharse
+    - vestirse
+    - acostarse
+  - id: u12-review-02
+    type: match_pairs
+    pairs:
+    - - primero
+      - קודם כול
+    - - luego
+      - אחר כך
+    - - por último
+      - לבסוף
+    - - antes de
+      - לפני
+    - - después de
+      - אחרי
+    lexemes:
+    - primero
+    - luego
+    - por-ultimo
+    - antes-de
+    - despues-de
+  - id: u12-review-03
+    type: fill_blank
+    sentence: Ella ___ levanta temprano.
+    translation: היא קמה מוקדם.
+    answers:
+    - se
+    options:
+    - se
+    - me
+    - te
+    lexemes:
+    - levantarse
+    - temprano
+  - id: u12-review-04
+    type: fill_blank
+    sentence: Yo me ___ a las diez.
+    translation: אני הולך לישון בעשר.
+    answers:
+    - acuesto
+    options:
+    - acuesto
+    - acostamos
+    - acuestas
+    lexemes:
+    - acostarse
+    - a-las
+    - diez
+  - id: u12-review-05
+    type: multiple_choice
+    prompt: מה פירוש 'a veces'?
+    options:
+    - לפעמים
+    - תמיד
+    - אף פעם
+    correct: 0
+    lexemes:
+    - a-veces
+    - siempre
+    - nunca
+  - id: u12-review-06
+    type: listening_choice
+    audioText: Después de desayunar, me visto.
+    question: מה עושים אחרי ארוחת הבוקר?
+    options:
+    - מתלבשים
+    - מתקלחים
+    - הולכים לישון
+    correct: 0
+    lexemes:
+    - despues-de
+    - desayunar
+    - vestirse
+    - ducharse
+    - acostarse
+  - id: u12-review-07
+    type: word_bank
+    prompt: אני מתקלחת בבוקר.
+    answers:
+    - Me ducho por la mañana.
+    distractors:
+    - Se
+    - duchas
+    lexemes:
+    - ducharse
+    - manana-dia
+  - id: u12-review-08
+    type: translate
+    direction: to_target
+    prompt: אנחנו קמים בשש.
+    answers:
+    - Nos levantamos a las seis.
+    lexemes:
+    - levantarse
+    - a-las
+    - seis
+  - id: u12-review-09
+    type: translate
+    direction: to_source
+    prompt: Nunca me acuesto tarde.
+    answers:
+    - אף פעם אני לא הולך לישון מאוחר
+    - אף פעם אני לא הולכת לישון מאוחר
+    lexemes:
+    - nunca
+    - acostarse
+    - tarde-adv
+  - id: u12-review-10
+    type: dictation
+    text: Normalmente me despierto temprano.
+    lexemes:
+    - normalmente
+    - despertarse
+    - temprano
+  - id: u12-review-11
+    type: speak_repeat
+    text: Me despierto, me lavo las manos y rezo.
+    translation: אני מתעוררת, נוטלת ידיים ומתפללת.
+    lexemes:
+    - despertarse
+    - lavarse
+    - mano
+    - rezar
