@@ -2,188 +2,206 @@ id: p4-words
 cefr: B2
 scene: nature
 title:
-  he: 'הרחבת אוצר מילים 4: טבע וטיולים'
-  en: 'Word builder 4: nature and travel'
-story: 'מילים לנוף, למזג אוויר ולטיולים: הרים, מדבר, שבילים ומה שקורה בדרך. כל מילה מופיעה במשפט.'
+  he: טיול עם מתאו וסופיה
+  en: A trip with Mateo and Sofia
+story: 'יום ראשון, יעל יוצאת עם מתאו וסופיה לטיול מחוץ לעיר: הרים, הר געש, מדבר וג''ונגל. היא לומדת לדבר על טבע, מזג אוויר ומסלולים.'
 canDo:
-- להבין ולהשתמש במילים נפוצות נוספות
-- לזהות את המילים במשפטים אמיתיים
+- לתאר נופים ותופעות טבע
+- לספר על טיול ועל מסלול
+- לתאר תנאים ומקומות
 vocabulary:
 - id: p4-montana
   text: la montaña
   translation: הר
   pos: noun
   example:
-    text: Vivimos al pie de una montaña muy alta.
-    translation: אנחנו גרים למרגלות הר גבוה מאוד.
+    text: Vivimos cerca de una montaña muy alta.
+    translation: אנחנו גרים ליד הר גבוה מאוד.
 - id: p4-volcan
   text: el volcán
   translation: הר געש
   pos: noun
   example:
-    text: Desde la ciudad se ve el volcán.
-    translation: מהעיר רואים את הר הגעש.
+    text: El volcán se ve desde mi ventana.
+    translation: רואים את הר הגעש מהחלון שלי.
 - id: p4-desierto
   text: el desierto
   translation: מדבר
   pos: noun
   example:
-    text: En el desierto hace mucho calor de día.
-    translation: במדבר חם מאוד ביום.
+    text: En el desierto hace mucho calor.
+    translation: במדבר חם מאוד.
 - id: p4-selva
   text: la selva
   translation: ג'ונגל
   pos: noun
   example:
-    text: La selva tiene muchísimos animales.
-    translation: בג'ונגל יש המון חיות.
+    text: La selva tiene muchos animales.
+    translation: בג'ונגל יש הרבה חיות.
 - id: p4-costa
   text: la costa
   translation: חוף, קו חוף
   pos: noun
   example:
-    text: Viajamos por la costa del Pacífico.
-    translation: נסענו לאורך חוף האוקיינוס השקט.
+    text: La costa está a tres horas de aquí.
+    translation: החוף נמצא במרחק שלוש שעות מכאן.
 - id: p4-cueva
   text: la cueva
   translation: מערה
   pos: noun
   example:
-    text: Entramos a una cueva con linternas.
-    translation: נכנסנו למערה עם פנסים.
+    text: Dentro de la cueva hace frío.
+    translation: בתוך המערה קר.
 - id: p4-neblina
   text: la neblina
   translation: ערפל
   pos: noun
   example:
-    text: Había mucha neblina en la carretera.
-    translation: היה הרבה ערפל בכביש.
+    text: Hay mucha neblina en la mañana.
+    translation: יש הרבה ערפל בבוקר.
 - id: p4-trueno
   text: el trueno
   translation: רעם
   pos: noun
   example:
-    text: El trueno se escuchó muy fuerte.
-    translation: הרעם נשמע חזק מאוד.
+    text: Se oyó un trueno muy fuerte.
+    translation: נשמע רעם חזק מאוד.
 - id: p4-sequia
   text: la sequía
   translation: בצורת
   pos: noun
   example:
-    text: La sequía afectó a los campos.
-    translation: הבצורת פגעה בשדות.
+    text: La sequía duró dos años.
+    translation: הבצורת נמשכה שנתיים.
 - id: p4-inundacion
   text: la inundación
   translation: הצפה
   pos: noun
   example:
-    text: Una inundación cerró varias calles.
-    translation: הצפה סגרה כמה רחובות.
+    text: La inundación cerró la carretera.
+    translation: השיטפון סגר את הכביש.
 - id: p4-sendero
   text: el sendero
   translation: שביל
   pos: noun
   example:
-    text: Seguimos el sendero hasta el lago.
-    translation: הלכנו בשביל עד האגם.
+    text: Seguimos el sendero entre los árboles.
+    translation: הלכנו בשביל בין העצים.
 - id: p4-cima
   text: la cima
   translation: פסגה
   pos: noun
   example:
-    text: Llegamos a la cima al amanecer.
-    translation: הגענו לפסגה עם עלות השחר.
+    text: Llegamos a la cima antes del mediodía.
+    translation: הגענו לפסגה לפני הצהריים.
 - id: p4-escalar
   text: escalar
   translation: לטפס
   pos: verb
   example:
-    text: Quiero escalar esa montaña algún día.
-    translation: אני רוצה לטפס על ההר הזה יום אחד.
+    text: Mateo quiere escalar la montaña.
+    translation: מתאו רוצה לטפס על ההר.
 - id: p4-explorar
   text: explorar
   translation: לחקור, לטייל
   pos: verb
   example:
-    text: Nos gusta explorar lugares nuevos.
-    translation: אנחנו אוהבים לחקור מקומות חדשים.
+    text: Vamos a explorar la cueva.
+    translation: אנחנו הולכים לחקור את המערה.
 - id: p4-acampar
   text: acampar
   translation: לחנות (בקמפינג)
   pos: verb
   example:
-    text: Vamos a acampar cerca del río.
-    translation: אנחנו הולכים לחנות ליד הנהר.
+    text: No podemos acampar cerca del río.
+    translation: אי אפשר לחנות באוהלים ליד הנהר.
 - id: p4-atravesar
   text: atravesar
   translation: לחצות
   pos: verb
   example:
-    text: Tuvimos que atravesar el desierto en coche.
-    translation: היינו צריכים לחצות את המדבר ברכב.
+    text: Hay que atravesar el río por el puente.
+    translation: צריך לחצות את הנהר דרך הגשר.
 - id: p4-orientarse
   text: orientarse
   translation: להתמצא
   pos: verb
   example:
-    text: Es difícil orientarse sin mapa.
-    translation: קשה להתמצא בלי מפה.
+    text: Es difícil orientarse en la selva.
+    translation: קשה להתמצא בג'ונגל.
 - id: p4-aterrizar
   text: aterrizar
   translation: לנחות
   pos: verb
   example:
-    text: El avión va a aterrizar en diez minutos.
-    translation: המטוס הולך לנחות בעוד עשר דקות.
+    text: El avión va a aterrizar a las cinco.
+    translation: המטוס הולך לנחות בחמש.
 - id: p4-escarpado
   text: escarpado
   translation: תלול
   pos: adjective
   example:
-    text: El camino es muy escarpado y peligroso.
-    translation: הדרך תלולה מאוד ומסוכנת.
+    text: El camino es escarpado y resbaloso.
+    translation: הדרך תלולה וחלקלקה.
 - id: p4-arido
   text: árido
   translation: צחיח
   pos: adjective
   example:
-    text: Es una zona árida y casi sin lluvia.
-    translation: זה אזור צחיח כמעט בלי גשם.
+    text: La tierra del norte es árida.
+    translation: האדמה בצפון צחיחה.
 - id: p4-fertil
   text: fértil
   translation: פורה
   pos: adjective
   example:
-    text: Este valle es muy fértil.
-    translation: העמק הזה פורה מאוד.
+    text: El valle es fértil y verde.
+    translation: העמק פורה וירוק.
 - id: p4-humedo
   text: húmedo
   translation: לח
   pos: adjective
   example:
-    text: El clima es cálido y húmedo.
-    translation: האקלים חם ולח.
+    text: El clima en la costa es húmedo.
+    translation: האקלים בחוף לח.
 - id: p4-remoto
   text: remoto
   translation: מרוחק
   pos: adjective
   example:
-    text: Es un pueblo remoto en la sierra.
-    translation: זה כפר מרוחק בהרים.
+    text: Es un pueblo remoto en la montaña.
+    translation: זה כפר מרוחק בהר.
 - id: p4-peligroso
   text: peligroso
   translation: מסוכן
   pos: adjective
   example:
-    text: El sendero es peligroso cuando llueve.
-    translation: השביל מסוכן כשיורד גשם.
+    text: Es peligroso caminar de noche.
+    translation: מסוכן ללכת בלילה.
 lessons:
 - id: p4-l1
   kind: new
   title:
-    he: חבילה 4 – חלק 1
-    en: Pack 4 – part 1
+    he: נוף מהכביש
+    en: A view from the road
   exercises:
+  - id: p4-l1-d1
+    type: dialogue
+    scene: הנסיעה מתחילה מוקדם. מהחלון רואים נופים שונים.
+    lines:
+    - speaker: mateo
+      text: 'Mira la montaña: detrás está el volcán.'
+      translation: 'תראי את ההר: מאחוריו נמצא הר הגעש.'
+    - speaker: yael
+      text: Qué diferente es la costa del desierto y de la selva.
+      translation: כמה שונים החוף, המדבר והג'ונגל.
+    - speaker: sofia
+      text: Hay neblina hoy, y dicen que habrá trueno en la tarde.
+      translation: יש ערפל היום, ואומרים שיהיה רעם אחר הצהריים.
+    - speaker: mateo
+      text: Cerca hay una cueva muy antigua.
+      translation: קרוב יש מערה עתיקה מאוד.
+    lexemes: []
   - id: p4-l1-01
     type: learn
     lexeme: p4-montana
@@ -322,8 +340,8 @@ lessons:
     - p4-trueno
   - id: p4-l1-19
     type: fill_blank
-    sentence: Vivimos al pie de una ___ muy alta.
-    translation: אנחנו גרים למרגלות הר גבוה מאוד.
+    sentence: Vivimos cerca de una ___ muy alta.
+    translation: אנחנו גרים ליד הר גבוה מאוד.
     answers:
     - montaña
     options:
@@ -334,8 +352,8 @@ lessons:
     - p4-montana
   - id: p4-l1-20
     type: fill_blank
-    sentence: Desde la ciudad se ve el ___.
-    translation: מהעיר רואים את הר הגעש.
+    sentence: El ___ se ve desde mi ventana.
+    translation: רואים את הר הגעש מהחלון שלי.
     answers:
     - volcán
     options:
@@ -346,8 +364,8 @@ lessons:
     - p4-volcan
   - id: p4-l1-21
     type: fill_blank
-    sentence: En el ___ hace mucho calor de día.
-    translation: במדבר חם מאוד ביום.
+    sentence: En el ___ hace mucho calor.
+    translation: במדבר חם מאוד.
     answers:
     - desierto
     options:
@@ -358,8 +376,8 @@ lessons:
     - p4-desierto
   - id: p4-l1-22
     type: fill_blank
-    sentence: La ___ tiene muchísimos animales.
-    translation: בג'ונגל יש המון חיות.
+    sentence: La ___ tiene muchos animales.
+    translation: בג'ונגל יש הרבה חיות.
     answers:
     - selva
     options:
@@ -370,8 +388,8 @@ lessons:
     - p4-selva
   - id: p4-l1-23
     type: fill_blank
-    sentence: Viajamos por la ___ del Pacífico.
-    translation: נסענו לאורך חוף האוקיינוס השקט.
+    sentence: La ___ está a tres horas de aquí.
+    translation: החוף נמצא במרחק שלוש שעות מכאן.
     answers:
     - costa
     options:
@@ -382,8 +400,8 @@ lessons:
     - p4-costa
   - id: p4-l1-24
     type: fill_blank
-    sentence: Entramos a una ___ con linternas.
-    translation: נכנסנו למערה עם פנסים.
+    sentence: Dentro de la ___ hace frío.
+    translation: בתוך המערה קר.
     answers:
     - cueva
     options:
@@ -394,8 +412,8 @@ lessons:
     - p4-cueva
   - id: p4-l1-25
     type: fill_blank
-    sentence: Había mucha ___ en la carretera.
-    translation: היה הרבה ערפל בכביש.
+    sentence: Hay mucha ___ en la mañana.
+    translation: יש הרבה ערפל בבוקר.
     answers:
     - neblina
     options:
@@ -406,8 +424,8 @@ lessons:
     - p4-neblina
   - id: p4-l1-26
     type: fill_blank
-    sentence: El ___ se escuchó muy fuerte.
-    translation: הרעם נשמע חזק מאוד.
+    sentence: Se oyó un ___ muy fuerte.
+    translation: נשמע רעם חזק מאוד.
     answers:
     - trueno
     options:
@@ -418,20 +436,37 @@ lessons:
     - p4-trueno
   - id: p4-l1-27
     type: dictation
-    text: Viajamos por la costa del Pacífico.
+    text: La costa está a tres horas de aquí.
     lexemes:
     - p4-costa
   - id: p4-l1-28
     type: dictation
-    text: Entramos a una cueva con linternas.
+    text: Dentro de la cueva hace frío.
     lexemes:
     - p4-cueva
 - id: p4-l2
   kind: new
   title:
-    he: חבילה 4 – חלק 2
-    en: Pack 4 – part 2
+    he: הדרך לפסגה
+    en: The way to the summit
   exercises:
+  - id: p4-l2-d1
+    type: dialogue
+    scene: הם מגיעים לשביל. מתאו מספר על האזור.
+    lines:
+    - speaker: mateo
+      text: Este año hubo sequía, pero el año pasado hubo una inundación.
+      translation: השנה הייתה בצורת, אבל שנה שעברה הייתה שיטפון.
+    - speaker: yael
+      text: Vamos a seguir el sendero hasta la cima.
+      translation: נלך בשביל עד הפסגה.
+    - speaker: sofia
+      text: Quiero escalar y explorar la zona antes de que oscurezca.
+      translation: אני רוצה לטפס ולחקור את האזור לפני שחושך.
+    - speaker: mateo
+      text: Y si hay tiempo, podemos acampar cerca del río; hay que atravesarlo.
+      translation: ואם יהיה זמן, אפשר לחנות ליד הנהר; צריך לחצות אותו.
+    lexemes: []
   - id: p4-l2-01
     type: learn
     lexeme: p4-sequia
@@ -570,8 +605,8 @@ lessons:
     - p4-atravesar
   - id: p4-l2-19
     type: fill_blank
-    sentence: La ___ afectó a los campos.
-    translation: הבצורת פגעה בשדות.
+    sentence: La ___ duró dos años.
+    translation: הבצורת נמשכה שנתיים.
     answers:
     - sequía
     options:
@@ -582,8 +617,8 @@ lessons:
     - p4-sequia
   - id: p4-l2-20
     type: fill_blank
-    sentence: Una ___ cerró varias calles.
-    translation: הצפה סגרה כמה רחובות.
+    sentence: La ___ cerró la carretera.
+    translation: השיטפון סגר את הכביש.
     answers:
     - inundación
     options:
@@ -594,8 +629,8 @@ lessons:
     - p4-inundacion
   - id: p4-l2-21
     type: fill_blank
-    sentence: Seguimos el ___ hasta el lago.
-    translation: הלכנו בשביל עד האגם.
+    sentence: Seguimos el ___ entre los árboles.
+    translation: הלכנו בשביל בין העצים.
     answers:
     - sendero
     options:
@@ -606,8 +641,8 @@ lessons:
     - p4-sendero
   - id: p4-l2-22
     type: fill_blank
-    sentence: Llegamos a la ___ al amanecer.
-    translation: הגענו לפסגה עם עלות השחר.
+    sentence: Llegamos a la ___ antes del mediodía.
+    translation: הגענו לפסגה לפני הצהריים.
     answers:
     - cima
     options:
@@ -618,8 +653,8 @@ lessons:
     - p4-cima
   - id: p4-l2-23
     type: fill_blank
-    sentence: Quiero ___ esa montaña algún día.
-    translation: אני רוצה לטפס על ההר הזה יום אחד.
+    sentence: Mateo quiere ___ la montaña.
+    translation: מתאו רוצה לטפס על ההר.
     answers:
     - escalar
     options:
@@ -630,8 +665,8 @@ lessons:
     - p4-escalar
   - id: p4-l2-24
     type: fill_blank
-    sentence: Nos gusta ___ lugares nuevos.
-    translation: אנחנו אוהבים לחקור מקומות חדשים.
+    sentence: Vamos a ___ la cueva.
+    translation: אנחנו הולכים לחקור את המערה.
     answers:
     - explorar
     options:
@@ -642,8 +677,8 @@ lessons:
     - p4-explorar
   - id: p4-l2-25
     type: fill_blank
-    sentence: Vamos a ___ cerca del río.
-    translation: אנחנו הולכים לחנות ליד הנהר.
+    sentence: No podemos ___ cerca del río.
+    translation: אי אפשר לחנות באוהלים ליד הנהר.
     answers:
     - acampar
     options:
@@ -654,8 +689,8 @@ lessons:
     - p4-acampar
   - id: p4-l2-26
     type: fill_blank
-    sentence: Tuvimos que ___ el desierto en coche.
-    translation: היינו צריכים לחצות את המדבר ברכב.
+    sentence: Hay que ___ el río por el puente.
+    translation: צריך לחצות את הנהר דרך הגשר.
     answers:
     - atravesar
     options:
@@ -666,20 +701,37 @@ lessons:
     - p4-atravesar
   - id: p4-l2-27
     type: dictation
-    text: Vamos a acampar cerca del río.
+    text: No podemos acampar cerca del río.
     lexemes:
     - p4-acampar
   - id: p4-l2-28
     type: dictation
-    text: La sequía afectó a los campos.
+    text: La sequía duró dos años.
     lexemes:
     - p4-sequia
 - id: p4-l3
   kind: new
   title:
-    he: חבילה 4 – חלק 3
-    en: Pack 4 – part 3
+    he: איך חוזרים?
+    en: How do we get back?
   exercises:
+  - id: p4-l3-d1
+    type: dialogue
+    scene: בדרך חזרה השמיים מתחילים להתכסות עננים.
+    lines:
+    - speaker: yael
+      text: Es un lugar remoto y no sé orientarme sin el mapa.
+      translation: זה מקום מרוחק ואני לא יודעת להתמצא בלי המפה.
+    - speaker: mateo
+      text: El camino es escarpado y peligroso cuando está húmedo.
+      translation: הדרך תלולה ומסוכנת כשהיא רטובה.
+    - speaker: sofia
+      text: La tierra aquí es árida, pero más abajo es fértil.
+      translation: האדמה כאן צחיחה, אבל למטה היא פורייה.
+    - speaker: yael
+      text: Mi avión va a aterrizar el jueves; quiero volver temprano.
+      translation: המטוס שלי הולך לנחות ביום חמישי; אני רוצה לחזור מוקדם.
+    lexemes: []
   - id: p4-l3-01
     type: learn
     lexeme: p4-orientarse
@@ -818,8 +870,8 @@ lessons:
     - p4-peligroso
   - id: p4-l3-19
     type: fill_blank
-    sentence: Es difícil ___ sin mapa.
-    translation: קשה להתמצא בלי מפה.
+    sentence: Es difícil ___ en la selva.
+    translation: קשה להתמצא בג'ונגל.
     answers:
     - orientarse
     options:
@@ -830,8 +882,8 @@ lessons:
     - p4-orientarse
   - id: p4-l3-20
     type: fill_blank
-    sentence: El avión va a ___ en diez minutos.
-    translation: המטוס הולך לנחות בעוד עשר דקות.
+    sentence: El avión va a ___ a las cinco.
+    translation: המטוס הולך לנחות בחמש.
     answers:
     - aterrizar
     options:
@@ -842,8 +894,8 @@ lessons:
     - p4-aterrizar
   - id: p4-l3-21
     type: fill_blank
-    sentence: El camino es muy ___ y peligroso.
-    translation: הדרך תלולה מאוד ומסוכנת.
+    sentence: El camino es ___ y resbaloso.
+    translation: הדרך תלולה וחלקלקה.
     answers:
     - escarpado
     options:
@@ -854,8 +906,8 @@ lessons:
     - p4-escarpado
   - id: p4-l3-22
     type: fill_blank
-    sentence: Es una zona ___ y casi sin lluvia.
-    translation: זה אזור צחיח כמעט בלי גשם.
+    sentence: La tierra del norte es ___.
+    translation: האדמה בצפון צחיחה.
     answers:
     - árida
     options:
@@ -866,8 +918,8 @@ lessons:
     - p4-arido
   - id: p4-l3-23
     type: fill_blank
-    sentence: Este valle es muy ___.
-    translation: העמק הזה פורה מאוד.
+    sentence: El valle es ___ y verde.
+    translation: העמק פורה וירוק.
     answers:
     - fértil
     options:
@@ -878,8 +930,8 @@ lessons:
     - p4-fertil
   - id: p4-l3-24
     type: fill_blank
-    sentence: El clima es cálido y ___.
-    translation: האקלים חם ולח.
+    sentence: El clima en la costa es ___.
+    translation: האקלים בחוף לח.
     answers:
     - húmedo
     options:
@@ -890,8 +942,8 @@ lessons:
     - p4-humedo
   - id: p4-l3-25
     type: fill_blank
-    sentence: Es un pueblo ___ en la sierra.
-    translation: זה כפר מרוחק בהרים.
+    sentence: Es un pueblo ___ en la montaña.
+    translation: זה כפר מרוחק בהר.
     answers:
     - remoto
     options:
@@ -902,8 +954,8 @@ lessons:
     - p4-remoto
   - id: p4-l3-26
     type: fill_blank
-    sentence: El sendero es ___ cuando llueve.
-    translation: השביל מסוכן כשיורד גשם.
+    sentence: Es ___ caminar de noche.
+    translation: מסוכן ללכת בלילה.
     answers:
     - peligroso
     options:
@@ -914,11 +966,11 @@ lessons:
     - p4-peligroso
   - id: p4-l3-27
     type: dictation
-    text: El sendero es peligroso cuando llueve.
+    text: Es peligroso caminar de noche.
     lexemes:
     - p4-peligroso
   - id: p4-l3-28
     type: dictation
-    text: Es un pueblo remoto en la sierra.
+    text: Es un pueblo remoto en la montaña.
     lexemes:
     - p4-remoto
