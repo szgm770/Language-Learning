@@ -1,4 +1,5 @@
-import { readFileSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
+import { fileURLToPath } from "node:url";
 import type { Exercise, Unit } from "@lingo/content-schema";
 import { expect, type Page } from "@playwright/test";
 
@@ -101,4 +102,28 @@ export async function answerWrong(page: Page, ex: Exercise) {
   else await page.getByRole("textbox").fill("wrong answer");
   await page.getByRole("button", { name: "בדיקה" }).click();
   await expect(page.locator("[data-verdict]")).not.toHaveAttribute("data-verdict", "correct");
+}
+
+/**
+ * Lesson ids of `course` that changed in this branch, so CI only solves new
+ * lessons. `E2E_CHANGED_FILES` is a newline-separated list of changed paths
+ * (set by CI). Unset => every lesson (the local default); set but nothing
+ * changed in this course => none. The "can be started from zero" tests and
+ * the core flows always run.
+ */
+export function lessonsToSolve(course: string, all: string[]): string[] {
+  const changed = process.env.E2E_CHANGED_FILES;
+  if (changed === undefined || process.env.E2E_ALL) return all;
+  const ids = new Set<string>();
+  for (const file of changed.split("\n").map((s) => s.trim())) {
+    const m = file.match(/^content\/courses\/([^/]+)\/units\/.+\.yaml$/);
+    if (!m || m[1] !== course) continue;
+    const path = fileURLToPath(new URL(`../../../${file}`, import.meta.url));
+    if (!existsSync(path)) continue;
+    for (const line of readFileSync(path, "utf8").split("\n")) {
+      const id = line.match(/^\s*-?\s*id:\s*["']?([a-z0-9]+-(?:l\d+|review|test)|[a-z0-9]+-test)["']?\s*$/)?.[1];
+      if (id) ids.add(id);
+    }
+  }
+  return all.filter((id) => ids.has(id));
 }

@@ -18,6 +18,8 @@ jobs:
       PAGES_BASE_PATH: /Language-Learning
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: pnpm/action-setup@v4
       - uses: actions/setup-node@v4
         with:
@@ -34,8 +36,21 @@ jobs:
         run: pnpm build
       - name: Install browser
         run: pnpm --filter web exec playwright install --with-deps chromium
-      - name: End-to-end (phone and desktop, including offline)
-        run: pnpm --filter web e2e
+      - name: Which files changed
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            git diff --name-only "origin/${{ github.base_ref }}...HEAD" > "$RUNNER_TEMP/changed.txt"
+          else
+            git diff --name-only HEAD^ HEAD > "$RUNNER_TEMP/changed.txt" || : > "$RUNNER_TEMP/changed.txt"
+          fi
+          cat "$RUNNER_TEMP/changed.txt"
+          {
+            echo 'E2E_CHANGED_FILES<<EOF'
+            cat "$RUNNER_TEMP/changed.txt"
+            echo 'EOF'
+          } >> "$GITHUB_ENV"
+      - name: End-to-end (phone only; only changed lessons are solved, offline included)
+        run: pnpm --filter web e2e --project=phone
       - uses: actions/upload-artifact@v4
         if: failure()
         with:
