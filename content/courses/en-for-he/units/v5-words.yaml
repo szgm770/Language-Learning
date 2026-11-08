@@ -1,105 +1,106 @@
 id: v5-words
 cefr: C1
-scene: study
+scene: work
 title:
-  he: הרחבת אוצר מילים 5
-  en: Word builder 5
-story: עוד מילים חשובות בשימוש יומיומי, מקובצות בשיעורים קצרים. כל מילה מופיעה במשפט, ואחר כך מתרגלים אותה.
+  he: משרד חדש ביפו
+  en: A new office in Jaffa
+story: נועה חוזרת לתל אביב להקים את המשרד החדש. היא מחפשת מקום, מוצאת בניין עתיק ביפו, ומתחילה בשיפוץ עם דוד ותמר. לא הכול הולך לפי התוכנית.
 canDo:
-- להבין ולהשתמש במילים נפוצות נוספות
-- לזהות את המילים במשפטים אמיתיים
+- לדבר על מעבר, תקציב ורווח
+- לתאר בניין היסטורי ושיפוץ
+- לדבר על תכנון, מימון ותחזוקה
 vocabulary:
 - id: border
   text: border
   translation: גבול
   pos: noun
   example:
-    text: We crossed the border at noon.
-    translation: חצינו את הגבול בצהריים.
+    text: The plane crossed the border into Israel.
+    translation: המטוס חצה את הגבול לישראל.
 - id: crew
   text: crew
   translation: צוות (בספינה/במטוס)
   pos: noun
   example:
-    text: The crew welcomed the passengers.
-    translation: הצוות קיבל את פני הנוסעים.
+    text: The crew of the London office sent flowers.
+    translation: הצוות של המשרד בלונדון שלח פרחים.
 - id: elements
   text: elements
   translation: מרכיבים, יסודות
   pos: noun
   example:
-    text: Trust is one of the key elements of teamwork.
-    translation: אמון הוא אחד המרכיבים המרכזיים בעבודת צוות.
+    text: Trust is one of the key elements of a good team.
+    translation: אמון הוא אחד המרכיבים החשובים של צוות טוב.
 - id: ensure
   text: ensure
   translation: להבטיח, לוודא
   pos: verb
   example:
-    text: Please ensure that the door is locked.
-    translation: אנא וודאו שהדלת נעולה.
+    text: Please ensure that every document is signed.
+    translation: אנא ודאו שכל מסמך חתום.
 - id: intended
   text: intended
   translation: מיועד, מכוון
   pos: adjective
   example:
-    text: The gift was intended for my mother.
-    translation: המתנה הייתה מיועדת לאמא שלי.
+    text: Noa intended to rest, but there was no time.
+    translation: נועה התכוונה לנוח, אבל לא היה זמן.
 - id: ocean
   text: ocean
   translation: אוקיינוס
   pos: noun
   example:
-    text: The ocean was calm in the morning.
-    translation: האוקיינוס היה רגוע בבוקר.
+    text: After the ocean of London rain, Tel Aviv felt like summer.
+    translation: אחרי אוקיינוס הגשם של לונדון, תל אביב הרגישה כמו קיץ.
 - id: profit
   text: profit
   translation: רווח
   pos: noun
   example:
-    text: The shop made a small profit.
-    translation: החנות הרוויחה רווח קטן.
+    text: The new office must make a profit within a year.
+    translation: המשרד החדש חייב להרוויח תוך שנה.
 - id: appearance
   text: appearance
   translation: מראה, הופעה
   pos: noun
   example:
-    text: His appearance has changed a lot.
-    translation: המראה שלו השתנה מאוד.
+    text: The appearance of the building matters to clients.
+    translation: המראה של הבניין חשוב ללקוחות.
 - id: domestic
   text: domestic
   translation: ביתי, מקומי
   pos: adjective
   example:
-    text: We offer domestic and international flights.
-    translation: אנו מציעים טיסות מקומיות ובינלאומיות.
+    text: Most of their clients are domestic companies.
+    translation: רוב הלקוחות שלהם הם חברות מקומיות.
 - id: historical
   text: historical
   translation: היסטורי
   pos: adjective
   example:
-    text: It is a historical building.
-    translation: זה בניין היסטורי.
+    text: They want an office in a historical building.
+    translation: הם רוצים משרד בבניין היסטורי.
 - id: jump
   text: jump
   translation: לקפוץ
   pos: verb
   example:
-    text: The children like to jump on the bed.
-    translation: הילדים אוהבים לקפוץ על המיטה.
+    text: Don't jump to conclusions about the building.
+    translation: אל תקפוץ למסקנות לגבי הבניין.
 - id: minimum
   text: minimum
   translation: מינימום
   pos: noun
   example:
-    text: You need a minimum of two hours.
-    translation: צריך מינימום של שעתיים.
+    text: The rent is for a minimum of three years.
+    translation: השכירות היא למינימום שלוש שנים.
 - id: ancient
   text: ancient
   translation: עתיק
   pos: adjective
   example:
-    text: We visited an ancient city.
-    translation: ביקרנו בעיר עתיקה.
+    text: The office is in an ancient stone building.
+    translation: המשרד נמצא בבניין אבן עתיק.
 - id: communication
   text: communication
   translation: תקשורת
@@ -112,190 +113,207 @@ vocabulary:
   translation: מחובר
   pos: adjective
   example:
-    text: Is the printer connected to the network?
-    translation: האם המדפסת מחוברת לרשת?
+    text: Is the building connected to fast internet?
+    translation: הבניין מחובר לאינטרנט מהיר?
 - id: express
   text: express
   translation: להביע; מהיר
   pos: verb
   example:
-    text: It is hard to express my feelings.
-    translation: קשה לי להביע את הרגשות שלי.
+    text: Noa tried to express her excitement in a calm way.
+    translation: נועה ניסתה להביע את ההתלהבות שלה בצורה רגועה.
 - id: flow
   text: flow
   translation: זרימה; לזרום
   pos: noun
   example:
-    text: The flow of water was strong.
-    translation: זרימת המים הייתה חזקה.
+    text: The flow of people in the market never stops.
+    translation: זרם האנשים בשוק לא נעצר אף פעם.
 - id: hero
   text: hero
   translation: גיבור
   pos: noun
   example:
-    text: My father is my hero.
-    translation: אבא שלי הוא הגיבור שלי.
+    text: The owner was the hero of the day.
+    translation: הבעלים היה הגיבור של היום.
 - id: joke
   text: joke
   translation: בדיחה
   pos: noun
   example:
-    text: He told a funny joke.
-    translation: הוא סיפר בדיחה מצחיקה.
+    text: David made a joke about the old pipes.
+    translation: דוד התבדח על הצינורות הישנים.
 - id: loan
   text: loan
   translation: הלוואה
   pos: noun
   example:
-    text: They took a loan to buy a flat.
-    translation: הם לקחו הלוואה לקניית דירה.
+    text: They took a small loan for the renovation.
+    translation: הם לקחו הלוואה קטנה לשיפוץ.
 - id: soft
   text: soft
   translation: רך
   pos: adjective
   example:
-    text: The bed is soft and warm.
-    translation: המיטה רכה וחמה.
+    text: Tamar chose a soft light for the entry.
+    translation: תמר בחרה אור רך לכניסה.
 - id: appeal
   text: appeal
   translation: משיכה; לפנות
   pos: noun
   example:
-    text: The idea has a wide appeal.
-    translation: לרעיון יש משיכה רחבה.
+    text: The old building has a special appeal.
+    translation: לבניין הישן יש קסם מיוחד.
 - id: appropriate
   text: appropriate
   translation: מתאים, ראוי
   pos: adjective
   example:
-    text: Wear appropriate clothes for the event.
-    translation: לבשו בגדים מתאימים לאירוע.
+    text: Is this colour appropriate for an old building?
+    translation: הצבע הזה מתאים לבניין ישן?
 - id: device
   text: device
   translation: מכשיר
   pos: noun
   example:
-    text: Turn off your device before the flight.
-    translation: כבו את המכשיר לפני הטיסה.
+    text: They installed a security device at the door.
+    translation: הם התקינו מכשיר אבטחה בדלת.
 - id: drama
   text: drama
   translation: דרמה
   pos: noun
   example:
-    text: We watched a drama about two families.
-    translation: צפינו בדרמה על שתי משפחות.
+    text: There was some drama when a pipe burst.
+    translation: הייתה קצת דרמה כשצינור התפוצץ.
 - id: entry
   text: entry
   translation: כניסה, רשומה
   pos: noun
   example:
-    text: Entry to the museum is free today.
-    translation: הכניסה למוזיאון חינם היום.
+    text: The entry is through a small garden.
+    translation: הכניסה היא דרך גינה קטנה.
 - id: era
   text: era
   translation: תקופה, עידן
   pos: noun
   example:
-    text: It was the era of big changes.
-    translation: זה היה עידן של שינויים גדולים.
+    text: The building is from the Ottoman era.
+    translation: הבניין מהתקופה העות׳מאנית.
 - id: factor
   text: factor
   translation: גורם
   pos: noun
   example:
-    text: Price is an important factor.
-    translation: המחיר הוא גורם חשוב.
+    text: Cost is an important factor in every decision.
+    translation: עלות היא שיקול חשוב בכל החלטה.
 - id: grant
   text: grant
   translation: מענק; להעניק
   pos: noun
   example:
-    text: The school received a grant for books.
-    translation: בית הספר קיבל מענק לספרים.
+    text: The city gave them a grant for the renovation.
+    translation: העירייה נתנה להם מענק לשיפוץ.
 - id: pool
   text: pool
   translation: בריכה
   pos: noun
   example:
-    text: The children are playing in the pool.
-    translation: הילדים משחקים בבריכה.
+    text: They have a pool of good workers to choose from.
+    translation: יש להם מאגר של עובדים טובים לבחור מתוכו.
 - id: route
   text: route
   translation: מסלול
   pos: noun
   example:
-    text: We took the shortest route.
-    translation: לקחנו את המסלול הקצר ביותר.
+    text: The fastest route to Jaffa is along the sea.
+    translation: הדרך המהירה ביותר ליפו היא לאורך הים.
 - id: scientific
   text: scientific
   translation: מדעי
   pos: adjective
   example:
-    text: This is a scientific discovery.
-    translation: זו תגלית מדעית.
+    text: They used a scientific method to plan the budget.
+    translation: הם השתמשו בשיטה מדעית לתכנן את התקציב.
 - id: storm
   text: storm
   translation: סערה
   pos: noun
   example:
-    text: A storm is coming tonight.
-    translation: סערה מתקרבת הלילה.
+    text: A winter storm damaged the roof.
+    translation: סערת חורף פגעה בגג.
 - id: strike
   text: strike
   translation: שביתה; לפגוע
   pos: noun
   example:
-    text: The workers went on strike.
-    translation: העובדים יצאו לשביתה.
+    text: A strike at the port delayed the furniture.
+    translation: שביתה בנמל עיכבה את הרהיטים.
 - id: equal
   text: equal
   translation: שווה
   pos: adjective
   example:
-    text: All people are equal.
-    translation: כל בני האדם שווים.
+    text: Everyone has an equal voice in the team.
+    translation: לכולם יש קול שווה בצוות.
 - id: finance
   text: finance
   translation: מימון, כספים
   pos: noun
   example:
-    text: She works in finance.
-    translation: היא עובדת בתחום הכספים.
+    text: Tamar is responsible for finance.
+    translation: תמר אחראית על הכספים.
 - id: identity
   text: identity
   translation: זהות
   pos: noun
   example:
-    text: Please show your identity card.
-    translation: אנא הציגו תעודת זהות.
+    text: The office needs its own identity.
+    translation: המשרד צריך זהות משלו.
 - id: maintain
   text: maintain
   translation: לתחזק, לשמר
   pos: verb
   example:
-    text: It is important to maintain a healthy life.
-    translation: חשוב לשמור על אורח חיים בריא.
+    text: It is expensive to maintain an old building.
+    translation: יקר לתחזק בניין ישן.
 - id: numerous
   text: numerous
   translation: רבים
   pos: adjective
   example:
-    text: There are numerous reasons.
-    translation: יש סיבות רבות.
+    text: They had numerous meetings with the city.
+    translation: היו להם פגישות רבות עם העירייה.
 - id: specifically
   text: specifically
   translation: במיוחד, בפירוט
   pos: adverb
   example:
-    text: I asked specifically for a window seat.
-    translation: ביקשתי במיוחד מושב ליד החלון.
+    text: Noa asked specifically for a room with a window.
+    translation: נועה ביקשה במיוחד חדר עם חלון.
 lessons:
 - id: v5-l1
   kind: new
   title:
-    he: מילים חדשות 1
-    en: New words 1
+    he: חוזרים הביתה
+    en: Coming home
   exercises:
+  - id: v5-l1-d1
+    type: dialogue
+    scene: נמל התעופה בן גוריון. דוד מחכה לנועה.
+    lines:
+    - speaker: david
+      text: Welcome back! The crew from the London office sent you flowers.
+      translation: ברוכה השבה! הצוות מהמשרד בלונדון שלח לך פרחים.
+    - speaker: noa
+      text: I intended to rest for a week. Instead, we start tomorrow.
+      translation: התכוונתי לנוח שבוע. במקום זה, מתחילים מחר.
+    - speaker: david
+      text: We need to ensure the office makes a profit in the first year.
+      translation: אנחנו צריכים לוודא שהמשרד ירוויח בשנה הראשונה.
+    - speaker: noa
+      text: First we need an office. With a historical building, if possible.
+      translation: קודם צריך משרד. בבניין היסטורי, אם אפשר.
+    lexemes: []
   - id: v5-l1-01
     type: learn
     lexeme: border
@@ -436,8 +454,8 @@ lessons:
     - ocean
   - id: v5-l1-19
     type: fill_blank
-    sentence: Please ___ that the door is locked.
-    translation: אנא וודאו שהדלת נעולה.
+    sentence: Please ___ that every document is signed.
+    translation: אנא ודאו שכל מסמך חתום.
     answers:
     - ensure
     options:
@@ -448,8 +466,8 @@ lessons:
     - ensure
   - id: v5-l1-20
     type: fill_blank
-    sentence: The gift was ___ for my mother.
-    translation: המתנה הייתה מיועדת לאמא שלי.
+    sentence: Noa ___ to rest, but there was no time.
+    translation: נועה התכוונה לנוח, אבל לא היה זמן.
     answers:
     - intended
     options:
@@ -460,8 +478,8 @@ lessons:
     - intended
   - id: v5-l1-21
     type: fill_blank
-    sentence: The ___ was calm in the morning.
-    translation: האוקיינוס היה רגוע בבוקר.
+    sentence: After the ___ of London rain, Tel Aviv felt like summer.
+    translation: אחרי אוקיינוס הגשם של לונדון, תל אביב הרגישה כמו קיץ.
     answers:
     - ocean
     options:
@@ -472,8 +490,8 @@ lessons:
     - ocean
   - id: v5-l1-22
     type: fill_blank
-    sentence: The shop made a small ___.
-    translation: החנות הרוויחה רווח קטן.
+    sentence: The new office must make a ___ within a year.
+    translation: המשרד החדש חייב להרוויח תוך שנה.
     answers:
     - profit
     options:
@@ -484,8 +502,8 @@ lessons:
     - profit
   - id: v5-l1-23
     type: fill_blank
-    sentence: His ___ has changed a lot.
-    translation: המראה שלו השתנה מאוד.
+    sentence: The ___ of the building matters to clients.
+    translation: המראה של הבניין חשוב ללקוחות.
     answers:
     - appearance
     options:
@@ -496,8 +514,8 @@ lessons:
     - appearance
   - id: v5-l1-24
     type: fill_blank
-    sentence: We offer ___ and international flights.
-    translation: אנו מציעים טיסות מקומיות ובינלאומיות.
+    sentence: Most of their clients are ___ companies.
+    translation: רוב הלקוחות שלהם הם חברות מקומיות.
     answers:
     - domestic
     options:
@@ -508,8 +526,8 @@ lessons:
     - domestic
   - id: v5-l1-25
     type: fill_blank
-    sentence: It is a ___ building.
-    translation: זה בניין היסטורי.
+    sentence: They want an office in a ___ building.
+    translation: הם רוצים משרד בבניין היסטורי.
     answers:
     - historical
     options:
@@ -520,20 +538,37 @@ lessons:
     - historical
   - id: v5-l1-26
     type: dictation
-    text: We offer domestic and international flights.
+    text: Most of their clients are domestic companies.
     lexemes:
     - domestic
   - id: v5-l1-27
     type: dictation
-    text: It is a historical building.
+    text: They want an office in a historical building.
     lexemes:
     - historical
 - id: v5-l2
   kind: new
   title:
-    he: מילים חדשות 2
-    en: New words 2
+    he: בניין עתיק
+    en: An ancient building
   exercises:
+  - id: v5-l2-d1
+    type: dialogue
+    scene: ביפו העתיקה. תמר מראה לנועה ולדוד בניין אבן.
+    lines:
+    - speaker: tamar
+      text: This building is ancient. Two hundred years, at a minimum.
+      translation: הבניין הזה עתיק. מאתיים שנה, לפחות.
+    - speaker: noa
+      text: I love it. But is it connected to fast internet?
+      translation: אני אוהבת אותו. אבל הוא מחובר לאינטרנט מהיר?
+    - speaker: david
+      text: Communication is our business. Without internet, it's a joke.
+      translation: תקשורת זה העסק שלנו. בלי אינטרנט, זו בדיחה.
+    - speaker: tamar
+      text: 'Don''t jump to conclusions. The owner is a hero: he''ll fix everything.'
+      translation: 'אל תקפוץ למסקנות. הבעלים הוא גיבור: הוא יתקן הכול.'
+    lexemes: []
   - id: v5-l2-01
     type: learn
     lexeme: jump
@@ -686,8 +721,8 @@ lessons:
     - communication
   - id: v5-l2-20
     type: fill_blank
-    sentence: Is the printer ___ to the network?
-    translation: האם המדפסת מחוברת לרשת?
+    sentence: Is the building ___ to fast internet?
+    translation: הבניין מחובר לאינטרנט מהיר?
     answers:
     - connected
     options:
@@ -698,8 +733,8 @@ lessons:
     - connected
   - id: v5-l2-21
     type: fill_blank
-    sentence: It is hard to ___ my feelings.
-    translation: קשה לי להביע את הרגשות שלי.
+    sentence: Noa tried to ___ her excitement in a calm way.
+    translation: נועה ניסתה להביע את ההתלהבות שלה בצורה רגועה.
     answers:
     - express
     options:
@@ -710,8 +745,8 @@ lessons:
     - express
   - id: v5-l2-22
     type: fill_blank
-    sentence: The ___ of water was strong.
-    translation: זרימת המים הייתה חזקה.
+    sentence: The ___ of people in the market never stops.
+    translation: זרם האנשים בשוק לא נעצר אף פעם.
     answers:
     - flow
     options:
@@ -722,8 +757,8 @@ lessons:
     - flow
   - id: v5-l2-23
     type: fill_blank
-    sentence: My father is my ___.
-    translation: אבא שלי הוא הגיבור שלי.
+    sentence: The owner was the ___ of the day.
+    translation: הבעלים היה הגיבור של היום.
     answers:
     - hero
     options:
@@ -734,8 +769,8 @@ lessons:
     - hero
   - id: v5-l2-24
     type: fill_blank
-    sentence: He told a funny ___.
-    translation: הוא סיפר בדיחה מצחיקה.
+    sentence: David made a ___ about the old pipes.
+    translation: דוד התבדח על הצינורות הישנים.
     answers:
     - joke
     options:
@@ -746,8 +781,8 @@ lessons:
     - joke
   - id: v5-l2-25
     type: fill_blank
-    sentence: They took a ___ to buy a flat.
-    translation: הם לקחו הלוואה לקניית דירה.
+    sentence: They took a small ___ for the renovation.
+    translation: הם לקחו הלוואה קטנה לשיפוץ.
     answers:
     - loan
     options:
@@ -758,20 +793,37 @@ lessons:
     - loan
   - id: v5-l2-26
     type: dictation
-    text: He told a funny joke.
+    text: David made a joke about the old pipes.
     lexemes:
     - joke
   - id: v5-l2-27
     type: dictation
-    text: They took a loan to buy a flat.
+    text: They took a small loan for the renovation.
     lexemes:
     - loan
 - id: v5-l3
   kind: new
   title:
-    he: מילים חדשות 3
-    en: New words 3
+    he: שיפוץ
+    en: Renovation
   exercises:
+  - id: v5-l3-d1
+    type: dialogue
+    scene: בבניין. פועלים, אבק ורעש.
+    lines:
+    - speaker: tamar
+      text: The entry needs soft light, appropriate for the old stone.
+      translation: הכניסה צריכה אור רך, שמתאים לאבן הישנה.
+    - speaker: david
+      text: And a device for the door. Security is a factor.
+      translation: ומכשיר לדלת. אבטחה היא שיקול.
+    - speaker: noa
+      text: No drama, please. We have a grant from the city for historical buildings.
+      translation: בלי דרמה, בבקשה. יש לנו מענק מהעירייה לבניינים היסטוריים.
+    - speaker: tamar
+      text: A new era for an old building. I like it.
+      translation: עידן חדש לבניין ישן. אני אוהבת את זה.
+    lexemes: []
   - id: v5-l3-01
     type: learn
     lexeme: soft
@@ -912,8 +964,8 @@ lessons:
     - entry
   - id: v5-l3-19
     type: fill_blank
-    sentence: Turn off your ___ before the flight.
-    translation: כבו את המכשיר לפני הטיסה.
+    sentence: They installed a security ___ at the door.
+    translation: הם התקינו מכשיר אבטחה בדלת.
     answers:
     - device
     options:
@@ -924,8 +976,8 @@ lessons:
     - device
   - id: v5-l3-20
     type: fill_blank
-    sentence: We watched a ___ about two families.
-    translation: צפינו בדרמה על שתי משפחות.
+    sentence: There was some ___ when a pipe burst.
+    translation: הייתה קצת דרמה כשצינור התפוצץ.
     answers:
     - drama
     options:
@@ -936,8 +988,8 @@ lessons:
     - drama
   - id: v5-l3-21
     type: fill_blank
-    sentence: ___ to the museum is free today.
-    translation: הכניסה למוזיאון חינם היום.
+    sentence: The ___ is through a small garden.
+    translation: הכניסה היא דרך גינה קטנה.
     answers:
     - Entry
     options:
@@ -948,8 +1000,8 @@ lessons:
     - entry
   - id: v5-l3-22
     type: fill_blank
-    sentence: It was the ___ of big changes.
-    translation: זה היה עידן של שינויים גדולים.
+    sentence: The building is from the Ottoman ___.
+    translation: הבניין מהתקופה העות׳מאנית.
     answers:
     - era
     options:
@@ -960,8 +1012,8 @@ lessons:
     - era
   - id: v5-l3-23
     type: fill_blank
-    sentence: Price is an important ___.
-    translation: המחיר הוא גורם חשוב.
+    sentence: Cost is an important ___ in every decision.
+    translation: עלות היא שיקול חשוב בכל החלטה.
     answers:
     - factor
     options:
@@ -972,8 +1024,8 @@ lessons:
     - factor
   - id: v5-l3-24
     type: fill_blank
-    sentence: The school received a ___ for books.
-    translation: בית הספר קיבל מענק לספרים.
+    sentence: The city gave them a ___ for the renovation.
+    translation: העירייה נתנה להם מענק לשיפוץ.
     answers:
     - grant
     options:
@@ -984,8 +1036,8 @@ lessons:
     - grant
   - id: v5-l3-25
     type: fill_blank
-    sentence: The children are playing in the ___.
-    translation: הילדים משחקים בבריכה.
+    sentence: They have a ___ of good workers to choose from.
+    translation: יש להם מאגר של עובדים טובים לבחור מתוכו.
     answers:
     - pool
     options:
@@ -996,20 +1048,37 @@ lessons:
     - pool
   - id: v5-l3-26
     type: dictation
-    text: The school received a grant for books.
+    text: The city gave them a grant for the renovation.
     lexemes:
     - grant
   - id: v5-l3-27
     type: dictation
-    text: The children are playing in the pool.
+    text: They have a pool of good workers to choose from.
     lexemes:
     - pool
 - id: v5-l4
   kind: new
   title:
-    he: מילים חדשות 4
-    en: New words 4
+    he: תוכנית
+    en: The plan
   exercises:
+  - id: v5-l4-d1
+    type: dialogue
+    scene: ישיבת תכנון במשרד שעוד בשיפוץ.
+    lines:
+    - speaker: david
+      text: The finance team wants a clear route to profit.
+      translation: צוות הכספים רוצה דרך ברורה לרווח.
+    - speaker: noa
+      text: Specifically, they want numbers. Numerous numbers.
+      translation: ליתר דיוק, הם רוצים מספרים. מספרים רבים.
+    - speaker: tamar
+      text: And who will maintain the building after a winter storm?
+      translation: ומי יתחזק את הבניין אחרי סערת חורף?
+    - speaker: noa
+      text: We'll find someone. And everyone here is an equal partner in this plan.
+      translation: נמצא מישהו. וכל אחד כאן הוא שותף שווה בתוכנית הזאת.
+    lexemes: []
   - id: v5-l4-01
     type: learn
     lexeme: route
@@ -1150,8 +1219,8 @@ lessons:
     - finance
   - id: v5-l4-19
     type: fill_blank
-    sentence: The workers went on ___.
-    translation: העובדים יצאו לשביתה.
+    sentence: A ___ at the port delayed the furniture.
+    translation: שביתה בנמל עיכבה את הרהיטים.
     answers:
     - strike
     options:
@@ -1162,8 +1231,8 @@ lessons:
     - strike
   - id: v5-l4-20
     type: fill_blank
-    sentence: All people are ___.
-    translation: כל בני האדם שווים.
+    sentence: Everyone has an ___ voice in the team.
+    translation: לכולם יש קול שווה בצוות.
     answers:
     - equal
     options:
@@ -1174,8 +1243,8 @@ lessons:
     - equal
   - id: v5-l4-21
     type: fill_blank
-    sentence: She works in ___.
-    translation: היא עובדת בתחום הכספים.
+    sentence: Tamar is responsible for ___.
+    translation: תמר אחראית על הכספים.
     answers:
     - finance
     options:
@@ -1186,8 +1255,8 @@ lessons:
     - finance
   - id: v5-l4-22
     type: fill_blank
-    sentence: Please show your ___ card.
-    translation: אנא הציגו תעודת זהות.
+    sentence: The office needs its own ___.
+    translation: המשרד צריך זהות משלו.
     answers:
     - identity
     options:
@@ -1198,8 +1267,8 @@ lessons:
     - identity
   - id: v5-l4-23
     type: fill_blank
-    sentence: It is important to ___ a healthy life.
-    translation: חשוב לשמור על אורח חיים בריא.
+    sentence: It is expensive to ___ an old building.
+    translation: יקר לתחזק בניין ישן.
     answers:
     - maintain
     options:
@@ -1210,8 +1279,8 @@ lessons:
     - maintain
   - id: v5-l4-24
     type: fill_blank
-    sentence: There are ___ reasons.
-    translation: יש סיבות רבות.
+    sentence: They had ___ meetings with the city.
+    translation: היו להם פגישות רבות עם העירייה.
     answers:
     - numerous
     options:
@@ -1222,8 +1291,8 @@ lessons:
     - numerous
   - id: v5-l4-25
     type: fill_blank
-    sentence: I asked ___ for a window seat.
-    translation: ביקשתי במיוחד מושב ליד החלון.
+    sentence: Noa asked ___ for a room with a window.
+    translation: נועה ביקשה במיוחד חדר עם חלון.
     answers:
     - specifically
     options:
@@ -1234,11 +1303,11 @@ lessons:
     - specifically
   - id: v5-l4-26
     type: dictation
-    text: There are numerous reasons.
+    text: They had numerous meetings with the city.
     lexemes:
     - numerous
   - id: v5-l4-27
     type: dictation
-    text: I asked specifically for a window seat.
+    text: Noa asked specifically for a room with a window.
     lexemes:
     - specifically

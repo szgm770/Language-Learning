@@ -1,301 +1,319 @@
 id: v6-words
 cefr: C1
-scene: study
+scene: work
 title:
-  he: הרחבת אוצר מילים 6
-  en: Word builder 6
-story: עוד מילים חשובות בשימוש יומיומי, מקובצות בשיעורים קצרים. כל מילה מופיעה במשפט, ואחר כך מתרגלים אותה.
+  he: פותחים את הדלת
+  en: Opening the door
+story: 'לפני הפתיחה: ויכוחים על גיוס עובדים, בירוקרטיה מול משרד ממשלתי, ביקור של ראש העירייה, ובסוף טקס קביעת מזוזה. סבא שמעון מגיע עם הפתעה.'
 canDo:
-- להבין ולהשתמש במילים נפוצות נוספות
-- לזהות את המילים במשפטים אמיתיים
+- לנהל ויכוח ולהציג עמדה
+- לדבר על תקשורת, ממשלה ובירוקרטיה
+- לנאום בטקס ולהביע רגשות
 vocabulary:
 - id: argument
   text: argument
   translation: ויכוח, טיעון
   pos: noun
   example:
-    text: They had an argument about money.
-    translation: היה להם ויכוח על כסף.
+    text: David had a strong argument.
+    translation: לדוד היה טיעון חזק.
 - id: conflict
   text: conflict
   translation: סכסוך, התנגשות
   pos: noun
   example:
-    text: There was a conflict between the two teams.
-    translation: היה סכסוך בין שתי הקבוצות.
+    text: A good manager knows how to handle conflict.
+    translation: מנהלת טובה יודעת לטפל בסכסוך.
 - id: debate
   text: debate
   translation: דיון; לדון
   pos: noun
   example:
-    text: There was a long debate about the budget.
-    translation: היה דיון ארוך על התקציב.
+    text: The team had a long debate about salaries.
+    translation: לצוות היה דיון ארוך על משכורות.
 - id: documents
   text: documents
   translation: מסמכים
   pos: noun
   example:
-    text: Bring all the documents to the meeting.
-    translation: הביאו את כל המסמכים לפגישה.
+    text: Tamar signed all the documents.
+    translation: תמר חתמה על כל המסמכים.
 - id: escape
   text: escape
   translation: לברוח; מילוט
   pos: verb
   example:
-    text: The bird tried to escape from the cage.
-    translation: הציפור ניסתה לברוח מהכלוב.
+    text: There is no escape from paperwork.
+    translation: אין מנוס מניירת.
 - id: phase
   text: phase
   translation: שלב
   pos: noun
   example:
-    text: This is the last phase of the project.
-    translation: זה השלב האחרון של הפרויקט.
+    text: In the first phase they will hire two people.
+    translation: בשלב הראשון הם יגייסו שני אנשים.
 - id: requirements
   text: requirements
   translation: דרישות
   pos: noun
   example:
-    text: Check the requirements before you apply.
-    translation: בדקו את הדרישות לפני שאתם מגישים בקשה.
+    text: What are the requirements for the job?
+    translation: מהן הדרישות לתפקיד?
 - id: revenue
   text: revenue
   translation: הכנסות
   pos: noun
   example:
-    text: The company's revenue grew this year.
-    translation: הכנסות החברה גדלו השנה.
+    text: Revenue grew in the second month.
+    translation: ההכנסות גדלו בחודש השני.
 - id: secure
   text: secure
   translation: בטוח; להבטיח
   pos: adjective
   example:
-    text: Keep your password secure.
-    translation: שמרו על הסיסמה שלכם בטוחה.
+    text: They need to secure a big client.
+    translation: הם צריכים להבטיח לקוח גדול.
 - id: strange
   text: strange
   translation: מוזר
   pos: adjective
   example:
-    text: I heard a strange sound.
-    translation: שמעתי קול מוזר.
+    text: It was strange to work without Ben.
+    translation: היה מוזר לעבוד בלי בן.
 - id: talent
   text: talent
   translation: כישרון
   pos: noun
   example:
-    text: She has a talent for music.
-    translation: יש לה כישרון למוזיקה.
+    text: Tamar has a talent for finance.
+    translation: לתמר יש כישרון לכספים.
 - id: blame
   text: blame
   translation: להאשים; אשמה
   pos: verb
   example:
-    text: Don't blame me for the delay.
-    translation: אל תאשימו אותי בעיכוב.
+    text: Nobody is to blame for the delay.
+    translation: אף אחד לא אשם בעיכוב.
 - id: coverage
   text: coverage
   translation: סיקור, כיסוי
   pos: noun
   example:
-    text: The news gave full coverage of the event.
-    translation: החדשות סיקרו את האירוע במלואו.
+    text: The local news gave the opening some coverage.
+    translation: החדשות המקומיות סיקרו את הפתיחה.
 - id: display
   text: display
   translation: תצוגה; להציג
   pos: noun
   example:
-    text: The shop has a nice display in the window.
-    translation: בחנות יש תצוגה יפה בחלון.
+    text: The display showed their number in the queue.
+    translation: הצג הראה את המספר שלהם בתור.
 - id: incredible
   text: incredible
   translation: מדהים, לא ייאמן
   pos: adjective
   example:
-    text: The view was incredible.
-    translation: הנוף היה מדהים.
+    text: The view from the roof is incredible.
+    translation: הנוף מהגג מדהים.
 - id: inspired
   text: inspired
   translation: מתרגש, מקבל השראה
   pos: adjective
   example:
-    text: I felt inspired by her story.
-    translation: קיבלתי השראה מהסיפור שלה.
+    text: The old building inspired the whole team.
+    translation: הבניין הישן נתן השראה לכל הצוות.
 - id: ministry
   text: ministry
   translation: משרד ממשלתי
   pos: noun
   example:
-    text: She works at the Ministry of Education.
-    translation: היא עובדת במשרד החינוך.
+    text: They needed a permit from the ministry.
+    translation: הם היו צריכים אישור מהמשרד הממשלתי.
 - id: mode
   text: mode
   translation: מצב, אופן
   pos: noun
   example:
-    text: Put your phone in silent mode.
-    translation: העבירו את הטלפון למצב שקט.
+    text: Noa switched her phone to silent mode.
+    translation: נועה העבירה את הטלפון למצב שקט.
 - id: obvious
   text: obvious
   translation: ברור
   pos: adjective
   example:
-    text: The answer is obvious.
-    translation: התשובה ברורה.
+    text: The answer was obvious to everyone.
+    translation: התשובה הייתה ברורה לכולם.
 - id: remaining
   text: remaining
   translation: שנותר
   pos: adjective
   example:
-    text: The remaining tickets are on sale.
-    translation: הכרטיסים שנותרו למכירה.
+    text: They used the remaining time to plan.
+    translation: הם ניצלו את הזמן שנותר לתכנון.
 - id: vision
   text: vision
   translation: חזון, ראייה
   pos: noun
   example:
-    text: He has a clear vision for the company.
-    translation: יש לו חזון ברור לחברה.
+    text: Noa explained her vision for the office.
+    translation: נועה הסבירה את החזון שלה למשרד.
 - id: crisis
   text: crisis
   translation: משבר
   pos: noun
   example:
-    text: The company is facing a crisis.
-    translation: החברה ניצבת מול משבר.
+    text: The team stayed calm during the crisis.
+    translation: הצוות נשאר רגוע בזמן המשבר.
 - id: literature
   text: literature
   translation: ספרות
   pos: noun
   example:
-    text: She studies English literature.
-    translation: היא לומדת ספרות אנגלית.
+    text: The mayor loves Hebrew literature.
+    translation: ראש העירייה אוהב ספרות עברית.
 - id: mayor
   text: mayor
   translation: ראש עירייה
   pos: noun
   example:
-    text: The mayor opened the new school.
-    translation: ראש העירייה פתח את בית הספר החדש.
+    text: The mayor visited the new office.
+    translation: ראש העירייה ביקר במשרד החדש.
 - id: theme
   text: theme
   translation: נושא, רעיון מרכזי
   pos: noun
   example:
-    text: The theme of the party is the sea.
-    translation: נושא המסיבה הוא הים.
+    text: The theme of the evening was old and new.
+    translation: הנושא של הערב היה ישן וחדש.
 - id: tiny
   text: tiny
   translation: זעיר
   pos: adjective
   example:
-    text: The baby has tiny hands.
-    translation: לתינוק יש ידיים זעירות.
+    text: Noa's office is tiny but bright.
+    translation: המשרד של נועה זעיר אבל מואר.
 - id: typically
   text: typically
   translation: בדרך כלל
   pos: adverb
   example:
-    text: Typically, we start at nine.
-    translation: בדרך כלל אנחנו מתחילים בתשע.
+    text: The team typically meets on Sunday morning.
+    translation: הצוות בדרך כלל נפגש ביום ראשון בבוקר.
 - id: capable
   text: capable
   translation: מסוגל
   pos: adjective
   example:
-    text: She is capable of great things.
-    translation: היא מסוגלת לדברים גדולים.
+    text: Noa is capable of leading a large team.
+    translation: נועה מסוגלת להוביל צוות גדול.
 - id: desire
   text: desire
   translation: רצון, תשוקה
   pos: noun
   example:
-    text: He has a strong desire to learn.
-    translation: יש לו רצון חזק ללמוד.
+    text: She has a strong desire to succeed.
+    translation: יש לה רצון חזק להצליח.
 - id: familiar
   text: familiar
   translation: מוכר
   pos: adjective
   example:
-    text: Your face looks familiar.
-    translation: הפנים שלך נראות מוכרות.
+    text: Mr. Cohen's voice sounded familiar.
+    translation: הקול של מר כהן נשמע מוכר.
 - id: relevant
   text: relevant
   translation: רלוונטי
   pos: adjective
   example:
-    text: Is this information relevant?
-    translation: האם המידע הזה רלוונטי?
+    text: Mr. Cohen asked only relevant questions.
+    translation: מר כהן שאל רק שאלות רלוונטיות.
 - id: seek
   text: seek
   translation: לחפש, לבקש
   pos: verb
   example:
-    text: Seek help if you need it.
-    translation: בקשו עזרה אם אתם צריכים.
+    text: They seek people who love to learn.
+    translation: הם מחפשים אנשים שאוהבים ללמוד.
 - id: unable
   text: unable
   translation: לא מסוגל
   pos: adjective
   example:
-    text: I am unable to attend the meeting.
-    translation: אני לא יכול להגיע לפגישה.
+    text: Noa was unable to hold back her tears.
+    translation: נועה לא הצליחה לעצור את הדמעות.
 - id: upset
   text: upset
   translation: נסער, מוטרד
   pos: adjective
   example:
-    text: She was upset about the news.
-    translation: היא הייתה נסערת מהחדשות.
+    text: Rachel was not upset; she was moved.
+    translation: רחל לא הייתה נסערת; היא הייתה נרגשת.
 - id: creative
   text: creative
   translation: יצירתי
   pos: adjective
   example:
-    text: He is a very creative child.
-    translation: הוא ילד יצירתי מאוד.
+    text: Tamar has a creative idea for the opening.
+    translation: לתמר יש רעיון יצירתי לפתיחה.
 - id: extreme
   text: extreme
   translation: קיצוני
   pos: adjective
   example:
-    text: The weather was extreme this week.
-    translation: מזג האוויר היה קיצוני השבוע.
+    text: The heat in August can be extreme.
+    translation: החום באוגוסט יכול להיות קיצוני.
 - id: threat
   text: threat
   translation: איום
   pos: noun
   example:
-    text: Pollution is a threat to the sea.
-    translation: זיהום הוא איום על הים.
+    text: The storm was a threat to the old roof.
+    translation: הסערה הייתה איום על הגג הישן.
 - id: empty
   text: empty
   translation: ריק
   pos: adjective
   example:
-    text: The fridge is empty.
-    translation: המקרר ריק.
+    text: Without people, the office felt empty.
+    translation: בלי אנשים, המשרד הרגיש ריק.
 - id: instance
   text: instance
   translation: מקרה, דוגמה
   pos: noun
   example:
-    text: For instance, you can call me.
-    translation: למשל, אפשר להתקשר אליי.
+    text: For instance, every door has a mezuzah.
+    translation: לדוגמה, על כל דלת יש מזוזה.
 - id: reasonable
   text: reasonable
   translation: סביר, הגיוני
   pos: adjective
   example:
-    text: The price is reasonable.
-    translation: המחיר סביר.
+    text: The rent is reasonable for Jaffa.
+    translation: השכירות סבירה ליפו.
 lessons:
 - id: v6-l1
   kind: new
   title:
-    he: מילים חדשות 1
-    en: New words 1
+    he: ויכוח
+    en: An argument
   exercises:
+  - id: v6-l1-d1
+    type: dialogue
+    scene: ישיבת גיוס עובדים. דוד ותמר לא מסכימים.
+    lines:
+    - speaker: david
+      text: 'My argument is simple: we need two developers in the first phase.'
+      translation: 'הטיעון שלי פשוט: אנחנו צריכים שני מפתחים בשלב הראשון.'
+    - speaker: tamar
+      text: And the revenue? We can't secure two salaries yet.
+      translation: והכנסות? אנחנו עוד לא יכולים להבטיח שתי משכורות.
+    - speaker: noa
+      text: This isn't a conflict. It's a healthy debate. Let's look at the requirements.
+      translation: זה לא סכסוך. זה דיון בריא. בואו נסתכל על הדרישות.
+    - speaker: david
+      text: Strange. Every time we argue, we end up agreeing.
+      translation: מוזר. כל פעם שאנחנו מתווכחים, בסוף אנחנו מסכימים.
+    lexemes: []
   - id: v6-l1-01
     type: learn
     lexeme: argument
@@ -436,8 +454,8 @@ lessons:
     - phase
   - id: v6-l1-19
     type: fill_blank
-    sentence: Bring all the ___ to the meeting.
-    translation: הביאו את כל המסמכים לפגישה.
+    sentence: Tamar signed all the ___.
+    translation: תמר חתמה על כל המסמכים.
     answers:
     - documents
     options:
@@ -448,8 +466,8 @@ lessons:
     - documents
   - id: v6-l1-20
     type: fill_blank
-    sentence: The bird tried to ___ from the cage.
-    translation: הציפור ניסתה לברוח מהכלוב.
+    sentence: There is no ___ from paperwork.
+    translation: אין מנוס מניירת.
     answers:
     - escape
     options:
@@ -460,8 +478,8 @@ lessons:
     - escape
   - id: v6-l1-21
     type: fill_blank
-    sentence: This is the last ___ of the project.
-    translation: זה השלב האחרון של הפרויקט.
+    sentence: In the first ___ they will hire two people.
+    translation: בשלב הראשון הם יגייסו שני אנשים.
     answers:
     - phase
     options:
@@ -472,8 +490,8 @@ lessons:
     - phase
   - id: v6-l1-22
     type: fill_blank
-    sentence: Check the ___ before you apply.
-    translation: בדקו את הדרישות לפני שאתם מגישים בקשה.
+    sentence: What are the ___ for the job?
+    translation: מהן הדרישות לתפקיד?
     answers:
     - requirements
     options:
@@ -484,8 +502,8 @@ lessons:
     - requirements
   - id: v6-l1-23
     type: fill_blank
-    sentence: The company's ___ grew this year.
-    translation: הכנסות החברה גדלו השנה.
+    sentence: ___ grew in the second month.
+    translation: ההכנסות גדלו בחודש השני.
     answers:
     - revenue
     options:
@@ -496,8 +514,8 @@ lessons:
     - revenue
   - id: v6-l1-24
     type: fill_blank
-    sentence: Keep your password ___.
-    translation: שמרו על הסיסמה שלכם בטוחה.
+    sentence: They need to ___ a big client.
+    translation: הם צריכים להבטיח לקוח גדול.
     answers:
     - secure
     options:
@@ -508,8 +526,8 @@ lessons:
     - secure
   - id: v6-l1-25
     type: fill_blank
-    sentence: I heard a ___ sound.
-    translation: שמעתי קול מוזר.
+    sentence: It was ___ to work without Ben.
+    translation: היה מוזר לעבוד בלי בן.
     answers:
     - strange
     options:
@@ -520,20 +538,37 @@ lessons:
     - strange
   - id: v6-l1-26
     type: dictation
-    text: Keep your password secure.
+    text: They need to secure a big client.
     lexemes:
     - secure
   - id: v6-l1-27
     type: dictation
-    text: I heard a strange sound.
+    text: It was strange to work without Ben.
     lexemes:
     - strange
 - id: v6-l2
   kind: new
   title:
-    he: מילים חדשות 2
-    en: New words 2
+    he: במשרד הממשלתי
+    en: At the ministry
   exercises:
+  - id: v6-l2-d1
+    type: dialogue
+    scene: משרד ממשלתי בירושלים. נועה ותמר מחכות בתור.
+    lines:
+    - speaker: tamar
+      text: The ministry needs one more form. Obviously.
+      translation: המשרד צריך עוד טופס אחד. ברור.
+    - speaker: noa
+      text: It's obvious they don't blame us. It's just the system.
+      translation: ברור שהם לא מאשימים אותנו. זו פשוט המערכת.
+    - speaker: tamar
+      text: 'Look at the display: the remaining time is forty minutes.'
+      translation: 'תראי את הצג: הזמן שנותר הוא ארבעים דקות.'
+    - speaker: noa
+      text: Then let's work. Laptops in office mode!
+      translation: אז בואי נעבוד. מחשבים במצב משרד!
+    lexemes: []
   - id: v6-l2-01
     type: learn
     lexeme: talent
@@ -674,8 +709,8 @@ lessons:
     - inspired
   - id: v6-l2-19
     type: fill_blank
-    sentence: The shop has a nice ___ in the window.
-    translation: בחנות יש תצוגה יפה בחלון.
+    sentence: The ___ showed their number in the queue.
+    translation: הצג הראה את המספר שלהם בתור.
     answers:
     - display
     options:
@@ -686,8 +721,8 @@ lessons:
     - display
   - id: v6-l2-20
     type: fill_blank
-    sentence: The view was ___.
-    translation: הנוף היה מדהים.
+    sentence: The view from the roof is ___.
+    translation: הנוף מהגג מדהים.
     answers:
     - incredible
     options:
@@ -698,8 +733,8 @@ lessons:
     - incredible
   - id: v6-l2-21
     type: fill_blank
-    sentence: I felt ___ by her story.
-    translation: קיבלתי השראה מהסיפור שלה.
+    sentence: The old building ___ the whole team.
+    translation: הבניין הישן נתן השראה לכל הצוות.
     answers:
     - inspired
     options:
@@ -710,8 +745,8 @@ lessons:
     - inspired
   - id: v6-l2-22
     type: fill_blank
-    sentence: She works at the ___ of Education.
-    translation: היא עובדת במשרד החינוך.
+    sentence: They needed a permit from the ___.
+    translation: הם היו צריכים אישור מהמשרד הממשלתי.
     answers:
     - Ministry
     options:
@@ -722,8 +757,8 @@ lessons:
     - ministry
   - id: v6-l2-23
     type: fill_blank
-    sentence: Put your phone in silent ___.
-    translation: העבירו את הטלפון למצב שקט.
+    sentence: Noa switched her phone to silent ___.
+    translation: נועה העבירה את הטלפון למצב שקט.
     answers:
     - mode
     options:
@@ -734,8 +769,8 @@ lessons:
     - mode
   - id: v6-l2-24
     type: fill_blank
-    sentence: The answer is ___.
-    translation: התשובה ברורה.
+    sentence: The answer was ___ to everyone.
+    translation: התשובה הייתה ברורה לכולם.
     answers:
     - obvious
     options:
@@ -746,8 +781,8 @@ lessons:
     - obvious
   - id: v6-l2-25
     type: fill_blank
-    sentence: The ___ tickets are on sale.
-    translation: הכרטיסים שנותרו למכירה.
+    sentence: They used the ___ time to plan.
+    translation: הם ניצלו את הזמן שנותר לתכנון.
     answers:
     - remaining
     options:
@@ -758,20 +793,37 @@ lessons:
     - remaining
   - id: v6-l2-26
     type: dictation
-    text: The answer is obvious.
+    text: The answer was obvious to everyone.
     lexemes:
     - obvious
   - id: v6-l2-27
     type: dictation
-    text: The remaining tickets are on sale.
+    text: They used the remaining time to plan.
     lexemes:
     - remaining
 - id: v6-l3
   kind: new
   title:
-    he: מילים חדשות 3
-    en: New words 3
+    he: ראש העירייה
+    en: The mayor
   exercises:
+  - id: v6-l3-d1
+    type: dialogue
+    scene: ראש העירייה מגיע לסיור בבניין המשופץ.
+    lines:
+    - speaker: cohen
+      text: The mayor typically visits new businesses in Jaffa.
+      translation: ראש העירייה בדרך כלל מבקר בעסקים חדשים ביפו.
+    - speaker: noa
+      text: Welcome! Our vision is an office that is part of the neighbourhood.
+      translation: ברוכים הבאים! החזון שלנו הוא משרד שהוא חלק מהשכונה.
+    - speaker: cohen
+      text: Even in a crisis, Noa is capable of anything. I've seen it.
+      translation: גם במשבר, נועה מסוגלת לכל דבר. ראיתי את זה.
+    - speaker: noa
+      text: Mr. Cohen, you came all the way from London! It's so familiar to see you.
+      translation: מר כהן, באת עד מלונדון! כל כך מוכר לראות אותך.
+    lexemes: []
   - id: v6-l3-01
     type: learn
     lexeme: vision
@@ -912,8 +964,8 @@ lessons:
     - tiny
   - id: v6-l3-19
     type: fill_blank
-    sentence: The ___ opened the new school.
-    translation: ראש העירייה פתח את בית הספר החדש.
+    sentence: The ___ visited the new office.
+    translation: ראש העירייה ביקר במשרד החדש.
     answers:
     - mayor
     options:
@@ -924,8 +976,8 @@ lessons:
     - mayor
   - id: v6-l3-20
     type: fill_blank
-    sentence: The ___ of the party is the sea.
-    translation: נושא המסיבה הוא הים.
+    sentence: The ___ of the evening was old and new.
+    translation: הנושא של הערב היה ישן וחדש.
     answers:
     - theme
     options:
@@ -936,8 +988,8 @@ lessons:
     - theme
   - id: v6-l3-21
     type: fill_blank
-    sentence: The baby has ___ hands.
-    translation: לתינוק יש ידיים זעירות.
+    sentence: Noa's office is ___ but bright.
+    translation: המשרד של נועה זעיר אבל מואר.
     answers:
     - tiny
     options:
@@ -948,8 +1000,8 @@ lessons:
     - tiny
   - id: v6-l3-22
     type: fill_blank
-    sentence: ___, we start at nine.
-    translation: בדרך כלל אנחנו מתחילים בתשע.
+    sentence: The team ___ meets on Sunday morning.
+    translation: הצוות בדרך כלל נפגש ביום ראשון בבוקר.
     answers:
     - Typically
     options:
@@ -960,8 +1012,8 @@ lessons:
     - typically
   - id: v6-l3-23
     type: fill_blank
-    sentence: She is ___ of great things.
-    translation: היא מסוגלת לדברים גדולים.
+    sentence: Noa is ___ of leading a large team.
+    translation: נועה מסוגלת להוביל צוות גדול.
     answers:
     - capable
     options:
@@ -972,8 +1024,8 @@ lessons:
     - capable
   - id: v6-l3-24
     type: fill_blank
-    sentence: He has a strong ___ to learn.
-    translation: יש לו רצון חזק ללמוד.
+    sentence: She has a strong ___ to succeed.
+    translation: יש לה רצון חזק להצליח.
     answers:
     - desire
     options:
@@ -984,8 +1036,8 @@ lessons:
     - desire
   - id: v6-l3-25
     type: fill_blank
-    sentence: Your face looks ___.
-    translation: הפנים שלך נראות מוכרות.
+    sentence: Mr. Cohen's voice sounded ___.
+    translation: הקול של מר כהן נשמע מוכר.
     answers:
     - familiar
     options:
@@ -996,20 +1048,37 @@ lessons:
     - familiar
   - id: v6-l3-26
     type: dictation
-    text: He has a strong desire to learn.
+    text: She has a strong desire to succeed.
     lexemes:
     - desire
   - id: v6-l3-27
     type: dictation
-    text: Your face looks familiar.
+    text: Mr. Cohen's voice sounded familiar.
     lexemes:
     - familiar
 - id: v6-l4
   kind: new
   title:
-    he: מילים חדשות 4
-    en: New words 4
+    he: מזוזה
+    en: The mezuzah
   exercises:
+  - id: v6-l4-d1
+    type: dialogue
+    scene: טקס קביעת מזוזה. כל הצוות, רחל, וסבא שמעון.
+    lines:
+    - speaker: saba
+      text: I brought this mezuzah from the farm in Kent. Miriam asked me to give it to you.
+      translation: הבאתי את המזוזה הזאת מהחווה בקנט. מרים ביקשה שאתן לך אותה.
+    - speaker: noa
+      text: Grandpa, I'm unable to speak. That's the most creative gift in the world.
+      translation: סבא, אני לא מסוגלת לדבר. זו המתנה הכי מקורית בעולם.
+    - speaker: rachel
+      text: Don't be upset, it's tears of joy. A reasonable amount of tears.
+      translation: אל תתרגשי, אלה דמעות שמחה. כמות סבירה של דמעות.
+    - speaker: saba
+      text: An empty office is just walls. With a mezuzah, it's a home.
+      translation: משרד ריק הוא רק קירות. עם מזוזה, הוא בית.
+    lexemes: []
   - id: v6-l4-01
     type: learn
     lexeme: relevant
@@ -1150,8 +1219,8 @@ lessons:
     - extreme
   - id: v6-l4-19
     type: fill_blank
-    sentence: She was ___ about the news.
-    translation: היא הייתה נסערת מהחדשות.
+    sentence: Rachel was not ___; she was moved.
+    translation: רחל לא הייתה נסערת; היא הייתה נרגשת.
     answers:
     - upset
     options:
@@ -1162,8 +1231,8 @@ lessons:
     - upset
   - id: v6-l4-20
     type: fill_blank
-    sentence: He is a very ___ child.
-    translation: הוא ילד יצירתי מאוד.
+    sentence: Tamar has a ___ idea for the opening.
+    translation: לתמר יש רעיון יצירתי לפתיחה.
     answers:
     - creative
     options:
@@ -1174,8 +1243,8 @@ lessons:
     - creative
   - id: v6-l4-21
     type: fill_blank
-    sentence: The weather was ___ this week.
-    translation: מזג האוויר היה קיצוני השבוע.
+    sentence: The heat in August can be ___.
+    translation: החום באוגוסט יכול להיות קיצוני.
     answers:
     - extreme
     options:
@@ -1186,8 +1255,8 @@ lessons:
     - extreme
   - id: v6-l4-22
     type: fill_blank
-    sentence: Pollution is a ___ to the sea.
-    translation: זיהום הוא איום על הים.
+    sentence: The storm was a ___ to the old roof.
+    translation: הסערה הייתה איום על הגג הישן.
     answers:
     - threat
     options:
@@ -1198,8 +1267,8 @@ lessons:
     - threat
   - id: v6-l4-23
     type: fill_blank
-    sentence: The fridge is ___.
-    translation: המקרר ריק.
+    sentence: Without people, the office felt ___.
+    translation: בלי אנשים, המשרד הרגיש ריק.
     answers:
     - empty
     options:
@@ -1210,8 +1279,8 @@ lessons:
     - empty
   - id: v6-l4-24
     type: fill_blank
-    sentence: For ___, you can call me.
-    translation: למשל, אפשר להתקשר אליי.
+    sentence: For ___, every door has a mezuzah.
+    translation: לדוגמה, על כל דלת יש מזוזה.
     answers:
     - instance
     options:
@@ -1222,8 +1291,8 @@ lessons:
     - instance
   - id: v6-l4-25
     type: fill_blank
-    sentence: The price is ___.
-    translation: המחיר סביר.
+    sentence: The rent is ___ for Jaffa.
+    translation: השכירות סבירה ליפו.
     answers:
     - reasonable
     options:
@@ -1234,11 +1303,11 @@ lessons:
     - reasonable
   - id: v6-l4-26
     type: dictation
-    text: For instance, you can call me.
+    text: For instance, every door has a mezuzah.
     lexemes:
     - instance
   - id: v6-l4-27
     type: dictation
-    text: The price is reasonable.
+    text: The rent is reasonable for Jaffa.
     lexemes:
     - reasonable

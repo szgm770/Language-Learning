@@ -19,6 +19,7 @@ characters:
   - { id: "david", name: "David", he: "דוד", color: "teal", look: "short", pitch: 0.9 }
   - { id: "tamar", name: "Tamar", he: "תמר", color: "green", look: "curly", pitch: 1.2 }
   - { id: "sato", name: "Mr. Sato", he: "מר סאטו", color: "blue", look: "short", pitch: 0.85 }
+  - { id: "saba", name: "Grandpa Shimon", he: "סבא שמעון", color: "amber", look: "bald", pitch: 0.75 }
   - { id: "dr-stern", name: "Dr. Stern", he: "ד\"ר שטרן", color: "violet", look: "bald", pitch: 0.8 }
 units:
   - u00a-letters

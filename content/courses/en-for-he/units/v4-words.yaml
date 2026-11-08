@@ -1,13 +1,14 @@
 id: v4-words
 cefr: B2
-scene: study
+scene: nature
 title:
-  he: הרחבת אוצר מילים 4
-  en: Word builder 4
-story: עוד מילים חשובות בשימוש יומיומי, מקובצות בשיעורים קצרים. כל מילה מופיעה במשפט, ואחר כך מתרגלים אותה.
+  he: החווה בקנט
+  en: The farm in Kent
+story: נועה, בן וסבא שמעון נוסעים לקנט ומוצאים את משפחת לוי. הנכדה של מר לוי מגלה מה היה בספר שסבא שמר, ושני הסבים לומדים יחד, כמו פעם.
 canDo:
-- להבין ולהשתמש במילים נפוצות נוספות
-- לזהות את המילים במשפטים אמיתיים
+- לדבר על טיול, דרכים ותוכניות
+- לספר על פגישה מרגשת
+- לדבר על לימוד, הוראה וחובות
 vocabulary:
 - id: appreciate
   text: appreciate
@@ -21,253 +22,270 @@ vocabulary:
   translation: יבש; לייבש
   pos: adjective
   example:
-    text: The clothes are dry now.
-    translation: הבגדים יבשים עכשיו.
+    text: The path was dry after a week without rain.
+    translation: השביל היה יבש אחרי שבוע בלי גשם.
 - id: edge
   text: edge
   translation: קצה
   pos: noun
   example:
-    text: Do not stand at the edge of the road.
-    translation: אל תעמדו בקצה הכביש.
+    text: The farm is at the edge of the village.
+    translation: החווה בקצה הכפר.
 - id: forever
   text: forever
   translation: לנצח
   pos: adverb
   example:
-    text: I will remember this day forever.
-    translation: אזכור את היום הזה לנצח.
+    text: Grandpa kept the book as if forever.
+    translation: סבא שמר את הספר כאילו לנצח.
 - id: injury
   text: injury
   translation: פציעה
   pos: noun
   example:
-    text: He had a knee injury last year.
-    translation: הייתה לו פציעה בברך בשנה שעברה.
+    text: Grandpa has an old knee injury.
+    translation: לסבא יש פציעה ישנה בברך.
 - id: iron
   text: iron
   translation: ברזל; לגהץ
   pos: noun
   example:
-    text: The gate is made of iron.
-    translation: השער עשוי ברזל.
+    text: The farm has a heavy iron gate.
+    translation: לחווה יש שער ברזל כבד.
 - id: magazine
   text: magazine
   translation: מגזין
   pos: noun
   example:
-    text: I read a magazine on the train.
-    translation: קראתי מגזין ברכבת.
+    text: Noa read a travel magazine on the train.
+    translation: נועה קראה מגזין טיולים ברכבת.
 - id: somewhere
   text: somewhere
   translation: איפשהו
   pos: adverb
   example:
-    text: I left my keys somewhere in the house.
-    translation: השארתי את המפתחות איפשהו בבית.
+    text: The family must be somewhere near here.
+    translation: המשפחה צריכה להיות איפשהו כאן בסביבה.
 - id: strategy
   text: strategy
   translation: אסטרטגיה
   pos: noun
   example:
-    text: We need a new strategy.
-    translation: אנחנו צריכים אסטרטגיה חדשה.
+    text: Ben's strategy worked.
+    translation: האסטרטגיה של בן עבדה.
 - id: exist
   text: exist
   translation: להתקיים, להיות קיים
   pos: verb
   example:
-    text: Dinosaurs no longer exist.
-    translation: דינוזאורים כבר לא קיימים.
+    text: Does the old bakery still exist?
+    translation: המאפייה הישנה עדיין קיימת?
 - id: mountain
   text: mountain
   translation: הר
   pos: noun
   example:
-    text: We hiked up the mountain.
-    translation: טיילנו במעלה ההר.
+    text: Grandpa felt like he had climbed a mountain.
+    translation: סבא הרגיש כאילו טיפס על הר.
 - id: taste
   text: taste
   translation: טעם; לטעום
   pos: noun
   example:
-    text: I like the taste of lemon.
-    translation: אני אוהב את הטעם של לימון.
+    text: The cake had the taste of Mr. Levy's bakery.
+    translation: לעוגה היה הטעם של המאפייה של מר לוי.
 - id: victory
   text: victory
   translation: ניצחון
   pos: noun
   example:
-    text: The team celebrated its victory.
-    translation: הקבוצה חגגה את הניצחון שלה.
+    text: Finding the family was a small victory.
+    translation: למצוא את המשפחה היה ניצחון קטן.
 - id: assistant
   text: assistant
   translation: עוזר, עוזרת
   pos: noun
   example:
-    text: She is my personal assistant.
-    translation: היא העוזרת האישית שלי.
+    text: Miriam's assistant made tea for everyone.
+    translation: העוזרת של מרים הכינה תה לכולם.
 - id: clothes
   text: clothes
   translation: בגדים
   pos: noun
   example:
-    text: I need to buy new clothes.
-    translation: אני צריך לקנות בגדים חדשים.
+    text: Grandpa wore his best clothes.
+    translation: סבא לבש את הבגדים הכי טובים שלו.
 - id: electric
   text: electric
   translation: חשמלי
   pos: adjective
   example:
-    text: He drives an electric car.
-    translation: הוא נוהג במכונית חשמלית.
+    text: The farm has an old electric oven.
+    translation: בחווה יש תנור חשמלי ישן.
 - id: emergency
   text: emergency
   translation: מצב חירום
   pos: noun
   example:
-    text: Call this number in an emergency.
-    translation: התקשרו למספר הזה במקרה חירום.
+    text: Keep this number for an emergency.
+    translation: שמרו את המספר הזה למקרה חירום.
 - id: entirely
   text: entirely
   translation: לגמרי
   pos: adverb
   example:
-    text: I entirely agree with you.
-    translation: אני מסכים איתך לגמרי.
+    text: The meeting was entirely unexpected.
+    translation: הפגישה הייתה בלתי צפויה לחלוטין.
 - id: festival
   text: festival
   translation: פסטיבל, חג
   pos: noun
   example:
-    text: The town has a music festival every summer.
-    translation: בעיר יש פסטיבל מוזיקה בכל קיץ.
+    text: The family meets here for the festival of Sukkot.
+    translation: המשפחה נפגשת כאן לחג הסוכות.
 - id: massive
   text: massive
   translation: עצום
   pos: adjective
   example:
-    text: They built a massive bridge.
-    translation: הם בנו גשר עצום.
+    text: There is a massive oak tree near the house.
+    translation: יש עץ אלון ענק ליד הבית.
 - id: plenty
   text: plenty
   translation: הרבה, מספיק
   pos: noun
   example:
-    text: There is plenty of time.
-    translation: יש מספיק זמן.
+    text: There is plenty of cake for everyone.
+    translation: יש הרבה עוגה לכולם.
 - id: proper
   text: proper
   translation: ראוי, מתאים
   pos: adjective
   example:
-    text: You need proper shoes for hiking.
-    translation: צריך נעליים מתאימות לטיולים.
+    text: They sat down for a proper lesson.
+    translation: הם התיישבו לשיעור כמו שצריך.
 - id: session
   text: session
   translation: מפגש, סבב
   pos: noun
   example:
-    text: The training session starts at nine.
-    translation: מפגש האימון מתחיל בתשע.
+    text: The learning session lasted two hours.
+    translation: השיעור נמשך שעתיים.
 - id: teaching
   text: teaching
   translation: הוראה
   pos: noun
   example:
-    text: She loves teaching children.
-    translation: היא אוהבת ללמד ילדים.
+    text: Mr. Levy loved teaching young people.
+    translation: מר לוי אהב ללמד צעירים.
 - id: transfer
   text: transfer
   translation: העברה; להעביר
   pos: noun
   example:
-    text: I made a bank transfer yesterday.
-    translation: ביצעתי העברה בנקאית אתמול.
+    text: Miriam wants to transfer the book to Grandpa.
+    translation: מרים רוצה להעביר את הספר לסבא.
 - id: zone
   text: zone
   translation: אזור
   pos: noun
   example:
-    text: This is a quiet zone.
-    translation: זה אזור שקט.
+    text: The farm is outside the London travel zone.
+    translation: החווה נמצאת מחוץ לאזור הנסיעה של לונדון.
 - id: advanced
   text: advanced
   translation: מתקדם
   pos: adjective
   example:
-    text: He is in the advanced class.
-    translation: הוא בכיתה המתקדמת.
+    text: Grandpa is learning an advanced text.
+    translation: סבא לומד טקסט מתקדם.
 - id: boat
   text: boat
   translation: סירה
   pos: noun
   example:
-    text: We crossed the lake by boat.
-    translation: חצינו את האגם בסירה.
+    text: Mr. Levy came to England by boat.
+    translation: מר לוי הגיע לאנגליה בסירה.
 - id: capacity
   text: capacity
   translation: קיבולת, יכולת
   pos: noun
   example:
-    text: The hall has a capacity of two hundred people.
-    translation: באולם יש מקום לכמאתיים איש.
+    text: The small room has a capacity of ten people.
+    translation: בחדר הקטן יש מקום לעשרה אנשים.
 - id: duty
   text: duty
   translation: חובה, תפקיד
   pos: noun
   example:
-    text: It is my duty to help.
-    translation: זו חובתי לעזור.
+    text: It is my duty to return the book.
+    translation: זו חובתי להחזיר את הספר.
 - id: mix
   text: mix
   translation: לערבב; תערובת
   pos: verb
   example:
-    text: Mix the flour and the eggs.
-    translation: ערבבו את הקמח והביצים.
+    text: The day was a mix of tears and laughter.
+    translation: היום היה שילוב של דמעות וצחוק.
 - id: purchase
   text: purchase
   translation: רכישה; לרכוש
   pos: noun
   example:
-    text: Keep the receipt of your purchase.
-    translation: שמרו את הקבלה של הרכישה.
+    text: The new suit was a good purchase.
+    translation: החליפה החדשה הייתה קנייה טובה.
 - id: remove
   text: remove
   translation: להסיר
   pos: verb
   example:
-    text: Please remove your shoes.
-    translation: אנא הסירו את הנעליים.
+    text: Please remove your bags from the seat.
+    translation: בבקשה הורידו את התיקים מהמושב.
 - id: steel
   text: steel
   translation: פלדה
   pos: noun
   example:
-    text: The table is made of steel.
-    translation: השולחן עשוי פלדה.
+    text: The old bridge is made of steel.
+    translation: הגשר הישן עשוי מפלדה.
 - id: suit
   text: suit
   translation: חליפה; להתאים
   pos: noun
   example:
-    text: He wore a dark suit to the interview.
-    translation: הוא לבש חליפה כהה לראיון.
+    text: Grandpa looked smart in his suit.
+    translation: סבא נראה אלגנטי בחליפה שלו.
 - id: mad
   text: mad
   translation: כועס, מטורף
   pos: adjective
   example:
-    text: She was mad about the delay.
-    translation: היא כעסה על העיכוב.
+    text: Noa thought her grandfather was mad to fly alone.
+    translation: נועה חשבה שסבא שלה משוגע לטוס לבד.
 lessons:
 - id: v4-l1
   kind: new
   title:
-    he: מילים חדשות 1
-    en: New words 1
+    he: בדרך
+    en: On the way
   exercises:
+  - id: v4-l1-d1
+    type: dialogue
+    scene: יום ראשון בבוקר. ברכבת לקנט.
+    lines:
+    - speaker: ben
+      text: 'My strategy: we ask in the village shop first.'
+      translation: 'האסטרטגיה שלי: קודם שואלים בחנות של הכפר.'
+    - speaker: saba
+      text: I appreciate it, Ben. But maybe the family doesn't exist anymore.
+      translation: אני מעריך את זה, בן. אבל אולי המשפחה כבר לא קיימת.
+    - speaker: noa
+      text: They're somewhere, Grandpa. I can feel it.
+      translation: הם איפשהו, סבא. אני מרגישה את זה.
+    - speaker: saba
+      text: I've waited forever. One more hour is fine.
+      translation: חיכיתי נצח. עוד שעה זה בסדר.
+    lexemes: []
   - id: v4-l1-01
     type: learn
     lexeme: appreciate
@@ -408,8 +426,8 @@ lessons:
     - iron
   - id: v4-l1-19
     type: fill_blank
-    sentence: I will remember this day ___.
-    translation: אזכור את היום הזה לנצח.
+    sentence: Grandpa kept the book as if ___.
+    translation: סבא שמר את הספר כאילו לנצח.
     answers:
     - forever
     options:
@@ -420,8 +438,8 @@ lessons:
     - forever
   - id: v4-l1-20
     type: fill_blank
-    sentence: He had a knee ___ last year.
-    translation: הייתה לו פציעה בברך בשנה שעברה.
+    sentence: Grandpa has an old knee ___.
+    translation: לסבא יש פציעה ישנה בברך.
     answers:
     - injury
     options:
@@ -432,8 +450,8 @@ lessons:
     - injury
   - id: v4-l1-21
     type: fill_blank
-    sentence: The gate is made of ___.
-    translation: השער עשוי ברזל.
+    sentence: The farm has a heavy ___ gate.
+    translation: לחווה יש שער ברזל כבד.
     answers:
     - iron
     options:
@@ -444,8 +462,8 @@ lessons:
     - iron
   - id: v4-l1-22
     type: fill_blank
-    sentence: I read a ___ on the train.
-    translation: קראתי מגזין ברכבת.
+    sentence: Noa read a travel ___ on the train.
+    translation: נועה קראה מגזין טיולים ברכבת.
     answers:
     - magazine
     options:
@@ -456,8 +474,8 @@ lessons:
     - magazine
   - id: v4-l1-23
     type: fill_blank
-    sentence: I left my keys ___ in the house.
-    translation: השארתי את המפתחות איפשהו בבית.
+    sentence: The family must be ___ near here.
+    translation: המשפחה צריכה להיות איפשהו כאן בסביבה.
     answers:
     - somewhere
     options:
@@ -468,8 +486,8 @@ lessons:
     - somewhere
   - id: v4-l1-24
     type: fill_blank
-    sentence: We need a new ___.
-    translation: אנחנו צריכים אסטרטגיה חדשה.
+    sentence: Ben's ___ worked.
+    translation: האסטרטגיה של בן עבדה.
     answers:
     - strategy
     options:
@@ -480,8 +498,8 @@ lessons:
     - strategy
   - id: v4-l1-25
     type: fill_blank
-    sentence: Dinosaurs no longer ___.
-    translation: דינוזאורים כבר לא קיימים.
+    sentence: Does the old bakery still ___?
+    translation: המאפייה הישנה עדיין קיימת?
     answers:
     - exist
     options:
@@ -492,20 +510,37 @@ lessons:
     - exist
   - id: v4-l1-26
     type: dictation
-    text: We need a new strategy.
+    text: Ben's strategy worked.
     lexemes:
     - strategy
   - id: v4-l1-27
     type: dictation
-    text: Dinosaurs no longer exist.
+    text: Does the old bakery still exist?
     lexemes:
     - exist
 - id: v4-l2
   kind: new
   title:
-    he: מילים חדשות 2
-    en: New words 2
+    he: הפגישה
+    en: The meeting
   exercises:
+  - id: v4-l2-d1
+    type: dialogue
+    scene: 'בחווה. אישה מבוגרת פותחת את הדלת: מרים לוי, הנכדה של מר לוי.'
+    lines:
+    - speaker: saba
+      text: Mrs. Levy? I worked for your grandfather. I have his book.
+      translation: גברת לוי? עבדתי אצל סבא שלך. יש לי את הספר שלו.
+    - speaker: miriam
+      text: I'm his granddaughter, Miriam. This is entirely unexpected! Please come in.
+      translation: אני הנכדה שלו, מרים. זה לגמרי לא צפוי! בבקשה, היכנסו.
+    - speaker: noa
+      text: Wait, Miriam? From our London office?
+      translation: רגע, מרים? מהמשרד שלנו בלונדון?
+    - speaker: miriam
+      text: The same Miriam. I come here every Sunday. What a massive surprise!
+      translation: אותה מרים. אני באה לכאן כל יום ראשון. איזו הפתעה ענקית!
+    lexemes: []
   - id: v4-l2-01
     type: learn
     lexeme: mountain
@@ -646,8 +681,8 @@ lessons:
     - electric
   - id: v4-l2-19
     type: fill_blank
-    sentence: She is my personal ___.
-    translation: היא העוזרת האישית שלי.
+    sentence: Miriam's ___ made tea for everyone.
+    translation: העוזרת של מרים הכינה תה לכולם.
     answers:
     - assistant
     options:
@@ -658,8 +693,8 @@ lessons:
     - assistant
   - id: v4-l2-20
     type: fill_blank
-    sentence: I need to buy new ___.
-    translation: אני צריך לקנות בגדים חדשים.
+    sentence: Grandpa wore his best ___.
+    translation: סבא לבש את הבגדים הכי טובים שלו.
     answers:
     - clothes
     options:
@@ -670,8 +705,8 @@ lessons:
     - clothes
   - id: v4-l2-21
     type: fill_blank
-    sentence: He drives an ___ car.
-    translation: הוא נוהג במכונית חשמלית.
+    sentence: The farm has an old ___ oven.
+    translation: בחווה יש תנור חשמלי ישן.
     answers:
     - electric
     options:
@@ -682,8 +717,8 @@ lessons:
     - electric
   - id: v4-l2-22
     type: fill_blank
-    sentence: Call this number in an ___.
-    translation: התקשרו למספר הזה במקרה חירום.
+    sentence: Keep this number for an ___.
+    translation: שמרו את המספר הזה למקרה חירום.
     answers:
     - emergency
     options:
@@ -694,8 +729,8 @@ lessons:
     - emergency
   - id: v4-l2-23
     type: fill_blank
-    sentence: I ___ agree with you.
-    translation: אני מסכים איתך לגמרי.
+    sentence: The meeting was ___ unexpected.
+    translation: הפגישה הייתה בלתי צפויה לחלוטין.
     answers:
     - entirely
     options:
@@ -706,8 +741,8 @@ lessons:
     - entirely
   - id: v4-l2-24
     type: fill_blank
-    sentence: The town has a music ___ every summer.
-    translation: בעיר יש פסטיבל מוזיקה בכל קיץ.
+    sentence: The family meets here for the ___ of Sukkot.
+    translation: המשפחה נפגשת כאן לחג הסוכות.
     answers:
     - festival
     options:
@@ -718,8 +753,8 @@ lessons:
     - festival
   - id: v4-l2-25
     type: fill_blank
-    sentence: They built a ___ bridge.
-    translation: הם בנו גשר עצום.
+    sentence: There is a ___ oak tree near the house.
+    translation: יש עץ אלון ענק ליד הבית.
     answers:
     - massive
     options:
@@ -730,20 +765,37 @@ lessons:
     - massive
   - id: v4-l2-26
     type: dictation
-    text: The town has a music festival every summer.
+    text: The family meets here for the festival of Sukkot.
     lexemes:
     - festival
   - id: v4-l2-27
     type: dictation
-    text: They built a massive bridge.
+    text: There is a massive oak tree near the house.
     lexemes:
     - massive
 - id: v4-l3
   kind: new
   title:
-    he: מילים חדשות 3
-    en: New words 3
+    he: לומדים יחד
+    en: Learning together
   exercises:
+  - id: v4-l3-d1
+    type: dialogue
+    scene: 'בסלון של החווה. מרים פותחת את הספר: גמרא קטנה עם הערות בכתב יד.'
+    lines:
+    - speaker: miriam
+      text: My grandfather wrote notes in this Gemara. He loved teaching.
+      translation: סבא שלי כתב הערות בגמרא הזאת. הוא אהב ללמד.
+    - speaker: saba
+      text: Every evening after work we had a session. He was my teacher.
+      translation: כל ערב אחרי העבודה היה לנו שיעור. הוא היה המורה שלי.
+    - speaker: miriam
+      text: Then it's my duty to transfer it to you. It belongs with someone who learns.
+      translation: אז החובה שלי להעביר אותה אליך. היא שייכת למי שלומד.
+    - speaker: saba
+      text: No, no. Let's learn one page together, a proper session, like then.
+      translation: לא, לא. בואי נלמד דף אחד יחד, שיעור כמו שצריך, כמו אז.
+    lexemes: []
   - id: v4-l3-01
     type: learn
     lexeme: plenty
@@ -884,8 +936,8 @@ lessons:
     - zone
   - id: v4-l3-19
     type: fill_blank
-    sentence: She loves ___ children.
-    translation: היא אוהבת ללמד ילדים.
+    sentence: Mr. Levy loved ___ young people.
+    translation: מר לוי אהב ללמד צעירים.
     answers:
     - teaching
     options:
@@ -896,8 +948,8 @@ lessons:
     - teaching
   - id: v4-l3-20
     type: fill_blank
-    sentence: I made a bank ___ yesterday.
-    translation: ביצעתי העברה בנקאית אתמול.
+    sentence: Miriam wants to ___ the book to Grandpa.
+    translation: מרים רוצה להעביר את הספר לסבא.
     answers:
     - transfer
     options:
@@ -908,8 +960,8 @@ lessons:
     - transfer
   - id: v4-l3-21
     type: fill_blank
-    sentence: This is a quiet ___.
-    translation: זה אזור שקט.
+    sentence: The farm is outside the London travel ___.
+    translation: החווה נמצאת מחוץ לאזור הנסיעה של לונדון.
     answers:
     - zone
     options:
@@ -920,8 +972,8 @@ lessons:
     - zone
   - id: v4-l3-22
     type: fill_blank
-    sentence: He is in the ___ class.
-    translation: הוא בכיתה המתקדמת.
+    sentence: Grandpa is learning an ___ text.
+    translation: סבא לומד טקסט מתקדם.
     answers:
     - advanced
     options:
@@ -932,8 +984,8 @@ lessons:
     - advanced
   - id: v4-l3-23
     type: fill_blank
-    sentence: We crossed the lake by ___.
-    translation: חצינו את האגם בסירה.
+    sentence: Mr. Levy came to England by ___.
+    translation: מר לוי הגיע לאנגליה בסירה.
     answers:
     - boat
     options:
@@ -944,8 +996,8 @@ lessons:
     - boat
   - id: v4-l3-24
     type: fill_blank
-    sentence: The hall has a ___ of two hundred people.
-    translation: באולם יש מקום לכמאתיים איש.
+    sentence: The small room has a ___ of ten people.
+    translation: בחדר הקטן יש מקום לעשרה אנשים.
     answers:
     - capacity
     options:
@@ -956,8 +1008,8 @@ lessons:
     - capacity
   - id: v4-l3-25
     type: fill_blank
-    sentence: It is my ___ to help.
-    translation: זו חובתי לעזור.
+    sentence: It is my ___ to return the book.
+    translation: זו חובתי להחזיר את הספר.
     answers:
     - duty
     options:
@@ -968,20 +1020,40 @@ lessons:
     - duty
   - id: v4-l3-26
     type: dictation
-    text: The hall has a capacity of two hundred people.
+    text: The small room has a capacity of ten people.
     lexemes:
     - capacity
   - id: v4-l3-27
     type: dictation
-    text: It is my duty to help.
+    text: It is my duty to return the book.
     lexemes:
     - duty
 - id: v4-l4
   kind: new
   title:
-    he: מילים חדשות 4
-    en: New words 4
+    he: פרידה
+    en: Goodbye
   exercises:
+  - id: v4-l4-d1
+    type: dialogue
+    scene: תחנת הרכבת. ערב.
+    lines:
+    - speaker: saba
+      text: I bought a new suit for this trip. Was it worth the purchase?
+      translation: קניתי חליפה חדשה לטיול הזה. היה שווה לקנות?
+    - speaker: noa
+      text: Grandpa, you're mad! It was the best day of the year.
+      translation: סבא, אתה משוגע! זה היה היום הכי טוב בשנה.
+    - speaker: saba
+      text: A mix of happy and sad. Like every good story.
+      translation: שילוב של שמח ועצוב. כמו כל סיפור טוב.
+    - speaker: noa
+      text: And the book?
+      translation: והספר?
+    - speaker: saba
+      text: It stays with Miriam. And Miriam and I will learn on the phone every week.
+      translation: הוא נשאר אצל מרים. ומרים ואני נלמד בטלפון כל שבוע.
+    lexemes: []
   - id: v4-l4-01
     type: learn
     lexeme: mix
@@ -1087,8 +1159,8 @@ lessons:
     - mad
   - id: v4-l4-14
     type: fill_blank
-    sentence: The table is made of ___.
-    translation: השולחן עשוי פלדה.
+    sentence: The old bridge is made of ___.
+    translation: הגשר הישן עשוי מפלדה.
     answers:
     - steel
     options:
@@ -1099,8 +1171,8 @@ lessons:
     - steel
   - id: v4-l4-15
     type: fill_blank
-    sentence: He wore a dark ___ to the interview.
-    translation: הוא לבש חליפה כהה לראיון.
+    sentence: Grandpa looked smart in his ___.
+    translation: סבא נראה אלגנטי בחליפה שלו.
     answers:
     - suit
     options:
@@ -1111,8 +1183,8 @@ lessons:
     - suit
   - id: v4-l4-16
     type: fill_blank
-    sentence: She was ___ about the delay.
-    translation: היא כעסה על העיכוב.
+    sentence: Noa thought her grandfather was ___ to fly alone.
+    translation: נועה חשבה שסבא שלה משוגע לטוס לבד.
     answers:
     - mad
     options:
@@ -1123,11 +1195,11 @@ lessons:
     - mad
   - id: v4-l4-17
     type: dictation
-    text: He wore a dark suit to the interview.
+    text: Grandpa looked smart in his suit.
     lexemes:
     - suit
   - id: v4-l4-18
     type: dictation
-    text: She was mad about the delay.
+    text: Noa thought her grandfather was mad to fly alone.
     lexemes:
     - mad
