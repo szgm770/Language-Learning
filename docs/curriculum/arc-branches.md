@@ -17,7 +17,10 @@ reviewed before publishing, words chosen by frequency and coverage measured on t
   Coverage on Deuteronomy (not used for choosing): 64.9% counting whole words; about 80% counting Aramaic endings
   (־א, ־יא, ־והי, ־הון…) on stems the learner knows from Hebrew. Onkelos is read next to the Hebrew verse, so this is enough
   to follow; the gap is mostly rare Temple and sacrifice words.
-- Biblical Aramaic, Yerushalmi, Zohar: next, in this order.
+- **Biblical Aramaic** (`arc-mikra`, 2026-11-08): 6 units (Daniel 2, 3, 6, 7; Ezra 5), about 75 words. Story: Chana's article on the
+  Babylonian exile; the grandfather wrote Daniel 6:11 on the hayloft wall. Coverage on Ezra (not used for choosing): 67.5% whole
+  words, 85.5% counting endings on known stems.
+- Yerushalmi, Zohar: next, in this order.
 
 ## How a branch is built
 1. Frequency of forms in the corpus that the learner does not know yet (Hebrew + the Bavli course); hold out part of the corpus.
