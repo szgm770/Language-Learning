@@ -33,6 +33,24 @@ vocabulary:
   - { id: "sounds-great", text: "That sounds great!", translation: "נשמע מעולה!", pos: "phrase", pronunciation: "דֶ'ט סַאוּנְדְז גְרֵייט" }
   - { id: "tired", text: "tired", translation: "עייף", pos: "adjective", pronunciation: "טַייאֶרְד" }
 
+  - { id: "beautiful", text: "beautiful", translation: "יפה", pos: "adjective", pronunciation: "בְּיוּטִיפֶל", example: { text: "The beach is beautiful.", translation: "החוף יפה." } }
+  - { id: "perfect", text: "perfect", translation: "מושלם", pos: "adjective", pronunciation: "פֶּרְפֶקְט", example: { text: "It was a perfect day.", translation: "זה היה יום מושלם." } }
+  - { id: "huge", text: "huge", translation: "ענק", pos: "adjective", pronunciation: "הְיוּג'", example: { text: "The waves are huge.", translation: "הגלים ענקיים." } }
+  - { id: "favorite", text: "favorite", translation: "אהוב", pos: "adjective", pronunciation: "פֵייבֶּרִיט", example: { text: "Blue is my favorite color.", translation: "כחול הוא הצבע האהוב עליי." } }
+  - { id: "especially", text: "especially", translation: "במיוחד", pos: "adverb", pronunciation: "אִיסְפֶּשְׁלִי", example: { text: "I like fruit, especially apples.", translation: "אני אוהב פירות, במיוחד תפוחים." } }
+  - { id: "simply", text: "simply", translation: "פשוט", pos: "adverb", pronunciation: "סִימְפְּלִי", example: { text: "It is simply too far.", translation: "זה פשוט רחוק מדי." } }
+  - { id: "sea", text: "sea", translation: "ים", pos: "noun", pronunciation: "סִי", example: { text: "The sea is blue.", translation: "הים כחול." } }
+  - { id: "island", text: "island", translation: "אי", pos: "noun", pronunciation: "אַיילֶנְד", example: { text: "The island is small.", translation: "האי קטן." } }
+  - { id: "sun", text: "sun", translation: "שמש", pos: "noun", pronunciation: "סָאן", example: { text: "The sun is hot today.", translation: "השמש חמה היום." } }
+  - { id: "bird", text: "bird", translation: "ציפור", pos: "noun", pronunciation: "בֶּרְד", example: { text: "A bird sits on the tree.", translation: "ציפור יושבת על העץ." } }
+  - { id: "heat", text: "heat", translation: "חום", pos: "noun", pronunciation: "הִיט", example: { text: "I don't like the heat.", translation: "אני לא אוהב את החום." } }
+  - { id: "wind", text: "wind", translation: "רוח", pos: "noun", pronunciation: "וִוינְד", example: { text: "The wind is strong.", translation: "הרוח חזקה." } }
+  - { id: "fly", text: "fly", translation: "לעוף; לטוס", pos: "verb", pronunciation: "פְלַאיי", example: { text: "I fly to Madrid on Sunday.", translation: "אני טס למדריד ביום ראשון." } }
+  - { id: "laugh", text: "laugh", translation: "לצחוק", pos: "verb", pronunciation: "לָאף", example: { text: "We laugh a lot together.", translation: "אנחנו צוחקים הרבה יחד." } }
+  - { id: "sing", text: "sing", translation: "לשיר", pos: "verb", pronunciation: "סִינְג", example: { text: "She likes to sing.", translation: "היא אוהבת לשיר." } }
+  - { id: "trip", text: "trip", translation: "טיול", pos: "noun", pronunciation: "טְרִיפּ", example: { text: "The trip was long.", translation: "הטיול היה ארוך." } }
+  - { id: "album", text: "album", translation: "אלבום", pos: "noun", pronunciation: "אַלְבֶּם", example: { text: "This is a new album.", translation: "זה אלבום חדש." } }
+  - { id: "band", text: "band", translation: "להקה", pos: "noun", pronunciation: "בֶּנְד", example: { text: "The band plays at nine.", translation: "הלהקה מנגנת בתשע." } }
 grammar:
   - id: past-simple-irregular
     title: { he: "עבר יוצא דופן: went, had, saw", en: "Past simple: irregular verbs" }
@@ -492,3 +510,504 @@ lessons:
         text: "What did you do at the weekend? I went to the beach."
         translation: "מה עשית בסוף השבוע? הלכתי לחוף."
         lexemes: [what-did-you-do, went, beach]
+  # ------------------------------------------------------------------ story words
+  - id: u12-n1
+    kind: new
+    title:
+      he: 'היומן של נועה: יפה ומושלם'
+      en: 'Noa''s diary: beautiful and perfect'
+    exercises:
+    - id: u12-n1-01
+      type: dialogue
+      scene: ביום שני בבית הקפה, מרים מספרת על סוף השבוע.
+      lines:
+      - speaker: miriam
+        text: The beach was beautiful and the day was perfect.
+        translation: החוף היה יפה והיום היה מושלם.
+      - speaker: eli
+        text: Especially the huge waves, I guess.
+        translation: במיוחד הגלים הענקיים, אני מניח.
+      - speaker: miriam
+        text: Yes! It is simply my favorite place in London.
+        translation: כן! זה פשוט המקום האהוב עליי בלונדון.
+      - speaker: eli
+        text: Sounds cool.
+        translation: נשמע מגניב.
+    - id: u12-n1-02
+      type: learn
+      lexeme: beautiful
+    - id: u12-n1-03
+      type: learn
+      lexeme: perfect
+    - id: u12-n1-04
+      type: learn
+      lexeme: huge
+    - id: u12-n1-05
+      type: learn
+      lexeme: favorite
+    - id: u12-n1-06
+      type: learn
+      lexeme: especially
+    - id: u12-n1-07
+      type: learn
+      lexeme: simply
+    - id: u12-n1-08
+      type: match_pairs
+      pairs:
+      - - beautiful
+        - יפה
+      - - perfect
+        - מושלם
+      - - huge
+        - ענק
+      - - favorite
+        - אהוב
+      - - especially
+        - במיוחד
+      - - simply
+        - פשוט
+      lexemes:
+      - beautiful
+      - perfect
+      - huge
+      - favorite
+      - especially
+      - simply
+    - id: u12-n1-09
+      type: multiple_choice
+      prompt: huge – מה הפירוש?
+      options:
+      - ענק
+      - אהוב
+      - יפה
+      correct: 0
+      lexemes:
+      - huge
+    - id: u12-n1-10
+      type: multiple_choice
+      prompt: perfect – מה הפירוש?
+      options:
+      - מושלם
+      - אהוב
+      - ענק
+      correct: 0
+      lexemes:
+      - perfect
+    - id: u12-n1-11
+      type: multiple_choice
+      prompt: beautiful – מה הפירוש?
+      options:
+      - יפה
+      - פשוט
+      - ענק
+      correct: 0
+      lexemes:
+      - beautiful
+    - id: u12-n1-12
+      type: fill_blank
+      sentence: It is ___ too far.
+      translation: זה פשוט רחוק מדי.
+      answers:
+      - simply
+      options:
+      - simply
+      - especially
+      - perfect
+      lexemes:
+      - simply
+    - id: u12-n1-13
+      type: fill_blank
+      sentence: I like fruit, ___ apples.
+      translation: אני אוהב פירות, במיוחד תפוחים.
+      answers:
+      - especially
+      options:
+      - especially
+      - simply
+      - huge
+      lexemes:
+      - especially
+    - id: u12-n1-14
+      type: fill_blank
+      sentence: Blue is my ___ color.
+      translation: כחול הוא הצבע האהוב עליי.
+      answers:
+      - favorite
+      options:
+      - favorite
+      - huge
+      - especially
+      lexemes:
+      - favorite
+    - id: u12-n1-15
+      type: word_bank
+      prompt: הגלים ענקיים.
+      answers:
+      - The waves are huge.
+      distractors:
+      - perfect
+      - favorite
+      lexemes:
+      - huge
+    - id: u12-n1-16
+      type: word_bank
+      prompt: זה היה יום מושלם.
+      answers:
+      - It was a perfect day.
+      distractors:
+      - huge
+      - favorite
+      lexemes:
+      - perfect
+    - id: u12-n1-17
+      type: listening_choice
+      audioText: The beach is beautiful.
+      question: מה שמעתם?
+      options:
+      - החוף יפה.
+      - זה היה יום מושלם.
+      - הגלים ענקיים.
+      correct: 0
+      lexemes:
+      - beautiful
+    - id: u12-n1-18
+      type: speak_repeat
+      text: The beach was beautiful, simply perfect.
+      translation: החוף היה יפה, פשוט מושלם.
+      lexemes:
+      - beautiful
+      - perfect
+      - simply
+  - id: u12-n2
+    kind: new
+    title:
+      he: 'היומן של נועה: ים, שמש ורוח'
+      en: 'Noa''s diary: sea, sun and wind'
+    exercises:
+    - id: u12-n2-01
+      type: dialogue
+      scene: טיול ליום אחד לחוף הים.
+      lines:
+      - speaker: miriam
+        text: Look at the sea! There is an island far away.
+        translation: תראו את הים! יש אי רחוק משם.
+      - speaker: noa
+        text: The sun is hot, but the wind is cool. The heat is nice.
+        translation: השמש חמה אבל הרוח קרירה. החום נעים.
+      - speaker: miriam
+        text: A bird is on my bag!
+        translation: ציפור על התיק שלי!
+      - speaker: noa
+        text: Don't move.
+        translation: אל תזוזי.
+    - id: u12-n2-02
+      type: learn
+      lexeme: sea
+    - id: u12-n2-03
+      type: learn
+      lexeme: island
+    - id: u12-n2-04
+      type: learn
+      lexeme: sun
+    - id: u12-n2-05
+      type: learn
+      lexeme: bird
+    - id: u12-n2-06
+      type: learn
+      lexeme: heat
+    - id: u12-n2-07
+      type: learn
+      lexeme: wind
+    - id: u12-n2-08
+      type: match_pairs
+      pairs:
+      - - sea
+        - ים
+      - - island
+        - אי
+      - - sun
+        - שמש
+      - - bird
+        - ציפור
+      - - heat
+        - חום
+      - - wind
+        - רוח
+      lexemes:
+      - sea
+      - island
+      - sun
+      - bird
+      - heat
+      - wind
+    - id: u12-n2-09
+      type: multiple_choice
+      prompt: wind – מה הפירוש?
+      options:
+      - רוח
+      - חום
+      - ים
+      correct: 0
+      lexemes:
+      - wind
+    - id: u12-n2-10
+      type: multiple_choice
+      prompt: sea – מה הפירוש?
+      options:
+      - ים
+      - חום
+      - רוח
+      correct: 0
+      lexemes:
+      - sea
+    - id: u12-n2-11
+      type: multiple_choice
+      prompt: sun – מה הפירוש?
+      options:
+      - שמש
+      - ים
+      - אי
+      correct: 0
+      lexemes:
+      - sun
+    - id: u12-n2-12
+      type: fill_blank
+      sentence: I don't like the ___.
+      translation: אני לא אוהב את החום.
+      answers:
+      - heat
+      options:
+      - heat
+      - sun
+      - wind
+      lexemes:
+      - heat
+    - id: u12-n2-13
+      type: fill_blank
+      sentence: A ___ sits on the tree.
+      translation: ציפור יושבת על העץ.
+      answers:
+      - bird
+      options:
+      - bird
+      - sea
+      - heat
+      lexemes:
+      - bird
+    - id: u12-n2-14
+      type: fill_blank
+      sentence: The ___ is small.
+      translation: האי קטן.
+      answers:
+      - island
+      options:
+      - island
+      - sun
+      - heat
+      lexemes:
+      - island
+    - id: u12-n2-15
+      type: word_bank
+      prompt: הרוח חזקה.
+      answers:
+      - The wind is strong.
+      distractors:
+      - island
+      - sea
+      lexemes:
+      - wind
+    - id: u12-n2-16
+      type: word_bank
+      prompt: הים כחול.
+      answers:
+      - The sea is blue.
+      distractors:
+      - sun
+      - heat
+      lexemes:
+      - sea
+    - id: u12-n2-17
+      type: listening_choice
+      audioText: The sun is hot today.
+      question: מה שמעתם?
+      options:
+      - השמש חמה היום.
+      - הים כחול.
+      - האי קטן.
+      correct: 0
+      lexemes:
+      - sun
+    - id: u12-n2-18
+      type: speak_repeat
+      text: The sun is hot, but the wind is cool.
+      translation: השמש חמה, אבל הרוח קרירה.
+      lexemes:
+      - sun
+      - wind
+  - id: u12-n3
+    kind: new
+    title:
+      he: 'היומן של נועה: ערב עם מוזיקה'
+      en: 'Noa''s diary: an evening of music'
+    exercises:
+    - id: u12-n3-01
+      type: dialogue
+      scene: אחרי הטיול, ערב מוזיקלי לקבוצת חברים (נשים וגברים בנפרד, בלי ריקודים).
+      lines:
+      - speaker: ben
+        text: The band plays a new album tonight.
+        translation: הלהקה מנגנת הערב אלבום חדש.
+      - speaker: rachel
+        text: I sing in the choir. Last time I laugh so much I almost cry.
+        translation: אני שרה במקהלה. בפעם שעברה צחקתי כל כך שכמעט בכיתי.
+      - speaker: miriam
+        text: The trip was long but I want to fly back soon.
+        translation: הטיול היה ארוך אבל אני רוצה לחזור בקרוב בטיסה.
+      - speaker: ben
+        text: Come again next month.
+        translation: תבואי שוב בחודש הבא.
+    - id: u12-n3-02
+      type: learn
+      lexeme: fly
+    - id: u12-n3-03
+      type: learn
+      lexeme: laugh
+    - id: u12-n3-04
+      type: learn
+      lexeme: sing
+    - id: u12-n3-05
+      type: learn
+      lexeme: trip
+    - id: u12-n3-06
+      type: learn
+      lexeme: album
+    - id: u12-n3-07
+      type: learn
+      lexeme: band
+    - id: u12-n3-08
+      type: match_pairs
+      pairs:
+      - - fly
+        - לעוף; לטוס
+      - - laugh
+        - לצחוק
+      - - sing
+        - לשיר
+      - - trip
+        - טיול
+      - - album
+        - אלבום
+      - - band
+        - להקה
+      lexemes:
+      - fly
+      - laugh
+      - sing
+      - trip
+      - album
+      - band
+    - id: u12-n3-09
+      type: multiple_choice
+      prompt: trip – מה הפירוש?
+      options:
+      - טיול
+      - לצחוק
+      - לשיר
+      correct: 0
+      lexemes:
+      - trip
+    - id: u12-n3-10
+      type: multiple_choice
+      prompt: fly – מה הפירוש?
+      options:
+      - לעוף; לטוס
+      - טיול
+      - לשיר
+      correct: 0
+      lexemes:
+      - fly
+    - id: u12-n3-11
+      type: multiple_choice
+      prompt: band – מה הפירוש?
+      options:
+      - להקה
+      - אלבום
+      - לעוף; לטוס
+      correct: 0
+      lexemes:
+      - band
+    - id: u12-n3-12
+      type: fill_blank
+      sentence: She likes to ___.
+      translation: היא אוהבת לשיר.
+      answers:
+      - sing
+      options:
+      - sing
+      - album
+      - trip
+      lexemes:
+      - sing
+    - id: u12-n3-13
+      type: fill_blank
+      sentence: This is a new ___.
+      translation: זה אלבום חדש.
+      answers:
+      - album
+      options:
+      - album
+      - band
+      - trip
+      lexemes:
+      - album
+    - id: u12-n3-14
+      type: fill_blank
+      sentence: We ___ a lot together.
+      translation: אנחנו צוחקים הרבה יחד.
+      answers:
+      - laugh
+      options:
+      - laugh
+      - album
+      - sing
+      lexemes:
+      - laugh
+    - id: u12-n3-15
+      type: word_bank
+      prompt: הטיול היה ארוך.
+      answers:
+      - The trip was long.
+      distractors:
+      - album
+      - laugh
+      lexemes:
+      - trip
+    - id: u12-n3-16
+      type: word_bank
+      prompt: אני טס למדריד ביום ראשון.
+      answers:
+      - I fly to Madrid on Sunday.
+      distractors:
+      - trip
+      - band
+      lexemes:
+      - fly
+    - id: u12-n3-17
+      type: listening_choice
+      audioText: The band plays at nine.
+      question: מה שמעתם?
+      options:
+      - הלהקה מנגנת בתשע.
+      - אני טס למדריד ביום ראשון.
+      - אנחנו צוחקים הרבה יחד.
+      correct: 0
+      lexemes:
+      - band
+    - id: u12-n3-18
+      type: speak_repeat
+      text: We sing and laugh on the trip.
+      translation: אנחנו שרים וצוחקים בטיול.
+      lexemes:
+      - laugh
+      - sing
+      - trip

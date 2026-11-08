@@ -38,6 +38,24 @@ vocabulary:
   - { id: "did", text: "Did you…?", translation: "האם…? (שאלה בעבר)", pos: "phrase", pronunciation: "דִיד יוּ", example: { text: "Did you like the flat?", translation: "אהבת את הדירה?" } }
   - { id: "didnt", text: "didn't", translation: "לא (בעבר)", pos: "verb", pronunciation: "דִידֶנְט", example: { text: "I didn't like the kitchen.", translation: "לא אהבתי את המטבח." } }
 
+  - { id: "door", text: "door", translation: "דלת", pos: "noun", pronunciation: "דוֹר", example: { text: "Please close the door.", translation: "בבקשה סגור את הדלת." } }
+  - { id: "wall", text: "wall", translation: "קיר", pos: "noun", pronunciation: "וּוֹל", example: { text: "The wall is white.", translation: "הקיר לבן." } }
+  - { id: "floor", text: "floor", translation: "רצפה; קומה", pos: "noun", pronunciation: "פְלוֹר", example: { text: "The floor is clean.", translation: "הרצפה נקייה." } }
+  - { id: "garden", text: "garden", translation: "גינה", pos: "noun", pronunciation: "גַארְדֶן", example: { text: "We sit in the garden.", translation: "אנחנו יושבים בגינה." } }
+  - { id: "hall", text: "hall", translation: "מסדרון; אולם", pos: "noun", pronunciation: "הוֹל", example: { text: "The hall is long.", translation: "המסדרון ארוך." } }
+  - { id: "glass", text: "glass", translation: "זכוכית; כוס", pos: "noun", pronunciation: "גְלָס", example: { text: "I have a glass of water.", translation: "יש לי כוס מים." } }
+  - { id: "paper", text: "paper", translation: "נייר", pos: "noun", pronunciation: "פֵּייפֶּר", example: { text: "I need a piece of paper.", translation: "אני צריך דף נייר." } }
+  - { id: "wood", text: "wood", translation: "עץ (חומר)", pos: "noun", pronunciation: "וּוּד", example: { text: "The table is made of wood.", translation: "השולחן עשוי עץ." } }
+  - { id: "tree", text: "tree", translation: "עץ", pos: "noun", pronunciation: "טְרִי", example: { text: "There is a big tree in the garden.", translation: "יש עץ גדול בגינה." } }
+  - { id: "block", text: "block", translation: "גוש; בלוק", pos: "noun", pronunciation: "בְּלוֹק", example: { text: "Put the block on the floor.", translation: "שים את הגוש על הרצפה." } }
+  - { id: "paint", text: "paint", translation: "לצבוע; צבע", pos: "verb", pronunciation: "פֵּיינְט", example: { text: "We paint the wall blue.", translation: "אנחנו צובעים את הקיר בכחול." } }
+  - { id: "fill", text: "fill", translation: "למלא", pos: "verb", pronunciation: "פִיל", example: { text: "Fill the glass with water.", translation: "מלא את הכוס במים." } }
+  - { id: "address", text: "address", translation: "כתובת", pos: "noun", pronunciation: "אֶדְרֶס", example: { text: "What is your address?", translation: "מה הכתובת שלך?" } }
+  - { id: "register", text: "register", translation: "להירשם", pos: "verb", pronunciation: "רֶג'יסְטֶר", example: { text: "I register at the school.", translation: "אני נרשם לבית הספר." } }
+  - { id: "update", text: "update", translation: "לעדכן", pos: "verb", pronunciation: "אַפְּדֵייט", example: { text: "Please update your number.", translation: "בבקשה עדכן את המספר שלך." } }
+  - { id: "notice", text: "notice", translation: "הודעה; לשים לב", pos: "noun", pronunciation: "נוֹטִיס", example: { text: "I see a notice on the door.", translation: "אני רואה הודעה על הדלת." } }
+  - { id: "contact", text: "contact", translation: "ליצור קשר", pos: "verb", pronunciation: "קוֹנְטֶקְט", example: { text: "Contact me by phone.", translation: "צור איתי קשר בטלפון." } }
+  - { id: "pack", text: "pack", translation: "לארוז", pos: "verb", pronunciation: "פֶּק", example: { text: "I pack my bags tonight.", translation: "אני אורז את התיקים הערב." } }
 grammar:
   - id: past-simple-regular
     title: { he: "עבר פשוט: I moved, I lived", en: "Past simple: regular verbs" }
@@ -481,3 +499,503 @@ lessons:
         text: "Did you move last month? Yes, I did."
         translation: "עברת דירה בחודש שעבר? כן."
         lexemes: [did, move]
+  # ------------------------------------------------------------------ story words
+  - id: u11-n1
+    kind: new
+    title:
+      he: 'היומן של נועה: חדרים'
+      en: 'Noa''s diary: rooms'
+    exercises:
+    - id: u11-n1-01
+      type: dialogue
+      scene: גברת כץ מראה לנועה את הדירה.
+      lines:
+      - speaker: katz
+        text: This is the hall. The door on the left is your room.
+        translation: זו המסדרון. הדלת משמאל היא החדר שלך.
+      - speaker: noa
+        text: The wall is white, and the floor is old but clean.
+        translation: הקיר לבן והרצפה ישנה אבל נקייה.
+      - speaker: katz
+        text: There is a garden behind the house. You can sit there.
+        translation: יש גינה מאחורי הבית. אפשר לשבת שם.
+      - speaker: noa
+        text: Lovely. Even the glass in the window is new.
+        translation: יפה. אפילו הזכוכית בחלון חדשה.
+    - id: u11-n1-02
+      type: learn
+      lexeme: door
+    - id: u11-n1-03
+      type: learn
+      lexeme: wall
+    - id: u11-n1-04
+      type: learn
+      lexeme: floor
+    - id: u11-n1-05
+      type: learn
+      lexeme: garden
+    - id: u11-n1-06
+      type: learn
+      lexeme: hall
+    - id: u11-n1-07
+      type: learn
+      lexeme: glass
+    - id: u11-n1-08
+      type: match_pairs
+      pairs:
+      - - door
+        - דלת
+      - - wall
+        - קיר
+      - - floor
+        - רצפה; קומה
+      - - garden
+        - גינה
+      - - hall
+        - מסדרון; אולם
+      - - glass
+        - זכוכית; כוס
+      lexemes:
+      - door
+      - wall
+      - floor
+      - garden
+      - hall
+      - glass
+    - id: u11-n1-09
+      type: multiple_choice
+      prompt: garden – מה הפירוש?
+      options:
+      - גינה
+      - דלת
+      - קיר
+      correct: 0
+      lexemes:
+      - garden
+    - id: u11-n1-10
+      type: multiple_choice
+      prompt: floor – מה הפירוש?
+      options:
+      - רצפה; קומה
+      - קיר
+      - גינה
+      correct: 0
+      lexemes:
+      - floor
+    - id: u11-n1-11
+      type: multiple_choice
+      prompt: glass – מה הפירוש?
+      options:
+      - זכוכית; כוס
+      - מסדרון; אולם
+      - דלת
+      correct: 0
+      lexemes:
+      - glass
+    - id: u11-n1-12
+      type: fill_blank
+      sentence: The ___ is white.
+      translation: הקיר לבן.
+      answers:
+      - wall
+      options:
+      - wall
+      - garden
+      - glass
+      lexemes:
+      - wall
+    - id: u11-n1-13
+      type: fill_blank
+      sentence: Please close the ___.
+      translation: בבקשה סגור את הדלת.
+      answers:
+      - door
+      options:
+      - door
+      - wall
+      - hall
+      lexemes:
+      - door
+    - id: u11-n1-14
+      type: fill_blank
+      sentence: The ___ is long.
+      translation: המסדרון ארוך.
+      answers:
+      - hall
+      options:
+      - hall
+      - wall
+      - floor
+      lexemes:
+      - hall
+    - id: u11-n1-15
+      type: word_bank
+      prompt: אנחנו יושבים בגינה.
+      answers:
+      - We sit in the garden.
+      distractors:
+      - hall
+      - wall
+      lexemes:
+      - garden
+    - id: u11-n1-16
+      type: word_bank
+      prompt: הרצפה נקייה.
+      answers:
+      - The floor is clean.
+      distractors:
+      - hall
+      - glass
+      lexemes:
+      - floor
+    - id: u11-n1-17
+      type: listening_choice
+      audioText: I have a glass of water.
+      question: מה שמעתם?
+      options:
+      - יש לי כוס מים.
+      - בבקשה סגור את הדלת.
+      - הקיר לבן.
+      correct: 0
+      lexemes:
+      - glass
+    - id: u11-n1-18
+      type: speak_repeat
+      text: The door is open and the floor is clean.
+      translation: הדלת פתוחה והרצפה נקייה.
+      lexemes:
+      - door
+      - floor
+  - id: u11-n2
+    kind: new
+    title:
+      he: 'היומן של נועה: עץ, נייר וצבע'
+      en: 'Noa''s diary: wood, paper and paint'
+    exercises:
+    - id: u11-n2-01
+      type: dialogue
+      scene: נועה מתקנת את החדר עם בן ביום ראשון.
+      lines:
+      - speaker: ben
+        text: I bring paint and paper. The table is made of wood.
+        translation: אני מביא צבע ונייר. השולחן עשוי מעץ.
+      - speaker: noa
+        text: Let's paint the wall light blue. I fill the holes first.
+        translation: בואו נצבע את הקיר בכחול בהיר. אני ממלאת קודם את החורים.
+      - speaker: ben
+        text: Good. Put this block of wood under the shelf.
+        translation: טוב. שימי את גוש העץ הזה מתחת למדף.
+      - speaker: noa
+        text: And look, a tree outside my window!
+        translation: ותראה, עץ מחוץ לחלון שלי!
+    - id: u11-n2-02
+      type: learn
+      lexeme: paper
+    - id: u11-n2-03
+      type: learn
+      lexeme: wood
+    - id: u11-n2-04
+      type: learn
+      lexeme: tree
+    - id: u11-n2-05
+      type: learn
+      lexeme: block
+    - id: u11-n2-06
+      type: learn
+      lexeme: paint
+    - id: u11-n2-07
+      type: learn
+      lexeme: fill
+    - id: u11-n2-08
+      type: match_pairs
+      pairs:
+      - - paper
+        - נייר
+      - - wood
+        - עץ (חומר)
+      - - tree
+        - עץ
+      - - block
+        - גוש; בלוק
+      - - paint
+        - לצבוע; צבע
+      - - fill
+        - למלא
+      lexemes:
+      - paper
+      - wood
+      - tree
+      - block
+      - paint
+      - fill
+    - id: u11-n2-09
+      type: multiple_choice
+      prompt: wood – מה הפירוש?
+      options:
+      - עץ (חומר)
+      - למלא
+      - גוש; בלוק
+      correct: 0
+      lexemes:
+      - wood
+    - id: u11-n2-10
+      type: multiple_choice
+      prompt: block – מה הפירוש?
+      options:
+      - גוש; בלוק
+      - עץ (חומר)
+      - למלא
+      correct: 0
+      lexemes:
+      - block
+    - id: u11-n2-11
+      type: multiple_choice
+      prompt: fill – מה הפירוש?
+      options:
+      - למלא
+      - גוש; בלוק
+      - לצבוע; צבע
+      correct: 0
+      lexemes:
+      - fill
+    - id: u11-n2-12
+      type: fill_blank
+      sentence: We ___ the wall blue.
+      translation: אנחנו צובעים את הקיר בכחול.
+      answers:
+      - paint
+      options:
+      - paint
+      - block
+      - wood
+      lexemes:
+      - paint
+    - id: u11-n2-13
+      type: fill_blank
+      sentence: I need a piece of ___.
+      translation: אני צריך דף נייר.
+      answers:
+      - paper
+      options:
+      - paper
+      - block
+      - paint
+      lexemes:
+      - paper
+    - id: u11-n2-14
+      type: fill_blank
+      sentence: There is a big ___ in the garden.
+      translation: יש עץ גדול בגינה.
+      answers:
+      - tree
+      options:
+      - tree
+      - wood
+      - paper
+      lexemes:
+      - tree
+    - id: u11-n2-15
+      type: word_bank
+      prompt: השולחן עשוי עץ.
+      answers:
+      - The table is made of wood.
+      distractors:
+      - fill
+      - paper
+      lexemes:
+      - wood
+    - id: u11-n2-16
+      type: word_bank
+      prompt: שים את הגוש על הרצפה.
+      answers:
+      - Put the block on the floor.
+      distractors:
+      - paint
+      - wood
+      lexemes:
+      - block
+    - id: u11-n2-17
+      type: listening_choice
+      audioText: Fill the glass with water.
+      question: מה שמעתם?
+      options:
+      - מלא את הכוס במים.
+      - אני צריך דף נייר.
+      - השולחן עשוי עץ.
+      correct: 0
+      lexemes:
+      - fill
+    - id: u11-n2-18
+      type: speak_repeat
+      text: We paint the wall and fill the glass.
+      translation: אנחנו צובעים את הקיר ומשלימים את הכוס.
+      lexemes:
+      - paint
+      - fill
+  - id: u11-n3
+    kind: new
+    title:
+      he: 'היומן של נועה: כתובת והודעות'
+      en: 'Noa''s diary: address and notices'
+    exercises:
+    - id: u11-n3-01
+      type: dialogue
+      scene: נועה מסדרת פרטים אחרי המעבר.
+      lines:
+      - speaker: noa
+        text: I must register my new address and update my phone number.
+        translation: אני צריכה לרשום את הכתובת החדשה ולעדכן את מספר הטלפון.
+      - speaker: katz
+        text: Here is a notice from the building. Please contact me with any question.
+        translation: הנה הודעה מהבניין. תיצרי איתי קשר בכל שאלה.
+      - speaker: noa
+        text: I pack the last boxes today. Then the load is done.
+        translation: אני אורזת היום את הקופסאות האחרונות. אז העומס נגמר.
+      - speaker: katz
+        text: Welcome home, Noa.
+        translation: ברוכה הבאה הביתה, נועה.
+    - id: u11-n3-02
+      type: learn
+      lexeme: address
+    - id: u11-n3-03
+      type: learn
+      lexeme: register
+    - id: u11-n3-04
+      type: learn
+      lexeme: update
+    - id: u11-n3-05
+      type: learn
+      lexeme: notice
+    - id: u11-n3-06
+      type: learn
+      lexeme: contact
+    - id: u11-n3-07
+      type: learn
+      lexeme: pack
+    - id: u11-n3-08
+      type: match_pairs
+      pairs:
+      - - address
+        - כתובת
+      - - register
+        - להירשם
+      - - update
+        - לעדכן
+      - - notice
+        - הודעה; לשים לב
+      - - contact
+        - ליצור קשר
+      - - pack
+        - לארוז
+      lexemes:
+      - address
+      - register
+      - update
+      - notice
+      - contact
+      - pack
+    - id: u11-n3-09
+      type: multiple_choice
+      prompt: register – מה הפירוש?
+      options:
+      - להירשם
+      - הודעה; לשים לב
+      - לארוז
+      correct: 0
+      lexemes:
+      - register
+    - id: u11-n3-10
+      type: multiple_choice
+      prompt: address – מה הפירוש?
+      options:
+      - כתובת
+      - לעדכן
+      - הודעה; לשים לב
+      correct: 0
+      lexemes:
+      - address
+    - id: u11-n3-11
+      type: multiple_choice
+      prompt: pack – מה הפירוש?
+      options:
+      - לארוז
+      - להירשם
+      - כתובת
+      correct: 0
+      lexemes:
+      - pack
+    - id: u11-n3-12
+      type: fill_blank
+      sentence: ___ me by phone.
+      translation: צור איתי קשר בטלפון.
+      answers:
+      - Contact
+      options:
+      - Contact
+      - update
+      - pack
+      lexemes:
+      - contact
+    - id: u11-n3-13
+      type: fill_blank
+      sentence: Please ___ your number.
+      translation: בבקשה עדכן את המספר שלך.
+      answers:
+      - update
+      options:
+      - update
+      - address
+      - register
+      lexemes:
+      - update
+    - id: u11-n3-14
+      type: fill_blank
+      sentence: I see a ___ on the door.
+      translation: אני רואה הודעה על הדלת.
+      answers:
+      - notice
+      options:
+      - notice
+      - register
+      - update
+      lexemes:
+      - notice
+    - id: u11-n3-15
+      type: word_bank
+      prompt: אני נרשם לבית הספר.
+      answers:
+      - I register at the school.
+      distractors:
+      - address
+      - contact
+      lexemes:
+      - register
+    - id: u11-n3-16
+      type: word_bank
+      prompt: מה הכתובת שלך?
+      answers:
+      - What is your address?
+      distractors:
+      - contact
+      - notice
+      lexemes:
+      - address
+    - id: u11-n3-17
+      type: listening_choice
+      audioText: I pack my bags tonight.
+      question: מה שמעתם?
+      options:
+      - אני אורז את התיקים הערב.
+      - מה הכתובת שלך?
+      - אני נרשם לבית הספר.
+      correct: 0
+      lexemes:
+      - pack
+    - id: u11-n3-18
+      type: speak_repeat
+      text: I register my address and pack my bags.
+      translation: אני רושמת את הכתובת ואורזת את התיקים.
+      lexemes:
+      - address
+      - register
+      - pack

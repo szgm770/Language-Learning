@@ -34,6 +34,24 @@ vocabulary:
   - { id: "as-as", text: "as … as", translation: "באותה מידה כמו", pos: "phrase", pronunciation: "אֶז … אֶז", example: { text: "It's as hot as Israel!", translation: "חם כמו בישראל!" } }
   - { id: "whats-the-weather-like", text: "What's the weather like?", translation: "איך מזג האוויר?", pos: "phrase", pronunciation: "ווֹטְס דֶ'ה וֶודֶ'ר לַייק" }
 
+  - { id: "nature", text: "nature", translation: "טבע", pos: "noun", pronunciation: "נֵייצ'ר", example: { text: "I love nature.", translation: "אני אוהב טבע." } }
+  - { id: "location", text: "location", translation: "מיקום", pos: "noun", pronunciation: "לוֹקֵיישֶׁן", example: { text: "The location is perfect.", translation: "המיקום מושלם." } }
+  - { id: "direction", text: "direction", translation: "כיוון", pos: "noun", pronunciation: "דִירֶקְשֶׁן", example: { text: "Which direction is the station?", translation: "באיזה כיוון התחנה?" } }
+  - { id: "distance", text: "distance", translation: "מרחק", pos: "noun", pronunciation: "דִיסְטֶנְס", example: { text: "The distance is short.", translation: "המרחק קצר." } }
+  - { id: "map", text: "map", translation: "מפה", pos: "noun", pronunciation: "מֶפּ", example: { text: "I look at the map.", translation: "אני מסתכל על המפה." } }
+  - { id: "region", text: "region", translation: "אזור", pos: "noun", pronunciation: "רִיג'ֶן", example: { text: "This region is green.", translation: "האזור הזה ירוק." } }
+  - { id: "tonight", text: "tonight", translation: "הערב", pos: "adverb", pronunciation: "טוּנַאיט", example: { text: "I stay at home tonight.", translation: "אני נשאר בבית הערב." } }
+  - { id: "quick", text: "quick", translation: "מהיר", pos: "adjective", pronunciation: "קְוִוויק", example: { text: "Take a quick look.", translation: "תסתכל מהר." } }
+  - { id: "recent", text: "recent", translation: "אחרון; עדכני", pos: "adjective", pronunciation: "רִיסֶנְט", example: { text: "The recent news is good.", translation: "החדשות האחרונות טובות." } }
+  - { id: "wide", text: "wide", translation: "רחב", pos: "adjective", pronunciation: "וַואיד", example: { text: "The river is wide.", translation: "הנהר רחב." } }
+  - { id: "below", text: "below", translation: "מתחת", pos: "adverb", pronunciation: "בִּילוֹ", example: { text: "The sun is below the hill.", translation: "השמש מתחת לגבעה." } }
+  - { id: "natural", text: "natural", translation: "טבעי", pos: "adjective", pronunciation: "נָצ'ֶרֶל", example: { text: "This is a natural color.", translation: "זה צבע טבעי." } }
+  - { id: "dark", text: "dark", translation: "חשוך", pos: "adjective", pronunciation: "דַארְק", example: { text: "It is dark outside.", translation: "חשוך בחוץ." } }
+  - { id: "shape", text: "shape", translation: "צורה", pos: "noun", pronunciation: "שֵׁייפּ", example: { text: "The shape is round.", translation: "הצורה עגולה." } }
+  - { id: "quickly", text: "quickly", translation: "במהירות", pos: "adverb", pronunciation: "קְוִוויקְלִי", example: { text: "He walks quickly.", translation: "הוא הולך מהר." } }
+  - { id: "nearly", text: "nearly", translation: "כמעט", pos: "adverb", pronunciation: "נִירְלִי", example: { text: "It is nearly midnight.", translation: "השעה כמעט חצות." } }
+  - { id: "completely", text: "completely", translation: "לגמרי", pos: "adverb", pronunciation: "קוֹמְפְּלִיטְלִי", example: { text: "I completely agree.", translation: "אני מסכים לגמרי." } }
+  - { id: "absolutely", text: "absolutely", translation: "בהחלט", pos: "adverb", pronunciation: "אַבְּסוֹלוּטְלִי", example: { text: "Absolutely, I can help.", translation: "בהחלט, אני יכול לעזור." } }
 grammar:
   - id: comparatives
     title: { he: "השוואה: colder, more expensive", en: "Comparatives" }
@@ -464,3 +482,505 @@ lessons:
         text: "Today is warmer than yesterday, but it's still windy."
         translation: "היום חמים יותר מאתמול, אבל עדיין יש רוח."
         lexemes: [warm, than, windy]
+  # ------------------------------------------------------------------ story words
+  - id: u16-n1
+    kind: new
+    title:
+      he: 'היומן של נועה: מפה ואזורים'
+      en: 'Noa''s diary: a map and regions'
+    exercises:
+    - id: u16-n1-01
+      type: dialogue
+      scene: בן מתכנן טיול ומראה לנועה מפה.
+      lines:
+      - speaker: ben
+        text: Look at the map. This region has beautiful nature.
+        translation: תסתכלי על המפה. באזור הזה יש טבע יפהפה.
+      - speaker: noa
+        text: What is the direction and the distance from here?
+        translation: מה הכיוון והמרחק מכאן?
+      - speaker: ben
+        text: The location is in the north, two hours by train.
+        translation: המיקום בצפון, שעתיים ברכבת.
+      - speaker: noa
+        text: Perfect.
+        translation: מושלם.
+    - id: u16-n1-02
+      type: learn
+      lexeme: nature
+    - id: u16-n1-03
+      type: learn
+      lexeme: location
+    - id: u16-n1-04
+      type: learn
+      lexeme: direction
+    - id: u16-n1-05
+      type: learn
+      lexeme: distance
+    - id: u16-n1-06
+      type: learn
+      lexeme: map
+    - id: u16-n1-07
+      type: learn
+      lexeme: region
+    - id: u16-n1-08
+      type: match_pairs
+      pairs:
+      - - nature
+        - טבע
+      - - location
+        - מיקום
+      - - direction
+        - כיוון
+      - - distance
+        - מרחק
+      - - map
+        - מפה
+      - - region
+        - אזור
+      lexemes:
+      - nature
+      - location
+      - direction
+      - distance
+      - map
+      - region
+    - id: u16-n1-09
+      type: multiple_choice
+      prompt: distance – מה הפירוש?
+      options:
+      - מרחק
+      - מפה
+      - אזור
+      correct: 0
+      lexemes:
+      - distance
+    - id: u16-n1-10
+      type: multiple_choice
+      prompt: map – מה הפירוש?
+      options:
+      - מפה
+      - מיקום
+      - טבע
+      correct: 0
+      lexemes:
+      - map
+    - id: u16-n1-11
+      type: multiple_choice
+      prompt: nature – מה הפירוש?
+      options:
+      - טבע
+      - אזור
+      - כיוון
+      correct: 0
+      lexemes:
+      - nature
+    - id: u16-n1-12
+      type: fill_blank
+      sentence: This ___ is green.
+      translation: האזור הזה ירוק.
+      answers:
+      - region
+      options:
+      - region
+      - nature
+      - location
+      lexemes:
+      - region
+    - id: u16-n1-13
+      type: fill_blank
+      sentence: Which ___ is the station?
+      translation: באיזה כיוון התחנה?
+      answers:
+      - direction
+      options:
+      - direction
+      - distance
+      - nature
+      lexemes:
+      - direction
+    - id: u16-n1-14
+      type: fill_blank
+      sentence: The ___ is perfect.
+      translation: המיקום מושלם.
+      answers:
+      - location
+      options:
+      - location
+      - nature
+      - direction
+      lexemes:
+      - location
+    - id: u16-n1-15
+      type: word_bank
+      prompt: המרחק קצר.
+      answers:
+      - The distance is short.
+      distractors:
+      - map
+      - nature
+      lexemes:
+      - distance
+    - id: u16-n1-16
+      type: word_bank
+      prompt: אני מסתכל על המפה.
+      answers:
+      - I look at the map.
+      distractors:
+      - region
+      - location
+      lexemes:
+      - map
+    - id: u16-n1-17
+      type: listening_choice
+      audioText: I love nature.
+      question: מה שמעתם?
+      options:
+      - אני אוהב טבע.
+      - המיקום מושלם.
+      - באיזה כיוון התחנה?
+      correct: 0
+      lexemes:
+      - nature
+    - id: u16-n1-18
+      type: speak_repeat
+      text: The map shows the direction and the distance.
+      translation: המפה מראה את הכיוון והמרחק.
+      lexemes:
+      - direction
+      - distance
+      - map
+  - id: u16-n2
+    kind: new
+    title:
+      he: 'היומן של נועה: הערב והרוח'
+      en: 'Noa''s diary: the evening and the wind'
+    exercises:
+    - id: u16-n2-01
+      type: dialogue
+      scene: בערב בלונדון, אחרי יום גשום.
+      lines:
+      - speaker: noa
+        text: Tonight the weather is quick to change.
+        translation: הערב מזג האוויר משתנה מהר.
+      - speaker: ben
+        text: The recent storm is below the hill now, and the river is wide.
+        translation: הסערה האחרונה נמצאת עכשיו מתחת לגבעה, והנהר רחב.
+      - speaker: noa
+        text: Natural weather is never the same here.
+        translation: מזג אוויר טבעי אף פעם לא אותו דבר כאן.
+      - speaker: ben
+        text: True, so take a coat.
+        translation: נכון, אז קחי מעיל.
+    - id: u16-n2-02
+      type: learn
+      lexeme: tonight
+    - id: u16-n2-03
+      type: learn
+      lexeme: quick
+    - id: u16-n2-04
+      type: learn
+      lexeme: recent
+    - id: u16-n2-05
+      type: learn
+      lexeme: wide
+    - id: u16-n2-06
+      type: learn
+      lexeme: below
+    - id: u16-n2-07
+      type: learn
+      lexeme: natural
+    - id: u16-n2-08
+      type: match_pairs
+      pairs:
+      - - tonight
+        - הערב
+      - - quick
+        - מהיר
+      - - recent
+        - אחרון; עדכני
+      - - wide
+        - רחב
+      - - below
+        - מתחת
+      - - natural
+        - טבעי
+      lexemes:
+      - tonight
+      - quick
+      - recent
+      - wide
+      - below
+      - natural
+    - id: u16-n2-09
+      type: multiple_choice
+      prompt: quick – מה הפירוש?
+      options:
+      - מהיר
+      - אחרון; עדכני
+      - טבעי
+      correct: 0
+      lexemes:
+      - quick
+    - id: u16-n2-10
+      type: multiple_choice
+      prompt: natural – מה הפירוש?
+      options:
+      - טבעי
+      - הערב
+      - אחרון; עדכני
+      correct: 0
+      lexemes:
+      - natural
+    - id: u16-n2-11
+      type: multiple_choice
+      prompt: below – מה הפירוש?
+      options:
+      - מתחת
+      - אחרון; עדכני
+      - טבעי
+      correct: 0
+      lexemes:
+      - below
+    - id: u16-n2-12
+      type: fill_blank
+      sentence: The river is ___.
+      translation: הנהר רחב.
+      answers:
+      - wide
+      options:
+      - wide
+      - recent
+      - tonight
+      lexemes:
+      - wide
+    - id: u16-n2-13
+      type: fill_blank
+      sentence: I stay at home ___.
+      translation: אני נשאר בבית הערב.
+      answers:
+      - tonight
+      options:
+      - tonight
+      - wide
+      - below
+      lexemes:
+      - tonight
+    - id: u16-n2-14
+      type: fill_blank
+      sentence: The ___ news is good.
+      translation: החדשות האחרונות טובות.
+      answers:
+      - recent
+      options:
+      - recent
+      - below
+      - tonight
+      lexemes:
+      - recent
+    - id: u16-n2-15
+      type: word_bank
+      prompt: תסתכל מהר.
+      answers:
+      - Take a quick look.
+      distractors:
+      - recent
+      - wide
+      lexemes:
+      - quick
+    - id: u16-n2-16
+      type: word_bank
+      prompt: זה צבע טבעי.
+      answers:
+      - This is a natural color.
+      distractors:
+      - tonight
+      - quick
+      lexemes:
+      - natural
+    - id: u16-n2-17
+      type: listening_choice
+      audioText: The sun is below the hill.
+      question: מה שמעתם?
+      options:
+      - השמש מתחת לגבעה.
+      - אני נשאר בבית הערב.
+      - תסתכל מהר.
+      correct: 0
+      lexemes:
+      - below
+    - id: u16-n2-18
+      type: speak_repeat
+      text: The recent weather is quick to change tonight.
+      translation: מזג האוויר האחרון משתנה מהר הערב.
+      lexemes:
+      - tonight
+      - quick
+      - recent
+  - id: u16-n3
+    kind: new
+    title:
+      he: 'היומן של נועה: חושך ושקט'
+      en: 'Noa''s diary: dark and quiet'
+    exercises:
+    - id: u16-n3-01
+      type: dialogue
+      scene: הטיול נגמר ונועה חוזרת הביתה בחושך.
+      lines:
+      - speaker: noa
+        text: It is dark now. The street is completely empty.
+        translation: חשוך עכשיו. הרחוב ריק לגמרי.
+      - speaker: ben
+        text: The shape of the hills is nearly invisible.
+        translation: הצורה של הגבעות כמעט בלתי נראית.
+      - speaker: noa
+        text: Absolutely. But I walk quickly, so I am fine.
+        translation: בהחלט. אבל אני הולכת מהר, אז הכול בסדר.
+      - speaker: ben
+        text: Message me when you arrive.
+        translation: תשלחי לי הודעה כשתגיעי.
+    - id: u16-n3-02
+      type: learn
+      lexeme: dark
+    - id: u16-n3-03
+      type: learn
+      lexeme: shape
+    - id: u16-n3-04
+      type: learn
+      lexeme: quickly
+    - id: u16-n3-05
+      type: learn
+      lexeme: nearly
+    - id: u16-n3-06
+      type: learn
+      lexeme: completely
+    - id: u16-n3-07
+      type: learn
+      lexeme: absolutely
+    - id: u16-n3-08
+      type: match_pairs
+      pairs:
+      - - dark
+        - חשוך
+      - - shape
+        - צורה
+      - - quickly
+        - במהירות
+      - - nearly
+        - כמעט
+      - - completely
+        - לגמרי
+      - - absolutely
+        - בהחלט
+      lexemes:
+      - dark
+      - shape
+      - quickly
+      - nearly
+      - completely
+      - absolutely
+    - id: u16-n3-09
+      type: multiple_choice
+      prompt: quickly – מה הפירוש?
+      options:
+      - במהירות
+      - בהחלט
+      - לגמרי
+      correct: 0
+      lexemes:
+      - quickly
+    - id: u16-n3-10
+      type: multiple_choice
+      prompt: nearly – מה הפירוש?
+      options:
+      - כמעט
+      - חשוך
+      - בהחלט
+      correct: 0
+      lexemes:
+      - nearly
+    - id: u16-n3-11
+      type: multiple_choice
+      prompt: completely – מה הפירוש?
+      options:
+      - לגמרי
+      - חשוך
+      - כמעט
+      correct: 0
+      lexemes:
+      - completely
+    - id: u16-n3-12
+      type: fill_blank
+      sentence: ___, I can help.
+      translation: בהחלט, אני יכול לעזור.
+      answers:
+      - Absolutely
+      options:
+      - Absolutely
+      - nearly
+      - quickly
+      lexemes:
+      - absolutely
+    - id: u16-n3-13
+      type: fill_blank
+      sentence: The ___ is round.
+      translation: הצורה עגולה.
+      answers:
+      - shape
+      options:
+      - shape
+      - nearly
+      - absolutely
+      lexemes:
+      - shape
+    - id: u16-n3-14
+      type: fill_blank
+      sentence: It is ___ outside.
+      translation: חשוך בחוץ.
+      answers:
+      - dark
+      options:
+      - dark
+      - nearly
+      - absolutely
+      lexemes:
+      - dark
+    - id: u16-n3-15
+      type: word_bank
+      prompt: הוא הולך מהר.
+      answers:
+      - He walks quickly.
+      distractors:
+      - dark
+      - completely
+      lexemes:
+      - quickly
+    - id: u16-n3-16
+      type: word_bank
+      prompt: השעה כמעט חצות.
+      answers:
+      - It is nearly midnight.
+      distractors:
+      - absolutely
+      - dark
+      lexemes:
+      - nearly
+    - id: u16-n3-17
+      type: listening_choice
+      audioText: I completely agree.
+      question: מה שמעתם?
+      options:
+      - אני מסכים לגמרי.
+      - חשוך בחוץ.
+      - הצורה עגולה.
+      correct: 0
+      lexemes:
+      - completely
+    - id: u16-n3-18
+      type: speak_repeat
+      text: It is completely dark, so I walk quickly.
+      translation: חשוך לגמרי, אז אני הולכת מהר.
+      lexemes:
+      - dark
+      - quickly
+      - completely

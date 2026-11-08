@@ -35,6 +35,24 @@ vocabulary:
   - { id: "have-got", text: "I've got…", translation: "יש לי…", pos: "phrase", pronunciation: "אַייב גוֹט", example: { text: "I've got a headache.", translation: "יש לי כאב ראש." } }
   - { id: "get-well-soon", text: "Get well soon!", translation: "רפואה שלמה! החלמה מהירה!", pos: "phrase", pronunciation: "גֶט וֶל סוּן" }
 
+  - { id: "blood", text: "blood", translation: "דם", pos: "noun", pronunciation: "בְּלָד", example: { text: "They take blood for the test.", translation: "לוקחים דם לבדיקה." } }
+  - { id: "brain", text: "brain", translation: "מוח", pos: "noun", pronunciation: "בְּרֵיין", example: { text: "The brain is important.", translation: "המוח חשוב." } }
+  - { id: "arm", text: "arm", translation: "זרוע", pos: "noun", pronunciation: "אַרְם", example: { text: "My arm hurts.", translation: "הזרוע שלי כואבת." } }
+  - { id: "leg", text: "leg", translation: "רגל", pos: "noun", pronunciation: "לֶג", example: { text: "His leg is better now.", translation: "הרגל שלו טובה יותר עכשיו." } }
+  - { id: "hair", text: "hair", translation: "שיער", pos: "noun", pronunciation: "הֶר", example: { text: "She has long hair.", translation: "יש לה שיער ארוך." } }
+  - { id: "face", text: "face", translation: "פנים", pos: "noun", pronunciation: "פֵייס", example: { text: "Her face is red.", translation: "הפנים שלה אדומות." } }
+  - { id: "disease", text: "disease", translation: "מחלה", pos: "noun", pronunciation: "דִיזִיז", example: { text: "The disease is not serious.", translation: "המחלה לא רצינית." } }
+  - { id: "medical", text: "medical", translation: "רפואי", pos: "adjective", pronunciation: "מֶדִיקֶל", example: { text: "I need medical help.", translation: "אני צריך עזרה רפואית." } }
+  - { id: "drug", text: "drug", translation: "תרופה; סם", pos: "noun", pronunciation: "דְרָאג", example: { text: "This drug is safe.", translation: "התרופה הזאת בטוחה." } }
+  - { id: "suffer", text: "suffer", translation: "לסבול", pos: "verb", pronunciation: "סָאפֶר", example: { text: "I suffer from a cold.", translation: "אני סובל מהצטננות." } }
+  - { id: "safety", text: "safety", translation: "בטיחות", pos: "noun", pronunciation: "סֵייפְטִי", example: { text: "Safety is important.", translation: "בטיחות חשובה." } }
+  - { id: "risk", text: "risk", translation: "סיכון", pos: "noun", pronunciation: "רִיסְק", example: { text: "There is no risk.", translation: "אין סיכון." } }
+  - { id: "attention", text: "attention", translation: "תשומת לב", pos: "noun", pronunciation: "אַטֶנְשֶׁן", example: { text: "Pay attention, please.", translation: "שים לב, בבקשה." } }
+  - { id: "avoid", text: "avoid", translation: "להימנע", pos: "verb", pronunciation: "אַבּוֹיד", example: { text: "Avoid the sun at noon.", translation: "הימנע מהשמש בצהריים." } }
+  - { id: "positive", text: "positive", translation: "חיובי", pos: "adjective", pronunciation: "פּוֹזִיטִיב", example: { text: "Stay positive.", translation: "הישאר חיובי." } }
+  - { id: "serious", text: "serious", translation: "רציני", pos: "adjective", pronunciation: "סִירִיאֶס", example: { text: "This is a serious problem.", translation: "זו בעיה רצינית." } }
+  - { id: "normal", text: "normal", translation: "רגיל; תקין", pos: "adjective", pronunciation: "נוֹרְמֶל", example: { text: "The test is normal.", translation: "הבדיקה תקינה." } }
+  - { id: "heavy", text: "heavy", translation: "כבד", pos: "adjective", pronunciation: "הֶבִי", example: { text: "The bag is heavy.", translation: "התיק כבד." } }
 grammar:
   - id: should-advice
     title: { he: "עצות: should ו־shouldn't", en: "Should and shouldn't" }
@@ -470,3 +488,504 @@ lessons:
         text: "I'd like to make an appointment with the doctor."
         translation: "הייתי רוצה לקבוע תור אצל הרופא."
         lexemes: [appointment, doctor]
+  # ------------------------------------------------------------------ story words
+  - id: u14-n1
+    kind: new
+    title:
+      he: 'היומן של נועה: חלקי הגוף'
+      en: 'Noa''s diary: parts of the body'
+    exercises:
+    - id: u14-n1-01
+      type: dialogue
+      scene: אצל ד״ר שטרן, בבדיקה ראשונה.
+      lines:
+      - speaker: dr-stern
+        text: Where does it hurt? Your arm or your leg?
+        translation: איפה כואב? היד או הרגל?
+      - speaker: noa
+        text: My head. My face feels hot, and even my hair hurts.
+        translation: הראש. הפנים חמות, ואפילו השיער כואב.
+      - speaker: dr-stern
+        text: I take a little blood for a test. It is routine.
+        translation: אני לוקח קצת דם לבדיקה. זה שגרתי.
+      - speaker: noa
+        text: Is it my brain? Is it something serious?
+        translation: זה המוח? זה משהו רציני?
+    - id: u14-n1-02
+      type: learn
+      lexeme: blood
+    - id: u14-n1-03
+      type: learn
+      lexeme: brain
+    - id: u14-n1-04
+      type: learn
+      lexeme: arm
+    - id: u14-n1-05
+      type: learn
+      lexeme: leg
+    - id: u14-n1-06
+      type: learn
+      lexeme: hair
+    - id: u14-n1-07
+      type: learn
+      lexeme: face
+    - id: u14-n1-08
+      type: match_pairs
+      pairs:
+      - - blood
+        - דם
+      - - brain
+        - מוח
+      - - arm
+        - זרוע
+      - - leg
+        - רגל
+      - - hair
+        - שיער
+      - - face
+        - פנים
+      lexemes:
+      - blood
+      - brain
+      - arm
+      - leg
+      - hair
+      - face
+    - id: u14-n1-09
+      type: multiple_choice
+      prompt: brain – מה הפירוש?
+      options:
+      - מוח
+      - דם
+      - פנים
+      correct: 0
+      lexemes:
+      - brain
+    - id: u14-n1-10
+      type: multiple_choice
+      prompt: leg – מה הפירוש?
+      options:
+      - רגל
+      - דם
+      - זרוע
+      correct: 0
+      lexemes:
+      - leg
+    - id: u14-n1-11
+      type: multiple_choice
+      prompt: arm – מה הפירוש?
+      options:
+      - זרוע
+      - רגל
+      - פנים
+      correct: 0
+      lexemes:
+      - arm
+    - id: u14-n1-12
+      type: fill_blank
+      sentence: Her ___ is red.
+      translation: הפנים שלה אדומות.
+      answers:
+      - face
+      options:
+      - face
+      - blood
+      - arm
+      lexemes:
+      - face
+    - id: u14-n1-13
+      type: fill_blank
+      sentence: They take ___ for the test.
+      translation: לוקחים דם לבדיקה.
+      answers:
+      - blood
+      options:
+      - blood
+      - leg
+      - arm
+      lexemes:
+      - blood
+    - id: u14-n1-14
+      type: fill_blank
+      sentence: She has long ___.
+      translation: יש לה שיער ארוך.
+      answers:
+      - hair
+      options:
+      - hair
+      - arm
+      - brain
+      lexemes:
+      - hair
+    - id: u14-n1-15
+      type: word_bank
+      prompt: המוח חשוב.
+      answers:
+      - The brain is important.
+      distractors:
+      - arm
+      - leg
+      lexemes:
+      - brain
+    - id: u14-n1-16
+      type: word_bank
+      prompt: הרגל שלו טובה יותר עכשיו.
+      answers:
+      - His leg is better now.
+      distractors:
+      - blood
+      - face
+      lexemes:
+      - leg
+    - id: u14-n1-17
+      type: listening_choice
+      audioText: My arm hurts.
+      question: מה שמעתם?
+      options:
+      - הזרוע שלי כואבת.
+      - לוקחים דם לבדיקה.
+      - המוח חשוב.
+      correct: 0
+      lexemes:
+      - arm
+    - id: u14-n1-18
+      type: speak_repeat
+      text: My arm and my leg hurt.
+      translation: הזרוע והרגל שלי כואבות.
+      lexemes:
+      - arm
+      - leg
+  - id: u14-n2
+    kind: new
+    title:
+      he: 'היומן של נועה: מחלה ותרופה'
+      en: 'Noa''s diary: illness and medicine'
+    exercises:
+    - id: u14-n2-01
+      type: dialogue
+      scene: ד״ר שטרן מסביר לנועה.
+      lines:
+      - speaker: dr-stern
+        text: You have a mild disease. It is not serious. Take this medical drug.
+        translation: יש לך מחלה קלה. זה לא רציני. קחי את התרופה הזאת.
+      - speaker: noa
+        text: Do I suffer from a risk?
+        translation: האם יש לי סיכון?
+      - speaker: dr-stern
+        text: No risk. For your safety, stay at home and rest.
+        translation: אין סיכון. לביטחונך, תישארי בבית ותנוחי.
+      - speaker: noa
+        text: Thank you, doctor.
+        translation: תודה, דוקטור.
+    - id: u14-n2-02
+      type: learn
+      lexeme: disease
+    - id: u14-n2-03
+      type: learn
+      lexeme: medical
+    - id: u14-n2-04
+      type: learn
+      lexeme: drug
+    - id: u14-n2-05
+      type: learn
+      lexeme: suffer
+    - id: u14-n2-06
+      type: learn
+      lexeme: safety
+    - id: u14-n2-07
+      type: learn
+      lexeme: risk
+    - id: u14-n2-08
+      type: match_pairs
+      pairs:
+      - - disease
+        - מחלה
+      - - medical
+        - רפואי
+      - - drug
+        - תרופה; סם
+      - - suffer
+        - לסבול
+      - - safety
+        - בטיחות
+      - - risk
+        - סיכון
+      lexemes:
+      - disease
+      - medical
+      - drug
+      - suffer
+      - safety
+      - risk
+    - id: u14-n2-09
+      type: multiple_choice
+      prompt: safety – מה הפירוש?
+      options:
+      - בטיחות
+      - רפואי
+      - מחלה
+      correct: 0
+      lexemes:
+      - safety
+    - id: u14-n2-10
+      type: multiple_choice
+      prompt: risk – מה הפירוש?
+      options:
+      - סיכון
+      - מחלה
+      - בטיחות
+      correct: 0
+      lexemes:
+      - risk
+    - id: u14-n2-11
+      type: multiple_choice
+      prompt: disease – מה הפירוש?
+      options:
+      - מחלה
+      - בטיחות
+      - סיכון
+      correct: 0
+      lexemes:
+      - disease
+    - id: u14-n2-12
+      type: fill_blank
+      sentence: I need ___ help.
+      translation: אני צריך עזרה רפואית.
+      answers:
+      - medical
+      options:
+      - medical
+      - disease
+      - drug
+      lexemes:
+      - medical
+    - id: u14-n2-13
+      type: fill_blank
+      sentence: I ___ from a cold.
+      translation: אני סובל מהצטננות.
+      answers:
+      - suffer
+      options:
+      - suffer
+      - risk
+      - safety
+      lexemes:
+      - suffer
+    - id: u14-n2-14
+      type: fill_blank
+      sentence: This ___ is safe.
+      translation: התרופה הזאת בטוחה.
+      answers:
+      - drug
+      options:
+      - drug
+      - medical
+      - safety
+      lexemes:
+      - drug
+    - id: u14-n2-15
+      type: word_bank
+      prompt: בטיחות חשובה.
+      answers:
+      - Safety is important.
+      distractors:
+      - disease
+      - drug
+      lexemes:
+      - safety
+    - id: u14-n2-16
+      type: word_bank
+      prompt: אין סיכון.
+      answers:
+      - There is no risk.
+      distractors:
+      - drug
+      - safety
+      lexemes:
+      - risk
+    - id: u14-n2-17
+      type: listening_choice
+      audioText: The disease is not serious.
+      question: מה שמעתם?
+      options:
+      - המחלה לא רצינית.
+      - אני צריך עזרה רפואית.
+      - התרופה הזאת בטוחה.
+      correct: 0
+      lexemes:
+      - disease
+    - id: u14-n2-18
+      type: speak_repeat
+      text: The medical drug is safe, there is no risk.
+      translation: התרופה הרפואית בטוחה, אין סיכון.
+      lexemes:
+      - medical
+      - drug
+      - risk
+  - id: u14-n3
+    kind: new
+    title:
+      he: 'היומן של נועה: לשים לב'
+      en: 'Noa''s diary: paying attention'
+    exercises:
+    - id: u14-n3-01
+      type: dialogue
+      scene: עצות אחרונות מהרופא.
+      lines:
+      - speaker: dr-stern
+        text: Pay attention to how you feel. Avoid the cold.
+        translation: שימי לב איך את מרגישה. הימנעי מהקור.
+      - speaker: noa
+        text: My condition is normal again. A heavy cough is serious, right?
+        translation: המצב שלי נורמלי שוב. שיעול כבד זה רציני, נכון?
+      - speaker: dr-stern
+        text: Yes. Stay positive and call me if it comes back.
+        translation: כן. תישארי חיובית ותתקשרי אליי אם זה חוזר.
+      - speaker: noa
+        text: I will.
+        translation: אעשה זאת.
+    - id: u14-n3-02
+      type: learn
+      lexeme: attention
+    - id: u14-n3-03
+      type: learn
+      lexeme: avoid
+    - id: u14-n3-04
+      type: learn
+      lexeme: positive
+    - id: u14-n3-05
+      type: learn
+      lexeme: serious
+    - id: u14-n3-06
+      type: learn
+      lexeme: normal
+    - id: u14-n3-07
+      type: learn
+      lexeme: heavy
+    - id: u14-n3-08
+      type: match_pairs
+      pairs:
+      - - attention
+        - תשומת לב
+      - - avoid
+        - להימנע
+      - - positive
+        - חיובי
+      - - serious
+        - רציני
+      - - normal
+        - רגיל; תקין
+      - - heavy
+        - כבד
+      lexemes:
+      - attention
+      - avoid
+      - positive
+      - serious
+      - normal
+      - heavy
+    - id: u14-n3-09
+      type: multiple_choice
+      prompt: positive – מה הפירוש?
+      options:
+      - חיובי
+      - תשומת לב
+      - להימנע
+      correct: 0
+      lexemes:
+      - positive
+    - id: u14-n3-10
+      type: multiple_choice
+      prompt: normal – מה הפירוש?
+      options:
+      - רגיל; תקין
+      - להימנע
+      - תשומת לב
+      correct: 0
+      lexemes:
+      - normal
+    - id: u14-n3-11
+      type: multiple_choice
+      prompt: heavy – מה הפירוש?
+      options:
+      - כבד
+      - רגיל; תקין
+      - תשומת לב
+      correct: 0
+      lexemes:
+      - heavy
+    - id: u14-n3-12
+      type: fill_blank
+      sentence: Pay ___, please.
+      translation: שים לב, בבקשה.
+      answers:
+      - attention
+      options:
+      - attention
+      - heavy
+      - normal
+      lexemes:
+      - attention
+    - id: u14-n3-13
+      type: fill_blank
+      sentence: This is a ___ problem.
+      translation: זו בעיה רצינית.
+      answers:
+      - serious
+      options:
+      - serious
+      - positive
+      - avoid
+      lexemes:
+      - serious
+    - id: u14-n3-14
+      type: fill_blank
+      sentence: ___ the sun at noon.
+      translation: הימנע מהשמש בצהריים.
+      answers:
+      - Avoid
+      options:
+      - Avoid
+      - positive
+      - serious
+      lexemes:
+      - avoid
+    - id: u14-n3-15
+      type: word_bank
+      prompt: הישאר חיובי.
+      answers:
+      - Stay positive.
+      distractors:
+      - heavy
+      - serious
+      lexemes:
+      - positive
+    - id: u14-n3-16
+      type: word_bank
+      prompt: הבדיקה תקינה.
+      answers:
+      - The test is normal.
+      distractors:
+      - avoid
+      - attention
+      lexemes:
+      - normal
+    - id: u14-n3-17
+      type: listening_choice
+      audioText: The bag is heavy.
+      question: מה שמעתם?
+      options:
+      - התיק כבד.
+      - שים לב, בבקשה.
+      - הימנע מהשמש בצהריים.
+      correct: 0
+      lexemes:
+      - heavy
+    - id: u14-n3-18
+      type: speak_repeat
+      text: Avoid heavy bags and stay positive.
+      translation: הימנעי מתיקים כבדים והישארי חיובית.
+      lexemes:
+      - avoid
+      - positive
+      - heavy

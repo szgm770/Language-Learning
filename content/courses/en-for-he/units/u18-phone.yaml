@@ -32,6 +32,24 @@ vocabulary:
   - { id: "cant-hear-you", text: "I can't hear you.", translation: "אני לא שומע אותך.", pos: "phrase", pronunciation: "אַיי קַאנְט הִיר יוּ" }
   - { id: "call-back", text: "call back", translation: "לחזור (בטלפון)", pos: "verb", pronunciation: "קוֹל בֶּק", example: { text: "I'll call you back.", translation: "אני אחזור אליך." } }
 
+  - { id: "website", text: "website", translation: "אתר אינטרנט", pos: "noun", pronunciation: "וֶוּבְּסַאיט", example: { text: "The website is new.", translation: "האתר חדש." } }
+  - { id: "click", text: "click", translation: "ללחוץ", pos: "verb", pronunciation: "קְלִיק", example: { text: "Click on the link.", translation: "לחץ על הקישור." } }
+  - { id: "copy", text: "copy", translation: "להעתיק", pos: "verb", pronunciation: "קוֹפִּי", example: { text: "Copy the file, please.", translation: "העתק את הקובץ, בבקשה." } }
+  - { id: "print", text: "print", translation: "להדפיס", pos: "verb", pronunciation: "פְּרִינְט", example: { text: "Print this page.", translation: "הדפס את העמוד הזה." } }
+  - { id: "network", text: "network", translation: "רשת", pos: "noun", pronunciation: "נֶטְוֶורְק", example: { text: "The network is slow.", translation: "הרשת איטית." } }
+  - { id: "code", text: "code", translation: "קוד", pos: "noun", pronunciation: "קוֹד", example: { text: "Enter the code, please.", translation: "הכנס את הקוד, בבקשה." } }
+  - { id: "access", text: "access", translation: "גישה", pos: "noun", pronunciation: "אַקְסֶס", example: { text: "I have no access to the file.", translation: "אין לי גישה לקובץ." } }
+  - { id: "content", text: "content", translation: "תוכן", pos: "noun", pronunciation: "קוֹנְטֶנְט", example: { text: "The content is interesting.", translation: "התוכן מעניין." } }
+  - { id: "search", text: "search", translation: "לחפש", pos: "verb", pronunciation: "סֶרְץ'", example: { text: "I search for a file.", translation: "אני מחפש קובץ." } }
+  - { id: "link", text: "link", translation: "קישור", pos: "noun", pronunciation: "לִינְק", example: { text: "Send me the link.", translation: "שלח לי את הקישור." } }
+  - { id: "machine", text: "machine", translation: "מכונה", pos: "noun", pronunciation: "מַשִׁין", example: { text: "The machine is old.", translation: "המכונה ישנה." } }
+  - { id: "technology", text: "technology", translation: "טכנולוגיה", pos: "noun", pronunciation: "טֶקְנוֹלוֹג'י", example: { text: "Technology changes fast.", translation: "טכנולוגיה משתנה מהר." } }
+  - { id: "connection", text: "connection", translation: "חיבור", pos: "noun", pronunciation: "קֶנֶקְשֶׁן", example: { text: "The connection is good.", translation: "החיבור טוב." } }
+  - { id: "conversation", text: "conversation", translation: "שיחה", pos: "noun", pronunciation: "קוֹנְבֶּרְסֵייְשֶׁן", example: { text: "We have a short conversation.", translation: "אנחנו מנהלים שיחה קצרה." } }
+  - { id: "recognize", text: "recognize", translation: "לזהות", pos: "verb", pronunciation: "רֶקֶגְנַאיז", example: { text: "I recognize your voice.", translation: "אני מזהה את הקול שלך." } }
+  - { id: "basic", text: "basic", translation: "בסיסי", pos: "adjective", pronunciation: "בֵּייסִיק", example: { text: "This is a basic rule.", translation: "זה כלל בסיסי." } }
+  - { id: "effective", text: "effective", translation: "יעיל", pos: "adjective", pronunciation: "אִיפֶקְטִיב", example: { text: "This drug is effective.", translation: "התרופה הזאת יעילה." } }
+  - { id: "complex", text: "complex", translation: "מורכב", pos: "adjective", pronunciation: "קוֹמְפְּלֶקְס", example: { text: "The problem is complex.", translation: "הבעיה מורכבת." } }
 grammar:
   - id: present-continuous
     title: { he: "עכשיו או בדרך כלל: I'm working, I work", en: "Present continuous vs present simple" }
@@ -464,3 +482,505 @@ lessons:
         text: "What are you doing? I'm downloading a new app."
         translation: "מה אתה עושה? אני מוריד אפליקציה חדשה."
         lexemes: [be-ing, download, app]
+  # ------------------------------------------------------------------ story words
+  - id: u18-n1
+    kind: new
+    title:
+      he: 'היומן של נועה: באתר'
+      en: 'Noa''s diary: on the website'
+    exercises:
+    - id: u18-n1-01
+      type: dialogue
+      scene: נועה עובדת על המחשב.
+      lines:
+      - speaker: noa
+        text: I click on the website and copy the text.
+        translation: אני לוחצת על האתר ומעתיקה את הטקסט.
+      - speaker: ben
+        text: Print it too. The network is slow today.
+        translation: תדפיסי גם. הרשת איטית היום.
+      - speaker: noa
+        text: I enter the code for the file, but nothing happens.
+        translation: אני מקלידה את הקוד לקובץ, אבל שום דבר לא קורה.
+      - speaker: ben
+        text: Try again.
+        translation: תנסי שוב.
+    - id: u18-n1-02
+      type: learn
+      lexeme: website
+    - id: u18-n1-03
+      type: learn
+      lexeme: click
+    - id: u18-n1-04
+      type: learn
+      lexeme: copy
+    - id: u18-n1-05
+      type: learn
+      lexeme: print
+    - id: u18-n1-06
+      type: learn
+      lexeme: network
+    - id: u18-n1-07
+      type: learn
+      lexeme: code
+    - id: u18-n1-08
+      type: match_pairs
+      pairs:
+      - - website
+        - אתר אינטרנט
+      - - click
+        - ללחוץ
+      - - copy
+        - להעתיק
+      - - print
+        - להדפיס
+      - - network
+        - רשת
+      - - code
+        - קוד
+      lexemes:
+      - website
+      - click
+      - copy
+      - print
+      - network
+      - code
+    - id: u18-n1-09
+      type: multiple_choice
+      prompt: network – מה הפירוש?
+      options:
+      - רשת
+      - להעתיק
+      - להדפיס
+      correct: 0
+      lexemes:
+      - network
+    - id: u18-n1-10
+      type: multiple_choice
+      prompt: code – מה הפירוש?
+      options:
+      - קוד
+      - להדפיס
+      - רשת
+      correct: 0
+      lexemes:
+      - code
+    - id: u18-n1-11
+      type: multiple_choice
+      prompt: copy – מה הפירוש?
+      options:
+      - להעתיק
+      - קוד
+      - אתר אינטרנט
+      correct: 0
+      lexemes:
+      - copy
+    - id: u18-n1-12
+      type: fill_blank
+      sentence: ___ on the link.
+      translation: לחץ על הקישור.
+      answers:
+      - Click
+      options:
+      - Click
+      - copy
+      - print
+      lexemes:
+      - click
+    - id: u18-n1-13
+      type: fill_blank
+      sentence: The ___ is new.
+      translation: האתר חדש.
+      answers:
+      - website
+      options:
+      - website
+      - network
+      - copy
+      lexemes:
+      - website
+    - id: u18-n1-14
+      type: fill_blank
+      sentence: ___ this page.
+      translation: הדפס את העמוד הזה.
+      answers:
+      - Print
+      options:
+      - Print
+      - code
+      - network
+      lexemes:
+      - print
+    - id: u18-n1-15
+      type: word_bank
+      prompt: הרשת איטית.
+      answers:
+      - The network is slow.
+      distractors:
+      - website
+      - code
+      lexemes:
+      - network
+    - id: u18-n1-16
+      type: word_bank
+      prompt: הכנס את הקוד, בבקשה.
+      answers:
+      - Enter the code, please.
+      distractors:
+      - copy
+      - network
+      lexemes:
+      - code
+    - id: u18-n1-17
+      type: listening_choice
+      audioText: Copy the file, please.
+      question: מה שמעתם?
+      options:
+      - העתק את הקובץ, בבקשה.
+      - האתר חדש.
+      - לחץ על הקישור.
+      correct: 0
+      lexemes:
+      - copy
+    - id: u18-n1-18
+      type: speak_repeat
+      text: I click and copy the code.
+      translation: אני לוחצת ומעתיקה את הקוד.
+      lexemes:
+      - click
+      - copy
+      - code
+  - id: u18-n2
+    kind: new
+    title:
+      he: 'היומן של נועה: חיפוש ותוכן'
+      en: 'Noa''s diary: search and content'
+    exercises:
+    - id: u18-n2-01
+      type: dialogue
+      scene: נועה מחפשת מידע לעבודה.
+      lines:
+      - speaker: noa
+        text: I search for the content on the machine, but I have no access.
+        translation: אני מחפשת את התוכן במחשב, אבל אין לי גישה.
+      - speaker: ben
+        text: Use this link. The new technology is faster.
+        translation: השתמשי בקישור הזה. הטכנולוגיה החדשה מהירה יותר.
+      - speaker: noa
+        text: The machine is old, it is slow to load.
+        translation: המכונה ישנה, היא איטית לטעינה.
+      - speaker: ben
+        text: Ask David to update it.
+        translation: תבקשי מדוד לעדכן אותה.
+    - id: u18-n2-02
+      type: learn
+      lexeme: access
+    - id: u18-n2-03
+      type: learn
+      lexeme: content
+    - id: u18-n2-04
+      type: learn
+      lexeme: search
+    - id: u18-n2-05
+      type: learn
+      lexeme: link
+    - id: u18-n2-06
+      type: learn
+      lexeme: machine
+    - id: u18-n2-07
+      type: learn
+      lexeme: technology
+    - id: u18-n2-08
+      type: match_pairs
+      pairs:
+      - - access
+        - גישה
+      - - content
+        - תוכן
+      - - search
+        - לחפש
+      - - link
+        - קישור
+      - - machine
+        - מכונה
+      - - technology
+        - טכנולוגיה
+      lexemes:
+      - access
+      - content
+      - search
+      - link
+      - machine
+      - technology
+    - id: u18-n2-09
+      type: multiple_choice
+      prompt: search – מה הפירוש?
+      options:
+      - לחפש
+      - טכנולוגיה
+      - קישור
+      correct: 0
+      lexemes:
+      - search
+    - id: u18-n2-10
+      type: multiple_choice
+      prompt: content – מה הפירוש?
+      options:
+      - תוכן
+      - גישה
+      - קישור
+      correct: 0
+      lexemes:
+      - content
+    - id: u18-n2-11
+      type: multiple_choice
+      prompt: access – מה הפירוש?
+      options:
+      - גישה
+      - תוכן
+      - קישור
+      correct: 0
+      lexemes:
+      - access
+    - id: u18-n2-12
+      type: fill_blank
+      sentence: ___ changes fast.
+      translation: טכנולוגיה משתנה מהר.
+      answers:
+      - Technology
+      options:
+      - Technology
+      - access
+      - content
+      lexemes:
+      - technology
+    - id: u18-n2-13
+      type: fill_blank
+      sentence: The ___ is old.
+      translation: המכונה ישנה.
+      answers:
+      - machine
+      options:
+      - machine
+      - link
+      - access
+      lexemes:
+      - machine
+    - id: u18-n2-14
+      type: fill_blank
+      sentence: Send me the ___.
+      translation: שלח לי את הקישור.
+      answers:
+      - link
+      options:
+      - link
+      - machine
+      - content
+      lexemes:
+      - link
+    - id: u18-n2-15
+      type: word_bank
+      prompt: אני מחפש קובץ.
+      answers:
+      - I search for a file.
+      distractors:
+      - content
+      - technology
+      lexemes:
+      - search
+    - id: u18-n2-16
+      type: word_bank
+      prompt: התוכן מעניין.
+      answers:
+      - The content is interesting.
+      distractors:
+      - search
+      - technology
+      lexemes:
+      - content
+    - id: u18-n2-17
+      type: listening_choice
+      audioText: I have no access to the file.
+      question: מה שמעתם?
+      options:
+      - אין לי גישה לקובץ.
+      - התוכן מעניין.
+      - אני מחפש קובץ.
+      correct: 0
+      lexemes:
+      - access
+    - id: u18-n2-18
+      type: speak_repeat
+      text: I search for the content with a link.
+      translation: אני מחפשת את התוכן עם קישור.
+      lexemes:
+      - content
+      - search
+      - link
+  - id: u18-n3
+    kind: new
+    title:
+      he: 'היומן של נועה: שיחה וחיבור'
+      en: 'Noa''s diary: a conversation and a connection'
+    exercises:
+    - id: u18-n3-01
+      type: dialogue
+      scene: בן מתקשר לנועה בזמן שהחיבור נקטע.
+      lines:
+      - speaker: ben
+        text: Can you hear me? The connection is bad.
+        translation: את שומעת אותי? החיבור גרוע.
+      - speaker: noa
+        text: I recognize your voice, but the conversation is not clear.
+        translation: אני מזהה את הקול שלך, אבל השיחה לא ברורה.
+      - speaker: ben
+        text: Basic problem. I need a more effective phone.
+        translation: בעיה בסיסית. אני צריך טלפון יעיל יותר.
+      - speaker: noa
+        text: It is a complex system. Call again.
+        translation: זו מערכת מורכבת. תתקשר שוב.
+    - id: u18-n3-02
+      type: learn
+      lexeme: connection
+    - id: u18-n3-03
+      type: learn
+      lexeme: conversation
+    - id: u18-n3-04
+      type: learn
+      lexeme: recognize
+    - id: u18-n3-05
+      type: learn
+      lexeme: basic
+    - id: u18-n3-06
+      type: learn
+      lexeme: effective
+    - id: u18-n3-07
+      type: learn
+      lexeme: complex
+    - id: u18-n3-08
+      type: match_pairs
+      pairs:
+      - - connection
+        - חיבור
+      - - conversation
+        - שיחה
+      - - recognize
+        - לזהות
+      - - basic
+        - בסיסי
+      - - effective
+        - יעיל
+      - - complex
+        - מורכב
+      lexemes:
+      - connection
+      - conversation
+      - recognize
+      - basic
+      - effective
+      - complex
+    - id: u18-n3-09
+      type: multiple_choice
+      prompt: connection – מה הפירוש?
+      options:
+      - חיבור
+      - בסיסי
+      - שיחה
+      correct: 0
+      lexemes:
+      - connection
+    - id: u18-n3-10
+      type: multiple_choice
+      prompt: basic – מה הפירוש?
+      options:
+      - בסיסי
+      - חיבור
+      - לזהות
+      correct: 0
+      lexemes:
+      - basic
+    - id: u18-n3-11
+      type: multiple_choice
+      prompt: complex – מה הפירוש?
+      options:
+      - מורכב
+      - חיבור
+      - לזהות
+      correct: 0
+      lexemes:
+      - complex
+    - id: u18-n3-12
+      type: fill_blank
+      sentence: I ___ your voice.
+      translation: אני מזהה את הקול שלך.
+      answers:
+      - recognize
+      options:
+      - recognize
+      - connection
+      - basic
+      lexemes:
+      - recognize
+    - id: u18-n3-13
+      type: fill_blank
+      sentence: This drug is ___.
+      translation: התרופה הזאת יעילה.
+      answers:
+      - effective
+      options:
+      - effective
+      - connection
+      - basic
+      lexemes:
+      - effective
+    - id: u18-n3-14
+      type: fill_blank
+      sentence: We have a short ___.
+      translation: אנחנו מנהלים שיחה קצרה.
+      answers:
+      - conversation
+      options:
+      - conversation
+      - connection
+      - basic
+      lexemes:
+      - conversation
+    - id: u18-n3-15
+      type: word_bank
+      prompt: החיבור טוב.
+      answers:
+      - The connection is good.
+      distractors:
+      - conversation
+      - complex
+      lexemes:
+      - connection
+    - id: u18-n3-16
+      type: word_bank
+      prompt: זה כלל בסיסי.
+      answers:
+      - This is a basic rule.
+      distractors:
+      - connection
+      - complex
+      lexemes:
+      - basic
+    - id: u18-n3-17
+      type: listening_choice
+      audioText: The problem is complex.
+      question: מה שמעתם?
+      options:
+      - הבעיה מורכבת.
+      - החיבור טוב.
+      - אנחנו מנהלים שיחה קצרה.
+      correct: 0
+      lexemes:
+      - complex
+    - id: u18-n3-18
+      type: speak_repeat
+      text: The conversation is basic and effective.
+      translation: השיחה בסיסית ויעילה.
+      lexemes:
+      - conversation
+      - basic
+      - effective

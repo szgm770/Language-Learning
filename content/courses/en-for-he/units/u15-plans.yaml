@@ -33,6 +33,24 @@ vocabulary:
   - { id: "good-luck", text: "Good luck!", translation: "בהצלחה!", pos: "phrase", pronunciation: "גוּד לַאק" }
   - { id: "what-are-you-going-to-do", text: "What are you going to do?", translation: "מה אתה הולך לעשות?", pos: "phrase", pronunciation: "ווֹט אָר יוּ גוֹאִינְג טוּ דוּ" }
 
+  - { id: "success", text: "success", translation: "הצלחה", pos: "noun", pronunciation: "סַקְסֶס", example: { text: "I wish you success.", translation: "אני מאחל לך הצלחה." } }
+  - { id: "income", text: "income", translation: "הכנסה", pos: "noun", pronunciation: "אִינְקָאם", example: { text: "His income is good.", translation: "ההכנסה שלו טובה." } }
+  - { id: "earn", text: "earn", translation: "להרוויח", pos: "verb", pronunciation: "ֶרְן", example: { text: "I earn money at work.", translation: "אני מרוויח כסף בעבודה." } }
+  - { id: "schedule", text: "schedule", translation: "לוח זמנים", pos: "noun", pronunciation: "סְקֶג'וּל", example: { text: "My schedule is full.", translation: "לוח הזמנים שלי מלא." } }
+  - { id: "grow", text: "grow", translation: "לגדול", pos: "verb", pronunciation: "גְרוֹ", example: { text: "The company will grow next year.", translation: "החברה תגדל בשנה הבאה." } }
+  - { id: "grade", text: "grade", translation: "ציון; דרגה", pos: "noun", pronunciation: "גְרֵייד", example: { text: "She got a good grade.", translation: "היא קיבלה ציון טוב." } }
+  - { id: "attend", text: "attend", translation: "להשתתף", pos: "verb", pronunciation: "אַטֶנְד", example: { text: "I attend a class every week.", translation: "אני משתתף בשיעור כל שבוע." } }
+  - { id: "education", text: "education", translation: "השכלה", pos: "noun", pronunciation: "אֶג'וּקֵיישֶׁן", example: { text: "Education is important.", translation: "השכלה חשובה." } }
+  - { id: "competition", text: "competition", translation: "תחרות", pos: "noun", pronunciation: "קוֹמְפִּטִישֶׁן", example: { text: "There is a lot of competition.", translation: "יש הרבה תחרות." } }
+  - { id: "entire", text: "entire", translation: "שלם", pos: "adjective", pronunciation: "אֶנְטַאיֶר", example: { text: "I study the entire day.", translation: "אני לומד את כל היום." } }
+  - { id: "depend", text: "depend", translation: "להיות תלוי", pos: "verb", pronunciation: "דִיפֶּנְד", example: { text: "Prices depend on the season.", translation: "המחירים תלויים בעונה." } }
+  - { id: "suppose", text: "suppose", translation: "להניח", pos: "verb", pronunciation: "סַפּוֹז", example: { text: "I suppose you are right.", translation: "אני מניח שאתה צודק." } }
+  - { id: "imagine", text: "imagine", translation: "לדמיין", pos: "verb", pronunciation: "אִימֶג'ִין", example: { text: "Imagine a big garden.", translation: "דמיין גינה גדולה." } }
+  - { id: "likely", text: "likely", translation: "סביר", pos: "adjective", pronunciation: "לַאיקְלִי", example: { text: "Rain is likely tomorrow.", translation: "סביר שיירד גשם מחר." } }
+  - { id: "potential", text: "potential", translation: "פוטנציאל", pos: "noun", pronunciation: "פּוֹטֶנְשֶׁל", example: { text: "The idea has potential.", translation: "לרעיון יש פוטנציאל." } }
+  - { id: "ahead", text: "ahead", translation: "קדימה", pos: "adverb", pronunciation: "אַהֶד", example: { text: "Look ahead.", translation: "הסתכל קדימה." } }
+  - { id: "finally", text: "finally", translation: "סוף סוף", pos: "adverb", pronunciation: "פַיינֶלִי", example: { text: "Finally, we are home.", translation: "סוף סוף אנחנו בבית." } }
+  - { id: "eventually", text: "eventually", translation: "בסוף", pos: "adverb", pronunciation: "אִיבֶּנְצ'וּאָלִי", example: { text: "Eventually, we win.", translation: "בסוף ננצח." } }
 grammar:
   - id: going-to-future
     title: { he: "עתיד עם going to", en: "Going to" }
@@ -472,3 +490,502 @@ lessons:
         text: "What are you going to do next year?"
         translation: "מה אתה הולך לעשות בשנה הבאה?"
         lexemes: [what-are-you-going-to-do, next-year]
+  # ------------------------------------------------------------------ story words
+  - id: u15-n1
+    kind: new
+    title:
+      he: 'היומן של נועה: הצלחה וכסף'
+      en: 'Noa''s diary: success and money'
+    exercises:
+    - id: u15-n1-01
+      type: dialogue
+      scene: נועה, בן ורחל מדברים על שנה חדשה.
+      lines:
+      - speaker: ben
+        text: My plan is simple. I want success in my job and a better income.
+        translation: התוכנית שלי פשוטה. אני רוצה הצלחה בעבודה והכנסה טובה יותר.
+      - speaker: rachel
+        text: I earn little, but I have a schedule for saving.
+        translation: אני מרוויחה מעט, אבל יש לי לוח זמנים לחיסכון.
+      - speaker: noa
+        text: I plan to grow in spring, and get a new grade at work.
+        translation: אני מתכננת טיול באביב, ודרגה חדשה בעבודה.
+      - speaker: ben
+        text: Good luck to us all!
+        translation: בהצלחה לכולנו!
+    - id: u15-n1-02
+      type: learn
+      lexeme: success
+    - id: u15-n1-03
+      type: learn
+      lexeme: income
+    - id: u15-n1-04
+      type: learn
+      lexeme: earn
+    - id: u15-n1-05
+      type: learn
+      lexeme: schedule
+    - id: u15-n1-06
+      type: learn
+      lexeme: grow
+    - id: u15-n1-07
+      type: learn
+      lexeme: grade
+    - id: u15-n1-08
+      type: match_pairs
+      pairs:
+      - - success
+        - הצלחה
+      - - income
+        - הכנסה
+      - - earn
+        - להרוויח
+      - - schedule
+        - לוח זמנים
+      - - grow
+        - לגדול
+      - - grade
+        - ציון; דרגה
+      lexemes:
+      - success
+      - income
+      - earn
+      - schedule
+      - grow
+      - grade
+    - id: u15-n1-09
+      type: multiple_choice
+      prompt: grow – מה הפירוש?
+      options:
+      - לגדול
+      - ציון; דרגה
+      - לוח זמנים
+      correct: 0
+      lexemes:
+      - grow
+    - id: u15-n1-10
+      type: multiple_choice
+      prompt: income – מה הפירוש?
+      options:
+      - הכנסה
+      - ציון; דרגה
+      - להרוויח
+      correct: 0
+      lexemes:
+      - income
+    - id: u15-n1-11
+      type: multiple_choice
+      prompt: grade – מה הפירוש?
+      options:
+      - ציון; דרגה
+      - לגדול
+      - הצלחה
+      correct: 0
+      lexemes:
+      - grade
+    - id: u15-n1-12
+      type: fill_blank
+      sentence: I ___ money at work.
+      translation: אני מרוויח כסף בעבודה.
+      answers:
+      - earn
+      options:
+      - earn
+      - schedule
+      - grade
+      lexemes:
+      - earn
+    - id: u15-n1-13
+      type: fill_blank
+      sentence: I wish you ___.
+      translation: אני מאחל לך הצלחה.
+      answers:
+      - success
+      options:
+      - success
+      - schedule
+      - earn
+      lexemes:
+      - success
+    - id: u15-n1-14
+      type: fill_blank
+      sentence: My ___ is full.
+      translation: לוח הזמנים שלי מלא.
+      answers:
+      - schedule
+      options:
+      - schedule
+      - grade
+      - income
+      lexemes:
+      - schedule
+    - id: u15-n1-15
+      type: word_bank
+      prompt: החברה תגדל בשנה הבאה.
+      answers:
+      - The company will grow next year.
+      distractors:
+      - schedule
+      - grade
+      lexemes:
+      - grow
+    - id: u15-n1-16
+      type: word_bank
+      prompt: ההכנסה שלו טובה.
+      answers:
+      - His income is good.
+      distractors:
+      - grade
+      - success
+      lexemes:
+      - income
+    - id: u15-n1-17
+      type: listening_choice
+      audioText: She got a good grade.
+      question: מה שמעתם?
+      options:
+      - היא קיבלה ציון טוב.
+      - אני מאחל לך הצלחה.
+      - ההכנסה שלו טובה.
+      correct: 0
+      lexemes:
+      - grade
+    - id: u15-n1-18
+      type: speak_repeat
+      text: I earn money and plan to grow.
+      translation: אני מרוויחה כסף ומתכננת לגדול.
+      lexemes:
+      - earn
+      - grow
+  - id: u15-n2
+    kind: new
+    title:
+      he: 'היומן של נועה: ללמוד'
+      en: 'Noa''s diary: studying'
+    exercises:
+    - id: u15-n2-01
+      type: dialogue
+      scene: רחל מספרת על קורס חדש.
+      lines:
+      - speaker: rachel
+        text: I attend a course in the evening. Education is very important.
+        translation: אני משתתפת בקורס בערב. השכלה חשובה מאוד.
+      - speaker: noa
+        text: Is there competition for a place?
+        translation: יש תחרות על מקום?
+      - speaker: rachel
+        text: Yes. It depends on your grades, and I suppose I study the entire week.
+        translation: כן. זה תלוי בציונים, ואני מניחה שאלמד כל השבוע.
+      - speaker: noa
+        text: You can do it.
+        translation: את יכולה לעשות את זה.
+    - id: u15-n2-02
+      type: learn
+      lexeme: attend
+    - id: u15-n2-03
+      type: learn
+      lexeme: education
+    - id: u15-n2-04
+      type: learn
+      lexeme: competition
+    - id: u15-n2-05
+      type: learn
+      lexeme: entire
+    - id: u15-n2-06
+      type: learn
+      lexeme: depend
+    - id: u15-n2-07
+      type: learn
+      lexeme: suppose
+    - id: u15-n2-08
+      type: match_pairs
+      pairs:
+      - - attend
+        - להשתתף
+      - - education
+        - השכלה
+      - - competition
+        - תחרות
+      - - entire
+        - שלם
+      - - depend
+        - להיות תלוי
+      - - suppose
+        - להניח
+      lexemes:
+      - attend
+      - education
+      - competition
+      - entire
+      - depend
+      - suppose
+    - id: u15-n2-09
+      type: multiple_choice
+      prompt: depend – מה הפירוש?
+      options:
+      - להיות תלוי
+      - שלם
+      - להניח
+      correct: 0
+      lexemes:
+      - depend
+    - id: u15-n2-10
+      type: multiple_choice
+      prompt: education – מה הפירוש?
+      options:
+      - השכלה
+      - שלם
+      - להיות תלוי
+      correct: 0
+      lexemes:
+      - education
+    - id: u15-n2-11
+      type: multiple_choice
+      prompt: competition – מה הפירוש?
+      options:
+      - תחרות
+      - שלם
+      - להניח
+      correct: 0
+      lexemes:
+      - competition
+    - id: u15-n2-12
+      type: fill_blank
+      sentence: I ___ you are right.
+      translation: אני מניח שאתה צודק.
+      answers:
+      - suppose
+      options:
+      - suppose
+      - attend
+      - entire
+      lexemes:
+      - suppose
+    - id: u15-n2-13
+      type: fill_blank
+      sentence: I study the ___ day.
+      translation: אני לומד את כל היום.
+      answers:
+      - entire
+      options:
+      - entire
+      - depend
+      - suppose
+      lexemes:
+      - entire
+    - id: u15-n2-14
+      type: fill_blank
+      sentence: I ___ a class every week.
+      translation: אני משתתף בשיעור כל שבוע.
+      answers:
+      - attend
+      options:
+      - attend
+      - suppose
+      - competition
+      lexemes:
+      - attend
+    - id: u15-n2-15
+      type: word_bank
+      prompt: המחירים תלויים בעונה.
+      answers:
+      - Prices depend on the season.
+      distractors:
+      - entire
+      - suppose
+      lexemes:
+      - depend
+    - id: u15-n2-16
+      type: word_bank
+      prompt: השכלה חשובה.
+      answers:
+      - Education is important.
+      distractors:
+      - depend
+      - entire
+      lexemes:
+      - education
+    - id: u15-n2-17
+      type: listening_choice
+      audioText: There is a lot of competition.
+      question: מה שמעתם?
+      options:
+      - יש הרבה תחרות.
+      - אני משתתף בשיעור כל שבוע.
+      - השכלה חשובה.
+      correct: 0
+      lexemes:
+      - competition
+    - id: u15-n2-18
+      type: speak_repeat
+      text: It depends on the competition.
+      translation: זה תלוי בתחרות.
+      lexemes:
+      - competition
+  - id: u15-n3
+    kind: new
+    title:
+      he: 'היומן של נועה: חלומות'
+      en: 'Noa''s diary: dreams'
+    exercises:
+    - id: u15-n3-01
+      type: dialogue
+      scene: נועה וחברים מדמיינים את העתיד.
+      lines:
+      - speaker: noa
+        text: Imagine a new office in Tel Aviv. It is likely, and the potential is big.
+        translation: תדמיינו משרד חדש בתל אביב. זה סביר, והפוטנציאל גדול.
+      - speaker: ben
+        text: Anyway, we look ahead. Finally, someone has a dream.
+        translation: בכל מקרה, אנחנו מסתכלים קדימה. סוף סוף למישהו יש חלום.
+      - speaker: noa
+        text: Eventually we do it.
+        translation: בסוף נעשה את זה.
+      - speaker: ben
+        text: I hope so.
+        translation: אני מקווה.
+    - id: u15-n3-02
+      type: learn
+      lexeme: imagine
+    - id: u15-n3-03
+      type: learn
+      lexeme: likely
+    - id: u15-n3-04
+      type: learn
+      lexeme: potential
+    - id: u15-n3-05
+      type: learn
+      lexeme: ahead
+    - id: u15-n3-06
+      type: learn
+      lexeme: finally
+    - id: u15-n3-07
+      type: learn
+      lexeme: eventually
+    - id: u15-n3-08
+      type: match_pairs
+      pairs:
+      - - imagine
+        - לדמיין
+      - - likely
+        - סביר
+      - - potential
+        - פוטנציאל
+      - - ahead
+        - קדימה
+      - - finally
+        - סוף סוף
+      - - eventually
+        - בסוף
+      lexemes:
+      - imagine
+      - likely
+      - potential
+      - ahead
+      - finally
+      - eventually
+    - id: u15-n3-09
+      type: multiple_choice
+      prompt: potential – מה הפירוש?
+      options:
+      - פוטנציאל
+      - סוף סוף
+      - קדימה
+      correct: 0
+      lexemes:
+      - potential
+    - id: u15-n3-10
+      type: multiple_choice
+      prompt: likely – מה הפירוש?
+      options:
+      - סביר
+      - קדימה
+      - בסוף
+      correct: 0
+      lexemes:
+      - likely
+    - id: u15-n3-11
+      type: multiple_choice
+      prompt: finally – מה הפירוש?
+      options:
+      - סוף סוף
+      - לדמיין
+      - קדימה
+      correct: 0
+      lexemes:
+      - finally
+    - id: u15-n3-12
+      type: fill_blank
+      sentence: ___ a big garden.
+      translation: דמיין גינה גדולה.
+      answers:
+      - Imagine
+      options:
+      - Imagine
+      - potential
+      - eventually
+      lexemes:
+      - imagine
+    - id: u15-n3-13
+      type: fill_blank
+      sentence: Look ___.
+      translation: הסתכל קדימה.
+      answers:
+      - ahead
+      options:
+      - ahead
+      - potential
+      - eventually
+      lexemes:
+      - ahead
+    - id: u15-n3-14
+      type: fill_blank
+      sentence: ___, we win.
+      translation: בסוף ננצח.
+      answers:
+      - Eventually
+      options:
+      - Eventually
+      - potential
+      - finally
+      lexemes:
+      - eventually
+    - id: u15-n3-15
+      type: word_bank
+      prompt: לרעיון יש פוטנציאל.
+      answers:
+      - The idea has potential.
+      distractors:
+      - finally
+      - ahead
+      lexemes:
+      - potential
+    - id: u15-n3-16
+      type: word_bank
+      prompt: סביר שיירד גשם מחר.
+      answers:
+      - Rain is likely tomorrow.
+      distractors:
+      - finally
+      - potential
+      lexemes:
+      - likely
+    - id: u15-n3-17
+      type: listening_choice
+      audioText: Finally, we are home.
+      question: מה שמעתם?
+      options:
+      - סוף סוף אנחנו בבית.
+      - דמיין גינה גדולה.
+      - סביר שיירד גשם מחר.
+      correct: 0
+      lexemes:
+      - finally
+    - id: u15-n3-18
+      type: speak_repeat
+      text: Finally I look ahead. Imagine it!
+      translation: סוף סוף אני מסתכלת קדימה. דמיינו את זה!
+      lexemes:
+      - imagine
+      - ahead
+      - finally
