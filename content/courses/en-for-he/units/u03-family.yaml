@@ -42,6 +42,18 @@ vocabulary:
   - { id: "fifty", text: "fifty", translation: "חמישים", pos: "number", pronunciation: "פִיפְטִי" }
   - { id: "hundred", text: "a hundred", translation: "מאה", pos: "number", pronunciation: "אֶ הָאנְדְרֶד" }
 
+  - { id: "baby", text: "baby", translation: "תינוק", pos: "noun", pronunciation: "בֵּיבִּי", example: { text: "The baby sleeps now.", translation: "התינוק ישן עכשיו." } }
+  - { id: "kid", text: "kid", translation: "ילד", pos: "noun", pronunciation: "קִיד", example: { text: "My kid is six.", translation: "הילד שלי בן שש." } }
+  - { id: "boy", text: "boy", translation: "ילד (בן)", pos: "noun", pronunciation: "בּוֹי", example: { text: "The boy plays outside.", translation: "הילד משחק בחוץ." } }
+  - { id: "girl", text: "girl", translation: "ילדה", pos: "noun", pronunciation: "גֶרְל", example: { text: "The girl has a red bag.", translation: "לילדה יש תיק אדום." } }
+  - { id: "man", text: "man", translation: "גבר", pos: "noun", pronunciation: "מֶן", example: { text: "The man is my uncle.", translation: "האיש הוא הדוד שלי." } }
+  - { id: "woman", text: "woman", translation: "אישה", pos: "noun", pronunciation: "וּומֶן", example: { text: "The woman is my aunt.", translation: "האישה היא הדודה שלי." } }
+  - { id: "age", text: "age", translation: "גיל", pos: "noun", pronunciation: "אֵייג'", example: { text: "What is your age?", translation: "בן כמה אתה?" } }
+  - { id: "care", text: "care", translation: "לטפל; לדאוג", pos: "verb", pronunciation: "קֶר", example: { text: "I care about my family.", translation: "אכפת לי מהמשפחה שלי." } }
+  - { id: "couple", text: "couple", translation: "זוג", pos: "noun", pronunciation: "קָאפֶּל", example: { text: "They are a nice couple.", translation: "הם זוג נחמד." } }
+  - { id: "true", text: "true", translation: "נכון; אמיתי", pos: "adjective", pronunciation: "טְרוּ", example: { text: "That is true.", translation: "זה נכון." } }
+  - { id: "easy", text: "easy", translation: "קל", pos: "adjective", pronunciation: "אִיזִי", example: { text: "The question is easy.", translation: "השאלה קלה." } }
+  - { id: "different", text: "different", translation: "שונה", pos: "adjective", pronunciation: "דִיפְרֶנְט", example: { text: "My sister is different from me.", translation: "אחותי שונה ממני." } }
 grammar:
   - id: possessives
     title: { he: "של מי: his, her, our, their", en: "his, her, our, their" }
@@ -406,3 +418,336 @@ lessons:
         text: "This is my friend Miriam. She's from Spain."
         translation: "זו החברה שלי מרים. היא מספרד."
         lexemes: [friend, she]
+  # ------------------------------------------------------------------ story words
+  - id: u3-n1
+    kind: new
+    title:
+      he: 'היומן של נועה: ילדים ובוגרים'
+      en: 'Noa''s diary: kids and grown-ups'
+    exercises:
+    - id: u3-n1-01
+      type: dialogue
+      scene: נועה מראה תמונות מחתונה משפחתית.
+      lines:
+      - speaker: noa
+        text: This baby is my cousin's son.
+        translation: התינוק הזה הוא הבן של בן הדוד שלי.
+      - speaker: ben
+        text: And the kids next to him?
+        translation: והילדים לידו?
+      - speaker: noa
+        text: The boy is seven and the girl is five. The man is their father.
+        translation: הילד בן שבע והילדה בת חמש. האיש הוא אבא שלהם.
+      - speaker: ben
+        text: And the woman?
+        translation: והאישה?
+    - id: u3-n1-02
+      type: learn
+      lexeme: baby
+    - id: u3-n1-03
+      type: learn
+      lexeme: kid
+    - id: u3-n1-04
+      type: learn
+      lexeme: boy
+    - id: u3-n1-05
+      type: learn
+      lexeme: girl
+    - id: u3-n1-06
+      type: learn
+      lexeme: man
+    - id: u3-n1-07
+      type: learn
+      lexeme: woman
+    - id: u3-n1-08
+      type: match_pairs
+      pairs:
+      - - baby
+        - תינוק
+      - - kid
+        - ילד
+      - - boy
+        - ילד (בן)
+      - - girl
+        - ילדה
+      - - man
+        - גבר
+      - - woman
+        - אישה
+      lexemes:
+      - baby
+      - kid
+      - boy
+      - girl
+      - man
+      - woman
+    - id: u3-n1-09
+      type: multiple_choice
+      prompt: boy – מה הפירוש?
+      options:
+      - ילד (בן)
+      - ילד
+      - תינוק
+      correct: 0
+      lexemes:
+      - boy
+    - id: u3-n1-10
+      type: multiple_choice
+      prompt: girl – מה הפירוש?
+      options:
+      - ילדה
+      - ילד (בן)
+      - אישה
+      correct: 0
+      lexemes:
+      - girl
+    - id: u3-n1-11
+      type: multiple_choice
+      prompt: man – מה הפירוש?
+      options:
+      - גבר
+      - אישה
+      - ילדה
+      correct: 0
+      lexemes:
+      - man
+    - id: u3-n1-12
+      type: fill_blank
+      sentence: The ___ is my aunt.
+      translation: האישה היא הדודה שלי.
+      answers:
+      - woman
+      options:
+      - woman
+      - boy
+      - man
+      lexemes:
+      - woman
+    - id: u3-n1-13
+      type: fill_blank
+      sentence: The ___ sleeps now.
+      translation: התינוק ישן עכשיו.
+      answers:
+      - baby
+      options:
+      - baby
+      - kid
+      - boy
+      lexemes:
+      - baby
+    - id: u3-n1-14
+      type: fill_blank
+      sentence: My ___ is six.
+      translation: הילד שלי בן שש.
+      answers:
+      - kid
+      options:
+      - kid
+      - man
+      - boy
+      lexemes:
+      - kid
+    - id: u3-n1-15
+      type: word_bank
+      prompt: הילד משחק בחוץ.
+      answers:
+      - The boy plays outside.
+      distractors:
+      - baby
+      - girl
+      lexemes:
+      - boy
+    - id: u3-n1-16
+      type: word_bank
+      prompt: לילדה יש תיק אדום.
+      answers:
+      - The girl has a red bag.
+      distractors:
+      - kid
+      - baby
+      lexemes:
+      - girl
+    - id: u3-n1-17
+      type: listening_choice
+      audioText: The man is my uncle.
+      question: מה שמעתם?
+      options:
+      - האיש הוא הדוד שלי.
+      - התינוק ישן עכשיו.
+      - הילד שלי בן שש.
+      correct: 0
+      lexemes:
+      - man
+    - id: u3-n1-18
+      type: speak_repeat
+      text: The man and the woman have two kids.
+      translation: לגבר ולאישה יש שני ילדים.
+      lexemes:
+      - man
+      - woman
+  - id: u3-n2
+    kind: new
+    title:
+      he: 'היומן של נועה: גיל ותשומת לב'
+      en: 'Noa''s diary: age and care'
+    exercises:
+    - id: u3-n2-01
+      type: dialogue
+      scene: ארוחת שישי בבית ההורים. סבתא מספרת על גילה.
+      lines:
+      - speaker: noa
+        text: Grandma, what is your age?
+        translation: סבתא, בת כמה את?
+      - speaker: rachel
+        text: She takes good care of the whole family.
+        translation: היא דואגת היטב לכל המשפחה.
+      - speaker: noa
+        text: They are a happy couple. Every day is a special day.
+        translation: הם זוג מאושר. כל יום הוא יום מיוחד.
+      - speaker: rachel
+        text: It is true!
+        translation: זה נכון!
+    - id: u3-n2-02
+      type: learn
+      lexeme: age
+    - id: u3-n2-03
+      type: learn
+      lexeme: care
+    - id: u3-n2-04
+      type: learn
+      lexeme: couple
+    - id: u3-n2-05
+      type: learn
+      lexeme: 'true'
+    - id: u3-n2-06
+      type: learn
+      lexeme: easy
+    - id: u3-n2-07
+      type: learn
+      lexeme: different
+    - id: u3-n2-08
+      type: match_pairs
+      pairs:
+      - - age
+        - גיל
+      - - care
+        - לטפל; לדאוג
+      - - couple
+        - זוג
+      - - 'true'
+        - נכון; אמיתי
+      - - easy
+        - קל
+      - - different
+        - שונה
+      lexemes:
+      - age
+      - care
+      - couple
+      - 'true'
+      - easy
+      - different
+    - id: u3-n2-09
+      type: multiple_choice
+      prompt: true – מה הפירוש?
+      options:
+      - נכון; אמיתי
+      - לטפל; לדאוג
+      - גיל
+      correct: 0
+      lexemes:
+      - 'true'
+    - id: u3-n2-10
+      type: multiple_choice
+      prompt: easy – מה הפירוש?
+      options:
+      - קל
+      - לטפל; לדאוג
+      - שונה
+      correct: 0
+      lexemes:
+      - easy
+    - id: u3-n2-11
+      type: multiple_choice
+      prompt: couple – מה הפירוש?
+      options:
+      - זוג
+      - גיל
+      - נכון; אמיתי
+      correct: 0
+      lexemes:
+      - couple
+    - id: u3-n2-12
+      type: fill_blank
+      sentence: My sister is ___ from me.
+      translation: אחותי שונה ממני.
+      answers:
+      - different
+      options:
+      - different
+      - easy
+      - care
+      lexemes:
+      - different
+    - id: u3-n2-13
+      type: fill_blank
+      sentence: I ___ about my family.
+      translation: אכפת לי מהמשפחה שלי.
+      answers:
+      - care
+      options:
+      - care
+      - age
+      - 'true'
+      lexemes:
+      - care
+    - id: u3-n2-14
+      type: fill_blank
+      sentence: What is your ___?
+      translation: בן כמה אתה?
+      answers:
+      - age
+      options:
+      - age
+      - 'true'
+      - couple
+      lexemes:
+      - age
+    - id: u3-n2-15
+      type: word_bank
+      prompt: זה נכון.
+      answers:
+      - That is true.
+      distractors:
+      - couple
+      - care
+      lexemes:
+      - 'true'
+    - id: u3-n2-16
+      type: word_bank
+      prompt: השאלה קלה.
+      answers:
+      - The question is easy.
+      distractors:
+      - care
+      - 'true'
+      lexemes:
+      - easy
+    - id: u3-n2-17
+      type: listening_choice
+      audioText: They are a nice couple.
+      question: מה שמעתם?
+      options:
+      - הם זוג נחמד.
+      - בן כמה אתה?
+      - אכפת לי מהמשפחה שלי.
+      correct: 0
+      lexemes:
+      - couple
+    - id: u3-n2-18
+      type: speak_repeat
+      text: They are a couple. They care about the kids.
+      translation: הם זוג. אכפת להם מהילדים.
+      lexemes:
+      - care
+      - couple

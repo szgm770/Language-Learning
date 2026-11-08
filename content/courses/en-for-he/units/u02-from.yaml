@@ -47,6 +47,18 @@ vocabulary:
   - { id: "phone-number", text: "phone number", translation: "מספר טלפון", pos: "noun", pronunciation: "פוֹן נַאמְבֶּר", example: { text: "What's your phone number?", translation: "מה מספר הטלפון שלך?" } }
   - { id: "its", text: "It's", translation: "זה (בצורה המקוצרת)", pos: "phrase", pronunciation: "אִיטְס", example: { text: "It's a big city.", translation: "זו עיר גדולה." } }
 
+  - { id: "country", text: "country", translation: "מדינה", pos: "noun", pronunciation: "קָאנְטְרִי", example: { text: "Israel is a small country.", translation: "ישראל היא מדינה קטנה." } }
+  - { id: "area", text: "area", translation: "אזור", pos: "noun", pronunciation: "אֶרִיָה", example: { text: "This is a nice area.", translation: "זה אזור נחמד." } }
+  - { id: "town", text: "town", translation: "עיירה", pos: "noun", pronunciation: "טַאוּן", example: { text: "Miriam lives in a small town.", translation: "מרים גרה בעיירה קטנה." } }
+  - { id: "west", text: "west", translation: "מערב", pos: "noun", pronunciation: "וֶסְט", example: { text: "London is in the west of England.", translation: "לונדון נמצאת במערב אנגליה." } }
+  - { id: "road", text: "road", translation: "כביש", pos: "noun", pronunciation: "רוֹד", example: { text: "The road is long.", translation: "הכביש ארוך." } }
+  - { id: "car", text: "car", translation: "מכונית", pos: "noun", pronunciation: "קַאר", example: { text: "My car is white.", translation: "המכונית שלי לבנה." } }
+  - { id: "sit", text: "sit", translation: "לשבת", pos: "verb", pronunciation: "סִיט", example: { text: "Please sit here.", translation: "בבקשה שב כאן." } }
+  - { id: "stand", text: "stand", translation: "לעמוד", pos: "verb", pronunciation: "סְטֶנְד", example: { text: "I stand at the door.", translation: "אני עומד ליד הדלת." } }
+  - { id: "stay", text: "stay", translation: "להישאר", pos: "verb", pronunciation: "סְטֵיי", example: { text: "I stay at home on Sunday.", translation: "אני נשאר בבית ביום ראשון." } }
+  - { id: "drive", text: "drive", translation: "לנהוג", pos: "verb", pronunciation: "דְרַאיב", example: { text: "I drive to work.", translation: "אני נוסע לעבודה." } }
+  - { id: "ready", text: "ready", translation: "מוכן", pos: "adjective", pronunciation: "רֶדִי", example: { text: "Are you ready?", translation: "אתה מוכן?" } }
+  - { id: "almost", text: "almost", translation: "כמעט", pos: "adverb", pronunciation: "אוֹלְמוֹסְט", example: { text: "It is almost ten o'clock.", translation: "השעה כמעט עשר." } }
 grammar:
   - id: he-she-is
     title: { he: "הוא, היא: He is, she is", en: "He is, she is" }
@@ -409,3 +421,337 @@ lessons:
         text: "I'm from Israel. I speak Hebrew, English and a little Spanish."
         translation: "אני מישראל. אני מדבר עברית, אנגלית וקצת ספרדית."
         lexemes: [from, israel, speak, a-little]
+  # ------------------------------------------------------------------ story words
+  - id: u2-n1
+    kind: new
+    title:
+      he: 'היומן של נועה: מדינות ואזורים'
+      en: 'Noa''s diary: countries and areas'
+    exercises:
+    - id: u2-n1-01
+      type: dialogue
+      scene: בישיבת הצוות מראים מפה על המסך.
+      lines:
+      - speaker: ben
+        text: Look at the map. This country is in the west.
+        translation: תסתכלי על המפה. המדינה הזאת נמצאת במערב.
+      - speaker: miriam
+        text: My town is in this area, near the road to Madrid.
+        translation: העיר שלי נמצאת באזור הזה, ליד הכביש למדריד.
+      - speaker: noa
+        text: Do you drive a car there?
+        translation: את נוהגת שם במכונית?
+      - speaker: miriam
+        text: Yes, every day.
+        translation: כן, כל יום.
+    - id: u2-n1-02
+      type: learn
+      lexeme: country
+    - id: u2-n1-03
+      type: learn
+      lexeme: area
+    - id: u2-n1-04
+      type: learn
+      lexeme: town
+    - id: u2-n1-05
+      type: learn
+      lexeme: west
+    - id: u2-n1-06
+      type: learn
+      lexeme: road
+    - id: u2-n1-07
+      type: learn
+      lexeme: car
+    - id: u2-n1-08
+      type: match_pairs
+      pairs:
+      - - country
+        - מדינה
+      - - area
+        - אזור
+      - - town
+        - עיירה
+      - - west
+        - מערב
+      - - road
+        - כביש
+      - - car
+        - מכונית
+      lexemes:
+      - country
+      - area
+      - town
+      - west
+      - road
+      - car
+    - id: u2-n1-09
+      type: multiple_choice
+      prompt: car – מה הפירוש?
+      options:
+      - מכונית
+      - עיירה
+      - מדינה
+      correct: 0
+      lexemes:
+      - car
+    - id: u2-n1-10
+      type: multiple_choice
+      prompt: west – מה הפירוש?
+      options:
+      - מערב
+      - מכונית
+      - כביש
+      correct: 0
+      lexemes:
+      - west
+    - id: u2-n1-11
+      type: multiple_choice
+      prompt: town – מה הפירוש?
+      options:
+      - עיירה
+      - כביש
+      - מדינה
+      correct: 0
+      lexemes:
+      - town
+    - id: u2-n1-12
+      type: fill_blank
+      sentence: Israel is a small ___.
+      translation: ישראל היא מדינה קטנה.
+      answers:
+      - country
+      options:
+      - country
+      - town
+      - area
+      lexemes:
+      - country
+    - id: u2-n1-13
+      type: fill_blank
+      sentence: This is a nice ___.
+      translation: זה אזור נחמד.
+      answers:
+      - area
+      options:
+      - area
+      - town
+      - road
+      lexemes:
+      - area
+    - id: u2-n1-14
+      type: fill_blank
+      sentence: The ___ is long.
+      translation: הכביש ארוך.
+      answers:
+      - road
+      options:
+      - road
+      - car
+      - town
+      lexemes:
+      - road
+    - id: u2-n1-15
+      type: word_bank
+      prompt: המכונית שלי לבנה.
+      answers:
+      - My car is white.
+      distractors:
+      - country
+      - area
+      lexemes:
+      - car
+    - id: u2-n1-16
+      type: word_bank
+      prompt: לונדון נמצאת במערב אנגליה.
+      answers:
+      - London is in the west of England.
+      distractors:
+      - road
+      - country
+      lexemes:
+      - west
+    - id: u2-n1-17
+      type: listening_choice
+      audioText: Miriam lives in a small town.
+      question: מה שמעתם?
+      options:
+      - מרים גרה בעיירה קטנה.
+      - ישראל היא מדינה קטנה.
+      - זה אזור נחמד.
+      correct: 0
+      lexemes:
+      - town
+    - id: u2-n1-18
+      type: speak_repeat
+      text: My town is near the road.
+      translation: העיירה שלי קרובה לכביש.
+      lexemes:
+      - town
+      - road
+  - id: u2-n2
+    kind: new
+    title:
+      he: 'היומן של נועה: לשבת ולהישאר'
+      en: 'Noa''s diary: staying and sitting'
+    exercises:
+    - id: u2-n2-01
+      type: dialogue
+      scene: אחרי הפגישה, מרים ובן נשארים לדבר.
+      lines:
+      - speaker: miriam
+        text: Please sit here. Are you ready?
+        translation: בבקשה שבו כאן. אתם מוכנים?
+      - speaker: ben
+        text: Almost. I stay for one more minute.
+        translation: כמעט. אני נשאר עוד דקה.
+      - speaker: noa
+        text: I stand at the door. I drive home soon.
+        translation: אני עומדת ליד הדלת. אני נוסעת הביתה בקרוב.
+      - speaker: miriam
+        text: See you tomorrow!
+        translation: נתראה מחר!
+    - id: u2-n2-02
+      type: learn
+      lexeme: sit
+    - id: u2-n2-03
+      type: learn
+      lexeme: stand
+    - id: u2-n2-04
+      type: learn
+      lexeme: stay
+    - id: u2-n2-05
+      type: learn
+      lexeme: drive
+    - id: u2-n2-06
+      type: learn
+      lexeme: ready
+    - id: u2-n2-07
+      type: learn
+      lexeme: almost
+    - id: u2-n2-08
+      type: match_pairs
+      pairs:
+      - - sit
+        - לשבת
+      - - stand
+        - לעמוד
+      - - stay
+        - להישאר
+      - - drive
+        - לנהוג
+      - - ready
+        - מוכן
+      - - almost
+        - כמעט
+      lexemes:
+      - sit
+      - stand
+      - stay
+      - drive
+      - ready
+      - almost
+    - id: u2-n2-09
+      type: multiple_choice
+      prompt: sit – מה הפירוש?
+      options:
+      - לשבת
+      - מוכן
+      - לנהוג
+      correct: 0
+      lexemes:
+      - sit
+    - id: u2-n2-10
+      type: multiple_choice
+      prompt: stand – מה הפירוש?
+      options:
+      - לעמוד
+      - לנהוג
+      - להישאר
+      correct: 0
+      lexemes:
+      - stand
+    - id: u2-n2-11
+      type: multiple_choice
+      prompt: almost – מה הפירוש?
+      options:
+      - כמעט
+      - מוכן
+      - לעמוד
+      correct: 0
+      lexemes:
+      - almost
+    - id: u2-n2-12
+      type: fill_blank
+      sentence: I ___ at home on Sunday.
+      translation: אני נשאר בבית ביום ראשון.
+      answers:
+      - stay
+      options:
+      - stay
+      - almost
+      - sit
+      lexemes:
+      - stay
+    - id: u2-n2-13
+      type: fill_blank
+      sentence: Are you ___?
+      translation: אתה מוכן?
+      answers:
+      - ready
+      options:
+      - ready
+      - sit
+      - stay
+      lexemes:
+      - ready
+    - id: u2-n2-14
+      type: fill_blank
+      sentence: I ___ to work.
+      translation: אני נוסע לעבודה.
+      answers:
+      - drive
+      options:
+      - drive
+      - stay
+      - almost
+      lexemes:
+      - drive
+    - id: u2-n2-15
+      type: word_bank
+      prompt: בבקשה שב כאן.
+      answers:
+      - Please sit here.
+      distractors:
+      - stay
+      - ready
+      lexemes:
+      - sit
+    - id: u2-n2-16
+      type: word_bank
+      prompt: אני עומד ליד הדלת.
+      answers:
+      - I stand at the door.
+      distractors:
+      - drive
+      - stay
+      lexemes:
+      - stand
+    - id: u2-n2-17
+      type: listening_choice
+      audioText: It is almost ten o'clock.
+      question: מה שמעתם?
+      options:
+      - השעה כמעט עשר.
+      - בבקשה שב כאן.
+      - אני עומד ליד הדלת.
+      correct: 0
+      lexemes:
+      - almost
+    - id: u2-n2-18
+      type: speak_repeat
+      text: I stay here. I am almost ready.
+      translation: אני נשארת כאן. אני כמעט מוכנה.
+      lexemes:
+      - stay
+      - ready
+      - almost

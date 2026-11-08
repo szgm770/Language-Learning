@@ -33,6 +33,18 @@ vocabulary:
   - { id: "is-there", text: "Is there…?", translation: "יש…? (שאלה)", pos: "phrase", pronunciation: "אִיז דֶ'ר", example: { text: "Is there a pharmacy near here?", translation: "יש בית מרקחת קרוב לכאן?" } }
   - { id: "here", text: "here", translation: "כאן", pos: "adverb", pronunciation: "הִיר" }
 
+  - { id: "front", text: "front", translation: "חזית; מול", pos: "noun", pronunciation: "פְרָאנְט", example: { text: "The shop is in front of the bank.", translation: "החנות נמצאת מול הבנק." } }
+  - { id: "field", text: "field", translation: "שדה", pos: "noun", pronunciation: "פִילְד", example: { text: "The children play in the field.", translation: "הילדים משחקים בשדה." } }
+  - { id: "light", text: "light", translation: "רמזור; אור", pos: "noun", pronunciation: "לַאיט", example: { text: "Stop at the red light.", translation: "עצור ברמזור האדום." } }
+  - { id: "police", text: "police", translation: "משטרה", pos: "noun", pronunciation: "פּוֹלִיס", example: { text: "The police help us.", translation: "המשטרה עוזרת לנו." } }
+  - { id: "air", text: "air", translation: "אוויר", pos: "noun", pronunciation: "אֶר", example: { text: "The air is clean here.", translation: "האוויר נקי כאן." } }
+  - { id: "space", text: "space", translation: "מקום; חלל", pos: "noun", pronunciation: "ספֵּייס", example: { text: "There is space for the bag.", translation: "יש מקום לתיק." } }
+  - { id: "club", text: "club", translation: "מועדון", pos: "noun", pronunciation: "קְלָאב", example: { text: "He goes to a book club.", translation: "הוא הולך למועדון קריאה." } }
+  - { id: "college", text: "college", translation: "מכללה", pos: "noun", pronunciation: "קוֹלִיג'", example: { text: "My sister studies at college.", translation: "אחותי לומדת במכללה." } }
+  - { id: "board", text: "board", translation: "לוח", pos: "noun", pronunciation: "בּוֹרְד", example: { text: "The list is on the board.", translation: "הרשימה על הלוח." } }
+  - { id: "picture", text: "picture", translation: "תמונה", pos: "noun", pronunciation: "פִּיקְצ'ר", example: { text: "I like this picture.", translation: "אני אוהב את התמונה הזאת." } }
+  - { id: "art", text: "art", translation: "אמנות", pos: "noun", pronunciation: "אַרְט", example: { text: "The museum has old art.", translation: "במוזיאון יש אמנות עתיקה." } }
+  - { id: "film", text: "film", translation: "סרט", pos: "noun", pronunciation: "פִילְם", example: { text: "This film is very good.", translation: "הסרט הזה טוב מאוד." } }
 grammar:
   - id: there-is-are
     title: { he: "יש: There is, there are", en: "There is, there are" }
@@ -394,3 +406,337 @@ lessons:
         text: "Is there a supermarket near here? Yes, there is."
         translation: "יש סופרמרקט קרוב לכאן? כן."
         lexemes: [is-there, supermarket]
+  # ------------------------------------------------------------------ story words
+  - id: u7-n1
+    kind: new
+    title:
+      he: 'היומן של נועה: ברחוב'
+      en: 'Noa''s diary: on the street'
+    exercises:
+    - id: u7-n1-01
+      type: dialogue
+      scene: נועה שואלת שוטר איפה בית המרקחת.
+      lines:
+      - speaker: noa
+        text: Excuse me, I look for the pharmacy.
+        translation: סליחה, אני מחפשת את בית המרקחת.
+      - speaker: katz
+        text: It is in front of the park, near the light.
+        translation: הוא מול הפארק, ליד הרמזור.
+      - speaker: noa
+        text: Is it far? The air is hot today.
+        translation: זה רחוק? האוויר חם היום.
+      - speaker: katz
+        text: No, just a short walk.
+        translation: לא, רק הליכה קצרה.
+    - id: u7-n1-02
+      type: learn
+      lexeme: front
+    - id: u7-n1-03
+      type: learn
+      lexeme: field
+    - id: u7-n1-04
+      type: learn
+      lexeme: light
+    - id: u7-n1-05
+      type: learn
+      lexeme: police
+    - id: u7-n1-06
+      type: learn
+      lexeme: air
+    - id: u7-n1-07
+      type: learn
+      lexeme: space
+    - id: u7-n1-08
+      type: match_pairs
+      pairs:
+      - - front
+        - חזית; מול
+      - - field
+        - שדה
+      - - light
+        - רמזור; אור
+      - - police
+        - משטרה
+      - - air
+        - אוויר
+      - - space
+        - מקום; חלל
+      lexemes:
+      - front
+      - field
+      - light
+      - police
+      - air
+      - space
+    - id: u7-n1-09
+      type: multiple_choice
+      prompt: space – מה הפירוש?
+      options:
+      - מקום; חלל
+      - רמזור; אור
+      - חזית; מול
+      correct: 0
+      lexemes:
+      - space
+    - id: u7-n1-10
+      type: multiple_choice
+      prompt: field – מה הפירוש?
+      options:
+      - שדה
+      - חזית; מול
+      - רמזור; אור
+      correct: 0
+      lexemes:
+      - field
+    - id: u7-n1-11
+      type: multiple_choice
+      prompt: police – מה הפירוש?
+      options:
+      - משטרה
+      - אוויר
+      - רמזור; אור
+      correct: 0
+      lexemes:
+      - police
+    - id: u7-n1-12
+      type: fill_blank
+      sentence: The shop is in ___ of the bank.
+      translation: החנות נמצאת מול הבנק.
+      answers:
+      - front
+      options:
+      - front
+      - light
+      - air
+      lexemes:
+      - front
+    - id: u7-n1-13
+      type: fill_blank
+      sentence: The ___ is clean here.
+      translation: האוויר נקי כאן.
+      answers:
+      - air
+      options:
+      - air
+      - front
+      - light
+      lexemes:
+      - air
+    - id: u7-n1-14
+      type: fill_blank
+      sentence: Stop at the red ___.
+      translation: עצור ברמזור האדום.
+      answers:
+      - light
+      options:
+      - light
+      - air
+      - space
+      lexemes:
+      - light
+    - id: u7-n1-15
+      type: word_bank
+      prompt: יש מקום לתיק.
+      answers:
+      - There is space for the bag.
+      distractors:
+      - police
+      - front
+      lexemes:
+      - space
+    - id: u7-n1-16
+      type: word_bank
+      prompt: הילדים משחקים בשדה.
+      answers:
+      - The children play in the field.
+      distractors:
+      - front
+      - space
+      lexemes:
+      - field
+    - id: u7-n1-17
+      type: listening_choice
+      audioText: The police help us.
+      question: מה שמעתם?
+      options:
+      - המשטרה עוזרת לנו.
+      - החנות נמצאת מול הבנק.
+      - הילדים משחקים בשדה.
+      correct: 0
+      lexemes:
+      - police
+    - id: u7-n1-18
+      type: speak_repeat
+      text: The shop is in front of the field.
+      translation: החנות נמצאת מול השדה.
+      lexemes:
+      - front
+      - field
+  - id: u7-n2
+    kind: new
+    title:
+      he: 'היומן של נועה: מועדון, מכללה ואמנות'
+      en: 'Noa''s diary: club, college and art'
+    exercises:
+    - id: u7-n2-01
+      type: dialogue
+      scene: נועה ורחל מטיילות בלונדון ביום ראשון.
+      lines:
+      - speaker: rachel
+        text: This is my old college. My brother has a club here.
+        translation: זו המכללה הישנה שלי. לאחי יש כאן מועדון.
+      - speaker: noa
+        text: What kind of club?
+        translation: איזה מועדון?
+      - speaker: rachel
+        text: A film club. Look at the big picture on the board.
+        translation: מועדון סרטים. תראי את התמונה הגדולה על הלוח.
+      - speaker: noa
+        text: I love art. Can we go in?
+        translation: אני אוהבת אמנות. אפשר להיכנס?
+    - id: u7-n2-02
+      type: learn
+      lexeme: club
+    - id: u7-n2-03
+      type: learn
+      lexeme: college
+    - id: u7-n2-04
+      type: learn
+      lexeme: board
+    - id: u7-n2-05
+      type: learn
+      lexeme: picture
+    - id: u7-n2-06
+      type: learn
+      lexeme: art
+    - id: u7-n2-07
+      type: learn
+      lexeme: film
+    - id: u7-n2-08
+      type: match_pairs
+      pairs:
+      - - club
+        - מועדון
+      - - college
+        - מכללה
+      - - board
+        - לוח
+      - - picture
+        - תמונה
+      - - art
+        - אמנות
+      - - film
+        - סרט
+      lexemes:
+      - club
+      - college
+      - board
+      - picture
+      - art
+      - film
+    - id: u7-n2-09
+      type: multiple_choice
+      prompt: college – מה הפירוש?
+      options:
+      - מכללה
+      - סרט
+      - לוח
+      correct: 0
+      lexemes:
+      - college
+    - id: u7-n2-10
+      type: multiple_choice
+      prompt: film – מה הפירוש?
+      options:
+      - סרט
+      - אמנות
+      - תמונה
+      correct: 0
+      lexemes:
+      - film
+    - id: u7-n2-11
+      type: multiple_choice
+      prompt: board – מה הפירוש?
+      options:
+      - לוח
+      - אמנות
+      - מכללה
+      correct: 0
+      lexemes:
+      - board
+    - id: u7-n2-12
+      type: fill_blank
+      sentence: The museum has old ___.
+      translation: במוזיאון יש אמנות עתיקה.
+      answers:
+      - art
+      options:
+      - art
+      - college
+      - club
+      lexemes:
+      - art
+    - id: u7-n2-13
+      type: fill_blank
+      sentence: I like this ___.
+      translation: אני אוהב את התמונה הזאת.
+      answers:
+      - picture
+      options:
+      - picture
+      - film
+      - board
+      lexemes:
+      - picture
+    - id: u7-n2-14
+      type: fill_blank
+      sentence: He goes to a book ___.
+      translation: הוא הולך למועדון קריאה.
+      answers:
+      - club
+      options:
+      - club
+      - picture
+      - art
+      lexemes:
+      - club
+    - id: u7-n2-15
+      type: word_bank
+      prompt: אחותי לומדת במכללה.
+      answers:
+      - My sister studies at college.
+      distractors:
+      - club
+      - art
+      lexemes:
+      - college
+    - id: u7-n2-16
+      type: word_bank
+      prompt: הסרט הזה טוב מאוד.
+      answers:
+      - This film is very good.
+      distractors:
+      - college
+      - club
+      lexemes:
+      - film
+    - id: u7-n2-17
+      type: listening_choice
+      audioText: The list is on the board.
+      question: מה שמעתם?
+      options:
+      - הרשימה על הלוח.
+      - הוא הולך למועדון קריאה.
+      - אחותי לומדת במכללה.
+      correct: 0
+      lexemes:
+      - board
+    - id: u7-n2-18
+      type: speak_repeat
+      text: The picture is in the college club.
+      translation: התמונה נמצאת במועדון של המכללה.
+      lexemes:
+      - club
+      - college
+      - picture

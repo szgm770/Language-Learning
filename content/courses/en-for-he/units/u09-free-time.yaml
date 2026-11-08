@@ -35,6 +35,18 @@ vocabulary:
   - { id: "maybe", text: "maybe", translation: "אולי", pos: "adverb", pronunciation: "מֵייבִּי" }
   - { id: "sorry-i-cant", text: "Sorry, I can't.", translation: "מצטער, אני לא יכול.", pos: "phrase", pronunciation: "סוֹרִי, אַיי קַאנְט" }
 
+  - { id: "game", text: "game", translation: "משחק", pos: "noun", pronunciation: "גֵּיים", example: { text: "We play a game on Sunday.", translation: "אנחנו משחקים משחק ביום ראשון." } }
+  - { id: "song", text: "song", translation: "שיר", pos: "noun", pronunciation: "סוֹנְג", example: { text: "I know this song.", translation: "אני מכיר את השיר הזה." } }
+  - { id: "star", text: "star", translation: "כוכב", pos: "noun", pronunciation: "סְטַאר", example: { text: "I see a star in the sky.", translation: "אני רואה כוכב בשמיים." } }
+  - { id: "fan", text: "fan", translation: "אוהד", pos: "noun", pronunciation: "פֶן", example: { text: "He is a big fan of the team.", translation: "הוא אוהד גדול של הקבוצה." } }
+  - { id: "player", text: "player", translation: "שחקן", pos: "noun", pronunciation: "פְּלֵייֶר", example: { text: "The player is very fast.", translation: "השחקן מהיר מאוד." } }
+  - { id: "season", text: "season", translation: "עונה", pos: "noun", pronunciation: "סִיזֶן", example: { text: "Summer is my favorite season.", translation: "קיץ הוא העונה האהובה עליי." } }
+  - { id: "expect", text: "expect", translation: "לצפות", pos: "verb", pronunciation: "אִיקְסְפֶּקְט", example: { text: "I expect good weather.", translation: "אני מצפה למזג אוויר טוב." } }
+  - { id: "probably", text: "probably", translation: "כנראה", pos: "adverb", pronunciation: "פְּרוֹבַּבְּלִי", example: { text: "It will probably rain tomorrow.", translation: "כנראה ירד גשם מחר." } }
+  - { id: "instead", text: "instead", translation: "במקום", pos: "adverb", pronunciation: "אִינְסְטֶד", example: { text: "I drink tea instead.", translation: "אני שותה תה במקום." } }
+  - { id: "agree", text: "agree", translation: "להסכים", pos: "verb", pronunciation: "אַגְרִי", example: { text: "I agree with you.", translation: "אני מסכים איתך." } }
+  - { id: "rather", text: "rather", translation: "די", pos: "adverb", pronunciation: "רָאדֶר", example: { text: "The film is rather long.", translation: "הסרט די ארוך." } }
+  - { id: "appear", text: "appear", translation: "להופיע; להיראות", pos: "verb", pronunciation: "אַפִּיר", example: { text: "The sun will appear soon.", translation: "השמש תופיע בקרוב." } }
 grammar:
   - id: can-cant
     title: { he: "יכול, יודע: can, can't", en: "Can and can't" }
@@ -399,3 +411,337 @@ lessons:
         text: "I can't come on Monday. Maybe on Sunday?"
         translation: "אני לא יכול לבוא ביום שני. אולי ביום ראשון?"
         lexemes: [cant, maybe, monday, sunday]
+  # ------------------------------------------------------------------ story words
+  - id: u9-n1
+    kind: new
+    title:
+      he: 'היומן של נועה: משחק ושיר'
+      en: 'Noa''s diary: a game and a song'
+    exercises:
+    - id: u9-n1-01
+      type: dialogue
+      scene: ביום ראשון בפארק, עם קבוצת חברים.
+      lines:
+      - speaker: ben
+        text: Do you want to play a game with the players?
+        translation: את רוצה לשחק משחק עם השחקנים?
+      - speaker: noa
+        text: I like the game. The season is nice for sport.
+        translation: אני אוהבת את המשחק. העונה נחמדה לספורט.
+      - speaker: ben
+        text: I am a big fan of this team.
+        translation: אני אוהד גדול של הקבוצה הזאת.
+      - speaker: noa
+        text: After the game, I sing a song.
+        translation: אחרי המשחק אני שרה שיר.
+    - id: u9-n1-02
+      type: learn
+      lexeme: game
+    - id: u9-n1-03
+      type: learn
+      lexeme: song
+    - id: u9-n1-04
+      type: learn
+      lexeme: star
+    - id: u9-n1-05
+      type: learn
+      lexeme: fan
+    - id: u9-n1-06
+      type: learn
+      lexeme: player
+    - id: u9-n1-07
+      type: learn
+      lexeme: season
+    - id: u9-n1-08
+      type: match_pairs
+      pairs:
+      - - game
+        - משחק
+      - - song
+        - שיר
+      - - star
+        - כוכב
+      - - fan
+        - אוהד
+      - - player
+        - שחקן
+      - - season
+        - עונה
+      lexemes:
+      - game
+      - song
+      - star
+      - fan
+      - player
+      - season
+    - id: u9-n1-09
+      type: multiple_choice
+      prompt: game – מה הפירוש?
+      options:
+      - משחק
+      - עונה
+      - כוכב
+      correct: 0
+      lexemes:
+      - game
+    - id: u9-n1-10
+      type: multiple_choice
+      prompt: season – מה הפירוש?
+      options:
+      - עונה
+      - משחק
+      - שחקן
+      correct: 0
+      lexemes:
+      - season
+    - id: u9-n1-11
+      type: multiple_choice
+      prompt: song – מה הפירוש?
+      options:
+      - שיר
+      - עונה
+      - אוהד
+      correct: 0
+      lexemes:
+      - song
+    - id: u9-n1-12
+      type: fill_blank
+      sentence: I see a ___ in the sky.
+      translation: אני רואה כוכב בשמיים.
+      answers:
+      - star
+      options:
+      - star
+      - fan
+      - season
+      lexemes:
+      - star
+    - id: u9-n1-13
+      type: fill_blank
+      sentence: The ___ is very fast.
+      translation: השחקן מהיר מאוד.
+      answers:
+      - player
+      options:
+      - player
+      - song
+      - fan
+      lexemes:
+      - player
+    - id: u9-n1-14
+      type: fill_blank
+      sentence: He is a big ___ of the team.
+      translation: הוא אוהד גדול של הקבוצה.
+      answers:
+      - fan
+      options:
+      - fan
+      - star
+      - season
+      lexemes:
+      - fan
+    - id: u9-n1-15
+      type: word_bank
+      prompt: אנחנו משחקים משחק ביום ראשון.
+      answers:
+      - We play a game on Sunday.
+      distractors:
+      - star
+      - song
+      lexemes:
+      - game
+    - id: u9-n1-16
+      type: word_bank
+      prompt: קיץ הוא העונה האהובה עליי.
+      answers:
+      - Summer is my favorite season.
+      distractors:
+      - song
+      - game
+      lexemes:
+      - season
+    - id: u9-n1-17
+      type: listening_choice
+      audioText: I know this song.
+      question: מה שמעתם?
+      options:
+      - אני מכיר את השיר הזה.
+      - אנחנו משחקים משחק ביום ראשון.
+      - אני רואה כוכב בשמיים.
+      correct: 0
+      lexemes:
+      - song
+    - id: u9-n1-18
+      type: speak_repeat
+      text: The fan likes the game and the song.
+      translation: האוהד אוהב את המשחק ואת השיר.
+      lexemes:
+      - game
+      - song
+      - fan
+  - id: u9-n2
+    kind: new
+    title:
+      he: 'היומן של נועה: הצעות ותכניות'
+      en: 'Noa''s diary: suggestions and plans'
+    exercises:
+    - id: u9-n2-01
+      type: dialogue
+      scene: בן ונועה מתכננים את הסוף השבוע.
+      lines:
+      - speaker: ben
+        text: I expect rain on Sunday, probably.
+        translation: אני מצפה לגשם ביום ראשון, כנראה.
+      - speaker: noa
+        text: Then instead of the park, we go to a film.
+        translation: אז במקום הפארק נלך לסרט.
+      - speaker: ben
+        text: I agree. The film is rather long, but good.
+        translation: אני מסכים. הסרט די ארוך, אבל טוב.
+      - speaker: noa
+        text: Then it appears we have a plan.
+        translation: אז נראה שיש לנו תכנית.
+    - id: u9-n2-02
+      type: learn
+      lexeme: expect
+    - id: u9-n2-03
+      type: learn
+      lexeme: probably
+    - id: u9-n2-04
+      type: learn
+      lexeme: instead
+    - id: u9-n2-05
+      type: learn
+      lexeme: agree
+    - id: u9-n2-06
+      type: learn
+      lexeme: rather
+    - id: u9-n2-07
+      type: learn
+      lexeme: appear
+    - id: u9-n2-08
+      type: match_pairs
+      pairs:
+      - - expect
+        - לצפות
+      - - probably
+        - כנראה
+      - - instead
+        - במקום
+      - - agree
+        - להסכים
+      - - rather
+        - די
+      - - appear
+        - להופיע; להיראות
+      lexemes:
+      - expect
+      - probably
+      - instead
+      - agree
+      - rather
+      - appear
+    - id: u9-n2-09
+      type: multiple_choice
+      prompt: probably – מה הפירוש?
+      options:
+      - כנראה
+      - להופיע; להיראות
+      - לצפות
+      correct: 0
+      lexemes:
+      - probably
+    - id: u9-n2-10
+      type: multiple_choice
+      prompt: instead – מה הפירוש?
+      options:
+      - במקום
+      - די
+      - להופיע; להיראות
+      correct: 0
+      lexemes:
+      - instead
+    - id: u9-n2-11
+      type: multiple_choice
+      prompt: expect – מה הפירוש?
+      options:
+      - לצפות
+      - כנראה
+      - במקום
+      correct: 0
+      lexemes:
+      - expect
+    - id: u9-n2-12
+      type: fill_blank
+      sentence: The film is ___ long.
+      translation: הסרט די ארוך.
+      answers:
+      - rather
+      options:
+      - rather
+      - instead
+      - expect
+      lexemes:
+      - rather
+    - id: u9-n2-13
+      type: fill_blank
+      sentence: I ___ with you.
+      translation: אני מסכים איתך.
+      answers:
+      - agree
+      options:
+      - agree
+      - expect
+      - appear
+      lexemes:
+      - agree
+    - id: u9-n2-14
+      type: fill_blank
+      sentence: The sun will ___ soon.
+      translation: השמש תופיע בקרוב.
+      answers:
+      - appear
+      options:
+      - appear
+      - rather
+      - agree
+      lexemes:
+      - appear
+    - id: u9-n2-15
+      type: word_bank
+      prompt: כנראה ירד גשם מחר.
+      answers:
+      - It will probably rain tomorrow.
+      distractors:
+      - instead
+      - agree
+      lexemes:
+      - probably
+    - id: u9-n2-16
+      type: word_bank
+      prompt: אני שותה תה במקום.
+      answers:
+      - I drink tea instead.
+      distractors:
+      - probably
+      - expect
+      lexemes:
+      - instead
+    - id: u9-n2-17
+      type: listening_choice
+      audioText: I expect good weather.
+      question: מה שמעתם?
+      options:
+      - אני מצפה למזג אוויר טוב.
+      - כנראה ירד גשם מחר.
+      - אני שותה תה במקום.
+      correct: 0
+      lexemes:
+      - expect
+    - id: u9-n2-18
+      type: speak_repeat
+      text: We agree. Probably it rains, so we stay.
+      translation: אנחנו מסכימים. כנראה יורד גשם, אז אנחנו נשארים.
+      lexemes:
+      - probably
+      - agree

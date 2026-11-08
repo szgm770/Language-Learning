@@ -154,6 +154,18 @@ vocabulary:
     pos: phrase
     pronunciation: סִי יוּ
 
+  - { id: "people", text: "people", translation: "אנשים", pos: "noun", pronunciation: "פִּיפֶּל", example: { text: "Many people work here.", translation: "הרבה אנשים עובדים כאן." } }
+  - { id: "person", text: "person", translation: "אדם", pos: "noun", pronunciation: "פֶּרְסֶן", example: { text: "Ben is a nice person.", translation: "בן הוא אדם נחמד." } }
+  - { id: "group", text: "group", translation: "קבוצה", pos: "noun", pronunciation: "גְרוּפּ", example: { text: "This group is very friendly.", translation: "הקבוצה הזאת מאוד ידידותית." } }
+  - { id: "best", text: "best", translation: "הכי טוב", pos: "adjective", pronunciation: "בֶּסְט", example: { text: "She is my best friend.", translation: "היא החברה הכי טובה שלי." } }
+  - { id: "world", text: "world", translation: "עולם", pos: "noun", pronunciation: "וֶורְלְד", example: { text: "The company works all over the world.", translation: "החברה עובדת בכל העולם." } }
+  - { id: "young", text: "young", translation: "צעיר", pos: "adjective", pronunciation: "יָאנְג", example: { text: "My brother is young.", translation: "אחי צעיר." } }
+  - { id: "understand", text: "understand", translation: "להבין", pos: "verb", pronunciation: "אַנְדֶרְסְטֶנְד", example: { text: "I understand your question.", translation: "אני מבין את השאלה שלך." } }
+  - { id: "write", text: "write", translation: "לכתוב", pos: "verb", pronunciation: "רָאיט", example: { text: "I write my name here.", translation: "אני כותב את השם שלי כאן." } }
+  - { id: "word", text: "word", translation: "מילה", pos: "noun", pronunciation: "וֶורְד", example: { text: "This word is new for me.", translation: "המילה הזאת חדשה לי." } }
+  - { id: "listen", text: "listen", translation: "להקשיב", pos: "verb", pronunciation: "לִיסֶן", example: { text: "Please listen to the teacher.", translation: "בבקשה תקשיב למורה." } }
+  - { id: "remember", text: "remember", translation: "לזכור", pos: "verb", pronunciation: "רִימֶמְבֶּר", example: { text: "I remember his phone number.", translation: "אני זוכר את מספר הטלפון שלו." } }
+  - { id: "forget", text: "forget", translation: "לשכוח", pos: "verb", pronunciation: "פֶרְגֶט", example: { text: "I forget my keys every day.", translation: "אני שוכח את המפתחות כל יום." } }
 grammar:
   - id: i-am-you-are
     title: { he: "אני, אתה: I am, you are", en: "I am, you are" }
@@ -548,3 +560,338 @@ lessons:
         text: "Good evening! How are you?"
         translation: ערב טוב! מה שלומך?
         lexemes: [good-evening, how-are-you]
+  # ------------------------------------------------------------------ story words
+  - id: u1-n1
+    kind: new
+    title:
+      he: 'היומן של נועה: אנשים חדשים'
+      en: 'Noa''s diary: new people'
+    exercises:
+    - id: u1-n1-01
+      type: dialogue
+      scene: שיחת הווידאו הראשונה. נועה מציצה בחדר הצוות של בן.
+      lines:
+      - speaker: noa
+        text: Hi Ben! Who are the people behind you?
+        translation: היי בן! מי האנשים שמאחוריך?
+      - speaker: ben
+        text: That is our group. They are the best team in the world.
+        translation: זו הקבוצה שלנו. הם הצוות הכי טוב בעולם.
+      - speaker: noa
+        text: Every person looks so young!
+        translation: כל אחד נראה כל כך צעיר!
+      - speaker: ben
+        text: Yes, but they work hard.
+        translation: כן, אבל הם עובדים קשה.
+    - id: u1-n1-02
+      type: learn
+      lexeme: people
+    - id: u1-n1-03
+      type: learn
+      lexeme: person
+    - id: u1-n1-04
+      type: learn
+      lexeme: group
+    - id: u1-n1-05
+      type: learn
+      lexeme: best
+    - id: u1-n1-06
+      type: learn
+      lexeme: world
+    - id: u1-n1-07
+      type: learn
+      lexeme: young
+    - id: u1-n1-08
+      type: match_pairs
+      pairs:
+      - - people
+        - אנשים
+      - - person
+        - אדם
+      - - group
+        - קבוצה
+      - - best
+        - הכי טוב
+      - - world
+        - עולם
+      - - young
+        - צעיר
+      lexemes:
+      - people
+      - person
+      - group
+      - best
+      - world
+      - young
+    - id: u1-n1-09
+      type: multiple_choice
+      prompt: young – מה הפירוש?
+      options:
+      - צעיר
+      - אנשים
+      - הכי טוב
+      correct: 0
+      lexemes:
+      - young
+    - id: u1-n1-10
+      type: multiple_choice
+      prompt: group – מה הפירוש?
+      options:
+      - קבוצה
+      - אנשים
+      - אדם
+      correct: 0
+      lexemes:
+      - group
+    - id: u1-n1-11
+      type: multiple_choice
+      prompt: person – מה הפירוש?
+      options:
+      - אדם
+      - אנשים
+      - הכי טוב
+      correct: 0
+      lexemes:
+      - person
+    - id: u1-n1-12
+      type: fill_blank
+      sentence: Many ___ work here.
+      translation: הרבה אנשים עובדים כאן.
+      answers:
+      - people
+      options:
+      - people
+      - person
+      - world
+      lexemes:
+      - people
+    - id: u1-n1-13
+      type: fill_blank
+      sentence: She is my ___ friend.
+      translation: היא החברה הכי טובה שלי.
+      answers:
+      - best
+      options:
+      - best
+      - people
+      - group
+      lexemes:
+      - best
+    - id: u1-n1-14
+      type: fill_blank
+      sentence: The company works all over the ___.
+      translation: החברה עובדת בכל העולם.
+      answers:
+      - world
+      options:
+      - world
+      - young
+      - group
+      lexemes:
+      - world
+    - id: u1-n1-15
+      type: word_bank
+      prompt: אחי צעיר.
+      answers:
+      - My brother is young.
+      distractors:
+      - best
+      - person
+      lexemes:
+      - young
+    - id: u1-n1-16
+      type: word_bank
+      prompt: הקבוצה הזאת מאוד ידידותית.
+      answers:
+      - This group is very friendly.
+      distractors:
+      - best
+      - person
+      lexemes:
+      - group
+    - id: u1-n1-17
+      type: listening_choice
+      audioText: Ben is a nice person.
+      question: מה שמעתם?
+      options:
+      - בן הוא אדם נחמד.
+      - הרבה אנשים עובדים כאן.
+      - הקבוצה הזאת מאוד ידידותית.
+      correct: 0
+      lexemes:
+      - person
+    - id: u1-n1-18
+      type: speak_repeat
+      text: They are the best group in the world.
+      translation: הם הקבוצה הכי טובה בעולם.
+      lexemes:
+      - group
+      - best
+      - world
+  - id: u1-n2
+    kind: new
+    title:
+      he: 'היומן של נועה: להבין'
+      en: 'Noa''s diary: understanding'
+    exercises:
+    - id: u1-n2-01
+      type: dialogue
+      scene: נועה לומדת מילים חדשות לפני הפגישה.
+      lines:
+      - speaker: noa
+        text: Sorry, I don't understand this word.
+        translation: סליחה, אני לא מבינה את המילה הזאת.
+      - speaker: ben
+        text: Listen, I will say it again slowly.
+        translation: תקשיבי, אני אגיד את זה שוב לאט.
+      - speaker: noa
+        text: Thanks. I write it in my notebook so I remember.
+        translation: תודה. אני כותבת את זה במחברת כדי לזכור.
+      - speaker: ben
+        text: Good idea. Don't forget to practice.
+        translation: רעיון טוב. אל תשכחי להתאמן.
+    - id: u1-n2-02
+      type: learn
+      lexeme: understand
+    - id: u1-n2-03
+      type: learn
+      lexeme: write
+    - id: u1-n2-04
+      type: learn
+      lexeme: word
+    - id: u1-n2-05
+      type: learn
+      lexeme: listen
+    - id: u1-n2-06
+      type: learn
+      lexeme: remember
+    - id: u1-n2-07
+      type: learn
+      lexeme: forget
+    - id: u1-n2-08
+      type: match_pairs
+      pairs:
+      - - understand
+        - להבין
+      - - write
+        - לכתוב
+      - - word
+        - מילה
+      - - listen
+        - להקשיב
+      - - remember
+        - לזכור
+      - - forget
+        - לשכוח
+      lexemes:
+      - understand
+      - write
+      - word
+      - listen
+      - remember
+      - forget
+    - id: u1-n2-09
+      type: multiple_choice
+      prompt: write – מה הפירוש?
+      options:
+      - לכתוב
+      - להקשיב
+      - להבין
+      correct: 0
+      lexemes:
+      - write
+    - id: u1-n2-10
+      type: multiple_choice
+      prompt: understand – מה הפירוש?
+      options:
+      - להבין
+      - לזכור
+      - לשכוח
+      correct: 0
+      lexemes:
+      - understand
+    - id: u1-n2-11
+      type: multiple_choice
+      prompt: word – מה הפירוש?
+      options:
+      - מילה
+      - לשכוח
+      - לכתוב
+      correct: 0
+      lexemes:
+      - word
+    - id: u1-n2-12
+      type: fill_blank
+      sentence: I ___ my keys every day.
+      translation: אני שוכח את המפתחות כל יום.
+      answers:
+      - forget
+      options:
+      - forget
+      - write
+      - word
+      lexemes:
+      - forget
+    - id: u1-n2-13
+      type: fill_blank
+      sentence: Please ___ to the teacher.
+      translation: בבקשה תקשיב למורה.
+      answers:
+      - listen
+      options:
+      - listen
+      - remember
+      - forget
+      lexemes:
+      - listen
+    - id: u1-n2-14
+      type: fill_blank
+      sentence: I ___ his phone number.
+      translation: אני זוכר את מספר הטלפון שלו.
+      answers:
+      - remember
+      options:
+      - remember
+      - word
+      - write
+      lexemes:
+      - remember
+    - id: u1-n2-15
+      type: word_bank
+      prompt: אני כותב את השם שלי כאן.
+      answers:
+      - I write my name here.
+      distractors:
+      - understand
+      - remember
+      lexemes:
+      - write
+    - id: u1-n2-16
+      type: word_bank
+      prompt: אני מבין את השאלה שלך.
+      answers:
+      - I understand your question.
+      distractors:
+      - listen
+      - forget
+      lexemes:
+      - understand
+    - id: u1-n2-17
+      type: listening_choice
+      audioText: This word is new for me.
+      question: מה שמעתם?
+      options:
+      - המילה הזאת חדשה לי.
+      - אני מבין את השאלה שלך.
+      - אני כותב את השם שלי כאן.
+      correct: 0
+      lexemes:
+      - word
+    - id: u1-n2-18
+      type: speak_repeat
+      text: I listen and I write every word.
+      translation: אני מקשיבה וכותבת כל מילה.
+      lexemes:
+      - write
+      - word
+      - listen

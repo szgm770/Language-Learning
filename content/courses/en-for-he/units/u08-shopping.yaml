@@ -35,6 +35,18 @@ vocabulary:
   - { id: "those", text: "those", translation: "ההם, ההם שם (רחוקים)", pos: "pronoun", pronunciation: "דוֹ'וּז" }
   - { id: "ill-take-it", text: "I'll take it", translation: "אני אקח את זה", pos: "phrase", pronunciation: "אַייל טֵייק אִיט" }
 
+  - { id: "sale", text: "sale", translation: "מבצע; מכירה", pos: "noun", pronunciation: "סֵייל", example: { text: "There is a sale in the shop.", translation: "יש מבצע בחנות." } }
+  - { id: "value", text: "value", translation: "ערך", pos: "noun", pronunciation: "וַואלְיוּ", example: { text: "This bag has a good value.", translation: "לתיק הזה יש ערך טוב." } }
+  - { id: "product", text: "product", translation: "מוצר", pos: "noun", pronunciation: "פְּרוֹדַקְט", example: { text: "This product is new.", translation: "המוצר הזה חדש." } }
+  - { id: "example", text: "example", translation: "דוגמה", pos: "noun", pronunciation: "אִגְזֶמְפֶּל", example: { text: "For example, take this shirt.", translation: "לדוגמה, קח את החולצה הזאת." } }
+  - { id: "type", text: "type", translation: "סוג", pos: "noun", pronunciation: "טַייפּ", example: { text: "What type of shoes do you like?", translation: "איזה סוג נעליים אתה אוהב?" } }
+  - { id: "model", text: "model", translation: "דגם", pos: "noun", pronunciation: "מוֹדֶל", example: { text: "This is a new model.", translation: "זה דגם חדש." } }
+  - { id: "match", text: "match", translation: "להתאים", pos: "verb", pronunciation: "מֶץ'", example: { text: "The shoes match the dress.", translation: "הנעליים מתאימות לשמלה." } }
+  - { id: "general", text: "general", translation: "כללי", pos: "adjective", pronunciation: "ג'ֶנֶרְל", example: { text: "This is a general rule.", translation: "זה כלל כללי." } }
+  - { id: "common", text: "common", translation: "נפוץ", pos: "adjective", pronunciation: "קוֹמֶן", example: { text: "Blue is a common color.", translation: "כחול הוא צבע נפוץ." } }
+  - { id: "total", text: "total", translation: "סך הכול", pos: "noun", pronunciation: "טוֹטֶל", example: { text: "The total is ten pounds.", translation: "הסך הכול הוא עשר לירות." } }
+  - { id: "clear", text: "clear", translation: "ברור", pos: "adjective", pronunciation: "קְלִיר", example: { text: "The answer is clear.", translation: "התשובה ברורה." } }
+  - { id: "final", text: "final", translation: "סופי", pos: "adjective", pronunciation: "פַיינֶל", example: { text: "This is the final price.", translation: "זה המחיר הסופי." } }
 grammar:
   - id: this-that
     title: { he: "זה, ההוא: this, that, these, those", en: "This, that, these, those" }
@@ -418,3 +430,337 @@ lessons:
         text: "I like this white shirt. I'll take it."
         translation: "אני אוהבת את החולצה הלבנה הזאת. אני אקח אותה."
         lexemes: [this, white, shirt, ill-take-it]
+  # ------------------------------------------------------------------ story words
+  - id: u8-n1
+    kind: new
+    title:
+      he: 'היומן של נועה: מבצע'
+      en: 'Noa''s diary: a sale'
+    exercises:
+    - id: u8-n1-01
+      type: dialogue
+      scene: בחנות, ליד שלט המבצע.
+      lines:
+      - speaker: rachel
+        text: Look, a big sale! This product has a good value.
+        translation: תראי, מבצע גדול! למוצר הזה יש ערך טוב.
+      - speaker: noa
+        text: For example, this jacket. It is a new model.
+        translation: לדוגמה, הז'קט הזה. זה דגם חדש.
+      - speaker: rachel
+        text: What type of bag do you need?
+        translation: איזה סוג תיק את צריכה?
+      - speaker: noa
+        text: A small one.
+        translation: תיק קטן.
+    - id: u8-n1-02
+      type: learn
+      lexeme: sale
+    - id: u8-n1-03
+      type: learn
+      lexeme: value
+    - id: u8-n1-04
+      type: learn
+      lexeme: product
+    - id: u8-n1-05
+      type: learn
+      lexeme: example
+    - id: u8-n1-06
+      type: learn
+      lexeme: type
+    - id: u8-n1-07
+      type: learn
+      lexeme: model
+    - id: u8-n1-08
+      type: match_pairs
+      pairs:
+      - - sale
+        - מבצע; מכירה
+      - - value
+        - ערך
+      - - product
+        - מוצר
+      - - example
+        - דוגמה
+      - - type
+        - סוג
+      - - model
+        - דגם
+      lexemes:
+      - sale
+      - value
+      - product
+      - example
+      - type
+      - model
+    - id: u8-n1-09
+      type: multiple_choice
+      prompt: model – מה הפירוש?
+      options:
+      - דגם
+      - מוצר
+      - ערך
+      correct: 0
+      lexemes:
+      - model
+    - id: u8-n1-10
+      type: multiple_choice
+      prompt: type – מה הפירוש?
+      options:
+      - סוג
+      - מוצר
+      - מבצע; מכירה
+      correct: 0
+      lexemes:
+      - type
+    - id: u8-n1-11
+      type: multiple_choice
+      prompt: value – מה הפירוש?
+      options:
+      - ערך
+      - מוצר
+      - דוגמה
+      correct: 0
+      lexemes:
+      - value
+    - id: u8-n1-12
+      type: fill_blank
+      sentence: For ___, take this shirt.
+      translation: לדוגמה, קח את החולצה הזאת.
+      answers:
+      - example
+      options:
+      - example
+      - value
+      - type
+      lexemes:
+      - example
+    - id: u8-n1-13
+      type: fill_blank
+      sentence: This ___ is new.
+      translation: המוצר הזה חדש.
+      answers:
+      - product
+      options:
+      - product
+      - value
+      - example
+      lexemes:
+      - product
+    - id: u8-n1-14
+      type: fill_blank
+      sentence: There is a ___ in the shop.
+      translation: יש מבצע בחנות.
+      answers:
+      - sale
+      options:
+      - sale
+      - type
+      - example
+      lexemes:
+      - sale
+    - id: u8-n1-15
+      type: word_bank
+      prompt: זה דגם חדש.
+      answers:
+      - This is a new model.
+      distractors:
+      - product
+      - sale
+      lexemes:
+      - model
+    - id: u8-n1-16
+      type: word_bank
+      prompt: איזה סוג נעליים אתה אוהב?
+      answers:
+      - What type of shoes do you like?
+      distractors:
+      - sale
+      - product
+      lexemes:
+      - type
+    - id: u8-n1-17
+      type: listening_choice
+      audioText: This bag has a good value.
+      question: מה שמעתם?
+      options:
+      - לתיק הזה יש ערך טוב.
+      - יש מבצע בחנות.
+      - המוצר הזה חדש.
+      correct: 0
+      lexemes:
+      - value
+    - id: u8-n1-18
+      type: speak_repeat
+      text: This product is on sale.
+      translation: המוצר הזה במבצע.
+      lexemes:
+      - sale
+      - product
+  - id: u8-n2
+    kind: new
+    title:
+      he: 'היומן של נועה: להתאים ולהחליט'
+      en: 'Noa''s diary: matching and deciding'
+    exercises:
+    - id: u8-n2-01
+      type: dialogue
+      scene: נועה מתאימה סנדלים לתיק.
+      lines:
+      - speaker: noa
+        text: Do these shoes match my bag?
+        translation: הנעליים האלה מתאימות לתיק שלי?
+      - speaker: rachel
+        text: The colors are clear and common. The total price is fine.
+        translation: הצבעים ברורים ונפוצים. המחיר הכולל בסדר.
+      - speaker: noa
+        text: In general I buy simple things. This is my final choice.
+        translation: באופן כללי אני קונה דברים פשוטים. זו הבחירה הסופית שלי.
+      - speaker: rachel
+        text: Good. Let's pay.
+        translation: טוב. בואי נשלם.
+    - id: u8-n2-02
+      type: learn
+      lexeme: match
+    - id: u8-n2-03
+      type: learn
+      lexeme: general
+    - id: u8-n2-04
+      type: learn
+      lexeme: common
+    - id: u8-n2-05
+      type: learn
+      lexeme: total
+    - id: u8-n2-06
+      type: learn
+      lexeme: clear
+    - id: u8-n2-07
+      type: learn
+      lexeme: final
+    - id: u8-n2-08
+      type: match_pairs
+      pairs:
+      - - match
+        - להתאים
+      - - general
+        - כללי
+      - - common
+        - נפוץ
+      - - total
+        - סך הכול
+      - - clear
+        - ברור
+      - - final
+        - סופי
+      lexemes:
+      - match
+      - general
+      - common
+      - total
+      - clear
+      - final
+    - id: u8-n2-09
+      type: multiple_choice
+      prompt: match – מה הפירוש?
+      options:
+      - להתאים
+      - סך הכול
+      - ברור
+      correct: 0
+      lexemes:
+      - match
+    - id: u8-n2-10
+      type: multiple_choice
+      prompt: clear – מה הפירוש?
+      options:
+      - ברור
+      - נפוץ
+      - סופי
+      correct: 0
+      lexemes:
+      - clear
+    - id: u8-n2-11
+      type: multiple_choice
+      prompt: final – מה הפירוש?
+      options:
+      - סופי
+      - נפוץ
+      - סך הכול
+      correct: 0
+      lexemes:
+      - final
+    - id: u8-n2-12
+      type: fill_blank
+      sentence: This is a ___ rule.
+      translation: זה כלל כללי.
+      answers:
+      - general
+      options:
+      - general
+      - common
+      - final
+      lexemes:
+      - general
+    - id: u8-n2-13
+      type: fill_blank
+      sentence: The ___ is ten pounds.
+      translation: הסך הכול הוא עשר לירות.
+      answers:
+      - total
+      options:
+      - total
+      - match
+      - general
+      lexemes:
+      - total
+    - id: u8-n2-14
+      type: fill_blank
+      sentence: Blue is a ___ color.
+      translation: כחול הוא צבע נפוץ.
+      answers:
+      - common
+      options:
+      - common
+      - final
+      - match
+      lexemes:
+      - common
+    - id: u8-n2-15
+      type: word_bank
+      prompt: הנעליים מתאימות לשמלה.
+      answers:
+      - The shoes match the dress.
+      distractors:
+      - total
+      - common
+      lexemes:
+      - match
+    - id: u8-n2-16
+      type: word_bank
+      prompt: התשובה ברורה.
+      answers:
+      - The answer is clear.
+      distractors:
+      - common
+      - final
+      lexemes:
+      - clear
+    - id: u8-n2-17
+      type: listening_choice
+      audioText: This is the final price.
+      question: מה שמעתם?
+      options:
+      - זה המחיר הסופי.
+      - הנעליים מתאימות לשמלה.
+      - זה כלל כללי.
+      correct: 0
+      lexemes:
+      - final
+    - id: u8-n2-18
+      type: speak_repeat
+      text: The total is clear and final.
+      translation: הסך הכול ברור וסופי.
+      lexemes:
+      - total
+      - clear
+      - final

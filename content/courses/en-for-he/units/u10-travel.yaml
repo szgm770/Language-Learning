@@ -32,6 +32,17 @@ vocabulary:
   - { id: "last-week", text: "last week", translation: "בשבוע שעבר", pos: "phrase", pronunciation: "לַאסְט וִויק" }
   - { id: "how-was", text: "How was…?", translation: "איך היה…?", pos: "phrase", pronunciation: "הַאוּ ווֹז", example: { text: "How was your trip?", translation: "איך היה הטיול שלך?" } }
 
+  - { id: "event", text: "event", translation: "אירוע", pos: "noun", pronunciation: "אִיבֶּנְט", example: { text: "The event starts at nine.", translation: "האירוע מתחיל בתשע." } }
+  - { id: "answer", text: "answer", translation: "תשובה", pos: "noun", pronunciation: "אָנְסֶר", example: { text: "I need an answer today.", translation: "אני צריך תשובה היום." } }
+  - { id: "reason", text: "reason", translation: "סיבה", pos: "noun", pronunciation: "רִיזֶן", example: { text: "What is the reason?", translation: "מה הסיבה?" } }
+  - { id: "rule", text: "rule", translation: "כלל", pos: "noun", pronunciation: "רוּל", example: { text: "This is a new rule.", translation: "זה כלל חדש." } }
+  - { id: "limit", text: "limit", translation: "הגבלה", pos: "noun", pronunciation: "לִימִיט", example: { text: "There is a limit for the bag.", translation: "יש הגבלה לתיק." } }
+  - { id: "official", text: "official", translation: "רשמי; פקיד", pos: "adjective", pronunciation: "אוֹפִישֶׁל", example: { text: "This is an official paper.", translation: "זה מסמך רשמי." } }
+  - { id: "security", text: "security", translation: "ביטחון", pos: "noun", pronunciation: "סִיקְיוּרִיטִי", example: { text: "Security is at the gate.", translation: "הביטחון נמצא ליד השער." } }
+  - { id: "current", text: "current", translation: "נוכחי; בתוקף", pos: "adjective", pronunciation: "קֶרֶנְט", example: { text: "This is my current address.", translation: "זו הכתובת הנוכחית שלי." } }
+  - { id: "due", text: "due", translation: "צפוי; מתוזמן", pos: "adjective", pronunciation: "דְיוּ", example: { text: "The plane is due at ten.", translation: "המטוס אמור לנחות בעשר." } }
+  - { id: "further", text: "further", translation: "נוסף", pos: "adjective", pronunciation: "פֶרְדֶר", example: { text: "I have one further question.", translation: "יש לי שאלה נוספת." } }
+  - { id: "cover", text: "cover", translation: "לכסות", pos: "verb", pronunciation: "קָאבֶר", example: { text: "Cover the bag with a coat.", translation: "כסה את התיק במעיל." } }
 grammar:
   - id: id-like
     title: { he: "לבקש בנימוס: I'd like", en: "I'd like" }
@@ -543,3 +554,318 @@ lessons:
         type: dictation
         text: "How was your weekend?"
         lexemes: [how-was, weekend]
+  # ------------------------------------------------------------------ story words
+  - id: u10-n1
+    kind: new
+    title:
+      he: 'היומן של נועה: אירוע בשדה התעופה'
+      en: 'Noa''s diary: an event at the airport'
+    exercises:
+    - id: u10-n1-01
+      type: dialogue
+      scene: בשדה התעופה, ליד דלפק המידע.
+      lines:
+      - speaker: noa
+        text: Excuse me, I need an answer. What is the reason for the delay?
+        translation: סליחה, אני צריכה תשובה. מה הסיבה לעיכוב?
+      - speaker: cohen
+        text: This is an official event. There is a new rule today.
+        translation: זה אירוע רשמי. יש היום כלל חדש.
+      - speaker: noa
+        text: Is there a limit for the bag?
+        translation: יש הגבלה לתיק?
+      - speaker: cohen
+        text: Yes, one small bag.
+        translation: כן, תיק קטן אחד.
+    - id: u10-n1-02
+      type: learn
+      lexeme: event
+    - id: u10-n1-03
+      type: learn
+      lexeme: answer
+    - id: u10-n1-04
+      type: learn
+      lexeme: reason
+    - id: u10-n1-05
+      type: learn
+      lexeme: rule
+    - id: u10-n1-06
+      type: learn
+      lexeme: limit
+    - id: u10-n1-07
+      type: learn
+      lexeme: official
+    - id: u10-n1-08
+      type: match_pairs
+      pairs:
+      - - event
+        - אירוע
+      - - answer
+        - תשובה
+      - - reason
+        - סיבה
+      - - rule
+        - כלל
+      - - limit
+        - הגבלה
+      - - official
+        - רשמי; פקיד
+      lexemes:
+      - event
+      - answer
+      - reason
+      - rule
+      - limit
+      - official
+    - id: u10-n1-09
+      type: multiple_choice
+      prompt: reason – מה הפירוש?
+      options:
+      - סיבה
+      - רשמי; פקיד
+      - הגבלה
+      correct: 0
+      lexemes:
+      - reason
+    - id: u10-n1-10
+      type: multiple_choice
+      prompt: limit – מה הפירוש?
+      options:
+      - הגבלה
+      - אירוע
+      - סיבה
+      correct: 0
+      lexemes:
+      - limit
+    - id: u10-n1-11
+      type: multiple_choice
+      prompt: rule – מה הפירוש?
+      options:
+      - כלל
+      - סיבה
+      - תשובה
+      correct: 0
+      lexemes:
+      - rule
+    - id: u10-n1-12
+      type: fill_blank
+      sentence: This is an ___ paper.
+      translation: זה מסמך רשמי.
+      answers:
+      - official
+      options:
+      - official
+      - event
+      - answer
+      lexemes:
+      - official
+    - id: u10-n1-13
+      type: fill_blank
+      sentence: The ___ starts at nine.
+      translation: האירוע מתחיל בתשע.
+      answers:
+      - event
+      options:
+      - event
+      - limit
+      - rule
+      lexemes:
+      - event
+    - id: u10-n1-14
+      type: fill_blank
+      sentence: I need an ___ today.
+      translation: אני צריך תשובה היום.
+      answers:
+      - answer
+      options:
+      - answer
+      - limit
+      - rule
+      lexemes:
+      - answer
+    - id: u10-n1-15
+      type: word_bank
+      prompt: מה הסיבה?
+      answers:
+      - What is the reason?
+      distractors:
+      - rule
+      - event
+      lexemes:
+      - reason
+    - id: u10-n1-16
+      type: word_bank
+      prompt: יש הגבלה לתיק.
+      answers:
+      - There is a limit for the bag.
+      distractors:
+      - official
+      - answer
+      lexemes:
+      - limit
+    - id: u10-n1-17
+      type: listening_choice
+      audioText: This is a new rule.
+      question: מה שמעתם?
+      options:
+      - זה כלל חדש.
+      - האירוע מתחיל בתשע.
+      - אני צריך תשובה היום.
+      correct: 0
+      lexemes:
+      - rule
+    - id: u10-n1-18
+      type: speak_repeat
+      text: I need an answer and a reason.
+      translation: אני צריכה תשובה וסיבה.
+      lexemes:
+      - answer
+      - reason
+  - id: u10-n2
+    kind: new
+    title:
+      he: 'היומן של נועה: ביטחון ועוד'
+      en: 'Noa''s diary: security and more'
+    exercises:
+    - id: u10-n2-01
+      type: dialogue
+      scene: בבידוק הביטחוני.
+      lines:
+      - speaker: noa
+        text: The security is quick. I have my current passport.
+        translation: הבידוק הביטחוני מהיר. יש לי דרכון בתוקף.
+      - speaker: cohen
+        text: Your bag is due for a check. Further questions, please?
+        translation: התיק שלך נבחר לבדיקה. יש שאלות נוספות, בבקשה?
+      - speaker: noa
+        text: No. I cover the laptop with my coat.
+        translation: לא. אני מכסה את המחשב במעיל.
+      - speaker: cohen
+        text: Thank you. Have a good flight.
+        translation: תודה. טיסה טובה.
+    - id: u10-n2-02
+      type: learn
+      lexeme: security
+    - id: u10-n2-03
+      type: learn
+      lexeme: current
+    - id: u10-n2-04
+      type: learn
+      lexeme: due
+    - id: u10-n2-05
+      type: learn
+      lexeme: further
+    - id: u10-n2-06
+      type: learn
+      lexeme: cover
+    - id: u10-n2-07
+      type: match_pairs
+      pairs:
+      - - security
+        - ביטחון
+      - - current
+        - נוכחי; בתוקף
+      - - due
+        - צפוי; מתוזמן
+      - - further
+        - נוסף
+      - - cover
+        - לכסות
+      lexemes:
+      - security
+      - current
+      - due
+      - further
+      - cover
+    - id: u10-n2-08
+      type: multiple_choice
+      prompt: current – מה הפירוש?
+      options:
+      - נוכחי; בתוקף
+      - נוסף
+      - צפוי; מתוזמן
+      correct: 0
+      lexemes:
+      - current
+    - id: u10-n2-09
+      type: multiple_choice
+      prompt: due – מה הפירוש?
+      options:
+      - צפוי; מתוזמן
+      - נוסף
+      - ביטחון
+      correct: 0
+      lexemes:
+      - due
+    - id: u10-n2-10
+      type: multiple_choice
+      prompt: cover – מה הפירוש?
+      options:
+      - לכסות
+      - ביטחון
+      - נוסף
+      correct: 0
+      lexemes:
+      - cover
+    - id: u10-n2-11
+      type: fill_blank
+      sentence: ___ is at the gate.
+      translation: הביטחון נמצא ליד השער.
+      answers:
+      - Security
+      options:
+      - Security
+      - current
+      - cover
+      lexemes:
+      - security
+    - id: u10-n2-12
+      type: fill_blank
+      sentence: I have one ___ question.
+      translation: יש לי שאלה נוספת.
+      answers:
+      - further
+      options:
+      - further
+      - security
+      - due
+      lexemes:
+      - further
+    - id: u10-n2-13
+      type: word_bank
+      prompt: זו הכתובת הנוכחית שלי.
+      answers:
+      - This is my current address.
+      distractors:
+      - security
+      - due
+      lexemes:
+      - current
+    - id: u10-n2-14
+      type: word_bank
+      prompt: המטוס אמור לנחות בעשר.
+      answers:
+      - The plane is due at ten.
+      distractors:
+      - security
+      - current
+      lexemes:
+      - due
+    - id: u10-n2-15
+      type: listening_choice
+      audioText: Cover the bag with a coat.
+      question: מה שמעתם?
+      options:
+      - כסה את התיק במעיל.
+      - הביטחון נמצא ליד השער.
+      - זו הכתובת הנוכחית שלי.
+      correct: 0
+      lexemes:
+      - cover
+    - id: u10-n2-16
+      type: speak_repeat
+      text: The security check is due now.
+      translation: בדיקת הביטחון צפויה עכשיו.
+      lexemes:
+      - security
+      - due
