@@ -55,6 +55,38 @@ vocabulary:
     translation: ואם גם בכך נוח לי, שתעבוד (השפחה) יותר
     source: בבלי, בבא בתרא כט ע״א
     vocalized: וְאִי נָמֵי, בְּהָכִי נִיחָא לִי דְּעָבְדָא טְפֵי
+- id: f-liteamich
+  text: ליטעמיך
+  translation: לשיטתך (גם לפי דבריך יש קושיה)
+  pos: phrase
+- id: f-vetisbera
+  text: ותסברא
+  translation: וכי אתה סובר כך?
+  pos: verb
+- id: f-teinach
+  text: תינח
+  translation: נניח (זה מובן ב…)
+  pos: verb
+- id: f-alma-lama
+  text: אלמה
+  translation: למה?
+  pos: adverb
+- id: f-veachati
+  text: ואכתי
+  translation: ועדיין
+  pos: adverb
+- id: f-ahani
+  text: אהני
+  translation: הועיל
+  pos: verb
+- id: f-tipuk
+  text: תיפוק ליה
+  translation: שילמד את זה ממקור אחר!
+  pos: phrase
+- id: f-ipuch
+  text: איפוך
+  translation: הפוך!
+  pos: verb
 grammar: []
 lessons:
 - id: u18-l1
@@ -329,3 +361,139 @@ lessons:
     - i-amart
     - adraba
     - tfei
+- id: u18-l4
+  kind: new
+  title:
+    he: ותסברא?
+    en: Do you really think so?
+  exercises:
+  - id: u18-l4-25
+    type: tip
+    title: המחברת של איתן
+    text: 'מילים שאיתן מצא שוב ושוב בדפים, ורשם במחברת שלו: **ליטעמיך** = לשיטתך (גם לפי דבריך יש קושיה), **ותסברא** = וכי אתה סובר כך?, **תינח** = נניח (זה מובן ב…), **אלמה** = למה?, **ואכתי** = ועדיין, **אהני** = הועיל, **תיפוק ליה** = שילמד את זה ממקור אחר!, **איפוך** = הפוך!.'
+  - id: u18-l4-26
+    type: learn
+    lexeme: f-liteamich
+  - id: u18-l4-27
+    type: learn
+    lexeme: f-vetisbera
+  - id: u18-l4-28
+    type: learn
+    lexeme: f-teinach
+  - id: u18-l4-29
+    type: learn
+    lexeme: f-alma-lama
+  - id: u18-l4-30
+    type: learn
+    lexeme: f-veachati
+  - id: u18-l4-31
+    type: learn
+    lexeme: f-ahani
+  - id: u18-l4-32
+    type: learn
+    lexeme: f-tipuk
+  - id: u18-l4-33
+    type: learn
+    lexeme: f-ipuch
+  - id: u18-l4-34
+    type: match_pairs
+    pairs:
+    - - ליטעמיך
+      - לשיטתך (גם לפי דבריך יש קושיה)
+    - - ותסברא
+      - וכי אתה סובר כך?
+    - - תינח
+      - נניח (זה מובן ב…)
+    - - אלמה
+      - למה?
+    - - ואכתי
+      - ועדיין
+    - - אהני
+      - הועיל
+    lexemes:
+    - f-liteamich
+    - f-vetisbera
+    - f-teinach
+    - f-alma-lama
+    - f-veachati
+    - f-ahani
+  - id: u18-l4-35
+    type: multiple_choice
+    prompt: מה פירוש ליטעמיך?
+    options:
+    - לשיטתך (גם לפי דבריך יש קושיה)
+    - שילמד את זה ממקור אחר!
+    - וכי אתה סובר כך?
+    correct: 0
+    lexemes:
+    - f-liteamich
+  - id: u18-l4-36
+    type: multiple_choice
+    prompt: מה פירוש ותסברא?
+    options:
+    - וכי אתה סובר כך?
+    - נניח (זה מובן ב…)
+    - למה?
+    correct: 0
+    lexemes:
+    - f-vetisbera
+  - id: u18-l4-37
+    type: multiple_choice
+    prompt: מה פירוש תינח?
+    options:
+    - נניח (זה מובן ב…)
+    - וכי אתה סובר כך?
+    - הפוך!
+    correct: 0
+    lexemes:
+    - f-teinach
+  - id: u18-l4-38
+    type: multiple_choice
+    prompt: מה פירוש אלמה?
+    options:
+    - למה?
+    - מובן (לשיטה זו), אבל…
+    - להפך!
+    correct: 0
+    lexemes:
+    - f-alma-lama
+  - id: u18-l4-39
+    type: multiple_choice
+    prompt: מה פירוש ואכתי?
+    options:
+    - ועדיין
+    - מיושב, נוח; ״ניחא ליה״ = נוח לו
+    - להפך!
+    correct: 0
+    lexemes:
+    - f-veachati
+  - id: u18-l4-40
+    type: multiple_choice
+    prompt: מה פירוש אהני?
+    options:
+    - הועיל
+    - ועדיין
+    - אם תאמר (שזו השיטה), מובן…
+    correct: 0
+    lexemes:
+    - f-ahani
+  - id: u18-l4-41
+    type: multiple_choice
+    prompt: מה פירוש תיפוק ליה?
+    options:
+    - שילמד את זה ממקור אחר!
+    - לשיטתך (גם לפי דבריך יש קושיה)
+    - מובן (לשיטה זו), אבל…
+    correct: 0
+    lexemes:
+    - f-tipuk
+  - id: u18-l4-42
+    type: multiple_choice
+    prompt: מה פירוש איפוך?
+    options:
+    - הפוך!
+    - להפך!
+    - שילמד את זה ממקור אחר!
+    correct: 0
+    lexemes:
+    - f-ipuch

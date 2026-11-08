@@ -127,6 +127,38 @@ vocabulary:
     translation: 'והאחר אמר לו: לפעמים (יקרה) שתיבהל'
     source: בבלי, בבא בתרא נט ע״ב
     vocalized: 'וְאִידַּךְ אֲמַר לֵיהּ: זִימְנִין דִּבְעִיתַתְּ'
+- id: f-tlata
+  text: תלתא
+  translation: שלושה
+  pos: number
+- id: f-tlatin
+  text: תלתין
+  translation: שלושים
+  pos: number
+- id: f-shitin
+  text: שיתין
+  translation: שישים
+  pos: number
+- id: f-shita6
+  text: שיתא
+  translation: שישה
+  pos: number
+- id: f-kamaita
+  text: קמייתא
+  translation: הראשונה
+  pos: adjective
+- id: f-batreih
+  text: בתריה
+  translation: אחריו
+  pos: preposition
+- id: f-kadim
+  text: קדים
+  translation: קודם, מקדים
+  pos: verb
+- id: f-zimnei
+  text: זימני
+  translation: פעמים
+  pos: noun
 grammar: []
 lessons:
 - id: u11-l1
@@ -687,3 +719,139 @@ lessons:
     - yemama
     - trei
     - zimnin
+- id: u11-l5
+  kind: new
+  title:
+    he: עוד מספרים
+    en: More numbers
+  exercises:
+  - id: u11-l5-51
+    type: tip
+    title: המחברת של איתן
+    text: 'מילים שאיתן מצא שוב ושוב בדפים, ורשם במחברת שלו: **תלתא** = שלושה, **תלתין** = שלושים, **שיתין** = שישים, **שיתא** = שישה, **קמייתא** = הראשונה, **בתריה** = אחריו, **קדים** = קודם, מקדים, **זימני** = פעמים.'
+  - id: u11-l5-52
+    type: learn
+    lexeme: f-tlata
+  - id: u11-l5-53
+    type: learn
+    lexeme: f-tlatin
+  - id: u11-l5-54
+    type: learn
+    lexeme: f-shitin
+  - id: u11-l5-55
+    type: learn
+    lexeme: f-shita6
+  - id: u11-l5-56
+    type: learn
+    lexeme: f-kamaita
+  - id: u11-l5-57
+    type: learn
+    lexeme: f-batreih
+  - id: u11-l5-58
+    type: learn
+    lexeme: f-kadim
+  - id: u11-l5-59
+    type: learn
+    lexeme: f-zimnei
+  - id: u11-l5-60
+    type: match_pairs
+    pairs:
+    - - תלתא
+      - שלושה
+    - - תלתין
+      - שלושים
+    - - שיתין
+      - שישים
+    - - שיתא
+      - שישה
+    - - קמייתא
+      - הראשונה
+    - - בתריה
+      - אחריו
+    lexemes:
+    - f-tlata
+    - f-tlatin
+    - f-shitin
+    - f-shita6
+    - f-kamaita
+    - f-batreih
+  - id: u11-l5-61
+    type: multiple_choice
+    prompt: מה פירוש תלתא?
+    options:
+    - שלושה
+    - שישים
+    - יום (שעות האור)
+    correct: 0
+    lexemes:
+    - f-tlata
+  - id: u11-l5-62
+    type: multiple_choice
+    prompt: מה פירוש תלתין?
+    options:
+    - שלושים
+    - שישים
+    - שישה
+    correct: 0
+    lexemes:
+    - f-tlatin
+  - id: u11-l5-63
+    type: multiple_choice
+    prompt: מה פירוש שיתין?
+    options:
+    - שישים
+    - אחריו
+    - חצי
+    correct: 0
+    lexemes:
+    - f-shitin
+  - id: u11-l5-64
+    type: multiple_choice
+    prompt: מה פירוש שיתא?
+    options:
+    - שישה
+    - יום (שעות האור)
+    - שניים
+    correct: 0
+    lexemes:
+    - f-shita6
+  - id: u11-l5-65
+    type: multiple_choice
+    prompt: מה פירוש קמייתא?
+    options:
+    - הראשונה
+    - בוקר
+    - לפעמים
+    correct: 0
+    lexemes:
+    - f-kamaita
+  - id: u11-l5-66
+    type: multiple_choice
+    prompt: מה פירוש בתריה?
+    options:
+    - אחריו
+    - פעם
+    - פעמים
+    correct: 0
+    lexemes:
+    - f-batreih
+  - id: u11-l5-67
+    type: multiple_choice
+    prompt: מה פירוש קדים?
+    options:
+    - קודם, מקדים
+    - שישה
+    - שלושים
+    correct: 0
+    lexemes:
+    - f-kadim
+  - id: u11-l5-68
+    type: multiple_choice
+    prompt: מה פירוש זימני?
+    options:
+    - פעמים
+    - שישה
+    - שש
+    correct: 0
+    lexemes:
+    - f-zimnei

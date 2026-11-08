@@ -124,6 +124,38 @@ vocabulary:
     translation: '(כשהתלמידים דחפו אותה) אמר להם: הניחו לה! שלי ושלכם, שלה הוא'
     source: בבלי, כתובות סג ע״א
     vocalized: 'שַׁמָּעֵיהּ. אֲמַר לְהוּ: שִׁבְקוּהָ, שֶׁלִּי וְשֶׁלָּכֶם שֶׁלָּהּ הוּא'
+- id: f-tsurba
+  text: צורבא מרבנן
+  translation: תלמיד חכם צעיר
+  pos: phrase
+- id: f-dayanei
+  text: דייני
+  translation: דיינים
+  pos: noun
+- id: f-bemaarava
+  text: במערבא
+  translation: במערב (בארץ ישראל)
+  pos: adverb
+- id: f-knishta
+  text: כנישתא
+  translation: בית כנסת; כינוס
+  pos: noun
+- id: f-galuta
+  text: גלותא
+  translation: גלות; ״ריש גלותא״ = ראש הגולה
+  pos: noun
+- id: f-maalya
+  text: מעליא
+  translation: טוב, מעולה
+  pos: adjective
+- id: f-adifa
+  text: עדיפא
+  translation: עדיפה
+  pos: adjective
+- id: f-shchicha
+  text: שכיחא
+  translation: מצויה, נפוצה
+  pos: adjective
 grammar: []
 lessons:
 - id: u12-l1
@@ -707,3 +739,139 @@ lessons:
     - trei-sar
     - achrini
     - shivkuha
+- id: u12-l5
+  kind: new
+  title:
+    he: אנשים ומקומות
+    en: People and places
+  exercises:
+  - id: u12-l5-52
+    type: tip
+    title: המחברת של איתן
+    text: 'מילים שאיתן מצא שוב ושוב בדפים, ורשם במחברת שלו: **צורבא מרבנן** = תלמיד חכם צעיר, **דייני** = דיינים, **במערבא** = במערב (בארץ ישראל), **כנישתא** = בית כנסת; כינוס, **גלותא** = גלות; ״ריש גלותא״ = ראש הגולה, **מעליא** = טוב, מעולה, **עדיפא** = עדיפה, **שכיחא** = מצויה, נפוצה.'
+  - id: u12-l5-53
+    type: learn
+    lexeme: f-tsurba
+  - id: u12-l5-54
+    type: learn
+    lexeme: f-dayanei
+  - id: u12-l5-55
+    type: learn
+    lexeme: f-bemaarava
+  - id: u12-l5-56
+    type: learn
+    lexeme: f-knishta
+  - id: u12-l5-57
+    type: learn
+    lexeme: f-galuta
+  - id: u12-l5-58
+    type: learn
+    lexeme: f-maalya
+  - id: u12-l5-59
+    type: learn
+    lexeme: f-adifa
+  - id: u12-l5-60
+    type: learn
+    lexeme: f-shchicha
+  - id: u12-l5-61
+    type: match_pairs
+    pairs:
+    - - צורבא מרבנן
+      - תלמיד חכם צעיר
+    - - דייני
+      - דיינים
+    - - במערבא
+      - במערב (בארץ ישראל)
+    - - כנישתא
+      - בית כנסת; כינוס
+    - - גלותא
+      - גלות; ״ריש גלותא״ = ראש הגולה
+    - - מעליא
+      - טוב, מעולה
+    lexemes:
+    - f-tsurba
+    - f-dayanei
+    - f-bemaarava
+    - f-knishta
+    - f-galuta
+    - f-maalya
+  - id: u12-l5-62
+    type: multiple_choice
+    prompt: מה פירוש צורבא מרבנן?
+    options:
+    - תלמיד חכם צעיר
+    - עדיפה
+    - לקראתו (לפניו)
+    correct: 0
+    lexemes:
+    - f-tsurba
+  - id: u12-l5-63
+    type: multiple_choice
+    prompt: מה פירוש דייני?
+    options:
+    - דיינים
+    - רועה
+    - שמע (עבר); ״שמע מינה״ = למד מכאן
+    correct: 0
+    lexemes:
+    - f-dayanei
+  - id: u12-l5-64
+    type: multiple_choice
+    prompt: מה פירוש במערבא?
+    options:
+    - במערב (בארץ ישראל)
+    - שומע בקול, מציית
+    - מצויה, נפוצה
+    correct: 0
+    lexemes:
+    - f-bemaarava
+  - id: u12-l5-65
+    type: multiple_choice
+    prompt: מה פירוש כנישתא?
+    options:
+    - בית כנסת; כינוס
+    - דיינים
+    - לקראתו (לפניו)
+    correct: 0
+    lexemes:
+    - f-knishta
+  - id: u12-l5-66
+    type: multiple_choice
+    prompt: מה פירוש גלותא?
+    options:
+    - גלות; ״ריש גלותא״ = ראש הגולה
+    - אביו, אביה
+    - הניחו לה! עזבו אותה!
+    correct: 0
+    lexemes:
+    - f-galuta
+  - id: u12-l5-67
+    type: multiple_choice
+    prompt: מה פירוש מעליא?
+    options:
+    - טוב, מעולה
+    - במערב (בארץ ישראל)
+    - הניחו לה! עזבו אותה!
+    correct: 0
+    lexemes:
+    - f-maalya
+  - id: u12-l5-68
+    type: multiple_choice
+    prompt: מה פירוש עדיפא?
+    options:
+    - עדיפה
+    - שומע בקול, מציית
+    - בתו
+    correct: 0
+    lexemes:
+    - f-adifa
+  - id: u12-l5-69
+    type: multiple_choice
+    prompt: מה פירוש שכיחא?
+    options:
+    - מצויה, נפוצה
+    - בתו
+    - גלות; ״ריש גלותא״ = ראש הגולה
+    correct: 0
+    lexemes:
+    - f-shchicha

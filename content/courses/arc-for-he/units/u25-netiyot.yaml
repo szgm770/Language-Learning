@@ -1,0 +1,553 @@
+id: u25-netiyot
+cefr: A2
+scene: study
+title:
+  he: אמר, קאמרי, אמרינן
+  en: One verb, many forms
+story: 'ר׳ ישראל מראה לאיתן את הסוד של סבא: לא לומדים כל צורה לבד. מכירים את השורש ואת הסיומות, ומזהים מיד מי עושה ומתי.'
+canDo:
+- 'לזהות מי עושה לפי הסיומת: ־נא (אני), ־ינן (אנחנו), ־י / ־ו (הם)'
+- להבחין בין עבר, הווה (קא־) ועתיד (ל־, נ־, ת־)
+- 'לזהות צורות של פעלים שכבר למדנו: אזיל, שקיל, יהיב, ידעי'
+vocabulary:
+- id: amrinan
+  text: אמרינן
+  translation: אנחנו אומרים
+  pos: verb
+- id: kamri
+  text: קאמרי
+  translation: הם אומרים
+  pos: verb
+- id: amran
+  text: אמרן
+  translation: אמרנו
+  pos: verb
+- id: aziyl
+  text: אזיל
+  translation: הולך
+  pos: verb
+- id: azla
+  text: אזלא
+  translation: הולכת
+  pos: verb
+- id: azlei
+  text: אזלי
+  translation: הולכים
+  pos: verb
+- id: shakil
+  text: שקיל
+  translation: לוקח
+  pos: verb
+- id: akhil
+  text: אכיל
+  translation: אוכל
+  pos: verb
+- id: yahiv
+  text: יהיב
+  translation: נותן
+  pos: verb
+- id: yadei
+  text: ידעי
+  translation: יודעים (הם)
+  pos: verb
+- id: yadinan
+  text: ידעינן
+  translation: אנחנו יודעים
+  pos: verb
+- id: chazya
+  text: חזיא
+  translation: ראויה (מתאימה)
+  pos: verb
+- id: yatvei
+  text: יתבי
+  translation: יושבים
+  pos: verb
+- id: kaimei
+  text: קיימי
+  translation: עומדים
+  pos: verb
+- id: lehevei
+  text: ליהוי
+  translation: שיהיה
+  pos: verb
+- id: teihevei
+  text: תיהוי
+  translation: שתהיה
+  pos: verb
+- id: leitei
+  text: ליתי
+  translation: שיבוא
+  pos: verb
+- id: naavid
+  text: נעביד
+  translation: נעשה
+  pos: verb
+- id: avdinan
+  text: עבדינן
+  translation: אנחנו עושים
+  pos: verb
+- id: kaamrat
+  text: קאמרת
+  translation: אתה אומר
+  pos: verb
+grammar: []
+lessons:
+- id: u25-l1
+  kind: new
+  title:
+    he: אני, אתה, אנחנו
+    en: I, you, we
+  exercises:
+  - id: u25-l1-01
+    type: dialogue
+    scene: לפני שעוברים לשלב הבא, ר׳ ישראל מוציא דף ריק ומשרטט טבלה.
+    lines:
+    - speaker: yisrael
+      text: 'סבא שלך לא שינן מילים. הוא שינן סיומות. תראה: ״אמר״ זה השורש. ״אמרינן״ = אנחנו אומרים. ״קאמרי״ = הם אומרים. ״אמרן״ = אמרנו.'
+      translation: סיומות
+    - speaker: eitan
+      text: אז כל פועל שאני מכיר, אני מכיר בעצם בעשר צורות.
+      translation: איתן
+    - speaker: yisrael
+      text: בדיוק. במתבן לא היו לנו מילונים. רק השיטה.
+      translation: השיטה
+  - id: u25-l1-02
+    type: tip
+    title: מי עושה?
+    text: '**־נא** = אני (ידענא). **־ת** = אתה (קאמרת). **־ינן** = אנחנו (אמרינן, עבדינן). **־ן** = אנחנו בעבר (אמרן).
+
+
+      **־י / ־ו** = הם (קאמרי, אזלו).
+
+
+      **קא** לפני הפועל = עכשיו (קאמר, קאמרי). **נ־** = נעשה (נעביד). **ל־** = שיעשה (ליתי, ליהוי).'
+  - id: u25-l1-03
+    type: learn
+    lexeme: amrinan
+  - id: u25-l1-04
+    type: learn
+    lexeme: kamri
+  - id: u25-l1-05
+    type: learn
+    lexeme: amran
+  - id: u25-l1-06
+    type: learn
+    lexeme: kaamrat
+  - id: u25-l1-07
+    type: learn
+    lexeme: avdinan
+  - id: u25-l1-08
+    type: learn
+    lexeme: naavid
+  - id: u25-l1-09
+    type: match_pairs
+    pairs:
+    - - אמרינן
+      - אנחנו אומרים
+    - - קאמרי
+      - הם אומרים
+    - - אמרן
+      - אמרנו
+    - - קאמרת
+      - אתה אומר
+    - - עבדינן
+      - אנחנו עושים
+    - - נעביד
+      - נעשה
+    lexemes:
+    - amrinan
+    - kamri
+    - amran
+    - kaamrat
+    - avdinan
+    - naavid
+  - id: u25-l1-10
+    type: multiple_choice
+    prompt: מה פירוש אמרינן?
+    options:
+    - אנחנו אומרים
+    - אנחנו עושים
+    - אמרנו
+    correct: 0
+    lexemes:
+    - amrinan
+  - id: u25-l1-11
+    type: multiple_choice
+    prompt: מה פירוש קאמרי?
+    options:
+    - הם אומרים
+    - נעשה
+    - ראויה (מתאימה)
+    correct: 0
+    lexemes:
+    - kamri
+  - id: u25-l1-12
+    type: multiple_choice
+    prompt: מה פירוש אמרן?
+    options:
+    - אמרנו
+    - שתהיה
+    - אוכל
+    correct: 0
+    lexemes:
+    - amran
+  - id: u25-l1-13
+    type: multiple_choice
+    prompt: מה פירוש קאמרת?
+    options:
+    - אתה אומר
+    - עומדים
+    - נותן
+    correct: 0
+    lexemes:
+    - kaamrat
+  - id: u25-l1-14
+    type: multiple_choice
+    prompt: מה פירוש עבדינן?
+    options:
+    - אנחנו עושים
+    - הולך
+    - אוכל
+    correct: 0
+    lexemes:
+    - avdinan
+  - id: u25-l1-15
+    type: multiple_choice
+    prompt: מה פירוש נעביד?
+    options:
+    - נעשה
+    - שתהיה
+    - נותן
+    correct: 0
+    lexemes:
+    - naavid
+- id: u25-l2
+  kind: new
+  title:
+    he: הולך, לוקח, נותן
+    en: Going, taking, giving
+  exercises:
+  - id: u25-l2-16
+    type: tip
+    title: 'הווה: יו״ד באמצע'
+    text: 'בהווה יש לרוב **י** אחרי האות השנייה: **אזיל** = הולך, **שקיל** = לוקח, **אכיל** = אוכל, **יהיב** = נותן.
+
+
+      בנקבה **־א**: **אזלא** = הולכת. ברבים **־י**: **אזלי**, **יתבי** (יושבים).'
+  - id: u25-l2-17
+    type: learn
+    lexeme: aziyl
+  - id: u25-l2-18
+    type: learn
+    lexeme: azla
+  - id: u25-l2-19
+    type: learn
+    lexeme: azlei
+  - id: u25-l2-20
+    type: learn
+    lexeme: shakil
+  - id: u25-l2-21
+    type: learn
+    lexeme: akhil
+  - id: u25-l2-22
+    type: learn
+    lexeme: yahiv
+  - id: u25-l2-23
+    type: learn
+    lexeme: yatvei
+  - id: u25-l2-24
+    type: match_pairs
+    pairs:
+    - - אזיל
+      - הולך
+    - - אזלא
+      - הולכת
+    - - אזלי
+      - הולכים
+    - - שקיל
+      - לוקח
+    - - אכיל
+      - אוכל
+    - - יהיב
+      - נותן
+    lexemes:
+    - aziyl
+    - azla
+    - azlei
+    - shakil
+    - akhil
+    - yahiv
+  - id: u25-l2-25
+    type: multiple_choice
+    prompt: מה פירוש אזיל?
+    options:
+    - הולך
+    - הולכים
+    - שתהיה
+    correct: 0
+    lexemes:
+    - aziyl
+  - id: u25-l2-26
+    type: multiple_choice
+    prompt: מה פירוש אזלא?
+    options:
+    - הולכת
+    - לוקח
+    - יודעים (הם)
+    correct: 0
+    lexemes:
+    - azla
+  - id: u25-l2-27
+    type: multiple_choice
+    prompt: מה פירוש אזלי?
+    options:
+    - הולכים
+    - אנחנו אומרים
+    - אמרנו
+    correct: 0
+    lexemes:
+    - azlei
+  - id: u25-l2-28
+    type: multiple_choice
+    prompt: מה פירוש שקיל?
+    options:
+    - לוקח
+    - אנחנו עושים
+    - שתהיה
+    correct: 0
+    lexemes:
+    - shakil
+  - id: u25-l2-29
+    type: multiple_choice
+    prompt: מה פירוש אכיל?
+    options:
+    - אוכל
+    - נעשה
+    - שיהיה
+    correct: 0
+    lexemes:
+    - akhil
+  - id: u25-l2-30
+    type: multiple_choice
+    prompt: מה פירוש יהיב?
+    options:
+    - נותן
+    - נעשה
+    - שיהיה
+    correct: 0
+    lexemes:
+    - yahiv
+  - id: u25-l2-31
+    type: multiple_choice
+    prompt: מה פירוש יתבי?
+    options:
+    - יושבים
+    - שתהיה
+    - עומדים
+    correct: 0
+    lexemes:
+    - yatvei
+- id: u25-l3
+  kind: new
+  title:
+    he: יודעים ועומדים
+    en: Knowing and standing
+  exercises:
+  - id: u25-l3-32
+    type: tip
+    title: עתיד ובקשה
+    text: '**ליהוי** = שיהיה. **תיהוי** = שתהיה. **ליתי** = שיבוא. ככה הגמרא מציעה: ״ליהוי כ…״ = שיהיה כמו…
+
+
+      **חזיא** = ראויה, מתאימה (״חזיא לכלבים״ = ראויה לכלבים).'
+  - id: u25-l3-33
+    type: learn
+    lexeme: yadei
+  - id: u25-l3-34
+    type: learn
+    lexeme: yadinan
+  - id: u25-l3-35
+    type: learn
+    lexeme: chazya
+  - id: u25-l3-36
+    type: learn
+    lexeme: kaimei
+  - id: u25-l3-37
+    type: learn
+    lexeme: lehevei
+  - id: u25-l3-38
+    type: learn
+    lexeme: teihevei
+  - id: u25-l3-39
+    type: learn
+    lexeme: leitei
+  - id: u25-l3-40
+    type: match_pairs
+    pairs:
+    - - ידעי
+      - יודעים (הם)
+    - - ידעינן
+      - אנחנו יודעים
+    - - חזיא
+      - ראויה (מתאימה)
+    - - קיימי
+      - עומדים
+    - - ליהוי
+      - שיהיה
+    - - תיהוי
+      - שתהיה
+    lexemes:
+    - yadei
+    - yadinan
+    - chazya
+    - kaimei
+    - lehevei
+    - teihevei
+  - id: u25-l3-41
+    type: multiple_choice
+    prompt: מה פירוש ידעי?
+    options:
+    - יודעים (הם)
+    - שתהיה
+    - נעשה
+    correct: 0
+    lexemes:
+    - yadei
+  - id: u25-l3-42
+    type: multiple_choice
+    prompt: מה פירוש ידעינן?
+    options:
+    - אנחנו יודעים
+    - הולך
+    - נותן
+    correct: 0
+    lexemes:
+    - yadinan
+  - id: u25-l3-43
+    type: multiple_choice
+    prompt: מה פירוש חזיא?
+    options:
+    - ראויה (מתאימה)
+    - שיבוא
+    - אנחנו עושים
+    correct: 0
+    lexemes:
+    - chazya
+  - id: u25-l3-44
+    type: multiple_choice
+    prompt: מה פירוש קיימי?
+    options:
+    - עומדים
+    - שיהיה
+    - אמרנו
+    correct: 0
+    lexemes:
+    - kaimei
+  - id: u25-l3-45
+    type: multiple_choice
+    prompt: מה פירוש ליהוי?
+    options:
+    - שיהיה
+    - אנחנו עושים
+    - נותן
+    correct: 0
+    lexemes:
+    - lehevei
+  - id: u25-l3-46
+    type: multiple_choice
+    prompt: מה פירוש תיהוי?
+    options:
+    - שתהיה
+    - עומדים
+    - אתה אומר
+    correct: 0
+    lexemes:
+    - teihevei
+  - id: u25-l3-47
+    type: multiple_choice
+    prompt: מה פירוש ליתי?
+    options:
+    - שיבוא
+    - ראויה (מתאימה)
+    - אנחנו אומרים
+    correct: 0
+    lexemes:
+    - leitei
+- id: u25-l4
+  kind: review
+  title:
+    he: מי עושה?
+    en: Who does it?
+  exercises:
+  - id: u25-l4-48
+    type: multiple_choice
+    prompt: ״אמרינן״. מי אומר?
+    options:
+    - אנחנו
+    - הוא
+    - הם
+    correct: 0
+    lexemes:
+    - amrinan
+  - id: u25-l4-49
+    type: multiple_choice
+    prompt: ״קאמרי״. מי אומר?
+    options:
+    - הם (עכשיו)
+    - אני
+    - אתה
+    correct: 0
+    lexemes:
+    - kamri
+  - id: u25-l4-50
+    type: multiple_choice
+    prompt: ״אזלא״. מי הולכת?
+    options:
+    - היא
+    - הם
+    - אנחנו
+    correct: 0
+    lexemes:
+    - azla
+  - id: u25-l4-51
+    type: multiple_choice
+    prompt: ״ליתי״. מה פירושו?
+    options:
+    - שיבוא
+    - בא
+    - באו
+    correct: 0
+    lexemes:
+    - leitei
+  - id: u25-l4-52
+    type: multiple_choice
+    prompt: ״ידעינן״. מי יודע?
+    options:
+    - אנחנו
+    - אני
+    - הם
+    correct: 0
+    lexemes:
+    - yadinan
+  - id: u25-l4-53
+    type: match_pairs
+    pairs:
+    - - אמרינן
+      - אנחנו אומרים
+    - - קאמרי
+      - הם אומרים
+    - - אזיל
+      - הולך
+    - - שקיל
+      - לוקח
+    - - יהיב
+      - נותן
+    - - ליהוי
+      - שיהיה
+    lexemes:
+    - amrinan
+    - kamri
+    - aziyl
+    - shakil
+    - yahiv
+    - lehevei

@@ -71,18 +71,19 @@ later midrashic Aramaic and others by demand.
 |-------|-------|
 | 1 היכרות עם הדף | u00a דף גמרא · u00b מי אמר |
 | 2 מילות הסוגיה | u01 מאי (BM 2a–3a) · u02 נצחוני בני (BM 59b) · u03 רבי ינאי והאילן (BB 60) · u04 שאלות (Berakhot 2a) · u05 האי/הא/הני · u06 איתא/ליתא |
-| 3 פעלים וכינויים | u07 אנא (Berakhot 30b) · u08 חוני (Taanit 23a) · u09 אבא חלקיה · u10 עתיד (Taanit 23b) · u11 זמנים ומספרים (Berakhot 3b) · u12 רבי עקיבא ורחל (Ketubot 62b–63a) |
+| 3 פעלים וכינויים | u07 אנא (Berakhot 30b) · u08 חוני (Taanit 23a) · u09 אבא חלקיה · u10 עתיד (Taanit 23b) · u11 זמנים ומספרים (Berakhot 3b) · u12 רבי עקיבא ורחל (Ketubot 62b–63a) · u25 נטיות |
 | 4 מבנה הסוגיה | u13 קושיא · u14 ראיות · u15 איבעיא · u16 מחלוקת · u17 אוקימתא · u18 בשלמא · u19 קרא ועובדא |
 | 5 סוגיה שלמה | u20 רבה בר בר חנה (BB 73b) · u21 קמצא ובר קמצא (Gittin 55b–56a) · u22 הלל ויבנה (Shabbat 31a, Gittin 56b) · u23 מאי מצאתיה (BM 2a) · u24 הדרן עלך (BM 21a) |
 
 Story: Eitan, his grandfather's Shas and notes; R' Yisrael turns out to be the second boy hidden with the grandfather in a Lithuanian hayloft in 1943; the farmer's grandson Jonas comes to the siyum with the boys' coat.
 
-## Coverage (measured 2026-11-08)
-Words chosen from the whole Bavli except Berakhot and Kiddushin; measured on those two (127k words). Mishnaic Hebrew (words appearing at least twice in the Mishnah) counts as known; abbreviations count as known (taught as a skill).
-- Hebrew only: 72.6%
-- + the 285 course words (320 written forms): 81.3%
-- + names of sages: 82.9%
-Inflected forms not taught one by one (קאמרי, אמרינן, ליתנייה…) are counted as unknown, so real reading coverage is higher. To raise it further: more high-frequency forms (list: `scripts` + `/home/claude/sefaria/miss.json` method) and the branch courses.
+## Coverage (measured 2026-11-08, after the expansion)
+Words chosen from the whole Bavli except Berakhot and Kiddushin; measured on those two (127k words). Known Hebrew = words appearing at least twice in the Mishnah plus the 30,000 most common modern Hebrew words (wordfreq); abbreviations count as known (taught as a skill).
+- Hebrew only: 85.3%
+- + course words (about 450 written forms): 90.2%
+- + names of sages: 90.6%
+Inflected forms are counted as unknown unless taught; u25 (verb endings) teaches the learner to recognise them, so real reading coverage is higher.
+Expansion: u25 נטיות (after u12), and a lesson ״המחברת של איתן״ with 7–8 frequent forms at the end of u05–u12, u18, u20–u24 (added after the review lesson so published lesson ids stay the same).
 
 ## Tools
 - `scripts/arc-quote.py "<Tractate>" <daf> "<text>"` checks a quotation word for word and prints its vocalised form.

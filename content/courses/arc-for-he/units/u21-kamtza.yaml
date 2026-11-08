@@ -118,6 +118,38 @@ vocabulary:
     translation: 'אמר (בר קמצא): הואיל וחכמים ישבו ולא מחו בו, שמע מכאן שנוח להם (הדבר)'
     source: בבלי, גיטין נו ע״א
     vocalized: 'אָמַר: הוֹאִיל וַהֲווֹ יָתְבִי רַבָּנַן וְלָא מַחוֹ בֵּיהּ, שְׁמַע מִינַּהּ קָא נִיחָא לְהוּ'
+- id: f-chiyuva
+  text: חיובא
+  translation: חיוב
+  pos: noun
+- id: f-chumra
+  text: חומרא
+  translation: חומרה
+  pos: noun
+- id: f-lechumra
+  text: לחומרא
+  translation: להחמיר
+  pos: adverb
+- id: f-lekula
+  text: לקולא
+  translation: להקל
+  pos: adverb
+- id: f-michayav
+  text: מיחייב
+  translation: מתחייב, חייב
+  pos: verb
+- id: f-sharya
+  text: שריא
+  translation: מותרת
+  pos: verb
+- id: f-plugta
+  text: פלוגתא
+  translation: מחלוקת
+  pos: noun
+- id: f-mifalgi
+  text: מיפלגי
+  translation: נחלקים
+  pos: verb
 grammar: []
 lessons:
 - id: u21-l1
@@ -647,3 +679,139 @@ lessons:
     - puk
     - shivkan
     - machu
+- id: u21-l4
+  kind: new
+  title:
+    he: חומרא וקולא
+    en: Strict and lenient
+  exercises:
+  - id: u21-l4-47
+    type: tip
+    title: המחברת של איתן
+    text: 'מילים שאיתן מצא שוב ושוב בדפים, ורשם במחברת שלו: **חיובא** = חיוב, **חומרא** = חומרה, **לחומרא** = להחמיר, **לקולא** = להקל, **מיחייב** = מתחייב, חייב, **שריא** = מותרת, **פלוגתא** = מחלוקת, **מיפלגי** = נחלקים.'
+  - id: u21-l4-48
+    type: learn
+    lexeme: f-chiyuva
+  - id: u21-l4-49
+    type: learn
+    lexeme: f-chumra
+  - id: u21-l4-50
+    type: learn
+    lexeme: f-lechumra
+  - id: u21-l4-51
+    type: learn
+    lexeme: f-lekula
+  - id: u21-l4-52
+    type: learn
+    lexeme: f-michayav
+  - id: u21-l4-53
+    type: learn
+    lexeme: f-sharya
+  - id: u21-l4-54
+    type: learn
+    lexeme: f-plugta
+  - id: u21-l4-55
+    type: learn
+    lexeme: f-mifalgi
+  - id: u21-l4-56
+    type: match_pairs
+    pairs:
+    - - חיובא
+      - חיוב
+    - - חומרא
+      - חומרה
+    - - לחומרא
+      - להחמיר
+    - - לקולא
+      - להקל
+    - - מיחייב
+      - מתחייב, חייב
+    - - שריא
+      - מותרת
+    lexemes:
+    - f-chiyuva
+    - f-chumra
+    - f-lechumra
+    - f-lekula
+    - f-michayav
+    - f-sharya
+  - id: u21-l4-57
+    type: multiple_choice
+    prompt: מה פירוש חיובא?
+    options:
+    - חיוב
+    - אוהבו, חברו
+    - מחו (התנגדו)
+    correct: 0
+    lexemes:
+    - f-chiyuva
+  - id: u21-l4-58
+    type: multiple_choice
+    prompt: מה פירוש חומרא?
+    options:
+    - חומרה
+    - הנח לי, עזוב אותי
+    - אוהבו, חברו
+    correct: 0
+    lexemes:
+    - f-chumra
+  - id: u21-l4-59
+    type: multiple_choice
+    prompt: מה פירוש לחומרא?
+    options:
+    - להחמיר
+    - אתה רוצה
+    - מחיר, דמים (כסף)
+    correct: 0
+    lexemes:
+    - f-lechumra
+  - id: u21-l4-60
+    type: multiple_choice
+    prompt: מה פירוש לקולא?
+    options:
+    - להקל
+    - חומרה
+    - מכיוון ש…, הואיל
+    correct: 0
+    lexemes:
+    - f-lekula
+  - id: u21-l4-61
+    type: multiple_choice
+    prompt: מה פירוש מיחייב?
+    options:
+    - מתחייב, חייב
+    - מחלוקת
+    - מכיוון ש…, הואיל
+    correct: 0
+    lexemes:
+    - f-michayav
+  - id: u21-l4-62
+    type: multiple_choice
+    prompt: מה פירוש שריא?
+    options:
+    - מותרת
+    - אתה רוצה
+    - צא! (ציווי)
+    correct: 0
+    lexemes:
+    - f-sharya
+  - id: u21-l4-63
+    type: multiple_choice
+    prompt: מה פירוש פלוגתא?
+    options:
+    - מחלוקת
+    - נחלקים
+    - תפס אותו
+    correct: 0
+    lexemes:
+    - f-plugta
+  - id: u21-l4-64
+    type: multiple_choice
+    prompt: מה פירוש מיפלגי?
+    options:
+    - נחלקים
+    - מתחייב, חייב
+    - מחלוקת
+    correct: 0
+    lexemes:
+    - f-mifalgi

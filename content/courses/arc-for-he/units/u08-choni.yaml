@@ -139,6 +139,38 @@ vocabulary:
     translation: 'זהו שאומרים אנשים: או חברותא, או מיתה'
     source: בבלי, תענית כג ע״א
     vocalized: 'הַיְינוּ דְּאָמְרִי אִינָשֵׁי: אוֹ חַבְרוּתָא אוֹ מִיתוּתָא'
+- id: f-ara
+  text: ארעא
+  translation: ארץ, קרקע
+  pos: noun
+- id: f-nahara
+  text: נהרא
+  translation: נהר
+  pos: noun
+- id: f-mata
+  text: מטא
+  translation: הגיע
+  pos: verb
+- id: f-salik
+  text: סליק
+  translation: עלה; (גם:) הסתיים
+  pos: verb
+- id: f-nafik
+  text: נפיק
+  translation: יוצא
+  pos: verb
+- id: f-ayil
+  text: עייל
+  translation: נכנס
+  pos: verb
+- id: f-nachit
+  text: נחית
+  translation: יורד
+  pos: verb
+- id: f-mikamei
+  text: מקמי
+  translation: מלפני
+  pos: preposition
 grammar: []
 lessons:
 - id: u08-l1
@@ -796,3 +828,139 @@ lessons:
     - kam
     - chavruta
     - mituta
+- id: u08-l5
+  kind: new
+  title:
+    he: בדרך
+    en: On the way
+  exercises:
+  - id: u08-l5-59
+    type: tip
+    title: המחברת של איתן
+    text: 'מילים שאיתן מצא שוב ושוב בדפים, ורשם במחברת שלו: **ארעא** = ארץ, קרקע, **נהרא** = נהר, **מטא** = הגיע, **סליק** = עלה; (גם:) הסתיים, **נפיק** = יוצא, **עייל** = נכנס, **נחית** = יורד, **מקמי** = מלפני.'
+  - id: u08-l5-60
+    type: learn
+    lexeme: f-ara
+  - id: u08-l5-61
+    type: learn
+    lexeme: f-nahara
+  - id: u08-l5-62
+    type: learn
+    lexeme: f-mata
+  - id: u08-l5-63
+    type: learn
+    lexeme: f-salik
+  - id: u08-l5-64
+    type: learn
+    lexeme: f-nafik
+  - id: u08-l5-65
+    type: learn
+    lexeme: f-ayil
+  - id: u08-l5-66
+    type: learn
+    lexeme: f-nachit
+  - id: u08-l5-67
+    type: learn
+    lexeme: f-mikamei
+  - id: u08-l5-68
+    type: match_pairs
+    pairs:
+    - - ארעא
+      - ארץ, קרקע
+    - - נהרא
+      - נהר
+    - - מטא
+      - הגיע
+    - - סליק
+      - עלה; (גם:) הסתיים
+    - - נפיק
+      - יוצא
+    - - עייל
+      - נכנס
+    lexemes:
+    - f-ara
+    - f-nahara
+    - f-mata
+    - f-salik
+    - f-nafik
+    - f-ayil
+  - id: u08-l5-69
+    type: multiple_choice
+    prompt: מה פירוש ארעא?
+    options:
+    - ארץ, קרקע
+    - יום אחד
+    - יוצא
+    correct: 0
+    lexemes:
+    - f-ara
+  - id: u08-l5-70
+    type: multiple_choice
+    prompt: מה פירוש נהרא?
+    options:
+    - נהר
+    - דרך
+    - בן בנו, נכדו
+    correct: 0
+    lexemes:
+    - f-nahara
+  - id: u08-l5-71
+    type: multiple_choice
+    prompt: מה פירוש מטא?
+    options:
+    - הגיע
+    - חלשה דעתו, נעלב, נפגע
+    - מלפני
+    correct: 0
+    lexemes:
+    - f-mata
+  - id: u08-l5-72
+    type: multiple_choice
+    prompt: מה פירוש סליק?
+    options:
+    - עלה; (גם:) הסתיים
+    - חברותא, חברה (ללימוד)
+    - יום אחד
+    correct: 0
+    lexemes:
+    - f-salik
+  - id: u08-l5-73
+    type: multiple_choice
+    prompt: מה פירוש נפיק?
+    options:
+    - יוצא
+    - קם (מהשינה), התעורר
+    - מלפני
+    correct: 0
+    lexemes:
+    - f-nafik
+  - id: u08-l5-74
+    type: multiple_choice
+    prompt: מה פירוש עייל?
+    options:
+    - נכנס
+    - נהר
+    - מלפני
+    correct: 0
+    lexemes:
+    - f-ayil
+  - id: u08-l5-75
+    type: multiple_choice
+    prompt: מה פירוש נחית?
+    options:
+    - יורד
+    - מלפני
+    - חברותא, חברה (ללימוד)
+    correct: 0
+    lexemes:
+    - f-nachit
+  - id: u08-l5-76
+    type: multiple_choice
+    prompt: מה פירוש מקמי?
+    options:
+    - מלפני
+    - האמינו לו
+    - שנים
+    correct: 0
+    lexemes:
+    - f-mikamei
