@@ -12,18 +12,18 @@ canDo:
   - להזמין ארוחה במסעדה
 
 vocabulary:
-  - { id: "bread", text: "bread", translation: "לחם", pos: "noun", pronunciation: "בְּרֶד" }
-  - { id: "milk", text: "milk", translation: "חלב", pos: "noun", pronunciation: "מִילְק" }
-  - { id: "egg", text: "egg", translation: "ביצה", pos: "noun", pronunciation: "אֶג" }
-  - { id: "cheese", text: "cheese", translation: "גבינה", pos: "noun", pronunciation: "צ'ִיז" }
-  - { id: "rice", text: "rice", translation: "אורז", pos: "noun", pronunciation: "רַייס" }
+  - { id: "bread", text: "bread", emoji: "🍞", translation: "לחם", pos: "noun", pronunciation: "בְּרֶד" }
+  - { id: "milk", text: "milk", emoji: "🥛", translation: "חלב", pos: "noun", pronunciation: "מִילְק" }
+  - { id: "egg", text: "egg", emoji: "🥚", translation: "ביצה", pos: "noun", pronunciation: "אֶג" }
+  - { id: "cheese", text: "cheese", emoji: "🧀", translation: "גבינה", pos: "noun", pronunciation: "צ'ִיז" }
+  - { id: "rice", text: "rice", emoji: "🍚", translation: "אורז", pos: "noun", pronunciation: "רַייס" }
   - { id: "vegetables", text: "vegetables", translation: "ירקות", pos: "noun", pronunciation: "וֶג'טַבּלְז" }
-  - { id: "fruit", text: "fruit", translation: "פירות", pos: "noun", pronunciation: "פְרוּט" }
-  - { id: "meat", text: "meat", translation: "בשר", pos: "noun", pronunciation: "מִיט" }
-  - { id: "fish", text: "fish", translation: "דג, דגים", pos: "noun", pronunciation: "פִישׁ" }
-  - { id: "chicken", text: "chicken", translation: "עוף", pos: "noun", pronunciation: "צ'ִיקֶן" }
+  - { id: "fruit", text: "fruit", emoji: "🍎", translation: "פירות", pos: "noun", pronunciation: "פְרוּט" }
+  - { id: "meat", text: "meat", emoji: "🥩", translation: "בשר", pos: "noun", pronunciation: "מִיט" }
+  - { id: "fish", text: "fish", emoji: "🐟", translation: "דג, דגים", pos: "noun", pronunciation: "פִישׁ" }
+  - { id: "chicken", text: "chicken", emoji: "🍗", translation: "עוף", pos: "noun", pronunciation: "צ'ִיקֶן" }
   - { id: "sugar", text: "sugar", translation: "סוכר", pos: "noun", pronunciation: "שׁוּגָר" }
-  - { id: "salt", text: "salt", translation: "מלח", pos: "noun", pronunciation: "סוֹלְט" }
+  - { id: "salt", text: "salt", emoji: "🧂", translation: "מלח", pos: "noun", pronunciation: "סוֹלְט" }
   - { id: "recipe", text: "recipe", translation: "מתכון", pos: "noun", pronunciation: "רֶסִיפִּי" }
   - { id: "some", text: "some", translation: "קצת, כמה", pos: "adjective", pronunciation: "סַאם", example: { text: "I need some eggs.", translation: "אני צריכה כמה ביצים." } }
   - { id: "any", text: "any", translation: "בכלל, איזשהו (בשאלה ובשלילה)", pos: "adjective", pronunciation: "אֶנִי", example: { text: "We don't have any milk.", translation: "אין לנו בכלל חלב." } }
@@ -33,7 +33,7 @@ vocabulary:
   - { id: "menu", text: "menu", translation: "תפריט", pos: "noun", pronunciation: "מֶנְיוּ" }
   - { id: "order", text: "order", translation: "להזמין (אוכל)", pos: "verb", pronunciation: "אוֹרְדֶר", example: { text: "Are you ready to order?", translation: "אתם מוכנים להזמין?" } }
   - { id: "main-course", text: "main course", translation: "מנה עיקרית", pos: "noun", pronunciation: "מֵיין קוֹרְס" }
-  - { id: "dessert", text: "dessert", translation: "קינוח", pos: "noun", pronunciation: "דִיזֶרְט" }
+  - { id: "dessert", text: "dessert", emoji: "🍨", translation: "קינוח", pos: "noun", pronunciation: "דִיזֶרְט" }
   - { id: "delicious", text: "delicious", translation: "טעים מאוד", pos: "adjective", pronunciation: "דִילִישֶׁס" }
 
   - { id: "oil", text: "oil", translation: "שמן", pos: "noun", pronunciation: "אוֹיל", example: { text: "I use oil for the salad.", translation: "אני משתמש בשמן לסלט." } }
@@ -132,6 +132,13 @@ lessons:
         text: "This chicken is delicious!"
         translation: "העוף הזה טעים מאוד!"
         lexemes: [chicken, delicious]
+      - id: u13-l1-pic1
+        type: multiple_choice
+        picture: "🥩"
+        prompt: "מה זה?"
+        options: ["meat", "rice", "fish"]
+        correct: 0
+        lexemes: [meat]
 
   # ------------------------------------------------------------------ 2
   - id: u13-l2
@@ -191,6 +198,13 @@ lessons:
         text: "Three eggs, a cup of milk and a cup of sugar."
         translation: "שלוש ביצים, כוס חלב וכוס סוכר."
         lexemes: [egg, milk, sugar]
+      - id: u13-l2-pic1
+        type: multiple_choice
+        picture: "🥚"
+        prompt: "מה זה?"
+        options: ["egg", "salt", "fruit"]
+        correct: 0
+        lexemes: [egg]
 
   # ------------------------------------------------------------------ 3
   - id: u13-l3
@@ -337,6 +351,13 @@ lessons:
         text: "Are you ready to order? Yes, I'd like the fish, please."
         translation: "אתם מוכנים להזמין? כן, הייתי רוצה את הדג, בבקשה."
         lexemes: [order, fish]
+      - id: u13-l4-pic1
+        type: multiple_choice
+        picture: "🍨"
+        prompt: "מה זה?"
+        options: ["dessert", "milk", "salt"]
+        correct: 0
+        lexemes: [dessert]
 
   # ------------------------------------------------------------------ 5
   - id: u13-l5

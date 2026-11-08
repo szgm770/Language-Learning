@@ -16,7 +16,7 @@ vocabulary:
   - { id: "healthy", text: "healthy", translation: "בריא", pos: "adjective", pronunciation: "הֶלְתִ'י" }
   - { id: "unhealthy", text: "unhealthy", translation: "לא בריא", pos: "adjective", pronunciation: "אַנְהֶלְתִ'י" }
   - { id: "exercise", text: "exercise", translation: "פעילות גופנית; להתאמן", pos: "noun", pronunciation: "אֶקְסֶרְסַייז", example: { text: "I don't get enough exercise.", translation: "אני לא עושה מספיק פעילות גופנית." } }
-  - { id: "gym", text: "gym", translation: "חדר כושר", pos: "noun", pronunciation: "ג'ִים" }
+  - { id: "gym", text: "gym", emoji: "🏋️", translation: "חדר כושר", pos: "noun", pronunciation: "ג'ִים" }
   - { id: "diet", text: "diet", translation: "תזונה, דיאטה", pos: "noun", pronunciation: "דַייאֶט" }
   - { id: "sleep", text: "sleep", translation: "שינה; לישון", pos: "noun", pronunciation: "סְלִיפּ" }
   - { id: "stress", text: "stress", translation: "לחץ, סטרס", pos: "noun", pronunciation: "סְטְרֶס" }
@@ -41,10 +41,10 @@ vocabulary:
   - { id: "fresh", text: "fresh", translation: "טרי; צח", pos: "adjective", example: { text: "I want some fresh air.", translation: "אני רוצה קצת אוויר צח." } }
   - { id: "shoulder", text: "shoulder", translation: "כתף", pos: "noun", example: { text: "My shoulder hurts.", translation: "הכתף שלי כואבת." } }
   - { id: "neck", text: "neck", translation: "צוואר", pos: "noun", example: { text: "He has a long neck.", translation: "יש לו צוואר ארוך." } }
-  - { id: "ear", text: "ear", translation: "אוזן", pos: "noun", example: { text: "My ear is cold.", translation: "האוזן שלי קרה." } }
-  - { id: "tooth", text: "tooth", translation: "שן", pos: "noun", example: { text: "I have a pain in my tooth.", translation: "יש לי כאב בשן." } }
-  - { id: "bone", text: "bone", translation: "עצם", pos: "noun", example: { text: "The bone is not broken.", translation: "העצם לא שבורה." } }
-  - { id: "nose", text: "nose", translation: "אף", pos: "noun", example: { text: "Her nose is red from the cold.", translation: "האף שלה אדום מהקור." } }
+  - { id: "ear", text: "ear", emoji: "👂", translation: "אוזן", pos: "noun", example: { text: "My ear is cold.", translation: "האוזן שלי קרה." } }
+  - { id: "tooth", text: "tooth", emoji: "🦷", translation: "שן", pos: "noun", example: { text: "I have a pain in my tooth.", translation: "יש לי כאב בשן." } }
+  - { id: "bone", text: "bone", emoji: "🦴", translation: "עצם", pos: "noun", example: { text: "The bone is not broken.", translation: "העצם לא שבורה." } }
+  - { id: "nose", text: "nose", emoji: "👃", translation: "אף", pos: "noun", example: { text: "Her nose is red from the cold.", translation: "האף שלה אדום מהקור." } }
   - { id: "improvement", text: "improvement", translation: "שיפור", pos: "noun", example: { text: "There is an improvement in my sleep.", translation: "יש שיפור בשינה שלי." } }
   - { id: "solve", text: "solve", translation: "לפתור", pos: "verb", example: { text: "We can solve this problem.", translation: "אנחנו יכולים לפתור את הבעיה הזאת." } }
   - { id: "enable", text: "enable", translation: "לאפשר", pos: "verb", example: { text: "This tool will enable us to work faster.", translation: "הכלי הזה יאפשר לנו לעבוד מהר יותר." } }
@@ -205,6 +205,13 @@ lessons:
         text: "I want to take up yoga. It's good for stress."
         translation: "אני רוצה להתחיל יוגה. זה טוב ללחץ."
         lexemes: [take-up, stress]
+      - id: u23-l2-pic1
+        type: multiple_choice
+        picture: "🏋️"
+        prompt: "מה זה?"
+        options: ["gym", "bone", "nose"]
+        correct: 0
+        lexemes: [gym]
 
   # ------------------------------------------------------------------ 3
   - id: u23-l3
@@ -888,6 +895,14 @@ lessons:
       lexemes:
       - shoulder
       - neck
+    - id: u23-n2-pic1
+      type: multiple_choice
+      picture: "👂"
+      prompt: "מה זה?"
+      options: ["ear", "bone", "gym"]
+      correct: 0
+      lexemes: [ear]
+
   - id: u23-n3
     kind: new
     title:

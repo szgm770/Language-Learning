@@ -12,16 +12,16 @@ canDo:
   - לספור עד 100
 
 vocabulary:
-  - { id: "family", text: "family", translation: "משפחה", pos: "noun", pronunciation: "פֶמִילִי", example: { text: "This is my family.", translation: "זו המשפחה שלי." } }
+  - { id: "family", text: "family", emoji: "👨‍👩‍👧", translation: "משפחה", pos: "noun", pronunciation: "פֶמִילִי", example: { text: "This is my family.", translation: "זו המשפחה שלי." } }
   - { id: "this-is", text: "This is…", translation: "זה… / זו…", pos: "phrase", pronunciation: "דִ'יס אִיז", example: { text: "This is my sister.", translation: "זו אחותי." } }
-  - { id: "mother", text: "mother", translation: "אמא", pos: "noun", pronunciation: "מָאדֶ'ר", example: { text: "This is my mother, Sarah.", translation: "זו אמא שלי, שרה." } }
-  - { id: "father", text: "father", translation: "אבא", pos: "noun", pronunciation: "פָאדֶ'ר" }
+  - { id: "mother", text: "mother", emoji: "👩", translation: "אמא", pos: "noun", pronunciation: "מָאדֶ'ר", example: { text: "This is my mother, Sarah.", translation: "זו אמא שלי, שרה." } }
+  - { id: "father", text: "father", emoji: "👨", translation: "אבא", pos: "noun", pronunciation: "פָאדֶ'ר" }
   - { id: "brother", text: "brother", translation: "אח", pos: "noun", pronunciation: "בְּרָאדֶ'ר" }
-  - { id: "sister", text: "sister", translation: "אחות", pos: "noun", pronunciation: "סִיסְטֶר" }
+  - { id: "sister", text: "sister", emoji: "👧", translation: "אחות", pos: "noun", pronunciation: "סִיסְטֶר" }
   - { id: "who", text: "who", translation: "מי", pos: "pronoun", pronunciation: "הוּ", example: { text: "Who is this?", translation: "מי זה?" } }
   - { id: "i-have", text: "I have", translation: "יש לי", pos: "phrase", pronunciation: "אַיי הֶב", example: { text: "I have a brother.", translation: "יש לי אח." } }
   - { id: "son", text: "son", translation: "בן", pos: "noun", pronunciation: "סָאן" }
-  - { id: "daughter", text: "daughter", translation: "בת", pos: "noun", pronunciation: "דוֹטֶר" }
+  - { id: "daughter", text: "daughter", emoji: "👧", translation: "בת", pos: "noun", pronunciation: "דוֹטֶר" }
   - { id: "husband", text: "husband", translation: "בעל", pos: "noun", pronunciation: "הָאזְבֶּנְד" }
   - { id: "wife", text: "wife", translation: "אישה (רעיה)", pos: "noun", pronunciation: "וַוייף" }
   - { id: "children", text: "children", translation: "ילדים", pos: "noun", pronunciation: "צִ'ילְדְרֶן", example: { text: "I have two children.", translation: "יש לי שני ילדים." } }
@@ -42,10 +42,10 @@ vocabulary:
   - { id: "fifty", text: "fifty", translation: "חמישים", pos: "number", pronunciation: "פִיפְטִי" }
   - { id: "hundred", text: "a hundred", translation: "מאה", pos: "number", pronunciation: "אֶ הָאנְדְרֶד" }
 
-  - { id: "baby", text: "baby", translation: "תינוק", pos: "noun", pronunciation: "בֵּיבִּי", example: { text: "The baby sleeps now.", translation: "התינוק ישן עכשיו." } }
+  - { id: "baby", text: "baby", emoji: "👶", translation: "תינוק", pos: "noun", pronunciation: "בֵּיבִּי", example: { text: "The baby sleeps now.", translation: "התינוק ישן עכשיו." } }
   - { id: "kid", text: "kid", translation: "ילד", pos: "noun", pronunciation: "קִיד", example: { text: "My kid is six.", translation: "הילד שלי בן שש." } }
-  - { id: "boy", text: "boy", translation: "ילד (בן)", pos: "noun", pronunciation: "בּוֹי", example: { text: "The boy plays outside.", translation: "הילד משחק בחוץ." } }
-  - { id: "girl", text: "girl", translation: "ילדה", pos: "noun", pronunciation: "גֶרְל", example: { text: "The girl has a red bag.", translation: "לילדה יש תיק אדום." } }
+  - { id: "boy", text: "boy", emoji: "👦", translation: "ילד (בן)", pos: "noun", pronunciation: "בּוֹי", example: { text: "The boy plays outside.", translation: "הילד משחק בחוץ." } }
+  - { id: "girl", text: "girl", emoji: "👧", translation: "ילדה", pos: "noun", pronunciation: "גֶרְל", example: { text: "The girl has a red bag.", translation: "לילדה יש תיק אדום." } }
   - { id: "man", text: "man", translation: "גבר", pos: "noun", pronunciation: "מֶן", example: { text: "The man is my uncle.", translation: "האיש הוא הדוד שלי." } }
   - { id: "woman", text: "woman", translation: "אישה", pos: "noun", pronunciation: "וּומֶן", example: { text: "The woman is my aunt.", translation: "האישה היא הדודה שלי." } }
   - { id: "age", text: "age", translation: "גיל", pos: "noun", pronunciation: "אֵייג'", example: { text: "What is your age?", translation: "בן כמה אתה?" } }
@@ -139,6 +139,13 @@ lessons:
         text: "This is my family: my mother, my father and my sister."
         translation: "זו המשפחה שלי: אמא שלי, אבא שלי ואחותי."
         lexemes: [family, mother, father, sister]
+      - id: u3-l1-pic1
+        type: multiple_choice
+        picture: "👨‍👩‍👧"
+        prompt: "מה זה?"
+        options: ["family", "father", "mother"]
+        correct: 0
+        lexemes: [family]
 
   # ------------------------------------------------------------------ 2
   - id: u3-l2
@@ -205,6 +212,13 @@ lessons:
         text: "I have a son and a daughter."
         translation: "יש לי בן ובת."
         lexemes: [i-have, son, daughter]
+      - id: u3-l2-pic1
+        type: multiple_choice
+        picture: "👧"
+        prompt: "מה זה?"
+        options: ["daughter", "mother", "boy"]
+        correct: 0
+        lexemes: [daughter]
 
   # ------------------------------------------------------------------ 3
   - id: u3-l3
@@ -585,6 +599,14 @@ lessons:
       lexemes:
       - man
       - woman
+    - id: u3-n1-pic1
+      type: multiple_choice
+      picture: "👶"
+      prompt: "מה זה?"
+      options: ["baby", "daughter", "sister"]
+      correct: 0
+      lexemes: [baby]
+
   - id: u3-n2
     kind: new
     title:

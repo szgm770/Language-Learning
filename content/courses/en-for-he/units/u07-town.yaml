@@ -14,12 +14,12 @@ canDo:
 vocabulary:
   - { id: "excuse-me", text: "Excuse me", translation: "סליחה (כשפונים למישהו)", pos: "phrase", pronunciation: "אִקְסְקְיוּז מִי", example: { text: "Excuse me, where is the station?", translation: "סליחה, איפה התחנה?" } }
   - { id: "street", text: "street", translation: "רחוב", pos: "noun", pronunciation: "סְטְרִיט" }
-  - { id: "station", text: "station", translation: "תחנה (רכבת)", pos: "noun", pronunciation: "סְטֵיישְׁן" }
-  - { id: "bank", text: "bank", translation: "בנק", pos: "noun", pronunciation: "בֶּנְק" }
+  - { id: "station", text: "station", emoji: "🚉", translation: "תחנה (רכבת)", pos: "noun", pronunciation: "סְטֵיישְׁן" }
+  - { id: "bank", text: "bank", emoji: "🏦", translation: "בנק", pos: "noun", pronunciation: "בֶּנְק" }
   - { id: "pharmacy", text: "pharmacy", translation: "בית מרקחת", pos: "noun", pronunciation: "פַארְמָסִי" }
-  - { id: "supermarket", text: "supermarket", translation: "סופרמרקט", pos: "noun", pronunciation: "סוּפֶּרְמַרְקֶט" }
-  - { id: "museum", text: "museum", translation: "מוזיאון", pos: "noun", pronunciation: "מְיוּזִיאֶם" }
-  - { id: "park", text: "park", translation: "פארק, גן ציבורי", pos: "noun", pronunciation: "פַּארְק" }
+  - { id: "supermarket", text: "supermarket", emoji: "🛒", translation: "סופרמרקט", pos: "noun", pronunciation: "סוּפֶּרְמַרְקֶט" }
+  - { id: "museum", text: "museum", emoji: "🏛️", translation: "מוזיאון", pos: "noun", pronunciation: "מְיוּזִיאֶם" }
+  - { id: "park", text: "park", emoji: "🏞️", translation: "פארק, גן ציבורי", pos: "noun", pronunciation: "פַּארְק" }
   - { id: "left", text: "left", translation: "שמאלה, שמאל", pos: "adverb", pronunciation: "לֶפְט" }
   - { id: "right", text: "right", translation: "ימינה, ימין", pos: "adverb", pronunciation: "רַייט" }
   - { id: "straight-on", text: "straight on", translation: "ישר", pos: "phrase", pronunciation: "סְטְרֵייט אוֹן" }
@@ -36,15 +36,15 @@ vocabulary:
   - { id: "front", text: "front", translation: "חזית; מול", pos: "noun", pronunciation: "פְרָאנְט", example: { text: "The shop is in front of the bank.", translation: "החנות נמצאת מול הבנק." } }
   - { id: "field", text: "field", translation: "שדה", pos: "noun", pronunciation: "פִילְד", example: { text: "The children play in the field.", translation: "הילדים משחקים בשדה." } }
   - { id: "light", text: "light", translation: "רמזור; אור", pos: "noun", pronunciation: "לַאיט", example: { text: "Stop at the red light.", translation: "עצור ברמזור האדום." } }
-  - { id: "police", text: "police", translation: "משטרה", pos: "noun", pronunciation: "פּוֹלִיס", example: { text: "The police help us.", translation: "המשטרה עוזרת לנו." } }
+  - { id: "police", text: "police", emoji: "👮", translation: "משטרה", pos: "noun", pronunciation: "פּוֹלִיס", example: { text: "The police help us.", translation: "המשטרה עוזרת לנו." } }
   - { id: "air", text: "air", translation: "אוויר", pos: "noun", pronunciation: "אֶר", example: { text: "The air is clean here.", translation: "האוויר נקי כאן." } }
   - { id: "space", text: "space", translation: "מקום; חלל", pos: "noun", pronunciation: "ספֵּייס", example: { text: "There is space for the bag.", translation: "יש מקום לתיק." } }
   - { id: "club", text: "club", translation: "מועדון", pos: "noun", pronunciation: "קְלָאב", example: { text: "He goes to a book club.", translation: "הוא הולך למועדון קריאה." } }
   - { id: "college", text: "college", translation: "מכללה", pos: "noun", pronunciation: "קוֹלִיג'", example: { text: "My sister studies at college.", translation: "אחותי לומדת במכללה." } }
   - { id: "board", text: "board", translation: "לוח", pos: "noun", pronunciation: "בּוֹרְד", example: { text: "The list is on the board.", translation: "הרשימה על הלוח." } }
-  - { id: "picture", text: "picture", translation: "תמונה", pos: "noun", pronunciation: "פִּיקְצ'ר", example: { text: "I like this picture.", translation: "אני אוהב את התמונה הזאת." } }
+  - { id: "picture", text: "picture", emoji: "🖼️", translation: "תמונה", pos: "noun", pronunciation: "פִּיקְצ'ר", example: { text: "I like this picture.", translation: "אני אוהב את התמונה הזאת." } }
   - { id: "art", text: "art", translation: "אמנות", pos: "noun", pronunciation: "אַרְט", example: { text: "The museum has old art.", translation: "במוזיאון יש אמנות עתיקה." } }
-  - { id: "film", text: "film", translation: "סרט", pos: "noun", pronunciation: "פִילְם", example: { text: "This film is very good.", translation: "הסרט הזה טוב מאוד." } }
+  - { id: "film", text: "film", emoji: "🎬", translation: "סרט", pos: "noun", pronunciation: "פִילְם", example: { text: "This film is very good.", translation: "הסרט הזה טוב מאוד." } }
 grammar:
   - id: there-is-are
     title: { he: "יש: There is, there are", en: "There is, there are" }
@@ -122,6 +122,13 @@ lessons:
         text: "Excuse me, where is the pharmacy?"
         translation: "סליחה, איפה בית המרקחת?"
         lexemes: [excuse-me, pharmacy]
+      - id: u7-l1-pic1
+        type: multiple_choice
+        picture: "🚉"
+        prompt: "מה זה?"
+        options: ["station", "museum", "police"]
+        correct: 0
+        lexemes: [station]
 
   # ------------------------------------------------------------------ 2
   - id: u7-l2
@@ -573,6 +580,14 @@ lessons:
       lexemes:
       - front
       - field
+    - id: u7-n1-pic1
+      type: multiple_choice
+      picture: "👮"
+      prompt: "מה זה?"
+      options: ["police", "station", "film"]
+      correct: 0
+      lexemes: [police]
+
   - id: u7-n2
     kind: new
     title:
@@ -740,3 +755,10 @@ lessons:
       - club
       - college
       - picture
+    - id: u7-n2-pic1
+      type: multiple_choice
+      picture: "🖼️"
+      prompt: "מה זה?"
+      options: ["picture", "police", "supermarket"]
+      correct: 0
+      lexemes: [picture]

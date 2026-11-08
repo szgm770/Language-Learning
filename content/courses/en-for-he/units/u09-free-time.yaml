@@ -14,12 +14,12 @@ canDo:
 vocabulary:
   - { id: "weekend", text: "weekend", translation: "סוף שבוע", pos: "noun", pronunciation: "וִויקֶנְד", example: { text: "What do you do at the weekend?", translation: "מה אתה עושה בסוף השבוע?" } }
   - { id: "free-time", text: "free time", translation: "זמן פנוי", pos: "phrase", pronunciation: "פְרִי טַיים" }
-  - { id: "music", text: "music", translation: "מוזיקה", pos: "noun", pronunciation: "מְיוּזִיק" }
+  - { id: "music", text: "music", emoji: "🎵", translation: "מוזיקה", pos: "noun", pronunciation: "מְיוּזִיק" }
   - { id: "sport", text: "sport", translation: "ספורט", pos: "noun", pronunciation: "סְפּוֹרְט" }
-  - { id: "football", text: "football", translation: "כדורגל", pos: "noun", pronunciation: "פוּטְבּוֹל" }
+  - { id: "football", text: "football", emoji: "⚽", translation: "כדורגל", pos: "noun", pronunciation: "פוּטְבּוֹל" }
   - { id: "play", text: "play", translation: "לשחק, לנגן", pos: "verb", pronunciation: "פְּלֵיי", example: { text: "I play football.", translation: "אני משחק כדורגל." } }
   - { id: "watch", text: "watch", translation: "לצפות, לראות", pos: "verb", pronunciation: "ווֹץ'", example: { text: "We watch TV.", translation: "אנחנו רואים טלוויזיה." } }
-  - { id: "movie", text: "movie", translation: "סרט", pos: "noun", pronunciation: "מוּבִי" }
+  - { id: "movie", text: "movie", emoji: "🎬", translation: "סרט", pos: "noun", pronunciation: "מוּבִי" }
   - { id: "swim", text: "swim", translation: "לשחות", pos: "verb", pronunciation: "סְוִוים" }
   - { id: "cook", text: "cook", translation: "לבשל", pos: "verb", pronunciation: "קוּק" }
   - { id: "read", text: "read", translation: "לקרוא", pos: "verb", pronunciation: "רִיד" }
@@ -36,8 +36,8 @@ vocabulary:
   - { id: "sorry-i-cant", text: "Sorry, I can't.", translation: "מצטער, אני לא יכול.", pos: "phrase", pronunciation: "סוֹרִי, אַיי קַאנְט" }
 
   - { id: "game", text: "game", translation: "משחק", pos: "noun", pronunciation: "גֵּיים", example: { text: "We play a game on Sunday.", translation: "אנחנו משחקים משחק ביום ראשון." } }
-  - { id: "song", text: "song", translation: "שיר", pos: "noun", pronunciation: "סוֹנְג", example: { text: "I know this song.", translation: "אני מכיר את השיר הזה." } }
-  - { id: "star", text: "star", translation: "כוכב", pos: "noun", pronunciation: "סְטַאר", example: { text: "I see a star in the sky.", translation: "אני רואה כוכב בשמיים." } }
+  - { id: "song", text: "song", emoji: "🎵", translation: "שיר", pos: "noun", pronunciation: "סוֹנְג", example: { text: "I know this song.", translation: "אני מכיר את השיר הזה." } }
+  - { id: "star", text: "star", emoji: "⭐", translation: "כוכב", pos: "noun", pronunciation: "סְטַאר", example: { text: "I see a star in the sky.", translation: "אני רואה כוכב בשמיים." } }
   - { id: "fan", text: "fan", translation: "אוהד", pos: "noun", pronunciation: "פֶן", example: { text: "He is a big fan of the team.", translation: "הוא אוהד גדול של הקבוצה." } }
   - { id: "player", text: "player", translation: "שחקן", pos: "noun", pronunciation: "פְּלֵייֶר", example: { text: "The player is very fast.", translation: "השחקן מהיר מאוד." } }
   - { id: "season", text: "season", translation: "עונה", pos: "noun", pronunciation: "סִיזֶן", example: { text: "Summer is my favorite season.", translation: "קיץ הוא העונה האהובה עליי." } }
@@ -127,6 +127,13 @@ lessons:
         text: "What do you do in your free time?"
         translation: "מה אתה עושה בזמן הפנוי?"
         lexemes: [free-time]
+      - id: u9-l1-pic1
+        type: multiple_choice
+        picture: "🎬"
+        prompt: "מה זה?"
+        options: ["movie", "star", "song"]
+        correct: 0
+        lexemes: [movie]
 
   # ------------------------------------------------------------------ 2
   - id: u9-l2
@@ -579,6 +586,14 @@ lessons:
       - game
       - song
       - fan
+    - id: u9-n1-pic1
+      type: multiple_choice
+      picture: "🎵"
+      prompt: "מה זה?"
+      options: ["song", "movie", "star"]
+      correct: 0
+      lexemes: [song]
+
   - id: u9-n2
     kind: new
     title:

@@ -28,7 +28,7 @@ vocabulary:
   - { id: "dream", text: "dream", translation: "חלום; לחלום", pos: "noun", pronunciation: "דְרִים" }
   - { id: "decide", text: "decide", translation: "להחליט", pos: "verb", pronunciation: "דִיסַייד" }
   - { id: "hope", text: "hope", translation: "לקוות", pos: "verb", pronunciation: "הוֹפּ", example: { text: "I hope so!", translation: "מקווה שכן!" } }
-  - { id: "summer", text: "summer", translation: "קיץ", pos: "noun", pronunciation: "סַאמֶר" }
+  - { id: "summer", text: "summer", emoji: "☀️", translation: "קיץ", pos: "noun", pronunciation: "סַאמֶר" }
   - { id: "course", text: "course", translation: "קורס", pos: "noun", pronunciation: "קוֹרְס" }
   - { id: "good-luck", text: "Good luck!", translation: "בהצלחה!", pos: "phrase", pronunciation: "גוּד לַאק" }
   - { id: "what-are-you-going-to-do", text: "What are you going to do?", translation: "מה אתה הולך לעשות?", pos: "phrase", pronunciation: "ווֹט אָר יוּ גוֹאִינְג טוּ דוּ" }

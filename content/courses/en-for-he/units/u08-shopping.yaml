@@ -12,12 +12,12 @@ canDo:
   - לשאול מחיר ולהגיד שמשהו זול או יקר
 
 vocabulary:
-  - { id: "shirt", text: "shirt", translation: "חולצה", pos: "noun", pronunciation: "שֶׁרְט" }
-  - { id: "dress", text: "dress", translation: "שמלה", pos: "noun", pronunciation: "דְרֶס" }
-  - { id: "jeans", text: "jeans", translation: "ג'ינס", pos: "noun", pronunciation: "ג'ִינְס" }
-  - { id: "shoes", text: "shoes", translation: "נעליים", pos: "noun", pronunciation: "שׁוּז" }
-  - { id: "jacket", text: "jacket", translation: "ז'קט, מעיל קל", pos: "noun", pronunciation: "ג'ֶקֶט" }
-  - { id: "bag", text: "bag", translation: "תיק, שקית", pos: "noun", pronunciation: "בֶּג" }
+  - { id: "shirt", text: "shirt", emoji: "👕", translation: "חולצה", pos: "noun", pronunciation: "שֶׁרְט" }
+  - { id: "dress", text: "dress", emoji: "👗", translation: "שמלה", pos: "noun", pronunciation: "דְרֶס" }
+  - { id: "jeans", text: "jeans", emoji: "👖", translation: "ג'ינס", pos: "noun", pronunciation: "ג'ִינְס" }
+  - { id: "shoes", text: "shoes", emoji: "👟", translation: "נעליים", pos: "noun", pronunciation: "שׁוּז" }
+  - { id: "jacket", text: "jacket", emoji: "🧥", translation: "ז'קט, מעיל קל", pos: "noun", pronunciation: "ג'ֶקֶט" }
+  - { id: "bag", text: "bag", emoji: "👜", translation: "תיק, שקית", pos: "noun", pronunciation: "בֶּג" }
   - { id: "red", text: "red", translation: "אדום", pos: "adjective", pronunciation: "רֶד" }
   - { id: "blue", text: "blue", translation: "כחול", pos: "adjective", pronunciation: "בְּלוּ" }
   - { id: "black", text: "black", translation: "שחור", pos: "adjective", pronunciation: "בְּלֶק" }
@@ -128,6 +128,13 @@ lessons:
         text: "I like the blue jacket."
         translation: "אני אוהב את הז'קט הכחול."
         lexemes: [blue, jacket]
+      - id: u8-l1-pic1
+        type: multiple_choice
+        picture: "🧥"
+        prompt: "מה זה?"
+        options: ["jacket", "shirt", "jeans"]
+        correct: 0
+        lexemes: [jacket]
 
   # ------------------------------------------------------------------ 2
   - id: u8-l2

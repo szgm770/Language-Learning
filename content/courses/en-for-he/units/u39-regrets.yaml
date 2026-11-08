@@ -37,7 +37,7 @@ vocabulary:
   - { id: "shock", text: "shock", translation: "הלם", pos: "noun", example: { text: "The news was a shock.", translation: "החדשות היו הלם." } }
   - { id: "guilty", text: "guilty", translation: "אשם", pos: "adjective", example: { text: "I feel guilty.", translation: "אני מרגיש אשם." } }
   - { id: "shadow", text: "shadow", translation: "צל", pos: "noun", example: { text: "The tree has a long shadow.", translation: "לעץ יש צל ארוך." } }
-  - { id: "mirror", text: "mirror", translation: "מראה", pos: "noun", example: { text: "I look in the mirror.", translation: "אני מסתכל במראה." } }
+  - { id: "mirror", text: "mirror", emoji: "🪞", translation: "מראה", pos: "noun", example: { text: "I look in the mirror.", translation: "אני מסתכל במראה." } }
   - { id: "depth", text: "depth", translation: "עומק", pos: "noun", example: { text: "The depth of the sea is large.", translation: "עומק הים גדול." } }
   - { id: "trail", text: "trail", translation: "שביל", pos: "noun", example: { text: "We walk on a forest trail.", translation: "אנחנו הולכים בשביל ביער." } }
   - { id: "stretch", text: "stretch", translation: "למתוח", pos: "verb", example: { text: "Stretch your arms.", translation: "מתח את הידיים." } }

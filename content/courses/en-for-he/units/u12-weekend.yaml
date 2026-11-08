@@ -20,8 +20,8 @@ vocabulary:
   - { id: "bought", text: "bought", translation: "קניתי (עבר של buy)", pos: "verb", pronunciation: "בּוֹט" }
   - { id: "made", text: "made", translation: "הכנתי, עשיתי (עבר של make)", pos: "verb", pronunciation: "מֵייד" }
   - { id: "took", text: "took", translation: "לקחתי (עבר של take)", pos: "verb", pronunciation: "טוּק", example: { text: "We took a taxi.", translation: "לקחנו מונית." } }
-  - { id: "beach", text: "beach", translation: "חוף ים", pos: "noun", pronunciation: "בִּיץ'" }
-  - { id: "market", text: "market", translation: "שוק", pos: "noun", pronunciation: "מַארְקֶט" }
+  - { id: "beach", text: "beach", emoji: "🏖️", translation: "חוף ים", pos: "noun", pronunciation: "בִּיץ'" }
+  - { id: "market", text: "market", emoji: "🛒", translation: "שוק", pos: "noun", pronunciation: "מַארְקֶט" }
   - { id: "concert", text: "concert", translation: "הופעה, קונצרט", pos: "noun", pronunciation: "קוֹנְסֶרְט" }
   - { id: "ago", text: "ago", translation: "לפני (זמן)", pos: "adverb", pronunciation: "אָגוֹ", example: { text: "two days ago", translation: "לפני יומיים" } }
   - { id: "then", text: "then", translation: "ואז", pos: "adverb", pronunciation: "דֶ'ן" }
@@ -39,17 +39,17 @@ vocabulary:
   - { id: "favorite", text: "favorite", translation: "אהוב", pos: "adjective", pronunciation: "פֵייבֶּרִיט", example: { text: "Blue is my favorite color.", translation: "כחול הוא הצבע האהוב עליי." } }
   - { id: "especially", text: "especially", translation: "במיוחד", pos: "adverb", pronunciation: "אִיסְפֶּשְׁלִי", example: { text: "I like fruit, especially apples.", translation: "אני אוהב פירות, במיוחד תפוחים." } }
   - { id: "simply", text: "simply", translation: "פשוט", pos: "adverb", pronunciation: "סִימְפְּלִי", example: { text: "It is simply too far.", translation: "זה פשוט רחוק מדי." } }
-  - { id: "sea", text: "sea", translation: "ים", pos: "noun", pronunciation: "סִי", example: { text: "The sea is blue.", translation: "הים כחול." } }
-  - { id: "island", text: "island", translation: "אי", pos: "noun", pronunciation: "אַיילֶנְד", example: { text: "The island is small.", translation: "האי קטן." } }
-  - { id: "sun", text: "sun", translation: "שמש", pos: "noun", pronunciation: "סָאן", example: { text: "The sun is hot today.", translation: "השמש חמה היום." } }
-  - { id: "bird", text: "bird", translation: "ציפור", pos: "noun", pronunciation: "בֶּרְד", example: { text: "A bird sits on the tree.", translation: "ציפור יושבת על העץ." } }
+  - { id: "sea", text: "sea", emoji: "🌊", translation: "ים", pos: "noun", pronunciation: "סִי", example: { text: "The sea is blue.", translation: "הים כחול." } }
+  - { id: "island", text: "island", emoji: "🏝️", translation: "אי", pos: "noun", pronunciation: "אַיילֶנְד", example: { text: "The island is small.", translation: "האי קטן." } }
+  - { id: "sun", text: "sun", emoji: "☀️", translation: "שמש", pos: "noun", pronunciation: "סָאן", example: { text: "The sun is hot today.", translation: "השמש חמה היום." } }
+  - { id: "bird", text: "bird", emoji: "🐦", translation: "ציפור", pos: "noun", pronunciation: "בֶּרְד", example: { text: "A bird sits on the tree.", translation: "ציפור יושבת על העץ." } }
   - { id: "heat", text: "heat", translation: "חום", pos: "noun", pronunciation: "הִיט", example: { text: "I don't like the heat.", translation: "אני לא אוהב את החום." } }
-  - { id: "wind", text: "wind", translation: "רוח", pos: "noun", pronunciation: "וִוינְד", example: { text: "The wind is strong.", translation: "הרוח חזקה." } }
+  - { id: "wind", text: "wind", emoji: "💨", translation: "רוח", pos: "noun", pronunciation: "וִוינְד", example: { text: "The wind is strong.", translation: "הרוח חזקה." } }
   - { id: "fly", text: "fly", translation: "לעוף; לטוס", pos: "verb", pronunciation: "פְלַאיי", example: { text: "I fly to Madrid on Sunday.", translation: "אני טס למדריד ביום ראשון." } }
   - { id: "laugh", text: "laugh", translation: "לצחוק", pos: "verb", pronunciation: "לָאף", example: { text: "We laugh a lot together.", translation: "אנחנו צוחקים הרבה יחד." } }
   - { id: "sing", text: "sing", translation: "לשיר", pos: "verb", pronunciation: "סִינְג", example: { text: "She likes to sing.", translation: "היא אוהבת לשיר." } }
   - { id: "trip", text: "trip", translation: "טיול", pos: "noun", pronunciation: "טְרִיפּ", example: { text: "The trip was long.", translation: "הטיול היה ארוך." } }
-  - { id: "album", text: "album", translation: "אלבום", pos: "noun", pronunciation: "אַלְבֶּם", example: { text: "This is a new album.", translation: "זה אלבום חדש." } }
+  - { id: "album", text: "album", emoji: "💿", translation: "אלבום", pos: "noun", pronunciation: "אַלְבֶּם", example: { text: "This is a new album.", translation: "זה אלבום חדש." } }
   - { id: "band", text: "band", translation: "להקה", pos: "noun", pronunciation: "בֶּנְד", example: { text: "The band plays at nine.", translation: "הלהקה מנגנת בתשע." } }
 grammar:
   - id: past-simple-irregular
@@ -128,6 +128,13 @@ lessons:
         text: "What did you do at the weekend?"
         translation: "מה עשית בסוף השבוע?"
         lexemes: [what-did-you-do, weekend]
+      - id: u12-l1-pic1
+        type: multiple_choice
+        picture: "🛒"
+        prompt: "מה זה?"
+        options: ["market", "sun", "bird"]
+        correct: 0
+        lexemes: [market]
 
   # ------------------------------------------------------------------ 2
   - id: u12-l2
@@ -192,6 +199,13 @@ lessons:
         text: "We took the train to the beach."
         translation: "לקחנו את הרכבת לחוף."
         lexemes: [took, beach]
+      - id: u12-l2-pic1
+        type: multiple_choice
+        picture: "🏖️"
+        prompt: "מה זה?"
+        options: ["beach", "album", "sun"]
+        correct: 0
+        lexemes: [beach]
 
   # ------------------------------------------------------------------ 3
   - id: u12-l3
@@ -844,6 +858,14 @@ lessons:
       lexemes:
       - sun
       - wind
+    - id: u12-n2-pic1
+      type: multiple_choice
+      picture: "🌊"
+      prompt: "מה זה?"
+      options: ["sea", "beach", "island"]
+      correct: 0
+      lexemes: [sea]
+
   - id: u12-n3
     kind: new
     title:
@@ -1011,3 +1033,10 @@ lessons:
       - laugh
       - sing
       - trip
+    - id: u12-n3-pic1
+      type: multiple_choice
+      picture: "💿"
+      prompt: "מה זה?"
+      options: ["album", "bird", "island"]
+      correct: 0
+      lexemes: [album]

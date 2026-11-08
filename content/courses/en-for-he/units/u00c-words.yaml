@@ -12,26 +12,26 @@ canDo:
   - לעבור את מבחן רמה A0
 
 vocabulary:
-  - { id: "banana", text: "banana", translation: "בננה", pos: "noun", pronunciation: "בַּנֵנָה", example: { text: "I like bananas.", translation: "אני אוהב בננות." } }
-  - { id: "pizza", text: "pizza", translation: "פיצה", pos: "noun", pronunciation: "פִּיצָה", example: { text: "A small pizza, please.", translation: "פיצה קטנה, בבקשה." } }
-  - { id: "chocolate", text: "chocolate", translation: "שוקולד", pos: "noun", pronunciation: "צ'וֹקְלֶט", example: { text: "I love chocolate.", translation: "אני מת על שוקולד." } }
-  - { id: "tomato", text: "tomato", translation: "עגבנייה", pos: "noun", pronunciation: "טוֹמֵייטוֹ", example: { text: "Tomato soup is hot.", translation: "מרק עגבניות חם." } }
-  - { id: "avocado", text: "avocado", translation: "אבוקדו", pos: "noun", pronunciation: "אָבוֹקָדוֹ", example: { text: "An avocado sandwich.", translation: "כריך אבוקדו." } }
-  - { id: "yogurt", text: "yogurt", translation: "יוגורט", pos: "noun", pronunciation: "יוֹגֶרְט", example: { text: "Yogurt with fruit.", translation: "יוגורט עם פירות." } }
+  - { id: "banana", text: "banana", emoji: "🍌", translation: "בננה", pos: "noun", pronunciation: "בַּנֵנָה", example: { text: "I like bananas.", translation: "אני אוהב בננות." } }
+  - { id: "pizza", text: "pizza", emoji: "🍕", translation: "פיצה", pos: "noun", pronunciation: "פִּיצָה", example: { text: "A small pizza, please.", translation: "פיצה קטנה, בבקשה." } }
+  - { id: "chocolate", text: "chocolate", emoji: "🍫", translation: "שוקולד", pos: "noun", pronunciation: "צ'וֹקְלֶט", example: { text: "I love chocolate.", translation: "אני מת על שוקולד." } }
+  - { id: "tomato", text: "tomato", emoji: "🍅", translation: "עגבנייה", pos: "noun", pronunciation: "טוֹמֵייטוֹ", example: { text: "Tomato soup is hot.", translation: "מרק עגבניות חם." } }
+  - { id: "avocado", text: "avocado", emoji: "🥑", translation: "אבוקדו", pos: "noun", pronunciation: "אָבוֹקָדוֹ", example: { text: "An avocado sandwich.", translation: "כריך אבוקדו." } }
+  - { id: "yogurt", text: "yogurt", emoji: "🥛", translation: "יוגורט", pos: "noun", pronunciation: "יוֹגֶרְט", example: { text: "Yogurt with fruit.", translation: "יוגורט עם פירות." } }
   - { id: "internet", text: "internet", translation: "אינטרנט", pos: "noun", pronunciation: "אִינְטֶרְנֶט", example: { text: "The internet is fast.", translation: "האינטרנט מהיר." } }
-  - { id: "radio", text: "radio", translation: "רדיו", pos: "noun", pronunciation: "רֵייְדִיוֹ", example: { text: "Turn on the radio.", translation: "תדליק את הרדיו." } }
+  - { id: "radio", text: "radio", emoji: "📻", translation: "רדיו", pos: "noun", pronunciation: "רֵייְדִיוֹ", example: { text: "Turn on the radio.", translation: "תדליק את הרדיו." } }
   - { id: "video", text: "video", translation: "סרטון", pos: "noun", pronunciation: "וִידְיוֹ", example: { text: "A short video.", translation: "סרטון קצר." } }
-  - { id: "photo", text: "photo", translation: "תמונה", pos: "noun", pronunciation: "פוֹטוֹ", example: { text: "A photo of my family.", translation: "תמונה של המשפחה שלי." } }
-  - { id: "camera", text: "camera", translation: "מצלמה", pos: "noun", pronunciation: "קַמְרָה", example: { text: "My camera is new.", translation: "המצלמה שלי חדשה." } }
-  - { id: "tennis", text: "tennis", translation: "טניס", pos: "noun", pronunciation: "טֶנִיס", example: { text: "We play tennis.", translation: "אנחנו משחקים טניס." } }
-  - { id: "basketball", text: "basketball", translation: "כדורסל", pos: "noun", pronunciation: "בַּסְקֶטְבּוֹל", example: { text: "He plays basketball.", translation: "הוא משחק כדורסל." } }
+  - { id: "photo", text: "photo", emoji: "📷", translation: "תמונה", pos: "noun", pronunciation: "פוֹטוֹ", example: { text: "A photo of my family.", translation: "תמונה של המשפחה שלי." } }
+  - { id: "camera", text: "camera", emoji: "📷", translation: "מצלמה", pos: "noun", pronunciation: "קַמְרָה", example: { text: "My camera is new.", translation: "המצלמה שלי חדשה." } }
+  - { id: "tennis", text: "tennis", emoji: "🎾", translation: "טניס", pos: "noun", pronunciation: "טֶנִיס", example: { text: "We play tennis.", translation: "אנחנו משחקים טניס." } }
+  - { id: "basketball", text: "basketball", emoji: "🏀", translation: "כדורסל", pos: "noun", pronunciation: "בַּסְקֶטְבּוֹל", example: { text: "He plays basketball.", translation: "הוא משחק כדורסל." } }
   - { id: "hobby", text: "hobby", translation: "תחביב", pos: "noun", pronunciation: "הוֹבִּי", example: { text: "My hobby is music.", translation: "התחביב שלי הוא מוזיקה." } }
   - { id: "stop", text: "stop", translation: "עצור; תחנה", pos: "noun", pronunciation: "סְטוֹפּ", example: { text: "Stop here, please.", translation: "תעצור כאן, בבקשה." } }
   - { id: "metro", text: "metro", translation: "מטרו", pos: "noun", pronunciation: "מֶטְרוֹ", example: { text: "The metro is fast.", translation: "המטרו מהיר." } }
   - { id: "pilot", text: "pilot", translation: "טייס", pos: "noun", pronunciation: "פַּיילֶט", example: { text: "The pilot is tall.", translation: "הטייס גבוה." } }
   - { id: "tourist", text: "tourist", translation: "תייר", pos: "noun", pronunciation: "טוּרִיסְט", example: { text: "I'm a tourist.", translation: "אני תייר." } }
   - { id: "visa", text: "visa", translation: "ויזה", pos: "noun", pronunciation: "וִיזָה", example: { text: "I need a visa.", translation: "אני צריך ויזה." } }
-  - { id: "dollar", text: "dollar", translation: "דולר", pos: "noun", pronunciation: "דוֹלֶר", example: { text: "Ten dollars.", translation: "עשרה דולרים." } }
+  - { id: "dollar", text: "dollar", emoji: "💵", translation: "דולר", pos: "noun", pronunciation: "דוֹלֶר", example: { text: "Ten dollars.", translation: "עשרה דולרים." } }
   - { id: "kilo", text: "kilo", translation: "קילו", pos: "noun", pronunciation: "קִילוֹ", example: { text: "A kilo of tomatoes.", translation: "קילו עגבניות." } }
   - { id: "idea", text: "idea", translation: "רעיון", pos: "noun", pronunciation: "אַיְדִיָה", example: { text: "Good idea!", translation: "רעיון טוב!" } }
 
@@ -83,6 +83,13 @@ lessons:
         text: "I like bananas."
         translation: "אני אוהב בננות."
         lexemes: [banana]
+      - id: u00c-l1-pic1
+        type: multiple_choice
+        picture: "🍌"
+        prompt: "מה זה?"
+        options: ["banana", "camera", "tomato"]
+        correct: 0
+        lexemes: [banana]
 
   - id: u00c-l2
     kind: new
@@ -130,6 +137,13 @@ lessons:
         text: "The internet is fast."
         translation: "האינטרנט מהיר."
         lexemes: [internet]
+      - id: u00c-l2-pic1
+        type: multiple_choice
+        picture: "📻"
+        prompt: "מה זה?"
+        options: ["radio", "camera", "tennis"]
+        correct: 0
+        lexemes: [radio]
 
   - id: u00c-l3
     kind: new
@@ -174,6 +188,13 @@ lessons:
         type: speak_repeat
         text: "We play tennis."
         translation: "אנחנו משחקים טניס."
+        lexemes: [tennis]
+      - id: u00c-l3-pic1
+        type: multiple_choice
+        picture: "🎾"
+        prompt: "מה זה?"
+        options: ["tennis", "basketball", "pizza"]
+        correct: 0
         lexemes: [tennis]
 
   - id: u00c-l4
@@ -224,6 +245,13 @@ lessons:
         text: "Stop here, please."
         translation: "תעצור כאן, בבקשה."
         lexemes: [stop]
+      - id: u00c-l4-pic1
+        type: multiple_choice
+        picture: "💵"
+        prompt: "מה זה?"
+        options: ["dollar", "tomato", "banana"]
+        correct: 0
+        lexemes: [dollar]
 
   - id: u00c-review
     kind: review

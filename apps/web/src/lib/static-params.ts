@@ -19,3 +19,14 @@ export function lessonParams(): { courseId: string; lessonId: string }[] {
     ),
   );
 }
+
+/** Units with at least two dialogues get a listening chapter (courses with a machine voice only). */
+export function listenParams(): { courseId: string; unitId: string }[] {
+  return courseParams().flatMap(({ courseId }) => {
+    const m = read<{ speechLang: string; units: { id: string }[] }>(`${courseId}/manifest.json`);
+    if (m.speechLang === "none") return [];
+    return m.units
+      .filter((u) => read<{ lessons: { exercises: { type: string }[] }[] }>(`${courseId}/units/${u.id}.json`).lessons.flatMap((l) => l.exercises).filter((e) => e.type === "dialogue").length >= 2)
+      .map((u) => ({ courseId, unitId: u.id }));
+  });
+}

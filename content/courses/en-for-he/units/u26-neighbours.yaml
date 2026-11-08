@@ -14,7 +14,7 @@ canDo:
 vocabulary:
   - { id: "neighbour", text: "neighbour", translation: "שכן", pos: "noun", pronunciation: "נֵייבּוֹר" }
   - { id: "noise", text: "noise", translation: "רעש", pos: "noun", pronunciation: "נוֹיז" }
-  - { id: "building", text: "building", translation: "בניין", pos: "noun", pronunciation: "בִּילְדִינְג" }
+  - { id: "building", text: "building", emoji: "🏢", translation: "בניין", pos: "noun", pronunciation: "בִּילְדִינְג" }
   - { id: "parcel", text: "parcel", translation: "חבילה", pos: "noun", pronunciation: "פַּארְסֶל" }
   - { id: "favour", text: "favour", translation: "טובה", pos: "noun", pronunciation: "פֵייבוֹר", example: { text: "Can I ask you a favour?", translation: "אפשר לבקש ממך טובה?" } }
   - { id: "could-you", text: "Could you…?", translation: "תוכל…? (בקשה מנומסת)", pos: "phrase", pronunciation: "קוּד יוּ", example: { text: "Could you help me with this?", translation: "תוכל לעזור לי עם זה?" } }
@@ -33,11 +33,11 @@ vocabulary:
   - { id: "away", text: "away", translation: "לא בבית, נסוע", pos: "adverb", pronunciation: "אָוֵויי", example: { text: "I'll be away next week.", translation: "לא אהיה בבית בשבוע הבא." } }
   - { id: "keep-an-eye-on", text: "keep an eye on", translation: "להשגיח על", pos: "phrase", pronunciation: "קִיפּ אֶן אַיי אוֹן" }
 
-  - { id: "apartment", text: "apartment", translation: "דירה", pos: "noun", example: { text: "My apartment is small.", translation: "הדירה שלי קטנה." } }
+  - { id: "apartment", text: "apartment", emoji: "🏢", translation: "דירה", pos: "noun", example: { text: "My apartment is small.", translation: "הדירה שלי קטנה." } }
   - { id: "yard", text: "yard", translation: "חצר", pos: "noun", example: { text: "The children play in the yard.", translation: "הילדים משחקים בחצר." } }
   - { id: "lock", text: "lock", translation: "לנעול", pos: "verb", example: { text: "Please lock the door.", translation: "בבקשה נעל את הדלת." } }
-  - { id: "button", text: "button", translation: "כפתור", pos: "noun", example: { text: "Press the red button.", translation: "לחץ על הכפתור האדום." } }
-  - { id: "roof", text: "roof", translation: "גג", pos: "noun", example: { text: "The roof is flat.", translation: "הגג שטוח." } }
+  - { id: "button", text: "button", emoji: "🔘", translation: "כפתור", pos: "noun", example: { text: "Press the red button.", translation: "לחץ על הכפתור האדום." } }
+  - { id: "roof", text: "roof", emoji: "🏠", translation: "גג", pos: "noun", example: { text: "The roof is flat.", translation: "הגג שטוח." } }
   - { id: "neighborhood", text: "neighborhood", translation: "שכונה", pos: "noun", example: { text: "This is a quiet neighborhood.", translation: "זו שכונה שקטה." } }
   - { id: "propose", text: "propose", translation: "להציע", pos: "verb", example: { text: "I propose a short break.", translation: "אני מציע הפסקה קצרה." } }
   - { id: "encourage", text: "encourage", translation: "לעודד", pos: "verb", example: { text: "Teachers encourage their students.", translation: "מורים מעודדים את התלמידים שלהם." } }
@@ -355,6 +355,13 @@ lessons:
         text: "I'd like to apologise for the noise last week."
         translation: "אני רוצה להתנצל על הרעש בשבוע שעבר."
         lexemes: [apologise, noise]
+      - id: u26-l4-pic1
+        type: multiple_choice
+        picture: "🏢"
+        prompt: "מה זה?"
+        options: ["building", "button", "roof"]
+        correct: 0
+        lexemes: [building]
 
   # ------------------------------------------------------------------ 5
   - id: u26-l5
@@ -697,6 +704,14 @@ lessons:
       - apartment
       - yard
       - roof
+    - id: u26-n1-pic1
+      type: multiple_choice
+      picture: "🏢"
+      prompt: "מה זה?"
+      options: ["apartment", "roof", "button"]
+      correct: 0
+      lexemes: [apartment]
+
   - id: u26-n2
     kind: new
     title:

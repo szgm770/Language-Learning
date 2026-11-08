@@ -89,7 +89,7 @@ vocabulary:
 - { id: "accurate", text: "accurate", translation: "מדויק", pos: "adjective", example: { text: "The map is accurate.", translation: "המפה מדויקת." } }
 - { id: "investigation", text: "investigation", translation: "חקירה", pos: "noun", example: { text: "The investigation takes weeks.", translation: "החקירה נמשכת שבועות." } }
 - { id: "witness", text: "witness", translation: "עד", pos: "noun", example: { text: "The witness tells the story.", translation: "העד מספר את הסיפור." } }
-- { id: "lawyer", text: "lawyer", translation: "עורך דין", pos: "noun", example: { text: "My lawyer is here.", translation: "עורך הדין שלי כאן." } }
+- { id: "lawyer", text: "lawyer", emoji: "⚖️", translation: "עורך דין", pos: "noun", example: { text: "My lawyer is here.", translation: "עורך הדין שלי כאן." } }
 - { id: "legal", text: "legal", translation: "חוקי; משפטי", pos: "adjective", example: { text: "This is a legal document.", translation: "זה מסמך משפטי." } }
 - { id: "proof", text: "proof", translation: "הוכחה", pos: "noun", example: { text: "I need proof.", translation: "אני צריך הוכחה." } }
 - { id: "trial", text: "trial", translation: "משפט; ניסיון", pos: "noun", example: { text: "The trial starts on Monday.", translation: "המשפט מתחיל ביום שני." } }
