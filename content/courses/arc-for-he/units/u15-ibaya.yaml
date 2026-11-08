@@ -1,0 +1,501 @@
+id: u15-ibaya
+cefr: B1
+scene: study
+title:
+  he: איבעיא להו
+  en: A question was asked
+story: חנה שולחת ליונאס שאלה, וממתינה לתשובה. בגמרא לומדים איך נשאלת שאלה פתוחה (איבעיא), איך היא נפשטת, ומה ״נפקא מינה״.
+canDo:
+- 'לזהות שאלה פתוחה: איבעיא להו, בעא מיניה'
+- 'להבין איך שאלה נפשטת: הדר פשטה'
+- להבין ״למאי נפקא מינה״ ו״לא מיבעיא״
+vocabulary:
+- id: ibaya-lehu
+  text: איבעיא להו
+  translation: נשאלה להם שאלה (בבית המדרש)
+  pos: phrase
+  example:
+    text: איבעיא להו עומדי מהו
+    translation: 'נשאלה להם שאלה: ׳עומדי׳, מה דינו?'
+    source: בבלי, ערכין יט ע״א
+    vocalized: 'אִיבַּעְיָא לְהוּ: עוֹמְדֵי מַהוּ'
+- id: baa-mineih
+  text: בעא מיניה
+  translation: שאל אותו (ביקש ממנו תשובה)
+  pos: phrase
+  example:
+    text: בעא מיניה רבא מרב נחמן
+    translation: שאל רבא את רב נחמן
+    source: בבלי, קידושין מד ע״א
+    vocalized: בְּעָא מִינֵּיהּ רָבָא מֵרַב נַחְמָן
+- id: pashta
+  text: פשטה
+  translation: פשט אותה (ענה על השאלה)
+  pos: verb
+  example:
+    text: הדר פשטה עבדו כגופו שורו כממונו
+    translation: 'חזר ופשט אותה: עבדו (של אדם) כגופו, שורו כממונו'
+    source: בבלי, בבא קמא כז ע״א
+    vocalized: 'הֲדַר פַּשְׁטַהּ: עַבְדּוֹ כְּגוּפוֹ, שׁוֹרוֹ כְּמָמוֹנוֹ'
+- id: nafka-mina
+  text: נפקא מינה
+  translation: יוצא מזה (ההבדל המעשי)
+  pos: phrase
+  example:
+    text: למאי נפקא מינה
+    translation: למה (זה חשוב)? מה ההבדל המעשי?
+    source: בבלי, יבמות קיט ע״ב
+    vocalized: לְמַאי נָפְקָא מִינַּהּ
+- id: la-mibaya
+  text: לא מיבעיא
+  translation: לא צריך לומר (ברור), אלא אפילו…
+  pos: phrase
+  example:
+    text: לא מיבעיא קאמר
+    translation: '׳לא מיבעיא׳ הוא אומר: לא רק זה, אלא אפילו זה'
+    source: בבלי, בבא בתרא נט ע״ב
+    vocalized: לָא מִיבַּעְיָא קָאָמַר
+- id: tivei
+  text: תיבעי
+  translation: תישאל (השאלה) גם…
+  pos: verb
+  example:
+    text: תיבעי לרבי תיבעי לרבנן
+    translation: השאלה תישאל לשיטת רבי, ותישאל לשיטת חכמים
+    source: בבלי, עירובין עח ע״ב
+    vocalized: תִּיבְּעֵי לְרַבִּי, תִּיבְּעֵי לְרַבָּנַן
+- id: beinaihu
+  text: בינייהו
+  translation: ביניהם; ״מאי בינייהו?״ = מה ההבדל ביניהם?
+  pos: pronoun
+  example:
+    text: מאי בינייהו
+    translation: מה (ההבדל) ביניהם?
+    source: בבלי, בבא בתרא קעד ע״ב
+    vocalized: מַאי בֵּינַיְיהוּ
+- id: mashkachat
+  text: משכחת
+  translation: אתה מוצא; ״היכי משכחת ליה?״ = איך תמצא מקרה כזה?
+  pos: verb
+  example:
+    text: ואי בד' היכי משכחת ליה
+    translation: ואם בארבע, איך תמצא אותו?
+    source: בבלי, עירובין ה ע״א
+- id: mibaei-leih
+  text: מיבעי ליה
+  translation: נצרך לו (הפסוק בא ללמד דבר אחר)
+  pos: phrase
+  example:
+    text: האי מיבעי ליה
+    translation: זה (הפסוק) נצרך לו (לדבר אחר)
+    source: בבלי, זבחים נו ע״א
+    vocalized: הַאי מִיבְּעֵי לֵיהּ
+grammar: []
+lessons:
+- id: u15-l1
+  kind: new
+  title:
+    he: איבעיא להו
+    en: A question arose
+  exercises:
+  - id: u15-l1-01
+    type: dialogue
+    scene: חצות. חנה הצטרפה, עם מחשב נייד.
+    lines:
+    - speaker: chana
+      text: שאלתי את יונאס אם הסבא שלו השאיר משהו מהילדים. הוא כתב שיבדוק. עכשיו אני מחכה.
+      translation: שאלה פתוחה
+    - speaker: yisrael
+      text: ״איבעיא להו״. כך הגמרא פותחת שאלה שאין לה עדיין תשובה. ״בעא מיניה רבא מרב נחמן״, רבא שאל את רב נחמן.
+      translation: איבעיא, בעא מיניה
+    - speaker: eitan
+      text: ואם עונים?
+      translation: שאלה
+    - speaker: yisrael
+      text: ״פשטה״, פשט אותה. ולפעמים מי ששאל, ״הדר פשטה״, חוזר ועונה לעצמו.
+      translation: פשטה
+  - id: u15-l1-02
+    type: learn
+    lexeme: ibaya-lehu
+  - id: u15-l1-03
+    type: learn
+    lexeme: baa-mineih
+  - id: u15-l1-04
+    type: learn
+    lexeme: pashta
+  - id: u15-l1-05
+    type: match_pairs
+    pairs:
+    - - איבעיא להו
+      - נשאלה להם שאלה (בבית המדרש)
+    - - בעא מיניה
+      - שאל אותו (ביקש ממנו תשובה)
+    - - פשטה
+      - פשט אותה (ענה על השאלה)
+    lexemes:
+    - ibaya-lehu
+    - baa-mineih
+    - pashta
+  - id: u15-l1-06
+    type: multiple_choice
+    prompt: מה פירוש איבעיא להו?
+    options:
+    - נשאלה להם שאלה (בבית המדרש)
+    - שאל אותו (ביקש ממנו תשובה)
+    - לא צריך לומר (ברור), אלא אפילו…
+    correct: 0
+    lexemes:
+    - ibaya-lehu
+  - id: u15-l1-07
+    type: multiple_choice
+    prompt: מה פירוש בעא מיניה?
+    options:
+    - שאל אותו (ביקש ממנו תשובה)
+    - נשאלה להם שאלה (בבית המדרש)
+    - פשט אותה (ענה על השאלה)
+    correct: 0
+    lexemes:
+    - baa-mineih
+  - id: u15-l1-08
+    type: multiple_choice
+    prompt: מה פירוש פשטה?
+    options:
+    - פשט אותה (ענה על השאלה)
+    - נשאלה להם שאלה (בבית המדרש)
+    - לא צריך לומר (ברור), אלא אפילו…
+    correct: 0
+    lexemes:
+    - pashta
+  - id: u15-l1-09
+    type: fill_blank
+    sentence: ___ להו עומדי מהו
+    translation: 'נשאלה להם שאלה: ׳עומדי׳, מה דינו?'
+    answers:
+    - איבעיא
+    options:
+    - איבעיא
+    - פשטה
+    - לא מיבעיא
+    lexemes:
+    - ibaya-lehu
+    source: בבלי, ערכין יט ע״א
+    vocalized: 'אִיבַּעְיָא לְהוּ: עוֹמְדֵי מַהוּ'
+  - id: u15-l1-10
+    type: fill_blank
+    sentence: ___ מיניה רבא מרב נחמן
+    translation: שאל רבא את רב נחמן
+    answers:
+    - בעא
+    options:
+    - בעא
+    - נפקא מינה
+    - איבעיא להו
+    lexemes:
+    - baa-mineih
+    source: בבלי, קידושין מד ע״א
+    vocalized: בְּעָא מִינֵּיהּ רָבָא מֵרַב נַחְמָן
+  - id: u15-l1-11
+    type: fill_blank
+    sentence: הדר ___ עבדו כגופו שורו כממונו
+    translation: 'חזר ופשט אותה: עבדו (של אדם) כגופו, שורו כממונו'
+    answers:
+    - פשטה
+    options:
+    - פשטה
+    - לא מיבעיא
+    - איבעיא להו
+    lexemes:
+    - pashta
+    source: בבלי, בבא קמא כז ע״א
+    vocalized: 'הֲדַר פַּשְׁטַהּ: עַבְדּוֹ כְּגוּפוֹ, שׁוֹרוֹ כְּמָמוֹנוֹ'
+- id: u15-l2
+  kind: new
+  title:
+    he: למאי נפקא מינה
+    en: What difference does it make?
+  exercises:
+  - id: u15-l2-12
+    type: tip
+    title: שאלות פתוחות
+    text: '**איבעיא להו** = נשאלה שאלה בבית המדרש. **בעא מיניה** = שאל אותו.
+
+
+      **פשטה** = ענה עליה. אם לא: **תיקו**.
+
+
+      **למאי נפקא מינה?** = מה ההבדל המעשי? **לא מיבעיא** = לא צריך לומר (זה ברור), אלא אפילו…'
+  - id: u15-l2-13
+    type: learn
+    lexeme: nafka-mina
+  - id: u15-l2-14
+    type: learn
+    lexeme: la-mibaya
+  - id: u15-l2-15
+    type: match_pairs
+    pairs:
+    - - נפקא מינה
+      - יוצא מזה (ההבדל המעשי)
+    - - לא מיבעיא
+      - לא צריך לומר (ברור), אלא אפילו…
+    - - איבעיא להו
+      - נשאלה להם שאלה (בבית המדרש)
+    lexemes:
+    - nafka-mina
+    - la-mibaya
+    - ibaya-lehu
+  - id: u15-l2-16
+    type: multiple_choice
+    prompt: מה פירוש נפקא מינה?
+    options:
+    - יוצא מזה (ההבדל המעשי)
+    - נשאלה להם שאלה (בבית המדרש)
+    - לא צריך לומר (ברור), אלא אפילו…
+    correct: 0
+    lexemes:
+    - nafka-mina
+  - id: u15-l2-17
+    type: multiple_choice
+    prompt: מה פירוש לא מיבעיא?
+    options:
+    - לא צריך לומר (ברור), אלא אפילו…
+    - נשאלה להם שאלה (בבית המדרש)
+    - שאל אותו (ביקש ממנו תשובה)
+    correct: 0
+    lexemes:
+    - la-mibaya
+  - id: u15-l2-18
+    type: fill_blank
+    sentence: למאי ___ מינה
+    translation: למה (זה חשוב)? מה ההבדל המעשי?
+    answers:
+    - נפקא
+    options:
+    - נפקא
+    - פשטה
+    - בעא מיניה
+    lexemes:
+    - nafka-mina
+    source: בבלי, יבמות קיט ע״ב
+    vocalized: לְמַאי נָפְקָא מִינַּהּ
+  - id: u15-l2-19
+    type: fill_blank
+    sentence: לא ___ קאמר
+    translation: '׳לא מיבעיא׳ הוא אומר: לא רק זה, אלא אפילו זה'
+    answers:
+    - מיבעיא
+    options:
+    - מיבעיא
+    - נפקא מינה
+    - בעא מיניה
+    lexemes:
+    - la-mibaya
+    source: בבלי, בבא בתרא נט ע״ב
+    vocalized: לָא מִיבַּעְיָא קָאָמַר
+- id: u15-l3
+  kind: new
+  title:
+    he: מאי בינייהו
+    en: What is the difference?
+  exercises:
+  - id: u15-l3-20
+    type: tip
+    title: המחברת של איתן
+    text: 'חנה מחכה לתשובה מיונאס, ואיתן לומד עוד מילים של שאלות. מילים שחוזרות שוב ושוב בדפים: **תיבעי** = תישאל (השאלה) גם…, **בינייהו** = ביניהם; ״מאי בינייהו?״ = מה ההבדל ביניהם?, **משכחת** = אתה מוצא; ״היכי משכחת ליה?״ = איך תמצא מקרה כזה?, **מיבעי ליה** = נצרך לו (הפסוק בא ללמד דבר אחר).'
+  - id: u15-l3-21
+    type: learn
+    lexeme: tivei
+  - id: u15-l3-22
+    type: learn
+    lexeme: beinaihu
+  - id: u15-l3-23
+    type: learn
+    lexeme: mashkachat
+  - id: u15-l3-24
+    type: learn
+    lexeme: mibaei-leih
+  - id: u15-l3-25
+    type: match_pairs
+    pairs:
+    - - תיבעי
+      - תישאל (השאלה) גם…
+    - - בינייהו
+      - ביניהם; ״מאי בינייהו?״ = מה ההבדל ביניהם?
+    - - משכחת
+      - אתה מוצא; ״היכי משכחת ליה?״ = איך תמצא מקרה כזה?
+    - - מיבעי ליה
+      - נצרך לו (הפסוק בא ללמד דבר אחר)
+    lexemes:
+    - tivei
+    - beinaihu
+    - mashkachat
+    - mibaei-leih
+  - id: u15-l3-26
+    type: multiple_choice
+    prompt: מה פירוש תיבעי?
+    options:
+    - תישאל (השאלה) גם…
+    - יוצא מזה (ההבדל המעשי)
+    - שאל אותו (ביקש ממנו תשובה)
+    correct: 0
+    lexemes:
+    - tivei
+  - id: u15-l3-27
+    type: multiple_choice
+    prompt: מה פירוש בינייהו?
+    options:
+    - ביניהם; ״מאי בינייהו?״ = מה ההבדל ביניהם?
+    - לא צריך לומר (ברור), אלא אפילו…
+    - אתה מוצא; ״היכי משכחת ליה?״ = איך תמצא מקרה כזה?
+    correct: 0
+    lexemes:
+    - beinaihu
+  - id: u15-l3-28
+    type: multiple_choice
+    prompt: מה פירוש משכחת?
+    options:
+    - אתה מוצא; ״היכי משכחת ליה?״ = איך תמצא מקרה כזה?
+    - פשט אותה (ענה על השאלה)
+    - לא צריך לומר (ברור), אלא אפילו…
+    correct: 0
+    lexemes:
+    - mashkachat
+  - id: u15-l3-29
+    type: multiple_choice
+    prompt: מה פירוש מיבעי ליה?
+    options:
+    - נצרך לו (הפסוק בא ללמד דבר אחר)
+    - לא צריך לומר (ברור), אלא אפילו…
+    - אתה מוצא; ״היכי משכחת ליה?״ = איך תמצא מקרה כזה?
+    correct: 0
+    lexemes:
+    - mibaei-leih
+  - id: u15-l3-30
+    type: fill_blank
+    sentence: ___ לרבי תיבעי לרבנן
+    translation: השאלה תישאל לשיטת רבי, ותישאל לשיטת חכמים
+    answers:
+    - תיבעי
+    options:
+    - תיבעי
+    - איבעיא להו
+    - נפקא מינה
+    lexemes:
+    - tivei
+    source: בבלי, עירובין עח ע״ב
+    vocalized: תִּיבְּעֵי לְרַבִּי, תִּיבְּעֵי לְרַבָּנַן
+  - id: u15-l3-31
+    type: fill_blank
+    sentence: מאי ___
+    translation: מה (ההבדל) ביניהם?
+    answers:
+    - בינייהו
+    options:
+    - בינייהו
+    - משכחת
+    - נפקא מינה
+    lexemes:
+    - beinaihu
+    source: בבלי, בבא בתרא קעד ע״ב
+    vocalized: מַאי בֵּינַיְיהוּ
+  - id: u15-l3-32
+    type: fill_blank
+    sentence: ואי בד' היכי ___ ליה
+    translation: ואם בארבע, איך תמצא אותו?
+    answers:
+    - משכחת
+    options:
+    - משכחת
+    - איבעיא להו
+    - בעא מיניה
+    lexemes:
+    - mashkachat
+    source: בבלי, עירובין ה ע״א
+  - id: u15-l3-33
+    type: fill_blank
+    sentence: האי ___ ליה
+    translation: זה (הפסוק) נצרך לו (לדבר אחר)
+    answers:
+    - מיבעי
+    options:
+    - מיבעי
+    - תיבעי
+    - פשטה
+    lexemes:
+    - mibaei-leih
+    source: בבלי, זבחים נו ע״א
+    vocalized: הַאי מִיבְּעֵי לֵיהּ
+- id: u15-l4
+  kind: review
+  title:
+    he: שאלה ותשובה
+    en: Question and answer
+  exercises:
+  - id: u15-l4-34
+    type: multiple_choice
+    prompt: ״הדר פשטה״. מה קרה לשאלה?
+    options:
+    - השואל עצמו חזר וענה עליה
+    - היא נשארה בתיקו
+    - שאלו אותה שוב
+    correct: 0
+    lexemes:
+    - pashta
+    - hadar
+    source: בבלי, בבא קמא כז ע״א
+    vocalized: הֲדַר פַּשְׁטַהּ
+  - id: u15-l4-35
+    type: multiple_choice
+    prompt: למה הגמרא שואלת ״למאי נפקא מינה״?
+    options:
+    - כדי לדעת מה ההבדל המעשי בין השיטות
+    - כדי לדעת מי אמר
+    - כדי לדעת מאיזה פסוק
+    correct: 0
+    lexemes:
+    - nafka-mina
+  - id: u15-l4-36
+    type: fill_blank
+    sentence: בעא ___ רבא מרב נחמן
+    translation: שאל רבא את רב נחמן
+    answers:
+    - מיניה
+    options:
+    - מיניה
+    - לגביה
+    - בהדיה
+    lexemes:
+    - baa-mineih
+    source: בבלי, קידושין מד ע״א
+    vocalized: בְּעָא מִינֵּיהּ רָבָא מֵרַב נַחְמָן
+  - id: u15-l4-37
+    type: dialogue
+    scene: הטלפון של חנה מצלצל.
+    lines:
+    - speaker: chana
+      text: יונאס ענה! הוא מצא בעליית הגג של סבא שלו דף אחד. ״דף עם אותיות של יהודים, ושני ציורים קטנים בשוליים.״
+      translation: תשובה
+    - speaker: yisrael
+      text: '...שני ציורים. אני זוכר. ציירנו את עצמנו.'
+      translation: ר׳ ישראל
+    - speaker: eitan
+      text: ״פשטה״!
+      translation: איתן
+  - id: u15-l4-38
+    type: match_pairs
+    pairs:
+    - - איבעיא להו
+      - נשאלה להם שאלה (בבית המדרש)
+    - - בעא מיניה
+      - שאל אותו (ביקש ממנו תשובה)
+    - - פשטה
+      - פשט אותה (ענה על השאלה)
+    - - נפקא מינה
+      - יוצא מזה (ההבדל המעשי)
+    - - לא מיבעיא
+      - לא צריך לומר (ברור), אלא אפילו…
+    lexemes:
+    - ibaya-lehu
+    - baa-mineih
+    - pashta
+    - nafka-mina
+    - la-mibaya

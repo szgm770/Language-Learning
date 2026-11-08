@@ -1,0 +1,666 @@
+id: u20-sfinta
+cefr: B2
+scene: study
+title:
+  he: זימנא חדא הוה קא אזלינן בספינתא
+  en: Once we were sailing
+story: 'ר׳ ישראל מגלה איך סבא הצחיק אותו במתבן: בסיפורים של רבה בר בר חנה. הדג שנראה כמו אי, והספינה שכמעט טבעה.'
+canDo:
+- 'לקרוא סיפור אגדה ארוך בגוף ראשון רבים: אזלינן, חזינן, סברינן'
+- 'להבין ״אי לאו… הוה…״: אילולא… היה…'
+- 'להבין ״לדידי חזי לי״: אני בעצמי ראיתי'
+vocabulary:
+- id: sfinta
+  text: ספינתא
+  translation: ספינה
+  pos: noun
+  example:
+    text: זימנא חדא הוה קא אזלינן בספינתא
+    translation: פעם אחת היינו הולכים בספינה
+    source: בבלי, בבא בתרא עג ע״ב
+    vocalized: זִימְנָא חֲדָא הֲוָה קָא אָזְלִינַן בִּסְפִינְתָּא
+- id: azlinan
+  text: אזלינן
+  translation: הולכים אנחנו; ״הוה קא אזלינן״ = היינו הולכים
+  pos: verb
+  example:
+    text: זימנא חדא הוה קא אזלינן בספינתא
+    translation: פעם אחת היינו הולכים בספינה
+    source: בבלי, בבא בתרא עג ע״ב
+    vocalized: זִימְנָא חֲדָא הֲוָה קָא אָזְלִינַן בִּסְפִינְתָּא
+- id: chazinan
+  text: חזינן
+  translation: ראינו; רואים אנחנו
+  pos: verb
+  example:
+    text: וחזינן ההוא כוורא דיתבא ליה חלתא אגביה
+    translation: וראינו דג אחד שישב עליו חול על גבו
+    source: בבלי, בבא בתרא עג ע״ב
+    vocalized: וַחֲזֵינַן הָהוּא כְּווֹרָא דְּיָתְבָא לֵיהּ חָלְתָּא אַגַּבֵּיהּ
+- id: kavra
+  text: כוורא
+  translation: דג
+  pos: noun
+  example:
+    text: וחזינן ההוא כוורא דיתבא ליה חלתא אגביה
+    translation: וראינו דג אחד שישב עליו חול על גבו
+    source: בבלי, בבא בתרא עג ע״ב
+    vocalized: וַחֲזֵינַן הָהוּא כְּווֹרָא דְּיָתְבָא לֵיהּ חָלְתָּא אַגַּבֵּיהּ
+- id: agabeih
+  text: אגביה
+  translation: על גבו
+  pos: preposition
+  example:
+    text: וחזינן ההוא כוורא דיתבא ליה חלתא אגביה
+    translation: וראינו דג אחד שישב עליו חול על גבו
+    source: בבלי, בבא בתרא עג ע״ב
+    vocalized: וַחֲזֵינַן הָהוּא כְּווֹרָא דְּיָתְבָא לֵיהּ חָלְתָּא אַגַּבֵּיהּ
+- id: savrinan
+  text: סברינן
+  translation: חשבנו (סבורים אנחנו)
+  pos: verb
+  example:
+    text: סברינן יבשתא היא וסלקינן ואפינן ובשלינן אגביה
+    translation: חשבנו שיבשה היא, ועלינו ואפינו ובישלנו על גבו
+    source: בבלי, בבא בתרא עג ע״ב
+    vocalized: סָבְרִינַן יַבֶּשְׁתָּא הִיא, וּסְלֵקִינַן וַאֲפֵינַן וּבַשְּׁלִינַן אַגַּבֵּיהּ
+- id: yabeshta
+  text: יבשתא
+  translation: יבשה
+  pos: noun
+  example:
+    text: סברינן יבשתא היא וסלקינן ואפינן ובשלינן אגביה
+    translation: חשבנו שיבשה היא, ועלינו ואפינו ובישלנו על גבו
+    source: בבלי, בבא בתרא עג ע״ב
+    vocalized: סָבְרִינַן יַבֶּשְׁתָּא הִיא, וּסְלֵקִינַן וַאֲפֵינַן וּבַשְּׁלִינַן אַגַּבֵּיהּ
+- id: salkinan
+  text: סלקינן
+  translation: עלינו
+  pos: verb
+  example:
+    text: סברינן יבשתא היא וסלקינן ואפינן ובשלינן אגביה
+    translation: חשבנו שיבשה היא, ועלינו ואפינו ובישלנו על גבו
+    source: בבלי, בבא בתרא עג ע״ב
+    vocalized: סָבְרִינַן יַבֶּשְׁתָּא הִיא, וּסְלֵקִינַן וַאֲפֵינַן וּבַשְּׁלִינַן אַגַּבֵּיהּ
+- id: i-lav
+  text: אי לאו
+  translation: אילולא
+  pos: phrase
+  example:
+    text: ואי לאו דהוה מקרבא ספינתא הוה טבעינן
+    translation: ואילולא שהספינה הייתה קרובה, היינו טובעים
+    source: בבלי, בבא בתרא עג ע״ב
+    vocalized: וְאִי לָאו דַּהֲוָה מְקָרְבָא סְפִינְתָּא, הֲוָה טָבְעִינַן
+- id: tavinan
+  text: טבעינן
+  translation: טובעים אנחנו; ״הוה טבעינן״ = היינו טובעים
+  pos: verb
+  example:
+    text: ואי לאו דהוה מקרבא ספינתא הוה טבעינן
+    translation: ואילולא שהספינה הייתה קרובה, היינו טובעים
+    source: בבלי, בבא בתרא עג ע״ב
+    vocalized: וְאִי לָאו דַּהֲוָה מְקָרְבָא סְפִינְתָּא, הֲוָה טָבְעִינַן
+- id: ledidi
+  text: לדידי חזי לי
+  translation: אני בעצמי ראיתי
+  pos: phrase
+  example:
+    text: אמר רבה לדידי חזי לי אורזילא בר יומיה דהוה כהר תבור
+    translation: 'אמר רבה: אני בעצמי ראיתי ׳אורזילא׳ (צבי) בן יומו, שהיה (גדול) כהר תבור'
+    source: בבלי, בבא בתרא עג ע״ב
+    vocalized: 'אָמַר רַבָּה: לְדִידִי חֲזֵי לִי אוּרְזִילָא בַּר יוֹמֵיהּ, דַּהֲוָה כְּהַר תָּבוֹר'
+- id: mishtai
+  text: משתעי
+  translation: מספר (סיפור)
+  pos: verb
+  example:
+    text: רבי יוחנן משתעי זימנא חדא הוה קא אזלינן בספינתא
+    translation: 'רבי יוחנן מספר: פעם אחת היינו הולכים בספינה'
+    source: בבלי, בבא בתרא עד ע״א
+    vocalized: 'רַבִּי יוֹחָנָן מִשְׁתַּעֵי: זִימְנָא חֲדָא הֲוָה קָא אָזְלִינַן בִּסְפִינְתָּא'
+grammar: []
+lessons:
+- id: u20-l1
+  kind: new
+  title:
+    he: אזלינן בספינתא
+    en: We were sailing
+  exercises:
+  - id: u20-l1-01
+    type: dialogue
+    scene: אחר הצהריים. חנה, איתן ור׳ ישראל מנקים את הבית לקראת הסיום.
+    lines:
+    - speaker: chana
+      text: ר׳ ישראל, איך שרדתם בחורף במתבן? שני ילדים, לבד?
+      translation: השאלה של חנה
+    - speaker: yisrael
+      text: סבא שלך הצחיק אותי. כל לילה סיפור של רבה בר בר חנה. ״זימנא חדא הוה קא אזלינן בספינתא״, פעם אחת היינו הולכים בספינה.
+      translation: רבה בר בר חנה
+    - speaker: yisrael
+      text: ״וחזינן ההוא כוורא״, וראינו דג, עם חול על הגב ועשב צומח עליו.
+      translation: כוורא
+    - speaker: eitan
+      text: -ינן בסוף זה ״אנחנו״. אזלינן, חזינן.
+      translation: איתן שם לב
+  - id: u20-l1-02
+    type: tip
+    title: 'אנחנו: ־ינן'
+    text: 'פעלים בגוף ראשון רבים מסתיימים ב**־ינן**: **אזלינן** = הולכים אנחנו. **חזינן** = רואים אנחנו. **סברינן** = סבורים אנחנו.
+
+
+      **הוה קא אזלינן** = היינו הולכים (תיאור בעבר).
+
+
+      זוכרים את **אמרינן** ו**עסקינן**? אותה סיומת.'
+  - id: u20-l1-03
+    type: learn
+    lexeme: sfinta
+  - id: u20-l1-04
+    type: learn
+    lexeme: azlinan
+  - id: u20-l1-05
+    type: learn
+    lexeme: chazinan
+  - id: u20-l1-06
+    type: learn
+    lexeme: kavra
+  - id: u20-l1-07
+    type: learn
+    lexeme: agabeih
+  - id: u20-l1-08
+    type: learn
+    lexeme: mishtai
+  - id: u20-l1-09
+    type: match_pairs
+    pairs:
+    - - ספינתא
+      - ספינה
+    - - אזלינן
+      - הולכים אנחנו; ״הוה קא אזלינן״ = היינו הולכים
+    - - חזינן
+      - ראינו; רואים אנחנו
+    - - כוורא
+      - דג
+    - - אגביה
+      - על גבו
+    - - משתעי
+      - מספר (סיפור)
+    lexemes:
+    - sfinta
+    - azlinan
+    - chazinan
+    - kavra
+    - agabeih
+    - mishtai
+  - id: u20-l1-10
+    type: multiple_choice
+    prompt: מה פירוש ספינתא?
+    options:
+    - ספינה
+    - אילולא
+    - הולכים אנחנו; ״הוה קא אזלינן״ = היינו הולכים
+    correct: 0
+    lexemes:
+    - sfinta
+  - id: u20-l1-11
+    type: multiple_choice
+    prompt: מה פירוש אזלינן?
+    options:
+    - הולכים אנחנו; ״הוה קא אזלינן״ = היינו הולכים
+    - על גבו
+    - יבשה
+    correct: 0
+    lexemes:
+    - azlinan
+  - id: u20-l1-12
+    type: multiple_choice
+    prompt: מה פירוש חזינן?
+    options:
+    - ראינו; רואים אנחנו
+    - עלינו
+    - ספינה
+    correct: 0
+    lexemes:
+    - chazinan
+  - id: u20-l1-13
+    type: multiple_choice
+    prompt: מה פירוש כוורא?
+    options:
+    - דג
+    - טובעים אנחנו; ״הוה טבעינן״ = היינו טובעים
+    - חשבנו (סבורים אנחנו)
+    correct: 0
+    lexemes:
+    - kavra
+  - id: u20-l1-14
+    type: multiple_choice
+    prompt: מה פירוש אגביה?
+    options:
+    - על גבו
+    - מספר (סיפור)
+    - יבשה
+    correct: 0
+    lexemes:
+    - agabeih
+  - id: u20-l1-15
+    type: multiple_choice
+    prompt: מה פירוש משתעי?
+    options:
+    - מספר (סיפור)
+    - הולכים אנחנו; ״הוה קא אזלינן״ = היינו הולכים
+    - ספינה
+    correct: 0
+    lexemes:
+    - mishtai
+  - id: u20-l1-16
+    type: fill_blank
+    sentence: זימנא חדא הוה קא אזלינן ___
+    translation: פעם אחת היינו הולכים בספינה
+    answers:
+    - בספינתא
+    options:
+    - בספינתא
+    - יבשתא
+    - אי לאו
+    lexemes:
+    - sfinta
+    source: בבלי, בבא בתרא עג ע״ב
+    vocalized: זִימְנָא חֲדָא הֲוָה קָא אָזְלִינַן בִּסְפִינְתָּא
+  - id: u20-l1-17
+    type: fill_blank
+    sentence: זימנא חדא הוה קא ___ בספינתא
+    translation: פעם אחת היינו הולכים בספינה
+    answers:
+    - אזלינן
+    options:
+    - אזלינן
+    - סלקינן
+    - אגביה
+    lexemes:
+    - azlinan
+    source: בבלי, בבא בתרא עג ע״ב
+    vocalized: זִימְנָא חֲדָא הֲוָה קָא אָזְלִינַן בִּסְפִינְתָּא
+  - id: u20-l1-18
+    type: fill_blank
+    sentence: ___ ההוא כוורא דיתבא ליה חלתא אגביה
+    translation: וראינו דג אחד שישב עליו חול על גבו
+    answers:
+    - וחזינן
+    options:
+    - וחזינן
+    - יבשתא
+    - סלקינן
+    lexemes:
+    - chazinan
+    source: בבלי, בבא בתרא עג ע״ב
+    vocalized: וַחֲזֵינַן הָהוּא כְּווֹרָא דְּיָתְבָא לֵיהּ חָלְתָּא אַגַּבֵּיהּ
+  - id: u20-l1-19
+    type: fill_blank
+    sentence: וחזינן ההוא ___ דיתבא ליה חלתא אגביה
+    translation: וראינו דג אחד שישב עליו חול על גבו
+    answers:
+    - כוורא
+    options:
+    - כוורא
+    - משתעי
+    - סלקינן
+    lexemes:
+    - kavra
+    source: בבלי, בבא בתרא עג ע״ב
+    vocalized: וַחֲזֵינַן הָהוּא כְּווֹרָא דְּיָתְבָא לֵיהּ חָלְתָּא אַגַּבֵּיהּ
+  - id: u20-l1-20
+    type: fill_blank
+    sentence: וחזינן ההוא כוורא דיתבא ליה חלתא ___
+    translation: וראינו דג אחד שישב עליו חול על גבו
+    answers:
+    - אגביה
+    options:
+    - אגביה
+    - אי לאו
+    - ספינתא
+    lexemes:
+    - agabeih
+    source: בבלי, בבא בתרא עג ע״ב
+    vocalized: וַחֲזֵינַן הָהוּא כְּווֹרָא דְּיָתְבָא לֵיהּ חָלְתָּא אַגַּבֵּיהּ
+  - id: u20-l1-21
+    type: fill_blank
+    sentence: רבי יוחנן ___ זימנא חדא הוה קא אזלינן בספינתא
+    translation: 'רבי יוחנן מספר: פעם אחת היינו הולכים בספינה'
+    answers:
+    - משתעי
+    options:
+    - משתעי
+    - סלקינן
+    - אי לאו
+    lexemes:
+    - mishtai
+    source: בבלי, בבא בתרא עד ע״א
+    vocalized: 'רַבִּי יוֹחָנָן מִשְׁתַּעֵי: זִימְנָא חֲדָא הֲוָה קָא אָזְלִינַן בִּסְפִינְתָּא'
+- id: u20-l2
+  kind: new
+  title:
+    he: סברינן יבשתא היא
+    en: We thought it was land
+  exercises:
+  - id: u20-l2-22
+    type: dialogue
+    scene: ר׳ ישראל צוחק כמו ילד.
+    lines:
+    - speaker: yisrael
+      text: ״סברינן יבשתא היא״, חשבנו שזו יבשה! ״וסלקינן״, ועלינו, ואפינו ובישלנו על הגב שלו.
+      translation: סברינן, סלקינן
+    - speaker: yisrael
+      text: וכשהגב שלו התחמם, הוא התהפך. ״ואי לאו דהוה מקרבא ספינתא, הוה טבעינן״.
+      translation: אי לאו
+    - speaker: chana
+      text: וזה הצחיק אתכם במתבן?
+      translation: חנה
+    - speaker: yisrael
+      text: 'כל לילה. ובכל לילה סבא שלך היה אומר בסוף: ״אי לאו דהוה מקרבא ספינתא״. ואז מצביע עליי. אני הייתי הספינה שלו.'
+      translation: הספינה
+  - id: u20-l2-23
+    type: learn
+    lexeme: savrinan
+  - id: u20-l2-24
+    type: learn
+    lexeme: yabeshta
+  - id: u20-l2-25
+    type: learn
+    lexeme: salkinan
+  - id: u20-l2-26
+    type: learn
+    lexeme: i-lav
+  - id: u20-l2-27
+    type: learn
+    lexeme: tavinan
+  - id: u20-l2-28
+    type: learn
+    lexeme: ledidi
+  - id: u20-l2-29
+    type: match_pairs
+    pairs:
+    - - סברינן
+      - חשבנו (סבורים אנחנו)
+    - - יבשתא
+      - יבשה
+    - - סלקינן
+      - עלינו
+    - - אי לאו
+      - אילולא
+    - - טבעינן
+      - טובעים אנחנו; ״הוה טבעינן״ = היינו טובעים
+    - - לדידי חזי לי
+      - אני בעצמי ראיתי
+    lexemes:
+    - savrinan
+    - yabeshta
+    - salkinan
+    - i-lav
+    - tavinan
+    - ledidi
+  - id: u20-l2-30
+    type: multiple_choice
+    prompt: מה פירוש סברינן?
+    options:
+    - חשבנו (סבורים אנחנו)
+    - דג
+    - מספר (סיפור)
+    correct: 0
+    lexemes:
+    - savrinan
+  - id: u20-l2-31
+    type: multiple_choice
+    prompt: מה פירוש יבשתא?
+    options:
+    - יבשה
+    - על גבו
+    - אילולא
+    correct: 0
+    lexemes:
+    - yabeshta
+  - id: u20-l2-32
+    type: multiple_choice
+    prompt: מה פירוש סלקינן?
+    options:
+    - עלינו
+    - חשבנו (סבורים אנחנו)
+    - על גבו
+    correct: 0
+    lexemes:
+    - salkinan
+  - id: u20-l2-33
+    type: multiple_choice
+    prompt: מה פירוש אי לאו?
+    options:
+    - אילולא
+    - מספר (סיפור)
+    - יבשה
+    correct: 0
+    lexemes:
+    - i-lav
+  - id: u20-l2-34
+    type: multiple_choice
+    prompt: מה פירוש טבעינן?
+    options:
+    - טובעים אנחנו; ״הוה טבעינן״ = היינו טובעים
+    - מספר (סיפור)
+    - הולכים אנחנו; ״הוה קא אזלינן״ = היינו הולכים
+    correct: 0
+    lexemes:
+    - tavinan
+  - id: u20-l2-35
+    type: multiple_choice
+    prompt: מה פירוש לדידי חזי לי?
+    options:
+    - אני בעצמי ראיתי
+    - אילולא
+    - על גבו
+    correct: 0
+    lexemes:
+    - ledidi
+  - id: u20-l2-36
+    type: fill_blank
+    sentence: ___ יבשתא היא וסלקינן ואפינן ובשלינן אגביה
+    translation: חשבנו שיבשה היא, ועלינו ואפינו ובישלנו על גבו
+    answers:
+    - סברינן
+    options:
+    - סברינן
+    - ספינתא
+    - חזינן
+    lexemes:
+    - savrinan
+    source: בבלי, בבא בתרא עג ע״ב
+    vocalized: סָבְרִינַן יַבֶּשְׁתָּא הִיא, וּסְלֵקִינַן וַאֲפֵינַן וּבַשְּׁלִינַן אַגַּבֵּיהּ
+  - id: u20-l2-37
+    type: fill_blank
+    sentence: סברינן ___ היא וסלקינן ואפינן ובשלינן אגביה
+    translation: חשבנו שיבשה היא, ועלינו ואפינו ובישלנו על גבו
+    answers:
+    - יבשתא
+    options:
+    - יבשתא
+    - אגביה
+    - סלקינן
+    lexemes:
+    - yabeshta
+    source: בבלי, בבא בתרא עג ע״ב
+    vocalized: סָבְרִינַן יַבֶּשְׁתָּא הִיא, וּסְלֵקִינַן וַאֲפֵינַן וּבַשְּׁלִינַן אַגַּבֵּיהּ
+  - id: u20-l2-38
+    type: fill_blank
+    sentence: סברינן יבשתא היא ___ ואפינן ובשלינן אגביה
+    translation: חשבנו שיבשה היא, ועלינו ואפינו ובישלנו על גבו
+    answers:
+    - וסלקינן
+    options:
+    - וסלקינן
+    - חזינן
+    - טבעינן
+    lexemes:
+    - salkinan
+    source: בבלי, בבא בתרא עג ע״ב
+    vocalized: סָבְרִינַן יַבֶּשְׁתָּא הִיא, וּסְלֵקִינַן וַאֲפֵינַן וּבַשְּׁלִינַן אַגַּבֵּיהּ
+  - id: u20-l2-39
+    type: fill_blank
+    sentence: ואי ___ דהוה מקרבא ספינתא הוה טבעינן
+    translation: ואילולא שהספינה הייתה קרובה, היינו טובעים
+    answers:
+    - לאו
+    options:
+    - לאו
+    - סלקינן
+    - לדידי חזי לי
+    lexemes:
+    - i-lav
+    source: בבלי, בבא בתרא עג ע״ב
+    vocalized: וְאִי לָאו דַּהֲוָה מְקָרְבָא סְפִינְתָּא, הֲוָה טָבְעִינַן
+  - id: u20-l2-40
+    type: fill_blank
+    sentence: ואי לאו דהוה מקרבא ספינתא הוה ___
+    translation: ואילולא שהספינה הייתה קרובה, היינו טובעים
+    answers:
+    - טבעינן
+    options:
+    - טבעינן
+    - חזינן
+    - כוורא
+    lexemes:
+    - tavinan
+    source: בבלי, בבא בתרא עג ע״ב
+    vocalized: וְאִי לָאו דַּהֲוָה מְקָרְבָא סְפִינְתָּא, הֲוָה טָבְעִינַן
+  - id: u20-l2-41
+    type: fill_blank
+    sentence: אמר רבה ___ חזי לי אורזילא בר יומיה דהוה כהר תבור
+    translation: 'אמר רבה: אני בעצמי ראיתי ׳אורזילא׳ (צבי) בן יומו, שהיה (גדול) כהר תבור'
+    answers:
+    - לדידי
+    options:
+    - לדידי
+    - סברינן
+    - חזינן
+    lexemes:
+    - ledidi
+    source: בבלי, בבא בתרא עג ע״ב
+    vocalized: 'אָמַר רַבָּה: לְדִידִי חֲזֵי לִי אוּרְזִילָא בַּר יוֹמֵיהּ, דַּהֲוָה כְּהַר תָּבוֹר'
+- id: u20-l3
+  kind: review
+  title:
+    he: הדג והאי
+    en: The fish and the island
+  exercises:
+  - id: u20-l3-42
+    type: reading
+    kind: גמרא, בבא בתרא עג ע״ב
+    title: רבה בר בר חנה
+    text: 'זימנא חדא הוה קא אזלינן בספינתא
+
+
+      וחזינן ההוא כוורא דיתבא ליה חלתא אגביה וקדח אגמא עילויה
+
+
+      סברינן יבשתא היא וסלקינן ואפינן ובשלינן אגביה
+
+
+      וכד חם גביה אתהפיך
+
+
+      ואי לאו דהוה מקרבא ספינתא הוה טבעינן'
+    translation: 'פעם אחת היינו הולכים בספינה,
+
+
+      וראינו דג אחד שישב עליו חול על גבו, וצמח עליו עשב.
+
+
+      חשבנו שיבשה היא, ועלינו ואפינו ובישלנו על גבו.
+
+
+      וכשהתחמם גבו, התהפך.
+
+
+      ואילולא שהספינה הייתה קרובה, היינו טובעים.'
+    lexemes:
+    - sfinta
+    - azlinan
+    - chazinan
+    - kavra
+    - agabeih
+    - savrinan
+    - yabeshta
+    - salkinan
+    - i-lav
+    - tavinan
+    source: בבלי, בבא בתרא עג ע״ב
+    vocalized: זִימְנָא חֲדָא הֲוָה קָא אָזְלִינַן בִּסְפִינְתָּא, וַחֲזֵינַן הָהוּא כְּווֹרָא דְּיָתְבָא לֵיהּ חָלְתָּא אַגַּבֵּיהּ וְקָדַח אַגְמָא עִילָּוֵיהּ. סָבְרִינַן יַבֶּשְׁתָּא הִיא, וּסְלֵקִינַן וַאֲפֵינַן וּבַשְּׁלִינַן אַגַּבֵּיהּ. וְכַד חַם גַּבֵּיהּ אִתְהֲפִיךְ, וְאִי לָאו דַּהֲוָה מְקָרְבָא סְפִינְתָּא, הֲוָה טָבְעִינַן
+  - id: u20-l3-43
+    type: multiple_choice
+    passage: סברינן יבשתא היא וסלקינן ואפינן ובשלינן אגביה וכד חם גביה אתהפיך
+    prompt: למה הדג התהפך?
+    options:
+    - כי הם בישלו על גבו והוא התחמם
+    - כי הספינה פגעה בו
+    - כי הם צעקו
+    correct: 0
+    lexemes:
+    - kavra
+    - agabeih
+    source: בבלי, בבא בתרא עג ע״ב
+    vocalized: סָבְרִינַן יַבֶּשְׁתָּא הִיא, וּסְלֵקִינַן וַאֲפֵינַן וּבַשְּׁלִינַן אַגַּבֵּיהּ. וְכַד חַם גַּבֵּיהּ אִתְהֲפִיךְ
+  - id: u20-l3-44
+    type: multiple_choice
+    prompt: מה הציל אותם?
+    options:
+    - שהספינה הייתה קרובה
+    - שהדג חזר לישון
+    - שהם ידעו לשחות
+    correct: 0
+    lexemes:
+    - i-lav
+    - sfinta
+    source: בבלי, בבא בתרא עג ע״ב
+    vocalized: וְאִי לָאו דַּהֲוָה מְקָרְבָא סְפִינְתָּא, הֲוָה טָבְעִינַן
+  - id: u20-l3-45
+    type: fill_blank
+    sentence: רבי יוחנן ___ זימנא חדא הוה קא אזלינן בספינתא
+    translation: 'רבי יוחנן מספר: פעם אחת היינו הולכים בספינה'
+    answers:
+    - משתעי
+    options:
+    - משתעי
+    - סברינן
+    - חזינן
+    lexemes:
+    - mishtai
+    source: בבלי, בבא בתרא עד ע״א
+    vocalized: 'רַבִּי יוֹחָנָן מִשְׁתַּעֵי: זִימְנָא חֲדָא הֲוָה קָא אָזְלִינַן בִּסְפִינְתָּא'
+  - id: u20-l3-46
+    type: dialogue
+    scene: חנה מסדרת כיסאות.
+    lines:
+    - speaker: chana
+      text: '״לדידי חזי לי״, אני בעצמי ראיתי: אף פעם לא ראיתי אותך צוחק ככה.'
+      translation: חנה
+    - speaker: yisrael
+      text: 'יש גם סיפורים עצובים בגמרא. מחר נקרא אחד: קמצא ובר קמצא.'
+      translation: ההמשך
+  - id: u20-l3-47
+    type: match_pairs
+    pairs:
+    - - ספינתא
+      - ספינה
+    - - כוורא
+      - דג
+    - - יבשתא
+      - יבשה
+    - - סברינן
+      - חשבנו (סבורים אנחנו)
+    - - טבעינן
+      - טובעים אנחנו; ״הוה טבעינן״ = היינו טובעים
+    - - לדידי חזי לי
+      - אני בעצמי ראיתי
+    lexemes:
+    - sfinta
+    - kavra
+    - yabeshta
+    - savrinan
+    - tavinan
+    - ledidi

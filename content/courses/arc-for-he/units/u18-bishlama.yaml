@@ -1,0 +1,331 @@
+id: u18-bishlama
+cefr: B1
+scene: study
+title:
+  he: בשלמא… אלא…
+  en: It works for one, but for the other…
+story: הכנות לסיום. איתן מנסה ליישב סתירה בשתי שיטות, ולומד את המבנה ״בשלמא לפלוני ניחא, אלא לפלוני קשיא״, ואת ״אדרבה״.
+canDo:
+- להבין ״בשלמא… אלא…״ ו״ניחא״
+- להבין ״אי אמרת בשלמא״
+- להבין ״אדרבה״ ו״טפי״
+vocabulary:
+- id: bishlama
+  text: בשלמא
+  translation: מובן (לשיטה זו), אבל…
+  pos: adverb
+  example:
+    text: בשלמא לרב ניחא אלא לשמואל קשיא
+    translation: לשיטת רב, מובן ומיושב; אבל לשיטת שמואל, קשה
+    source: בבלי, יבמות נו ע״א
+    vocalized: בִּשְׁלָמָא לְרַב נִיחָא אֶלָּא לִשְׁמוּאֵל קַשְׁיָא
+- id: nicha
+  text: ניחא
+  translation: מיושב, נוח; ״ניחא ליה״ = נוח לו
+  pos: adjective
+  example:
+    text: בשלמא לרב ניחא אלא לשמואל קשיא
+    translation: לשיטת רב, מובן ומיושב; אבל לשיטת שמואל, קשה
+    source: בבלי, יבמות נו ע״א
+    vocalized: בִּשְׁלָמָא לְרַב נִיחָא אֶלָּא לִשְׁמוּאֵל קַשְׁיָא
+- id: i-amart
+  text: אי אמרת בשלמא
+  translation: אם תאמר (שזו השיטה), מובן…
+  pos: phrase
+  example:
+    text: אי אמרת בשלמא מעני לעני מחלוקת
+    translation: אם תאמר שמעני לעני (נחלקו), מובן (שיש) מחלוקת
+    source: בבלי, בבא מציעא ט ע״ב
+    vocalized: 'אִי אָמְרַתְּ בִּשְׁלָמָא: מֵעָנִי לְעָנִי מַחְלוֹקֶת'
+- id: adraba
+  text: אדרבה
+  translation: להפך!
+  pos: adverb
+  example:
+    text: אדרבה בתר ערבא אזלי
+    translation: להפך! הולכים אחרי הערב (הערֵב)
+    source: בבלי, בבא בתרא קעג ע״ב
+    vocalized: אַדְּרַבָּה, בָּתַר עָרְבָא אָזְלִי
+- id: tfei
+  text: טפי
+  translation: יותר
+  pos: adverb
+  example:
+    text: ואי נמי בהכי ניחא לי דעבדא טפי
+    translation: ואם גם בכך נוח לי, שתעבוד (השפחה) יותר
+    source: בבלי, בבא בתרא כט ע״א
+    vocalized: וְאִי נָמֵי, בְּהָכִי נִיחָא לִי דְּעָבְדָא טְפֵי
+grammar: []
+lessons:
+- id: u18-l1
+  kind: new
+  title:
+    he: בשלמא… אלא…
+    en: Fine for one, hard for the other
+  exercises:
+  - id: u18-l1-01
+    type: dialogue
+    scene: חצות. שבוע לפני הסיום.
+    lines:
+    - speaker: eitan
+      text: יש פה שתי שיטות. לפי אחת הכול מסתדר, ולפי השנייה לא.
+      translation: איתן
+    - speaker: yisrael
+      text: 'בדיוק. הגמרא אומרת: ״בשלמא לרב ניחא, אלא לשמואל קשיא״. לרב מובן, ולשמואל קשה.'
+      translation: בשלמא, ניחא
+    - speaker: eitan
+      text: אז שמואל טעה?
+      translation: שאלה
+    - speaker: yisrael
+      text: לא כל כך מהר. מיד תבוא תשובה לשמואל. ״בשלמא״ רק פותח את השאלה.
+      translation: ר׳ ישראל
+  - id: u18-l1-02
+    type: learn
+    lexeme: bishlama
+  - id: u18-l1-03
+    type: learn
+    lexeme: nicha
+  - id: u18-l1-04
+    type: learn
+    lexeme: i-amart
+  - id: u18-l1-05
+    type: match_pairs
+    pairs:
+    - - בשלמא
+      - מובן (לשיטה זו), אבל…
+    - - ניחא
+      - מיושב, נוח; ״ניחא ליה״ = נוח לו
+    - - אי אמרת בשלמא
+      - אם תאמר (שזו השיטה), מובן…
+    lexemes:
+    - bishlama
+    - nicha
+    - i-amart
+  - id: u18-l1-06
+    type: multiple_choice
+    prompt: מה פירוש בשלמא?
+    options:
+    - מובן (לשיטה זו), אבל…
+    - אם תאמר (שזו השיטה), מובן…
+    - יותר
+    correct: 0
+    lexemes:
+    - bishlama
+  - id: u18-l1-07
+    type: multiple_choice
+    prompt: מה פירוש ניחא?
+    options:
+    - מיושב, נוח; ״ניחא ליה״ = נוח לו
+    - יותר
+    - מובן (לשיטה זו), אבל…
+    correct: 0
+    lexemes:
+    - nicha
+  - id: u18-l1-08
+    type: multiple_choice
+    prompt: מה פירוש אי אמרת בשלמא?
+    options:
+    - אם תאמר (שזו השיטה), מובן…
+    - להפך!
+    - יותר
+    correct: 0
+    lexemes:
+    - i-amart
+  - id: u18-l1-09
+    type: fill_blank
+    sentence: ___ לרב ניחא אלא לשמואל קשיא
+    translation: לשיטת רב, מובן ומיושב; אבל לשיטת שמואל, קשה
+    answers:
+    - בשלמא
+    options:
+    - בשלמא
+    - אי אמרת בשלמא
+    - ניחא
+    lexemes:
+    - bishlama
+    source: בבלי, יבמות נו ע״א
+    vocalized: בִּשְׁלָמָא לְרַב נִיחָא אֶלָּא לִשְׁמוּאֵל קַשְׁיָא
+  - id: u18-l1-10
+    type: fill_blank
+    sentence: בשלמא לרב ___ אלא לשמואל קשיא
+    translation: לשיטת רב, מובן ומיושב; אבל לשיטת שמואל, קשה
+    answers:
+    - ניחא
+    options:
+    - ניחא
+    - טפי
+    - אי אמרת בשלמא
+    lexemes:
+    - nicha
+    source: בבלי, יבמות נו ע״א
+    vocalized: בִּשְׁלָמָא לְרַב נִיחָא אֶלָּא לִשְׁמוּאֵל קַשְׁיָא
+  - id: u18-l1-11
+    type: fill_blank
+    sentence: אי ___ בשלמא מעני לעני מחלוקת
+    translation: אם תאמר שמעני לעני (נחלקו), מובן (שיש) מחלוקת
+    answers:
+    - אמרת
+    options:
+    - אמרת
+    - ניחא
+    - אדרבה
+    lexemes:
+    - i-amart
+    source: בבלי, בבא מציעא ט ע״ב
+    vocalized: 'אִי אָמְרַתְּ בִּשְׁלָמָא: מֵעָנִי לְעָנִי מַחְלוֹקֶת'
+- id: u18-l2
+  kind: new
+  title:
+    he: אדרבה
+    en: On the contrary
+  exercises:
+  - id: u18-l2-12
+    type: tip
+    title: בשלמא ואדרבה
+    text: '**בשלמא לפלוני… אלא לפלוני…** = לשיטה אחת מובן, אבל לשיטה השנייה קשה.
+
+
+      **אי אמרת בשלמא…** = אם תאמר כך, מובן…
+
+
+      **ניחא** = מיושב. **אדרבה!** = להפך! **טפי** = יותר.'
+  - id: u18-l2-13
+    type: learn
+    lexeme: adraba
+  - id: u18-l2-14
+    type: learn
+    lexeme: tfei
+  - id: u18-l2-15
+    type: match_pairs
+    pairs:
+    - - אדרבה
+      - להפך!
+    - - טפי
+      - יותר
+    - - בשלמא
+      - מובן (לשיטה זו), אבל…
+    lexemes:
+    - adraba
+    - tfei
+    - bishlama
+  - id: u18-l2-16
+    type: multiple_choice
+    prompt: מה פירוש אדרבה?
+    options:
+    - להפך!
+    - אם תאמר (שזו השיטה), מובן…
+    - יותר
+    correct: 0
+    lexemes:
+    - adraba
+  - id: u18-l2-17
+    type: multiple_choice
+    prompt: מה פירוש טפי?
+    options:
+    - יותר
+    - מיושב, נוח; ״ניחא ליה״ = נוח לו
+    - מובן (לשיטה זו), אבל…
+    correct: 0
+    lexemes:
+    - tfei
+  - id: u18-l2-18
+    type: fill_blank
+    sentence: ___ בתר ערבא אזלי
+    translation: להפך! הולכים אחרי הערב (הערֵב)
+    answers:
+    - אדרבה
+    options:
+    - אדרבה
+    - בשלמא
+    - ניחא
+    lexemes:
+    - adraba
+    source: בבלי, בבא בתרא קעג ע״ב
+    vocalized: אַדְּרַבָּה, בָּתַר עָרְבָא אָזְלִי
+  - id: u18-l2-19
+    type: fill_blank
+    sentence: ואי נמי בהכי ניחא לי דעבדא ___
+    translation: ואם גם בכך נוח לי, שתעבוד (השפחה) יותר
+    answers:
+    - טפי
+    options:
+    - טפי
+    - ניחא
+    - אדרבה
+    lexemes:
+    - tfei
+    source: בבלי, בבא בתרא כט ע״א
+    vocalized: וְאִי נָמֵי, בְּהָכִי נִיחָא לִי דְּעָבְדָא טְפֵי
+- id: u18-l3
+  kind: review
+  title:
+    he: ניחא וקשיא
+    en: Settled and difficult
+  exercises:
+  - id: u18-l3-20
+    type: multiple_choice
+    prompt: ״בשלמא לרב ניחא אלא לשמואל קשיא״. לשיטת מי יש קושיה?
+    options:
+    - לשיטת שמואל
+    - לשיטת רב
+    - לשניהם
+    correct: 0
+    lexemes:
+    - bishlama
+    - nicha
+    - kashya
+    source: בבלי, יבמות נו ע״א
+    vocalized: בִּשְׁלָמָא לְרַב נִיחָא אֶלָּא לִשְׁמוּאֵל קַשְׁיָא
+  - id: u18-l3-21
+    type: multiple_choice
+    prompt: מה פירוש ״אדרבה״?
+    options:
+    - להפך
+    - בבקשה
+    - בדיוק כך
+    correct: 0
+    lexemes:
+    - adraba
+  - id: u18-l3-22
+    type: fill_blank
+    sentence: ואי נמי בהכי ניחא לי דעבדא ___
+    translation: ואם גם בכך נוח לי, שתעבוד יותר
+    answers:
+    - טפי
+    options:
+    - טפי
+    - אדרבה
+    - הכי
+    lexemes:
+    - tfei
+    source: בבלי, בבא בתרא כט ע״א
+    vocalized: וְאִי נָמֵי, בְּהָכִי נִיחָא לִי דְּעָבְדָא טְפֵי
+  - id: u18-l3-23
+    type: dialogue
+    scene: חנה עם רשימה.
+    lines:
+    - speaker: chana
+      text: יונאס קנה כרטיס. הסיום יהיה בעוד חודש, בבית של סבא. הזמנתי גם את כל המשפחה.
+      translation: ההכנות
+    - speaker: yisrael
+      text: ״אדרבה״, תזמיני את כל השכונה. סבא שלך אהב קהל.
+      translation: ר׳ ישראל
+  - id: u18-l3-24
+    type: match_pairs
+    pairs:
+    - - בשלמא
+      - מובן (לשיטה זו), אבל…
+    - - ניחא
+      - מיושב, נוח; ״ניחא ליה״ = נוח לו
+    - - אי אמרת בשלמא
+      - אם תאמר (שזו השיטה), מובן…
+    - - אדרבה
+      - להפך!
+    - - טפי
+      - יותר
+    lexemes:
+    - bishlama
+    - nicha
+    - i-amart
+    - adraba
+    - tfei

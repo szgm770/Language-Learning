@@ -1,0 +1,581 @@
+id: u17-askinan
+cefr: B1
+scene: study
+title:
+  he: הכא במאי עסקינן
+  en: What case are we dealing with?
+story: 'הדף שיונאס מצא מגיע במעטפה מווילנה. כדי להבין את הציורים בשוליים צריך לדעת באיזה מקרה מדובר. בגמרא לומדים ״אוקימתא״: להעמיד מקור במקרה מסוים.'
+canDo:
+- להבין ״הכא במאי עסקינן״ ו״כגון״
+- להבין ״אילימא… אלא…״ ו״לעולם״
+- להבחין בין ״דאורייתא״ ל״דרבנן״, ולהבין ״היינו״
+vocabulary:
+- id: askinan
+  text: הכא במאי עסקינן
+  translation: כאן במה אנו עוסקים? (באיזה מקרה מדובר)
+  pos: phrase
+  example:
+    text: הכא במאי עסקינן ביתמי
+    translation: כאן במה אנו עוסקים? ביתומים
+    source: בבלי, בבא קמא יד ע״ב
+    vocalized: הָכָא בְּמַאי עָסְקִינַן בְּיַתְמֵי
+- id: kegon
+  text: כגון
+  translation: כמו, למשל (המקרה הוא…)
+  pos: conjunction
+  example:
+    text: היכי דמי כגון שהקדימו בשבלין
+    translation: איך זה נראה? כגון שהקדימו (לעבוד) בשיבולים
+    source: בבלי, בבא מציעא צ ע״א
+    vocalized: הֵיכִי דָּמֵי? כְּגוֹן שֶׁהִקְדִּימוֹ בְּשִׁבֳּלִין
+- id: ilima
+  text: אילימא
+  translation: אם תאמר (הצעה שתידחה)
+  pos: phrase
+  example:
+    text: במאי עסקינן אילימא
+    translation: במה מדובר? אם תאמר…
+    source: בבלי, כריתות יב ע״א
+    vocalized: בְּמַאי עָסְקִינַן? אִילֵּימָא
+- id: leolam
+  text: לעולם
+  translation: 'באמת (אחרי דחייה: ״לעולם כמו שאמרנו״)'
+  pos: adverb
+  example:
+    text: לעולם דרבנן היא
+    translation: באמת, מדרבנן היא
+    source: בבלי, זבחים ק ע״ב
+    vocalized: לְעוֹלָם דְּרַבָּנַן הִיא
+- id: derabanan
+  text: דרבנן
+  translation: מדרבנן (תקנת חכמים)
+  pos: adjective
+  example:
+    text: לעולם דרבנן היא
+    translation: באמת, מדרבנן היא
+    source: בבלי, זבחים ק ע״ב
+    vocalized: לְעוֹלָם דְּרַבָּנַן הִיא
+- id: deoraita
+  text: דאורייתא
+  translation: מן התורה
+  pos: adjective
+  example:
+    text: מחיצות דאורייתא נינהו
+    translation: מחיצות (שיעורי המחיצות) מן התורה הם
+    source: בבלי, עירובין ד ע״ב
+    vocalized: מְחִיצּוֹת, דְּאוֹרָיְיתָא נִינְהוּ
+- id: heinu
+  text: היינו
+  translation: זה הוא, זה אותו דבר
+  pos: pronoun
+  example:
+    text: היינו רבנן
+    translation: זו (בדיוק שיטת) חכמים!
+    source: בבלי, ברכות כז ע״א
+    vocalized: הַיְינוּ רַבָּנַן
+- id: chaishinan
+  text: חיישינן
+  translation: חוששים אנחנו
+  pos: verb
+  example:
+    text: כשיקרא לא חיישינן
+    translation: לשקר (שמא ישקר) אין אנו חוששים
+    source: בבלי, כתובות פה ע״ב
+    vocalized: כְּשִׁיקְרָא לָא חָיְישִׁינַן
+- id: idi-veidi
+  text: אידי ואידי
+  translation: זה וזה (שניהם)
+  pos: phrase
+  example:
+    text: והא אידי ואידי
+    translation: והרי זה וזה (שניהם שווים)!
+    source: בבלי, בבא מציעא פא ע״ב
+    vocalized: וְהָא אִידֵּי וְאִידֵּי
+- id: leimar
+  text: למימר
+  translation: לומר
+  pos: verb
+  example:
+    text: הלכך ליכא למימר הכי
+    translation: לכן אי אפשר לומר כך
+    source: בבלי, בבא קמא ח ע״ב
+    vocalized: הִלְכָּךְ לֵיכָּא לְמֵימַר הָכִי
+- id: bainan
+  text: בעינן
+  translation: אנחנו צריכים, דרוש
+  pos: verb
+  example:
+    text: אלהים בעינן וליכא
+    translation: ״אלהים״ (דיינים סמוכים) אנו צריכים, ואין
+    source: בבלי, בבא קמא פד ע״ב
+    vocalized: אֱלֹהִים בָּעֵינַן, וְלֵיכָּא
+grammar: []
+lessons:
+- id: u17-l1
+  kind: new
+  title:
+    he: במאי עסקינן
+    en: What are we dealing with?
+  exercises:
+  - id: u17-l1-01
+    type: dialogue
+    scene: מעטפה חומה מווילנה על השולחן. חנה פותחת אותה בכפפות.
+    lines:
+    - speaker: chana
+      text: 'דף אחד, בבא מציעא, וחסרה פינה. ובשוליים שני ציורים: ילד גדול וילד קטן, ובאמצע טלית.'
+      translation: הדף מהעליית גג
+    - speaker: eitan
+      text: ״שנים אוחזין בטלית״! הם ציירו את המשנה.
+      translation: איתן
+    - speaker: yisrael
+      text: לא את המשנה. אותנו. היה לנו מעיל אחד לשנינו בחורף. התווכחנו של מי הוא.
+      translation: ר׳ ישראל
+    - speaker: chana
+      text: אז ״הכא במאי עסקינן״, באיזה מקרה מדובר, זה לא רק בגמרא.
+      translation: חנה
+  - id: u17-l1-02
+    type: tip
+    title: אוקימתא
+    text: 'כשמקור לא מתאים, הגמרא ״מעמידה״ אותו במקרה מסוים: **הכא במאי עסקינן? כגון…** = כאן מדובר במקרה כמו…
+
+
+      **אילימא…** = אם תאמר (הצעה ראשונה), ואחריה **אלא…** (הצעה אחרת).
+
+
+      **לעולם** = באמת. חוזרים להסבר הראשון אחרי שהקושיה נדחתה.'
+  - id: u17-l1-03
+    type: learn
+    lexeme: askinan
+  - id: u17-l1-04
+    type: learn
+    lexeme: kegon
+  - id: u17-l1-05
+    type: learn
+    lexeme: ilima
+  - id: u17-l1-06
+    type: learn
+    lexeme: leolam
+  - id: u17-l1-07
+    type: match_pairs
+    pairs:
+    - - הכא במאי עסקינן
+      - כאן במה אנו עוסקים? (באיזה מקרה מדובר)
+    - - כגון
+      - כמו, למשל (המקרה הוא…)
+    - - אילימא
+      - אם תאמר (הצעה שתידחה)
+    - - לעולם
+      - 'באמת (אחרי דחייה: ״לעולם כמו שאמרנו״)'
+    lexemes:
+    - askinan
+    - kegon
+    - ilima
+    - leolam
+  - id: u17-l1-08
+    type: multiple_choice
+    prompt: מה פירוש הכא במאי עסקינן?
+    options:
+    - כאן במה אנו עוסקים? (באיזה מקרה מדובר)
+    - מן התורה
+    - מדרבנן (תקנת חכמים)
+    correct: 0
+    lexemes:
+    - askinan
+  - id: u17-l1-09
+    type: multiple_choice
+    prompt: מה פירוש כגון?
+    options:
+    - כמו, למשל (המקרה הוא…)
+    - מן התורה
+    - מדרבנן (תקנת חכמים)
+    correct: 0
+    lexemes:
+    - kegon
+  - id: u17-l1-10
+    type: multiple_choice
+    prompt: מה פירוש אילימא?
+    options:
+    - אם תאמר (הצעה שתידחה)
+    - כמו, למשל (המקרה הוא…)
+    - מדרבנן (תקנת חכמים)
+    correct: 0
+    lexemes:
+    - ilima
+  - id: u17-l1-11
+    type: multiple_choice
+    prompt: מה פירוש לעולם?
+    options:
+    - 'באמת (אחרי דחייה: ״לעולם כמו שאמרנו״)'
+    - מדרבנן (תקנת חכמים)
+    - כמו, למשל (המקרה הוא…)
+    correct: 0
+    lexemes:
+    - leolam
+  - id: u17-l1-12
+    type: fill_blank
+    sentence: הכא במאי ___ ביתמי
+    translation: כאן במה אנו עוסקים? ביתומים
+    answers:
+    - עסקינן
+    options:
+    - עסקינן
+    - דאורייתא
+    - לעולם
+    lexemes:
+    - askinan
+    source: בבלי, בבא קמא יד ע״ב
+    vocalized: הָכָא בְּמַאי עָסְקִינַן בְּיַתְמֵי
+  - id: u17-l1-13
+    type: fill_blank
+    sentence: היכי דמי ___ שהקדימו בשבלין
+    translation: איך זה נראה? כגון שהקדימו (לעבוד) בשיבולים
+    answers:
+    - כגון
+    options:
+    - כגון
+    - הכא במאי עסקינן
+    - דאורייתא
+    lexemes:
+    - kegon
+    source: בבלי, בבא מציעא צ ע״א
+    vocalized: הֵיכִי דָּמֵי? כְּגוֹן שֶׁהִקְדִּימוֹ בְּשִׁבֳּלִין
+  - id: u17-l1-14
+    type: fill_blank
+    sentence: במאי עסקינן ___
+    translation: במה מדובר? אם תאמר…
+    answers:
+    - אילימא
+    options:
+    - אילימא
+    - לעולם
+    - דרבנן
+    lexemes:
+    - ilima
+    source: בבלי, כריתות יב ע״א
+    vocalized: בְּמַאי עָסְקִינַן? אִילֵּימָא
+  - id: u17-l1-15
+    type: fill_blank
+    sentence: ___ דרבנן היא
+    translation: באמת, מדרבנן היא
+    answers:
+    - לעולם
+    options:
+    - לעולם
+    - היינו
+    - אילימא
+    lexemes:
+    - leolam
+    source: בבלי, זבחים ק ע״ב
+    vocalized: לְעוֹלָם דְּרַבָּנַן הִיא
+- id: u17-l2
+  kind: new
+  title:
+    he: דאורייתא ודרבנן
+    en: Torah law and rabbinic law
+  exercises:
+  - id: u17-l2-16
+    type: learn
+    lexeme: derabanan
+  - id: u17-l2-17
+    type: learn
+    lexeme: deoraita
+  - id: u17-l2-18
+    type: learn
+    lexeme: heinu
+  - id: u17-l2-19
+    type: match_pairs
+    pairs:
+    - - דרבנן
+      - מדרבנן (תקנת חכמים)
+    - - דאורייתא
+      - מן התורה
+    - - היינו
+      - זה הוא, זה אותו דבר
+    lexemes:
+    - derabanan
+    - deoraita
+    - heinu
+  - id: u17-l2-20
+    type: multiple_choice
+    prompt: מה פירוש דרבנן?
+    options:
+    - מדרבנן (תקנת חכמים)
+    - כאן במה אנו עוסקים? (באיזה מקרה מדובר)
+    - אם תאמר (הצעה שתידחה)
+    correct: 0
+    lexemes:
+    - derabanan
+  - id: u17-l2-21
+    type: multiple_choice
+    prompt: מה פירוש דאורייתא?
+    options:
+    - מן התורה
+    - מדרבנן (תקנת חכמים)
+    - כאן במה אנו עוסקים? (באיזה מקרה מדובר)
+    correct: 0
+    lexemes:
+    - deoraita
+  - id: u17-l2-22
+    type: multiple_choice
+    prompt: מה פירוש היינו?
+    options:
+    - זה הוא, זה אותו דבר
+    - כמו, למשל (המקרה הוא…)
+    - אם תאמר (הצעה שתידחה)
+    correct: 0
+    lexemes:
+    - heinu
+  - id: u17-l2-23
+    type: fill_blank
+    sentence: לעולם ___ היא
+    translation: באמת, מדרבנן היא
+    answers:
+    - דרבנן
+    options:
+    - דרבנן
+    - היינו
+    - אילימא
+    lexemes:
+    - derabanan
+    source: בבלי, זבחים ק ע״ב
+    vocalized: לְעוֹלָם דְּרַבָּנַן הִיא
+  - id: u17-l2-24
+    type: fill_blank
+    sentence: מחיצות ___ נינהו
+    translation: מחיצות (שיעורי המחיצות) מן התורה הם
+    answers:
+    - דאורייתא
+    options:
+    - דאורייתא
+    - היינו
+    - אילימא
+    lexemes:
+    - deoraita
+    source: בבלי, עירובין ד ע״ב
+    vocalized: מְחִיצּוֹת, דְּאוֹרָיְיתָא נִינְהוּ
+  - id: u17-l2-25
+    type: fill_blank
+    sentence: ___ רבנן
+    translation: זו (בדיוק שיטת) חכמים!
+    answers:
+    - היינו
+    options:
+    - היינו
+    - לעולם
+    - דרבנן
+    lexemes:
+    - heinu
+    source: בבלי, ברכות כז ע״א
+    vocalized: הַיְינוּ רַבָּנַן
+- id: u17-l3
+  kind: new
+  title:
+    he: חיישינן
+    en: We are concerned
+  exercises:
+  - id: u17-l3-26
+    type: tip
+    title: המחברת של איתן
+    text: 'לפני שיונאס בא, איתן מוסיף מילים שחוזרות בכל דף. מילים שחוזרות שוב ושוב בדפים: **חיישינן** = חוששים אנחנו, **אידי ואידי** = זה וזה (שניהם), **למימר** = לומר, **בעינן** = אנחנו צריכים, דרוש.'
+  - id: u17-l3-27
+    type: learn
+    lexeme: chaishinan
+  - id: u17-l3-28
+    type: learn
+    lexeme: idi-veidi
+  - id: u17-l3-29
+    type: learn
+    lexeme: leimar
+  - id: u17-l3-30
+    type: learn
+    lexeme: bainan
+  - id: u17-l3-31
+    type: match_pairs
+    pairs:
+    - - חיישינן
+      - חוששים אנחנו
+    - - אידי ואידי
+      - זה וזה (שניהם)
+    - - למימר
+      - לומר
+    - - בעינן
+      - אנחנו צריכים, דרוש
+    lexemes:
+    - chaishinan
+    - idi-veidi
+    - leimar
+    - bainan
+  - id: u17-l3-32
+    type: multiple_choice
+    prompt: מה פירוש חיישינן?
+    options:
+    - חוששים אנחנו
+    - מן התורה
+    - מדרבנן (תקנת חכמים)
+    correct: 0
+    lexemes:
+    - chaishinan
+  - id: u17-l3-33
+    type: multiple_choice
+    prompt: מה פירוש אידי ואידי?
+    options:
+    - זה וזה (שניהם)
+    - זה הוא, זה אותו דבר
+    - כמו, למשל (המקרה הוא…)
+    correct: 0
+    lexemes:
+    - idi-veidi
+  - id: u17-l3-34
+    type: multiple_choice
+    prompt: מה פירוש למימר?
+    options:
+    - לומר
+    - אם תאמר (הצעה שתידחה)
+    - 'באמת (אחרי דחייה: ״לעולם כמו שאמרנו״)'
+    correct: 0
+    lexemes:
+    - leimar
+  - id: u17-l3-35
+    type: multiple_choice
+    prompt: מה פירוש בעינן?
+    options:
+    - אנחנו צריכים, דרוש
+    - כאן במה אנו עוסקים? (באיזה מקרה מדובר)
+    - אם תאמר (הצעה שתידחה)
+    correct: 0
+    lexemes:
+    - bainan
+  - id: u17-l3-36
+    type: fill_blank
+    sentence: כשיקרא לא ___
+    translation: לשקר (שמא ישקר) אין אנו חוששים
+    answers:
+    - חיישינן
+    options:
+    - חיישינן
+    - הכא במאי עסקינן
+    - אידי ואידי
+    lexemes:
+    - chaishinan
+    source: בבלי, כתובות פה ע״ב
+    vocalized: כְּשִׁיקְרָא לָא חָיְישִׁינַן
+  - id: u17-l3-37
+    type: fill_blank
+    sentence: והא אידי ___
+    translation: והרי זה וזה (שניהם שווים)!
+    answers:
+    - ואידי
+    options:
+    - ואידי
+    - בעינן
+    - חיישינן
+    lexemes:
+    - idi-veidi
+    source: בבלי, בבא מציעא פא ע״ב
+    vocalized: וְהָא אִידֵּי וְאִידֵּי
+  - id: u17-l3-38
+    type: fill_blank
+    sentence: הלכך ליכא ___ הכי
+    translation: לכן אי אפשר לומר כך
+    answers:
+    - למימר
+    options:
+    - למימר
+    - בעינן
+    - חיישינן
+    lexemes:
+    - leimar
+    source: בבלי, בבא קמא ח ע״ב
+    vocalized: הִלְכָּךְ לֵיכָּא לְמֵימַר הָכִי
+  - id: u17-l3-39
+    type: fill_blank
+    sentence: אלהים ___ וליכא
+    translation: ״אלהים״ (דיינים סמוכים) אנו צריכים, ואין
+    answers:
+    - בעינן
+    options:
+    - בעינן
+    - לעולם
+    - חיישינן
+    lexemes:
+    - bainan
+    source: בבלי, בבא קמא פד ע״ב
+    vocalized: אֱלֹהִים בָּעֵינַן, וְלֵיכָּא
+- id: u17-l4
+  kind: review
+  title:
+    he: המעיל
+    en: The coat
+  exercises:
+  - id: u17-l4-40
+    type: multiple_choice
+    prompt: ״הכא במאי עסקינן ביתמי״. מה הגמרא עושה?
+    options:
+    - 'מעמידה את המקור במקרה מסוים: ביתומים'
+    - פוסקת שהיתומים חייבים
+    - שואלת מי היו היתומים
+    correct: 0
+    lexemes:
+    - askinan
+    source: בבלי, בבא קמא יד ע״ב
+    vocalized: הָכָא בְּמַאי עָסְקִינַן בְּיַתְמֵי
+  - id: u17-l4-41
+    type: multiple_choice
+    prompt: ״לעולם דרבנן היא״. מה פירוש ״לעולם״ כאן?
+    options:
+    - באמת (כמו שאמרנו קודם)
+    - לתמיד
+    - בעולם הזה
+    correct: 0
+    lexemes:
+    - leolam
+    - derabanan
+    source: בבלי, זבחים ק ע״ב
+    vocalized: לְעוֹלָם דְּרַבָּנַן הִיא
+  - id: u17-l4-42
+    type: fill_blank
+    sentence: היכי דמי ___ שהקדימו בשבלין
+    translation: איך זה נראה? כגון שהקדימו (לעבוד) בשיבולים
+    answers:
+    - כגון
+    options:
+    - כגון
+    - אילימא
+    - היינו
+    lexemes:
+    - kegon
+    - heichi-dami
+    source: בבלי, בבא מציעא צ ע״א
+    vocalized: הֵיכִי דָּמֵי? כְּגוֹן שֶׁהִקְדִּימוֹ בְּשִׁבֳּלִין
+  - id: u17-l4-43
+    type: dialogue
+    scene: חנה מצלמת את הדף מכל צד.
+    lines:
+    - speaker: chana
+      text: יונאס כותב שהוא יבוא. בפעם הראשונה בחייו בישראל.
+      translation: יונאס בא
+    - speaker: yisrael
+      text: 'אז נשאר לנו ללמוד עוד שני דברים: איך הגמרא אומרת ״אם תגיד בשלמא״, ואיך היא דורשת פסוקים.'
+      translation: ההמשך
+  - id: u17-l4-44
+    type: match_pairs
+    pairs:
+    - - הכא במאי עסקינן
+      - כאן במה אנו עוסקים? (באיזה מקרה מדובר)
+    - - כגון
+      - כמו, למשל (המקרה הוא…)
+    - - אילימא
+      - אם תאמר (הצעה שתידחה)
+    - - לעולם
+      - 'באמת (אחרי דחייה: ״לעולם כמו שאמרנו״)'
+    - - דרבנן
+      - מדרבנן (תקנת חכמים)
+    - - דאורייתא
+      - מן התורה
+    lexemes:
+    - askinan
+    - kegon
+    - ilima
+    - leolam
+    - derabanan
+    - deoraita

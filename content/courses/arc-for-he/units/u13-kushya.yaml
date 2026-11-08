@@ -1,0 +1,678 @@
+id: u13-kushya
+cefr: B1
+scene: study
+title:
+  he: 'מיתיבי: קושיא ותירוץ'
+  en: Objection and answer
+story: לימוד בחצות. איתן מקשה לראשונה קושיה על ר׳ ישראל, ור׳ ישראל מאושר. לומדים איך הגמרא מקשה ממקור (מיתיבי), דוחה (דילמא, שאני) ומכריעה (תיובתא).
+canDo:
+- 'לזהות קושיה ממקור: מיתיבי, איתיביה, ורמינהי'
+- 'לזהות דחייה: ממאי, דילמא, שאני, איבעית אימא'
+- 'להבין ״תיובתא״: קושיה שאין עליה תשובה'
+vocabulary:
+- id: mitivei
+  text: מיתיבי
+  translation: מקשים (ממשנה או ברייתא)
+  pos: verb
+  example:
+    text: מיתיבי מפני שמי נחת הוא
+    translation: 'מקשים (מברייתא): ׳מפני שמי נחת הוא׳…'
+    source: בבלי, ברכות יב ע״א
+- id: itiveih
+  text: איתיביה
+  translation: הקשה עליו (ממקור)
+  pos: verb
+  example:
+    text: איתיביה רבי יוחנן לריש לקיש
+    translation: הקשה רבי יוחנן על ריש לקיש (ממקור)
+    source: בבלי, בבא מציעא צ ע״ב
+    vocalized: אֵיתִיבֵיהּ רַבִּי יוֹחָנָן לְרֵישׁ לָקִישׁ
+- id: tiyuvta
+  text: תיובתא
+  translation: קושיה מכרעת (השיטה נדחית)
+  pos: noun
+  example:
+    text: תיובתא דתרוייהו
+    translation: קושיה מכרעת על שניהם
+    source: בבלי, תמורה כג ע״ב
+    vocalized: תְּיוּבְתָּא דְּתַרְוַיְיהוּ
+- id: tarvaihu
+  text: תרוייהו
+  translation: שניהם
+  pos: pronoun
+  example:
+    text: תיובתא דתרוייהו
+    translation: קושיה מכרעת על שניהם
+    source: בבלי, תמורה כג ע״ב
+    vocalized: תְּיוּבְתָּא דְּתַרְוַיְיהוּ
+- id: veramineihu
+  text: ורמינהי
+  translation: ומשליכים זה מול זה (שני מקורות סותרים)
+  pos: verb
+  example:
+    text: וסתומות מותרות ורמינהי
+    translation: ׳וסגורות מותרות׳. ומקשים (ממקור אחר שסותר)…
+    source: בבלי, עבודה זרה לא ע״א
+    vocalized: וּסְתוּמוֹת מוּתָּרוֹת? וּרְמִינְהִי
+- id: mimai
+  text: ממאי
+  translation: מניין? (איך אתה יודע?)
+  pos: adverb
+  example:
+    text: ממאי דלמא שאני התם דקניא בשינוי מעשה
+    translation: מניין (שזו הראיה)? אולי שם שונה, שקנה (אותה) בשינוי מעשה
+    source: בבלי, בבא מציעא עח ע״ב
+    vocalized: 'מִמַּאי: דִּלְמָא שָׁאנֵי הָתָם דְּקַנְיֵאּ בְּשִׁינּוּי מַעֲשֶׂה'
+- id: dilma
+  text: דלמא
+  translation: 'אולי (גם: דילמא)'
+  pos: adverb
+  example:
+    text: ממאי דלמא שאני התם דקניא בשינוי מעשה
+    translation: מניין (שזו הראיה)? אולי שם שונה, שקנה (אותה) בשינוי מעשה
+    source: בבלי, בבא מציעא עח ע״ב
+    vocalized: 'מִמַּאי: דִּלְמָא שָׁאנֵי הָתָם דְּקַנְיֵאּ בְּשִׁינּוּי מַעֲשֶׂה'
+- id: shani
+  text: שאני
+  translation: שונה (המקרה שונה)
+  pos: verb
+  example:
+    text: כבוד רבים שאני
+    translation: כבוד הרבים שונה
+    source: בבלי, מועד קטן כא ע״ב
+    vocalized: כְּבוֹד רַבִּים שָׁאנֵי
+- id: ibait-eima
+  text: איבעית אימא
+  translation: ואם תרצה, אמור (הסבר נוסף)
+  pos: phrase
+  example:
+    text: ואיבעית אימא זכה שאני
+    translation: 'ואם תרצה, אמור: זכייה שונה'
+    source: בבלי, ביצה מ ע״א
+    vocalized: 'וְאִיבָּעֵית אֵימָא: זִכָּה שָׁאנֵי'
+- id: mateif
+  text: מתקיף לה
+  translation: מקשה על כך (מסברה)
+  pos: phrase
+  example:
+    text: מתקיף לה רב כהנא
+    translation: הקשה על כך רב כהנא
+    source: בבלי, שבת מח ע״א
+    vocalized: מַתְקִיף לַהּ רַב כָּהֲנָא
+- id: mativ
+  text: מתיב
+  translation: מקשה (ממקור)
+  pos: verb
+  example:
+    text: מתיב רבא הזוג והעינבל חיבור
+    translation: 'הקשה רבא (ממשנה): הפעמון והענבל, חיבור הם'
+    source: בבלי, שבת נח ע״ב
+- id: irya
+  text: מאי איריא
+  translation: למה דווקא (זה)?
+  pos: phrase
+  example:
+    text: מאי איריא תינוק אפי' גדול נמי
+    translation: למה דווקא תינוק? אפילו גדול גם!
+    source: בבלי, ברכות נג ע״א
+    vocalized: מַאי אִירְיָא תִּינוֹק? אֲפִילּוּ גָּדוֹל נָמֵי
+- id: damya
+  text: דמיא
+  translation: דומה
+  pos: verb
+  example:
+    text: והא לא דמיא רישא לסיפא
+    translation: והרי אין תחילת המשנה דומה לסופה!
+    source: בבלי, בבא קמא לה ע״ב
+    vocalized: וְהָא לָא דָּמְיָא רֵישָׁא לְסֵיפָא
+grammar: []
+lessons:
+- id: u13-l1
+  kind: new
+  title:
+    he: מיתיבי
+    en: They object
+  exercises:
+  - id: u13-l1-01
+    type: dialogue
+    scene: חצות. בבית של סבא. רק מנורת שולחן דולקת.
+    lines:
+    - speaker: eitan
+      text: רגע, ר׳ ישראל. אמרת שהמשנה הולכת כמו חכמים. אבל בדף ג כתוב אחרת!
+      translation: איתן מקשה
+    - speaker: yisrael
+      text: 'הקשית! ״איתיביה איתן לר׳ ישראל״. זה בדיוק מה שהגמרא עושה: ״מיתיבי״, מקשים ממשנה או מברייתא.'
+      translation: מיתיבי
+    - speaker: eitan
+      text: ואם אין לך תשובה?
+      translation: שאלה
+    - speaker: yisrael
+      text: אז זו ״תיובתא״, קושיה שמפילה את השיטה. אבל אל תשמח מוקדם. יש לי תשובה.
+      translation: תיובתא
+  - id: u13-l1-02
+    type: tip
+    title: מבנה של קושיה
+    text: '**מיתיבי** = מקשים ממקור (משנה או ברייתא). **איתיביה פלוני לפלוני** = פלוני הקשה על פלוני.
+
+
+      **ורמינהי** = שני מקורות סותרים זה את זה.
+
+
+      אם אין תשובה: **תיובתא**. הגמרא לא מסתירה כשחכם נדחה.'
+  - id: u13-l1-03
+    type: learn
+    lexeme: mitivei
+  - id: u13-l1-04
+    type: learn
+    lexeme: itiveih
+  - id: u13-l1-05
+    type: learn
+    lexeme: tiyuvta
+  - id: u13-l1-06
+    type: learn
+    lexeme: tarvaihu
+  - id: u13-l1-07
+    type: match_pairs
+    pairs:
+    - - מיתיבי
+      - מקשים (ממשנה או ברייתא)
+    - - איתיביה
+      - הקשה עליו (ממקור)
+    - - תיובתא
+      - קושיה מכרעת (השיטה נדחית)
+    - - תרוייהו
+      - שניהם
+    lexemes:
+    - mitivei
+    - itiveih
+    - tiyuvta
+    - tarvaihu
+  - id: u13-l1-08
+    type: multiple_choice
+    prompt: מה פירוש מיתיבי?
+    options:
+    - מקשים (ממשנה או ברייתא)
+    - ומשליכים זה מול זה (שני מקורות סותרים)
+    - הקשה עליו (ממקור)
+    correct: 0
+    lexemes:
+    - mitivei
+  - id: u13-l1-09
+    type: multiple_choice
+    prompt: מה פירוש איתיביה?
+    options:
+    - הקשה עליו (ממקור)
+    - מניין? (איך אתה יודע?)
+    - ומשליכים זה מול זה (שני מקורות סותרים)
+    correct: 0
+    lexemes:
+    - itiveih
+  - id: u13-l1-10
+    type: multiple_choice
+    prompt: מה פירוש תיובתא?
+    options:
+    - קושיה מכרעת (השיטה נדחית)
+    - 'אולי (גם: דילמא)'
+    - מקשים (ממשנה או ברייתא)
+    correct: 0
+    lexemes:
+    - tiyuvta
+  - id: u13-l1-11
+    type: multiple_choice
+    prompt: מה פירוש תרוייהו?
+    options:
+    - שניהם
+    - מניין? (איך אתה יודע?)
+    - ומשליכים זה מול זה (שני מקורות סותרים)
+    correct: 0
+    lexemes:
+    - tarvaihu
+  - id: u13-l1-12
+    type: fill_blank
+    sentence: ___ מפני שמי נחת הוא
+    translation: 'מקשים (מברייתא): ׳מפני שמי נחת הוא׳…'
+    answers:
+    - מיתיבי
+    options:
+    - מיתיבי
+    - ורמינהי
+    - ממאי
+    lexemes:
+    - mitivei
+    source: בבלי, ברכות יב ע״א
+  - id: u13-l1-13
+    type: fill_blank
+    sentence: ___ רבי יוחנן לריש לקיש
+    translation: הקשה רבי יוחנן על ריש לקיש (ממקור)
+    answers:
+    - איתיביה
+    options:
+    - איתיביה
+    - מיתיבי
+    - תרוייהו
+    lexemes:
+    - itiveih
+    source: בבלי, בבא מציעא צ ע״ב
+    vocalized: אֵיתִיבֵיהּ רַבִּי יוֹחָנָן לְרֵישׁ לָקִישׁ
+  - id: u13-l1-14
+    type: fill_blank
+    sentence: ___ דתרוייהו
+    translation: קושיה מכרעת על שניהם
+    answers:
+    - תיובתא
+    options:
+    - תיובתא
+    - ממאי
+    - איתיביה
+    lexemes:
+    - tiyuvta
+    source: בבלי, תמורה כג ע״ב
+    vocalized: תְּיוּבְתָּא דְּתַרְוַיְיהוּ
+  - id: u13-l1-15
+    type: fill_blank
+    sentence: תיובתא ___
+    translation: קושיה מכרעת על שניהם
+    answers:
+    - דתרוייהו
+    options:
+    - דתרוייהו
+    - תיובתא
+    - מיתיבי
+    lexemes:
+    - tarvaihu
+    source: בבלי, תמורה כג ע״ב
+    vocalized: תְּיוּבְתָּא דְּתַרְוַיְיהוּ
+- id: u13-l2
+  kind: new
+  title:
+    he: דלמא שאני
+    en: Maybe it is different
+  exercises:
+  - id: u13-l2-16
+    type: dialogue
+    scene: ר׳ ישראל עונה, לאט.
+    lines:
+    - speaker: yisrael
+      text: ״ממאי?״ מניין לך? ״דלמא שאני התם״, אולי שם המקרה שונה.
+      translation: ממאי, דלמא, שאני
+    - speaker: eitan
+      text: אז כל קושיה אפשר לדחות עם ״שאני״?
+      translation: איתן
+    - speaker: yisrael
+      text: 'לא כל קושיה. צריך להראות במה שונה. ואם יש עוד הסבר, הגמרא אומרת ״איבעית אימא״: ואם תרצה, אמור.'
+      translation: איבעית אימא
+  - id: u13-l2-17
+    type: learn
+    lexeme: veramineihu
+  - id: u13-l2-18
+    type: learn
+    lexeme: mimai
+  - id: u13-l2-19
+    type: learn
+    lexeme: dilma
+  - id: u13-l2-20
+    type: learn
+    lexeme: shani
+  - id: u13-l2-21
+    type: learn
+    lexeme: ibait-eima
+  - id: u13-l2-22
+    type: match_pairs
+    pairs:
+    - - ורמינהי
+      - ומשליכים זה מול זה (שני מקורות סותרים)
+    - - ממאי
+      - מניין? (איך אתה יודע?)
+    - - דלמא
+      - 'אולי (גם: דילמא)'
+    - - שאני
+      - שונה (המקרה שונה)
+    - - איבעית אימא
+      - ואם תרצה, אמור (הסבר נוסף)
+    lexemes:
+    - veramineihu
+    - mimai
+    - dilma
+    - shani
+    - ibait-eima
+  - id: u13-l2-23
+    type: multiple_choice
+    prompt: מה פירוש ורמינהי?
+    options:
+    - ומשליכים זה מול זה (שני מקורות סותרים)
+    - הקשה עליו (ממקור)
+    - שונה (המקרה שונה)
+    correct: 0
+    lexemes:
+    - veramineihu
+  - id: u13-l2-24
+    type: multiple_choice
+    prompt: מה פירוש ממאי?
+    options:
+    - מניין? (איך אתה יודע?)
+    - ואם תרצה, אמור (הסבר נוסף)
+    - מקשים (ממשנה או ברייתא)
+    correct: 0
+    lexemes:
+    - mimai
+  - id: u13-l2-25
+    type: multiple_choice
+    prompt: מה פירוש דלמא?
+    options:
+    - 'אולי (גם: דילמא)'
+    - שניהם
+    - מניין? (איך אתה יודע?)
+    correct: 0
+    lexemes:
+    - dilma
+  - id: u13-l2-26
+    type: multiple_choice
+    prompt: מה פירוש שאני?
+    options:
+    - שונה (המקרה שונה)
+    - מקשים (ממשנה או ברייתא)
+    - מניין? (איך אתה יודע?)
+    correct: 0
+    lexemes:
+    - shani
+  - id: u13-l2-27
+    type: multiple_choice
+    prompt: מה פירוש איבעית אימא?
+    options:
+    - ואם תרצה, אמור (הסבר נוסף)
+    - מניין? (איך אתה יודע?)
+    - קושיה מכרעת (השיטה נדחית)
+    correct: 0
+    lexemes:
+    - ibait-eima
+  - id: u13-l2-28
+    type: fill_blank
+    sentence: וסתומות מותרות ___
+    translation: ׳וסגורות מותרות׳. ומקשים (ממקור אחר שסותר)…
+    answers:
+    - ורמינהי
+    options:
+    - ורמינהי
+    - מיתיבי
+    - תרוייהו
+    lexemes:
+    - veramineihu
+    source: בבלי, עבודה זרה לא ע״א
+    vocalized: וּסְתוּמוֹת מוּתָּרוֹת? וּרְמִינְהִי
+  - id: u13-l2-29
+    type: fill_blank
+    sentence: ___ דלמא שאני התם דקניא בשינוי מעשה
+    translation: מניין (שזו הראיה)? אולי שם שונה, שקנה (אותה) בשינוי מעשה
+    answers:
+    - ממאי
+    options:
+    - ממאי
+    - מיתיבי
+    - איתיביה
+    lexemes:
+    - mimai
+    source: בבלי, בבא מציעא עח ע״ב
+    vocalized: 'מִמַּאי: דִּלְמָא שָׁאנֵי הָתָם דְּקַנְיֵאּ בְּשִׁינּוּי מַעֲשֶׂה'
+  - id: u13-l2-30
+    type: fill_blank
+    sentence: ממאי ___ שאני התם דקניא בשינוי מעשה
+    translation: מניין (שזו הראיה)? אולי שם שונה, שקנה (אותה) בשינוי מעשה
+    answers:
+    - דלמא
+    options:
+    - דלמא
+    - שאני
+    - תרוייהו
+    lexemes:
+    - dilma
+    source: בבלי, בבא מציעא עח ע״ב
+    vocalized: 'מִמַּאי: דִּלְמָא שָׁאנֵי הָתָם דְּקַנְיֵאּ בְּשִׁינּוּי מַעֲשֶׂה'
+  - id: u13-l2-31
+    type: fill_blank
+    sentence: כבוד רבים ___
+    translation: כבוד הרבים שונה
+    answers:
+    - שאני
+    options:
+    - שאני
+    - ורמינהי
+    - דלמא
+    lexemes:
+    - shani
+    source: בבלי, מועד קטן כא ע״ב
+    vocalized: כְּבוֹד רַבִּים שָׁאנֵי
+  - id: u13-l2-32
+    type: fill_blank
+    sentence: ואיבעית ___ זכה שאני
+    translation: 'ואם תרצה, אמור: זכייה שונה'
+    answers:
+    - אימא
+    options:
+    - אימא
+    - תרוייהו
+    - שאני
+    lexemes:
+    - ibait-eima
+    source: בבלי, ביצה מ ע״א
+    vocalized: 'וְאִיבָּעֵית אֵימָא: זִכָּה שָׁאנֵי'
+- id: u13-l3
+  kind: new
+  title:
+    he: מתקיף ומתיב
+    en: More objections
+  exercises:
+  - id: u13-l3-33
+    type: tip
+    title: המחברת של איתן
+    text: 'איתן מוסיף למחברת שלו עוד מילים של קושיה, כמו שסבא עשה. מילים שחוזרות שוב ושוב בדפים: **מתקיף לה** = מקשה על כך (מסברה), **מתיב** = מקשה (ממקור), **מאי איריא** = למה דווקא (זה)?, **דמיא** = דומה.'
+  - id: u13-l3-34
+    type: learn
+    lexeme: mateif
+  - id: u13-l3-35
+    type: learn
+    lexeme: mativ
+  - id: u13-l3-36
+    type: learn
+    lexeme: irya
+  - id: u13-l3-37
+    type: learn
+    lexeme: damya
+  - id: u13-l3-38
+    type: match_pairs
+    pairs:
+    - - מתקיף לה
+      - מקשה על כך (מסברה)
+    - - מתיב
+      - מקשה (ממקור)
+    - - מאי איריא
+      - למה דווקא (זה)?
+    - - דמיא
+      - דומה
+    lexemes:
+    - mateif
+    - mativ
+    - irya
+    - damya
+  - id: u13-l3-39
+    type: multiple_choice
+    prompt: מה פירוש מתקיף לה?
+    options:
+    - מקשה על כך (מסברה)
+    - שניהם
+    - דומה
+    correct: 0
+    lexemes:
+    - mateif
+  - id: u13-l3-40
+    type: multiple_choice
+    prompt: מה פירוש מתיב?
+    options:
+    - מקשה (ממקור)
+    - ואם תרצה, אמור (הסבר נוסף)
+    - מקשה על כך (מסברה)
+    correct: 0
+    lexemes:
+    - mativ
+  - id: u13-l3-41
+    type: multiple_choice
+    prompt: מה פירוש מאי איריא?
+    options:
+    - למה דווקא (זה)?
+    - 'אולי (גם: דילמא)'
+    - דומה
+    correct: 0
+    lexemes:
+    - irya
+  - id: u13-l3-42
+    type: multiple_choice
+    prompt: מה פירוש דמיא?
+    options:
+    - דומה
+    - ואם תרצה, אמור (הסבר נוסף)
+    - מניין? (איך אתה יודע?)
+    correct: 0
+    lexemes:
+    - damya
+  - id: u13-l3-43
+    type: fill_blank
+    sentence: ___ לה רב כהנא
+    translation: הקשה על כך רב כהנא
+    answers:
+    - מתקיף
+    options:
+    - מתקיף
+    - ממאי
+    - מיתיבי
+    lexemes:
+    - mateif
+    source: בבלי, שבת מח ע״א
+    vocalized: מַתְקִיף לַהּ רַב כָּהֲנָא
+  - id: u13-l3-44
+    type: fill_blank
+    sentence: ___ רבא הזוג והעינבל חיבור
+    translation: 'הקשה רבא (ממשנה): הפעמון והענבל, חיבור הם'
+    answers:
+    - מתיב
+    options:
+    - מתיב
+    - מיתיבי
+    - תרוייהו
+    lexemes:
+    - mativ
+    source: בבלי, שבת נח ע״ב
+  - id: u13-l3-45
+    type: fill_blank
+    sentence: מאי ___ תינוק אפי' גדול נמי
+    translation: למה דווקא תינוק? אפילו גדול גם!
+    answers:
+    - איריא
+    options:
+    - איריא
+    - מתיב
+    - מתקיף לה
+    lexemes:
+    - irya
+    source: בבלי, ברכות נג ע״א
+    vocalized: מַאי אִירְיָא תִּינוֹק? אֲפִילּוּ גָּדוֹל נָמֵי
+  - id: u13-l3-46
+    type: fill_blank
+    sentence: והא לא ___ רישא לסיפא
+    translation: והרי אין תחילת המשנה דומה לסופה!
+    answers:
+    - דמיא
+    options:
+    - דמיא
+    - ממאי
+    - איתיביה
+    lexemes:
+    - damya
+    source: בבלי, בבא קמא לה ע״ב
+    vocalized: וְהָא לָא דָּמְיָא רֵישָׁא לְסֵיפָא
+- id: u13-l4
+  kind: review
+  title:
+    he: קושיא ותירוץ
+    en: Objection and answer
+  exercises:
+  - id: u13-l4-47
+    type: multiple_choice
+    prompt: מה פירוש ״תיובתא״ בסוף דיון?
+    options:
+    - שהשיטה נדחתה, ואין תשובה לקושיה
+    - שיש תשובה טובה
+    - שהשאלה נשארת בתיקו
+    correct: 0
+    lexemes:
+    - tiyuvta
+  - id: u13-l4-48
+    type: multiple_choice
+    prompt: ״ממאי? דלמא שאני התם״. מה הגמרא עושה כאן?
+    options:
+    - 'דוחה ראיה: אולי המקרה שם שונה'
+    - מביאה ראיה חדשה
+    - פוסקת הלכה
+    correct: 0
+    lexemes:
+    - mimai
+    - dilma
+    - shani
+    source: בבלי, בבא מציעא עח ע״ב
+    vocalized: 'מִמַּאי: דִּלְמָא שָׁאנֵי הָתָם'
+  - id: u13-l4-49
+    type: fill_blank
+    sentence: ___ רבי יוחנן לריש לקיש
+    translation: הקשה רבי יוחנן על ריש לקיש (ממקור)
+    answers:
+    - איתיביה
+    options:
+    - איתיביה
+    - מיתיבי
+    - תיובתא
+    lexemes:
+    - itiveih
+    source: בבלי, בבא מציעא צ ע״ב
+    vocalized: אֵיתִיבֵיהּ רַבִּי יוֹחָנָן לְרֵישׁ לָקִישׁ
+  - id: u13-l4-50
+    type: word_bank
+    prompt: כבוד הרבים שונה
+    answers:
+    - כבוד רבים שאני
+    distractors:
+    - דלמא
+    - ממאי
+    lexemes:
+    - shani
+    source: בבלי, מועד קטן כא ע״ב
+    vocalized: כְּבוֹד רַבִּים שָׁאנֵי
+  - id: u13-l4-51
+    type: dialogue
+    scene: השעה אחת בלילה. איתן מפהק.
+    lines:
+    - speaker: yisrael
+      text: קושיה טובה. סבא שלך היה גאה. ומחר תביא ראיה, לא רק קושיה.
+      translation: ההמשך
+    - speaker: chana
+      text: (הודעה בטלפון של איתן) מצאתי את הנכד של האיכר. הוא חי בווילנה. עונה רק במיילים.
+      translation: חנה
+  - id: u13-l4-52
+    type: match_pairs
+    pairs:
+    - - מיתיבי
+      - מקשים (ממשנה או ברייתא)
+    - - איתיביה
+      - הקשה עליו (ממקור)
+    - - תיובתא
+      - קושיה מכרעת (השיטה נדחית)
+    - - ממאי
+      - מניין? (איך אתה יודע?)
+    - - דלמא
+      - 'אולי (גם: דילמא)'
+    - - שאני
+      - שונה (המקרה שונה)
+    lexemes:
+    - mitivei
+    - itiveih
+    - tiyuvta
+    - mimai
+    - dilma
+    - shani
