@@ -1,9 +1,9 @@
 id: p9-words
 cefr: B2
-scene: study
+scene: travel
 title:
-  he: 'הרחבת אוצר מילים 9: פעלים ושמות מהשיחות'
-  en: 'Word builder 9: verbs and nouns from the talks'
+  he: מגיעים לניו יורק
+  en: Arriving in New York
 story: אחרי הנחיתה מנחם וסבא מדברים על מה שצריך לעשות בניו יורק, ועל כמה שמות ופעלים שחוזרים.
 canDo:
 - להבין ולהשתמש במילים נפוצות נוספות בשיחה
@@ -216,8 +216,8 @@ lessons:
 - id: p9-l1
   kind: new
   title:
-    he: חבילה 9 – חלק 1
-    en: Pack 9 – part 1
+    he: בדרך ל־770
+    en: On the way to 770
   exercises:
   - id: p9-l1-01
     type: learn
@@ -498,8 +498,8 @@ lessons:
 - id: p9-l2
   kind: new
   title:
-    he: חבילה 9 – חלק 2
-    en: Pack 9 – part 2
+    he: שינויים בדרך
+    en: Changes on the way
   exercises:
   - id: p9-l2-01
     type: learn
@@ -780,8 +780,8 @@ lessons:
 - id: p9-l3
   kind: new
   title:
-    he: חבילה 9 – חלק 3
-    en: Pack 9 – part 3
+    he: מילים גדולות
+    en: Big words
   exercises:
   - id: p9-l3-01
     type: learn

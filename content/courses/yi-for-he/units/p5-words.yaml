@@ -1,9 +1,9 @@
 id: p5-words
 cefr: B1
-scene: party
+scene: town
 title:
-  he: 'הרחבת אוצר מילים 5: חיי יהדות'
-  en: 'Word builder 5: Jewish life'
+  he: בבית הכנסת
+  en: At the synagogue
 story: בהתוועדות בבית הכנסת מנחם שומע על מנהגים וחגים, והסבא מראה לו את הדברים.
 canDo:
 - להבין ולהשתמש במילים נפוצות נוספות בשיחה
@@ -181,8 +181,8 @@ lessons:
 - id: p5-l1
   kind: new
   title:
-    he: חבילה 5 – חלק 1
-    en: Pack 5 – part 1
+    he: לפני התפילה
+    en: Before prayer
   exercises:
   - id: p5-l1-01
     type: learn
@@ -435,8 +435,8 @@ lessons:
 - id: p5-l2
   kind: new
   title:
-    he: חבילה 5 – חלק 2
-    en: Pack 5 – part 2
+    he: בבית המדרש
+    en: In the beis medrash
   exercises:
   - id: p5-l2-01
     type: learn
@@ -689,8 +689,8 @@ lessons:
 - id: p5-l3
   kind: new
   title:
-    he: חבילה 5 – חלק 3
-    en: Pack 5 – part 3
+    he: חגים ושמחות
+    en: Holidays and celebrations
   exercises:
   - id: p5-l3-01
     type: learn

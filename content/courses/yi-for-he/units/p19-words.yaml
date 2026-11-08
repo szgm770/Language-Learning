@@ -2,8 +2,8 @@ id: p19-words
 cefr: C1
 scene: town
 title:
-  he: 'הרחבת אוצר מילים 19: זמן ומקומות'
-  en: 'Word builder 19: time and places'
+  he: 'במכתב: זמן ומקומות'
+  en: 'In the letter: time and places'
 story: במכתב מנחם מספר לסבא על הזמן והמקומות שבהם היה בניו יורק.
 canDo:
 - להבין ולהשתמש במילים נפוצות נוספות בשיחה
@@ -188,8 +188,8 @@ lessons:
 - id: p19-l1
   kind: new
   title:
-    he: חבילה 19 – חלק 1
-    en: Pack 19 – part 1
+    he: זמן ומקומות
+    en: Time and places
   exercises:
   - id: p19-l1-01
     type: learn
@@ -442,8 +442,8 @@ lessons:
 - id: p19-l2
   kind: new
   title:
-    he: חבילה 19 – חלק 2
-    en: Pack 19 – part 2
+    he: בבתי הספר ובעיר
+    en: Schools and the city
   exercises:
   - id: p19-l2-01
     type: learn
@@ -696,8 +696,8 @@ lessons:
 - id: p19-l3
   kind: new
   title:
-    he: חבילה 19 – חלק 3
-    en: Pack 19 – part 3
+    he: בדרך ובתחבורה
+    en: Roads and transport
   exercises:
   - id: p19-l3-01
     type: learn

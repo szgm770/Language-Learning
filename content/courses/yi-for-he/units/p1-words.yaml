@@ -2,8 +2,8 @@ id: p1-words
 cefr: A2
 scene: home
 title:
-  he: 'הרחבת אוצר מילים 1: הגוף'
-  en: 'Word builder 1: the body'
+  he: הגשם והצוואר הכואב
+  en: The rain and the sore neck
 story: מנחם חוזר רטוב מהגשם ומספר לסבתא איפה כואב לו; היא בודקת אותו מהראש עד הרגליים.
 canDo:
 - להבין ולהשתמש במילים נפוצות נוספות בשיחה
@@ -181,8 +181,8 @@ lessons:
 - id: p1-l1
   kind: new
   title:
-    he: חבילה 1 – חלק 1
-    en: Pack 1 – part 1
+    he: בודקים את מנחם
+    en: Checking Menachem
   exercises:
   - id: p1-l1-01
     type: learn
@@ -435,8 +435,8 @@ lessons:
 - id: p1-l2
   kind: new
   title:
-    he: חבילה 1 – חלק 2
-    en: Pack 1 – part 2
+    he: עוד בדיקה
+    en: Another check
   exercises:
   - id: p1-l2-01
     type: learn
@@ -689,8 +689,8 @@ lessons:
 - id: p1-l3
   kind: new
   title:
-    he: חבילה 1 – חלק 3
-    en: Pack 1 – part 3
+    he: הסבא מסכם
+    en: Zeyde sums up
   exercises:
   - id: p1-l3-01
     type: learn

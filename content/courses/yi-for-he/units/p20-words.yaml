@@ -1,9 +1,9 @@
 id: p20-words
 cefr: C1
-scene: day
+scene: home
 title:
-  he: 'הרחבת אוצר מילים 20: רגשות ותדירות'
-  en: 'Word builder 20: feelings and frequency'
+  he: 'בסוף המכתב: רגשות'
+  en: 'End of the letter: feelings'
 story: בסוף המכתב מנחם מספר לסבא איך הוא מרגיש, ומה שהוא מקווה ומתפלל.
 canDo:
 - להבין ולהשתמש במילים נפוצות נוספות בשיחה
@@ -139,8 +139,8 @@ lessons:
 - id: p20-l1
   kind: new
   title:
-    he: חבילה 20 – חלק 1
-    en: Pack 20 – part 1
+    he: מה מרגישים
+    en: What we feel
   exercises:
   - id: p20-l1-01
     type: learn
@@ -337,8 +337,8 @@ lessons:
 - id: p20-l2
   kind: new
   title:
-    he: חבילה 20 – חלק 2
-    en: Pack 20 – part 2
+    he: סבלנות
+    en: Patience
   exercises:
   - id: p20-l2-01
     type: learn
@@ -535,8 +535,8 @@ lessons:
 - id: p20-l3
   kind: new
   title:
-    he: חבילה 20 – חלק 3
-    en: Pack 20 – part 3
+    he: סיום המכתב
+    en: Ending the letter
   exercises:
   - id: p20-l3-01
     type: learn

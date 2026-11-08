@@ -1,9 +1,9 @@
 id: p4-words
 cefr: B1
-scene: study
+scene: day
 title:
-  he: 'הרחבת אוצר מילים 4: מילים קטנות מהשיחות'
-  en: 'Word builder 4: small words from the talks'
+  he: שיחה ליד השולחן
+  en: Table talk
 story: מנחם ממשיך לשוחח עם הסבא ושם לב למילים הקטנות שמחברות כל משפט.
 canDo:
 - להבין ולהשתמש במילים נפוצות נוספות בשיחה
@@ -230,8 +230,8 @@ lessons:
 - id: p4-l1
   kind: new
   title:
-    he: חבילה 4 – חלק 1
-    en: Pack 4 – part 1
+    he: לאן הולכים בשבת
+    en: Where we go on Shabbos
   exercises:
   - id: p4-l1-01
     type: learn
@@ -540,8 +540,8 @@ lessons:
 - id: p4-l2
   kind: new
   title:
-    he: חבילה 4 – חלק 2
-    en: Pack 4 – part 2
+    he: לומדים ביחד
+    en: Learning together
   exercises:
   - id: p4-l2-01
     type: learn
@@ -850,8 +850,8 @@ lessons:
 - id: p4-l3
   kind: new
   title:
-    he: חבילה 4 – חלק 3
-    en: Pack 4 – part 3
+    he: עייפים אחרי היום
+    en: Tired after the day
   exercises:
   - id: p4-l3-01
     type: learn

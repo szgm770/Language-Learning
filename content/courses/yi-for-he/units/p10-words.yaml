@@ -1,9 +1,9 @@
 id: p10-words
 cefr: B2
-scene: town
+scene: family
 title:
-  he: 'הרחבת אוצר מילים 10: אנשים ומקצועות'
-  en: 'Word builder 10: people and trades'
+  he: אורחים לשבת
+  en: Guests for Shabbos
 story: לפני שבת הסבתא מזמינה אורח, ומנחם מכיר את אנשי הקהילה ובעלי המקצוע שנכנסים לבית.
 canDo:
 - להבין ולהשתמש במילים נפוצות נוספות בשיחה
@@ -139,8 +139,8 @@ lessons:
 - id: p10-l1
   kind: new
   title:
-    he: חבילה 10 – חלק 1
-    en: Pack 10 – part 1
+    he: מי בא לשבת
+    en: Who is coming
   exercises:
   - id: p10-l1-01
     type: learn
@@ -337,8 +337,8 @@ lessons:
 - id: p10-l2
   kind: new
   title:
-    he: חבילה 10 – חלק 2
-    en: Pack 10 – part 2
+    he: אנשים בקהילה
+    en: People in the community
   exercises:
   - id: p10-l2-01
     type: learn
@@ -535,8 +535,8 @@ lessons:
 - id: p10-l3
   kind: new
   title:
-    he: חבילה 10 – חלק 3
-    en: Pack 10 – part 3
+    he: בעלי מלאכה
+    en: Tradespeople
   exercises:
   - id: p10-l3-01
     type: learn

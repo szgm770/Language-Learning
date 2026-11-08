@@ -1,9 +1,9 @@
 id: p14-words
 cefr: B2
-scene: study
+scene: town
 title:
-  he: 'הרחבת אוצר מילים 14: צורות הפועל בשיחות'
-  en: 'Word builder 14: verb forms from the talks'
+  he: 'בהתוועדות: הווה ועבר'
+  en: 'At the farbrengen: present and past'
 story: הסבא מראה למנחם איך הפעלים משתנים בשיחות של הרבי, בהווה ובעבר.
 canDo:
 - להבין ולהשתמש במילים נפוצות נוספות בשיחה
@@ -209,8 +209,8 @@ lessons:
 - id: p14-l1
   kind: new
   title:
-    he: חבילה 14 – חלק 1
-    en: Pack 14 – part 1
+    he: הווה
+    en: Present
   exercises:
   - id: p14-l1-01
     type: learn
@@ -491,8 +491,8 @@ lessons:
 - id: p14-l2
   kind: new
   title:
-    he: חבילה 14 – חלק 2
-    en: Pack 14 – part 2
+    he: מה היה
+    en: What was
   exercises:
   - id: p14-l2-01
     type: learn
@@ -773,8 +773,8 @@ lessons:
 - id: p14-l3
   kind: new
   title:
-    he: חבילה 14 – חלק 3
-    en: Pack 14 – part 3
+    he: עבר
+    en: Past
   exercises:
   - id: p14-l3-01
     type: learn

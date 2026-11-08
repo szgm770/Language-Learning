@@ -1,9 +1,9 @@
 id: p16-words
 cefr: B2
-scene: study
+scene: town
 title:
-  he: 'הרחבת אוצר מילים 16: עוד מילים משיחות'
-  en: 'Word builder 16: more words from talks'
+  he: 'בהתוועדות: עוד מילים'
+  en: 'At the farbrengen: more words'
 story: הסבא מסביר למנחם עוד מילים שחוזרות בשיחות, כל אחת עם משפט מהחיים.
 canDo:
 - להבין ולהשתמש במילים נפוצות נוספות בשיחה
@@ -244,8 +244,8 @@ lessons:
 - id: p16-l1
   kind: new
   title:
-    he: חבילה 16 – חלק 1
-    en: Pack 16 – part 1
+    he: מילים בשיחה
+    en: Words in the talk
   exercises:
   - id: p16-l1-01
     type: learn
@@ -582,8 +582,8 @@ lessons:
 - id: p16-l2
   kind: new
   title:
-    he: חבילה 16 – חלק 2
-    en: Pack 16 – part 2
+    he: הרגל ונחת
+    en: Habit and joy
   exercises:
   - id: p16-l2-01
     type: learn
@@ -920,8 +920,8 @@ lessons:
 - id: p16-l3
   kind: new
   title:
-    he: חבילה 16 – חלק 3
-    en: Pack 16 – part 3
+    he: מילים חשובות
+    en: Important words
   exercises:
   - id: p16-l3-01
     type: learn
