@@ -33,6 +33,24 @@ vocabulary:
   - { id: "cant-have", text: "can't have + V3", translation: "לא ייתכן שקרה", pos: "phrase", pronunciation: "קַאנְט הֶב" }
   - { id: "take-off-shoes", text: "take off your shoes", translation: "להוריד נעליים", pos: "phrase", pronunciation: "טֵייק אוֹף יוֹר שׁוּז" }
 
+  - { id: "cultural", text: "cultural", translation: "תרבותי", pos: "adjective", example: { text: "It is a cultural event.", translation: "זה אירוע תרבותי." } }
+  - { id: "folk", text: "folk", translation: "עממי", pos: "adjective", example: { text: "We hear folk music tonight.", translation: "אנחנו שומעים מוזיקה עממית הערב." } }
+  - { id: "classic", text: "classic", translation: "קלאסי", pos: "adjective", example: { text: "This is a classic story.", translation: "זה סיפור קלאסי." } }
+  - { id: "colour", text: "colour", translation: "צבע", pos: "noun", example: { text: "What colour is your bag?", translation: "מה הצבע של התיק שלך?" } }
+  - { id: "rare", text: "rare", translation: "נדיר", pos: "adjective", example: { text: "This book is very rare.", translation: "הספר הזה נדיר מאוד." } }
+  - { id: "origin", text: "origin", translation: "מקור", pos: "noun", example: { text: "What is the origin of this word?", translation: "מה מקור המילה הזאת?" } }
+  - { id: "manner", text: "manner", translation: "אופן; דרך", pos: "noun", example: { text: "He speaks in a polite manner.", translation: "הוא מדבר בצורה מנומסת." } }
+  - { id: "occasion", text: "occasion", translation: "אירוע; הזדמנות", pos: "noun", example: { text: "This is a special occasion.", translation: "זו הזדמנות מיוחדת." } }
+  - { id: "context", text: "context", translation: "הקשר", pos: "noun", example: { text: "In this context, it is fine.", translation: "בהקשר הזה זה בסדר." } }
+  - { id: "perspective", text: "perspective", translation: "נקודת מבט", pos: "noun", example: { text: "I see it from your perspective.", translation: "אני רואה את זה מנקודת המבט שלך." } }
+  - { id: "expression", text: "expression", translation: "ביטוי", pos: "noun", example: { text: "That is a common expression.", translation: "זה ביטוי נפוץ." } }
+  - { id: "definition", text: "definition", translation: "הגדרה", pos: "noun", example: { text: "The definition is clear.", translation: "ההגדרה ברורה." } }
+  - { id: "surround", text: "surround", translation: "להקיף", pos: "verb", example: { text: "Trees surround the house.", translation: "עצים מקיפים את הבית." } }
+  - { id: "belong", text: "belong", translation: "להשתייך", pos: "verb", example: { text: "I belong in this team.", translation: "אני שייך לצוות הזה." } }
+  - { id: "attract", text: "attract", translation: "למשוך", pos: "verb", example: { text: "Good music can attract many people.", translation: "מוזיקה טובה יכולה למשוך אנשים רבים." } }
+  - { id: "confuse", text: "confuse", translation: "לבלבל", pos: "verb", example: { text: "The map can confuse tourists.", translation: "המפה יכולה לבלבל תיירים." } }
+  - { id: "dedicate", text: "dedicate", translation: "להקדיש", pos: "verb", example: { text: "I dedicate an hour to reading.", translation: "אני מקדיש שעה לקריאה." } }
+  - { id: "demonstrate", text: "demonstrate", translation: "להדגים", pos: "verb", example: { text: "Let me demonstrate the idea.", translation: "תן לי להדגים את הרעיון." } }
 grammar:
   - id: modals-deduction
     title: { he: "ניחושים ומסקנות: must / might / can't", en: "Modals of deduction" }
@@ -458,3 +476,503 @@ lessons:
             any: ["\\bbecause\\b", "\\bso\\b", "\\bI thought\\b", "\\bI realised\\b", "\\bI realized\\b"]
         model: "At the festival, everyone was wearing red, and I thought it must be a special tradition. A man told me it might have started hundreds of years ago. I realised I had misunderstood, because it can't have been just fashion. It was a wonderful lesson about respect for other customs."
         lexemes: []
+  # ------------------------------------------------------------------ story words
+  - id: u36-n1
+    kind: new
+    title:
+      he: 'היומן של נועה: מסורות'
+      en: 'Noa''s diary: traditions'
+    exercises:
+    - id: u36-n1-01
+      type: dialogue
+      scene: מר סאטו מגיע לביקור ומשווה מנהגים.
+      lines:
+      - speaker: sato
+        text: In Japan the folk music is a rare art. Cultural origin matters.
+        translation: ביפן מוזיקת העם היא אמנות נדירה. המוצא התרבותי חשוב.
+      - speaker: noa
+        text: Our classic songs also have a long past.
+        translation: גם לשירים הקלאסיים שלנו יש עבר ארוך.
+      - speaker: sato
+        text: The colour of the cloth tells a story.
+        translation: הצבע של הבד מספר סיפור.
+      - speaker: noa
+        text: Same with us.
+        translation: אצלנו אותו דבר.
+    - id: u36-n1-02
+      type: learn
+      lexeme: cultural
+    - id: u36-n1-03
+      type: learn
+      lexeme: folk
+    - id: u36-n1-04
+      type: learn
+      lexeme: classic
+    - id: u36-n1-05
+      type: learn
+      lexeme: colour
+    - id: u36-n1-06
+      type: learn
+      lexeme: rare
+    - id: u36-n1-07
+      type: learn
+      lexeme: origin
+    - id: u36-n1-08
+      type: match_pairs
+      pairs:
+      - - cultural
+        - תרבותי
+      - - folk
+        - עממי
+      - - classic
+        - קלאסי
+      - - colour
+        - צבע
+      - - rare
+        - נדיר
+      - - origin
+        - מקור
+      lexemes:
+      - cultural
+      - folk
+      - classic
+      - colour
+      - rare
+      - origin
+    - id: u36-n1-09
+      type: multiple_choice
+      prompt: classic – מה הפירוש?
+      options:
+      - קלאסי
+      - תרבותי
+      - מקור
+      correct: 0
+      lexemes:
+      - classic
+    - id: u36-n1-10
+      type: multiple_choice
+      prompt: folk – מה הפירוש?
+      options:
+      - עממי
+      - קלאסי
+      - צבע
+      correct: 0
+      lexemes:
+      - folk
+    - id: u36-n1-11
+      type: multiple_choice
+      prompt: rare – מה הפירוש?
+      options:
+      - נדיר
+      - תרבותי
+      - עממי
+      correct: 0
+      lexemes:
+      - rare
+    - id: u36-n1-12
+      type: fill_blank
+      sentence: It is a ___ event.
+      translation: זה אירוע תרבותי.
+      answers:
+      - cultural
+      options:
+      - cultural
+      - folk
+      - rare
+      lexemes:
+      - cultural
+    - id: u36-n1-13
+      type: fill_blank
+      sentence: What is the ___ of this word?
+      translation: מה מקור המילה הזאת?
+      answers:
+      - origin
+      options:
+      - origin
+      - rare
+      - colour
+      lexemes:
+      - origin
+    - id: u36-n1-14
+      type: fill_blank
+      sentence: What ___ is your bag?
+      translation: מה הצבע של התיק שלך?
+      answers:
+      - colour
+      options:
+      - colour
+      - rare
+      - origin
+      lexemes:
+      - colour
+    - id: u36-n1-15
+      type: word_bank
+      prompt: זה סיפור קלאסי.
+      answers:
+      - This is a classic story.
+      distractors:
+      - colour
+      - folk
+      lexemes:
+      - classic
+    - id: u36-n1-16
+      type: word_bank
+      prompt: אנחנו שומעים מוזיקה עממית הערב.
+      answers:
+      - We hear folk music tonight.
+      distractors:
+      - rare
+      - colour
+      lexemes:
+      - folk
+    - id: u36-n1-17
+      type: listening_choice
+      audioText: This book is very rare.
+      question: מה שמעתם?
+      options:
+      - הספר הזה נדיר מאוד.
+      - זה אירוע תרבותי.
+      - אנחנו שומעים מוזיקה עממית הערב.
+      correct: 0
+      lexemes:
+      - rare
+    - id: u36-n1-18
+      type: speak_repeat
+      text: The origin of this folk song is rare.
+      translation: המקור של שיר העם הזה נדיר.
+      lexemes:
+      - folk
+      - rare
+      - origin
+  - id: u36-n2
+    kind: new
+    title:
+      he: 'היומן של נועה: נימוסים'
+      en: 'Noa''s diary: manners'
+    exercises:
+    - id: u36-n2-01
+      type: dialogue
+      scene: ארוחת ערב עם הלקוח היפני.
+      lines:
+      - speaker: sato
+        text: On this occasion, what is the manner of greeting?
+        translation: ובכן, באירוע כזה, מה אופן הברכה?
+      - speaker: noa
+        text: In this context a handshake is fine. Our expression of welcome is warm.
+        translation: בהקשר הזה לחיצת יד מספיקה. ביטוי הברכה שלנו חם.
+      - speaker: sato
+        text: I like the perspective of your culture.
+        translation: אני אוהב את נקודת המבט של התרבות שלכם.
+      - speaker: noa
+        text: What is the definition of politeness in Japan?
+        translation: מה ההגדרה של נימוס ביפן?
+    - id: u36-n2-02
+      type: learn
+      lexeme: manner
+    - id: u36-n2-03
+      type: learn
+      lexeme: occasion
+    - id: u36-n2-04
+      type: learn
+      lexeme: context
+    - id: u36-n2-05
+      type: learn
+      lexeme: perspective
+    - id: u36-n2-06
+      type: learn
+      lexeme: expression
+    - id: u36-n2-07
+      type: learn
+      lexeme: definition
+    - id: u36-n2-08
+      type: match_pairs
+      pairs:
+      - - manner
+        - אופן; דרך
+      - - occasion
+        - אירוע; הזדמנות
+      - - context
+        - הקשר
+      - - perspective
+        - נקודת מבט
+      - - expression
+        - ביטוי
+      - - definition
+        - הגדרה
+      lexemes:
+      - manner
+      - occasion
+      - context
+      - perspective
+      - expression
+      - definition
+    - id: u36-n2-09
+      type: multiple_choice
+      prompt: expression – מה הפירוש?
+      options:
+      - ביטוי
+      - הגדרה
+      - נקודת מבט
+      correct: 0
+      lexemes:
+      - expression
+    - id: u36-n2-10
+      type: multiple_choice
+      prompt: manner – מה הפירוש?
+      options:
+      - אופן; דרך
+      - אירוע; הזדמנות
+      - הקשר
+      correct: 0
+      lexemes:
+      - manner
+    - id: u36-n2-11
+      type: multiple_choice
+      prompt: occasion – מה הפירוש?
+      options:
+      - אירוע; הזדמנות
+      - ביטוי
+      - הגדרה
+      correct: 0
+      lexemes:
+      - occasion
+    - id: u36-n2-12
+      type: fill_blank
+      sentence: In this ___, it is fine.
+      translation: בהקשר הזה זה בסדר.
+      answers:
+      - context
+      options:
+      - context
+      - occasion
+      - expression
+      lexemes:
+      - context
+    - id: u36-n2-13
+      type: fill_blank
+      sentence: I see it from your ___.
+      translation: אני רואה את זה מנקודת המבט שלך.
+      answers:
+      - perspective
+      options:
+      - perspective
+      - occasion
+      - definition
+      lexemes:
+      - perspective
+    - id: u36-n2-14
+      type: fill_blank
+      sentence: The ___ is clear.
+      translation: ההגדרה ברורה.
+      answers:
+      - definition
+      options:
+      - definition
+      - context
+      - expression
+      lexemes:
+      - definition
+    - id: u36-n2-15
+      type: word_bank
+      prompt: זה ביטוי נפוץ.
+      answers:
+      - That is a common expression.
+      distractors:
+      - occasion
+      - definition
+      lexemes:
+      - expression
+    - id: u36-n2-16
+      type: word_bank
+      prompt: הוא מדבר בצורה מנומסת.
+      answers:
+      - He speaks in a polite manner.
+      distractors:
+      - occasion
+      - perspective
+      lexemes:
+      - manner
+    - id: u36-n2-17
+      type: listening_choice
+      audioText: This is a special occasion.
+      question: מה שמעתם?
+      options:
+      - זו הזדמנות מיוחדת.
+      - הוא מדבר בצורה מנומסת.
+      - בהקשר הזה זה בסדר.
+      correct: 0
+      lexemes:
+      - occasion
+    - id: u36-n2-18
+      type: speak_repeat
+      text: On this occasion the manner is polite.
+      translation: באירוע הזה האופן מנומס.
+      lexemes:
+      - manner
+      - occasion
+  - id: u36-n3
+    kind: new
+    title:
+      he: 'היומן של נועה: להתחבר'
+      en: 'Noa''s diary: connecting'
+    exercises:
+    - id: u36-n3-01
+      type: dialogue
+      scene: מר סאטו עוזב, וכולם מסכמים.
+      lines:
+      - speaker: sato
+        text: The customs of your city surround me. I feel I belong here.
+        translation: המנהגים של העיר שלכם עוטפים אותי. אני מרגיש שייך כאן.
+      - speaker: noa
+        text: Your story can attract many people.
+        translation: הסיפור שלך יכול למשוך אנשים רבים.
+      - speaker: sato
+        text: Sometimes I confuse your words. I dedicate this evening to learning.
+        translation: לפעמים אני מבלבל בין המילים. אני מקדיש את הערב הזה ללימוד.
+      - speaker: noa
+        text: Let me demonstrate.
+        translation: תן לי להדגים.
+    - id: u36-n3-02
+      type: learn
+      lexeme: surround
+    - id: u36-n3-03
+      type: learn
+      lexeme: belong
+    - id: u36-n3-04
+      type: learn
+      lexeme: attract
+    - id: u36-n3-05
+      type: learn
+      lexeme: confuse
+    - id: u36-n3-06
+      type: learn
+      lexeme: dedicate
+    - id: u36-n3-07
+      type: learn
+      lexeme: demonstrate
+    - id: u36-n3-08
+      type: match_pairs
+      pairs:
+      - - surround
+        - להקיף
+      - - belong
+        - להשתייך
+      - - attract
+        - למשוך
+      - - confuse
+        - לבלבל
+      - - dedicate
+        - להקדיש
+      - - demonstrate
+        - להדגים
+      lexemes:
+      - surround
+      - belong
+      - attract
+      - confuse
+      - dedicate
+      - demonstrate
+    - id: u36-n3-09
+      type: multiple_choice
+      prompt: attract – מה הפירוש?
+      options:
+      - למשוך
+      - להקיף
+      - לבלבל
+      correct: 0
+      lexemes:
+      - attract
+    - id: u36-n3-10
+      type: multiple_choice
+      prompt: dedicate – מה הפירוש?
+      options:
+      - להקדיש
+      - להדגים
+      - למשוך
+      correct: 0
+      lexemes:
+      - dedicate
+    - id: u36-n3-11
+      type: multiple_choice
+      prompt: belong – מה הפירוש?
+      options:
+      - להשתייך
+      - למשוך
+      - להקדיש
+      correct: 0
+      lexemes:
+      - belong
+    - id: u36-n3-12
+      type: fill_blank
+      sentence: Let me ___ the idea.
+      translation: תן לי להדגים את הרעיון.
+      answers:
+      - demonstrate
+      options:
+      - demonstrate
+      - belong
+      - surround
+      lexemes:
+      - demonstrate
+    - id: u36-n3-13
+      type: fill_blank
+      sentence: The map can ___ tourists.
+      translation: המפה יכולה לבלבל תיירים.
+      answers:
+      - confuse
+      options:
+      - confuse
+      - attract
+      - belong
+      lexemes:
+      - confuse
+    - id: u36-n3-14
+      type: fill_blank
+      sentence: Trees ___ the house.
+      translation: עצים מקיפים את הבית.
+      answers:
+      - surround
+      options:
+      - surround
+      - confuse
+      - belong
+      lexemes:
+      - surround
+    - id: u36-n3-15
+      type: word_bank
+      prompt: מוזיקה טובה יכולה למשוך אנשים רבים.
+      answers:
+      - Good music can attract many people.
+      distractors:
+      - belong
+      - surround
+      lexemes:
+      - attract
+    - id: u36-n3-16
+      type: word_bank
+      prompt: אני מקדיש שעה לקריאה.
+      answers:
+      - I dedicate an hour to reading.
+      distractors:
+      - surround
+      - demonstrate
+      lexemes:
+      - dedicate
+    - id: u36-n3-17
+      type: listening_choice
+      audioText: I belong in this team.
+      question: מה שמעתם?
+      options:
+      - אני שייך לצוות הזה.
+      - עצים מקיפים את הבית.
+      - מוזיקה טובה יכולה למשוך אנשים רבים.
+      correct: 0
+      lexemes:
+      - belong
+    - id: u36-n3-18
+      type: speak_repeat
+      text: I belong here, and I dedicate time to learn.
+      translation: אני שייכת לכאן, ואני מקדישה זמן ללמוד.
+      lexemes:
+      - belong
+      - dedicate

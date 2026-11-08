@@ -29,6 +29,24 @@ vocabulary:
   - { id: "insist", text: "insist", translation: "להתעקש", pos: "verb", pronunciation: "אִינְסִיסְט" }
   - { id: "sleep-deprived", text: "sleep-deprived", translation: "חסר שינה", pos: "adjective", pronunciation: "סְלִיפּ דִיפְּרַייבְד" }
 
+  - { id: "protein", text: "protein", translation: "חלבון", pos: "noun", example: { text: "Eggs have a lot of protein.", translation: "בביצים יש הרבה חלבון." } }
+  - { id: "gene", text: "gene", translation: "גן", pos: "noun", example: { text: "A gene can affect your height.", translation: "גן יכול להשפיע על הגובה שלך." } }
+  - { id: "therapy", text: "therapy", translation: "טיפול", pos: "noun", example: { text: "The therapy takes six weeks.", translation: "הטיפול נמשך שישה שבועות." } }
+  - { id: "surgery", text: "surgery", translation: "ניתוח", pos: "noun", example: { text: "The surgery was a success.", translation: "הניתוח הצליח." } }
+  - { id: "muscle", text: "muscle", translation: "שריר", pos: "noun", example: { text: "Walking helps the muscle.", translation: "הליכה עוזרת לשריר." } }
+  - { id: "breath", text: "breath", translation: "נשימה", pos: "noun", example: { text: "Take a deep breath.", translation: "קח נשימה עמוקה." } }
+  - { id: "assessment", text: "assessment", translation: "הערכה", pos: "noun", example: { text: "The assessment takes an hour.", translation: "ההערכה לוקחת שעה." } }
+  - { id: "objective", text: "objective", translation: "מטרה", pos: "noun", example: { text: "Our objective is clear.", translation: "המטרה שלנו ברורה." } }
+  - { id: "explore", text: "explore", translation: "לחקור", pos: "verb", example: { text: "They explore a new area.", translation: "הם חוקרים אזור חדש." } }
+  - { id: "motion", text: "motion", translation: "תנועה", pos: "noun", example: { text: "The motion is slow.", translation: "התנועה איטית." } }
+  - { id: "vary", text: "vary", translation: "להשתנות", pos: "verb", example: { text: "Prices vary by season.", translation: "המחירים משתנים לפי עונה." } }
+  - { id: "selection", text: "selection", translation: "בחירה", pos: "noun", example: { text: "The selection is large.", translation: "הבחירה גדולה." } }
+  - { id: "severe", text: "severe", translation: "חמור", pos: "adjective", example: { text: "The pain is severe.", translation: "הכאב חמור." } }
+  - { id: "relief", text: "relief", translation: "הקלה", pos: "noun", example: { text: "It was a relief to hear that.", translation: "זו הייתה הקלה לשמוע את זה." } }
+  - { id: "minor", text: "minor", translation: "קל; משני", pos: "adjective", example: { text: "It is a minor problem.", translation: "זו בעיה קלה." } }
+  - { id: "harm", text: "harm", translation: "נזק", pos: "noun", example: { text: "This will not cause harm.", translation: "זה לא יגרום נזק." } }
+  - { id: "breathe", text: "breathe", translation: "לנשום", pos: "verb", example: { text: "Breathe slowly.", translation: "נשום לאט." } }
+  - { id: "heal", text: "heal", translation: "לרפא", pos: "verb", example: { text: "Time can heal the pain.", translation: "הזמן יכול לרפא את הכאב." } }
 grammar:
   - id: reporting-verbs
     title: { he: "פעלי דיווח", en: "Reporting verbs" }
@@ -452,3 +470,503 @@ lessons:
             any: ["\\bconclude", "\\bresult", "\\bshows?\\b", "\\bproves?\\b", "\\bfound\\b"]
         model: "A recent study found that regular walking improves memory. The researchers suggested that adults should walk for thirty minutes a day. One scientist admitted that the sample was small, but she denied that the results were a coincidence. The doctors advised patients to try it."
         lexemes: []
+  # ------------------------------------------------------------------ story words
+  - id: u37-n1
+    kind: new
+    title:
+      he: 'היומן של נועה: הגוף והחלבון'
+      en: 'Noa''s diary: the body and protein'
+    exercises:
+    - id: u37-n1-01
+      type: dialogue
+      scene: ד״ר שטרן מציג את המחקר.
+      lines:
+      - speaker: dr-stern
+        text: The study looks at a protein and a gene that affect sleep.
+        translation: המחקר בוחן חלבון וגן שמשפיעים על השינה.
+      - speaker: ben
+        text: Does therapy help? Surgery? What about muscle?
+        translation: האם טיפול עוזר? ניתוח? ומה עם השרירים?
+      - speaker: dr-stern
+        text: Slow breath and rest help the muscle.
+        translation: נשימה איטית ומנוחה עוזרים לשריר.
+      - speaker: ben
+        text: Simple.
+        translation: פשוט.
+    - id: u37-n1-02
+      type: learn
+      lexeme: protein
+    - id: u37-n1-03
+      type: learn
+      lexeme: gene
+    - id: u37-n1-04
+      type: learn
+      lexeme: therapy
+    - id: u37-n1-05
+      type: learn
+      lexeme: surgery
+    - id: u37-n1-06
+      type: learn
+      lexeme: muscle
+    - id: u37-n1-07
+      type: learn
+      lexeme: breath
+    - id: u37-n1-08
+      type: match_pairs
+      pairs:
+      - - protein
+        - חלבון
+      - - gene
+        - גן
+      - - therapy
+        - טיפול
+      - - surgery
+        - ניתוח
+      - - muscle
+        - שריר
+      - - breath
+        - נשימה
+      lexemes:
+      - protein
+      - gene
+      - therapy
+      - surgery
+      - muscle
+      - breath
+    - id: u37-n1-09
+      type: multiple_choice
+      prompt: muscle – מה הפירוש?
+      options:
+      - שריר
+      - חלבון
+      - גן
+      correct: 0
+      lexemes:
+      - muscle
+    - id: u37-n1-10
+      type: multiple_choice
+      prompt: gene – מה הפירוש?
+      options:
+      - גן
+      - חלבון
+      - טיפול
+      correct: 0
+      lexemes:
+      - gene
+    - id: u37-n1-11
+      type: multiple_choice
+      prompt: protein – מה הפירוש?
+      options:
+      - חלבון
+      - גן
+      - נשימה
+      correct: 0
+      lexemes:
+      - protein
+    - id: u37-n1-12
+      type: fill_blank
+      sentence: Take a deep ___.
+      translation: קח נשימה עמוקה.
+      answers:
+      - breath
+      options:
+      - breath
+      - gene
+      - protein
+      lexemes:
+      - breath
+    - id: u37-n1-13
+      type: fill_blank
+      sentence: The ___ was a success.
+      translation: הניתוח הצליח.
+      answers:
+      - surgery
+      options:
+      - surgery
+      - gene
+      - muscle
+      lexemes:
+      - surgery
+    - id: u37-n1-14
+      type: fill_blank
+      sentence: The ___ takes six weeks.
+      translation: הטיפול נמשך שישה שבועות.
+      answers:
+      - therapy
+      options:
+      - therapy
+      - muscle
+      - gene
+      lexemes:
+      - therapy
+    - id: u37-n1-15
+      type: word_bank
+      prompt: הליכה עוזרת לשריר.
+      answers:
+      - Walking helps the muscle.
+      distractors:
+      - protein
+      - surgery
+      lexemes:
+      - muscle
+    - id: u37-n1-16
+      type: word_bank
+      prompt: גן יכול להשפיע על הגובה שלך.
+      answers:
+      - A gene can affect your height.
+      distractors:
+      - therapy
+      - surgery
+      lexemes:
+      - gene
+    - id: u37-n1-17
+      type: listening_choice
+      audioText: Eggs have a lot of protein.
+      question: מה שמעתם?
+      options:
+      - בביצים יש הרבה חלבון.
+      - גן יכול להשפיע על הגובה שלך.
+      - הטיפול נמשך שישה שבועות.
+      correct: 0
+      lexemes:
+      - protein
+    - id: u37-n1-18
+      type: speak_repeat
+      text: Protein and rest help the muscle.
+      translation: חלבון ומנוחה עוזרים לשריר.
+      lexemes:
+      - protein
+      - muscle
+  - id: u37-n2
+    kind: new
+    title:
+      he: 'היומן של נועה: שיטת המחקר'
+      en: 'Noa''s diary: the method'
+    exercises:
+    - id: u37-n2-01
+      type: dialogue
+      scene: בן מדווח לצוות על הממצאים.
+      lines:
+      - speaker: ben
+        text: 'The assessment has one objective: to explore sleep.'
+        translation: 'להערכה יש מטרה אחת: לחקור שינה.'
+      - speaker: noa
+        text: How did they select the group? Does the motion of the body change in sleep?
+        translation: איך בחרו את הקבוצה? האם תנועת הגוף משתנה בשינה?
+      - speaker: ben
+        text: Yes. Results vary from person to person.
+        translation: כן. התוצאות משתנות מאדם לאדם.
+      - speaker: noa
+        text: Interesting.
+        translation: מעניין.
+    - id: u37-n2-02
+      type: learn
+      lexeme: assessment
+    - id: u37-n2-03
+      type: learn
+      lexeme: objective
+    - id: u37-n2-04
+      type: learn
+      lexeme: explore
+    - id: u37-n2-05
+      type: learn
+      lexeme: motion
+    - id: u37-n2-06
+      type: learn
+      lexeme: vary
+    - id: u37-n2-07
+      type: learn
+      lexeme: selection
+    - id: u37-n2-08
+      type: match_pairs
+      pairs:
+      - - assessment
+        - הערכה
+      - - objective
+        - מטרה
+      - - explore
+        - לחקור
+      - - motion
+        - תנועה
+      - - vary
+        - להשתנות
+      - - selection
+        - בחירה
+      lexemes:
+      - assessment
+      - objective
+      - explore
+      - motion
+      - vary
+      - selection
+    - id: u37-n2-09
+      type: multiple_choice
+      prompt: explore – מה הפירוש?
+      options:
+      - לחקור
+      - מטרה
+      - בחירה
+      correct: 0
+      lexemes:
+      - explore
+    - id: u37-n2-10
+      type: multiple_choice
+      prompt: objective – מה הפירוש?
+      options:
+      - מטרה
+      - תנועה
+      - להשתנות
+      correct: 0
+      lexemes:
+      - objective
+    - id: u37-n2-11
+      type: multiple_choice
+      prompt: vary – מה הפירוש?
+      options:
+      - להשתנות
+      - בחירה
+      - הערכה
+      correct: 0
+      lexemes:
+      - vary
+    - id: u37-n2-12
+      type: fill_blank
+      sentence: The ___ is large.
+      translation: הבחירה גדולה.
+      answers:
+      - selection
+      options:
+      - selection
+      - vary
+      - objective
+      lexemes:
+      - selection
+    - id: u37-n2-13
+      type: fill_blank
+      sentence: The ___ takes an hour.
+      translation: ההערכה לוקחת שעה.
+      answers:
+      - assessment
+      options:
+      - assessment
+      - vary
+      - explore
+      lexemes:
+      - assessment
+    - id: u37-n2-14
+      type: fill_blank
+      sentence: The ___ is slow.
+      translation: התנועה איטית.
+      answers:
+      - motion
+      options:
+      - motion
+      - selection
+      - vary
+      lexemes:
+      - motion
+    - id: u37-n2-15
+      type: word_bank
+      prompt: הם חוקרים אזור חדש.
+      answers:
+      - They explore a new area.
+      distractors:
+      - objective
+      - motion
+      lexemes:
+      - explore
+    - id: u37-n2-16
+      type: word_bank
+      prompt: המטרה שלנו ברורה.
+      answers:
+      - Our objective is clear.
+      distractors:
+      - explore
+      - motion
+      lexemes:
+      - objective
+    - id: u37-n2-17
+      type: listening_choice
+      audioText: Prices vary by season.
+      question: מה שמעתם?
+      options:
+      - המחירים משתנים לפי עונה.
+      - ההערכה לוקחת שעה.
+      - המטרה שלנו ברורה.
+      correct: 0
+      lexemes:
+      - vary
+    - id: u37-n2-18
+      type: speak_repeat
+      text: The objective is to explore the motion.
+      translation: המטרה היא לחקור את התנועה.
+      lexemes:
+      - objective
+      - explore
+      - motion
+  - id: u37-n3
+    kind: new
+    title:
+      he: 'היומן של נועה: הקלה'
+      en: 'Noa''s diary: relief'
+    exercises:
+    - id: u37-n3-01
+      type: dialogue
+      scene: ד״ר שטרן מסכם.
+      lines:
+      - speaker: dr-stern
+        text: A minor pain is normal. A severe one needs a doctor.
+        translation: כאב קל הוא נורמלי. כאב חמור צריך רופא.
+      - speaker: noa
+        text: What brings relief?
+        translation: מה מביא הקלה?
+      - speaker: dr-stern
+        text: Rest. Breathe slowly. This can heal the body and cause no harm.
+        translation: מנוחה. לנשום לאט. זה יכול לרפא את הגוף ולא לגרום נזק.
+      - speaker: noa
+        text: Thank you.
+        translation: תודה.
+    - id: u37-n3-02
+      type: learn
+      lexeme: severe
+    - id: u37-n3-03
+      type: learn
+      lexeme: relief
+    - id: u37-n3-04
+      type: learn
+      lexeme: minor
+    - id: u37-n3-05
+      type: learn
+      lexeme: harm
+    - id: u37-n3-06
+      type: learn
+      lexeme: breathe
+    - id: u37-n3-07
+      type: learn
+      lexeme: heal
+    - id: u37-n3-08
+      type: match_pairs
+      pairs:
+      - - severe
+        - חמור
+      - - relief
+        - הקלה
+      - - minor
+        - קל; משני
+      - - harm
+        - נזק
+      - - breathe
+        - לנשום
+      - - heal
+        - לרפא
+      lexemes:
+      - severe
+      - relief
+      - minor
+      - harm
+      - breathe
+      - heal
+    - id: u37-n3-09
+      type: multiple_choice
+      prompt: harm – מה הפירוש?
+      options:
+      - נזק
+      - הקלה
+      - לנשום
+      correct: 0
+      lexemes:
+      - harm
+    - id: u37-n3-10
+      type: multiple_choice
+      prompt: heal – מה הפירוש?
+      options:
+      - לרפא
+      - לנשום
+      - הקלה
+      correct: 0
+      lexemes:
+      - heal
+    - id: u37-n3-11
+      type: multiple_choice
+      prompt: minor – מה הפירוש?
+      options:
+      - קל; משני
+      - חמור
+      - לנשום
+      correct: 0
+      lexemes:
+      - minor
+    - id: u37-n3-12
+      type: fill_blank
+      sentence: ___ slowly.
+      translation: נשום לאט.
+      answers:
+      - Breathe
+      options:
+      - Breathe
+      - minor
+      - severe
+      lexemes:
+      - breathe
+    - id: u37-n3-13
+      type: fill_blank
+      sentence: The pain is ___.
+      translation: הכאב חמור.
+      answers:
+      - severe
+      options:
+      - severe
+      - heal
+      - breathe
+      lexemes:
+      - severe
+    - id: u37-n3-14
+      type: fill_blank
+      sentence: It was a ___ to hear that.
+      translation: זו הייתה הקלה לשמוע את זה.
+      answers:
+      - relief
+      options:
+      - relief
+      - harm
+      - minor
+      lexemes:
+      - relief
+    - id: u37-n3-15
+      type: word_bank
+      prompt: זה לא יגרום נזק.
+      answers:
+      - This will not cause harm.
+      distractors:
+      - relief
+      - heal
+      lexemes:
+      - harm
+    - id: u37-n3-16
+      type: word_bank
+      prompt: הזמן יכול לרפא את הכאב.
+      answers:
+      - Time can heal the pain.
+      distractors:
+      - relief
+      - harm
+      lexemes:
+      - heal
+    - id: u37-n3-17
+      type: listening_choice
+      audioText: It is a minor problem.
+      question: מה שמעתם?
+      options:
+      - זו בעיה קלה.
+      - הכאב חמור.
+      - זו הייתה הקלה לשמוע את זה.
+      correct: 0
+      lexemes:
+      - minor
+    - id: u37-n3-18
+      type: speak_repeat
+      text: I breathe and heal slowly.
+      translation: אני נושמת ומחלימה לאט.
+      lexemes:
+      - breathe
+      - heal

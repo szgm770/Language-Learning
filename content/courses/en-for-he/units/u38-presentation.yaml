@@ -31,6 +31,24 @@ vocabulary:
   - { id: "good-question", text: "That's a good question.", translation: "זו שאלה טובה.", pos: "phrase", pronunciation: "דֶ'טְס אַ גוּד קְוֶוסְצ'ֶן" }
   - { id: "sum-up", text: "to sum up", translation: "לסכם", pos: "phrase", pronunciation: "טוּ סַאם אַפּ" }
 
+  - { id: "highlight", text: "highlight", translation: "להדגיש", pos: "verb", example: { text: "Highlight the key words.", translation: "הדגש את מילות המפתח." } }
+  - { id: "tone", text: "tone", translation: "טון", pos: "noun", example: { text: "His tone was friendly.", translation: "הטון שלו היה ידידותי." } }
+  - { id: "layer", text: "layer", translation: "שכבה", pos: "noun", example: { text: "Add one more layer.", translation: "הוסף עוד שכבה." } }
+  - { id: "row", text: "row", translation: "שורה", pos: "noun", example: { text: "Sit in the first row.", translation: "שב בשורה הראשונה." } }
+  - { id: "portion", text: "portion", translation: "חלק; מנה", pos: "noun", example: { text: "Show only a portion.", translation: "הראה רק חלק." } }
+  - { id: "brief", text: "brief", translation: "קצר", pos: "adjective", example: { text: "Keep your answer brief.", translation: "שמור על תשובה קצרה." } }
+  - { id: "submit", text: "submit", translation: "להגיש", pos: "verb", example: { text: "Submit the form by Friday.", translation: "הגש את הטופס עד יום שישי." } }
+  - { id: "implement", text: "implement", translation: "ליישם", pos: "verb", example: { text: "We implement the new plan.", translation: "אנחנו מיישמים את התוכנית החדשה." } }
+  - { id: "proceed", text: "proceed", translation: "להמשיך", pos: "verb", example: { text: "Proceed to the next step.", translation: "המשך לשלב הבא." } }
+  - { id: "emerge", text: "emerge", translation: "לצוץ", pos: "verb", example: { text: "New ideas emerge.", translation: "רעיונות חדשים צצים." } }
+  - { id: "attach", text: "attach", translation: "לצרף", pos: "verb", example: { text: "Attach the file, please.", translation: "צרף את הקובץ, בבקשה." } }
+  - { id: "recall", text: "recall", translation: "להיזכר", pos: "verb", example: { text: "I recall his name.", translation: "אני נזכר בשמו." } }
+  - { id: "significantly", text: "significantly", translation: "באופן משמעותי", pos: "adverb", example: { text: "Sales grew significantly.", translation: "המכירות גדלו באופן משמעותי." } }
+  - { id: "properly", text: "properly", translation: "כראוי", pos: "adverb", example: { text: "Please close the door properly.", translation: "בבקשה סגור את הדלת כראוי." } }
+  - { id: "ultimately", text: "ultimately", translation: "בסופו של דבר", pos: "adverb", example: { text: "Ultimately, you decide.", translation: "בסופו של דבר, אתה מחליט." } }
+  - { id: "personally", text: "personally", translation: "באופן אישי", pos: "adverb", example: { text: "I thank you personally.", translation: "אני מודה לך באופן אישי." } }
+  - { id: "frequently", text: "frequently", translation: "לעיתים קרובות", pos: "adverb", example: { text: "He frequently visits us.", translation: "הוא מבקר אותנו לעיתים קרובות." } }
+  - { id: "hopefully", text: "hopefully", translation: "בתקווה", pos: "adverb", example: { text: "Hopefully, it will not rain.", translation: "בתקווה שלא ירד גשם." } }
 grammar:
   - id: linking-words
     title: { he: "מילות קישור ושפה רשמית", en: "Linking words and formal register" }
@@ -461,3 +479,504 @@ lessons:
             any: ["\\bin conclusion\\b", "\\bto sum up\\b", "\\bto conclude\\b", "\\bthank you\\b"]
         model: "Good morning, everyone. I would like to begin by thanking you for coming. To begin with, remote work has grown rapidly. Furthermore, it has changed how teams communicate. Nevertheless, the office still has value. In conclusion, flexibility works best. Thank you for listening."
         lexemes: []
+  # ------------------------------------------------------------------ story words
+  - id: u38-n1
+    kind: new
+    title:
+      he: 'היומן של נועה: לבנות שקף'
+      en: 'Noa''s diary: building a slide'
+    exercises:
+    - id: u38-n1-01
+      type: dialogue
+      scene: נועה מתכוננת להרצאה בכנס.
+      lines:
+      - speaker: noa
+        text: I highlight the main point. The tone is formal.
+        translation: אני מדגישה את הנקודה העיקרית. הטון רשמי.
+      - speaker: ben
+        text: Add a layer of detail in the next row. Show only a portion.
+        translation: תוסיפי שכבת פירוט בשורה הבאה. תראי רק חלק.
+      - speaker: noa
+        text: Keep it brief.
+        translation: נשמור על קיצור.
+      - speaker: ben
+        text: Exactly.
+        translation: בדיוק.
+    - id: u38-n1-02
+      type: learn
+      lexeme: highlight
+    - id: u38-n1-03
+      type: learn
+      lexeme: tone
+    - id: u38-n1-04
+      type: learn
+      lexeme: layer
+    - id: u38-n1-05
+      type: learn
+      lexeme: row
+    - id: u38-n1-06
+      type: learn
+      lexeme: portion
+    - id: u38-n1-07
+      type: learn
+      lexeme: brief
+    - id: u38-n1-08
+      type: match_pairs
+      pairs:
+      - - highlight
+        - להדגיש
+      - - tone
+        - טון
+      - - layer
+        - שכבה
+      - - row
+        - שורה
+      - - portion
+        - חלק; מנה
+      - - brief
+        - קצר
+      lexemes:
+      - highlight
+      - tone
+      - layer
+      - row
+      - portion
+      - brief
+    - id: u38-n1-09
+      type: multiple_choice
+      prompt: portion – מה הפירוש?
+      options:
+      - חלק; מנה
+      - שורה
+      - טון
+      correct: 0
+      lexemes:
+      - portion
+    - id: u38-n1-10
+      type: multiple_choice
+      prompt: brief – מה הפירוש?
+      options:
+      - קצר
+      - שכבה
+      - טון
+      correct: 0
+      lexemes:
+      - brief
+    - id: u38-n1-11
+      type: multiple_choice
+      prompt: tone – מה הפירוש?
+      options:
+      - טון
+      - להדגיש
+      - חלק; מנה
+      correct: 0
+      lexemes:
+      - tone
+    - id: u38-n1-12
+      type: fill_blank
+      sentence: Add one more ___.
+      translation: הוסף עוד שכבה.
+      answers:
+      - layer
+      options:
+      - layer
+      - portion
+      - row
+      lexemes:
+      - layer
+    - id: u38-n1-13
+      type: fill_blank
+      sentence: ___ the key words.
+      translation: הדגש את מילות המפתח.
+      answers:
+      - Highlight
+      options:
+      - Highlight
+      - portion
+      - tone
+      lexemes:
+      - highlight
+    - id: u38-n1-14
+      type: fill_blank
+      sentence: Sit in the first ___.
+      translation: שב בשורה הראשונה.
+      answers:
+      - row
+      options:
+      - row
+      - layer
+      - tone
+      lexemes:
+      - row
+    - id: u38-n1-15
+      type: word_bank
+      prompt: הראה רק חלק.
+      answers:
+      - Show only a portion.
+      distractors:
+      - highlight
+      - brief
+      lexemes:
+      - portion
+    - id: u38-n1-16
+      type: word_bank
+      prompt: שמור על תשובה קצרה.
+      answers:
+      - Keep your answer brief.
+      distractors:
+      - layer
+      - tone
+      lexemes:
+      - brief
+    - id: u38-n1-17
+      type: listening_choice
+      audioText: His tone was friendly.
+      question: מה שמעתם?
+      options:
+      - הטון שלו היה ידידותי.
+      - הדגש את מילות המפתח.
+      - הוסף עוד שכבה.
+      correct: 0
+      lexemes:
+      - tone
+    - id: u38-n1-18
+      type: speak_repeat
+      text: I highlight a portion and keep it brief.
+      translation: אני מדגישה חלק וקצרה.
+      lexemes:
+      - highlight
+      - portion
+      - brief
+  - id: u38-n2
+    kind: new
+    title:
+      he: 'היומן של נועה: להגיש'
+      en: 'Noa''s diary: submitting'
+    exercises:
+    - id: u38-n2-01
+      type: dialogue
+      scene: ערב לפני ההרצאה.
+      lines:
+      - speaker: noa
+        text: I submit the slides tonight. The team will implement the final changes.
+        translation: אני מגישה את השקפים הערב. הצוות יטמיע את השינויים האחרונים.
+      - speaker: ben
+        text: Proceed to the next slide. Attach the chart.
+        translation: עברי לשקף הבא. צרפי את התרשים.
+      - speaker: noa
+        text: New points emerge as I speak. I recall the story from Kent.
+        translation: נקודות חדשות עולות תוך כדי דיבור. אני נזכרת בסיפור מקנט.
+      - speaker: ben
+        text: Use it.
+        translation: השתמשי בו.
+    - id: u38-n2-02
+      type: learn
+      lexeme: submit
+    - id: u38-n2-03
+      type: learn
+      lexeme: implement
+    - id: u38-n2-04
+      type: learn
+      lexeme: proceed
+    - id: u38-n2-05
+      type: learn
+      lexeme: emerge
+    - id: u38-n2-06
+      type: learn
+      lexeme: attach
+    - id: u38-n2-07
+      type: learn
+      lexeme: recall
+    - id: u38-n2-08
+      type: match_pairs
+      pairs:
+      - - submit
+        - להגיש
+      - - implement
+        - ליישם
+      - - proceed
+        - להמשיך
+      - - emerge
+        - לצוץ
+      - - attach
+        - לצרף
+      - - recall
+        - להיזכר
+      lexemes:
+      - submit
+      - implement
+      - proceed
+      - emerge
+      - attach
+      - recall
+    - id: u38-n2-09
+      type: multiple_choice
+      prompt: emerge – מה הפירוש?
+      options:
+      - לצוץ
+      - ליישם
+      - להיזכר
+      correct: 0
+      lexemes:
+      - emerge
+    - id: u38-n2-10
+      type: multiple_choice
+      prompt: submit – מה הפירוש?
+      options:
+      - להגיש
+      - להמשיך
+      - להיזכר
+      correct: 0
+      lexemes:
+      - submit
+    - id: u38-n2-11
+      type: multiple_choice
+      prompt: recall – מה הפירוש?
+      options:
+      - להיזכר
+      - להמשיך
+      - להגיש
+      correct: 0
+      lexemes:
+      - recall
+    - id: u38-n2-12
+      type: fill_blank
+      sentence: ___ the file, please.
+      translation: צרף את הקובץ, בבקשה.
+      answers:
+      - Attach
+      options:
+      - Attach
+      - implement
+      - proceed
+      lexemes:
+      - attach
+    - id: u38-n2-13
+      type: fill_blank
+      sentence: We ___ the new plan.
+      translation: אנחנו מיישמים את התוכנית החדשה.
+      answers:
+      - implement
+      options:
+      - implement
+      - submit
+      - recall
+      lexemes:
+      - implement
+    - id: u38-n2-14
+      type: fill_blank
+      sentence: ___ to the next step.
+      translation: המשך לשלב הבא.
+      answers:
+      - Proceed
+      options:
+      - Proceed
+      - submit
+      - emerge
+      lexemes:
+      - proceed
+    - id: u38-n2-15
+      type: word_bank
+      prompt: רעיונות חדשים צצים.
+      answers:
+      - New ideas emerge.
+      distractors:
+      - submit
+      - proceed
+      lexemes:
+      - emerge
+    - id: u38-n2-16
+      type: word_bank
+      prompt: הגש את הטופס עד יום שישי.
+      answers:
+      - Submit the form by Friday.
+      distractors:
+      - attach
+      - implement
+      lexemes:
+      - submit
+    - id: u38-n2-17
+      type: listening_choice
+      audioText: I recall his name.
+      question: מה שמעתם?
+      options:
+      - אני נזכר בשמו.
+      - הגש את הטופס עד יום שישי.
+      - אנחנו מיישמים את התוכנית החדשה.
+      correct: 0
+      lexemes:
+      - recall
+    - id: u38-n2-18
+      type: speak_repeat
+      text: I submit the slides and attach the chart.
+      translation: אני מגישה את השקפים ומצרפת את התרשים.
+      lexemes:
+      - submit
+      - attach
+  - id: u38-n3
+    kind: new
+    title:
+      he: 'היומן של נועה: ההרצאה'
+      en: 'Noa''s diary: the talk'
+    exercises:
+    - id: u38-n3-01
+      type: dialogue
+      scene: אחרי ההרצאה.
+      lines:
+      - speaker: noa
+        text: Significantly more people came than I expected.
+        translation: הגיעו הרבה יותר אנשים ממה שציפיתי.
+      - speaker: ben
+        text: You spoke properly and personally. Frequently, you looked at them.
+        translation: דיברת כמו שצריך ובאופן אישי. לעיתים קרובות הסתכלת עליהם.
+      - speaker: noa
+        text: Ultimately, the story did it. Hopefully, they will remember it.
+        translation: בסופו של דבר הסיפור עשה את זה. אני מקווה שהם יזכרו אותו.
+      - speaker: ben
+        text: They will.
+        translation: הם יזכרו.
+    - id: u38-n3-02
+      type: learn
+      lexeme: significantly
+    - id: u38-n3-03
+      type: learn
+      lexeme: properly
+    - id: u38-n3-04
+      type: learn
+      lexeme: ultimately
+    - id: u38-n3-05
+      type: learn
+      lexeme: personally
+    - id: u38-n3-06
+      type: learn
+      lexeme: frequently
+    - id: u38-n3-07
+      type: learn
+      lexeme: hopefully
+    - id: u38-n3-08
+      type: match_pairs
+      pairs:
+      - - significantly
+        - באופן משמעותי
+      - - properly
+        - כראוי
+      - - ultimately
+        - בסופו של דבר
+      - - personally
+        - באופן אישי
+      - - frequently
+        - לעיתים קרובות
+      - - hopefully
+        - בתקווה
+      lexemes:
+      - significantly
+      - properly
+      - ultimately
+      - personally
+      - frequently
+      - hopefully
+    - id: u38-n3-09
+      type: multiple_choice
+      prompt: hopefully – מה הפירוש?
+      options:
+      - בתקווה
+      - באופן משמעותי
+      - לעיתים קרובות
+      correct: 0
+      lexemes:
+      - hopefully
+    - id: u38-n3-10
+      type: multiple_choice
+      prompt: properly – מה הפירוש?
+      options:
+      - כראוי
+      - באופן משמעותי
+      - לעיתים קרובות
+      correct: 0
+      lexemes:
+      - properly
+    - id: u38-n3-11
+      type: multiple_choice
+      prompt: ultimately – מה הפירוש?
+      options:
+      - בסופו של דבר
+      - בתקווה
+      - באופן אישי
+      correct: 0
+      lexemes:
+      - ultimately
+    - id: u38-n3-12
+      type: fill_blank
+      sentence: Sales grew ___.
+      translation: המכירות גדלו באופן משמעותי.
+      answers:
+      - significantly
+      options:
+      - significantly
+      - ultimately
+      - frequently
+      lexemes:
+      - significantly
+    - id: u38-n3-13
+      type: fill_blank
+      sentence: He ___ visits us.
+      translation: הוא מבקר אותנו לעיתים קרובות.
+      answers:
+      - frequently
+      options:
+      - frequently
+      - significantly
+      - personally
+      lexemes:
+      - frequently
+    - id: u38-n3-14
+      type: fill_blank
+      sentence: I thank you ___.
+      translation: אני מודה לך באופן אישי.
+      answers:
+      - personally
+      options:
+      - personally
+      - ultimately
+      - significantly
+      lexemes:
+      - personally
+    - id: u38-n3-15
+      type: word_bank
+      prompt: בתקווה שלא ירד גשם.
+      answers:
+      - Hopefully, it will not rain.
+      distractors:
+      - frequently
+      - ultimately
+      lexemes:
+      - hopefully
+    - id: u38-n3-16
+      type: word_bank
+      prompt: בבקשה סגור את הדלת כראוי.
+      answers:
+      - Please close the door properly.
+      distractors:
+      - hopefully
+      - significantly
+      lexemes:
+      - properly
+    - id: u38-n3-17
+      type: listening_choice
+      audioText: Ultimately, you decide.
+      question: מה שמעתם?
+      options:
+      - בסופו של דבר, אתה מחליט.
+      - המכירות גדלו באופן משמעותי.
+      - בבקשה סגור את הדלת כראוי.
+      correct: 0
+      lexemes:
+      - ultimately
+    - id: u38-n3-18
+      type: speak_repeat
+      text: Hopefully I speak properly and personally.
+      translation: אני מקווה שאדבר כראוי ובאופן אישי.
+      lexemes:
+      - properly
+      - personally
+      - hopefully

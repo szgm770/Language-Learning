@@ -27,6 +27,24 @@ vocabulary:
   - { id: "had-been-ing", text: "had been + V-ing", translation: "היה (בתהליך) עד אז", pos: "phrase", pronunciation: "הֶד בִּין", example: { text: "She had been working there for years when she left.", translation: "היא עבדה שם שנים כשעזבה." } }
   - { id: "in-the-end-2", text: "at last", translation: "סוף־סוף", pos: "phrase", pronunciation: "אֶט לַאסְט" }
 
+  - { id: "permanent", text: "permanent", translation: "קבוע", pos: "adjective", example: { text: "This is a permanent job.", translation: "זו עבודה קבועה." } }
+  - { id: "constant", text: "constant", translation: "מתמיד", pos: "adjective", example: { text: "There is constant noise here.", translation: "יש כאן רעש מתמיד." } }
+  - { id: "absolute", text: "absolute", translation: "מוחלט", pos: "adjective", example: { text: "I have absolute trust in him.", translation: "יש לי אמון מוחלט בו." } }
+  - { id: "essential", text: "essential", translation: "חיוני", pos: "adjective", example: { text: "Water is essential for life.", translation: "מים חיוניים לחיים." } }
+  - { id: "exclusive", text: "exclusive", translation: "בלעדי", pos: "adjective", example: { text: "This is an exclusive offer.", translation: "זו הצעה בלעדית." } }
+  - { id: "principal", text: "principal", translation: "עיקרי; מנהל", pos: "adjective", example: { text: "The principal reason is simple.", translation: "הסיבה העיקרית פשוטה." } }
+  - { id: "founder", text: "founder", translation: "מייסד", pos: "noun", example: { text: "The founder is a young woman.", translation: "המייסדת היא אישה צעירה." } }
+  - { id: "partnership", text: "partnership", translation: "שותפות", pos: "noun", example: { text: "Our partnership is strong.", translation: "השותפות שלנו חזקה." } }
+  - { id: "employment", text: "employment", translation: "תעסוקה", pos: "noun", example: { text: "Employment is high here.", translation: "התעסוקה גבוהה כאן." } }
+  - { id: "operator", text: "operator", translation: "מפעיל", pos: "noun", example: { text: "Call the phone operator.", translation: "התקשר למפעיל הטלפון." } }
+  - { id: "campus", text: "campus", translation: "קמפוס", pos: "noun", example: { text: "The campus is green.", translation: "הקמפוס ירוק." } }
+  - { id: "existence", text: "existence", translation: "קיום", pos: "noun", example: { text: "Its existence is a secret.", translation: "עצם קיומו הוא סוד." } }
+  - { id: "intention", text: "intention", translation: "כוונה", pos: "noun", example: { text: "His intention is good.", translation: "הכוונה שלו טובה." } }
+  - { id: "transition", text: "transition", translation: "מעבר", pos: "noun", example: { text: "The transition is smooth.", translation: "המעבר חלק." } }
+  - { id: "unknown", text: "unknown", translation: "לא ידוע", pos: "adjective", example: { text: "The result is unknown.", translation: "התוצאה אינה ידועה." } }
+  - { id: "anniversary", text: "anniversary", translation: "יום השנה", pos: "noun", example: { text: "Today is our anniversary.", translation: "היום יום השנה שלנו." } }
+  - { id: "introduction", text: "introduction", translation: "הקדמה; היכרות", pos: "noun", example: { text: "Read the introduction first.", translation: "קרא את ההקדמה קודם." } }
+  - { id: "formation", text: "formation", translation: "היווצרות; הקמה", pos: "noun", example: { text: "The formation of the team took a month.", translation: "הקמת הצוות לקחה חודש." } }
 grammar:
   - id: narrative-tenses
     title: { he: "זמני עבר בסיפור", en: "Narrative tenses" }
@@ -596,3 +614,502 @@ lessons:
         prompt: "היא חשבה על זה חודשים לפני שהחליטה."
         answers: ["She had been thinking about it for months before she decided.", "She had been thinking about it for months before deciding."]
         lexemes: [had-been-ing]
+  # ------------------------------------------------------------------ story words
+  - id: u40-n1
+    kind: new
+    title:
+      he: 'היומן של נועה: דברים קבועים'
+      en: 'Noa''s diary: things that last'
+    exercises:
+    - id: u40-n1-01
+      type: dialogue
+      scene: בן ונועה מדברים על ההחלטה.
+      lines:
+      - speaker: ben
+        text: A permanent move is a big step. Constant change is hard.
+        translation: מעבר קבוע הוא צעד גדול. שינוי מתמיד קשה.
+      - speaker: noa
+        text: There is no absolute answer. The essential thing is the family.
+        translation: אין תשובה מוחלטת. הדבר החיוני הוא המשפחה.
+      - speaker: ben
+        text: Then the exclusive choice is home.
+        translation: אז הבחירה היחידה היא הבית.
+      - speaker: noa
+        text: Maybe.
+        translation: אולי.
+    - id: u40-n1-02
+      type: learn
+      lexeme: permanent
+    - id: u40-n1-03
+      type: learn
+      lexeme: constant
+    - id: u40-n1-04
+      type: learn
+      lexeme: absolute
+    - id: u40-n1-05
+      type: learn
+      lexeme: essential
+    - id: u40-n1-06
+      type: learn
+      lexeme: exclusive
+    - id: u40-n1-07
+      type: learn
+      lexeme: principal
+    - id: u40-n1-08
+      type: match_pairs
+      pairs:
+      - - permanent
+        - קבוע
+      - - constant
+        - מתמיד
+      - - absolute
+        - מוחלט
+      - - essential
+        - חיוני
+      - - exclusive
+        - בלעדי
+      - - principal
+        - עיקרי; מנהל
+      lexemes:
+      - permanent
+      - constant
+      - absolute
+      - essential
+      - exclusive
+      - principal
+    - id: u40-n1-09
+      type: multiple_choice
+      prompt: exclusive – מה הפירוש?
+      options:
+      - בלעדי
+      - קבוע
+      - מוחלט
+      correct: 0
+      lexemes:
+      - exclusive
+    - id: u40-n1-10
+      type: multiple_choice
+      prompt: absolute – מה הפירוש?
+      options:
+      - מוחלט
+      - עיקרי; מנהל
+      - קבוע
+      correct: 0
+      lexemes:
+      - absolute
+    - id: u40-n1-11
+      type: multiple_choice
+      prompt: principal – מה הפירוש?
+      options:
+      - עיקרי; מנהל
+      - קבוע
+      - מתמיד
+      correct: 0
+      lexemes:
+      - principal
+    - id: u40-n1-12
+      type: fill_blank
+      sentence: There is ___ noise here.
+      translation: יש כאן רעש מתמיד.
+      answers:
+      - constant
+      options:
+      - constant
+      - permanent
+      - exclusive
+      lexemes:
+      - constant
+    - id: u40-n1-13
+      type: fill_blank
+      sentence: Water is ___ for life.
+      translation: מים חיוניים לחיים.
+      answers:
+      - essential
+      options:
+      - essential
+      - absolute
+      - permanent
+      lexemes:
+      - essential
+    - id: u40-n1-14
+      type: fill_blank
+      sentence: This is a ___ job.
+      translation: זו עבודה קבועה.
+      answers:
+      - permanent
+      options:
+      - permanent
+      - absolute
+      - exclusive
+      lexemes:
+      - permanent
+    - id: u40-n1-15
+      type: word_bank
+      prompt: זו הצעה בלעדית.
+      answers:
+      - This is an exclusive offer.
+      distractors:
+      - permanent
+      - essential
+      lexemes:
+      - exclusive
+    - id: u40-n1-16
+      type: word_bank
+      prompt: יש לי אמון מוחלט בו.
+      answers:
+      - I have absolute trust in him.
+      distractors:
+      - permanent
+      - principal
+      lexemes:
+      - absolute
+    - id: u40-n1-17
+      type: listening_choice
+      audioText: The principal reason is simple.
+      question: מה שמעתם?
+      options:
+      - הסיבה העיקרית פשוטה.
+      - זו עבודה קבועה.
+      - יש כאן רעש מתמיד.
+      correct: 0
+      lexemes:
+      - principal
+    - id: u40-n1-18
+      type: speak_repeat
+      text: It is a permanent and essential choice.
+      translation: זו בחירה קבועה וחיונית.
+      lexemes:
+      - permanent
+      - essential
+  - id: u40-n2
+    kind: new
+    title:
+      he: 'היומן של נועה: מייסדים'
+      en: 'Noa''s diary: founders'
+    exercises:
+    - id: u40-n2-01
+      type: dialogue
+      scene: מר כהן מציע שותפות.
+      lines:
+      - speaker: cohen
+        text: The founder of the firm wants a partnership with you.
+        translation: מייסד החברה רוצה שותפות איתך.
+      - speaker: noa
+        text: What about employment for the whole team? And the operator of the new campus?
+        translation: ומה עם תעסוקה לכל הצוות? ומפעיל הקמפוס החדש?
+      - speaker: cohen
+        text: All included.
+        translation: הכול כלול.
+      - speaker: noa
+        text: I'll think.
+        translation: אחשוב.
+    - id: u40-n2-02
+      type: learn
+      lexeme: founder
+    - id: u40-n2-03
+      type: learn
+      lexeme: partnership
+    - id: u40-n2-04
+      type: learn
+      lexeme: employment
+    - id: u40-n2-05
+      type: learn
+      lexeme: operator
+    - id: u40-n2-06
+      type: learn
+      lexeme: campus
+    - id: u40-n2-07
+      type: learn
+      lexeme: existence
+    - id: u40-n2-08
+      type: match_pairs
+      pairs:
+      - - founder
+        - מייסד
+      - - partnership
+        - שותפות
+      - - employment
+        - תעסוקה
+      - - operator
+        - מפעיל
+      - - campus
+        - קמפוס
+      - - existence
+        - קיום
+      lexemes:
+      - founder
+      - partnership
+      - employment
+      - operator
+      - campus
+      - existence
+    - id: u40-n2-09
+      type: multiple_choice
+      prompt: employment – מה הפירוש?
+      options:
+      - תעסוקה
+      - קיום
+      - קמפוס
+      correct: 0
+      lexemes:
+      - employment
+    - id: u40-n2-10
+      type: multiple_choice
+      prompt: operator – מה הפירוש?
+      options:
+      - מפעיל
+      - קיום
+      - קמפוס
+      correct: 0
+      lexemes:
+      - operator
+    - id: u40-n2-11
+      type: multiple_choice
+      prompt: campus – מה הפירוש?
+      options:
+      - קמפוס
+      - מייסד
+      - מפעיל
+      correct: 0
+      lexemes:
+      - campus
+    - id: u40-n2-12
+      type: fill_blank
+      sentence: The ___ is a young woman.
+      translation: המייסדת היא אישה צעירה.
+      answers:
+      - founder
+      options:
+      - founder
+      - operator
+      - campus
+      lexemes:
+      - founder
+    - id: u40-n2-13
+      type: fill_blank
+      sentence: Our ___ is strong.
+      translation: השותפות שלנו חזקה.
+      answers:
+      - partnership
+      options:
+      - partnership
+      - employment
+      - existence
+      lexemes:
+      - partnership
+    - id: u40-n2-14
+      type: fill_blank
+      sentence: Its ___ is a secret.
+      translation: עצם קיומו הוא סוד.
+      answers:
+      - existence
+      options:
+      - existence
+      - campus
+      - founder
+      lexemes:
+      - existence
+    - id: u40-n2-15
+      type: word_bank
+      prompt: התעסוקה גבוהה כאן.
+      answers:
+      - Employment is high here.
+      distractors:
+      - campus
+      - partnership
+      lexemes:
+      - employment
+    - id: u40-n2-16
+      type: word_bank
+      prompt: התקשר למפעיל הטלפון.
+      answers:
+      - Call the phone operator.
+      distractors:
+      - founder
+      - partnership
+      lexemes:
+      - operator
+    - id: u40-n2-17
+      type: listening_choice
+      audioText: The campus is green.
+      question: מה שמעתם?
+      options:
+      - הקמפוס ירוק.
+      - המייסדת היא אישה צעירה.
+      - השותפות שלנו חזקה.
+      correct: 0
+      lexemes:
+      - campus
+    - id: u40-n2-18
+      type: speak_repeat
+      text: The founder wants a partnership.
+      translation: המייסד רוצה שותפות.
+      lexemes:
+      - founder
+      - partnership
+  - id: u40-n3
+    kind: new
+    title:
+      he: 'היומן של נועה: להחליט'
+      en: 'Noa''s diary: deciding'
+    exercises:
+    - id: u40-n3-01
+      type: dialogue
+      scene: הלילה שלפני התשובה.
+      lines:
+      - speaker: noa
+        text: My intention is clear. The transition will be hard, but the introduction is simple.
+        translation: הכוונה שלי ברורה. המעבר יהיה קשה, אבל ההקדמה פשוטה.
+      - speaker: ben
+        text: The future is unknown.
+        translation: העתיד אינו ידוע.
+      - speaker: noa
+        text: I mark the anniversary of the first day. And the formation of the new office starts then.
+        translation: אני מציינת את יום השנה ליום הראשון. והקמת המשרד החדש מתחילה אז.
+      - speaker: ben
+        text: I'm with you.
+        translation: אני איתך.
+    - id: u40-n3-02
+      type: learn
+      lexeme: intention
+    - id: u40-n3-03
+      type: learn
+      lexeme: transition
+    - id: u40-n3-04
+      type: learn
+      lexeme: unknown
+    - id: u40-n3-05
+      type: learn
+      lexeme: anniversary
+    - id: u40-n3-06
+      type: learn
+      lexeme: introduction
+    - id: u40-n3-07
+      type: learn
+      lexeme: formation
+    - id: u40-n3-08
+      type: match_pairs
+      pairs:
+      - - intention
+        - כוונה
+      - - transition
+        - מעבר
+      - - unknown
+        - לא ידוע
+      - - anniversary
+        - יום השנה
+      - - introduction
+        - הקדמה; היכרות
+      - - formation
+        - היווצרות; הקמה
+      lexemes:
+      - intention
+      - transition
+      - unknown
+      - anniversary
+      - introduction
+      - formation
+    - id: u40-n3-09
+      type: multiple_choice
+      prompt: unknown – מה הפירוש?
+      options:
+      - לא ידוע
+      - היווצרות; הקמה
+      - מעבר
+      correct: 0
+      lexemes:
+      - unknown
+    - id: u40-n3-10
+      type: multiple_choice
+      prompt: formation – מה הפירוש?
+      options:
+      - היווצרות; הקמה
+      - לא ידוע
+      - כוונה
+      correct: 0
+      lexemes:
+      - formation
+    - id: u40-n3-11
+      type: multiple_choice
+      prompt: anniversary – מה הפירוש?
+      options:
+      - יום השנה
+      - לא ידוע
+      - הקדמה; היכרות
+      correct: 0
+      lexemes:
+      - anniversary
+    - id: u40-n3-12
+      type: fill_blank
+      sentence: His ___ is good.
+      translation: הכוונה שלו טובה.
+      answers:
+      - intention
+      options:
+      - intention
+      - introduction
+      - formation
+      lexemes:
+      - intention
+    - id: u40-n3-13
+      type: fill_blank
+      sentence: The ___ is smooth.
+      translation: המעבר חלק.
+      answers:
+      - transition
+      options:
+      - transition
+      - formation
+      - introduction
+      lexemes:
+      - transition
+    - id: u40-n3-14
+      type: fill_blank
+      sentence: Read the ___ first.
+      translation: קרא את ההקדמה קודם.
+      answers:
+      - introduction
+      options:
+      - introduction
+      - anniversary
+      - intention
+      lexemes:
+      - introduction
+    - id: u40-n3-15
+      type: word_bank
+      prompt: התוצאה אינה ידועה.
+      answers:
+      - The result is unknown.
+      distractors:
+      - introduction
+      - formation
+      lexemes:
+      - unknown
+    - id: u40-n3-16
+      type: word_bank
+      prompt: הקמת הצוות לקחה חודש.
+      answers:
+      - The formation of the team took a month.
+      distractors:
+      - unknown
+      - transition
+      lexemes:
+      - formation
+    - id: u40-n3-17
+      type: listening_choice
+      audioText: Today is our anniversary.
+      question: מה שמעתם?
+      options:
+      - היום יום השנה שלנו.
+      - הכוונה שלו טובה.
+      - המעבר חלק.
+      correct: 0
+      lexemes:
+      - anniversary
+    - id: u40-n3-18
+      type: speak_repeat
+      text: My intention is clear and the transition starts.
+      translation: הכוונה שלי ברורה והמעבר מתחיל.
+      lexemes:
+      - intention
+      - transition

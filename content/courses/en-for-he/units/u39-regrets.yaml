@@ -30,6 +30,24 @@ vocabulary:
   - { id: "if-only", text: "If only…", translation: "הלוואי, אילו רק…", pos: "phrase", pronunciation: "אִיף אוֹנְלִי", example: { text: "If only I had more time!", translation: "הלוואי שהיה לי יותר זמן!" } }
   - { id: "too-late", text: "too late", translation: "מאוחר מדי", pos: "phrase", pronunciation: "טוּ לֵייט" }
 
+  - { id: "shame", text: "shame", translation: "בושה", pos: "noun", example: { text: "I feel shame about the mistake.", translation: "אני מרגיש בושה על הטעות." } }
+  - { id: "annoy", text: "annoy", translation: "לעצבן", pos: "verb", example: { text: "The noise can annoy me.", translation: "הרעש יכול לעצבן אותי." } }
+  - { id: "emotion", text: "emotion", translation: "רגש", pos: "noun", example: { text: "He shows no emotion.", translation: "הוא לא מראה רגש." } }
+  - { id: "pleasure", text: "pleasure", translation: "הנאה; תענוג", pos: "noun", example: { text: "It is a pleasure to meet you.", translation: "זה תענוג לפגוש אותך." } }
+  - { id: "shock", text: "shock", translation: "הלם", pos: "noun", example: { text: "The news was a shock.", translation: "החדשות היו הלם." } }
+  - { id: "guilty", text: "guilty", translation: "אשם", pos: "adjective", example: { text: "I feel guilty.", translation: "אני מרגיש אשם." } }
+  - { id: "shadow", text: "shadow", translation: "צל", pos: "noun", example: { text: "The tree has a long shadow.", translation: "לעץ יש צל ארוך." } }
+  - { id: "mirror", text: "mirror", translation: "מראה", pos: "noun", example: { text: "I look in the mirror.", translation: "אני מסתכל במראה." } }
+  - { id: "depth", text: "depth", translation: "עומק", pos: "noun", example: { text: "The depth of the sea is large.", translation: "עומק הים גדול." } }
+  - { id: "trail", text: "trail", translation: "שביל", pos: "noun", example: { text: "We walk on a forest trail.", translation: "אנחנו הולכים בשביל ביער." } }
+  - { id: "stretch", text: "stretch", translation: "למתוח", pos: "verb", example: { text: "Stretch your arms.", translation: "מתח את הידיים." } }
+  - { id: "spin", text: "spin", translation: "לסובב", pos: "verb", example: { text: "Spin the wheel.", translation: "סובב את הגלגל." } }
+  - { id: "abandon", text: "abandon", translation: "לנטוש; לוותר על", pos: "verb", example: { text: "Never abandon your dream.", translation: "לעולם אל תוותר על החלום שלך." } }
+  - { id: "quit", text: "quit", translation: "לפרוש; להפסיק", pos: "verb", example: { text: "He wants to quit his job.", translation: "הוא רוצה לעזוב את עבודתו." } }
+  - { id: "succeed", text: "succeed", translation: "להצליח", pos: "verb", example: { text: "You can succeed if you try.", translation: "אפשר להצליח אם מנסים." } }
+  - { id: "ruin", text: "ruin", translation: "להרוס", pos: "verb", example: { text: "Don't ruin the surprise.", translation: "אל תהרוס את ההפתעה." } }
+  - { id: "retain", text: "retain", translation: "לשמור", pos: "verb", example: { text: "I retain the best ideas.", translation: "אני שומר את הרעיונות הטובים ביותר." } }
+  - { id: "fail-2", text: "fail", translation: "להיכשל", pos: "verb", example: { text: "I try, and I may fail.", translation: "אני מנסה, ואולי אכשל." } }
 grammar:
   - id: wish-if-only
     title: { he: "הלוואי ש… (I wish / If only)", en: "I wish and If only" }
@@ -469,3 +487,502 @@ lessons:
             any: ["\\bwish\\b.*\\b(would|could|were|had)\\b"]
         model: "I wish I had studied music when I was young. If only I had practised every day, I might be a musician now. I also wish I could spend more time with my family, and I wish my work were less stressful. But I try to enjoy the life I have."
         lexemes: []
+  # ------------------------------------------------------------------ story words
+  - id: u39-n1
+    kind: new
+    title:
+      he: 'היומן של נועה: רגשות'
+      en: 'Noa''s diary: emotions'
+    exercises:
+    - id: u39-n1-01
+      type: dialogue
+      scene: נועה מדברת עם אמה, רחל, בטלפון.
+      lines:
+      - speaker: noa
+        text: Mom, I feel shame about the shock I gave you. It was a guilty moment.
+        translation: אמא, אני מתביישת בהלם שגרמתי לך. זה היה רגע של אשמה.
+      - speaker: rachel
+        text: Don't be silly. It is only emotion. It annoys me when you blame yourself.
+        translation: אל תהיי מגוחכת. זה רק רגש. זה מעצבן אותי כשאת מאשימה את עצמך.
+      - speaker: noa
+        text: It's a pleasure to talk to you.
+        translation: זה תענוג לדבר איתך.
+      - speaker: rachel
+        text: Come home soon.
+        translation: תבואי הביתה בקרוב.
+    - id: u39-n1-02
+      type: learn
+      lexeme: shame
+    - id: u39-n1-03
+      type: learn
+      lexeme: annoy
+    - id: u39-n1-04
+      type: learn
+      lexeme: emotion
+    - id: u39-n1-05
+      type: learn
+      lexeme: pleasure
+    - id: u39-n1-06
+      type: learn
+      lexeme: shock
+    - id: u39-n1-07
+      type: learn
+      lexeme: guilty
+    - id: u39-n1-08
+      type: match_pairs
+      pairs:
+      - - shame
+        - בושה
+      - - annoy
+        - לעצבן
+      - - emotion
+        - רגש
+      - - pleasure
+        - הנאה; תענוג
+      - - shock
+        - הלם
+      - - guilty
+        - אשם
+      lexemes:
+      - shame
+      - annoy
+      - emotion
+      - pleasure
+      - shock
+      - guilty
+    - id: u39-n1-09
+      type: multiple_choice
+      prompt: guilty – מה הפירוש?
+      options:
+      - אשם
+      - רגש
+      - הנאה; תענוג
+      correct: 0
+      lexemes:
+      - guilty
+    - id: u39-n1-10
+      type: multiple_choice
+      prompt: pleasure – מה הפירוש?
+      options:
+      - הנאה; תענוג
+      - אשם
+      - רגש
+      correct: 0
+      lexemes:
+      - pleasure
+    - id: u39-n1-11
+      type: multiple_choice
+      prompt: shame – מה הפירוש?
+      options:
+      - בושה
+      - הלם
+      - אשם
+      correct: 0
+      lexemes:
+      - shame
+    - id: u39-n1-12
+      type: fill_blank
+      sentence: The noise can ___ me.
+      translation: הרעש יכול לעצבן אותי.
+      answers:
+      - annoy
+      options:
+      - annoy
+      - shock
+      - guilty
+      lexemes:
+      - annoy
+    - id: u39-n1-13
+      type: fill_blank
+      sentence: He shows no ___.
+      translation: הוא לא מראה רגש.
+      answers:
+      - emotion
+      options:
+      - emotion
+      - shock
+      - pleasure
+      lexemes:
+      - emotion
+    - id: u39-n1-14
+      type: fill_blank
+      sentence: The news was a ___.
+      translation: החדשות היו הלם.
+      answers:
+      - shock
+      options:
+      - shock
+      - shame
+      - guilty
+      lexemes:
+      - shock
+    - id: u39-n1-15
+      type: word_bank
+      prompt: אני מרגיש אשם.
+      answers:
+      - I feel guilty.
+      distractors:
+      - shame
+      - pleasure
+      lexemes:
+      - guilty
+    - id: u39-n1-16
+      type: word_bank
+      prompt: זה תענוג לפגוש אותך.
+      answers:
+      - It is a pleasure to meet you.
+      distractors:
+      - annoy
+      - guilty
+      lexemes:
+      - pleasure
+    - id: u39-n1-17
+      type: listening_choice
+      audioText: I feel shame about the mistake.
+      question: מה שמעתם?
+      options:
+      - אני מרגיש בושה על הטעות.
+      - הרעש יכול לעצבן אותי.
+      - הוא לא מראה רגש.
+      correct: 0
+      lexemes:
+      - shame
+    - id: u39-n1-18
+      type: speak_repeat
+      text: I feel shame and I feel guilty.
+      translation: אני מרגישה בושה ואני מרגישה אשמה.
+      lexemes:
+      - shame
+      - guilty
+  - id: u39-n2
+    kind: new
+    title:
+      he: 'היומן של נועה: זיכרונות'
+      en: 'Noa''s diary: memories'
+    exercises:
+    - id: u39-n2-01
+      type: dialogue
+      scene: נועה מסתכלת בתמונות ישנות.
+      lines:
+      - speaker: noa
+        text: In the mirror I see my shadow from ten years ago.
+        translation: במראה אני רואה את הצל שלי מלפני עשר שנים.
+      - speaker: rachel
+        text: There was depth in those days. We walked the long trail by the sea.
+        translation: היה עומק בימים ההם. הלכנו בשביל הארוך ליד הים.
+      - speaker: noa
+        text: I stretch my memory but some days are gone.
+        translation: אני מותחת את הזיכרון אבל כמה ימים נעלמו.
+      - speaker: rachel
+        text: Time can spin our memories.
+        translation: הזמן יכול לסובב את הזיכרונות שלנו.
+    - id: u39-n2-02
+      type: learn
+      lexeme: shadow
+    - id: u39-n2-03
+      type: learn
+      lexeme: mirror
+    - id: u39-n2-04
+      type: learn
+      lexeme: depth
+    - id: u39-n2-05
+      type: learn
+      lexeme: trail
+    - id: u39-n2-06
+      type: learn
+      lexeme: stretch
+    - id: u39-n2-07
+      type: learn
+      lexeme: spin
+    - id: u39-n2-08
+      type: match_pairs
+      pairs:
+      - - shadow
+        - צל
+      - - mirror
+        - מראה
+      - - depth
+        - עומק
+      - - trail
+        - שביל
+      - - stretch
+        - למתוח
+      - - spin
+        - לסובב
+      lexemes:
+      - shadow
+      - mirror
+      - depth
+      - trail
+      - stretch
+      - spin
+    - id: u39-n2-09
+      type: multiple_choice
+      prompt: trail – מה הפירוש?
+      options:
+      - שביל
+      - עומק
+      - לסובב
+      correct: 0
+      lexemes:
+      - trail
+    - id: u39-n2-10
+      type: multiple_choice
+      prompt: depth – מה הפירוש?
+      options:
+      - עומק
+      - למתוח
+      - מראה
+      correct: 0
+      lexemes:
+      - depth
+    - id: u39-n2-11
+      type: multiple_choice
+      prompt: shadow – מה הפירוש?
+      options:
+      - צל
+      - מראה
+      - למתוח
+      correct: 0
+      lexemes:
+      - shadow
+    - id: u39-n2-12
+      type: fill_blank
+      sentence: ___ the wheel.
+      translation: סובב את הגלגל.
+      answers:
+      - Spin
+      options:
+      - Spin
+      - trail
+      - shadow
+      lexemes:
+      - spin
+    - id: u39-n2-13
+      type: fill_blank
+      sentence: I look in the ___.
+      translation: אני מסתכל במראה.
+      answers:
+      - mirror
+      options:
+      - mirror
+      - depth
+      - trail
+      lexemes:
+      - mirror
+    - id: u39-n2-14
+      type: fill_blank
+      sentence: ___ your arms.
+      translation: מתח את הידיים.
+      answers:
+      - Stretch
+      options:
+      - Stretch
+      - trail
+      - mirror
+      lexemes:
+      - stretch
+    - id: u39-n2-15
+      type: word_bank
+      prompt: אנחנו הולכים בשביל ביער.
+      answers:
+      - We walk on a forest trail.
+      distractors:
+      - spin
+      - mirror
+      lexemes:
+      - trail
+    - id: u39-n2-16
+      type: word_bank
+      prompt: עומק הים גדול.
+      answers:
+      - The depth of the sea is large.
+      distractors:
+      - spin
+      - mirror
+      lexemes:
+      - depth
+    - id: u39-n2-17
+      type: listening_choice
+      audioText: The tree has a long shadow.
+      question: מה שמעתם?
+      options:
+      - לעץ יש צל ארוך.
+      - אני מסתכל במראה.
+      - עומק הים גדול.
+      correct: 0
+      lexemes:
+      - shadow
+    - id: u39-n2-18
+      type: speak_repeat
+      text: I see my shadow in the mirror.
+      translation: אני רואה את הצל שלי במראה.
+      lexemes:
+      - shadow
+      - mirror
+  - id: u39-n3
+    kind: new
+    title:
+      he: 'היומן של נועה: לוותר או להצליח'
+      en: 'Noa''s diary: quitting or succeeding'
+    exercises:
+    - id: u39-n3-01
+      type: dialogue
+      scene: שיחה על הדרך שבה בחרה.
+      lines:
+      - speaker: noa
+        text: I almost abandon my plan. I want to quit and not fail.
+        translation: כמעט ויתרתי על התוכנית. רציתי לפרוש ולא להיכשל.
+      - speaker: rachel
+        text: You succeed because you try. Don't ruin it now.
+        translation: את מצליחה כי את מנסה. אל תהרסי את זה עכשיו.
+      - speaker: noa
+        text: What do I retain from this?
+        translation: מה אני שומרת מכל זה?
+      - speaker: rachel
+        text: The lesson, not the pain.
+        translation: את הלקח, לא את הכאב.
+    - id: u39-n3-02
+      type: learn
+      lexeme: abandon
+    - id: u39-n3-03
+      type: learn
+      lexeme: quit
+    - id: u39-n3-04
+      type: learn
+      lexeme: succeed
+    - id: u39-n3-05
+      type: learn
+      lexeme: ruin
+    - id: u39-n3-06
+      type: learn
+      lexeme: retain
+    - id: u39-n3-07
+      type: learn
+      lexeme: fail-2
+    - id: u39-n3-08
+      type: match_pairs
+      pairs:
+      - - abandon
+        - לנטוש; לוותר על
+      - - quit
+        - לפרוש; להפסיק
+      - - succeed
+        - להצליח
+      - - ruin
+        - להרוס
+      - - retain
+        - לשמור
+      - - fail
+        - להיכשל
+      lexemes:
+      - abandon
+      - quit
+      - succeed
+      - ruin
+      - retain
+      - fail-2
+    - id: u39-n3-09
+      type: multiple_choice
+      prompt: quit – מה הפירוש?
+      options:
+      - לפרוש; להפסיק
+      - לשמור
+      - להרוס
+      correct: 0
+      lexemes:
+      - quit
+    - id: u39-n3-10
+      type: multiple_choice
+      prompt: succeed – מה הפירוש?
+      options:
+      - להצליח
+      - לנטוש; לוותר על
+      - לשמור
+      correct: 0
+      lexemes:
+      - succeed
+    - id: u39-n3-11
+      type: multiple_choice
+      prompt: abandon – מה הפירוש?
+      options:
+      - לנטוש; לוותר על
+      - לפרוש; להפסיק
+      - להיכשל
+      correct: 0
+      lexemes:
+      - abandon
+    - id: u39-n3-12
+      type: fill_blank
+      sentence: I ___ the best ideas.
+      translation: אני שומר את הרעיונות הטובים ביותר.
+      answers:
+      - retain
+      options:
+      - retain
+      - quit
+      - ruin
+      lexemes:
+      - retain
+    - id: u39-n3-13
+      type: fill_blank
+      sentence: I try, and I may ___.
+      translation: אני מנסה, ואולי אכשל.
+      answers:
+      - fail
+      options:
+      - fail
+      - ruin
+      - quit
+      lexemes:
+      - fail-2
+    - id: u39-n3-14
+      type: fill_blank
+      sentence: Don't ___ the surprise.
+      translation: אל תהרוס את ההפתעה.
+      answers:
+      - ruin
+      options:
+      - ruin
+      - fail
+      - quit
+      lexemes:
+      - ruin
+    - id: u39-n3-15
+      type: word_bank
+      prompt: הוא רוצה לעזוב את עבודתו.
+      answers:
+      - He wants to quit his job.
+      distractors:
+      - succeed
+      - retain
+      lexemes:
+      - quit
+    - id: u39-n3-16
+      type: word_bank
+      prompt: אפשר להצליח אם מנסים.
+      answers:
+      - You can succeed if you try.
+      distractors:
+      - retain
+      - quit
+      lexemes:
+      - succeed
+    - id: u39-n3-17
+      type: listening_choice
+      audioText: Never abandon your dream.
+      question: מה שמעתם?
+      options:
+      - לעולם אל תוותר על החלום שלך.
+      - הוא רוצה לעזוב את עבודתו.
+      - אפשר להצליח אם מנסים.
+      correct: 0
+      lexemes:
+      - abandon
+    - id: u39-n3-18
+      type: speak_repeat
+      text: I don't quit. I try to succeed.
+      translation: אני לא פורשת. אני מנסה להצליח.
+      lexemes:
+      - quit
+      - succeed

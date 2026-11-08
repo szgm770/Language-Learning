@@ -33,6 +33,24 @@ vocabulary:
   - { id: "to-be-honest", text: "to be honest", translation: "למען האמת, בכנות", pos: "phrase", pronunciation: "טוּ בִּי אוֹנֶסְט" }
   - { id: "point-taken", text: "That's a fair point.", translation: "נקודה הוגנת. צודק.", pos: "phrase", pronunciation: "דֶ'טְס אֵה פֶר פּוֹינְט" }
 
+  - { id: "quarter", text: "quarter", translation: "רבעון; רובע", pos: "noun", example: { text: "Sales grew in the last quarter.", translation: "המכירות גדלו ברבעון האחרון." } }
+  - { id: "strength", text: "strength", translation: "כוח; חוזקה", pos: "noun", example: { text: "Honesty is his strength.", translation: "יושרה היא החוזקה שלו." } }
+  - { id: "prefer", text: "prefer", translation: "להעדיף", pos: "verb", example: { text: "I prefer tea to coffee.", translation: "אני מעדיף תה על קפה." } }
+  - { id: "shift", text: "shift", translation: "משמרת", pos: "noun", example: { text: "He works the morning shift.", translation: "הוא עובד במשמרת בוקר." } }
+  - { id: "basis", text: "basis", translation: "בסיס", pos: "noun", example: { text: "On what basis did you decide?", translation: "על איזה בסיס החלטת?" } }
+  - { id: "prime", text: "prime", translation: "עיקרי; שיא", pos: "adjective", example: { text: "Our prime goal is to grow.", translation: "המטרה העיקרית שלנו היא לצמוח." } }
+  - { id: "appoint", text: "appoint", translation: "למנות", pos: "verb", example: { text: "They appoint a new manager.", translation: "הם ממנים מנהל חדש." } }
+  - { id: "employ", text: "employ", translation: "להעסיק", pos: "verb", example: { text: "The firm will employ ten workers.", translation: "החברה תעסיק עשרה עובדים." } }
+  - { id: "employer", text: "employer", translation: "מעסיק", pos: "noun", example: { text: "My employer is kind.", translation: "המעסיק שלי אדיב." } }
+  - { id: "bonus", text: "bonus", translation: "בונוס", pos: "noun", example: { text: "He got a bonus at work.", translation: "הוא קיבל בונוס בעבודה." } }
+  - { id: "retire", text: "retire", translation: "לפרוש", pos: "verb", example: { text: "He will retire next year.", translation: "הוא יפרוש בשנה הבאה." } }
+  - { id: "retirement", text: "retirement", translation: "פרישה", pos: "noun", example: { text: "Retirement is far away.", translation: "הפרישה רחוקה." } }
+  - { id: "expand", text: "expand", translation: "להתרחב", pos: "verb", example: { text: "The company wants to expand.", translation: "החברה רוצה להתרחב." } }
+  - { id: "adopt", text: "adopt", translation: "לאמץ", pos: "verb", example: { text: "We adopt a new method.", translation: "אנחנו מאמצים שיטה חדשה." } }
+  - { id: "initial", text: "initial", translation: "ראשוני", pos: "adjective", example: { text: "The initial results are good.", translation: "התוצאות הראשוניות טובות." } }
+  - { id: "aspect", text: "aspect", translation: "היבט", pos: "noun", example: { text: "This aspect is important.", translation: "ההיבט הזה חשוב." } }
+  - { id: "circumstance", text: "circumstance", translation: "נסיבה", pos: "noun", example: { text: "In any circumstance, we wait.", translation: "בכל נסיבה, אנחנו מחכים." } }
+  - { id: "outcome", text: "outcome", translation: "תוצאה", pos: "noun", example: { text: "The outcome was a surprise.", translation: "התוצאה הייתה הפתעה." } }
 grammar:
   - id: present-perfect-continuous
     title: { he: "כבר… ועדיין: I've been working", en: "Present perfect continuous" }
@@ -510,3 +528,503 @@ lessons:
             any: ["\\bwant to\\b", "\\bplan to\\b", "\\bhope to\\b", "\\bwould like to\\b", "\\bgoal\\b"]
         model: "This year has been a busy one. I have been leading a new project since January, and I have been learning how to manage a team. We achieved our main goal in October, which gave me a lot of confidence. Next year I hope to take on a bigger role and to travel more for work."
         lexemes: []
+  # ------------------------------------------------------------------ story words
+  - id: u31-n1
+    kind: new
+    title:
+      he: 'היומן של נועה: הרבעון והחוזקה'
+      en: 'Noa''s diary: the quarter and the strength'
+    exercises:
+    - id: u31-n1-01
+      type: dialogue
+      scene: שיחת משוב עם מר כהן בסוף הרבעון.
+      lines:
+      - speaker: cohen
+        text: This quarter your strength was leadership. On what basis do you prefer London?
+        translation: ברבעון הזה הכוח שלך היה מנהיגות. על איזה בסיס את מעדיפה את לונדון?
+      - speaker: noa
+        text: I work in the evening shift and I am in my prime.
+        translation: אני עובדת במשמרת ערב ואני בשיא הכוח.
+      - speaker: cohen
+        text: Your team follows you.
+        translation: הצוות שלך הולך אחריך.
+      - speaker: noa
+        text: I follow them too.
+        translation: גם אני הולכת אחריהם.
+    - id: u31-n1-02
+      type: learn
+      lexeme: quarter
+    - id: u31-n1-03
+      type: learn
+      lexeme: strength
+    - id: u31-n1-04
+      type: learn
+      lexeme: prefer
+    - id: u31-n1-05
+      type: learn
+      lexeme: shift
+    - id: u31-n1-06
+      type: learn
+      lexeme: basis
+    - id: u31-n1-07
+      type: learn
+      lexeme: prime
+    - id: u31-n1-08
+      type: match_pairs
+      pairs:
+      - - quarter
+        - רבעון; רובע
+      - - strength
+        - כוח; חוזקה
+      - - prefer
+        - להעדיף
+      - - shift
+        - משמרת
+      - - basis
+        - בסיס
+      - - prime
+        - עיקרי; שיא
+      lexemes:
+      - quarter
+      - strength
+      - prefer
+      - shift
+      - basis
+      - prime
+    - id: u31-n1-09
+      type: multiple_choice
+      prompt: prefer – מה הפירוש?
+      options:
+      - להעדיף
+      - כוח; חוזקה
+      - משמרת
+      correct: 0
+      lexemes:
+      - prefer
+    - id: u31-n1-10
+      type: multiple_choice
+      prompt: quarter – מה הפירוש?
+      options:
+      - רבעון; רובע
+      - משמרת
+      - להעדיף
+      correct: 0
+      lexemes:
+      - quarter
+    - id: u31-n1-11
+      type: multiple_choice
+      prompt: strength – מה הפירוש?
+      options:
+      - כוח; חוזקה
+      - בסיס
+      - עיקרי; שיא
+      correct: 0
+      lexemes:
+      - strength
+    - id: u31-n1-12
+      type: fill_blank
+      sentence: On what ___ did you decide?
+      translation: על איזה בסיס החלטת?
+      answers:
+      - basis
+      options:
+      - basis
+      - prime
+      - prefer
+      lexemes:
+      - basis
+    - id: u31-n1-13
+      type: fill_blank
+      sentence: He works the morning ___.
+      translation: הוא עובד במשמרת בוקר.
+      answers:
+      - shift
+      options:
+      - shift
+      - prefer
+      - quarter
+      lexemes:
+      - shift
+    - id: u31-n1-14
+      type: fill_blank
+      sentence: Our ___ goal is to grow.
+      translation: המטרה העיקרית שלנו היא לצמוח.
+      answers:
+      - prime
+      options:
+      - prime
+      - prefer
+      - basis
+      lexemes:
+      - prime
+    - id: u31-n1-15
+      type: word_bank
+      prompt: אני מעדיף תה על קפה.
+      answers:
+      - I prefer tea to coffee.
+      distractors:
+      - quarter
+      - basis
+      lexemes:
+      - prefer
+    - id: u31-n1-16
+      type: word_bank
+      prompt: המכירות גדלו ברבעון האחרון.
+      answers:
+      - Sales grew in the last quarter.
+      distractors:
+      - prefer
+      - shift
+      lexemes:
+      - quarter
+    - id: u31-n1-17
+      type: listening_choice
+      audioText: Honesty is his strength.
+      question: מה שמעתם?
+      options:
+      - יושרה היא החוזקה שלו.
+      - המכירות גדלו ברבעון האחרון.
+      - אני מעדיף תה על קפה.
+      correct: 0
+      lexemes:
+      - strength
+    - id: u31-n1-18
+      type: speak_repeat
+      text: My strength is leadership, and I prefer teamwork.
+      translation: החוזקה שלי היא מנהיגות, ואני מעדיפה עבודת צוות.
+      lexemes:
+      - strength
+      - prefer
+  - id: u31-n2
+    kind: new
+    title:
+      he: 'היומן של נועה: מינוי'
+      en: 'Noa''s diary: an appointment'
+    exercises:
+    - id: u31-n2-01
+      type: dialogue
+      scene: הצעות העבודה מגיעות.
+      lines:
+      - speaker: cohen
+        text: The employer wants to appoint you as a director.
+        translation: המעסיק רוצה למנות אותך למנהלת.
+      - speaker: noa
+        text: They employ a hundred people. What bonus do they offer?
+        translation: הם מעסיקים מאה אנשים. איזה בונוס הם מציעים?
+      - speaker: cohen
+        text: A good one. And the retirement plan is excellent.
+        translation: טוב. ותוכנית הפרישה מצוינת.
+      - speaker: noa
+        text: I'm not thinking about retirement yet!
+        translation: אני עוד לא חושבת על פרישה!
+    - id: u31-n2-02
+      type: learn
+      lexeme: appoint
+    - id: u31-n2-03
+      type: learn
+      lexeme: employ
+    - id: u31-n2-04
+      type: learn
+      lexeme: employer
+    - id: u31-n2-05
+      type: learn
+      lexeme: bonus
+    - id: u31-n2-06
+      type: learn
+      lexeme: retire
+    - id: u31-n2-07
+      type: learn
+      lexeme: retirement
+    - id: u31-n2-08
+      type: match_pairs
+      pairs:
+      - - appoint
+        - למנות
+      - - employ
+        - להעסיק
+      - - employer
+        - מעסיק
+      - - bonus
+        - בונוס
+      - - retire
+        - לפרוש
+      - - retirement
+        - פרישה
+      lexemes:
+      - appoint
+      - employ
+      - employer
+      - bonus
+      - retire
+      - retirement
+    - id: u31-n2-09
+      type: multiple_choice
+      prompt: employ – מה הפירוש?
+      options:
+      - להעסיק
+      - מעסיק
+      - בונוס
+      correct: 0
+      lexemes:
+      - employ
+    - id: u31-n2-10
+      type: multiple_choice
+      prompt: appoint – מה הפירוש?
+      options:
+      - למנות
+      - פרישה
+      - לפרוש
+      correct: 0
+      lexemes:
+      - appoint
+    - id: u31-n2-11
+      type: multiple_choice
+      prompt: retirement – מה הפירוש?
+      options:
+      - פרישה
+      - להעסיק
+      - למנות
+      correct: 0
+      lexemes:
+      - retirement
+    - id: u31-n2-12
+      type: fill_blank
+      sentence: My ___ is kind.
+      translation: המעסיק שלי אדיב.
+      answers:
+      - employer
+      options:
+      - employer
+      - appoint
+      - retirement
+      lexemes:
+      - employer
+    - id: u31-n2-13
+      type: fill_blank
+      sentence: He got a ___ at work.
+      translation: הוא קיבל בונוס בעבודה.
+      answers:
+      - bonus
+      options:
+      - bonus
+      - employ
+      - employer
+      lexemes:
+      - bonus
+    - id: u31-n2-14
+      type: fill_blank
+      sentence: He will ___ next year.
+      translation: הוא יפרוש בשנה הבאה.
+      answers:
+      - retire
+      options:
+      - retire
+      - retirement
+      - employ
+      lexemes:
+      - retire
+    - id: u31-n2-15
+      type: word_bank
+      prompt: החברה תעסיק עשרה עובדים.
+      answers:
+      - The firm will employ ten workers.
+      distractors:
+      - employer
+      - retirement
+      lexemes:
+      - employ
+    - id: u31-n2-16
+      type: word_bank
+      prompt: הם ממנים מנהל חדש.
+      answers:
+      - They appoint a new manager.
+      distractors:
+      - retire
+      - retirement
+      lexemes:
+      - appoint
+    - id: u31-n2-17
+      type: listening_choice
+      audioText: Retirement is far away.
+      question: מה שמעתם?
+      options:
+      - הפרישה רחוקה.
+      - הם ממנים מנהל חדש.
+      - החברה תעסיק עשרה עובדים.
+      correct: 0
+      lexemes:
+      - retirement
+    - id: u31-n2-18
+      type: speak_repeat
+      text: The employer will appoint me and employ my team.
+      translation: המעסיק ימנה אותי ויעסיק את הצוות שלי.
+      lexemes:
+      - appoint
+      - employ
+      - employer
+  - id: u31-n3
+    kind: new
+    title:
+      he: 'היומן של נועה: להתרחב'
+      en: 'Noa''s diary: expanding'
+    exercises:
+    - id: u31-n3-01
+      type: dialogue
+      scene: נועה שוקלת את שתי ההצעות.
+      lines:
+      - speaker: noa
+        text: If we expand to Tel Aviv, the initial aspect is the team.
+        translation: אם נתרחב לתל אביב, ההיבט הראשוני הוא הצוות.
+      - speaker: ben
+        text: Under these circumstances, the outcome depends on you.
+        translation: בנסיבות האלה, התוצאה תלויה בך.
+      - speaker: noa
+        text: I adopt a careful plan.
+        translation: אני מאמצת תוכנית זהירה.
+      - speaker: ben
+        text: Sleep on it.
+        translation: תישני על זה.
+    - id: u31-n3-02
+      type: learn
+      lexeme: expand
+    - id: u31-n3-03
+      type: learn
+      lexeme: adopt
+    - id: u31-n3-04
+      type: learn
+      lexeme: initial
+    - id: u31-n3-05
+      type: learn
+      lexeme: aspect
+    - id: u31-n3-06
+      type: learn
+      lexeme: circumstance
+    - id: u31-n3-07
+      type: learn
+      lexeme: outcome
+    - id: u31-n3-08
+      type: match_pairs
+      pairs:
+      - - expand
+        - להתרחב
+      - - adopt
+        - לאמץ
+      - - initial
+        - ראשוני
+      - - aspect
+        - היבט
+      - - circumstance
+        - נסיבה
+      - - outcome
+        - תוצאה
+      lexemes:
+      - expand
+      - adopt
+      - initial
+      - aspect
+      - circumstance
+      - outcome
+    - id: u31-n3-09
+      type: multiple_choice
+      prompt: adopt – מה הפירוש?
+      options:
+      - לאמץ
+      - נסיבה
+      - ראשוני
+      correct: 0
+      lexemes:
+      - adopt
+    - id: u31-n3-10
+      type: multiple_choice
+      prompt: expand – מה הפירוש?
+      options:
+      - להתרחב
+      - היבט
+      - לאמץ
+      correct: 0
+      lexemes:
+      - expand
+    - id: u31-n3-11
+      type: multiple_choice
+      prompt: aspect – מה הפירוש?
+      options:
+      - היבט
+      - נסיבה
+      - תוצאה
+      correct: 0
+      lexemes:
+      - aspect
+    - id: u31-n3-12
+      type: fill_blank
+      sentence: The ___ results are good.
+      translation: התוצאות הראשוניות טובות.
+      answers:
+      - initial
+      options:
+      - initial
+      - circumstance
+      - outcome
+      lexemes:
+      - initial
+    - id: u31-n3-13
+      type: fill_blank
+      sentence: In any ___, we wait.
+      translation: בכל נסיבה, אנחנו מחכים.
+      answers:
+      - circumstance
+      options:
+      - circumstance
+      - outcome
+      - aspect
+      lexemes:
+      - circumstance
+    - id: u31-n3-14
+      type: fill_blank
+      sentence: The ___ was a surprise.
+      translation: התוצאה הייתה הפתעה.
+      answers:
+      - outcome
+      options:
+      - outcome
+      - circumstance
+      - expand
+      lexemes:
+      - outcome
+    - id: u31-n3-15
+      type: word_bank
+      prompt: אנחנו מאמצים שיטה חדשה.
+      answers:
+      - We adopt a new method.
+      distractors:
+      - aspect
+      - circumstance
+      lexemes:
+      - adopt
+    - id: u31-n3-16
+      type: word_bank
+      prompt: החברה רוצה להתרחב.
+      answers:
+      - The company wants to expand.
+      distractors:
+      - aspect
+      - adopt
+      lexemes:
+      - expand
+    - id: u31-n3-17
+      type: listening_choice
+      audioText: This aspect is important.
+      question: מה שמעתם?
+      options:
+      - ההיבט הזה חשוב.
+      - החברה רוצה להתרחב.
+      - אנחנו מאמצים שיטה חדשה.
+      correct: 0
+      lexemes:
+      - aspect
+    - id: u31-n3-18
+      type: speak_repeat
+      text: We expand and adopt a new plan.
+      translation: אנחנו מתרחבים ומאמצים תוכנית חדשה.
+      lexemes:
+      - expand
+      - adopt

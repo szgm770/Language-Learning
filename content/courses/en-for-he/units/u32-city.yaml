@@ -33,6 +33,24 @@ vocabulary:
   - { id: "i-see-your-point", text: "I see your point, but…", translation: "אני מבין את הטענה שלך, אבל…", pos: "phrase", pronunciation: "אַיי סִי יוֹר פּוֹינְט בַּאט" }
   - { id: "lonely", text: "lonely", translation: "בודד", pos: "adjective", pronunciation: "לוֹנְלִי" }
 
+  - { id: "estate", text: "estate", translation: "אחוזה; נכס", pos: "noun", example: { text: "The estate has a big garden.", translation: "לאחוזה יש גינה גדולה." } }
+  - { id: "urban", text: "urban", translation: "עירוני", pos: "adjective", example: { text: "Urban life is busy.", translation: "החיים העירוניים עמוסים." } }
+  - { id: "rural", text: "rural", translation: "כפרי", pos: "adjective", example: { text: "She grew up in a rural area.", translation: "היא גדלה באזור כפרי." } }
+  - { id: "regional", text: "regional", translation: "אזורי", pos: "adjective", example: { text: "There is a regional bus.", translation: "יש אוטובוס אזורי." } }
+  - { id: "province", text: "province", translation: "מחוז", pos: "noun", example: { text: "The province is large.", translation: "המחוז גדול." } }
+  - { id: "territory", text: "territory", translation: "שטח; טריטוריה", pos: "noun", example: { text: "This territory is dry.", translation: "השטח הזה יבש." } }
+  - { id: "farmer", text: "farmer", translation: "חקלאי", pos: "noun", example: { text: "The farmer works in the field.", translation: "החקלאי עובד בשדה." } }
+  - { id: "stadium", text: "stadium", translation: "אצטדיון", pos: "noun", example: { text: "The stadium is full.", translation: "האצטדיון מלא." } }
+  - { id: "tower", text: "tower", translation: "מגדל", pos: "noun", example: { text: "The tower is tall.", translation: "המגדל גבוה." } }
+  - { id: "factory", text: "factory", translation: "מפעל", pos: "noun", example: { text: "The factory makes bread.", translation: "המפעל מייצר לחם." } }
+  - { id: "highway", text: "highway", translation: "כביש מהיר", pos: "noun", example: { text: "The highway is busy.", translation: "הכביש המהיר עמוס." } }
+  - { id: "mill", text: "mill", translation: "טחנה", pos: "noun", example: { text: "The old mill is closed.", translation: "הטחנה הישנה סגורה." } }
+  - { id: "everywhere", text: "everywhere", translation: "בכל מקום", pos: "adverb", example: { text: "I see this brand everywhere.", translation: "אני רואה את המותג הזה בכל מקום." } }
+  - { id: "somewhat", text: "somewhat", translation: "במקצת", pos: "adverb", example: { text: "The film was somewhat long.", translation: "הסרט היה ארוך במקצת." } }
+  - { id: "relatively", text: "relatively", translation: "יחסית", pos: "adverb", example: { text: "The price is relatively low.", translation: "המחיר נמוך יחסית." } }
+  - { id: "mainly", text: "mainly", translation: "בעיקר", pos: "adverb", example: { text: "We work mainly in the morning.", translation: "אנחנו עובדים בעיקר בבוקר." } }
+  - { id: "widely", text: "widely", translation: "באופן נרחב", pos: "adverb", example: { text: "English is widely spoken.", translation: "מדברים אנגלית באופן נרחב." } }
+  - { id: "approximately", text: "approximately", translation: "בערך", pos: "adverb", example: { text: "It costs approximately ten pounds.", translation: "זה עולה בערך עשר לירות." } }
 grammar:
   - id: contrast-so-such
     title: { he: "ניגוד ועוצמה: although, despite, so, such", en: "Contrast; so and such; too and enough" }
@@ -503,3 +521,503 @@ lessons:
             any: ["\\bhowever\\b", "\\balthough\\b", "\\bwhile\\b", "\\bbut\\b", "\\bdespite\\b"]
         model: "I would prefer to live in a small town. The city is so noisy that I cannot rest, and flats are too expensive for young families. However, a town has enough space and fresh air, and it is such a friendly place. Although jobs are fewer, I think the quality of life is better."
         lexemes: []
+  # ------------------------------------------------------------------ story words
+  - id: u32-n1
+    kind: new
+    title:
+      he: 'היומן של נועה: אזורים'
+      en: 'Noa''s diary: areas'
+    exercises:
+    - id: u32-n1-01
+      type: dialogue
+      scene: רחל, שחזרה מאוסטרליה, מספרת על ההבדלים.
+      lines:
+      - speaker: rachel
+        text: The estate where I live is in a rural province.
+        translation: האחוזה שבה אני גרה נמצאת במחוז כפרי.
+      - speaker: noa
+        text: Is it far from the urban centre?
+        translation: זה רחוק מהמרכז העירוני?
+      - speaker: rachel
+        text: The regional train takes two hours. The territory is huge.
+        translation: הרכבת האזורית נוסעת שעתיים. השטח עצום.
+      - speaker: noa
+        text: Quiet life.
+        translation: חיים שקטים.
+    - id: u32-n1-02
+      type: learn
+      lexeme: estate
+    - id: u32-n1-03
+      type: learn
+      lexeme: urban
+    - id: u32-n1-04
+      type: learn
+      lexeme: rural
+    - id: u32-n1-05
+      type: learn
+      lexeme: regional
+    - id: u32-n1-06
+      type: learn
+      lexeme: province
+    - id: u32-n1-07
+      type: learn
+      lexeme: territory
+    - id: u32-n1-08
+      type: match_pairs
+      pairs:
+      - - estate
+        - אחוזה; נכס
+      - - urban
+        - עירוני
+      - - rural
+        - כפרי
+      - - regional
+        - אזורי
+      - - province
+        - מחוז
+      - - territory
+        - שטח; טריטוריה
+      lexemes:
+      - estate
+      - urban
+      - rural
+      - regional
+      - province
+      - territory
+    - id: u32-n1-09
+      type: multiple_choice
+      prompt: territory – מה הפירוש?
+      options:
+      - שטח; טריטוריה
+      - מחוז
+      - כפרי
+      correct: 0
+      lexemes:
+      - territory
+    - id: u32-n1-10
+      type: multiple_choice
+      prompt: regional – מה הפירוש?
+      options:
+      - אזורי
+      - אחוזה; נכס
+      - כפרי
+      correct: 0
+      lexemes:
+      - regional
+    - id: u32-n1-11
+      type: multiple_choice
+      prompt: urban – מה הפירוש?
+      options:
+      - עירוני
+      - אחוזה; נכס
+      - כפרי
+      correct: 0
+      lexemes:
+      - urban
+    - id: u32-n1-12
+      type: fill_blank
+      sentence: The ___ has a big garden.
+      translation: לאחוזה יש גינה גדולה.
+      answers:
+      - estate
+      options:
+      - estate
+      - province
+      - urban
+      lexemes:
+      - estate
+    - id: u32-n1-13
+      type: fill_blank
+      sentence: She grew up in a ___ area.
+      translation: היא גדלה באזור כפרי.
+      answers:
+      - rural
+      options:
+      - rural
+      - regional
+      - urban
+      lexemes:
+      - rural
+    - id: u32-n1-14
+      type: fill_blank
+      sentence: The ___ is large.
+      translation: המחוז גדול.
+      answers:
+      - province
+      options:
+      - province
+      - urban
+      - estate
+      lexemes:
+      - province
+    - id: u32-n1-15
+      type: word_bank
+      prompt: השטח הזה יבש.
+      answers:
+      - This territory is dry.
+      distractors:
+      - province
+      - rural
+      lexemes:
+      - territory
+    - id: u32-n1-16
+      type: word_bank
+      prompt: יש אוטובוס אזורי.
+      answers:
+      - There is a regional bus.
+      distractors:
+      - rural
+      - province
+      lexemes:
+      - regional
+    - id: u32-n1-17
+      type: listening_choice
+      audioText: Urban life is busy.
+      question: מה שמעתם?
+      options:
+      - החיים העירוניים עמוסים.
+      - לאחוזה יש גינה גדולה.
+      - היא גדלה באזור כפרי.
+      correct: 0
+      lexemes:
+      - urban
+    - id: u32-n1-18
+      type: speak_repeat
+      text: The rural province has a big territory.
+      translation: במחוז הכפרי יש שטח גדול.
+      lexemes:
+      - rural
+      - province
+      - territory
+  - id: u32-n2
+    kind: new
+    title:
+      he: 'היומן של נועה: במקום קטן'
+      en: 'Noa''s diary: in a small place'
+    exercises:
+    - id: u32-n2-01
+      type: dialogue
+      scene: סוף שבוע בכפר האנגלי.
+      lines:
+      - speaker: ben
+        text: The farmer sells fresh milk near the mill.
+        translation: החקלאי מוכר חלב טרי ליד הטחנה.
+      - speaker: noa
+        text: There is a tower with a clock and a stadium behind the factory.
+        translation: יש מגדל עם שעון ואצטדיון מאחורי המפעל.
+      - speaker: ben
+        text: The highway is five minutes away.
+        translation: הכביש המהיר במרחק חמש דקות.
+      - speaker: noa
+        text: Perfect balance.
+        translation: איזון מושלם.
+    - id: u32-n2-02
+      type: learn
+      lexeme: farmer
+    - id: u32-n2-03
+      type: learn
+      lexeme: stadium
+    - id: u32-n2-04
+      type: learn
+      lexeme: tower
+    - id: u32-n2-05
+      type: learn
+      lexeme: factory
+    - id: u32-n2-06
+      type: learn
+      lexeme: highway
+    - id: u32-n2-07
+      type: learn
+      lexeme: mill
+    - id: u32-n2-08
+      type: match_pairs
+      pairs:
+      - - farmer
+        - חקלאי
+      - - stadium
+        - אצטדיון
+      - - tower
+        - מגדל
+      - - factory
+        - מפעל
+      - - highway
+        - כביש מהיר
+      - - mill
+        - טחנה
+      lexemes:
+      - farmer
+      - stadium
+      - tower
+      - factory
+      - highway
+      - mill
+    - id: u32-n2-09
+      type: multiple_choice
+      prompt: factory – מה הפירוש?
+      options:
+      - מפעל
+      - חקלאי
+      - טחנה
+      correct: 0
+      lexemes:
+      - factory
+    - id: u32-n2-10
+      type: multiple_choice
+      prompt: highway – מה הפירוש?
+      options:
+      - כביש מהיר
+      - חקלאי
+      - מגדל
+      correct: 0
+      lexemes:
+      - highway
+    - id: u32-n2-11
+      type: multiple_choice
+      prompt: farmer – מה הפירוש?
+      options:
+      - חקלאי
+      - טחנה
+      - כביש מהיר
+      correct: 0
+      lexemes:
+      - farmer
+    - id: u32-n2-12
+      type: fill_blank
+      sentence: The old ___ is closed.
+      translation: הטחנה הישנה סגורה.
+      answers:
+      - mill
+      options:
+      - mill
+      - factory
+      - tower
+      lexemes:
+      - mill
+    - id: u32-n2-13
+      type: fill_blank
+      sentence: The ___ is full.
+      translation: האצטדיון מלא.
+      answers:
+      - stadium
+      options:
+      - stadium
+      - farmer
+      - factory
+      lexemes:
+      - stadium
+    - id: u32-n2-14
+      type: fill_blank
+      sentence: The ___ is tall.
+      translation: המגדל גבוה.
+      answers:
+      - tower
+      options:
+      - tower
+      - mill
+      - stadium
+      lexemes:
+      - tower
+    - id: u32-n2-15
+      type: word_bank
+      prompt: המפעל מייצר לחם.
+      answers:
+      - The factory makes bread.
+      distractors:
+      - highway
+      - tower
+      lexemes:
+      - factory
+    - id: u32-n2-16
+      type: word_bank
+      prompt: הכביש המהיר עמוס.
+      answers:
+      - The highway is busy.
+      distractors:
+      - factory
+      - tower
+      lexemes:
+      - highway
+    - id: u32-n2-17
+      type: listening_choice
+      audioText: The farmer works in the field.
+      question: מה שמעתם?
+      options:
+      - החקלאי עובד בשדה.
+      - האצטדיון מלא.
+      - המגדל גבוה.
+      correct: 0
+      lexemes:
+      - farmer
+    - id: u32-n2-18
+      type: speak_repeat
+      text: The farmer lives near the old mill.
+      translation: החקלאי גר ליד הטחנה הישנה.
+      lexemes:
+      - farmer
+      - mill
+  - id: u32-n3
+    kind: new
+    title:
+      he: 'היומן של נועה: ככלל'
+      en: 'Noa''s diary: in general'
+    exercises:
+    - id: u32-n3-01
+      type: dialogue
+      scene: סיכום ההשוואה בין עיר לכפר.
+      lines:
+      - speaker: noa
+        text: Everywhere has its price. Life in the city is somewhat expensive.
+        translation: לכל מקום יש מחיר. החיים בעיר יקרים במקצת.
+      - speaker: rachel
+        text: Relatively, yes. Mainly because of rent.
+        translation: יחסית, כן. בעיקר בגלל שכר דירה.
+      - speaker: noa
+        text: This idea is widely known. Approximately half of the people think so.
+        translation: הרעיון הזה ידוע לרוב. בערך מחצית מהאנשים חושבים כך.
+      - speaker: rachel
+        text: Then it's a choice.
+        translation: אז זו בחירה.
+    - id: u32-n3-02
+      type: learn
+      lexeme: everywhere
+    - id: u32-n3-03
+      type: learn
+      lexeme: somewhat
+    - id: u32-n3-04
+      type: learn
+      lexeme: relatively
+    - id: u32-n3-05
+      type: learn
+      lexeme: mainly
+    - id: u32-n3-06
+      type: learn
+      lexeme: widely
+    - id: u32-n3-07
+      type: learn
+      lexeme: approximately
+    - id: u32-n3-08
+      type: match_pairs
+      pairs:
+      - - everywhere
+        - בכל מקום
+      - - somewhat
+        - במקצת
+      - - relatively
+        - יחסית
+      - - mainly
+        - בעיקר
+      - - widely
+        - באופן נרחב
+      - - approximately
+        - בערך
+      lexemes:
+      - everywhere
+      - somewhat
+      - relatively
+      - mainly
+      - widely
+      - approximately
+    - id: u32-n3-09
+      type: multiple_choice
+      prompt: relatively – מה הפירוש?
+      options:
+      - יחסית
+      - בעיקר
+      - בערך
+      correct: 0
+      lexemes:
+      - relatively
+    - id: u32-n3-10
+      type: multiple_choice
+      prompt: everywhere – מה הפירוש?
+      options:
+      - בכל מקום
+      - באופן נרחב
+      - יחסית
+      correct: 0
+      lexemes:
+      - everywhere
+    - id: u32-n3-11
+      type: multiple_choice
+      prompt: somewhat – מה הפירוש?
+      options:
+      - במקצת
+      - בכל מקום
+      - בעיקר
+      correct: 0
+      lexemes:
+      - somewhat
+    - id: u32-n3-12
+      type: fill_blank
+      sentence: It costs ___ ten pounds.
+      translation: זה עולה בערך עשר לירות.
+      answers:
+      - approximately
+      options:
+      - approximately
+      - mainly
+      - somewhat
+      lexemes:
+      - approximately
+    - id: u32-n3-13
+      type: fill_blank
+      sentence: English is ___ spoken.
+      translation: מדברים אנגלית באופן נרחב.
+      answers:
+      - widely
+      options:
+      - widely
+      - approximately
+      - mainly
+      lexemes:
+      - widely
+    - id: u32-n3-14
+      type: fill_blank
+      sentence: We work ___ in the morning.
+      translation: אנחנו עובדים בעיקר בבוקר.
+      answers:
+      - mainly
+      options:
+      - mainly
+      - somewhat
+      - approximately
+      lexemes:
+      - mainly
+    - id: u32-n3-15
+      type: word_bank
+      prompt: המחיר נמוך יחסית.
+      answers:
+      - The price is relatively low.
+      distractors:
+      - everywhere
+      - approximately
+      lexemes:
+      - relatively
+    - id: u32-n3-16
+      type: word_bank
+      prompt: אני רואה את המותג הזה בכל מקום.
+      answers:
+      - I see this brand everywhere.
+      distractors:
+      - relatively
+      - approximately
+      lexemes:
+      - everywhere
+    - id: u32-n3-17
+      type: listening_choice
+      audioText: The film was somewhat long.
+      question: מה שמעתם?
+      options:
+      - הסרט היה ארוך במקצת.
+      - אני רואה את המותג הזה בכל מקום.
+      - המחיר נמוך יחסית.
+      correct: 0
+      lexemes:
+      - somewhat
+    - id: u32-n3-18
+      type: speak_repeat
+      text: It is relatively cheap, mainly in the village.
+      translation: זה זול יחסית, בעיקר בכפר.
+      lexemes:
+      - relatively
+      - mainly
