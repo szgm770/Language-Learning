@@ -5,7 +5,7 @@ import { Fragment, useState } from "react";
 import { type UnitPack } from "@/lib/content";
 import { courseName, languageName } from "@/lib/languages";
 import { levelInfo, levelRange } from "@/lib/levels";
-import { isCompleted, lessonOpen } from "@/lib/progress";
+import { isCompleted, isOptional, lessonOpen, nextLesson } from "@/lib/progress";
 import { useLearner } from "@/lib/store";
 import type { CourseManifest } from "@lingo/content-schema";
 import { SCENE_HUE, SceneArt } from "./art";
@@ -34,9 +34,7 @@ export function CoursePath({
   const { state } = useLearner();
   const all = units.flatMap((u) => u.lessons);
   const doneAll = all.filter((l) => isCompleted(state, courseId, l.id)).length;
-  const currentUnit = units.find((u) =>
-    u.lessons.some((l) => !isCompleted(state, courseId, l.id)),
-  )?.id;
+  const currentUnit = nextLesson(state, courseId, units)?.unit.id;
   const [open, setOpen] = useState<string | undefined>(currentUnit);
 
   return (
@@ -70,9 +68,28 @@ export function CoursePath({
           );
           const expanded = open === unit.id;
           const hue = SCENE_HUE[unit.scene];
-          const newLevel = ui === 0 || units[ui - 1]!.cefr !== unit.cefr;
+          const prev = units[ui - 1];
+          const section = unit.section ? manifest.sections?.find((x) => x.id === unit.section) : undefined;
+          const newSection = !!unit.section && prev?.section !== unit.section;
+          const newLevel = !unit.section && (ui === 0 || prev!.cefr !== unit.cefr);
+          const skipTo = isOptional(unit) && newLevel ? units.find((u) => !isOptional(u) && !u.section) : undefined;
           return (
             <Fragment key={unit.id}>
+              {newSection && section && (
+                <li className="flex flex-col gap-1 pt-6" data-section={section.id}>
+                  <h2 className="text-2xl font-bold">{section.title.he}</h2>
+                  <p className="text-ink-soft">{section.about}</p>
+                  <p className="text-sm font-semibold text-mint-strong">פתוח לכולם: אפשר להתחיל כאן בכל שלב</p>
+                </li>
+              )}
+              {skipTo && (
+                <li className="flex flex-wrap items-center justify-between gap-2 rounded-2xl bg-sunken p-4" data-optional-prep>
+                  <span className="text-ink-soft">שלב ההכנה הוא רשות. מי שכבר מכיר את האותיות והצלילים יכול לדלג.</span>
+                  <Link href={`/lesson/${courseId}/${skipTo.lessons[0]!.id}/`} className="text-sm font-semibold text-cobalt">
+                    דילוג לשיעור הראשון של ״{skipTo.title.he}״
+                  </Link>
+                </li>
+              )}
               {newLevel && (
                 <li
                   className="flex items-end justify-between gap-3 pt-4"
@@ -103,7 +120,7 @@ export function CoursePath({
                   <SceneArt scene={unit.scene} className="size-18 shrink-0" />
                   <span className="flex min-w-0 flex-1 flex-col gap-1">
                     <span className="text-sm text-ink-soft">
-                      יחידה {ui + 1}, {levelInfo(manifest, unit.cefr).short}
+                      יחידה {ui + 1}, {section ? section.title.he : levelInfo(manifest, unit.cefr).short}
                     </span>
                     <span className="text-xl font-bold">{unit.title.he}</span>
                     <span className="h-2 overflow-hidden rounded-full bg-sunken">

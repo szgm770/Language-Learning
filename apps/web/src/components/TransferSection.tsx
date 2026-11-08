@@ -273,7 +273,7 @@ function Manual({ courseId, units, stages, onPick }: { courseId: string; units: 
         <select className={field} value={ui} onChange={(e) => { setUi(Number(e.target.value)); setLi(0); }}>
           {units.map((u, i) => (
             <option key={u.id} value={i}>
-              {levelInfo({ stages }, u.cefr).short} · {i + 1}. {u.title.he}
+              {u.section ? "ענף" : levelInfo({ stages }, u.cefr).short} · {i + 1}. {u.title.he}
             </option>
           ))}
         </select>

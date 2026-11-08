@@ -7,7 +7,7 @@ title:
   he: ארמית של הגמרא
   en: Aramaic of the Talmud
 description:
-  he: "לקרוא ולהבין את הגמרא: איתן מפענח את ההערות שסבו השאיר בשולי הש״ס. כל משפט הוא ציטוט אמיתי עם מקור. הטקסט: ויקיטקסט (CC BY-SA); הניקוד: מהדורת וויליאם דייוידסון בספריא (CC BY-NC)."
+  he: "לקרוא ולהבין את הגמרא, ואחר כך תרגום אונקלוס, דניאל ועזרא, הירושלמי והזוהר: איתן מפענח את ההערות שסבו השאיר בשולי הש״ס. כל משפט הוא ציטוט אמיתי עם מקור. מקורות: ויקיטקסט (CC BY-SA), מהדורת וויליאם דייוידסון (CC BY-NC), תורת אמת, תרגום הרב דן בארי (CC BY-SA), מהדורת גוגנהיימר (CC BY), מהדורת הסולם."
   en: "Reading the Talmud: Eitan decodes the notes his grandfather left in the margins of his Shas. Every sentence is a real quotation with its source. Text: Wikisource (CC BY-SA); vocalisation: William Davidson Edition on Sefaria (CC BY-NC)."
 stages:
   - { level: A0, name: { he: "היכרות עם הדף", en: "Meeting the page" }, about: "קריאה בלי ניקוד, קיצורים, ומה עברית ומה ארמית בדף" }
@@ -15,6 +15,11 @@ stages:
   - { level: A2, name: { he: "פעלים וכינויים", en: "Verbs and pronouns" }, about: "אנא, את, איהו, אנן; עבר, הווה ועתיד" }
   - { level: B1, name: { he: "מבנה הסוגיה", en: "How a sugya works" }, about: "קושיא ותירוץ, איבעיא, דיוק, מחלוקת, תא שמע" }
   - { level: B2, name: { he: "סוגיה שלמה", en: "A whole sugya" }, about: "קריאה עצמאית של קטעים ארוכים" }
+sections:
+  - { id: onkelos, title: { he: "תרגום אונקלוס", en: "Targum Onkelos" }, about: "ארמית של תרגום אונקלוס, ל״שניים מקרא ואחד תרגום״: איתן ור׳ ישראל לומדים פרשה בכל יום שישי." }
+  - { id: mikra, title: { he: "ארמית מקראית: דניאל ועזרא", en: "Biblical Aramaic: Daniel and Ezra" }, about: "הארמית של ספרי דניאל ועזרא: חנה ואיתן קוראים על גלות בבל ועל השיבה לציון." }
+  - { id: yerushalmi, title: { he: "הירושלמי", en: "The Jerusalem Talmud" }, about: "ההבדלים בין הארמית של התלמוד הירושלמי לבבלי: איתן, חנה ור׳ ישראל בטבריה ובציפורי." }
+  - { id: zohar, title: { he: "הזוהר", en: "The Zohar" }, about: "הלשון של ספר הזוהר: ל״ג בעומר במירון עם איתן, חנה ור׳ ישראל, ועד ״בריך שמיה״." }
 characters:
   - { id: "eitan", name: "איתן", he: "איתן", color: "blue", look: "short", pitch: 1.0 }
   - { id: "yisrael", name: "ר׳ ישראל", he: "ר׳ ישראל", color: "teal", look: "bald", pitch: 0.8 }
@@ -47,3 +52,29 @@ units:
   - u22-hillel
   - u23-metzaatiha
   - u24-hadran
+  - o01-yat
+  - o02-avuhi
+  - o03-alma
+  - o04-gavra
+  - o05-akeda
+  - o06-madbecha
+  - o07-minyan
+  - o11-tavid
+  - o08-meimra
+  - o09-yama
+  - o10-shema
+  - m01-chelma
+  - m02-tselma
+  - m03-atuna
+  - m04-gova
+  - m05-chezvan
+  - m06-bayta
+  - y01-tamman
+  - y02-kaymin
+  - y03-eal
+  - y04-margalita
+  - z01-ta-chazi
+  - z02-ila-tata
+  - z03-nehora
+  - z04-bar-nash
+  - z05-brich-shmei

@@ -1,0 +1,591 @@
+id: o08-meimra
+cefr: B1
+section: onkelos
+scene: study
+title:
+  he: מימרא דיי
+  en: The word of God
+story: 'פרשת יתרו. איתן מגלה שאונקלוס נזהר מאוד כשהוא מתרגם פסוקים על הקב״ה: ״מימרא״, ״קדם יי״, ״יקרא״, ״שכינתא״, ״אתגלי״.'
+canDo:
+- להבין למה אונקלוס כותב ״קדם יי״ ו״מימרא דיי״
+- להבין יקרא, שכינתא, אתגלי, ברעוא
+- להבין פתגמא, אוריתא, קימי
+vocabulary:
+- id: kodam
+  text: קדם
+  translation: לפני
+  pos: preposition
+  example:
+    text: וסגיד אברהם קדם עמא דארעא
+    translation: 'בתורה: וַיִּשְׁתַּחוּ אַבְרָהָם לִפְנֵי עַם הָאָרֶץ'
+    source: תרגום אונקלוס, בראשית כג, יב
+    vocalized: וּסְגִיד אַבְרָהָם קֳדָם עַמָּא דְאַרְעָא
+- id: meimra
+  text: מימרא
+  translation: דבר (ה׳), ״מאמר״
+  pos: noun
+  example:
+    text: ונטלו בקדמיתא על מימרא דיי בידא דמשה
+    translation: 'בתורה: וַיִּסְעוּ בָּרִאשֹׁנָה עַל־פִּי יְהוָה בְּיַד־מֹשֶׁה'
+    source: תרגום אונקלוס, במדבר י, יג
+    vocalized: וּנְטָלוּ בְקַדְמֵיתָא עַל מֵימְרָא דַיְיָ בִּידָא דְמשֶׁה
+- id: yekara
+  text: יקרא
+  translation: הכבוד
+  pos: noun
+  example:
+    text: ושיצי למללא עמה ואסתלק יקרא דיי מעלווהי דאברהם
+    translation: 'בתורה: וַיְכַל לְדַבֵּר אִתּוֹ וַיַּעַל אֱלֹהִים מֵעַל אַבְרָהָם'
+    source: תרגום אונקלוס, בראשית יז, כב
+    vocalized: וְשֵׁיצֵי לְמַלָּלָא עִמֵהּ וְאִסְתַּלַּק יְקָרָא דַיְיָ מֵעִלָּווֹהִי דְּאַבְרָהָם
+- id: shechinta
+  text: שכינתא
+  translation: השכינה
+  pos: noun
+  example:
+    text: וקרא שמא דאתרא נסיתא ומצותא על דנצו בני ישראל ועל דנסיאו קדם יי למימר האית שכינתא דיי ביננא אם לא
+    translation: 'בתורה: וַיִּקְרָא שֵׁם הַמָּקוֹם מַסָּה וּמְרִיבָה עַל־רִיב בְּנֵי יִשְׂרָאֵל וְעַל נַסֹּתָם אֶת־יְהוָה לֵאמֹר הֲיֵשׁ יְהוָה בְּקִרְבֵּנוּ אִם־אָיִן'
+    source: תרגום אונקלוס, שמות יז, ז
+    vocalized: וּקְרָא שְׁמָא דְאַתְרָא נִסֵיתָא וּמַצוּתָא עַל דִנְצוֹ בְּנֵי יִשְׂרָאֵל וְעַל דְנַסִיאוּ קֳדָם יְיָ לְמֵימַר הֲאִית שְׁכִינְתָּא דַיְיָ בֵּינָנָא אִם לָא
+- id: itgeli
+  text: אתגלי
+  translation: נגלה
+  pos: verb
+  example:
+    text: ולא קם נביא עוד בישראל כמשה די אתגלי לה יי אפין באפין
+    translation: 'בתורה: וְלֹא־קָם נָבִיא עוֹד בְּיִשְׂרָאֵל כְּמֹשֶׁה אֲשֶׁר יְדָעוֹ יְהוָה פָּנִים אֶל־פָּנִים'
+    source: תרגום אונקלוס, דברים לד, י
+    vocalized: וְלָא קָם נְבִיָא עוֹד בְּיִשְׂרָאֵל כְּמֹשֶׁה דִי אִתְגְלִי לֵהּ יְיָ אַפִּין בְּאַפִּין
+- id: bereava
+  text: ברעוא
+  translation: ברצון
+  pos: adverb
+  example:
+    text: וחמרא לנסכא תלתות הינא תקרב לאתקבלא ברעוא קדם יי
+    translation: 'בתורה: וְיַיִן לַנֶּסֶךְ שְׁלִשִׁית הַהִין תַּקְרִיב רֵיחַ־נִיחֹחַ לַיהוָה'
+    source: תרגום אונקלוס, במדבר טו, ז
+    vocalized: וְחַמְרָא לְנִסְכָּא תַּלְתּוּת הִינָא תְּקָרֵב לְאִתְקַבָּלָא בְרַעֲוָא קֳדָם יְיָ
+- id: pitgama
+  text: פתגמא
+  translation: הדבר
+  pos: noun
+  example:
+    text: וקניאו בה אחוהי ואבוהי נטר ית פתגמא
+    translation: 'בתורה: וַיְקַנְאוּ־בוֹ אֶחָיו וְאָבִיו שָׁמַר אֶת־הַדָּבָר'
+    source: תרגום אונקלוס, בראשית לז, יא
+    vocalized: וְקַנִּיאוּ בֵהּ אֲחוֹהִי וַאֲבוּהִי נְטַר יָת פִּתְגָמָא
+- id: orayta
+  text: אוריתא
+  translation: התורה
+  pos: noun
+  example:
+    text: דא אוריתא לכל מכתש סגירותא ולנתקא
+    translation: 'בתורה: זֹאת הַתּוֹרָה לְכָל־נֶגַע הַצָּרַעַת וְלַנָּתֶק'
+    source: תרגום אונקלוס, ויקרא יד, נד
+    vocalized: דָא אוֹרַיְתָא לְכָל מַכְתַּשׁ סְגִירוּתָא וּלְנִתְקָא
+- id: kayami
+  text: קימי
+  translation: בריתי
+  pos: noun
+  example:
+    text: אנא הא קימי עמך ותהי לאב סגי עממין
+    translation: 'בתורה: אֲנִי הִנֵּה בְרִיתִי אִתָּךְ וְהָיִיתָ לְאַב הֲמוֹן גּוֹיִם'
+    source: תרגום אונקלוס, בראשית יז, ד
+    vocalized: אֲנָא הָא קְיָמִי עִמָךְ וּתְהֵי לְאַב סַגִי עַמְמִין
+- id: alam
+  text: עלם
+  translation: עולם
+  pos: noun
+  example:
+    text: ויהון בך לאת ולמופת ובבניך עד עלם
+    translation: 'בתורה: וְהָיוּ בְךָ לְאוֹת וּלְמוֹפֵת וּבְזַרְעֲךָ עַד־עוֹלָם'
+    source: תרגום אונקלוס, דברים כח, מו
+    vocalized: וִיהוֹן בָּךְ לְאָת וּלְמוֹפֵת וּבִבְנָיךְ עַד עֳלָם
+- id: kudsha
+  text: קודשא
+  translation: הקודש
+  pos: noun
+  example:
+    text: ותעבד לבושי קודשא לאהרן אחוך ליקר ולתשבחן
+    translation: 'בתורה: וְעָשִׂיתָ בִגְדֵי־קֹדֶשׁ לְאַהֲרֹן אָחִיךָ לְכָבוֹד וּלְתִפְאָרֶת'
+    source: תרגום אונקלוס, שמות כח, ב
+    vocalized: וְתַעְבֵּד לְבוּשֵׁי קוּדְשָׁא לְאַהֲרֹן אָחוּךְ לִיקָר וּלְתֻשְׁבְּחָן
+- id: rachamin
+  text: רחמין
+  translation: רחמים
+  pos: noun
+  example:
+    text: ונח אשכח רחמין קדם יי
+    translation: 'בתורה: וְנֹחַ מָצָא חֵן בְּעֵינֵי יְהוָה'
+    source: תרגום אונקלוס, בראשית ו, ח
+    vocalized: וְנֹחַ אַשְׁכַּח רַחֲמִין קֳדָם יְיָ
+grammar: []
+lessons:
+- id: o08-l1
+  kind: new
+  title:
+    he: קדם יי
+    en: Before God
+  exercises:
+  - id: o08-l1-01
+    type: dialogue
+    scene: יום שישי. איתן הגיע עם שאלה.
+    lines:
+    - speaker: eitan
+      text: למה כשכתוב בתורה ״וירא ה׳״, אונקלוס כותב ״ואתגלי יי״, נגלה?
+      translation: השאלה
+    - speaker: yisrael
+      text: כי אונקלוס זהיר. לא ״ראה ה׳״ כמו אדם, אלא ״גלוי קדם יי״, ״לפני ה׳״. ולא ״אמר ה׳ לי״, אלא ״מימרא דיי״.
+      translation: קדם יי
+    - speaker: eitan
+      text: גם סבא היה זהיר ככה בדיבור.
+      translation: איתן
+  - id: o08-l1-02
+    type: learn
+    lexeme: kodam
+  - id: o08-l1-03
+    type: learn
+    lexeme: meimra
+  - id: o08-l1-04
+    type: learn
+    lexeme: yekara
+  - id: o08-l1-05
+    type: learn
+    lexeme: shechinta
+  - id: o08-l1-06
+    type: learn
+    lexeme: itgeli
+  - id: o08-l1-07
+    type: learn
+    lexeme: bereava
+  - id: o08-l1-08
+    type: match_pairs
+    pairs:
+    - - קדם
+      - לפני
+    - - מימרא
+      - דבר (ה׳), ״מאמר״
+    - - יקרא
+      - הכבוד
+    - - שכינתא
+      - השכינה
+    - - אתגלי
+      - נגלה
+    - - ברעוא
+      - ברצון
+    lexemes:
+    - kodam
+    - meimra
+    - yekara
+    - shechinta
+    - itgeli
+    - bereava
+  - id: o08-l1-09
+    type: multiple_choice
+    prompt: מה פירוש קדם?
+    options:
+    - לפני
+    - השכינה
+    - רחמים
+    correct: 0
+    lexemes:
+    - kodam
+  - id: o08-l1-10
+    type: multiple_choice
+    prompt: מה פירוש מימרא?
+    options:
+    - דבר (ה׳), ״מאמר״
+    - הכבוד
+    - בריתי
+    correct: 0
+    lexemes:
+    - meimra
+  - id: o08-l1-11
+    type: multiple_choice
+    prompt: מה פירוש יקרא?
+    options:
+    - הכבוד
+    - עולם
+    - בריתי
+    correct: 0
+    lexemes:
+    - yekara
+  - id: o08-l1-12
+    type: multiple_choice
+    prompt: מה פירוש שכינתא?
+    options:
+    - השכינה
+    - עולם
+    - בריתי
+    correct: 0
+    lexemes:
+    - shechinta
+  - id: o08-l1-13
+    type: multiple_choice
+    prompt: מה פירוש אתגלי?
+    options:
+    - נגלה
+    - התורה
+    - רחמים
+    correct: 0
+    lexemes:
+    - itgeli
+  - id: o08-l1-14
+    type: multiple_choice
+    prompt: מה פירוש ברעוא?
+    options:
+    - ברצון
+    - הדבר
+    - התורה
+    correct: 0
+    lexemes:
+    - bereava
+  - id: o08-l1-15
+    type: fill_blank
+    sentence: וסגיד אברהם ___ עמא דארעא
+    translation: 'בתורה: וַיִּשְׁתַּחוּ אַבְרָהָם לִפְנֵי עַם הָאָרֶץ'
+    answers:
+    - קדם
+    options:
+    - קדם
+    - אוריתא
+    - אתגלי
+    lexemes:
+    - kodam
+    source: תרגום אונקלוס, בראשית כג, יב
+    vocalized: וּסְגִיד אַבְרָהָם קֳדָם עַמָּא דְאַרְעָא
+  - id: o08-l1-16
+    type: fill_blank
+    sentence: ונטלו בקדמיתא על ___ דיי בידא דמשה
+    translation: 'בתורה: וַיִּסְעוּ בָּרִאשֹׁנָה עַל־פִּי יְהוָה בְּיַד־מֹשֶׁה'
+    answers:
+    - מימרא
+    options:
+    - מימרא
+    - שכינתא
+    - אוריתא
+    lexemes:
+    - meimra
+    source: תרגום אונקלוס, במדבר י, יג
+    vocalized: וּנְטָלוּ בְקַדְמֵיתָא עַל מֵימְרָא דַיְיָ בִּידָא דְמשֶׁה
+  - id: o08-l1-17
+    type: fill_blank
+    sentence: ושיצי למללא עמה ואסתלק ___ דיי מעלווהי דאברהם
+    translation: 'בתורה: וַיְכַל לְדַבֵּר אִתּוֹ וַיַּעַל אֱלֹהִים מֵעַל אַבְרָהָם'
+    answers:
+    - יקרא
+    options:
+    - יקרא
+    - ברעוא
+    - אוריתא
+    lexemes:
+    - yekara
+    source: תרגום אונקלוס, בראשית יז, כב
+    vocalized: וְשֵׁיצֵי לְמַלָּלָא עִמֵהּ וְאִסְתַּלַּק יְקָרָא דַיְיָ מֵעִלָּווֹהִי דְּאַבְרָהָם
+  - id: o08-l1-18
+    type: fill_blank
+    sentence: וקרא שמא דאתרא נסיתא ומצותא על דנצו בני ישראל ועל דנסיאו קדם יי למימר האית ___ דיי ביננא אם לא
+    translation: 'בתורה: וַיִּקְרָא שֵׁם הַמָּקוֹם מַסָּה וּמְרִיבָה עַל־רִיב בְּנֵי יִשְׂרָאֵל וְעַל נַסֹּתָם אֶת־יְהוָה לֵאמֹר הֲיֵשׁ יְהוָה בְּקִרְבֵּנוּ אִם־אָיִן'
+    answers:
+    - שכינתא
+    options:
+    - שכינתא
+    - קימי
+    - עלם
+    lexemes:
+    - shechinta
+    source: תרגום אונקלוס, שמות יז, ז
+    vocalized: וּקְרָא שְׁמָא דְאַתְרָא נִסֵיתָא וּמַצוּתָא עַל דִנְצוֹ בְּנֵי יִשְׂרָאֵל וְעַל דְנַסִיאוּ קֳדָם יְיָ לְמֵימַר הֲאִית שְׁכִינְתָּא דַיְיָ בֵּינָנָא אִם לָא
+  - id: o08-l1-19
+    type: fill_blank
+    sentence: ולא קם נביא עוד בישראל כמשה די ___ לה יי אפין באפין
+    translation: 'בתורה: וְלֹא־קָם נָבִיא עוֹד בְּיִשְׂרָאֵל כְּמֹשֶׁה אֲשֶׁר יְדָעוֹ יְהוָה פָּנִים אֶל־פָּנִים'
+    answers:
+    - אתגלי
+    options:
+    - אתגלי
+    - ברעוא
+    - פתגמא
+    lexemes:
+    - itgeli
+    source: תרגום אונקלוס, דברים לד, י
+    vocalized: וְלָא קָם נְבִיָא עוֹד בְּיִשְׂרָאֵל כְּמֹשֶׁה דִי אִתְגְלִי לֵהּ יְיָ אַפִּין בְּאַפִּין
+  - id: o08-l1-20
+    type: fill_blank
+    sentence: וחמרא לנסכא תלתות הינא תקרב לאתקבלא ___ קדם יי
+    translation: 'בתורה: וְיַיִן לַנֶּסֶךְ שְׁלִשִׁית הַהִין תַּקְרִיב רֵיחַ־נִיחֹחַ לַיהוָה'
+    answers:
+    - ברעוא
+    options:
+    - ברעוא
+    - פתגמא
+    - שכינתא
+    lexemes:
+    - bereava
+    source: תרגום אונקלוס, במדבר טו, ז
+    vocalized: וְחַמְרָא לְנִסְכָּא תַּלְתּוּת הִינָא תְּקָרֵב לְאִתְקַבָּלָא בְרַעֲוָא קֳדָם יְיָ
+- id: o08-l2
+  kind: new
+  title:
+    he: פתגמא ואוריתא
+    en: Word and Torah
+  exercises:
+  - id: o08-l2-21
+    type: learn
+    lexeme: pitgama
+  - id: o08-l2-22
+    type: learn
+    lexeme: orayta
+  - id: o08-l2-23
+    type: learn
+    lexeme: kayami
+  - id: o08-l2-24
+    type: learn
+    lexeme: alam
+  - id: o08-l2-25
+    type: learn
+    lexeme: kudsha
+  - id: o08-l2-26
+    type: learn
+    lexeme: rachamin
+  - id: o08-l2-27
+    type: match_pairs
+    pairs:
+    - - פתגמא
+      - הדבר
+    - - אוריתא
+      - התורה
+    - - קימי
+      - בריתי
+    - - עלם
+      - עולם
+    - - קודשא
+      - הקודש
+    - - רחמין
+      - רחמים
+    lexemes:
+    - pitgama
+    - orayta
+    - kayami
+    - alam
+    - kudsha
+    - rachamin
+  - id: o08-l2-28
+    type: multiple_choice
+    prompt: מה פירוש פתגמא?
+    options:
+    - הדבר
+    - עולם
+    - הכבוד
+    correct: 0
+    lexemes:
+    - pitgama
+  - id: o08-l2-29
+    type: multiple_choice
+    prompt: מה פירוש אוריתא?
+    options:
+    - התורה
+    - הכבוד
+    - השכינה
+    correct: 0
+    lexemes:
+    - orayta
+  - id: o08-l2-30
+    type: multiple_choice
+    prompt: מה פירוש קימי?
+    options:
+    - בריתי
+    - השכינה
+    - ברצון
+    correct: 0
+    lexemes:
+    - kayami
+  - id: o08-l2-31
+    type: multiple_choice
+    prompt: מה פירוש עלם?
+    options:
+    - עולם
+    - התורה
+    - לפני
+    correct: 0
+    lexemes:
+    - alam
+  - id: o08-l2-32
+    type: multiple_choice
+    prompt: מה פירוש קודשא?
+    options:
+    - הקודש
+    - נגלה
+    - הדבר
+    correct: 0
+    lexemes:
+    - kudsha
+  - id: o08-l2-33
+    type: multiple_choice
+    prompt: מה פירוש רחמין?
+    options:
+    - רחמים
+    - הכבוד
+    - התורה
+    correct: 0
+    lexemes:
+    - rachamin
+  - id: o08-l2-34
+    type: fill_blank
+    sentence: וקניאו בה אחוהי ואבוהי נטר ית ___
+    translation: 'בתורה: וַיְקַנְאוּ־בוֹ אֶחָיו וְאָבִיו שָׁמַר אֶת־הַדָּבָר'
+    answers:
+    - פתגמא
+    options:
+    - פתגמא
+    - אוריתא
+    - עלם
+    lexemes:
+    - pitgama
+    source: תרגום אונקלוס, בראשית לז, יא
+    vocalized: וְקַנִּיאוּ בֵהּ אֲחוֹהִי וַאֲבוּהִי נְטַר יָת פִּתְגָמָא
+  - id: o08-l2-35
+    type: fill_blank
+    sentence: דא ___ לכל מכתש סגירותא ולנתקא
+    translation: 'בתורה: זֹאת הַתּוֹרָה לְכָל־נֶגַע הַצָּרַעַת וְלַנָּתֶק'
+    answers:
+    - אוריתא
+    options:
+    - אוריתא
+    - יקרא
+    - פתגמא
+    lexemes:
+    - orayta
+    source: תרגום אונקלוס, ויקרא יד, נד
+    vocalized: דָא אוֹרַיְתָא לְכָל מַכְתַּשׁ סְגִירוּתָא וּלְנִתְקָא
+  - id: o08-l2-36
+    type: fill_blank
+    sentence: אנא הא ___ עמך ותהי לאב סגי עממין
+    translation: 'בתורה: אֲנִי הִנֵּה בְרִיתִי אִתָּךְ וְהָיִיתָ לְאַב הֲמוֹן גּוֹיִם'
+    answers:
+    - קימי
+    options:
+    - קימי
+    - פתגמא
+    - קדם
+    lexemes:
+    - kayami
+    source: תרגום אונקלוס, בראשית יז, ד
+    vocalized: אֲנָא הָא קְיָמִי עִמָךְ וּתְהֵי לְאַב סַגִי עַמְמִין
+  - id: o08-l2-37
+    type: fill_blank
+    sentence: ויהון בך לאת ולמופת ובבניך עד ___
+    translation: 'בתורה: וְהָיוּ בְךָ לְאוֹת וּלְמוֹפֵת וּבְזַרְעֲךָ עַד־עוֹלָם'
+    answers:
+    - עלם
+    options:
+    - עלם
+    - קימי
+    - פתגמא
+    lexemes:
+    - alam
+    source: תרגום אונקלוס, דברים כח, מו
+    vocalized: וִיהוֹן בָּךְ לְאָת וּלְמוֹפֵת וּבִבְנָיךְ עַד עֳלָם
+  - id: o08-l2-38
+    type: fill_blank
+    sentence: ותעבד לבושי ___ לאהרן אחוך ליקר ולתשבחן
+    translation: 'בתורה: וְעָשִׂיתָ בִגְדֵי־קֹדֶשׁ לְאַהֲרֹן אָחִיךָ לְכָבוֹד וּלְתִפְאָרֶת'
+    answers:
+    - קודשא
+    options:
+    - קודשא
+    - אוריתא
+    - ברעוא
+    lexemes:
+    - kudsha
+    source: תרגום אונקלוס, שמות כח, ב
+    vocalized: וְתַעְבֵּד לְבוּשֵׁי קוּדְשָׁא לְאַהֲרֹן אָחוּךְ לִיקָר וּלְתֻשְׁבְּחָן
+  - id: o08-l2-39
+    type: fill_blank
+    sentence: ונח אשכח ___ קדם יי
+    translation: 'בתורה: וְנֹחַ מָצָא חֵן בְּעֵינֵי יְהוָה'
+    answers:
+    - רחמין
+    options:
+    - רחמין
+    - קודשא
+    - מימרא
+    lexemes:
+    - rachamin
+    source: תרגום אונקלוס, בראשית ו, ח
+    vocalized: וְנֹחַ אַשְׁכַּח רַחֲמִין קֳדָם יְיָ
+- id: o08-l3
+  kind: review
+  title:
+    he: חזרה וקריאה
+    en: Review and reading
+  exercises:
+  - id: o08-l3-40
+    type: reading
+    kind: תרגום אונקלוס, שמות כ
+    title: אנא יי אלהך
+    text: אנא יי אלהך די אפיקתך מארעא דמצרים מבית עבדותא
+    translation: אָנֹכִי יְהוָה אֱלֹהֶיךָ אֲשֶׁר הוֹצֵאתִיךָ מֵאֶרֶץ מִצְרַיִם מִבֵּית עֲבָדִים
+    lexemes:
+    - kodam
+    - meimra
+    - yekara
+    - shechinta
+    - itgeli
+    - bereava
+    - pitgama
+    - orayta
+    source: תרגום אונקלוס, שמות כ, ב
+    vocalized: 'אֲנָא יְיָ אֱלָהָךְ דִי אַפֵּיקְתָּךְ מֵאַרְעָא דְמִצְרַיִם מִבֵּית עַבְדוּתָא:'
+  - id: o08-l3-41
+    type: multiple_choice
+    prompt: למה אונקלוס כותב ״קדם יי״?
+    options:
+    - כדי לא לתאר את הקב״ה כמו אדם
+    - כי כך המילה בארמית
+    - כי הוא מקצר
+    correct: 0
+    lexemes:
+    - kodam
+  - id: o08-l3-42
+    type: multiple_choice
+    prompt: '״אוריתא״ פירושו:'
+    options:
+    - התורה
+    - האור
+    - הארץ
+    correct: 0
+    lexemes:
+    - orayta
+  - id: o08-l3-43
+    type: dialogue
+    scene: בסוף.
+    lines:
+    - speaker: yisrael
+      text: 'שבוע הבא: יציאת מצרים. הים, המחנה, והשירה.'
+      translation: ההמשך
+    - speaker: eitan
+      text: שבת שירה. אמא תבוא.
+      translation: איתן
+  - id: o08-l3-44
+    type: match_pairs
+    pairs:
+    - - קדם
+      - לפני
+    - - מימרא
+      - דבר (ה׳), ״מאמר״
+    - - יקרא
+      - הכבוד
+    - - שכינתא
+      - השכינה
+    - - אתגלי
+      - נגלה
+    - - ברעוא
+      - ברצון
+    lexemes:
+    - kodam
+    - meimra
+    - yekara
+    - shechinta
+    - itgeli
+    - bereava

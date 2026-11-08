@@ -95,6 +95,7 @@ for (const courseId of readdirSync(contentDir)) {
     manifest.units.push({
       id: unit.id,
       cefr: unit.cefr,
+      ...(unit.section ? { section: unit.section } : {}),
       title: unit.title,
       scene: unit.scene,
       story: unit.story,
