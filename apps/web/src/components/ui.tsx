@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import type { ReactNode } from "react";
+import { useEffect, useState, type ReactNode } from "react";
 import { NO_VOICE, speak, speechSupported } from "@/lib/speech";
 import { Icon } from "./icons";
 
@@ -109,10 +109,33 @@ export function BackLink({ href, label = "חזרה" }: { href: string; label?: s
   );
 }
 
+const GREETINGS = [
+  { t: "Hello", lang: "en" },
+  { t: "Hola", lang: "es" },
+  { t: "שלום", lang: "he" },
+];
+
 export function Loading() {
+  const [i, setI] = useState(0);
+  useEffect(() => {
+    const id = setInterval(() => setI((x) => (x + 1) % GREETINGS.length), 1400);
+    return () => clearInterval(id);
+  }, []);
+  const g = GREETINGS[i] ?? GREETINGS[0]!;
   return (
     <Screen className="items-center justify-center">
-      <span className="size-10 animate-spin rounded-full border-4 border-line border-t-cobalt" role="status" aria-label="טוען" />
+      <div role="status" aria-label="טוען" className="flex flex-col items-center gap-4">
+        <div className="relative rounded-3xl rounded-bl-md bg-cobalt-soft px-8 py-5 shadow-sm" dir="ltr">
+          <span key={i} lang={g.lang} className="lingo-greet block min-w-20 text-center text-2xl font-bold text-cobalt-strong">
+            {g.t}
+          </span>
+        </div>
+        <div className="flex gap-2" dir="ltr" aria-hidden>
+          <span className="lingo-dot size-2.5 rounded-full bg-cobalt" />
+          <span className="lingo-dot size-2.5 rounded-full bg-cobalt [animation-delay:150ms]" />
+          <span className="lingo-dot size-2.5 rounded-full bg-cobalt [animation-delay:300ms]" />
+        </div>
+      </div>
     </Screen>
   );
 }
