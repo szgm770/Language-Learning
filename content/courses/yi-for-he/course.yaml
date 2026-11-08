@@ -36,22 +36,27 @@ units:
   - u18-vi-bin-ikh
   - p1-words
   - p2-words
+  - p10-words
   - u19-pluralis
   - u20-fargleykhn
   - u21-zikh
   - u22-azvayl
   - u23-khasidus
+  - p9-words
   - u24-tanye
   - u25-reyze
   - p3-words
   - p4-words
+  - p11-words
   - u26-nekhtn
   - u27-meynung
   - u28-gast
   - u29-hofnung
   - p5-words
   - p6-words
+  - p12-words
   - u30-dertseylung
   - u31-briv
   - p7-words
   - p8-words
+  - p13-words

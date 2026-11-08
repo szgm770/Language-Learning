@@ -1,0 +1,859 @@
+id: p11-words
+cefr: B1
+scene: study
+title:
+  he: 'הרחבת אוצר מילים 11: לימוד'
+  en: 'Word builder 11: study'
+story: מילים שימושיות נוספות, כל אחת במשפט קצר.
+canDo:
+- להבין ולהשתמש במילים נפוצות נוספות
+- לזהות את המילים במשפטים
+vocabulary:
+- id: p11-klas
+  text: קלאַס
+  translation: כיתה
+  pos: noun
+  example:
+    text: איך זע אַ קלאַס.
+    translation: אני רואה כיתה
+- id: p11-blat
+  text: בלאַט
+  translation: דף
+  pos: noun
+  example:
+    text: איך זע אַ בלאַט.
+    translation: אני רואה דף
+- id: p11-bukhshtab
+  text: בוכשטאַב
+  translation: אות
+  pos: noun
+  example:
+    text: איך זע אַ בוכשטאַב.
+    translation: אני רואה אות
+- id: p11-vort
+  text: וואָרט
+  translation: מילה
+  pos: noun
+  example:
+    text: איך זע אַ וואָרט.
+    translation: אני רואה מילה
+- id: p11-zats
+  text: זאַץ
+  translation: משפט
+  pos: noun
+  example:
+    text: איך זע אַ זאַץ.
+    translation: אני רואה משפט
+- id: p11-lid
+  text: ליד
+  translation: שיר
+  pos: noun
+  example:
+    text: איך זע אַ ליד.
+    translation: אני רואה שיר
+- id: p11-mayse
+  text: מעשה
+  translation: סיפור
+  pos: noun
+  example:
+    text: איך זע אַ מעשה.
+    translation: אני רואה סיפור
+- id: p11-posek
+  text: פּסוק
+  translation: פסוק
+  pos: noun
+  example:
+    text: איך זע אַ פּסוק.
+    translation: אני רואה פסוק
+- id: p11-tsifer
+  text: ציפֿער
+  translation: ספרה
+  pos: noun
+  example:
+    text: איך זע אַ ציפֿער.
+    translation: אני רואה ספרה
+- id: p11-shure
+  text: שורה
+  translation: שורה בטקסט
+  pos: noun
+  example:
+    text: איך זע אַ שורה.
+    translation: אני רואה שורה בטקסט
+- id: p11-kapitl
+  text: קאַפּיטל
+  translation: פרק
+  pos: noun
+  example:
+    text: איך זע אַ קאַפּיטל.
+    translation: אני רואה פרק
+- id: p11-problem
+  text: פּראָבלעם
+  translation: בעיה
+  pos: noun
+  example:
+    text: איך זע אַ פּראָבלעם.
+    translation: אני רואה בעיה
+- id: p11-gedenken
+  text: געדענקען
+  translation: לזכור
+  pos: verb
+  example:
+    text: איך וויל געדענקען.
+    translation: אני רוצה לזכור
+- id: p11-fargesn
+  text: פֿאַרגעסן
+  translation: לשכוח
+  pos: verb
+  example:
+    text: איך וויל פֿאַרגעסן.
+    translation: אני רוצה לשכוח
+- id: p11-ibertrakhn
+  text: איבערחזרן
+  translation: לחזור על החומר
+  pos: verb
+  example:
+    text: איך וויל איבערחזרן.
+    translation: אני רוצה לחזור על החומר
+- id: p11-pruvn
+  text: פּרובירן
+  translation: לנסות
+  pos: verb
+  example:
+    text: איך וויל פּרובירן.
+    translation: אני רוצה לנסות
+- id: p11-oyslernen
+  text: אויסלערנען
+  translation: ללמוד היטב
+  pos: verb
+  example:
+    text: איך וויל אויסלערנען.
+    translation: אני רוצה ללמוד היטב
+- id: p11-opshraybn
+  text: אָפּשרײַבן
+  translation: להעתיק
+  pos: verb
+  example:
+    text: איך וויל אָפּשרײַבן.
+    translation: אני רוצה להעתיק
+- id: p11-batrakhtn
+  text: באַטראַכטן
+  translation: להתבונן
+  pos: verb
+  example:
+    text: איך וויל באַטראַכטן.
+    translation: אני רוצה להתבונן
+- id: p11-derklern
+  text: דערקלערן
+  translation: להסביר
+  pos: verb
+  example:
+    text: איך וויל דערקלערן.
+    translation: אני רוצה להסביר
+- id: p11-farshraybn
+  text: פֿאַרשרײַבן
+  translation: לרשום
+  pos: verb
+  example:
+    text: איך וויל פֿאַרשרײַבן.
+    translation: אני רוצה לרשום
+- id: p11-rekhenen
+  text: רעכענען
+  translation: לחשב
+  pos: verb
+  example:
+    text: איך וויל רעכענען.
+    translation: אני רוצה לחשב
+- id: p11-tseykhenen
+  text: צייכענען
+  translation: לצייר
+  pos: verb
+  example:
+    text: איך וויל צייכענען.
+    translation: אני רוצה לצייר
+lessons:
+- id: p11-l1
+  kind: new
+  title:
+    he: חבילה 11 – חלק 1
+    en: Pack 11 – part 1
+  exercises:
+  - id: p11-l1-01
+    type: learn
+    lexeme: p11-klas
+  - id: p11-l1-02
+    type: learn
+    lexeme: p11-blat
+  - id: p11-l1-03
+    type: learn
+    lexeme: p11-bukhshtab
+  - id: p11-l1-04
+    type: learn
+    lexeme: p11-vort
+  - id: p11-l1-05
+    type: learn
+    lexeme: p11-zats
+  - id: p11-l1-06
+    type: learn
+    lexeme: p11-lid
+  - id: p11-l1-07
+    type: learn
+    lexeme: p11-mayse
+  - id: p11-l1-08
+    type: match_pairs
+    pairs:
+    - - קלאַס
+      - כיתה
+    - - בלאַט
+      - דף
+    - - בוכשטאַב
+      - אות
+    lexemes:
+    - p11-klas
+    - p11-blat
+    - p11-bukhshtab
+  - id: p11-l1-09
+    type: match_pairs
+    pairs:
+    - - וואָרט
+      - מילה
+    - - זאַץ
+      - משפט
+    - - ליד
+      - שיר
+    - - מעשה
+      - סיפור
+    lexemes:
+    - p11-vort
+    - p11-zats
+    - p11-lid
+    - p11-mayse
+  - id: p11-l1-10
+    type: multiple_choice
+    prompt: מה פירוש קלאַס?
+    options:
+    - כיתה
+    - להסביר
+    - פסוק
+    correct: 0
+    lexemes:
+    - p11-klas
+  - id: p11-l1-11
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: דף?'
+    options:
+    - בלאַט
+    - ציפֿער
+    - דערקלערן
+    correct: 0
+    lexemes:
+    - p11-blat
+  - id: p11-l1-12
+    type: multiple_choice
+    prompt: מה פירוש בוכשטאַב?
+    options:
+    - אות
+    - להעתיק
+    - פרק
+    correct: 0
+    lexemes:
+    - p11-bukhshtab
+  - id: p11-l1-13
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: מילה?'
+    options:
+    - וואָרט
+    - פֿאַרגעסן
+    - פֿאַרשרײַבן
+    correct: 0
+    lexemes:
+    - p11-vort
+  - id: p11-l1-14
+    type: multiple_choice
+    prompt: מה פירוש זאַץ?
+    options:
+    - משפט
+    - להעתיק
+    - ספרה
+    correct: 0
+    lexemes:
+    - p11-zats
+  - id: p11-l1-15
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: שיר?'
+    options:
+    - ליד
+    - שורה
+    - פּרובירן
+    correct: 0
+    lexemes:
+    - p11-lid
+  - id: p11-l1-16
+    type: multiple_choice
+    prompt: מה פירוש מעשה?
+    options:
+    - סיפור
+    - שורה בטקסט
+    - לצייר
+    correct: 0
+    lexemes:
+    - p11-mayse
+  - id: p11-l1-17
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה כיתה
+    answers:
+    - קלאַס
+    options:
+    - קלאַס
+    - פּראָבלעם
+    - שורה
+    lexemes:
+    - p11-klas
+  - id: p11-l1-18
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה דף
+    answers:
+    - בלאַט
+    options:
+    - בלאַט
+    - ציפֿער
+    - פּראָבלעם
+    lexemes:
+    - p11-blat
+  - id: p11-l1-19
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה אות
+    answers:
+    - בוכשטאַב
+    options:
+    - בוכשטאַב
+    - פּסוק
+    - פּראָבלעם
+    lexemes:
+    - p11-bukhshtab
+  - id: p11-l1-20
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה מילה
+    answers:
+    - וואָרט
+    options:
+    - וואָרט
+    - פּסוק
+    - פּראָבלעם
+    lexemes:
+    - p11-vort
+  - id: p11-l1-21
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה משפט
+    answers:
+    - זאַץ
+    options:
+    - זאַץ
+    - קאַפּיטל
+    - שורה
+    lexemes:
+    - p11-zats
+  - id: p11-l1-22
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה שיר
+    answers:
+    - ליד
+    options:
+    - ליד
+    - קאַפּיטל
+    - פּסוק
+    lexemes:
+    - p11-lid
+  - id: p11-l1-23
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה סיפור
+    answers:
+    - מעשה
+    options:
+    - מעשה
+    - שורה
+    - פּסוק
+    lexemes:
+    - p11-mayse
+- id: p11-l2
+  kind: new
+  title:
+    he: חבילה 11 – חלק 2
+    en: Pack 11 – part 2
+  exercises:
+  - id: p11-l2-01
+    type: learn
+    lexeme: p11-posek
+  - id: p11-l2-02
+    type: learn
+    lexeme: p11-tsifer
+  - id: p11-l2-03
+    type: learn
+    lexeme: p11-shure
+  - id: p11-l2-04
+    type: learn
+    lexeme: p11-kapitl
+  - id: p11-l2-05
+    type: learn
+    lexeme: p11-problem
+  - id: p11-l2-06
+    type: learn
+    lexeme: p11-gedenken
+  - id: p11-l2-07
+    type: learn
+    lexeme: p11-fargesn
+  - id: p11-l2-08
+    type: match_pairs
+    pairs:
+    - - פּסוק
+      - פסוק
+    - - ציפֿער
+      - ספרה
+    - - שורה
+      - שורה בטקסט
+    lexemes:
+    - p11-posek
+    - p11-tsifer
+    - p11-shure
+  - id: p11-l2-09
+    type: match_pairs
+    pairs:
+    - - קאַפּיטל
+      - פרק
+    - - פּראָבלעם
+      - בעיה
+    - - געדענקען
+      - לזכור
+    - - פֿאַרגעסן
+      - לשכוח
+    lexemes:
+    - p11-kapitl
+    - p11-problem
+    - p11-gedenken
+    - p11-fargesn
+  - id: p11-l2-10
+    type: multiple_choice
+    prompt: מה פירוש פּסוק?
+    options:
+    - פסוק
+    - לחשב
+    - לרשום
+    correct: 0
+    lexemes:
+    - p11-posek
+  - id: p11-l2-11
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: ספרה?'
+    options:
+    - ציפֿער
+    - אָפּשרײַבן
+    - בוכשטאַב
+    correct: 0
+    lexemes:
+    - p11-tsifer
+  - id: p11-l2-12
+    type: multiple_choice
+    prompt: מה פירוש שורה?
+    options:
+    - שורה בטקסט
+    - לרשום
+    - להעתיק
+    correct: 0
+    lexemes:
+    - p11-shure
+  - id: p11-l2-13
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: פרק?'
+    options:
+    - קאַפּיטל
+    - קלאַס
+    - דערקלערן
+    correct: 0
+    lexemes:
+    - p11-kapitl
+  - id: p11-l2-14
+    type: multiple_choice
+    prompt: מה פירוש פּראָבלעם?
+    options:
+    - בעיה
+    - כיתה
+    - להעתיק
+    correct: 0
+    lexemes:
+    - p11-problem
+  - id: p11-l2-15
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: לזכור?'
+    options:
+    - געדענקען
+    - ליד
+    - איבערחזרן
+    correct: 0
+    lexemes:
+    - p11-gedenken
+  - id: p11-l2-16
+    type: multiple_choice
+    prompt: מה פירוש פֿאַרגעסן?
+    options:
+    - לשכוח
+    - דף
+    - לחשב
+    correct: 0
+    lexemes:
+    - p11-fargesn
+  - id: p11-l2-17
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה פסוק
+    answers:
+    - פּסוק
+    options:
+    - פּסוק
+    - וואָרט
+    - ליד
+    lexemes:
+    - p11-posek
+  - id: p11-l2-18
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה ספרה
+    answers:
+    - ציפֿער
+    options:
+    - ציפֿער
+    - ליד
+    - וואָרט
+    lexemes:
+    - p11-tsifer
+  - id: p11-l2-19
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה שורה בטקסט
+    answers:
+    - שורה
+    options:
+    - שורה
+    - ליד
+    - בוכשטאַב
+    lexemes:
+    - p11-shure
+  - id: p11-l2-20
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה פרק
+    answers:
+    - קאַפּיטל
+    options:
+    - קאַפּיטל
+    - מעשה
+    - בלאַט
+    lexemes:
+    - p11-kapitl
+  - id: p11-l2-21
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה בעיה
+    answers:
+    - פּראָבלעם
+    options:
+    - פּראָבלעם
+    - בוכשטאַב
+    - ליד
+    lexemes:
+    - p11-problem
+  - id: p11-l2-22
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה לזכור
+    answers:
+    - געדענקען
+    options:
+    - געדענקען
+    - איבערחזרן
+    - פּרובירן
+    lexemes:
+    - p11-gedenken
+  - id: p11-l2-23
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה לשכוח
+    answers:
+    - פֿאַרגעסן
+    options:
+    - פֿאַרגעסן
+    - איבערחזרן
+    - פֿאַרשרײַבן
+    lexemes:
+    - p11-fargesn
+- id: p11-l3
+  kind: new
+  title:
+    he: חבילה 11 – חלק 3
+    en: Pack 11 – part 3
+  exercises:
+  - id: p11-l3-01
+    type: learn
+    lexeme: p11-ibertrakhn
+  - id: p11-l3-02
+    type: learn
+    lexeme: p11-pruvn
+  - id: p11-l3-03
+    type: learn
+    lexeme: p11-oyslernen
+  - id: p11-l3-04
+    type: learn
+    lexeme: p11-opshraybn
+  - id: p11-l3-05
+    type: learn
+    lexeme: p11-batrakhtn
+  - id: p11-l3-06
+    type: learn
+    lexeme: p11-derklern
+  - id: p11-l3-07
+    type: learn
+    lexeme: p11-farshraybn
+  - id: p11-l3-08
+    type: learn
+    lexeme: p11-rekhenen
+  - id: p11-l3-09
+    type: learn
+    lexeme: p11-tseykhenen
+  - id: p11-l3-10
+    type: match_pairs
+    pairs:
+    - - איבערחזרן
+      - לחזור על החומר
+    - - פּרובירן
+      - לנסות
+    - - אויסלערנען
+      - ללמוד היטב
+    - - אָפּשרײַבן
+      - להעתיק
+    lexemes:
+    - p11-ibertrakhn
+    - p11-pruvn
+    - p11-oyslernen
+    - p11-opshraybn
+  - id: p11-l3-11
+    type: match_pairs
+    pairs:
+    - - באַטראַכטן
+      - להתבונן
+    - - דערקלערן
+      - להסביר
+    - - פֿאַרשרײַבן
+      - לרשום
+    - - רעכענען
+      - לחשב
+    - - צייכענען
+      - לצייר
+    lexemes:
+    - p11-batrakhtn
+    - p11-derklern
+    - p11-farshraybn
+    - p11-rekhenen
+    - p11-tseykhenen
+  - id: p11-l3-12
+    type: multiple_choice
+    prompt: מה פירוש איבערחזרן?
+    options:
+    - לחזור על החומר
+    - מילה
+    - דף
+    correct: 0
+    lexemes:
+    - p11-ibertrakhn
+  - id: p11-l3-13
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: לנסות?'
+    options:
+    - פּרובירן
+    - ליד
+    - וואָרט
+    correct: 0
+    lexemes:
+    - p11-pruvn
+  - id: p11-l3-14
+    type: multiple_choice
+    prompt: מה פירוש אויסלערנען?
+    options:
+    - ללמוד היטב
+    - סיפור
+    - שיר
+    correct: 0
+    lexemes:
+    - p11-oyslernen
+  - id: p11-l3-15
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: להעתיק?'
+    options:
+    - אָפּשרײַבן
+    - מעשה
+    - שורה
+    correct: 0
+    lexemes:
+    - p11-opshraybn
+  - id: p11-l3-16
+    type: multiple_choice
+    prompt: מה פירוש באַטראַכטן?
+    options:
+    - להתבונן
+    - דף
+    - בעיה
+    correct: 0
+    lexemes:
+    - p11-batrakhtn
+  - id: p11-l3-17
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: להסביר?'
+    options:
+    - דערקלערן
+    - פּסוק
+    - קלאַס
+    correct: 0
+    lexemes:
+    - p11-derklern
+  - id: p11-l3-18
+    type: multiple_choice
+    prompt: מה פירוש פֿאַרשרײַבן?
+    options:
+    - לרשום
+    - פרק
+    - ספרה
+    correct: 0
+    lexemes:
+    - p11-farshraybn
+  - id: p11-l3-19
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: לחשב?'
+    options:
+    - רעכענען
+    - פּסוק
+    - פֿאַרגעסן
+    correct: 0
+    lexemes:
+    - p11-rekhenen
+  - id: p11-l3-20
+    type: multiple_choice
+    prompt: מה פירוש צייכענען?
+    options:
+    - לצייר
+    - פסוק
+    - לזכור
+    correct: 0
+    lexemes:
+    - p11-tseykhenen
+  - id: p11-l3-21
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה לחזור על החומר
+    answers:
+    - איבערחזרן
+    options:
+    - איבערחזרן
+    - פֿאַרגעסן
+    - געדענקען
+    lexemes:
+    - p11-ibertrakhn
+  - id: p11-l3-22
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה לנסות
+    answers:
+    - פּרובירן
+    options:
+    - פּרובירן
+    - געדענקען
+    - פֿאַרגעסן
+    lexemes:
+    - p11-pruvn
+  - id: p11-l3-23
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה ללמוד היטב
+    answers:
+    - אויסלערנען
+    options:
+    - אויסלערנען
+    - פֿאַרגעסן
+    - געדענקען
+    lexemes:
+    - p11-oyslernen
+  - id: p11-l3-24
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה להעתיק
+    answers:
+    - אָפּשרײַבן
+    options:
+    - אָפּשרײַבן
+    - געדענקען
+    - פֿאַרגעסן
+    lexemes:
+    - p11-opshraybn
+  - id: p11-l3-25
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה להתבונן
+    answers:
+    - באַטראַכטן
+    options:
+    - באַטראַכטן
+    - פֿאַרגעסן
+    - געדענקען
+    lexemes:
+    - p11-batrakhtn
+  - id: p11-l3-26
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה להסביר
+    answers:
+    - דערקלערן
+    options:
+    - דערקלערן
+    - געדענקען
+    - פֿאַרגעסן
+    lexemes:
+    - p11-derklern
+  - id: p11-l3-27
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה לרשום
+    answers:
+    - פֿאַרשרײַבן
+    options:
+    - פֿאַרשרײַבן
+    - פֿאַרגעסן
+    - געדענקען
+    lexemes:
+    - p11-farshraybn
+  - id: p11-l3-28
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה לחשב
+    answers:
+    - רעכענען
+    options:
+    - רעכענען
+    - פֿאַרגעסן
+    - געדענקען
+    lexemes:
+    - p11-rekhenen
+  - id: p11-l3-29
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה לצייר
+    answers:
+    - צייכענען
+    options:
+    - צייכענען
+    - פֿאַרגעסן
+    - געדענקען
+    lexemes:
+    - p11-tseykhenen

@@ -1,0 +1,684 @@
+id: p13-words
+cefr: C1
+scene: day
+title:
+  he: 'הרחבת אוצר מילים 13: רגשות ותדירות'
+  en: 'Word builder 13: feelings and frequency'
+story: מילים שימושיות נוספות, כל אחת במשפט קצר.
+canDo:
+- להבין ולהשתמש במילים נפוצות נוספות
+- לזהות את המילים במשפטים
+vocabulary:
+- id: p13-beyz
+  text: בייז
+  translation: כועס
+  pos: adjective
+  example:
+    text: דאָס איז בייז.
+    translation: זה כועס
+- id: p13-dershrokn
+  text: דערשראָקן
+  translation: מפוחד
+  pos: adjective
+  example:
+    text: דאָס איז דערשראָקן.
+    translation: זה מפוחד
+- id: p13-shtolts
+  text: שטאָלץ
+  translation: גאווה
+  pos: noun
+  example:
+    text: איך האָב שטאָלץ.
+    translation: יש לי גאווה
+- id: p13-simkhe
+  text: שמחה
+  translation: שמחה (רגש)
+  pos: noun
+  example:
+    text: איך האָב שמחה.
+    translation: יש לי שמחה (רגש)
+- id: p13-troyer
+  text: טרויער
+  translation: צער
+  pos: noun
+  example:
+    text: איך האָב טרויער.
+    translation: יש לי צער
+- id: p13-hofenung
+  text: האָפֿענונג
+  translation: תקווה
+  pos: noun
+  example:
+    text: איך האָב האָפֿענונג.
+    translation: יש לי תקווה
+- id: p13-moyre
+  text: מורא
+  translation: פחד
+  pos: noun
+  example:
+    text: איך האָב מורא.
+    translation: יש לי פחד
+- id: p13-rakhmones
+  text: רחמנות
+  translation: רחמים
+  pos: noun
+  example:
+    text: איך האָב רחמנות.
+    translation: יש לי רחמים
+- id: p13-geduld
+  text: געדולד
+  translation: סבלנות
+  pos: noun
+  example:
+    text: איך האָב געדולד.
+    translation: יש לי סבלנות
+- id: p13-oft
+  text: אָפֿט
+  translation: לעיתים קרובות
+  pos: adverb
+  example:
+    text: איך גיי אָפֿט אין שול.
+    translation: אני לעיתים קרובות הולך לבית הכנסת
+- id: p13-shtendik
+  text: שטענדיק
+  translation: תמיד
+  pos: adverb
+  example:
+    text: איך גיי שטענדיק אין שול.
+    translation: אני תמיד הולך לבית הכנסת
+- id: p13-zeltn
+  text: זעלטן
+  translation: לעיתים רחוקות
+  pos: adverb
+  example:
+    text: איך גיי זעלטן אין שול.
+    translation: אני לעיתים רחוקות הולך לבית הכנסת
+- id: p13-freyd
+  text: פֿרייד
+  translation: שמחה גדולה
+  pos: noun
+  example:
+    text: איך האָב פֿרייד.
+    translation: יש לי שמחה גדולה
+- id: p13-kaas
+  text: כעס
+  translation: כעס חזק
+  pos: noun
+  example:
+    text: איך האָב כעס.
+    translation: יש לי כעס חזק
+- id: p13-benkshaft
+  text: בענקשאַפֿט
+  translation: געגוע
+  pos: noun
+  example:
+    text: איך האָב בענקשאַפֿט.
+    translation: יש לי געגוע
+- id: p13-tsufridn
+  text: צופֿרידן
+  translation: מרוצה
+  pos: adjective
+  example:
+    text: דאָס איז צופֿרידן.
+    translation: זה מרוצה
+- id: p13-fardrosn
+  text: פֿאַרדראָסן
+  translation: מוטרד
+  pos: adjective
+  example:
+    text: דאָס איז פֿאַרדראָסן.
+    translation: זה מוטרד
+- id: p13-amol
+  text: אַמאָל
+  translation: פעם
+  pos: adverb
+  example:
+    text: איך האָב אַמאָל געלערנט.
+    translation: פעם למדתי
+lessons:
+- id: p13-l1
+  kind: new
+  title:
+    he: חבילה 13 – חלק 1
+    en: Pack 13 – part 1
+  exercises:
+  - id: p13-l1-01
+    type: learn
+    lexeme: p13-beyz
+  - id: p13-l1-02
+    type: learn
+    lexeme: p13-dershrokn
+  - id: p13-l1-03
+    type: learn
+    lexeme: p13-shtolts
+  - id: p13-l1-04
+    type: learn
+    lexeme: p13-simkhe
+  - id: p13-l1-05
+    type: learn
+    lexeme: p13-troyer
+  - id: p13-l1-06
+    type: learn
+    lexeme: p13-hofenung
+  - id: p13-l1-07
+    type: match_pairs
+    pairs:
+    - - בייז
+      - כועס
+    - - דערשראָקן
+      - מפוחד
+    - - שטאָלץ
+      - גאווה
+    lexemes:
+    - p13-beyz
+    - p13-dershrokn
+    - p13-shtolts
+  - id: p13-l1-08
+    type: match_pairs
+    pairs:
+    - - שמחה
+      - שמחה (רגש)
+    - - טרויער
+      - צער
+    - - האָפֿענונג
+      - תקווה
+    lexemes:
+    - p13-simkhe
+    - p13-troyer
+    - p13-hofenung
+  - id: p13-l1-09
+    type: multiple_choice
+    prompt: מה פירוש בייז?
+    options:
+    - כועס
+    - מרוצה
+    - לעיתים רחוקות
+    correct: 0
+    lexemes:
+    - p13-beyz
+  - id: p13-l1-10
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: מפוחד?'
+    options:
+    - דערשראָקן
+    - זעלטן
+    - בענקשאַפֿט
+    correct: 0
+    lexemes:
+    - p13-dershrokn
+  - id: p13-l1-11
+    type: multiple_choice
+    prompt: מה פירוש שטאָלץ?
+    options:
+    - גאווה
+    - פחד
+    - רחמים
+    correct: 0
+    lexemes:
+    - p13-shtolts
+  - id: p13-l1-12
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: שמחה (רגש)?'
+    options:
+    - שמחה
+    - געדולד
+    - פֿרייד
+    correct: 0
+    lexemes:
+    - p13-simkhe
+  - id: p13-l1-13
+    type: multiple_choice
+    prompt: מה פירוש טרויער?
+    options:
+    - צער
+    - פעם
+    - געגוע
+    correct: 0
+    lexemes:
+    - p13-troyer
+  - id: p13-l1-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: תקווה?'
+    options:
+    - האָפֿענונג
+    - זעלטן
+    - פֿאַרדראָסן
+    correct: 0
+    lexemes:
+    - p13-hofenung
+  - id: p13-l1-15
+    type: fill_blank
+    sentence: דאָס איז ___.
+    translation: זה כועס
+    answers:
+    - בייז
+    options:
+    - בייז
+    - פֿאַרדראָסן
+    - צופֿרידן
+    lexemes:
+    - p13-beyz
+  - id: p13-l1-16
+    type: fill_blank
+    sentence: דאָס איז ___.
+    translation: זה מפוחד
+    answers:
+    - דערשראָקן
+    options:
+    - דערשראָקן
+    - צופֿרידן
+    - פֿאַרדראָסן
+    lexemes:
+    - p13-dershrokn
+  - id: p13-l1-17
+    type: fill_blank
+    sentence: איך האָב ___.
+    translation: יש לי גאווה
+    answers:
+    - שטאָלץ
+    options:
+    - שטאָלץ
+    - געדולד
+    - רחמנות
+    lexemes:
+    - p13-shtolts
+  - id: p13-l1-18
+    type: fill_blank
+    sentence: איך האָב ___.
+    translation: יש לי שמחה (רגש)
+    answers:
+    - שמחה
+    options:
+    - שמחה
+    - פֿרייד
+    - בענקשאַפֿט
+    lexemes:
+    - p13-simkhe
+  - id: p13-l1-19
+    type: fill_blank
+    sentence: איך האָב ___.
+    translation: יש לי צער
+    answers:
+    - טרויער
+    options:
+    - טרויער
+    - כעס
+    - פֿרייד
+    lexemes:
+    - p13-troyer
+  - id: p13-l1-20
+    type: fill_blank
+    sentence: איך האָב ___.
+    translation: יש לי תקווה
+    answers:
+    - האָפֿענונג
+    options:
+    - האָפֿענונג
+    - פֿרייד
+    - רחמנות
+    lexemes:
+    - p13-hofenung
+- id: p13-l2
+  kind: new
+  title:
+    he: חבילה 13 – חלק 2
+    en: Pack 13 – part 2
+  exercises:
+  - id: p13-l2-01
+    type: learn
+    lexeme: p13-moyre
+  - id: p13-l2-02
+    type: learn
+    lexeme: p13-rakhmones
+  - id: p13-l2-03
+    type: learn
+    lexeme: p13-geduld
+  - id: p13-l2-04
+    type: learn
+    lexeme: p13-oft
+  - id: p13-l2-05
+    type: learn
+    lexeme: p13-shtendik
+  - id: p13-l2-06
+    type: learn
+    lexeme: p13-zeltn
+  - id: p13-l2-07
+    type: match_pairs
+    pairs:
+    - - מורא
+      - פחד
+    - - רחמנות
+      - רחמים
+    - - געדולד
+      - סבלנות
+    lexemes:
+    - p13-moyre
+    - p13-rakhmones
+    - p13-geduld
+  - id: p13-l2-08
+    type: match_pairs
+    pairs:
+    - - אָפֿט
+      - לעיתים קרובות
+    - - שטענדיק
+      - תמיד
+    - - זעלטן
+      - לעיתים רחוקות
+    lexemes:
+    - p13-oft
+    - p13-shtendik
+    - p13-zeltn
+  - id: p13-l2-09
+    type: multiple_choice
+    prompt: מה פירוש מורא?
+    options:
+    - פחד
+    - מרוצה
+    - צער
+    correct: 0
+    lexemes:
+    - p13-moyre
+  - id: p13-l2-10
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: רחמים?'
+    options:
+    - רחמנות
+    - דערשראָקן
+    - פֿאַרדראָסן
+    correct: 0
+    lexemes:
+    - p13-rakhmones
+  - id: p13-l2-11
+    type: multiple_choice
+    prompt: מה פירוש געדולד?
+    options:
+    - סבלנות
+    - צער
+    - פעם
+    correct: 0
+    lexemes:
+    - p13-geduld
+  - id: p13-l2-12
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: לעיתים קרובות?'
+    options:
+    - אָפֿט
+    - אַמאָל
+    - פֿאַרדראָסן
+    correct: 0
+    lexemes:
+    - p13-oft
+  - id: p13-l2-13
+    type: multiple_choice
+    prompt: מה פירוש שטענדיק?
+    options:
+    - תמיד
+    - מפוחד
+    - גאווה
+    correct: 0
+    lexemes:
+    - p13-shtendik
+  - id: p13-l2-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: לעיתים רחוקות?'
+    options:
+    - זעלטן
+    - האָפֿענונג
+    - פֿרייד
+    correct: 0
+    lexemes:
+    - p13-zeltn
+  - id: p13-l2-15
+    type: fill_blank
+    sentence: איך האָב ___.
+    translation: יש לי פחד
+    answers:
+    - מורא
+    options:
+    - מורא
+    - האָפֿענונג
+    - בענקשאַפֿט
+    lexemes:
+    - p13-moyre
+  - id: p13-l2-16
+    type: fill_blank
+    sentence: איך האָב ___.
+    translation: יש לי רחמים
+    answers:
+    - רחמנות
+    options:
+    - רחמנות
+    - בענקשאַפֿט
+    - כעס
+    lexemes:
+    - p13-rakhmones
+  - id: p13-l2-17
+    type: fill_blank
+    sentence: איך האָב ___.
+    translation: יש לי סבלנות
+    answers:
+    - געדולד
+    options:
+    - געדולד
+    - בענקשאַפֿט
+    - שמחה
+    lexemes:
+    - p13-geduld
+  - id: p13-l2-18
+    type: fill_blank
+    sentence: איך גיי ___ אין שול.
+    translation: אני לעיתים קרובות הולך לבית הכנסת
+    answers:
+    - אָפֿט
+    options:
+    - אָפֿט
+    - כעס
+    - שמחה
+    lexemes:
+    - p13-oft
+  - id: p13-l2-19
+    type: fill_blank
+    sentence: איך גיי ___ אין שול.
+    translation: אני תמיד הולך לבית הכנסת
+    answers:
+    - שטענדיק
+    options:
+    - שטענדיק
+    - צופֿרידן
+    - דערשראָקן
+    lexemes:
+    - p13-shtendik
+  - id: p13-l2-20
+    type: fill_blank
+    sentence: איך גיי ___ אין שול.
+    translation: אני לעיתים רחוקות הולך לבית הכנסת
+    answers:
+    - זעלטן
+    options:
+    - זעלטן
+    - כעס
+    - דערשראָקן
+    lexemes:
+    - p13-zeltn
+- id: p13-l3
+  kind: new
+  title:
+    he: חבילה 13 – חלק 3
+    en: Pack 13 – part 3
+  exercises:
+  - id: p13-l3-01
+    type: learn
+    lexeme: p13-freyd
+  - id: p13-l3-02
+    type: learn
+    lexeme: p13-kaas
+  - id: p13-l3-03
+    type: learn
+    lexeme: p13-benkshaft
+  - id: p13-l3-04
+    type: learn
+    lexeme: p13-tsufridn
+  - id: p13-l3-05
+    type: learn
+    lexeme: p13-fardrosn
+  - id: p13-l3-06
+    type: learn
+    lexeme: p13-amol
+  - id: p13-l3-07
+    type: match_pairs
+    pairs:
+    - - פֿרייד
+      - שמחה גדולה
+    - - כעס
+      - כעס חזק
+    - - בענקשאַפֿט
+      - געגוע
+    lexemes:
+    - p13-freyd
+    - p13-kaas
+    - p13-benkshaft
+  - id: p13-l3-08
+    type: match_pairs
+    pairs:
+    - - צופֿרידן
+      - מרוצה
+    - - פֿאַרדראָסן
+      - מוטרד
+    - - אַמאָל
+      - פעם
+    lexemes:
+    - p13-tsufridn
+    - p13-fardrosn
+    - p13-amol
+  - id: p13-l3-09
+    type: multiple_choice
+    prompt: מה פירוש פֿרייד?
+    options:
+    - שמחה גדולה
+    - רחמים
+    - פחד
+    correct: 0
+    lexemes:
+    - p13-freyd
+  - id: p13-l3-10
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: כעס חזק?'
+    options:
+    - כעס
+    - שמחה
+    - אָפֿט
+    correct: 0
+    lexemes:
+    - p13-kaas
+  - id: p13-l3-11
+    type: multiple_choice
+    prompt: מה פירוש בענקשאַפֿט?
+    options:
+    - געגוע
+    - פחד
+    - כועס
+    correct: 0
+    lexemes:
+    - p13-benkshaft
+  - id: p13-l3-12
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: מרוצה?'
+    options:
+    - צופֿרידן
+    - טרויער
+    - מורא
+    correct: 0
+    lexemes:
+    - p13-tsufridn
+  - id: p13-l3-13
+    type: multiple_choice
+    prompt: מה פירוש פֿאַרדראָסן?
+    options:
+    - מוטרד
+    - כועס
+    - גאווה
+    correct: 0
+    lexemes:
+    - p13-fardrosn
+  - id: p13-l3-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: פעם?'
+    options:
+    - אַמאָל
+    - אָפֿט
+    - רחמנות
+    correct: 0
+    lexemes:
+    - p13-amol
+  - id: p13-l3-15
+    type: fill_blank
+    sentence: איך האָב ___.
+    translation: יש לי שמחה גדולה
+    answers:
+    - פֿרייד
+    options:
+    - פֿרייד
+    - טרויער
+    - שמחה
+    lexemes:
+    - p13-freyd
+  - id: p13-l3-16
+    type: fill_blank
+    sentence: איך האָב ___.
+    translation: יש לי כעס חזק
+    answers:
+    - כעס
+    options:
+    - כעס
+    - האָפֿענונג
+    - געדולד
+    lexemes:
+    - p13-kaas
+  - id: p13-l3-17
+    type: fill_blank
+    sentence: איך האָב ___.
+    translation: יש לי געגוע
+    answers:
+    - בענקשאַפֿט
+    options:
+    - בענקשאַפֿט
+    - שמחה
+    - מורא
+    lexemes:
+    - p13-benkshaft
+  - id: p13-l3-18
+    type: fill_blank
+    sentence: דאָס איז ___.
+    translation: זה מרוצה
+    answers:
+    - צופֿרידן
+    options:
+    - צופֿרידן
+    - בייז
+    - דערשראָקן
+    lexemes:
+    - p13-tsufridn
+  - id: p13-l3-19
+    type: fill_blank
+    sentence: דאָס איז ___.
+    translation: זה מוטרד
+    answers:
+    - פֿאַרדראָסן
+    options:
+    - פֿאַרדראָסן
+    - בייז
+    - דערשראָקן
+    lexemes:
+    - p13-fardrosn
+  - id: p13-l3-20
+    type: fill_blank
+    sentence: איך האָב ___ געלערנט.
+    translation: פעם למדתי
+    answers:
+    - אַמאָל
+    options:
+    - אַמאָל
+    - שטענדיק
+    - זעלטן
+    lexemes:
+    - p13-amol
