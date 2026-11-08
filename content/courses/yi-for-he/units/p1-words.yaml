@@ -4,9 +4,9 @@ scene: home
 title:
   he: 'הרחבת אוצר מילים 1: הגוף'
   en: 'Word builder 1: the body'
-story: מילים שימושיות נוספות, כל אחת במשפט קצר.
+story: מנחם חוזר רטוב מהגשם ומספר לסבתא איפה כואב לו; היא בודקת אותו מהראש עד הרגליים.
 canDo:
-- להבין ולהשתמש במילים נפוצות נוספות
+- להבין ולהשתמש במילים נפוצות נוספות בשיחה
 - לזהות את המילים במשפטים
 vocabulary:
 - id: p1-oyg
@@ -209,6 +209,22 @@ lessons:
     type: learn
     lexeme: p1-haldz
   - id: p1-l1-09
+    type: dialogue
+    scene: מנחם חוזר רטוב מהגשם והסבתא בודקת אותו
+    lines:
+    - speaker: menachem
+      text: באָבע, מײַן האַלדז טוט וויי.
+      translation: סבתא, הצוואר שלי כואב.
+    - speaker: bobe
+      text: ווײַז מיר דײַן מויל. האָסטו אַ צאָן וואָס טוט וויי?
+      translation: תראה לי את הפה. יש שן שכואבת?
+    - speaker: menachem
+      text: ניין, די צאָן איז גוט, נאָר מײַן פֿוס טוט אויך וויי.
+      translation: לא, השן בסדר, אבל גם הרגל כואבת.
+    - speaker: bobe
+      text: דײַן נאָז איז רויט און דײַן האָר איז נאַס. קום, איך וועל דיר העלפֿן.
+      translation: האף שלך אדומה והשיער רטוב. בוא, אעזור לך.
+  - id: p1-l1-10
     type: match_pairs
     pairs:
     - - אויג
@@ -224,7 +240,7 @@ lessons:
     - p1-oyer
     - p1-noz
     - p1-moyl
-  - id: p1-l1-10
+  - id: p1-l1-11
     type: match_pairs
     pairs:
     - - צאָן
@@ -240,7 +256,7 @@ lessons:
     - p1-har
     - p1-fus
     - p1-haldz
-  - id: p1-l1-11
+  - id: p1-l1-12
     type: multiple_choice
     prompt: מה פירוש אויג?
     options:
@@ -250,7 +266,7 @@ lessons:
     correct: 0
     lexemes:
     - p1-oyg
-  - id: p1-l1-12
+  - id: p1-l1-13
     type: multiple_choice
     prompt: 'איזו מילה מתאימה ל: אוזן?'
     options:
@@ -260,7 +276,7 @@ lessons:
     correct: 0
     lexemes:
     - p1-oyer
-  - id: p1-l1-13
+  - id: p1-l1-14
     type: multiple_choice
     prompt: מה פירוש נאָז?
     options:
@@ -270,7 +286,7 @@ lessons:
     correct: 0
     lexemes:
     - p1-noz
-  - id: p1-l1-14
+  - id: p1-l1-15
     type: multiple_choice
     prompt: 'איזו מילה מתאימה ל: פה?'
     options:
@@ -280,7 +296,7 @@ lessons:
     correct: 0
     lexemes:
     - p1-moyl
-  - id: p1-l1-15
+  - id: p1-l1-16
     type: multiple_choice
     prompt: מה פירוש צאָן?
     options:
@@ -290,7 +306,7 @@ lessons:
     correct: 0
     lexemes:
     - p1-tson
-  - id: p1-l1-16
+  - id: p1-l1-17
     type: multiple_choice
     prompt: 'איזו מילה מתאימה ל: שיער?'
     options:
@@ -300,7 +316,7 @@ lessons:
     correct: 0
     lexemes:
     - p1-har
-  - id: p1-l1-17
+  - id: p1-l1-18
     type: multiple_choice
     prompt: מה פירוש פֿוס?
     options:
@@ -310,7 +326,7 @@ lessons:
     correct: 0
     lexemes:
     - p1-fus
-  - id: p1-l1-18
+  - id: p1-l1-19
     type: multiple_choice
     prompt: 'איזו מילה מתאימה ל: צוואר?'
     options:
@@ -320,7 +336,7 @@ lessons:
     correct: 0
     lexemes:
     - p1-haldz
-  - id: p1-l1-19
+  - id: p1-l1-20
     type: fill_blank
     sentence: איך זע אַן ___.
     translation: אני רואה עין
@@ -332,7 +348,7 @@ lessons:
     - ביין
     lexemes:
     - p1-oyg
-  - id: p1-l1-20
+  - id: p1-l1-21
     type: fill_blank
     sentence: איך זע אַן ___.
     translation: אני רואה אוזן
@@ -344,7 +360,7 @@ lessons:
     - נאָגל
     lexemes:
     - p1-oyer
-  - id: p1-l1-21
+  - id: p1-l1-22
     type: fill_blank
     sentence: איך זע אַ ___.
     translation: אני רואה אף
@@ -356,7 +372,7 @@ lessons:
     - האַרץ
     lexemes:
     - p1-noz
-  - id: p1-l1-22
+  - id: p1-l1-23
     type: fill_blank
     sentence: איך זע אַ ___.
     translation: אני רואה פה
@@ -368,7 +384,7 @@ lessons:
     - בויך
     lexemes:
     - p1-moyl
-  - id: p1-l1-23
+  - id: p1-l1-24
     type: fill_blank
     sentence: איך זע אַ ___.
     translation: אני רואה שן
@@ -380,7 +396,7 @@ lessons:
     - ברוסט
     lexemes:
     - p1-tson
-  - id: p1-l1-24
+  - id: p1-l1-25
     type: fill_blank
     sentence: איך זע אַ ___.
     translation: אני רואה שיער
@@ -392,7 +408,7 @@ lessons:
     - האַרץ
     lexemes:
     - p1-har
-  - id: p1-l1-25
+  - id: p1-l1-26
     type: fill_blank
     sentence: איך זע אַ ___.
     translation: אני רואה רגל
@@ -404,7 +420,7 @@ lessons:
     - באַק
     lexemes:
     - p1-fus
-  - id: p1-l1-26
+  - id: p1-l1-27
     type: fill_blank
     sentence: איך זע אַ ___.
     translation: אני רואה צוואר
@@ -447,6 +463,22 @@ lessons:
     type: learn
     lexeme: p1-hoyt
   - id: p1-l2-09
+    type: dialogue
+    scene: הסבתא ממשיכה לבדוק את מנחם
+    lines:
+    - speaker: bobe
+      text: טוט דיר דער בויך וויי? אָדער די ברוסט?
+      translation: כואב לך הבטן? או החזה?
+    - speaker: menachem
+      text: ניין, באָבע. נאָר מײַן פּלייצע און מײַן אָרעם.
+      translation: לא, סבתא. רק הכתף והזרוע.
+    - speaker: bobe
+      text: און די פֿינגער? דאָס האַרץ קלאַפּט שנעל?
+      translation: ואצבעות? הלב דופק מהר?
+    - speaker: menachem
+      text: דאָס האַרץ איז גוט, און די הויט איז טרוקן. איך האָב נאָר קעלט.
+      translation: הלב בסדר והעור יבש. פשוט קר לי.
+  - id: p1-l2-10
     type: match_pairs
     pairs:
     - - בויך
@@ -462,7 +494,7 @@ lessons:
     - p1-brust
     - p1-pleytse
     - p1-orem
-  - id: p1-l2-10
+  - id: p1-l2-11
     type: match_pairs
     pairs:
     - - פֿינגער
@@ -478,7 +510,7 @@ lessons:
     - p1-harts
     - p1-blut
     - p1-hoyt
-  - id: p1-l2-11
+  - id: p1-l2-12
     type: multiple_choice
     prompt: מה פירוש בויך?
     options:
@@ -488,7 +520,7 @@ lessons:
     correct: 0
     lexemes:
     - p1-boykh
-  - id: p1-l2-12
+  - id: p1-l2-13
     type: multiple_choice
     prompt: 'איזו מילה מתאימה ל: חזה?'
     options:
@@ -498,7 +530,7 @@ lessons:
     correct: 0
     lexemes:
     - p1-brust
-  - id: p1-l2-13
+  - id: p1-l2-14
     type: multiple_choice
     prompt: מה פירוש פּלייצע?
     options:
@@ -508,7 +540,7 @@ lessons:
     correct: 0
     lexemes:
     - p1-pleytse
-  - id: p1-l2-14
+  - id: p1-l2-15
     type: multiple_choice
     prompt: 'איזו מילה מתאימה ל: זרוע?'
     options:
@@ -518,7 +550,7 @@ lessons:
     correct: 0
     lexemes:
     - p1-orem
-  - id: p1-l2-15
+  - id: p1-l2-16
     type: multiple_choice
     prompt: מה פירוש פֿינגער?
     options:
@@ -528,7 +560,7 @@ lessons:
     correct: 0
     lexemes:
     - p1-finger
-  - id: p1-l2-16
+  - id: p1-l2-17
     type: multiple_choice
     prompt: 'איזו מילה מתאימה ל: לב?'
     options:
@@ -538,7 +570,7 @@ lessons:
     correct: 0
     lexemes:
     - p1-harts
-  - id: p1-l2-17
+  - id: p1-l2-18
     type: multiple_choice
     prompt: מה פירוש בלוט?
     options:
@@ -548,7 +580,7 @@ lessons:
     correct: 0
     lexemes:
     - p1-blut
-  - id: p1-l2-18
+  - id: p1-l2-19
     type: multiple_choice
     prompt: 'איזו מילה מתאימה ל: עור?'
     options:
@@ -558,7 +590,7 @@ lessons:
     correct: 0
     lexemes:
     - p1-hoyt
-  - id: p1-l2-19
+  - id: p1-l2-20
     type: fill_blank
     sentence: איך זע אַ ___.
     translation: אני רואה בטן
@@ -570,7 +602,7 @@ lessons:
     - גוף
     lexemes:
     - p1-boykh
-  - id: p1-l2-20
+  - id: p1-l2-21
     type: fill_blank
     sentence: איך זע אַ ___.
     translation: אני רואה חזה
@@ -582,7 +614,7 @@ lessons:
     - נאָגל
     lexemes:
     - p1-brust
-  - id: p1-l2-21
+  - id: p1-l2-22
     type: fill_blank
     sentence: איך זע אַ ___.
     translation: אני רואה כתף
@@ -594,7 +626,7 @@ lessons:
     - צאָן
     lexemes:
     - p1-pleytse
-  - id: p1-l2-22
+  - id: p1-l2-23
     type: fill_blank
     sentence: איך זע אַן ___.
     translation: אני רואה זרוע
@@ -606,7 +638,7 @@ lessons:
     - אויער
     lexemes:
     - p1-orem
-  - id: p1-l2-23
+  - id: p1-l2-24
     type: fill_blank
     sentence: איך זע אַ ___.
     translation: אני רואה אצבע
@@ -618,7 +650,7 @@ lessons:
     - נאָגל
     lexemes:
     - p1-finger
-  - id: p1-l2-24
+  - id: p1-l2-25
     type: fill_blank
     sentence: איך זע אַ ___.
     translation: אני רואה לב
@@ -630,7 +662,7 @@ lessons:
     - נאָז
     lexemes:
     - p1-harts
-  - id: p1-l2-25
+  - id: p1-l2-26
     type: fill_blank
     sentence: איך זע ___.
     translation: אני רואה דם
@@ -642,7 +674,7 @@ lessons:
     - אויג
     lexemes:
     - p1-blut
-  - id: p1-l2-26
+  - id: p1-l2-27
     type: fill_blank
     sentence: איך זע אַ ___.
     translation: אני רואה עור
@@ -685,6 +717,22 @@ lessons:
     type: learn
     lexeme: p1-nogl
   - id: p1-l3-09
+    type: dialogue
+    scene: הסבא מצטרף ומסכם
+    lines:
+    - speaker: zeyde
+      text: וואָס זאָגט דער דאָקטער? האָט ער געזען דעם גאַנצן גוף?
+      translation: מה אומר הרופא? הוא ראה את כל הגוף?
+    - speaker: menachem
+      text: 'ער האָט געזאָגט: דער ביין איז גוט, די צונג איז גוט.'
+      translation: 'הוא אמר: העצם בסדר, הלשון בסדר.'
+    - speaker: bobe
+      text: דער באָרד פֿון זיידן איז אויך גוט! און די קני?
+      translation: הזקן של סבא גם בסדר! והברכיים?
+    - speaker: zeyde
+      text: אַ ליפּ, אַ באַק, אַ נאָגל — אַלץ גוט. מנחם, גיי שלאָפֿן.
+      translation: שפה, לחי, ציפורן — הכול בסדר. מנחם, לך לישון.
+  - id: p1-l3-10
     type: match_pairs
     pairs:
     - - ביין
@@ -700,7 +748,7 @@ lessons:
     - p1-tsung
     - p1-bord
     - p1-kni
-  - id: p1-l3-10
+  - id: p1-l3-11
     type: match_pairs
     pairs:
     - - גוף
@@ -716,7 +764,7 @@ lessons:
     - p1-lip
     - p1-bak
     - p1-nogl
-  - id: p1-l3-11
+  - id: p1-l3-12
     type: multiple_choice
     prompt: מה פירוש ביין?
     options:
@@ -726,7 +774,7 @@ lessons:
     correct: 0
     lexemes:
     - p1-beyn
-  - id: p1-l3-12
+  - id: p1-l3-13
     type: multiple_choice
     prompt: 'איזו מילה מתאימה ל: לשון?'
     options:
@@ -736,7 +784,7 @@ lessons:
     correct: 0
     lexemes:
     - p1-tsung
-  - id: p1-l3-13
+  - id: p1-l3-14
     type: multiple_choice
     prompt: מה פירוש באָרד?
     options:
@@ -746,7 +794,7 @@ lessons:
     correct: 0
     lexemes:
     - p1-bord
-  - id: p1-l3-14
+  - id: p1-l3-15
     type: multiple_choice
     prompt: 'איזו מילה מתאימה ל: ברך?'
     options:
@@ -756,7 +804,7 @@ lessons:
     correct: 0
     lexemes:
     - p1-kni
-  - id: p1-l3-15
+  - id: p1-l3-16
     type: multiple_choice
     prompt: מה פירוש גוף?
     options:
@@ -766,7 +814,7 @@ lessons:
     correct: 0
     lexemes:
     - p1-guf
-  - id: p1-l3-16
+  - id: p1-l3-17
     type: multiple_choice
     prompt: 'איזו מילה מתאימה ל: שפה?'
     options:
@@ -776,7 +824,7 @@ lessons:
     correct: 0
     lexemes:
     - p1-lip
-  - id: p1-l3-17
+  - id: p1-l3-18
     type: multiple_choice
     prompt: מה פירוש באַק?
     options:
@@ -786,7 +834,7 @@ lessons:
     correct: 0
     lexemes:
     - p1-bak
-  - id: p1-l3-18
+  - id: p1-l3-19
     type: multiple_choice
     prompt: 'איזו מילה מתאימה ל: ציפורן?'
     options:
@@ -796,7 +844,7 @@ lessons:
     correct: 0
     lexemes:
     - p1-nogl
-  - id: p1-l3-19
+  - id: p1-l3-20
     type: fill_blank
     sentence: איך זע אַ ___.
     translation: אני רואה עצם
@@ -808,7 +856,7 @@ lessons:
     - נאָז
     lexemes:
     - p1-beyn
-  - id: p1-l3-20
+  - id: p1-l3-21
     type: fill_blank
     sentence: איך זע אַ ___.
     translation: אני רואה לשון
@@ -820,7 +868,7 @@ lessons:
     - האָר
     lexemes:
     - p1-tsung
-  - id: p1-l3-21
+  - id: p1-l3-22
     type: fill_blank
     sentence: איך זע אַ ___.
     translation: אני רואה זקן
@@ -832,7 +880,7 @@ lessons:
     - ברוסט
     lexemes:
     - p1-bord
-  - id: p1-l3-22
+  - id: p1-l3-23
     type: fill_blank
     sentence: איך זע אַ ___.
     translation: אני רואה ברך
@@ -844,7 +892,7 @@ lessons:
     - פֿינגער
     lexemes:
     - p1-kni
-  - id: p1-l3-23
+  - id: p1-l3-24
     type: fill_blank
     sentence: איך זע אַ ___.
     translation: אני רואה גוף האדם
@@ -856,7 +904,7 @@ lessons:
     - ברוסט
     lexemes:
     - p1-guf
-  - id: p1-l3-24
+  - id: p1-l3-25
     type: fill_blank
     sentence: איך זע אַ ___.
     translation: אני רואה שפה
@@ -868,7 +916,7 @@ lessons:
     - מויל
     lexemes:
     - p1-lip
-  - id: p1-l3-25
+  - id: p1-l3-26
     type: fill_blank
     sentence: איך זע אַ ___.
     translation: אני רואה לחי
@@ -880,7 +928,7 @@ lessons:
     - מויל
     lexemes:
     - p1-bak
-  - id: p1-l3-26
+  - id: p1-l3-27
     type: fill_blank
     sentence: איך זע אַ ___.
     translation: אני רואה ציפורן

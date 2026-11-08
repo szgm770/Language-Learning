@@ -2,209 +2,251 @@ id: p17-words
 cefr: B2
 scene: study
 title:
-  he: 'הרחבת אוצר מילים 17: צורות הפועל בשיחות'
-  en: 'Word builder 17: verb forms from the talks'
-story: צורות הפועל שחוזרות הכי הרבה בשיחות, כל אחת במשפט קצר.
+  he: 'הרחבת אוצר מילים 17: עוד מילים משיחות'
+  en: 'Word builder 17: more words from talks'
+story: בסוף ההתוועדות הסבא וחוזר על המילים האחרונות עם מנחם, ושניהם מתחילים לכתוב מכתב.
 canDo:
-- להבין ולהשתמש במילים נפוצות נוספות
+- להבין ולהשתמש במילים נפוצות נוספות בשיחה
 - לזהות את המילים במשפטים
 vocabulary:
-- id: p17-hot
-  text: האָט
-  translation: יש לו / (עזר לעבר)
+- id: p17-gantser
+  text: גאַנצער
+  translation: שלם / כל
+  pos: adjective
+  example:
+    text: דער גאַנצער טאָג איז שיין.
+    translation: היום כולו יפה
+- id: p17-farshtand
+  text: פֿאַרשטאַנד
+  translation: הבנה / שכל
+  pos: noun
+  example:
+    text: ער האָט אַ גוט פֿאַרשטאַנד.
+    translation: יש לו שכל טוב
+- id: p17-sakh
+  text: סך
+  translation: הרבה
+  pos: noun
+  example:
+    text: ער האָט אַ סך ביכער.
+    translation: יש לו הרבה ספרים
+- id: p17-hayntiker
+  text: הײַנטיקער
+  translation: של היום
+  pos: adjective
+  example:
+    text: דער הײַנטיקער טאָג איז שיין.
+    translation: יום של היום יפה
+- id: p17-shtarkayt
+  text: שטאַרקייט
+  translation: חוזק
+  pos: noun
+  example:
+    text: ער האָט אַ גרויסע שטאַרקייט.
+    translation: יש לו כוח גדול
+- id: p17-gebrakht
+  text: געבראַכט
+  translation: הביא
   pos: verb
   example:
-    text: ער האָט אַ בוך.
-    translation: יש לו ספר
-- id: p17-zaynen
-  text: זיינען
-  translation: הם / אנחנו (הווה של להיות)
+    text: ער האָט געבראַכט אַ בוך.
+    translation: הוא הביא ספר
+- id: p17-gerekht
+  text: גערעכט
+  translation: צודק
+  pos: adjective
+  example:
+    text: ער איז גערעכט.
+    translation: הוא צודק
+- id: p17-farshidene
+  text: פֿאַרשידענע
+  translation: שונים
+  pos: adjective
+  example:
+    text: זיי לערנען פֿאַרשידענע ביכער.
+    translation: הם לומדים ספרים שונים
+- id: p17-gehaltn
+  text: געהאַלטן
+  translation: החזיק / קיים
   pos: verb
   example:
-    text: מיר זיינען דאָ.
-    translation: אנחנו כאן
-- id: p17-zogt
-  text: זאָגט
-  translation: אומר
+    text: ער האָט געהאַלטן אַ שיעור.
+    translation: הוא קיים שיעור
+- id: p17-geredt
+  text: גערעדט
+  translation: דיבר
   pos: verb
   example:
-    text: ער זאָגט עס.
-    translation: הוא אומר את זה
-- id: p17-shteyt
-  text: שטייט
-  translation: עומד
+    text: ער האָט גערעדט מיט מיר.
+    translation: הוא דיבר איתי
+- id: p17-shtelt
+  text: שטעלט
+  translation: מעמיד
   pos: verb
   example:
-    text: ער שטייט אין שול.
-    translation: הוא עומד בבית הכנסת
-- id: p17-brengt
-  text: ברענגט
-  translation: מביא
+    text: ער שטעלט דאָס בוך אויפֿן טיש.
+    translation: הוא מעמיד את הספר על השולחן
+- id: p17-halt
+  text: האַלט
+  translation: מחזיק
   pos: verb
   example:
-    text: ער ברענגט אַ בוך.
-    translation: הוא מביא ספר
-- id: p17-kumt
-  text: קומט
-  translation: בא
+    text: ער האַלט אַ בוך אין האַנט.
+    translation: הוא מחזיק ספר ביד
+- id: p17-enlekh
+  text: ענלעך
+  translation: דומה
+  pos: adjective
+  example:
+    text: ער איז ענלעך צו זײַן טאַטן.
+    translation: הוא דומה לאביו
+- id: p17-ofn
+  text: אָפֿן
+  translation: פתוח
+  pos: adjective
+  example:
+    text: די טיר איז אָפֿן.
+    translation: הדלת פתוחה
+- id: p17-untn
+  text: אונטן
+  translation: למטה
+  pos: adverb
+  example:
+    text: דער בוך ליגט אונטן.
+    translation: הספר מונח למטה
+- id: p17-farmakht
+  text: פֿאַרמאַכט
+  translation: סגור
+  pos: adjective
+  example:
+    text: די טיר איז פֿאַרמאַכט.
+    translation: הדלת סגורה
+- id: p17-ingantsn
+  text: אינגאַנצן
+  translation: לגמרי
+  pos: adverb
+  example:
+    text: ער איז אינגאַנצן פֿאַרטיק.
+    translation: הוא לגמרי גמר
+- id: p17-dagegn
+  text: דאַקעגן
+  translation: לעומת זאת
+  pos: adverb
+  example:
+    text: איך וויל גיין, דאַקעגן וויל ער בלײַבן.
+    translation: אני רוצה ללכת ולעומת זאת הוא רוצה להישאר
+- id: p17-derfun
+  text: דערפֿון
+  translation: מזה
+  pos: adverb
+  example:
+    text: ער רעדט דערפֿון.
+    translation: הוא מדבר על זה
+- id: p17-manen
+  text: מאָנען
+  translation: לדרוש / לתבוע
   pos: verb
   example:
-    text: ער קומט מאָרגן.
-    translation: הוא בא מחר
-- id: p17-tut
-  text: טוט
-  translation: עושה
+    text: ער וויל מאָנען זײַן געלט.
+    translation: הוא רוצה לדרוש את כספו
+- id: p17-eygene
+  text: אייגענע
+  translation: עצמי
+  pos: adjective
+  example:
+    text: ער האָט זײַן אייגענע שטוב.
+    translation: יש לו בית משלו
+- id: p17-tekhter
+  text: טעכטער
+  translation: בנות
+  pos: noun
+  example:
+    text: איך האָב צוויי טעכטער.
+    translation: יש לי שתי בנות
+- id: p17-unzer
+  text: אונדזער
+  translation: שלנו
+  pos: pronoun
+  example:
+    text: אונדזער שטוב איז גרויס.
+    translation: הבית שלנו גדול
+- id: p17-rekhnt
+  text: רעכנט
+  translation: סופר / מחשיב
   pos: verb
   example:
-    text: ער טוט עס.
-    translation: הוא עושה את זה
-- id: p17-zet
-  text: זעט
-  translation: רואה
+    text: ער רעכנט דאָס.
+    translation: הוא סופר את זה
+- id: p17-kleyne
+  text: קליינע
+  translation: קטנים
+  pos: adjective
+  example:
+    text: די קליינע קינדער שפּילן.
+    translation: הילדים הקטנים משחקים
+- id: p17-mentshn
+  text: מענטשן
+  translation: אנשים
+  pos: noun
+  example:
+    text: פֿיל מענטשן קומען.
+    translation: הרבה אנשים באים
+- id: p17-farlirn
+  text: פֿאַרלירן
+  translation: לאבד
   pos: verb
   example:
-    text: ער זעט אַ בוך.
-    translation: הוא רואה ספר
-- id: p17-redt
-  text: רעדט
-  translation: מדבר
+    text: איך וויל ניט פֿאַרלירן דאָס בוך.
+    translation: אני לא רוצה לאבד את הספר
+- id: p17-shpayz
+  text: שפּײַז
+  translation: אוכל
+  pos: noun
+  example:
+    text: מיר האָבן גוטע שפּײַז.
+    translation: יש לנו אוכל טוב
+- id: p17-farbundn
+  text: פֿאַרבונדן
+  translation: קשור
+  pos: adjective
+  example:
+    text: ער איז פֿאַרבונדן מיט זײַן משפּחה.
+    translation: הוא קשור למשפחתו
+- id: p17-etlekhe
+  text: עטלעכע
+  translation: כמה
+  pos: adjective
+  example:
+    text: עטלעכע מענטשן קומען.
+    translation: כמה אנשים באים
+- id: p17-keynem
+  text: קיינעם
+  translation: אף אחד (פעול)
+  pos: pronoun
+  example:
+    text: איך זע קיינעם ניט.
+    translation: אני לא רואה אף אחד
+- id: p17-oremon
+  text: אָרעמאַן
+  translation: עני
+  pos: noun
+  example:
+    text: דער אָרעמאַן בעט צדקה.
+    translation: העני מבקש צדקה
+- id: p17-derbay
+  text: דערביי
+  translation: בזה / שם
+  pos: adverb
+  example:
+    text: ער איז דערביי.
+    translation: הוא נמצא שם
+- id: p17-shekhtn
+  text: שעכטן
+  translation: לשחוט
   pos: verb
   example:
-    text: ער רעדט יידיש.
-    translation: הוא מדבר יידיש
-- id: p17-gefint
-  text: געפֿינט
-  translation: מוצא
-  pos: verb
-  example:
-    text: ער געפֿינט אַ בוך.
-    translation: הוא מוצא ספר
-- id: p17-dar
-  text: דאַרף
-  translation: צריך
-  pos: verb
-  example:
-    text: ער דאַרף גיין.
-    translation: הוא צריך ללכת
-- id: p17-ken
-  text: קען
-  translation: יכול
-  pos: verb
-  example:
-    text: ער קען גיין.
-    translation: הוא יכול ללכת
-- id: p17-vet
-  text: וועט
-  translation: יהיה (עתיד)
-  pos: verb
-  example:
-    text: ער וועט קומען.
-    translation: הוא יבוא
-- id: p17-geven
-  text: געווען
-  translation: היה
-  pos: verb
-  example:
-    text: ער איז געווען אין שול.
-    translation: הוא היה בבית הכנסת
-- id: p17-gevoren
-  text: געוואָרן
-  translation: נהיה
-  pos: verb
-  example:
-    text: עס איז קאַלט געוואָרן.
-    translation: נהיה קר
-- id: p17-geton
-  text: געטאָן
-  translation: עשה
-  pos: verb
-  example:
-    text: ער האָט עס געטאָן.
-    translation: הוא עשה את זה
-- id: p17-gefunen
-  text: געפֿונען
-  translation: מצא
-  pos: verb
-  example:
-    text: איך האָב געפֿונען אַ בוך.
-    translation: מצאתי ספר
-- id: p17-gekumen
-  text: געקומען
-  translation: בא (עבר)
-  pos: verb
-  example:
-    text: ער איז געקומען.
-    translation: הוא בא
-- id: p17-gegebn
-  text: געגעבן
-  translation: נתן
-  pos: verb
-  example:
-    text: ער האָט געגעבן צדקה.
-    translation: הוא נתן צדקה
-- id: p17-gemakht
-  text: געמאַכט
-  translation: עשה / יצר
-  pos: verb
-  example:
-    text: ער האָט געמאַכט אַ סוכה.
-    translation: הוא עשה סוכה
-- id: p17-gebitn
-  text: געבעטן
-  translation: ביקש
-  pos: verb
-  example:
-    text: איך האָב געבעטן אַ בוך.
-    translation: ביקשתי ספר
-- id: p17-gelaybt
-  text: געלעבט
-  translation: חי
-  pos: verb
-  example:
-    text: ער האָט געלעבט אין ניו־יאָרק.
-    translation: הוא חי בניו יורק
-- id: p17-geblibn
-  text: געבליבן
-  translation: נשאר
-  pos: verb
-  example:
-    text: ער איז געבליבן אין שטוב.
-    translation: הוא נשאר בבית
-- id: p17-gezen2
-  text: געזען
-  translation: ראה
-  pos: verb
-  example:
-    text: איך האָב געזען דעם רבי.
-    translation: ראיתי את הרבי
-- id: p17-gegeyn2
-  text: געגאַנגען
-  translation: הלך
-  pos: verb
-  example:
-    text: ער איז געגאַנגען אין שול.
-    translation: הוא הלך לבית הכנסת
-- id: p17-gerufn
-  text: גערופֿן
-  translation: קרא
-  pos: verb
-  example:
-    text: איך האָב גערופֿן אַ גאַסט.
-    translation: קראתי לאורח
-- id: p17-gefregt
-  text: געפֿרעגט
-  translation: שאל
-  pos: verb
-  example:
-    text: ער האָט געפֿרעגט אַ פֿראַגע.
-    translation: הוא שאל שאלה
-- id: p17-gefirt
-  text: געפֿירט
-  translation: הוביל
-  pos: verb
-  example:
-    text: ער האָט געפֿירט דעם שיעור.
-    translation: הוא העביר את השיעור
+    text: מע דאַרף שעכטן אַ שעפּס.
+    translation: צריך לשחוט כבש
 lessons:
 - id: p17-l1
   kind: new
@@ -214,264 +256,336 @@ lessons:
   exercises:
   - id: p17-l1-01
     type: learn
-    lexeme: p17-hot
+    lexeme: p17-gantser
   - id: p17-l1-02
     type: learn
-    lexeme: p17-zaynen
+    lexeme: p17-farshtand
   - id: p17-l1-03
     type: learn
-    lexeme: p17-zogt
+    lexeme: p17-sakh
   - id: p17-l1-04
     type: learn
-    lexeme: p17-shteyt
+    lexeme: p17-hayntiker
   - id: p17-l1-05
     type: learn
-    lexeme: p17-brengt
+    lexeme: p17-shtarkayt
   - id: p17-l1-06
     type: learn
-    lexeme: p17-kumt
+    lexeme: p17-gebrakht
   - id: p17-l1-07
     type: learn
-    lexeme: p17-tut
+    lexeme: p17-gerekht
   - id: p17-l1-08
     type: learn
-    lexeme: p17-zet
+    lexeme: p17-farshidene
   - id: p17-l1-09
     type: learn
-    lexeme: p17-redt
+    lexeme: p17-gehaltn
   - id: p17-l1-10
-    type: match_pairs
-    pairs:
-    - - האָט
-      - יש לו / (עזר לעבר)
-    - - זיינען
-      - הם / אנחנו (הווה של להיות)
-    - - זאָגט
-      - אומר
-    - - שטייט
-      - עומד
-    lexemes:
-    - p17-hot
-    - p17-zaynen
-    - p17-zogt
-    - p17-shteyt
+    type: learn
+    lexeme: p17-geredt
   - id: p17-l1-11
+    type: learn
+    lexeme: p17-shtelt
+  - id: p17-l1-12
+    type: dialogue
+    scene: מילים לסיום
+    lines:
+    - speaker: zeyde
+      text: דער גאַנצער טאָג, מיט פֿאַרשטאַנד און אַ סך כּוח.
+      translation: היום כולו, בהבנה ובהרבה כוח.
+    - speaker: menachem
+      text: הײַנטיקער שטאַרקייט האָט געבראַכט אַ גערעכטן וועג.
+      translation: הכוח של היום הביא דרך נכונה.
+    - speaker: zeyde
+      text: פֿאַרשידענע מענטשן האָבן געהאַלטן אַ שיעור און גערעדט.
+      translation: אנשים שונים קיימו שיעור ודיברו.
+    - speaker: menachem
+      text: ער שטעלט דאָס בוך אויפֿן טיש.
+      translation: הוא מעמיד את הספר על השולחן.
+  - id: p17-l1-13
     type: match_pairs
     pairs:
-    - - ברענגט
-      - מביא
-    - - קומט
-      - בא
-    - - טוט
-      - עושה
-    - - זעט
-      - רואה
-    - - רעדט
-      - מדבר
+    - - גאַנצער
+      - שלם / כל
+    - - פֿאַרשטאַנד
+      - הבנה / שכל
+    - - סך
+      - הרבה
+    - - הײַנטיקער
+      - של היום
+    - - שטאַרקייט
+      - חוזק
+    - - געבראַכט
+      - הביא
     lexemes:
-    - p17-brengt
-    - p17-kumt
-    - p17-tut
-    - p17-zet
-    - p17-redt
-  - id: p17-l1-12
-    type: multiple_choice
-    prompt: מה פירוש האָט?
-    options:
-    - יש לו / (עזר לעבר)
-    - ראה
-    - היה
-    correct: 0
-    lexemes:
-    - p17-hot
-  - id: p17-l1-13
-    type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: הם / אנחנו (הווה של להיות)?'
-    options:
-    - זיינען
-    - געפֿונען
-    - געוואָרן
-    correct: 0
-    lexemes:
-    - p17-zaynen
+    - p17-gantser
+    - p17-farshtand
+    - p17-sakh
+    - p17-hayntiker
+    - p17-shtarkayt
+    - p17-gebrakht
   - id: p17-l1-14
-    type: multiple_choice
-    prompt: מה פירוש זאָגט?
-    options:
-    - אומר
-    - יהיה (עתיד)
-    - ביקש
-    correct: 0
+    type: match_pairs
+    pairs:
+    - - גערעכט
+      - צודק
+    - - פֿאַרשידענע
+      - שונים
+    - - געהאַלטן
+      - החזיק / קיים
+    - - גערעדט
+      - דיבר
+    - - שטעלט
+      - מעמיד
     lexemes:
-    - p17-zogt
+    - p17-gerekht
+    - p17-farshidene
+    - p17-gehaltn
+    - p17-geredt
+    - p17-shtelt
   - id: p17-l1-15
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: עומד?'
+    prompt: מה פירוש גאַנצער?
     options:
-    - שטייט
-    - געגאַנגען
-    - געקומען
+    - שלם / כל
+    - כמה
+    - בזה / שם
     correct: 0
     lexemes:
-    - p17-shteyt
+    - p17-gantser
   - id: p17-l1-16
     type: multiple_choice
-    prompt: מה פירוש ברענגט?
+    prompt: 'איזו מילה מתאימה ל: הבנה / שכל?'
     options:
-    - מביא
-    - יכול
-    - היה
+    - פֿאַרשטאַנד
+    - מענטשן
+    - שפּײַז
     correct: 0
     lexemes:
-    - p17-brengt
+    - p17-farshtand
   - id: p17-l1-17
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: בא?'
+    prompt: מה פירוש סך?
     options:
-    - קומט
-    - קען
-    - געגעבן
+    - הרבה
+    - כמה
+    - פתוח
     correct: 0
     lexemes:
-    - p17-kumt
+    - p17-sakh
   - id: p17-l1-18
     type: multiple_choice
-    prompt: מה פירוש טוט?
+    prompt: 'איזו מילה מתאימה ל: של היום?'
     options:
-    - עושה
-    - נהיה
-    - ראה
+    - הײַנטיקער
+    - אונטן
+    - דערביי
     correct: 0
     lexemes:
-    - p17-tut
+    - p17-hayntiker
   - id: p17-l1-19
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: רואה?'
+    prompt: מה פירוש שטאַרקייט?
     options:
-    - זעט
-    - וועט
-    - געקומען
+    - חוזק
+    - עני
+    - לגמרי
     correct: 0
     lexemes:
-    - p17-zet
+    - p17-shtarkayt
   - id: p17-l1-20
     type: multiple_choice
-    prompt: מה פירוש רעדט?
+    prompt: 'איזו מילה מתאימה ל: הביא?'
     options:
-    - מדבר
-    - נהיה
-    - בא (עבר)
+    - געבראַכט
+    - שפּײַז
+    - קיינעם
     correct: 0
     lexemes:
-    - p17-redt
+    - p17-gebrakht
   - id: p17-l1-21
-    type: fill_blank
-    sentence: ער ___ אַ בוך.
-    translation: יש לו ספר
-    answers:
-    - האָט
+    type: multiple_choice
+    prompt: מה פירוש גערעכט?
     options:
-    - האָט
-    - וועט
-    - געפֿירט
+    - צודק
+    - לגמרי
+    - קטנים
+    correct: 0
     lexemes:
-    - p17-hot
+    - p17-gerekht
   - id: p17-l1-22
-    type: fill_blank
-    sentence: מיר ___ דאָ.
-    translation: אנחנו כאן
-    answers:
-    - זיינען
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: שונים?'
     options:
-    - זיינען
-    - געפֿירט
-    - געזען
+    - פֿאַרשידענע
+    - אָפֿן
+    - האַלט
+    correct: 0
     lexemes:
-    - p17-zaynen
+    - p17-farshidene
   - id: p17-l1-23
-    type: fill_blank
-    sentence: ער ___ עס.
-    translation: הוא אומר את זה
-    answers:
-    - זאָגט
+    type: multiple_choice
+    prompt: מה פירוש געהאַלטן?
     options:
-    - זאָגט
-    - קען
-    - געגעבן
+    - החזיק / קיים
+    - אנשים
+    - למטה
+    correct: 0
     lexemes:
-    - p17-zogt
+    - p17-gehaltn
   - id: p17-l1-24
-    type: fill_blank
-    sentence: ער ___ אין שול.
-    translation: הוא עומד בבית הכנסת
-    answers:
-    - שטייט
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: דיבר?'
     options:
-    - שטייט
-    - גערופֿן
-    - געבעטן
+    - גערעדט
+    - שעכטן
+    - מאָנען
+    correct: 0
     lexemes:
-    - p17-shteyt
+    - p17-geredt
   - id: p17-l1-25
-    type: fill_blank
-    sentence: ער ___ אַ בוך.
-    translation: הוא מביא ספר
-    answers:
-    - ברענגט
+    type: multiple_choice
+    prompt: מה פירוש שטעלט?
     options:
-    - ברענגט
-    - געוואָרן
-    - געלעבט
+    - מעמיד
+    - שלנו
+    - קטנים
+    correct: 0
     lexemes:
-    - p17-brengt
+    - p17-shtelt
   - id: p17-l1-26
     type: fill_blank
-    sentence: ער ___ מאָרגן.
-    translation: הוא בא מחר
+    sentence: דער ___ טאָג איז שיין.
+    translation: היום כולו יפה
     answers:
-    - קומט
+    - גאַנצער
     options:
-    - קומט
-    - געפֿירט
-    - געבעטן
+    - גאַנצער
+    - עטלעכע
+    - קליינע
     lexemes:
-    - p17-kumt
+    - p17-gantser
   - id: p17-l1-27
     type: fill_blank
-    sentence: ער ___ עס.
-    translation: הוא עושה את זה
+    sentence: ער האָט אַ גוט ___.
+    translation: יש לו שכל טוב
     answers:
-    - טוט
+    - פֿאַרשטאַנד
     options:
-    - טוט
-    - געגעבן
-    - געוואָרן
+    - פֿאַרשטאַנד
+    - שפּײַז
+    - טעכטער
     lexemes:
-    - p17-tut
+    - p17-farshtand
   - id: p17-l1-28
     type: fill_blank
-    sentence: ער ___ אַ בוך.
-    translation: הוא רואה ספר
+    sentence: ער האָט אַ ___ ביכער.
+    translation: יש לו הרבה ספרים
     answers:
-    - זעט
+    - סך
     options:
-    - זעט
-    - געפֿינט
-    - קען
+    - סך
+    - מענטשן
+    - אָרעמאַן
     lexemes:
-    - p17-zet
+    - p17-sakh
   - id: p17-l1-29
     type: fill_blank
-    sentence: ער ___ יידיש.
-    translation: הוא מדבר יידיש
+    sentence: דער ___ טאָג איז שיין.
+    translation: יום של היום יפה
     answers:
-    - רעדט
+    - הײַנטיקער
     options:
-    - רעדט
-    - געפֿירט
-    - גערופֿן
+    - הײַנטיקער
+    - עטלעכע
+    - קליינע
     lexemes:
-    - p17-redt
+    - p17-hayntiker
+  - id: p17-l1-30
+    type: fill_blank
+    sentence: ער האָט אַ גרויסע ___.
+    translation: יש לו כוח גדול
+    answers:
+    - שטאַרקייט
+    options:
+    - שטאַרקייט
+    - טעכטער
+    - אָרעמאַן
+    lexemes:
+    - p17-shtarkayt
+  - id: p17-l1-31
+    type: fill_blank
+    sentence: ער האָט ___ אַ בוך.
+    translation: הוא הביא ספר
+    answers:
+    - געבראַכט
+    options:
+    - געבראַכט
+    - רעכנט
+    - מאָנען
+    lexemes:
+    - p17-gebrakht
+  - id: p17-l1-32
+    type: fill_blank
+    sentence: ער איז ___.
+    translation: הוא צודק
+    answers:
+    - גערעכט
+    options:
+    - גערעכט
+    - פֿאַרמאַכט
+    - עטלעכע
+    lexemes:
+    - p17-gerekht
+  - id: p17-l1-33
+    type: fill_blank
+    sentence: זיי לערנען ___ ביכער.
+    translation: הם לומדים ספרים שונים
+    answers:
+    - פֿאַרשידענע
+    options:
+    - פֿאַרשידענע
+    - אייגענע
+    - פֿאַרבונדן
+    lexemes:
+    - p17-farshidene
+  - id: p17-l1-34
+    type: fill_blank
+    sentence: ער האָט ___ אַ שיעור.
+    translation: הוא קיים שיעור
+    answers:
+    - געהאַלטן
+    options:
+    - געהאַלטן
+    - פֿאַרלירן
+    - מאָנען
+    lexemes:
+    - p17-gehaltn
+  - id: p17-l1-35
+    type: fill_blank
+    sentence: ער האָט ___ מיט מיר.
+    translation: הוא דיבר איתי
+    answers:
+    - גערעדט
+    options:
+    - גערעדט
+    - שעכטן
+    - מאָנען
+    lexemes:
+    - p17-geredt
+  - id: p17-l1-36
+    type: fill_blank
+    sentence: ער ___ דאָס בוך אויפֿן טיש.
+    translation: הוא מעמיד את הספר על השולחן
+    answers:
+    - שטעלט
+    options:
+    - שטעלט
+    - האַלט
+    - רעכנט
+    lexemes:
+    - p17-shtelt
 - id: p17-l2
   kind: new
   title:
@@ -480,264 +594,336 @@ lessons:
   exercises:
   - id: p17-l2-01
     type: learn
-    lexeme: p17-gefint
+    lexeme: p17-halt
   - id: p17-l2-02
     type: learn
-    lexeme: p17-dar
+    lexeme: p17-enlekh
   - id: p17-l2-03
     type: learn
-    lexeme: p17-ken
+    lexeme: p17-ofn
   - id: p17-l2-04
     type: learn
-    lexeme: p17-vet
+    lexeme: p17-untn
   - id: p17-l2-05
     type: learn
-    lexeme: p17-geven
+    lexeme: p17-farmakht
   - id: p17-l2-06
     type: learn
-    lexeme: p17-gevoren
+    lexeme: p17-ingantsn
   - id: p17-l2-07
     type: learn
-    lexeme: p17-geton
+    lexeme: p17-dagegn
   - id: p17-l2-08
     type: learn
-    lexeme: p17-gefunen
+    lexeme: p17-derfun
   - id: p17-l2-09
     type: learn
-    lexeme: p17-gekumen
+    lexeme: p17-manen
   - id: p17-l2-10
-    type: match_pairs
-    pairs:
-    - - געפֿינט
-      - מוצא
-    - - דאַרף
-      - צריך
-    - - קען
-      - יכול
-    - - וועט
-      - יהיה (עתיד)
-    lexemes:
-    - p17-gefint
-    - p17-dar
-    - p17-ken
-    - p17-vet
+    type: learn
+    lexeme: p17-eygene
   - id: p17-l2-11
+    type: learn
+    lexeme: p17-tekhter
+  - id: p17-l2-12
+    type: dialogue
+    scene: תיאורים
+    lines:
+    - speaker: zeyde
+      text: האַלט דאָס בוך. עס איז ענלעך צום ערשטן.
+      translation: החזק את הספר. הוא דומה לראשון.
+    - speaker: menachem
+      text: די טיר איז אָפֿן, אָבער דאָס פֿענצטער אונטן איז פֿאַרמאַכט.
+      translation: הדלת פתוחה, אבל החלון למטה סגור.
+    - speaker: zeyde
+      text: איך בין אינגאַנצן גרייט. דאַקעגן ווילסטו נאָך בלײַבן?
+      translation: אני לגמרי מוכן. לעומת זאת אתה רוצה עוד להישאר?
+    - speaker: menachem
+      text: דערפֿון רעד איך ניט. מע מאָנט פֿון מיר אייגענע זאַכן.
+      translation: על זה אני לא מדבר. דורשים ממני דברים משלי.
+  - id: p17-l2-13
     type: match_pairs
     pairs:
-    - - געווען
-      - היה
-    - - געוואָרן
-      - נהיה
-    - - געטאָן
-      - עשה
-    - - געפֿונען
-      - מצא
-    - - געקומען
-      - בא (עבר)
+    - - האַלט
+      - מחזיק
+    - - ענלעך
+      - דומה
+    - - אָפֿן
+      - פתוח
+    - - אונטן
+      - למטה
+    - - פֿאַרמאַכט
+      - סגור
+    - - אינגאַנצן
+      - לגמרי
     lexemes:
-    - p17-geven
-    - p17-gevoren
-    - p17-geton
-    - p17-gefunen
-    - p17-gekumen
-  - id: p17-l2-12
-    type: multiple_choice
-    prompt: מה פירוש געפֿינט?
-    options:
-    - מוצא
-    - קרא
-    - ראה
-    correct: 0
-    lexemes:
-    - p17-gefint
-  - id: p17-l2-13
-    type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: צריך?'
-    options:
-    - דאַרף
-    - געפֿרעגט
-    - געבעטן
-    correct: 0
-    lexemes:
-    - p17-dar
+    - p17-halt
+    - p17-enlekh
+    - p17-ofn
+    - p17-untn
+    - p17-farmakht
+    - p17-ingantsn
   - id: p17-l2-14
-    type: multiple_choice
-    prompt: מה פירוש קען?
-    options:
-    - יכול
-    - הלך
-    - ראה
-    correct: 0
+    type: match_pairs
+    pairs:
+    - - דאַקעגן
+      - לעומת זאת
+    - - דערפֿון
+      - מזה
+    - - מאָנען
+      - לדרוש / לתבוע
+    - - אייגענע
+      - עצמי
+    - - טעכטער
+      - בנות
     lexemes:
-    - p17-ken
+    - p17-dagegn
+    - p17-derfun
+    - p17-manen
+    - p17-eygene
+    - p17-tekhter
   - id: p17-l2-15
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: יהיה (עתיד)?'
+    prompt: מה פירוש האַלט?
     options:
-    - וועט
-    - רעדט
-    - זאָגט
+    - מחזיק
+    - שלם / כל
+    - שלנו
     correct: 0
     lexemes:
-    - p17-vet
+    - p17-halt
   - id: p17-l2-16
     type: multiple_choice
-    prompt: מה פירוש געווען?
+    prompt: 'איזו מילה מתאימה ל: דומה?'
     options:
-    - היה
-    - הם / אנחנו (הווה של להיות)
-    - מדבר
+    - ענלעך
+    - פֿאַרבונדן
+    - מענטשן
     correct: 0
     lexemes:
-    - p17-geven
+    - p17-enlekh
   - id: p17-l2-17
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: נהיה?'
+    prompt: מה פירוש אָפֿן?
     options:
-    - געוואָרן
-    - קומט
-    - רעדט
+    - פתוח
+    - אוכל
+    - כמה
     correct: 0
     lexemes:
-    - p17-gevoren
+    - p17-ofn
   - id: p17-l2-18
     type: multiple_choice
-    prompt: מה פירוש געטאָן?
+    prompt: 'איזו מילה מתאימה ל: למטה?'
     options:
-    - עשה
-    - ראה
-    - מביא
+    - אונטן
+    - מענטשן
+    - גערעכט
     correct: 0
     lexemes:
-    - p17-geton
+    - p17-untn
   - id: p17-l2-19
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: מצא?'
+    prompt: מה פירוש פֿאַרמאַכט?
     options:
-    - געפֿונען
-    - געבעטן
-    - זעט
+    - סגור
+    - צודק
+    - אוכל
     correct: 0
     lexemes:
-    - p17-gefunen
+    - p17-farmakht
   - id: p17-l2-20
     type: multiple_choice
-    prompt: מה פירוש געקומען?
+    prompt: 'איזו מילה מתאימה ל: לגמרי?'
     options:
-    - בא (עבר)
-    - ביקש
-    - הוביל
+    - אינגאַנצן
+    - גאַנצער
+    - פֿאַרשידענע
     correct: 0
     lexemes:
-    - p17-gekumen
+    - p17-ingantsn
   - id: p17-l2-21
-    type: fill_blank
-    sentence: ער ___ אַ בוך.
-    translation: הוא מוצא ספר
-    answers:
-    - געפֿינט
+    type: multiple_choice
+    prompt: מה פירוש דאַקעגן?
     options:
-    - געפֿינט
-    - ברענגט
-    - האָט
+    - לעומת זאת
+    - שונים
+    - אף אחד (פעול)
+    correct: 0
     lexemes:
-    - p17-gefint
+    - p17-dagegn
   - id: p17-l2-22
-    type: fill_blank
-    sentence: ער ___ גיין.
-    translation: הוא צריך ללכת
-    answers:
-    - דאַרף
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: מזה?'
     options:
-    - דאַרף
-    - זאָגט
-    - געפֿירט
+    - דערפֿון
+    - סך
+    - עטלעכע
+    correct: 0
     lexemes:
-    - p17-dar
+    - p17-derfun
   - id: p17-l2-23
-    type: fill_blank
-    sentence: ער ___ גיין.
-    translation: הוא יכול ללכת
-    answers:
-    - קען
+    type: multiple_choice
+    prompt: מה פירוש מאָנען?
     options:
-    - קען
-    - שטייט
-    - געגעבן
+    - לדרוש / לתבוע
+    - הביא
+    - סופר / מחשיב
+    correct: 0
     lexemes:
-    - p17-ken
+    - p17-manen
   - id: p17-l2-24
-    type: fill_blank
-    sentence: ער ___ קומען.
-    translation: הוא יבוא
-    answers:
-    - וועט
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: עצמי?'
     options:
-    - וועט
-    - געגעבן
-    - שטייט
+    - אייגענע
+    - פֿאַרבונדן
+    - עטלעכע
+    correct: 0
     lexemes:
-    - p17-vet
+    - p17-eygene
   - id: p17-l2-25
-    type: fill_blank
-    sentence: ער איז ___ אין שול.
-    translation: הוא היה בבית הכנסת
-    answers:
-    - געווען
+    type: multiple_choice
+    prompt: מה פירוש טעכטער?
     options:
-    - געווען
-    - קומט
-    - שטייט
+    - בנות
+    - של היום
+    - בזה / שם
+    correct: 0
     lexemes:
-    - p17-geven
+    - p17-tekhter
   - id: p17-l2-26
     type: fill_blank
-    sentence: עס איז קאַלט ___.
-    translation: נהיה קר
+    sentence: ער ___ אַ בוך אין האַנט.
+    translation: הוא מחזיק ספר ביד
     answers:
-    - געוואָרן
+    - האַלט
     options:
-    - געוואָרן
-    - שטייט
-    - געמאַכט
+    - האַלט
+    - שעכטן
+    - געהאַלטן
     lexemes:
-    - p17-gevoren
+    - p17-halt
   - id: p17-l2-27
     type: fill_blank
-    sentence: ער האָט עס ___.
-    translation: הוא עשה את זה
+    sentence: ער איז ___ צו זײַן טאַטן.
+    translation: הוא דומה לאביו
     answers:
-    - געטאָן
+    - ענלעך
     options:
-    - געטאָן
-    - געפֿירט
-    - שטייט
+    - ענלעך
+    - הײַנטיקער
+    - גערעכט
     lexemes:
-    - p17-geton
+    - p17-enlekh
   - id: p17-l2-28
     type: fill_blank
-    sentence: איך האָב ___ אַ בוך.
-    translation: מצאתי ספר
+    sentence: די טיר איז ___.
+    translation: הדלת פתוחה
     answers:
-    - געפֿונען
+    - אָפֿן
     options:
-    - געפֿונען
-    - געפֿרעגט
-    - געמאַכט
+    - אָפֿן
+    - גערעכט
+    - פֿאַרבונדן
     lexemes:
-    - p17-gefunen
+    - p17-ofn
   - id: p17-l2-29
     type: fill_blank
-    sentence: ער איז ___.
-    translation: הוא בא
+    sentence: דער בוך ליגט ___.
+    translation: הספר מונח למטה
     answers:
-    - געקומען
+    - אונטן
     options:
-    - געקומען
-    - קומט
-    - טוט
+    - אונטן
+    - אונדזער
+    - שטעלט
     lexemes:
-    - p17-gekumen
+    - p17-untn
+  - id: p17-l2-30
+    type: fill_blank
+    sentence: די טיר איז ___.
+    translation: הדלת סגורה
+    answers:
+    - פֿאַרמאַכט
+    options:
+    - פֿאַרמאַכט
+    - פֿאַרשידענע
+    - פֿאַרבונדן
+    lexemes:
+    - p17-farmakht
+  - id: p17-l2-31
+    type: fill_blank
+    sentence: ער איז ___ פֿאַרטיק.
+    translation: הוא לגמרי גמר
+    answers:
+    - אינגאַנצן
+    options:
+    - אינגאַנצן
+    - שטעלט
+    - געהאַלטן
+    lexemes:
+    - p17-ingantsn
+  - id: p17-l2-32
+    type: fill_blank
+    sentence: איך וויל גיין, ___ וויל ער בלײַבן.
+    translation: אני רוצה ללכת ולעומת זאת הוא רוצה להישאר
+    answers:
+    - דאַקעגן
+    options:
+    - דאַקעגן
+    - קליינע
+    - עטלעכע
+    lexemes:
+    - p17-dagegn
+  - id: p17-l2-33
+    type: fill_blank
+    sentence: ער רעדט ___.
+    translation: הוא מדבר על זה
+    answers:
+    - דערפֿון
+    options:
+    - דערפֿון
+    - שטאַרקייט
+    - פֿאַרבונדן
+    lexemes:
+    - p17-derfun
+  - id: p17-l2-34
+    type: fill_blank
+    sentence: ער וויל ___ זײַן געלט.
+    translation: הוא רוצה לדרוש את כספו
+    answers:
+    - מאָנען
+    options:
+    - מאָנען
+    - שעכטן
+    - געהאַלטן
+    lexemes:
+    - p17-manen
+  - id: p17-l2-35
+    type: fill_blank
+    sentence: ער האָט זײַן ___ שטוב.
+    translation: יש לו בית משלו
+    answers:
+    - אייגענע
+    options:
+    - אייגענע
+    - גאַנצער
+    - פֿאַרשידענע
+    lexemes:
+    - p17-eygene
+  - id: p17-l2-36
+    type: fill_blank
+    sentence: איך האָב צוויי ___.
+    translation: יש לי שתי בנות
+    answers:
+    - טעכטער
+    options:
+    - טעכטער
+    - שטאַרקייט
+    - שפּײַז
+    lexemes:
+    - p17-tekhter
 - id: p17-l3
   kind: new
   title:
@@ -746,289 +932,361 @@ lessons:
   exercises:
   - id: p17-l3-01
     type: learn
-    lexeme: p17-gegebn
+    lexeme: p17-unzer
   - id: p17-l3-02
     type: learn
-    lexeme: p17-gemakht
+    lexeme: p17-rekhnt
   - id: p17-l3-03
     type: learn
-    lexeme: p17-gebitn
+    lexeme: p17-kleyne
   - id: p17-l3-04
     type: learn
-    lexeme: p17-gelaybt
+    lexeme: p17-mentshn
   - id: p17-l3-05
     type: learn
-    lexeme: p17-geblibn
+    lexeme: p17-farlirn
   - id: p17-l3-06
     type: learn
-    lexeme: p17-gezen2
+    lexeme: p17-shpayz
   - id: p17-l3-07
     type: learn
-    lexeme: p17-gegeyn2
+    lexeme: p17-farbundn
   - id: p17-l3-08
     type: learn
-    lexeme: p17-gerufn
+    lexeme: p17-etlekhe
   - id: p17-l3-09
     type: learn
-    lexeme: p17-gefregt
+    lexeme: p17-keynem
   - id: p17-l3-10
     type: learn
-    lexeme: p17-gefirt
+    lexeme: p17-oremon
   - id: p17-l3-11
-    type: match_pairs
-    pairs:
-    - - געגעבן
-      - נתן
-    - - געמאַכט
-      - עשה / יצר
-    - - געבעטן
-      - ביקש
-    - - געלעבט
-      - חי
-    - - געבליבן
-      - נשאר
-    lexemes:
-    - p17-gegebn
-    - p17-gemakht
-    - p17-gebitn
-    - p17-gelaybt
-    - p17-geblibn
+    type: learn
+    lexeme: p17-derbay
   - id: p17-l3-12
+    type: learn
+    lexeme: p17-shekhtn
+  - id: p17-l3-13
+    type: dialogue
+    scene: מכתב לסיום
+    lines:
+    - speaker: zeyde
+      text: דער טאַטע האָט צוויי טעכטער. אונדזער משפּחה איז גרויס.
+      translation: לאבא יש שתי בנות. המשפחה שלנו גדולה.
+    - speaker: menachem
+      text: און מע רעכנט מיט קליינע מענטשן. מע וויל ניט פֿאַרלירן קיין שפּײַז.
+      translation: וסופרים עם אנשים קטנים. לא רוצים לאבד אוכל.
+    - speaker: zeyde
+      text: אין שטוב זענען עטלעכע גאַסט. מיר זעען קיינעם אָרעמאַן ניט דערביי.
+      translation: בבית כמה אורחים. איננו רואים שם עני.
+    - speaker: menachem
+      text: 'איך וועל שרײַבן: אַלץ איז גוט.'
+      translation: 'אכתוב: הכול טוב.'
+  - id: p17-l3-14
     type: match_pairs
     pairs:
-    - - געזען
-      - ראה
-    - - געגאַנגען
-      - הלך
-    - - גערופֿן
-      - קרא
-    - - געפֿרעגט
-      - שאל
-    - - געפֿירט
-      - הוביל
+    - - אונדזער
+      - שלנו
+    - - רעכנט
+      - סופר / מחשיב
+    - - קליינע
+      - קטנים
+    - - מענטשן
+      - אנשים
+    - - פֿאַרלירן
+      - לאבד
+    - - שפּײַז
+      - אוכל
     lexemes:
-    - p17-gezen2
-    - p17-gegeyn2
-    - p17-gerufn
-    - p17-gefregt
-    - p17-gefirt
-  - id: p17-l3-13
-    type: multiple_choice
-    prompt: מה פירוש געגעבן?
-    options:
-    - נתן
-    - נהיה
-    - עשה
-    correct: 0
-    lexemes:
-    - p17-gegebn
-  - id: p17-l3-14
-    type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: עשה / יצר?'
-    options:
-    - געמאַכט
-    - שטייט
-    - וועט
-    correct: 0
-    lexemes:
-    - p17-gemakht
+    - p17-unzer
+    - p17-rekhnt
+    - p17-kleyne
+    - p17-mentshn
+    - p17-farlirn
+    - p17-shpayz
   - id: p17-l3-15
-    type: multiple_choice
-    prompt: מה פירוש געבעטן?
-    options:
-    - ביקש
-    - הם / אנחנו (הווה של להיות)
-    - יהיה (עתיד)
-    correct: 0
+    type: match_pairs
+    pairs:
+    - - פֿאַרבונדן
+      - קשור
+    - - עטלעכע
+      - כמה
+    - - קיינעם
+      - אף אחד (פעול)
+    - - אָרעמאַן
+      - עני
+    - - דערביי
+      - בזה / שם
+    - - שעכטן
+      - לשחוט
     lexemes:
-    - p17-gebitn
+    - p17-farbundn
+    - p17-etlekhe
+    - p17-keynem
+    - p17-oremon
+    - p17-derbay
+    - p17-shekhtn
   - id: p17-l3-16
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: חי?'
+    prompt: מה פירוש אונדזער?
     options:
-    - געלעבט
-    - שטייט
-    - רעדט
+    - שלנו
+    - לדרוש / לתבוע
+    - הבנה / שכל
     correct: 0
     lexemes:
-    - p17-gelaybt
+    - p17-unzer
   - id: p17-l3-17
     type: multiple_choice
-    prompt: מה פירוש געבליבן?
+    prompt: 'איזו מילה מתאימה ל: סופר / מחשיב?'
     options:
-    - נשאר
-    - מוצא
-    - בא (עבר)
+    - רעכנט
+    - מאָנען
+    - דאַקעגן
     correct: 0
     lexemes:
-    - p17-geblibn
+    - p17-rekhnt
   - id: p17-l3-18
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: ראה?'
+    prompt: מה פירוש קליינע?
     options:
-    - געזען
-    - זיינען
-    - זעט
+    - קטנים
+    - מזה
+    - הרבה
     correct: 0
     lexemes:
-    - p17-gezen2
+    - p17-kleyne
   - id: p17-l3-19
     type: multiple_choice
-    prompt: מה פירוש געגאַנגען?
+    prompt: 'איזו מילה מתאימה ל: אנשים?'
     options:
-    - הלך
-    - בא
-    - יהיה (עתיד)
+    - מענטשן
+    - פֿאַרמאַכט
+    - אָפֿן
     correct: 0
     lexemes:
-    - p17-gegeyn2
+    - p17-mentshn
   - id: p17-l3-20
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: קרא?'
+    prompt: מה פירוש פֿאַרלירן?
     options:
-    - גערופֿן
-    - געוואָרן
-    - דאַרף
+    - לאבד
+    - לעומת זאת
+    - דומה
     correct: 0
     lexemes:
-    - p17-gerufn
+    - p17-farlirn
   - id: p17-l3-21
     type: multiple_choice
-    prompt: מה פירוש געפֿרעגט?
+    prompt: 'איזו מילה מתאימה ל: אוכל?'
     options:
-    - שאל
-    - בא
-    - מוצא
+    - שפּײַז
+    - דאַקעגן
+    - פֿאַרשידענע
     correct: 0
     lexemes:
-    - p17-gefregt
+    - p17-shpayz
   - id: p17-l3-22
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: הוביל?'
+    prompt: מה פירוש פֿאַרבונדן?
     options:
-    - געפֿירט
-    - קומט
-    - טוט
+    - קשור
+    - בנות
+    - למטה
     correct: 0
     lexemes:
-    - p17-gefirt
+    - p17-farbundn
   - id: p17-l3-23
-    type: fill_blank
-    sentence: ער האָט ___ צדקה.
-    translation: הוא נתן צדקה
-    answers:
-    - געגעבן
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: כמה?'
     options:
-    - געגעבן
-    - רעדט
-    - ברענגט
+    - עטלעכע
+    - הײַנטיקער
+    - געבראַכט
+    correct: 0
     lexemes:
-    - p17-gegebn
+    - p17-etlekhe
   - id: p17-l3-24
-    type: fill_blank
-    sentence: ער האָט ___ אַ סוכה.
-    translation: הוא עשה סוכה
-    answers:
-    - געמאַכט
+    type: multiple_choice
+    prompt: מה פירוש קיינעם?
     options:
-    - געמאַכט
-    - געטאָן
-    - געפֿינט
+    - אף אחד (פעול)
+    - דיבר
+    - שונים
+    correct: 0
     lexemes:
-    - p17-gemakht
+    - p17-keynem
   - id: p17-l3-25
-    type: fill_blank
-    sentence: איך האָב ___ אַ בוך.
-    translation: ביקשתי ספר
-    answers:
-    - געבעטן
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: עני?'
     options:
-    - געבעטן
-    - זיינען
-    - געקומען
+    - אָרעמאַן
+    - ענלעך
+    - פֿאַרמאַכט
+    correct: 0
     lexemes:
-    - p17-gebitn
+    - p17-oremon
   - id: p17-l3-26
-    type: fill_blank
-    sentence: ער האָט ___ אין ניו־יאָרק.
-    translation: הוא חי בניו יורק
-    answers:
-    - געלעבט
+    type: multiple_choice
+    prompt: מה פירוש דערביי?
     options:
-    - געלעבט
-    - געווען
-    - שטייט
+    - בזה / שם
+    - שונים
+    - סגור
+    correct: 0
     lexemes:
-    - p17-gelaybt
+    - p17-derbay
   - id: p17-l3-27
-    type: fill_blank
-    sentence: ער איז ___ אין שטוב.
-    translation: הוא נשאר בבית
-    answers:
-    - געבליבן
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: לשחוט?'
     options:
-    - געבליבן
-    - דאַרף
-    - געפֿונען
+    - שעכטן
+    - גערעדט
+    - פֿאַרמאַכט
+    correct: 0
     lexemes:
-    - p17-geblibn
+    - p17-shekhtn
   - id: p17-l3-28
     type: fill_blank
-    sentence: איך האָב ___ דעם רבי.
-    translation: ראיתי את הרבי
+    sentence: ___ שטוב איז גרויס.
+    translation: הבית שלנו גדול
     answers:
-    - געזען
+    - אונדזער
     options:
-    - געזען
-    - רעדט
-    - זאָגט
+    - אונדזער
+    - שטעלט
+    - גאַנצער
     lexemes:
-    - p17-gezen2
+    - p17-unzer
   - id: p17-l3-29
     type: fill_blank
-    sentence: ער איז ___ אין שול.
-    translation: הוא הלך לבית הכנסת
+    sentence: ער ___ דאָס.
+    translation: הוא סופר את זה
     answers:
-    - געגאַנגען
+    - רעכנט
     options:
-    - געגאַנגען
-    - געקומען
-    - טוט
+    - רעכנט
+    - שטעלט
+    - געהאַלטן
     lexemes:
-    - p17-gegeyn2
+    - p17-rekhnt
   - id: p17-l3-30
     type: fill_blank
-    sentence: איך האָב ___ אַ גאַסט.
-    translation: קראתי לאורח
+    sentence: די ___ קינדער שפּילן.
+    translation: הילדים הקטנים משחקים
     answers:
-    - גערופֿן
+    - קליינע
     options:
-    - גערופֿן
-    - וועט
-    - קומט
+    - קליינע
+    - אָפֿן
+    - גערעכט
     lexemes:
-    - p17-gerufn
+    - p17-kleyne
   - id: p17-l3-31
     type: fill_blank
-    sentence: ער האָט ___ אַ פֿראַגע.
-    translation: הוא שאל שאלה
+    sentence: פֿיל ___ קומען.
+    translation: הרבה אנשים באים
     answers:
-    - געפֿרעגט
+    - מענטשן
     options:
-    - געפֿרעגט
-    - געפֿונען
-    - זאָגט
+    - מענטשן
+    - סך
+    - שטאַרקייט
     lexemes:
-    - p17-gefregt
+    - p17-mentshn
   - id: p17-l3-32
     type: fill_blank
-    sentence: ער האָט ___ דעם שיעור.
-    translation: הוא העביר את השיעור
+    sentence: איך וויל ניט ___ דאָס בוך.
+    translation: אני לא רוצה לאבד את הספר
     answers:
-    - געפֿירט
+    - פֿאַרלירן
     options:
-    - געפֿירט
-    - זעט
-    - זיינען
+    - פֿאַרלירן
+    - גערעדט
+    - שטעלט
     lexemes:
-    - p17-gefirt
+    - p17-farlirn
+  - id: p17-l3-33
+    type: fill_blank
+    sentence: מיר האָבן גוטע ___.
+    translation: יש לנו אוכל טוב
+    answers:
+    - שפּײַז
+    options:
+    - שפּײַז
+    - פֿאַרשטאַנד
+    - טעכטער
+    lexemes:
+    - p17-shpayz
+  - id: p17-l3-34
+    type: fill_blank
+    sentence: ער איז ___ מיט זײַן משפּחה.
+    translation: הוא קשור למשפחתו
+    answers:
+    - פֿאַרבונדן
+    options:
+    - פֿאַרבונדן
+    - פֿאַרמאַכט
+    - ענלעך
+    lexemes:
+    - p17-farbundn
+  - id: p17-l3-35
+    type: fill_blank
+    sentence: ___ מענטשן קומען.
+    translation: כמה אנשים באים
+    answers:
+    - עטלעכע
+    options:
+    - עטלעכע
+    - ענלעך
+    - אייגענע
+    lexemes:
+    - p17-etlekhe
+  - id: p17-l3-36
+    type: fill_blank
+    sentence: איך זע ___ ניט.
+    translation: אני לא רואה אף אחד
+    answers:
+    - קיינעם
+    options:
+    - קיינעם
+    - גערעדט
+    - שטעלט
+    lexemes:
+    - p17-keynem
+  - id: p17-l3-37
+    type: fill_blank
+    sentence: דער ___ בעט צדקה.
+    translation: העני מבקש צדקה
+    answers:
+    - אָרעמאַן
+    options:
+    - אָרעמאַן
+    - סך
+    - פֿאַרשטאַנד
+    lexemes:
+    - p17-oremon
+  - id: p17-l3-38
+    type: fill_blank
+    sentence: ער איז ___.
+    translation: הוא נמצא שם
+    answers:
+    - דערביי
+    options:
+    - דערביי
+    - דאַקעגן
+    - אונטן
+    lexemes:
+    - p17-derbay
+  - id: p17-l3-39
+    type: fill_blank
+    sentence: מע דאַרף ___ אַ שעפּס.
+    translation: צריך לשחוט כבש
+    answers:
+    - שעכטן
+    options:
+    - שעכטן
+    - געהאַלטן
+    - געבראַכט
+    lexemes:
+    - p17-shekhtn

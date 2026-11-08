@@ -1,217 +1,182 @@
 id: p7-words
-cefr: C1
-scene: day
+cefr: B1
+scene: home
 title:
-  he: 'הרחבת אוצר מילים 7: תארים'
-  en: 'Word builder 7: adjectives'
-story: מילים שימושיות נוספות, כל אחת במשפט קצר.
+  he: 'הרחבת אוצר מילים 7: אוכל ושתייה'
+  en: 'Word builder 7: food and drink'
+story: במטוס ובדרך לניו יורק מנחם מסתכל בתפריט הכשר, והסבא מזמין לו אוכל לפי הכללים.
 canDo:
-- להבין ולהשתמש במילים נפוצות נוספות
+- להבין ולהשתמש במילים נפוצות נוספות בשיחה
 - לזהות את המילים במשפטים
 vocabulary:
-- id: p7-grin
-  text: גרין
-  translation: ירוק
-  pos: adjective
+- id: p7-fleysh
+  text: פֿלייש
+  translation: בשר
+  pos: noun
   example:
-    text: דאָס איז גרין.
-    translation: זה ירוק
-- id: p7-royt
-  text: רויט
-  translation: אדום
-  pos: adjective
+    text: איך וויל פֿלייש.
+    translation: אני רוצה בשר
+- id: p7-hindl
+  text: הינדל
+  translation: עוף
+  pos: noun
   example:
-    text: דאָס איז רויט.
-    translation: זה אדום
-- id: p7-bloy
-  text: בלוי
-  translation: כחול
-  pos: adjective
+    text: איך זע אַ הינדל.
+    translation: אני רואה עוף
+- id: p7-tsibele
+  text: ציבעלע
+  translation: בצל
+  pos: noun
   example:
-    text: דאָס איז בלוי.
-    translation: זה כחול
-- id: p7-gel
-  text: געל
-  translation: צהוב
-  pos: adjective
+    text: איך זע אַ ציבעלע.
+    translation: אני רואה בצל
+- id: p7-kartofl
+  text: קאַרטאָפֿל
+  translation: תפוח אדמה
+  pos: noun
   example:
-    text: דאָס איז געל.
-    translation: זה צהוב
-- id: p7-broyn
-  text: ברוין
-  translation: חום
-  pos: adjective
+    text: איך זע אַ קאַרטאָפֿל.
+    translation: אני רואה תפוח אדמה
+- id: p7-meren
+  text: מערן
+  translation: גזר
+  pos: noun
   example:
-    text: דאָס איז ברוין.
-    translation: זה חום
-- id: p7-heys
-  text: הייס
-  translation: חם
-  pos: adjective
+    text: איך זע אַ מערן.
+    translation: אני רואה גזר
+- id: p7-banane
+  text: באַנאַנע
+  translation: בננה
+  pos: noun
   example:
-    text: דאָס איז הייס.
-    translation: זה חם
-- id: p7-shnel
-  text: שנעל
-  translation: מהיר
-  pos: adjective
+    text: איך זע אַ באַנאַנע.
+    translation: אני רואה בננה
+- id: p7-vaintroyb
+  text: ווײַנטרויב
+  translation: ענבים
+  pos: noun
   example:
-    text: דאָס איז שנעל.
-    translation: זה מהיר
-- id: p7-shtark
-  text: שטאַרק
-  translation: חזק
-  pos: adjective
+    text: איך וויל ווײַנטרויב.
+    translation: אני רוצה ענבים
+- id: p7-honik
+  text: האָניק
+  translation: דבש
+  pos: noun
   example:
-    text: דאָס איז שטאַרק.
-    translation: זה חזק
-- id: p7-shvakh
-  text: שוואַך
-  translation: חלש
-  pos: adjective
+    text: איך וויל האָניק.
+    translation: אני רוצה דבש
+- id: p7-kukhn
+  text: קוכן
+  translation: עוגה
+  pos: noun
   example:
-    text: דאָס איז שוואַך.
-    translation: זה חלש
-- id: p7-nas
-  text: נאַס
-  translation: רטוב
-  pos: adjective
+    text: איך זע אַ קוכן.
+    translation: אני רואה עוגה
+- id: p7-kave
+  text: קאַווע
+  translation: קפה
+  pos: noun
   example:
-    text: דאָס איז נאַס.
-    translation: זה רטוב
-- id: p7-trukn
-  text: טרוקן
-  translation: יבש
-  pos: adjective
+    text: איך וויל קאַווע.
+    translation: אני רוצה קפה
+- id: p7-tey
+  text: טיי
+  translation: תה
+  pos: noun
   example:
-    text: דאָס איז טרוקן.
-    translation: זה יבש
-- id: p7-raykh
-  text: רײַך
-  translation: עשיר
-  pos: adjective
+    text: איך וויל טיי.
+    translation: אני רוצה תה
+- id: p7-tsuker
+  text: צוקער
+  translation: סוכר
+  pos: noun
   example:
-    text: דאָס איז רײַך.
-    translation: זה עשיר
-- id: p7-ful
-  text: פֿול
-  translation: מלא
-  pos: adjective
+    text: איך וויל צוקער.
+    translation: אני רוצה סוכר
+- id: p7-zalts
+  text: זאַלץ
+  translation: מלח
+  pos: noun
   example:
-    text: דאָס איז פֿול.
-    translation: זה מלא
-- id: p7-laydik
-  text: ליידיק
-  translation: ריק
-  pos: adjective
+    text: איך וויל זאַלץ.
+    translation: אני רוצה מלח
+- id: p7-peper
+  text: פּעפּער
+  translation: פלפל
+  pos: noun
   example:
-    text: דאָס איז ליידיק.
-    translation: זה ריק
-- id: p7-ruik
-  text: רויק
-  translation: שקט
-  pos: adjective
+    text: איך וויל פּעפּער.
+    translation: אני רוצה פלפל
+- id: p7-shmalts
+  text: שמאַלץ
+  translation: שומן
+  pos: noun
   example:
-    text: דאָס איז רויק.
-    translation: זה שקט
-- id: p7-lustik
-  text: לוסטיק
-  translation: שמח / מצחיק
-  pos: adjective
+    text: איך וויל שמאַלץ.
+    translation: אני רוצה שומן
+- id: p7-zaft
+  text: זאַפֿט
+  translation: מיץ
+  pos: noun
   example:
-    text: דאָס איז לוסטיק.
-    translation: זה שמח / מצחיק
-- id: p7-troyerik
-  text: טרויעריק
-  translation: עצוב
-  pos: adjective
+    text: איך וויל זאַפֿט.
+    translation: אני רוצה מיץ
+- id: p7-mel
+  text: מעל
+  translation: קמח
+  pos: noun
   example:
-    text: דאָס איז טרויעריק.
-    translation: זה עצוב
-- id: p7-klug
-  text: קלוג
-  translation: חכם
-  pos: adjective
+    text: איך וויל מעל.
+    translation: אני רוצה קמח
+- id: p7-knobl
+  text: קנאָבל
+  translation: שום
+  pos: noun
   example:
-    text: דאָס איז קלוג.
-    translation: זה חכם
-- id: p7-nayerik
-  text: נייגעריק
-  translation: סקרן
-  pos: adjective
+    text: איך וויל קנאָבל.
+    translation: אני רוצה שום
+- id: p7-retekh
+  text: רעטעך
+  translation: צנון
+  pos: noun
   example:
-    text: דאָס איז נייגעריק.
-    translation: זה סקרן
-- id: p7-reyn
-  text: ריין
-  translation: נקי
-  pos: adjective
+    text: איך זע אַ רעטעך.
+    translation: אני רואה צנון
+- id: p7-kapuste
+  text: קאַפּוסט
+  translation: כרוב
+  pos: noun
   example:
-    text: דאָס איז ריין.
-    translation: זה נקי
-- id: p7-shmutsik
-  text: שמוציק
-  translation: מלוכלך
-  pos: adjective
+    text: איך וויל קאַפּוסט.
+    translation: אני רוצה כרוב
+- id: p7-pomidor
+  text: פּאָמידאָר
+  translation: עגבנייה
+  pos: noun
   example:
-    text: דאָס איז שמוציק.
-    translation: זה מלוכלך
-- id: p7-laykht
-  text: לײַכט
-  translation: קל (משקל)
-  pos: adjective
+    text: איך זע אַ פּאָמידאָר.
+    translation: אני רואה עגבנייה
+- id: p7-ey
+  text: איי
+  translation: ביצה
+  pos: noun
   example:
-    text: דאָס איז לײַכט.
-    translation: זה קל (משקל)
-- id: p7-tif
-  text: טיף
-  translation: עמוק
-  pos: adjective
+    text: איך זע אַן איי.
+    translation: אני רואה ביצה
+- id: p7-shokolad
+  text: שאָקאָלאַד
+  translation: שוקולד
+  pos: noun
   example:
-    text: דאָס איז טיף.
-    translation: זה עמוק
-- id: p7-hoykh
-  text: הויך
-  translation: גבוה
-  pos: adjective
+    text: איך וויל שאָקאָלאַד.
+    translation: אני רוצה שוקולד
+- id: p7-salat
+  text: סאַלאַט
+  translation: סלט
+  pos: noun
   example:
-    text: דאָס איז הויך.
-    translation: זה גבוה
-- id: p7-shmol
-  text: שמאָל
-  translation: צר
-  pos: adjective
-  example:
-    text: דאָס איז שמאָל.
-    translation: זה צר
-- id: p7-dik
-  text: דיק
-  translation: עבה
-  pos: adjective
-  example:
-    text: דאָס איז דיק.
-    translation: זה עבה
-- id: p7-din
-  text: דין
-  translation: דק
-  pos: adjective
-  example:
-    text: דאָס איז דין.
-    translation: זה דק
-- id: p7-zis
-  text: זיס
-  translation: מתוק
-  pos: adjective
-  example:
-    text: דאָס איז זיס.
-    translation: זה מתוק
-- id: p7-zoyer
-  text: זויער
-  translation: חמוץ
-  pos: adjective
-  example:
-    text: דאָס איז זויער.
-    translation: זה חמוץ
+    text: איך וויל סאַלאַט.
+    translation: אני רוצה סלט
 lessons:
 - id: p7-l1
   kind: new
@@ -221,264 +186,252 @@ lessons:
   exercises:
   - id: p7-l1-01
     type: learn
-    lexeme: p7-grin
+    lexeme: p7-fleysh
   - id: p7-l1-02
     type: learn
-    lexeme: p7-royt
+    lexeme: p7-hindl
   - id: p7-l1-03
     type: learn
-    lexeme: p7-bloy
+    lexeme: p7-tsibele
   - id: p7-l1-04
     type: learn
-    lexeme: p7-gel
+    lexeme: p7-kartofl
   - id: p7-l1-05
     type: learn
-    lexeme: p7-broyn
+    lexeme: p7-meren
   - id: p7-l1-06
     type: learn
-    lexeme: p7-heys
+    lexeme: p7-banane
   - id: p7-l1-07
     type: learn
-    lexeme: p7-shnel
+    lexeme: p7-vaintroyb
   - id: p7-l1-08
     type: learn
-    lexeme: p7-shtark
+    lexeme: p7-honik
   - id: p7-l1-09
-    type: learn
-    lexeme: p7-shvakh
+    type: dialogue
+    scene: על המטוס מקבלים ארוחה כשרה
+    lines:
+    - speaker: menachem
+      text: זיידע, איך האָב הונגער. וואָס פֿאַר פֿלייש האָבן זיי?
+      translation: סבא, אני רעב. איזה בשר יש להם?
+    - speaker: zeyde
+      text: אַ הינדל מיט קאַרטאָפֿל און ציבעלע. דער מערן איז פֿאַר שבת.
+      translation: עוף עם תפוחי אדמה ובצל. הגזר לשבת.
+    - speaker: menachem
+      text: און אַ באַנאַנע און ווײַנטרויבן?
+      translation: ובננה וענבים?
+    - speaker: zeyde
+      text: יאָ, מיט האָניק פֿאַר ראש־השנה.
+      translation: כן, עם דבש לראש השנה.
   - id: p7-l1-10
     type: match_pairs
     pairs:
-    - - גרין
-      - ירוק
-    - - רויט
-      - אדום
-    - - בלוי
-      - כחול
-    - - געל
-      - צהוב
+    - - פֿלייש
+      - בשר
+    - - הינדל
+      - עוף
+    - - ציבעלע
+      - בצל
+    - - קאַרטאָפֿל
+      - תפוח אדמה
     lexemes:
-    - p7-grin
-    - p7-royt
-    - p7-bloy
-    - p7-gel
+    - p7-fleysh
+    - p7-hindl
+    - p7-tsibele
+    - p7-kartofl
   - id: p7-l1-11
     type: match_pairs
     pairs:
-    - - ברוין
-      - חום
-    - - הייס
-      - חם
-    - - שנעל
-      - מהיר
-    - - שטאַרק
-      - חזק
-    - - שוואַך
-      - חלש
+    - - מערן
+      - גזר
+    - - באַנאַנע
+      - בננה
+    - - ווײַנטרויב
+      - ענבים
+    - - האָניק
+      - דבש
     lexemes:
-    - p7-broyn
-    - p7-heys
-    - p7-shnel
-    - p7-shtark
-    - p7-shvakh
+    - p7-meren
+    - p7-banane
+    - p7-vaintroyb
+    - p7-honik
   - id: p7-l1-12
     type: multiple_choice
-    prompt: מה פירוש גרין?
+    prompt: מה פירוש פֿלייש?
     options:
-    - ירוק
-    - שמח / מצחיק
-    - מתוק
+    - בשר
+    - פלפל
+    - עוגה
     correct: 0
     lexemes:
-    - p7-grin
+    - p7-fleysh
   - id: p7-l1-13
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: אדום?'
+    prompt: 'איזו מילה מתאימה ל: עוף?'
     options:
-    - רויט
-    - זויער
-    - ליידיק
+    - הינדל
+    - זאַלץ
+    - פּאָמידאָר
     correct: 0
     lexemes:
-    - p7-royt
+    - p7-hindl
   - id: p7-l1-14
     type: multiple_choice
-    prompt: מה פירוש בלוי?
+    prompt: מה פירוש ציבעלע?
     options:
-    - כחול
-    - רטוב
-    - קל (משקל)
+    - בצל
+    - מלח
+    - ביצה
     correct: 0
     lexemes:
-    - p7-bloy
+    - p7-tsibele
   - id: p7-l1-15
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: צהוב?'
+    prompt: 'איזו מילה מתאימה ל: תפוח אדמה?'
     options:
-    - געל
-    - דין
-    - קלוג
+    - קאַרטאָפֿל
+    - קאַפּוסט
+    - שמאַלץ
     correct: 0
     lexemes:
-    - p7-gel
+    - p7-kartofl
   - id: p7-l1-16
     type: multiple_choice
-    prompt: מה פירוש ברוין?
+    prompt: מה פירוש מערן?
     options:
-    - חום
-    - סקרן
-    - דק
+    - גזר
+    - צנון
+    - מלח
     correct: 0
     lexemes:
-    - p7-broyn
+    - p7-meren
   - id: p7-l1-17
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: חם?'
+    prompt: 'איזו מילה מתאימה ל: בננה?'
     options:
-    - הייס
-    - ריין
-    - הויך
+    - באַנאַנע
+    - זאַלץ
+    - קאַפּוסט
     correct: 0
     lexemes:
-    - p7-heys
+    - p7-banane
   - id: p7-l1-18
     type: multiple_choice
-    prompt: מה פירוש שנעל?
+    prompt: מה פירוש ווײַנטרויב?
     options:
-    - מהיר
-    - קל (משקל)
-    - ריק
+    - ענבים
+    - תה
+    - פלפל
     correct: 0
     lexemes:
-    - p7-shnel
+    - p7-vaintroyb
   - id: p7-l1-19
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: חזק?'
+    prompt: 'איזו מילה מתאימה ל: דבש?'
     options:
-    - שטאַרק
-    - טרויעריק
-    - קלוג
+    - האָניק
+    - פּעפּער
+    - מעל
     correct: 0
     lexemes:
-    - p7-shtark
+    - p7-honik
   - id: p7-l1-20
-    type: multiple_choice
-    prompt: מה פירוש שוואַך?
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה בשר
+    answers:
+    - פֿלייש
     options:
-    - חלש
-    - יבש
-    - ריק
-    correct: 0
+    - פֿלייש
+    - פּעפּער
+    - צוקער
     lexemes:
-    - p7-shvakh
+    - p7-fleysh
   - id: p7-l1-21
     type: fill_blank
-    sentence: דאָס איז ___.
-    translation: זה ירוק
+    sentence: איך זע אַ ___.
+    translation: אני רואה עוף
     answers:
-    - גרין
+    - הינדל
     options:
-    - גרין
-    - טרויעריק
-    - טיף
+    - הינדל
+    - פּאָמידאָר
+    - רעטעך
     lexemes:
-    - p7-grin
+    - p7-hindl
   - id: p7-l1-22
     type: fill_blank
-    sentence: דאָס איז ___.
-    translation: זה אדום
+    sentence: איך זע אַ ___.
+    translation: אני רואה בצל
     answers:
-    - רויט
+    - ציבעלע
     options:
-    - רויט
-    - טרויעריק
-    - הויך
+    - ציבעלע
+    - רעטעך
+    - קוכן
     lexemes:
-    - p7-royt
+    - p7-tsibele
   - id: p7-l1-23
     type: fill_blank
-    sentence: דאָס איז ___.
-    translation: זה כחול
+    sentence: איך זע אַ ___.
+    translation: אני רואה תפוח אדמה
     answers:
-    - בלוי
+    - קאַרטאָפֿל
     options:
-    - בלוי
-    - טיף
-    - ריין
+    - קאַרטאָפֿל
+    - קוכן
+    - רעטעך
     lexemes:
-    - p7-bloy
+    - p7-kartofl
   - id: p7-l1-24
     type: fill_blank
-    sentence: דאָס איז ___.
-    translation: זה צהוב
+    sentence: איך זע אַ ___.
+    translation: אני רואה גזר
     answers:
-    - געל
+    - מערן
     options:
-    - געל
-    - נאַס
-    - נייגעריק
+    - מערן
+    - קוכן
+    - רעטעך
     lexemes:
-    - p7-gel
+    - p7-meren
   - id: p7-l1-25
     type: fill_blank
-    sentence: דאָס איז ___.
-    translation: זה חום
+    sentence: איך זע אַ ___.
+    translation: אני רואה בננה
     answers:
-    - ברוין
+    - באַנאַנע
     options:
-    - ברוין
-    - זיס
-    - טרוקן
+    - באַנאַנע
+    - רעטעך
+    - קוכן
     lexemes:
-    - p7-broyn
+    - p7-banane
   - id: p7-l1-26
     type: fill_blank
-    sentence: דאָס איז ___.
-    translation: זה חם
+    sentence: איך וויל ___.
+    translation: אני רוצה ענבים
     answers:
-    - הייס
+    - ווײַנטרויב
     options:
-    - הייס
-    - זויער
-    - נייגעריק
+    - ווײַנטרויב
+    - קאַפּוסט
+    - פּעפּער
     lexemes:
-    - p7-heys
+    - p7-vaintroyb
   - id: p7-l1-27
     type: fill_blank
-    sentence: דאָס איז ___.
-    translation: זה מהיר
+    sentence: איך וויל ___.
+    translation: אני רוצה דבש
     answers:
-    - שנעל
+    - האָניק
     options:
-    - שנעל
-    - טרוקן
-    - טיף
+    - האָניק
+    - קאַווע
+    - טיי
     lexemes:
-    - p7-shnel
-  - id: p7-l1-28
-    type: fill_blank
-    sentence: דאָס איז ___.
-    translation: זה חזק
-    answers:
-    - שטאַרק
-    options:
-    - שטאַרק
-    - נאַס
-    - טיף
-    lexemes:
-    - p7-shtark
-  - id: p7-l1-29
-    type: fill_blank
-    sentence: דאָס איז ___.
-    translation: זה חלש
-    answers:
-    - שוואַך
-    options:
-    - שוואַך
-    - שמאָל
-    - טרוקן
-    lexemes:
-    - p7-shvakh
+    - p7-honik
 - id: p7-l2
   kind: new
   title:
@@ -487,264 +440,252 @@ lessons:
   exercises:
   - id: p7-l2-01
     type: learn
-    lexeme: p7-nas
+    lexeme: p7-kukhn
   - id: p7-l2-02
     type: learn
-    lexeme: p7-trukn
+    lexeme: p7-kave
   - id: p7-l2-03
     type: learn
-    lexeme: p7-raykh
+    lexeme: p7-tey
   - id: p7-l2-04
     type: learn
-    lexeme: p7-ful
+    lexeme: p7-tsuker
   - id: p7-l2-05
     type: learn
-    lexeme: p7-laydik
+    lexeme: p7-zalts
   - id: p7-l2-06
     type: learn
-    lexeme: p7-ruik
+    lexeme: p7-peper
   - id: p7-l2-07
     type: learn
-    lexeme: p7-lustik
+    lexeme: p7-shmalts
   - id: p7-l2-08
     type: learn
-    lexeme: p7-troyerik
+    lexeme: p7-zaft
   - id: p7-l2-09
-    type: learn
-    lexeme: p7-klug
+    type: dialogue
+    scene: שתייה ובישול
+    lines:
+    - speaker: menachem
+      text: אַ גלאָז קאַווע אָדער טיי, זיידע?
+      translation: כוס קפה או תה, סבא?
+    - speaker: zeyde
+      text: טיי מיט צוקער. די קוכן איז פֿון מעל און צוקער, און דער ציבעלע מיט זאַלץ און פּעפּער.
+      translation: תה עם סוכר. העוגה מקמח וסוכר, והבצל עם מלח ופלפל.
+    - speaker: menachem
+      text: דאָס שמאַלץ — איז עס פֿלייש?
+      translation: השומן — האם זה בשרי?
+    - speaker: zeyde
+      text: יאָ, פֿלייש. און דער זאַפֿט איז פּאַרווע.
+      translation: כן, בשר. והמיץ פרווה.
   - id: p7-l2-10
     type: match_pairs
     pairs:
-    - - נאַס
-      - רטוב
-    - - טרוקן
-      - יבש
-    - - רײַך
-      - עשיר
-    - - פֿול
-      - מלא
+    - - קוכן
+      - עוגה
+    - - קאַווע
+      - קפה
+    - - טיי
+      - תה
+    - - צוקער
+      - סוכר
     lexemes:
-    - p7-nas
-    - p7-trukn
-    - p7-raykh
-    - p7-ful
+    - p7-kukhn
+    - p7-kave
+    - p7-tey
+    - p7-tsuker
   - id: p7-l2-11
     type: match_pairs
     pairs:
-    - - ליידיק
-      - ריק
-    - - רויק
-      - שקט
-    - - לוסטיק
-      - שמח / מצחיק
-    - - טרויעריק
-      - עצוב
-    - - קלוג
-      - חכם
+    - - זאַלץ
+      - מלח
+    - - פּעפּער
+      - פלפל
+    - - שמאַלץ
+      - שומן
+    - - זאַפֿט
+      - מיץ
     lexemes:
-    - p7-laydik
-    - p7-ruik
-    - p7-lustik
-    - p7-troyerik
-    - p7-klug
+    - p7-zalts
+    - p7-peper
+    - p7-shmalts
+    - p7-zaft
   - id: p7-l2-12
     type: multiple_choice
-    prompt: מה פירוש נאַס?
+    prompt: מה פירוש קוכן?
     options:
-    - רטוב
-    - חזק
-    - עמוק
+    - עוגה
+    - ביצה
+    - בצל
     correct: 0
     lexemes:
-    - p7-nas
+    - p7-kukhn
   - id: p7-l2-13
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: יבש?'
+    prompt: 'איזו מילה מתאימה ל: קפה?'
     options:
-    - טרוקן
-    - הויך
-    - שוואַך
+    - קאַווע
+    - קנאָבל
+    - רעטעך
     correct: 0
     lexemes:
-    - p7-trukn
+    - p7-kave
   - id: p7-l2-14
     type: multiple_choice
-    prompt: מה פירוש רײַך?
+    prompt: מה פירוש טיי?
     options:
-    - עשיר
-    - חמוץ
-    - מהיר
+    - תה
+    - דבש
+    - שום
     correct: 0
     lexemes:
-    - p7-raykh
+    - p7-tey
   - id: p7-l2-15
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: מלא?'
+    prompt: 'איזו מילה מתאימה ל: סוכר?'
     options:
-    - פֿול
-    - זויער
-    - טיף
+    - צוקער
+    - פֿלייש
+    - שאָקאָלאַד
     correct: 0
     lexemes:
-    - p7-ful
+    - p7-tsuker
   - id: p7-l2-16
     type: multiple_choice
-    prompt: מה פירוש ליידיק?
+    prompt: מה פירוש זאַלץ?
     options:
-    - ריק
-    - חזק
-    - סקרן
+    - מלח
+    - תפוח אדמה
+    - שוקולד
     correct: 0
     lexemes:
-    - p7-laydik
+    - p7-zalts
   - id: p7-l2-17
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: שקט?'
+    prompt: 'איזו מילה מתאימה ל: פלפל?'
     options:
-    - רויק
-    - שמוציק
-    - שמאָל
+    - פּעפּער
+    - הינדל
+    - באַנאַנע
     correct: 0
     lexemes:
-    - p7-ruik
+    - p7-peper
   - id: p7-l2-18
     type: multiple_choice
-    prompt: מה פירוש לוסטיק?
+    prompt: מה פירוש שמאַלץ?
     options:
-    - שמח / מצחיק
-    - מהיר
-    - כחול
+    - שומן
+    - עוף
+    - כרוב
     correct: 0
     lexemes:
-    - p7-lustik
+    - p7-shmalts
   - id: p7-l2-19
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: עצוב?'
+    prompt: 'איזו מילה מתאימה ל: מיץ?'
     options:
-    - טרויעריק
-    - הייס
-    - נייגעריק
+    - זאַפֿט
+    - ווײַנטרויב
+    - מעל
     correct: 0
     lexemes:
-    - p7-troyerik
+    - p7-zaft
   - id: p7-l2-20
-    type: multiple_choice
-    prompt: מה פירוש קלוג?
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה עוגה
+    answers:
+    - קוכן
     options:
-    - חכם
-    - צהוב
-    - מתוק
-    correct: 0
+    - קוכן
+    - באַנאַנע
+    - הינדל
     lexemes:
-    - p7-klug
+    - p7-kukhn
   - id: p7-l2-21
     type: fill_blank
-    sentence: דאָס איז ___.
-    translation: זה רטוב
+    sentence: איך וויל ___.
+    translation: אני רוצה קפה
     answers:
-    - נאַס
+    - קאַווע
     options:
-    - נאַס
-    - לײַכט
-    - ברוין
+    - קאַווע
+    - ווײַנטרויב
+    - סאַלאַט
     lexemes:
-    - p7-nas
+    - p7-kave
   - id: p7-l2-22
     type: fill_blank
-    sentence: דאָס איז ___.
-    translation: זה יבש
+    sentence: איך וויל ___.
+    translation: אני רוצה תה
     answers:
-    - טרוקן
+    - טיי
     options:
-    - טרוקן
-    - רויט
-    - שמוציק
+    - טיי
+    - האָניק
+    - ווײַנטרויב
     lexemes:
-    - p7-trukn
+    - p7-tey
   - id: p7-l2-23
     type: fill_blank
-    sentence: דאָס איז ___.
-    translation: זה עשיר
+    sentence: איך וויל ___.
+    translation: אני רוצה סוכר
     answers:
-    - רײַך
+    - צוקער
     options:
-    - רײַך
-    - זיס
-    - רויט
+    - צוקער
+    - סאַלאַט
+    - האָניק
     lexemes:
-    - p7-raykh
+    - p7-tsuker
   - id: p7-l2-24
     type: fill_blank
-    sentence: דאָס איז ___.
-    translation: זה מלא
+    sentence: איך וויל ___.
+    translation: אני רוצה מלח
     answers:
-    - פֿול
+    - זאַלץ
     options:
-    - פֿול
-    - שוואַך
-    - שנעל
+    - זאַלץ
+    - קאַפּוסט
+    - שאָקאָלאַד
     lexemes:
-    - p7-ful
+    - p7-zalts
   - id: p7-l2-25
     type: fill_blank
-    sentence: דאָס איז ___.
-    translation: זה ריק
+    sentence: איך וויל ___.
+    translation: אני רוצה פלפל
     answers:
-    - ליידיק
+    - פּעפּער
     options:
-    - ליידיק
-    - הייס
-    - בלוי
+    - פּעפּער
+    - סאַלאַט
+    - פֿלייש
     lexemes:
-    - p7-laydik
+    - p7-peper
   - id: p7-l2-26
     type: fill_blank
-    sentence: דאָס איז ___.
-    translation: זה שקט
+    sentence: איך וויל ___.
+    translation: אני רוצה שומן
     answers:
-    - רויק
+    - שמאַלץ
     options:
-    - רויק
-    - הויך
-    - דין
+    - שמאַלץ
+    - פֿלייש
+    - שאָקאָלאַד
     lexemes:
-    - p7-ruik
+    - p7-shmalts
   - id: p7-l2-27
     type: fill_blank
-    sentence: דאָס איז ___.
-    translation: זה שמח / מצחיק
+    sentence: איך וויל ___.
+    translation: אני רוצה מיץ
     answers:
-    - לוסטיק
+    - זאַפֿט
     options:
-    - לוסטיק
-    - שנעל
-    - נייגעריק
+    - זאַפֿט
+    - האָניק
+    - ווײַנטרויב
     lexemes:
-    - p7-lustik
-  - id: p7-l2-28
-    type: fill_blank
-    sentence: דאָס איז ___.
-    translation: זה עצוב
-    answers:
-    - טרויעריק
-    options:
-    - טרויעריק
-    - הייס
-    - דיק
-    lexemes:
-    - p7-troyerik
-  - id: p7-l2-29
-    type: fill_blank
-    sentence: דאָס איז ___.
-    translation: זה חכם
-    answers:
-    - קלוג
-    options:
-    - קלוג
-    - הייס
-    - גרין
-    lexemes:
-    - p7-klug
+    - p7-zaft
 - id: p7-l3
   kind: new
   title:
@@ -753,317 +694,249 @@ lessons:
   exercises:
   - id: p7-l3-01
     type: learn
-    lexeme: p7-nayerik
+    lexeme: p7-mel
   - id: p7-l3-02
     type: learn
-    lexeme: p7-reyn
+    lexeme: p7-knobl
   - id: p7-l3-03
     type: learn
-    lexeme: p7-shmutsik
+    lexeme: p7-retekh
   - id: p7-l3-04
     type: learn
-    lexeme: p7-laykht
+    lexeme: p7-kapuste
   - id: p7-l3-05
     type: learn
-    lexeme: p7-tif
+    lexeme: p7-pomidor
   - id: p7-l3-06
     type: learn
-    lexeme: p7-hoykh
+    lexeme: p7-ey
   - id: p7-l3-07
     type: learn
-    lexeme: p7-shmol
+    lexeme: p7-shokolad
   - id: p7-l3-08
     type: learn
-    lexeme: p7-dik
+    lexeme: p7-salat
   - id: p7-l3-09
-    type: learn
-    lexeme: p7-din
+    type: dialogue
+    scene: ארוחה קלה
+    lines:
+    - speaker: menachem
+      text: זיידע, ברויט מיט קנאָבל, רעטעך און קאַפּוסט!
+      translation: סבא, לחם עם שום, צנון וכרוב!
+    - speaker: zeyde
+      text: און אַ פּאָמידאָר מיט אַן איי און אַ סאַלאַט.
+      translation: ועגבנייה עם ביצה וסלט.
+    - speaker: menachem
+      text: און שאָקאָלאַד פֿאַר מנחם?
+      translation: ושוקולד למנחם?
+    - speaker: zeyde
+      text: נאָך דער סעודה. די שאָקאָלאַד איז פּאַרווע.
+      translation: אחרי הסעודה. השוקולד פרווה.
   - id: p7-l3-10
-    type: learn
-    lexeme: p7-zis
+    type: match_pairs
+    pairs:
+    - - מעל
+      - קמח
+    - - קנאָבל
+      - שום
+    - - רעטעך
+      - צנון
+    - - קאַפּוסט
+      - כרוב
+    lexemes:
+    - p7-mel
+    - p7-knobl
+    - p7-retekh
+    - p7-kapuste
   - id: p7-l3-11
-    type: learn
-    lexeme: p7-zoyer
+    type: match_pairs
+    pairs:
+    - - פּאָמידאָר
+      - עגבנייה
+    - - איי
+      - ביצה
+    - - שאָקאָלאַד
+      - שוקולד
+    - - סאַלאַט
+      - סלט
+    lexemes:
+    - p7-pomidor
+    - p7-ey
+    - p7-shokolad
+    - p7-salat
   - id: p7-l3-12
-    type: match_pairs
-    pairs:
-    - - נייגעריק
-      - סקרן
-    - - ריין
-      - נקי
-    - - שמוציק
-      - מלוכלך
-    - - לײַכט
-      - קל (משקל)
-    - - טיף
-      - עמוק
+    type: multiple_choice
+    prompt: מה פירוש מעל?
+    options:
+    - קמח
+    - בצל
+    - מלח
+    correct: 0
     lexemes:
-    - p7-nayerik
-    - p7-reyn
-    - p7-shmutsik
-    - p7-laykht
-    - p7-tif
+    - p7-mel
   - id: p7-l3-13
-    type: match_pairs
-    pairs:
-    - - הויך
-      - גבוה
-    - - שמאָל
-      - צר
-    - - דיק
-      - עבה
-    - - דין
-      - דק
-    - - זיס
-      - מתוק
-    - - זויער
-      - חמוץ
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: שום?'
+    options:
+    - קנאָבל
+    - באַנאַנע
+    - קוכן
+    correct: 0
     lexemes:
-    - p7-hoykh
-    - p7-shmol
-    - p7-dik
-    - p7-din
-    - p7-zis
-    - p7-zoyer
+    - p7-knobl
   - id: p7-l3-14
     type: multiple_choice
-    prompt: מה פירוש נייגעריק?
+    prompt: מה פירוש רעטעך?
     options:
-    - סקרן
-    - עצוב
-    - אדום
+    - צנון
+    - קפה
+    - מיץ
     correct: 0
     lexemes:
-    - p7-nayerik
+    - p7-retekh
   - id: p7-l3-15
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: נקי?'
+    prompt: 'איזו מילה מתאימה ל: כרוב?'
     options:
-    - ריין
-    - שנעל
-    - לוסטיק
+    - קאַפּוסט
+    - זאַלץ
+    - צוקער
     correct: 0
     lexemes:
-    - p7-reyn
+    - p7-kapuste
   - id: p7-l3-16
     type: multiple_choice
-    prompt: מה פירוש שמוציק?
+    prompt: מה פירוש פּאָמידאָר?
     options:
-    - מלוכלך
-    - אדום
-    - מהיר
+    - עגבנייה
+    - דבש
+    - עוגה
     correct: 0
     lexemes:
-    - p7-shmutsik
+    - p7-pomidor
   - id: p7-l3-17
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: קל (משקל)?'
+    prompt: 'איזו מילה מתאימה ל: ביצה?'
     options:
-    - לײַכט
-    - רויק
-    - פֿול
+    - איי
+    - צוקער
+    - זאַפֿט
     correct: 0
     lexemes:
-    - p7-laykht
+    - p7-ey
   - id: p7-l3-18
     type: multiple_choice
-    prompt: מה פירוש טיף?
+    prompt: מה פירוש שאָקאָלאַד?
     options:
-    - עמוק
-    - עשיר
-    - חום
+    - שוקולד
+    - בשר
+    - מיץ
     correct: 0
     lexemes:
-    - p7-tif
+    - p7-shokolad
   - id: p7-l3-19
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: גבוה?'
+    prompt: 'איזו מילה מתאימה ל: סלט?'
     options:
-    - הויך
-    - שנעל
-    - פֿול
+    - סאַלאַט
+    - ציבעלע
+    - שמאַלץ
     correct: 0
     lexemes:
-    - p7-hoykh
+    - p7-salat
   - id: p7-l3-20
-    type: multiple_choice
-    prompt: מה פירוש שמאָל?
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה קמח
+    answers:
+    - מעל
     options:
-    - צר
-    - ריק
-    - חלש
-    correct: 0
+    - מעל
+    - זאַפֿט
+    - טיי
     lexemes:
-    - p7-shmol
+    - p7-mel
   - id: p7-l3-21
-    type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: עבה?'
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה שום
+    answers:
+    - קנאָבל
     options:
-    - דיק
-    - פֿול
-    - רויט
-    correct: 0
+    - קנאָבל
+    - קאַווע
+    - פֿלייש
     lexemes:
-    - p7-dik
+    - p7-knobl
   - id: p7-l3-22
-    type: multiple_choice
-    prompt: מה פירוש דין?
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה צנון
+    answers:
+    - רעטעך
     options:
-    - דק
-    - מלא
-    - חום
-    correct: 0
+    - רעטעך
+    - הינדל
+    - ציבעלע
     lexemes:
-    - p7-din
+    - p7-retekh
   - id: p7-l3-23
-    type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: מתוק?'
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה כרוב
+    answers:
+    - קאַפּוסט
     options:
-    - זיס
-    - רויק
-    - שוואַך
-    correct: 0
+    - קאַפּוסט
+    - פּעפּער
+    - האָניק
     lexemes:
-    - p7-zis
+    - p7-kapuste
   - id: p7-l3-24
-    type: multiple_choice
-    prompt: מה פירוש זויער?
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה עגבנייה
+    answers:
+    - פּאָמידאָר
     options:
-    - חמוץ
-    - עצוב
-    - שמח / מצחיק
-    correct: 0
+    - פּאָמידאָר
+    - קאַרטאָפֿל
+    - קוכן
     lexemes:
-    - p7-zoyer
+    - p7-pomidor
   - id: p7-l3-25
     type: fill_blank
-    sentence: דאָס איז ___.
-    translation: זה סקרן
+    sentence: איך זע אַן ___.
+    translation: אני רואה ביצה
     answers:
-    - נייגעריק
+    - איי
     options:
-    - נייגעריק
-    - לוסטיק
-    - געל
+    - איי
+    - פֿלייש
+    - קוכן
     lexemes:
-    - p7-nayerik
+    - p7-ey
   - id: p7-l3-26
     type: fill_blank
-    sentence: דאָס איז ___.
-    translation: זה נקי
+    sentence: איך וויל ___.
+    translation: אני רוצה שוקולד
     answers:
-    - ריין
+    - שאָקאָלאַד
     options:
-    - ריין
-    - ברוין
-    - לוסטיק
+    - שאָקאָלאַד
+    - האָניק
+    - טיי
     lexemes:
-    - p7-reyn
+    - p7-shokolad
   - id: p7-l3-27
     type: fill_blank
-    sentence: דאָס איז ___.
-    translation: זה מלוכלך
+    sentence: איך וויל ___.
+    translation: אני רוצה סלט
     answers:
-    - שמוציק
+    - סאַלאַט
     options:
-    - שמוציק
-    - שטאַרק
-    - לוסטיק
+    - סאַלאַט
+    - שמאַלץ
+    - ווײַנטרויב
     lexemes:
-    - p7-shmutsik
-  - id: p7-l3-28
-    type: fill_blank
-    sentence: דאָס איז ___.
-    translation: זה קל (משקל)
-    answers:
-    - לײַכט
-    options:
-    - לײַכט
-    - שנעל
-    - נאַס
-    lexemes:
-    - p7-laykht
-  - id: p7-l3-29
-    type: fill_blank
-    sentence: דאָס איז ___.
-    translation: זה עמוק
-    answers:
-    - טיף
-    options:
-    - טיף
-    - נאַס
-    - טרויעריק
-    lexemes:
-    - p7-tif
-  - id: p7-l3-30
-    type: fill_blank
-    sentence: דאָס איז ___.
-    translation: זה גבוה
-    answers:
-    - הויך
-    options:
-    - הויך
-    - רויק
-    - שוואַך
-    lexemes:
-    - p7-hoykh
-  - id: p7-l3-31
-    type: fill_blank
-    sentence: דאָס איז ___.
-    translation: זה צר
-    answers:
-    - שמאָל
-    options:
-    - שמאָל
-    - רויק
-    - נאַס
-    lexemes:
-    - p7-shmol
-  - id: p7-l3-32
-    type: fill_blank
-    sentence: דאָס איז ___.
-    translation: זה עבה
-    answers:
-    - דיק
-    options:
-    - דיק
-    - שטאַרק
-    - רויק
-    lexemes:
-    - p7-dik
-  - id: p7-l3-33
-    type: fill_blank
-    sentence: דאָס איז ___.
-    translation: זה דק
-    answers:
-    - דין
-    options:
-    - דין
-    - לוסטיק
-    - רויק
-    lexemes:
-    - p7-din
-  - id: p7-l3-34
-    type: fill_blank
-    sentence: דאָס איז ___.
-    translation: זה מתוק
-    answers:
-    - זיס
-    options:
-    - זיס
-    - הייס
-    - בלוי
-    lexemes:
-    - p7-zis
-  - id: p7-l3-35
-    type: fill_blank
-    sentence: דאָס איז ___.
-    translation: זה חמוץ
-    answers:
-    - זויער
-    options:
-    - זויער
-    - בלוי
-    - שטאַרק
-    lexemes:
-    - p7-zoyer
+    - p7-salat

@@ -1,252 +1,140 @@
 id: p20-words
-cefr: B2
-scene: study
+cefr: C1
+scene: day
 title:
-  he: 'הרחבת אוצר מילים 20: עוד מילים משיחות'
-  en: 'Word builder 20: more words from talks'
-story: עוד מילים נפוצות משיחות, כל אחת במשפט קצר.
+  he: 'הרחבת אוצר מילים 20: רגשות ותדירות'
+  en: 'Word builder 20: feelings and frequency'
+story: בסוף המכתב מנחם מספר לסבא איך הוא מרגיש, ומה שהוא מקווה ומתפלל.
 canDo:
-- להבין ולהשתמש במילים נפוצות נוספות
+- להבין ולהשתמש במילים נפוצות נוספות בשיחה
 - לזהות את המילים במשפטים
 vocabulary:
-- id: p20-gantser
-  text: גאַנצער
-  translation: שלם / כל
+- id: p20-beyz
+  text: בייז
+  translation: כועס
   pos: adjective
   example:
-    text: דער גאַנצער טאָג איז שיין.
-    translation: היום כולו יפה
-- id: p20-farshtand
-  text: פֿאַרשטאַנד
-  translation: הבנה / שכל
+    text: דאָס איז בייז.
+    translation: זה כועס
+- id: p20-dershrokn
+  text: דערשראָקן
+  translation: מפוחד
+  pos: adjective
+  example:
+    text: דאָס איז דערשראָקן.
+    translation: זה מפוחד
+- id: p20-shtolts
+  text: שטאָלץ
+  translation: גאווה
   pos: noun
   example:
-    text: ער האָט אַ גוט פֿאַרשטאַנד.
-    translation: יש לו שכל טוב
-- id: p20-sakh
-  text: סך
-  translation: הרבה
+    text: איך האָב שטאָלץ.
+    translation: יש לי גאווה
+- id: p20-simkhe
+  text: שמחה
+  translation: שמחה (רגש)
   pos: noun
   example:
-    text: ער האָט אַ סך ביכער.
-    translation: יש לו הרבה ספרים
-- id: p20-hayntiker
-  text: הײַנטיקער
-  translation: של היום
-  pos: adjective
-  example:
-    text: דער הײַנטיקער טאָג איז שיין.
-    translation: יום של היום יפה
-- id: p20-shtarkayt
-  text: שטאַרקייט
-  translation: חוזק
+    text: איך האָב שמחה.
+    translation: יש לי שמחה (רגש)
+- id: p20-troyer
+  text: טרויער
+  translation: צער
   pos: noun
   example:
-    text: ער האָט אַ גרויסע שטאַרקייט.
-    translation: יש לו כוח גדול
-- id: p20-gebrakht
-  text: געבראַכט
-  translation: הביא
-  pos: verb
+    text: איך האָב טרויער.
+    translation: יש לי צער
+- id: p20-hofenung
+  text: האָפֿענונג
+  translation: תקווה
+  pos: noun
   example:
-    text: ער האָט געבראַכט אַ בוך.
-    translation: הוא הביא ספר
-- id: p20-gerekht
-  text: גערעכט
-  translation: צודק
-  pos: adjective
+    text: איך האָב האָפֿענונג.
+    translation: יש לי תקווה
+- id: p20-moyre
+  text: מורא
+  translation: פחד
+  pos: noun
   example:
-    text: ער איז גערעכט.
-    translation: הוא צודק
-- id: p20-farshidene
-  text: פֿאַרשידענע
-  translation: שונים
-  pos: adjective
+    text: איך האָב מורא.
+    translation: יש לי פחד
+- id: p20-rakhmones
+  text: רחמנות
+  translation: רחמים
+  pos: noun
   example:
-    text: זיי לערנען פֿאַרשידענע ביכער.
-    translation: הם לומדים ספרים שונים
-- id: p20-gehaltn
-  text: געהאַלטן
-  translation: החזיק / קיים
-  pos: verb
+    text: איך האָב רחמנות.
+    translation: יש לי רחמים
+- id: p20-geduld
+  text: געדולד
+  translation: סבלנות
+  pos: noun
   example:
-    text: ער האָט געהאַלטן אַ שיעור.
-    translation: הוא קיים שיעור
-- id: p20-geredt
-  text: גערעדט
-  translation: דיבר
-  pos: verb
-  example:
-    text: ער האָט גערעדט מיט מיר.
-    translation: הוא דיבר איתי
-- id: p20-shtelt
-  text: שטעלט
-  translation: מעמיד
-  pos: verb
-  example:
-    text: ער שטעלט דאָס בוך אויפֿן טיש.
-    translation: הוא מעמיד את הספר על השולחן
-- id: p20-halt
-  text: האַלט
-  translation: מחזיק
-  pos: verb
-  example:
-    text: ער האַלט אַ בוך אין האַנט.
-    translation: הוא מחזיק ספר ביד
-- id: p20-enlekh
-  text: ענלעך
-  translation: דומה
-  pos: adjective
-  example:
-    text: ער איז ענלעך צו זײַן טאַטן.
-    translation: הוא דומה לאביו
-- id: p20-ofn
-  text: אָפֿן
-  translation: פתוח
-  pos: adjective
-  example:
-    text: די טיר איז אָפֿן.
-    translation: הדלת פתוחה
-- id: p20-untn
-  text: אונטן
-  translation: למטה
+    text: איך האָב געדולד.
+    translation: יש לי סבלנות
+- id: p20-oft
+  text: אָפֿט
+  translation: לעיתים קרובות
   pos: adverb
   example:
-    text: דער בוך ליגט אונטן.
-    translation: הספר מונח למטה
-- id: p20-farmakht
-  text: פֿאַרמאַכט
-  translation: סגור
-  pos: adjective
-  example:
-    text: די טיר איז פֿאַרמאַכט.
-    translation: הדלת סגורה
-- id: p20-ingantsn
-  text: אינגאַנצן
-  translation: לגמרי
+    text: איך גיי אָפֿט אין שול.
+    translation: אני לעיתים קרובות הולך לבית הכנסת
+- id: p20-shtendik
+  text: שטענדיק
+  translation: תמיד
   pos: adverb
   example:
-    text: ער איז אינגאַנצן פֿאַרטיק.
-    translation: הוא לגמרי גמר
-- id: p20-dagegn
-  text: דאַקעגן
-  translation: לעומת זאת
+    text: איך גיי שטענדיק אין שול.
+    translation: אני תמיד הולך לבית הכנסת
+- id: p20-zeltn
+  text: זעלטן
+  translation: לעיתים רחוקות
   pos: adverb
   example:
-    text: איך וויל גיין, דאַקעגן וויל ער בלײַבן.
-    translation: אני רוצה ללכת ולעומת זאת הוא רוצה להישאר
-- id: p20-derfun
-  text: דערפֿון
-  translation: מזה
+    text: איך גיי זעלטן אין שול.
+    translation: אני לעיתים רחוקות הולך לבית הכנסת
+- id: p20-freyd
+  text: פֿרייד
+  translation: שמחה גדולה
+  pos: noun
+  example:
+    text: איך האָב פֿרייד.
+    translation: יש לי שמחה גדולה
+- id: p20-kaas
+  text: כעס
+  translation: כעס חזק
+  pos: noun
+  example:
+    text: איך האָב כעס.
+    translation: יש לי כעס חזק
+- id: p20-benkshaft
+  text: בענקשאַפֿט
+  translation: געגוע
+  pos: noun
+  example:
+    text: איך האָב בענקשאַפֿט.
+    translation: יש לי געגוע
+- id: p20-tsufridn
+  text: צופֿרידן
+  translation: מרוצה
+  pos: adjective
+  example:
+    text: דאָס איז צופֿרידן.
+    translation: זה מרוצה
+- id: p20-fardrosn
+  text: פֿאַרדראָסן
+  translation: מוטרד
+  pos: adjective
+  example:
+    text: דאָס איז פֿאַרדראָסן.
+    translation: זה מוטרד
+- id: p20-amol
+  text: אַמאָל
+  translation: פעם
   pos: adverb
   example:
-    text: ער רעדט דערפֿון.
-    translation: הוא מדבר על זה
-- id: p20-manen
-  text: מאָנען
-  translation: לדרוש / לתבוע
-  pos: verb
-  example:
-    text: ער וויל מאָנען זײַן געלט.
-    translation: הוא רוצה לדרוש את כספו
-- id: p20-eygene
-  text: אייגענע
-  translation: עצמי
-  pos: adjective
-  example:
-    text: ער האָט זײַן אייגענע שטוב.
-    translation: יש לו בית משלו
-- id: p20-tekhter
-  text: טעכטער
-  translation: בנות
-  pos: noun
-  example:
-    text: איך האָב צוויי טעכטער.
-    translation: יש לי שתי בנות
-- id: p20-unzer
-  text: אונדזער
-  translation: שלנו
-  pos: pronoun
-  example:
-    text: אונדזער שטוב איז גרויס.
-    translation: הבית שלנו גדול
-- id: p20-rekhnt
-  text: רעכנט
-  translation: סופר / מחשיב
-  pos: verb
-  example:
-    text: ער רעכנט דאָס.
-    translation: הוא סופר את זה
-- id: p20-kleyne
-  text: קליינע
-  translation: קטנים
-  pos: adjective
-  example:
-    text: די קליינע קינדער שפּילן.
-    translation: הילדים הקטנים משחקים
-- id: p20-mentshn
-  text: מענטשן
-  translation: אנשים
-  pos: noun
-  example:
-    text: פֿיל מענטשן קומען.
-    translation: הרבה אנשים באים
-- id: p20-farlirn
-  text: פֿאַרלירן
-  translation: לאבד
-  pos: verb
-  example:
-    text: איך וויל ניט פֿאַרלירן דאָס בוך.
-    translation: אני לא רוצה לאבד את הספר
-- id: p20-shpayz
-  text: שפּײַז
-  translation: אוכל
-  pos: noun
-  example:
-    text: מיר האָבן גוטע שפּײַז.
-    translation: יש לנו אוכל טוב
-- id: p20-farbundn
-  text: פֿאַרבונדן
-  translation: קשור
-  pos: adjective
-  example:
-    text: ער איז פֿאַרבונדן מיט זײַן משפּחה.
-    translation: הוא קשור למשפחתו
-- id: p20-etlekhe
-  text: עטלעכע
-  translation: כמה
-  pos: adjective
-  example:
-    text: עטלעכע מענטשן קומען.
-    translation: כמה אנשים באים
-- id: p20-keynem
-  text: קיינעם
-  translation: אף אחד (פעול)
-  pos: pronoun
-  example:
-    text: איך זע קיינעם ניט.
-    translation: אני לא רואה אף אחד
-- id: p20-oremon
-  text: אָרעמאַן
-  translation: עני
-  pos: noun
-  example:
-    text: דער אָרעמאַן בעט צדקה.
-    translation: העני מבקש צדקה
-- id: p20-derbay
-  text: דערביי
-  translation: בזה / שם
-  pos: adverb
-  example:
-    text: ער איז דערביי.
-    translation: הוא נמצא שם
-- id: p20-shekhtn
-  text: שעכטן
-  translation: לשחוט
-  pos: verb
-  example:
-    text: מע דאַרף שעכטן אַ שעפּס.
-    translation: צריך לשחוט כבש
+    text: איך האָב אַמאָל געלערנט.
+    translation: פעם למדתי
 lessons:
 - id: p20-l1
   kind: new
@@ -256,320 +144,196 @@ lessons:
   exercises:
   - id: p20-l1-01
     type: learn
-    lexeme: p20-gantser
+    lexeme: p20-beyz
   - id: p20-l1-02
     type: learn
-    lexeme: p20-farshtand
+    lexeme: p20-dershrokn
   - id: p20-l1-03
     type: learn
-    lexeme: p20-sakh
+    lexeme: p20-shtolts
   - id: p20-l1-04
     type: learn
-    lexeme: p20-hayntiker
+    lexeme: p20-simkhe
   - id: p20-l1-05
     type: learn
-    lexeme: p20-shtarkayt
+    lexeme: p20-troyer
   - id: p20-l1-06
     type: learn
-    lexeme: p20-gebrakht
+    lexeme: p20-hofenung
   - id: p20-l1-07
-    type: learn
-    lexeme: p20-gerekht
+    type: dialogue
+    scene: רגשות בסוף המכתב
+    lines:
+    - speaker: menachem
+      text: זיידע, איך בין ניט בייז, איך בין ניט דערשראָקן. איך בין שטאָלץ.
+      translation: סבא, אני לא כועס, לא מפחד. אני גאה.
+    - speaker: zeyde
+      text: שרײַב אויך וועגן דער שמחה, און ניט וועגן דער טרויער.
+      translation: כתוב גם על השמחה, ולא על העצב.
+    - speaker: menachem
+      text: און אויף דער האָפֿענונג.
+      translation: ועל התקווה.
+    - speaker: zeyde
+      text: יאָ, דאָס איז דער עיקר.
+      translation: כן, זה העיקר.
   - id: p20-l1-08
-    type: learn
-    lexeme: p20-farshidene
+    type: match_pairs
+    pairs:
+    - - בייז
+      - כועס
+    - - דערשראָקן
+      - מפוחד
+    - - שטאָלץ
+      - גאווה
+    lexemes:
+    - p20-beyz
+    - p20-dershrokn
+    - p20-shtolts
   - id: p20-l1-09
-    type: learn
-    lexeme: p20-gehaltn
+    type: match_pairs
+    pairs:
+    - - שמחה
+      - שמחה (רגש)
+    - - טרויער
+      - צער
+    - - האָפֿענונג
+      - תקווה
+    lexemes:
+    - p20-simkhe
+    - p20-troyer
+    - p20-hofenung
   - id: p20-l1-10
-    type: learn
-    lexeme: p20-geredt
+    type: multiple_choice
+    prompt: מה פירוש בייז?
+    options:
+    - כועס
+    - מרוצה
+    - לעיתים רחוקות
+    correct: 0
+    lexemes:
+    - p20-beyz
   - id: p20-l1-11
-    type: learn
-    lexeme: p20-shtelt
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: מפוחד?'
+    options:
+    - דערשראָקן
+    - זעלטן
+    - בענקשאַפֿט
+    correct: 0
+    lexemes:
+    - p20-dershrokn
   - id: p20-l1-12
-    type: match_pairs
-    pairs:
-    - - גאַנצער
-      - שלם / כל
-    - - פֿאַרשטאַנד
-      - הבנה / שכל
-    - - סך
-      - הרבה
-    - - הײַנטיקער
-      - של היום
-    - - שטאַרקייט
-      - חוזק
-    - - געבראַכט
-      - הביא
+    type: multiple_choice
+    prompt: מה פירוש שטאָלץ?
+    options:
+    - גאווה
+    - פחד
+    - רחמים
+    correct: 0
     lexemes:
-    - p20-gantser
-    - p20-farshtand
-    - p20-sakh
-    - p20-hayntiker
-    - p20-shtarkayt
-    - p20-gebrakht
+    - p20-shtolts
   - id: p20-l1-13
-    type: match_pairs
-    pairs:
-    - - גערעכט
-      - צודק
-    - - פֿאַרשידענע
-      - שונים
-    - - געהאַלטן
-      - החזיק / קיים
-    - - גערעדט
-      - דיבר
-    - - שטעלט
-      - מעמיד
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: שמחה (רגש)?'
+    options:
+    - שמחה
+    - געדולד
+    - פֿרייד
+    correct: 0
     lexemes:
-    - p20-gerekht
-    - p20-farshidene
-    - p20-gehaltn
-    - p20-geredt
-    - p20-shtelt
+    - p20-simkhe
   - id: p20-l1-14
     type: multiple_choice
-    prompt: מה פירוש גאַנצער?
+    prompt: מה פירוש טרויער?
     options:
-    - שלם / כל
-    - כמה
-    - בזה / שם
+    - צער
+    - פעם
+    - געגוע
     correct: 0
     lexemes:
-    - p20-gantser
+    - p20-troyer
   - id: p20-l1-15
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: הבנה / שכל?'
+    prompt: 'איזו מילה מתאימה ל: תקווה?'
     options:
-    - פֿאַרשטאַנד
-    - מענטשן
-    - שפּײַז
+    - האָפֿענונג
+    - זעלטן
+    - פֿאַרדראָסן
     correct: 0
     lexemes:
-    - p20-farshtand
+    - p20-hofenung
   - id: p20-l1-16
-    type: multiple_choice
-    prompt: מה פירוש סך?
+    type: fill_blank
+    sentence: דאָס איז ___.
+    translation: זה כועס
+    answers:
+    - בייז
     options:
-    - הרבה
-    - כמה
-    - פתוח
-    correct: 0
+    - בייז
+    - פֿאַרדראָסן
+    - צופֿרידן
     lexemes:
-    - p20-sakh
+    - p20-beyz
   - id: p20-l1-17
-    type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: של היום?'
+    type: fill_blank
+    sentence: דאָס איז ___.
+    translation: זה מפוחד
+    answers:
+    - דערשראָקן
     options:
-    - הײַנטיקער
-    - אונטן
-    - דערביי
-    correct: 0
+    - דערשראָקן
+    - צופֿרידן
+    - פֿאַרדראָסן
     lexemes:
-    - p20-hayntiker
+    - p20-dershrokn
   - id: p20-l1-18
-    type: multiple_choice
-    prompt: מה פירוש שטאַרקייט?
+    type: fill_blank
+    sentence: איך האָב ___.
+    translation: יש לי גאווה
+    answers:
+    - שטאָלץ
     options:
-    - חוזק
-    - עני
-    - לגמרי
-    correct: 0
+    - שטאָלץ
+    - געדולד
+    - רחמנות
     lexemes:
-    - p20-shtarkayt
+    - p20-shtolts
   - id: p20-l1-19
-    type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: הביא?'
+    type: fill_blank
+    sentence: איך האָב ___.
+    translation: יש לי שמחה (רגש)
+    answers:
+    - שמחה
     options:
-    - געבראַכט
-    - שפּײַז
-    - קיינעם
-    correct: 0
+    - שמחה
+    - פֿרייד
+    - בענקשאַפֿט
     lexemes:
-    - p20-gebrakht
+    - p20-simkhe
   - id: p20-l1-20
-    type: multiple_choice
-    prompt: מה פירוש גערעכט?
+    type: fill_blank
+    sentence: איך האָב ___.
+    translation: יש לי צער
+    answers:
+    - טרויער
     options:
-    - צודק
-    - לגמרי
-    - קטנים
-    correct: 0
+    - טרויער
+    - כעס
+    - פֿרייד
     lexemes:
-    - p20-gerekht
+    - p20-troyer
   - id: p20-l1-21
-    type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: שונים?'
-    options:
-    - פֿאַרשידענע
-    - אָפֿן
-    - האַלט
-    correct: 0
-    lexemes:
-    - p20-farshidene
-  - id: p20-l1-22
-    type: multiple_choice
-    prompt: מה פירוש געהאַלטן?
-    options:
-    - החזיק / קיים
-    - אנשים
-    - למטה
-    correct: 0
-    lexemes:
-    - p20-gehaltn
-  - id: p20-l1-23
-    type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: דיבר?'
-    options:
-    - גערעדט
-    - שעכטן
-    - מאָנען
-    correct: 0
-    lexemes:
-    - p20-geredt
-  - id: p20-l1-24
-    type: multiple_choice
-    prompt: מה פירוש שטעלט?
-    options:
-    - מעמיד
-    - שלנו
-    - קטנים
-    correct: 0
-    lexemes:
-    - p20-shtelt
-  - id: p20-l1-25
     type: fill_blank
-    sentence: דער ___ טאָג איז שיין.
-    translation: היום כולו יפה
+    sentence: איך האָב ___.
+    translation: יש לי תקווה
     answers:
-    - גאַנצער
+    - האָפֿענונג
     options:
-    - גאַנצער
-    - עטלעכע
-    - קליינע
+    - האָפֿענונג
+    - פֿרייד
+    - רחמנות
     lexemes:
-    - p20-gantser
-  - id: p20-l1-26
-    type: fill_blank
-    sentence: ער האָט אַ גוט ___.
-    translation: יש לו שכל טוב
-    answers:
-    - פֿאַרשטאַנד
-    options:
-    - פֿאַרשטאַנד
-    - שפּײַז
-    - טעכטער
-    lexemes:
-    - p20-farshtand
-  - id: p20-l1-27
-    type: fill_blank
-    sentence: ער האָט אַ ___ ביכער.
-    translation: יש לו הרבה ספרים
-    answers:
-    - סך
-    options:
-    - סך
-    - מענטשן
-    - אָרעמאַן
-    lexemes:
-    - p20-sakh
-  - id: p20-l1-28
-    type: fill_blank
-    sentence: דער ___ טאָג איז שיין.
-    translation: יום של היום יפה
-    answers:
-    - הײַנטיקער
-    options:
-    - הײַנטיקער
-    - עטלעכע
-    - קליינע
-    lexemes:
-    - p20-hayntiker
-  - id: p20-l1-29
-    type: fill_blank
-    sentence: ער האָט אַ גרויסע ___.
-    translation: יש לו כוח גדול
-    answers:
-    - שטאַרקייט
-    options:
-    - שטאַרקייט
-    - טעכטער
-    - אָרעמאַן
-    lexemes:
-    - p20-shtarkayt
-  - id: p20-l1-30
-    type: fill_blank
-    sentence: ער האָט ___ אַ בוך.
-    translation: הוא הביא ספר
-    answers:
-    - געבראַכט
-    options:
-    - געבראַכט
-    - רעכנט
-    - מאָנען
-    lexemes:
-    - p20-gebrakht
-  - id: p20-l1-31
-    type: fill_blank
-    sentence: ער איז ___.
-    translation: הוא צודק
-    answers:
-    - גערעכט
-    options:
-    - גערעכט
-    - פֿאַרמאַכט
-    - עטלעכע
-    lexemes:
-    - p20-gerekht
-  - id: p20-l1-32
-    type: fill_blank
-    sentence: זיי לערנען ___ ביכער.
-    translation: הם לומדים ספרים שונים
-    answers:
-    - פֿאַרשידענע
-    options:
-    - פֿאַרשידענע
-    - אייגענע
-    - פֿאַרבונדן
-    lexemes:
-    - p20-farshidene
-  - id: p20-l1-33
-    type: fill_blank
-    sentence: ער האָט ___ אַ שיעור.
-    translation: הוא קיים שיעור
-    answers:
-    - געהאַלטן
-    options:
-    - געהאַלטן
-    - פֿאַרלירן
-    - מאָנען
-    lexemes:
-    - p20-gehaltn
-  - id: p20-l1-34
-    type: fill_blank
-    sentence: ער האָט ___ מיט מיר.
-    translation: הוא דיבר איתי
-    answers:
-    - גערעדט
-    options:
-    - גערעדט
-    - שעכטן
-    - מאָנען
-    lexemes:
-    - p20-geredt
-  - id: p20-l1-35
-    type: fill_blank
-    sentence: ער ___ דאָס בוך אויפֿן טיש.
-    translation: הוא מעמיד את הספר על השולחן
-    answers:
-    - שטעלט
-    options:
-    - שטעלט
-    - האַלט
-    - רעכנט
-    lexemes:
-    - p20-shtelt
+    - p20-hofenung
 - id: p20-l2
   kind: new
   title:
@@ -578,320 +342,196 @@ lessons:
   exercises:
   - id: p20-l2-01
     type: learn
-    lexeme: p20-halt
+    lexeme: p20-moyre
   - id: p20-l2-02
     type: learn
-    lexeme: p20-enlekh
+    lexeme: p20-rakhmones
   - id: p20-l2-03
     type: learn
-    lexeme: p20-ofn
+    lexeme: p20-geduld
   - id: p20-l2-04
     type: learn
-    lexeme: p20-untn
+    lexeme: p20-oft
   - id: p20-l2-05
     type: learn
-    lexeme: p20-farmakht
+    lexeme: p20-shtendik
   - id: p20-l2-06
     type: learn
-    lexeme: p20-ingantsn
+    lexeme: p20-zeltn
   - id: p20-l2-07
-    type: learn
-    lexeme: p20-dagegn
+    type: dialogue
+    scene: מה שמרגישים
+    lines:
+    - speaker: menachem
+      text: מורא האָב איך ניט, אָבער מיר איז אַ רחמנות אויף יענעם.
+      translation: פחד אין לי, אבל אני מרחם עליו.
+    - speaker: zeyde
+      text: דו דאַרפֿסט האָבן געדולד. אָפֿט איז שווער, אָבער מע גייט ווײַטער.
+      translation: אתה צריך סבלנות. לעתים קשה, אבל ממשיכים.
+    - speaker: menachem
+      text: מען פֿילט עס שטענדיק, ניט נאָר אַ מאָל — זעלטן איז עס גאָר אָן געדולד.
+      translation: מרגישים את זה תמיד, לא רק פעם — לעתים רחוקות זה בלי סבלנות.
+    - speaker: zeyde
+      text: גוט געזאָגט. שרײַב דאָס אויך.
+      translation: יפה אמרת. כתוב גם את זה.
   - id: p20-l2-08
-    type: learn
-    lexeme: p20-derfun
+    type: match_pairs
+    pairs:
+    - - מורא
+      - פחד
+    - - רחמנות
+      - רחמים
+    - - געדולד
+      - סבלנות
+    lexemes:
+    - p20-moyre
+    - p20-rakhmones
+    - p20-geduld
   - id: p20-l2-09
-    type: learn
-    lexeme: p20-manen
+    type: match_pairs
+    pairs:
+    - - אָפֿט
+      - לעיתים קרובות
+    - - שטענדיק
+      - תמיד
+    - - זעלטן
+      - לעיתים רחוקות
+    lexemes:
+    - p20-oft
+    - p20-shtendik
+    - p20-zeltn
   - id: p20-l2-10
-    type: learn
-    lexeme: p20-eygene
+    type: multiple_choice
+    prompt: מה פירוש מורא?
+    options:
+    - פחד
+    - מרוצה
+    - צער
+    correct: 0
+    lexemes:
+    - p20-moyre
   - id: p20-l2-11
-    type: learn
-    lexeme: p20-tekhter
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: רחמים?'
+    options:
+    - רחמנות
+    - דערשראָקן
+    - פֿאַרדראָסן
+    correct: 0
+    lexemes:
+    - p20-rakhmones
   - id: p20-l2-12
-    type: match_pairs
-    pairs:
-    - - האַלט
-      - מחזיק
-    - - ענלעך
-      - דומה
-    - - אָפֿן
-      - פתוח
-    - - אונטן
-      - למטה
-    - - פֿאַרמאַכט
-      - סגור
-    - - אינגאַנצן
-      - לגמרי
+    type: multiple_choice
+    prompt: מה פירוש געדולד?
+    options:
+    - סבלנות
+    - צער
+    - פעם
+    correct: 0
     lexemes:
-    - p20-halt
-    - p20-enlekh
-    - p20-ofn
-    - p20-untn
-    - p20-farmakht
-    - p20-ingantsn
+    - p20-geduld
   - id: p20-l2-13
-    type: match_pairs
-    pairs:
-    - - דאַקעגן
-      - לעומת זאת
-    - - דערפֿון
-      - מזה
-    - - מאָנען
-      - לדרוש / לתבוע
-    - - אייגענע
-      - עצמי
-    - - טעכטער
-      - בנות
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: לעיתים קרובות?'
+    options:
+    - אָפֿט
+    - אַמאָל
+    - פֿאַרדראָסן
+    correct: 0
     lexemes:
-    - p20-dagegn
-    - p20-derfun
-    - p20-manen
-    - p20-eygene
-    - p20-tekhter
+    - p20-oft
   - id: p20-l2-14
     type: multiple_choice
-    prompt: מה פירוש האַלט?
+    prompt: מה פירוש שטענדיק?
     options:
-    - מחזיק
-    - שלם / כל
-    - שלנו
+    - תמיד
+    - מפוחד
+    - גאווה
     correct: 0
     lexemes:
-    - p20-halt
+    - p20-shtendik
   - id: p20-l2-15
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: דומה?'
+    prompt: 'איזו מילה מתאימה ל: לעיתים רחוקות?'
     options:
-    - ענלעך
-    - פֿאַרבונדן
-    - מענטשן
+    - זעלטן
+    - האָפֿענונג
+    - פֿרייד
     correct: 0
     lexemes:
-    - p20-enlekh
+    - p20-zeltn
   - id: p20-l2-16
-    type: multiple_choice
-    prompt: מה פירוש אָפֿן?
+    type: fill_blank
+    sentence: איך האָב ___.
+    translation: יש לי פחד
+    answers:
+    - מורא
     options:
-    - פתוח
-    - אוכל
-    - כמה
-    correct: 0
+    - מורא
+    - האָפֿענונג
+    - בענקשאַפֿט
     lexemes:
-    - p20-ofn
+    - p20-moyre
   - id: p20-l2-17
-    type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: למטה?'
+    type: fill_blank
+    sentence: איך האָב ___.
+    translation: יש לי רחמים
+    answers:
+    - רחמנות
     options:
-    - אונטן
-    - מענטשן
-    - גערעכט
-    correct: 0
+    - רחמנות
+    - בענקשאַפֿט
+    - כעס
     lexemes:
-    - p20-untn
+    - p20-rakhmones
   - id: p20-l2-18
-    type: multiple_choice
-    prompt: מה פירוש פֿאַרמאַכט?
+    type: fill_blank
+    sentence: איך האָב ___.
+    translation: יש לי סבלנות
+    answers:
+    - געדולד
     options:
-    - סגור
-    - צודק
-    - אוכל
-    correct: 0
+    - געדולד
+    - בענקשאַפֿט
+    - שמחה
     lexemes:
-    - p20-farmakht
+    - p20-geduld
   - id: p20-l2-19
-    type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: לגמרי?'
+    type: fill_blank
+    sentence: איך גיי ___ אין שול.
+    translation: אני לעיתים קרובות הולך לבית הכנסת
+    answers:
+    - אָפֿט
     options:
-    - אינגאַנצן
-    - גאַנצער
-    - פֿאַרשידענע
-    correct: 0
+    - אָפֿט
+    - כעס
+    - שמחה
     lexemes:
-    - p20-ingantsn
+    - p20-oft
   - id: p20-l2-20
-    type: multiple_choice
-    prompt: מה פירוש דאַקעגן?
+    type: fill_blank
+    sentence: איך גיי ___ אין שול.
+    translation: אני תמיד הולך לבית הכנסת
+    answers:
+    - שטענדיק
     options:
-    - לעומת זאת
-    - שונים
-    - אף אחד (פעול)
-    correct: 0
+    - שטענדיק
+    - צופֿרידן
+    - דערשראָקן
     lexemes:
-    - p20-dagegn
+    - p20-shtendik
   - id: p20-l2-21
-    type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: מזה?'
-    options:
-    - דערפֿון
-    - סך
-    - עטלעכע
-    correct: 0
-    lexemes:
-    - p20-derfun
-  - id: p20-l2-22
-    type: multiple_choice
-    prompt: מה פירוש מאָנען?
-    options:
-    - לדרוש / לתבוע
-    - הביא
-    - סופר / מחשיב
-    correct: 0
-    lexemes:
-    - p20-manen
-  - id: p20-l2-23
-    type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: עצמי?'
-    options:
-    - אייגענע
-    - פֿאַרבונדן
-    - עטלעכע
-    correct: 0
-    lexemes:
-    - p20-eygene
-  - id: p20-l2-24
-    type: multiple_choice
-    prompt: מה פירוש טעכטער?
-    options:
-    - בנות
-    - של היום
-    - בזה / שם
-    correct: 0
-    lexemes:
-    - p20-tekhter
-  - id: p20-l2-25
     type: fill_blank
-    sentence: ער ___ אַ בוך אין האַנט.
-    translation: הוא מחזיק ספר ביד
+    sentence: איך גיי ___ אין שול.
+    translation: אני לעיתים רחוקות הולך לבית הכנסת
     answers:
-    - האַלט
+    - זעלטן
     options:
-    - האַלט
-    - שעכטן
-    - געהאַלטן
+    - זעלטן
+    - כעס
+    - דערשראָקן
     lexemes:
-    - p20-halt
-  - id: p20-l2-26
-    type: fill_blank
-    sentence: ער איז ___ צו זײַן טאַטן.
-    translation: הוא דומה לאביו
-    answers:
-    - ענלעך
-    options:
-    - ענלעך
-    - הײַנטיקער
-    - גערעכט
-    lexemes:
-    - p20-enlekh
-  - id: p20-l2-27
-    type: fill_blank
-    sentence: די טיר איז ___.
-    translation: הדלת פתוחה
-    answers:
-    - אָפֿן
-    options:
-    - אָפֿן
-    - גערעכט
-    - פֿאַרבונדן
-    lexemes:
-    - p20-ofn
-  - id: p20-l2-28
-    type: fill_blank
-    sentence: דער בוך ליגט ___.
-    translation: הספר מונח למטה
-    answers:
-    - אונטן
-    options:
-    - אונטן
-    - אונדזער
-    - שטעלט
-    lexemes:
-    - p20-untn
-  - id: p20-l2-29
-    type: fill_blank
-    sentence: די טיר איז ___.
-    translation: הדלת סגורה
-    answers:
-    - פֿאַרמאַכט
-    options:
-    - פֿאַרמאַכט
-    - פֿאַרשידענע
-    - פֿאַרבונדן
-    lexemes:
-    - p20-farmakht
-  - id: p20-l2-30
-    type: fill_blank
-    sentence: ער איז ___ פֿאַרטיק.
-    translation: הוא לגמרי גמר
-    answers:
-    - אינגאַנצן
-    options:
-    - אינגאַנצן
-    - שטעלט
-    - געהאַלטן
-    lexemes:
-    - p20-ingantsn
-  - id: p20-l2-31
-    type: fill_blank
-    sentence: איך וויל גיין, ___ וויל ער בלײַבן.
-    translation: אני רוצה ללכת ולעומת זאת הוא רוצה להישאר
-    answers:
-    - דאַקעגן
-    options:
-    - דאַקעגן
-    - קליינע
-    - עטלעכע
-    lexemes:
-    - p20-dagegn
-  - id: p20-l2-32
-    type: fill_blank
-    sentence: ער רעדט ___.
-    translation: הוא מדבר על זה
-    answers:
-    - דערפֿון
-    options:
-    - דערפֿון
-    - שטאַרקייט
-    - פֿאַרבונדן
-    lexemes:
-    - p20-derfun
-  - id: p20-l2-33
-    type: fill_blank
-    sentence: ער וויל ___ זײַן געלט.
-    translation: הוא רוצה לדרוש את כספו
-    answers:
-    - מאָנען
-    options:
-    - מאָנען
-    - שעכטן
-    - געהאַלטן
-    lexemes:
-    - p20-manen
-  - id: p20-l2-34
-    type: fill_blank
-    sentence: ער האָט זײַן ___ שטוב.
-    translation: יש לו בית משלו
-    answers:
-    - אייגענע
-    options:
-    - אייגענע
-    - גאַנצער
-    - פֿאַרשידענע
-    lexemes:
-    - p20-eygene
-  - id: p20-l2-35
-    type: fill_blank
-    sentence: איך האָב צוויי ___.
-    translation: יש לי שתי בנות
-    answers:
-    - טעכטער
-    options:
-    - טעכטער
-    - שטאַרקייט
-    - שפּײַז
-    lexemes:
-    - p20-tekhter
+    - p20-zeltn
 - id: p20-l3
   kind: new
   title:
@@ -900,345 +540,193 @@ lessons:
   exercises:
   - id: p20-l3-01
     type: learn
-    lexeme: p20-unzer
+    lexeme: p20-freyd
   - id: p20-l3-02
     type: learn
-    lexeme: p20-rekhnt
+    lexeme: p20-kaas
   - id: p20-l3-03
     type: learn
-    lexeme: p20-kleyne
+    lexeme: p20-benkshaft
   - id: p20-l3-04
     type: learn
-    lexeme: p20-mentshn
+    lexeme: p20-tsufridn
   - id: p20-l3-05
     type: learn
-    lexeme: p20-farlirn
+    lexeme: p20-fardrosn
   - id: p20-l3-06
     type: learn
-    lexeme: p20-shpayz
+    lexeme: p20-amol
   - id: p20-l3-07
-    type: learn
-    lexeme: p20-farbundn
+    type: dialogue
+    scene: סיום המכתב
+    lines:
+    - speaker: menachem
+      text: פֿרייד איז גרויס, אָבער כעס איז אויך דאָ, און איך פֿיל בענקשאַפֿט.
+      translation: שמחה גדולה, אבל גם כעס יש, ואני מרגיש געגוע.
+    - speaker: zeyde
+      text: דו ביסט צופֿרידן אָדער פֿאַרדראָסן?
+      translation: אתה מרוצה או מתוסכל?
+    - speaker: menachem
+      text: צופֿרידן, זיידע. אַמאָל פֿאַרדראָסן, אָבער איצט צופֿרידן.
+      translation: מרוצה, סבא. לפעמים מתוסכל, אבל עכשיו מרוצה.
+    - speaker: zeyde
+      text: לאָמיר שיקן דעם מכתב. אַלע אידן זאָלן האָבן אַ גוט יאָר.
+      translation: בוא נשלח את המכתב. שלכל היהודים תהיה שנה טובה.
   - id: p20-l3-08
-    type: learn
-    lexeme: p20-etlekhe
+    type: match_pairs
+    pairs:
+    - - פֿרייד
+      - שמחה גדולה
+    - - כעס
+      - כעס חזק
+    - - בענקשאַפֿט
+      - געגוע
+    lexemes:
+    - p20-freyd
+    - p20-kaas
+    - p20-benkshaft
   - id: p20-l3-09
-    type: learn
-    lexeme: p20-keynem
+    type: match_pairs
+    pairs:
+    - - צופֿרידן
+      - מרוצה
+    - - פֿאַרדראָסן
+      - מוטרד
+    - - אַמאָל
+      - פעם
+    lexemes:
+    - p20-tsufridn
+    - p20-fardrosn
+    - p20-amol
   - id: p20-l3-10
-    type: learn
-    lexeme: p20-oremon
+    type: multiple_choice
+    prompt: מה פירוש פֿרייד?
+    options:
+    - שמחה גדולה
+    - רחמים
+    - פחד
+    correct: 0
+    lexemes:
+    - p20-freyd
   - id: p20-l3-11
-    type: learn
-    lexeme: p20-derbay
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: כעס חזק?'
+    options:
+    - כעס
+    - שמחה
+    - אָפֿט
+    correct: 0
+    lexemes:
+    - p20-kaas
   - id: p20-l3-12
-    type: learn
-    lexeme: p20-shekhtn
+    type: multiple_choice
+    prompt: מה פירוש בענקשאַפֿט?
+    options:
+    - געגוע
+    - פחד
+    - כועס
+    correct: 0
+    lexemes:
+    - p20-benkshaft
   - id: p20-l3-13
-    type: match_pairs
-    pairs:
-    - - אונדזער
-      - שלנו
-    - - רעכנט
-      - סופר / מחשיב
-    - - קליינע
-      - קטנים
-    - - מענטשן
-      - אנשים
-    - - פֿאַרלירן
-      - לאבד
-    - - שפּײַז
-      - אוכל
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: מרוצה?'
+    options:
+    - צופֿרידן
+    - טרויער
+    - מורא
+    correct: 0
     lexemes:
-    - p20-unzer
-    - p20-rekhnt
-    - p20-kleyne
-    - p20-mentshn
-    - p20-farlirn
-    - p20-shpayz
+    - p20-tsufridn
   - id: p20-l3-14
-    type: match_pairs
-    pairs:
-    - - פֿאַרבונדן
-      - קשור
-    - - עטלעכע
-      - כמה
-    - - קיינעם
-      - אף אחד (פעול)
-    - - אָרעמאַן
-      - עני
-    - - דערביי
-      - בזה / שם
-    - - שעכטן
-      - לשחוט
+    type: multiple_choice
+    prompt: מה פירוש פֿאַרדראָסן?
+    options:
+    - מוטרד
+    - כועס
+    - גאווה
+    correct: 0
     lexemes:
-    - p20-farbundn
-    - p20-etlekhe
-    - p20-keynem
-    - p20-oremon
-    - p20-derbay
-    - p20-shekhtn
+    - p20-fardrosn
   - id: p20-l3-15
     type: multiple_choice
-    prompt: מה פירוש אונדזער?
+    prompt: 'איזו מילה מתאימה ל: פעם?'
     options:
-    - שלנו
-    - לדרוש / לתבוע
-    - הבנה / שכל
+    - אַמאָל
+    - אָפֿט
+    - רחמנות
     correct: 0
     lexemes:
-    - p20-unzer
+    - p20-amol
   - id: p20-l3-16
-    type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: סופר / מחשיב?'
+    type: fill_blank
+    sentence: איך האָב ___.
+    translation: יש לי שמחה גדולה
+    answers:
+    - פֿרייד
     options:
-    - רעכנט
-    - מאָנען
-    - דאַקעגן
-    correct: 0
+    - פֿרייד
+    - טרויער
+    - שמחה
     lexemes:
-    - p20-rekhnt
+    - p20-freyd
   - id: p20-l3-17
-    type: multiple_choice
-    prompt: מה פירוש קליינע?
+    type: fill_blank
+    sentence: איך האָב ___.
+    translation: יש לי כעס חזק
+    answers:
+    - כעס
     options:
-    - קטנים
-    - מזה
-    - הרבה
-    correct: 0
+    - כעס
+    - האָפֿענונג
+    - געדולד
     lexemes:
-    - p20-kleyne
+    - p20-kaas
   - id: p20-l3-18
-    type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: אנשים?'
+    type: fill_blank
+    sentence: איך האָב ___.
+    translation: יש לי געגוע
+    answers:
+    - בענקשאַפֿט
     options:
-    - מענטשן
-    - פֿאַרמאַכט
-    - אָפֿן
-    correct: 0
+    - בענקשאַפֿט
+    - שמחה
+    - מורא
     lexemes:
-    - p20-mentshn
+    - p20-benkshaft
   - id: p20-l3-19
-    type: multiple_choice
-    prompt: מה פירוש פֿאַרלירן?
+    type: fill_blank
+    sentence: דאָס איז ___.
+    translation: זה מרוצה
+    answers:
+    - צופֿרידן
     options:
-    - לאבד
-    - לעומת זאת
-    - דומה
-    correct: 0
+    - צופֿרידן
+    - בייז
+    - דערשראָקן
     lexemes:
-    - p20-farlirn
+    - p20-tsufridn
   - id: p20-l3-20
-    type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: אוכל?'
+    type: fill_blank
+    sentence: דאָס איז ___.
+    translation: זה מוטרד
+    answers:
+    - פֿאַרדראָסן
     options:
-    - שפּײַז
-    - דאַקעגן
-    - פֿאַרשידענע
-    correct: 0
+    - פֿאַרדראָסן
+    - בייז
+    - דערשראָקן
     lexemes:
-    - p20-shpayz
+    - p20-fardrosn
   - id: p20-l3-21
-    type: multiple_choice
-    prompt: מה פירוש פֿאַרבונדן?
-    options:
-    - קשור
-    - בנות
-    - למטה
-    correct: 0
-    lexemes:
-    - p20-farbundn
-  - id: p20-l3-22
-    type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: כמה?'
-    options:
-    - עטלעכע
-    - הײַנטיקער
-    - געבראַכט
-    correct: 0
-    lexemes:
-    - p20-etlekhe
-  - id: p20-l3-23
-    type: multiple_choice
-    prompt: מה פירוש קיינעם?
-    options:
-    - אף אחד (פעול)
-    - דיבר
-    - שונים
-    correct: 0
-    lexemes:
-    - p20-keynem
-  - id: p20-l3-24
-    type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: עני?'
-    options:
-    - אָרעמאַן
-    - ענלעך
-    - פֿאַרמאַכט
-    correct: 0
-    lexemes:
-    - p20-oremon
-  - id: p20-l3-25
-    type: multiple_choice
-    prompt: מה פירוש דערביי?
-    options:
-    - בזה / שם
-    - שונים
-    - סגור
-    correct: 0
-    lexemes:
-    - p20-derbay
-  - id: p20-l3-26
-    type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: לשחוט?'
-    options:
-    - שעכטן
-    - גערעדט
-    - פֿאַרמאַכט
-    correct: 0
-    lexemes:
-    - p20-shekhtn
-  - id: p20-l3-27
     type: fill_blank
-    sentence: ___ שטוב איז גרויס.
-    translation: הבית שלנו גדול
+    sentence: איך האָב ___ געלערנט.
+    translation: פעם למדתי
     answers:
-    - אונדזער
+    - אַמאָל
     options:
-    - אונדזער
-    - שטעלט
-    - גאַנצער
+    - אַמאָל
+    - שטענדיק
+    - זעלטן
     lexemes:
-    - p20-unzer
-  - id: p20-l3-28
-    type: fill_blank
-    sentence: ער ___ דאָס.
-    translation: הוא סופר את זה
-    answers:
-    - רעכנט
-    options:
-    - רעכנט
-    - שטעלט
-    - געהאַלטן
-    lexemes:
-    - p20-rekhnt
-  - id: p20-l3-29
-    type: fill_blank
-    sentence: די ___ קינדער שפּילן.
-    translation: הילדים הקטנים משחקים
-    answers:
-    - קליינע
-    options:
-    - קליינע
-    - אָפֿן
-    - גערעכט
-    lexemes:
-    - p20-kleyne
-  - id: p20-l3-30
-    type: fill_blank
-    sentence: פֿיל ___ קומען.
-    translation: הרבה אנשים באים
-    answers:
-    - מענטשן
-    options:
-    - מענטשן
-    - סך
-    - שטאַרקייט
-    lexemes:
-    - p20-mentshn
-  - id: p20-l3-31
-    type: fill_blank
-    sentence: איך וויל ניט ___ דאָס בוך.
-    translation: אני לא רוצה לאבד את הספר
-    answers:
-    - פֿאַרלירן
-    options:
-    - פֿאַרלירן
-    - גערעדט
-    - שטעלט
-    lexemes:
-    - p20-farlirn
-  - id: p20-l3-32
-    type: fill_blank
-    sentence: מיר האָבן גוטע ___.
-    translation: יש לנו אוכל טוב
-    answers:
-    - שפּײַז
-    options:
-    - שפּײַז
-    - פֿאַרשטאַנד
-    - טעכטער
-    lexemes:
-    - p20-shpayz
-  - id: p20-l3-33
-    type: fill_blank
-    sentence: ער איז ___ מיט זײַן משפּחה.
-    translation: הוא קשור למשפחתו
-    answers:
-    - פֿאַרבונדן
-    options:
-    - פֿאַרבונדן
-    - פֿאַרמאַכט
-    - ענלעך
-    lexemes:
-    - p20-farbundn
-  - id: p20-l3-34
-    type: fill_blank
-    sentence: ___ מענטשן קומען.
-    translation: כמה אנשים באים
-    answers:
-    - עטלעכע
-    options:
-    - עטלעכע
-    - ענלעך
-    - אייגענע
-    lexemes:
-    - p20-etlekhe
-  - id: p20-l3-35
-    type: fill_blank
-    sentence: איך זע ___ ניט.
-    translation: אני לא רואה אף אחד
-    answers:
-    - קיינעם
-    options:
-    - קיינעם
-    - גערעדט
-    - שטעלט
-    lexemes:
-    - p20-keynem
-  - id: p20-l3-36
-    type: fill_blank
-    sentence: דער ___ בעט צדקה.
-    translation: העני מבקש צדקה
-    answers:
-    - אָרעמאַן
-    options:
-    - אָרעמאַן
-    - סך
-    - פֿאַרשטאַנד
-    lexemes:
-    - p20-oremon
-  - id: p20-l3-37
-    type: fill_blank
-    sentence: ער איז ___.
-    translation: הוא נמצא שם
-    answers:
-    - דערביי
-    options:
-    - דערביי
-    - דאַקעגן
-    - אונטן
-    lexemes:
-    - p20-derbay
-  - id: p20-l3-38
-    type: fill_blank
-    sentence: מע דאַרף ___ אַ שעפּס.
-    translation: צריך לשחוט כבש
-    answers:
-    - שעכטן
-    options:
-    - שעכטן
-    - געהאַלטן
-    - געבראַכט
-    lexemes:
-    - p20-shekhtn
+    - p20-amol

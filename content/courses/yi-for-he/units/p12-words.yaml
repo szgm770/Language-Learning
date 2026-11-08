@@ -4,9 +4,9 @@ scene: travel
 title:
   he: 'הרחבת אוצר מילים 12: קניות, כיוונים ונסיעה'
   en: 'Word builder 12: shopping, directions, travel'
-story: מילים שימושיות נוספות, כל אחת במשפט קצר.
+story: מנחם וסבא הולכים לקנות לפני הנסיעה, שואלים בדרך ויוצאים לדרך.
 canDo:
-- להבין ולהשתמש במילים נפוצות נוספות
+- להבין ולהשתמש במילים נפוצות נוספות בשיחה
 - לזהות את המילים במשפטים
 vocabulary:
 - id: p12-geshseft
@@ -209,6 +209,22 @@ lessons:
     type: learn
     lexeme: p12-noent
   - id: p12-l1-09
+    type: dialogue
+    scene: בחנות
+    lines:
+    - speaker: menachem
+      text: זיידע, דאָס געשעפֿט איז נאָענט. וואָס איז דער פּרײַז?
+      translation: סבא, החנות קרובה. מה המחיר?
+    - speaker: zeyde
+      text: דער קונה באַצאָלט ביי דער קאַסע. דער סוחר פֿאַרקויפֿט.
+      translation: הקונה משלם בקופה. הסוחר מוכר.
+    - speaker: menachem
+      text: און די באַנק? זי איז ווײַט?
+      translation: והבנק? הוא רחוק?
+    - speaker: zeyde
+      text: ניין, נאָענט. גיי גלײַך.
+      translation: לא, קרוב. לך ישר.
+  - id: p12-l1-10
     type: match_pairs
     pairs:
     - - געשעפֿט
@@ -224,7 +240,7 @@ lessons:
     - p12-prayz
     - p12-kuneh
     - p12-farkoyfn
-  - id: p12-l1-10
+  - id: p12-l1-11
     type: match_pairs
     pairs:
     - - באַצאָלן
@@ -240,7 +256,7 @@ lessons:
     - p12-bank
     - p12-kase
     - p12-noent
-  - id: p12-l1-11
+  - id: p12-l1-12
     type: multiple_choice
     prompt: מה פירוש געשעפֿט?
     options:
@@ -250,7 +266,7 @@ lessons:
     correct: 0
     lexemes:
     - p12-geshseft
-  - id: p12-l1-12
+  - id: p12-l1-13
     type: multiple_choice
     prompt: 'איזו מילה מתאימה ל: מחיר?'
     options:
@@ -260,7 +276,7 @@ lessons:
     correct: 0
     lexemes:
     - p12-prayz
-  - id: p12-l1-13
+  - id: p12-l1-14
     type: multiple_choice
     prompt: מה פירוש קונה?
     options:
@@ -270,7 +286,7 @@ lessons:
     correct: 0
     lexemes:
     - p12-kuneh
-  - id: p12-l1-14
+  - id: p12-l1-15
     type: multiple_choice
     prompt: 'איזו מילה מתאימה ל: למכור?'
     options:
@@ -280,7 +296,7 @@ lessons:
     correct: 0
     lexemes:
     - p12-farkoyfn
-  - id: p12-l1-15
+  - id: p12-l1-16
     type: multiple_choice
     prompt: מה פירוש באַצאָלן?
     options:
@@ -290,7 +306,7 @@ lessons:
     correct: 0
     lexemes:
     - p12-batsaln
-  - id: p12-l1-16
+  - id: p12-l1-17
     type: multiple_choice
     prompt: 'איזו מילה מתאימה ל: בנק?'
     options:
@@ -300,7 +316,7 @@ lessons:
     correct: 0
     lexemes:
     - p12-bank
-  - id: p12-l1-17
+  - id: p12-l1-18
     type: multiple_choice
     prompt: מה פירוש קאַסע?
     options:
@@ -310,7 +326,7 @@ lessons:
     correct: 0
     lexemes:
     - p12-kase
-  - id: p12-l1-18
+  - id: p12-l1-19
     type: multiple_choice
     prompt: 'איזו מילה מתאימה ל: קרוב?'
     options:
@@ -320,7 +336,7 @@ lessons:
     correct: 0
     lexemes:
     - p12-noent
-  - id: p12-l1-19
+  - id: p12-l1-20
     type: fill_blank
     sentence: איך זע אַ ___.
     translation: אני רואה חנות
@@ -332,7 +348,7 @@ lessons:
     - גרענעץ
     lexemes:
     - p12-geshseft
-  - id: p12-l1-20
+  - id: p12-l1-21
     type: fill_blank
     sentence: איך זע אַ ___.
     translation: אני רואה מחיר
@@ -344,7 +360,7 @@ lessons:
     - לאַנד
     lexemes:
     - p12-prayz
-  - id: p12-l1-21
+  - id: p12-l1-22
     type: fill_blank
     sentence: איך זע אַ ___.
     translation: אני רואה לקוח
@@ -356,7 +372,7 @@ lessons:
     - ווינקל
     lexemes:
     - p12-kuneh
-  - id: p12-l1-22
+  - id: p12-l1-23
     type: fill_blank
     sentence: איך וויל ___.
     translation: אני רוצה למכור
@@ -368,7 +384,7 @@ lessons:
     - אָנקומען
     lexemes:
     - p12-farkoyfn
-  - id: p12-l1-23
+  - id: p12-l1-24
     type: fill_blank
     sentence: איך וויל ___.
     translation: אני רוצה לשלם
@@ -380,7 +396,7 @@ lessons:
     - אַרויסגיין
     lexemes:
     - p12-batsaln
-  - id: p12-l1-24
+  - id: p12-l1-25
     type: fill_blank
     sentence: איך זע אַ ___.
     translation: אני רואה בנק
@@ -392,7 +408,7 @@ lessons:
     - ווינקל
     lexemes:
     - p12-bank
-  - id: p12-l1-25
+  - id: p12-l1-26
     type: fill_blank
     sentence: איך זע אַ ___.
     translation: אני רואה קופה
@@ -404,7 +420,7 @@ lessons:
     - ווינקל
     lexemes:
     - p12-kase
-  - id: p12-l1-26
+  - id: p12-l1-27
     type: fill_blank
     sentence: דאָס איז ___.
     translation: זה קרוב
@@ -447,6 +463,22 @@ lessons:
     type: learn
     lexeme: p12-grenets
   - id: p12-l2-09
+    type: dialogue
+    scene: שואלים בדרך
+    lines:
+    - speaker: menachem
+      text: רעכטס אָדער לינקס, זיידע?
+      translation: ימינה או שמאלה, סבא?
+    - speaker: zeyde
+      text: גלײַך, און בײַם ווינקל — לינקס. דער באַגאַזש איז שווער.
+      translation: ישר, ובפינה — שמאלה. המזוודה כבדה.
+    - speaker: menachem
+      text: מיט אַ פּאַס און אַ גרענעץ?
+      translation: עם דרכון וגבול?
+    - speaker: zeyde
+      text: יאָ, אויפֿן גרענעץ פֿון אַ לאַנד דאַרף מען אַ פּאַס.
+      translation: כן, בגבול של מדינה צריך דרכון.
+  - id: p12-l2-10
     type: match_pairs
     pairs:
     - - ווײַט
@@ -462,7 +494,7 @@ lessons:
     - p12-links
     - p12-rekhts
     - p12-glaykh
-  - id: p12-l2-10
+  - id: p12-l2-11
     type: match_pairs
     pairs:
     - - ווינקל
@@ -478,7 +510,7 @@ lessons:
     - p12-bagazh
     - p12-pas
     - p12-grenets
-  - id: p12-l2-11
+  - id: p12-l2-12
     type: multiple_choice
     prompt: מה פירוש ווײַט?
     options:
@@ -488,7 +520,7 @@ lessons:
     correct: 0
     lexemes:
     - p12-vayt
-  - id: p12-l2-12
+  - id: p12-l2-13
     type: multiple_choice
     prompt: 'איזו מילה מתאימה ל: שמאלה?'
     options:
@@ -498,7 +530,7 @@ lessons:
     correct: 0
     lexemes:
     - p12-links
-  - id: p12-l2-13
+  - id: p12-l2-14
     type: multiple_choice
     prompt: מה פירוש רעכטס?
     options:
@@ -508,7 +540,7 @@ lessons:
     correct: 0
     lexemes:
     - p12-rekhts
-  - id: p12-l2-14
+  - id: p12-l2-15
     type: multiple_choice
     prompt: 'איזו מילה מתאימה ל: ישר?'
     options:
@@ -518,7 +550,7 @@ lessons:
     correct: 0
     lexemes:
     - p12-glaykh
-  - id: p12-l2-15
+  - id: p12-l2-16
     type: multiple_choice
     prompt: מה פירוש ווינקל?
     options:
@@ -528,7 +560,7 @@ lessons:
     correct: 0
     lexemes:
     - p12-vinkl
-  - id: p12-l2-16
+  - id: p12-l2-17
     type: multiple_choice
     prompt: 'איזו מילה מתאימה ל: מטען?'
     options:
@@ -538,7 +570,7 @@ lessons:
     correct: 0
     lexemes:
     - p12-bagazh
-  - id: p12-l2-17
+  - id: p12-l2-18
     type: multiple_choice
     prompt: מה פירוש פּאַס?
     options:
@@ -548,7 +580,7 @@ lessons:
     correct: 0
     lexemes:
     - p12-pas
-  - id: p12-l2-18
+  - id: p12-l2-19
     type: multiple_choice
     prompt: 'איזו מילה מתאימה ל: גבול?'
     options:
@@ -558,7 +590,7 @@ lessons:
     correct: 0
     lexemes:
     - p12-grenets
-  - id: p12-l2-19
+  - id: p12-l2-20
     type: fill_blank
     sentence: דאָס איז ___.
     translation: זה רחוק
@@ -570,7 +602,7 @@ lessons:
     - אַראָפּגיין
     lexemes:
     - p12-vayt
-  - id: p12-l2-20
+  - id: p12-l2-21
     type: fill_blank
     sentence: איך גיי ___.
     translation: אני הולך שמאלה
@@ -582,7 +614,7 @@ lessons:
     - באַצאָלן
     lexemes:
     - p12-links
-  - id: p12-l2-21
+  - id: p12-l2-22
     type: fill_blank
     sentence: איך גיי ___.
     translation: אני הולך ימינה
@@ -594,7 +626,7 @@ lessons:
     - אַרײַנגיין
     lexemes:
     - p12-rekhts
-  - id: p12-l2-22
+  - id: p12-l2-23
     type: fill_blank
     sentence: איך גיי ___.
     translation: אני הולך ישר
@@ -606,7 +638,7 @@ lessons:
     - פֿאַרקויפֿן
     lexemes:
     - p12-glaykh
-  - id: p12-l2-23
+  - id: p12-l2-24
     type: fill_blank
     sentence: איך זע אַ ___.
     translation: אני רואה פינה
@@ -618,7 +650,7 @@ lessons:
     - געשעפֿט
     lexemes:
     - p12-vinkl
-  - id: p12-l2-24
+  - id: p12-l2-25
     type: fill_blank
     sentence: איך האָב ___.
     translation: יש לי מטען
@@ -630,7 +662,7 @@ lessons:
     - קאַסע
     lexemes:
     - p12-bagazh
-  - id: p12-l2-25
+  - id: p12-l2-26
     type: fill_blank
     sentence: איך זע אַ ___.
     translation: אני רואה דרכון
@@ -642,7 +674,7 @@ lessons:
     - געשעפֿט
     lexemes:
     - p12-pas
-  - id: p12-l2-26
+  - id: p12-l2-27
     type: fill_blank
     sentence: איך זע אַ ___.
     translation: אני רואה גבול
@@ -685,6 +717,22 @@ lessons:
     type: learn
     lexeme: p12-aropgeyn
   - id: p12-l3-09
+    type: dialogue
+    scene: בתחנה ובדרך
+    lines:
+    - speaker: menachem
+      text: קוק אויף דער מאַפּע פֿון לאַנד. מיר קומען אָן אין צוויי שעה.
+      translation: תסתכל על המפה של המדינה. נגיע בעוד שעתיים.
+    - speaker: zeyde
+      text: מיר פֿאָרן אָפּ אַנדערן טאָג. מיר גייען אַרײַן אין באַן.
+      translation: נוסעים למחרת. נכנסים לרכבת.
+    - speaker: menachem
+      text: דאָרט גייען מיר אַרויס, אַרויף און אַראָפּ.
+      translation: שם יוצאים, עולים ויורדים.
+    - speaker: zeyde
+      text: גוט. לאָמיר גיין, מיר דאַרפֿן ניט פֿאַרשפּעטיקן.
+      translation: טוב. נלך, אסור לאחר.
+  - id: p12-l3-10
     type: match_pairs
     pairs:
     - - לאַנד
@@ -700,7 +748,7 @@ lessons:
     - p12-mape
     - p12-onkumen
     - p12-opforn
-  - id: p12-l3-10
+  - id: p12-l3-11
     type: match_pairs
     pairs:
     - - אַרײַנגיין
@@ -716,7 +764,7 @@ lessons:
     - p12-aroysgeyn
     - p12-aroifgeyn
     - p12-aropgeyn
-  - id: p12-l3-11
+  - id: p12-l3-12
     type: multiple_choice
     prompt: מה פירוש לאַנד?
     options:
@@ -726,7 +774,7 @@ lessons:
     correct: 0
     lexemes:
     - p12-land
-  - id: p12-l3-12
+  - id: p12-l3-13
     type: multiple_choice
     prompt: 'איזו מילה מתאימה ל: מפה?'
     options:
@@ -736,7 +784,7 @@ lessons:
     correct: 0
     lexemes:
     - p12-mape
-  - id: p12-l3-13
+  - id: p12-l3-14
     type: multiple_choice
     prompt: מה פירוש אָנקומען?
     options:
@@ -746,7 +794,7 @@ lessons:
     correct: 0
     lexemes:
     - p12-onkumen
-  - id: p12-l3-14
+  - id: p12-l3-15
     type: multiple_choice
     prompt: 'איזו מילה מתאימה ל: לצאת לדרך?'
     options:
@@ -756,7 +804,7 @@ lessons:
     correct: 0
     lexemes:
     - p12-opforn
-  - id: p12-l3-15
+  - id: p12-l3-16
     type: multiple_choice
     prompt: מה פירוש אַרײַנגיין?
     options:
@@ -766,7 +814,7 @@ lessons:
     correct: 0
     lexemes:
     - p12-araingeyn
-  - id: p12-l3-16
+  - id: p12-l3-17
     type: multiple_choice
     prompt: 'איזו מילה מתאימה ל: לצאת?'
     options:
@@ -776,7 +824,7 @@ lessons:
     correct: 0
     lexemes:
     - p12-aroysgeyn
-  - id: p12-l3-17
+  - id: p12-l3-18
     type: multiple_choice
     prompt: מה פירוש אַרויפֿגיין?
     options:
@@ -786,7 +834,7 @@ lessons:
     correct: 0
     lexemes:
     - p12-aroifgeyn
-  - id: p12-l3-18
+  - id: p12-l3-19
     type: multiple_choice
     prompt: 'איזו מילה מתאימה ל: לרדת?'
     options:
@@ -796,7 +844,7 @@ lessons:
     correct: 0
     lexemes:
     - p12-aropgeyn
-  - id: p12-l3-19
+  - id: p12-l3-20
     type: fill_blank
     sentence: איך זע אַ ___.
     translation: אני רואה מדינה
@@ -808,7 +856,7 @@ lessons:
     - פּאַס
     lexemes:
     - p12-land
-  - id: p12-l3-20
+  - id: p12-l3-21
     type: fill_blank
     sentence: איך זע אַ ___.
     translation: אני רואה מפה
@@ -820,7 +868,7 @@ lessons:
     - פּאַס
     lexemes:
     - p12-mape
-  - id: p12-l3-21
+  - id: p12-l3-22
     type: fill_blank
     sentence: איך וויל ___.
     translation: אני רוצה להגיע
@@ -832,7 +880,7 @@ lessons:
     - פֿאַרקויפֿן
     lexemes:
     - p12-onkumen
-  - id: p12-l3-22
+  - id: p12-l3-23
     type: fill_blank
     sentence: איך וויל ___.
     translation: אני רוצה לצאת לדרך
@@ -844,7 +892,7 @@ lessons:
     - פֿאַרקויפֿן
     lexemes:
     - p12-opforn
-  - id: p12-l3-23
+  - id: p12-l3-24
     type: fill_blank
     sentence: איך וויל ___.
     translation: אני רוצה להיכנס
@@ -856,7 +904,7 @@ lessons:
     - פֿאַרקויפֿן
     lexemes:
     - p12-araingeyn
-  - id: p12-l3-24
+  - id: p12-l3-25
     type: fill_blank
     sentence: איך וויל ___.
     translation: אני רוצה לצאת
@@ -868,7 +916,7 @@ lessons:
     - באַצאָלן
     lexemes:
     - p12-aroysgeyn
-  - id: p12-l3-25
+  - id: p12-l3-26
     type: fill_blank
     sentence: איך וויל ___.
     translation: אני רוצה לעלות
@@ -880,7 +928,7 @@ lessons:
     - באַצאָלן
     lexemes:
     - p12-aroifgeyn
-  - id: p12-l3-26
+  - id: p12-l3-27
     type: fill_blank
     sentence: איך וויל ___.
     translation: אני רוצה לרדת
