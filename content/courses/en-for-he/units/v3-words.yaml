@@ -1,294 +1,312 @@
 id: v3-words
 cefr: B2
-scene: study
+scene: travel
 title:
-  he: הרחבת אוצר מילים 3
-  en: Word builder 3
-story: עוד מילים חשובות בשימוש יומיומי, מקובצות בשיעורים קצרים. כל מילה מופיעה במשפט, ואחר כך מתרגלים אותה.
+  he: סבא שמעון מגיע ללונדון
+  en: Grandpa Shimon comes to London
+story: 'סבא שמעון, אבא של רחל, מגיע לבקר את נועה בלונדון. בשנות השישים הוא עבד כאן כנער במאפייה של מר לוי, ויש לו בקשה אחת: למצוא את המשפחה ולהחזיר להם ספר ששמר חמישים שנה.'
 canDo:
-- להבין ולהשתמש במילים נפוצות נוספות
-- לזהות את המילים במשפטים אמיתיים
+- לדבר על תוכניות, אפשרויות וקשיים
+- לספר על חיפוש בארכיונים ובאינטרנט
+- לתאר רחוב ישן ושינויים בעיר
 vocabulary:
 - id: apparently
   text: apparently
   translation: כנראה, לכאורה
   pos: adverb
   example:
-    text: Apparently, the shop is closed today.
-    translation: כנראה שהחנות סגורה היום.
+    text: Apparently, the bakery closed many years ago.
+    translation: מסתבר שהמאפייה נסגרה לפני שנים רבות.
 - id: artist
   text: artist
   translation: אמן, אמנית
   pos: noun
   example:
-    text: My sister is a talented artist.
-    translation: אחותי היא אמנית מוכשרת.
+    text: Mr. Levy's son became an artist.
+    translation: הבן של מר לוי נעשה אמן.
 - id: option
   text: option
   translation: אפשרות
   pos: noun
   example:
-    text: We have two options.
-    translation: יש לנו שתי אפשרויות.
+    text: The only option is to ask at the old shul.
+    translation: האפשרות היחידה היא לשאול בבית הכנסת הישן.
 - id: stone
   text: stone
   translation: אבן
   pos: noun
   example:
-    text: The old wall is made of stone.
-    translation: החומה העתיקה בנויה מאבן.
+    text: The bakery was in a stone building.
+    translation: המאפייה הייתה בבניין אבן.
 - id: wild
   text: wild
   translation: פראי
   pos: adjective
   example:
-    text: We saw wild flowers on the hill.
-    translation: ראינו פרחי בר על הגבעה.
+    text: Grandpa had wild hair when he was sixteen.
+    translation: לסבא היה שיער פרוע כשהיה בן שש־עשרה.
 - id: winner
   text: winner
   translation: מנצח, זוכה
   pos: noun
   example:
-    text: Who is the winner of the game?
-    translation: מי הזוכה במשחק?
+    text: Mr. Levy's bread was the winner of a local prize.
+    translation: הלחם של מר לוי זכה בפרס מקומי.
 - id: correct
   text: correct
   translation: נכון; לתקן
   pos: adjective
   example:
-    text: Your answer is correct.
-    translation: התשובה שלך נכונה.
+    text: Is this the correct address?
+    translation: זו הכתובת הנכונה?
 - id: extremely
   text: extremely
   translation: במיוחד
   pos: adverb
   example:
-    text: The test was extremely difficult.
-    translation: המבחן היה קשה במיוחד.
+    text: Grandpa is extremely excited.
+    translation: סבא נרגש מאוד.
 - id: handle
   text: handle
   translation: לטפל, להתמודד
   pos: verb
   example:
-    text: Can you handle this problem?
-    translation: אתה יכול לטפל בבעיה הזו?
+    text: Noa can handle the maps; Grandpa handles the stories.
+    translation: נועה יכולה לטפל במפות; סבא מטפל בסיפורים.
 - id: indeed
   text: indeed
   translation: אכן, באמת
   pos: adverb
   example:
-    text: It was indeed a great idea.
-    translation: זה אכן היה רעיון נהדר.
+    text: It was indeed a long journey.
+    translation: זה היה אכן מסע ארוך.
 - id: negative
   text: negative
   translation: שלילי
   pos: adjective
   example:
-    text: He has a negative attitude.
-    translation: יש לו גישה שלילית.
+    text: The first search gave a negative result.
+    translation: החיפוש הראשון נתן תוצאה שלילית.
 - id: trouble
   text: trouble
   translation: בעיה, צרה
   pos: noun
   example:
-    text: I am having trouble with my computer.
-    translation: יש לי בעיה עם המחשב.
+    text: Grandpa has trouble with the small letters on the screen.
+    translation: לסבא קשה עם האותיות הקטנות על המסך.
 - id: advantage
   text: advantage
   translation: יתרון
   pos: noun
   example:
-    text: Speaking English is a big advantage.
-    translation: לדעת אנגלית זה יתרון גדול.
+    text: Living near the archive is a big advantage.
+    translation: לגור ליד הארכיון זה יתרון גדול.
 - id: aware
   text: aware
   translation: מודע
   pos: adjective
   example:
-    text: Are you aware of the problem?
-    translation: האם אתה מודע לבעיה?
+    text: Were you aware that the street changed its name?
+    translation: ידעת שהרחוב שינה את שמו?
 - id: function
   text: function
   translation: תפקיד, פונקציה
   pos: noun
   example:
-    text: What is the function of this button?
-    translation: מה התפקיד של הכפתור הזה?
+    text: 'This button has only one function: search.'
+    translation: 'לכפתור הזה יש תפקיד אחד בלבד: חיפוש.'
 - id: influence
   text: influence
   translation: השפעה; להשפיע
   pos: noun
   example:
-    text: Parents have a big influence on children.
-    translation: להורים יש השפעה גדולה על ילדים.
+    text: Mr. Levy had a great influence on Grandpa.
+    translation: למר לוי הייתה השפעה גדולה על סבא.
 - id: length
   text: length
   translation: אורך
   pos: noun
   example:
-    text: What is the length of the table?
-    translation: מה אורך השולחן?
+    text: The length of the list surprised them.
+    translation: האורך של הרשימה הפתיע אותם.
 - id: possibly
   text: possibly
   translation: אולי, ייתכן
   pos: adverb
   example:
-    text: It could possibly rain tomorrow.
-    translation: ייתכן שיירד גשם מחר.
+    text: This could possibly be the right family.
+    translation: ייתכן שזו המשפחה הנכונה.
 - id: software
   text: software
   translation: תוכנה
   pos: noun
   example:
-    text: We need to update the software.
-    translation: אנחנו צריכים לעדכן את התוכנה.
+    text: Ben installed new software on the laptop.
+    translation: בן התקין תוכנה חדשה במחשב הנייד.
 - id: tough
   text: tough
   translation: קשה, חזק
   pos: adjective
   example:
-    text: It was a tough week at work.
-    translation: זה היה שבוע קשה בעבודה.
+    text: The search was tough, but they didn't give up.
+    translation: החיפוש היה קשה, אבל הם לא ויתרו.
 - id: request
   text: request
   translation: בקשה; לבקש
   pos: noun
   example:
-    text: I have a small request.
-    translation: יש לי בקשה קטנה.
+    text: Ben sent a request to the local archive.
+    translation: בן שלח בקשה לארכיון המקומי.
 - id: stick
   text: stick
   translation: מקל; להידבק
   pos: noun
   example:
-    text: The dog ran after the stick.
-    translation: הכלב רץ אחרי המקל.
+    text: Grandpa walked with a wooden stick.
+    translation: סבא הלך עם מקל עץ.
 - id: vehicle
   text: vehicle
   translation: רכב
   pos: noun
   example:
-    text: You need a large vehicle for the trip.
-    translation: צריך רכב גדול לטיול.
+    text: No vehicle can enter this street on Sunday.
+    translation: שום רכב לא יכול להיכנס לרחוב הזה ביום ראשון.
 - id: volume
   text: volume
   translation: עוצמת קול, כרך
   pos: noun
   example:
-    text: Please turn down the volume.
-    translation: אנא הנמיכו את העוצמה.
+    text: Please turn down the volume; Grandpa is resting.
+    translation: בבקשה תנמיך את עוצמת הקול; סבא נח.
 - id: beauty
   text: beauty
   translation: יופי
   pos: noun
   example:
-    text: We admired the beauty of the lake.
-    translation: התפעלנו מיופיו של האגם.
+    text: The beauty of the old building was still there.
+    translation: היופי של הבניין הישן עדיין היה שם.
 - id: concerned
   text: concerned
   translation: מודאג, קשור
   pos: adjective
   example:
-    text: I am concerned about the exam.
-    translation: אני מודאג לגבי המבחן.
+    text: Noa was concerned about her grandfather.
+    translation: נועה הייתה מודאגת לגבי סבא שלה.
 - id: develop
   text: develop
   translation: לפתח
   pos: verb
   example:
-    text: They want to develop a new app.
-    translation: הם רוצים לפתח אפליקציה חדשה.
+    text: The neighbourhood began to develop in the 1980s.
+    translation: השכונה התחילה להתפתח בשנות השמונים.
 - id: existing
   text: existing
   translation: קיים
   pos: adjective
   example:
-    text: We can use the existing equipment.
-    translation: אפשר להשתמש בציוד הקיים.
+    text: The existing wall is two hundred years old.
+    translation: הקיר הקיים בן מאתיים שנה.
 - id: farm
   text: farm
   translation: חווה
   pos: noun
   example:
-    text: My uncle has a farm in the north.
-    translation: לדוד שלי יש חווה בצפון.
+    text: The Levy family moved to a farm in Kent.
+    translation: משפחת לוי עברה לחווה בקנט.
 - id: file
   text: file
   translation: קובץ, תיק
   pos: noun
   example:
-    text: I saved the file on my computer.
-    translation: שמרתי את הקובץ במחשב.
+    text: The archive has a file on every building.
+    translation: לארכיון יש תיק על כל בניין.
 - id: roll
   text: roll
   translation: גליל, לחמנייה; להתגלגל
   pos: noun
   example:
-    text: I ate a roll with cheese.
-    translation: אכלתי לחמנייה עם גבינה.
+    text: Grandpa remembers the smell of a fresh roll.
+    translation: סבא זוכר את הריח של לחמנייה טרייה.
 - id: slightly
   text: slightly
   translation: במעט
   pos: adverb
   example:
-    text: The price is slightly higher this year.
-    translation: המחיר מעט גבוה יותר השנה.
+    text: The photo is slightly damaged.
+    translation: התמונה פגועה במקצת.
 - id: technical
   text: technical
   translation: טכני
   pos: adjective
   example:
-    text: We had a technical problem.
-    translation: הייתה לנו בעיה טכנית.
+    text: There was a technical problem with the printer.
+    translation: הייתה בעיה טכנית במדפסת.
 - id: treat
   text: treat
   translation: לטפל, לנהוג ב־
   pos: verb
   example:
-    text: Doctors treat many patients every day.
-    translation: רופאים מטפלים בהרבה חולים בכל יום.
+    text: The train tickets are my treat.
+    translation: כרטיסי הרכבת על חשבוני.
 - id: unique
   text: unique
   translation: ייחודי
   pos: adjective
   example:
-    text: Every snowflake is unique.
-    translation: כל פתית שלג ייחודית.
+    text: The book has a unique cover.
+    translation: לספר יש כריכה מיוחדת במינה.
 - id: reference
   text: reference
   translation: הפניה, המלצה
   pos: noun
   example:
-    text: He gave me a good reference.
-    translation: הוא נתן לי המלצה טובה.
+    text: The letter has a reference to a farm.
+    translation: במכתב יש הפניה לחווה.
 - id: alternative
   text: alternative
   translation: חלופה; חלופי
   pos: noun
   example:
-    text: Is there an alternative?
-    translation: האם יש חלופה?
+    text: Is there an alternative route to Kent?
+    translation: יש דרך חלופית לקנט?
 - id: sky
   text: sky
   translation: שמיים
   pos: noun
   example:
-    text: The sky is clear tonight.
-    translation: השמיים בהירים הלילה.
+    text: The sky over Kent was blue.
+    translation: השמיים מעל קנט היו כחולים.
 - id: valley
   text: valley
   translation: עמק
   pos: noun
   example:
-    text: The village is in a green valley.
-    translation: הכפר נמצא בעמק ירוק.
+    text: The farm is in a quiet valley.
+    translation: החווה נמצאת בעמק שקט.
 lessons:
 - id: v3-l1
   kind: new
   title:
-    he: מילים חדשות 1
-    en: New words 1
+    he: בשדה התעופה
+    en: At the airport
   exercises:
+  - id: v3-l1-d1
+    type: dialogue
+    scene: נמל התעופה הית׳רו. נועה מחכה לסבא שמעון.
+    lines:
+    - speaker: saba
+      text: Noa! Apparently your grandfather can still travel alone!
+      translation: נועה! מסתבר שסבא שלך עוד יכול לטוס לבד!
+    - speaker: noa
+      text: Indeed! Grandpa, why did you really come? Mum says you have a mission.
+      translation: בהחלט! סבא, למה באמת באת? אמא אומרת שיש לך משימה.
+    - speaker: saba
+      text: I have a book that isn't mine. I kept it for fifty years. It's extremely important to return it.
+      translation: יש לי ספר שאינו שלי. שמרתי אותו חמישים שנה. חשוב מאוד להחזיר אותו.
+    - speaker: noa
+      text: 'Then we have one option: we find the owner.'
+      translation: 'אז יש לנו אפשרות אחת: נמצא את הבעלים.'
+    lexemes: []
   - id: v3-l1-01
     type: learn
     lexeme: apparently
@@ -429,8 +447,8 @@ lessons:
     - winner
   - id: v3-l1-19
     type: fill_blank
-    sentence: The old wall is made of ___.
-    translation: החומה העתיקה בנויה מאבן.
+    sentence: The bakery was in a ___ building.
+    translation: המאפייה הייתה בבניין אבן.
     answers:
     - stone
     options:
@@ -441,8 +459,8 @@ lessons:
     - stone
   - id: v3-l1-20
     type: fill_blank
-    sentence: We saw ___ flowers on the hill.
-    translation: ראינו פרחי בר על הגבעה.
+    sentence: Grandpa had ___ hair when he was sixteen.
+    translation: לסבא היה שיער פרוע כשהיה בן שש־עשרה.
     answers:
     - wild
     options:
@@ -453,8 +471,8 @@ lessons:
     - wild
   - id: v3-l1-21
     type: fill_blank
-    sentence: Who is the ___ of the game?
-    translation: מי הזוכה במשחק?
+    sentence: Mr. Levy's bread was the ___ of a local prize.
+    translation: הלחם של מר לוי זכה בפרס מקומי.
     answers:
     - winner
     options:
@@ -465,8 +483,8 @@ lessons:
     - winner
   - id: v3-l1-22
     type: fill_blank
-    sentence: Your answer is ___.
-    translation: התשובה שלך נכונה.
+    sentence: Is this the ___ address?
+    translation: זו הכתובת הנכונה?
     answers:
     - correct
     options:
@@ -477,8 +495,8 @@ lessons:
     - correct
   - id: v3-l1-23
     type: fill_blank
-    sentence: The test was ___ difficult.
-    translation: המבחן היה קשה במיוחד.
+    sentence: Grandpa is ___ excited.
+    translation: סבא נרגש מאוד.
     answers:
     - extremely
     options:
@@ -489,8 +507,8 @@ lessons:
     - extremely
   - id: v3-l1-24
     type: fill_blank
-    sentence: Can you ___ this problem?
-    translation: אתה יכול לטפל בבעיה הזו?
+    sentence: Noa can ___ the maps; Grandpa handles the stories.
+    translation: נועה יכולה לטפל במפות; סבא מטפל בסיפורים.
     answers:
     - handle
     options:
@@ -501,8 +519,8 @@ lessons:
     - handle
   - id: v3-l1-25
     type: fill_blank
-    sentence: It was ___ a great idea.
-    translation: זה אכן היה רעיון נהדר.
+    sentence: It was ___ a long journey.
+    translation: זה היה אכן מסע ארוך.
     answers:
     - indeed
     options:
@@ -513,20 +531,37 @@ lessons:
     - indeed
   - id: v3-l1-26
     type: dictation
-    text: Can you handle this problem?
+    text: Noa can handle the maps; Grandpa handles the stories.
     lexemes:
     - handle
   - id: v3-l1-27
     type: dictation
-    text: It was indeed a great idea.
+    text: It was indeed a long journey.
     lexemes:
     - indeed
 - id: v3-l2
   kind: new
   title:
-    he: מילים חדשות 2
-    en: New words 2
+    he: מחפשים
+    en: Searching
   exercises:
+  - id: v3-l2-d1
+    type: dialogue
+    scene: בדירה של נועה. נועה, בן וסבא מול המחשב.
+    lines:
+    - speaker: ben
+      text: 'The archive software is tough, but it has one advantage: it searches old newspapers.'
+      translation: 'התוכנה של הארכיון קשה, אבל יש לה יתרון אחד: היא מחפשת בעיתונים ישנים.'
+    - speaker: saba
+      text: I'm not aware of any computers in 1965!
+      translation: אני לא מכיר שום מחשבים ב־1965!
+    - speaker: noa
+      text: Possibly there's a record of the bakery. Don't be so negative, Grandpa.
+      translation: אולי יש רישום של המאפייה. אל תהיה כל כך פסימי, סבא.
+    - speaker: saba
+      text: Negative? Me? I've had enough trouble in my life to stay positive.
+      translation: פסימי? אני? היו לי מספיק צרות בחיים כדי להישאר אופטימי.
+    lexemes: []
   - id: v3-l2-01
     type: learn
     lexeme: negative
@@ -667,8 +702,8 @@ lessons:
     - influence
   - id: v3-l2-19
     type: fill_blank
-    sentence: Are you ___ of the problem?
-    translation: האם אתה מודע לבעיה?
+    sentence: Were you ___ that the street changed its name?
+    translation: ידעת שהרחוב שינה את שמו?
     answers:
     - aware
     options:
@@ -679,8 +714,8 @@ lessons:
     - aware
   - id: v3-l2-20
     type: fill_blank
-    sentence: What is the ___ of this button?
-    translation: מה התפקיד של הכפתור הזה?
+    sentence: 'This button has only one ___: search.'
+    translation: 'לכפתור הזה יש תפקיד אחד בלבד: חיפוש.'
     answers:
     - function
     options:
@@ -691,8 +726,8 @@ lessons:
     - function
   - id: v3-l2-21
     type: fill_blank
-    sentence: Parents have a big ___ on children.
-    translation: להורים יש השפעה גדולה על ילדים.
+    sentence: Mr. Levy had a great ___ on Grandpa.
+    translation: למר לוי הייתה השפעה גדולה על סבא.
     answers:
     - influence
     options:
@@ -703,8 +738,8 @@ lessons:
     - influence
   - id: v3-l2-22
     type: fill_blank
-    sentence: What is the ___ of the table?
-    translation: מה אורך השולחן?
+    sentence: The ___ of the list surprised them.
+    translation: האורך של הרשימה הפתיע אותם.
     answers:
     - length
     options:
@@ -715,8 +750,8 @@ lessons:
     - length
   - id: v3-l2-23
     type: fill_blank
-    sentence: It could ___ rain tomorrow.
-    translation: ייתכן שיירד גשם מחר.
+    sentence: This could ___ be the right family.
+    translation: ייתכן שזו המשפחה הנכונה.
     answers:
     - possibly
     options:
@@ -727,8 +762,8 @@ lessons:
     - possibly
   - id: v3-l2-24
     type: fill_blank
-    sentence: We need to update the ___.
-    translation: אנחנו צריכים לעדכן את התוכנה.
+    sentence: Ben installed new ___ on the laptop.
+    translation: בן התקין תוכנה חדשה במחשב הנייד.
     answers:
     - software
     options:
@@ -739,8 +774,8 @@ lessons:
     - software
   - id: v3-l2-25
     type: fill_blank
-    sentence: It was a ___ week at work.
-    translation: זה היה שבוע קשה בעבודה.
+    sentence: The search was ___, but they didn't give up.
+    translation: החיפוש היה קשה, אבל הם לא ויתרו.
     answers:
     - tough
     options:
@@ -751,20 +786,37 @@ lessons:
     - tough
   - id: v3-l2-26
     type: dictation
-    text: We need to update the software.
+    text: Ben installed new software on the laptop.
     lexemes:
     - software
   - id: v3-l2-27
     type: dictation
-    text: It was a tough week at work.
+    text: The search was tough, but they didn't give up.
     lexemes:
     - tough
 - id: v3-l3
   kind: new
   title:
-    he: מילים חדשות 3
-    en: New words 3
+    he: הרחוב הישן
+    en: The old street
   exercises:
+  - id: v3-l3-d1
+    type: dialogue
+    scene: רחוב באיסט אנד. היום יש בו בנייני משרדים.
+    lines:
+    - speaker: saba
+      text: Here! The bakery was here. Now it's an office with glass walls.
+      translation: כאן! המאפייה הייתה כאן. עכשיו יש פה משרד עם קירות זכוכית.
+    - speaker: noa
+      text: I'm concerned you're disappointed.
+      translation: אני מודאגת שאתה מאוכזב.
+    - speaker: saba
+      text: 'The city has to develop. But look: the existing stone above the door, with a Star of David.'
+      translation: 'העיר צריכה להתפתח. אבל תראי: האבן הקיימת מעל הדלת, עם מגן דוד.'
+    - speaker: ben
+      text: I'll make a request at the local archive. Maybe they have a file on the building.
+      translation: אגיש בקשה בארכיון המקומי. אולי יש להם תיק על הבניין.
+    lexemes: []
   - id: v3-l3-01
     type: learn
     lexeme: request
@@ -905,8 +957,8 @@ lessons:
     - concerned
   - id: v3-l3-19
     type: fill_blank
-    sentence: Please turn down the ___.
-    translation: אנא הנמיכו את העוצמה.
+    sentence: Please turn down the ___; Grandpa is resting.
+    translation: בבקשה תנמיך את עוצמת הקול; סבא נח.
     answers:
     - volume
     options:
@@ -917,8 +969,8 @@ lessons:
     - volume
   - id: v3-l3-20
     type: fill_blank
-    sentence: We admired the ___ of the lake.
-    translation: התפעלנו מיופיו של האגם.
+    sentence: The ___ of the old building was still there.
+    translation: היופי של הבניין הישן עדיין היה שם.
     answers:
     - beauty
     options:
@@ -929,8 +981,8 @@ lessons:
     - beauty
   - id: v3-l3-21
     type: fill_blank
-    sentence: I am ___ about the exam.
-    translation: אני מודאג לגבי המבחן.
+    sentence: Noa was ___ about her grandfather.
+    translation: נועה הייתה מודאגת לגבי סבא שלה.
     answers:
     - concerned
     options:
@@ -941,8 +993,8 @@ lessons:
     - concerned
   - id: v3-l3-22
     type: fill_blank
-    sentence: They want to ___ a new app.
-    translation: הם רוצים לפתח אפליקציה חדשה.
+    sentence: The neighbourhood began to ___ in the 1980s.
+    translation: השכונה התחילה להתפתח בשנות השמונים.
     answers:
     - develop
     options:
@@ -953,8 +1005,8 @@ lessons:
     - develop
   - id: v3-l3-23
     type: fill_blank
-    sentence: We can use the ___ equipment.
-    translation: אפשר להשתמש בציוד הקיים.
+    sentence: The ___ wall is two hundred years old.
+    translation: הקיר הקיים בן מאתיים שנה.
     answers:
     - existing
     options:
@@ -965,8 +1017,8 @@ lessons:
     - existing
   - id: v3-l3-24
     type: fill_blank
-    sentence: My uncle has a ___ in the north.
-    translation: לדוד שלי יש חווה בצפון.
+    sentence: The Levy family moved to a ___ in Kent.
+    translation: משפחת לוי עברה לחווה בקנט.
     answers:
     - farm
     options:
@@ -977,8 +1029,8 @@ lessons:
     - farm
   - id: v3-l3-25
     type: fill_blank
-    sentence: I saved the ___ on my computer.
-    translation: שמרתי את הקובץ במחשב.
+    sentence: The archive has a ___ on every building.
+    translation: לארכיון יש תיק על כל בניין.
     answers:
     - file
     options:
@@ -989,20 +1041,37 @@ lessons:
     - file
   - id: v3-l3-26
     type: dictation
-    text: My uncle has a farm in the north.
+    text: The Levy family moved to a farm in Kent.
     lexemes:
     - farm
   - id: v3-l3-27
     type: dictation
-    text: I saved the file on my computer.
+    text: The archive has a file on every building.
     lexemes:
     - file
 - id: v3-l4
   kind: new
   title:
-    he: מילים חדשות 4
-    en: New words 4
+    he: רמז
+    en: A clue
   exercises:
+  - id: v3-l4-d1
+    type: dialogue
+    scene: בארכיון. מגיע מייל עם תשובה.
+    lines:
+    - speaker: ben
+      text: The file has a reference to a farm in a green valley in Kent.
+      translation: בתיק יש הפניה לחווה בעמק ירוק בקנט.
+    - speaker: saba
+      text: A farm? Mr. Levy always said he wanted a place under a big sky.
+      translation: חווה? מר לוי תמיד אמר שהוא רוצה מקום תחת שמיים גדולים.
+    - speaker: noa
+      text: 'There''s no alternative: we''re going to Kent on Sunday!'
+      translation: 'אין ברירה אחרת: אנחנו נוסעים לקנט ביום ראשון!'
+    - speaker: saba
+      text: My treat. I'm buying the train tickets.
+      translation: על חשבוני. אני קונה את כרטיסי הרכבת.
+    lexemes: []
   - id: v3-l4-01
     type: learn
     lexeme: roll
@@ -1136,8 +1205,8 @@ lessons:
     - reference
   - id: v3-l4-18
     type: fill_blank
-    sentence: Doctors ___ many patients every day.
-    translation: רופאים מטפלים בהרבה חולים בכל יום.
+    sentence: The train tickets are my ___.
+    translation: כרטיסי הרכבת על חשבוני.
     answers:
     - treat
     options:
@@ -1148,8 +1217,8 @@ lessons:
     - treat
   - id: v3-l4-19
     type: fill_blank
-    sentence: Every snowflake is ___.
-    translation: כל פתית שלג ייחודית.
+    sentence: The book has a ___ cover.
+    translation: לספר יש כריכה מיוחדת במינה.
     answers:
     - unique
     options:
@@ -1160,8 +1229,8 @@ lessons:
     - unique
   - id: v3-l4-20
     type: fill_blank
-    sentence: He gave me a good ___.
-    translation: הוא נתן לי המלצה טובה.
+    sentence: The letter has a ___ to a farm.
+    translation: במכתב יש הפניה לחווה.
     answers:
     - reference
     options:
@@ -1172,8 +1241,8 @@ lessons:
     - reference
   - id: v3-l4-21
     type: fill_blank
-    sentence: Is there an ___?
-    translation: האם יש חלופה?
+    sentence: Is there an ___ route to Kent?
+    translation: יש דרך חלופית לקנט?
     answers:
     - alternative
     options:
@@ -1184,8 +1253,8 @@ lessons:
     - alternative
   - id: v3-l4-22
     type: fill_blank
-    sentence: The ___ is clear tonight.
-    translation: השמיים בהירים הלילה.
+    sentence: The ___ over Kent was blue.
+    translation: השמיים מעל קנט היו כחולים.
     answers:
     - sky
     options:
@@ -1196,8 +1265,8 @@ lessons:
     - sky
   - id: v3-l4-23
     type: fill_blank
-    sentence: The village is in a green ___.
-    translation: הכפר נמצא בעמק ירוק.
+    sentence: The farm is in a quiet ___.
+    translation: החווה נמצאת בעמק שקט.
     answers:
     - valley
     options:
@@ -1208,11 +1277,11 @@ lessons:
     - valley
   - id: v3-l4-24
     type: dictation
-    text: The sky is clear tonight.
+    text: The sky over Kent was blue.
     lexemes:
     - sky
   - id: v3-l4-25
     type: dictation
-    text: The village is in a green valley.
+    text: The farm is in a quiet valley.
     lexemes:
     - valley

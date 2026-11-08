@@ -1,294 +1,312 @@
 id: v2-words
 cefr: B1
-scene: study
+scene: town
 title:
-  he: הרחבת אוצר מילים 2
-  en: Word builder 2
-story: עוד מילים חשובות בשימוש יומיומי, מקובצות בשיעורים קצרים. כל מילה מופיעה במשפט, ואחר כך מתרגלים אותה.
+  he: מסתדרים בלונדון
+  en: Settling in London
+story: 'נועה מסתדרת בלונדון: פותחת חשבון בבנק, לומדת לנסוע ברכבת התחתית, ונוסעת עם הצוות ליום ראשון בחוף הים. לפני שהיא מתחילה בעבודה, יש עוד הרבה מה ללמוד.'
 canDo:
-- להבין ולהשתמש במילים נפוצות נוספות
-- לזהות את המילים במשפטים אמיתיים
+- לדבר על בנק, טפסים ובקשות
+- לדבר על תחבורה וטיולים
+- לספר על זיכרונות ועל חוויות חדשות
 vocabulary:
 - id: theory
   text: theory
   translation: תיאוריה
   pos: noun
   example:
-    text: This theory explains the results.
-    translation: התיאוריה הזו מסבירה את התוצאות.
+    text: In theory, the form is simple.
+    translation: בתיאוריה, הטופס פשוט.
 - id: catch
   text: catch
   translation: לתפוס
   pos: verb
   example:
-    text: Try to catch the ball.
-    translation: נסו לתפוס את הכדור.
+    text: Noa ran to catch the bus.
+    translation: נועה רצה לתפוס את האוטובוס.
 - id: coast
   text: coast
   translation: חוף, קו חוף
   pos: noun
   example:
-    text: We drove along the coast.
-    translation: נסענו לאורך החוף.
+    text: On Sunday the team drove to the coast.
+    translation: ביום ראשון הצוות נסע לחוף.
 - id: economy
   text: economy
   translation: כלכלה
   pos: noun
   example:
-    text: The economy is growing slowly.
-    translation: הכלכלה צומחת לאט.
+    text: The bank clerk talked about the British economy.
+    translation: פקיד הבנק דיבר על הכלכלה הבריטית.
 - id: mission
   text: mission
   translation: משימה
   pos: noun
   example:
-    text: Our mission is to help students.
-    translation: המשימה שלנו היא לעזור לתלמידים.
+    text: 'Her mission this week: open a bank account.'
+    translation: 'המשימה שלה השבוע: לפתוח חשבון בנק.'
 - id: application
   text: application
   translation: בקשה, אפליקציה
   pos: noun
   example:
-    text: I sent my application yesterday.
-    translation: שלחתי את הבקשה שלי אתמול.
+    text: She filled in the application in English.
+    translation: היא מילאה את הבקשה באנגלית.
 - id: condition
   text: condition
   translation: מצב, תנאי
   pos: noun
   example:
-    text: The car is in good condition.
-    translation: המכונית במצב טוב.
+    text: The flat is in good condition.
+    translation: הדירה במצב טוב.
 - id: freedom
   text: freedom
   translation: חופש
   pos: noun
   example:
-    text: Freedom of speech is important.
-    translation: חופש הביטוי חשוב.
+    text: Living alone gives Noa a lot of freedom.
+    translation: החיים לבד נותנים לנועה הרבה חופש.
 - id: attempt
   text: attempt
   translation: ניסיון; לנסות
   pos: noun
   example:
-    text: It was a good attempt.
-    translation: זה היה ניסיון טוב.
+    text: On her second attempt, the card worked.
+    translation: בניסיון השני, הכרטיס עבד.
 - id: channel
   text: channel
   translation: ערוץ
   pos: noun
   example:
-    text: Change the channel, please.
-    translation: החלף ערוץ, בבקשה.
+    text: She found a news channel in Hebrew.
+    translation: היא מצאה ערוץ חדשות בעברית.
 - id: protection
   text: protection
   translation: הגנה
   pos: noun
   example:
-    text: Wear a hat for protection from the sun.
-    translation: חבשו כובע להגנה מהשמש.
+    text: Take an umbrella for protection from the rain.
+    translation: קחי מטרייה להגנה מהגשם.
 - id: ride
   text: ride
   translation: נסיעה; לרכב
   pos: noun
   example:
-    text: Thanks for the ride home.
-    translation: תודה על הנסיעה הביתה.
+    text: The ride to the office takes forty minutes.
+    translation: הנסיעה למשרד לוקחת ארבעים דקות.
 - id: serve
   text: serve
   translation: להגיש, לשרת
   pos: verb
   example:
-    text: They serve breakfast until ten.
-    translation: הם מגישים ארוחת בוקר עד עשר.
+    text: Does the café near the station serve kosher food?
+    translation: האם בית הקפה ליד התחנה מגיש אוכל כשר?
 - id: speech
   text: speech
   translation: נאום
   pos: noun
   example:
-    text: He gave a short speech at the wedding.
-    translation: הוא נשא נאום קצר בחתונה.
+    text: The manager gave a short speech to the new team.
+    translation: המנהל נשא נאום קצר לצוות החדש.
 - id: partner
   text: partner
   translation: שותף
   pos: noun
   example:
-    text: My business partner lives in Haifa.
-    translation: השותף העסקי שלי גר בחיפה.
+    text: Ben is Noa's partner on the project.
+    translation: בן הוא השותף של נועה בפרויקט.
 - id: structure
   text: structure
   translation: מבנה
   pos: noun
   example:
-    text: The structure of the building is old.
-    translation: המבנה של הבניין ישן.
+    text: The structure of the Tube map is simple.
+    translation: המבנה של מפת הרכבת פשוט.
 - id: traditional
   text: traditional
   translation: מסורתי
   pos: adjective
   example:
-    text: We ate a traditional dinner.
-    translation: אכלנו ארוחת ערב מסורתית.
+    text: They ate a traditional English breakfast with eggs and beans.
+    translation: הם אכלו ארוחת בוקר אנגלית מסורתית עם ביצים ושעועית.
 - id: brand
   text: brand
   translation: מותג
   pos: noun
   example:
-    text: This brand is very popular.
-    translation: המותג הזה מאוד פופולרי.
+    text: Which brand of tea do you like?
+    translation: איזה מותג תה אתה אוהב?
 - id: critical
   text: critical
   translation: קריטי, ביקורתי
   pos: adjective
   example:
-    text: It is critical to finish on time.
-    translation: קריטי לסיים בזמן.
+    text: It is critical to arrive on time.
+    translation: קריטי להגיע בזמן.
 - id: digital
   text: digital
   translation: דיגיטלי
   pos: adjective
   example:
-    text: I bought a digital camera.
-    translation: קניתי מצלמה דיגיטלית.
+    text: She paid with a digital card.
+    translation: היא שילמה בכרטיס דיגיטלי.
 - id: mental
   text: mental
   translation: נפשי, מנטלי
   pos: adjective
   example:
-    text: Sleep is important for mental health.
-    translation: שינה חשובה לבריאות הנפש.
+    text: Moving is a mental challenge as well.
+    translation: מעבר הוא גם אתגר נפשי.
 - id: mouth
   text: mouth
   translation: פה
   pos: noun
   example:
-    text: Open your mouth, please.
-    translation: פתחו את הפה, בבקשה.
+    text: The cake melted in her mouth.
+    translation: העוגה נמסה לה בפה.
 - id: realize
   text: realize
   translation: להבין, לשים לב
   pos: verb
   example:
-    text: I did not realize it was so late.
-    translation: לא שמתי לב שזה כל כך מאוחר.
+    text: Noa didn't realize how tired she was.
+    translation: נועה לא הבינה כמה היא עייפה.
 - id: remain
   text: remain
   translation: להישאר
   pos: verb
   example:
-    text: Please remain seated.
-    translation: אנא הישארו במקומותיכם.
+    text: Please remain on the train until the last stop.
+    translation: בבקשה הישארו ברכבת עד התחנה האחרונה.
 - id: scale
   text: scale
   translation: קנה מידה, סולם
   pos: noun
   example:
-    text: On a scale of one to ten, I give it nine.
-    translation: בסולם של אחת עד עשר, אני נותן לזה תשע.
+    text: The scale of the city surprised her.
+    translation: גודלה של העיר הפתיע אותה.
 - id: score
   text: score
   translation: ציון, תוצאה
   pos: noun
   example:
-    text: What was the final score?
-    translation: מה הייתה התוצאה הסופית?
+    text: Eli got the best score in the game.
+    translation: אלי השיג את התוצאה הכי טובה במשחק.
 - id: separate
   text: separate
   translation: נפרד; להפריד
   pos: adjective
   example:
-    text: We have separate rooms.
-    translation: יש לנו חדרים נפרדים.
+    text: Keep the meat and milk dishes separate.
+    translation: תשמרי את כלי הבשר והחלב נפרדים.
 - id: surface
   text: surface
   translation: משטח, פני השטח
   pos: noun
   example:
-    text: The surface of the table is clean.
-    translation: משטח השולחן נקי.
+    text: The surface of the sea was calm.
+    translation: פני הים היו רגועים.
 - id: throw
   text: throw
   translation: לזרוק
   pos: verb
   example:
-    text: Do not throw paper on the floor.
-    translation: אל תזרקו נייר על הרצפה.
+    text: Don't throw the bread; give it to the birds.
+    translation: אל תזרוק את הלחם; תן אותו לציפורים.
 - id: fashion
   text: fashion
   translation: אופנה
   pos: noun
   example:
-    text: She works in the fashion industry.
-    translation: היא עובדת בתעשיית האופנה.
+    text: London fashion is very different from Tel Aviv.
+    translation: האופנה בלונדון שונה מאוד מתל אביב.
 - id: hill
   text: hill
   translation: גבעה
   pos: noun
   example:
-    text: Our house is on a hill.
-    translation: הבית שלנו על גבעה.
+    text: There is a green hill behind the station.
+    translation: יש גבעה ירוקה מאחורי התחנה.
 - id: metal
   text: metal
   translation: מתכת
   pos: noun
   example:
-    text: The box is made of metal.
-    translation: הקופסה עשויה ממתכת.
+    text: The bench is made of metal.
+    translation: הספסל עשוי ממתכת.
 - id: profile
   text: profile
   translation: פרופיל
   pos: noun
   example:
-    text: Please update your profile.
-    translation: אנא עדכנו את הפרופיל שלכם.
+    text: Noa updated her profile on the work website.
+    translation: נועה עדכנה את הפרופיל שלה באתר העבודה.
 - id: pull
   text: pull
   translation: למשוך
   pos: verb
   example:
     text: Pull the door, don't push it.
-    translation: משכו את הדלת, אל תדחפו.
+    translation: תמשכי את הדלת, אל תדחפי אותה.
 - id: target
   text: target
   translation: יעד, מטרה
   pos: noun
   example:
-    text: We reached our target this month.
-    translation: הגענו ליעד שלנו החודש.
+    text: Her target is to speak English like a Londoner.
+    translation: המטרה שלה היא לדבר אנגלית כמו לונדונית.
 - id: memory
   text: memory
   translation: זיכרון
   pos: noun
   example:
-    text: I have a good memory for faces.
-    translation: יש לי זיכרון טוב לפרצופים.
+    text: The smell of challah brought back a memory of home.
+    translation: ריח החלה העלה זיכרון מהבית.
 - id: supply
   text: supply
   translation: אספקה; לספק
   pos: noun
   example:
-    text: We need a new supply of paper.
-    translation: אנחנו צריכים אספקה חדשה של נייר.
+    text: The kosher shop gets a new supply every Thursday.
+    translation: החנות הכשרה מקבלת אספקה חדשה בכל יום חמישי.
 - id: weird
   text: weird
   translation: מוזר
   pos: adjective
   example:
-    text: That is a weird noise.
-    translation: זה רעש מוזר.
+    text: It's weird to see cars on the left side of the road.
+    translation: מוזר לראות מכוניות בצד שמאל של הכביש.
 - id: variety
   text: variety
   translation: מגוון
   pos: noun
   example:
-    text: The shop sells a variety of cheese.
-    translation: החנות מוכרת מגוון גבינות.
+    text: The market has a great variety of fruit.
+    translation: בשוק יש מבחר גדול של פירות.
 lessons:
 - id: v2-l1
   kind: new
   title:
-    he: מילים חדשות 1
-    en: New words 1
+    he: בבנק
+    en: At the bank
   exercises:
+  - id: v2-l1-d1
+    type: dialogue
+    scene: נועה ובן בבנק. נועה פותחת חשבון.
+    lines:
+    - speaker: noa
+      text: I need to fill in an application to open an account.
+      translation: אני צריכה למלא בקשה לפתוח חשבון.
+    - speaker: ben
+      text: In theory it takes ten minutes. In reality, an hour.
+      translation: בתיאוריה זה לוקח עשר דקות. במציאות, שעה.
+    - speaker: noa
+      text: 'There''s one condition: a letter from my employer.'
+      translation: 'יש תנאי אחד: מכתב מהמעסיק שלי.'
+    - speaker: ben
+      text: This is your first attempt. Don't worry, you'll catch on fast.
+      translation: זה הניסיון הראשון שלך. אל תדאגי, תקלטי מהר.
+    lexemes: []
   - id: v2-l1-01
     type: learn
     lexeme: theory
@@ -429,8 +447,8 @@ lessons:
     - application
   - id: v2-l1-19
     type: fill_blank
-    sentence: The ___ is growing slowly.
-    translation: הכלכלה צומחת לאט.
+    sentence: The bank clerk talked about the British ___.
+    translation: פקיד הבנק דיבר על הכלכלה הבריטית.
     answers:
     - economy
     options:
@@ -441,8 +459,8 @@ lessons:
     - economy
   - id: v2-l1-20
     type: fill_blank
-    sentence: Our ___ is to help students.
-    translation: המשימה שלנו היא לעזור לתלמידים.
+    sentence: 'Her ___ this week: open a bank account.'
+    translation: 'המשימה שלה השבוע: לפתוח חשבון בנק.'
     answers:
     - mission
     options:
@@ -453,8 +471,8 @@ lessons:
     - mission
   - id: v2-l1-21
     type: fill_blank
-    sentence: I sent my ___ yesterday.
-    translation: שלחתי את הבקשה שלי אתמול.
+    sentence: She filled in the ___ in English.
+    translation: היא מילאה את הבקשה באנגלית.
     answers:
     - application
     options:
@@ -465,8 +483,8 @@ lessons:
     - application
   - id: v2-l1-22
     type: fill_blank
-    sentence: The car is in good ___.
-    translation: המכונית במצב טוב.
+    sentence: The flat is in good ___.
+    translation: הדירה במצב טוב.
     answers:
     - condition
     options:
@@ -477,8 +495,8 @@ lessons:
     - condition
   - id: v2-l1-23
     type: fill_blank
-    sentence: ___ of speech is important.
-    translation: חופש הביטוי חשוב.
+    sentence: Living alone gives Noa a lot of ___.
+    translation: החיים לבד נותנים לנועה הרבה חופש.
     answers:
     - Freedom
     options:
@@ -489,8 +507,8 @@ lessons:
     - freedom
   - id: v2-l1-24
     type: fill_blank
-    sentence: It was a good ___.
-    translation: זה היה ניסיון טוב.
+    sentence: On her second ___, the card worked.
+    translation: בניסיון השני, הכרטיס עבד.
     answers:
     - attempt
     options:
@@ -501,8 +519,8 @@ lessons:
     - attempt
   - id: v2-l1-25
     type: fill_blank
-    sentence: Change the ___, please.
-    translation: החלף ערוץ, בבקשה.
+    sentence: She found a news ___ in Hebrew.
+    translation: היא מצאה ערוץ חדשות בעברית.
     answers:
     - channel
     options:
@@ -513,20 +531,37 @@ lessons:
     - channel
   - id: v2-l1-26
     type: dictation
-    text: It was a good attempt.
+    text: On her second attempt, the card worked.
     lexemes:
     - attempt
   - id: v2-l1-27
     type: dictation
-    text: Change the channel, please.
+    text: She found a news channel in Hebrew.
     lexemes:
     - channel
 - id: v2-l2
   kind: new
   title:
-    he: מילים חדשות 2
-    en: New words 2
+    he: ברכבת התחתית
+    en: On the Underground
   exercises:
+  - id: v2-l2-d1
+    type: dialogue
+    scene: ברכבת התחתית. בן מלמד את נועה להתמצא.
+    lines:
+    - speaker: ben
+      text: The Tube is the traditional way to get around London.
+      translation: הרכבת התחתית היא הדרך המסורתית להסתובב בלונדון.
+    - speaker: noa
+      text: It's a ride of forty minutes to the office!
+      translation: זו נסיעה של ארבעים דקות למשרד!
+    - speaker: ben
+      text: Use the digital card; it's critical to tap out too.
+      translation: תשתמשי בכרטיס הדיגיטלי; חשוב מאוד להחתים גם ביציאה.
+    - speaker: noa
+      text: You're a good partner for this mission.
+      translation: אתה שותף טוב למשימה הזאת.
+    lexemes: []
   - id: v2-l2-01
     type: learn
     lexeme: protection
@@ -667,8 +702,8 @@ lessons:
     - structure
   - id: v2-l2-19
     type: fill_blank
-    sentence: He gave a short ___ at the wedding.
-    translation: הוא נשא נאום קצר בחתונה.
+    sentence: The manager gave a short ___ to the new team.
+    translation: המנהל נשא נאום קצר לצוות החדש.
     answers:
     - speech
     options:
@@ -679,8 +714,8 @@ lessons:
     - speech
   - id: v2-l2-20
     type: fill_blank
-    sentence: My business ___ lives in Haifa.
-    translation: השותף העסקי שלי גר בחיפה.
+    sentence: Ben is Noa's ___ on the project.
+    translation: בן הוא השותף של נועה בפרויקט.
     answers:
     - partner
     options:
@@ -691,8 +726,8 @@ lessons:
     - partner
   - id: v2-l2-21
     type: fill_blank
-    sentence: The ___ of the building is old.
-    translation: המבנה של הבניין ישן.
+    sentence: The ___ of the Tube map is simple.
+    translation: המבנה של מפת הרכבת פשוט.
     answers:
     - structure
     options:
@@ -703,8 +738,8 @@ lessons:
     - structure
   - id: v2-l2-22
     type: fill_blank
-    sentence: We ate a ___ dinner.
-    translation: אכלנו ארוחת ערב מסורתית.
+    sentence: They ate a ___ English breakfast with eggs and beans.
+    translation: הם אכלו ארוחת בוקר אנגלית מסורתית עם ביצים ושעועית.
     answers:
     - traditional
     options:
@@ -715,8 +750,8 @@ lessons:
     - traditional
   - id: v2-l2-23
     type: fill_blank
-    sentence: This ___ is very popular.
-    translation: המותג הזה מאוד פופולרי.
+    sentence: Which ___ of tea do you like?
+    translation: איזה מותג תה אתה אוהב?
     answers:
     - brand
     options:
@@ -727,8 +762,8 @@ lessons:
     - brand
   - id: v2-l2-24
     type: fill_blank
-    sentence: It is ___ to finish on time.
-    translation: קריטי לסיים בזמן.
+    sentence: It is ___ to arrive on time.
+    translation: קריטי להגיע בזמן.
     answers:
     - critical
     options:
@@ -739,8 +774,8 @@ lessons:
     - critical
   - id: v2-l2-25
     type: fill_blank
-    sentence: I bought a ___ camera.
-    translation: קניתי מצלמה דיגיטלית.
+    sentence: She paid with a ___ card.
+    translation: היא שילמה בכרטיס דיגיטלי.
     answers:
     - digital
     options:
@@ -751,20 +786,37 @@ lessons:
     - digital
   - id: v2-l2-26
     type: dictation
-    text: It is critical to finish on time.
+    text: It is critical to arrive on time.
     lexemes:
     - critical
   - id: v2-l2-27
     type: dictation
-    text: I bought a digital camera.
+    text: She paid with a digital card.
     lexemes:
     - digital
 - id: v2-l3
   kind: new
   title:
-    he: מילים חדשות 3
-    en: New words 3
+    he: יום ראשון בחוף
+    en: Sunday at the coast
   exercises:
+  - id: v2-l3-d1
+    type: dialogue
+    scene: יום ראשון. הצוות נוסע לחוף בברייטון.
+    lines:
+    - speaker: eli
+      text: Let's throw stones into the sea. Who can get the best score?
+      translation: בואו נזרוק אבנים לים. מי ישיג את התוצאה הכי טובה?
+    - speaker: noa
+      text: I just realized I haven't relaxed in weeks.
+      translation: הרגע הבנתי שלא נחתי כבר שבועות.
+    - speaker: ben
+      text: That's the mental side of moving. It's normal.
+      translation: זה הצד הנפשי של מעבר. זה נורמלי.
+    - speaker: eli
+      text: Remain calm and eat your sandwich. Fashion in Brighton is weird, by the way.
+      translation: תישארי רגועה ותאכלי את הכריך. האופנה בברייטון מוזרה, דרך אגב.
+    lexemes: []
   - id: v2-l3-01
     type: learn
     lexeme: mental
@@ -905,8 +957,8 @@ lessons:
     - score
   - id: v2-l3-19
     type: fill_blank
-    sentence: Please ___ seated.
-    translation: אנא הישארו במקומותיכם.
+    sentence: Please ___ on the train until the last stop.
+    translation: בבקשה הישארו ברכבת עד התחנה האחרונה.
     answers:
     - remain
     options:
@@ -917,8 +969,8 @@ lessons:
     - remain
   - id: v2-l3-20
     type: fill_blank
-    sentence: On a ___ of one to ten, I give it nine.
-    translation: בסולם של אחת עד עשר, אני נותן לזה תשע.
+    sentence: The ___ of the city surprised her.
+    translation: גודלה של העיר הפתיע אותה.
     answers:
     - scale
     options:
@@ -929,8 +981,8 @@ lessons:
     - scale
   - id: v2-l3-21
     type: fill_blank
-    sentence: What was the final ___?
-    translation: מה הייתה התוצאה הסופית?
+    sentence: Eli got the best ___ in the game.
+    translation: אלי השיג את התוצאה הכי טובה במשחק.
     answers:
     - score
     options:
@@ -941,8 +993,8 @@ lessons:
     - score
   - id: v2-l3-22
     type: fill_blank
-    sentence: We have ___ rooms.
-    translation: יש לנו חדרים נפרדים.
+    sentence: Keep the meat and milk dishes ___.
+    translation: תשמרי את כלי הבשר והחלב נפרדים.
     answers:
     - separate
     options:
@@ -953,8 +1005,8 @@ lessons:
     - separate
   - id: v2-l3-23
     type: fill_blank
-    sentence: The ___ of the table is clean.
-    translation: משטח השולחן נקי.
+    sentence: The ___ of the sea was calm.
+    translation: פני הים היו רגועים.
     answers:
     - surface
     options:
@@ -965,8 +1017,8 @@ lessons:
     - surface
   - id: v2-l3-24
     type: fill_blank
-    sentence: Do not ___ paper on the floor.
-    translation: אל תזרקו נייר על הרצפה.
+    sentence: Don't ___ the bread; give it to the birds.
+    translation: אל תזרוק את הלחם; תן אותו לציפורים.
     answers:
     - throw
     options:
@@ -977,8 +1029,8 @@ lessons:
     - throw
   - id: v2-l3-25
     type: fill_blank
-    sentence: She works in the ___ industry.
-    translation: היא עובדת בתעשיית האופנה.
+    sentence: London ___ is very different from Tel Aviv.
+    translation: האופנה בלונדון שונה מאוד מתל אביב.
     answers:
     - fashion
     options:
@@ -989,20 +1041,37 @@ lessons:
     - fashion
   - id: v2-l3-26
     type: dictation
-    text: Do not throw paper on the floor.
+    text: Don't throw the bread; give it to the birds.
     lexemes:
     - throw
   - id: v2-l3-27
     type: dictation
-    text: She works in the fashion industry.
+    text: London fashion is very different from Tel Aviv.
     lexemes:
     - fashion
 - id: v2-l4
   kind: new
   title:
-    he: מילים חדשות 4
-    en: New words 4
+    he: זיכרונות
+    en: Memories
   exercises:
+  - id: v2-l4-d1
+    type: dialogue
+    scene: בערב, נועה מדברת בטלפון עם אמא.
+    lines:
+    - speaker: rachel
+      text: Do you remember the hill behind our house?
+      translation: את זוכרת את הגבעה מאחורי הבית שלנו?
+    - speaker: noa
+      text: Of course. That's a sweet memory. Here there's a hill with a metal bench.
+      translation: ברור. זה זיכרון מתוק. כאן יש גבעה עם ספסל מתכת.
+    - speaker: rachel
+      text: And the shops? Do they have a good variety?
+      translation: והחנויות? יש להן מבחר טוב?
+    - speaker: noa
+      text: 'A huge variety. It''s weird: I miss home, but I love it here.'
+      translation: 'מבחר ענק. זה מוזר: אני מתגעגעת הביתה, אבל אני אוהבת את המקום הזה.'
+    lexemes: []
   - id: v2-l4-01
     type: learn
     lexeme: hill
@@ -1137,7 +1206,7 @@ lessons:
   - id: v2-l4-18
     type: fill_blank
     sentence: ___ the door, don't push it.
-    translation: משכו את הדלת, אל תדחפו.
+    translation: תמשכי את הדלת, אל תדחפי אותה.
     answers:
     - Pull
     options:
@@ -1148,8 +1217,8 @@ lessons:
     - pull
   - id: v2-l4-19
     type: fill_blank
-    sentence: We reached our ___ this month.
-    translation: הגענו ליעד שלנו החודש.
+    sentence: Her ___ is to speak English like a Londoner.
+    translation: המטרה שלה היא לדבר אנגלית כמו לונדונית.
     answers:
     - target
     options:
@@ -1160,8 +1229,8 @@ lessons:
     - target
   - id: v2-l4-20
     type: fill_blank
-    sentence: I have a good ___ for faces.
-    translation: יש לי זיכרון טוב לפרצופים.
+    sentence: The smell of challah brought back a ___ of home.
+    translation: ריח החלה העלה זיכרון מהבית.
     answers:
     - memory
     options:
@@ -1172,8 +1241,8 @@ lessons:
     - memory
   - id: v2-l4-21
     type: fill_blank
-    sentence: We need a new ___ of paper.
-    translation: אנחנו צריכים אספקה חדשה של נייר.
+    sentence: The kosher shop gets a new ___ every Thursday.
+    translation: החנות הכשרה מקבלת אספקה חדשה בכל יום חמישי.
     answers:
     - supply
     options:
@@ -1184,8 +1253,8 @@ lessons:
     - supply
   - id: v2-l4-22
     type: fill_blank
-    sentence: That is a ___ noise.
-    translation: זה רעש מוזר.
+    sentence: It's ___ to see cars on the left side of the road.
+    translation: מוזר לראות מכוניות בצד שמאל של הכביש.
     answers:
     - weird
     options:
@@ -1196,8 +1265,8 @@ lessons:
     - weird
   - id: v2-l4-23
     type: fill_blank
-    sentence: The shop sells a ___ of cheese.
-    translation: החנות מוכרת מגוון גבינות.
+    sentence: The market has a great ___ of fruit.
+    translation: בשוק יש מבחר גדול של פירות.
     answers:
     - variety
     options:
@@ -1208,11 +1277,11 @@ lessons:
     - variety
   - id: v2-l4-24
     type: dictation
-    text: That is a weird noise.
+    text: It's weird to see cars on the left side of the road.
     lexemes:
     - weird
   - id: v2-l4-25
     type: dictation
-    text: The shop sells a variety of cheese.
+    text: The market has a great variety of fruit.
     lexemes:
     - variety

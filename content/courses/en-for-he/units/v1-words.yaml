@@ -1,294 +1,312 @@
 id: v1-words
 cefr: B1
-scene: study
+scene: travel
 title:
-  he: הרחבת אוצר מילים 1
-  en: Word builder 1
-story: עוד מילים חשובות בשימוש יומיומי, מקובצות בשיעורים קצרים. כל מילה מופיעה במשפט, ואחר כך מתרגלים אותה.
+  he: נועה עוברת ללונדון
+  en: Noa moves to London
+story: 'נועה קיבלה את התפקיד בפרויקט ברידג׳. היא אורזת, נפרדת מאמא, ועוברת ללונדון: דירה חדשה, שכונה חדשה, וקהילה חדשה לקראת שבת הראשונה.'
 canDo:
-- להבין ולהשתמש במילים נפוצות נוספות
-- לזהות את המילים במשפטים אמיתיים
+- לספר על מעבר דירה ועל אריזה
+- לתאר דירה ושכונה חדשות
+- להתכונן לשבת ראשונה בקהילה חדשה
 vocabulary:
 - id: practice
   text: practice
   translation: תרגול, אימון
   pos: noun
   example:
-    text: Practice makes perfect.
-    translation: תרגול עושה מושלם.
+    text: Noa did some English practice on the plane.
+    translation: נועה תרגלה קצת אנגלית במטוס.
 - id: voice
   text: voice
   translation: קול
   pos: noun
   example:
-    text: She has a beautiful voice.
-    translation: יש לה קול יפה.
+    text: Her mother's voice was quiet on the phone.
+    translation: הקול של אמא שלה היה שקט בטלפון.
 - id: safe
   text: safe
   translation: בטוח
   pos: adjective
   example:
-    text: Is it safe to swim here?
-    translation: האם בטוח לשחות כאן?
+    text: Is it safe to walk here at night?
+    translation: האם בטוח ללכת כאן בלילה?
 - id: deep
   text: deep
   translation: עמוק
   pos: adjective
   example:
-    text: The lake is very deep.
-    translation: האגם עמוק מאוד.
+    text: Noa took a deep breath at the airport.
+    translation: נועה נשמה נשימה עמוקה בשדה התעופה.
 - id: popular
   text: popular
   translation: פופולרי
   pos: adjective
   example:
-    text: This is a popular restaurant.
-    translation: זו מסעדה פופולרית.
+    text: Her new street is popular with young families.
+    translation: הרחוב החדש שלה פופולרי בקרב משפחות צעירות.
 - id: response
   text: response
   translation: תגובה, תשובה
   pos: noun
   example:
-    text: I am waiting for your response.
-    translation: אני מחכה לתגובה שלך.
+    text: She is waiting for a response from the landlord.
+    translation: היא מחכה לתגובה מבעל הבית.
 - id: respect
   text: respect
   translation: כבוד; לכבד
   pos: noun
   example:
-    text: We show respect to our teachers.
-    translation: אנחנו מראים כבוד למורים שלנו.
+    text: Rachel has great respect for her daughter.
+    translation: לרחל יש כבוד רב לבת שלה.
 - id: pain
   text: pain
   translation: כאב
   pos: noun
   example:
-    text: I have a pain in my back.
-    translation: יש לי כאב בגב.
+    text: Saying goodbye was a real pain for both of them.
+    translation: הפרידה הייתה כאב אמיתי לשתיהן.
 - id: river
   text: river
   translation: נהר
   pos: noun
   example:
-    text: The river is wide and slow.
-    translation: הנהר רחב ואיטי.
+    text: Ben's flat is next to the river.
+    translation: הדירה של בן נמצאת ליד הנהר.
 - id: speed
   text: speed
   translation: מהירות
   pos: noun
   example:
-    text: The speed limit is fifty.
-    translation: מגבלת המהירות היא חמישים.
+    text: The taxi drove at high speed to the airport.
+    translation: המונית נסעה במהירות גבוהה לשדה התעופה.
 - id: standard
   text: standard
   translation: סטנדרט, רמה
   pos: noun
   example:
-    text: The hotel has a high standard.
-    translation: למלון יש רמה גבוהה.
+    text: The flat is small, but the standard is high.
+    translation: הדירה קטנה, אבל הרמה גבוהה.
 - id: peace
   text: peace
   translation: שלום, שקט
   pos: noun
   example:
-    text: I need some peace and quiet.
-    translation: אני צריך קצת שקט ושלווה.
+    text: Noa loves the peace of the morning.
+    translation: נועה אוהבת את השקט של הבוקר.
 - id: pressure
   text: pressure
   translation: לחץ
   pos: noun
   example:
-    text: She works well under pressure.
-    translation: היא עובדת טוב בלחץ.
+    text: There is a lot of pressure at the new job.
+    translation: יש הרבה לחץ בעבודה החדשה.
 - id: focus
   text: focus
   translation: להתמקד; מיקוד
   pos: verb
   example:
-    text: It is hard to focus when it is noisy.
-    translation: קשה להתרכז כשיש רעש.
+    text: It's hard to focus with so many boxes.
+    translation: קשה להתרכז עם כל כך הרבה ארגזים.
 - id: particular
   text: particular
   translation: מסוים, מיוחד
   pos: adjective
   example:
-    text: Is there a particular reason?
-    translation: האם יש סיבה מסוימת?
+    text: She is looking for a particular kind of kettle.
+    translation: היא מחפשת סוג מסוים של קומקום.
 - id: previous
   text: previous
   translation: קודם, קודם לכן
   pos: adjective
   example:
-    text: My previous job was in a school.
-    translation: העבודה הקודמת שלי הייתה בבית ספר.
+    text: The previous tenant left a plant.
+    translation: הדייר הקודם השאיר עציץ.
 - id: consider
   text: consider
   translation: לשקול, להתחשב
   pos: verb
   example:
-    text: Please consider my offer.
-    translation: אנא שקלו את ההצעה שלי.
+    text: Ben, consider this flat your second home.
+    translation: בן, תחשוב על הדירה הזאת כבית השני שלך.
 - id: immediately
   text: immediately
   translation: מיד
   pos: adverb
   example:
-    text: Call me immediately.
-    translation: התקשר אליי מיד.
+    text: Noa called her mother immediately.
+    translation: נועה התקשרה לאמא שלה מיד.
 - id: sell
   text: sell
   translation: למכור
   pos: verb
   example:
-    text: They sell fresh bread every morning.
-    translation: הם מוכרים לחם טרי כל בוקר.
+    text: The shop on the corner doesn't sell kosher milk.
+    translation: החנות בפינה לא מוכרת חלב כשר.
 - id: ability
   text: ability
   translation: יכולת
   pos: noun
   example:
-    text: He has the ability to learn fast.
-    translation: יש לו יכולת ללמוד מהר.
+    text: Ben has the ability to fix anything.
+    translation: לבן יש יכולת לתקן כל דבר.
 - id: collection
   text: collection
   translation: אוסף
   pos: noun
   example:
-    text: She has a large collection of stamps.
-    translation: יש לה אוסף גדול של בולים.
+    text: Mrs. Katz has a collection of old siddurim.
+    translation: לגברת כץ יש אוסף של סידורים ישנים.
 - id: opinion
   text: opinion
   translation: דעה
   pos: noun
   example:
-    text: In my opinion, it is a good idea.
-    translation: לדעתי, זה רעיון טוב.
+    text: In my opinion, the market is the best place in the area.
+    translation: לדעתי, השוק הוא המקום הכי טוב באזור.
 - id: physical
   text: physical
   translation: גופני, פיזי
   pos: adjective
   example:
-    text: Physical exercise is good for you.
-    translation: פעילות גופנית טובה לך.
+    text: Moving boxes is hard physical work.
+    translation: להעביר ארגזים זו עבודה פיזית קשה.
 - id: active
   text: active
   translation: פעיל
   pos: adjective
   example:
-    text: My grandmother is still very active.
-    translation: סבתא שלי עדיין פעילה מאוד.
+    text: The community here is very active.
+    translation: הקהילה כאן פעילה מאוד.
 - id: effort
   text: effort
   translation: מאמץ
   pos: noun
   example:
-    text: It took a lot of effort.
-    translation: זה דרש הרבה מאמץ.
+    text: Noa made an effort to learn the bus routes.
+    translation: נועה התאמצה ללמוד את קווי האוטובוס.
 - id: wear
   text: wear
   translation: ללבוש
   pos: verb
   example:
-    text: I usually wear a jacket in winter.
-    translation: בדרך כלל אני לובש מעיל בחורף.
+    text: You should wear a coat; London is cold.
+    translation: כדאי ללבוש מעיל; בלונדון קר.
 - id: details
   text: details
   translation: פרטים
   pos: noun
   example:
-    text: Please send me the details.
-    translation: אנא שלחו לי את הפרטים.
+    text: Mrs. Katz wrote the details on a note.
+    translation: גברת כץ כתבה את הפרטים על פתק.
 - id: direct
   text: direct
   translation: ישיר
   pos: adjective
   example:
-    text: There is a direct train to the city.
-    translation: יש רכבת ישירה לעיר.
+    text: There is a direct bus to the office.
+    translation: יש אוטובוס ישיר למשרד.
 - id: rich
   text: rich
   translation: עשיר
   pos: adjective
   example:
-    text: The soup is rich and tasty.
-    translation: המרק עשיר וטעים.
+    text: The cake was rich and sweet.
+    translation: העוגה הייתה עשירה ומתוקה.
 - id: skin
   text: skin
   translation: עור
   pos: noun
   example:
-    text: Use cream to protect your skin.
-    translation: השתמשו בקרם כדי להגן על העור.
+    text: The cold wind is hard on her skin.
+    translation: הרוח הקרה קשה לעור שלה.
 - id: sweet
   text: sweet
   translation: מתוק
   pos: adjective
   example:
-    text: The cake is too sweet for me.
-    translation: העוגה מתוקה מדי בשבילי.
+    text: Noa baked a sweet challah for Shabbat.
+    translation: נועה אפתה חלה מתוקה לשבת.
 - id: glad
   text: glad
   translation: שמח
   pos: adjective
   example:
-    text: I am glad you came.
-    translation: אני שמח שבאת.
+    text: I'm glad you came to dinner.
+    translation: אני שמחה שבאת לארוחה.
 - id: overall
   text: overall
   translation: בסך הכול
   pos: adverb
   example:
-    text: Overall, it was a great week.
-    translation: בסך הכול זה היה שבוע נהדר.
+    text: Overall, it was a wonderful first week.
+    translation: בסך הכול, זה היה שבוע ראשון נפלא.
 - id: carry
   text: carry
   translation: לשאת, לסחוב
   pos: verb
   example:
-    text: Can you carry this bag for me?
-    translation: אפשר לשאת בשבילי את התיק הזה?
+    text: Can you carry the candles for me?
+    translation: אתה יכול לסחוב את הנרות בשבילי?
 - id: reality
   text: reality
   translation: מציאות
   pos: noun
   example:
-    text: The dream became a reality.
-    translation: החלום הפך למציאות.
+    text: The reality of living abroad is not always easy.
+    translation: המציאות של חיים בחו״ל לא תמיד קלה.
 - id: spot
   text: spot
   translation: מקום, כתם
   pos: noun
   example:
-    text: This is a lovely spot for a picnic.
-    translation: זה מקום יפהפה לפיקניק.
+    text: She found a quiet spot by the window.
+    translation: היא מצאה פינה שקטה ליד החלון.
 - id: comment
   text: comment
   translation: הערה; להגיב
   pos: noun
   example:
-    text: Thank you for your comment.
-    translation: תודה על ההערה שלך.
+    text: Mrs. Katz made a funny comment about the weather.
+    translation: גברת כץ אמרה הערה מצחיקה על מזג האוויר.
 - id: equipment
   text: equipment
   translation: ציוד
   pos: noun
   example:
-    text: We bought new equipment for the office.
-    translation: קנינו ציוד חדש למשרד.
+    text: The kitchen has all the equipment she needs.
+    translation: במטבח יש את כל הציוד שהיא צריכה.
 - id: purpose
   text: purpose
   translation: מטרה
   pos: noun
   example:
-    text: What is the purpose of this meeting?
-    translation: מה מטרת הפגישה הזו?
+    text: The purpose of the visit was to meet the community.
+    translation: מטרת הביקור הייתה להכיר את הקהילה.
 lessons:
 - id: v1-l1
   kind: new
   title:
-    he: מילים חדשות 1
-    en: New words 1
+    he: אורזים
+    en: Packing
   exercises:
+  - id: v1-l1-d1
+    type: dialogue
+    scene: נועה אורזת בבית בתל אביב. אמא שלה, רחל, עוזרת.
+    lines:
+    - speaker: rachel
+      text: Are you sure it's safe to live alone in London?
+      translation: את בטוחה שזה בטוח לגור לבד בלונדון?
+    - speaker: noa
+      text: Mum, it's a popular area, and Ben lives near the river.
+      translation: אמא, זה אזור פופולרי, ובן גר ליד הנהר.
+    - speaker: rachel
+      text: I respect your choice. But my heart is in pain.
+      translation: אני מכבדת את הבחירה שלך. אבל הלב שלי כואב.
+    - speaker: noa
+      text: I'll call you every day. You'll hear my voice so often you'll get tired of it!
+      translation: אתקשר אלייך כל יום. תשמעי את הקול שלי כל כך הרבה שתתעייפי ממנו!
+    lexemes: []
   - id: v1-l1-01
     type: learn
     lexeme: practice
@@ -429,8 +447,8 @@ lessons:
     - response
   - id: v1-l1-19
     type: fill_blank
-    sentence: The lake is very ___.
-    translation: האגם עמוק מאוד.
+    sentence: Noa took a ___ breath at the airport.
+    translation: נועה נשמה נשימה עמוקה בשדה התעופה.
     answers:
     - deep
     options:
@@ -441,8 +459,8 @@ lessons:
     - deep
   - id: v1-l1-20
     type: fill_blank
-    sentence: This is a ___ restaurant.
-    translation: זו מסעדה פופולרית.
+    sentence: Her new street is ___ with young families.
+    translation: הרחוב החדש שלה פופולרי בקרב משפחות צעירות.
     answers:
     - popular
     options:
@@ -453,8 +471,8 @@ lessons:
     - popular
   - id: v1-l1-21
     type: fill_blank
-    sentence: I am waiting for your ___.
-    translation: אני מחכה לתגובה שלך.
+    sentence: She is waiting for a ___ from the landlord.
+    translation: היא מחכה לתגובה מבעל הבית.
     answers:
     - response
     options:
@@ -465,8 +483,8 @@ lessons:
     - response
   - id: v1-l1-22
     type: fill_blank
-    sentence: We show ___ to our teachers.
-    translation: אנחנו מראים כבוד למורים שלנו.
+    sentence: Rachel has great ___ for her daughter.
+    translation: לרחל יש כבוד רב לבת שלה.
     answers:
     - respect
     options:
@@ -477,8 +495,8 @@ lessons:
     - respect
   - id: v1-l1-23
     type: fill_blank
-    sentence: I have a ___ in my back.
-    translation: יש לי כאב בגב.
+    sentence: Saying goodbye was a real ___ for both of them.
+    translation: הפרידה הייתה כאב אמיתי לשתיהן.
     answers:
     - pain
     options:
@@ -489,8 +507,8 @@ lessons:
     - pain
   - id: v1-l1-24
     type: fill_blank
-    sentence: The ___ is wide and slow.
-    translation: הנהר רחב ואיטי.
+    sentence: Ben's flat is next to the ___.
+    translation: הדירה של בן נמצאת ליד הנהר.
     answers:
     - river
     options:
@@ -501,8 +519,8 @@ lessons:
     - river
   - id: v1-l1-25
     type: fill_blank
-    sentence: The ___ limit is fifty.
-    translation: מגבלת המהירות היא חמישים.
+    sentence: The taxi drove at high ___ to the airport.
+    translation: המונית נסעה במהירות גבוהה לשדה התעופה.
     answers:
     - speed
     options:
@@ -513,20 +531,37 @@ lessons:
     - speed
   - id: v1-l1-26
     type: dictation
-    text: The river is wide and slow.
+    text: Ben's flat is next to the river.
     lexemes:
     - river
   - id: v1-l1-27
     type: dictation
-    text: The speed limit is fifty.
+    text: The taxi drove at high speed to the airport.
     lexemes:
     - speed
 - id: v1-l2
   kind: new
   title:
-    he: מילים חדשות 2
-    en: New words 2
+    he: דירה חדשה
+    en: A new flat
   exercises:
+  - id: v1-l2-d1
+    type: dialogue
+    scene: לונדון. נועה ובן נכנסים לדירה החדשה שלה.
+    lines:
+    - speaker: ben
+      text: The previous tenant left it very clean.
+      translation: הדייר הקודם השאיר אותה נקייה מאוד.
+    - speaker: noa
+      text: It's small, but the standard is good. And there's peace and quiet.
+      translation: היא קטנה, אבל הרמה טובה. ויש שקט ושלווה.
+    - speaker: ben
+      text: Consider it home. Can you focus on work here?
+      translation: תחשבי עליה כעל בית. תוכלי להתרכז כאן בעבודה?
+    - speaker: noa
+      text: Immediately! But first I need a kettle.
+      translation: מיד! אבל קודם אני צריכה קומקום.
+    lexemes: []
   - id: v1-l2-01
     type: learn
     lexeme: standard
@@ -667,8 +702,8 @@ lessons:
     - previous
   - id: v1-l2-19
     type: fill_blank
-    sentence: It is hard to ___ when it is noisy.
-    translation: קשה להתרכז כשיש רעש.
+    sentence: It's hard to ___ with so many boxes.
+    translation: קשה להתרכז עם כל כך הרבה ארגזים.
     answers:
     - focus
     options:
@@ -679,8 +714,8 @@ lessons:
     - focus
   - id: v1-l2-20
     type: fill_blank
-    sentence: Is there a ___ reason?
-    translation: האם יש סיבה מסוימת?
+    sentence: She is looking for a ___ kind of kettle.
+    translation: היא מחפשת סוג מסוים של קומקום.
     answers:
     - particular
     options:
@@ -691,8 +726,8 @@ lessons:
     - particular
   - id: v1-l2-21
     type: fill_blank
-    sentence: My ___ job was in a school.
-    translation: העבודה הקודמת שלי הייתה בבית ספר.
+    sentence: The ___ tenant left a plant.
+    translation: הדייר הקודם השאיר עציץ.
     answers:
     - previous
     options:
@@ -703,8 +738,8 @@ lessons:
     - previous
   - id: v1-l2-22
     type: fill_blank
-    sentence: Please ___ my offer.
-    translation: אנא שקלו את ההצעה שלי.
+    sentence: Ben, ___ this flat your second home.
+    translation: בן, תחשוב על הדירה הזאת כבית השני שלך.
     answers:
     - consider
     options:
@@ -715,8 +750,8 @@ lessons:
     - consider
   - id: v1-l2-23
     type: fill_blank
-    sentence: Call me ___.
-    translation: התקשר אליי מיד.
+    sentence: Noa called her mother ___.
+    translation: נועה התקשרה לאמא שלה מיד.
     answers:
     - immediately
     options:
@@ -727,8 +762,8 @@ lessons:
     - immediately
   - id: v1-l2-24
     type: fill_blank
-    sentence: They ___ fresh bread every morning.
-    translation: הם מוכרים לחם טרי כל בוקר.
+    sentence: The shop on the corner doesn't ___ kosher milk.
+    translation: החנות בפינה לא מוכרת חלב כשר.
     answers:
     - sell
     options:
@@ -739,8 +774,8 @@ lessons:
     - sell
   - id: v1-l2-25
     type: fill_blank
-    sentence: He has the ___ to learn fast.
-    translation: יש לו יכולת ללמוד מהר.
+    sentence: Ben has the ___ to fix anything.
+    translation: לבן יש יכולת לתקן כל דבר.
     answers:
     - ability
     options:
@@ -751,20 +786,37 @@ lessons:
     - ability
   - id: v1-l2-26
     type: dictation
-    text: They sell fresh bread every morning.
+    text: The shop on the corner doesn't sell kosher milk.
     lexemes:
     - sell
   - id: v1-l2-27
     type: dictation
-    text: He has the ability to learn fast.
+    text: Ben has the ability to fix anything.
     lexemes:
     - ability
 - id: v1-l3
   kind: new
   title:
-    he: מילים חדשות 3
-    en: New words 3
+    he: השכונה
+    en: The neighbourhood
   exercises:
+  - id: v1-l3-d1
+    type: dialogue
+    scene: נועה מסתובבת בשכונה ומכירה את גברת כץ, השכנה מלמטה.
+    lines:
+    - speaker: katz
+      text: Welcome! Are you the new girl from Israel? I'm Mrs. Katz from downstairs.
+      translation: ברוכה הבאה! את הבחורה החדשה מישראל? אני גברת כץ מלמטה.
+    - speaker: noa
+      text: Yes! Can I ask your opinion? Where is the kosher shop?
+      translation: כן! אפשר לשאול את דעתך? איפה החנות הכשרה?
+    - speaker: katz
+      text: Two streets away. I'll give you all the details. And our shul is very active.
+      translation: שני רחובות מכאן. אתן לך את כל הפרטים. ובית הכנסת שלנו פעיל מאוד.
+    - speaker: noa
+      text: Thank you for the effort! You're very kind.
+      translation: תודה על המאמץ! את נחמדה מאוד.
+    lexemes: []
   - id: v1-l3-01
     type: learn
     lexeme: collection
@@ -905,8 +957,8 @@ lessons:
     - wear
   - id: v1-l3-19
     type: fill_blank
-    sentence: My grandmother is still very ___.
-    translation: סבתא שלי עדיין פעילה מאוד.
+    sentence: The community here is very ___.
+    translation: הקהילה כאן פעילה מאוד.
     answers:
     - active
     options:
@@ -917,8 +969,8 @@ lessons:
     - active
   - id: v1-l3-20
     type: fill_blank
-    sentence: It took a lot of ___.
-    translation: זה דרש הרבה מאמץ.
+    sentence: Noa made an ___ to learn the bus routes.
+    translation: נועה התאמצה ללמוד את קווי האוטובוס.
     answers:
     - effort
     options:
@@ -929,8 +981,8 @@ lessons:
     - effort
   - id: v1-l3-21
     type: fill_blank
-    sentence: I usually ___ a jacket in winter.
-    translation: בדרך כלל אני לובש מעיל בחורף.
+    sentence: You should ___ a coat; London is cold.
+    translation: כדאי ללבוש מעיל; בלונדון קר.
     answers:
     - wear
     options:
@@ -941,8 +993,8 @@ lessons:
     - wear
   - id: v1-l3-22
     type: fill_blank
-    sentence: Please send me the ___.
-    translation: אנא שלחו לי את הפרטים.
+    sentence: Mrs. Katz wrote the ___ on a note.
+    translation: גברת כץ כתבה את הפרטים על פתק.
     answers:
     - details
     options:
@@ -953,8 +1005,8 @@ lessons:
     - details
   - id: v1-l3-23
     type: fill_blank
-    sentence: There is a ___ train to the city.
-    translation: יש רכבת ישירה לעיר.
+    sentence: There is a ___ bus to the office.
+    translation: יש אוטובוס ישיר למשרד.
     answers:
     - direct
     options:
@@ -965,8 +1017,8 @@ lessons:
     - direct
   - id: v1-l3-24
     type: fill_blank
-    sentence: The soup is ___ and tasty.
-    translation: המרק עשיר וטעים.
+    sentence: The cake was ___ and sweet.
+    translation: העוגה הייתה עשירה ומתוקה.
     answers:
     - rich
     options:
@@ -977,8 +1029,8 @@ lessons:
     - rich
   - id: v1-l3-25
     type: fill_blank
-    sentence: Use cream to protect your ___.
-    translation: השתמשו בקרם כדי להגן על העור.
+    sentence: The cold wind is hard on her ___.
+    translation: הרוח הקרה קשה לעור שלה.
     answers:
     - skin
     options:
@@ -989,20 +1041,37 @@ lessons:
     - skin
   - id: v1-l3-26
     type: dictation
-    text: The soup is rich and tasty.
+    text: The cake was rich and sweet.
     lexemes:
     - rich
   - id: v1-l3-27
     type: dictation
-    text: Use cream to protect your skin.
+    text: The cold wind is hard on her skin.
     lexemes:
     - skin
 - id: v1-l4
   kind: new
   title:
-    he: מילים חדשות 4
-    en: New words 4
+    he: שבת ראשונה
+    en: A first Shabbat
   exercises:
+  - id: v1-l4-d1
+    type: dialogue
+    scene: יום שישי אחר הצהריים. נועה מתכוננת לשבת הראשונה שלה בלונדון.
+    lines:
+    - speaker: noa
+      text: Mrs. Katz invited me for Friday night dinner. I'm so glad!
+      translation: גברת כץ הזמינה אותי לארוחת ליל שבת. אני כל כך שמחה!
+    - speaker: ben
+      text: Can you carry the cake? It's very sweet of you to bake.
+      translation: את יכולה לסחוב את העוגה? מתוק מצידך לאפות.
+    - speaker: noa
+      text: Overall, the first week was good. The reality is better than I expected.
+      translation: בסך הכול, השבוע הראשון היה טוב. המציאות טובה ממה שציפיתי.
+    - speaker: ben
+      text: You found your spot. Shabbat shalom, Noa.
+      translation: מצאת את המקום שלך. שבת שלום, נועה.
+    lexemes: []
   - id: v1-l4-01
     type: learn
     lexeme: sweet
@@ -1136,8 +1205,8 @@ lessons:
     - spot
   - id: v1-l4-18
     type: fill_blank
-    sentence: Can you ___ this bag for me?
-    translation: אפשר לשאת בשבילי את התיק הזה?
+    sentence: Can you ___ the candles for me?
+    translation: אתה יכול לסחוב את הנרות בשבילי?
     answers:
     - carry
     options:
@@ -1148,8 +1217,8 @@ lessons:
     - carry
   - id: v1-l4-19
     type: fill_blank
-    sentence: The dream became a ___.
-    translation: החלום הפך למציאות.
+    sentence: The ___ of living abroad is not always easy.
+    translation: המציאות של חיים בחו״ל לא תמיד קלה.
     answers:
     - reality
     options:
@@ -1160,8 +1229,8 @@ lessons:
     - reality
   - id: v1-l4-20
     type: fill_blank
-    sentence: This is a lovely ___ for a picnic.
-    translation: זה מקום יפהפה לפיקניק.
+    sentence: She found a quiet ___ by the window.
+    translation: היא מצאה פינה שקטה ליד החלון.
     answers:
     - spot
     options:
@@ -1172,8 +1241,8 @@ lessons:
     - spot
   - id: v1-l4-21
     type: fill_blank
-    sentence: Thank you for your ___.
-    translation: תודה על ההערה שלך.
+    sentence: Mrs. Katz made a funny ___ about the weather.
+    translation: גברת כץ אמרה הערה מצחיקה על מזג האוויר.
     answers:
     - comment
     options:
@@ -1184,8 +1253,8 @@ lessons:
     - comment
   - id: v1-l4-22
     type: fill_blank
-    sentence: We bought new ___ for the office.
-    translation: קנינו ציוד חדש למשרד.
+    sentence: The kitchen has all the ___ she needs.
+    translation: במטבח יש את כל הציוד שהיא צריכה.
     answers:
     - equipment
     options:
@@ -1196,8 +1265,8 @@ lessons:
     - equipment
   - id: v1-l4-23
     type: fill_blank
-    sentence: What is the ___ of this meeting?
-    translation: מה מטרת הפגישה הזו?
+    sentence: The ___ of the visit was to meet the community.
+    translation: מטרת הביקור הייתה להכיר את הקהילה.
     answers:
     - purpose
     options:
@@ -1208,11 +1277,11 @@ lessons:
     - purpose
   - id: v1-l4-24
     type: dictation
-    text: We bought new equipment for the office.
+    text: The kitchen has all the equipment she needs.
     lexemes:
     - equipment
   - id: v1-l4-25
     type: dictation
-    text: What is the purpose of this meeting?
+    text: The purpose of the visit was to meet the community.
     lexemes:
     - purpose
