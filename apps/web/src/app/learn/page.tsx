@@ -6,8 +6,9 @@ import { useEffect } from "react";
 import { SCENE_HUE, SceneArt } from "@/components/art";
 import { AppShell } from "@/components/AppShell";
 import { KIND } from "@/components/CoursePath";
-import { Icon, type IconName } from "@/components/icons";
+import { Icon } from "@/components/icons";
 import { InstallHint } from "@/components/InstallHint";
+import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import { LoadError, Loading, Ring, SpeakButton, Word } from "@/components/ui";
 import { lexemeIndex, loadCourse, useLoad } from "@/lib/content";
 import { today } from "@/lib/day";
@@ -69,11 +70,16 @@ export default function Dashboard() {
             <span className="tabular-nums">{st.length}</span>
             <span className="sr-only">ימים רצופים</span>
           </span>
-          <span className="flex items-center gap-1 rounded-full bg-surface px-3 py-1.5 font-bold ring-1 ring-line" title="נקודות">
+          <Link
+            href="/achievements/"
+            className="flex min-h-11 items-center gap-1 rounded-full bg-surface px-3 py-1.5 font-bold ring-1 ring-line transition active:scale-95"
+            title="ההישגים שלי"
+            aria-label={`ההישגים שלי, ${totalXp(state)} נקודות`}
+          >
             <Icon name="star" className="size-5 text-cobalt" filled />
             <span className="tabular-nums">{totalXp(state)}</span>
-            <span className="sr-only">נקודות</span>
-          </span>
+          </Link>
+          <LanguageSwitcher />
         </div>
       </header>
 
@@ -204,20 +210,13 @@ export default function Dashboard() {
         </section>
       )}
 
-      <nav className="mt-6 grid grid-cols-2 gap-3" aria-label="עוד באתר">
-        {[
-          { href: "/achievements/", icon: "star", label: "ההישגים שלי" },
-          { href: `/certificate/${courseId}/`, icon: "trophy", label: "התעודה שלי" },
-          // Exam practice (Amirnet) exists for English only.
-          ...(manifest.target === "en" ? [{ href: "/exams/", icon: "grammar", label: "אימון למבחנים" }] : []),
-          { href: "/start/", icon: "chat", label: "לעבור לשפה אחרת" },
-        ].map((l) => (
-          <Link key={l.href} href={l.href} className="card flex min-h-14 items-center gap-3 p-3 text-cobalt">
-            <Icon name={l.icon as IconName} className="size-6 shrink-0" />
-            <span className="font-semibold">{l.label}</span>
-          </Link>
-        ))}
-      </nav>
+      {/* Exam practice (Amirnet) exists for English only. */}
+      {manifest.target === "en" && (
+        <Link href="/exams/" className="card mt-6 flex min-h-14 w-full items-center gap-3 p-4 text-cobalt">
+          <Icon name="grammar" className="size-6 shrink-0" />
+          <span className="font-semibold">אימון למבחנים</span>
+        </Link>
+      )}
     </AppShell>
   );
 }

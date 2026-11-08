@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { AppShell } from "@/components/AppShell";
 import { Icon } from "@/components/icons";
 import { Loading } from "@/components/ui";
@@ -12,6 +13,7 @@ export default function Achievements() {
   const { state, loaded } = useLearner();
   if (!loaded) return <Loading />;
   const list = achievements(state, currentCourse(state) ?? "en-for-he", today());
+  const courseId = currentCourse(state) ?? "en-for-he";
   const earned = list.filter((a) => a.value >= a.target).length;
   return (
     <AppShell>
@@ -21,7 +23,16 @@ export default function Achievements() {
           {earned} מתוך {list.length}
         </p>
       </header>
-      <ul className="mt-5 flex flex-col gap-3">
+      <Link href={`/certificate/${courseId}/`} className="card mt-5 flex min-h-16 items-center gap-4 p-4">
+        <span className="grid size-12 shrink-0 place-items-center rounded-2xl bg-saffron-soft text-saffron-strong">
+          <Icon name="trophy" className="size-6" />
+        </span>
+        <span className="flex flex-1 flex-col">
+          <span className="font-bold">התעודה שלי</span>
+          <span className="text-sm text-ink-soft">תעודה להדפסה על כל רמה שעברתם</span>
+        </span>
+      </Link>
+      <ul className="mt-3 flex flex-col gap-3">
         {list.map((a) => {
           const done = a.value >= a.target;
           return (
