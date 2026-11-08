@@ -1,0 +1,410 @@
+id: u04-esn
+cefr: A1
+scene: food
+title:
+  he: אוכל ושתייה
+  en: Food and drink
+story: הסבתא מכינה לארוחה, ומנחם אומר מה הוא רוצה לאכול ולשתות. כל האוכל כשר, ובארוחה בשרית אין חלב.
+canDo:
+- לומר מה אני אוכל ושותה
+- לבקש מה שאני רוצה
+- לנקוב בכמה מאכלים
+vocabulary:
+- id: fish
+  text: פֿיש
+  translation: דג
+  pos: noun
+  pronunciation: fish
+- id: milkh
+  text: מילך
+  translation: חלב
+  pos: noun
+  pronunciation: milkh
+- id: keyz
+  text: קעז
+  translation: גבינה
+  pos: noun
+  pronunciation: kez
+- id: vaser
+  text: וואַסער
+  translation: מים
+  pos: noun
+  pronunciation: vaser
+- id: epl
+  text: עפּל
+  translation: תפוח
+  pos: noun
+  pronunciation: epl
+- id: zup
+  text: זופּ
+  translation: מרק
+  pos: noun
+  pronunciation: zup
+- id: esn
+  text: עסן
+  translation: לאכול
+  pos: verb
+  pronunciation: esn
+  example:
+    text: איך עס ברויט.
+    translation: אני אוכל לחם.
+- id: trinken
+  text: טרינקען
+  translation: לשתות
+  pos: verb
+  pronunciation: trinkn
+  example:
+    text: איך טרינק וואַסער.
+    translation: אני שותה מים.
+- id: vil
+  text: וויל
+  translation: רוצה
+  pos: verb
+  pronunciation: vil
+  example:
+    text: איך וויל מילך.
+    translation: אני רוצה חלב.
+- id: hunger
+  text: הונגעריק
+  translation: רעב
+  pos: adjective
+  pronunciation: hungerik
+lessons:
+- id: u04-l1
+  kind: new
+  title:
+    he: מאכלים
+    en: Lesson
+  exercises:
+  - id: u04-l1-01
+    type: tip
+    title: אוכל ושתייה
+    text: 'המאכלים כאן: **פֿיש** (דג), **מילך** (חלב), **קעז** (גבינה), **וואַסער** (מים), **עפּל** (תפוח), **זופּ** (מרק).
+
+      את **ברויט** (לחם) כבר הכרתם.
+
+      כמו תמיד בבית כשר: בארוחה בשרית אין חלב, ובחלבית אין בשר.
+
+      '
+  - id: u04-l1-02
+    type: learn
+    lexeme: fish
+  - id: u04-l1-03
+    type: learn
+    lexeme: milkh
+  - id: u04-l1-04
+    type: learn
+    lexeme: keyz
+  - id: u04-l1-05
+    type: learn
+    lexeme: vaser
+  - id: u04-l1-06
+    type: learn
+    lexeme: epl
+  - id: u04-l1-07
+    type: learn
+    lexeme: zup
+  - id: u04-l1-08
+    type: match_pairs
+    pairs:
+    - - פֿיש
+      - דג
+    - - מילך
+      - חלב
+    - - קעז
+      - גבינה
+    - - וואַסער
+      - מים
+    - - עפּל
+      - תפוח
+    - - זופּ
+      - מרק
+    lexemes:
+    - fish
+    - milkh
+    - keyz
+    - vaser
+    - epl
+    - zup
+  - id: u04-l1-09
+    type: multiple_choice
+    prompt: מה פירוש פֿיש?
+    options:
+    - דג
+    - חלב
+    - גבינה
+    correct: 0
+    lexemes:
+    - fish
+  - id: u04-l1-10
+    type: multiple_choice
+    prompt: מה פירוש מילך?
+    options:
+    - חלב
+    - דג
+    - גבינה
+    correct: 0
+    lexemes:
+    - milkh
+  - id: u04-l1-11
+    type: multiple_choice
+    prompt: מה פירוש קעז?
+    options:
+    - גבינה
+    - דג
+    - חלב
+    correct: 0
+    lexemes:
+    - keyz
+  - id: u04-l1-12
+    type: multiple_choice
+    prompt: מה פירוש וואַסער?
+    options:
+    - מים
+    - דג
+    - חלב
+    correct: 0
+    lexemes:
+    - vaser
+  - id: u04-l1-13
+    type: multiple_choice
+    prompt: מה פירוש עפּל?
+    options:
+    - תפוח
+    - דג
+    - חלב
+    correct: 0
+    lexemes:
+    - epl
+  - id: u04-l1-14
+    type: multiple_choice
+    prompt: מה פירוש זופּ?
+    options:
+    - מרק
+    - דג
+    - חלב
+    correct: 0
+    lexemes:
+    - zup
+- id: u04-l2
+  kind: new
+  title:
+    he: אוכל ושותה ורוצה
+    en: Eat, drink, want
+  exercises:
+  - id: u04-l2-01
+    type: learn
+    lexeme: esn
+  - id: u04-l2-02
+    type: learn
+    lexeme: trinken
+  - id: u04-l2-03
+    type: learn
+    lexeme: vil
+  - id: u04-l2-04
+    type: learn
+    lexeme: hunger
+  - id: u04-l2-05
+    type: dialogue
+    scene: home
+    lines:
+    - speaker: bobe
+      text: ביסטו הונגעריק, מנחם?
+      translation: אתה רעב, מנחם?
+    - speaker: menachem
+      text: יאָ, איך וויל ברויט.
+      translation: כן, אני רוצה לחם.
+    - speaker: bobe
+      text: און צו טרינקען?
+      translation: ולשתות?
+    - speaker: menachem
+      text: איך וויל וואַסער, אַ דאַנק.
+      translation: אני רוצה מים, תודה.
+  - id: u04-l2-06
+    type: match_pairs
+    pairs:
+    - - עסן
+      - לאכול
+    - - טרינקען
+      - לשתות
+    - - וויל
+      - רוצה
+    - - הונגעריק
+      - רעב
+    lexemes:
+    - esn
+    - trinken
+    - vil
+    - hunger
+  - id: u04-l2-07
+    type: multiple_choice
+    prompt: מה פירוש טרינקען?
+    options:
+    - לשתות
+    - לאכול
+    - לרצות
+    correct: 0
+    lexemes:
+    - trinken
+  - id: u04-l2-08
+    type: multiple_choice
+    prompt: מה פירוש עסן?
+    options:
+    - לאכול
+    - לשתות
+    - לבשל
+    correct: 0
+    lexemes:
+    - esn
+  - id: u04-l2-09
+    type: translate
+    direction: to_source
+    prompt: איך עס ברויט.
+    answers:
+    - אני אוכל לחם
+    lexemes:
+    - esn
+    - w-breyt
+  - id: u04-l2-10
+    type: translate
+    direction: to_source
+    prompt: איך טרינק וואַסער.
+    answers:
+    - אני שותה מים
+    lexemes:
+    - trinken
+    - vaser
+  - id: u04-l2-11
+    type: translate
+    direction: to_source
+    prompt: איך וויל מילך.
+    answers:
+    - אני רוצה חלב
+    lexemes:
+    - vil
+    - milkh
+  - id: u04-l2-12
+    type: translate
+    direction: to_target
+    prompt: אני שותה מים
+    answers:
+    - איך טרינק וואַסער
+    lexemes:
+    - trinken
+    - vaser
+  - id: u04-l2-13
+    type: translate
+    direction: to_target
+    prompt: אני רוצה לחם
+    answers:
+    - איך וויל ברויט
+    lexemes:
+    - vil
+    - w-breyt
+  - id: u04-l2-14
+    type: fill_blank
+    sentence: איך ___ וואַסער.
+    translation: אני שותה מים
+    answers:
+    - טרינק
+    options:
+    - טרינק
+    - עס
+    - וויל
+    lexemes:
+    - trinken
+  - id: u04-l2-15
+    type: word_bank
+    prompt: אני אוכל לחם
+    answers:
+    - איך עס ברויט
+    distractors:
+    - טרינק
+    - וואַסער
+    lexemes:
+    - esn
+    - w-breyt
+- id: u04-review
+  kind: review
+  title:
+    he: 'חזרה: אוכל ושתייה'
+    en: Review
+  exercises:
+  - id: u04-review-01
+    type: match_pairs
+    pairs:
+    - - פֿיש
+      - דג
+    - - מילך
+      - חלב
+    - - קעז
+      - גבינה
+    - - וואַסער
+      - מים
+    - - עפּל
+      - תפוח
+    - - זופּ
+      - מרק
+    lexemes:
+    - fish
+    - milkh
+    - keyz
+    - vaser
+    - epl
+    - zup
+  - id: u04-review-02
+    type: multiple_choice
+    prompt: איך אומרים 'מים'?
+    options:
+    - וואַסער
+    - מילך
+    - זופּ
+    correct: 0
+    lexemes:
+    - vaser
+  - id: u04-review-03
+    type: multiple_choice
+    prompt: איך אומרים 'גבינה'?
+    options:
+    - קעז
+    - פֿיש
+    - עפּל
+    correct: 0
+    lexemes:
+    - keyz
+  - id: u04-review-04
+    type: translate
+    direction: to_source
+    prompt: איך עס פֿיש.
+    answers:
+    - אני אוכל דג
+    lexemes:
+    - esn
+    - fish
+  - id: u04-review-05
+    type: translate
+    direction: to_source
+    prompt: איך וויל עפּל.
+    answers:
+    - אני רוצה תפוח
+    lexemes:
+    - vil
+    - epl
+  - id: u04-review-06
+    type: translate
+    direction: to_target
+    prompt: אני רוצה זופּ
+    answers:
+    - איך וויל זופּ
+    lexemes:
+    - vil
+    - zup
+  - id: u04-review-07
+    type: translate
+    direction: to_target
+    prompt: אני שותה חלב
+    answers:
+    - איך טרינק מילך
+    lexemes:
+    - trinken
+    - milkh

@@ -1,0 +1,335 @@
+id: u05-shabes
+cefr: A1
+scene: family
+title:
+  he: ליל שבת
+  en: Friday night
+story: 'ליל שבת בבית הסבא והסבתא: נרות, קידוש, חלה ושולחן ערוך.'
+canDo:
+- לברך 'גוט שבת'
+- לומר מה על השולחן בליל שבת
+- לתאר מי עושה מה
+vocabulary:
+- id: likht
+  text: ליכט
+  translation: נרות
+  pos: noun
+  pronunciation: likht
+- id: khale
+  text: חלה
+  translation: לחם השבת
+  pos: noun
+- id: kidush
+  text: קידוש
+  translation: ברכת הקידוש
+  pos: noun
+- id: vayn
+  text: וויין
+  translation: יין (לקידוש)
+  pos: noun
+  pronunciation: vayn
+- id: tish
+  text: טיש
+  translation: שולחן
+  pos: noun
+  pronunciation: tish
+- id: tsindn
+  text: צינדן
+  translation: להדליק
+  pos: verb
+  pronunciation: tsindn
+  example:
+    text: די מאַמע צינדט ליכט.
+    translation: אמא מדליקה נרות.
+- id: zitsn
+  text: זיצן
+  translation: לשבת
+  pos: verb
+  pronunciation: zitsn
+- id: mir
+  text: מיר
+  translation: אנחנו
+  pos: pronoun
+  pronunciation: mir
+- id: shabes2
+  text: גוט שבת
+  translation: שבת שלום
+  pos: noun
+  example:
+    text: גוט שבת, זיידע!
+    translation: שבת שלום, סבא!
+lessons:
+- id: u05-l1
+  kind: new
+  title:
+    he: על שולחן השבת
+    en: Lesson
+  exercises:
+  - id: u05-l1-01
+    type: tip
+    title: שבת
+    text: 'את **שבת** כבר הכרתם. הברכה לשבת היא **גוט שבת**.
+
+      **חלה, קידוש** ו**שבת** הן מילים עבריות, וכותבים אותן כמו בלשון הקודש.
+
+      **וויין** הוא היין שמשתמשים בו לקידוש.
+
+      '
+  - id: u05-l1-02
+    type: learn
+    lexeme: likht
+  - id: u05-l1-03
+    type: learn
+    lexeme: khale
+  - id: u05-l1-04
+    type: learn
+    lexeme: kidush
+  - id: u05-l1-05
+    type: learn
+    lexeme: vayn
+  - id: u05-l1-06
+    type: learn
+    lexeme: tish
+  - id: u05-l1-07
+    type: learn
+    lexeme: tsindn
+  - id: u05-l1-08
+    type: match_pairs
+    pairs:
+    - - ליכט
+      - נרות
+    - - חלה
+      - לחם השבת
+    - - קידוש
+      - ברכת הקידוש
+    - - וויין
+      - יין (לקידוש)
+    - - טיש
+      - שולחן
+    - - צינדן
+      - להדליק
+    lexemes:
+    - likht
+    - khale
+    - kidush
+    - vayn
+    - tish
+    - tsindn
+  - id: u05-l1-09
+    type: multiple_choice
+    prompt: מה פירוש ליכט?
+    options:
+    - נרות
+    - לחם השבת
+    - ברכת הקידוש
+    correct: 0
+    lexemes:
+    - likht
+  - id: u05-l1-10
+    type: multiple_choice
+    prompt: מה פירוש חלה?
+    options:
+    - לחם השבת
+    - נרות
+    - ברכת הקידוש
+    correct: 0
+    lexemes:
+    - khale
+  - id: u05-l1-11
+    type: multiple_choice
+    prompt: מה פירוש קידוש?
+    options:
+    - ברכת הקידוש
+    - נרות
+    - לחם השבת
+    correct: 0
+    lexemes:
+    - kidush
+  - id: u05-l1-12
+    type: multiple_choice
+    prompt: מה פירוש וויין?
+    options:
+    - יין (לקידוש)
+    - נרות
+    - לחם השבת
+    correct: 0
+    lexemes:
+    - vayn
+  - id: u05-l1-13
+    type: multiple_choice
+    prompt: מה פירוש טיש?
+    options:
+    - שולחן
+    - נרות
+    - לחם השבת
+    correct: 0
+    lexemes:
+    - tish
+  - id: u05-l1-14
+    type: multiple_choice
+    prompt: מה פירוש צינדן?
+    options:
+    - להדליק
+    - נרות
+    - לחם השבת
+    correct: 0
+    lexemes:
+    - tsindn
+- id: u05-l2
+  kind: new
+  title:
+    he: מי עושה מה
+    en: Who does what
+  exercises:
+  - id: u05-l2-01
+    type: learn
+    lexeme: zitsn
+  - id: u05-l2-02
+    type: learn
+    lexeme: mir
+  - id: u05-l2-03
+    type: learn
+    lexeme: shabes2
+  - id: u05-l2-04
+    type: dialogue
+    scene: home
+    lines:
+    - speaker: bobe
+      text: גוט שבת, מנחם!
+      translation: שבת שלום, מנחם!
+    - speaker: menachem
+      text: גוט שבת, באָבע!
+      translation: שבת שלום, סבתא!
+    - speaker: bobe
+      text: מיר זיצן בײַם טיש.
+      translation: אנחנו יושבים ליד השולחן.
+  - id: u05-l2-05
+    type: match_pairs
+    pairs:
+    - - זיצן
+      - לשבת
+    - - מיר
+      - אנחנו
+    - - גוט שבת
+      - שבת שלום
+    lexemes:
+    - zitsn
+    - mir
+    - shabes2
+  - id: u05-l2-06
+    type: multiple_choice
+    prompt: מה פירוש מיר?
+    options:
+    - אנחנו
+    - אני
+    - אתם
+    correct: 0
+    lexemes:
+    - mir
+  - id: u05-l2-07
+    type: translate
+    direction: to_source
+    prompt: מיר זיצן בײַם טיש.
+    answers:
+    - אנחנו יושבים ליד השולחן
+    - אנו יושבים ליד השולחן
+    lexemes:
+    - mir
+    - zitsn
+    - tish
+  - id: u05-l2-08
+    type: translate
+    direction: to_source
+    prompt: די מאַמע צינדט ליכט.
+    answers:
+    - אמא מדליקה נרות
+    - האמא מדליקה נרות
+    lexemes:
+    - tsindn
+    - likht
+    - mame
+  - id: u05-l2-09
+    type: translate
+    direction: to_target
+    prompt: שבת שלום
+    answers:
+    - גוט שבת
+    lexemes:
+    - shabes2
+  - id: u05-l2-10
+    type: fill_blank
+    sentence: מיר ___ בײַם טיש.
+    translation: אנחנו יושבים ליד השולחן
+    answers:
+    - זיצן
+    options:
+    - זיצן
+    - עסן
+    - האָבן
+    lexemes:
+    - zitsn
+- id: u05-review
+  kind: review
+  title:
+    he: 'חזרה: ליל שבת'
+    en: Review
+  exercises:
+  - id: u05-review-01
+    type: match_pairs
+    pairs:
+    - - ליכט
+      - נרות
+    - - חלה
+      - לחם השבת
+    - - קידוש
+      - ברכת הקידוש
+    - - וויין
+      - יין (לקידוש)
+    - - טיש
+      - שולחן
+    - - צינדן
+      - להדליק
+    lexemes:
+    - likht
+    - khale
+    - kidush
+    - vayn
+    - tish
+    - tsindn
+  - id: u05-review-02
+    type: multiple_choice
+    prompt: איך אומרים 'שבת שלום'?
+    options:
+    - גוט שבת
+    - אַ דאַנק
+    - ביטע
+    correct: 0
+    lexemes:
+    - shabes2
+  - id: u05-review-03
+    type: multiple_choice
+    prompt: מה פירוש ליכט?
+    options:
+    - נרות
+    - חלה
+    - יין
+    correct: 0
+    lexemes:
+    - likht
+  - id: u05-review-04
+    type: translate
+    direction: to_source
+    prompt: מיר זיצן.
+    answers:
+    - אנחנו יושבים
+    lexemes:
+    - mir
+    - zitsn
+  - id: u05-review-05
+    type: translate
+    direction: to_target
+    prompt: שולחן
+    answers:
+    - טיש
+    lexemes:
+    - tish

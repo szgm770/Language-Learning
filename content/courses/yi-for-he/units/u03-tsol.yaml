@@ -1,0 +1,467 @@
+id: u03-tsol
+cefr: A1
+scene: family
+title:
+  he: מספרים
+  en: Numbers
+story: הסבתא שואלת את מנחם כמה אחים ואחיות יש לו, ומנחם סופר בקול.
+canDo:
+- לספור מאחד עד עשר
+- לומר כמה יש לי
+- להשתמש ב־האָבן
+vocabulary:
+- id: eyns
+  text: איינס
+  translation: אחד
+  pos: number
+  pronunciation: eyns
+- id: dray
+  text: דרײַ
+  translation: שלוש
+  pos: number
+  pronunciation: dray
+- id: fir
+  text: פֿיר
+  translation: ארבע
+  pos: number
+  pronunciation: fir
+- id: finf
+  text: פֿינף
+  translation: חמש
+  pos: number
+  pronunciation: finf
+- id: zeks
+  text: זעקס
+  translation: שש
+  pos: number
+  pronunciation: zeks
+- id: zibn
+  text: זיבן
+  translation: שבע
+  pos: number
+  pronunciation: zibn
+- id: akht
+  text: אַכט
+  translation: שמונה
+  pos: number
+  pronunciation: akht
+- id: nayn
+  text: נײַן
+  translation: תשע
+  pos: number
+  pronunciation: nayn
+- id: tsen
+  text: צען
+  translation: עשר
+  pos: number
+  pronunciation: tsen
+- id: hobn
+  text: האָבן
+  translation: יש לו / להחזיק
+  pos: verb
+  pronunciation: hobn
+  example:
+    text: איך האָב צוויי ברידער.
+    translation: יש לי שני אחים.
+- id: brider
+  text: ברידער
+  translation: אחים (רבים)
+  pos: noun
+  pronunciation: brider
+- id: vifl
+  text: וויפֿל
+  translation: כמה
+  pos: adverb
+  pronunciation: vifl
+- id: ayn
+  text: איין
+  translation: אחד (לפני שם עצם)
+  pos: determiner
+  pronunciation: ayn
+lessons:
+- id: u03-l1
+  kind: new
+  title:
+    he: אחד עד חמש
+    en: Lesson
+  exercises:
+  - id: u03-l1-01
+    type: tip
+    title: מספרים
+    text: 'המספרים ביידיש: **איינס, צוויי, דרײַ, פֿיר, פֿינף, זעקס, זיבן, אַכט, נײַן, צען**.
+
+      לפני שם עצם אומרים **איין** ולא איינס: **איין שוועסטער** (אחות אחת).
+
+      את **צוויי** כבר הכרתם ביחידה על הצלילים.
+
+      '
+  - id: u03-l1-02
+    type: learn
+    lexeme: eyns
+  - id: u03-l1-03
+    type: learn
+    lexeme: dray
+  - id: u03-l1-04
+    type: learn
+    lexeme: fir
+  - id: u03-l1-05
+    type: learn
+    lexeme: finf
+  - id: u03-l1-06
+    type: learn
+    lexeme: zeks
+  - id: u03-l1-07
+    type: match_pairs
+    pairs:
+    - - איינס
+      - אחד
+    - - דרײַ
+      - שלוש
+    - - פֿיר
+      - ארבע
+    - - פֿינף
+      - חמש
+    - - זעקס
+      - שש
+    lexemes:
+    - eyns
+    - dray
+    - fir
+    - finf
+    - zeks
+  - id: u03-l1-08
+    type: multiple_choice
+    prompt: מה פירוש איינס?
+    options:
+    - אחד
+    - שלוש
+    - ארבע
+    correct: 0
+    lexemes:
+    - eyns
+  - id: u03-l1-09
+    type: multiple_choice
+    prompt: מה פירוש דרײַ?
+    options:
+    - שלוש
+    - אחד
+    - ארבע
+    correct: 0
+    lexemes:
+    - dray
+  - id: u03-l1-10
+    type: multiple_choice
+    prompt: מה פירוש פֿיר?
+    options:
+    - ארבע
+    - אחד
+    - שלוש
+    correct: 0
+    lexemes:
+    - fir
+  - id: u03-l1-11
+    type: multiple_choice
+    prompt: מה פירוש פֿינף?
+    options:
+    - חמש
+    - אחד
+    - שלוש
+    correct: 0
+    lexemes:
+    - finf
+  - id: u03-l1-12
+    type: multiple_choice
+    prompt: מה פירוש זעקס?
+    options:
+    - שש
+    - אחד
+    - שלוש
+    correct: 0
+    lexemes:
+    - zeks
+- id: u03-l2
+  kind: new
+  title:
+    he: שש עד עשר ויש לי
+    en: Lesson
+  exercises:
+  - id: u03-l2-01
+    type: learn
+    lexeme: zibn
+  - id: u03-l2-02
+    type: learn
+    lexeme: akht
+  - id: u03-l2-03
+    type: learn
+    lexeme: nayn
+  - id: u03-l2-04
+    type: learn
+    lexeme: tsen
+  - id: u03-l2-05
+    type: match_pairs
+    pairs:
+    - - '6'
+      - זעקס
+    - - '7'
+      - זיבן
+    - - '8'
+      - אַכט
+    - - '9'
+      - נײַן
+    lexemes:
+    - zibn
+    - akht
+    - nayn
+    - tsen
+  - id: u03-l2-06
+    type: multiple_choice
+    prompt: מה פירוש זיבן?
+    options:
+    - שבע
+    - שמונה
+    - תשע
+    correct: 0
+    lexemes:
+    - zibn
+  - id: u03-l2-07
+    type: multiple_choice
+    prompt: מה פירוש אַכט?
+    options:
+    - שמונה
+    - שבע
+    - תשע
+    correct: 0
+    lexemes:
+    - akht
+  - id: u03-l2-08
+    type: multiple_choice
+    prompt: מה פירוש נײַן?
+    options:
+    - תשע
+    - שבע
+    - שמונה
+    correct: 0
+    lexemes:
+    - nayn
+  - id: u03-l2-09
+    type: multiple_choice
+    prompt: מה פירוש צען?
+    options:
+    - עשר
+    - שבע
+    - שמונה
+    correct: 0
+    lexemes:
+    - tsen
+- id: u03-l3
+  kind: new
+  title:
+    he: יש לי
+    en: I have
+  exercises:
+  - id: u03-l3-01
+    type: learn
+    lexeme: hobn
+  - id: u03-l3-02
+    type: learn
+    lexeme: brider
+  - id: u03-l3-03
+    type: learn
+    lexeme: vifl
+  - id: u03-l3-04
+    type: learn
+    lexeme: ayn
+  - id: u03-l3-05
+    type: dialogue
+    scene: home
+    lines:
+    - speaker: bobe
+      text: וויפֿל ברידער האָסטו?
+      translation: כמה אחים יש לך?
+    - speaker: menachem
+      text: איך האָב צוויי ברידער.
+      translation: יש לי שני אחים.
+    - speaker: bobe
+      text: און שוועסטער?
+      translation: ואחיות?
+    - speaker: menachem
+      text: איך האָב איין שוועסטער.
+      translation: יש לי אחות אחת.
+  - id: u03-l3-06
+    type: match_pairs
+    pairs:
+    - - האָבן
+      - יש לו / להחזיק
+    - - ברידער
+      - אחים (רבים)
+    - - וויפֿל
+      - כמה
+    lexemes:
+    - hobn
+    - brider
+    - vifl
+  - id: u03-l3-07
+    type: multiple_choice
+    prompt: איך אומרים 'יש לי'?
+    options:
+    - איך האָב
+    - איך בין
+    - איך הייס
+    correct: 0
+    lexemes:
+    - hobn
+  - id: u03-l3-08
+    type: multiple_choice
+    prompt: מה פירוש וויפֿל?
+    options:
+    - כמה
+    - איך
+    - איפה
+    correct: 0
+    lexemes:
+    - vifl
+  - id: u03-l3-09
+    type: translate
+    direction: to_source
+    prompt: איך האָב צוויי ברידער.
+    answers:
+    - יש לי שני אחים
+    - יש לי שניים אחים
+    lexemes:
+    - hobn
+    - brider
+    - w-tsvey
+  - id: u03-l3-10
+    type: translate
+    direction: to_source
+    prompt: איך האָב איין שוועסטער.
+    answers:
+    - יש לי אחות אחת
+    - יש לי אחות
+    lexemes:
+    - hobn
+    - ayn
+    - shvester
+  - id: u03-l3-11
+    type: translate
+    direction: to_target
+    prompt: יש לי שני אחים
+    answers:
+    - איך האָב צוויי ברידער
+    lexemes:
+    - hobn
+    - brider
+    - w-tsvey
+  - id: u03-l3-12
+    type: fill_blank
+    sentence: איך ___ צוויי ברידער.
+    translation: יש לי שני אחים
+    answers:
+    - האָב
+    options:
+    - האָב
+    - בין
+    - הייס
+    lexemes:
+    - hobn
+  - id: u03-l3-13
+    type: word_bank
+    prompt: יש לי אחות אחת
+    answers:
+    - איך האָב איין שוועסטער
+    distractors:
+    - בין
+    - ברידער
+    lexemes:
+    - hobn
+    - ayn
+    - shvester
+- id: u03-review
+  kind: review
+  title:
+    he: 'חזרה: מספרים'
+    en: Review
+  exercises:
+  - id: u03-review-01
+    type: match_pairs
+    pairs:
+    - - '1'
+      - איינס
+    - - '3'
+      - דרײַ
+    - - '4'
+      - פֿיר
+    - - '5'
+      - פֿינף
+    - - '10'
+      - צען
+    lexemes:
+    - eyns
+    - dray
+    - fir
+    - finf
+    - tsen
+  - id: u03-review-02
+    type: multiple_choice
+    prompt: איזה מספר זה זעקס?
+    options:
+    - '6'
+    - '7'
+    - '8'
+    correct: 0
+    lexemes:
+    - zeks
+  - id: u03-review-03
+    type: multiple_choice
+    prompt: איזה מספר זה אַכט?
+    options:
+    - '8'
+    - '9'
+    - '10'
+    correct: 0
+    lexemes:
+    - akht
+  - id: u03-review-04
+    type: multiple_choice
+    prompt: איך אומרים 'שבע'?
+    options:
+    - זיבן
+    - זעקס
+    - צען
+    correct: 0
+    lexemes:
+    - zibn
+  - id: u03-review-05
+    type: translate
+    direction: to_source
+    prompt: דרײַ
+    answers:
+    - שלוש
+    - '3'
+    lexemes:
+    - dray
+  - id: u03-review-06
+    type: translate
+    direction: to_source
+    prompt: נײַן
+    answers:
+    - תשע
+    - '9'
+    lexemes:
+    - nayn
+  - id: u03-review-07
+    type: translate
+    direction: to_target
+    prompt: ארבע
+    answers:
+    - פֿיר
+    lexemes:
+    - fir
+  - id: u03-review-08
+    type: translate
+    direction: to_target
+    prompt: עשר
+    answers:
+    - צען
+    lexemes:
+    - tsen
