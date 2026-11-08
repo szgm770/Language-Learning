@@ -82,14 +82,6 @@ export function CoursePath({
                   <p className="text-sm font-semibold text-mint-strong">פתוח לכולם: אפשר להתחיל כאן בכל שלב</p>
                 </li>
               )}
-              {skipTo && (
-                <li className="flex flex-wrap items-center justify-between gap-2 rounded-2xl bg-sunken p-4" data-optional-prep>
-                  <span className="text-ink-soft">שלב ההכנה הוא רשות. מי שכבר מכיר את האותיות והצלילים יכול לדלג.</span>
-                  <Link href={`/lesson/${courseId}/${skipTo.lessons[0]!.id}/`} className="text-sm font-semibold text-cobalt">
-                    דילוג לשיעור הראשון של ״{skipTo.title.he}״
-                  </Link>
-                </li>
-              )}
               {newLevel && (
                 <li
                   className="flex items-end justify-between gap-3 pt-4"
@@ -107,6 +99,14 @@ export function CoursePath({
                   >
                     <Icon name="trophy" className="size-4" />
                     תעודת {levelInfo(manifest, unit.cefr).short}
+                  </Link>
+                </li>
+              )}
+              {skipTo && (
+                <li className="flex flex-wrap items-center justify-between gap-2 rounded-2xl bg-sunken p-4" data-optional-prep>
+                  <span className="text-ink-soft">שלב ההכנה הוא רשות. מי שכבר מכיר את האותיות והצלילים יכול לדלג.</span>
+                  <Link href={`/lesson/${courseId}/${skipTo.lessons[0]!.id}/`} className="text-sm font-semibold text-cobalt">
+                    דילוג לשיעור הראשון של ״{skipTo.title.he}״
                   </Link>
                 </li>
               )}
