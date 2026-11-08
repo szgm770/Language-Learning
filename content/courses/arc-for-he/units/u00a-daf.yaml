@@ -1,0 +1,604 @@
+id: u00a-daf
+cefr: A0
+scene: study
+title:
+  he: דף גמרא
+  en: A page of Gemara
+story: 'איתן וחנה באים לדירה של סבא בירושלים כדי למיין את הספרים. חנה, היסטוריונית, פותחת כרך גמרא ומראה לאיתן איך קוראים דף: משנה, גמרא, וראשי התיבות.'
+canDo:
+- להבחין בין משנה (מתני׳) לגמרא (גמ׳) בדף
+- 'לזהות מקורות: תנן, תניא, ת״ר'
+- 'לפתוח ראשי תיבות נפוצים: א״ר, ת״ש, ש״מ, קמ״ל, וכו׳'
+vocabulary:
+- id: matni
+  text: מתני׳
+  translation: מתניתין, המשנה (כאן מתחילה משנה)
+  pos: noun
+  example:
+    text: מתני׳ מאימתי קורין את שמע בערבין
+    translation: 'משנה: מאימתי קוראים את שמע בערבית?'
+    source: בבלי, ברכות ב ע״א
+- id: gmara
+  text: גמ׳
+  translation: גמרא (כאן מתחיל דיון הגמרא)
+  pos: noun
+  example:
+    text: גמ׳ תנא היכא קאי דקתני מאימתי
+    translation: 'גמרא: התנא, על מה הוא סומך ששונה ׳מאימתי׳?'
+    source: בבלי, ברכות ב ע״א
+    vocalized: גְּמָ׳ תַּנָּא הֵיכָא קָאֵי דְּקָתָנֵי מֵאֵימָתַי
+- id: tnan
+  text: תנן
+  translation: שנינו (במשנה)
+  pos: verb
+  example:
+    text: תנן התם
+    translation: שנינו שם (במשנה אחרת)
+    source: בבלי, גיטין לז ע״א
+    vocalized: תְּנַן הָתָם
+- id: tanya
+  text: תניא
+  translation: שנויה (ברייתא), למדנו בברייתא
+  pos: verb
+  example:
+    text: תניא כוותיה דרבא
+    translation: שנויה ברייתא כשיטת רבא
+    source: בבלי, תמורה ז ע״א
+    vocalized: תַּנְיָא כְּוָותֵיהּ דְּרָבָא
+- id: tr
+  text: ת״ר
+  translation: 'תנו רבנן: שנו חכמים (בברייתא)'
+  pos: phrase
+  example:
+    text: ת"ר לעולם
+    translation: 'שנו חכמים: לעולם…'
+    source: בבלי, קידושין מ ע״א
+    vocalized: 'תָּנוּ רַבָּנַן: לְעוֹלָם'
+- id: ar
+  text: א״ר
+  translation: אמר רב / אמר רבי
+  pos: phrase
+  example:
+    text: אלא א"ר אשי
+    translation: אלא אמר רב אשי
+    source: בבלי, גיטין יג ע״ב
+- id: ts
+  text: ת״ש
+  translation: 'תא שמע: בוא ושמע (ראיה ממקור)'
+  pos: phrase
+  example:
+    text: ת"ש נטלו מוכסין חמורו וכו'
+    translation: 'בוא שמע (ראיה): נטלו מוכסים את חמורו וכו׳'
+    source: בבלי, בבא קמא קיד ע״ב
+    vocalized: 'תָּא שְׁמַע: נָטְלוּ מוֹכְסִין חֲמוֹרוֹ וְכוּ׳'
+- id: vchu
+  text: וכו׳
+  translation: 'וכולי: והמשך הציטוט'
+  pos: phrase
+  example:
+    text: ת"ש נטלו מוכסין חמורו וכו'
+    translation: 'בוא שמע (ראיה): נטלו מוכסים את חמורו וכו׳'
+    source: בבלי, בבא קמא קיד ע״ב
+    vocalized: 'תָּא שְׁמַע: נָטְלוּ מוֹכְסִין חֲמוֹרוֹ וְכוּ׳'
+- id: sm
+  text: ש״מ
+  translation: 'שמע מינה: שמע מכאן, מכאן לומדים'
+  pos: phrase
+  example:
+    text: אלא ש"מ דאורייתא היא
+    translation: 'אלא לומדים מכאן: מן התורה היא'
+    source: בבלי, פסחים יד ע״ב
+    vocalized: אֶלָּא שְׁמַע מִינַּהּ, דְּאוֹרָיְיתָא הִיא
+- id: kml
+  text: קמ״ל
+  translation: 'קא משמע לן: משמיע לנו (זה החידוש)'
+  pos: phrase
+  example:
+    text: מאי קמ"ל
+    translation: מה הוא משמיע לנו (מה החידוש)?
+    source: בבלי, בבא בתרא צח ע״ב
+    vocalized: מַאי קָא מַשְׁמַע לַן
+- id: hadran
+  text: הדרן עלך
+  translation: נחזור אליך (בסוף כל פרק)
+  pos: phrase
+  example:
+    text: הדרן עלך שנים אוחזין
+    translation: נחזור אליך, (פרק) ׳שנים אוחזין׳
+    source: בבלי, בבא מציעא כא ע״א
+    vocalized: הֲדַרַן עֲלָךְ שְׁנַיִם אוֹחֲזִין
+grammar: []
+lessons:
+- id: u00a-l1
+  kind: new
+  title:
+    he: משנה וגמרא
+    en: Mishnah and Gemara
+  exercises:
+  - id: u00a-l1-01
+    type: dialogue
+    scene: דירה ריקה בירושלים. ארגזים, אבק, וקיר שלם של ספרים.
+    lines:
+    - speaker: eitan
+      text: חנה, יש פה עשרים כרכים של גמרא. אני לא יודע אפילו איך מחזיקים אחד.
+      translation: הש״ס של סבא
+    - speaker: chana
+      text: 'אני היסטוריונית, לא ראש ישיבה, אבל את זה אני יודעת. תראה: בכל דף יש מילה גדולה, ״מתני׳״. משם מתחילה משנה.'
+      translation: מתני׳
+    - speaker: chana
+      text: 'וכשכתוב ״גמ׳״, מתחילה הגמרא: הדיון של החכמים על המשנה. המשנה בעברית, והגמרא ברובה בארמית.'
+      translation: גמ׳
+    - speaker: eitan
+      text: ומה זה ״תנן״ ו״תניא״?
+      translation: שאלה
+    - speaker: chana
+      text: ״תנן״ = שנינו במשנה. ״תניא״ = שנינו בברייתא, משנה שלא נכנסה לספר המשנה.
+      translation: תנן ותניא
+  - id: u00a-l1-02
+    type: tip
+    title: איך נראה דף גמרא
+    text: 'באמצע הדף: **משנה** (אחרי **מתני׳**) ו**גמרא** (אחרי **גמ׳**). מסביב: רש״י ותוספות.
+
+
+      הגמרא כתובה **בלי ניקוד** ובלי פיסוק. בקורס אפשר תמיד ללחוץ **הצגה עם ניקוד**.
+
+
+      כל משפט כאן הוא ציטוט אמיתי, ולידו המקור: מסכת, דף ועמוד (ע״א / ע״ב).'
+  - id: u00a-l1-03
+    type: learn
+    lexeme: matni
+  - id: u00a-l1-04
+    type: learn
+    lexeme: gmara
+  - id: u00a-l1-05
+    type: learn
+    lexeme: tnan
+  - id: u00a-l1-06
+    type: learn
+    lexeme: tanya
+  - id: u00a-l1-07
+    type: match_pairs
+    pairs:
+    - - מתני׳
+      - מתניתין, המשנה (כאן מתחילה משנה)
+    - - גמ׳
+      - גמרא (כאן מתחיל דיון הגמרא)
+    - - תנן
+      - שנינו (במשנה)
+    - - תניא
+      - שנויה (ברייתא), למדנו בברייתא
+    lexemes:
+    - matni
+    - gmara
+    - tnan
+    - tanya
+  - id: u00a-l1-08
+    type: multiple_choice
+    prompt: מה פירוש מתני׳?
+    options:
+    - מתניתין, המשנה (כאן מתחילה משנה)
+    - אמר רב / אמר רבי
+    - נחזור אליך (בסוף כל פרק)
+    correct: 0
+    lexemes:
+    - matni
+  - id: u00a-l1-09
+    type: multiple_choice
+    prompt: מה פירוש גמ׳?
+    options:
+    - גמרא (כאן מתחיל דיון הגמרא)
+    - שנינו (במשנה)
+    - מתניתין, המשנה (כאן מתחילה משנה)
+    correct: 0
+    lexemes:
+    - gmara
+  - id: u00a-l1-10
+    type: multiple_choice
+    prompt: מה פירוש תנן?
+    options:
+    - שנינו (במשנה)
+    - מתניתין, המשנה (כאן מתחילה משנה)
+    - שנויה (ברייתא), למדנו בברייתא
+    correct: 0
+    lexemes:
+    - tnan
+  - id: u00a-l1-11
+    type: multiple_choice
+    prompt: מה פירוש תניא?
+    options:
+    - שנויה (ברייתא), למדנו בברייתא
+    - 'וכולי: והמשך הציטוט'
+    - 'תא שמע: בוא ושמע (ראיה ממקור)'
+    correct: 0
+    lexemes:
+    - tanya
+  - id: u00a-l1-12
+    type: fill_blank
+    sentence: ___ מאימתי קורין את שמע בערבין
+    translation: 'משנה: מאימתי קוראים את שמע בערבית?'
+    answers:
+    - מתני׳
+    options:
+    - מתני׳
+    - קמ״ל
+    - ת״ש
+    lexemes:
+    - matni
+    source: בבלי, ברכות ב ע״א
+  - id: u00a-l1-13
+    type: fill_blank
+    sentence: ___ תנא היכא קאי דקתני מאימתי
+    translation: 'גמרא: התנא, על מה הוא סומך ששונה ׳מאימתי׳?'
+    answers:
+    - גמ׳
+    options:
+    - גמ׳
+    - קמ״ל
+    - ת״ש
+    lexemes:
+    - gmara
+    source: בבלי, ברכות ב ע״א
+    vocalized: גְּמָ׳ תַּנָּא הֵיכָא קָאֵי דְּקָתָנֵי מֵאֵימָתַי
+  - id: u00a-l1-14
+    type: fill_blank
+    sentence: ___ התם
+    translation: שנינו שם (במשנה אחרת)
+    answers:
+    - תנן
+    options:
+    - תנן
+    - מתני׳
+    - ת״ש
+    lexemes:
+    - tnan
+    source: בבלי, גיטין לז ע״א
+    vocalized: תְּנַן הָתָם
+  - id: u00a-l1-15
+    type: fill_blank
+    sentence: ___ כוותיה דרבא
+    translation: שנויה ברייתא כשיטת רבא
+    answers:
+    - תניא
+    options:
+    - תניא
+    - א״ר
+    - ש״מ
+    lexemes:
+    - tanya
+    source: בבלי, תמורה ז ע״א
+    vocalized: תַּנְיָא כְּוָותֵיהּ דְּרָבָא
+- id: u00a-l2
+  kind: new
+  title:
+    he: ראשי תיבות
+    en: Abbreviations
+  exercises:
+  - id: u00a-l2-16
+    type: tip
+    title: ראשי תיבות
+    text: 'הגמרא חוסכת מקום. **ת״ר** = תנו רבנן. **א״ר** = אמר רב, או אמר רבי (לפי השם שאחריו). **ת״ש** = תא שמע, בוא שמע. **וכו׳** = וכולי, הציטוט ממשיך.
+
+
+      בתשובות אפשר להקליד ראשי תיבות בכל צורה: ת״ש, ת"ש או תש.'
+  - id: u00a-l2-17
+    type: learn
+    lexeme: tr
+  - id: u00a-l2-18
+    type: learn
+    lexeme: ar
+  - id: u00a-l2-19
+    type: learn
+    lexeme: ts
+  - id: u00a-l2-20
+    type: learn
+    lexeme: vchu
+  - id: u00a-l2-21
+    type: match_pairs
+    pairs:
+    - - ת״ר
+      - 'תנו רבנן: שנו חכמים (בברייתא)'
+    - - א״ר
+      - אמר רב / אמר רבי
+    - - ת״ש
+      - 'תא שמע: בוא ושמע (ראיה ממקור)'
+    - - וכו׳
+      - 'וכולי: והמשך הציטוט'
+    lexemes:
+    - tr
+    - ar
+    - ts
+    - vchu
+  - id: u00a-l2-22
+    type: multiple_choice
+    prompt: מה פירוש ת״ר?
+    options:
+    - 'תנו רבנן: שנו חכמים (בברייתא)'
+    - 'שמע מינה: שמע מכאן, מכאן לומדים'
+    - 'קא משמע לן: משמיע לנו (זה החידוש)'
+    correct: 0
+    lexemes:
+    - tr
+  - id: u00a-l2-23
+    type: multiple_choice
+    prompt: מה פירוש א״ר?
+    options:
+    - אמר רב / אמר רבי
+    - מתניתין, המשנה (כאן מתחילה משנה)
+    - גמרא (כאן מתחיל דיון הגמרא)
+    correct: 0
+    lexemes:
+    - ar
+  - id: u00a-l2-24
+    type: multiple_choice
+    prompt: מה פירוש ת״ש?
+    options:
+    - 'תא שמע: בוא ושמע (ראיה ממקור)'
+    - 'שמע מינה: שמע מכאן, מכאן לומדים'
+    - 'תנו רבנן: שנו חכמים (בברייתא)'
+    correct: 0
+    lexemes:
+    - ts
+  - id: u00a-l2-25
+    type: multiple_choice
+    prompt: מה פירוש וכו׳?
+    options:
+    - 'וכולי: והמשך הציטוט'
+    - גמרא (כאן מתחיל דיון הגמרא)
+    - שנינו (במשנה)
+    correct: 0
+    lexemes:
+    - vchu
+  - id: u00a-l2-26
+    type: fill_blank
+    sentence: ___ לעולם
+    translation: 'שנו חכמים: לעולם…'
+    answers:
+    - ת"ר
+    options:
+    - ת"ר
+    - תניא
+    - וכו׳
+    lexemes:
+    - tr
+    source: בבלי, קידושין מ ע״א
+    vocalized: 'תָּנוּ רַבָּנַן: לְעוֹלָם'
+  - id: u00a-l2-27
+    type: fill_blank
+    sentence: אלא ___ אשי
+    translation: אלא אמר רב אשי
+    answers:
+    - א"ר
+    options:
+    - א"ר
+    - גמ׳
+    - מתני׳
+    lexemes:
+    - ar
+    source: בבלי, גיטין יג ע״ב
+  - id: u00a-l2-28
+    type: fill_blank
+    sentence: ___ נטלו מוכסין חמורו וכו'
+    translation: 'בוא שמע (ראיה): נטלו מוכסים את חמורו וכו׳'
+    answers:
+    - ת"ש
+    options:
+    - ת"ש
+    - וכו׳
+    - הדרן עלך
+    lexemes:
+    - ts
+    source: בבלי, בבא קמא קיד ע״ב
+    vocalized: 'תָּא שְׁמַע: נָטְלוּ מוֹכְסִין חֲמוֹרוֹ וְכוּ׳'
+  - id: u00a-l2-29
+    type: fill_blank
+    sentence: ת"ש נטלו מוכסין חמורו ___
+    translation: 'בוא שמע (ראיה): נטלו מוכסים את חמורו וכו׳'
+    answers:
+    - וכו'
+    options:
+    - וכו'
+    - ת״ר
+    - הדרן עלך
+    lexemes:
+    - vchu
+    source: בבלי, בבא קמא קיד ע״ב
+    vocalized: 'תָּא שְׁמַע: נָטְלוּ מוֹכְסִין חֲמוֹרוֹ וְכוּ׳'
+- id: u00a-l3
+  kind: new
+  title:
+    he: שמע מינה
+    en: We learn from it
+  exercises:
+  - id: u00a-l3-30
+    type: dialogue
+    scene: חנה מדפדפת לסוף הפרק הראשון של בבא מציעא.
+    lines:
+    - speaker: chana
+      text: ״ש״מ״ = שמע מינה, מכאן לומדים. ״קמ״ל״ = קא משמע לן, זה החידוש.
+      translation: ש״מ וקמ״ל
+    - speaker: eitan
+      text: ומה כתוב פה, בסוף, באותיות גדולות?
+      translation: הדרן
+    - speaker: chana
+      text: '״הדרן עלך״. בסוף כל פרק אומרים לו: נחזור אליך. כמו פרידה מחבר.'
+      translation: הדרן עלך
+    - speaker: eitan
+      text: ליד ״הדרן עלך שנים אוחזין״ סבא סימן משהו. אבל זה ריק. רק עיגול.
+      translation: עיגול ריק
+  - id: u00a-l3-31
+    type: learn
+    lexeme: sm
+  - id: u00a-l3-32
+    type: learn
+    lexeme: kml
+  - id: u00a-l3-33
+    type: learn
+    lexeme: hadran
+  - id: u00a-l3-34
+    type: match_pairs
+    pairs:
+    - - ש״מ
+      - 'שמע מינה: שמע מכאן, מכאן לומדים'
+    - - קמ״ל
+      - 'קא משמע לן: משמיע לנו (זה החידוש)'
+    - - הדרן עלך
+      - נחזור אליך (בסוף כל פרק)
+    lexemes:
+    - sm
+    - kml
+    - hadran
+  - id: u00a-l3-35
+    type: multiple_choice
+    prompt: מה פירוש ש״מ?
+    options:
+    - 'שמע מינה: שמע מכאן, מכאן לומדים'
+    - 'קא משמע לן: משמיע לנו (זה החידוש)'
+    - 'וכולי: והמשך הציטוט'
+    correct: 0
+    lexemes:
+    - sm
+  - id: u00a-l3-36
+    type: multiple_choice
+    prompt: מה פירוש קמ״ל?
+    options:
+    - 'קא משמע לן: משמיע לנו (זה החידוש)'
+    - 'תנו רבנן: שנו חכמים (בברייתא)'
+    - 'שמע מינה: שמע מכאן, מכאן לומדים'
+    correct: 0
+    lexemes:
+    - kml
+  - id: u00a-l3-37
+    type: multiple_choice
+    prompt: מה פירוש הדרן עלך?
+    options:
+    - נחזור אליך (בסוף כל פרק)
+    - שנויה (ברייתא), למדנו בברייתא
+    - 'תנו רבנן: שנו חכמים (בברייתא)'
+    correct: 0
+    lexemes:
+    - hadran
+  - id: u00a-l3-38
+    type: fill_blank
+    sentence: אלא ___ דאורייתא היא
+    translation: 'אלא לומדים מכאן: מן התורה היא'
+    answers:
+    - ש"מ
+    options:
+    - ש"מ
+    - קמ״ל
+    - הדרן עלך
+    lexemes:
+    - sm
+    source: בבלי, פסחים יד ע״ב
+    vocalized: אֶלָּא שְׁמַע מִינַּהּ, דְּאוֹרָיְיתָא הִיא
+  - id: u00a-l3-39
+    type: fill_blank
+    sentence: מאי ___
+    translation: מה הוא משמיע לנו (מה החידוש)?
+    answers:
+    - קמ"ל
+    options:
+    - קמ"ל
+    - גמ׳
+    - תניא
+    lexemes:
+    - kml
+    source: בבלי, בבא בתרא צח ע״ב
+    vocalized: מַאי קָא מַשְׁמַע לַן
+  - id: u00a-l3-40
+    type: fill_blank
+    sentence: ___ עלך שנים אוחזין
+    translation: נחזור אליך, (פרק) ׳שנים אוחזין׳
+    answers:
+    - הדרן
+    options:
+    - הדרן
+    - קמ״ל
+    - א״ר
+    lexemes:
+    - hadran
+    source: בבלי, בבא מציעא כא ע״א
+    vocalized: הֲדַרַן עֲלָךְ שְׁנַיִם אוֹחֲזִין
+- id: u00a-l4
+  kind: review
+  title:
+    he: קוראים את הדף
+    en: Reading the page
+  exercises:
+  - id: u00a-l4-41
+    type: multiple_choice
+    prompt: מה מסמנת המילה מתני׳ בדף?
+    options:
+    - שכאן מתחילה משנה
+    - שכאן מתחילה הגמרא
+    - שכאן נגמר הפרק
+    correct: 0
+    lexemes:
+    - matni
+  - id: u00a-l4-42
+    type: multiple_choice
+    prompt: מה פירוש ת״ר?
+    options:
+    - 'תנו רבנן: שנו חכמים'
+    - 'תא שמע: בוא שמע'
+    - 'תלמוד רבנן: לימוד החכמים'
+    correct: 0
+    lexemes:
+    - tr
+  - id: u00a-l4-43
+    type: multiple_choice
+    prompt: ״אלא א״ר אשי״. איך קוראים את זה?
+    options:
+    - אלא אמר רב אשי
+    - אלא אמר רבי אשי
+    - אלא אמרו רבנן
+    correct: 0
+    lexemes:
+    - ar
+    source: בבלי, גיטין יג ע״ב
+  - id: u00a-l4-44
+    type: fill_blank
+    sentence: אלא ___ דאורייתא היא
+    translation: 'אלא לומדים מכאן: מן התורה היא'
+    answers:
+    - ש"מ
+    options:
+    - ש"מ
+    - ת"ש
+    - קמ"ל
+    lexemes:
+    - sm
+    source: בבלי, פסחים יד ע״ב
+    vocalized: אֶלָּא שְׁמַע מִינַּהּ, דְּאוֹרָיְיתָא הִיא
+  - id: u00a-l4-45
+    type: dialogue
+    scene: ערב. חנה כבר בדלת. איתן נשאר עוד רגע ליד השולחן של סבא.
+    lines:
+    - speaker: eitan
+      text: חנה, במגירה של השולחן יש מעטפה. היא סגורה.
+      translation: המעטפה
+    - speaker: chana
+      text: תפתח אותה מחר. היום היה ארוך.
+      translation: מחר
+  - id: u00a-l4-46
+    type: match_pairs
+    pairs:
+    - - מתני׳
+      - מתניתין, המשנה (כאן מתחילה משנה)
+    - - גמ׳
+      - גמרא (כאן מתחיל דיון הגמרא)
+    - - תנן
+      - שנינו (במשנה)
+    - - תניא
+      - שנויה (ברייתא), למדנו בברייתא
+    - - ת״ש
+      - 'תא שמע: בוא ושמע (ראיה ממקור)'
+    - - קמ״ל
+      - 'קא משמע לן: משמיע לנו (זה החידוש)'
+    lexemes:
+    - matni
+    - gmara
+    - tnan
+    - tanya
+    - ts
+    - kml

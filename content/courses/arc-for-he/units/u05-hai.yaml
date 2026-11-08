@@ -1,0 +1,737 @@
+id: u05-hai
+cefr: A1
+scene: study
+title:
+  he: האי ינוקא
+  en: This child
+story: 'התמונה של הילד בגמרא של סבא. חנה בטוחה שזה לא סבא. ר׳ ישראל מלמד את איתן ״הא… הא…״: איך הגמרא מיישבת שני מקורות שסותרים.'
+canDo:
+- 'להבין זה ואלה: האי, הא, הני, הנך'
+- להבין ״הא… הא…״ ו״לא קשיא״
+- להבין ״אי הכי״, ״הכי השתא״, ״מנא הני מילי״
+vocabulary:
+- id: hai
+  text: האי
+  translation: הזה, הזאת
+  pos: pronoun
+  example:
+    text: האי טריד והאי לא טריד
+    translation: זה טרוד, וזה אינו טרוד
+    source: בבלי, ברכות יא ע״א
+    vocalized: הַאי טְרִיד, וְהַאי לָא טְרִיד
+- id: ha
+  text: הא
+  translation: זה, זאת; ״הא… הא…״ = כאן… וכאן…
+  pos: pronoun
+  example:
+    text: לא קשיא הא דאיכא ינוקא הא דליכא ינוקא
+    translation: 'אין קושיה: כאן (מדובר) כשיש תינוק, וכאן כשאין תינוק'
+    source: בבלי, בבא בתרא נז ע״ב
+    vocalized: לָא קַשְׁיָא הָא דְּאִיכָּא יָנוֹקָא, הָא דְּלֵיכָּא יָנוֹקָא
+- id: ynuka
+  text: ינוקא
+  translation: תינוק, ילד קטן
+  pos: noun
+  example:
+    text: לא קשיא הא דאיכא ינוקא הא דליכא ינוקא
+    translation: 'אין קושיה: כאן (מדובר) כשיש תינוק, וכאן כשאין תינוק'
+    source: בבלי, בבא בתרא נז ע״ב
+    vocalized: לָא קַשְׁיָא הָא דְּאִיכָּא יָנוֹקָא, הָא דְּלֵיכָּא יָנוֹקָא
+- id: la-kashya
+  text: לא קשיא
+  translation: אין קושיה (אין סתירה)
+  pos: phrase
+  example:
+    text: לא קשיא הא דאיכא ינוקא הא דליכא ינוקא
+    translation: 'אין קושיה: כאן (מדובר) כשיש תינוק, וכאן כשאין תינוק'
+    source: בבלי, בבא בתרא נז ע״ב
+    vocalized: לָא קַשְׁיָא הָא דְּאִיכָּא יָנוֹקָא, הָא דְּלֵיכָּא יָנוֹקָא
+- id: hani
+  text: הני
+  translation: האלה
+  pos: pronoun
+  example:
+    text: הני עולות נינהו
+    translation: אלה עולות הן
+    source: בבלי, זבחים ט ע״ב
+    vocalized: הָנֵי עוֹלוֹת נִינְהוּ
+- id: hanach
+  text: הנך
+  translation: ההם, האחרים
+  pos: pronoun
+  example:
+    text: הנך נפישן
+    translation: ההם (האחרים) מרובים
+    source: בבלי, מנחות עו ע״א
+    vocalized: הָנָךְ נְפִישָׁן
+- id: hashta
+  text: השתא
+  translation: עכשיו
+  pos: adverb
+  example:
+    text: השתא מיהא לא פריק
+    translation: עכשיו, בכל אופן, לא פדה
+    source: בבלי, מנחות קא ע״ב
+    vocalized: הַשְׁתָּא מִיהָא לָא פָּרֵיק
+- id: hachi
+  text: הכי
+  translation: כך
+  pos: adverb
+  example:
+    text: אי הכי מאי למימרא
+    translation: אם כך, מה (החידוש) לומר זאת?
+    source: בבלי, בבא מציעא קג ע״א
+    vocalized: אִי הָכִי מַאי לְמֵימְרָא
+- id: i-hachi
+  text: אי הכי
+  translation: אם כך
+  pos: phrase
+  example:
+    text: אי הכי מאי למימרא
+    translation: אם כך, מה (החידוש) לומר זאת?
+    source: בבלי, בבא מציעא קג ע״א
+    vocalized: אִי הָכִי מַאי לְמֵימְרָא
+- id: hachi-hashta
+  text: הכי השתא
+  translation: איך אפשר להשוות?! (המקרים שונים)
+  pos: phrase
+  example:
+    text: הכי השתא
+    translation: איך אפשר להשוות?!
+    source: בבלי, בבא בתרא צד ע״ב
+    vocalized: הָכִי הַשְׁתָּא
+- id: milei
+  text: מילי
+  translation: דברים
+  pos: noun
+  example:
+    text: מנא הני מילי
+    translation: מניין (המקור ל)דברים האלה?
+    source: בבלי, עירובין כג ע״ב
+    vocalized: מְנָא הָנֵי מִילֵּי
+- id: milta
+  text: מילתא
+  translation: דבר, עניין
+  pos: noun
+  example:
+    text: דם ובשר חדא מילתא היא
+    translation: דם ובשר — דבר אחד הם
+    source: בבלי, מכות יט ע״ב
+    vocalized: דָּם וּבָשָׂר חֲדָא מִילְּתָא הִיא
+- id: hadar
+  text: הדר
+  translation: 'חזר; ״הדר״ לפני פועל: ואחר כך'
+  pos: verb
+  example:
+    text: בתר דבעיא הדר פשטה
+    translation: אחרי ששאל (את השאלה), חזר ופשט אותה (ענה עליה)
+    source: בבלי, גיטין פג ע״ב
+    vocalized: בָּתַר דְּבַעְיָא, הֲדַר פַּשְׁטַהּ
+- id: batar
+  text: בתר
+  translation: אחרי
+  pos: preposition
+  example:
+    text: בתר דבעיא הדר פשטה
+    translation: אחרי ששאל (את השאלה), חזר ופשט אותה (ענה עליה)
+    source: בבלי, גיטין פג ע״ב
+    vocalized: בָּתַר דְּבַעְיָא, הֲדַר פַּשְׁטַהּ
+grammar: []
+lessons:
+- id: u05-l1
+  kind: new
+  title:
+    he: האי ינוקא
+    en: This child
+  exercises:
+  - id: u05-l1-01
+    type: dialogue
+    scene: חנה מגדילה את התמונה בטלפון.
+    lines:
+    - speaker: chana
+      text: זה לא סבא. לסבא היו אוזניים אחרות, ובתמונות שלו מגיל עשר הוא לא דומה לזה בכלל.
+      translation: החשד של חנה
+    - speaker: eitan
+      text: אז מי הילד? ולמה סבא הדביק אותו דווקא בגמרא?
+      translation: השאלה
+    - speaker: yisrael
+      text: 'בוא נלמד קודם ״הא… הא…״. הגמרא מוצאת שני מקורות שסותרים, ואומרת: ״לא קשיא, הא… הא…״. כאן מדובר במקרה אחד, וכאן במקרה אחר.'
+      translation: הא… הא…
+    - speaker: yisrael
+      text: ובבבא בתרא נז יש בדיוק דוגמה כזו, עם ״ינוקא״.
+      translation: ינוקא = תינוק
+  - id: u05-l1-02
+    type: learn
+    lexeme: hai
+  - id: u05-l1-03
+    type: learn
+    lexeme: ha
+  - id: u05-l1-04
+    type: learn
+    lexeme: ynuka
+  - id: u05-l1-05
+    type: learn
+    lexeme: la-kashya
+  - id: u05-l1-06
+    type: match_pairs
+    pairs:
+    - - האי
+      - הזה, הזאת
+    - - הא
+      - זה, זאת; ״הא… הא…״ = כאן… וכאן…
+    - - ינוקא
+      - תינוק, ילד קטן
+    - - לא קשיא
+      - אין קושיה (אין סתירה)
+    lexemes:
+    - hai
+    - ha
+    - ynuka
+    - la-kashya
+  - id: u05-l1-07
+    type: multiple_choice
+    prompt: מה פירוש האי?
+    options:
+    - הזה, הזאת
+    - תינוק, ילד קטן
+    - ההם, האחרים
+    correct: 0
+    lexemes:
+    - hai
+  - id: u05-l1-08
+    type: multiple_choice
+    prompt: מה פירוש הא?
+    options:
+    - זה, זאת; ״הא… הא…״ = כאן… וכאן…
+    - ההם, האחרים
+    - כך
+    correct: 0
+    lexemes:
+    - ha
+  - id: u05-l1-09
+    type: multiple_choice
+    prompt: מה פירוש ינוקא?
+    options:
+    - תינוק, ילד קטן
+    - זה, זאת; ״הא… הא…״ = כאן… וכאן…
+    - עכשיו
+    correct: 0
+    lexemes:
+    - ynuka
+  - id: u05-l1-10
+    type: multiple_choice
+    prompt: מה פירוש לא קשיא?
+    options:
+    - אין קושיה (אין סתירה)
+    - כך
+    - ההם, האחרים
+    correct: 0
+    lexemes:
+    - la-kashya
+  - id: u05-l1-11
+    type: fill_blank
+    sentence: ___ טריד והאי לא טריד
+    translation: זה טרוד, וזה אינו טרוד
+    answers:
+    - האי
+    options:
+    - האי
+    - בתר
+    - לא קשיא
+    lexemes:
+    - hai
+    source: בבלי, ברכות יא ע״א
+    vocalized: הַאי טְרִיד, וְהַאי לָא טְרִיד
+  - id: u05-l1-12
+    type: fill_blank
+    sentence: לא קשיא ___ דאיכא ינוקא הא דליכא ינוקא
+    translation: 'אין קושיה: כאן (מדובר) כשיש תינוק, וכאן כשאין תינוק'
+    answers:
+    - הא
+    options:
+    - הא
+    - ינוקא
+    - מילתא
+    lexemes:
+    - ha
+    source: בבלי, בבא בתרא נז ע״ב
+    vocalized: לָא קַשְׁיָא הָא דְּאִיכָּא יָנוֹקָא, הָא דְּלֵיכָּא יָנוֹקָא
+  - id: u05-l1-13
+    type: fill_blank
+    sentence: לא קשיא הא דאיכא ___ הא דליכא ינוקא
+    translation: 'אין קושיה: כאן (מדובר) כשיש תינוק, וכאן כשאין תינוק'
+    answers:
+    - ינוקא
+    options:
+    - ינוקא
+    - הא
+    - אי הכי
+    lexemes:
+    - ynuka
+    source: בבלי, בבא בתרא נז ע״ב
+    vocalized: לָא קַשְׁיָא הָא דְּאִיכָּא יָנוֹקָא, הָא דְּלֵיכָּא יָנוֹקָא
+  - id: u05-l1-14
+    type: fill_blank
+    sentence: לא ___ הא דאיכא ינוקא הא דליכא ינוקא
+    translation: 'אין קושיה: כאן (מדובר) כשיש תינוק, וכאן כשאין תינוק'
+    answers:
+    - קשיא
+    options:
+    - קשיא
+    - אי הכי
+    - הא
+    lexemes:
+    - la-kashya
+    source: בבלי, בבא בתרא נז ע״ב
+    vocalized: לָא קַשְׁיָא הָא דְּאִיכָּא יָנוֹקָא, הָא דְּלֵיכָּא יָנוֹקָא
+- id: u05-l2
+  kind: new
+  title:
+    he: הני והנך
+    en: These and those
+  exercises:
+  - id: u05-l2-15
+    type: tip
+    title: זה, אלה, ההם
+    text: '**האי** = הזה. **הא** = זה, זאת. **הני** = האלה. **הנך** = ההם, האחרים.
+
+
+      **הכי** = כך. **אי הכי** = אם כך (בקיצור **א״ה**). **הכי השתא!** = איך אפשר להשוות?!'
+  - id: u05-l2-16
+    type: learn
+    lexeme: hani
+  - id: u05-l2-17
+    type: learn
+    lexeme: hanach
+  - id: u05-l2-18
+    type: learn
+    lexeme: hashta
+  - id: u05-l2-19
+    type: learn
+    lexeme: hachi
+  - id: u05-l2-20
+    type: learn
+    lexeme: i-hachi
+  - id: u05-l2-21
+    type: learn
+    lexeme: hachi-hashta
+  - id: u05-l2-22
+    type: match_pairs
+    pairs:
+    - - הני
+      - האלה
+    - - הנך
+      - ההם, האחרים
+    - - השתא
+      - עכשיו
+    - - הכי
+      - כך
+    - - אי הכי
+      - אם כך
+    - - הכי השתא
+      - איך אפשר להשוות?! (המקרים שונים)
+    lexemes:
+    - hani
+    - hanach
+    - hashta
+    - hachi
+    - i-hachi
+    - hachi-hashta
+  - id: u05-l2-23
+    type: multiple_choice
+    prompt: מה פירוש הני?
+    options:
+    - האלה
+    - זה, זאת; ״הא… הא…״ = כאן… וכאן…
+    - עכשיו
+    correct: 0
+    lexemes:
+    - hani
+  - id: u05-l2-24
+    type: multiple_choice
+    prompt: מה פירוש הנך?
+    options:
+    - ההם, האחרים
+    - 'חזר; ״הדר״ לפני פועל: ואחר כך'
+    - אם כך
+    correct: 0
+    lexemes:
+    - hanach
+  - id: u05-l2-25
+    type: multiple_choice
+    prompt: מה פירוש השתא?
+    options:
+    - עכשיו
+    - זה, זאת; ״הא… הא…״ = כאן… וכאן…
+    - אין קושיה (אין סתירה)
+    correct: 0
+    lexemes:
+    - hashta
+  - id: u05-l2-26
+    type: multiple_choice
+    prompt: מה פירוש הכי?
+    options:
+    - כך
+    - האלה
+    - דברים
+    correct: 0
+    lexemes:
+    - hachi
+  - id: u05-l2-27
+    type: multiple_choice
+    prompt: מה פירוש אי הכי?
+    options:
+    - אם כך
+    - דברים
+    - דבר, עניין
+    correct: 0
+    lexemes:
+    - i-hachi
+  - id: u05-l2-28
+    type: multiple_choice
+    prompt: מה פירוש הכי השתא?
+    options:
+    - איך אפשר להשוות?! (המקרים שונים)
+    - כך
+    - אחרי
+    correct: 0
+    lexemes:
+    - hachi-hashta
+  - id: u05-l2-29
+    type: fill_blank
+    sentence: ___ עולות נינהו
+    translation: אלה עולות הן
+    answers:
+    - הני
+    options:
+    - הני
+    - מילתא
+    - ינוקא
+    lexemes:
+    - hani
+    source: בבלי, זבחים ט ע״ב
+    vocalized: הָנֵי עוֹלוֹת נִינְהוּ
+  - id: u05-l2-30
+    type: fill_blank
+    sentence: ___ נפישן
+    translation: ההם (האחרים) מרובים
+    answers:
+    - הנך
+    options:
+    - הנך
+    - מילתא
+    - הדר
+    lexemes:
+    - hanach
+    source: בבלי, מנחות עו ע״א
+    vocalized: הָנָךְ נְפִישָׁן
+  - id: u05-l2-31
+    type: fill_blank
+    sentence: ___ מיהא לא פריק
+    translation: עכשיו, בכל אופן, לא פדה
+    answers:
+    - השתא
+    options:
+    - השתא
+    - הכי השתא
+    - אי הכי
+    lexemes:
+    - hashta
+    source: בבלי, מנחות קא ע״ב
+    vocalized: הַשְׁתָּא מִיהָא לָא פָּרֵיק
+  - id: u05-l2-32
+    type: fill_blank
+    sentence: אי ___ מאי למימרא
+    translation: אם כך, מה (החידוש) לומר זאת?
+    answers:
+    - הכי
+    options:
+    - הכי
+    - מילי
+    - הא
+    lexemes:
+    - hachi
+    source: בבלי, בבא מציעא קג ע״א
+    vocalized: אִי הָכִי מַאי לְמֵימְרָא
+  - id: u05-l2-33
+    type: fill_blank
+    sentence: ___ הכי מאי למימרא
+    translation: אם כך, מה (החידוש) לומר זאת?
+    answers:
+    - אי
+    options:
+    - אי
+    - הכי השתא
+    - הנך
+    lexemes:
+    - i-hachi
+    source: בבלי, בבא מציעא קג ע״א
+    vocalized: אִי הָכִי מַאי לְמֵימְרָא
+  - id: u05-l2-34
+    type: fill_blank
+    sentence: הכי ___
+    translation: איך אפשר להשוות?!
+    answers:
+    - השתא
+    options:
+    - השתא
+    - הא
+    - הני
+    lexemes:
+    - hachi-hashta
+    source: בבלי, בבא בתרא צד ע״ב
+    vocalized: הָכִי הַשְׁתָּא
+- id: u05-l3
+  kind: new
+  title:
+    he: מנא הני מילי
+    en: Where is this from?
+  exercises:
+  - id: u05-l3-35
+    type: dialogue
+    scene: איתן הופך את התמונה. מאחור כתוב משהו בעיפרון.
+    lines:
+    - speaker: eitan
+      text: יש פה תאריך, 1943, ושם של מקום. נראה כמו עיירה בליטא.
+      translation: גב התמונה
+    - speaker: chana
+      text: ״מנא הני מילי?״ מאיפה זה? אני אבדוק בארכיון.
+      translation: חנה משתמשת במילים החדשות
+    - speaker: yisrael
+      text: '...'
+      translation: ר׳ ישראל שותק
+    - speaker: eitan
+      text: ר׳ ישראל? אתה בסדר?
+      translation: איתן שם לב
+  - id: u05-l3-36
+    type: learn
+    lexeme: milei
+  - id: u05-l3-37
+    type: learn
+    lexeme: milta
+  - id: u05-l3-38
+    type: learn
+    lexeme: hadar
+  - id: u05-l3-39
+    type: learn
+    lexeme: batar
+  - id: u05-l3-40
+    type: match_pairs
+    pairs:
+    - - מילי
+      - דברים
+    - - מילתא
+      - דבר, עניין
+    - - הדר
+      - 'חזר; ״הדר״ לפני פועל: ואחר כך'
+    - - בתר
+      - אחרי
+    lexemes:
+    - milei
+    - milta
+    - hadar
+    - batar
+  - id: u05-l3-41
+    type: multiple_choice
+    prompt: מה פירוש מילי?
+    options:
+    - דברים
+    - אין קושיה (אין סתירה)
+    - איך אפשר להשוות?! (המקרים שונים)
+    correct: 0
+    lexemes:
+    - milei
+  - id: u05-l3-42
+    type: multiple_choice
+    prompt: מה פירוש מילתא?
+    options:
+    - דבר, עניין
+    - תינוק, ילד קטן
+    - אחרי
+    correct: 0
+    lexemes:
+    - milta
+  - id: u05-l3-43
+    type: multiple_choice
+    prompt: מה פירוש הדר?
+    options:
+    - 'חזר; ״הדר״ לפני פועל: ואחר כך'
+    - אם כך
+    - האלה
+    correct: 0
+    lexemes:
+    - hadar
+  - id: u05-l3-44
+    type: multiple_choice
+    prompt: מה פירוש בתר?
+    options:
+    - אחרי
+    - 'חזר; ״הדר״ לפני פועל: ואחר כך'
+    - דברים
+    correct: 0
+    lexemes:
+    - batar
+  - id: u05-l3-45
+    type: fill_blank
+    sentence: מנא הני ___
+    translation: מניין (המקור ל)דברים האלה?
+    answers:
+    - מילי
+    options:
+    - מילי
+    - ינוקא
+    - השתא
+    lexemes:
+    - milei
+    source: בבלי, עירובין כג ע״ב
+    vocalized: מְנָא הָנֵי מִילֵּי
+  - id: u05-l3-46
+    type: fill_blank
+    sentence: דם ובשר חדא ___ היא
+    translation: דם ובשר — דבר אחד הם
+    answers:
+    - מילתא
+    options:
+    - מילתא
+    - הכי
+    - הכי השתא
+    lexemes:
+    - milta
+    source: בבלי, מכות יט ע״ב
+    vocalized: דָּם וּבָשָׂר חֲדָא מִילְּתָא הִיא
+  - id: u05-l3-47
+    type: fill_blank
+    sentence: בתר דבעיא ___ פשטה
+    translation: אחרי ששאל (את השאלה), חזר ופשט אותה (ענה עליה)
+    answers:
+    - הדר
+    options:
+    - הדר
+    - בתר
+    - הכי השתא
+    lexemes:
+    - hadar
+    source: בבלי, גיטין פג ע״ב
+    vocalized: בָּתַר דְּבַעְיָא, הֲדַר פַּשְׁטַהּ
+  - id: u05-l3-48
+    type: fill_blank
+    sentence: ___ דבעיא הדר פשטה
+    translation: אחרי ששאל (את השאלה), חזר ופשט אותה (ענה עליה)
+    answers:
+    - בתר
+    options:
+    - בתר
+    - האי
+    - מילתא
+    lexemes:
+    - batar
+    source: בבלי, גיטין פג ע״ב
+    vocalized: בָּתַר דְּבַעְיָא, הֲדַר פַּשְׁטַהּ
+- id: u05-l4
+  kind: review
+  title:
+    he: לא קשיא
+    en: No contradiction
+  exercises:
+  - id: u05-l4-49
+    type: reading
+    kind: גמרא, בבא בתרא נז ע״ב
+    title: הא והא
+    text: 'לא קשיא הא דאיכא ינוקא הא דליכא ינוקא
+
+
+      ואי בעית אימא הא והא דליכא ינוקא
+
+
+      ולא קשיא הא דאיכא שמעא הא דליכא שמעא'
+    translation: 'אין קושיה: כאן (מדובר) כשיש תינוק, וכאן כשאין תינוק.
+
+
+      ואם תרצה, אמור: כאן וכאן (מדובר) כשאין תינוק,
+
+
+      ואין קושיה: כאן (מדובר) כשיש שמועה (חשש שיישמע), וכאן כשאין שמועה.'
+    lexemes:
+    - ha
+    - ynuka
+    - la-kashya
+    - ika
+    - leika
+    source: בבלי, בבא בתרא נז ע״ב
+    vocalized: 'לָא קַשְׁיָא הָא דְּאִיכָּא יָנוֹקָא, הָא דְּלֵיכָּא יָנוֹקָא. וְאִי בָּעֵית אֵימָא: הָא וְהָא דְּלֵיכָּא יָנוֹקָא; וְלָא קַשְׁיָא הָא דְּאִיכָּא שַׁמָּעָא, הָא דְּלֵיכָּא שַׁמָּעָא'
+  - id: u05-l4-50
+    type: multiple_choice
+    prompt: ״לא קשיא הא דאיכא ינוקא הא דליכא ינוקא״. מה עושה ״לא קשיא, הא… הא…״?
+    options:
+    - מסביר שכל מקור מדבר במקרה אחר
+    - קובע שמקור אחד טעה
+    - משאיר את השאלה בתיקו
+    correct: 0
+    lexemes:
+    - la-kashya
+    - ha
+    source: בבלי, בבא בתרא נז ע״ב
+    vocalized: לָא קַשְׁיָא הָא דְּאִיכָּא יָנוֹקָא, הָא דְּלֵיכָּא יָנוֹקָא
+  - id: u05-l4-51
+    type: fill_blank
+    sentence: האי ___ והאי לא טריד
+    translation: זה טרוד, וזה אינו טרוד
+    answers:
+    - טריד
+    options:
+    - טריד
+    - קאי
+    - הוה
+    lexemes:
+    - hai
+    source: בבלי, ברכות יא ע״א
+    vocalized: הַאי טְרִיד, וְהַאי לָא טְרִיד
+  - id: u05-l4-52
+    type: word_bank
+    prompt: מניין (המקור ל)דברים האלה?
+    answers:
+    - מנא הני מילי
+    distractors:
+    - הנך
+    - הכי
+    lexemes:
+    - mena
+    - hani
+    - milei
+    source: בבלי, עירובין כג ע״ב
+    vocalized: מְנָא הָנֵי מִילֵּי
+  - id: u05-l4-53
+    type: dialogue
+    scene: ר׳ ישראל קם לאט.
+    lines:
+    - speaker: yisrael
+      text: אני מכיר את העיירה הזאת. נדבר על זה, אבל לא היום.
+      translation: ר׳ ישראל מכיר את המקום
+    - speaker: chana
+      text: אז מה ללמוד מחר?
+      translation: שאלה
+    - speaker: yisrael
+      text: מחר נלמד על מה שיש ועל מה שאין. ״איכא״ ו״ליכא״ כבר אתם יודעים. יש עוד.
+      translation: ההמשך
+  - id: u05-l4-54
+    type: match_pairs
+    pairs:
+    - - האי
+      - הזה, הזאת
+    - - הני
+      - האלה
+    - - הנך
+      - ההם, האחרים
+    - - השתא
+      - עכשיו
+    - - בתר
+      - אחרי
+    - - מילתא
+      - דבר, עניין
+    lexemes:
+    - hai
+    - hani
+    - hanach
+    - hashta
+    - batar
+    - milta

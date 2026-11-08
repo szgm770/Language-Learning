@@ -1,0 +1,567 @@
+id: u00b-amar
+cefr: A0
+scene: study
+title:
+  he: מי אמר?
+  en: Who said it?
+story: 'חנה מסבירה לאיתן מי הם החכמים בגמרא: תנאים ואמוראים, רב ושמואל, אביי ורבא, ואיך הגמרא מוסרת דברים מפה לפה.'
+canDo:
+- 'לזהות שמות של חכמים ותארים: רב, רבי, רבנן, מר, בר'
+- 'להבין שרשרת מסירה: משמיה ד…, ואיתימא, ואמרי לה'
+- להבחין בין ״איתמר״ (מחלוקת אמוראים) ל״תניא״ (ברייתא)
+vocabulary:
+- id: rabanan
+  text: רבנן
+  translation: חכמים
+  pos: noun
+  example:
+    text: ואלא מאי רבנן הא אמרי המע"ה
+    translation: 'ואלא מה, (המשנה כשיטת) חכמים? הרי הם אומרים: המוציא מחברו עליו הראיה'
+    source: בבלי, בבא מציעא ב ע״ב
+- id: amri
+  text: אמרי
+  translation: אומרים (הם)
+  pos: verb
+  example:
+    text: ואלא מאי רבנן הא אמרי המע"ה
+    translation: 'ואלא מה, (המשנה כשיטת) חכמים? הרי הם אומרים: המוציא מחברו עליו הראיה'
+    source: בבלי, בבא מציעא ב ע״ב
+- id: bar
+  text: בר
+  translation: בן (בשמות)
+  pos: noun
+  example:
+    text: אמר רב פפא ואיתימא רב שימי בר אשי ואמרי לה כדי
+    translation: אמר רב פפא, ויש אומרים רב שימי בר אשי, ויש אומרים (שאמר את זה) סתם
+    source: בבלי, בבא מציעא ב ע״א
+    vocalized: אָמַר רַב פָּפָּא, וְאִיתֵּימָא רַב שִׁימִי בַּר אָשֵׁי, וְאָמְרִי לַהּ כְּדִי
+- id: veitima
+  text: ואיתימא
+  translation: ויש אומרים (שאמר זאת חכם אחר)
+  pos: phrase
+  example:
+    text: אמר רב פפא ואיתימא רב שימי בר אשי ואמרי לה כדי
+    translation: אמר רב פפא, ויש אומרים רב שימי בר אשי, ויש אומרים (שאמר את זה) סתם
+    source: בבלי, בבא מציעא ב ע״א
+    vocalized: אָמַר רַב פָּפָּא, וְאִיתֵּימָא רַב שִׁימִי בַּר אָשֵׁי, וְאָמְרִי לַהּ כְּדִי
+- id: veamri-la
+  text: ואמרי לה
+  translation: ויש אומרים (נוסח אחר)
+  pos: phrase
+  example:
+    text: אמר רב פפא ואיתימא רב שימי בר אשי ואמרי לה כדי
+    translation: אמר רב פפא, ויש אומרים רב שימי בר אשי, ויש אומרים (שאמר את זה) סתם
+    source: בבלי, בבא מציעא ב ע״א
+    vocalized: אָמַר רַב פָּפָּא, וְאִיתֵּימָא רַב שִׁימִי בַּר אָשֵׁי, וְאָמְרִי לַהּ כְּדִי
+- id: berei
+  text: בריה
+  translation: בנו
+  pos: noun
+  example:
+    text: אמר מר בריה דרבינא
+    translation: אמר מר, בנו של רבינא
+    source: בבלי, עבודה זרה ב ע״ב
+    vocalized: אָמַר מָר בְּרֵיהּ דְּרָבִינָא
+- id: mishmeih
+  text: משמיה
+  translation: בשמו של
+  pos: preposition
+  example:
+    text: אמר רב זביד משמיה דרבא כגון
+    translation: 'אמר רב זביד בשמו של רבא: כגון…'
+    source: בבלי, ראש השנה ו ע״א
+    vocalized: 'אָמַר רַב זְבִיד מִשְּׁמֵיהּ דְּרָבָא: כְּגוֹן'
+- id: itmar
+  text: איתמר
+  translation: נאמר (מחלוקת אמוראים)
+  pos: verb
+  example:
+    text: איתמר רב אמר
+    translation: 'נאמר (נחלקו אמוראים): רב אמר…'
+    source: בבלי, יבמות נז ע״א
+    vocalized: אִיתְּמַר, רַב אָמַר
+- id: kvateih
+  text: כוותיה
+  translation: כמותו, כשיטתו
+  pos: preposition
+  example:
+    text: תניא כוותיה דרבא
+    translation: שנויה ברייתא כשיטת רבא
+    source: בבלי, תמורה ז ע״א
+    vocalized: תַּנְיָא כְּוָותֵיהּ דְּרָבָא
+- id: debei
+  text: דבי
+  translation: של בית (בית מדרש של…)
+  pos: preposition
+  example:
+    text: אמרי דבי ר' ינאי
+    translation: אמרו (חכמים) בבית המדרש של רבי ינאי
+    source: בבלי, בבא בתרא נט ע״א
+    vocalized: אָמְרִי דְּבֵי רַבִּי יַנַּאי
+grammar: []
+lessons:
+- id: u00b-l1
+  kind: new
+  title:
+    he: רבנן ומר
+    en: The sages
+  exercises:
+  - id: u00b-l1-01
+    type: dialogue
+    scene: למחרת בבוקר, לפני שאיתן פותח את המעטפה. חנה מסדרת ספרים לפי מסכתות.
+    lines:
+    - speaker: eitan
+      text: יש פה כל כך הרבה שמות. רב, רבי, רבא, רבה, רבינא. איך מבדילים?
+      translation: השמות
+    - speaker: chana
+      text: ״רבי״ זה תואר של חכמי ארץ ישראל. ״רב״ זה תואר של חכמי בבל. ״רבנן״ = חכמים, כולם ביחד.
+      translation: רב ורבי
+    - speaker: chana
+      text: ו״בר״ זה בן. ״רב שימי בר אשי״ = רב שימי בן אשי. ״בריה״ = בנו.
+      translation: בר, בריה
+  - id: u00b-l1-02
+    type: tip
+    title: תנאים ואמוראים
+    text: '**תנאים**: חכמי המשנה והברייתא (התואר ״רבי״).
+
+
+      **אמוראים**: חכמי הגמרא, בארץ ישראל (״רבי״) ובבבל (״רב״, או בלי תואר: **אביי**, **רבא**).
+
+
+      בדף הם מתווכחים זה עם זה, גם כשחיו בהפרש של מאות שנים.'
+  - id: u00b-l1-03
+    type: learn
+    lexeme: rabanan
+  - id: u00b-l1-04
+    type: learn
+    lexeme: amri
+  - id: u00b-l1-05
+    type: learn
+    lexeme: bar
+  - id: u00b-l1-06
+    type: learn
+    lexeme: berei
+  - id: u00b-l1-07
+    type: match_pairs
+    pairs:
+    - - רבנן
+      - חכמים
+    - - אמרי
+      - אומרים (הם)
+    - - בר
+      - בן (בשמות)
+    - - בריה
+      - בנו
+    lexemes:
+    - rabanan
+    - amri
+    - bar
+    - berei
+  - id: u00b-l1-08
+    type: multiple_choice
+    prompt: מה פירוש רבנן?
+    options:
+    - חכמים
+    - ויש אומרים (שאמר זאת חכם אחר)
+    - בשמו של
+    correct: 0
+    lexemes:
+    - rabanan
+  - id: u00b-l1-09
+    type: multiple_choice
+    prompt: מה פירוש אמרי?
+    options:
+    - אומרים (הם)
+    - נאמר (מחלוקת אמוראים)
+    - בנו
+    correct: 0
+    lexemes:
+    - amri
+  - id: u00b-l1-10
+    type: multiple_choice
+    prompt: מה פירוש בר?
+    options:
+    - בן (בשמות)
+    - בנו
+    - נאמר (מחלוקת אמוראים)
+    correct: 0
+    lexemes:
+    - bar
+  - id: u00b-l1-11
+    type: multiple_choice
+    prompt: מה פירוש בריה?
+    options:
+    - בנו
+    - ויש אומרים (שאמר זאת חכם אחר)
+    - בן (בשמות)
+    correct: 0
+    lexemes:
+    - berei
+  - id: u00b-l1-12
+    type: fill_blank
+    sentence: ואלא מאי ___ הא אמרי המע"ה
+    translation: 'ואלא מה, (המשנה כשיטת) חכמים? הרי הם אומרים: המוציא מחברו עליו הראיה'
+    answers:
+    - רבנן
+    options:
+    - רבנן
+    - דבי
+    - בריה
+    lexemes:
+    - rabanan
+    source: בבלי, בבא מציעא ב ע״ב
+  - id: u00b-l1-13
+    type: fill_blank
+    sentence: ואלא מאי רבנן הא ___ המע"ה
+    translation: 'ואלא מה, (המשנה כשיטת) חכמים? הרי הם אומרים: המוציא מחברו עליו הראיה'
+    answers:
+    - אמרי
+    options:
+    - אמרי
+    - משמיה
+    - איתמר
+    lexemes:
+    - amri
+    source: בבלי, בבא מציעא ב ע״ב
+  - id: u00b-l1-14
+    type: fill_blank
+    sentence: אמר רב פפא ואיתימא רב שימי ___ אשי ואמרי לה כדי
+    translation: אמר רב פפא, ויש אומרים רב שימי בר אשי, ויש אומרים (שאמר את זה) סתם
+    answers:
+    - בר
+    options:
+    - בר
+    - רבנן
+    - כוותיה
+    lexemes:
+    - bar
+    source: בבלי, בבא מציעא ב ע״א
+    vocalized: אָמַר רַב פָּפָּא, וְאִיתֵּימָא רַב שִׁימִי בַּר אָשֵׁי, וְאָמְרִי לַהּ כְּדִי
+  - id: u00b-l1-15
+    type: fill_blank
+    sentence: אמר מר ___ דרבינא
+    translation: אמר מר, בנו של רבינא
+    answers:
+    - בריה
+    options:
+    - בריה
+    - אמרי
+    - רבנן
+    lexemes:
+    - berei
+    source: בבלי, עבודה זרה ב ע״ב
+    vocalized: אָמַר מָר בְּרֵיהּ דְּרָבִינָא
+- id: u00b-l2
+  kind: new
+  title:
+    he: משמיה ד…
+    en: In the name of
+  exercises:
+  - id: u00b-l2-16
+    type: tip
+    title: מי אמר את זה?
+    text: 'הגמרא מקפידה לומר מי אמר כל דבר. **משמיה דרבא** = בשם רבא.
+
+
+      כשלא בטוחים: **ואיתימא** = ויש אומרים שזה חכם אחר. **ואמרי לה** = ויש אומרים נוסח אחר.
+
+
+      **איתמר** פותח מחלוקת של אמוראים: ״איתמר: רב אמר… ושמואל אמר…״.'
+  - id: u00b-l2-17
+    type: learn
+    lexeme: veitima
+  - id: u00b-l2-18
+    type: learn
+    lexeme: veamri-la
+  - id: u00b-l2-19
+    type: learn
+    lexeme: mishmeih
+  - id: u00b-l2-20
+    type: learn
+    lexeme: itmar
+  - id: u00b-l2-21
+    type: match_pairs
+    pairs:
+    - - ואיתימא
+      - ויש אומרים (שאמר זאת חכם אחר)
+    - - ואמרי לה
+      - ויש אומרים (נוסח אחר)
+    - - משמיה
+      - בשמו של
+    - - איתמר
+      - נאמר (מחלוקת אמוראים)
+    lexemes:
+    - veitima
+    - veamri-la
+    - mishmeih
+    - itmar
+  - id: u00b-l2-22
+    type: multiple_choice
+    prompt: מה פירוש ואיתימא?
+    options:
+    - ויש אומרים (שאמר זאת חכם אחר)
+    - אומרים (הם)
+    - של בית (בית מדרש של…)
+    correct: 0
+    lexemes:
+    - veitima
+  - id: u00b-l2-23
+    type: multiple_choice
+    prompt: מה פירוש ואמרי לה?
+    options:
+    - ויש אומרים (נוסח אחר)
+    - אומרים (הם)
+    - של בית (בית מדרש של…)
+    correct: 0
+    lexemes:
+    - veamri-la
+  - id: u00b-l2-24
+    type: multiple_choice
+    prompt: מה פירוש משמיה?
+    options:
+    - בשמו של
+    - כמותו, כשיטתו
+    - בן (בשמות)
+    correct: 0
+    lexemes:
+    - mishmeih
+  - id: u00b-l2-25
+    type: multiple_choice
+    prompt: מה פירוש איתמר?
+    options:
+    - נאמר (מחלוקת אמוראים)
+    - כמותו, כשיטתו
+    - ויש אומרים (שאמר זאת חכם אחר)
+    correct: 0
+    lexemes:
+    - itmar
+  - id: u00b-l2-26
+    type: fill_blank
+    sentence: אמר רב פפא ___ רב שימי בר אשי ואמרי לה כדי
+    translation: אמר רב פפא, ויש אומרים רב שימי בר אשי, ויש אומרים (שאמר את זה) סתם
+    answers:
+    - ואיתימא
+    options:
+    - ואיתימא
+    - כוותיה
+    - משמיה
+    lexemes:
+    - veitima
+    source: בבלי, בבא מציעא ב ע״א
+    vocalized: אָמַר רַב פָּפָּא, וְאִיתֵּימָא רַב שִׁימִי בַּר אָשֵׁי, וְאָמְרִי לַהּ כְּדִי
+  - id: u00b-l2-27
+    type: fill_blank
+    sentence: אמר רב פפא ואיתימא רב שימי בר אשי ואמרי ___ כדי
+    translation: אמר רב פפא, ויש אומרים רב שימי בר אשי, ויש אומרים (שאמר את זה) סתם
+    answers:
+    - לה
+    options:
+    - לה
+    - רבנן
+    - בריה
+    lexemes:
+    - veamri-la
+    source: בבלי, בבא מציעא ב ע״א
+    vocalized: אָמַר רַב פָּפָּא, וְאִיתֵּימָא רַב שִׁימִי בַּר אָשֵׁי, וְאָמְרִי לַהּ כְּדִי
+  - id: u00b-l2-28
+    type: fill_blank
+    sentence: אמר רב זביד ___ דרבא כגון
+    translation: 'אמר רב זביד בשמו של רבא: כגון…'
+    answers:
+    - משמיה
+    options:
+    - משמיה
+    - כוותיה
+    - בר
+    lexemes:
+    - mishmeih
+    source: בבלי, ראש השנה ו ע״א
+    vocalized: 'אָמַר רַב זְבִיד מִשְּׁמֵיהּ דְּרָבָא: כְּגוֹן'
+  - id: u00b-l2-29
+    type: fill_blank
+    sentence: ___ רב אמר
+    translation: 'נאמר (נחלקו אמוראים): רב אמר…'
+    answers:
+    - איתמר
+    options:
+    - איתמר
+    - בריה
+    - אמרי
+    lexemes:
+    - itmar
+    source: בבלי, יבמות נז ע״א
+    vocalized: אִיתְּמַר, רַב אָמַר
+- id: u00b-l3
+  kind: new
+  title:
+    he: כוותיה
+    en: Like him
+  exercises:
+  - id: u00b-l3-30
+    type: dialogue
+    scene: חנה מוצאת מחברת קטנה בין הכרכים.
+    lines:
+    - speaker: chana
+      text: 'זו המחברת של סבא. בכל עמוד: מסכת, דף, ושם של חכם. ״כוותיה דרבא״, ״דבי ר׳ ינאי״.'
+      translation: המחברת
+    - speaker: eitan
+      text: אז הוא למד את כל הש״ס?
+      translation: שאלה
+    - speaker: chana
+      text: כמעט. בבבא מציעא יש סימניות, אבל המחברת נגמרת באמצע.
+      translation: רמז
+  - id: u00b-l3-31
+    type: learn
+    lexeme: kvateih
+  - id: u00b-l3-32
+    type: learn
+    lexeme: debei
+  - id: u00b-l3-33
+    type: match_pairs
+    pairs:
+    - - כוותיה
+      - כמותו, כשיטתו
+    - - דבי
+      - של בית (בית מדרש של…)
+    - - רבנן
+      - חכמים
+    lexemes:
+    - kvateih
+    - debei
+    - rabanan
+  - id: u00b-l3-34
+    type: multiple_choice
+    prompt: מה פירוש כוותיה?
+    options:
+    - כמותו, כשיטתו
+    - חכמים
+    - ויש אומרים (נוסח אחר)
+    correct: 0
+    lexemes:
+    - kvateih
+  - id: u00b-l3-35
+    type: multiple_choice
+    prompt: מה פירוש דבי?
+    options:
+    - של בית (בית מדרש של…)
+    - כמותו, כשיטתו
+    - אומרים (הם)
+    correct: 0
+    lexemes:
+    - debei
+  - id: u00b-l3-36
+    type: fill_blank
+    sentence: תניא ___ דרבא
+    translation: שנויה ברייתא כשיטת רבא
+    answers:
+    - כוותיה
+    options:
+    - כוותיה
+    - ואיתימא
+    - איתמר
+    lexemes:
+    - kvateih
+    source: בבלי, תמורה ז ע״א
+    vocalized: תַּנְיָא כְּוָותֵיהּ דְּרָבָא
+  - id: u00b-l3-37
+    type: fill_blank
+    sentence: אמרי ___ ר' ינאי
+    translation: אמרו (חכמים) בבית המדרש של רבי ינאי
+    answers:
+    - דבי
+    options:
+    - דבי
+    - משמיה
+    - בר
+    lexemes:
+    - debei
+    source: בבלי, בבא בתרא נט ע״א
+    vocalized: אָמְרִי דְּבֵי רַבִּי יַנַּאי
+- id: u00b-l4
+  kind: review
+  title:
+    he: מי אמר?
+    en: Who said it?
+  exercises:
+  - id: u00b-l4-38
+    type: multiple_choice
+    prompt: ״אמר רב זביד משמיה דרבא״. מי אמר את הדברים במקור?
+    options:
+    - רבא
+    - רב זביד
+    - רבנן
+    correct: 0
+    lexemes:
+    - mishmeih
+    source: בבלי, ראש השנה ו ע״א
+    vocalized: אָמַר רַב זְבִיד מִשְּׁמֵיהּ דְּרָבָא
+  - id: u00b-l4-39
+    type: multiple_choice
+    prompt: ״אמר רב פפא ואיתימא רב שימי בר אשי״. מה פירוש ״ואיתימא״?
+    options:
+    - ויש אומרים (שזה חכם אחר)
+    - ואחר כך אמר
+    - ואמר לו
+    correct: 0
+    lexemes:
+    - veitima
+    source: בבלי, בבא מציעא ב ע״א
+    vocalized: אָמַר רַב פָּפָּא, וְאִיתֵּימָא רַב שִׁימִי בַּר אָשֵׁי
+  - id: u00b-l4-40
+    type: fill_blank
+    sentence: תניא ___ דרבא
+    translation: שנויה ברייתא כשיטת רבא
+    answers:
+    - כוותיה
+    options:
+    - כוותיה
+    - משמיה
+    - בריה
+    lexemes:
+    - kvateih
+    source: בבלי, תמורה ז ע״א
+    vocalized: תַּנְיָא כְּוָותֵיהּ דְּרָבָא
+  - id: u00b-l4-41
+    type: word_bank
+    prompt: אמר מר, בנו של רבינא
+    answers:
+    - אמר מר בריה דרבינא
+    distractors:
+    - בר
+    - דבי
+    lexemes:
+    - berei
+    source: בבלי, עבודה זרה ב ע״ב
+    vocalized: אָמַר מָר בְּרֵיהּ דְּרָבִינָא
+  - id: u00b-l4-42
+    type: dialogue
+    scene: איתן מסתכל על המעטפה שעל השולחן.
+    lines:
+    - speaker: chana
+      text: שמרת אותה מאתמול. אולי הגיע הזמן?
+      translation: חנה
+    - speaker: eitan
+      text: טוב. אני פותח אותה.
+      translation: המעטפה
+  - id: u00b-l4-43
+    type: match_pairs
+    pairs:
+    - - רבנן
+      - חכמים
+    - - בר
+      - בן (בשמות)
+    - - בריה
+      - בנו
+    - - משמיה
+      - בשמו של
+    - - איתמר
+      - נאמר (מחלוקת אמוראים)
+    - - כוותיה
+      - כמותו, כשיטתו
+    lexemes:
+    - rabanan
+    - bar
+    - berei
+    - mishmeih
+    - itmar
+    - kvateih
