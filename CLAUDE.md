@@ -33,6 +33,10 @@ All content (any course) is for shomer Torah u'mitzvot users. When writing or re
 5. Moving to another device needs no server: Settings → "מעבר למכשיר אחר" shows a QR of a short position code (`lingo1.<course>.<next lesson id>[.<passed tests>]`, see `lib/transfer.ts`), scans it with the camera (BarcodeDetector or jsQR), accepts it typed, lets the learner pick a place by hand, and imports the JSON export. Applying a code only marks lessons done (same as placement); it never undoes progress. Level tests never block the next lesson.
 6. A Firebase-based sync existed on the `firebase` branch (PR #2, closed) if cloud backup is ever wanted.
 
+## Deploy
+- GitHub Pages: `.github/workflows` publishes `main` under `PAGES_BASE_PATH`.
+- Vercel (project `language-learning-770`, root directory `apps/web`): `apps/web/vercel.json` runs the root build (`pnpm build`, which generates `public/content` first), framework `other`, output `out/`. Do not set `PAGES_BASE_PATH` there. Production branch: `main`.
+
 ## Commands
 - `pnpm check` – types, tests, content validation
 - `pnpm --filter web e2e` – Playwright on phone and desktop, incl. offline, against `out/` (after `pnpm build`; set the same `PAGES_BASE_PATH` for both)
