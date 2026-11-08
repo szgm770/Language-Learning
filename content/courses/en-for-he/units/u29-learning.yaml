@@ -33,6 +33,24 @@ vocabulary:
   - { id: "mind-set", text: "it's never too late", translation: "אף פעם לא מאוחר מדי", pos: "phrase", pronunciation: "אִיטְס נֶבֶר טוּ לֵייט" }
   - { id: "take-exam", text: "take an exam", translation: "לגשת למבחן", pos: "phrase", pronunciation: "טֵייק אֶן אִיגְזֶם" }
 
+  - { id: "progress", text: "progress", translation: "התקדמות", pos: "noun", example: { text: "I make progress every week.", translation: "אני מתקדם כל שבוע." } }
+  - { id: "technique", text: "technique", translation: "טכניקה", pos: "noun", example: { text: "This technique is simple.", translation: "הטכניקה הזאת פשוטה." } }
+  - { id: "institution", text: "institution", translation: "מוסד", pos: "noun", example: { text: "The institution is old.", translation: "המוסד ישן." } }
+  - { id: "academic", text: "academic", translation: "אקדמי", pos: "adjective", example: { text: "She has an academic job.", translation: "יש לה עבודה אקדמית." } }
+  - { id: "educational", text: "educational", translation: "חינוכי", pos: "adjective", example: { text: "This is an educational game.", translation: "זה משחק חינוכי." } }
+  - { id: "publication", text: "publication", translation: "פרסום", pos: "noun", example: { text: "The publication is new.", translation: "הפרסום חדש." } }
+  - { id: "examine", text: "examine", translation: "לבחון", pos: "verb", example: { text: "The doctor will examine you.", translation: "הרופא יבדוק אותך." } }
+  - { id: "investigate", text: "investigate", translation: "לחקור", pos: "verb", example: { text: "They investigate the problem.", translation: "הם חוקרים את הבעיה." } }
+  - { id: "conclude", text: "conclude", translation: "להסיק", pos: "verb", example: { text: "We conclude that it works.", translation: "אנחנו מסיקים שזה עובד." } }
+  - { id: "experiment", text: "experiment", translation: "ניסוי", pos: "noun", example: { text: "The experiment is simple.", translation: "הניסוי פשוט." } }
+  - { id: "observe", text: "observe", translation: "להתבונן", pos: "verb", example: { text: "I observe the birds.", translation: "אני מתבונן בציפורים." } }
+  - { id: "reflect", text: "reflect", translation: "לשקף; להרהר", pos: "verb", example: { text: "Take a minute to reflect.", translation: "קח דקה להרהר." } }
+  - { id: "compete", text: "compete", translation: "להתחרות", pos: "verb", example: { text: "Two teams compete today.", translation: "שתי קבוצות מתחרות היום." } }
+  - { id: "contest", text: "contest", translation: "תחרות", pos: "noun", example: { text: "He wins the contest.", translation: "הוא זוכה בתחרות." } }
+  - { id: "reward", text: "reward", translation: "פרס; גמול", pos: "noun", example: { text: "The reward is a book.", translation: "הפרס הוא ספר." } }
+  - { id: "prize", text: "prize", translation: "פרס", pos: "noun", example: { text: "She wins first prize.", translation: "היא זוכה בפרס ראשון." } }
+  - { id: "achievement", text: "achievement", translation: "הישג", pos: "noun", example: { text: "This is a big achievement.", translation: "זה הישג גדול." } }
+  - { id: "tournament", text: "tournament", translation: "טורניר", pos: "noun", example: { text: "The tournament starts on Sunday.", translation: "הטורניר מתחיל ביום ראשון." } }
 grammar:
   - id: second-conditional
     title: { he: "אילו… הייתי…: תנאי דמיוני", en: "The second conditional" }
@@ -503,3 +521,503 @@ lessons:
             any: ["\\bbecause\\b", "\\bso\\b", "\\bsince\\b"]
         model: "If I had more time, I would study music at university, because I have always loved the piano. If I could choose any city, I would study in Vienna. I think I would learn a lot there, and I would meet interesting people."
         lexemes: []
+  # ------------------------------------------------------------------ story words
+  - id: u29-n1
+    kind: new
+    title:
+      he: 'היומן של נועה: מוסד אקדמי'
+      en: 'Noa''s diary: an academic institution'
+    exercises:
+    - id: u29-n1-01
+      type: dialogue
+      scene: רחל מספרת על התואר שלה.
+      lines:
+      - speaker: rachel
+        text: I apply to an academic institution in Australia. The educational program is excellent.
+        translation: אני מגישה מועמדות למוסד אקדמי באוסטרליה. התוכנית הלימודית מצוינת.
+      - speaker: ben
+        text: What technique do you use to study?
+        translation: באיזו שיטה את לומדת?
+      - speaker: rachel
+        text: I make progress when I write notes. I read every publication on the topic.
+        translation: אני מתקדמת כשאני כותבת הערות. אני קוראת כל פרסום בנושא.
+      - speaker: ben
+        text: Good plan.
+        translation: תוכנית טובה.
+    - id: u29-n1-02
+      type: learn
+      lexeme: progress
+    - id: u29-n1-03
+      type: learn
+      lexeme: technique
+    - id: u29-n1-04
+      type: learn
+      lexeme: institution
+    - id: u29-n1-05
+      type: learn
+      lexeme: academic
+    - id: u29-n1-06
+      type: learn
+      lexeme: educational
+    - id: u29-n1-07
+      type: learn
+      lexeme: publication
+    - id: u29-n1-08
+      type: match_pairs
+      pairs:
+      - - progress
+        - התקדמות
+      - - technique
+        - טכניקה
+      - - institution
+        - מוסד
+      - - academic
+        - אקדמי
+      - - educational
+        - חינוכי
+      - - publication
+        - פרסום
+      lexemes:
+      - progress
+      - technique
+      - institution
+      - academic
+      - educational
+      - publication
+    - id: u29-n1-09
+      type: multiple_choice
+      prompt: progress – מה הפירוש?
+      options:
+      - התקדמות
+      - מוסד
+      - חינוכי
+      correct: 0
+      lexemes:
+      - progress
+    - id: u29-n1-10
+      type: multiple_choice
+      prompt: publication – מה הפירוש?
+      options:
+      - פרסום
+      - חינוכי
+      - אקדמי
+      correct: 0
+      lexemes:
+      - publication
+    - id: u29-n1-11
+      type: multiple_choice
+      prompt: institution – מה הפירוש?
+      options:
+      - מוסד
+      - חינוכי
+      - טכניקה
+      correct: 0
+      lexemes:
+      - institution
+    - id: u29-n1-12
+      type: fill_blank
+      sentence: She has an ___ job.
+      translation: יש לה עבודה אקדמית.
+      answers:
+      - academic
+      options:
+      - academic
+      - progress
+      - publication
+      lexemes:
+      - academic
+    - id: u29-n1-13
+      type: fill_blank
+      sentence: This is an ___ game.
+      translation: זה משחק חינוכי.
+      answers:
+      - educational
+      options:
+      - educational
+      - progress
+      - institution
+      lexemes:
+      - educational
+    - id: u29-n1-14
+      type: fill_blank
+      sentence: This ___ is simple.
+      translation: הטכניקה הזאת פשוטה.
+      answers:
+      - technique
+      options:
+      - technique
+      - institution
+      - academic
+      lexemes:
+      - technique
+    - id: u29-n1-15
+      type: word_bank
+      prompt: אני מתקדם כל שבוע.
+      answers:
+      - I make progress every week.
+      distractors:
+      - institution
+      - academic
+      lexemes:
+      - progress
+    - id: u29-n1-16
+      type: word_bank
+      prompt: הפרסום חדש.
+      answers:
+      - The publication is new.
+      distractors:
+      - educational
+      - institution
+      lexemes:
+      - publication
+    - id: u29-n1-17
+      type: listening_choice
+      audioText: The institution is old.
+      question: מה שמעתם?
+      options:
+      - המוסד ישן.
+      - אני מתקדם כל שבוע.
+      - הטכניקה הזאת פשוטה.
+      correct: 0
+      lexemes:
+      - institution
+    - id: u29-n1-18
+      type: speak_repeat
+      text: I make progress with a good technique.
+      translation: אני מתקדמת עם טכניקה טובה.
+      lexemes:
+      - progress
+      - technique
+  - id: u29-n2
+    kind: new
+    title:
+      he: 'היומן של נועה: לחקור ולבדוק'
+      en: 'Noa''s diary: researching and examining'
+    exercises:
+    - id: u29-n2-01
+      type: dialogue
+      scene: בן מספר על הקורס שלו.
+      lines:
+      - speaker: ben
+        text: We examine the food and investigate how it changes.
+        translation: אנחנו בוחנים את האוכל וחוקרים איך הוא משתנה.
+      - speaker: rachel
+        text: What do you conclude?
+        translation: מה אתה מסיק?
+      - speaker: ben
+        text: That an experiment is the best teacher. I observe and I reflect.
+        translation: שניסוי הוא המורה הכי טוב. אני מתבונן ומהרהר.
+      - speaker: rachel
+        text: Wise.
+        translation: חכם.
+    - id: u29-n2-02
+      type: learn
+      lexeme: examine
+    - id: u29-n2-03
+      type: learn
+      lexeme: investigate
+    - id: u29-n2-04
+      type: learn
+      lexeme: conclude
+    - id: u29-n2-05
+      type: learn
+      lexeme: experiment
+    - id: u29-n2-06
+      type: learn
+      lexeme: observe
+    - id: u29-n2-07
+      type: learn
+      lexeme: reflect
+    - id: u29-n2-08
+      type: match_pairs
+      pairs:
+      - - examine
+        - לבחון
+      - - investigate
+        - לחקור
+      - - conclude
+        - להסיק
+      - - experiment
+        - ניסוי
+      - - observe
+        - להתבונן
+      - - reflect
+        - לשקף; להרהר
+      lexemes:
+      - examine
+      - investigate
+      - conclude
+      - experiment
+      - observe
+      - reflect
+    - id: u29-n2-09
+      type: multiple_choice
+      prompt: conclude – מה הפירוש?
+      options:
+      - להסיק
+      - ניסוי
+      - לשקף; להרהר
+      correct: 0
+      lexemes:
+      - conclude
+    - id: u29-n2-10
+      type: multiple_choice
+      prompt: investigate – מה הפירוש?
+      options:
+      - לחקור
+      - ניסוי
+      - להתבונן
+      correct: 0
+      lexemes:
+      - investigate
+    - id: u29-n2-11
+      type: multiple_choice
+      prompt: reflect – מה הפירוש?
+      options:
+      - לשקף; להרהר
+      - לחקור
+      - להסיק
+      correct: 0
+      lexemes:
+      - reflect
+    - id: u29-n2-12
+      type: fill_blank
+      sentence: I ___ the birds.
+      translation: אני מתבונן בציפורים.
+      answers:
+      - observe
+      options:
+      - observe
+      - conclude
+      - investigate
+      lexemes:
+      - observe
+    - id: u29-n2-13
+      type: fill_blank
+      sentence: The ___ is simple.
+      translation: הניסוי פשוט.
+      answers:
+      - experiment
+      options:
+      - experiment
+      - conclude
+      - reflect
+      lexemes:
+      - experiment
+    - id: u29-n2-14
+      type: fill_blank
+      sentence: The doctor will ___ you.
+      translation: הרופא יבדוק אותך.
+      answers:
+      - examine
+      options:
+      - examine
+      - investigate
+      - observe
+      lexemes:
+      - examine
+    - id: u29-n2-15
+      type: word_bank
+      prompt: אנחנו מסיקים שזה עובד.
+      answers:
+      - We conclude that it works.
+      distractors:
+      - investigate
+      - reflect
+      lexemes:
+      - conclude
+    - id: u29-n2-16
+      type: word_bank
+      prompt: הם חוקרים את הבעיה.
+      answers:
+      - They investigate the problem.
+      distractors:
+      - observe
+      - reflect
+      lexemes:
+      - investigate
+    - id: u29-n2-17
+      type: listening_choice
+      audioText: Take a minute to reflect.
+      question: מה שמעתם?
+      options:
+      - קח דקה להרהר.
+      - הרופא יבדוק אותך.
+      - הם חוקרים את הבעיה.
+      correct: 0
+      lexemes:
+      - reflect
+    - id: u29-n2-18
+      type: speak_repeat
+      text: We examine and we conclude.
+      translation: אנחנו בוחנים ומסיקים.
+      lexemes:
+      - examine
+      - conclude
+  - id: u29-n3
+    kind: new
+    title:
+      he: 'היומן של נועה: תחרות ופרס'
+      en: 'Noa''s diary: contests and prizes'
+    exercises:
+    - id: u29-n3-01
+      type: dialogue
+      scene: מכינים את משחק הערב.
+      lines:
+      - speaker: noa
+        text: We compete in a contest with a prize for the winner.
+        translation: אנחנו מתחרים בתחרות עם פרס למנצח.
+      - speaker: rachel
+        text: The reward is a book. For me it is a big achievement to win.
+        translation: הגמול הוא ספר. בשבילי זה הישג גדול לנצח.
+      - speaker: ben
+        text: The tournament is next week.
+        translation: הטורניר בשבוע הבא.
+      - speaker: noa
+        text: I'm ready.
+        translation: אני מוכנה.
+    - id: u29-n3-02
+      type: learn
+      lexeme: compete
+    - id: u29-n3-03
+      type: learn
+      lexeme: contest
+    - id: u29-n3-04
+      type: learn
+      lexeme: reward
+    - id: u29-n3-05
+      type: learn
+      lexeme: prize
+    - id: u29-n3-06
+      type: learn
+      lexeme: achievement
+    - id: u29-n3-07
+      type: learn
+      lexeme: tournament
+    - id: u29-n3-08
+      type: match_pairs
+      pairs:
+      - - compete
+        - להתחרות
+      - - contest
+        - תחרות
+      - - reward
+        - פרס; גמול
+      - - prize
+        - פרס
+      - - achievement
+        - הישג
+      - - tournament
+        - טורניר
+      lexemes:
+      - compete
+      - contest
+      - reward
+      - prize
+      - achievement
+      - tournament
+    - id: u29-n3-09
+      type: multiple_choice
+      prompt: achievement – מה הפירוש?
+      options:
+      - הישג
+      - תחרות
+      - טורניר
+      correct: 0
+      lexemes:
+      - achievement
+    - id: u29-n3-10
+      type: multiple_choice
+      prompt: prize – מה הפירוש?
+      options:
+      - פרס
+      - הישג
+      - טורניר
+      correct: 0
+      lexemes:
+      - prize
+    - id: u29-n3-11
+      type: multiple_choice
+      prompt: tournament – מה הפירוש?
+      options:
+      - טורניר
+      - להתחרות
+      - תחרות
+      correct: 0
+      lexemes:
+      - tournament
+    - id: u29-n3-12
+      type: fill_blank
+      sentence: Two teams ___ today.
+      translation: שתי קבוצות מתחרות היום.
+      answers:
+      - compete
+      options:
+      - compete
+      - contest
+      - achievement
+      lexemes:
+      - compete
+    - id: u29-n3-13
+      type: fill_blank
+      sentence: He wins the ___.
+      translation: הוא זוכה בתחרות.
+      answers:
+      - contest
+      options:
+      - contest
+      - prize
+      - achievement
+      lexemes:
+      - contest
+    - id: u29-n3-14
+      type: fill_blank
+      sentence: The ___ is a book.
+      translation: הפרס הוא ספר.
+      answers:
+      - reward
+      options:
+      - reward
+      - prize
+      - tournament
+      lexemes:
+      - reward
+    - id: u29-n3-15
+      type: word_bank
+      prompt: זה הישג גדול.
+      answers:
+      - This is a big achievement.
+      distractors:
+      - reward
+      - prize
+      lexemes:
+      - achievement
+    - id: u29-n3-16
+      type: word_bank
+      prompt: היא זוכה בפרס ראשון.
+      answers:
+      - She wins first prize.
+      distractors:
+      - achievement
+      - tournament
+      lexemes:
+      - prize
+    - id: u29-n3-17
+      type: listening_choice
+      audioText: The tournament starts on Sunday.
+      question: מה שמעתם?
+      options:
+      - הטורניר מתחיל ביום ראשון.
+      - שתי קבוצות מתחרות היום.
+      - הוא זוכה בתחרות.
+      correct: 0
+      lexemes:
+      - tournament
+    - id: u29-n3-18
+      type: speak_repeat
+      text: I compete in the tournament for a prize.
+      translation: אני מתחרה בטורניר על פרס.
+      lexemes:
+      - compete
+      - prize
+      - tournament

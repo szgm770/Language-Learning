@@ -33,6 +33,24 @@ vocabulary:
   - { id: "down", text: "down", translation: "לא פועל (מערכת)", pos: "adjective", pronunciation: "דַאוּן", example: { text: "The website is down.", translation: "האתר לא עובד." } }
   - { id: "calm-down", text: "calm down", translation: "להירגע", pos: "verb", pronunciation: "קַאלְם דַאוּן" }
 
+  - { id: "signal", text: "signal", translation: "אות; קליטה", pos: "noun", example: { text: "I have no signal here.", translation: "אין לי קליטה כאן." } }
+  - { id: "switch", text: "switch", translation: "לעבור; מתג", pos: "verb", example: { text: "Switch to the new system.", translation: "עבור למערכת החדשה." } }
+  - { id: "mobile", text: "mobile", translation: "נייד", pos: "adjective", example: { text: "My mobile phone is old.", translation: "הטלפון הנייד שלי ישן." } }
+  - { id: "monitor", text: "monitor", translation: "לעקוב", pos: "verb", example: { text: "We monitor the system all day.", translation: "אנחנו עוקבים אחרי המערכת כל היום." } }
+  - { id: "upgrade", text: "upgrade", translation: "שדרוג", pos: "noun", example: { text: "The upgrade takes an hour.", translation: "השדרוג לוקח שעה." } }
+  - { id: "install", text: "install", translation: "להתקין", pos: "verb", example: { text: "I install the program.", translation: "אני מתקין את התוכנה." } }
+  - { id: "component", text: "component", translation: "רכיב", pos: "noun", example: { text: "This component is broken.", translation: "הרכיב הזה שבור." } }
+  - { id: "procedure", text: "procedure", translation: "נוהל", pos: "noun", example: { text: "We follow the procedure.", translation: "אנחנו פועלים לפי הנוהל." } }
+  - { id: "maintenance", text: "maintenance", translation: "תחזוקה", pos: "noun", example: { text: "Maintenance is on Sunday.", translation: "התחזוקה ביום ראשון." } }
+  - { id: "internal", text: "internal", translation: "פנימי", pos: "adjective", example: { text: "This is an internal matter.", translation: "זה עניין פנימי." } }
+  - { id: "restore", text: "restore", translation: "לשחזר", pos: "verb", example: { text: "Restore the old file.", translation: "שחזר את הקובץ הישן." } }
+  - { id: "nearby", text: "nearby", translation: "קרוב", pos: "adjective", example: { text: "A nearby shop is open.", translation: "חנות קרובה פתוחה." } }
+  - { id: "confidence", text: "confidence", translation: "ביטחון; אמון", pos: "noun", example: { text: "I have confidence in him.", translation: "יש לי אמון בו." } }
+  - { id: "satisfy", text: "satisfy", translation: "לספק; לעמוד בציפיות", pos: "verb", example: { text: "We want to satisfy our clients.", translation: "אנחנו רוצים לספק את הלקוחות שלנו." } }
+  - { id: "disappoint", text: "disappoint", translation: "לאכזב", pos: "verb", example: { text: "I don't want to disappoint you.", translation: "אני לא רוצה לאכזב אותך." } }
+  - { id: "expectation", text: "expectation", translation: "ציפייה", pos: "noun", example: { text: "My expectation is high.", translation: "הציפייה שלי גבוהה." } }
+  - { id: "assistance", text: "assistance", translation: "סיוע", pos: "noun", example: { text: "Do you need assistance?", translation: "אתה צריך סיוע?" } }
+  - { id: "resolution", text: "resolution", translation: "פתרון; החלטה", pos: "noun", example: { text: "We find a resolution.", translation: "אנחנו מוצאים פתרון." } }
 grammar:
   - id: reported-speech
     title: { he: "דיבור עקיף: He said that…", en: "Reported speech" }
@@ -645,3 +663,504 @@ lessons:
         prompt: "I look forward to working with you."
         answers: ["אני מצפה לעבוד איתך.", "אני מצפה לעבוד איתכם.", "אני מצפה לעבוד אתך.", "אני מחכה לעבוד איתך."]
         lexemes: [look-forward-to]
+  # ------------------------------------------------------------------ story words
+  - id: u30-n1
+    kind: new
+    title:
+      he: 'היומן של נועה: אות ומתג'
+      en: 'Noa''s diary: signal and switch'
+    exercises:
+    - id: u30-n1-01
+      type: dialogue
+      scene: הלילה שבו השרתים קורסים.
+      lines:
+      - speaker: david
+        text: I lose the signal on my mobile. Switch to the other network.
+        translation: אני מאבד קליטה בנייד. עבור לרשת השנייה.
+      - speaker: noa
+        text: I monitor the servers from here. We need to install the upgrade.
+        translation: אני עוקבת אחרי השרתים מכאן. צריך להתקין את השדרוג.
+      - speaker: david
+        text: Do it now.
+        translation: תעשי את זה עכשיו.
+      - speaker: noa
+        text: On it.
+        translation: מטפלת בזה.
+    - id: u30-n1-02
+      type: learn
+      lexeme: signal
+    - id: u30-n1-03
+      type: learn
+      lexeme: switch
+    - id: u30-n1-04
+      type: learn
+      lexeme: mobile
+    - id: u30-n1-05
+      type: learn
+      lexeme: monitor
+    - id: u30-n1-06
+      type: learn
+      lexeme: upgrade
+    - id: u30-n1-07
+      type: learn
+      lexeme: install
+    - id: u30-n1-08
+      type: match_pairs
+      pairs:
+      - - signal
+        - אות; קליטה
+      - - switch
+        - לעבור; מתג
+      - - mobile
+        - נייד
+      - - monitor
+        - לעקוב
+      - - upgrade
+        - שדרוג
+      - - install
+        - להתקין
+      lexemes:
+      - signal
+      - switch
+      - mobile
+      - monitor
+      - upgrade
+      - install
+    - id: u30-n1-09
+      type: multiple_choice
+      prompt: monitor – מה הפירוש?
+      options:
+      - לעקוב
+      - לעבור; מתג
+      - שדרוג
+      correct: 0
+      lexemes:
+      - monitor
+    - id: u30-n1-10
+      type: multiple_choice
+      prompt: mobile – מה הפירוש?
+      options:
+      - נייד
+      - להתקין
+      - שדרוג
+      correct: 0
+      lexemes:
+      - mobile
+    - id: u30-n1-11
+      type: multiple_choice
+      prompt: upgrade – מה הפירוש?
+      options:
+      - שדרוג
+      - להתקין
+      - לעבור; מתג
+      correct: 0
+      lexemes:
+      - upgrade
+    - id: u30-n1-12
+      type: fill_blank
+      sentence: ___ to the new system.
+      translation: עבור למערכת החדשה.
+      answers:
+      - Switch
+      options:
+      - Switch
+      - mobile
+      - upgrade
+      lexemes:
+      - switch
+    - id: u30-n1-13
+      type: fill_blank
+      sentence: I have no ___ here.
+      translation: אין לי קליטה כאן.
+      answers:
+      - signal
+      options:
+      - signal
+      - upgrade
+      - switch
+      lexemes:
+      - signal
+    - id: u30-n1-14
+      type: fill_blank
+      sentence: I ___ the program.
+      translation: אני מתקין את התוכנה.
+      answers:
+      - install
+      options:
+      - install
+      - switch
+      - monitor
+      lexemes:
+      - install
+    - id: u30-n1-15
+      type: word_bank
+      prompt: אנחנו עוקבים אחרי המערכת כל היום.
+      answers:
+      - We monitor the system all day.
+      distractors:
+      - signal
+      - upgrade
+      lexemes:
+      - monitor
+    - id: u30-n1-16
+      type: word_bank
+      prompt: הטלפון הנייד שלי ישן.
+      answers:
+      - My mobile phone is old.
+      distractors:
+      - upgrade
+      - switch
+      lexemes:
+      - mobile
+    - id: u30-n1-17
+      type: listening_choice
+      audioText: The upgrade takes an hour.
+      question: מה שמעתם?
+      options:
+      - השדרוג לוקח שעה.
+      - אין לי קליטה כאן.
+      - עבור למערכת החדשה.
+      correct: 0
+      lexemes:
+      - upgrade
+    - id: u30-n1-18
+      type: speak_repeat
+      text: I install the upgrade on my mobile.
+      translation: אני מתקינה את השדרוג בנייד שלי.
+      lexemes:
+      - mobile
+      - upgrade
+      - install
+  - id: u30-n2
+    kind: new
+    title:
+      he: 'היומן של נועה: תקלה ותיקון'
+      en: 'Noa''s diary: fault and fix'
+    exercises:
+    - id: u30-n2-01
+      type: dialogue
+      scene: הצוות מחפש את מקור התקלה.
+      lines:
+      - speaker: noa
+        text: The faulty component is internal. We follow the procedure.
+        translation: הרכיב התקול הוא פנימי. אנחנו פועלים לפי הנוהל.
+      - speaker: david
+        text: Maintenance missed it. Restore the last copy.
+        translation: התחזוקה פספסה את זה. שחזרי את העותק האחרון.
+      - speaker: noa
+        text: The nearby server works fine.
+        translation: השרת הקרוב עובד מצוין.
+      - speaker: david
+        text: Use it.
+        translation: תשתמשי בו.
+    - id: u30-n2-02
+      type: learn
+      lexeme: component
+    - id: u30-n2-03
+      type: learn
+      lexeme: procedure
+    - id: u30-n2-04
+      type: learn
+      lexeme: maintenance
+    - id: u30-n2-05
+      type: learn
+      lexeme: internal
+    - id: u30-n2-06
+      type: learn
+      lexeme: restore
+    - id: u30-n2-07
+      type: learn
+      lexeme: nearby
+    - id: u30-n2-08
+      type: match_pairs
+      pairs:
+      - - component
+        - רכיב
+      - - procedure
+        - נוהל
+      - - maintenance
+        - תחזוקה
+      - - internal
+        - פנימי
+      - - restore
+        - לשחזר
+      - - nearby
+        - קרוב
+      lexemes:
+      - component
+      - procedure
+      - maintenance
+      - internal
+      - restore
+      - nearby
+    - id: u30-n2-09
+      type: multiple_choice
+      prompt: restore – מה הפירוש?
+      options:
+      - לשחזר
+      - קרוב
+      - תחזוקה
+      correct: 0
+      lexemes:
+      - restore
+    - id: u30-n2-10
+      type: multiple_choice
+      prompt: maintenance – מה הפירוש?
+      options:
+      - תחזוקה
+      - לשחזר
+      - קרוב
+      correct: 0
+      lexemes:
+      - maintenance
+    - id: u30-n2-11
+      type: multiple_choice
+      prompt: procedure – מה הפירוש?
+      options:
+      - נוהל
+      - לשחזר
+      - פנימי
+      correct: 0
+      lexemes:
+      - procedure
+    - id: u30-n2-12
+      type: fill_blank
+      sentence: A ___ shop is open.
+      translation: חנות קרובה פתוחה.
+      answers:
+      - nearby
+      options:
+      - nearby
+      - restore
+      - maintenance
+      lexemes:
+      - nearby
+    - id: u30-n2-13
+      type: fill_blank
+      sentence: This ___ is broken.
+      translation: הרכיב הזה שבור.
+      answers:
+      - component
+      options:
+      - component
+      - maintenance
+      - internal
+      lexemes:
+      - component
+    - id: u30-n2-14
+      type: fill_blank
+      sentence: This is an ___ matter.
+      translation: זה עניין פנימי.
+      answers:
+      - internal
+      options:
+      - internal
+      - component
+      - maintenance
+      lexemes:
+      - internal
+    - id: u30-n2-15
+      type: word_bank
+      prompt: שחזר את הקובץ הישן.
+      answers:
+      - Restore the old file.
+      distractors:
+      - procedure
+      - internal
+      lexemes:
+      - restore
+    - id: u30-n2-16
+      type: word_bank
+      prompt: התחזוקה ביום ראשון.
+      answers:
+      - Maintenance is on Sunday.
+      distractors:
+      - component
+      - procedure
+      lexemes:
+      - maintenance
+    - id: u30-n2-17
+      type: listening_choice
+      audioText: We follow the procedure.
+      question: מה שמעתם?
+      options:
+      - אנחנו פועלים לפי הנוהל.
+      - הרכיב הזה שבור.
+      - התחזוקה ביום ראשון.
+      correct: 0
+      lexemes:
+      - procedure
+    - id: u30-n2-18
+      type: speak_repeat
+      text: We restore the component by the procedure.
+      translation: אנחנו משחזרים את הרכיב לפי הנוהל.
+      lexemes:
+      - component
+      - procedure
+      - restore
+  - id: u30-n3
+    kind: new
+    title:
+      he: 'היומן של נועה: ללקוח יש ציפיות'
+      en: 'Noa''s diary: the client''s expectations'
+    exercises:
+    - id: u30-n3-01
+      type: dialogue
+      scene: שיחת סיכום עם הלקוח.
+      lines:
+      - speaker: cohen
+        text: I have confidence in your team, but my expectation is clear.
+        translation: יש לי אמון בצוות שלך, אבל הציפייה שלי ברורה.
+      - speaker: noa
+        text: We will satisfy it. I'm sorry to disappoint you tonight.
+        translation: נעמוד בה. אני מצטערת לאכזב אותך הלילה.
+      - speaker: cohen
+        text: Do you need assistance?
+        translation: את צריכה סיוע?
+      - speaker: noa
+        text: No, the resolution is on its way.
+        translation: לא, הפתרון בדרך.
+    - id: u30-n3-02
+      type: learn
+      lexeme: confidence
+    - id: u30-n3-03
+      type: learn
+      lexeme: satisfy
+    - id: u30-n3-04
+      type: learn
+      lexeme: disappoint
+    - id: u30-n3-05
+      type: learn
+      lexeme: expectation
+    - id: u30-n3-06
+      type: learn
+      lexeme: assistance
+    - id: u30-n3-07
+      type: learn
+      lexeme: resolution
+    - id: u30-n3-08
+      type: match_pairs
+      pairs:
+      - - confidence
+        - ביטחון; אמון
+      - - satisfy
+        - לספק; לעמוד בציפיות
+      - - disappoint
+        - לאכזב
+      - - expectation
+        - ציפייה
+      - - assistance
+        - סיוע
+      - - resolution
+        - פתרון; החלטה
+      lexemes:
+      - confidence
+      - satisfy
+      - disappoint
+      - expectation
+      - assistance
+      - resolution
+    - id: u30-n3-09
+      type: multiple_choice
+      prompt: expectation – מה הפירוש?
+      options:
+      - ציפייה
+      - לאכזב
+      - ביטחון; אמון
+      correct: 0
+      lexemes:
+      - expectation
+    - id: u30-n3-10
+      type: multiple_choice
+      prompt: satisfy – מה הפירוש?
+      options:
+      - לספק; לעמוד בציפיות
+      - לאכזב
+      - סיוע
+      correct: 0
+      lexemes:
+      - satisfy
+    - id: u30-n3-11
+      type: multiple_choice
+      prompt: disappoint – מה הפירוש?
+      options:
+      - לאכזב
+      - סיוע
+      - לספק; לעמוד בציפיות
+      correct: 0
+      lexemes:
+      - disappoint
+    - id: u30-n3-12
+      type: fill_blank
+      sentence: I have ___ in him.
+      translation: יש לי אמון בו.
+      answers:
+      - confidence
+      options:
+      - confidence
+      - disappoint
+      - satisfy
+      lexemes:
+      - confidence
+    - id: u30-n3-13
+      type: fill_blank
+      sentence: Do you need ___?
+      translation: אתה צריך סיוע?
+      answers:
+      - assistance
+      options:
+      - assistance
+      - satisfy
+      - expectation
+      lexemes:
+      - assistance
+    - id: u30-n3-14
+      type: fill_blank
+      sentence: We find a ___.
+      translation: אנחנו מוצאים פתרון.
+      answers:
+      - resolution
+      options:
+      - resolution
+      - expectation
+      - satisfy
+      lexemes:
+      - resolution
+    - id: u30-n3-15
+      type: word_bank
+      prompt: הציפייה שלי גבוהה.
+      answers:
+      - My expectation is high.
+      distractors:
+      - satisfy
+      - resolution
+      lexemes:
+      - expectation
+    - id: u30-n3-16
+      type: word_bank
+      prompt: אנחנו רוצים לספק את הלקוחות שלנו.
+      answers:
+      - We want to satisfy our clients.
+      distractors:
+      - assistance
+      - expectation
+      lexemes:
+      - satisfy
+    - id: u30-n3-17
+      type: listening_choice
+      audioText: I don't want to disappoint you.
+      question: מה שמעתם?
+      options:
+      - אני לא רוצה לאכזב אותך.
+      - יש לי אמון בו.
+      - אנחנו רוצים לספק את הלקוחות שלנו.
+      correct: 0
+      lexemes:
+      - disappoint
+    - id: u30-n3-18
+      type: speak_repeat
+      text: I satisfy the client and keep my confidence.
+      translation: אני מספקת את הלקוח ושומרת על הביטחון שלי.
+      lexemes:
+      - confidence
+      - satisfy

@@ -33,6 +33,24 @@ vocabulary:
   - { id: "available", text: "available", translation: "פנוי, זמין", pos: "adjective", pronunciation: "אָבֵיילַבֶּל" }
   - { id: "fully-booked", text: "fully booked", translation: "מלא, אין מקום", pos: "phrase", pronunciation: "פוּלִי בּוּקְט" }
 
+  - { id: "plane", text: "plane", translation: "מטוס", pos: "noun", example: { text: "The plane lands at noon.", translation: "המטוס נוחת בצהריים." } }
+  - { id: "port", text: "port", translation: "נמל", pos: "noun", example: { text: "The port is near the city.", translation: "הנמל קרוב לעיר." } }
+  - { id: "passenger", text: "passenger", translation: "נוסע", pos: "noun", example: { text: "Each passenger has a seat.", translation: "לכל נוסע יש מושב." } }
+  - { id: "rail", text: "rail", translation: "מסילה; רכבת", pos: "noun", example: { text: "We go by rail to the airport.", translation: "אנחנו נוסעים ברכבת לשדה התעופה." } }
+  - { id: "transport", text: "transport", translation: "תחבורה", pos: "noun", example: { text: "Public transport is cheap here.", translation: "התחבורה הציבורית זולה כאן." } }
+  - { id: "truck", text: "truck", translation: "משאית", pos: "noun", example: { text: "A truck brings the bags.", translation: "משאית מביאה את התיקים." } }
+  - { id: "restaurant", text: "restaurant", translation: "מסעדה", pos: "noun", example: { text: "The restaurant is kosher.", translation: "המסעדה כשרה." } }
+  - { id: "bowl", text: "bowl", translation: "קערה", pos: "noun", example: { text: "I eat a bowl of soup.", translation: "אני אוכל קערת מרק." } }
+  - { id: "lunch", text: "lunch", translation: "ארוחת צהריים", pos: "noun", example: { text: "We eat lunch at one o'clock.", translation: "אנחנו אוכלים ארוחת צהריים באחת." } }
+  - { id: "plate", text: "plate", translation: "צלחת", pos: "noun", example: { text: "Put the food on the plate.", translation: "שים את האוכל על הצלחת." } }
+  - { id: "silver", text: "silver", translation: "כסף (חומר)", pos: "noun", example: { text: "The spoon is silver.", translation: "הכפית עשויה כסף." } }
+  - { id: "meal", text: "meal", translation: "ארוחה", pos: "noun", example: { text: "This meal is delicious.", translation: "הארוחה הזאת טעימה." } }
+  - { id: "northern", text: "northern", translation: "צפוני", pos: "adjective", example: { text: "The northern road is quiet.", translation: "הכביש הצפוני שקט." } }
+  - { id: "southern", text: "southern", translation: "דרומי", pos: "adjective", example: { text: "The southern part is hot.", translation: "החלק הדרומי חם." } }
+  - { id: "eastern", text: "eastern", translation: "מזרחי", pos: "adjective", example: { text: "The eastern gate is open.", translation: "השער המזרחי פתוח." } }
+  - { id: "path", text: "path", translation: "שביל", pos: "noun", example: { text: "The path goes to the lake.", translation: "השביל מוביל לאגם." } }
+  - { id: "peak", text: "peak", translation: "פסגה", pos: "noun", example: { text: "We reach the peak at noon.", translation: "אנחנו מגיעים לפסגה בצהריים." } }
+  - { id: "anywhere", text: "anywhere", translation: "בכל מקום", pos: "adverb", example: { text: "You can sit anywhere.", translation: "אפשר לשבת בכל מקום." } }
 grammar:
   - id: future-forms
     title: { he: "שלוש דרכים לעתיד", en: "Will, going to and present continuous" }
@@ -495,3 +513,504 @@ lessons:
             any: ["\\bvisit", "\\bsee\\b", "\\bwalk", "\\bhike", "\\bmuseum"]
         model: "Next month I am going to visit Rome with my wife. We are flying on Sunday morning and we will stay in a small hotel near the centre. On Monday we will visit the museums, and on Tuesday we are going to walk through the old town and eat at a kosher restaurant."
         lexemes: []
+  # ------------------------------------------------------------------ story words
+  - id: u25-n1
+    kind: new
+    title:
+      he: 'היומן של נועה: נמל תעופה'
+      en: 'Noa''s diary: the airport'
+    exercises:
+    - id: u25-n1-01
+      type: dialogue
+      scene: הצוות עולה על המטוס לתל אביב.
+      lines:
+      - speaker: ben
+        text: Our plane leaves from this port. Every passenger needs a boarding card.
+        translation: המטוס שלנו יוצא מהנמל הזה. כל נוסע צריך כרטיס עלייה.
+      - speaker: noa
+        text: The truck with the luggage is late.
+        translation: המשאית עם המזוודות מאחרת.
+      - speaker: ben
+        text: Take the rail to the terminal, it is the best transport here.
+        translation: תיקחי את הרכבת למסוף, זו התחבורה הכי טובה כאן.
+      - speaker: noa
+        text: Thanks.
+        translation: תודה.
+    - id: u25-n1-02
+      type: learn
+      lexeme: plane
+    - id: u25-n1-03
+      type: learn
+      lexeme: port
+    - id: u25-n1-04
+      type: learn
+      lexeme: passenger
+    - id: u25-n1-05
+      type: learn
+      lexeme: rail
+    - id: u25-n1-06
+      type: learn
+      lexeme: transport
+    - id: u25-n1-07
+      type: learn
+      lexeme: truck
+    - id: u25-n1-08
+      type: match_pairs
+      pairs:
+      - - plane
+        - מטוס
+      - - port
+        - נמל
+      - - passenger
+        - נוסע
+      - - rail
+        - מסילה; רכבת
+      - - transport
+        - תחבורה
+      - - truck
+        - משאית
+      lexemes:
+      - plane
+      - port
+      - passenger
+      - rail
+      - transport
+      - truck
+    - id: u25-n1-09
+      type: multiple_choice
+      prompt: rail – מה הפירוש?
+      options:
+      - מסילה; רכבת
+      - נוסע
+      - נמל
+      correct: 0
+      lexemes:
+      - rail
+    - id: u25-n1-10
+      type: multiple_choice
+      prompt: plane – מה הפירוש?
+      options:
+      - מטוס
+      - מסילה; רכבת
+      - נמל
+      correct: 0
+      lexemes:
+      - plane
+    - id: u25-n1-11
+      type: multiple_choice
+      prompt: transport – מה הפירוש?
+      options:
+      - תחבורה
+      - מטוס
+      - נמל
+      correct: 0
+      lexemes:
+      - transport
+    - id: u25-n1-12
+      type: fill_blank
+      sentence: Each ___ has a seat.
+      translation: לכל נוסע יש מושב.
+      answers:
+      - passenger
+      options:
+      - passenger
+      - port
+      - truck
+      lexemes:
+      - passenger
+    - id: u25-n1-13
+      type: fill_blank
+      sentence: The ___ is near the city.
+      translation: הנמל קרוב לעיר.
+      answers:
+      - port
+      options:
+      - port
+      - truck
+      - transport
+      lexemes:
+      - port
+    - id: u25-n1-14
+      type: fill_blank
+      sentence: A ___ brings the bags.
+      translation: משאית מביאה את התיקים.
+      answers:
+      - truck
+      options:
+      - truck
+      - rail
+      - port
+      lexemes:
+      - truck
+    - id: u25-n1-15
+      type: word_bank
+      prompt: אנחנו נוסעים ברכבת לשדה התעופה.
+      answers:
+      - We go by rail to the airport.
+      distractors:
+      - port
+      - passenger
+      lexemes:
+      - rail
+    - id: u25-n1-16
+      type: word_bank
+      prompt: המטוס נוחת בצהריים.
+      answers:
+      - The plane lands at noon.
+      distractors:
+      - truck
+      - port
+      lexemes:
+      - plane
+    - id: u25-n1-17
+      type: listening_choice
+      audioText: Public transport is cheap here.
+      question: מה שמעתם?
+      options:
+      - התחבורה הציבורית זולה כאן.
+      - המטוס נוחת בצהריים.
+      - הנמל קרוב לעיר.
+      correct: 0
+      lexemes:
+      - transport
+    - id: u25-n1-18
+      type: speak_repeat
+      text: The passenger takes the plane to the port.
+      translation: הנוסע לוקח את המטוס לנמל.
+      lexemes:
+      - plane
+      - port
+      - passenger
+  - id: u25-n2
+    kind: new
+    title:
+      he: 'היומן של נועה: ארוחת צהריים'
+      en: 'Noa''s diary: lunch'
+    exercises:
+    - id: u25-n2-01
+      type: dialogue
+      scene: בתל אביב, במסעדה כשרה.
+      lines:
+      - speaker: noa
+        text: We eat lunch at a kosher restaurant by the sea.
+        translation: אנחנו אוכלים ארוחת צהריים במסעדה כשרה ליד הים.
+      - speaker: ben
+        text: Where is the bowl of soup?
+        translation: איפה קערת המרק?
+      - speaker: noa
+        text: On the silver plate. It is a big meal.
+        translation: על הצלחת הכסופה. זו ארוחה גדולה.
+      - speaker: ben
+        text: Delicious.
+        translation: טעים.
+    - id: u25-n2-02
+      type: learn
+      lexeme: restaurant
+    - id: u25-n2-03
+      type: learn
+      lexeme: bowl
+    - id: u25-n2-04
+      type: learn
+      lexeme: lunch
+    - id: u25-n2-05
+      type: learn
+      lexeme: plate
+    - id: u25-n2-06
+      type: learn
+      lexeme: silver
+    - id: u25-n2-07
+      type: learn
+      lexeme: meal
+    - id: u25-n2-08
+      type: match_pairs
+      pairs:
+      - - restaurant
+        - מסעדה
+      - - bowl
+        - קערה
+      - - lunch
+        - ארוחת צהריים
+      - - plate
+        - צלחת
+      - - silver
+        - כסף (חומר)
+      - - meal
+        - ארוחה
+      lexemes:
+      - restaurant
+      - bowl
+      - lunch
+      - plate
+      - silver
+      - meal
+    - id: u25-n2-09
+      type: multiple_choice
+      prompt: bowl – מה הפירוש?
+      options:
+      - קערה
+      - מסעדה
+      - ארוחת צהריים
+      correct: 0
+      lexemes:
+      - bowl
+    - id: u25-n2-10
+      type: multiple_choice
+      prompt: restaurant – מה הפירוש?
+      options:
+      - מסעדה
+      - קערה
+      - ארוחה
+      correct: 0
+      lexemes:
+      - restaurant
+    - id: u25-n2-11
+      type: multiple_choice
+      prompt: lunch – מה הפירוש?
+      options:
+      - ארוחת צהריים
+      - צלחת
+      - ארוחה
+      correct: 0
+      lexemes:
+      - lunch
+    - id: u25-n2-12
+      type: fill_blank
+      sentence: Put the food on the ___.
+      translation: שים את האוכל על הצלחת.
+      answers:
+      - plate
+      options:
+      - plate
+      - meal
+      - bowl
+      lexemes:
+      - plate
+    - id: u25-n2-13
+      type: fill_blank
+      sentence: The spoon is ___.
+      translation: הכפית עשויה כסף.
+      answers:
+      - silver
+      options:
+      - silver
+      - meal
+      - bowl
+      lexemes:
+      - silver
+    - id: u25-n2-14
+      type: fill_blank
+      sentence: This ___ is delicious.
+      translation: הארוחה הזאת טעימה.
+      answers:
+      - meal
+      options:
+      - meal
+      - restaurant
+      - plate
+      lexemes:
+      - meal
+    - id: u25-n2-15
+      type: word_bank
+      prompt: אני אוכל קערת מרק.
+      answers:
+      - I eat a bowl of soup.
+      distractors:
+      - lunch
+      - silver
+      lexemes:
+      - bowl
+    - id: u25-n2-16
+      type: word_bank
+      prompt: המסעדה כשרה.
+      answers:
+      - The restaurant is kosher.
+      distractors:
+      - bowl
+      - silver
+      lexemes:
+      - restaurant
+    - id: u25-n2-17
+      type: listening_choice
+      audioText: We eat lunch at one o'clock.
+      question: מה שמעתם?
+      options:
+      - אנחנו אוכלים ארוחת צהריים באחת.
+      - המסעדה כשרה.
+      - אני אוכל קערת מרק.
+      correct: 0
+      lexemes:
+      - lunch
+    - id: u25-n2-18
+      type: speak_repeat
+      text: We eat lunch at the restaurant.
+      translation: אנחנו אוכלים ארוחת צהריים במסעדה.
+      lexemes:
+      - restaurant
+      - lunch
+  - id: u25-n3
+    kind: new
+    title:
+      he: 'היומן של נועה: צפון ודרום'
+      en: 'Noa''s diary: north and south'
+    exercises:
+    - id: u25-n3-01
+      type: dialogue
+      scene: תכנון הטיול אחרי העבודה.
+      lines:
+      - speaker: noa
+        text: The northern road goes to the lake, and the southern road to the desert.
+        translation: הכביש הצפוני הולך לכינרת, והכביש הדרומי למדבר.
+      - speaker: ben
+        text: The eastern path has a peak with a view.
+        translation: בשביל המזרחי יש פסגה עם נוף.
+      - speaker: noa
+        text: There are native trees anywhere along the lane.
+        translation: יש עצים מקומיים בכל מקום לאורך הנתיב.
+      - speaker: ben
+        text: Let's go.
+        translation: בואו נלך.
+    - id: u25-n3-02
+      type: learn
+      lexeme: northern
+    - id: u25-n3-03
+      type: learn
+      lexeme: southern
+    - id: u25-n3-04
+      type: learn
+      lexeme: eastern
+    - id: u25-n3-05
+      type: learn
+      lexeme: path
+    - id: u25-n3-06
+      type: learn
+      lexeme: peak
+    - id: u25-n3-07
+      type: learn
+      lexeme: anywhere
+    - id: u25-n3-08
+      type: match_pairs
+      pairs:
+      - - northern
+        - צפוני
+      - - southern
+        - דרומי
+      - - eastern
+        - מזרחי
+      - - path
+        - שביל
+      - - peak
+        - פסגה
+      - - anywhere
+        - בכל מקום
+      lexemes:
+      - northern
+      - southern
+      - eastern
+      - path
+      - peak
+      - anywhere
+    - id: u25-n3-09
+      type: multiple_choice
+      prompt: path – מה הפירוש?
+      options:
+      - שביל
+      - בכל מקום
+      - דרומי
+      correct: 0
+      lexemes:
+      - path
+    - id: u25-n3-10
+      type: multiple_choice
+      prompt: northern – מה הפירוש?
+      options:
+      - צפוני
+      - בכל מקום
+      - שביל
+      correct: 0
+      lexemes:
+      - northern
+    - id: u25-n3-11
+      type: multiple_choice
+      prompt: eastern – מה הפירוש?
+      options:
+      - מזרחי
+      - בכל מקום
+      - שביל
+      correct: 0
+      lexemes:
+      - eastern
+    - id: u25-n3-12
+      type: fill_blank
+      sentence: The ___ part is hot.
+      translation: החלק הדרומי חם.
+      answers:
+      - southern
+      options:
+      - southern
+      - eastern
+      - path
+      lexemes:
+      - southern
+    - id: u25-n3-13
+      type: fill_blank
+      sentence: You can sit ___.
+      translation: אפשר לשבת בכל מקום.
+      answers:
+      - anywhere
+      options:
+      - anywhere
+      - path
+      - eastern
+      lexemes:
+      - anywhere
+    - id: u25-n3-14
+      type: fill_blank
+      sentence: We reach the ___ at noon.
+      translation: אנחנו מגיעים לפסגה בצהריים.
+      answers:
+      - peak
+      options:
+      - peak
+      - anywhere
+      - path
+      lexemes:
+      - peak
+    - id: u25-n3-15
+      type: word_bank
+      prompt: השביל מוביל לאגם.
+      answers:
+      - The path goes to the lake.
+      distractors:
+      - southern
+      - peak
+      lexemes:
+      - path
+    - id: u25-n3-16
+      type: word_bank
+      prompt: הכביש הצפוני שקט.
+      answers:
+      - The northern road is quiet.
+      distractors:
+      - path
+      - southern
+      lexemes:
+      - northern
+    - id: u25-n3-17
+      type: listening_choice
+      audioText: The eastern gate is open.
+      question: מה שמעתם?
+      options:
+      - השער המזרחי פתוח.
+      - הכביש הצפוני שקט.
+      - החלק הדרומי חם.
+      correct: 0
+      lexemes:
+      - eastern
+    - id: u25-n3-18
+      type: speak_repeat
+      text: The northern path goes to the peak.
+      translation: השביל הצפוני מוביל לפסגה.
+      lexemes:
+      - northern
+      - path
+      - peak

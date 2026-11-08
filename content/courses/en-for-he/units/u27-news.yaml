@@ -33,6 +33,24 @@ vocabulary:
   - { id: "fix", text: "fix", translation: "לתקן", pos: "verb", pronunciation: "פִיקְס" }
   - { id: "did-you-hear", text: "Did you hear about…?", translation: "שמעת על…?", pos: "phrase", pronunciation: "דִיד יוּ הִיר אַבַּאוּט" }
 
+  - { id: "newspaper", text: "newspaper", translation: "עיתון", pos: "noun", example: { text: "I read the newspaper every day.", translation: "אני קורא עיתון כל יום." } }
+  - { id: "journal", text: "journal", translation: "כתב עת; יומן", pos: "noun", example: { text: "He writes in a journal.", translation: "הוא כותב ביומן." } }
+  - { id: "editor", text: "editor", translation: "עורך", pos: "noun", example: { text: "The editor checks the text.", translation: "העורך בודק את הטקסט." } }
+  - { id: "reader", text: "reader", translation: "קורא", pos: "noun", example: { text: "Every reader likes this story.", translation: "כל קורא אוהב את הסיפור הזה." } }
+  - { id: "television", text: "television", translation: "טלוויזיה", pos: "noun", example: { text: "The television is on.", translation: "הטלוויזיה דולקת." } }
+  - { id: "broadcast", text: "broadcast", translation: "שידור", pos: "noun", example: { text: "The broadcast starts at eight.", translation: "השידור מתחיל בשמונה." } }
+  - { id: "quote", text: "quote", translation: "לצטט; ציטוט", pos: "verb", example: { text: "I quote the teacher.", translation: "אני מצטט את המורה." } }
+  - { id: "discussion", text: "discussion", translation: "דיון", pos: "noun", example: { text: "We have a long discussion.", translation: "אנחנו מנהלים דיון ארוך." } }
+  - { id: "sentence", text: "sentence", translation: "משפט", pos: "noun", example: { text: "This sentence is clear.", translation: "המשפט הזה ברור." } }
+  - { id: "topic", text: "topic", translation: "נושא", pos: "noun", example: { text: "The topic is interesting.", translation: "הנושא מעניין." } }
+  - { id: "description", text: "description", translation: "תיאור", pos: "noun", example: { text: "Read the description, please.", translation: "קרא את התיאור, בבקשה." } }
+  - { id: "label", text: "label", translation: "תווית; כיתוב", pos: "noun", example: { text: "Read the label on the bottle.", translation: "קרא את התווית על הבקבוק." } }
+  - { id: "survey", text: "survey", translation: "סקר", pos: "noun", example: { text: "The survey has ten questions.", translation: "בסקר יש עשר שאלות." } }
+  - { id: "chart", text: "chart", translation: "תרשים", pos: "noun", example: { text: "The chart shows the numbers.", translation: "התרשים מראה את המספרים." } }
+  - { id: "index", text: "index", translation: "מדד", pos: "noun", example: { text: "The index goes up.", translation: "המדד עולה." } }
+  - { id: "sample", text: "sample", translation: "מדגם; דוגמית", pos: "noun", example: { text: "The sample is small.", translation: "המדגם קטן." } }
+  - { id: "pattern", text: "pattern", translation: "דפוס", pos: "noun", example: { text: "I see a clear pattern.", translation: "אני רואה דפוס ברור." } }
+  - { id: "category", text: "category", translation: "קטגוריה", pos: "noun", example: { text: "Choose a category.", translation: "בחר קטגוריה." } }
 grammar:
   - id: passive-voice
     title: { he: "סביל: It was built, it is made", en: "The passive" }
@@ -496,3 +514,503 @@ lessons:
             any: ["\\byesterday\\b", "\\blast (night|week|month)\\b", "\\bthis morning\\b", "\\bon (Sunday|Monday|Tuesday|Wednesday|Thursday|Friday)\\b"]
         model: "New bridge opened in our city. The bridge was built in only two years and it was opened yesterday by the mayor. Thousands of people are expected to use it every day. Another park will be created next to it, and the old road will be closed this month."
         lexemes: []
+  # ------------------------------------------------------------------ story words
+  - id: u27-n1
+    kind: new
+    title:
+      he: 'היומן של נועה: עיתונות'
+      en: 'Noa''s diary: the press'
+    exercises:
+    - id: u27-n1-01
+      type: dialogue
+      scene: הצוות רואה את הכתבות על האפליקציה.
+      lines:
+      - speaker: tamar
+        text: The newspaper wrote about us. The editor liked the story.
+        translation: העיתון כתב עלינו. העורך אהב את הסיפור.
+      - speaker: noa
+        text: Every reader can find it in the journal.
+        translation: כל קורא יכול למצוא את זה בכתב העת.
+      - speaker: david
+        text: And television called too. A broadcast tomorrow morning!
+        translation: וגם הטלוויזיה התקשרה. שידור מחר בבוקר!
+      - speaker: noa
+        text: Wow.
+        translation: וואו.
+    - id: u27-n1-02
+      type: learn
+      lexeme: newspaper
+    - id: u27-n1-03
+      type: learn
+      lexeme: journal
+    - id: u27-n1-04
+      type: learn
+      lexeme: editor
+    - id: u27-n1-05
+      type: learn
+      lexeme: reader
+    - id: u27-n1-06
+      type: learn
+      lexeme: television
+    - id: u27-n1-07
+      type: learn
+      lexeme: broadcast
+    - id: u27-n1-08
+      type: match_pairs
+      pairs:
+      - - newspaper
+        - עיתון
+      - - journal
+        - כתב עת; יומן
+      - - editor
+        - עורך
+      - - reader
+        - קורא
+      - - television
+        - טלוויזיה
+      - - broadcast
+        - שידור
+      lexemes:
+      - newspaper
+      - journal
+      - editor
+      - reader
+      - television
+      - broadcast
+    - id: u27-n1-09
+      type: multiple_choice
+      prompt: editor – מה הפירוש?
+      options:
+      - עורך
+      - כתב עת; יומן
+      - עיתון
+      correct: 0
+      lexemes:
+      - editor
+    - id: u27-n1-10
+      type: multiple_choice
+      prompt: newspaper – מה הפירוש?
+      options:
+      - עיתון
+      - שידור
+      - טלוויזיה
+      correct: 0
+      lexemes:
+      - newspaper
+    - id: u27-n1-11
+      type: multiple_choice
+      prompt: journal – מה הפירוש?
+      options:
+      - כתב עת; יומן
+      - קורא
+      - שידור
+      correct: 0
+      lexemes:
+      - journal
+    - id: u27-n1-12
+      type: fill_blank
+      sentence: The ___ starts at eight.
+      translation: השידור מתחיל בשמונה.
+      answers:
+      - broadcast
+      options:
+      - broadcast
+      - newspaper
+      - television
+      lexemes:
+      - broadcast
+    - id: u27-n1-13
+      type: fill_blank
+      sentence: The ___ is on.
+      translation: הטלוויזיה דולקת.
+      answers:
+      - television
+      options:
+      - television
+      - reader
+      - editor
+      lexemes:
+      - television
+    - id: u27-n1-14
+      type: fill_blank
+      sentence: Every ___ likes this story.
+      translation: כל קורא אוהב את הסיפור הזה.
+      answers:
+      - reader
+      options:
+      - reader
+      - newspaper
+      - editor
+      lexemes:
+      - reader
+    - id: u27-n1-15
+      type: word_bank
+      prompt: העורך בודק את הטקסט.
+      answers:
+      - The editor checks the text.
+      distractors:
+      - television
+      - journal
+      lexemes:
+      - editor
+    - id: u27-n1-16
+      type: word_bank
+      prompt: אני קורא עיתון כל יום.
+      answers:
+      - I read the newspaper every day.
+      distractors:
+      - journal
+      - television
+      lexemes:
+      - newspaper
+    - id: u27-n1-17
+      type: listening_choice
+      audioText: He writes in a journal.
+      question: מה שמעתם?
+      options:
+      - הוא כותב ביומן.
+      - אני קורא עיתון כל יום.
+      - העורך בודק את הטקסט.
+      correct: 0
+      lexemes:
+      - journal
+    - id: u27-n1-18
+      type: speak_repeat
+      text: The editor and the reader like the newspaper.
+      translation: העורך והקורא אוהבים את העיתון.
+      lexemes:
+      - newspaper
+      - editor
+      - reader
+  - id: u27-n2
+    kind: new
+    title:
+      he: 'היומן של נועה: ציטוטים'
+      en: 'Noa''s diary: quotes'
+    exercises:
+    - id: u27-n2-01
+      type: dialogue
+      scene: הצוות קורא את הכתבה.
+      lines:
+      - speaker: noa
+        text: They quote my sentence in the first line.
+        translation: הם מצטטים את המשפט שלי בשורה הראשונה.
+      - speaker: tamar
+        text: The topic of the discussion is trust. And there is a label on the photo.
+        translation: נושא הדיון הוא אמון. ויש כיתוב על התמונה.
+      - speaker: noa
+        text: The description of our work is accurate.
+        translation: התיאור של העבודה שלנו מדויק.
+      - speaker: tamar
+        text: Great.
+        translation: מעולה.
+    - id: u27-n2-02
+      type: learn
+      lexeme: quote
+    - id: u27-n2-03
+      type: learn
+      lexeme: discussion
+    - id: u27-n2-04
+      type: learn
+      lexeme: sentence
+    - id: u27-n2-05
+      type: learn
+      lexeme: topic
+    - id: u27-n2-06
+      type: learn
+      lexeme: description
+    - id: u27-n2-07
+      type: learn
+      lexeme: label
+    - id: u27-n2-08
+      type: match_pairs
+      pairs:
+      - - quote
+        - לצטט; ציטוט
+      - - discussion
+        - דיון
+      - - sentence
+        - משפט
+      - - topic
+        - נושא
+      - - description
+        - תיאור
+      - - label
+        - תווית; כיתוב
+      lexemes:
+      - quote
+      - discussion
+      - sentence
+      - topic
+      - description
+      - label
+    - id: u27-n2-09
+      type: multiple_choice
+      prompt: discussion – מה הפירוש?
+      options:
+      - דיון
+      - נושא
+      - משפט
+      correct: 0
+      lexemes:
+      - discussion
+    - id: u27-n2-10
+      type: multiple_choice
+      prompt: topic – מה הפירוש?
+      options:
+      - נושא
+      - דיון
+      - לצטט; ציטוט
+      correct: 0
+      lexemes:
+      - topic
+    - id: u27-n2-11
+      type: multiple_choice
+      prompt: label – מה הפירוש?
+      options:
+      - תווית; כיתוב
+      - נושא
+      - לצטט; ציטוט
+      correct: 0
+      lexemes:
+      - label
+    - id: u27-n2-12
+      type: fill_blank
+      sentence: I ___ the teacher.
+      translation: אני מצטט את המורה.
+      answers:
+      - quote
+      options:
+      - quote
+      - sentence
+      - label
+      lexemes:
+      - quote
+    - id: u27-n2-13
+      type: fill_blank
+      sentence: This ___ is clear.
+      translation: המשפט הזה ברור.
+      answers:
+      - sentence
+      options:
+      - sentence
+      - topic
+      - discussion
+      lexemes:
+      - sentence
+    - id: u27-n2-14
+      type: fill_blank
+      sentence: Read the ___, please.
+      translation: קרא את התיאור, בבקשה.
+      answers:
+      - description
+      options:
+      - description
+      - discussion
+      - topic
+      lexemes:
+      - description
+    - id: u27-n2-15
+      type: word_bank
+      prompt: אנחנו מנהלים דיון ארוך.
+      answers:
+      - We have a long discussion.
+      distractors:
+      - description
+      - label
+      lexemes:
+      - discussion
+    - id: u27-n2-16
+      type: word_bank
+      prompt: הנושא מעניין.
+      answers:
+      - The topic is interesting.
+      distractors:
+      - sentence
+      - quote
+      lexemes:
+      - topic
+    - id: u27-n2-17
+      type: listening_choice
+      audioText: Read the label on the bottle.
+      question: מה שמעתם?
+      options:
+      - קרא את התווית על הבקבוק.
+      - אני מצטט את המורה.
+      - אנחנו מנהלים דיון ארוך.
+      correct: 0
+      lexemes:
+      - label
+    - id: u27-n2-18
+      type: speak_repeat
+      text: The topic of the discussion is clear.
+      translation: נושא הדיון ברור.
+      lexemes:
+      - discussion
+      - topic
+  - id: u27-n3
+    kind: new
+    title:
+      he: 'היומן של נועה: מספרים ודפוסים'
+      en: 'Noa''s diary: numbers and patterns'
+    exercises:
+    - id: u27-n3-01
+      type: dialogue
+      scene: הכתבה מביאה סקר.
+      lines:
+      - speaker: david
+        text: The survey shows a clear pattern.
+        translation: הסקר מראה דפוס ברור.
+      - speaker: noa
+        text: Look at the chart. The sample is large, and the index goes up.
+        translation: תראו את התרשים. המדגם גדול והמדד עולה.
+      - speaker: david
+        text: Which category is the biggest?
+        translation: איזו קטגוריה הכי גדולה?
+      - speaker: noa
+        text: Young users.
+        translation: משתמשים צעירים.
+    - id: u27-n3-02
+      type: learn
+      lexeme: survey
+    - id: u27-n3-03
+      type: learn
+      lexeme: chart
+    - id: u27-n3-04
+      type: learn
+      lexeme: index
+    - id: u27-n3-05
+      type: learn
+      lexeme: sample
+    - id: u27-n3-06
+      type: learn
+      lexeme: pattern
+    - id: u27-n3-07
+      type: learn
+      lexeme: category
+    - id: u27-n3-08
+      type: match_pairs
+      pairs:
+      - - survey
+        - סקר
+      - - chart
+        - תרשים
+      - - index
+        - מדד
+      - - sample
+        - מדגם; דוגמית
+      - - pattern
+        - דפוס
+      - - category
+        - קטגוריה
+      lexemes:
+      - survey
+      - chart
+      - index
+      - sample
+      - pattern
+      - category
+    - id: u27-n3-09
+      type: multiple_choice
+      prompt: index – מה הפירוש?
+      options:
+      - מדד
+      - מדגם; דוגמית
+      - סקר
+      correct: 0
+      lexemes:
+      - index
+    - id: u27-n3-10
+      type: multiple_choice
+      prompt: survey – מה הפירוש?
+      options:
+      - סקר
+      - מדגם; דוגמית
+      - תרשים
+      correct: 0
+      lexemes:
+      - survey
+    - id: u27-n3-11
+      type: multiple_choice
+      prompt: category – מה הפירוש?
+      options:
+      - קטגוריה
+      - מדד
+      - דפוס
+      correct: 0
+      lexemes:
+      - category
+    - id: u27-n3-12
+      type: fill_blank
+      sentence: The ___ shows the numbers.
+      translation: התרשים מראה את המספרים.
+      answers:
+      - chart
+      options:
+      - chart
+      - pattern
+      - sample
+      lexemes:
+      - chart
+    - id: u27-n3-13
+      type: fill_blank
+      sentence: The ___ is small.
+      translation: המדגם קטן.
+      answers:
+      - sample
+      options:
+      - sample
+      - pattern
+      - survey
+      lexemes:
+      - sample
+    - id: u27-n3-14
+      type: fill_blank
+      sentence: I see a clear ___.
+      translation: אני רואה דפוס ברור.
+      answers:
+      - pattern
+      options:
+      - pattern
+      - category
+      - survey
+      lexemes:
+      - pattern
+    - id: u27-n3-15
+      type: word_bank
+      prompt: המדד עולה.
+      answers:
+      - The index goes up.
+      distractors:
+      - category
+      - sample
+      lexemes:
+      - index
+    - id: u27-n3-16
+      type: word_bank
+      prompt: בסקר יש עשר שאלות.
+      answers:
+      - The survey has ten questions.
+      distractors:
+      - chart
+      - index
+      lexemes:
+      - survey
+    - id: u27-n3-17
+      type: listening_choice
+      audioText: Choose a category.
+      question: מה שמעתם?
+      options:
+      - בחר קטגוריה.
+      - בסקר יש עשר שאלות.
+      - התרשים מראה את המספרים.
+      correct: 0
+      lexemes:
+      - category
+    - id: u27-n3-18
+      type: speak_repeat
+      text: The survey shows a clear pattern.
+      translation: הסקר מראה דפוס ברור.
+      lexemes:
+      - survey
+      - pattern

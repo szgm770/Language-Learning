@@ -33,6 +33,24 @@ vocabulary:
   - { id: "within", text: "within", translation: "תוך (זמן)", pos: "preposition", pronunciation: "וִויד'ִין", example: { text: "within 30 days", translation: "תוך 30 יום" } }
   - { id: "order-number", text: "order number", translation: "מספר הזמנה", pos: "noun", pronunciation: "אוֹרְדֶר נַאמְבֶּר" }
 
+  - { id: "failure", text: "failure", translation: "כישלון; תקלה", pos: "noun", example: { text: "The failure of the machine was a surprise.", translation: "תקלת המכונה הייתה הפתעה." } }
+  - { id: "error", text: "error", translation: "טעות", pos: "noun", example: { text: "There is an error in the bill.", translation: "יש טעות בחשבון." } }
+  - { id: "package", text: "package", translation: "חבילה", pos: "noun", example: { text: "The package is at the door.", translation: "החבילה ליד הדלת." } }
+  - { id: "mail", text: "mail", translation: "דואר", pos: "noun", example: { text: "I check my mail every morning.", translation: "אני בודק את הדואר כל בוקר." } }
+  - { id: "reply", text: "reply", translation: "תשובה", pos: "noun", example: { text: "I wait for your reply.", translation: "אני מחכה לתשובה שלך." } }
+  - { id: "reaction", text: "reaction", translation: "תגובה", pos: "noun", example: { text: "His reaction was calm.", translation: "התגובה שלו הייתה רגועה." } }
+  - { id: "consumer", text: "consumer", translation: "צרכן", pos: "noun", example: { text: "A consumer has rights.", translation: "לצרכן יש זכויות." } }
+  - { id: "approve", text: "approve", translation: "לאשר", pos: "verb", example: { text: "The manager must approve the request.", translation: "המנהל צריך לאשר את הבקשה." } }
+  - { id: "guarantee", text: "guarantee", translation: "אחריות; להבטיח", pos: "noun", example: { text: "The phone has a one-year guarantee.", translation: "לטלפון יש אחריות לשנה." } }
+  - { id: "qualify", text: "qualify", translation: "להיות זכאי", pos: "verb", example: { text: "Do I qualify for a refund?", translation: "האם אני זכאי להחזר?" } }
+  - { id: "obtain", text: "obtain", translation: "להשיג", pos: "verb", example: { text: "I need to obtain a new ticket.", translation: "אני צריך להשיג כרטיס חדש." } }
+  - { id: "expense", text: "expense", translation: "הוצאה", pos: "noun", example: { text: "The trip is a big expense.", translation: "הנסיעה היא הוצאה גדולה." } }
+  - { id: "honestly", text: "honestly", translation: "בכנות", pos: "adverb", example: { text: "Honestly, I don't know.", translation: "בכנות, אני לא יודע." } }
+  - { id: "truly", text: "truly", translation: "באמת", pos: "adverb", example: { text: "I am truly sorry.", translation: "אני באמת מצטער." } }
+  - { id: "actual", text: "actual", translation: "ממשי; אמיתי", pos: "adjective", example: { text: "The actual price is higher.", translation: "המחיר האמיתי גבוה יותר." } }
+  - { id: "impossible", text: "impossible", translation: "בלתי אפשרי", pos: "adjective", example: { text: "It is impossible to finish today.", translation: "אי אפשר לסיים היום." } }
+  - { id: "therefore", text: "therefore", translation: "לכן", pos: "adverb", example: { text: "It rained, therefore we stayed home.", translation: "ירד גשם, לכן נשארנו בבית." } }
+  - { id: "obviously", text: "obviously", translation: "ברור ש", pos: "adverb", example: { text: "Obviously, I will help you.", translation: "ברור שאעזור לך." } }
 grammar:
   - id: obligation
     title: { he: "חובה ואיסור: have to, must, don't have to", en: "Have to, must, don't have to" }
@@ -486,3 +504,503 @@ lessons:
             any: ["\\bcould you\\b", "\\bwould you\\b", "\\bI would like\\b", "\\bplease\\b"]
         model: "Dear Sir or Madam, I ordered a lamp from your website last week, but it arrived broken. I would like a refund, or you could send me a replacement. Please let me know what I have to do. I have attached a photo of the problem. Thank you for your help."
         lexemes: []
+  # ------------------------------------------------------------------ story words
+  - id: u24-n1
+    kind: new
+    title:
+      he: 'היומן של נועה: משלוח שבור'
+      en: 'Noa''s diary: a broken delivery'
+    exercises:
+    - id: u24-n1-01
+      type: dialogue
+      scene: נועה מתקשרת לשירות לקוחות.
+      lines:
+      - speaker: noa
+        text: The package arrived with a failure. The machine is broken.
+        translation: החבילה הגיעה עם תקלה. המכונה שבורה.
+      - speaker: cohen
+        text: I see an error on the order. I will check the mail and send you a reply.
+        translation: אני רואה טעות בהזמנה. אבדוק את המייל ואשלח לך תשובה.
+      - speaker: noa
+        text: What is the reaction of the store?
+        translation: מה התגובה של החנות?
+      - speaker: cohen
+        text: They apologize.
+        translation: הם מתנצלים.
+    - id: u24-n1-02
+      type: learn
+      lexeme: failure
+    - id: u24-n1-03
+      type: learn
+      lexeme: error
+    - id: u24-n1-04
+      type: learn
+      lexeme: package
+    - id: u24-n1-05
+      type: learn
+      lexeme: mail
+    - id: u24-n1-06
+      type: learn
+      lexeme: reply
+    - id: u24-n1-07
+      type: learn
+      lexeme: reaction
+    - id: u24-n1-08
+      type: match_pairs
+      pairs:
+      - - failure
+        - כישלון; תקלה
+      - - error
+        - טעות
+      - - package
+        - חבילה
+      - - mail
+        - דואר
+      - - reply
+        - תשובה
+      - - reaction
+        - תגובה
+      lexemes:
+      - failure
+      - error
+      - package
+      - mail
+      - reply
+      - reaction
+    - id: u24-n1-09
+      type: multiple_choice
+      prompt: failure – מה הפירוש?
+      options:
+      - כישלון; תקלה
+      - תשובה
+      - טעות
+      correct: 0
+      lexemes:
+      - failure
+    - id: u24-n1-10
+      type: multiple_choice
+      prompt: reaction – מה הפירוש?
+      options:
+      - תגובה
+      - דואר
+      - טעות
+      correct: 0
+      lexemes:
+      - reaction
+    - id: u24-n1-11
+      type: multiple_choice
+      prompt: mail – מה הפירוש?
+      options:
+      - דואר
+      - כישלון; תקלה
+      - טעות
+      correct: 0
+      lexemes:
+      - mail
+    - id: u24-n1-12
+      type: fill_blank
+      sentence: The ___ is at the door.
+      translation: החבילה ליד הדלת.
+      answers:
+      - package
+      options:
+      - package
+      - error
+      - reaction
+      lexemes:
+      - package
+    - id: u24-n1-13
+      type: fill_blank
+      sentence: I wait for your ___.
+      translation: אני מחכה לתשובה שלך.
+      answers:
+      - reply
+      options:
+      - reply
+      - package
+      - mail
+      lexemes:
+      - reply
+    - id: u24-n1-14
+      type: fill_blank
+      sentence: There is an ___ in the bill.
+      translation: יש טעות בחשבון.
+      answers:
+      - error
+      options:
+      - error
+      - mail
+      - reply
+      lexemes:
+      - error
+    - id: u24-n1-15
+      type: word_bank
+      prompt: תקלת המכונה הייתה הפתעה.
+      answers:
+      - The failure of the machine was a surprise.
+      distractors:
+      - mail
+      - package
+      lexemes:
+      - failure
+    - id: u24-n1-16
+      type: word_bank
+      prompt: התגובה שלו הייתה רגועה.
+      answers:
+      - His reaction was calm.
+      distractors:
+      - error
+      - reply
+      lexemes:
+      - reaction
+    - id: u24-n1-17
+      type: listening_choice
+      audioText: I check my mail every morning.
+      question: מה שמעתם?
+      options:
+      - אני בודק את הדואר כל בוקר.
+      - תקלת המכונה הייתה הפתעה.
+      - יש טעות בחשבון.
+      correct: 0
+      lexemes:
+      - mail
+    - id: u24-n1-18
+      type: speak_repeat
+      text: There is an error in the package.
+      translation: יש טעות בחבילה.
+      lexemes:
+      - error
+      - package
+  - id: u24-n2
+    kind: new
+    title:
+      he: 'היומן של נועה: זכויות הצרכן'
+      en: 'Noa''s diary: consumer rights'
+    exercises:
+    - id: u24-n2-01
+      type: dialogue
+      scene: נועה מדברת עם נציג החנות.
+      lines:
+      - speaker: noa
+        text: As a consumer I expect you to approve the refund.
+        translation: כצרכנית אני מצפה שתאשרו את ההחזר.
+      - speaker: cohen
+        text: The product has a guarantee, so you qualify.
+        translation: יש אחריות על המוצר, אז את זכאית.
+      - speaker: noa
+        text: I want to obtain the money back with the expense of the shipping.
+        translation: אני רוצה לקבל את הכסף בחזרה עם ההוצאה של המשלוח.
+      - speaker: cohen
+        text: Done.
+        translation: בוצע.
+    - id: u24-n2-02
+      type: learn
+      lexeme: consumer
+    - id: u24-n2-03
+      type: learn
+      lexeme: approve
+    - id: u24-n2-04
+      type: learn
+      lexeme: guarantee
+    - id: u24-n2-05
+      type: learn
+      lexeme: qualify
+    - id: u24-n2-06
+      type: learn
+      lexeme: obtain
+    - id: u24-n2-07
+      type: learn
+      lexeme: expense
+    - id: u24-n2-08
+      type: match_pairs
+      pairs:
+      - - consumer
+        - צרכן
+      - - approve
+        - לאשר
+      - - guarantee
+        - אחריות; להבטיח
+      - - qualify
+        - להיות זכאי
+      - - obtain
+        - להשיג
+      - - expense
+        - הוצאה
+      lexemes:
+      - consumer
+      - approve
+      - guarantee
+      - qualify
+      - obtain
+      - expense
+    - id: u24-n2-09
+      type: multiple_choice
+      prompt: consumer – מה הפירוש?
+      options:
+      - צרכן
+      - להיות זכאי
+      - לאשר
+      correct: 0
+      lexemes:
+      - consumer
+    - id: u24-n2-10
+      type: multiple_choice
+      prompt: qualify – מה הפירוש?
+      options:
+      - להיות זכאי
+      - אחריות; להבטיח
+      - הוצאה
+      correct: 0
+      lexemes:
+      - qualify
+    - id: u24-n2-11
+      type: multiple_choice
+      prompt: guarantee – מה הפירוש?
+      options:
+      - אחריות; להבטיח
+      - הוצאה
+      - לאשר
+      correct: 0
+      lexemes:
+      - guarantee
+    - id: u24-n2-12
+      type: fill_blank
+      sentence: The trip is a big ___.
+      translation: הנסיעה היא הוצאה גדולה.
+      answers:
+      - expense
+      options:
+      - expense
+      - qualify
+      - consumer
+      lexemes:
+      - expense
+    - id: u24-n2-13
+      type: fill_blank
+      sentence: I need to ___ a new ticket.
+      translation: אני צריך להשיג כרטיס חדש.
+      answers:
+      - obtain
+      options:
+      - obtain
+      - qualify
+      - consumer
+      lexemes:
+      - obtain
+    - id: u24-n2-14
+      type: fill_blank
+      sentence: The manager must ___ the request.
+      translation: המנהל צריך לאשר את הבקשה.
+      answers:
+      - approve
+      options:
+      - approve
+      - qualify
+      - consumer
+      lexemes:
+      - approve
+    - id: u24-n2-15
+      type: word_bank
+      prompt: לצרכן יש זכויות.
+      answers:
+      - A consumer has rights.
+      distractors:
+      - obtain
+      - expense
+      lexemes:
+      - consumer
+    - id: u24-n2-16
+      type: word_bank
+      prompt: האם אני זכאי להחזר?
+      answers:
+      - Do I qualify for a refund?
+      distractors:
+      - guarantee
+      - obtain
+      lexemes:
+      - qualify
+    - id: u24-n2-17
+      type: listening_choice
+      audioText: The phone has a one-year guarantee.
+      question: מה שמעתם?
+      options:
+      - לטלפון יש אחריות לשנה.
+      - לצרכן יש זכויות.
+      - המנהל צריך לאשר את הבקשה.
+      correct: 0
+      lexemes:
+      - guarantee
+    - id: u24-n2-18
+      type: speak_repeat
+      text: The consumer has a guarantee.
+      translation: לצרכן יש אחריות.
+      lexemes:
+      - consumer
+      - guarantee
+  - id: u24-n3
+    kind: new
+    title:
+      he: 'היומן של נועה: להיות כנה'
+      en: 'Noa''s diary: being honest'
+    exercises:
+    - id: u24-n3-01
+      type: dialogue
+      scene: שיחה אחרונה לפני שהנושא נסגר.
+      lines:
+      - speaker: noa
+        text: Honestly, the actual problem is not the machine.
+        translation: בכנות, הבעיה האמיתית היא לא המכונה.
+      - speaker: cohen
+        text: It is truly impossible to fix an old one.
+        translation: באמת אי אפשר לתקן אחת ישנה.
+      - speaker: noa
+        text: Therefore I take a new one. And obviously, I keep the bill.
+        translation: לכן אני לוקחת חדשה. וברור שאני שומרת את החשבון.
+      - speaker: cohen
+        text: Wise.
+        translation: חכם.
+    - id: u24-n3-02
+      type: learn
+      lexeme: honestly
+    - id: u24-n3-03
+      type: learn
+      lexeme: truly
+    - id: u24-n3-04
+      type: learn
+      lexeme: actual
+    - id: u24-n3-05
+      type: learn
+      lexeme: impossible
+    - id: u24-n3-06
+      type: learn
+      lexeme: therefore
+    - id: u24-n3-07
+      type: learn
+      lexeme: obviously
+    - id: u24-n3-08
+      type: match_pairs
+      pairs:
+      - - honestly
+        - בכנות
+      - - truly
+        - באמת
+      - - actual
+        - ממשי; אמיתי
+      - - impossible
+        - בלתי אפשרי
+      - - therefore
+        - לכן
+      - - obviously
+        - ברור ש
+      lexemes:
+      - honestly
+      - truly
+      - actual
+      - impossible
+      - therefore
+      - obviously
+    - id: u24-n3-09
+      type: multiple_choice
+      prompt: impossible – מה הפירוש?
+      options:
+      - בלתי אפשרי
+      - ברור ש
+      - בכנות
+      correct: 0
+      lexemes:
+      - impossible
+    - id: u24-n3-10
+      type: multiple_choice
+      prompt: obviously – מה הפירוש?
+      options:
+      - ברור ש
+      - בלתי אפשרי
+      - ממשי; אמיתי
+      correct: 0
+      lexemes:
+      - obviously
+    - id: u24-n3-11
+      type: multiple_choice
+      prompt: honestly – מה הפירוש?
+      options:
+      - בכנות
+      - ברור ש
+      - בלתי אפשרי
+      correct: 0
+      lexemes:
+      - honestly
+    - id: u24-n3-12
+      type: fill_blank
+      sentence: The ___ price is higher.
+      translation: המחיר האמיתי גבוה יותר.
+      answers:
+      - actual
+      options:
+      - actual
+      - obviously
+      - impossible
+      lexemes:
+      - actual
+    - id: u24-n3-13
+      type: fill_blank
+      sentence: I am ___ sorry.
+      translation: אני באמת מצטער.
+      answers:
+      - truly
+      options:
+      - truly
+      - therefore
+      - honestly
+      lexemes:
+      - truly
+    - id: u24-n3-14
+      type: fill_blank
+      sentence: It rained, ___ we stayed home.
+      translation: ירד גשם, לכן נשארנו בבית.
+      answers:
+      - therefore
+      options:
+      - therefore
+      - actual
+      - honestly
+      lexemes:
+      - therefore
+    - id: u24-n3-15
+      type: word_bank
+      prompt: אי אפשר לסיים היום.
+      answers:
+      - It is impossible to finish today.
+      distractors:
+      - actual
+      - truly
+      lexemes:
+      - impossible
+    - id: u24-n3-16
+      type: word_bank
+      prompt: ברור שאעזור לך.
+      answers:
+      - Obviously, I will help you.
+      distractors:
+      - impossible
+      - actual
+      lexemes:
+      - obviously
+    - id: u24-n3-17
+      type: listening_choice
+      audioText: Honestly, I don't know.
+      question: מה שמעתם?
+      options:
+      - בכנות, אני לא יודע.
+      - אני באמת מצטער.
+      - המחיר האמיתי גבוה יותר.
+      correct: 0
+      lexemes:
+      - honestly
+    - id: u24-n3-18
+      type: speak_repeat
+      text: Honestly, it is impossible, therefore I leave.
+      translation: בכנות, זה בלתי אפשרי, לכן אני הולכת.
+      lexemes:
+      - honestly
+      - impossible
+      - therefore

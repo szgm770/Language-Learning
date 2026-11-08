@@ -33,6 +33,24 @@ vocabulary:
   - { id: "away", text: "away", translation: "לא בבית, נסוע", pos: "adverb", pronunciation: "אָוֵויי", example: { text: "I'll be away next week.", translation: "לא אהיה בבית בשבוע הבא." } }
   - { id: "keep-an-eye-on", text: "keep an eye on", translation: "להשגיח על", pos: "phrase", pronunciation: "קִיפּ אֶן אַיי אוֹן" }
 
+  - { id: "apartment", text: "apartment", translation: "דירה", pos: "noun", example: { text: "My apartment is small.", translation: "הדירה שלי קטנה." } }
+  - { id: "yard", text: "yard", translation: "חצר", pos: "noun", example: { text: "The children play in the yard.", translation: "הילדים משחקים בחצר." } }
+  - { id: "lock", text: "lock", translation: "לנעול", pos: "verb", example: { text: "Please lock the door.", translation: "בבקשה נעל את הדלת." } }
+  - { id: "button", text: "button", translation: "כפתור", pos: "noun", example: { text: "Press the red button.", translation: "לחץ על הכפתור האדום." } }
+  - { id: "roof", text: "roof", translation: "גג", pos: "noun", example: { text: "The roof is flat.", translation: "הגג שטוח." } }
+  - { id: "neighborhood", text: "neighborhood", translation: "שכונה", pos: "noun", example: { text: "This is a quiet neighborhood.", translation: "זו שכונה שקטה." } }
+  - { id: "propose", text: "propose", translation: "להציע", pos: "verb", example: { text: "I propose a short break.", translation: "אני מציע הפסקה קצרה." } }
+  - { id: "encourage", text: "encourage", translation: "לעודד", pos: "verb", example: { text: "Teachers encourage their students.", translation: "מורים מעודדים את התלמידים שלהם." } }
+  - { id: "respond", text: "respond", translation: "להגיב", pos: "verb", example: { text: "Please respond to my email.", translation: "בבקשה הגב למייל שלי." } }
+  - { id: "ignore", text: "ignore", translation: "להתעלם", pos: "verb", example: { text: "Don't ignore the problem.", translation: "אל תתעלם מהבעיה." } }
+  - { id: "remind", text: "remind", translation: "להזכיר", pos: "verb", example: { text: "Remind me to call him.", translation: "תזכיר לי להתקשר אליו." } }
+  - { id: "suggestion", text: "suggestion", translation: "הצעה", pos: "noun", example: { text: "That is a good suggestion.", translation: "זו הצעה טובה." } }
+  - { id: "wonderful", text: "wonderful", translation: "נפלא", pos: "adjective", example: { text: "It is a wonderful day.", translation: "זה יום נפלא." } }
+  - { id: "excellent", text: "excellent", translation: "מצוין", pos: "adjective", example: { text: "Your English is excellent.", translation: "האנגלית שלך מצוינת." } }
+  - { id: "fantastic", text: "fantastic", translation: "פנטסטי", pos: "adjective", example: { text: "The view is fantastic.", translation: "הנוף פנטסטי." } }
+  - { id: "lovely", text: "lovely", translation: "מקסים", pos: "adjective", example: { text: "What a lovely garden!", translation: "איזו גינה מקסימה!" } }
+  - { id: "cute", text: "cute", translation: "חמוד", pos: "adjective", example: { text: "The baby is so cute.", translation: "התינוק כל כך חמוד." } }
+  - { id: "favor", text: "favor", translation: "טובה", pos: "noun", example: { text: "Can you do me a favor?", translation: "אתה יכול לעשות לי טובה?" } }
 grammar:
   - id: polite-requests
     title: { he: "בקשות מנומסות וצירופי פועל", en: "Polite requests and phrasal verbs" }
@@ -511,3 +529,505 @@ lessons:
             any: ["\\bthank", "\\bsorry\\b", "\\bapologi[sz]e\\b"]
         model: "Hello neighbour, I am sorry to bother you, but the music has been quite loud in the evenings, and my children cannot sleep. Would you mind turning it down after nine o'clock? I would really appreciate it. Thank you very much for understanding."
         lexemes: []
+  # ------------------------------------------------------------------ story words
+  - id: u26-n1
+    kind: new
+    title:
+      he: 'היומן של נועה: הבניין'
+      en: 'Noa''s diary: the building'
+    exercises:
+    - id: u26-n1-01
+      type: dialogue
+      scene: נועה מכירה את הבניין לשכנים החדשים.
+      lines:
+      - speaker: noa
+        text: My apartment is on the second floor. The yard is behind the house.
+        translation: הדירה שלי בקומה שנייה. החצר מאחורי הבית.
+      - speaker: katz
+        text: Press the button, then lock the gate behind you.
+        translation: לחצי על הכפתור ואז נעלי את השער אחרייך.
+      - speaker: noa
+        text: Is there access to the roof?
+        translation: יש גישה לגג?
+      - speaker: katz
+        text: Yes, the neighborhood is safe.
+        translation: כן, השכונה בטוחה.
+    - id: u26-n1-02
+      type: learn
+      lexeme: apartment
+    - id: u26-n1-03
+      type: learn
+      lexeme: yard
+    - id: u26-n1-04
+      type: learn
+      lexeme: lock
+    - id: u26-n1-05
+      type: learn
+      lexeme: button
+    - id: u26-n1-06
+      type: learn
+      lexeme: roof
+    - id: u26-n1-07
+      type: learn
+      lexeme: neighborhood
+    - id: u26-n1-08
+      type: match_pairs
+      pairs:
+      - - apartment
+        - דירה
+      - - yard
+        - חצר
+      - - lock
+        - לנעול
+      - - button
+        - כפתור
+      - - roof
+        - גג
+      - - neighborhood
+        - שכונה
+      lexemes:
+      - apartment
+      - yard
+      - lock
+      - button
+      - roof
+      - neighborhood
+    - id: u26-n1-09
+      type: multiple_choice
+      prompt: button – מה הפירוש?
+      options:
+      - כפתור
+      - גג
+      - לנעול
+      correct: 0
+      lexemes:
+      - button
+    - id: u26-n1-10
+      type: multiple_choice
+      prompt: neighborhood – מה הפירוש?
+      options:
+      - שכונה
+      - לנעול
+      - גג
+      correct: 0
+      lexemes:
+      - neighborhood
+    - id: u26-n1-11
+      type: multiple_choice
+      prompt: yard – מה הפירוש?
+      options:
+      - חצר
+      - שכונה
+      - גג
+      correct: 0
+      lexemes:
+      - yard
+    - id: u26-n1-12
+      type: fill_blank
+      sentence: The ___ is flat.
+      translation: הגג שטוח.
+      answers:
+      - roof
+      options:
+      - roof
+      - button
+      - lock
+      lexemes:
+      - roof
+    - id: u26-n1-13
+      type: fill_blank
+      sentence: Please ___ the door.
+      translation: בבקשה נעל את הדלת.
+      answers:
+      - lock
+      options:
+      - lock
+      - apartment
+      - roof
+      lexemes:
+      - lock
+    - id: u26-n1-14
+      type: fill_blank
+      sentence: My ___ is small.
+      translation: הדירה שלי קטנה.
+      answers:
+      - apartment
+      options:
+      - apartment
+      - roof
+      - neighborhood
+      lexemes:
+      - apartment
+    - id: u26-n1-15
+      type: word_bank
+      prompt: לחץ על הכפתור האדום.
+      answers:
+      - Press the red button.
+      distractors:
+      - roof
+      - yard
+      lexemes:
+      - button
+    - id: u26-n1-16
+      type: word_bank
+      prompt: זו שכונה שקטה.
+      answers:
+      - This is a quiet neighborhood.
+      distractors:
+      - roof
+      - yard
+      lexemes:
+      - neighborhood
+    - id: u26-n1-17
+      type: listening_choice
+      audioText: The children play in the yard.
+      question: מה שמעתם?
+      options:
+      - הילדים משחקים בחצר.
+      - הדירה שלי קטנה.
+      - בבקשה נעל את הדלת.
+      correct: 0
+      lexemes:
+      - yard
+    - id: u26-n1-18
+      type: speak_repeat
+      text: The apartment has a yard and a roof.
+      translation: לדירה יש חצר וגג.
+      lexemes:
+      - apartment
+      - yard
+      - roof
+  - id: u26-n2
+    kind: new
+    title:
+      he: 'היומן של נועה: לבקש בנימוס'
+      en: 'Noa''s diary: asking politely'
+    exercises:
+    - id: u26-n2-01
+      type: dialogue
+      scene: נועה מדברת עם השכנים על המוזיקה.
+      lines:
+      - speaker: noa
+        text: May I propose something? Play the music a bit lower after nine.
+        translation: אפשר להציע משהו? תנגנו את המוזיקה קצת יותר חלש אחרי תשע.
+      - speaker: katz
+        text: I encourage you to talk to them. They respond to kindness.
+        translation: אני מעודדת אותך לדבר איתם. הם מגיבים לאדיבות.
+      - speaker: noa
+        text: I will not ignore it any more. Please remind me their name.
+        translation: אני לא אתעלם מזה יותר. תזכירי לי את השם שלהם.
+      - speaker: katz
+        text: I like your suggestion.
+        translation: אני אוהבת את ההצעה שלך.
+    - id: u26-n2-02
+      type: learn
+      lexeme: propose
+    - id: u26-n2-03
+      type: learn
+      lexeme: encourage
+    - id: u26-n2-04
+      type: learn
+      lexeme: respond
+    - id: u26-n2-05
+      type: learn
+      lexeme: ignore
+    - id: u26-n2-06
+      type: learn
+      lexeme: remind
+    - id: u26-n2-07
+      type: learn
+      lexeme: suggestion
+    - id: u26-n2-08
+      type: match_pairs
+      pairs:
+      - - propose
+        - להציע
+      - - encourage
+        - לעודד
+      - - respond
+        - להגיב
+      - - ignore
+        - להתעלם
+      - - remind
+        - להזכיר
+      - - suggestion
+        - הצעה
+      lexemes:
+      - propose
+      - encourage
+      - respond
+      - ignore
+      - remind
+      - suggestion
+    - id: u26-n2-09
+      type: multiple_choice
+      prompt: encourage – מה הפירוש?
+      options:
+      - לעודד
+      - להגיב
+      - להציע
+      correct: 0
+      lexemes:
+      - encourage
+    - id: u26-n2-10
+      type: multiple_choice
+      prompt: suggestion – מה הפירוש?
+      options:
+      - הצעה
+      - להציע
+      - להתעלם
+      correct: 0
+      lexemes:
+      - suggestion
+    - id: u26-n2-11
+      type: multiple_choice
+      prompt: remind – מה הפירוש?
+      options:
+      - להזכיר
+      - להתעלם
+      - הצעה
+      correct: 0
+      lexemes:
+      - remind
+    - id: u26-n2-12
+      type: fill_blank
+      sentence: Don't ___ the problem.
+      translation: אל תתעלם מהבעיה.
+      answers:
+      - ignore
+      options:
+      - ignore
+      - suggestion
+      - propose
+      lexemes:
+      - ignore
+    - id: u26-n2-13
+      type: fill_blank
+      sentence: I ___ a short break.
+      translation: אני מציע הפסקה קצרה.
+      answers:
+      - propose
+      options:
+      - propose
+      - remind
+      - respond
+      lexemes:
+      - propose
+    - id: u26-n2-14
+      type: fill_blank
+      sentence: Please ___ to my email.
+      translation: בבקשה הגב למייל שלי.
+      answers:
+      - respond
+      options:
+      - respond
+      - ignore
+      - suggestion
+      lexemes:
+      - respond
+    - id: u26-n2-15
+      type: word_bank
+      prompt: מורים מעודדים את התלמידים שלהם.
+      answers:
+      - Teachers encourage their students.
+      distractors:
+      - ignore
+      - propose
+      lexemes:
+      - encourage
+    - id: u26-n2-16
+      type: word_bank
+      prompt: זו הצעה טובה.
+      answers:
+      - That is a good suggestion.
+      distractors:
+      - respond
+      - encourage
+      lexemes:
+      - suggestion
+    - id: u26-n2-17
+      type: listening_choice
+      audioText: Remind me to call him.
+      question: מה שמעתם?
+      options:
+      - תזכיר לי להתקשר אליו.
+      - אני מציע הפסקה קצרה.
+      - מורים מעודדים את התלמידים שלהם.
+      correct: 0
+      lexemes:
+      - remind
+    - id: u26-n2-18
+      type: speak_repeat
+      text: I propose a suggestion and I respond politely.
+      translation: אני מציעה הצעה ומגיבה בנימוס.
+      lexemes:
+      - propose
+      - respond
+      - suggestion
+  - id: u26-n3
+    kind: new
+    title:
+      he: 'היומן של נועה: שכנים נהדרים'
+      en: 'Noa''s diary: wonderful neighbors'
+    exercises:
+    - id: u26-n3-01
+      type: dialogue
+      scene: אחרי השיחה, השכנים מזמינים את נועה לתה.
+      lines:
+      - speaker: noa
+        text: Thank you, this is a wonderful idea. Could you do me a favor?
+        translation: תודה, זה רעיון נהדר. תוכלו לעשות לי טובה?
+      - speaker: katz
+        text: Of course. Your new neighbors are lovely.
+        translation: בטח. השכנים החדשים שלך נעימים.
+      - speaker: noa
+        text: The excellent cake is fantastic. And the baby is so cute!
+        translation: העוגה המצוינת פנטסטית. והתינוק כל כך חמוד!
+      - speaker: katz
+        text: Come again.
+        translation: בואי שוב.
+    - id: u26-n3-02
+      type: learn
+      lexeme: wonderful
+    - id: u26-n3-03
+      type: learn
+      lexeme: excellent
+    - id: u26-n3-04
+      type: learn
+      lexeme: fantastic
+    - id: u26-n3-05
+      type: learn
+      lexeme: lovely
+    - id: u26-n3-06
+      type: learn
+      lexeme: cute
+    - id: u26-n3-07
+      type: learn
+      lexeme: favor
+    - id: u26-n3-08
+      type: match_pairs
+      pairs:
+      - - wonderful
+        - נפלא
+      - - excellent
+        - מצוין
+      - - fantastic
+        - פנטסטי
+      - - lovely
+        - מקסים
+      - - cute
+        - חמוד
+      - - favor
+        - טובה
+      lexemes:
+      - wonderful
+      - excellent
+      - fantastic
+      - lovely
+      - cute
+      - favor
+    - id: u26-n3-09
+      type: multiple_choice
+      prompt: wonderful – מה הפירוש?
+      options:
+      - נפלא
+      - מצוין
+      - מקסים
+      correct: 0
+      lexemes:
+      - wonderful
+    - id: u26-n3-10
+      type: multiple_choice
+      prompt: fantastic – מה הפירוש?
+      options:
+      - פנטסטי
+      - טובה
+      - נפלא
+      correct: 0
+      lexemes:
+      - fantastic
+    - id: u26-n3-11
+      type: multiple_choice
+      prompt: cute – מה הפירוש?
+      options:
+      - חמוד
+      - טובה
+      - פנטסטי
+      correct: 0
+      lexemes:
+      - cute
+    - id: u26-n3-12
+      type: fill_blank
+      sentence: Your English is ___.
+      translation: האנגלית שלך מצוינת.
+      answers:
+      - excellent
+      options:
+      - excellent
+      - lovely
+      - favor
+      lexemes:
+      - excellent
+    - id: u26-n3-13
+      type: fill_blank
+      sentence: Can you do me a ___?
+      translation: אתה יכול לעשות לי טובה?
+      answers:
+      - favor
+      options:
+      - favor
+      - fantastic
+      - lovely
+      lexemes:
+      - favor
+    - id: u26-n3-14
+      type: fill_blank
+      sentence: What a ___ garden!
+      translation: איזו גינה מקסימה!
+      answers:
+      - lovely
+      options:
+      - lovely
+      - fantastic
+      - excellent
+      lexemes:
+      - lovely
+    - id: u26-n3-15
+      type: word_bank
+      prompt: זה יום נפלא.
+      answers:
+      - It is a wonderful day.
+      distractors:
+      - fantastic
+      - excellent
+      lexemes:
+      - wonderful
+    - id: u26-n3-16
+      type: word_bank
+      prompt: הנוף פנטסטי.
+      answers:
+      - The view is fantastic.
+      distractors:
+      - lovely
+      - favor
+      lexemes:
+      - fantastic
+    - id: u26-n3-17
+      type: listening_choice
+      audioText: The baby is so cute.
+      question: מה שמעתם?
+      options:
+      - התינוק כל כך חמוד.
+      - זה יום נפלא.
+      - האנגלית שלך מצוינת.
+      correct: 0
+      lexemes:
+      - cute
+    - id: u26-n3-18
+      type: speak_repeat
+      text: Your cake is excellent. It is a lovely favor.
+      translation: העוגה שלך מצוינת. זו טובה מקסימה.
+      lexemes:
+      - excellent
+      - lovely
+      - favor

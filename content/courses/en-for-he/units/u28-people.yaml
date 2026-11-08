@@ -33,6 +33,24 @@ vocabulary:
   - { id: "childhood", text: "childhood", translation: "ילדות", pos: "noun", pronunciation: "צ'ַיילְדְהוּד" }
   - { id: "close-to", text: "close to", translation: "קרוב ל־ (רגשית)", pos: "phrase", pronunciation: "קְלוֹס טוּ", example: { text: "I'm very close to my sister.", translation: "אני מאוד קרובה לאחותי." } }
 
+  - { id: "famous", text: "famous", translation: "מפורסם", pos: "adjective", example: { text: "He is a famous actor.", translation: "הוא שחקן מפורסם." } }
+  - { id: "actor", text: "actor", translation: "שחקן", pos: "noun", example: { text: "The actor plays a teacher.", translation: "השחקן מגלם מורה." } }
+  - { id: "singer", text: "singer", translation: "זמר", pos: "noun", example: { text: "She is a good singer.", translation: "היא זמרת טובה." } }
+  - { id: "speaker", text: "speaker", translation: "דובר; רמקול", pos: "noun", example: { text: "The speaker is very clear.", translation: "הדובר ברור מאוד." } }
+  - { id: "producer", text: "producer", translation: "מפיק", pos: "noun", example: { text: "The producer pays the actors.", translation: "המפיק משלם לשחקנים." } }
+  - { id: "politician", text: "politician", translation: "פוליטיקאי", pos: "noun", example: { text: "The politician gives a speech.", translation: "הפוליטיקאי נושא נאום." } }
+  - { id: "relative", text: "relative", translation: "קרוב משפחה", pos: "noun", example: { text: "My relative lives in Leeds.", translation: "קרוב משפחה שלי גר בלידס." } }
+  - { id: "mate", text: "mate", translation: "חבר", pos: "noun", example: { text: "He is my mate from school.", translation: "הוא חבר שלי מבית הספר." } }
+  - { id: "fellow", text: "fellow", translation: "חבר; שותף", pos: "noun", example: { text: "He is a fellow student.", translation: "הוא סטודנט שלי לצד." } }
+  - { id: "youth", text: "youth", translation: "נוער", pos: "noun", example: { text: "The youth group meets on Sunday.", translation: "קבוצת הנוער נפגשת ביום ראשון." } }
+  - { id: "resident", text: "resident", translation: "תושב", pos: "noun", example: { text: "Each resident has a key.", translation: "לכל תושב יש מפתח." } }
+  - { id: "supporter", text: "supporter", translation: "תומך", pos: "noun", example: { text: "She is a supporter of the team.", translation: "היא תומכת של הקבוצה." } }
+  - { id: "faith", text: "faith", translation: "אמונה", pos: "noun", example: { text: "Faith is important to him.", translation: "אמונה חשובה לו." } }
+  - { id: "religious", text: "religious", translation: "דתי", pos: "adjective", example: { text: "They are a religious family.", translation: "הם משפחה דתית." } }
+  - { id: "belief", text: "belief", translation: "אמונה; הנחה", pos: "noun", example: { text: "It is a strong belief.", translation: "זו אמונה חזקה." } }
+  - { id: "prayer", text: "prayer", translation: "תפילה", pos: "noun", example: { text: "The prayer is short.", translation: "התפילה קצרה." } }
+  - { id: "honor", text: "honor", translation: "כבוד", pos: "noun", example: { text: "It is an honor to meet you.", translation: "זה כבוד לפגוש אותך." } }
+  - { id: "grace", text: "grace", translation: "חן; חסד", pos: "noun", example: { text: "She walks with grace.", translation: "היא הולכת בחן." } }
 grammar:
   - id: relative-clauses
     title: { he: "משפטי זיקה: who, which, where", en: "Relative clauses" }
@@ -492,3 +510,503 @@ lessons:
             any: ["\\bmy (father|mother|brother|sister|friend|teacher|wife|husband|grandfather|grandmother)\\b"]
         model: "My grandfather is a man who always has time for everyone. He is kind and funny, and he tells stories that make us laugh. He lives in the house where my father grew up. He taught me the things that I use every day."
         lexemes: []
+  # ------------------------------------------------------------------ story words
+  - id: u28-n1
+    kind: new
+    title:
+      he: 'היומן של נועה: אנשים מפורסמים'
+      en: 'Noa''s diary: famous people'
+    exercises:
+    - id: u28-n1-01
+      type: dialogue
+      scene: ההורים של נועה מגיעים ללונדון, והיא מראה להם את העיר.
+      lines:
+      - speaker: noa
+        text: That actor is famous in Britain. He is a singer too.
+        translation: השחקן הזה מפורסם בבריטניה. הוא גם זמר.
+      - speaker: ben
+        text: The speaker at our event is a film producer.
+        translation: הדובר באירוע שלנו הוא מפיק סרטים.
+      - speaker: katz
+        text: And the politician who sits next to him is a neighbor of mine.
+        translation: והפוליטיקאי שיושב לידו הוא שכן שלי.
+      - speaker: noa
+        text: London is small.
+        translation: לונדון קטנה.
+    - id: u28-n1-02
+      type: learn
+      lexeme: famous
+    - id: u28-n1-03
+      type: learn
+      lexeme: actor
+    - id: u28-n1-04
+      type: learn
+      lexeme: singer
+    - id: u28-n1-05
+      type: learn
+      lexeme: speaker
+    - id: u28-n1-06
+      type: learn
+      lexeme: producer
+    - id: u28-n1-07
+      type: learn
+      lexeme: politician
+    - id: u28-n1-08
+      type: match_pairs
+      pairs:
+      - - famous
+        - מפורסם
+      - - actor
+        - שחקן
+      - - singer
+        - זמר
+      - - speaker
+        - דובר; רמקול
+      - - producer
+        - מפיק
+      - - politician
+        - פוליטיקאי
+      lexemes:
+      - famous
+      - actor
+      - singer
+      - speaker
+      - producer
+      - politician
+    - id: u28-n1-09
+      type: multiple_choice
+      prompt: singer – מה הפירוש?
+      options:
+      - זמר
+      - דובר; רמקול
+      - פוליטיקאי
+      correct: 0
+      lexemes:
+      - singer
+    - id: u28-n1-10
+      type: multiple_choice
+      prompt: actor – מה הפירוש?
+      options:
+      - שחקן
+      - זמר
+      - מפיק
+      correct: 0
+      lexemes:
+      - actor
+    - id: u28-n1-11
+      type: multiple_choice
+      prompt: famous – מה הפירוש?
+      options:
+      - מפורסם
+      - מפיק
+      - שחקן
+      correct: 0
+      lexemes:
+      - famous
+    - id: u28-n1-12
+      type: fill_blank
+      sentence: The ___ is very clear.
+      translation: הדובר ברור מאוד.
+      answers:
+      - speaker
+      options:
+      - speaker
+      - producer
+      - singer
+      lexemes:
+      - speaker
+    - id: u28-n1-13
+      type: fill_blank
+      sentence: The ___ pays the actors.
+      translation: המפיק משלם לשחקנים.
+      answers:
+      - producer
+      options:
+      - producer
+      - singer
+      - speaker
+      lexemes:
+      - producer
+    - id: u28-n1-14
+      type: fill_blank
+      sentence: The ___ gives a speech.
+      translation: הפוליטיקאי נושא נאום.
+      answers:
+      - politician
+      options:
+      - politician
+      - producer
+      - speaker
+      lexemes:
+      - politician
+    - id: u28-n1-15
+      type: word_bank
+      prompt: היא זמרת טובה.
+      answers:
+      - She is a good singer.
+      distractors:
+      - producer
+      - actor
+      lexemes:
+      - singer
+    - id: u28-n1-16
+      type: word_bank
+      prompt: השחקן מגלם מורה.
+      answers:
+      - The actor plays a teacher.
+      distractors:
+      - famous
+      - speaker
+      lexemes:
+      - actor
+    - id: u28-n1-17
+      type: listening_choice
+      audioText: He is a famous actor.
+      question: מה שמעתם?
+      options:
+      - הוא שחקן מפורסם.
+      - השחקן מגלם מורה.
+      - היא זמרת טובה.
+      correct: 0
+      lexemes:
+      - famous
+    - id: u28-n1-18
+      type: speak_repeat
+      text: The famous singer is a good speaker.
+      translation: הזמר המפורסם הוא דובר טוב.
+      lexemes:
+      - famous
+      - singer
+      - speaker
+  - id: u28-n2
+    kind: new
+    title:
+      he: 'היומן של נועה: קרובים וחברים'
+      en: 'Noa''s diary: relatives and friends'
+    exercises:
+    - id: u28-n2-01
+      type: dialogue
+      scene: נועה מציגה אנשים להוריה.
+      lines:
+      - speaker: noa
+        text: This is my mate from work. And this is a relative from Manchester.
+        translation: זה חבר שלי מהעבודה. וזה קרוב משפחה ממנצ'סטר.
+      - speaker: ben
+        text: Every resident of the building is a fellow volunteer here.
+        translation: כל דייר בבניין הוא מתנדב לצידנו.
+      - speaker: noa
+        text: Even the youth group helps.
+        translation: אפילו קבוצת הנוער עוזרת.
+      - speaker: ben
+        text: And our supporters came too.
+        translation: והתומכים שלנו הגיעו גם.
+    - id: u28-n2-02
+      type: learn
+      lexeme: relative
+    - id: u28-n2-03
+      type: learn
+      lexeme: mate
+    - id: u28-n2-04
+      type: learn
+      lexeme: fellow
+    - id: u28-n2-05
+      type: learn
+      lexeme: youth
+    - id: u28-n2-06
+      type: learn
+      lexeme: resident
+    - id: u28-n2-07
+      type: learn
+      lexeme: supporter
+    - id: u28-n2-08
+      type: match_pairs
+      pairs:
+      - - relative
+        - קרוב משפחה
+      - - mate
+        - חבר
+      - - fellow
+        - חבר; שותף
+      - - youth
+        - נוער
+      - - resident
+        - תושב
+      - - supporter
+        - תומך
+      lexemes:
+      - relative
+      - mate
+      - fellow
+      - youth
+      - resident
+      - supporter
+    - id: u28-n2-09
+      type: multiple_choice
+      prompt: supporter – מה הפירוש?
+      options:
+      - תומך
+      - נוער
+      - חבר
+      correct: 0
+      lexemes:
+      - supporter
+    - id: u28-n2-10
+      type: multiple_choice
+      prompt: fellow – מה הפירוש?
+      options:
+      - חבר; שותף
+      - חבר
+      - נוער
+      correct: 0
+      lexemes:
+      - fellow
+    - id: u28-n2-11
+      type: multiple_choice
+      prompt: mate – מה הפירוש?
+      options:
+      - חבר
+      - חבר; שותף
+      - תושב
+      correct: 0
+      lexemes:
+      - mate
+    - id: u28-n2-12
+      type: fill_blank
+      sentence: The ___ group meets on Sunday.
+      translation: קבוצת הנוער נפגשת ביום ראשון.
+      answers:
+      - youth
+      options:
+      - youth
+      - resident
+      - supporter
+      lexemes:
+      - youth
+    - id: u28-n2-13
+      type: fill_blank
+      sentence: My ___ lives in Leeds.
+      translation: קרוב משפחה שלי גר בלידס.
+      answers:
+      - relative
+      options:
+      - relative
+      - supporter
+      - fellow
+      lexemes:
+      - relative
+    - id: u28-n2-14
+      type: fill_blank
+      sentence: Each ___ has a key.
+      translation: לכל תושב יש מפתח.
+      answers:
+      - resident
+      options:
+      - resident
+      - fellow
+      - mate
+      lexemes:
+      - resident
+    - id: u28-n2-15
+      type: word_bank
+      prompt: היא תומכת של הקבוצה.
+      answers:
+      - She is a supporter of the team.
+      distractors:
+      - fellow
+      - relative
+      lexemes:
+      - supporter
+    - id: u28-n2-16
+      type: word_bank
+      prompt: הוא סטודנט שלי לצד.
+      answers:
+      - He is a fellow student.
+      distractors:
+      - resident
+      - mate
+      lexemes:
+      - fellow
+    - id: u28-n2-17
+      type: listening_choice
+      audioText: He is my mate from school.
+      question: מה שמעתם?
+      options:
+      - הוא חבר שלי מבית הספר.
+      - קרוב משפחה שלי גר בלידס.
+      - הוא סטודנט שלי לצד.
+      correct: 0
+      lexemes:
+      - mate
+    - id: u28-n2-18
+      type: speak_repeat
+      text: My relative is a resident of London.
+      translation: קרוב משפחתי הוא תושב לונדון.
+      lexemes:
+      - relative
+      - resident
+  - id: u28-n3
+    kind: new
+    title:
+      he: 'היומן של נועה: אמונה ומסורת'
+      en: 'Noa''s diary: faith and tradition'
+    exercises:
+    - id: u28-n3-01
+      type: dialogue
+      scene: נועה מספרת להוריה על שבת בלונדון.
+      lines:
+      - speaker: noa
+        text: Our faith is strong here. The religious community gives us a lot.
+        translation: האמונה שלנו חזקה כאן. הקהילה הדתית נותנת לנו הרבה.
+      - speaker: ben
+        text: It is an honor to join them for prayer.
+        translation: זה כבוד להצטרף אליהם לתפילה.
+      - speaker: noa
+        text: Our belief is that every guest brings grace.
+        translation: האמונה שלנו היא שכל אורח מביא חן.
+      - speaker: ben
+        text: Shabbat shalom.
+        translation: שבת שלום.
+    - id: u28-n3-02
+      type: learn
+      lexeme: faith
+    - id: u28-n3-03
+      type: learn
+      lexeme: religious
+    - id: u28-n3-04
+      type: learn
+      lexeme: belief
+    - id: u28-n3-05
+      type: learn
+      lexeme: prayer
+    - id: u28-n3-06
+      type: learn
+      lexeme: honor
+    - id: u28-n3-07
+      type: learn
+      lexeme: grace
+    - id: u28-n3-08
+      type: match_pairs
+      pairs:
+      - - faith
+        - אמונה
+      - - religious
+        - דתי
+      - - belief
+        - אמונה; הנחה
+      - - prayer
+        - תפילה
+      - - honor
+        - כבוד
+      - - grace
+        - חן; חסד
+      lexemes:
+      - faith
+      - religious
+      - belief
+      - prayer
+      - honor
+      - grace
+    - id: u28-n3-09
+      type: multiple_choice
+      prompt: grace – מה הפירוש?
+      options:
+      - חן; חסד
+      - אמונה; הנחה
+      - תפילה
+      correct: 0
+      lexemes:
+      - grace
+    - id: u28-n3-10
+      type: multiple_choice
+      prompt: religious – מה הפירוש?
+      options:
+      - דתי
+      - כבוד
+      - תפילה
+      correct: 0
+      lexemes:
+      - religious
+    - id: u28-n3-11
+      type: multiple_choice
+      prompt: prayer – מה הפירוש?
+      options:
+      - תפילה
+      - כבוד
+      - חן; חסד
+      correct: 0
+      lexemes:
+      - prayer
+    - id: u28-n3-12
+      type: fill_blank
+      sentence: ___ is important to him.
+      translation: אמונה חשובה לו.
+      answers:
+      - Faith
+      options:
+      - Faith
+      - belief
+      - religious
+      lexemes:
+      - faith
+    - id: u28-n3-13
+      type: fill_blank
+      sentence: It is an ___ to meet you.
+      translation: זה כבוד לפגוש אותך.
+      answers:
+      - honor
+      options:
+      - honor
+      - prayer
+      - grace
+      lexemes:
+      - honor
+    - id: u28-n3-14
+      type: fill_blank
+      sentence: It is a strong ___.
+      translation: זו אמונה חזקה.
+      answers:
+      - belief
+      options:
+      - belief
+      - grace
+      - religious
+      lexemes:
+      - belief
+    - id: u28-n3-15
+      type: word_bank
+      prompt: היא הולכת בחן.
+      answers:
+      - She walks with grace.
+      distractors:
+      - faith
+      - religious
+      lexemes:
+      - grace
+    - id: u28-n3-16
+      type: word_bank
+      prompt: הם משפחה דתית.
+      answers:
+      - They are a religious family.
+      distractors:
+      - prayer
+      - honor
+      lexemes:
+      - religious
+    - id: u28-n3-17
+      type: listening_choice
+      audioText: The prayer is short.
+      question: מה שמעתם?
+      options:
+      - התפילה קצרה.
+      - אמונה חשובה לו.
+      - הם משפחה דתית.
+      correct: 0
+      lexemes:
+      - prayer
+    - id: u28-n3-18
+      type: speak_repeat
+      text: It is an honor to join the prayer.
+      translation: זה כבוד להצטרף לתפילה.
+      lexemes:
+      - prayer
+      - honor
