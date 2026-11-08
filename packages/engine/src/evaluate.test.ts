@@ -73,3 +73,14 @@ describe("checkWriting with accents", () => {
     expect(checkWriting("Ayer hable con mi madre de nuestro ano", ex).passed).toBe(1);
   });
 });
+
+describe("seededShuffle", () => {
+  it("gives different orders for nearby seeds", () => {
+    const items = [0, 1, 2, 3, 4];
+    let same = 0;
+    for (let seed = 1; seed < 200; seed++) {
+      if (seededShuffle(items, seed).join() === seededShuffle(items, seed + 7).join()) same++;
+    }
+    expect(same).toBeLessThan(10);
+  });
+});

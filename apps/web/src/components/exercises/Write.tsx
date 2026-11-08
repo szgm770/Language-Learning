@@ -3,6 +3,7 @@
 import { checkWriting } from "@lingo/engine";
 import { useMemo, useState } from "react";
 import { Icon } from "../icons";
+import { dirOf } from "../ui";
 import type { ExerciseProps } from "./types";
 
 /** Free writing with a live checklist: the learner sees what is still missing before checking. */
@@ -16,7 +17,7 @@ export function Write({ ex, ctx, locked, onChange }: ExerciseProps<"write">) {
       <textarea
         rows={7}
         lang={ctx.target}
-        dir="ltr"
+        dir={dirOf(ctx.target)}
         disabled={locked}
         className="field word text-lg"
         placeholder="Write here…"

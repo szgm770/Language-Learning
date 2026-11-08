@@ -11,7 +11,17 @@ type Side = "target" | "source";
 export function MatchPairs({ ex, ctx, locked, onChange }: ExerciseProps<"match_pairs">) {
   const seed = seedOf(ex.id);
   const left = useMemo(() => seededShuffle(ex.pairs.map((_, i) => i), seed), [ex.pairs, seed]);
-  const right = useMemo(() => seededShuffle(ex.pairs.map((_, i) => i), seed + 7), [ex.pairs, seed]);
+  const right = useMemo(() => {
+    const r = seededShuffle(ex.pairs.map((_, i) => i), seedOf(`${ex.id}:right`));
+    // Never show both columns in the same order: rotate to the order with the fewest rows that line up.
+    const matches = (o: number[]) => o.filter((p, i) => p === left[i]).length;
+    let best = r;
+    for (let k = 1; k < r.length; k++) {
+      const o = [...r.slice(k), ...r.slice(0, k)];
+      if (matches(o) < matches(best)) best = o;
+    }
+    return best;
+  }, [ex.pairs, ex.id, left]);
   const [matched, setMatched] = useState<Set<number>>(new Set());
   const [sel, setSel] = useState<{ side: Side; pair: number } | null>(null);
   const [miss, setMiss] = useState<{ a: number; b: number } | null>(null);

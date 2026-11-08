@@ -7,10 +7,13 @@ import { Icon } from "./icons";
 
 const RTL = ["he", "yi", "ar", "arc"];
 
+/** Text direction of a language: Hebrew-script and Arabic-script languages are right-to-left. */
+export const dirOf = (lang: string): "rtl" | "ltr" => (RTL.includes(lang) ? "rtl" : "ltr");
+
 /** A word or sentence in the language being learned: its own language and direction. */
 export function Word({ text, lang, className = "" }: { text: string; lang: string; className?: string }) {
   return (
-    <span lang={lang} dir={RTL.includes(lang) ? "rtl" : "ltr"} className={`word ${className}`}>
+    <span lang={lang} dir={dirOf(lang)} className={`word ${className}`}>
       {text}
     </span>
   );

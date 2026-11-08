@@ -2,7 +2,7 @@
 
 import { wordBankTiles } from "@lingo/engine";
 import { useMemo, useState } from "react";
-import { Word } from "../ui";
+import { Word, dirOf } from "../ui";
 import { type ExerciseProps, seedOf } from "./types";
 
 export function WordBank({ ex, ctx, locked, onChange }: ExerciseProps<"word_bank">) {
@@ -34,13 +34,13 @@ export function WordBank({ ex, ctx, locked, onChange }: ExerciseProps<"word_bank
       <h2 className="text-2xl font-bold">תרגמו את המשפט</h2>
       <p className="text-xl">{ex.prompt}</p>
       <div
-        dir="ltr"
+        dir={dirOf(ctx.target)}
         className="flex min-h-28 flex-wrap content-start gap-2 border-b-2 border-line pb-3"
         aria-label="התשובה שלכם"
       >
         {chosen.map((i) => tile(i, () => update(chosen.filter((c) => c !== i))))}
       </div>
-      <div dir="ltr" data-bank className="flex flex-wrap justify-center gap-2">
+      <div dir={dirOf(ctx.target)} data-bank className="flex flex-wrap justify-center gap-2">
         {tiles.map((_, i) => tile(i, () => update([...chosen, i]), chosen.includes(i)))}
       </div>
     </div>
