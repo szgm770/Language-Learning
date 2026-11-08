@@ -1,0 +1,1034 @@
+id: p17-words
+cefr: B2
+scene: study
+title:
+  he: 'הרחבת אוצר מילים 17: צורות הפועל בשיחות'
+  en: 'Word builder 17: verb forms from the talks'
+story: צורות הפועל שחוזרות הכי הרבה בשיחות, כל אחת במשפט קצר.
+canDo:
+- להבין ולהשתמש במילים נפוצות נוספות
+- לזהות את המילים במשפטים
+vocabulary:
+- id: p17-hot
+  text: האָט
+  translation: יש לו / (עזר לעבר)
+  pos: verb
+  example:
+    text: ער האָט אַ בוך.
+    translation: יש לו ספר
+- id: p17-zaynen
+  text: זיינען
+  translation: הם / אנחנו (הווה של להיות)
+  pos: verb
+  example:
+    text: מיר זיינען דאָ.
+    translation: אנחנו כאן
+- id: p17-zogt
+  text: זאָגט
+  translation: אומר
+  pos: verb
+  example:
+    text: ער זאָגט עס.
+    translation: הוא אומר את זה
+- id: p17-shteyt
+  text: שטייט
+  translation: עומד
+  pos: verb
+  example:
+    text: ער שטייט אין שול.
+    translation: הוא עומד בבית הכנסת
+- id: p17-brengt
+  text: ברענגט
+  translation: מביא
+  pos: verb
+  example:
+    text: ער ברענגט אַ בוך.
+    translation: הוא מביא ספר
+- id: p17-kumt
+  text: קומט
+  translation: בא
+  pos: verb
+  example:
+    text: ער קומט מאָרגן.
+    translation: הוא בא מחר
+- id: p17-tut
+  text: טוט
+  translation: עושה
+  pos: verb
+  example:
+    text: ער טוט עס.
+    translation: הוא עושה את זה
+- id: p17-zet
+  text: זעט
+  translation: רואה
+  pos: verb
+  example:
+    text: ער זעט אַ בוך.
+    translation: הוא רואה ספר
+- id: p17-redt
+  text: רעדט
+  translation: מדבר
+  pos: verb
+  example:
+    text: ער רעדט יידיש.
+    translation: הוא מדבר יידיש
+- id: p17-gefint
+  text: געפֿינט
+  translation: מוצא
+  pos: verb
+  example:
+    text: ער געפֿינט אַ בוך.
+    translation: הוא מוצא ספר
+- id: p17-dar
+  text: דאַרף
+  translation: צריך
+  pos: verb
+  example:
+    text: ער דאַרף גיין.
+    translation: הוא צריך ללכת
+- id: p17-ken
+  text: קען
+  translation: יכול
+  pos: verb
+  example:
+    text: ער קען גיין.
+    translation: הוא יכול ללכת
+- id: p17-vet
+  text: וועט
+  translation: יהיה (עתיד)
+  pos: verb
+  example:
+    text: ער וועט קומען.
+    translation: הוא יבוא
+- id: p17-geven
+  text: געווען
+  translation: היה
+  pos: verb
+  example:
+    text: ער איז געווען אין שול.
+    translation: הוא היה בבית הכנסת
+- id: p17-gevoren
+  text: געוואָרן
+  translation: נהיה
+  pos: verb
+  example:
+    text: עס איז קאַלט געוואָרן.
+    translation: נהיה קר
+- id: p17-geton
+  text: געטאָן
+  translation: עשה
+  pos: verb
+  example:
+    text: ער האָט עס געטאָן.
+    translation: הוא עשה את זה
+- id: p17-gefunen
+  text: געפֿונען
+  translation: מצא
+  pos: verb
+  example:
+    text: איך האָב געפֿונען אַ בוך.
+    translation: מצאתי ספר
+- id: p17-gekumen
+  text: געקומען
+  translation: בא (עבר)
+  pos: verb
+  example:
+    text: ער איז געקומען.
+    translation: הוא בא
+- id: p17-gegebn
+  text: געגעבן
+  translation: נתן
+  pos: verb
+  example:
+    text: ער האָט געגעבן צדקה.
+    translation: הוא נתן צדקה
+- id: p17-gemakht
+  text: געמאַכט
+  translation: עשה / יצר
+  pos: verb
+  example:
+    text: ער האָט געמאַכט אַ סוכה.
+    translation: הוא עשה סוכה
+- id: p17-gebitn
+  text: געבעטן
+  translation: ביקש
+  pos: verb
+  example:
+    text: איך האָב געבעטן אַ בוך.
+    translation: ביקשתי ספר
+- id: p17-gelaybt
+  text: געלעבט
+  translation: חי
+  pos: verb
+  example:
+    text: ער האָט געלעבט אין ניו־יאָרק.
+    translation: הוא חי בניו יורק
+- id: p17-geblibn
+  text: געבליבן
+  translation: נשאר
+  pos: verb
+  example:
+    text: ער איז געבליבן אין שטוב.
+    translation: הוא נשאר בבית
+- id: p17-gezen2
+  text: געזען
+  translation: ראה
+  pos: verb
+  example:
+    text: איך האָב געזען דעם רבי.
+    translation: ראיתי את הרבי
+- id: p17-gegeyn2
+  text: געגאַנגען
+  translation: הלך
+  pos: verb
+  example:
+    text: ער איז געגאַנגען אין שול.
+    translation: הוא הלך לבית הכנסת
+- id: p17-gerufn
+  text: גערופֿן
+  translation: קרא
+  pos: verb
+  example:
+    text: איך האָב גערופֿן אַ גאַסט.
+    translation: קראתי לאורח
+- id: p17-gefregt
+  text: געפֿרעגט
+  translation: שאל
+  pos: verb
+  example:
+    text: ער האָט געפֿרעגט אַ פֿראַגע.
+    translation: הוא שאל שאלה
+- id: p17-gefirt
+  text: געפֿירט
+  translation: הוביל
+  pos: verb
+  example:
+    text: ער האָט געפֿירט דעם שיעור.
+    translation: הוא העביר את השיעור
+lessons:
+- id: p17-l1
+  kind: new
+  title:
+    he: חבילה 17 – חלק 1
+    en: Pack 17 – part 1
+  exercises:
+  - id: p17-l1-01
+    type: learn
+    lexeme: p17-hot
+  - id: p17-l1-02
+    type: learn
+    lexeme: p17-zaynen
+  - id: p17-l1-03
+    type: learn
+    lexeme: p17-zogt
+  - id: p17-l1-04
+    type: learn
+    lexeme: p17-shteyt
+  - id: p17-l1-05
+    type: learn
+    lexeme: p17-brengt
+  - id: p17-l1-06
+    type: learn
+    lexeme: p17-kumt
+  - id: p17-l1-07
+    type: learn
+    lexeme: p17-tut
+  - id: p17-l1-08
+    type: learn
+    lexeme: p17-zet
+  - id: p17-l1-09
+    type: learn
+    lexeme: p17-redt
+  - id: p17-l1-10
+    type: match_pairs
+    pairs:
+    - - האָט
+      - יש לו / (עזר לעבר)
+    - - זיינען
+      - הם / אנחנו (הווה של להיות)
+    - - זאָגט
+      - אומר
+    - - שטייט
+      - עומד
+    lexemes:
+    - p17-hot
+    - p17-zaynen
+    - p17-zogt
+    - p17-shteyt
+  - id: p17-l1-11
+    type: match_pairs
+    pairs:
+    - - ברענגט
+      - מביא
+    - - קומט
+      - בא
+    - - טוט
+      - עושה
+    - - זעט
+      - רואה
+    - - רעדט
+      - מדבר
+    lexemes:
+    - p17-brengt
+    - p17-kumt
+    - p17-tut
+    - p17-zet
+    - p17-redt
+  - id: p17-l1-12
+    type: multiple_choice
+    prompt: מה פירוש האָט?
+    options:
+    - יש לו / (עזר לעבר)
+    - ראה
+    - היה
+    correct: 0
+    lexemes:
+    - p17-hot
+  - id: p17-l1-13
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: הם / אנחנו (הווה של להיות)?'
+    options:
+    - זיינען
+    - געפֿונען
+    - געוואָרן
+    correct: 0
+    lexemes:
+    - p17-zaynen
+  - id: p17-l1-14
+    type: multiple_choice
+    prompt: מה פירוש זאָגט?
+    options:
+    - אומר
+    - יהיה (עתיד)
+    - ביקש
+    correct: 0
+    lexemes:
+    - p17-zogt
+  - id: p17-l1-15
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: עומד?'
+    options:
+    - שטייט
+    - געגאַנגען
+    - געקומען
+    correct: 0
+    lexemes:
+    - p17-shteyt
+  - id: p17-l1-16
+    type: multiple_choice
+    prompt: מה פירוש ברענגט?
+    options:
+    - מביא
+    - יכול
+    - היה
+    correct: 0
+    lexemes:
+    - p17-brengt
+  - id: p17-l1-17
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: בא?'
+    options:
+    - קומט
+    - קען
+    - געגעבן
+    correct: 0
+    lexemes:
+    - p17-kumt
+  - id: p17-l1-18
+    type: multiple_choice
+    prompt: מה פירוש טוט?
+    options:
+    - עושה
+    - נהיה
+    - ראה
+    correct: 0
+    lexemes:
+    - p17-tut
+  - id: p17-l1-19
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: רואה?'
+    options:
+    - זעט
+    - וועט
+    - געקומען
+    correct: 0
+    lexemes:
+    - p17-zet
+  - id: p17-l1-20
+    type: multiple_choice
+    prompt: מה פירוש רעדט?
+    options:
+    - מדבר
+    - נהיה
+    - בא (עבר)
+    correct: 0
+    lexemes:
+    - p17-redt
+  - id: p17-l1-21
+    type: fill_blank
+    sentence: ער ___ אַ בוך.
+    translation: יש לו ספר
+    answers:
+    - האָט
+    options:
+    - האָט
+    - וועט
+    - געפֿירט
+    lexemes:
+    - p17-hot
+  - id: p17-l1-22
+    type: fill_blank
+    sentence: מיר ___ דאָ.
+    translation: אנחנו כאן
+    answers:
+    - זיינען
+    options:
+    - זיינען
+    - געפֿירט
+    - געזען
+    lexemes:
+    - p17-zaynen
+  - id: p17-l1-23
+    type: fill_blank
+    sentence: ער ___ עס.
+    translation: הוא אומר את זה
+    answers:
+    - זאָגט
+    options:
+    - זאָגט
+    - קען
+    - געגעבן
+    lexemes:
+    - p17-zogt
+  - id: p17-l1-24
+    type: fill_blank
+    sentence: ער ___ אין שול.
+    translation: הוא עומד בבית הכנסת
+    answers:
+    - שטייט
+    options:
+    - שטייט
+    - גערופֿן
+    - געבעטן
+    lexemes:
+    - p17-shteyt
+  - id: p17-l1-25
+    type: fill_blank
+    sentence: ער ___ אַ בוך.
+    translation: הוא מביא ספר
+    answers:
+    - ברענגט
+    options:
+    - ברענגט
+    - געוואָרן
+    - געלעבט
+    lexemes:
+    - p17-brengt
+  - id: p17-l1-26
+    type: fill_blank
+    sentence: ער ___ מאָרגן.
+    translation: הוא בא מחר
+    answers:
+    - קומט
+    options:
+    - קומט
+    - געפֿירט
+    - געבעטן
+    lexemes:
+    - p17-kumt
+  - id: p17-l1-27
+    type: fill_blank
+    sentence: ער ___ עס.
+    translation: הוא עושה את זה
+    answers:
+    - טוט
+    options:
+    - טוט
+    - געגעבן
+    - געוואָרן
+    lexemes:
+    - p17-tut
+  - id: p17-l1-28
+    type: fill_blank
+    sentence: ער ___ אַ בוך.
+    translation: הוא רואה ספר
+    answers:
+    - זעט
+    options:
+    - זעט
+    - געפֿינט
+    - קען
+    lexemes:
+    - p17-zet
+  - id: p17-l1-29
+    type: fill_blank
+    sentence: ער ___ יידיש.
+    translation: הוא מדבר יידיש
+    answers:
+    - רעדט
+    options:
+    - רעדט
+    - געפֿירט
+    - גערופֿן
+    lexemes:
+    - p17-redt
+- id: p17-l2
+  kind: new
+  title:
+    he: חבילה 17 – חלק 2
+    en: Pack 17 – part 2
+  exercises:
+  - id: p17-l2-01
+    type: learn
+    lexeme: p17-gefint
+  - id: p17-l2-02
+    type: learn
+    lexeme: p17-dar
+  - id: p17-l2-03
+    type: learn
+    lexeme: p17-ken
+  - id: p17-l2-04
+    type: learn
+    lexeme: p17-vet
+  - id: p17-l2-05
+    type: learn
+    lexeme: p17-geven
+  - id: p17-l2-06
+    type: learn
+    lexeme: p17-gevoren
+  - id: p17-l2-07
+    type: learn
+    lexeme: p17-geton
+  - id: p17-l2-08
+    type: learn
+    lexeme: p17-gefunen
+  - id: p17-l2-09
+    type: learn
+    lexeme: p17-gekumen
+  - id: p17-l2-10
+    type: match_pairs
+    pairs:
+    - - געפֿינט
+      - מוצא
+    - - דאַרף
+      - צריך
+    - - קען
+      - יכול
+    - - וועט
+      - יהיה (עתיד)
+    lexemes:
+    - p17-gefint
+    - p17-dar
+    - p17-ken
+    - p17-vet
+  - id: p17-l2-11
+    type: match_pairs
+    pairs:
+    - - געווען
+      - היה
+    - - געוואָרן
+      - נהיה
+    - - געטאָן
+      - עשה
+    - - געפֿונען
+      - מצא
+    - - געקומען
+      - בא (עבר)
+    lexemes:
+    - p17-geven
+    - p17-gevoren
+    - p17-geton
+    - p17-gefunen
+    - p17-gekumen
+  - id: p17-l2-12
+    type: multiple_choice
+    prompt: מה פירוש געפֿינט?
+    options:
+    - מוצא
+    - קרא
+    - ראה
+    correct: 0
+    lexemes:
+    - p17-gefint
+  - id: p17-l2-13
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: צריך?'
+    options:
+    - דאַרף
+    - געפֿרעגט
+    - געבעטן
+    correct: 0
+    lexemes:
+    - p17-dar
+  - id: p17-l2-14
+    type: multiple_choice
+    prompt: מה פירוש קען?
+    options:
+    - יכול
+    - הלך
+    - ראה
+    correct: 0
+    lexemes:
+    - p17-ken
+  - id: p17-l2-15
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: יהיה (עתיד)?'
+    options:
+    - וועט
+    - רעדט
+    - זאָגט
+    correct: 0
+    lexemes:
+    - p17-vet
+  - id: p17-l2-16
+    type: multiple_choice
+    prompt: מה פירוש געווען?
+    options:
+    - היה
+    - הם / אנחנו (הווה של להיות)
+    - מדבר
+    correct: 0
+    lexemes:
+    - p17-geven
+  - id: p17-l2-17
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: נהיה?'
+    options:
+    - געוואָרן
+    - קומט
+    - רעדט
+    correct: 0
+    lexemes:
+    - p17-gevoren
+  - id: p17-l2-18
+    type: multiple_choice
+    prompt: מה פירוש געטאָן?
+    options:
+    - עשה
+    - ראה
+    - מביא
+    correct: 0
+    lexemes:
+    - p17-geton
+  - id: p17-l2-19
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: מצא?'
+    options:
+    - געפֿונען
+    - געבעטן
+    - זעט
+    correct: 0
+    lexemes:
+    - p17-gefunen
+  - id: p17-l2-20
+    type: multiple_choice
+    prompt: מה פירוש געקומען?
+    options:
+    - בא (עבר)
+    - ביקש
+    - הוביל
+    correct: 0
+    lexemes:
+    - p17-gekumen
+  - id: p17-l2-21
+    type: fill_blank
+    sentence: ער ___ אַ בוך.
+    translation: הוא מוצא ספר
+    answers:
+    - געפֿינט
+    options:
+    - געפֿינט
+    - ברענגט
+    - האָט
+    lexemes:
+    - p17-gefint
+  - id: p17-l2-22
+    type: fill_blank
+    sentence: ער ___ גיין.
+    translation: הוא צריך ללכת
+    answers:
+    - דאַרף
+    options:
+    - דאַרף
+    - זאָגט
+    - געפֿירט
+    lexemes:
+    - p17-dar
+  - id: p17-l2-23
+    type: fill_blank
+    sentence: ער ___ גיין.
+    translation: הוא יכול ללכת
+    answers:
+    - קען
+    options:
+    - קען
+    - שטייט
+    - געגעבן
+    lexemes:
+    - p17-ken
+  - id: p17-l2-24
+    type: fill_blank
+    sentence: ער ___ קומען.
+    translation: הוא יבוא
+    answers:
+    - וועט
+    options:
+    - וועט
+    - געגעבן
+    - שטייט
+    lexemes:
+    - p17-vet
+  - id: p17-l2-25
+    type: fill_blank
+    sentence: ער איז ___ אין שול.
+    translation: הוא היה בבית הכנסת
+    answers:
+    - געווען
+    options:
+    - געווען
+    - קומט
+    - שטייט
+    lexemes:
+    - p17-geven
+  - id: p17-l2-26
+    type: fill_blank
+    sentence: עס איז קאַלט ___.
+    translation: נהיה קר
+    answers:
+    - געוואָרן
+    options:
+    - געוואָרן
+    - שטייט
+    - געמאַכט
+    lexemes:
+    - p17-gevoren
+  - id: p17-l2-27
+    type: fill_blank
+    sentence: ער האָט עס ___.
+    translation: הוא עשה את זה
+    answers:
+    - געטאָן
+    options:
+    - געטאָן
+    - געפֿירט
+    - שטייט
+    lexemes:
+    - p17-geton
+  - id: p17-l2-28
+    type: fill_blank
+    sentence: איך האָב ___ אַ בוך.
+    translation: מצאתי ספר
+    answers:
+    - געפֿונען
+    options:
+    - געפֿונען
+    - געפֿרעגט
+    - געמאַכט
+    lexemes:
+    - p17-gefunen
+  - id: p17-l2-29
+    type: fill_blank
+    sentence: ער איז ___.
+    translation: הוא בא
+    answers:
+    - געקומען
+    options:
+    - געקומען
+    - קומט
+    - טוט
+    lexemes:
+    - p17-gekumen
+- id: p17-l3
+  kind: new
+  title:
+    he: חבילה 17 – חלק 3
+    en: Pack 17 – part 3
+  exercises:
+  - id: p17-l3-01
+    type: learn
+    lexeme: p17-gegebn
+  - id: p17-l3-02
+    type: learn
+    lexeme: p17-gemakht
+  - id: p17-l3-03
+    type: learn
+    lexeme: p17-gebitn
+  - id: p17-l3-04
+    type: learn
+    lexeme: p17-gelaybt
+  - id: p17-l3-05
+    type: learn
+    lexeme: p17-geblibn
+  - id: p17-l3-06
+    type: learn
+    lexeme: p17-gezen2
+  - id: p17-l3-07
+    type: learn
+    lexeme: p17-gegeyn2
+  - id: p17-l3-08
+    type: learn
+    lexeme: p17-gerufn
+  - id: p17-l3-09
+    type: learn
+    lexeme: p17-gefregt
+  - id: p17-l3-10
+    type: learn
+    lexeme: p17-gefirt
+  - id: p17-l3-11
+    type: match_pairs
+    pairs:
+    - - געגעבן
+      - נתן
+    - - געמאַכט
+      - עשה / יצר
+    - - געבעטן
+      - ביקש
+    - - געלעבט
+      - חי
+    - - געבליבן
+      - נשאר
+    lexemes:
+    - p17-gegebn
+    - p17-gemakht
+    - p17-gebitn
+    - p17-gelaybt
+    - p17-geblibn
+  - id: p17-l3-12
+    type: match_pairs
+    pairs:
+    - - געזען
+      - ראה
+    - - געגאַנגען
+      - הלך
+    - - גערופֿן
+      - קרא
+    - - געפֿרעגט
+      - שאל
+    - - געפֿירט
+      - הוביל
+    lexemes:
+    - p17-gezen2
+    - p17-gegeyn2
+    - p17-gerufn
+    - p17-gefregt
+    - p17-gefirt
+  - id: p17-l3-13
+    type: multiple_choice
+    prompt: מה פירוש געגעבן?
+    options:
+    - נתן
+    - נהיה
+    - עשה
+    correct: 0
+    lexemes:
+    - p17-gegebn
+  - id: p17-l3-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: עשה / יצר?'
+    options:
+    - געמאַכט
+    - שטייט
+    - וועט
+    correct: 0
+    lexemes:
+    - p17-gemakht
+  - id: p17-l3-15
+    type: multiple_choice
+    prompt: מה פירוש געבעטן?
+    options:
+    - ביקש
+    - הם / אנחנו (הווה של להיות)
+    - יהיה (עתיד)
+    correct: 0
+    lexemes:
+    - p17-gebitn
+  - id: p17-l3-16
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: חי?'
+    options:
+    - געלעבט
+    - שטייט
+    - רעדט
+    correct: 0
+    lexemes:
+    - p17-gelaybt
+  - id: p17-l3-17
+    type: multiple_choice
+    prompt: מה פירוש געבליבן?
+    options:
+    - נשאר
+    - מוצא
+    - בא (עבר)
+    correct: 0
+    lexemes:
+    - p17-geblibn
+  - id: p17-l3-18
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: ראה?'
+    options:
+    - געזען
+    - זיינען
+    - זעט
+    correct: 0
+    lexemes:
+    - p17-gezen2
+  - id: p17-l3-19
+    type: multiple_choice
+    prompt: מה פירוש געגאַנגען?
+    options:
+    - הלך
+    - בא
+    - יהיה (עתיד)
+    correct: 0
+    lexemes:
+    - p17-gegeyn2
+  - id: p17-l3-20
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: קרא?'
+    options:
+    - גערופֿן
+    - געוואָרן
+    - דאַרף
+    correct: 0
+    lexemes:
+    - p17-gerufn
+  - id: p17-l3-21
+    type: multiple_choice
+    prompt: מה פירוש געפֿרעגט?
+    options:
+    - שאל
+    - בא
+    - מוצא
+    correct: 0
+    lexemes:
+    - p17-gefregt
+  - id: p17-l3-22
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: הוביל?'
+    options:
+    - געפֿירט
+    - קומט
+    - טוט
+    correct: 0
+    lexemes:
+    - p17-gefirt
+  - id: p17-l3-23
+    type: fill_blank
+    sentence: ער האָט ___ צדקה.
+    translation: הוא נתן צדקה
+    answers:
+    - געגעבן
+    options:
+    - געגעבן
+    - רעדט
+    - ברענגט
+    lexemes:
+    - p17-gegebn
+  - id: p17-l3-24
+    type: fill_blank
+    sentence: ער האָט ___ אַ סוכה.
+    translation: הוא עשה סוכה
+    answers:
+    - געמאַכט
+    options:
+    - געמאַכט
+    - געטאָן
+    - געפֿינט
+    lexemes:
+    - p17-gemakht
+  - id: p17-l3-25
+    type: fill_blank
+    sentence: איך האָב ___ אַ בוך.
+    translation: ביקשתי ספר
+    answers:
+    - געבעטן
+    options:
+    - געבעטן
+    - זיינען
+    - געקומען
+    lexemes:
+    - p17-gebitn
+  - id: p17-l3-26
+    type: fill_blank
+    sentence: ער האָט ___ אין ניו־יאָרק.
+    translation: הוא חי בניו יורק
+    answers:
+    - געלעבט
+    options:
+    - געלעבט
+    - געווען
+    - שטייט
+    lexemes:
+    - p17-gelaybt
+  - id: p17-l3-27
+    type: fill_blank
+    sentence: ער איז ___ אין שטוב.
+    translation: הוא נשאר בבית
+    answers:
+    - געבליבן
+    options:
+    - געבליבן
+    - דאַרף
+    - געפֿונען
+    lexemes:
+    - p17-geblibn
+  - id: p17-l3-28
+    type: fill_blank
+    sentence: איך האָב ___ דעם רבי.
+    translation: ראיתי את הרבי
+    answers:
+    - געזען
+    options:
+    - געזען
+    - רעדט
+    - זאָגט
+    lexemes:
+    - p17-gezen2
+  - id: p17-l3-29
+    type: fill_blank
+    sentence: ער איז ___ אין שול.
+    translation: הוא הלך לבית הכנסת
+    answers:
+    - געגאַנגען
+    options:
+    - געגאַנגען
+    - געקומען
+    - טוט
+    lexemes:
+    - p17-gegeyn2
+  - id: p17-l3-30
+    type: fill_blank
+    sentence: איך האָב ___ אַ גאַסט.
+    translation: קראתי לאורח
+    answers:
+    - גערופֿן
+    options:
+    - גערופֿן
+    - וועט
+    - קומט
+    lexemes:
+    - p17-gerufn
+  - id: p17-l3-31
+    type: fill_blank
+    sentence: ער האָט ___ אַ פֿראַגע.
+    translation: הוא שאל שאלה
+    answers:
+    - געפֿרעגט
+    options:
+    - געפֿרעגט
+    - געפֿונען
+    - זאָגט
+    lexemes:
+    - p17-gefregt
+  - id: p17-l3-32
+    type: fill_blank
+    sentence: ער האָט ___ דעם שיעור.
+    translation: הוא העביר את השיעור
+    answers:
+    - געפֿירט
+    options:
+    - געפֿירט
+    - זעט
+    - זיינען
+    lexemes:
+    - p17-gefirt
