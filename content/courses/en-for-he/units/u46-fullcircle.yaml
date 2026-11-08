@@ -818,222 +818,6 @@ lessons:
       - \bhave learned\b
     model: Dear me, a year from now you will have grown, albeit slowly. Whereas last year you doubted yourself, I hope that you now trust your decisions. Notwithstanding the difficulties, you reached your main goal, and hindsight will show that every step was worth it. Keep learning and keep smiling.
     lexemes: []
-- id: c1-test
-  kind: test
-  title:
-    he: מבחן רמה C1
-    en: C1 level test
-  exercises:
-  - id: c1-test-01
-    type: fill_blank
-    sentence: Never ___ I seen such a motivated team.
-    translation: מעולם לא ראיתי צוות כל כך מלא מוטיבציה.
-    answers:
-    - have
-    options:
-    - have
-    - did
-    - had been
-    lexemes: []
-  - id: c1-test-02
-    type: multiple_choice
-    prompt: איזה משפט נכון?
-    options:
-    - Not only did she lead the project, but she also trained the staff.
-    - Not only she led the project, but she also trained the staff.
-    - Not only did she led the project, but also she trained the staff.
-    correct: 0
-    lexemes:
-    - accountable
-  - id: c1-test-03
-    type: fill_blank
-    sentence: A team ___ when there is rapport.
-    translation: צוות משגשג כשיש קשר טוב.
-    answers:
-    - thrives
-    options:
-    - thrives
-    - retracts
-    - undermines
-    lexemes:
-    - thrive
-    - rapport
-  - id: c1-test-04
-    type: fill_blank
-    sentence: ___ worries me is the lack of evidence.
-    translation: מה שמדאיג אותי הוא חוסר הראיות.
-    answers:
-    - What
-    options:
-    - What
-    - That
-    - Which
-    lexemes: []
-  - id: c1-test-05
-    type: multiple_choice
-    prompt: מה פירוש 'misleading'?
-    options:
-    - מטעה
-    - מרגש
-    - מהיר
-    correct: 0
-    lexemes:
-    - misleading
-  - id: c1-test-06
-    type: translate
-    direction: to_target
-    prompt: חשוב שכל אחד יאמת את המידע.
-    answers:
-    - It is important that everyone verify the information.
-    - It is important that everybody verify the information.
-    - It is vital that everyone verify the information.
-    lexemes:
-    - verify
-  - id: c1-test-07
-    type: fill_blank
-    sentence: It is essential that he ___ present.
-    translation: חיוני שהוא יהיה נוכח.
-    answers:
-    - be
-    options:
-    - be
-    - is
-    - will be
-    lexemes: []
-  - id: c1-test-08
-    type: fill_blank
-    sentence: ___ you need help, please call us.
-    translation: אם תצטרכו עזרה, אנא התקשרו.
-    answers:
-    - Should
-    options:
-    - Should
-    - Would
-    - Did
-    lexemes: []
-  - id: c1-test-09
-    type: multiple_choice
-    prompt: מה פירוש 'breach'?
-    options:
-    - הפרה
-    - פיצוי
-    - סעיף
-    correct: 0
-    lexemes:
-    - breach
-  - id: c1-test-10
-    type: listening_choice
-    audioText: The two companies signed a binding agreement.
-    question: מה הדובר אומר?
-    options:
-    - שהחברות חתמו על הסכם מחייב
-    - שהחברות התמזגו
-    - שההסכם בוטל
-    correct: 0
-    lexemes:
-    - binding
-  - id: c1-test-11
-    type: fill_blank
-    sentence: Remote workers ___ to feel more independent.
-    translation: עובדים מרחוק נוטים להרגיש עצמאיים יותר.
-    answers:
-    - tend
-    options:
-    - tend
-    - tends
-    - tending
-    lexemes: []
-  - id: c1-test-12
-    type: multiple_choice
-    prompt: איזה משפט זהיר יותר?
-    options:
-    - The data suggest a link.
-    - The data prove a link.
-    - The data are a link.
-    correct: 0
-    lexemes:
-    - imply
-  - id: c1-test-13
-    type: word_bank
-    prompt: הייתה ירידה חדה במכירות.
-    answers:
-    - There was a sharp decline in sales.
-    - There was a sharp decline in the sales.
-    distractors:
-    - of
-    - fall
-    lexemes:
-    - decline
-  - id: c1-test-14
-    type: fill_blank
-    sentence: We have to put the decision ___ until Sunday.
-    translation: צריך לדחות את ההחלטה ליום ראשון.
-    answers:
-    - 'off'
-    options:
-    - 'off'
-    - away
-    - over
-    lexemes:
-    - put-off
-  - id: c1-test-15
-    type: multiple_choice
-    prompt: מה פירוש 'break the ice'?
-    options:
-    - להפיג מבוכה בתחילת שיחה
-    - לשבור משהו
-    - להתקרר
-    correct: 0
-    lexemes:
-    - break-the-ice
-  - id: c1-test-16
-    type: translate
-    direction: to_target
-    prompt: הם חזרו לנקודת ההתחלה.
-    answers:
-    - They are back to square one.
-    - They were back to square one.
-    - They went back to square one.
-    lexemes:
-    - square-one
-  - id: c1-test-17
-    type: fill_blank
-    sentence: It was a good result, ___ a small one.
-    translation: זו הייתה תוצאה טובה, אם כי קטנה.
-    answers:
-    - albeit
-    options:
-    - albeit
-    - whereas
-    - hence
-    lexemes:
-    - albeit
-  - id: c1-test-18
-    type: fill_blank
-    sentence: ___ the delay, the event was a success.
-    translation: למרות העיכוב, האירוע הצליח.
-    answers:
-    - Notwithstanding
-    options:
-    - Notwithstanding
-    - Whereas
-    - Hence
-    lexemes:
-    - notwithstanding
-  - id: c1-test-19
-    type: dictation
-    text: Hindsight is a wonderful thing.
-    lexemes:
-    - hindsight
-  - id: c1-test-20
-    type: translate
-    direction: to_source
-    prompt: However hard she tried, she could not persuade him.
-    answers:
-    - ככל שניסתה, היא לא הצליחה לשכנע אותו.
-    - לא משנה כמה ניסתה, היא לא הצליחה לשכנע אותו.
-    lexemes: []
-  # ------------------------------------------------------------------ story words
 - id: u46-n1
   kind: new
   title:
@@ -1700,3 +1484,352 @@ lessons:
     - stable
     - pace
     - urge
+
+- id: c1-test
+  kind: test
+  title:
+    he: מבחן רמה C1
+    en: C1 level test
+  exercises:
+  - id: c1-test-01
+    type: fill_blank
+    sentence: Never ___ I seen such a motivated team.
+    translation: מעולם לא ראיתי צוות כל כך מלא מוטיבציה.
+    answers:
+    - have
+    options:
+    - have
+    - did
+    - had been
+    lexemes: []
+  - id: c1-test-02
+    type: multiple_choice
+    prompt: איזה משפט נכון?
+    options:
+    - Not only did she lead the project, but she also trained the staff.
+    - Not only she led the project, but she also trained the staff.
+    - Not only did she led the project, but also she trained the staff.
+    correct: 0
+    lexemes:
+    - accountable
+  - id: c1-test-03
+    type: fill_blank
+    sentence: A team ___ when there is rapport.
+    translation: צוות משגשג כשיש קשר טוב.
+    answers:
+    - thrives
+    options:
+    - thrives
+    - retracts
+    - undermines
+    lexemes:
+    - thrive
+    - rapport
+  - id: c1-test-04
+    type: fill_blank
+    sentence: ___ worries me is the lack of evidence.
+    translation: מה שמדאיג אותי הוא חוסר הראיות.
+    answers:
+    - What
+    options:
+    - What
+    - That
+    - Which
+    lexemes: []
+  - id: c1-test-05
+    type: multiple_choice
+    prompt: מה פירוש 'misleading'?
+    options:
+    - מטעה
+    - מרגש
+    - מהיר
+    correct: 0
+    lexemes:
+    - misleading
+  - id: c1-test-06
+    type: translate
+    direction: to_target
+    prompt: חשוב שכל אחד יאמת את המידע.
+    answers:
+    - It is important that everyone verify the information.
+    - It is important that everybody verify the information.
+    - It is vital that everyone verify the information.
+    lexemes:
+    - verify
+  - id: c1-test-07
+    type: fill_blank
+    sentence: It is essential that he ___ present.
+    translation: חיוני שהוא יהיה נוכח.
+    answers:
+    - be
+    options:
+    - be
+    - is
+    - will be
+    lexemes: []
+  - id: c1-test-08
+    type: fill_blank
+    sentence: ___ you need help, please call us.
+    translation: אם תצטרכו עזרה, אנא התקשרו.
+    answers:
+    - Should
+    options:
+    - Should
+    - Would
+    - Did
+    lexemes: []
+  - id: c1-test-09
+    type: multiple_choice
+    prompt: מה פירוש 'breach'?
+    options:
+    - הפרה
+    - פיצוי
+    - סעיף
+    correct: 0
+    lexemes:
+    - breach
+  - id: c1-test-10
+    type: listening_choice
+    audioText: The two companies signed a binding agreement.
+    question: מה הדובר אומר?
+    options:
+    - שהחברות חתמו על הסכם מחייב
+    - שהחברות התמזגו
+    - שההסכם בוטל
+    correct: 0
+    lexemes:
+    - binding
+  - id: c1-test-11
+    type: fill_blank
+    sentence: Remote workers ___ to feel more independent.
+    translation: עובדים מרחוק נוטים להרגיש עצמאיים יותר.
+    answers:
+    - tend
+    options:
+    - tend
+    - tends
+    - tending
+    lexemes: []
+  - id: c1-test-12
+    type: multiple_choice
+    prompt: איזה משפט זהיר יותר?
+    options:
+    - The data suggest a link.
+    - The data prove a link.
+    - The data are a link.
+    correct: 0
+    lexemes:
+    - imply
+  - id: c1-test-13
+    type: word_bank
+    prompt: הייתה ירידה חדה במכירות.
+    answers:
+    - There was a sharp decline in sales.
+    - There was a sharp decline in the sales.
+    distractors:
+    - of
+    - fall
+    lexemes:
+    - decline
+  - id: c1-test-14
+    type: fill_blank
+    sentence: We have to put the decision ___ until Sunday.
+    translation: צריך לדחות את ההחלטה ליום ראשון.
+    answers:
+    - 'off'
+    options:
+    - 'off'
+    - away
+    - over
+    lexemes:
+    - put-off
+  - id: c1-test-15
+    type: multiple_choice
+    prompt: מה פירוש 'break the ice'?
+    options:
+    - להפיג מבוכה בתחילת שיחה
+    - לשבור משהו
+    - להתקרר
+    correct: 0
+    lexemes:
+    - break-the-ice
+  - id: c1-test-16
+    type: translate
+    direction: to_target
+    prompt: הם חזרו לנקודת ההתחלה.
+    answers:
+    - They are back to square one.
+    - They were back to square one.
+    - They went back to square one.
+    lexemes:
+    - square-one
+  - id: c1-test-17
+    type: fill_blank
+    sentence: It was a good result, ___ a small one.
+    translation: זו הייתה תוצאה טובה, אם כי קטנה.
+    answers:
+    - albeit
+    options:
+    - albeit
+    - whereas
+    - hence
+    lexemes:
+    - albeit
+  - id: c1-test-18
+    type: fill_blank
+    sentence: ___ the delay, the event was a success.
+    translation: למרות העיכוב, האירוע הצליח.
+    answers:
+    - Notwithstanding
+    options:
+    - Notwithstanding
+    - Whereas
+    - Hence
+    lexemes:
+    - notwithstanding
+  - id: c1-test-19
+    type: dictation
+    text: Hindsight is a wonderful thing.
+    lexemes:
+    - hindsight
+  - id: c1-test-20
+    type: translate
+    direction: to_source
+    prompt: However hard she tried, she could not persuade him.
+    answers:
+    - ככל שניסתה, היא לא הצליחה לשכנע אותו.
+    - לא משנה כמה ניסתה, היא לא הצליחה לשכנע אותו.
+    lexemes: []
+  # ------------------------------------------------------------------ story words
+  - id: c1-test-21
+    type: multiple_choice
+    prompt: מה פירוש policy?
+    options:
+    - מדיניות
+    - חקיקה
+    - ביקוש
+    correct: 0
+    lexemes:
+    - policy
+  - id: c1-test-22
+    type: fill_blank
+    sentence: ___ is high this month.
+    translation: הביקוש גבוה החודש.
+    answers:
+    - Demand
+    options:
+    - Demand
+    - sacrifice
+    - investigation
+    lexemes:
+    - demand
+  - id: c1-test-23
+    type: multiple_choice
+    prompt: מה פירוש statement?
+    options:
+    - הצהרה
+    - חקירה
+    - טקס
+    correct: 0
+    lexemes:
+    - statement
+  - id: c1-test-24
+    type: fill_blank
+    sentence: The ___ takes weeks.
+    translation: החקירה נמשכת שבועות.
+    answers:
+    - investigation
+    options:
+    - investigation
+    - legislation
+    - demand
+    lexemes:
+    - investigation
+  - id: c1-test-25
+    type: multiple_choice
+    prompt: מה פירוש agreement?
+    options:
+    - הסכם
+    - אולי
+    - מושג
+    correct: 0
+    lexemes:
+    - agreement
+  - id: c1-test-26
+    type: fill_blank
+    sentence: The ___ changed last year.
+    translation: החקיקה השתנתה בשנה שעברה.
+    answers:
+    - legislation
+    options:
+    - legislation
+    - investigation
+    - concept
+    lexemes:
+    - legislation
+  - id: c1-test-27
+    type: multiple_choice
+    prompt: מה פירוש concept?
+    options:
+    - מושג
+    - להכות; להקדים
+    - ביקוש
+    correct: 0
+    lexemes:
+    - concept
+  - id: c1-test-28
+    type: fill_blank
+    sentence: A ___ for change began.
+    translation: תנועה לשינוי החלה.
+    answers:
+    - movement
+    options:
+    - movement
+    - perhaps
+    - statement
+    lexemes:
+    - movement
+  - id: c1-test-29
+    type: multiple_choice
+    prompt: מה פירוש beat?
+    options:
+    - להכות; להקדים
+    - הקרבה
+    - חקירה
+    correct: 0
+    lexemes:
+    - beat
+  - id: c1-test-30
+    type: fill_blank
+    sentence: ___ it will rain.
+    translation: אולי ירד גשם.
+    answers:
+    - Perhaps
+    options:
+    - Perhaps
+    - demand
+    - policy
+    lexemes:
+    - perhaps
+  - id: c1-test-31
+    type: multiple_choice
+    prompt: מה פירוש ceremony?
+    options:
+    - טקס
+    - מדיניות
+    - חקירה
+    correct: 0
+    lexemes:
+    - ceremony
+  - id: c1-test-32
+    type: fill_blank
+    sentence: Success needs ___.
+    translation: הצלחה דורשת הקרבה.
+    answers:
+    - sacrifice
+    options:
+    - sacrifice
+    - perhaps
+    - beat
+    lexemes:
+    - sacrifice

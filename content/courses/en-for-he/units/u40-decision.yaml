@@ -474,146 +474,6 @@ lessons:
         lexemes: []
 
 
-  # ------------------------------------------------------------------ test
-  - id: b2-test
-    kind: test
-    title: { he: "מבחן רמה B2", en: "B2 level test" }
-    exercises:
-      - id: b2-t-01
-        type: fill_blank
-        sentence: "I ___ working here since 2019."
-        translation: "אני עובדת כאן מאז 2019."
-        answers: ["have been"]
-        options: ["have been", "am", "was"]
-        lexemes: [have-been-ing]
-      - id: b2-t-02
-        type: fill_blank
-        sentence: "___ it was raining, we went for a walk."
-        translation: "למרות שירד גשם, יצאנו לטייל."
-        answers: [Although]
-        options: [Although, Despite, However]
-        lexemes: [although]
-      - id: b2-t-03
-        type: fill_blank
-        sentence: "The film was ___ boring that I fell asleep."
-        translation: "הסרט היה כל כך משעמם שהירדמתי."
-        answers: [so]
-        options: [so, such, too]
-        lexemes: [so-such]
-      - id: b2-t-04
-        type: multiple_choice
-        prompt: "איזה משפט נכון?"
-        options: ["I had my laptop repaired yesterday.", "I had repaired my laptop by a technician yesterday.", "I repaired my laptop by a technician."]
-        correct: 0
-        lexemes: [have-it-done]
-      - id: b2-t-05
-        type: dialogue_gap
-        lines:
-          - { speaker: "ben", text: "Have you seen the new report?", translation: "ראית את הדוח החדש?" }
-          - { speaker: "noa", text: "Not yet. It's being printed right now.", translation: "עדיין לא. הוא מודפס עכשיו." }
-        gap: 1
-        distractors: ["Not yet. It is printing right now.", "Not yet. It has print right now."]
-        lexemes: [being-done]
-      - id: b2-t-06
-        type: fill_blank
-        sentence: "If we had asked for more, we would ___ got more."
-        translation: "אילו ביקשנו יותר, היינו מקבלים יותר."
-        answers: [have]
-        options: [have, had, has]
-        lexemes: [if-had-done, would-have]
-      - id: b2-t-07
-        type: multiple_choice
-        prompt: "מה הכי דיפלומטי?"
-        options: ["I'm not sure that would work for us.", "No way.", "That's wrong."]
-        correct: 0
-        lexemes: [im-not-sure]
-      - id: b2-t-08
-        type: fill_blank
-        sentence: "By 2030, they will ___ built a new school."
-        translation: "עד 2030 הם יבנו בית ספר חדש."
-        answers: [have]
-        options: [have, be, had]
-        lexemes: [will-have-done]
-      - id: b2-t-09
-        type: fill_blank
-        sentence: "This time tomorrow, I'll ___ flying to Rome."
-        translation: "מחר בשעה הזאת אהיה באוויר בדרך לרומא."
-        answers: [be]
-        options: [be, have, been]
-        lexemes: [will-be-ing]
-      - id: b2-t-10
-        type: fill_blank
-        sentence: "The lights are off. They ___ be asleep."
-        translation: "האורות כבויים. הם בטח ישנים."
-        answers: [must]
-        options: [must, can't have, might have]
-        lexemes: [must-be]
-      - id: b2-t-11
-        type: fill_blank
-        sentence: "He hasn't called. He ___ have forgotten."
-        translation: "הוא לא התקשר. אולי הוא שכח."
-        answers: [might]
-        options: [might, must be, can't]
-        lexemes: [might-have]
-      - id: b2-t-12
-        type: fill_blank
-        sentence: "The doctor advised him ___ more water."
-        translation: "הרופא יעץ לו לשתות יותר מים."
-        answers: [to drink]
-        options: [to drink, drinking, drink]
-        lexemes: [advise]
-      - id: b2-t-13
-        type: multiple_choice
-        prompt: "איזה משפט נכון?"
-        options: ["She suggested going home early.", "She suggested to go home early.", "She suggested us going home early."]
-        correct: 0
-        lexemes: [suggest]
-      - id: b2-t-14
-        type: fill_blank
-        sentence: "The results were good. ___, we need more data."
-        translation: "התוצאות היו טובות. עם זאת, אנחנו צריכים עוד נתונים."
-        answers: [Nevertheless]
-        options: [Nevertheless, Furthermore, In conclusion]
-        lexemes: [nevertheless]
-      - id: b2-t-15
-        type: multiple_choice
-        prompt: "איזו מילה פותחת סיכום?"
-        options: [In conclusion, Furthermore, To begin with]
-        correct: 0
-        lexemes: [in-conclusion]
-      - id: b2-t-16
-        type: fill_blank
-        sentence: "I wish I ___ more free time."
-        translation: "הלוואי שהיה לי יותר זמן פנוי."
-        answers: [had]
-        options: [had, have, would have]
-        lexemes: [i-wish-past]
-      - id: b2-t-17
-        type: fill_blank
-        sentence: "If only I ___ known!"
-        translation: "הלוואי שהייתי יודע!"
-        answers: [had]
-        options: [had, would, have]
-        lexemes: [if-only]
-      - id: b2-t-18
-        type: fill_blank
-        sentence: "When she arrived, everybody ___ already left."
-        translation: "כשהגיעה, כולם כבר הלכו."
-        answers: [had]
-        options: [had, has, was]
-        lexemes: [had-been-ing]
-      - id: b2-t-19
-        type: translate
-        direction: to_target
-        prompt: "אילו ידעתי, הייתי עוזרת לך."
-        answers: ["If I had known, I would have helped you.", "If I'd known, I would have helped you.", "If I'd known, I'd have helped you."]
-        lexemes: [if-had-done]
-      - id: b2-t-20
-        type: translate
-        direction: to_target
-        prompt: "היא חשבה על זה חודשים לפני שהחליטה."
-        answers: ["She had been thinking about it for months before she decided.", "She had been thinking about it for months before deciding."]
-        lexemes: [had-been-ing]
   # ------------------------------------------------------------------ story words
   - id: u40-n1
     kind: new
@@ -1113,3 +973,276 @@ lessons:
       lexemes:
       - intention
       - transition
+
+  # ------------------------------------------------------------------ test
+  - id: b2-test
+    kind: test
+    title: { he: "מבחן רמה B2", en: "B2 level test" }
+    exercises:
+      - id: b2-t-01
+        type: fill_blank
+        sentence: "I ___ working here since 2019."
+        translation: "אני עובדת כאן מאז 2019."
+        answers: ["have been"]
+        options: ["have been", "am", "was"]
+        lexemes: [have-been-ing]
+      - id: b2-t-02
+        type: fill_blank
+        sentence: "___ it was raining, we went for a walk."
+        translation: "למרות שירד גשם, יצאנו לטייל."
+        answers: [Although]
+        options: [Although, Despite, However]
+        lexemes: [although]
+      - id: b2-t-03
+        type: fill_blank
+        sentence: "The film was ___ boring that I fell asleep."
+        translation: "הסרט היה כל כך משעמם שהירדמתי."
+        answers: [so]
+        options: [so, such, too]
+        lexemes: [so-such]
+      - id: b2-t-04
+        type: multiple_choice
+        prompt: "איזה משפט נכון?"
+        options: ["I had my laptop repaired yesterday.", "I had repaired my laptop by a technician yesterday.", "I repaired my laptop by a technician."]
+        correct: 0
+        lexemes: [have-it-done]
+      - id: b2-t-05
+        type: dialogue_gap
+        lines:
+          - { speaker: "ben", text: "Have you seen the new report?", translation: "ראית את הדוח החדש?" }
+          - { speaker: "noa", text: "Not yet. It's being printed right now.", translation: "עדיין לא. הוא מודפס עכשיו." }
+        gap: 1
+        distractors: ["Not yet. It is printing right now.", "Not yet. It has print right now."]
+        lexemes: [being-done]
+      - id: b2-t-06
+        type: fill_blank
+        sentence: "If we had asked for more, we would ___ got more."
+        translation: "אילו ביקשנו יותר, היינו מקבלים יותר."
+        answers: [have]
+        options: [have, had, has]
+        lexemes: [if-had-done, would-have]
+      - id: b2-t-07
+        type: multiple_choice
+        prompt: "מה הכי דיפלומטי?"
+        options: ["I'm not sure that would work for us.", "No way.", "That's wrong."]
+        correct: 0
+        lexemes: [im-not-sure]
+      - id: b2-t-08
+        type: fill_blank
+        sentence: "By 2030, they will ___ built a new school."
+        translation: "עד 2030 הם יבנו בית ספר חדש."
+        answers: [have]
+        options: [have, be, had]
+        lexemes: [will-have-done]
+      - id: b2-t-09
+        type: fill_blank
+        sentence: "This time tomorrow, I'll ___ flying to Rome."
+        translation: "מחר בשעה הזאת אהיה באוויר בדרך לרומא."
+        answers: [be]
+        options: [be, have, been]
+        lexemes: [will-be-ing]
+      - id: b2-t-10
+        type: fill_blank
+        sentence: "The lights are off. They ___ be asleep."
+        translation: "האורות כבויים. הם בטח ישנים."
+        answers: [must]
+        options: [must, can't have, might have]
+        lexemes: [must-be]
+      - id: b2-t-11
+        type: fill_blank
+        sentence: "He hasn't called. He ___ have forgotten."
+        translation: "הוא לא התקשר. אולי הוא שכח."
+        answers: [might]
+        options: [might, must be, can't]
+        lexemes: [might-have]
+      - id: b2-t-12
+        type: fill_blank
+        sentence: "The doctor advised him ___ more water."
+        translation: "הרופא יעץ לו לשתות יותר מים."
+        answers: [to drink]
+        options: [to drink, drinking, drink]
+        lexemes: [advise]
+      - id: b2-t-13
+        type: multiple_choice
+        prompt: "איזה משפט נכון?"
+        options: ["She suggested going home early.", "She suggested to go home early.", "She suggested us going home early."]
+        correct: 0
+        lexemes: [suggest]
+      - id: b2-t-14
+        type: fill_blank
+        sentence: "The results were good. ___, we need more data."
+        translation: "התוצאות היו טובות. עם זאת, אנחנו צריכים עוד נתונים."
+        answers: [Nevertheless]
+        options: [Nevertheless, Furthermore, In conclusion]
+        lexemes: [nevertheless]
+      - id: b2-t-15
+        type: multiple_choice
+        prompt: "איזו מילה פותחת סיכום?"
+        options: [In conclusion, Furthermore, To begin with]
+        correct: 0
+        lexemes: [in-conclusion]
+      - id: b2-t-16
+        type: fill_blank
+        sentence: "I wish I ___ more free time."
+        translation: "הלוואי שהיה לי יותר זמן פנוי."
+        answers: [had]
+        options: [had, have, would have]
+        lexemes: [i-wish-past]
+      - id: b2-t-17
+        type: fill_blank
+        sentence: "If only I ___ known!"
+        translation: "הלוואי שהייתי יודע!"
+        answers: [had]
+        options: [had, would, have]
+        lexemes: [if-only]
+      - id: b2-t-18
+        type: fill_blank
+        sentence: "When she arrived, everybody ___ already left."
+        translation: "כשהגיעה, כולם כבר הלכו."
+        answers: [had]
+        options: [had, has, was]
+        lexemes: [had-been-ing]
+      - id: b2-t-19
+        type: translate
+        direction: to_target
+        prompt: "אילו ידעתי, הייתי עוזרת לך."
+        answers: ["If I had known, I would have helped you.", "If I'd known, I would have helped you.", "If I'd known, I'd have helped you."]
+        lexemes: [if-had-done]
+      - id: b2-t-20
+        type: translate
+        direction: to_target
+        prompt: "היא חשבה על זה חודשים לפני שהחליטה."
+        answers: ["She had been thinking about it for months before she decided.", "She had been thinking about it for months before deciding."]
+        lexemes: [had-been-ing]
+      - id: b2-t-21
+        type: multiple_choice
+        prompt: מה פירוש quarter?
+        options:
+        - רבעון; רובע
+        - חמור
+        - תרבותי
+        correct: 0
+        lexemes:
+        - quarter
+      - id: b2-t-22
+        type: fill_blank
+        sentence: This ___ is important.
+        translation: ההיבט הזה חשוב.
+        answers:
+        - aspect
+        options:
+        - aspect
+        - wire
+        - everywhere
+        lexemes:
+        - aspect
+      - id: b2-t-23
+        type: multiple_choice
+        prompt: מה פירוש everywhere?
+        options:
+        - בכל מקום
+        - חיוני
+        - היבט
+        correct: 0
+        lexemes:
+        - everywhere
+      - id: b2-t-24
+        type: fill_blank
+        sentence: The ___ is broken.
+        translation: החוט שבור.
+        answers:
+        - wire
+        options:
+        - wire
+        - confuse
+        - aspect
+        lexemes:
+        - wire
+      - id: b2-t-25
+        type: multiple_choice
+        prompt: מה פירוש oppose?
+        options:
+        - להתנגד
+        - תרבותי
+        - בכל מקום
+        correct: 0
+        lexemes:
+        - oppose
+      - id: b2-t-26
+        type: fill_blank
+        sentence: It is an ___ issue.
+        translation: זה נושא סביבתי.
+        answers:
+        - environmental
+        options:
+        - environmental
+        - essential
+        - everywhere
+        lexemes:
+        - environmental
+      - id: b2-t-27
+        type: multiple_choice
+        prompt: מה פירוש cultural?
+        options:
+        - תרבותי
+        - היבט
+        - רבעון; רובע
+        correct: 0
+        lexemes:
+        - cultural
+      - id: b2-t-28
+        type: fill_blank
+        sentence: The map can ___ tourists.
+        translation: המפה יכולה לבלבל תיירים.
+        answers:
+        - confuse
+        options:
+        - confuse
+        - severe
+        - aspect
+        lexemes:
+        - confuse
+      - id: b2-t-29
+        type: multiple_choice
+        prompt: מה פירוש severe?
+        options:
+        - חמור
+        - חוט
+        - להתנגד
+        correct: 0
+        lexemes:
+        - severe
+      - id: b2-t-30
+        type: fill_blank
+        sentence: New ideas ___.
+        translation: רעיונות חדשים צצים.
+        answers:
+        - emerge
+        options:
+        - emerge
+        - shadow
+        - severe
+        lexemes:
+        - emerge
+      - id: b2-t-31
+        type: multiple_choice
+        prompt: מה פירוש shadow?
+        options:
+        - צל
+        - להתנגד
+        - סביבתי
+        correct: 0
+        lexemes:
+        - shadow
+      - id: b2-t-32
+        type: fill_blank
+        sentence: Water is ___ for life.
+        translation: מים חיוניים לחיים.
+        answers:
+        - essential
+        options:
+        - essential
+        - shadow
+        - everywhere
+        lexemes:
+        - essential
