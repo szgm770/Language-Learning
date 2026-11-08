@@ -18,3 +18,10 @@ const NAMES: Record<string, { name: string; in: string }> = {
 
 export const languageName = (code: string) => NAMES[code]?.name ?? code;
 export const inLanguage = (code: string) => NAMES[code]?.in ?? code;
+
+/**
+ * How a course is named in the app. Most courses are named by their language ("ספרדית"); a language with several
+ * courses (Aramaic: Talmud, Onkelos, Daniel, Yerushalmi, Zohar) is named by the course title.
+ */
+export const courseName = (m: { target: string; title: { he: string } }) =>
+  m.target === "arc" ? m.title.he : languageName(m.target);

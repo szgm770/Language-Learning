@@ -11,7 +11,7 @@ import { InstallHint } from "@/components/InstallHint";
 import { LoadError, Loading, Ring, SpeakButton, Word } from "@/components/ui";
 import { lexemeIndex, loadCourse, useLoad } from "@/lib/content";
 import { today } from "@/lib/day";
-import { languageName } from "@/lib/languages";
+import { courseName, languageName } from "@/lib/languages";
 import { currentCourse, dailyGoal, dueCount, isCompleted, nextLesson, reviewCards, streak, totalXp, weekActivity, weakCards, weeklySummary, wordOfTheDay } from "@/lib/progress";
 import { useLearner } from "@/lib/store";
 
@@ -61,7 +61,7 @@ export default function Dashboard() {
       <header className="flex items-center justify-between gap-3 pt-6">
         <div>
           <p className="text-ink-soft">{greeting(new Date().getHours())}</p>
-          <h1 className="text-2xl font-bold">לומדים {languageName(manifest.target)}</h1>
+          <h1 className="text-2xl font-bold">לומדים {courseName(manifest)}</h1>
         </div>
         <div className="flex gap-2">
           <span className="flex items-center gap-1 rounded-full bg-surface px-3 py-1.5 font-bold ring-1 ring-line" title="ימים רצופים">

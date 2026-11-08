@@ -10,7 +10,7 @@ import { Icon } from "@/components/icons";
 import { BackLink, LoadError, Loading, Word } from "@/components/ui";
 import { loadCourses, loadManifest, loadUnit, useLoad } from "@/lib/content";
 import { uuidv7 } from "@/lib/ids";
-import { languageName } from "@/lib/languages";
+import { courseName, languageName } from "@/lib/languages";
 import { enrolledCourses } from "@/lib/progress";
 import { getDeviceId, record, useLearner } from "@/lib/store";
 
@@ -52,7 +52,7 @@ function CourseCard({ m, enrolled, onPick }: { m: CourseManifest; enrolled: bool
       <span className={`w-1.5 shrink-0 ${LANG_BAR[m.target] ?? "bg-cobalt"}`} aria-hidden="true" />
       <span className="flex flex-1 items-center justify-between gap-4 p-5">
         <span className="flex flex-col gap-1">
-          <span className="text-2xl font-bold">{languageName(m.target)}</span>
+          <span className="text-2xl font-bold">{courseName(m)}</span>
           <span className="text-ink-soft">{enrolled ? "ממשיכים מאיפה שעצרתם" : m.description.he}</span>
           <span className="mt-2 text-sm text-ink-soft">
             רמה {levels}, {m.units.length} יחידות, {lessons} שיעורים
