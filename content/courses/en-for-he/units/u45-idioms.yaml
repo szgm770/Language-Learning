@@ -75,6 +75,30 @@ vocabulary:
   text: put off
   translation: לדחות
   pos: verb
+- { id: "beat", text: "beat", translation: "להכות; להקדים", pos: "verb", example: { text: "We try to beat the traffic.", translation: "אנחנו מנסים להקדים את התנועה." } }
+- { id: "push", text: "push", translation: "לדחוף", pos: "verb", example: { text: "Push the door.", translation: "דחוף את הדלת." } }
+- { id: "kick", text: "kick", translation: "לבעוט", pos: "verb", example: { text: "Kick the ball.", translation: "בעט בכדור." } }
+- { id: "hide", text: "hide", translation: "להסתיר", pos: "verb", example: { text: "Hide the gift.", translation: "הסתר את המתנה." } }
+- { id: "draw", text: "draw", translation: "לצייר", pos: "verb", example: { text: "I draw a map.", translation: "אני מצייר מפה." } }
+- { id: "shake", text: "shake", translation: "ללחוץ; לנער", pos: "verb", example: { text: "Shake hands with him.", translation: "לחץ את ידו." } }
+- { id: "stuff", text: "stuff", translation: "דברים; חפצים", pos: "noun", example: { text: "I have a lot of stuff in my bag.", translation: "יש לי הרבה דברים בתיק." } }
+- { id: "similar", text: "similar", translation: "דומה", pos: "adjective", example: { text: "The two plans are similar.", translation: "שתי התוכניות דומות." } }
+- { id: "cool", text: "cool", translation: "מגניב; קריר", pos: "adjective", example: { text: "The day is cool and nice.", translation: "היום קריר ונעים." } }
+- { id: "trust", text: "trust", translation: "לבטוח", pos: "verb", example: { text: "I trust my team.", translation: "אני סומך על הצוות שלי." } }
+- { id: "guess", text: "guess", translation: "לנחש", pos: "verb", example: { text: "Can you guess the answer?", translation: "אתה יכול לנחש את התשובה?" } }
+- { id: "difference", text: "difference", translation: "הבדל", pos: "noun", example: { text: "What is the difference?", translation: "מה ההבדל?" } }
+- { id: "perhaps", text: "perhaps", translation: "אולי", pos: "adverb", example: { text: "Perhaps it will rain.", translation: "אולי ירד גשם." } }
+- { id: "certainly", text: "certainly", translation: "בהחלט", pos: "adverb", example: { text: "I will certainly come.", translation: "בהחלט אבוא." } }
+- { id: "definitely", text: "definitely", translation: "בהחלט; ללא ספק", pos: "adverb", example: { text: "This is definitely the best.", translation: "זה בהחלט הכי טוב." } }
+- { id: "particularly", text: "particularly", translation: "במיוחד", pos: "adverb", example: { text: "I like fruit, particularly grapes.", translation: "אני אוהב פירות, במיוחד ענבים." } }
+- { id: "clearly", text: "clearly", translation: "בבירור", pos: "adverb", example: { text: "He spoke clearly.", translation: "הוא דיבר בבירור." } }
+- { id: "seriously", text: "seriously", translation: "ברצינות", pos: "adverb", example: { text: "I seriously need a break.", translation: "אני באמת צריך הפסקה." } }
+- { id: "slowly", text: "slowly", translation: "לאט", pos: "adverb", example: { text: "Walk slowly, please.", translation: "לך לאט, בבקשה." } }
+- { id: "whenever", text: "whenever", translation: "בכל פעם ש", pos: "adverb", example: { text: "Call me whenever you want.", translation: "התקשר אליי בכל פעם שתרצה." } }
+- { id: "somehow", text: "somehow", translation: "איכשהו", pos: "adverb", example: { text: "Somehow, we made it.", translation: "איכשהו, הצלחנו." } }
+- { id: "hardly", text: "hardly", translation: "בקושי", pos: "adverb", example: { text: "I can hardly hear you.", translation: "אני בקושי שומע אותך." } }
+- { id: "barely", text: "barely", translation: "רק בקושי", pos: "adverb", example: { text: "He barely knows her.", translation: "הוא בקושי מכיר אותה." } }
+- { id: "closely", text: "closely", translation: "מקרוב", pos: "adverb", example: { text: "Watch closely.", translation: "הסתכל מקרוב." } }
 grammar:
 - id: idioms
   title:
@@ -786,3 +810,669 @@ lessons:
       - \b(was|were|went|had|got|made|felt)\b
     model: Yesterday I felt a bit under the weather, so I put my meeting off until the afternoon. It turned out to be a blessing in disguise, because I came up with a new idea while I was resting. By evening I was on the same page with my team, and the plan was a piece of cake.
     lexemes: []
+  # ------------------------------------------------------------------ story words
+- id: u45-n1
+  kind: new
+  title:
+    he: 'היומן של נועה: פעלים'
+    en: 'Noa''s diary: verbs on the trail'
+  exercises:
+  - id: u45-n1-01
+    type: dialogue
+    scene: טיול בגליל ביום ראשון בבוקר, צוות המשרד.
+    lines:
+    - speaker: ben
+      text: Let's beat the heat. We push on until noon.
+      translation: בואו נקדים את החום. נמשיך עד הצהריים.
+    - speaker: eli
+      text: Don't kick the stones! Where did Noa hide the map?
+      translation: אל תבעט באבנים! איפה נועה החביאה את המפה?
+    - speaker: noa
+      text: I draw a new one.
+      translation: אני מציירת חדשה.
+    - speaker: eli
+      text: We shake hands on that.
+      translation: מוסכם, לחיצת יד.
+  - id: u45-n1-02
+    type: learn
+    lexeme: beat
+  - id: u45-n1-03
+    type: learn
+    lexeme: push
+  - id: u45-n1-04
+    type: learn
+    lexeme: kick
+  - id: u45-n1-05
+    type: learn
+    lexeme: hide
+  - id: u45-n1-06
+    type: learn
+    lexeme: draw
+  - id: u45-n1-07
+    type: learn
+    lexeme: shake
+  - id: u45-n1-08
+    type: match_pairs
+    pairs:
+    - - beat
+      - להכות; להקדים
+    - - push
+      - לדחוף
+    - - kick
+      - לבעוט
+    - - hide
+      - להסתיר
+    - - draw
+      - לצייר
+    - - shake
+      - ללחוץ; לנער
+    lexemes:
+    - beat
+    - push
+    - kick
+    - hide
+    - draw
+    - shake
+  - id: u45-n1-09
+    type: multiple_choice
+    prompt: beat – מה הפירוש?
+    options:
+    - להכות; להקדים
+    - לצייר
+    - ללחוץ; לנער
+    correct: 0
+    lexemes:
+    - beat
+  - id: u45-n1-10
+    type: multiple_choice
+    prompt: kick – מה הפירוש?
+    options:
+    - לבעוט
+    - לדחוף
+    - לצייר
+    correct: 0
+    lexemes:
+    - kick
+  - id: u45-n1-11
+    type: multiple_choice
+    prompt: draw – מה הפירוש?
+    options:
+    - לצייר
+    - לדחוף
+    - לבעוט
+    correct: 0
+    lexemes:
+    - draw
+  - id: u45-n1-12
+    type: fill_blank
+    sentence: ___ the gift.
+    translation: הסתר את המתנה.
+    answers:
+    - Hide
+    options:
+    - Hide
+    - kick
+    - draw
+    lexemes:
+    - hide
+  - id: u45-n1-13
+    type: fill_blank
+    sentence: ___ hands with him.
+    translation: לחץ את ידו.
+    answers:
+    - Shake
+    options:
+    - Shake
+    - push
+    - kick
+    lexemes:
+    - shake
+  - id: u45-n1-14
+    type: fill_blank
+    sentence: ___ the door.
+    translation: דחוף את הדלת.
+    answers:
+    - Push
+    options:
+    - Push
+    - kick
+    - draw
+    lexemes:
+    - push
+  - id: u45-n1-15
+    type: word_bank
+    prompt: אנחנו מנסים להקדים את התנועה.
+    answers:
+    - We try to beat the traffic.
+    distractors:
+    - draw
+    - hide
+    lexemes:
+    - beat
+  - id: u45-n1-16
+    type: word_bank
+    prompt: בעט בכדור.
+    answers:
+    - Kick the ball.
+    distractors:
+    - hide
+    - shake
+    lexemes:
+    - kick
+  - id: u45-n1-17
+    type: listening_choice
+    audioText: I draw a map.
+    question: מה שמעתם?
+    options:
+    - אני מצייר מפה.
+    - אנחנו מנסים להקדים את התנועה.
+    - דחוף את הדלת.
+    correct: 0
+    lexemes:
+    - draw
+  - id: u45-n1-18
+    type: speak_repeat
+    text: We push on and beat the heat.
+    translation: אנחנו ממשיכים ומקדימים את החום.
+    lexemes:
+    - beat
+    - push
+- id: u45-n2
+  kind: new
+  title:
+    he: 'היומן של נועה: דברים ודומיהם'
+    en: 'Noa''s diary: stuff and similar things'
+  exercises:
+  - id: u45-n2-01
+    type: dialogue
+    scene: הצוות משחק במשחק ביטויים.
+    lines:
+    - speaker: ben
+      text: I trust you, but I guess it's a similar stuff.
+      translation: אני סומך עליך, אבל אני מנחש שזה דברים דומים.
+    - speaker: noa
+      text: What is the difference? Cool and cold are different.
+      translation: מה ההבדל? מגניב וקר הם שונים.
+    - speaker: eli
+      text: Fine. I guess.
+      translation: בסדר. אני מניח.
+    - speaker: noa
+      text: Next question.
+      translation: השאלה הבאה.
+  - id: u45-n2-02
+    type: learn
+    lexeme: stuff
+  - id: u45-n2-03
+    type: learn
+    lexeme: similar
+  - id: u45-n2-04
+    type: learn
+    lexeme: cool
+  - id: u45-n2-05
+    type: learn
+    lexeme: trust
+  - id: u45-n2-06
+    type: learn
+    lexeme: guess
+  - id: u45-n2-07
+    type: learn
+    lexeme: difference
+  - id: u45-n2-08
+    type: match_pairs
+    pairs:
+    - - stuff
+      - דברים; חפצים
+    - - similar
+      - דומה
+    - - cool
+      - מגניב; קריר
+    - - trust
+      - לבטוח
+    - - guess
+      - לנחש
+    - - difference
+      - הבדל
+    lexemes:
+    - stuff
+    - similar
+    - cool
+    - trust
+    - guess
+    - difference
+  - id: u45-n2-09
+    type: multiple_choice
+    prompt: difference – מה הפירוש?
+    options:
+    - הבדל
+    - לבטוח
+    - מגניב; קריר
+    correct: 0
+    lexemes:
+    - difference
+  - id: u45-n2-10
+    type: multiple_choice
+    prompt: cool – מה הפירוש?
+    options:
+    - מגניב; קריר
+    - הבדל
+    - דומה
+    correct: 0
+    lexemes:
+    - cool
+  - id: u45-n2-11
+    type: multiple_choice
+    prompt: similar – מה הפירוש?
+    options:
+    - דומה
+    - לבטוח
+    - הבדל
+    correct: 0
+    lexemes:
+    - similar
+  - id: u45-n2-12
+    type: fill_blank
+    sentence: I have a lot of ___ in my bag.
+    translation: יש לי הרבה דברים בתיק.
+    answers:
+    - stuff
+    options:
+    - stuff
+    - cool
+    - trust
+    lexemes:
+    - stuff
+  - id: u45-n2-13
+    type: fill_blank
+    sentence: Can you ___ the answer?
+    translation: אתה יכול לנחש את התשובה?
+    answers:
+    - guess
+    options:
+    - guess
+    - stuff
+    - cool
+    lexemes:
+    - guess
+  - id: u45-n2-14
+    type: fill_blank
+    sentence: I ___ my team.
+    translation: אני סומך על הצוות שלי.
+    answers:
+    - trust
+    options:
+    - trust
+    - guess
+    - cool
+    lexemes:
+    - trust
+  - id: u45-n2-15
+    type: word_bank
+    prompt: מה ההבדל?
+    answers:
+    - What is the difference?
+    distractors:
+    - similar
+    - cool
+    lexemes:
+    - difference
+  - id: u45-n2-16
+    type: word_bank
+    prompt: היום קריר ונעים.
+    answers:
+    - The day is cool and nice.
+    distractors:
+    - stuff
+    - difference
+    lexemes:
+    - cool
+  - id: u45-n2-17
+    type: listening_choice
+    audioText: The two plans are similar.
+    question: מה שמעתם?
+    options:
+    - שתי התוכניות דומות.
+    - יש לי הרבה דברים בתיק.
+    - היום קריר ונעים.
+    correct: 0
+    lexemes:
+    - similar
+  - id: u45-n2-18
+    type: speak_repeat
+    text: I trust you, but I guess the difference is small.
+    translation: אני סומכת עליך, אבל אני מנחשת שההבדל קטן.
+    lexemes:
+    - trust
+    - guess
+    - difference
+- id: u45-n3
+  kind: new
+  title:
+    he: 'היומן של נועה: אולי ובוודאי'
+    en: 'Noa''s diary: perhaps and certainly'
+  exercises:
+  - id: u45-n3-01
+    type: dialogue
+    scene: עוד סיבוב בטיול.
+    lines:
+    - speaker: noa
+      text: Perhaps the best view is up there. It is certainly steep.
+      translation: אולי הנוף הכי טוב שם למעלה. זה בהחלט תלול.
+    - speaker: ben
+      text: Definitely worth it. Particularly at this hour.
+      translation: בהחלט שווה. במיוחד בשעה הזאת.
+    - speaker: eli
+      text: Clearly we need water. I'm seriously thirsty.
+      translation: ברור שאנחנו צריכים מים. אני צמא ברצינות.
+    - speaker: noa
+      text: Take mine.
+      translation: קח את שלי.
+  - id: u45-n3-02
+    type: learn
+    lexeme: perhaps
+  - id: u45-n3-03
+    type: learn
+    lexeme: certainly
+  - id: u45-n3-04
+    type: learn
+    lexeme: definitely
+  - id: u45-n3-05
+    type: learn
+    lexeme: particularly
+  - id: u45-n3-06
+    type: learn
+    lexeme: clearly
+  - id: u45-n3-07
+    type: learn
+    lexeme: seriously
+  - id: u45-n3-08
+    type: match_pairs
+    pairs:
+    - - perhaps
+      - אולי
+    - - certainly
+      - בהחלט
+    - - definitely
+      - בהחלט; ללא ספק
+    - - particularly
+      - במיוחד
+    - - clearly
+      - בבירור
+    - - seriously
+      - ברצינות
+    lexemes:
+    - perhaps
+    - certainly
+    - definitely
+    - particularly
+    - clearly
+    - seriously
+  - id: u45-n3-09
+    type: multiple_choice
+    prompt: definitely – מה הפירוש?
+    options:
+    - בהחלט; ללא ספק
+    - בבירור
+    - אולי
+    correct: 0
+    lexemes:
+    - definitely
+  - id: u45-n3-10
+    type: multiple_choice
+    prompt: certainly – מה הפירוש?
+    options:
+    - בהחלט
+    - ברצינות
+    - במיוחד
+    correct: 0
+    lexemes:
+    - certainly
+  - id: u45-n3-11
+    type: multiple_choice
+    prompt: clearly – מה הפירוש?
+    options:
+    - בבירור
+    - במיוחד
+    - בהחלט; ללא ספק
+    correct: 0
+    lexemes:
+    - clearly
+  - id: u45-n3-12
+    type: fill_blank
+    sentence: I ___ need a break.
+    translation: אני באמת צריך הפסקה.
+    answers:
+    - seriously
+    options:
+    - seriously
+    - definitely
+    - clearly
+    lexemes:
+    - seriously
+  - id: u45-n3-13
+    type: fill_blank
+    sentence: I like fruit, ___ grapes.
+    translation: אני אוהב פירות, במיוחד ענבים.
+    answers:
+    - particularly
+    options:
+    - particularly
+    - clearly
+    - seriously
+    lexemes:
+    - particularly
+  - id: u45-n3-14
+    type: fill_blank
+    sentence: ___ it will rain.
+    translation: אולי ירד גשם.
+    answers:
+    - Perhaps
+    options:
+    - Perhaps
+    - particularly
+    - certainly
+    lexemes:
+    - perhaps
+  - id: u45-n3-15
+    type: word_bank
+    prompt: זה בהחלט הכי טוב.
+    answers:
+    - This is definitely the best.
+    distractors:
+    - clearly
+    - certainly
+    lexemes:
+    - definitely
+  - id: u45-n3-16
+    type: word_bank
+    prompt: בהחלט אבוא.
+    answers:
+    - I will certainly come.
+    distractors:
+    - seriously
+    - clearly
+    lexemes:
+    - certainly
+  - id: u45-n3-17
+    type: listening_choice
+    audioText: He spoke clearly.
+    question: מה שמעתם?
+    options:
+    - הוא דיבר בבירור.
+    - אולי ירד גשם.
+    - בהחלט אבוא.
+    correct: 0
+    lexemes:
+    - clearly
+  - id: u45-n3-18
+    type: speak_repeat
+    text: Perhaps it is certainly worth it.
+    translation: אולי זה בהחלט שווה את זה.
+    lexemes:
+    - perhaps
+    - certainly
+- id: u45-n4
+  kind: new
+  title:
+    he: 'היומן של נועה: לאט ובקושי'
+    en: 'Noa''s diary: slowly and barely'
+  exercises:
+  - id: u45-n4-01
+    type: dialogue
+    scene: הירידה מההר.
+    lines:
+    - speaker: ben
+      text: We walk slowly whenever the path is wet.
+      translation: אנחנו הולכים לאט כשהשביל רטוב.
+    - speaker: eli
+      text: Somehow I hardly feel my legs.
+      translation: איכשהו אני כמעט לא מרגיש את הרגליים.
+    - speaker: noa
+      text: I can barely see. Stay closely behind me.
+      translation: אני בקושי רואה. הישארו קרוב אחריי.
+    - speaker: ben
+      text: Don't talk loud.
+      translation: אל תדבר חזק.
+  - id: u45-n4-02
+    type: learn
+    lexeme: slowly
+  - id: u45-n4-03
+    type: learn
+    lexeme: whenever
+  - id: u45-n4-04
+    type: learn
+    lexeme: somehow
+  - id: u45-n4-05
+    type: learn
+    lexeme: hardly
+  - id: u45-n4-06
+    type: learn
+    lexeme: barely
+  - id: u45-n4-07
+    type: learn
+    lexeme: closely
+  - id: u45-n4-08
+    type: match_pairs
+    pairs:
+    - - slowly
+      - לאט
+    - - whenever
+      - בכל פעם ש
+    - - somehow
+      - איכשהו
+    - - hardly
+      - בקושי
+    - - barely
+      - רק בקושי
+    - - closely
+      - מקרוב
+    lexemes:
+    - slowly
+    - whenever
+    - somehow
+    - hardly
+    - barely
+    - closely
+  - id: u45-n4-09
+    type: multiple_choice
+    prompt: closely – מה הפירוש?
+    options:
+    - מקרוב
+    - איכשהו
+    - בכל פעם ש
+    correct: 0
+    lexemes:
+    - closely
+  - id: u45-n4-10
+    type: multiple_choice
+    prompt: slowly – מה הפירוש?
+    options:
+    - לאט
+    - בקושי
+    - בכל פעם ש
+    correct: 0
+    lexemes:
+    - slowly
+  - id: u45-n4-11
+    type: multiple_choice
+    prompt: barely – מה הפירוש?
+    options:
+    - רק בקושי
+    - איכשהו
+    - מקרוב
+    correct: 0
+    lexemes:
+    - barely
+  - id: u45-n4-12
+    type: fill_blank
+    sentence: Call me ___ you want.
+    translation: התקשר אליי בכל פעם שתרצה.
+    answers:
+    - whenever
+    options:
+    - whenever
+    - closely
+    - barely
+    lexemes:
+    - whenever
+  - id: u45-n4-13
+    type: fill_blank
+    sentence: ___, we made it.
+    translation: איכשהו, הצלחנו.
+    answers:
+    - Somehow
+    options:
+    - Somehow
+    - slowly
+    - barely
+    lexemes:
+    - somehow
+  - id: u45-n4-14
+    type: fill_blank
+    sentence: I can ___ hear you.
+    translation: אני בקושי שומע אותך.
+    answers:
+    - hardly
+    options:
+    - hardly
+    - barely
+    - slowly
+    lexemes:
+    - hardly
+  - id: u45-n4-15
+    type: word_bank
+    prompt: הסתכל מקרוב.
+    answers:
+    - Watch closely.
+    distractors:
+    - somehow
+    - hardly
+    lexemes:
+    - closely
+  - id: u45-n4-16
+    type: word_bank
+    prompt: לך לאט, בבקשה.
+    answers:
+    - Walk slowly, please.
+    distractors:
+    - closely
+    - barely
+    lexemes:
+    - slowly
+  - id: u45-n4-17
+    type: listening_choice
+    audioText: He barely knows her.
+    question: מה שמעתם?
+    options:
+    - הוא בקושי מכיר אותה.
+    - לך לאט, בבקשה.
+    - התקשר אליי בכל פעם שתרצה.
+    correct: 0
+    lexemes:
+    - barely
+  - id: u45-n4-18
+    type: speak_repeat
+    text: I walk slowly and watch closely.
+    translation: אני הולכת לאט ומסתכלת מקרוב.
+    lexemes:
+    - slowly
+    - closely

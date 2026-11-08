@@ -75,6 +75,30 @@ vocabulary:
   text: conclusive
   translation: חד־משמעי, מכריע
   pos: adjective
+- { id: "concept", text: "concept", translation: "מושג", pos: "noun", example: { text: "This concept is new.", translation: "המושג הזה חדש." } }
+- { id: "philosophy", text: "philosophy", translation: "פילוסופיה", pos: "noun", example: { text: "He studies philosophy.", translation: "הוא לומד פילוסופיה." } }
+- { id: "method", text: "method", translation: "שיטה", pos: "noun", example: { text: "The method is simple.", translation: "השיטה פשוטה." } }
+- { id: "researcher", text: "researcher", translation: "חוקר", pos: "noun", example: { text: "The researcher reads a lot.", translation: "החוקר קורא הרבה." } }
+- { id: "explanation", text: "explanation", translation: "הסבר", pos: "noun", example: { text: "I need an explanation.", translation: "אני צריך הסבר." } }
+- { id: "discovery", text: "discovery", translation: "גילוי", pos: "noun", example: { text: "The discovery was an accident.", translation: "הגילוי היה במקרה." } }
+- { id: "moral", text: "moral", translation: "מוסרי", pos: "adjective", example: { text: "It is a moral choice.", translation: "זו בחירה מוסרית." } }
+- { id: "ideal", text: "ideal", translation: "אידיאלי", pos: "adjective", example: { text: "This is an ideal place.", translation: "זה מקום אידיאלי." } }
+- { id: "contemporary", text: "contemporary", translation: "עכשווי", pos: "adjective", example: { text: "He likes contemporary art.", translation: "הוא אוהב אמנות עכשווית." } }
+- { id: "ultimate", text: "ultimate", translation: "אולטימטיבי", pos: "adjective", example: { text: "The ultimate goal is peace.", translation: "המטרה האולטימטיבית היא שלום." } }
+- { id: "significant", text: "significant", translation: "משמעותי", pos: "adjective", example: { text: "This is a significant change.", translation: "זה שינוי משמעותי." } }
+- { id: "additional", text: "additional", translation: "נוסף", pos: "adjective", example: { text: "I need additional time.", translation: "אני צריך זמן נוסף." } }
+- { id: "movement", text: "movement", translation: "תנועה", pos: "noun", example: { text: "A movement for change began.", translation: "תנועה לשינוי החלה." } }
+- { id: "population", text: "population", translation: "אוכלוסייה", pos: "noun", example: { text: "The population is growing.", translation: "האוכלוסייה גדלה." } }
+- { id: "society", text: "society", translation: "חברה", pos: "noun", example: { text: "Society changes slowly.", translation: "החברה משתנה לאט." } }
+- { id: "economic", text: "economic", translation: "כלכלי", pos: "adjective", example: { text: "This is an economic problem.", translation: "זו בעיה כלכלית." } }
+- { id: "political", text: "political", translation: "פוליטי", pos: "adjective", example: { text: "He has political views.", translation: "יש לו דעות פוליטיות." } }
+- { id: "culture", text: "culture", translation: "תרבות", pos: "noun", example: { text: "Every culture has stories.", translation: "לכל תרבות יש סיפורים." } }
+- { id: "consistent", text: "consistent", translation: "עקבי", pos: "adjective", example: { text: "Her results are consistent.", translation: "התוצאות שלה עקביות." } }
+- { id: "practical", text: "practical", translation: "מעשי", pos: "adjective", example: { text: "This is a practical idea.", translation: "זה רעיון מעשי." } }
+- { id: "regardless", text: "regardless", translation: "בלי קשר", pos: "adverb", example: { text: "Regardless of price, I like it.", translation: "בלי קשר למחיר, אני אוהב את זה." } }
+- { id: "necessarily", text: "necessarily", translation: "בהכרח", pos: "adverb", example: { text: "Bigger is not necessarily better.", translation: "גדול יותר הוא לא בהכרח טוב יותר." } }
+- { id: "primarily", text: "primarily", translation: "בעיקר", pos: "adverb", example: { text: "We work primarily in Israel.", translation: "אנחנו עובדים בעיקר בישראל." } }
+- { id: "naturally", text: "naturally", translation: "באופן טבעי", pos: "adverb", example: { text: "Naturally, I will help.", translation: "באופן טבעי, אעזור." } }
 grammar:
 - id: hedging
   title:
@@ -797,3 +821,668 @@ lessons:
       - \bsurvey\b
     model: Recent data suggest a sharp rise in the number of people who study online. It appears that students tend to prefer flexible schedules, although the evidence is not conclusive. Arguably, the decline in attendance at traditional classes may reflect a change in habits rather than a lack of interest.
     lexemes: []
+  # ------------------------------------------------------------------ story words
+- id: u44-n1
+  kind: new
+  title:
+    he: 'היומן של נועה: מושגים'
+    en: 'Noa''s diary: concepts'
+  exercises:
+  - id: u44-n1-01
+    type: dialogue
+    scene: נועה מכינה הרצאה באוניברסיטה.
+    lines:
+    - speaker: noa
+      text: Today's concept is remote work. The method is a new philosophy.
+      translation: המושג של היום הוא עבודה מרחוק. השיטה היא פילוסופיה חדשה.
+    - speaker: tamar
+      text: A researcher gave an explanation of the discovery.
+      translation: חוקר נתן הסבר על הגילוי.
+    - speaker: noa
+      text: Let's cite it carefully.
+      translation: בואו נצטט אותו בזהירות.
+    - speaker: tamar
+      text: Yes.
+      translation: כן.
+  - id: u44-n1-02
+    type: learn
+    lexeme: concept
+  - id: u44-n1-03
+    type: learn
+    lexeme: philosophy
+  - id: u44-n1-04
+    type: learn
+    lexeme: method
+  - id: u44-n1-05
+    type: learn
+    lexeme: researcher
+  - id: u44-n1-06
+    type: learn
+    lexeme: explanation
+  - id: u44-n1-07
+    type: learn
+    lexeme: discovery
+  - id: u44-n1-08
+    type: match_pairs
+    pairs:
+    - - concept
+      - מושג
+    - - philosophy
+      - פילוסופיה
+    - - method
+      - שיטה
+    - - researcher
+      - חוקר
+    - - explanation
+      - הסבר
+    - - discovery
+      - גילוי
+    lexemes:
+    - concept
+    - philosophy
+    - method
+    - researcher
+    - explanation
+    - discovery
+  - id: u44-n1-09
+    type: multiple_choice
+    prompt: method – מה הפירוש?
+    options:
+    - שיטה
+    - הסבר
+    - חוקר
+    correct: 0
+    lexemes:
+    - method
+  - id: u44-n1-10
+    type: multiple_choice
+    prompt: discovery – מה הפירוש?
+    options:
+    - גילוי
+    - שיטה
+    - פילוסופיה
+    correct: 0
+    lexemes:
+    - discovery
+  - id: u44-n1-11
+    type: multiple_choice
+    prompt: concept – מה הפירוש?
+    options:
+    - מושג
+    - פילוסופיה
+    - שיטה
+    correct: 0
+    lexemes:
+    - concept
+  - id: u44-n1-12
+    type: fill_blank
+    sentence: I need an ___.
+    translation: אני צריך הסבר.
+    answers:
+    - explanation
+    options:
+    - explanation
+    - discovery
+    - philosophy
+    lexemes:
+    - explanation
+  - id: u44-n1-13
+    type: fill_blank
+    sentence: The ___ reads a lot.
+    translation: החוקר קורא הרבה.
+    answers:
+    - researcher
+    options:
+    - researcher
+    - concept
+    - method
+    lexemes:
+    - researcher
+  - id: u44-n1-14
+    type: fill_blank
+    sentence: He studies ___.
+    translation: הוא לומד פילוסופיה.
+    answers:
+    - philosophy
+    options:
+    - philosophy
+    - explanation
+    - discovery
+    lexemes:
+    - philosophy
+  - id: u44-n1-15
+    type: word_bank
+    prompt: השיטה פשוטה.
+    answers:
+    - The method is simple.
+    distractors:
+    - discovery
+    - philosophy
+    lexemes:
+    - method
+  - id: u44-n1-16
+    type: word_bank
+    prompt: הגילוי היה במקרה.
+    answers:
+    - The discovery was an accident.
+    distractors:
+    - philosophy
+    - method
+    lexemes:
+    - discovery
+  - id: u44-n1-17
+    type: listening_choice
+    audioText: This concept is new.
+    question: מה שמעתם?
+    options:
+    - המושג הזה חדש.
+    - הוא לומד פילוסופיה.
+    - השיטה פשוטה.
+    correct: 0
+    lexemes:
+    - concept
+  - id: u44-n1-18
+    type: speak_repeat
+    text: The researcher gave a clear explanation.
+    translation: החוקר נתן הסבר ברור.
+    lexemes:
+    - researcher
+    - explanation
+- id: u44-n2
+  kind: new
+  title:
+    he: 'היומן של נועה: ערכים'
+    en: 'Noa''s diary: values'
+  exercises:
+  - id: u44-n2-01
+    type: dialogue
+    scene: שאלות בסוף ההרצאה.
+    lines:
+    - speaker: noa
+      text: The ideal workplace is a moral one. Contemporary companies must be fair.
+      translation: מקום העבודה האידיאלי הוא מוסרי. חברות עכשוויות חייבות להיות הוגנות.
+    - speaker: tamar
+      text: The ultimate test is how we treat people. The additional cost is significant.
+      translation: המבחן האולטימטיבי הוא איך אנחנו מתייחסים לאנשים. העלות הנוספת משמעותית.
+    - speaker: noa
+      text: But worth it.
+      translation: אבל שווה.
+    - speaker: tamar
+      text: True.
+      translation: נכון.
+  - id: u44-n2-02
+    type: learn
+    lexeme: moral
+  - id: u44-n2-03
+    type: learn
+    lexeme: ideal
+  - id: u44-n2-04
+    type: learn
+    lexeme: contemporary
+  - id: u44-n2-05
+    type: learn
+    lexeme: ultimate
+  - id: u44-n2-06
+    type: learn
+    lexeme: significant
+  - id: u44-n2-07
+    type: learn
+    lexeme: additional
+  - id: u44-n2-08
+    type: match_pairs
+    pairs:
+    - - moral
+      - מוסרי
+    - - ideal
+      - אידיאלי
+    - - contemporary
+      - עכשווי
+    - - ultimate
+      - אולטימטיבי
+    - - significant
+      - משמעותי
+    - - additional
+      - נוסף
+    lexemes:
+    - moral
+    - ideal
+    - contemporary
+    - ultimate
+    - significant
+    - additional
+  - id: u44-n2-09
+    type: multiple_choice
+    prompt: additional – מה הפירוש?
+    options:
+    - נוסף
+    - עכשווי
+    - משמעותי
+    correct: 0
+    lexemes:
+    - additional
+  - id: u44-n2-10
+    type: multiple_choice
+    prompt: contemporary – מה הפירוש?
+    options:
+    - עכשווי
+    - אידיאלי
+    - מוסרי
+    correct: 0
+    lexemes:
+    - contemporary
+  - id: u44-n2-11
+    type: multiple_choice
+    prompt: significant – מה הפירוש?
+    options:
+    - משמעותי
+    - אולטימטיבי
+    - עכשווי
+    correct: 0
+    lexemes:
+    - significant
+  - id: u44-n2-12
+    type: fill_blank
+    sentence: The ___ goal is peace.
+    translation: המטרה האולטימטיבית היא שלום.
+    answers:
+    - ultimate
+    options:
+    - ultimate
+    - contemporary
+    - significant
+    lexemes:
+    - ultimate
+  - id: u44-n2-13
+    type: fill_blank
+    sentence: It is a ___ choice.
+    translation: זו בחירה מוסרית.
+    answers:
+    - moral
+    options:
+    - moral
+    - additional
+    - ideal
+    lexemes:
+    - moral
+  - id: u44-n2-14
+    type: fill_blank
+    sentence: This is an ___ place.
+    translation: זה מקום אידיאלי.
+    answers:
+    - ideal
+    options:
+    - ideal
+    - significant
+    - ultimate
+    lexemes:
+    - ideal
+  - id: u44-n2-15
+    type: word_bank
+    prompt: אני צריך זמן נוסף.
+    answers:
+    - I need additional time.
+    distractors:
+    - ideal
+    - ultimate
+    lexemes:
+    - additional
+  - id: u44-n2-16
+    type: word_bank
+    prompt: הוא אוהב אמנות עכשווית.
+    answers:
+    - He likes contemporary art.
+    distractors:
+    - ultimate
+    - additional
+    lexemes:
+    - contemporary
+  - id: u44-n2-17
+    type: listening_choice
+    audioText: This is a significant change.
+    question: מה שמעתם?
+    options:
+    - זה שינוי משמעותי.
+    - זו בחירה מוסרית.
+    - זה מקום אידיאלי.
+    correct: 0
+    lexemes:
+    - significant
+  - id: u44-n2-18
+    type: speak_repeat
+    text: The ultimate goal is an ideal workplace.
+    translation: המטרה האולטימטיבית היא מקום עבודה אידיאלי.
+    lexemes:
+    - ideal
+    - ultimate
+- id: u44-n3
+  kind: new
+  title:
+    he: 'היומן של נועה: חברה וכלכלה'
+    en: 'Noa''s diary: society and economics'
+  exercises:
+  - id: u44-n3-01
+    type: dialogue
+    scene: נועה מרחיבה את הנושא.
+    lines:
+    - speaker: noa
+      text: Remote work changed society. A movement of workers moved out of the city.
+      translation: עבודה מרחוק שינתה את החברה. תנועה של עובדים עברה אל מחוץ לעיר.
+    - speaker: tamar
+      text: The economic effect on the population is political too.
+      translation: ההשפעה הכלכלית על האוכלוסייה היא גם פוליטית.
+    - speaker: noa
+      text: Culture follows the economy.
+      translation: התרבות הולכת אחרי הכלכלה.
+    - speaker: tamar
+      text: Not always.
+      translation: לא תמיד.
+  - id: u44-n3-02
+    type: learn
+    lexeme: movement
+  - id: u44-n3-03
+    type: learn
+    lexeme: population
+  - id: u44-n3-04
+    type: learn
+    lexeme: society
+  - id: u44-n3-05
+    type: learn
+    lexeme: economic
+  - id: u44-n3-06
+    type: learn
+    lexeme: political
+  - id: u44-n3-07
+    type: learn
+    lexeme: culture
+  - id: u44-n3-08
+    type: match_pairs
+    pairs:
+    - - movement
+      - תנועה
+    - - population
+      - אוכלוסייה
+    - - society
+      - חברה
+    - - economic
+      - כלכלי
+    - - political
+      - פוליטי
+    - - culture
+      - תרבות
+    lexemes:
+    - movement
+    - population
+    - society
+    - economic
+    - political
+    - culture
+  - id: u44-n3-09
+    type: multiple_choice
+    prompt: population – מה הפירוש?
+    options:
+    - אוכלוסייה
+    - כלכלי
+    - פוליטי
+    correct: 0
+    lexemes:
+    - population
+  - id: u44-n3-10
+    type: multiple_choice
+    prompt: society – מה הפירוש?
+    options:
+    - חברה
+    - אוכלוסייה
+    - תנועה
+    correct: 0
+    lexemes:
+    - society
+  - id: u44-n3-11
+    type: multiple_choice
+    prompt: movement – מה הפירוש?
+    options:
+    - תנועה
+    - תרבות
+    - כלכלי
+    correct: 0
+    lexemes:
+    - movement
+  - id: u44-n3-12
+    type: fill_blank
+    sentence: He has ___ views.
+    translation: יש לו דעות פוליטיות.
+    answers:
+    - political
+    options:
+    - political
+    - society
+    - culture
+    lexemes:
+    - political
+  - id: u44-n3-13
+    type: fill_blank
+    sentence: Every ___ has stories.
+    translation: לכל תרבות יש סיפורים.
+    answers:
+    - culture
+    options:
+    - culture
+    - political
+    - population
+    lexemes:
+    - culture
+  - id: u44-n3-14
+    type: fill_blank
+    sentence: This is an ___ problem.
+    translation: זו בעיה כלכלית.
+    answers:
+    - economic
+    options:
+    - economic
+    - society
+    - political
+    lexemes:
+    - economic
+  - id: u44-n3-15
+    type: word_bank
+    prompt: האוכלוסייה גדלה.
+    answers:
+    - The population is growing.
+    distractors:
+    - culture
+    - society
+    lexemes:
+    - population
+  - id: u44-n3-16
+    type: word_bank
+    prompt: החברה משתנה לאט.
+    answers:
+    - Society changes slowly.
+    distractors:
+    - movement
+    - economic
+    lexemes:
+    - society
+  - id: u44-n3-17
+    type: listening_choice
+    audioText: A movement for change began.
+    question: מה שמעתם?
+    options:
+    - תנועה לשינוי החלה.
+    - האוכלוסייה גדלה.
+    - החברה משתנה לאט.
+    correct: 0
+    lexemes:
+    - movement
+  - id: u44-n3-18
+    type: speak_repeat
+    text: Society, the economy and culture change together.
+    translation: החברה, הכלכלה והתרבות משתנות יחד.
+    lexemes:
+    - society
+    - culture
+- id: u44-n4
+  kind: new
+  title:
+    he: 'היומן של נועה: ללא הגזמה'
+    en: 'Noa''s diary: without exaggeration'
+  exercises:
+  - id: u44-n4-01
+    type: dialogue
+    scene: סיכום ההרצאה בזהירות אקדמית.
+    lines:
+    - speaker: noa
+      text: The data is consistent, but not necessarily final.
+      translation: הנתונים עקביים, אך לאו דווקא סופיים.
+    - speaker: tamar
+      text: Naturally, a practical test is needed. Primarily in small teams.
+      translation: באופן טבעי, צריך בדיקה מעשית. בעיקר בצוותים קטנים.
+    - speaker: noa
+      text: Regardless of size, the idea holds.
+      translation: ללא קשר לגודל, הרעיון מחזיק.
+    - speaker: tamar
+      text: Careful wording.
+      translation: ניסוח זהיר.
+  - id: u44-n4-02
+    type: learn
+    lexeme: consistent
+  - id: u44-n4-03
+    type: learn
+    lexeme: practical
+  - id: u44-n4-04
+    type: learn
+    lexeme: regardless
+  - id: u44-n4-05
+    type: learn
+    lexeme: necessarily
+  - id: u44-n4-06
+    type: learn
+    lexeme: primarily
+  - id: u44-n4-07
+    type: learn
+    lexeme: naturally
+  - id: u44-n4-08
+    type: match_pairs
+    pairs:
+    - - consistent
+      - עקבי
+    - - practical
+      - מעשי
+    - - regardless
+      - בלי קשר
+    - - necessarily
+      - בהכרח
+    - - primarily
+      - בעיקר
+    - - naturally
+      - באופן טבעי
+    lexemes:
+    - consistent
+    - practical
+    - regardless
+    - necessarily
+    - primarily
+    - naturally
+  - id: u44-n4-09
+    type: multiple_choice
+    prompt: regardless – מה הפירוש?
+    options:
+    - בלי קשר
+    - בהכרח
+    - מעשי
+    correct: 0
+    lexemes:
+    - regardless
+  - id: u44-n4-10
+    type: multiple_choice
+    prompt: consistent – מה הפירוש?
+    options:
+    - עקבי
+    - בהכרח
+    - בעיקר
+    correct: 0
+    lexemes:
+    - consistent
+  - id: u44-n4-11
+    type: multiple_choice
+    prompt: necessarily – מה הפירוש?
+    options:
+    - בהכרח
+    - באופן טבעי
+    - בעיקר
+    correct: 0
+    lexemes:
+    - necessarily
+  - id: u44-n4-12
+    type: fill_blank
+    sentence: We work ___ in Israel.
+    translation: אנחנו עובדים בעיקר בישראל.
+    answers:
+    - primarily
+    options:
+    - primarily
+    - regardless
+    - naturally
+    lexemes:
+    - primarily
+  - id: u44-n4-13
+    type: fill_blank
+    sentence: This is a ___ idea.
+    translation: זה רעיון מעשי.
+    answers:
+    - practical
+    options:
+    - practical
+    - naturally
+    - regardless
+    lexemes:
+    - practical
+  - id: u44-n4-14
+    type: fill_blank
+    sentence: ___, I will help.
+    translation: באופן טבעי, אעזור.
+    answers:
+    - Naturally
+    options:
+    - Naturally
+    - consistent
+    - primarily
+    lexemes:
+    - naturally
+  - id: u44-n4-15
+    type: word_bank
+    prompt: בלי קשר למחיר, אני אוהב את זה.
+    answers:
+    - Regardless of price, I like it.
+    distractors:
+    - necessarily
+    - practical
+    lexemes:
+    - regardless
+  - id: u44-n4-16
+    type: word_bank
+    prompt: התוצאות שלה עקביות.
+    answers:
+    - Her results are consistent.
+    distractors:
+    - naturally
+    - practical
+    lexemes:
+    - consistent
+  - id: u44-n4-17
+    type: listening_choice
+    audioText: Bigger is not necessarily better.
+    question: מה שמעתם?
+    options:
+    - גדול יותר הוא לא בהכרח טוב יותר.
+    - התוצאות שלה עקביות.
+    - זה רעיון מעשי.
+    correct: 0
+    lexemes:
+    - necessarily
+  - id: u44-n4-18
+    type: speak_repeat
+    text: Naturally, the idea is practical.
+    translation: באופן טבעי, הרעיון מעשי.
+    lexemes:
+    - practical
+    - naturally
