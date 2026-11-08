@@ -528,144 +528,6 @@ lessons:
         translation: "הייתי רוצה להגיש מועמדות למשרת ראש הצוות."
         lexemes: [apply, team-leader]
 
-  # ------------------------------------------------------------------ A2 level test
-  - id: a2-test
-    kind: test
-    title: { he: "מבחן רמה A2", en: "A2 level test" }
-    exercises:
-      - id: a2-t-01
-        type: fill_blank
-        sentence: "Last year we ___ to a new flat. (move)"
-        translation: "בשנה שעברה עברנו לדירה חדשה."
-        answers: [moved]
-        options: [moved, move, have moved]
-        lexemes: [move, past-ed, flat]
-      - id: a2-t-02
-        type: multiple_choice
-        prompt: איזו שאלה נכונה?
-        options: ["Did you see the concert?", "Did you saw the concert?", "Do you saw the concert?"]
-        correct: 0
-        lexemes: [did, saw, concert]
-      - id: a2-t-03
-        type: fill_blank
-        sentence: "We ___ some friends at the beach yesterday."
-        translation: "פגשנו כמה חברים בחוף אתמול."
-        answers: [met]
-        options: [met, meet, meeted]
-        lexemes: [met, beach]
-      - id: a2-t-04
-        type: fill_blank
-        sentence: "We don't have ___ milk."
-        translation: "אין לנו חלב בכלל."
-        answers: [any]
-        options: [any, some, many]
-        lexemes: [any, milk]
-      - id: a2-t-05
-        type: fill_blank
-        sentence: "How ___ eggs do we need?"
-        translation: "כמה ביצים אנחנו צריכים?"
-        answers: [many]
-        options: [many, much]
-        lexemes: [how-many, egg]
-      - id: a2-t-06
-        type: dialogue_gap
-        lines:
-          - { speaker: "dr-stern", text: "You've got a fever.", translation: "יש לך חום." }
-          - { speaker: "dr-stern", text: "You should rest and you shouldn't go to work.", translation: "כדאי שתנוח ולא כדאי שתלך לעבודה." }
-        gap: 1
-        distractors: ["You should to rest and you shouldn't go to work.", "You shoulds rest and not go to work."]
-        lexemes: [should, shouldnt, rest]
-      - id: a2-t-07
-        type: listening_choice
-        audioText: "My back hurts and I've got a headache."
-        question: מה כואב לו?
-        options: [הגב והראש, הבטן והגרון, הגב והבטן]
-        correct: 0
-        lexemes: [back, hurt, headache]
-      - id: a2-t-08
-        type: word_bank
-        prompt: "אני הולך לבקר את ההורים שלי בחודש הבא."
-        answers: ["I'm going to visit my parents next month.", "I am going to visit my parents next month.", "Next month I'm going to visit my parents."]
-        distractors: [visiting, in]
-        lexemes: [going-to, visit, next-month]
-      - id: a2-t-09
-        type: fill_blank
-        sentence: "London is ___ than Tel Aviv. (cold)"
-        translation: "לונדון קרה יותר מתל אביב."
-        answers: [colder]
-        options: [colder, more cold, coldest]
-        lexemes: [cold, than]
-      - id: a2-t-10
-        type: multiple_choice
-        prompt: "איזה משפט נכון?"
-        options: ["Today is as warm as yesterday.", "Today is as warm than yesterday.", "Today is warm as as yesterday."]
-        correct: 0
-        lexemes: [as-as, warm]
-      - id: a2-t-11
-        type: fill_blank
-        sentence: "A taxi is the ___ expensive way to travel."
-        translation: "מונית היא הדרך הכי יקרה לנסוע."
-        answers: [most]
-        options: [most, more, much]
-        lexemes: [the-most, taxi]
-      - id: a2-t-12
-        type: listening_choice
-        audioText: "It takes twenty minutes by bus, but you need to change at the station."
-        question: מה נכון?
-        options: [עשרים דקות באוטובוס עם החלפה, עשר דקות ברכבת, עשרים דקות ברגל]
-        correct: 0
-        lexemes: [it-takes, change, bus]
-      - id: a2-t-13
-        type: fill_blank
-        sentence: "Shh! The baby is ___ . (sleep)"
-        translation: "שש! התינוק ישן."
-        answers: [sleeping]
-        options: [sleeping, sleeps, sleep]
-        lexemes: [be-ing]
-      - id: a2-t-14
-        type: multiple_choice
-        prompt: "איזה משפט מתאר הרגל?"
-        options: ["I usually work from home on Fridays.", "I'm working from home right now.", "I'm talking at the moment."]
-        correct: 0
-        lexemes: [be-ing, at-home]
-      - id: a2-t-15
-        type: dialogue_gap
-        lines:
-          - { speaker: "noa", text: "There's no juice for the party.", translation: "אין מיץ למסיבה." }
-          - { speaker: "eli", text: "Don't worry. I'll buy some.", translation: "אל תדאגי. אני אקנה." }
-        gap: 1
-        distractors: ["Don't worry. I buy some yesterday.", "Don't worry. I'll to buy some."]
-        lexemes: [will, party]
-      - id: a2-t-16
-        type: translate
-        direction: to_target
-        prompt: "תרצה לבוא למסיבה שלי?"
-        answers: ["Would you like to come to my party?"]
-        lexemes: [would-you-like, party]
-      - id: a2-t-17
-        type: fill_blank
-        sentence: "Have you ___ been to Japan?"
-        translation: "היית פעם ביפן?"
-        answers: [ever]
-        options: [ever, yet, already]
-        lexemes: [have-you-ever, been]
-      - id: a2-t-18
-        type: fill_blank
-        sentence: "I haven't finished the report ___ ."
-        translation: "עוד לא סיימתי את הדוח."
-        answers: [yet]
-        options: [yet, already, ever]
-        lexemes: [yet, finish]
-      - id: a2-t-19
-        type: translate
-        direction: to_source
-        prompt: "We went to the market and bought some fruit."
-        answers: ["הלכנו לשוק וקנינו פירות.", "הלכנו לשוק וקנינו קצת פירות.", "הלכנו לשוק וקנינו כמה פירות."]
-        lexemes: [went, market, bought, fruit]
-      - id: a2-t-20
-        type: dictation
-        text: "What's the weather like today?"
-        lexemes: [whats-the-weather-like]
   # ------------------------------------------------------------------ story words
   - id: u20-n1
     kind: new
@@ -1165,3 +1027,274 @@ lessons:
       lexemes:
       - manage
       - conduct
+
+  # ------------------------------------------------------------------ A2 level test
+  - id: a2-test
+    kind: test
+    title: { he: "מבחן רמה A2", en: "A2 level test" }
+    exercises:
+      - id: a2-t-01
+        type: fill_blank
+        sentence: "Last year we ___ to a new flat. (move)"
+        translation: "בשנה שעברה עברנו לדירה חדשה."
+        answers: [moved]
+        options: [moved, move, have moved]
+        lexemes: [move, past-ed, flat]
+      - id: a2-t-02
+        type: multiple_choice
+        prompt: איזו שאלה נכונה?
+        options: ["Did you see the concert?", "Did you saw the concert?", "Do you saw the concert?"]
+        correct: 0
+        lexemes: [did, saw, concert]
+      - id: a2-t-03
+        type: fill_blank
+        sentence: "We ___ some friends at the beach yesterday."
+        translation: "פגשנו כמה חברים בחוף אתמול."
+        answers: [met]
+        options: [met, meet, meeted]
+        lexemes: [met, beach]
+      - id: a2-t-04
+        type: fill_blank
+        sentence: "We don't have ___ milk."
+        translation: "אין לנו חלב בכלל."
+        answers: [any]
+        options: [any, some, many]
+        lexemes: [any, milk]
+      - id: a2-t-05
+        type: fill_blank
+        sentence: "How ___ eggs do we need?"
+        translation: "כמה ביצים אנחנו צריכים?"
+        answers: [many]
+        options: [many, much]
+        lexemes: [how-many, egg]
+      - id: a2-t-06
+        type: dialogue_gap
+        lines:
+          - { speaker: "dr-stern", text: "You've got a fever.", translation: "יש לך חום." }
+          - { speaker: "dr-stern", text: "You should rest and you shouldn't go to work.", translation: "כדאי שתנוח ולא כדאי שתלך לעבודה." }
+        gap: 1
+        distractors: ["You should to rest and you shouldn't go to work.", "You shoulds rest and not go to work."]
+        lexemes: [should, shouldnt, rest]
+      - id: a2-t-07
+        type: listening_choice
+        audioText: "My back hurts and I've got a headache."
+        question: מה כואב לו?
+        options: [הגב והראש, הבטן והגרון, הגב והבטן]
+        correct: 0
+        lexemes: [back, hurt, headache]
+      - id: a2-t-08
+        type: word_bank
+        prompt: "אני הולך לבקר את ההורים שלי בחודש הבא."
+        answers: ["I'm going to visit my parents next month.", "I am going to visit my parents next month.", "Next month I'm going to visit my parents."]
+        distractors: [visiting, in]
+        lexemes: [going-to, visit, next-month]
+      - id: a2-t-09
+        type: fill_blank
+        sentence: "London is ___ than Tel Aviv. (cold)"
+        translation: "לונדון קרה יותר מתל אביב."
+        answers: [colder]
+        options: [colder, more cold, coldest]
+        lexemes: [cold, than]
+      - id: a2-t-10
+        type: multiple_choice
+        prompt: "איזה משפט נכון?"
+        options: ["Today is as warm as yesterday.", "Today is as warm than yesterday.", "Today is warm as as yesterday."]
+        correct: 0
+        lexemes: [as-as, warm]
+      - id: a2-t-11
+        type: fill_blank
+        sentence: "A taxi is the ___ expensive way to travel."
+        translation: "מונית היא הדרך הכי יקרה לנסוע."
+        answers: [most]
+        options: [most, more, much]
+        lexemes: [the-most, taxi]
+      - id: a2-t-12
+        type: listening_choice
+        audioText: "It takes twenty minutes by bus, but you need to change at the station."
+        question: מה נכון?
+        options: [עשרים דקות באוטובוס עם החלפה, עשר דקות ברכבת, עשרים דקות ברגל]
+        correct: 0
+        lexemes: [it-takes, change, bus]
+      - id: a2-t-13
+        type: fill_blank
+        sentence: "Shh! The baby is ___ . (sleep)"
+        translation: "שש! התינוק ישן."
+        answers: [sleeping]
+        options: [sleeping, sleeps, sleep]
+        lexemes: [be-ing]
+      - id: a2-t-14
+        type: multiple_choice
+        prompt: "איזה משפט מתאר הרגל?"
+        options: ["I usually work from home on Fridays.", "I'm working from home right now.", "I'm talking at the moment."]
+        correct: 0
+        lexemes: [be-ing, at-home]
+      - id: a2-t-15
+        type: dialogue_gap
+        lines:
+          - { speaker: "noa", text: "There's no juice for the party.", translation: "אין מיץ למסיבה." }
+          - { speaker: "eli", text: "Don't worry. I'll buy some.", translation: "אל תדאגי. אני אקנה." }
+        gap: 1
+        distractors: ["Don't worry. I buy some yesterday.", "Don't worry. I'll to buy some."]
+        lexemes: [will, party]
+      - id: a2-t-16
+        type: translate
+        direction: to_target
+        prompt: "תרצה לבוא למסיבה שלי?"
+        answers: ["Would you like to come to my party?"]
+        lexemes: [would-you-like, party]
+      - id: a2-t-17
+        type: fill_blank
+        sentence: "Have you ___ been to Japan?"
+        translation: "היית פעם ביפן?"
+        answers: [ever]
+        options: [ever, yet, already]
+        lexemes: [have-you-ever, been]
+      - id: a2-t-18
+        type: fill_blank
+        sentence: "I haven't finished the report ___ ."
+        translation: "עוד לא סיימתי את הדוח."
+        answers: [yet]
+        options: [yet, already, ever]
+        lexemes: [yet, finish]
+      - id: a2-t-19
+        type: translate
+        direction: to_source
+        prompt: "We went to the market and bought some fruit."
+        answers: ["הלכנו לשוק וקנינו פירות.", "הלכנו לשוק וקנינו קצת פירות.", "הלכנו לשוק וקנינו כמה פירות."]
+        lexemes: [went, market, bought, fruit]
+      - id: a2-t-20
+        type: dictation
+        text: "What's the weather like today?"
+        lexemes: [whats-the-weather-like]
+      - id: a2-t-21
+        type: multiple_choice
+        prompt: מה פירוש door?
+        options:
+        - דלת
+        - להגיע
+        - בעלים
+        correct: 0
+        lexemes:
+        - door
+      - id: a2-t-22
+        type: fill_blank
+        sentence: I see a ___ on the door.
+        translation: אני רואה הודעה על הדלת.
+        answers:
+        - notice
+        options:
+        - notice
+        - reach
+        - nature
+        lexemes:
+        - notice
+      - id: a2-t-23
+        type: multiple_choice
+        prompt: מה פירוש fly?
+        options:
+        - לעוף; לטוס
+        - דלת
+        - נישואין
+        correct: 0
+        lexemes:
+        - fly
+      - id: a2-t-24
+        type: fill_blank
+        sentence: ___ the money, please.
+        translation: בבקשה ספור את הכסף.
+        answers:
+        - Count
+        options:
+        - Count
+        - link
+        - fly
+        lexemes:
+        - count
+      - id: a2-t-25
+        type: multiple_choice
+        prompt: מה פירוש disease?
+        options:
+        - מחלה
+        - הודעה; לשים לב
+        - כמעט
+        correct: 0
+        lexemes:
+        - disease
+      - id: a2-t-26
+        type: fill_blank
+        sentence: My ___ is full.
+        translation: לוח הזמנים שלי מלא.
+        answers:
+        - schedule
+        options:
+        - schedule
+        - marriage
+        - disease
+        lexemes:
+        - schedule
+      - id: a2-t-27
+        type: multiple_choice
+        prompt: מה פירוש nature?
+        options:
+        - טבע
+        - הודעה; לשים לב
+        - כמעט
+        correct: 0
+        lexemes:
+        - nature
+      - id: a2-t-28
+        type: fill_blank
+        sentence: It is ___ midnight.
+        translation: השעה כמעט חצות.
+        answers:
+        - nearly
+        options:
+        - nearly
+        - marriage
+        - reach
+        lexemes:
+        - nearly
+      - id: a2-t-29
+        type: multiple_choice
+        prompt: מה פירוש reach?
+        options:
+        - להגיע
+        - דלת
+        - לעוף; לטוס
+        correct: 0
+        lexemes:
+        - reach
+      - id: a2-t-30
+        type: fill_blank
+        sentence: Send me the ___.
+        translation: שלח לי את הקישור.
+        answers:
+        - link
+        options:
+        - link
+        - owner
+        - door
+        lexemes:
+        - link
+      - id: a2-t-31
+        type: multiple_choice
+        prompt: מה פירוש marriage?
+        options:
+        - נישואין
+        - מחלה
+        - דלת
+        correct: 0
+        lexemes:
+        - marriage
+      - id: a2-t-32
+        type: fill_blank
+        sentence: The ___ is not here.
+        translation: הבעלים לא כאן.
+        answers:
+        - owner
+        options:
+        - owner
+        - disease
+        - schedule
+        lexemes:
+        - owner
