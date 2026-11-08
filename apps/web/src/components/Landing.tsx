@@ -217,11 +217,8 @@ export function Landing() {
         </Link>
       </section>
 
-      <footer className="mt-10 flex flex-wrap items-center justify-between gap-3 text-sm text-ink-soft">
+      <footer className="mt-10 flex flex-wrap items-center justify-center gap-3 text-sm text-ink-soft">
         <span>לינגו, לימוד שפות לדוברי עברית</span>
-        <a href="https://github.com/szgm770/Language-Learning" className="min-h-11 py-3 underline underline-offset-4">
-          קוד פתוח ב־GitHub
-        </a>
       </footer>
     </div>
   );
