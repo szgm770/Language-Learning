@@ -33,6 +33,24 @@ vocabulary:
   - { id: "win-win", text: "win-win", translation: "מצב שבו כולם מרוויחים", pos: "adjective", pronunciation: "וִוין וִוין" }
   - { id: "walk-away", text: "walk away", translation: "לקום וללכת, לוותר על העסקה", pos: "verb", pronunciation: "ווֹק אַוֵויי" }
 
+  - { id: "debt", text: "debt", translation: "חוב", pos: "noun", example: { text: "The company has a small debt.", translation: "לחברה יש חוב קטן." } }
+  - { id: "asset", text: "asset", translation: "נכס", pos: "noun", example: { text: "This building is a big asset.", translation: "הבניין הזה הוא נכס גדול." } }
+  - { id: "invest", text: "invest", translation: "להשקיע", pos: "verb", example: { text: "We invest in new tools.", translation: "אנחנו משקיעים בכלים חדשים." } }
+  - { id: "wage", text: "wage", translation: "שכר", pos: "noun", example: { text: "The wage is fair.", translation: "השכר הוגן." } }
+  - { id: "bid", text: "bid", translation: "הצעת מחיר", pos: "noun", example: { text: "Their bid is too low.", translation: "הצעת המחיר שלהם נמוכה מדי." } }
+  - { id: "retail", text: "retail", translation: "קמעונאות", pos: "noun", example: { text: "He works in retail.", translation: "הוא עובד בקמעונאות." } }
+  - { id: "oppose", text: "oppose", translation: "להתנגד", pos: "verb", example: { text: "We oppose the new rule.", translation: "אנחנו מתנגדים לכלל החדש." } }
+  - { id: "convince", text: "convince", translation: "לשכנע", pos: "verb", example: { text: "I can convince him.", translation: "אני יכול לשכנע אותו." } }
+  - { id: "declare", text: "declare", translation: "להצהיר", pos: "verb", example: { text: "I declare it open.", translation: "אני מכריז על כך כפתוח." } }
+  - { id: "reserve", text: "reserve", translation: "לשמור; להזמין", pos: "verb", example: { text: "I reserve a table.", translation: "אני שומר שולחן." } }
+  - { id: "accuse", text: "accuse", translation: "להאשים", pos: "verb", example: { text: "Don't accuse him.", translation: "אל תאשים אותו." } }
+  - { id: "acknowledge", text: "acknowledge", translation: "להכיר ב", pos: "verb", example: { text: "I acknowledge my mistake.", translation: "אני מכיר בטעות שלי." } }
+  - { id: "settlement", text: "settlement", translation: "הסדר; התיישבות", pos: "noun", example: { text: "They reach a settlement.", translation: "הם מגיעים להסדר." } }
+  - { id: "contrast", text: "contrast", translation: "ניגוד", pos: "noun", example: { text: "In contrast, this one is cheap.", translation: "לעומת זאת, זה זול." } }
+  - { id: "criticism", text: "criticism", translation: "ביקורת", pos: "noun", example: { text: "He accepts criticism well.", translation: "הוא מקבל ביקורת היטב." } }
+  - { id: "resistance", text: "resistance", translation: "התנגדות", pos: "noun", example: { text: "There is little resistance.", translation: "יש מעט התנגדות." } }
+  - { id: "priority", text: "priority", translation: "עדיפות", pos: "noun", example: { text: "Safety is our priority.", translation: "בטיחות היא העדיפות שלנו." } }
+  - { id: "arrangement", text: "arrangement", translation: "סידור; הסדר", pos: "noun", example: { text: "The arrangement is simple.", translation: "הסידור פשוט." } }
 grammar:
   - id: third-conditional
     title: { he: "אילו (אז)… הייתי…: תנאי בעבר", en: "The third conditional" }
@@ -494,3 +512,503 @@ lessons:
             any: ["\\bcompromise\\b", "\\bmeet\\b", "\\bin return\\b", "\\bagree\\b", "\\bdeal\\b"]
         model: "We would like to propose a longer contract with a lower price. In return, we could agree to pay on time every month. If we had known about the extra fees, we would have asked for a different deal. Perhaps we can meet halfway and reach a compromise that works for both sides."
         lexemes: []
+  # ------------------------------------------------------------------ story words
+  - id: u34-n1
+    kind: new
+    title:
+      he: 'היומן של נועה: כספים'
+      en: 'Noa''s diary: finance'
+    exercises:
+    - id: u34-n1-01
+      type: dialogue
+      scene: המשא ומתן עם הבנק מתחיל.
+      lines:
+      - speaker: david
+        text: The bank has a debt of our own. We invest in assets, not in wages.
+        translation: לבנק יש חוב משלנו. אנחנו משקיעים בנכסים, לא בשכר.
+      - speaker: noa
+        text: The retail business is slow. What is the final bid?
+        translation: עסקי הקמעונאות איטיים. מה ההצעה הסופית?
+      - speaker: david
+        text: Ten thousand.
+        translation: עשרת אלפים.
+      - speaker: noa
+        text: Too low.
+        translation: נמוך מדי.
+    - id: u34-n1-02
+      type: learn
+      lexeme: debt
+    - id: u34-n1-03
+      type: learn
+      lexeme: asset
+    - id: u34-n1-04
+      type: learn
+      lexeme: invest
+    - id: u34-n1-05
+      type: learn
+      lexeme: wage
+    - id: u34-n1-06
+      type: learn
+      lexeme: bid
+    - id: u34-n1-07
+      type: learn
+      lexeme: retail
+    - id: u34-n1-08
+      type: match_pairs
+      pairs:
+      - - debt
+        - חוב
+      - - asset
+        - נכס
+      - - invest
+        - להשקיע
+      - - wage
+        - שכר
+      - - bid
+        - הצעת מחיר
+      - - retail
+        - קמעונאות
+      lexemes:
+      - debt
+      - asset
+      - invest
+      - wage
+      - bid
+      - retail
+    - id: u34-n1-09
+      type: multiple_choice
+      prompt: wage – מה הפירוש?
+      options:
+      - שכר
+      - להשקיע
+      - נכס
+      correct: 0
+      lexemes:
+      - wage
+    - id: u34-n1-10
+      type: multiple_choice
+      prompt: debt – מה הפירוש?
+      options:
+      - חוב
+      - להשקיע
+      - נכס
+      correct: 0
+      lexemes:
+      - debt
+    - id: u34-n1-11
+      type: multiple_choice
+      prompt: asset – מה הפירוש?
+      options:
+      - נכס
+      - קמעונאות
+      - הצעת מחיר
+      correct: 0
+      lexemes:
+      - asset
+    - id: u34-n1-12
+      type: fill_blank
+      sentence: We ___ in new tools.
+      translation: אנחנו משקיעים בכלים חדשים.
+      answers:
+      - invest
+      options:
+      - invest
+      - bid
+      - wage
+      lexemes:
+      - invest
+    - id: u34-n1-13
+      type: fill_blank
+      sentence: He works in ___.
+      translation: הוא עובד בקמעונאות.
+      answers:
+      - retail
+      options:
+      - retail
+      - invest
+      - wage
+      lexemes:
+      - retail
+    - id: u34-n1-14
+      type: fill_blank
+      sentence: Their ___ is too low.
+      translation: הצעת המחיר שלהם נמוכה מדי.
+      answers:
+      - bid
+      options:
+      - bid
+      - asset
+      - retail
+      lexemes:
+      - bid
+    - id: u34-n1-15
+      type: word_bank
+      prompt: השכר הוגן.
+      answers:
+      - The wage is fair.
+      distractors:
+      - invest
+      - retail
+      lexemes:
+      - wage
+    - id: u34-n1-16
+      type: word_bank
+      prompt: לחברה יש חוב קטן.
+      answers:
+      - The company has a small debt.
+      distractors:
+      - invest
+      - retail
+      lexemes:
+      - debt
+    - id: u34-n1-17
+      type: listening_choice
+      audioText: This building is a big asset.
+      question: מה שמעתם?
+      options:
+      - הבניין הזה הוא נכס גדול.
+      - לחברה יש חוב קטן.
+      - אנחנו משקיעים בכלים חדשים.
+      correct: 0
+      lexemes:
+      - asset
+    - id: u34-n1-18
+      type: speak_repeat
+      text: We invest in assets, not in debt.
+      translation: אנחנו משקיעים בנכסים, לא בחוב.
+      lexemes:
+      - debt
+      - invest
+  - id: u34-n2
+    kind: new
+    title:
+      he: 'היומן של נועה: להתנגד ולשכנע'
+      en: 'Noa''s diary: opposing and convincing'
+    exercises:
+    - id: u34-n2-01
+      type: dialogue
+      scene: הצדדים מציגים עמדות.
+      lines:
+      - speaker: david
+        text: I oppose this price, but I declare my respect.
+        translation: אני מתנגד למחיר הזה, אבל אני מצהיר על כבודי.
+      - speaker: noa
+        text: Let me convince you. I reserve the right to wait.
+        translation: תן לי לשכנע אותך. אני שומרת לעצמי את הזכות לחכות.
+      - speaker: david
+        text: Do you acknowledge that the market changed?
+        translation: את מכירה בכך שהשוק השתנה?
+      - speaker: noa
+        text: Yes, and I accuse no one.
+        translation: כן, ואני לא מאשימה אף אחד.
+    - id: u34-n2-02
+      type: learn
+      lexeme: oppose
+    - id: u34-n2-03
+      type: learn
+      lexeme: convince
+    - id: u34-n2-04
+      type: learn
+      lexeme: declare
+    - id: u34-n2-05
+      type: learn
+      lexeme: reserve
+    - id: u34-n2-06
+      type: learn
+      lexeme: accuse
+    - id: u34-n2-07
+      type: learn
+      lexeme: acknowledge
+    - id: u34-n2-08
+      type: match_pairs
+      pairs:
+      - - oppose
+        - להתנגד
+      - - convince
+        - לשכנע
+      - - declare
+        - להצהיר
+      - - reserve
+        - לשמור; להזמין
+      - - accuse
+        - להאשים
+      - - acknowledge
+        - להכיר ב
+      lexemes:
+      - oppose
+      - convince
+      - declare
+      - reserve
+      - accuse
+      - acknowledge
+    - id: u34-n2-09
+      type: multiple_choice
+      prompt: reserve – מה הפירוש?
+      options:
+      - לשמור; להזמין
+      - להכיר ב
+      - להתנגד
+      correct: 0
+      lexemes:
+      - reserve
+    - id: u34-n2-10
+      type: multiple_choice
+      prompt: accuse – מה הפירוש?
+      options:
+      - להאשים
+      - להתנגד
+      - להכיר ב
+      correct: 0
+      lexemes:
+      - accuse
+    - id: u34-n2-11
+      type: multiple_choice
+      prompt: acknowledge – מה הפירוש?
+      options:
+      - להכיר ב
+      - להאשים
+      - לשכנע
+      correct: 0
+      lexemes:
+      - acknowledge
+    - id: u34-n2-12
+      type: fill_blank
+      sentence: I ___ it open.
+      translation: אני מכריז על כך כפתוח.
+      answers:
+      - declare
+      options:
+      - declare
+      - reserve
+      - convince
+      lexemes:
+      - declare
+    - id: u34-n2-13
+      type: fill_blank
+      sentence: We ___ the new rule.
+      translation: אנחנו מתנגדים לכלל החדש.
+      answers:
+      - oppose
+      options:
+      - oppose
+      - acknowledge
+      - reserve
+      lexemes:
+      - oppose
+    - id: u34-n2-14
+      type: fill_blank
+      sentence: I can ___ him.
+      translation: אני יכול לשכנע אותו.
+      answers:
+      - convince
+      options:
+      - convince
+      - acknowledge
+      - declare
+      lexemes:
+      - convince
+    - id: u34-n2-15
+      type: word_bank
+      prompt: אני שומר שולחן.
+      answers:
+      - I reserve a table.
+      distractors:
+      - acknowledge
+      - oppose
+      lexemes:
+      - reserve
+    - id: u34-n2-16
+      type: word_bank
+      prompt: אל תאשים אותו.
+      answers:
+      - Don't accuse him.
+      distractors:
+      - acknowledge
+      - reserve
+      lexemes:
+      - accuse
+    - id: u34-n2-17
+      type: listening_choice
+      audioText: I acknowledge my mistake.
+      question: מה שמעתם?
+      options:
+      - אני מכיר בטעות שלי.
+      - אנחנו מתנגדים לכלל החדש.
+      - אני יכול לשכנע אותו.
+      correct: 0
+      lexemes:
+      - acknowledge
+    - id: u34-n2-18
+      type: speak_repeat
+      text: I oppose the price, but I acknowledge your point.
+      translation: אני מתנגדת למחיר, אבל אני מכירה בטענה שלך.
+      lexemes:
+      - oppose
+      - acknowledge
+  - id: u34-n3
+    kind: new
+    title:
+      he: 'היומן של נועה: הסדר'
+      en: 'Noa''s diary: the arrangement'
+    exercises:
+    - id: u34-n3-01
+      type: dialogue
+      scene: הסכם בהישג יד.
+      lines:
+      - speaker: noa
+        text: Our priority is a fair settlement. Criticism helps.
+        translation: העדיפות שלנו היא הסדר הוגן. ביקורת עוזרת.
+      - speaker: david
+        text: In contrast to last year, the resistance is smaller.
+        translation: בניגוד לשנה שעברה, ההתנגדות קטנה יותר.
+      - speaker: noa
+        text: Can we arrange another meeting?
+        translation: אפשר לתאם פגישה נוספת?
+      - speaker: david
+        text: Sunday.
+        translation: ביום ראשון.
+    - id: u34-n3-02
+      type: learn
+      lexeme: settlement
+    - id: u34-n3-03
+      type: learn
+      lexeme: contrast
+    - id: u34-n3-04
+      type: learn
+      lexeme: criticism
+    - id: u34-n3-05
+      type: learn
+      lexeme: resistance
+    - id: u34-n3-06
+      type: learn
+      lexeme: priority
+    - id: u34-n3-07
+      type: learn
+      lexeme: arrangement
+    - id: u34-n3-08
+      type: match_pairs
+      pairs:
+      - - settlement
+        - הסדר; התיישבות
+      - - contrast
+        - ניגוד
+      - - criticism
+        - ביקורת
+      - - resistance
+        - התנגדות
+      - - priority
+        - עדיפות
+      - - arrangement
+        - סידור; הסדר
+      lexemes:
+      - settlement
+      - contrast
+      - criticism
+      - resistance
+      - priority
+      - arrangement
+    - id: u34-n3-09
+      type: multiple_choice
+      prompt: arrangement – מה הפירוש?
+      options:
+      - סידור; הסדר
+      - הסדר; התיישבות
+      - ניגוד
+      correct: 0
+      lexemes:
+      - arrangement
+    - id: u34-n3-10
+      type: multiple_choice
+      prompt: contrast – מה הפירוש?
+      options:
+      - ניגוד
+      - הסדר; התיישבות
+      - עדיפות
+      correct: 0
+      lexemes:
+      - contrast
+    - id: u34-n3-11
+      type: multiple_choice
+      prompt: priority – מה הפירוש?
+      options:
+      - עדיפות
+      - ביקורת
+      - ניגוד
+      correct: 0
+      lexemes:
+      - priority
+    - id: u34-n3-12
+      type: fill_blank
+      sentence: He accepts ___ well.
+      translation: הוא מקבל ביקורת היטב.
+      answers:
+      - criticism
+      options:
+      - criticism
+      - arrangement
+      - settlement
+      lexemes:
+      - criticism
+    - id: u34-n3-13
+      type: fill_blank
+      sentence: They reach a ___.
+      translation: הם מגיעים להסדר.
+      answers:
+      - settlement
+      options:
+      - settlement
+      - criticism
+      - priority
+      lexemes:
+      - settlement
+    - id: u34-n3-14
+      type: fill_blank
+      sentence: There is little ___.
+      translation: יש מעט התנגדות.
+      answers:
+      - resistance
+      options:
+      - resistance
+      - contrast
+      - criticism
+      lexemes:
+      - resistance
+    - id: u34-n3-15
+      type: word_bank
+      prompt: הסידור פשוט.
+      answers:
+      - The arrangement is simple.
+      distractors:
+      - contrast
+      - resistance
+      lexemes:
+      - arrangement
+    - id: u34-n3-16
+      type: word_bank
+      prompt: לעומת זאת, זה זול.
+      answers:
+      - In contrast, this one is cheap.
+      distractors:
+      - settlement
+      - resistance
+      lexemes:
+      - contrast
+    - id: u34-n3-17
+      type: listening_choice
+      audioText: Safety is our priority.
+      question: מה שמעתם?
+      options:
+      - בטיחות היא העדיפות שלנו.
+      - הם מגיעים להסדר.
+      - לעומת זאת, זה זול.
+      correct: 0
+      lexemes:
+      - priority
+    - id: u34-n3-18
+      type: speak_repeat
+      text: Our priority is a settlement without resistance.
+      translation: העדיפות שלנו היא הסדר בלי התנגדות.
+      lexemes:
+      - settlement
+      - resistance
+      - priority

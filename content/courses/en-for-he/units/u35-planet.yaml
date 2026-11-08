@@ -33,6 +33,24 @@ vocabulary:
   - { id: "will-have-done", text: "will have + V3", translation: "כבר יסיים עד… (עתיד מושלם)", pos: "phrase", pronunciation: "ווִיל הֶב", example: { text: "By 2030 we will have planted a million trees.", translation: "עד 2030 כבר נטע מיליון עצים." } }
   - { id: "by-the-time", text: "by the time", translation: "עד שכש…", pos: "phrase", pronunciation: "בַּיי דֶ'ה טַיים" }
 
+  - { id: "planet", text: "planet", translation: "כוכב לכת", pos: "noun", example: { text: "Earth is our planet.", translation: "כדור הארץ הוא כוכב הלכת שלנו." } }
+  - { id: "carbon", text: "carbon", translation: "פחמן", pos: "noun", example: { text: "Cars produce carbon.", translation: "מכוניות מייצרות פחמן." } }
+  - { id: "chemical", text: "chemical", translation: "כימי", pos: "adjective", example: { text: "This is a chemical product.", translation: "זה מוצר כימי." } }
+  - { id: "environmental", text: "environmental", translation: "סביבתי", pos: "adjective", example: { text: "It is an environmental issue.", translation: "זה נושא סביבתי." } }
+  - { id: "nuclear", text: "nuclear", translation: "גרעיני", pos: "adjective", example: { text: "Nuclear power is strong.", translation: "כוח גרעיני חזק." } }
+  - { id: "industrial", text: "industrial", translation: "תעשייתי", pos: "adjective", example: { text: "It is an industrial area.", translation: "זה אזור תעשייה." } }
+  - { id: "flood", text: "flood", translation: "שיטפון", pos: "noun", example: { text: "The flood closed the road.", translation: "השיטפון סגר את הכביש." } }
+  - { id: "cloud", text: "cloud", translation: "ענן", pos: "noun", example: { text: "A cloud is above us.", translation: "ענן נמצא מעלינו." } }
+  - { id: "flower", text: "flower", translation: "פרח", pos: "noun", example: { text: "I buy a flower for the table.", translation: "אני קונה פרח לשולחן." } }
+  - { id: "seed", text: "seed", translation: "זרע", pos: "noun", example: { text: "The seed is very small.", translation: "הזרע קטן מאוד." } }
+  - { id: "root", text: "root", translation: "שורש", pos: "noun", example: { text: "The root is deep.", translation: "השורש עמוק." } }
+  - { id: "branch", text: "branch", translation: "ענף; סניף", pos: "noun", example: { text: "A bird sits on the branch.", translation: "ציפור יושבת על הענף." } }
+  - { id: "generate", text: "generate", translation: "לייצר", pos: "verb", example: { text: "Solar panels generate power.", translation: "פאנלים סולריים מייצרים חשמל." } }
+  - { id: "preserve", text: "preserve", translation: "לשמר", pos: "verb", example: { text: "We preserve old buildings.", translation: "אנחנו שומרים על בניינים ישנים." } }
+  - { id: "recovery", text: "recovery", translation: "התאוששות", pos: "noun", example: { text: "His recovery is fast.", translation: "ההתאוששות שלו מהירה." } }
+  - { id: "reverse", text: "reverse", translation: "להפוך; לשנות כיוון", pos: "verb", example: { text: "We cannot reverse the decision.", translation: "אנחנו לא יכולים להפוך את ההחלטה." } }
+  - { id: "expansion", text: "expansion", translation: "התרחבות", pos: "noun", example: { text: "The expansion starts next year.", translation: "ההתרחבות מתחילה בשנה הבאה." } }
+  - { id: "sustain", text: "sustain", translation: "לקיים", pos: "verb", example: { text: "We sustain the project with small funds.", translation: "אנחנו מקיימים את הפרויקט בכספים קטנים." } }
 grammar:
   - id: future-continuous-perfect
     title: { he: "עתיד ממושך ועתיד מושלם", en: "Future continuous and future perfect" }
@@ -455,3 +473,503 @@ lessons:
             any: ["\\bby 20\\d\\d\\b", "\\bin (twenty|ten|thirty) years\\b", "\\bin the future\\b"]
         model: "In twenty years, most cars will be running on electricity, and many families will be producing their own solar energy. By 2045 we will have reduced plastic waste, I hope, and cities will be greener. Climate change will remain a challenge, but I believe people will have learned to cooperate."
         lexemes: []
+  # ------------------------------------------------------------------ story words
+  - id: u35-n1
+    kind: new
+    title:
+      he: 'היומן של נועה: כדור הארץ'
+      en: 'Noa''s diary: the planet'
+    exercises:
+    - id: u35-n1-01
+      type: dialogue
+      scene: ישיבה על אסטרטגיית הקיימות.
+      lines:
+      - speaker: eli
+        text: Our planet needs less carbon and fewer chemical products.
+        translation: כדור הארץ שלנו צריך פחות פחמן ופחות מוצרים כימיים.
+      - speaker: noa
+        text: The environmental report says industrial waste is the main issue.
+        translation: הדוח הסביבתי אומר שפסולת תעשייתית היא הנושא המרכזי.
+      - speaker: ben
+        text: Nuclear power is a debate on its own.
+        translation: אנרגיה גרעינית היא דיון בפני עצמו.
+      - speaker: noa
+        text: Let's start small.
+        translation: בואו נתחיל בקטן.
+    - id: u35-n1-02
+      type: learn
+      lexeme: planet
+    - id: u35-n1-03
+      type: learn
+      lexeme: carbon
+    - id: u35-n1-04
+      type: learn
+      lexeme: chemical
+    - id: u35-n1-05
+      type: learn
+      lexeme: environmental
+    - id: u35-n1-06
+      type: learn
+      lexeme: nuclear
+    - id: u35-n1-07
+      type: learn
+      lexeme: industrial
+    - id: u35-n1-08
+      type: match_pairs
+      pairs:
+      - - planet
+        - כוכב לכת
+      - - carbon
+        - פחמן
+      - - chemical
+        - כימי
+      - - environmental
+        - סביבתי
+      - - nuclear
+        - גרעיני
+      - - industrial
+        - תעשייתי
+      lexemes:
+      - planet
+      - carbon
+      - chemical
+      - environmental
+      - nuclear
+      - industrial
+    - id: u35-n1-09
+      type: multiple_choice
+      prompt: industrial – מה הפירוש?
+      options:
+      - תעשייתי
+      - גרעיני
+      - כימי
+      correct: 0
+      lexemes:
+      - industrial
+    - id: u35-n1-10
+      type: multiple_choice
+      prompt: planet – מה הפירוש?
+      options:
+      - כוכב לכת
+      - סביבתי
+      - תעשייתי
+      correct: 0
+      lexemes:
+      - planet
+    - id: u35-n1-11
+      type: multiple_choice
+      prompt: nuclear – מה הפירוש?
+      options:
+      - גרעיני
+      - כוכב לכת
+      - פחמן
+      correct: 0
+      lexemes:
+      - nuclear
+    - id: u35-n1-12
+      type: fill_blank
+      sentence: Cars produce ___.
+      translation: מכוניות מייצרות פחמן.
+      answers:
+      - carbon
+      options:
+      - carbon
+      - planet
+      - chemical
+      lexemes:
+      - carbon
+    - id: u35-n1-13
+      type: fill_blank
+      sentence: It is an ___ issue.
+      translation: זה נושא סביבתי.
+      answers:
+      - environmental
+      options:
+      - environmental
+      - industrial
+      - carbon
+      lexemes:
+      - environmental
+    - id: u35-n1-14
+      type: fill_blank
+      sentence: This is a ___ product.
+      translation: זה מוצר כימי.
+      answers:
+      - chemical
+      options:
+      - chemical
+      - carbon
+      - industrial
+      lexemes:
+      - chemical
+    - id: u35-n1-15
+      type: word_bank
+      prompt: זה אזור תעשייה.
+      answers:
+      - It is an industrial area.
+      distractors:
+      - nuclear
+      - environmental
+      lexemes:
+      - industrial
+    - id: u35-n1-16
+      type: word_bank
+      prompt: כדור הארץ הוא כוכב הלכת שלנו.
+      answers:
+      - Earth is our planet.
+      distractors:
+      - environmental
+      - chemical
+      lexemes:
+      - planet
+    - id: u35-n1-17
+      type: listening_choice
+      audioText: Nuclear power is strong.
+      question: מה שמעתם?
+      options:
+      - כוח גרעיני חזק.
+      - כדור הארץ הוא כוכב הלכת שלנו.
+      - מכוניות מייצרות פחמן.
+      correct: 0
+      lexemes:
+      - nuclear
+    - id: u35-n1-18
+      type: speak_repeat
+      text: The planet needs less carbon.
+      translation: כדור הארץ צריך פחות פחמן.
+      lexemes:
+      - planet
+      - carbon
+  - id: u35-n2
+    kind: new
+    title:
+      he: 'היומן של נועה: הטבע'
+      en: 'Noa''s diary: nature'
+    exercises:
+    - id: u35-n2-01
+      type: dialogue
+      scene: נועה ואלי מטפחים גינה על גג המשרד.
+      lines:
+      - speaker: eli
+        text: Plant the seed here. The root needs water.
+        translation: שתלי את הזרע כאן. השורש צריך מים.
+      - speaker: noa
+        text: This flower grows on a branch of the old tree.
+        translation: הפרח הזה צומח על ענף של העץ הישן.
+      - speaker: eli
+        text: The flood last winter hurt the garden. A cloud came and stayed.
+        translation: השיטפון בחורף שעבר פגע בגינה. ענן בא ונשאר.
+      - speaker: noa
+        text: This year is better.
+        translation: השנה זה טוב יותר.
+    - id: u35-n2-02
+      type: learn
+      lexeme: flood
+    - id: u35-n2-03
+      type: learn
+      lexeme: cloud
+    - id: u35-n2-04
+      type: learn
+      lexeme: flower
+    - id: u35-n2-05
+      type: learn
+      lexeme: seed
+    - id: u35-n2-06
+      type: learn
+      lexeme: root
+    - id: u35-n2-07
+      type: learn
+      lexeme: branch
+    - id: u35-n2-08
+      type: match_pairs
+      pairs:
+      - - flood
+        - שיטפון
+      - - cloud
+        - ענן
+      - - flower
+        - פרח
+      - - seed
+        - זרע
+      - - root
+        - שורש
+      - - branch
+        - ענף; סניף
+      lexemes:
+      - flood
+      - cloud
+      - flower
+      - seed
+      - root
+      - branch
+    - id: u35-n2-09
+      type: multiple_choice
+      prompt: cloud – מה הפירוש?
+      options:
+      - ענן
+      - שיטפון
+      - זרע
+      correct: 0
+      lexemes:
+      - cloud
+    - id: u35-n2-10
+      type: multiple_choice
+      prompt: branch – מה הפירוש?
+      options:
+      - ענף; סניף
+      - פרח
+      - ענן
+      correct: 0
+      lexemes:
+      - branch
+    - id: u35-n2-11
+      type: multiple_choice
+      prompt: seed – מה הפירוש?
+      options:
+      - זרע
+      - פרח
+      - ענן
+      correct: 0
+      lexemes:
+      - seed
+    - id: u35-n2-12
+      type: fill_blank
+      sentence: The ___ is deep.
+      translation: השורש עמוק.
+      answers:
+      - root
+      options:
+      - root
+      - seed
+      - cloud
+      lexemes:
+      - root
+    - id: u35-n2-13
+      type: fill_blank
+      sentence: The ___ closed the road.
+      translation: השיטפון סגר את הכביש.
+      answers:
+      - flood
+      options:
+      - flood
+      - root
+      - flower
+      lexemes:
+      - flood
+    - id: u35-n2-14
+      type: fill_blank
+      sentence: I buy a ___ for the table.
+      translation: אני קונה פרח לשולחן.
+      answers:
+      - flower
+      options:
+      - flower
+      - flood
+      - branch
+      lexemes:
+      - flower
+    - id: u35-n2-15
+      type: word_bank
+      prompt: ענן נמצא מעלינו.
+      answers:
+      - A cloud is above us.
+      distractors:
+      - branch
+      - flower
+      lexemes:
+      - cloud
+    - id: u35-n2-16
+      type: word_bank
+      prompt: ציפור יושבת על הענף.
+      answers:
+      - A bird sits on the branch.
+      distractors:
+      - cloud
+      - flower
+      lexemes:
+      - branch
+    - id: u35-n2-17
+      type: listening_choice
+      audioText: The seed is very small.
+      question: מה שמעתם?
+      options:
+      - הזרע קטן מאוד.
+      - השיטפון סגר את הכביש.
+      - ענן נמצא מעלינו.
+      correct: 0
+      lexemes:
+      - seed
+    - id: u35-n2-18
+      type: speak_repeat
+      text: The seed has a root and a branch.
+      translation: לזרע יש שורש וענף.
+      lexemes:
+      - seed
+      - root
+      - branch
+  - id: u35-n3
+    kind: new
+    title:
+      he: 'היומן של נועה: לשמור לעתיד'
+      en: 'Noa''s diary: preserving for the future'
+    exercises:
+    - id: u35-n3-01
+      type: dialogue
+      scene: החברה מציגה תוכנית ירוקה.
+      lines:
+      - speaker: ben
+        text: We generate power from the sun. We preserve water and reverse the waste.
+        translation: אנחנו מייצרים חשמל מהשמש. אנחנו שומרים על מים והופכים את הפסולת.
+      - speaker: noa
+        text: Recovery takes time. Expansion must be slow.
+        translation: התאוששות לוקחת זמן. ההתרחבות חייבת להיות איטית.
+      - speaker: ben
+        text: Agreed.
+        translation: מסכים.
+      - speaker: noa
+        text: In ten years we will see.
+        translation: בעוד עשר שנים נראה.
+    - id: u35-n3-02
+      type: learn
+      lexeme: generate
+    - id: u35-n3-03
+      type: learn
+      lexeme: preserve
+    - id: u35-n3-04
+      type: learn
+      lexeme: recovery
+    - id: u35-n3-05
+      type: learn
+      lexeme: reverse
+    - id: u35-n3-06
+      type: learn
+      lexeme: expansion
+    - id: u35-n3-07
+      type: learn
+      lexeme: sustain
+    - id: u35-n3-08
+      type: match_pairs
+      pairs:
+      - - generate
+        - לייצר
+      - - preserve
+        - לשמר
+      - - recovery
+        - התאוששות
+      - - reverse
+        - להפוך; לשנות כיוון
+      - - expansion
+        - התרחבות
+      - - sustain
+        - לקיים
+      lexemes:
+      - generate
+      - preserve
+      - recovery
+      - reverse
+      - expansion
+      - sustain
+    - id: u35-n3-09
+      type: multiple_choice
+      prompt: generate – מה הפירוש?
+      options:
+      - לייצר
+      - להפוך; לשנות כיוון
+      - התאוששות
+      correct: 0
+      lexemes:
+      - generate
+    - id: u35-n3-10
+      type: multiple_choice
+      prompt: preserve – מה הפירוש?
+      options:
+      - לשמר
+      - התרחבות
+      - התאוששות
+      correct: 0
+      lexemes:
+      - preserve
+    - id: u35-n3-11
+      type: multiple_choice
+      prompt: expansion – מה הפירוש?
+      options:
+      - התרחבות
+      - התאוששות
+      - לייצר
+      correct: 0
+      lexemes:
+      - expansion
+    - id: u35-n3-12
+      type: fill_blank
+      sentence: His ___ is fast.
+      translation: ההתאוששות שלו מהירה.
+      answers:
+      - recovery
+      options:
+      - recovery
+      - reverse
+      - generate
+      lexemes:
+      - recovery
+    - id: u35-n3-13
+      type: fill_blank
+      sentence: We ___ the project with small funds.
+      translation: אנחנו מקיימים את הפרויקט בכספים קטנים.
+      answers:
+      - sustain
+      options:
+      - sustain
+      - preserve
+      - reverse
+      lexemes:
+      - sustain
+    - id: u35-n3-14
+      type: fill_blank
+      sentence: We cannot ___ the decision.
+      translation: אנחנו לא יכולים להפוך את ההחלטה.
+      answers:
+      - reverse
+      options:
+      - reverse
+      - preserve
+      - expansion
+      lexemes:
+      - reverse
+    - id: u35-n3-15
+      type: word_bank
+      prompt: פאנלים סולריים מייצרים חשמל.
+      answers:
+      - Solar panels generate power.
+      distractors:
+      - recovery
+      - sustain
+      lexemes:
+      - generate
+    - id: u35-n3-16
+      type: word_bank
+      prompt: אנחנו שומרים על בניינים ישנים.
+      answers:
+      - We preserve old buildings.
+      distractors:
+      - expansion
+      - reverse
+      lexemes:
+      - preserve
+    - id: u35-n3-17
+      type: listening_choice
+      audioText: The expansion starts next year.
+      question: מה שמעתם?
+      options:
+      - ההתרחבות מתחילה בשנה הבאה.
+      - פאנלים סולריים מייצרים חשמל.
+      - אנחנו שומרים על בניינים ישנים.
+      correct: 0
+      lexemes:
+      - expansion
+    - id: u35-n3-18
+      type: speak_repeat
+      text: We generate power and preserve the planet.
+      translation: אנחנו מייצרים חשמל ושומרים על כדור הארץ.
+      lexemes:
+      - generate
+      - preserve

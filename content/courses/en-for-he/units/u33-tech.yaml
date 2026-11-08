@@ -33,6 +33,24 @@ vocabulary:
   - { id: "on-one-hand", text: "on the one hand", translation: "מצד אחד", pos: "phrase", pronunciation: "אוֹן דֶ'ה וַאן הֶנְד" }
   - { id: "raise-concerns", text: "raise concerns", translation: "לעורר חששות", pos: "phrase", pronunciation: "רֵייז קוֹנְסֶרְנְז" }
 
+  - { id: "web", text: "web", translation: "רשת; אינטרנט", pos: "noun", example: { text: "I search the web for news.", translation: "אני מחפש חדשות ברשת." } }
+  - { id: "blog", text: "blog", translation: "בלוג", pos: "noun", example: { text: "She writes a blog about food.", translation: "היא כותבת בלוג על אוכל." } }
+  - { id: "chat", text: "chat", translation: "שיחה; צ'אט", pos: "noun", example: { text: "We chat for ten minutes.", translation: "אנחנו משוחחים עשר דקות." } }
+  - { id: "log", text: "log", translation: "יומן; רישום", pos: "noun", example: { text: "Check the log for errors.", translation: "בדוק ביומן אם יש שגיאות." } }
+  - { id: "storage", text: "storage", translation: "אחסון", pos: "noun", example: { text: "I need more storage.", translation: "אני צריך עוד אחסון." } }
+  - { id: "convert", text: "convert", translation: "להמיר", pos: "verb", example: { text: "Convert the file to PDF.", translation: "המר את הקובץ ל־PDF." } }
+  - { id: "stream", text: "stream", translation: "זרם; לשדר", pos: "noun", example: { text: "We watch the stream together.", translation: "אנחנו צופים בשידור יחד." } }
+  - { id: "net", text: "net", translation: "רשת", pos: "noun", example: { text: "The net is down.", translation: "הרשת למטה." } }
+  - { id: "distribution", text: "distribution", translation: "חלוקה; הפצה", pos: "noun", example: { text: "The distribution is fair.", translation: "החלוקה הוגנת." } }
+  - { id: "wire", text: "wire", translation: "חוט", pos: "noun", example: { text: "The wire is broken.", translation: "החוט שבור." } }
+  - { id: "cable", text: "cable", translation: "כבל", pos: "noun", example: { text: "Plug in the cable.", translation: "חבר את הכבל." } }
+  - { id: "tech", text: "tech", translation: "טכנולוגיה (מקוצר)", pos: "noun", example: { text: "He works in tech.", translation: "הוא עובד בהיי־טק." } }
+  - { id: "threaten", text: "threaten", translation: "לאיים", pos: "verb", example: { text: "The storm may threaten the roof.", translation: "הסערה עלולה לאיים על הגג." } }
+  - { id: "expose", text: "expose", translation: "לחשוף", pos: "verb", example: { text: "Don't expose private data.", translation: "אל תחשוף נתונים פרטיים." } }
+  - { id: "suspect", text: "suspect", translation: "לחשוד", pos: "verb", example: { text: "I suspect a mistake.", translation: "אני חושד בטעות." } }
+  - { id: "illegal", text: "illegal", translation: "לא חוקי", pos: "adjective", example: { text: "It is illegal to copy this file.", translation: "אסור לפי החוק להעתיק את הקובץ הזה." } }
+  - { id: "license", text: "license", translation: "רישיון", pos: "noun", example: { text: "He has a driving license.", translation: "יש לו רישיון נהיגה." } }
+  - { id: "defend", text: "defend", translation: "להגן", pos: "verb", example: { text: "We defend our data.", translation: "אנחנו מגינים על הנתונים שלנו." } }
 grammar:
   - id: causative-passive
     title: { he: "תיקנתי (אצל מישהו): have something done", en: "Causative and advanced passive" }
@@ -500,3 +518,502 @@ lessons:
             any: ["\\bon the one hand\\b", "\\badvantage", "\\bdisadvantage", "\\bbenefit", "\\brisk\\b", "\\bdanger"]
         model: "I believe social media has both benefits and risks. It lets us keep in touch with friends, and I had my photos shared with relatives abroad. On the other hand, our data is collected by companies, which is a danger. In my opinion, we should read the rules carefully before we agree to anything."
         lexemes: []
+  # ------------------------------------------------------------------ story words
+  - id: u33-n1
+    kind: new
+    title:
+      he: 'היומן של נועה: ברשת'
+      en: 'Noa''s diary: online'
+    exercises:
+    - id: u33-n1-01
+      type: dialogue
+      scene: הצוות מתקן את החשבון של בן.
+      lines:
+      - speaker: ben
+        text: My web account sends a strange chat message every night.
+        translation: חשבון הרשת שלי שולח הודעת צ'אט מוזרה כל לילה.
+      - speaker: noa
+        text: Check the log. Maybe a blog link opens it.
+        translation: בדוק את היומן. אולי קישור בבלוג פותח אותו.
+      - speaker: ben
+        text: The storage looks fine. I convert the file to another format.
+        translation: האחסון נראה תקין. אני ממיר את הקובץ לפורמט אחר.
+      - speaker: noa
+        text: Change the password too.
+        translation: תחליף גם סיסמה.
+    - id: u33-n1-02
+      type: learn
+      lexeme: web
+    - id: u33-n1-03
+      type: learn
+      lexeme: blog
+    - id: u33-n1-04
+      type: learn
+      lexeme: chat
+    - id: u33-n1-05
+      type: learn
+      lexeme: log
+    - id: u33-n1-06
+      type: learn
+      lexeme: storage
+    - id: u33-n1-07
+      type: learn
+      lexeme: convert
+    - id: u33-n1-08
+      type: match_pairs
+      pairs:
+      - - web
+        - רשת; אינטרנט
+      - - blog
+        - בלוג
+      - - chat
+        - שיחה; צ'אט
+      - - log
+        - יומן; רישום
+      - - storage
+        - אחסון
+      - - convert
+        - להמיר
+      lexemes:
+      - web
+      - blog
+      - chat
+      - log
+      - storage
+      - convert
+    - id: u33-n1-09
+      type: multiple_choice
+      prompt: chat – מה הפירוש?
+      options:
+      - שיחה; צ'אט
+      - אחסון
+      - בלוג
+      correct: 0
+      lexemes:
+      - chat
+    - id: u33-n1-10
+      type: multiple_choice
+      prompt: log – מה הפירוש?
+      options:
+      - יומן; רישום
+      - בלוג
+      - רשת; אינטרנט
+      correct: 0
+      lexemes:
+      - log
+    - id: u33-n1-11
+      type: multiple_choice
+      prompt: convert – מה הפירוש?
+      options:
+      - להמיר
+      - רשת; אינטרנט
+      - שיחה; צ'אט
+      correct: 0
+      lexemes:
+      - convert
+    - id: u33-n1-12
+      type: fill_blank
+      sentence: I need more ___.
+      translation: אני צריך עוד אחסון.
+      answers:
+      - storage
+      options:
+      - storage
+      - web
+      - convert
+      lexemes:
+      - storage
+    - id: u33-n1-13
+      type: fill_blank
+      sentence: I search the ___ for news.
+      translation: אני מחפש חדשות ברשת.
+      answers:
+      - web
+      options:
+      - web
+      - chat
+      - storage
+      lexemes:
+      - web
+    - id: u33-n1-14
+      type: fill_blank
+      sentence: She writes a ___ about food.
+      translation: היא כותבת בלוג על אוכל.
+      answers:
+      - blog
+      options:
+      - blog
+      - storage
+      - web
+      lexemes:
+      - blog
+    - id: u33-n1-15
+      type: word_bank
+      prompt: אנחנו משוחחים עשר דקות.
+      answers:
+      - We chat for ten minutes.
+      distractors:
+      - storage
+      - blog
+      lexemes:
+      - chat
+    - id: u33-n1-16
+      type: word_bank
+      prompt: בדוק ביומן אם יש שגיאות.
+      answers:
+      - Check the log for errors.
+      distractors:
+      - chat
+      - convert
+      lexemes:
+      - log
+    - id: u33-n1-17
+      type: listening_choice
+      audioText: Convert the file to PDF.
+      question: מה שמעתם?
+      options:
+      - המר את הקובץ ל־PDF.
+      - אני מחפש חדשות ברשת.
+      - היא כותבת בלוג על אוכל.
+      correct: 0
+      lexemes:
+      - convert
+    - id: u33-n1-18
+      type: speak_repeat
+      text: I convert the file and check the log.
+      translation: אני ממירה את הקובץ ובודקת את היומן.
+      lexemes:
+      - log
+      - convert
+  - id: u33-n2
+    kind: new
+    title:
+      he: 'היומן של נועה: זרימה ורשתות'
+      en: 'Noa''s diary: stream and networks'
+    exercises:
+    - id: u33-n2-01
+      type: dialogue
+      scene: דיון בצוות על השימוש בטכנולוגיה.
+      lines:
+      - speaker: tamar
+        text: The video stream uses the net all day.
+        translation: שידור הווידאו משתמש ברשת כל היום.
+      - speaker: david
+        text: The distribution of the cable is old. The wire is the problem.
+        translation: החלוקה של הכבלים ישנה. החוט הוא הבעיה.
+      - speaker: noa
+        text: The new tech company will update it.
+        translation: חברת הטכנולוגיה החדשה תעדכן את זה.
+      - speaker: david
+        text: Finally.
+        translation: סוף סוף.
+    - id: u33-n2-02
+      type: learn
+      lexeme: stream
+    - id: u33-n2-03
+      type: learn
+      lexeme: net
+    - id: u33-n2-04
+      type: learn
+      lexeme: distribution
+    - id: u33-n2-05
+      type: learn
+      lexeme: wire
+    - id: u33-n2-06
+      type: learn
+      lexeme: cable
+    - id: u33-n2-07
+      type: learn
+      lexeme: tech
+    - id: u33-n2-08
+      type: match_pairs
+      pairs:
+      - - stream
+        - זרם; לשדר
+      - - net
+        - רשת
+      - - distribution
+        - חלוקה; הפצה
+      - - wire
+        - חוט
+      - - cable
+        - כבל
+      - - tech
+        - טכנולוגיה (מקוצר)
+      lexemes:
+      - stream
+      - net
+      - distribution
+      - wire
+      - cable
+      - tech
+    - id: u33-n2-09
+      type: multiple_choice
+      prompt: net – מה הפירוש?
+      options:
+      - רשת
+      - כבל
+      - טכנולוגיה (מקוצר)
+      correct: 0
+      lexemes:
+      - net
+    - id: u33-n2-10
+      type: multiple_choice
+      prompt: wire – מה הפירוש?
+      options:
+      - חוט
+      - כבל
+      - חלוקה; הפצה
+      correct: 0
+      lexemes:
+      - wire
+    - id: u33-n2-11
+      type: multiple_choice
+      prompt: stream – מה הפירוש?
+      options:
+      - זרם; לשדר
+      - טכנולוגיה (מקוצר)
+      - רשת
+      correct: 0
+      lexemes:
+      - stream
+    - id: u33-n2-12
+      type: fill_blank
+      sentence: Plug in the ___.
+      translation: חבר את הכבל.
+      answers:
+      - cable
+      options:
+      - cable
+      - distribution
+      - stream
+      lexemes:
+      - cable
+    - id: u33-n2-13
+      type: fill_blank
+      sentence: The ___ is fair.
+      translation: החלוקה הוגנת.
+      answers:
+      - distribution
+      options:
+      - distribution
+      - wire
+      - stream
+      lexemes:
+      - distribution
+    - id: u33-n2-14
+      type: fill_blank
+      sentence: He works in ___.
+      translation: הוא עובד בהיי־טק.
+      answers:
+      - tech
+      options:
+      - tech
+      - stream
+      - cable
+      lexemes:
+      - tech
+    - id: u33-n2-15
+      type: word_bank
+      prompt: הרשת למטה.
+      answers:
+      - The net is down.
+      distractors:
+      - tech
+      - wire
+      lexemes:
+      - net
+    - id: u33-n2-16
+      type: word_bank
+      prompt: החוט שבור.
+      answers:
+      - The wire is broken.
+      distractors:
+      - stream
+      - distribution
+      lexemes:
+      - wire
+    - id: u33-n2-17
+      type: listening_choice
+      audioText: We watch the stream together.
+      question: מה שמעתם?
+      options:
+      - אנחנו צופים בשידור יחד.
+      - הרשת למטה.
+      - החלוקה הוגנת.
+      correct: 0
+      lexemes:
+      - stream
+    - id: u33-n2-18
+      type: speak_repeat
+      text: The cable and the wire are the problem.
+      translation: הכבל והחוט הם הבעיה.
+      lexemes:
+      - wire
+      - cable
+  - id: u33-n3
+    kind: new
+    title:
+      he: 'היומן של נועה: פרטיות ואיומים'
+      en: 'Noa''s diary: privacy and threats'
+    exercises:
+    - id: u33-n3-01
+      type: dialogue
+      scene: הצוות מדבר על פרצות אבטחה.
+      lines:
+      - speaker: noa
+        text: A hacker can threaten our data. It is illegal to expose private files.
+        translation: האקר יכול לאיים על הנתונים שלנו. זה לא חוקי לחשוף קבצים פרטיים.
+      - speaker: david
+        text: We suspect a bad link. Do we have the license to monitor employees?
+        translation: אנחנו חושדים בקישור רע. יש לנו רישיון לעקוב אחר עובדים?
+      - speaker: noa
+        text: No. We defend the data, not the people.
+        translation: לא. אנחנו מגנים על הנתונים, לא על האנשים.
+      - speaker: david
+        text: Agreed.
+        translation: מסכים.
+    - id: u33-n3-02
+      type: learn
+      lexeme: threaten
+    - id: u33-n3-03
+      type: learn
+      lexeme: expose
+    - id: u33-n3-04
+      type: learn
+      lexeme: suspect
+    - id: u33-n3-05
+      type: learn
+      lexeme: illegal
+    - id: u33-n3-06
+      type: learn
+      lexeme: license
+    - id: u33-n3-07
+      type: learn
+      lexeme: defend
+    - id: u33-n3-08
+      type: match_pairs
+      pairs:
+      - - threaten
+        - לאיים
+      - - expose
+        - לחשוף
+      - - suspect
+        - לחשוד
+      - - illegal
+        - לא חוקי
+      - - license
+        - רישיון
+      - - defend
+        - להגן
+      lexemes:
+      - threaten
+      - expose
+      - suspect
+      - illegal
+      - license
+      - defend
+    - id: u33-n3-09
+      type: multiple_choice
+      prompt: illegal – מה הפירוש?
+      options:
+      - לא חוקי
+      - להגן
+      - לאיים
+      correct: 0
+      lexemes:
+      - illegal
+    - id: u33-n3-10
+      type: multiple_choice
+      prompt: suspect – מה הפירוש?
+      options:
+      - לחשוד
+      - לחשוף
+      - רישיון
+      correct: 0
+      lexemes:
+      - suspect
+    - id: u33-n3-11
+      type: multiple_choice
+      prompt: license – מה הפירוש?
+      options:
+      - רישיון
+      - לחשוף
+      - להגן
+      correct: 0
+      lexemes:
+      - license
+    - id: u33-n3-12
+      type: fill_blank
+      sentence: Don't ___ private data.
+      translation: אל תחשוף נתונים פרטיים.
+      answers:
+      - expose
+      options:
+      - expose
+      - illegal
+      - defend
+      lexemes:
+      - expose
+    - id: u33-n3-13
+      type: fill_blank
+      sentence: The storm may ___ the roof.
+      translation: הסערה עלולה לאיים על הגג.
+      answers:
+      - threaten
+      options:
+      - threaten
+      - suspect
+      - defend
+      lexemes:
+      - threaten
+    - id: u33-n3-14
+      type: fill_blank
+      sentence: We ___ our data.
+      translation: אנחנו מגינים על הנתונים שלנו.
+      answers:
+      - defend
+      options:
+      - defend
+      - expose
+      - suspect
+      lexemes:
+      - defend
+    - id: u33-n3-15
+      type: word_bank
+      prompt: אסור לפי החוק להעתיק את הקובץ הזה.
+      answers:
+      - It is illegal to copy this file.
+      distractors:
+      - suspect
+      - license
+      lexemes:
+      - illegal
+    - id: u33-n3-16
+      type: word_bank
+      prompt: אני חושד בטעות.
+      answers:
+      - I suspect a mistake.
+      distractors:
+      - threaten
+      - expose
+      lexemes:
+      - suspect
+    - id: u33-n3-17
+      type: listening_choice
+      audioText: He has a driving license.
+      question: מה שמעתם?
+      options:
+      - יש לו רישיון נהיגה.
+      - הסערה עלולה לאיים על הגג.
+      - אל תחשוף נתונים פרטיים.
+      correct: 0
+      lexemes:
+      - license
+    - id: u33-n3-18
+      type: speak_repeat
+      text: We defend the data and expose the error.
+      translation: אנחנו מגינים על הנתונים וחושפים את התקלה.
+      lexemes:
+      - expose
+      - defend
