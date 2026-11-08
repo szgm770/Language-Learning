@@ -14,9 +14,9 @@ vocabulary:
   text: טאָג
   translation: יום
   pos: noun
-- id: morgn
-  text: מאָרגן
-  translation: בוקר
+- id: fri
+  text: פֿרי
+  translation: בוקר (אין דער פֿרי = בבוקר)
   pos: noun
 - id: ovnt
   text: אָוונט
@@ -60,7 +60,7 @@ lessons:
   - id: u07-l1-01
     type: tip
     title: יום וזמן
-    text: '**טאָג** (יום), **מאָרגן** (בוקר), **אָוונט** (ערב), **נאַכט** (לילה).
+    text: '**טאָג** (יום), **פֿרי** (בוקר; אין דער פֿרי = בבוקר), **אָוונט** (ערב), **נאַכט** (לילה).
 
       הפועל ביידיש מקבל סיומת לפי מי עושה: **איך לערן** (אני לומד), **מיר לערנען** (אנחנו לומדים).
 
@@ -72,7 +72,7 @@ lessons:
     lexeme: tog
   - id: u07-l1-03
     type: learn
-    lexeme: morgn
+    lexeme: fri
   - id: u07-l1-04
     type: learn
     lexeme: ovnt
@@ -93,8 +93,8 @@ lessons:
     pairs:
     - - טאָג
       - יום
-    - - מאָרגן
-      - בוקר
+    - - פֿרי
+      - בוקר (אין דער פֿרי = בבוקר)
     - - אָוונט
       - ערב
     - - נאַכט
@@ -105,7 +105,7 @@ lessons:
       - ללכת
     lexemes:
     - tog
-    - morgn
+    - fri
     - ovnt
     - nakht
     - shul
@@ -115,28 +115,28 @@ lessons:
     prompt: מה פירוש טאָג?
     options:
     - יום
-    - בוקר
+    - בוקר (אין דער פֿרי = בבוקר)
     - ערב
     correct: 0
     lexemes:
     - tog
   - id: u07-l1-11
     type: multiple_choice
-    prompt: מה פירוש מאָרגן?
+    prompt: מה פירוש פֿרי?
     options:
-    - בוקר
+    - בוקר (אין דער פֿרי = בבוקר)
     - יום
     - ערב
     correct: 0
     lexemes:
-    - morgn
+    - fri
   - id: u07-l1-12
     type: multiple_choice
     prompt: מה פירוש אָוונט?
     options:
     - ערב
     - יום
-    - בוקר
+    - בוקר (אין דער פֿרי = בבוקר)
     correct: 0
     lexemes:
     - ovnt
@@ -146,7 +146,7 @@ lessons:
     options:
     - לילה
     - יום
-    - בוקר
+    - בוקר (אין דער פֿרי = בבוקר)
     correct: 0
     lexemes:
     - nakht
@@ -156,7 +156,7 @@ lessons:
     options:
     - בית כנסת
     - יום
-    - בוקר
+    - בוקר (אין דער פֿרי = בבוקר)
     correct: 0
     lexemes:
     - shul
@@ -186,7 +186,7 @@ lessons:
     - איך גיי אין שול
     distractors:
     - טאָג
-    - מאָרגן
+    - פֿרי
     lexemes: *id001
   - id: u07-l1-18
     type: fill_blank
@@ -365,7 +365,7 @@ lessons:
     - איך דאַוון אין שול
     distractors:
     - שלאָפֿן
-    - מאָרגן
+    - פֿרי
     lexemes: *id003
   - id: u07-l2-16
     type: fill_blank
@@ -375,7 +375,7 @@ lessons:
     - דאַוון
     options:
     - דאַוון
-    - מאָרגן
+    - פֿרי
     - אַרבעטן
     lexemes: *id003
   - id: u07-l2-17
@@ -402,7 +402,7 @@ lessons:
     - איך שלאָף בײַ נאַכט
     distractors:
     - שלאָפֿן
-    - מאָרגן
+    - פֿרי
     lexemes: *id004
   - id: u07-l2-20
     type: fill_blank
@@ -439,7 +439,7 @@ lessons:
     answers:
     - מיר לערנען אין שול
     distractors:
-    - מאָרגן
+    - פֿרי
     - נאַכט
     lexemes: *id005
   - id: u07-l2-24
@@ -500,8 +500,8 @@ lessons:
     pairs:
     - - טאָג
       - יום
-    - - מאָרגן
-      - בוקר
+    - - פֿרי
+      - בוקר (אין דער פֿרי = בבוקר)
     - - אָוונט
       - ערב
     - - נאַכט
@@ -512,7 +512,7 @@ lessons:
       - ללמוד
     lexemes:
     - tog
-    - morgn
+    - fri
     - ovnt
     - nakht
     - shul
@@ -555,7 +555,7 @@ lessons:
     - איך גיי אין שול
     distractors:
     - טאָג
-    - מאָרגן
+    - פֿרי
     lexemes: *id001
   - id: u07-review-06
     type: translate
@@ -601,7 +601,7 @@ lessons:
     - איך דאַוון אין שול
     distractors:
     - שלאָפֿן
-    - מאָרגן
+    - פֿרי
     lexemes: *id003
   - id: u07-review-12
     type: translate
@@ -624,5 +624,5 @@ lessons:
     - איך שלאָף בײַ נאַכט
     distractors:
     - שלאָפֿן
-    - מאָרגן
+    - פֿרי
     lexemes: *id004
