@@ -33,6 +33,24 @@ vocabulary:
   - { id: "congratulations", text: "Congratulations!", translation: "מזל טוב! ברכות!", pos: "phrase", pronunciation: "קוֹנְגְרֶצ'וּלֵיישְׁנְז" }
   - { id: "id-love-to", text: "I'd love to!", translation: "בשמחה! הייתי שמח!", pos: "phrase", pronunciation: "אַייד לַאב טוּ" }
 
+  - { id: "gift", text: "gift", translation: "מתנה", pos: "noun", pronunciation: "גִיפְט", example: { text: "This is a gift for you.", translation: "זו מתנה בשבילך." } }
+  - { id: "excite", text: "excite", translation: "לרגש", pos: "verb", pronunciation: "אִיקְסַאיט", example: { text: "The news can excite him.", translation: "החדשות יכולות לרגש אותו." } }
+  - { id: "crazy", text: "crazy", translation: "מטורף", pos: "adjective", pronunciation: "קְרֵייזִי", example: { text: "This is a crazy idea.", translation: "זה רעיון מטורף." } }
+  - { id: "secret", text: "secret", translation: "סוד", pos: "noun", pronunciation: "סִיקְרִט", example: { text: "It is a secret.", translation: "זה סוד." } }
+  - { id: "reveal", text: "reveal", translation: "לגלות", pos: "verb", pronunciation: "רִיבִיל", example: { text: "Don't reveal the plan.", translation: "אל תגלה את התכנית." } }
+  - { id: "invite-2", text: "invite", translation: "להזמין", pos: "verb", pronunciation: "אִינְוַאיט", example: { text: "We invite our friends.", translation: "אנחנו מזמינים את החברים שלנו." } }
+  - { id: "marriage", text: "marriage", translation: "נישואין", pos: "noun", pronunciation: "מֶרִיג'", example: { text: "Their marriage is happy.", translation: "הנישואין שלהם מאושרים." } }
+  - { id: "award", text: "award", translation: "פרס", pos: "noun", pronunciation: "אַוורְד", example: { text: "She wins an award.", translation: "היא זוכה בפרס." } }
+  - { id: "champion", text: "champion", translation: "אלוף", pos: "noun", pronunciation: "צ'ֶמְפִּיֶן", example: { text: "He is the champion.", translation: "הוא האלוף." } }
+  - { id: "tie", text: "tie", translation: "לקשור", pos: "verb", pronunciation: "טַאיי", example: { text: "Tie your shoes.", translation: "קשור את הנעליים שלך." } }
+  - { id: "wedding-2", text: "wedding", translation: "חתונה", pos: "noun", pronunciation: "וֶוּדִינְג", example: { text: "The wedding is on Sunday.", translation: "החתונה ביום ראשון." } }
+  - { id: "gold", text: "gold", translation: "זהב", pos: "noun", pronunciation: "גוֹלְד", example: { text: "The ring is gold.", translation: "הטבעת עשויה זהב." } }
+  - { id: "lady", text: "lady", translation: "גברת", pos: "noun", pronunciation: "לֵיידִי", example: { text: "The lady is kind.", translation: "הגברת אדיבה." } }
+  - { id: "mom", text: "mom", translation: "אמא", pos: "noun", pronunciation: "מוֹם", example: { text: "My mom cooks well.", translation: "אמא שלי מבשלת היטב." } }
+  - { id: "dad", text: "dad", translation: "אבא", pos: "noun", pronunciation: "דֶד", example: { text: "My dad drives to work.", translation: "אבא שלי נוסע לעבודה." } }
+  - { id: "soul", text: "soul", translation: "נשמה", pos: "noun", pronunciation: "סוֹל", example: { text: "He has a good soul.", translation: "יש לו נשמה טובה." } }
+  - { id: "spirit", text: "spirit", translation: "רוח", pos: "noun", pronunciation: "סְפִּירִיט", example: { text: "The team has a good spirit.", translation: "לצוות יש רוח טובה." } }
+  - { id: "adult", text: "adult", translation: "מבוגר", pos: "noun", pronunciation: "אַדָאלְט", example: { text: "He is an adult now.", translation: "הוא מבוגר עכשיו." } }
 grammar:
   - id: will-offers
     title: { he: "הצעות והבטחות: I'll", en: "Will for offers and promises" }
@@ -481,3 +499,503 @@ lessons:
         text: "Would you like to come to my party? I'd love to!"
         translation: "תרצה לבוא למסיבה שלי? בשמחה!"
         lexemes: [would-you-like, party, id-love-to]
+  # ------------------------------------------------------------------ story words
+  - id: u19-n1
+    kind: new
+    title:
+      he: 'היומן של נועה: מתנה וסוד'
+      en: 'Noa''s diary: a gift and a secret'
+    exercises:
+    - id: u19-n1-01
+      type: dialogue
+      scene: נועה ורחל מתכננות הפתעה ליום ההולדת של בן (ביום ראשון בבוקר, בקבוצה).
+      lines:
+      - speaker: rachel
+        text: I buy a gift. It is a secret, so don't reveal it.
+        translation: אני קונה מתנה. זה סוד, אז אל תגלי.
+      - speaker: noa
+        text: Our plan is a little crazy. Ben will be so excited.
+        translation: התכנית שלנו קצת משוגעת. בן יתרגש כל כך.
+      - speaker: rachel
+        text: Put the glass of juice on the table.
+        translation: שימי את כוס המיץ על השולחן.
+      - speaker: noa
+        text: Shh, he comes!
+        translation: שששש, הוא מגיע!
+    - id: u19-n1-02
+      type: learn
+      lexeme: gift
+    - id: u19-n1-03
+      type: learn
+      lexeme: excite
+    - id: u19-n1-04
+      type: learn
+      lexeme: crazy
+    - id: u19-n1-05
+      type: learn
+      lexeme: secret
+    - id: u19-n1-06
+      type: learn
+      lexeme: reveal
+    - id: u19-n1-07
+      type: learn
+      lexeme: invite-2
+    - id: u19-n1-08
+      type: match_pairs
+      pairs:
+      - - gift
+        - מתנה
+      - - excite
+        - לרגש
+      - - crazy
+        - מטורף
+      - - secret
+        - סוד
+      - - reveal
+        - לגלות
+      - - invite
+        - להזמין
+      lexemes:
+      - gift
+      - excite
+      - crazy
+      - secret
+      - reveal
+      - invite-2
+    - id: u19-n1-09
+      type: multiple_choice
+      prompt: invite – מה הפירוש?
+      options:
+      - להזמין
+      - לרגש
+      - סוד
+      correct: 0
+      lexemes:
+      - invite-2
+    - id: u19-n1-10
+      type: multiple_choice
+      prompt: secret – מה הפירוש?
+      options:
+      - סוד
+      - מטורף
+      - לרגש
+      correct: 0
+      lexemes:
+      - secret
+    - id: u19-n1-11
+      type: multiple_choice
+      prompt: excite – מה הפירוש?
+      options:
+      - לרגש
+      - מטורף
+      - סוד
+      correct: 0
+      lexemes:
+      - excite
+    - id: u19-n1-12
+      type: fill_blank
+      sentence: This is a ___ idea.
+      translation: זה רעיון מטורף.
+      answers:
+      - crazy
+      options:
+      - crazy
+      - secret
+      - gift
+      lexemes:
+      - crazy
+    - id: u19-n1-13
+      type: fill_blank
+      sentence: This is a ___ for you.
+      translation: זו מתנה בשבילך.
+      answers:
+      - gift
+      options:
+      - gift
+      - excite
+      - secret
+      lexemes:
+      - gift
+    - id: u19-n1-14
+      type: fill_blank
+      sentence: Don't ___ the plan.
+      translation: אל תגלה את התכנית.
+      answers:
+      - reveal
+      options:
+      - reveal
+      - gift
+      - invite
+      lexemes:
+      - reveal
+    - id: u19-n1-15
+      type: word_bank
+      prompt: אנחנו מזמינים את החברים שלנו.
+      answers:
+      - We invite our friends.
+      distractors:
+      - gift
+      - crazy
+      lexemes:
+      - invite-2
+    - id: u19-n1-16
+      type: word_bank
+      prompt: זה סוד.
+      answers:
+      - It is a secret.
+      distractors:
+      - excite
+      - invite
+      lexemes:
+      - secret
+    - id: u19-n1-17
+      type: listening_choice
+      audioText: The news can excite him.
+      question: מה שמעתם?
+      options:
+      - החדשות יכולות לרגש אותו.
+      - זו מתנה בשבילך.
+      - זה רעיון מטורף.
+      correct: 0
+      lexemes:
+      - excite
+    - id: u19-n1-18
+      type: speak_repeat
+      text: It is a secret gift.
+      translation: זו מתנה סודית.
+      lexemes:
+      - gift
+      - secret
+  - id: u19-n2
+    kind: new
+    title:
+      he: 'היומן של נועה: חתונה'
+      en: 'Noa''s diary: a wedding'
+    exercises:
+    - id: u19-n2-01
+      type: dialogue
+      scene: הזמנה לחתונה של קרובי משפחה.
+      lines:
+      - speaker: noa
+        text: We get an invitation to a wedding. The marriage is next month.
+        translation: קיבלנו הזמנה לחתונה. הנישואין בחודש הבא.
+      - speaker: rachel
+        text: The couple wins an award for the best story. Tie the ribbon on the gift.
+        translation: בני הזוג זוכים בפרס על הסיפור הכי טוב. קשרי את הסרט על המתנה.
+      - speaker: noa
+        text: Our champion in tying knots!
+        translation: האלופה שלנו בקשירת קשרים!
+      - speaker: rachel
+        text: The wedding is a surprise.
+        translation: הטבעת היא הפתעה.
+    - id: u19-n2-02
+      type: learn
+      lexeme: marriage
+    - id: u19-n2-03
+      type: learn
+      lexeme: award
+    - id: u19-n2-04
+      type: learn
+      lexeme: champion
+    - id: u19-n2-05
+      type: learn
+      lexeme: tie
+    - id: u19-n2-06
+      type: learn
+      lexeme: wedding-2
+    - id: u19-n2-07
+      type: learn
+      lexeme: gold
+    - id: u19-n2-08
+      type: match_pairs
+      pairs:
+      - - marriage
+        - נישואין
+      - - award
+        - פרס
+      - - champion
+        - אלוף
+      - - tie
+        - לקשור
+      - - wedding
+        - חתונה
+      - - gold
+        - זהב
+      lexemes:
+      - marriage
+      - award
+      - champion
+      - tie
+      - wedding-2
+      - gold
+    - id: u19-n2-09
+      type: multiple_choice
+      prompt: gold – מה הפירוש?
+      options:
+      - זהב
+      - אלוף
+      - פרס
+      correct: 0
+      lexemes:
+      - gold
+    - id: u19-n2-10
+      type: multiple_choice
+      prompt: wedding – מה הפירוש?
+      options:
+      - חתונה
+      - אלוף
+      - זהב
+      correct: 0
+      lexemes:
+      - wedding-2
+    - id: u19-n2-11
+      type: multiple_choice
+      prompt: tie – מה הפירוש?
+      options:
+      - לקשור
+      - אלוף
+      - פרס
+      correct: 0
+      lexemes:
+      - tie
+    - id: u19-n2-12
+      type: fill_blank
+      sentence: Their ___ is happy.
+      translation: הנישואין שלהם מאושרים.
+      answers:
+      - marriage
+      options:
+      - marriage
+      - wedding
+      - tie
+      lexemes:
+      - marriage
+    - id: u19-n2-13
+      type: fill_blank
+      sentence: He is the ___.
+      translation: הוא האלוף.
+      answers:
+      - champion
+      options:
+      - champion
+      - wedding
+      - gold
+      lexemes:
+      - champion
+    - id: u19-n2-14
+      type: fill_blank
+      sentence: She wins an ___.
+      translation: היא זוכה בפרס.
+      answers:
+      - award
+      options:
+      - award
+      - tie
+      - wedding
+      lexemes:
+      - award
+    - id: u19-n2-15
+      type: word_bank
+      prompt: הטבעת עשויה זהב.
+      answers:
+      - The ring is gold.
+      distractors:
+      - wedding
+      - award
+      lexemes:
+      - gold
+    - id: u19-n2-16
+      type: word_bank
+      prompt: החתונה ביום ראשון.
+      answers:
+      - The wedding is on Sunday.
+      distractors:
+      - marriage
+      - award
+      lexemes:
+      - wedding-2
+    - id: u19-n2-17
+      type: listening_choice
+      audioText: Tie your shoes.
+      question: מה שמעתם?
+      options:
+      - קשור את הנעליים שלך.
+      - הנישואין שלהם מאושרים.
+      - היא זוכה בפרס.
+      correct: 0
+      lexemes:
+      - tie
+    - id: u19-n2-18
+      type: speak_repeat
+      text: The champion wins a gold award.
+      translation: האלוף זוכה בפרס זהב.
+      lexemes:
+      - award
+      - champion
+      - gold
+  - id: u19-n3
+    kind: new
+    title:
+      he: 'היומן של נועה: הורים וקרובים'
+      en: 'Noa''s diary: parents and relatives'
+    exercises:
+    - id: u19-n3-01
+      type: dialogue
+      scene: ארוחת שישי בבית ההורים של נועה.
+      lines:
+      - speaker: noa
+        text: My mom and my dad are here. Every lady at the table is happy.
+        translation: אמא ואבא שלי כאן. כל גברת סביב השולחן שמחה.
+      - speaker: rachel
+        text: Your dad has a good soul and the spirit of the family.
+        translation: לאבא שלך נשמה טובה והוא רוח המשפחה.
+      - speaker: noa
+        text: Even the adult guests are quiet today.
+        translation: אפילו האורחים המבוגרים שקטים היום.
+      - speaker: rachel
+        text: Shabbat shalom.
+        translation: שבת שלום.
+    - id: u19-n3-02
+      type: learn
+      lexeme: lady
+    - id: u19-n3-03
+      type: learn
+      lexeme: mom
+    - id: u19-n3-04
+      type: learn
+      lexeme: dad
+    - id: u19-n3-05
+      type: learn
+      lexeme: soul
+    - id: u19-n3-06
+      type: learn
+      lexeme: spirit
+    - id: u19-n3-07
+      type: learn
+      lexeme: adult
+    - id: u19-n3-08
+      type: match_pairs
+      pairs:
+      - - lady
+        - גברת
+      - - mom
+        - אמא
+      - - dad
+        - אבא
+      - - soul
+        - נשמה
+      - - spirit
+        - רוח
+      - - adult
+        - מבוגר
+      lexemes:
+      - lady
+      - mom
+      - dad
+      - soul
+      - spirit
+      - adult
+    - id: u19-n3-09
+      type: multiple_choice
+      prompt: dad – מה הפירוש?
+      options:
+      - אבא
+      - מבוגר
+      - רוח
+      correct: 0
+      lexemes:
+      - dad
+    - id: u19-n3-10
+      type: multiple_choice
+      prompt: soul – מה הפירוש?
+      options:
+      - נשמה
+      - גברת
+      - אמא
+      correct: 0
+      lexemes:
+      - soul
+    - id: u19-n3-11
+      type: multiple_choice
+      prompt: adult – מה הפירוש?
+      options:
+      - מבוגר
+      - גברת
+      - אבא
+      correct: 0
+      lexemes:
+      - adult
+    - id: u19-n3-12
+      type: fill_blank
+      sentence: The ___ is kind.
+      translation: הגברת אדיבה.
+      answers:
+      - lady
+      options:
+      - lady
+      - adult
+      - soul
+      lexemes:
+      - lady
+    - id: u19-n3-13
+      type: fill_blank
+      sentence: My ___ cooks well.
+      translation: אמא שלי מבשלת היטב.
+      answers:
+      - mom
+      options:
+      - mom
+      - soul
+      - spirit
+      lexemes:
+      - mom
+    - id: u19-n3-14
+      type: fill_blank
+      sentence: The team has a good ___.
+      translation: לצוות יש רוח טובה.
+      answers:
+      - spirit
+      options:
+      - spirit
+      - dad
+      - soul
+      lexemes:
+      - spirit
+    - id: u19-n3-15
+      type: word_bank
+      prompt: אבא שלי נוסע לעבודה.
+      answers:
+      - My dad drives to work.
+      distractors:
+      - mom
+      - spirit
+      lexemes:
+      - dad
+    - id: u19-n3-16
+      type: word_bank
+      prompt: יש לו נשמה טובה.
+      answers:
+      - He has a good soul.
+      distractors:
+      - spirit
+      - adult
+      lexemes:
+      - soul
+    - id: u19-n3-17
+      type: listening_choice
+      audioText: He is an adult now.
+      question: מה שמעתם?
+      options:
+      - הוא מבוגר עכשיו.
+      - הגברת אדיבה.
+      - אמא שלי מבשלת היטב.
+      correct: 0
+      lexemes:
+      - adult
+    - id: u19-n3-18
+      type: speak_repeat
+      text: My mom and my dad are adults.
+      translation: אמא ואבא שלי הם מבוגרים.
+      lexemes:
+      - mom
+      - dad

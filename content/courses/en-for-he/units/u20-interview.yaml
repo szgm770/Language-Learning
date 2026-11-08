@@ -33,6 +33,24 @@ vocabulary:
   - { id: "confident", text: "confident", translation: "בטוח בעצמו", pos: "adjective", pronunciation: "קוֹנְפִידֶנְט" }
   - { id: "nervous", text: "nervous", translation: "לחוץ, עצבני (מתרגשות)", pos: "adjective", pronunciation: "נֶרְבֶס" }
 
+  - { id: "director", text: "director", translation: "מנהל; במאי", pos: "noun", pronunciation: "דִירֶקְטֶר", example: { text: "The director is in the office.", translation: "המנהל במשרד." } }
+  - { id: "staff", text: "staff", translation: "צוות עובדים", pos: "noun", pronunciation: "סְטָאף", example: { text: "The staff is friendly.", translation: "הצוות ידידותי." } }
+  - { id: "professional", text: "professional", translation: "מקצועי", pos: "adjective", pronunciation: "פְּרוֹפֶשְׁנֶל", example: { text: "She is very professional.", translation: "היא מקצועית מאוד." } }
+  - { id: "owner", text: "owner", translation: "בעלים", pos: "noun", pronunciation: "אוֹנֶר", example: { text: "The owner is not here.", translation: "הבעלים לא כאן." } }
+  - { id: "executive", text: "executive", translation: "מנהל בכיר", pos: "noun", pronunciation: "אִיגְזֶקְיוּטִיב", example: { text: "The executive has a meeting.", translation: "המנהל הבכיר בפגישה." } }
+  - { id: "worker", text: "worker", translation: "עובד", pos: "noun", pronunciation: "וֶורְקֶר", example: { text: "Every worker has a desk.", translation: "לכל עובד יש שולחן." } }
+  - { id: "management", text: "management", translation: "ניהול", pos: "noun", pronunciation: "מֶנִג'ְמֶנְט", example: { text: "Management is a hard job.", translation: "ניהול הוא עבודה קשה." } }
+  - { id: "organization", text: "organization", translation: "ארגון", pos: "noun", pronunciation: "אוֹרְגֶנִיזֵייְשֶׁן", example: { text: "The organization is large.", translation: "הארגון גדול." } }
+  - { id: "industry", text: "industry", translation: "תעשייה", pos: "noun", pronunciation: "אִינְדָסְטְרִי", example: { text: "He works in the food industry.", translation: "הוא עובד בתעשיית המזון." } }
+  - { id: "firm", text: "firm", translation: "חברה", pos: "noun", pronunciation: "פֶרְם", example: { text: "The firm is small.", translation: "החברה קטנה." } }
+  - { id: "agency", text: "agency", translation: "סוכנות", pos: "noun", pronunciation: "אֵייג'ֶנְסִי", example: { text: "I work for an agency.", translation: "אני עובד בסוכנות." } }
+  - { id: "budget-2", text: "budget", translation: "תקציב", pos: "noun", pronunciation: "בָּאג'ִט", example: { text: "The firm has a small budget.", translation: "לחברה יש תקציב קטן." } }
+  - { id: "manage", text: "manage", translation: "לנהל", pos: "verb", pronunciation: "מֶנִידְג'", example: { text: "I manage a small team.", translation: "אני מנהל צוות קטן." } }
+  - { id: "perform", text: "perform", translation: "לבצע; להופיע", pos: "verb", pronunciation: "פֶּרְפוֹרְם", example: { text: "He can perform well at work.", translation: "הוא יכול לתפקד היטב בעבודה." } }
+  - { id: "establish", text: "establish", translation: "לבסס; להקים", pos: "verb", pronunciation: "אִיסְטֶבְּלִישׁ", example: { text: "We establish new rules.", translation: "אנחנו קובעים כללים חדשים." } }
+  - { id: "assume", text: "assume", translation: "להניח", pos: "verb", pronunciation: "אַסּוּם", example: { text: "I assume you are ready.", translation: "אני מניח שאתה מוכן." } }
+  - { id: "conduct", text: "conduct", translation: "לנהל; לבצע", pos: "verb", pronunciation: "קוֹנְדָקְט", example: { text: "I conduct the meeting.", translation: "אני מנהל את הפגישה." } }
+  - { id: "determine", text: "determine", translation: "לקבוע", pos: "verb", pronunciation: "דִיטֶרְמִין", example: { text: "We determine the date today.", translation: "אנחנו קובעים את התאריך היום." } }
 grammar:
   - id: present-perfect
     title: { he: "הווה מושלם: I have worked", en: "Present perfect" }
@@ -648,3 +666,502 @@ lessons:
         type: dictation
         text: "What's the weather like today?"
         lexemes: [whats-the-weather-like]
+  # ------------------------------------------------------------------ story words
+  - id: u20-n1
+    kind: new
+    title:
+      he: 'היומן של נועה: אנשי הצוות'
+      en: 'Noa''s diary: the team people'
+    exercises:
+    - id: u20-n1-01
+      type: dialogue
+      scene: נועה מתכוננת לראיון ומתארת את החברה.
+      lines:
+      - speaker: noa
+        text: The director of the company leads the staff.
+        translation: מנהל החברה עומד בראש הצוות.
+      - speaker: ben
+        text: Be professional. The owner and the executive will ask questions.
+        translation: היי מקצועית. הבעלים והמנהל הבכיר ישאלו שאלות.
+      - speaker: noa
+        text: And every worker has an opinion.
+        translation: וכל עובד יש לו דעה.
+      - speaker: ben
+        text: Good luck.
+        translation: בהצלחה.
+    - id: u20-n1-02
+      type: learn
+      lexeme: director
+    - id: u20-n1-03
+      type: learn
+      lexeme: staff
+    - id: u20-n1-04
+      type: learn
+      lexeme: professional
+    - id: u20-n1-05
+      type: learn
+      lexeme: owner
+    - id: u20-n1-06
+      type: learn
+      lexeme: executive
+    - id: u20-n1-07
+      type: learn
+      lexeme: worker
+    - id: u20-n1-08
+      type: match_pairs
+      pairs:
+      - - director
+        - מנהל; במאי
+      - - staff
+        - צוות עובדים
+      - - professional
+        - מקצועי
+      - - owner
+        - בעלים
+      - - executive
+        - מנהל בכיר
+      - - worker
+        - עובד
+      lexemes:
+      - director
+      - staff
+      - professional
+      - owner
+      - executive
+      - worker
+    - id: u20-n1-09
+      type: multiple_choice
+      prompt: owner – מה הפירוש?
+      options:
+      - בעלים
+      - מנהל; במאי
+      - מנהל בכיר
+      correct: 0
+      lexemes:
+      - owner
+    - id: u20-n1-10
+      type: multiple_choice
+      prompt: staff – מה הפירוש?
+      options:
+      - צוות עובדים
+      - בעלים
+      - מנהל; במאי
+      correct: 0
+      lexemes:
+      - staff
+    - id: u20-n1-11
+      type: multiple_choice
+      prompt: worker – מה הפירוש?
+      options:
+      - עובד
+      - צוות עובדים
+      - בעלים
+      correct: 0
+      lexemes:
+      - worker
+    - id: u20-n1-12
+      type: fill_blank
+      sentence: The ___ is in the office.
+      translation: המנהל במשרד.
+      answers:
+      - director
+      options:
+      - director
+      - staff
+      - professional
+      lexemes:
+      - director
+    - id: u20-n1-13
+      type: fill_blank
+      sentence: The ___ has a meeting.
+      translation: המנהל הבכיר בפגישה.
+      answers:
+      - executive
+      options:
+      - executive
+      - staff
+      - worker
+      lexemes:
+      - executive
+    - id: u20-n1-14
+      type: fill_blank
+      sentence: She is very ___.
+      translation: היא מקצועית מאוד.
+      answers:
+      - professional
+      options:
+      - professional
+      - staff
+      - executive
+      lexemes:
+      - professional
+    - id: u20-n1-15
+      type: word_bank
+      prompt: הבעלים לא כאן.
+      answers:
+      - The owner is not here.
+      distractors:
+      - professional
+      - staff
+      lexemes:
+      - owner
+    - id: u20-n1-16
+      type: word_bank
+      prompt: הצוות ידידותי.
+      answers:
+      - The staff is friendly.
+      distractors:
+      - worker
+      - director
+      lexemes:
+      - staff
+    - id: u20-n1-17
+      type: listening_choice
+      audioText: Every worker has a desk.
+      question: מה שמעתם?
+      options:
+      - לכל עובד יש שולחן.
+      - המנהל במשרד.
+      - הצוות ידידותי.
+      correct: 0
+      lexemes:
+      - worker
+    - id: u20-n1-18
+      type: speak_repeat
+      text: The director speaks with the staff.
+      translation: המנהל מדבר עם הצוות.
+      lexemes:
+      - director
+      - staff
+  - id: u20-n2
+    kind: new
+    title:
+      he: 'היומן של נועה: ארגון ותעשייה'
+      en: 'Noa''s diary: organization and industry'
+    exercises:
+    - id: u20-n2-01
+      type: dialogue
+      scene: בראיון, נועה מתארת את הניסיון שלה.
+      lines:
+      - speaker: noa
+        text: I work in management, in a large organization.
+        translation: אני עובדת בניהול, בארגון גדול.
+      - speaker: david
+        text: Which industry?
+        translation: באיזו תעשייה?
+      - speaker: noa
+        text: Technology. My firm is an agency for software.
+        translation: טכנולוגיה. החברה שלי היא סוכנות לתוכנה.
+      - speaker: david
+        text: Do you have a budget for a new project?
+        translation: יש לך הון לפרויקט חדש?
+    - id: u20-n2-02
+      type: learn
+      lexeme: management
+    - id: u20-n2-03
+      type: learn
+      lexeme: organization
+    - id: u20-n2-04
+      type: learn
+      lexeme: industry
+    - id: u20-n2-05
+      type: learn
+      lexeme: firm
+    - id: u20-n2-06
+      type: learn
+      lexeme: agency
+    - id: u20-n2-07
+      type: learn
+      lexeme: budget-2
+    - id: u20-n2-08
+      type: match_pairs
+      pairs:
+      - - management
+        - ניהול
+      - - organization
+        - ארגון
+      - - industry
+        - תעשייה
+      - - firm
+        - חברה
+      - - agency
+        - סוכנות
+      - - budget
+        - תקציב
+      lexemes:
+      - management
+      - organization
+      - industry
+      - firm
+      - agency
+      - budget-2
+    - id: u20-n2-09
+      type: multiple_choice
+      prompt: agency – מה הפירוש?
+      options:
+      - סוכנות
+      - חברה
+      - ניהול
+      correct: 0
+      lexemes:
+      - agency
+    - id: u20-n2-10
+      type: multiple_choice
+      prompt: management – מה הפירוש?
+      options:
+      - ניהול
+      - סוכנות
+      - חברה
+      correct: 0
+      lexemes:
+      - management
+    - id: u20-n2-11
+      type: multiple_choice
+      prompt: budget – מה הפירוש?
+      options:
+      - תקציב
+      - ניהול
+      - תעשייה
+      correct: 0
+      lexemes:
+      - budget-2
+    - id: u20-n2-12
+      type: fill_blank
+      sentence: The ___ is small.
+      translation: החברה קטנה.
+      answers:
+      - firm
+      options:
+      - firm
+      - budget
+      - agency
+      lexemes:
+      - firm
+    - id: u20-n2-13
+      type: fill_blank
+      sentence: He works in the food ___.
+      translation: הוא עובד בתעשיית המזון.
+      answers:
+      - industry
+      options:
+      - industry
+      - budget
+      - management
+      lexemes:
+      - industry
+    - id: u20-n2-14
+      type: fill_blank
+      sentence: The ___ is large.
+      translation: הארגון גדול.
+      answers:
+      - organization
+      options:
+      - organization
+      - firm
+      - management
+      lexemes:
+      - organization
+    - id: u20-n2-15
+      type: word_bank
+      prompt: אני עובד בסוכנות.
+      answers:
+      - I work for an agency.
+      distractors:
+      - budget
+      - management
+      lexemes:
+      - agency
+    - id: u20-n2-16
+      type: word_bank
+      prompt: ניהול הוא עבודה קשה.
+      answers:
+      - Management is a hard job.
+      distractors:
+      - agency
+      - organization
+      lexemes:
+      - management
+    - id: u20-n2-17
+      type: listening_choice
+      audioText: The firm has a small budget.
+      question: מה שמעתם?
+      options:
+      - לחברה יש תקציב קטן.
+      - ניהול הוא עבודה קשה.
+      - הארגון גדול.
+      correct: 0
+      lexemes:
+      - budget-2
+    - id: u20-n2-18
+      type: speak_repeat
+      text: The firm works in the technology industry.
+      translation: החברה עובדת בתעשיית הטכנולוגיה.
+      lexemes:
+      - industry
+      - firm
+  - id: u20-n3
+    kind: new
+    title:
+      he: 'היומן של נועה: להנהיג ולהצליח'
+      en: 'Noa''s diary: leading and succeeding'
+    exercises:
+    - id: u20-n3-01
+      type: dialogue
+      scene: שאלות אחרונות בראיון.
+      lines:
+      - speaker: david
+        text: How do you manage a team?
+        translation: איך את מנהלת צוות?
+      - speaker: noa
+        text: I perform well under pressure and I establish clear rules.
+        translation: אני מתפקדת היטב תחת לחץ וקובעת כללים ברורים.
+      - speaker: david
+        text: What do you assume about the first month?
+        translation: מה את מניחה על החודש הראשון?
+      - speaker: noa
+        text: I conduct meetings, determine the goals and listen.
+        translation: אני מנהלת פגישות, קובעת מטרות ומקשיבה.
+    - id: u20-n3-02
+      type: learn
+      lexeme: manage
+    - id: u20-n3-03
+      type: learn
+      lexeme: perform
+    - id: u20-n3-04
+      type: learn
+      lexeme: establish
+    - id: u20-n3-05
+      type: learn
+      lexeme: assume
+    - id: u20-n3-06
+      type: learn
+      lexeme: conduct
+    - id: u20-n3-07
+      type: learn
+      lexeme: determine
+    - id: u20-n3-08
+      type: match_pairs
+      pairs:
+      - - manage
+        - לנהל
+      - - perform
+        - לבצע; להופיע
+      - - establish
+        - לבסס; להקים
+      - - assume
+        - להניח
+      - - conduct
+        - לנהל; לבצע
+      - - determine
+        - לקבוע
+      lexemes:
+      - manage
+      - perform
+      - establish
+      - assume
+      - conduct
+      - determine
+    - id: u20-n3-09
+      type: multiple_choice
+      prompt: perform – מה הפירוש?
+      options:
+      - לבצע; להופיע
+      - לבסס; להקים
+      - לנהל
+      correct: 0
+      lexemes:
+      - perform
+    - id: u20-n3-10
+      type: multiple_choice
+      prompt: establish – מה הפירוש?
+      options:
+      - לבסס; להקים
+      - להניח
+      - לנהל
+      correct: 0
+      lexemes:
+      - establish
+    - id: u20-n3-11
+      type: multiple_choice
+      prompt: assume – מה הפירוש?
+      options:
+      - להניח
+      - לנהל; לבצע
+      - לבצע; להופיע
+      correct: 0
+      lexemes:
+      - assume
+    - id: u20-n3-12
+      type: fill_blank
+      sentence: I ___ the meeting.
+      translation: אני מנהל את הפגישה.
+      answers:
+      - conduct
+      options:
+      - conduct
+      - manage
+      - perform
+      lexemes:
+      - conduct
+    - id: u20-n3-13
+      type: fill_blank
+      sentence: I ___ a small team.
+      translation: אני מנהל צוות קטן.
+      answers:
+      - manage
+      options:
+      - manage
+      - conduct
+      - assume
+      lexemes:
+      - manage
+    - id: u20-n3-14
+      type: fill_blank
+      sentence: We ___ the date today.
+      translation: אנחנו קובעים את התאריך היום.
+      answers:
+      - determine
+      options:
+      - determine
+      - perform
+      - manage
+      lexemes:
+      - determine
+    - id: u20-n3-15
+      type: word_bank
+      prompt: הוא יכול לתפקד היטב בעבודה.
+      answers:
+      - He can perform well at work.
+      distractors:
+      - assume
+      - establish
+      lexemes:
+      - perform
+    - id: u20-n3-16
+      type: word_bank
+      prompt: אנחנו קובעים כללים חדשים.
+      answers:
+      - We establish new rules.
+      distractors:
+      - assume
+      - perform
+      lexemes:
+      - establish
+    - id: u20-n3-17
+      type: listening_choice
+      audioText: I assume you are ready.
+      question: מה שמעתם?
+      options:
+      - אני מניח שאתה מוכן.
+      - אני מנהל צוות קטן.
+      - הוא יכול לתפקד היטב בעבודה.
+      correct: 0
+      lexemes:
+      - assume
+    - id: u20-n3-18
+      type: speak_repeat
+      text: I manage the team and conduct the meeting.
+      translation: אני מנהלת את הצוות ומנהלת את הפגישה.
+      lexemes:
+      - manage
+      - conduct
