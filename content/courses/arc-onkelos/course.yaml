@@ -1,0 +1,31 @@
+id: arc-onkelos
+source: he
+target: arc
+speechLang: none
+quotesOnly: true
+title:
+  he: תרגום אונקלוס
+  en: Targum Onkelos
+description:
+  he: "ארמית של תרגום אונקלוס, ל״שניים מקרא ואחד תרגום״: איתן ור׳ ישראל לומדים פרשה בכל יום שישי. מומלץ אחרי ״ארמית של הגמרא״. הטקסט: תורת אמת (נחלת הכלל)."
+  en: "The Aramaic of Targum Onkelos, for 'twice Scripture, once Targum': Eitan and R' Yisrael read a portion every Friday. Best after 'Aramaic of the Talmud'. Text: Torat Emet (public domain)."
+stages:
+  - { level: A1, name: { he: "ית ומילים ראשונות", en: "First words" }, about: "סימן המושא ית, סיומות של משפחה, ומילים של העולם" }
+  - { level: A2, name: { he: "פעלים ומקדש", en: "Verbs and Temple" }, about: "פעלים בעבר, שפת הקרבנות, ומספרים" }
+  - { level: B1, name: { he: "קריאה בפרשה", en: "Reading the portion" }, about: "מימרא ושכינה, יציאת מצרים, שמע ישראל וברכת כהנים" }
+characters:
+  - { id: "eitan", name: "איתן", he: "איתן", color: "blue", look: "short", pitch: 1.0 }
+  - { id: "yisrael", name: "ר׳ ישראל", he: "ר׳ ישראל", color: "teal", look: "bald", pitch: 0.8 }
+  - { id: "chana", name: "חנה", he: "חנה", color: "rose", look: "long", pitch: 1.15 }
+units:
+  - o01-yat
+  - o02-avuhi
+  - o03-alma
+  - o04-gavra
+  - o05-akeda
+  - o06-madbecha
+  - o07-minyan
+  - o11-tavid
+  - o08-meimra
+  - o09-yama
+  - o10-shema

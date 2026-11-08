@@ -1,0 +1,521 @@
+id: o10-shema
+cefr: B1
+scene: study
+title:
+  he: שמע ישראל
+  en: Hear, O Israel
+story: 'פרשת ואתחנן. איתן קורא את ״שמע ישראל״ ואת ברכת כהנים בתרגום אונקלוס, וממשיך לבד: שניים מקרא ואחד תרגום, כל שבוע.'
+canDo:
+- לקרוא את ״שמע ישראל״ בתרגום
+- לקרוא את ברכת כהנים בתרגום
+- להבין רחים, ותתני, ותמליל, ויטר, ויסגי
+vocabulary:
+- id: terachem
+  text: ותרחם
+  translation: ואהבת
+  pos: verb
+  example:
+    text: ותרחם ית יי אלהך בכל לבך ובכל נפשך ובכל נכסך
+    translation: 'בתורה: וְאָהַבְתָּ אֵת יְהוָה אֱלֹהֶיךָ בְּכָל־לְבָבְךָ וּבְכָל־נַפְשְׁךָ וּבְכָל־מְאֹדֶךָ'
+    source: תרגום אונקלוס, דברים ו, ה
+    vocalized: וְתִרְחַם יָת יְיָ אֱלָהָךְ בְּכָל לִבָּךְ וּבְכָל נַפְשָׁךְ וּבְכָל נִכְסָךְ
+- id: lechalach
+  text: לבך
+  translation: לבבך
+  pos: noun
+  example:
+    text: ואם יפני לבך ולא תקבל ותטעי ותסגוד לטעות עממיא ותפלחנון
+    translation: 'בתורה: וְאִם־יִפְנֶה לְבָבְךָ וְלֹא תִשְׁמָע וְנִדַּחְתָּ וְהִשְׁתַּחֲוִיתָ לֵאלֹהִים אֲחֵרִים וַעֲבַדְתָּם'
+    source: תרגום אונקלוס, דברים ל, יז
+    vocalized: וְאִם יִפְנֵי לִבָּךְ וְלָא תְקַבֵּל וְתִטְּעֵי וְתִסְגוּד לְטַּעֲוַת עַמְמַיָא וְתִפְלְחִנוּן
+- id: teteni
+  text: ותתננון
+  translation: ושיננתם
+  pos: verb
+  example:
+    text: ותתננון לבניך ותמלל בהון במתבך בביתך ובמהכך בארחא ובמשכבך ובמקימך
+    translation: 'בתורה: וְשִׁנַּנְתָּם לְבָנֶיךָ וְדִבַּרְתָּ בָּם בְּשִׁבְתְּךָ בְּבֵיתֶךָ וּבְלֶכְתְּךָ בַדֶּרֶךְ וּבְשָׁכְבְּךָ וּבְקוּמֶךָ'
+    source: תרגום אונקלוס, דברים ו, ז
+    vocalized: וּתְתָנִנוּן לִבְנָיךְ וּתְמַלֵל בְּהוֹן בְּמִתְּבָךְ בְּבֵיתָךְ וּבִמְהָכָךְ בְּאָרְחָא וּבְמִשְׁכְּבָךְ וּבִמְקִימָךְ
+- id: temallel
+  text: ותמלל
+  translation: ודיברת
+  pos: verb
+  example:
+    text: ותתננון לבניך ותמלל בהון במתבך בביתך ובמהכך בארחא ובמשכבך ובמקימך
+    translation: 'בתורה: וְשִׁנַּנְתָּם לְבָנֶיךָ וְדִבַּרְתָּ בָּם בְּשִׁבְתְּךָ בְּבֵיתֶךָ וּבְלֶכְתְּךָ בַדֶּרֶךְ וּבְשָׁכְבְּךָ וּבְקוּמֶךָ'
+    source: תרגום אונקלוס, דברים ו, ז
+    vocalized: וּתְתָנִנוּן לִבְנָיךְ וּתְמַלֵל בְּהוֹן בְּמִתְּבָךְ בְּבֵיתָךְ וּבִמְהָכָךְ בְּאָרְחָא וּבְמִשְׁכְּבָךְ וּבִמְקִימָךְ
+- id: bemeitvach
+  text: בביתך
+  translation: בביתך (בארמית)
+  pos: noun
+  example:
+    text: לא יהי לך בביתך מכילא ומכילא רבתא וזערתא
+    translation: 'בתורה: לֹא־יִהְיֶה לְךָ בְּבֵיתְךָ אֵיפָה וְאֵיפָה גְּדוֹלָה וּקְטַנָּה'
+    source: תרגום אונקלוס, דברים כה, יד
+    vocalized: לָא יְהֵי לָךְ בְּבֵיתָךְ מְכִילָא וּמְכִילָא רַבְּתָא וּזְעֶרְתָּא
+- id: yevarchinach
+  text: יברכינך
+  translation: יברכך
+  pos: verb
+  example:
+    text: יברכינך יי ויטרינך
+    translation: 'בתורה: יְבָרֶכְךָ יְהוָה וְיִשְׁמְרֶךָ'
+    source: תרגום אונקלוס, במדבר ו, כד
+    vocalized: יְבָרְכִינָךְ יְיָ וְיִטְרִינָךְ
+- id: veyitrinach
+  text: ויטרינך
+  translation: וישמרך
+  pos: verb
+  example:
+    text: יברכינך יי ויטרינך
+    translation: 'בתורה: יְבָרֶכְךָ יְהוָה וְיִשְׁמְרֶךָ'
+    source: תרגום אונקלוס, במדבר ו, כד
+    vocalized: יְבָרְכִינָךְ יְיָ וְיִטְרִינָךְ
+- id: yanher
+  text: ינהר
+  translation: יאיר
+  pos: verb
+  example:
+    text: ינהר יי שכנתה לותך וירחם יתך
+    translation: 'בתורה: יָאֵר יְהוָה פָּנָיו אֵלֶיךָ וִיחֻנֶּךָּ'
+    source: תרגום אונקלוס, במדבר ו, כה
+    vocalized: יַנְהַר יְיָ שְׁכִנְתֵּהּ לְוָתָךְ וִירַחֵם יָתָךְ
+- id: shlam
+  text: שלם
+  translation: שלום
+  pos: noun
+  example:
+    text: ליצר זרעית יצר לשלם זרעית שלם
+    translation: 'בתורה: לְיֵצֶר מִשְׁפַּחַת הַיִּצְרִי לְשִׁלֵּם מִשְׁפַּחַת הַשִּׁלֵּמִי'
+    source: תרגום אונקלוס, במדבר כו, מט
+    vocalized: לְיֵצֶר זַרְעִית יֵצֶר לְשִׁלֵם זַרְעִית שִׁלֵם
+- id: yisav
+  text: יסב
+  translation: ישא
+  pos: verb
+  example:
+    text: והוא אתתא בבתלתהא יסב
+    translation: 'בתורה: וְהוּא אִשָּׁה בִבְתוּלֶיהָ יִקָּח'
+    source: תרגום אונקלוס, ויקרא כא, יג
+    vocalized: וְהוּא אִתְּתָא בִבְתֻלְתָּהָא יִסָב
+grammar: []
+lessons:
+- id: o10-l1
+  kind: new
+  title:
+    he: ותרחם
+    en: And you shall love
+  exercises:
+  - id: o10-l1-01
+    type: dialogue
+    scene: יום שישי אחרון לפני שאיתן ממשיך לבד.
+    lines:
+    - speaker: yisrael
+      text: ״ותרחם ית יי אלהך בכל לבך״. ״רחם״ אצל אונקלוס = אהב.
+      translation: ותרחם
+    - speaker: eitan
+      text: כמו ״דרחמיה קמצא״ בגמרא.
+      translation: איתן זוכר
+  - id: o10-l1-02
+    type: learn
+    lexeme: terachem
+  - id: o10-l1-03
+    type: learn
+    lexeme: lechalach
+  - id: o10-l1-04
+    type: learn
+    lexeme: teteni
+  - id: o10-l1-05
+    type: learn
+    lexeme: temallel
+  - id: o10-l1-06
+    type: learn
+    lexeme: bemeitvach
+  - id: o10-l1-07
+    type: match_pairs
+    pairs:
+    - - ותרחם
+      - ואהבת
+    - - לבך
+      - לבבך
+    - - ותתננון
+      - ושיננתם
+    - - ותמלל
+      - ודיברת
+    - - בביתך
+      - בביתך (בארמית)
+    lexemes:
+    - terachem
+    - lechalach
+    - teteni
+    - temallel
+    - bemeitvach
+  - id: o10-l1-08
+    type: multiple_choice
+    prompt: מה פירוש ותרחם?
+    options:
+    - ואהבת
+    - לבבך
+    - ושיננתם
+    correct: 0
+    lexemes:
+    - terachem
+  - id: o10-l1-09
+    type: multiple_choice
+    prompt: מה פירוש לבך?
+    options:
+    - לבבך
+    - ושיננתם
+    - ישא
+    correct: 0
+    lexemes:
+    - lechalach
+  - id: o10-l1-10
+    type: multiple_choice
+    prompt: מה פירוש ותתננון?
+    options:
+    - ושיננתם
+    - בביתך (בארמית)
+    - ודיברת
+    correct: 0
+    lexemes:
+    - teteni
+  - id: o10-l1-11
+    type: multiple_choice
+    prompt: מה פירוש ותמלל?
+    options:
+    - ודיברת
+    - בביתך (בארמית)
+    - יאיר
+    correct: 0
+    lexemes:
+    - temallel
+  - id: o10-l1-12
+    type: multiple_choice
+    prompt: מה פירוש בביתך?
+    options:
+    - בביתך (בארמית)
+    - וישמרך
+    - לבבך
+    correct: 0
+    lexemes:
+    - bemeitvach
+  - id: o10-l1-13
+    type: fill_blank
+    sentence: ___ ית יי אלהך בכל לבך ובכל נפשך ובכל נכסך
+    translation: 'בתורה: וְאָהַבְתָּ אֵת יְהוָה אֱלֹהֶיךָ בְּכָל־לְבָבְךָ וּבְכָל־נַפְשְׁךָ וּבְכָל־מְאֹדֶךָ'
+    answers:
+    - ותרחם
+    options:
+    - ותרחם
+    - ותתננון
+    - ויטרינך
+    lexemes:
+    - terachem
+    source: תרגום אונקלוס, דברים ו, ה
+    vocalized: וְתִרְחַם יָת יְיָ אֱלָהָךְ בְּכָל לִבָּךְ וּבְכָל נַפְשָׁךְ וּבְכָל נִכְסָךְ
+  - id: o10-l1-14
+    type: fill_blank
+    sentence: ואם יפני ___ ולא תקבל ותטעי ותסגוד לטעות עממיא ותפלחנון
+    translation: 'בתורה: וְאִם־יִפְנֶה לְבָבְךָ וְלֹא תִשְׁמָע וְנִדַּחְתָּ וְהִשְׁתַּחֲוִיתָ לֵאלֹהִים אֲחֵרִים וַעֲבַדְתָּם'
+    answers:
+    - לבך
+    options:
+    - לבך
+    - ותמלל
+    - בביתך
+    lexemes:
+    - lechalach
+    source: תרגום אונקלוס, דברים ל, יז
+    vocalized: וְאִם יִפְנֵי לִבָּךְ וְלָא תְקַבֵּל וְתִטְּעֵי וְתִסְגוּד לְטַּעֲוַת עַמְמַיָא וְתִפְלְחִנוּן
+  - id: o10-l1-15
+    type: fill_blank
+    sentence: ___ לבניך ותמלל בהון במתבך בביתך ובמהכך בארחא ובמשכבך ובמקימך
+    translation: 'בתורה: וְשִׁנַּנְתָּם לְבָנֶיךָ וְדִבַּרְתָּ בָּם בְּשִׁבְתְּךָ בְּבֵיתֶךָ וּבְלֶכְתְּךָ בַדֶּרֶךְ וּבְשָׁכְבְּךָ וּבְקוּמֶךָ'
+    answers:
+    - ותתננון
+    options:
+    - ותתננון
+    - ותרחם
+    - שלם
+    lexemes:
+    - teteni
+    source: תרגום אונקלוס, דברים ו, ז
+    vocalized: וּתְתָנִנוּן לִבְנָיךְ וּתְמַלֵל בְּהוֹן בְּמִתְּבָךְ בְּבֵיתָךְ וּבִמְהָכָךְ בְּאָרְחָא וּבְמִשְׁכְּבָךְ וּבִמְקִימָךְ
+  - id: o10-l1-16
+    type: fill_blank
+    sentence: ותתננון לבניך ___ בהון במתבך בביתך ובמהכך בארחא ובמשכבך ובמקימך
+    translation: 'בתורה: וְשִׁנַּנְתָּם לְבָנֶיךָ וְדִבַּרְתָּ בָּם בְּשִׁבְתְּךָ בְּבֵיתֶךָ וּבְלֶכְתְּךָ בַדֶּרֶךְ וּבְשָׁכְבְּךָ וּבְקוּמֶךָ'
+    answers:
+    - ותמלל
+    options:
+    - ותמלל
+    - ותרחם
+    - יסב
+    lexemes:
+    - temallel
+    source: תרגום אונקלוס, דברים ו, ז
+    vocalized: וּתְתָנִנוּן לִבְנָיךְ וּתְמַלֵל בְּהוֹן בְּמִתְּבָךְ בְּבֵיתָךְ וּבִמְהָכָךְ בְּאָרְחָא וּבְמִשְׁכְּבָךְ וּבִמְקִימָךְ
+  - id: o10-l1-17
+    type: fill_blank
+    sentence: לא יהי לך ___ מכילא ומכילא רבתא וזערתא
+    translation: 'בתורה: לֹא־יִהְיֶה לְךָ בְּבֵיתְךָ אֵיפָה וְאֵיפָה גְּדוֹלָה וּקְטַנָּה'
+    answers:
+    - בביתך
+    options:
+    - בביתך
+    - יסב
+    - ותרחם
+    lexemes:
+    - bemeitvach
+    source: תרגום אונקלוס, דברים כה, יד
+    vocalized: לָא יְהֵי לָךְ בְּבֵיתָךְ מְכִילָא וּמְכִילָא רַבְּתָא וּזְעֶרְתָּא
+- id: o10-l2
+  kind: new
+  title:
+    he: יברכינך
+    en: May He bless you
+  exercises:
+  - id: o10-l2-18
+    type: learn
+    lexeme: yevarchinach
+  - id: o10-l2-19
+    type: learn
+    lexeme: veyitrinach
+  - id: o10-l2-20
+    type: learn
+    lexeme: yanher
+  - id: o10-l2-21
+    type: learn
+    lexeme: shlam
+  - id: o10-l2-22
+    type: learn
+    lexeme: yisav
+  - id: o10-l2-23
+    type: match_pairs
+    pairs:
+    - - יברכינך
+      - יברכך
+    - - ויטרינך
+      - וישמרך
+    - - ינהר
+      - יאיר
+    - - שלם
+      - שלום
+    - - יסב
+      - ישא
+    lexemes:
+    - yevarchinach
+    - veyitrinach
+    - yanher
+    - shlam
+    - yisav
+  - id: o10-l2-24
+    type: multiple_choice
+    prompt: מה פירוש יברכינך?
+    options:
+    - יברכך
+    - ישא
+    - ושיננתם
+    correct: 0
+    lexemes:
+    - yevarchinach
+  - id: o10-l2-25
+    type: multiple_choice
+    prompt: מה פירוש ויטרינך?
+    options:
+    - וישמרך
+    - ישא
+    - יאיר
+    correct: 0
+    lexemes:
+    - veyitrinach
+  - id: o10-l2-26
+    type: multiple_choice
+    prompt: מה פירוש ינהר?
+    options:
+    - יאיר
+    - ודיברת
+    - בביתך (בארמית)
+    correct: 0
+    lexemes:
+    - yanher
+  - id: o10-l2-27
+    type: multiple_choice
+    prompt: מה פירוש שלם?
+    options:
+    - שלום
+    - ודיברת
+    - לבבך
+    correct: 0
+    lexemes:
+    - shlam
+  - id: o10-l2-28
+    type: multiple_choice
+    prompt: מה פירוש יסב?
+    options:
+    - ישא
+    - בביתך (בארמית)
+    - לבבך
+    correct: 0
+    lexemes:
+    - yisav
+  - id: o10-l2-29
+    type: fill_blank
+    sentence: ___ יי ויטרינך
+    translation: 'בתורה: יְבָרֶכְךָ יְהוָה וְיִשְׁמְרֶךָ'
+    answers:
+    - יברכינך
+    options:
+    - יברכינך
+    - ותתננון
+    - יסב
+    lexemes:
+    - yevarchinach
+    source: תרגום אונקלוס, במדבר ו, כד
+    vocalized: יְבָרְכִינָךְ יְיָ וְיִטְרִינָךְ
+  - id: o10-l2-30
+    type: fill_blank
+    sentence: יברכינך יי ___
+    translation: 'בתורה: יְבָרֶכְךָ יְהוָה וְיִשְׁמְרֶךָ'
+    answers:
+    - ויטרינך
+    options:
+    - ויטרינך
+    - ותתננון
+    - ינהר
+    lexemes:
+    - veyitrinach
+    source: תרגום אונקלוס, במדבר ו, כד
+    vocalized: יְבָרְכִינָךְ יְיָ וְיִטְרִינָךְ
+  - id: o10-l2-31
+    type: fill_blank
+    sentence: ___ יי שכנתה לותך וירחם יתך
+    translation: 'בתורה: יָאֵר יְהוָה פָּנָיו אֵלֶיךָ וִיחֻנֶּךָּ'
+    answers:
+    - ינהר
+    options:
+    - ינהר
+    - שלם
+    - בביתך
+    lexemes:
+    - yanher
+    source: תרגום אונקלוס, במדבר ו, כה
+    vocalized: יַנְהַר יְיָ שְׁכִנְתֵּהּ לְוָתָךְ וִירַחֵם יָתָךְ
+  - id: o10-l2-32
+    type: fill_blank
+    sentence: ליצר זרעית יצר לשלם זרעית ___
+    translation: 'בתורה: לְיֵצֶר מִשְׁפַּחַת הַיִּצְרִי לְשִׁלֵּם מִשְׁפַּחַת הַשִּׁלֵּמִי'
+    answers:
+    - שלם
+    options:
+    - שלם
+    - ותמלל
+    - בביתך
+    lexemes:
+    - shlam
+    source: תרגום אונקלוס, במדבר כו, מט
+    vocalized: לְיֵצֶר זַרְעִית יֵצֶר לְשִׁלֵם זַרְעִית שִׁלֵם
+  - id: o10-l2-33
+    type: fill_blank
+    sentence: והוא אתתא בבתלתהא ___
+    translation: 'בתורה: וְהוּא אִשָּׁה בִבְתוּלֶיהָ יִקָּח'
+    answers:
+    - יסב
+    options:
+    - יסב
+    - יברכינך
+    - שלם
+    lexemes:
+    - yisav
+    source: תרגום אונקלוס, ויקרא כא, יג
+    vocalized: וְהוּא אִתְּתָא בִבְתֻלְתָּהָא יִסָב
+- id: o10-l3
+  kind: review
+  title:
+    he: חזרה וקריאה
+    en: Review and reading
+  exercises:
+  - id: o10-l3-34
+    type: reading
+    kind: תרגום אונקלוס, במדבר ו
+    title: ברכת כהנים
+    text: 'יברכינך יי ויטרינך
+
+
+      ינהר יי שכנתה לותך וירחם יתך
+
+
+      יסב יי אפה לותך וישוי לך שלם'
+    translation: 'יְבָרֶכְךָ יְהוָה וְיִשְׁמְרֶךָ
+
+
+      יָאֵר יְהוָה פָּנָיו אֵלֶיךָ וִיחֻנֶּךָּ
+
+
+      יִשָּׂא יְהוָה פָּנָיו אֵלֶיךָ וְיָשֵׂם לְךָ שָׁלוֹם'
+    lexemes:
+    - terachem
+    - lechalach
+    - teteni
+    - temallel
+    - bemeitvach
+    - yevarchinach
+    - veyitrinach
+    - yanher
+    source: תרגום אונקלוס, במדבר ו, כד–כו
+    vocalized: יְבָרְכִינָךְ יְיָ וְיִטְרִינָךְ יַנְהַר יְיָ שְׁכִנְתֵּהּ לְוָתָךְ וִירַחֵם יָתָךְ יִסַב יְיָ אַפֵּהּ לְוָתָךְ וִישַׁוֵי לָךְ שְׁלָם
+  - id: o10-l3-35
+    type: multiple_choice
+    prompt: ״ותרחם ית יי אלהך״. מה פירוש ״ותרחם״?
+    options:
+    - ואהבת
+    - ותרחם (רחמים)
+    - ותזכור
+    correct: 0
+    lexemes:
+    - terachem
+  - id: o10-l3-36
+    type: multiple_choice
+    prompt: ״יברכינך יי ויטרינך״. מה פירוש ״ויטרינך״?
+    options:
+    - וישמרך
+    - ויטרוף
+    - ויטהר
+    correct: 0
+    lexemes:
+    - veyitrinach
+  - id: o10-l3-37
+    type: dialogue
+    scene: ר׳ ישראל מוסר לאיתן חומש ישן.
+    lines:
+    - speaker: yisrael
+      text: זה החומש של סבא שלך, עם תרגום. מעכשיו אתה קורא בו, כל שבוע. ואם תתקע, ״זיל גמור״.
+      translation: הסוף
+    - speaker: eitan
+      text: ואם אתקע, אבוא אליך.
+      translation: איתן
+  - id: o10-l3-38
+    type: match_pairs
+    pairs:
+    - - ותרחם
+      - ואהבת
+    - - לבך
+      - לבבך
+    - - ותתננון
+      - ושיננתם
+    - - ותמלל
+      - ודיברת
+    - - בביתך
+      - בביתך (בארמית)
+    - - יברכינך
+      - יברכך
+    lexemes:
+    - terachem
+    - lechalach
+    - teteni
+    - temallel
+    - bemeitvach
+    - yevarchinach
