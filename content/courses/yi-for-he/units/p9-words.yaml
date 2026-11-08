@@ -1,0 +1,894 @@
+id: p9-words
+cefr: B1
+scene: party
+title:
+  he: 'הרחבת אוצר מילים 9: חיי יהדות'
+  en: 'Word builder 9: Jewish life'
+story: מילים שימושיות נוספות, כל אחת במשפט קצר.
+canDo:
+- להבין ולהשתמש במילים נפוצות נוספות
+- לזהות את המילים במשפטים
+vocabulary:
+- id: p9-tfilin
+  text: תפילין
+  translation: תפילין (לראש ולזרוע)
+  pos: noun
+  example:
+    text: איך זע תפילין.
+    translation: אני רואה תפילין (לראש ולזרוע)
+- id: p9-talis
+  text: טלית
+  translation: טלית גדולה
+  pos: noun
+  example:
+    text: איך זע אַ טלית.
+    translation: אני רואה טלית גדולה
+- id: p9-mezuze
+  text: מזוזה
+  translation: מזוזה בפתח
+  pos: noun
+  example:
+    text: איך זע אַ מזוזה.
+    translation: אני רואה מזוזה בפתח
+- id: p9-lulev
+  text: לולב
+  translation: לולב של סוכות
+  pos: noun
+  example:
+    text: איך זע אַ לולב.
+    translation: אני רואה לולב של סוכות
+- id: p9-esreg
+  text: אתרוג
+  translation: אתרוג של סוכות
+  pos: noun
+  example:
+    text: איך זע אַן אתרוג.
+    translation: אני רואה אתרוג של סוכות
+- id: p9-menoyre
+  text: מנורה
+  translation: מנורת שבעה קנים
+  pos: noun
+  example:
+    text: איך זע אַ מנורה.
+    translation: אני רואה מנורת שבעה קנים
+- id: p9-sidur
+  text: סידור
+  translation: ספר תפילה
+  pos: noun
+  example:
+    text: איך זע אַ סידור.
+    translation: אני רואה ספר תפילה
+- id: p9-khumesh
+  text: חומש
+  translation: חומש תורה
+  pos: noun
+  example:
+    text: איך זע אַ חומש.
+    translation: אני רואה חומש תורה
+- id: p9-gemore
+  text: גמרא
+  translation: ספר הגמרא
+  pos: noun
+  example:
+    text: איך זע גמרא.
+    translation: אני רואה ספר הגמרא
+- id: p9-mishne
+  text: משנה
+  translation: ספר המשנה
+  pos: noun
+  example:
+    text: איך זע משנה.
+    translation: אני רואה ספר המשנה
+- id: p9-yarmulke
+  text: יאַרמולקע
+  translation: כיפה
+  pos: noun
+  example:
+    text: איך זע אַ יאַרמולקע.
+    translation: אני רואה כיפה
+- id: p9-tsitsis
+  text: ציצית
+  translation: ציצית לבגד
+  pos: noun
+  example:
+    text: איך זע ציצית.
+    translation: אני רואה ציצית לבגד
+- id: p9-bmh
+  text: בית־המדרש
+  translation: בית מדרש
+  pos: noun
+  example:
+    text: איך זע אַ בית־המדרש.
+    translation: אני רואה בית מדרש
+- id: p9-hovdole
+  text: הבדלה
+  translation: הבדלה במוצאי שבת
+  pos: noun
+  example:
+    text: מיר זאָגן הבדלה.
+    translation: אנחנו אומרים הבדלה
+- id: p9-purim
+  text: פּורים
+  translation: פורים
+  pos: noun
+  example:
+    text: מיר פֿײַערן פּורים.
+    translation: אנחנו חוגגים פורים
+- id: p9-khanike
+  text: חנוכה
+  translation: חג החנוכה
+  pos: noun
+  example:
+    text: מיר פֿײַערן חנוכה.
+    translation: אנחנו חוגגים חנוכה
+- id: p9-shvues
+  text: שבועות
+  translation: חג השבועות
+  pos: noun
+  example:
+    text: מיר פֿײַערן שבועות.
+    translation: אנחנו חוגגים שבועות
+- id: p9-simkhes
+  text: שמחת־תורה
+  translation: שמחת תורה
+  pos: noun
+  example:
+    text: מיר פֿײַערן שמחת־תורה.
+    translation: אנחנו חוגגים שמחת תורה
+- id: p9-bar
+  text: בר־מצוה
+  translation: בר מצווה
+  pos: noun
+  example:
+    text: מיר גייען אויף אַ בר־מצוה.
+    translation: אנחנו הולכים לבר מצווה
+- id: p9-khasene
+  text: חתונה
+  translation: חתונה (אירוע)
+  pos: noun
+  example:
+    text: מיר גייען אויף אַ חתונה.
+    translation: אנחנו הולכים לחתונה
+- id: p9-bris
+  text: ברית
+  translation: ברית מילה
+  pos: noun
+  example:
+    text: מיר גייען אויף אַ ברית.
+    translation: אנחנו הולכים לברית
+- id: p9-moshiakh
+  text: משיח
+  translation: המשיח
+  pos: noun
+  example:
+    text: מיר וואַרטן אויף משיח.
+    translation: אנחנו מחכים למשיח
+- id: p9-hakhnoses
+  text: הכנסת־אורחים
+  translation: קבלת אורחים
+  pos: noun
+  example:
+    text: איך זע הכנסת־אורחים.
+    translation: אני רואה קבלת אורחים
+- id: p9-sforim
+  text: ספֿרים
+  translation: ספרי קודש
+  pos: noun
+  example:
+    text: איך זע ספֿרים.
+    translation: אני רואה ספרי קודש
+lessons:
+- id: p9-l1
+  kind: new
+  title:
+    he: חבילה 9 – חלק 1
+    en: Pack 9 – part 1
+  exercises:
+  - id: p9-l1-01
+    type: learn
+    lexeme: p9-tfilin
+  - id: p9-l1-02
+    type: learn
+    lexeme: p9-talis
+  - id: p9-l1-03
+    type: learn
+    lexeme: p9-mezuze
+  - id: p9-l1-04
+    type: learn
+    lexeme: p9-lulev
+  - id: p9-l1-05
+    type: learn
+    lexeme: p9-esreg
+  - id: p9-l1-06
+    type: learn
+    lexeme: p9-menoyre
+  - id: p9-l1-07
+    type: learn
+    lexeme: p9-sidur
+  - id: p9-l1-08
+    type: learn
+    lexeme: p9-khumesh
+  - id: p9-l1-09
+    type: match_pairs
+    pairs:
+    - - תפילין
+      - תפילין (לראש ולזרוע)
+    - - טלית
+      - טלית גדולה
+    - - מזוזה
+      - מזוזה בפתח
+    - - לולב
+      - לולב של סוכות
+    lexemes:
+    - p9-tfilin
+    - p9-talis
+    - p9-mezuze
+    - p9-lulev
+  - id: p9-l1-10
+    type: match_pairs
+    pairs:
+    - - אתרוג
+      - אתרוג של סוכות
+    - - מנורה
+      - מנורת שבעה קנים
+    - - סידור
+      - ספר תפילה
+    - - חומש
+      - חומש תורה
+    lexemes:
+    - p9-esreg
+    - p9-menoyre
+    - p9-sidur
+    - p9-khumesh
+  - id: p9-l1-11
+    type: multiple_choice
+    prompt: מה פירוש תפילין?
+    options:
+    - תפילין (לראש ולזרוע)
+    - חתונה (אירוע)
+    - ספר המשנה
+    correct: 0
+    lexemes:
+    - p9-tfilin
+  - id: p9-l1-12
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: טלית גדולה?'
+    options:
+    - טלית
+    - גמרא
+    - פּורים
+    correct: 0
+    lexemes:
+    - p9-talis
+  - id: p9-l1-13
+    type: multiple_choice
+    prompt: מה פירוש מזוזה?
+    options:
+    - מזוזה בפתח
+    - חתונה (אירוע)
+    - חג השבועות
+    correct: 0
+    lexemes:
+    - p9-mezuze
+  - id: p9-l1-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: לולב של סוכות?'
+    options:
+    - לולב
+    - שמחת־תורה
+    - שבועות
+    correct: 0
+    lexemes:
+    - p9-lulev
+  - id: p9-l1-15
+    type: multiple_choice
+    prompt: מה פירוש אתרוג?
+    options:
+    - אתרוג של סוכות
+    - חתונה (אירוע)
+    - ציצית לבגד
+    correct: 0
+    lexemes:
+    - p9-esreg
+  - id: p9-l1-16
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: מנורת שבעה קנים?'
+    options:
+    - מנורה
+    - שבועות
+    - בית־המדרש
+    correct: 0
+    lexemes:
+    - p9-menoyre
+  - id: p9-l1-17
+    type: multiple_choice
+    prompt: מה פירוש סידור?
+    options:
+    - ספר תפילה
+    - הבדלה במוצאי שבת
+    - המשיח
+    correct: 0
+    lexemes:
+    - p9-sidur
+  - id: p9-l1-18
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: חומש תורה?'
+    options:
+    - חומש
+    - ציצית
+    - בר־מצוה
+    correct: 0
+    lexemes:
+    - p9-khumesh
+  - id: p9-l1-19
+    type: fill_blank
+    sentence: איך זע ___.
+    translation: אני רואה תפילין (לראש ולזרוע)
+    answers:
+    - תפילין
+    options:
+    - תפילין
+    - ספֿרים
+    - גמרא
+    lexemes:
+    - p9-tfilin
+  - id: p9-l1-20
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה טלית גדולה
+    answers:
+    - טלית
+    options:
+    - טלית
+    - יאַרמולקע
+    - בית־המדרש
+    lexemes:
+    - p9-talis
+  - id: p9-l1-21
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה מזוזה בפתח
+    answers:
+    - מזוזה
+    options:
+    - מזוזה
+    - בית־המדרש
+    - יאַרמולקע
+    lexemes:
+    - p9-mezuze
+  - id: p9-l1-22
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה לולב של סוכות
+    answers:
+    - לולב
+    options:
+    - לולב
+    - יאַרמולקע
+    - בית־המדרש
+    lexemes:
+    - p9-lulev
+  - id: p9-l1-23
+    type: fill_blank
+    sentence: איך זע אַן ___.
+    translation: אני רואה אתרוג של סוכות
+    answers:
+    - אתרוג
+    options:
+    - אתרוג
+    - משיח
+    - ציצית
+    lexemes:
+    - p9-esreg
+  - id: p9-l1-24
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה מנורת שבעה קנים
+    answers:
+    - מנורה
+    options:
+    - מנורה
+    - בית־המדרש
+    - יאַרמולקע
+    lexemes:
+    - p9-menoyre
+  - id: p9-l1-25
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה ספר תפילה
+    answers:
+    - סידור
+    options:
+    - סידור
+    - בית־המדרש
+    - יאַרמולקע
+    lexemes:
+    - p9-sidur
+  - id: p9-l1-26
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה חומש תורה
+    answers:
+    - חומש
+    options:
+    - חומש
+    - בית־המדרש
+    - יאַרמולקע
+    lexemes:
+    - p9-khumesh
+- id: p9-l2
+  kind: new
+  title:
+    he: חבילה 9 – חלק 2
+    en: Pack 9 – part 2
+  exercises:
+  - id: p9-l2-01
+    type: learn
+    lexeme: p9-gemore
+  - id: p9-l2-02
+    type: learn
+    lexeme: p9-mishne
+  - id: p9-l2-03
+    type: learn
+    lexeme: p9-yarmulke
+  - id: p9-l2-04
+    type: learn
+    lexeme: p9-tsitsis
+  - id: p9-l2-05
+    type: learn
+    lexeme: p9-bmh
+  - id: p9-l2-06
+    type: learn
+    lexeme: p9-hovdole
+  - id: p9-l2-07
+    type: learn
+    lexeme: p9-purim
+  - id: p9-l2-08
+    type: learn
+    lexeme: p9-khanike
+  - id: p9-l2-09
+    type: match_pairs
+    pairs:
+    - - גמרא
+      - ספר הגמרא
+    - - משנה
+      - ספר המשנה
+    - - יאַרמולקע
+      - כיפה
+    - - ציצית
+      - ציצית לבגד
+    lexemes:
+    - p9-gemore
+    - p9-mishne
+    - p9-yarmulke
+    - p9-tsitsis
+  - id: p9-l2-10
+    type: match_pairs
+    pairs:
+    - - בית־המדרש
+      - בית מדרש
+    - - הבדלה
+      - הבדלה במוצאי שבת
+    - - פּורים
+      - פורים
+    - - חנוכה
+      - חג החנוכה
+    lexemes:
+    - p9-bmh
+    - p9-hovdole
+    - p9-purim
+    - p9-khanike
+  - id: p9-l2-11
+    type: multiple_choice
+    prompt: מה פירוש גמרא?
+    options:
+    - ספר הגמרא
+    - ברית מילה
+    - ספרי קודש
+    correct: 0
+    lexemes:
+    - p9-gemore
+  - id: p9-l2-12
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: ספר המשנה?'
+    options:
+    - משנה
+    - הכנסת־אורחים
+    - לולב
+    correct: 0
+    lexemes:
+    - p9-mishne
+  - id: p9-l2-13
+    type: multiple_choice
+    prompt: מה פירוש יאַרמולקע?
+    options:
+    - כיפה
+    - מזוזה בפתח
+    - ספר תפילה
+    correct: 0
+    lexemes:
+    - p9-yarmulke
+  - id: p9-l2-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: ציצית לבגד?'
+    options:
+    - ציצית
+    - אתרוג
+    - חומש
+    correct: 0
+    lexemes:
+    - p9-tsitsis
+  - id: p9-l2-15
+    type: multiple_choice
+    prompt: מה פירוש בית־המדרש?
+    options:
+    - בית מדרש
+    - תפילין (לראש ולזרוע)
+    - חג השבועות
+    correct: 0
+    lexemes:
+    - p9-bmh
+  - id: p9-l2-16
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: הבדלה במוצאי שבת?'
+    options:
+    - הבדלה
+    - שמחת־תורה
+    - סידור
+    correct: 0
+    lexemes:
+    - p9-hovdole
+  - id: p9-l2-17
+    type: multiple_choice
+    prompt: מה פירוש פּורים?
+    options:
+    - פורים
+    - ספר תפילה
+    - בר מצווה
+    correct: 0
+    lexemes:
+    - p9-purim
+  - id: p9-l2-18
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: חג החנוכה?'
+    options:
+    - חנוכה
+    - סידור
+    - חתונה
+    correct: 0
+    lexemes:
+    - p9-khanike
+  - id: p9-l2-19
+    type: fill_blank
+    sentence: איך זע ___.
+    translation: אני רואה ספר הגמרא
+    answers:
+    - גמרא
+    options:
+    - גמרא
+    - תפילין
+    - ספֿרים
+    lexemes:
+    - p9-gemore
+  - id: p9-l2-20
+    type: fill_blank
+    sentence: איך זע ___.
+    translation: אני רואה ספר המשנה
+    answers:
+    - משנה
+    options:
+    - משנה
+    - תפילין
+    - הכנסת־אורחים
+    lexemes:
+    - p9-mishne
+  - id: p9-l2-21
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה כיפה
+    answers:
+    - יאַרמולקע
+    options:
+    - יאַרמולקע
+    - מזוזה
+    - מנורה
+    lexemes:
+    - p9-yarmulke
+  - id: p9-l2-22
+    type: fill_blank
+    sentence: איך זע ___.
+    translation: אני רואה ציצית לבגד
+    answers:
+    - ציצית
+    options:
+    - ציצית
+    - ספֿרים
+    - הכנסת־אורחים
+    lexemes:
+    - p9-tsitsis
+  - id: p9-l2-23
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה בית מדרש
+    answers:
+    - בית־המדרש
+    options:
+    - בית־המדרש
+    - חומש
+    - מזוזה
+    lexemes:
+    - p9-bmh
+  - id: p9-l2-24
+    type: fill_blank
+    sentence: מיר זאָגן ___.
+    translation: אנחנו אומרים הבדלה
+    answers:
+    - הבדלה
+    options:
+    - הבדלה
+    - לולב
+    - חומש
+    lexemes:
+    - p9-hovdole
+  - id: p9-l2-25
+    type: fill_blank
+    sentence: מיר פֿײַערן ___.
+    translation: אנחנו חוגגים פורים
+    answers:
+    - פּורים
+    options:
+    - פּורים
+    - שמחת־תורה
+    - שבועות
+    lexemes:
+    - p9-purim
+  - id: p9-l2-26
+    type: fill_blank
+    sentence: מיר פֿײַערן ___.
+    translation: אנחנו חוגגים חנוכה
+    answers:
+    - חנוכה
+    options:
+    - חנוכה
+    - שבועות
+    - שמחת־תורה
+    lexemes:
+    - p9-khanike
+- id: p9-l3
+  kind: new
+  title:
+    he: חבילה 9 – חלק 3
+    en: Pack 9 – part 3
+  exercises:
+  - id: p9-l3-01
+    type: learn
+    lexeme: p9-shvues
+  - id: p9-l3-02
+    type: learn
+    lexeme: p9-simkhes
+  - id: p9-l3-03
+    type: learn
+    lexeme: p9-bar
+  - id: p9-l3-04
+    type: learn
+    lexeme: p9-khasene
+  - id: p9-l3-05
+    type: learn
+    lexeme: p9-bris
+  - id: p9-l3-06
+    type: learn
+    lexeme: p9-moshiakh
+  - id: p9-l3-07
+    type: learn
+    lexeme: p9-hakhnoses
+  - id: p9-l3-08
+    type: learn
+    lexeme: p9-sforim
+  - id: p9-l3-09
+    type: match_pairs
+    pairs:
+    - - שבועות
+      - חג השבועות
+    - - שמחת־תורה
+      - שמחת תורה
+    - - בר־מצוה
+      - בר מצווה
+    - - חתונה
+      - חתונה (אירוע)
+    lexemes:
+    - p9-shvues
+    - p9-simkhes
+    - p9-bar
+    - p9-khasene
+  - id: p9-l3-10
+    type: match_pairs
+    pairs:
+    - - ברית
+      - ברית מילה
+    - - משיח
+      - המשיח
+    - - הכנסת־אורחים
+      - קבלת אורחים
+    - - ספֿרים
+      - ספרי קודש
+    lexemes:
+    - p9-bris
+    - p9-moshiakh
+    - p9-hakhnoses
+    - p9-sforim
+  - id: p9-l3-11
+    type: multiple_choice
+    prompt: מה פירוש שבועות?
+    options:
+    - חג השבועות
+    - ספר תפילה
+    - כיפה
+    correct: 0
+    lexemes:
+    - p9-shvues
+  - id: p9-l3-12
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: שמחת תורה?'
+    options:
+    - שמחת־תורה
+    - מזוזה
+    - בית־המדרש
+    correct: 0
+    lexemes:
+    - p9-simkhes
+  - id: p9-l3-13
+    type: multiple_choice
+    prompt: מה פירוש בר־מצוה?
+    options:
+    - בר מצווה
+    - הבדלה במוצאי שבת
+    - טלית גדולה
+    correct: 0
+    lexemes:
+    - p9-bar
+  - id: p9-l3-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: חתונה (אירוע)?'
+    options:
+    - חתונה
+    - חומש
+    - טלית
+    correct: 0
+    lexemes:
+    - p9-khasene
+  - id: p9-l3-15
+    type: multiple_choice
+    prompt: מה פירוש ברית?
+    options:
+    - ברית מילה
+    - מזוזה בפתח
+    - אתרוג של סוכות
+    correct: 0
+    lexemes:
+    - p9-bris
+  - id: p9-l3-16
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: המשיח?'
+    options:
+    - משיח
+    - חנוכה
+    - סידור
+    correct: 0
+    lexemes:
+    - p9-moshiakh
+  - id: p9-l3-17
+    type: multiple_choice
+    prompt: מה פירוש הכנסת־אורחים?
+    options:
+    - קבלת אורחים
+    - מזוזה בפתח
+    - ספר המשנה
+    correct: 0
+    lexemes:
+    - p9-hakhnoses
+  - id: p9-l3-18
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: ספרי קודש?'
+    options:
+    - ספֿרים
+    - פּורים
+    - חומש
+    correct: 0
+    lexemes:
+    - p9-sforim
+  - id: p9-l3-19
+    type: fill_blank
+    sentence: מיר פֿײַערן ___.
+    translation: אנחנו חוגגים שבועות
+    answers:
+    - שבועות
+    options:
+    - שבועות
+    - פּורים
+    - חנוכה
+    lexemes:
+    - p9-shvues
+  - id: p9-l3-20
+    type: fill_blank
+    sentence: מיר פֿײַערן ___.
+    translation: אנחנו חוגגים שמחת תורה
+    answers:
+    - שמחת־תורה
+    options:
+    - שמחת־תורה
+    - חנוכה
+    - פּורים
+    lexemes:
+    - p9-simkhes
+  - id: p9-l3-21
+    type: fill_blank
+    sentence: מיר גייען אויף אַ ___.
+    translation: אנחנו הולכים לבר מצווה
+    answers:
+    - בר־מצוה
+    options:
+    - בר־מצוה
+    - ציצית
+    - מזוזה
+    lexemes:
+    - p9-bar
+  - id: p9-l3-22
+    type: fill_blank
+    sentence: מיר גייען אויף אַ ___.
+    translation: אנחנו הולכים לחתונה
+    answers:
+    - חתונה
+    options:
+    - חתונה
+    - מזוזה
+    - ציצית
+    lexemes:
+    - p9-khasene
+  - id: p9-l3-23
+    type: fill_blank
+    sentence: מיר גייען אויף אַ ___.
+    translation: אנחנו הולכים לברית
+    answers:
+    - ברית
+    options:
+    - ברית
+    - אתרוג
+    - חנוכה
+    lexemes:
+    - p9-bris
+  - id: p9-l3-24
+    type: fill_blank
+    sentence: מיר וואַרטן אויף ___.
+    translation: אנחנו מחכים למשיח
+    answers:
+    - משיח
+    options:
+    - משיח
+    - ציצית
+    - מזוזה
+    lexemes:
+    - p9-moshiakh
+  - id: p9-l3-25
+    type: fill_blank
+    sentence: איך זע ___.
+    translation: אני רואה קבלת אורחים
+    answers:
+    - הכנסת־אורחים
+    options:
+    - הכנסת־אורחים
+    - משנה
+    - ציצית
+    lexemes:
+    - p9-hakhnoses
+  - id: p9-l3-26
+    type: fill_blank
+    sentence: איך זע ___.
+    translation: אני רואה ספרי קודש
+    answers:
+    - ספֿרים
+    options:
+    - ספֿרים
+    - תפילין
+    - גמרא
+    lexemes:
+    - p9-sforim

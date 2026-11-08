@@ -1,0 +1,492 @@
+id: u16-gefil
+cefr: A2
+scene: health
+title:
+  he: איך אני מרגיש
+  en: Feelings and health
+story: הסבתא שואלת את מנחם איך הוא מרגיש.
+canDo:
+- לומר איך אני מרגיש
+- לדבר על בריאות ועייפות
+- לבקש דאקטער כשצריך
+vocabulary:
+- id: krank
+  text: קראַנק
+  translation: חולה
+  pos: adjective
+- id: gezunt2
+  text: געזונט
+  translation: בריא
+  pos: adjective
+- id: mid
+  text: מיד
+  translation: עייף
+  pos: adjective
+- id: freylekh
+  text: פֿריילעך
+  translation: שמח
+  pos: adjective
+- id: hungerik
+  text: הונגעריק
+  translation: רעב
+  pos: adjective
+- id: durshtik
+  text: דורשטיק
+  translation: צמא
+  pos: adjective
+- id: kop
+  text: קאָפּ
+  translation: ראש
+  pos: noun
+- id: hant
+  text: האַנט
+  translation: יד
+  pos: noun
+- id: doktor
+  text: דאָקטער
+  translation: רופא
+  pos: noun
+lessons:
+- id: u16-l1
+  kind: new
+  title:
+    he: איך מרגישים
+    en: Lesson
+  exercises:
+  - id: u16-l1-01
+    type: tip
+    title: מצבים
+    text: '**איך בין** + מצב: **איך בין מיד** (אני עייף), **איך בין פֿריילעך** (אני שמח).
+
+      **ער איז קראַנק** (הוא חולה), **זי איז געזונט** (היא בריאה).
+
+      **געזונט** כבר הכרתם ב־**זײַ געזונט**.
+
+      '
+  - id: u16-l1-02
+    type: learn
+    lexeme: mid
+  - id: u16-l1-03
+    type: learn
+    lexeme: krank
+  - id: u16-l1-04
+    type: learn
+    lexeme: gezunt2
+  - id: u16-l1-05
+    type: learn
+    lexeme: freylekh
+  - id: u16-l1-06
+    type: learn
+    lexeme: hungerik
+  - id: u16-l1-07
+    type: learn
+    lexeme: durshtik
+  - id: u16-l1-08
+    type: match_pairs
+    pairs:
+    - - מיד
+      - עייף
+    - - קראַנק
+      - חולה
+    - - געזונט
+      - בריא
+    - - פֿריילעך
+      - שמח
+    - - הונגעריק
+      - רעב
+    - - דורשטיק
+      - צמא
+    lexemes:
+    - mid
+    - krank
+    - gezunt2
+    - freylekh
+    - hungerik
+    - durshtik
+  - id: u16-l1-09
+    type: multiple_choice
+    prompt: מה פירוש מיד?
+    options:
+    - עייף
+    - חולה
+    - בריא
+    correct: 0
+    lexemes:
+    - mid
+  - id: u16-l1-10
+    type: multiple_choice
+    prompt: מה פירוש קראַנק?
+    options:
+    - חולה
+    - בריא
+    - עייף
+    correct: 0
+    lexemes:
+    - krank
+  - id: u16-l1-11
+    type: multiple_choice
+    prompt: מה פירוש געזונט?
+    options:
+    - בריא
+    - חולה
+    - עייף
+    correct: 0
+    lexemes:
+    - gezunt2
+  - id: u16-l1-12
+    type: multiple_choice
+    prompt: מה פירוש פֿריילעך?
+    options:
+    - שמח
+    - חולה
+    - בריא
+    correct: 0
+    lexemes:
+    - freylekh
+  - id: u16-l1-13
+    type: multiple_choice
+    prompt: מה פירוש הונגעריק?
+    options:
+    - רעב
+    - חולה
+    - בריא
+    correct: 0
+    lexemes:
+    - hungerik
+  - id: u16-l1-14
+    type: translate
+    direction: to_source
+    prompt: איך בין מיד.
+    answers:
+    - אני עייף
+    lexemes: &id001
+    - ikh
+    - bin
+    - mid
+  - id: u16-l1-15
+    type: translate
+    direction: to_target
+    prompt: אני עייף
+    answers:
+    - איך בין מיד
+    lexemes: *id001
+  - id: u16-l1-16
+    type: word_bank
+    prompt: אני עייף
+    answers:
+    - איך בין מיד
+    distractors:
+    - האַנט
+    - קאָפּ
+    lexemes: *id001
+  - id: u16-l1-17
+    type: translate
+    direction: to_source
+    prompt: ער איז קראַנק.
+    answers:
+    - הוא חולה
+    lexemes: &id002
+    - er
+    - iz
+    - krank
+  - id: u16-l1-18
+    type: translate
+    direction: to_target
+    prompt: הוא חולה
+    answers:
+    - ער איז קראַנק
+    lexemes: *id002
+  - id: u16-l1-19
+    type: word_bank
+    prompt: הוא חולה
+    answers:
+    - ער איז קראַנק
+    distractors:
+    - הונגעריק
+    - פֿריילעך
+    lexemes: *id002
+  - id: u16-l1-20
+    type: translate
+    direction: to_source
+    prompt: איך בין פֿריילעך.
+    answers:
+    - אני שמח
+    lexemes: &id003
+    - ikh
+    - bin
+    - freylekh
+  - id: u16-l1-21
+    type: translate
+    direction: to_target
+    prompt: אני שמח
+    answers:
+    - איך בין פֿריילעך
+    lexemes: *id003
+  - id: u16-l1-22
+    type: word_bank
+    prompt: אני שמח
+    answers:
+    - איך בין פֿריילעך
+    distractors:
+    - דאָקטער
+    - פֿריילעך
+    lexemes: *id003
+  - id: u16-l1-23
+    type: translate
+    direction: to_source
+    prompt: איך בין הונגעריק.
+    answers:
+    - אני רעב
+    lexemes: &id004
+    - ikh
+    - bin
+    - hungerik
+  - id: u16-l1-24
+    type: translate
+    direction: to_target
+    prompt: אני רעב
+    answers:
+    - איך בין הונגעריק
+    lexemes: *id004
+  - id: u16-l1-25
+    type: word_bank
+    prompt: אני רעב
+    answers:
+    - איך בין הונגעריק
+    distractors:
+    - קראַנק
+    - האַנט
+    lexemes: *id004
+- id: u16-l2
+  kind: new
+  title:
+    he: גוף ורופא
+    en: Lesson
+  exercises:
+  - id: u16-l2-01
+    type: learn
+    lexeme: kop
+  - id: u16-l2-02
+    type: learn
+    lexeme: hant
+  - id: u16-l2-03
+    type: learn
+    lexeme: doktor
+  - id: u16-l2-04
+    type: dialogue
+    scene: home
+    lines:
+    - speaker: bobe
+      text: ביסטו קראַנק?
+      translation: אתה חולה?
+    - speaker: menachem
+      text: ניין, איך בין נאָר מיד.
+      translation: לא, אני רק עייף.
+    - speaker: bobe
+      text: גיי שלאָפֿן.
+      translation: לך לישון.
+  - id: u16-l2-05
+    type: match_pairs
+    pairs:
+    - - קאָפּ
+      - ראש
+    - - האַנט
+      - יד
+    - - דאָקטער
+      - רופא
+    lexemes:
+    - kop
+    - hant
+    - doktor
+  - id: u16-l2-06
+    type: multiple_choice
+    prompt: מה פירוש קאָפּ?
+    options:
+    - ראש
+    - יד
+    - רופא
+    correct: 0
+    lexemes:
+    - kop
+  - id: u16-l2-07
+    type: multiple_choice
+    prompt: מה פירוש האַנט?
+    options:
+    - יד
+    - ראש
+    - רופא
+    correct: 0
+    lexemes:
+    - hant
+  - id: u16-l2-08
+    type: multiple_choice
+    prompt: מה פירוש דאָקטער?
+    options:
+    - רופא
+    - ראש
+    - יד
+    correct: 0
+    lexemes:
+    - doktor
+  - id: u16-l2-09
+    type: translate
+    direction: to_source
+    prompt: איך בין דורשטיק.
+    answers:
+    - אני צמא
+    lexemes: &id005
+    - ikh
+    - bin
+    - durshtik
+  - id: u16-l2-10
+    type: translate
+    direction: to_target
+    prompt: אני צמא
+    answers:
+    - איך בין דורשטיק
+    lexemes: *id005
+  - id: u16-l2-11
+    type: word_bank
+    prompt: אני צמא
+    answers:
+    - איך בין דורשטיק
+    distractors:
+    - האַנט
+    - מיד
+    lexemes: *id005
+  - id: u16-l2-12
+    type: translate
+    direction: to_source
+    prompt: זי איז געזונט.
+    answers:
+    - היא בריאה
+    lexemes: &id006
+    - zi
+    - iz
+    - gezunt2
+  - id: u16-l2-13
+    type: translate
+    direction: to_target
+    prompt: היא בריאה
+    answers:
+    - זי איז געזונט
+    lexemes: *id006
+  - id: u16-l2-14
+    type: word_bank
+    prompt: היא בריאה
+    answers:
+    - זי איז געזונט
+    distractors:
+    - הונגעריק
+    - דורשטיק
+    lexemes: *id006
+- id: u16-review
+  kind: review
+  title:
+    he: 'חזרה: איך אני מרגיש'
+    en: Review
+  exercises:
+  - id: u16-review-01
+    type: match_pairs
+    pairs:
+    - - מיד
+      - עייף
+    - - קראַנק
+      - חולה
+    - - געזונט
+      - בריא
+    - - פֿריילעך
+      - שמח
+    - - הונגעריק
+      - רעב
+    - - דורשטיק
+      - צמא
+    lexemes:
+    - mid
+    - krank
+    - gezunt2
+    - freylekh
+    - hungerik
+    - durshtik
+  - id: u16-review-02
+    type: match_pairs
+    pairs:
+    - - קאָפּ
+      - ראש
+    - - האַנט
+      - יד
+    - - דאָקטער
+      - רופא
+    lexemes:
+    - kop
+    - hant
+    - doktor
+  - id: u16-review-03
+    type: translate
+    direction: to_source
+    prompt: איך בין מיד.
+    answers:
+    - אני עייף
+    lexemes: *id001
+  - id: u16-review-04
+    type: translate
+    direction: to_target
+    prompt: אני עייף
+    answers:
+    - איך בין מיד
+    lexemes: *id001
+  - id: u16-review-05
+    type: word_bank
+    prompt: אני עייף
+    answers:
+    - איך בין מיד
+    distractors:
+    - האַנט
+    - קאָפּ
+    lexemes: *id001
+  - id: u16-review-06
+    type: translate
+    direction: to_source
+    prompt: ער איז קראַנק.
+    answers:
+    - הוא חולה
+    lexemes: *id002
+  - id: u16-review-07
+    type: translate
+    direction: to_target
+    prompt: הוא חולה
+    answers:
+    - ער איז קראַנק
+    lexemes: *id002
+  - id: u16-review-08
+    type: word_bank
+    prompt: הוא חולה
+    answers:
+    - ער איז קראַנק
+    distractors:
+    - הונגעריק
+    - פֿריילעך
+    lexemes: *id002
+  - id: u16-review-09
+    type: translate
+    direction: to_source
+    prompt: איך בין פֿריילעך.
+    answers:
+    - אני שמח
+    lexemes: *id003
+  - id: u16-review-10
+    type: translate
+    direction: to_target
+    prompt: אני שמח
+    answers:
+    - איך בין פֿריילעך
+    lexemes: *id003
+  - id: u16-review-11
+    type: word_bank
+    prompt: אני שמח
+    answers:
+    - איך בין פֿריילעך
+    distractors:
+    - דאָקטער
+    - פֿריילעך
+    lexemes: *id003

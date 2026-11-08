@@ -1,0 +1,723 @@
+id: u18-vi-bin-ikh
+cefr: A2
+scene: hello
+title:
+  he: מי אני
+  en: About me
+story: 'מנחם מספר על עצמו: איפה הוא גר, איזו שפה הוא מדבר ועם מי.'
+canDo:
+- לספר בקצרה על עצמי
+- לומר איפה אני גר ואיזו שפה אני מדבר
+- לסכם את מה שלמדתי ב־A2
+vocabulary:
+- id: alt
+  text: אַלט
+  translation: זקן / בן ... שנים
+  pos: adjective
+- id: yor
+  text: יאָר
+  translation: שנה
+  pos: noun
+- id: voynen
+  text: וווינען
+  translation: לגור
+  pos: verb
+- id: redn
+  text: רעדן
+  translation: לדבר
+  pos: verb
+- id: yidish
+  text: יידיש
+  translation: שפת היידיש
+  pos: noun
+- id: ivrit
+  text: עברית
+  translation: שפת עברית
+  pos: noun
+lessons:
+- id: u18-l1
+  kind: new
+  title:
+    he: על עצמי
+    en: Lesson
+  exercises:
+  - id: u18-l1-01
+    type: tip
+    title: לספר על עצמי
+    text: '**איך וווין** (אני גר), **איך רעד** (אני מדבר). **איך רעד יידיש** פירושו "אני מדבר יידיש".
+
+      שמות השפות: **יידיש**, **עברית**.
+
+      '
+  - id: u18-l1-02
+    type: learn
+    lexeme: voynen
+  - id: u18-l1-03
+    type: learn
+    lexeme: redn
+  - id: u18-l1-04
+    type: learn
+    lexeme: yidish
+  - id: u18-l1-05
+    type: learn
+    lexeme: ivrit
+  - id: u18-l1-06
+    type: match_pairs
+    pairs:
+    - - וווינען
+      - לגור
+    - - רעדן
+      - לדבר
+    - - יידיש
+      - שפת היידיש
+    - - עברית
+      - שפת עברית
+    lexemes:
+    - voynen
+    - redn
+    - yidish
+    - ivrit
+  - id: u18-l1-07
+    type: multiple_choice
+    prompt: מה פירוש וווינען?
+    options:
+    - לגור
+    - לדבר
+    correct: 0
+    lexemes:
+    - voynen
+  - id: u18-l1-08
+    type: multiple_choice
+    prompt: מה פירוש רעדן?
+    options:
+    - לדבר
+    - לגור
+    correct: 0
+    lexemes:
+    - redn
+  - id: u18-l1-09
+    type: multiple_choice
+    prompt: מה פירוש יידיש?
+    options:
+    - שפת היידיש
+    - שנה
+    - שפת עברית
+    correct: 0
+    lexemes:
+    - yidish
+  - id: u18-l1-10
+    type: multiple_choice
+    prompt: מה פירוש עברית?
+    options:
+    - שפת עברית
+    - שנה
+    - שפת היידיש
+    correct: 0
+    lexemes:
+    - ivrit
+  - id: u18-l1-11
+    type: translate
+    direction: to_source
+    prompt: איך וווין אין ישראל.
+    answers:
+    - אני גר בישראל
+    lexemes: &id001
+    - ikh
+    - voynen
+    - in
+    - yisroel
+  - id: u18-l1-12
+    type: translate
+    direction: to_target
+    prompt: אני גר בישראל
+    answers:
+    - איך וווין אין ישראל
+    lexemes: *id001
+  - id: u18-l1-13
+    type: word_bank
+    prompt: אני גר בישראל
+    answers:
+    - איך וווין אין ישראל
+    distractors:
+    - רעדן
+    - עברית
+    lexemes: *id001
+  - id: u18-l1-14
+    type: fill_blank
+    sentence: איך ___ אין ישראל.
+    translation: אני גר בישראל
+    answers:
+    - וווין
+    options:
+    - וווין
+    - רעדן
+    - יידיש
+    lexemes: *id001
+  - id: u18-l1-15
+    type: translate
+    direction: to_source
+    prompt: איך רעד יידיש.
+    answers:
+    - אני מדבר יידיש
+    lexemes: &id002
+    - ikh
+    - redn
+    - yidish
+  - id: u18-l1-16
+    type: translate
+    direction: to_target
+    prompt: אני מדבר יידיש
+    answers:
+    - איך רעד יידיש
+    lexemes: *id002
+  - id: u18-l1-17
+    type: word_bank
+    prompt: אני מדבר יידיש
+    answers:
+    - איך רעד יידיש
+    distractors:
+    - אַלט
+    - רעדן
+    lexemes: *id002
+  - id: u18-l1-18
+    type: fill_blank
+    sentence: איך ___ יידיש.
+    translation: אני מדבר יידיש
+    answers:
+    - רעד
+    options:
+    - רעד
+    - יאָר
+    - וווינען
+    lexemes: *id002
+  - id: u18-l1-19
+    type: translate
+    direction: to_source
+    prompt: מײַן זיידע רעדט יידיש.
+    answers:
+    - סבא שלי מדבר יידיש
+    lexemes: &id003
+    - w-mayn
+    - zeyde
+    - redn
+    - yidish
+  - id: u18-l1-20
+    type: translate
+    direction: to_target
+    prompt: סבא שלי מדבר יידיש
+    answers:
+    - מײַן זיידע רעדט יידיש
+    lexemes: *id003
+  - id: u18-l1-21
+    type: word_bank
+    prompt: סבא שלי מדבר יידיש
+    answers:
+    - מײַן זיידע רעדט יידיש
+    distractors:
+    - עברית
+    - וווינען
+    lexemes: *id003
+  - id: u18-l1-22
+    type: fill_blank
+    sentence: מײַן זיידע ___ יידיש.
+    translation: סבא שלי מדבר יידיש
+    answers:
+    - רעדט
+    options:
+    - רעדט
+    - וווינען
+    - יידיש
+    lexemes: *id003
+- id: u18-review
+  kind: review
+  title:
+    he: 'חזרה: מי אני'
+    en: Review
+  exercises:
+  - id: u18-review-01
+    type: match_pairs
+    pairs:
+    - - וווינען
+      - לגור
+    - - רעדן
+      - לדבר
+    - - יידיש
+      - שפת היידיש
+    - - עברית
+      - שפת עברית
+    lexemes:
+    - voynen
+    - redn
+    - yidish
+    - ivrit
+  - id: u18-review-02
+    type: translate
+    direction: to_source
+    prompt: איך וווין אין ישראל.
+    answers:
+    - אני גר בישראל
+    lexemes: *id001
+  - id: u18-review-03
+    type: translate
+    direction: to_target
+    prompt: אני גר בישראל
+    answers:
+    - איך וווין אין ישראל
+    lexemes: *id001
+  - id: u18-review-04
+    type: word_bank
+    prompt: אני גר בישראל
+    answers:
+    - איך וווין אין ישראל
+    distractors:
+    - רעדן
+    - עברית
+    lexemes: *id001
+  - id: u18-review-05
+    type: translate
+    direction: to_source
+    prompt: איך רעד יידיש.
+    answers:
+    - אני מדבר יידיש
+    lexemes: *id002
+  - id: u18-review-06
+    type: translate
+    direction: to_target
+    prompt: אני מדבר יידיש
+    answers:
+    - איך רעד יידיש
+    lexemes: *id002
+  - id: u18-review-07
+    type: word_bank
+    prompt: אני מדבר יידיש
+    answers:
+    - איך רעד יידיש
+    distractors:
+    - אַלט
+    - רעדן
+    lexemes: *id002
+  - id: u18-review-08
+    type: translate
+    direction: to_source
+    prompt: מײַן זיידע רעדט יידיש.
+    answers:
+    - סבא שלי מדבר יידיש
+    lexemes: *id003
+  - id: u18-review-09
+    type: translate
+    direction: to_target
+    prompt: סבא שלי מדבר יידיש
+    answers:
+    - מײַן זיידע רעדט יידיש
+    lexemes: *id003
+  - id: u18-review-10
+    type: word_bank
+    prompt: סבא שלי מדבר יידיש
+    answers:
+    - מײַן זיידע רעדט יידיש
+    distractors:
+    - עברית
+    - וווינען
+    lexemes: *id003
+- id: a2-test
+  kind: test
+  title:
+    he: מבחן רמה A2
+    en: A2 level test
+  exercises:
+  - id: a2-test-01
+    type: fill_blank
+    sentence: איך האָב ___ ברויט.
+    translation: אכלתי לחם
+    answers:
+    - געגעסן
+    options:
+    - געגעסן
+    - זי
+    - דאָס
+    lexemes: &id004
+    - hobn
+    - gegesn
+    - w-breyt
+  - id: a2-test-02
+    type: translate
+    direction: to_source
+    prompt: איך האָב געגעסן ברויט.
+    answers:
+    - אכלתי לחם
+    lexemes: *id004
+  - id: a2-test-03
+    type: translate
+    direction: to_source
+    prompt: ער האָט געשלאָפֿן.
+    answers:
+    - הוא ישן
+    lexemes:
+    - er
+    - hobn
+    - geshlofn
+  - id: a2-test-04
+    type: fill_blank
+    sentence: מיר האָבן ___ אין שול.
+    translation: למדנו בבית הכנסת
+    answers:
+    - געלערנט
+    options:
+    - געלערנט
+    - סוכה
+    - האָט
+    lexemes: &id005
+    - mir
+    - hobn
+    - gelernt
+    - shul
+  - id: a2-test-05
+    type: translate
+    direction: to_source
+    prompt: מיר האָבן געלערנט אין שול.
+    answers:
+    - למדנו בבית הכנסת
+    lexemes: *id005
+  - id: a2-test-06
+    type: fill_blank
+    sentence: איך ___ גיין.
+    translation: אני יכול ללכת
+    answers:
+    - קען
+    options:
+    - קען
+    - קיין
+    - ער
+    lexemes: &id006
+    - kenen
+    - geyn
+  - id: a2-test-07
+    type: translate
+    direction: to_source
+    prompt: איך קען גיין.
+    answers:
+    - אני יכול ללכת
+    lexemes: *id006
+  - id: a2-test-08
+    type: fill_blank
+    sentence: איך ___ גיין.
+    translation: אני חייב ללכת
+    answers:
+    - מוז
+    options:
+    - מוז
+    - ווען
+    - דאָס
+    lexemes: &id007
+    - muzn
+    - geyn
+  - id: a2-test-09
+    type: translate
+    direction: to_source
+    prompt: איך מוז גיין.
+    answers:
+    - אני חייב ללכת
+    lexemes: *id007
+  - id: a2-test-10
+    type: fill_blank
+    sentence: מיר ___ לערנען.
+    translation: אנחנו חייבים ללמוד
+    answers:
+    - מוזן
+    options:
+    - מוזן
+    - טײַער
+    - קיין
+    lexemes: &id008
+    - mir
+    - muzn
+    - lernen
+  - id: a2-test-11
+    type: translate
+    direction: to_source
+    prompt: מיר מוזן לערנען.
+    answers:
+    - אנחנו חייבים ללמוד
+    lexemes: *id008
+  - id: a2-test-12
+    type: fill_blank
+    sentence: ___ איז דאָס?
+    translation: מי זה
+    answers:
+    - ווער
+    options:
+    - ווער
+    - שול
+    - קאַלט
+    lexemes: &id009
+    - ver
+    - iz
+    - w-dos
+  - id: a2-test-13
+    type: translate
+    direction: to_source
+    prompt: ווער איז דאָס?
+    answers:
+    - מי זה
+    lexemes: *id009
+  - id: a2-test-14
+    type: fill_blank
+    sentence: ___ גייסטו אין שול?
+    translation: מתי אתה הולך לבית הכנסת
+    answers:
+    - ווען
+    options:
+    - ווען
+    - ווער
+    - האָט
+    lexemes: &id010
+    - ven
+    - geyn
+    - in
+    - shul
+  - id: a2-test-15
+    type: translate
+    direction: to_source
+    prompt: ווען גייסטו אין שול?
+    answers:
+    - מתי אתה הולך לבית הכנסת
+    lexemes: *id010
+  - id: a2-test-16
+    type: fill_blank
+    sentence: איך ___ אַ הוט.
+    translation: אני לובש כובע
+    answers:
+    - טראָג
+    options:
+    - טראָג
+    - טײַער
+    - גיין
+    lexemes: &id011
+    - ikh
+    - trogn
+    - hut
+  - id: a2-test-17
+    type: translate
+    direction: to_source
+    prompt: איך טראָג אַ הוט.
+    answers:
+    - אני לובש כובע
+    lexemes: *id011
+  - id: a2-test-18
+    type: fill_blank
+    sentence: עס איז ___ הײַנט.
+    translation: קר היום
+    answers:
+    - קאַלט
+    options:
+    - קאַלט
+    - איך
+    - יידיש
+    lexemes: &id012
+    - es
+    - kalt
+    - haynt
+  - id: a2-test-19
+    type: translate
+    direction: to_source
+    prompt: עס איז קאַלט הײַנט.
+    answers:
+    - קר היום
+    lexemes: *id012
+  - id: a2-test-20
+    type: fill_blank
+    sentence: מאָרגן ___ איך גיין אין שול.
+    translation: מחר אלך לבית הכנסת
+    answers:
+    - וועל
+    options:
+    - וועל
+    - מיר
+    - האָט
+    lexemes: &id013
+    - morgn2
+    - vel
+    - geyn
+    - shul
+  - id: a2-test-21
+    type: translate
+    direction: to_source
+    prompt: מאָרגן וועל איך גיין אין שול.
+    answers:
+    - מחר אלך לבית הכנסת
+    lexemes: *id013
+  - id: a2-test-22
+    type: fill_blank
+    sentence: מיר וועלן ___ קיין ניו־יאָרק.
+    translation: ניסע לניו יורק
+    answers:
+    - פֿאָרן
+    options:
+    - פֿאָרן
+    - הײַנט
+    - סוכה
+    lexemes: &id014
+    - vel
+    - forn
+    - kayn
+    - nyuyork
+  - id: a2-test-23
+    type: translate
+    direction: to_source
+    prompt: מיר וועלן פֿאָרן קיין ניו־יאָרק.
+    answers:
+    - ניסע לניו יורק
+    lexemes: *id014
+  - id: a2-test-24
+    type: fill_blank
+    sentence: וויפֿל ___ דער הוט?
+    translation: כמה עולה הכובע
+    answers:
+    - קאָסט
+    options:
+    - קאָסט
+    - זי
+    - מיד
+    lexemes: &id015
+    - vifl
+    - kostn
+    - hut
+  - id: a2-test-25
+    type: translate
+    direction: to_source
+    prompt: וויפֿל קאָסט דער הוט?
+    answers:
+    - כמה עולה הכובע
+    lexemes: *id015
+  - id: a2-test-26
+    type: translate
+    direction: to_source
+    prompt: דאָס איז טײַער.
+    answers:
+    - זה יקר
+    lexemes: &id018
+    - w-dos
+    - iz
+    - tayer
+  - id: a2-test-27
+    type: translate
+    direction: to_source
+    prompt: איך בין מיד.
+    answers:
+    - אני עייף
+    lexemes:
+    - ikh
+    - bin
+    - mid
+  - id: a2-test-28
+    type: fill_blank
+    sentence: מיר ___ אין דער סוכה.
+    translation: אנחנו אוכלים בסוכה
+    answers:
+    - עסן
+    options:
+    - עסן
+    - מאָרגן
+    - ביליק
+    lexemes: &id016
+    - mir
+    - esn
+    - in
+    - sukeh
+  - id: a2-test-29
+    type: translate
+    direction: to_source
+    prompt: מיר עסן אין דער סוכה.
+    answers:
+    - אנחנו אוכלים בסוכה
+    lexemes: *id016
+  - id: a2-test-30
+    type: fill_blank
+    sentence: איך ___ יידיש.
+    translation: אני מדבר יידיש
+    answers:
+    - רעד
+    options:
+    - רעד
+    - ווען
+    - ווער
+    lexemes: &id017
+    - ikh
+    - redn
+    - yidish
+  - id: a2-test-31
+    type: translate
+    direction: to_source
+    prompt: איך רעד יידיש.
+    answers:
+    - אני מדבר יידיש
+    lexemes: *id017
+  - id: a2-test-32
+    type: translate
+    direction: to_target
+    prompt: אכלתי לחם
+    answers:
+    - איך האָב געגעסן ברויט
+    lexemes: *id004
+  - id: a2-test-33
+    type: word_bank
+    prompt: אני יכול ללכת
+    answers:
+    - איך קען גיין
+    distractors:
+    - קיין
+    - ער
+    lexemes: *id006
+  - id: a2-test-34
+    type: translate
+    direction: to_target
+    prompt: מחר אלך לבית הכנסת
+    answers:
+    - מאָרגן וועל איך גיין אין שול
+    lexemes: *id013
+  - id: a2-test-35
+    type: word_bank
+    prompt: זה יקר
+    answers:
+    - דאָס איז טײַער
+    distractors:
+    - זי
+    - יידיש
+    lexemes: *id018
+  - id: a2-test-36
+    type: translate
+    direction: to_target
+    prompt: ניסע לניו יורק
+    answers:
+    - מיר וועלן פֿאָרן קיין ניו־יאָרק
+    lexemes: *id014
+  - id: a2-test-37
+    type: multiple_choice
+    prompt: איך אומרים 'מי'?
+    options:
+    - ווער
+    - וואָס
+    - ווען
+    correct: 0
+    lexemes:
+    - ver
+  - id: a2-test-38
+    type: multiple_choice
+    prompt: מה פירוש 'קאָסט'?
+    options:
+    - עולה
+    - קונה
+    - נותן
+    correct: 0
+    lexemes:
+    - kostn
+  - id: a2-test-39
+    type: multiple_choice
+    prompt: איך אומרים 'אני חייב'?
+    options:
+    - איך מוז
+    - איך קען
+    - איך וויל
+    correct: 0
+    lexemes:
+    - muzn

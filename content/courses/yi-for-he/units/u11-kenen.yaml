@@ -1,0 +1,568 @@
+id: u11-kenen
+cefr: A2
+scene: day
+title:
+  he: יכול וצריך
+  en: Can and must
+story: הסבא מבקש ממנה לבוא איתו, ומנחם לומד לומר מה הוא יכול, חייב וצריך.
+canDo:
+- לומר מה אני יכול ומה אני חייב
+- להשתמש בפעלי עזר עם שם הפועל
+- לחבר משפט עם אָבער
+vocabulary:
+- id: kenen
+  text: קענען
+  translation: יכול
+  pos: verb
+- id: muzn
+  text: מוזן
+  translation: צריך (חייב)
+  pos: verb
+- id: darfn
+  text: דאַרפֿן
+  translation: צריך
+  pos: verb
+- id: ober
+  text: אָבער
+  translation: אבל
+  pos: conjunction
+- id: oykh
+  text: אויך
+  translation: גם
+  pos: adverb
+- id: shoyn
+  text: שוין
+  translation: כבר
+  pos: adverb
+- id: nokh
+  text: נאָך
+  translation: עוד
+  pos: adverb
+lessons:
+- id: u11-l1
+  kind: new
+  title:
+    he: יכול, חייב, צריך
+    en: Lesson
+  exercises:
+  - id: u11-l1-01
+    type: tip
+    title: פעלי עזר
+    text: '**קענען** (יכול), **מוזן** (חייב), **דאַרפֿן** (צריך), ואחריהם שם הפועל: **איך קען גיין**, **איך מוז גיין**.
+
+      **נישט** בא לפני הפועל השני: **איך קען נישט שלאָפֿן**.
+
+      **אָבער** (אבל) ו**אויך** (גם).
+
+      '
+  - id: u11-l1-02
+    type: learn
+    lexeme: kenen
+  - id: u11-l1-03
+    type: learn
+    lexeme: muzn
+  - id: u11-l1-04
+    type: learn
+    lexeme: darfn
+  - id: u11-l1-05
+    type: learn
+    lexeme: ober
+  - id: u11-l1-06
+    type: learn
+    lexeme: oykh
+  - id: u11-l1-07
+    type: match_pairs
+    pairs:
+    - - קענען
+      - יכול
+    - - מוזן
+      - צריך (חייב)
+    - - דאַרפֿן
+      - צריך
+    - - אָבער
+      - אבל
+    - - אויך
+      - גם
+    lexemes:
+    - kenen
+    - muzn
+    - darfn
+    - ober
+    - oykh
+  - id: u11-l1-08
+    type: multiple_choice
+    prompt: מה פירוש קענען?
+    options:
+    - יכול
+    - צריך (חייב)
+    - צריך
+    correct: 0
+    lexemes:
+    - kenen
+  - id: u11-l1-09
+    type: multiple_choice
+    prompt: מה פירוש מוזן?
+    options:
+    - צריך (חייב)
+    - יכול
+    - צריך
+    correct: 0
+    lexemes:
+    - muzn
+  - id: u11-l1-10
+    type: multiple_choice
+    prompt: מה פירוש דאַרפֿן?
+    options:
+    - צריך
+    - יכול
+    - צריך (חייב)
+    correct: 0
+    lexemes:
+    - darfn
+  - id: u11-l1-11
+    type: multiple_choice
+    prompt: מה פירוש אָבער?
+    options:
+    - אבל
+    - יכול
+    - צריך (חייב)
+    correct: 0
+    lexemes:
+    - ober
+  - id: u11-l1-12
+    type: multiple_choice
+    prompt: מה פירוש אויך?
+    options:
+    - גם
+    - כבר
+    - עוד
+    correct: 0
+    lexemes:
+    - oykh
+  - id: u11-l1-13
+    type: translate
+    direction: to_source
+    prompt: איך קען גיין.
+    answers:
+    - אני יכול ללכת
+    lexemes: &id001
+    - kenen
+    - geyn
+  - id: u11-l1-14
+    type: translate
+    direction: to_target
+    prompt: אני יכול ללכת
+    answers:
+    - איך קען גיין
+    lexemes: *id001
+  - id: u11-l1-15
+    type: word_bank
+    prompt: אני יכול ללכת
+    answers:
+    - איך קען גיין
+    distractors:
+    - נאָך
+    - אָבער
+    lexemes: *id001
+  - id: u11-l1-16
+    type: fill_blank
+    sentence: איך ___ גיין.
+    translation: אני יכול ללכת
+    answers:
+    - קען
+    options:
+    - קען
+    - קענען
+    - נאָך
+    lexemes: *id001
+  - id: u11-l1-17
+    type: translate
+    direction: to_source
+    prompt: איך מוז גיין.
+    answers:
+    - אני חייב ללכת
+    - אני צריך ללכת
+    lexemes: &id002
+    - muzn
+    - geyn
+  - id: u11-l1-18
+    type: translate
+    direction: to_target
+    prompt: אני חייב ללכת
+    answers:
+    - איך מוז גיין
+    lexemes: *id002
+  - id: u11-l1-19
+    type: word_bank
+    prompt: אני חייב ללכת
+    answers:
+    - איך מוז גיין
+    distractors:
+    - נאָך
+    - שוין
+    lexemes: *id002
+  - id: u11-l1-20
+    type: fill_blank
+    sentence: איך ___ גיין.
+    translation: אני חייב ללכת
+    answers:
+    - מוז
+    options:
+    - מוז
+    - אויך
+    - שוין
+    lexemes: *id002
+  - id: u11-l1-21
+    type: translate
+    direction: to_source
+    prompt: איך דאַרף עסן.
+    answers:
+    - אני צריך לאכול
+    lexemes: &id003
+    - darfn
+    - esn
+  - id: u11-l1-22
+    type: translate
+    direction: to_target
+    prompt: אני צריך לאכול
+    answers:
+    - איך דאַרף עסן
+    lexemes: *id003
+  - id: u11-l1-23
+    type: word_bank
+    prompt: אני צריך לאכול
+    answers:
+    - איך דאַרף עסן
+    distractors:
+    - שוין
+    - אָבער
+    lexemes: *id003
+  - id: u11-l1-24
+    type: fill_blank
+    sentence: איך ___ עסן.
+    translation: אני צריך לאכול
+    answers:
+    - דאַרף
+    options:
+    - דאַרף
+    - אָבער
+    - שוין
+    lexemes: *id003
+  - id: u11-l1-25
+    type: translate
+    direction: to_source
+    prompt: איך קען נישט שלאָפֿן.
+    answers:
+    - אני לא יכול לישון
+    lexemes: &id004
+    - kenen
+    - nisht
+    - shlofn
+  - id: u11-l1-26
+    type: translate
+    direction: to_target
+    prompt: אני לא יכול לישון
+    answers:
+    - איך קען נישט שלאָפֿן
+    lexemes: *id004
+  - id: u11-l1-27
+    type: word_bank
+    prompt: אני לא יכול לישון
+    answers:
+    - איך קען נישט שלאָפֿן
+    distractors:
+    - שוין
+    - דאַרפֿן
+    lexemes: *id004
+  - id: u11-l1-28
+    type: fill_blank
+    sentence: איך ___ נישט שלאָפֿן.
+    translation: אני לא יכול לישון
+    answers:
+    - קען
+    options:
+    - קען
+    - אָבער
+    - דאַרפֿן
+    lexemes: *id004
+- id: u11-l2
+  kind: new
+  title:
+    he: 'עוד: שוין ונאָך'
+    en: Lesson
+  exercises:
+  - id: u11-l2-01
+    type: learn
+    lexeme: shoyn
+  - id: u11-l2-02
+    type: learn
+    lexeme: nokh
+  - id: u11-l2-03
+    type: dialogue
+    scene: home
+    lines:
+    - speaker: zeyde
+      text: קענסטו גיין מיט מיר?
+      translation: אתה יכול ללכת איתי?
+    - speaker: menachem
+      text: יאָ, איך קען גיין.
+      translation: כן, אני יכול ללכת.
+    - speaker: zeyde
+      text: גוט, מיר מוזן גיין אין שול.
+      translation: טוב, אנחנו חייבים ללכת לבית הכנסת.
+  - id: u11-l2-04
+    type: multiple_choice
+    prompt: מה פירוש שוין?
+    options:
+    - כבר
+    - גם
+    - עוד
+    correct: 0
+    lexemes:
+    - shoyn
+  - id: u11-l2-05
+    type: multiple_choice
+    prompt: מה פירוש נאָך?
+    options:
+    - עוד
+    - גם
+    - כבר
+    correct: 0
+    lexemes:
+    - nokh
+  - id: u11-l2-06
+    type: translate
+    direction: to_source
+    prompt: מיר מוזן לערנען.
+    answers:
+    - אנחנו חייבים ללמוד
+    - אנחנו צריכים ללמוד
+    lexemes: &id005
+    - mir
+    - muzn
+    - lernen
+  - id: u11-l2-07
+    type: translate
+    direction: to_target
+    prompt: אנחנו חייבים ללמוד
+    answers:
+    - מיר מוזן לערנען
+    lexemes: *id005
+  - id: u11-l2-08
+    type: word_bank
+    prompt: אנחנו חייבים ללמוד
+    answers:
+    - מיר מוזן לערנען
+    distractors:
+    - שוין
+    - נאָך
+    lexemes: *id005
+  - id: u11-l2-09
+    type: fill_blank
+    sentence: מיר ___ לערנען.
+    translation: אנחנו חייבים ללמוד
+    answers:
+    - מוזן
+    options:
+    - מוזן
+    - שוין
+    - נאָך
+    lexemes: *id005
+  - id: u11-l2-10
+    type: translate
+    direction: to_source
+    prompt: ער קען דאַוונען.
+    answers:
+    - הוא יכול להתפלל
+    - הוא יודע להתפלל
+    lexemes: &id006
+    - er
+    - kenen
+    - davnen
+  - id: u11-l2-11
+    type: translate
+    direction: to_target
+    prompt: הוא יכול להתפלל
+    answers:
+    - ער קען דאַוונען
+    lexemes: *id006
+  - id: u11-l2-12
+    type: word_bank
+    prompt: הוא יכול להתפלל
+    answers:
+    - ער קען דאַוונען
+    distractors:
+    - שוין
+    - אויך
+    lexemes: *id006
+  - id: u11-l2-13
+    type: fill_blank
+    sentence: ער ___ דאַוונען.
+    translation: הוא יכול להתפלל
+    answers:
+    - קען
+    options:
+    - קען
+    - דאַרפֿן
+    - שוין
+    lexemes: *id006
+  - id: u11-l2-14
+    type: translate
+    direction: to_source
+    prompt: איך וויל גיין, אָבער איך קען נישט.
+    answers:
+    - אני רוצה ללכת, אבל אני לא יכול
+    lexemes: &id007
+    - vil
+    - geyn
+    - ober
+    - kenen
+    - nisht
+  - id: u11-l2-15
+    type: translate
+    direction: to_target
+    prompt: אני רוצה ללכת, אבל אני לא יכול
+    answers:
+    - איך וויל גיין, אָבער איך קען נישט
+    lexemes: *id007
+  - id: u11-l2-16
+    type: word_bank
+    prompt: אני רוצה ללכת, אבל אני לא יכול
+    answers:
+    - איך וויל גיין, אָבער איך קען נישט
+    distractors:
+    - נאָך
+    - שוין
+    lexemes: *id007
+  - id: u11-l2-17
+    type: fill_blank
+    sentence: איך וויל גיין, ___ איך קען נישט.
+    translation: אני רוצה ללכת, אבל אני לא יכול
+    answers:
+    - אָבער
+    options:
+    - אָבער
+    - נאָך
+    - שוין
+    lexemes: *id007
+- id: u11-review
+  kind: review
+  title:
+    he: 'חזרה: יכול וצריך'
+    en: Review
+  exercises:
+  - id: u11-review-01
+    type: match_pairs
+    pairs:
+    - - קענען
+      - יכול
+    - - מוזן
+      - צריך (חייב)
+    - - דאַרפֿן
+      - צריך
+    - - אָבער
+      - אבל
+    - - אויך
+      - גם
+    - - שוין
+      - כבר
+    lexemes:
+    - kenen
+    - muzn
+    - darfn
+    - ober
+    - oykh
+    - shoyn
+  - id: u11-review-02
+    type: translate
+    direction: to_source
+    prompt: איך קען גיין.
+    answers:
+    - אני יכול ללכת
+    lexemes: *id001
+  - id: u11-review-03
+    type: translate
+    direction: to_target
+    prompt: אני יכול ללכת
+    answers:
+    - איך קען גיין
+    lexemes: *id001
+  - id: u11-review-04
+    type: word_bank
+    prompt: אני יכול ללכת
+    answers:
+    - איך קען גיין
+    distractors:
+    - נאָך
+    - אָבער
+    lexemes: *id001
+  - id: u11-review-05
+    type: translate
+    direction: to_source
+    prompt: איך מוז גיין.
+    answers:
+    - אני חייב ללכת
+    - אני צריך ללכת
+    lexemes: *id002
+  - id: u11-review-06
+    type: translate
+    direction: to_target
+    prompt: אני חייב ללכת
+    answers:
+    - איך מוז גיין
+    lexemes: *id002
+  - id: u11-review-07
+    type: word_bank
+    prompt: אני חייב ללכת
+    answers:
+    - איך מוז גיין
+    distractors:
+    - נאָך
+    - שוין
+    lexemes: *id002
+  - id: u11-review-08
+    type: translate
+    direction: to_source
+    prompt: איך דאַרף עסן.
+    answers:
+    - אני צריך לאכול
+    lexemes: *id003
+  - id: u11-review-09
+    type: translate
+    direction: to_target
+    prompt: אני צריך לאכול
+    answers:
+    - איך דאַרף עסן
+    lexemes: *id003
+  - id: u11-review-10
+    type: word_bank
+    prompt: אני צריך לאכול
+    answers:
+    - איך דאַרף עסן
+    distractors:
+    - שוין
+    - אָבער
+    lexemes: *id003
+  - id: u11-review-11
+    type: translate
+    direction: to_source
+    prompt: איך קען נישט שלאָפֿן.
+    answers:
+    - אני לא יכול לישון
+    lexemes: *id004
+  - id: u11-review-12
+    type: translate
+    direction: to_target
+    prompt: אני לא יכול לישון
+    answers:
+    - איך קען נישט שלאָפֿן
+    lexemes: *id004
+  - id: u11-review-13
+    type: word_bank
+    prompt: אני לא יכול לישון
+    answers:
+    - איך קען נישט שלאָפֿן
+    distractors:
+    - שוין
+    - דאַרפֿן
+    lexemes: *id004

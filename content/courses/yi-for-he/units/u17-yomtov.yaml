@@ -1,0 +1,472 @@
+id: u17-yomtov
+cefr: A2
+scene: family
+title:
+  he: חגים
+  en: Holidays
+story: 'החגים בבית הסבא והסבתא: ראש השנה, סוכות ופסח.'
+canDo:
+- לברך חג שמח
+- לדבר על חגי ישראל
+- לתאר מה עושים בכל חג
+vocabulary:
+- id: yomtov
+  text: יום־טוב
+  translation: חג
+  pos: noun
+- id: rosh
+  text: ראש־השנה
+  translation: ראש השנה (החג)
+  pos: noun
+- id: sukes
+  text: סוכות
+  translation: חג הסוכות
+  pos: noun
+- id: sukeh
+  text: סוכה
+  translation: סוכת החג
+  pos: noun
+- id: peysekh
+  text: פּסח
+  translation: חג הפסח
+  pos: noun
+- id: matse
+  text: מצה
+  translation: לחם הפסח
+  pos: noun
+- id: shofer
+  text: שופֿר
+  translation: שופר של ראש השנה
+  pos: noun
+- id: tfile
+  text: תפילה
+  translation: התפילה
+  pos: noun
+lessons:
+- id: u17-l1
+  kind: new
+  title:
+    he: חגים
+    en: Lesson
+  exercises:
+  - id: u17-l1-01
+    type: tip
+    title: חגי ישראל
+    text: 'שמות החגים נכתבים כמו בלשון הקודש: **ראש־השנה, סוכות, פּסח**. גם **סוכה, מצה, שופֿר, תפילה, יום־טוב**.
+
+      מברכים **גוט יום־טוב**.
+
+      **אין דער סוכה** פירושו "בסוכה".
+
+      '
+  - id: u17-l1-02
+    type: learn
+    lexeme: yomtov
+  - id: u17-l1-03
+    type: learn
+    lexeme: rosh
+  - id: u17-l1-04
+    type: learn
+    lexeme: sukes
+  - id: u17-l1-05
+    type: learn
+    lexeme: sukeh
+  - id: u17-l1-06
+    type: learn
+    lexeme: peysekh
+  - id: u17-l1-07
+    type: learn
+    lexeme: matse
+  - id: u17-l1-08
+    type: learn
+    lexeme: shofer
+  - id: u17-l1-09
+    type: match_pairs
+    pairs:
+    - - יום־טוב
+      - חג
+    - - ראש־השנה
+      - ראש השנה (החג)
+    - - סוכות
+      - חג הסוכות
+    - - סוכה
+      - סוכת החג
+    - - פּסח
+      - חג הפסח
+    - - מצה
+      - לחם הפסח
+    lexemes:
+    - yomtov
+    - rosh
+    - sukes
+    - sukeh
+    - peysekh
+    - matse
+  - id: u17-l1-10
+    type: multiple_choice
+    prompt: מה פירוש יום־טוב?
+    options:
+    - חג
+    - ראש השנה (החג)
+    - חג הסוכות
+    correct: 0
+    lexemes:
+    - yomtov
+  - id: u17-l1-11
+    type: multiple_choice
+    prompt: מה פירוש ראש־השנה?
+    options:
+    - ראש השנה (החג)
+    - חג
+    - חג הסוכות
+    correct: 0
+    lexemes:
+    - rosh
+  - id: u17-l1-12
+    type: multiple_choice
+    prompt: מה פירוש סוכות?
+    options:
+    - חג הסוכות
+    - חג
+    - ראש השנה (החג)
+    correct: 0
+    lexemes:
+    - sukes
+  - id: u17-l1-13
+    type: multiple_choice
+    prompt: מה פירוש סוכה?
+    options:
+    - סוכת החג
+    - חג
+    - ראש השנה (החג)
+    correct: 0
+    lexemes:
+    - sukeh
+  - id: u17-l1-14
+    type: multiple_choice
+    prompt: מה פירוש פּסח?
+    options:
+    - חג הפסח
+    - חג
+    - ראש השנה (החג)
+    correct: 0
+    lexemes:
+    - peysekh
+  - id: u17-l1-15
+    type: translate
+    direction: to_source
+    prompt: מיר עסן אין דער סוכה.
+    answers:
+    - אנחנו אוכלים בסוכה
+    lexemes: &id001
+    - mir
+    - esn
+    - in
+    - sukeh
+  - id: u17-l1-16
+    type: translate
+    direction: to_target
+    prompt: אנחנו אוכלים בסוכה
+    answers:
+    - מיר עסן אין דער סוכה
+    lexemes: *id001
+  - id: u17-l1-17
+    type: word_bank
+    prompt: אנחנו אוכלים בסוכה
+    answers:
+    - מיר עסן אין דער סוכה
+    distractors:
+    - שופֿר
+    - פּסח
+    lexemes: *id001
+  - id: u17-l1-18
+    type: fill_blank
+    sentence: מיר ___ אין דער סוכה.
+    translation: אנחנו אוכלים בסוכה
+    answers:
+    - עסן
+    options:
+    - עסן
+    - מצה
+    - יום־טוב
+    lexemes: *id001
+  - id: u17-l1-19
+    type: translate
+    direction: to_source
+    prompt: איך עס מצה אויף פּסח.
+    answers:
+    - אני אוכל מצה בפסח
+    lexemes: &id002
+    - ikh
+    - esn
+    - matse
+    - peysekh
+  - id: u17-l1-20
+    type: translate
+    direction: to_target
+    prompt: אני אוכל מצה בפסח
+    answers:
+    - איך עס מצה אויף פּסח
+    lexemes: *id002
+  - id: u17-l1-21
+    type: word_bank
+    prompt: אני אוכל מצה בפסח
+    answers:
+    - איך עס מצה אויף פּסח
+    distractors:
+    - סוכות
+    - תפילה
+    lexemes: *id002
+  - id: u17-l1-22
+    type: fill_blank
+    sentence: איך עס ___ אויף פּסח.
+    translation: אני אוכל מצה בפסח
+    answers:
+    - מצה
+    options:
+    - מצה
+    - פּסח
+    - סוכות
+    lexemes: *id002
+  - id: u17-l1-23
+    type: translate
+    direction: to_source
+    prompt: מען בלאָזט שופֿר אויף ראש־השנה.
+    answers:
+    - תוקעים בשופר בראש השנה
+    - תוקעים שופר בראש השנה
+    lexemes: &id003
+    - shofer
+    - rosh
+  - id: u17-l1-24
+    type: translate
+    direction: to_target
+    prompt: תוקעים בשופר בראש השנה
+    answers:
+    - מען בלאָזט שופֿר אויף ראש־השנה
+    lexemes: *id003
+  - id: u17-l1-25
+    type: word_bank
+    prompt: תוקעים בשופר בראש השנה
+    answers:
+    - מען בלאָזט שופֿר אויף ראש־השנה
+    distractors:
+    - סוכות
+    - מצה
+    lexemes: *id003
+  - id: u17-l1-26
+    type: fill_blank
+    sentence: מען בלאָזט ___ אויף ראש־השנה.
+    translation: תוקעים בשופר בראש השנה
+    answers:
+    - שופֿר
+    options:
+    - שופֿר
+    - תפילה
+    - מצה
+    lexemes: *id003
+- id: u17-l2
+  kind: new
+  title:
+    he: במה עוסקים
+    en: Lesson
+  exercises:
+  - id: u17-l2-01
+    type: learn
+    lexeme: shofer
+  - id: u17-l2-02
+    type: learn
+    lexeme: tfile
+  - id: u17-l2-03
+    type: dialogue
+    scene: home
+    lines:
+    - speaker: bobe
+      text: גוט יום־טוב, מנחם!
+      translation: חג שמח, מנחם!
+    - speaker: menachem
+      text: גוט יום־טוב, באָבע!
+      translation: חג שמח, סבתא!
+    - speaker: bobe
+      text: מיר עסן אין דער סוכה.
+      translation: אנחנו אוכלים בסוכה.
+  - id: u17-l2-04
+    type: multiple_choice
+    prompt: מה פירוש שופֿר?
+    options:
+    - שופר של ראש השנה
+    - חג
+    - ראש השנה (החג)
+    correct: 0
+    lexemes:
+    - shofer
+  - id: u17-l2-05
+    type: multiple_choice
+    prompt: מה פירוש תפילה?
+    options:
+    - התפילה
+    - חג
+    - ראש השנה (החג)
+    correct: 0
+    lexemes:
+    - tfile
+  - id: u17-l2-06
+    type: translate
+    direction: to_source
+    prompt: גוט יום־טוב!
+    answers:
+    - חג שמח
+    - יום טוב שמח
+    lexemes: &id004
+    - yomtov
+  - id: u17-l2-07
+    type: translate
+    direction: to_target
+    prompt: חג שמח
+    answers:
+    - גוט יום־טוב
+    lexemes: *id004
+  - id: u17-l2-08
+    type: word_bank
+    prompt: חג שמח
+    answers:
+    - גוט יום־טוב
+    distractors:
+    - סוכה
+    - שופֿר
+    lexemes: *id004
+  - id: u17-l2-09
+    type: translate
+    direction: to_source
+    prompt: איך האָב געדאַוונט אין שול.
+    answers:
+    - התפללתי בבית הכנסת
+    lexemes: &id005
+    - hobn
+    - gedavnt
+    - shul
+  - id: u17-l2-10
+    type: translate
+    direction: to_target
+    prompt: התפללתי בבית הכנסת
+    answers:
+    - איך האָב געדאַוונט אין שול
+    lexemes: *id005
+  - id: u17-l2-11
+    type: word_bank
+    prompt: התפללתי בבית הכנסת
+    answers:
+    - איך האָב געדאַוונט אין שול
+    distractors:
+    - סוכה
+    - יום־טוב
+    lexemes: *id005
+  - id: u17-l2-12
+    type: fill_blank
+    sentence: איך האָב ___ אין שול.
+    translation: התפללתי בבית הכנסת
+    answers:
+    - געדאַוונט
+    options:
+    - געדאַוונט
+    - ראש־השנה
+    - שופֿר
+    lexemes: *id005
+- id: u17-review
+  kind: review
+  title:
+    he: 'חזרה: חגים'
+    en: Review
+  exercises:
+  - id: u17-review-01
+    type: match_pairs
+    pairs:
+    - - יום־טוב
+      - חג
+    - - ראש־השנה
+      - ראש השנה (החג)
+    - - סוכות
+      - חג הסוכות
+    - - סוכה
+      - סוכת החג
+    - - פּסח
+      - חג הפסח
+    - - מצה
+      - לחם הפסח
+    lexemes:
+    - yomtov
+    - rosh
+    - sukes
+    - sukeh
+    - peysekh
+    - matse
+  - id: u17-review-02
+    type: translate
+    direction: to_source
+    prompt: מיר עסן אין דער סוכה.
+    answers:
+    - אנחנו אוכלים בסוכה
+    lexemes: *id001
+  - id: u17-review-03
+    type: translate
+    direction: to_target
+    prompt: אנחנו אוכלים בסוכה
+    answers:
+    - מיר עסן אין דער סוכה
+    lexemes: *id001
+  - id: u17-review-04
+    type: word_bank
+    prompt: אנחנו אוכלים בסוכה
+    answers:
+    - מיר עסן אין דער סוכה
+    distractors:
+    - שופֿר
+    - פּסח
+    lexemes: *id001
+  - id: u17-review-05
+    type: translate
+    direction: to_source
+    prompt: איך עס מצה אויף פּסח.
+    answers:
+    - אני אוכל מצה בפסח
+    lexemes: *id002
+  - id: u17-review-06
+    type: translate
+    direction: to_target
+    prompt: אני אוכל מצה בפסח
+    answers:
+    - איך עס מצה אויף פּסח
+    lexemes: *id002
+  - id: u17-review-07
+    type: word_bank
+    prompt: אני אוכל מצה בפסח
+    answers:
+    - איך עס מצה אויף פּסח
+    distractors:
+    - סוכות
+    - תפילה
+    lexemes: *id002
+  - id: u17-review-08
+    type: translate
+    direction: to_source
+    prompt: מען בלאָזט שופֿר אויף ראש־השנה.
+    answers:
+    - תוקעים בשופר בראש השנה
+    - תוקעים שופר בראש השנה
+    lexemes: *id003
+  - id: u17-review-09
+    type: translate
+    direction: to_target
+    prompt: תוקעים בשופר בראש השנה
+    answers:
+    - מען בלאָזט שופֿר אויף ראש־השנה
+    lexemes: *id003
+  - id: u17-review-10
+    type: word_bank
+    prompt: תוקעים בשופר בראש השנה
+    answers:
+    - מען בלאָזט שופֿר אויף ראש־השנה
+    distractors:
+    - סוכות
+    - מצה
+    lexemes: *id003

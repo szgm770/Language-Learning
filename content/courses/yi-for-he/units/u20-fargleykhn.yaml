@@ -1,0 +1,469 @@
+id: u20-fargleykhn
+cefr: B1
+scene: shopping
+title:
+  he: השוואות
+  en: Comparisons
+story: 'מנחם משווה בין דברים שבכפר: מה גדול יותר, מה יפה יותר ומה חדש.'
+canDo:
+- להשוות בין שני דברים
+- לתאר ישן, חדש וצעיר
+- להשתמש בצורות -ער
+vocabulary:
+- id: greser
+  text: גרעסער
+  translation: גדול יותר
+  pos: adjective
+- id: kleyner
+  text: קלענער
+  translation: קטן יותר
+  pos: adjective
+- id: beser
+  text: בעסער
+  translation: טוב יותר
+  pos: adjective
+- id: shener
+  text: שענער
+  translation: יפה יותר
+  pos: adjective
+- id: alt2
+  text: אַלט
+  translation: ישן / זקן
+  pos: adjective
+- id: nay
+  text: נײַ
+  translation: חדש
+  pos: adjective
+- id: yung
+  text: יונג
+  translation: צעיר
+  pos: adjective
+lessons:
+- id: u20-l1
+  kind: new
+  title:
+    he: גדול יותר
+    en: Lesson
+  exercises:
+  - id: u20-l1-01
+    type: tip
+    title: השוואה
+    text: 'הצורה המשווה נוצרת בדרך כלל עם **-ער**: **גרעסער** (גדול יותר), **קלענער** (קטן יותר), **שענער** (יפה יותר).
+
+      **בעסער** (טוב יותר) היא צורה מיוחדת של **גוט**.
+
+      המשפט: **דער טיש איז קלענער**.
+
+      '
+  - id: u20-l1-02
+    type: learn
+    lexeme: greser
+  - id: u20-l1-03
+    type: learn
+    lexeme: kleyner
+  - id: u20-l1-04
+    type: learn
+    lexeme: beser
+  - id: u20-l1-05
+    type: learn
+    lexeme: shener
+  - id: u20-l1-06
+    type: match_pairs
+    pairs:
+    - - גרעסער
+      - גדול יותר
+    - - קלענער
+      - קטן יותר
+    - - בעסער
+      - טוב יותר
+    - - שענער
+      - יפה יותר
+    lexemes:
+    - greser
+    - kleyner
+    - beser
+    - shener
+  - id: u20-l1-07
+    type: multiple_choice
+    prompt: מה פירוש גרעסער?
+    options:
+    - גדול יותר
+    - קטן יותר
+    - טוב יותר
+    correct: 0
+    lexemes:
+    - greser
+  - id: u20-l1-08
+    type: multiple_choice
+    prompt: מה פירוש קלענער?
+    options:
+    - קטן יותר
+    - גדול יותר
+    - טוב יותר
+    correct: 0
+    lexemes:
+    - kleyner
+  - id: u20-l1-09
+    type: multiple_choice
+    prompt: מה פירוש בעסער?
+    options:
+    - טוב יותר
+    - גדול יותר
+    - קטן יותר
+    correct: 0
+    lexemes:
+    - beser
+  - id: u20-l1-10
+    type: multiple_choice
+    prompt: מה פירוש שענער?
+    options:
+    - יפה יותר
+    - גדול יותר
+    - קטן יותר
+    correct: 0
+    lexemes:
+    - shener
+  - id: u20-l1-11
+    type: translate
+    direction: to_source
+    prompt: מײַן הויז איז גרעסער.
+    answers:
+    - הבית שלי גדול יותר
+    lexemes: &id001
+    - hoyz
+    - groys
+    - greser
+  - id: u20-l1-12
+    type: translate
+    direction: to_target
+    prompt: הבית שלי גדול יותר
+    answers:
+    - מײַן הויז איז גרעסער
+    lexemes: *id001
+  - id: u20-l1-13
+    type: word_bank
+    prompt: הבית שלי גדול יותר
+    answers:
+    - מײַן הויז איז גרעסער
+    distractors:
+    - שענער
+    - בעסער
+    lexemes: *id001
+  - id: u20-l1-14
+    type: translate
+    direction: to_source
+    prompt: דער טיש איז קלענער.
+    answers:
+    - השולחן קטן יותר
+    lexemes: &id002
+    - tish
+    - kleyner
+  - id: u20-l1-15
+    type: translate
+    direction: to_target
+    prompt: השולחן קטן יותר
+    answers:
+    - דער טיש איז קלענער
+    lexemes: *id002
+  - id: u20-l1-16
+    type: word_bank
+    prompt: השולחן קטן יותר
+    answers:
+    - דער טיש איז קלענער
+    distractors:
+    - קלענער
+    - בעסער
+    lexemes: *id002
+  - id: u20-l1-17
+    type: translate
+    direction: to_source
+    prompt: דאָס איז בעסער.
+    answers:
+    - זה טוב יותר
+    lexemes: &id003
+    - w-dos
+    - iz
+    - beser
+  - id: u20-l1-18
+    type: translate
+    direction: to_target
+    prompt: זה טוב יותר
+    answers:
+    - דאָס איז בעסער
+    lexemes: *id003
+  - id: u20-l1-19
+    type: word_bank
+    prompt: זה טוב יותר
+    answers:
+    - דאָס איז בעסער
+    distractors:
+    - גרעסער
+    - אַלט
+    lexemes: *id003
+- id: u20-l2
+  kind: new
+  title:
+    he: ישן וחדש
+    en: Lesson
+  exercises:
+  - id: u20-l2-01
+    type: learn
+    lexeme: alt2
+  - id: u20-l2-02
+    type: learn
+    lexeme: nay
+  - id: u20-l2-03
+    type: learn
+    lexeme: yung
+  - id: u20-l2-04
+    type: dialogue
+    scene: town
+    lines:
+    - speaker: menachem
+      text: דער הוט איז נײַ.
+      translation: הכובע חדש.
+    - speaker: zeyde
+      text: און דער רעקל איז אַלט.
+      translation: והרקל ישן.
+  - id: u20-l2-05
+    type: match_pairs
+    pairs:
+    - - אַלט
+      - ישן / זקן
+    - - נײַ
+      - חדש
+    - - יונג
+      - צעיר
+    lexemes:
+    - alt2
+    - nay
+    - yung
+  - id: u20-l2-06
+    type: multiple_choice
+    prompt: מה פירוש אַלט?
+    options:
+    - ישן / זקן
+    - גדול יותר
+    - קטן יותר
+    correct: 0
+    lexemes:
+    - alt2
+  - id: u20-l2-07
+    type: multiple_choice
+    prompt: מה פירוש נײַ?
+    options:
+    - חדש
+    - גדול יותר
+    - קטן יותר
+    correct: 0
+    lexemes:
+    - nay
+  - id: u20-l2-08
+    type: multiple_choice
+    prompt: מה פירוש יונג?
+    options:
+    - צעיר
+    - גדול יותר
+    - קטן יותר
+    correct: 0
+    lexemes:
+    - yung
+  - id: u20-l2-09
+    type: translate
+    direction: to_source
+    prompt: די שטאָט איז שענער.
+    answers:
+    - העיר יפה יותר
+    lexemes: &id004
+    - shtot
+    - iz
+    - shener
+  - id: u20-l2-10
+    type: translate
+    direction: to_target
+    prompt: העיר יפה יותר
+    answers:
+    - די שטאָט איז שענער
+    lexemes: *id004
+  - id: u20-l2-11
+    type: word_bank
+    prompt: העיר יפה יותר
+    answers:
+    - די שטאָט איז שענער
+    distractors:
+    - שענער
+    - נײַ
+    lexemes: *id004
+  - id: u20-l2-12
+    type: translate
+    direction: to_source
+    prompt: דער הוט איז נײַ.
+    answers:
+    - הכובע חדש
+    lexemes: &id005
+    - hut
+    - iz
+    - nay
+  - id: u20-l2-13
+    type: translate
+    direction: to_target
+    prompt: הכובע חדש
+    answers:
+    - דער הוט איז נײַ
+    lexemes: *id005
+  - id: u20-l2-14
+    type: word_bank
+    prompt: הכובע חדש
+    answers:
+    - דער הוט איז נײַ
+    distractors:
+    - בעסער
+    - גרעסער
+    lexemes: *id005
+  - id: u20-l2-15
+    type: translate
+    direction: to_source
+    prompt: מײַן זיידע איז אַלט.
+    answers:
+    - סבא שלי זקן
+    lexemes: &id006
+    - zeyde
+    - iz
+    - alt2
+  - id: u20-l2-16
+    type: translate
+    direction: to_target
+    prompt: סבא שלי זקן
+    answers:
+    - מײַן זיידע איז אַלט
+    lexemes: *id006
+  - id: u20-l2-17
+    type: word_bank
+    prompt: סבא שלי זקן
+    answers:
+    - מײַן זיידע איז אַלט
+    distractors:
+    - אַלט
+    - יונג
+    lexemes: *id006
+- id: u20-review
+  kind: review
+  title:
+    he: 'חזרה: השוואות'
+    en: Review
+  exercises:
+  - id: u20-review-01
+    type: match_pairs
+    pairs:
+    - - גרעסער
+      - גדול יותר
+    - - קלענער
+      - קטן יותר
+    - - בעסער
+      - טוב יותר
+    - - שענער
+      - יפה יותר
+    - - אַלט
+      - ישן / זקן
+    - - נײַ
+      - חדש
+    lexemes:
+    - greser
+    - kleyner
+    - beser
+    - shener
+    - alt2
+    - nay
+  - id: u20-review-02
+    type: translate
+    direction: to_source
+    prompt: מײַן הויז איז גרעסער.
+    answers:
+    - הבית שלי גדול יותר
+    lexemes: *id001
+  - id: u20-review-03
+    type: translate
+    direction: to_target
+    prompt: הבית שלי גדול יותר
+    answers:
+    - מײַן הויז איז גרעסער
+    lexemes: *id001
+  - id: u20-review-04
+    type: word_bank
+    prompt: הבית שלי גדול יותר
+    answers:
+    - מײַן הויז איז גרעסער
+    distractors:
+    - שענער
+    - בעסער
+    lexemes: *id001
+  - id: u20-review-05
+    type: translate
+    direction: to_source
+    prompt: דער טיש איז קלענער.
+    answers:
+    - השולחן קטן יותר
+    lexemes: *id002
+  - id: u20-review-06
+    type: translate
+    direction: to_target
+    prompt: השולחן קטן יותר
+    answers:
+    - דער טיש איז קלענער
+    lexemes: *id002
+  - id: u20-review-07
+    type: word_bank
+    prompt: השולחן קטן יותר
+    answers:
+    - דער טיש איז קלענער
+    distractors:
+    - קלענער
+    - בעסער
+    lexemes: *id002
+  - id: u20-review-08
+    type: translate
+    direction: to_source
+    prompt: דאָס איז בעסער.
+    answers:
+    - זה טוב יותר
+    lexemes: *id003
+  - id: u20-review-09
+    type: translate
+    direction: to_target
+    prompt: זה טוב יותר
+    answers:
+    - דאָס איז בעסער
+    lexemes: *id003
+  - id: u20-review-10
+    type: word_bank
+    prompt: זה טוב יותר
+    answers:
+    - דאָס איז בעסער
+    distractors:
+    - גרעסער
+    - אַלט
+    lexemes: *id003
+  - id: u20-review-11
+    type: write
+    prompt: השוו בין שני דברים בבית שלכם (למשל שני חדרים). כתבו 3 משפטים עם צורה משווה.
+    minWords: 10
+    checks:
+    - label: השתמשתם בצורה משווה
+      any:
+      - גרעסער
+      - קלענער
+      - בעסער
+      - שענער
+    - label: השתמשתם ב־איז
+      any:
+      - איז
+    - label: הזכרתם מקום או חפץ
+      any:
+      - הויז
+      - קיך
+      - שטוב
+      - טיש
+      - הוט
+      - שטאט
+    model: די קיך איז גרעסער. די שטוב איז שענער. דער טיש איז קלענער.
+    lexemes: []

@@ -1,0 +1,929 @@
+id: p8-words
+cefr: C1
+scene: town
+title:
+  he: 'הרחבת אוצר מילים 8: זמן ומקומות'
+  en: 'Word builder 8: time and places'
+story: מילים שימושיות נוספות, כל אחת במשפט קצר.
+canDo:
+- להבין ולהשתמש במילים נפוצות נוספות
+- לזהות את המילים במשפטים
+vocabulary:
+- id: p8-khoydesh
+  text: חודש
+  translation: חודש בלוח
+  pos: noun
+  example:
+    text: איך זע אַ חודש.
+    translation: אני רואה חודש בלוח
+- id: p8-minut
+  text: מינוט
+  translation: דקה
+  pos: noun
+  example:
+    text: איך זע אַ מינוט.
+    translation: אני רואה דקה
+- id: p8-shoe
+  text: שעה
+  translation: שעה (60 דקות)
+  pos: noun
+  example:
+    text: איך זע אַ שעה.
+    translation: אני רואה שעה (60 דקות)
+- id: p8-tsayt
+  text: צײַט
+  translation: זמן
+  pos: noun
+  example:
+    text: איך האָב צײַט.
+    translation: יש לי זמן
+- id: p8-banhof
+  text: באַנהאָף
+  translation: תחנת רכבת
+  pos: noun
+  example:
+    text: איך זע אַ באַנהאָף.
+    translation: אני רואה תחנת רכבת
+- id: p8-biblyotek
+  text: ביבליאָטעק
+  translation: ספרייה
+  pos: noun
+  example:
+    text: איך זע אַ ביבליאָטעק.
+    translation: אני רואה ספרייה
+- id: p8-yeshive
+  text: ישיבה
+  translation: ישיבה (בית מדרש)
+  pos: noun
+  example:
+    text: איך זע אַ ישיבה.
+    translation: אני רואה ישיבה (בית מדרש)
+- id: p8-mikve
+  text: מקווה
+  translation: מקווה טהרה
+  pos: noun
+  example:
+    text: איך זע אַ מקווה.
+    translation: אני רואה מקווה טהרה
+- id: p8-keler
+  text: קעלער
+  translation: מרתף
+  pos: noun
+  example:
+    text: איך זע אַ קעלער.
+    translation: אני רואה מרתף
+- id: p8-shuleh
+  text: שולע
+  translation: בית ספר
+  pos: noun
+  example:
+    text: איך זע אַ שולע.
+    translation: אני רואה בית ספר
+- id: p8-shpitol
+  text: שפּיטאָל
+  translation: בית חולים
+  pos: noun
+  example:
+    text: איך זע אַ שפּיטאָל.
+    translation: אני רואה בית חולים
+- id: p8-hotel
+  text: האָטעל
+  translation: מלון
+  pos: noun
+  example:
+    text: איך זע אַ האָטעל.
+    translation: אני רואה מלון
+- id: p8-gortn
+  text: גאָרטן
+  translation: גן
+  pos: noun
+  example:
+    text: איך זע אַ גאָרטן.
+    translation: אני רואה גן
+- id: p8-park
+  text: פּאַרק
+  translation: פארק
+  pos: noun
+  example:
+    text: איך זע אַ פּאַרק.
+    translation: אני רואה פארק
+- id: p8-brik
+  text: בריק
+  translation: גשר
+  pos: noun
+  example:
+    text: איך זע אַ בריק.
+    translation: אני רואה גשר
+- id: p8-mark
+  text: מאַרק
+  translation: שוק
+  pos: noun
+  example:
+    text: איך זע אַ מאַרק.
+    translation: אני רואה שוק
+- id: p8-breg
+  text: ברעג
+  translation: גדה
+  pos: noun
+  example:
+    text: איך זע אַ ברעג.
+    translation: אני רואה גדה
+- id: p8-veg
+  text: וועג
+  translation: דרך
+  pos: noun
+  example:
+    text: איך זע אַ וועג.
+    translation: אני רואה דרך
+- id: p8-shtok
+  text: שטאָק
+  translation: קומה
+  pos: noun
+  example:
+    text: איך זע אַ שטאָק.
+    translation: אני רואה קומה
+- id: p8-hoyf
+  text: הויף
+  translation: חצר
+  pos: noun
+  example:
+    text: איך זע אַ הויף.
+    translation: אני רואה חצר
+- id: p8-tsimer
+  text: צימער
+  translation: חדר
+  pos: noun
+  example:
+    text: איך זע אַ צימער.
+    translation: אני רואה חדר
+- id: p8-oyto
+  text: אויטאָ
+  translation: מכונית
+  pos: noun
+  example:
+    text: איך זע אַן אויטאָ.
+    translation: אני רואה מכונית
+- id: p8-ban
+  text: באַן
+  translation: רכבת
+  pos: noun
+  example:
+    text: איך זע אַ באַן.
+    translation: אני רואה רכבת
+- id: p8-shif
+  text: שיף
+  translation: ספינה
+  pos: noun
+  example:
+    text: איך זע אַ שיף.
+    translation: אני רואה ספינה
+- id: p8-eroplan
+  text: ערפּלאַן
+  translation: מטוס
+  pos: noun
+  example:
+    text: איך זע אַן ערפּלאַן.
+    translation: אני רואה מטוס
+lessons:
+- id: p8-l1
+  kind: new
+  title:
+    he: חבילה 8 – חלק 1
+    en: Pack 8 – part 1
+  exercises:
+  - id: p8-l1-01
+    type: learn
+    lexeme: p8-khoydesh
+  - id: p8-l1-02
+    type: learn
+    lexeme: p8-minut
+  - id: p8-l1-03
+    type: learn
+    lexeme: p8-shoe
+  - id: p8-l1-04
+    type: learn
+    lexeme: p8-tsayt
+  - id: p8-l1-05
+    type: learn
+    lexeme: p8-banhof
+  - id: p8-l1-06
+    type: learn
+    lexeme: p8-biblyotek
+  - id: p8-l1-07
+    type: learn
+    lexeme: p8-yeshive
+  - id: p8-l1-08
+    type: learn
+    lexeme: p8-mikve
+  - id: p8-l1-09
+    type: match_pairs
+    pairs:
+    - - חודש
+      - חודש בלוח
+    - - מינוט
+      - דקה
+    - - שעה
+      - שעה (60 דקות)
+    - - צײַט
+      - זמן
+    lexemes:
+    - p8-khoydesh
+    - p8-minut
+    - p8-shoe
+    - p8-tsayt
+  - id: p8-l1-10
+    type: match_pairs
+    pairs:
+    - - באַנהאָף
+      - תחנת רכבת
+    - - ביבליאָטעק
+      - ספרייה
+    - - ישיבה
+      - ישיבה (בית מדרש)
+    - - מקווה
+      - מקווה טהרה
+    lexemes:
+    - p8-banhof
+    - p8-biblyotek
+    - p8-yeshive
+    - p8-mikve
+  - id: p8-l1-11
+    type: multiple_choice
+    prompt: מה פירוש חודש?
+    options:
+    - חודש בלוח
+    - גדה
+    - מכונית
+    correct: 0
+    lexemes:
+    - p8-khoydesh
+  - id: p8-l1-12
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: דקה?'
+    options:
+    - מינוט
+    - ערפּלאַן
+    - אויטאָ
+    correct: 0
+    lexemes:
+    - p8-minut
+  - id: p8-l1-13
+    type: multiple_choice
+    prompt: מה פירוש שעה?
+    options:
+    - שעה (60 דקות)
+    - מכונית
+    - מטוס
+    correct: 0
+    lexemes:
+    - p8-shoe
+  - id: p8-l1-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: זמן?'
+    options:
+    - צײַט
+    - אויטאָ
+    - שפּיטאָל
+    correct: 0
+    lexemes:
+    - p8-tsayt
+  - id: p8-l1-15
+    type: multiple_choice
+    prompt: מה פירוש באַנהאָף?
+    options:
+    - תחנת רכבת
+    - מלון
+    - דרך
+    correct: 0
+    lexemes:
+    - p8-banhof
+  - id: p8-l1-16
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: ספרייה?'
+    options:
+    - ביבליאָטעק
+    - שטאָק
+    - הויף
+    correct: 0
+    lexemes:
+    - p8-biblyotek
+  - id: p8-l1-17
+    type: multiple_choice
+    prompt: מה פירוש ישיבה?
+    options:
+    - ישיבה (בית מדרש)
+    - חדר
+    - בית ספר
+    correct: 0
+    lexemes:
+    - p8-yeshive
+  - id: p8-l1-18
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: מקווה טהרה?'
+    options:
+    - מקווה
+    - ברעג
+    - ערפּלאַן
+    correct: 0
+    lexemes:
+    - p8-mikve
+  - id: p8-l1-19
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה חודש בלוח
+    answers:
+    - חודש
+    options:
+    - חודש
+    - באַן
+    - בריק
+    lexemes:
+    - p8-khoydesh
+  - id: p8-l1-20
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה דקה
+    answers:
+    - מינוט
+    options:
+    - מינוט
+    - בריק
+    - שפּיטאָל
+    lexemes:
+    - p8-minut
+  - id: p8-l1-21
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה שעה (60 דקות)
+    answers:
+    - שעה
+    options:
+    - שעה
+    - גאָרטן
+    - הויף
+    lexemes:
+    - p8-shoe
+  - id: p8-l1-22
+    type: fill_blank
+    sentence: איך האָב ___.
+    translation: יש לי זמן
+    answers:
+    - צײַט
+    options:
+    - צײַט
+    - גאָרטן
+    - שולע
+    lexemes:
+    - p8-tsayt
+  - id: p8-l1-23
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה תחנת רכבת
+    answers:
+    - באַנהאָף
+    options:
+    - באַנהאָף
+    - שולע
+    - בריק
+    lexemes:
+    - p8-banhof
+  - id: p8-l1-24
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה ספרייה
+    answers:
+    - ביבליאָטעק
+    options:
+    - ביבליאָטעק
+    - קעלער
+    - שיף
+    lexemes:
+    - p8-biblyotek
+  - id: p8-l1-25
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה ישיבה (בית מדרש)
+    answers:
+    - ישיבה
+    options:
+    - ישיבה
+    - שפּיטאָל
+    - צימער
+    lexemes:
+    - p8-yeshive
+  - id: p8-l1-26
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה מקווה טהרה
+    answers:
+    - מקווה
+    options:
+    - מקווה
+    - בריק
+    - קעלער
+    lexemes:
+    - p8-mikve
+- id: p8-l2
+  kind: new
+  title:
+    he: חבילה 8 – חלק 2
+    en: Pack 8 – part 2
+  exercises:
+  - id: p8-l2-01
+    type: learn
+    lexeme: p8-keler
+  - id: p8-l2-02
+    type: learn
+    lexeme: p8-shuleh
+  - id: p8-l2-03
+    type: learn
+    lexeme: p8-shpitol
+  - id: p8-l2-04
+    type: learn
+    lexeme: p8-hotel
+  - id: p8-l2-05
+    type: learn
+    lexeme: p8-gortn
+  - id: p8-l2-06
+    type: learn
+    lexeme: p8-park
+  - id: p8-l2-07
+    type: learn
+    lexeme: p8-brik
+  - id: p8-l2-08
+    type: learn
+    lexeme: p8-mark
+  - id: p8-l2-09
+    type: match_pairs
+    pairs:
+    - - קעלער
+      - מרתף
+    - - שולע
+      - בית ספר
+    - - שפּיטאָל
+      - בית חולים
+    - - האָטעל
+      - מלון
+    lexemes:
+    - p8-keler
+    - p8-shuleh
+    - p8-shpitol
+    - p8-hotel
+  - id: p8-l2-10
+    type: match_pairs
+    pairs:
+    - - גאָרטן
+      - גן
+    - - פּאַרק
+      - פארק
+    - - בריק
+      - גשר
+    - - מאַרק
+      - שוק
+    lexemes:
+    - p8-gortn
+    - p8-park
+    - p8-brik
+    - p8-mark
+  - id: p8-l2-11
+    type: multiple_choice
+    prompt: מה פירוש קעלער?
+    options:
+    - מרתף
+    - דקה
+    - רכבת
+    correct: 0
+    lexemes:
+    - p8-keler
+  - id: p8-l2-12
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: בית ספר?'
+    options:
+    - שולע
+    - ישיבה
+    - ברעג
+    correct: 0
+    lexemes:
+    - p8-shuleh
+  - id: p8-l2-13
+    type: multiple_choice
+    prompt: מה פירוש שפּיטאָל?
+    options:
+    - בית חולים
+    - חצר
+    - ישיבה (בית מדרש)
+    correct: 0
+    lexemes:
+    - p8-shpitol
+  - id: p8-l2-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: מלון?'
+    options:
+    - האָטעל
+    - שעה
+    - אויטאָ
+    correct: 0
+    lexemes:
+    - p8-hotel
+  - id: p8-l2-15
+    type: multiple_choice
+    prompt: מה פירוש גאָרטן?
+    options:
+    - גן
+    - מקווה טהרה
+    - ספינה
+    correct: 0
+    lexemes:
+    - p8-gortn
+  - id: p8-l2-16
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: פארק?'
+    options:
+    - פּאַרק
+    - שיף
+    - ערפּלאַן
+    correct: 0
+    lexemes:
+    - p8-park
+  - id: p8-l2-17
+    type: multiple_choice
+    prompt: מה פירוש בריק?
+    options:
+    - גשר
+    - רכבת
+    - ספרייה
+    correct: 0
+    lexemes:
+    - p8-brik
+  - id: p8-l2-18
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: שוק?'
+    options:
+    - מאַרק
+    - צימער
+    - שיף
+    correct: 0
+    lexemes:
+    - p8-mark
+  - id: p8-l2-19
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה מרתף
+    answers:
+    - קעלער
+    options:
+    - קעלער
+    - באַן
+    - וועג
+    lexemes:
+    - p8-keler
+  - id: p8-l2-20
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה בית ספר
+    answers:
+    - שולע
+    options:
+    - שולע
+    - שיף
+    - צימער
+    lexemes:
+    - p8-shuleh
+  - id: p8-l2-21
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה בית חולים
+    answers:
+    - שפּיטאָל
+    options:
+    - שפּיטאָל
+    - מקווה
+    - הויף
+    lexemes:
+    - p8-shpitol
+  - id: p8-l2-22
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה מלון
+    answers:
+    - האָטעל
+    options:
+    - האָטעל
+    - ביבליאָטעק
+    - ישיבה
+    lexemes:
+    - p8-hotel
+  - id: p8-l2-23
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה גן
+    answers:
+    - גאָרטן
+    options:
+    - גאָרטן
+    - שטאָק
+    - ביבליאָטעק
+    lexemes:
+    - p8-gortn
+  - id: p8-l2-24
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה פארק
+    answers:
+    - פּאַרק
+    options:
+    - פּאַרק
+    - וועג
+    - שטאָק
+    lexemes:
+    - p8-park
+  - id: p8-l2-25
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה גשר
+    answers:
+    - בריק
+    options:
+    - בריק
+    - שטאָק
+    - צימער
+    lexemes:
+    - p8-brik
+  - id: p8-l2-26
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה שוק
+    answers:
+    - מאַרק
+    options:
+    - מאַרק
+    - הויף
+    - צימער
+    lexemes:
+    - p8-mark
+- id: p8-l3
+  kind: new
+  title:
+    he: חבילה 8 – חלק 3
+    en: Pack 8 – part 3
+  exercises:
+  - id: p8-l3-01
+    type: learn
+    lexeme: p8-breg
+  - id: p8-l3-02
+    type: learn
+    lexeme: p8-veg
+  - id: p8-l3-03
+    type: learn
+    lexeme: p8-shtok
+  - id: p8-l3-04
+    type: learn
+    lexeme: p8-hoyf
+  - id: p8-l3-05
+    type: learn
+    lexeme: p8-tsimer
+  - id: p8-l3-06
+    type: learn
+    lexeme: p8-oyto
+  - id: p8-l3-07
+    type: learn
+    lexeme: p8-ban
+  - id: p8-l3-08
+    type: learn
+    lexeme: p8-shif
+  - id: p8-l3-09
+    type: learn
+    lexeme: p8-eroplan
+  - id: p8-l3-10
+    type: match_pairs
+    pairs:
+    - - ברעג
+      - גדה
+    - - וועג
+      - דרך
+    - - שטאָק
+      - קומה
+    - - הויף
+      - חצר
+    lexemes:
+    - p8-breg
+    - p8-veg
+    - p8-shtok
+    - p8-hoyf
+  - id: p8-l3-11
+    type: match_pairs
+    pairs:
+    - - צימער
+      - חדר
+    - - אויטאָ
+      - מכונית
+    - - באַן
+      - רכבת
+    - - שיף
+      - ספינה
+    - - ערפּלאַן
+      - מטוס
+    lexemes:
+    - p8-tsimer
+    - p8-oyto
+    - p8-ban
+    - p8-shif
+    - p8-eroplan
+  - id: p8-l3-12
+    type: multiple_choice
+    prompt: מה פירוש ברעג?
+    options:
+    - גדה
+    - בית חולים
+    - פארק
+    correct: 0
+    lexemes:
+    - p8-breg
+  - id: p8-l3-13
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: דרך?'
+    options:
+    - וועג
+    - ביבליאָטעק
+    - ישיבה
+    correct: 0
+    lexemes:
+    - p8-veg
+  - id: p8-l3-14
+    type: multiple_choice
+    prompt: מה פירוש שטאָק?
+    options:
+    - קומה
+    - ישיבה (בית מדרש)
+    - בית חולים
+    correct: 0
+    lexemes:
+    - p8-shtok
+  - id: p8-l3-15
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: חצר?'
+    options:
+    - הויף
+    - בריק
+    - שפּיטאָל
+    correct: 0
+    lexemes:
+    - p8-hoyf
+  - id: p8-l3-16
+    type: multiple_choice
+    prompt: מה פירוש צימער?
+    options:
+    - חדר
+    - גשר
+    - זמן
+    correct: 0
+    lexemes:
+    - p8-tsimer
+  - id: p8-l3-17
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: מכונית?'
+    options:
+    - אויטאָ
+    - בריק
+    - מקווה
+    correct: 0
+    lexemes:
+    - p8-oyto
+  - id: p8-l3-18
+    type: multiple_choice
+    prompt: מה פירוש באַן?
+    options:
+    - רכבת
+    - שעה (60 דקות)
+    - גשר
+    correct: 0
+    lexemes:
+    - p8-ban
+  - id: p8-l3-19
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: ספינה?'
+    options:
+    - שיף
+    - מינוט
+    - שפּיטאָל
+    correct: 0
+    lexemes:
+    - p8-shif
+  - id: p8-l3-20
+    type: multiple_choice
+    prompt: מה פירוש ערפּלאַן?
+    options:
+    - מטוס
+    - זמן
+    - תחנת רכבת
+    correct: 0
+    lexemes:
+    - p8-eroplan
+  - id: p8-l3-21
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה גדה
+    answers:
+    - ברעג
+    options:
+    - ברעג
+    - גאָרטן
+    - מקווה
+    lexemes:
+    - p8-breg
+  - id: p8-l3-22
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה דרך
+    answers:
+    - וועג
+    options:
+    - וועג
+    - חודש
+    - מאַרק
+    lexemes:
+    - p8-veg
+  - id: p8-l3-23
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה קומה
+    answers:
+    - שטאָק
+    options:
+    - שטאָק
+    - ביבליאָטעק
+    - פּאַרק
+    lexemes:
+    - p8-shtok
+  - id: p8-l3-24
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה חצר
+    answers:
+    - הויף
+    options:
+    - הויף
+    - ישיבה
+    - מינוט
+    lexemes:
+    - p8-hoyf
+  - id: p8-l3-25
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה חדר
+    answers:
+    - צימער
+    options:
+    - צימער
+    - מינוט
+    - האָטעל
+    lexemes:
+    - p8-tsimer
+  - id: p8-l3-26
+    type: fill_blank
+    sentence: איך זע אַן ___.
+    translation: אני רואה מכונית
+    answers:
+    - אויטאָ
+    options:
+    - אויטאָ
+    - צײַט
+    - האָטעל
+    lexemes:
+    - p8-oyto
+  - id: p8-l3-27
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה רכבת
+    answers:
+    - באַן
+    options:
+    - באַן
+    - גאָרטן
+    - מאַרק
+    lexemes:
+    - p8-ban
+  - id: p8-l3-28
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה ספינה
+    answers:
+    - שיף
+    options:
+    - שיף
+    - גאָרטן
+    - קעלער
+    lexemes:
+    - p8-shif
+  - id: p8-l3-29
+    type: fill_blank
+    sentence: איך זע אַן ___.
+    translation: אני רואה מטוס
+    answers:
+    - ערפּלאַן
+    options:
+    - ערפּלאַן
+    - מינוט
+    - בריק
+    lexemes:
+    - p8-eroplan

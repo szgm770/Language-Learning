@@ -1,0 +1,593 @@
+id: u06-hoyz
+cefr: A1
+scene: home
+title:
+  he: הבית
+  en: The house
+story: מנחם מסתובב בבית של סבא וסבתא ולומד את שמות החדרים.
+canDo:
+- לומר מה יש בבית
+- לומר איפה אני נמצא
+- להשתמש ב־אין ו־דאָ
+vocabulary:
+- id: hoyz
+  text: הויז
+  translation: בית
+  pos: noun
+- id: kikh
+  text: קיך
+  translation: מטבח
+  pos: noun
+- id: shtub
+  text: שטוב
+  translation: חדר
+  pos: noun
+- id: tir
+  text: טיר
+  translation: דלת
+  pos: noun
+- id: fentster
+  text: פֿענצטער
+  translation: חלון
+  pos: noun
+- id: bet
+  text: בעט
+  translation: מיטה
+  pos: noun
+- id: shtul
+  text: שטול
+  translation: כיסא
+  pos: noun
+- id: in
+  text: אין
+  translation: ב־
+  pos: preposition
+- id: do
+  text: דאָ
+  translation: כאן / יש
+  pos: adverb
+- id: a
+  text: אַ
+  translation: ־ אחד (סתמי)
+  pos: determiner
+lessons:
+- id: u06-l1
+  kind: new
+  title:
+    he: חלקי הבית
+    en: Lesson
+  exercises:
+  - id: u06-l1-01
+    type: tip
+    title: בבית
+    text: '**הויז** (בית), **קיך** (מטבח), **שטוב** (חדר), **טיר** (דלת), **פֿענצטער** (חלון), **בעט** (מיטה).
+
+      **אין** פירושו "ב־", ו**דאָ** פירושו "כאן" או "יש": **אין די קיך איז דאָ אַ טיש** (במטבח יש שולחן).
+
+      **אַ** הוא "אחד" (סתמי): **אַ טיר** (דלת).
+
+      בליטאית אומרים **די קיך** גם אחרי **אין**.
+
+      '
+  - id: u06-l1-02
+    type: learn
+    lexeme: hoyz
+  - id: u06-l1-03
+    type: learn
+    lexeme: kikh
+  - id: u06-l1-04
+    type: learn
+    lexeme: shtub
+  - id: u06-l1-05
+    type: learn
+    lexeme: tir
+  - id: u06-l1-06
+    type: learn
+    lexeme: fentster
+  - id: u06-l1-07
+    type: learn
+    lexeme: bet
+  - id: u06-l1-08
+    type: learn
+    lexeme: in
+  - id: u06-l1-09
+    type: learn
+    lexeme: do
+  - id: u06-l1-10
+    type: match_pairs
+    pairs:
+    - - הויז
+      - בית
+    - - קיך
+      - מטבח
+    - - שטוב
+      - חדר
+    - - טיר
+      - דלת
+    - - פֿענצטער
+      - חלון
+    - - בעט
+      - מיטה
+    lexemes:
+    - hoyz
+    - kikh
+    - shtub
+    - tir
+    - fentster
+    - bet
+  - id: u06-l1-11
+    type: multiple_choice
+    prompt: מה פירוש הויז?
+    options:
+    - בית
+    - מטבח
+    - חדר
+    correct: 0
+    lexemes:
+    - hoyz
+  - id: u06-l1-12
+    type: multiple_choice
+    prompt: מה פירוש קיך?
+    options:
+    - מטבח
+    - בית
+    - חדר
+    correct: 0
+    lexemes:
+    - kikh
+  - id: u06-l1-13
+    type: multiple_choice
+    prompt: מה פירוש שטוב?
+    options:
+    - חדר
+    - בית
+    - מטבח
+    correct: 0
+    lexemes:
+    - shtub
+  - id: u06-l1-14
+    type: multiple_choice
+    prompt: מה פירוש טיר?
+    options:
+    - דלת
+    - בית
+    - מטבח
+    correct: 0
+    lexemes:
+    - tir
+  - id: u06-l1-15
+    type: multiple_choice
+    prompt: מה פירוש פֿענצטער?
+    options:
+    - חלון
+    - בית
+    - מטבח
+    correct: 0
+    lexemes:
+    - fentster
+  - id: u06-l1-16
+    type: translate
+    direction: to_source
+    prompt: דאָס איז אַ טיר.
+    answers:
+    - זו דלת
+    - זאת דלת
+    lexemes: &id001
+    - w-dos
+    - iz
+    - tir
+  - id: u06-l1-17
+    type: translate
+    direction: to_target
+    prompt: זו דלת
+    answers:
+    - דאָס איז אַ טיר
+    lexemes: *id001
+  - id: u06-l1-18
+    type: word_bank
+    prompt: זו דלת
+    answers:
+    - דאָס איז אַ טיר
+    distractors:
+    - קיך
+    - טיר
+    lexemes: *id001
+  - id: u06-l1-19
+    type: translate
+    direction: to_source
+    prompt: דאָס איז אַ פֿענצטער.
+    answers:
+    - זה חלון
+    lexemes: &id002
+    - w-dos
+    - iz
+    - fentster
+  - id: u06-l1-20
+    type: translate
+    direction: to_target
+    prompt: זה חלון
+    answers:
+    - דאָס איז אַ פֿענצטער
+    lexemes: *id002
+  - id: u06-l1-21
+    type: word_bank
+    prompt: זה חלון
+    answers:
+    - דאָס איז אַ פֿענצטער
+    distractors:
+    - פֿענצטער
+    - דאָ
+    lexemes: *id002
+  - id: u06-l1-22
+    type: translate
+    direction: to_source
+    prompt: אין די קיך איז דאָ אַ טיש.
+    answers:
+    - במטבח יש שולחן
+    lexemes: &id003
+    - in
+    - kikh
+    - do
+    - tish
+  - id: u06-l1-23
+    type: translate
+    direction: to_target
+    prompt: במטבח יש שולחן
+    answers:
+    - אין די קיך איז דאָ אַ טיש
+    lexemes: *id003
+  - id: u06-l1-24
+    type: word_bank
+    prompt: במטבח יש שולחן
+    answers:
+    - אין די קיך איז דאָ אַ טיש
+    distractors:
+    - שטול
+    - פֿענצטער
+    lexemes: *id003
+  - id: u06-l1-25
+    type: fill_blank
+    sentence: אין די ___ איז דאָ אַ טיש.
+    translation: במטבח יש שולחן
+    answers:
+    - קיך
+    options:
+    - קיך
+    - בעט
+    - הויז
+    lexemes: *id003
+- id: u06-l2
+  kind: new
+  title:
+    he: איפה זה?
+    en: Lesson
+  exercises:
+  - id: u06-l2-01
+    type: learn
+    lexeme: shtul
+  - id: u06-l2-02
+    type: learn
+    lexeme: in
+  - id: u06-l2-03
+    type: learn
+    lexeme: do
+  - id: u06-l2-04
+    type: learn
+    lexeme: a
+  - id: u06-l2-05
+    type: dialogue
+    scene: home
+    lines:
+    - speaker: zeyde
+      text: וווּ איז מנחם?
+      translation: איפה מנחם?
+    - speaker: bobe
+      text: ער איז אין די קיך.
+      translation: הוא במטבח.
+  - id: u06-l2-06
+    type: match_pairs
+    pairs:
+    - - שטול
+      - כיסא
+    - - אין
+      - ב־
+    - - דאָ
+      - כאן / יש
+    - - אַ
+      - ־ אחד (סתמי)
+    lexemes:
+    - shtul
+    - in
+    - do
+    - a
+  - id: u06-l2-07
+    type: multiple_choice
+    prompt: מה פירוש שטול?
+    options:
+    - כיסא
+    - בית
+    - מטבח
+    correct: 0
+    lexemes:
+    - shtul
+  - id: u06-l2-08
+    type: multiple_choice
+    prompt: מה פירוש אין?
+    options:
+    - ב־
+    - בית
+    - מטבח
+    correct: 0
+    lexemes:
+    - in
+  - id: u06-l2-09
+    type: multiple_choice
+    prompt: מה פירוש דאָ?
+    options:
+    - כאן / יש
+    - בית
+    - מטבח
+    correct: 0
+    lexemes:
+    - do
+  - id: u06-l2-10
+    type: multiple_choice
+    prompt: מה פירוש אַ?
+    options:
+    - ־ אחד (סתמי)
+    - בית
+    - מטבח
+    correct: 0
+    lexemes:
+    - a
+  - id: u06-l2-11
+    type: translate
+    direction: to_source
+    prompt: אין די שטוב איז דאָ אַ בעט.
+    answers:
+    - בחדר יש מיטה
+    lexemes: &id004
+    - in
+    - shtub
+    - do
+    - bet
+  - id: u06-l2-12
+    type: translate
+    direction: to_target
+    prompt: בחדר יש מיטה
+    answers:
+    - אין די שטוב איז דאָ אַ בעט
+    lexemes: *id004
+  - id: u06-l2-13
+    type: word_bank
+    prompt: בחדר יש מיטה
+    answers:
+    - אין די שטוב איז דאָ אַ בעט
+    distractors:
+    - הויז
+    - בעט
+    lexemes: *id004
+  - id: u06-l2-14
+    type: fill_blank
+    sentence: אין די ___ איז דאָ אַ בעט.
+    translation: בחדר יש מיטה
+    answers:
+    - שטוב
+    options:
+    - שטוב
+    - שטול
+    - בעט
+    lexemes: *id004
+  - id: u06-l2-15
+    type: translate
+    direction: to_source
+    prompt: מײַן הויז איז גרויס.
+    answers:
+    - הבית שלי גדול
+    lexemes: &id005
+    - w-mayn
+    - hoyz
+    - iz
+    - groys
+  - id: u06-l2-16
+    type: translate
+    direction: to_target
+    prompt: הבית שלי גדול
+    answers:
+    - מײַן הויז איז גרויס
+    lexemes: *id005
+  - id: u06-l2-17
+    type: word_bank
+    prompt: הבית שלי גדול
+    answers:
+    - מײַן הויז איז גרויס
+    distractors:
+    - טיר
+    - שטוב
+    lexemes: *id005
+  - id: u06-l2-18
+    type: fill_blank
+    sentence: מײַן ___ איז גרויס.
+    translation: הבית שלי גדול
+    answers:
+    - הויז
+    options:
+    - הויז
+    - אין
+    - שטול
+    lexemes: *id005
+  - id: u06-l2-19
+    type: translate
+    direction: to_source
+    prompt: איך בין אין הויז.
+    answers:
+    - אני בבית
+    lexemes: &id006
+    - ikh
+    - bin
+    - in
+    - hoyz
+  - id: u06-l2-20
+    type: translate
+    direction: to_target
+    prompt: אני בבית
+    answers:
+    - איך בין אין הויז
+    lexemes: *id006
+  - id: u06-l2-21
+    type: word_bank
+    prompt: אני בבית
+    answers:
+    - איך בין אין הויז
+    distractors:
+    - דאָ
+    - שטוב
+    lexemes: *id006
+  - id: u06-l2-22
+    type: fill_blank
+    sentence: איך בין ___ הויז.
+    translation: אני בבית
+    answers:
+    - אין
+    options:
+    - אין
+    - טיר
+    - אַ
+    lexemes: *id006
+- id: u06-review
+  kind: review
+  title:
+    he: 'חזרה: הבית'
+    en: Review
+  exercises:
+  - id: u06-review-01
+    type: match_pairs
+    pairs:
+    - - הויז
+      - בית
+    - - קיך
+      - מטבח
+    - - שטוב
+      - חדר
+    - - טיר
+      - דלת
+    - - פֿענצטער
+      - חלון
+    - - בעט
+      - מיטה
+    lexemes:
+    - hoyz
+    - kikh
+    - shtub
+    - tir
+    - fentster
+    - bet
+  - id: u06-review-02
+    type: match_pairs
+    pairs:
+    - - שטול
+      - כיסא
+    - - אין
+      - ב־
+    - - דאָ
+      - כאן / יש
+    - - אַ
+      - ־ אחד (סתמי)
+    lexemes:
+    - shtul
+    - in
+    - do
+    - a
+  - id: u06-review-03
+    type: translate
+    direction: to_source
+    prompt: דאָס איז אַ טיר.
+    answers:
+    - זו דלת
+    - זאת דלת
+    lexemes: *id001
+  - id: u06-review-04
+    type: translate
+    direction: to_target
+    prompt: זו דלת
+    answers:
+    - דאָס איז אַ טיר
+    lexemes: *id001
+  - id: u06-review-05
+    type: word_bank
+    prompt: זו דלת
+    answers:
+    - דאָס איז אַ טיר
+    distractors:
+    - קיך
+    - טיר
+    lexemes: *id001
+  - id: u06-review-06
+    type: translate
+    direction: to_source
+    prompt: דאָס איז אַ פֿענצטער.
+    answers:
+    - זה חלון
+    lexemes: *id002
+  - id: u06-review-07
+    type: translate
+    direction: to_target
+    prompt: זה חלון
+    answers:
+    - דאָס איז אַ פֿענצטער
+    lexemes: *id002
+  - id: u06-review-08
+    type: word_bank
+    prompt: זה חלון
+    answers:
+    - דאָס איז אַ פֿענצטער
+    distractors:
+    - פֿענצטער
+    - דאָ
+    lexemes: *id002
+  - id: u06-review-09
+    type: translate
+    direction: to_source
+    prompt: אין די קיך איז דאָ אַ טיש.
+    answers:
+    - במטבח יש שולחן
+    lexemes: *id003
+  - id: u06-review-10
+    type: translate
+    direction: to_target
+    prompt: במטבח יש שולחן
+    answers:
+    - אין די קיך איז דאָ אַ טיש
+    lexemes: *id003
+  - id: u06-review-11
+    type: word_bank
+    prompt: במטבח יש שולחן
+    answers:
+    - אין די קיך איז דאָ אַ טיש
+    distractors:
+    - שטול
+    - פֿענצטער
+    lexemes: *id003
+  - id: u06-review-12
+    type: translate
+    direction: to_source
+    prompt: אין די שטוב איז דאָ אַ בעט.
+    answers:
+    - בחדר יש מיטה
+    lexemes: *id004
+  - id: u06-review-13
+    type: translate
+    direction: to_target
+    prompt: בחדר יש מיטה
+    answers:
+    - אין די שטוב איז דאָ אַ בעט
+    lexemes: *id004
+  - id: u06-review-14
+    type: word_bank
+    prompt: בחדר יש מיטה
+    answers:
+    - אין די שטוב איז דאָ אַ בעט
+    distractors:
+    - הויז
+    - בעט
+    lexemes: *id004

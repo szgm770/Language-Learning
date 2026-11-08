@@ -1,0 +1,448 @@
+id: u12-fragn
+cefr: A2
+scene: day
+title:
+  he: שאלות
+  en: Questions
+story: הסבא שואל את מנחם שאלות על חבריו ועל היום שלו.
+canDo:
+- לשאול מי, מה, מתי ולמה
+- לענות על שאלות פשוטות
+- לדבר על חברים
+vocabulary:
+- id: ver
+  text: ווער
+  translation: מי
+  pos: pronoun
+- id: vos
+  text: וואָס
+  translation: מה
+  pos: pronoun
+- id: ven
+  text: ווען
+  translation: מתי
+  pos: adverb
+- id: varum
+  text: וואָרום
+  translation: למה
+  pos: adverb
+- id: mit
+  text: מיט
+  translation: עם
+  pos: preposition
+- id: fraynd
+  text: פֿרײַנד
+  translation: חבר
+  pos: noun
+lessons:
+- id: u12-l1
+  kind: new
+  title:
+    he: מי, מה ומתי
+    en: Lesson
+  exercises:
+  - id: u12-l1-01
+    type: tip
+    title: מילות שאלה
+    text: '**ווער** (מי), **וואָס** (מה), **ווען** (מתי), **וואָרום** (למה), ו**וווּ** (איפה) כבר הכרתם.
+
+      אחרי מילת השאלה בא הפועל: **ווער איז דאָס?**, **ווען גייסטו אין שול?**
+
+      **-סטו** בסוף הפועל פירושו "אתה": **גייסטו** (אתה הולך).
+
+      '
+  - id: u12-l1-02
+    type: learn
+    lexeme: ver
+  - id: u12-l1-03
+    type: learn
+    lexeme: vos
+  - id: u12-l1-04
+    type: learn
+    lexeme: ven
+  - id: u12-l1-05
+    type: learn
+    lexeme: varum
+  - id: u12-l1-06
+    type: match_pairs
+    pairs:
+    - - ווער
+      - מי
+    - - וואָס
+      - מה
+    - - ווען
+      - מתי
+    - - וואָרום
+      - למה
+    lexemes:
+    - ver
+    - vos
+    - ven
+    - varum
+  - id: u12-l1-07
+    type: multiple_choice
+    prompt: מה פירוש ווער?
+    options:
+    - מי
+    - מה
+    correct: 0
+    lexemes:
+    - ver
+  - id: u12-l1-08
+    type: multiple_choice
+    prompt: מה פירוש וואָס?
+    options:
+    - מה
+    - מי
+    correct: 0
+    lexemes:
+    - vos
+  - id: u12-l1-09
+    type: multiple_choice
+    prompt: מה פירוש ווען?
+    options:
+    - מתי
+    - למה
+    correct: 0
+    lexemes:
+    - ven
+  - id: u12-l1-10
+    type: multiple_choice
+    prompt: מה פירוש וואָרום?
+    options:
+    - למה
+    - מתי
+    correct: 0
+    lexemes:
+    - varum
+  - id: u12-l1-11
+    type: translate
+    direction: to_source
+    prompt: ווער איז דאָס?
+    answers:
+    - מי זה
+    - מי זאת
+    lexemes: &id001
+    - ver
+    - iz
+    - w-dos
+  - id: u12-l1-12
+    type: translate
+    direction: to_target
+    prompt: מי זה
+    answers:
+    - ווער איז דאָס
+    lexemes: *id001
+  - id: u12-l1-13
+    type: word_bank
+    prompt: מי זה
+    answers:
+    - ווער איז דאָס
+    distractors:
+    - וואָרום
+    - מיט
+    lexemes: *id001
+  - id: u12-l1-14
+    type: fill_blank
+    sentence: ___ איז דאָס?
+    translation: מי זה
+    answers:
+    - ווער
+    options:
+    - ווער
+    - מיט
+    - וואָרום
+    lexemes: *id001
+  - id: u12-l1-15
+    type: translate
+    direction: to_source
+    prompt: וואָס איז דאָס?
+    answers:
+    - מה זה
+    lexemes: &id002
+    - vos
+    - iz
+    - w-dos
+  - id: u12-l1-16
+    type: translate
+    direction: to_target
+    prompt: מה זה
+    answers:
+    - וואָס איז דאָס
+    lexemes: *id002
+  - id: u12-l1-17
+    type: word_bank
+    prompt: מה זה
+    answers:
+    - וואָס איז דאָס
+    distractors:
+    - פֿרײַנד
+    - ווען
+    lexemes: *id002
+  - id: u12-l1-18
+    type: fill_blank
+    sentence: ___ איז דאָס?
+    translation: מה זה
+    answers:
+    - וואָס
+    options:
+    - וואָס
+    - מיט
+    - ווען
+    lexemes: *id002
+  - id: u12-l1-19
+    type: translate
+    direction: to_source
+    prompt: ווען גייסטו אין שול?
+    answers:
+    - מתי אתה הולך לבית הכנסת
+    lexemes: &id003
+    - ven
+    - geyn
+    - in
+    - shul
+  - id: u12-l1-20
+    type: translate
+    direction: to_target
+    prompt: מתי אתה הולך לבית הכנסת
+    answers:
+    - ווען גייסטו אין שול
+    lexemes: *id003
+  - id: u12-l1-21
+    type: word_bank
+    prompt: מתי אתה הולך לבית הכנסת
+    answers:
+    - ווען גייסטו אין שול
+    distractors:
+    - וואָס
+    - מיט
+    lexemes: *id003
+  - id: u12-l1-22
+    type: fill_blank
+    sentence: ___ גייסטו אין שול?
+    translation: מתי אתה הולך לבית הכנסת
+    answers:
+    - ווען
+    options:
+    - ווען
+    - פֿרײַנד
+    - ווער
+    lexemes: *id003
+- id: u12-l2
+  kind: new
+  title:
+    he: עם מי?
+    en: Lesson
+  exercises:
+  - id: u12-l2-01
+    type: learn
+    lexeme: mit
+  - id: u12-l2-02
+    type: learn
+    lexeme: fraynd
+  - id: u12-l2-03
+    type: dialogue
+    scene: town
+    lines:
+    - speaker: zeyde
+      text: ווער איז דאָס?
+      translation: מי זה?
+    - speaker: menachem
+      text: דאָס איז מײַן פֿרײַנד.
+      translation: זה חבר שלי.
+    - speaker: zeyde
+      text: ווען גייט איר אין שול?
+      translation: מתי אתם הולכים לבית הכנסת?
+  - id: u12-l2-04
+    type: multiple_choice
+    prompt: מה פירוש מיט?
+    options:
+    - עם
+    - מי
+    - מה
+    correct: 0
+    lexemes:
+    - mit
+  - id: u12-l2-05
+    type: multiple_choice
+    prompt: מה פירוש פֿרײַנד?
+    options:
+    - חבר
+    - מי
+    - מה
+    correct: 0
+    lexemes:
+    - fraynd
+  - id: u12-l2-06
+    type: translate
+    direction: to_source
+    prompt: וואָרום לערנסטו?
+    answers:
+    - למה אתה לומד
+    lexemes: &id004
+    - varum
+    - lernen
+  - id: u12-l2-07
+    type: translate
+    direction: to_target
+    prompt: למה אתה לומד
+    answers:
+    - וואָרום לערנסטו
+    lexemes: *id004
+  - id: u12-l2-08
+    type: word_bank
+    prompt: למה אתה לומד
+    answers:
+    - וואָרום לערנסטו
+    distractors:
+    - פֿרײַנד
+    - מיט
+    lexemes: *id004
+  - id: u12-l2-09
+    type: fill_blank
+    sentence: ___ לערנסטו?
+    translation: למה אתה לומד
+    answers:
+    - וואָרום
+    options:
+    - וואָרום
+    - וואָס
+    - פֿרײַנד
+    lexemes: *id004
+  - id: u12-l2-10
+    type: translate
+    direction: to_source
+    prompt: איך גיי מיט מײַן פֿרײַנד.
+    answers:
+    - אני הולך עם החבר שלי
+    - אני הולך עם חבר שלי
+    lexemes: &id005
+    - ikh
+    - geyn
+    - mit
+    - fraynd
+  - id: u12-l2-11
+    type: translate
+    direction: to_target
+    prompt: אני הולך עם החבר שלי
+    answers:
+    - איך גיי מיט מײַן פֿרײַנד
+    lexemes: *id005
+  - id: u12-l2-12
+    type: word_bank
+    prompt: אני הולך עם החבר שלי
+    answers:
+    - איך גיי מיט מײַן פֿרײַנד
+    distractors:
+    - פֿרײַנד
+    - וואָס
+    lexemes: *id005
+  - id: u12-l2-13
+    type: fill_blank
+    sentence: איך גיי ___ מײַן פֿרײַנד.
+    translation: אני הולך עם החבר שלי
+    answers:
+    - מיט
+    options:
+    - מיט
+    - ווען
+    - ווער
+    lexemes: *id005
+- id: u12-review
+  kind: review
+  title:
+    he: 'חזרה: שאלות'
+    en: Review
+  exercises:
+  - id: u12-review-01
+    type: match_pairs
+    pairs:
+    - - ווער
+      - מי
+    - - וואָס
+      - מה
+    - - ווען
+      - מתי
+    - - וואָרום
+      - למה
+    - - מיט
+      - עם
+    - - פֿרײַנד
+      - חבר
+    lexemes:
+    - ver
+    - vos
+    - ven
+    - varum
+    - mit
+    - fraynd
+  - id: u12-review-02
+    type: translate
+    direction: to_source
+    prompt: ווער איז דאָס?
+    answers:
+    - מי זה
+    - מי זאת
+    lexemes: *id001
+  - id: u12-review-03
+    type: translate
+    direction: to_target
+    prompt: מי זה
+    answers:
+    - ווער איז דאָס
+    lexemes: *id001
+  - id: u12-review-04
+    type: word_bank
+    prompt: מי זה
+    answers:
+    - ווער איז דאָס
+    distractors:
+    - וואָרום
+    - מיט
+    lexemes: *id001
+  - id: u12-review-05
+    type: translate
+    direction: to_source
+    prompt: וואָס איז דאָס?
+    answers:
+    - מה זה
+    lexemes: *id002
+  - id: u12-review-06
+    type: translate
+    direction: to_target
+    prompt: מה זה
+    answers:
+    - וואָס איז דאָס
+    lexemes: *id002
+  - id: u12-review-07
+    type: word_bank
+    prompt: מה זה
+    answers:
+    - וואָס איז דאָס
+    distractors:
+    - פֿרײַנד
+    - ווען
+    lexemes: *id002
+  - id: u12-review-08
+    type: translate
+    direction: to_source
+    prompt: ווען גייסטו אין שול?
+    answers:
+    - מתי אתה הולך לבית הכנסת
+    lexemes: *id003
+  - id: u12-review-09
+    type: translate
+    direction: to_target
+    prompt: מתי אתה הולך לבית הכנסת
+    answers:
+    - ווען גייסטו אין שול
+    lexemes: *id003
+  - id: u12-review-10
+    type: word_bank
+    prompt: מתי אתה הולך לבית הכנסת
+    answers:
+    - ווען גייסטו אין שול
+    distractors:
+    - וואָס
+    - מיט
+    lexemes: *id003

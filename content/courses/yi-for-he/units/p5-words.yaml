@@ -1,0 +1,684 @@
+id: p5-words
+cefr: B2
+scene: town
+title:
+  he: 'הרחבת אוצר מילים 5: אנשים ומקצועות'
+  en: 'Word builder 5: people and trades'
+story: מילים שימושיות נוספות, כל אחת במשפט קצר.
+canDo:
+- להבין ולהשתמש במילים נפוצות נוספות
+- לזהות את המילים במשפטים
+vocabulary:
+- id: p5-mentsh
+  text: מענטש
+  translation: אדם
+  pos: noun
+  example:
+    text: איך זע אַ מענטש.
+    translation: אני רואה אדם
+- id: p5-man
+  text: מאַן
+  translation: גבר
+  pos: noun
+  example:
+    text: איך זע אַ מאַן.
+    translation: אני רואה גבר
+- id: p5-froy
+  text: פֿרוי
+  translation: אישה
+  pos: noun
+  example:
+    text: איך זע אַ פֿרוי.
+    translation: אני רואה אישה
+- id: p5-yingl
+  text: יינגל
+  translation: ילד
+  pos: noun
+  example:
+    text: איך זע אַ יינגל.
+    translation: אני רואה ילד
+- id: p5-meydl
+  text: מיידל
+  translation: ילדה
+  pos: noun
+  example:
+    text: איך זע אַ מיידל.
+    translation: אני רואה ילדה
+- id: p5-shokhn
+  text: שכן
+  translation: שכן ליד הבית
+  pos: noun
+  example:
+    text: איך זע אַ שכן.
+    translation: אני רואה שכן ליד הבית
+- id: p5-keynig
+  text: קעניג
+  translation: מלך
+  pos: noun
+  example:
+    text: איך זע אַ קעניג.
+    translation: אני רואה מלך
+- id: p5-rov
+  text: רב
+  translation: רב הקהילה
+  pos: noun
+  example:
+    text: איך זע אַ רב.
+    translation: אני רואה רב הקהילה
+- id: p5-balebos
+  text: בעל־הבית
+  translation: בעל הבית
+  pos: noun
+  example:
+    text: איך זע אַ בעל־הבית.
+    translation: אני רואה בעל הבית
+- id: p5-poyer
+  text: פּויער
+  translation: איכר
+  pos: noun
+  example:
+    text: איך זע אַ פּויער.
+    translation: אני רואה איכר
+- id: p5-melamed
+  text: מלמד
+  translation: מלמד תינוקות
+  pos: noun
+  example:
+    text: איך זע אַ מלמד.
+    translation: אני רואה מלמד תינוקות
+- id: p5-talmid
+  text: תלמיד
+  translation: תלמיד בכיתה
+  pos: noun
+  example:
+    text: איך זע אַ תלמיד.
+    translation: אני רואה תלמיד בכיתה
+- id: p5-soykher
+  text: סוחר
+  translation: סוחר בשוק
+  pos: noun
+  example:
+    text: איך זע אַ סוחר.
+    translation: אני רואה סוחר בשוק
+- id: p5-shnayder
+  text: שנײַדער
+  translation: חייט
+  pos: noun
+  example:
+    text: איך זע אַ שנײַדער.
+    translation: אני רואה חייט
+- id: p5-shuster
+  text: שוסטער
+  translation: סנדלר
+  pos: noun
+  example:
+    text: איך זע אַ שוסטער.
+    translation: אני רואה סנדלר
+- id: p5-beker
+  text: בעקער
+  translation: אופה
+  pos: noun
+  example:
+    text: איך זע אַ בעקער.
+    translation: אני רואה אופה
+- id: p5-khosn
+  text: חתן
+  translation: חתן (בחתונה)
+  pos: noun
+  example:
+    text: איך זע אַ חתן.
+    translation: אני רואה חתן (בחתונה)
+- id: p5-kale
+  text: כלה
+  translation: כלה (בחתונה)
+  pos: noun
+  example:
+    text: איך זע אַ כלה.
+    translation: אני רואה כלה (בחתונה)
+lessons:
+- id: p5-l1
+  kind: new
+  title:
+    he: חבילה 5 – חלק 1
+    en: Pack 5 – part 1
+  exercises:
+  - id: p5-l1-01
+    type: learn
+    lexeme: p5-mentsh
+  - id: p5-l1-02
+    type: learn
+    lexeme: p5-man
+  - id: p5-l1-03
+    type: learn
+    lexeme: p5-froy
+  - id: p5-l1-04
+    type: learn
+    lexeme: p5-yingl
+  - id: p5-l1-05
+    type: learn
+    lexeme: p5-meydl
+  - id: p5-l1-06
+    type: learn
+    lexeme: p5-shokhn
+  - id: p5-l1-07
+    type: match_pairs
+    pairs:
+    - - מענטש
+      - אדם
+    - - מאַן
+      - גבר
+    - - פֿרוי
+      - אישה
+    lexemes:
+    - p5-mentsh
+    - p5-man
+    - p5-froy
+  - id: p5-l1-08
+    type: match_pairs
+    pairs:
+    - - יינגל
+      - ילד
+    - - מיידל
+      - ילדה
+    - - שכן
+      - שכן ליד הבית
+    lexemes:
+    - p5-yingl
+    - p5-meydl
+    - p5-shokhn
+  - id: p5-l1-09
+    type: multiple_choice
+    prompt: מה פירוש מענטש?
+    options:
+    - אדם
+    - תלמיד בכיתה
+    - כלה (בחתונה)
+    correct: 0
+    lexemes:
+    - p5-mentsh
+  - id: p5-l1-10
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: גבר?'
+    options:
+    - מאַן
+    - חתן
+    - כלה
+    correct: 0
+    lexemes:
+    - p5-man
+  - id: p5-l1-11
+    type: multiple_choice
+    prompt: מה פירוש פֿרוי?
+    options:
+    - אישה
+    - סנדלר
+    - תלמיד בכיתה
+    correct: 0
+    lexemes:
+    - p5-froy
+  - id: p5-l1-12
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: ילד?'
+    options:
+    - יינגל
+    - רב
+    - שנײַדער
+    correct: 0
+    lexemes:
+    - p5-yingl
+  - id: p5-l1-13
+    type: multiple_choice
+    prompt: מה פירוש מיידל?
+    options:
+    - ילדה
+    - מלך
+    - כלה (בחתונה)
+    correct: 0
+    lexemes:
+    - p5-meydl
+  - id: p5-l1-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: שכן ליד הבית?'
+    options:
+    - שכן
+    - מלמד
+    - בעל־הבית
+    correct: 0
+    lexemes:
+    - p5-shokhn
+  - id: p5-l1-15
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה אדם
+    answers:
+    - מענטש
+    options:
+    - מענטש
+    - בעל־הבית
+    - קעניג
+    lexemes:
+    - p5-mentsh
+  - id: p5-l1-16
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה גבר
+    answers:
+    - מאַן
+    options:
+    - מאַן
+    - כלה
+    - בעל־הבית
+    lexemes:
+    - p5-man
+  - id: p5-l1-17
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה אישה
+    answers:
+    - פֿרוי
+    options:
+    - פֿרוי
+    - קעניג
+    - תלמיד
+    lexemes:
+    - p5-froy
+  - id: p5-l1-18
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה ילד
+    answers:
+    - יינגל
+    options:
+    - יינגל
+    - רב
+    - בעקער
+    lexemes:
+    - p5-yingl
+  - id: p5-l1-19
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה ילדה
+    answers:
+    - מיידל
+    options:
+    - מיידל
+    - מלמד
+    - רב
+    lexemes:
+    - p5-meydl
+  - id: p5-l1-20
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה שכן ליד הבית
+    answers:
+    - שכן
+    options:
+    - שכן
+    - מלמד
+    - תלמיד
+    lexemes:
+    - p5-shokhn
+- id: p5-l2
+  kind: new
+  title:
+    he: חבילה 5 – חלק 2
+    en: Pack 5 – part 2
+  exercises:
+  - id: p5-l2-01
+    type: learn
+    lexeme: p5-keynig
+  - id: p5-l2-02
+    type: learn
+    lexeme: p5-rov
+  - id: p5-l2-03
+    type: learn
+    lexeme: p5-balebos
+  - id: p5-l2-04
+    type: learn
+    lexeme: p5-poyer
+  - id: p5-l2-05
+    type: learn
+    lexeme: p5-melamed
+  - id: p5-l2-06
+    type: learn
+    lexeme: p5-talmid
+  - id: p5-l2-07
+    type: match_pairs
+    pairs:
+    - - קעניג
+      - מלך
+    - - רב
+      - רב הקהילה
+    - - בעל־הבית
+      - בעל הבית
+    lexemes:
+    - p5-keynig
+    - p5-rov
+    - p5-balebos
+  - id: p5-l2-08
+    type: match_pairs
+    pairs:
+    - - פּויער
+      - איכר
+    - - מלמד
+      - מלמד תינוקות
+    - - תלמיד
+      - תלמיד בכיתה
+    lexemes:
+    - p5-poyer
+    - p5-melamed
+    - p5-talmid
+  - id: p5-l2-09
+    type: multiple_choice
+    prompt: מה פירוש קעניג?
+    options:
+    - מלך
+    - אישה
+    - סנדלר
+    correct: 0
+    lexemes:
+    - p5-keynig
+  - id: p5-l2-10
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: רב הקהילה?'
+    options:
+    - רב
+    - שנײַדער
+    - בעקער
+    correct: 0
+    lexemes:
+    - p5-rov
+  - id: p5-l2-11
+    type: multiple_choice
+    prompt: מה פירוש בעל־הבית?
+    options:
+    - בעל הבית
+    - כלה (בחתונה)
+    - ילד
+    correct: 0
+    lexemes:
+    - p5-balebos
+  - id: p5-l2-12
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: איכר?'
+    options:
+    - פּויער
+    - שכן
+    - פֿרוי
+    correct: 0
+    lexemes:
+    - p5-poyer
+  - id: p5-l2-13
+    type: multiple_choice
+    prompt: מה פירוש מלמד?
+    options:
+    - מלמד תינוקות
+    - סנדלר
+    - שכן ליד הבית
+    correct: 0
+    lexemes:
+    - p5-melamed
+  - id: p5-l2-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: תלמיד בכיתה?'
+    options:
+    - תלמיד
+    - חתן
+    - שוסטער
+    correct: 0
+    lexemes:
+    - p5-talmid
+  - id: p5-l2-15
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה מלך
+    answers:
+    - קעניג
+    options:
+    - קעניג
+    - סוחר
+    - מאַן
+    lexemes:
+    - p5-keynig
+  - id: p5-l2-16
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה רב הקהילה
+    answers:
+    - רב
+    options:
+    - רב
+    - כלה
+    - סוחר
+    lexemes:
+    - p5-rov
+  - id: p5-l2-17
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה בעל הבית
+    answers:
+    - בעל־הבית
+    options:
+    - בעל־הבית
+    - פֿרוי
+    - סוחר
+    lexemes:
+    - p5-balebos
+  - id: p5-l2-18
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה איכר
+    answers:
+    - פּויער
+    options:
+    - פּויער
+    - מיידל
+    - פֿרוי
+    lexemes:
+    - p5-poyer
+  - id: p5-l2-19
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה מלמד תינוקות
+    answers:
+    - מלמד
+    options:
+    - מלמד
+    - שנײַדער
+    - יינגל
+    lexemes:
+    - p5-melamed
+  - id: p5-l2-20
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה תלמיד בכיתה
+    answers:
+    - תלמיד
+    options:
+    - תלמיד
+    - סוחר
+    - מאַן
+    lexemes:
+    - p5-talmid
+- id: p5-l3
+  kind: new
+  title:
+    he: חבילה 5 – חלק 3
+    en: Pack 5 – part 3
+  exercises:
+  - id: p5-l3-01
+    type: learn
+    lexeme: p5-soykher
+  - id: p5-l3-02
+    type: learn
+    lexeme: p5-shnayder
+  - id: p5-l3-03
+    type: learn
+    lexeme: p5-shuster
+  - id: p5-l3-04
+    type: learn
+    lexeme: p5-beker
+  - id: p5-l3-05
+    type: learn
+    lexeme: p5-khosn
+  - id: p5-l3-06
+    type: learn
+    lexeme: p5-kale
+  - id: p5-l3-07
+    type: match_pairs
+    pairs:
+    - - סוחר
+      - סוחר בשוק
+    - - שנײַדער
+      - חייט
+    - - שוסטער
+      - סנדלר
+    lexemes:
+    - p5-soykher
+    - p5-shnayder
+    - p5-shuster
+  - id: p5-l3-08
+    type: match_pairs
+    pairs:
+    - - בעקער
+      - אופה
+    - - חתן
+      - חתן (בחתונה)
+    - - כלה
+      - כלה (בחתונה)
+    lexemes:
+    - p5-beker
+    - p5-khosn
+    - p5-kale
+  - id: p5-l3-09
+    type: multiple_choice
+    prompt: מה פירוש סוחר?
+    options:
+    - סוחר בשוק
+    - שכן ליד הבית
+    - איכר
+    correct: 0
+    lexemes:
+    - p5-soykher
+  - id: p5-l3-10
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: חייט?'
+    options:
+    - שנײַדער
+    - רב
+    - מאַן
+    correct: 0
+    lexemes:
+    - p5-shnayder
+  - id: p5-l3-11
+    type: multiple_choice
+    prompt: מה פירוש שוסטער?
+    options:
+    - סנדלר
+    - שכן ליד הבית
+    - בעל הבית
+    correct: 0
+    lexemes:
+    - p5-shuster
+  - id: p5-l3-12
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: אופה?'
+    options:
+    - בעקער
+    - מיידל
+    - תלמיד
+    correct: 0
+    lexemes:
+    - p5-beker
+  - id: p5-l3-13
+    type: multiple_choice
+    prompt: מה פירוש חתן?
+    options:
+    - חתן (בחתונה)
+    - ילדה
+    - אדם
+    correct: 0
+    lexemes:
+    - p5-khosn
+  - id: p5-l3-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: כלה (בחתונה)?'
+    options:
+    - כלה
+    - תלמיד
+    - רב
+    correct: 0
+    lexemes:
+    - p5-kale
+  - id: p5-l3-15
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה סוחר בשוק
+    answers:
+    - סוחר
+    options:
+    - סוחר
+    - פּויער
+    - מלמד
+    lexemes:
+    - p5-soykher
+  - id: p5-l3-16
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה חייט
+    answers:
+    - שנײַדער
+    options:
+    - שנײַדער
+    - פּויער
+    - שכן
+    lexemes:
+    - p5-shnayder
+  - id: p5-l3-17
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה סנדלר
+    answers:
+    - שוסטער
+    options:
+    - שוסטער
+    - רב
+    - בעל־הבית
+    lexemes:
+    - p5-shuster
+  - id: p5-l3-18
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה אופה
+    answers:
+    - בעקער
+    options:
+    - בעקער
+    - רב
+    - תלמיד
+    lexemes:
+    - p5-beker
+  - id: p5-l3-19
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה חתן (בחתונה)
+    answers:
+    - חתן
+    options:
+    - חתן
+    - מיידל
+    - בעל־הבית
+    lexemes:
+    - p5-khosn
+  - id: p5-l3-20
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה כלה (בחתונה)
+    answers:
+    - כלה
+    options:
+    - כלה
+    - מיידל
+    - מאַן
+    lexemes:
+    - p5-kale

@@ -1,0 +1,502 @@
+id: u24-tanye
+cefr: B1
+scene: study
+title:
+  he: לימוד תניא
+  en: Studying Tanya
+story: מנחם לומד תניא עם סבא, קורא ושואל שאלה.
+canDo:
+- לומר מה אני לומד
+- לשאול שאלה בלימוד
+- לומר שאני לא מבין
+vocabulary:
+- id: tanye
+  text: תניא
+  translation: ספר התניא
+  pos: noun
+- id: khavrusa
+  text: חברותא
+  translation: שותף ללימוד
+  pos: noun
+- id: mamer
+  text: מאמר
+  translation: מאמר חסידות
+  pos: noun
+- id: zayt
+  text: זײַט
+  translation: עמוד / צד
+  pos: noun
+- id: leyenen
+  text: לייענען
+  translation: לקרוא
+  pos: verb
+- id: farshteyn
+  text: פֿאַרשטיין
+  translation: להבין
+  pos: verb
+- id: frage
+  text: פֿראַגע
+  translation: שאלה
+  pos: noun
+- id: sefer
+  text: ספֿר
+  translation: ספר קודש
+  pos: noun
+lessons:
+- id: u24-l1
+  kind: new
+  title:
+    he: לימוד
+    en: Lesson
+  exercises:
+  - id: u24-l1-01
+    type: tip
+    title: לימוד
+    text: '**איך לערן תניא** – אני לומד תניא. **איך לייען** – אני קורא.
+
+      **חברותא** היא שותף ללימוד.
+
+      '
+  - id: u24-l1-02
+    type: learn
+    lexeme: tanye
+  - id: u24-l1-03
+    type: learn
+    lexeme: leyenen
+  - id: u24-l1-04
+    type: learn
+    lexeme: khavrusa
+  - id: u24-l1-05
+    type: learn
+    lexeme: mamer
+  - id: u24-l1-06
+    type: learn
+    lexeme: sefer
+  - id: u24-l1-07
+    type: match_pairs
+    pairs:
+    - - תניא
+      - ספר התניא
+    - - לייענען
+      - לקרוא
+    - - חברותא
+      - שותף ללימוד
+    - - מאמר
+      - מאמר חסידות
+    - - ספֿר
+      - ספר קודש
+    lexemes:
+    - tanye
+    - leyenen
+    - khavrusa
+    - mamer
+    - sefer
+  - id: u24-l1-08
+    type: multiple_choice
+    prompt: מה פירוש תניא?
+    options:
+    - ספר התניא
+    - שותף ללימוד
+    - מאמר חסידות
+    correct: 0
+    lexemes:
+    - tanye
+  - id: u24-l1-09
+    type: multiple_choice
+    prompt: מה פירוש לייענען?
+    options:
+    - לקרוא
+    - להבין
+    correct: 0
+    lexemes:
+    - leyenen
+  - id: u24-l1-10
+    type: multiple_choice
+    prompt: מה פירוש חברותא?
+    options:
+    - שותף ללימוד
+    - ספר התניא
+    - מאמר חסידות
+    correct: 0
+    lexemes:
+    - khavrusa
+  - id: u24-l1-11
+    type: multiple_choice
+    prompt: מה פירוש מאמר?
+    options:
+    - מאמר חסידות
+    - ספר התניא
+    - שותף ללימוד
+    correct: 0
+    lexemes:
+    - mamer
+  - id: u24-l1-12
+    type: multiple_choice
+    prompt: מה פירוש ספֿר?
+    options:
+    - ספר קודש
+    - ספר התניא
+    - שותף ללימוד
+    correct: 0
+    lexemes:
+    - sefer
+  - id: u24-l1-13
+    type: translate
+    direction: to_source
+    prompt: איך לערן תניא.
+    answers:
+    - אני לומד תניא
+    lexemes: &id001
+    - lernen
+    - tanye
+  - id: u24-l1-14
+    type: translate
+    direction: to_target
+    prompt: אני לומד תניא
+    answers:
+    - איך לערן תניא
+    lexemes: *id001
+  - id: u24-l1-15
+    type: word_bank
+    prompt: אני לומד תניא
+    answers:
+    - איך לערן תניא
+    distractors:
+    - פֿראַגע
+    - זײַט
+    lexemes: *id001
+  - id: u24-l1-16
+    type: translate
+    direction: to_source
+    prompt: איך לייען אַ ספֿר.
+    answers:
+    - אני קורא ספר
+    lexemes: &id002
+    - leyenen
+    - sefer
+  - id: u24-l1-17
+    type: translate
+    direction: to_target
+    prompt: אני קורא ספר
+    answers:
+    - איך לייען אַ ספֿר
+    lexemes: *id002
+  - id: u24-l1-18
+    type: word_bank
+    prompt: אני קורא ספר
+    answers:
+    - איך לייען אַ ספֿר
+    distractors:
+    - ספֿר
+    - מאמר
+    lexemes: *id002
+  - id: u24-l1-19
+    type: fill_blank
+    sentence: איך ___ אַ ספֿר.
+    translation: אני קורא ספר
+    answers:
+    - לייען
+    options:
+    - לייען
+    - זײַט
+    - תניא
+    lexemes: *id002
+  - id: u24-l1-20
+    type: translate
+    direction: to_source
+    prompt: מיר לערנען מיט אַ חברותא.
+    answers:
+    - אנחנו לומדים בחברותא
+    lexemes: &id003
+    - mir
+    - lernen
+    - mit
+    - khavrusa
+  - id: u24-l1-21
+    type: translate
+    direction: to_target
+    prompt: אנחנו לומדים בחברותא
+    answers:
+    - מיר לערנען מיט אַ חברותא
+    lexemes: *id003
+  - id: u24-l1-22
+    type: word_bank
+    prompt: אנחנו לומדים בחברותא
+    answers:
+    - מיר לערנען מיט אַ חברותא
+    distractors:
+    - לייענען
+    - מאמר
+    lexemes: *id003
+- id: u24-l2
+  kind: new
+  title:
+    he: שאלה
+    en: Lesson
+  exercises:
+  - id: u24-l2-01
+    type: learn
+    lexeme: farshteyn
+  - id: u24-l2-02
+    type: learn
+    lexeme: frage
+  - id: u24-l2-03
+    type: learn
+    lexeme: zayt
+  - id: u24-l2-04
+    type: dialogue
+    scene: study
+    lines:
+    - speaker: menachem
+      text: זיידע, איך האָב אַ פֿראַגע.
+      translation: סבא, יש לי שאלה.
+    - speaker: zeyde
+      text: וואָס פֿאַרשטייסטו נישט?
+      translation: מה אתה לא מבין?
+  - id: u24-l2-05
+    type: match_pairs
+    pairs:
+    - - פֿאַרשטיין
+      - להבין
+    - - פֿראַגע
+      - שאלה
+    - - זײַט
+      - עמוד / צד
+    lexemes:
+    - farshteyn
+    - frage
+    - zayt
+  - id: u24-l2-06
+    type: multiple_choice
+    prompt: מה פירוש פֿאַרשטיין?
+    options:
+    - להבין
+    - לקרוא
+    correct: 0
+    lexemes:
+    - farshteyn
+  - id: u24-l2-07
+    type: multiple_choice
+    prompt: מה פירוש פֿראַגע?
+    options:
+    - שאלה
+    - ספר התניא
+    - שותף ללימוד
+    correct: 0
+    lexemes:
+    - frage
+  - id: u24-l2-08
+    type: multiple_choice
+    prompt: מה פירוש זײַט?
+    options:
+    - עמוד / צד
+    - ספר התניא
+    - שותף ללימוד
+    correct: 0
+    lexemes:
+    - zayt
+  - id: u24-l2-09
+    type: translate
+    direction: to_source
+    prompt: איך פֿאַרשטיי נישט.
+    answers:
+    - אני לא מבין
+    lexemes: &id004
+    - farshteyn
+    - nisht
+  - id: u24-l2-10
+    type: translate
+    direction: to_target
+    prompt: אני לא מבין
+    answers:
+    - איך פֿאַרשטיי נישט
+    lexemes: *id004
+  - id: u24-l2-11
+    type: word_bank
+    prompt: אני לא מבין
+    answers:
+    - איך פֿאַרשטיי נישט
+    distractors:
+    - פֿאַרשטיין
+    - מאמר
+    lexemes: *id004
+  - id: u24-l2-12
+    type: fill_blank
+    sentence: איך ___ נישט.
+    translation: אני לא מבין
+    answers:
+    - פֿאַרשטיי
+    options:
+    - פֿאַרשטיי
+    - זײַט
+    - תניא
+    lexemes: *id004
+  - id: u24-l2-13
+    type: translate
+    direction: to_source
+    prompt: איך האָב אַ פֿראַגע.
+    answers:
+    - יש לי שאלה
+    lexemes: &id005
+    - hobn
+    - frage
+  - id: u24-l2-14
+    type: translate
+    direction: to_target
+    prompt: יש לי שאלה
+    answers:
+    - איך האָב אַ פֿראַגע
+    lexemes: *id005
+  - id: u24-l2-15
+    type: word_bank
+    prompt: יש לי שאלה
+    answers:
+    - איך האָב אַ פֿראַגע
+    distractors:
+    - פֿראַגע
+    - פֿאַרשטיין
+    lexemes: *id005
+  - id: u24-l2-16
+    type: translate
+    direction: to_source
+    prompt: איך לייען אַ מאמר.
+    answers:
+    - אני קורא מאמר
+    lexemes: &id006
+    - leyenen
+    - mamer
+  - id: u24-l2-17
+    type: translate
+    direction: to_target
+    prompt: אני קורא מאמר
+    answers:
+    - איך לייען אַ מאמר
+    lexemes: *id006
+  - id: u24-l2-18
+    type: word_bank
+    prompt: אני קורא מאמר
+    answers:
+    - איך לייען אַ מאמר
+    distractors:
+    - חברותא
+    - פֿאַרשטיין
+    lexemes: *id006
+- id: u24-review
+  kind: review
+  title:
+    he: 'חזרה: לימוד תניא'
+    en: Review
+  exercises:
+  - id: u24-review-01
+    type: match_pairs
+    pairs:
+    - - תניא
+      - ספר התניא
+    - - לייענען
+      - לקרוא
+    - - חברותא
+      - שותף ללימוד
+    - - מאמר
+      - מאמר חסידות
+    - - ספֿר
+      - ספר קודש
+    - - פֿאַרשטיין
+      - להבין
+    lexemes:
+    - tanye
+    - leyenen
+    - khavrusa
+    - mamer
+    - sefer
+    - farshteyn
+  - id: u24-review-02
+    type: translate
+    direction: to_source
+    prompt: איך לערן תניא.
+    answers:
+    - אני לומד תניא
+    lexemes: *id001
+  - id: u24-review-03
+    type: translate
+    direction: to_target
+    prompt: אני לומד תניא
+    answers:
+    - איך לערן תניא
+    lexemes: *id001
+  - id: u24-review-04
+    type: word_bank
+    prompt: אני לומד תניא
+    answers:
+    - איך לערן תניא
+    distractors:
+    - פֿראַגע
+    - זײַט
+    lexemes: *id001
+  - id: u24-review-05
+    type: translate
+    direction: to_source
+    prompt: איך לייען אַ ספֿר.
+    answers:
+    - אני קורא ספר
+    lexemes: *id002
+  - id: u24-review-06
+    type: translate
+    direction: to_target
+    prompt: אני קורא ספר
+    answers:
+    - איך לייען אַ ספֿר
+    lexemes: *id002
+  - id: u24-review-07
+    type: word_bank
+    prompt: אני קורא ספר
+    answers:
+    - איך לייען אַ ספֿר
+    distractors:
+    - ספֿר
+    - מאמר
+    lexemes: *id002
+  - id: u24-review-08
+    type: translate
+    direction: to_source
+    prompt: מיר לערנען מיט אַ חברותא.
+    answers:
+    - אנחנו לומדים בחברותא
+    lexemes: *id003
+  - id: u24-review-09
+    type: translate
+    direction: to_target
+    prompt: אנחנו לומדים בחברותא
+    answers:
+    - מיר לערנען מיט אַ חברותא
+    lexemes: *id003
+  - id: u24-review-10
+    type: word_bank
+    prompt: אנחנו לומדים בחברותא
+    answers:
+    - מיר לערנען מיט אַ חברותא
+    distractors:
+    - לייענען
+    - מאמר
+    lexemes: *id003
+  - id: u24-review-11
+    type: write
+    prompt: כתבו 3 משפטים על מה שאתם לומדים וקוראים.
+    minWords: 10
+    checks:
+    - label: הזכרתם לימוד או קריאה
+      any:
+      - לערן
+      - ל(?:ײ|יי)ען
+    - label: הזכרתם ספר או נושא
+      any:
+      - תניא
+      - ספר
+      - מאמר
+      - תורה
+      - חברותא
+    - label: כתבתם איך
+      any:
+      - איך
+      - מיר
+    model: איך לערן תניא. איך לייען אַ ספֿר. מיר לערנען מיט אַ חברותא.
+    lexemes: []

@@ -1,0 +1,596 @@
+id: u10-ovfn
+cefr: A2
+scene: day
+title:
+  he: מה עשיתי
+  en: The past
+story: מנחם מספר לסבתא מה עשה אתמול. בליטאית זמן עבר נוצר תמיד עם האָבן.
+canDo:
+- לדבר בעבר
+- לספר מה עשיתי ומה עשו אחרים
+- להשתמש ב־האָבן עם צורת עבר
+vocabulary:
+- id: gegesn
+  text: געגעסן
+  translation: אכלתי / אכל
+  pos: verb
+- id: getrunkn
+  text: געטרונקען
+  translation: שתיתי / שתה
+  pos: verb
+- id: gelernt
+  text: געלערנט
+  translation: למדתי / למד
+  pos: verb
+- id: gedavnt
+  text: געדאַוונט
+  translation: התפללתי / התפלל
+  pos: verb
+- id: geshlofn
+  text: געשלאָפֿן
+  translation: ישנתי / ישן
+  pos: verb
+- id: gegangen
+  text: געגאַנגען
+  translation: הלכתי / הלך
+  pos: verb
+- id: gehat
+  text: געהאַט
+  translation: היה לי / היה לו
+  pos: verb
+- id: gezogt
+  text: געזאָגט
+  translation: אמרתי / אמר
+  pos: verb
+- id: er
+  text: ער
+  translation: הוא
+  pos: pronoun
+- id: zi
+  text: זי
+  translation: היא
+  pos: pronoun
+lessons:
+- id: u10-l1
+  kind: new
+  title:
+    he: עבר עם האָבן
+    en: Lesson
+  exercises:
+  - id: u10-l1-01
+    type: tip
+    title: זמן עבר
+    text: 'העבר נוצר מ־**האָבן** + צורת עבר של הפועל: **איך האָב געגעסן** (אכלתי), **ער האָט געלערנט** (הוא למד).
+
+      בליטאית משתמשים ב־**האָבן** תמיד, גם בפעלים של תנועה: **איך האָב געגאַנגען** (הלכתי).
+
+      **ער** (הוא), **זי** (היא).
+
+      '
+  - id: u10-l1-02
+    type: learn
+    lexeme: gegesn
+  - id: u10-l1-03
+    type: learn
+    lexeme: getrunkn
+  - id: u10-l1-04
+    type: learn
+    lexeme: gelernt
+  - id: u10-l1-05
+    type: learn
+    lexeme: gedavnt
+  - id: u10-l1-06
+    type: learn
+    lexeme: geshlofn
+  - id: u10-l1-07
+    type: learn
+    lexeme: gegangen
+  - id: u10-l1-08
+    type: match_pairs
+    pairs:
+    - - געגעסן
+      - אכלתי / אכל
+    - - געטרונקען
+      - שתיתי / שתה
+    - - געלערנט
+      - למדתי / למד
+    - - געדאַוונט
+      - התפללתי / התפלל
+    - - געשלאָפֿן
+      - ישנתי / ישן
+    - - געגאַנגען
+      - הלכתי / הלך
+    lexemes:
+    - gegesn
+    - getrunkn
+    - gelernt
+    - gedavnt
+    - geshlofn
+    - gegangen
+  - id: u10-l1-09
+    type: multiple_choice
+    prompt: מה פירוש געגעסן?
+    options:
+    - אכלתי / אכל
+    - שתיתי / שתה
+    - למדתי / למד
+    correct: 0
+    lexemes:
+    - gegesn
+  - id: u10-l1-10
+    type: multiple_choice
+    prompt: מה פירוש געטרונקען?
+    options:
+    - שתיתי / שתה
+    - אכלתי / אכל
+    - למדתי / למד
+    correct: 0
+    lexemes:
+    - getrunkn
+  - id: u10-l1-11
+    type: multiple_choice
+    prompt: מה פירוש געלערנט?
+    options:
+    - למדתי / למד
+    - אכלתי / אכל
+    - שתיתי / שתה
+    correct: 0
+    lexemes:
+    - gelernt
+  - id: u10-l1-12
+    type: multiple_choice
+    prompt: מה פירוש געדאַוונט?
+    options:
+    - התפללתי / התפלל
+    - אכלתי / אכל
+    - שתיתי / שתה
+    correct: 0
+    lexemes:
+    - gedavnt
+  - id: u10-l1-13
+    type: multiple_choice
+    prompt: מה פירוש געשלאָפֿן?
+    options:
+    - ישנתי / ישן
+    - אכלתי / אכל
+    - שתיתי / שתה
+    correct: 0
+    lexemes:
+    - geshlofn
+  - id: u10-l1-14
+    type: translate
+    direction: to_source
+    prompt: איך האָב געגעסן ברויט.
+    answers:
+    - אכלתי לחם
+    lexemes: &id001
+    - hobn
+    - gegesn
+    - w-breyt
+  - id: u10-l1-15
+    type: translate
+    direction: to_target
+    prompt: אכלתי לחם
+    answers:
+    - איך האָב געגעסן ברויט
+    lexemes: *id001
+  - id: u10-l1-16
+    type: word_bank
+    prompt: אכלתי לחם
+    answers:
+    - איך האָב געגעסן ברויט
+    distractors:
+    - געלערנט
+    - געטרונקען
+    lexemes: *id001
+  - id: u10-l1-17
+    type: fill_blank
+    sentence: איך האָב ___ ברויט.
+    translation: אכלתי לחם
+    answers:
+    - געגעסן
+    options:
+    - געגעסן
+    - געשלאָפֿן
+    - געטרונקען
+    lexemes: *id001
+  - id: u10-l1-18
+    type: translate
+    direction: to_source
+    prompt: איך האָב געטרונקען וואַסער.
+    answers:
+    - שתיתי מים
+    lexemes: &id002
+    - hobn
+    - getrunkn
+    - vaser
+  - id: u10-l1-19
+    type: translate
+    direction: to_target
+    prompt: שתיתי מים
+    answers:
+    - איך האָב געטרונקען וואַסער
+    lexemes: *id002
+  - id: u10-l1-20
+    type: word_bank
+    prompt: שתיתי מים
+    answers:
+    - איך האָב געטרונקען וואַסער
+    distractors:
+    - געגעסן
+    - געהאַט
+    lexemes: *id002
+  - id: u10-l1-21
+    type: fill_blank
+    sentence: איך האָב ___ וואַסער.
+    translation: שתיתי מים
+    answers:
+    - געטרונקען
+    options:
+    - געטרונקען
+    - ער
+    - געהאַט
+    lexemes: *id002
+  - id: u10-l1-22
+    type: translate
+    direction: to_source
+    prompt: מיר האָבן געלערנט אין שול.
+    answers:
+    - למדנו בבית הכנסת
+    lexemes: &id003
+    - mir
+    - hobn
+    - gelernt
+    - shul
+  - id: u10-l1-23
+    type: translate
+    direction: to_target
+    prompt: למדנו בבית הכנסת
+    answers:
+    - מיר האָבן געלערנט אין שול
+    lexemes: *id003
+  - id: u10-l1-24
+    type: word_bank
+    prompt: למדנו בבית הכנסת
+    answers:
+    - מיר האָבן געלערנט אין שול
+    distractors:
+    - געדאַוונט
+    - זי
+    lexemes: *id003
+  - id: u10-l1-25
+    type: fill_blank
+    sentence: מיר האָבן ___ אין שול.
+    translation: למדנו בבית הכנסת
+    answers:
+    - געלערנט
+    options:
+    - געלערנט
+    - געטרונקען
+    - געשלאָפֿן
+    lexemes: *id003
+- id: u10-l2
+  kind: new
+  title:
+    he: מי עשה מה
+    en: Lesson
+  exercises:
+  - id: u10-l2-01
+    type: learn
+    lexeme: gehat
+  - id: u10-l2-02
+    type: learn
+    lexeme: gezogt
+  - id: u10-l2-03
+    type: learn
+    lexeme: er
+  - id: u10-l2-04
+    type: learn
+    lexeme: zi
+  - id: u10-l2-05
+    type: dialogue
+    scene: home
+    lines:
+    - speaker: bobe
+      text: וואָס האָסטו געגעסן?
+      translation: מה אכלת?
+    - speaker: menachem
+      text: איך האָב געגעסן פֿיש.
+      translation: אכלתי דג.
+    - speaker: bobe
+      text: און געטרונקען?
+      translation: ושתית?
+    - speaker: menachem
+      text: איך האָב געטרונקען וואַסער.
+      translation: שתיתי מים.
+  - id: u10-l2-06
+    type: match_pairs
+    pairs:
+    - - געהאַט
+      - היה לי / היה לו
+    - - געזאָגט
+      - אמרתי / אמר
+    - - ער
+      - הוא
+    - - זי
+      - היא
+    lexemes:
+    - gehat
+    - gezogt
+    - er
+    - zi
+  - id: u10-l2-07
+    type: multiple_choice
+    prompt: מה פירוש געהאַט?
+    options:
+    - היה לי / היה לו
+    - אכלתי / אכל
+    - שתיתי / שתה
+    correct: 0
+    lexemes:
+    - gehat
+  - id: u10-l2-08
+    type: multiple_choice
+    prompt: מה פירוש געזאָגט?
+    options:
+    - אמרתי / אמר
+    - אכלתי / אכל
+    - שתיתי / שתה
+    correct: 0
+    lexemes:
+    - gezogt
+  - id: u10-l2-09
+    type: multiple_choice
+    prompt: מה פירוש ער?
+    options:
+    - הוא
+    - היא
+    correct: 0
+    lexemes:
+    - er
+  - id: u10-l2-10
+    type: multiple_choice
+    prompt: מה פירוש זי?
+    options:
+    - היא
+    - הוא
+    correct: 0
+    lexemes:
+    - zi
+  - id: u10-l2-11
+    type: translate
+    direction: to_source
+    prompt: איך האָב געדאַוונט אין דער פֿרי.
+    answers:
+    - התפללתי בבוקר
+    lexemes: &id004
+    - hobn
+    - gedavnt
+    - fri
+  - id: u10-l2-12
+    type: translate
+    direction: to_target
+    prompt: התפללתי בבוקר
+    answers:
+    - איך האָב געדאַוונט אין דער פֿרי
+    lexemes: *id004
+  - id: u10-l2-13
+    type: word_bank
+    prompt: התפללתי בבוקר
+    answers:
+    - איך האָב געדאַוונט אין דער פֿרי
+    distractors:
+    - געגעסן
+    - געזאָגט
+    lexemes: *id004
+  - id: u10-l2-14
+    type: fill_blank
+    sentence: איך האָב ___ אין דער פֿרי.
+    translation: התפללתי בבוקר
+    answers:
+    - געדאַוונט
+    options:
+    - געדאַוונט
+    - ער
+    - געשלאָפֿן
+    lexemes: *id004
+  - id: u10-l2-15
+    type: translate
+    direction: to_source
+    prompt: ער האָט געשלאָפֿן.
+    answers:
+    - הוא ישן
+    lexemes: &id005
+    - er
+    - hobn
+    - geshlofn
+  - id: u10-l2-16
+    type: translate
+    direction: to_target
+    prompt: הוא ישן
+    answers:
+    - ער האָט געשלאָפֿן
+    lexemes: *id005
+  - id: u10-l2-17
+    type: word_bank
+    prompt: הוא ישן
+    answers:
+    - ער האָט געשלאָפֿן
+    distractors:
+    - זי
+    - געגאַנגען
+    lexemes: *id005
+  - id: u10-l2-18
+    type: translate
+    direction: to_source
+    prompt: זי האָט געגאַנגען אין קראָם.
+    answers:
+    - היא הלכה לחנות
+    lexemes: &id006
+    - zi
+    - hobn
+    - gegangen
+    - krom
+  - id: u10-l2-19
+    type: translate
+    direction: to_target
+    prompt: היא הלכה לחנות
+    answers:
+    - זי האָט געגאַנגען אין קראָם
+    lexemes: *id006
+  - id: u10-l2-20
+    type: word_bank
+    prompt: היא הלכה לחנות
+    answers:
+    - זי האָט געגאַנגען אין קראָם
+    distractors:
+    - געלערנט
+    - געזאָגט
+    lexemes: *id006
+  - id: u10-l2-21
+    type: fill_blank
+    sentence: זי האָט ___ אין קראָם.
+    translation: היא הלכה לחנות
+    answers:
+    - געגאַנגען
+    options:
+    - געגאַנגען
+    - געהאַט
+    - געטרונקען
+    lexemes: *id006
+- id: u10-review
+  kind: review
+  title:
+    he: 'חזרה: מה עשיתי'
+    en: Review
+  exercises:
+  - id: u10-review-01
+    type: match_pairs
+    pairs:
+    - - געגעסן
+      - אכלתי / אכל
+    - - געטרונקען
+      - שתיתי / שתה
+    - - געלערנט
+      - למדתי / למד
+    - - געדאַוונט
+      - התפללתי / התפלל
+    - - געשלאָפֿן
+      - ישנתי / ישן
+    - - געגאַנגען
+      - הלכתי / הלך
+    lexemes:
+    - gegesn
+    - getrunkn
+    - gelernt
+    - gedavnt
+    - geshlofn
+    - gegangen
+  - id: u10-review-02
+    type: match_pairs
+    pairs:
+    - - געהאַט
+      - היה לי / היה לו
+    - - געזאָגט
+      - אמרתי / אמר
+    - - ער
+      - הוא
+    - - זי
+      - היא
+    lexemes:
+    - gehat
+    - gezogt
+    - er
+    - zi
+  - id: u10-review-03
+    type: translate
+    direction: to_source
+    prompt: איך האָב געגעסן ברויט.
+    answers:
+    - אכלתי לחם
+    lexemes: *id001
+  - id: u10-review-04
+    type: translate
+    direction: to_target
+    prompt: אכלתי לחם
+    answers:
+    - איך האָב געגעסן ברויט
+    lexemes: *id001
+  - id: u10-review-05
+    type: word_bank
+    prompt: אכלתי לחם
+    answers:
+    - איך האָב געגעסן ברויט
+    distractors:
+    - געלערנט
+    - געטרונקען
+    lexemes: *id001
+  - id: u10-review-06
+    type: translate
+    direction: to_source
+    prompt: איך האָב געטרונקען וואַסער.
+    answers:
+    - שתיתי מים
+    lexemes: *id002
+  - id: u10-review-07
+    type: translate
+    direction: to_target
+    prompt: שתיתי מים
+    answers:
+    - איך האָב געטרונקען וואַסער
+    lexemes: *id002
+  - id: u10-review-08
+    type: word_bank
+    prompt: שתיתי מים
+    answers:
+    - איך האָב געטרונקען וואַסער
+    distractors:
+    - געגעסן
+    - געהאַט
+    lexemes: *id002
+  - id: u10-review-09
+    type: translate
+    direction: to_source
+    prompt: מיר האָבן געלערנט אין שול.
+    answers:
+    - למדנו בבית הכנסת
+    lexemes: *id003
+  - id: u10-review-10
+    type: translate
+    direction: to_target
+    prompt: למדנו בבית הכנסת
+    answers:
+    - מיר האָבן געלערנט אין שול
+    lexemes: *id003
+  - id: u10-review-11
+    type: word_bank
+    prompt: למדנו בבית הכנסת
+    answers:
+    - מיר האָבן געלערנט אין שול
+    distractors:
+    - געדאַוונט
+    - זי
+    lexemes: *id003
+  - id: u10-review-12
+    type: translate
+    direction: to_source
+    prompt: איך האָב געדאַוונט אין דער פֿרי.
+    answers:
+    - התפללתי בבוקר
+    lexemes: *id004
+  - id: u10-review-13
+    type: translate
+    direction: to_target
+    prompt: התפללתי בבוקר
+    answers:
+    - איך האָב געדאַוונט אין דער פֿרי
+    lexemes: *id004
+  - id: u10-review-14
+    type: word_bank
+    prompt: התפללתי בבוקר
+    answers:
+    - איך האָב געדאַוונט אין דער פֿרי
+    distractors:
+    - געגעסן
+    - געזאָגט
+    lexemes: *id004

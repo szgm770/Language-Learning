@@ -1,0 +1,497 @@
+id: u13-kleyder
+cefr: A2
+scene: shopping
+title:
+  he: בגדים ומזג אוויר
+  en: Clothes and weather
+story: היום קר, והסבתא מזכירה למנחם מה ללבוש.
+canDo:
+- לומר מה אני לובש
+- לתאר צבעים
+- לדבר על מזג האוויר
+vocabulary:
+- id: hut
+  text: הוט
+  translation: כובע
+  pos: noun
+- id: rekl
+  text: רעקל
+  translation: רקל (חליפה שחורה)
+  pos: noun
+- id: hemd
+  text: העמד
+  translation: חולצה
+  pos: noun
+- id: shikh
+  text: שיך
+  translation: נעליים
+  pos: noun
+- id: kalt
+  text: קאַלט
+  translation: קר
+  pos: adjective
+- id: varem
+  text: וואַרעם
+  translation: חם
+  pos: adjective
+- id: shvarts
+  text: שוואַרץ
+  translation: שחור
+  pos: adjective
+- id: vays
+  text: ווײַס
+  translation: לבן
+  pos: adjective
+- id: trogn
+  text: טראָגן
+  translation: ללבוש
+  pos: verb
+- id: regn
+  text: רעגן
+  translation: גשם
+  pos: noun
+lessons:
+- id: u13-l1
+  kind: new
+  title:
+    he: מה לובשים
+    en: Lesson
+  exercises:
+  - id: u13-l1-01
+    type: tip
+    title: בגדים
+    text: '**הוט** (כובע), **רעקל** (רקל), **העמד** (חולצה), **שיך** (נעליים), ו**טראָגן** (ללבוש).
+
+      **איך טראָג אַ הוט** פירושו "אני לובש כובע".
+
+      **עס איז קאַלט** (קר), **עס איז וואַרעם** (חם).
+
+      '
+  - id: u13-l1-02
+    type: learn
+    lexeme: hut
+  - id: u13-l1-03
+    type: learn
+    lexeme: rekl
+  - id: u13-l1-04
+    type: learn
+    lexeme: hemd
+  - id: u13-l1-05
+    type: learn
+    lexeme: shikh
+  - id: u13-l1-06
+    type: learn
+    lexeme: trogn
+  - id: u13-l1-07
+    type: learn
+    lexeme: shvarts
+  - id: u13-l1-08
+    type: match_pairs
+    pairs:
+    - - הוט
+      - כובע
+    - - רעקל
+      - רקל (חליפה שחורה)
+    - - העמד
+      - חולצה
+    - - שיך
+      - נעליים
+    - - טראָגן
+      - ללבוש
+    - - שוואַרץ
+      - שחור
+    lexemes:
+    - hut
+    - rekl
+    - hemd
+    - shikh
+    - trogn
+    - shvarts
+  - id: u13-l1-09
+    type: multiple_choice
+    prompt: מה פירוש הוט?
+    options:
+    - כובע
+    - רקל (חליפה שחורה)
+    - חולצה
+    correct: 0
+    lexemes:
+    - hut
+  - id: u13-l1-10
+    type: multiple_choice
+    prompt: מה פירוש רעקל?
+    options:
+    - רקל (חליפה שחורה)
+    - כובע
+    - חולצה
+    correct: 0
+    lexemes:
+    - rekl
+  - id: u13-l1-11
+    type: multiple_choice
+    prompt: מה פירוש העמד?
+    options:
+    - חולצה
+    - כובע
+    - רקל (חליפה שחורה)
+    correct: 0
+    lexemes:
+    - hemd
+  - id: u13-l1-12
+    type: multiple_choice
+    prompt: מה פירוש שיך?
+    options:
+    - נעליים
+    - כובע
+    - רקל (חליפה שחורה)
+    correct: 0
+    lexemes:
+    - shikh
+  - id: u13-l1-13
+    type: multiple_choice
+    prompt: מה פירוש טראָגן?
+    options:
+    - ללבוש
+    - כובע
+    - רקל (חליפה שחורה)
+    correct: 0
+    lexemes:
+    - trogn
+  - id: u13-l1-14
+    type: translate
+    direction: to_source
+    prompt: איך טראָג אַ הוט.
+    answers:
+    - אני לובש כובע
+    lexemes: &id001
+    - ikh
+    - trogn
+    - hut
+  - id: u13-l1-15
+    type: translate
+    direction: to_target
+    prompt: אני לובש כובע
+    answers:
+    - איך טראָג אַ הוט
+    lexemes: *id001
+  - id: u13-l1-16
+    type: word_bank
+    prompt: אני לובש כובע
+    answers:
+    - איך טראָג אַ הוט
+    distractors:
+    - רעגן
+    - שיך
+    lexemes: *id001
+  - id: u13-l1-17
+    type: fill_blank
+    sentence: איך ___ אַ הוט.
+    translation: אני לובש כובע
+    answers:
+    - טראָג
+    options:
+    - טראָג
+    - קאַלט
+    - שוואַרץ
+    lexemes: *id001
+  - id: u13-l1-18
+    type: translate
+    direction: to_source
+    prompt: דער הוט איז שוואַרץ.
+    answers:
+    - הכובע שחור
+    lexemes: &id002
+    - hut
+    - iz
+    - shvarts
+  - id: u13-l1-19
+    type: translate
+    direction: to_target
+    prompt: הכובע שחור
+    answers:
+    - דער הוט איז שוואַרץ
+    lexemes: *id002
+  - id: u13-l1-20
+    type: word_bank
+    prompt: הכובע שחור
+    answers:
+    - דער הוט איז שוואַרץ
+    distractors:
+    - שוואַרץ
+    - ווײַס
+    lexemes: *id002
+- id: u13-l2
+  kind: new
+  title:
+    he: צבעים ומזג אוויר
+    en: Lesson
+  exercises:
+  - id: u13-l2-01
+    type: learn
+    lexeme: shvarts
+  - id: u13-l2-02
+    type: learn
+    lexeme: vays
+  - id: u13-l2-03
+    type: learn
+    lexeme: kalt
+  - id: u13-l2-04
+    type: learn
+    lexeme: varem
+  - id: u13-l2-05
+    type: learn
+    lexeme: regn
+  - id: u13-l2-06
+    type: dialogue
+    scene: home
+    lines:
+    - speaker: bobe
+      text: עס איז קאַלט הײַנט.
+      translation: קר היום.
+    - speaker: menachem
+      text: איך טראָג אַ הוט.
+      translation: אני לובש כובע.
+  - id: u13-l2-07
+    type: match_pairs
+    pairs:
+    - - שוואַרץ
+      - שחור
+    - - ווײַס
+      - לבן
+    - - קאַלט
+      - קר
+    - - וואַרעם
+      - חם
+    - - רעגן
+      - גשם
+    lexemes:
+    - shvarts
+    - vays
+    - kalt
+    - varem
+    - regn
+  - id: u13-l2-08
+    type: multiple_choice
+    prompt: מה פירוש שוואַרץ?
+    options:
+    - שחור
+    - קר
+    - חם
+    correct: 0
+    lexemes:
+    - shvarts
+  - id: u13-l2-09
+    type: multiple_choice
+    prompt: מה פירוש ווײַס?
+    options:
+    - לבן
+    - קר
+    - חם
+    correct: 0
+    lexemes:
+    - vays
+  - id: u13-l2-10
+    type: multiple_choice
+    prompt: מה פירוש קאַלט?
+    options:
+    - קר
+    - חם
+    - שחור
+    correct: 0
+    lexemes:
+    - kalt
+  - id: u13-l2-11
+    type: multiple_choice
+    prompt: מה פירוש וואַרעם?
+    options:
+    - חם
+    - קר
+    - שחור
+    correct: 0
+    lexemes:
+    - varem
+  - id: u13-l2-12
+    type: multiple_choice
+    prompt: מה פירוש רעגן?
+    options:
+    - גשם
+    - כובע
+    - רקל (חליפה שחורה)
+    correct: 0
+    lexemes:
+    - regn
+  - id: u13-l2-13
+    type: translate
+    direction: to_source
+    prompt: עס איז קאַלט הײַנט.
+    answers:
+    - קר היום
+    lexemes: &id003
+    - es
+    - kalt
+    - haynt
+  - id: u13-l2-14
+    type: translate
+    direction: to_target
+    prompt: קר היום
+    answers:
+    - עס איז קאַלט הײַנט
+    lexemes: *id003
+  - id: u13-l2-15
+    type: word_bank
+    prompt: קר היום
+    answers:
+    - עס איז קאַלט הײַנט
+    distractors:
+    - הוט
+    - טראָגן
+    lexemes: *id003
+  - id: u13-l2-16
+    type: fill_blank
+    sentence: עס איז ___ הײַנט.
+    translation: קר היום
+    answers:
+    - קאַלט
+    options:
+    - קאַלט
+    - העמד
+    - וואַרעם
+    lexemes: *id003
+  - id: u13-l2-17
+    type: translate
+    direction: to_source
+    prompt: עס איז וואַרעם.
+    answers:
+    - חם
+    lexemes: &id004
+    - es
+    - varem
+  - id: u13-l2-18
+    type: translate
+    direction: to_target
+    prompt: חם
+    answers:
+    - עס איז וואַרעם
+    lexemes: *id004
+  - id: u13-l2-19
+    type: word_bank
+    prompt: חם
+    answers:
+    - עס איז וואַרעם
+    distractors:
+    - וואַרעם
+    - רעקל
+    lexemes: *id004
+- id: u13-review
+  kind: review
+  title:
+    he: 'חזרה: בגדים ומזג אוויר'
+    en: Review
+  exercises:
+  - id: u13-review-01
+    type: match_pairs
+    pairs:
+    - - הוט
+      - כובע
+    - - רעקל
+      - רקל (חליפה שחורה)
+    - - העמד
+      - חולצה
+    - - שיך
+      - נעליים
+    - - טראָגן
+      - ללבוש
+    - - שוואַרץ
+      - שחור
+    lexemes:
+    - hut
+    - rekl
+    - hemd
+    - shikh
+    - trogn
+    - shvarts
+  - id: u13-review-02
+    type: match_pairs
+    pairs:
+    - - ווײַס
+      - לבן
+    - - קאַלט
+      - קר
+    - - וואַרעם
+      - חם
+    - - רעגן
+      - גשם
+    lexemes:
+    - vays
+    - kalt
+    - varem
+    - regn
+  - id: u13-review-03
+    type: translate
+    direction: to_source
+    prompt: איך טראָג אַ הוט.
+    answers:
+    - אני לובש כובע
+    lexemes: *id001
+  - id: u13-review-04
+    type: translate
+    direction: to_target
+    prompt: אני לובש כובע
+    answers:
+    - איך טראָג אַ הוט
+    lexemes: *id001
+  - id: u13-review-05
+    type: word_bank
+    prompt: אני לובש כובע
+    answers:
+    - איך טראָג אַ הוט
+    distractors:
+    - רעגן
+    - שיך
+    lexemes: *id001
+  - id: u13-review-06
+    type: translate
+    direction: to_source
+    prompt: דער הוט איז שוואַרץ.
+    answers:
+    - הכובע שחור
+    lexemes: *id002
+  - id: u13-review-07
+    type: translate
+    direction: to_target
+    prompt: הכובע שחור
+    answers:
+    - דער הוט איז שוואַרץ
+    lexemes: *id002
+  - id: u13-review-08
+    type: word_bank
+    prompt: הכובע שחור
+    answers:
+    - דער הוט איז שוואַרץ
+    distractors:
+    - שוואַרץ
+    - ווײַס
+    lexemes: *id002
+  - id: u13-review-09
+    type: translate
+    direction: to_source
+    prompt: עס איז קאַלט הײַנט.
+    answers:
+    - קר היום
+    lexemes: *id003
+  - id: u13-review-10
+    type: translate
+    direction: to_target
+    prompt: קר היום
+    answers:
+    - עס איז קאַלט הײַנט
+    lexemes: *id003
+  - id: u13-review-11
+    type: word_bank
+    prompt: קר היום
+    answers:
+    - עס איז קאַלט הײַנט
+    distractors:
+    - הוט
+    - טראָגן
+    lexemes: *id003

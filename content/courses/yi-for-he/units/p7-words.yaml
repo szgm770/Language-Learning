@@ -1,0 +1,1069 @@
+id: p7-words
+cefr: C1
+scene: day
+title:
+  he: 'הרחבת אוצר מילים 7: תארים'
+  en: 'Word builder 7: adjectives'
+story: מילים שימושיות נוספות, כל אחת במשפט קצר.
+canDo:
+- להבין ולהשתמש במילים נפוצות נוספות
+- לזהות את המילים במשפטים
+vocabulary:
+- id: p7-grin
+  text: גרין
+  translation: ירוק
+  pos: adjective
+  example:
+    text: דאָס איז גרין.
+    translation: זה ירוק
+- id: p7-royt
+  text: רויט
+  translation: אדום
+  pos: adjective
+  example:
+    text: דאָס איז רויט.
+    translation: זה אדום
+- id: p7-bloy
+  text: בלוי
+  translation: כחול
+  pos: adjective
+  example:
+    text: דאָס איז בלוי.
+    translation: זה כחול
+- id: p7-gel
+  text: געל
+  translation: צהוב
+  pos: adjective
+  example:
+    text: דאָס איז געל.
+    translation: זה צהוב
+- id: p7-broyn
+  text: ברוין
+  translation: חום
+  pos: adjective
+  example:
+    text: דאָס איז ברוין.
+    translation: זה חום
+- id: p7-heys
+  text: הייס
+  translation: חם
+  pos: adjective
+  example:
+    text: דאָס איז הייס.
+    translation: זה חם
+- id: p7-shnel
+  text: שנעל
+  translation: מהיר
+  pos: adjective
+  example:
+    text: דאָס איז שנעל.
+    translation: זה מהיר
+- id: p7-shtark
+  text: שטאַרק
+  translation: חזק
+  pos: adjective
+  example:
+    text: דאָס איז שטאַרק.
+    translation: זה חזק
+- id: p7-shvakh
+  text: שוואַך
+  translation: חלש
+  pos: adjective
+  example:
+    text: דאָס איז שוואַך.
+    translation: זה חלש
+- id: p7-nas
+  text: נאַס
+  translation: רטוב
+  pos: adjective
+  example:
+    text: דאָס איז נאַס.
+    translation: זה רטוב
+- id: p7-trukn
+  text: טרוקן
+  translation: יבש
+  pos: adjective
+  example:
+    text: דאָס איז טרוקן.
+    translation: זה יבש
+- id: p7-raykh
+  text: רײַך
+  translation: עשיר
+  pos: adjective
+  example:
+    text: דאָס איז רײַך.
+    translation: זה עשיר
+- id: p7-ful
+  text: פֿול
+  translation: מלא
+  pos: adjective
+  example:
+    text: דאָס איז פֿול.
+    translation: זה מלא
+- id: p7-laydik
+  text: ליידיק
+  translation: ריק
+  pos: adjective
+  example:
+    text: דאָס איז ליידיק.
+    translation: זה ריק
+- id: p7-ruik
+  text: רויק
+  translation: שקט
+  pos: adjective
+  example:
+    text: דאָס איז רויק.
+    translation: זה שקט
+- id: p7-lustik
+  text: לוסטיק
+  translation: שמח / מצחיק
+  pos: adjective
+  example:
+    text: דאָס איז לוסטיק.
+    translation: זה שמח / מצחיק
+- id: p7-troyerik
+  text: טרויעריק
+  translation: עצוב
+  pos: adjective
+  example:
+    text: דאָס איז טרויעריק.
+    translation: זה עצוב
+- id: p7-klug
+  text: קלוג
+  translation: חכם
+  pos: adjective
+  example:
+    text: דאָס איז קלוג.
+    translation: זה חכם
+- id: p7-nayerik
+  text: נייגעריק
+  translation: סקרן
+  pos: adjective
+  example:
+    text: דאָס איז נייגעריק.
+    translation: זה סקרן
+- id: p7-reyn
+  text: ריין
+  translation: נקי
+  pos: adjective
+  example:
+    text: דאָס איז ריין.
+    translation: זה נקי
+- id: p7-shmutsik
+  text: שמוציק
+  translation: מלוכלך
+  pos: adjective
+  example:
+    text: דאָס איז שמוציק.
+    translation: זה מלוכלך
+- id: p7-laykht
+  text: לײַכט
+  translation: קל (משקל)
+  pos: adjective
+  example:
+    text: דאָס איז לײַכט.
+    translation: זה קל (משקל)
+- id: p7-tif
+  text: טיף
+  translation: עמוק
+  pos: adjective
+  example:
+    text: דאָס איז טיף.
+    translation: זה עמוק
+- id: p7-hoykh
+  text: הויך
+  translation: גבוה
+  pos: adjective
+  example:
+    text: דאָס איז הויך.
+    translation: זה גבוה
+- id: p7-shmol
+  text: שמאָל
+  translation: צר
+  pos: adjective
+  example:
+    text: דאָס איז שמאָל.
+    translation: זה צר
+- id: p7-dik
+  text: דיק
+  translation: עבה
+  pos: adjective
+  example:
+    text: דאָס איז דיק.
+    translation: זה עבה
+- id: p7-din
+  text: דין
+  translation: דק
+  pos: adjective
+  example:
+    text: דאָס איז דין.
+    translation: זה דק
+- id: p7-zis
+  text: זיס
+  translation: מתוק
+  pos: adjective
+  example:
+    text: דאָס איז זיס.
+    translation: זה מתוק
+- id: p7-zoyer
+  text: זויער
+  translation: חמוץ
+  pos: adjective
+  example:
+    text: דאָס איז זויער.
+    translation: זה חמוץ
+lessons:
+- id: p7-l1
+  kind: new
+  title:
+    he: חבילה 7 – חלק 1
+    en: Pack 7 – part 1
+  exercises:
+  - id: p7-l1-01
+    type: learn
+    lexeme: p7-grin
+  - id: p7-l1-02
+    type: learn
+    lexeme: p7-royt
+  - id: p7-l1-03
+    type: learn
+    lexeme: p7-bloy
+  - id: p7-l1-04
+    type: learn
+    lexeme: p7-gel
+  - id: p7-l1-05
+    type: learn
+    lexeme: p7-broyn
+  - id: p7-l1-06
+    type: learn
+    lexeme: p7-heys
+  - id: p7-l1-07
+    type: learn
+    lexeme: p7-shnel
+  - id: p7-l1-08
+    type: learn
+    lexeme: p7-shtark
+  - id: p7-l1-09
+    type: learn
+    lexeme: p7-shvakh
+  - id: p7-l1-10
+    type: match_pairs
+    pairs:
+    - - גרין
+      - ירוק
+    - - רויט
+      - אדום
+    - - בלוי
+      - כחול
+    - - געל
+      - צהוב
+    lexemes:
+    - p7-grin
+    - p7-royt
+    - p7-bloy
+    - p7-gel
+  - id: p7-l1-11
+    type: match_pairs
+    pairs:
+    - - ברוין
+      - חום
+    - - הייס
+      - חם
+    - - שנעל
+      - מהיר
+    - - שטאַרק
+      - חזק
+    - - שוואַך
+      - חלש
+    lexemes:
+    - p7-broyn
+    - p7-heys
+    - p7-shnel
+    - p7-shtark
+    - p7-shvakh
+  - id: p7-l1-12
+    type: multiple_choice
+    prompt: מה פירוש גרין?
+    options:
+    - ירוק
+    - שמח / מצחיק
+    - מתוק
+    correct: 0
+    lexemes:
+    - p7-grin
+  - id: p7-l1-13
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: אדום?'
+    options:
+    - רויט
+    - זויער
+    - ליידיק
+    correct: 0
+    lexemes:
+    - p7-royt
+  - id: p7-l1-14
+    type: multiple_choice
+    prompt: מה פירוש בלוי?
+    options:
+    - כחול
+    - רטוב
+    - קל (משקל)
+    correct: 0
+    lexemes:
+    - p7-bloy
+  - id: p7-l1-15
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: צהוב?'
+    options:
+    - געל
+    - דין
+    - קלוג
+    correct: 0
+    lexemes:
+    - p7-gel
+  - id: p7-l1-16
+    type: multiple_choice
+    prompt: מה פירוש ברוין?
+    options:
+    - חום
+    - סקרן
+    - דק
+    correct: 0
+    lexemes:
+    - p7-broyn
+  - id: p7-l1-17
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: חם?'
+    options:
+    - הייס
+    - ריין
+    - הויך
+    correct: 0
+    lexemes:
+    - p7-heys
+  - id: p7-l1-18
+    type: multiple_choice
+    prompt: מה פירוש שנעל?
+    options:
+    - מהיר
+    - קל (משקל)
+    - ריק
+    correct: 0
+    lexemes:
+    - p7-shnel
+  - id: p7-l1-19
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: חזק?'
+    options:
+    - שטאַרק
+    - טרויעריק
+    - קלוג
+    correct: 0
+    lexemes:
+    - p7-shtark
+  - id: p7-l1-20
+    type: multiple_choice
+    prompt: מה פירוש שוואַך?
+    options:
+    - חלש
+    - יבש
+    - ריק
+    correct: 0
+    lexemes:
+    - p7-shvakh
+  - id: p7-l1-21
+    type: fill_blank
+    sentence: דאָס איז ___.
+    translation: זה ירוק
+    answers:
+    - גרין
+    options:
+    - גרין
+    - טרויעריק
+    - טיף
+    lexemes:
+    - p7-grin
+  - id: p7-l1-22
+    type: fill_blank
+    sentence: דאָס איז ___.
+    translation: זה אדום
+    answers:
+    - רויט
+    options:
+    - רויט
+    - טרויעריק
+    - הויך
+    lexemes:
+    - p7-royt
+  - id: p7-l1-23
+    type: fill_blank
+    sentence: דאָס איז ___.
+    translation: זה כחול
+    answers:
+    - בלוי
+    options:
+    - בלוי
+    - טיף
+    - ריין
+    lexemes:
+    - p7-bloy
+  - id: p7-l1-24
+    type: fill_blank
+    sentence: דאָס איז ___.
+    translation: זה צהוב
+    answers:
+    - געל
+    options:
+    - געל
+    - נאַס
+    - נייגעריק
+    lexemes:
+    - p7-gel
+  - id: p7-l1-25
+    type: fill_blank
+    sentence: דאָס איז ___.
+    translation: זה חום
+    answers:
+    - ברוין
+    options:
+    - ברוין
+    - זיס
+    - טרוקן
+    lexemes:
+    - p7-broyn
+  - id: p7-l1-26
+    type: fill_blank
+    sentence: דאָס איז ___.
+    translation: זה חם
+    answers:
+    - הייס
+    options:
+    - הייס
+    - זויער
+    - נייגעריק
+    lexemes:
+    - p7-heys
+  - id: p7-l1-27
+    type: fill_blank
+    sentence: דאָס איז ___.
+    translation: זה מהיר
+    answers:
+    - שנעל
+    options:
+    - שנעל
+    - טרוקן
+    - טיף
+    lexemes:
+    - p7-shnel
+  - id: p7-l1-28
+    type: fill_blank
+    sentence: דאָס איז ___.
+    translation: זה חזק
+    answers:
+    - שטאַרק
+    options:
+    - שטאַרק
+    - נאַס
+    - טיף
+    lexemes:
+    - p7-shtark
+  - id: p7-l1-29
+    type: fill_blank
+    sentence: דאָס איז ___.
+    translation: זה חלש
+    answers:
+    - שוואַך
+    options:
+    - שוואַך
+    - שמאָל
+    - טרוקן
+    lexemes:
+    - p7-shvakh
+- id: p7-l2
+  kind: new
+  title:
+    he: חבילה 7 – חלק 2
+    en: Pack 7 – part 2
+  exercises:
+  - id: p7-l2-01
+    type: learn
+    lexeme: p7-nas
+  - id: p7-l2-02
+    type: learn
+    lexeme: p7-trukn
+  - id: p7-l2-03
+    type: learn
+    lexeme: p7-raykh
+  - id: p7-l2-04
+    type: learn
+    lexeme: p7-ful
+  - id: p7-l2-05
+    type: learn
+    lexeme: p7-laydik
+  - id: p7-l2-06
+    type: learn
+    lexeme: p7-ruik
+  - id: p7-l2-07
+    type: learn
+    lexeme: p7-lustik
+  - id: p7-l2-08
+    type: learn
+    lexeme: p7-troyerik
+  - id: p7-l2-09
+    type: learn
+    lexeme: p7-klug
+  - id: p7-l2-10
+    type: match_pairs
+    pairs:
+    - - נאַס
+      - רטוב
+    - - טרוקן
+      - יבש
+    - - רײַך
+      - עשיר
+    - - פֿול
+      - מלא
+    lexemes:
+    - p7-nas
+    - p7-trukn
+    - p7-raykh
+    - p7-ful
+  - id: p7-l2-11
+    type: match_pairs
+    pairs:
+    - - ליידיק
+      - ריק
+    - - רויק
+      - שקט
+    - - לוסטיק
+      - שמח / מצחיק
+    - - טרויעריק
+      - עצוב
+    - - קלוג
+      - חכם
+    lexemes:
+    - p7-laydik
+    - p7-ruik
+    - p7-lustik
+    - p7-troyerik
+    - p7-klug
+  - id: p7-l2-12
+    type: multiple_choice
+    prompt: מה פירוש נאַס?
+    options:
+    - רטוב
+    - חזק
+    - עמוק
+    correct: 0
+    lexemes:
+    - p7-nas
+  - id: p7-l2-13
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: יבש?'
+    options:
+    - טרוקן
+    - הויך
+    - שוואַך
+    correct: 0
+    lexemes:
+    - p7-trukn
+  - id: p7-l2-14
+    type: multiple_choice
+    prompt: מה פירוש רײַך?
+    options:
+    - עשיר
+    - חמוץ
+    - מהיר
+    correct: 0
+    lexemes:
+    - p7-raykh
+  - id: p7-l2-15
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: מלא?'
+    options:
+    - פֿול
+    - זויער
+    - טיף
+    correct: 0
+    lexemes:
+    - p7-ful
+  - id: p7-l2-16
+    type: multiple_choice
+    prompt: מה פירוש ליידיק?
+    options:
+    - ריק
+    - חזק
+    - סקרן
+    correct: 0
+    lexemes:
+    - p7-laydik
+  - id: p7-l2-17
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: שקט?'
+    options:
+    - רויק
+    - שמוציק
+    - שמאָל
+    correct: 0
+    lexemes:
+    - p7-ruik
+  - id: p7-l2-18
+    type: multiple_choice
+    prompt: מה פירוש לוסטיק?
+    options:
+    - שמח / מצחיק
+    - מהיר
+    - כחול
+    correct: 0
+    lexemes:
+    - p7-lustik
+  - id: p7-l2-19
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: עצוב?'
+    options:
+    - טרויעריק
+    - הייס
+    - נייגעריק
+    correct: 0
+    lexemes:
+    - p7-troyerik
+  - id: p7-l2-20
+    type: multiple_choice
+    prompt: מה פירוש קלוג?
+    options:
+    - חכם
+    - צהוב
+    - מתוק
+    correct: 0
+    lexemes:
+    - p7-klug
+  - id: p7-l2-21
+    type: fill_blank
+    sentence: דאָס איז ___.
+    translation: זה רטוב
+    answers:
+    - נאַס
+    options:
+    - נאַס
+    - לײַכט
+    - ברוין
+    lexemes:
+    - p7-nas
+  - id: p7-l2-22
+    type: fill_blank
+    sentence: דאָס איז ___.
+    translation: זה יבש
+    answers:
+    - טרוקן
+    options:
+    - טרוקן
+    - רויט
+    - שמוציק
+    lexemes:
+    - p7-trukn
+  - id: p7-l2-23
+    type: fill_blank
+    sentence: דאָס איז ___.
+    translation: זה עשיר
+    answers:
+    - רײַך
+    options:
+    - רײַך
+    - זיס
+    - רויט
+    lexemes:
+    - p7-raykh
+  - id: p7-l2-24
+    type: fill_blank
+    sentence: דאָס איז ___.
+    translation: זה מלא
+    answers:
+    - פֿול
+    options:
+    - פֿול
+    - שוואַך
+    - שנעל
+    lexemes:
+    - p7-ful
+  - id: p7-l2-25
+    type: fill_blank
+    sentence: דאָס איז ___.
+    translation: זה ריק
+    answers:
+    - ליידיק
+    options:
+    - ליידיק
+    - הייס
+    - בלוי
+    lexemes:
+    - p7-laydik
+  - id: p7-l2-26
+    type: fill_blank
+    sentence: דאָס איז ___.
+    translation: זה שקט
+    answers:
+    - רויק
+    options:
+    - רויק
+    - הויך
+    - דין
+    lexemes:
+    - p7-ruik
+  - id: p7-l2-27
+    type: fill_blank
+    sentence: דאָס איז ___.
+    translation: זה שמח / מצחיק
+    answers:
+    - לוסטיק
+    options:
+    - לוסטיק
+    - שנעל
+    - נייגעריק
+    lexemes:
+    - p7-lustik
+  - id: p7-l2-28
+    type: fill_blank
+    sentence: דאָס איז ___.
+    translation: זה עצוב
+    answers:
+    - טרויעריק
+    options:
+    - טרויעריק
+    - הייס
+    - דיק
+    lexemes:
+    - p7-troyerik
+  - id: p7-l2-29
+    type: fill_blank
+    sentence: דאָס איז ___.
+    translation: זה חכם
+    answers:
+    - קלוג
+    options:
+    - קלוג
+    - הייס
+    - גרין
+    lexemes:
+    - p7-klug
+- id: p7-l3
+  kind: new
+  title:
+    he: חבילה 7 – חלק 3
+    en: Pack 7 – part 3
+  exercises:
+  - id: p7-l3-01
+    type: learn
+    lexeme: p7-nayerik
+  - id: p7-l3-02
+    type: learn
+    lexeme: p7-reyn
+  - id: p7-l3-03
+    type: learn
+    lexeme: p7-shmutsik
+  - id: p7-l3-04
+    type: learn
+    lexeme: p7-laykht
+  - id: p7-l3-05
+    type: learn
+    lexeme: p7-tif
+  - id: p7-l3-06
+    type: learn
+    lexeme: p7-hoykh
+  - id: p7-l3-07
+    type: learn
+    lexeme: p7-shmol
+  - id: p7-l3-08
+    type: learn
+    lexeme: p7-dik
+  - id: p7-l3-09
+    type: learn
+    lexeme: p7-din
+  - id: p7-l3-10
+    type: learn
+    lexeme: p7-zis
+  - id: p7-l3-11
+    type: learn
+    lexeme: p7-zoyer
+  - id: p7-l3-12
+    type: match_pairs
+    pairs:
+    - - נייגעריק
+      - סקרן
+    - - ריין
+      - נקי
+    - - שמוציק
+      - מלוכלך
+    - - לײַכט
+      - קל (משקל)
+    - - טיף
+      - עמוק
+    lexemes:
+    - p7-nayerik
+    - p7-reyn
+    - p7-shmutsik
+    - p7-laykht
+    - p7-tif
+  - id: p7-l3-13
+    type: match_pairs
+    pairs:
+    - - הויך
+      - גבוה
+    - - שמאָל
+      - צר
+    - - דיק
+      - עבה
+    - - דין
+      - דק
+    - - זיס
+      - מתוק
+    - - זויער
+      - חמוץ
+    lexemes:
+    - p7-hoykh
+    - p7-shmol
+    - p7-dik
+    - p7-din
+    - p7-zis
+    - p7-zoyer
+  - id: p7-l3-14
+    type: multiple_choice
+    prompt: מה פירוש נייגעריק?
+    options:
+    - סקרן
+    - עצוב
+    - אדום
+    correct: 0
+    lexemes:
+    - p7-nayerik
+  - id: p7-l3-15
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: נקי?'
+    options:
+    - ריין
+    - שנעל
+    - לוסטיק
+    correct: 0
+    lexemes:
+    - p7-reyn
+  - id: p7-l3-16
+    type: multiple_choice
+    prompt: מה פירוש שמוציק?
+    options:
+    - מלוכלך
+    - אדום
+    - מהיר
+    correct: 0
+    lexemes:
+    - p7-shmutsik
+  - id: p7-l3-17
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: קל (משקל)?'
+    options:
+    - לײַכט
+    - רויק
+    - פֿול
+    correct: 0
+    lexemes:
+    - p7-laykht
+  - id: p7-l3-18
+    type: multiple_choice
+    prompt: מה פירוש טיף?
+    options:
+    - עמוק
+    - עשיר
+    - חום
+    correct: 0
+    lexemes:
+    - p7-tif
+  - id: p7-l3-19
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: גבוה?'
+    options:
+    - הויך
+    - שנעל
+    - פֿול
+    correct: 0
+    lexemes:
+    - p7-hoykh
+  - id: p7-l3-20
+    type: multiple_choice
+    prompt: מה פירוש שמאָל?
+    options:
+    - צר
+    - ריק
+    - חלש
+    correct: 0
+    lexemes:
+    - p7-shmol
+  - id: p7-l3-21
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: עבה?'
+    options:
+    - דיק
+    - פֿול
+    - רויט
+    correct: 0
+    lexemes:
+    - p7-dik
+  - id: p7-l3-22
+    type: multiple_choice
+    prompt: מה פירוש דין?
+    options:
+    - דק
+    - מלא
+    - חום
+    correct: 0
+    lexemes:
+    - p7-din
+  - id: p7-l3-23
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: מתוק?'
+    options:
+    - זיס
+    - רויק
+    - שוואַך
+    correct: 0
+    lexemes:
+    - p7-zis
+  - id: p7-l3-24
+    type: multiple_choice
+    prompt: מה פירוש זויער?
+    options:
+    - חמוץ
+    - עצוב
+    - שמח / מצחיק
+    correct: 0
+    lexemes:
+    - p7-zoyer
+  - id: p7-l3-25
+    type: fill_blank
+    sentence: דאָס איז ___.
+    translation: זה סקרן
+    answers:
+    - נייגעריק
+    options:
+    - נייגעריק
+    - לוסטיק
+    - געל
+    lexemes:
+    - p7-nayerik
+  - id: p7-l3-26
+    type: fill_blank
+    sentence: דאָס איז ___.
+    translation: זה נקי
+    answers:
+    - ריין
+    options:
+    - ריין
+    - ברוין
+    - לוסטיק
+    lexemes:
+    - p7-reyn
+  - id: p7-l3-27
+    type: fill_blank
+    sentence: דאָס איז ___.
+    translation: זה מלוכלך
+    answers:
+    - שמוציק
+    options:
+    - שמוציק
+    - שטאַרק
+    - לוסטיק
+    lexemes:
+    - p7-shmutsik
+  - id: p7-l3-28
+    type: fill_blank
+    sentence: דאָס איז ___.
+    translation: זה קל (משקל)
+    answers:
+    - לײַכט
+    options:
+    - לײַכט
+    - שנעל
+    - נאַס
+    lexemes:
+    - p7-laykht
+  - id: p7-l3-29
+    type: fill_blank
+    sentence: דאָס איז ___.
+    translation: זה עמוק
+    answers:
+    - טיף
+    options:
+    - טיף
+    - נאַס
+    - טרויעריק
+    lexemes:
+    - p7-tif
+  - id: p7-l3-30
+    type: fill_blank
+    sentence: דאָס איז ___.
+    translation: זה גבוה
+    answers:
+    - הויך
+    options:
+    - הויך
+    - רויק
+    - שוואַך
+    lexemes:
+    - p7-hoykh
+  - id: p7-l3-31
+    type: fill_blank
+    sentence: דאָס איז ___.
+    translation: זה צר
+    answers:
+    - שמאָל
+    options:
+    - שמאָל
+    - רויק
+    - נאַס
+    lexemes:
+    - p7-shmol
+  - id: p7-l3-32
+    type: fill_blank
+    sentence: דאָס איז ___.
+    translation: זה עבה
+    answers:
+    - דיק
+    options:
+    - דיק
+    - שטאַרק
+    - רויק
+    lexemes:
+    - p7-dik
+  - id: p7-l3-33
+    type: fill_blank
+    sentence: דאָס איז ___.
+    translation: זה דק
+    answers:
+    - דין
+    options:
+    - דין
+    - לוסטיק
+    - רויק
+    lexemes:
+    - p7-din
+  - id: p7-l3-34
+    type: fill_blank
+    sentence: דאָס איז ___.
+    translation: זה מתוק
+    answers:
+    - זיס
+    options:
+    - זיס
+    - הייס
+    - בלוי
+    lexemes:
+    - p7-zis
+  - id: p7-l3-35
+    type: fill_blank
+    sentence: דאָס איז ___.
+    translation: זה חמוץ
+    answers:
+    - זויער
+    options:
+    - זויער
+    - בלוי
+    - שטאַרק
+    lexemes:
+    - p7-zoyer

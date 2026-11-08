@@ -1,0 +1,894 @@
+id: p1-words
+cefr: A2
+scene: home
+title:
+  he: 'הרחבת אוצר מילים 1: הגוף'
+  en: 'Word builder 1: the body'
+story: מילים שימושיות נוספות, כל אחת במשפט קצר.
+canDo:
+- להבין ולהשתמש במילים נפוצות נוספות
+- לזהות את המילים במשפטים
+vocabulary:
+- id: p1-oyg
+  text: אויג
+  translation: עין
+  pos: noun
+  example:
+    text: איך זע אַן אויג.
+    translation: אני רואה עין
+- id: p1-oyer
+  text: אויער
+  translation: אוזן
+  pos: noun
+  example:
+    text: איך זע אַן אויער.
+    translation: אני רואה אוזן
+- id: p1-noz
+  text: נאָז
+  translation: אף
+  pos: noun
+  example:
+    text: איך זע אַ נאָז.
+    translation: אני רואה אף
+- id: p1-moyl
+  text: מויל
+  translation: פה
+  pos: noun
+  example:
+    text: איך זע אַ מויל.
+    translation: אני רואה פה
+- id: p1-tson
+  text: צאָן
+  translation: שן
+  pos: noun
+  example:
+    text: איך זע אַ צאָן.
+    translation: אני רואה שן
+- id: p1-har
+  text: האָר
+  translation: שיער
+  pos: noun
+  example:
+    text: איך זע אַ האָר.
+    translation: אני רואה שיער
+- id: p1-fus
+  text: פֿוס
+  translation: רגל
+  pos: noun
+  example:
+    text: איך זע אַ פֿוס.
+    translation: אני רואה רגל
+- id: p1-haldz
+  text: האַלדז
+  translation: צוואר
+  pos: noun
+  example:
+    text: איך זע אַ האַלדז.
+    translation: אני רואה צוואר
+- id: p1-boykh
+  text: בויך
+  translation: בטן
+  pos: noun
+  example:
+    text: איך זע אַ בויך.
+    translation: אני רואה בטן
+- id: p1-brust
+  text: ברוסט
+  translation: חזה
+  pos: noun
+  example:
+    text: איך זע אַ ברוסט.
+    translation: אני רואה חזה
+- id: p1-pleytse
+  text: פּלייצע
+  translation: כתף
+  pos: noun
+  example:
+    text: איך זע אַ פּלייצע.
+    translation: אני רואה כתף
+- id: p1-orem
+  text: אָרעם
+  translation: זרוע
+  pos: noun
+  example:
+    text: איך זע אַן אָרעם.
+    translation: אני רואה זרוע
+- id: p1-finger
+  text: פֿינגער
+  translation: אצבע
+  pos: noun
+  example:
+    text: איך זע אַ פֿינגער.
+    translation: אני רואה אצבע
+- id: p1-harts
+  text: האַרץ
+  translation: לב
+  pos: noun
+  example:
+    text: איך זע אַ האַרץ.
+    translation: אני רואה לב
+- id: p1-blut
+  text: בלוט
+  translation: דם
+  pos: noun
+  example:
+    text: איך זע בלוט.
+    translation: אני רואה דם
+- id: p1-hoyt
+  text: הויט
+  translation: עור
+  pos: noun
+  example:
+    text: איך זע אַ הויט.
+    translation: אני רואה עור
+- id: p1-beyn
+  text: ביין
+  translation: עצם
+  pos: noun
+  example:
+    text: איך זע אַ ביין.
+    translation: אני רואה עצם
+- id: p1-tsung
+  text: צונג
+  translation: לשון
+  pos: noun
+  example:
+    text: איך זע אַ צונג.
+    translation: אני רואה לשון
+- id: p1-bord
+  text: באָרד
+  translation: זקן
+  pos: noun
+  example:
+    text: איך זע אַ באָרד.
+    translation: אני רואה זקן
+- id: p1-kni
+  text: קני
+  translation: ברך
+  pos: noun
+  example:
+    text: איך זע אַ קני.
+    translation: אני רואה ברך
+- id: p1-guf
+  text: גוף
+  translation: גוף האדם
+  pos: noun
+  example:
+    text: איך זע אַ גוף.
+    translation: אני רואה גוף האדם
+- id: p1-lip
+  text: ליפּ
+  translation: שפה
+  pos: noun
+  example:
+    text: איך זע אַ ליפּ.
+    translation: אני רואה שפה
+- id: p1-bak
+  text: באַק
+  translation: לחי
+  pos: noun
+  example:
+    text: איך זע אַ באַק.
+    translation: אני רואה לחי
+- id: p1-nogl
+  text: נאָגל
+  translation: ציפורן
+  pos: noun
+  example:
+    text: איך זע אַ נאָגל.
+    translation: אני רואה ציפורן
+lessons:
+- id: p1-l1
+  kind: new
+  title:
+    he: חבילה 1 – חלק 1
+    en: Pack 1 – part 1
+  exercises:
+  - id: p1-l1-01
+    type: learn
+    lexeme: p1-oyg
+  - id: p1-l1-02
+    type: learn
+    lexeme: p1-oyer
+  - id: p1-l1-03
+    type: learn
+    lexeme: p1-noz
+  - id: p1-l1-04
+    type: learn
+    lexeme: p1-moyl
+  - id: p1-l1-05
+    type: learn
+    lexeme: p1-tson
+  - id: p1-l1-06
+    type: learn
+    lexeme: p1-har
+  - id: p1-l1-07
+    type: learn
+    lexeme: p1-fus
+  - id: p1-l1-08
+    type: learn
+    lexeme: p1-haldz
+  - id: p1-l1-09
+    type: match_pairs
+    pairs:
+    - - אויג
+      - עין
+    - - אויער
+      - אוזן
+    - - נאָז
+      - אף
+    - - מויל
+      - פה
+    lexemes:
+    - p1-oyg
+    - p1-oyer
+    - p1-noz
+    - p1-moyl
+  - id: p1-l1-10
+    type: match_pairs
+    pairs:
+    - - צאָן
+      - שן
+    - - האָר
+      - שיער
+    - - פֿוס
+      - רגל
+    - - האַלדז
+      - צוואר
+    lexemes:
+    - p1-tson
+    - p1-har
+    - p1-fus
+    - p1-haldz
+  - id: p1-l1-11
+    type: multiple_choice
+    prompt: מה פירוש אויג?
+    options:
+    - עין
+    - חזה
+    - עור
+    correct: 0
+    lexemes:
+    - p1-oyg
+  - id: p1-l1-12
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: אוזן?'
+    options:
+    - אויער
+    - בלוט
+    - באַק
+    correct: 0
+    lexemes:
+    - p1-oyer
+  - id: p1-l1-13
+    type: multiple_choice
+    prompt: מה פירוש נאָז?
+    options:
+    - אף
+    - זרוע
+    - לב
+    correct: 0
+    lexemes:
+    - p1-noz
+  - id: p1-l1-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: פה?'
+    options:
+    - מויל
+    - באָרד
+    - גוף
+    correct: 0
+    lexemes:
+    - p1-moyl
+  - id: p1-l1-15
+    type: multiple_choice
+    prompt: מה פירוש צאָן?
+    options:
+    - שן
+    - זקן
+    - עצם
+    correct: 0
+    lexemes:
+    - p1-tson
+  - id: p1-l1-16
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: שיער?'
+    options:
+    - האָר
+    - קני
+    - גוף
+    correct: 0
+    lexemes:
+    - p1-har
+  - id: p1-l1-17
+    type: multiple_choice
+    prompt: מה פירוש פֿוס?
+    options:
+    - רגל
+    - כתף
+    - זרוע
+    correct: 0
+    lexemes:
+    - p1-fus
+  - id: p1-l1-18
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: צוואר?'
+    options:
+    - האַלדז
+    - פֿינגער
+    - בויך
+    correct: 0
+    lexemes:
+    - p1-haldz
+  - id: p1-l1-19
+    type: fill_blank
+    sentence: איך זע אַן ___.
+    translation: אני רואה עין
+    answers:
+    - אויג
+    options:
+    - אויג
+    - האַרץ
+    - ביין
+    lexemes:
+    - p1-oyg
+  - id: p1-l1-20
+    type: fill_blank
+    sentence: איך זע אַן ___.
+    translation: אני רואה אוזן
+    answers:
+    - אויער
+    options:
+    - אויער
+    - ברוסט
+    - נאָגל
+    lexemes:
+    - p1-oyer
+  - id: p1-l1-21
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה אף
+    answers:
+    - נאָז
+    options:
+    - נאָז
+    - פּלייצע
+    - האַרץ
+    lexemes:
+    - p1-noz
+  - id: p1-l1-22
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה פה
+    answers:
+    - מויל
+    options:
+    - מויל
+    - פֿינגער
+    - בויך
+    lexemes:
+    - p1-moyl
+  - id: p1-l1-23
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה שן
+    answers:
+    - צאָן
+    options:
+    - צאָן
+    - הויט
+    - ברוסט
+    lexemes:
+    - p1-tson
+  - id: p1-l1-24
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה שיער
+    answers:
+    - האָר
+    options:
+    - האָר
+    - ביין
+    - האַרץ
+    lexemes:
+    - p1-har
+  - id: p1-l1-25
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה רגל
+    answers:
+    - פֿוס
+    options:
+    - פֿוס
+    - צונג
+    - באַק
+    lexemes:
+    - p1-fus
+  - id: p1-l1-26
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה צוואר
+    answers:
+    - האַלדז
+    options:
+    - האַלדז
+    - נאָגל
+    - ביין
+    lexemes:
+    - p1-haldz
+- id: p1-l2
+  kind: new
+  title:
+    he: חבילה 1 – חלק 2
+    en: Pack 1 – part 2
+  exercises:
+  - id: p1-l2-01
+    type: learn
+    lexeme: p1-boykh
+  - id: p1-l2-02
+    type: learn
+    lexeme: p1-brust
+  - id: p1-l2-03
+    type: learn
+    lexeme: p1-pleytse
+  - id: p1-l2-04
+    type: learn
+    lexeme: p1-orem
+  - id: p1-l2-05
+    type: learn
+    lexeme: p1-finger
+  - id: p1-l2-06
+    type: learn
+    lexeme: p1-harts
+  - id: p1-l2-07
+    type: learn
+    lexeme: p1-blut
+  - id: p1-l2-08
+    type: learn
+    lexeme: p1-hoyt
+  - id: p1-l2-09
+    type: match_pairs
+    pairs:
+    - - בויך
+      - בטן
+    - - ברוסט
+      - חזה
+    - - פּלייצע
+      - כתף
+    - - אָרעם
+      - זרוע
+    lexemes:
+    - p1-boykh
+    - p1-brust
+    - p1-pleytse
+    - p1-orem
+  - id: p1-l2-10
+    type: match_pairs
+    pairs:
+    - - פֿינגער
+      - אצבע
+    - - האַרץ
+      - לב
+    - - בלוט
+      - דם
+    - - הויט
+      - עור
+    lexemes:
+    - p1-finger
+    - p1-harts
+    - p1-blut
+    - p1-hoyt
+  - id: p1-l2-11
+    type: multiple_choice
+    prompt: מה פירוש בויך?
+    options:
+    - בטן
+    - אף
+    - עין
+    correct: 0
+    lexemes:
+    - p1-boykh
+  - id: p1-l2-12
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: חזה?'
+    options:
+    - ברוסט
+    - באַק
+    - באָרד
+    correct: 0
+    lexemes:
+    - p1-brust
+  - id: p1-l2-13
+    type: multiple_choice
+    prompt: מה פירוש פּלייצע?
+    options:
+    - כתף
+    - רגל
+    - לשון
+    correct: 0
+    lexemes:
+    - p1-pleytse
+  - id: p1-l2-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: זרוע?'
+    options:
+    - אָרעם
+    - ביין
+    - האָר
+    correct: 0
+    lexemes:
+    - p1-orem
+  - id: p1-l2-15
+    type: multiple_choice
+    prompt: מה פירוש פֿינגער?
+    options:
+    - אצבע
+    - זקן
+    - גוף האדם
+    correct: 0
+    lexemes:
+    - p1-finger
+  - id: p1-l2-16
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: לב?'
+    options:
+    - האַרץ
+    - נאָגל
+    - ליפּ
+    correct: 0
+    lexemes:
+    - p1-harts
+  - id: p1-l2-17
+    type: multiple_choice
+    prompt: מה פירוש בלוט?
+    options:
+    - דם
+    - שן
+    - לחי
+    correct: 0
+    lexemes:
+    - p1-blut
+  - id: p1-l2-18
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: עור?'
+    options:
+    - הויט
+    - נאָגל
+    - מויל
+    correct: 0
+    lexemes:
+    - p1-hoyt
+  - id: p1-l2-19
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה בטן
+    answers:
+    - בויך
+    options:
+    - בויך
+    - באָרד
+    - גוף
+    lexemes:
+    - p1-boykh
+  - id: p1-l2-20
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה חזה
+    answers:
+    - ברוסט
+    options:
+    - ברוסט
+    - האָר
+    - נאָגל
+    lexemes:
+    - p1-brust
+  - id: p1-l2-21
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה כתף
+    answers:
+    - פּלייצע
+    options:
+    - פּלייצע
+    - נאָגל
+    - צאָן
+    lexemes:
+    - p1-pleytse
+  - id: p1-l2-22
+    type: fill_blank
+    sentence: איך זע אַן ___.
+    translation: אני רואה זרוע
+    answers:
+    - אָרעם
+    options:
+    - אָרעם
+    - אויג
+    - אויער
+    lexemes:
+    - p1-orem
+  - id: p1-l2-23
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה אצבע
+    answers:
+    - פֿינגער
+    options:
+    - פֿינגער
+    - צונג
+    - נאָגל
+    lexemes:
+    - p1-finger
+  - id: p1-l2-24
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה לב
+    answers:
+    - האַרץ
+    options:
+    - האַרץ
+    - ליפּ
+    - נאָז
+    lexemes:
+    - p1-harts
+  - id: p1-l2-25
+    type: fill_blank
+    sentence: איך זע ___.
+    translation: אני רואה דם
+    answers:
+    - בלוט
+    options:
+    - בלוט
+    - ביין
+    - אויג
+    lexemes:
+    - p1-blut
+  - id: p1-l2-26
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה עור
+    answers:
+    - הויט
+    options:
+    - הויט
+    - צאָן
+    - גוף
+    lexemes:
+    - p1-hoyt
+- id: p1-l3
+  kind: new
+  title:
+    he: חבילה 1 – חלק 3
+    en: Pack 1 – part 3
+  exercises:
+  - id: p1-l3-01
+    type: learn
+    lexeme: p1-beyn
+  - id: p1-l3-02
+    type: learn
+    lexeme: p1-tsung
+  - id: p1-l3-03
+    type: learn
+    lexeme: p1-bord
+  - id: p1-l3-04
+    type: learn
+    lexeme: p1-kni
+  - id: p1-l3-05
+    type: learn
+    lexeme: p1-guf
+  - id: p1-l3-06
+    type: learn
+    lexeme: p1-lip
+  - id: p1-l3-07
+    type: learn
+    lexeme: p1-bak
+  - id: p1-l3-08
+    type: learn
+    lexeme: p1-nogl
+  - id: p1-l3-09
+    type: match_pairs
+    pairs:
+    - - ביין
+      - עצם
+    - - צונג
+      - לשון
+    - - באָרד
+      - זקן
+    - - קני
+      - ברך
+    lexemes:
+    - p1-beyn
+    - p1-tsung
+    - p1-bord
+    - p1-kni
+  - id: p1-l3-10
+    type: match_pairs
+    pairs:
+    - - גוף
+      - גוף האדם
+    - - ליפּ
+      - שפה
+    - - באַק
+      - לחי
+    - - נאָגל
+      - ציפורן
+    lexemes:
+    - p1-guf
+    - p1-lip
+    - p1-bak
+    - p1-nogl
+  - id: p1-l3-11
+    type: multiple_choice
+    prompt: מה פירוש ביין?
+    options:
+    - עצם
+    - רגל
+    - צוואר
+    correct: 0
+    lexemes:
+    - p1-beyn
+  - id: p1-l3-12
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: לשון?'
+    options:
+    - צונג
+    - נאָז
+    - אויער
+    correct: 0
+    lexemes:
+    - p1-tsung
+  - id: p1-l3-13
+    type: multiple_choice
+    prompt: מה פירוש באָרד?
+    options:
+    - זקן
+    - צוואר
+    - אוזן
+    correct: 0
+    lexemes:
+    - p1-bord
+  - id: p1-l3-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: ברך?'
+    options:
+    - קני
+    - האָר
+    - האַלדז
+    correct: 0
+    lexemes:
+    - p1-kni
+  - id: p1-l3-15
+    type: multiple_choice
+    prompt: מה פירוש גוף?
+    options:
+    - גוף האדם
+    - שיער
+    - עור
+    correct: 0
+    lexemes:
+    - p1-guf
+  - id: p1-l3-16
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: שפה?'
+    options:
+    - ליפּ
+    - ברוסט
+    - צאָן
+    correct: 0
+    lexemes:
+    - p1-lip
+  - id: p1-l3-17
+    type: multiple_choice
+    prompt: מה פירוש באַק?
+    options:
+    - לחי
+    - רגל
+    - זרוע
+    correct: 0
+    lexemes:
+    - p1-bak
+  - id: p1-l3-18
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: ציפורן?'
+    options:
+    - נאָגל
+    - האָר
+    - הויט
+    correct: 0
+    lexemes:
+    - p1-nogl
+  - id: p1-l3-19
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה עצם
+    answers:
+    - ביין
+    options:
+    - ביין
+    - האָר
+    - נאָז
+    lexemes:
+    - p1-beyn
+  - id: p1-l3-20
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה לשון
+    answers:
+    - צונג
+    options:
+    - צונג
+    - פּלייצע
+    - האָר
+    lexemes:
+    - p1-tsung
+  - id: p1-l3-21
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה זקן
+    answers:
+    - באָרד
+    options:
+    - באָרד
+    - צאָן
+    - ברוסט
+    lexemes:
+    - p1-bord
+  - id: p1-l3-22
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה ברך
+    answers:
+    - קני
+    options:
+    - קני
+    - הויט
+    - פֿינגער
+    lexemes:
+    - p1-kni
+  - id: p1-l3-23
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה גוף האדם
+    answers:
+    - גוף
+    options:
+    - גוף
+    - בויך
+    - ברוסט
+    lexemes:
+    - p1-guf
+  - id: p1-l3-24
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה שפה
+    answers:
+    - ליפּ
+    options:
+    - ליפּ
+    - האַרץ
+    - מויל
+    lexemes:
+    - p1-lip
+  - id: p1-l3-25
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה לחי
+    answers:
+    - באַק
+    options:
+    - באַק
+    - צאָן
+    - מויל
+    lexemes:
+    - p1-bak
+  - id: p1-l3-26
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה ציפורן
+    answers:
+    - נאָגל
+    options:
+    - נאָגל
+    - האַלדז
+    - האַרץ
+    lexemes:
+    - p1-nogl

@@ -1,0 +1,738 @@
+id: u31-briv
+cefr: C1
+scene: home
+title:
+  he: מכתב לסבא
+  en: A letter to grandpa
+story: מנחם כותב מכתב ליידיש לסבא ומספר לו מה הוא כבר יודע.
+canDo:
+- לפתוח ולסיים מכתב
+- לכתוב כמה משפטים קצרים ביידיש
+- לומר כמה אני מבין
+vocabulary:
+- id: liber
+  text: ליבער
+  translation: יקר (בפנייה)
+  pos: adjective
+- id: shraybn
+  text: שרײַבן
+  translation: לכתוב
+  pos: verb
+- id: libe
+  text: ליבע
+  translation: אהבה
+  pos: noun
+- id: abisl
+  text: אַ ביסל
+  translation: מעט
+  pos: adverb
+- id: alts
+  text: אַלץ
+  translation: הכול
+  pos: pronoun
+lessons:
+- id: u31-l1
+  kind: new
+  title:
+    he: מכתב
+    en: Lesson
+  exercises:
+  - id: u31-l1-01
+    type: tip
+    title: מכתב
+    text: 'פותחים ב־**ליבער** (יקר): **ליבער זיידע!**
+
+      **איך שרײַב דיר אַ בריוו** – אני כותב לך מכתב. מסיימים ב־**מיט ליבע**.
+
+      '
+  - id: u31-l1-02
+    type: learn
+    lexeme: liber
+  - id: u31-l1-03
+    type: learn
+    lexeme: shraybn
+  - id: u31-l1-04
+    type: learn
+    lexeme: libe
+  - id: u31-l1-05
+    type: learn
+    lexeme: abisl
+  - id: u31-l1-06
+    type: match_pairs
+    pairs:
+    - - ליבער
+      - יקר (בפנייה)
+    - - שרײַבן
+      - לכתוב
+    - - ליבע
+      - אהבה
+    - - אַ ביסל
+      - מעט
+    lexemes:
+    - liber
+    - shraybn
+    - libe
+    - abisl
+  - id: u31-l1-07
+    type: multiple_choice
+    prompt: מה פירוש ליבער?
+    options:
+    - יקר (בפנייה)
+    - לכתוב
+    - אהבה
+    correct: 0
+    lexemes:
+    - liber
+  - id: u31-l1-08
+    type: multiple_choice
+    prompt: מה פירוש שרײַבן?
+    options:
+    - לכתוב
+    - יקר (בפנייה)
+    - אהבה
+    correct: 0
+    lexemes:
+    - shraybn
+  - id: u31-l1-09
+    type: multiple_choice
+    prompt: מה פירוש ליבע?
+    options:
+    - אהבה
+    - יקר (בפנייה)
+    - לכתוב
+    correct: 0
+    lexemes:
+    - libe
+  - id: u31-l1-10
+    type: multiple_choice
+    prompt: מה פירוש אַ ביסל?
+    options:
+    - מעט
+    - יקר (בפנייה)
+    - לכתוב
+    correct: 0
+    lexemes:
+    - abisl
+  - id: u31-l1-11
+    type: translate
+    direction: to_source
+    prompt: ליבער זיידע!
+    answers:
+    - סבא יקר
+    lexemes: &id001
+    - liber
+    - zeyde
+  - id: u31-l1-12
+    type: translate
+    direction: to_target
+    prompt: סבא יקר
+    answers:
+    - ליבער זיידע
+    lexemes: *id001
+  - id: u31-l1-13
+    type: word_bank
+    prompt: סבא יקר
+    answers:
+    - ליבער זיידע
+    distractors:
+    - ליבע
+    - אַלץ
+    lexemes: *id001
+  - id: u31-l1-14
+    type: fill_blank
+    sentence: ___ זיידע!
+    translation: סבא יקר
+    answers:
+    - ליבער
+    options:
+    - ליבער
+    - אַלץ
+    - שרײַבן
+    lexemes: *id001
+  - id: u31-l1-15
+    type: translate
+    direction: to_source
+    prompt: איך שרײַב דיר אַ בריוו.
+    answers:
+    - אני כותב לך מכתב
+    lexemes: &id002
+    - shraybn
+    - briv
+  - id: u31-l1-16
+    type: translate
+    direction: to_target
+    prompt: אני כותב לך מכתב
+    answers:
+    - איך שרײַב דיר אַ בריוו
+    lexemes: *id002
+  - id: u31-l1-17
+    type: word_bank
+    prompt: אני כותב לך מכתב
+    answers:
+    - איך שרײַב דיר אַ בריוו
+    distractors:
+    - שרײַבן
+    - אַלץ
+    lexemes: *id002
+  - id: u31-l1-18
+    type: fill_blank
+    sentence: איך ___ דיר אַ בריוו.
+    translation: אני כותב לך מכתב
+    answers:
+    - שרײַב
+    options:
+    - שרײַב
+    - ליבער
+    - שרײַבן
+    lexemes: *id002
+  - id: u31-l1-19
+    type: translate
+    direction: to_source
+    prompt: איך רעד אַ ביסל יידיש.
+    answers:
+    - אני מדבר מעט יידיש
+    lexemes: &id003
+    - redn
+    - abisl
+    - yidish
+  - id: u31-l1-20
+    type: translate
+    direction: to_target
+    prompt: אני מדבר מעט יידיש
+    answers:
+    - איך רעד אַ ביסל יידיש
+    lexemes: *id003
+  - id: u31-l1-21
+    type: word_bank
+    prompt: אני מדבר מעט יידיש
+    answers:
+    - איך רעד אַ ביסל יידיש
+    distractors:
+    - ליבער
+    - אַלץ
+    lexemes: *id003
+  - id: u31-l1-22
+    type: fill_blank
+    sentence: איך רעד אַ ___ יידיש.
+    translation: אני מדבר מעט יידיש
+    answers:
+    - ביסל
+    options:
+    - ביסל
+    - אַלץ
+    - ליבע
+    lexemes: *id003
+- id: u31-l2
+  kind: new
+  title:
+    he: כמה אני יודע
+    en: Lesson
+  exercises:
+  - id: u31-l2-01
+    type: learn
+    lexeme: abisl
+  - id: u31-l2-02
+    type: learn
+    lexeme: alts
+  - id: u31-l2-03
+    type: dialogue
+    scene: home
+    lines:
+    - speaker: menachem
+      text: ליבער זיידע! איך שרײַב דיר אַ בריוו.
+      translation: סבא יקר! אני כותב לך מכתב.
+    - speaker: zeyde
+      text: איך לייען דעם בריוו מיט ליבע.
+      translation: אני קורא את המכתב באהבה.
+  - id: u31-l2-04
+    type: multiple_choice
+    prompt: מה פירוש אַ ביסל?
+    options:
+    - מעט
+    - יקר (בפנייה)
+    - לכתוב
+    correct: 0
+    lexemes:
+    - abisl
+  - id: u31-l2-05
+    type: multiple_choice
+    prompt: מה פירוש אַלץ?
+    options:
+    - הכול
+    - יקר (בפנייה)
+    - לכתוב
+    correct: 0
+    lexemes:
+    - alts
+  - id: u31-l2-06
+    type: translate
+    direction: to_source
+    prompt: איך פֿאַרשטיי אַלץ.
+    answers:
+    - אני מבין הכול
+    lexemes: &id004
+    - farshteyn
+    - alts
+  - id: u31-l2-07
+    type: translate
+    direction: to_target
+    prompt: אני מבין הכול
+    answers:
+    - איך פֿאַרשטיי אַלץ
+    lexemes: *id004
+  - id: u31-l2-08
+    type: word_bank
+    prompt: אני מבין הכול
+    answers:
+    - איך פֿאַרשטיי אַלץ
+    distractors:
+    - ליבע
+    - אַלץ
+    lexemes: *id004
+  - id: u31-l2-09
+    type: translate
+    direction: to_source
+    prompt: איך שרײַב מיט ליבע.
+    answers:
+    - אני כותב באהבה
+    lexemes: &id005
+    - shraybn
+    - mit
+    - libe
+  - id: u31-l2-10
+    type: translate
+    direction: to_target
+    prompt: אני כותב באהבה
+    answers:
+    - איך שרײַב מיט ליבע
+    lexemes: *id005
+  - id: u31-l2-11
+    type: word_bank
+    prompt: אני כותב באהבה
+    answers:
+    - איך שרײַב מיט ליבע
+    distractors:
+    - ליבער
+    - שרײַבן
+    lexemes: *id005
+- id: u31-review
+  kind: review
+  title:
+    he: 'חזרה: מכתב לסבא'
+    en: Review
+  exercises:
+  - id: u31-review-01
+    type: match_pairs
+    pairs:
+    - - ליבער
+      - יקר (בפנייה)
+    - - שרײַבן
+      - לכתוב
+    - - ליבע
+      - אהבה
+    - - אַ ביסל
+      - מעט
+    - - אַלץ
+      - הכול
+    lexemes:
+    - liber
+    - shraybn
+    - libe
+    - abisl
+    - alts
+  - id: u31-review-02
+    type: translate
+    direction: to_source
+    prompt: ליבער זיידע!
+    answers:
+    - סבא יקר
+    lexemes: *id001
+  - id: u31-review-03
+    type: translate
+    direction: to_target
+    prompt: סבא יקר
+    answers:
+    - ליבער זיידע
+    lexemes: *id001
+  - id: u31-review-04
+    type: word_bank
+    prompt: סבא יקר
+    answers:
+    - ליבער זיידע
+    distractors:
+    - ליבע
+    - אַלץ
+    lexemes: *id001
+  - id: u31-review-05
+    type: translate
+    direction: to_source
+    prompt: איך שרײַב דיר אַ בריוו.
+    answers:
+    - אני כותב לך מכתב
+    lexemes: *id002
+  - id: u31-review-06
+    type: translate
+    direction: to_target
+    prompt: אני כותב לך מכתב
+    answers:
+    - איך שרײַב דיר אַ בריוו
+    lexemes: *id002
+  - id: u31-review-07
+    type: word_bank
+    prompt: אני כותב לך מכתב
+    answers:
+    - איך שרײַב דיר אַ בריוו
+    distractors:
+    - שרײַבן
+    - אַלץ
+    lexemes: *id002
+  - id: u31-review-08
+    type: translate
+    direction: to_source
+    prompt: איך רעד אַ ביסל יידיש.
+    answers:
+    - אני מדבר מעט יידיש
+    lexemes: *id003
+  - id: u31-review-09
+    type: translate
+    direction: to_target
+    prompt: אני מדבר מעט יידיש
+    answers:
+    - איך רעד אַ ביסל יידיש
+    lexemes: *id003
+  - id: u31-review-10
+    type: word_bank
+    prompt: אני מדבר מעט יידיש
+    answers:
+    - איך רעד אַ ביסל יידיש
+    distractors:
+    - ליבער
+    - אַלץ
+    lexemes: *id003
+  - id: u31-review-11
+    type: translate
+    direction: to_source
+    prompt: איך פֿאַרשטיי אַלץ.
+    answers:
+    - אני מבין הכול
+    lexemes: *id004
+  - id: u31-review-12
+    type: translate
+    direction: to_target
+    prompt: אני מבין הכול
+    answers:
+    - איך פֿאַרשטיי אַלץ
+    lexemes: *id004
+  - id: u31-review-13
+    type: word_bank
+    prompt: אני מבין הכול
+    answers:
+    - איך פֿאַרשטיי אַלץ
+    distractors:
+    - ליבע
+    - אַלץ
+    lexemes: *id004
+  - id: u31-review-14
+    type: translate
+    direction: to_source
+    prompt: איך שרײַב מיט ליבע.
+    answers:
+    - אני כותב באהבה
+    lexemes: *id005
+  - id: u31-review-15
+    type: translate
+    direction: to_target
+    prompt: אני כותב באהבה
+    answers:
+    - איך שרײַב מיט ליבע
+    lexemes: *id005
+  - id: u31-review-16
+    type: word_bank
+    prompt: אני כותב באהבה
+    answers:
+    - איך שרײַב מיט ליבע
+    distractors:
+    - ליבער
+    - שרײַבן
+    lexemes: *id005
+  - id: u31-review-17
+    type: write
+    prompt: כתבו מכתב קצר לסבא או לחבר (3 משפטים). פתחו ב־ליבער וסיימו ב־מיט ליבע.
+    minWords: 14
+    checks:
+    - label: פתחתם ב־ליבער
+      any:
+      - ליבער
+    - label: כתבתם איך
+      any:
+      - איך
+    - label: סיימתם ב־ליבע
+      any:
+      - ליבע
+    model: ליבער זיידע! איך שרײַב דיר אַ בריוו. איך לערן יידיש. מיט ליבע, מנחם.
+    lexemes: []
+- id: c1-test
+  kind: test
+  title:
+    he: מבחן רמה C1
+    en: C1 level test
+  exercises:
+  - id: c1-test-01
+    type: translate
+    direction: to_source
+    prompt: איך וויל דערציילן וואָס איך האָב געזען.
+    answers:
+    - אני רוצה לספר מה ראיתי
+    lexemes: &id006
+    - vil
+    - dertseyln
+    - hobn
+    - gezen
+  - id: c1-test-02
+    type: fill_blank
+    sentence: איך וויל ___ וואָס איך האָב געזען.
+    translation: אני רוצה לספר מה ראיתי
+    answers:
+    - דערציילן
+    options:
+    - דערציילן
+    - האָט
+    - צום
+    lexemes: *id006
+  - id: c1-test-03
+    type: translate
+    direction: to_source
+    prompt: מיר האָבן געלערנט און דערנאָך געדאַוונט.
+    answers:
+    - למדנו ואחר כך התפללנו
+    lexemes: &id007
+    - mir
+    - hobn
+    - gelernt
+    - dernokh
+    - gedavnt
+  - id: c1-test-04
+    type: fill_blank
+    sentence: מיר האָבן געלערנט און ___ געדאַוונט.
+    translation: למדנו ואחר כך התפללנו
+    answers:
+    - דערנאָך
+    options:
+    - דערנאָך
+    - ספֿר
+    - ניגון
+    lexemes: *id007
+  - id: c1-test-05
+    type: translate
+    direction: to_source
+    prompt: צום סוף האָבן מיר געהערט אַ ניגון.
+    answers:
+    - בסוף שמענו ניגון
+    lexemes: &id008
+    - tsumsof
+    - hobn
+    - mir
+    - gehert
+    - nigun
+  - id: c1-test-06
+    type: fill_blank
+    sentence: צום ___ האָבן מיר געהערט אַ ניגון.
+    translation: בסוף שמענו ניגון
+    answers:
+    - סוף
+    options:
+    - סוף
+    - ניגון
+    - ליבע
+    lexemes: *id008
+  - id: c1-test-07
+    type: translate
+    direction: to_source
+    prompt: אין אָנהייב איז דער ספֿר שווער.
+    answers:
+    - בהתחלה הספר קשה
+    lexemes: &id009
+    - onheyb
+    - sefer
+    - iz
+    - shver
+  - id: c1-test-08
+    type: fill_blank
+    sentence: אין ___ איז דער ספֿר שווער.
+    translation: בהתחלה הספר קשה
+    answers:
+    - אָנהייב
+    options:
+    - אָנהייב
+    - יידיש
+    - זיידע
+    lexemes: *id009
+  - id: c1-test-09
+    type: translate
+    direction: to_source
+    prompt: ליבער זיידע!
+    answers:
+    - סבא יקר
+    lexemes: *id001
+  - id: c1-test-10
+    type: fill_blank
+    sentence: ___ זיידע!
+    translation: סבא יקר
+    answers:
+    - ליבער
+    options:
+    - ליבער
+    - צום
+    - ספֿר
+    lexemes: *id001
+  - id: c1-test-11
+    type: translate
+    direction: to_source
+    prompt: איך שרײַב דיר אַ בריוו.
+    answers:
+    - אני כותב לך מכתב
+    lexemes: *id002
+  - id: c1-test-12
+    type: fill_blank
+    sentence: איך ___ דיר אַ בריוו.
+    translation: אני כותב לך מכתב
+    answers:
+    - שרײַב
+    options:
+    - שרײַב
+    - דערציילן
+    - זיידע
+    lexemes: *id002
+  - id: c1-test-13
+    type: translate
+    direction: to_source
+    prompt: איך רעד אַ ביסל יידיש.
+    answers:
+    - אני מדבר מעט יידיש
+    lexemes: *id003
+  - id: c1-test-14
+    type: fill_blank
+    sentence: איך רעד אַ ___ יידיש.
+    translation: אני מדבר מעט יידיש
+    answers:
+    - ביסל
+    options:
+    - ביסל
+    - ער
+    - דערציילן
+    lexemes: *id003
+  - id: c1-test-15
+    type: translate
+    direction: to_source
+    prompt: איך פֿאַרשטיי אַלץ.
+    answers:
+    - אני מבין הכול
+    lexemes: *id004
+  - id: c1-test-16
+    type: translate
+    direction: to_source
+    prompt: איך שרײַב מיט ליבע.
+    answers:
+    - אני כותב באהבה
+    lexemes: *id005
+  - id: c1-test-17
+    type: translate
+    direction: to_target
+    prompt: אני רוצה לספר מה ראיתי
+    answers:
+    - איך וויל דערציילן וואָס איך האָב געזען
+    lexemes: *id006
+  - id: c1-test-18
+    type: translate
+    direction: to_target
+    prompt: בסוף שמענו ניגון
+    answers:
+    - צום סוף האָבן מיר געהערט אַ ניגון
+    lexemes: *id008
+  - id: c1-test-19
+    type: translate
+    direction: to_target
+    prompt: סבא יקר
+    answers:
+    - ליבער זיידע
+    lexemes: *id001
+  - id: c1-test-20
+    type: translate
+    direction: to_target
+    prompt: אני מדבר מעט יידיש
+    answers:
+    - איך רעד אַ ביסל יידיש
+    lexemes: *id003
+  - id: c1-test-21
+    type: translate
+    direction: to_target
+    prompt: אני כותב באהבה
+    answers:
+    - איך שרײַב מיט ליבע
+    lexemes: *id005
+  - id: c1-test-22
+    type: word_bank
+    prompt: למדנו ואחר כך התפללנו
+    answers:
+    - מיר האָבן געלערנט און דערנאָך געדאַוונט
+    distractors:
+    - ספֿר
+    - ניגון
+    lexemes: *id007
+  - id: c1-test-23
+    type: word_bank
+    prompt: בהתחלה הספר קשה
+    answers:
+    - אין אָנהייב איז דער ספֿר שווער
+    distractors:
+    - יידיש
+    - זיידע
+    lexemes: *id009
+  - id: c1-test-24
+    type: word_bank
+    prompt: אני כותב לך מכתב
+    answers:
+    - איך שרײַב דיר אַ בריוו
+    distractors:
+    - דערציילן
+    - זיידע
+    lexemes: *id002
+  - id: c1-test-25
+    type: word_bank
+    prompt: אני מבין הכול
+    answers:
+    - איך פֿאַרשטיי אַלץ
+    distractors:
+    - שרײַב
+    - האָט
+    lexemes: *id004
+  - id: c1-test-26
+    type: multiple_choice
+    prompt: מה פירוש 'דערנאָך'?
+    options:
+    - אחר כך
+    - בהתחלה
+    - בסוף
+    correct: 0
+    lexemes:
+    - dernokh
+  - id: c1-test-27
+    type: multiple_choice
+    prompt: מה פירוש 'ליבער'?
+    options:
+    - יקר
+    - קצר
+    - ארוך
+    correct: 0
+    lexemes:
+    - liber
+  - id: c1-test-28
+    type: multiple_choice
+    prompt: מה פירוש 'אַלץ'?
+    options:
+    - הכול
+    - מעט
+    - כלום
+    correct: 0
+    lexemes:
+    - alts

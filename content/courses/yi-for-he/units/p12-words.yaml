@@ -1,0 +1,894 @@
+id: p12-words
+cefr: B2
+scene: travel
+title:
+  he: 'הרחבת אוצר מילים 12: קניות, כיוונים ונסיעה'
+  en: 'Word builder 12: shopping, directions, travel'
+story: מילים שימושיות נוספות, כל אחת במשפט קצר.
+canDo:
+- להבין ולהשתמש במילים נפוצות נוספות
+- לזהות את המילים במשפטים
+vocabulary:
+- id: p12-geshseft
+  text: געשעפֿט
+  translation: חנות
+  pos: noun
+  example:
+    text: איך זע אַ געשעפֿט.
+    translation: אני רואה חנות
+- id: p12-prayz
+  text: פּרײַז
+  translation: מחיר
+  pos: noun
+  example:
+    text: איך זע אַ פּרײַז.
+    translation: אני רואה מחיר
+- id: p12-kuneh
+  text: קונה
+  translation: לקוח
+  pos: noun
+  example:
+    text: איך זע אַ קונה.
+    translation: אני רואה לקוח
+- id: p12-farkoyfn
+  text: פֿאַרקויפֿן
+  translation: למכור
+  pos: verb
+  example:
+    text: איך וויל פֿאַרקויפֿן.
+    translation: אני רוצה למכור
+- id: p12-batsaln
+  text: באַצאָלן
+  translation: לשלם
+  pos: verb
+  example:
+    text: איך וויל באַצאָלן.
+    translation: אני רוצה לשלם
+- id: p12-bank
+  text: באַנק
+  translation: בנק
+  pos: noun
+  example:
+    text: איך זע אַ באַנק.
+    translation: אני רואה בנק
+- id: p12-kase
+  text: קאַסע
+  translation: קופה
+  pos: noun
+  example:
+    text: איך זע אַ קאַסע.
+    translation: אני רואה קופה
+- id: p12-noent
+  text: נאָענט
+  translation: קרוב
+  pos: adjective
+  example:
+    text: דאָס איז נאָענט.
+    translation: זה קרוב
+- id: p12-vayt
+  text: ווײַט
+  translation: רחוק
+  pos: adjective
+  example:
+    text: דאָס איז ווײַט.
+    translation: זה רחוק
+- id: p12-links
+  text: לינקס
+  translation: שמאלה
+  pos: adverb
+  example:
+    text: איך גיי לינקס.
+    translation: אני הולך שמאלה
+- id: p12-rekhts
+  text: רעכטס
+  translation: ימינה
+  pos: adverb
+  example:
+    text: איך גיי רעכטס.
+    translation: אני הולך ימינה
+- id: p12-glaykh
+  text: גלײַך
+  translation: ישר
+  pos: adverb
+  example:
+    text: איך גיי גלײַך.
+    translation: אני הולך ישר
+- id: p12-vinkl
+  text: ווינקל
+  translation: פינה
+  pos: noun
+  example:
+    text: איך זע אַ ווינקל.
+    translation: אני רואה פינה
+- id: p12-bagazh
+  text: באַגאַזש
+  translation: מטען
+  pos: noun
+  example:
+    text: איך האָב באַגאַזש.
+    translation: יש לי מטען
+- id: p12-pas
+  text: פּאַס
+  translation: דרכון
+  pos: noun
+  example:
+    text: איך זע אַ פּאַס.
+    translation: אני רואה דרכון
+- id: p12-grenets
+  text: גרענעץ
+  translation: גבול
+  pos: noun
+  example:
+    text: איך זע אַ גרענעץ.
+    translation: אני רואה גבול
+- id: p12-land
+  text: לאַנד
+  translation: מדינה
+  pos: noun
+  example:
+    text: איך זע אַ לאַנד.
+    translation: אני רואה מדינה
+- id: p12-mape
+  text: מאַפּע
+  translation: מפה
+  pos: noun
+  example:
+    text: איך זע אַ מאַפּע.
+    translation: אני רואה מפה
+- id: p12-onkumen
+  text: אָנקומען
+  translation: להגיע
+  pos: verb
+  example:
+    text: איך וויל אָנקומען.
+    translation: אני רוצה להגיע
+- id: p12-opforn
+  text: אָפּפֿאָרן
+  translation: לצאת לדרך
+  pos: verb
+  example:
+    text: איך וויל אָפּפֿאָרן.
+    translation: אני רוצה לצאת לדרך
+- id: p12-araingeyn
+  text: אַרײַנגיין
+  translation: להיכנס
+  pos: verb
+  example:
+    text: איך וויל אַרײַנגיין.
+    translation: אני רוצה להיכנס
+- id: p12-aroysgeyn
+  text: אַרויסגיין
+  translation: לצאת
+  pos: verb
+  example:
+    text: איך וויל אַרויסגיין.
+    translation: אני רוצה לצאת
+- id: p12-aroifgeyn
+  text: אַרויפֿגיין
+  translation: לעלות
+  pos: verb
+  example:
+    text: איך וויל אַרויפֿגיין.
+    translation: אני רוצה לעלות
+- id: p12-aropgeyn
+  text: אַראָפּגיין
+  translation: לרדת
+  pos: verb
+  example:
+    text: איך וויל אַראָפּגיין.
+    translation: אני רוצה לרדת
+lessons:
+- id: p12-l1
+  kind: new
+  title:
+    he: חבילה 12 – חלק 1
+    en: Pack 12 – part 1
+  exercises:
+  - id: p12-l1-01
+    type: learn
+    lexeme: p12-geshseft
+  - id: p12-l1-02
+    type: learn
+    lexeme: p12-prayz
+  - id: p12-l1-03
+    type: learn
+    lexeme: p12-kuneh
+  - id: p12-l1-04
+    type: learn
+    lexeme: p12-farkoyfn
+  - id: p12-l1-05
+    type: learn
+    lexeme: p12-batsaln
+  - id: p12-l1-06
+    type: learn
+    lexeme: p12-bank
+  - id: p12-l1-07
+    type: learn
+    lexeme: p12-kase
+  - id: p12-l1-08
+    type: learn
+    lexeme: p12-noent
+  - id: p12-l1-09
+    type: match_pairs
+    pairs:
+    - - געשעפֿט
+      - חנות
+    - - פּרײַז
+      - מחיר
+    - - קונה
+      - לקוח
+    - - פֿאַרקויפֿן
+      - למכור
+    lexemes:
+    - p12-geshseft
+    - p12-prayz
+    - p12-kuneh
+    - p12-farkoyfn
+  - id: p12-l1-10
+    type: match_pairs
+    pairs:
+    - - באַצאָלן
+      - לשלם
+    - - באַנק
+      - בנק
+    - - קאַסע
+      - קופה
+    - - נאָענט
+      - קרוב
+    lexemes:
+    - p12-batsaln
+    - p12-bank
+    - p12-kase
+    - p12-noent
+  - id: p12-l1-11
+    type: multiple_choice
+    prompt: מה פירוש געשעפֿט?
+    options:
+    - חנות
+    - פינה
+    - מפה
+    correct: 0
+    lexemes:
+    - p12-geshseft
+  - id: p12-l1-12
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: מחיר?'
+    options:
+    - פּרײַז
+    - אַרויפֿגיין
+    - ווײַט
+    correct: 0
+    lexemes:
+    - p12-prayz
+  - id: p12-l1-13
+    type: multiple_choice
+    prompt: מה פירוש קונה?
+    options:
+    - לקוח
+    - לצאת לדרך
+    - גבול
+    correct: 0
+    lexemes:
+    - p12-kuneh
+  - id: p12-l1-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: למכור?'
+    options:
+    - פֿאַרקויפֿן
+    - אַרויסגיין
+    - אַראָפּגיין
+    correct: 0
+    lexemes:
+    - p12-farkoyfn
+  - id: p12-l1-15
+    type: multiple_choice
+    prompt: מה פירוש באַצאָלן?
+    options:
+    - לשלם
+    - מפה
+    - רחוק
+    correct: 0
+    lexemes:
+    - p12-batsaln
+  - id: p12-l1-16
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: בנק?'
+    options:
+    - באַנק
+    - לינקס
+    - גלײַך
+    correct: 0
+    lexemes:
+    - p12-bank
+  - id: p12-l1-17
+    type: multiple_choice
+    prompt: מה פירוש קאַסע?
+    options:
+    - קופה
+    - מדינה
+    - מפה
+    correct: 0
+    lexemes:
+    - p12-kase
+  - id: p12-l1-18
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: קרוב?'
+    options:
+    - נאָענט
+    - אַרויפֿגיין
+    - גרענעץ
+    correct: 0
+    lexemes:
+    - p12-noent
+  - id: p12-l1-19
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה חנות
+    answers:
+    - געשעפֿט
+    options:
+    - געשעפֿט
+    - לאַנד
+    - גרענעץ
+    lexemes:
+    - p12-geshseft
+  - id: p12-l1-20
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה מחיר
+    answers:
+    - פּרײַז
+    options:
+    - פּרײַז
+    - מאַפּע
+    - לאַנד
+    lexemes:
+    - p12-prayz
+  - id: p12-l1-21
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה לקוח
+    answers:
+    - קונה
+    options:
+    - קונה
+    - גרענעץ
+    - ווינקל
+    lexemes:
+    - p12-kuneh
+  - id: p12-l1-22
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה למכור
+    answers:
+    - פֿאַרקויפֿן
+    options:
+    - פֿאַרקויפֿן
+    - אָפּפֿאָרן
+    - אָנקומען
+    lexemes:
+    - p12-farkoyfn
+  - id: p12-l1-23
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה לשלם
+    answers:
+    - באַצאָלן
+    options:
+    - באַצאָלן
+    - אָפּפֿאָרן
+    - אַרויסגיין
+    lexemes:
+    - p12-batsaln
+  - id: p12-l1-24
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה בנק
+    answers:
+    - באַנק
+    options:
+    - באַנק
+    - גרענעץ
+    - ווינקל
+    lexemes:
+    - p12-bank
+  - id: p12-l1-25
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה קופה
+    answers:
+    - קאַסע
+    options:
+    - קאַסע
+    - פּאַס
+    - ווינקל
+    lexemes:
+    - p12-kase
+  - id: p12-l1-26
+    type: fill_blank
+    sentence: דאָס איז ___.
+    translation: זה קרוב
+    answers:
+    - נאָענט
+    options:
+    - נאָענט
+    - אַרײַנגיין
+    - אָפּפֿאָרן
+    lexemes:
+    - p12-noent
+- id: p12-l2
+  kind: new
+  title:
+    he: חבילה 12 – חלק 2
+    en: Pack 12 – part 2
+  exercises:
+  - id: p12-l2-01
+    type: learn
+    lexeme: p12-vayt
+  - id: p12-l2-02
+    type: learn
+    lexeme: p12-links
+  - id: p12-l2-03
+    type: learn
+    lexeme: p12-rekhts
+  - id: p12-l2-04
+    type: learn
+    lexeme: p12-glaykh
+  - id: p12-l2-05
+    type: learn
+    lexeme: p12-vinkl
+  - id: p12-l2-06
+    type: learn
+    lexeme: p12-bagazh
+  - id: p12-l2-07
+    type: learn
+    lexeme: p12-pas
+  - id: p12-l2-08
+    type: learn
+    lexeme: p12-grenets
+  - id: p12-l2-09
+    type: match_pairs
+    pairs:
+    - - ווײַט
+      - רחוק
+    - - לינקס
+      - שמאלה
+    - - רעכטס
+      - ימינה
+    - - גלײַך
+      - ישר
+    lexemes:
+    - p12-vayt
+    - p12-links
+    - p12-rekhts
+    - p12-glaykh
+  - id: p12-l2-10
+    type: match_pairs
+    pairs:
+    - - ווינקל
+      - פינה
+    - - באַגאַזש
+      - מטען
+    - - פּאַס
+      - דרכון
+    - - גרענעץ
+      - גבול
+    lexemes:
+    - p12-vinkl
+    - p12-bagazh
+    - p12-pas
+    - p12-grenets
+  - id: p12-l2-11
+    type: multiple_choice
+    prompt: מה פירוש ווײַט?
+    options:
+    - רחוק
+    - קופה
+    - מחיר
+    correct: 0
+    lexemes:
+    - p12-vayt
+  - id: p12-l2-12
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: שמאלה?'
+    options:
+    - לינקס
+    - געשעפֿט
+    - מאַפּע
+    correct: 0
+    lexemes:
+    - p12-links
+  - id: p12-l2-13
+    type: multiple_choice
+    prompt: מה פירוש רעכטס?
+    options:
+    - ימינה
+    - לצאת
+    - לשלם
+    correct: 0
+    lexemes:
+    - p12-rekhts
+  - id: p12-l2-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: ישר?'
+    options:
+    - גלײַך
+    - פֿאַרקויפֿן
+    - אַרײַנגיין
+    correct: 0
+    lexemes:
+    - p12-glaykh
+  - id: p12-l2-15
+    type: multiple_choice
+    prompt: מה פירוש ווינקל?
+    options:
+    - פינה
+    - לקוח
+    - מחיר
+    correct: 0
+    lexemes:
+    - p12-vinkl
+  - id: p12-l2-16
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: מטען?'
+    options:
+    - באַגאַזש
+    - באַצאָלן
+    - געשעפֿט
+    correct: 0
+    lexemes:
+    - p12-bagazh
+  - id: p12-l2-17
+    type: multiple_choice
+    prompt: מה פירוש פּאַס?
+    options:
+    - דרכון
+    - לעלות
+    - בנק
+    correct: 0
+    lexemes:
+    - p12-pas
+  - id: p12-l2-18
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: גבול?'
+    options:
+    - גרענעץ
+    - קונה
+    - קאַסע
+    correct: 0
+    lexemes:
+    - p12-grenets
+  - id: p12-l2-19
+    type: fill_blank
+    sentence: דאָס איז ___.
+    translation: זה רחוק
+    answers:
+    - ווײַט
+    options:
+    - ווײַט
+    - לאַנד
+    - אַראָפּגיין
+    lexemes:
+    - p12-vayt
+  - id: p12-l2-20
+    type: fill_blank
+    sentence: איך גיי ___.
+    translation: אני הולך שמאלה
+    answers:
+    - לינקס
+    options:
+    - לינקס
+    - פּרײַז
+    - באַצאָלן
+    lexemes:
+    - p12-links
+  - id: p12-l2-21
+    type: fill_blank
+    sentence: איך גיי ___.
+    translation: אני הולך ימינה
+    answers:
+    - רעכטס
+    options:
+    - רעכטס
+    - אָפּפֿאָרן
+    - אַרײַנגיין
+    lexemes:
+    - p12-rekhts
+  - id: p12-l2-22
+    type: fill_blank
+    sentence: איך גיי ___.
+    translation: אני הולך ישר
+    answers:
+    - גלײַך
+    options:
+    - גלײַך
+    - נאָענט
+    - פֿאַרקויפֿן
+    lexemes:
+    - p12-glaykh
+  - id: p12-l2-23
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה פינה
+    answers:
+    - ווינקל
+    options:
+    - ווינקל
+    - מאַפּע
+    - געשעפֿט
+    lexemes:
+    - p12-vinkl
+  - id: p12-l2-24
+    type: fill_blank
+    sentence: איך האָב ___.
+    translation: יש לי מטען
+    answers:
+    - באַגאַזש
+    options:
+    - באַגאַזש
+    - געשעפֿט
+    - קאַסע
+    lexemes:
+    - p12-bagazh
+  - id: p12-l2-25
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה דרכון
+    answers:
+    - פּאַס
+    options:
+    - פּאַס
+    - מאַפּע
+    - געשעפֿט
+    lexemes:
+    - p12-pas
+  - id: p12-l2-26
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה גבול
+    answers:
+    - גרענעץ
+    options:
+    - גרענעץ
+    - געשעפֿט
+    - מאַפּע
+    lexemes:
+    - p12-grenets
+- id: p12-l3
+  kind: new
+  title:
+    he: חבילה 12 – חלק 3
+    en: Pack 12 – part 3
+  exercises:
+  - id: p12-l3-01
+    type: learn
+    lexeme: p12-land
+  - id: p12-l3-02
+    type: learn
+    lexeme: p12-mape
+  - id: p12-l3-03
+    type: learn
+    lexeme: p12-onkumen
+  - id: p12-l3-04
+    type: learn
+    lexeme: p12-opforn
+  - id: p12-l3-05
+    type: learn
+    lexeme: p12-araingeyn
+  - id: p12-l3-06
+    type: learn
+    lexeme: p12-aroysgeyn
+  - id: p12-l3-07
+    type: learn
+    lexeme: p12-aroifgeyn
+  - id: p12-l3-08
+    type: learn
+    lexeme: p12-aropgeyn
+  - id: p12-l3-09
+    type: match_pairs
+    pairs:
+    - - לאַנד
+      - מדינה
+    - - מאַפּע
+      - מפה
+    - - אָנקומען
+      - להגיע
+    - - אָפּפֿאָרן
+      - לצאת לדרך
+    lexemes:
+    - p12-land
+    - p12-mape
+    - p12-onkumen
+    - p12-opforn
+  - id: p12-l3-10
+    type: match_pairs
+    pairs:
+    - - אַרײַנגיין
+      - להיכנס
+    - - אַרויסגיין
+      - לצאת
+    - - אַרויפֿגיין
+      - לעלות
+    - - אַראָפּגיין
+      - לרדת
+    lexemes:
+    - p12-araingeyn
+    - p12-aroysgeyn
+    - p12-aroifgeyn
+    - p12-aropgeyn
+  - id: p12-l3-11
+    type: multiple_choice
+    prompt: מה פירוש לאַנד?
+    options:
+    - מדינה
+    - שמאלה
+    - מטען
+    correct: 0
+    lexemes:
+    - p12-land
+  - id: p12-l3-12
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: מפה?'
+    options:
+    - מאַפּע
+    - פּאַס
+    - געשעפֿט
+    correct: 0
+    lexemes:
+    - p12-mape
+  - id: p12-l3-13
+    type: multiple_choice
+    prompt: מה פירוש אָנקומען?
+    options:
+    - להגיע
+    - לקוח
+    - למכור
+    correct: 0
+    lexemes:
+    - p12-onkumen
+  - id: p12-l3-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: לצאת לדרך?'
+    options:
+    - אָפּפֿאָרן
+    - ווײַט
+    - קונה
+    correct: 0
+    lexemes:
+    - p12-opforn
+  - id: p12-l3-15
+    type: multiple_choice
+    prompt: מה פירוש אַרײַנגיין?
+    options:
+    - להיכנס
+    - קרוב
+    - פינה
+    correct: 0
+    lexemes:
+    - p12-araingeyn
+  - id: p12-l3-16
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: לצאת?'
+    options:
+    - אַרויסגיין
+    - באַנק
+    - ווײַט
+    correct: 0
+    lexemes:
+    - p12-aroysgeyn
+  - id: p12-l3-17
+    type: multiple_choice
+    prompt: מה פירוש אַרויפֿגיין?
+    options:
+    - לעלות
+    - ישר
+    - לשלם
+    correct: 0
+    lexemes:
+    - p12-aroifgeyn
+  - id: p12-l3-18
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: לרדת?'
+    options:
+    - אַראָפּגיין
+    - באַנק
+    - באַגאַזש
+    correct: 0
+    lexemes:
+    - p12-aropgeyn
+  - id: p12-l3-19
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה מדינה
+    answers:
+    - לאַנד
+    options:
+    - לאַנד
+    - באַנק
+    - פּאַס
+    lexemes:
+    - p12-land
+  - id: p12-l3-20
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה מפה
+    answers:
+    - מאַפּע
+    options:
+    - מאַפּע
+    - באַנק
+    - פּאַס
+    lexemes:
+    - p12-mape
+  - id: p12-l3-21
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה להגיע
+    answers:
+    - אָנקומען
+    options:
+    - אָנקומען
+    - באַצאָלן
+    - פֿאַרקויפֿן
+    lexemes:
+    - p12-onkumen
+  - id: p12-l3-22
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה לצאת לדרך
+    answers:
+    - אָפּפֿאָרן
+    options:
+    - אָפּפֿאָרן
+    - באַצאָלן
+    - פֿאַרקויפֿן
+    lexemes:
+    - p12-opforn
+  - id: p12-l3-23
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה להיכנס
+    answers:
+    - אַרײַנגיין
+    options:
+    - אַרײַנגיין
+    - באַצאָלן
+    - פֿאַרקויפֿן
+    lexemes:
+    - p12-araingeyn
+  - id: p12-l3-24
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה לצאת
+    answers:
+    - אַרויסגיין
+    options:
+    - אַרויסגיין
+    - פֿאַרקויפֿן
+    - באַצאָלן
+    lexemes:
+    - p12-aroysgeyn
+  - id: p12-l3-25
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה לעלות
+    answers:
+    - אַרויפֿגיין
+    options:
+    - אַרויפֿגיין
+    - פֿאַרקויפֿן
+    - באַצאָלן
+    lexemes:
+    - p12-aroifgeyn
+  - id: p12-l3-26
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה לרדת
+    answers:
+    - אַראָפּגיין
+    options:
+    - אַראָפּגיין
+    - פֿאַרקויפֿן
+    - באַצאָלן
+    lexemes:
+    - p12-aropgeyn

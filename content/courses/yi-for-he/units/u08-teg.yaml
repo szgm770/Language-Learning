@@ -1,0 +1,505 @@
+id: u08-teg
+cefr: A1
+scene: day
+title:
+  he: ימי השבוע
+  en: Days of the week
+story: 'יום שישי בכפר חב״ד: כל המשפחה מתכוננת לשבת, ומנחם לומד את שמות הימים.'
+canDo:
+- לומר את ימות השבוע
+- לשאול ולענות מה היום
+- לומר היום, אתמול ושבוע
+vocabulary:
+- id: zuntik
+  text: זונטיק
+  translation: יום ראשון
+  pos: noun
+- id: montik
+  text: מאָנטיק
+  translation: יום שני
+  pos: noun
+- id: dinstik
+  text: דינסטיק
+  translation: יום שלישי
+  pos: noun
+- id: mitvokh
+  text: מיטוואָך
+  translation: יום רביעי
+  pos: noun
+- id: donershtik
+  text: דאָנערשטיק
+  translation: יום חמישי
+  pos: noun
+- id: fraytik
+  text: פֿרײַטיק
+  translation: יום שישי
+  pos: noun
+- id: haynt
+  text: הײַנט
+  translation: היום
+  pos: adverb
+- id: nekhtn
+  text: נעכטן
+  translation: אתמול
+  pos: adverb
+- id: vokh
+  text: וואָך
+  translation: שבוע
+  pos: noun
+- id: nisht
+  text: נישט
+  translation: לא
+  pos: adverb
+lessons:
+- id: u08-l1
+  kind: new
+  title:
+    he: ימות השבוע
+    en: Lesson
+  exercises:
+  - id: u08-l1-01
+    type: tip
+    title: הימים
+    text: '**זונטיק, מאָנטיק, דינסטיק, מיטוואָך, דאָנערשטיק, פֿרײַטיק** ואז **שבת**.
+
+      **הײַנט** (היום), **נעכטן** (אתמול).
+
+      **נישט** פירושו "לא": **הײַנט איז נישט שבת**.
+
+      '
+  - id: u08-l1-02
+    type: learn
+    lexeme: zuntik
+  - id: u08-l1-03
+    type: learn
+    lexeme: montik
+  - id: u08-l1-04
+    type: learn
+    lexeme: dinstik
+  - id: u08-l1-05
+    type: learn
+    lexeme: mitvokh
+  - id: u08-l1-06
+    type: learn
+    lexeme: donershtik
+  - id: u08-l1-07
+    type: learn
+    lexeme: fraytik
+  - id: u08-l1-08
+    type: learn
+    lexeme: haynt
+  - id: u08-l1-09
+    type: match_pairs
+    pairs:
+    - - זונטיק
+      - יום ראשון
+    - - מאָנטיק
+      - יום שני
+    - - דינסטיק
+      - יום שלישי
+    - - מיטוואָך
+      - יום רביעי
+    - - דאָנערשטיק
+      - יום חמישי
+    - - פֿרײַטיק
+      - יום שישי
+    lexemes:
+    - zuntik
+    - montik
+    - dinstik
+    - mitvokh
+    - donershtik
+    - fraytik
+  - id: u08-l1-10
+    type: multiple_choice
+    prompt: מה פירוש זונטיק?
+    options:
+    - יום ראשון
+    - יום שני
+    - יום שלישי
+    correct: 0
+    lexemes:
+    - zuntik
+  - id: u08-l1-11
+    type: multiple_choice
+    prompt: מה פירוש מאָנטיק?
+    options:
+    - יום שני
+    - יום ראשון
+    - יום שלישי
+    correct: 0
+    lexemes:
+    - montik
+  - id: u08-l1-12
+    type: multiple_choice
+    prompt: מה פירוש דינסטיק?
+    options:
+    - יום שלישי
+    - יום ראשון
+    - יום שני
+    correct: 0
+    lexemes:
+    - dinstik
+  - id: u08-l1-13
+    type: multiple_choice
+    prompt: מה פירוש מיטוואָך?
+    options:
+    - יום רביעי
+    - יום ראשון
+    - יום שני
+    correct: 0
+    lexemes:
+    - mitvokh
+  - id: u08-l1-14
+    type: multiple_choice
+    prompt: מה פירוש דאָנערשטיק?
+    options:
+    - יום חמישי
+    - יום ראשון
+    - יום שני
+    correct: 0
+    lexemes:
+    - donershtik
+  - id: u08-l1-15
+    type: translate
+    direction: to_source
+    prompt: הײַנט איז זונטיק.
+    answers:
+    - היום יום ראשון
+    lexemes: &id001
+    - haynt
+    - iz
+    - zuntik
+  - id: u08-l1-16
+    type: translate
+    direction: to_target
+    prompt: היום יום ראשון
+    answers:
+    - הײַנט איז זונטיק
+    lexemes: *id001
+  - id: u08-l1-17
+    type: word_bank
+    prompt: היום יום ראשון
+    answers:
+    - הײַנט איז זונטיק
+    distractors:
+    - מיטוואָך
+    - דאָנערשטיק
+    lexemes: *id001
+  - id: u08-l1-18
+    type: translate
+    direction: to_source
+    prompt: הײַנט איז פֿרײַטיק.
+    answers:
+    - היום יום שישי
+    lexemes: &id002
+    - haynt
+    - iz
+    - fraytik
+  - id: u08-l1-19
+    type: translate
+    direction: to_target
+    prompt: היום יום שישי
+    answers:
+    - הײַנט איז פֿרײַטיק
+    lexemes: *id002
+  - id: u08-l1-20
+    type: word_bank
+    prompt: היום יום שישי
+    answers:
+    - הײַנט איז פֿרײַטיק
+    distractors:
+    - דינסטיק
+    - פֿרײַטיק
+    lexemes: *id002
+- id: u08-l2
+  kind: new
+  title:
+    he: היום ואתמול
+    en: Lesson
+  exercises:
+  - id: u08-l2-01
+    type: learn
+    lexeme: haynt
+  - id: u08-l2-02
+    type: learn
+    lexeme: nekhtn
+  - id: u08-l2-03
+    type: learn
+    lexeme: vokh
+  - id: u08-l2-04
+    type: learn
+    lexeme: nisht
+  - id: u08-l2-05
+    type: dialogue
+    scene: home
+    lines:
+    - speaker: bobe
+      text: וואָס איז הײַנט?
+      translation: מה היום?
+    - speaker: menachem
+      text: הײַנט איז פֿרײַטיק.
+      translation: היום יום שישי.
+    - speaker: bobe
+      text: גוט, באַלד איז שבת.
+      translation: טוב, אנחנו מתכוננים לשבת.
+  - id: u08-l2-06
+    type: match_pairs
+    pairs:
+    - - הײַנט
+      - היום
+    - - נעכטן
+      - אתמול
+    - - וואָך
+      - שבוע
+    - - נישט
+      - לא
+    lexemes:
+    - haynt
+    - nekhtn
+    - vokh
+    - nisht
+  - id: u08-l2-07
+    type: multiple_choice
+    prompt: מה פירוש הײַנט?
+    options:
+    - היום
+    - אתמול
+    - לא
+    correct: 0
+    lexemes:
+    - haynt
+  - id: u08-l2-08
+    type: multiple_choice
+    prompt: מה פירוש נעכטן?
+    options:
+    - אתמול
+    - היום
+    - לא
+    correct: 0
+    lexemes:
+    - nekhtn
+  - id: u08-l2-09
+    type: multiple_choice
+    prompt: מה פירוש וואָך?
+    options:
+    - שבוע
+    - יום ראשון
+    - יום שני
+    correct: 0
+    lexemes:
+    - vokh
+  - id: u08-l2-10
+    type: multiple_choice
+    prompt: מה פירוש נישט?
+    options:
+    - לא
+    - היום
+    - אתמול
+    correct: 0
+    lexemes:
+    - nisht
+  - id: u08-l2-11
+    type: translate
+    direction: to_source
+    prompt: הײַנט איז נישט שבת.
+    answers:
+    - היום אין שבת
+    - היום לא שבת
+    lexemes: &id003
+    - haynt
+    - iz
+    - nisht
+    - shabes
+  - id: u08-l2-12
+    type: translate
+    direction: to_target
+    prompt: היום אין שבת
+    answers:
+    - הײַנט איז נישט שבת
+    lexemes: *id003
+  - id: u08-l2-13
+    type: word_bank
+    prompt: היום אין שבת
+    answers:
+    - הײַנט איז נישט שבת
+    distractors:
+    - מיטוואָך
+    - זונטיק
+    lexemes: *id003
+  - id: u08-l2-14
+    type: fill_blank
+    sentence: הײַנט איז ___ שבת.
+    translation: היום אין שבת
+    answers:
+    - נישט
+    options:
+    - נישט
+    - וואָך
+    - פֿרײַטיק
+    lexemes: *id003
+  - id: u08-l2-15
+    type: translate
+    direction: to_source
+    prompt: נעכטן איז דינסטיק.
+    answers:
+    - אתמול היה יום שלישי
+    - אתמול יום שלישי
+    lexemes: &id004
+    - nekhtn
+    - iz
+    - dinstik
+  - id: u08-l2-16
+    type: translate
+    direction: to_target
+    prompt: אתמול היה יום שלישי
+    answers:
+    - נעכטן איז דינסטיק
+    lexemes: *id004
+  - id: u08-l2-17
+    type: word_bank
+    prompt: אתמול היה יום שלישי
+    answers:
+    - נעכטן איז דינסטיק
+    distractors:
+    - זונטיק
+    - דאָנערשטיק
+    lexemes: *id004
+- id: u08-review
+  kind: review
+  title:
+    he: 'חזרה: ימי השבוע'
+    en: Review
+  exercises:
+  - id: u08-review-01
+    type: match_pairs
+    pairs:
+    - - זונטיק
+      - יום ראשון
+    - - מאָנטיק
+      - יום שני
+    - - דינסטיק
+      - יום שלישי
+    - - מיטוואָך
+      - יום רביעי
+    - - דאָנערשטיק
+      - יום חמישי
+    - - פֿרײַטיק
+      - יום שישי
+    lexemes:
+    - zuntik
+    - montik
+    - dinstik
+    - mitvokh
+    - donershtik
+    - fraytik
+  - id: u08-review-02
+    type: match_pairs
+    pairs:
+    - - הײַנט
+      - היום
+    - - נעכטן
+      - אתמול
+    - - וואָך
+      - שבוע
+    - - נישט
+      - לא
+    lexemes:
+    - haynt
+    - nekhtn
+    - vokh
+    - nisht
+  - id: u08-review-03
+    type: translate
+    direction: to_source
+    prompt: הײַנט איז זונטיק.
+    answers:
+    - היום יום ראשון
+    lexemes: *id001
+  - id: u08-review-04
+    type: translate
+    direction: to_target
+    prompt: היום יום ראשון
+    answers:
+    - הײַנט איז זונטיק
+    lexemes: *id001
+  - id: u08-review-05
+    type: word_bank
+    prompt: היום יום ראשון
+    answers:
+    - הײַנט איז זונטיק
+    distractors:
+    - מיטוואָך
+    - דאָנערשטיק
+    lexemes: *id001
+  - id: u08-review-06
+    type: translate
+    direction: to_source
+    prompt: הײַנט איז פֿרײַטיק.
+    answers:
+    - היום יום שישי
+    lexemes: *id002
+  - id: u08-review-07
+    type: translate
+    direction: to_target
+    prompt: היום יום שישי
+    answers:
+    - הײַנט איז פֿרײַטיק
+    lexemes: *id002
+  - id: u08-review-08
+    type: word_bank
+    prompt: היום יום שישי
+    answers:
+    - הײַנט איז פֿרײַטיק
+    distractors:
+    - דינסטיק
+    - פֿרײַטיק
+    lexemes: *id002
+  - id: u08-review-09
+    type: translate
+    direction: to_source
+    prompt: הײַנט איז נישט שבת.
+    answers:
+    - היום אין שבת
+    - היום לא שבת
+    lexemes: *id003
+  - id: u08-review-10
+    type: translate
+    direction: to_target
+    prompt: היום אין שבת
+    answers:
+    - הײַנט איז נישט שבת
+    lexemes: *id003
+  - id: u08-review-11
+    type: word_bank
+    prompt: היום אין שבת
+    answers:
+    - הײַנט איז נישט שבת
+    distractors:
+    - מיטוואָך
+    - זונטיק
+    lexemes: *id003
+  - id: u08-review-12
+    type: translate
+    direction: to_source
+    prompt: נעכטן איז דינסטיק.
+    answers:
+    - אתמול היה יום שלישי
+    - אתמול יום שלישי
+    lexemes: *id004
+  - id: u08-review-13
+    type: translate
+    direction: to_target
+    prompt: אתמול היה יום שלישי
+    answers:
+    - נעכטן איז דינסטיק
+    lexemes: *id004
+  - id: u08-review-14
+    type: word_bank
+    prompt: אתמול היה יום שלישי
+    answers:
+    - נעכטן איז דינסטיק
+    distractors:
+    - זונטיק
+    - דאָנערשטיק
+    lexemes: *id004

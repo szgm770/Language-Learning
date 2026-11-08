@@ -1,0 +1,1034 @@
+id: p4-words
+cefr: B1
+scene: nature
+title:
+  he: 'הרחבת אוצר מילים 4: טבע ועונות'
+  en: 'Word builder 4: nature and seasons'
+story: מילים שימושיות נוספות, כל אחת במשפט קצר.
+canDo:
+- להבין ולהשתמש במילים נפוצות נוספות
+- לזהות את המילים במשפטים
+vocabulary:
+- id: p4-levone
+  text: לבנה
+  translation: ירח
+  pos: noun
+  example:
+    text: איך זע אַ לבנה.
+    translation: אני רואה ירח
+- id: p4-shtern2
+  text: שטערן
+  translation: כוכב
+  pos: noun
+  example:
+    text: איך זע אַ שטערן.
+    translation: אני רואה כוכב
+- id: p4-himl
+  text: הימל
+  translation: שמיים
+  pos: noun
+  example:
+    text: איך זע אַ הימל.
+    translation: אני רואה שמיים
+- id: p4-yam
+  text: ים
+  translation: הים הגדול
+  pos: noun
+  example:
+    text: איך זע אַ ים.
+    translation: אני רואה הים הגדול
+- id: p4-berg
+  text: בערג
+  translation: הר
+  pos: noun
+  example:
+    text: איך זע אַ בערג.
+    translation: אני רואה הר
+- id: p4-vald
+  text: וואַלד
+  translation: יער
+  pos: noun
+  example:
+    text: איך זע אַ וואַלד.
+    translation: אני רואה יער
+- id: p4-boym
+  text: בוים
+  translation: עץ
+  pos: noun
+  example:
+    text: איך זע אַ בוים.
+    translation: אני רואה עץ
+- id: p4-blum
+  text: בלום
+  translation: פרח
+  pos: noun
+  example:
+    text: איך זע אַ בלום.
+    translation: אני רואה פרח
+- id: p4-groz
+  text: גראָז
+  translation: דשא
+  pos: noun
+  example:
+    text: איך זע גראָז.
+    translation: אני רואה דשא
+- id: p4-foygl
+  text: פֿויגל
+  translation: ציפור
+  pos: noun
+  example:
+    text: איך זע אַ פֿויגל.
+    translation: אני רואה ציפור
+- id: p4-hunt
+  text: הונט
+  translation: כלב
+  pos: noun
+  example:
+    text: איך זע אַ הונט.
+    translation: אני רואה כלב
+- id: p4-kats
+  text: קאַץ
+  translation: חתול
+  pos: noun
+  example:
+    text: איך זע אַ קאַץ.
+    translation: אני רואה חתול
+- id: p4-ferd
+  text: פֿערד
+  translation: סוס
+  pos: noun
+  example:
+    text: איך זע אַ פֿערד.
+    translation: אני רואה סוס
+- id: p4-ku
+  text: קו
+  translation: פרה
+  pos: noun
+  example:
+    text: איך זע אַ קו.
+    translation: אני רואה פרה
+- id: p4-shney
+  text: שנײַ
+  translation: שלג
+  pos: noun
+  example:
+    text: איך זע שנײַ.
+    translation: אני רואה שלג
+- id: p4-vint
+  text: ווינט
+  translation: רוח
+  pos: noun
+  example:
+    text: איך זע אַ ווינט.
+    translation: אני רואה רוח
+- id: p4-volkn
+  text: וואָלקן
+  translation: ענן
+  pos: noun
+  example:
+    text: איך זע אַ וואָלקן.
+    translation: אני רואה ענן
+- id: p4-shteyn
+  text: שטיין
+  translation: אבן
+  pos: noun
+  example:
+    text: איך זע אַ שטיין.
+    translation: אני רואה אבן
+- id: p4-taykh
+  text: טײַך
+  translation: נהר
+  pos: noun
+  example:
+    text: איך זע אַ טײַך.
+    translation: אני רואה נהר
+- id: p4-feld
+  text: פֿעלד
+  translation: שדה
+  pos: noun
+  example:
+    text: איך זע אַ פֿעלד.
+    translation: אני רואה שדה
+- id: p4-erd
+  text: ערד
+  translation: אדמה
+  pos: noun
+  example:
+    text: איך זע ערד.
+    translation: אני רואה אדמה
+- id: p4-fayer
+  text: פֿײַער
+  translation: אש
+  pos: noun
+  example:
+    text: איך זע אַ פֿײַער.
+    translation: אני רואה אש
+- id: p4-shof
+  text: שאָף
+  translation: כבשה
+  pos: noun
+  example:
+    text: איך זע אַ שאָף.
+    translation: אני רואה כבשה
+- id: p4-moyz
+  text: מויז
+  translation: עכבר
+  pos: noun
+  example:
+    text: איך זע אַ מויז.
+    translation: אני רואה עכבר
+- id: p4-zumer
+  text: זומער
+  translation: קיץ
+  pos: noun
+  example:
+    text: איך האָב ליב דעם זומער.
+    translation: אני אוהב את הקיץ
+- id: p4-vinter
+  text: ווינטער
+  translation: חורף
+  pos: noun
+  example:
+    text: איך האָב ליב דעם ווינטער.
+    translation: אני אוהב את החורף
+- id: p4-friling
+  text: פֿרילינג
+  translation: אביב
+  pos: noun
+  example:
+    text: איך האָב ליב דעם פֿרילינג.
+    translation: אני אוהב את האביב
+- id: p4-harbst
+  text: האַרבסט
+  translation: סתיו
+  pos: noun
+  example:
+    text: איך האָב ליב דעם האַרבסט.
+    translation: אני אוהב את הסתיו
+lessons:
+- id: p4-l1
+  kind: new
+  title:
+    he: חבילה 4 – חלק 1
+    en: Pack 4 – part 1
+  exercises:
+  - id: p4-l1-01
+    type: learn
+    lexeme: p4-levone
+  - id: p4-l1-02
+    type: learn
+    lexeme: p4-shtern2
+  - id: p4-l1-03
+    type: learn
+    lexeme: p4-himl
+  - id: p4-l1-04
+    type: learn
+    lexeme: p4-yam
+  - id: p4-l1-05
+    type: learn
+    lexeme: p4-berg
+  - id: p4-l1-06
+    type: learn
+    lexeme: p4-vald
+  - id: p4-l1-07
+    type: learn
+    lexeme: p4-boym
+  - id: p4-l1-08
+    type: learn
+    lexeme: p4-blum
+  - id: p4-l1-09
+    type: learn
+    lexeme: p4-groz
+  - id: p4-l1-10
+    type: match_pairs
+    pairs:
+    - - לבנה
+      - ירח
+    - - שטערן
+      - כוכב
+    - - הימל
+      - שמיים
+    - - ים
+      - הים הגדול
+    lexemes:
+    - p4-levone
+    - p4-shtern2
+    - p4-himl
+    - p4-yam
+  - id: p4-l1-11
+    type: match_pairs
+    pairs:
+    - - בערג
+      - הר
+    - - וואַלד
+      - יער
+    - - בוים
+      - עץ
+    - - בלום
+      - פרח
+    - - גראָז
+      - דשא
+    lexemes:
+    - p4-berg
+    - p4-vald
+    - p4-boym
+    - p4-blum
+    - p4-groz
+  - id: p4-l1-12
+    type: multiple_choice
+    prompt: מה פירוש לבנה?
+    options:
+    - ירח
+    - עכבר
+    - נהר
+    correct: 0
+    lexemes:
+    - p4-levone
+  - id: p4-l1-13
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: כוכב?'
+    options:
+    - שטערן
+    - ווינט
+    - שאָף
+    correct: 0
+    lexemes:
+    - p4-shtern2
+  - id: p4-l1-14
+    type: multiple_choice
+    prompt: מה פירוש הימל?
+    options:
+    - שמיים
+    - סתיו
+    - ציפור
+    correct: 0
+    lexemes:
+    - p4-himl
+  - id: p4-l1-15
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: הים הגדול?'
+    options:
+    - ים
+    - ווינטער
+    - מויז
+    correct: 0
+    lexemes:
+    - p4-yam
+  - id: p4-l1-16
+    type: multiple_choice
+    prompt: מה פירוש בערג?
+    options:
+    - הר
+    - ציפור
+    - רוח
+    correct: 0
+    lexemes:
+    - p4-berg
+  - id: p4-l1-17
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: יער?'
+    options:
+    - וואַלד
+    - מויז
+    - ווינט
+    correct: 0
+    lexemes:
+    - p4-vald
+  - id: p4-l1-18
+    type: multiple_choice
+    prompt: מה פירוש בוים?
+    options:
+    - עץ
+    - כלב
+    - אש
+    correct: 0
+    lexemes:
+    - p4-boym
+  - id: p4-l1-19
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: פרח?'
+    options:
+    - בלום
+    - קו
+    - שנײַ
+    correct: 0
+    lexemes:
+    - p4-blum
+  - id: p4-l1-20
+    type: multiple_choice
+    prompt: מה פירוש גראָז?
+    options:
+    - דשא
+    - ענן
+    - סתיו
+    correct: 0
+    lexemes:
+    - p4-groz
+  - id: p4-l1-21
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה ירח
+    answers:
+    - לבנה
+    options:
+    - לבנה
+    - שאָף
+    - וואָלקן
+    lexemes:
+    - p4-levone
+  - id: p4-l1-22
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה כוכב
+    answers:
+    - שטערן
+    options:
+    - שטערן
+    - מויז
+    - פֿערד
+    lexemes:
+    - p4-shtern2
+  - id: p4-l1-23
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה שמיים
+    answers:
+    - הימל
+    options:
+    - הימל
+    - הונט
+    - וואָלקן
+    lexemes:
+    - p4-himl
+  - id: p4-l1-24
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה הים הגדול
+    answers:
+    - ים
+    options:
+    - ים
+    - קו
+    - פֿויגל
+    lexemes:
+    - p4-yam
+  - id: p4-l1-25
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה הר
+    answers:
+    - בערג
+    options:
+    - בערג
+    - פֿערד
+    - וואָלקן
+    lexemes:
+    - p4-berg
+  - id: p4-l1-26
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה יער
+    answers:
+    - וואַלד
+    options:
+    - וואַלד
+    - וואָלקן
+    - פֿעלד
+    lexemes:
+    - p4-vald
+  - id: p4-l1-27
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה עץ
+    answers:
+    - בוים
+    options:
+    - בוים
+    - פֿערד
+    - שטיין
+    lexemes:
+    - p4-boym
+  - id: p4-l1-28
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה פרח
+    answers:
+    - בלום
+    options:
+    - בלום
+    - קו
+    - שאָף
+    lexemes:
+    - p4-blum
+  - id: p4-l1-29
+    type: fill_blank
+    sentence: איך זע ___.
+    translation: אני רואה דשא
+    answers:
+    - גראָז
+    options:
+    - גראָז
+    - שנײַ
+    - ערד
+    lexemes:
+    - p4-groz
+- id: p4-l2
+  kind: new
+  title:
+    he: חבילה 4 – חלק 2
+    en: Pack 4 – part 2
+  exercises:
+  - id: p4-l2-01
+    type: learn
+    lexeme: p4-foygl
+  - id: p4-l2-02
+    type: learn
+    lexeme: p4-hunt
+  - id: p4-l2-03
+    type: learn
+    lexeme: p4-kats
+  - id: p4-l2-04
+    type: learn
+    lexeme: p4-ferd
+  - id: p4-l2-05
+    type: learn
+    lexeme: p4-ku
+  - id: p4-l2-06
+    type: learn
+    lexeme: p4-shney
+  - id: p4-l2-07
+    type: learn
+    lexeme: p4-vint
+  - id: p4-l2-08
+    type: learn
+    lexeme: p4-volkn
+  - id: p4-l2-09
+    type: learn
+    lexeme: p4-shteyn
+  - id: p4-l2-10
+    type: match_pairs
+    pairs:
+    - - פֿויגל
+      - ציפור
+    - - הונט
+      - כלב
+    - - קאַץ
+      - חתול
+    - - פֿערד
+      - סוס
+    lexemes:
+    - p4-foygl
+    - p4-hunt
+    - p4-kats
+    - p4-ferd
+  - id: p4-l2-11
+    type: match_pairs
+    pairs:
+    - - קו
+      - פרה
+    - - שנײַ
+      - שלג
+    - - ווינט
+      - רוח
+    - - וואָלקן
+      - ענן
+    - - שטיין
+      - אבן
+    lexemes:
+    - p4-ku
+    - p4-shney
+    - p4-vint
+    - p4-volkn
+    - p4-shteyn
+  - id: p4-l2-12
+    type: multiple_choice
+    prompt: מה פירוש פֿויגל?
+    options:
+    - ציפור
+    - שמיים
+    - אדמה
+    correct: 0
+    lexemes:
+    - p4-foygl
+  - id: p4-l2-13
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: כלב?'
+    options:
+    - הונט
+    - בוים
+    - וואַלד
+    correct: 0
+    lexemes:
+    - p4-hunt
+  - id: p4-l2-14
+    type: multiple_choice
+    prompt: מה פירוש קאַץ?
+    options:
+    - חתול
+    - עכבר
+    - ירח
+    correct: 0
+    lexemes:
+    - p4-kats
+  - id: p4-l2-15
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: סוס?'
+    options:
+    - פֿערד
+    - ווינטער
+    - שטערן
+    correct: 0
+    lexemes:
+    - p4-ferd
+  - id: p4-l2-16
+    type: multiple_choice
+    prompt: מה פירוש קו?
+    options:
+    - פרה
+    - הר
+    - שדה
+    correct: 0
+    lexemes:
+    - p4-ku
+  - id: p4-l2-17
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: שלג?'
+    options:
+    - שנײַ
+    - שטערן
+    - ווינטער
+    correct: 0
+    lexemes:
+    - p4-shney
+  - id: p4-l2-18
+    type: multiple_choice
+    prompt: מה פירוש ווינט?
+    options:
+    - רוח
+    - נהר
+    - ירח
+    correct: 0
+    lexemes:
+    - p4-vint
+  - id: p4-l2-19
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: ענן?'
+    options:
+    - וואָלקן
+    - בלום
+    - שטערן
+    correct: 0
+    lexemes:
+    - p4-volkn
+  - id: p4-l2-20
+    type: multiple_choice
+    prompt: מה פירוש שטיין?
+    options:
+    - אבן
+    - עכבר
+    - שמיים
+    correct: 0
+    lexemes:
+    - p4-shteyn
+  - id: p4-l2-21
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה ציפור
+    answers:
+    - פֿויגל
+    options:
+    - פֿויגל
+    - וואַלד
+    - מויז
+    lexemes:
+    - p4-foygl
+  - id: p4-l2-22
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה כלב
+    answers:
+    - הונט
+    options:
+    - הונט
+    - מויז
+    - הימל
+    lexemes:
+    - p4-hunt
+  - id: p4-l2-23
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה חתול
+    answers:
+    - קאַץ
+    options:
+    - קאַץ
+    - שאָף
+    - בערג
+    lexemes:
+    - p4-kats
+  - id: p4-l2-24
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה סוס
+    answers:
+    - פֿערד
+    options:
+    - פֿערד
+    - הימל
+    - בערג
+    lexemes:
+    - p4-ferd
+  - id: p4-l2-25
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה פרה
+    answers:
+    - קו
+    options:
+    - קו
+    - ים
+    - בוים
+    lexemes:
+    - p4-ku
+  - id: p4-l2-26
+    type: fill_blank
+    sentence: איך זע ___.
+    translation: אני רואה שלג
+    answers:
+    - שנײַ
+    options:
+    - שנײַ
+    - גראָז
+    - ערד
+    lexemes:
+    - p4-shney
+  - id: p4-l2-27
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה רוח
+    answers:
+    - ווינט
+    options:
+    - ווינט
+    - ים
+    - לבנה
+    lexemes:
+    - p4-vint
+  - id: p4-l2-28
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה ענן
+    answers:
+    - וואָלקן
+    options:
+    - וואָלקן
+    - בערג
+    - ים
+    lexemes:
+    - p4-volkn
+  - id: p4-l2-29
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה אבן
+    answers:
+    - שטיין
+    options:
+    - שטיין
+    - בוים
+    - בערג
+    lexemes:
+    - p4-shteyn
+- id: p4-l3
+  kind: new
+  title:
+    he: חבילה 4 – חלק 3
+    en: Pack 4 – part 3
+  exercises:
+  - id: p4-l3-01
+    type: learn
+    lexeme: p4-taykh
+  - id: p4-l3-02
+    type: learn
+    lexeme: p4-feld
+  - id: p4-l3-03
+    type: learn
+    lexeme: p4-erd
+  - id: p4-l3-04
+    type: learn
+    lexeme: p4-fayer
+  - id: p4-l3-05
+    type: learn
+    lexeme: p4-shof
+  - id: p4-l3-06
+    type: learn
+    lexeme: p4-moyz
+  - id: p4-l3-07
+    type: learn
+    lexeme: p4-zumer
+  - id: p4-l3-08
+    type: learn
+    lexeme: p4-vinter
+  - id: p4-l3-09
+    type: learn
+    lexeme: p4-friling
+  - id: p4-l3-10
+    type: learn
+    lexeme: p4-harbst
+  - id: p4-l3-11
+    type: match_pairs
+    pairs:
+    - - טײַך
+      - נהר
+    - - פֿעלד
+      - שדה
+    - - ערד
+      - אדמה
+    - - פֿײַער
+      - אש
+    - - שאָף
+      - כבשה
+    lexemes:
+    - p4-taykh
+    - p4-feld
+    - p4-erd
+    - p4-fayer
+    - p4-shof
+  - id: p4-l3-12
+    type: match_pairs
+    pairs:
+    - - מויז
+      - עכבר
+    - - זומער
+      - קיץ
+    - - ווינטער
+      - חורף
+    - - פֿרילינג
+      - אביב
+    - - האַרבסט
+      - סתיו
+    lexemes:
+    - p4-moyz
+    - p4-zumer
+    - p4-vinter
+    - p4-friling
+    - p4-harbst
+  - id: p4-l3-13
+    type: multiple_choice
+    prompt: מה פירוש טײַך?
+    options:
+    - נהר
+    - ירח
+    - דשא
+    correct: 0
+    lexemes:
+    - p4-taykh
+  - id: p4-l3-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: שדה?'
+    options:
+    - פֿעלד
+    - שטערן
+    - בוים
+    correct: 0
+    lexemes:
+    - p4-feld
+  - id: p4-l3-15
+    type: multiple_choice
+    prompt: מה פירוש ערד?
+    options:
+    - אדמה
+    - יער
+    - חתול
+    correct: 0
+    lexemes:
+    - p4-erd
+  - id: p4-l3-16
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: אש?'
+    options:
+    - פֿײַער
+    - הימל
+    - שטיין
+    correct: 0
+    lexemes:
+    - p4-fayer
+  - id: p4-l3-17
+    type: multiple_choice
+    prompt: מה פירוש שאָף?
+    options:
+    - כבשה
+    - סוס
+    - כוכב
+    correct: 0
+    lexemes:
+    - p4-shof
+  - id: p4-l3-18
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: עכבר?'
+    options:
+    - מויז
+    - שנײַ
+    - שטערן
+    correct: 0
+    lexemes:
+    - p4-moyz
+  - id: p4-l3-19
+    type: multiple_choice
+    prompt: מה פירוש זומער?
+    options:
+    - קיץ
+    - ירח
+    - כלב
+    correct: 0
+    lexemes:
+    - p4-zumer
+  - id: p4-l3-20
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: חורף?'
+    options:
+    - ווינטער
+    - קאַץ
+    - גראָז
+    correct: 0
+    lexemes:
+    - p4-vinter
+  - id: p4-l3-21
+    type: multiple_choice
+    prompt: מה פירוש פֿרילינג?
+    options:
+    - אביב
+    - כוכב
+    - פרח
+    correct: 0
+    lexemes:
+    - p4-friling
+  - id: p4-l3-22
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: סתיו?'
+    options:
+    - האַרבסט
+    - שנײַ
+    - קאַץ
+    correct: 0
+    lexemes:
+    - p4-harbst
+  - id: p4-l3-23
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה נהר
+    answers:
+    - טײַך
+    options:
+    - טײַך
+    - הונט
+    - בוים
+    lexemes:
+    - p4-taykh
+  - id: p4-l3-24
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה שדה
+    answers:
+    - פֿעלד
+    options:
+    - פֿעלד
+    - שטערן
+    - פֿויגל
+    lexemes:
+    - p4-feld
+  - id: p4-l3-25
+    type: fill_blank
+    sentence: איך זע ___.
+    translation: אני רואה אדמה
+    answers:
+    - ערד
+    options:
+    - ערד
+    - גראָז
+    - שנײַ
+    lexemes:
+    - p4-erd
+  - id: p4-l3-26
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה אש
+    answers:
+    - פֿײַער
+    options:
+    - פֿײַער
+    - לבנה
+    - שטערן
+    lexemes:
+    - p4-fayer
+  - id: p4-l3-27
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה כבשה
+    answers:
+    - שאָף
+    options:
+    - שאָף
+    - פֿערד
+    - ווינט
+    lexemes:
+    - p4-shof
+  - id: p4-l3-28
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה עכבר
+    answers:
+    - מויז
+    options:
+    - מויז
+    - ווינט
+    - בוים
+    lexemes:
+    - p4-moyz
+  - id: p4-l3-29
+    type: fill_blank
+    sentence: איך האָב ליב דעם ___.
+    translation: אני אוהב את הקיץ
+    answers:
+    - זומער
+    options:
+    - זומער
+    - שטערן
+    - בלום
+    lexemes:
+    - p4-zumer
+  - id: p4-l3-30
+    type: fill_blank
+    sentence: איך האָב ליב דעם ___.
+    translation: אני אוהב את החורף
+    answers:
+    - ווינטער
+    options:
+    - ווינטער
+    - קו
+    - בערג
+    lexemes:
+    - p4-vinter
+  - id: p4-l3-31
+    type: fill_blank
+    sentence: איך האָב ליב דעם ___.
+    translation: אני אוהב את האביב
+    answers:
+    - פֿרילינג
+    options:
+    - פֿרילינג
+    - לבנה
+    - שטערן
+    lexemes:
+    - p4-friling
+  - id: p4-l3-32
+    type: fill_blank
+    sentence: איך האָב ליב דעם ___.
+    translation: אני אוהב את הסתיו
+    answers:
+    - האַרבסט
+    options:
+    - האַרבסט
+    - גראָז
+    - פֿערד
+    lexemes:
+    - p4-harbst
