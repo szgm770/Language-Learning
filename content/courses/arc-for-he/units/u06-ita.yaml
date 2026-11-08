@@ -1,0 +1,674 @@
+id: u06-ita
+cefr: A1
+scene: study
+title:
+  he: איתא וליתא
+  en: It is and it is not
+story: 'חנה מוצאת בארכיון רשימה: איכר ליטאי שהחביא שני ילדים יהודים ב־1943. ״שני ילדים?״ שואל איתן. ר׳ ישראל מלמד את מילות ההוויה: איתא, ליתא, נינהו, הוו.'
+canDo:
+- להבין איתא וליתא, ״אם איתא״
+- להבין נינהו, ניהו, הוו, הויין
+- 'להבין ״לית ליה״: חכם שאינו סובר דבר מסוים'
+vocabulary:
+- id: ita
+  text: איתא
+  translation: ישנו, קיים; כך הוא
+  pos: verb
+  example:
+    text: אי רבנן טריפה במכירה איתא בזביחה ליתא
+    translation: 'אם (המשנה כשיטת) חכמים: טריפה, במכירה (החיוב) ישנו, בשחיטה איננו'
+    source: בבלי, בבא קמא עז ע״ב
+- id: leita
+  text: ליתא
+  translation: איננו, לא קיים; לא כך
+  pos: verb
+  example:
+    text: אי רבנן טריפה במכירה איתא בזביחה ליתא
+    translation: 'אם (המשנה כשיטת) חכמים: טריפה, במכירה (החיוב) ישנו, בשחיטה איננו'
+    source: בבלי, בבא קמא עז ע״ב
+- id: im-ita
+  text: אם איתא
+  translation: אילו זה היה נכון
+  pos: phrase
+  example:
+    text: ואם איתא הוא נמי לימא
+    translation: ואילו זה היה נכון, שגם הוא יאמר!
+    source: בבלי, מנחות ל ע״ב
+    vocalized: וְאִם אִיתָא הוּא נָמֵי לֵימָא
+- id: iteih
+  text: איתיה
+  translation: הוא ישנו, הוא קיים
+  pos: verb
+  example:
+    text: אלא פשיטא דאיתיה ומדסיפא איתיה רישא נמי איתיה
+    translation: אלא פשוט שהוא ישנו. ומכיוון שבסוף (המשנה) הוא ישנו, גם בתחילתה הוא ישנו
+    source: בבלי, עירובין ע ע״א
+    vocalized: אֶלָּא פְּשִׁיטָא דְּאִיתֵיהּ. וּמִדְּסֵיפָא אִיתֵיהּ, רֵישָׁא נָמֵי אִיתֵיהּ
+- id: pshita
+  text: פשיטא
+  translation: פשוט! (מה החידוש?)
+  pos: adverb
+  example:
+    text: אלא פשיטא דאיתיה ומדסיפא איתיה רישא נמי איתיה
+    translation: אלא פשוט שהוא ישנו. ומכיוון שבסוף (המשנה) הוא ישנו, גם בתחילתה הוא ישנו
+    source: בבלי, עירובין ע ע״א
+    vocalized: אֶלָּא פְּשִׁיטָא דְּאִיתֵיהּ. וּמִדְּסֵיפָא אִיתֵיהּ, רֵישָׁא נָמֵי אִיתֵיהּ
+- id: reisha
+  text: רישא
+  translation: תחילת המשנה (הראש)
+  pos: noun
+  example:
+    text: אלא פשיטא דאיתיה ומדסיפא איתיה רישא נמי איתיה
+    translation: אלא פשוט שהוא ישנו. ומכיוון שבסוף (המשנה) הוא ישנו, גם בתחילתה הוא ישנו
+    source: בבלי, עירובין ע ע״א
+    vocalized: אֶלָּא פְּשִׁיטָא דְּאִיתֵיהּ. וּמִדְּסֵיפָא אִיתֵיהּ, רֵישָׁא נָמֵי אִיתֵיהּ
+- id: seifa
+  text: סיפא
+  translation: סוף המשנה
+  pos: noun
+  example:
+    text: אלא פשיטא דאיתיה ומדסיפא איתיה רישא נמי איתיה
+    translation: אלא פשוט שהוא ישנו. ומכיוון שבסוף (המשנה) הוא ישנו, גם בתחילתה הוא ישנו
+    source: בבלי, עירובין ע ע״א
+    vocalized: אֶלָּא פְּשִׁיטָא דְּאִיתֵיהּ. וּמִדְּסֵיפָא אִיתֵיהּ, רֵישָׁא נָמֵי אִיתֵיהּ
+- id: ninhu
+  text: נינהו
+  translation: הם (הֵם הֵם)
+  pos: pronoun
+  example:
+    text: מחיצות דאורייתא נינהו
+    translation: מחיצות (שיעורי המחיצות) מן התורה הם
+    source: בבלי, עירובין ד ע״ב
+    vocalized: מְחִיצּוֹת, דְּאוֹרָיְיתָא נִינְהוּ
+- id: nihu
+  text: ניהו
+  translation: הוא (הוּא הוּא); ״מאי ניהו״ = מה הוא?
+  pos: pronoun
+  example:
+    text: אבות מאי ניהו יציאות ויציאות תרי הויין
+    translation: האבות (של הוצאה בשבת), מה הן? יציאות. ויציאות, שתיים הן
+    source: בבלי, שבת ב ע״ב
+    vocalized: אָבוֹת מַאי נִיהוּ? יְצִיאוֹת, וִיצִיאוֹת תְּרֵי הָוְיָין
+- id: havyan
+  text: הויין
+  translation: הן, הם (הווים)
+  pos: verb
+  example:
+    text: אבות מאי ניהו יציאות ויציאות תרי הויין
+    translation: האבות (של הוצאה בשבת), מה הן? יציאות. ויציאות, שתיים הן
+    source: בבלי, שבת ב ע״ב
+    vocalized: אָבוֹת מַאי נִיהוּ? יְצִיאוֹת, וִיצִיאוֹת תְּרֵי הָוְיָין
+- id: havu
+  text: הוו
+  translation: היו
+  pos: verb
+  example:
+    text: א"ר אבהו שני תקנות הוו
+    translation: 'אמר רבי אבהו: שתי תקנות היו'
+    source: בבלי, מנחות נא ע״ב
+- id: tuva
+  text: טובא
+  translation: הרבה
+  pos: adverb
+  example:
+    text: תמידין ומוספין טובא הוו
+    translation: תמידים ומוספים, הרבה היו
+    source: בבלי, ערכין יג ע״א
+    vocalized: תְּמִידִין וּמוּסָפִין טוּבָא הֲווֹ
+- id: leit-leih
+  text: לית ליה
+  translation: אין לו; אינו סובר (את הכלל הזה)
+  pos: phrase
+  example:
+    text: והא רבי טרפון לית ליה דיו
+    translation: והרי רבי טרפון אינו סובר (את הכלל) ׳דיו׳!
+    source: בבלי, בבא קמא יח ע״ב
+    vocalized: וְהָא רַבִּי טַרְפוֹן לֵית לֵיהּ דַּיּוֹ
+grammar: []
+lessons:
+- id: u06-l1
+  kind: new
+  title:
+    he: איתא וליתא
+    en: It is, it is not
+  exercises:
+  - id: u06-l1-01
+    type: dialogue
+    scene: חנה חוזרת מהארכיון עם דף מודפס.
+    lines:
+    - speaker: chana
+      text: מצאתי את העיירה מהתמונה. יש עדות של איכר ליטאי. ב־1943 הוא החביא במתבן שני ילדים יהודים.
+      translation: העדות
+    - speaker: eitan
+      text: שני ילדים? אחד מהם סבא. ומי השני?
+      translation: השאלה הגדולה
+    - speaker: chana
+      text: השם השני מחוק בעדות. רק ״ילד, בן תשע״.
+      translation: השם חסר
+    - speaker: yisrael
+      text: בואו נלמד היום מילים של ״יש״ ו״אין״. ״איתא״ = ישנו. ״ליתא״ = איננו.
+      translation: ר׳ ישראל מחליף נושא
+  - id: u06-l1-02
+    type: learn
+    lexeme: ita
+  - id: u06-l1-03
+    type: learn
+    lexeme: leita
+  - id: u06-l1-04
+    type: learn
+    lexeme: im-ita
+  - id: u06-l1-05
+    type: learn
+    lexeme: iteih
+  - id: u06-l1-06
+    type: match_pairs
+    pairs:
+    - - איתא
+      - ישנו, קיים; כך הוא
+    - - ליתא
+      - איננו, לא קיים; לא כך
+    - - אם איתא
+      - אילו זה היה נכון
+    - - איתיה
+      - הוא ישנו, הוא קיים
+    lexemes:
+    - ita
+    - leita
+    - im-ita
+    - iteih
+  - id: u06-l1-07
+    type: multiple_choice
+    prompt: מה פירוש איתא?
+    options:
+    - ישנו, קיים; כך הוא
+    - אין לו; אינו סובר (את הכלל הזה)
+    - פשוט! (מה החידוש?)
+    correct: 0
+    lexemes:
+    - ita
+  - id: u06-l1-08
+    type: multiple_choice
+    prompt: מה פירוש ליתא?
+    options:
+    - איננו, לא קיים; לא כך
+    - תחילת המשנה (הראש)
+    - ישנו, קיים; כך הוא
+    correct: 0
+    lexemes:
+    - leita
+  - id: u06-l1-09
+    type: multiple_choice
+    prompt: מה פירוש אם איתא?
+    options:
+    - אילו זה היה נכון
+    - הוא (הוּא הוּא); ״מאי ניהו״ = מה הוא?
+    - הן, הם (הווים)
+    correct: 0
+    lexemes:
+    - im-ita
+  - id: u06-l1-10
+    type: multiple_choice
+    prompt: מה פירוש איתיה?
+    options:
+    - הוא ישנו, הוא קיים
+    - הם (הֵם הֵם)
+    - הרבה
+    correct: 0
+    lexemes:
+    - iteih
+  - id: u06-l1-11
+    type: fill_blank
+    sentence: אי רבנן טריפה במכירה ___ בזביחה ליתא
+    translation: 'אם (המשנה כשיטת) חכמים: טריפה, במכירה (החיוב) ישנו, בשחיטה איננו'
+    answers:
+    - איתא
+    options:
+    - איתא
+    - רישא
+    - איתיה
+    lexemes:
+    - ita
+    source: בבלי, בבא קמא עז ע״ב
+  - id: u06-l1-12
+    type: fill_blank
+    sentence: אי רבנן טריפה במכירה איתא בזביחה ___
+    translation: 'אם (המשנה כשיטת) חכמים: טריפה, במכירה (החיוב) ישנו, בשחיטה איננו'
+    answers:
+    - ליתא
+    options:
+    - ליתא
+    - ניהו
+    - הויין
+    lexemes:
+    - leita
+    source: בבלי, בבא קמא עז ע״ב
+  - id: u06-l1-13
+    type: fill_blank
+    sentence: ואם ___ הוא נמי לימא
+    translation: ואילו זה היה נכון, שגם הוא יאמר!
+    answers:
+    - איתא
+    options:
+    - איתא
+    - נינהו
+    - לית ליה
+    lexemes:
+    - im-ita
+    source: בבלי, מנחות ל ע״ב
+    vocalized: וְאִם אִיתָא הוּא נָמֵי לֵימָא
+  - id: u06-l1-14
+    type: fill_blank
+    sentence: אלא פשיטא ___ ומדסיפא איתיה רישא נמי איתיה
+    translation: אלא פשוט שהוא ישנו. ומכיוון שבסוף (המשנה) הוא ישנו, גם בתחילתה הוא ישנו
+    answers:
+    - דאיתיה
+    options:
+    - דאיתיה
+    - רישא
+    - הוו
+    lexemes:
+    - iteih
+    source: בבלי, עירובין ע ע״א
+    vocalized: אֶלָּא פְּשִׁיטָא דְּאִיתֵיהּ. וּמִדְּסֵיפָא אִיתֵיהּ, רֵישָׁא נָמֵי אִיתֵיהּ
+- id: u06-l2
+  kind: new
+  title:
+    he: רישא וסיפא
+    en: Beginning and end
+  exercises:
+  - id: u06-l2-15
+    type: tip
+    title: רישא, סיפא, נינהו
+    text: '**רישא** = תחילת המשנה. **סיפא** = סופה.
+
+
+      **ניהו** = הוא (״מאי ניהו?״ = מה הוא?). **נינהו** = הם.
+
+
+      **פשיטא!** = פשוט, למה צריך לומר את זה?'
+  - id: u06-l2-16
+    type: learn
+    lexeme: pshita
+  - id: u06-l2-17
+    type: learn
+    lexeme: reisha
+  - id: u06-l2-18
+    type: learn
+    lexeme: seifa
+  - id: u06-l2-19
+    type: learn
+    lexeme: ninhu
+  - id: u06-l2-20
+    type: learn
+    lexeme: nihu
+  - id: u06-l2-21
+    type: match_pairs
+    pairs:
+    - - פשיטא
+      - פשוט! (מה החידוש?)
+    - - רישא
+      - תחילת המשנה (הראש)
+    - - סיפא
+      - סוף המשנה
+    - - נינהו
+      - הם (הֵם הֵם)
+    - - ניהו
+      - הוא (הוּא הוּא); ״מאי ניהו״ = מה הוא?
+    lexemes:
+    - pshita
+    - reisha
+    - seifa
+    - ninhu
+    - nihu
+  - id: u06-l2-22
+    type: multiple_choice
+    prompt: מה פירוש פשיטא?
+    options:
+    - פשוט! (מה החידוש?)
+    - ישנו, קיים; כך הוא
+    - הן, הם (הווים)
+    correct: 0
+    lexemes:
+    - pshita
+  - id: u06-l2-23
+    type: multiple_choice
+    prompt: מה פירוש רישא?
+    options:
+    - תחילת המשנה (הראש)
+    - סוף המשנה
+    - הן, הם (הווים)
+    correct: 0
+    lexemes:
+    - reisha
+  - id: u06-l2-24
+    type: multiple_choice
+    prompt: מה פירוש סיפא?
+    options:
+    - סוף המשנה
+    - ישנו, קיים; כך הוא
+    - היו
+    correct: 0
+    lexemes:
+    - seifa
+  - id: u06-l2-25
+    type: multiple_choice
+    prompt: מה פירוש נינהו?
+    options:
+    - הם (הֵם הֵם)
+    - היו
+    - הרבה
+    correct: 0
+    lexemes:
+    - ninhu
+  - id: u06-l2-26
+    type: multiple_choice
+    prompt: מה פירוש ניהו?
+    options:
+    - הוא (הוּא הוּא); ״מאי ניהו״ = מה הוא?
+    - היו
+    - איננו, לא קיים; לא כך
+    correct: 0
+    lexemes:
+    - nihu
+  - id: u06-l2-27
+    type: fill_blank
+    sentence: אלא ___ דאיתיה ומדסיפא איתיה רישא נמי איתיה
+    translation: אלא פשוט שהוא ישנו. ומכיוון שבסוף (המשנה) הוא ישנו, גם בתחילתה הוא ישנו
+    answers:
+    - פשיטא
+    options:
+    - פשיטא
+    - טובא
+    - הוו
+    lexemes:
+    - pshita
+    source: בבלי, עירובין ע ע״א
+    vocalized: אֶלָּא פְּשִׁיטָא דְּאִיתֵיהּ. וּמִדְּסֵיפָא אִיתֵיהּ, רֵישָׁא נָמֵי אִיתֵיהּ
+  - id: u06-l2-28
+    type: fill_blank
+    sentence: אלא פשיטא דאיתיה ומדסיפא איתיה ___ נמי איתיה
+    translation: אלא פשוט שהוא ישנו. ומכיוון שבסוף (המשנה) הוא ישנו, גם בתחילתה הוא ישנו
+    answers:
+    - רישא
+    options:
+    - רישא
+    - אם איתא
+    - לית ליה
+    lexemes:
+    - reisha
+    source: בבלי, עירובין ע ע״א
+    vocalized: אֶלָּא פְּשִׁיטָא דְּאִיתֵיהּ. וּמִדְּסֵיפָא אִיתֵיהּ, רֵישָׁא נָמֵי אִיתֵיהּ
+  - id: u06-l2-29
+    type: fill_blank
+    sentence: אלא פשיטא דאיתיה ___ איתיה רישא נמי איתיה
+    translation: אלא פשוט שהוא ישנו. ומכיוון שבסוף (המשנה) הוא ישנו, גם בתחילתה הוא ישנו
+    answers:
+    - ומדסיפא
+    options:
+    - ומדסיפא
+    - הויין
+    - ליתא
+    lexemes:
+    - seifa
+    source: בבלי, עירובין ע ע״א
+    vocalized: אֶלָּא פְּשִׁיטָא דְּאִיתֵיהּ. וּמִדְּסֵיפָא אִיתֵיהּ, רֵישָׁא נָמֵי אִיתֵיהּ
+  - id: u06-l2-30
+    type: fill_blank
+    sentence: מחיצות דאורייתא ___
+    translation: מחיצות (שיעורי המחיצות) מן התורה הם
+    answers:
+    - נינהו
+    options:
+    - נינהו
+    - איתא
+    - פשיטא
+    lexemes:
+    - ninhu
+    source: בבלי, עירובין ד ע״ב
+    vocalized: מְחִיצּוֹת, דְּאוֹרָיְיתָא נִינְהוּ
+  - id: u06-l2-31
+    type: fill_blank
+    sentence: אבות מאי ___ יציאות ויציאות תרי הויין
+    translation: האבות (של הוצאה בשבת), מה הן? יציאות. ויציאות, שתיים הן
+    answers:
+    - ניהו
+    options:
+    - ניהו
+    - לית ליה
+    - ליתא
+    lexemes:
+    - nihu
+    source: בבלי, שבת ב ע״ב
+    vocalized: אָבוֹת מַאי נִיהוּ? יְצִיאוֹת, וִיצִיאוֹת תְּרֵי הָוְיָין
+- id: u06-l3
+  kind: new
+  title:
+    he: טובא הוו
+    en: There were many
+  exercises:
+  - id: u06-l3-32
+    type: dialogue
+    scene: איתן קורא בעדות של האיכר.
+    lines:
+    - speaker: eitan
+      text: האיכר כותב שהילדים למדו בלילות מספר אחד שהיה להם. ספר בלי כריכה.
+      translation: ספר בלי כריכה
+    - speaker: chana
+      text: ״טובא הוו״, הרבה דברים היו שם שאנחנו לא יודעים.
+      translation: חנה מתרגלת
+    - speaker: yisrael
+      text: ״לית ליה״ = אין לו. לילדים ״לית להו״ כלום, רק דף גמרא אחד.
+      translation: לית ליה
+  - id: u06-l3-33
+    type: learn
+    lexeme: havyan
+  - id: u06-l3-34
+    type: learn
+    lexeme: havu
+  - id: u06-l3-35
+    type: learn
+    lexeme: tuva
+  - id: u06-l3-36
+    type: learn
+    lexeme: leit-leih
+  - id: u06-l3-37
+    type: match_pairs
+    pairs:
+    - - הויין
+      - הן, הם (הווים)
+    - - הוו
+      - היו
+    - - טובא
+      - הרבה
+    - - לית ליה
+      - אין לו; אינו סובר (את הכלל הזה)
+    lexemes:
+    - havyan
+    - havu
+    - tuva
+    - leit-leih
+  - id: u06-l3-38
+    type: multiple_choice
+    prompt: מה פירוש הויין?
+    options:
+    - הן, הם (הווים)
+    - ישנו, קיים; כך הוא
+    - הם (הֵם הֵם)
+    correct: 0
+    lexemes:
+    - havyan
+  - id: u06-l3-39
+    type: multiple_choice
+    prompt: מה פירוש הוו?
+    options:
+    - היו
+    - סוף המשנה
+    - הוא ישנו, הוא קיים
+    correct: 0
+    lexemes:
+    - havu
+  - id: u06-l3-40
+    type: multiple_choice
+    prompt: מה פירוש טובא?
+    options:
+    - הרבה
+    - סוף המשנה
+    - ישנו, קיים; כך הוא
+    correct: 0
+    lexemes:
+    - tuva
+  - id: u06-l3-41
+    type: multiple_choice
+    prompt: מה פירוש לית ליה?
+    options:
+    - אין לו; אינו סובר (את הכלל הזה)
+    - הרבה
+    - איננו, לא קיים; לא כך
+    correct: 0
+    lexemes:
+    - leit-leih
+  - id: u06-l3-42
+    type: fill_blank
+    sentence: אבות מאי ניהו יציאות ויציאות תרי ___
+    translation: האבות (של הוצאה בשבת), מה הן? יציאות. ויציאות, שתיים הן
+    answers:
+    - הויין
+    options:
+    - הויין
+    - נינהו
+    - ניהו
+    lexemes:
+    - havyan
+    source: בבלי, שבת ב ע״ב
+    vocalized: אָבוֹת מַאי נִיהוּ? יְצִיאוֹת, וִיצִיאוֹת תְּרֵי הָוְיָין
+  - id: u06-l3-43
+    type: fill_blank
+    sentence: א"ר אבהו שני תקנות ___
+    translation: 'אמר רבי אבהו: שתי תקנות היו'
+    answers:
+    - הוו
+    options:
+    - הוו
+    - איתיה
+    - ניהו
+    lexemes:
+    - havu
+    source: בבלי, מנחות נא ע״ב
+  - id: u06-l3-44
+    type: fill_blank
+    sentence: תמידין ומוספין ___ הוו
+    translation: תמידים ומוספים, הרבה היו
+    answers:
+    - טובא
+    options:
+    - טובא
+    - ניהו
+    - הויין
+    lexemes:
+    - tuva
+    source: בבלי, ערכין יג ע״א
+    vocalized: תְּמִידִין וּמוּסָפִין טוּבָא הֲווֹ
+  - id: u06-l3-45
+    type: fill_blank
+    sentence: והא רבי טרפון ___ ליה דיו
+    translation: והרי רבי טרפון אינו סובר (את הכלל) ׳דיו׳!
+    answers:
+    - לית
+    options:
+    - לית
+    - איתא
+    - נינהו
+    lexemes:
+    - leit-leih
+    source: בבלי, בבא קמא יח ע״ב
+    vocalized: וְהָא רַבִּי טַרְפוֹן לֵית לֵיהּ דַּיּוֹ
+- id: u06-l4
+  kind: review
+  title:
+    he: מה יש ומה אין
+    en: What is and what is not
+  exercises:
+  - id: u06-l4-46
+    type: multiple_choice
+    prompt: ״אבות מאי ניהו?״ מה פירוש ״מאי ניהו״?
+    options:
+    - מה הם?
+    - מי אמר?
+    - איפה הם?
+    correct: 0
+    lexemes:
+    - nihu
+    source: בבלי, שבת ב ע״ב
+    vocalized: אָבוֹת מַאי נִיהוּ
+  - id: u06-l4-47
+    type: multiple_choice
+    prompt: ״והא רבי טרפון לית ליה דיו״. מה הגמרא אומרת על רבי טרפון?
+    options:
+    - שהוא אינו סובר את הכלל ׳דיו׳
+    - שאין לו כסף
+    - שהוא לא היה שם
+    correct: 0
+    lexemes:
+    - leit-leih
+    source: בבלי, בבא קמא יח ע״ב
+    vocalized: וְהָא רַבִּי טַרְפוֹן לֵית לֵיהּ דַּיּוֹ
+  - id: u06-l4-48
+    type: fill_blank
+    sentence: א"ר אבהו שני תקנות ___
+    translation: 'אמר רבי אבהו: שתי תקנות היו'
+    answers:
+    - הוו
+    options:
+    - הוו
+    - נינהו
+    - איתא
+    lexemes:
+    - havu
+    source: בבלי, מנחות נא ע״ב
+  - id: u06-l4-49
+    type: word_bank
+    prompt: מחיצות מן התורה הם
+    answers:
+    - מחיצות דאורייתא נינהו
+    distractors:
+    - ניהו
+    - ליתא
+    lexemes:
+    - ninhu
+    source: בבלי, עירובין ד ע״ב
+    vocalized: מְחִיצּוֹת, דְּאוֹרָיְיתָא נִינְהוּ
+  - id: u06-l4-50
+    type: dialogue
+    scene: בסוף היום. ר׳ ישראל מחזיק את הגמרא של סבא בשתי ידיים.
+    lines:
+    - speaker: yisrael
+      text: הספר בלי הכריכה, מהמתבן. זה הוא. סבא שלך שמר אותו כל החיים, ואחר כך כרך אותו מחדש.
+      translation: גילוי
+    - speaker: eitan
+      text: איך אתה יודע?
+      translation: השאלה
+    - speaker: yisrael
+      text: כי גם אני למדתי ממנו. בלילות. אני הייתי הילד השני.
+      translation: ר׳ ישראל הוא הילד השני
+  - id: u06-l4-51
+    type: match_pairs
+    pairs:
+    - - איתא
+      - ישנו, קיים; כך הוא
+    - - ליתא
+      - איננו, לא קיים; לא כך
+    - - רישא
+      - תחילת המשנה (הראש)
+    - - סיפא
+      - סוף המשנה
+    - - טובא
+      - הרבה
+    - - הוו
+      - היו
+    lexemes:
+    - ita
+    - leita
+    - reisha
+    - seifa
+    - tuva
+    - havu

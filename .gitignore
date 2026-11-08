@@ -14,3 +14,4 @@ apps/web/public/content/
 test-results/
 playwright-report/
 next-env.d.ts
+__pycache__/

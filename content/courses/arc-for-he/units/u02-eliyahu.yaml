@@ -1,0 +1,805 @@
+id: u02-eliyahu
+cefr: A1
+scene: study
+title:
+  he: נצחוני בני
+  en: My children have defeated me
+story: 'בעקבות הרמז ״חפש את אליהו״ מגיעים איתן ור׳ ישראל לתנורו של עכנאי. ליד ״נצחוני בני״ סבא כתב: ״גם אני ניצחתי פעם. ישראל יספר לך.״'
+canDo:
+- 'להבין סיפור קצר בארמית: מצא, עשה, יצא, בא'
+- 'לזהות את ״קא״ לפני פועל: עכשיו, תוך כדי'
+- להבין ״אמר ליה״, ״איכא דאמרי״, ״מנא״
+vocabulary:
+- id: ashkecheih
+  text: אשכחיה
+  translation: מצא אותו
+  pos: verb
+  example:
+    text: אשכחיה רבי נתן לאליהו
+    translation: רבי נתן מצא את אליהו
+    source: בבלי, בבא מציעא נט ע״ב
+    vocalized: אַשְׁכְּחֵיהּ רַבִּי נָתָן לְאֵלִיָּהוּ
+- id: avid
+  text: עביד
+  translation: עושה
+  pos: verb
+  example:
+    text: מאי עביד קוב"ה בההיא שעתא
+    translation: מה עשה הקדוש ברוך הוא באותה שעה?
+    source: בבלי, בבא מציעא נט ע״ב
+    vocalized: מַאי עָבֵיד קוּדְשָׁא בְּרִיךְ הוּא בְּהַהִיא שַׁעְתָּא
+- id: hahi
+  text: ההיא
+  translation: ההיא, אותה
+  pos: pronoun
+  example:
+    text: מאי עביד קוב"ה בההיא שעתא
+    translation: מה עשה הקדוש ברוך הוא באותה שעה?
+    source: בבלי, בבא מציעא נט ע״ב
+    vocalized: מַאי עָבֵיד קוּדְשָׁא בְּרִיךְ הוּא בְּהַהִיא שַׁעְתָּא
+- id: shata
+  text: שעתא
+  translation: שעה
+  pos: noun
+  example:
+    text: כל שעתא ושעתא נמי קאי הכי
+    translation: גם בכל שעה ושעה הוא עומד כך
+    source: בבלי, ברכות ז ע״א
+    vocalized: כֹּל שַׁעְתָּא וְשַׁעְתָּא נָמֵי קָאֵי הָכִי
+- id: ka
+  text: קא
+  translation: (לפני פועל:) עכשיו, תוך כדי
+  pos: adverb
+  example:
+    text: קא חייך ואמר נצחוני בני נצחוני בני
+    translation: 'הוא צוחק ואומר: ניצחוני בניי, ניצחוני בניי'
+    source: בבלי, בבא מציעא נט ע״ב
+    vocalized: קָא חָיֵיךְ וְאָמַר, נִצְּחוּנִי בָּנַי! נִצְּחוּנִי בָּנַי!
+- id: amar-leih
+  text: אמר ליה
+  translation: 'אמר לו (בקיצור: א״ל)'
+  pos: phrase
+  example:
+    text: אמרה ליה קום קטלית לאחי
+    translation: 'אמרה לו: קום! הרגת את אחי'
+    source: בבלי, בבא מציעא נט ע״ב
+- id: mena
+  text: מנא
+  translation: מניין? מאיפה?
+  pos: adverb
+  example:
+    text: אמר לה מנא ידעת
+    translation: 'אמר לה: מניין ידעת?'
+    source: בבלי, בבא מציעא נט ע״ב
+    vocalized: 'אֲמַר לַהּ: מְנָא יְדַעְתְּ'
+- id: nafak
+  text: נפק
+  translation: יצא
+  pos: verb
+  example:
+    text: אדהכי נפק שיפורא מבית רבן גמליאל דשכיב
+    translation: בינתיים יצא שופר (הכרזה) מבית רבן גמליאל, שמת
+    source: בבלי, בבא מציעא נט ע״ב
+    vocalized: אַדְּהָכִי נְפַק שִׁיפּוּרָא מִבֵּית רַבָּן גַּמְלִיאֵל דִּשְׁכֵיב
+- id: adhachi
+  text: אדהכי
+  translation: בינתיים
+  pos: adverb
+  example:
+    text: אדהכי נפק שיפורא מבית רבן גמליאל דשכיב
+    translation: בינתיים יצא שופר (הכרזה) מבית רבן גמליאל, שמת
+    source: בבלי, בבא מציעא נט ע״ב
+    vocalized: אַדְּהָכִי נְפַק שִׁיפּוּרָא מִבֵּית רַבָּן גַּמְלִיאֵל דִּשְׁכֵיב
+- id: hahu
+  text: ההוא
+  translation: ההוא, אותו
+  pos: pronoun
+  example:
+    text: ההוא יומא ריש ירחא הוה
+    translation: אותו יום ראש חודש היה
+    source: בבלי, בבא מציעא נט ע״ב
+    vocalized: הָהוּא יוֹמָא רֵישׁ יַרְחָא הֲוָה
+- id: yoma
+  text: יומא
+  translation: יום
+  pos: noun
+  example:
+    text: ההוא יומא ריש ירחא הוה
+    translation: אותו יום ראש חודש היה
+    source: בבלי, בבא מציעא נט ע״ב
+    vocalized: הָהוּא יוֹמָא רֵישׁ יַרְחָא הֲוָה
+- id: hava
+  text: הוה
+  translation: היה
+  pos: verb
+  example:
+    text: ההוא יומא ריש ירחא הוה
+    translation: אותו יום ראש חודש היה
+    source: בבלי, בבא מציעא נט ע״ב
+    vocalized: הָהוּא יוֹמָא רֵישׁ יַרְחָא הֲוָה
+- id: ika-deamri
+  text: איכא דאמרי
+  translation: יש אומרים
+  pos: phrase
+  example:
+    text: איכא דאמרי אתא עניא וקאי אבבא
+    translation: 'יש אומרים: בא עני ועמד בפתח'
+    source: בבלי, בבא מציעא נט ע״ב
+    vocalized: 'אִיכָּא דְּאָמְרִי: אֲתָא עַנְיָא וְקָאֵי אַבָּבָא'
+- id: ata
+  text: אתא
+  translation: בא
+  pos: verb
+  example:
+    text: איכא דאמרי אתא עניא וקאי אבבא
+    translation: 'יש אומרים: בא עני ועמד בפתח'
+    source: בבלי, בבא מציעא נט ע״ב
+    vocalized: 'אִיכָּא דְּאָמְרִי: אֲתָא עַנְיָא וְקָאֵי אַבָּבָא'
+- id: inshei
+  text: אינשי
+  translation: אנשים
+  pos: noun
+  example:
+    text: אלא לאו ביומיה אלמא פרעי אינשי ביומיה
+    translation: אלא לא (באותו יום)? מכאן שאנשים פורעים (חוב) באותו יום
+    source: בבלי, בבא מציעא יז ע״א
+    vocalized: אֶלָּא לָאו בְּיוֹמֵיהּ. אַלְמָא פָּרְעִי אִינָשֵׁי בְּיוֹמֵיהּ
+grammar: []
+lessons:
+- id: u02-l1
+  kind: new
+  title:
+    he: רבי נתן מצא את אליהו
+    en: Rabbi Natan found Eliyahu
+  exercises:
+  - id: u02-l1-01
+    type: dialogue
+    scene: למחרת בבוקר. ר׳ ישראל מגיע עם המחברת של סבא, ואיתן פותח את בבא מציעא בדף נט.
+    lines:
+    - speaker: eitan
+      text: 'חיפשתי ״אליהו״ בכל הפרק. מצאתי פה: ״אשכחיה רבי נתן לאליהו״.'
+      translation: ״אשכחיה״ = מצא אותו
+    - speaker: yisrael
+      text: 'יפה. זה הסוף של סיפור תנורו של עכנאי. רבי אליעזר הביא הוכחות מהשמיים, וחכמים אמרו: ״לא בשמים היא״.'
+      translation: הרקע לסיפור
+    - speaker: yisrael
+      text: 'ואז רבי נתן פוגש את אליהו ושואל: ״מאי עביד קוב״ה בההיא שעתא?״'
+      translation: מה עשה הקב״ה באותה שעה?
+    - speaker: eitan
+      text: ומה הוא ענה? ובצד, סבא כתב משהו בעיפרון.
+      translation: ההערה של סבא
+  - id: u02-l1-02
+    type: tip
+    title: 'קא: פעולה שקורית עכשיו'
+    text: '**קא** לפני פועל אומרת שהפעולה קורית ממש עכשיו, או תוך כדי משהו אחר.
+
+
+      **קא חייך** = הוא צוחק (עכשיו).
+
+
+      בדף תמצאו אותה גם מחוברת למילה: **קאמר** = קא + אמר, **קתני** = קא + תני.'
+  - id: u02-l1-03
+    type: learn
+    lexeme: ashkecheih
+  - id: u02-l1-04
+    type: learn
+    lexeme: avid
+  - id: u02-l1-05
+    type: learn
+    lexeme: hahi
+  - id: u02-l1-06
+    type: learn
+    lexeme: shata
+  - id: u02-l1-07
+    type: learn
+    lexeme: ka
+  - id: u02-l1-08
+    type: match_pairs
+    pairs:
+    - - אשכחיה
+      - מצא אותו
+    - - עביד
+      - עושה
+    - - ההיא
+      - ההיא, אותה
+    - - שעתא
+      - שעה
+    - - קא
+      - (לפני פועל:) עכשיו, תוך כדי
+    lexemes:
+    - ashkecheih
+    - avid
+    - hahi
+    - shata
+    - ka
+  - id: u02-l1-09
+    type: multiple_choice
+    prompt: מה פירוש אשכחיה?
+    options:
+    - מצא אותו
+    - שעה
+    - (לפני פועל:) עכשיו, תוך כדי
+    correct: 0
+    lexemes:
+    - ashkecheih
+  - id: u02-l1-10
+    type: multiple_choice
+    prompt: מה פירוש עביד?
+    options:
+    - עושה
+    - בינתיים
+    - אנשים
+    correct: 0
+    lexemes:
+    - avid
+  - id: u02-l1-11
+    type: multiple_choice
+    prompt: מה פירוש ההיא?
+    options:
+    - ההיא, אותה
+    - בא
+    - אנשים
+    correct: 0
+    lexemes:
+    - hahi
+  - id: u02-l1-12
+    type: multiple_choice
+    prompt: מה פירוש שעתא?
+    options:
+    - שעה
+    - יש אומרים
+    - יצא
+    correct: 0
+    lexemes:
+    - shata
+  - id: u02-l1-13
+    type: multiple_choice
+    prompt: מה פירוש קא?
+    options:
+    - (לפני פועל:) עכשיו, תוך כדי
+    - היה
+    - ההיא, אותה
+    correct: 0
+    lexemes:
+    - ka
+  - id: u02-l1-14
+    type: fill_blank
+    sentence: ___ רבי נתן לאליהו
+    translation: רבי נתן מצא את אליהו
+    answers:
+    - אשכחיה
+    options:
+    - אשכחיה
+    - אתא
+    - מנא
+    lexemes:
+    - ashkecheih
+    source: בבלי, בבא מציעא נט ע״ב
+    vocalized: אַשְׁכְּחֵיהּ רַבִּי נָתָן לְאֵלִיָּהוּ
+  - id: u02-l1-15
+    type: fill_blank
+    sentence: מאי ___ קוב"ה בההיא שעתא
+    translation: מה עשה הקדוש ברוך הוא באותה שעה?
+    answers:
+    - עביד
+    options:
+    - עביד
+    - אדהכי
+    - הוה
+    lexemes:
+    - avid
+    source: בבלי, בבא מציעא נט ע״ב
+    vocalized: מַאי עָבֵיד קוּדְשָׁא בְּרִיךְ הוּא בְּהַהִיא שַׁעְתָּא
+  - id: u02-l1-16
+    type: fill_blank
+    sentence: מאי עביד קוב"ה ___ שעתא
+    translation: מה עשה הקדוש ברוך הוא באותה שעה?
+    answers:
+    - בההיא
+    options:
+    - בההיא
+    - קא
+    - הוה
+    lexemes:
+    - hahi
+    source: בבלי, בבא מציעא נט ע״ב
+    vocalized: מַאי עָבֵיד קוּדְשָׁא בְּרִיךְ הוּא בְּהַהִיא שַׁעְתָּא
+  - id: u02-l1-17
+    type: fill_blank
+    sentence: כל ___ ושעתא נמי קאי הכי
+    translation: גם בכל שעה ושעה הוא עומד כך
+    answers:
+    - שעתא
+    options:
+    - שעתא
+    - אינשי
+    - הוה
+    lexemes:
+    - shata
+    source: בבלי, ברכות ז ע״א
+    vocalized: כֹּל שַׁעְתָּא וְשַׁעְתָּא נָמֵי קָאֵי הָכִי
+  - id: u02-l1-18
+    type: fill_blank
+    sentence: ___ חייך ואמר נצחוני בני נצחוני בני
+    translation: 'הוא צוחק ואומר: ניצחוני בניי, ניצחוני בניי'
+    answers:
+    - קא
+    options:
+    - קא
+    - שעתא
+    - ההוא
+    lexemes:
+    - ka
+    source: בבלי, בבא מציעא נט ע״ב
+    vocalized: קָא חָיֵיךְ וְאָמַר, נִצְּחוּנִי בָּנַי! נִצְּחוּנִי בָּנַי!
+- id: u02-l2
+  kind: new
+  title:
+    he: אמר ליה
+    en: He said to him
+  exercises:
+  - id: u02-l2-19
+    type: dialogue
+    scene: ר׳ ישראל קורא את ההערה של סבא בעיפרון.
+    lines:
+    - speaker: yisrael
+      text: ״גם אני ניצחתי פעם. ישראל יספר לך.״ הוא באמת כתב את זה.
+      translation: ההערה בשוליים
+    - speaker: yisrael
+      text: בישיבה, לפני המלחמה, סבא שלך היה בן ארבע־עשרה. הוא הקשה על ראש הישיבה קושיה, וראש הישיבה לא ענה.
+      translation: הסיפור של ר׳ ישראל
+    - speaker: eitan
+      text: ומה ראש הישיבה עשה?
+      translation: שאלה
+    - speaker: yisrael
+      text: '״קא חייך״. הוא חייך, ואמר לכל הישיבה: ״נצחני תלמידי״. אדהכי, בינתיים, סבא שלך כבר ברח מהחדר מרוב בושה.'
+      translation: אדהכי = בינתיים
+  - id: u02-l2-20
+    type: tip
+    title: ליה, לה, להו
+    text: '**ליה** = לו. **לה** = לה. **להו** = להם.
+
+
+      **אמר ליה** כתוב בדף לרוב בקיצור: **א״ל**. ו**אמרה ליה** = אמרה לו.'
+  - id: u02-l2-21
+    type: learn
+    lexeme: amar-leih
+  - id: u02-l2-22
+    type: learn
+    lexeme: mena
+  - id: u02-l2-23
+    type: learn
+    lexeme: nafak
+  - id: u02-l2-24
+    type: learn
+    lexeme: adhachi
+  - id: u02-l2-25
+    type: match_pairs
+    pairs:
+    - - אמר ליה
+      - 'אמר לו (בקיצור: א״ל)'
+    - - מנא
+      - מניין? מאיפה?
+    - - נפק
+      - יצא
+    - - אדהכי
+      - בינתיים
+    lexemes:
+    - amar-leih
+    - mena
+    - nafak
+    - adhachi
+  - id: u02-l2-26
+    type: multiple_choice
+    prompt: מה פירוש אמר ליה?
+    options:
+    - 'אמר לו (בקיצור: א״ל)'
+    - ההיא, אותה
+    - בינתיים
+    correct: 0
+    lexemes:
+    - amar-leih
+  - id: u02-l2-27
+    type: multiple_choice
+    prompt: מה פירוש מנא?
+    options:
+    - מניין? מאיפה?
+    - (לפני פועל:) עכשיו, תוך כדי
+    - עושה
+    correct: 0
+    lexemes:
+    - mena
+  - id: u02-l2-28
+    type: multiple_choice
+    prompt: מה פירוש נפק?
+    options:
+    - יצא
+    - היה
+    - בא
+    correct: 0
+    lexemes:
+    - nafak
+  - id: u02-l2-29
+    type: multiple_choice
+    prompt: מה פירוש אדהכי?
+    options:
+    - בינתיים
+    - בא
+    - יש אומרים
+    correct: 0
+    lexemes:
+    - adhachi
+  - id: u02-l2-30
+    type: fill_blank
+    sentence: אמרה ___ קום קטלית לאחי
+    translation: 'אמרה לו: קום! הרגת את אחי'
+    answers:
+    - ליה
+    options:
+    - ליה
+    - אדהכי
+    - נפק
+    lexemes:
+    - amar-leih
+    source: בבלי, בבא מציעא נט ע״ב
+  - id: u02-l2-31
+    type: fill_blank
+    sentence: אמר לה ___ ידעת
+    translation: 'אמר לה: מניין ידעת?'
+    answers:
+    - מנא
+    options:
+    - מנא
+    - אדהכי
+    - ההוא
+    lexemes:
+    - mena
+    source: בבלי, בבא מציעא נט ע״ב
+    vocalized: 'אֲמַר לַהּ: מְנָא יְדַעְתְּ'
+  - id: u02-l2-32
+    type: fill_blank
+    sentence: אדהכי ___ שיפורא מבית רבן גמליאל דשכיב
+    translation: בינתיים יצא שופר (הכרזה) מבית רבן גמליאל, שמת
+    answers:
+    - נפק
+    options:
+    - נפק
+    - הוה
+    - איכא דאמרי
+    lexemes:
+    - nafak
+    source: בבלי, בבא מציעא נט ע״ב
+    vocalized: אַדְּהָכִי נְפַק שִׁיפּוּרָא מִבֵּית רַבָּן גַּמְלִיאֵל דִּשְׁכֵיב
+  - id: u02-l2-33
+    type: fill_blank
+    sentence: ___ נפק שיפורא מבית רבן גמליאל דשכיב
+    translation: בינתיים יצא שופר (הכרזה) מבית רבן גמליאל, שמת
+    answers:
+    - אדהכי
+    options:
+    - אדהכי
+    - עביד
+    - נפק
+    lexemes:
+    - adhachi
+    source: בבלי, בבא מציעא נט ע״ב
+    vocalized: אַדְּהָכִי נְפַק שִׁיפּוּרָא מִבֵּית רַבָּן גַּמְלִיאֵל דִּשְׁכֵיב
+- id: u02-l3
+  kind: new
+  title:
+    he: ההוא יומא
+    en: That day
+  exercises:
+  - id: u02-l3-34
+    type: dialogue
+    scene: חנה מצטרפת, עם תיקייה של מכתבים ישנים מהארכיון.
+    lines:
+    - speaker: chana
+      text: 'מצאתי מכתב של סבא מ־1946. הוא כותב שם: ״ההוא יומא״, ושם תאריך.'
+      translation: ההוא יומא = אותו יום
+    - speaker: yisrael
+      text: ״ההוא יומא ריש ירחא הוה״. גם בגמרא שלנו יש יום כזה. הסיפור של אימא שלום.
+      translation: אותו יום היה ראש חודש
+    - speaker: eitan
+      text: ומה זה ״איכא דאמרי״?
+      translation: שאלה
+    - speaker: yisrael
+      text: '״יש אומרים״. הגמרא מביאה שתי גרסאות לסיפור. ״איכא דאמרי: אתא עניא וקאי אבבא״, בא עני ועמד בפתח.'
+      translation: איכא דאמרי = יש אומרים
+  - id: u02-l3-35
+    type: learn
+    lexeme: hahu
+  - id: u02-l3-36
+    type: learn
+    lexeme: yoma
+  - id: u02-l3-37
+    type: learn
+    lexeme: hava
+  - id: u02-l3-38
+    type: learn
+    lexeme: ika-deamri
+  - id: u02-l3-39
+    type: learn
+    lexeme: ata
+  - id: u02-l3-40
+    type: learn
+    lexeme: inshei
+  - id: u02-l3-41
+    type: match_pairs
+    pairs:
+    - - ההוא
+      - ההוא, אותו
+    - - יומא
+      - יום
+    - - הוה
+      - היה
+    - - איכא דאמרי
+      - יש אומרים
+    - - אתא
+      - בא
+    - - אינשי
+      - אנשים
+    lexemes:
+    - hahu
+    - yoma
+    - hava
+    - ika-deamri
+    - ata
+    - inshei
+  - id: u02-l3-42
+    type: multiple_choice
+    prompt: מה פירוש ההוא?
+    options:
+    - ההוא, אותו
+    - היה
+    - אנשים
+    correct: 0
+    lexemes:
+    - hahu
+  - id: u02-l3-43
+    type: multiple_choice
+    prompt: מה פירוש יומא?
+    options:
+    - יום
+    - בינתיים
+    - ההיא, אותה
+    correct: 0
+    lexemes:
+    - yoma
+  - id: u02-l3-44
+    type: multiple_choice
+    prompt: מה פירוש הוה?
+    options:
+    - היה
+    - בא
+    - מצא אותו
+    correct: 0
+    lexemes:
+    - hava
+  - id: u02-l3-45
+    type: multiple_choice
+    prompt: מה פירוש איכא דאמרי?
+    options:
+    - יש אומרים
+    - (לפני פועל:) עכשיו, תוך כדי
+    - ההיא, אותה
+    correct: 0
+    lexemes:
+    - ika-deamri
+  - id: u02-l3-46
+    type: multiple_choice
+    prompt: מה פירוש אתא?
+    options:
+    - בא
+    - מצא אותו
+    - יצא
+    correct: 0
+    lexemes:
+    - ata
+  - id: u02-l3-47
+    type: multiple_choice
+    prompt: מה פירוש אינשי?
+    options:
+    - אנשים
+    - יצא
+    - עושה
+    correct: 0
+    lexemes:
+    - inshei
+  - id: u02-l3-48
+    type: fill_blank
+    sentence: ___ יומא ריש ירחא הוה
+    translation: אותו יום ראש חודש היה
+    answers:
+    - ההוא
+    options:
+    - ההוא
+    - עביד
+    - אדהכי
+    lexemes:
+    - hahu
+    source: בבלי, בבא מציעא נט ע״ב
+    vocalized: הָהוּא יוֹמָא רֵישׁ יַרְחָא הֲוָה
+  - id: u02-l3-49
+    type: fill_blank
+    sentence: ההוא ___ ריש ירחא הוה
+    translation: אותו יום ראש חודש היה
+    answers:
+    - יומא
+    options:
+    - יומא
+    - אינשי
+    - אדהכי
+    lexemes:
+    - yoma
+    source: בבלי, בבא מציעא נט ע״ב
+    vocalized: הָהוּא יוֹמָא רֵישׁ יַרְחָא הֲוָה
+  - id: u02-l3-50
+    type: fill_blank
+    sentence: ההוא יומא ריש ירחא ___
+    translation: אותו יום ראש חודש היה
+    answers:
+    - הוה
+    options:
+    - הוה
+    - אשכחיה
+    - עביד
+    lexemes:
+    - hava
+    source: בבלי, בבא מציעא נט ע״ב
+    vocalized: הָהוּא יוֹמָא רֵישׁ יַרְחָא הֲוָה
+  - id: u02-l3-51
+    type: fill_blank
+    sentence: איכא ___ אתא עניא וקאי אבבא
+    translation: 'יש אומרים: בא עני ועמד בפתח'
+    answers:
+    - דאמרי
+    options:
+    - דאמרי
+    - הוה
+    - אתא
+    lexemes:
+    - ika-deamri
+    source: בבלי, בבא מציעא נט ע״ב
+    vocalized: 'אִיכָּא דְּאָמְרִי: אֲתָא עַנְיָא וְקָאֵי אַבָּבָא'
+  - id: u02-l3-52
+    type: fill_blank
+    sentence: איכא דאמרי ___ עניא וקאי אבבא
+    translation: 'יש אומרים: בא עני ועמד בפתח'
+    answers:
+    - אתא
+    options:
+    - אתא
+    - ההיא
+    - אמר ליה
+    lexemes:
+    - ata
+    source: בבלי, בבא מציעא נט ע״ב
+    vocalized: 'אִיכָּא דְּאָמְרִי: אֲתָא עַנְיָא וְקָאֵי אַבָּבָא'
+  - id: u02-l3-53
+    type: fill_blank
+    sentence: אלא לאו ביומיה אלמא פרעי ___ ביומיה
+    translation: אלא לא (באותו יום)? מכאן שאנשים פורעים (חוב) באותו יום
+    answers:
+    - אינשי
+    options:
+    - אינשי
+    - ההיא
+    - אתא
+    lexemes:
+    - inshei
+    source: בבלי, בבא מציעא יז ע״א
+    vocalized: אֶלָּא לָאו בְּיוֹמֵיהּ. אַלְמָא פָּרְעִי אִינָשֵׁי בְּיוֹמֵיהּ
+- id: u02-l4
+  kind: review
+  title:
+    he: אימא שלום
+    en: Imma Shalom
+  exercises:
+  - id: u02-l4-54
+    type: reading
+    kind: גמרא, בבא מציעא נט ע״ב
+    title: אותו יום
+    text: 'ההוא יומא ריש ירחא הוה
+
+
+      ואיחלף לה בין מלא לחסר
+
+
+      איכא דאמרי אתא עניא וקאי אבבא
+
+
+      אפיקא ליה ריפתא'
+    translation: 'אותו יום ראש חודש היה,
+
+
+      והתחלף לה (החודש) בין מלא לחסר (היא חשבה שעדיין ראש חודש).
+
+
+      יש אומרים: בא עני ועמד בפתח,
+
+
+      והוציאה לו פת לחם.'
+    lexemes:
+    - hahu
+    - yoma
+    - hava
+    - ika-deamri
+    - ata
+    source: בבלי, בבא מציעא נט ע״ב
+    vocalized: 'הָהוּא יוֹמָא רֵישׁ יַרְחָא הֲוָה, וְאִיחַלַּף לַהּ בֵּין מָלֵא לְחָסֵר. אִיכָּא דְּאָמְרִי: אֲתָא עַנְיָא וְקָאֵי אַבָּבָא, אַפִּיקָא לֵיהּ רִיפְתָּא'
+  - id: u02-l4-55
+    type: multiple_choice
+    passage: איכא דאמרי אתא עניא וקאי אבבא אפיקא ליה ריפתא
+    prompt: לפי ״איכא דאמרי״, מה קרה באותו יום?
+    options:
+    - בא עני, והיא יצאה לתת לו לחם
+    - רבי אליעזר יצא מהבית
+    - בא אליהו
+    correct: 0
+    lexemes:
+    - ika-deamri
+    - ata
+    source: בבלי, בבא מציעא נט ע״ב
+    vocalized: 'אִיכָּא דְּאָמְרִי: אֲתָא עַנְיָא וְקָאֵי אַבָּבָא, אַפִּיקָא לֵיהּ רִיפְתָּא'
+  - id: u02-l4-56
+    type: multiple_choice
+    prompt: ״מאי עביד קוב״ה בההיא שעתא?״ מה רבי נתן שואל?
+    options:
+    - מה עשה הקב״ה באותה שעה
+    - מתי בא אליהו
+    - למה רבי אליעזר כעס
+    correct: 0
+    lexemes:
+    - avid
+    - hahi
+    - shata
+    source: בבלי, בבא מציעא נט ע״ב
+    vocalized: מַאי עָבֵיד קוּדְשָׁא בְּרִיךְ הוּא בְּהַהִיא שַׁעְתָּא
+  - id: u02-l4-57
+    type: word_bank
+    prompt: רבי נתן מצא את אליהו
+    answers:
+    - אשכחיה רבי נתן לאליהו
+    distractors:
+    - נפק
+    - הוה
+    lexemes:
+    - ashkecheih
+    source: בבלי, בבא מציעא נט ע״ב
+    vocalized: אַשְׁכְּחֵיהּ רַבִּי נָתָן לְאֵלִיָּהוּ
+  - id: u02-l4-58
+    type: dialogue
+    scene: חנה מסדרת את המכתבים, ור׳ ישראל לוקח את המעיל.
+    lines:
+    - speaker: chana
+      text: במכתב סבא כותב שהוא חיפש מישהו אחרי המלחמה. ״ההוא גברא״, הוא קורא לו. בלי שם.
+      translation: רמז חדש
+    - speaker: yisrael
+      text: ״ההוא גברא״, ״אותו אדם״. כך הגמרא פותחת סיפורים על אנשים בלי שם. סבא ידע את זה.
+      translation: ההוא גברא
+    - speaker: eitan
+      text: אז מחר מחפשים את ״ההוא גברא״.
+      translation: ההמשך
+  - id: u02-l4-59
+    type: match_pairs
+    pairs:
+    - - אשכחיה
+      - מצא אותו
+    - - עביד
+      - עושה
+    - - נפק
+      - יצא
+    - - מנא
+      - מניין? מאיפה?
+    - - אינשי
+      - אנשים
+    - - אדהכי
+      - בינתיים
+    lexemes:
+    - ashkecheih
+    - avid
+    - nafak
+    - mena
+    - inshei
+    - adhachi

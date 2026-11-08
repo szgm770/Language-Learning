@@ -20,4 +20,11 @@ characters:
   - { id: "yisrael", name: "ר׳ ישראל", he: "ר׳ ישראל", color: "teal", look: "bald", pitch: 0.8 }
   - { id: "chana", name: "חנה", he: "חנה", color: "rose", look: "long", pitch: 1.15 }
 units:
+  - u00a-daf
+  - u00b-amar
   - u01-mai
+  - u02-eliyahu
+  - u03-ilan
+  - u04-sheelot
+  - u05-hai
+  - u06-ita

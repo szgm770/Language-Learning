@@ -1,0 +1,836 @@
+id: u03-ilan
+cefr: A1
+scene: study
+title:
+  he: ההוא גברא והאילן
+  en: That man and the tree
+story: 'חנה מוצאת במכתבים של סבא חיפוש אחרי ״ההוא גברא״. ר׳ ישראל מראה לאיתן סיפור על ״ההוא גברא״ בגמרא: רבי ינאי, האילן, ו״קשוט עצמך ואחר כך קשוט אחרים״.'
+canDo:
+- 'להבין סיפור מעשה בגמרא: הוה ליה, אתא לקמיה, אמר ליה'
+- 'להבין ציווי: זיל, תא, חזי'
+- 'להבין שלי, שלך, שלו: דידי, דידך, דידיה'
+vocabulary:
+- id: hava-leih
+  text: הוה ליה
+  translation: היה לו
+  pos: phrase
+  example:
+    text: ר' ינאי הוה ליה אילן הנוטה לרשות הרבים
+    translation: לרבי ינאי היה עץ הנוטה לרשות הרבים
+    source: בבלי, בבא בתרא ס ע״א
+    vocalized: רַבִּי יַנַּאי הֲוָה לֵיהּ אִילָן הַנּוֹטֶה לִרְשׁוּת הָרַבִּים
+- id: gavra
+  text: גברא
+  translation: אדם, איש
+  pos: noun
+  example:
+    text: הוה ההוא גברא דהוה ליה נמי אילן הנוטה לרשות הרבים
+    translation: היה אדם אחד שגם לו היה עץ הנוטה לרשות הרבים
+    source: בבלי, בבא בתרא ס ע״א
+    vocalized: הֲוָה הָהוּא גַּבְרָא דַּהֲוָה לֵיהּ נָמֵי אִילָן הַנּוֹטֶה לִרְשׁוּת הָרַבִּים
+- id: atu
+  text: אתו
+  translation: באו
+  pos: verb
+  example:
+    text: אתו בני רשות הרבים הוו קא מעכבי עילויה
+    translation: באו בני רשות הרבים ומחו נגדו
+    source: בבלי, בבא בתרא ס ע״א
+    vocalized: אֲתוֹ בְּנֵי רְשׁוּת הָרַבִּים הֲווֹ קָא מְעַכְּבִי עִילָּוֵיהּ
+- id: lekameih
+  text: לקמיה
+  translation: לפניו
+  pos: preposition
+  example:
+    text: אתא לקמיה דר' ינאי
+    translation: בא לפני רבי ינאי
+    source: בבלי, בבא בתרא ס ע״א
+    vocalized: אֲתָא לְקַמֵּיהּ דְּרַבִּי יַנַּאי
+- id: zil
+  text: זיל
+  translation: לך! (ציווי)
+  pos: verb
+  example:
+    text: זיל האידנא ותא למחר
+    translation: לך היום, ובוא מחר
+    source: בבלי, בבא בתרא ס ע״ב
+    vocalized: זִיל הָאִידָּנָא וְתָא לִמְחַר
+- id: haidna
+  text: האידנא
+  translation: היום, עכשיו
+  pos: adverb
+  example:
+    text: זיל האידנא ותא למחר
+    translation: לך היום, ובוא מחר
+    source: בבלי, בבא בתרא ס ע״ב
+    vocalized: זִיל הָאִידָּנָא וְתָא לִמְחַר
+- id: ta
+  text: תא
+  translation: בוא! (ציווי)
+  pos: verb
+  example:
+    text: זיל האידנא ותא למחר
+    translation: לך היום, ובוא מחר
+    source: בבלי, בבא בתרא ס ע״ב
+    vocalized: זִיל הָאִידָּנָא וְתָא לִמְחַר
+- id: leilya
+  text: ליליא
+  translation: לילה
+  pos: noun
+  example:
+    text: בליליא שדר קצייה לההוא דידיה
+    translation: בלילה שלח (אנשים) וקצץ את שלו
+    source: בבלי, בבא בתרא ס ע״ב
+    vocalized: בְּלֵילְיָא, שַׁדַּר קַצְיֵיהּ לְהָהוּא דִּידֵיהּ
+- id: shadar
+  text: שדר
+  translation: שלח
+  pos: verb
+  example:
+    text: בליליא שדר קצייה לההוא דידיה
+    translation: בלילה שלח (אנשים) וקצץ את שלו
+    source: בבלי, בבא בתרא ס ע״ב
+    vocalized: בְּלֵילְיָא, שַׁדַּר קַצְיֵיהּ לְהָהוּא דִּידֵיהּ
+- id: dideih
+  text: דידיה
+  translation: שלו
+  pos: pronoun
+  example:
+    text: בליליא שדר קצייה לההוא דידיה
+    translation: בלילה שלח (אנשים) וקצץ את שלו
+    source: בבלי, בבא בתרא ס ע״ב
+    vocalized: בְּלֵילְיָא, שַׁדַּר קַצְיֵיהּ לְהָהוּא דִּידֵיהּ
+- id: mar
+  text: מר
+  translation: 'אדוני (פנייה של כבוד); גם: חכם אחד'
+  pos: noun
+  example:
+    text: א"ל הא מר נמי אית ליה
+    translation: 'אמר לו: הרי גם לאדוני יש (עץ כזה)!'
+    source: בבלי, בבא בתרא ס ע״ב
+    vocalized: 'אָמַר לֵיהּ: הָא מָר נָמֵי אִית לֵיהּ'
+- id: it-leih
+  text: אית ליה
+  translation: יש לו
+  pos: phrase
+  example:
+    text: א"ל הא מר נמי אית ליה
+    translation: 'אמר לו: הרי גם לאדוני יש (עץ כזה)!'
+    source: בבלי, בבא בתרא ס ע״ב
+    vocalized: 'אָמַר לֵיהּ: הָא מָר נָמֵי אִית לֵיהּ'
+- id: chazi
+  text: חזי
+  translation: 'ראה! (ציווי); גם: רואה'
+  pos: verb
+  example:
+    text: א"ל זיל חזי אי קוץ דידי קוץ דידך
+    translation: 'אמר לו: לך וראה: אם קצוץ שלי, קצוץ שלך'
+    source: בבלי, בבא בתרא ס ע״ב
+    vocalized: 'אָמַר לֵיהּ: זִיל חֲזִי; אִי קוּץ דִּידִי קוֹץ דִּידָךְ'
+- id: didi
+  text: דידי
+  translation: שלי
+  pos: pronoun
+  example:
+    text: א"ל זיל חזי אי קוץ דידי קוץ דידך
+    translation: 'אמר לו: לך וראה: אם קצוץ שלי, קצוץ שלך'
+    source: בבלי, בבא בתרא ס ע״ב
+    vocalized: 'אָמַר לֵיהּ: זִיל חֲזִי; אִי קוּץ דִּידִי קוֹץ דִּידָךְ'
+- id: didach
+  text: דידך
+  translation: שלך
+  pos: pronoun
+  example:
+    text: א"ל זיל חזי אי קוץ דידי קוץ דידך
+    translation: 'אמר לו: לך וראה: אם קצוץ שלי, קצוץ שלך'
+    source: בבלי, בבא בתרא ס ע״ב
+    vocalized: 'אָמַר לֵיהּ: זִיל חֲזִי; אִי קוּץ דִּידִי קוֹץ דִּידָךְ'
+- id: meikara
+  text: מעיקרא
+  translation: בתחילה
+  pos: adverb
+  example:
+    text: מעיקרא מאי סבר ולבסוף מאי סבר
+    translation: בתחילה מה חשב, ולבסוף מה חשב?
+    source: בבלי, בבא בתרא ס ע״ב
+    vocalized: מֵעִיקָּרָא מַאי סְבַר וּלְבַסּוֹף מַאי סְבַר
+grammar: []
+lessons:
+- id: u03-l1
+  kind: new
+  title:
+    he: הוה ההוא גברא
+    en: There was a man
+  exercises:
+  - id: u03-l1-01
+    type: dialogue
+    scene: חנה פורשת על השולחן את המכתבים של סבא משנת 1946.
+    lines:
+    - speaker: chana
+      text: בכל המכתבים סבא שואל על אותו אדם. הוא לא כותב שם, רק ״ההוא גברא״.
+      translation: ההוא גברא = אותו אדם
+    - speaker: yisrael
+      text: ״גברא״ זה אדם. וכשהגמרא אומרת ״הוה ההוא גברא״, מתחיל סיפור.
+      translation: הוה ההוא גברא = היה אדם אחד
+    - speaker: eitan
+      text: ר׳ ישראל, אתה יודע מי זה?
+      translation: איתן חושד
+    - speaker: yisrael
+      text: בוא קודם נקרא סיפור אחר על ״ההוא גברא״. בבא בתרא, דף ס. סבא שלך אהב אותו מאוד.
+      translation: ר׳ ישראל מתחמק
+  - id: u03-l1-02
+    type: learn
+    lexeme: hava-leih
+  - id: u03-l1-03
+    type: learn
+    lexeme: gavra
+  - id: u03-l1-04
+    type: learn
+    lexeme: atu
+  - id: u03-l1-05
+    type: learn
+    lexeme: lekameih
+  - id: u03-l1-06
+    type: match_pairs
+    pairs:
+    - - הוה ליה
+      - היה לו
+    - - גברא
+      - אדם, איש
+    - - אתו
+      - באו
+    - - לקמיה
+      - לפניו
+    lexemes:
+    - hava-leih
+    - gavra
+    - atu
+    - lekameih
+  - id: u03-l1-07
+    type: multiple_choice
+    prompt: מה פירוש הוה ליה?
+    options:
+    - היה לו
+    - לך! (ציווי)
+    - לפניו
+    correct: 0
+    lexemes:
+    - hava-leih
+  - id: u03-l1-08
+    type: multiple_choice
+    prompt: מה פירוש גברא?
+    options:
+    - אדם, איש
+    - בוא! (ציווי)
+    - לך! (ציווי)
+    correct: 0
+    lexemes:
+    - gavra
+  - id: u03-l1-09
+    type: multiple_choice
+    prompt: מה פירוש אתו?
+    options:
+    - באו
+    - אדם, איש
+    - לפניו
+    correct: 0
+    lexemes:
+    - atu
+  - id: u03-l1-10
+    type: multiple_choice
+    prompt: מה פירוש לקמיה?
+    options:
+    - לפניו
+    - שלח
+    - היה לו
+    correct: 0
+    lexemes:
+    - lekameih
+  - id: u03-l1-11
+    type: fill_blank
+    sentence: ר' ינאי ___ ליה אילן הנוטה לרשות הרבים
+    translation: לרבי ינאי היה עץ הנוטה לרשות הרבים
+    answers:
+    - הוה
+    options:
+    - הוה
+    - מר
+    - דידיה
+    lexemes:
+    - hava-leih
+    source: בבלי, בבא בתרא ס ע״א
+    vocalized: רַבִּי יַנַּאי הֲוָה לֵיהּ אִילָן הַנּוֹטֶה לִרְשׁוּת הָרַבִּים
+  - id: u03-l1-12
+    type: fill_blank
+    sentence: הוה ההוא ___ דהוה ליה נמי אילן הנוטה לרשות הרבים
+    translation: היה אדם אחד שגם לו היה עץ הנוטה לרשות הרבים
+    answers:
+    - גברא
+    options:
+    - גברא
+    - שדר
+    - ליליא
+    lexemes:
+    - gavra
+    source: בבלי, בבא בתרא ס ע״א
+    vocalized: הֲוָה הָהוּא גַּבְרָא דַּהֲוָה לֵיהּ נָמֵי אִילָן הַנּוֹטֶה לִרְשׁוּת הָרַבִּים
+  - id: u03-l1-13
+    type: fill_blank
+    sentence: ___ בני רשות הרבים הוו קא מעכבי עילויה
+    translation: באו בני רשות הרבים ומחו נגדו
+    answers:
+    - אתו
+    options:
+    - אתו
+    - אית ליה
+    - גברא
+    lexemes:
+    - atu
+    source: בבלי, בבא בתרא ס ע״א
+    vocalized: אֲתוֹ בְּנֵי רְשׁוּת הָרַבִּים הֲווֹ קָא מְעַכְּבִי עִילָּוֵיהּ
+  - id: u03-l1-14
+    type: fill_blank
+    sentence: אתא ___ דר' ינאי
+    translation: בא לפני רבי ינאי
+    answers:
+    - לקמיה
+    options:
+    - לקמיה
+    - חזי
+    - תא
+    lexemes:
+    - lekameih
+    source: בבלי, בבא בתרא ס ע״א
+    vocalized: אֲתָא לְקַמֵּיהּ דְּרַבִּי יַנַּאי
+- id: u03-l2
+  kind: new
+  title:
+    he: זיל האידנא ותא למחר
+    en: Go today, come tomorrow
+  exercises:
+  - id: u03-l2-15
+    type: dialogue
+    scene: איתן קורא בקול, לאט, ור׳ ישראל מתקן.
+    lines:
+    - speaker: eitan
+      text: ״אתא לקמיה דר׳ ינאי״. האיש בא לרבי ינאי, כי האנשים כעסו על העץ שלו. ומה רבי ינאי ענה?
+      translation: הבעיה של האיש
+    - speaker: yisrael
+      text: ״זיל האידנא ותא למחר״. לך היום ובוא מחר.
+      translation: זיל = לך, תא = בוא
+    - speaker: eitan
+      text: למה למחר? הוא יכול היה לפסוק מיד.
+      translation: התמיהה של איתן
+    - speaker: yisrael
+      text: 'תמשיך לקרוא: ״בליליא שדר קצייה לההוא דידיה״. בלילה הוא קצץ קודם את העץ שלו.'
+      translation: הפתרון
+  - id: u03-l2-16
+    type: learn
+    lexeme: zil
+  - id: u03-l2-17
+    type: learn
+    lexeme: haidna
+  - id: u03-l2-18
+    type: learn
+    lexeme: ta
+  - id: u03-l2-19
+    type: learn
+    lexeme: leilya
+  - id: u03-l2-20
+    type: learn
+    lexeme: shadar
+  - id: u03-l2-21
+    type: learn
+    lexeme: dideih
+  - id: u03-l2-22
+    type: match_pairs
+    pairs:
+    - - זיל
+      - לך! (ציווי)
+    - - האידנא
+      - היום, עכשיו
+    - - תא
+      - בוא! (ציווי)
+    - - ליליא
+      - לילה
+    - - שדר
+      - שלח
+    - - דידיה
+      - שלו
+    lexemes:
+    - zil
+    - haidna
+    - ta
+    - leilya
+    - shadar
+    - dideih
+  - id: u03-l2-23
+    type: multiple_choice
+    prompt: מה פירוש זיל?
+    options:
+    - לך! (ציווי)
+    - שלי
+    - היום, עכשיו
+    correct: 0
+    lexemes:
+    - zil
+  - id: u03-l2-24
+    type: multiple_choice
+    prompt: מה פירוש האידנא?
+    options:
+    - היום, עכשיו
+    - לילה
+    - בתחילה
+    correct: 0
+    lexemes:
+    - haidna
+  - id: u03-l2-25
+    type: multiple_choice
+    prompt: מה פירוש תא?
+    options:
+    - בוא! (ציווי)
+    - לך! (ציווי)
+    - יש לו
+    correct: 0
+    lexemes:
+    - ta
+  - id: u03-l2-26
+    type: multiple_choice
+    prompt: מה פירוש ליליא?
+    options:
+    - לילה
+    - שלח
+    - יש לו
+    correct: 0
+    lexemes:
+    - leilya
+  - id: u03-l2-27
+    type: multiple_choice
+    prompt: מה פירוש שדר?
+    options:
+    - שלח
+    - שלי
+    - אדם, איש
+    correct: 0
+    lexemes:
+    - shadar
+  - id: u03-l2-28
+    type: multiple_choice
+    prompt: מה פירוש דידיה?
+    options:
+    - שלו
+    - שלי
+    - יש לו
+    correct: 0
+    lexemes:
+    - dideih
+  - id: u03-l2-29
+    type: fill_blank
+    sentence: ___ האידנא ותא למחר
+    translation: לך היום, ובוא מחר
+    answers:
+    - זיל
+    options:
+    - זיל
+    - שדר
+    - דידי
+    lexemes:
+    - zil
+    source: בבלי, בבא בתרא ס ע״ב
+    vocalized: זִיל הָאִידָּנָא וְתָא לִמְחַר
+  - id: u03-l2-30
+    type: fill_blank
+    sentence: זיל ___ ותא למחר
+    translation: לך היום, ובוא מחר
+    answers:
+    - האידנא
+    options:
+    - האידנא
+    - דידי
+    - מר
+    lexemes:
+    - haidna
+    source: בבלי, בבא בתרא ס ע״ב
+    vocalized: זִיל הָאִידָּנָא וְתָא לִמְחַר
+  - id: u03-l2-31
+    type: fill_blank
+    sentence: זיל האידנא ___ למחר
+    translation: לך היום, ובוא מחר
+    answers:
+    - ותא
+    options:
+    - ותא
+    - אית ליה
+    - האידנא
+    lexemes:
+    - ta
+    source: בבלי, בבא בתרא ס ע״ב
+    vocalized: זִיל הָאִידָּנָא וְתָא לִמְחַר
+  - id: u03-l2-32
+    type: fill_blank
+    sentence: ___ שדר קצייה לההוא דידיה
+    translation: בלילה שלח (אנשים) וקצץ את שלו
+    answers:
+    - בליליא
+    options:
+    - בליליא
+    - האידנא
+    - חזי
+    lexemes:
+    - leilya
+    source: בבלי, בבא בתרא ס ע״ב
+    vocalized: בְּלֵילְיָא, שַׁדַּר קַצְיֵיהּ לְהָהוּא דִּידֵיהּ
+  - id: u03-l2-33
+    type: fill_blank
+    sentence: בליליא ___ קצייה לההוא דידיה
+    translation: בלילה שלח (אנשים) וקצץ את שלו
+    answers:
+    - שדר
+    options:
+    - שדר
+    - האידנא
+    - אתו
+    lexemes:
+    - shadar
+    source: בבלי, בבא בתרא ס ע״ב
+    vocalized: בְּלֵילְיָא, שַׁדַּר קַצְיֵיהּ לְהָהוּא דִּידֵיהּ
+  - id: u03-l2-34
+    type: fill_blank
+    sentence: בליליא שדר קצייה לההוא ___
+    translation: בלילה שלח (אנשים) וקצץ את שלו
+    answers:
+    - דידיה
+    options:
+    - דידיה
+    - חזי
+    - תא
+    lexemes:
+    - dideih
+    source: בבלי, בבא בתרא ס ע״ב
+    vocalized: בְּלֵילְיָא, שַׁדַּר קַצְיֵיהּ לְהָהוּא דִּידֵיהּ
+- id: u03-l3
+  kind: new
+  title:
+    he: דידי ודידך
+    en: Mine and yours
+  exercises:
+  - id: u03-l3-35
+    type: tip
+    title: שלי, שלך, שלו
+    text: '**דידי** = שלי. **דידך** = שלך. **דידיה** = שלו.
+
+
+      **אית ליה** = יש לו, **לית ליה** = אין לו.
+
+
+      **מר** היא פנייה של כבוד, כמו ״אדוני״. ״הא מר נמי אית ליה״ = הרי גם לאדוני יש.'
+  - id: u03-l3-36
+    type: learn
+    lexeme: mar
+  - id: u03-l3-37
+    type: learn
+    lexeme: it-leih
+  - id: u03-l3-38
+    type: learn
+    lexeme: chazi
+  - id: u03-l3-39
+    type: learn
+    lexeme: didi
+  - id: u03-l3-40
+    type: learn
+    lexeme: didach
+  - id: u03-l3-41
+    type: learn
+    lexeme: meikara
+  - id: u03-l3-42
+    type: match_pairs
+    pairs:
+    - - מר
+      - 'אדוני (פנייה של כבוד); גם: חכם אחד'
+    - - אית ליה
+      - יש לו
+    - - חזי
+      - 'ראה! (ציווי); גם: רואה'
+    - - דידי
+      - שלי
+    - - דידך
+      - שלך
+    - - מעיקרא
+      - בתחילה
+    lexemes:
+    - mar
+    - it-leih
+    - chazi
+    - didi
+    - didach
+    - meikara
+  - id: u03-l3-43
+    type: multiple_choice
+    prompt: מה פירוש מר?
+    options:
+    - 'אדוני (פנייה של כבוד); גם: חכם אחד'
+    - לך! (ציווי)
+    - שלח
+    correct: 0
+    lexemes:
+    - mar
+  - id: u03-l3-44
+    type: multiple_choice
+    prompt: מה פירוש אית ליה?
+    options:
+    - יש לו
+    - לך! (ציווי)
+    - היה לו
+    correct: 0
+    lexemes:
+    - it-leih
+  - id: u03-l3-45
+    type: multiple_choice
+    prompt: מה פירוש חזי?
+    options:
+    - 'ראה! (ציווי); גם: רואה'
+    - שלו
+    - שלך
+    correct: 0
+    lexemes:
+    - chazi
+  - id: u03-l3-46
+    type: multiple_choice
+    prompt: מה פירוש דידי?
+    options:
+    - שלי
+    - 'אדוני (פנייה של כבוד); גם: חכם אחד'
+    - היום, עכשיו
+    correct: 0
+    lexemes:
+    - didi
+  - id: u03-l3-47
+    type: multiple_choice
+    prompt: מה פירוש דידך?
+    options:
+    - שלך
+    - לך! (ציווי)
+    - היה לו
+    correct: 0
+    lexemes:
+    - didach
+  - id: u03-l3-48
+    type: multiple_choice
+    prompt: מה פירוש מעיקרא?
+    options:
+    - בתחילה
+    - שלך
+    - באו
+    correct: 0
+    lexemes:
+    - meikara
+  - id: u03-l3-49
+    type: fill_blank
+    sentence: א"ל הא ___ נמי אית ליה
+    translation: 'אמר לו: הרי גם לאדוני יש (עץ כזה)!'
+    answers:
+    - מר
+    options:
+    - מר
+    - תא
+    - מעיקרא
+    lexemes:
+    - mar
+    source: בבלי, בבא בתרא ס ע״ב
+    vocalized: 'אָמַר לֵיהּ: הָא מָר נָמֵי אִית לֵיהּ'
+  - id: u03-l3-50
+    type: fill_blank
+    sentence: א"ל הא מר נמי ___ ליה
+    translation: 'אמר לו: הרי גם לאדוני יש (עץ כזה)!'
+    answers:
+    - אית
+    options:
+    - אית
+    - הוה ליה
+    - מר
+    lexemes:
+    - it-leih
+    source: בבלי, בבא בתרא ס ע״ב
+    vocalized: 'אָמַר לֵיהּ: הָא מָר נָמֵי אִית לֵיהּ'
+  - id: u03-l3-51
+    type: fill_blank
+    sentence: א"ל זיל ___ אי קוץ דידי קוץ דידך
+    translation: 'אמר לו: לך וראה: אם קצוץ שלי, קצוץ שלך'
+    answers:
+    - חזי
+    options:
+    - חזי
+    - מר
+    - ליליא
+    lexemes:
+    - chazi
+    source: בבלי, בבא בתרא ס ע״ב
+    vocalized: 'אָמַר לֵיהּ: זִיל חֲזִי; אִי קוּץ דִּידִי קוֹץ דִּידָךְ'
+  - id: u03-l3-52
+    type: fill_blank
+    sentence: א"ל זיל חזי אי קוץ ___ קוץ דידך
+    translation: 'אמר לו: לך וראה: אם קצוץ שלי, קצוץ שלך'
+    answers:
+    - דידי
+    options:
+    - דידי
+    - אתו
+    - לקמיה
+    lexemes:
+    - didi
+    source: בבלי, בבא בתרא ס ע״ב
+    vocalized: 'אָמַר לֵיהּ: זִיל חֲזִי; אִי קוּץ דִּידִי קוֹץ דִּידָךְ'
+  - id: u03-l3-53
+    type: fill_blank
+    sentence: א"ל זיל חזי אי קוץ דידי קוץ ___
+    translation: 'אמר לו: לך וראה: אם קצוץ שלי, קצוץ שלך'
+    answers:
+    - דידך
+    options:
+    - דידך
+    - ליליא
+    - גברא
+    lexemes:
+    - didach
+    source: בבלי, בבא בתרא ס ע״ב
+    vocalized: 'אָמַר לֵיהּ: זִיל חֲזִי; אִי קוּץ דִּידִי קוֹץ דִּידָךְ'
+  - id: u03-l3-54
+    type: fill_blank
+    sentence: ___ מאי סבר ולבסוף מאי סבר
+    translation: בתחילה מה חשב, ולבסוף מה חשב?
+    answers:
+    - מעיקרא
+    options:
+    - מעיקרא
+    - דידיה
+    - תא
+    lexemes:
+    - meikara
+    source: בבלי, בבא בתרא ס ע״ב
+    vocalized: מֵעִיקָּרָא מַאי סְבַר וּלְבַסּוֹף מַאי סְבַר
+- id: u03-l4
+  kind: review
+  title:
+    he: קשוט עצמך
+    en: Fix yourself first
+  exercises:
+  - id: u03-l4-55
+    type: reading
+    kind: גמרא, בבא בתרא ס ע״ב
+    title: רבי ינאי והאילן
+    text: 'זיל האידנא ותא למחר
+
+
+      בליליא שדר קצייה לההוא דידיה
+
+
+      למחר אתא לקמיה א"ל זיל קוץ
+
+
+      א"ל הא מר נמי אית ליה
+
+
+      א"ל זיל חזי אי קוץ דידי קוץ דידך אי לא קוץ דידי לא תקוץ את'
+    translation: '(אמר לו:) לך היום ובוא מחר.
+
+
+      בלילה שלח (אנשים) וקצץ את שלו.
+
+
+      למחר בא לפניו. אמר לו: לך, קצוץ (את העץ שלך).
+
+
+      אמר לו: הרי גם לאדוני יש (עץ כזה)!
+
+
+      אמר לו: לך וראה: אם שלי קצוץ, קצוץ את שלך. אם שלי לא קצוץ, אל תקצוץ אתה.'
+    lexemes:
+    - zil
+    - haidna
+    - ta
+    - shadar
+    - dideih
+    - mar
+    - it-leih
+    - chazi
+    - didi
+    - didach
+    source: בבלי, בבא בתרא ס ע״ב
+    vocalized: 'זִיל הָאִידָּנָא וְתָא לִמְחַר. בְּלֵילְיָא, שַׁדַּר קַצְיֵיהּ לְהָהוּא דִּידֵיהּ. לִמְחַר אֲתָא לְקַמֵּיהּ, אֲמַר לֵיהּ: זִיל קוֹץ. אָמַר לֵיהּ: הָא מָר נָמֵי אִית לֵיהּ! אָמַר לֵיהּ: זִיל חֲזִי; אִי קוּץ דִּידִי קוֹץ דִּידָךְ, אִי לָא קוּץ דִּידִי לָא תִּקּוֹץ אַתְּ'
+  - id: u03-l4-56
+    type: multiple_choice
+    passage: זיל האידנא ותא למחר בליליא שדר קצייה לההוא דידיה
+    prompt: למה רבי ינאי אמר ״זיל האידנא ותא למחר״?
+    options:
+    - כדי לקצוץ קודם את העץ שלו
+    - כי לא ידע את הדין
+    - כי היה עסוק
+    correct: 0
+    lexemes:
+    - zil
+    - haidna
+    source: בבלי, בבא בתרא ס ע״ב
+    vocalized: זִיל הָאִידָּנָא וְתָא לִמְחַר. בְּלֵילְיָא, שַׁדַּר קַצְיֵיהּ לְהָהוּא דִּידֵיהּ
+  - id: u03-l4-57
+    type: multiple_choice
+    prompt: ״הא מר נמי אית ליה״. מה האיש טוען?
+    options:
+    - שגם לרבי ינאי יש עץ כזה
+    - שאין לו עץ
+    - שרבי ינאי צריך לבוא אליו
+    correct: 0
+    lexemes:
+    - mar
+    - it-leih
+    source: בבלי, בבא בתרא ס ע״ב
+    vocalized: 'אָמַר לֵיהּ: הָא מָר נָמֵי אִית לֵיהּ'
+  - id: u03-l4-58
+    type: word_bank
+    prompt: בתחילה מה חשב, ולבסוף מה חשב?
+    answers:
+    - מעיקרא מאי סבר ולבסוף מאי סבר
+    distractors:
+    - זיל
+    - דידי
+    lexemes:
+    - meikara
+    source: בבלי, בבא בתרא ס ע״ב
+    vocalized: מֵעִיקָּרָא מַאי סְבַר וּלְבַסּוֹף מַאי סְבַר
+  - id: u03-l4-59
+    type: dialogue
+    scene: ר׳ ישראל סוגר את הגמרא.
+    lines:
+    - speaker: yisrael
+      text: '״התקוששו וקושו״: קשוט עצמך, ואחר כך קשוט אחרים. סבא שלך חי ככה.'
+      translation: המוסר של הסיפור
+    - speaker: chana
+      text: 'ובעמוד הזה הוא כתב בצד שאלות: מאן? היכא? אימת? אמאי?'
+      translation: רשימת שאלות
+    - speaker: eitan
+      text: ארבע שאלות. אני מכיר רק ״מאי״.
+      translation: ההמשך
+    - speaker: yisrael
+      text: אז מחר נלמד לשאול כמו הגמרא.
+      translation: ההמשך ביחידה הבאה
+  - id: u03-l4-60
+    type: match_pairs
+    pairs:
+    - - זיל
+      - לך! (ציווי)
+    - - תא
+      - בוא! (ציווי)
+    - - האידנא
+      - היום, עכשיו
+    - - דידי
+      - שלי
+    - - דידך
+      - שלך
+    - - מעיקרא
+      - בתחילה
+    lexemes:
+    - zil
+    - ta
+    - haidna
+    - didi
+    - didach
+    - meikara

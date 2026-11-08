@@ -1,0 +1,736 @@
+id: u04-sheelot
+cefr: A1
+scene: study
+title:
+  he: מאן? היכא? אימת? אמאי?
+  en: Who? Where? When? Why?
+story: בשולי הדף סבא כתב ארבע שאלות. ר׳ ישראל פותח עם איתן את הדף הראשון של הש״ס, ברכות ב, שכולו שאלות.
+canDo:
+- 'לזהות את מילות השאלה: מאן, היכא, אימת, אמאי, היכי דמי, מנלן'
+- להבין ״מאי טעמא״, ״מהו״, ״תיקו״
+- לקרוא את פתיחת הגמרא במסכת ברכות
+vocabulary:
+- id: heichi-dami
+  text: היכי דמי
+  translation: איך זה נראה? באיזה מקרה מדובר?
+  pos: phrase
+  example:
+    text: היכי דמי סולם המצרי אמרי דבי ר' ינאי כל שאין לו ארבעה חווקין
+    translation: 'איך נראה ׳סולם מצרי׳? אמרו בבית רבי ינאי: כל (סולם) שאין לו ארבעה שלבים'
+    source: בבלי, בבא בתרא נט ע״א
+    vocalized: 'הֵיכִי דָּמֵי סוּלָּם הַמִּצְרִי? אָמְרִי דְּבֵי רַבִּי יַנַּאי: כֹּל שֶׁאֵין לוֹ אַרְבָּעָה חֲווֹקִין'
+- id: heicha
+  text: היכא
+  translation: איפה? היכן?
+  pos: adverb
+  example:
+    text: תנא היכא קאי דקתני מאימתי
+    translation: התנא, על מה הוא עומד (סומך) ששונה ׳מאימתי׳?
+    source: בבלי, ברכות ב ע״א
+    vocalized: תַּנָּא הֵיכָא קָאֵי דְּקָתָנֵי מֵאֵימָתַי
+- id: kai
+  text: קאי
+  translation: 'עומד; גם: סומך על'
+  pos: verb
+  example:
+    text: תנא אקרא קאי דכתיב בשכבך ובקומך
+    translation: 'התנא סומך על הפסוק, שכתוב: ׳ובשכבך ובקומך׳'
+    source: בבלי, ברכות ב ע״א
+    vocalized: 'תַּנָּא אַקְּרָא קָאֵי, דִּכְתִיב: בְּשָׁכְבְּךָ וּבְקוּמֶךָ'
+- id: man
+  text: מאן
+  translation: מי?
+  pos: pronoun
+  example:
+    text: אתא לקמיה דרבי אמי אמר ליה מאן שם לך
+    translation: 'בא לפני רבי אמי. אמר לו: מי העריך (את הנכס) בשבילך?'
+    source: בבלי, כתובות צח ע״א
+    vocalized: 'אֲתָא לְקַמֵּיהּ דְּרַבִּי אַמֵּי. אֲמַר לֵיהּ: מַאן שָׁם לָךְ'
+- id: amai
+  text: אמאי
+  translation: למה?
+  pos: adverb
+  example:
+    text: אמאי נוגעין בעדותן הן
+    translation: למה (הם כשרים)? הרי הם נוגעים בעדותם (יש להם עניין בדבר)!
+    source: בבלי, בבא בתרא מג ע״א
+    vocalized: אַמַּאי? נוֹגְעִין בְּעֵדוּתָן הֵן
+- id: eimat
+  text: אימת
+  translation: מתי?
+  pos: adverb
+  example:
+    text: ועד אימת אמר רב נחמן בר יצחק עד זמן ברכה
+    translation: 'ועד מתי? אמר רב נחמן בר יצחק: עד זמן ברכה'
+    source: בבלי, ברכות כג ע״ב
+    vocalized: 'וְעַד אֵימַת? אָמַר רַב נַחְמָן בַּר יִצְחָק: עַד זְמַן בְּרָכָה'
+- id: menalan
+  text: מנלן
+  translation: מניין לנו? (מאיזה מקור?)
+  pos: adverb
+  example:
+    text: והתם מנלן
+    translation: ושם, מניין לנו?
+    source: בבלי, חגיגה יז ע״א
+    vocalized: וְהָתָם מְנָלַן
+- id: mai-taama
+  text: מאי טעמא
+  translation: 'מה הטעם? (בקיצור: מ״ט)'
+  pos: phrase
+  example:
+    text: מאי טעמא דרבי
+    translation: מה הטעם של רבי?
+    source: בבלי, מנחות מז ע״א
+    vocalized: מַאי טַעְמָא דְּרַבִּי
+- id: mahu
+  text: מהו
+  translation: מה הדין?
+  pos: pronoun
+  example:
+    text: בסירוגין מהו תיקו
+    translation: (אם הם) לסירוגין, מה הדין? תיקו (השאלה נשארת בספק)
+    source: בבלי, בבא בתרא סב ע״ב
+    vocalized: בְּסֵירוּגִין, מַהוּ? תֵּיקוּ
+- id: teiku
+  text: תיקו
+  translation: השאלה נשארת בספק
+  pos: phrase
+  example:
+    text: בסירוגין מהו תיקו
+    translation: (אם הם) לסירוגין, מה הדין? תיקו (השאלה נשארת בספק)
+    source: בבלי, בבא בתרא סב ע״ב
+    vocalized: בְּסֵירוּגִין, מַהוּ? תֵּיקוּ
+- id: mai-shna
+  text: מאי שנא
+  translation: מה שונה? למה דווקא?
+  pos: phrase
+  example:
+    text: ותו מאי שנא דתני בערבית ברישא לתני דשחרית ברישא
+    translation: 'ועוד: למה שנה (קריאת שמע) של ערבית קודם? שישנה של שחרית קודם!'
+    source: בבלי, ברכות ב ע״א
+    vocalized: 'וְתוּ: מַאי שְׁנָא דְּתָנֵי בְּעַרְבִית בְּרֵישָׁא? לִתְנֵי דְּשַׁחֲרִית בְּרֵישָׁא'
+- id: vetu
+  text: ותו
+  translation: ועוד (שאלה נוספת)
+  pos: adverb
+  example:
+    text: ותו מאי שנא דתני בערבית ברישא לתני דשחרית ברישא
+    translation: 'ועוד: למה שנה (קריאת שמע) של ערבית קודם? שישנה של שחרית קודם!'
+    source: בבלי, ברכות ב ע״א
+    vocalized: 'וְתוּ: מַאי שְׁנָא דְּתָנֵי בְּעַרְבִית בְּרֵישָׁא? לִתְנֵי דְּשַׁחֲרִית בְּרֵישָׁא'
+- id: berisha
+  text: ברישא
+  translation: בהתחלה, קודם
+  pos: adverb
+  example:
+    text: ותו מאי שנא דתני בערבית ברישא לתני דשחרית ברישא
+    translation: 'ועוד: למה שנה (קריאת שמע) של ערבית קודם? שישנה של שחרית קודם!'
+    source: בבלי, ברכות ב ע״א
+    vocalized: 'וְתוּ: מַאי שְׁנָא דְּתָנֵי בְּעַרְבִית בְּרֵישָׁא? לִתְנֵי דְּשַׁחֲרִית בְּרֵישָׁא'
+- id: dechtiv
+  text: דכתיב
+  translation: שכתוב (בפסוק)
+  pos: verb
+  example:
+    text: תנא אקרא קאי דכתיב בשכבך ובקומך
+    translation: 'התנא סומך על הפסוק, שכתוב: ׳ובשכבך ובקומך׳'
+    source: בבלי, ברכות ב ע״א
+    vocalized: 'תַּנָּא אַקְּרָא קָאֵי, דִּכְתִיב: בְּשָׁכְבְּךָ וּבְקוּמֶךָ'
+grammar: []
+lessons:
+- id: u04-l1
+  kind: new
+  title:
+    he: מאן והיכא
+    en: Who and where
+  exercises:
+  - id: u04-l1-01
+    type: dialogue
+    scene: 'ר׳ ישראל מוציא מהארון כרך ישן: מסכת ברכות.'
+    lines:
+    - speaker: yisrael
+      text: סבא שלך כתב בצד ארבע שאלות. כל הגמרא בנויה משאלות. בוא נתחיל מהדף הראשון של הש״ס.
+      translation: ברכות ב ע״א
+    - speaker: eitan
+      text: המשנה שואלת ״מאימתי קורין את שמע״. ומה הגמרא שואלת?
+      translation: השאלה במשנה
+    - speaker: yisrael
+      text: ״תנא היכא קאי?״ על מה התנא סומך? היכא = איפה. קאי = עומד.
+      translation: היכא קאי
+    - speaker: chana
+      text: וסבא כתב ״מאן?״. אני חושבת שהוא עדיין מחפש את ״ההוא גברא״.
+      translation: חנה מקשרת
+  - id: u04-l1-02
+    type: learn
+    lexeme: man
+  - id: u04-l1-03
+    type: learn
+    lexeme: heicha
+  - id: u04-l1-04
+    type: learn
+    lexeme: kai
+  - id: u04-l1-05
+    type: learn
+    lexeme: heichi-dami
+  - id: u04-l1-06
+    type: match_pairs
+    pairs:
+    - - מאן
+      - מי?
+    - - היכא
+      - איפה? היכן?
+    - - קאי
+      - 'עומד; גם: סומך על'
+    - - היכי דמי
+      - איך זה נראה? באיזה מקרה מדובר?
+    lexemes:
+    - man
+    - heicha
+    - kai
+    - heichi-dami
+  - id: u04-l1-07
+    type: multiple_choice
+    prompt: מה פירוש מאן?
+    options:
+    - מי?
+    - מתי?
+    - שכתוב (בפסוק)
+    correct: 0
+    lexemes:
+    - man
+  - id: u04-l1-08
+    type: multiple_choice
+    prompt: מה פירוש היכא?
+    options:
+    - איפה? היכן?
+    - 'עומד; גם: סומך על'
+    - שכתוב (בפסוק)
+    correct: 0
+    lexemes:
+    - heicha
+  - id: u04-l1-09
+    type: multiple_choice
+    prompt: מה פירוש קאי?
+    options:
+    - 'עומד; גם: סומך על'
+    - איפה? היכן?
+    - ועוד (שאלה נוספת)
+    correct: 0
+    lexemes:
+    - kai
+  - id: u04-l1-10
+    type: multiple_choice
+    prompt: מה פירוש היכי דמי?
+    options:
+    - איך זה נראה? באיזה מקרה מדובר?
+    - מתי?
+    - למה?
+    correct: 0
+    lexemes:
+    - heichi-dami
+  - id: u04-l1-11
+    type: fill_blank
+    sentence: אתא לקמיה דרבי אמי אמר ליה ___ שם לך
+    translation: 'בא לפני רבי אמי. אמר לו: מי העריך (את הנכס) בשבילך?'
+    answers:
+    - מאן
+    options:
+    - מאן
+    - ברישא
+    - מהו
+    lexemes:
+    - man
+    source: בבלי, כתובות צח ע״א
+    vocalized: 'אֲתָא לְקַמֵּיהּ דְּרַבִּי אַמֵּי. אֲמַר לֵיהּ: מַאן שָׁם לָךְ'
+  - id: u04-l1-12
+    type: fill_blank
+    sentence: תנא ___ קאי דקתני מאימתי
+    translation: התנא, על מה הוא עומד (סומך) ששונה ׳מאימתי׳?
+    answers:
+    - היכא
+    options:
+    - היכא
+    - מאי טעמא
+    - אימת
+    lexemes:
+    - heicha
+    source: בבלי, ברכות ב ע״א
+    vocalized: תַּנָּא הֵיכָא קָאֵי דְּקָתָנֵי מֵאֵימָתַי
+  - id: u04-l1-13
+    type: fill_blank
+    sentence: תנא אקרא ___ דכתיב בשכבך ובקומך
+    translation: 'התנא סומך על הפסוק, שכתוב: ׳ובשכבך ובקומך׳'
+    answers:
+    - קאי
+    options:
+    - קאי
+    - ותו
+    - מאן
+    lexemes:
+    - kai
+    source: בבלי, ברכות ב ע״א
+    vocalized: 'תַּנָּא אַקְּרָא קָאֵי, דִּכְתִיב: בְּשָׁכְבְּךָ וּבְקוּמֶךָ'
+  - id: u04-l1-14
+    type: fill_blank
+    sentence: ___ דמי סולם המצרי אמרי דבי ר' ינאי כל שאין לו ארבעה חווקין
+    translation: 'איך נראה ׳סולם מצרי׳? אמרו בבית רבי ינאי: כל (סולם) שאין לו ארבעה שלבים'
+    answers:
+    - היכי
+    options:
+    - היכי
+    - היכא
+    - אמאי
+    lexemes:
+    - heichi-dami
+    source: בבלי, בבא בתרא נט ע״א
+    vocalized: 'הֵיכִי דָּמֵי סוּלָּם הַמִּצְרִי? אָמְרִי דְּבֵי רַבִּי יַנַּאי: כֹּל שֶׁאֵין לוֹ אַרְבָּעָה חֲווֹקִין'
+- id: u04-l2
+  kind: new
+  title:
+    he: אימת ואמאי
+    en: When and why
+  exercises:
+  - id: u04-l2-15
+    type: tip
+    title: מילות שאלה
+    text: '**מאן** = מי. **היכא** = איפה. **אימת** = מתי. **אמאי** = למה.
+
+
+      **מאי טעמא** = מה הטעם (בקיצור **מ״ט**). **מנלן** = מניין לנו, מאיזה פסוק או מקור.'
+  - id: u04-l2-16
+    type: learn
+    lexeme: amai
+  - id: u04-l2-17
+    type: learn
+    lexeme: eimat
+  - id: u04-l2-18
+    type: learn
+    lexeme: menalan
+  - id: u04-l2-19
+    type: learn
+    lexeme: mai-taama
+  - id: u04-l2-20
+    type: match_pairs
+    pairs:
+    - - אמאי
+      - למה?
+    - - אימת
+      - מתי?
+    - - מנלן
+      - מניין לנו? (מאיזה מקור?)
+    - - מאי טעמא
+      - 'מה הטעם? (בקיצור: מ״ט)'
+    lexemes:
+    - amai
+    - eimat
+    - menalan
+    - mai-taama
+  - id: u04-l2-21
+    type: multiple_choice
+    prompt: מה פירוש אמאי?
+    options:
+    - למה?
+    - מניין לנו? (מאיזה מקור?)
+    - מי?
+    correct: 0
+    lexemes:
+    - amai
+  - id: u04-l2-22
+    type: multiple_choice
+    prompt: מה פירוש אימת?
+    options:
+    - מתי?
+    - איך זה נראה? באיזה מקרה מדובר?
+    - איפה? היכן?
+    correct: 0
+    lexemes:
+    - eimat
+  - id: u04-l2-23
+    type: multiple_choice
+    prompt: מה פירוש מנלן?
+    options:
+    - מניין לנו? (מאיזה מקור?)
+    - מה שונה? למה דווקא?
+    - מתי?
+    correct: 0
+    lexemes:
+    - menalan
+  - id: u04-l2-24
+    type: multiple_choice
+    prompt: מה פירוש מאי טעמא?
+    options:
+    - 'מה הטעם? (בקיצור: מ״ט)'
+    - 'עומד; גם: סומך על'
+    - מה שונה? למה דווקא?
+    correct: 0
+    lexemes:
+    - mai-taama
+  - id: u04-l2-25
+    type: fill_blank
+    sentence: ___ נוגעין בעדותן הן
+    translation: למה (הם כשרים)? הרי הם נוגעים בעדותם (יש להם עניין בדבר)!
+    answers:
+    - אמאי
+    options:
+    - אמאי
+    - מאן
+    - קאי
+    lexemes:
+    - amai
+    source: בבלי, בבא בתרא מג ע״א
+    vocalized: אַמַּאי? נוֹגְעִין בְּעֵדוּתָן הֵן
+  - id: u04-l2-26
+    type: fill_blank
+    sentence: ועד ___ אמר רב נחמן בר יצחק עד זמן ברכה
+    translation: 'ועד מתי? אמר רב נחמן בר יצחק: עד זמן ברכה'
+    answers:
+    - אימת
+    options:
+    - אימת
+    - תיקו
+    - מאי טעמא
+    lexemes:
+    - eimat
+    source: בבלי, ברכות כג ע״ב
+    vocalized: 'וְעַד אֵימַת? אָמַר רַב נַחְמָן בַּר יִצְחָק: עַד זְמַן בְּרָכָה'
+  - id: u04-l2-27
+    type: fill_blank
+    sentence: והתם ___
+    translation: ושם, מניין לנו?
+    answers:
+    - מנלן
+    options:
+    - מנלן
+    - דכתיב
+    - מאי טעמא
+    lexemes:
+    - menalan
+    source: בבלי, חגיגה יז ע״א
+    vocalized: וְהָתָם מְנָלַן
+  - id: u04-l2-28
+    type: fill_blank
+    sentence: מאי ___ דרבי
+    translation: מה הטעם של רבי?
+    answers:
+    - טעמא
+    options:
+    - טעמא
+    - מאי שנא
+    - מהו
+    lexemes:
+    - mai-taama
+    source: בבלי, מנחות מז ע״א
+    vocalized: מַאי טַעְמָא דְּרַבִּי
+- id: u04-l3
+  kind: new
+  title:
+    he: מהו? תיקו
+    en: What is the law? Undecided
+  exercises:
+  - id: u04-l3-29
+    type: dialogue
+    scene: איתן מגלה שיש שאלות שאין להן תשובה.
+    lines:
+    - speaker: eitan
+      text: כתוב פה ״מהו? תיקו״. מה, אין תשובה?
+      translation: תיקו
+    - speaker: yisrael
+      text: '״תיקו״: השאלה נשארת עומדת. יש בגמרא מאות כאלה, והיא לא מתביישת בזה.'
+      translation: תיקו = נשאר בספק
+    - speaker: eitan
+      text: גם במכתבים של סבא יש שאלה בלי תשובה.
+      translation: הקשר לסיפור
+    - speaker: yisrael
+      text: אולי. אבל לא לכל שאלה נשאר תיקו.
+      translation: ר׳ ישראל יודע משהו
+  - id: u04-l3-30
+    type: learn
+    lexeme: mahu
+  - id: u04-l3-31
+    type: learn
+    lexeme: teiku
+  - id: u04-l3-32
+    type: learn
+    lexeme: mai-shna
+  - id: u04-l3-33
+    type: learn
+    lexeme: vetu
+  - id: u04-l3-34
+    type: learn
+    lexeme: berisha
+  - id: u04-l3-35
+    type: learn
+    lexeme: dechtiv
+  - id: u04-l3-36
+    type: match_pairs
+    pairs:
+    - - מהו
+      - מה הדין?
+    - - תיקו
+      - השאלה נשארת בספק
+    - - מאי שנא
+      - מה שונה? למה דווקא?
+    - - ותו
+      - ועוד (שאלה נוספת)
+    - - ברישא
+      - בהתחלה, קודם
+    - - דכתיב
+      - שכתוב (בפסוק)
+    lexemes:
+    - mahu
+    - teiku
+    - mai-shna
+    - vetu
+    - berisha
+    - dechtiv
+  - id: u04-l3-37
+    type: multiple_choice
+    prompt: מה פירוש מהו?
+    options:
+    - מה הדין?
+    - ועוד (שאלה נוספת)
+    - איפה? היכן?
+    correct: 0
+    lexemes:
+    - mahu
+  - id: u04-l3-38
+    type: multiple_choice
+    prompt: מה פירוש תיקו?
+    options:
+    - השאלה נשארת בספק
+    - איפה? היכן?
+    - מתי?
+    correct: 0
+    lexemes:
+    - teiku
+  - id: u04-l3-39
+    type: multiple_choice
+    prompt: מה פירוש מאי שנא?
+    options:
+    - מה שונה? למה דווקא?
+    - מניין לנו? (מאיזה מקור?)
+    - איפה? היכן?
+    correct: 0
+    lexemes:
+    - mai-shna
+  - id: u04-l3-40
+    type: multiple_choice
+    prompt: מה פירוש ותו?
+    options:
+    - ועוד (שאלה נוספת)
+    - 'עומד; גם: סומך על'
+    - מתי?
+    correct: 0
+    lexemes:
+    - vetu
+  - id: u04-l3-41
+    type: multiple_choice
+    prompt: מה פירוש ברישא?
+    options:
+    - בהתחלה, קודם
+    - השאלה נשארת בספק
+    - מי?
+    correct: 0
+    lexemes:
+    - berisha
+  - id: u04-l3-42
+    type: multiple_choice
+    prompt: מה פירוש דכתיב?
+    options:
+    - שכתוב (בפסוק)
+    - מתי?
+    - בהתחלה, קודם
+    correct: 0
+    lexemes:
+    - dechtiv
+  - id: u04-l3-43
+    type: fill_blank
+    sentence: בסירוגין ___ תיקו
+    translation: (אם הם) לסירוגין, מה הדין? תיקו (השאלה נשארת בספק)
+    answers:
+    - מהו
+    options:
+    - מהו
+    - קאי
+    - היכי דמי
+    lexemes:
+    - mahu
+    source: בבלי, בבא בתרא סב ע״ב
+    vocalized: בְּסֵירוּגִין, מַהוּ? תֵּיקוּ
+  - id: u04-l3-44
+    type: fill_blank
+    sentence: בסירוגין מהו ___
+    translation: (אם הם) לסירוגין, מה הדין? תיקו (השאלה נשארת בספק)
+    answers:
+    - תיקו
+    options:
+    - תיקו
+    - קאי
+    - היכי דמי
+    lexemes:
+    - teiku
+    source: בבלי, בבא בתרא סב ע״ב
+    vocalized: בְּסֵירוּגִין, מַהוּ? תֵּיקוּ
+  - id: u04-l3-45
+    type: fill_blank
+    sentence: ותו מאי ___ דתני בערבית ברישא לתני דשחרית ברישא
+    translation: 'ועוד: למה שנה (קריאת שמע) של ערבית קודם? שישנה של שחרית קודם!'
+    answers:
+    - שנא
+    options:
+    - שנא
+    - אמאי
+    - אימת
+    lexemes:
+    - mai-shna
+    source: בבלי, ברכות ב ע״א
+    vocalized: 'וְתוּ: מַאי שְׁנָא דְּתָנֵי בְּעַרְבִית בְּרֵישָׁא? לִתְנֵי דְּשַׁחֲרִית בְּרֵישָׁא'
+  - id: u04-l3-46
+    type: fill_blank
+    sentence: ___ מאי שנא דתני בערבית ברישא לתני דשחרית ברישא
+    translation: 'ועוד: למה שנה (קריאת שמע) של ערבית קודם? שישנה של שחרית קודם!'
+    answers:
+    - ותו
+    options:
+    - ותו
+    - אימת
+    - מאן
+    lexemes:
+    - vetu
+    source: בבלי, ברכות ב ע״א
+    vocalized: 'וְתוּ: מַאי שְׁנָא דְּתָנֵי בְּעַרְבִית בְּרֵישָׁא? לִתְנֵי דְּשַׁחֲרִית בְּרֵישָׁא'
+  - id: u04-l3-47
+    type: fill_blank
+    sentence: ותו מאי שנא דתני בערבית ___ לתני דשחרית ברישא
+    translation: 'ועוד: למה שנה (קריאת שמע) של ערבית קודם? שישנה של שחרית קודם!'
+    answers:
+    - ברישא
+    options:
+    - ברישא
+    - ותו
+    - היכי דמי
+    lexemes:
+    - berisha
+    source: בבלי, ברכות ב ע״א
+    vocalized: 'וְתוּ: מַאי שְׁנָא דְּתָנֵי בְּעַרְבִית בְּרֵישָׁא? לִתְנֵי דְּשַׁחֲרִית בְּרֵישָׁא'
+  - id: u04-l3-48
+    type: fill_blank
+    sentence: תנא אקרא קאי ___ בשכבך ובקומך
+    translation: 'התנא סומך על הפסוק, שכתוב: ׳ובשכבך ובקומך׳'
+    answers:
+    - דכתיב
+    options:
+    - דכתיב
+    - ותו
+    - אמאי
+    lexemes:
+    - dechtiv
+    source: בבלי, ברכות ב ע״א
+    vocalized: 'תַּנָּא אַקְּרָא קָאֵי, דִּכְתִיב: בְּשָׁכְבְּךָ וּבְקוּמֶךָ'
+- id: u04-l4
+  kind: review
+  title:
+    he: הדף הראשון
+    en: The first page
+  exercises:
+  - id: u04-l4-49
+    type: reading
+    kind: גמרא, ברכות ב ע״א
+    title: תנא היכא קאי
+    text: 'תנא היכא קאי דקתני מאימתי
+
+
+      ותו מאי שנא דתני בערבית ברישא לתני דשחרית ברישא
+
+
+      תנא אקרא קאי דכתיב בשכבך ובקומך'
+    translation: 'התנא, על מה הוא עומד (סומך) ששונה ׳מאימתי׳ (בלי להקדים שיש חובה)?
+
+
+      ועוד: למה שנה (קריאת שמע) של ערבית קודם? שישנה של שחרית קודם!
+
+
+      התנא סומך על הפסוק, שכתוב: ׳ובשכבך ובקומך׳ (שכיבה קודם).'
+    lexemes:
+    - heicha
+    - kai
+    - mai-shna
+    - vetu
+    - berisha
+    - dechtiv
+    source: בבלי, ברכות ב ע״א
+    vocalized: 'תַּנָּא הֵיכָא קָאֵי דְּקָתָנֵי מֵאֵימָתַי? וְתוּ: מַאי שְׁנָא דְּתָנֵי בְּעַרְבִית בְּרֵישָׁא? לִתְנֵי דְּשַׁחֲרִית בְּרֵישָׁא! תַּנָּא אַקְּרָא קָאֵי, דִּכְתִיב: בְּשָׁכְבְּךָ וּבְקוּמֶךָ'
+  - id: u04-l4-50
+    type: multiple_choice
+    prompt: ״תנא אקרא קאי דכתיב בשכבך ובקומך״. לפי התשובה, למה המשנה פותחת בערבית?
+    options:
+    - כי בפסוק כתוב ׳בשכבך׳ לפני ׳ובקומך׳
+    - כי הערב חשוב יותר
+    - כי כך נהגו בבית המדרש
+    correct: 0
+    lexemes:
+    - kai
+    - dechtiv
+    source: בבלי, ברכות ב ע״א
+    vocalized: 'תַּנָּא אַקְּרָא קָאֵי, דִּכְתִיב: בְּשָׁכְבְּךָ וּבְקוּמֶךָ'
+  - id: u04-l4-51
+    type: multiple_choice
+    prompt: ״מאן שם לך?״ מה רבי אמי שואל?
+    options:
+    - מי העריך בשבילך
+    - למה באת
+    - מתי באת
+    correct: 0
+    lexemes:
+    - man
+    source: בבלי, כתובות צח ע״א
+    vocalized: מַאן שָׁם לָךְ
+  - id: u04-l4-52
+    type: fill_blank
+    sentence: ועד ___ אמר רב נחמן בר יצחק עד זמן ברכה
+    translation: 'ועד מתי? אמר רב נחמן בר יצחק: עד זמן ברכה'
+    answers:
+    - אימת
+    options:
+    - אימת
+    - היכא
+    - מאן
+    lexemes:
+    - eimat
+    source: בבלי, ברכות כג ע״ב
+    vocalized: 'וְעַד אֵימַת? אָמַר רַב נַחְמָן בַּר יִצְחָק: עַד זְמַן בְּרָכָה'
+  - id: u04-l4-53
+    type: dialogue
+    scene: חנה מצלמת את העמוד עם ההערות.
+    lines:
+    - speaker: chana
+      text: 'בתחתית העמוד סבא הדביק תמונה קטנה. ילד עם כיפה, ומתחת כתוב: ״האי ינוקא״.'
+      translation: תמונה בגמרא
+    - speaker: yisrael
+      text: ״האי״ = הזה. ״ינוקא״ = ילד. הילד הזה.
+      translation: האי ינוקא
+    - speaker: eitan
+      text: זה סבא? או מישהו אחר?
+      translation: ההמשך
+  - id: u04-l4-54
+    type: match_pairs
+    pairs:
+    - - מאן
+      - מי?
+    - - היכא
+      - איפה? היכן?
+    - - אימת
+      - מתי?
+    - - אמאי
+      - למה?
+    - - מנלן
+      - מניין לנו? (מאיזה מקור?)
+    - - תיקו
+      - השאלה נשארת בספק
+    lexemes:
+    - man
+    - heicha
+    - eimat
+    - amai
+    - menalan
+    - teiku
