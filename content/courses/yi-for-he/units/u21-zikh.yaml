@@ -1,0 +1,385 @@
+id: u21-zikh
+cefr: B1
+scene: day
+title:
+  he: פעלים חוזרים
+  en: Reflexive verbs
+story: בבוקר בכפר מנחם רוחץ ידיים ושמח לקראת הנסיעה.
+canDo:
+- להשתמש ב־זיך
+- לתאר פעולה שאני עושה לעצמי
+- לומר שאני שמח
+vocabulary:
+- id: vashn
+  text: וואַשן
+  translation: לרחוץ
+  pos: verb
+- id: zikh
+  text: זיך
+  translation: את עצמו
+  pos: pronoun
+- id: freyen
+  text: פֿרײַען
+  translation: לשמוח
+  pos: verb
+- id: bakenen
+  text: באַקענען
+  translation: להכיר
+  pos: verb
+lessons:
+- id: u21-l1
+  kind: new
+  title:
+    he: זיך
+    en: Lesson
+  exercises:
+  - id: u21-l1-01
+    type: tip
+    title: פעלים חוזרים
+    text: 'כשהפעולה חוזרת על עושה אותה, יש **זיך**: **איך וואַש זיך** (אני רוחץ), **איך פֿרײַ זיך** (אני שמח).
+
+      **זיך** משמש לכל גוף, ובא אחרי הפועל: **ער וואַשט זיך**.
+
+      **איך וויל זיך באַקענען** פירושו "אני רוצה להכיר".
+
+      '
+  - id: u21-l1-02
+    type: learn
+    lexeme: vashn
+  - id: u21-l1-03
+    type: learn
+    lexeme: zikh
+  - id: u21-l1-04
+    type: learn
+    lexeme: freyen
+  - id: u21-l1-05
+    type: learn
+    lexeme: bakenen
+  - id: u21-l1-06
+    type: match_pairs
+    pairs:
+    - - וואַשן
+      - לרחוץ
+    - - זיך
+      - את עצמו
+    - - פֿרײַען
+      - לשמוח
+    - - באַקענען
+      - להכיר
+    lexemes:
+    - vashn
+    - zikh
+    - freyen
+    - bakenen
+  - id: u21-l1-07
+    type: multiple_choice
+    prompt: מה פירוש וואַשן?
+    options:
+    - לרחוץ
+    - לשמוח
+    - להכיר
+    correct: 0
+    lexemes:
+    - vashn
+  - id: u21-l1-08
+    type: multiple_choice
+    prompt: מה פירוש זיך?
+    options:
+    - את עצמו
+    - לרחוץ
+    - לשמוח
+    correct: 0
+    lexemes:
+    - zikh
+  - id: u21-l1-09
+    type: multiple_choice
+    prompt: מה פירוש פֿרײַען?
+    options:
+    - לשמוח
+    - לרחוץ
+    - להכיר
+    correct: 0
+    lexemes:
+    - freyen
+  - id: u21-l1-10
+    type: multiple_choice
+    prompt: מה פירוש באַקענען?
+    options:
+    - להכיר
+    - לרחוץ
+    - לשמוח
+    correct: 0
+    lexemes:
+    - bakenen
+  - id: u21-l1-11
+    type: translate
+    direction: to_source
+    prompt: איך וואַש זיך.
+    answers:
+    - אני רוחץ את עצמי
+    - אני רוחץ
+    lexemes: &id001
+    - ikh
+    - vashn
+    - zikh
+  - id: u21-l1-12
+    type: translate
+    direction: to_target
+    prompt: אני רוחץ את עצמי
+    answers:
+    - איך וואַש זיך
+    lexemes: *id001
+  - id: u21-l1-13
+    type: word_bank
+    prompt: אני רוחץ את עצמי
+    answers:
+    - איך וואַש זיך
+    distractors:
+    - זיך
+    - באַקענען
+    lexemes: *id001
+  - id: u21-l1-14
+    type: translate
+    direction: to_source
+    prompt: ער וואַשט זיך אין דער פֿרי.
+    answers:
+    - הוא רוחץ בבוקר
+    lexemes: &id002
+    - er
+    - vashn
+    - zikh
+    - fri
+  - id: u21-l1-15
+    type: translate
+    direction: to_target
+    prompt: הוא רוחץ בבוקר
+    answers:
+    - ער וואַשט זיך אין דער פֿרי
+    lexemes: *id002
+  - id: u21-l1-16
+    type: word_bank
+    prompt: הוא רוחץ בבוקר
+    answers:
+    - ער וואַשט זיך אין דער פֿרי
+    distractors:
+    - וואַשן
+    - באַקענען
+    lexemes: *id002
+  - id: u21-l1-17
+    type: fill_blank
+    sentence: ער וואַשט ___ אין דער פֿרי.
+    translation: הוא רוחץ בבוקר
+    answers:
+    - זיך
+    options:
+    - זיך
+    - באַקענען
+    - פֿרײַען
+    lexemes: *id002
+  - id: u21-l1-18
+    type: translate
+    direction: to_source
+    prompt: מיר פֿרײַען זיך.
+    answers:
+    - אנחנו שמחים
+    lexemes: &id003
+    - mir
+    - freyen
+    - zikh
+  - id: u21-l1-19
+    type: translate
+    direction: to_target
+    prompt: אנחנו שמחים
+    answers:
+    - מיר פֿרײַען זיך
+    lexemes: *id003
+  - id: u21-l1-20
+    type: word_bank
+    prompt: אנחנו שמחים
+    answers:
+    - מיר פֿרײַען זיך
+    distractors:
+    - זיך
+    - וואַשן
+    lexemes: *id003
+  - id: u21-l1-21
+    type: translate
+    direction: to_source
+    prompt: איך פֿרײַ זיך צו זען דעם רבי.
+    answers:
+    - אני שמח לראות את הרבי
+    lexemes: &id004
+    - ikh
+    - freyen
+    - zikh
+    - rebe
+  - id: u21-l1-22
+    type: translate
+    direction: to_target
+    prompt: אני שמח לראות את הרבי
+    answers:
+    - איך פֿרײַ זיך צו זען דעם רבי
+    lexemes: *id004
+  - id: u21-l1-23
+    type: word_bank
+    prompt: אני שמח לראות את הרבי
+    answers:
+    - איך פֿרײַ זיך צו זען דעם רבי
+    distractors:
+    - פֿרײַען
+    - וואַשן
+    lexemes: *id004
+  - id: u21-l1-24
+    type: fill_blank
+    sentence: איך פֿרײַ ___ צו זען דעם רבי.
+    translation: אני שמח לראות את הרבי
+    answers:
+    - זיך
+    options:
+    - זיך
+    - פֿרײַען
+    - וואַשן
+    lexemes: *id004
+  - id: u21-l1-25
+    type: translate
+    direction: to_source
+    prompt: איך וויל זיך באַקענען.
+    answers:
+    - אני רוצה להכיר
+    - אני רוצה להתוודע
+    lexemes: &id005
+    - vil
+    - bakenen
+    - zikh
+  - id: u21-l1-26
+    type: translate
+    direction: to_target
+    prompt: אני רוצה להכיר
+    answers:
+    - איך וויל זיך באַקענען
+    lexemes: *id005
+  - id: u21-l1-27
+    type: word_bank
+    prompt: אני רוצה להכיר
+    answers:
+    - איך וויל זיך באַקענען
+    distractors:
+    - באַקענען
+    - וואַשן
+    lexemes: *id005
+- id: u21-review
+  kind: review
+  title:
+    he: 'חזרה: פעלים חוזרים'
+    en: Review
+  exercises:
+  - id: u21-review-01
+    type: match_pairs
+    pairs:
+    - - וואַשן
+      - לרחוץ
+    - - זיך
+      - את עצמו
+    - - פֿרײַען
+      - לשמוח
+    - - באַקענען
+      - להכיר
+    lexemes:
+    - vashn
+    - zikh
+    - freyen
+    - bakenen
+  - id: u21-review-02
+    type: translate
+    direction: to_source
+    prompt: איך וואַש זיך.
+    answers:
+    - אני רוחץ את עצמי
+    - אני רוחץ
+    lexemes: *id001
+  - id: u21-review-03
+    type: translate
+    direction: to_target
+    prompt: אני רוחץ את עצמי
+    answers:
+    - איך וואַש זיך
+    lexemes: *id001
+  - id: u21-review-04
+    type: word_bank
+    prompt: אני רוחץ את עצמי
+    answers:
+    - איך וואַש זיך
+    distractors:
+    - זיך
+    - באַקענען
+    lexemes: *id001
+  - id: u21-review-05
+    type: translate
+    direction: to_source
+    prompt: ער וואַשט זיך אין דער פֿרי.
+    answers:
+    - הוא רוחץ בבוקר
+    lexemes: *id002
+  - id: u21-review-06
+    type: translate
+    direction: to_target
+    prompt: הוא רוחץ בבוקר
+    answers:
+    - ער וואַשט זיך אין דער פֿרי
+    lexemes: *id002
+  - id: u21-review-07
+    type: word_bank
+    prompt: הוא רוחץ בבוקר
+    answers:
+    - ער וואַשט זיך אין דער פֿרי
+    distractors:
+    - וואַשן
+    - באַקענען
+    lexemes: *id002
+  - id: u21-review-08
+    type: translate
+    direction: to_source
+    prompt: מיר פֿרײַען זיך.
+    answers:
+    - אנחנו שמחים
+    lexemes: *id003
+  - id: u21-review-09
+    type: translate
+    direction: to_target
+    prompt: אנחנו שמחים
+    answers:
+    - מיר פֿרײַען זיך
+    lexemes: *id003
+  - id: u21-review-10
+    type: word_bank
+    prompt: אנחנו שמחים
+    answers:
+    - מיר פֿרײַען זיך
+    distractors:
+    - זיך
+    - וואַשן
+    lexemes: *id003
+  - id: u21-review-11
+    type: write
+    prompt: כתבו 3 משפטים על מה שאתם עושים בבוקר. השתמשו ב־זיך לפחות פעם אחת.
+    minWords: 10
+    checks:
+    - label: השתמשתם ב־זיך
+      any:
+      - זיך
+    - label: הזכרתם פועל בבוקר
+      any:
+      - וואשן
+      - וואש
+      - דאוון
+      - לערן
+      - עס
+      - טרינק
+    - label: הזכרתם זמן או מקום
+      any:
+      - פרי
+      - שול
+      - הויז
+      - קיך
+    model: אין דער פֿרי וואַש איך זיך. דערנאָך דאַוון איך אין שול. איך פֿרײַ זיך צו לערנען.
+    lexemes: []

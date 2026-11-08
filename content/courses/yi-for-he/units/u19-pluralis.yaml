@@ -1,0 +1,461 @@
+id: u19-pluralis
+cefr: B1
+scene: study
+title:
+  he: רבים
+  en: Plurals
+story: מנחם סופר את הספרים והילדים בכפר ולומד איך מרבים שמות עצם.
+canDo:
+- ליצור רבים של שמות עצם נפוצים
+- לומר 'יש הרבה'
+- להשתמש ב־זענען
+vocabulary:
+- id: bukh
+  text: בוך
+  translation: ספר
+  pos: noun
+- id: bikher
+  text: ביכער
+  translation: ספרים
+  pos: noun
+- id: kinder
+  text: קינדער
+  translation: ילדים
+  pos: noun
+- id: tishn
+  text: טישן
+  translation: שולחנות
+  pos: noun
+- id: heyzer
+  text: הײַזער
+  translation: בתים
+  pos: noun
+- id: shuln
+  text: שולן
+  translation: בתי כנסת
+  pos: noun
+- id: teg
+  text: טעג
+  translation: ימים
+  pos: noun
+- id: fil
+  text: פֿיל
+  translation: הרבה
+  pos: adverb
+lessons:
+- id: u19-l1
+  kind: new
+  title:
+    he: רבים
+    en: Lesson
+  exercises:
+  - id: u19-l1-01
+    type: tip
+    title: רבים
+    text: 'ביידיש יש כמה סוגי רבים: **-ן** (טיש→טישן, שול→שולן), **-ער** (בוך→ביכער, קינד→קינדער, הויז→הײַזער), ושינוי תנועה (טאָג→טעג).
+
+      בלשון רבים הפועל "זײַן" הוא **זענען**: **עס זענען דאָ פֿיל שולן** (יש הרבה בתי כנסת).
+
+      **פֿיל** פירושו "הרבה".
+
+      '
+  - id: u19-l1-02
+    type: learn
+    lexeme: bukh
+  - id: u19-l1-03
+    type: learn
+    lexeme: bikher
+  - id: u19-l1-04
+    type: learn
+    lexeme: kinder
+  - id: u19-l1-05
+    type: learn
+    lexeme: tishn
+  - id: u19-l1-06
+    type: learn
+    lexeme: heyzer
+  - id: u19-l1-07
+    type: learn
+    lexeme: shuln
+  - id: u19-l1-08
+    type: learn
+    lexeme: fil
+  - id: u19-l1-09
+    type: match_pairs
+    pairs:
+    - - בוך
+      - ספר
+    - - ביכער
+      - ספרים
+    - - קינדער
+      - ילדים
+    - - טישן
+      - שולחנות
+    - - הײַזער
+      - בתים
+    - - שולן
+      - בתי כנסת
+    lexemes:
+    - bukh
+    - bikher
+    - kinder
+    - tishn
+    - heyzer
+    - shuln
+  - id: u19-l1-10
+    type: multiple_choice
+    prompt: מה פירוש בוך?
+    options:
+    - ספר
+    - ספרים
+    - ילדים
+    correct: 0
+    lexemes:
+    - bukh
+  - id: u19-l1-11
+    type: multiple_choice
+    prompt: מה פירוש ביכער?
+    options:
+    - ספרים
+    - ספר
+    - ילדים
+    correct: 0
+    lexemes:
+    - bikher
+  - id: u19-l1-12
+    type: multiple_choice
+    prompt: מה פירוש קינדער?
+    options:
+    - ילדים
+    - ספר
+    - ספרים
+    correct: 0
+    lexemes:
+    - kinder
+  - id: u19-l1-13
+    type: multiple_choice
+    prompt: מה פירוש טישן?
+    options:
+    - שולחנות
+    - ספר
+    - ספרים
+    correct: 0
+    lexemes:
+    - tishn
+  - id: u19-l1-14
+    type: multiple_choice
+    prompt: מה פירוש הײַזער?
+    options:
+    - בתים
+    - ספר
+    - ספרים
+    correct: 0
+    lexemes:
+    - heyzer
+  - id: u19-l1-15
+    type: translate
+    direction: to_source
+    prompt: איך האָב פֿיל ביכער.
+    answers:
+    - יש לי הרבה ספרים
+    lexemes: &id001
+    - hobn
+    - fil
+    - bikher
+  - id: u19-l1-16
+    type: translate
+    direction: to_target
+    prompt: יש לי הרבה ספרים
+    answers:
+    - איך האָב פֿיל ביכער
+    lexemes: *id001
+  - id: u19-l1-17
+    type: word_bank
+    prompt: יש לי הרבה ספרים
+    answers:
+    - איך האָב פֿיל ביכער
+    distractors:
+    - שולן
+    - בוך
+    lexemes: *id001
+  - id: u19-l1-18
+    type: translate
+    direction: to_source
+    prompt: עס זענען דאָ פֿיל שולן.
+    answers:
+    - יש הרבה בתי כנסת
+    lexemes: &id002
+    - do
+    - fil
+    - shuln
+  - id: u19-l1-19
+    type: translate
+    direction: to_target
+    prompt: יש הרבה בתי כנסת
+    answers:
+    - עס זענען דאָ פֿיל שולן
+    lexemes: *id002
+  - id: u19-l1-20
+    type: word_bank
+    prompt: יש הרבה בתי כנסת
+    answers:
+    - עס זענען דאָ פֿיל שולן
+    distractors:
+    - טישן
+    - בוך
+    lexemes: *id002
+  - id: u19-l1-21
+    type: translate
+    direction: to_source
+    prompt: די קינדער גייען אין שול.
+    answers:
+    - הילדים הולכים לבית הכנסת
+    lexemes: &id003
+    - kinder
+    - geyn
+    - in
+    - shul
+  - id: u19-l1-22
+    type: translate
+    direction: to_target
+    prompt: הילדים הולכים לבית הכנסת
+    answers:
+    - די קינדער גייען אין שול
+    lexemes: *id003
+  - id: u19-l1-23
+    type: word_bank
+    prompt: הילדים הולכים לבית הכנסת
+    answers:
+    - די קינדער גייען אין שול
+    distractors:
+    - טישן
+    - בוך
+    lexemes: *id003
+  - id: u19-l1-24
+    type: fill_blank
+    sentence: די ___ גייען אין שול.
+    translation: הילדים הולכים לבית הכנסת
+    answers:
+    - קינדער
+    options:
+    - קינדער
+    - פֿיל
+    - הײַזער
+    lexemes: *id003
+- id: u19-l2
+  kind: new
+  title:
+    he: הרבה
+    en: Lesson
+  exercises:
+  - id: u19-l2-01
+    type: learn
+    lexeme: teg
+  - id: u19-l2-02
+    type: learn
+    lexeme: fil
+  - id: u19-l2-03
+    type: dialogue
+    scene: home
+    lines:
+    - speaker: menachem
+      text: זיידע, איך האָב פֿיל ביכער.
+      translation: סבא, יש לי הרבה ספרים.
+    - speaker: zeyde
+      text: גוט, די ביכער זענען אין שטוב.
+      translation: טוב, הספרים בחדר.
+  - id: u19-l2-04
+    type: multiple_choice
+    prompt: מה פירוש טעג?
+    options:
+    - ימים
+    - ספר
+    - ספרים
+    correct: 0
+    lexemes:
+    - teg
+  - id: u19-l2-05
+    type: multiple_choice
+    prompt: מה פירוש פֿיל?
+    options:
+    - הרבה
+    - ספר
+    - ספרים
+    correct: 0
+    lexemes:
+    - fil
+  - id: u19-l2-06
+    type: translate
+    direction: to_source
+    prompt: עס זענען דאָ צוויי טישן.
+    answers:
+    - יש שני שולחנות
+    lexemes: &id004
+    - do
+    - w-tsvey
+    - tishn
+  - id: u19-l2-07
+    type: translate
+    direction: to_target
+    prompt: יש שני שולחנות
+    answers:
+    - עס זענען דאָ צוויי טישן
+    lexemes: *id004
+  - id: u19-l2-08
+    type: word_bank
+    prompt: יש שני שולחנות
+    answers:
+    - עס זענען דאָ צוויי טישן
+    distractors:
+    - הײַזער
+    - קינדער
+    lexemes: *id004
+  - id: u19-l2-09
+    type: translate
+    direction: to_source
+    prompt: מיר האָבן פֿיל טעג.
+    answers:
+    - יש לנו הרבה ימים
+    lexemes: &id005
+    - mir
+    - hobn
+    - fil
+    - teg
+  - id: u19-l2-10
+    type: translate
+    direction: to_target
+    prompt: יש לנו הרבה ימים
+    answers:
+    - מיר האָבן פֿיל טעג
+    lexemes: *id005
+  - id: u19-l2-11
+    type: word_bank
+    prompt: יש לנו הרבה ימים
+    answers:
+    - מיר האָבן פֿיל טעג
+    distractors:
+    - ביכער
+    - טעג
+    lexemes: *id005
+- id: u19-review
+  kind: review
+  title:
+    he: 'חזרה: רבים'
+    en: Review
+  exercises:
+  - id: u19-review-01
+    type: match_pairs
+    pairs:
+    - - בוך
+      - ספר
+    - - ביכער
+      - ספרים
+    - - קינדער
+      - ילדים
+    - - טישן
+      - שולחנות
+    - - הײַזער
+      - בתים
+    - - שולן
+      - בתי כנסת
+    lexemes:
+    - bukh
+    - bikher
+    - kinder
+    - tishn
+    - heyzer
+    - shuln
+  - id: u19-review-02
+    type: translate
+    direction: to_source
+    prompt: איך האָב פֿיל ביכער.
+    answers:
+    - יש לי הרבה ספרים
+    lexemes: *id001
+  - id: u19-review-03
+    type: translate
+    direction: to_target
+    prompt: יש לי הרבה ספרים
+    answers:
+    - איך האָב פֿיל ביכער
+    lexemes: *id001
+  - id: u19-review-04
+    type: word_bank
+    prompt: יש לי הרבה ספרים
+    answers:
+    - איך האָב פֿיל ביכער
+    distractors:
+    - שולן
+    - בוך
+    lexemes: *id001
+  - id: u19-review-05
+    type: translate
+    direction: to_source
+    prompt: עס זענען דאָ פֿיל שולן.
+    answers:
+    - יש הרבה בתי כנסת
+    lexemes: *id002
+  - id: u19-review-06
+    type: translate
+    direction: to_target
+    prompt: יש הרבה בתי כנסת
+    answers:
+    - עס זענען דאָ פֿיל שולן
+    lexemes: *id002
+  - id: u19-review-07
+    type: word_bank
+    prompt: יש הרבה בתי כנסת
+    answers:
+    - עס זענען דאָ פֿיל שולן
+    distractors:
+    - טישן
+    - בוך
+    lexemes: *id002
+  - id: u19-review-08
+    type: translate
+    direction: to_source
+    prompt: די קינדער גייען אין שול.
+    answers:
+    - הילדים הולכים לבית הכנסת
+    lexemes: *id003
+  - id: u19-review-09
+    type: translate
+    direction: to_target
+    prompt: הילדים הולכים לבית הכנסת
+    answers:
+    - די קינדער גייען אין שול
+    lexemes: *id003
+  - id: u19-review-10
+    type: word_bank
+    prompt: הילדים הולכים לבית הכנסת
+    answers:
+    - די קינדער גייען אין שול
+    distractors:
+    - טישן
+    - בוך
+    lexemes: *id003
+  - id: u19-review-11
+    type: write
+    prompt: כתבו 3–4 משפטים על מה שיש בבית שלכם (ספרים, שולחנות, ילדים). השתמשו ברבים וב־פֿיל.
+    minWords: 12
+    checks:
+    - label: השתמשתם ברבים (-ער / -ן)
+      any:
+      - ביכער
+      - קינדער
+      - טישן
+      - ה(?:ײ|יי)זער
+      - שולן
+      - טעג
+    - label: השתמשתם ב־פֿיל או במספר
+      any:
+      - פיל
+      - צוו(?:ײ|יי)
+      - דר(?:ײ|יי)
+      - פיר
+    - label: השתמשתם ב־דאָ / זענען
+      any:
+      - דא
+      - זענען
+    model: אין מײַן הויז זענען דאָ פֿיל ביכער. עס זענען דאָ צוויי טישן. מײַן זיידע האָט פֿיל קינדער.
+    lexemes: []

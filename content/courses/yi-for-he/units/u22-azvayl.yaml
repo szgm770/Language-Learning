@@ -1,0 +1,471 @@
+id: u22-azvayl
+cefr: B1
+scene: day
+title:
+  he: כי, ש־ ואם
+  en: Because, that and if
+story: מנחם מסביר לסבא למה הוא עייף ומה הוא חושב על הנסיעה.
+canDo:
+- לנמק עם ווײַל
+- לדווח מה אני יודע או חושב עם אַז
+- לומר אם עם אויב
+vocabulary:
+- id: az
+  text: אַז
+  translation: ש־ (כי)
+  pos: conjunction
+- id: vayl
+  text: ווײַל
+  translation: כי
+  pos: conjunction
+- id: oyb
+  text: אויב
+  translation: אם
+  pos: conjunction
+- id: vayst
+  text: ווייס
+  translation: יודע
+  pos: verb
+- id: meynen
+  text: מיינען
+  translation: לחשוב / להתכוון
+  pos: verb
+- id: gloybn
+  text: גלייבן
+  translation: להאמין
+  pos: verb
+lessons:
+- id: u22-l1
+  kind: new
+  title:
+    he: כי ו־ש־
+    en: Lesson
+  exercises:
+  - id: u22-l1-01
+    type: tip
+    title: חיבור משפטים
+    text: '**אַז** פירושו "ש־": **איך ווייס אַז ער איז דאָ** (אני יודע שהוא כאן).
+
+      **ווײַל** פירושו "כי" ו**אויב** פירושו "אם".
+
+      המשפט המשועבד מתחיל במילת החיבור, והפועל בא בהמשך.
+
+      '
+  - id: u22-l1-02
+    type: learn
+    lexeme: az
+  - id: u22-l1-03
+    type: learn
+    lexeme: vayl
+  - id: u22-l1-04
+    type: learn
+    lexeme: oyb
+  - id: u22-l1-05
+    type: learn
+    lexeme: vayst
+  - id: u22-l1-06
+    type: match_pairs
+    pairs:
+    - - אַז
+      - ש־ (כי)
+    - - ווײַל
+      - כי
+    - - אויב
+      - אם
+    - - ווייס
+      - יודע
+    lexemes:
+    - az
+    - vayl
+    - oyb
+    - vayst
+  - id: u22-l1-07
+    type: multiple_choice
+    prompt: מה פירוש אַז?
+    options:
+    - ש־ (כי)
+    - כי
+    - אם
+    correct: 0
+    lexemes:
+    - az
+  - id: u22-l1-08
+    type: multiple_choice
+    prompt: מה פירוש ווײַל?
+    options:
+    - כי
+    - ש־ (כי)
+    - אם
+    correct: 0
+    lexemes:
+    - vayl
+  - id: u22-l1-09
+    type: multiple_choice
+    prompt: מה פירוש אויב?
+    options:
+    - אם
+    - ש־ (כי)
+    - כי
+    correct: 0
+    lexemes:
+    - oyb
+  - id: u22-l1-10
+    type: multiple_choice
+    prompt: מה פירוש ווייס?
+    options:
+    - יודע
+    - לחשוב / להתכוון
+    - להאמין
+    correct: 0
+    lexemes:
+    - vayst
+  - id: u22-l1-11
+    type: translate
+    direction: to_source
+    prompt: איך ווייס אַז ער איז דאָ.
+    answers:
+    - אני יודע שהוא כאן
+    lexemes: &id001
+    - vayst
+    - az
+    - er
+    - iz
+    - do
+  - id: u22-l1-12
+    type: translate
+    direction: to_target
+    prompt: אני יודע שהוא כאן
+    answers:
+    - איך ווייס אַז ער איז דאָ
+    lexemes: *id001
+  - id: u22-l1-13
+    type: word_bank
+    prompt: אני יודע שהוא כאן
+    answers:
+    - איך ווייס אַז ער איז דאָ
+    distractors:
+    - מיינען
+    - אויב
+    lexemes: *id001
+  - id: u22-l1-14
+    type: fill_blank
+    sentence: איך ווייס ___ ער איז דאָ.
+    translation: אני יודע שהוא כאן
+    answers:
+    - אַז
+    options:
+    - אַז
+    - מיינען
+    - ווײַל
+    lexemes: *id001
+  - id: u22-l1-15
+    type: translate
+    direction: to_source
+    prompt: איך בין מיד, ווײַל איך האָב נישט געשלאָפֿן.
+    answers:
+    - אני עייף כי לא ישנתי
+    lexemes: &id002
+    - ikh
+    - bin
+    - mid
+    - vayl
+    - hobn
+    - geshlofn
+  - id: u22-l1-16
+    type: translate
+    direction: to_target
+    prompt: אני עייף כי לא ישנתי
+    answers:
+    - איך בין מיד, ווײַל איך האָב נישט געשלאָפֿן
+    lexemes: *id002
+  - id: u22-l1-17
+    type: word_bank
+    prompt: אני עייף כי לא ישנתי
+    answers:
+    - איך בין מיד, ווײַל איך האָב נישט געשלאָפֿן
+    distractors:
+    - גלייבן
+    - מיינען
+    lexemes: *id002
+  - id: u22-l1-18
+    type: fill_blank
+    sentence: איך בין מיד, ___ איך האָב נישט געשלאָפֿן.
+    translation: אני עייף כי לא ישנתי
+    answers:
+    - ווײַל
+    options:
+    - ווײַל
+    - ווייס
+    - אַז
+    lexemes: *id002
+  - id: u22-l1-19
+    type: translate
+    direction: to_source
+    prompt: אויב איך האָב געלט, קויף איך ברויט.
+    answers:
+    - אם יש לי כסף, אני קונה לחם
+    lexemes: &id003
+    - oyb
+    - hobn
+    - gelt
+    - koyfn
+  - id: u22-l1-20
+    type: translate
+    direction: to_target
+    prompt: אם יש לי כסף, אני קונה לחם
+    answers:
+    - אויב איך האָב געלט, קויף איך ברויט
+    lexemes: *id003
+  - id: u22-l1-21
+    type: word_bank
+    prompt: אם יש לי כסף, אני קונה לחם
+    answers:
+    - אויב איך האָב געלט, קויף איך ברויט
+    distractors:
+    - מיינען
+    - גלייבן
+    lexemes: *id003
+  - id: u22-l1-22
+    type: fill_blank
+    sentence: ___ איך האָב געלט, קויף איך ברויט.
+    translation: אם יש לי כסף, אני קונה לחם
+    answers:
+    - אויב
+    options:
+    - אויב
+    - אַז
+    - מיינען
+    lexemes: *id003
+- id: u22-l2
+  kind: new
+  title:
+    he: לחשוב ולהאמין
+    en: Lesson
+  exercises:
+  - id: u22-l2-01
+    type: learn
+    lexeme: meynen
+  - id: u22-l2-02
+    type: learn
+    lexeme: gloybn
+  - id: u22-l2-03
+    type: dialogue
+    scene: home
+    lines:
+    - speaker: zeyde
+      text: וואָרום ביסטו מיד?
+      translation: למה אתה עייף?
+    - speaker: menachem
+      text: ווײַל איך האָב נישט געשלאָפֿן.
+      translation: כי לא ישנתי.
+  - id: u22-l2-04
+    type: multiple_choice
+    prompt: מה פירוש מיינען?
+    options:
+    - לחשוב / להתכוון
+    - יודע
+    - להאמין
+    correct: 0
+    lexemes:
+    - meynen
+  - id: u22-l2-05
+    type: multiple_choice
+    prompt: מה פירוש גלייבן?
+    options:
+    - להאמין
+    - יודע
+    - לחשוב / להתכוון
+    correct: 0
+    lexemes:
+    - gloybn
+  - id: u22-l2-06
+    type: translate
+    direction: to_source
+    prompt: איך מיין אַז דאָס איז גוט.
+    answers:
+    - אני חושב שזה טוב
+    lexemes: &id004
+    - meynen
+    - az
+    - w-dos
+    - iz
+  - id: u22-l2-07
+    type: translate
+    direction: to_target
+    prompt: אני חושב שזה טוב
+    answers:
+    - איך מיין אַז דאָס איז גוט
+    lexemes: *id004
+  - id: u22-l2-08
+    type: word_bank
+    prompt: אני חושב שזה טוב
+    answers:
+    - איך מיין אַז דאָס איז גוט
+    distractors:
+    - ווײַל
+    - אויב
+    lexemes: *id004
+  - id: u22-l2-09
+    type: fill_blank
+    sentence: איך ___ אַז דאָס איז גוט.
+    translation: אני חושב שזה טוב
+    answers:
+    - מיין
+    options:
+    - מיין
+    - ווייס
+    - ווײַל
+    lexemes: *id004
+  - id: u22-l2-10
+    type: translate
+    direction: to_source
+    prompt: איך גלייב אַז ער וועט קומען.
+    answers:
+    - אני מאמין שהוא יבוא
+    lexemes: &id005
+    - gloybn
+    - az
+    - er
+    - vel
+    - kumen
+  - id: u22-l2-11
+    type: translate
+    direction: to_target
+    prompt: אני מאמין שהוא יבוא
+    answers:
+    - איך גלייב אַז ער וועט קומען
+    lexemes: *id005
+  - id: u22-l2-12
+    type: word_bank
+    prompt: אני מאמין שהוא יבוא
+    answers:
+    - איך גלייב אַז ער וועט קומען
+    distractors:
+    - ווײַל
+    - מיינען
+    lexemes: *id005
+  - id: u22-l2-13
+    type: fill_blank
+    sentence: איך ___ אַז ער וועט קומען.
+    translation: אני מאמין שהוא יבוא
+    answers:
+    - גלייב
+    options:
+    - גלייב
+    - אויב
+    - ווײַל
+    lexemes: *id005
+- id: u22-review
+  kind: review
+  title:
+    he: 'חזרה: כי, ש־ ואם'
+    en: Review
+  exercises:
+  - id: u22-review-01
+    type: match_pairs
+    pairs:
+    - - אַז
+      - ש־ (כי)
+    - - ווײַל
+      - כי
+    - - אויב
+      - אם
+    - - ווייס
+      - יודע
+    - - מיינען
+      - לחשוב / להתכוון
+    - - גלייבן
+      - להאמין
+    lexemes:
+    - az
+    - vayl
+    - oyb
+    - vayst
+    - meynen
+    - gloybn
+  - id: u22-review-02
+    type: translate
+    direction: to_source
+    prompt: איך ווייס אַז ער איז דאָ.
+    answers:
+    - אני יודע שהוא כאן
+    lexemes: *id001
+  - id: u22-review-03
+    type: translate
+    direction: to_target
+    prompt: אני יודע שהוא כאן
+    answers:
+    - איך ווייס אַז ער איז דאָ
+    lexemes: *id001
+  - id: u22-review-04
+    type: word_bank
+    prompt: אני יודע שהוא כאן
+    answers:
+    - איך ווייס אַז ער איז דאָ
+    distractors:
+    - מיינען
+    - אויב
+    lexemes: *id001
+  - id: u22-review-05
+    type: translate
+    direction: to_source
+    prompt: איך בין מיד, ווײַל איך האָב נישט געשלאָפֿן.
+    answers:
+    - אני עייף כי לא ישנתי
+    lexemes: *id002
+  - id: u22-review-06
+    type: translate
+    direction: to_target
+    prompt: אני עייף כי לא ישנתי
+    answers:
+    - איך בין מיד, ווײַל איך האָב נישט געשלאָפֿן
+    lexemes: *id002
+  - id: u22-review-07
+    type: word_bank
+    prompt: אני עייף כי לא ישנתי
+    answers:
+    - איך בין מיד, ווײַל איך האָב נישט געשלאָפֿן
+    distractors:
+    - גלייבן
+    - מיינען
+    lexemes: *id002
+  - id: u22-review-08
+    type: translate
+    direction: to_source
+    prompt: אויב איך האָב געלט, קויף איך ברויט.
+    answers:
+    - אם יש לי כסף, אני קונה לחם
+    lexemes: *id003
+  - id: u22-review-09
+    type: translate
+    direction: to_target
+    prompt: אם יש לי כסף, אני קונה לחם
+    answers:
+    - אויב איך האָב געלט, קויף איך ברויט
+    lexemes: *id003
+  - id: u22-review-10
+    type: word_bank
+    prompt: אם יש לי כסף, אני קונה לחם
+    answers:
+    - אויב איך האָב געלט, קויף איך ברויט
+    distractors:
+    - מיינען
+    - גלייבן
+    lexemes: *id003
+  - id: u22-review-11
+    type: write
+    prompt: 'כתבו 3 משפטים: מה אתם יודעים או חושבים, ולמה. השתמשו ב־אַז וב־ווײַל.'
+    minWords: 14
+    checks:
+    - label: השתמשתם ב־אַז
+      any:
+      - אז
+    - label: השתמשתם ב־ווײַל
+      any:
+      - וויל
+      - וו(?:ײ|יי)ל
+    - label: השתמשתם ב־איך
+      any:
+      - איך
+    model: איך ווייס אַז דער רבי איז אין ניו־יאָרק. איך פֿרײַ זיך, ווײַל מיר וועלן פֿאָרן. איך מיין אַז דאָס איז גוט.
+    lexemes: []
