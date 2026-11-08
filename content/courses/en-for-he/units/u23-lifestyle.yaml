@@ -33,6 +33,24 @@ vocabulary:
   - { id: "lose-weight", text: "lose weight", translation: "לרדת במשקל", pos: "phrase", pronunciation: "לוּז וֵויט" }
   - { id: "skip", text: "skip", translation: "לדלג על (ארוחה)", pos: "verb", pronunciation: "סְקִיפּ", example: { text: "Don't skip breakfast.", translation: "אל תדלגי על ארוחת הבוקר." } }
 
+  - { id: "comfortable", text: "comfortable", translation: "נוח", pos: "adjective", example: { text: "This chair is very comfortable.", translation: "הכיסא הזה נוח מאוד." } }
+  - { id: "emotional", text: "emotional", translation: "רגשי", pos: "adjective", example: { text: "It was an emotional day.", translation: "זה היה יום מרגש." } }
+  - { id: "feeling", text: "feeling", translation: "תחושה; רגש", pos: "noun", example: { text: "I have a good feeling about this.", translation: "יש לי תחושה טובה לגבי זה." } }
+  - { id: "sad", text: "sad", translation: "עצוב", pos: "adjective", example: { text: "He is sad today.", translation: "הוא עצוב היום." } }
+  - { id: "angry", text: "angry", translation: "כועס", pos: "adjective", example: { text: "She is angry about the delay.", translation: "היא כועסת על העיכוב." } }
+  - { id: "fresh", text: "fresh", translation: "טרי; צח", pos: "adjective", example: { text: "I want some fresh air.", translation: "אני רוצה קצת אוויר צח." } }
+  - { id: "shoulder", text: "shoulder", translation: "כתף", pos: "noun", example: { text: "My shoulder hurts.", translation: "הכתף שלי כואבת." } }
+  - { id: "neck", text: "neck", translation: "צוואר", pos: "noun", example: { text: "He has a long neck.", translation: "יש לו צוואר ארוך." } }
+  - { id: "ear", text: "ear", translation: "אוזן", pos: "noun", example: { text: "My ear is cold.", translation: "האוזן שלי קרה." } }
+  - { id: "tooth", text: "tooth", translation: "שן", pos: "noun", example: { text: "I have a pain in my tooth.", translation: "יש לי כאב בשן." } }
+  - { id: "bone", text: "bone", translation: "עצם", pos: "noun", example: { text: "The bone is not broken.", translation: "העצם לא שבורה." } }
+  - { id: "nose", text: "nose", translation: "אף", pos: "noun", example: { text: "Her nose is red from the cold.", translation: "האף שלה אדום מהקור." } }
+  - { id: "improvement", text: "improvement", translation: "שיפור", pos: "noun", example: { text: "There is an improvement in my sleep.", translation: "יש שיפור בשינה שלי." } }
+  - { id: "solve", text: "solve", translation: "לפתור", pos: "verb", example: { text: "We can solve this problem.", translation: "אנחנו יכולים לפתור את הבעיה הזאת." } }
+  - { id: "enable", text: "enable", translation: "לאפשר", pos: "verb", example: { text: "This tool will enable us to work faster.", translation: "הכלי הזה יאפשר לנו לעבוד מהר יותר." } }
+  - { id: "possibility", text: "possibility", translation: "אפשרות", pos: "noun", example: { text: "There is a possibility of rain.", translation: "יש אפשרות לגשם." } }
+  - { id: "volunteer", text: "volunteer", translation: "מתנדב", pos: "noun", example: { text: "She is a volunteer at the school.", translation: "היא מתנדבת בבית הספר." } }
+  - { id: "repeat", text: "repeat", translation: "לחזור על", pos: "verb", example: { text: "Please repeat the question.", translation: "בבקשה חזור על השאלה." } }
 grammar:
   - id: used-to-first-conditional
     title: { he: "פעם ועכשיו, אם… אז…: used to ו־if", en: "Used to and the first conditional" }
@@ -534,3 +552,505 @@ lessons:
             any: ["\\bsleep", "\\bsport", "\\bwalk", "\\beat", "\\bwater\\b", "\\brun"]
         model: "I used to sleep only five hours a night and I rarely did any sport. Now I walk every morning and I go to bed early. If I keep this habit, I will feel stronger and I will have more energy for my family and my work."
         lexemes: []
+  # ------------------------------------------------------------------ story words
+  - id: u23-n1
+    kind: new
+    title:
+      he: 'היומן של נועה: רגשות'
+      en: 'Noa''s diary: feelings'
+    exercises:
+    - id: u23-n1-01
+      type: dialogue
+      scene: ד״ר שטרן ובן מדברים עם נועה על העייפות שלה.
+      lines:
+      - speaker: dr-stern
+        text: How is your feeling these days? Are you sad or angry?
+        translation: איך ההרגשה שלך בימים האחרונים? עצובה או כועסת?
+      - speaker: noa
+        text: I am emotional and not comfortable. I need fresh air.
+        translation: אני רגשית ולא נינוחה. אני צריכה אוויר צח.
+      - speaker: ben
+        text: You work too many hours.
+        translation: את עובדת יותר מדי שעות.
+      - speaker: dr-stern
+        text: Take a walk every day.
+        translation: לכי לטייל כל יום.
+    - id: u23-n1-02
+      type: learn
+      lexeme: comfortable
+    - id: u23-n1-03
+      type: learn
+      lexeme: emotional
+    - id: u23-n1-04
+      type: learn
+      lexeme: feeling
+    - id: u23-n1-05
+      type: learn
+      lexeme: sad
+    - id: u23-n1-06
+      type: learn
+      lexeme: angry
+    - id: u23-n1-07
+      type: learn
+      lexeme: fresh
+    - id: u23-n1-08
+      type: match_pairs
+      pairs:
+      - - comfortable
+        - נוח
+      - - emotional
+        - רגשי
+      - - feeling
+        - תחושה; רגש
+      - - sad
+        - עצוב
+      - - angry
+        - כועס
+      - - fresh
+        - טרי; צח
+      lexemes:
+      - comfortable
+      - emotional
+      - feeling
+      - sad
+      - angry
+      - fresh
+    - id: u23-n1-09
+      type: multiple_choice
+      prompt: angry – מה הפירוש?
+      options:
+      - כועס
+      - תחושה; רגש
+      - עצוב
+      correct: 0
+      lexemes:
+      - angry
+    - id: u23-n1-10
+      type: multiple_choice
+      prompt: sad – מה הפירוש?
+      options:
+      - עצוב
+      - רגשי
+      - נוח
+      correct: 0
+      lexemes:
+      - sad
+    - id: u23-n1-11
+      type: multiple_choice
+      prompt: comfortable – מה הפירוש?
+      options:
+      - נוח
+      - טרי; צח
+      - רגשי
+      correct: 0
+      lexemes:
+      - comfortable
+    - id: u23-n1-12
+      type: fill_blank
+      sentence: It was an ___ day.
+      translation: זה היה יום מרגש.
+      answers:
+      - emotional
+      options:
+      - emotional
+      - sad
+      - comfortable
+      lexemes:
+      - emotional
+    - id: u23-n1-13
+      type: fill_blank
+      sentence: I want some ___ air.
+      translation: אני רוצה קצת אוויר צח.
+      answers:
+      - fresh
+      options:
+      - fresh
+      - angry
+      - emotional
+      lexemes:
+      - fresh
+    - id: u23-n1-14
+      type: fill_blank
+      sentence: I have a good ___ about this.
+      translation: יש לי תחושה טובה לגבי זה.
+      answers:
+      - feeling
+      options:
+      - feeling
+      - comfortable
+      - sad
+      lexemes:
+      - feeling
+    - id: u23-n1-15
+      type: word_bank
+      prompt: היא כועסת על העיכוב.
+      answers:
+      - She is angry about the delay.
+      distractors:
+      - sad
+      - emotional
+      lexemes:
+      - angry
+    - id: u23-n1-16
+      type: word_bank
+      prompt: הוא עצוב היום.
+      answers:
+      - He is sad today.
+      distractors:
+      - emotional
+      - feeling
+      lexemes:
+      - sad
+    - id: u23-n1-17
+      type: listening_choice
+      audioText: This chair is very comfortable.
+      question: מה שמעתם?
+      options:
+      - הכיסא הזה נוח מאוד.
+      - זה היה יום מרגש.
+      - יש לי תחושה טובה לגבי זה.
+      correct: 0
+      lexemes:
+      - comfortable
+    - id: u23-n1-18
+      type: speak_repeat
+      text: I need fresh air. I feel emotional.
+      translation: אני צריכה אוויר צח. אני מרגישה רגשית.
+      lexemes:
+      - emotional
+      - fresh
+  - id: u23-n2
+    kind: new
+    title:
+      he: 'היומן של נועה: הגוף'
+      en: 'Noa''s diary: the body'
+    exercises:
+    - id: u23-n2-01
+      type: dialogue
+      scene: ד״ר שטרן בודק את נועה.
+      lines:
+      - speaker: dr-stern
+        text: Show me where it hurts. Is it your shoulder or your neck?
+        translation: תראי לי איפה כואב. הכתף או הצוואר?
+      - speaker: noa
+        text: Both. And my ear hurts when I wear the headphones.
+        translation: שניהם. והאוזן כואבת כשאני חובשת אוזניות.
+      - speaker: dr-stern
+        text: Your tooth is fine and your bones are strong.
+        translation: השן שלך בסדר והעצמות שלך חזקות.
+      - speaker: noa
+        text: Why is my nose red?
+        translation: למה האף שלי אדום?
+      - speaker: dr-stern
+        text: That's from the cold.
+        translation: זה מהקור.
+    - id: u23-n2-02
+      type: learn
+      lexeme: shoulder
+    - id: u23-n2-03
+      type: learn
+      lexeme: neck
+    - id: u23-n2-04
+      type: learn
+      lexeme: ear
+    - id: u23-n2-05
+      type: learn
+      lexeme: tooth
+    - id: u23-n2-06
+      type: learn
+      lexeme: bone
+    - id: u23-n2-07
+      type: learn
+      lexeme: nose
+    - id: u23-n2-08
+      type: match_pairs
+      pairs:
+      - - shoulder
+        - כתף
+      - - neck
+        - צוואר
+      - - ear
+        - אוזן
+      - - tooth
+        - שן
+      - - bone
+        - עצם
+      - - nose
+        - אף
+      lexemes:
+      - shoulder
+      - neck
+      - ear
+      - tooth
+      - bone
+      - nose
+    - id: u23-n2-09
+      type: multiple_choice
+      prompt: bone – מה הפירוש?
+      options:
+      - עצם
+      - אוזן
+      - שן
+      correct: 0
+      lexemes:
+      - bone
+    - id: u23-n2-10
+      type: multiple_choice
+      prompt: neck – מה הפירוש?
+      options:
+      - צוואר
+      - אוזן
+      - עצם
+      correct: 0
+      lexemes:
+      - neck
+    - id: u23-n2-11
+      type: multiple_choice
+      prompt: shoulder – מה הפירוש?
+      options:
+      - כתף
+      - אף
+      - אוזן
+      correct: 0
+      lexemes:
+      - shoulder
+    - id: u23-n2-12
+      type: fill_blank
+      sentence: Her ___ is red from the cold.
+      translation: האף שלה אדום מהקור.
+      answers:
+      - nose
+      options:
+      - nose
+      - tooth
+      - ear
+      lexemes:
+      - nose
+    - id: u23-n2-13
+      type: fill_blank
+      sentence: I have a pain in my ___.
+      translation: יש לי כאב בשן.
+      answers:
+      - tooth
+      options:
+      - tooth
+      - bone
+      - shoulder
+      lexemes:
+      - tooth
+    - id: u23-n2-14
+      type: fill_blank
+      sentence: My ___ is cold.
+      translation: האוזן שלי קרה.
+      answers:
+      - ear
+      options:
+      - ear
+      - neck
+      - tooth
+      lexemes:
+      - ear
+    - id: u23-n2-15
+      type: word_bank
+      prompt: העצם לא שבורה.
+      answers:
+      - The bone is not broken.
+      distractors:
+      - nose
+      - ear
+      lexemes:
+      - bone
+    - id: u23-n2-16
+      type: word_bank
+      prompt: יש לו צוואר ארוך.
+      answers:
+      - He has a long neck.
+      distractors:
+      - shoulder
+      - bone
+      lexemes:
+      - neck
+    - id: u23-n2-17
+      type: listening_choice
+      audioText: My shoulder hurts.
+      question: מה שמעתם?
+      options:
+      - הכתף שלי כואבת.
+      - יש לו צוואר ארוך.
+      - האוזן שלי קרה.
+      correct: 0
+      lexemes:
+      - shoulder
+    - id: u23-n2-18
+      type: speak_repeat
+      text: My neck and my shoulder hurt.
+      translation: הצוואר והכתף שלי כואבים.
+      lexemes:
+      - shoulder
+      - neck
+  - id: u23-n3
+    kind: new
+    title:
+      he: 'היומן של נועה: שיפור'
+      en: 'Noa''s diary: improvement'
+    exercises:
+    - id: u23-n3-01
+      type: dialogue
+      scene: נועה מחליטה לשנות הרגלים.
+      lines:
+      - speaker: noa
+        text: I want an improvement in my sleep. Is it possible?
+        translation: אני רוצה שיפור בשינה שלי. זה אפשרי?
+      - speaker: dr-stern
+        text: A new routine can solve a lot and enable you to rest.
+        translation: שגרה חדשה יכולה לפתור הרבה ולאפשר לך לנוח.
+      - speaker: noa
+        text: The maximum is seven hours, right? I can repeat it every night.
+        translation: המקסימום הוא שבע שעות, נכון? אני יכולה לחזור על זה כל לילה.
+      - speaker: dr-stern
+        text: And join the walking group, the volunteers meet on Sunday.
+        translation: ותצטרפי לקבוצת ההליכה, המתנדבים נפגשים ביום ראשון.
+    - id: u23-n3-02
+      type: learn
+      lexeme: improvement
+    - id: u23-n3-03
+      type: learn
+      lexeme: solve
+    - id: u23-n3-04
+      type: learn
+      lexeme: enable
+    - id: u23-n3-05
+      type: learn
+      lexeme: possibility
+    - id: u23-n3-06
+      type: learn
+      lexeme: volunteer
+    - id: u23-n3-07
+      type: learn
+      lexeme: repeat
+    - id: u23-n3-08
+      type: match_pairs
+      pairs:
+      - - improvement
+        - שיפור
+      - - solve
+        - לפתור
+      - - enable
+        - לאפשר
+      - - possibility
+        - אפשרות
+      - - volunteer
+        - מתנדב
+      - - repeat
+        - לחזור על
+      lexemes:
+      - improvement
+      - solve
+      - enable
+      - possibility
+      - volunteer
+      - repeat
+    - id: u23-n3-09
+      type: multiple_choice
+      prompt: possibility – מה הפירוש?
+      options:
+      - אפשרות
+      - לפתור
+      - לאפשר
+      correct: 0
+      lexemes:
+      - possibility
+    - id: u23-n3-10
+      type: multiple_choice
+      prompt: solve – מה הפירוש?
+      options:
+      - לפתור
+      - אפשרות
+      - לאפשר
+      correct: 0
+      lexemes:
+      - solve
+    - id: u23-n3-11
+      type: multiple_choice
+      prompt: repeat – מה הפירוש?
+      options:
+      - לחזור על
+      - אפשרות
+      - מתנדב
+      correct: 0
+      lexemes:
+      - repeat
+    - id: u23-n3-12
+      type: fill_blank
+      sentence: There is an ___ in my sleep.
+      translation: יש שיפור בשינה שלי.
+      answers:
+      - improvement
+      options:
+      - improvement
+      - enable
+      - solve
+      lexemes:
+      - improvement
+    - id: u23-n3-13
+      type: fill_blank
+      sentence: She is a ___ at the school.
+      translation: היא מתנדבת בבית הספר.
+      answers:
+      - volunteer
+      options:
+      - volunteer
+      - repeat
+      - improvement
+      lexemes:
+      - volunteer
+    - id: u23-n3-14
+      type: fill_blank
+      sentence: This tool will ___ us to work faster.
+      translation: הכלי הזה יאפשר לנו לעבוד מהר יותר.
+      answers:
+      - enable
+      options:
+      - enable
+      - improvement
+      - repeat
+      lexemes:
+      - enable
+    - id: u23-n3-15
+      type: word_bank
+      prompt: יש אפשרות לגשם.
+      answers:
+      - There is a possibility of rain.
+      distractors:
+      - repeat
+      - enable
+      lexemes:
+      - possibility
+    - id: u23-n3-16
+      type: word_bank
+      prompt: אנחנו יכולים לפתור את הבעיה הזאת.
+      answers:
+      - We can solve this problem.
+      distractors:
+      - improvement
+      - enable
+      lexemes:
+      - solve
+    - id: u23-n3-17
+      type: listening_choice
+      audioText: Please repeat the question.
+      question: מה שמעתם?
+      options:
+      - בבקשה חזור על השאלה.
+      - יש שיפור בשינה שלי.
+      - אנחנו יכולים לפתור את הבעיה הזאת.
+      correct: 0
+      lexemes:
+      - repeat
+    - id: u23-n3-18
+      type: speak_repeat
+      text: An improvement is possible. I repeat it every night.
+      translation: שיפור אפשרי. אני חוזרת על זה כל לילה.
+      lexemes:
+      - improvement
+      - repeat

@@ -33,6 +33,24 @@ vocabulary:
   - { id: "background", text: "background", translation: "רקע (מקצועי)", pos: "noun", pronunciation: "בֶּקְגְרַאוּנְד" }
   - { id: "in-charge-of", text: "in charge of", translation: "אחראי על, מנהל את", pos: "phrase", pronunciation: "אִין צ'ַארְג' אוֹב" }
 
+  - { id: "status", text: "status", translation: "מצב; סטטוס", pos: "noun", example: { text: "What is the status of the report?", translation: "מה מצב הדוח?" } }
+  - { id: "combine", text: "combine", translation: "לשלב; לאחד", pos: "verb", example: { text: "We combine two ideas in one plan.", translation: "אנחנו משלבים שני רעיונות בתוכנית אחת." } }
+  - { id: "aim", text: "aim", translation: "מטרה", pos: "noun", example: { text: "Our aim is to finish by Friday.", translation: "המטרה שלנו היא לסיים עד יום שישי." } }
+  - { id: "define", text: "define", translation: "להגדיר", pos: "verb", example: { text: "Please define your role in the team.", translation: "בבקשה הגדר את התפקיד שלך בצוות." } }
+  - { id: "engage", text: "engage", translation: "לערב; לפנות", pos: "verb", example: { text: "We engage the client in every step.", translation: "אנחנו מערבים את הלקוח בכל שלב." } }
+  - { id: "hire", text: "hire", translation: "לשכור; לגייס", pos: "verb", example: { text: "The company will hire three people.", translation: "החברה תגייס שלושה אנשים." } }
+  - { id: "expert", text: "expert", translation: "מומחה", pos: "noun", example: { text: "She is an expert in finance.", translation: "היא מומחית בכספים." } }
+  - { id: "prior", text: "prior", translation: "קודם", pos: "adjective", example: { text: "I have prior experience in sales.", translation: "יש לי ניסיון קודם במכירות." } }
+  - { id: "task", text: "task", translation: "משימה", pos: "noun", example: { text: "This task takes an hour.", translation: "המשימה הזאת לוקחת שעה." } }
+  - { id: "boss", text: "boss", translation: "בוס; מנהל", pos: "noun", example: { text: "My boss is on vacation.", translation: "הבוס שלי בחופשה." } }
+  - { id: "contribute", text: "contribute", translation: "לתרום", pos: "verb", example: { text: "Everyone can contribute an idea.", translation: "כל אחד יכול לתרום רעיון." } }
+  - { id: "assist", text: "assist", translation: "לסייע", pos: "verb", example: { text: "Can you assist me with this form?", translation: "אתה יכול לסייע לי בטופס הזה?" } }
+  - { id: "leadership", text: "leadership", translation: "מנהיגות", pos: "noun", example: { text: "Good leadership builds trust.", translation: "מנהיגות טובה בונה אמון." } }
+  - { id: "relation", text: "relation", translation: "יחס; קשר", pos: "noun", example: { text: "The relation between them is good.", translation: "הקשר ביניהם טוב." } }
+  - { id: "attitude", text: "attitude", translation: "גישה", pos: "noun", example: { text: "A positive attitude helps a lot.", translation: "גישה חיובית עוזרת מאוד." } }
+  - { id: "principle", text: "principle", translation: "עיקרון", pos: "noun", example: { text: "Honesty is a basic principle.", translation: "יושרה היא עיקרון בסיסי." } }
+  - { id: "behavior", text: "behavior", translation: "התנהגות", pos: "noun", example: { text: "His behavior was very polite.", translation: "ההתנהגות שלו הייתה מנומסת מאוד." } }
+  - { id: "participate", text: "participate", translation: "להשתתף", pos: "verb", example: { text: "I participate in every meeting.", translation: "אני משתתפת בכל פגישה." } }
 grammar:
   - id: for-since
     title: { he: "כמה זמן: for ו־since", en: "Present perfect with for and since" }
@@ -516,3 +534,503 @@ lessons:
             any: ["\\bhave (been|worked|lived)", "\\bhas (been|worked)"]
         model: "Hi everyone, my name is Dan and I am the new designer. I have worked in this field for six years, and I have lived in Tel Aviv since 2020. I love working in a team, because I learn something new every day. I look forward to meeting you all this week."
         lexemes: []
+  # ------------------------------------------------------------------ story words
+  - id: u21-n1
+    kind: new
+    title:
+      he: 'היומן של נועה: הגדרת תפקידים'
+      en: 'Noa''s diary: defining roles'
+    exercises:
+    - id: u21-n1-01
+      type: dialogue
+      scene: הישיבה הראשונה של הצוות החדש בלונדון.
+      lines:
+      - speaker: noa
+        text: Let me define our aim. We combine two teams into one.
+        translation: בואו אגדיר את המטרה שלנו. אנחנו מאחדים שני צוותים לצוות אחד.
+      - speaker: david
+        text: What is the status of the project?
+        translation: מה מצב הפרויקט?
+      - speaker: noa
+        text: Early. We hire two developers and engage the client next week.
+        translation: בשלב מוקדם. אנחנו מגייסים שני מפתחים ופונים ללקוח בשבוע הבא.
+      - speaker: david
+        text: Good.
+        translation: טוב.
+    - id: u21-n1-02
+      type: learn
+      lexeme: status
+    - id: u21-n1-03
+      type: learn
+      lexeme: combine
+    - id: u21-n1-04
+      type: learn
+      lexeme: aim
+    - id: u21-n1-05
+      type: learn
+      lexeme: define
+    - id: u21-n1-06
+      type: learn
+      lexeme: engage
+    - id: u21-n1-07
+      type: learn
+      lexeme: hire
+    - id: u21-n1-08
+      type: match_pairs
+      pairs:
+      - - status
+        - מצב; סטטוס
+      - - combine
+        - לשלב; לאחד
+      - - aim
+        - מטרה
+      - - define
+        - להגדיר
+      - - engage
+        - לערב; לפנות
+      - - hire
+        - לשכור; לגייס
+      lexemes:
+      - status
+      - combine
+      - aim
+      - define
+      - engage
+      - hire
+    - id: u21-n1-09
+      type: multiple_choice
+      prompt: aim – מה הפירוש?
+      options:
+      - מטרה
+      - מצב; סטטוס
+      - להגדיר
+      correct: 0
+      lexemes:
+      - aim
+    - id: u21-n1-10
+      type: multiple_choice
+      prompt: hire – מה הפירוש?
+      options:
+      - לשכור; לגייס
+      - להגדיר
+      - לשלב; לאחד
+      correct: 0
+      lexemes:
+      - hire
+    - id: u21-n1-11
+      type: multiple_choice
+      prompt: combine – מה הפירוש?
+      options:
+      - לשלב; לאחד
+      - מצב; סטטוס
+      - מטרה
+      correct: 0
+      lexemes:
+      - combine
+    - id: u21-n1-12
+      type: fill_blank
+      sentence: What is the ___ of the report?
+      translation: מה מצב הדוח?
+      answers:
+      - status
+      options:
+      - status
+      - define
+      - aim
+      lexemes:
+      - status
+    - id: u21-n1-13
+      type: fill_blank
+      sentence: Please ___ your role in the team.
+      translation: בבקשה הגדר את התפקיד שלך בצוות.
+      answers:
+      - define
+      options:
+      - define
+      - combine
+      - hire
+      lexemes:
+      - define
+    - id: u21-n1-14
+      type: fill_blank
+      sentence: We ___ the client in every step.
+      translation: אנחנו מערבים את הלקוח בכל שלב.
+      answers:
+      - engage
+      options:
+      - engage
+      - combine
+      - define
+      lexemes:
+      - engage
+    - id: u21-n1-15
+      type: word_bank
+      prompt: המטרה שלנו היא לסיים עד יום שישי.
+      answers:
+      - Our aim is to finish by Friday.
+      distractors:
+      - hire
+      - engage
+      lexemes:
+      - aim
+    - id: u21-n1-16
+      type: word_bank
+      prompt: החברה תגייס שלושה אנשים.
+      answers:
+      - The company will hire three people.
+      distractors:
+      - define
+      - engage
+      lexemes:
+      - hire
+    - id: u21-n1-17
+      type: listening_choice
+      audioText: We combine two ideas in one plan.
+      question: מה שמעתם?
+      options:
+      - אנחנו משלבים שני רעיונות בתוכנית אחת.
+      - מה מצב הדוח?
+      - המטרה שלנו היא לסיים עד יום שישי.
+      correct: 0
+      lexemes:
+      - combine
+    - id: u21-n1-18
+      type: speak_repeat
+      text: Our aim is to hire two people.
+      translation: המטרה שלנו היא לגייס שני אנשים.
+      lexemes:
+      - aim
+      - hire
+  - id: u21-n2
+    kind: new
+    title:
+      he: 'היומן של נועה: מומחים ומשימות'
+      en: 'Noa''s diary: experts and tasks'
+    exercises:
+    - id: u21-n2-01
+      type: dialogue
+      scene: נועה מחלקת עבודה.
+      lines:
+      - speaker: noa
+        text: Tamar is our expert in data. Her prior work was in the bank.
+        translation: תמר היא המומחית שלנו בנתונים. העבודה הקודמת שלה הייתה בבנק.
+      - speaker: david
+        text: The boss wants the task finished today.
+        translation: הבוס רוצה שהמשימה תסתיים היום.
+      - speaker: noa
+        text: Everyone can contribute. Ben, can you assist her?
+        translation: כולם יכולים לתרום. בן, אתה יכול לעזור לה?
+      - speaker: ben
+        text: Of course.
+        translation: בטח.
+    - id: u21-n2-02
+      type: learn
+      lexeme: expert
+    - id: u21-n2-03
+      type: learn
+      lexeme: prior
+    - id: u21-n2-04
+      type: learn
+      lexeme: task
+    - id: u21-n2-05
+      type: learn
+      lexeme: boss
+    - id: u21-n2-06
+      type: learn
+      lexeme: contribute
+    - id: u21-n2-07
+      type: learn
+      lexeme: assist
+    - id: u21-n2-08
+      type: match_pairs
+      pairs:
+      - - expert
+        - מומחה
+      - - prior
+        - קודם
+      - - task
+        - משימה
+      - - boss
+        - בוס; מנהל
+      - - contribute
+        - לתרום
+      - - assist
+        - לסייע
+      lexemes:
+      - expert
+      - prior
+      - task
+      - boss
+      - contribute
+      - assist
+    - id: u21-n2-09
+      type: multiple_choice
+      prompt: task – מה הפירוש?
+      options:
+      - משימה
+      - מומחה
+      - בוס; מנהל
+      correct: 0
+      lexemes:
+      - task
+    - id: u21-n2-10
+      type: multiple_choice
+      prompt: assist – מה הפירוש?
+      options:
+      - לסייע
+      - קודם
+      - לתרום
+      correct: 0
+      lexemes:
+      - assist
+    - id: u21-n2-11
+      type: multiple_choice
+      prompt: expert – מה הפירוש?
+      options:
+      - מומחה
+      - משימה
+      - לתרום
+      correct: 0
+      lexemes:
+      - expert
+    - id: u21-n2-12
+      type: fill_blank
+      sentence: My ___ is on vacation.
+      translation: הבוס שלי בחופשה.
+      answers:
+      - boss
+      options:
+      - boss
+      - contribute
+      - task
+      lexemes:
+      - boss
+    - id: u21-n2-13
+      type: fill_blank
+      sentence: Everyone can ___ an idea.
+      translation: כל אחד יכול לתרום רעיון.
+      answers:
+      - contribute
+      options:
+      - contribute
+      - task
+      - assist
+      lexemes:
+      - contribute
+    - id: u21-n2-14
+      type: fill_blank
+      sentence: I have ___ experience in sales.
+      translation: יש לי ניסיון קודם במכירות.
+      answers:
+      - prior
+      options:
+      - prior
+      - contribute
+      - boss
+      lexemes:
+      - prior
+    - id: u21-n2-15
+      type: word_bank
+      prompt: המשימה הזאת לוקחת שעה.
+      answers:
+      - This task takes an hour.
+      distractors:
+      - prior
+      - assist
+      lexemes:
+      - task
+    - id: u21-n2-16
+      type: word_bank
+      prompt: אתה יכול לסייע לי בטופס הזה?
+      answers:
+      - Can you assist me with this form?
+      distractors:
+      - prior
+      - boss
+      lexemes:
+      - assist
+    - id: u21-n2-17
+      type: listening_choice
+      audioText: She is an expert in finance.
+      question: מה שמעתם?
+      options:
+      - היא מומחית בכספים.
+      - יש לי ניסיון קודם במכירות.
+      - המשימה הזאת לוקחת שעה.
+      correct: 0
+      lexemes:
+      - expert
+    - id: u21-n2-18
+      type: speak_repeat
+      text: The expert can contribute to the task.
+      translation: המומחה יכול לתרום למשימה.
+      lexemes:
+      - expert
+      - task
+      - contribute
+  - id: u21-n3
+    kind: new
+    title:
+      he: 'היומן של נועה: להוביל'
+      en: 'Noa''s diary: leading'
+    exercises:
+    - id: u21-n3-01
+      type: dialogue
+      scene: שיחה עם דוד על ניהול צוות.
+      lines:
+      - speaker: david
+        text: Leadership is not only about giving orders.
+        translation: מנהיגות היא לא רק לתת פקודות.
+      - speaker: noa
+        text: I agree. The right attitude and good behavior matter more.
+        translation: אני מסכימה. הגישה הנכונה והתנהגות טובה חשובות יותר.
+      - speaker: david
+        text: What principle guides you in a hard relation with a client?
+        translation: איזה עיקרון מנחה אותך ביחסים קשים עם לקוח?
+      - speaker: noa
+        text: I always participate in the first call myself.
+        translation: אני תמיד משתתפת בשיחה הראשונה בעצמי.
+    - id: u21-n3-02
+      type: learn
+      lexeme: leadership
+    - id: u21-n3-03
+      type: learn
+      lexeme: relation
+    - id: u21-n3-04
+      type: learn
+      lexeme: attitude
+    - id: u21-n3-05
+      type: learn
+      lexeme: principle
+    - id: u21-n3-06
+      type: learn
+      lexeme: behavior
+    - id: u21-n3-07
+      type: learn
+      lexeme: participate
+    - id: u21-n3-08
+      type: match_pairs
+      pairs:
+      - - leadership
+        - מנהיגות
+      - - relation
+        - יחס; קשר
+      - - attitude
+        - גישה
+      - - principle
+        - עיקרון
+      - - behavior
+        - התנהגות
+      - - participate
+        - להשתתף
+      lexemes:
+      - leadership
+      - relation
+      - attitude
+      - principle
+      - behavior
+      - participate
+    - id: u21-n3-09
+      type: multiple_choice
+      prompt: leadership – מה הפירוש?
+      options:
+      - מנהיגות
+      - גישה
+      - להשתתף
+      correct: 0
+      lexemes:
+      - leadership
+    - id: u21-n3-10
+      type: multiple_choice
+      prompt: participate – מה הפירוש?
+      options:
+      - להשתתף
+      - עיקרון
+      - מנהיגות
+      correct: 0
+      lexemes:
+      - participate
+    - id: u21-n3-11
+      type: multiple_choice
+      prompt: relation – מה הפירוש?
+      options:
+      - יחס; קשר
+      - מנהיגות
+      - גישה
+      correct: 0
+      lexemes:
+      - relation
+    - id: u21-n3-12
+      type: fill_blank
+      sentence: Honesty is a basic ___.
+      translation: יושרה היא עיקרון בסיסי.
+      answers:
+      - principle
+      options:
+      - principle
+      - participate
+      - behavior
+      lexemes:
+      - principle
+    - id: u21-n3-13
+      type: fill_blank
+      sentence: A positive ___ helps a lot.
+      translation: גישה חיובית עוזרת מאוד.
+      answers:
+      - attitude
+      options:
+      - attitude
+      - participate
+      - leadership
+      lexemes:
+      - attitude
+    - id: u21-n3-14
+      type: fill_blank
+      sentence: His ___ was very polite.
+      translation: ההתנהגות שלו הייתה מנומסת מאוד.
+      answers:
+      - behavior
+      options:
+      - behavior
+      - participate
+      - relation
+      lexemes:
+      - behavior
+    - id: u21-n3-15
+      type: word_bank
+      prompt: מנהיגות טובה בונה אמון.
+      answers:
+      - Good leadership builds trust.
+      distractors:
+      - participate
+      - principle
+      lexemes:
+      - leadership
+    - id: u21-n3-16
+      type: word_bank
+      prompt: אני משתתפת בכל פגישה.
+      answers:
+      - I participate in every meeting.
+      distractors:
+      - relation
+      - leadership
+      lexemes:
+      - participate
+    - id: u21-n3-17
+      type: listening_choice
+      audioText: The relation between them is good.
+      question: מה שמעתם?
+      options:
+      - הקשר ביניהם טוב.
+      - מנהיגות טובה בונה אמון.
+      - גישה חיובית עוזרת מאוד.
+      correct: 0
+      lexemes:
+      - relation
+    - id: u21-n3-18
+      type: speak_repeat
+      text: Good leadership needs the right attitude.
+      translation: מנהיגות טובה צריכה גישה נכונה.
+      lexemes:
+      - leadership
+      - attitude

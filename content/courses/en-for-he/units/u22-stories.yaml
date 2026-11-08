@@ -35,6 +35,24 @@ vocabulary:
   - { id: "poor-you", text: "Poor you!", translation: "מסכן! איזה באסה!", pos: "phrase", pronunciation: "פּוּר יוּ" }
   - { id: "no-way", text: "No way!", translation: "מה אתה אומר! לא יכול להיות!", pos: "phrase", pronunciation: "נוֹ וֵויי" }
 
+  - { id: "previously", text: "previously", translation: "קודם; בעבר", pos: "adverb", example: { text: "Previously, we lived in Haifa.", translation: "בעבר גרנו בחיפה." } }
+  - { id: "mostly", text: "mostly", translation: "בעיקר", pos: "adverb", example: { text: "The team is mostly young people.", translation: "הצוות הוא בעיקר צעירים." } }
+  - { id: "totally", text: "totally", translation: "לגמרי", pos: "adverb", example: { text: "I totally forgot the meeting.", translation: "שכחתי לגמרי את הפגישה." } }
+  - { id: "twice", text: "twice", translation: "פעמיים", pos: "adverb", example: { text: "I called him twice.", translation: "התקשרתי אליו פעמיים." } }
+  - { id: "shut", text: "shut", translation: "לסגור", pos: "verb", example: { text: "Please shut the window.", translation: "בבקשה סגור את החלון." } }
+  - { id: "hole", text: "hole", translation: "חור", pos: "noun", example: { text: "There is a hole in my sock.", translation: "יש חור בגרב שלי." } }
+  - { id: "grab", text: "grab", translation: "לתפוס", pos: "verb", example: { text: "Grab your coat, it is cold.", translation: "תפוס את המעיל, קר." } }
+  - { id: "knock", text: "knock", translation: "לדפוק; לדפוק בדלת", pos: "verb", example: { text: "Please knock before you enter.", translation: "בבקשה דפוק לפני שאתה נכנס." } }
+  - { id: "rush", text: "rush", translation: "למהר", pos: "verb", example: { text: "Don't rush, we have time.", translation: "אל תמהר, יש לנו זמן." } }
+  - { id: "chase", text: "chase", translation: "לרדוף", pos: "verb", example: { text: "The dog likes to chase the ball.", translation: "הכלב אוהב לרדוף אחרי הכדור." } }
+  - { id: "lift", text: "lift", translation: "להרים", pos: "verb", example: { text: "Can you lift this box?", translation: "אתה יכול להרים את הקופסה הזאת?" } }
+  - { id: "repair", text: "repair", translation: "לתקן", pos: "verb", example: { text: "I repair old chairs.", translation: "אני מתקן כיסאות ישנים." } }
+  - { id: "dangerous", text: "dangerous", translation: "מסוכן", pos: "adjective", example: { text: "This road is dangerous at night.", translation: "הכביש הזה מסוכן בלילה." } }
+  - { id: "terrible", text: "terrible", translation: "נורא", pos: "adjective", example: { text: "The weather was terrible.", translation: "מזג האוויר היה נורא." } }
+  - { id: "lucky", text: "lucky", translation: "בר מזל", pos: "adjective", example: { text: "You are lucky to be here.", translation: "יש לך מזל שאתה כאן." } }
+  - { id: "sight", text: "sight", translation: "מראה; ראייה", pos: "noun", example: { text: "The sight of the sea was beautiful.", translation: "המראה של הים היה יפה." } }
+  - { id: "incident", text: "incident", translation: "מקרה; אירוע", pos: "noun", example: { text: "It was a small incident.", translation: "זה היה מקרה קטן." } }
+  - { id: "mess", text: "mess", translation: "בלגן", pos: "noun", example: { text: "My room is a mess.", translation: "החדר שלי בלגן." } }
 grammar:
   - id: past-continuous
     title: { he: "באמצע משהו: I was cycling when…", en: "Past continuous vs past simple" }
@@ -505,3 +523,506 @@ lessons:
             any: ["\\w+ed\\b", "\\b(went|saw|had|took|came|met|found)\\b"]
         model: "Last week I was waiting for the bus when I saw my old teacher. She was carrying a huge box, so I helped her. While we were walking, she told me a funny story about my class. We laughed so much that we missed the bus, but it was a lovely morning."
         lexemes: []
+  # ------------------------------------------------------------------ story words
+  - id: u22-n1
+    kind: new
+    title:
+      he: 'היומן של נועה: סיפור על גשר'
+      en: 'Noa''s diary: a story about a bridge'
+    exercises:
+    - id: u22-n1-01
+      type: dialogue
+      scene: בארוחת ערב כולם מספרים מה קרה השבוע. בן מתחיל.
+      lines:
+      - speaker: ben
+        text: Previously I told you about my bike. This time it was mostly the weather.
+        translation: קודם סיפרתי לכם על האופניים שלי. הפעם זה היה בעיקר מזג האוויר.
+      - speaker: rachel
+        text: What happened?
+        translation: מה קרה?
+      - speaker: ben
+        text: I was totally late, so I crossed the bridge twice and then I shut the door in a hurry.
+        translation: איחרתי לגמרי, אז חציתי את הגשר פעמיים ואז טרקתי את הדלת בחיפזון.
+      - speaker: noa
+        text: And the hole in your shoe?
+        translation: ומה עם החור בנעל שלך?
+    - id: u22-n1-02
+      type: learn
+      lexeme: previously
+    - id: u22-n1-03
+      type: learn
+      lexeme: mostly
+    - id: u22-n1-04
+      type: learn
+      lexeme: totally
+    - id: u22-n1-05
+      type: learn
+      lexeme: twice
+    - id: u22-n1-06
+      type: learn
+      lexeme: shut
+    - id: u22-n1-07
+      type: learn
+      lexeme: hole
+    - id: u22-n1-08
+      type: match_pairs
+      pairs:
+      - - previously
+        - קודם; בעבר
+      - - mostly
+        - בעיקר
+      - - totally
+        - לגמרי
+      - - twice
+        - פעמיים
+      - - shut
+        - לסגור
+      - - hole
+        - חור
+      lexemes:
+      - previously
+      - mostly
+      - totally
+      - twice
+      - shut
+      - hole
+    - id: u22-n1-09
+      type: multiple_choice
+      prompt: totally – מה הפירוש?
+      options:
+      - לגמרי
+      - לסגור
+      - פעמיים
+      correct: 0
+      lexemes:
+      - totally
+    - id: u22-n1-10
+      type: multiple_choice
+      prompt: mostly – מה הפירוש?
+      options:
+      - בעיקר
+      - לגמרי
+      - לסגור
+      correct: 0
+      lexemes:
+      - mostly
+    - id: u22-n1-11
+      type: multiple_choice
+      prompt: previously – מה הפירוש?
+      options:
+      - קודם; בעבר
+      - בעיקר
+      - לגמרי
+      correct: 0
+      lexemes:
+      - previously
+    - id: u22-n1-12
+      type: fill_blank
+      sentence: There is a ___ in my sock.
+      translation: יש חור בגרב שלי.
+      answers:
+      - hole
+      options:
+      - hole
+      - shut
+      - twice
+      lexemes:
+      - hole
+    - id: u22-n1-13
+      type: fill_blank
+      sentence: I called him ___.
+      translation: התקשרתי אליו פעמיים.
+      answers:
+      - twice
+      options:
+      - twice
+      - hole
+      - shut
+      lexemes:
+      - twice
+    - id: u22-n1-14
+      type: fill_blank
+      sentence: Please ___ the window.
+      translation: בבקשה סגור את החלון.
+      answers:
+      - shut
+      options:
+      - shut
+      - hole
+      - twice
+      lexemes:
+      - shut
+    - id: u22-n1-15
+      type: word_bank
+      prompt: שכחתי לגמרי את הפגישה.
+      answers:
+      - I totally forgot the meeting.
+      distractors:
+      - twice
+      - mostly
+      lexemes:
+      - totally
+    - id: u22-n1-16
+      type: word_bank
+      prompt: הצוות הוא בעיקר צעירים.
+      answers:
+      - The team is mostly young people.
+      distractors:
+      - previously
+      - totally
+      lexemes:
+      - mostly
+    - id: u22-n1-17
+      type: listening_choice
+      audioText: Previously, we lived in Haifa.
+      question: מה שמעתם?
+      options:
+      - בעבר גרנו בחיפה.
+      - הצוות הוא בעיקר צעירים.
+      - שכחתי לגמרי את הפגישה.
+      correct: 0
+      lexemes:
+      - previously
+    - id: u22-n1-18
+      type: speak_repeat
+      text: I was totally late. I called twice.
+      translation: איחרתי לגמרי. התקשרתי פעמיים.
+      lexemes:
+      - totally
+      - twice
+  - id: u22-n2
+    kind: new
+    title:
+      he: 'היומן של נועה: להיתפס ולרוץ'
+      en: 'Noa''s diary: grabbing and rushing'
+    exercises:
+    - id: u22-n2-01
+      type: dialogue
+      scene: נועה מספרת על הקפה שנשפך.
+      lines:
+      - speaker: noa
+        text: I rush into the meeting room and knock on the door.
+        translation: אני ממהרת לחדר הישיבות ודופקת בדלת.
+      - speaker: rachel
+        text: And then?
+        translation: ואז?
+      - speaker: noa
+        text: I grab the cup, lift it, and it flies on the client's shirt.
+        translation: אני תופסת את הכוס, מרימה אותה, והיא עפה על החולצה של הלקוח.
+      - speaker: rachel
+        text: Did you chase him with a napkin?
+        translation: רדפת אחריו עם מפית?
+      - speaker: noa
+        text: I did, and we repair the shirt with a laugh.
+        translation: כן, ותיקנו את החולצה בצחוק.
+    - id: u22-n2-02
+      type: learn
+      lexeme: grab
+    - id: u22-n2-03
+      type: learn
+      lexeme: knock
+    - id: u22-n2-04
+      type: learn
+      lexeme: rush
+    - id: u22-n2-05
+      type: learn
+      lexeme: chase
+    - id: u22-n2-06
+      type: learn
+      lexeme: lift
+    - id: u22-n2-07
+      type: learn
+      lexeme: repair
+    - id: u22-n2-08
+      type: match_pairs
+      pairs:
+      - - grab
+        - לתפוס
+      - - knock
+        - לדפוק; לדפוק בדלת
+      - - rush
+        - למהר
+      - - chase
+        - לרדוף
+      - - lift
+        - להרים
+      - - repair
+        - לתקן
+      lexemes:
+      - grab
+      - knock
+      - rush
+      - chase
+      - lift
+      - repair
+    - id: u22-n2-09
+      type: multiple_choice
+      prompt: chase – מה הפירוש?
+      options:
+      - לרדוף
+      - לדפוק; לדפוק בדלת
+      - לתפוס
+      correct: 0
+      lexemes:
+      - chase
+    - id: u22-n2-10
+      type: multiple_choice
+      prompt: repair – מה הפירוש?
+      options:
+      - לתקן
+      - להרים
+      - לדפוק; לדפוק בדלת
+      correct: 0
+      lexemes:
+      - repair
+    - id: u22-n2-11
+      type: multiple_choice
+      prompt: lift – מה הפירוש?
+      options:
+      - להרים
+      - לתפוס
+      - למהר
+      correct: 0
+      lexemes:
+      - lift
+    - id: u22-n2-12
+      type: fill_blank
+      sentence: ___ your coat, it is cold.
+      translation: תפוס את המעיל, קר.
+      answers:
+      - Grab
+      options:
+      - Grab
+      - knock
+      - rush
+      lexemes:
+      - grab
+    - id: u22-n2-13
+      type: fill_blank
+      sentence: Please ___ before you enter.
+      translation: בבקשה דפוק לפני שאתה נכנס.
+      answers:
+      - knock
+      options:
+      - knock
+      - chase
+      - lift
+      lexemes:
+      - knock
+    - id: u22-n2-14
+      type: fill_blank
+      sentence: Don't ___, we have time.
+      translation: אל תמהר, יש לנו זמן.
+      answers:
+      - rush
+      options:
+      - rush
+      - knock
+      - grab
+      lexemes:
+      - rush
+    - id: u22-n2-15
+      type: word_bank
+      prompt: הכלב אוהב לרדוף אחרי הכדור.
+      answers:
+      - The dog likes to chase the ball.
+      distractors:
+      - rush
+      - knock
+      lexemes:
+      - chase
+    - id: u22-n2-16
+      type: word_bank
+      prompt: אני מתקן כיסאות ישנים.
+      answers:
+      - I repair old chairs.
+      distractors:
+      - lift
+      - chase
+      lexemes:
+      - repair
+    - id: u22-n2-17
+      type: listening_choice
+      audioText: Can you lift this box?
+      question: מה שמעתם?
+      options:
+      - אתה יכול להרים את הקופסה הזאת?
+      - תפוס את המעיל, קר.
+      - בבקשה דפוק לפני שאתה נכנס.
+      correct: 0
+      lexemes:
+      - lift
+    - id: u22-n2-18
+      type: speak_repeat
+      text: I grab the cup and rush to the door.
+      translation: אני תופסת את הכוס וממהרת לדלת.
+      lexemes:
+      - grab
+      - rush
+  - id: u22-n3
+    kind: new
+    title:
+      he: 'היומן של נועה: מזל ופחד'
+      en: 'Noa''s diary: luck and fear'
+    exercises:
+    - id: u22-n3-01
+      type: dialogue
+      scene: 'סיפור אחרון: האופניים של בן.'
+      lines:
+      - speaker: ben
+        text: It was a dangerous road, and the incident was terrible.
+        translation: זה היה כביש מסוכן והמקרה היה נורא.
+      - speaker: noa
+        text: You are lucky. The sight of your bike was a mess.
+        translation: יש לך מזל. המראה של האופניים היה בלגן.
+      - speaker: ben
+        text: I got a scare, but no one was hurt.
+        translation: נבהלתי, אבל אף אחד לא נפגע.
+      - speaker: rachel
+        text: Thank God.
+        translation: תודה לאל.
+    - id: u22-n3-02
+      type: learn
+      lexeme: dangerous
+    - id: u22-n3-03
+      type: learn
+      lexeme: terrible
+    - id: u22-n3-04
+      type: learn
+      lexeme: lucky
+    - id: u22-n3-05
+      type: learn
+      lexeme: sight
+    - id: u22-n3-06
+      type: learn
+      lexeme: incident
+    - id: u22-n3-07
+      type: learn
+      lexeme: mess
+    - id: u22-n3-08
+      type: match_pairs
+      pairs:
+      - - dangerous
+        - מסוכן
+      - - terrible
+        - נורא
+      - - lucky
+        - בר מזל
+      - - sight
+        - מראה; ראייה
+      - - incident
+        - מקרה; אירוע
+      - - mess
+        - בלגן
+      lexemes:
+      - dangerous
+      - terrible
+      - lucky
+      - sight
+      - incident
+      - mess
+    - id: u22-n3-09
+      type: multiple_choice
+      prompt: incident – מה הפירוש?
+      options:
+      - מקרה; אירוע
+      - בלגן
+      - בר מזל
+      correct: 0
+      lexemes:
+      - incident
+    - id: u22-n3-10
+      type: multiple_choice
+      prompt: lucky – מה הפירוש?
+      options:
+      - בר מזל
+      - נורא
+      - מקרה; אירוע
+      correct: 0
+      lexemes:
+      - lucky
+    - id: u22-n3-11
+      type: multiple_choice
+      prompt: sight – מה הפירוש?
+      options:
+      - מראה; ראייה
+      - מקרה; אירוע
+      - בלגן
+      correct: 0
+      lexemes:
+      - sight
+    - id: u22-n3-12
+      type: fill_blank
+      sentence: My room is a ___.
+      translation: החדר שלי בלגן.
+      answers:
+      - mess
+      options:
+      - mess
+      - incident
+      - sight
+      lexemes:
+      - mess
+    - id: u22-n3-13
+      type: fill_blank
+      sentence: This road is ___ at night.
+      translation: הכביש הזה מסוכן בלילה.
+      answers:
+      - dangerous
+      options:
+      - dangerous
+      - lucky
+      - terrible
+      lexemes:
+      - dangerous
+    - id: u22-n3-14
+      type: fill_blank
+      sentence: The weather was ___.
+      translation: מזג האוויר היה נורא.
+      answers:
+      - terrible
+      options:
+      - terrible
+      - lucky
+      - mess
+      lexemes:
+      - terrible
+    - id: u22-n3-15
+      type: word_bank
+      prompt: זה היה מקרה קטן.
+      answers:
+      - It was a small incident.
+      distractors:
+      - sight
+      - terrible
+      lexemes:
+      - incident
+    - id: u22-n3-16
+      type: word_bank
+      prompt: יש לך מזל שאתה כאן.
+      answers:
+      - You are lucky to be here.
+      distractors:
+      - dangerous
+      - incident
+      lexemes:
+      - lucky
+    - id: u22-n3-17
+      type: listening_choice
+      audioText: The sight of the sea was beautiful.
+      question: מה שמעתם?
+      options:
+      - המראה של הים היה יפה.
+      - הכביש הזה מסוכן בלילה.
+      - מזג האוויר היה נורא.
+      correct: 0
+      lexemes:
+      - sight
+    - id: u22-n3-18
+      type: speak_repeat
+      text: It was a terrible incident, but I am lucky.
+      translation: זה היה מקרה נורא, אבל יש לי מזל.
+      lexemes:
+      - terrible
+      - lucky
+      - incident
