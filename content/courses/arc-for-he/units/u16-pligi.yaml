@@ -1,0 +1,583 @@
+id: u16-pligi
+cefr: B1
+scene: study
+title:
+  he: במאי קמיפלגי
+  en: What do they disagree about?
+story: 'איתן ור׳ ישראל חלוקים: להזמין את יונאס לישראל או לא. בגמרא לומדים איך מנסחים מחלוקת: מר סבר ומר סבר, במאי קמיפלגי, ולשיטת מי.'
+canDo:
+- 'להבין מחלוקת: מר סבר… ומר סבר…'
+- להבין ״במאי קמיפלגי״ ו״כולי עלמא לא פליגי״
+- להבין ״אליבא ד…״ ו״הלכתא כוותיה״
+vocabulary:
+- id: mar-savar
+  text: מר סבר
+  translation: חכם אחד סובר (״ומר סבר״ = והשני סובר)
+  pos: phrase
+  example:
+    text: דמר סבר כופין ומר סבר אין כופין
+    translation: 'שחכם אחד סובר: כופין, והשני סובר: אין כופין'
+    source: בבלי, בבא בתרא קסח ע״א
+    vocalized: 'דְּמָר סָבַר: כּוֹפִין, וּמַר סָבַר: אֵין כּוֹפִין'
+- id: kamiflegi
+  text: קמיפלגי
+  translation: הם חלוקים (נחלקו)
+  pos: verb
+  example:
+    text: לימא בהא קמיפלגי
+    translation: נאמר שבזה הם חלוקים?
+    source: בבלי, ברכות כב ע״ב
+    vocalized: לֵימָא בְּהָא קָמִיפַּלְגִי
+- id: bahai
+  text: בהא
+  translation: בזה, בזאת
+  pos: pronoun
+  example:
+    text: לימא בהא קמיפלגי
+    translation: נאמר שבזה הם חלוקים?
+    source: בבלי, ברכות כב ע״ב
+    vocalized: לֵימָא בְּהָא קָמִיפַּלְגִי
+- id: kulei-alma
+  text: כולי עלמא
+  translation: 'כולם (בקיצור: כ״ע)'
+  pos: phrase
+  example:
+    text: אליבא דשמואל כ"ע לא פליגי
+    translation: לשיטת שמואל, כולם אינם חולקים
+    source: בבלי, סוכה יח ע״ב
+    vocalized: אַלִּיבָּא דִּשְׁמוּאֵל, כּוּלֵּי עָלְמָא לָא פְּלִיגִי
+- id: aliba
+  text: אליבא
+  translation: לשיטת…, לפי דעת…
+  pos: preposition
+  example:
+    text: אליבא דמאן
+    translation: לשיטת מי?
+    source: בבלי, בבא קמא יג ע״א
+    vocalized: אַלִּיבָּא דְּמַאן
+- id: hilchta
+  text: הלכתא
+  translation: הלכה
+  pos: noun
+  example:
+    text: ולית הלכתא כוותיה
+    translation: ואין הלכה כמותו
+    source: בבלי, פסחים קד ע״ב
+    vocalized: וְלֵית הִלְכְתָא כְּווֹתֵיהּ
+- id: savrei
+  text: סברי
+  translation: סוברים
+  pos: verb
+  example:
+    text: ורבנן סברי אין בילה
+    translation: 'וחכמים סוברים: אין (דין) ״בילה״'
+    source: בבלי, ראש השנה יג ע״ב
+    vocalized: וְרַבָּנַן סָבְרִי אֵין בִּילָּה
+- id: darish
+  text: דריש
+  translation: דורש (לומד מן הפסוק)
+  pos: verb
+  example:
+    text: ואידך את לא דריש
+    translation: והאחר אינו דורש (את המילה) ׳את׳
+    source: בבלי, פסחים כב ע״ב
+    vocalized: וְאִידַּךְ? אֶת לָא דָּרֵישׁ
+- id: isura
+  text: איסורא
+  translation: איסור
+  pos: noun
+  example:
+    text: התם ממונא הכא איסורא
+    translation: שם (מדובר ב)ממון, כאן (ב)איסור
+    source: בבלי, גיטין לד ע״א
+    vocalized: הָתָם מָמוֹנָא, הָכָא אִיסּוּרָא
+- id: mamona
+  text: ממונא
+  translation: ממון, כסף
+  pos: noun
+  example:
+    text: התם ממונא הכא איסורא
+    translation: שם (מדובר ב)ממון, כאן (ב)איסור
+    source: בבלי, גיטין לד ע״א
+    vocalized: הָתָם מָמוֹנָא, הָכָא אִיסּוּרָא
+- id: dina
+  text: דינא
+  translation: דין
+  pos: noun
+  example:
+    text: דינא הכי ושתיק רב
+    translation: הדין כך, ושתק רב
+    source: בבלי, בבא מציעא צז ע״א
+    vocalized: דִּינָא הָכִי וּשְׁתֵיק רַב
+grammar: []
+lessons:
+- id: u16-l1
+  kind: new
+  title:
+    he: מר סבר ומר סבר
+    en: One thinks, the other thinks
+  exercises:
+  - id: u16-l1-01
+    type: dialogue
+    scene: חצות. הפעם יש מתח בחדר.
+    lines:
+    - speaker: eitan
+      text: אני חושב שצריך להזמין את יונאס לארץ. לתת לו את הדף, להודות לסבא שלו.
+      translation: איתן
+    - speaker: yisrael
+      text: ואני חושב שלא צריך לגרור אדם זר לתוך הכאב שלנו. נשלח לו מכתב.
+      translation: ר׳ ישראל
+    - speaker: chana
+      text: ״מר סבר… ומר סבר…״. כמו בגמרא. ״במאי קמיפלגי?״ במה אתם בעצם חלוקים?
+      translation: חנה
+    - speaker: yisrael
+      text: שאלה טובה. בואו נלמד איך הגמרא עושה את זה, ואז נחליט.
+      translation: ר׳ ישראל
+  - id: u16-l1-02
+    type: learn
+    lexeme: mar-savar
+  - id: u16-l1-03
+    type: learn
+    lexeme: kamiflegi
+  - id: u16-l1-04
+    type: learn
+    lexeme: bahai
+  - id: u16-l1-05
+    type: match_pairs
+    pairs:
+    - - מר סבר
+      - חכם אחד סובר (״ומר סבר״ = והשני סובר)
+    - - קמיפלגי
+      - הם חלוקים (נחלקו)
+    - - בהא
+      - בזה, בזאת
+    lexemes:
+    - mar-savar
+    - kamiflegi
+    - bahai
+  - id: u16-l1-06
+    type: multiple_choice
+    prompt: מה פירוש מר סבר?
+    options:
+    - חכם אחד סובר (״ומר סבר״ = והשני סובר)
+    - הם חלוקים (נחלקו)
+    - הלכה
+    correct: 0
+    lexemes:
+    - mar-savar
+  - id: u16-l1-07
+    type: multiple_choice
+    prompt: מה פירוש קמיפלגי?
+    options:
+    - הם חלוקים (נחלקו)
+    - לשיטת…, לפי דעת…
+    - בזה, בזאת
+    correct: 0
+    lexemes:
+    - kamiflegi
+  - id: u16-l1-08
+    type: multiple_choice
+    prompt: מה פירוש בהא?
+    options:
+    - בזה, בזאת
+    - 'כולם (בקיצור: כ״ע)'
+    - חכם אחד סובר (״ומר סבר״ = והשני סובר)
+    correct: 0
+    lexemes:
+    - bahai
+  - id: u16-l1-09
+    type: fill_blank
+    sentence: דמר ___ כופין ומר סבר אין כופין
+    translation: 'שחכם אחד סובר: כופין, והשני סובר: אין כופין'
+    answers:
+    - סבר
+    options:
+    - סבר
+    - הלכתא
+    - כולי עלמא
+    lexemes:
+    - mar-savar
+    source: בבלי, בבא בתרא קסח ע״א
+    vocalized: 'דְּמָר סָבַר: כּוֹפִין, וּמַר סָבַר: אֵין כּוֹפִין'
+  - id: u16-l1-10
+    type: fill_blank
+    sentence: לימא בהא ___
+    translation: נאמר שבזה הם חלוקים?
+    answers:
+    - קמיפלגי
+    options:
+    - קמיפלגי
+    - מר סבר
+    - אליבא
+    lexemes:
+    - kamiflegi
+    source: בבלי, ברכות כב ע״ב
+    vocalized: לֵימָא בְּהָא קָמִיפַּלְגִי
+  - id: u16-l1-11
+    type: fill_blank
+    sentence: לימא ___ קמיפלגי
+    translation: נאמר שבזה הם חלוקים?
+    answers:
+    - בהא
+    options:
+    - בהא
+    - קמיפלגי
+    - כולי עלמא
+    lexemes:
+    - bahai
+    source: בבלי, ברכות כב ע״ב
+    vocalized: לֵימָא בְּהָא קָמִיפַּלְגִי
+- id: u16-l2
+  kind: new
+  title:
+    he: כולי עלמא
+    en: Everyone
+  exercises:
+  - id: u16-l2-12
+    type: tip
+    title: מחלוקת
+    text: '**מר סבר… ומר סבר…** = חכם אחד סובר כך, והשני כך.
+
+
+      **במאי קמיפלגי?** = במה הם חלוקים? **כולי עלמא לא פליגי** = כולם מסכימים (בזה).
+
+
+      **אליבא דמאן?** = לשיטת מי? **הלכתא כוותיה** = ההלכה כמותו. **לית הלכתא כוותיה** = אין הלכה כמותו.'
+  - id: u16-l2-13
+    type: learn
+    lexeme: kulei-alma
+  - id: u16-l2-14
+    type: learn
+    lexeme: aliba
+  - id: u16-l2-15
+    type: learn
+    lexeme: hilchta
+  - id: u16-l2-16
+    type: match_pairs
+    pairs:
+    - - כולי עלמא
+      - 'כולם (בקיצור: כ״ע)'
+    - - אליבא
+      - לשיטת…, לפי דעת…
+    - - הלכתא
+      - הלכה
+    lexemes:
+    - kulei-alma
+    - aliba
+    - hilchta
+  - id: u16-l2-17
+    type: multiple_choice
+    prompt: מה פירוש כולי עלמא?
+    options:
+    - 'כולם (בקיצור: כ״ע)'
+    - הם חלוקים (נחלקו)
+    - לשיטת…, לפי דעת…
+    correct: 0
+    lexemes:
+    - kulei-alma
+  - id: u16-l2-18
+    type: multiple_choice
+    prompt: מה פירוש אליבא?
+    options:
+    - לשיטת…, לפי דעת…
+    - חכם אחד סובר (״ומר סבר״ = והשני סובר)
+    - בזה, בזאת
+    correct: 0
+    lexemes:
+    - aliba
+  - id: u16-l2-19
+    type: multiple_choice
+    prompt: מה פירוש הלכתא?
+    options:
+    - הלכה
+    - חכם אחד סובר (״ומר סבר״ = והשני סובר)
+    - בזה, בזאת
+    correct: 0
+    lexemes:
+    - hilchta
+  - id: u16-l2-20
+    type: fill_blank
+    sentence: אליבא דשמואל ___ לא פליגי
+    translation: לשיטת שמואל, כולם אינם חולקים
+    answers:
+    - כ"ע
+    options:
+    - כ"ע
+    - בהא
+    - אליבא
+    lexemes:
+    - kulei-alma
+    source: בבלי, סוכה יח ע״ב
+    vocalized: אַלִּיבָּא דִּשְׁמוּאֵל, כּוּלֵּי עָלְמָא לָא פְּלִיגִי
+  - id: u16-l2-21
+    type: fill_blank
+    sentence: ___ דמאן
+    translation: לשיטת מי?
+    answers:
+    - אליבא
+    options:
+    - אליבא
+    - מר סבר
+    - הלכתא
+    lexemes:
+    - aliba
+    source: בבלי, בבא קמא יג ע״א
+    vocalized: אַלִּיבָּא דְּמַאן
+  - id: u16-l2-22
+    type: fill_blank
+    sentence: ולית ___ כוותיה
+    translation: ואין הלכה כמותו
+    answers:
+    - הלכתא
+    options:
+    - הלכתא
+    - אליבא
+    - בהא
+    lexemes:
+    - hilchta
+    source: בבלי, פסחים קד ע״ב
+    vocalized: וְלֵית הִלְכְתָא כְּווֹתֵיהּ
+- id: u16-l3
+  kind: new
+  title:
+    he: ממונא ואיסורא
+    en: Money and prohibition
+  exercises:
+  - id: u16-l3-23
+    type: tip
+    title: המחברת של איתן
+    text: 'איתן מסכם במחברת את המילים של מחלוקת ודין. מילים שחוזרות שוב ושוב בדפים: **סברי** = סוברים, **דריש** = דורש (לומד מן הפסוק), **איסורא** = איסור, **ממונא** = ממון, כסף, **דינא** = דין.'
+  - id: u16-l3-24
+    type: learn
+    lexeme: savrei
+  - id: u16-l3-25
+    type: learn
+    lexeme: darish
+  - id: u16-l3-26
+    type: learn
+    lexeme: isura
+  - id: u16-l3-27
+    type: learn
+    lexeme: mamona
+  - id: u16-l3-28
+    type: learn
+    lexeme: dina
+  - id: u16-l3-29
+    type: match_pairs
+    pairs:
+    - - סברי
+      - סוברים
+    - - דריש
+      - דורש (לומד מן הפסוק)
+    - - איסורא
+      - איסור
+    - - ממונא
+      - ממון, כסף
+    - - דינא
+      - דין
+    lexemes:
+    - savrei
+    - darish
+    - isura
+    - mamona
+    - dina
+  - id: u16-l3-30
+    type: multiple_choice
+    prompt: מה פירוש סברי?
+    options:
+    - סוברים
+    - ממון, כסף
+    - 'כולם (בקיצור: כ״ע)'
+    correct: 0
+    lexemes:
+    - savrei
+  - id: u16-l3-31
+    type: multiple_choice
+    prompt: מה פירוש דריש?
+    options:
+    - דורש (לומד מן הפסוק)
+    - הם חלוקים (נחלקו)
+    - חכם אחד סובר (״ומר סבר״ = והשני סובר)
+    correct: 0
+    lexemes:
+    - darish
+  - id: u16-l3-32
+    type: multiple_choice
+    prompt: מה פירוש איסורא?
+    options:
+    - איסור
+    - חכם אחד סובר (״ומר סבר״ = והשני סובר)
+    - הלכה
+    correct: 0
+    lexemes:
+    - isura
+  - id: u16-l3-33
+    type: multiple_choice
+    prompt: מה פירוש ממונא?
+    options:
+    - ממון, כסף
+    - 'כולם (בקיצור: כ״ע)'
+    - סוברים
+    correct: 0
+    lexemes:
+    - mamona
+  - id: u16-l3-34
+    type: multiple_choice
+    prompt: מה פירוש דינא?
+    options:
+    - דין
+    - לשיטת…, לפי דעת…
+    - הם חלוקים (נחלקו)
+    correct: 0
+    lexemes:
+    - dina
+  - id: u16-l3-35
+    type: fill_blank
+    sentence: ורבנן ___ אין בילה
+    translation: 'וחכמים סוברים: אין (דין) ״בילה״'
+    answers:
+    - סברי
+    options:
+    - סברי
+    - אליבא
+    - בהא
+    lexemes:
+    - savrei
+    source: בבלי, ראש השנה יג ע״ב
+    vocalized: וְרַבָּנַן סָבְרִי אֵין בִּילָּה
+  - id: u16-l3-36
+    type: fill_blank
+    sentence: ואידך את לא ___
+    translation: והאחר אינו דורש (את המילה) ׳את׳
+    answers:
+    - דריש
+    options:
+    - דריש
+    - קמיפלגי
+    - בהא
+    lexemes:
+    - darish
+    source: בבלי, פסחים כב ע״ב
+    vocalized: וְאִידַּךְ? אֶת לָא דָּרֵישׁ
+  - id: u16-l3-37
+    type: fill_blank
+    sentence: התם ממונא הכא ___
+    translation: שם (מדובר ב)ממון, כאן (ב)איסור
+    answers:
+    - איסורא
+    options:
+    - איסורא
+    - כולי עלמא
+    - קמיפלגי
+    lexemes:
+    - isura
+    source: בבלי, גיטין לד ע״א
+    vocalized: הָתָם מָמוֹנָא, הָכָא אִיסּוּרָא
+  - id: u16-l3-38
+    type: fill_blank
+    sentence: התם ___ הכא איסורא
+    translation: שם (מדובר ב)ממון, כאן (ב)איסור
+    answers:
+    - ממונא
+    options:
+    - ממונא
+    - כולי עלמא
+    - בהא
+    lexemes:
+    - mamona
+    source: בבלי, גיטין לד ע״א
+    vocalized: הָתָם מָמוֹנָא, הָכָא אִיסּוּרָא
+  - id: u16-l3-39
+    type: fill_blank
+    sentence: ___ הכי ושתיק רב
+    translation: הדין כך, ושתק רב
+    answers:
+    - דינא
+    options:
+    - דינא
+    - הלכתא
+    - מר סבר
+    lexemes:
+    - dina
+    source: בבלי, בבא מציעא צז ע״א
+    vocalized: דִּינָא הָכִי וּשְׁתֵיק רַב
+- id: u16-l4
+  kind: review
+  title:
+    he: מחלוקת לשם שמים
+    en: A disagreement for heaven's sake
+  exercises:
+  - id: u16-l4-40
+    type: multiple_choice
+    prompt: ״דמר סבר כופין ומר סבר אין כופין״. מה המשפט מתאר?
+    options:
+    - 'מחלוקת: חכם אחד סובר שכופים, והשני שלא'
+    - ששני החכמים מסכימים
+    - שאלה שנשארה בתיקו
+    correct: 0
+    lexemes:
+    - mar-savar
+    source: בבלי, בבא בתרא קסח ע״א
+    vocalized: 'דְּמָר סָבַר: כּוֹפִין, וּמַר סָבַר: אֵין כּוֹפִין'
+  - id: u16-l4-41
+    type: multiple_choice
+    prompt: ״ולית הלכתא כוותיה״. מה נאמר על החכם?
+    options:
+    - שאין הלכה כמותו
+    - שההלכה כמותו
+    - שאין לו ראיה
+    correct: 0
+    lexemes:
+    - hilchta
+    - kvateih
+    source: בבלי, פסחים קד ע״ב
+    vocalized: וְלֵית הִלְכְתָא כְּווֹתֵיהּ
+  - id: u16-l4-42
+    type: fill_blank
+    sentence: ___ דשמואל כ"ע לא פליגי
+    translation: לשיטת שמואל, כולם אינם חולקים
+    answers:
+    - אליבא
+    options:
+    - אליבא
+    - בהדיה
+    - כוותיה
+    lexemes:
+    - aliba
+    source: בבלי, סוכה יח ע״ב
+    vocalized: אַלִּיבָּא דִּשְׁמוּאֵל, כּוּלֵּי עָלְמָא לָא פְּלִיגִי
+  - id: u16-l4-43
+    type: dialogue
+    scene: רבע לאחת. ר׳ ישראל מוריד את המשקפיים.
+    lines:
+    - speaker: yisrael
+      text: ״כולי עלמא לא פליגי״ שסבא שלך היה רוצה להודות לו. אני רק פחדתי. נזמין אותו.
+      translation: ר׳ ישראל מוותר
+    - speaker: eitan
+      text: לסיום של הפרק?
+      translation: איתן
+    - speaker: yisrael
+      text: לסיום. ״הדרן עלך שנים אוחזין״. אבל עד אז יש לנו עוד עבודה.
+      translation: המטרה
+  - id: u16-l4-44
+    type: match_pairs
+    pairs:
+    - - מר סבר
+      - חכם אחד סובר (״ומר סבר״ = והשני סובר)
+    - - קמיפלגי
+      - הם חלוקים (נחלקו)
+    - - כולי עלמא
+      - 'כולם (בקיצור: כ״ע)'
+    - - אליבא
+      - לשיטת…, לפי דעת…
+    - - הלכתא
+      - הלכה
+    - - בהא
+      - בזה, בזאת
+    lexemes:
+    - mar-savar
+    - kamiflegi
+    - kulei-alma
+    - aliba
+    - hilchta
+    - bahai

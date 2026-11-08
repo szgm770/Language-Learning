@@ -1,0 +1,567 @@
+id: u23-metzaatiha
+cefr: B2
+scene: study
+title:
+  he: מאי מצאתיה?
+  en: What does 'I found it' mean?
+story: הלילה שלפני הסיום. איתן חוזר לדף הראשון, להערה הראשונה של סבא, וקורא עכשיו את כל הסוגיה לבד. התשובה ל״מאי מצאתיה?״ היא גם התשובה למכתב.
+canDo:
+- לקרוא סוגיה שלמה בבבא מציעא ב ע״א
+- להבין ״בעלמא״, ״קני״, ״אתאי לידיה״, ״משמע״
+- להבין איך הגמרא מדייקת בלשון המשנה
+vocabulary:
+- id: liteni
+  text: ליתני
+  translation: שישנה (התנא)!
+  pos: verb
+  example:
+    text: וליתני אני מצאתיה ואנא ידענא דכולה שלי
+    translation: ושישנה (רק) ׳אני מצאתיה׳, ואני אדע (מעצמי) שכולה שלי!
+    source: בבלי, בבא מציעא ב ע״א
+    vocalized: וְלִיתְנֵי אֲנִי מְצָאתִיהָ, וַאֲנָא יָדַעְנָא דְּכוּלָּהּ שֶׁלִּי
+- id: bealma
+  text: בעלמא
+  translation: 'בלבד, סתם; גם: באופן כללי'
+  pos: adverb
+  example:
+    text: בראיה בעלמא קני
+    translation: בראייה בלבד הוא קונה
+    source: בבלי, בבא מציעא ב ע״א
+    vocalized: בִּרְאִיָּה בְּעָלְמָא קָנֵי
+- id: kanei
+  text: קני
+  translation: קונה (זוכה בדבר)
+  pos: verb
+  example:
+    text: בראיה בעלמא קני
+    translation: בראייה בלבד הוא קונה
+    source: בבלי, בבא מציעא ב ע״א
+    vocalized: בִּרְאִיָּה בְּעָלְמָא קָנֵי
+- id: leydeih
+  text: לידיה
+  translation: לידו
+  pos: noun
+  example:
+    text: אע"ג דלא אתאי לידיה בראיה בעלמא קני
+    translation: אף על פי שלא באה לידו, בראייה בלבד הוא קונה
+    source: בבלי, בבא מציעא ב ע״א
+    vocalized: אַף עַל גַּב דְּלָא אֲתַאי לִידֵיהּ בִּרְאִיָּה בְּעָלְמָא קָנֵי
+- id: matzit
+  text: מצית אמרת
+  translation: אתה יכול לומר
+  pos: phrase
+  example:
+    text: ומי מצית אמרת
+    translation: וכי אתה יכול לומר?
+    source: בבלי, בבא מציעא ב ע״א
+    vocalized: וּמִי מָצֵית אָמְרַתְּ
+- id: mashma
+  text: משמע
+  translation: משמעו, פירושו
+  pos: verb
+  example:
+    text: ומצאתה דאתאי לידיה משמע
+    translation: ׳ומצאתה׳ משמעו שבאה לידו
+    source: בבלי, בבא מציעא ב ע״א
+    vocalized: וּמְצָאתָהּ דַּאֲתַאי לִידֵיהּ מַשְׁמַע
+- id: lishna
+  text: לישנא
+  translation: לשון
+  pos: noun
+  example:
+    text: ומיהו תנא לישנא דעלמא נקט
+    translation: ובכל זאת התנא השתמש בלשון של בני אדם
+    source: בבלי, בבא מציעא ב ע״א
+    vocalized: וּמִיהוּ תַּנָּא לִישָּׁנָא דְעָלְמָא נָקֵט
+- id: nakat
+  text: נקט
+  translation: לקח, תפס; השתמש (בלשון)
+  pos: verb
+  example:
+    text: ומיהו תנא לישנא דעלמא נקט
+    translation: ובכל זאת התנא השתמש בלשון של בני אדם
+    source: בבלי, בבא מציעא ב ע״א
+    vocalized: וּמִיהוּ תַּנָּא לִישָּׁנָא דְעָלְמָא נָקֵט
+- id: ashkachit
+  text: אשכחית
+  translation: מצאתי
+  pos: verb
+  example:
+    text: ומדחזי ליה אמר אנא אשכחית
+    translation: 'וכיוון שראה אותה, הוא אומר: אני מצאתי'
+    source: בבלי, בבא מציעא ב ע״א
+    vocalized: 'וּמִדְּחָזֵי לֵיהּ אָמַר: אֲנָא אַשְׁכַּחִית'
+- id: ashmeinan
+  text: אשמעינן
+  translation: השמיע לנו, לימד אותנו
+  pos: verb
+  example:
+    text: דממשנה יתירה אשמעינן דראיה לא קני
+    translation: שממשנה מיותרת לימד אותנו שראייה אינה קונה
+    source: בבלי, בבא מציעא ב ע״א
+    vocalized: דְּמִמִּשְׁנָה יַתִּירָה אַשְׁמְעִינַן דִּרְאִיָּה לָא קָנֵי
+grammar: []
+lessons:
+- id: u23-l1
+  kind: new
+  title:
+    he: ראיה בעלמא
+    en: Mere seeing
+  exercises:
+  - id: u23-l1-01
+    type: dialogue
+    scene: הלילה שלפני הסיום. איתן לבד בבית של סבא, עם הגמרא פתוחה בדף ב.
+    lines:
+    - speaker: eitan
+      text: (לעצמו) ״מאי מצאתיה? ראיתיה״. מה פירוש ״מצאתי״? שראיתי אותה.
+      translation: איתן קורא לבד
+    - speaker: eitan
+      text: ״אף על גב דלא אתאי לידיה, בראיה בעלמא קני״. גם אם לא באה לידו, בראייה בלבד הוא קונה. זה מה שהייתי חושב.
+      translation: הוה אמינא
+    - speaker: eitan
+      text: אבל המשנה מוסיפה ״כולה שלי״, כדי ללמד ש״בראיה לא קני״. לראות זה לא מספיק.
+      translation: המסקנה
+  - id: u23-l1-02
+    type: learn
+    lexeme: liteni
+  - id: u23-l1-03
+    type: learn
+    lexeme: bealma
+  - id: u23-l1-04
+    type: learn
+    lexeme: kanei
+  - id: u23-l1-05
+    type: learn
+    lexeme: leydeih
+  - id: u23-l1-06
+    type: match_pairs
+    pairs:
+    - - ליתני
+      - שישנה (התנא)!
+    - - בעלמא
+      - 'בלבד, סתם; גם: באופן כללי'
+    - - קני
+      - קונה (זוכה בדבר)
+    - - לידיה
+      - לידו
+    lexemes:
+    - liteni
+    - bealma
+    - kanei
+    - leydeih
+  - id: u23-l1-07
+    type: multiple_choice
+    prompt: מה פירוש ליתני?
+    options:
+    - שישנה (התנא)!
+    - 'בלבד, סתם; גם: באופן כללי'
+    - לקח, תפס; השתמש (בלשון)
+    correct: 0
+    lexemes:
+    - liteni
+  - id: u23-l1-08
+    type: multiple_choice
+    prompt: מה פירוש בעלמא?
+    options:
+    - 'בלבד, סתם; גם: באופן כללי'
+    - לשון
+    - משמעו, פירושו
+    correct: 0
+    lexemes:
+    - bealma
+  - id: u23-l1-09
+    type: multiple_choice
+    prompt: מה פירוש קני?
+    options:
+    - קונה (זוכה בדבר)
+    - מצאתי
+    - השמיע לנו, לימד אותנו
+    correct: 0
+    lexemes:
+    - kanei
+  - id: u23-l1-10
+    type: multiple_choice
+    prompt: מה פירוש לידיה?
+    options:
+    - לידו
+    - שישנה (התנא)!
+    - קונה (זוכה בדבר)
+    correct: 0
+    lexemes:
+    - leydeih
+  - id: u23-l1-11
+    type: word_bank
+    prompt: ושישנה (רק) ׳אני מצאתיה׳, ואני אדע (מעצמי) שכולה שלי!
+    answers:
+    - וליתני אני מצאתיה ואנא ידענא דכולה שלי
+    distractors:
+    - לישנא
+    - קני
+    lexemes:
+    - liteni
+    source: בבלי, בבא מציעא ב ע״א
+    vocalized: וְלִיתְנֵי אֲנִי מְצָאתִיהָ, וַאֲנָא יָדַעְנָא דְּכוּלָּהּ שֶׁלִּי
+  - id: u23-l1-12
+    type: fill_blank
+    sentence: בראיה ___ קני
+    translation: בראייה בלבד הוא קונה
+    answers:
+    - בעלמא
+    options:
+    - בעלמא
+    - לידיה
+    - אשמעינן
+    lexemes:
+    - bealma
+    source: בבלי, בבא מציעא ב ע״א
+    vocalized: בִּרְאִיָּה בְּעָלְמָא קָנֵי
+  - id: u23-l1-13
+    type: fill_blank
+    sentence: בראיה בעלמא ___
+    translation: בראייה בלבד הוא קונה
+    answers:
+    - קני
+    options:
+    - קני
+    - משמע
+    - בעלמא
+    lexemes:
+    - kanei
+    source: בבלי, בבא מציעא ב ע״א
+    vocalized: בִּרְאִיָּה בְּעָלְמָא קָנֵי
+  - id: u23-l1-14
+    type: fill_blank
+    sentence: אע"ג דלא אתאי ___ בראיה בעלמא קני
+    translation: אף על פי שלא באה לידו, בראייה בלבד הוא קונה
+    answers:
+    - לידיה
+    options:
+    - לידיה
+    - לישנא
+    - מצית אמרת
+    lexemes:
+    - leydeih
+    source: בבלי, בבא מציעא ב ע״א
+    vocalized: אַף עַל גַּב דְּלָא אֲתַאי לִידֵיהּ בִּרְאִיָּה בְּעָלְמָא קָנֵי
+- id: u23-l2
+  kind: new
+  title:
+    he: לישנא דעלמא
+    en: Everyday language
+  exercises:
+  - id: u23-l2-15
+    type: dialogue
+    scene: ר׳ ישראל מגיע מאוחר, עם עוגה לסיום.
+    lines:
+    - speaker: yisrael
+      text: '״ומי מצית אמרת?״ וכי אתה יכול לומר ש״מצאתי״ זה רק לראות? הרי ״ומצאתה״ בתורה, ״דאתאי לידיה משמע״: שבאה לידו.'
+      translation: מצית אמרת, משמע
+    - speaker: eitan
+      text: אז למה המשנה אמרה ״מצאתיה״? ״לישנא דעלמא נקט״, היא דיברה כמו שאנשים מדברים.
+      translation: לישנא דעלמא
+    - speaker: yisrael
+      text: בדיוק. אנשים רואים משהו ואומרים ״אנא אשכחית״, אני מצאתי. אבל זה עוד לא שלהם.
+      translation: אשכחית
+    - speaker: eitan
+      text: עכשיו אני מבין את ההערה של סבא. לא מספיק לראות את התורה. צריך לקחת אותה לידיים.
+      translation: איתן מבין
+  - id: u23-l2-16
+    type: learn
+    lexeme: matzit
+  - id: u23-l2-17
+    type: learn
+    lexeme: mashma
+  - id: u23-l2-18
+    type: learn
+    lexeme: lishna
+  - id: u23-l2-19
+    type: learn
+    lexeme: nakat
+  - id: u23-l2-20
+    type: learn
+    lexeme: ashkachit
+  - id: u23-l2-21
+    type: learn
+    lexeme: ashmeinan
+  - id: u23-l2-22
+    type: match_pairs
+    pairs:
+    - - מצית אמרת
+      - אתה יכול לומר
+    - - משמע
+      - משמעו, פירושו
+    - - לישנא
+      - לשון
+    - - נקט
+      - לקח, תפס; השתמש (בלשון)
+    - - אשכחית
+      - מצאתי
+    - - אשמעינן
+      - השמיע לנו, לימד אותנו
+    lexemes:
+    - matzit
+    - mashma
+    - lishna
+    - nakat
+    - ashkachit
+    - ashmeinan
+  - id: u23-l2-23
+    type: multiple_choice
+    prompt: מה פירוש מצית אמרת?
+    options:
+    - אתה יכול לומר
+    - לקח, תפס; השתמש (בלשון)
+    - שישנה (התנא)!
+    correct: 0
+    lexemes:
+    - matzit
+  - id: u23-l2-24
+    type: multiple_choice
+    prompt: מה פירוש משמע?
+    options:
+    - משמעו, פירושו
+    - לשון
+    - אתה יכול לומר
+    correct: 0
+    lexemes:
+    - mashma
+  - id: u23-l2-25
+    type: multiple_choice
+    prompt: מה פירוש לישנא?
+    options:
+    - לשון
+    - מצאתי
+    - השמיע לנו, לימד אותנו
+    correct: 0
+    lexemes:
+    - lishna
+  - id: u23-l2-26
+    type: multiple_choice
+    prompt: מה פירוש נקט?
+    options:
+    - לקח, תפס; השתמש (בלשון)
+    - 'בלבד, סתם; גם: באופן כללי'
+    - לידו
+    correct: 0
+    lexemes:
+    - nakat
+  - id: u23-l2-27
+    type: multiple_choice
+    prompt: מה פירוש אשכחית?
+    options:
+    - מצאתי
+    - לקח, תפס; השתמש (בלשון)
+    - לשון
+    correct: 0
+    lexemes:
+    - ashkachit
+  - id: u23-l2-28
+    type: multiple_choice
+    prompt: מה פירוש אשמעינן?
+    options:
+    - השמיע לנו, לימד אותנו
+    - 'בלבד, סתם; גם: באופן כללי'
+    - לשון
+    correct: 0
+    lexemes:
+    - ashmeinan
+  - id: u23-l2-29
+    type: fill_blank
+    sentence: ומי ___ אמרת
+    translation: וכי אתה יכול לומר?
+    answers:
+    - מצית
+    options:
+    - מצית
+    - אשמעינן
+    - לידיה
+    lexemes:
+    - matzit
+    source: בבלי, בבא מציעא ב ע״א
+    vocalized: וּמִי מָצֵית אָמְרַתְּ
+  - id: u23-l2-30
+    type: fill_blank
+    sentence: ומצאתה דאתאי לידיה ___
+    translation: ׳ומצאתה׳ משמעו שבאה לידו
+    answers:
+    - משמע
+    options:
+    - משמע
+    - מצית אמרת
+    - קני
+    lexemes:
+    - mashma
+    source: בבלי, בבא מציעא ב ע״א
+    vocalized: וּמְצָאתָהּ דַּאֲתַאי לִידֵיהּ מַשְׁמַע
+  - id: u23-l2-31
+    type: fill_blank
+    sentence: ומיהו תנא ___ דעלמא נקט
+    translation: ובכל זאת התנא השתמש בלשון של בני אדם
+    answers:
+    - לישנא
+    options:
+    - לישנא
+    - אשכחית
+    - מצית אמרת
+    lexemes:
+    - lishna
+    source: בבלי, בבא מציעא ב ע״א
+    vocalized: וּמִיהוּ תַּנָּא לִישָּׁנָא דְעָלְמָא נָקֵט
+  - id: u23-l2-32
+    type: fill_blank
+    sentence: ומיהו תנא לישנא דעלמא ___
+    translation: ובכל זאת התנא השתמש בלשון של בני אדם
+    answers:
+    - נקט
+    options:
+    - נקט
+    - ליתני
+    - מצית אמרת
+    lexemes:
+    - nakat
+    source: בבלי, בבא מציעא ב ע״א
+    vocalized: וּמִיהוּ תַּנָּא לִישָּׁנָא דְעָלְמָא נָקֵט
+  - id: u23-l2-33
+    type: fill_blank
+    sentence: ומדחזי ליה אמר אנא ___
+    translation: 'וכיוון שראה אותה, הוא אומר: אני מצאתי'
+    answers:
+    - אשכחית
+    options:
+    - אשכחית
+    - בעלמא
+    - לישנא
+    lexemes:
+    - ashkachit
+    source: בבלי, בבא מציעא ב ע״א
+    vocalized: 'וּמִדְּחָזֵי לֵיהּ אָמַר: אֲנָא אַשְׁכַּחִית'
+  - id: u23-l2-34
+    type: fill_blank
+    sentence: דממשנה יתירה ___ דראיה לא קני
+    translation: שממשנה מיותרת לימד אותנו שראייה אינה קונה
+    answers:
+    - אשמעינן
+    options:
+    - אשמעינן
+    - ליתני
+    - משמע
+    lexemes:
+    - ashmeinan
+    source: בבלי, בבא מציעא ב ע״א
+    vocalized: דְּמִמִּשְׁנָה יַתִּירָה אַשְׁמְעִינַן דִּרְאִיָּה לָא קָנֵי
+- id: u23-l3
+  kind: review
+  title:
+    he: הסוגיה הראשונה
+    en: The first sugya
+  exercises:
+  - id: u23-l3-35
+    type: reading
+    kind: גמרא, בבא מציעא ב ע״א
+    title: מאי מצאתיה?
+    text: 'אי תנא אני מצאתיה הוה אמינא מאי מצאתיה ראיתיה
+
+
+      אע"ג דלא אתאי לידיה בראיה בעלמא קני
+
+
+      תנא כולה שלי דבראיה לא קני'
+    translation: 'אילו שנה (רק) ׳אני מצאתיה׳, הייתי אומר: מה פירוש ׳מצאתיה׳? ראה אותה.
+
+
+      אף על פי שלא באה לידו, בראייה בלבד הוא קונה.
+
+
+      (לכן) שנה ׳כולה שלי׳, (ללמד) שבראייה אינו קונה.'
+    lexemes:
+    - i
+    - hava-amina
+    - mai
+    - leydeih
+    - bealma
+    - kanei
+    - tana
+    source: בבלי, בבא מציעא ב ע״א
+    vocalized: 'אִי תְּנָא אֲנִי מְצָאתִיהָ, הֲוָה אָמֵינָא: מַאי מְצָאתִיהָ רְאִיתִיהָ. אַף עַל גַּב דְּלָא אֲתַאי לִידֵיהּ בִּרְאִיָּה בְּעָלְמָא קָנֵי, תְּנָא: כּוּלָּהּ שֶׁלִּי דְּבִרְאִיָּה לָא קָנֵי'
+  - id: u23-l3-36
+    type: reading
+    kind: גמרא, בבא מציעא ב ע״א
+    title: לישנא דעלמא
+    text: 'ומי מצית אמרת מאי מצאתיה ראיתיה והא אמר רבנאי ומצאתה דאתאי לידיה משמע
+
+
+      אין ומצאתה דקרא דאתא לידיה משמע ומיהו תנא לישנא דעלמא נקט'
+    translation: 'וכי אתה יכול לומר ׳מה פירוש מצאתיה? ראה אותה׳? והרי אמר רבנאי: ׳ומצאתה׳ (בתורה) משמעו שבאה לידו!
+
+
+      כן, ׳ומצאתה׳ שבפסוק משמעו שבאה לידו. ובכל זאת התנא השתמש בלשון של בני אדם.'
+    lexemes:
+    - matzit
+    - mashma
+    - lishna
+    - nakat
+    - in
+    source: בבלי, בבא מציעא ב ע״א
+    vocalized: וּמִי מָצֵית אָמְרַתְּ מַאי מְצָאתִיהָ רְאִיתִיהָ, וְהָא אָמַר רַבְנַאי וּמְצָאתָהּ דַּאֲתַאי לִידֵיהּ מַשְׁמַע. אִין וּמְצָאתָהּ דִּקְרָא דַּאֲתָא לִידֵיהּ מַשְׁמַע, וּמִיהוּ תַּנָּא לִישָּׁנָא דְעָלְמָא נָקֵט
+  - id: u23-l3-37
+    type: multiple_choice
+    prompt: ״דממשנה יתירה אשמעינן דראיה לא קני״. לפי המסקנה, האם ראייה בלבד קונה מציאה?
+    options:
+    - לא. המשנה הוסיפה ׳כולה שלי׳ כדי ללמד שראייה אינה קונה
+    - כן, ראייה בלבד קונה
+    - הגמרא נשארת בתיקו
+    correct: 0
+    lexemes:
+    - kanei
+    - bealma
+    source: בבלי, בבא מציעא ב ע״א
+    vocalized: דְּמִמִּשְׁנָה יַתִּירָה אַשְׁמְעִינַן דִּרְאִיָּה לָא קָנֵי
+  - id: u23-l3-38
+    type: fill_blank
+    sentence: ומדחזי ליה אמר אנא ___
+    translation: 'וכיוון שראה אותה, הוא אומר: אני מצאתי'
+    answers:
+    - אשכחית
+    options:
+    - אשכחית
+    - אשכחיה
+    - חזייה
+    lexemes:
+    - ashkachit
+    source: בבלי, בבא מציעא ב ע״א
+    vocalized: 'וּמִדְּחָזֵי לֵיהּ אָמַר: אֲנָא אַשְׁכַּחִית'
+  - id: u23-l3-39
+    type: dialogue
+    scene: שתיים בלילה. ר׳ ישראל עומד בדלת.
+    lines:
+    - speaker: yisrael
+      text: סבא שלך שאל אותך ״מאי מצאתיה?״ כי הוא ידע שתבין. מחר ״הדרן עלך״.
+      translation: מחר הסיום
+    - speaker: eitan
+      text: ר׳ ישראל, מה יונאס מביא?
+      translation: שאלה
+    - speaker: yisrael
+      text: אני חושב שאני יודע. ואני לא אגיד. ״תיקו״ עד מחר.
+      translation: תיקו
+  - id: u23-l3-40
+    type: match_pairs
+    pairs:
+    - - בעלמא
+      - 'בלבד, סתם; גם: באופן כללי'
+    - - קני
+      - קונה (זוכה בדבר)
+    - - לידיה
+      - לידו
+    - - משמע
+      - משמעו, פירושו
+    - - לישנא
+      - לשון
+    - - אשכחית
+      - מצאתי
+    lexemes:
+    - bealma
+    - kanei
+    - leydeih
+    - mashma
+    - lishna
+    - ashkachit

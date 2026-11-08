@@ -1,6 +1,6 @@
 # Aramaic (arc-for-he) – blueprint
 
-Status: plan approved by the owner (2026-11-08). Code foundation done (see below). Next: one pilot unit for review.
+Status: core track (stages 1–5, 26 units) written 2026-11-08; pilot unit reviewed by the owner. Branches not started.
 
 ## Goal
 Reading and understanding Aramaic in the sources of Judaism. Not modern spoken Aramaic.
@@ -66,5 +66,27 @@ brings in real Aramaic narratives (e.g. Rabbah bar bar Chana's journeys, Bava Ba
 Yerushalmi (Galilean/Western forms); Targum (Onkelos, then Jonathan); Biblical Aramaic (Daniel, Ezra); Zohar;
 later midrashic Aramaic and others by demand.
 
+## Core units (course order)
+| Stage | Units |
+|-------|-------|
+| 1 היכרות עם הדף | u00a דף גמרא · u00b מי אמר |
+| 2 מילות הסוגיה | u01 מאי (BM 2a–3a) · u02 נצחוני בני (BM 59b) · u03 רבי ינאי והאילן (BB 60) · u04 שאלות (Berakhot 2a) · u05 האי/הא/הני · u06 איתא/ליתא |
+| 3 פעלים וכינויים | u07 אנא (Berakhot 30b) · u08 חוני (Taanit 23a) · u09 אבא חלקיה · u10 עתיד (Taanit 23b) · u11 זמנים ומספרים (Berakhot 3b) · u12 רבי עקיבא ורחל (Ketubot 62b–63a) |
+| 4 מבנה הסוגיה | u13 קושיא · u14 ראיות · u15 איבעיא · u16 מחלוקת · u17 אוקימתא · u18 בשלמא · u19 קרא ועובדא |
+| 5 סוגיה שלמה | u20 רבה בר בר חנה (BB 73b) · u21 קמצא ובר קמצא (Gittin 55b–56a) · u22 הלל ויבנה (Shabbat 31a, Gittin 56b) · u23 מאי מצאתיה (BM 2a) · u24 הדרן עלך (BM 21a) |
+
+Story: Eitan, his grandfather's Shas and notes; R' Yisrael turns out to be the second boy hidden with the grandfather in a Lithuanian hayloft in 1943; the farmer's grandson Jonas comes to the siyum with the boys' coat.
+
+## Coverage (measured 2026-11-08)
+Words chosen from the whole Bavli except Berakhot and Kiddushin; measured on those two (127k words). Mishnaic Hebrew (words appearing at least twice in the Mishnah) counts as known; abbreviations count as known (taught as a skill).
+- Hebrew only: 72.6%
+- + the 285 course words (320 written forms): 81.3%
+- + names of sages: 82.9%
+Inflected forms not taught one by one (קאמרי, אמרינן, ליתנייה…) are counted as unknown, so real reading coverage is higher. To raise it further: more high-frequency forms (list: `scripts` + `/home/claude/sefaria/miss.json` method) and the branch courses.
+
+## Tools
+- `scripts/arc-quote.py "<Tractate>" <daf> "<text>"` checks a quotation word for word and prints its vocalised form.
+- `scripts/arc-find.py <word>` lists short real lines that use a word.
+
 ## Order of work
-1. Plan (done). 2. Schema/engine changes (done). 3. One pilot unit for expert review. 4. Core track. 5. Branches.
+1. Plan (done). 2. Schema/engine changes (done). 3. Pilot unit (done, reviewed). 4. Core track (done). 5. Branches.

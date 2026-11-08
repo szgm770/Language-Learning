@@ -1,0 +1,395 @@
+id: u24-hadran
+cefr: B2
+scene: study
+title:
+  he: הדרן עלך שנים אוחזין
+  en: We will return to you
+story: הסיום. בבית של סבא, עם כל המשפחה, השכנים, ויונאס מווילנה. איתן קורא את השורות האחרונות של הפרק, ויונאס מוציא מהתיק את מה שסבא שלו שמר שמונים שנה.
+canDo:
+- לקרוא את סוף הפרק הראשון של בבא מציעא
+- להבין ״סהדי״, ״שטרא״, ״מסתברא״, ״גופא״
+- 'לסיים פרק: הדרן עלך'
+vocabulary:
+- id: shaylinan
+  text: שיילינן
+  translation: שואלים אנחנו
+  pos: verb
+  example:
+    text: דשיילינן להו לסהדי אי פרוע אי לא פרוע
+    translation: 'ששואלים אנחנו את העדים: האם (החוב) פרוע או לא פרוע'
+    source: בבלי, בבא מציעא כא ע״א
+    vocalized: דְּשָׁיְילִינַן לְהוּ לְסָהֲדִי אִי פָּרוּעַ אִי לָא פָּרוּעַ
+- id: sahadei
+  text: סהדי
+  translation: עדים
+  pos: noun
+  example:
+    text: דשיילינן להו לסהדי אי פרוע אי לא פרוע
+    translation: 'ששואלים אנחנו את העדים: האם (החוב) פרוע או לא פרוע'
+    source: בבלי, בבא מציעא כא ע״א
+    vocalized: דְּשָׁיְילִינַן לְהוּ לְסָהֲדִי אִי פָּרוּעַ אִי לָא פָּרוּעַ
+- id: mistabra
+  text: מסתברא
+  translation: מסתבר, הגיוני
+  pos: verb
+  example:
+    text: הכי נמי מסתברא מדקתני סיפא ושאין עליו עדים פסול
+    translation: 'כך גם מסתבר, ממה ששנה בסוף (המשנה): ושאין עליו עדים, פסול'
+    source: בבלי, בבא מציעא כא ע״א
+    vocalized: 'הָכִי נָמֵי מִסְתַּבְּרָא, מִדְּקָתָנֵי סֵיפָא: וְשֶׁאֵין עָלָיו עֵדִים פָּסוּל'
+- id: gufa
+  text: גופא
+  translation: גופו של עניין (חוזרים לדברים עצמם)
+  pos: noun
+  example:
+    text: גופא סמפון שיש עליו עדי' יתקיים בחותמיו
+    translation: 'גופו של עניין: שובר שיש עליו עדים, יתקיים בחותמיו'
+    source: בבלי, בבא מציעא כא ע״א
+- id: shtara
+  text: שטרא
+  translation: שטר; ״שטריה״ = השטר שלו
+  pos: noun
+  example:
+    text: דאי לאו דפריע לא הוה מרע ליה לשטריה
+    translation: שאילולא (החוב) היה פרוע, לא היה מחליש את השטר שלו
+    source: בבלי, בבא מציעא כא ע״א
+    vocalized: דְּאִי לָאו דִּפְרִיעַ לָא הֲוָה מַרַע לֵיהּ לִשְׁטָרֵיהּ
+- id: mara
+  text: מרע
+  translation: מחליש, פוגם
+  pos: verb
+  example:
+    text: דאי לאו דפריע לא הוה מרע ליה לשטריה
+    translation: שאילולא (החוב) היה פרוע, לא היה מחליש את השטר שלו
+    source: בבלי, בבא מציעא כא ע״א
+    vocalized: דְּאִי לָאו דִּפְרִיעַ לָא הֲוָה מַרַע לֵיהּ לִשְׁטָרֵיהּ
+grammar: []
+lessons:
+- id: u24-l1
+  kind: new
+  title:
+    he: סהדי
+    en: Witnesses
+  exercises:
+  - id: u24-l1-01
+    type: dialogue
+    scene: יום רביעי בערב. הבית של סבא מלא אנשים. יונאס יושב ליד ר׳ ישראל, עם תיק גדול על הברכיים.
+    lines:
+    - speaker: chana
+      text: (לקהל) תודה שבאתם. איתן ור׳ ישראל מסיימים היום את הפרק הראשון של בבא מציעא, מהספר שסבא שמר מהמתבן.
+      translation: חנה פותחת
+    - speaker: eitan
+      text: השורות האחרונות של הפרק מדברות על עדים. ״דשיילינן להו לסהדי״, ששואלים את העדים.
+      translation: סהדי
+    - speaker: yisrael
+      text: (ליונאס, בגרמנית שבורה) הסבא שלך היה העד שלנו. היחיד.
+      translation: ר׳ ישראל
+  - id: u24-l1-02
+    type: learn
+    lexeme: shaylinan
+  - id: u24-l1-03
+    type: learn
+    lexeme: sahadei
+  - id: u24-l1-04
+    type: learn
+    lexeme: mistabra
+  - id: u24-l1-05
+    type: learn
+    lexeme: gufa
+  - id: u24-l1-06
+    type: match_pairs
+    pairs:
+    - - שיילינן
+      - שואלים אנחנו
+    - - סהדי
+      - עדים
+    - - מסתברא
+      - מסתבר, הגיוני
+    - - גופא
+      - גופו של עניין (חוזרים לדברים עצמם)
+    lexemes:
+    - shaylinan
+    - sahadei
+    - mistabra
+    - gufa
+  - id: u24-l1-07
+    type: multiple_choice
+    prompt: מה פירוש שיילינן?
+    options:
+    - שואלים אנחנו
+    - שטר; ״שטריה״ = השטר שלו
+    - עדים
+    correct: 0
+    lexemes:
+    - shaylinan
+  - id: u24-l1-08
+    type: multiple_choice
+    prompt: מה פירוש סהדי?
+    options:
+    - עדים
+    - שואלים אנחנו
+    - שטר; ״שטריה״ = השטר שלו
+    correct: 0
+    lexemes:
+    - sahadei
+  - id: u24-l1-09
+    type: multiple_choice
+    prompt: מה פירוש מסתברא?
+    options:
+    - מסתבר, הגיוני
+    - מחליש, פוגם
+    - שואלים אנחנו
+    correct: 0
+    lexemes:
+    - mistabra
+  - id: u24-l1-10
+    type: multiple_choice
+    prompt: מה פירוש גופא?
+    options:
+    - גופו של עניין (חוזרים לדברים עצמם)
+    - שטר; ״שטריה״ = השטר שלו
+    - שואלים אנחנו
+    correct: 0
+    lexemes:
+    - gufa
+  - id: u24-l1-11
+    type: word_bank
+    prompt: 'ששואלים אנחנו את העדים: האם (החוב) פרוע או לא פרוע'
+    answers:
+    - דשיילינן להו לסהדי אי פרוע אי לא פרוע
+    distractors:
+    - סהדי
+    - מסתברא
+    lexemes:
+    - shaylinan
+    source: בבלי, בבא מציעא כא ע״א
+    vocalized: דְּשָׁיְילִינַן לְהוּ לְסָהֲדִי אִי פָּרוּעַ אִי לָא פָּרוּעַ
+  - id: u24-l1-12
+    type: fill_blank
+    sentence: דשיילינן להו ___ אי פרוע אי לא פרוע
+    translation: 'ששואלים אנחנו את העדים: האם (החוב) פרוע או לא פרוע'
+    answers:
+    - לסהדי
+    options:
+    - לסהדי
+    - שיילינן
+    - גופא
+    lexemes:
+    - sahadei
+    source: בבלי, בבא מציעא כא ע״א
+    vocalized: דְּשָׁיְילִינַן לְהוּ לְסָהֲדִי אִי פָּרוּעַ אִי לָא פָּרוּעַ
+  - id: u24-l1-13
+    type: fill_blank
+    sentence: הכי נמי ___ מדקתני סיפא ושאין עליו עדים פסול
+    translation: 'כך גם מסתבר, ממה ששנה בסוף (המשנה): ושאין עליו עדים, פסול'
+    answers:
+    - מסתברא
+    options:
+    - מסתברא
+    - שטרא
+    - מרע
+    lexemes:
+    - mistabra
+    source: בבלי, בבא מציעא כא ע״א
+    vocalized: 'הָכִי נָמֵי מִסְתַּבְּרָא, מִדְּקָתָנֵי סֵיפָא: וְשֶׁאֵין עָלָיו עֵדִים פָּסוּל'
+  - id: u24-l1-14
+    type: fill_blank
+    sentence: ___ סמפון שיש עליו עדי' יתקיים בחותמיו
+    translation: 'גופו של עניין: שובר שיש עליו עדים, יתקיים בחותמיו'
+    answers:
+    - גופא
+    options:
+    - גופא
+    - סהדי
+    - שטרא
+    lexemes:
+    - gufa
+    source: בבלי, בבא מציעא כא ע״א
+- id: u24-l2
+  kind: new
+  title:
+    he: שטרא
+    en: The document
+  exercises:
+  - id: u24-l2-15
+    type: dialogue
+    scene: איתן קורא את השורה האחרונה של הפרק.
+    lines:
+    - speaker: eitan
+      text: ״דאי לאו דפריע, לא הוה מרע ליה לשטריה״. אילולא החוב היה פרוע, הוא לא היה פוגע בשטר של עצמו.
+      translation: השורה האחרונה
+    - speaker: eitan
+      text: ״הדרן עלך שנים אוחזין, והדרך עלן״. נחזור אליך, ואתה תחזור אלינו.
+      translation: הדרן
+    - speaker: yisrael
+      text: ״הדרן עלך״. אמרתי את זה פעם אחת, במתבן, עם סבא שלך. עכשיו בפעם השנייה.
+      translation: ר׳ ישראל
+  - id: u24-l2-16
+    type: learn
+    lexeme: shtara
+  - id: u24-l2-17
+    type: learn
+    lexeme: mara
+  - id: u24-l2-18
+    type: match_pairs
+    pairs:
+    - - שטרא
+      - שטר; ״שטריה״ = השטר שלו
+    - - מרע
+      - מחליש, פוגם
+    - - שיילינן
+      - שואלים אנחנו
+    lexemes:
+    - shtara
+    - mara
+    - shaylinan
+  - id: u24-l2-19
+    type: multiple_choice
+    prompt: מה פירוש שטרא?
+    options:
+    - שטר; ״שטריה״ = השטר שלו
+    - עדים
+    - מסתבר, הגיוני
+    correct: 0
+    lexemes:
+    - shtara
+  - id: u24-l2-20
+    type: multiple_choice
+    prompt: מה פירוש מרע?
+    options:
+    - מחליש, פוגם
+    - גופו של עניין (חוזרים לדברים עצמם)
+    - עדים
+    correct: 0
+    lexemes:
+    - mara
+  - id: u24-l2-21
+    type: fill_blank
+    sentence: דאי לאו דפריע לא הוה מרע ליה ___
+    translation: שאילולא (החוב) היה פרוע, לא היה מחליש את השטר שלו
+    answers:
+    - לשטריה
+    options:
+    - לשטריה
+    - שיילינן
+    - מסתברא
+    lexemes:
+    - shtara
+    source: בבלי, בבא מציעא כא ע״א
+    vocalized: דְּאִי לָאו דִּפְרִיעַ לָא הֲוָה מַרַע לֵיהּ לִשְׁטָרֵיהּ
+  - id: u24-l2-22
+    type: fill_blank
+    sentence: דאי לאו דפריע לא הוה ___ ליה לשטריה
+    translation: שאילולא (החוב) היה פרוע, לא היה מחליש את השטר שלו
+    answers:
+    - מרע
+    options:
+    - מרע
+    - שיילינן
+    - סהדי
+    lexemes:
+    - mara
+    source: בבלי, בבא מציעא כא ע״א
+    vocalized: דְּאִי לָאו דִּפְרִיעַ לָא הֲוָה מַרַע לֵיהּ לִשְׁטָרֵיהּ
+- id: u24-l3
+  kind: review
+  title:
+    he: שנים אוחזין
+    en: Two hold
+  exercises:
+  - id: u24-l3-23
+    type: reading
+    kind: גמרא, בבא מציעא כא ע״א
+    title: סוף הפרק
+    text: 'יוצא מתחת ידי שליש דהא הימניה מלוה לשליש
+
+
+      יוצא לאחר חיתום שטרות נמי דאי לאו דפריע לא הוה מרע ליה לשטריה
+
+
+      הדרן עלך שנים אוחזין'
+    translation: '(שובר) שיוצא מתחת יד השליש, כשר, שהרי המלווה האמין לשליש.
+
+
+      (שובר) שיוצא בין השטרות (של המלווה), גם כשר: שאילולא (החוב) היה פרוע, לא היה (המלווה) מחליש את השטר שלו.
+
+
+      נחזור אליך, (פרק) ׳שנים אוחזין׳.'
+    lexemes:
+    - i-lav
+    - shtara
+    - mara
+    - hadran
+    source: בבלי, בבא מציעא כא ע״א
+    vocalized: יוֹצֵא מִתַּחַת יְדֵי שָׁלִישׁ, דְּהָא הֵימְנֵיהּ מַלְוֶה לְשָׁלִישׁ. יוֹצֵא לְאַחַר חִיתּוּם שְׁטָרוֹת נָמֵי, דְּאִי לָאו דִּפְרִיעַ לָא הֲוָה מַרַע לֵיהּ לִשְׁטָרֵיהּ. הֲדַרַן עֲלָךְ שְׁנַיִם אוֹחֲזִין
+  - id: u24-l3-24
+    type: multiple_choice
+    prompt: מה פירוש ״הכי נמי מסתברא״?
+    options:
+    - כך גם מסתבר (ההיגיון תומך בזה)
+    - כך כתוב בפסוק
+    - זו שאלה בתיקו
+    correct: 0
+    lexemes:
+    - mistabra
+    - hachi
+    - nami
+  - id: u24-l3-25
+    type: fill_blank
+    sentence: דשיילינן להו ___ אי פרוע אי לא פרוע
+    translation: 'ששואלים אנחנו את העדים: האם (החוב) פרוע או לא פרוע'
+    answers:
+    - לסהדי
+    options:
+    - לסהדי
+    - לשטריה
+    - בהדיה
+    lexemes:
+    - sahadei
+    - shaylinan
+    source: בבלי, בבא מציעא כא ע״א
+    vocalized: דְּשָׁיְילִינַן לְהוּ לְסָהֲדִי אִי פָּרוּעַ אִי לָא פָּרוּעַ
+  - id: u24-l3-26
+    type: dialogue
+    scene: יונאס פותח את התיק ומוציא מעיל ילדים ישן, מתוקן בעשרות טלאים.
+    lines:
+    - speaker: chana
+      text: המעיל. של שניהם.
+      translation: המעיל
+    - speaker: yisrael
+      text: ״שנים אוחזין בטלית״. התווכחנו עליו כל החורף. בסוף הוא נתן אותו לי, והוא קפא.
+      translation: ר׳ ישראל
+    - speaker: eitan
+      text: אז ״זה נוטל וזה נוטל״. המעיל יעבור ליד ושם, עם הדף מווילנה ועם השם של הסבא של יונאס.
+      translation: איתן מחליט
+    - speaker: yisrael
+      text: ואת הגמרא של סבא, הוא כבר נתן לך. ״זיל גמור״. יש עוד ששים ושלוש מסכתות.
+      translation: הסוף
+    - speaker: eitan
+      text: אז מחר בחצות?
+      translation: איתן
+    - speaker: yisrael
+      text: מחר בחצות. פרק ״אלו מציאות״.
+      translation: ההתחלה הבאה
+  - id: u24-l3-27
+    type: match_pairs
+    pairs:
+    - - שיילינן
+      - שואלים אנחנו
+    - - סהדי
+      - עדים
+    - - מסתברא
+      - מסתבר, הגיוני
+    - - גופא
+      - גופו של עניין (חוזרים לדברים עצמם)
+    - - שטרא
+      - שטר; ״שטריה״ = השטר שלו
+    - - מרע
+      - מחליש, פוגם
+    lexemes:
+    - shaylinan
+    - sahadei
+    - mistabra
+    - gufa
+    - shtara
+    - mara

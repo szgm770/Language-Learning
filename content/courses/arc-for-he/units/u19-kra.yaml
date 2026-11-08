@@ -1,0 +1,679 @@
+id: u19-kra
+cefr: B1
+scene: study
+title:
+  he: אמר קרא
+  en: The verse says
+story: 'חנה מספרת על פומבדיתא, שבה ״עבד רבה עובדא״. ר׳ ישראל מלמד איך הגמרא דורשת פסוקים: אמר קרא, קרא יתירא, לאפוקי, לאתויי. ההכנה האחרונה לסיום.'
+canDo:
+- להבין ״אמר קרא״ ו״קרא יתירא״
+- 'להבין למה בא פסוק: לאפוקי, לאתויי, למעוטי, איצטריך'
+- 'להבין ״עבד עובדא״: פסק הלכה למעשה'
+vocabulary:
+- id: kra
+  text: קרא
+  translation: פסוק (מקרא)
+  pos: noun
+  example:
+    text: שאני התם דאמר קרא
+    translation: שונה שם, שאמר הפסוק (במפורש)
+    source: בבלי, מכות ח ע״א
+    vocalized: שָׁאנֵי הָתָם, דְּאָמַר קְרָא
+- id: yetira
+  text: יתירא
+  translation: מיותר
+  pos: adjective
+  example:
+    text: עליה קרא יתירא הוא
+    translation: ׳עליה׳, פסוק (מילה) מיותר הוא (ובא ללמד)
+    source: בבלי, נדרים עא ע״א
+    vocalized: עָלֶיהָ קְרָא יַתִּירָא הוּא
+- id: leafukei
+  text: לאפוקי
+  translation: להוציא (שלא כולל את…)
+  pos: verb
+  example:
+    text: לאפוקי מצות
+    translation: להוציא מצות (שאינן בכלל)
+    source: בבלי, ברכות מד ע״ב
+    vocalized: לְאַפּוֹקֵי מִצְוֹת
+- id: leatuyei
+  text: לאתויי
+  translation: להביא (לרבות את…)
+  pos: verb
+  example:
+    text: לאתויי מים שאובין
+    translation: להביא (לרבות) מים שאובים
+    source: בבלי, ברכות כב ע״ב
+    vocalized: לְאֵתוּיֵי מַיִם שְׁאוּבִין
+- id: lemaute
+  text: למעוטי
+  translation: למעט, להוציא
+  pos: verb
+  example:
+    text: למעוטי מוסר ומפגל
+    translation: למעט מוסר ומפגל
+    source: בבלי, בבא קמא ה ע״א
+    vocalized: לְמַעוֹטֵי מוֹסֵר וּמְפַגֵּל
+- id: itztrich
+  text: איצטריך
+  translation: היה צריך (נצרך)
+  pos: verb
+  example:
+    text: ולרבי מאיר למאי איצטריך
+    translation: ולשיטת רבי מאיר, למה נצרך (הפסוק)?
+    source: בבלי, ערכין ה ע״ב
+    vocalized: וּלְרַבִּי מֵאִיר לְמַאי אִיצְטְרִיךְ
+- id: ovada
+  text: עובדא
+  translation: מעשה; ״עבד עובדא״ = פסק למעשה
+  pos: noun
+  example:
+    text: עבד רבה עובדא בי כיתנא דפומבדיתא כשמעתיה
+    translation: רבה עשה מעשה (פסק למעשה) בבית הפשתן בפומבדיתא, כשיטתו
+    source: בבלי, בבא מציעא יח ע״ב
+- id: shmateta
+  text: שמעתא
+  translation: שמועה, הלכה, תורה שנאמרה; ״כשמעתיה״ = כשיטתו
+  pos: noun
+  example:
+    text: עבד רבה עובדא בי כיתנא דפומבדיתא כשמעתיה
+    translation: רבה עשה מעשה (פסק למעשה) בבית הפשתן בפומבדיתא, כשיטתו
+    source: בבלי, בבא מציעא יח ע״ב
+- id: ktiv
+  text: כתיב
+  translation: כתוב
+  pos: verb
+  example:
+    text: בהדיא כתיב
+    translation: במפורש כתוב
+    source: בבלי, מנחות פג ע״א
+    vocalized: בְּהֶדְיָא כְּתִיב
+- id: bahadya
+  text: בהדיא
+  translation: במפורש
+  pos: adverb
+  example:
+    text: בהדיא כתיב
+    translation: במפורש כתוב
+    source: בבלי, מנחות פג ע״א
+    vocalized: בְּהֶדְיָא כְּתִיב
+- id: rachmana
+  text: רחמנא
+  translation: הקב״ה, התורה (״כתב רחמנא״ = כתבה התורה)
+  pos: noun
+  example:
+    text: ואי כתב רחמנא הני
+    translation: ואילו כתבה התורה (רק) את אלה…
+    source: בבלי, סנהדרין עג ע״א
+    vocalized: וְאִי כְּתַב רַחֲמָנָא הָנֵי
+- id: tani
+  text: תני
+  translation: שונה (ברייתא); ״תני פלוני״ = פלוני שנה
+  pos: verb
+  example:
+    text: במתניתא תני במחוללין
+    translation: 'בברייתא הוא שונה: ׳במחוללין׳'
+    source: בבלי, שבת נב ע״ב
+    vocalized: בְּמַתְנִיתָא תָּנֵי בִּמְחוּלָּלִין
+- id: bahu
+  text: בהו
+  translation: בהם
+  pos: pronoun
+  example:
+    text: מ"ט הויה כתיב בהו
+    translation: מה הטעם? ׳הוויה׳ כתוב בהם
+    source: בבלי, מנחות כח ע״א
+    vocalized: מַאי טַעְמָא? הֲוָיָה כְּתִיב בְּהוּ
+grammar: []
+lessons:
+- id: u19-l1
+  kind: new
+  title:
+    he: אמר קרא
+    en: The verse says
+  exercises:
+  - id: u19-l1-01
+    type: dialogue
+    scene: חצות. איתן מתרגל לבד, ור׳ ישראל מאזין בעיניים עצומות.
+    lines:
+    - speaker: yisrael
+      text: 'כשהגמרא שואלת ״מנלן?״, התשובה לפעמים: ״אמר קרא״, אמר הפסוק.'
+      translation: אמר קרא
+    - speaker: yisrael
+      text: ואם יש מילה מיותרת בפסוק, ״קרא יתירא הוא״, היא באה ללמד משהו.
+      translation: קרא יתירא
+    - speaker: eitan
+      text: ואם אין מילה מיותרת?
+      translation: שאלה
+    - speaker: yisrael
+      text: אז שואלים ״למאי איצטריך?״, למה היה צריך את הפסוק בכלל.
+      translation: איצטריך
+  - id: u19-l1-02
+    type: learn
+    lexeme: kra
+  - id: u19-l1-03
+    type: learn
+    lexeme: yetira
+  - id: u19-l1-04
+    type: learn
+    lexeme: itztrich
+  - id: u19-l1-05
+    type: match_pairs
+    pairs:
+    - - קרא
+      - פסוק (מקרא)
+    - - יתירא
+      - מיותר
+    - - איצטריך
+      - היה צריך (נצרך)
+    lexemes:
+    - kra
+    - yetira
+    - itztrich
+  - id: u19-l1-06
+    type: multiple_choice
+    prompt: מה פירוש קרא?
+    options:
+    - פסוק (מקרא)
+    - מיותר
+    - היה צריך (נצרך)
+    correct: 0
+    lexemes:
+    - kra
+  - id: u19-l1-07
+    type: multiple_choice
+    prompt: מה פירוש יתירא?
+    options:
+    - מיותר
+    - פסוק (מקרא)
+    - להוציא (שלא כולל את…)
+    correct: 0
+    lexemes:
+    - yetira
+  - id: u19-l1-08
+    type: multiple_choice
+    prompt: מה פירוש איצטריך?
+    options:
+    - היה צריך (נצרך)
+    - להוציא (שלא כולל את…)
+    - להביא (לרבות את…)
+    correct: 0
+    lexemes:
+    - itztrich
+  - id: u19-l1-09
+    type: fill_blank
+    sentence: שאני התם דאמר ___
+    translation: שונה שם, שאמר הפסוק (במפורש)
+    answers:
+    - קרא
+    options:
+    - קרא
+    - עובדא
+    - איצטריך
+    lexemes:
+    - kra
+    source: בבלי, מכות ח ע״א
+    vocalized: שָׁאנֵי הָתָם, דְּאָמַר קְרָא
+  - id: u19-l1-10
+    type: fill_blank
+    sentence: עליה קרא ___ הוא
+    translation: ׳עליה׳, פסוק (מילה) מיותר הוא (ובא ללמד)
+    answers:
+    - יתירא
+    options:
+    - יתירא
+    - איצטריך
+    - עובדא
+    lexemes:
+    - yetira
+    source: בבלי, נדרים עא ע״א
+    vocalized: עָלֶיהָ קְרָא יַתִּירָא הוּא
+  - id: u19-l1-11
+    type: fill_blank
+    sentence: ולרבי מאיר למאי ___
+    translation: ולשיטת רבי מאיר, למה נצרך (הפסוק)?
+    answers:
+    - איצטריך
+    options:
+    - איצטריך
+    - קרא
+    - לאפוקי
+    lexemes:
+    - itztrich
+    source: בבלי, ערכין ה ע״ב
+    vocalized: וּלְרַבִּי מֵאִיר לְמַאי אִיצְטְרִיךְ
+- id: u19-l2
+  kind: new
+  title:
+    he: לאפוקי ולאתויי
+    en: To exclude and to include
+  exercises:
+  - id: u19-l2-12
+    type: tip
+    title: למה בא הפסוק?
+    text: '**לאתויי** = להביא, לכלול עוד מקרה. **לאפוקי** = להוציא מקרה. **למעוטי** = למעט.
+
+
+      **איצטריך** = היה צריך. **אמר קרא** = הפסוק אומר. **קרא יתירא** = פסוק או מילה מיותרים, שבאים ללמד.'
+  - id: u19-l2-13
+    type: learn
+    lexeme: leafukei
+  - id: u19-l2-14
+    type: learn
+    lexeme: leatuyei
+  - id: u19-l2-15
+    type: learn
+    lexeme: lemaute
+  - id: u19-l2-16
+    type: match_pairs
+    pairs:
+    - - לאפוקי
+      - להוציא (שלא כולל את…)
+    - - לאתויי
+      - להביא (לרבות את…)
+    - - למעוטי
+      - למעט, להוציא
+    lexemes:
+    - leafukei
+    - leatuyei
+    - lemaute
+  - id: u19-l2-17
+    type: multiple_choice
+    prompt: מה פירוש לאפוקי?
+    options:
+    - להוציא (שלא כולל את…)
+    - להביא (לרבות את…)
+    - מיותר
+    correct: 0
+    lexemes:
+    - leafukei
+  - id: u19-l2-18
+    type: multiple_choice
+    prompt: מה פירוש לאתויי?
+    options:
+    - להביא (לרבות את…)
+    - מעשה; ״עבד עובדא״ = פסק למעשה
+    - מיותר
+    correct: 0
+    lexemes:
+    - leatuyei
+  - id: u19-l2-19
+    type: multiple_choice
+    prompt: מה פירוש למעוטי?
+    options:
+    - למעט, להוציא
+    - מעשה; ״עבד עובדא״ = פסק למעשה
+    - מיותר
+    correct: 0
+    lexemes:
+    - lemaute
+  - id: u19-l2-20
+    type: fill_blank
+    sentence: ___ מצות
+    translation: להוציא מצות (שאינן בכלל)
+    answers:
+    - לאפוקי
+    options:
+    - לאפוקי
+    - קרא
+    - לאתויי
+    lexemes:
+    - leafukei
+    source: בבלי, ברכות מד ע״ב
+    vocalized: לְאַפּוֹקֵי מִצְוֹת
+  - id: u19-l2-21
+    type: fill_blank
+    sentence: ___ מים שאובין
+    translation: להביא (לרבות) מים שאובים
+    answers:
+    - לאתויי
+    options:
+    - לאתויי
+    - קרא
+    - לאפוקי
+    lexemes:
+    - leatuyei
+    source: בבלי, ברכות כב ע״ב
+    vocalized: לְאֵתוּיֵי מַיִם שְׁאוּבִין
+  - id: u19-l2-22
+    type: fill_blank
+    sentence: ___ מוסר ומפגל
+    translation: למעט מוסר ומפגל
+    answers:
+    - למעוטי
+    options:
+    - למעוטי
+    - יתירא
+    - שמעתא
+    lexemes:
+    - lemaute
+    source: בבלי, בבא קמא ה ע״א
+    vocalized: לְמַעוֹטֵי מוֹסֵר וּמְפַגֵּל
+- id: u19-l3
+  kind: new
+  title:
+    he: עבד עובדא
+    en: He ruled in practice
+  exercises:
+  - id: u19-l3-23
+    type: dialogue
+    scene: חנה מראה מפה על המסך.
+    lines:
+    - speaker: chana
+      text: זו פומבדיתא, בעיראק של היום. הייתה שם ישיבה ענקית. אביי, רבה, רב יוסף.
+      translation: פומבדיתא
+    - speaker: yisrael
+      text: ״עבד רבה עובדא בי כיתנא דפומבדיתא״. רבה פסק למעשה, בבית הפשתן בפומבדיתא.
+      translation: עובדא
+    - speaker: eitan
+      text: אז הגמרא היא לא רק ויכוח. היא גם מעשים.
+      translation: איתן
+    - speaker: yisrael
+      text: '״כשמעתיה״, לפי השיטה שלו. כמו סבא שלך: מה שלמד, עשה.'
+      translation: שמעתא
+  - id: u19-l3-24
+    type: learn
+    lexeme: ovada
+  - id: u19-l3-25
+    type: learn
+    lexeme: shmateta
+  - id: u19-l3-26
+    type: match_pairs
+    pairs:
+    - - עובדא
+      - מעשה; ״עבד עובדא״ = פסק למעשה
+    - - שמעתא
+      - שמועה, הלכה, תורה שנאמרה; ״כשמעתיה״ = כשיטתו
+    - - קרא
+      - פסוק (מקרא)
+    lexemes:
+    - ovada
+    - shmateta
+    - kra
+  - id: u19-l3-27
+    type: multiple_choice
+    prompt: מה פירוש עובדא?
+    options:
+    - מעשה; ״עבד עובדא״ = פסק למעשה
+    - מיותר
+    - להביא (לרבות את…)
+    correct: 0
+    lexemes:
+    - ovada
+  - id: u19-l3-28
+    type: multiple_choice
+    prompt: מה פירוש שמעתא?
+    options:
+    - שמועה, הלכה, תורה שנאמרה; ״כשמעתיה״ = כשיטתו
+    - להביא (לרבות את…)
+    - להוציא (שלא כולל את…)
+    correct: 0
+    lexemes:
+    - shmateta
+  - id: u19-l3-29
+    type: fill_blank
+    sentence: עבד רבה ___ בי כיתנא דפומבדיתא כשמעתיה
+    translation: רבה עשה מעשה (פסק למעשה) בבית הפשתן בפומבדיתא, כשיטתו
+    answers:
+    - עובדא
+    options:
+    - עובדא
+    - קרא
+    - לאתויי
+    lexemes:
+    - ovada
+    source: בבלי, בבא מציעא יח ע״ב
+  - id: u19-l3-30
+    type: fill_blank
+    sentence: עבד רבה עובדא בי כיתנא דפומבדיתא ___
+    translation: רבה עשה מעשה (פסק למעשה) בבית הפשתן בפומבדיתא, כשיטתו
+    answers:
+    - כשמעתיה
+    options:
+    - כשמעתיה
+    - עובדא
+    - לאפוקי
+    lexemes:
+    - shmateta
+    source: בבלי, בבא מציעא יח ע״ב
+- id: u19-l4
+  kind: new
+  title:
+    he: כתיב ורחמנא
+    en: It is written
+  exercises:
+  - id: u19-l4-31
+    type: tip
+    title: המחברת של איתן
+    text: 'איתן מסיים את המחברת שלו במילים של פסוקים. מילים שחוזרות שוב ושוב בדפים: **כתיב** = כתוב, **בהדיא** = במפורש, **רחמנא** = הקב״ה, התורה (״כתב רחמנא״ = כתבה התורה), **תני** = שונה (ברייתא); ״תני פלוני״ = פלוני שנה, **בהו** = בהם.'
+  - id: u19-l4-32
+    type: learn
+    lexeme: ktiv
+  - id: u19-l4-33
+    type: learn
+    lexeme: bahadya
+  - id: u19-l4-34
+    type: learn
+    lexeme: rachmana
+  - id: u19-l4-35
+    type: learn
+    lexeme: tani
+  - id: u19-l4-36
+    type: learn
+    lexeme: bahu
+  - id: u19-l4-37
+    type: match_pairs
+    pairs:
+    - - כתיב
+      - כתוב
+    - - בהדיא
+      - במפורש
+    - - רחמנא
+      - הקב״ה, התורה (״כתב רחמנא״ = כתבה התורה)
+    - - תני
+      - שונה (ברייתא); ״תני פלוני״ = פלוני שנה
+    - - בהו
+      - בהם
+    lexemes:
+    - ktiv
+    - bahadya
+    - rachmana
+    - tani
+    - bahu
+  - id: u19-l4-38
+    type: multiple_choice
+    prompt: מה פירוש כתיב?
+    options:
+    - כתוב
+    - שמועה, הלכה, תורה שנאמרה; ״כשמעתיה״ = כשיטתו
+    - במפורש
+    correct: 0
+    lexemes:
+    - ktiv
+  - id: u19-l4-39
+    type: multiple_choice
+    prompt: מה פירוש בהדיא?
+    options:
+    - במפורש
+    - שונה (ברייתא); ״תני פלוני״ = פלוני שנה
+    - הקב״ה, התורה (״כתב רחמנא״ = כתבה התורה)
+    correct: 0
+    lexemes:
+    - bahadya
+  - id: u19-l4-40
+    type: multiple_choice
+    prompt: מה פירוש רחמנא?
+    options:
+    - הקב״ה, התורה (״כתב רחמנא״ = כתבה התורה)
+    - כתוב
+    - למעט, להוציא
+    correct: 0
+    lexemes:
+    - rachmana
+  - id: u19-l4-41
+    type: multiple_choice
+    prompt: מה פירוש תני?
+    options:
+    - שונה (ברייתא); ״תני פלוני״ = פלוני שנה
+    - מעשה; ״עבד עובדא״ = פסק למעשה
+    - להביא (לרבות את…)
+    correct: 0
+    lexemes:
+    - tani
+  - id: u19-l4-42
+    type: multiple_choice
+    prompt: מה פירוש בהו?
+    options:
+    - בהם
+    - שונה (ברייתא); ״תני פלוני״ = פלוני שנה
+    - היה צריך (נצרך)
+    correct: 0
+    lexemes:
+    - bahu
+  - id: u19-l4-43
+    type: fill_blank
+    sentence: בהדיא ___
+    translation: במפורש כתוב
+    answers:
+    - כתיב
+    options:
+    - כתיב
+    - לאפוקי
+    - למעוטי
+    lexemes:
+    - ktiv
+    source: בבלי, מנחות פג ע״א
+    vocalized: בְּהֶדְיָא כְּתִיב
+  - id: u19-l4-44
+    type: fill_blank
+    sentence: ___ כתיב
+    translation: במפורש כתוב
+    answers:
+    - בהדיא
+    options:
+    - בהדיא
+    - יתירא
+    - למעוטי
+    lexemes:
+    - bahadya
+    source: בבלי, מנחות פג ע״א
+    vocalized: בְּהֶדְיָא כְּתִיב
+  - id: u19-l4-45
+    type: fill_blank
+    sentence: ואי כתב ___ הני
+    translation: ואילו כתבה התורה (רק) את אלה…
+    answers:
+    - רחמנא
+    options:
+    - רחמנא
+    - תני
+    - בהו
+    lexemes:
+    - rachmana
+    source: בבלי, סנהדרין עג ע״א
+    vocalized: וְאִי כְּתַב רַחֲמָנָא הָנֵי
+  - id: u19-l4-46
+    type: fill_blank
+    sentence: במתניתא ___ במחוללין
+    translation: 'בברייתא הוא שונה: ׳במחוללין׳'
+    answers:
+    - תני
+    options:
+    - תני
+    - עובדא
+    - לאפוקי
+    lexemes:
+    - tani
+    source: בבלי, שבת נב ע״ב
+    vocalized: בְּמַתְנִיתָא תָּנֵי בִּמְחוּלָּלִין
+  - id: u19-l4-47
+    type: fill_blank
+    sentence: מ"ט הויה כתיב ___
+    translation: מה הטעם? ׳הוויה׳ כתוב בהם
+    answers:
+    - בהו
+    options:
+    - בהו
+    - יתירא
+    - כתיב
+    lexemes:
+    - bahu
+    source: בבלי, מנחות כח ע״א
+    vocalized: מַאי טַעְמָא? הֲוָיָה כְּתִיב בְּהוּ
+- id: u19-l5
+  kind: review
+  title:
+    he: קרא ועובדא
+    en: Verse and practice
+  exercises:
+  - id: u19-l5-48
+    type: multiple_choice
+    prompt: ״קרא יתירא הוא״. מה זה אומר על הפסוק?
+    options:
+    - שיש בו מילה מיותרת, והיא באה ללמד
+    - שאין בו צורך כלל
+    - שהוא כתוב פעמיים בתורה
+    correct: 0
+    lexemes:
+    - kra
+    - yetira
+    source: בבלי, נדרים עא ע״א
+    vocalized: עָלֶיהָ קְרָא יַתִּירָא הוּא
+  - id: u19-l5-49
+    type: multiple_choice
+    prompt: מה ההבדל בין ״לאתויי״ ל״לאפוקי״?
+    options:
+    - לאתויי מוסיף מקרה, לאפוקי מוציא מקרה
+    - אין הבדל
+    - לאתויי שואל, לאפוקי עונה
+    correct: 0
+    lexemes:
+    - leatuyei
+    - leafukei
+  - id: u19-l5-50
+    type: fill_blank
+    sentence: ולרבי מאיר למאי ___
+    translation: ולשיטת רבי מאיר, למה נצרך (הפסוק)?
+    answers:
+    - איצטריך
+    options:
+    - איצטריך
+    - לאתויי
+    - קרא
+    lexemes:
+    - itztrich
+    source: בבלי, ערכין ה ע״ב
+    vocalized: וּלְרַבִּי מֵאִיר לְמַאי אִיצְטְרִיךְ
+  - id: u19-l5-51
+    type: dialogue
+    scene: חנה מתקשרת באמצע השיעור.
+    lines:
+    - speaker: chana
+      text: יונאס כתב שהוא מביא איתו משהו נוסף, ולא מוכן לגלות מה.
+      translation: יונאס
+    - speaker: yisrael
+      text: עד הסיום נשאר חודש. מעכשיו קוראים סוגיות שלמות וסיפורים ארוכים, כמו שסבא שלך אהב.
+      translation: השלב האחרון
+  - id: u19-l5-52
+    type: match_pairs
+    pairs:
+    - - קרא
+      - פסוק (מקרא)
+    - - יתירא
+      - מיותר
+    - - לאפוקי
+      - להוציא (שלא כולל את…)
+    - - לאתויי
+      - להביא (לרבות את…)
+    - - למעוטי
+      - למעט, להוציא
+    - - איצטריך
+      - היה צריך (נצרך)
+    lexemes:
+    - kra
+    - yetira
+    - leafukei
+    - leatuyei
+    - lemaute
+    - itztrich

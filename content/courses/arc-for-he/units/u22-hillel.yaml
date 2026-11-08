@@ -1,0 +1,567 @@
+id: u22-hillel
+cefr: B2
+scene: study
+title:
+  he: זיל גמור
+  en: Go and learn
+story: 'שבוע לפני הסיום. ר׳ ישראל מלמד את הצד השני של קמצא: הלל, שלא דחה אף אחד, ורבן יוחנן בן זכאי, שביקש ״תן לי יבנה וחכמיה״. ומה שנשאר מכל זה: ״זיל גמור״.'
+canDo:
+- 'להבין את דברי הלל: ״דעלך סני לחברך לא תעביד״'
+- להבין ״מידי״, ״אידך״, ״מיזל אזילנא״
+- לקרוא שיחה בין רבן יוחנן בן זכאי לאספסיינוס
+vocabulary:
+- id: dealach
+  text: דעלך
+  translation: מה שעליך (מה שבעיניך)
+  pos: pronoun
+  example:
+    text: דעלך סני לחברך לא תעביד
+    translation: מה ששנוא עליך, לחברך אל תעשה
+    source: בבלי, שבת לא ע״א
+    vocalized: דַּעֲלָךְ סְנֵי לְחַבְרָךְ לָא תַּעֲבֵיד
+- id: sani
+  text: סני
+  translation: שנוא; שונא
+  pos: adjective
+  example:
+    text: דעלך סני לחברך לא תעביד
+    translation: מה ששנוא עליך, לחברך אל תעשה
+    source: בבלי, שבת לא ע״א
+    vocalized: דַּעֲלָךְ סְנֵי לְחַבְרָךְ לָא תַּעֲבֵיד
+- id: taaveid
+  text: תעביד
+  translation: תעשה
+  pos: verb
+  example:
+    text: דעלך סני לחברך לא תעביד
+    translation: מה ששנוא עליך, לחברך אל תעשה
+    source: בבלי, שבת לא ע״א
+    vocalized: דַּעֲלָךְ סְנֵי לְחַבְרָךְ לָא תַּעֲבֵיד
+- id: idach
+  text: אידך
+  translation: השאר, האחר
+  pos: pronoun
+  example:
+    text: ואידך פירושה הוא זיל גמור
+    translation: והשאר, פירושה הוא. לך ולמד!
+    source: בבלי, שבת לא ע״א
+    vocalized: וְאִידַּךְ פֵּירוּשָׁהּ הוּא, זִיל גְּמוֹר
+- id: gmor
+  text: גמור
+  translation: למד! (ציווי)
+  pos: verb
+  example:
+    text: ואידך פירושה הוא זיל גמור
+    translation: והשאר, פירושה הוא. לך ולמד!
+    source: בבלי, שבת לא ע״א
+    vocalized: וְאִידַּךְ פֵּירוּשָׁהּ הוּא, זִיל גְּמוֹר
+- id: geyreih
+  text: גייריה
+  translation: גייר אותו
+  pos: verb
+  example:
+    text: בא לפני הלל גייריה
+    translation: בא לפני הלל. גייר אותו
+    source: בבלי, שבת לא ע״א
+    vocalized: בָּא לִפְנֵי הִלֵּל, גַּיְירֵיהּ
+- id: azilna
+  text: אזילנא
+  translation: אני הולך; ״מיזל אזילנא״ = הולך אני (בוודאי)
+  pos: verb
+  example:
+    text: אמר ליה מיזל אזילנא ואינש אחרינא משדרנא
+    translation: 'אמר לו: הולך אני (לרומא), ואדם אחר אני שולח (במקומי)'
+    source: בבלי, גיטין נו ע״ב
+    vocalized: 'אֲמַר לֵיהּ: מֵיזָל אָזֵילְנָא, וְאִינָשׁ אַחֲרִינָא מְשַׁדַּרְנָא'
+- id: ins-achrina
+  text: אינש אחרינא
+  translation: אדם אחר
+  pos: phrase
+  example:
+    text: אמר ליה מיזל אזילנא ואינש אחרינא משדרנא
+    translation: 'אמר לו: הולך אני (לרומא), ואדם אחר אני שולח (במקומי)'
+    source: בבלי, גיטין נו ע״ב
+    vocalized: 'אֲמַר לֵיהּ: מֵיזָל אָזֵילְנָא, וְאִינָשׁ אַחֲרִינָא מְשַׁדַּרְנָא'
+- id: midi
+  text: מידי
+  translation: משהו, דבר
+  pos: noun
+  example:
+    text: אלא בעי מינאי מידי דאתן לך
+    translation: אבל בקש ממני משהו שאתן לך
+    source: בבלי, גיטין נו ע״ב
+    vocalized: אֶלָּא בָּעֵי מִינַּאי מִידֵּי דְּאֶתֵּן לָךְ
+- id: minai
+  text: מינאי
+  translation: ממני
+  pos: pronoun
+  example:
+    text: אלא בעי מינאי מידי דאתן לך
+    translation: אבל בקש ממני משהו שאתן לך
+    source: בבלי, גיטין נו ע״ב
+    vocalized: אֶלָּא בָּעֵי מִינַּאי מִידֵּי דְּאֶתֵּן לָךְ
+grammar: []
+lessons:
+- id: u22-l1
+  kind: new
+  title:
+    he: דעלך סני
+    en: What is hateful to you
+  exercises:
+  - id: u22-l1-01
+    type: dialogue
+    scene: שבוע לפני הסיום. חנה מביאה את רשימת המוזמנים.
+    lines:
+    - speaker: chana
+      text: הזמנתי גם את השכנים של סבא. ואת המשפחה שגרה מעליו, שסבא תמיד התווכח איתם על החניה.
+      translation: חנה
+    - speaker: yisrael
+      text: 'יפה. הלל היה מסכים. גוי בא לשמאי ואמר: למד אותי את כל התורה על רגל אחת. שמאי דחה אותו. הלל ״גייריה״.'
+      translation: הלל
+    - speaker: yisrael
+      text: 'ואמר לו: ״דעלך סני לחברך לא תעביד״. מה ששנוא עליך, אל תעשה לחברך. ״ואידך פירושה הוא, זיל גמור״.'
+      translation: זיל גמור
+    - speaker: eitan
+      text: ״זיל גמור״. לך ולמד. סבא כתב את זה בסוף המחברת שלו.
+      translation: איתן
+  - id: u22-l1-02
+    type: learn
+    lexeme: dealach
+  - id: u22-l1-03
+    type: learn
+    lexeme: sani
+  - id: u22-l1-04
+    type: learn
+    lexeme: taaveid
+  - id: u22-l1-05
+    type: learn
+    lexeme: idach
+  - id: u22-l1-06
+    type: learn
+    lexeme: gmor
+  - id: u22-l1-07
+    type: learn
+    lexeme: geyreih
+  - id: u22-l1-08
+    type: match_pairs
+    pairs:
+    - - דעלך
+      - מה שעליך (מה שבעיניך)
+    - - סני
+      - שנוא; שונא
+    - - תעביד
+      - תעשה
+    - - אידך
+      - השאר, האחר
+    - - גמור
+      - למד! (ציווי)
+    - - גייריה
+      - גייר אותו
+    lexemes:
+    - dealach
+    - sani
+    - taaveid
+    - idach
+    - gmor
+    - geyreih
+  - id: u22-l1-09
+    type: multiple_choice
+    prompt: מה פירוש דעלך?
+    options:
+    - מה שעליך (מה שבעיניך)
+    - אני הולך; ״מיזל אזילנא״ = הולך אני (בוודאי)
+    - השאר, האחר
+    correct: 0
+    lexemes:
+    - dealach
+  - id: u22-l1-10
+    type: multiple_choice
+    prompt: מה פירוש סני?
+    options:
+    - שנוא; שונא
+    - למד! (ציווי)
+    - ממני
+    correct: 0
+    lexemes:
+    - sani
+  - id: u22-l1-11
+    type: multiple_choice
+    prompt: מה פירוש תעביד?
+    options:
+    - תעשה
+    - למד! (ציווי)
+    - ממני
+    correct: 0
+    lexemes:
+    - taaveid
+  - id: u22-l1-12
+    type: multiple_choice
+    prompt: מה פירוש אידך?
+    options:
+    - השאר, האחר
+    - שנוא; שונא
+    - אדם אחר
+    correct: 0
+    lexemes:
+    - idach
+  - id: u22-l1-13
+    type: multiple_choice
+    prompt: מה פירוש גמור?
+    options:
+    - למד! (ציווי)
+    - מה שעליך (מה שבעיניך)
+    - משהו, דבר
+    correct: 0
+    lexemes:
+    - gmor
+  - id: u22-l1-14
+    type: multiple_choice
+    prompt: מה פירוש גייריה?
+    options:
+    - גייר אותו
+    - מה שעליך (מה שבעיניך)
+    - משהו, דבר
+    correct: 0
+    lexemes:
+    - geyreih
+  - id: u22-l1-15
+    type: fill_blank
+    sentence: ___ סני לחברך לא תעביד
+    translation: מה ששנוא עליך, לחברך אל תעשה
+    answers:
+    - דעלך
+    options:
+    - דעלך
+    - גייריה
+    - סני
+    lexemes:
+    - dealach
+    source: בבלי, שבת לא ע״א
+    vocalized: דַּעֲלָךְ סְנֵי לְחַבְרָךְ לָא תַּעֲבֵיד
+  - id: u22-l1-16
+    type: fill_blank
+    sentence: דעלך ___ לחברך לא תעביד
+    translation: מה ששנוא עליך, לחברך אל תעשה
+    answers:
+    - סני
+    options:
+    - סני
+    - גמור
+    - דעלך
+    lexemes:
+    - sani
+    source: בבלי, שבת לא ע״א
+    vocalized: דַּעֲלָךְ סְנֵי לְחַבְרָךְ לָא תַּעֲבֵיד
+  - id: u22-l1-17
+    type: fill_blank
+    sentence: דעלך סני לחברך לא ___
+    translation: מה ששנוא עליך, לחברך אל תעשה
+    answers:
+    - תעביד
+    options:
+    - תעביד
+    - מידי
+    - אינש אחרינא
+    lexemes:
+    - taaveid
+    source: בבלי, שבת לא ע״א
+    vocalized: דַּעֲלָךְ סְנֵי לְחַבְרָךְ לָא תַּעֲבֵיד
+  - id: u22-l1-18
+    type: fill_blank
+    sentence: ___ פירושה הוא זיל גמור
+    translation: והשאר, פירושה הוא. לך ולמד!
+    answers:
+    - ואידך
+    options:
+    - ואידך
+    - אינש אחרינא
+    - מידי
+    lexemes:
+    - idach
+    source: בבלי, שבת לא ע״א
+    vocalized: וְאִידַּךְ פֵּירוּשָׁהּ הוּא, זִיל גְּמוֹר
+  - id: u22-l1-19
+    type: fill_blank
+    sentence: ואידך פירושה הוא זיל ___
+    translation: והשאר, פירושה הוא. לך ולמד!
+    answers:
+    - גמור
+    options:
+    - גמור
+    - אזילנא
+    - תעביד
+    lexemes:
+    - gmor
+    source: בבלי, שבת לא ע״א
+    vocalized: וְאִידַּךְ פֵּירוּשָׁהּ הוּא, זִיל גְּמוֹר
+  - id: u22-l1-20
+    type: fill_blank
+    sentence: בא לפני הלל ___
+    translation: בא לפני הלל. גייר אותו
+    answers:
+    - גייריה
+    options:
+    - גייריה
+    - מינאי
+    - אינש אחרינא
+    lexemes:
+    - geyreih
+    source: בבלי, שבת לא ע״א
+    vocalized: בָּא לִפְנֵי הִלֵּל, גַּיְירֵיהּ
+- id: u22-l2
+  kind: new
+  title:
+    he: מיזל אזילנא
+    en: I am going
+  exercises:
+  - id: u22-l2-21
+    type: dialogue
+    scene: ר׳ ישראל מראה את גיטין נו.
+    lines:
+    - speaker: yisrael
+      text: 'אחרי קמצא, ירושלים במצור. רבן יוחנן בן זכאי יוצא בארון אל אספסיינוס. אספסיינוס אומר לו: ״מיזל אזילנא, ואינש אחרינא משדרנא״. אני הולך, ואשלח אדם אחר.'
+      translation: מיזל אזילנא
+    - speaker: yisrael
+      text: ״אלא בעי מינאי מידי דאתן לך״. בקש ממני משהו, ואתן לך.
+      translation: בעי מינאי מידי
+    - speaker: chana
+      text: והוא ביקש ״תן לי יבנה וחכמיה״. לא את ירושלים, את בית המדרש.
+      translation: יבנה
+    - speaker: yisrael
+      text: כמו המתבן. גם לנו היה רק בית מדרש קטן, של שני ילדים ודף אחד. וזה מה שנשאר.
+      translation: המתבן
+  - id: u22-l2-22
+    type: learn
+    lexeme: azilna
+  - id: u22-l2-23
+    type: learn
+    lexeme: ins-achrina
+  - id: u22-l2-24
+    type: learn
+    lexeme: midi
+  - id: u22-l2-25
+    type: learn
+    lexeme: minai
+  - id: u22-l2-26
+    type: match_pairs
+    pairs:
+    - - אזילנא
+      - אני הולך; ״מיזל אזילנא״ = הולך אני (בוודאי)
+    - - אינש אחרינא
+      - אדם אחר
+    - - מידי
+      - משהו, דבר
+    - - מינאי
+      - ממני
+    lexemes:
+    - azilna
+    - ins-achrina
+    - midi
+    - minai
+  - id: u22-l2-27
+    type: multiple_choice
+    prompt: מה פירוש אזילנא?
+    options:
+    - אני הולך; ״מיזל אזילנא״ = הולך אני (בוודאי)
+    - תעשה
+    - אדם אחר
+    correct: 0
+    lexemes:
+    - azilna
+  - id: u22-l2-28
+    type: multiple_choice
+    prompt: מה פירוש אינש אחרינא?
+    options:
+    - אדם אחר
+    - ממני
+    - למד! (ציווי)
+    correct: 0
+    lexemes:
+    - ins-achrina
+  - id: u22-l2-29
+    type: multiple_choice
+    prompt: מה פירוש מידי?
+    options:
+    - משהו, דבר
+    - שנוא; שונא
+    - גייר אותו
+    correct: 0
+    lexemes:
+    - midi
+  - id: u22-l2-30
+    type: multiple_choice
+    prompt: מה פירוש מינאי?
+    options:
+    - ממני
+    - למד! (ציווי)
+    - תעשה
+    correct: 0
+    lexemes:
+    - minai
+  - id: u22-l2-31
+    type: fill_blank
+    sentence: אמר ליה מיזל ___ ואינש אחרינא משדרנא
+    translation: 'אמר לו: הולך אני (לרומא), ואדם אחר אני שולח (במקומי)'
+    answers:
+    - אזילנא
+    options:
+    - אזילנא
+    - דעלך
+    - תעביד
+    lexemes:
+    - azilna
+    source: בבלי, גיטין נו ע״ב
+    vocalized: 'אֲמַר לֵיהּ: מֵיזָל אָזֵילְנָא, וְאִינָשׁ אַחֲרִינָא מְשַׁדַּרְנָא'
+  - id: u22-l2-32
+    type: fill_blank
+    sentence: אמר ליה מיזל אזילנא ואינש ___ משדרנא
+    translation: 'אמר לו: הולך אני (לרומא), ואדם אחר אני שולח (במקומי)'
+    answers:
+    - אחרינא
+    options:
+    - אחרינא
+    - אידך
+    - אזילנא
+    lexemes:
+    - ins-achrina
+    source: בבלי, גיטין נו ע״ב
+    vocalized: 'אֲמַר לֵיהּ: מֵיזָל אָזֵילְנָא, וְאִינָשׁ אַחֲרִינָא מְשַׁדַּרְנָא'
+  - id: u22-l2-33
+    type: fill_blank
+    sentence: אלא בעי מינאי ___ דאתן לך
+    translation: אבל בקש ממני משהו שאתן לך
+    answers:
+    - מידי
+    options:
+    - מידי
+    - אינש אחרינא
+    - דעלך
+    lexemes:
+    - midi
+    source: בבלי, גיטין נו ע״ב
+    vocalized: אֶלָּא בָּעֵי מִינַּאי מִידֵּי דְּאֶתֵּן לָךְ
+  - id: u22-l2-34
+    type: fill_blank
+    sentence: אלא בעי ___ מידי דאתן לך
+    translation: אבל בקש ממני משהו שאתן לך
+    answers:
+    - מינאי
+    options:
+    - מינאי
+    - אידך
+    - סני
+    lexemes:
+    - minai
+    source: בבלי, גיטין נו ע״ב
+    vocalized: אֶלָּא בָּעֵי מִינַּאי מִידֵּי דְּאֶתֵּן לָךְ
+- id: u22-l3
+  kind: review
+  title:
+    he: על רגל אחת
+    en: On one foot
+  exercises:
+  - id: u22-l3-35
+    type: reading
+    kind: גמרא, שבת לא ע״א
+    title: הלל והגר
+    text: 'בא לפני הלל גייריה
+
+
+      אמר לו דעלך סני לחברך לא תעביד
+
+
+      זו היא כל התורה כולה
+
+
+      ואידך פירושה הוא זיל גמור'
+    translation: 'בא לפני הלל. גייר אותו.
+
+
+      אמר לו: מה ששנוא עליך, לחברך אל תעשה.
+
+
+      זו היא כל התורה כולה,
+
+
+      והשאר, פירושה הוא. לך ולמד!'
+    lexemes:
+    - geyreih
+    - dealach
+    - sani
+    - taaveid
+    - idach
+    - gmor
+    source: בבלי, שבת לא ע״א
+    vocalized: 'בָּא לִפְנֵי הִלֵּל, גַּיְירֵיהּ. אָמַר לוֹ: דַּעֲלָךְ סְנֵי לְחַבְרָךְ לָא תַּעֲבֵיד זוֹ הִיא כׇּל הַתּוֹרָה כּוּלָּהּ, וְאִידַּךְ פֵּירוּשָׁהּ הוּא, זִיל גְּמוֹר'
+  - id: u22-l3-36
+    type: multiple_choice
+    prompt: מה הלל אומר על כל שאר התורה?
+    options:
+    - שהיא פירוש של הכלל הזה, וצריך ללכת וללמוד אותה
+    - שאין בה צורך
+    - שהיא קשה מדי לגר
+    correct: 0
+    lexemes:
+    - idach
+    - gmor
+    source: בבלי, שבת לא ע״א
+    vocalized: וְאִידַּךְ פֵּירוּשָׁהּ הוּא, זִיל גְּמוֹר
+  - id: u22-l3-37
+    type: multiple_choice
+    prompt: ״אלא בעי מינאי מידי דאתן לך״. מה אספסיינוס מציע?
+    options:
+    - שרבן יוחנן יבקש ממנו משהו, והוא ייתן
+    - שרבן יוחנן ייתן לו מתנה
+    - שרבן יוחנן ילך איתו
+    correct: 0
+    lexemes:
+    - midi
+    - minai
+    source: בבלי, גיטין נו ע״ב
+    vocalized: אֶלָּא בָּעֵי מִינַּאי מִידֵּי דְּאֶתֵּן לָךְ
+  - id: u22-l3-38
+    type: fill_blank
+    sentence: דעלך ___ לחברך לא תעביד
+    translation: מה ששנוא עליך, לחברך אל תעשה
+    answers:
+    - סני
+    options:
+    - סני
+    - גמור
+    - אידך
+    lexemes:
+    - sani
+    source: בבלי, שבת לא ע״א
+    vocalized: דַּעֲלָךְ סְנֵי לְחַבְרָךְ לָא תַּעֲבֵיד
+  - id: u22-l3-39
+    type: dialogue
+    scene: הטלפון של חנה. הודעה מיונאס.
+    lines:
+    - speaker: chana
+      text: ״נוחת ביום שלישי. אני מביא את מה ששני הילדים השאירו. סבא שלי שמר אותו שמונים שנה.״
+      translation: יונאס
+    - speaker: yisrael
+      text: (בשקט) המעיל.
+      translation: ר׳ ישראל
+  - id: u22-l3-40
+    type: match_pairs
+    pairs:
+    - - דעלך
+      - מה שעליך (מה שבעיניך)
+    - - סני
+      - שנוא; שונא
+    - - גמור
+      - למד! (ציווי)
+    - - אידך
+      - השאר, האחר
+    - - מידי
+      - משהו, דבר
+    - - מינאי
+      - ממני
+    lexemes:
+    - dealach
+    - sani
+    - gmor
+    - idach
+    - midi
+    - minai

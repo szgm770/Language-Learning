@@ -1,0 +1,591 @@
+id: u14-dika
+cefr: B1
+scene: study
+title:
+  he: 'דיקא נמי: ראיות'
+  en: Proofs
+story: 'איתן מביא ראיה ראשונה, והגמרא מלמדת איך מוכיחים: מדייקים בלשון המשנה, לומדים ״מכלל״, ואומרים ״אלמא״. חנה כותבת לנכד של האיכר בווילנה.'
+canDo:
+- 'להבין דיוק: ״דיקא נמי דקתני…״'
+- 'להבין מסקנה: אלמא, קסבר, מכלל'
+- 'להבין ״מהו דתימא… קמ״ל״: מה החידוש'
+vocabulary:
+- id: dika-nami
+  text: דיקא נמי
+  translation: מדויק גם (בלשון המקור)
+  pos: phrase
+  example:
+    text: דיקא נמי דקתני כל שהוא ש"מ
+    translation: מדויק גם (בלשון המשנה), ששנה ׳כל שהוא׳. מכאן לומדים
+    source: בבלי, בבא בתרא כז ע״ב
+    vocalized: 'דַּיְקָא נָמֵי, דְּקָתָנֵי: כׇּל שֶׁהוּא. שְׁמַע מִינַּהּ'
+- id: michlal
+  text: מכלל
+  translation: מכלל (זה משמע ש…)
+  pos: phrase
+  example:
+    text: הלכה מכלל דפליגי
+    translation: (כשאומרים) ׳הלכה׳, משמע שנחלקו
+    source: בבלי, ברכות לג ע״ב
+    vocalized: הֲלָכָה מִכְלָל דִּפְלִיגִי
+- id: pligi
+  text: פליגי
+  translation: חולקים, נחלקו
+  pos: verb
+  example:
+    text: הלכה מכלל דפליגי
+    translation: (כשאומרים) ׳הלכה׳, משמע שנחלקו
+    source: בבלי, ברכות לג ע״ב
+    vocalized: הֲלָכָה מִכְלָל דִּפְלִיגִי
+- id: alma-therefore
+  text: אלמא
+  translation: מכאן (שמע מכאן ש…)
+  pos: adverb
+  example:
+    text: אלמא קסברי דאסור לקנאות
+    translation: מכאן שהם סוברים שאסור לקנא
+    source: בבלי, סוטה ג ע״א
+    vocalized: אַלְמָא קָסָבְרִי דְּאָסוּר לְקַנּאוֹת
+- id: kasvar
+  text: קסבר
+  translation: הוא סובר; ״קסברי״ = הם סוברים
+  pos: verb
+  example:
+    text: אלמא קסבר ישנה לשכירות מתחלה ועד סוף
+    translation: 'מכאן שהוא סובר: השכירות קיימת מתחילתה ועד סופה'
+    source: בבלי, עבודה זרה יט ע״ב
+    vocalized: אַלְמָא קָסָבַר, יֶשְׁנָהּ לִשְׂכִירוּת מִתְּחִלָּה וְעַד סוֹף
+- id: mesayea
+  text: מסייע ליה
+  translation: מסייע לו (מקור שתומך בשיטתו)
+  pos: phrase
+  example:
+    text: מסייע ליה לחזקיה דאמר חזקיה מלאהו בקרובים כשר
+    translation: '(מקור) מסייע לחזקיה, שאמר חזקיה: מילא אותו בקרובים, כשר'
+    source: בבלי, בבא בתרא קסב ע״ב
+    vocalized: 'מְסַיַּיע לֵיהּ לְחִזְקִיָּה, דְּאָמַר חִזְקִיָּה: מִלְּאָהוּ בִּקְרוֹבִים כָּשֵׁר'
+- id: mahu-detima
+  text: מהו דתימא
+  translation: הייתי אומר (מה שהיית עלול לחשוב)
+  pos: phrase
+  example:
+    text: מהו דתימא פרושי קא מפרש קמ"ל
+    translation: 'היית עלול לומר: (שהוא רק) מפרש. קא משמע לן (שלא)'
+    source: בבלי, בבא בתרא קה ע״ב
+    vocalized: מַהוּ דְּתֵימָא פָּרוֹשֵׁי קָא מְפָרֵשׁ; קָא מַשְׁמַע לַן
+- id: tnina
+  text: תנינא
+  translation: כבר שנינו (זה כתוב כבר)
+  pos: verb
+  example:
+    text: ורב פפא מאי קמ"ל תנינא
+    translation: ורב פפא, מה הוא משמיע לנו? כבר שנינו את זה!
+    source: בבלי, עירובין יט ע״ב
+    vocalized: וְרַב פָּפָּא מַאי קָא מַשְׁמַע לַן? תְּנֵינָא
+- id: dumya
+  text: דומיא
+  translation: בדומה ל…
+  pos: noun
+  example:
+    text: דיקא נמי דקתני דומיא דסלע ש"מ
+    translation: מדויק גם, ששנה (את זה) בדומה לסלע. שמע מינה
+    source: בבלי, עירובין פד ע״א
+    vocalized: דַּיְקָא נָמֵי דְּקָתָנֵי דּוּמְיָא דְּסֶלַע. שְׁמַע מִינַּהּ
+- id: svira-leih
+  text: סבירא ליה
+  translation: סובר (כך דעתו)
+  pos: phrase
+  example:
+    text: ואיהו כמאן סבירא ליה
+    translation: והוא, כמי הוא סובר?
+    source: בבלי, ברכות מו ע״א
+    vocalized: וְאִיהוּ, כְּמַאן סְבִירָא לֵיהּ
+- id: letaameih
+  text: לטעמיה
+  translation: לשיטתו (הולך בעקבות דבריו במקום אחר)
+  pos: adverb
+  example:
+    text: רבי יוחנן לטעמיה
+    translation: רבי יוחנן הולך לשיטתו
+    source: בבלי, עבודה זרה נח ע״ב
+    vocalized: רַבִּי יוֹחָנָן לְטַעְמֵיהּ
+grammar: []
+lessons:
+- id: u14-l1
+  kind: new
+  title:
+    he: דיקא נמי
+    en: It is also precise
+  exercises:
+  - id: u14-l1-01
+    type: dialogue
+    scene: חצות. איתן הגיע עם הגמרא פתוחה ועם חיוך.
+    lines:
+    - speaker: eitan
+      text: יש לי ראיה. המשנה אומרת ״זה אומר כולה שלי״, ולא ״זה אומר שלי״. היא מדייקת!
+      translation: איתן מדייק
+    - speaker: yisrael
+      text: ״דיקא נמי״! מדויק גם בלשון. הגמרא אוהבת לדייק כל מילה במשנה.
+      translation: דיקא נמי
+    - speaker: yisrael
+      text: 'ועוד דרך: ״מכלל״. אם המשנה אומרת ״הלכה כמו…״, מכלל שנחלקו. אחרת למה לפסוק?'
+      translation: מכלל
+  - id: u14-l1-02
+    type: learn
+    lexeme: dika-nami
+  - id: u14-l1-03
+    type: learn
+    lexeme: michlal
+  - id: u14-l1-04
+    type: learn
+    lexeme: pligi
+  - id: u14-l1-05
+    type: match_pairs
+    pairs:
+    - - דיקא נמי
+      - מדויק גם (בלשון המקור)
+    - - מכלל
+      - מכלל (זה משמע ש…)
+    - - פליגי
+      - חולקים, נחלקו
+    lexemes:
+    - dika-nami
+    - michlal
+    - pligi
+  - id: u14-l1-06
+    type: multiple_choice
+    prompt: מה פירוש דיקא נמי?
+    options:
+    - מדויק גם (בלשון המקור)
+    - מכלל (זה משמע ש…)
+    - מכאן (שמע מכאן ש…)
+    correct: 0
+    lexemes:
+    - dika-nami
+  - id: u14-l1-07
+    type: multiple_choice
+    prompt: מה פירוש מכלל?
+    options:
+    - מכלל (זה משמע ש…)
+    - מכאן (שמע מכאן ש…)
+    - מדויק גם (בלשון המקור)
+    correct: 0
+    lexemes:
+    - michlal
+  - id: u14-l1-08
+    type: multiple_choice
+    prompt: מה פירוש פליגי?
+    options:
+    - חולקים, נחלקו
+    - מדויק גם (בלשון המקור)
+    - הייתי אומר (מה שהיית עלול לחשוב)
+    correct: 0
+    lexemes:
+    - pligi
+  - id: u14-l1-09
+    type: fill_blank
+    sentence: ___ נמי דקתני כל שהוא ש"מ
+    translation: מדויק גם (בלשון המשנה), ששנה ׳כל שהוא׳. מכאן לומדים
+    answers:
+    - דיקא
+    options:
+    - דיקא
+    - פליגי
+    - מסייע ליה
+    lexemes:
+    - dika-nami
+    source: בבלי, בבא בתרא כז ע״ב
+    vocalized: 'דַּיְקָא נָמֵי, דְּקָתָנֵי: כׇּל שֶׁהוּא. שְׁמַע מִינַּהּ'
+  - id: u14-l1-10
+    type: fill_blank
+    sentence: הלכה ___ דפליגי
+    translation: (כשאומרים) ׳הלכה׳, משמע שנחלקו
+    answers:
+    - מכלל
+    options:
+    - מכלל
+    - מסייע ליה
+    - פליגי
+    lexemes:
+    - michlal
+    source: בבלי, ברכות לג ע״ב
+    vocalized: הֲלָכָה מִכְלָל דִּפְלִיגִי
+  - id: u14-l1-11
+    type: fill_blank
+    sentence: הלכה מכלל ___
+    translation: (כשאומרים) ׳הלכה׳, משמע שנחלקו
+    answers:
+    - דפליגי
+    options:
+    - דפליגי
+    - דיקא נמי
+    - מסייע ליה
+    lexemes:
+    - pligi
+    source: בבלי, ברכות לג ע״ב
+    vocalized: הֲלָכָה מִכְלָל דִּפְלִיגִי
+- id: u14-l2
+  kind: new
+  title:
+    he: אלמא
+    en: Therefore
+  exercises:
+  - id: u14-l2-12
+    type: tip
+    title: איך מוכיחים
+    text: '**דיקא נמי דקתני…** = מדויק גם מלשון המשנה.
+
+
+      **אלמא** = מכאן ש… **קסבר** = הוא סובר (קא + סבר). **מכלל ד…** = משמע ש…
+
+
+      **מסייע ליה** = מקור שתומך בו. **מהו דתימא… קמ״ל** = הייתי חושב כך, והמשנה משמיעה לנו שלא.'
+  - id: u14-l2-13
+    type: learn
+    lexeme: alma-therefore
+  - id: u14-l2-14
+    type: learn
+    lexeme: kasvar
+  - id: u14-l2-15
+    type: learn
+    lexeme: mesayea
+  - id: u14-l2-16
+    type: learn
+    lexeme: mahu-detima
+  - id: u14-l2-17
+    type: match_pairs
+    pairs:
+    - - אלמא
+      - מכאן (שמע מכאן ש…)
+    - - קסבר
+      - הוא סובר; ״קסברי״ = הם סוברים
+    - - מסייע ליה
+      - מסייע לו (מקור שתומך בשיטתו)
+    - - מהו דתימא
+      - הייתי אומר (מה שהיית עלול לחשוב)
+    lexemes:
+    - alma-therefore
+    - kasvar
+    - mesayea
+    - mahu-detima
+  - id: u14-l2-18
+    type: multiple_choice
+    prompt: מה פירוש אלמא?
+    options:
+    - מכאן (שמע מכאן ש…)
+    - הוא סובר; ״קסברי״ = הם סוברים
+    - מסייע לו (מקור שתומך בשיטתו)
+    correct: 0
+    lexemes:
+    - alma-therefore
+  - id: u14-l2-19
+    type: multiple_choice
+    prompt: מה פירוש קסבר?
+    options:
+    - הוא סובר; ״קסברי״ = הם סוברים
+    - מסייע לו (מקור שתומך בשיטתו)
+    - חולקים, נחלקו
+    correct: 0
+    lexemes:
+    - kasvar
+  - id: u14-l2-20
+    type: multiple_choice
+    prompt: מה פירוש מסייע ליה?
+    options:
+    - מסייע לו (מקור שתומך בשיטתו)
+    - חולקים, נחלקו
+    - הוא סובר; ״קסברי״ = הם סוברים
+    correct: 0
+    lexemes:
+    - mesayea
+  - id: u14-l2-21
+    type: multiple_choice
+    prompt: מה פירוש מהו דתימא?
+    options:
+    - הייתי אומר (מה שהיית עלול לחשוב)
+    - מדויק גם (בלשון המקור)
+    - מכלל (זה משמע ש…)
+    correct: 0
+    lexemes:
+    - mahu-detima
+  - id: u14-l2-22
+    type: fill_blank
+    sentence: ___ קסברי דאסור לקנאות
+    translation: מכאן שהם סוברים שאסור לקנא
+    answers:
+    - אלמא
+    options:
+    - אלמא
+    - מכלל
+    - מהו דתימא
+    lexemes:
+    - alma-therefore
+    source: בבלי, סוטה ג ע״א
+    vocalized: אַלְמָא קָסָבְרִי דְּאָסוּר לְקַנּאוֹת
+  - id: u14-l2-23
+    type: fill_blank
+    sentence: אלמא ___ ישנה לשכירות מתחלה ועד סוף
+    translation: 'מכאן שהוא סובר: השכירות קיימת מתחילתה ועד סופה'
+    answers:
+    - קסבר
+    options:
+    - קסבר
+    - דיקא נמי
+    - מסייע ליה
+    lexemes:
+    - kasvar
+    source: בבלי, עבודה זרה יט ע״ב
+    vocalized: אַלְמָא קָסָבַר, יֶשְׁנָהּ לִשְׂכִירוּת מִתְּחִלָּה וְעַד סוֹף
+  - id: u14-l2-24
+    type: fill_blank
+    sentence: ___ ליה לחזקיה דאמר חזקיה מלאהו בקרובים כשר
+    translation: '(מקור) מסייע לחזקיה, שאמר חזקיה: מילא אותו בקרובים, כשר'
+    answers:
+    - מסייע
+    options:
+    - מסייע
+    - אלמא
+    - דיקא נמי
+    lexemes:
+    - mesayea
+    source: בבלי, בבא בתרא קסב ע״ב
+    vocalized: 'מְסַיַּיע לֵיהּ לְחִזְקִיָּה, דְּאָמַר חִזְקִיָּה: מִלְּאָהוּ בִּקְרוֹבִים כָּשֵׁר'
+  - id: u14-l2-25
+    type: fill_blank
+    sentence: מהו ___ פרושי קא מפרש קמ"ל
+    translation: 'היית עלול לומר: (שהוא רק) מפרש. קא משמע לן (שלא)'
+    answers:
+    - דתימא
+    options:
+    - דתימא
+    - פליגי
+    - מסייע ליה
+    lexemes:
+    - mahu-detima
+    source: בבלי, בבא בתרא קה ע״ב
+    vocalized: מַהוּ דְּתֵימָא פָּרוֹשֵׁי קָא מְפָרֵשׁ; קָא מַשְׁמַע לַן
+- id: u14-l3
+  kind: new
+  title:
+    he: לטעמיה
+    en: Following his own view
+  exercises:
+  - id: u14-l3-26
+    type: tip
+    title: המחברת של איתן
+    text: 'איתן ממשיך במחברת: מילים של ראיות ושיטות. מילים שחוזרות שוב ושוב בדפים: **תנינא** = כבר שנינו (זה כתוב כבר), **דומיא** = בדומה ל…, **סבירא ליה** = סובר (כך דעתו), **לטעמיה** = לשיטתו (הולך בעקבות דבריו במקום אחר).'
+  - id: u14-l3-27
+    type: learn
+    lexeme: tnina
+  - id: u14-l3-28
+    type: learn
+    lexeme: dumya
+  - id: u14-l3-29
+    type: learn
+    lexeme: svira-leih
+  - id: u14-l3-30
+    type: learn
+    lexeme: letaameih
+  - id: u14-l3-31
+    type: match_pairs
+    pairs:
+    - - תנינא
+      - כבר שנינו (זה כתוב כבר)
+    - - דומיא
+      - בדומה ל…
+    - - סבירא ליה
+      - סובר (כך דעתו)
+    - - לטעמיה
+      - לשיטתו (הולך בעקבות דבריו במקום אחר)
+    lexemes:
+    - tnina
+    - dumya
+    - svira-leih
+    - letaameih
+  - id: u14-l3-32
+    type: multiple_choice
+    prompt: מה פירוש תנינא?
+    options:
+    - כבר שנינו (זה כתוב כבר)
+    - הוא סובר; ״קסברי״ = הם סוברים
+    - מדויק גם (בלשון המקור)
+    correct: 0
+    lexemes:
+    - tnina
+  - id: u14-l3-33
+    type: multiple_choice
+    prompt: מה פירוש דומיא?
+    options:
+    - בדומה ל…
+    - מדויק גם (בלשון המקור)
+    - סובר (כך דעתו)
+    correct: 0
+    lexemes:
+    - dumya
+  - id: u14-l3-34
+    type: multiple_choice
+    prompt: מה פירוש סבירא ליה?
+    options:
+    - סובר (כך דעתו)
+    - לשיטתו (הולך בעקבות דבריו במקום אחר)
+    - חולקים, נחלקו
+    correct: 0
+    lexemes:
+    - svira-leih
+  - id: u14-l3-35
+    type: multiple_choice
+    prompt: מה פירוש לטעמיה?
+    options:
+    - לשיטתו (הולך בעקבות דבריו במקום אחר)
+    - סובר (כך דעתו)
+    - מדויק גם (בלשון המקור)
+    correct: 0
+    lexemes:
+    - letaameih
+  - id: u14-l3-36
+    type: fill_blank
+    sentence: ורב פפא מאי קמ"ל ___
+    translation: ורב פפא, מה הוא משמיע לנו? כבר שנינו את זה!
+    answers:
+    - תנינא
+    options:
+    - תנינא
+    - לטעמיה
+    - פליגי
+    lexemes:
+    - tnina
+    source: בבלי, עירובין יט ע״ב
+    vocalized: וְרַב פָּפָּא מַאי קָא מַשְׁמַע לַן? תְּנֵינָא
+  - id: u14-l3-37
+    type: fill_blank
+    sentence: דיקא נמי דקתני ___ דסלע ש"מ
+    translation: מדויק גם, ששנה (את זה) בדומה לסלע. שמע מינה
+    answers:
+    - דומיא
+    options:
+    - דומיא
+    - דיקא נמי
+    - מכלל
+    lexemes:
+    - dumya
+    source: בבלי, עירובין פד ע״א
+    vocalized: דַּיְקָא נָמֵי דְּקָתָנֵי דּוּמְיָא דְּסֶלַע. שְׁמַע מִינַּהּ
+  - id: u14-l3-38
+    type: fill_blank
+    sentence: ואיהו כמאן ___ ליה
+    translation: והוא, כמי הוא סובר?
+    answers:
+    - סבירא
+    options:
+    - סבירא
+    - דיקא נמי
+    - תנינא
+    lexemes:
+    - svira-leih
+    source: בבלי, ברכות מו ע״א
+    vocalized: וְאִיהוּ, כְּמַאן סְבִירָא לֵיהּ
+  - id: u14-l3-39
+    type: fill_blank
+    sentence: רבי יוחנן ___
+    translation: רבי יוחנן הולך לשיטתו
+    answers:
+    - לטעמיה
+    options:
+    - לטעמיה
+    - תנינא
+    - מהו דתימא
+    lexemes:
+    - letaameih
+    source: בבלי, עבודה זרה נח ע״ב
+    vocalized: רַבִּי יוֹחָנָן לְטַעְמֵיהּ
+- id: u14-l4
+  kind: review
+  title:
+    he: ראיות
+    en: Proofs
+  exercises:
+  - id: u14-l4-40
+    type: multiple_choice
+    prompt: ״הלכה מכלל דפליגי״. מה לומדים מהמילה ׳הלכה׳?
+    options:
+    - שהייתה מחלוקת בדבר
+    - שכולם מסכימים
+    - שזה מן התורה
+    correct: 0
+    lexemes:
+    - michlal
+    - pligi
+    source: בבלי, ברכות לג ע״ב
+    vocalized: הֲלָכָה מִכְלָל דִּפְלִיגִי
+  - id: u14-l4-41
+    type: multiple_choice
+    prompt: ״מהו דתימא… קמ״ל״. מה התפקיד של הצירוף?
+    options:
+    - להראות מה היינו טועים לחשוב, ומה החידוש
+    - להביא קושיה
+    - לסיים את הפרק
+    correct: 0
+    lexemes:
+    - mahu-detima
+    - kml
+    source: בבלי, בבא בתרא קה ע״ב
+    vocalized: מַהוּ דְּתֵימָא פָּרוֹשֵׁי קָא מְפָרֵשׁ; קָא מַשְׁמַע לַן
+  - id: u14-l4-42
+    type: fill_blank
+    sentence: ___ קסברי דאסור לקנאות
+    translation: מכאן שהם סוברים שאסור לקנא
+    answers:
+    - אלמא
+    options:
+    - אלמא
+    - דלמא
+    - ממאי
+    lexemes:
+    - alma-therefore
+    source: בבלי, סוטה ג ע״א
+    vocalized: אַלְמָא קָסָבְרִי דְּאָסוּר לְקַנּאוֹת
+  - id: u14-l4-43
+    type: word_bank
+    prompt: מדויק גם (בלשון המשנה), ששנה ׳כל שהוא׳. מכאן לומדים
+    answers:
+    - דיקא נמי דקתני כל שהוא ש"מ
+    distractors:
+    - אלמא
+    - מכלל
+    lexemes:
+    - dika-nami
+    - sm
+    source: בבלי, בבא בתרא כז ע״ב
+    vocalized: 'דַּיְקָא נָמֵי, דְּקָתָנֵי: כׇּל שֶׁהוּא. שְׁמַע מִינַּהּ'
+  - id: u14-l4-44
+    type: dialogue
+    scene: חנה קוראת מהטלפון.
+    lines:
+    - speaker: chana
+      text: 'הנכד ענה. שמו יונאס. הוא כותב: ״סבא שלי סיפר על שני ילדים שקראו בלילה בספר. הוא לא ידע מה הם אמרו. רק שהם התווכחו כל הזמן.״'
+      translation: יונאס
+    - speaker: yisrael
+      text: (צוחק) ״פליגי״. כמובן שהתווכחנו.
+      translation: ר׳ ישראל
+  - id: u14-l4-45
+    type: match_pairs
+    pairs:
+    - - דיקא נמי
+      - מדויק גם (בלשון המקור)
+    - - מכלל
+      - מכלל (זה משמע ש…)
+    - - פליגי
+      - חולקים, נחלקו
+    - - אלמא
+      - מכאן (שמע מכאן ש…)
+    - - קסבר
+      - הוא סובר; ״קסברי״ = הם סוברים
+    - - מסייע ליה
+      - מסייע לו (מקור שתומך בשיטתו)
+    lexemes:
+    - dika-nami
+    - michlal
+    - pligi
+    - alma-therefore
+    - kasvar
+    - mesayea

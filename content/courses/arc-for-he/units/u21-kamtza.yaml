@@ -1,0 +1,649 @@
+id: u21-kamtza
+cefr: B2
+scene: study
+title:
+  he: קמצא ובר קמצא
+  en: Kamtza and Bar Kamtza
+story: 'סיפור קשה: אדם מבויש בסעודה, וחכמים ששתקו. ר׳ ישראל מספר שגם הוא וסבא לא דיברו שנה שלמה, ומי שבר את השתיקה.'
+canDo:
+- 'לקרוא סיפור אגדה ארוך: קמצא ובר קמצא'
+- 'להבין דו־שיח בארמית: מאי בעית הכא? קום פוק! שבקן!'
+- להבין ״הואיל ו…״ ו״לא מחו״
+vocabulary:
+- id: rachmeih
+  text: רחמיה
+  translation: אוהבו, חברו
+  pos: noun
+  example:
+    text: דההוא גברא דרחמיה קמצא ובעל דבביה בר קמצא
+    translation: שאותו אדם, אוהבו היה קמצא ושונאו היה בר קמצא
+    source: בבלי, גיטין נה ע״ב
+    vocalized: דְּהָהוּא גַּבְרָא דְּרָחֲמֵיהּ קַמְצָא, וּבְעֵל דְּבָבֵיהּ בַּר קַמְצָא
+- id: baal-devav
+  text: בעל דבביה
+  translation: שונאו (אויבו)
+  pos: phrase
+  example:
+    text: דההוא גברא דרחמיה קמצא ובעל דבביה בר קמצא
+    translation: שאותו אדם, אוהבו היה קמצא ושונאו היה בר קמצא
+    source: בבלי, גיטין נה ע״ב
+    vocalized: דְּהָהוּא גַּבְרָא דְּרָחֲמֵיהּ קַמְצָא, וּבְעֵל דְּבָבֵיהּ בַּר קַמְצָא
+- id: seudata
+  text: סעודתא
+  translation: סעודה
+  pos: noun
+  example:
+    text: עבד סעודתא אמר ליה לשמעיה זיל אייתי לי קמצא
+    translation: 'עשה סעודה. אמר למשרתו: לך הבא לי את קמצא'
+    source: בבלי, גיטין נה ע״ב
+    vocalized: 'עֲבַד סְעוֹדְתָּא, אֲמַר לֵיהּ לְשַׁמָּעֵיהּ: זִיל אַיְיתִי לִי קַמְצָא'
+- id: shamaeih
+  text: שמעיה
+  translation: משרתו, שמשו
+  pos: noun
+  example:
+    text: עבד סעודתא אמר ליה לשמעיה זיל אייתי לי קמצא
+    translation: 'עשה סעודה. אמר למשרתו: לך הבא לי את קמצא'
+    source: בבלי, גיטין נה ע״ב
+    vocalized: 'עֲבַד סְעוֹדְתָּא, אֲמַר לֵיהּ לְשַׁמָּעֵיהּ: זִיל אַיְיתִי לִי קַמְצָא'
+- id: bait
+  text: בעית
+  translation: אתה רוצה
+  pos: verb
+  example:
+    text: מאי בעית הכא קום פוק
+    translation: מה אתה רוצה כאן? קום, צא!
+    source: בבלי, גיטין נה ע״ב
+    vocalized: מַאי בָּעֵית הָכָא? קוּם פּוֹק
+- id: puk
+  text: פוק
+  translation: צא! (ציווי)
+  pos: verb
+  example:
+    text: מאי בעית הכא קום פוק
+    translation: מה אתה רוצה כאן? קום, צא!
+    source: בבלי, גיטין נה ע״ב
+    vocalized: מַאי בָּעֵית הָכָא? קוּם פּוֹק
+- id: hoil
+  text: הואיל
+  translation: מכיוון ש…, הואיל
+  pos: conjunction
+  example:
+    text: אמר ליה הואיל ואתאי שבקן ויהיבנא לך דמי מה דאכילנא ושתינא
+    translation: 'אמר לו: הואיל ובאתי, הנח לי, ואתן לך את דמי מה שאני אוכל ושותה'
+    source: בבלי, גיטין נה ע״ב
+    vocalized: 'אֲמַר לֵיהּ: הוֹאִיל וַאֲתַאי, שִׁבְקַן וְיָהֵיבְנָא לָךְ דְּמֵי מָה דְּאָכֵילְנָא וְשָׁתֵינָא'
+- id: shivkan
+  text: שבקן
+  translation: הנח לי, עזוב אותי
+  pos: verb
+  example:
+    text: אמר ליה הואיל ואתאי שבקן ויהיבנא לך דמי מה דאכילנא ושתינא
+    translation: 'אמר לו: הואיל ובאתי, הנח לי, ואתן לך את דמי מה שאני אוכל ושותה'
+    source: בבלי, גיטין נה ע״ב
+    vocalized: 'אֲמַר לֵיהּ: הוֹאִיל וַאֲתַאי, שִׁבְקַן וְיָהֵיבְנָא לָךְ דְּמֵי מָה דְּאָכֵילְנָא וְשָׁתֵינָא'
+- id: yahivna
+  text: יהיבנא
+  translation: אני נותן, אתן
+  pos: verb
+  example:
+    text: אמר ליה יהיבנא לך דמי פלגא דסעודתיך
+    translation: 'אמר לו: אתן לך את דמי חצי הסעודה שלך'
+    source: בבלי, גיטין נו ע״א
+    vocalized: 'אֲמַר לֵיהּ: יָהֵיבְנָא לָךְ דְּמֵי פַּלְגָא דִּסְעוֹדְתָּיךְ'
+- id: dmei
+  text: דמי
+  translation: מחיר, דמים (כסף)
+  pos: noun
+  example:
+    text: אמר ליה יהיבנא לך דמי פלגא דסעודתיך
+    translation: 'אמר לו: אתן לך את דמי חצי הסעודה שלך'
+    source: בבלי, גיטין נו ע״א
+    vocalized: 'אֲמַר לֵיהּ: יָהֵיבְנָא לָךְ דְּמֵי פַּלְגָא דִּסְעוֹדְתָּיךְ'
+- id: nakteih
+  text: נקטיה
+  translation: תפס אותו
+  pos: verb
+  example:
+    text: נקטיה בידיה ואוקמיה ואפקיה
+    translation: תפס אותו בידו, העמיד אותו, והוציא אותו
+    source: בבלי, גיטין נו ע״א
+    vocalized: נַקְטֵיהּ בִּידֵיהּ וְאוֹקְמֵיהּ וְאַפְּקֵיהּ
+- id: machu
+  text: מחו
+  translation: מחו (התנגדו)
+  pos: verb
+  example:
+    text: אמר הואיל והוו יתבי רבנן ולא מחו ביה ש"מ קא ניחא להו
+    translation: 'אמר (בר קמצא): הואיל וחכמים ישבו ולא מחו בו, שמע מכאן שנוח להם (הדבר)'
+    source: בבלי, גיטין נו ע״א
+    vocalized: 'אָמַר: הוֹאִיל וַהֲווֹ יָתְבִי רַבָּנַן וְלָא מַחוֹ בֵּיהּ, שְׁמַע מִינַּהּ קָא נִיחָא לְהוּ'
+grammar: []
+lessons:
+- id: u21-l1
+  kind: new
+  title:
+    he: עבד סעודתא
+    en: He made a feast
+  exercises:
+  - id: u21-l1-01
+    type: dialogue
+    scene: ערב שקט. רק איתן ור׳ ישראל.
+    lines:
+    - speaker: yisrael
+      text: ״אקמצא ובר קמצא חרוב ירושלים״. בגלל קמצא ובר קמצא חרבה ירושלים.
+      translation: הפתיחה
+    - speaker: yisrael
+      text: אדם אחד, ״דרחמיה קמצא ובעל דבביה בר קמצא״. חברו היה קמצא, והשונא שלו בר קמצא. הוא עשה סעודה ושלח את המשרת להביא את קמצא.
+      translation: רחמיה, בעל דבביה
+    - speaker: eitan
+      text: 'תן לי לנחש: המשרת הביא את בר קמצא.'
+      translation: איתן
+    - speaker: yisrael
+      text: 'והבעל הבית אמר לו: ״מאי בעית הכא? קום פוק!״ מה אתה רוצה כאן? קום, צא!'
+      translation: קום פוק
+  - id: u21-l1-02
+    type: learn
+    lexeme: rachmeih
+  - id: u21-l1-03
+    type: learn
+    lexeme: baal-devav
+  - id: u21-l1-04
+    type: learn
+    lexeme: seudata
+  - id: u21-l1-05
+    type: learn
+    lexeme: shamaeih
+  - id: u21-l1-06
+    type: learn
+    lexeme: bait
+  - id: u21-l1-07
+    type: learn
+    lexeme: puk
+  - id: u21-l1-08
+    type: match_pairs
+    pairs:
+    - - רחמיה
+      - אוהבו, חברו
+    - - בעל דבביה
+      - שונאו (אויבו)
+    - - סעודתא
+      - סעודה
+    - - שמעיה
+      - משרתו, שמשו
+    - - בעית
+      - אתה רוצה
+    - - פוק
+      - צא! (ציווי)
+    lexemes:
+    - rachmeih
+    - baal-devav
+    - seudata
+    - shamaeih
+    - bait
+    - puk
+  - id: u21-l1-09
+    type: multiple_choice
+    prompt: מה פירוש רחמיה?
+    options:
+    - אוהבו, חברו
+    - שונאו (אויבו)
+    - מכיוון ש…, הואיל
+    correct: 0
+    lexemes:
+    - rachmeih
+  - id: u21-l1-10
+    type: multiple_choice
+    prompt: מה פירוש בעל דבביה?
+    options:
+    - שונאו (אויבו)
+    - צא! (ציווי)
+    - אני נותן, אתן
+    correct: 0
+    lexemes:
+    - baal-devav
+  - id: u21-l1-11
+    type: multiple_choice
+    prompt: מה פירוש סעודתא?
+    options:
+    - סעודה
+    - משרתו, שמשו
+    - אתה רוצה
+    correct: 0
+    lexemes:
+    - seudata
+  - id: u21-l1-12
+    type: multiple_choice
+    prompt: מה פירוש שמעיה?
+    options:
+    - משרתו, שמשו
+    - שונאו (אויבו)
+    - מכיוון ש…, הואיל
+    correct: 0
+    lexemes:
+    - shamaeih
+  - id: u21-l1-13
+    type: multiple_choice
+    prompt: מה פירוש בעית?
+    options:
+    - אתה רוצה
+    - צא! (ציווי)
+    - שונאו (אויבו)
+    correct: 0
+    lexemes:
+    - bait
+  - id: u21-l1-14
+    type: multiple_choice
+    prompt: מה פירוש פוק?
+    options:
+    - צא! (ציווי)
+    - אני נותן, אתן
+    - אתה רוצה
+    correct: 0
+    lexemes:
+    - puk
+  - id: u21-l1-15
+    type: fill_blank
+    sentence: דההוא גברא ___ קמצא ובעל דבביה בר קמצא
+    translation: שאותו אדם, אוהבו היה קמצא ושונאו היה בר קמצא
+    answers:
+    - דרחמיה
+    options:
+    - דרחמיה
+    - שמעיה
+    - יהיבנא
+    lexemes:
+    - rachmeih
+    source: בבלי, גיטין נה ע״ב
+    vocalized: דְּהָהוּא גַּבְרָא דְּרָחֲמֵיהּ קַמְצָא, וּבְעֵל דְּבָבֵיהּ בַּר קַמְצָא
+  - id: u21-l1-16
+    type: fill_blank
+    sentence: דההוא גברא דרחמיה קמצא ובעל ___ בר קמצא
+    translation: שאותו אדם, אוהבו היה קמצא ושונאו היה בר קמצא
+    answers:
+    - דבביה
+    options:
+    - דבביה
+    - מחו
+    - דמי
+    lexemes:
+    - baal-devav
+    source: בבלי, גיטין נה ע״ב
+    vocalized: דְּהָהוּא גַּבְרָא דְּרָחֲמֵיהּ קַמְצָא, וּבְעֵל דְּבָבֵיהּ בַּר קַמְצָא
+  - id: u21-l1-17
+    type: fill_blank
+    sentence: עבד ___ אמר ליה לשמעיה זיל אייתי לי קמצא
+    translation: 'עשה סעודה. אמר למשרתו: לך הבא לי את קמצא'
+    answers:
+    - סעודתא
+    options:
+    - סעודתא
+    - בעל דבביה
+    - בעית
+    lexemes:
+    - seudata
+    source: בבלי, גיטין נה ע״ב
+    vocalized: 'עֲבַד סְעוֹדְתָּא, אֲמַר לֵיהּ לְשַׁמָּעֵיהּ: זִיל אַיְיתִי לִי קַמְצָא'
+  - id: u21-l1-18
+    type: fill_blank
+    sentence: עבד סעודתא אמר ליה ___ זיל אייתי לי קמצא
+    translation: 'עשה סעודה. אמר למשרתו: לך הבא לי את קמצא'
+    answers:
+    - לשמעיה
+    options:
+    - לשמעיה
+    - סעודתא
+    - מחו
+    lexemes:
+    - shamaeih
+    source: בבלי, גיטין נה ע״ב
+    vocalized: 'עֲבַד סְעוֹדְתָּא, אֲמַר לֵיהּ לְשַׁמָּעֵיהּ: זִיל אַיְיתִי לִי קַמְצָא'
+  - id: u21-l1-19
+    type: fill_blank
+    sentence: מאי ___ הכא קום פוק
+    translation: מה אתה רוצה כאן? קום, צא!
+    answers:
+    - בעית
+    options:
+    - בעית
+    - סעודתא
+    - בעל דבביה
+    lexemes:
+    - bait
+    source: בבלי, גיטין נה ע״ב
+    vocalized: מַאי בָּעֵית הָכָא? קוּם פּוֹק
+  - id: u21-l1-20
+    type: fill_blank
+    sentence: מאי בעית הכא קום ___
+    translation: מה אתה רוצה כאן? קום, צא!
+    answers:
+    - פוק
+    options:
+    - פוק
+    - דמי
+    - שבקן
+    lexemes:
+    - puk
+    source: בבלי, גיטין נה ע״ב
+    vocalized: מַאי בָּעֵית הָכָא? קוּם פּוֹק
+- id: u21-l2
+  kind: new
+  title:
+    he: ולא מחו ביה
+    en: And they did not protest
+  exercises:
+  - id: u21-l2-21
+    type: dialogue
+    scene: ר׳ ישראל ממשיך, לאט.
+    lines:
+    - speaker: yisrael
+      text: 'בר קמצא ביקש: ״שבקן״, הנח לי, אשלם על מה שאני אוכל. אחר כך על חצי הסעודה. אחר כך על כל הסעודה.'
+      translation: שבקן, יהיבנא
+    - speaker: yisrael
+      text: ״נקטיה בידיה ואפקיה״. תפס אותו והוציא אותו. וחכמים ישבו שם, ״ולא מחו ביה״.
+      translation: לא מחו
+    - speaker: eitan
+      text: ר׳ ישראל, למה אתה מספר לי את זה דווקא היום?
+      translation: איתן
+    - speaker: yisrael
+      text: כי פעם סבא שלך ואני לא דיברנו שנה שלמה, על שטות. ואף אחד מסביב לא אמר לנו כלום. מי ששבר את השתיקה היה סבתא שלך.
+      translation: השתיקה
+  - id: u21-l2-22
+    type: learn
+    lexeme: hoil
+  - id: u21-l2-23
+    type: learn
+    lexeme: shivkan
+  - id: u21-l2-24
+    type: learn
+    lexeme: yahivna
+  - id: u21-l2-25
+    type: learn
+    lexeme: dmei
+  - id: u21-l2-26
+    type: learn
+    lexeme: nakteih
+  - id: u21-l2-27
+    type: learn
+    lexeme: machu
+  - id: u21-l2-28
+    type: match_pairs
+    pairs:
+    - - הואיל
+      - מכיוון ש…, הואיל
+    - - שבקן
+      - הנח לי, עזוב אותי
+    - - יהיבנא
+      - אני נותן, אתן
+    - - דמי
+      - מחיר, דמים (כסף)
+    - - נקטיה
+      - תפס אותו
+    - - מחו
+      - מחו (התנגדו)
+    lexemes:
+    - hoil
+    - shivkan
+    - yahivna
+    - dmei
+    - nakteih
+    - machu
+  - id: u21-l2-29
+    type: multiple_choice
+    prompt: מה פירוש הואיל?
+    options:
+    - מכיוון ש…, הואיל
+    - סעודה
+    - הנח לי, עזוב אותי
+    correct: 0
+    lexemes:
+    - hoil
+  - id: u21-l2-30
+    type: multiple_choice
+    prompt: מה פירוש שבקן?
+    options:
+    - הנח לי, עזוב אותי
+    - מכיוון ש…, הואיל
+    - סעודה
+    correct: 0
+    lexemes:
+    - shivkan
+  - id: u21-l2-31
+    type: multiple_choice
+    prompt: מה פירוש יהיבנא?
+    options:
+    - אני נותן, אתן
+    - מכיוון ש…, הואיל
+    - שונאו (אויבו)
+    correct: 0
+    lexemes:
+    - yahivna
+  - id: u21-l2-32
+    type: multiple_choice
+    prompt: מה פירוש דמי?
+    options:
+    - מחיר, דמים (כסף)
+    - הנח לי, עזוב אותי
+    - מכיוון ש…, הואיל
+    correct: 0
+    lexemes:
+    - dmei
+  - id: u21-l2-33
+    type: multiple_choice
+    prompt: מה פירוש נקטיה?
+    options:
+    - תפס אותו
+    - משרתו, שמשו
+    - שונאו (אויבו)
+    correct: 0
+    lexemes:
+    - nakteih
+  - id: u21-l2-34
+    type: multiple_choice
+    prompt: מה פירוש מחו?
+    options:
+    - מחו (התנגדו)
+    - סעודה
+    - אוהבו, חברו
+    correct: 0
+    lexemes:
+    - machu
+  - id: u21-l2-35
+    type: fill_blank
+    sentence: אמר ליה ___ ואתאי שבקן ויהיבנא לך דמי מה דאכילנא ושתינא
+    translation: 'אמר לו: הואיל ובאתי, הנח לי, ואתן לך את דמי מה שאני אוכל ושותה'
+    answers:
+    - הואיל
+    options:
+    - הואיל
+    - סעודתא
+    - שמעיה
+    lexemes:
+    - hoil
+    source: בבלי, גיטין נה ע״ב
+    vocalized: 'אֲמַר לֵיהּ: הוֹאִיל וַאֲתַאי, שִׁבְקַן וְיָהֵיבְנָא לָךְ דְּמֵי מָה דְּאָכֵילְנָא וְשָׁתֵינָא'
+  - id: u21-l2-36
+    type: fill_blank
+    sentence: אמר ליה הואיל ואתאי ___ ויהיבנא לך דמי מה דאכילנא ושתינא
+    translation: 'אמר לו: הואיל ובאתי, הנח לי, ואתן לך את דמי מה שאני אוכל ושותה'
+    answers:
+    - שבקן
+    options:
+    - שבקן
+    - הואיל
+    - דמי
+    lexemes:
+    - shivkan
+    source: בבלי, גיטין נה ע״ב
+    vocalized: 'אֲמַר לֵיהּ: הוֹאִיל וַאֲתַאי, שִׁבְקַן וְיָהֵיבְנָא לָךְ דְּמֵי מָה דְּאָכֵילְנָא וְשָׁתֵינָא'
+  - id: u21-l2-37
+    type: fill_blank
+    sentence: אמר ליה ___ לך דמי פלגא דסעודתיך
+    translation: 'אמר לו: אתן לך את דמי חצי הסעודה שלך'
+    answers:
+    - יהיבנא
+    options:
+    - יהיבנא
+    - מחו
+    - שבקן
+    lexemes:
+    - yahivna
+    source: בבלי, גיטין נו ע״א
+    vocalized: 'אֲמַר לֵיהּ: יָהֵיבְנָא לָךְ דְּמֵי פַּלְגָא דִּסְעוֹדְתָּיךְ'
+  - id: u21-l2-38
+    type: fill_blank
+    sentence: אמר ליה יהיבנא לך ___ פלגא דסעודתיך
+    translation: 'אמר לו: אתן לך את דמי חצי הסעודה שלך'
+    answers:
+    - דמי
+    options:
+    - דמי
+    - נקטיה
+    - סעודתא
+    lexemes:
+    - dmei
+    source: בבלי, גיטין נו ע״א
+    vocalized: 'אֲמַר לֵיהּ: יָהֵיבְנָא לָךְ דְּמֵי פַּלְגָא דִּסְעוֹדְתָּיךְ'
+  - id: u21-l2-39
+    type: fill_blank
+    sentence: ___ בידיה ואוקמיה ואפקיה
+    translation: תפס אותו בידו, העמיד אותו, והוציא אותו
+    answers:
+    - נקטיה
+    options:
+    - נקטיה
+    - יהיבנא
+    - מחו
+    lexemes:
+    - nakteih
+    source: בבלי, גיטין נו ע״א
+    vocalized: נַקְטֵיהּ בִּידֵיהּ וְאוֹקְמֵיהּ וְאַפְּקֵיהּ
+  - id: u21-l2-40
+    type: fill_blank
+    sentence: אמר הואיל והוו יתבי רבנן ולא ___ ביה ש"מ קא ניחא להו
+    translation: 'אמר (בר קמצא): הואיל וחכמים ישבו ולא מחו בו, שמע מכאן שנוח להם (הדבר)'
+    answers:
+    - מחו
+    options:
+    - מחו
+    - יהיבנא
+    - רחמיה
+    lexemes:
+    - machu
+    source: בבלי, גיטין נו ע״א
+    vocalized: 'אָמַר: הוֹאִיל וַהֲווֹ יָתְבִי רַבָּנַן וְלָא מַחוֹ בֵּיהּ, שְׁמַע מִינַּהּ קָא נִיחָא לְהוּ'
+- id: u21-l3
+  kind: review
+  title:
+    he: חורבן
+    en: Destruction
+  exercises:
+  - id: u21-l3-41
+    type: reading
+    kind: גמרא, גיטין נה ע״ב
+    title: הסעודה
+    text: 'עבד סעודתא אמר ליה לשמעיה זיל אייתי לי קמצא
+
+
+      אזל אייתי ליה בר קמצא
+
+
+      אתא אשכחיה דהוה יתיב
+
+
+      אמר ליה מכדי ההוא גברא בעל דבבא דההוא גברא הוא מאי בעית הכא קום פוק'
+    translation: 'עשה סעודה. אמר למשרתו: לך הבא לי את קמצא.
+
+
+      הלך (המשרת) והביא לו את בר קמצא.
+
+
+      בא (בעל הבית) ומצא אותו יושב.
+
+
+      אמר לו: הרי אתה שונא שלי! מה אתה רוצה כאן? קום, צא!'
+    lexemes:
+    - seudata
+    - shamaeih
+    - zil
+    - eitei
+    - azal
+    - ashkecheih
+    - bait
+    - puk
+    source: בבלי, גיטין נה ע״ב
+    vocalized: 'עֲבַד סְעוֹדְתָּא, אֲמַר לֵיהּ לְשַׁמָּעֵיהּ: זִיל אַיְיתִי לִי קַמְצָא. אֲזַל אַיְיתִי לֵיהּ בַּר קַמְצָא. אֲתָא, אַשְׁכְּחֵיהּ דַּהֲוָה יָתֵיב. אֲמַר לֵיהּ: מִכְּדֵי הָהוּא גַּבְרָא בְּעֵל דְּבָבֵאּ דְּהָהוּא גַּבְרָא הוּא, מַאי בָּעֵית הָכָא? קוּם פּוֹק'
+  - id: u21-l3-42
+    type: multiple_choice
+    passage: אמר הואיל והוו יתבי רבנן ולא מחו ביה ש"מ קא ניחא להו
+    prompt: למה בר קמצא החליט לפגוע בחכמים?
+    options:
+    - כי הם ישבו בסעודה ולא מחו כשביישו אותו
+    - כי לא הזמינו אותו
+    - כי הם גירשו אותו
+    correct: 0
+    lexemes:
+    - machu
+    - hoil
+    source: בבלי, גיטין נו ע״א
+    vocalized: 'אָמַר: הוֹאִיל וַהֲווֹ יָתְבִי רַבָּנַן וְלָא מַחוֹ בֵּיהּ, שְׁמַע מִינַּהּ קָא נִיחָא לְהוּ'
+  - id: u21-l3-43
+    type: multiple_choice
+    prompt: ״יהיבנא לך דמי פלגא דסעודתיך״. מה בר קמצא מציע?
+    options:
+    - לשלם על חצי הסעודה
+    - לעזור במטבח
+    - ללכת הביתה
+    correct: 0
+    lexemes:
+    - yahivna
+    - dmei
+    - palga
+    source: בבלי, גיטין נו ע״א
+    vocalized: יָהֵיבְנָא לָךְ דְּמֵי פַּלְגָא דִּסְעוֹדְתָּיךְ
+  - id: u21-l3-44
+    type: fill_blank
+    sentence: ___ בידיה ואוקמיה ואפקיה
+    translation: תפס אותו בידו, העמיד אותו, והוציא אותו
+    answers:
+    - נקטיה
+    options:
+    - נקטיה
+    - שבקן
+    - פוק
+    lexemes:
+    - nakteih
+    source: בבלי, גיטין נו ע״א
+    vocalized: נַקְטֵיהּ בִּידֵיהּ וְאוֹקְמֵיהּ וְאַפְּקֵיהּ
+  - id: u21-l3-45
+    type: dialogue
+    scene: איתן מכבה את המנורה.
+    lines:
+    - speaker: eitan
+      text: אז השתיקה של החכמים הייתה גרועה מהבושה עצמה.
+      translation: המסקנה
+    - speaker: yisrael
+      text: 'כן. ומחר נלמד את הצד השני: הלל, שלא נתן לאף אחד ללכת מבויש.'
+      translation: ההמשך
+  - id: u21-l3-46
+    type: match_pairs
+    pairs:
+    - - רחמיה
+      - אוהבו, חברו
+    - - בעל דבביה
+      - שונאו (אויבו)
+    - - סעודתא
+      - סעודה
+    - - פוק
+      - צא! (ציווי)
+    - - שבקן
+      - הנח לי, עזוב אותי
+    - - מחו
+      - מחו (התנגדו)
+    lexemes:
+    - rachmeih
+    - baal-devav
+    - seudata
+    - puk
+    - shivkan
+    - machu
