@@ -41,6 +41,19 @@ vocabulary:
   - { id: "saturday", text: "Saturday", translation: "שבת", pos: "noun", pronunciation: "סֶטֶרְדֵיי" }
   - { id: "on-day", text: "on (Monday)", translation: "ב־ (ביום מסוים)", pos: "preposition", pronunciation: "אוֹן", example: { text: "on Friday", translation: "ביום שישי" } }
 
+  - { id: "often", text: "often", translation: "לעתים קרובות", pos: "adverb", pronunciation: "אוֹפֶן", example: { text: "I often get up at six.", translation: "אני קם לעתים קרובות בשש." } }
+  - { id: "very", text: "very", translation: "מאוד", pos: "adverb", pronunciation: "וֶרִי", example: { text: "It is very early.", translation: "זה מאוד מוקדם." } }
+  - { id: "also", text: "also", translation: "גם", pos: "adverb", pronunciation: "אוֹלסוֹ", example: { text: "I also have breakfast at work.", translation: "אני גם אוכל ארוחת בוקר בעבודה." } }
+  - { id: "minute", text: "minute", translation: "דקה", pos: "noun", pronunciation: "מִינִט", example: { text: "I wait for one minute.", translation: "אני מחכה דקה אחת." } }
+  - { id: "again", text: "again", translation: "שוב", pos: "adverb", pronunciation: "אֶגֶן", example: { text: "Please say it again.", translation: "בבקשה תגיד את זה שוב." } }
+  - { id: "just", text: "just", translation: "בדיוק; רק", pos: "adverb", pronunciation: "ג'אסט", example: { text: "I just finished work.", translation: "הרגע סיימתי לעבוד." } }
+  - { id: "still", text: "still", translation: "עדיין", pos: "adverb", pronunciation: "סְטִיל", example: { text: "I still work at seven.", translation: "אני עדיין עובד בשבע." } }
+  - { id: "hour", text: "hour", translation: "שעה", pos: "noun", pronunciation: "אַוור", example: { text: "The meeting is one hour.", translation: "הפגישה נמשכת שעה." } }
+  - { id: "talk", text: "talk", translation: "לדבר; שיחה", pos: "verb", pronunciation: "טוֹק", example: { text: "We talk every day.", translation: "אנחנו מדברים כל יום." } }
+  - { id: "show", text: "show", translation: "להראות", pos: "verb", pronunciation: "שׁוֹ", example: { text: "I show you my diary.", translation: "אני מראה לך את היומן שלי." } }
+  - { id: "thing", text: "thing", translation: "דבר", pos: "noun", pronunciation: "תִּינְג", example: { text: "This is a good thing.", translation: "זה דבר טוב." } }
+  - { id: "place", text: "place", translation: "מקום", pos: "noun", pronunciation: "פְּלֵייס", example: { text: "This is my favorite place.", translation: "זה המקום האהוב עליי." } }
+  - { id: "house", text: "house", translation: "בית", pos: "noun", pronunciation: "הַאוּס", example: { text: "I go to his house on Sunday.", translation: "אני הולך לבית שלו ביום ראשון." } }
 grammar:
   - id: present-simple
     title: { he: "הווה פשוט: I work, we work", en: "Present simple" }
@@ -389,3 +402,351 @@ lessons:
         text: "I work from Sunday to Thursday. I don't work on Friday."
         translation: "אני עובד מראשון עד חמישי. אני לא עובד בשישי."
         lexemes: [work-verb, sunday, thursday, dont, friday]
+  # ------------------------------------------------------------------ story words
+  - id: u5-n1
+    kind: new
+    title:
+      he: 'היומן של נועה: בוקר'
+      en: 'Noa''s diary: morning'
+    exercises:
+    - id: u5-n1-01
+      type: dialogue
+      scene: נועה כותבת ליומן בזמן ההפסקה. בן מציץ.
+      lines:
+      - speaker: ben
+        text: What are you writing, Noa?
+        translation: מה את כותבת, נועה?
+      - speaker: noa
+        text: My diary. I write for a few minutes every day.
+        translation: היומן שלי. אני כותבת כמה דקות כל יום.
+      - speaker: ben
+        text: Do you often write in English?
+        translation: את כותבת הרבה באנגלית?
+      - speaker: noa
+        text: Yes, it is very good practice. I also read the news.
+        translation: כן, זה תרגול מצוין. אני גם קוראת חדשות.
+    - id: u5-n1-02
+      type: learn
+      lexeme: often
+    - id: u5-n1-03
+      type: learn
+      lexeme: very
+    - id: u5-n1-04
+      type: learn
+      lexeme: also
+    - id: u5-n1-05
+      type: learn
+      lexeme: minute
+    - id: u5-n1-06
+      type: learn
+      lexeme: again
+    - id: u5-n1-07
+      type: learn
+      lexeme: just
+    - id: u5-n1-08
+      type: match_pairs
+      pairs:
+      - - often
+        - לעתים קרובות
+      - - very
+        - מאוד
+      - - also
+        - גם
+      - - minute
+        - דקה
+      - - again
+        - שוב
+      - - just
+        - בדיוק; רק
+      lexemes:
+      - often
+      - very
+      - also
+      - minute
+      - again
+      - just
+    - id: u5-n1-09
+      type: multiple_choice
+      prompt: often – מה הפירוש?
+      options:
+      - לעתים קרובות
+      - מאוד
+      - גם
+      correct: 0
+      lexemes:
+      - often
+    - id: u5-n1-10
+      type: multiple_choice
+      prompt: minute – מה הפירוש?
+      options:
+      - דקה
+      - מאוד
+      - בדיוק; רק
+      correct: 0
+      lexemes:
+      - minute
+    - id: u5-n1-11
+      type: multiple_choice
+      prompt: again – מה הפירוש?
+      options:
+      - שוב
+      - מאוד
+      - גם
+      correct: 0
+      lexemes:
+      - again
+    - id: u5-n1-12
+      type: fill_blank
+      sentence: I ___ finished work.
+      translation: הרגע סיימתי לעבוד.
+      answers:
+      - just
+      options:
+      - just
+      - minute
+      - often
+      lexemes:
+      - just
+    - id: u5-n1-13
+      type: fill_blank
+      sentence: It is ___ early.
+      translation: זה מאוד מוקדם.
+      answers:
+      - very
+      options:
+      - very
+      - again
+      - minute
+      lexemes:
+      - very
+    - id: u5-n1-14
+      type: fill_blank
+      sentence: I ___ have breakfast at work.
+      translation: אני גם אוכל ארוחת בוקר בעבודה.
+      answers:
+      - also
+      options:
+      - also
+      - often
+      - again
+      lexemes:
+      - also
+    - id: u5-n1-15
+      type: word_bank
+      prompt: אני קם לעתים קרובות בשש.
+      answers:
+      - I often get up at six.
+      distractors:
+      - just
+      - very
+      lexemes:
+      - often
+    - id: u5-n1-16
+      type: word_bank
+      prompt: אני מחכה דקה אחת.
+      answers:
+      - I wait for one minute.
+      distractors:
+      - again
+      - very
+      lexemes:
+      - minute
+    - id: u5-n1-17
+      type: listening_choice
+      audioText: Please say it again.
+      question: מה שמעתם?
+      options:
+      - בבקשה תגיד את זה שוב.
+      - אני קם לעתים קרובות בשש.
+      - זה מאוד מוקדם.
+      correct: 0
+      lexemes:
+      - again
+    - id: u5-n1-18
+      type: speak_repeat
+      text: I often write for a few minutes.
+      translation: אני כותבת לעתים קרובות כמה דקות.
+      lexemes:
+      - often
+  - id: u5-n2
+    kind: new
+    title:
+      he: 'היומן של נועה: אחר הצהריים'
+      en: 'Noa''s diary: afternoon'
+    exercises:
+    - id: u5-n2-01
+      type: dialogue
+      scene: אחרי העבודה, נועה ובן מדברים על מה שנשאר מהיום.
+      lines:
+      - speaker: noa
+        text: I still have work. It is an hour to the meeting.
+        translation: עוד יש לי עבודה. עוד שעה לפגישה.
+      - speaker: ben
+        text: Let's talk about the plan. I have a good thing to show you.
+        translation: בואי נדבר על התוכנית. יש לי דבר טוב להראות לך.
+      - speaker: noa
+        text: Great. I think it is a good place to start.
+        translation: מצוין. אני חושבת שזה מקום טוב להתחיל בו.
+      - speaker: ben
+        text: Come to my house on Sunday and we can talk more.
+        translation: בואי אליי הביתה ביום ראשון ונדבר עוד.
+    - id: u5-n2-02
+      type: learn
+      lexeme: still
+    - id: u5-n2-03
+      type: learn
+      lexeme: hour
+    - id: u5-n2-04
+      type: learn
+      lexeme: talk
+    - id: u5-n2-05
+      type: learn
+      lexeme: show
+    - id: u5-n2-06
+      type: learn
+      lexeme: thing
+    - id: u5-n2-07
+      type: learn
+      lexeme: place
+    - id: u5-n2-08
+      type: learn
+      lexeme: house
+    - id: u5-n2-09
+      type: match_pairs
+      pairs:
+      - - still
+        - עדיין
+      - - hour
+        - שעה
+      - - talk
+        - לדבר; שיחה
+      - - show
+        - להראות
+      - - thing
+        - דבר
+      - - place
+        - מקום
+      lexemes:
+      - still
+      - hour
+      - talk
+      - show
+      - thing
+      - place
+    - id: u5-n2-10
+      type: multiple_choice
+      prompt: house – מה הפירוש?
+      options:
+      - בית
+      - עדיין
+      - להראות
+      correct: 0
+      lexemes:
+      - house
+    - id: u5-n2-11
+      type: multiple_choice
+      prompt: talk – מה הפירוש?
+      options:
+      - לדבר; שיחה
+      - עדיין
+      - בית
+      correct: 0
+      lexemes:
+      - talk
+    - id: u5-n2-12
+      type: multiple_choice
+      prompt: thing – מה הפירוש?
+      options:
+      - דבר
+      - לדבר; שיחה
+      - שעה
+      correct: 0
+      lexemes:
+      - thing
+    - id: u5-n2-13
+      type: fill_blank
+      sentence: I ___ you my diary.
+      translation: אני מראה לך את היומן שלי.
+      answers:
+      - show
+      options:
+      - show
+      - house
+      - thing
+      lexemes:
+      - show
+    - id: u5-n2-14
+      type: fill_blank
+      sentence: This is my favorite ___.
+      translation: זה המקום האהוב עליי.
+      answers:
+      - place
+      options:
+      - place
+      - hour
+      - house
+      lexemes:
+      - place
+    - id: u5-n2-15
+      type: fill_blank
+      sentence: I ___ work at seven.
+      translation: אני עדיין עובד בשבע.
+      answers:
+      - still
+      options:
+      - still
+      - talk
+      - house
+      lexemes:
+      - still
+    - id: u5-n2-16
+      type: fill_blank
+      sentence: The meeting is one ___.
+      translation: הפגישה נמשכת שעה.
+      answers:
+      - hour
+      options:
+      - hour
+      - still
+      - talk
+      lexemes:
+      - hour
+    - id: u5-n2-17
+      type: word_bank
+      prompt: אני הולך לבית שלו ביום ראשון.
+      answers:
+      - I go to his house on Sunday.
+      distractors:
+      - show
+      - still
+      lexemes:
+      - house
+    - id: u5-n2-18
+      type: word_bank
+      prompt: אנחנו מדברים כל יום.
+      answers:
+      - We talk every day.
+      distractors:
+      - show
+      - thing
+      lexemes:
+      - talk
+    - id: u5-n2-19
+      type: listening_choice
+      audioText: This is a good thing.
+      question: מה שמעתם?
+      options:
+      - זה דבר טוב.
+      - אני עדיין עובד בשבע.
+      - הפגישה נמשכת שעה.
+      correct: 0
+      lexemes:
+      - thing
+    - id: u5-n2-20
+      type: speak_repeat
+      text: We still have one hour to talk.
+      translation: עוד יש לנו שעה לדבר.
+      lexemes:
+      - still
+      - hour
+      - talk
