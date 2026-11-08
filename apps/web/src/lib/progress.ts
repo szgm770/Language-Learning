@@ -20,21 +20,34 @@ export const PASS_SCORE = 0.7;
 export const isCompleted = (state: LearnerState, courseId: string, lessonId: string) =>
   state.lessons.get(lessonKey(courseId, lessonId))?.completed ?? false;
 
+/** The preparation level (A0: letters, sounds, first words) is optional and can be skipped. */
+export const isOptional = (unit: Pick<UnitPack, "cefr">) => unit.cefr === "A0";
+
 /**
  * First lesson in course order that is not completed yet. A level test that was passed over
  * (placement, or moving progress from another device) does not hold the learner back.
  */
 export function nextLesson(state: LearnerState, courseId: string, units: UnitPack[]) {
   const reached = state.enrollments.get(courseId)?.position ?? 0;
-  return flatLessons(units).find(({ lesson }, i) => !isCompleted(state, courseId, lesson.id) && !(lesson.kind === "test" && i < reached));
+  const all = flatLessons(units);
+  // The preparation level (A0) is optional: once the learner has done any later lesson, it is not suggested again.
+  const skippedPrep = all.some(({ unit, lesson }) => !isOptional(unit) && isCompleted(state, courseId, lesson.id));
+  return all.find(
+    ({ unit, lesson }, i) =>
+      !isCompleted(state, courseId, lesson.id) && !(lesson.kind === "test" && i < reached) && !(skippedPrep && isOptional(unit)),
+  );
 }
 
-/** A lesson opens once the lesson before it is completed. Level tests are optional: they never block what follows. */
+/**
+ * A lesson opens once the lesson before it (in its own section) is completed. Level tests and the optional
+ * preparation level never block what follows, and the first lesson of every section is open.
+ */
 export function lessonOpen(state: LearnerState, courseId: string, units: UnitPack[], lessonId: string): boolean {
   const all = flatLessons(units);
   const i = all.findIndex((l) => l.lesson.id === lessonId);
+  const section = all[i]?.unit.section;
   let j = i - 1;
-  while (j >= 0 && all[j]!.lesson.kind === "test") j--;
+  while (j >= 0 && (all[j]!.lesson.kind === "test" || isOptional(all[j]!.unit) || all[j]!.unit.section !== section)) j--;
   return j < 0 || isCompleted(state, courseId, all[j]!.lesson.id);
 }
 
@@ -99,7 +112,8 @@ export function mastery(card: { state: number; stability: number; lapses: number
 /** The course split into CEFR levels, in order, each with its lessons and level test (if written yet). */
 export function courseLevels(units: UnitPack[]) {
   const levels: { level: string; units: UnitPack[] }[] = [];
-  for (const u of units) {
+  // Sections (open side tracks) are not CEFR levels: no placement test, no level certificate.
+  for (const u of units.filter((x) => !x.section)) {
     const last = levels.at(-1);
     if (last?.level === u.cefr) last.units.push(u);
     else levels.push({ level: u.cefr, units: [u] });

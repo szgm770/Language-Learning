@@ -1,0 +1,664 @@
+id: z04-bar-nash
+cefr: B1
+section: zohar
+scene: study
+title:
+  he: ווי לההוא בר נש
+  en: Woe to that person
+story: 'בדרך הביתה ממירון. ר׳ ישראל מלמד את הקטע שסבא חזר עליו: התורה אינה רק ״ספורין״, סיפורים. יש לה לבוש, גוף ונשמה.'
+canDo:
+- להבין ווי, ב״נ, ספורין, לאחזאה
+- להבין אשתכח, אתער, יכיל, לאסתכלא
+- לקרוא קטע מהזוהר בפרשת בהעלותך
+vocabulary:
+- id: vei
+  text: ווי
+  translation: אוי, אבוי
+  pos: interjection
+  example:
+    text: ווי לההוא ב"נ דאמר
+    translation: אוי לאותו אדם שאומר…
+    source: זוהר, פרשת בהעלותך
+- id: sipurin
+  text: ספורין
+  translation: סיפורים
+  pos: noun
+  example:
+    text: דהא אורייתא אתא לאחזאה ספורין בעלמא
+    translation: שהרי התורה באה להראות סיפורים בעלמא (בלבד)
+    source: זוהר, פרשת בהעלותך
+- id: leachzaa
+  text: לאחזאה
+  translation: להראות
+  pos: verb
+  example:
+    text: דהא אורייתא אתא לאחזאה ספורין בעלמא
+    translation: שהרי התורה באה להראות סיפורים בעלמא (בלבד)
+    source: זוהר, פרשת בהעלותך
+- id: levushin
+  text: לבושין
+  translation: לבושים
+  pos: noun
+  example:
+    text: וכל אינון ספורין לבושין אינון
+    translation: וכל אותם סיפורים, לבושים הם
+    source: זוהר, פרשת בהעלותך
+- id: ishtakach
+  text: אשתכח
+  translation: נמצא
+  pos: verb
+  example:
+    text: דכלא אשתכח לעילא ותתא
+    translation: שהכול נמצא למעלה ולמטה
+    source: זוהר, פרשת בשלח
+- id: iter
+  text: אתער
+  translation: התעורר, עורר
+  pos: verb
+  example:
+    text: קום סבא אתער בחילך
+    translation: קום, זקן, התעורר בכוחך
+    source: זוהר, פרשת משפטים
+- id: leistakla
+  text: לאסתכלא
+  translation: להתבונן, להסתכל
+  pos: verb
+  example:
+    text: והיך יכיל לאסתכלא בשכינתא
+    translation: ואיך יוכל להתבונן בשכינה?
+    source: זוהר, פרשת ואתחנן
+- id: garmeih
+  text: גרמיה
+  translation: עצמו
+  pos: pronoun
+  example:
+    text: שוי גרמיה בהדי מסכנא
+    translation: השווה את עצמו עם העני
+    source: זוהר, פרשת בלק
+- id: zf-itztrich-z
+  text: אצטריך
+  translation: צריך
+  pos: noun
+- id: zf-yachil-z
+  text: יכיל
+  translation: יכול
+  pos: noun
+- id: zf-yachlin
+  text: יכלין
+  translation: יכולים
+  pos: noun
+- id: zf-natil
+  text: נטיל
+  translation: לוקח, נוטל
+  pos: noun
+- id: zf-akrun
+  text: אקרון
+  translation: נקראים
+  pos: noun
+- id: zf-itkrei
+  text: אתקרי
+  translation: נקרא
+  pos: noun
+- id: zf-istalak
+  text: אסתלק
+  translation: הסתלק, עלה
+  pos: noun
+- id: zf-itavid
+  text: אתעביד
+  translation: נעשה
+  pos: noun
+- id: zf-blechodoi
+  text: בלחודוי
+  translation: לבדו
+  pos: noun
+- id: zf-bishin
+  text: בישין
+  translation: רעים
+  pos: noun
+- id: zf-reshu
+  text: רשו
+  translation: רשות
+  pos: noun
+- id: zf-talyin
+  text: תליין
+  translation: תלויים
+  pos: noun
+grammar: []
+lessons:
+- id: z04-l1
+  kind: new
+  title:
+    he: ווי לההוא בר נש
+    en: Woe to that person
+  exercises:
+  - id: z04-l1-01
+    type: dialogue
+    scene: באוטו. חנה נוהגת, איתן קורא מהזוהר של סבא.
+    lines:
+    - speaker: eitan
+      text: ״ווי לההוא בר נש דאמר, דהא אורייתא אתא לאחזאה ספורין בעלמא״. אוי לאדם שאומר שהתורה באה רק לספר סיפורים.
+      translation: ווי
+    - speaker: yisrael
+      text: ״לבושין אינון״. הסיפורים הם לבוש. מתחת יש גוף, ובפנים נשמה.
+      translation: לבושין
+    - speaker: chana
+      text: גם הסיפור שלכם. המעיל, המתבן. זה הלבוש. מה בפנים?
+      translation: חנה
+  - id: z04-l1-02
+    type: learn
+    lexeme: vei
+  - id: z04-l1-03
+    type: learn
+    lexeme: sipurin
+  - id: z04-l1-04
+    type: learn
+    lexeme: leachzaa
+  - id: z04-l1-05
+    type: learn
+    lexeme: levushin
+  - id: z04-l1-06
+    type: match_pairs
+    pairs:
+    - - ווי
+      - אוי, אבוי
+    - - ספורין
+      - סיפורים
+    - - לאחזאה
+      - להראות
+    - - לבושין
+      - לבושים
+    lexemes:
+    - vei
+    - sipurin
+    - leachzaa
+    - levushin
+  - id: z04-l1-07
+    type: multiple_choice
+    prompt: מה פירוש ווי?
+    options:
+    - אוי, אבוי
+    - סיפורים
+    - להראות
+    correct: 0
+    lexemes:
+    - vei
+  - id: z04-l1-08
+    type: multiple_choice
+    prompt: מה פירוש ספורין?
+    options:
+    - סיפורים
+    - להראות
+    - להתבונן, להסתכל
+    correct: 0
+    lexemes:
+    - sipurin
+  - id: z04-l1-09
+    type: multiple_choice
+    prompt: מה פירוש לאחזאה?
+    options:
+    - להראות
+    - עצמו
+    - התעורר, עורר
+    correct: 0
+    lexemes:
+    - leachzaa
+  - id: z04-l1-10
+    type: multiple_choice
+    prompt: מה פירוש לבושין?
+    options:
+    - לבושים
+    - סיפורים
+    - התעורר, עורר
+    correct: 0
+    lexemes:
+    - levushin
+  - id: z04-l1-11
+    type: fill_blank
+    sentence: ___ לההוא ב"נ דאמר
+    translation: אוי לאותו אדם שאומר…
+    answers:
+    - ווי
+    options:
+    - ווי
+    - אתער
+    - לאסתכלא
+    lexemes:
+    - vei
+    source: זוהר, פרשת בהעלותך
+  - id: z04-l1-12
+    type: fill_blank
+    sentence: דהא אורייתא אתא לאחזאה ___ בעלמא
+    translation: שהרי התורה באה להראות סיפורים בעלמא (בלבד)
+    answers:
+    - ספורין
+    options:
+    - ספורין
+    - אתער
+    - גרמיה
+    lexemes:
+    - sipurin
+    source: זוהר, פרשת בהעלותך
+  - id: z04-l1-13
+    type: fill_blank
+    sentence: דהא אורייתא אתא ___ ספורין בעלמא
+    translation: שהרי התורה באה להראות סיפורים בעלמא (בלבד)
+    answers:
+    - לאחזאה
+    options:
+    - לאחזאה
+    - ספורין
+    - גרמיה
+    lexemes:
+    - leachzaa
+    source: זוהר, פרשת בהעלותך
+  - id: z04-l1-14
+    type: fill_blank
+    sentence: וכל אינון ספורין ___ אינון
+    translation: וכל אותם סיפורים, לבושים הם
+    answers:
+    - לבושין
+    options:
+    - לבושין
+    - אתער
+    - ספורין
+    lexemes:
+    - levushin
+    source: זוהר, פרשת בהעלותך
+- id: z04-l2
+  kind: new
+  title:
+    he: קום, אתער
+    en: Rise, awaken
+  exercises:
+  - id: z04-l2-15
+    type: tip
+    title: פעלים בזוהר
+    text: '**אשתכח** = נמצא. **אתער** = התעורר. **לאסתכלא** = להתבונן. **יכיל** = יכול. **אצטריך** = צריך.
+
+
+      **גרמיה** = עצמו (בבבלי: נפשיה). **בלחודוי** = לבדו.
+
+
+      הרבה פעלים בזוהר מתחילים ב**את־** או **אש־**: אתער, אשתכח, אתגלייא. זה כמו ״הת־״ בעברית.'
+  - id: z04-l2-16
+    type: learn
+    lexeme: ishtakach
+  - id: z04-l2-17
+    type: learn
+    lexeme: iter
+  - id: z04-l2-18
+    type: learn
+    lexeme: leistakla
+  - id: z04-l2-19
+    type: learn
+    lexeme: garmeih
+  - id: z04-l2-20
+    type: match_pairs
+    pairs:
+    - - אשתכח
+      - נמצא
+    - - אתער
+      - התעורר, עורר
+    - - לאסתכלא
+      - להתבונן, להסתכל
+    - - גרמיה
+      - עצמו
+    lexemes:
+    - ishtakach
+    - iter
+    - leistakla
+    - garmeih
+  - id: z04-l2-21
+    type: multiple_choice
+    prompt: מה פירוש אשתכח?
+    options:
+    - נמצא
+    - אוי, אבוי
+    - התעורר, עורר
+    correct: 0
+    lexemes:
+    - ishtakach
+  - id: z04-l2-22
+    type: multiple_choice
+    prompt: מה פירוש אתער?
+    options:
+    - התעורר, עורר
+    - להראות
+    - עצמו
+    correct: 0
+    lexemes:
+    - iter
+  - id: z04-l2-23
+    type: multiple_choice
+    prompt: מה פירוש לאסתכלא?
+    options:
+    - להתבונן, להסתכל
+    - אוי, אבוי
+    - להראות
+    correct: 0
+    lexemes:
+    - leistakla
+  - id: z04-l2-24
+    type: multiple_choice
+    prompt: מה פירוש גרמיה?
+    options:
+    - עצמו
+    - לבושים
+    - אוי, אבוי
+    correct: 0
+    lexemes:
+    - garmeih
+  - id: z04-l2-25
+    type: fill_blank
+    sentence: דכלא ___ לעילא ותתא
+    translation: שהכול נמצא למעלה ולמטה
+    answers:
+    - אשתכח
+    options:
+    - אשתכח
+    - גרמיה
+    - לאחזאה
+    lexemes:
+    - ishtakach
+    source: זוהר, פרשת בשלח
+  - id: z04-l2-26
+    type: fill_blank
+    sentence: קום סבא ___ בחילך
+    translation: קום, זקן, התעורר בכוחך
+    answers:
+    - אתער
+    options:
+    - אתער
+    - אשתכח
+    - ספורין
+    lexemes:
+    - iter
+    source: זוהר, פרשת משפטים
+  - id: z04-l2-27
+    type: fill_blank
+    sentence: והיך יכיל ___ בשכינתא
+    translation: ואיך יוכל להתבונן בשכינה?
+    answers:
+    - לאסתכלא
+    options:
+    - לאסתכלא
+    - לבושין
+    - אשתכח
+    lexemes:
+    - leistakla
+    source: זוהר, פרשת ואתחנן
+  - id: z04-l2-28
+    type: fill_blank
+    sentence: שוי ___ בהדי מסכנא
+    translation: השווה את עצמו עם העני
+    answers:
+    - גרמיה
+    options:
+    - גרמיה
+    - לבושין
+    - אתער
+    lexemes:
+    - garmeih
+    source: זוהר, פרשת בלק
+- id: z04-l3
+  kind: new
+  title:
+    he: המחברת של איתן
+    en: Eitan's notebook
+  exercises:
+  - id: z04-l3-29
+    type: tip
+    title: מילים שכיחות בזוהר
+    text: 'מילים שחוזרות בזוהר שוב ושוב: **אצטריך** = צריך, **יכיל** = יכול, **יכלין** = יכולים, **נטיל** = לוקח, נוטל, **אקרון** = נקראים, **אתקרי** = נקרא, **אסתלק** = הסתלק, עלה, **אתעביד** = נעשה, **בלחודוי** = לבדו, **בישין** = רעים, **רשו** = רשות, **תליין** = תלויים.'
+  - id: z04-l3-30
+    type: learn
+    lexeme: zf-itztrich-z
+  - id: z04-l3-31
+    type: learn
+    lexeme: zf-yachil-z
+  - id: z04-l3-32
+    type: learn
+    lexeme: zf-yachlin
+  - id: z04-l3-33
+    type: learn
+    lexeme: zf-natil
+  - id: z04-l3-34
+    type: learn
+    lexeme: zf-akrun
+  - id: z04-l3-35
+    type: learn
+    lexeme: zf-itkrei
+  - id: z04-l3-36
+    type: learn
+    lexeme: zf-istalak
+  - id: z04-l3-37
+    type: learn
+    lexeme: zf-itavid
+  - id: z04-l3-38
+    type: learn
+    lexeme: zf-blechodoi
+  - id: z04-l3-39
+    type: learn
+    lexeme: zf-bishin
+  - id: z04-l3-40
+    type: learn
+    lexeme: zf-reshu
+  - id: z04-l3-41
+    type: learn
+    lexeme: zf-talyin
+  - id: z04-l3-42
+    type: match_pairs
+    pairs:
+    - - אצטריך
+      - צריך
+    - - יכיל
+      - יכול
+    - - יכלין
+      - יכולים
+    - - נטיל
+      - לוקח, נוטל
+    - - אקרון
+      - נקראים
+    - - אתקרי
+      - נקרא
+    lexemes:
+    - zf-itztrich-z
+    - zf-yachil-z
+    - zf-yachlin
+    - zf-natil
+    - zf-akrun
+    - zf-itkrei
+  - id: z04-l3-43
+    type: multiple_choice
+    prompt: מה פירוש אצטריך?
+    options:
+    - צריך
+    - נעשה
+    - לבושים
+    correct: 0
+    lexemes:
+    - zf-itztrich-z
+  - id: z04-l3-44
+    type: multiple_choice
+    prompt: מה פירוש יכיל?
+    options:
+    - יכול
+    - עצמו
+    - לבושים
+    correct: 0
+    lexemes:
+    - zf-yachil-z
+  - id: z04-l3-45
+    type: multiple_choice
+    prompt: מה פירוש יכלין?
+    options:
+    - יכולים
+    - אוי, אבוי
+    - נעשה
+    correct: 0
+    lexemes:
+    - zf-yachlin
+  - id: z04-l3-46
+    type: multiple_choice
+    prompt: מה פירוש נטיל?
+    options:
+    - לוקח, נוטל
+    - לבושים
+    - נקרא
+    correct: 0
+    lexemes:
+    - zf-natil
+  - id: z04-l3-47
+    type: multiple_choice
+    prompt: מה פירוש אקרון?
+    options:
+    - נקראים
+    - תלויים
+    - נמצא
+    correct: 0
+    lexemes:
+    - zf-akrun
+  - id: z04-l3-48
+    type: multiple_choice
+    prompt: מה פירוש אתקרי?
+    options:
+    - נקרא
+    - התעורר, עורר
+    - סיפורים
+    correct: 0
+    lexemes:
+    - zf-itkrei
+  - id: z04-l3-49
+    type: multiple_choice
+    prompt: מה פירוש אסתלק?
+    options:
+    - הסתלק, עלה
+    - עצמו
+    - תלויים
+    correct: 0
+    lexemes:
+    - zf-istalak
+  - id: z04-l3-50
+    type: multiple_choice
+    prompt: מה פירוש אתעביד?
+    options:
+    - נעשה
+    - סיפורים
+    - התעורר, עורר
+    correct: 0
+    lexemes:
+    - zf-itavid
+  - id: z04-l3-51
+    type: multiple_choice
+    prompt: מה פירוש בלחודוי?
+    options:
+    - לבדו
+    - נקרא
+    - נעשה
+    correct: 0
+    lexemes:
+    - zf-blechodoi
+  - id: z04-l3-52
+    type: multiple_choice
+    prompt: מה פירוש בישין?
+    options:
+    - רעים
+    - תלויים
+    - סיפורים
+    correct: 0
+    lexemes:
+    - zf-bishin
+  - id: z04-l3-53
+    type: multiple_choice
+    prompt: מה פירוש רשו?
+    options:
+    - רשות
+    - אוי, אבוי
+    - להראות
+    correct: 0
+    lexemes:
+    - zf-reshu
+  - id: z04-l3-54
+    type: multiple_choice
+    prompt: מה פירוש תליין?
+    options:
+    - תלויים
+    - צריך
+    - לוקח, נוטל
+    correct: 0
+    lexemes:
+    - zf-talyin
+- id: z04-l4
+  kind: review
+  title:
+    he: לבוש וגוף
+    en: Garment and body
+  exercises:
+  - id: z04-l4-55
+    type: multiple_choice
+    prompt: לפי הזוהר, מה הם הסיפורים שבתורה?
+    options:
+    - לבוש, ומתחתיו יש גוף ונשמה
+    - כל התורה
+    - דברים מיותרים
+    correct: 0
+    lexemes:
+    - sipurin
+    - levushin
+    source: זוהר, פרשת בהעלותך
+  - id: z04-l4-56
+    type: multiple_choice
+    prompt: ״קום סבא, אתער בחילך״. מה פירוש ״אתער״?
+    options:
+    - התעורר
+    - חזור
+    - עזוב
+    correct: 0
+    lexemes:
+    - iter
+    source: זוהר, פרשת משפטים
+  - id: z04-l4-57
+    type: fill_blank
+    sentence: שוי ___ בהדי מסכנא
+    translation: השווה את עצמו עם העני
+    answers:
+    - גרמיה
+    options:
+    - גרמיה
+    - אשתכח
+    - אתער
+    lexemes:
+    - garmeih
+    source: זוהר, פרשת בלק
+  - id: z04-l4-58
+    type: dialogue
+    scene: מגיעים לירושלים.
+    lines:
+    - speaker: yisrael
+      text: נשאר קטע אחד. סבא אמר אותו כל שבת, כשפותחים את ארון הקודש.
+      translation: ההמשך
+    - speaker: eitan
+      text: בריך שמיה.
+      translation: איתן יודע
+  - id: z04-l4-59
+    type: match_pairs
+    pairs:
+    - - ווי
+      - אוי, אבוי
+    - - ספורין
+      - סיפורים
+    - - לאחזאה
+      - להראות
+    - - לבושין
+      - לבושים
+    - - אשתכח
+      - נמצא
+    - - גרמיה
+      - עצמו
+    lexemes:
+    - vei
+    - sipurin
+    - leachzaa
+    - levushin
+    - ishtakach
+    - garmeih

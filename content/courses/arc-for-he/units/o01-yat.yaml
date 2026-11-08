@@ -1,0 +1,613 @@
+id: o01-yat
+cefr: A1
+section: onkelos
+scene: study
+title:
+  he: 'בקדמין: ית'
+  en: 'In the beginning: yat'
+story: יום שישי בבוקר. ר׳ ישראל מציע לאיתן ללמוד יחד ״שניים מקרא ואחד תרגום״ כמו שעשה עם סבא, ופותחים בפסוק הראשון.
+canDo:
+- 'לזהות את ״ית״: סימן המושא (כמו ״את״)'
+- להבין ית, יתיה, יתה, יתהון, יתך, יתי
+- להבין כען, תמן, עמא
+vocabulary:
+- id: yat
+  text: ית
+  translation: את (לפני מושא)
+  pos: preposition
+  example:
+    text: ולמכיר יהבית ית גלעד
+    translation: 'בתורה: וּלְמָכִיר נָתַתִּי אֶת־הַגִּלְעָד'
+    source: תרגום אונקלוס, דברים ג, טו
+    vocalized: וּלְמָכִיר יְהָבִית יָת גִלְעָד
+- id: yateih
+  text: יתיה
+  translation: אותו
+  pos: pronoun
+  example:
+    text: ועבד משה כמא די פקיד יי יתיה כן עבד
+    translation: 'בתורה: וַיַּעַשׂ מֹשֶׁה כַּאֲשֶׁר צִוָּה יְהוָה אֹתוֹ כֵּן עָשָׂה'
+    source: תרגום אונקלוס, במדבר יז, כו
+    vocalized: וַעֲבַד משֶׁה כְּמָא דִי פַקֵיד יְיָ יָתֵיה כֵּן עֲבָד
+- id: yatah
+  text: יתה
+  translation: אותה
+  pos: pronoun
+  example:
+    text: כל כנשתא דישראל יעבדון יתה
+    translation: 'בתורה: כָּל־עֲדַת יִשְׂרָאֵל יַעֲשׂוּ אֹתוֹ'
+    source: תרגום אונקלוס, שמות יב, מז
+    vocalized: כָּל כְּנִשְׁתָּא דְיִשְׂרָאֵל יַעְבְדוּן יָתֵהּ
+- id: yathon
+  text: יתהון
+  translation: אותם
+  pos: pronoun
+  example:
+    text: אעק ית מדינאי ותקטלון יתהון
+    translation: 'בתורה: צָרוֹר אֶת־הַמִּדְיָנִים וְהִכִּיתֶם אוֹתָם'
+    source: תרגום אונקלוס, במדבר כה, יז
+    vocalized: אָעֵק יַת מִדְיָנָאֵי וְתִקְטְלוּן יָתְהוֹן
+- id: yatach
+  text: יתך
+  translation: אותך
+  pos: pronoun
+  example:
+    text: ינהר יי שכנתה לותך וירחם יתך
+    translation: 'בתורה: יָאֵר יְהוָה פָּנָיו אֵלֶיךָ וִיחֻנֶּךָּ'
+    source: תרגום אונקלוס, במדבר ו, כה
+    vocalized: יַנְהַר יְיָ שְׁכִנְתֵּהּ לְוָתָךְ וִירַחֵם יָתָךְ
+- id: yati
+  text: יתי
+  translation: אותי
+  pos: pronoun
+  example:
+    text: ואתבתון יתי ואמרתון תקין פתגמא די מללתא למעבד
+    translation: 'בתורה: וַתַּעֲנוּ אֹתִי וַתֹּאמְרוּ טוֹב־הַדָּבָר אֲשֶׁר־דִּבַּרְתָּ לַעֲשׂוֹת'
+    source: תרגום אונקלוס, דברים א, יד
+    vocalized: וַאֲתֶבְתּוּן יָתִי וַאֲמַרְתּוּן תַּקִין פִּתְגָמָא דִי מַלֶלְתָּא לְמֶעְבָּד
+- id: kean
+  text: כען
+  translation: עכשיו
+  pos: adverb
+  example:
+    text: ואמר אחזיני כען ית יקרך
+    translation: 'בתורה: וַיֹּאמַר הַרְאֵנִי נָא אֶת־כְּבֹדֶךָ'
+    source: תרגום אונקלוס, שמות לג, יח
+    vocalized: וַאֲמַר אַחֲזֵינִי כְעַן יָת יְקָרָךְ
+- id: tamman
+  text: תמן
+  translation: שם
+  pos: adverb
+  example:
+    text: ואזמן מימרי תמן לבני ישראל ויתקדש ביקרי
+    translation: 'בתורה: וְנֹעַדְתִּי שָׁמָּה לִבְנֵי יִשְׂרָאֵל וְנִקְדַּשׁ בִּכְבֹדִי'
+    source: תרגום אונקלוס, שמות כט, מג
+    vocalized: וֶאֱזַמֵן מֵימְרִי תַמָן לִבְנֵי יִשְׂרָאֵל וְיִתְקַדַשׁ בִּיקָרִי
+- id: ama
+  text: עמא
+  translation: העם
+  pos: noun
+  example:
+    text: ונחו עמא ביומא שביעאה
+    translation: 'בתורה: וַיִּשְׁבְּתוּ הָעָם בַּיּוֹם הַשְּׁבִעִי'
+    source: תרגום אונקלוס, שמות טז, ל
+    vocalized: וְנָחוּ עַמָא בְּיוֹמָא שְׁבִיעָאָה
+- id: anun
+  text: אנון
+  translation: הם
+  pos: pronoun
+  example:
+    text: וקריבן לחינתא אנון ובניהן וסגידו
+    translation: 'בתורה: וַתִּגַּשְׁןָ הַשְּׁפָחוֹת הֵנָּה וְיַלְדֵיהֶן וַתִּשְׁתַּחֲוֶיןָ'
+    source: תרגום אונקלוס, בראשית לג, ו
+    vocalized: וּקְרִיבָן לְחֵינָתָא אִנוּן וּבְנֵיהֶן וּסְגִידוּ
+- id: anachna
+  text: אנחנא
+  translation: אנחנו
+  pos: pronoun
+  example:
+    text: ואמרנא לה כיוני אנחנא לא הוינא אלילי
+    translation: 'בתורה: וַנֹּאמֶר אֵלָיו כֵּנִים אֲנָחְנוּ לֹא הָיִינוּ מְרַגְּלִים'
+    source: תרגום אונקלוס, בראשית מב, לא
+    vocalized: וַאֲמַרְנָא לֵהּ כֵּיוָנֵי אֲנָחְנָא לָא הֲוֵינָא אַלִּילֵי
+- id: ant
+  text: את
+  translation: אתה
+  pos: pronoun
+  example:
+    text: ליט את בקרתא וליט את בחקלא
+    translation: 'בתורה: אָרוּר אַתָּה בָּעִיר וְאָרוּר אַתָּה בַּשָּׂדֶה'
+    source: תרגום אונקלוס, דברים כח, טז
+    vocalized: לִיטּ אַתְּ בְּקַרְתָא וְלִיט אַתְּ בְּחַקְלָא
+grammar: []
+lessons:
+- id: o01-l1
+  kind: new
+  title:
+    he: ית
+    en: The object marker
+  exercises:
+  - id: o01-l1-01
+    type: dialogue
+    scene: יום שישי, שמונה בבוקר. איתן מגיע לר׳ ישראל עם חומש.
+    lines:
+    - speaker: yisrael
+      text: 'סבא שלך ואני קראנו כל יום שישי את הפרשה: פעמיים פסוק, ופעם אחת תרגום אונקלוס. ״שניים מקרא ואחד תרגום״.'
+      translation: שניים מקרא ואחד תרגום
+    - speaker: eitan
+      text: ומה ההבדל בין הארמית של אונקלוס לגמרא?
+      translation: שאלה
+    - speaker: yisrael
+      text: 'אותה שפה, משפחה אחרת. תראה: ״בקדמין ברא יי ית שמיא וית ארעא״. איפה שבתורה יש ״את״, אצל אונקלוס יש ״ית״.'
+      translation: ית = את
+  - id: o01-l1-02
+    type: learn
+    lexeme: yat
+  - id: o01-l1-03
+    type: learn
+    lexeme: yateih
+  - id: o01-l1-04
+    type: learn
+    lexeme: yatah
+  - id: o01-l1-05
+    type: learn
+    lexeme: yathon
+  - id: o01-l1-06
+    type: learn
+    lexeme: yatach
+  - id: o01-l1-07
+    type: learn
+    lexeme: yati
+  - id: o01-l1-08
+    type: match_pairs
+    pairs:
+    - - ית
+      - את (לפני מושא)
+    - - יתיה
+      - אותו
+    - - יתה
+      - אותה
+    - - יתהון
+      - אותם
+    - - יתך
+      - אותך
+    - - יתי
+      - אותי
+    lexemes:
+    - yat
+    - yateih
+    - yatah
+    - yathon
+    - yatach
+    - yati
+  - id: o01-l1-09
+    type: multiple_choice
+    prompt: מה פירוש ית?
+    options:
+    - את (לפני מושא)
+    - אותם
+    - הם
+    correct: 0
+    lexemes:
+    - yat
+  - id: o01-l1-10
+    type: multiple_choice
+    prompt: מה פירוש יתיה?
+    options:
+    - אותו
+    - אתה
+    - את (לפני מושא)
+    correct: 0
+    lexemes:
+    - yateih
+  - id: o01-l1-11
+    type: multiple_choice
+    prompt: מה פירוש יתה?
+    options:
+    - אותה
+    - הם
+    - את (לפני מושא)
+    correct: 0
+    lexemes:
+    - yatah
+  - id: o01-l1-12
+    type: multiple_choice
+    prompt: מה פירוש יתהון?
+    options:
+    - אותם
+    - אותך
+    - את (לפני מושא)
+    correct: 0
+    lexemes:
+    - yathon
+  - id: o01-l1-13
+    type: multiple_choice
+    prompt: מה פירוש יתך?
+    options:
+    - אותך
+    - את (לפני מושא)
+    - אותו
+    correct: 0
+    lexemes:
+    - yatach
+  - id: o01-l1-14
+    type: multiple_choice
+    prompt: מה פירוש יתי?
+    options:
+    - אותי
+    - העם
+    - עכשיו
+    correct: 0
+    lexemes:
+    - yati
+  - id: o01-l1-15
+    type: fill_blank
+    sentence: ולמכיר יהבית ___ גלעד
+    translation: 'בתורה: וּלְמָכִיר נָתַתִּי אֶת־הַגִּלְעָד'
+    answers:
+    - ית
+    options:
+    - ית
+    - יתה
+    - כען
+    lexemes:
+    - yat
+    source: תרגום אונקלוס, דברים ג, טו
+    vocalized: וּלְמָכִיר יְהָבִית יָת גִלְעָד
+  - id: o01-l1-16
+    type: fill_blank
+    sentence: ועבד משה כמא די פקיד יי ___ כן עבד
+    translation: 'בתורה: וַיַּעַשׂ מֹשֶׁה כַּאֲשֶׁר צִוָּה יְהוָה אֹתוֹ כֵּן עָשָׂה'
+    answers:
+    - יתיה
+    options:
+    - יתיה
+    - אנון
+    - כען
+    lexemes:
+    - yateih
+    source: תרגום אונקלוס, במדבר יז, כו
+    vocalized: וַעֲבַד משֶׁה כְּמָא דִי פַקֵיד יְיָ יָתֵיה כֵּן עֲבָד
+  - id: o01-l1-17
+    type: fill_blank
+    sentence: כל כנשתא דישראל יעבדון ___
+    translation: 'בתורה: כָּל־עֲדַת יִשְׂרָאֵל יַעֲשׂוּ אֹתוֹ'
+    answers:
+    - יתה
+    options:
+    - יתה
+    - תמן
+    - ית
+    lexemes:
+    - yatah
+    source: תרגום אונקלוס, שמות יב, מז
+    vocalized: כָּל כְּנִשְׁתָּא דְיִשְׂרָאֵל יַעְבְדוּן יָתֵהּ
+  - id: o01-l1-18
+    type: fill_blank
+    sentence: אעק ית מדינאי ותקטלון ___
+    translation: 'בתורה: צָרוֹר אֶת־הַמִּדְיָנִים וְהִכִּיתֶם אוֹתָם'
+    answers:
+    - יתהון
+    options:
+    - יתהון
+    - כען
+    - אנחנא
+    lexemes:
+    - yathon
+    source: תרגום אונקלוס, במדבר כה, יז
+    vocalized: אָעֵק יַת מִדְיָנָאֵי וְתִקְטְלוּן יָתְהוֹן
+  - id: o01-l1-19
+    type: fill_blank
+    sentence: ינהר יי שכנתה לותך וירחם ___
+    translation: 'בתורה: יָאֵר יְהוָה פָּנָיו אֵלֶיךָ וִיחֻנֶּךָּ'
+    answers:
+    - יתך
+    options:
+    - יתך
+    - כען
+    - יתיה
+    lexemes:
+    - yatach
+    source: תרגום אונקלוס, במדבר ו, כה
+    vocalized: יַנְהַר יְיָ שְׁכִנְתֵּהּ לְוָתָךְ וִירַחֵם יָתָךְ
+  - id: o01-l1-20
+    type: fill_blank
+    sentence: ואתבתון ___ ואמרתון תקין פתגמא די מללתא למעבד
+    translation: 'בתורה: וַתַּעֲנוּ אֹתִי וַתֹּאמְרוּ טוֹב־הַדָּבָר אֲשֶׁר־דִּבַּרְתָּ לַעֲשׂוֹת'
+    answers:
+    - יתי
+    options:
+    - יתי
+    - אנחנא
+    - יתך
+    lexemes:
+    - yati
+    source: תרגום אונקלוס, דברים א, יד
+    vocalized: וַאֲתֶבְתּוּן יָתִי וַאֲמַרְתּוּן תַּקִין פִּתְגָמָא דִי מַלֶלְתָּא לְמֶעְבָּד
+- id: o01-l2
+  kind: new
+  title:
+    he: כען ותמן
+    en: Now and there
+  exercises:
+  - id: o01-l2-21
+    type: tip
+    title: אונקלוס ובבלי
+    text: 'בגמרא: **הכא** = כאן, **התם** = שם, **השתא** = עכשיו.
+
+
+      אצל אונקלוס: **הכא** = כאן, **תמן** = שם, **כען** = עכשיו.
+
+
+      **אנון** = הם (בגמרא: אינהו). **אנחנא** = אנחנו (בגמרא: אנן).'
+  - id: o01-l2-22
+    type: learn
+    lexeme: kean
+  - id: o01-l2-23
+    type: learn
+    lexeme: tamman
+  - id: o01-l2-24
+    type: learn
+    lexeme: ama
+  - id: o01-l2-25
+    type: learn
+    lexeme: anun
+  - id: o01-l2-26
+    type: learn
+    lexeme: anachna
+  - id: o01-l2-27
+    type: learn
+    lexeme: ant
+  - id: o01-l2-28
+    type: match_pairs
+    pairs:
+    - - כען
+      - עכשיו
+    - - תמן
+      - שם
+    - - עמא
+      - העם
+    - - אנון
+      - הם
+    - - אנחנא
+      - אנחנו
+    - - את
+      - אתה
+    lexemes:
+    - kean
+    - tamman
+    - ama
+    - anun
+    - anachna
+    - ant
+  - id: o01-l2-29
+    type: multiple_choice
+    prompt: מה פירוש כען?
+    options:
+    - עכשיו
+    - שם
+    - אותם
+    correct: 0
+    lexemes:
+    - kean
+  - id: o01-l2-30
+    type: multiple_choice
+    prompt: מה פירוש תמן?
+    options:
+    - שם
+    - אנחנו
+    - אותה
+    correct: 0
+    lexemes:
+    - tamman
+  - id: o01-l2-31
+    type: multiple_choice
+    prompt: מה פירוש עמא?
+    options:
+    - העם
+    - אנחנו
+    - אותו
+    correct: 0
+    lexemes:
+    - ama
+  - id: o01-l2-32
+    type: multiple_choice
+    prompt: מה פירוש אנון?
+    options:
+    - הם
+    - אותם
+    - אותך
+    correct: 0
+    lexemes:
+    - anun
+  - id: o01-l2-33
+    type: multiple_choice
+    prompt: מה פירוש אנחנא?
+    options:
+    - אנחנו
+    - אותך
+    - עכשיו
+    correct: 0
+    lexemes:
+    - anachna
+  - id: o01-l2-34
+    type: multiple_choice
+    prompt: מה פירוש את?
+    options:
+    - אתה
+    - שם
+    - עכשיו
+    correct: 0
+    lexemes:
+    - ant
+  - id: o01-l2-35
+    type: fill_blank
+    sentence: ואמר אחזיני ___ ית יקרך
+    translation: 'בתורה: וַיֹּאמַר הַרְאֵנִי נָא אֶת־כְּבֹדֶךָ'
+    answers:
+    - כען
+    options:
+    - כען
+    - יתהון
+    - עמא
+    lexemes:
+    - kean
+    source: תרגום אונקלוס, שמות לג, יח
+    vocalized: וַאֲמַר אַחֲזֵינִי כְעַן יָת יְקָרָךְ
+  - id: o01-l2-36
+    type: fill_blank
+    sentence: ואזמן מימרי ___ לבני ישראל ויתקדש ביקרי
+    translation: 'בתורה: וְנֹעַדְתִּי שָׁמָּה לִבְנֵי יִשְׂרָאֵל וְנִקְדַּשׁ בִּכְבֹדִי'
+    answers:
+    - תמן
+    options:
+    - תמן
+    - אנחנא
+    - יתי
+    lexemes:
+    - tamman
+    source: תרגום אונקלוס, שמות כט, מג
+    vocalized: וֶאֱזַמֵן מֵימְרִי תַמָן לִבְנֵי יִשְׂרָאֵל וְיִתְקַדַשׁ בִּיקָרִי
+  - id: o01-l2-37
+    type: fill_blank
+    sentence: ונחו ___ ביומא שביעאה
+    translation: 'בתורה: וַיִּשְׁבְּתוּ הָעָם בַּיּוֹם הַשְּׁבִעִי'
+    answers:
+    - עמא
+    options:
+    - עמא
+    - את
+    - יתהון
+    lexemes:
+    - ama
+    source: תרגום אונקלוס, שמות טז, ל
+    vocalized: וְנָחוּ עַמָא בְּיוֹמָא שְׁבִיעָאָה
+  - id: o01-l2-38
+    type: fill_blank
+    sentence: וקריבן לחינתא ___ ובניהן וסגידו
+    translation: 'בתורה: וַתִּגַּשְׁןָ הַשְּׁפָחוֹת הֵנָּה וְיַלְדֵיהֶן וַתִּשְׁתַּחֲוֶיןָ'
+    answers:
+    - אנון
+    options:
+    - אנון
+    - יתה
+    - יתי
+    lexemes:
+    - anun
+    source: תרגום אונקלוס, בראשית לג, ו
+    vocalized: וּקְרִיבָן לְחֵינָתָא אִנוּן וּבְנֵיהֶן וּסְגִידוּ
+  - id: o01-l2-39
+    type: fill_blank
+    sentence: ואמרנא לה כיוני ___ לא הוינא אלילי
+    translation: 'בתורה: וַנֹּאמֶר אֵלָיו כֵּנִים אֲנָחְנוּ לֹא הָיִינוּ מְרַגְּלִים'
+    answers:
+    - אנחנא
+    options:
+    - אנחנא
+    - אנון
+    - יתה
+    lexemes:
+    - anachna
+    source: תרגום אונקלוס, בראשית מב, לא
+    vocalized: וַאֲמַרְנָא לֵהּ כֵּיוָנֵי אֲנָחְנָא לָא הֲוֵינָא אַלִּילֵי
+  - id: o01-l2-40
+    type: fill_blank
+    sentence: ליט ___ בקרתא וליט את בחקלא
+    translation: 'בתורה: אָרוּר אַתָּה בָּעִיר וְאָרוּר אַתָּה בַּשָּׂדֶה'
+    answers:
+    - את
+    options:
+    - את
+    - יתך
+    - ית
+    lexemes:
+    - ant
+    source: תרגום אונקלוס, דברים כח, טז
+    vocalized: לִיטּ אַתְּ בְּקַרְתָא וְלִיט אַתְּ בְּחַקְלָא
+- id: o01-l3
+  kind: review
+  title:
+    he: חזרה וקריאה
+    en: Review and reading
+  exercises:
+  - id: o01-l3-41
+    type: reading
+    kind: תרגום אונקלוס, בראשית א
+    title: בקדמין
+    text: 'בקדמין ברא יי ית שמיא וית ארעא
+
+
+      וארעא הות צדיא וריקניא וחשוכא פרש על אפי תהומא ורוחא מן קדם יי מנשבא על אפי מיא
+
+
+      ואמר יי יהי נהורא והוה נהורא'
+    translation: 'בְּרֵאשִׁית בָּרָא אֱלֹהִים אֵת הַשָּׁמַיִם וְאֵת הָאָרֶץ
+
+
+      וְהָאָרֶץ הָיְתָה תֹהוּ וָבֹהוּ וְחֹשֶׁךְ עַל־פְּנֵי תְהוֹם וְרוּחַ אֱלֹהִים מְרַחֶפֶת עַל־פְּנֵי הַמָּיִם
+
+
+      וַיֹּאמֶר אֱלֹהִים יְהִי אוֹר וַיְהִי־אוֹר'
+    lexemes:
+    - yat
+    - yateih
+    - yatah
+    - yathon
+    - yatach
+    - yati
+    - kean
+    - tamman
+    source: תרגום אונקלוס, בראשית א, א–ג
+    vocalized: בְּקַדְמִין בְּרָא יְיָ יָת שְׁמַיָּא וְיָת אַרְעָא וְאַרְעָא הֲוַת צָדְיָא וְרֵיקַנְיָא וַחֲשׁוֹכָא פָּרַשׂ עַל אַפֵּי תְהוֹמָא וְרוּחָא מִן קֳדָם יְיָ מְנַשְּׁבָא עַל אַפֵּי מַיָּא וַאֲמַר יְיָ יְהֵי נְהוֹרָא וַהֲוָה נְהוֹרָא
+  - id: o01-l3-42
+    type: multiple_choice
+    prompt: מה פירוש ״ית״?
+    options:
+    - את (לפני מושא)
+    - עם
+    - יש
+    correct: 0
+    lexemes:
+    - yat
+  - id: o01-l3-43
+    type: multiple_choice
+    prompt: '״תמן״ פירושו:'
+    options:
+    - שם
+    - כאן
+    - עכשיו
+    correct: 0
+    lexemes:
+    - tamman
+  - id: o01-l3-44
+    type: dialogue
+    scene: ר׳ ישראל סוגר את החומש.
+    lines:
+    - speaker: yisrael
+      text: שבוע הבא ״אבוהי״ ו״אחוהי״. סבא שלך קרא לזה ״סיומות של משפחה״.
+      translation: ההמשך
+    - speaker: eitan
+      text: אז נתראה ביום שישי.
+      translation: איתן
+  - id: o01-l3-45
+    type: match_pairs
+    pairs:
+    - - ית
+      - את (לפני מושא)
+    - - יתיה
+      - אותו
+    - - יתה
+      - אותה
+    - - יתהון
+      - אותם
+    - - יתך
+      - אותך
+    - - יתי
+      - אותי
+    lexemes:
+    - yat
+    - yateih
+    - yatah
+    - yathon
+    - yatach
+    - yati

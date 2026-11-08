@@ -258,6 +258,11 @@ export type Scene = z.infer<typeof Scene>;
 export const Unit = z.object({
   id: Id,
   cefr: Cefr,
+  /**
+   * A section of the course that is open on its own (Aramaic branches: Onkelos, Daniel, Yerushalmi, Zohar).
+   * Its first lesson is always open; inside it lessons open in order. Units without a section form the main path.
+   */
+  section: Id.optional(),
   title: UiText,
   scene: Scene,
   /** One line in Hebrew: what happens in this unit's story. */
@@ -308,6 +313,8 @@ export const Course = z.object({
   stages: z
     .array(z.strictObject({ level: Cefr, name: UiText, about: z.string().min(3) }))
     .optional(),
+  /** Sections named by units' `section` field, shown as their own part of the course path. */
+  sections: z.array(z.strictObject({ id: Id, title: UiText, about: z.string().min(3) })).optional(),
   /** An exam-practice track (not a language to learn): hidden from the language list, shown under "Exams". */
   exam: z.boolean().default(false),
 });
@@ -319,6 +326,7 @@ export const CourseManifest = Course.extend({
     z.object({
       id: Id,
       cefr: Cefr,
+      section: Id.optional(),
       title: UiText,
       scene: Scene,
       story: z.string(),

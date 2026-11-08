@@ -1,16 +1,16 @@
 # Aramaic branch courses
 
-Each branch is a short course (`arc-*`, `target: arc`, `quotesOnly`, `speechLang: none`) taken after
-"ארמית של הגמרא" (`arc-for-he`). Same characters (Eitan, R' Yisrael, Chana), same rules: real quotations only,
+Each branch is a section of the Aramaic course (`arc-for-he`): its units carry `section: onkelos | mikra | yerushalmi | zohar`,
+the course lists the sections, and every section is open from the start (it does not wait for the Talmud path). Same characters (Eitan, R' Yisrael, Chana), same rules: real quotations only,
 reviewed before publishing, words chosen by frequency and coverage measured on text not used for choosing.
 
 ## Sources (Sefaria export archive, github.com/Sefaria/Sefaria-Export-Archive)
 | Course | Text | Licence | Hebrew translation used |
 |--------|------|---------|-------------------------|
-| `arc-onkelos` | Onkelos, Torat Emet | Public domain | the Hebrew verse ("Tanach with Nikkud", public domain) |
-| `arc-mikra` | Daniel 2:4–7:28, Ezra 4:8–6:18, 7:12–26 ("Tanach with Nikkud") | Public domain | Rabbi Dan Be'eri, Biblical Aramaic into Hebrew (CC BY-SA) |
-| `arc-yerushalmi` | Jerusalem Talmud, ed. H. W. Guggenheimer | CC BY | our own |
-| `arc-zohar` | Zohar, Sulam edition 1945 (text only) | not stated; the Zohar itself is public domain | our own |
+| `onkelos` | Onkelos, Torat Emet | Public domain | the Hebrew verse ("Tanach with Nikkud", public domain) |
+| `mikra` | Daniel 2:4–7:28, Ezra 4:8–6:18, 7:12–26 ("Tanach with Nikkud") | Public domain | Rabbi Dan Be'eri, Biblical Aramaic into Hebrew (CC BY-SA) |
+| `yerushalmi` | Jerusalem Talmud, ed. H. W. Guggenheimer | CC BY | our own |
+| `zohar` | Zohar, Sulam edition 1945 (text only) | not stated; the Zohar itself is public domain | our own |
 
 ## Status
 - **Onkelos** (2026-11-08): 11 units, about 140 words. Story: "שניים מקרא ואחד תרגום" every Friday with R' Yisrael.

@@ -122,10 +122,21 @@ export function validateQuotes(course: Course, units: Unit[]): string[] {
 
 /** A course with stages names every level its units use. */
 export function validateStages(course: Course, units: Unit[]): string[] {
-  if (!course.stages) return [];
+  const problems: string[] = [];
+  const sections = new Set((course.sections ?? []).map((s) => s.id));
+  for (const u of units) if (u.section && !sections.has(u.section)) problems.push(`unit "${u.id}" is in unknown section "${u.section}"`);
+  // Sections keep together: once a section starts, the main path does not continue after it.
+  let seen = false;
+  for (const id of course.units) {
+    const u = units.find((x) => x.id === id);
+    if (!u) continue;
+    if (u.section) seen = true;
+    else if (seen) problems.push(`main-path unit "${u.id}" comes after a section; put sections at the end`);
+  }
+  if (!course.stages) return problems;
   const named = new Set(course.stages.map((s) => s.level));
-  const used = new Set(units.map((u) => u.cefr));
-  return [...used].filter((l) => !named.has(l)).map((l) => `level ${l} is used by a unit but has no stage name`);
+  const used = new Set(units.filter((u) => !u.section).map((u) => u.cefr));
+  return [...problems, ...[...used].filter((l) => !named.has(l)).map((l) => `level ${l} is used by a unit but has no stage name`)];
 }
 
 const SPEECH_TYPES = new Set(["dictation", "listening_choice", "speak_repeat"]);
