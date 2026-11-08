@@ -1,0 +1,798 @@
+id: u25-reyze
+cefr: B1
+scene: travel
+title:
+  he: הנסיעה לרבי
+  en: The trip to the Rebbe
+story: מנחם אורז תיק וטס עם סבא לניו יורק, לרבי.
+canDo:
+- לדבר על הכנות לנסיעה
+- לומר שאני אורז ויש לי כרטיס
+- לספר שאנחנו טסים וחוזרים
+vocabulary:
+- id: tash
+  text: טאַש
+  translation: תיק
+  pos: noun
+- id: pakn
+  text: פּאַקן
+  translation: לארוז
+  pos: verb
+- id: tikit
+  text: טיקעט
+  translation: כרטיס
+  pos: noun
+- id: tsurik
+  text: צוריק
+  translation: חזרה
+  pos: adverb
+- id: reyze
+  text: רייזע
+  translation: נסיעה
+  pos: noun
+- id: flien
+  text: פֿליִען
+  translation: לטוס
+  pos: verb
+lessons:
+- id: u25-l1
+  kind: new
+  title:
+    he: לפני הנסיעה
+    en: Lesson
+  exercises:
+  - id: u25-l1-01
+    type: tip
+    title: לנסוע
+    text: '**איך פּאַק אַ טאַש** – אני אורז תיק. **איך האָב אַ טיקעט** – יש לי כרטיס.
+
+      **מיר פֿליִען קיין ניו־יאָרק** – אנחנו טסים לניו יורק.
+
+      '
+  - id: u25-l1-02
+    type: learn
+    lexeme: tash
+  - id: u25-l1-03
+    type: learn
+    lexeme: pakn
+  - id: u25-l1-04
+    type: learn
+    lexeme: tikit
+  - id: u25-l1-05
+    type: learn
+    lexeme: reyze
+  - id: u25-l1-06
+    type: learn
+    lexeme: flien
+  - id: u25-l1-07
+    type: match_pairs
+    pairs:
+    - - טאַש
+      - תיק
+    - - פּאַקן
+      - לארוז
+    - - טיקעט
+      - כרטיס
+    - - רייזע
+      - נסיעה
+    - - פֿליִען
+      - לטוס
+    lexemes:
+    - tash
+    - pakn
+    - tikit
+    - reyze
+    - flien
+  - id: u25-l1-08
+    type: multiple_choice
+    prompt: מה פירוש טאַש?
+    options:
+    - תיק
+    - כרטיס
+    - נסיעה
+    correct: 0
+    lexemes:
+    - tash
+  - id: u25-l1-09
+    type: multiple_choice
+    prompt: מה פירוש פּאַקן?
+    options:
+    - לארוז
+    - לטוס
+    correct: 0
+    lexemes:
+    - pakn
+  - id: u25-l1-10
+    type: multiple_choice
+    prompt: מה פירוש טיקעט?
+    options:
+    - כרטיס
+    - תיק
+    - נסיעה
+    correct: 0
+    lexemes:
+    - tikit
+  - id: u25-l1-11
+    type: multiple_choice
+    prompt: מה פירוש רייזע?
+    options:
+    - נסיעה
+    - תיק
+    - כרטיס
+    correct: 0
+    lexemes:
+    - reyze
+  - id: u25-l1-12
+    type: multiple_choice
+    prompt: מה פירוש פֿליִען?
+    options:
+    - לטוס
+    - לארוז
+    correct: 0
+    lexemes:
+    - flien
+  - id: u25-l1-13
+    type: translate
+    direction: to_source
+    prompt: איך פּאַק אַ טאַש.
+    answers:
+    - אני אורז תיק
+    lexemes: &id001
+    - pakn
+    - tash
+  - id: u25-l1-14
+    type: translate
+    direction: to_target
+    prompt: אני אורז תיק
+    answers:
+    - איך פּאַק אַ טאַש
+    lexemes: *id001
+  - id: u25-l1-15
+    type: word_bank
+    prompt: אני אורז תיק
+    answers:
+    - איך פּאַק אַ טאַש
+    distractors:
+    - פּאַקן
+    - פֿליִען
+    lexemes: *id001
+  - id: u25-l1-16
+    type: fill_blank
+    sentence: איך ___ אַ טאַש.
+    translation: אני אורז תיק
+    answers:
+    - פּאַק
+    options:
+    - פּאַק
+    - טיקעט
+    - טאַש
+    lexemes: *id001
+  - id: u25-l1-17
+    type: translate
+    direction: to_source
+    prompt: איך האָב אַ טיקעט.
+    answers:
+    - יש לי כרטיס
+    lexemes: &id002
+    - hobn
+    - tikit
+  - id: u25-l1-18
+    type: translate
+    direction: to_target
+    prompt: יש לי כרטיס
+    answers:
+    - איך האָב אַ טיקעט
+    lexemes: *id002
+  - id: u25-l1-19
+    type: word_bank
+    prompt: יש לי כרטיס
+    answers:
+    - איך האָב אַ טיקעט
+    distractors:
+    - טאַש
+    - רייזע
+    lexemes: *id002
+  - id: u25-l1-20
+    type: translate
+    direction: to_source
+    prompt: מיר פֿליִען קיין ניו־יאָרק.
+    answers:
+    - אנחנו טסים לניו יורק
+    lexemes: &id003
+    - mir
+    - flien
+    - kayn
+    - nyuyork
+  - id: u25-l1-21
+    type: translate
+    direction: to_target
+    prompt: אנחנו טסים לניו יורק
+    answers:
+    - מיר פֿליִען קיין ניו־יאָרק
+    lexemes: *id003
+  - id: u25-l1-22
+    type: word_bank
+    prompt: אנחנו טסים לניו יורק
+    answers:
+    - מיר פֿליִען קיין ניו־יאָרק
+    distractors:
+    - טיקעט
+    - רייזע
+    lexemes: *id003
+  - id: u25-l1-23
+    type: fill_blank
+    sentence: מיר ___ קיין ניו־יאָרק.
+    translation: אנחנו טסים לניו יורק
+    answers:
+    - פֿליִען
+    options:
+    - פֿליִען
+    - פּאַקן
+    - רייזע
+    lexemes: *id003
+- id: u25-l2
+  kind: new
+  title:
+    he: לטוס וליחזור
+    en: Lesson
+  exercises:
+  - id: u25-l2-01
+    type: learn
+    lexeme: flien
+  - id: u25-l2-02
+    type: learn
+    lexeme: tsurik
+  - id: u25-l2-03
+    type: dialogue
+    scene: travel
+    lines:
+    - speaker: zeyde
+      text: האָסטו שוין אַ טיקעט?
+      translation: יש לך כבר כרטיס?
+    - speaker: menachem
+      text: יאָ, איך האָב אַ טיקעט.
+      translation: כן, יש לי כרטיס.
+  - id: u25-l2-04
+    type: multiple_choice
+    prompt: מה פירוש פֿליִען?
+    options:
+    - לטוס
+    - לארוז
+    correct: 0
+    lexemes:
+    - flien
+  - id: u25-l2-05
+    type: multiple_choice
+    prompt: מה פירוש צוריק?
+    options:
+    - חזרה
+    - תיק
+    - לארוז
+    correct: 0
+    lexemes:
+    - tsurik
+  - id: u25-l2-06
+    type: translate
+    direction: to_source
+    prompt: איך פֿרײַ זיך צו דער רייזע.
+    answers:
+    - אני שמח לנסיעה
+    lexemes: &id004
+    - freyen
+    - zikh
+    - reyze
+  - id: u25-l2-07
+    type: translate
+    direction: to_target
+    prompt: אני שמח לנסיעה
+    answers:
+    - איך פֿרײַ זיך צו דער רייזע
+    lexemes: *id004
+  - id: u25-l2-08
+    type: word_bank
+    prompt: אני שמח לנסיעה
+    answers:
+    - איך פֿרײַ זיך צו דער רייזע
+    distractors:
+    - רייזע
+    - צוריק
+    lexemes: *id004
+  - id: u25-l2-09
+    type: translate
+    direction: to_source
+    prompt: מיר קומען צוריק.
+    answers:
+    - אנחנו חוזרים
+    lexemes: &id005
+    - mir
+    - kumen
+    - tsurik
+  - id: u25-l2-10
+    type: translate
+    direction: to_target
+    prompt: אנחנו חוזרים
+    answers:
+    - מיר קומען צוריק
+    lexemes: *id005
+  - id: u25-l2-11
+    type: word_bank
+    prompt: אנחנו חוזרים
+    answers:
+    - מיר קומען צוריק
+    distractors:
+    - צוריק
+    - פּאַקן
+    lexemes: *id005
+- id: u25-review
+  kind: review
+  title:
+    he: 'חזרה: הנסיעה לרבי'
+    en: Review
+  exercises:
+  - id: u25-review-01
+    type: match_pairs
+    pairs:
+    - - טאַש
+      - תיק
+    - - פּאַקן
+      - לארוז
+    - - טיקעט
+      - כרטיס
+    - - רייזע
+      - נסיעה
+    - - פֿליִען
+      - לטוס
+    - - צוריק
+      - חזרה
+    lexemes:
+    - tash
+    - pakn
+    - tikit
+    - reyze
+    - flien
+    - tsurik
+  - id: u25-review-02
+    type: translate
+    direction: to_source
+    prompt: איך פּאַק אַ טאַש.
+    answers:
+    - אני אורז תיק
+    lexemes: *id001
+  - id: u25-review-03
+    type: translate
+    direction: to_target
+    prompt: אני אורז תיק
+    answers:
+    - איך פּאַק אַ טאַש
+    lexemes: *id001
+  - id: u25-review-04
+    type: word_bank
+    prompt: אני אורז תיק
+    answers:
+    - איך פּאַק אַ טאַש
+    distractors:
+    - פּאַקן
+    - פֿליִען
+    lexemes: *id001
+  - id: u25-review-05
+    type: translate
+    direction: to_source
+    prompt: איך האָב אַ טיקעט.
+    answers:
+    - יש לי כרטיס
+    lexemes: *id002
+  - id: u25-review-06
+    type: translate
+    direction: to_target
+    prompt: יש לי כרטיס
+    answers:
+    - איך האָב אַ טיקעט
+    lexemes: *id002
+  - id: u25-review-07
+    type: word_bank
+    prompt: יש לי כרטיס
+    answers:
+    - איך האָב אַ טיקעט
+    distractors:
+    - טאַש
+    - רייזע
+    lexemes: *id002
+  - id: u25-review-08
+    type: translate
+    direction: to_source
+    prompt: מיר פֿליִען קיין ניו־יאָרק.
+    answers:
+    - אנחנו טסים לניו יורק
+    lexemes: *id003
+  - id: u25-review-09
+    type: translate
+    direction: to_target
+    prompt: אנחנו טסים לניו יורק
+    answers:
+    - מיר פֿליִען קיין ניו־יאָרק
+    lexemes: *id003
+  - id: u25-review-10
+    type: word_bank
+    prompt: אנחנו טסים לניו יורק
+    answers:
+    - מיר פֿליִען קיין ניו־יאָרק
+    distractors:
+    - טיקעט
+    - רייזע
+    lexemes: *id003
+  - id: u25-review-11
+    type: write
+    prompt: כתבו 3 משפטים על נסיעה שאתם מתכננים.
+    minWords: 10
+    checks:
+    - label: הזכרתם נסיעה
+      any:
+      - פליען
+      - פארן
+      - ר(?:ײ|יי)זע
+      - טיקעט
+      - פאקן
+      - ק(?:ײ|יי)ן
+    - label: כתבתם איך או מיר
+      any:
+      - איך
+      - מיר
+    - label: הזכרתם מקום
+      any:
+      - ניו
+      - שטאט
+      - הויז
+      - שול
+    model: מיר פֿליִען קיין ניו־יאָרק. איך פּאַק אַ טאַש. איך האָב אַ טיקעט.
+    lexemes: []
+- id: b1-test
+  kind: test
+  title:
+    he: מבחן רמה B1
+    en: B1 level test
+  exercises:
+  - id: b1-test-01
+    type: translate
+    direction: to_source
+    prompt: מײַן הויז איז גרעסער.
+    answers:
+    - הבית שלי גדול יותר
+    lexemes: &id012
+    - hoyz
+    - groys
+    - greser
+  - id: b1-test-02
+    type: translate
+    direction: to_source
+    prompt: דער טיש איז קלענער.
+    answers:
+    - השולחן קטן יותר
+    lexemes: &id013
+    - tish
+    - kleyner
+  - id: b1-test-03
+    type: translate
+    direction: to_source
+    prompt: איך וואַש זיך.
+    answers:
+    - אני רוחץ את עצמי
+    - אני רוחץ
+    lexemes:
+    - ikh
+    - vashn
+    - zikh
+  - id: b1-test-04
+    type: translate
+    direction: to_source
+    prompt: ער וואַשט זיך אין דער פֿרי.
+    answers:
+    - הוא רוחץ בבוקר
+    lexemes: &id006
+    - er
+    - vashn
+    - zikh
+    - fri
+  - id: b1-test-05
+    type: fill_blank
+    sentence: ער וואַשט ___ אין דער פֿרי.
+    translation: הוא רוחץ בבוקר
+    answers:
+    - זיך
+    options:
+    - זיך
+    - ווײַל
+    - האָב
+    lexemes: *id006
+  - id: b1-test-06
+    type: translate
+    direction: to_source
+    prompt: מיר פֿרײַען זיך.
+    answers:
+    - אנחנו שמחים
+    lexemes:
+    - mir
+    - freyen
+    - zikh
+  - id: b1-test-07
+    type: translate
+    direction: to_source
+    prompt: איך ווייס אַז ער איז דאָ.
+    answers:
+    - אני יודע שהוא כאן
+    lexemes: &id007
+    - vayst
+    - az
+    - er
+    - iz
+    - do
+  - id: b1-test-08
+    type: fill_blank
+    sentence: איך ווייס ___ ער איז דאָ.
+    translation: אני יודע שהוא כאן
+    answers:
+    - אַז
+    options:
+    - אַז
+    - שענער
+    - תניא
+    lexemes: *id007
+  - id: b1-test-09
+    type: translate
+    direction: to_source
+    prompt: איך בין מיד, ווײַל איך האָב נישט געשלאָפֿן.
+    answers:
+    - אני עייף כי לא ישנתי
+    lexemes: &id008
+    - ikh
+    - bin
+    - mid
+    - vayl
+    - hobn
+    - geshlofn
+  - id: b1-test-10
+    type: fill_blank
+    sentence: איך בין מיד, ___ איך האָב נישט געשלאָפֿן.
+    translation: אני עייף כי לא ישנתי
+    answers:
+    - ווײַל
+    options:
+    - ווײַל
+    - טיקעט
+    - שטאָט
+    lexemes: *id008
+  - id: b1-test-11
+    type: translate
+    direction: to_source
+    prompt: אויב איך האָב געלט, קויף איך ברויט.
+    answers:
+    - אם יש לי כסף, אני קונה לחם
+    lexemes: &id009
+    - oyb
+    - hobn
+    - gelt
+    - koyfn
+  - id: b1-test-12
+    type: fill_blank
+    sentence: ___ איך האָב געלט, קויף איך ברויט.
+    translation: אם יש לי כסף, אני קונה לחם
+    answers:
+    - אויב
+    options:
+    - אויב
+    - ניגון
+    - חסיד
+    lexemes: *id009
+  - id: b1-test-13
+    type: translate
+    direction: to_source
+    prompt: מײַן זיידע איז אַ חסיד.
+    answers:
+    - סבא שלי הוא חסיד
+    lexemes: &id014
+    - w-mayn
+    - zeyde
+    - iz
+    - khosid
+  - id: b1-test-14
+    type: translate
+    direction: to_source
+    prompt: מיר זינגען אַ ניגון.
+    answers:
+    - אנחנו שרים ניגון
+    lexemes: &id010
+    - mir
+    - zingen
+    - nigun
+  - id: b1-test-15
+    type: fill_blank
+    sentence: מיר ___ אַ ניגון.
+    translation: אנחנו שרים ניגון
+    answers:
+    - זינגען
+    options:
+    - זינגען
+    - אַלט
+    - שטאָט
+    lexemes: *id010
+  - id: b1-test-16
+    type: translate
+    direction: to_source
+    prompt: איך גיי אויף אַ פֿאַרברענגען.
+    answers:
+    - אני הולך להתוועדות
+    lexemes:
+    - ikh
+    - geyn
+    - farbr
+  - id: b1-test-17
+    type: translate
+    direction: to_source
+    prompt: איך לערן תניא.
+    answers:
+    - אני לומד תניא
+    lexemes: &id015
+    - lernen
+    - tanye
+  - id: b1-test-18
+    type: translate
+    direction: to_source
+    prompt: איך לייען אַ ספֿר.
+    answers:
+    - אני קורא ספר
+    lexemes: &id011
+    - leyenen
+    - sefer
+  - id: b1-test-19
+    type: fill_blank
+    sentence: איך ___ אַ ספֿר.
+    translation: אני קורא ספר
+    answers:
+    - לייען
+    options:
+    - לייען
+    - פֿרײַ
+    - בעסער
+    lexemes: *id011
+  - id: b1-test-20
+    type: translate
+    direction: to_source
+    prompt: איך פּאַק אַ טאַש.
+    answers:
+    - אני אורז תיק
+    lexemes: *id001
+  - id: b1-test-21
+    type: fill_blank
+    sentence: איך ___ אַ טאַש.
+    translation: אני אורז תיק
+    answers:
+    - פּאַק
+    options:
+    - פּאַק
+    - ווײַל
+    - טאַש
+    lexemes: *id001
+  - id: b1-test-22
+    type: translate
+    direction: to_source
+    prompt: איך האָב אַ טיקעט.
+    answers:
+    - יש לי כרטיס
+    lexemes: *id002
+  - id: b1-test-23
+    type: translate
+    direction: to_target
+    prompt: הבית שלי גדול יותר
+    answers:
+    - מײַן הויז איז גרעסער
+    lexemes: *id012
+  - id: b1-test-24
+    type: translate
+    direction: to_target
+    prompt: הוא רוחץ בבוקר
+    answers:
+    - ער וואַשט זיך אין דער פֿרי
+    lexemes: *id006
+  - id: b1-test-25
+    type: translate
+    direction: to_target
+    prompt: אני עייף כי לא ישנתי
+    answers:
+    - איך בין מיד, ווײַל איך האָב נישט געשלאָפֿן
+    lexemes: *id008
+  - id: b1-test-26
+    type: translate
+    direction: to_target
+    prompt: אנחנו שרים ניגון
+    answers:
+    - מיר זינגען אַ ניגון
+    lexemes: *id010
+  - id: b1-test-27
+    type: translate
+    direction: to_target
+    prompt: אני קורא ספר
+    answers:
+    - איך לייען אַ ספֿר
+    lexemes: *id011
+  - id: b1-test-28
+    type: translate
+    direction: to_target
+    prompt: יש לי כרטיס
+    answers:
+    - איך האָב אַ טיקעט
+    lexemes: *id002
+  - id: b1-test-29
+    type: word_bank
+    prompt: השולחן קטן יותר
+    answers:
+    - דער טיש איז קלענער
+    distractors:
+    - ווײַל
+    - קלענער
+    lexemes: *id013
+  - id: b1-test-30
+    type: word_bank
+    prompt: אני יודע שהוא כאן
+    answers:
+    - איך ווייס אַז ער איז דאָ
+    distractors:
+    - שענער
+    - תניא
+    lexemes: *id007
+  - id: b1-test-31
+    type: word_bank
+    prompt: סבא שלי הוא חסיד
+    answers:
+    - מײַן זיידע איז אַ חסיד
+    distractors:
+    - טיקעט
+    - ער
+    lexemes: *id014
+  - id: b1-test-32
+    type: word_bank
+    prompt: אני לומד תניא
+    answers:
+    - איך לערן תניא
+    distractors:
+    - שענער
+    - ספֿר
+    lexemes: *id015
+  - id: b1-test-33
+    type: multiple_choice
+    prompt: מה פירוש 'גרעסער'?
+    options:
+    - גדול יותר
+    - קטן יותר
+    - יפה יותר
+    correct: 0
+    lexemes:
+    - greser
+  - id: b1-test-34
+    type: multiple_choice
+    prompt: מה פירוש 'ווײַל'?
+    options:
+    - כי
+    - אם
+    - ש־
+    correct: 0
+    lexemes:
+    - vayl
+  - id: b1-test-35
+    type: multiple_choice
+    prompt: מה פירוש 'אויב'?
+    options:
+    - אם
+    - כי
+    - ש־
+    correct: 0
+    lexemes:
+    - oyb
+  - id: b1-test-36
+    type: multiple_choice
+    prompt: מה פירוש 'צוריק'?
+    options:
+    - חזרה
+    - קדימה
+    - לשם
+    correct: 0
+    lexemes:
+    - tsurik

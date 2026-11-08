@@ -1,0 +1,590 @@
+id: u23-khasidus
+cefr: B1
+scene: town
+title:
+  he: חיי חסידות
+  en: Chassidic life
+story: 'מנחם הולך עם סבא להתוועדות בבית הכנסת: שרים ניגון ופוגשים את השליח.'
+canDo:
+- לומר מילים בסיסיות מחיי חסידות
+- לתאר התוועדות
+- לדבר על מצוה וצדקה
+vocabulary:
+- id: khosid
+  text: חסיד
+  translation: איש חסידות
+  pos: noun
+- id: nigun
+  text: ניגון
+  translation: מנגינה חסידית
+  pos: noun
+- id: farbr
+  text: פֿאַרברענגען
+  translation: התוועדות (פֿאַרברענגען)
+  pos: noun
+- id: shliakh
+  text: שליח
+  translation: שליח הרבי
+  pos: noun
+- id: mitsve
+  text: מצוה
+  translation: מצווה
+  pos: noun
+- id: tsdoke
+  text: צדקה
+  translation: נתינה לנזקקים
+  pos: noun
+- id: zingen
+  text: זינגען
+  translation: לשיר
+  pos: verb
+- id: shiur
+  text: שיעור
+  translation: שיעור תורה
+  pos: noun
+lessons:
+- id: u23-l1
+  kind: new
+  title:
+    he: חסידים
+    en: Lesson
+  exercises:
+  - id: u23-l1-01
+    type: tip
+    title: מילים מחיי חסידות
+    text: '**חסיד**, **ניגון**, **פֿאַרברענגען** (התוועדות), **שליח**.
+
+      **איך גיי אויף אַ פֿאַרברענגען** פירושו "אני הולך להתוועדות".
+
+      '
+  - id: u23-l1-02
+    type: learn
+    lexeme: khosid
+  - id: u23-l1-03
+    type: learn
+    lexeme: nigun
+  - id: u23-l1-04
+    type: learn
+    lexeme: farbr
+  - id: u23-l1-05
+    type: learn
+    lexeme: shliakh
+  - id: u23-l1-06
+    type: learn
+    lexeme: zingen
+  - id: u23-l1-07
+    type: match_pairs
+    pairs:
+    - - חסיד
+      - איש חסידות
+    - - ניגון
+      - מנגינה חסידית
+    - - פֿאַרברענגען
+      - התוועדות (פֿאַרברענגען)
+    - - שליח
+      - שליח הרבי
+    - - זינגען
+      - לשיר
+    lexemes:
+    - khosid
+    - nigun
+    - farbr
+    - shliakh
+    - zingen
+  - id: u23-l1-08
+    type: multiple_choice
+    prompt: מה פירוש חסיד?
+    options:
+    - איש חסידות
+    - מנגינה חסידית
+    - התוועדות (פֿאַרברענגען)
+    correct: 0
+    lexemes:
+    - khosid
+  - id: u23-l1-09
+    type: multiple_choice
+    prompt: מה פירוש ניגון?
+    options:
+    - מנגינה חסידית
+    - איש חסידות
+    - התוועדות (פֿאַרברענגען)
+    correct: 0
+    lexemes:
+    - nigun
+  - id: u23-l1-10
+    type: multiple_choice
+    prompt: מה פירוש פֿאַרברענגען?
+    options:
+    - התוועדות (פֿאַרברענגען)
+    - איש חסידות
+    - מנגינה חסידית
+    correct: 0
+    lexemes:
+    - farbr
+  - id: u23-l1-11
+    type: multiple_choice
+    prompt: מה פירוש שליח?
+    options:
+    - שליח הרבי
+    - איש חסידות
+    - מנגינה חסידית
+    correct: 0
+    lexemes:
+    - shliakh
+  - id: u23-l1-12
+    type: multiple_choice
+    prompt: מה פירוש זינגען?
+    options:
+    - לשיר
+    - איש חסידות
+    - מנגינה חסידית
+    correct: 0
+    lexemes:
+    - zingen
+  - id: u23-l1-13
+    type: translate
+    direction: to_source
+    prompt: מײַן זיידע איז אַ חסיד.
+    answers:
+    - סבא שלי הוא חסיד
+    lexemes: &id001
+    - w-mayn
+    - zeyde
+    - iz
+    - khosid
+  - id: u23-l1-14
+    type: translate
+    direction: to_target
+    prompt: סבא שלי הוא חסיד
+    answers:
+    - מײַן זיידע איז אַ חסיד
+    lexemes: *id001
+  - id: u23-l1-15
+    type: word_bank
+    prompt: סבא שלי הוא חסיד
+    answers:
+    - מײַן זיידע איז אַ חסיד
+    distractors:
+    - ניגון
+    - צדקה
+    lexemes: *id001
+  - id: u23-l1-16
+    type: translate
+    direction: to_source
+    prompt: מיר זינגען אַ ניגון.
+    answers:
+    - אנחנו שרים ניגון
+    lexemes: &id002
+    - mir
+    - zingen
+    - nigun
+  - id: u23-l1-17
+    type: translate
+    direction: to_target
+    prompt: אנחנו שרים ניגון
+    answers:
+    - מיר זינגען אַ ניגון
+    lexemes: *id002
+  - id: u23-l1-18
+    type: word_bank
+    prompt: אנחנו שרים ניגון
+    answers:
+    - מיר זינגען אַ ניגון
+    distractors:
+    - שיעור
+    - צדקה
+    lexemes: *id002
+  - id: u23-l1-19
+    type: fill_blank
+    sentence: מיר ___ אַ ניגון.
+    translation: אנחנו שרים ניגון
+    answers:
+    - זינגען
+    options:
+    - זינגען
+    - פֿאַרברענגען
+    - שיעור
+    lexemes: *id002
+  - id: u23-l1-20
+    type: translate
+    direction: to_source
+    prompt: איך גיי אויף אַ פֿאַרברענגען.
+    answers:
+    - אני הולך להתוועדות
+    lexemes: &id003
+    - ikh
+    - geyn
+    - farbr
+  - id: u23-l1-21
+    type: translate
+    direction: to_target
+    prompt: אני הולך להתוועדות
+    answers:
+    - איך גיי אויף אַ פֿאַרברענגען
+    lexemes: *id003
+  - id: u23-l1-22
+    type: word_bank
+    prompt: אני הולך להתוועדות
+    answers:
+    - איך גיי אויף אַ פֿאַרברענגען
+    distractors:
+    - מצוה
+    - פֿאַרברענגען
+    lexemes: *id003
+  - id: u23-l1-23
+    type: translate
+    direction: to_source
+    prompt: דער שליח איז אין שטאָט.
+    answers:
+    - השליח בעיר
+    lexemes: &id004
+    - shliakh
+    - iz
+    - in
+    - shtot
+  - id: u23-l1-24
+    type: translate
+    direction: to_target
+    prompt: השליח בעיר
+    answers:
+    - דער שליח איז אין שטאָט
+    lexemes: *id004
+  - id: u23-l1-25
+    type: word_bank
+    prompt: השליח בעיר
+    answers:
+    - דער שליח איז אין שטאָט
+    distractors:
+    - פֿאַרברענגען
+    - מצוה
+    lexemes: *id004
+  - id: u23-l1-26
+    type: fill_blank
+    sentence: דער ___ איז אין שטאָט.
+    translation: השליח בעיר
+    answers:
+    - שליח
+    options:
+    - שליח
+    - ניגון
+    - שיעור
+    lexemes: *id004
+- id: u23-l2
+  kind: new
+  title:
+    he: מצוות
+    en: Lesson
+  exercises:
+  - id: u23-l2-01
+    type: learn
+    lexeme: mitsve
+  - id: u23-l2-02
+    type: learn
+    lexeme: tsdoke
+  - id: u23-l2-03
+    type: learn
+    lexeme: zingen
+  - id: u23-l2-04
+    type: learn
+    lexeme: shiur
+  - id: u23-l2-05
+    type: dialogue
+    scene: town
+    lines:
+    - speaker: zeyde
+      text: קום מיט מיר אויף אַ פֿאַרברענגען.
+      translation: בוא איתי להתוועדות.
+    - speaker: menachem
+      text: יאָ, זיידע! מיר וועלן זינגען אַ ניגון.
+      translation: כן, סבא! נשיר ניגון.
+  - id: u23-l2-06
+    type: match_pairs
+    pairs:
+    - - מצוה
+      - מצווה
+    - - צדקה
+      - נתינה לנזקקים
+    - - זינגען
+      - לשיר
+    - - שיעור
+      - שיעור תורה
+    lexemes:
+    - mitsve
+    - tsdoke
+    - zingen
+    - shiur
+  - id: u23-l2-07
+    type: multiple_choice
+    prompt: מה פירוש מצוה?
+    options:
+    - מצווה
+    - איש חסידות
+    - מנגינה חסידית
+    correct: 0
+    lexemes:
+    - mitsve
+  - id: u23-l2-08
+    type: multiple_choice
+    prompt: מה פירוש צדקה?
+    options:
+    - נתינה לנזקקים
+    - איש חסידות
+    - מנגינה חסידית
+    correct: 0
+    lexemes:
+    - tsdoke
+  - id: u23-l2-09
+    type: multiple_choice
+    prompt: מה פירוש זינגען?
+    options:
+    - לשיר
+    - איש חסידות
+    - מנגינה חסידית
+    correct: 0
+    lexemes:
+    - zingen
+  - id: u23-l2-10
+    type: multiple_choice
+    prompt: מה פירוש שיעור?
+    options:
+    - שיעור תורה
+    - איש חסידות
+    - מנגינה חסידית
+    correct: 0
+    lexemes:
+    - shiur
+  - id: u23-l2-11
+    type: translate
+    direction: to_source
+    prompt: איך גיב צדקה.
+    answers:
+    - אני נותן צדקה
+    lexemes: &id005
+    - gebn
+    - tsdoke
+  - id: u23-l2-12
+    type: translate
+    direction: to_target
+    prompt: אני נותן צדקה
+    answers:
+    - איך גיב צדקה
+    lexemes: *id005
+  - id: u23-l2-13
+    type: word_bank
+    prompt: אני נותן צדקה
+    answers:
+    - איך גיב צדקה
+    distractors:
+    - ניגון
+    - שליח
+    lexemes: *id005
+  - id: u23-l2-14
+    type: translate
+    direction: to_source
+    prompt: דאָס איז אַ מצוה.
+    answers:
+    - זו מצווה
+    lexemes: &id006
+    - w-dos
+    - iz
+    - mitsve
+  - id: u23-l2-15
+    type: translate
+    direction: to_target
+    prompt: זו מצווה
+    answers:
+    - דאָס איז אַ מצוה
+    lexemes: *id006
+  - id: u23-l2-16
+    type: word_bank
+    prompt: זו מצווה
+    answers:
+    - דאָס איז אַ מצוה
+    distractors:
+    - צדקה
+    - מצוה
+    lexemes: *id006
+  - id: u23-l2-17
+    type: translate
+    direction: to_source
+    prompt: דער שיעור איז אין שול.
+    answers:
+    - השיעור בבית הכנסת
+    lexemes: &id007
+    - shiur
+    - iz
+    - shul
+  - id: u23-l2-18
+    type: translate
+    direction: to_target
+    prompt: השיעור בבית הכנסת
+    answers:
+    - דער שיעור איז אין שול
+    lexemes: *id007
+  - id: u23-l2-19
+    type: word_bank
+    prompt: השיעור בבית הכנסת
+    answers:
+    - דער שיעור איז אין שול
+    distractors:
+    - חסיד
+    - פֿאַרברענגען
+    lexemes: *id007
+  - id: u23-l2-20
+    type: fill_blank
+    sentence: דער ___ איז אין שול.
+    translation: השיעור בבית הכנסת
+    answers:
+    - שיעור
+    options:
+    - שיעור
+    - צדקה
+    - זינגען
+    lexemes: *id007
+- id: u23-review
+  kind: review
+  title:
+    he: 'חזרה: חיי חסידות'
+    en: Review
+  exercises:
+  - id: u23-review-01
+    type: match_pairs
+    pairs:
+    - - חסיד
+      - איש חסידות
+    - - ניגון
+      - מנגינה חסידית
+    - - פֿאַרברענגען
+      - התוועדות (פֿאַרברענגען)
+    - - שליח
+      - שליח הרבי
+    - - מצוה
+      - מצווה
+    - - צדקה
+      - נתינה לנזקקים
+    lexemes:
+    - khosid
+    - nigun
+    - farbr
+    - shliakh
+    - mitsve
+    - tsdoke
+  - id: u23-review-02
+    type: translate
+    direction: to_source
+    prompt: מײַן זיידע איז אַ חסיד.
+    answers:
+    - סבא שלי הוא חסיד
+    lexemes: *id001
+  - id: u23-review-03
+    type: translate
+    direction: to_target
+    prompt: סבא שלי הוא חסיד
+    answers:
+    - מײַן זיידע איז אַ חסיד
+    lexemes: *id001
+  - id: u23-review-04
+    type: word_bank
+    prompt: סבא שלי הוא חסיד
+    answers:
+    - מײַן זיידע איז אַ חסיד
+    distractors:
+    - ניגון
+    - צדקה
+    lexemes: *id001
+  - id: u23-review-05
+    type: translate
+    direction: to_source
+    prompt: מיר זינגען אַ ניגון.
+    answers:
+    - אנחנו שרים ניגון
+    lexemes: *id002
+  - id: u23-review-06
+    type: translate
+    direction: to_target
+    prompt: אנחנו שרים ניגון
+    answers:
+    - מיר זינגען אַ ניגון
+    lexemes: *id002
+  - id: u23-review-07
+    type: word_bank
+    prompt: אנחנו שרים ניגון
+    answers:
+    - מיר זינגען אַ ניגון
+    distractors:
+    - שיעור
+    - צדקה
+    lexemes: *id002
+  - id: u23-review-08
+    type: translate
+    direction: to_source
+    prompt: איך גיי אויף אַ פֿאַרברענגען.
+    answers:
+    - אני הולך להתוועדות
+    lexemes: *id003
+  - id: u23-review-09
+    type: translate
+    direction: to_target
+    prompt: אני הולך להתוועדות
+    answers:
+    - איך גיי אויף אַ פֿאַרברענגען
+    lexemes: *id003
+  - id: u23-review-10
+    type: word_bank
+    prompt: אני הולך להתוועדות
+    answers:
+    - איך גיי אויף אַ פֿאַרברענגען
+    distractors:
+    - מצוה
+    - פֿאַרברענגען
+    lexemes: *id003
+  - id: u23-review-11
+    type: translate
+    direction: to_source
+    prompt: דער שליח איז אין שטאָט.
+    answers:
+    - השליח בעיר
+    lexemes: *id004
+  - id: u23-review-12
+    type: translate
+    direction: to_target
+    prompt: השליח בעיר
+    answers:
+    - דער שליח איז אין שטאָט
+    lexemes: *id004
+  - id: u23-review-13
+    type: word_bank
+    prompt: השליח בעיר
+    answers:
+    - דער שליח איז אין שטאָט
+    distractors:
+    - פֿאַרברענגען
+    - מצוה
+    lexemes: *id004
+  - id: u23-review-14
+    type: write
+    prompt: כתבו 3 משפטים על התוועדות או על בית הכנסת. השתמשו במילה מחיי חסידות.
+    minWords: 10
+    checks:
+    - label: הזכרתם מילה מחיי חסידות
+      any:
+      - חסיד
+      - ניגון
+      - פארברענגען
+      - שליח
+      - שיעור
+      - צדקה
+    - label: השתמשתם בפועל
+      any:
+      - איז
+      - ג(?:ײ|יי)
+      - זינגען
+      - מיר
+      - איך
+    - label: הזכרתם מקום
+      any:
+      - שול
+      - שטאט
+      - הויז
+    model: מיר גייען אין שול. מיר זינגען אַ ניגון. דער שליח איז אין שטאָט.
+    lexemes: []
