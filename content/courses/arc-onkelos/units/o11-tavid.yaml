@@ -1,0 +1,675 @@
+id: o11-tavid
+cefr: A2
+scene: study
+title:
+  he: תעבד ותיכלון
+  en: You shall do, you shall eat
+story: 'פרשת משפטים: ציוויים בעתיד. איתן לומד את צורות העתיד של אונקלוס: תעבד, תעבדון, יעבד, ייכול, ותימר, וגם טמא וטהור.'
+canDo:
+- 'להבין עתיד: תעבד (תעשה), תעבדון (תעשו), יעבד (יעשה)'
+- להבין תיכלון, ייכול, ותימר, ותסב, יהון
+- להבין מסאב (טמא), דכי (טהור), טב, תחות, תרע
+vocabulary:
+- id: taavid
+  text: תעבד
+  translation: תעשה
+  pos: verb
+  example:
+    text: מסוף שבע שנין תעבד שמטתא
+    translation: 'בתורה: מִקֵּץ שֶׁבַע־שָׁנִים תַּעֲשֶׂה שְׁמִטָּה'
+    source: תרגום אונקלוס, דברים טו, א
+    vocalized: מִסוֹף שְׁבַע שְׁנִין תַּעְבֵּד שְׁמִטְתָא
+- id: taavdun
+  text: תעבדון
+  translation: תעשו
+  pos: verb
+  example:
+    text: לא תעבדון כן קדם יי אלהכון
+    translation: 'בתורה: לֹא־תַעֲשׂוּן כֵּן לַיהוָה אֱלֹהֵיכֶם'
+    source: תרגום אונקלוס, דברים יב, ד
+    vocalized: לָא תַעְבְּדוּן כֵּן קֳדָם יְיָ אֱלָהָכוֹן
+- id: yaavid
+  text: יעבד
+  translation: יעשה
+  pos: verb
+  example:
+    text: ואם לברה יקימנה כהלכת בנת ישראל יעבד לה
+    translation: 'בתורה: וְאִם־לִבְנוֹ יִיעָדֶנָּה כְּמִשְׁפַּט הַבָּנוֹת יַעֲשֶׂה־לָּהּ'
+    source: תרגום אונקלוס, שמות כא, ט
+    vocalized: וְאִם לִבְרֵהּ יְקַיְמִנַהּ כְּהִלְכַת בְּנַת יִשְׂרָאֵל יַעְבֵּד לַהּ
+- id: teichlun
+  text: תיכלון
+  translation: תאכלו
+  pos: verb
+  example:
+    text: כל צפר דכיא תיכלון
+    translation: 'בתורה: כָּל־צִפּוֹר טְהֹרָה תֹּאכֵלוּ'
+    source: תרגום אונקלוס, דברים יד, יא
+    vocalized: כָּל צִפַּר דַכְיָא תֵּיכְלוּן
+- id: yeichul
+  text: ייכול
+  translation: יאכל
+  pos: verb
+  example:
+    text: קרבן אלהה מקדש קודשיא ומן קודשיא ייכול
+    translation: 'בתורה: לֶחֶם אֱלֹהָיו מִקָּדְשֵׁי הַקֳּדָשִׁים וּמִן־הַקֳּדָשִׁים יֹאכֵל'
+    source: תרגום אונקלוס, ויקרא כא, כב
+    vocalized: קֻרְבַּן אֱלָהֵהּ מִקֹדֶשׁ קוּדְשַׁיָא וּמִן קוּדְשַׁיָא יֵיכוּל
+- id: veteimar
+  text: ותימר
+  translation: ותאמר
+  pos: verb
+  example:
+    text: ותימר לות פרעה כדנן אמר יי ברי בוכרי ישראל
+    translation: 'בתורה: וְאָמַרְתָּ אֶל־פַּרְעֹה כֹּה אָמַר יְהוָה בְּנִי בְכֹרִי יִשְׂרָאֵל'
+    source: תרגום אונקלוס, שמות ד, כב
+    vocalized: וְתֵימַר לְוָת פַּרְעֹה כִּדְנַן אֲמַר יְיָ בְּרִי בוּכְרִי יִשְׂרָאֵל
+- id: vetisav
+  text: ותסב
+  translation: ותיקח
+  pos: verb
+  example:
+    text: אלהן לבית אבא תזיל ולזרעיתי ותסב אתתא לברי
+    translation: 'בתורה: אִם־לֹא אֶל־בֵּית־אָבִי תֵּלֵךְ וְאֶל־מִשְׁפַּחְתִּי וְלָקַחְתָּ אִשָּׁה לִבְנִי'
+    source: תרגום אונקלוס, בראשית כד, לח
+    vocalized: אֶלָהֵן לְבֵית אַבָּא תֵּזִיל וּלְזַרְעִיתִי וְתִסַּב אִתְּתָא לִבְרִי
+- id: yehon
+  text: יהון
+  translation: יהיו
+  pos: verb
+  example:
+    text: בעזקתא דארונא יהון אריחיא לא יעדון מנה
+    translation: 'בתורה: בְּטַבְּעֹת הָאָרֹן יִהְיוּ הַבַּדִּים לֹא יָסֻרוּ מִמֶּנּוּ'
+    source: תרגום אונקלוס, שמות כה, טו
+    vocalized: בְּעִזְקְתָא דַאֲרוֹנָא יְהוֹן אֲרִיחַיָא לָא יְעִדוּן מִנֵהּ
+- id: yehavit
+  text: יהבית
+  translation: נתתי
+  pos: verb
+  example:
+    text: ולמכיר יהבית ית גלעד
+    translation: 'בתורה: וּלְמָכִיר נָתַתִּי אֶת־הַגִּלְעָד'
+    source: תרגום אונקלוס, דברים ג, טו
+    vocalized: וּלְמָכִיר יְהָבִית יָת גִלְעָד
+- id: mesav
+  text: מסאב
+  translation: טמא
+  pos: adjective
+  example:
+    text: וביומא דאתחזי בה בסרא חיא יהי מסאב
+    translation: 'בתורה: וּבְיוֹם הֵרָאוֹת בּוֹ בָּשָׂר חַי יִטְמָא'
+    source: תרגום אונקלוס, ויקרא יג, יד
+    vocalized: וּבְיוֹמָא דְאִתַּחֲזִי בֵהּ בִּסְרָא חַיָא יְהֵי מְסָאָב
+- id: vidachei
+  text: וידכי
+  translation: ויטהר
+  pos: verb
+  example:
+    text: ויסק כהנא ית עלתא וית מנחתא למדבחא ויכפר עלוהי כהנא וידכי
+    translation: 'בתורה: וְהֶעֱלָה הַכֹּהֵן אֶת־הָעֹלָה וְאֶת־הַמִּנְחָה הַמִּזְבֵּחָה וְכִפֶּר עָלָיו הַכֹּהֵן וְטָהֵר'
+    source: תרגום אונקלוס, ויקרא יד, כ
+    vocalized: וְיַסֵק כַּהֲנָא יָת עֲלָתָא וְיָת מִנְחָתָא לְמַדְבְּחָא וִיכַפֵּר עֲלוֹהִי כַּהֲנָא וְיִדְכֵּי
+- id: tav-o
+  text: טב
+  translation: טוב
+  pos: adjective
+  example:
+    text: ודהבא דארעא ההיא טב תמן בדלחא ואבני בורלא
+    translation: 'בתורה: וּזֲהַב הָאָרֶץ הַהִוא טוֹב שָׁם הַבְּדֹלַח וְאֶבֶן הַשֹּׁהַם'
+    source: תרגום אונקלוס, בראשית ב, יב
+    vocalized: וְדַהֲבָא דְאַרְעָא הַהִיא טָב תַּמָן בְּדָלְחָא וְאַבְנֵי בוּרְלָא
+- id: techot
+  text: תחות
+  translation: תחת
+  pos: preposition
+  example:
+    text: יסבון כען זעיר מיא ואסחו רגליכון ואסתמיכו תחות אילנא
+    translation: 'בתורה: יֻקַּח־נָא מְעַט־מַיִם וְרַחֲצוּ רַגְלֵיכֶם וְהִשָּׁעֲנוּ תַּחַת הָעֵץ'
+    source: תרגום אונקלוס, בראשית יח, ד
+    vocalized: יִסְּבוּן כְּעַן זְעֵיר מַיָּא וְאַסְחוּ רַגְלֵיכוֹן וְאִסְתְּמִיכוּ תְּחוֹת אִילָנָא
+- id: tera
+  text: תרע
+  translation: שער
+  pos: noun
+  example:
+    text: ותתן ית מדבחא דעלתא קדם תרע משכנא משכן זמנא
+    translation: 'בתורה: וְנָתַתָּה אֵת מִזְבַּח הָעֹלָה לִפְנֵי פֶּתַח מִשְׁכַּן אֹהֶל־מוֹעֵד'
+    source: תרגום אונקלוס, שמות מ, ו
+    vocalized: וְתִתֵּן יָת מַדְבְּחָא דַעֲלָתָא קֳדָם תְּרַע מַשְׁכְּנָא מַשְׁכַּן זִמְנָא
+grammar: []
+lessons:
+- id: o11-l1
+  kind: new
+  title:
+    he: תעבד
+    en: You shall do
+  exercises:
+  - id: o11-l1-01
+    type: dialogue
+    scene: יום שישי. פרשת משפטים, הרבה ציוויים.
+    lines:
+    - speaker: eitan
+      text: יש פה כל הזמן ״תעבד״ ו״תעבדון״. זה ״תעשה״ ו״תעשו״?
+      translation: איתן
+    - speaker: yisrael
+      text: נכון. ובגמרא ראית ״לא תעביד״, אצל הלל. אותו שורש. אונקלוס רק כותב בלי יו״ד.
+      translation: תעבד
+  - id: o11-l1-02
+    type: learn
+    lexeme: taavid
+  - id: o11-l1-03
+    type: learn
+    lexeme: taavdun
+  - id: o11-l1-04
+    type: learn
+    lexeme: yaavid
+  - id: o11-l1-05
+    type: learn
+    lexeme: teichlun
+  - id: o11-l1-06
+    type: learn
+    lexeme: yeichul
+  - id: o11-l1-07
+    type: learn
+    lexeme: veteimar
+  - id: o11-l1-08
+    type: learn
+    lexeme: vetisav
+  - id: o11-l1-09
+    type: match_pairs
+    pairs:
+    - - תעבד
+      - תעשה
+    - - תעבדון
+      - תעשו
+    - - יעבד
+      - יעשה
+    - - תיכלון
+      - תאכלו
+    - - ייכול
+      - יאכל
+    - - ותימר
+      - ותאמר
+    lexemes:
+    - taavid
+    - taavdun
+    - yaavid
+    - teichlun
+    - yeichul
+    - veteimar
+  - id: o11-l1-10
+    type: multiple_choice
+    prompt: מה פירוש תעבד?
+    options:
+    - תעשה
+    - טמא
+    - יהיו
+    correct: 0
+    lexemes:
+    - taavid
+  - id: o11-l1-11
+    type: multiple_choice
+    prompt: מה פירוש תעבדון?
+    options:
+    - תעשו
+    - טמא
+    - יאכל
+    correct: 0
+    lexemes:
+    - taavdun
+  - id: o11-l1-12
+    type: multiple_choice
+    prompt: מה פירוש יעבד?
+    options:
+    - יעשה
+    - יהיו
+    - ותאמר
+    correct: 0
+    lexemes:
+    - yaavid
+  - id: o11-l1-13
+    type: multiple_choice
+    prompt: מה פירוש תיכלון?
+    options:
+    - תאכלו
+    - ויטהר
+    - יעשה
+    correct: 0
+    lexemes:
+    - teichlun
+  - id: o11-l1-14
+    type: multiple_choice
+    prompt: מה פירוש ייכול?
+    options:
+    - יאכל
+    - תאכלו
+    - תחת
+    correct: 0
+    lexemes:
+    - yeichul
+  - id: o11-l1-15
+    type: multiple_choice
+    prompt: מה פירוש ותימר?
+    options:
+    - ותאמר
+    - יאכל
+    - ותיקח
+    correct: 0
+    lexemes:
+    - veteimar
+  - id: o11-l1-16
+    type: multiple_choice
+    prompt: מה פירוש ותסב?
+    options:
+    - ותיקח
+    - ויטהר
+    - טוב
+    correct: 0
+    lexemes:
+    - vetisav
+  - id: o11-l1-17
+    type: fill_blank
+    sentence: מסוף שבע שנין ___ שמטתא
+    translation: 'בתורה: מִקֵּץ שֶׁבַע־שָׁנִים תַּעֲשֶׂה שְׁמִטָּה'
+    answers:
+    - תעבד
+    options:
+    - תעבד
+    - מסאב
+    - ותסב
+    lexemes:
+    - taavid
+    source: תרגום אונקלוס, דברים טו, א
+    vocalized: מִסוֹף שְׁבַע שְׁנִין תַּעְבֵּד שְׁמִטְתָא
+  - id: o11-l1-18
+    type: fill_blank
+    sentence: לא ___ כן קדם יי אלהכון
+    translation: 'בתורה: לֹא־תַעֲשׂוּן כֵּן לַיהוָה אֱלֹהֵיכֶם'
+    answers:
+    - תעבדון
+    options:
+    - תעבדון
+    - ייכול
+    - וידכי
+    lexemes:
+    - taavdun
+    source: תרגום אונקלוס, דברים יב, ד
+    vocalized: לָא תַעְבְּדוּן כֵּן קֳדָם יְיָ אֱלָהָכוֹן
+  - id: o11-l1-19
+    type: fill_blank
+    sentence: ואם לברה יקימנה כהלכת בנת ישראל ___ לה
+    translation: 'בתורה: וְאִם־לִבְנוֹ יִיעָדֶנָּה כְּמִשְׁפַּט הַבָּנוֹת יַעֲשֶׂה־לָּהּ'
+    answers:
+    - יעבד
+    options:
+    - יעבד
+    - מסאב
+    - ייכול
+    lexemes:
+    - yaavid
+    source: תרגום אונקלוס, שמות כא, ט
+    vocalized: וְאִם לִבְרֵהּ יְקַיְמִנַהּ כְּהִלְכַת בְּנַת יִשְׂרָאֵל יַעְבֵּד לַהּ
+  - id: o11-l1-20
+    type: fill_blank
+    sentence: כל צפר דכיא ___
+    translation: 'בתורה: כָּל־צִפּוֹר טְהֹרָה תֹּאכֵלוּ'
+    answers:
+    - תיכלון
+    options:
+    - תיכלון
+    - יעבד
+    - מסאב
+    lexemes:
+    - teichlun
+    source: תרגום אונקלוס, דברים יד, יא
+    vocalized: כָּל צִפַּר דַכְיָא תֵּיכְלוּן
+  - id: o11-l1-21
+    type: fill_blank
+    sentence: קרבן אלהה מקדש קודשיא ומן קודשיא ___
+    translation: 'בתורה: לֶחֶם אֱלֹהָיו מִקָּדְשֵׁי הַקֳּדָשִׁים וּמִן־הַקֳּדָשִׁים יֹאכֵל'
+    answers:
+    - ייכול
+    options:
+    - ייכול
+    - ותסב
+    - תיכלון
+    lexemes:
+    - yeichul
+    source: תרגום אונקלוס, ויקרא כא, כב
+    vocalized: קֻרְבַּן אֱלָהֵהּ מִקֹדֶשׁ קוּדְשַׁיָא וּמִן קוּדְשַׁיָא יֵיכוּל
+  - id: o11-l1-22
+    type: fill_blank
+    sentence: ___ לות פרעה כדנן אמר יי ברי בוכרי ישראל
+    translation: 'בתורה: וְאָמַרְתָּ אֶל־פַּרְעֹה כֹּה אָמַר יְהוָה בְּנִי בְכֹרִי יִשְׂרָאֵל'
+    answers:
+    - ותימר
+    options:
+    - ותימר
+    - ותסב
+    - יעבד
+    lexemes:
+    - veteimar
+    source: תרגום אונקלוס, שמות ד, כב
+    vocalized: וְתֵימַר לְוָת פַּרְעֹה כִּדְנַן אֲמַר יְיָ בְּרִי בוּכְרִי יִשְׂרָאֵל
+  - id: o11-l1-23
+    type: fill_blank
+    sentence: אלהן לבית אבא תזיל ולזרעיתי ___ אתתא לברי
+    translation: 'בתורה: אִם־לֹא אֶל־בֵּית־אָבִי תֵּלֵךְ וְאֶל־מִשְׁפַּחְתִּי וְלָקַחְתָּ אִשָּׁה לִבְנִי'
+    answers:
+    - ותסב
+    options:
+    - ותסב
+    - יהבית
+    - יהון
+    lexemes:
+    - vetisav
+    source: תרגום אונקלוס, בראשית כד, לח
+    vocalized: אֶלָהֵן לְבֵית אַבָּא תֵּזִיל וּלְזַרְעִיתִי וְתִסַּב אִתְּתָא לִבְרִי
+- id: o11-l2
+  kind: new
+  title:
+    he: טמא וטהור
+    en: Impure and pure
+  exercises:
+  - id: o11-l2-24
+    type: tip
+    title: עתיד אצל אונקלוס
+    text: '**ת־** = אתה / את (**תעבד**, **תיכול**). **ת־ ...ון** = אתם (**תעבדון**, **תיכלון**).
+
+
+      **י־** = הוא (**יעבד**, **ייכול**). **י־ ...ון** = הם (**יהון**, **יקרבון**).
+
+
+      בגמרא הבבלית ״הוא יעשה״ נכתב לפעמים בנ״ו (נעביד); אצל אונקלוס תמיד ביו״ד.'
+  - id: o11-l2-25
+    type: learn
+    lexeme: yehon
+  - id: o11-l2-26
+    type: learn
+    lexeme: yehavit
+  - id: o11-l2-27
+    type: learn
+    lexeme: mesav
+  - id: o11-l2-28
+    type: learn
+    lexeme: vidachei
+  - id: o11-l2-29
+    type: learn
+    lexeme: tav-o
+  - id: o11-l2-30
+    type: learn
+    lexeme: techot
+  - id: o11-l2-31
+    type: learn
+    lexeme: tera
+  - id: o11-l2-32
+    type: match_pairs
+    pairs:
+    - - יהון
+      - יהיו
+    - - יהבית
+      - נתתי
+    - - מסאב
+      - טמא
+    - - וידכי
+      - ויטהר
+    - - טב
+      - טוב
+    - - תחות
+      - תחת
+    lexemes:
+    - yehon
+    - yehavit
+    - mesav
+    - vidachei
+    - tav-o
+    - techot
+  - id: o11-l2-33
+    type: multiple_choice
+    prompt: מה פירוש יהון?
+    options:
+    - יהיו
+    - ותיקח
+    - תעשו
+    correct: 0
+    lexemes:
+    - yehon
+  - id: o11-l2-34
+    type: multiple_choice
+    prompt: מה פירוש יהבית?
+    options:
+    - נתתי
+    - תחת
+    - ותאמר
+    correct: 0
+    lexemes:
+    - yehavit
+  - id: o11-l2-35
+    type: multiple_choice
+    prompt: מה פירוש מסאב?
+    options:
+    - טמא
+    - ותאמר
+    - ויטהר
+    correct: 0
+    lexemes:
+    - mesav
+  - id: o11-l2-36
+    type: multiple_choice
+    prompt: מה פירוש וידכי?
+    options:
+    - ויטהר
+    - תחת
+    - טוב
+    correct: 0
+    lexemes:
+    - vidachei
+  - id: o11-l2-37
+    type: multiple_choice
+    prompt: מה פירוש טב?
+    options:
+    - טוב
+    - יעשה
+    - תחת
+    correct: 0
+    lexemes:
+    - tav-o
+  - id: o11-l2-38
+    type: multiple_choice
+    prompt: מה פירוש תחות?
+    options:
+    - תחת
+    - נתתי
+    - יהיו
+    correct: 0
+    lexemes:
+    - techot
+  - id: o11-l2-39
+    type: multiple_choice
+    prompt: מה פירוש תרע?
+    options:
+    - שער
+    - נתתי
+    - יאכל
+    correct: 0
+    lexemes:
+    - tera
+  - id: o11-l2-40
+    type: fill_blank
+    sentence: בעזקתא דארונא ___ אריחיא לא יעדון מנה
+    translation: 'בתורה: בְּטַבְּעֹת הָאָרֹן יִהְיוּ הַבַּדִּים לֹא יָסֻרוּ מִמֶּנּוּ'
+    answers:
+    - יהון
+    options:
+    - יהון
+    - ייכול
+    - תרע
+    lexemes:
+    - yehon
+    source: תרגום אונקלוס, שמות כה, טו
+    vocalized: בְּעִזְקְתָא דַאֲרוֹנָא יְהוֹן אֲרִיחַיָא לָא יְעִדוּן מִנֵהּ
+  - id: o11-l2-41
+    type: fill_blank
+    sentence: ולמכיר ___ ית גלעד
+    translation: 'בתורה: וּלְמָכִיר נָתַתִּי אֶת־הַגִּלְעָד'
+    answers:
+    - יהבית
+    options:
+    - יהבית
+    - תעבד
+    - וידכי
+    lexemes:
+    - yehavit
+    source: תרגום אונקלוס, דברים ג, טו
+    vocalized: וּלְמָכִיר יְהָבִית יָת גִלְעָד
+  - id: o11-l2-42
+    type: fill_blank
+    sentence: וביומא דאתחזי בה בסרא חיא יהי ___
+    translation: 'בתורה: וּבְיוֹם הֵרָאוֹת בּוֹ בָּשָׂר חַי יִטְמָא'
+    answers:
+    - מסאב
+    options:
+    - מסאב
+    - תרע
+    - תעבדון
+    lexemes:
+    - mesav
+    source: תרגום אונקלוס, ויקרא יג, יד
+    vocalized: וּבְיוֹמָא דְאִתַּחֲזִי בֵהּ בִּסְרָא חַיָא יְהֵי מְסָאָב
+  - id: o11-l2-43
+    type: fill_blank
+    sentence: ויסק כהנא ית עלתא וית מנחתא למדבחא ויכפר עלוהי כהנא ___
+    translation: 'בתורה: וְהֶעֱלָה הַכֹּהֵן אֶת־הָעֹלָה וְאֶת־הַמִּנְחָה הַמִּזְבֵּחָה וְכִפֶּר עָלָיו הַכֹּהֵן וְטָהֵר'
+    answers:
+    - וידכי
+    options:
+    - וידכי
+    - ייכול
+    - תחות
+    lexemes:
+    - vidachei
+    source: תרגום אונקלוס, ויקרא יד, כ
+    vocalized: וְיַסֵק כַּהֲנָא יָת עֲלָתָא וְיָת מִנְחָתָא לְמַדְבְּחָא וִיכַפֵּר עֲלוֹהִי כַּהֲנָא וְיִדְכֵּי
+  - id: o11-l2-44
+    type: fill_blank
+    sentence: ודהבא דארעא ההיא ___ תמן בדלחא ואבני בורלא
+    translation: 'בתורה: וּזֲהַב הָאָרֶץ הַהִוא טוֹב שָׁם הַבְּדֹלַח וְאֶבֶן הַשֹּׁהַם'
+    answers:
+    - טב
+    options:
+    - טב
+    - יהון
+    - תעבדון
+    lexemes:
+    - tav-o
+    source: תרגום אונקלוס, בראשית ב, יב
+    vocalized: וְדַהֲבָא דְאַרְעָא הַהִיא טָב תַּמָן בְּדָלְחָא וְאַבְנֵי בוּרְלָא
+  - id: o11-l2-45
+    type: fill_blank
+    sentence: יסבון כען זעיר מיא ואסחו רגליכון ואסתמיכו ___ אילנא
+    translation: 'בתורה: יֻקַּח־נָא מְעַט־מַיִם וְרַחֲצוּ רַגְלֵיכֶם וְהִשָּׁעֲנוּ תַּחַת הָעֵץ'
+    answers:
+    - תחות
+    options:
+    - תחות
+    - תיכלון
+    - יהבית
+    lexemes:
+    - techot
+    source: תרגום אונקלוס, בראשית יח, ד
+    vocalized: יִסְּבוּן כְּעַן זְעֵיר מַיָּא וְאַסְחוּ רַגְלֵיכוֹן וְאִסְתְּמִיכוּ תְּחוֹת אִילָנָא
+  - id: o11-l2-46
+    type: fill_blank
+    sentence: ותתן ית מדבחא דעלתא קדם ___ משכנא משכן זמנא
+    translation: 'בתורה: וְנָתַתָּה אֵת מִזְבַּח הָעֹלָה לִפְנֵי פֶּתַח מִשְׁכַּן אֹהֶל־מוֹעֵד'
+    answers:
+    - תרע
+    options:
+    - תרע
+    - ותימר
+    - וידכי
+    lexemes:
+    - tera
+    source: תרגום אונקלוס, שמות מ, ו
+    vocalized: וְתִתֵּן יָת מַדְבְּחָא דַעֲלָתָא קֳדָם תְּרַע מַשְׁכְּנָא מַשְׁכַּן זִמְנָא
+- id: o11-l3
+  kind: review
+  title:
+    he: חזרה וקריאה
+    en: Review and reading
+  exercises:
+  - id: o11-l3-47
+    type: reading
+    kind: תרגום אונקלוס, שמות כ
+    title: שתא יומין
+    text: 'שתא יומין תפלח ותעבד כל עבדתך
+
+
+      ויומא שביעאה שבתא קדם יי אלהך לא תעבד כל עבדתא את וברך וברתך עבדך ואמתך ובעירך וגיורך די בקרוך'
+    translation: 'שֵׁשֶׁת יָמִים תַּעֲבֹד וְעָשִׂיתָ כָּל־מְלַאכְתֶּךָ
+
+
+      וְיוֹם הַשְּׁבִיעִי שַׁבָּת לַיהוָה אֱלֹהֶיךָ לֹא־תַעֲשֶׂה כָל־מְלָאכָה אַתָּה וּבִנְךָ־וּבִתֶּךָ עַבְדְּךָ וַאֲמָתְךָ וּבְהֶמְתֶּךָ וְגֵרְךָ אֲשֶׁר בִּשְׁעָרֶיךָ'
+    lexemes:
+    - taavid
+    - taavdun
+    - yaavid
+    - teichlun
+    - yeichul
+    - veteimar
+    - vetisav
+    - yehon
+    source: תרגום אונקלוס, שמות כ, ט–י
+    vocalized: 'שִׁתָּא יוֹמִין תִּפְלָח וְתַעְבֵּד כָּל עִבִדְתָּךְ: וְיוֹמָא שְׁבִיעָאָה שַׁבְּתָא קֳדָם יְיָ אֱלָהָךְ לָא תַעְבֵּד כָּל עִבִדְתָּא אַתְּ וּבְרָךְ וּבְרַתָּךְ עַבְדָךְ וְאַמְתָךְ וּבְעִירָךְ וְגִיוֹרָךְ דִי בְקִרְוָךְ:'
+  - id: o11-l3-48
+    type: multiple_choice
+    prompt: '״תעבדון״ פירושו:'
+    options:
+    - תעשו
+    - תעשה
+    - עשו
+    correct: 0
+    lexemes:
+    - taavdun
+  - id: o11-l3-49
+    type: multiple_choice
+    prompt: '״מסאב״ פירושו:'
+    options:
+    - טמא
+    - מסובב
+    - מאוס
+    correct: 0
+    lexemes:
+    - mesav
+  - id: o11-l3-50
+    type: dialogue
+    scene: בסוף הלימוד.
+    lines:
+    - speaker: yisrael
+      text: ״שתא יומין תפלח ותעביד כל עבידתך״. וביום השביעי, שבת.
+      translation: שבת
+    - speaker: eitan
+      text: מחר שבת. נמשיך ביום שישי הבא.
+      translation: איתן
+  - id: o11-l3-51
+    type: match_pairs
+    pairs:
+    - - תעבד
+      - תעשה
+    - - תעבדון
+      - תעשו
+    - - יעבד
+      - יעשה
+    - - תיכלון
+      - תאכלו
+    - - ייכול
+      - יאכל
+    - - ותימר
+      - ותאמר
+    lexemes:
+    - taavid
+    - taavdun
+    - yaavid
+    - teichlun
+    - yeichul
+    - veteimar

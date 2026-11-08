@@ -1,0 +1,626 @@
+id: o04-gavra
+cefr: A2
+scene: study
+title:
+  he: אתתא וגברא
+  en: Woman and man
+story: 'אמא של איתן וחנה מצטרפת ללימוד. בפרשת חיי שרה לומדים מילים של אנשים ומשפחה: איש, אישה, זכר, בכור, עבד, ומלאך.'
+canDo:
+- להבין אתתא, אנשא, גבריא, דכורא, בוכרא
+- להבין עבדוהי, אמתא, רבוני
+- להבין עממיא, זרעית, מלאכא
+vocabulary:
+- id: itta
+  text: אתתא
+  translation: אישה
+  pos: noun
+  example:
+    text: והוא אתתא בבתלתהא יסב
+    translation: 'בתורה: וְהוּא אִשָּׁה בִבְתוּלֶיהָ יִקָּח'
+    source: תרגום אונקלוס, ויקרא כא, יג
+    vocalized: וְהוּא אִתְּתָא בִבְתֻלְתָּהָא יִסָב
+- id: insha
+  text: אנשא
+  translation: האדם, בני האדם
+  pos: noun
+  example:
+    text: ודיקטול בעירא ישלמנה ודיקטול אנשא יתקטל
+    translation: 'בתורה: וּמַכֵּה בְהֵמָה יְשַׁלְּמֶנָּה וּמַכֵּה אָדָם יוּמָת'
+    source: תרגום אונקלוס, ויקרא כד, כא
+    vocalized: וּדְיִקְטוֹל בְּעִירָא יְשַׁלְמִנַהּ וּדְיִקְטוֹל אֲנָשָׁא יִתְקְטֵל
+- id: gavraya
+  text: גבריא
+  translation: הגברים, האנשים
+  pos: noun
+  example:
+    text: ואלין שמהת גבריא לשבטא דיהודה כלב בר יפנה
+    translation: 'בתורה: וְאֵלֶּה שְׁמוֹת הָאֲנָשִׁים לְמַטֵּה יְהוּדָה כָּלֵב בֶּן־יְפֻנֶּה'
+    source: תרגום אונקלוס, במדבר לד, יט
+    vocalized: וְאִלֵין שְׁמָהַת גֻבְרַיָא לְשִׁבְטָא דִיהוּדָה כָּלֵב בַּר יְפֻנֶה
+- id: duchra
+  text: דכורא
+  translation: זכר
+  pos: noun
+  example:
+    text: לרעוא לכון שלים דכורא בתורי באמריא ובעזיא
+    translation: 'בתורה: לִרְצֹנְכֶם תָּמִים זָכָר בַּבָּקָר בַּכְּשָׂבִים וּבָעִזִּים'
+    source: תרגום אונקלוס, ויקרא כב, יט
+    vocalized: לְרַעֲוָא לְכוֹן שְׁלִים דְכוּרָא בְּתוֹרֵי בְּאִמְרַיָא וּבְעִזַיָא
+- id: buchra
+  text: בוכרא
+  translation: בכור
+  pos: noun
+  example:
+    text: בכורך ודמעך לא תאחר בוכרא דבניך תפרש קדמי
+    translation: 'בתורה: מְלֵאָתְךָ וְדִמְעֲךָ לֹא תְאַחֵר בְּכוֹר בָּנֶיךָ תִּתֶּן־לִּי'
+    source: תרגום אונקלוס, שמות כב, כח
+    vocalized: בִּכּוּרָךְ וְדִמְעָךְ לָא תְאַחֵר בּוּכְרָא דִבְנָיךְ תַּפְרֵשׁ קֳדָמָי
+- id: berateh
+  text: ברתה
+  translation: בתה
+  pos: noun
+  example:
+    text: ויהב לבן לה ית זלפה אמתה ללאה ברתה לאמהו
+    translation: 'בתורה: וַיִּתֵּן לָבָן לָהּ אֶת־זִלְפָּה שִׁפְחָתוֹ לְלֵאָה בִתּוֹ שִׁפְחָה'
+    source: תרגום אונקלוס, בראשית כט, כד
+    vocalized: וִיהַב לָבָן לַהּ יָת זִלְפָּה אַמְתֵהּ לְלֵאָה בְרַתֵּהּ לְאַמְהוּ
+- id: avdohi
+  text: עבדוהי
+  translation: עבדיו
+  pos: noun
+  example:
+    text: ושפר פתגמא בעיני פרעה ובעיני כל עבדוהי
+    translation: 'בתורה: וַיִּיטַב הַדָּבָר בְּעֵינֵי פַרְעֹה וּבְעֵינֵי כָּל־עֲבָדָיו'
+    source: תרגום אונקלוס, בראשית מא, לז
+    vocalized: וּשְׁפַר פִּתְגָּמָא בְּעֵינֵי פַרְעֹה וּבְעֵינֵי כָּל עַבְדּוֹהִי
+- id: amta
+  text: אמתא
+  translation: שפחה, אמה
+  pos: noun
+  example:
+    text: וילידת זלפה אמתא דלאה ליעקב בר
+    translation: 'בתורה: וַתֵּלֶד זִלְפָּה שִׁפְחַת לֵאָה לְיַעֲקֹב בֵּן'
+    source: תרגום אונקלוס, בראשית ל, י
+    vocalized: וִילִידַת זִלְפָּה אַמְתָא דְלֵאָה לְיַעֲקֹב בָּר
+- id: ribboni
+  text: רבוני
+  translation: אדוני
+  pos: noun
+  example:
+    text: ואמר לוט להון בבעו כען רבוני
+    translation: 'בתורה: וַיֹּאמֶר לוֹט אֲלֵהֶם אַל־נָא אֲדֹנָי'
+    source: תרגום אונקלוס, בראשית יט, יח
+    vocalized: וַאֲמַר לוֹט לְהוֹן בְּבָעוּ כְעַן רִבּוֹנָי
+- id: avhathon
+  text: אבהתהון
+  translation: אבותיהם
+  pos: noun
+  example:
+    text: ומניני בני גרשון לזרעיתהון ולבית אבהתהון
+    translation: 'בתורה: וּפְקוּדֵי בְּנֵי גֵרְשׁוֹן לְמִשְׁפְּחוֹתָם וּלְבֵית אֲבֹתָם'
+    source: תרגום אונקלוס, במדבר ד, לח
+    vocalized: וּמִנְיָנֵי בְּנֵי גֵרְשׁוֹן לְזַרְעֲיַתְהוֹן וּלְבֵית אֲבָהַתְהוֹן
+- id: zareit
+  text: זרעית
+  translation: משפחה, שבט
+  pos: noun
+  example:
+    text: לזרח זרעית זרח לשאול זרעית שאול
+    translation: 'בתורה: לְזֶרַח מִשְׁפַּחַת הַזַּרְחִי לְשָׁאוּל מִשְׁפַּחַת הַשָּׁאוּלִי'
+    source: תרגום אונקלוס, במדבר כו, יג
+    vocalized: לְזֶרַח זַרְעִית זֶרַח לְשָׁאוּל זַרְעִית שָׁאוּל
+- id: amamaya
+  text: עממיא
+  translation: העמים
+  pos: noun
+  example:
+    text: שמעו עממיא וזעו דחלא אחדתנון דהוו יתבין בפלשת
+    translation: 'בתורה: שָׁמְעוּ עַמִּים יִרְגָּזוּן חִיל אָחַז יֹשְׁבֵי פְּלָשֶׁת'
+    source: תרגום אונקלוס, שמות טו, יד
+    vocalized: שְׁמָעוּ עַמְמַיָא וְזָעוּ דַחֲלָא אַחֲדָתְנוּן דַהֲווֹ יָתְבִין בִּפְלָשֶׁת
+- id: malacha
+  text: מלאכא
+  translation: מלאך
+  pos: noun
+  example:
+    text: וקרא מלאכא דיי לאברהם תנינות מן שמיא
+    translation: 'בתורה: וַיִּקְרָא מַלְאַךְ יְהוָה אֶל־אַבְרָהָם שֵׁנִית מִן־הַשָּׁמָיִם'
+    source: תרגום אונקלוס, בראשית כב, טו
+    vocalized: וּקְרָא מַלְאָכָא דַּיְיָ לְאַבְרָהָם תִּנְיָנוּת מִן שְׁמַיָּא
+grammar: []
+lessons:
+- id: o04-l1
+  kind: new
+  title:
+    he: איש ואישה
+    en: Man and woman
+  exercises:
+  - id: o04-l1-01
+    type: dialogue
+    scene: יום שישי. אמא יושבת בצד עם כוס קפה.
+    lines:
+    - speaker: yisrael
+      text: ״ונסב יצחק ית רבקה והות ליה לאתו״. ״אתתא״ = אישה. ״לאתו״ = לאישה.
+      translation: אתתא
+    - speaker: eitan
+      text: אמא, את מבינה?
+      translation: איתן
+    - speaker: chana
+      text: היא מבינה יותר ממך. סבא קרא לה תרגום כשהייתה ילדה.
+      translation: חנה
+  - id: o04-l1-02
+    type: learn
+    lexeme: itta
+  - id: o04-l1-03
+    type: learn
+    lexeme: insha
+  - id: o04-l1-04
+    type: learn
+    lexeme: gavraya
+  - id: o04-l1-05
+    type: learn
+    lexeme: duchra
+  - id: o04-l1-06
+    type: learn
+    lexeme: buchra
+  - id: o04-l1-07
+    type: learn
+    lexeme: berateh
+  - id: o04-l1-08
+    type: match_pairs
+    pairs:
+    - - אתתא
+      - אישה
+    - - אנשא
+      - האדם, בני האדם
+    - - גבריא
+      - הגברים, האנשים
+    - - דכורא
+      - זכר
+    - - בוכרא
+      - בכור
+    - - ברתה
+      - בתה
+    lexemes:
+    - itta
+    - insha
+    - gavraya
+    - duchra
+    - buchra
+    - berateh
+  - id: o04-l1-09
+    type: multiple_choice
+    prompt: מה פירוש אתתא?
+    options:
+    - אישה
+    - בכור
+    - משפחה, שבט
+    correct: 0
+    lexemes:
+    - itta
+  - id: o04-l1-10
+    type: multiple_choice
+    prompt: מה פירוש אנשא?
+    options:
+    - האדם, בני האדם
+    - אישה
+    - משפחה, שבט
+    correct: 0
+    lexemes:
+    - insha
+  - id: o04-l1-11
+    type: multiple_choice
+    prompt: מה פירוש גבריא?
+    options:
+    - הגברים, האנשים
+    - מלאך
+    - האדם, בני האדם
+    correct: 0
+    lexemes:
+    - gavraya
+  - id: o04-l1-12
+    type: multiple_choice
+    prompt: מה פירוש דכורא?
+    options:
+    - זכר
+    - מלאך
+    - אישה
+    correct: 0
+    lexemes:
+    - duchra
+  - id: o04-l1-13
+    type: multiple_choice
+    prompt: מה פירוש בוכרא?
+    options:
+    - בכור
+    - הגברים, האנשים
+    - שפחה, אמה
+    correct: 0
+    lexemes:
+    - buchra
+  - id: o04-l1-14
+    type: multiple_choice
+    prompt: מה פירוש ברתה?
+    options:
+    - בתה
+    - אבותיהם
+    - בכור
+    correct: 0
+    lexemes:
+    - berateh
+  - id: o04-l1-15
+    type: fill_blank
+    sentence: והוא ___ בבתלתהא יסב
+    translation: 'בתורה: וְהוּא אִשָּׁה בִבְתוּלֶיהָ יִקָּח'
+    answers:
+    - אתתא
+    options:
+    - אתתא
+    - אמתא
+    - דכורא
+    lexemes:
+    - itta
+    source: תרגום אונקלוס, ויקרא כא, יג
+    vocalized: וְהוּא אִתְּתָא בִבְתֻלְתָּהָא יִסָב
+  - id: o04-l1-16
+    type: fill_blank
+    sentence: ודיקטול בעירא ישלמנה ודיקטול ___ יתקטל
+    translation: 'בתורה: וּמַכֵּה בְהֵמָה יְשַׁלְּמֶנָּה וּמַכֵּה אָדָם יוּמָת'
+    answers:
+    - אנשא
+    options:
+    - אנשא
+    - רבוני
+    - גבריא
+    lexemes:
+    - insha
+    source: תרגום אונקלוס, ויקרא כד, כא
+    vocalized: וּדְיִקְטוֹל בְּעִירָא יְשַׁלְמִנַהּ וּדְיִקְטוֹל אֲנָשָׁא יִתְקְטֵל
+  - id: o04-l1-17
+    type: fill_blank
+    sentence: ואלין שמהת ___ לשבטא דיהודה כלב בר יפנה
+    translation: 'בתורה: וְאֵלֶּה שְׁמוֹת הָאֲנָשִׁים לְמַטֵּה יְהוּדָה כָּלֵב בֶּן־יְפֻנֶּה'
+    answers:
+    - גבריא
+    options:
+    - גבריא
+    - אבהתהון
+    - עממיא
+    lexemes:
+    - gavraya
+    source: תרגום אונקלוס, במדבר לד, יט
+    vocalized: וְאִלֵין שְׁמָהַת גֻבְרַיָא לְשִׁבְטָא דִיהוּדָה כָּלֵב בַּר יְפֻנֶה
+  - id: o04-l1-18
+    type: fill_blank
+    sentence: לרעוא לכון שלים ___ בתורי באמריא ובעזיא
+    translation: 'בתורה: לִרְצֹנְכֶם תָּמִים זָכָר בַּבָּקָר בַּכְּשָׂבִים וּבָעִזִּים'
+    answers:
+    - דכורא
+    options:
+    - דכורא
+    - אנשא
+    - אתתא
+    lexemes:
+    - duchra
+    source: תרגום אונקלוס, ויקרא כב, יט
+    vocalized: לְרַעֲוָא לְכוֹן שְׁלִים דְכוּרָא בְּתוֹרֵי בְּאִמְרַיָא וּבְעִזַיָא
+  - id: o04-l1-19
+    type: fill_blank
+    sentence: בכורך ודמעך לא תאחר ___ דבניך תפרש קדמי
+    translation: 'בתורה: מְלֵאָתְךָ וְדִמְעֲךָ לֹא תְאַחֵר בְּכוֹר בָּנֶיךָ תִּתֶּן־לִּי'
+    answers:
+    - בוכרא
+    options:
+    - בוכרא
+    - אתתא
+    - דכורא
+    lexemes:
+    - buchra
+    source: תרגום אונקלוס, שמות כב, כח
+    vocalized: בִּכּוּרָךְ וְדִמְעָךְ לָא תְאַחֵר בּוּכְרָא דִבְנָיךְ תַּפְרֵשׁ קֳדָמָי
+  - id: o04-l1-20
+    type: fill_blank
+    sentence: ויהב לבן לה ית זלפה אמתה ללאה ___ לאמהו
+    translation: 'בתורה: וַיִּתֵּן לָבָן לָהּ אֶת־זִלְפָּה שִׁפְחָתוֹ לְלֵאָה בִתּוֹ שִׁפְחָה'
+    answers:
+    - ברתה
+    options:
+    - ברתה
+    - דכורא
+    - אנשא
+    lexemes:
+    - berateh
+    source: תרגום אונקלוס, בראשית כט, כד
+    vocalized: וִיהַב לָבָן לַהּ יָת זִלְפָּה אַמְתֵהּ לְלֵאָה בְרַתֵּהּ לְאַמְהוּ
+- id: o04-l2
+  kind: new
+  title:
+    he: עבדים ומלאכים
+    en: Servants and angels
+  exercises:
+  - id: o04-l2-21
+    type: learn
+    lexeme: avdohi
+  - id: o04-l2-22
+    type: learn
+    lexeme: amta
+  - id: o04-l2-23
+    type: learn
+    lexeme: ribboni
+  - id: o04-l2-24
+    type: learn
+    lexeme: avhathon
+  - id: o04-l2-25
+    type: learn
+    lexeme: zareit
+  - id: o04-l2-26
+    type: learn
+    lexeme: amamaya
+  - id: o04-l2-27
+    type: learn
+    lexeme: malacha
+  - id: o04-l2-28
+    type: match_pairs
+    pairs:
+    - - עבדוהי
+      - עבדיו
+    - - אמתא
+      - שפחה, אמה
+    - - רבוני
+      - אדוני
+    - - אבהתהון
+      - אבותיהם
+    - - זרעית
+      - משפחה, שבט
+    - - עממיא
+      - העמים
+    lexemes:
+    - avdohi
+    - amta
+    - ribboni
+    - avhathon
+    - zareit
+    - amamaya
+  - id: o04-l2-29
+    type: multiple_choice
+    prompt: מה פירוש עבדוהי?
+    options:
+    - עבדיו
+    - אדוני
+    - מלאך
+    correct: 0
+    lexemes:
+    - avdohi
+  - id: o04-l2-30
+    type: multiple_choice
+    prompt: מה פירוש אמתא?
+    options:
+    - שפחה, אמה
+    - אדוני
+    - העמים
+    correct: 0
+    lexemes:
+    - amta
+  - id: o04-l2-31
+    type: multiple_choice
+    prompt: מה פירוש רבוני?
+    options:
+    - אדוני
+    - בתה
+    - בכור
+    correct: 0
+    lexemes:
+    - ribboni
+  - id: o04-l2-32
+    type: multiple_choice
+    prompt: מה פירוש אבהתהון?
+    options:
+    - אבותיהם
+    - מלאך
+    - זכר
+    correct: 0
+    lexemes:
+    - avhathon
+  - id: o04-l2-33
+    type: multiple_choice
+    prompt: מה פירוש זרעית?
+    options:
+    - משפחה, שבט
+    - שפחה, אמה
+    - אדוני
+    correct: 0
+    lexemes:
+    - zareit
+  - id: o04-l2-34
+    type: multiple_choice
+    prompt: מה פירוש עממיא?
+    options:
+    - העמים
+    - אדוני
+    - אישה
+    correct: 0
+    lexemes:
+    - amamaya
+  - id: o04-l2-35
+    type: multiple_choice
+    prompt: מה פירוש מלאכא?
+    options:
+    - מלאך
+    - אדוני
+    - עבדיו
+    correct: 0
+    lexemes:
+    - malacha
+  - id: o04-l2-36
+    type: fill_blank
+    sentence: ושפר פתגמא בעיני פרעה ובעיני כל ___
+    translation: 'בתורה: וַיִּיטַב הַדָּבָר בְּעֵינֵי פַרְעֹה וּבְעֵינֵי כָּל־עֲבָדָיו'
+    answers:
+    - עבדוהי
+    options:
+    - עבדוהי
+    - אמתא
+    - בוכרא
+    lexemes:
+    - avdohi
+    source: תרגום אונקלוס, בראשית מא, לז
+    vocalized: וּשְׁפַר פִּתְגָּמָא בְּעֵינֵי פַרְעֹה וּבְעֵינֵי כָּל עַבְדּוֹהִי
+  - id: o04-l2-37
+    type: fill_blank
+    sentence: וילידת זלפה ___ דלאה ליעקב בר
+    translation: 'בתורה: וַתֵּלֶד זִלְפָּה שִׁפְחַת לֵאָה לְיַעֲקֹב בֵּן'
+    answers:
+    - אמתא
+    options:
+    - אמתא
+    - זרעית
+    - עממיא
+    lexemes:
+    - amta
+    source: תרגום אונקלוס, בראשית ל, י
+    vocalized: וִילִידַת זִלְפָּה אַמְתָא דְלֵאָה לְיַעֲקֹב בָּר
+  - id: o04-l2-38
+    type: fill_blank
+    sentence: ואמר לוט להון בבעו כען ___
+    translation: 'בתורה: וַיֹּאמֶר לוֹט אֲלֵהֶם אַל־נָא אֲדֹנָי'
+    answers:
+    - רבוני
+    options:
+    - רבוני
+    - אמתא
+    - עממיא
+    lexemes:
+    - ribboni
+    source: תרגום אונקלוס, בראשית יט, יח
+    vocalized: וַאֲמַר לוֹט לְהוֹן בְּבָעוּ כְעַן רִבּוֹנָי
+  - id: o04-l2-39
+    type: fill_blank
+    sentence: ומניני בני גרשון לזרעיתהון ולבית ___
+    translation: 'בתורה: וּפְקוּדֵי בְּנֵי גֵרְשׁוֹן לְמִשְׁפְּחוֹתָם וּלְבֵית אֲבֹתָם'
+    answers:
+    - אבהתהון
+    options:
+    - אבהתהון
+    - בוכרא
+    - זרעית
+    lexemes:
+    - avhathon
+    source: תרגום אונקלוס, במדבר ד, לח
+    vocalized: וּמִנְיָנֵי בְּנֵי גֵרְשׁוֹן לְזַרְעֲיַתְהוֹן וּלְבֵית אֲבָהַתְהוֹן
+  - id: o04-l2-40
+    type: fill_blank
+    sentence: לזרח ___ זרח לשאול זרעית שאול
+    translation: 'בתורה: לְזֶרַח מִשְׁפַּחַת הַזַּרְחִי לְשָׁאוּל מִשְׁפַּחַת הַשָּׁאוּלִי'
+    answers:
+    - זרעית
+    options:
+    - זרעית
+    - מלאכא
+    - עממיא
+    lexemes:
+    - zareit
+    source: תרגום אונקלוס, במדבר כו, יג
+    vocalized: לְזֶרַח זַרְעִית זֶרַח לְשָׁאוּל זַרְעִית שָׁאוּל
+  - id: o04-l2-41
+    type: fill_blank
+    sentence: שמעו ___ וזעו דחלא אחדתנון דהוו יתבין בפלשת
+    translation: 'בתורה: שָׁמְעוּ עַמִּים יִרְגָּזוּן חִיל אָחַז יֹשְׁבֵי פְּלָשֶׁת'
+    answers:
+    - עממיא
+    options:
+    - עממיא
+    - בוכרא
+    - אתתא
+    lexemes:
+    - amamaya
+    source: תרגום אונקלוס, שמות טו, יד
+    vocalized: שְׁמָעוּ עַמְמַיָא וְזָעוּ דַחֲלָא אַחֲדָתְנוּן דַהֲווֹ יָתְבִין בִּפְלָשֶׁת
+  - id: o04-l2-42
+    type: fill_blank
+    sentence: וקרא ___ דיי לאברהם תנינות מן שמיא
+    translation: 'בתורה: וַיִּקְרָא מַלְאַךְ יְהוָה אֶל־אַבְרָהָם שֵׁנִית מִן־הַשָּׁמָיִם'
+    answers:
+    - מלאכא
+    options:
+    - מלאכא
+    - אמתא
+    - דכורא
+    lexemes:
+    - malacha
+    source: תרגום אונקלוס, בראשית כב, טו
+    vocalized: וּקְרָא מַלְאָכָא דַּיְיָ לְאַבְרָהָם תִּנְיָנוּת מִן שְׁמַיָּא
+- id: o04-l3
+  kind: review
+  title:
+    he: חזרה וקריאה
+    en: Review and reading
+  exercises:
+  - id: o04-l3-43
+    type: reading
+    kind: תרגום אונקלוס, בראשית כד
+    title: יצחק ורבקה
+    text: ואעלה יצחק למשכנא וחזא והא תקנין עובדהא כעובדי שרה אמה ונסיב ית רבקה והות לה לאנתו ורחימה ואתנחם יצחק בתר דמיתת אמה
+    translation: וַיְבִאֶהָ יִצְחָק הָאֹהֱלָה שָׂרָה אִמּוֹ וַיִּקַּח אֶת־רִבְקָה וַתְּהִי־לוֹ לְאִשָּׁה וַיֶּאֱהָבֶהָ וַיִּנָּחֵם יִצְחָק אַחֲרֵי אִמּוֹ
+    lexemes:
+    - itta
+    - insha
+    - gavraya
+    - duchra
+    - buchra
+    - berateh
+    - avdohi
+    - amta
+    source: תרגום אונקלוס, בראשית כד, סז
+    vocalized: וְאַעֲלַהּ יִצְחָק לְמַשְׁכְּנָא וַחֲזָא וְהָא תַקְּנִין עוֹבָדָהָא כְּעוֹבָדֵי שָׂרָה אִמֵּהּ וּנְסֵיב יָת רִבְקָה וַהֲוַת לֵהּ לְאִנְּתּוּ וּרְחִימַהּ וְאִתְנְחֵם יִצְחָק בָּתַר דְּמִיתַת אִמֵּהּ
+  - id: o04-l3-44
+    type: multiple_choice
+    prompt: '״אתתא״ פירושו:'
+    options:
+    - אישה
+    - אות
+    - אתה
+    correct: 0
+    lexemes:
+    - itta
+  - id: o04-l3-45
+    type: multiple_choice
+    prompt: '״עממיא״ פירושו:'
+    options:
+    - העמים
+    - העם שלנו
+    - עם
+    correct: 0
+    lexemes:
+    - amamaya
+  - id: o04-l3-46
+    type: dialogue
+    scene: אמא מנגבת עין.
+    lines:
+    - speaker: chana
+      text: ״והות ליה לאתו, ורחמה״. סבא היה מקריא את זה לסבתא.
+      translation: חנה
+    - speaker: yisrael
+      text: 'בשבוע הבא: פעלים. מי אמר, מי הלך, מי לקח.'
+      translation: ההמשך
+  - id: o04-l3-47
+    type: match_pairs
+    pairs:
+    - - אתתא
+      - אישה
+    - - אנשא
+      - האדם, בני האדם
+    - - גבריא
+      - הגברים, האנשים
+    - - דכורא
+      - זכר
+    - - בוכרא
+      - בכור
+    - - ברתה
+      - בתה
+    lexemes:
+    - itta
+    - insha
+    - gavraya
+    - duchra
+    - buchra
+    - berateh

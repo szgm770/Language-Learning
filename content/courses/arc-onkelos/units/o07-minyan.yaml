@@ -1,0 +1,623 @@
+id: o07-minyan
+cefr: A2
+scene: study
+title:
+  he: תרין וחמשא
+  en: Two and five
+story: 'פרשת במדבר: מספרים, חודשים וזמנים. איתן מגלה שהמספרים של אונקלוס דומים לגמרא, עם כמה הבדלים.'
+canDo:
+- 'להבין מספרים: תרין, תרתין, חמשא, עסרא, עסרין, אלפין'
+- 'להבין סדר: קדמאה, תליתאה, שביעאה'
+- להבין זמנא, זמנין, ירחא, רמשא
+vocabulary:
+- id: trein
+  text: תרין
+  translation: שניים
+  pos: number
+  example:
+    text: כתפן עבדו לה מלפפן על תרין סטרוהי יתלפף
+    translation: 'בתורה: כְּתֵפֹת עָשׂוּ־לוֹ חֹבְרֹת עַל־שְׁנֵי קצוותו [קְצוֹתָיו] חֻבָּר'
+    source: תרגום אונקלוס, שמות לט, ד
+    vocalized: כַּתְפָּן עֲבָדוּ לֵהּ מְלַפְּפָן עַל תְּרֵין סִטְרוֹהִי יִתְלָפֵף
+- id: tartein
+  text: תרתין
+  translation: שתיים
+  pos: number
+  example:
+    text: ועדיאן תרתין בנת לוט מאבוהן
+    translation: 'בתורה: וַתַּהֲרֶיןָ שְׁתֵּי בְנוֹת־לוֹט מֵאֲבִיהֶן'
+    source: תרגום אונקלוס, בראשית יט, לו
+    vocalized: וְעַדִּיאַן תַּרְתֵּין בְּנַת לוֹט מֵאֲבוּהֶן
+- id: chamsha
+  text: חמשא
+  translation: חמישה
+  pos: number
+  example:
+    text: ותעבד עברי דאעי שטין חמשא לדפי סטר משכנא חד
+    translation: 'בתורה: וְעָשִׂיתָ בְרִיחִם עֲצֵי שִׁטִּים חֲמִשָּׁה לְקַרְשֵׁי צֶלַע־הַמִּשְׁכָּן הָאֶחָד'
+    source: תרגום אונקלוס, שמות כו, כו
+    vocalized: וְתַעְבֵּד עַבְּרֵי דְאָעֵי שִׁטִין חַמְשָׁא לְדַפֵּי סְטַּר מַשְׁכְּנָא חָד
+- id: asra
+  text: עסרא
+  translation: עשרה
+  pos: number
+  example:
+    text: ועמרא חד מן עסרא בתלת סאין הוא
+    translation: 'בתורה: וְהָעֹמֶר עֲשִׂרִית הָאֵיפָה הוּא'
+    source: תרגום אונקלוס, שמות טז, לו
+    vocalized: וְעֻמְרָא חַד מִן עַסְרָא בִּתְלָת סְאִין הוּא
+- id: asrin
+  text: עסרין
+  translation: עשרים
+  pos: number
+  example:
+    text: ולסטר משכנא תניתא לרוח צפונא עסרין דפין
+    translation: 'בתורה: וּלְצֶלַע הַמִּשְׁכָּן הַשֵּׁנִית לִפְאַת צָפוֹן עֶשְׂרִים קָרֶשׁ'
+    source: תרגום אונקלוס, שמות כו, כ
+    vocalized: וְלִסְטַר מַשְׁכְּנָא תִּנְיֵתָא לְרוּחַ צִפּוּנָא עֶסְרִין דַפִּין
+- id: chamshin
+  text: חמשין
+  translation: חמישים
+  pos: number
+  example:
+    text: ולרוח קדומא מדינחא חמשין אמין
+    translation: 'בתורה: וְלִפְאַת קֵדְמָה מִזְרָחָה חֲמִשִּׁים אַמָּה'
+    source: תרגום אונקלוס, שמות לח, יג
+    vocalized: וּלְרוּחַ קִדוּמָא מָדִינְחָא חַמְשִׁין אַמִין
+- id: alfin
+  text: אלפין
+  translation: אלפים
+  pos: number
+  example:
+    text: ותורי שבעין ותרין אלפין
+    translation: 'בתורה: וּבָקָר שְׁנַיִם וְשִׁבְעִים אָלֶף'
+    source: תרגום אונקלוס, במדבר לא, לג
+    vocalized: וְתוֹרֵי שַׁבְעִין וּתְרֵין אַלְפִין
+- id: kadmaa
+  text: קדמאה
+  translation: הראשון
+  pos: adjective
+  example:
+    text: והוה בירחא קדמאה בשתא תניתא בחד לירחא אתקם משכנא
+    translation: 'בתורה: וַיְהִי בַּחֹדֶשׁ הָרִאשׁוֹן בַּשָּׁנָה הַשֵּׁנִית בְּאֶחָד לַחֹדֶשׁ הוּקַם הַמִּשְׁכָּן'
+    source: תרגום אונקלוס, שמות מ, יז
+    vocalized: וַהֲוָה בְּיַרְחָא קַדְמָאָה בְּשַׁתָּא תִנְיֵתָא בְּחַד לְיַרְחָא אִתָּקַם מַשְׁכְּנָא
+- id: telitaa
+  text: תליתאה
+  translation: השלישי
+  pos: adjective
+  example:
+    text: וסדרא תליתאה קנכירי טרקיא ועין עגלא
+    translation: 'בתורה: וְהַטּוּר הַשְּׁלִישִׁי לֶשֶׁם שְׁבוֹ וְאַחְלָמָה'
+    source: תרגום אונקלוס, שמות כח, יט
+    vocalized: וְסִדְרָא תְּלִיתָאָה קַנְכִּירֵי טַרְקְיָא וְעֵין עֶגְלָא
+- id: shviaa
+  text: שביעאה
+  translation: השביעי
+  pos: adjective
+  example:
+    text: ונחו עמא ביומא שביעאה
+    translation: 'בתורה: וַיִּשְׁבְּתוּ הָעָם בַּיּוֹם הַשְּׁבִעִי'
+    source: תרגום אונקלוס, שמות טז, ל
+    vocalized: וְנָחוּ עַמָא בְּיוֹמָא שְׁבִיעָאָה
+- id: zimna-o
+  text: זמנא
+  translation: הפעם; זמן
+  pos: noun
+  example:
+    text: ועאל משה ואהרן לקדם משכן זמנא
+    translation: 'בתורה: וַיָּבֹא מֹשֶׁה וְאַהֲרֹן אֶל־פְּנֵי אֹהֶל מוֹעֵד'
+    source: תרגום אונקלוס, במדבר יז, ח
+    vocalized: וְעָאל משֶׁה וְאַהֲרֹן לָקֳדָם מַשְׁכַּן זִמְנָא
+- id: yarcha
+  text: ירחא
+  translation: החודש
+  pos: noun
+  example:
+    text: ירחא הדין לכון ריש ירחין קדמאי הוא לכון לירחי שתא
+    translation: 'בתורה: הַחֹדֶשׁ הַזֶּה לָכֶם רֹאשׁ חֳדָשִׁים רִאשׁוֹן הוּא לָכֶם לְחָדְשֵׁי הַשָּׁנָה'
+    source: תרגום אונקלוס, שמות יב, ב
+    vocalized: יַרְחָא הָדֵין לְכוֹן רֵישׁ יַרְחִין קַדְמַאי הוּא לְכוֹן לְיַרְחֵי שַׁתָּא
+- id: ramsha
+  text: רמשא
+  translation: ערב
+  pos: noun
+  example:
+    text: וכל דיטולמנבלתהון יצבע לבושוהי ויהי מסאב עד רמשא
+    translation: 'בתורה: וְכָל־הַנֹּשֵׂא מִנִּבְלָתָם יְכַבֵּס בְּגָדָיו וְטָמֵא עַד־הָעָרֶב'
+    source: תרגום אונקלוס, ויקרא יא, כה
+    vocalized: וְכָל דְיִטוֹל:מִנְבִלְתְּהוֹן יְצַבַּע לְבוּשׁוֹהִי וִיהֵי מְסָאָב עַד רַמְשָׁא
+grammar: []
+lessons:
+- id: o07-l1
+  kind: new
+  title:
+    he: מספרים
+    en: Numbers
+  exercises:
+  - id: o07-l1-01
+    type: tip
+    title: מספרים
+    text: '**תרין** / **תרתין** = שניים / שתיים (בגמרא: תרי / תרתי).
+
+
+      **עסרא** = עשרה (בגמרא: עשרה, עסרה). **עסרין** = עשרים. **אלפין** = אלפים.
+
+
+      סדר: **קדמאה** = ראשון, **תליתאה** = שלישי, **שביעאה** = שביעי.'
+  - id: o07-l1-02
+    type: learn
+    lexeme: trein
+  - id: o07-l1-03
+    type: learn
+    lexeme: tartein
+  - id: o07-l1-04
+    type: learn
+    lexeme: chamsha
+  - id: o07-l1-05
+    type: learn
+    lexeme: asra
+  - id: o07-l1-06
+    type: learn
+    lexeme: asrin
+  - id: o07-l1-07
+    type: learn
+    lexeme: chamshin
+  - id: o07-l1-08
+    type: learn
+    lexeme: alfin
+  - id: o07-l1-09
+    type: match_pairs
+    pairs:
+    - - תרין
+      - שניים
+    - - תרתין
+      - שתיים
+    - - חמשא
+      - חמישה
+    - - עסרא
+      - עשרה
+    - - עסרין
+      - עשרים
+    - - חמשין
+      - חמישים
+    lexemes:
+    - trein
+    - tartein
+    - chamsha
+    - asra
+    - asrin
+    - chamshin
+  - id: o07-l1-10
+    type: multiple_choice
+    prompt: מה פירוש תרין?
+    options:
+    - שניים
+    - חמישים
+    - עשרים
+    correct: 0
+    lexemes:
+    - trein
+  - id: o07-l1-11
+    type: multiple_choice
+    prompt: מה פירוש תרתין?
+    options:
+    - שתיים
+    - אלפים
+    - עשרה
+    correct: 0
+    lexemes:
+    - tartein
+  - id: o07-l1-12
+    type: multiple_choice
+    prompt: מה פירוש חמשא?
+    options:
+    - חמישה
+    - השלישי
+    - חמישים
+    correct: 0
+    lexemes:
+    - chamsha
+  - id: o07-l1-13
+    type: multiple_choice
+    prompt: מה פירוש עסרא?
+    options:
+    - עשרה
+    - חמישים
+    - חמישה
+    correct: 0
+    lexemes:
+    - asra
+  - id: o07-l1-14
+    type: multiple_choice
+    prompt: מה פירוש עסרין?
+    options:
+    - עשרים
+    - הראשון
+    - אלפים
+    correct: 0
+    lexemes:
+    - asrin
+  - id: o07-l1-15
+    type: multiple_choice
+    prompt: מה פירוש חמשין?
+    options:
+    - חמישים
+    - הראשון
+    - חמישה
+    correct: 0
+    lexemes:
+    - chamshin
+  - id: o07-l1-16
+    type: multiple_choice
+    prompt: מה פירוש אלפין?
+    options:
+    - אלפים
+    - עשרה
+    - שניים
+    correct: 0
+    lexemes:
+    - alfin
+  - id: o07-l1-17
+    type: fill_blank
+    sentence: כתפן עבדו לה מלפפן על ___ סטרוהי יתלפף
+    translation: 'בתורה: כְּתֵפֹת עָשׂוּ־לוֹ חֹבְרֹת עַל־שְׁנֵי קצוותו [קְצוֹתָיו] חֻבָּר'
+    answers:
+    - תרין
+    options:
+    - תרין
+    - עסרא
+    - שביעאה
+    lexemes:
+    - trein
+    source: תרגום אונקלוס, שמות לט, ד
+    vocalized: כַּתְפָּן עֲבָדוּ לֵהּ מְלַפְּפָן עַל תְּרֵין סִטְרוֹהִי יִתְלָפֵף
+  - id: o07-l1-18
+    type: fill_blank
+    sentence: ועדיאן ___ בנת לוט מאבוהן
+    translation: 'בתורה: וַתַּהֲרֶיןָ שְׁתֵּי בְנוֹת־לוֹט מֵאֲבִיהֶן'
+    answers:
+    - תרתין
+    options:
+    - תרתין
+    - ירחא
+    - עסרין
+    lexemes:
+    - tartein
+    source: תרגום אונקלוס, בראשית יט, לו
+    vocalized: וְעַדִּיאַן תַּרְתֵּין בְּנַת לוֹט מֵאֲבוּהֶן
+  - id: o07-l1-19
+    type: fill_blank
+    sentence: ותעבד עברי דאעי שטין ___ לדפי סטר משכנא חד
+    translation: 'בתורה: וְעָשִׂיתָ בְרִיחִם עֲצֵי שִׁטִּים חֲמִשָּׁה לְקַרְשֵׁי צֶלַע־הַמִּשְׁכָּן הָאֶחָד'
+    answers:
+    - חמשא
+    options:
+    - חמשא
+    - עסרין
+    - קדמאה
+    lexemes:
+    - chamsha
+    source: תרגום אונקלוס, שמות כו, כו
+    vocalized: וְתַעְבֵּד עַבְּרֵי דְאָעֵי שִׁטִין חַמְשָׁא לְדַפֵּי סְטַּר מַשְׁכְּנָא חָד
+  - id: o07-l1-20
+    type: fill_blank
+    sentence: ועמרא חד מן ___ בתלת סאין הוא
+    translation: 'בתורה: וְהָעֹמֶר עֲשִׂרִית הָאֵיפָה הוּא'
+    answers:
+    - עסרא
+    options:
+    - עסרא
+    - שביעאה
+    - חמשין
+    lexemes:
+    - asra
+    source: תרגום אונקלוס, שמות טז, לו
+    vocalized: וְעֻמְרָא חַד מִן עַסְרָא בִּתְלָת סְאִין הוּא
+  - id: o07-l1-21
+    type: fill_blank
+    sentence: ולסטר משכנא תניתא לרוח צפונא ___ דפין
+    translation: 'בתורה: וּלְצֶלַע הַמִּשְׁכָּן הַשֵּׁנִית לִפְאַת צָפוֹן עֶשְׂרִים קָרֶשׁ'
+    answers:
+    - עסרין
+    options:
+    - עסרין
+    - זמנא
+    - רמשא
+    lexemes:
+    - asrin
+    source: תרגום אונקלוס, שמות כו, כ
+    vocalized: וְלִסְטַר מַשְׁכְּנָא תִּנְיֵתָא לְרוּחַ צִפּוּנָא עֶסְרִין דַפִּין
+  - id: o07-l1-22
+    type: fill_blank
+    sentence: ולרוח קדומא מדינחא ___ אמין
+    translation: 'בתורה: וְלִפְאַת קֵדְמָה מִזְרָחָה חֲמִשִּׁים אַמָּה'
+    answers:
+    - חמשין
+    options:
+    - חמשין
+    - קדמאה
+    - ירחא
+    lexemes:
+    - chamshin
+    source: תרגום אונקלוס, שמות לח, יג
+    vocalized: וּלְרוּחַ קִדוּמָא מָדִינְחָא חַמְשִׁין אַמִין
+  - id: o07-l1-23
+    type: fill_blank
+    sentence: ותורי שבעין ותרין ___
+    translation: 'בתורה: וּבָקָר שְׁנַיִם וְשִׁבְעִים אָלֶף'
+    answers:
+    - אלפין
+    options:
+    - אלפין
+    - זמנא
+    - רמשא
+    lexemes:
+    - alfin
+    source: תרגום אונקלוס, במדבר לא, לג
+    vocalized: וְתוֹרֵי שַׁבְעִין וּתְרֵין אַלְפִין
+- id: o07-l2
+  kind: new
+  title:
+    he: זמנים
+    en: Times
+  exercises:
+  - id: o07-l2-24
+    type: learn
+    lexeme: kadmaa
+  - id: o07-l2-25
+    type: learn
+    lexeme: telitaa
+  - id: o07-l2-26
+    type: learn
+    lexeme: shviaa
+  - id: o07-l2-27
+    type: learn
+    lexeme: zimna-o
+  - id: o07-l2-28
+    type: learn
+    lexeme: yarcha
+  - id: o07-l2-29
+    type: learn
+    lexeme: ramsha
+  - id: o07-l2-30
+    type: match_pairs
+    pairs:
+    - - קדמאה
+      - הראשון
+    - - תליתאה
+      - השלישי
+    - - שביעאה
+      - השביעי
+    - - זמנא
+      - הפעם; זמן
+    - - ירחא
+      - החודש
+    - - רמשא
+      - ערב
+    lexemes:
+    - kadmaa
+    - telitaa
+    - shviaa
+    - zimna-o
+    - yarcha
+    - ramsha
+  - id: o07-l2-31
+    type: multiple_choice
+    prompt: מה פירוש קדמאה?
+    options:
+    - הראשון
+    - הפעם; זמן
+    - אלפים
+    correct: 0
+    lexemes:
+    - kadmaa
+  - id: o07-l2-32
+    type: multiple_choice
+    prompt: מה פירוש תליתאה?
+    options:
+    - השלישי
+    - חמישה
+    - הפעם; זמן
+    correct: 0
+    lexemes:
+    - telitaa
+  - id: o07-l2-33
+    type: multiple_choice
+    prompt: מה פירוש שביעאה?
+    options:
+    - השביעי
+    - חמישים
+    - חמישה
+    correct: 0
+    lexemes:
+    - shviaa
+  - id: o07-l2-34
+    type: multiple_choice
+    prompt: מה פירוש זמנא?
+    options:
+    - הפעם; זמן
+    - החודש
+    - ערב
+    correct: 0
+    lexemes:
+    - zimna-o
+  - id: o07-l2-35
+    type: multiple_choice
+    prompt: מה פירוש ירחא?
+    options:
+    - החודש
+    - חמישה
+    - השלישי
+    correct: 0
+    lexemes:
+    - yarcha
+  - id: o07-l2-36
+    type: multiple_choice
+    prompt: מה פירוש רמשא?
+    options:
+    - ערב
+    - חמישה
+    - שתיים
+    correct: 0
+    lexemes:
+    - ramsha
+  - id: o07-l2-37
+    type: fill_blank
+    sentence: והוה בירחא ___ בשתא תניתא בחד לירחא אתקם משכנא
+    translation: 'בתורה: וַיְהִי בַּחֹדֶשׁ הָרִאשׁוֹן בַּשָּׁנָה הַשֵּׁנִית בְּאֶחָד לַחֹדֶשׁ הוּקַם הַמִּשְׁכָּן'
+    answers:
+    - קדמאה
+    options:
+    - קדמאה
+    - תליתאה
+    - זמנא
+    lexemes:
+    - kadmaa
+    source: תרגום אונקלוס, שמות מ, יז
+    vocalized: וַהֲוָה בְּיַרְחָא קַדְמָאָה בְּשַׁתָּא תִנְיֵתָא בְּחַד לְיַרְחָא אִתָּקַם מַשְׁכְּנָא
+  - id: o07-l2-38
+    type: fill_blank
+    sentence: וסדרא ___ קנכירי טרקיא ועין עגלא
+    translation: 'בתורה: וְהַטּוּר הַשְּׁלִישִׁי לֶשֶׁם שְׁבוֹ וְאַחְלָמָה'
+    answers:
+    - תליתאה
+    options:
+    - תליתאה
+    - זמנא
+    - ירחא
+    lexemes:
+    - telitaa
+    source: תרגום אונקלוס, שמות כח, יט
+    vocalized: וְסִדְרָא תְּלִיתָאָה קַנְכִּירֵי טַרְקְיָא וְעֵין עֶגְלָא
+  - id: o07-l2-39
+    type: fill_blank
+    sentence: ונחו עמא ביומא ___
+    translation: 'בתורה: וַיִּשְׁבְּתוּ הָעָם בַּיּוֹם הַשְּׁבִעִי'
+    answers:
+    - שביעאה
+    options:
+    - שביעאה
+    - תרתין
+    - תרין
+    lexemes:
+    - shviaa
+    source: תרגום אונקלוס, שמות טז, ל
+    vocalized: וְנָחוּ עַמָא בְּיוֹמָא שְׁבִיעָאָה
+  - id: o07-l2-40
+    type: fill_blank
+    sentence: ועאל משה ואהרן לקדם משכן ___
+    translation: 'בתורה: וַיָּבֹא מֹשֶׁה וְאַהֲרֹן אֶל־פְּנֵי אֹהֶל מוֹעֵד'
+    answers:
+    - זמנא
+    options:
+    - זמנא
+    - קדמאה
+    - תרין
+    lexemes:
+    - zimna-o
+    source: תרגום אונקלוס, במדבר יז, ח
+    vocalized: וְעָאל משֶׁה וְאַהֲרֹן לָקֳדָם מַשְׁכַּן זִמְנָא
+  - id: o07-l2-41
+    type: fill_blank
+    sentence: ___ הדין לכון ריש ירחין קדמאי הוא לכון לירחי שתא
+    translation: 'בתורה: הַחֹדֶשׁ הַזֶּה לָכֶם רֹאשׁ חֳדָשִׁים רִאשׁוֹן הוּא לָכֶם לְחָדְשֵׁי הַשָּׁנָה'
+    answers:
+    - ירחא
+    options:
+    - ירחא
+    - אלפין
+    - חמשין
+    lexemes:
+    - yarcha
+    source: תרגום אונקלוס, שמות יב, ב
+    vocalized: יַרְחָא הָדֵין לְכוֹן רֵישׁ יַרְחִין קַדְמַאי הוּא לְכוֹן לְיַרְחֵי שַׁתָּא
+  - id: o07-l2-42
+    type: fill_blank
+    sentence: וכל דיטולמנבלתהון יצבע לבושוהי ויהי מסאב עד ___
+    translation: 'בתורה: וְכָל־הַנֹּשֵׂא מִנִּבְלָתָם יְכַבֵּס בְּגָדָיו וְטָמֵא עַד־הָעָרֶב'
+    answers:
+    - רמשא
+    options:
+    - רמשא
+    - עסרין
+    - זמנא
+    lexemes:
+    - ramsha
+    source: תרגום אונקלוס, ויקרא יא, כה
+    vocalized: וְכָל דְיִטוֹל:מִנְבִלְתְּהוֹן יְצַבַּע לְבוּשׁוֹהִי וִיהֵי מְסָאָב עַד רַמְשָׁא
+- id: o07-l3
+  kind: review
+  title:
+    he: חזרה וקריאה
+    en: Review and reading
+  exercises:
+  - id: o07-l3-43
+    type: reading
+    kind: תרגום אונקלוס, בראשית א
+    title: יום תניין
+    text: וקרא יי לרקיעא שמיא והוה רמש והוה צפר יום תנין
+    translation: וַיִּקְרָא אֱלֹהִים לָרָקִיעַ שָׁמָיִם וַיְהִי־עֶרֶב וַיְהִי־בֹקֶר יוֹם שֵׁנִי
+    lexemes:
+    - trein
+    - tartein
+    - chamsha
+    - asra
+    - asrin
+    - chamshin
+    - alfin
+    - kadmaa
+    source: תרגום אונקלוס, בראשית א, ח
+    vocalized: וּקְרָא יְיָ לִרְקִיעָא שְׁמַיָּא וַהֲוָה רְמַשׁ וַהֲוָה צְפַר יוֹם תִּנְיָן
+  - id: o07-l3-44
+    type: multiple_choice
+    prompt: '״תרין״ פירושו:'
+    options:
+    - שניים
+    - שלושה
+    - תריסר
+    correct: 0
+    lexemes:
+    - trein
+  - id: o07-l3-45
+    type: multiple_choice
+    prompt: '״רמשא״ פירושו:'
+    options:
+    - ערב
+    - רמש
+    - בוקר
+    correct: 0
+    lexemes:
+    - ramsha
+  - id: o07-l3-46
+    type: dialogue
+    scene: בסוף הלימוד.
+    lines:
+    - speaker: yisrael
+      text: 'בשבוע הבא הדבר הכי חשוב אצל אונקלוס: איך הוא מדבר על הקב״ה.'
+      translation: ההמשך
+    - speaker: eitan
+      text: זו בדיוק השאלה שרציתי לשאול.
+      translation: איתן
+  - id: o07-l3-47
+    type: match_pairs
+    pairs:
+    - - תרין
+      - שניים
+    - - תרתין
+      - שתיים
+    - - חמשא
+      - חמישה
+    - - עסרא
+      - עשרה
+    - - עסרין
+      - עשרים
+    - - חמשין
+      - חמישים
+    lexemes:
+    - trein
+    - tartein
+    - chamsha
+    - asra
+    - asrin
+    - chamshin

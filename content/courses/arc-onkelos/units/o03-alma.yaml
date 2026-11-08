@@ -1,0 +1,665 @@
+id: o03-alma
+cefr: A1
+scene: study
+title:
+  he: שמיא וארעא
+  en: Heaven and earth
+story: 'מילים של העולם אצל אונקלוס: ים, הר, שדה, עץ, ענן, וחיות. חנה מצטרפת עם מפה של ארץ ישראל.'
+canDo:
+- 'להבין שמות של טבע: ימא, טורא, חקלא, אילנא, עננא'
+- 'להבין שמות של בעלי חיים: בעירא, חיתא, ענא, עופא'
+- להבין שמיא, נהורא, חשוכא
+vocabulary:
+- id: shmaya
+  text: שמיא
+  translation: שמיים
+  pos: noun
+  example:
+    text: ואשתכללו שמיא וארעא וכל חיליהון
+    translation: 'בתורה: וַיְכֻלּוּ הַשָּׁמַיִם וְהָאָרֶץ וְכָל־צְבָאָם'
+    source: תרגום אונקלוס, בראשית ב, א
+    vocalized: וְאִשְׁתַּכְלָלוּ שְׁמַיָּא וְאַרְעָא וְכָל חֵילֵיהוֹן
+- id: yama
+  text: ימא
+  translation: הים
+  pos: noun
+  example:
+    text: ונטלו מאילם ושרו על ימא דסוף
+    translation: 'בתורה: וַיִּסְעוּ מֵאֵילִם וַיַּחֲנוּ עַל־יַם־סוּף'
+    source: תרגום אונקלוס, במדבר לג, י
+    vocalized: וּנְטָלוּ מֵאֵילִם וּשְׁרוֹ עַל יַמָא דְסוּף
+- id: tura
+  text: טורא
+  translation: ההר
+  pos: noun
+  example:
+    text: ונטלו מהור טורא ושרו בצלמונה
+    translation: 'בתורה: וַיִּסְעוּ מֵהֹר הָהָר וַיַּחֲנוּ בְּצַלְמֹנָה'
+    source: תרגום אונקלוס, במדבר לג, מא
+    vocalized: וּנְטָלוּ מֵהוֹר טוּרָא וּשְׁרוֹ בְּצַלְמוֹנָה
+- id: chakla
+  text: חקלא
+  translation: השדה
+  pos: noun
+  example:
+    text: זביני חקלא ומערתא די בה מן בני חתאה
+    translation: 'בתורה: מִקְנֵה הַשָּׂדֶה וְהַמְּעָרָה אֲשֶׁר־בּוֹ מֵאֵת בְּנֵי־חֵת'
+    source: תרגום אונקלוס, בראשית מט, לב
+    vocalized: זְבִינֵי חַקְלָא וּמְעַרְתָּא דִי בֵהּ מִן בְּנֵי חִתָּאָהּ
+- id: ilana
+  text: אילנא
+  translation: העץ
+  pos: noun
+  example:
+    text: יסבון כען זעיר מיא ואסחו רגליכון ואסתמיכו תחות אילנא
+    translation: 'בתורה: יֻקַּח־נָא מְעַט־מַיִם וְרַחֲצוּ רַגְלֵיכֶם וְהִשָּׁעֲנוּ תַּחַת הָעֵץ'
+    source: תרגום אונקלוס, בראשית יח, ד
+    vocalized: יִסְּבוּן כְּעַן זְעֵיר מַיָּא וְאַסְחוּ רַגְלֵיכוֹן וְאִסְתְּמִיכוּ תְּחוֹת אִילָנָא
+- id: anana
+  text: עננא
+  translation: הענן
+  pos: noun
+  example:
+    text: וסלק משה לטורא וחפא עננא ית טורא
+    translation: 'בתורה: וַיַּעַל מֹשֶׁה אֶל־הָהָר וַיְכַס הֶעָנָן אֶת־הָהָר'
+    source: תרגום אונקלוס, שמות כד, טו
+    vocalized: וּסְלֵק משֶׁה לְטוּרָא וַחֲפָא עֲנָנָא יָת טוּרָא
+- id: ishta
+  text: אשתא
+  translation: האש
+  pos: noun
+  example:
+    text: לא תבערון אשתא בכל מותבניכון ביומא דשבתא
+    translation: 'בתורה: לֹא־תְבַעֲרוּ אֵשׁ בְּכֹל מֹשְׁבֹתֵיכֶם בְּיוֹם הַשַּׁבָּת'
+    source: תרגום אונקלוס, שמות לה, ג
+    vocalized: לָא תְבַעֲרוּן אֶשָׁתָא בְּכֹל מוֹתְבָנֵיכוֹן בְּיוֹמָא דְשַׁבְּתָא
+- id: beira
+  text: בעירא
+  translation: בהמה
+  pos: noun
+  example:
+    text: וכל בעירא ועדי קרויא בזנא לנא
+    translation: 'בתורה: וְכָל־הַבְּהֵמָה וּשְׁלַל הֶעָרִים בַּזּוֹנוּ לָנוּ'
+    source: תרגום אונקלוס, דברים ג, ז
+    vocalized: וְכָל בְּעִירָא וַעֲדִי קִרְוַיָא בַּזָנָא לָנָא
+- id: cheita
+  text: חיתא
+  translation: חיה
+  pos: noun
+  example:
+    text: והוה כד דחילא חיתא מן קדם יי ועבד להון בתין
+    translation: 'בתורה: וַיְהִי כִּי־יָרְאוּ הַמְיַלְּדֹת אֶת־הָאֱלֹהִים וַיַּעַשׂ לָהֶם בָּתִּים'
+    source: תרגום אונקלוס, שמות א, כא
+    vocalized: וַהֲוָה כַּד דְחִילָא חַיָתָא מִן קֳדָם יְיָ וַעֲבַד לְהוֹן בָּתִּין
+- id: ana
+  text: ענא
+  translation: צאן
+  pos: noun
+  example:
+    text: ואזלו אחוהי למרעי ית ענא דאבוהון בשכם
+    translation: 'בתורה: וַיֵּלְכוּ אֶחָיו לִרְעוֹת אֶת־צֹאן אֲבִיהֶם בִּשְׁכֶם'
+    source: תרגום אונקלוס, בראשית לז, יב
+    vocalized: וַאֲזָלוּ אֲחוֹהִי לְמִרְעֵי יָת עָנָא דַאֲבוּהוֹן בִּשְׁכֶם
+- id: ofa
+  text: עופא
+  translation: עוף
+  pos: noun
+  example:
+    text: כל עופא דכי תיכלון
+    translation: 'בתורה: כָּל־עוֹף טָהוֹר תֹּאכֵלוּ'
+    source: תרגום אונקלוס, דברים יד, כ
+    vocalized: כָּל עוֹפָא דְכֵי תֵּיכְלוּן
+- id: turei
+  text: תורי
+  translation: שוורים
+  pos: noun
+  example:
+    text: בדא יהי עלל אהרן לקודשא בתור בר תורי לחטאתא ודכר לעלתא
+    translation: 'בתורה: בְּזֹאת יָבֹא אַהֲרֹן אֶל־הַקֹּדֶשׁ בְּפַר בֶּן־בָּקָר לְחַטָּאת וְאַיִל לְעֹלָה'
+    source: תרגום אונקלוס, ויקרא טז, ג
+    vocalized: בְּדָא יְהֵי עָלֵל אַהֲרֹן לְקוּדְשָׁא בְּתוֹר בַּר תּוֹרֵי לְחַטָּאתָא וּדְכַר לַעֲלָתָא
+- id: chashocha
+  text: חשוכא
+  translation: חושך
+  pos: noun
+  example:
+    text: ולמשלט ביממא ובליליא ולאפרשא בין נהורא ובין חשוכא וחזא יי ארי טב
+    translation: 'בתורה: וְלִמְשֹׁל בַּיּוֹם וּבַלַּיְלָה וּלֲהַבְדִּיל בֵּין הָאוֹר וּבֵין הַחֹשֶׁךְ וַיַּרְא אֱלֹהִים כִּי־טוֹב'
+    source: תרגום אונקלוס, בראשית א, יח
+    vocalized: וּלְמִשְׁלַט בִּימָמָא וּבְלֵילְיָא וּלְאַפְרָשָׁא בֵּין נְהוֹרָא וּבֵין חֲשׁוֹכָא וַחֲזָא יְיָ אֲרֵי טָב
+- id: nehora
+  text: נהורא
+  translation: אור
+  pos: noun
+  example:
+    text: ואמר יי יהי נהורא והוה נהורא
+    translation: 'בתורה: וַיֹּאמֶר אֱלֹהִים יְהִי אוֹר וַיְהִי־אוֹר'
+    source: תרגום אונקלוס, בראשית א, ג
+    vocalized: וַאֲמַר יְיָ יְהֵי נְהוֹרָא וַהֲוָה נְהוֹרָא
+grammar: []
+lessons:
+- id: o03-l1
+  kind: new
+  title:
+    he: ים והר
+    en: Sea and mountain
+  exercises:
+  - id: o03-l1-01
+    type: dialogue
+    scene: חנה פורשת מפה על השולחן.
+    lines:
+    - speaker: chana
+      text: אונקלוס תרגם לארמית כדי שאנשים יבינו. ״ימא״, ״טורא״, ״חקלא״, מילים פשוטות של כל יום.
+      translation: חנה
+    - speaker: yisrael
+      text: ו״טורא״, ההר, הוא קודם כול טורא דסיני.
+      translation: טורא
+  - id: o03-l1-02
+    type: learn
+    lexeme: shmaya
+  - id: o03-l1-03
+    type: learn
+    lexeme: yama
+  - id: o03-l1-04
+    type: learn
+    lexeme: tura
+  - id: o03-l1-05
+    type: learn
+    lexeme: chakla
+  - id: o03-l1-06
+    type: learn
+    lexeme: ilana
+  - id: o03-l1-07
+    type: learn
+    lexeme: anana
+  - id: o03-l1-08
+    type: learn
+    lexeme: ishta
+  - id: o03-l1-09
+    type: match_pairs
+    pairs:
+    - - שמיא
+      - שמיים
+    - - ימא
+      - הים
+    - - טורא
+      - ההר
+    - - חקלא
+      - השדה
+    - - אילנא
+      - העץ
+    - - עננא
+      - הענן
+    lexemes:
+    - shmaya
+    - yama
+    - tura
+    - chakla
+    - ilana
+    - anana
+  - id: o03-l1-10
+    type: multiple_choice
+    prompt: מה פירוש שמיא?
+    options:
+    - שמיים
+    - הים
+    - אור
+    correct: 0
+    lexemes:
+    - shmaya
+  - id: o03-l1-11
+    type: multiple_choice
+    prompt: מה פירוש ימא?
+    options:
+    - הים
+    - חושך
+    - צאן
+    correct: 0
+    lexemes:
+    - yama
+  - id: o03-l1-12
+    type: multiple_choice
+    prompt: מה פירוש טורא?
+    options:
+    - ההר
+    - צאן
+    - הענן
+    correct: 0
+    lexemes:
+    - tura
+  - id: o03-l1-13
+    type: multiple_choice
+    prompt: מה פירוש חקלא?
+    options:
+    - השדה
+    - הענן
+    - הים
+    correct: 0
+    lexemes:
+    - chakla
+  - id: o03-l1-14
+    type: multiple_choice
+    prompt: מה פירוש אילנא?
+    options:
+    - העץ
+    - חיה
+    - הענן
+    correct: 0
+    lexemes:
+    - ilana
+  - id: o03-l1-15
+    type: multiple_choice
+    prompt: מה פירוש עננא?
+    options:
+    - הענן
+    - האש
+    - צאן
+    correct: 0
+    lexemes:
+    - anana
+  - id: o03-l1-16
+    type: multiple_choice
+    prompt: מה פירוש אשתא?
+    options:
+    - האש
+    - ההר
+    - אור
+    correct: 0
+    lexemes:
+    - ishta
+  - id: o03-l1-17
+    type: fill_blank
+    sentence: ואשתכללו ___ וארעא וכל חיליהון
+    translation: 'בתורה: וַיְכֻלּוּ הַשָּׁמַיִם וְהָאָרֶץ וְכָל־צְבָאָם'
+    answers:
+    - שמיא
+    options:
+    - שמיא
+    - עופא
+    - ימא
+    lexemes:
+    - shmaya
+    source: תרגום אונקלוס, בראשית ב, א
+    vocalized: וְאִשְׁתַּכְלָלוּ שְׁמַיָּא וְאַרְעָא וְכָל חֵילֵיהוֹן
+  - id: o03-l1-18
+    type: fill_blank
+    sentence: ונטלו מאילם ושרו על ___ דסוף
+    translation: 'בתורה: וַיִּסְעוּ מֵאֵילִם וַיַּחֲנוּ עַל־יַם־סוּף'
+    answers:
+    - ימא
+    options:
+    - ימא
+    - טורא
+    - חשוכא
+    lexemes:
+    - yama
+    source: תרגום אונקלוס, במדבר לג, י
+    vocalized: וּנְטָלוּ מֵאֵילִם וּשְׁרוֹ עַל יַמָא דְסוּף
+  - id: o03-l1-19
+    type: fill_blank
+    sentence: ונטלו מהור ___ ושרו בצלמונה
+    translation: 'בתורה: וַיִּסְעוּ מֵהֹר הָהָר וַיַּחֲנוּ בְּצַלְמֹנָה'
+    answers:
+    - טורא
+    options:
+    - טורא
+    - נהורא
+    - ימא
+    lexemes:
+    - tura
+    source: תרגום אונקלוס, במדבר לג, מא
+    vocalized: וּנְטָלוּ מֵהוֹר טוּרָא וּשְׁרוֹ בְּצַלְמוֹנָה
+  - id: o03-l1-20
+    type: fill_blank
+    sentence: זביני ___ ומערתא די בה מן בני חתאה
+    translation: 'בתורה: מִקְנֵה הַשָּׂדֶה וְהַמְּעָרָה אֲשֶׁר־בּוֹ מֵאֵת בְּנֵי־חֵת'
+    answers:
+    - חקלא
+    options:
+    - חקלא
+    - אשתא
+    - עננא
+    lexemes:
+    - chakla
+    source: תרגום אונקלוס, בראשית מט, לב
+    vocalized: זְבִינֵי חַקְלָא וּמְעַרְתָּא דִי בֵהּ מִן בְּנֵי חִתָּאָהּ
+  - id: o03-l1-21
+    type: fill_blank
+    sentence: יסבון כען זעיר מיא ואסחו רגליכון ואסתמיכו תחות ___
+    translation: 'בתורה: יֻקַּח־נָא מְעַט־מַיִם וְרַחֲצוּ רַגְלֵיכֶם וְהִשָּׁעֲנוּ תַּחַת הָעֵץ'
+    answers:
+    - אילנא
+    options:
+    - אילנא
+    - עופא
+    - תורי
+    lexemes:
+    - ilana
+    source: תרגום אונקלוס, בראשית יח, ד
+    vocalized: יִסְּבוּן כְּעַן זְעֵיר מַיָּא וְאַסְחוּ רַגְלֵיכוֹן וְאִסְתְּמִיכוּ תְּחוֹת אִילָנָא
+  - id: o03-l1-22
+    type: fill_blank
+    sentence: וסלק משה לטורא וחפא ___ ית טורא
+    translation: 'בתורה: וַיַּעַל מֹשֶׁה אֶל־הָהָר וַיְכַס הֶעָנָן אֶת־הָהָר'
+    answers:
+    - עננא
+    options:
+    - עננא
+    - חיתא
+    - ענא
+    lexemes:
+    - anana
+    source: תרגום אונקלוס, שמות כד, טו
+    vocalized: וּסְלֵק משֶׁה לְטוּרָא וַחֲפָא עֲנָנָא יָת טוּרָא
+  - id: o03-l1-23
+    type: fill_blank
+    sentence: לא תבערון ___ בכל מותבניכון ביומא דשבתא
+    translation: 'בתורה: לֹא־תְבַעֲרוּ אֵשׁ בְּכֹל מֹשְׁבֹתֵיכֶם בְּיוֹם הַשַּׁבָּת'
+    answers:
+    - אשתא
+    options:
+    - אשתא
+    - עופא
+    - תורי
+    lexemes:
+    - ishta
+    source: תרגום אונקלוס, שמות לה, ג
+    vocalized: לָא תְבַעֲרוּן אֶשָׁתָא בְּכֹל מוֹתְבָנֵיכוֹן בְּיוֹמָא דְשַׁבְּתָא
+- id: o03-l2
+  kind: new
+  title:
+    he: חיות
+    en: Animals
+  exercises:
+  - id: o03-l2-24
+    type: learn
+    lexeme: beira
+  - id: o03-l2-25
+    type: learn
+    lexeme: cheita
+  - id: o03-l2-26
+    type: learn
+    lexeme: ana
+  - id: o03-l2-27
+    type: learn
+    lexeme: ofa
+  - id: o03-l2-28
+    type: learn
+    lexeme: turei
+  - id: o03-l2-29
+    type: learn
+    lexeme: chashocha
+  - id: o03-l2-30
+    type: learn
+    lexeme: nehora
+  - id: o03-l2-31
+    type: match_pairs
+    pairs:
+    - - בעירא
+      - בהמה
+    - - חיתא
+      - חיה
+    - - ענא
+      - צאן
+    - - עופא
+      - עוף
+    - - תורי
+      - שוורים
+    - - חשוכא
+      - חושך
+    lexemes:
+    - beira
+    - cheita
+    - ana
+    - ofa
+    - turei
+    - chashocha
+  - id: o03-l2-32
+    type: multiple_choice
+    prompt: מה פירוש בעירא?
+    options:
+    - בהמה
+    - הים
+    - העץ
+    correct: 0
+    lexemes:
+    - beira
+  - id: o03-l2-33
+    type: multiple_choice
+    prompt: מה פירוש חיתא?
+    options:
+    - חיה
+    - שמיים
+    - צאן
+    correct: 0
+    lexemes:
+    - cheita
+  - id: o03-l2-34
+    type: multiple_choice
+    prompt: מה פירוש ענא?
+    options:
+    - צאן
+    - שמיים
+    - העץ
+    correct: 0
+    lexemes:
+    - ana
+  - id: o03-l2-35
+    type: multiple_choice
+    prompt: מה פירוש עופא?
+    options:
+    - עוף
+    - אור
+    - חיה
+    correct: 0
+    lexemes:
+    - ofa
+  - id: o03-l2-36
+    type: multiple_choice
+    prompt: מה פירוש תורי?
+    options:
+    - שוורים
+    - חושך
+    - צאן
+    correct: 0
+    lexemes:
+    - turei
+  - id: o03-l2-37
+    type: multiple_choice
+    prompt: מה פירוש חשוכא?
+    options:
+    - חושך
+    - בהמה
+    - צאן
+    correct: 0
+    lexemes:
+    - chashocha
+  - id: o03-l2-38
+    type: multiple_choice
+    prompt: מה פירוש נהורא?
+    options:
+    - אור
+    - ההר
+    - הים
+    correct: 0
+    lexemes:
+    - nehora
+  - id: o03-l2-39
+    type: fill_blank
+    sentence: וכל ___ ועדי קרויא בזנא לנא
+    translation: 'בתורה: וְכָל־הַבְּהֵמָה וּשְׁלַל הֶעָרִים בַּזּוֹנוּ לָנוּ'
+    answers:
+    - בעירא
+    options:
+    - בעירא
+    - חיתא
+    - נהורא
+    lexemes:
+    - beira
+    source: תרגום אונקלוס, דברים ג, ז
+    vocalized: וְכָל בְּעִירָא וַעֲדִי קִרְוַיָא בַּזָנָא לָנָא
+  - id: o03-l2-40
+    type: fill_blank
+    sentence: והוה כד דחילא ___ מן קדם יי ועבד להון בתין
+    translation: 'בתורה: וַיְהִי כִּי־יָרְאוּ הַמְיַלְּדֹת אֶת־הָאֱלֹהִים וַיַּעַשׂ לָהֶם בָּתִּים'
+    answers:
+    - חיתא
+    options:
+    - חיתא
+    - טורא
+    - חקלא
+    lexemes:
+    - cheita
+    source: תרגום אונקלוס, שמות א, כא
+    vocalized: וַהֲוָה כַּד דְחִילָא חַיָתָא מִן קֳדָם יְיָ וַעֲבַד לְהוֹן בָּתִּין
+  - id: o03-l2-41
+    type: fill_blank
+    sentence: ואזלו אחוהי למרעי ית ___ דאבוהון בשכם
+    translation: 'בתורה: וַיֵּלְכוּ אֶחָיו לִרְעוֹת אֶת־צֹאן אֲבִיהֶם בִּשְׁכֶם'
+    answers:
+    - ענא
+    options:
+    - ענא
+    - נהורא
+    - עננא
+    lexemes:
+    - ana
+    source: תרגום אונקלוס, בראשית לז, יב
+    vocalized: וַאֲזָלוּ אֲחוֹהִי לְמִרְעֵי יָת עָנָא דַאֲבוּהוֹן בִּשְׁכֶם
+  - id: o03-l2-42
+    type: fill_blank
+    sentence: כל ___ דכי תיכלון
+    translation: 'בתורה: כָּל־עוֹף טָהוֹר תֹּאכֵלוּ'
+    answers:
+    - עופא
+    options:
+    - עופא
+    - ענא
+    - חיתא
+    lexemes:
+    - ofa
+    source: תרגום אונקלוס, דברים יד, כ
+    vocalized: כָּל עוֹפָא דְכֵי תֵּיכְלוּן
+  - id: o03-l2-43
+    type: fill_blank
+    sentence: בדא יהי עלל אהרן לקודשא בתור בר ___ לחטאתא ודכר לעלתא
+    translation: 'בתורה: בְּזֹאת יָבֹא אַהֲרֹן אֶל־הַקֹּדֶשׁ בְּפַר בֶּן־בָּקָר לְחַטָּאת וְאַיִל לְעֹלָה'
+    answers:
+    - תורי
+    options:
+    - תורי
+    - חשוכא
+    - שמיא
+    lexemes:
+    - turei
+    source: תרגום אונקלוס, ויקרא טז, ג
+    vocalized: בְּדָא יְהֵי עָלֵל אַהֲרֹן לְקוּדְשָׁא בְּתוֹר בַּר תּוֹרֵי לְחַטָּאתָא וּדְכַר לַעֲלָתָא
+  - id: o03-l2-44
+    type: fill_blank
+    sentence: ולמשלט ביממא ובליליא ולאפרשא בין נהורא ובין ___ וחזא יי ארי טב
+    translation: 'בתורה: וְלִמְשֹׁל בַּיּוֹם וּבַלַּיְלָה וּלֲהַבְדִּיל בֵּין הָאוֹר וּבֵין הַחֹשֶׁךְ וַיַּרְא אֱלֹהִים כִּי־טוֹב'
+    answers:
+    - חשוכא
+    options:
+    - חשוכא
+    - ימא
+    - עננא
+    lexemes:
+    - chashocha
+    source: תרגום אונקלוס, בראשית א, יח
+    vocalized: וּלְמִשְׁלַט בִּימָמָא וּבְלֵילְיָא וּלְאַפְרָשָׁא בֵּין נְהוֹרָא וּבֵין חֲשׁוֹכָא וַחֲזָא יְיָ אֲרֵי טָב
+  - id: o03-l2-45
+    type: fill_blank
+    sentence: ואמר יי יהי ___ והוה נהורא
+    translation: 'בתורה: וַיֹּאמֶר אֱלֹהִים יְהִי אוֹר וַיְהִי־אוֹר'
+    answers:
+    - נהורא
+    options:
+    - נהורא
+    - ימא
+    - טורא
+    lexemes:
+    - nehora
+    source: תרגום אונקלוס, בראשית א, ג
+    vocalized: וַאֲמַר יְיָ יְהֵי נְהוֹרָא וַהֲוָה נְהוֹרָא
+- id: o03-l3
+  kind: review
+  title:
+    he: חזרה וקריאה
+    en: Review and reading
+  exercises:
+  - id: o03-l3-46
+    type: reading
+    kind: תרגום אונקלוס, בראשית א
+    title: נהורא וחשוכא
+    text: 'וחזא יי ית נהורא ארי טב ואפרש יי בין נהורא ובין חשוכא
+
+
+      וקרא יי לנהורא יממא ולחשוכא קרא ליליא והוה רמש והוה צפר יומא חד'
+    translation: 'וַיַּרְא אֱלֹהִים אֶת־הָאוֹר כִּי־טוֹב וַיַּבְדֵּל אֱלֹהִים בֵּין הָאוֹר וּבֵין הַחֹשֶׁךְ
+
+
+      וַיִּקְרָא אֱלֹהִים לָאוֹר יוֹם וְלַחֹשֶׁךְ קָרָא לָיְלָה וַיְהִי־עֶרֶב וַיְהִי־בֹקֶר יוֹם אֶחָד'
+    lexemes:
+    - shmaya
+    - yama
+    - tura
+    - chakla
+    - ilana
+    - anana
+    - ishta
+    - beira
+    source: תרגום אונקלוס, בראשית א, ד–ה
+    vocalized: וַחֲזָא יְיָ יָת נְהוֹרָא אֲרֵי טָב וְאַפְרֵשׁ יְיָ בֵּין נְהוֹרָא וּבֵין חֲשׁוֹכָא וּקְרָא יְיָ לִנְהוֹרָא יְמָמָא וְלַחֲשׁוֹכָא קְרָא לֵילְיָא וַהֲוָה רְמַשׁ וַהֲוָה צְפַר יוֹמָא חָד
+  - id: o03-l3-47
+    type: multiple_choice
+    prompt: '״טורא״ פירושו:'
+    options:
+    - הר
+    - ים
+    - שדה
+    correct: 0
+    lexemes:
+    - tura
+  - id: o03-l3-48
+    type: multiple_choice
+    prompt: '״ענא״ פירושו:'
+    options:
+    - צאן
+    - ענן
+    - עין
+    correct: 0
+    lexemes:
+    - ana
+  - id: o03-l3-49
+    type: dialogue
+    scene: סוף הלימוד.
+    lines:
+    - speaker: chana
+      text: בשבוע הבא אני מביאה את אמא. היא רוצה לשמוע תרגום.
+      translation: חנה
+    - speaker: yisrael
+      text: 'אז נלמד על אנשים: איש, אישה, עבד, מלאך.'
+      translation: ההמשך
+  - id: o03-l3-50
+    type: match_pairs
+    pairs:
+    - - שמיא
+      - שמיים
+    - - ימא
+      - הים
+    - - טורא
+      - ההר
+    - - חקלא
+      - השדה
+    - - אילנא
+      - העץ
+    - - עננא
+      - הענן
+    lexemes:
+    - shmaya
+    - yama
+    - tura
+    - chakla
+    - ilana
+    - anana
