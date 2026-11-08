@@ -2,7 +2,7 @@ import { describe, expect, it } from "vitest";
 import { levelInfo, levelRange } from "./levels";
 
 const stages = [
-  { level: "A0" as const, name: { he: "פתח", en: "Opening" }, about: "קריאה בלי ניקוד" },
+  { level: "A0" as const, name: { he: "היכרות עם הדף", en: "Meeting the page" }, about: "קריאה בלי ניקוד" },
   { level: "A1" as const, name: { he: "מילות הסוגיה", en: "Key words" }, about: "מילות מפתח" },
 ];
 
@@ -13,7 +13,7 @@ describe("level labels", () => {
   });
 
   it("show stage names for staged courses", () => {
-    expect(levelInfo({ stages }, "A1")).toEqual({ short: "מילות הסוגיה", heading: "שלב 1: מילות הסוגיה", about: "מילות מפתח" });
-    expect(levelRange({ stages }, ["A0", "A1"])).toBe("שלבים פתח–מילות הסוגיה");
+    expect(levelInfo({ stages }, "A1")).toEqual({ short: "מילות הסוגיה", heading: "שלב 2: מילות הסוגיה", about: "מילות מפתח" });
+    expect(levelRange({ stages }, ["A0", "A1"])).toBe("שלבים היכרות עם הדף–מילות הסוגיה");
   });
 });

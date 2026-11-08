@@ -1,0 +1,798 @@
+id: u08-choni
+cefr: A2
+scene: study
+title:
+  he: חוני המעגל ישן
+  en: Choni sleeps
+story: 'ר׳ ישראל מלמד את איתן את סיפור חוני המעגל, שישן שבעים שנה, ואת הפעלים בעבר: אזל, חזא, יתיב, קם. בסוף: ״או חברותא או מיתותא״.'
+canDo:
+- 'להבין פעלים בעבר: אזל, חזייה, יתיב, נים, קם'
+- לקרוא סיפור אגדה רצוף בארמית
+- להבין ״או חברותא או מיתותא״
+vocabulary:
+- id: yoma-chad
+  text: יומא חד
+  translation: יום אחד
+  pos: phrase
+  example:
+    text: יומא חד הוה אזל באורחא חזייה לההוא גברא דהוה נטע חרובא
+    translation: יום אחד היה הולך בדרך. ראה אדם אחד שהיה נוטע עץ חרוב
+    source: בבלי, תענית כג ע״א
+    vocalized: יוֹמָא חַד הֲוָה אָזֵל בְּאוֹרְחָא, חַזְיֵיהּ לְהָהוּא גַּבְרָא דַּהֲוָה נָטַע חָרוּבָא
+- id: azal
+  text: אזל
+  translation: הלך
+  pos: verb
+  example:
+    text: יומא חד הוה אזל באורחא חזייה לההוא גברא דהוה נטע חרובא
+    translation: יום אחד היה הולך בדרך. ראה אדם אחד שהיה נוטע עץ חרוב
+    source: בבלי, תענית כג ע״א
+    vocalized: יוֹמָא חַד הֲוָה אָזֵל בְּאוֹרְחָא, חַזְיֵיהּ לְהָהוּא גַּבְרָא דַּהֲוָה נָטַע חָרוּבָא
+- id: orcha
+  text: אורחא
+  translation: דרך
+  pos: noun
+  example:
+    text: יומא חד הוה אזל באורחא חזייה לההוא גברא דהוה נטע חרובא
+    translation: יום אחד היה הולך בדרך. ראה אדם אחד שהיה נוטע עץ חרוב
+    source: בבלי, תענית כג ע״א
+    vocalized: יוֹמָא חַד הֲוָה אָזֵל בְּאוֹרְחָא, חַזְיֵיהּ לְהָהוּא גַּבְרָא דַּהֲוָה נָטַע חָרוּבָא
+- id: chazyeih
+  text: חזייה
+  translation: ראה אותו
+  pos: verb
+  example:
+    text: יומא חד הוה אזל באורחא חזייה לההוא גברא דהוה נטע חרובא
+    translation: יום אחד היה הולך בדרך. ראה אדם אחד שהיה נוטע עץ חרוב
+    source: בבלי, תענית כג ע״א
+    vocalized: יוֹמָא חַד הֲוָה אָזֵל בְּאוֹרְחָא, חַזְיֵיהּ לְהָהוּא גַּבְרָא דַּהֲוָה נָטַע חָרוּבָא
+- id: shnin
+  text: שנין
+  translation: שנים
+  pos: noun
+  example:
+    text: אמר ליה האי עד כמה שנין טעין
+    translation: 'אמר לו: זה (העץ), עד כמה שנים (עד שהוא) טוען פרי?'
+    source: בבלי, תענית כג ע״א
+    vocalized: 'אֲמַר לֵיהּ: הַאי, עַד כַּמָּה שְׁנִין טָעֵין'
+- id: yativ
+  text: יתיב
+  translation: ישב; יושב
+  pos: verb
+  example:
+    text: יתיב קא כריך ריפתא אתא ליה שינתא נים
+    translation: ישב ואכל לחם. באה לו שינה, ונרדם
+    source: בבלי, תענית כג ע״א
+- id: rifta
+  text: ריפתא
+  translation: לחם
+  pos: noun
+  example:
+    text: יתיב קא כריך ריפתא אתא ליה שינתא נים
+    translation: ישב ואכל לחם. באה לו שינה, ונרדם
+    source: בבלי, תענית כג ע״א
+- id: nim
+  text: נים
+  translation: ישן, נרדם
+  pos: verb
+  example:
+    text: יתיב קא כריך ריפתא אתא ליה שינתא נים
+    translation: ישב ואכל לחם. באה לו שינה, ונרדם
+    source: בבלי, תענית כג ע״א
+- id: kam
+  text: קם
+  translation: קם (מהשינה), התעורר
+  pos: verb
+  example:
+    text: ונים שבעין שנין כי קם חזייה לההוא גברא דהוה קא מלקט מינייהו
+    translation: וישן שבעים שנה. כשקם, ראה אדם אחד שהיה מלקט מהם (מפירות החרוב)
+    source: בבלי, תענית כג ע״א
+- id: ki
+  text: כי
+  translation: כאשר; (גם:) כמו
+  pos: conjunction
+  example:
+    text: ונים שבעין שנין כי קם חזייה לההוא גברא דהוה קא מלקט מינייהו
+    translation: וישן שבעים שנה. כשקם, ראה אדם אחד שהיה מלקט מהם (מפירות החרוב)
+    source: בבלי, תענית כג ע״א
+- id: bar-bereih
+  text: בר בריה
+  translation: בן בנו, נכדו
+  pos: phrase
+  example:
+    text: אמר ליה את הוא דשתלתיה א"ל בר בריה אנא
+    translation: 'אמר לו: אתה הוא ששתלת אותו? אמר לו: בן בנו אני'
+    source: בבלי, תענית כג ע״א
+    vocalized: 'אָמַר לֵיהּ: אַתְּ הוּא דִּשְׁתַלְתֵּיהּ? אֲמַר לֵיהּ: בַּר בְּרֵיהּ אֲנָא'
+- id: heimnuhu
+  text: הימנוהו
+  translation: האמינו לו
+  pos: verb
+  example:
+    text: אמר להו אנא חוני המעגל לא הימנוהו
+    translation: 'אמר להם: אני חוני המעגל! לא האמינו לו'
+    source: בבלי, תענית כג ע״א
+    vocalized: 'אֲמַר לְהוּ: אֲנָא חוֹנִי הַמְעַגֵּל. לָא הֵימְנוּהוּ'
+- id: chalash-daateih
+  text: חלש דעתיה
+  translation: חלשה דעתו, נעלב, נפגע
+  pos: phrase
+  example:
+    text: חלש דעתיה בעי רחמי ומית
+    translation: חלשה דעתו, ביקש רחמים (על נפשו), ומת
+    source: בבלי, תענית כג ע״א
+- id: chavruta
+  text: חברותא
+  translation: חברותא, חברה (ללימוד)
+  pos: noun
+  example:
+    text: היינו דאמרי אינשי או חברותא או מיתותא
+    translation: 'זהו שאומרים אנשים: או חברותא, או מיתה'
+    source: בבלי, תענית כג ע״א
+    vocalized: 'הַיְינוּ דְּאָמְרִי אִינָשֵׁי: אוֹ חַבְרוּתָא אוֹ מִיתוּתָא'
+- id: mituta
+  text: מיתותא
+  translation: מיתה
+  pos: noun
+  example:
+    text: היינו דאמרי אינשי או חברותא או מיתותא
+    translation: 'זהו שאומרים אנשים: או חברותא, או מיתה'
+    source: בבלי, תענית כג ע״א
+    vocalized: 'הַיְינוּ דְּאָמְרִי אִינָשֵׁי: אוֹ חַבְרוּתָא אוֹ מִיתוּתָא'
+grammar: []
+lessons:
+- id: u08-l1
+  kind: new
+  title:
+    he: יומא חד הוה אזל
+    en: One day he was walking
+  exercises:
+  - id: u08-l1-01
+    type: dialogue
+    scene: ערב. איתן ור׳ ישראל לומדים במטבח של סבא.
+    lines:
+    - speaker: yisrael
+      text: ״יומא חד הוה אזל באורחא״. יום אחד חוני היה הולך בדרך. ״אזל״ = הלך.
+      translation: אזל
+    - speaker: yisrael
+      text: ״חזייה לההוא גברא״, ראה אדם אחד שנוטע חרוב. ״חזא״ = ראה, ״חזייה״ = ראה אותו.
+      translation: חזייה
+    - speaker: eitan
+      text: ושוב ״ההוא גברא״.
+      translation: איתן מחייך
+    - speaker: yisrael
+      text: בגמרא תמיד יש מישהו כזה. בלי שם, אבל לא בלי חשיבות.
+      translation: ר׳ ישראל
+  - id: u08-l1-02
+    type: tip
+    title: פעלים בעבר
+    text: 'בארמית רוב הפעלים בעבר קצרים: **אזל** = הלך. **אתא** = בא. **חזא** = ראה. **קם** = קם. **נים** = נרדם.
+
+
+      סיומת **־יה** מוסיפה ״אותו״: **חזייה** = ראה אותו. **אשכחיה** = מצא אותו.
+
+
+      ולפני ההמשך הם: **אזלו** = הלכו, **אתו** = באו.'
+  - id: u08-l1-03
+    type: learn
+    lexeme: yoma-chad
+  - id: u08-l1-04
+    type: learn
+    lexeme: azal
+  - id: u08-l1-05
+    type: learn
+    lexeme: orcha
+  - id: u08-l1-06
+    type: learn
+    lexeme: chazyeih
+  - id: u08-l1-07
+    type: learn
+    lexeme: shnin
+  - id: u08-l1-08
+    type: match_pairs
+    pairs:
+    - - יומא חד
+      - יום אחד
+    - - אזל
+      - הלך
+    - - אורחא
+      - דרך
+    - - חזייה
+      - ראה אותו
+    - - שנין
+      - שנים
+    lexemes:
+    - yoma-chad
+    - azal
+    - orcha
+    - chazyeih
+    - shnin
+  - id: u08-l1-09
+    type: multiple_choice
+    prompt: מה פירוש יומא חד?
+    options:
+    - יום אחד
+    - קם (מהשינה), התעורר
+    - חברותא, חברה (ללימוד)
+    correct: 0
+    lexemes:
+    - yoma-chad
+  - id: u08-l1-10
+    type: multiple_choice
+    prompt: מה פירוש אזל?
+    options:
+    - הלך
+    - ראה אותו
+    - דרך
+    correct: 0
+    lexemes:
+    - azal
+  - id: u08-l1-11
+    type: multiple_choice
+    prompt: מה פירוש אורחא?
+    options:
+    - דרך
+    - כאשר; (גם:) כמו
+    - לחם
+    correct: 0
+    lexemes:
+    - orcha
+  - id: u08-l1-12
+    type: multiple_choice
+    prompt: מה פירוש חזייה?
+    options:
+    - ראה אותו
+    - חברותא, חברה (ללימוד)
+    - יום אחד
+    correct: 0
+    lexemes:
+    - chazyeih
+  - id: u08-l1-13
+    type: multiple_choice
+    prompt: מה פירוש שנין?
+    options:
+    - שנים
+    - בן בנו, נכדו
+    - ישב; יושב
+    correct: 0
+    lexemes:
+    - shnin
+  - id: u08-l1-14
+    type: fill_blank
+    sentence: יומא ___ הוה אזל באורחא חזייה לההוא גברא דהוה נטע חרובא
+    translation: יום אחד היה הולך בדרך. ראה אדם אחד שהיה נוטע עץ חרוב
+    answers:
+    - חד
+    options:
+    - חד
+    - חזייה
+    - אורחא
+    lexemes:
+    - yoma-chad
+    source: בבלי, תענית כג ע״א
+    vocalized: יוֹמָא חַד הֲוָה אָזֵל בְּאוֹרְחָא, חַזְיֵיהּ לְהָהוּא גַּבְרָא דַּהֲוָה נָטַע חָרוּבָא
+  - id: u08-l1-15
+    type: fill_blank
+    sentence: יומא חד הוה ___ באורחא חזייה לההוא גברא דהוה נטע חרובא
+    translation: יום אחד היה הולך בדרך. ראה אדם אחד שהיה נוטע עץ חרוב
+    answers:
+    - אזל
+    options:
+    - אזל
+    - נים
+    - חברותא
+    lexemes:
+    - azal
+    source: בבלי, תענית כג ע״א
+    vocalized: יוֹמָא חַד הֲוָה אָזֵל בְּאוֹרְחָא, חַזְיֵיהּ לְהָהוּא גַּבְרָא דַּהֲוָה נָטַע חָרוּבָא
+  - id: u08-l1-16
+    type: fill_blank
+    sentence: יומא חד הוה אזל ___ חזייה לההוא גברא דהוה נטע חרובא
+    translation: יום אחד היה הולך בדרך. ראה אדם אחד שהיה נוטע עץ חרוב
+    answers:
+    - באורחא
+    options:
+    - באורחא
+    - חלש דעתיה
+    - אזל
+    lexemes:
+    - orcha
+    source: בבלי, תענית כג ע״א
+    vocalized: יוֹמָא חַד הֲוָה אָזֵל בְּאוֹרְחָא, חַזְיֵיהּ לְהָהוּא גַּבְרָא דַּהֲוָה נָטַע חָרוּבָא
+  - id: u08-l1-17
+    type: fill_blank
+    sentence: יומא חד הוה אזל באורחא ___ לההוא גברא דהוה נטע חרובא
+    translation: יום אחד היה הולך בדרך. ראה אדם אחד שהיה נוטע עץ חרוב
+    answers:
+    - חזייה
+    options:
+    - חזייה
+    - חלש דעתיה
+    - נים
+    lexemes:
+    - chazyeih
+    source: בבלי, תענית כג ע״א
+    vocalized: יוֹמָא חַד הֲוָה אָזֵל בְּאוֹרְחָא, חַזְיֵיהּ לְהָהוּא גַּבְרָא דַּהֲוָה נָטַע חָרוּבָא
+  - id: u08-l1-18
+    type: fill_blank
+    sentence: אמר ליה האי עד כמה ___ טעין
+    translation: 'אמר לו: זה (העץ), עד כמה שנים (עד שהוא) טוען פרי?'
+    answers:
+    - שנין
+    options:
+    - שנין
+    - בר בריה
+    - יומא חד
+    lexemes:
+    - shnin
+    source: בבלי, תענית כג ע״א
+    vocalized: 'אֲמַר לֵיהּ: הַאי, עַד כַּמָּה שְׁנִין טָעֵין'
+- id: u08-l2
+  kind: new
+  title:
+    he: נים שבעין שנין
+    en: He slept seventy years
+  exercises:
+  - id: u08-l2-19
+    type: dialogue
+    scene: איתן קורא לבד. ר׳ ישראל רק מקשיב.
+    lines:
+    - speaker: eitan
+      text: ״יתיב קא כריך ריפתא, אתא ליה שינתא, נים״. הוא ישב לאכול, באה לו שינה, ונרדם.
+      translation: איתן קורא
+    - speaker: yisrael
+      text: יפה מאוד. ״כי קם״, כשקם, מה הוא ראה?
+      translation: כי = כאשר
+    - speaker: eitan
+      text: אדם שמלקט חרובים. ״בר בריה אנא״, הנכד של מי ששתל.
+      translation: בר בריה = נכד
+  - id: u08-l2-20
+    type: learn
+    lexeme: yativ
+  - id: u08-l2-21
+    type: learn
+    lexeme: rifta
+  - id: u08-l2-22
+    type: learn
+    lexeme: nim
+  - id: u08-l2-23
+    type: learn
+    lexeme: kam
+  - id: u08-l2-24
+    type: learn
+    lexeme: ki
+  - id: u08-l2-25
+    type: learn
+    lexeme: bar-bereih
+  - id: u08-l2-26
+    type: match_pairs
+    pairs:
+    - - יתיב
+      - ישב; יושב
+    - - ריפתא
+      - לחם
+    - - נים
+      - ישן, נרדם
+    - - קם
+      - קם (מהשינה), התעורר
+    - - כי
+      - כאשר; (גם:) כמו
+    - - בר בריה
+      - בן בנו, נכדו
+    lexemes:
+    - yativ
+    - rifta
+    - nim
+    - kam
+    - ki
+    - bar-bereih
+  - id: u08-l2-27
+    type: multiple_choice
+    prompt: מה פירוש יתיב?
+    options:
+    - ישב; יושב
+    - הלך
+    - מיתה
+    correct: 0
+    lexemes:
+    - yativ
+  - id: u08-l2-28
+    type: multiple_choice
+    prompt: מה פירוש ריפתא?
+    options:
+    - לחם
+    - יום אחד
+    - קם (מהשינה), התעורר
+    correct: 0
+    lexemes:
+    - rifta
+  - id: u08-l2-29
+    type: multiple_choice
+    prompt: מה פירוש נים?
+    options:
+    - ישן, נרדם
+    - חלשה דעתו, נעלב, נפגע
+    - דרך
+    correct: 0
+    lexemes:
+    - nim
+  - id: u08-l2-30
+    type: multiple_choice
+    prompt: מה פירוש קם?
+    options:
+    - קם (מהשינה), התעורר
+    - שנים
+    - ישב; יושב
+    correct: 0
+    lexemes:
+    - kam
+  - id: u08-l2-31
+    type: multiple_choice
+    prompt: מה פירוש כי?
+    options:
+    - כאשר; (גם:) כמו
+    - הלך
+    - בן בנו, נכדו
+    correct: 0
+    lexemes:
+    - ki
+  - id: u08-l2-32
+    type: multiple_choice
+    prompt: מה פירוש בר בריה?
+    options:
+    - בן בנו, נכדו
+    - לחם
+    - הלך
+    correct: 0
+    lexemes:
+    - bar-bereih
+  - id: u08-l2-33
+    type: fill_blank
+    sentence: ___ קא כריך ריפתא אתא ליה שינתא נים
+    translation: ישב ואכל לחם. באה לו שינה, ונרדם
+    answers:
+    - יתיב
+    options:
+    - יתיב
+    - הימנוהו
+    - שנין
+    lexemes:
+    - yativ
+    source: בבלי, תענית כג ע״א
+  - id: u08-l2-34
+    type: fill_blank
+    sentence: יתיב קא כריך ___ אתא ליה שינתא נים
+    translation: ישב ואכל לחם. באה לו שינה, ונרדם
+    answers:
+    - ריפתא
+    options:
+    - ריפתא
+    - אורחא
+    - שנין
+    lexemes:
+    - rifta
+    source: בבלי, תענית כג ע״א
+  - id: u08-l2-35
+    type: fill_blank
+    sentence: יתיב קא כריך ריפתא אתא ליה שינתא ___
+    translation: ישב ואכל לחם. באה לו שינה, ונרדם
+    answers:
+    - נים
+    options:
+    - נים
+    - קם
+    - הימנוהו
+    lexemes:
+    - nim
+    source: בבלי, תענית כג ע״א
+  - id: u08-l2-36
+    type: fill_blank
+    sentence: ונים שבעין שנין כי ___ חזייה לההוא גברא דהוה קא מלקט מינייהו
+    translation: וישן שבעים שנה. כשקם, ראה אדם אחד שהיה מלקט מהם (מפירות החרוב)
+    answers:
+    - קם
+    options:
+    - קם
+    - נים
+    - יומא חד
+    lexemes:
+    - kam
+    source: בבלי, תענית כג ע״א
+  - id: u08-l2-37
+    type: fill_blank
+    sentence: ונים שבעין שנין ___ קם חזייה לההוא גברא דהוה קא מלקט מינייהו
+    translation: וישן שבעים שנה. כשקם, ראה אדם אחד שהיה מלקט מהם (מפירות החרוב)
+    answers:
+    - כי
+    options:
+    - כי
+    - יומא חד
+    - אורחא
+    lexemes:
+    - ki
+    source: בבלי, תענית כג ע״א
+  - id: u08-l2-38
+    type: fill_blank
+    sentence: אמר ליה את הוא דשתלתיה א"ל בר ___ אנא
+    translation: 'אמר לו: אתה הוא ששתלת אותו? אמר לו: בן בנו אני'
+    answers:
+    - בריה
+    options:
+    - בריה
+    - מיתותא
+    - ריפתא
+    lexemes:
+    - bar-bereih
+    source: בבלי, תענית כג ע״א
+    vocalized: 'אָמַר לֵיהּ: אַתְּ הוּא דִּשְׁתַלְתֵּיהּ? אֲמַר לֵיהּ: בַּר בְּרֵיהּ אֲנָא'
+- id: u08-l3
+  kind: new
+  title:
+    he: או חברותא או מיתותא
+    en: Companionship or death
+  exercises:
+  - id: u08-l3-39
+    type: dialogue
+    scene: ר׳ ישראל מסיים את הסיפור בשקט.
+    lines:
+    - speaker: yisrael
+      text: 'חוני חזר לבית המדרש ואמר: ״אנא חוני המעגל״. ״לא הימנוהו״, לא האמינו לו. לא נתנו לו כבוד.'
+      translation: לא הימנוהו
+    - speaker: yisrael
+      text: '״חלש דעתיה, בעי רחמי ומית״. ורבא אמר: ״או חברותא או מיתותא״.'
+      translation: או חברותא או מיתותא
+    - speaker: eitan
+      text: ואתה... עכשיו בלי סבא. בלי חברותא.
+      translation: איתן מבין
+    - speaker: yisrael
+      text: '...'
+      translation: ר׳ ישראל שותק
+    - speaker: eitan
+      text: אז אני אהיה החברותא שלך. אם תרצה.
+      translation: איתן מחליט
+  - id: u08-l3-40
+    type: learn
+    lexeme: heimnuhu
+  - id: u08-l3-41
+    type: learn
+    lexeme: chalash-daateih
+  - id: u08-l3-42
+    type: learn
+    lexeme: chavruta
+  - id: u08-l3-43
+    type: learn
+    lexeme: mituta
+  - id: u08-l3-44
+    type: match_pairs
+    pairs:
+    - - הימנוהו
+      - האמינו לו
+    - - חלש דעתיה
+      - חלשה דעתו, נעלב, נפגע
+    - - חברותא
+      - חברותא, חברה (ללימוד)
+    - - מיתותא
+      - מיתה
+    lexemes:
+    - heimnuhu
+    - chalash-daateih
+    - chavruta
+    - mituta
+  - id: u08-l3-45
+    type: multiple_choice
+    prompt: מה פירוש הימנוהו?
+    options:
+    - האמינו לו
+    - כאשר; (גם:) כמו
+    - חלשה דעתו, נעלב, נפגע
+    correct: 0
+    lexemes:
+    - heimnuhu
+  - id: u08-l3-46
+    type: multiple_choice
+    prompt: מה פירוש חלש דעתיה?
+    options:
+    - חלשה דעתו, נעלב, נפגע
+    - האמינו לו
+    - מיתה
+    correct: 0
+    lexemes:
+    - chalash-daateih
+  - id: u08-l3-47
+    type: multiple_choice
+    prompt: מה פירוש חברותא?
+    options:
+    - חברותא, חברה (ללימוד)
+    - שנים
+    - יום אחד
+    correct: 0
+    lexemes:
+    - chavruta
+  - id: u08-l3-48
+    type: multiple_choice
+    prompt: מה פירוש מיתותא?
+    options:
+    - מיתה
+    - דרך
+    - חברותא, חברה (ללימוד)
+    correct: 0
+    lexemes:
+    - mituta
+  - id: u08-l3-49
+    type: fill_blank
+    sentence: אמר להו אנא חוני המעגל לא ___
+    translation: 'אמר להם: אני חוני המעגל! לא האמינו לו'
+    answers:
+    - הימנוהו
+    options:
+    - הימנוהו
+    - בר בריה
+    - נים
+    lexemes:
+    - heimnuhu
+    source: בבלי, תענית כג ע״א
+    vocalized: 'אֲמַר לְהוּ: אֲנָא חוֹנִי הַמְעַגֵּל. לָא הֵימְנוּהוּ'
+  - id: u08-l3-50
+    type: fill_blank
+    sentence: חלש ___ בעי רחמי ומית
+    translation: חלשה דעתו, ביקש רחמים (על נפשו), ומת
+    answers:
+    - דעתיה
+    options:
+    - דעתיה
+    - יתיב
+    - הימנוהו
+    lexemes:
+    - chalash-daateih
+    source: בבלי, תענית כג ע״א
+  - id: u08-l3-51
+    type: fill_blank
+    sentence: היינו דאמרי אינשי או ___ או מיתותא
+    translation: 'זהו שאומרים אנשים: או חברותא, או מיתה'
+    answers:
+    - חברותא
+    options:
+    - חברותא
+    - יומא חד
+    - מיתותא
+    lexemes:
+    - chavruta
+    source: בבלי, תענית כג ע״א
+    vocalized: 'הַיְינוּ דְּאָמְרִי אִינָשֵׁי: אוֹ חַבְרוּתָא אוֹ מִיתוּתָא'
+  - id: u08-l3-52
+    type: fill_blank
+    sentence: היינו דאמרי אינשי או חברותא או ___
+    translation: 'זהו שאומרים אנשים: או חברותא, או מיתה'
+    answers:
+    - מיתותא
+    options:
+    - מיתותא
+    - כי
+    - הימנוהו
+    lexemes:
+    - mituta
+    source: בבלי, תענית כג ע״א
+    vocalized: 'הַיְינוּ דְּאָמְרִי אִינָשֵׁי: אוֹ חַבְרוּתָא אוֹ מִיתוּתָא'
+- id: u08-l4
+  kind: review
+  title:
+    he: חוני והחרוב
+    en: Choni and the carob tree
+  exercises:
+  - id: u08-l4-53
+    type: reading
+    kind: גמרא, תענית כג ע״א
+    title: חוני המעגל
+    text: 'יומא חד הוה אזל באורחא
+
+
+      חזייה לההוא גברא דהוה נטע חרובא
+
+
+      אמר ליה האי עד כמה שנין טעין
+
+
+      אמר ליה עד שבעין שנין'
+    translation: 'יום אחד היה הולך בדרך.
+
+
+      ראה אדם אחד שהיה נוטע עץ חרוב.
+
+
+      אמר לו: זה, עד כמה שנים (עד שהוא) טוען פרי?
+
+
+      אמר לו: עד שבעים שנה.'
+    lexemes:
+    - yoma-chad
+    - azal
+    - orcha
+    - chazyeih
+    - shnin
+    source: בבלי, תענית כג ע״א
+    vocalized: 'יוֹמָא חַד הֲוָה אָזֵל בְּאוֹרְחָא, חַזְיֵיהּ לְהָהוּא גַּבְרָא דַּהֲוָה נָטַע חָרוּבָא, אֲמַר לֵיהּ: הַאי, עַד כַּמָּה שְׁנִין טָעֵין? אֲמַר לֵיהּ: עַד שִׁבְעִין שְׁנִין'
+  - id: u08-l4-54
+    type: reading
+    kind: גמרא, תענית כג ע״א
+    title: בר בריה
+    text: 'אזל לביתיה
+
+
+      אמר להו בריה דחוני המעגל מי קיים
+
+
+      אמרו ליה בריה ליתא בר בריה איתא'
+    translation: 'הלך לביתו.
+
+
+      אמר להם: בנו של חוני המעגל, האם הוא חי?
+
+
+      אמרו לו: בנו איננו, בן בנו ישנו.'
+    lexemes:
+    - azal
+    - bar-bereih
+    - ita
+    - leita
+    source: בבלי, תענית כג ע״א
+    vocalized: 'אֲזַל לְבֵיתֵיהּ אֲמַר לְהוּ: בְּרֵיהּ דְּחוֹנִי הַמְעַגֵּל מִי קַיָּים? אֲמַרוּ לֵיהּ: בְּרֵיהּ לֵיתֵאּ, בַּר בְּרֵיהּ אִיתֵאּ'
+  - id: u08-l4-55
+    type: multiple_choice
+    prompt: ״או חברותא או מיתותא״. מה רבא למד מסיפור חוני?
+    options:
+    - שאדם בלי חברים ללמוד איתם, כאילו אינו חי
+    - שצריך לישון הרבה
+    - שלא כדאי לנטוע עצים
+    correct: 0
+    lexemes:
+    - chavruta
+    - mituta
+    source: בבלי, תענית כג ע״א
+    vocalized: אוֹ חַבְרוּתָא אוֹ מִיתוּתָא
+  - id: u08-l4-56
+    type: fill_blank
+    sentence: אמר להו אנא חוני המעגל לא ___
+    translation: 'אמר להם: אני חוני המעגל! לא האמינו לו'
+    answers:
+    - הימנוהו
+    options:
+    - הימנוהו
+    - חזייה
+    - נים
+    lexemes:
+    - heimnuhu
+    - ana
+    source: בבלי, תענית כג ע״א
+    vocalized: 'אֲמַר לְהוּ: אֲנָא חוֹנִי הַמְעַגֵּל. לָא הֵימְנוּהוּ'
+  - id: u08-l4-57
+    type: dialogue
+    scene: ר׳ ישראל מנגב את המשקפיים.
+    lines:
+    - speaker: yisrael
+      text: 'אני מסכים. מחר בשמונה. ויש סיפור אחד שאתה חייב לשמוע, על הנכד של חוני: אבא חלקיה.'
+      translation: ההמשך
+    - speaker: eitan
+      text: אבא חלקיה. רשמתי.
+      translation: איתן
+  - id: u08-l4-58
+    type: match_pairs
+    pairs:
+    - - אזל
+      - הלך
+    - - יתיב
+      - ישב; יושב
+    - - נים
+      - ישן, נרדם
+    - - קם
+      - קם (מהשינה), התעורר
+    - - חברותא
+      - חברותא, חברה (ללימוד)
+    - - מיתותא
+      - מיתה
+    lexemes:
+    - azal
+    - yativ
+    - nim
+    - kam
+    - chavruta
+    - mituta

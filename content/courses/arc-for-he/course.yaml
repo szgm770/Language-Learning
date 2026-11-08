@@ -10,7 +10,7 @@ description:
   he: "לקרוא ולהבין את הגמרא: איתן מפענח את ההערות שסבו השאיר בשולי הש״ס. כל משפט הוא ציטוט אמיתי עם מקור. הטקסט: ויקיטקסט (CC BY-SA); הניקוד: מהדורת וויליאם דייוידסון בספריא (CC BY-NC)."
   en: "Reading the Talmud: Eitan decodes the notes his grandfather left in the margins of his Shas. Every sentence is a real quotation with its source. Text: Wikisource (CC BY-SA); vocalisation: William Davidson Edition on Sefaria (CC BY-NC)."
 stages:
-  - { level: A0, name: { he: "פתח", en: "Opening" }, about: "קריאה בלי ניקוד, קיצורים, ומה עברית ומה ארמית בדף" }
+  - { level: A0, name: { he: "היכרות עם הדף", en: "Meeting the page" }, about: "קריאה בלי ניקוד, קיצורים, ומה עברית ומה ארמית בדף" }
   - { level: A1, name: { he: "מילות הסוגיה", en: "Key words" }, about: "המילים שחוזרות בכל דף: מאי, הכא, התם, איכא, לימא" }
   - { level: A2, name: { he: "פעלים וכינויים", en: "Verbs and pronouns" }, about: "אנא, את, איהו, אנן; עבר, הווה ועתיד" }
   - { level: B1, name: { he: "מבנה הסוגיה", en: "How a sugya works" }, about: "קושיא ותירוץ, איבעיא, דיוק, מחלוקת, תא שמע" }
@@ -28,3 +28,9 @@ units:
   - u04-sheelot
   - u05-hai
   - u06-ita
+  - u07-ana
+  - u08-choni
+  - u09-chilkiyah
+  - u10-nisak
+  - u11-palga
+  - u12-akiva

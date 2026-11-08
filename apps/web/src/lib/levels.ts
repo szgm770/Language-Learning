@@ -24,7 +24,7 @@ export function levelInfo(course: Pick<Course, "stages">, cefr: string): LevelIn
   const i = course.stages?.findIndex((s) => s.level === cefr) ?? -1;
   if (course.stages && i >= 0) {
     const s = course.stages[i]!;
-    return { short: s.name.he, heading: `שלב ${i}: ${s.name.he}`, about: s.about };
+    return { short: s.name.he, heading: `שלב ${i + 1}: ${s.name.he}`, about: s.about };
   }
   return { short: cefr, heading: `רמה ${cefr}`, about: CEFR_ABOUT[cefr] ?? "" };
 }

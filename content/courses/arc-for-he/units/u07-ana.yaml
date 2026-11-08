@@ -1,0 +1,675 @@
+id: u07-ana
+cefr: A2
+scene: study
+title:
+  he: אנא, איהו, אנן
+  en: I, he, we
+story: 'ר׳ ישראל מספר על הלילות במתבן: שני ילדים ודף גמרא אחד. איתן לומד את הכינויים: אני, הוא, אנחנו, הם, וגם לי, לנו, ממנו.'
+canDo:
+- 'להבין את הכינויים: אנא, את, איהו, אנן, אינהו'
+- להבין ליה, לן, להו, מיניה, עלה
+- 'להבין ״נפשיה״: עצמו'
+vocabulary:
+- id: ana
+  text: אנא
+  translation: אני
+  pos: pronoun
+  example:
+    text: א"ל אנא תפילין מנחנא
+    translation: 'אמר לו: אני מניח תפילין (ולכן מותר לי לשמוח)'
+    source: בבלי, ברכות ל ע״ב
+    vocalized: 'אֲמַר לֵיהּ: אֲנָא תְּפִילִּין מַנַּחְנָא'
+- id: ihu
+  text: איהו
+  translation: הוא (בהדגשה)
+  pos: pronoun
+  example:
+    text: התם איהו דאפסיד נפשיה בידים
+    translation: שם הוא (עצמו) הפסיד את עצמו בידיים
+    source: בבלי, כתובות צה ע״א
+    vocalized: הָתָם אִיהוּ דְּאַפְסֵיד נַפְשֵׁיהּ בְּיָדַיִם
+- id: nafsheih
+  text: נפשיה
+  translation: עצמו
+  pos: pronoun
+  example:
+    text: התם איהו דאפסיד נפשיה בידים
+    translation: שם הוא (עצמו) הפסיד את עצמו בידיים
+    source: בבלי, כתובות צה ע״א
+    vocalized: הָתָם אִיהוּ דְּאַפְסֵיד נַפְשֵׁיהּ בְּיָדַיִם
+- id: anan
+  text: אנן
+  translation: אנחנו
+  pos: pronoun
+  example:
+    text: אנן נעבד לחומרא
+    translation: אנחנו נעשה לחומרה
+    source: בבלי, ברכות נא ע״ב
+    vocalized: אֲנַן נַעֲבֵד לְחוּמְרָא
+- id: inhu
+  text: אינהו
+  translation: הם
+  pos: pronoun
+  example:
+    text: אינהו אפסידו אנפשייהו
+    translation: הם הפסידו לעצמם
+    source: בבלי, בבא בתרא מב ע״א
+    vocalized: אִינְהוּ אַפְסִידוּ אַנַּפְשַׁיְיהוּ
+- id: lan
+  text: לן
+  translation: לנו
+  pos: pronoun
+  example:
+    text: וקשיא לן מאי קאמר
+    translation: 'וקשה לנו: מה הוא אומר?'
+    source: בבלי, תמורה כח ע״א
+    vocalized: וְקַשְׁיָא לַן, מַאי קָאָמַר
+- id: kashya
+  text: קשיא
+  translation: קשה; קושיה
+  pos: noun
+  example:
+    text: וקשיא לן מאי קאמר
+    translation: 'וקשה לנו: מה הוא אומר?'
+    source: בבלי, תמורה כח ע״א
+    vocalized: וְקַשְׁיָא לַן, מַאי קָאָמַר
+- id: kamar
+  text: קאמר
+  translation: אומר (עכשיו, כאן)
+  pos: verb
+  example:
+    text: וקשיא לן מאי קאמר
+    translation: 'וקשה לנו: מה הוא אומר?'
+    source: בבלי, תמורה כח ע״א
+    vocalized: וְקַשְׁיָא לַן, מַאי קָאָמַר
+- id: mineih
+  text: מיניה
+  translation: ממנו
+  pos: pronoun
+  example:
+    text: ואי תפס לא מפקינן מיניה
+    translation: ואם תפס (את הכסף), אין מוציאים ממנו
+    source: בבלי, בבא קמא טו ע״ב
+    vocalized: וְאִי תְּפַס לָא מַפְּקִינַן מִינֵּיהּ
+- id: ala
+  text: עלה
+  translation: עליה
+  pos: pronoun
+  example:
+    text: מאי הוה עלה
+    translation: מה היה עליה? (איך נפסקה השאלה?)
+    source: בבלי, ברכות יב ע״ב
+    vocalized: מַאי הֲוָה עֲלַהּ
+- id: bedach
+  text: בדח
+  translation: שמח, עליז
+  pos: verb
+  example:
+    text: אביי הוה יתיב קמיה דרבה חזייה דהוה קא בדח טובא
+    translation: אביי היה יושב לפני רבה. ראה אותו שהיה שמח מאוד
+    source: בבלי, ברכות ל ע״ב
+    vocalized: אַבָּיֵי הֲוָה יָתֵיב קַמֵּיהּ דְּרַבָּה חַזְיֵיהּ דַּהֲוָה קָא בָדַח טוּבָא
+- id: kameih
+  text: קמיה
+  translation: לפניו
+  pos: preposition
+  example:
+    text: אביי הוה יתיב קמיה דרבה חזייה דהוה קא בדח טובא
+    translation: אביי היה יושב לפני רבה. ראה אותו שהיה שמח מאוד
+    source: בבלי, ברכות ל ע״ב
+    vocalized: אַבָּיֵי הֲוָה יָתֵיב קַמֵּיהּ דְּרַבָּה חַזְיֵיהּ דַּהֲוָה קָא בָדַח טוּבָא
+grammar: []
+lessons:
+- id: u07-l1
+  kind: new
+  title:
+    he: אנא ואיהו
+    en: I and he
+  exercises:
+  - id: u07-l1-01
+    type: dialogue
+    scene: בבית של ר׳ ישראל. על השולחן תה ועוגה, ובאמצע הגמרא של סבא.
+    lines:
+    - speaker: yisrael
+      text: במתבן היינו שני ילדים. אני הייתי בן תשע, סבא שלך בן ארבע־עשרה. הוא קרא, ואני חזרתי אחריו.
+      translation: ר׳ ישראל מספר
+    - speaker: eitan
+      text: ומה למדתם?
+      translation: שאלה
+    - speaker: yisrael
+      text: מה שהיה בספר. בבא מציעא. ולפעמים, כשהיינו עצובים, הוא פתח בברכות ל, בסיפור על השמחה.
+      translation: ברכות ל
+    - speaker: yisrael
+      text: '״אביי הוה יתיב קמיה דרבה״. אביי ישב לפני רבה, וראה שהוא שמח מאוד. ורבה ענה: ״אנא תפילין מנחנא״, אני מניח תפילין.'
+      translation: אנא = אני
+  - id: u07-l1-02
+    type: tip
+    title: אני, אתה, הוא
+    text: '**אנא** = אני. **את** = אתה. **איהו** = הוא. **איהי** = היא.
+
+
+      **אנן** = אנחנו. **אתון** = אתם. **אינהו** = הם.
+
+
+      **נפשיה** = עצמו (״אפסיד נפשיה״ = הפסיד לעצמו).'
+  - id: u07-l1-03
+    type: learn
+    lexeme: ana
+  - id: u07-l1-04
+    type: learn
+    lexeme: ihu
+  - id: u07-l1-05
+    type: learn
+    lexeme: nafsheih
+  - id: u07-l1-06
+    type: learn
+    lexeme: bedach
+  - id: u07-l1-07
+    type: learn
+    lexeme: kameih
+  - id: u07-l1-08
+    type: match_pairs
+    pairs:
+    - - אנא
+      - אני
+    - - איהו
+      - הוא (בהדגשה)
+    - - נפשיה
+      - עצמו
+    - - בדח
+      - שמח, עליז
+    - - קמיה
+      - לפניו
+    lexemes:
+    - ana
+    - ihu
+    - nafsheih
+    - bedach
+    - kameih
+  - id: u07-l1-09
+    type: multiple_choice
+    prompt: מה פירוש אנא?
+    options:
+    - אני
+    - הם
+    - הוא (בהדגשה)
+    correct: 0
+    lexemes:
+    - ana
+  - id: u07-l1-10
+    type: multiple_choice
+    prompt: מה פירוש איהו?
+    options:
+    - הוא (בהדגשה)
+    - אני
+    - שמח, עליז
+    correct: 0
+    lexemes:
+    - ihu
+  - id: u07-l1-11
+    type: multiple_choice
+    prompt: מה פירוש נפשיה?
+    options:
+    - עצמו
+    - לפניו
+    - אומר (עכשיו, כאן)
+    correct: 0
+    lexemes:
+    - nafsheih
+  - id: u07-l1-12
+    type: multiple_choice
+    prompt: מה פירוש בדח?
+    options:
+    - שמח, עליז
+    - אני
+    - עצמו
+    correct: 0
+    lexemes:
+    - bedach
+  - id: u07-l1-13
+    type: multiple_choice
+    prompt: מה פירוש קמיה?
+    options:
+    - לפניו
+    - שמח, עליז
+    - אומר (עכשיו, כאן)
+    correct: 0
+    lexemes:
+    - kameih
+  - id: u07-l1-14
+    type: fill_blank
+    sentence: א"ל ___ תפילין מנחנא
+    translation: 'אמר לו: אני מניח תפילין (ולכן מותר לי לשמוח)'
+    answers:
+    - אנא
+    options:
+    - אנא
+    - לן
+    - נפשיה
+    lexemes:
+    - ana
+    source: בבלי, ברכות ל ע״ב
+    vocalized: 'אֲמַר לֵיהּ: אֲנָא תְּפִילִּין מַנַּחְנָא'
+  - id: u07-l1-15
+    type: fill_blank
+    sentence: התם ___ דאפסיד נפשיה בידים
+    translation: שם הוא (עצמו) הפסיד את עצמו בידיים
+    answers:
+    - איהו
+    options:
+    - איהו
+    - קאמר
+    - אנא
+    lexemes:
+    - ihu
+    source: בבלי, כתובות צה ע״א
+    vocalized: הָתָם אִיהוּ דְּאַפְסֵיד נַפְשֵׁיהּ בְּיָדַיִם
+  - id: u07-l1-16
+    type: fill_blank
+    sentence: התם איהו דאפסיד ___ בידים
+    translation: שם הוא (עצמו) הפסיד את עצמו בידיים
+    answers:
+    - נפשיה
+    options:
+    - נפשיה
+    - קאמר
+    - אינהו
+    lexemes:
+    - nafsheih
+    source: בבלי, כתובות צה ע״א
+    vocalized: הָתָם אִיהוּ דְּאַפְסֵיד נַפְשֵׁיהּ בְּיָדַיִם
+  - id: u07-l1-17
+    type: fill_blank
+    sentence: אביי הוה יתיב קמיה דרבה חזייה דהוה קא ___ טובא
+    translation: אביי היה יושב לפני רבה. ראה אותו שהיה שמח מאוד
+    answers:
+    - בדח
+    options:
+    - בדח
+    - קאמר
+    - איהו
+    lexemes:
+    - bedach
+    source: בבלי, ברכות ל ע״ב
+    vocalized: אַבָּיֵי הֲוָה יָתֵיב קַמֵּיהּ דְּרַבָּה חַזְיֵיהּ דַּהֲוָה קָא בָדַח טוּבָא
+  - id: u07-l1-18
+    type: fill_blank
+    sentence: אביי הוה יתיב ___ דרבה חזייה דהוה קא בדח טובא
+    translation: אביי היה יושב לפני רבה. ראה אותו שהיה שמח מאוד
+    answers:
+    - קמיה
+    options:
+    - קמיה
+    - קשיא
+    - איהו
+    lexemes:
+    - kameih
+    source: בבלי, ברכות ל ע״ב
+    vocalized: אַבָּיֵי הֲוָה יָתֵיב קַמֵּיהּ דְּרַבָּה חַזְיֵיהּ דַּהֲוָה קָא בָדַח טוּבָא
+- id: u07-l2
+  kind: new
+  title:
+    he: אנן ואינהו
+    en: We and they
+  exercises:
+  - id: u07-l2-19
+    type: tip
+    title: לי, לך, לו, לנו
+    text: '**לי** = לי. **לך** = לך. **ליה** = לו. **לה** = לה.
+
+
+      **לן** = לנו. **לכו** = לכם. **להו** = להם.
+
+
+      **קשיא לן** = קשה לנו. **קאמר** = קא + אמר: הוא אומר.'
+  - id: u07-l2-20
+    type: learn
+    lexeme: anan
+  - id: u07-l2-21
+    type: learn
+    lexeme: inhu
+  - id: u07-l2-22
+    type: learn
+    lexeme: lan
+  - id: u07-l2-23
+    type: learn
+    lexeme: kashya
+  - id: u07-l2-24
+    type: learn
+    lexeme: kamar
+  - id: u07-l2-25
+    type: match_pairs
+    pairs:
+    - - אנן
+      - אנחנו
+    - - אינהו
+      - הם
+    - - לן
+      - לנו
+    - - קשיא
+      - קשה; קושיה
+    - - קאמר
+      - אומר (עכשיו, כאן)
+    lexemes:
+    - anan
+    - inhu
+    - lan
+    - kashya
+    - kamar
+  - id: u07-l2-26
+    type: multiple_choice
+    prompt: מה פירוש אנן?
+    options:
+    - אנחנו
+    - קשה; קושיה
+    - לנו
+    correct: 0
+    lexemes:
+    - anan
+  - id: u07-l2-27
+    type: multiple_choice
+    prompt: מה פירוש אינהו?
+    options:
+    - הם
+    - לנו
+    - עצמו
+    correct: 0
+    lexemes:
+    - inhu
+  - id: u07-l2-28
+    type: multiple_choice
+    prompt: מה פירוש לן?
+    options:
+    - לנו
+    - שמח, עליז
+    - הם
+    correct: 0
+    lexemes:
+    - lan
+  - id: u07-l2-29
+    type: multiple_choice
+    prompt: מה פירוש קשיא?
+    options:
+    - קשה; קושיה
+    - שמח, עליז
+    - אומר (עכשיו, כאן)
+    correct: 0
+    lexemes:
+    - kashya
+  - id: u07-l2-30
+    type: multiple_choice
+    prompt: מה פירוש קאמר?
+    options:
+    - אומר (עכשיו, כאן)
+    - קשה; קושיה
+    - עצמו
+    correct: 0
+    lexemes:
+    - kamar
+  - id: u07-l2-31
+    type: fill_blank
+    sentence: ___ נעבד לחומרא
+    translation: אנחנו נעשה לחומרה
+    answers:
+    - אנן
+    options:
+    - אנן
+    - קמיה
+    - איהו
+    lexemes:
+    - anan
+    source: בבלי, ברכות נא ע״ב
+    vocalized: אֲנַן נַעֲבֵד לְחוּמְרָא
+  - id: u07-l2-32
+    type: fill_blank
+    sentence: ___ אפסידו אנפשייהו
+    translation: הם הפסידו לעצמם
+    answers:
+    - אינהו
+    options:
+    - אינהו
+    - קאמר
+    - לן
+    lexemes:
+    - inhu
+    source: בבלי, בבא בתרא מב ע״א
+    vocalized: אִינְהוּ אַפְסִידוּ אַנַּפְשַׁיְיהוּ
+  - id: u07-l2-33
+    type: fill_blank
+    sentence: וקשיא ___ מאי קאמר
+    translation: 'וקשה לנו: מה הוא אומר?'
+    answers:
+    - לן
+    options:
+    - לן
+    - קמיה
+    - עלה
+    lexemes:
+    - lan
+    source: בבלי, תמורה כח ע״א
+    vocalized: וְקַשְׁיָא לַן, מַאי קָאָמַר
+  - id: u07-l2-34
+    type: fill_blank
+    sentence: ___ לן מאי קאמר
+    translation: 'וקשה לנו: מה הוא אומר?'
+    answers:
+    - וקשיא
+    options:
+    - וקשיא
+    - בדח
+    - אינהו
+    lexemes:
+    - kashya
+    source: בבלי, תמורה כח ע״א
+    vocalized: וְקַשְׁיָא לַן, מַאי קָאָמַר
+  - id: u07-l2-35
+    type: fill_blank
+    sentence: וקשיא לן מאי ___
+    translation: 'וקשה לנו: מה הוא אומר?'
+    answers:
+    - קאמר
+    options:
+    - קאמר
+    - קמיה
+    - לן
+    lexemes:
+    - kamar
+    source: בבלי, תמורה כח ע״א
+    vocalized: וְקַשְׁיָא לַן, מַאי קָאָמַר
+- id: u07-l3
+  kind: new
+  title:
+    he: מיניה ועלה
+    en: From him, on it
+  exercises:
+  - id: u07-l3-36
+    type: dialogue
+    scene: ר׳ ישראל מוזג עוד תה.
+    lines:
+    - speaker: yisrael
+      text: ״מיניה״ = ממנו. כל מה שאני יודע, שמעתי מיניה, מסבא שלך.
+      translation: מיניה
+    - speaker: eitan
+      text: ו״עלה״?
+      translation: שאלה
+    - speaker: yisrael
+      text: עליה. ״מאי הוה עלה?״ = מה היה עליה, איך נגמרה השאלה. בגמרא, ובחיים.
+      translation: עלה
+  - id: u07-l3-37
+    type: learn
+    lexeme: mineih
+  - id: u07-l3-38
+    type: learn
+    lexeme: ala
+  - id: u07-l3-39
+    type: match_pairs
+    pairs:
+    - - מיניה
+      - ממנו
+    - - עלה
+      - עליה
+    - - אנא
+      - אני
+    lexemes:
+    - mineih
+    - ala
+    - ana
+  - id: u07-l3-40
+    type: multiple_choice
+    prompt: מה פירוש מיניה?
+    options:
+    - ממנו
+    - אני
+    - הוא (בהדגשה)
+    correct: 0
+    lexemes:
+    - mineih
+  - id: u07-l3-41
+    type: multiple_choice
+    prompt: מה פירוש עלה?
+    options:
+    - עליה
+    - אני
+    - קשה; קושיה
+    correct: 0
+    lexemes:
+    - ala
+  - id: u07-l3-42
+    type: fill_blank
+    sentence: ואי תפס לא מפקינן ___
+    translation: ואם תפס (את הכסף), אין מוציאים ממנו
+    answers:
+    - מיניה
+    options:
+    - מיניה
+    - קמיה
+    - עלה
+    lexemes:
+    - mineih
+    source: בבלי, בבא קמא טו ע״ב
+    vocalized: וְאִי תְּפַס לָא מַפְּקִינַן מִינֵּיהּ
+  - id: u07-l3-43
+    type: fill_blank
+    sentence: מאי הוה ___
+    translation: מה היה עליה? (איך נפסקה השאלה?)
+    answers:
+    - עלה
+    options:
+    - עלה
+    - מיניה
+    - נפשיה
+    lexemes:
+    - ala
+    source: בבלי, ברכות יב ע״ב
+    vocalized: מַאי הֲוָה עֲלַהּ
+- id: u07-l4
+  kind: review
+  title:
+    he: אנא תפילין מנחנא
+    en: I am wearing tefillin
+  exercises:
+  - id: u07-l4-44
+    type: reading
+    kind: גמרא, ברכות ל ע״ב
+    title: שמחה ותפילין
+    text: 'אביי הוה יתיב קמיה דרבה
+
+
+      חזייה דהוה קא בדח טובא
+
+
+      אמר וגילו ברעדה כתיב
+
+
+      א"ל אנא תפילין מנחנא'
+    translation: 'אביי היה יושב לפני רבה.
+
+
+      ראה אותו שהיה שמח מאוד.
+
+
+      אמר: ׳וגילו ברעדה׳ כתוב! (צריך לשמוח עם יראה)
+
+
+      אמר לו: אני מניח תפילין (והן מביאות יראה).'
+    lexemes:
+    - kameih
+    - bedach
+    - ana
+    - tuva
+    source: בבלי, ברכות ל ע״ב
+    vocalized: 'אַבָּיֵי הֲוָה יָתֵיב קַמֵּיהּ דְּרַבָּה חַזְיֵיהּ דַּהֲוָה קָא בָדַח טוּבָא. אֲמַר וְגִילוּ בִּרְעָדָה כְּתִיב! אֲמַר לֵיהּ: אֲנָא תְּפִילִּין מַנַּחְנָא'
+  - id: u07-l4-45
+    type: multiple_choice
+    passage: אמר וגילו ברעדה כתיב א"ל אנא תפילין מנחנא
+    prompt: למה רבה ענה ״אנא תפילין מנחנא״?
+    options:
+    - כי התפילין שעליו מביאות יראה עם השמחה
+    - כי הוא לא היה שמח
+    - כי אביי ביקש תפילין
+    correct: 0
+    lexemes:
+    - ana
+    source: בבלי, ברכות ל ע״ב
+    vocalized: 'אֲמַר וְגִילוּ בִּרְעָדָה כְּתִיב! אֲמַר לֵיהּ: אֲנָא תְּפִילִּין מַנַּחְנָא'
+  - id: u07-l4-46
+    type: fill_blank
+    sentence: ___ אפסידו אנפשייהו
+    translation: הם הפסידו לעצמם
+    answers:
+    - אינהו
+    options:
+    - אינהו
+    - אנא
+    - אנן
+    lexemes:
+    - inhu
+    source: בבלי, בבא בתרא מב ע״א
+    vocalized: אִינְהוּ אַפְסִידוּ אַנַּפְשַׁיְיהוּ
+  - id: u07-l4-47
+    type: word_bank
+    prompt: אנחנו נעשה לחומרה
+    answers:
+    - אנן נעבד לחומרא
+    distractors:
+    - איהו
+    - מיניה
+    lexemes:
+    - anan
+    source: בבלי, ברכות נא ע״ב
+    vocalized: אֲנַן נַעֲבֵד לְחוּמְרָא
+  - id: u07-l4-48
+    type: dialogue
+    scene: ר׳ ישראל מלווה את איתן לדלת.
+    lines:
+    - speaker: yisrael
+      text: 'יש עוד סיפור שסבא שלך אהב: חוני המעגל, שישן שבעים שנה.'
+      translation: הרמז הבא
+    - speaker: eitan
+      text: שבעים שנה? כמעט כמו החברותא שלכם.
+      translation: איתן
+    - speaker: yisrael
+      text: שישים ושתיים. אבל מי סופר.
+      translation: החברותא
+  - id: u07-l4-49
+    type: match_pairs
+    pairs:
+    - - אנא
+      - אני
+    - - איהו
+      - הוא (בהדגשה)
+    - - אנן
+      - אנחנו
+    - - אינהו
+      - הם
+    - - לן
+      - לנו
+    - - מיניה
+      - ממנו
+    lexemes:
+    - ana
+    - ihu
+    - anan
+    - inhu
+    - lan
+    - mineih

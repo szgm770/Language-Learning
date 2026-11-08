@@ -1,0 +1,689 @@
+id: u11-palga
+cefr: A2
+scene: study
+title:
+  he: פלגא דליליא
+  en: Midnight
+story: 'הפתק של סבא: ״בחצות, כמו דוד.״ ר׳ ישראל מספר שבמתבן למדו בחצות הלילה, כשהאיכר ישן. בברכות ג לומדים: האם דוד ידע מתי חצות? ומילים של זמן ומספרים.'
+canDo:
+- 'להבין מילים של זמן: אורתא, צפרא, יממא, ליליא, פלגא'
+- 'להבין מספרים: תרי, תרתי, שית'
+- 'להבין ״מי…?״ כשאלה: האם?'
+vocabulary:
+- id: palga
+  text: פלגא
+  translation: חצי
+  pos: noun
+  example:
+    text: ודוד מי הוה ידע פלגא דליליא אימת
+    translation: ודוד, האם ידע מתי חצות הלילה?
+    source: בבלי, ברכות ג ע״ב
+    vocalized: וְדָוִד מִי הֲוָה יָדַע פַּלְגָא דְּלֵילְיָא אֵימַת
+- id: mi
+  text: מי
+  translation: (בתחילת שאלה:) האם?
+  pos: adverb
+  example:
+    text: ודוד מי הוה ידע פלגא דליליא אימת
+    translation: ודוד, האם ידע מתי חצות הלילה?
+    source: בבלי, ברכות ג ע״ב
+    vocalized: וְדָוִד מִי הֲוָה יָדַע פַּלְגָא דְּלֵילְיָא אֵימַת
+- id: yada
+  text: ידע
+  translation: ידע; יודע
+  pos: verb
+  example:
+    text: השתא משה רבינו לא הוה ידע
+    translation: הרי (אפילו) משה רבנו לא ידע!
+    source: בבלי, ברכות ג ע״ב
+    vocalized: הַשְׁתָּא מֹשֶׁה רַבֵּינוּ לָא הֲוָה יָדַע
+- id: urta
+  text: אורתא
+  translation: ערב
+  pos: noun
+  example:
+    text: לא מאורתא ועד אורתא
+    translation: לא, מערב ועד ערב
+    source: בבלי, ברכות ג ע״ב
+    vocalized: לָא, מֵאוּרְתָּא וְעַד אוּרְתָּא
+- id: tsafra
+  text: צפרא
+  translation: בוקר
+  pos: noun
+  example:
+    text: מאי לאו מצפרא ועד ליליא
+    translation: האם לא (פירושו) מהבוקר ועד הלילה?
+    source: בבלי, ברכות ג ע״ב
+    vocalized: מַאי לָאו מִצַּפְרָא וְעַד לֵילְיָא
+- id: yemama
+  text: יממא
+  translation: יום (שעות האור)
+  pos: noun
+  example:
+    text: אלא אמר רבא תרי נשפי הוו נשף ליליא ואתי יממא נשף יממא ואתי ליליא
+    translation: 'אלא אמר רבא: שני ׳נשף׳ יש: נשף (סוף) הלילה, ובא היום; נשף (סוף) היום, ובא הלילה'
+    source: בבלי, ברכות ג ע״ב
+    vocalized: 'אֶלָּא אָמַר רָבָא: תְּרֵי נִשְׁפֵי הָווּ נְשַׁף לֵילְיָא וְאָתֵי יְמָמָא, נְשַׁף יְמָמָא וְאָתֵי לֵילְיָא'
+- id: trei
+  text: תרי
+  translation: שניים
+  pos: number
+  example:
+    text: אלא אמר רבא תרי נשפי הוו נשף ליליא ואתי יממא נשף יממא ואתי ליליא
+    translation: 'אלא אמר רבא: שני ׳נשף׳ יש: נשף (סוף) הלילה, ובא היום; נשף (סוף) היום, ובא הלילה'
+    source: בבלי, ברכות ג ע״ב
+    vocalized: 'אֶלָּא אָמַר רָבָא: תְּרֵי נִשְׁפֵי הָווּ נְשַׁף לֵילְיָא וְאָתֵי יְמָמָא, נְשַׁף יְמָמָא וְאָתֵי לֵילְיָא'
+- id: shit
+  text: שית
+  translation: שש
+  pos: number
+  example:
+    text: שית דליליא ותרתי דיממא הוו להו שתי משמרות
+    translation: שש (שעות) של הלילה ושתיים של היום, הרי הן שתי משמרות
+    source: בבלי, ברכות ג ע״ב
+    vocalized: שֵׁית דְּלֵילְיָא, וְתַרְתֵּי דִּימָמָא, הָווּ לְהוּ שְׁתֵּי מִשְׁמָרוֹת
+- id: tartei
+  text: תרתי
+  translation: שתיים
+  pos: number
+  example:
+    text: שית דליליא ותרתי דיממא הוו להו שתי משמרות
+    translation: שש (שעות) של הלילה ושתיים של היום, הרי הן שתי משמרות
+    source: בבלי, ברכות ג ע״ב
+    vocalized: שֵׁית דְּלֵילְיָא, וְתַרְתֵּי דִּימָמָא, הָווּ לְהוּ שְׁתֵּי מִשְׁמָרוֹת
+- id: kru
+  text: קרו
+  translation: קוראים (בשם)
+  pos: verb
+  example:
+    text: רב אשי אמר משמרה ופלגא נמי משמרות קרו להו
+    translation: 'רב אשי אמר: משמרה וחצי, גם אותה קוראים ׳משמרות׳'
+    source: בבלי, ברכות ג ע״ב
+    vocalized: 'רַב אָשֵׁי אָמַר: מִשְׁמָרָה וּפַלְגָא נָמֵי מִשְׁמָרוֹת קָרוּ לְהוּ'
+- id: simana
+  text: סימנא
+  translation: סימן
+  pos: noun
+  example:
+    text: דוד סימנא הוה ליה
+    translation: לדוד היה סימן
+    source: בבלי, ברכות ג ע״ב
+    vocalized: דָּוִד, סִימָנָא הֲוָה לֵיהּ
+- id: zimna
+  text: זימנא
+  translation: פעם
+  pos: noun
+  example:
+    text: והא איפליגו בה חדא זימנא
+    translation: והרי כבר נחלקו בה פעם אחת!
+    source: בבלי, מנחות עח ע״ב
+    vocalized: וְהָא אִיפְּלִיגוּ בַּהּ חֲדָא זִימְנָא
+- id: zimnin
+  text: זימנין
+  translation: לפעמים
+  pos: adverb
+  example:
+    text: ואידך אמר ליה זימנין דבעיתת
+    translation: 'והאחר אמר לו: לפעמים (יקרה) שתיבהל'
+    source: בבלי, בבא בתרא נט ע״ב
+    vocalized: 'וְאִידַּךְ אֲמַר לֵיהּ: זִימְנִין דִּבְעִיתַתְּ'
+grammar: []
+lessons:
+- id: u11-l1
+  kind: new
+  title:
+    he: פלגא דליליא
+    en: Half the night
+  exercises:
+  - id: u11-l1-01
+    type: dialogue
+    scene: ר׳ ישראל פותח סוף־סוף את הפתק המקופל של סבא.
+    lines:
+    - speaker: yisrael
+      text: ״ישראל, כשאיתן יגיע לכאן, תלמדו פעם אחת בחצות. כמו אז. כמו דוד.״
+      translation: הפתק
+    - speaker: eitan
+      text: בחצות? למה?
+      translation: שאלה
+    - speaker: yisrael
+      text: במתבן למדנו רק בחצות הלילה, כשהאיכר והכלבים ישנו. ״פלגא דליליא״, חצי הלילה.
+      translation: פלגא דליליא
+    - speaker: yisrael
+      text: 'והגמרא שואלת על דוד המלך, שקם בחצות: ״ודוד מי הוה ידע פלגא דליליא אימת?״ האם הוא ידע מתי חצות?'
+      translation: מי = האם
+    - speaker: eitan
+      text: ולכם היה שעון?
+      translation: איתן
+    - speaker: yisrael
+      text: 'לא. ״סימנא הוה לן״. היה לנו סימן: התרנגול של האיכר.'
+      translation: סימנא
+  - id: u11-l1-02
+    type: learn
+    lexeme: palga
+  - id: u11-l1-03
+    type: learn
+    lexeme: mi
+  - id: u11-l1-04
+    type: learn
+    lexeme: yada
+  - id: u11-l1-05
+    type: learn
+    lexeme: simana
+  - id: u11-l1-06
+    type: match_pairs
+    pairs:
+    - - פלגא
+      - חצי
+    - - מי
+      - (בתחילת שאלה:) האם?
+    - - ידע
+      - ידע; יודע
+    - - סימנא
+      - סימן
+    lexemes:
+    - palga
+    - mi
+    - yada
+    - simana
+  - id: u11-l1-07
+    type: multiple_choice
+    prompt: מה פירוש פלגא?
+    options:
+    - חצי
+    - קוראים (בשם)
+    - שניים
+    correct: 0
+    lexemes:
+    - palga
+  - id: u11-l1-08
+    type: multiple_choice
+    prompt: מה פירוש מי?
+    options:
+    - (בתחילת שאלה:) האם?
+    - בוקר
+    - פעם
+    correct: 0
+    lexemes:
+    - mi
+  - id: u11-l1-09
+    type: multiple_choice
+    prompt: מה פירוש ידע?
+    options:
+    - ידע; יודע
+    - שש
+    - שתיים
+    correct: 0
+    lexemes:
+    - yada
+  - id: u11-l1-10
+    type: multiple_choice
+    prompt: מה פירוש סימנא?
+    options:
+    - סימן
+    - שניים
+    - פעם
+    correct: 0
+    lexemes:
+    - simana
+  - id: u11-l1-11
+    type: fill_blank
+    sentence: ודוד מי הוה ידע ___ דליליא אימת
+    translation: ודוד, האם ידע מתי חצות הלילה?
+    answers:
+    - פלגא
+    options:
+    - פלגא
+    - אורתא
+    - יממא
+    lexemes:
+    - palga
+    source: בבלי, ברכות ג ע״ב
+    vocalized: וְדָוִד מִי הֲוָה יָדַע פַּלְגָא דְּלֵילְיָא אֵימַת
+  - id: u11-l1-12
+    type: fill_blank
+    sentence: ודוד ___ הוה ידע פלגא דליליא אימת
+    translation: ודוד, האם ידע מתי חצות הלילה?
+    answers:
+    - מי
+    options:
+    - מי
+    - תרי
+    - צפרא
+    lexemes:
+    - mi
+    source: בבלי, ברכות ג ע״ב
+    vocalized: וְדָוִד מִי הֲוָה יָדַע פַּלְגָא דְּלֵילְיָא אֵימַת
+  - id: u11-l1-13
+    type: fill_blank
+    sentence: השתא משה רבינו לא הוה ___
+    translation: הרי (אפילו) משה רבנו לא ידע!
+    answers:
+    - ידע
+    options:
+    - ידע
+    - זימנא
+    - זימנין
+    lexemes:
+    - yada
+    source: בבלי, ברכות ג ע״ב
+    vocalized: הַשְׁתָּא מֹשֶׁה רַבֵּינוּ לָא הֲוָה יָדַע
+  - id: u11-l1-14
+    type: fill_blank
+    sentence: דוד ___ הוה ליה
+    translation: לדוד היה סימן
+    answers:
+    - סימנא
+    options:
+    - סימנא
+    - צפרא
+    - תרתי
+    lexemes:
+    - simana
+    source: בבלי, ברכות ג ע״ב
+    vocalized: דָּוִד, סִימָנָא הֲוָה לֵיהּ
+- id: u11-l2
+  kind: new
+  title:
+    he: אורתא וצפרא
+    en: Evening and morning
+  exercises:
+  - id: u11-l2-15
+    type: tip
+    title: זמנים
+    text: '**צפרא** = בוקר. **יממא** = יום (שעות האור). **אורתא** = ערב. **ליליא** = לילה.
+
+
+      **פלגא דליליא** = חצות הלילה. **יומא** = יום (תאריך).
+
+
+      מספרים: **חד** / **חדא** = אחד / אחת. **תרי** / **תרתי** = שניים / שתיים. **תלת**, **תלתא** = שלוש, שלושה. **שית** = שש.'
+  - id: u11-l2-16
+    type: learn
+    lexeme: urta
+  - id: u11-l2-17
+    type: learn
+    lexeme: tsafra
+  - id: u11-l2-18
+    type: learn
+    lexeme: yemama
+  - id: u11-l2-19
+    type: learn
+    lexeme: trei
+  - id: u11-l2-20
+    type: match_pairs
+    pairs:
+    - - אורתא
+      - ערב
+    - - צפרא
+      - בוקר
+    - - יממא
+      - יום (שעות האור)
+    - - תרי
+      - שניים
+    lexemes:
+    - urta
+    - tsafra
+    - yemama
+    - trei
+  - id: u11-l2-21
+    type: multiple_choice
+    prompt: מה פירוש אורתא?
+    options:
+    - ערב
+    - ידע; יודע
+    - (בתחילת שאלה:) האם?
+    correct: 0
+    lexemes:
+    - urta
+  - id: u11-l2-22
+    type: multiple_choice
+    prompt: מה פירוש צפרא?
+    options:
+    - בוקר
+    - שניים
+    - קוראים (בשם)
+    correct: 0
+    lexemes:
+    - tsafra
+  - id: u11-l2-23
+    type: multiple_choice
+    prompt: מה פירוש יממא?
+    options:
+    - יום (שעות האור)
+    - סימן
+    - בוקר
+    correct: 0
+    lexemes:
+    - yemama
+  - id: u11-l2-24
+    type: multiple_choice
+    prompt: מה פירוש תרי?
+    options:
+    - שניים
+    - לפעמים
+    - שתיים
+    correct: 0
+    lexemes:
+    - trei
+  - id: u11-l2-25
+    type: fill_blank
+    sentence: לא מאורתא ועד ___
+    translation: לא, מערב ועד ערב
+    answers:
+    - אורתא
+    options:
+    - אורתא
+    - סימנא
+    - צפרא
+    lexemes:
+    - urta
+    source: בבלי, ברכות ג ע״ב
+    vocalized: לָא, מֵאוּרְתָּא וְעַד אוּרְתָּא
+  - id: u11-l2-26
+    type: fill_blank
+    sentence: מאי לאו ___ ועד ליליא
+    translation: האם לא (פירושו) מהבוקר ועד הלילה?
+    answers:
+    - מצפרא
+    options:
+    - מצפרא
+    - זימנא
+    - סימנא
+    lexemes:
+    - tsafra
+    source: בבלי, ברכות ג ע״ב
+    vocalized: מַאי לָאו מִצַּפְרָא וְעַד לֵילְיָא
+  - id: u11-l2-27
+    type: fill_blank
+    sentence: אלא אמר רבא תרי נשפי הוו נשף ליליא ואתי ___ נשף יממא ואתי ליליא
+    translation: 'אלא אמר רבא: שני ׳נשף׳ יש: נשף (סוף) הלילה, ובא היום; נשף (סוף) היום, ובא הלילה'
+    answers:
+    - יממא
+    options:
+    - יממא
+    - שית
+    - פלגא
+    lexemes:
+    - yemama
+    source: בבלי, ברכות ג ע״ב
+    vocalized: 'אֶלָּא אָמַר רָבָא: תְּרֵי נִשְׁפֵי הָווּ נְשַׁף לֵילְיָא וְאָתֵי יְמָמָא, נְשַׁף יְמָמָא וְאָתֵי לֵילְיָא'
+  - id: u11-l2-28
+    type: fill_blank
+    sentence: אלא אמר רבא ___ נשפי הוו נשף ליליא ואתי יממא נשף יממא ואתי ליליא
+    translation: 'אלא אמר רבא: שני ׳נשף׳ יש: נשף (סוף) הלילה, ובא היום; נשף (סוף) היום, ובא הלילה'
+    answers:
+    - תרי
+    options:
+    - תרי
+    - זימנא
+    - צפרא
+    lexemes:
+    - trei
+    source: בבלי, ברכות ג ע״ב
+    vocalized: 'אֶלָּא אָמַר רָבָא: תְּרֵי נִשְׁפֵי הָווּ נְשַׁף לֵילְיָא וְאָתֵי יְמָמָא, נְשַׁף יְמָמָא וְאָתֵי לֵילְיָא'
+- id: u11-l3
+  kind: new
+  title:
+    he: זימנא וזימנין
+    en: Once and sometimes
+  exercises:
+  - id: u11-l3-29
+    type: learn
+    lexeme: shit
+  - id: u11-l3-30
+    type: learn
+    lexeme: tartei
+  - id: u11-l3-31
+    type: learn
+    lexeme: kru
+  - id: u11-l3-32
+    type: learn
+    lexeme: zimna
+  - id: u11-l3-33
+    type: learn
+    lexeme: zimnin
+  - id: u11-l3-34
+    type: match_pairs
+    pairs:
+    - - שית
+      - שש
+    - - תרתי
+      - שתיים
+    - - קרו
+      - קוראים (בשם)
+    - - זימנא
+      - פעם
+    - - זימנין
+      - לפעמים
+    lexemes:
+    - shit
+    - tartei
+    - kru
+    - zimna
+    - zimnin
+  - id: u11-l3-35
+    type: multiple_choice
+    prompt: מה פירוש שית?
+    options:
+    - שש
+    - חצי
+    - סימן
+    correct: 0
+    lexemes:
+    - shit
+  - id: u11-l3-36
+    type: multiple_choice
+    prompt: מה פירוש תרתי?
+    options:
+    - שתיים
+    - פעם
+    - בוקר
+    correct: 0
+    lexemes:
+    - tartei
+  - id: u11-l3-37
+    type: multiple_choice
+    prompt: מה פירוש קרו?
+    options:
+    - קוראים (בשם)
+    - חצי
+    - לפעמים
+    correct: 0
+    lexemes:
+    - kru
+  - id: u11-l3-38
+    type: multiple_choice
+    prompt: מה פירוש זימנא?
+    options:
+    - פעם
+    - חצי
+    - ידע; יודע
+    correct: 0
+    lexemes:
+    - zimna
+  - id: u11-l3-39
+    type: multiple_choice
+    prompt: מה פירוש זימנין?
+    options:
+    - לפעמים
+    - קוראים (בשם)
+    - ידע; יודע
+    correct: 0
+    lexemes:
+    - zimnin
+  - id: u11-l3-40
+    type: fill_blank
+    sentence: ___ דליליא ותרתי דיממא הוו להו שתי משמרות
+    translation: שש (שעות) של הלילה ושתיים של היום, הרי הן שתי משמרות
+    answers:
+    - שית
+    options:
+    - שית
+    - פלגא
+    - קרו
+    lexemes:
+    - shit
+    source: בבלי, ברכות ג ע״ב
+    vocalized: שֵׁית דְּלֵילְיָא, וְתַרְתֵּי דִּימָמָא, הָווּ לְהוּ שְׁתֵּי מִשְׁמָרוֹת
+  - id: u11-l3-41
+    type: fill_blank
+    sentence: שית דליליא ___ דיממא הוו להו שתי משמרות
+    translation: שש (שעות) של הלילה ושתיים של היום, הרי הן שתי משמרות
+    answers:
+    - ותרתי
+    options:
+    - ותרתי
+    - זימנא
+    - זימנין
+    lexemes:
+    - tartei
+    source: בבלי, ברכות ג ע״ב
+    vocalized: שֵׁית דְּלֵילְיָא, וְתַרְתֵּי דִּימָמָא, הָווּ לְהוּ שְׁתֵּי מִשְׁמָרוֹת
+  - id: u11-l3-42
+    type: fill_blank
+    sentence: רב אשי אמר משמרה ופלגא נמי משמרות ___ להו
+    translation: 'רב אשי אמר: משמרה וחצי, גם אותה קוראים ׳משמרות׳'
+    answers:
+    - קרו
+    options:
+    - קרו
+    - פלגא
+    - ידע
+    lexemes:
+    - kru
+    source: בבלי, ברכות ג ע״ב
+    vocalized: 'רַב אָשֵׁי אָמַר: מִשְׁמָרָה וּפַלְגָא נָמֵי מִשְׁמָרוֹת קָרוּ לְהוּ'
+  - id: u11-l3-43
+    type: fill_blank
+    sentence: והא איפליגו בה חדא ___
+    translation: והרי כבר נחלקו בה פעם אחת!
+    answers:
+    - זימנא
+    options:
+    - זימנא
+    - קרו
+    - אורתא
+    lexemes:
+    - zimna
+    source: בבלי, מנחות עח ע״ב
+    vocalized: וְהָא אִיפְּלִיגוּ בַּהּ חֲדָא זִימְנָא
+  - id: u11-l3-44
+    type: fill_blank
+    sentence: ואידך אמר ליה ___ דבעיתת
+    translation: 'והאחר אמר לו: לפעמים (יקרה) שתיבהל'
+    answers:
+    - זימנין
+    options:
+    - זימנין
+    - זימנא
+    - תרתי
+    lexemes:
+    - zimnin
+    source: בבלי, בבא בתרא נט ע״ב
+    vocalized: 'וְאִידַּךְ אֲמַר לֵיהּ: זִימְנִין דִּבְעִיתַתְּ'
+- id: u11-l4
+  kind: review
+  title:
+    he: דוד בחצות
+    en: David at midnight
+  exercises:
+  - id: u11-l4-45
+    type: reading
+    kind: גמרא, ברכות ג ע״ב
+    title: האם דוד ידע?
+    text: 'ודוד מי הוה ידע פלגא דליליא אימת
+
+
+      השתא משה רבינו לא הוה ידע
+
+
+      דכתיב כחצות הלילה אני יוצא בתוך מצרים'
+    translation: 'ודוד, האם ידע מתי חצות הלילה?
+
+
+      הרי (אפילו) משה רבנו לא ידע,
+
+
+      שכתוב: ׳כחצות הלילה אני יוצא בתוך מצרים׳ (׳בערך׳ בחצות).'
+    lexemes:
+    - mi
+    - yada
+    - palga
+    - eimat
+    - hashta
+    - dechtiv
+    source: בבלי, ברכות ג ע״ב
+    vocalized: וְדָוִד מִי הֲוָה יָדַע פַּלְגָא דְּלֵילְיָא אֵימַת? הַשְׁתָּא מֹשֶׁה רַבֵּינוּ לָא הֲוָה יָדַע, דִּכְתִיב כַּחֲצוֹת הַלַּיְלָה אֲנִי יוֹצֵא בְּתוֹךְ מִצְרָיִם
+  - id: u11-l4-46
+    type: multiple_choice
+    passage: השתא משה רבינו לא הוה ידע דכתיב כחצות הלילה אני יוצא בתוך מצרים
+    prompt: למה הגמרא חושבת שמשה לא ידע מתי חצות?
+    options:
+    - כי הוא אמר ׳כחצות׳, כלומר בערך
+    - כי הוא ישן בלילה
+    - כי לא היה לו כינור
+    correct: 0
+    lexemes:
+    - yada
+    source: בבלי, ברכות ג ע״ב
+    vocalized: הַשְׁתָּא מֹשֶׁה רַבֵּינוּ לָא הֲוָה יָדַע, דִּכְתִיב כַּחֲצוֹת הַלַּיְלָה אֲנִי יוֹצֵא בְּתוֹךְ מִצְרָיִם
+  - id: u11-l4-47
+    type: multiple_choice
+    passage: אלא אמר רבא תרי נשפי הוו נשף ליליא ואתי יממא נשף יממא ואתי ליליא
+    prompt: ״תרי נשפי הוו״. מה רבא מסביר?
+    options:
+    - שיש ׳נשף׳ בסוף הלילה ו׳נשף׳ בסוף היום
+    - שיש שני לילות
+    - שדוד קם פעמיים
+    correct: 0
+    lexemes:
+    - trei
+    - yemama
+    source: בבלי, ברכות ג ע״ב
+    vocalized: 'אֶלָּא אָמַר רָבָא: תְּרֵי נִשְׁפֵי הָווּ נְשַׁף לֵילְיָא וְאָתֵי יְמָמָא, נְשַׁף יְמָמָא וְאָתֵי לֵילְיָא'
+  - id: u11-l4-48
+    type: fill_blank
+    sentence: לא ___ ועד אורתא
+    translation: לא, מערב ועד ערב
+    answers:
+    - מאורתא
+    options:
+    - מאורתא
+    - מצפרא
+    - ביממא
+    lexemes:
+    - urta
+    source: בבלי, ברכות ג ע״ב
+    vocalized: לָא, מֵאוּרְתָּא וְעַד אוּרְתָּא
+  - id: u11-l4-49
+    type: dialogue
+    scene: רבע לחצות. בבית של סבא. שתי כוסות תה, ובחוץ שקט.
+    lines:
+    - speaker: eitan
+      text: אז מה לומדים בחצות?
+      translation: השאלה
+    - speaker: yisrael
+      text: 'את מה שלמדנו אז. בבא מציעא. אבל קודם מילים: איש, אישה, אב, אח, בית, עיר. בגמרא הן נשמעות אחרת.'
+      translation: ההמשך
+  - id: u11-l4-50
+    type: match_pairs
+    pairs:
+    - - פלגא
+      - חצי
+    - - אורתא
+      - ערב
+    - - צפרא
+      - בוקר
+    - - יממא
+      - יום (שעות האור)
+    - - תרי
+      - שניים
+    - - זימנין
+      - לפעמים
+    lexemes:
+    - palga
+    - urta
+    - tsafra
+    - yemama
+    - trei
+    - zimnin

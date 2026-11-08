@@ -1,0 +1,709 @@
+id: u12-akiva
+cefr: A2
+scene: study
+title:
+  he: שלי ושלכם שלה הוא
+  en: Mine and yours are hers
+story: 'בשולי כתובות סג מצאה חנה הקדשה של סבא לסבתא. ר׳ ישראל מלמד את סיפור רבי עקיבא ורחל: הרועה שהלך ללמוד עשרים וארבע שנה, והאישה שחיכתה לו.'
+canDo:
+- לקרוא סיפור ארוך בארמית ברצף
+- 'להבין מילים של משפחה וחיים: ברתיה, אבוה, דביתהו, סבא, שיבבתא'
+- להבין ״בי רב״, ״אחריני״, ״שבקוה״
+vocabulary:
+- id: raya
+  text: רעיא
+  translation: רועה
+  pos: noun
+  example:
+    text: ר"ע רעיא דבן כלבא שבוע הוה
+    translation: רבי עקיבא היה רועה של בן כלבא שבוע
+    source: בבלי, כתובות סב ע״ב
+    vocalized: רַבִּי עֲקִיבָא רָעֲיָא דְּבֶן כַּלְבָּא שָׂבוּעַ הֲוָה
+- id: berateih
+  text: ברתיה
+  translation: בתו
+  pos: noun
+  example:
+    text: חזיתיה ברתיה דהוה צניע ומעלי
+    translation: ראתה אותו בתו (של בן כלבא שבוע), שהיה צנוע ומעולה
+    source: בבלי, כתובות סב ע״ב
+    vocalized: חֲזִיתֵיהּ בְּרַתֵּיה דַּהֲוָה צְנִיעַ וּמְעַלֵּי
+- id: tsania
+  text: צניע
+  translation: צנוע
+  pos: adjective
+  example:
+    text: חזיתיה ברתיה דהוה צניע ומעלי
+    translation: ראתה אותו בתו (של בן כלבא שבוע), שהיה צנוע ומעולה
+    source: בבלי, כתובות סב ע״ב
+    vocalized: חֲזִיתֵיהּ בְּרַתֵּיה דַּהֲוָה צְנִיעַ וּמְעַלֵּי
+- id: bei-rav
+  text: בי רב
+  translation: בית המדרש, הישיבה
+  pos: noun
+  example:
+    text: אמרה ליה אי מקדשנא לך אזלת לבי רב
+    translation: 'אמרה לו: אם אתקדש לך, תלך לבית המדרש (ללמוד)?'
+    source: בבלי, כתובות סב ע״ב
+    vocalized: 'אֲמַרָה לֵיהּ: אִי מִקַּדַּשְׁנָא לָךְ, אָזְלַתְּ לְבֵי רַב'
+- id: in
+  text: אין
+  translation: כן
+  pos: adverb
+  example:
+    text: אמר לה אין
+    translation: 'אמר לה: כן'
+    source: בבלי, כתובות סב ע״ב
+    vocalized: 'אֲמַר לַהּ: אִין'
+- id: shama
+  text: שמע
+  translation: שמע (עבר); ״שמע מינה״ = למד מכאן
+  pos: verb
+  example:
+    text: שמע אבוה אפקה מביתיה
+    translation: שמע אביה, והוציא אותה מביתו
+    source: בבלי, כתובות סב ע״ב
+    vocalized: שְׁמַע אֲבוּהָ, אַפְּקַהּ מִבֵּיתֵיהּ
+- id: avuha
+  text: אבוה
+  translation: אביו, אביה
+  pos: noun
+  example:
+    text: שמע אבוה אפקה מביתיה
+    translation: שמע אביה, והוציא אותה מביתו
+    source: בבלי, כתובות סב ע״ב
+    vocalized: שְׁמַע אֲבוּהָ, אַפְּקַהּ מִבֵּיתֵיהּ
+- id: trei-sar
+  text: תרי סרי
+  translation: שתים־עשרה, שנים־עשר
+  pos: number
+  example:
+    text: אזיל יתיב תרי סרי שנין בבי רב
+    translation: הלך וישב שתים־עשרה שנים בבית המדרש
+    source: בבלי, כתובות סב ע״ב
+- id: bahadeih
+  text: בהדיה
+  translation: איתו, עמו
+  pos: preposition
+  example:
+    text: כי אתא אייתי בהדיה תרי סרי אלפי תלמידי
+    translation: כשבא, הביא איתו שנים־עשר אלף תלמידים
+    source: בבלי, כתובות סב ע״ב
+    vocalized: כִּי אֲתָא, אַיְיתִי בַּהֲדֵיהּ תְּרֵי סְרֵי אַלְפֵי תַּלְמִידֵי
+- id: tsayit
+  text: ציית
+  translation: שומע בקול, מציית
+  pos: verb
+  example:
+    text: אמרה ליה אי לדידי ציית יתיב תרי סרי שני אחריני
+    translation: 'אמרה לו (לזקן): אם לי הוא שומע, שישב עוד שתים־עשרה שנים'
+    source: בבלי, כתובות סג ע״א
+- id: achrini
+  text: אחריני
+  translation: אחרים, נוספים
+  pos: adjective
+  example:
+    text: אמרה ליה אי לדידי ציית יתיב תרי סרי שני אחריני
+    translation: 'אמרה לו (לזקן): אם לי הוא שומע, שישב עוד שתים־עשרה שנים'
+    source: בבלי, כתובות סג ע״א
+- id: lapeih
+  text: לאפיה
+  translation: לקראתו (לפניו)
+  pos: preposition
+  example:
+    text: שמעה דביתהו הות קא נפקא לאפיה
+    translation: שמעה אשתו, והייתה יוצאת לקראתו
+    source: בבלי, כתובות סג ע״א
+    vocalized: שְׁמַעָה דְּבֵיתְהוּ, הֲוָת קָא נָפְקָא לְאַפֵּיהּ
+- id: shivkuha
+  text: שבקוה
+  translation: הניחו לה! עזבו אותה!
+  pos: verb
+  example:
+    text: שמעיה אמר להו שבקוה שלי ושלכם שלה הוא
+    translation: '(כשהתלמידים דחפו אותה) אמר להם: הניחו לה! שלי ושלכם, שלה הוא'
+    source: בבלי, כתובות סג ע״א
+    vocalized: 'שַׁמָּעֵיהּ. אֲמַר לְהוּ: שִׁבְקוּהָ, שֶׁלִּי וְשֶׁלָּכֶם שֶׁלָּהּ הוּא'
+grammar: []
+lessons:
+- id: u12-l1
+  kind: new
+  title:
+    he: רעיא דבן כלבא שבוע
+    en: The shepherd
+  exercises:
+  - id: u12-l1-01
+    type: dialogue
+    scene: חנה מגיעה לשיעור עם הכרך של מסכת כתובות.
+    lines:
+    - speaker: chana
+      text: 'בדף סג סבא כתב בשוליים: ״לרחל שלי, שחיכתה.״ כך קראו לסבתא.'
+      translation: הקדשה
+    - speaker: yisrael
+      text: כמו רחל של רבי עקיבא. בואו נקרא. ״ר״ע רעיא דבן כלבא שבוע הוה״. הוא היה רועה.
+      translation: רעיא = רועה
+    - speaker: yisrael
+      text: ״חזיתיה ברתיה״, ראתה אותו בתו של העשיר, שהוא ״צניע ומעלי״, צנוע ומעולה.
+      translation: ברתיה = בתו
+    - speaker: eitan
+      text: והיא שאלה אותו משהו.
+      translation: איתן
+    - speaker: yisrael
+      text: '״אי מקדשנא לך, אזלת לבי רב?״ אם אתקדש לך, תלך ללמוד? והוא אמר: ״אין״. כן.'
+      translation: אין = כן
+  - id: u12-l1-02
+    type: learn
+    lexeme: raya
+  - id: u12-l1-03
+    type: learn
+    lexeme: berateih
+  - id: u12-l1-04
+    type: learn
+    lexeme: tsania
+  - id: u12-l1-05
+    type: learn
+    lexeme: bei-rav
+  - id: u12-l1-06
+    type: learn
+    lexeme: in
+  - id: u12-l1-07
+    type: match_pairs
+    pairs:
+    - - רעיא
+      - רועה
+    - - ברתיה
+      - בתו
+    - - צניע
+      - צנוע
+    - - בי רב
+      - בית המדרש, הישיבה
+    - - אין
+      - כן
+    lexemes:
+    - raya
+    - berateih
+    - tsania
+    - bei-rav
+    - in
+  - id: u12-l1-08
+    type: multiple_choice
+    prompt: מה פירוש רעיא?
+    options:
+    - רועה
+    - צנוע
+    - שומע בקול, מציית
+    correct: 0
+    lexemes:
+    - raya
+  - id: u12-l1-09
+    type: multiple_choice
+    prompt: מה פירוש ברתיה?
+    options:
+    - בתו
+    - בית המדרש, הישיבה
+    - רועה
+    correct: 0
+    lexemes:
+    - berateih
+  - id: u12-l1-10
+    type: multiple_choice
+    prompt: מה פירוש צניע?
+    options:
+    - צנוע
+    - איתו, עמו
+    - שומע בקול, מציית
+    correct: 0
+    lexemes:
+    - tsania
+  - id: u12-l1-11
+    type: multiple_choice
+    prompt: מה פירוש בי רב?
+    options:
+    - בית המדרש, הישיבה
+    - אביו, אביה
+    - איתו, עמו
+    correct: 0
+    lexemes:
+    - bei-rav
+  - id: u12-l1-12
+    type: multiple_choice
+    prompt: מה פירוש אין?
+    options:
+    - כן
+    - אביו, אביה
+    - רועה
+    correct: 0
+    lexemes:
+    - in
+  - id: u12-l1-13
+    type: fill_blank
+    sentence: ר"ע ___ דבן כלבא שבוע הוה
+    translation: רבי עקיבא היה רועה של בן כלבא שבוע
+    answers:
+    - רעיא
+    options:
+    - רעיא
+    - שבקוה
+    - בי רב
+    lexemes:
+    - raya
+    source: בבלי, כתובות סב ע״ב
+    vocalized: רַבִּי עֲקִיבָא רָעֲיָא דְּבֶן כַּלְבָּא שָׂבוּעַ הֲוָה
+  - id: u12-l1-14
+    type: fill_blank
+    sentence: חזיתיה ___ דהוה צניע ומעלי
+    translation: ראתה אותו בתו (של בן כלבא שבוע), שהיה צנוע ומעולה
+    answers:
+    - ברתיה
+    options:
+    - ברתיה
+    - אין
+    - שבקוה
+    lexemes:
+    - berateih
+    source: בבלי, כתובות סב ע״ב
+    vocalized: חֲזִיתֵיהּ בְּרַתֵּיה דַּהֲוָה צְנִיעַ וּמְעַלֵּי
+  - id: u12-l1-15
+    type: fill_blank
+    sentence: חזיתיה ברתיה דהוה ___ ומעלי
+    translation: ראתה אותו בתו (של בן כלבא שבוע), שהיה צנוע ומעולה
+    answers:
+    - צניע
+    options:
+    - צניע
+    - אחריני
+    - רעיא
+    lexemes:
+    - tsania
+    source: בבלי, כתובות סב ע״ב
+    vocalized: חֲזִיתֵיהּ בְּרַתֵּיה דַּהֲוָה צְנִיעַ וּמְעַלֵּי
+  - id: u12-l1-16
+    type: fill_blank
+    sentence: אמרה ליה אי מקדשנא לך אזלת ___ רב
+    translation: 'אמרה לו: אם אתקדש לך, תלך לבית המדרש (ללמוד)?'
+    answers:
+    - לבי
+    options:
+    - לבי
+    - לאפיה
+    - שבקוה
+    lexemes:
+    - bei-rav
+    source: בבלי, כתובות סב ע״ב
+    vocalized: 'אֲמַרָה לֵיהּ: אִי מִקַּדַּשְׁנָא לָךְ, אָזְלַתְּ לְבֵי רַב'
+  - id: u12-l1-17
+    type: fill_blank
+    sentence: אמר לה ___
+    translation: 'אמר לה: כן'
+    answers:
+    - אין
+    options:
+    - אין
+    - אבוה
+    - רעיא
+    lexemes:
+    - in
+    source: בבלי, כתובות סב ע״ב
+    vocalized: 'אֲמַר לַהּ: אִין'
+- id: u12-l2
+  kind: new
+  title:
+    he: תרי סרי שנין
+    en: Twelve years
+  exercises:
+  - id: u12-l2-18
+    type: tip
+    title: מילים של משפחה
+    text: '**אבוה** = אביו / אביה. **אימיה** = אמו. **בריה** = בנו. **ברתיה** = בתו. **אחוה** = אחיו.
+
+
+      **דביתהו** = אשתו. **שיבבתא** = שכנות. **סבא** = זקן.
+
+
+      **בי רב** = הישיבה, בית המדרש. **בהדיה** = איתו.'
+  - id: u12-l2-19
+    type: learn
+    lexeme: shama
+  - id: u12-l2-20
+    type: learn
+    lexeme: avuha
+  - id: u12-l2-21
+    type: learn
+    lexeme: trei-sar
+  - id: u12-l2-22
+    type: learn
+    lexeme: bahadeih
+  - id: u12-l2-23
+    type: match_pairs
+    pairs:
+    - - שמע
+      - שמע (עבר); ״שמע מינה״ = למד מכאן
+    - - אבוה
+      - אביו, אביה
+    - - תרי סרי
+      - שתים־עשרה, שנים־עשר
+    - - בהדיה
+      - איתו, עמו
+    lexemes:
+    - shama
+    - avuha
+    - trei-sar
+    - bahadeih
+  - id: u12-l2-24
+    type: multiple_choice
+    prompt: מה פירוש שמע?
+    options:
+    - שמע (עבר); ״שמע מינה״ = למד מכאן
+    - בית המדרש, הישיבה
+    - לקראתו (לפניו)
+    correct: 0
+    lexemes:
+    - shama
+  - id: u12-l2-25
+    type: multiple_choice
+    prompt: מה פירוש אבוה?
+    options:
+    - אביו, אביה
+    - אחרים, נוספים
+    - בתו
+    correct: 0
+    lexemes:
+    - avuha
+  - id: u12-l2-26
+    type: multiple_choice
+    prompt: מה פירוש תרי סרי?
+    options:
+    - שתים־עשרה, שנים־עשר
+    - אחרים, נוספים
+    - שמע (עבר); ״שמע מינה״ = למד מכאן
+    correct: 0
+    lexemes:
+    - trei-sar
+  - id: u12-l2-27
+    type: multiple_choice
+    prompt: מה פירוש בהדיה?
+    options:
+    - איתו, עמו
+    - רועה
+    - שומע בקול, מציית
+    correct: 0
+    lexemes:
+    - bahadeih
+  - id: u12-l2-28
+    type: fill_blank
+    sentence: ___ אבוה אפקה מביתיה
+    translation: שמע אביה, והוציא אותה מביתו
+    answers:
+    - שמע
+    options:
+    - שמע
+    - ברתיה
+    - אחריני
+    lexemes:
+    - shama
+    source: בבלי, כתובות סב ע״ב
+    vocalized: שְׁמַע אֲבוּהָ, אַפְּקַהּ מִבֵּיתֵיהּ
+  - id: u12-l2-29
+    type: fill_blank
+    sentence: שמע ___ אפקה מביתיה
+    translation: שמע אביה, והוציא אותה מביתו
+    answers:
+    - אבוה
+    options:
+    - אבוה
+    - שבקוה
+    - לאפיה
+    lexemes:
+    - avuha
+    source: בבלי, כתובות סב ע״ב
+    vocalized: שְׁמַע אֲבוּהָ, אַפְּקַהּ מִבֵּיתֵיהּ
+  - id: u12-l2-30
+    type: fill_blank
+    sentence: אזיל יתיב תרי ___ שנין בבי רב
+    translation: הלך וישב שתים־עשרה שנים בבית המדרש
+    answers:
+    - סרי
+    options:
+    - סרי
+    - אבוה
+    - שבקוה
+    lexemes:
+    - trei-sar
+    source: בבלי, כתובות סב ע״ב
+  - id: u12-l2-31
+    type: fill_blank
+    sentence: כי אתא אייתי ___ תרי סרי אלפי תלמידי
+    translation: כשבא, הביא איתו שנים־עשר אלף תלמידים
+    answers:
+    - בהדיה
+    options:
+    - בהדיה
+    - רעיא
+    - בי רב
+    lexemes:
+    - bahadeih
+    source: בבלי, כתובות סב ע״ב
+    vocalized: כִּי אֲתָא, אַיְיתִי בַּהֲדֵיהּ תְּרֵי סְרֵי אַלְפֵי תַּלְמִידֵי
+- id: u12-l3
+  kind: new
+  title:
+    he: שבקוה
+    en: Leave her alone
+  exercises:
+  - id: u12-l3-32
+    type: dialogue
+    scene: חנה קוראת בקול, ופתאום עוצרת.
+    lines:
+    - speaker: chana
+      text: '״אי לדידי ציית, יתיב תרי סרי שני אחריני״. היא שמעה זקן אחד מרכל עליה, ואמרה: אם הוא שומע לי, שישב עוד שתים־עשרה שנה.'
+      translation: ציית, אחריני
+    - speaker: yisrael
+      text: ורבי עקיבא שמע מבחוץ, ״הדר אזיל״, וחזר ללמוד עוד שתים־עשרה שנים.
+      translation: הדר אזיל
+    - speaker: chana
+      text: סבתא עבדה במפעל עשרים שנה כדי שסבא ילמד בלילות. אף פעם לא סיפרה.
+      translation: סבתא
+  - id: u12-l3-33
+    type: learn
+    lexeme: tsayit
+  - id: u12-l3-34
+    type: learn
+    lexeme: achrini
+  - id: u12-l3-35
+    type: learn
+    lexeme: lapeih
+  - id: u12-l3-36
+    type: learn
+    lexeme: shivkuha
+  - id: u12-l3-37
+    type: match_pairs
+    pairs:
+    - - ציית
+      - שומע בקול, מציית
+    - - אחריני
+      - אחרים, נוספים
+    - - לאפיה
+      - לקראתו (לפניו)
+    - - שבקוה
+      - הניחו לה! עזבו אותה!
+    lexemes:
+    - tsayit
+    - achrini
+    - lapeih
+    - shivkuha
+  - id: u12-l3-38
+    type: multiple_choice
+    prompt: מה פירוש ציית?
+    options:
+    - שומע בקול, מציית
+    - אביו, אביה
+    - רועה
+    correct: 0
+    lexemes:
+    - tsayit
+  - id: u12-l3-39
+    type: multiple_choice
+    prompt: מה פירוש אחריני?
+    options:
+    - אחרים, נוספים
+    - איתו, עמו
+    - כן
+    correct: 0
+    lexemes:
+    - achrini
+  - id: u12-l3-40
+    type: multiple_choice
+    prompt: מה פירוש לאפיה?
+    options:
+    - לקראתו (לפניו)
+    - שתים־עשרה, שנים־עשר
+    - כן
+    correct: 0
+    lexemes:
+    - lapeih
+  - id: u12-l3-41
+    type: multiple_choice
+    prompt: מה פירוש שבקוה?
+    options:
+    - הניחו לה! עזבו אותה!
+    - איתו, עמו
+    - שומע בקול, מציית
+    correct: 0
+    lexemes:
+    - shivkuha
+  - id: u12-l3-42
+    type: fill_blank
+    sentence: אמרה ליה אי לדידי ___ יתיב תרי סרי שני אחריני
+    translation: 'אמרה לו (לזקן): אם לי הוא שומע, שישב עוד שתים־עשרה שנים'
+    answers:
+    - ציית
+    options:
+    - ציית
+    - שבקוה
+    - אחריני
+    lexemes:
+    - tsayit
+    source: בבלי, כתובות סג ע״א
+  - id: u12-l3-43
+    type: fill_blank
+    sentence: אמרה ליה אי לדידי ציית יתיב תרי סרי שני ___
+    translation: 'אמרה לו (לזקן): אם לי הוא שומע, שישב עוד שתים־עשרה שנים'
+    answers:
+    - אחריני
+    options:
+    - אחריני
+    - צניע
+    - אבוה
+    lexemes:
+    - achrini
+    source: בבלי, כתובות סג ע״א
+  - id: u12-l3-44
+    type: fill_blank
+    sentence: שמעה דביתהו הות קא נפקא ___
+    translation: שמעה אשתו, והייתה יוצאת לקראתו
+    answers:
+    - לאפיה
+    options:
+    - לאפיה
+    - אחריני
+    - אבוה
+    lexemes:
+    - lapeih
+    source: בבלי, כתובות סג ע״א
+    vocalized: שְׁמַעָה דְּבֵיתְהוּ, הֲוָת קָא נָפְקָא לְאַפֵּיהּ
+  - id: u12-l3-45
+    type: fill_blank
+    sentence: שמעיה אמר להו ___ שלי ושלכם שלה הוא
+    translation: '(כשהתלמידים דחפו אותה) אמר להם: הניחו לה! שלי ושלכם, שלה הוא'
+    answers:
+    - שבקוה
+    options:
+    - שבקוה
+    - רעיא
+    - ברתיה
+    lexemes:
+    - shivkuha
+    source: בבלי, כתובות סג ע״א
+    vocalized: 'שַׁמָּעֵיהּ. אֲמַר לְהוּ: שִׁבְקוּהָ, שֶׁלִּי וְשֶׁלָּכֶם שֶׁלָּהּ הוּא'
+- id: u12-l4
+  kind: review
+  title:
+    he: רבי עקיבא ורחל
+    en: Rabbi Akiva and Rachel
+  exercises:
+  - id: u12-l4-46
+    type: reading
+    kind: גמרא, כתובות סב ע״ב
+    title: הרועה
+    text: 'ר"ע רעיא דבן כלבא שבוע הוה
+
+
+      חזיתיה ברתיה דהוה צניע ומעלי
+
+
+      אמרה ליה אי מקדשנא לך אזלת לבי רב
+
+
+      אמר לה אין'
+    translation: 'רבי עקיבא היה רועה של בן כלבא שבוע.
+
+
+      ראתה אותו בתו, שהיה צנוע ומעולה.
+
+
+      אמרה לו: אם אתקדש לך, תלך לבית המדרש?
+
+
+      אמר לה: כן.'
+    lexemes:
+    - raya
+    - berateih
+    - tsania
+    - bei-rav
+    - in
+    source: בבלי, כתובות סב ע״ב
+    vocalized: 'רַבִּי עֲקִיבָא רָעֲיָא דְּבֶן כַּלְבָּא שָׂבוּעַ הֲוָה, חֲזִיתֵיהּ בְּרַתֵּיה דַּהֲוָה צְנִיעַ וּמְעַלֵּי, אֲמַרָה לֵיהּ: אִי מִקַּדַּשְׁנָא לָךְ, אָזְלַתְּ לְבֵי רַב? אֲמַר לַהּ: אִין'
+  - id: u12-l4-47
+    type: reading
+    kind: גמרא, כתובות סג ע״א
+    title: החזרה
+    text: 'הדר אזיל ויתיב תרי סרי שני אחריני בבי רב
+
+
+      כי אתא אייתי בהדיה עשרין וארבעה אלפי תלמידי
+
+
+      שמעה דביתהו הות קא נפקא לאפיה'
+    translation: 'חזר והלך וישב עוד שתים־עשרה שנים בבית המדרש.
+
+
+      כשבא, הביא איתו עשרים וארבעה אלף תלמידים.
+
+
+      שמעה אשתו, והייתה יוצאת לקראתו.'
+    lexemes:
+    - hadar
+    - trei-sar
+    - achrini
+    - bahadeih
+    - devitehu
+    - lapeih
+    source: בבלי, כתובות סג ע״א
+  - id: u12-l4-48
+    type: multiple_choice
+    prompt: ״שבקוה, שלי ושלכם שלה הוא״. למה רבי עקיבא אמר כך?
+    options:
+    - כי כל התורה שלו ושל תלמידיו באה בזכותה
+    - כי היא הייתה עשירה
+    - כי היא ביקשה כסף
+    correct: 0
+    lexemes:
+    - shivkuha
+    source: בבלי, כתובות סג ע״א
+    vocalized: שִׁבְקוּהָ, שֶׁלִּי וְשֶׁלָּכֶם שֶׁלָּהּ הוּא
+  - id: u12-l4-49
+    type: fill_blank
+    sentence: שמע ___ אפקה מביתיה
+    translation: שמע אביה, והוציא אותה מביתו
+    answers:
+    - אבוה
+    options:
+    - אבוה
+    - ברתיה
+    - דביתהו
+    lexemes:
+    - avuha
+    source: בבלי, כתובות סב ע״ב
+    vocalized: שְׁמַע אֲבוּהָ, אַפְּקַהּ מִבֵּיתֵיהּ
+  - id: u12-l4-50
+    type: dialogue
+    scene: חנה סוגרת את הכרך בזהירות.
+    lines:
+    - speaker: chana
+      text: ״שלי ושלכם שלה הוא״. זה מה שסבא רצה שנדע.
+      translation: חנה
+    - speaker: yisrael
+      text: 'סיימנו את הפעלים ואת המילים. מעכשיו לומדים איך סוגיה עובדת: קושיא, תירוץ, ראיה. סבא שלך היה אומר: מכאן מתחיל הכיף.'
+      translation: שלב חדש
+  - id: u12-l4-51
+    type: match_pairs
+    pairs:
+    - - רעיא
+      - רועה
+    - - ברתיה
+      - בתו
+    - - אבוה
+      - אביו, אביה
+    - - תרי סרי
+      - שתים־עשרה, שנים־עשר
+    - - אחריני
+      - אחרים, נוספים
+    - - שבקוה
+      - הניחו לה! עזבו אותה!
+    lexemes:
+    - raya
+    - berateih
+    - avuha
+    - trei-sar
+    - achrini
+    - shivkuha

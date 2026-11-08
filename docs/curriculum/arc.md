@@ -19,11 +19,11 @@ Units keep a `cefr` field as the internal level; the course's `stages` gives eac
 
 | Level | Stage | Content |
 |-------|-------|---------|
-| A0 | 0. פתח | Reading without niqqud, abbreviations (ת״ש, א״ר, מתני׳, גמ׳), telling Hebrew from Aramaic on the page. |
-| A1 | 1. מילות הסוגיה | ~150 key words: מאי, אמר, תניא, איכא/ליכא, הכא/התם, הכי/היכי, אלא, קשיא, תיובתא, שמע מינה… |
-| A2 | 2. פעלים וכינויים | אנא/את/איהו/אנן, the ־א ending, past/participle/future (נ־), basic verb patterns. |
-| B1 | 3. מבנה הסוגיה | Question and answer, איבעיא, דיוק, מחלוקת, תא שמע. Passages of 3–5 lines. |
-| B2 | 4. סוגיה שלמה | Independent reading of longer passages from several tractates. |
+| A0 | 1. היכרות עם הדף | Reading without niqqud, abbreviations (ת״ש, א״ר, מתני׳, גמ׳), telling Hebrew from Aramaic on the page. |
+| A1 | 2. מילות הסוגיה | ~150 key words: מאי, אמר, תניא, איכא/ליכא, הכא/התם, הכי/היכי, אלא, קשיא, תיובתא, שמע מינה… |
+| A2 | 3. פעלים וכינויים | אנא/את/איהו/אנן, the ־א ending, past/participle/future (נ־), basic verb patterns. |
+| B1 | 4. מבנה הסוגיה | Question and answer, איבעיא, דיוק, מחלוקת, תא שמע. Passages of 3–5 lines. |
+| B2 | 5. סוגיה שלמה | Independent reading of longer passages from several tractates. |
 
 About 25–30 units; the final number follows the coverage measurement.
 

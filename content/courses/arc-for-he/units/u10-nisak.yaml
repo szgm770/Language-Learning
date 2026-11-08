@@ -1,0 +1,739 @@
+id: u10-nisak
+cefr: A2
+scene: study
+title:
+  he: ניסק לאיגרא
+  en: Let us go up to the roof
+story: אבא חלקיה ואשתו עולים לגג להתפלל, ילדים מבקשים ״אבא, הב לן מיטרא״, ורבי יונה הולך ״לקנות תבואה״. ר׳ ישראל מספר איך ביקשו לחם במתבן.
+canDo:
+- 'להבין עתיד: ניסק, ניבעי, איזיל, ייתי'
+- 'להבין ציווי: הב, הבו, ואת ״לימא לן מר״'
+- 'להבין את סוגי הפעלים: נ־ (אנחנו / הוא), א־ (אני), ל־ (שיעשה)'
+vocabulary:
+- id: nisak
+  text: ניסק
+  translation: נעלה
+  pos: verb
+  example:
+    text: ניסק לאיגרא וניבעי רחמי
+    translation: נעלה לגג ונבקש רחמים
+    source: בבלי, תענית כג ע״ב
+    vocalized: נִיסַּק לְאִיגָּרָא וְנִיבְעֵי רַחֲמֵי
+- id: igra
+  text: איגרא
+  translation: גג
+  pos: noun
+  example:
+    text: ניסק לאיגרא וניבעי רחמי
+    translation: נעלה לגג ונבקש רחמים
+    source: בבלי, תענית כג ע״ב
+    vocalized: נִיסַּק לְאִיגָּרָא וְנִיבְעֵי רַחֲמֵי
+- id: nivei
+  text: ניבעי
+  translation: נבקש
+  pos: verb
+  example:
+    text: ניסק לאיגרא וניבעי רחמי
+    translation: נעלה לגג ונבקש רחמים
+    source: בבלי, תענית כג ע״ב
+    vocalized: נִיסַּק לְאִיגָּרָא וְנִיבְעֵי רַחֲמֵי
+- id: yeitei
+  text: ייתי
+  translation: יבוא
+  pos: verb
+  example:
+    text: אפשר דמרצי הקדוש ברוך הוא וייתי מיטרא
+    translation: אולי יתרצה הקדוש ברוך הוא ויבוא גשם
+    source: בבלי, תענית כג ע״ב
+    vocalized: אֶפְשָׁר דְּמִרַצֵּי הַקָּדוֹשׁ בָּרוּךְ הוּא וְיֵיתֵי מִיטְרָא
+- id: tivuta
+  text: טיבותא
+  translation: טובה (להחזיק טובה = לקחת קרדיט)
+  pos: noun
+  example:
+    text: ולא נחזיק טיבותא לנפשין
+    translation: ולא נחזיק טובה לעצמנו (לא ניקח את הקרדיט)
+    source: בבלי, תענית כג ע״ב
+    vocalized: וְלָא נַחְזֵיק טֵיבוּתָא לְנַפְשִׁין
+- id: leima-lan-mar
+  text: לימא לן מר
+  translation: יאמר לנו אדוני (בקשה בנימוס)
+  pos: phrase
+  example:
+    text: אלא לימא לן מר הני מילי דתמיהא לן
+    translation: אלא שיאמר לנו אדוני את הדברים האלה שתמוהים לנו
+    source: בבלי, תענית כג ע״ב
+    vocalized: אֶלָּא לֵימָא לַן מָר הָנֵי מִילֵּי דִּתְמִיהָא לַן
+- id: hav
+  text: הב
+  translation: תן! (ציווי)
+  pos: verb
+  example:
+    text: ואמרו ליה אבא אבא הב לן מיטרא
+    translation: 'ואמרו לו: אבא, אבא, תן לנו גשם!'
+    source: בבלי, תענית כג ע״ב
+    vocalized: 'וַאֲמַרוּ לֵיהּ: אַבָּא, אַבָּא, הַב לַן מִיטְרָא'
+- id: hadadei
+  text: הדדי
+  translation: זה את זה, יחד
+  pos: pronoun
+  example:
+    text: אמרי ניכניף הדדי וניבעי רחמי
+    translation: 'אמרו: נתכנס יחד ונבקש רחמים'
+    source: בבלי, תענית כג ע״ב
+    vocalized: 'אָמְרִי: נִיכַּנֵּיף הֲדָדֵי וְנִיבְעֵי רַחֲמֵי'
+- id: nichnif
+  text: ניכניף
+  translation: נתכנס
+  pos: verb
+  example:
+    text: אמרי ניכניף הדדי וניבעי רחמי
+    translation: 'אמרו: נתכנס יחד ונבקש רחמים'
+    source: בבלי, תענית כג ע״ב
+    vocalized: 'אָמְרִי: נִיכַּנֵּיף הֲדָדֵי וְנִיבְעֵי רַחֲמֵי'
+- id: havu-tnu
+  text: הבו
+  translation: תנו! (ציווי ברבים)
+  pos: verb
+  example:
+    text: הבו לי גואלקי ואיזיל ואייתי לי בזוזא עיבורא
+    translation: תנו לי את השק שלי, ואלך ואביא לי בזוז תבואה
+    source: בבלי, תענית כג ע״ב
+    vocalized: הַבוּ לִי גּוּאַלְקִי, וְאֵיזִיל וְאַיְיתֵי לִי בְּזוּזָא עִיבוּרָא
+- id: eizil
+  text: איזיל
+  translation: אלך
+  pos: verb
+  example:
+    text: הבו לי גואלקי ואיזיל ואייתי לי בזוזא עיבורא
+    translation: תנו לי את השק שלי, ואלך ואביא לי בזוז תבואה
+    source: בבלי, תענית כג ע״ב
+    vocalized: הַבוּ לִי גּוּאַלְקִי, וְאֵיזִיל וְאַיְיתֵי לִי בְּזוּזָא עִיבוּרָא
+- id: eitei
+  text: אייתי
+  translation: אביא; הביא
+  pos: verb
+  example:
+    text: הבו לי גואלקי ואיזיל ואייתי לי בזוזא עיבורא
+    translation: תנו לי את השק שלי, ואלך ואביא לי בזוז תבואה
+    source: בבלי, תענית כג ע״ב
+    vocalized: הַבוּ לִי גּוּאַלְקִי, וְאֵיזִיל וְאַיְיתֵי לִי בְּזוּזָא עִיבוּרָא
+- id: zuza
+  text: זוזא
+  translation: זוז (מטבע); ״זוזי״ = כסף
+  pos: noun
+  example:
+    text: הבו לי גואלקי ואיזיל ואייתי לי בזוזא עיבורא
+    translation: תנו לי את השק שלי, ואלך ואביא לי בזוז תבואה
+    source: בבלי, תענית כג ע״ב
+    vocalized: הַבוּ לִי גּוּאַלְקִי, וְאֵיזִיל וְאַיְיתֵי לִי בְּזוּזָא עִיבוּרָא
+grammar: []
+lessons:
+- id: u10-l1
+  kind: new
+  title:
+    he: ניסק וניבעי
+    en: Let us go up and pray
+  exercises:
+  - id: u10-l1-01
+    type: dialogue
+    scene: בוקר גשום. איתן מגיע רטוב.
+    lines:
+    - speaker: yisrael
+      text: 'יפה, גשם. בדיוק בזמן. אבא חלקיה אמר לאשתו: ״ניסק לאיגרא וניבעי רחמי״.'
+      translation: ניסק לאיגרא
+    - speaker: yisrael
+      text: ״ניסק״ = נעלה. ״ניבעי״ = נבקש. נ־ בהתחלה זה ״אנחנו נעשה״, ״בואו נעשה״.
+      translation: נ־ = אנחנו
+    - speaker: eitan
+      text: ולמה דווקא לגג?
+      translation: שאלה
+    - speaker: yisrael
+      text: כדי שהחכמים לא יראו. ״ולא נחזיק טיבותא לנפשין״, שלא ניקח את הקרדיט על הגשם.
+      translation: טיבותא
+  - id: u10-l1-02
+    type: tip
+    title: עתיד בארמית
+    text: '**נ־** = אנחנו נעשה, בואו נעשה: **ניסק** (נעלה), **ניבעי** (נבקש). בגמרא נ־ משמשת לעתים גם ל״הוא יעשה״.
+
+
+      **א־** = אני אעשה: **איזיל** (אלך), **אייתי** (אביא).
+
+
+      **ל־** = שיעשה: **לימא** (שיאמר), **ליתני** (שישנה). **י־** = הוא יעשה: **ייתי** (יבוא).'
+  - id: u10-l1-03
+    type: learn
+    lexeme: nisak
+  - id: u10-l1-04
+    type: learn
+    lexeme: igra
+  - id: u10-l1-05
+    type: learn
+    lexeme: nivei
+  - id: u10-l1-06
+    type: learn
+    lexeme: yeitei
+  - id: u10-l1-07
+    type: learn
+    lexeme: tivuta
+  - id: u10-l1-08
+    type: match_pairs
+    pairs:
+    - - ניסק
+      - נעלה
+    - - איגרא
+      - גג
+    - - ניבעי
+      - נבקש
+    - - ייתי
+      - יבוא
+    - - טיבותא
+      - טובה (להחזיק טובה = לקחת קרדיט)
+    lexemes:
+    - nisak
+    - igra
+    - nivei
+    - yeitei
+    - tivuta
+  - id: u10-l1-09
+    type: multiple_choice
+    prompt: מה פירוש ניסק?
+    options:
+    - נעלה
+    - זוז (מטבע); ״זוזי״ = כסף
+    - טובה (להחזיק טובה = לקחת קרדיט)
+    correct: 0
+    lexemes:
+    - nisak
+  - id: u10-l1-10
+    type: multiple_choice
+    prompt: מה פירוש איגרא?
+    options:
+    - גג
+    - זוז (מטבע); ״זוזי״ = כסף
+    - יאמר לנו אדוני (בקשה בנימוס)
+    correct: 0
+    lexemes:
+    - igra
+  - id: u10-l1-11
+    type: multiple_choice
+    prompt: מה פירוש ניבעי?
+    options:
+    - נבקש
+    - זוז (מטבע); ״זוזי״ = כסף
+    - תן! (ציווי)
+    correct: 0
+    lexemes:
+    - nivei
+  - id: u10-l1-12
+    type: multiple_choice
+    prompt: מה פירוש ייתי?
+    options:
+    - יבוא
+    - זוז (מטבע); ״זוזי״ = כסף
+    - גג
+    correct: 0
+    lexemes:
+    - yeitei
+  - id: u10-l1-13
+    type: multiple_choice
+    prompt: מה פירוש טיבותא?
+    options:
+    - טובה (להחזיק טובה = לקחת קרדיט)
+    - יבוא
+    - זוז (מטבע); ״זוזי״ = כסף
+    correct: 0
+    lexemes:
+    - tivuta
+  - id: u10-l1-14
+    type: fill_blank
+    sentence: ___ לאיגרא וניבעי רחמי
+    translation: נעלה לגג ונבקש רחמים
+    answers:
+    - ניסק
+    options:
+    - ניסק
+    - הב
+    - הדדי
+    lexemes:
+    - nisak
+    source: בבלי, תענית כג ע״ב
+    vocalized: נִיסַּק לְאִיגָּרָא וְנִיבְעֵי רַחֲמֵי
+  - id: u10-l1-15
+    type: fill_blank
+    sentence: ניסק ___ וניבעי רחמי
+    translation: נעלה לגג ונבקש רחמים
+    answers:
+    - לאיגרא
+    options:
+    - לאיגרא
+    - ניסק
+    - הב
+    lexemes:
+    - igra
+    source: בבלי, תענית כג ע״ב
+    vocalized: נִיסַּק לְאִיגָּרָא וְנִיבְעֵי רַחֲמֵי
+  - id: u10-l1-16
+    type: fill_blank
+    sentence: ניסק לאיגרא ___ רחמי
+    translation: נעלה לגג ונבקש רחמים
+    answers:
+    - וניבעי
+    options:
+    - וניבעי
+    - איגרא
+    - ניכניף
+    lexemes:
+    - nivei
+    source: בבלי, תענית כג ע״ב
+    vocalized: נִיסַּק לְאִיגָּרָא וְנִיבְעֵי רַחֲמֵי
+  - id: u10-l1-17
+    type: fill_blank
+    sentence: אפשר דמרצי הקדוש ברוך הוא ___ מיטרא
+    translation: אולי יתרצה הקדוש ברוך הוא ויבוא גשם
+    answers:
+    - וייתי
+    options:
+    - וייתי
+    - ניבעי
+    - לימא לן מר
+    lexemes:
+    - yeitei
+    source: בבלי, תענית כג ע״ב
+    vocalized: אֶפְשָׁר דְּמִרַצֵּי הַקָּדוֹשׁ בָּרוּךְ הוּא וְיֵיתֵי מִיטְרָא
+  - id: u10-l1-18
+    type: fill_blank
+    sentence: ולא נחזיק ___ לנפשין
+    translation: ולא נחזיק טובה לעצמנו (לא ניקח את הקרדיט)
+    answers:
+    - טיבותא
+    options:
+    - טיבותא
+    - ניסק
+    - איגרא
+    lexemes:
+    - tivuta
+    source: בבלי, תענית כג ע״ב
+    vocalized: וְלָא נַחְזֵיק טֵיבוּתָא לְנַפְשִׁין
+- id: u10-l2
+  kind: new
+  title:
+    he: הב לן מיטרא
+    en: Give us rain
+  exercises:
+  - id: u10-l2-19
+    type: dialogue
+    scene: ר׳ ישראל מספר את סיפור חנן הנחבא.
+    lines:
+    - speaker: yisrael
+      text: 'לנכד השני של חוני, חנן הנחבא, שלחו חכמים ילדים. הם תפסו את שולי הגלימה שלו וצעקו: ״אבא, אבא, הב לן מיטרא!״'
+      translation: הב = תן
+    - speaker: eitan
+      text: ״הב לן מיטרא״. תן לנו גשם.
+      translation: איתן מתרגם
+    - speaker: yisrael
+      text: במתבן, כשהייתי רעב, הייתי מושך בשרוול של סבא שלך ואומר לו ״הב לי ריפתא״. הוא חשב שזה מצחיק.
+      translation: זיכרון
+  - id: u10-l2-20
+    type: learn
+    lexeme: leima-lan-mar
+  - id: u10-l2-21
+    type: learn
+    lexeme: hav
+  - id: u10-l2-22
+    type: learn
+    lexeme: hadadei
+  - id: u10-l2-23
+    type: learn
+    lexeme: nichnif
+  - id: u10-l2-24
+    type: match_pairs
+    pairs:
+    - - לימא לן מר
+      - יאמר לנו אדוני (בקשה בנימוס)
+    - - הב
+      - תן! (ציווי)
+    - - הדדי
+      - זה את זה, יחד
+    - - ניכניף
+      - נתכנס
+    lexemes:
+    - leima-lan-mar
+    - hav
+    - hadadei
+    - nichnif
+  - id: u10-l2-25
+    type: multiple_choice
+    prompt: מה פירוש לימא לן מר?
+    options:
+    - יאמר לנו אדוני (בקשה בנימוס)
+    - נעלה
+    - תן! (ציווי)
+    correct: 0
+    lexemes:
+    - leima-lan-mar
+  - id: u10-l2-26
+    type: multiple_choice
+    prompt: מה פירוש הב?
+    options:
+    - תן! (ציווי)
+    - נבקש
+    - זה את זה, יחד
+    correct: 0
+    lexemes:
+    - hav
+  - id: u10-l2-27
+    type: multiple_choice
+    prompt: מה פירוש הדדי?
+    options:
+    - זה את זה, יחד
+    - נעלה
+    - יאמר לנו אדוני (בקשה בנימוס)
+    correct: 0
+    lexemes:
+    - hadadei
+  - id: u10-l2-28
+    type: multiple_choice
+    prompt: מה פירוש ניכניף?
+    options:
+    - נתכנס
+    - תן! (ציווי)
+    - טובה (להחזיק טובה = לקחת קרדיט)
+    correct: 0
+    lexemes:
+    - nichnif
+  - id: u10-l2-29
+    type: fill_blank
+    sentence: אלא ___ לן מר הני מילי דתמיהא לן
+    translation: אלא שיאמר לנו אדוני את הדברים האלה שתמוהים לנו
+    answers:
+    - לימא
+    options:
+    - לימא
+    - ניסק
+    - הדדי
+    lexemes:
+    - leima-lan-mar
+    source: בבלי, תענית כג ע״ב
+    vocalized: אֶלָּא לֵימָא לַן מָר הָנֵי מִילֵּי דִּתְמִיהָא לַן
+  - id: u10-l2-30
+    type: fill_blank
+    sentence: ואמרו ליה אבא אבא ___ לן מיטרא
+    translation: 'ואמרו לו: אבא, אבא, תן לנו גשם!'
+    answers:
+    - הב
+    options:
+    - הב
+    - טיבותא
+    - ייתי
+    lexemes:
+    - hav
+    source: בבלי, תענית כג ע״ב
+    vocalized: 'וַאֲמַרוּ לֵיהּ: אַבָּא, אַבָּא, הַב לַן מִיטְרָא'
+  - id: u10-l2-31
+    type: fill_blank
+    sentence: אמרי ניכניף ___ וניבעי רחמי
+    translation: 'אמרו: נתכנס יחד ונבקש רחמים'
+    answers:
+    - הדדי
+    options:
+    - הדדי
+    - אייתי
+    - איגרא
+    lexemes:
+    - hadadei
+    source: בבלי, תענית כג ע״ב
+    vocalized: 'אָמְרִי: נִיכַּנֵּיף הֲדָדֵי וְנִיבְעֵי רַחֲמֵי'
+  - id: u10-l2-32
+    type: fill_blank
+    sentence: אמרי ___ הדדי וניבעי רחמי
+    translation: 'אמרו: נתכנס יחד ונבקש רחמים'
+    answers:
+    - ניכניף
+    options:
+    - ניכניף
+    - אייתי
+    - הב
+    lexemes:
+    - nichnif
+    source: בבלי, תענית כג ע״ב
+    vocalized: 'אָמְרִי: נִיכַּנֵּיף הֲדָדֵי וְנִיבְעֵי רַחֲמֵי'
+- id: u10-l3
+  kind: new
+  title:
+    he: איזיל ואייתי
+    en: I'll go and bring
+  exercises:
+  - id: u10-l3-33
+    type: dialogue
+    scene: 'הסיפור האחרון בדף: רבי יונה.'
+    lines:
+    - speaker: yisrael
+      text: 'רבי יונה היה אומר בבית: ״הבו לי גואלקי ואיזיל ואייתי לי בזוזא עיבורא״. תנו לי שק, ואלך ואביא תבואה בזוז.'
+      translation: הבו, איזיל, אייתי
+    - speaker: yisrael
+      text: אבל הוא לא הלך לשוק. הוא הלך למקום נסתר והתפלל על גשם, בלי שאף אחד ידע.
+      translation: הסוד של רבי יונה
+    - speaker: eitan
+      text: כולם בדף הזה מסתירים שהם מתפללים.
+      translation: איתן שם לב
+    - speaker: yisrael
+      text: כולם. וגם סבא שלך.
+      translation: רמז
+  - id: u10-l3-34
+    type: learn
+    lexeme: havu-tnu
+  - id: u10-l3-35
+    type: learn
+    lexeme: eizil
+  - id: u10-l3-36
+    type: learn
+    lexeme: eitei
+  - id: u10-l3-37
+    type: learn
+    lexeme: zuza
+  - id: u10-l3-38
+    type: match_pairs
+    pairs:
+    - - הבו
+      - תנו! (ציווי ברבים)
+    - - איזיל
+      - אלך
+    - - אייתי
+      - אביא; הביא
+    - - זוזא
+      - זוז (מטבע); ״זוזי״ = כסף
+    lexemes:
+    - havu-tnu
+    - eizil
+    - eitei
+    - zuza
+  - id: u10-l3-39
+    type: multiple_choice
+    prompt: מה פירוש הבו?
+    options:
+    - תנו! (ציווי ברבים)
+    - נבקש
+    - זה את זה, יחד
+    correct: 0
+    lexemes:
+    - havu-tnu
+  - id: u10-l3-40
+    type: multiple_choice
+    prompt: מה פירוש איזיל?
+    options:
+    - אלך
+    - נבקש
+    - טובה (להחזיק טובה = לקחת קרדיט)
+    correct: 0
+    lexemes:
+    - eizil
+  - id: u10-l3-41
+    type: multiple_choice
+    prompt: מה פירוש אייתי?
+    options:
+    - אביא; הביא
+    - תן! (ציווי)
+    - יאמר לנו אדוני (בקשה בנימוס)
+    correct: 0
+    lexemes:
+    - eitei
+  - id: u10-l3-42
+    type: multiple_choice
+    prompt: מה פירוש זוזא?
+    options:
+    - זוז (מטבע); ״זוזי״ = כסף
+    - טובה (להחזיק טובה = לקחת קרדיט)
+    - יאמר לנו אדוני (בקשה בנימוס)
+    correct: 0
+    lexemes:
+    - zuza
+  - id: u10-l3-43
+    type: fill_blank
+    sentence: ___ לי גואלקי ואיזיל ואייתי לי בזוזא עיבורא
+    translation: תנו לי את השק שלי, ואלך ואביא לי בזוז תבואה
+    answers:
+    - הבו
+    options:
+    - הבו
+    - הב
+    - ניבעי
+    lexemes:
+    - havu-tnu
+    source: בבלי, תענית כג ע״ב
+    vocalized: הַבוּ לִי גּוּאַלְקִי, וְאֵיזִיל וְאַיְיתֵי לִי בְּזוּזָא עִיבוּרָא
+  - id: u10-l3-44
+    type: fill_blank
+    sentence: הבו לי גואלקי ___ ואייתי לי בזוזא עיבורא
+    translation: תנו לי את השק שלי, ואלך ואביא לי בזוז תבואה
+    answers:
+    - ואיזיל
+    options:
+    - ואיזיל
+    - הדדי
+    - ניבעי
+    lexemes:
+    - eizil
+    source: בבלי, תענית כג ע״ב
+    vocalized: הַבוּ לִי גּוּאַלְקִי, וְאֵיזִיל וְאַיְיתֵי לִי בְּזוּזָא עִיבוּרָא
+  - id: u10-l3-45
+    type: fill_blank
+    sentence: הבו לי גואלקי ואיזיל ___ לי בזוזא עיבורא
+    translation: תנו לי את השק שלי, ואלך ואביא לי בזוז תבואה
+    answers:
+    - ואייתי
+    options:
+    - ואייתי
+    - איגרא
+    - הדדי
+    lexemes:
+    - eitei
+    source: בבלי, תענית כג ע״ב
+    vocalized: הַבוּ לִי גּוּאַלְקִי, וְאֵיזִיל וְאַיְיתֵי לִי בְּזוּזָא עִיבוּרָא
+  - id: u10-l3-46
+    type: fill_blank
+    sentence: הבו לי גואלקי ואיזיל ואייתי לי ___ עיבורא
+    translation: תנו לי את השק שלי, ואלך ואביא לי בזוז תבואה
+    answers:
+    - בזוזא
+    options:
+    - בזוזא
+    - ניבעי
+    - אייתי
+    lexemes:
+    - zuza
+    source: בבלי, תענית כג ע״ב
+    vocalized: הַבוּ לִי גּוּאַלְקִי, וְאֵיזִיל וְאַיְיתֵי לִי בְּזוּזָא עִיבוּרָא
+- id: u10-l4
+  kind: review
+  title:
+    he: על הגג
+    en: On the roof
+  exercises:
+  - id: u10-l4-47
+    type: reading
+    kind: גמרא, תענית כג ע״ב
+    title: אבא חלקיה ואשתו
+    text: 'אמר לה לדביתהו ידענא דרבנן משום מיטרא קא אתו
+
+
+      ניסק לאיגרא וניבעי רחמי
+
+
+      אפשר דמרצי הקדוש ברוך הוא וייתי מיטרא
+
+
+      ולא נחזיק טיבותא לנפשין'
+    translation: 'אמר לאשתו: אני יודע שהחכמים באים בגלל הגשם.
+
+
+      נעלה לגג ונבקש רחמים.
+
+
+      אולי יתרצה הקדוש ברוך הוא ויבוא גשם,
+
+
+      ולא נחזיק טובה לעצמנו.'
+    lexemes:
+    - devitehu
+    - yadana
+    - nisak
+    - igra
+    - nivei
+    - yeitei
+    - tivuta
+    source: בבלי, תענית כג ע״ב
+    vocalized: 'אֲמַר לַהּ לִדְבֵיתְהוּ: יָדַעְנָא דְּרַבָּנַן מִשּׁוּם מִיטְרָא קָא אָתוּ, נִיסַּק לְאִיגָּרָא וְנִיבְעֵי רַחֲמֵי, אֶפְשָׁר דְּמִרַצֵּי הַקָּדוֹשׁ בָּרוּךְ הוּא וְיֵיתֵי מִיטְרָא וְלָא נַחְזֵיק טֵיבוּתָא לְנַפְשִׁין'
+  - id: u10-l4-48
+    type: multiple_choice
+    passage: ניסק לאיגרא וניבעי רחמי אפשר דמרצי הקדוש ברוך הוא וייתי מיטרא ולא נחזיק טיבותא לנפשין
+    prompt: למה אבא חלקיה רצה להתפלל דווקא על הגג?
+    options:
+    - כדי שלא יחזיקו לו טובה על הגשם
+    - כי משם שומעים טוב יותר
+    - כי החכמים ביקשו
+    correct: 0
+    lexemes:
+    - tivuta
+    source: בבלי, תענית כג ע״ב
+    vocalized: נִיסַּק לְאִיגָּרָא וְנִיבְעֵי רַחֲמֵי, אֶפְשָׁר דְּמִרַצֵּי הַקָּדוֹשׁ בָּרוּךְ הוּא וְיֵיתֵי מִיטְרָא וְלָא נַחְזֵיק טֵיבוּתָא לְנַפְשִׁין
+  - id: u10-l4-49
+    type: multiple_choice
+    prompt: ״הבו לי גואלקי ואיזיל ואייתי לי בזוזא עיבורא״. מה רבי יונה אמר שהוא הולך לעשות?
+    options:
+    - לקנות תבואה בזוז
+    - להתפלל על גשם
+    - למכור את השק
+    correct: 0
+    lexemes:
+    - havu-tnu
+    - eizil
+    - eitei
+    - zuza
+    source: בבלי, תענית כג ע״ב
+    vocalized: הַבוּ לִי גּוּאַלְקִי, וְאֵיזִיל וְאַיְיתֵי לִי בְּזוּזָא עִיבוּרָא
+  - id: u10-l4-50
+    type: fill_blank
+    sentence: אמרי ___ הדדי וניבעי רחמי
+    translation: 'אמרו: נתכנס יחד ונבקש רחמים'
+    answers:
+    - ניכניף
+    options:
+    - ניכניף
+    - ניסק
+    - איזיל
+    lexemes:
+    - nichnif
+    - hadadei
+    - nivei
+    source: בבלי, תענית כג ע״ב
+    vocalized: 'אָמְרִי: נִיכַּנֵּיף הֲדָדֵי וְנִיבְעֵי רַחֲמֵי'
+  - id: u10-l4-51
+    type: word_bank
+    prompt: אבא, אבא, תן לנו גשם!
+    answers:
+    - אבא אבא הב לן מיטרא
+    distractors:
+    - הבו
+    - ייתי
+    lexemes:
+    - hav
+    - lan
+    - mitra
+    source: בבלי, תענית כג ע״ב
+    vocalized: אַבָּא, אַבָּא, הַב לַן מִיטְרָא
+  - id: u10-l4-52
+    type: dialogue
+    scene: בסוף השיעור ר׳ ישראל מוציא מהכיס פתק מקופל.
+    lines:
+    - speaker: yisrael
+      text: את זה סבא שלך נתן לי לפני שנה. ״תפתח אחרי שאיתן יגיע לשבעים שנין״.
+      translation: פתק סגור
+    - speaker: eitan
+      text: לחוני המעגל? כבר הגענו!
+      translation: איתן
+    - speaker: yisrael
+      text: לא. שבעים מילים. אני סופר. אנחנו כמעט שם.
+      translation: ההמשך
+  - id: u10-l4-53
+    type: match_pairs
+    pairs:
+    - - ניסק
+      - נעלה
+    - - ניבעי
+      - נבקש
+    - - הב
+      - תן! (ציווי)
+    - - הבו
+      - תנו! (ציווי ברבים)
+    - - איזיל
+      - אלך
+    - - אייתי
+      - אביא; הביא
+    lexemes:
+    - nisak
+    - nivei
+    - hav
+    - havu-tnu
+    - eizil
+    - eitei
