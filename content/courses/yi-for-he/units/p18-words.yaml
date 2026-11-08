@@ -1,0 +1,1283 @@
+id: p18-words
+cefr: B2
+scene: study
+title:
+  he: 'הרחבת אוצר מילים 18: מילים נפוצות מעוד שיחות'
+  en: 'Word builder 18: common words from more talks'
+story: מילים שחוזרות הכי הרבה בשיחות נוספות, כל אחת במשפט קצר.
+canDo:
+- להבין ולהשתמש במילים נפוצות נוספות
+- לזהות את המילים במשפטים
+vocabulary:
+- id: p18-der
+  text: דער
+  translation: ה־ (לשם זכר)
+  pos: determiner
+  example:
+    text: דער טיש איז גרויס.
+    translation: השולחן גדול
+- id: p18-di
+  text: די
+  translation: ה־ (נקבה / רבים)
+  pos: determiner
+  example:
+    text: די שטוב איז גרויס.
+    translation: הבית גדול
+- id: p18-dem
+  text: דעם
+  translation: את ה־ (זכר)
+  pos: determiner
+  example:
+    text: איך זע דעם טיש.
+    translation: אני רואה את השולחן
+- id: p18-idn
+  text: אידן
+  translation: יהודים
+  pos: noun
+  example:
+    text: אידן לערנען תורה.
+    translation: יהודים לומדים תורה
+- id: p18-idishe
+  text: אידישע
+  translation: יהודיים
+  pos: adjective
+  example:
+    text: אידישע קינדער לערנען.
+    translation: ילדים יהודיים לומדים
+- id: p18-froyen
+  text: פֿרויען
+  translation: נשים
+  pos: noun
+  example:
+    text: די פֿרויען גייען אין שול.
+    translation: הנשים הולכות לבית הכנסת
+- id: p18-mener
+  text: מענער
+  translation: גברים
+  pos: noun
+  example:
+    text: די מענער לערנען.
+    translation: הגברים לומדים
+- id: p18-eltern
+  text: עלטערן
+  translation: הורים
+  pos: noun
+  example:
+    text: מײַנע עלטערן וווינען אין ניו־יאָרק.
+    translation: ההורים שלי גרים בניו יורק
+- id: p18-mer
+  text: מער
+  translation: יותר
+  pos: adverb
+  example:
+    text: איך וויל מער.
+    translation: אני רוצה יותר
+- id: p18-loyt
+  text: לויט
+  translation: לפי
+  pos: preposition
+  example:
+    text: לויט דעם רבי איז עס אַזוי.
+    translation: לפי הרבי זה כך
+- id: p18-vu
+  text: וואו
+  translation: איפה / שבו
+  pos: adverb
+  example:
+    text: איך ווייס וואו ער וווינט.
+    translation: אני יודע איפה הוא גר
+- id: p18-aza
+  text: אַזאַ
+  translation: כזה
+  pos: adjective
+  example:
+    text: דאָס איז אַזאַ שיינער טאָג.
+    translation: זה יום יפה כל כך
+- id: p18-aroys
+  text: אַרויס
+  translation: החוצה
+  pos: adverb
+  example:
+    text: ער גייט אַרויס פון שול.
+    translation: הוא יוצא מבית הכנסת
+- id: p18-arayn
+  text: אַרײַן
+  translation: פנימה
+  pos: adverb
+  example:
+    text: ער גייט אַרײַן אין שול.
+    translation: הוא נכנס לבית הכנסת
+- id: p18-git
+  text: גיט
+  translation: נותן
+  pos: verb
+  example:
+    text: ער גיט צדקה.
+    translation: הוא נותן צדקה
+- id: p18-itster
+  text: איצטער
+  translation: עכשיו
+  pos: adverb
+  example:
+    text: איצטער בין איך אין שול.
+    translation: עכשיו אני בבית הכנסת
+- id: p18-gedarft
+  text: געדאַרפֿט
+  translation: היה צריך
+  pos: verb
+  example:
+    text: ער האָט געדאַרפֿט גיין.
+    translation: הוא היה צריך ללכת
+- id: p18-gekent
+  text: געקענט
+  translation: היה יכול
+  pos: verb
+  example:
+    text: ער האָט געקענט גיין.
+    translation: הוא היה יכול ללכת
+- id: p18-dertseylt
+  text: דערציילט
+  translation: סיפר
+  pos: verb
+  example:
+    text: ער האָט דערציילט אַ מעשה.
+    translation: הוא סיפר סיפור
+- id: p18-deriber
+  text: דעריבער
+  translation: לכן
+  pos: adverb
+  example:
+    text: איך בין מיד, דעריבער שלאָף איך.
+    translation: אני עייף, לכן אני ישן
+- id: p18-velt
+  text: וועלט
+  translation: עולם
+  pos: noun
+  example:
+    text: די וועלט איז גרויס.
+    translation: העולם גדול
+- id: p18-firt
+  text: פֿירט
+  translation: מוביל
+  pos: verb
+  example:
+    text: ער פֿירט דעם שיעור.
+    translation: הוא מעביר את השיעור
+- id: p18-zakhn
+  text: זאַכן
+  translation: דברים
+  pos: noun
+  example:
+    text: ער האָט פֿיל זאַכן.
+    translation: יש לו הרבה דברים
+- id: p18-ershter
+  text: ערשטער
+  translation: ראשון
+  pos: adjective
+  example:
+    text: דער ערשטער טאָג איז שיין.
+    translation: היום הראשון יפה
+- id: p18-heyst
+  text: הייסט
+  translation: נקרא / פירושו
+  pos: verb
+  example:
+    text: וואָס הייסט דאָס?
+    translation: מה זה אומר
+- id: p18-nidrik
+  text: נידעריק
+  translation: נמוך
+  pos: adjective
+  example:
+    text: דער טיש איז נידעריק.
+    translation: השולחן נמוך
+- id: p18-geboyrn
+  text: געבאָרן
+  translation: נולד
+  pos: verb
+  example:
+    text: ער איז געבאָרן געוואָרן אין ניו־יאָרק.
+    translation: הוא נולד בניו יורק
+- id: p18-geshtanen
+  text: געשטאַנען
+  translation: עמד
+  pos: verb
+  example:
+    text: ער איז געשטאַנען אין שול.
+    translation: הוא עמד בבית הכנסת
+- id: p18-geyen
+  text: גייען
+  translation: הולכים
+  pos: verb
+  example:
+    text: מיר גייען אין שול.
+    translation: אנחנו הולכים לבית הכנסת
+- id: p18-makht
+  text: מאַכט
+  translation: עושה
+  pos: verb
+  example:
+    text: ער מאַכט אַ סוכה.
+    translation: הוא עושה סוכה
+- id: p18-lebt
+  text: לעבט
+  translation: חי
+  pos: verb
+  example:
+    text: ער לעבט אין ניו־יאָרק.
+    translation: הוא חי בניו יורק
+- id: p18-nemt
+  text: נעמט
+  translation: לוקח
+  pos: verb
+  example:
+    text: ער נעמט אַ בוך.
+    translation: הוא לוקח ספר
+- id: p18-gornit
+  text: גאָרנישט
+  translation: כלום
+  pos: pronoun
+  example:
+    text: איך האָב גאָרנישט.
+    translation: אין לי כלום
+- id: p18-beymer
+  text: ביימער
+  translation: עצים
+  pos: noun
+  example:
+    text: איך זע ביימער.
+    translation: אני רואה עצים
+- id: p18-velen
+  text: וועלן
+  translation: נעשה (עתיד, רבים)
+  pos: verb
+  example:
+    text: מיר וועלן גיין.
+    translation: נלך
+lessons:
+- id: p18-l1
+  kind: new
+  title:
+    he: חבילה 18 – חלק 1
+    en: Pack 18 – part 1
+  exercises:
+  - id: p18-l1-01
+    type: learn
+    lexeme: p18-der
+  - id: p18-l1-02
+    type: learn
+    lexeme: p18-di
+  - id: p18-l1-03
+    type: learn
+    lexeme: p18-dem
+  - id: p18-l1-04
+    type: learn
+    lexeme: p18-idn
+  - id: p18-l1-05
+    type: learn
+    lexeme: p18-idishe
+  - id: p18-l1-06
+    type: learn
+    lexeme: p18-froyen
+  - id: p18-l1-07
+    type: learn
+    lexeme: p18-mener
+  - id: p18-l1-08
+    type: learn
+    lexeme: p18-eltern
+  - id: p18-l1-09
+    type: learn
+    lexeme: p18-mer
+  - id: p18-l1-10
+    type: learn
+    lexeme: p18-loyt
+  - id: p18-l1-11
+    type: learn
+    lexeme: p18-vu
+  - id: p18-l1-12
+    type: match_pairs
+    pairs:
+    - - דער
+      - ה־ (לשם זכר)
+    - - די
+      - ה־ (נקבה / רבים)
+    - - דעם
+      - את ה־ (זכר)
+    - - אידן
+      - יהודים
+    - - אידישע
+      - יהודיים
+    - - פֿרויען
+      - נשים
+    lexemes:
+    - p18-der
+    - p18-di
+    - p18-dem
+    - p18-idn
+    - p18-idishe
+    - p18-froyen
+  - id: p18-l1-13
+    type: match_pairs
+    pairs:
+    - - מענער
+      - גברים
+    - - עלטערן
+      - הורים
+    - - מער
+      - יותר
+    - - לויט
+      - לפי
+    - - וואו
+      - איפה / שבו
+    lexemes:
+    - p18-mener
+    - p18-eltern
+    - p18-mer
+    - p18-loyt
+    - p18-vu
+  - id: p18-l1-14
+    type: multiple_choice
+    prompt: מה פירוש דער?
+    options:
+    - ה־ (לשם זכר)
+    - הולכים
+    - עושה
+    correct: 0
+    lexemes:
+    - p18-der
+  - id: p18-l1-15
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: ה־ (נקבה / רבים)?'
+    options:
+    - די
+    - אַזאַ
+    - לעבט
+    correct: 0
+    lexemes:
+    - p18-di
+  - id: p18-l1-16
+    type: multiple_choice
+    prompt: מה פירוש דעם?
+    options:
+    - את ה־ (זכר)
+    - החוצה
+    - כזה
+    correct: 0
+    lexemes:
+    - p18-dem
+  - id: p18-l1-17
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: יהודים?'
+    options:
+    - אידן
+    - הייסט
+    - זאַכן
+    correct: 0
+    lexemes:
+    - p18-idn
+  - id: p18-l1-18
+    type: multiple_choice
+    prompt: מה פירוש אידישע?
+    options:
+    - יהודיים
+    - עמד
+    - כלום
+    correct: 0
+    lexemes:
+    - p18-idishe
+  - id: p18-l1-19
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: נשים?'
+    options:
+    - פֿרויען
+    - געדאַרפֿט
+    - גאָרנישט
+    correct: 0
+    lexemes:
+    - p18-froyen
+  - id: p18-l1-20
+    type: multiple_choice
+    prompt: מה פירוש מענער?
+    options:
+    - גברים
+    - עולם
+    - פנימה
+    correct: 0
+    lexemes:
+    - p18-mener
+  - id: p18-l1-21
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: הורים?'
+    options:
+    - עלטערן
+    - גיט
+    - געשטאַנען
+    correct: 0
+    lexemes:
+    - p18-eltern
+  - id: p18-l1-22
+    type: multiple_choice
+    prompt: מה פירוש מער?
+    options:
+    - יותר
+    - נמוך
+    - מוביל
+    correct: 0
+    lexemes:
+    - p18-mer
+  - id: p18-l1-23
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: לפי?'
+    options:
+    - לויט
+    - געבאָרן
+    - זאַכן
+    correct: 0
+    lexemes:
+    - p18-loyt
+  - id: p18-l1-24
+    type: multiple_choice
+    prompt: מה פירוש וואו?
+    options:
+    - איפה / שבו
+    - חי
+    - דברים
+    correct: 0
+    lexemes:
+    - p18-vu
+  - id: p18-l1-25
+    type: fill_blank
+    sentence: ___ טיש איז גרויס.
+    translation: השולחן גדול
+    answers:
+    - דער
+    options:
+    - דער
+    - געבאָרן
+    - גאָרנישט
+    lexemes:
+    - p18-der
+  - id: p18-l1-26
+    type: fill_blank
+    sentence: ___ שטוב איז גרויס.
+    translation: הבית גדול
+    answers:
+    - די
+    options:
+    - די
+    - הייסט
+    - געבאָרן
+    lexemes:
+    - p18-di
+  - id: p18-l1-27
+    type: fill_blank
+    sentence: איך זע ___ טיש.
+    translation: אני רואה את השולחן
+    answers:
+    - דעם
+    options:
+    - דעם
+    - מאַכט
+    - הייסט
+    lexemes:
+    - p18-dem
+  - id: p18-l1-28
+    type: fill_blank
+    sentence: ___ לערנען תורה.
+    translation: יהודים לומדים תורה
+    answers:
+    - אידן
+    options:
+    - אידן
+    - וועלט
+    - ביימער
+    lexemes:
+    - p18-idn
+  - id: p18-l1-29
+    type: fill_blank
+    sentence: ___ קינדער לערנען.
+    translation: ילדים יהודיים לומדים
+    answers:
+    - אידישע
+    options:
+    - אידישע
+    - ערשטער
+    - אַזאַ
+    lexemes:
+    - p18-idishe
+  - id: p18-l1-30
+    type: fill_blank
+    sentence: די ___ גייען אין שול.
+    translation: הנשים הולכות לבית הכנסת
+    answers:
+    - פֿרויען
+    options:
+    - פֿרויען
+    - ביימער
+    - זאַכן
+    lexemes:
+    - p18-froyen
+  - id: p18-l1-31
+    type: fill_blank
+    sentence: די ___ לערנען.
+    translation: הגברים לומדים
+    answers:
+    - מענער
+    options:
+    - מענער
+    - ביימער
+    - זאַכן
+    lexemes:
+    - p18-mener
+  - id: p18-l1-32
+    type: fill_blank
+    sentence: מײַנע ___ וווינען אין ניו־יאָרק.
+    translation: ההורים שלי גרים בניו יורק
+    answers:
+    - עלטערן
+    options:
+    - עלטערן
+    - זאַכן
+    - ביימער
+    lexemes:
+    - p18-eltern
+  - id: p18-l1-33
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה יותר
+    answers:
+    - מער
+    options:
+    - מער
+    - אַרויס
+    - דעריבער
+    lexemes:
+    - p18-mer
+  - id: p18-l1-34
+    type: fill_blank
+    sentence: ___ דעם רבי איז עס אַזוי.
+    translation: לפי הרבי זה כך
+    answers:
+    - לויט
+    options:
+    - לויט
+    - דעריבער
+    - דערציילט
+    lexemes:
+    - p18-loyt
+  - id: p18-l1-35
+    type: fill_blank
+    sentence: איך ווייס ___ ער וווינט.
+    translation: אני יודע איפה הוא גר
+    answers:
+    - וואו
+    options:
+    - וואו
+    - איצטער
+    - דעריבער
+    lexemes:
+    - p18-vu
+- id: p18-l2
+  kind: new
+  title:
+    he: חבילה 18 – חלק 2
+    en: Pack 18 – part 2
+  exercises:
+  - id: p18-l2-01
+    type: learn
+    lexeme: p18-aza
+  - id: p18-l2-02
+    type: learn
+    lexeme: p18-aroys
+  - id: p18-l2-03
+    type: learn
+    lexeme: p18-arayn
+  - id: p18-l2-04
+    type: learn
+    lexeme: p18-git
+  - id: p18-l2-05
+    type: learn
+    lexeme: p18-itster
+  - id: p18-l2-06
+    type: learn
+    lexeme: p18-gedarft
+  - id: p18-l2-07
+    type: learn
+    lexeme: p18-gekent
+  - id: p18-l2-08
+    type: learn
+    lexeme: p18-dertseylt
+  - id: p18-l2-09
+    type: learn
+    lexeme: p18-deriber
+  - id: p18-l2-10
+    type: learn
+    lexeme: p18-velt
+  - id: p18-l2-11
+    type: learn
+    lexeme: p18-firt
+  - id: p18-l2-12
+    type: match_pairs
+    pairs:
+    - - אַזאַ
+      - כזה
+    - - אַרויס
+      - החוצה
+    - - אַרײַן
+      - פנימה
+    - - גיט
+      - נותן
+    - - איצטער
+      - עכשיו
+    - - געדאַרפֿט
+      - היה צריך
+    lexemes:
+    - p18-aza
+    - p18-aroys
+    - p18-arayn
+    - p18-git
+    - p18-itster
+    - p18-gedarft
+  - id: p18-l2-13
+    type: match_pairs
+    pairs:
+    - - געקענט
+      - היה יכול
+    - - דערציילט
+      - סיפר
+    - - דעריבער
+      - לכן
+    - - וועלט
+      - עולם
+    - - פֿירט
+      - מוביל
+    lexemes:
+    - p18-gekent
+    - p18-dertseylt
+    - p18-deriber
+    - p18-velt
+    - p18-firt
+  - id: p18-l2-14
+    type: multiple_choice
+    prompt: מה פירוש אַזאַ?
+    options:
+    - כזה
+    - נעשה (עתיד, רבים)
+    - את ה־ (זכר)
+    correct: 0
+    lexemes:
+    - p18-aza
+  - id: p18-l2-15
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: החוצה?'
+    options:
+    - אַרויס
+    - הייסט
+    - נעמט
+    correct: 0
+    lexemes:
+    - p18-aroys
+  - id: p18-l2-16
+    type: multiple_choice
+    prompt: מה פירוש אַרײַן?
+    options:
+    - פנימה
+    - איפה / שבו
+    - ה־ (נקבה / רבים)
+    correct: 0
+    lexemes:
+    - p18-arayn
+  - id: p18-l2-17
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: נותן?'
+    options:
+    - גיט
+    - געבאָרן
+    - מער
+    correct: 0
+    lexemes:
+    - p18-git
+  - id: p18-l2-18
+    type: multiple_choice
+    prompt: מה פירוש איצטער?
+    options:
+    - עכשיו
+    - ראשון
+    - יהודים
+    correct: 0
+    lexemes:
+    - p18-itster
+  - id: p18-l2-19
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: היה צריך?'
+    options:
+    - געדאַרפֿט
+    - עלטערן
+    - וועלן
+    correct: 0
+    lexemes:
+    - p18-gedarft
+  - id: p18-l2-20
+    type: multiple_choice
+    prompt: מה פירוש געקענט?
+    options:
+    - היה יכול
+    - נעשה (עתיד, רבים)
+    - עמד
+    correct: 0
+    lexemes:
+    - p18-gekent
+  - id: p18-l2-21
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: סיפר?'
+    options:
+    - דערציילט
+    - ביימער
+    - הייסט
+    correct: 0
+    lexemes:
+    - p18-dertseylt
+  - id: p18-l2-22
+    type: multiple_choice
+    prompt: מה פירוש דעריבער?
+    options:
+    - לכן
+    - ה־ (לשם זכר)
+    - יהודים
+    correct: 0
+    lexemes:
+    - p18-deriber
+  - id: p18-l2-23
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: עולם?'
+    options:
+    - וועלט
+    - עלטערן
+    - פֿרויען
+    correct: 0
+    lexemes:
+    - p18-velt
+  - id: p18-l2-24
+    type: multiple_choice
+    prompt: מה פירוש פֿירט?
+    options:
+    - מוביל
+    - לפי
+    - נשים
+    correct: 0
+    lexemes:
+    - p18-firt
+  - id: p18-l2-25
+    type: fill_blank
+    sentence: דאָס איז ___ שיינער טאָג.
+    translation: זה יום יפה כל כך
+    answers:
+    - אַזאַ
+    options:
+    - אַזאַ
+    - נידעריק
+    - ערשטער
+    lexemes:
+    - p18-aza
+  - id: p18-l2-26
+    type: fill_blank
+    sentence: ער גייט ___ פון שול.
+    translation: הוא יוצא מבית הכנסת
+    answers:
+    - אַרויס
+    options:
+    - אַרויס
+    - וואו
+    - מער
+    lexemes:
+    - p18-aroys
+  - id: p18-l2-27
+    type: fill_blank
+    sentence: ער גייט ___ אין שול.
+    translation: הוא נכנס לבית הכנסת
+    answers:
+    - אַרײַן
+    options:
+    - אַרײַן
+    - וואו
+    - מער
+    lexemes:
+    - p18-arayn
+  - id: p18-l2-28
+    type: fill_blank
+    sentence: ער ___ צדקה.
+    translation: הוא נותן צדקה
+    answers:
+    - גיט
+    options:
+    - גיט
+    - וועלן
+    - גייען
+    lexemes:
+    - p18-git
+  - id: p18-l2-29
+    type: fill_blank
+    sentence: ___ בין איך אין שול.
+    translation: עכשיו אני בבית הכנסת
+    answers:
+    - איצטער
+    options:
+    - איצטער
+    - וואו
+    - מער
+    lexemes:
+    - p18-itster
+  - id: p18-l2-30
+    type: fill_blank
+    sentence: ער האָט ___ גיין.
+    translation: הוא היה צריך ללכת
+    answers:
+    - געדאַרפֿט
+    options:
+    - געדאַרפֿט
+    - געבאָרן
+    - גייען
+    lexemes:
+    - p18-gedarft
+  - id: p18-l2-31
+    type: fill_blank
+    sentence: ער האָט ___ גיין.
+    translation: הוא היה יכול ללכת
+    answers:
+    - געקענט
+    options:
+    - געקענט
+    - געשטאַנען
+    - וועלן
+    lexemes:
+    - p18-gekent
+  - id: p18-l2-32
+    type: fill_blank
+    sentence: ער האָט ___ אַ מעשה.
+    translation: הוא סיפר סיפור
+    answers:
+    - דערציילט
+    options:
+    - דערציילט
+    - וועלן
+    - געבאָרן
+    lexemes:
+    - p18-dertseylt
+  - id: p18-l2-33
+    type: fill_blank
+    sentence: איך בין מיד, ___ שלאָף איך.
+    translation: אני עייף, לכן אני ישן
+    answers:
+    - דעריבער
+    options:
+    - דעריבער
+    - מער
+    - וואו
+    lexemes:
+    - p18-deriber
+  - id: p18-l2-34
+    type: fill_blank
+    sentence: די ___ איז גרויס.
+    translation: העולם גדול
+    answers:
+    - וועלט
+    options:
+    - וועלט
+    - אידן
+    - זאַכן
+    lexemes:
+    - p18-velt
+  - id: p18-l2-35
+    type: fill_blank
+    sentence: ער ___ דעם שיעור.
+    translation: הוא מעביר את השיעור
+    answers:
+    - פֿירט
+    options:
+    - פֿירט
+    - געבאָרן
+    - גייען
+    lexemes:
+    - p18-firt
+- id: p18-l3
+  kind: new
+  title:
+    he: חבילה 18 – חלק 3
+    en: Pack 18 – part 3
+  exercises:
+  - id: p18-l3-01
+    type: learn
+    lexeme: p18-zakhn
+  - id: p18-l3-02
+    type: learn
+    lexeme: p18-ershter
+  - id: p18-l3-03
+    type: learn
+    lexeme: p18-heyst
+  - id: p18-l3-04
+    type: learn
+    lexeme: p18-nidrik
+  - id: p18-l3-05
+    type: learn
+    lexeme: p18-geboyrn
+  - id: p18-l3-06
+    type: learn
+    lexeme: p18-geshtanen
+  - id: p18-l3-07
+    type: learn
+    lexeme: p18-geyen
+  - id: p18-l3-08
+    type: learn
+    lexeme: p18-makht
+  - id: p18-l3-09
+    type: learn
+    lexeme: p18-lebt
+  - id: p18-l3-10
+    type: learn
+    lexeme: p18-nemt
+  - id: p18-l3-11
+    type: learn
+    lexeme: p18-gornit
+  - id: p18-l3-12
+    type: learn
+    lexeme: p18-beymer
+  - id: p18-l3-13
+    type: learn
+    lexeme: p18-velen
+  - id: p18-l3-14
+    type: match_pairs
+    pairs:
+    - - זאַכן
+      - דברים
+    - - ערשטער
+      - ראשון
+    - - הייסט
+      - נקרא / פירושו
+    - - נידעריק
+      - נמוך
+    - - געבאָרן
+      - נולד
+    lexemes:
+    - p18-zakhn
+    - p18-ershter
+    - p18-heyst
+    - p18-nidrik
+    - p18-geboyrn
+  - id: p18-l3-15
+    type: match_pairs
+    pairs:
+    - - געשטאַנען
+      - עמד
+    - - גייען
+      - הולכים
+    - - מאַכט
+      - עושה
+    - - לעבט
+      - חי
+    - - נעמט
+      - לוקח
+    lexemes:
+    - p18-geshtanen
+    - p18-geyen
+    - p18-makht
+    - p18-lebt
+    - p18-nemt
+  - id: p18-l3-16
+    type: match_pairs
+    pairs:
+    - - גאָרנישט
+      - כלום
+    - - ביימער
+      - עצים
+    - - וועלן
+      - נעשה (עתיד, רבים)
+    lexemes:
+    - p18-gornit
+    - p18-beymer
+    - p18-velen
+  - id: p18-l3-17
+    type: multiple_choice
+    prompt: מה פירוש זאַכן?
+    options:
+    - דברים
+    - היה יכול
+    - יהודיים
+    correct: 0
+    lexemes:
+    - p18-zakhn
+  - id: p18-l3-18
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: ראשון?'
+    options:
+    - ערשטער
+    - וועלט
+    - וואו
+    correct: 0
+    lexemes:
+    - p18-ershter
+  - id: p18-l3-19
+    type: multiple_choice
+    prompt: מה פירוש הייסט?
+    options:
+    - נקרא / פירושו
+    - כזה
+    - יהודים
+    correct: 0
+    lexemes:
+    - p18-heyst
+  - id: p18-l3-20
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: נמוך?'
+    options:
+    - נידעריק
+    - פֿרויען
+    - מענער
+    correct: 0
+    lexemes:
+    - p18-nidrik
+  - id: p18-l3-21
+    type: multiple_choice
+    prompt: מה פירוש געבאָרן?
+    options:
+    - נולד
+    - היה צריך
+    - ה־ (נקבה / רבים)
+    correct: 0
+    lexemes:
+    - p18-geboyrn
+  - id: p18-l3-22
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: עמד?'
+    options:
+    - געשטאַנען
+    - וואו
+    - מער
+    correct: 0
+    lexemes:
+    - p18-geshtanen
+  - id: p18-l3-23
+    type: multiple_choice
+    prompt: מה פירוש גייען?
+    options:
+    - הולכים
+    - את ה־ (זכר)
+    - ה־ (לשם זכר)
+    correct: 0
+    lexemes:
+    - p18-geyen
+  - id: p18-l3-24
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: עושה?'
+    options:
+    - מאַכט
+    - עלטערן
+    - אידישע
+    correct: 0
+    lexemes:
+    - p18-makht
+  - id: p18-l3-25
+    type: multiple_choice
+    prompt: מה פירוש לעבט?
+    options:
+    - חי
+    - ה־ (נקבה / רבים)
+    - ה־ (לשם זכר)
+    correct: 0
+    lexemes:
+    - p18-lebt
+  - id: p18-l3-26
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: לוקח?'
+    options:
+    - נעמט
+    - מער
+    - די
+    correct: 0
+    lexemes:
+    - p18-nemt
+  - id: p18-l3-27
+    type: multiple_choice
+    prompt: מה פירוש גאָרנישט?
+    options:
+    - כלום
+    - ה־ (נקבה / רבים)
+    - איפה / שבו
+    correct: 0
+    lexemes:
+    - p18-gornit
+  - id: p18-l3-28
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: עצים?'
+    options:
+    - ביימער
+    - פֿרויען
+    - פֿירט
+    correct: 0
+    lexemes:
+    - p18-beymer
+  - id: p18-l3-29
+    type: multiple_choice
+    prompt: מה פירוש וועלן?
+    options:
+    - נעשה (עתיד, רבים)
+    - עולם
+    - את ה־ (זכר)
+    correct: 0
+    lexemes:
+    - p18-velen
+  - id: p18-l3-30
+    type: fill_blank
+    sentence: ער האָט פֿיל ___.
+    translation: יש לו הרבה דברים
+    answers:
+    - זאַכן
+    options:
+    - זאַכן
+    - וועלט
+    - פֿרויען
+    lexemes:
+    - p18-zakhn
+  - id: p18-l3-31
+    type: fill_blank
+    sentence: דער ___ טאָג איז שיין.
+    translation: היום הראשון יפה
+    answers:
+    - ערשטער
+    options:
+    - ערשטער
+    - אַזאַ
+    - אידישע
+    lexemes:
+    - p18-ershter
+  - id: p18-l3-32
+    type: fill_blank
+    sentence: וואָס ___ דאָס?
+    translation: מה זה אומר
+    answers:
+    - הייסט
+    options:
+    - הייסט
+    - געדאַרפֿט
+    - דערציילט
+    lexemes:
+    - p18-heyst
+  - id: p18-l3-33
+    type: fill_blank
+    sentence: דער טיש איז ___.
+    translation: השולחן נמוך
+    answers:
+    - נידעריק
+    options:
+    - נידעריק
+    - אידישע
+    - אַזאַ
+    lexemes:
+    - p18-nidrik
+  - id: p18-l3-34
+    type: fill_blank
+    sentence: ער איז ___ געוואָרן אין ניו־יאָרק.
+    translation: הוא נולד בניו יורק
+    answers:
+    - געבאָרן
+    options:
+    - געבאָרן
+    - פֿירט
+    - גיט
+    lexemes:
+    - p18-geboyrn
+  - id: p18-l3-35
+    type: fill_blank
+    sentence: ער איז ___ אין שול.
+    translation: הוא עמד בבית הכנסת
+    answers:
+    - געשטאַנען
+    options:
+    - געשטאַנען
+    - געדאַרפֿט
+    - געקענט
+    lexemes:
+    - p18-geshtanen
+  - id: p18-l3-36
+    type: fill_blank
+    sentence: מיר ___ אין שול.
+    translation: אנחנו הולכים לבית הכנסת
+    answers:
+    - גייען
+    options:
+    - גייען
+    - גיט
+    - געקענט
+    lexemes:
+    - p18-geyen
+  - id: p18-l3-37
+    type: fill_blank
+    sentence: ער ___ אַ סוכה.
+    translation: הוא עושה סוכה
+    answers:
+    - מאַכט
+    options:
+    - מאַכט
+    - געקענט
+    - דערציילט
+    lexemes:
+    - p18-makht
+  - id: p18-l3-38
+    type: fill_blank
+    sentence: ער ___ אין ניו־יאָרק.
+    translation: הוא חי בניו יורק
+    answers:
+    - לעבט
+    options:
+    - לעבט
+    - געקענט
+    - פֿירט
+    lexemes:
+    - p18-lebt
+  - id: p18-l3-39
+    type: fill_blank
+    sentence: ער ___ אַ בוך.
+    translation: הוא לוקח ספר
+    answers:
+    - נעמט
+    options:
+    - נעמט
+    - געדאַרפֿט
+    - פֿירט
+    lexemes:
+    - p18-nemt
+  - id: p18-l3-40
+    type: fill_blank
+    sentence: איך האָב ___.
+    translation: אין לי כלום
+    answers:
+    - גאָרנישט
+    options:
+    - גאָרנישט
+    - אידן
+    - גיט
+    lexemes:
+    - p18-gornit
+  - id: p18-l3-41
+    type: fill_blank
+    sentence: איך זע ___.
+    translation: אני רואה עצים
+    answers:
+    - ביימער
+    options:
+    - ביימער
+    - עלטערן
+    - וועלט
+    lexemes:
+    - p18-beymer
+  - id: p18-l3-42
+    type: fill_blank
+    sentence: מיר ___ גיין.
+    translation: נלך
+    answers:
+    - וועלן
+    options:
+    - וועלן
+    - געקענט
+    - געדאַרפֿט
+    lexemes:
+    - p18-velen
