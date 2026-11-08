@@ -1,0 +1,1139 @@
+id: p14-words
+cefr: B1
+scene: study
+title:
+  he: 'הרחבת אוצר מילים 14: מילים קטנות מהשיחות'
+  en: 'Word builder 14: small words from the talks'
+story: מילים נפוצות בשיחות, כל אחת במשפט קצר.
+canDo:
+- להבין ולהשתמש במילים נפוצות נוספות
+- לזהות את המילים במשפטים
+vocabulary:
+- id: p14-oyf
+  text: אויף
+  translation: על
+  pos: preposition
+  example:
+    text: דער ספֿר ליגט אויף דעם טיש.
+    translation: הספר מונח על השולחן
+- id: p14-im
+  text: אים
+  translation: אותו / לו
+  pos: pronoun
+  example:
+    text: איך זע אים.
+    translation: אני רואה אותו
+- id: p14-zey
+  text: זיי
+  translation: הם / אותם
+  pos: pronoun
+  example:
+    text: איך זע זיי.
+    translation: אני רואה אותם
+- id: p14-men
+  text: מען
+  translation: אומרים / לומדים (כללי)
+  pos: pronoun
+  example:
+    text: מען לערנט אין שול.
+    translation: לומדים בבית הכנסת
+- id: p14-azoy
+  text: אַזוי
+  translation: כך
+  pos: adverb
+  example:
+    text: מען זאָגט עס אַזוי.
+    translation: אומרים את זה כך
+- id: p14-tsu
+  text: צו
+  translation: אל
+  pos: preposition
+  example:
+    text: איך גיי צו מײַן זיידע.
+    translation: אני הולך אל סבא שלי
+- id: p14-nor
+  text: נאָר
+  translation: רק
+  pos: adverb
+  example:
+    text: איך האָב נאָר איין בוך.
+    translation: יש לי רק ספר אחד
+- id: p14-oder
+  text: אָדער
+  translation: או
+  pos: conjunction
+  example:
+    text: איך וויל טיי אָדער קאַווע.
+    translation: אני רוצה תה או קפה
+- id: p14-bay
+  text: ביי
+  translation: אצל
+  pos: preposition
+  example:
+    text: ער וווינט ביי זײַן זיידע.
+    translation: הוא גר אצל סבא שלו
+- id: p14-durkh
+  text: דורך
+  translation: דרך
+  pos: preposition
+  example:
+    text: מיר גייען דורך דער שטאָט.
+    translation: אנחנו הולכים דרך העיר
+- id: p14-tsvishn
+  text: צווישן
+  translation: בין
+  pos: preposition
+  example:
+    text: דאָס בלײַבט צווישן מיר און דיר.
+    translation: זה נשאר בינינו
+- id: p14-far
+  text: פֿאַר
+  translation: בשביל
+  pos: preposition
+  example:
+    text: דאָס איז פֿאַר דיר.
+    translation: זה בשבילך
+- id: p14-vegn
+  text: וועגן
+  translation: על / אודות
+  pos: preposition
+  example:
+    text: מיר רעדן וועגן דער תורה.
+    translation: אנחנו מדברים על התורה
+- id: p14-iber
+  text: איבער
+  translation: מעל / מעבר
+  pos: preposition
+  example:
+    text: ער גייט איבער דער בריק.
+    translation: הוא הולך על הגשר
+- id: p14-biz
+  text: ביז
+  translation: עד
+  pos: preposition
+  example:
+    text: איך בלײַב דאָ ביז מאָרגן.
+    translation: אני נשאר כאן עד מחר
+- id: p14-aleyn
+  text: אַליין
+  translation: לבד
+  pos: adverb
+  example:
+    text: איך לערן אַליין.
+    translation: אני לומד לבד
+- id: p14-gor
+  text: גאָר
+  translation: ממש
+  pos: adverb
+  example:
+    text: דאָס איז גאָר שיין.
+    translation: זה ממש יפה
+- id: p14-takeh
+  text: טאַקע
+  translation: אכן
+  pos: adverb
+  example:
+    text: ער איז טאַקע אין שול.
+    translation: הוא אכן בבית הכנסת
+- id: p14-khotsh
+  text: כאָטש
+  translation: אף על פי ש־
+  pos: conjunction
+  example:
+    text: כאָטש איך בין מיד, גיי איך אין שול.
+    translation: אף על פי שאני עייף, אני הולך לבית הכנסת
+- id: p14-vaybald
+  text: וויבאַלד
+  translation: מכיוון ש־
+  pos: conjunction
+  example:
+    text: וויבאַלד איך בין מיד, שלאָף איך.
+    translation: מכיוון שאני עייף, אני ישן
+- id: p14-itst
+  text: איצט
+  translation: עכשיו
+  pos: adverb
+  example:
+    text: איצט בין איך אין שול.
+    translation: עכשיו אני בבית הכנסת
+- id: p14-demolt
+  text: דעמאָלט
+  translation: אז
+  pos: adverb
+  example:
+    text: דעמאָלט האָב איך געלערנט.
+    translation: אז למדתי
+- id: p14-frier
+  text: פֿריִער
+  translation: קודם
+  pos: adverb
+  example:
+    text: פֿריִער האָב איך געגעסן.
+    translation: קודם אכלתי
+- id: p14-derfar
+  text: דערפֿאַר
+  translation: לכן
+  pos: adverb
+  example:
+    text: איך בין מיד, דערפֿאַר שלאָף איך.
+    translation: אני עייף, לכן אני ישן
+- id: p14-tsulib
+  text: צוליב
+  translation: בגלל
+  pos: preposition
+  example:
+    text: צוליב דעם רעגן בלײַב איך אין שטוב.
+    translation: בגלל הגשם אני נשאר בבית
+- id: p14-yeder
+  text: יעדער
+  translation: כל / כל אחד
+  pos: pronoun
+  example:
+    text: יעדער איד לערנט.
+    translation: כל יהודי לומד
+- id: p14-ale
+  text: אַלע
+  translation: כל / כולם
+  pos: pronoun
+  example:
+    text: אַלע קינדער לערנען.
+    translation: כל הילדים לומדים
+- id: p14-gants
+  text: גאַנץ
+  translation: שלם / כל
+  pos: adjective
+  example:
+    text: דער גאַנץ טאָג איז שיין.
+    translation: כל היום יפה
+- id: p14-zol
+  text: זאָל
+  translation: שֶׁ־ (שיהיה)
+  pos: adverb
+  example:
+    text: ער זאָל קומען.
+    translation: שיבוא
+- id: p14-tor
+  text: טאָר
+  translation: 'מותר (בשלילה: אסור)'
+  pos: verb
+  example:
+    text: מען טאָר ניט עסן דאָ.
+    translation: אסור לאכול כאן
+- id: p14-vert2
+  text: ווערט
+  translation: נהיה
+  pos: verb
+  example:
+    text: עס ווערט קאַלט.
+    translation: נהיה קר
+lessons:
+- id: p14-l1
+  kind: new
+  title:
+    he: חבילה 14 – חלק 1
+    en: Pack 14 – part 1
+  exercises:
+  - id: p14-l1-01
+    type: learn
+    lexeme: p14-oyf
+  - id: p14-l1-02
+    type: learn
+    lexeme: p14-im
+  - id: p14-l1-03
+    type: learn
+    lexeme: p14-zey
+  - id: p14-l1-04
+    type: learn
+    lexeme: p14-men
+  - id: p14-l1-05
+    type: learn
+    lexeme: p14-azoy
+  - id: p14-l1-06
+    type: learn
+    lexeme: p14-tsu
+  - id: p14-l1-07
+    type: learn
+    lexeme: p14-nor
+  - id: p14-l1-08
+    type: learn
+    lexeme: p14-oder
+  - id: p14-l1-09
+    type: learn
+    lexeme: p14-bay
+  - id: p14-l1-10
+    type: learn
+    lexeme: p14-durkh
+  - id: p14-l1-11
+    type: match_pairs
+    pairs:
+    - - אויף
+      - על
+    - - אים
+      - אותו / לו
+    - - זיי
+      - הם / אותם
+    - - מען
+      - אומרים / לומדים (כללי)
+    - - אַזוי
+      - כך
+    lexemes:
+    - p14-oyf
+    - p14-im
+    - p14-zey
+    - p14-men
+    - p14-azoy
+  - id: p14-l1-12
+    type: match_pairs
+    pairs:
+    - - צו
+      - אל
+    - - נאָר
+      - רק
+    - - אָדער
+      - או
+    - - ביי
+      - אצל
+    - - דורך
+      - דרך
+    lexemes:
+    - p14-tsu
+    - p14-nor
+    - p14-oder
+    - p14-bay
+    - p14-durkh
+  - id: p14-l1-13
+    type: multiple_choice
+    prompt: מה פירוש אויף?
+    options:
+    - על
+    - שלם / כל
+    - אז
+    correct: 0
+    lexemes:
+    - p14-oyf
+  - id: p14-l1-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: אותו / לו?'
+    options:
+    - אים
+    - ווערט
+    - וויבאַלד
+    correct: 0
+    lexemes:
+    - p14-im
+  - id: p14-l1-15
+    type: multiple_choice
+    prompt: מה פירוש זיי?
+    options:
+    - הם / אותם
+    - עכשיו
+    - כל / כל אחד
+    correct: 0
+    lexemes:
+    - p14-zey
+  - id: p14-l1-16
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: אומרים / לומדים (כללי)?'
+    options:
+    - מען
+    - צוליב
+    - דעמאָלט
+    correct: 0
+    lexemes:
+    - p14-men
+  - id: p14-l1-17
+    type: multiple_choice
+    prompt: מה פירוש אַזוי?
+    options:
+    - כך
+    - 'מותר (בשלילה: אסור)'
+    - אז
+    correct: 0
+    lexemes:
+    - p14-azoy
+  - id: p14-l1-18
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: אל?'
+    options:
+    - צו
+    - פֿריִער
+    - כאָטש
+    correct: 0
+    lexemes:
+    - p14-tsu
+  - id: p14-l1-19
+    type: multiple_choice
+    prompt: מה פירוש נאָר?
+    options:
+    - רק
+    - בשביל
+    - שֶׁ־ (שיהיה)
+    correct: 0
+    lexemes:
+    - p14-nor
+  - id: p14-l1-20
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: או?'
+    options:
+    - אָדער
+    - צווישן
+    - ביז
+    correct: 0
+    lexemes:
+    - p14-oder
+  - id: p14-l1-21
+    type: multiple_choice
+    prompt: מה פירוש ביי?
+    options:
+    - אצל
+    - עכשיו
+    - שלם / כל
+    correct: 0
+    lexemes:
+    - p14-bay
+  - id: p14-l1-22
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: דרך?'
+    options:
+    - דורך
+    - גאַנץ
+    - וועגן
+    correct: 0
+    lexemes:
+    - p14-durkh
+  - id: p14-l1-23
+    type: fill_blank
+    sentence: דער ספֿר ליגט ___ דעם טיש.
+    translation: הספר מונח על השולחן
+    answers:
+    - אויף
+    options:
+    - אויף
+    - פֿאַר
+    - איבער
+    lexemes:
+    - p14-oyf
+  - id: p14-l1-24
+    type: fill_blank
+    sentence: איך זע ___.
+    translation: אני רואה אותו
+    answers:
+    - אים
+    options:
+    - אים
+    - אַלע
+    - יעדער
+    lexemes:
+    - p14-im
+  - id: p14-l1-25
+    type: fill_blank
+    sentence: איך זע ___.
+    translation: אני רואה אותם
+    answers:
+    - זיי
+    options:
+    - זיי
+    - יעדער
+    - אַלע
+    lexemes:
+    - p14-zey
+  - id: p14-l1-26
+    type: fill_blank
+    sentence: ___ לערנט אין שול.
+    translation: לומדים בבית הכנסת
+    answers:
+    - מען
+    options:
+    - מען
+    - אַלע
+    - יעדער
+    lexemes:
+    - p14-men
+  - id: p14-l1-27
+    type: fill_blank
+    sentence: מען זאָגט עס ___.
+    translation: אומרים את זה כך
+    answers:
+    - אַזוי
+    options:
+    - אַזוי
+    - איצט
+    - טאַקע
+    lexemes:
+    - p14-azoy
+  - id: p14-l1-28
+    type: fill_blank
+    sentence: איך גיי ___ מײַן זיידע.
+    translation: אני הולך אל סבא שלי
+    answers:
+    - צו
+    options:
+    - צו
+    - צווישן
+    - איבער
+    lexemes:
+    - p14-tsu
+  - id: p14-l1-29
+    type: fill_blank
+    sentence: איך האָב ___ איין בוך.
+    translation: יש לי רק ספר אחד
+    answers:
+    - נאָר
+    options:
+    - נאָר
+    - פֿריִער
+    - דעמאָלט
+    lexemes:
+    - p14-nor
+  - id: p14-l1-30
+    type: fill_blank
+    sentence: איך וויל טיי ___ קאַווע.
+    translation: אני רוצה תה או קפה
+    answers:
+    - אָדער
+    options:
+    - אָדער
+    - כאָטש
+    - וויבאַלד
+    lexemes:
+    - p14-oder
+  - id: p14-l1-31
+    type: fill_blank
+    sentence: ער וווינט ___ זײַן זיידע.
+    translation: הוא גר אצל סבא שלו
+    answers:
+    - ביי
+    options:
+    - ביי
+    - איבער
+    - ביז
+    lexemes:
+    - p14-bay
+  - id: p14-l1-32
+    type: fill_blank
+    sentence: מיר גייען ___ דער שטאָט.
+    translation: אנחנו הולכים דרך העיר
+    answers:
+    - דורך
+    options:
+    - דורך
+    - פֿאַר
+    - איבער
+    lexemes:
+    - p14-durkh
+- id: p14-l2
+  kind: new
+  title:
+    he: חבילה 14 – חלק 2
+    en: Pack 14 – part 2
+  exercises:
+  - id: p14-l2-01
+    type: learn
+    lexeme: p14-tsvishn
+  - id: p14-l2-02
+    type: learn
+    lexeme: p14-far
+  - id: p14-l2-03
+    type: learn
+    lexeme: p14-vegn
+  - id: p14-l2-04
+    type: learn
+    lexeme: p14-iber
+  - id: p14-l2-05
+    type: learn
+    lexeme: p14-biz
+  - id: p14-l2-06
+    type: learn
+    lexeme: p14-aleyn
+  - id: p14-l2-07
+    type: learn
+    lexeme: p14-gor
+  - id: p14-l2-08
+    type: learn
+    lexeme: p14-takeh
+  - id: p14-l2-09
+    type: learn
+    lexeme: p14-khotsh
+  - id: p14-l2-10
+    type: learn
+    lexeme: p14-vaybald
+  - id: p14-l2-11
+    type: match_pairs
+    pairs:
+    - - צווישן
+      - בין
+    - - פֿאַר
+      - בשביל
+    - - וועגן
+      - על / אודות
+    - - איבער
+      - מעל / מעבר
+    - - ביז
+      - עד
+    lexemes:
+    - p14-tsvishn
+    - p14-far
+    - p14-vegn
+    - p14-iber
+    - p14-biz
+  - id: p14-l2-12
+    type: match_pairs
+    pairs:
+    - - אַליין
+      - לבד
+    - - גאָר
+      - ממש
+    - - טאַקע
+      - אכן
+    - - כאָטש
+      - אף על פי ש־
+    - - וויבאַלד
+      - מכיוון ש־
+    lexemes:
+    - p14-aleyn
+    - p14-gor
+    - p14-takeh
+    - p14-khotsh
+    - p14-vaybald
+  - id: p14-l2-13
+    type: multiple_choice
+    prompt: מה פירוש צווישן?
+    options:
+    - בין
+    - לכן
+    - קודם
+    correct: 0
+    lexemes:
+    - p14-tsvishn
+  - id: p14-l2-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: בשביל?'
+    options:
+    - פֿאַר
+    - דורך
+    - יעדער
+    correct: 0
+    lexemes:
+    - p14-far
+  - id: p14-l2-15
+    type: multiple_choice
+    prompt: מה פירוש וועגן?
+    options:
+    - על / אודות
+    - על
+    - כך
+    correct: 0
+    lexemes:
+    - p14-vegn
+  - id: p14-l2-16
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: מעל / מעבר?'
+    options:
+    - איבער
+    - דורך
+    - אויף
+    correct: 0
+    lexemes:
+    - p14-iber
+  - id: p14-l2-17
+    type: multiple_choice
+    prompt: מה פירוש ביז?
+    options:
+    - עד
+    - בגלל
+    - עכשיו
+    correct: 0
+    lexemes:
+    - p14-biz
+  - id: p14-l2-18
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: לבד?'
+    options:
+    - אַליין
+    - דעמאָלט
+    - זיי
+    correct: 0
+    lexemes:
+    - p14-aleyn
+  - id: p14-l2-19
+    type: multiple_choice
+    prompt: מה פירוש גאָר?
+    options:
+    - ממש
+    - 'מותר (בשלילה: אסור)'
+    - אותו / לו
+    correct: 0
+    lexemes:
+    - p14-gor
+  - id: p14-l2-20
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: אכן?'
+    options:
+    - טאַקע
+    - אַזוי
+    - נאָר
+    correct: 0
+    lexemes:
+    - p14-takeh
+  - id: p14-l2-21
+    type: multiple_choice
+    prompt: מה פירוש כאָטש?
+    options:
+    - אף על פי ש־
+    - עכשיו
+    - אז
+    correct: 0
+    lexemes:
+    - p14-khotsh
+  - id: p14-l2-22
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: מכיוון ש־?'
+    options:
+    - וויבאַלד
+    - יעדער
+    - צוליב
+    correct: 0
+    lexemes:
+    - p14-vaybald
+  - id: p14-l2-23
+    type: fill_blank
+    sentence: דאָס בלײַבט ___ מיר און דיר.
+    translation: זה נשאר בינינו
+    answers:
+    - צווישן
+    options:
+    - צווישן
+    - ביי
+    - אויף
+    lexemes:
+    - p14-tsvishn
+  - id: p14-l2-24
+    type: fill_blank
+    sentence: דאָס איז ___ דיר.
+    translation: זה בשבילך
+    answers:
+    - פֿאַר
+    options:
+    - פֿאַר
+    - דורך
+    - אויף
+    lexemes:
+    - p14-far
+  - id: p14-l2-25
+    type: fill_blank
+    sentence: מיר רעדן ___ דער תורה.
+    translation: אנחנו מדברים על התורה
+    answers:
+    - וועגן
+    options:
+    - וועגן
+    - אויף
+    - צוליב
+    lexemes:
+    - p14-vegn
+  - id: p14-l2-26
+    type: fill_blank
+    sentence: ער גייט ___ דער בריק.
+    translation: הוא הולך על הגשר
+    answers:
+    - איבער
+    options:
+    - איבער
+    - צוליב
+    - דורך
+    lexemes:
+    - p14-iber
+  - id: p14-l2-27
+    type: fill_blank
+    sentence: איך בלײַב דאָ ___ מאָרגן.
+    translation: אני נשאר כאן עד מחר
+    answers:
+    - ביז
+    options:
+    - ביז
+    - צו
+    - דורך
+    lexemes:
+    - p14-biz
+  - id: p14-l2-28
+    type: fill_blank
+    sentence: איך לערן ___.
+    translation: אני לומד לבד
+    answers:
+    - אַליין
+    options:
+    - אַליין
+    - איצט
+    - זאָל
+    lexemes:
+    - p14-aleyn
+  - id: p14-l2-29
+    type: fill_blank
+    sentence: דאָס איז ___ שיין.
+    translation: זה ממש יפה
+    answers:
+    - גאָר
+    options:
+    - גאָר
+    - דעמאָלט
+    - נאָר
+    lexemes:
+    - p14-gor
+  - id: p14-l2-30
+    type: fill_blank
+    sentence: ער איז ___ אין שול.
+    translation: הוא אכן בבית הכנסת
+    answers:
+    - טאַקע
+    options:
+    - טאַקע
+    - נאָר
+    - זאָל
+    lexemes:
+    - p14-takeh
+  - id: p14-l2-31
+    type: fill_blank
+    sentence: ___ איך בין מיד, גיי איך אין שול.
+    translation: אף על פי שאני עייף, אני הולך לבית הכנסת
+    answers:
+    - כאָטש
+    options:
+    - כאָטש
+    - אָדער
+    - צו
+    lexemes:
+    - p14-khotsh
+  - id: p14-l2-32
+    type: fill_blank
+    sentence: ___ איך בין מיד, שלאָף איך.
+    translation: מכיוון שאני עייף, אני ישן
+    answers:
+    - וויבאַלד
+    options:
+    - וויבאַלד
+    - מען
+    - אויף
+    lexemes:
+    - p14-vaybald
+- id: p14-l3
+  kind: new
+  title:
+    he: חבילה 14 – חלק 3
+    en: Pack 14 – part 3
+  exercises:
+  - id: p14-l3-01
+    type: learn
+    lexeme: p14-itst
+  - id: p14-l3-02
+    type: learn
+    lexeme: p14-demolt
+  - id: p14-l3-03
+    type: learn
+    lexeme: p14-frier
+  - id: p14-l3-04
+    type: learn
+    lexeme: p14-derfar
+  - id: p14-l3-05
+    type: learn
+    lexeme: p14-tsulib
+  - id: p14-l3-06
+    type: learn
+    lexeme: p14-yeder
+  - id: p14-l3-07
+    type: learn
+    lexeme: p14-ale
+  - id: p14-l3-08
+    type: learn
+    lexeme: p14-gants
+  - id: p14-l3-09
+    type: learn
+    lexeme: p14-zol
+  - id: p14-l3-10
+    type: learn
+    lexeme: p14-tor
+  - id: p14-l3-11
+    type: learn
+    lexeme: p14-vert2
+  - id: p14-l3-12
+    type: match_pairs
+    pairs:
+    - - איצט
+      - עכשיו
+    - - דעמאָלט
+      - אז
+    - - פֿריִער
+      - קודם
+    - - דערפֿאַר
+      - לכן
+    - - צוליב
+      - בגלל
+    lexemes:
+    - p14-itst
+    - p14-demolt
+    - p14-frier
+    - p14-derfar
+    - p14-tsulib
+  - id: p14-l3-13
+    type: match_pairs
+    pairs:
+    - - יעדער
+      - כל / כל אחד
+    - - אַלע
+      - כל / כולם
+    - - גאַנץ
+      - שלם / כל
+    - - זאָל
+      - שֶׁ־ (שיהיה)
+    - - טאָר
+      - 'מותר (בשלילה: אסור)'
+    - - ווערט
+      - נהיה
+    lexemes:
+    - p14-yeder
+    - p14-ale
+    - p14-gants
+    - p14-zol
+    - p14-tor
+    - p14-vert2
+  - id: p14-l3-14
+    type: multiple_choice
+    prompt: מה פירוש איצט?
+    options:
+    - עכשיו
+    - אכן
+    - כך
+    correct: 0
+    lexemes:
+    - p14-itst
+  - id: p14-l3-15
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: אז?'
+    options:
+    - דעמאָלט
+    - כאָטש
+    - זיי
+    correct: 0
+    lexemes:
+    - p14-demolt
+  - id: p14-l3-16
+    type: multiple_choice
+    prompt: מה פירוש פֿריִער?
+    options:
+    - קודם
+    - רק
+    - ממש
+    correct: 0
+    lexemes:
+    - p14-frier
+  - id: p14-l3-17
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: לכן?'
+    options:
+    - דערפֿאַר
+    - מען
+    - כאָטש
+    correct: 0
+    lexemes:
+    - p14-derfar
+  - id: p14-l3-18
+    type: multiple_choice
+    prompt: מה פירוש צוליב?
+    options:
+    - בגלל
+    - מעל / מעבר
+    - עד
+    correct: 0
+    lexemes:
+    - p14-tsulib
+  - id: p14-l3-19
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: כל / כל אחד?'
+    options:
+    - יעדער
+    - אַזוי
+    - נאָר
+    correct: 0
+    lexemes:
+    - p14-yeder
+  - id: p14-l3-20
+    type: multiple_choice
+    prompt: מה פירוש אַלע?
+    options:
+    - כל / כולם
+    - ממש
+    - אומרים / לומדים (כללי)
+    correct: 0
+    lexemes:
+    - p14-ale
+  - id: p14-l3-21
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: שלם / כל?'
+    options:
+    - גאַנץ
+    - איבער
+    - אים
+    correct: 0
+    lexemes:
+    - p14-gants
+  - id: p14-l3-22
+    type: multiple_choice
+    prompt: מה פירוש זאָל?
+    options:
+    - שֶׁ־ (שיהיה)
+    - כך
+    - רק
+    correct: 0
+    lexemes:
+    - p14-zol
+  - id: p14-l3-23
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: מותר (בשלילה: אסור)?'
+    options:
+    - טאָר
+    - דורך
+    - וועגן
+    correct: 0
+    lexemes:
+    - p14-tor
+  - id: p14-l3-24
+    type: multiple_choice
+    prompt: מה פירוש ווערט?
+    options:
+    - נהיה
+    - בין
+    - אף על פי ש־
+    correct: 0
+    lexemes:
+    - p14-vert2
+  - id: p14-l3-25
+    type: fill_blank
+    sentence: ___ בין איך אין שול.
+    translation: עכשיו אני בבית הכנסת
+    answers:
+    - איצט
+    options:
+    - איצט
+    - גאָר
+    - אַליין
+    lexemes:
+    - p14-itst
+  - id: p14-l3-26
+    type: fill_blank
+    sentence: ___ האָב איך געלערנט.
+    translation: אז למדתי
+    answers:
+    - דעמאָלט
+    options:
+    - דעמאָלט
+    - אַליין
+    - גאָר
+    lexemes:
+    - p14-demolt
+  - id: p14-l3-27
+    type: fill_blank
+    sentence: ___ האָב איך געגעסן.
+    translation: קודם אכלתי
+    answers:
+    - פֿריִער
+    options:
+    - פֿריִער
+    - טאַקע
+    - נאָר
+    lexemes:
+    - p14-frier
+  - id: p14-l3-28
+    type: fill_blank
+    sentence: איך בין מיד, ___ שלאָף איך.
+    translation: אני עייף, לכן אני ישן
+    answers:
+    - דערפֿאַר
+    options:
+    - דערפֿאַר
+    - אַזוי
+    - אַליין
+    lexemes:
+    - p14-derfar
+  - id: p14-l3-29
+    type: fill_blank
+    sentence: ___ דעם רעגן בלײַב איך אין שטוב.
+    translation: בגלל הגשם אני נשאר בבית
+    answers:
+    - צוליב
+    options:
+    - צוליב
+    - דורך
+    - איבער
+    lexemes:
+    - p14-tsulib
+  - id: p14-l3-30
+    type: fill_blank
+    sentence: ___ איד לערנט.
+    translation: כל יהודי לומד
+    answers:
+    - יעדער
+    options:
+    - יעדער
+    - זיי
+    - אים
+    lexemes:
+    - p14-yeder
+  - id: p14-l3-31
+    type: fill_blank
+    sentence: ___ קינדער לערנען.
+    translation: כל הילדים לומדים
+    answers:
+    - אַלע
+    options:
+    - אַלע
+    - מען
+    - זיי
+    lexemes:
+    - p14-ale
+  - id: p14-l3-32
+    type: fill_blank
+    sentence: דער ___ טאָג איז שיין.
+    translation: כל היום יפה
+    answers:
+    - גאַנץ
+    options:
+    - גאַנץ
+    - פֿאַר
+    - וועגן
+    lexemes:
+    - p14-gants
+  - id: p14-l3-33
+    type: fill_blank
+    sentence: ער ___ קומען.
+    translation: שיבוא
+    answers:
+    - זאָל
+    options:
+    - זאָל
+    - נאָר
+    - אַזוי
+    lexemes:
+    - p14-zol
+  - id: p14-l3-34
+    type: fill_blank
+    sentence: מען ___ ניט עסן דאָ.
+    translation: אסור לאכול כאן
+    answers:
+    - טאָר
+    options:
+    - טאָר
+    - דורך
+    - אַליין
+    lexemes:
+    - p14-tor
+  - id: p14-l3-35
+    type: fill_blank
+    sentence: עס ___ קאַלט.
+    translation: נהיה קר
+    answers:
+    - ווערט
+    options:
+    - ווערט
+    - אים
+    - אַליין
+    lexemes:
+    - p14-vert2

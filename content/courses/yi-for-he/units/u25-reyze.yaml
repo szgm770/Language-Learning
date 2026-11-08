@@ -539,7 +539,7 @@ lessons:
   - id: b1-test-09
     type: translate
     direction: to_source
-    prompt: איך בין מיד, ווײַל איך האָב נישט געשלאָפֿן.
+    prompt: איך בין מיד, ווײַל איך האָב ניט געשלאָפֿן.
     answers:
     - אני עייף כי לא ישנתי
     lexemes: &id008
@@ -551,7 +551,7 @@ lessons:
     - geshlofn
   - id: b1-test-10
     type: fill_blank
-    sentence: איך בין מיד, ___ איך האָב נישט געשלאָפֿן.
+    sentence: איך בין מיד, ___ איך האָב ניט געשלאָפֿן.
     translation: אני עייף כי לא ישנתי
     answers:
     - ווײַל
@@ -697,7 +697,7 @@ lessons:
     direction: to_target
     prompt: אני עייף כי לא ישנתי
     answers:
-    - איך בין מיד, ווײַל איך האָב נישט געשלאָפֿן
+    - איך בין מיד, ווײַל איך האָב ניט געשלאָפֿן
     lexemes: *id008
   - id: b1-test-26
     type: translate

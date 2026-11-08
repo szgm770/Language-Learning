@@ -47,7 +47,7 @@ vocabulary:
   translation: שבוע
   pos: noun
 - id: nisht
-  text: נישט
+  text: ניט
   translation: לא
   pos: adverb
 lessons:
@@ -64,7 +64,7 @@ lessons:
 
       **הײַנט** (היום), **נעכטן** (אתמול).
 
-      **נישט** פירושו "לא": **הײַנט איז נישט שבת**.
+      **ניט** פירושו "לא": **הײַנט איז ניט שבת**.
 
       '
   - id: u08-l1-02
@@ -252,7 +252,7 @@ lessons:
       - אתמול
     - - וואָך
       - שבוע
-    - - נישט
+    - - ניט
       - לא
     lexemes:
     - haynt
@@ -291,7 +291,7 @@ lessons:
     - vokh
   - id: u08-l2-10
     type: multiple_choice
-    prompt: מה פירוש נישט?
+    prompt: מה פירוש ניט?
     options:
     - לא
     - היום
@@ -302,7 +302,7 @@ lessons:
   - id: u08-l2-11
     type: translate
     direction: to_source
-    prompt: הײַנט איז נישט שבת.
+    prompt: הײַנט איז ניט שבת.
     answers:
     - היום אין שבת
     - היום לא שבת
@@ -316,13 +316,13 @@ lessons:
     direction: to_target
     prompt: היום אין שבת
     answers:
-    - הײַנט איז נישט שבת
+    - הײַנט איז ניט שבת
     lexemes: *id003
   - id: u08-l2-13
     type: word_bank
     prompt: היום אין שבת
     answers:
-    - הײַנט איז נישט שבת
+    - הײַנט איז ניט שבת
     distractors:
     - מיטוואָך
     - זונטיק
@@ -332,9 +332,9 @@ lessons:
     sentence: הײַנט איז ___ שבת.
     translation: היום אין שבת
     answers:
-    - נישט
+    - ניט
     options:
-    - נישט
+    - ניט
     - וואָך
     - פֿרײַטיק
     lexemes: *id003
@@ -402,7 +402,7 @@ lessons:
       - אתמול
     - - וואָך
       - שבוע
-    - - נישט
+    - - ניט
       - לא
     lexemes:
     - haynt
@@ -458,7 +458,7 @@ lessons:
   - id: u08-review-09
     type: translate
     direction: to_source
-    prompt: הײַנט איז נישט שבת.
+    prompt: הײַנט איז ניט שבת.
     answers:
     - היום אין שבת
     - היום לא שבת
@@ -468,13 +468,13 @@ lessons:
     direction: to_target
     prompt: היום אין שבת
     answers:
-    - הײַנט איז נישט שבת
+    - הײַנט איז ניט שבת
     lexemes: *id003
   - id: u08-review-11
     type: word_bank
     prompt: היום אין שבת
     answers:
-    - הײַנט איז נישט שבת
+    - הײַנט איז ניט שבת
     distractors:
     - מיטוואָך
     - זונטיק

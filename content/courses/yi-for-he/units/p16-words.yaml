@@ -1,0 +1,719 @@
+id: p16-words
+cefr: B2
+scene: study
+title:
+  he: 'הרחבת אוצר מילים 16: עוד מהשיחות'
+  en: 'Word builder 16: more from the talks'
+story: מילים נפוצות בשיחות, כל אחת במשפט קצר.
+canDo:
+- להבין ולהשתמש במילים נפוצות נוספות
+- לזהות את המילים במשפטים
+vocabulary:
+- id: p16-shlekht
+  text: שלעכט
+  translation: רע / גרוע
+  pos: adjective
+  example:
+    text: דאָס איז שלעכט.
+    translation: זה רע / גרוע
+- id: p16-bavust
+  text: באַוואוסט
+  translation: ידוע
+  pos: adjective
+  example:
+    text: דאָס איז באַוואוסט.
+    translation: זה ידוע
+- id: p16-gevaldik
+  text: געוואַלדיק
+  translation: אדיר
+  pos: adjective
+  example:
+    text: דאָס איז געוואַלדיק.
+    translation: זה אדיר
+- id: p16-hekher
+  text: העכער
+  translation: גבוה יותר
+  pos: adjective
+  example:
+    text: דער בערג איז העכער.
+    translation: ההר גבוה יותר
+- id: p16-veltlekh
+  text: וועלטלעך
+  translation: גשמי / חילוני
+  pos: adjective
+  example:
+    text: דאָס איז וועלטלעך.
+    translation: זה גשמי / חילוני
+- id: p16-inerlekh
+  text: אינערלעך
+  translation: פנימי
+  pos: adjective
+  example:
+    text: דאָס איז אינערלעך.
+    translation: זה פנימי
+- id: p16-faran
+  text: פֿאַראַן
+  translation: קיים / נמצא
+  pos: adjective
+  example:
+    text: דער רבי איז פֿאַראַן.
+    translation: הרבי נמצא
+- id: p16-nito
+  text: ניטאָ
+  translation: אינו נמצא
+  pos: adjective
+  example:
+    text: ער איז ניטאָ.
+    translation: הוא לא נמצא
+- id: p16-farshtendlekh
+  text: פֿאַרשטענדלעך
+  translation: מובן
+  pos: adjective
+  example:
+    text: דאָס איז פֿאַרשטענדלעך.
+    translation: זה מובן
+- id: p16-vikhtik
+  text: וויכטיק
+  translation: חשוב
+  pos: adjective
+  example:
+    text: דאָס איז וויכטיק.
+    translation: זה חשוב
+- id: p16-greytn
+  text: גרייטן
+  translation: להתכונן
+  pos: verb
+  example:
+    text: איך וויל זיך גרייטן.
+    translation: אני רוצה להתכונן
+- id: p16-tsushteln
+  text: צושטעלן
+  translation: לספק
+  pos: verb
+  example:
+    text: איך וויל צושטעלן אַ בוך.
+    translation: אני רוצה לספק ספר
+- id: p16-teyln
+  text: טיילן
+  translation: לחלק
+  pos: verb
+  example:
+    text: איך וויל טיילן קוכן.
+    translation: אני רוצה לחלק עוגה
+- id: p16-praven
+  text: פּראַווען
+  translation: לערוך / לחגוג
+  pos: verb
+  example:
+    text: מיר וועלן פּראַווען אַ חתונה.
+    translation: נערוך חתונה
+- id: p16-aroysnemen
+  text: אַרויסנעמען
+  translation: להוציא
+  pos: verb
+  example:
+    text: איך וויל אַרויסנעמען אַ בוך.
+    translation: אני רוצה להוציא ספר
+- id: p16-klaybn
+  text: קלײַבן
+  translation: לאסוף
+  pos: verb
+  example:
+    text: איך וויל קלײַבן בלומען.
+    translation: אני רוצה לאסוף פרחים
+- id: p16-tsien
+  text: ציִען
+  translation: למשוך
+  pos: verb
+  example:
+    text: איך וויל ציִען.
+    translation: אני רוצה למשוך
+- id: p16-betn
+  text: בעטן
+  translation: לבקש
+  pos: verb
+  example:
+    text: איך וויל בעטן.
+    translation: אני רוצה לבקש
+- id: p16-danken
+  text: דאַנקען
+  translation: להודות
+  pos: verb
+  example:
+    text: איך וויל דאַנקען.
+    translation: אני רוצה להודות
+lessons:
+- id: p16-l1
+  kind: new
+  title:
+    he: חבילה 16 – חלק 1
+    en: Pack 16 – part 1
+  exercises:
+  - id: p16-l1-01
+    type: learn
+    lexeme: p16-shlekht
+  - id: p16-l1-02
+    type: learn
+    lexeme: p16-bavust
+  - id: p16-l1-03
+    type: learn
+    lexeme: p16-gevaldik
+  - id: p16-l1-04
+    type: learn
+    lexeme: p16-hekher
+  - id: p16-l1-05
+    type: learn
+    lexeme: p16-veltlekh
+  - id: p16-l1-06
+    type: learn
+    lexeme: p16-inerlekh
+  - id: p16-l1-07
+    type: match_pairs
+    pairs:
+    - - שלעכט
+      - רע / גרוע
+    - - באַוואוסט
+      - ידוע
+    - - געוואַלדיק
+      - אדיר
+    lexemes:
+    - p16-shlekht
+    - p16-bavust
+    - p16-gevaldik
+  - id: p16-l1-08
+    type: match_pairs
+    pairs:
+    - - העכער
+      - גבוה יותר
+    - - וועלטלעך
+      - גשמי / חילוני
+    - - אינערלעך
+      - פנימי
+    lexemes:
+    - p16-hekher
+    - p16-veltlekh
+    - p16-inerlekh
+  - id: p16-l1-09
+    type: multiple_choice
+    prompt: מה פירוש שלעכט?
+    options:
+    - רע / גרוע
+    - מובן
+    - לערוך / לחגוג
+    correct: 0
+    lexemes:
+    - p16-shlekht
+  - id: p16-l1-10
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: ידוע?'
+    options:
+    - באַוואוסט
+    - פֿאַראַן
+    - ניטאָ
+    correct: 0
+    lexemes:
+    - p16-bavust
+  - id: p16-l1-11
+    type: multiple_choice
+    prompt: מה פירוש געוואַלדיק?
+    options:
+    - אדיר
+    - לחלק
+    - מובן
+    correct: 0
+    lexemes:
+    - p16-gevaldik
+  - id: p16-l1-12
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: גבוה יותר?'
+    options:
+    - העכער
+    - וויכטיק
+    - ציִען
+    correct: 0
+    lexemes:
+    - p16-hekher
+  - id: p16-l1-13
+    type: multiple_choice
+    prompt: מה פירוש וועלטלעך?
+    options:
+    - גשמי / חילוני
+    - להתכונן
+    - מובן
+    correct: 0
+    lexemes:
+    - p16-veltlekh
+  - id: p16-l1-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: פנימי?'
+    options:
+    - אינערלעך
+    - וויכטיק
+    - קלײַבן
+    correct: 0
+    lexemes:
+    - p16-inerlekh
+  - id: p16-l1-15
+    type: fill_blank
+    sentence: דאָס איז ___.
+    translation: זה רע / גרוע
+    answers:
+    - שלעכט
+    options:
+    - שלעכט
+    - פֿאַרשטענדלעך
+    - וויכטיק
+    lexemes:
+    - p16-shlekht
+  - id: p16-l1-16
+    type: fill_blank
+    sentence: דאָס איז ___.
+    translation: זה ידוע
+    answers:
+    - באַוואוסט
+    options:
+    - באַוואוסט
+    - פֿאַרשטענדלעך
+    - וויכטיק
+    lexemes:
+    - p16-bavust
+  - id: p16-l1-17
+    type: fill_blank
+    sentence: דאָס איז ___.
+    translation: זה אדיר
+    answers:
+    - געוואַלדיק
+    options:
+    - געוואַלדיק
+    - פֿאַרשטענדלעך
+    - וויכטיק
+    lexemes:
+    - p16-gevaldik
+  - id: p16-l1-18
+    type: fill_blank
+    sentence: דער בערג איז ___.
+    translation: ההר גבוה יותר
+    answers:
+    - העכער
+    options:
+    - העכער
+    - פֿאַראַן
+    - וויכטיק
+    lexemes:
+    - p16-hekher
+  - id: p16-l1-19
+    type: fill_blank
+    sentence: דאָס איז ___.
+    translation: זה גשמי / חילוני
+    answers:
+    - וועלטלעך
+    options:
+    - וועלטלעך
+    - פֿאַרשטענדלעך
+    - וויכטיק
+    lexemes:
+    - p16-veltlekh
+  - id: p16-l1-20
+    type: fill_blank
+    sentence: דאָס איז ___.
+    translation: זה פנימי
+    answers:
+    - אינערלעך
+    options:
+    - אינערלעך
+    - פֿאַרשטענדלעך
+    - וויכטיק
+    lexemes:
+    - p16-inerlekh
+- id: p16-l2
+  kind: new
+  title:
+    he: חבילה 16 – חלק 2
+    en: Pack 16 – part 2
+  exercises:
+  - id: p16-l2-01
+    type: learn
+    lexeme: p16-faran
+  - id: p16-l2-02
+    type: learn
+    lexeme: p16-nito
+  - id: p16-l2-03
+    type: learn
+    lexeme: p16-farshtendlekh
+  - id: p16-l2-04
+    type: learn
+    lexeme: p16-vikhtik
+  - id: p16-l2-05
+    type: learn
+    lexeme: p16-greytn
+  - id: p16-l2-06
+    type: learn
+    lexeme: p16-tsushteln
+  - id: p16-l2-07
+    type: match_pairs
+    pairs:
+    - - פֿאַראַן
+      - קיים / נמצא
+    - - ניטאָ
+      - אינו נמצא
+    - - פֿאַרשטענדלעך
+      - מובן
+    lexemes:
+    - p16-faran
+    - p16-nito
+    - p16-farshtendlekh
+  - id: p16-l2-08
+    type: match_pairs
+    pairs:
+    - - וויכטיק
+      - חשוב
+    - - גרייטן
+      - להתכונן
+    - - צושטעלן
+      - לספק
+    lexemes:
+    - p16-vikhtik
+    - p16-greytn
+    - p16-tsushteln
+  - id: p16-l2-09
+    type: multiple_choice
+    prompt: מה פירוש פֿאַראַן?
+    options:
+    - קיים / נמצא
+    - להוציא
+    - גשמי / חילוני
+    correct: 0
+    lexemes:
+    - p16-faran
+  - id: p16-l2-10
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: אינו נמצא?'
+    options:
+    - ניטאָ
+    - קלײַבן
+    - וועלטלעך
+    correct: 0
+    lexemes:
+    - p16-nito
+  - id: p16-l2-11
+    type: multiple_choice
+    prompt: מה פירוש פֿאַרשטענדלעך?
+    options:
+    - מובן
+    - פנימי
+    - גשמי / חילוני
+    correct: 0
+    lexemes:
+    - p16-farshtendlekh
+  - id: p16-l2-12
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: חשוב?'
+    options:
+    - וויכטיק
+    - קלײַבן
+    - שלעכט
+    correct: 0
+    lexemes:
+    - p16-vikhtik
+  - id: p16-l2-13
+    type: multiple_choice
+    prompt: מה פירוש גרייטן?
+    options:
+    - להתכונן
+    - פנימי
+    - להודות
+    correct: 0
+    lexemes:
+    - p16-greytn
+  - id: p16-l2-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: לספק?'
+    options:
+    - צושטעלן
+    - וועלטלעך
+    - אַרויסנעמען
+    correct: 0
+    lexemes:
+    - p16-tsushteln
+  - id: p16-l2-15
+    type: fill_blank
+    sentence: דער רבי איז ___.
+    translation: הרבי נמצא
+    answers:
+    - פֿאַראַן
+    options:
+    - פֿאַראַן
+    - געוואַלדיק
+    - באַוואוסט
+    lexemes:
+    - p16-faran
+  - id: p16-l2-16
+    type: fill_blank
+    sentence: ער איז ___.
+    translation: הוא לא נמצא
+    answers:
+    - ניטאָ
+    options:
+    - ניטאָ
+    - העכער
+    - געוואַלדיק
+    lexemes:
+    - p16-nito
+  - id: p16-l2-17
+    type: fill_blank
+    sentence: דאָס איז ___.
+    translation: זה מובן
+    answers:
+    - פֿאַרשטענדלעך
+    options:
+    - פֿאַרשטענדלעך
+    - געוואַלדיק
+    - אינערלעך
+    lexemes:
+    - p16-farshtendlekh
+  - id: p16-l2-18
+    type: fill_blank
+    sentence: דאָס איז ___.
+    translation: זה חשוב
+    answers:
+    - וויכטיק
+    options:
+    - וויכטיק
+    - באַוואוסט
+    - אינערלעך
+    lexemes:
+    - p16-vikhtik
+  - id: p16-l2-19
+    type: fill_blank
+    sentence: איך וויל זיך ___.
+    translation: אני רוצה להתכונן
+    answers:
+    - גרייטן
+    options:
+    - גרייטן
+    - קלײַבן
+    - אַרויסנעמען
+    lexemes:
+    - p16-greytn
+  - id: p16-l2-20
+    type: fill_blank
+    sentence: איך וויל ___ אַ בוך.
+    translation: אני רוצה לספק ספר
+    answers:
+    - צושטעלן
+    options:
+    - צושטעלן
+    - בעטן
+    - קלײַבן
+    lexemes:
+    - p16-tsushteln
+- id: p16-l3
+  kind: new
+  title:
+    he: חבילה 16 – חלק 3
+    en: Pack 16 – part 3
+  exercises:
+  - id: p16-l3-01
+    type: learn
+    lexeme: p16-teyln
+  - id: p16-l3-02
+    type: learn
+    lexeme: p16-praven
+  - id: p16-l3-03
+    type: learn
+    lexeme: p16-aroysnemen
+  - id: p16-l3-04
+    type: learn
+    lexeme: p16-klaybn
+  - id: p16-l3-05
+    type: learn
+    lexeme: p16-tsien
+  - id: p16-l3-06
+    type: learn
+    lexeme: p16-betn
+  - id: p16-l3-07
+    type: learn
+    lexeme: p16-danken
+  - id: p16-l3-08
+    type: match_pairs
+    pairs:
+    - - טיילן
+      - לחלק
+    - - פּראַווען
+      - לערוך / לחגוג
+    - - אַרויסנעמען
+      - להוציא
+    lexemes:
+    - p16-teyln
+    - p16-praven
+    - p16-aroysnemen
+  - id: p16-l3-09
+    type: match_pairs
+    pairs:
+    - - קלײַבן
+      - לאסוף
+    - - ציִען
+      - למשוך
+    - - בעטן
+      - לבקש
+    - - דאַנקען
+      - להודות
+    lexemes:
+    - p16-klaybn
+    - p16-tsien
+    - p16-betn
+    - p16-danken
+  - id: p16-l3-10
+    type: multiple_choice
+    prompt: מה פירוש טיילן?
+    options:
+    - לחלק
+    - ידוע
+    - אדיר
+    correct: 0
+    lexemes:
+    - p16-teyln
+  - id: p16-l3-11
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: לערוך / לחגוג?'
+    options:
+    - פּראַווען
+    - אינערלעך
+    - שלעכט
+    correct: 0
+    lexemes:
+    - p16-praven
+  - id: p16-l3-12
+    type: multiple_choice
+    prompt: מה פירוש אַרויסנעמען?
+    options:
+    - להוציא
+    - להתכונן
+    - פנימי
+    correct: 0
+    lexemes:
+    - p16-aroysnemen
+  - id: p16-l3-13
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: לאסוף?'
+    options:
+    - קלײַבן
+    - געוואַלדיק
+    - וויכטיק
+    correct: 0
+    lexemes:
+    - p16-klaybn
+  - id: p16-l3-14
+    type: multiple_choice
+    prompt: מה פירוש ציִען?
+    options:
+    - למשוך
+    - פנימי
+    - אינו נמצא
+    correct: 0
+    lexemes:
+    - p16-tsien
+  - id: p16-l3-15
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: לבקש?'
+    options:
+    - בעטן
+    - באַוואוסט
+    - שלעכט
+    correct: 0
+    lexemes:
+    - p16-betn
+  - id: p16-l3-16
+    type: multiple_choice
+    prompt: מה פירוש דאַנקען?
+    options:
+    - להודות
+    - פנימי
+    - אינו נמצא
+    correct: 0
+    lexemes:
+    - p16-danken
+  - id: p16-l3-17
+    type: fill_blank
+    sentence: איך וויל ___ קוכן.
+    translation: אני רוצה לחלק עוגה
+    answers:
+    - טיילן
+    options:
+    - טיילן
+    - גרייטן
+    - צושטעלן
+    lexemes:
+    - p16-teyln
+  - id: p16-l3-18
+    type: fill_blank
+    sentence: מיר וועלן ___ אַ חתונה.
+    translation: נערוך חתונה
+    answers:
+    - פּראַווען
+    options:
+    - פּראַווען
+    - גרייטן
+    - צושטעלן
+    lexemes:
+    - p16-praven
+  - id: p16-l3-19
+    type: fill_blank
+    sentence: איך וויל ___ אַ בוך.
+    translation: אני רוצה להוציא ספר
+    answers:
+    - אַרויסנעמען
+    options:
+    - אַרויסנעמען
+    - צושטעלן
+    - גרייטן
+    lexemes:
+    - p16-aroysnemen
+  - id: p16-l3-20
+    type: fill_blank
+    sentence: איך וויל ___ בלומען.
+    translation: אני רוצה לאסוף פרחים
+    answers:
+    - קלײַבן
+    options:
+    - קלײַבן
+    - גרייטן
+    - צושטעלן
+    lexemes:
+    - p16-klaybn
+  - id: p16-l3-21
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה למשוך
+    answers:
+    - ציִען
+    options:
+    - ציִען
+    - גרייטן
+    - צושטעלן
+    lexemes:
+    - p16-tsien
+  - id: p16-l3-22
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה לבקש
+    answers:
+    - בעטן
+    options:
+    - בעטן
+    - צושטעלן
+    - גרייטן
+    lexemes:
+    - p16-betn
+  - id: p16-l3-23
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה להודות
+    answers:
+    - דאַנקען
+    options:
+    - דאַנקען
+    - צושטעלן
+    - גרייטן
+    lexemes:
+    - p16-danken

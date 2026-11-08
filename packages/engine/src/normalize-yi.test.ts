@@ -10,4 +10,8 @@ describe("Yiddish normalisation", () => {
   it("ignores pasekh/komets marks on alef", () => {
     expect(normalize("גאָט", { lang: "yi" })).toBe(normalize("גאט", { lang: "yi" }));
   });
+  it("treats נישט and the Litvish ניט as the same word, but not inside other words", () => {
+    expect(normalize("איך גיי נישט", { lang: "yi" })).toBe(normalize("איך גיי ניט", { lang: "yi" }));
+    expect(normalize("נישטערן", { lang: "yi" })).not.toBe(normalize("ניטערן", { lang: "yi" }));
+  });
 });

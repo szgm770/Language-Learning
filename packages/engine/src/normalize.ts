@@ -58,7 +58,11 @@ const YIDDISH_LIGATURES: Record<string, string> = { "\u05F0": "וו", "\u05F1": 
 export function normalize(text: string, opts: NormalizeOptions = {}): string {
   const { lang, stripMarks = true } = opts;
   let s = unifyApostrophes(text.normalize("NFC")).toLocaleLowerCase(lang);
-  if (lang === "yi") s = s.replace(/[\u05F0-\u05F2]/g, (c) => YIDDISH_LIGATURES[c]!);
+  if (lang === "yi") {
+    s = s.replace(/[\u05F0-\u05F2]/g, (c) => YIDDISH_LIGATURES[c]!);
+    // Litvish/Chabad writes ניט where standard Yiddish writes נישט; both count as the same answer.
+    s = s.replace(/(^|[^\u05D0-\u05EA])נישט(?![\u05D0-\u05EA])/g, "$1ניט");
+  }
 
   if (lang === "en" || lang === undefined) {
     s = s.replace(/\b[a-z]+'[a-z]+\b/g, (w) => EN_CONTRACTIONS[w] ?? w);

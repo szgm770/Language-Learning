@@ -41,6 +41,7 @@ units:
   - u20-fargleykhn
   - u21-zikh
   - u22-azvayl
+  - p14-words
   - u23-khasidus
   - p9-words
   - u24-tanye
@@ -48,6 +49,7 @@ units:
   - p3-words
   - p4-words
   - p11-words
+  - p15-words
   - u26-nekhtn
   - u27-meynung
   - u28-gast
@@ -55,6 +57,7 @@ units:
   - p5-words
   - p6-words
   - p12-words
+  - p16-words
   - u30-dertseylung
   - u31-briv
   - p7-words

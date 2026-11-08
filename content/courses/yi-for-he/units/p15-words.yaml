@@ -1,0 +1,1069 @@
+id: p15-words
+cefr: B2
+scene: study
+title:
+  he: 'הרחבת אוצר מילים 15: פעלים ושמות מהשיחות'
+  en: 'Word builder 15: verbs and nouns from the talks'
+story: מילים נפוצות בשיחות, כל אחת במשפט קצר.
+canDo:
+- להבין ולהשתמש במילים נפוצות נוספות
+- לזהות את המילים במשפטים
+vocabulary:
+- id: p15-ton
+  text: טאָן
+  translation: לעשות
+  pos: verb
+  example:
+    text: איך וויל טאָן.
+    translation: אני רוצה לעשות
+- id: p15-shteyn
+  text: שטיין
+  translation: לעמוד
+  pos: verb
+  example:
+    text: איך וויל שטיין.
+    translation: אני רוצה לעמוד
+- id: p15-firn
+  text: פֿירן
+  translation: להוביל / לנהל
+  pos: verb
+  example:
+    text: איך וויל פֿירן.
+    translation: אני רוצה להוביל / לנהל
+- id: p15-rufn
+  text: רופֿן
+  translation: לקרוא בקול
+  pos: verb
+  example:
+    text: איך וויל רופֿן.
+    translation: אני רוצה לקרוא בקול
+- id: p15-boyen
+  text: בויען
+  translation: לבנות
+  pos: verb
+  example:
+    text: איך וויל בויען.
+    translation: אני רוצה לבנות
+- id: p15-shaynen
+  text: שיינען
+  translation: לזרוח
+  pos: verb
+  example:
+    text: איך וויל שיינען.
+    translation: אני רוצה לזרוח
+- id: p15-bashafn
+  text: באַשאַפֿן
+  translation: לברוא
+  pos: verb
+  example:
+    text: איך וויל באַשאַפֿן.
+    translation: אני רוצה לברוא
+- id: p15-onerkenen
+  text: אָנערקענען
+  translation: להכיר / להודות
+  pos: verb
+  example:
+    text: איך וויל אָנערקענען.
+    translation: אני רוצה להכיר / להודות
+- id: p15-dermonen
+  text: דערמאָנען
+  translation: להזכיר
+  pos: verb
+  example:
+    text: איך וויל דערמאָנען.
+    translation: אני רוצה להזכיר
+- id: p15-endern
+  text: ענדערן
+  translation: לשנות
+  pos: verb
+  example:
+    text: איך וויל ענדערן.
+    translation: אני רוצה לשנות
+- id: p15-arainkukn
+  text: אַרײַנקוקן
+  translation: להציץ פנימה
+  pos: verb
+  example:
+    text: איך וויל אַרײַנקוקן.
+    translation: אני רוצה להציץ פנימה
+- id: p15-opshtelen
+  text: אָפּשטעלן
+  translation: לעצור
+  pos: verb
+  example:
+    text: איך וויל אָפּשטעלן.
+    translation: אני רוצה לעצור
+- id: p15-farshporn
+  text: פֿאַרשפּאָרן
+  translation: לחסוך
+  pos: verb
+  example:
+    text: איך וויל פֿאַרשפּאָרן.
+    translation: אני רוצה לחסוך
+- id: p15-farbindn
+  text: פֿאַרבינדן
+  translation: לחבר
+  pos: verb
+  example:
+    text: איך וויל פֿאַרבינדן.
+    translation: אני רוצה לחבר
+- id: p15-durkhfirn
+  text: דורכפֿירן
+  translation: לבצע
+  pos: verb
+  example:
+    text: איך וויל דורכפֿירן.
+    translation: אני רוצה לבצע
+- id: p15-dervekn
+  text: דערוועקן
+  translation: לעורר
+  pos: verb
+  example:
+    text: איך וויל דערוועקן.
+    translation: אני רוצה לעורר
+- id: p15-zakh
+  text: זאַך
+  translation: דבר
+  pos: noun
+  example:
+    text: איך זע אַ זאַך.
+    translation: אני רואה דבר
+- id: p15-tayl
+  text: טייל
+  translation: חלק
+  pos: noun
+  example:
+    text: איך האָב אַ טייל.
+    translation: יש לי חלק
+- id: p15-mol
+  text: מאָל
+  translation: פעם
+  pos: noun
+  example:
+    text: נאָך אַ מאָל.
+    translation: עוד פעם
+- id: p15-rege
+  text: רגע
+  translation: רגע אחד
+  pos: noun
+  example:
+    text: איין רגע.
+    translation: רגע אחד
+- id: p15-vayle
+  text: וויילע
+  translation: רגע קצר
+  pos: noun
+  example:
+    text: וואַרט אַ וויילע.
+    translation: חכה רגע קצר
+- id: p15-id
+  text: איד
+  translation: יהודי
+  pos: noun
+  example:
+    text: דער איד לערנט.
+    translation: היהודי לומד
+- id: p15-oyberster
+  text: אויבערשטער
+  translation: הקדוש ברוך הוא
+  pos: noun
+  example:
+    text: דער אויבערשטער העלפֿט.
+    translation: הקב״ה עוזר
+- id: p15-gebayde
+  text: געביידע
+  translation: בניין
+  pos: noun
+  example:
+    text: דאָס איז אַ גרויס געביידע.
+    translation: זה בניין גדול
+- id: p15-ordnung
+  text: אָרדענונג
+  translation: סדר
+  pos: noun
+  example:
+    text: איך וויל אָרדענונג.
+    translation: אני רוצה סדר
+- id: p15-endrung
+  text: ענדערונג
+  translation: שינוי
+  pos: noun
+  example:
+    text: איך זע אַן ענדערונג.
+    translation: אני רואה שינוי
+- id: p15-untershayd
+  text: אונטערשייד
+  translation: הבדל
+  pos: noun
+  example:
+    text: דאָס איז אַן אונטערשייד.
+    translation: זה הבדל
+- id: p15-taytsh
+  text: טייטש
+  translation: פירוש / משמעות
+  pos: noun
+  example:
+    text: איך פֿאַרשטיי דעם טייטש.
+    translation: אני מבין את המשמעות
+- id: p15-nayes
+  text: נייעס
+  translation: חדשות
+  pos: noun
+  example:
+    text: איך זע נייעס.
+    translation: אני רואה חדשות
+lessons:
+- id: p15-l1
+  kind: new
+  title:
+    he: חבילה 15 – חלק 1
+    en: Pack 15 – part 1
+  exercises:
+  - id: p15-l1-01
+    type: learn
+    lexeme: p15-ton
+  - id: p15-l1-02
+    type: learn
+    lexeme: p15-shteyn
+  - id: p15-l1-03
+    type: learn
+    lexeme: p15-firn
+  - id: p15-l1-04
+    type: learn
+    lexeme: p15-rufn
+  - id: p15-l1-05
+    type: learn
+    lexeme: p15-boyen
+  - id: p15-l1-06
+    type: learn
+    lexeme: p15-shaynen
+  - id: p15-l1-07
+    type: learn
+    lexeme: p15-bashafn
+  - id: p15-l1-08
+    type: learn
+    lexeme: p15-onerkenen
+  - id: p15-l1-09
+    type: learn
+    lexeme: p15-dermonen
+  - id: p15-l1-10
+    type: match_pairs
+    pairs:
+    - - טאָן
+      - לעשות
+    - - שטיין
+      - לעמוד
+    - - פֿירן
+      - להוביל / לנהל
+    - - רופֿן
+      - לקרוא בקול
+    lexemes:
+    - p15-ton
+    - p15-shteyn
+    - p15-firn
+    - p15-rufn
+  - id: p15-l1-11
+    type: match_pairs
+    pairs:
+    - - בויען
+      - לבנות
+    - - שיינען
+      - לזרוח
+    - - באַשאַפֿן
+      - לברוא
+    - - אָנערקענען
+      - להכיר / להודות
+    - - דערמאָנען
+      - להזכיר
+    lexemes:
+    - p15-boyen
+    - p15-shaynen
+    - p15-bashafn
+    - p15-onerkenen
+    - p15-dermonen
+  - id: p15-l1-12
+    type: multiple_choice
+    prompt: מה פירוש טאָן?
+    options:
+    - לעשות
+    - סדר
+    - פירוש / משמעות
+    correct: 0
+    lexemes:
+    - p15-ton
+  - id: p15-l1-13
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: לעמוד?'
+    options:
+    - שטיין
+    - נייעס
+    - פֿאַרבינדן
+    correct: 0
+    lexemes:
+    - p15-shteyn
+  - id: p15-l1-14
+    type: multiple_choice
+    prompt: מה פירוש פֿירן?
+    options:
+    - להוביל / לנהל
+    - חדשות
+    - לחבר
+    correct: 0
+    lexemes:
+    - p15-firn
+  - id: p15-l1-15
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: לקרוא בקול?'
+    options:
+    - רופֿן
+    - ענדערונג
+    - אויבערשטער
+    correct: 0
+    lexemes:
+    - p15-rufn
+  - id: p15-l1-16
+    type: multiple_choice
+    prompt: מה פירוש בויען?
+    options:
+    - לבנות
+    - לשנות
+    - הבדל
+    correct: 0
+    lexemes:
+    - p15-boyen
+  - id: p15-l1-17
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: לזרוח?'
+    options:
+    - שיינען
+    - אונטערשייד
+    - טייטש
+    correct: 0
+    lexemes:
+    - p15-shaynen
+  - id: p15-l1-18
+    type: multiple_choice
+    prompt: מה פירוש באַשאַפֿן?
+    options:
+    - לברוא
+    - להציץ פנימה
+    - סדר
+    correct: 0
+    lexemes:
+    - p15-bashafn
+  - id: p15-l1-19
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: להכיר / להודות?'
+    options:
+    - אָנערקענען
+    - מאָל
+    - וויילע
+    correct: 0
+    lexemes:
+    - p15-onerkenen
+  - id: p15-l1-20
+    type: multiple_choice
+    prompt: מה פירוש דערמאָנען?
+    options:
+    - להזכיר
+    - לבצע
+    - דבר
+    correct: 0
+    lexemes:
+    - p15-dermonen
+  - id: p15-l1-21
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה לעשות
+    answers:
+    - טאָן
+    options:
+    - טאָן
+    - פֿאַרבינדן
+    - אַרײַנקוקן
+    lexemes:
+    - p15-ton
+  - id: p15-l1-22
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה לעמוד
+    answers:
+    - שטיין
+    options:
+    - שטיין
+    - ענדערן
+    - אָפּשטעלן
+    lexemes:
+    - p15-shteyn
+  - id: p15-l1-23
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה להוביל / לנהל
+    answers:
+    - פֿירן
+    options:
+    - פֿירן
+    - אָפּשטעלן
+    - ענדערן
+    lexemes:
+    - p15-firn
+  - id: p15-l1-24
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה לקרוא בקול
+    answers:
+    - רופֿן
+    options:
+    - רופֿן
+    - אָפּשטעלן
+    - ענדערן
+    lexemes:
+    - p15-rufn
+  - id: p15-l1-25
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה לבנות
+    answers:
+    - בויען
+    options:
+    - בויען
+    - ענדערן
+    - דערוועקן
+    lexemes:
+    - p15-boyen
+  - id: p15-l1-26
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה לזרוח
+    answers:
+    - שיינען
+    options:
+    - שיינען
+    - דערוועקן
+    - פֿאַרשפּאָרן
+    lexemes:
+    - p15-shaynen
+  - id: p15-l1-27
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה לברוא
+    answers:
+    - באַשאַפֿן
+    options:
+    - באַשאַפֿן
+    - ענדערן
+    - דערוועקן
+    lexemes:
+    - p15-bashafn
+  - id: p15-l1-28
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה להכיר / להודות
+    answers:
+    - אָנערקענען
+    options:
+    - אָנערקענען
+    - אַרײַנקוקן
+    - ענדערן
+    lexemes:
+    - p15-onerkenen
+  - id: p15-l1-29
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה להזכיר
+    answers:
+    - דערמאָנען
+    options:
+    - דערמאָנען
+    - אַרײַנקוקן
+    - ענדערן
+    lexemes:
+    - p15-dermonen
+- id: p15-l2
+  kind: new
+  title:
+    he: חבילה 15 – חלק 2
+    en: Pack 15 – part 2
+  exercises:
+  - id: p15-l2-01
+    type: learn
+    lexeme: p15-endern
+  - id: p15-l2-02
+    type: learn
+    lexeme: p15-arainkukn
+  - id: p15-l2-03
+    type: learn
+    lexeme: p15-opshtelen
+  - id: p15-l2-04
+    type: learn
+    lexeme: p15-farshporn
+  - id: p15-l2-05
+    type: learn
+    lexeme: p15-farbindn
+  - id: p15-l2-06
+    type: learn
+    lexeme: p15-durkhfirn
+  - id: p15-l2-07
+    type: learn
+    lexeme: p15-dervekn
+  - id: p15-l2-08
+    type: learn
+    lexeme: p15-zakh
+  - id: p15-l2-09
+    type: learn
+    lexeme: p15-tayl
+  - id: p15-l2-10
+    type: match_pairs
+    pairs:
+    - - ענדערן
+      - לשנות
+    - - אַרײַנקוקן
+      - להציץ פנימה
+    - - אָפּשטעלן
+      - לעצור
+    - - פֿאַרשפּאָרן
+      - לחסוך
+    lexemes:
+    - p15-endern
+    - p15-arainkukn
+    - p15-opshtelen
+    - p15-farshporn
+  - id: p15-l2-11
+    type: match_pairs
+    pairs:
+    - - פֿאַרבינדן
+      - לחבר
+    - - דורכפֿירן
+      - לבצע
+    - - דערוועקן
+      - לעורר
+    - - זאַך
+      - דבר
+    - - טייל
+      - חלק
+    lexemes:
+    - p15-farbindn
+    - p15-durkhfirn
+    - p15-dervekn
+    - p15-zakh
+    - p15-tayl
+  - id: p15-l2-12
+    type: multiple_choice
+    prompt: מה פירוש ענדערן?
+    options:
+    - לשנות
+    - שינוי
+    - סדר
+    correct: 0
+    lexemes:
+    - p15-endern
+  - id: p15-l2-13
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: להציץ פנימה?'
+    options:
+    - אַרײַנקוקן
+    - אָרדענונג
+    - וויילע
+    correct: 0
+    lexemes:
+    - p15-arainkukn
+  - id: p15-l2-14
+    type: multiple_choice
+    prompt: מה פירוש אָפּשטעלן?
+    options:
+    - לעצור
+    - לעשות
+    - להוביל / לנהל
+    correct: 0
+    lexemes:
+    - p15-opshtelen
+  - id: p15-l2-15
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: לחסוך?'
+    options:
+    - פֿאַרשפּאָרן
+    - שיינען
+    - ענדערונג
+    correct: 0
+    lexemes:
+    - p15-farshporn
+  - id: p15-l2-16
+    type: multiple_choice
+    prompt: מה פירוש פֿאַרבינדן?
+    options:
+    - לחבר
+    - הקדוש ברוך הוא
+    - להוביל / לנהל
+    correct: 0
+    lexemes:
+    - p15-farbindn
+  - id: p15-l2-17
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: לבצע?'
+    options:
+    - דורכפֿירן
+    - פֿירן
+    - אונטערשייד
+    correct: 0
+    lexemes:
+    - p15-durkhfirn
+  - id: p15-l2-18
+    type: multiple_choice
+    prompt: מה פירוש דערוועקן?
+    options:
+    - לעורר
+    - חדשות
+    - לעשות
+    correct: 0
+    lexemes:
+    - p15-dervekn
+  - id: p15-l2-19
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: דבר?'
+    options:
+    - זאַך
+    - בויען
+    - שטיין
+    correct: 0
+    lexemes:
+    - p15-zakh
+  - id: p15-l2-20
+    type: multiple_choice
+    prompt: מה פירוש טייל?
+    options:
+    - חלק
+    - בניין
+    - רגע קצר
+    correct: 0
+    lexemes:
+    - p15-tayl
+  - id: p15-l2-21
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה לשנות
+    answers:
+    - ענדערן
+    options:
+    - ענדערן
+    - באַשאַפֿן
+    - טאָן
+    lexemes:
+    - p15-endern
+  - id: p15-l2-22
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה להציץ פנימה
+    answers:
+    - אַרײַנקוקן
+    options:
+    - אַרײַנקוקן
+    - דערמאָנען
+    - פֿירן
+    lexemes:
+    - p15-arainkukn
+  - id: p15-l2-23
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה לעצור
+    answers:
+    - אָפּשטעלן
+    options:
+    - אָפּשטעלן
+    - שיינען
+    - אָנערקענען
+    lexemes:
+    - p15-opshtelen
+  - id: p15-l2-24
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה לחסוך
+    answers:
+    - פֿאַרשפּאָרן
+    options:
+    - פֿאַרשפּאָרן
+    - באַשאַפֿן
+    - שיינען
+    lexemes:
+    - p15-farshporn
+  - id: p15-l2-25
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה לחבר
+    answers:
+    - פֿאַרבינדן
+    options:
+    - פֿאַרבינדן
+    - שטיין
+    - בויען
+    lexemes:
+    - p15-farbindn
+  - id: p15-l2-26
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה לבצע
+    answers:
+    - דורכפֿירן
+    options:
+    - דורכפֿירן
+    - רופֿן
+    - דערמאָנען
+    lexemes:
+    - p15-durkhfirn
+  - id: p15-l2-27
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה לעורר
+    answers:
+    - דערוועקן
+    options:
+    - דערוועקן
+    - אָנערקענען
+    - באַשאַפֿן
+    lexemes:
+    - p15-dervekn
+  - id: p15-l2-28
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה דבר
+    answers:
+    - זאַך
+    options:
+    - זאַך
+    - אָרדענונג
+    - אויבערשטער
+    lexemes:
+    - p15-zakh
+  - id: p15-l2-29
+    type: fill_blank
+    sentence: איך האָב אַ ___.
+    translation: יש לי חלק
+    answers:
+    - טייל
+    options:
+    - טייל
+    - טייטש
+    - אויבערשטער
+    lexemes:
+    - p15-tayl
+- id: p15-l3
+  kind: new
+  title:
+    he: חבילה 15 – חלק 3
+    en: Pack 15 – part 3
+  exercises:
+  - id: p15-l3-01
+    type: learn
+    lexeme: p15-mol
+  - id: p15-l3-02
+    type: learn
+    lexeme: p15-rege
+  - id: p15-l3-03
+    type: learn
+    lexeme: p15-vayle
+  - id: p15-l3-04
+    type: learn
+    lexeme: p15-id
+  - id: p15-l3-05
+    type: learn
+    lexeme: p15-oyberster
+  - id: p15-l3-06
+    type: learn
+    lexeme: p15-gebayde
+  - id: p15-l3-07
+    type: learn
+    lexeme: p15-ordnung
+  - id: p15-l3-08
+    type: learn
+    lexeme: p15-endrung
+  - id: p15-l3-09
+    type: learn
+    lexeme: p15-untershayd
+  - id: p15-l3-10
+    type: learn
+    lexeme: p15-taytsh
+  - id: p15-l3-11
+    type: learn
+    lexeme: p15-nayes
+  - id: p15-l3-12
+    type: match_pairs
+    pairs:
+    - - מאָל
+      - פעם
+    - - רגע
+      - רגע אחד
+    - - וויילע
+      - רגע קצר
+    - - איד
+      - יהודי
+    - - אויבערשטער
+      - הקדוש ברוך הוא
+    lexemes:
+    - p15-mol
+    - p15-rege
+    - p15-vayle
+    - p15-id
+    - p15-oyberster
+  - id: p15-l3-13
+    type: match_pairs
+    pairs:
+    - - געביידע
+      - בניין
+    - - אָרדענונג
+      - סדר
+    - - ענדערונג
+      - שינוי
+    - - אונטערשייד
+      - הבדל
+    - - טייטש
+      - פירוש / משמעות
+    - - נייעס
+      - חדשות
+    lexemes:
+    - p15-gebayde
+    - p15-ordnung
+    - p15-endrung
+    - p15-untershayd
+    - p15-taytsh
+    - p15-nayes
+  - id: p15-l3-14
+    type: multiple_choice
+    prompt: מה פירוש מאָל?
+    options:
+    - פעם
+    - להוביל / לנהל
+    - חלק
+    correct: 0
+    lexemes:
+    - p15-mol
+  - id: p15-l3-15
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: רגע אחד?'
+    options:
+    - רגע
+    - אָפּשטעלן
+    - דערוועקן
+    correct: 0
+    lexemes:
+    - p15-rege
+  - id: p15-l3-16
+    type: multiple_choice
+    prompt: מה פירוש וויילע?
+    options:
+    - רגע קצר
+    - לבנות
+    - לבצע
+    correct: 0
+    lexemes:
+    - p15-vayle
+  - id: p15-l3-17
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: יהודי?'
+    options:
+    - איד
+    - פֿאַרבינדן
+    - פֿאַרשפּאָרן
+    correct: 0
+    lexemes:
+    - p15-id
+  - id: p15-l3-18
+    type: multiple_choice
+    prompt: מה פירוש אויבערשטער?
+    options:
+    - הקדוש ברוך הוא
+    - להזכיר
+    - לברוא
+    correct: 0
+    lexemes:
+    - p15-oyberster
+  - id: p15-l3-19
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: בניין?'
+    options:
+    - געביידע
+    - שטיין
+    - ענדערן
+    correct: 0
+    lexemes:
+    - p15-gebayde
+  - id: p15-l3-20
+    type: multiple_choice
+    prompt: מה פירוש אָרדענונג?
+    options:
+    - סדר
+    - לבנות
+    - לשנות
+    correct: 0
+    lexemes:
+    - p15-ordnung
+  - id: p15-l3-21
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: שינוי?'
+    options:
+    - ענדערונג
+    - אָנערקענען
+    - רופֿן
+    correct: 0
+    lexemes:
+    - p15-endrung
+  - id: p15-l3-22
+    type: multiple_choice
+    prompt: מה פירוש אונטערשייד?
+    options:
+    - הבדל
+    - לעשות
+    - להציץ פנימה
+    correct: 0
+    lexemes:
+    - p15-untershayd
+  - id: p15-l3-23
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: פירוש / משמעות?'
+    options:
+    - טייטש
+    - פֿאַרשפּאָרן
+    - אָנערקענען
+    correct: 0
+    lexemes:
+    - p15-taytsh
+  - id: p15-l3-24
+    type: multiple_choice
+    prompt: מה פירוש נייעס?
+    options:
+    - חדשות
+    - לשנות
+    - לקרוא בקול
+    correct: 0
+    lexemes:
+    - p15-nayes
+  - id: p15-l3-25
+    type: fill_blank
+    sentence: נאָך אַ ___.
+    translation: עוד פעם
+    answers:
+    - מאָל
+    options:
+    - מאָל
+    - זאַך
+    - טייל
+    lexemes:
+    - p15-mol
+  - id: p15-l3-26
+    type: fill_blank
+    sentence: איין ___.
+    translation: רגע אחד
+    answers:
+    - רגע
+    options:
+    - רגע
+    - זאַך
+    - טייל
+    lexemes:
+    - p15-rege
+  - id: p15-l3-27
+    type: fill_blank
+    sentence: וואַרט אַ ___.
+    translation: חכה רגע קצר
+    answers:
+    - וויילע
+    options:
+    - וויילע
+    - זאַך
+    - טייל
+    lexemes:
+    - p15-vayle
+  - id: p15-l3-28
+    type: fill_blank
+    sentence: דער ___ לערנט.
+    translation: היהודי לומד
+    answers:
+    - איד
+    options:
+    - איד
+    - טייל
+    - זאַך
+    lexemes:
+    - p15-id
+  - id: p15-l3-29
+    type: fill_blank
+    sentence: דער ___ העלפֿט.
+    translation: הקב״ה עוזר
+    answers:
+    - אויבערשטער
+    options:
+    - אויבערשטער
+    - טייל
+    - זאַך
+    lexemes:
+    - p15-oyberster
+  - id: p15-l3-30
+    type: fill_blank
+    sentence: דאָס איז אַ גרויס ___.
+    translation: זה בניין גדול
+    answers:
+    - געביידע
+    options:
+    - געביידע
+    - זאַך
+    - טייל
+    lexemes:
+    - p15-gebayde
+  - id: p15-l3-31
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה סדר
+    answers:
+    - אָרדענונג
+    options:
+    - אָרדענונג
+    - זאַך
+    - טייל
+    lexemes:
+    - p15-ordnung
+  - id: p15-l3-32
+    type: fill_blank
+    sentence: איך זע אַן ___.
+    translation: אני רואה שינוי
+    answers:
+    - ענדערונג
+    options:
+    - ענדערונג
+    - טייל
+    - זאַך
+    lexemes:
+    - p15-endrung
+  - id: p15-l3-33
+    type: fill_blank
+    sentence: דאָס איז אַן ___.
+    translation: זה הבדל
+    answers:
+    - אונטערשייד
+    options:
+    - אונטערשייד
+    - טייל
+    - זאַך
+    lexemes:
+    - p15-untershayd
+  - id: p15-l3-34
+    type: fill_blank
+    sentence: איך פֿאַרשטיי דעם ___.
+    translation: אני מבין את המשמעות
+    answers:
+    - טייטש
+    options:
+    - טייטש
+    - זאַך
+    - טייל
+    lexemes:
+    - p15-taytsh
+  - id: p15-l3-35
+    type: fill_blank
+    sentence: איך זע ___.
+    translation: אני רואה חדשות
+    answers:
+    - נייעס
+    options:
+    - נייעס
+    - טייל
+    - זאַך
+    lexemes:
+    - p15-nayes
