@@ -118,6 +118,38 @@ vocabulary:
     translation: 'רבי יוחנן מספר: פעם אחת היינו הולכים בספינה'
     source: בבלי, בבא בתרא עד ע״א
     vocalized: 'רַבִּי יוֹחָנָן מִשְׁתַּעֵי: זִימְנָא חֲדָא הֲוָה קָא אָזְלִינַן בִּסְפִינְתָּא'
+- id: f-ahadadei
+  text: אהדדי
+  translation: זה על זה, זה לזה
+  pos: pronoun
+- id: f-aydi
+  text: איידי
+  translation: מתוך ש…, אגב
+  pos: conjunction
+- id: f-adata
+  text: אדעתא
+  translation: על דעת, בכוונה ל…
+  pos: phrase
+- id: f-orcheih
+  text: אורחיה
+  translation: דרכו
+  pos: noun
+- id: f-kapid
+  text: קפיד
+  translation: מקפיד
+  pos: verb
+- id: f-talya
+  text: תליא
+  translation: תלויה
+  pos: verb
+- id: f-mesapka
+  text: מספקא ליה
+  translation: מסופק לו
+  pos: phrase
+- id: f-chashiv
+  text: חשיב
+  translation: חשוב; נחשב
+  pos: adjective
 grammar: []
 lessons:
 - id: u20-l1
@@ -664,3 +696,139 @@ lessons:
     - savrinan
     - tavinan
     - ledidi
+- id: u20-l4
+  kind: new
+  title:
+    he: איך הגמרא מספרת
+    en: How the Gemara tells
+  exercises:
+  - id: u20-l4-48
+    type: tip
+    title: המחברת של איתן
+    text: 'מילים שאיתן מצא שוב ושוב בדפים, ורשם במחברת שלו: **אהדדי** = זה על זה, זה לזה, **איידי** = מתוך ש…, אגב, **אדעתא** = על דעת, בכוונה ל…, **אורחיה** = דרכו, **קפיד** = מקפיד, **תליא** = תלויה, **מספקא ליה** = מסופק לו, **חשיב** = חשוב; נחשב.'
+  - id: u20-l4-49
+    type: learn
+    lexeme: f-ahadadei
+  - id: u20-l4-50
+    type: learn
+    lexeme: f-aydi
+  - id: u20-l4-51
+    type: learn
+    lexeme: f-adata
+  - id: u20-l4-52
+    type: learn
+    lexeme: f-orcheih
+  - id: u20-l4-53
+    type: learn
+    lexeme: f-kapid
+  - id: u20-l4-54
+    type: learn
+    lexeme: f-talya
+  - id: u20-l4-55
+    type: learn
+    lexeme: f-mesapka
+  - id: u20-l4-56
+    type: learn
+    lexeme: f-chashiv
+  - id: u20-l4-57
+    type: match_pairs
+    pairs:
+    - - אהדדי
+      - זה על זה, זה לזה
+    - - איידי
+      - מתוך ש…, אגב
+    - - אדעתא
+      - על דעת, בכוונה ל…
+    - - אורחיה
+      - דרכו
+    - - קפיד
+      - מקפיד
+    - - תליא
+      - תלויה
+    lexemes:
+    - f-ahadadei
+    - f-aydi
+    - f-adata
+    - f-orcheih
+    - f-kapid
+    - f-talya
+  - id: u20-l4-58
+    type: multiple_choice
+    prompt: מה פירוש אהדדי?
+    options:
+    - זה על זה, זה לזה
+    - חשבנו (סבורים אנחנו)
+    - מקפיד
+    correct: 0
+    lexemes:
+    - f-ahadadei
+  - id: u20-l4-59
+    type: multiple_choice
+    prompt: מה פירוש איידי?
+    options:
+    - מתוך ש…, אגב
+    - תלויה
+    - עלינו
+    correct: 0
+    lexemes:
+    - f-aydi
+  - id: u20-l4-60
+    type: multiple_choice
+    prompt: מה פירוש אדעתא?
+    options:
+    - על דעת, בכוונה ל…
+    - מספר (סיפור)
+    - מקפיד
+    correct: 0
+    lexemes:
+    - f-adata
+  - id: u20-l4-61
+    type: multiple_choice
+    prompt: מה פירוש אורחיה?
+    options:
+    - דרכו
+    - דג
+    - הולכים אנחנו; ״הוה קא אזלינן״ = היינו הולכים
+    correct: 0
+    lexemes:
+    - f-orcheih
+  - id: u20-l4-62
+    type: multiple_choice
+    prompt: מה פירוש קפיד?
+    options:
+    - מקפיד
+    - ראינו; רואים אנחנו
+    - דג
+    correct: 0
+    lexemes:
+    - f-kapid
+  - id: u20-l4-63
+    type: multiple_choice
+    prompt: מה פירוש תליא?
+    options:
+    - תלויה
+    - מסופק לו
+    - מתוך ש…, אגב
+    correct: 0
+    lexemes:
+    - f-talya
+  - id: u20-l4-64
+    type: multiple_choice
+    prompt: מה פירוש מספקא ליה?
+    options:
+    - מסופק לו
+    - אני בעצמי ראיתי
+    - עלינו
+    correct: 0
+    lexemes:
+    - f-mesapka
+  - id: u20-l4-65
+    type: multiple_choice
+    prompt: מה פירוש חשיב?
+    options:
+    - חשוב; נחשב
+    - מספר (סיפור)
+    - דרכו
+    correct: 0
+    lexemes:
+    - f-chashiv

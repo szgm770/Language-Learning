@@ -100,6 +100,38 @@ vocabulary:
     translation: אבל בקש ממני משהו שאתן לך
     source: בבלי, גיטין נו ע״ב
     vocalized: אֶלָּא בָּעֵי מִינַּאי מִידֵּי דְּאֶתֵּן לָךְ
+- id: f-gamrinan
+  text: גמרינן
+  translation: לומדים אנחנו
+  pos: verb
+- id: f-yalfinan
+  text: ילפינן
+  translation: לומדים אנחנו (מפסוק)
+  pos: verb
+- id: f-shamainan
+  text: שמעינן
+  translation: שומעים אנחנו, לומדים
+  pos: verb
+- id: f-ashkachan
+  text: אשכחן
+  translation: מצאנו
+  pos: verb
+- id: f-shmia
+  text: שמיע ליה
+  translation: שמע (את השמועה)
+  pos: phrase
+- id: f-svara
+  text: סברא
+  translation: היגיון, סברה
+  pos: noun
+- id: f-takanta
+  text: תקנתא
+  translation: תקנה; תיקון
+  pos: noun
+- id: f-migo
+  text: מיגו
+  translation: מתוך ש… (יכול היה לטעון אחרת)
+  pos: phrase
 grammar: []
 lessons:
 - id: u22-l1
@@ -565,3 +597,139 @@ lessons:
     - idach
     - midi
     - minai
+- id: u22-l4
+  kind: new
+  title:
+    he: לומדים מפסוק
+    en: Learning from a verse
+  exercises:
+  - id: u22-l4-41
+    type: tip
+    title: המחברת של איתן
+    text: 'מילים שאיתן מצא שוב ושוב בדפים, ורשם במחברת שלו: **גמרינן** = לומדים אנחנו, **ילפינן** = לומדים אנחנו (מפסוק), **שמעינן** = שומעים אנחנו, לומדים, **אשכחן** = מצאנו, **שמיע ליה** = שמע (את השמועה), **סברא** = היגיון, סברה, **תקנתא** = תקנה; תיקון, **מיגו** = מתוך ש… (יכול היה לטעון אחרת).'
+  - id: u22-l4-42
+    type: learn
+    lexeme: f-gamrinan
+  - id: u22-l4-43
+    type: learn
+    lexeme: f-yalfinan
+  - id: u22-l4-44
+    type: learn
+    lexeme: f-shamainan
+  - id: u22-l4-45
+    type: learn
+    lexeme: f-ashkachan
+  - id: u22-l4-46
+    type: learn
+    lexeme: f-shmia
+  - id: u22-l4-47
+    type: learn
+    lexeme: f-svara
+  - id: u22-l4-48
+    type: learn
+    lexeme: f-takanta
+  - id: u22-l4-49
+    type: learn
+    lexeme: f-migo
+  - id: u22-l4-50
+    type: match_pairs
+    pairs:
+    - - גמרינן
+      - לומדים אנחנו
+    - - ילפינן
+      - לומדים אנחנו (מפסוק)
+    - - שמעינן
+      - שומעים אנחנו, לומדים
+    - - אשכחן
+      - מצאנו
+    - - שמיע ליה
+      - שמע (את השמועה)
+    - - סברא
+      - היגיון, סברה
+    lexemes:
+    - f-gamrinan
+    - f-yalfinan
+    - f-shamainan
+    - f-ashkachan
+    - f-shmia
+    - f-svara
+  - id: u22-l4-51
+    type: multiple_choice
+    prompt: מה פירוש גמרינן?
+    options:
+    - לומדים אנחנו
+    - ממני
+    - אדם אחר
+    correct: 0
+    lexemes:
+    - f-gamrinan
+  - id: u22-l4-52
+    type: multiple_choice
+    prompt: מה פירוש ילפינן?
+    options:
+    - לומדים אנחנו (מפסוק)
+    - מתוך ש… (יכול היה לטעון אחרת)
+    - ממני
+    correct: 0
+    lexemes:
+    - f-yalfinan
+  - id: u22-l4-53
+    type: multiple_choice
+    prompt: מה פירוש שמעינן?
+    options:
+    - שומעים אנחנו, לומדים
+    - לומדים אנחנו
+    - היגיון, סברה
+    correct: 0
+    lexemes:
+    - f-shamainan
+  - id: u22-l4-54
+    type: multiple_choice
+    prompt: מה פירוש אשכחן?
+    options:
+    - מצאנו
+    - משהו, דבר
+    - תעשה
+    correct: 0
+    lexemes:
+    - f-ashkachan
+  - id: u22-l4-55
+    type: multiple_choice
+    prompt: מה פירוש שמיע ליה?
+    options:
+    - שמע (את השמועה)
+    - ממני
+    - תקנה; תיקון
+    correct: 0
+    lexemes:
+    - f-shmia
+  - id: u22-l4-56
+    type: multiple_choice
+    prompt: מה פירוש סברא?
+    options:
+    - היגיון, סברה
+    - השאר, האחר
+    - למד! (ציווי)
+    correct: 0
+    lexemes:
+    - f-svara
+  - id: u22-l4-57
+    type: multiple_choice
+    prompt: מה פירוש תקנתא?
+    options:
+    - תקנה; תיקון
+    - שנוא; שונא
+    - משהו, דבר
+    correct: 0
+    lexemes:
+    - f-takanta
+  - id: u22-l4-58
+    type: multiple_choice
+    prompt: מה פירוש מיגו?
+    options:
+    - מתוך ש… (יכול היה לטעון אחרת)
+    - למד! (ציווי)
+    - שנוא; שונא
+    correct: 0
+    lexemes:
+    - f-migo

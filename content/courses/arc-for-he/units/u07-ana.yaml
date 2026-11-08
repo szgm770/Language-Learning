@@ -118,6 +118,38 @@ vocabulary:
     translation: אביי היה יושב לפני רבה. ראה אותו שהיה שמח מאוד
     source: בבלי, ברכות ל ע״ב
     vocalized: אַבָּיֵי הֲוָה יָתֵיב קַמֵּיהּ דְּרַבָּה חַזְיֵיהּ דַּהֲוָה קָא בָדַח טוּבָא
+- id: f-inish
+  text: איניש
+  translation: אדם
+  pos: noun
+- id: f-minaihu
+  text: מינייהו
+  translation: מהם
+  pos: pronoun
+- id: f-alaihu
+  text: עלייהו
+  translation: עליהם
+  pos: pronoun
+- id: f-iluyeih
+  text: עילויה
+  translation: עליו
+  pos: pronoun
+- id: f-gabeih
+  text: גביה
+  translation: אצלו
+  pos: preposition
+- id: f-nihaleih
+  text: ניהליה
+  translation: לו
+  pos: pronoun
+- id: f-minach
+  text: מינך
+  translation: ממך
+  pos: pronoun
+- id: f-atun
+  text: אתון
+  translation: אתם
+  pos: pronoun
 grammar: []
 lessons:
 - id: u07-l1
@@ -673,3 +705,139 @@ lessons:
     - inhu
     - lan
     - mineih
+- id: u07-l5
+  kind: new
+  title:
+    he: ממנו ועליהם
+    en: From him, on them
+  exercises:
+  - id: u07-l5-50
+    type: tip
+    title: המחברת של איתן
+    text: 'מילים שאיתן מצא שוב ושוב בדפים, ורשם במחברת שלו: **איניש** = אדם, **מינייהו** = מהם, **עלייהו** = עליהם, **עילויה** = עליו, **גביה** = אצלו, **ניהליה** = לו, **מינך** = ממך, **אתון** = אתם.'
+  - id: u07-l5-51
+    type: learn
+    lexeme: f-inish
+  - id: u07-l5-52
+    type: learn
+    lexeme: f-minaihu
+  - id: u07-l5-53
+    type: learn
+    lexeme: f-alaihu
+  - id: u07-l5-54
+    type: learn
+    lexeme: f-iluyeih
+  - id: u07-l5-55
+    type: learn
+    lexeme: f-gabeih
+  - id: u07-l5-56
+    type: learn
+    lexeme: f-nihaleih
+  - id: u07-l5-57
+    type: learn
+    lexeme: f-minach
+  - id: u07-l5-58
+    type: learn
+    lexeme: f-atun
+  - id: u07-l5-59
+    type: match_pairs
+    pairs:
+    - - איניש
+      - אדם
+    - - מינייהו
+      - מהם
+    - - עלייהו
+      - עליהם
+    - - עילויה
+      - עליו
+    - - גביה
+      - אצלו
+    - - ניהליה
+      - לו
+    lexemes:
+    - f-inish
+    - f-minaihu
+    - f-alaihu
+    - f-iluyeih
+    - f-gabeih
+    - f-nihaleih
+  - id: u07-l5-60
+    type: multiple_choice
+    prompt: מה פירוש איניש?
+    options:
+    - אדם
+    - עצמו
+    - עליו
+    correct: 0
+    lexemes:
+    - f-inish
+  - id: u07-l5-61
+    type: multiple_choice
+    prompt: מה פירוש מינייהו?
+    options:
+    - מהם
+    - ממך
+    - אנחנו
+    correct: 0
+    lexemes:
+    - f-minaihu
+  - id: u07-l5-62
+    type: multiple_choice
+    prompt: מה פירוש עלייהו?
+    options:
+    - עליהם
+    - אני
+    - לנו
+    correct: 0
+    lexemes:
+    - f-alaihu
+  - id: u07-l5-63
+    type: multiple_choice
+    prompt: מה פירוש עילויה?
+    options:
+    - עליו
+    - הם
+    - עליה
+    correct: 0
+    lexemes:
+    - f-iluyeih
+  - id: u07-l5-64
+    type: multiple_choice
+    prompt: מה פירוש גביה?
+    options:
+    - אצלו
+    - שמח, עליז
+    - הם
+    correct: 0
+    lexemes:
+    - f-gabeih
+  - id: u07-l5-65
+    type: multiple_choice
+    prompt: מה פירוש ניהליה?
+    options:
+    - לו
+    - לפניו
+    - אומר (עכשיו, כאן)
+    correct: 0
+    lexemes:
+    - f-nihaleih
+  - id: u07-l5-66
+    type: multiple_choice
+    prompt: מה פירוש מינך?
+    options:
+    - ממך
+    - אצלו
+    - שמח, עליז
+    correct: 0
+    lexemes:
+    - f-minach
+  - id: u07-l5-67
+    type: multiple_choice
+    prompt: מה פירוש אתון?
+    options:
+    - אתם
+    - אצלו
+    - אנחנו
+    correct: 0
+    lexemes:
+    - f-atun

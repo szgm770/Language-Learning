@@ -124,6 +124,38 @@ vocabulary:
     translation: והרי רבי טרפון אינו סובר (את הכלל) ׳דיו׳!
     source: בבלי, בבא קמא יח ע״ב
     vocalized: וְהָא רַבִּי טַרְפוֹן לֵית לֵיהּ דַּיּוֹ
+- id: f-matnitin
+  text: מתניתין
+  translation: המשנה שלנו
+  pos: noun
+- id: f-matnita
+  text: מתניתא
+  translation: ברייתא
+  pos: noun
+- id: f-stama
+  text: סתמא
+  translation: סתם (בלי שם אומר)
+  pos: noun
+- id: f-itmar2
+  text: אתמר
+  translation: נאמר (מחלוקת אמוראים)
+  pos: verb
+- id: f-atya
+  text: אתיא
+  translation: באה; נלמדת (״אתיא ב…״ = נלמדת מ…)
+  pos: verb
+- id: f-nehi
+  text: נהי
+  translation: נניח ש…, אמנם
+  pos: conjunction
+- id: f-mihat
+  text: מיהת
+  translation: בכל אופן
+  pos: adverb
+- id: f-sfeika
+  text: ספיקא
+  translation: ספק
+  pos: noun
 grammar: []
 lessons:
 - id: u06-l1
@@ -672,3 +704,139 @@ lessons:
     - seifa
     - tuva
     - havu
+- id: u06-l5
+  kind: new
+  title:
+    he: מילים של מקורות
+    en: Words for sources
+  exercises:
+  - id: u06-l5-52
+    type: tip
+    title: המחברת של איתן
+    text: 'מילים שאיתן מצא שוב ושוב בדפים, ורשם במחברת שלו: **מתניתין** = המשנה שלנו, **מתניתא** = ברייתא, **סתמא** = סתם (בלי שם אומר), **אתמר** = נאמר (מחלוקת אמוראים), **אתיא** = באה; נלמדת (״אתיא ב…״ = נלמדת מ…), **נהי** = נניח ש…, אמנם, **מיהת** = בכל אופן, **ספיקא** = ספק.'
+  - id: u06-l5-53
+    type: learn
+    lexeme: f-matnitin
+  - id: u06-l5-54
+    type: learn
+    lexeme: f-matnita
+  - id: u06-l5-55
+    type: learn
+    lexeme: f-stama
+  - id: u06-l5-56
+    type: learn
+    lexeme: f-itmar2
+  - id: u06-l5-57
+    type: learn
+    lexeme: f-atya
+  - id: u06-l5-58
+    type: learn
+    lexeme: f-nehi
+  - id: u06-l5-59
+    type: learn
+    lexeme: f-mihat
+  - id: u06-l5-60
+    type: learn
+    lexeme: f-sfeika
+  - id: u06-l5-61
+    type: match_pairs
+    pairs:
+    - - מתניתין
+      - המשנה שלנו
+    - - מתניתא
+      - ברייתא
+    - - סתמא
+      - סתם (בלי שם אומר)
+    - - אתמר
+      - נאמר (מחלוקת אמוראים)
+    - - אתיא
+      - באה; נלמדת (״אתיא ב…״ = נלמדת מ…)
+    - - נהי
+      - נניח ש…, אמנם
+    lexemes:
+    - f-matnitin
+    - f-matnita
+    - f-stama
+    - f-itmar2
+    - f-atya
+    - f-nehi
+  - id: u06-l5-62
+    type: multiple_choice
+    prompt: מה פירוש מתניתין?
+    options:
+    - המשנה שלנו
+    - סתם (בלי שם אומר)
+    - הוא (הוּא הוּא); ״מאי ניהו״ = מה הוא?
+    correct: 0
+    lexemes:
+    - f-matnitin
+  - id: u06-l5-63
+    type: multiple_choice
+    prompt: מה פירוש מתניתא?
+    options:
+    - ברייתא
+    - סוף המשנה
+    - היו
+    correct: 0
+    lexemes:
+    - f-matnita
+  - id: u06-l5-64
+    type: multiple_choice
+    prompt: מה פירוש סתמא?
+    options:
+    - סתם (בלי שם אומר)
+    - היו
+    - הוא ישנו, הוא קיים
+    correct: 0
+    lexemes:
+    - f-stama
+  - id: u06-l5-65
+    type: multiple_choice
+    prompt: מה פירוש אתמר?
+    options:
+    - נאמר (מחלוקת אמוראים)
+    - איננו, לא קיים; לא כך
+    - היו
+    correct: 0
+    lexemes:
+    - f-itmar2
+  - id: u06-l5-66
+    type: multiple_choice
+    prompt: מה פירוש אתיא?
+    options:
+    - באה; נלמדת (״אתיא ב…״ = נלמדת מ…)
+    - ספק
+    - ברייתא
+    correct: 0
+    lexemes:
+    - f-atya
+  - id: u06-l5-67
+    type: multiple_choice
+    prompt: מה פירוש נהי?
+    options:
+    - נניח ש…, אמנם
+    - הן, הם (הווים)
+    - באה; נלמדת (״אתיא ב…״ = נלמדת מ…)
+    correct: 0
+    lexemes:
+    - f-nehi
+  - id: u06-l5-68
+    type: multiple_choice
+    prompt: מה פירוש מיהת?
+    options:
+    - בכל אופן
+    - היו
+    - הרבה
+    correct: 0
+    lexemes:
+    - f-mihat
+  - id: u06-l5-69
+    type: multiple_choice
+    prompt: מה פירוש ספיקא?
+    options:
+    - ספק
+    - סתם (בלי שם אומר)
+    - אין לו; אינו סובר (את הכלל הזה)
+    correct: 0
+    lexemes:
+    - f-sfeika

@@ -136,6 +136,38 @@ vocabulary:
     translation: אחרי ששאל (את השאלה), חזר ופשט אותה (ענה עליה)
     source: בבלי, גיטין פג ע״ב
     vocalized: בָּתַר דְּבַעְיָא, הֲדַר פַּשְׁטַהּ
+- id: f-salka
+  text: סלקא דעתך
+  translation: היה עולה על דעתך (הייתי חושב)
+  pos: phrase
+- id: f-atu
+  text: אטו
+  translation: וכי? האם באמת?
+  pos: adverb
+- id: f-ipcha
+  text: איפכא
+  translation: להפך
+  pos: adverb
+- id: f-hach
+  text: הך
+  translation: זה, ההוא
+  pos: pronoun
+- id: f-hanehu
+  text: הנהו
+  translation: אותם, ההם
+  pos: pronoun
+- id: f-achriti
+  text: אחריתי
+  translation: אחרת
+  pos: adjective
+- id: f-gavna
+  text: גוונא
+  translation: אופן; ״כי האי גוונא״ = באופן כזה
+  pos: noun
+- id: f-lechudeih
+  text: לחודיה
+  translation: לבדו
+  pos: adverb
 grammar: []
 lessons:
 - id: u05-l1
@@ -735,3 +767,139 @@ lessons:
     - hashta
     - batar
     - milta
+- id: u05-l5
+  kind: new
+  title:
+    he: עוד מילים של ״זה״
+    en: More pointing words
+  exercises:
+  - id: u05-l5-55
+    type: tip
+    title: המחברת של איתן
+    text: 'מילים שאיתן מצא שוב ושוב בדפים, ורשם במחברת שלו: **סלקא דעתך** = היה עולה על דעתך (הייתי חושב), **אטו** = וכי? האם באמת?, **איפכא** = להפך, **הך** = זה, ההוא, **הנהו** = אותם, ההם, **אחריתי** = אחרת, **גוונא** = אופן; ״כי האי גוונא״ = באופן כזה, **לחודיה** = לבדו.'
+  - id: u05-l5-56
+    type: learn
+    lexeme: f-salka
+  - id: u05-l5-57
+    type: learn
+    lexeme: f-atu
+  - id: u05-l5-58
+    type: learn
+    lexeme: f-ipcha
+  - id: u05-l5-59
+    type: learn
+    lexeme: f-hach
+  - id: u05-l5-60
+    type: learn
+    lexeme: f-hanehu
+  - id: u05-l5-61
+    type: learn
+    lexeme: f-achriti
+  - id: u05-l5-62
+    type: learn
+    lexeme: f-gavna
+  - id: u05-l5-63
+    type: learn
+    lexeme: f-lechudeih
+  - id: u05-l5-64
+    type: match_pairs
+    pairs:
+    - - סלקא דעתך
+      - היה עולה על דעתך (הייתי חושב)
+    - - אטו
+      - וכי? האם באמת?
+    - - איפכא
+      - להפך
+    - - הך
+      - זה, ההוא
+    - - הנהו
+      - אותם, ההם
+    - - אחריתי
+      - אחרת
+    lexemes:
+    - f-salka
+    - f-atu
+    - f-ipcha
+    - f-hach
+    - f-hanehu
+    - f-achriti
+  - id: u05-l5-65
+    type: multiple_choice
+    prompt: מה פירוש סלקא דעתך?
+    options:
+    - היה עולה על דעתך (הייתי חושב)
+    - אחרת
+    - אופן; ״כי האי גוונא״ = באופן כזה
+    correct: 0
+    lexemes:
+    - f-salka
+  - id: u05-l5-66
+    type: multiple_choice
+    prompt: מה פירוש אטו?
+    options:
+    - וכי? האם באמת?
+    - להפך
+    - אחרי
+    correct: 0
+    lexemes:
+    - f-atu
+  - id: u05-l5-67
+    type: multiple_choice
+    prompt: מה פירוש איפכא?
+    options:
+    - להפך
+    - הזה, הזאת
+    - תינוק, ילד קטן
+    correct: 0
+    lexemes:
+    - f-ipcha
+  - id: u05-l5-68
+    type: multiple_choice
+    prompt: מה פירוש הך?
+    options:
+    - זה, ההוא
+    - הזה, הזאת
+    - אחרת
+    correct: 0
+    lexemes:
+    - f-hach
+  - id: u05-l5-69
+    type: multiple_choice
+    prompt: מה פירוש הנהו?
+    options:
+    - אותם, ההם
+    - וכי? האם באמת?
+    - כך
+    correct: 0
+    lexemes:
+    - f-hanehu
+  - id: u05-l5-70
+    type: multiple_choice
+    prompt: מה פירוש אחריתי?
+    options:
+    - אחרת
+    - אותם, ההם
+    - אחרי
+    correct: 0
+    lexemes:
+    - f-achriti
+  - id: u05-l5-71
+    type: multiple_choice
+    prompt: מה פירוש גוונא?
+    options:
+    - אופן; ״כי האי גוונא״ = באופן כזה
+    - אין קושיה (אין סתירה)
+    - אחרת
+    correct: 0
+    lexemes:
+    - f-gavna
+  - id: u05-l5-72
+    type: multiple_choice
+    prompt: מה פירוש לחודיה?
+    options:
+    - לבדו
+    - 'חזר; ״הדר״ לפני פועל: ואחר כך'
+    - להפך
+    correct: 0
+    lexemes:
+    - f-lechudeih

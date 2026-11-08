@@ -135,6 +135,38 @@ vocabulary:
     translation: 'חילק לחם לילדים: לגדול אחת, ולקטן שתיים'
     source: בבלי, תענית כג ע״ב
     vocalized: פְּלַג רִיפְתָּא לְיָנוֹקֵי, לְקַשִּׁישָׁא חֲדָא, וּלְזוּטְרָא תְּרֵי
+- id: f-chamra
+  text: חמרא
+  translation: יין; (גם:) חמור
+  pos: noun
+- id: f-tora
+  text: תורא
+  translation: שור
+  pos: noun
+- id: f-kala
+  text: קלא
+  translation: קול
+  pos: noun
+- id: f-eina
+  text: עינא
+  translation: עין
+  pos: noun
+- id: f-agra
+  text: אגרא
+  translation: שכר
+  pos: noun
+- id: f-zvinei
+  text: זביני
+  translation: מכירה, קנייה
+  pos: noun
+- id: f-psida
+  text: פסידא
+  translation: הפסד
+  pos: noun
+- id: f-avda
+  text: עבדא
+  translation: עבד
+  pos: noun
 grammar: []
 lessons:
 - id: u09-l1
@@ -721,3 +753,139 @@ lessons:
     - chazina
     - kashisha
     - zutra
+- id: u09-l5
+  kind: new
+  title:
+    he: בבית ובשדה
+    en: At home and in the field
+  exercises:
+  - id: u09-l5-55
+    type: tip
+    title: המחברת של איתן
+    text: 'מילים שאיתן מצא שוב ושוב בדפים, ורשם במחברת שלו: **חמרא** = יין; (גם:) חמור, **תורא** = שור, **קלא** = קול, **עינא** = עין, **אגרא** = שכר, **זביני** = מכירה, קנייה, **פסידא** = הפסד, **עבדא** = עבד.'
+  - id: u09-l5-56
+    type: learn
+    lexeme: f-chamra
+  - id: u09-l5-57
+    type: learn
+    lexeme: f-tora
+  - id: u09-l5-58
+    type: learn
+    lexeme: f-kala
+  - id: u09-l5-59
+    type: learn
+    lexeme: f-eina
+  - id: u09-l5-60
+    type: learn
+    lexeme: f-agra
+  - id: u09-l5-61
+    type: learn
+    lexeme: f-zvinei
+  - id: u09-l5-62
+    type: learn
+    lexeme: f-psida
+  - id: u09-l5-63
+    type: learn
+    lexeme: f-avda
+  - id: u09-l5-64
+    type: match_pairs
+    pairs:
+    - - חמרא
+      - יין; (גם:) חמור
+    - - תורא
+      - שור
+    - - קלא
+      - קול
+    - - עינא
+      - עין
+    - - אגרא
+      - שכר
+    - - זביני
+      - מכירה, קנייה
+    lexemes:
+    - f-chamra
+    - f-tora
+    - f-kala
+    - f-eina
+    - f-agra
+    - f-zvinei
+  - id: u09-l5-65
+    type: multiple_choice
+    prompt: מה פירוש חמרא?
+    options:
+    - יין; (גם:) חמור
+    - שור
+    - עולם; ״כולי עלמא״ = כולם
+    correct: 0
+    lexemes:
+    - f-chamra
+  - id: u09-l5-66
+    type: multiple_choice
+    prompt: מה פירוש תורא?
+    options:
+    - שור
+    - עבד
+    - שלום
+    correct: 0
+    lexemes:
+    - f-tora
+  - id: u09-l5-67
+    type: multiple_choice
+    prompt: מה פירוש קלא?
+    options:
+    - קול
+    - מצאו אותו
+    - אני יודע
+    correct: 0
+    lexemes:
+    - f-kala
+  - id: u09-l5-68
+    type: multiple_choice
+    prompt: מה פירוש עינא?
+    options:
+    - עין
+    - מכירה, קנייה
+    - אני רואה
+    correct: 0
+    lexemes:
+    - f-eina
+  - id: u09-l5-69
+    type: multiple_choice
+    prompt: מה פירוש אגרא?
+    options:
+    - שכר
+    - הקטן, הצעיר
+    - שלום
+    correct: 0
+    lexemes:
+    - f-agra
+  - id: u09-l5-70
+    type: multiple_choice
+    prompt: מה פירוש זביני?
+    options:
+    - מכירה, קנייה
+    - מצאו אותו
+    - אני יודע
+    correct: 0
+    lexemes:
+    - f-zvinei
+  - id: u09-l5-71
+    type: multiple_choice
+    prompt: מה פירוש פסידא?
+    options:
+    - הפסד
+    - הקטן, הצעיר
+    - ביקש רחמים, התפלל
+    correct: 0
+    lexemes:
+    - f-psida
+  - id: u09-l5-72
+    type: multiple_choice
+    prompt: מה פירוש עבדא?
+    options:
+    - עבד
+    - אשתו
+    - שור
+    correct: 0
+    lexemes:
+    - f-avda

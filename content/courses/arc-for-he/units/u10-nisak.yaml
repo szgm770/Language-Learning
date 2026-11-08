@@ -127,6 +127,38 @@ vocabulary:
     translation: תנו לי את השק שלי, ואלך ואביא לי בזוז תבואה
     source: בבלי, תענית כג ע״ב
     vocalized: הַבוּ לִי גּוּאַלְקִי, וְאֵיזִיל וְאַיְיתֵי לִי בְּזוּזָא עִיבוּרָא
+- id: f-eimar
+  text: אימר
+  translation: אמור (ש…); אני אומר
+  pos: verb
+- id: f-titei
+  text: תיתי
+  translation: תבוא; (גם:) תילמד
+  pos: verb
+- id: f-aytu
+  text: אייתו
+  translation: הביאו
+  pos: verb
+- id: f-shvik
+  text: שביק
+  translation: עוזב, מניח
+  pos: verb
+- id: f-kabil
+  text: קביל
+  translation: קיבל
+  pos: verb
+- id: f-nasiv
+  text: נסיב
+  translation: לקח; נשא (אישה)
+  pos: verb
+- id: f-yalif
+  text: יליף
+  translation: לומד (מפסוק)
+  pos: verb
+- id: f-gmir
+  text: גמיר
+  translation: למד; יש לו מסורת
+  pos: verb
 grammar: []
 lessons:
 - id: u10-l1
@@ -737,3 +769,139 @@ lessons:
     - havu-tnu
     - eizil
     - eitei
+- id: u10-l5
+  kind: new
+  title:
+    he: לקח ונתן
+    en: Took and gave
+  exercises:
+  - id: u10-l5-54
+    type: tip
+    title: המחברת של איתן
+    text: 'מילים שאיתן מצא שוב ושוב בדפים, ורשם במחברת שלו: **אימר** = אמור (ש…); אני אומר, **תיתי** = תבוא; (גם:) תילמד, **אייתו** = הביאו, **שביק** = עוזב, מניח, **קביל** = קיבל, **נסיב** = לקח; נשא (אישה), **יליף** = לומד (מפסוק), **גמיר** = למד; יש לו מסורת.'
+  - id: u10-l5-55
+    type: learn
+    lexeme: f-eimar
+  - id: u10-l5-56
+    type: learn
+    lexeme: f-titei
+  - id: u10-l5-57
+    type: learn
+    lexeme: f-aytu
+  - id: u10-l5-58
+    type: learn
+    lexeme: f-shvik
+  - id: u10-l5-59
+    type: learn
+    lexeme: f-kabil
+  - id: u10-l5-60
+    type: learn
+    lexeme: f-nasiv
+  - id: u10-l5-61
+    type: learn
+    lexeme: f-yalif
+  - id: u10-l5-62
+    type: learn
+    lexeme: f-gmir
+  - id: u10-l5-63
+    type: match_pairs
+    pairs:
+    - - אימר
+      - אמור (ש…); אני אומר
+    - - תיתי
+      - תבוא; (גם:) תילמד
+    - - אייתו
+      - הביאו
+    - - שביק
+      - עוזב, מניח
+    - - קביל
+      - קיבל
+    - - נסיב
+      - לקח; נשא (אישה)
+    lexemes:
+    - f-eimar
+    - f-titei
+    - f-aytu
+    - f-shvik
+    - f-kabil
+    - f-nasiv
+  - id: u10-l5-64
+    type: multiple_choice
+    prompt: מה פירוש אימר?
+    options:
+    - אמור (ש…); אני אומר
+    - אלך
+    - יאמר לנו אדוני (בקשה בנימוס)
+    correct: 0
+    lexemes:
+    - f-eimar
+  - id: u10-l5-65
+    type: multiple_choice
+    prompt: מה פירוש תיתי?
+    options:
+    - תבוא; (גם:) תילמד
+    - לקח; נשא (אישה)
+    - יאמר לנו אדוני (בקשה בנימוס)
+    correct: 0
+    lexemes:
+    - f-titei
+  - id: u10-l5-66
+    type: multiple_choice
+    prompt: מה פירוש אייתו?
+    options:
+    - הביאו
+    - טובה (להחזיק טובה = לקחת קרדיט)
+    - נעלה
+    correct: 0
+    lexemes:
+    - f-aytu
+  - id: u10-l5-67
+    type: multiple_choice
+    prompt: מה פירוש שביק?
+    options:
+    - עוזב, מניח
+    - הביאו
+    - טובה (להחזיק טובה = לקחת קרדיט)
+    correct: 0
+    lexemes:
+    - f-shvik
+  - id: u10-l5-68
+    type: multiple_choice
+    prompt: מה פירוש קביל?
+    options:
+    - קיבל
+    - אביא; הביא
+    - עוזב, מניח
+    correct: 0
+    lexemes:
+    - f-kabil
+  - id: u10-l5-69
+    type: multiple_choice
+    prompt: מה פירוש נסיב?
+    options:
+    - לקח; נשא (אישה)
+    - גג
+    - יבוא
+    correct: 0
+    lexemes:
+    - f-nasiv
+  - id: u10-l5-70
+    type: multiple_choice
+    prompt: מה פירוש יליף?
+    options:
+    - לומד (מפסוק)
+    - אביא; הביא
+    - תן! (ציווי)
+    correct: 0
+    lexemes:
+    - f-yalif
+  - id: u10-l5-71
+    type: multiple_choice
+    prompt: מה פירוש גמיר?
+    options:
+    - למד; יש לו מסורת
+    - אביא; הביא
+    - תבוא; (גם:) תילמד
+    correct: 0
+    lexemes:
+    - f-gmir

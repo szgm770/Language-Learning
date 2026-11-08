@@ -100,6 +100,38 @@ vocabulary:
     translation: שממשנה מיותרת לימד אותנו שראייה אינה קונה
     source: בבלי, בבא מציעא ב ע״א
     vocalized: דְּמִמִּשְׁנָה יַתִּירָה אַשְׁמְעִינַן דִּרְאִיָּה לָא קָנֵי
+- id: f-ruba
+  text: רובא
+  translation: רוב
+  pos: noun
+- id: f-shayer
+  text: שייר
+  translation: השאיר (לא הזכיר)
+  pos: verb
+- id: f-sagi
+  text: סגי
+  translation: מספיק; הולך
+  pos: verb
+- id: f-purta
+  text: פורתא
+  translation: קצת
+  pos: adverb
+- id: f-nafish
+  text: נפיש
+  translation: מרובה, הרבה
+  pos: adjective
+- id: f-lemifrach
+  text: למיפרך
+  translation: להקשות, לסתור
+  pos: verb
+- id: f-metarets
+  text: מתרץ
+  translation: מתרץ, עונה
+  pos: verb
+- id: f-kushya
+  text: קושיא
+  translation: קושיה
+  pos: noun
 grammar: []
 lessons:
 - id: u23-l1
@@ -565,3 +597,139 @@ lessons:
     - mashma
     - lishna
     - ashkachit
+- id: u23-l4
+  kind: new
+  title:
+    he: קושיא ופירכא
+    en: Question and refutation
+  exercises:
+  - id: u23-l4-41
+    type: tip
+    title: המחברת של איתן
+    text: 'מילים שאיתן מצא שוב ושוב בדפים, ורשם במחברת שלו: **רובא** = רוב, **שייר** = השאיר (לא הזכיר), **סגי** = מספיק; הולך, **פורתא** = קצת, **נפיש** = מרובה, הרבה, **למיפרך** = להקשות, לסתור, **מתרץ** = מתרץ, עונה, **קושיא** = קושיה.'
+  - id: u23-l4-42
+    type: learn
+    lexeme: f-ruba
+  - id: u23-l4-43
+    type: learn
+    lexeme: f-shayer
+  - id: u23-l4-44
+    type: learn
+    lexeme: f-sagi
+  - id: u23-l4-45
+    type: learn
+    lexeme: f-purta
+  - id: u23-l4-46
+    type: learn
+    lexeme: f-nafish
+  - id: u23-l4-47
+    type: learn
+    lexeme: f-lemifrach
+  - id: u23-l4-48
+    type: learn
+    lexeme: f-metarets
+  - id: u23-l4-49
+    type: learn
+    lexeme: f-kushya
+  - id: u23-l4-50
+    type: match_pairs
+    pairs:
+    - - רובא
+      - רוב
+    - - שייר
+      - השאיר (לא הזכיר)
+    - - סגי
+      - מספיק; הולך
+    - - פורתא
+      - קצת
+    - - נפיש
+      - מרובה, הרבה
+    - - למיפרך
+      - להקשות, לסתור
+    lexemes:
+    - f-ruba
+    - f-shayer
+    - f-sagi
+    - f-purta
+    - f-nafish
+    - f-lemifrach
+  - id: u23-l4-51
+    type: multiple_choice
+    prompt: מה פירוש רובא?
+    options:
+    - רוב
+    - השמיע לנו, לימד אותנו
+    - מרובה, הרבה
+    correct: 0
+    lexemes:
+    - f-ruba
+  - id: u23-l4-52
+    type: multiple_choice
+    prompt: מה פירוש שייר?
+    options:
+    - השאיר (לא הזכיר)
+    - רוב
+    - להקשות, לסתור
+    correct: 0
+    lexemes:
+    - f-shayer
+  - id: u23-l4-53
+    type: multiple_choice
+    prompt: מה פירוש סגי?
+    options:
+    - מספיק; הולך
+    - השאיר (לא הזכיר)
+    - אתה יכול לומר
+    correct: 0
+    lexemes:
+    - f-sagi
+  - id: u23-l4-54
+    type: multiple_choice
+    prompt: מה פירוש פורתא?
+    options:
+    - קצת
+    - השאיר (לא הזכיר)
+    - קושיה
+    correct: 0
+    lexemes:
+    - f-purta
+  - id: u23-l4-55
+    type: multiple_choice
+    prompt: מה פירוש נפיש?
+    options:
+    - מרובה, הרבה
+    - קצת
+    - לידו
+    correct: 0
+    lexemes:
+    - f-nafish
+  - id: u23-l4-56
+    type: multiple_choice
+    prompt: מה פירוש למיפרך?
+    options:
+    - להקשות, לסתור
+    - מספיק; הולך
+    - מצאתי
+    correct: 0
+    lexemes:
+    - f-lemifrach
+  - id: u23-l4-57
+    type: multiple_choice
+    prompt: מה פירוש מתרץ?
+    options:
+    - מתרץ, עונה
+    - אתה יכול לומר
+    - מצאתי
+    correct: 0
+    lexemes:
+    - f-metarets
+  - id: u23-l4-58
+    type: multiple_choice
+    prompt: מה פירוש קושיא?
+    options:
+    - קושיה
+    - אתה יכול לומר
+    - השאיר (לא הזכיר)
+    correct: 0
+    lexemes:
+    - f-kushya

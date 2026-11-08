@@ -63,6 +63,34 @@ vocabulary:
     translation: שאילולא (החוב) היה פרוע, לא היה מחליש את השטר שלו
     source: בבלי, בבא מציעא כא ע״א
     vocalized: דְּאִי לָאו דִּפְרִיעַ לָא הֲוָה מַרַע לֵיהּ לִשְׁטָרֵיהּ
+- id: f-diavad
+  text: דיעבד
+  translation: בדיעבד (אחרי מעשה)
+  pos: adverb
+- id: f-mafkinan
+  text: מפקינן
+  translation: מוציאים אנחנו
+  pos: verb
+- id: f-gita
+  text: גיטא
+  translation: גט
+  pos: noun
+- id: f-yadia
+  text: ידיע
+  translation: ידוע
+  pos: adjective
+- id: f-ishtik
+  text: אישתיק
+  translation: שתק
+  pos: verb
+- id: f-vesimanich
+  text: וסימניך
+  translation: והסימן שלך (לזכור)
+  pos: phrase
+- id: f-kanya
+  text: קניא
+  translation: קונה (נקבה)
+  pos: verb
 grammar: []
 lessons:
 - id: u24-l1
@@ -393,3 +421,126 @@ lessons:
     - gufa
     - shtara
     - mara
+- id: u24-l4
+  kind: new
+  title:
+    he: מילים לסיום
+    en: Words for the end
+  exercises:
+  - id: u24-l4-28
+    type: tip
+    title: המחברת של איתן
+    text: 'מילים שאיתן מצא שוב ושוב בדפים, ורשם במחברת שלו: **דיעבד** = בדיעבד (אחרי מעשה), **מפקינן** = מוציאים אנחנו, **גיטא** = גט, **ידיע** = ידוע, **אישתיק** = שתק, **וסימניך** = והסימן שלך (לזכור), **קניא** = קונה (נקבה).'
+  - id: u24-l4-29
+    type: learn
+    lexeme: f-diavad
+  - id: u24-l4-30
+    type: learn
+    lexeme: f-mafkinan
+  - id: u24-l4-31
+    type: learn
+    lexeme: f-gita
+  - id: u24-l4-32
+    type: learn
+    lexeme: f-yadia
+  - id: u24-l4-33
+    type: learn
+    lexeme: f-ishtik
+  - id: u24-l4-34
+    type: learn
+    lexeme: f-vesimanich
+  - id: u24-l4-35
+    type: learn
+    lexeme: f-kanya
+  - id: u24-l4-36
+    type: match_pairs
+    pairs:
+    - - דיעבד
+      - בדיעבד (אחרי מעשה)
+    - - מפקינן
+      - מוציאים אנחנו
+    - - גיטא
+      - גט
+    - - ידיע
+      - ידוע
+    - - אישתיק
+      - שתק
+    - - וסימניך
+      - והסימן שלך (לזכור)
+    lexemes:
+    - f-diavad
+    - f-mafkinan
+    - f-gita
+    - f-yadia
+    - f-ishtik
+    - f-vesimanich
+  - id: u24-l4-37
+    type: multiple_choice
+    prompt: מה פירוש דיעבד?
+    options:
+    - בדיעבד (אחרי מעשה)
+    - והסימן שלך (לזכור)
+    - מסתבר, הגיוני
+    correct: 0
+    lexemes:
+    - f-diavad
+  - id: u24-l4-38
+    type: multiple_choice
+    prompt: מה פירוש מפקינן?
+    options:
+    - מוציאים אנחנו
+    - גופו של עניין (חוזרים לדברים עצמם)
+    - שטר; ״שטריה״ = השטר שלו
+    correct: 0
+    lexemes:
+    - f-mafkinan
+  - id: u24-l4-39
+    type: multiple_choice
+    prompt: מה פירוש גיטא?
+    options:
+    - גט
+    - גופו של עניין (חוזרים לדברים עצמם)
+    - שטר; ״שטריה״ = השטר שלו
+    correct: 0
+    lexemes:
+    - f-gita
+  - id: u24-l4-40
+    type: multiple_choice
+    prompt: מה פירוש ידיע?
+    options:
+    - ידוע
+    - עדים
+    - שטר; ״שטריה״ = השטר שלו
+    correct: 0
+    lexemes:
+    - f-yadia
+  - id: u24-l4-41
+    type: multiple_choice
+    prompt: מה פירוש אישתיק?
+    options:
+    - שתק
+    - קונה (נקבה)
+    - גט
+    correct: 0
+    lexemes:
+    - f-ishtik
+  - id: u24-l4-42
+    type: multiple_choice
+    prompt: מה פירוש וסימניך?
+    options:
+    - והסימן שלך (לזכור)
+    - עדים
+    - מחליש, פוגם
+    correct: 0
+    lexemes:
+    - f-vesimanich
+  - id: u24-l4-43
+    type: multiple_choice
+    prompt: מה פירוש קניא?
+    options:
+    - קונה (נקבה)
+    - שטר; ״שטריה״ = השטר שלו
+    - שתק
+    correct: 0
+    lexemes:
+    - f-kanya
