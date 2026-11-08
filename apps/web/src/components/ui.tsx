@@ -5,7 +5,7 @@ import type { ReactNode } from "react";
 import { NO_VOICE, speak, speechSupported } from "@/lib/speech";
 import { Icon } from "./icons";
 
-const RTL = ["he", "yi", "ar"];
+const RTL = ["he", "yi", "ar", "arc"];
 
 /** A word or sentence in the language being learned: its own language and direction. */
 export function Word({ text, lang, className = "" }: { text: string; lang: string; className?: string }) {

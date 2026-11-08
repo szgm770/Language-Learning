@@ -10,6 +10,7 @@ const NAMES: Record<string, { name: string; in: string }> = {
   ar: { name: "ערבית", in: "בערבית" },
   he: { name: "עברית", in: "בעברית" },
   yi: { name: "יידיש", in: "ביידיש" },
+  arc: { name: "ארמית", in: "בארמית" },
   zh: { name: "סינית", in: "בסינית" },
   ja: { name: "יפנית", in: "ביפנית" },
   ko: { name: "קוריאנית", in: "בקוריאנית" },

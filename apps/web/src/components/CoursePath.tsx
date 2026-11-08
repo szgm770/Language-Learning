@@ -4,26 +4,13 @@ import Link from "next/link";
 import { Fragment, useState } from "react";
 import { type UnitPack } from "@/lib/content";
 import { languageName } from "@/lib/languages";
+import { levelInfo, levelRange } from "@/lib/levels";
 import { isCompleted, lessonOpen } from "@/lib/progress";
 import { useLearner } from "@/lib/store";
 import type { CourseManifest } from "@lingo/content-schema";
 import { SCENE_HUE, SceneArt } from "./art";
 import { Icon, type IconName } from "./icons";
 import { Ring } from "./ui";
-
-const LEVEL_NAME: Record<string, string> = {
-  A0: "לפני שמתחילים: אותיות, צלילים ומילים ראשונות",
-  A1: "מתחילים: מילים ומשפטים ראשונים",
-  A2: "בסיסי: להסתדר במצבים יומיומיים",
-  B1: "בינוני: לדבר בחופשיות על רוב הנושאים",
-  B2: "בינוני־גבוה: שיחה טבעית, גם בעבודה",
-  C1: "מתקדם: שפה עשירה, מקצועית ואקדמית",
-};
-
-export const levelRange = (levels: string[]) => {
-  const u = [...new Set(levels)];
-  return u.length > 1 ? `רמות ${u[0]}–${u.at(-1)}` : `רמה ${u[0] ?? ""}`;
-};
 
 export const KIND: Record<string, { label: string; icon: IconName }> = {
   new: { label: "מילים חדשות", icon: "star" },
@@ -57,7 +44,7 @@ export function CoursePath({
       <header className="flex items-center justify-between gap-4 pt-6">
         <div>
           <p className="text-ink-soft">
-            {levelRange(manifest.units.map((u) => u.cefr))}
+            {levelRange(manifest, manifest.units.map((u) => u.cefr))}
           </p>
           <h1 className="text-3xl font-bold">
             {languageName(manifest.target)}
@@ -92,9 +79,9 @@ export function CoursePath({
                   data-level={unit.cefr}
                 >
                   <div>
-                    <h2 className="text-2xl font-bold">רמה {unit.cefr}</h2>
+                    <h2 className="text-2xl font-bold">{levelInfo(manifest, unit.cefr).heading}</h2>
                     <p className="text-ink-soft">
-                      {LEVEL_NAME[unit.cefr] ?? ""}
+                      {levelInfo(manifest, unit.cefr).about}
                     </p>
                   </div>
                   <Link
@@ -102,7 +89,7 @@ export function CoursePath({
                     className="flex items-center gap-1 text-sm font-semibold text-cobalt"
                   >
                     <Icon name="trophy" className="size-4" />
-                    תעודת {unit.cefr}
+                    תעודת {levelInfo(manifest, unit.cefr).short}
                   </Link>
                 </li>
               )}
@@ -116,7 +103,7 @@ export function CoursePath({
                   <SceneArt scene={unit.scene} className="size-18 shrink-0" />
                   <span className="flex min-w-0 flex-1 flex-col gap-1">
                     <span className="text-sm text-ink-soft">
-                      יחידה {ui + 1}, {unit.cefr}
+                      יחידה {ui + 1}, {levelInfo(manifest, unit.cefr).short}
                     </span>
                     <span className="text-xl font-bold">{unit.title.he}</span>
                     <span className="h-2 overflow-hidden rounded-full bg-sunken">

@@ -18,7 +18,7 @@ export function TextAnswer({
 }) {
   const ref = useRef<HTMLInputElement & HTMLTextAreaElement>(null);
   useEffect(() => ref.current?.focus(), []);
-  const rtl = ["he", "yi", "ar"].includes(lang);
+  const rtl = ["he", "yi", "ar", "arc"].includes(lang);
   const common = {
     ref,
     lang,

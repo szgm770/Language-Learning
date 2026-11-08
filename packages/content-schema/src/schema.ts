@@ -5,7 +5,7 @@ export const Id = z
   .string()
   .regex(/^[a-z0-9]+(?:-[a-z0-9]+)*$/, "ids must be kebab-case: lowercase letters, digits and dashes");
 
-export const LangCode = z.enum(["he", "en", "es", "ru", "fr", "de", "it", "pt", "ar", "yi", "zh", "ja", "ko"]);
+export const LangCode = z.enum(["he", "en", "es", "ru", "fr", "de", "it", "pt", "ar", "yi", "zh", "ja", "ko", "arc"]);
 export type LangCode = z.infer<typeof LangCode>;
 
 export const Cefr = z.enum(["A0", "A1", "A2", "B1", "B2", "C1", "C2"]);
@@ -37,7 +37,16 @@ export const Lexeme = z.object({
   pos: PartOfSpeech,
   /** Pronunciation hint in the learner's script, e.g. Hebrew letters for English words. */
   pronunciation: z.string().optional(),
-  example: z.strictObject({ text: z.string(), translation: z.string() }).optional(),
+  example: z
+    .strictObject({
+      text: z.string(),
+      translation: z.string(),
+      /** Where the example is quoted from, e.g. "בבלי, בבא מציעא ב ע״א". Required in `quotesOnly` courses. */
+      source: z.string().min(3).optional(),
+      /** The example with niqqud, shown on request. */
+      vocalized: z.string().min(1).optional(),
+    })
+    .optional(),
 });
 export type Lexeme = z.infer<typeof Lexeme>;
 
@@ -54,6 +63,10 @@ const ExerciseBase = z.object({
   id: Id,
   /** Lexemes practised by this exercise. They are added to the learner's review queue. */
   lexemes: z.array(Id).default([]),
+  /** Where the target-language text is quoted from, e.g. "בבלי, בבא מציעא ב ע״א". Required in `quotesOnly` courses. */
+  source: z.string().min(3).optional(),
+  /** The quoted text with niqqud, shown on request (the exercise itself shows it unvocalised). */
+  vocalized: z.string().min(1).optional(),
 });
 
 /** Accepted answers. The first one is shown as the "correct answer" on mistakes. */
@@ -283,6 +296,18 @@ export const Course = z.object({
   /** Web Speech API voice language, e.g. "en-US". */
   speechLang: z.string().min(2),
   characters: z.array(Character).default([]),
+  /**
+   * Every target-language text is a real quotation with a `source` (Aramaic: never invented sentences).
+   * The build checks that sentence exercises and word examples carry a source.
+   */
+  quotesOnly: z.boolean().default(false),
+  /**
+   * For courses not graded by CEFR (reading courses such as Aramaic): a stage name for each level used by the
+   * units. The app shows "שלב 1: …" instead of "רמה A1". Units keep their `cefr` field as the internal level.
+   */
+  stages: z
+    .array(z.strictObject({ level: Cefr, name: UiText, about: z.string().min(3) }))
+    .optional(),
   /** An exam-practice track (not a language to learn): hidden from the language list, shown under "Exams". */
   exam: z.boolean().default(false),
 });

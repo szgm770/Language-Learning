@@ -77,6 +77,7 @@ export function validateCourse(course: Course, units: Unit[]): string[] {
       for (const ex of lesson.exercises)
         for (const ref of ex.lexemes)
           if (!allLexemes.has(ref)) problems.push(`exercise "${ex.id}" points to unknown lexeme "${ref}"`);
+  problems.push(...validateQuotes(course, units), ...validateStages(course, units), ...validateNoSpeech(course, units));
   const found = new Set(units.map((u) => u.id));
   for (const id of course.units) if (!found.has(id)) problems.push(`course lists unit "${id}" but it was not found`);
   // Ids must be unique across the whole course, because progress is stored by id.
@@ -97,5 +98,45 @@ export function validateCourse(course: Course, units: Unit[]): string[] {
       }
     }
   }
+  return problems;
+}
+
+/** Exercise types whose target-language text is a sentence, so in a `quotesOnly` course it must be a sourced quotation. */
+const SENTENCE_TYPES = new Set(["reading", "translate", "word_bank", "fill_blank", "dialogue_gap"]);
+
+/** `quotesOnly` courses (Aramaic): every sentence comes from a real text, and says where from. */
+export function validateQuotes(course: Course, units: Unit[]): string[] {
+  if (!course.quotesOnly) return [];
+  const problems: string[] = [];
+  for (const unit of units) {
+    for (const lx of unit.vocabulary)
+      if (lx.example && !lx.example.source) problems.push(`word "${lx.id}": the example needs a source (quotesOnly course)`);
+    for (const lesson of unit.lessons)
+      for (const ex of lesson.exercises) {
+        const sentence = SENTENCE_TYPES.has(ex.type) || (ex.type === "multiple_choice" && !!ex.passage);
+        if (sentence && !ex.source) problems.push(`"${ex.id}": a ${ex.type} needs a source (quotesOnly course)`);
+      }
+  }
+  return problems;
+}
+
+/** A course with stages names every level its units use. */
+export function validateStages(course: Course, units: Unit[]): string[] {
+  if (!course.stages) return [];
+  const named = new Set(course.stages.map((s) => s.level));
+  const used = new Set(units.map((u) => u.cefr));
+  return [...used].filter((l) => !named.has(l)).map((l) => `level ${l} is used by a unit but has no stage name`);
+}
+
+const SPEECH_TYPES = new Set(["dictation", "listening_choice", "speak_repeat"]);
+
+/** A course without a voice (`speechLang: none`) cannot have listening or speaking tasks. */
+export function validateNoSpeech(course: Course, units: Unit[]): string[] {
+  if (course.speechLang !== "none") return [];
+  const problems: string[] = [];
+  for (const unit of units)
+    for (const lesson of unit.lessons)
+      for (const ex of lesson.exercises)
+        if (SPEECH_TYPES.has(ex.type)) problems.push(`"${ex.id}": ${ex.type} needs a voice, but speechLang is none`);
   return problems;
 }

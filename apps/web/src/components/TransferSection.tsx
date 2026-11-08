@@ -6,7 +6,9 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import qrcode from "qrcode-generator";
 import { z } from "zod";
 import { loadCourse, loadCourses, type UnitPack, useLoad } from "@/lib/content";
+import { levelInfo } from "@/lib/levels";
 import { currentCourse } from "@/lib/progress";
+import type { CourseManifest } from "@lingo/content-schema";
 import { getDeviceId, ingest, record, useLearner } from "@/lib/store";
 import { currentPosition, encodePosition, type Position, parsePosition, planPosition } from "@/lib/transfer";
 import { newOpBase } from "@/lib/store";
@@ -225,7 +227,7 @@ export function TransferSection() {
         </form>
       )}
 
-      {mode === "manual" && (units && courseId ? <Manual key={courseId} courseId={courseId} units={units} onPick={apply} /> : <p className="rounded-2xl bg-sunken p-4">טוענים את הקורס…</p>)}
+      {mode === "manual" && (units && courseId ? <Manual key={courseId} courseId={courseId} units={units} stages={data?.manifest.stages} onPick={apply} /> : <p className="rounded-2xl bg-sunken p-4">טוענים את הקורס…</p>)}
 
       <div className="flex flex-col gap-2">
         <label className="btn-quiet cursor-pointer self-start">
@@ -248,7 +250,7 @@ export function TransferSection() {
 }
 
 /** Pick a unit and a lesson: everything before it is marked as done. */
-function Manual({ courseId, units, onPick }: { courseId: string; units: UnitPack[]; onPick: (p: Position) => void }) {
+function Manual({ courseId, units, stages, onPick }: { courseId: string; units: UnitPack[]; stages?: CourseManifest["stages"]; onPick: (p: Position) => void }) {
   const { state } = useLearner();
   const here = currentPosition(state, courseId, units);
   const all = useMemo(() => flatLessons(units), [units]);
@@ -271,7 +273,7 @@ function Manual({ courseId, units, onPick }: { courseId: string; units: UnitPack
         <select className={field} value={ui} onChange={(e) => { setUi(Number(e.target.value)); setLi(0); }}>
           {units.map((u, i) => (
             <option key={u.id} value={i}>
-              {u.cefr} · {i + 1}. {u.title.he}
+              {levelInfo({ stages }, u.cefr).short} · {i + 1}. {u.title.he}
             </option>
           ))}
         </select>

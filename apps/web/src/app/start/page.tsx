@@ -1,5 +1,6 @@
 "use client";
 
+import { levelInfo } from "@/lib/levels";
 import type { CourseManifest } from "@lingo/content-schema";
 import { SCHEMA_VERSION } from "@lingo/sync";
 import { useRouter } from "next/navigation";
@@ -41,7 +42,7 @@ function Steps({ step }: { step: 1 | 2 | 3 }) {
 
 function CourseCard({ m, enrolled, onPick }: { m: CourseManifest; enrolled: boolean; onPick: () => void }) {
   const lessons = m.units.reduce((n, u) => n + u.lessonCount, 0);
-  const levels = [...new Set(m.units.map((u) => u.cefr))].join("–");
+  const levels = [...new Set(m.units.map((u) => levelInfo(m, u.cefr).short))].join("–");
   return (
     <button
       type="button"

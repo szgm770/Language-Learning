@@ -62,6 +62,8 @@ export function normalize(text: string, opts: NormalizeOptions = {}): string {
     s = s.replace(/[\u05F0-\u05F2]/g, (c) => YIDDISH_LIGATURES[c]!);
   }
 
+  if (lang === "arc") s = foldAramaicMarks(s);
+
   if (lang === "en" || lang === undefined) {
     s = s.replace(/\b[a-z]+'[a-z]+\b/g, (w) => EN_CONTRACTIONS[w] ?? w);
   }
@@ -84,6 +86,14 @@ export function normalize(text: string, opts: NormalizeOptions = {}): string {
 const YIDDISH_VARIANTS: Record<string, string> = { "נישט": "ניט", "דעמאלט": "דעמולט" };
 function foldYiddishVariants(s: string): string {
   return s.split(" ").map((w) => YIDDISH_VARIANTS[w] ?? w).join(" ");
+}
+
+/**
+ * Aramaic answers are typed on a Hebrew keyboard. Abbreviation marks are left out or typed in many ways
+ * (ת״ש, ת"ש, תש; מתני׳, מתני', מתני), so they are dropped and the letters joined. A maqaf separates words.
+ */
+function foldAramaicMarks(s: string): string {
+  return s.replace(/\u05BE/g, " ").replace(/['"\u05F3\u05F4\u201C\u201D]/g, "");
 }
 
 /** Normalizes but keeps accents, to tell "correct" from "correct apart from accents". */

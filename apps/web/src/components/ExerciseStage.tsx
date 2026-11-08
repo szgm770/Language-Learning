@@ -6,6 +6,7 @@ import { useCallback, useEffect, useRef, useState } from "react";
 import { sfx } from "@/lib/sfx";
 import { ExerciseView, type ExerciseContext } from "./exercises";
 import { Icon } from "./icons";
+import { QuoteSource } from "./QuoteSource";
 import { Word } from "./ui";
 
 const evaluator = new RuleEvaluator();
@@ -93,6 +94,9 @@ export function ExerciseStage({
     <>
       <div className={`flex-1 py-6 rise-in ${result && !good ? "shake" : ""}`} data-exercise={ex.id} data-type={ex.type}>
         <ExerciseView ex={ex} ctx={ctx} locked={!!result} onChange={onChange} />
+        <div className="mt-4">
+          <QuoteSource source={ex.source} vocalized={ex.vocalized} lang={ctx.target} />
+        </div>
       </div>
 
       <div
