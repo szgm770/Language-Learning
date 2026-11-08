@@ -8,6 +8,7 @@ import { Icon } from "@/components/icons";
 import { Loading, SpeakButton, Word } from "@/components/ui";
 import { lexemeIndex, loadCourse, useLoad } from "@/lib/content";
 import { parseCardKey } from "@/lib/ids";
+import { levelInfo } from "@/lib/levels";
 import { currentCourse, isAlphabetCard, mastery } from "@/lib/progress";
 import { useLearner } from "@/lib/store";
 
@@ -77,7 +78,7 @@ export default function Words() {
             <option value="all">כל הרמות</option>
             {levels.map((c) => (
               <option key={c} value={c}>
-                {c}
+                {data ? levelInfo(data.manifest, c).short : c}
               </option>
             ))}
           </select>
@@ -95,7 +96,7 @@ export default function Words() {
             <h2 className="mb-2 flex items-baseline gap-2 text-lg font-bold">
               {unit.title.he}
               <span className="text-xs font-normal text-ink-soft">
-                {unit.cefr} · {words.length}
+                {data ? levelInfo(data.manifest, unit.cefr).short : unit.cefr} · {words.length}
               </span>
             </h2>
             <ul className="flex flex-col gap-2 print:gap-0 print:[column-count:2]">

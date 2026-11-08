@@ -3,6 +3,7 @@
 import { useEffect } from "react";
 import { speak } from "@/lib/speech";
 import { Icon } from "../icons";
+import { QuoteSource } from "../QuoteSource";
 import { SpeakButton, Word } from "../ui";
 import type { ExerciseProps } from "./types";
 
@@ -45,19 +46,26 @@ export function Learn({ ex, ctx }: ExerciseProps<"learn">) {
           <SpeakButton text={lx.text} lang={ctx.speechLang} label="השמעה איטית" slow />
         </div>
       </div>
-      {lx.example && (
-        <button
-          type="button"
-          onClick={() => speak(lx.example!.text, ctx.speechLang)}
-          className="flex items-start gap-3 rounded-2xl bg-sunken p-4 text-start"
-        >
-          <Icon name="volume" className="mt-1 size-5 shrink-0 text-cobalt" />
-          <span className="flex flex-col gap-1">
+      {lx.example &&
+        (ctx.speechLang === "none" ? (
+          <div className="flex flex-col gap-1 rounded-2xl bg-sunken p-4">
             <Word text={lx.example.text} lang={ctx.target} className="text-xl" />
             <span className="text-ink-soft">{lx.example.translation}</span>
-          </span>
-        </button>
-      )}
+          </div>
+        ) : (
+          <button
+            type="button"
+            onClick={() => speak(lx.example!.text, ctx.speechLang)}
+            className="flex items-start gap-3 rounded-2xl bg-sunken p-4 text-start"
+          >
+            <Icon name="volume" className="mt-1 size-5 shrink-0 text-cobalt" />
+            <span className="flex flex-col gap-1">
+              <Word text={lx.example.text} lang={ctx.target} className="text-xl" />
+              <span className="text-ink-soft">{lx.example.translation}</span>
+            </span>
+          </button>
+        ))}
+      {lx.example && <QuoteSource source={lx.example.source} vocalized={lx.example.vocalized} lang={ctx.target} />}
     </div>
   );
 }
