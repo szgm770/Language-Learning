@@ -524,145 +524,6 @@ lessons:
         lexemes: []
 
 
-  # ------------------------------------------------------------------ B1 level test
-  - id: b1-test
-    kind: test
-    title: { he: "מבחן רמה B1", en: "B1 level test" }
-    exercises:
-      - id: b1-t-01
-        type: fill_blank
-        sentence: "I've worked here ___ 2019."
-        translation: "אני עובדת כאן מאז 2019."
-        answers: [since]
-        options: [since, for, from]
-        lexemes: [since]
-      - id: b1-t-02
-        type: dialogue_gap
-        lines:
-          - { speaker: "noa", text: "How long have you known Miriam?", translation: "כמה זמן אתה מכיר את מרים?" }
-          - { speaker: "david", text: "I've known her for four years.", translation: "אני מכיר אותה ארבע שנים." }
-        gap: 1
-        distractors: ["I know her for four years.", "I've known her since four years."]
-        lexemes: [how-long-have, known, for-time]
-      - id: b1-t-03
-        type: fill_blank
-        sentence: "I was cycling to work ___ I fell."
-        translation: "רכבתי לעבודה כשנפלתי."
-        answers: [when]
-        options: [when, while, during]
-        lexemes: [when, was-ing, fell]
-      - id: b1-t-04
-        type: multiple_choice
-        prompt: איזה משפט נכון?
-        options: ["While she was presenting, her phone rang.", "While she presented, her phone was ringing.", "While she was present, her phone ringing."]
-        correct: 0
-        lexemes: [while, was-ing]
-      - id: b1-t-05
-        type: fill_blank
-        sentence: "I ___ to drink five coffees a day."
-        translation: "פעם שתיתי חמישה קפה ביום."
-        answers: [used]
-        options: [used, use, was used]
-        lexemes: [used-to]
-      - id: b1-t-06
-        type: fill_blank
-        sentence: "If you sleep more, you ___ feel better."
-        translation: "אם תישן יותר, תרגיש יותר טוב."
-        answers: ["'ll"]
-        options: ["'ll", "'d", "are"]
-        lexemes: [if-will]
-      - id: b1-t-07
-        type: multiple_choice
-        prompt: "מה פירוש: You don't have to come?"
-        options: [לא צריך לבוא, אסור לבוא, חייבים לבוא]
-        correct: 0
-        lexemes: [dont-have-to]
-      - id: b1-t-08
-        type: fill_blank
-        sentence: "You ___ use the machine. It's dangerous."
-        translation: "אסור להשתמש במכונה. היא מסוכנת."
-        answers: ["mustn't"]
-        options: ["mustn't", "don't have to", "must"]
-        lexemes: [mustnt]
-      - id: b1-t-09
-        type: multiple_choice
-        prompt: "יש לך כרטיס ליום שני. מה אומרים?"
-        options: ["I'm flying to Madrid on Monday.", "I'll fly to Madrid on Monday, I think.", "I fly to Madrid on Monday maybe."]
-        correct: 0
-        lexemes: [continuous-future]
-      - id: b1-t-10
-        type: fill_blank
-        sentence: "Would you mind ___ the window?"
-        translation: "אכפת לך לסגור את החלון?"
-        answers: [closing]
-        options: [closing, close, to close]
-        lexemes: [would-you-mind]
-      - id: b1-t-11
-        type: fill_blank
-        sentence: "The music is loud. Can you turn ___ down?"
-        translation: "המוזיקה רועשת. אתה יכול להנמיך אותה?"
-        answers: [it]
-        options: [it, them, its]
-        lexemes: [turn-down]
-      - id: b1-t-12
-        type: fill_blank
-        sentence: "The app ___ launched last week."
-        translation: "האפליקציה הושקה בשבוע שעבר."
-        answers: [was]
-        options: [was, is, has]
-        lexemes: [passive, launch]
-      - id: b1-t-13
-        type: listening_choice
-        audioText: "The new office was designed by a famous architect."
-        question: מה נאמר על המשרד?
-        options: [הוא עוצב על ידי אדריכל מפורסם, הוא נבנה לפני הרבה שנים, הוא נמכר לאדריכל]
-        correct: 0
-        lexemes: [passive, by-agent]
-      - id: b1-t-14
-        type: fill_blank
-        sentence: "That's the café ___ we met."
-        translation: "זה בית הקפה שבו נפגשנו."
-        answers: [where]
-        options: [where, which, who]
-        lexemes: [where-rel]
-      - id: b1-t-15
-        type: fill_blank
-        sentence: "She's the neighbour ___ looks after my cat."
-        translation: "היא השכנה ששומרת על החתול שלי."
-        answers: [who]
-        options: [who, which, where]
-        lexemes: [who-rel, look-after]
-      - id: b1-t-16
-        type: fill_blank
-        sentence: "If I ___ you, I'd take the job."
-        translation: "במקומך, הייתי לוקח את העבודה."
-        answers: [were]
-        options: [were, am, will be]
-        lexemes: [if-i-were-you]
-      - id: b1-t-17
-        type: word_bank
-        prompt: "אילו היה לי יותר זמן, הייתי לומדת יפנית."
-        answers: ["If I had more time, I would learn Japanese.", "If I had more time, I'd learn Japanese.", "I would learn Japanese if I had more time."]
-        distractors: [will, have]
-        lexemes: [if-would]
-      - id: b1-t-18
-        type: multiple_choice
-        prompt: "'The server is down,' said David. איך מוסרים?"
-        options: ["David said that the server was down.", "David told that the server is down.", "David said me the server was down."]
-        correct: 0
-        lexemes: [said, down]
-      - id: b1-t-19
-        type: translate
-        direction: to_target
-        prompt: "היא ביקשה ממני להתקשר אליה."
-        answers: ["She asked me to call her."]
-        lexemes: [asked-if]
-      - id: b1-t-20
-        type: translate
-        direction: to_source
-        prompt: "I look forward to working with you."
-        answers: ["אני מצפה לעבוד איתך.", "אני מצפה לעבוד איתכם.", "אני מצפה לעבוד אתך.", "אני מחכה לעבוד איתך."]
-        lexemes: [look-forward-to]
   # ------------------------------------------------------------------ story words
   - id: u30-n1
     kind: new
@@ -1164,3 +1025,275 @@ lessons:
       lexemes:
       - confidence
       - satisfy
+
+  # ------------------------------------------------------------------ B1 level test
+  - id: b1-test
+    kind: test
+    title: { he: "מבחן רמה B1", en: "B1 level test" }
+    exercises:
+      - id: b1-t-01
+        type: fill_blank
+        sentence: "I've worked here ___ 2019."
+        translation: "אני עובדת כאן מאז 2019."
+        answers: [since]
+        options: [since, for, from]
+        lexemes: [since]
+      - id: b1-t-02
+        type: dialogue_gap
+        lines:
+          - { speaker: "noa", text: "How long have you known Miriam?", translation: "כמה זמן אתה מכיר את מרים?" }
+          - { speaker: "david", text: "I've known her for four years.", translation: "אני מכיר אותה ארבע שנים." }
+        gap: 1
+        distractors: ["I know her for four years.", "I've known her since four years."]
+        lexemes: [how-long-have, known, for-time]
+      - id: b1-t-03
+        type: fill_blank
+        sentence: "I was cycling to work ___ I fell."
+        translation: "רכבתי לעבודה כשנפלתי."
+        answers: [when]
+        options: [when, while, during]
+        lexemes: [when, was-ing, fell]
+      - id: b1-t-04
+        type: multiple_choice
+        prompt: איזה משפט נכון?
+        options: ["While she was presenting, her phone rang.", "While she presented, her phone was ringing.", "While she was present, her phone ringing."]
+        correct: 0
+        lexemes: [while, was-ing]
+      - id: b1-t-05
+        type: fill_blank
+        sentence: "I ___ to drink five coffees a day."
+        translation: "פעם שתיתי חמישה קפה ביום."
+        answers: [used]
+        options: [used, use, was used]
+        lexemes: [used-to]
+      - id: b1-t-06
+        type: fill_blank
+        sentence: "If you sleep more, you ___ feel better."
+        translation: "אם תישן יותר, תרגיש יותר טוב."
+        answers: ["'ll"]
+        options: ["'ll", "'d", "are"]
+        lexemes: [if-will]
+      - id: b1-t-07
+        type: multiple_choice
+        prompt: "מה פירוש: You don't have to come?"
+        options: [לא צריך לבוא, אסור לבוא, חייבים לבוא]
+        correct: 0
+        lexemes: [dont-have-to]
+      - id: b1-t-08
+        type: fill_blank
+        sentence: "You ___ use the machine. It's dangerous."
+        translation: "אסור להשתמש במכונה. היא מסוכנת."
+        answers: ["mustn't"]
+        options: ["mustn't", "don't have to", "must"]
+        lexemes: [mustnt]
+      - id: b1-t-09
+        type: multiple_choice
+        prompt: "יש לך כרטיס ליום שני. מה אומרים?"
+        options: ["I'm flying to Madrid on Monday.", "I'll fly to Madrid on Monday, I think.", "I fly to Madrid on Monday maybe."]
+        correct: 0
+        lexemes: [continuous-future]
+      - id: b1-t-10
+        type: fill_blank
+        sentence: "Would you mind ___ the window?"
+        translation: "אכפת לך לסגור את החלון?"
+        answers: [closing]
+        options: [closing, close, to close]
+        lexemes: [would-you-mind]
+      - id: b1-t-11
+        type: fill_blank
+        sentence: "The music is loud. Can you turn ___ down?"
+        translation: "המוזיקה רועשת. אתה יכול להנמיך אותה?"
+        answers: [it]
+        options: [it, them, its]
+        lexemes: [turn-down]
+      - id: b1-t-12
+        type: fill_blank
+        sentence: "The app ___ launched last week."
+        translation: "האפליקציה הושקה בשבוע שעבר."
+        answers: [was]
+        options: [was, is, has]
+        lexemes: [passive, launch]
+      - id: b1-t-13
+        type: listening_choice
+        audioText: "The new office was designed by a famous architect."
+        question: מה נאמר על המשרד?
+        options: [הוא עוצב על ידי אדריכל מפורסם, הוא נבנה לפני הרבה שנים, הוא נמכר לאדריכל]
+        correct: 0
+        lexemes: [passive, by-agent]
+      - id: b1-t-14
+        type: fill_blank
+        sentence: "That's the café ___ we met."
+        translation: "זה בית הקפה שבו נפגשנו."
+        answers: [where]
+        options: [where, which, who]
+        lexemes: [where-rel]
+      - id: b1-t-15
+        type: fill_blank
+        sentence: "She's the neighbour ___ looks after my cat."
+        translation: "היא השכנה ששומרת על החתול שלי."
+        answers: [who]
+        options: [who, which, where]
+        lexemes: [who-rel, look-after]
+      - id: b1-t-16
+        type: fill_blank
+        sentence: "If I ___ you, I'd take the job."
+        translation: "במקומך, הייתי לוקח את העבודה."
+        answers: [were]
+        options: [were, am, will be]
+        lexemes: [if-i-were-you]
+      - id: b1-t-17
+        type: word_bank
+        prompt: "אילו היה לי יותר זמן, הייתי לומדת יפנית."
+        answers: ["If I had more time, I would learn Japanese.", "If I had more time, I'd learn Japanese.", "I would learn Japanese if I had more time."]
+        distractors: [will, have]
+        lexemes: [if-would]
+      - id: b1-t-18
+        type: multiple_choice
+        prompt: "'The server is down,' said David. איך מוסרים?"
+        options: ["David said that the server was down.", "David told that the server is down.", "David said me the server was down."]
+        correct: 0
+        lexemes: [said, down]
+      - id: b1-t-19
+        type: translate
+        direction: to_target
+        prompt: "היא ביקשה ממני להתקשר אליה."
+        answers: ["She asked me to call her."]
+        lexemes: [asked-if]
+      - id: b1-t-20
+        type: translate
+        direction: to_source
+        prompt: "I look forward to working with you."
+        answers: ["אני מצפה לעבוד איתך.", "אני מצפה לעבוד איתכם.", "אני מצפה לעבוד אתך.", "אני מחכה לעבוד איתך."]
+        lexemes: [look-forward-to]
+      - id: b1-t-21
+        type: multiple_choice
+        prompt: מה פירוש status?
+        options:
+        - מצב; סטטוס
+        - מקסים
+        - לעקוב
+        correct: 0
+        lexemes:
+        - status
+      - id: b1-t-22
+        type: fill_blank
+        sentence: Honesty is a basic ___.
+        translation: יושרה היא עיקרון בסיסי.
+        answers:
+        - principle
+        options:
+        - principle
+        - survey
+        - consumer
+        lexemes:
+        - principle
+      - id: b1-t-23
+        type: multiple_choice
+        prompt: מה פירוש dangerous?
+        options:
+        - מסוכן
+        - שן
+        - מקסים
+        correct: 0
+        lexemes:
+        - dangerous
+      - id: b1-t-24
+        type: fill_blank
+        sentence: I have a pain in my ___.
+        translation: יש לי כאב בשן.
+        answers:
+        - tooth
+        options:
+        - tooth
+        - rail
+        - consumer
+        lexemes:
+        - tooth
+      - id: b1-t-25
+        type: multiple_choice
+        prompt: מה פירוש consumer?
+        options:
+        - צרכן
+        - סקר
+        - מסילה; רכבת
+        correct: 0
+        lexemes:
+        - consumer
+      - id: b1-t-26
+        type: fill_blank
+        sentence: We go by ___ to the airport.
+        translation: אנחנו נוסעים ברכבת לשדה התעופה.
+        answers:
+        - rail
+        options:
+        - rail
+        - youth
+        - lovely
+        lexemes:
+        - rail
+      - id: b1-t-27
+        type: multiple_choice
+        prompt: מה פירוש apartment?
+        options:
+        - דירה
+        - נוער
+        - מסוכן
+        correct: 0
+        lexemes:
+        - apartment
+      - id: b1-t-28
+        type: fill_blank
+        sentence: What a ___ garden!
+        translation: איזו גינה מקסימה!
+        answers:
+        - lovely
+        options:
+        - lovely
+        - tooth
+        - examine
+        lexemes:
+        - lovely
+      - id: b1-t-29
+        type: multiple_choice
+        prompt: מה פירוש survey?
+        options:
+        - סקר
+        - מקסים
+        - צרכן
+        correct: 0
+        lexemes:
+        - survey
+      - id: b1-t-30
+        type: fill_blank
+        sentence: The ___ group meets on Sunday.
+        translation: קבוצת הנוער נפגשת ביום ראשון.
+        answers:
+        - youth
+        options:
+        - youth
+        - lovely
+        - examine
+        lexemes:
+        - youth
+      - id: b1-t-31
+        type: multiple_choice
+        prompt: מה פירוש examine?
+        options:
+        - לבחון
+        - לעקוב
+        - מסילה; רכבת
+        correct: 0
+        lexemes:
+        - examine
+      - id: b1-t-32
+        type: fill_blank
+        sentence: We ___ the system all day.
+        translation: אנחנו עוקבים אחרי המערכת כל היום.
+        answers:
+        - monitor
+        options:
+        - monitor
+        - tooth
+        - youth
+        lexemes:
+        - monitor
