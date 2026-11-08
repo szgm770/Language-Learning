@@ -1,28 +1,29 @@
 id: p5-words
 cefr: B2
-scene: news
+scene: work
 title:
-  he: 'הרחבת אוצר מילים 5: חברה וחדשות'
-  en: 'Word builder 5: society and news'
-story: מילים לקריאת חדשות ולשיחה על חברה, חינוך, כלכלה וסביבה. כל מילה מופיעה במשפט.
+  he: הכתבה של דון ריקרדו
+  en: Don Ricardo's article
+story: 'דון ריקרדו מכין כתבה על העיר, ויעל עוזרת לו: סקר, חוקים, תחבורה, איכות הסביבה ושירותים לציבור. היא לומדת את שפת החברה והחדשות.'
 canDo:
-- להבין ולהשתמש במילים נפוצות נוספות
-- לזהות את המילים במשפטים אמיתיים
+- לדבר על חברה, כלכלה וחוקים
+- להציג עמדה על שירותים ציבוריים
+- לקרוא ולדון בכתבה
 vocabulary:
 - id: p5-encuesta
   text: la encuesta
   translation: סקר
   pos: noun
   example:
-    text: Según la encuesta, la mayoría está de acuerdo.
-    translation: לפי הסקר, רוב האנשים מסכימים.
+    text: La encuesta tiene diez preguntas.
+    translation: בסקר יש עשר שאלות.
 - id: p5-ley
   text: la ley
   translation: חוק
   pos: noun
   example:
-    text: La nueva ley entra en vigor en marzo.
-    translation: החוק החדש נכנס לתוקף במרץ.
+    text: Esa ley es nueva en la ciudad.
+    translation: החוק הזה חדש בעיר.
 - id: p5-derecho
   text: el derecho
   translation: זכות
@@ -35,8 +36,8 @@ vocabulary:
   translation: חובה
   pos: noun
   example:
-    text: Cuidar a los demás es una obligación.
-    translation: לדאוג לאחרים זו חובה.
+    text: Pagar impuestos es una obligación.
+    translation: תשלום מסים הוא חובה.
 - id: p5-sociedad
   text: la sociedad
   translation: חברה
@@ -49,8 +50,8 @@ vocabulary:
   translation: כלכלה
   pos: noun
   example:
-    text: La economía del país creció este año.
-    translation: כלכלת המדינה צמחה השנה.
+    text: La economía del país está mejorando.
+    translation: כלכלת המדינה משתפרת.
 - id: p5-empleo
   text: el empleo
   translation: תעסוקה, משרה
@@ -63,15 +64,15 @@ vocabulary:
   translation: חינוך
   pos: noun
   example:
-    text: La educación es la base del futuro.
-    translation: החינוך הוא הבסיס לעתיד.
+    text: La educación es muy importante.
+    translation: חינוך חשוב מאוד.
 - id: p5-transporte
   text: el transporte
   translation: תחבורה
   pos: noun
   example:
-    text: El transporte público es barato en la ciudad.
-    translation: התחבורה הציבורית זולה בעיר.
+    text: El transporte en la ciudad es lento.
+    translation: התחבורה בעיר איטית.
 - id: p5-contaminacion
   text: la contaminación
   translation: זיהום
@@ -84,29 +85,29 @@ vocabulary:
   translation: מיחזור
   pos: noun
   example:
-    text: El reciclaje ayuda a cuidar el planeta.
-    translation: המיחזור עוזר לשמור על כדור הארץ.
+    text: El reciclaje empieza en la casa.
+    translation: המיחזור מתחיל בבית.
 - id: p5-servicio
   text: el servicio
   translation: שירות
   pos: noun
   example:
-    text: El servicio de salud mejoró mucho.
-    translation: שירותי הבריאות השתפרו מאוד.
+    text: El servicio en este banco es excelente.
+    translation: השירות בבנק הזה מצוין.
 - id: p5-informar
   text: informar
   translation: להודיע, לדווח
   pos: verb
   example:
-    text: Los periódicos deben informar con honestidad.
-    translation: העיתונים צריכים לדווח ביושר.
+    text: Queremos informar a los vecinos.
+    translation: אנחנו רוצים ליידע את השכנים.
 - id: p5-denunciar
   text: denunciar
   translation: להתלונן, לדווח על
   pos: verb
   example:
-    text: Es importante denunciar los abusos.
-    translation: חשוב לדווח על התעללויות.
+    text: Hay que denunciar los abusos.
+    translation: צריך להתלונן על עוולות.
 - id: p5-regular
   text: regular
   translation: להסדיר
@@ -119,22 +120,22 @@ vocabulary:
   translation: להשקיע
   pos: verb
   example:
-    text: La ciudad va a invertir en transporte.
-    translation: העיר הולכת להשקיע בתחבורה.
+    text: Es buen momento para invertir en trenes.
+    translation: זה זמן טוב להשקיע ברכבות.
 - id: p5-apoyar
   text: apoyar
   translation: לתמוך
   pos: verb
   example:
-    text: Muchos vecinos quieren apoyar el proyecto.
-    translation: הרבה שכנים רוצים לתמוך בפרויקט.
+    text: Quiero apoyar este proyecto.
+    translation: אני רוצה לתמוך בפרויקט הזה.
 - id: p5-reducir
   text: reducir
   translation: להפחית
   pos: verb
   example:
-    text: Queremos reducir la contaminación.
-    translation: אנחנו רוצים להפחית את הזיהום.
+    text: Hay que reducir la contaminación.
+    translation: צריך להפחית את הזיהום.
 - id: p5-publico
   text: público
   translation: ציבורי
@@ -154,15 +155,15 @@ vocabulary:
   translation: עירוני
   pos: adjective
   example:
-    text: El transporte urbano es esencial.
-    translation: התחבורה העירונית חיונית.
+    text: El transporte urbano es lento.
+    translation: התחבורה העירונית איטית.
 - id: p5-sostenible
   text: sostenible
   translation: בר־קיימא
   pos: adjective
   example:
-    text: Buscamos una solución sostenible.
-    translation: אנחנו מחפשים פתרון בר־קיימא.
+    text: Buscamos un modelo sostenible.
+    translation: אנחנו מחפשים מודל בר־קיימא.
 - id: p5-vulnerable
   text: vulnerable
   translation: פגיע
@@ -175,22 +176,39 @@ vocabulary:
   translation: חינם
   pos: adjective
   example:
-    text: El servicio es gratuito para estudiantes.
-    translation: השירות הוא בחינם לסטודנטים.
+    text: El museo es gratuito los domingos.
+    translation: המוזיאון בחינם בימי ראשון.
 - id: p5-eficaz
   text: eficaz
   translation: יעיל
   pos: adjective
   example:
-    text: Es una medida eficaz y barata.
-    translation: זהו צעד יעיל וזול.
+    text: Es una medida muy eficaz.
+    translation: זה צעד יעיל מאוד.
 lessons:
 - id: p5-l1
   kind: new
   title:
-    he: חבילה 5 – חלק 1
-    en: Pack 5 – part 1
+    he: הסקר
+    en: The survey
   exercises:
+  - id: p5-l1-d1
+    type: dialogue
+    scene: בישיבת הבוקר דון ריקרדו מציג את הנושא של הכתבה.
+    lines:
+    - speaker: ricardo
+      text: La encuesta muestra que la sociedad quiere cambios en la economía.
+      translation: הסקר מראה שהחברה רוצה שינויים בכלכלה.
+    - speaker: yael
+      text: Hablan del empleo y de la educación para los jóvenes.
+      translation: מדברים על תעסוקה ועל חינוך לצעירים.
+    - speaker: ricardo
+      text: Cada ley tiene un derecho y también una obligación.
+      translation: בכל חוק יש זכות וגם חובה.
+    - speaker: yael
+      text: Voy a preparar un resumen.
+      translation: אכין סיכום.
+    lexemes: []
   - id: p5-l1-01
     type: learn
     lexeme: p5-encuesta
@@ -329,8 +347,8 @@ lessons:
     - p5-educacion
   - id: p5-l1-19
     type: fill_blank
-    sentence: Según la ___, la mayoría está de acuerdo.
-    translation: לפי הסקר, רוב האנשים מסכימים.
+    sentence: La ___ tiene diez preguntas.
+    translation: בסקר יש עשר שאלות.
     answers:
     - encuesta
     options:
@@ -341,8 +359,8 @@ lessons:
     - p5-encuesta
   - id: p5-l1-20
     type: fill_blank
-    sentence: La nueva ___ entra en vigor en marzo.
-    translation: החוק החדש נכנס לתוקף במרץ.
+    sentence: Esa ___ es nueva en la ciudad.
+    translation: החוק הזה חדש בעיר.
     answers:
     - ley
     options:
@@ -365,8 +383,8 @@ lessons:
     - p5-derecho
   - id: p5-l1-22
     type: fill_blank
-    sentence: Cuidar a los demás es una ___.
-    translation: לדאוג לאחרים זו חובה.
+    sentence: Pagar impuestos es una ___.
+    translation: תשלום מסים הוא חובה.
     answers:
     - obligación
     options:
@@ -389,8 +407,8 @@ lessons:
     - p5-sociedad
   - id: p5-l1-24
     type: fill_blank
-    sentence: La ___ del país creció este año.
-    translation: כלכלת המדינה צמחה השנה.
+    sentence: La ___ del país está mejorando.
+    translation: כלכלת המדינה משתפרת.
     answers:
     - economía
     options:
@@ -413,8 +431,8 @@ lessons:
     - p5-empleo
   - id: p5-l1-26
     type: fill_blank
-    sentence: La ___ es la base del futuro.
-    translation: החינוך הוא הבסיס לעתיד.
+    sentence: La ___ es muy importante.
+    translation: חינוך חשוב מאוד.
     answers:
     - educación
     options:
@@ -430,15 +448,32 @@ lessons:
     - p5-empleo
   - id: p5-l1-28
     type: dictation
-    text: La nueva ley entra en vigor en marzo.
+    text: Esa ley es nueva en la ciudad.
     lexemes:
     - p5-ley
 - id: p5-l2
   kind: new
   title:
-    he: חבילה 5 – חלק 2
-    en: Pack 5 – part 2
+    he: העיר והשירותים
+    en: The city and its services
   exercises:
+  - id: p5-l2-d1
+    type: dialogue
+    scene: יעל ודני מראיינים עובדי עירייה על תחבורה ואיכות הסביבה.
+    lines:
+    - speaker: dani
+      text: El transporte público necesita más servicio por la tarde.
+      translation: התחבורה הציבורית צריכה יותר שירות אחר הצהריים.
+    - speaker: yael
+      text: Y la contaminación es un problema; el reciclaje ayuda.
+      translation: והזיהום הוא בעיה; המיחזור עוזר.
+    - speaker: dani
+      text: Tenemos que informar a la gente y denunciar los abusos.
+      translation: צריך ליידע את האנשים ולהתלונן על עוולות.
+    - speaker: yael
+      text: Alguien debe regular los precios e invertir en trenes.
+      translation: מישהו צריך להסדיר את המחירים ולהשקיע ברכבות.
+    lexemes: []
   - id: p5-l2-01
     type: learn
     lexeme: p5-transporte
@@ -577,8 +612,8 @@ lessons:
     - p5-invertir
   - id: p5-l2-19
     type: fill_blank
-    sentence: El ___ público es barato en la ciudad.
-    translation: התחבורה הציבורית זולה בעיר.
+    sentence: El ___ en la ciudad es lento.
+    translation: התחבורה בעיר איטית.
     answers:
     - transporte
     options:
@@ -601,8 +636,8 @@ lessons:
     - p5-contaminacion
   - id: p5-l2-21
     type: fill_blank
-    sentence: El ___ ayuda a cuidar el planeta.
-    translation: המיחזור עוזר לשמור על כדור הארץ.
+    sentence: El ___ empieza en la casa.
+    translation: המיחזור מתחיל בבית.
     answers:
     - reciclaje
     options:
@@ -613,8 +648,8 @@ lessons:
     - p5-reciclaje
   - id: p5-l2-22
     type: fill_blank
-    sentence: El ___ de salud mejoró mucho.
-    translation: שירותי הבריאות השתפרו מאוד.
+    sentence: El ___ en este banco es excelente.
+    translation: השירות בבנק הזה מצוין.
     answers:
     - servicio
     options:
@@ -625,8 +660,8 @@ lessons:
     - p5-servicio
   - id: p5-l2-23
     type: fill_blank
-    sentence: Los periódicos deben ___ con honestidad.
-    translation: העיתונים צריכים לדווח ביושר.
+    sentence: Queremos ___ a los vecinos.
+    translation: אנחנו רוצים ליידע את השכנים.
     answers:
     - informar
     options:
@@ -637,8 +672,8 @@ lessons:
     - p5-informar
   - id: p5-l2-24
     type: fill_blank
-    sentence: Es importante ___ los abusos.
-    translation: חשוב לדווח על התעללויות.
+    sentence: Hay que ___ los abusos.
+    translation: צריך להתלונן על עוולות.
     answers:
     - denunciar
     options:
@@ -661,8 +696,8 @@ lessons:
     - p5-regular
   - id: p5-l2-26
     type: fill_blank
-    sentence: La ciudad va a ___ en transporte.
-    translation: העיר הולכת להשקיע בתחבורה.
+    sentence: Es buen momento para ___ en trenes.
+    translation: זה זמן טוב להשקיע ברכבות.
     answers:
     - invertir
     options:
@@ -673,20 +708,37 @@ lessons:
     - p5-invertir
   - id: p5-l2-27
     type: dictation
-    text: La ciudad va a invertir en transporte.
+    text: Es buen momento para invertir en trenes.
     lexemes:
     - p5-invertir
   - id: p5-l2-28
     type: dictation
-    text: Es importante denunciar los abusos.
+    text: Hay que denunciar los abusos.
     lexemes:
     - p5-denunciar
 - id: p5-l3
   kind: new
   title:
-    he: חבילה 5 – חלק 3
-    en: Pack 5 – part 3
+    he: מסקנות
+    en: Conclusions
   exercises:
+  - id: p5-l3-d1
+    type: dialogue
+    scene: הכתבה כמעט מוכנה. הצוות עובר על המסקנות.
+    lines:
+    - speaker: ricardo
+      text: Hay que apoyar los servicios públicos y reducir los costos.
+      translation: צריך לתמוך בשירותים ציבוריים ולהפחית עלויות.
+    - speaker: yael
+      text: Un transporte urbano sostenible ayuda a los más vulnerables.
+      translation: תחבורה עירונית בת־קיימא עוזרת לפגיעים ביותר.
+    - speaker: dani
+      text: 'Y debe ser gratuito para los niños: es una medida eficaz.'
+      translation: 'והיא צריכה להיות חינם לילדים: זה צעד יעיל.'
+    - speaker: ricardo
+      text: Perfecto, es un tema social importante.
+      translation: מצוין, זה נושא חברתי חשוב.
+    lexemes: []
   - id: p5-l3-01
     type: learn
     lexeme: p5-apoyar
@@ -841,8 +893,8 @@ lessons:
     - p5-eficaz
   - id: p5-l3-21
     type: fill_blank
-    sentence: Muchos vecinos quieren ___ el proyecto.
-    translation: הרבה שכנים רוצים לתמוך בפרויקט.
+    sentence: Quiero ___ este proyecto.
+    translation: אני רוצה לתמוך בפרויקט הזה.
     answers:
     - apoyar
     options:
@@ -853,8 +905,8 @@ lessons:
     - p5-apoyar
   - id: p5-l3-22
     type: fill_blank
-    sentence: Queremos ___ la contaminación.
-    translation: אנחנו רוצים להפחית את הזיהום.
+    sentence: Hay que ___ la contaminación.
+    translation: צריך להפחית את הזיהום.
     answers:
     - reducir
     options:
@@ -889,8 +941,8 @@ lessons:
     - p5-social
   - id: p5-l3-25
     type: fill_blank
-    sentence: El transporte ___ es esencial.
-    translation: התחבורה העירונית חיונית.
+    sentence: El transporte ___ es lento.
+    translation: התחבורה העירונית איטית.
     answers:
     - urbano
     options:
@@ -901,8 +953,8 @@ lessons:
     - p5-urbano
   - id: p5-l3-26
     type: fill_blank
-    sentence: Buscamos una solución ___.
-    translation: אנחנו מחפשים פתרון בר־קיימא.
+    sentence: Buscamos un modelo ___.
+    translation: אנחנו מחפשים מודל בר־קיימא.
     answers:
     - sostenible
     options:
@@ -925,8 +977,8 @@ lessons:
     - p5-vulnerable
   - id: p5-l3-28
     type: fill_blank
-    sentence: El servicio es ___ para estudiantes.
-    translation: השירות הוא בחינם לסטודנטים.
+    sentence: El museo es ___ los domingos.
+    translation: המוזיאון בחינם בימי ראשון.
     answers:
     - gratuito
     options:
@@ -937,8 +989,8 @@ lessons:
     - p5-gratuito
   - id: p5-l3-29
     type: fill_blank
-    sentence: Es una medida ___ y barata.
-    translation: זהו צעד יעיל וזול.
+    sentence: Es una medida muy ___.
+    translation: זה צעד יעיל מאוד.
     answers:
     - eficaz
     options:

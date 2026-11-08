@@ -1,21 +1,22 @@
 id: p3-words
 cefr: B1
-scene: tech
+scene: work
 title:
-  he: 'הרחבת אוצר מילים 3: עבודה וטכנולוגיה'
-  en: 'Word builder 3: work and technology'
-story: 'מילים לעבודה, למחשב ולטלפון: כלים, פעולות ותקלות יומיומיות. כל מילה מופיעה במשפט.'
+  he: המשרד של דון ריקרדו
+  en: Don Ricardo's office
+story: 'יעל מתחילה פרויקט חדש במשרד של דון ריקרדו: סיסמאות, רשת, עדכונים וגיבויים. היא לומדת את שפת המחשב והעבודה היומיומית.'
 canDo:
-- להבין ולהשתמש במילים נפוצות נוספות
-- לזהות את המילים במשפטים אמיתיים
+- לדבר על ציוד ותוכנות במשרד
+- לבקש עזרה טכנית
+- לתאר פעולות במחשב
 vocabulary:
 - id: p3-horario
   text: el horario
   translation: לוח זמנים, שעות
   pos: noun
   example:
-    text: El horario de la oficina es de nueve a seis.
-    translation: שעות המשרד הן מתשע עד שש.
+    text: Mi horario es de nueve a cinco.
+    translation: שעות העבודה שלי הן מתשע עד חמש.
 - id: p3-herramienta
   text: la herramienta
   translation: כלי
@@ -28,36 +29,36 @@ vocabulary:
   translation: סיסמה
   pos: noun
   example:
-    text: Olvidé la contraseña de mi correo.
-    translation: שכחתי את הסיסמה של הדואר שלי.
+    text: No compartas tu contraseña con nadie.
+    translation: אל תשתף את הסיסמה שלך עם אף אחד.
 - id: p3-pantalla
   text: la pantalla
   translation: מסך
   pos: noun
   example:
-    text: La pantalla de mi laptop es muy brillante.
-    translation: המסך של הלפטופ שלי בהיר מאוד.
+    text: La pantalla de mi computadora es grande.
+    translation: המסך של המחשב שלי גדול.
 - id: p3-teclado
   text: el teclado
   translation: מקלדת
   pos: noun
   example:
-    text: Necesito un teclado en español.
-    translation: אני צריכה מקלדת בספרדית.
+    text: Necesito un teclado nuevo.
+    translation: אני צריכה מקלדת חדשה.
 - id: p3-red
   text: la red
   translation: רשת
   pos: noun
   example:
-    text: No hay red en este lugar.
-    translation: אין רשת במקום הזה.
+    text: La red de la oficina es muy rápida.
+    translation: הרשת של המשרד מהירה מאוד.
 - id: p3-aplicacion
   text: la aplicación
   translation: אפליקציה
   pos: noun
   example:
-    text: Descargué una aplicación nueva para estudiar.
-    translation: הורדתי אפליקציה חדשה ללימוד.
+    text: Descargué la aplicación en mi celular.
+    translation: הורדתי את האפליקציה בנייד.
 - id: p3-actualizacion
   text: la actualización
   translation: עדכון
@@ -70,127 +71,144 @@ vocabulary:
   translation: גיבוי
   pos: noun
   example:
-    text: Hago un respaldo de mis archivos cada semana.
-    translation: אני עושה גיבוי לקבצים שלי כל שבוע.
+    text: Hago un respaldo cada semana.
+    translation: אני עושה גיבוי כל שבוע.
 - id: p3-plataforma
   text: la plataforma
   translation: פלטפורמה
   pos: noun
   example:
-    text: Usamos una plataforma para las clases.
-    translation: אנחנו משתמשים בפלטפורמה לשיעורים.
+    text: Usamos una plataforma nueva para el curso.
+    translation: אנחנו משתמשים בפלטפורמה חדשה לקורס.
 - id: p3-raton
   text: el ratón
   translation: עכבר (מחשב)
   pos: noun
   example:
-    text: Mi ratón no funciona bien.
-    translation: העכבר שלי לא עובד טוב.
+    text: El ratón no funciona bien.
+    translation: העכבר לא עובד טוב.
 - id: p3-cargador
   text: el cargador
   translation: מטען
   pos: noun
   example:
-    text: Olvidé el cargador del celular.
-    translation: שכחתי את המטען של הנייד.
+    text: ¿Dónde está el cargador de mi celular?
+    translation: איפה המטען של הנייד שלי?
 - id: p3-descargar
   text: descargar
   translation: להוריד (קובץ)
   pos: verb
   example:
-    text: Voy a descargar el archivo ahora.
-    translation: אני אוריד את הקובץ עכשיו.
+    text: Voy a descargar el informe ahora.
+    translation: אני הולכת להוריד את הדוח עכשיו.
 - id: p3-subir
   text: subir
   translation: להעלות
   pos: verb
   example:
-    text: Tengo que subir la tarea a la plataforma.
-    translation: אני צריכה להעלות את שיעורי הבית לפלטפורמה.
+    text: Puedes subir las fotos a la plataforma.
+    translation: אפשר להעלות את התמונות לפלטפורמה.
 - id: p3-guardar
   text: guardar
   translation: לשמור
   pos: verb
   example:
-    text: No olvides guardar el documento.
-    translation: אל תשכח לשמור את המסמך.
+    text: No olvides guardar el archivo.
+    translation: אל תשכח לשמור את הקובץ.
 - id: p3-actualizar
   text: actualizar
   translation: לעדכן
   pos: verb
   example:
-    text: Hay que actualizar el programa.
-    translation: צריך לעדכן את התוכנה.
+    text: Tengo que actualizar el programa hoy.
+    translation: אני צריכה לעדכן את התוכנה היום.
 - id: p3-instalar
   text: instalar
   translation: להתקין
   pos: verb
   example:
-    text: Mateo me ayudó a instalar la aplicación.
-    translation: מתאו עזר לי להתקין את האפליקציה.
+    text: Voy a instalar el programa nuevo.
+    translation: אני הולכת להתקין את התוכנה החדשה.
 - id: p3-conectarse
   text: conectarse
   translation: להתחבר
   pos: verb
   example:
-    text: Es difícil conectarse desde el tren.
-    translation: קשה להתחבר מהרכבת.
+    text: Es difícil conectarse a la red aquí.
+    translation: קשה להתחבר לרשת כאן.
 - id: p3-borrar
   text: borrar
   translation: למחוק
   pos: verb
   example:
-    text: Voy a borrar los mensajes viejos.
-    translation: אמחק את ההודעות הישנות.
+    text: Puedes borrar los archivos viejos.
+    translation: אפשר למחוק את הקבצים הישנים.
 - id: p3-programar
   text: programar
   translation: לתכנת, לתזמן
   pos: verb
   example:
-    text: Mi trabajo es programar aplicaciones.
-    translation: העבודה שלי היא לתכנת אפליקציות.
+    text: Hay que programar una reunión para mañana.
+    translation: צריך לקבוע פגישה למחר.
 - id: p3-imprimir
   text: imprimir
   translation: להדפיס
   pos: verb
   example:
-    text: ¿Puedes imprimir este documento?
-    translation: אתה יכול להדפיס את המסמך הזה?
+    text: Necesito imprimir el contrato.
+    translation: אני צריכה להדפיס את החוזה.
 - id: p3-escanear
   text: escanear
   translation: לסרוק
   pos: verb
   example:
-    text: Tengo que escanear mi pasaporte.
-    translation: אני צריכה לסרוק את הדרכון שלי.
+    text: Voy a escanear los documentos.
+    translation: אני הולכת לסרוק את המסמכים.
 - id: p3-disponible
   text: disponible
   translation: זמין, פנוי
   pos: adjective
   example:
-    text: El cliente no está disponible hoy.
-    translation: הלקוח לא זמין היום.
+    text: El doctor está disponible por la tarde.
+    translation: הדוקטור פנוי אחר הצהריים.
 - id: p3-lento
   text: lento
   translation: איטי
   pos: adjective
   example:
-    text: El internet está muy lento hoy.
-    translation: האינטרנט איטי מאוד היום.
+    text: Mi internet está muy lento hoy.
+    translation: האינטרנט שלי איטי מאוד היום.
 - id: p3-compatible
   text: compatible
   translation: תואם
   pos: adjective
   example:
-    text: Esta aplicación no es compatible con mi celular.
-    translation: האפליקציה הזו לא תואמת לנייד שלי.
+    text: Este cargador es compatible con mi celular.
+    translation: המטען הזה תואם לנייד שלי.
 lessons:
 - id: p3-l1
   kind: new
   title:
-    he: חבילה 3 – חלק 1
-    en: Pack 3 – part 1
+    he: הציוד במשרד
+    en: Office equipment
   exercises:
+  - id: p3-l1-d1
+    type: dialogue
+    scene: בוקר ראשון בפרויקט. מתאו מסביר ליעל איך הכול עובד.
+    lines:
+    - speaker: mateo
+      text: Este es tu horario y aquí está tu contraseña; no la compartas.
+      translation: זה לוח הזמנים שלך וזאת הסיסמה שלך; אל תשתפי אותה.
+    - speaker: yael
+      text: La pantalla es muy grande y el teclado es nuevo.
+      translation: המסך גדול מאוד והמקלדת חדשה.
+    - speaker: mateo
+      text: La red es rápida y tenemos una aplicación para todo.
+      translation: הרשת מהירה ויש לנו אפליקציה לכל דבר.
+    - speaker: yael
+      text: ¿Y las herramientas del equipo?
+      translation: ומה עם הכלים של הצוות?
+    lexemes: []
   - id: p3-l1-01
     type: learn
     lexeme: p3-horario
@@ -329,8 +347,8 @@ lessons:
     - p3-actualizacion
   - id: p3-l1-19
     type: fill_blank
-    sentence: El ___ de la oficina es de nueve a seis.
-    translation: שעות המשרד הן מתשע עד שש.
+    sentence: Mi ___ es de nueve a cinco.
+    translation: שעות העבודה שלי הן מתשע עד חמש.
     answers:
     - horario
     options:
@@ -353,8 +371,8 @@ lessons:
     - p3-herramienta
   - id: p3-l1-21
     type: fill_blank
-    sentence: Olvidé la ___ de mi correo.
-    translation: שכחתי את הסיסמה של הדואר שלי.
+    sentence: No compartas tu ___ con nadie.
+    translation: אל תשתף את הסיסמה שלך עם אף אחד.
     answers:
     - contraseña
     options:
@@ -365,8 +383,8 @@ lessons:
     - p3-contrasena
   - id: p3-l1-22
     type: fill_blank
-    sentence: La ___ de mi laptop es muy brillante.
-    translation: המסך של הלפטופ שלי בהיר מאוד.
+    sentence: La ___ de mi computadora es grande.
+    translation: המסך של המחשב שלי גדול.
     answers:
     - pantalla
     options:
@@ -377,8 +395,8 @@ lessons:
     - p3-pantalla
   - id: p3-l1-23
     type: fill_blank
-    sentence: Necesito un ___ en español.
-    translation: אני צריכה מקלדת בספרדית.
+    sentence: Necesito un ___ nuevo.
+    translation: אני צריכה מקלדת חדשה.
     answers:
     - teclado
     options:
@@ -389,8 +407,8 @@ lessons:
     - p3-teclado
   - id: p3-l1-24
     type: fill_blank
-    sentence: No hay ___ en este lugar.
-    translation: אין רשת במקום הזה.
+    sentence: La ___ de la oficina es muy rápida.
+    translation: הרשת של המשרד מהירה מאוד.
     answers:
     - red
     options:
@@ -401,8 +419,8 @@ lessons:
     - p3-red
   - id: p3-l1-25
     type: fill_blank
-    sentence: Descargué una ___ nueva para estudiar.
-    translation: הורדתי אפליקציה חדשה ללימוד.
+    sentence: Descargué la ___ en mi celular.
+    translation: הורדתי את האפליקציה בנייד.
     answers:
     - aplicación
     options:
@@ -425,20 +443,37 @@ lessons:
     - p3-actualizacion
   - id: p3-l1-27
     type: dictation
-    text: La pantalla de mi laptop es muy brillante.
+    text: La pantalla de mi computadora es grande.
     lexemes:
     - p3-pantalla
   - id: p3-l1-28
     type: dictation
-    text: Necesito un teclado en español.
+    text: Necesito un teclado nuevo.
     lexemes:
     - p3-teclado
 - id: p3-l2
   kind: new
   title:
-    he: חבילה 3 – חלק 2
-    en: Pack 3 – part 2
+    he: גיבוי לפני שישי
+    en: Backup before Friday
   exercises:
+  - id: p3-l2-d1
+    type: dialogue
+    scene: יום חמישי אחר הצהריים. הכול צריך להיות מוכן לפני השבת.
+    lines:
+    - speaker: ricardo
+      text: Antes del viernes quiero un respaldo de todo en la plataforma.
+      translation: לפני יום שישי אני רוצה גיבוי של הכול בפלטפורמה.
+    - speaker: yael
+      text: Voy a guardar los archivos y actualizar el programa.
+      translation: אני אשמור את הקבצים ואעדכן את התוכנה.
+    - speaker: mateo
+      text: Yo puedo subir las fotos; ¿dónde está el cargador y el ratón?
+      translation: אני יכול להעלות את התמונות; איפה המטען והעכבר?
+    - speaker: yael
+      text: Primero hay que descargar el informe.
+      translation: קודם צריך להוריד את הדוח.
+    lexemes: []
   - id: p3-l2-01
     type: learn
     lexeme: p3-respaldo
@@ -577,8 +612,8 @@ lessons:
     - p3-actualizar
   - id: p3-l2-19
     type: fill_blank
-    sentence: Hago un ___ de mis archivos cada semana.
-    translation: אני עושה גיבוי לקבצים שלי כל שבוע.
+    sentence: Hago un ___ cada semana.
+    translation: אני עושה גיבוי כל שבוע.
     answers:
     - respaldo
     options:
@@ -589,8 +624,8 @@ lessons:
     - p3-respaldo
   - id: p3-l2-20
     type: fill_blank
-    sentence: Usamos una ___ para las clases.
-    translation: אנחנו משתמשים בפלטפורמה לשיעורים.
+    sentence: Usamos una ___ nueva para el curso.
+    translation: אנחנו משתמשים בפלטפורמה חדשה לקורס.
     answers:
     - plataforma
     options:
@@ -601,8 +636,8 @@ lessons:
     - p3-plataforma
   - id: p3-l2-21
     type: fill_blank
-    sentence: Mi ___ no funciona bien.
-    translation: העכבר שלי לא עובד טוב.
+    sentence: El ___ no funciona bien.
+    translation: העכבר לא עובד טוב.
     answers:
     - ratón
     options:
@@ -613,8 +648,8 @@ lessons:
     - p3-raton
   - id: p3-l2-22
     type: fill_blank
-    sentence: Olvidé el ___ del celular.
-    translation: שכחתי את המטען של הנייד.
+    sentence: ¿Dónde está el ___ de mi celular?
+    translation: איפה המטען של הנייד שלי?
     answers:
     - cargador
     options:
@@ -625,8 +660,8 @@ lessons:
     - p3-cargador
   - id: p3-l2-23
     type: fill_blank
-    sentence: Voy a ___ el archivo ahora.
-    translation: אני אוריד את הקובץ עכשיו.
+    sentence: Voy a ___ el informe ahora.
+    translation: אני הולכת להוריד את הדוח עכשיו.
     answers:
     - descargar
     options:
@@ -637,8 +672,8 @@ lessons:
     - p3-descargar
   - id: p3-l2-24
     type: fill_blank
-    sentence: Tengo que ___ la tarea a la plataforma.
-    translation: אני צריכה להעלות את שיעורי הבית לפלטפורמה.
+    sentence: Puedes ___ las fotos a la plataforma.
+    translation: אפשר להעלות את התמונות לפלטפורמה.
     answers:
     - subir
     options:
@@ -649,8 +684,8 @@ lessons:
     - p3-subir
   - id: p3-l2-25
     type: fill_blank
-    sentence: No olvides ___ el documento.
-    translation: אל תשכח לשמור את המסמך.
+    sentence: No olvides ___ el archivo.
+    translation: אל תשכח לשמור את הקובץ.
     answers:
     - guardar
     options:
@@ -661,8 +696,8 @@ lessons:
     - p3-guardar
   - id: p3-l2-26
     type: fill_blank
-    sentence: Hay que ___ el programa.
-    translation: צריך לעדכן את התוכנה.
+    sentence: Tengo que ___ el programa hoy.
+    translation: אני צריכה לעדכן את התוכנה היום.
     answers:
     - actualizar
     options:
@@ -673,20 +708,37 @@ lessons:
     - p3-actualizar
   - id: p3-l2-27
     type: dictation
-    text: Tengo que subir la tarea a la plataforma.
+    text: Puedes subir las fotos a la plataforma.
     lexemes:
     - p3-subir
   - id: p3-l2-28
     type: dictation
-    text: Hay que actualizar el programa.
+    text: Tengo que actualizar el programa hoy.
     lexemes:
     - p3-actualizar
 - id: p3-l3
   kind: new
   title:
-    he: חבילה 3 – חלק 3
-    en: Pack 3 – part 3
+    he: בעיות במחשב
+    en: Computer problems
   exercises:
+  - id: p3-l3-d1
+    type: dialogue
+    scene: המחשב של יעל איטי. דר' הררה עובר ומציע עזרה.
+    lines:
+    - speaker: yael
+      text: Mi computadora está muy lenta y no puedo conectarme a la red.
+      translation: המחשב שלי איטי מאוד ואני לא מצליחה להתחבר לרשת.
+    - speaker: herrera
+      text: Primero hay que instalar la versión nueva; es compatible con tu equipo.
+      translation: קודם צריך להתקין את הגרסה החדשה; היא תואמת למחשב שלך.
+    - speaker: yael
+      text: Voy a borrar archivos viejos, imprimir el contrato y escanear la firma.
+      translation: אני אמחק קבצים ישנים, אדפיס את החוזה ואסרוק את החתימה.
+    - speaker: herrera
+      text: Cuando termines, programa una reunión; mañana estoy disponible.
+      translation: כשתסיימי, קבעי פגישה; מחר אני פנוי.
+    lexemes: []
   - id: p3-l3-01
     type: learn
     lexeme: p3-instalar
@@ -841,8 +893,8 @@ lessons:
     - p3-compatible
   - id: p3-l3-21
     type: fill_blank
-    sentence: Mateo me ayudó a ___ la aplicación.
-    translation: מתאו עזר לי להתקין את האפליקציה.
+    sentence: Voy a ___ el programa nuevo.
+    translation: אני הולכת להתקין את התוכנה החדשה.
     answers:
     - instalar
     options:
@@ -853,8 +905,8 @@ lessons:
     - p3-instalar
   - id: p3-l3-22
     type: fill_blank
-    sentence: Es difícil ___ desde el tren.
-    translation: קשה להתחבר מהרכבת.
+    sentence: Es difícil ___ a la red aquí.
+    translation: קשה להתחבר לרשת כאן.
     answers:
     - conectarse
     options:
@@ -865,8 +917,8 @@ lessons:
     - p3-conectarse
   - id: p3-l3-23
     type: fill_blank
-    sentence: Voy a ___ los mensajes viejos.
-    translation: אמחק את ההודעות הישנות.
+    sentence: Puedes ___ los archivos viejos.
+    translation: אפשר למחוק את הקבצים הישנים.
     answers:
     - borrar
     options:
@@ -877,8 +929,8 @@ lessons:
     - p3-borrar
   - id: p3-l3-24
     type: fill_blank
-    sentence: Mi trabajo es ___ aplicaciones.
-    translation: העבודה שלי היא לתכנת אפליקציות.
+    sentence: Hay que ___ una reunión para mañana.
+    translation: צריך לקבוע פגישה למחר.
     answers:
     - programar
     options:
@@ -889,8 +941,8 @@ lessons:
     - p3-programar
   - id: p3-l3-25
     type: fill_blank
-    sentence: ¿Puedes ___ este documento?
-    translation: אתה יכול להדפיס את המסמך הזה?
+    sentence: Necesito ___ el contrato.
+    translation: אני צריכה להדפיס את החוזה.
     answers:
     - imprimir
     options:
@@ -901,8 +953,8 @@ lessons:
     - p3-imprimir
   - id: p3-l3-26
     type: fill_blank
-    sentence: Tengo que ___ mi pasaporte.
-    translation: אני צריכה לסרוק את הדרכון שלי.
+    sentence: Voy a ___ los documentos.
+    translation: אני הולכת לסרוק את המסמכים.
     answers:
     - escanear
     options:
@@ -913,8 +965,8 @@ lessons:
     - p3-escanear
   - id: p3-l3-27
     type: fill_blank
-    sentence: El cliente no está ___ hoy.
-    translation: הלקוח לא זמין היום.
+    sentence: El doctor está ___ por la tarde.
+    translation: הדוקטור פנוי אחר הצהריים.
     answers:
     - disponible
     options:
@@ -925,8 +977,8 @@ lessons:
     - p3-disponible
   - id: p3-l3-28
     type: fill_blank
-    sentence: El internet está muy ___ hoy.
-    translation: האינטרנט איטי מאוד היום.
+    sentence: Mi internet está muy ___ hoy.
+    translation: האינטרנט שלי איטי מאוד היום.
     answers:
     - lento
     options:
@@ -937,8 +989,8 @@ lessons:
     - p3-lento
   - id: p3-l3-29
     type: fill_blank
-    sentence: Esta aplicación no es ___ con mi celular.
-    translation: האפליקציה הזו לא תואמת לנייד שלי.
+    sentence: Este cargador es ___ con mi celular.
+    translation: המטען הזה תואם לנייד שלי.
     answers:
     - compatible
     options:
@@ -949,11 +1001,11 @@ lessons:
     - p3-compatible
   - id: p3-l3-30
     type: dictation
-    text: Es difícil conectarse desde el tren.
+    text: Es difícil conectarse a la red aquí.
     lexemes:
     - p3-conectarse
   - id: p3-l3-31
     type: dictation
-    text: ¿Puedes imprimir este documento?
+    text: Necesito imprimir el contrato.
     lexemes:
     - p3-imprimir

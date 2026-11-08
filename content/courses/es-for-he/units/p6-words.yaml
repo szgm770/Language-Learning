@@ -2,153 +2,154 @@ id: p6-words
 cefr: C1
 scene: study
 title:
-  he: 'הרחבת אוצר מילים 6: שפה מופשטת ומתקדמת'
-  en: 'Word builder 6: advanced and abstract'
-story: 'מילים לשיחה מתקדמת ולכתיבה אקדמית: מושגים, פעלים רטוריים ותארים מדויקים. כל מילה מופיעה במשפט.'
+  he: ההרצאה האחרונה
+  en: The last lecture
+story: 'לקראת הפרידה, יעל מרצה בפני הצוות של דון ריקרדו על מה שלמדה. עכשיו היא מתמודדת עם שפה מופשטת: מגמות, קריטריונים, נקודות מבט וניואנסים.'
 canDo:
-- להבין ולהשתמש במילים נפוצות נוספות
-- לזהות את המילים במשפטים אמיתיים
+- להציג רעיון מופשט בבהירות
+- לנסח עמדה ולהצדיק אותה
+- לנתח טקסט ולהעיר עליו בעדינות
 vocabulary:
 - id: p6-tendencia
   text: la tendencia
   translation: מגמה
   pos: noun
   example:
-    text: Hay una tendencia a trabajar desde casa.
-    translation: יש מגמה לעבוד מהבית.
+    text: Hay una tendencia clara en los datos.
+    translation: יש מגמה ברורה בנתונים.
 - id: p6-criterio
   text: el criterio
   translation: קריטריון, שיקול דעת
   pos: noun
   example:
-    text: Cada uno tiene su propio criterio.
-    translation: לכל אחד יש שיקול דעת משלו.
+    text: ¿Qué criterio usaste para elegir?
+    translation: באיזה קריטריון השתמשת כדי לבחור?
 - id: p6-alcance
   text: el alcance
   translation: היקף, טווח
   pos: noun
   example:
-    text: El alcance del proyecto es enorme.
-    translation: היקף הפרויקט עצום.
+    text: El alcance del proyecto es limitado.
+    translation: היקף הפרויקט מוגבל.
 - id: p6-premisa
   text: la premisa
   translation: הנחת יסוד
   pos: noun
   example:
-    text: La premisa del argumento es falsa.
-    translation: הנחת היסוד של הטיעון שגויה.
+    text: La premisa del estudio es muy simple.
+    translation: הנחת היסוד של המחקר פשוטה מאוד.
 - id: p6-vinculo
   text: el vínculo
   translation: קשר, זיקה
   pos: noun
   example:
-    text: Existe un vínculo entre ambos temas.
-    translation: קיים קשר בין שני הנושאים.
+    text: Hay un vínculo fuerte entre ambos temas.
+    translation: יש קשר חזק בין שני הנושאים.
 - id: p6-brecha
   text: la brecha
   translation: פער
   pos: noun
   example:
-    text: Hay una brecha entre la teoría y la práctica.
-    translation: יש פער בין התיאוריה לפרקטיקה.
+    text: Existe una brecha entre ricos y pobres.
+    translation: קיים פער בין עשירים לעניים.
 - id: p6-rasgo
   text: el rasgo
   translation: תכונה, מאפיין
   pos: noun
   example:
-    text: La paciencia es un rasgo importante.
-    translation: סבלנות היא תכונה חשובה.
+    text: La honestidad es un rasgo importante.
+    translation: יושר הוא תכונה חשובה.
 - id: p6-ambito
   text: el ámbito
   translation: תחום, היקף
   pos: noun
   example:
-    text: En el ámbito laboral, la puntualidad es clave.
-    translation: בתחום העבודה, דייקנות היא מפתח.
+    text: Trabajo en el ámbito de la educación.
+    translation: אני עובדת בתחום החינוך.
 - id: p6-perspectiva
   text: la perspectiva
   translation: נקודת מבט, אופק
   pos: noun
   example:
-    text: Desde esa perspectiva, el problema cambia.
-    translation: מנקודת המבט הזו הבעיה משתנה.
+    text: Desde mi perspectiva, es una buena idea.
+    translation: מנקודת מבטי, זה רעיון טוב.
 - id: p6-sesgo
   text: el sesgo
   translation: הטיה
   pos: noun
   example:
-    text: Todo estudio puede tener un sesgo.
-    translation: בכל מחקר יכולה להיות הטיה.
+    text: Hay un sesgo en la encuesta.
+    translation: יש הטיה בסקר.
 - id: p6-coyuntura
   text: la coyuntura
   translation: מצב, צירוף נסיבות
   pos: noun
   example:
-    text: En esta coyuntura, es mejor esperar.
-    translation: במצב הנוכחי עדיף לחכות.
+    text: En la coyuntura actual es difícil invertir.
+    translation: במצב הנוכחי קשה להשקיע.
 - id: p6-planteamiento
   text: el planteamiento
   translation: גישה, הצגת הבעיה
   pos: noun
   example:
-    text: Su planteamiento del problema es original.
-    translation: הגישה שלו לבעיה מקורית.
+    text: Su planteamiento es claro y directo.
+    translation: הניסוח שלו ברור וישיר.
 - id: p6-plantear
   text: plantear
   translation: להציג, להעלות
   pos: verb
   example:
-    text: Quiero plantear una pregunta importante.
-    translation: אני רוצה להעלות שאלה חשובה.
+    text: Quiero plantear una duda.
+    translation: אני רוצה להעלות ספק.
 - id: p6-abordar
   text: abordar
   translation: לגשת ל, להתמודד עם
   pos: verb
   example:
-    text: Hay que abordar el tema con cuidado.
-    translation: צריך לגשת לנושא בזהירות.
+    text: Vamos a abordar el tema mañana.
+    translation: ניגש לנושא מחר.
 - id: p6-fomentar
   text: fomentar
   translation: לעודד
   pos: verb
   example:
-    text: La escuela debe fomentar la lectura.
-    translation: בית הספר צריך לעודד קריאה.
+    text: Hay que fomentar la lectura.
+    translation: צריך לעודד קריאה.
 - id: p6-sostener
   text: sostener
   translation: לטעון, להחזיק
   pos: verb
   example:
-    text: Algunos expertos sostienen que es posible.
-    translation: כמה מומחים טוענים שזה אפשרי.
+    text: Los datos sostienen esa idea.
+    translation: הנתונים תומכים ברעיון הזה.
 - id: p6-asumir
   text: asumir
   translation: לקבל על עצמו
   pos: verb
   example:
-    text: Tienes que asumir tu responsabilidad.
-    translation: אתה צריך לקבל על עצמך את האחריות.
+    text: Hay que asumir la responsabilidad.
+    translation: צריך לקחת אחריות.
 - id: p6-reflejar
   text: reflejar
   translation: לשקף
   pos: verb
   example:
-    text: Los datos pueden reflejar la realidad.
-    translation: הנתונים יכולים לשקף את המציאות.
+    text: Este informe va a reflejar la realidad.
+    translation: הדוח הזה ישקף את המציאות.
 - id: p6-subrayar
   text: subrayar
   translation: להדגיש
   pos: verb
   example:
-    text: Quiero subrayar este punto.
-    translation: אני רוצה להדגיש את הנקודה הזו.
+    text: Quiero subrayar un punto importante.
+    translation: אני רוצה להדגיש נקודה חשובה.
 - id: p6-cuestionar
   text: cuestionar
   translation: להטיל ספק, לשאול
   pos: verb
   example:
-    text: No dudes en cuestionar lo que lees.
-    translation: אל תהסס להטיל ספק במה שאתה קורא.
+    text: Es sano cuestionar las ideas.
+    translation: בריא להטיל ספק ברעיונות.
 - id: p6-sutil
   text: sutil
   translation: עדין, דק
@@ -161,36 +162,53 @@ vocabulary:
   translation: רלוונטי, במקום
   pos: adjective
   example:
-    text: Tu comentario fue muy pertinente.
-    translation: ההערה שלך הייתה במקום.
+    text: Tu comentario es muy pertinente.
+    translation: ההערה שלך רלוונטית מאוד.
 - id: p6-ambiguo
   text: ambiguo
   translation: דו־משמעי
   pos: adjective
   example:
-    text: El mensaje es ambiguo y confuso.
-    translation: המסר דו־משמעי ומבלבל.
+    text: El mensaje es ambiguo.
+    translation: המסר דו־משמעי.
 - id: p6-coherente
   text: coherente
   translation: קוהרנטי, עקבי
   pos: adjective
   example:
-    text: Su argumento es claro y coherente.
-    translation: הטיעון שלו ברור ועקבי.
+    text: Su argumento es coherente.
+    translation: הטיעון שלו עקבי.
 - id: p6-inherente
   text: inherente
   translation: טבוע, מובנה
   pos: adjective
   example:
-    text: El riesgo es inherente a este tipo de inversión.
-    translation: הסיכון טבוע בסוג כזה של השקעה.
+    text: Ese riesgo es inherente al proyecto.
+    translation: הסיכון הזה טבוע בפרויקט.
 lessons:
 - id: p6-l1
   kind: new
   title:
-    he: חבילה 6 – חלק 1
-    en: Pack 6 – part 1
+    he: מגמות וקריטריונים
+    en: Trends and criteria
   exercises:
+  - id: p6-l1-d1
+    type: dialogue
+    scene: יעל מתחילה את ההרצאה בפני הצוות.
+    lines:
+    - speaker: yael
+      text: Quiero hablar de una tendencia que vi en este país.
+      translation: אני רוצה לדבר על מגמה שראיתי במדינה הזאת.
+    - speaker: ricardo
+      text: ¿Cuál es el criterio que usaste y qué alcance tiene?
+      translation: איזה קריטריון השתמשת בו ומה ההיקף שלו?
+    - speaker: yael
+      text: 'La premisa es simple: hay un vínculo entre idioma y confianza.'
+      translation: 'הנחת היסוד פשוטה: יש קשר בין שפה לביטחון.'
+    - speaker: herrera
+      text: Aun así, hay una brecha entre lo que se dice y se hace.
+      translation: ובכל זאת יש פער בין מה שאומרים למה שעושים.
+    lexemes: []
   - id: p6-l1-01
     type: learn
     lexeme: p6-tendencia
@@ -329,8 +347,8 @@ lessons:
     - p6-ambito
   - id: p6-l1-19
     type: fill_blank
-    sentence: Hay una ___ a trabajar desde casa.
-    translation: יש מגמה לעבוד מהבית.
+    sentence: Hay una ___ clara en los datos.
+    translation: יש מגמה ברורה בנתונים.
     answers:
     - tendencia
     options:
@@ -341,8 +359,8 @@ lessons:
     - p6-tendencia
   - id: p6-l1-20
     type: fill_blank
-    sentence: Cada uno tiene su propio ___.
-    translation: לכל אחד יש שיקול דעת משלו.
+    sentence: ¿Qué ___ usaste para elegir?
+    translation: באיזה קריטריון השתמשת כדי לבחור?
     answers:
     - criterio
     options:
@@ -353,8 +371,8 @@ lessons:
     - p6-criterio
   - id: p6-l1-21
     type: fill_blank
-    sentence: El ___ del proyecto es enorme.
-    translation: היקף הפרויקט עצום.
+    sentence: El ___ del proyecto es limitado.
+    translation: היקף הפרויקט מוגבל.
     answers:
     - alcance
     options:
@@ -365,8 +383,8 @@ lessons:
     - p6-alcance
   - id: p6-l1-22
     type: fill_blank
-    sentence: La ___ del argumento es falsa.
-    translation: הנחת היסוד של הטיעון שגויה.
+    sentence: La ___ del estudio es muy simple.
+    translation: הנחת היסוד של המחקר פשוטה מאוד.
     answers:
     - premisa
     options:
@@ -377,8 +395,8 @@ lessons:
     - p6-premisa
   - id: p6-l1-23
     type: fill_blank
-    sentence: Existe un ___ entre ambos temas.
-    translation: קיים קשר בין שני הנושאים.
+    sentence: Hay un ___ fuerte entre ambos temas.
+    translation: יש קשר חזק בין שני הנושאים.
     answers:
     - vínculo
     options:
@@ -389,8 +407,8 @@ lessons:
     - p6-vinculo
   - id: p6-l1-24
     type: fill_blank
-    sentence: Hay una ___ entre la teoría y la práctica.
-    translation: יש פער בין התיאוריה לפרקטיקה.
+    sentence: Existe una ___ entre ricos y pobres.
+    translation: קיים פער בין עשירים לעניים.
     answers:
     - brecha
     options:
@@ -401,8 +419,8 @@ lessons:
     - p6-brecha
   - id: p6-l1-25
     type: fill_blank
-    sentence: La paciencia es un ___ importante.
-    translation: סבלנות היא תכונה חשובה.
+    sentence: La honestidad es un ___ importante.
+    translation: יושר הוא תכונה חשובה.
     answers:
     - rasgo
     options:
@@ -413,8 +431,8 @@ lessons:
     - p6-rasgo
   - id: p6-l1-26
     type: fill_blank
-    sentence: En el ___ laboral, la puntualidad es clave.
-    translation: בתחום העבודה, דייקנות היא מפתח.
+    sentence: Trabajo en el ___ de la educación.
+    translation: אני עובדת בתחום החינוך.
     answers:
     - ámbito
     options:
@@ -425,20 +443,37 @@ lessons:
     - p6-ambito
   - id: p6-l1-27
     type: dictation
-    text: El alcance del proyecto es enorme.
+    text: El alcance del proyecto es limitado.
     lexemes:
     - p6-alcance
   - id: p6-l1-28
     type: dictation
-    text: Existe un vínculo entre ambos temas.
+    text: Hay un vínculo fuerte entre ambos temas.
     lexemes:
     - p6-vinculo
 - id: p6-l2
   kind: new
   title:
-    he: חבילה 6 – חלק 2
-    en: Pack 6 – part 2
+    he: נקודות מבט
+    en: Points of view
   exercises:
+  - id: p6-l2-d1
+    type: dialogue
+    scene: שאלות ודיון אחרי החלק הראשון.
+    lines:
+    - speaker: herrera
+      text: Desde mi perspectiva, hay un sesgo en la muestra.
+      translation: מנקודת מבטי, יש הטיה במדגם.
+    - speaker: yael
+      text: Es cierto; en la coyuntura actual cambia el planteamiento.
+      translation: נכון; במצב הנוכחי הניסוח משתנה.
+    - speaker: ricardo
+      text: Entonces hay que plantear otras preguntas y abordar el tema de otra forma.
+      translation: אז צריך להעלות שאלות אחרות ולגשת לנושא בדרך אחרת.
+    - speaker: yael
+      text: Sí, hay que fomentar el diálogo; los datos sostienen esa idea.
+      translation: כן, צריך לעודד דיאלוג; הנתונים תומכים ברעיון הזה.
+    lexemes: []
   - id: p6-l2-01
     type: learn
     lexeme: p6-perspectiva
@@ -577,8 +612,8 @@ lessons:
     - p6-sostener
   - id: p6-l2-19
     type: fill_blank
-    sentence: Desde esa ___, el problema cambia.
-    translation: מנקודת המבט הזו הבעיה משתנה.
+    sentence: Desde mi ___, es una buena idea.
+    translation: מנקודת מבטי, זה רעיון טוב.
     answers:
     - perspectiva
     options:
@@ -589,8 +624,8 @@ lessons:
     - p6-perspectiva
   - id: p6-l2-20
     type: fill_blank
-    sentence: Todo estudio puede tener un ___.
-    translation: בכל מחקר יכולה להיות הטיה.
+    sentence: Hay un ___ en la encuesta.
+    translation: יש הטיה בסקר.
     answers:
     - sesgo
     options:
@@ -601,8 +636,8 @@ lessons:
     - p6-sesgo
   - id: p6-l2-21
     type: fill_blank
-    sentence: En esta ___, es mejor esperar.
-    translation: במצב הנוכחי עדיף לחכות.
+    sentence: En la ___ actual es difícil invertir.
+    translation: במצב הנוכחי קשה להשקיע.
     answers:
     - coyuntura
     options:
@@ -613,8 +648,8 @@ lessons:
     - p6-coyuntura
   - id: p6-l2-22
     type: fill_blank
-    sentence: Su ___ del problema es original.
-    translation: הגישה שלו לבעיה מקורית.
+    sentence: Su ___ es claro y directo.
+    translation: הניסוח שלו ברור וישיר.
     answers:
     - planteamiento
     options:
@@ -625,8 +660,8 @@ lessons:
     - p6-planteamiento
   - id: p6-l2-23
     type: fill_blank
-    sentence: Quiero ___ una pregunta importante.
-    translation: אני רוצה להעלות שאלה חשובה.
+    sentence: Quiero ___ una duda.
+    translation: אני רוצה להעלות ספק.
     answers:
     - plantear
     options:
@@ -637,8 +672,8 @@ lessons:
     - p6-plantear
   - id: p6-l2-24
     type: fill_blank
-    sentence: Hay que ___ el tema con cuidado.
-    translation: צריך לגשת לנושא בזהירות.
+    sentence: Vamos a ___ el tema mañana.
+    translation: ניגש לנושא מחר.
     answers:
     - abordar
     options:
@@ -649,8 +684,8 @@ lessons:
     - p6-abordar
   - id: p6-l2-25
     type: fill_blank
-    sentence: La escuela debe ___ la lectura.
-    translation: בית הספר צריך לעודד קריאה.
+    sentence: Hay que ___ la lectura.
+    translation: צריך לעודד קריאה.
     answers:
     - fomentar
     options:
@@ -661,8 +696,8 @@ lessons:
     - p6-fomentar
   - id: p6-l2-26
     type: fill_blank
-    sentence: Algunos expertos ___ que es posible.
-    translation: כמה מומחים טוענים שזה אפשרי.
+    sentence: Los datos ___ esa idea.
+    translation: הנתונים תומכים ברעיון הזה.
     answers:
     - sostienen
     options:
@@ -673,20 +708,37 @@ lessons:
     - p6-sostener
   - id: p6-l2-27
     type: dictation
-    text: Algunos expertos sostienen que es posible.
+    text: Los datos sostienen esa idea.
     lexemes:
     - p6-sostener
   - id: p6-l2-28
     type: dictation
-    text: Desde esa perspectiva, el problema cambia.
+    text: Desde mi perspectiva, es una buena idea.
     lexemes:
     - p6-perspectiva
 - id: p6-l3
   kind: new
   title:
-    he: חבילה 6 – חלק 3
-    en: Pack 6 – part 3
+    he: מילים אחרונות
+    en: Last words
   exercises:
+  - id: p6-l3-d1
+    type: dialogue
+    scene: סוף ההרצאה. יעל מסכמת בעדינות ובכנות.
+    lines:
+    - speaker: yael
+      text: Hay que asumir que nada es perfecto; mi experiencia lo refleja.
+      translation: צריך לקבל שדבר אינו מושלם; החוויה שלי משקפת זאת.
+    - speaker: herrera
+      text: Subrayo que tu argumento es coherente y pertinente.
+      translation: אני מדגיש שהטיעון שלך עקבי ורלוונטי.
+    - speaker: ricardo
+      text: Algunos matices son sutiles, aunque nada ambiguo.
+      translation: יש ניואנסים עדינים, אבל שום דבר דו־משמעי.
+    - speaker: yael
+      text: Gracias; cuestionar es parte de aprender, y es inherente a este idioma.
+      translation: תודה; להטיל ספק הוא חלק מלמידה, והוא אינהרנטי לשפה הזאת.
+    lexemes: []
   - id: p6-l3-01
     type: learn
     lexeme: p6-asumir
@@ -841,8 +893,8 @@ lessons:
     - p6-inherente
   - id: p6-l3-21
     type: fill_blank
-    sentence: Tienes que ___ tu responsabilidad.
-    translation: אתה צריך לקבל על עצמך את האחריות.
+    sentence: Hay que ___ la responsabilidad.
+    translation: צריך לקחת אחריות.
     answers:
     - asumir
     options:
@@ -853,8 +905,8 @@ lessons:
     - p6-asumir
   - id: p6-l3-22
     type: fill_blank
-    sentence: Los datos pueden ___ la realidad.
-    translation: הנתונים יכולים לשקף את המציאות.
+    sentence: Este informe va a ___ la realidad.
+    translation: הדוח הזה ישקף את המציאות.
     answers:
     - reflejar
     options:
@@ -865,8 +917,8 @@ lessons:
     - p6-reflejar
   - id: p6-l3-23
     type: fill_blank
-    sentence: Quiero ___ este punto.
-    translation: אני רוצה להדגיש את הנקודה הזו.
+    sentence: Quiero ___ un punto importante.
+    translation: אני רוצה להדגיש נקודה חשובה.
     answers:
     - subrayar
     options:
@@ -877,8 +929,8 @@ lessons:
     - p6-subrayar
   - id: p6-l3-24
     type: fill_blank
-    sentence: No dudes en ___ lo que lees.
-    translation: אל תהסס להטיל ספק במה שאתה קורא.
+    sentence: Es sano ___ las ideas.
+    translation: בריא להטיל ספק ברעיונות.
     answers:
     - cuestionar
     options:
@@ -901,8 +953,8 @@ lessons:
     - p6-sutil
   - id: p6-l3-26
     type: fill_blank
-    sentence: Tu comentario fue muy ___.
-    translation: ההערה שלך הייתה במקום.
+    sentence: Tu comentario es muy ___.
+    translation: ההערה שלך רלוונטית מאוד.
     answers:
     - pertinente
     options:
@@ -913,8 +965,8 @@ lessons:
     - p6-pertinente
   - id: p6-l3-27
     type: fill_blank
-    sentence: El mensaje es ___ y confuso.
-    translation: המסר דו־משמעי ומבלבל.
+    sentence: El mensaje es ___.
+    translation: המסר דו־משמעי.
     answers:
     - ambiguo
     options:
@@ -925,8 +977,8 @@ lessons:
     - p6-ambiguo
   - id: p6-l3-28
     type: fill_blank
-    sentence: Su argumento es claro y ___.
-    translation: הטיעון שלו ברור ועקבי.
+    sentence: Su argumento es ___.
+    translation: הטיעון שלו עקבי.
     answers:
     - coherente
     options:
@@ -937,8 +989,8 @@ lessons:
     - p6-coherente
   - id: p6-l3-29
     type: fill_blank
-    sentence: El riesgo es ___ a este tipo de inversión.
-    translation: הסיכון טבוע בסוג כזה של השקעה.
+    sentence: Ese riesgo es ___ al proyecto.
+    translation: הסיכון הזה טבוע בפרויקט.
     answers:
     - inherente
     options:
@@ -949,11 +1001,11 @@ lessons:
     - p6-inherente
   - id: p6-l3-30
     type: dictation
-    text: El mensaje es ambiguo y confuso.
+    text: El mensaje es ambiguo.
     lexemes:
     - p6-ambiguo
   - id: p6-l3-31
     type: dictation
-    text: Los datos pueden reflejar la realidad.
+    text: Este informe va a reflejar la realidad.
     lexemes:
     - p6-reflejar

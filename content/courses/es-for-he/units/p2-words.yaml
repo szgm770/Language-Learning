@@ -2,195 +2,213 @@ id: p2-words
 cefr: B1
 scene: family
 title:
-  he: 'הרחבת אוצר מילים 2: רגשות ואופי'
-  en: 'Word builder 2: feelings and character'
-story: מילים לתיאור רגשות ותכונות אופי, ולשיחה אמיתית על אנשים. כל מילה מופיעה במשפט.
+  he: לפני המבחן של לוסיה
+  en: Before Lucía's exam
+story: 'לוסיה נבחנת מחר, והכול סביבה מרגישים: התרגשות, חשש, גאווה. יעל לומדת לדבר על רגשות ועל אופי, ולתאר את האנשים שהיא כבר מכירה.'
 canDo:
-- להבין ולהשתמש במילים נפוצות נוספות
-- לזהות את המילים במשפטים אמיתיים
+- לדבר על רגשות ועל אופי
+- לתאר אנשים סביבי
+- לספר איך אני מרגישה בעקבות אירוע
 vocabulary:
 - id: p2-ilusion
   text: la ilusión
   translation: התרגשות, תקווה
   pos: noun
   example:
-    text: Me hace mucha ilusión el viaje.
-    translation: הנסיעה מאוד מרגשת אותי.
+    text: Tengo mucha ilusión por mi examen.
+    translation: יש לי הרבה תקווה בקשר למבחן שלי.
 - id: p2-tristeza
   text: la tristeza
   translation: עצב
   pos: noun
   example:
-    text: Sus ojos mostraban tristeza.
-    translation: עיניו הראו עצב.
+    text: Sentí tristeza cuando se fue mi amiga.
+    translation: הרגשתי עצב כשהחברה שלי עזבה.
 - id: p2-enojo
   text: el enojo
   translation: כעס
   pos: noun
   example:
-    text: Su enojo desapareció rápido.
-    translation: הכעס שלו נעלם מהר.
+    text: Su enojo pasó rápido.
+    translation: הכעס שלו עבר מהר.
 - id: p2-susto
   text: el susto
   translation: בהלה
   pos: noun
   example:
-    text: ¡Qué susto me diste!
-    translation: איזו בהלה גרמת לי!
+    text: Me llevé un susto con el trueno.
+    translation: נבהלתי מהרעם.
 - id: p2-verguenza
   text: la vergüenza
   translation: מבוכה, בושה
   pos: noun
   example:
-    text: Me da vergüenza hablar en público.
-    translation: אני מתביישת לדבר בפומבי.
+    text: Qué vergüenza llegar tarde al examen.
+    translation: איזו מבוכה להגיע באיחור למבחן.
 - id: p2-orgullo
   text: el orgullo
   translation: גאווה
   pos: noun
   example:
-    text: Mis padres sienten orgullo por mí.
-    translation: ההורים שלי גאים בי.
+    text: Su mamá siente mucho orgullo.
+    translation: אמא שלה מרגישה המון גאווה.
 - id: p2-confianza
   text: la confianza
   translation: אמון, ביטחון
   pos: noun
   example:
-    text: Tengo mucha confianza en mi equipo.
-    translation: יש לי הרבה אמון בצוות שלי.
+    text: Ten confianza en ti misma.
+    translation: תהיי בטוחה בעצמך.
 - id: p2-paciencia
   text: la paciencia
   translation: סבלנות
   pos: noun
   example:
-    text: Los niños necesitan paciencia.
-    translation: ילדים צריכים סבלנות.
+    text: Para estudiar necesitas paciencia.
+    translation: כדי ללמוד צריך סבלנות.
 - id: p2-orgulloso
   text: orgulloso
   translation: גאה
   pos: adjective
   example:
-    text: Mi padre está muy orgulloso de ti.
-    translation: אבא שלי מאוד גאה בך.
+    text: Mi papá está orgulloso de mí.
+    translation: אבא שלי גאה בי.
 - id: p2-timido
   text: tímido
   translation: ביישן
   pos: adjective
   example:
-    text: Mi hijo es muy tímido con extraños.
-    translation: הבן שלי מאוד ביישן עם זרים.
+    text: Mateo es tímido con las personas nuevas.
+    translation: מתאו ביישן עם אנשים חדשים.
 - id: p2-generoso
   text: generoso
   translation: נדיב
   pos: adjective
   example:
-    text: Don Ricardo es un hombre generoso.
-    translation: דון ריקרדו הוא אדם נדיב.
+    text: Don Ricardo es muy generoso con los vecinos.
+    translation: דון ריקרדו נדיב מאוד כלפי השכנים.
 - id: p2-terco
   text: terco
   translation: עקשן
   pos: adjective
   example:
-    text: Mi hermano es muy terco.
-    translation: אחי עקשן מאוד.
+    text: El doctor es terco, pero tiene razón.
+    translation: הדוקטור עקשן, אבל הוא צודק.
 - id: p2-honesto
   text: honesto
   translation: ישר
   pos: adjective
   example:
-    text: Un buen amigo es siempre honesto.
-    translation: חבר טוב הוא תמיד ישר.
+    text: Un buen jefe es honesto.
+    translation: מנהל טוב הוא ישר.
 - id: p2-sincero
   text: sincero
   translation: כן, אמיתי
   pos: adjective
   example:
-    text: Quiero ser sincero contigo.
-    translation: אני רוצה להיות כנה איתך.
+    text: Sé sincero conmigo, por favor.
+    translation: היה כן איתי, בבקשה.
 - id: p2-curioso
   text: curioso
   translation: סקרן
   pos: adjective
   example:
-    text: El niño es muy curioso y pregunta todo.
-    translation: הילד סקרן מאוד ושואל על הכול.
+    text: Dani es curioso y pregunta todo.
+    translation: דני סקרן ושואל הכול.
 - id: p2-nervioso
   text: nervioso
   translation: עצבני, לחוץ
   pos: adjective
   example:
-    text: Estoy nervioso antes del examen.
-    translation: אני לחוצה לפני המבחן.
+    text: Mi hermano está nervioso antes de cada examen.
+    translation: אחי לחוץ לפני כל מבחן.
 - id: p2-preocupado
   text: preocupado
   translation: מודאג
   pos: adjective
   example:
-    text: Mi mamá está preocupado por mí.
-    translation: אמא שלי מודאגת בגללי.
+    text: Mi papá está preocupado por el tráfico.
+    translation: אבא שלי מודאג מהפקק.
 - id: p2-agradecido
   text: agradecido
   translation: אסיר תודה
   pos: adjective
   example:
-    text: Estoy muy agradecido por tu ayuda.
-    translation: אני מאוד אסיר תודה על העזרה שלך.
+    text: Estoy muy agradecido con mis amigos.
+    translation: אני אסיר תודה לחברים שלי.
 - id: p2-ansioso
   text: ansioso
   translation: חרד, משתוקק
   pos: adjective
   example:
-    text: Está ansioso por saber el resultado.
-    translation: הוא משתוקק לדעת את התוצאה.
+    text: Estoy ansioso por saber el resultado.
+    translation: אני משתוקק לדעת את התוצאה.
 - id: p2-enojarse
   text: enojarse
   translation: להתכעס
   pos: verb
   example:
-    text: No quiero enojarme contigo.
-    translation: אני לא רוצה להתכעס עליך.
+    text: No quiero enojarme por una tontería.
+    translation: אני לא רוצה להתכעס על שטות.
 - id: p2-asustarse
   text: asustarse
   translation: להיבהל
   pos: verb
   example:
-    text: El perro va a asustarse con el ruido.
-    translation: הכלב ייבהל מהרעש.
+    text: Mi hermano suele asustarse con los truenos.
+    translation: אחי נוטה להיבהל מרעמים.
 - id: p2-emocionarse
   text: emocionarse
   translation: להתרגש
   pos: verb
   example:
-    text: Siempre me emociono al ver a mi familia.
-    translation: אני תמיד מתרגשת כשאני רואה את המשפחה שלי.
+    text: Me emociono cuando veo a mi familia.
+    translation: אני מתרגשת כשאני רואה את המשפחה שלי.
 - id: p2-confiar
   text: confiar
   translation: לבטוח
   pos: verb
   example:
-    text: Puedes confiar en mí.
-    translation: אתה יכול לסמוך עליי.
+    text: Es importante confiar en los amigos.
+    translation: חשוב לבטוח בחברים.
 - id: p2-reirse
   text: reírse
   translation: לצחוק
   pos: verb
   example:
-    text: Todos empezaron a reírse.
-    translation: כולם התחילו לצחוק.
+    text: Es bueno reírse de uno mismo.
+    translation: טוב לצחוק על עצמך.
 - id: p2-abrazar
   text: abrazar
   translation: לחבק
   pos: verb
   example:
-    text: Quiero abrazar a mi hermano.
-    translation: אני רוצה לחבק את אחי.
+    text: Quiero abrazar a mi mamá.
+    translation: אני רוצה לחבק את אמא שלי.
 lessons:
 - id: p2-l1
   kind: new
   title:
-    he: חבילה 2 – חלק 1
-    en: Pack 2 – part 1
+    he: ערב לפני המבחן
+    en: The night before the exam
   exercises:
+  - id: p2-l1-d1
+    type: dialogue
+    scene: בערב, בבית של דוניה כרמן. לוסיה מתרגלת ויעל יושבת לידה.
+    lines:
+    - speaker: lucia
+      text: Tengo mucha ilusión, pero también un poco de miedo.
+      translation: יש לי הרבה תקווה, אבל גם קצת פחד.
+    - speaker: yael
+      text: Ten confianza, estudiaste muchísimo. Solo falta paciencia.
+      translation: תבטחי בעצמך, למדת המון. חסרה רק סבלנות.
+    - speaker: carmen
+      text: Mañana tu mamá va a sentir orgullo cuando te vea salir.
+      translation: מחר אמא שלך תרגיש גאווה כשתראה אותך יוצאת.
+    - speaker: lucia
+      text: Qué vergüenza si me quedo en blanco…
+      translation: איזו מבוכה אם אתקע…
+    lexemes: []
   - id: p2-l1-01
     type: learn
     lexeme: p2-ilusion
@@ -329,8 +347,8 @@ lessons:
     - p2-paciencia
   - id: p2-l1-19
     type: fill_blank
-    sentence: Me hace mucha ___ el viaje.
-    translation: הנסיעה מאוד מרגשת אותי.
+    sentence: Tengo mucha ___ por mi examen.
+    translation: יש לי הרבה תקווה בקשר למבחן שלי.
     answers:
     - ilusión
     options:
@@ -341,8 +359,8 @@ lessons:
     - p2-ilusion
   - id: p2-l1-20
     type: fill_blank
-    sentence: Sus ojos mostraban ___.
-    translation: עיניו הראו עצב.
+    sentence: Sentí ___ cuando se fue mi amiga.
+    translation: הרגשתי עצב כשהחברה שלי עזבה.
     answers:
     - tristeza
     options:
@@ -353,8 +371,8 @@ lessons:
     - p2-tristeza
   - id: p2-l1-21
     type: fill_blank
-    sentence: Su ___ desapareció rápido.
-    translation: הכעס שלו נעלם מהר.
+    sentence: Su ___ pasó rápido.
+    translation: הכעס שלו עבר מהר.
     answers:
     - enojo
     options:
@@ -365,8 +383,8 @@ lessons:
     - p2-enojo
   - id: p2-l1-22
     type: fill_blank
-    sentence: ¡Qué ___ me diste!
-    translation: איזו בהלה גרמת לי!
+    sentence: Me llevé un ___ con el trueno.
+    translation: נבהלתי מהרעם.
     answers:
     - susto
     options:
@@ -377,8 +395,8 @@ lessons:
     - p2-susto
   - id: p2-l1-23
     type: fill_blank
-    sentence: Me da ___ hablar en público.
-    translation: אני מתביישת לדבר בפומבי.
+    sentence: Qué ___ llegar tarde al examen.
+    translation: איזו מבוכה להגיע באיחור למבחן.
     answers:
     - vergüenza
     options:
@@ -389,8 +407,8 @@ lessons:
     - p2-verguenza
   - id: p2-l1-24
     type: fill_blank
-    sentence: Mis padres sienten ___ por mí.
-    translation: ההורים שלי גאים בי.
+    sentence: Su mamá siente mucho ___.
+    translation: אמא שלה מרגישה המון גאווה.
     answers:
     - orgullo
     options:
@@ -401,8 +419,8 @@ lessons:
     - p2-orgullo
   - id: p2-l1-25
     type: fill_blank
-    sentence: Tengo mucha ___ en mi equipo.
-    translation: יש לי הרבה אמון בצוות שלי.
+    sentence: Ten ___ en ti misma.
+    translation: תהיי בטוחה בעצמך.
     answers:
     - confianza
     options:
@@ -413,8 +431,8 @@ lessons:
     - p2-confianza
   - id: p2-l1-26
     type: fill_blank
-    sentence: Los niños necesitan ___.
-    translation: ילדים צריכים סבלנות.
+    sentence: Para estudiar necesitas ___.
+    translation: כדי ללמוד צריך סבלנות.
     answers:
     - paciencia
     options:
@@ -425,20 +443,37 @@ lessons:
     - p2-paciencia
   - id: p2-l1-27
     type: dictation
-    text: Mis padres sienten orgullo por mí.
+    text: Su mamá siente mucho orgullo.
     lexemes:
     - p2-orgullo
   - id: p2-l1-28
     type: dictation
-    text: ¡Qué susto me diste!
+    text: Me llevé un susto con el trueno.
     lexemes:
     - p2-susto
 - id: p2-l2
   kind: new
   title:
-    he: חבילה 2 – חלק 2
-    en: Pack 2 – part 2
+    he: מי הם באמת?
+    en: Who are they really?
   exercises:
+  - id: p2-l2-d1
+    type: dialogue
+    scene: יעל מספרת ללוסיה על האנשים במשרד, כדי להרגיע אותה לפני המבחן.
+    lines:
+    - speaker: yael
+      text: 'Mateo es muy tímido, pero es generoso: siempre me ayuda.'
+      translation: 'מתאו ביישן מאוד, אבל נדיב: הוא תמיד עוזר לי.'
+    - speaker: lucia
+      text: Y el doctor Herrera es honesto y sincero, aunque a veces terco.
+      translation: והדוקטור הררה ישר וכן, אבל לפעמים עקשן.
+    - speaker: yael
+      text: Dani es curioso y se pone nervioso con los plazos.
+      translation: דני סקרן ונהיה לחוץ מול מועדי הגשה.
+    - speaker: lucia
+      text: Y tú, ¿cómo eres?
+      translation: ואת, איך את?
+    lexemes: []
   - id: p2-l2-01
     type: learn
     lexeme: p2-orgulloso
@@ -577,8 +612,8 @@ lessons:
     - p2-nervioso
   - id: p2-l2-19
     type: fill_blank
-    sentence: Mi padre está muy ___ de ti.
-    translation: אבא שלי מאוד גאה בך.
+    sentence: Mi papá está ___ de mí.
+    translation: אבא שלי גאה בי.
     answers:
     - orgulloso
     options:
@@ -589,8 +624,8 @@ lessons:
     - p2-orgulloso
   - id: p2-l2-20
     type: fill_blank
-    sentence: Mi hijo es muy ___ con extraños.
-    translation: הבן שלי מאוד ביישן עם זרים.
+    sentence: Mateo es ___ con las personas nuevas.
+    translation: מתאו ביישן עם אנשים חדשים.
     answers:
     - tímido
     options:
@@ -601,8 +636,8 @@ lessons:
     - p2-timido
   - id: p2-l2-21
     type: fill_blank
-    sentence: Don Ricardo es un hombre ___.
-    translation: דון ריקרדו הוא אדם נדיב.
+    sentence: Don Ricardo es muy ___ con los vecinos.
+    translation: דון ריקרדו נדיב מאוד כלפי השכנים.
     answers:
     - generoso
     options:
@@ -613,8 +648,8 @@ lessons:
     - p2-generoso
   - id: p2-l2-22
     type: fill_blank
-    sentence: Mi hermano es muy ___.
-    translation: אחי עקשן מאוד.
+    sentence: El doctor es ___, pero tiene razón.
+    translation: הדוקטור עקשן, אבל הוא צודק.
     answers:
     - terco
     options:
@@ -625,8 +660,8 @@ lessons:
     - p2-terco
   - id: p2-l2-23
     type: fill_blank
-    sentence: Un buen amigo es siempre ___.
-    translation: חבר טוב הוא תמיד ישר.
+    sentence: Un buen jefe es ___.
+    translation: מנהל טוב הוא ישר.
     answers:
     - honesto
     options:
@@ -637,8 +672,8 @@ lessons:
     - p2-honesto
   - id: p2-l2-24
     type: fill_blank
-    sentence: Quiero ser ___ contigo.
-    translation: אני רוצה להיות כנה איתך.
+    sentence: Sé ___ conmigo, por favor.
+    translation: היה כן איתי, בבקשה.
     answers:
     - sincero
     options:
@@ -649,8 +684,8 @@ lessons:
     - p2-sincero
   - id: p2-l2-25
     type: fill_blank
-    sentence: El niño es muy ___ y pregunta todo.
-    translation: הילד סקרן מאוד ושואל על הכול.
+    sentence: Dani es ___ y pregunta todo.
+    translation: דני סקרן ושואל הכול.
     answers:
     - curioso
     options:
@@ -661,8 +696,8 @@ lessons:
     - p2-curioso
   - id: p2-l2-26
     type: fill_blank
-    sentence: Estoy ___ antes del examen.
-    translation: אני לחוצה לפני המבחן.
+    sentence: Mi hermano está ___ antes de cada examen.
+    translation: אחי לחוץ לפני כל מבחן.
     answers:
     - nervioso
     options:
@@ -673,20 +708,37 @@ lessons:
     - p2-nervioso
   - id: p2-l2-27
     type: dictation
-    text: Mi padre está muy orgulloso de ti.
+    text: Mi papá está orgulloso de mí.
     lexemes:
     - p2-orgulloso
   - id: p2-l2-28
     type: dictation
-    text: Don Ricardo es un hombre generoso.
+    text: Don Ricardo es muy generoso con los vecinos.
     lexemes:
     - p2-generoso
 - id: p2-l3
   kind: new
   title:
-    he: חבילה 2 – חלק 3
-    en: Pack 2 – part 3
+    he: אחרי המבחן
+    en: After the exam
   exercises:
+  - id: p2-l3-d1
+    type: dialogue
+    scene: לוסיה יוצאת מהמבחן ומחכים לה בחוץ.
+    lines:
+    - speaker: lucia
+      text: Estaba preocupada, pero salió bien. Estoy muy agradecida con todos.
+      translation: הייתי מודאגת, אבל זה הלך טוב. אני אסירת תודה לכולם.
+    - speaker: yael
+      text: Me emociono de verlas así. Quiero abrazar a tu mamá.
+      translation: אני מתרגשת לראות אתכן כך. אני רוצה לחבק את אמא שלך.
+    - speaker: lucia
+      text: Ya no estoy ansiosa. Ahora solo quiero reírme.
+      translation: אני כבר לא חרדה. עכשיו אני רק רוצה לצחוק.
+    - speaker: yael
+      text: 'Hay que confiar: ya no vas a enojarte ni a asustarte por nada.'
+      translation: 'צריך לבטוח: כבר לא תתכעסי ולא תיבהלי משום דבר.'
+    lexemes: []
   - id: p2-l3-01
     type: learn
     lexeme: p2-preocupado
@@ -841,8 +893,8 @@ lessons:
     - p2-abrazar
   - id: p2-l3-21
     type: fill_blank
-    sentence: Mi mamá está ___ por mí.
-    translation: אמא שלי מודאגת בגללי.
+    sentence: Mi papá está ___ por el tráfico.
+    translation: אבא שלי מודאג מהפקק.
     answers:
     - preocupado
     options:
@@ -853,8 +905,8 @@ lessons:
     - p2-preocupado
   - id: p2-l3-22
     type: fill_blank
-    sentence: Estoy muy ___ por tu ayuda.
-    translation: אני מאוד אסיר תודה על העזרה שלך.
+    sentence: Estoy muy ___ con mis amigos.
+    translation: אני אסיר תודה לחברים שלי.
     answers:
     - agradecido
     options:
@@ -865,8 +917,8 @@ lessons:
     - p2-agradecido
   - id: p2-l3-23
     type: fill_blank
-    sentence: Está ___ por saber el resultado.
-    translation: הוא משתוקק לדעת את התוצאה.
+    sentence: Estoy ___ por saber el resultado.
+    translation: אני משתוקק לדעת את התוצאה.
     answers:
     - ansioso
     options:
@@ -877,8 +929,8 @@ lessons:
     - p2-ansioso
   - id: p2-l3-24
     type: fill_blank
-    sentence: No quiero ___ contigo.
-    translation: אני לא רוצה להתכעס עליך.
+    sentence: No quiero ___ por una tontería.
+    translation: אני לא רוצה להתכעס על שטות.
     answers:
     - enojarme
     options:
@@ -889,8 +941,8 @@ lessons:
     - p2-enojarse
   - id: p2-l3-25
     type: fill_blank
-    sentence: El perro va a ___ con el ruido.
-    translation: הכלב ייבהל מהרעש.
+    sentence: Mi hermano suele ___ con los truenos.
+    translation: אחי נוטה להיבהל מרעמים.
     answers:
     - asustarse
     options:
@@ -901,8 +953,8 @@ lessons:
     - p2-asustarse
   - id: p2-l3-26
     type: fill_blank
-    sentence: Siempre me ___ al ver a mi familia.
-    translation: אני תמיד מתרגשת כשאני רואה את המשפחה שלי.
+    sentence: Me ___ cuando veo a mi familia.
+    translation: אני מתרגשת כשאני רואה את המשפחה שלי.
     answers:
     - emociono
     options:
@@ -913,8 +965,8 @@ lessons:
     - p2-emocionarse
   - id: p2-l3-27
     type: fill_blank
-    sentence: Puedes ___ en mí.
-    translation: אתה יכול לסמוך עליי.
+    sentence: Es importante ___ en los amigos.
+    translation: חשוב לבטוח בחברים.
     answers:
     - confiar
     options:
@@ -925,8 +977,8 @@ lessons:
     - p2-confiar
   - id: p2-l3-28
     type: fill_blank
-    sentence: Todos empezaron a ___.
-    translation: כולם התחילו לצחוק.
+    sentence: Es bueno ___ de uno mismo.
+    translation: טוב לצחוק על עצמך.
     answers:
     - reírse
     options:
@@ -937,8 +989,8 @@ lessons:
     - p2-reirse
   - id: p2-l3-29
     type: fill_blank
-    sentence: Quiero ___ a mi hermano.
-    translation: אני רוצה לחבק את אחי.
+    sentence: Quiero ___ a mi mamá.
+    translation: אני רוצה לחבק את אמא שלי.
     answers:
     - abrazar
     options:
@@ -949,11 +1001,11 @@ lessons:
     - p2-abrazar
   - id: p2-l3-30
     type: dictation
-    text: Siempre me emociono al ver a mi familia.
+    text: Me emociono cuando veo a mi familia.
     lexemes:
     - p2-emocionarse
   - id: p2-l3-31
     type: dictation
-    text: Estoy muy agradecido por tu ayuda.
+    text: Estoy muy agradecido con mis amigos.
     lexemes:
     - p2-agradecido
