@@ -1,0 +1,794 @@
+id: u01-mai
+cefr: A1
+scene: study
+title:
+  he: מאי? המחברת של סבא
+  en: What? Grandfather's notebook
+story: 'איתן מוצא מכתב סגור מסבו והערה בשולי בבא מציעא: ״מאי מצאתיה?״. ר׳ ישראל, החברותא של סבא, מלמד אותו לקרוא את השאלות הראשונות של הגמרא.'
+canDo:
+- 'לזהות את מילות השאלה של הגמרא: מאי, למה לי, לימא'
+- להבין ״אי… הוה אמינא״ ו״צריכא״
+- להבין משפטים עם הכא, התם, איכא, ליכא
+- לקרוא קטע קצר מבבא מציעא ב ע״ב
+vocabulary:
+- id: mai
+  text: מאי
+  translation: מה
+  pos: pronoun
+  example:
+    text: אי תנא אני מצאתיה הוה אמינא מאי מצאתיה ראיתיה
+    translation: 'אילו שנה (רק) ''אני מצאתיה'', הייתי אומר: מה פירוש ''מצאתיה''? ראה אותה.'
+    source: בבלי, בבא מציעא ב ע״א
+    vocalized: 'אִי תְּנָא ״אֲנִי מְצָאתִיהָ״, הֲוָה אָמֵינָא: מַאי ״מְצָאתִיהָ״ רְאִיתִיהָ'
+- id: lama-li
+  text: למה לי
+  translation: למה צריך? (מה הצורך?)
+  pos: phrase
+  example:
+    text: למה לי למתנא
+    translation: למה (המשנה) צריכה לשנות (פעמיים)?
+    source: בבלי, בבא מציעא ב ע״א
+    vocalized: לְמָה לִי לְמִתְנָא
+- id: katani
+  text: קתני
+  translation: (המשנה) שונה, כתוב בה
+  pos: verb
+  example:
+    text: ומי מצית אמרת חדא קתני והא זה וזה קתני
+    translation: וכי אתה יכול לומר שהיא שונה (טענה) אחת? הרי 'זה' ו'זה' היא שונה!
+    source: בבלי, בבא מציעא ב ע״א
+    vocalized: וּמִי מָצֵית אָמְרַתְּ חֲדָא קָתָנֵי? וְהָא ״זֶה״ וְ״זֶה״ קָתָנֵי
+- id: chada
+  text: חדא
+  translation: אחת
+  pos: number
+  example:
+    text: ליתני חדא
+    translation: שתשנה (המשנה טענה) אחת!
+    source: בבלי, בבא מציעא ב ע״א
+    vocalized: לִיתְנֵי חֲדָא
+- id: i
+  text: אי
+  translation: אם, אילו
+  pos: conjunction
+  example:
+    text: אי תנא אני מצאתיה הוה אמינא
+    translation: אילו שנה (רק) 'אני מצאתיה', הייתי אומר
+    source: בבלי, בבא מציעא ב ע״א
+    vocalized: אִי תְּנָא ״אֲנִי מְצָאתִיהָ״, הֲוָה אָמֵינָא
+- id: tana
+  text: תנא
+  translation: 'שנה (בעבר); גם: התנא, חכם המשנה'
+  pos: verb
+  example:
+    text: תנא כולה שלי
+    translation: (לכן) שנה 'כולה שלי'
+    source: בבלי, בבא מציעא ב ע״א
+    vocalized: 'תְּנָא: ״כּוּלָּהּ שֶׁלִּי״'
+- id: hava-amina
+  text: הוה אמינא
+  translation: הייתי אומר (הייתי חושב)
+  pos: phrase
+  example:
+    text: אי תנא אני מצאתיה הוה אמינא
+    translation: אילו שנה (רק) 'אני מצאתיה', הייתי אומר
+    source: בבלי, בבא מציעא ב ע״א
+    vocalized: אִי תְּנָא ״אֲנִי מְצָאתִיהָ״, הֲוָה אָמֵינָא
+- id: tsricha
+  text: צריכא
+  translation: צריך (את שני הדברים)
+  pos: verb
+  example:
+    text: וצריכא
+    translation: ושני הדברים נצרכים
+    source: בבלי, בבא מציעא ב ע״א
+    vocalized: וּצְרִיכָא
+- id: hacha
+  text: הכא
+  translation: כאן
+  pos: adverb
+  example:
+    text: הכא איכא למימר דליכא שבועת שוא
+    translation: כאן יש לומר שאין שבועת שווא
+    source: בבלי, בבא מציעא ב ע״ב
+    vocalized: הָכָא אִיכָּא לְמֵימַר דְּלֵיכָּא שְׁבוּעַת שָׁוְא
+- id: hatam
+  text: התם
+  translation: שם
+  pos: adverb
+  example:
+    text: התם ודאי איכא שבועת שוא
+    translation: שם ודאי יש שבועת שווא
+    source: בבלי, בבא מציעא ב ע״ב
+    vocalized: הָתָם וַדַּאי אִיכָּא שְׁבוּעַת שָׁוְא
+- id: ika
+  text: איכא
+  translation: יש
+  pos: verb
+  example:
+    text: התם ודאי איכא רמאי
+    translation: שם ודאי יש רמאי
+    source: בבלי, בבא מציעא ג ע״א
+    vocalized: הָתָם וַדַּאי אִיכָּא רַמַּאי
+- id: leika
+  text: ליכא
+  translation: אין
+  pos: verb
+  example:
+    text: דליכא למימר הכי
+    translation: שאי אפשר לומר כך
+    source: בבלי, בבא מציעא ב ע״ב
+    vocalized: דְּלֵיכָּא לְמֵימַר הָכִי
+- id: leima
+  text: לימא
+  translation: נאמר? (האם נאמר ש…)
+  pos: verb
+  example:
+    text: לימא מתני' דלא כסומכוס
+    translation: נאמר שהמשנה אינה כשיטת סומכוס?
+    source: בבלי, בבא מציעא ב ע״ב
+    vocalized: לֵימָא מַתְנִיתִין דְּלָא כְּסוֹמְכוֹס
+- id: afilu-teima
+  text: אפילו תימא
+  translation: אפילו תאמר
+  pos: phrase
+  example:
+    text: אפילו תימא בן ננס
+    translation: אפילו תאמר (שהמשנה כשיטת) בן ננס
+    source: בבלי, בבא מציעא ב ע״ב
+    vocalized: אֲפִילּוּ תֵּימָא בֶּן נַנָּס
+- id: nami
+  text: נמי
+  translation: גם
+  pos: adverb
+  example:
+    text: הא נמי כשאר דמי
+    translation: גם זה דומה לשאר
+    source: בבלי, בבא מציעא ג ע״א
+    vocalized: הָא נָמֵי כִּשְׁאָר דָּמֵי
+grammar: []
+lessons:
+- id: u01-l1
+  kind: new
+  title:
+    he: ההערה הראשונה
+    en: The first note
+  exercises:
+  - id: u01-l1-01
+    type: dialogue
+    scene: דירה ריקה בירושלים. איתן וחנה מפנים את הספרים של סבא אחרי השבעה.
+    lines:
+    - speaker: chana
+      text: איתן, תראה. במגירה של סבא יש מעטפה סגורה, ועליה כתוב השם שלך.
+      translation: המכתב של סבא
+    - speaker: eitan
+      text: ״כל מה שרציתי לומר לך כתוב בדף. תמצא אותו.״ זה הכול? איזה דף?
+      translation: המכתב
+    - speaker: chana
+      text: אולי הש״ס שלו. יש פה סימנייה בבבא מציעא, דף ב.
+      translation: ש״ס = שישה סדרי משנה, כל התלמוד
+    - speaker: eitan
+      text: 'ויש הערה בכתב היד שלו בשוליים: ״איתן, מאי מצאתיה?״ אני לא מבין מילה.'
+      translation: ״מאי מצאתיה״ – ציטוט מהגמרא בדף
+  - id: u01-l1-02
+    type: dialogue
+    scene: דפיקה בדלת. ר׳ ישראל, החברותא של סבא כבר שישים שנה, נכנס עם מקל.
+    lines:
+    - speaker: yisrael
+      text: סבא שלך ביקש שאבוא כשתמצא את ההערה הראשונה. מצאת כבר?
+      translation: ר׳ ישראל ידע מראש
+    - speaker: eitan
+      text: מצאתי. אבל מה זה ״מאי״?
+      translation: מאי = מה
+    - speaker: yisrael
+      text: '״מאי״ זה ״מה״. הגמרא שואלת: מאי ״מצאתיה״? כלומר, מה פירוש המילה ״מצאתיה״ במשנה.'
+      translation: השאלה הראשונה בדף
+    - speaker: yisrael
+      text: ואני לא אגיד לך את התשובה. אתה תקרא בעצמך. ככה סבא שלך היה רוצה.
+      translation: ר׳ ישראל לא מגלה תשובות
+  - id: u01-l1-03
+    type: tip
+    title: ארמית בדף הגמרא
+    text: 'המשנה בראש הדף כתובה **בעברית**: ״שנים אוחזין בטלית…״. הגמרא שאחריה (אחרי **גמ׳**) כתובה ברובה **בארמית**.
+
+
+      הגמרא מודפסת **בלי ניקוד** ובלי פיסוק. ליד כל ציטוט בקורס יש כפתור **הצגה עם ניקוד**, אם תרצו עזרה.
+
+
+      כל משפט בקורס הוא ציטוט אמיתי, ולידו המקור: מסכת ודף.'
+  - id: u01-l1-04
+    type: learn
+    lexeme: mai
+  - id: u01-l1-05
+    type: learn
+    lexeme: lama-li
+  - id: u01-l1-06
+    type: learn
+    lexeme: katani
+  - id: u01-l1-07
+    type: learn
+    lexeme: chada
+  - id: u01-l1-08
+    type: match_pairs
+    pairs:
+    - - מאי
+      - מה
+    - - למה לי
+      - למה צריך? (מה הצורך?)
+    - - קתני
+      - (המשנה) שונה, כתוב בה
+    - - חדא
+      - אחת
+    lexemes:
+    - mai
+    - lama-li
+    - katani
+    - chada
+  - id: u01-l1-09
+    type: multiple_choice
+    prompt: מה פירוש מאי?
+    options:
+    - מה
+    - מי
+    - למה
+    correct: 0
+    lexemes:
+    - mai
+  - id: u01-l1-10
+    type: multiple_choice
+    prompt: מה פירוש חדא?
+    options:
+    - אחת
+    - שתיים
+    - כל
+    correct: 0
+    lexemes:
+    - chada
+  - id: u01-l1-11
+    type: fill_blank
+    sentence: ___ לי למתנא
+    translation: למה (המשנה) צריכה לשנות (פעמיים)?
+    answers:
+    - למה
+    options:
+    - למה
+    - מאי
+    - חדא
+    lexemes:
+    - lama-li
+    source: בבלי, בבא מציעא ב ע״א
+    vocalized: לְמָה לִי לְמִתְנָא
+  - id: u01-l1-12
+    type: fill_blank
+    sentence: ליתני ___
+    translation: שתשנה (המשנה טענה) אחת!
+    answers:
+    - חדא
+    options:
+    - חדא
+    - מאי
+    - לי
+    lexemes:
+    - chada
+    source: בבלי, בבא מציעא ב ע״א
+    vocalized: לִיתְנֵי חֲדָא
+  - id: u01-l1-13
+    type: multiple_choice
+    prompt: ״מאי מצאתיה? ראיתיה״. מה הגמרא שואלת כאן?
+    options:
+    - מה פירוש המילה ׳מצאתיה׳ במשנה
+    - מי מצא את הטלית
+    - למה המשנה ארוכה
+    correct: 0
+    lexemes:
+    - mai
+    source: בבלי, בבא מציעא ב ע״א
+    vocalized: מַאי ״מְצָאתִיהָ״ רְאִיתִיהָ
+- id: u01-l2
+  kind: new
+  title:
+    he: אי… הוה אמינא
+    en: If… I would have said
+  exercises:
+  - id: u01-l2-01
+    type: dialogue
+    scene: ר׳ ישראל מתיישב ליד השולחן ופותח את הגמרא.
+    lines:
+    - speaker: yisrael
+      text: 'תסתכל איך הגמרא חושבת. היא שואלת: למה המשנה צריכה גם ״מצאתיה״ וגם ״כולה שלי״?'
+      translation: 'השאלה: למה לי'
+    - speaker: yisrael
+      text: 'והתשובה: ״אי תנא אני מצאתיה – הוה אמינא…״. אילו המשנה שנתה רק ״מצאתיה״, הייתי חושב משהו אחר.'
+      translation: אי… הוה אמינא
+    - speaker: eitan
+      text: אז ״הוה אמינא״ זה מה שהייתי חושב בטעות?
+      translation: הוה אמינא = הייתי אומר
+    - speaker: yisrael
+      text: בדיוק. וכשהגמרא מראה ששני הדברים נחוצים, היא אומרת ״צריכא״.
+      translation: צריכא = צריך את שניהם
+  - id: u01-l2-02
+    type: learn
+    lexeme: i
+  - id: u01-l2-03
+    type: learn
+    lexeme: tana
+  - id: u01-l2-04
+    type: learn
+    lexeme: hava-amina
+  - id: u01-l2-05
+    type: learn
+    lexeme: tsricha
+  - id: u01-l2-06
+    type: match_pairs
+    pairs:
+    - - אי
+      - אם, אילו
+    - - תנא
+      - 'שנה (בעבר); גם: התנא, חכם המשנה'
+    - - הוה אמינא
+      - הייתי אומר (הייתי חושב)
+    - - צריכא
+      - צריך (את שני הדברים)
+    - - מאי
+      - מה
+    lexemes:
+    - i
+    - tana
+    - hava-amina
+    - tsricha
+    - mai
+  - id: u01-l2-07
+    type: multiple_choice
+    prompt: מה פירוש הוה אמינא?
+    options:
+    - הייתי אומר (הייתי חושב)
+    - אמרתי לך
+    - אמא שלי
+    correct: 0
+    lexemes:
+    - hava-amina
+  - id: u01-l2-08
+    type: multiple_choice
+    prompt: מה פירוש אי?
+    options:
+    - אם, אילו
+    - אין
+    - אני
+    correct: 0
+    lexemes:
+    - i
+  - id: u01-l2-09
+    type: fill_blank
+    sentence: אי תנא אני מצאתיה ___ אמינא
+    translation: אילו שנה (רק) 'אני מצאתיה', הייתי אומר
+    answers:
+    - הוה
+    options:
+    - הוה
+    - קתני
+    - מאי
+    lexemes:
+    - i
+    - tana
+    - hava-amina
+    source: בבלי, בבא מציעא ב ע״א
+    vocalized: אִי תְּנָא ״אֲנִי מְצָאתִיהָ״, הֲוָה אָמֵינָא
+  - id: u01-l2-10
+    type: word_bank
+    prompt: (לכן) שנה ׳כולה שלי׳
+    answers:
+    - תנא כולה שלי
+    distractors:
+    - מאי
+    - חדא
+    lexemes:
+    - tana
+    source: בבלי, בבא מציעא ב ע״א
+    vocalized: 'תְּנָא: ״כּוּלָּהּ שֶׁלִּי״'
+  - id: u01-l2-11
+    type: multiple_choice
+    prompt: מה פירוש ״הוה אמינא״ במשפט הזה?
+    options:
+    - הייתי אומר (בטעות)
+    - אני אומר עכשיו
+    - המשנה אומרת
+    correct: 0
+    lexemes:
+    - hava-amina
+    source: בבלי, בבא מציעא ב ע״א
+    vocalized: 'אִי תְּנָא ״אֲנִי מְצָאתִיהָ״, הֲוָה אָמֵינָא: מַאי ״מְצָאתִיהָ״ רְאִיתִיהָ'
+    passage: אי תנא אני מצאתיה הוה אמינא מאי מצאתיה ראיתיה
+- id: u01-l3
+  kind: new
+  title:
+    he: הכא והתם
+    en: Here and there
+  exercises:
+  - id: u01-l3-01
+    type: dialogue
+    scene: חנה חוזרת עם קפה. איתן כבר מדפדף לבד לעמוד הבא.
+    lines:
+    - speaker: eitan
+      text: 'יש פה הערה שנייה של סבא, בעמוד ב: הוא סימן בעיגול ״הכא״ ו״התם״.'
+      translation: ההערה השנייה
+    - speaker: yisrael
+      text: ״התם״ זה ״שם״, ו״הכא״ זה ״כאן״. הגמרא משווה מקרה אחר, שם, למקרה שלנו, כאן.
+      translation: התם = שם, הכא = כאן
+    - speaker: chana
+      text: ומה זה ״איכא״ ו״ליכא״?
+      translation: שאלה של חנה
+    - speaker: yisrael
+      text: ״איכא״ – יש. ״ליכא״ – אין. ארבע מילים קטנות, ואת חצי מהגמרא אתם כבר קוראים.
+      translation: איכא = יש, ליכא = אין
+  - id: u01-l3-02
+    type: learn
+    lexeme: hacha
+  - id: u01-l3-03
+    type: learn
+    lexeme: hatam
+  - id: u01-l3-04
+    type: learn
+    lexeme: ika
+  - id: u01-l3-05
+    type: learn
+    lexeme: leika
+  - id: u01-l3-06
+    type: match_pairs
+    pairs:
+    - - הכא
+      - כאן
+    - - התם
+      - שם
+    - - איכא
+      - יש
+    - - ליכא
+      - אין
+    lexemes:
+    - hacha
+    - hatam
+    - ika
+    - leika
+  - id: u01-l3-07
+    type: multiple_choice
+    prompt: מה פירוש התם?
+    options:
+    - שם
+    - כאן
+    - תמיד
+    correct: 0
+    lexemes:
+    - hatam
+  - id: u01-l3-08
+    type: multiple_choice
+    prompt: מה פירוש ליכא?
+    options:
+    - אין
+    - יש
+    - לא כך
+    correct: 0
+    lexemes:
+    - leika
+  - id: u01-l3-09
+    type: fill_blank
+    sentence: ___ ודאי איכא שבועת שוא
+    translation: שם ודאי יש שבועת שווא
+    answers:
+    - התם
+    options:
+    - התם
+    - הכא
+    - ליכא
+    lexemes:
+    - hatam
+    - ika
+    source: בבלי, בבא מציעא ב ע״ב
+    vocalized: הָתָם וַדַּאי אִיכָּא שְׁבוּעַת שָׁוְא
+  - id: u01-l3-10
+    type: fill_blank
+    sentence: התם ודאי ___ רמאי
+    translation: שם ודאי יש רמאי
+    answers:
+    - איכא
+    options:
+    - איכא
+    - ליכא
+    - מאי
+    lexemes:
+    - ika
+    - hatam
+    source: בבלי, בבא מציעא ג ע״א
+    vocalized: הָתָם וַדַּאי אִיכָּא רַמַּאי
+  - id: u01-l3-11
+    type: word_bank
+    prompt: שאי אפשר לומר כך
+    answers:
+    - דליכא למימר הכי
+    distractors:
+    - איכא
+    - התם
+    lexemes:
+    - leika
+    source: בבלי, בבא מציעא ב ע״ב
+    vocalized: דְּלֵיכָּא לְמֵימַר הָכִי
+  - id: u01-l3-12
+    type: multiple_choice
+    prompt: מה ההבדל שהגמרא מציינת?
+    options:
+    - שם ודאי יש שבועת שווא, וכאן אפשר לומר שאין
+    - שם אין שבועה, וכאן יש
+    - שם וכאן אותו דבר
+    correct: 0
+    lexemes:
+    - hatam
+    - hacha
+    - ika
+    - leika
+    source: בבלי, בבא מציעא ב ע״ב
+    vocalized: הָתָם וַדַּאי אִיכָּא שְׁבוּעַת שָׁוְא. הָכָא אִיכָּא לְמֵימַר דְּלֵיכָּא שְׁבוּעַת שָׁוְא
+    passage: התם ודאי איכא שבועת שוא הכא איכא למימר דליכא שבועת שוא
+- id: u01-l4
+  kind: new
+  title:
+    he: לימא? אפילו תימא
+    en: Shall we say?
+  exercises:
+  - id: u01-l4-01
+    type: dialogue
+    scene: שעה מאוחרת. ר׳ ישראל מראה לאיתן איך הגמרא מציעה רעיון ודוחה אותו.
+    lines:
+    - speaker: yisrael
+      text: '״לימא״ – נאמר? הגמרא מציעה: אולי המשנה הולכת לפי חכם מסוים.'
+      translation: לימא = נאמר?
+    - speaker: yisrael
+      text: 'ואז: ״אפילו תימא…״ – אפילו תאמר שכן, אין בעיה. ככה נדחית ההצעה.'
+      translation: אפילו תימא = אפילו תאמר
+    - speaker: eitan
+      text: ו״נמי״?
+      translation: שאלה
+    - speaker: yisrael
+      text: '״נמי״ זה ״גם״. ותראה מה סבא סימן בעמוד ג: ״יהא מונח עד שיבא אליהו״. ולידו כתב: ״חפש את אליהו.״'
+      translation: הרמז הבא
+    - speaker: chana
+      text: אליהו? איפה מחפשים את אליהו בגמרא?
+      translation: סוף הפרק
+  - id: u01-l4-02
+    type: learn
+    lexeme: leima
+  - id: u01-l4-03
+    type: learn
+    lexeme: afilu-teima
+  - id: u01-l4-04
+    type: learn
+    lexeme: nami
+  - id: u01-l4-05
+    type: match_pairs
+    pairs:
+    - - לימא
+      - נאמר? (האם נאמר ש…)
+    - - אפילו תימא
+      - אפילו תאמר
+    - - נמי
+      - גם
+    - - הכא
+      - כאן
+    - - חדא
+      - אחת
+    lexemes:
+    - leima
+    - afilu-teima
+    - nami
+    - hacha
+    - chada
+  - id: u01-l4-06
+    type: multiple_choice
+    prompt: מה פירוש נמי?
+    options:
+    - גם
+    - לא
+    - עכשיו
+    correct: 0
+    lexemes:
+    - nami
+  - id: u01-l4-07
+    type: multiple_choice
+    prompt: מה פירוש לימא?
+    options:
+    - נאמר? (האם נאמר ש…)
+    - לנו
+    - למה
+    correct: 0
+    lexemes:
+    - leima
+  - id: u01-l4-08
+    type: fill_blank
+    sentence: הא ___ כשאר דמי
+    translation: גם זה דומה לשאר
+    answers:
+    - נמי
+    options:
+    - נמי
+    - מאי
+    - הכא
+    lexemes:
+    - nami
+    source: בבלי, בבא מציעא ג ע״א
+    vocalized: הָא נָמֵי כִּשְׁאָר דָּמֵי
+  - id: u01-l4-09
+    type: word_bank
+    prompt: אפילו תאמר (שהמשנה כשיטת) בן ננס
+    answers:
+    - אפילו תימא בן ננס
+    distractors:
+    - לימא
+    - התם
+    lexemes:
+    - afilu-teima
+    source: בבלי, בבא מציעא ב ע״ב
+    vocalized: אֲפִילּוּ תֵּימָא בֶּן נַנָּס
+  - id: u01-l4-10
+    type: multiple_choice
+    prompt: ״לימא מתני׳ דלא כסומכוס״. מה הגמרא עושה כאן?
+    options:
+    - מציעה שהמשנה אינה כשיטת סומכוס
+    - קובעת שהמשנה כשיטת סומכוס
+    - שואלת מי היה סומכוס
+    correct: 0
+    lexemes:
+    - leima
+    source: בבלי, בבא מציעא ב ע״ב
+    vocalized: לֵימָא מַתְנִיתִין דְּלָא כְּסוֹמְכוֹס
+  - id: u01-l4-11
+    type: tip
+    title: 'קיצורים: מתני׳ ו־גמ׳'
+    text: 'בדף יש הרבה **ראשי תיבות וקיצורים**. שניים כבר פגשתם:
+
+
+      **מתני׳** = מתניתין, המשנה. **גמ׳** = גמרא.
+
+
+      בתשובות אפשר להקליד קיצור בכל צורה: מתני׳, מתני'' או מתני.'
+- id: u01-l5
+  kind: review
+  title:
+    he: קוראים דף
+    en: Reading the page
+  exercises:
+  - id: u01-l5-01
+    type: reading
+    kind: גמרא, בבא מציעא ב ע״ב
+    title: התם והכא
+    text: 'אפילו תימא בן ננס
+
+
+      התם ודאי איכא שבועת שוא
+
+
+      הכא איכא למימר דליכא שבועת שוא
+
+
+      אימור דתרוייהו בהדי הדדי אגבהוה'
+    translation: 'אפילו תאמר (שהמשנה כשיטת) בן ננס:
+
+
+      שם ודאי יש שבועת שווא (אחד מהם נשבע לשקר),
+
+
+      כאן יש לומר שאין שבועת שווא:
+
+
+      אמור ששניהם הגביהו אותה יחד (ושניהם צודקים).'
+    lexemes:
+    - afilu-teima
+    - hatam
+    - hacha
+    - ika
+    - leika
+    source: בבלי, בבא מציעא ב ע״ב
+    vocalized: אֲפִילּוּ תֵּימָא בֶּן נַנָּס, הָתָם וַדַּאי אִיכָּא שְׁבוּעַת שָׁוְא. הָכָא אִיכָּא לְמֵימַר דְּלֵיכָּא שְׁבוּעַת שָׁוְא, אֵימוֹר דְּתַרְוַיְיהוּ בַּהֲדֵי הֲדָדֵי אַגְבְּהוּהָ
+  - id: u01-l5-02
+    type: multiple_choice
+    prompt: לפי הקטע, למה כאן אין שבועת שווא?
+    options:
+    - כי אפשר ששניהם הגביהו את הטלית יחד
+    - כי אף אחד לא נשבע
+    - כי בן ננס אומר כך
+    correct: 0
+    lexemes:
+    - hacha
+    - leika
+    source: בבלי, בבא מציעא ב ע״ב
+    vocalized: הָתָם וַדַּאי אִיכָּא שְׁבוּעַת שָׁוְא. הָכָא אִיכָּא לְמֵימַר דְּלֵיכָּא שְׁבוּעַת שָׁוְא
+    passage: התם ודאי איכא שבועת שוא הכא איכא למימר דליכא שבועת שוא
+  - id: u01-l5-03
+    type: multiple_choice
+    prompt: מה פירוש קתני?
+    options:
+    - (המשנה) שונה, כתוב בה
+    - קטן
+    - קנה
+    correct: 0
+    lexemes:
+    - katani
+  - id: u01-l5-04
+    type: multiple_choice
+    prompt: מה פירוש צריכא?
+    options:
+    - צריך (את שני הדברים)
+    - צריך לעזוב
+    - צרה
+    correct: 0
+    lexemes:
+    - tsricha
+  - id: u01-l5-05
+    type: multiple_choice
+    prompt: מה פירוש אפילו תימא?
+    options:
+    - אפילו תאמר
+    - אפילו היום
+    - עד עכשיו
+    correct: 0
+    lexemes:
+    - afilu-teima
+  - id: u01-l5-06
+    type: fill_blank
+    sentence: ומי מצית אמרת חדא ___ והא זה וזה קתני
+    translation: וכי אתה יכול לומר שהיא שונה (טענה) אחת? הרי 'זה' ו'זה' היא שונה!
+    answers:
+    - קתני
+    options:
+    - קתני
+    - תנא
+    - נמי
+    lexemes:
+    - katani
+    - chada
+    source: בבלי, בבא מציעא ב ע״א
+    vocalized: וּמִי מָצֵית אָמְרַתְּ חֲדָא קָתָנֵי? וְהָא ״זֶה״ וְ״זֶה״ קָתָנֵי
+  - id: u01-l5-07
+    type: word_bank
+    prompt: שם ודאי יש שבועת שווא
+    answers:
+    - התם ודאי איכא שבועת שוא
+    distractors:
+    - הכא
+    - ליכא
+    lexemes:
+    - hatam
+    - ika
+    source: בבלי, בבא מציעא ב ע״ב
+    vocalized: הָתָם וַדַּאי אִיכָּא שְׁבוּעַת שָׁוְא
+  - id: u01-l5-08
+    type: match_pairs
+    pairs:
+    - - מאי
+      - מה
+    - - אי
+      - אם, אילו
+    - - התם
+      - שם
+    - - ליכא
+      - אין
+    - - לימא
+      - נאמר? (האם נאמר ש…)
+    - - נמי
+      - גם
+    lexemes:
+    - mai
+    - i
+    - hatam
+    - leika
+    - leima
+    - nami
+  - id: u01-l5-09
+    type: dialogue
+    scene: לפני שר׳ ישראל הולך הביתה.
+    lines:
+    - speaker: yisrael
+      text: 'עוד לא סיימת את הדף, אבל אתה כבר יודע לשאול כמו הגמרא: מאי? למה לי? אי… הוה אמינא.'
+      translation: סיכום
+    - speaker: eitan
+      text: ומה עם אליהו?
+      translation: הרמז
+    - speaker: yisrael
+      text: מחר. תביא את המחברת של סבא, ונמצא אותו ביחד.
+      translation: ההמשך ביחידה הבאה

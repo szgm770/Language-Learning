@@ -1,0 +1,23 @@
+id: arc-for-he
+source: he
+target: arc
+speechLang: none
+quotesOnly: true
+title:
+  he: ארמית של הגמרא
+  en: Aramaic of the Talmud
+description:
+  he: "לקרוא ולהבין את הגמרא: איתן מפענח את ההערות שסבו השאיר בשולי הש״ס. כל משפט הוא ציטוט אמיתי עם מקור. הטקסט: ויקיטקסט (CC BY-SA); הניקוד: מהדורת וויליאם דייוידסון בספריא (CC BY-NC)."
+  en: "Reading the Talmud: Eitan decodes the notes his grandfather left in the margins of his Shas. Every sentence is a real quotation with its source. Text: Wikisource (CC BY-SA); vocalisation: William Davidson Edition on Sefaria (CC BY-NC)."
+stages:
+  - { level: A0, name: { he: "פתח", en: "Opening" }, about: "קריאה בלי ניקוד, קיצורים, ומה עברית ומה ארמית בדף" }
+  - { level: A1, name: { he: "מילות הסוגיה", en: "Key words" }, about: "המילים שחוזרות בכל דף: מאי, הכא, התם, איכא, לימא" }
+  - { level: A2, name: { he: "פעלים וכינויים", en: "Verbs and pronouns" }, about: "אנא, את, איהו, אנן; עבר, הווה ועתיד" }
+  - { level: B1, name: { he: "מבנה הסוגיה", en: "How a sugya works" }, about: "קושיא ותירוץ, איבעיא, דיוק, מחלוקת, תא שמע" }
+  - { level: B2, name: { he: "סוגיה שלמה", en: "A whole sugya" }, about: "קריאה עצמאית של קטעים ארוכים" }
+characters:
+  - { id: "eitan", name: "איתן", he: "איתן", color: "blue", look: "short", pitch: 1.0 }
+  - { id: "yisrael", name: "ר׳ ישראל", he: "ר׳ ישראל", color: "teal", look: "bald", pitch: 0.8 }
+  - { id: "chana", name: "חנה", he: "חנה", color: "rose", look: "long", pitch: 1.15 }
+units:
+  - u01-mai
