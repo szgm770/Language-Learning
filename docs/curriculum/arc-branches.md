@@ -23,7 +23,12 @@ reviewed before publishing, words chosen by frequency and coverage measured on t
 - **Yerushalmi** (`arc-yerushalmi`, 2026-11-08): 4 units on what differs from the Bavli (תמן, אמרין, תנינן, קיימין, תיפתר,
   נישמעינה, עאל, חמית, דמך) and a story (Shimon ben Shetach and the pearl, BM 2:5). A Bavli learner already knows 88% of
   Yerushalmi Berakhot; with this course 89.7% (the rest is mostly halachic Hebrew nouns and rare forms).
-- Zohar: next.
+- **Zohar** (`arc-zohar`, 2026-11-08): 5 units (formulas, above and below, light and soul, ״ווי לההוא בר נש״, בריך שמיה), each
+  with a lesson of frequent forms. Story: Lag BaOmer in Meron. Coverage on the last 8 portions (not used for choosing): 79.3%
+  (a Bavli learner starts at 71.1%). The Sulam text's licence is not stated on Sefaria; the Zohar itself is public domain.
+
+## Next for the branches
+More frequent forms where coverage is under 85% (Onkelos, Zohar); Targum Jonathan and midrashic Aramaic by demand.
 
 ## How a branch is built
 1. Frequency of forms in the corpus that the learner does not know yet (Hebrew + the Bavli course); hold out part of the corpus.

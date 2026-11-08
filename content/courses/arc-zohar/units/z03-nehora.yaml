@@ -1,0 +1,611 @@
+id: z03-nehora
+cefr: A2
+scene: study
+title:
+  he: נהורא מגו חשוכא
+  en: Light from within darkness
+story: עלות השחר במירון. ר׳ ישראל מלמד מילים של אור ונשמה בזוהר, ומספר איך סבא קרא לבוקר הראשון אחרי המלחמה ״נהורא מגו חשוכא״.
+canDo:
+- להבין נהורא, חשוכא, נהיר, נהירו
+- להבין נשמתא, אילנא דחיי, גוונין
+- לקרוא משפט מהזוהר על אור וחושך
+vocabulary:
+- id: nehora-z
+  text: נהורא
+  translation: אור
+  pos: noun
+  example:
+    text: נהורא דאתגלייא מגו חשוכא
+    translation: אור שמתגלה מתוך החושך
+    source: זוהר, פרשת תצוה
+- id: mego
+  text: מגו
+  translation: מתוך
+  pos: preposition
+  example:
+    text: נהורא דאתגלייא מגו חשוכא
+    translation: אור שמתגלה מתוך החושך
+    source: זוהר, פרשת תצוה
+- id: chashocha-z
+  text: חשוכא
+  translation: חושך
+  pos: noun
+  example:
+    text: נהורא דאתגלייא מגו חשוכא
+    translation: אור שמתגלה מתוך החושך
+    source: זוהר, פרשת תצוה
+- id: itgalya
+  text: אתגלייא
+  translation: מתגלה
+  pos: verb
+  example:
+    text: נהורא דאתגלייא מגו חשוכא
+    translation: אור שמתגלה מתוך החושך
+    source: זוהר, פרשת תצוה
+- id: nishmata
+  text: נשמתא
+  translation: נשמה
+  pos: noun
+  example:
+    text: נשמתא מגו אילנא דחיי
+    translation: הנשמה (באה) מתוך עץ החיים
+    source: זוהר, פרשת שלח
+- id: ilana-z
+  text: אילנא דחיי
+  translation: עץ החיים
+  pos: phrase
+  example:
+    text: נשמתא מגו אילנא דחיי
+    translation: הנשמה (באה) מתוך עץ החיים
+    source: זוהר, פרשת שלח
+- id: leit-la
+  text: לית לה
+  translation: אין לה
+  pos: phrase
+  example:
+    text: ולית לה נהורא כלל
+    translation: ואין לה אור כלל
+    source: זוהר, פרשת פקודי
+- id: zf-nehorin
+  text: נהורין
+  translation: אורות
+  pos: noun
+- id: zf-nehiru
+  text: נהירו
+  translation: הארה, אור
+  pos: noun
+- id: zf-nehir
+  text: נהיר
+  translation: מאיר
+  pos: noun
+- id: zf-nishmatin
+  text: נשמתין
+  translation: נשמות
+  pos: noun
+- id: zf-rucha
+  text: רוחא
+  translation: רוח
+  pos: noun
+- id: zf-gavnin
+  text: גוונין
+  translation: צבעים
+  pos: noun
+- id: zf-sihra
+  text: סיהרא
+  translation: הירח
+  pos: noun
+- id: zf-isha-z
+  text: אשא
+  translation: האש
+  pos: noun
+- id: zf-chochmeta
+  text: חכמתא
+  translation: חכמה
+  pos: noun
+- id: zf-satim
+  text: סתים
+  translation: נסתר
+  pos: noun
+- id: zf-diyukna
+  text: דיוקנא
+  translation: דמות, צורה
+  pos: noun
+- id: zf-nukva
+  text: נוקבא
+  translation: נקבה; (בקבלה:) המלכות
+  pos: noun
+grammar: []
+lessons:
+- id: z03-l1
+  kind: new
+  title:
+    he: נהורא וחשוכא
+    en: Light and darkness
+  exercises:
+  - id: z03-l1-01
+    type: dialogue
+    scene: השמש עולה מעל הר מירון.
+    lines:
+    - speaker: yisrael
+      text: ״נהורא דאתגלייא מגו חשוכא״. אור שמתגלה מתוך החושך. יתרון האור מן החושך.
+      translation: נהורא מגו חשוכא
+    - speaker: yisrael
+      text: הבוקר הראשון אחרי המלחמה, יצאנו מהמתבן. סבא שלך עמד בפתח, הסתכל על השמש, ואמר את המשפט הזה.
+      translation: זיכרון
+  - id: z03-l1-02
+    type: learn
+    lexeme: nehora-z
+  - id: z03-l1-03
+    type: learn
+    lexeme: mego
+  - id: z03-l1-04
+    type: learn
+    lexeme: chashocha-z
+  - id: z03-l1-05
+    type: learn
+    lexeme: itgalya
+  - id: z03-l1-06
+    type: match_pairs
+    pairs:
+    - - נהורא
+      - אור
+    - - מגו
+      - מתוך
+    - - חשוכא
+      - חושך
+    - - אתגלייא
+      - מתגלה
+    lexemes:
+    - nehora-z
+    - mego
+    - chashocha-z
+    - itgalya
+  - id: z03-l1-07
+    type: multiple_choice
+    prompt: מה פירוש נהורא?
+    options:
+    - אור
+    - מתגלה
+    - מתוך
+    correct: 0
+    lexemes:
+    - nehora-z
+  - id: z03-l1-08
+    type: multiple_choice
+    prompt: מה פירוש מגו?
+    options:
+    - מתוך
+    - נשמה
+    - אין לה
+    correct: 0
+    lexemes:
+    - mego
+  - id: z03-l1-09
+    type: multiple_choice
+    prompt: מה פירוש חשוכא?
+    options:
+    - חושך
+    - מתגלה
+    - אין לה
+    correct: 0
+    lexemes:
+    - chashocha-z
+  - id: z03-l1-10
+    type: multiple_choice
+    prompt: מה פירוש אתגלייא?
+    options:
+    - מתגלה
+    - חושך
+    - אין לה
+    correct: 0
+    lexemes:
+    - itgalya
+  - id: z03-l1-11
+    type: fill_blank
+    sentence: ___ דאתגלייא מגו חשוכא
+    translation: אור שמתגלה מתוך החושך
+    answers:
+    - נהורא
+    options:
+    - נהורא
+    - לית לה
+    - נשמתא
+    lexemes:
+    - nehora-z
+    source: זוהר, פרשת תצוה
+  - id: z03-l1-12
+    type: fill_blank
+    sentence: נהורא דאתגלייא ___ חשוכא
+    translation: אור שמתגלה מתוך החושך
+    answers:
+    - מגו
+    options:
+    - מגו
+    - אילנא דחיי
+    - חשוכא
+    lexemes:
+    - mego
+    source: זוהר, פרשת תצוה
+  - id: z03-l1-13
+    type: fill_blank
+    sentence: נהורא דאתגלייא מגו ___
+    translation: אור שמתגלה מתוך החושך
+    answers:
+    - חשוכא
+    options:
+    - חשוכא
+    - אתגלייא
+    - נהורא
+    lexemes:
+    - chashocha-z
+    source: זוהר, פרשת תצוה
+  - id: z03-l1-14
+    type: fill_blank
+    sentence: נהורא ___ מגו חשוכא
+    translation: אור שמתגלה מתוך החושך
+    answers:
+    - דאתגלייא
+    options:
+    - דאתגלייא
+    - מגו
+    - לית לה
+    lexemes:
+    - itgalya
+    source: זוהר, פרשת תצוה
+- id: z03-l2
+  kind: new
+  title:
+    he: נשמתא
+    en: The soul
+  exercises:
+  - id: z03-l2-15
+    type: tip
+    title: אור ונשמה
+    text: '**נהורא** = אור. **נהיר** = מאיר. **חשוכא** = חושך. **מגו** = מתוך.
+
+
+      **נשמתא** = נשמה. **אילנא דחיי** = עץ החיים.
+
+
+      בזוהר האור והחושך הם לא רק טבע: הם עבודת האדם.'
+  - id: z03-l2-16
+    type: learn
+    lexeme: nishmata
+  - id: z03-l2-17
+    type: learn
+    lexeme: ilana-z
+  - id: z03-l2-18
+    type: learn
+    lexeme: leit-la
+  - id: z03-l2-19
+    type: match_pairs
+    pairs:
+    - - נשמתא
+      - נשמה
+    - - אילנא דחיי
+      - עץ החיים
+    - - לית לה
+      - אין לה
+    lexemes:
+    - nishmata
+    - ilana-z
+    - leit-la
+  - id: z03-l2-20
+    type: multiple_choice
+    prompt: מה פירוש נשמתא?
+    options:
+    - נשמה
+    - מתוך
+    - אין לה
+    correct: 0
+    lexemes:
+    - nishmata
+  - id: z03-l2-21
+    type: multiple_choice
+    prompt: מה פירוש אילנא דחיי?
+    options:
+    - עץ החיים
+    - אור
+    - מתגלה
+    correct: 0
+    lexemes:
+    - ilana-z
+  - id: z03-l2-22
+    type: multiple_choice
+    prompt: מה פירוש לית לה?
+    options:
+    - אין לה
+    - נשמה
+    - מתוך
+    correct: 0
+    lexemes:
+    - leit-la
+  - id: z03-l2-23
+    type: fill_blank
+    sentence: ___ מגו אילנא דחיי
+    translation: הנשמה (באה) מתוך עץ החיים
+    answers:
+    - נשמתא
+    options:
+    - נשמתא
+    - חשוכא
+    - אתגלייא
+    lexemes:
+    - nishmata
+    source: זוהר, פרשת שלח
+  - id: z03-l2-24
+    type: fill_blank
+    sentence: נשמתא מגו ___ דחיי
+    translation: הנשמה (באה) מתוך עץ החיים
+    answers:
+    - אילנא
+    options:
+    - אילנא
+    - אתגלייא
+    - חשוכא
+    lexemes:
+    - ilana-z
+    source: זוהר, פרשת שלח
+  - id: z03-l2-25
+    type: fill_blank
+    sentence: ___ לה נהורא כלל
+    translation: ואין לה אור כלל
+    answers:
+    - ולית
+    options:
+    - ולית
+    - חשוכא
+    - אילנא דחיי
+    lexemes:
+    - leit-la
+    source: זוהר, פרשת פקודי
+- id: z03-l3
+  kind: new
+  title:
+    he: המחברת של איתן
+    en: Eitan's notebook
+  exercises:
+  - id: z03-l3-26
+    type: tip
+    title: מילים שכיחות בזוהר
+    text: 'מילים שחוזרות בזוהר שוב ושוב: **נהורין** = אורות, **נהירו** = הארה, אור, **נהיר** = מאיר, **נשמתין** = נשמות, **רוחא** = רוח, **גוונין** = צבעים, **סיהרא** = הירח, **אשא** = האש, **חכמתא** = חכמה, **סתים** = נסתר, **דיוקנא** = דמות, צורה, **נוקבא** = נקבה; (בקבלה:) המלכות.'
+  - id: z03-l3-27
+    type: learn
+    lexeme: zf-nehorin
+  - id: z03-l3-28
+    type: learn
+    lexeme: zf-nehiru
+  - id: z03-l3-29
+    type: learn
+    lexeme: zf-nehir
+  - id: z03-l3-30
+    type: learn
+    lexeme: zf-nishmatin
+  - id: z03-l3-31
+    type: learn
+    lexeme: zf-rucha
+  - id: z03-l3-32
+    type: learn
+    lexeme: zf-gavnin
+  - id: z03-l3-33
+    type: learn
+    lexeme: zf-sihra
+  - id: z03-l3-34
+    type: learn
+    lexeme: zf-isha-z
+  - id: z03-l3-35
+    type: learn
+    lexeme: zf-chochmeta
+  - id: z03-l3-36
+    type: learn
+    lexeme: zf-satim
+  - id: z03-l3-37
+    type: learn
+    lexeme: zf-diyukna
+  - id: z03-l3-38
+    type: learn
+    lexeme: zf-nukva
+  - id: z03-l3-39
+    type: match_pairs
+    pairs:
+    - - נהורין
+      - אורות
+    - - נהירו
+      - הארה, אור
+    - - נהיר
+      - מאיר
+    - - נשמתין
+      - נשמות
+    - - רוחא
+      - רוח
+    - - גוונין
+      - צבעים
+    lexemes:
+    - zf-nehorin
+    - zf-nehiru
+    - zf-nehir
+    - zf-nishmatin
+    - zf-rucha
+    - zf-gavnin
+  - id: z03-l3-40
+    type: multiple_choice
+    prompt: מה פירוש נהורין?
+    options:
+    - אורות
+    - הארה, אור
+    - דמות, צורה
+    correct: 0
+    lexemes:
+    - zf-nehorin
+  - id: z03-l3-41
+    type: multiple_choice
+    prompt: מה פירוש נהירו?
+    options:
+    - הארה, אור
+    - מתגלה
+    - מתוך
+    correct: 0
+    lexemes:
+    - zf-nehiru
+  - id: z03-l3-42
+    type: multiple_choice
+    prompt: מה פירוש נהיר?
+    options:
+    - מאיר
+    - רוח
+    - חושך
+    correct: 0
+    lexemes:
+    - zf-nehir
+  - id: z03-l3-43
+    type: multiple_choice
+    prompt: מה פירוש נשמתין?
+    options:
+    - נשמות
+    - צבעים
+    - רוח
+    correct: 0
+    lexemes:
+    - zf-nishmatin
+  - id: z03-l3-44
+    type: multiple_choice
+    prompt: מה פירוש רוחא?
+    options:
+    - רוח
+    - הירח
+    - הארה, אור
+    correct: 0
+    lexemes:
+    - zf-rucha
+  - id: z03-l3-45
+    type: multiple_choice
+    prompt: מה פירוש גוונין?
+    options:
+    - צבעים
+    - נקבה; (בקבלה:) המלכות
+    - חכמה
+    correct: 0
+    lexemes:
+    - zf-gavnin
+  - id: z03-l3-46
+    type: multiple_choice
+    prompt: מה פירוש סיהרא?
+    options:
+    - הירח
+    - נשמה
+    - אורות
+    correct: 0
+    lexemes:
+    - zf-sihra
+  - id: z03-l3-47
+    type: multiple_choice
+    prompt: מה פירוש אשא?
+    options:
+    - האש
+    - הארה, אור
+    - חושך
+    correct: 0
+    lexemes:
+    - zf-isha-z
+  - id: z03-l3-48
+    type: multiple_choice
+    prompt: מה פירוש חכמתא?
+    options:
+    - חכמה
+    - דמות, צורה
+    - רוח
+    correct: 0
+    lexemes:
+    - zf-chochmeta
+  - id: z03-l3-49
+    type: multiple_choice
+    prompt: מה פירוש סתים?
+    options:
+    - נסתר
+    - הארה, אור
+    - עץ החיים
+    correct: 0
+    lexemes:
+    - zf-satim
+  - id: z03-l3-50
+    type: multiple_choice
+    prompt: מה פירוש דיוקנא?
+    options:
+    - דמות, צורה
+    - עץ החיים
+    - מתגלה
+    correct: 0
+    lexemes:
+    - zf-diyukna
+  - id: z03-l3-51
+    type: multiple_choice
+    prompt: מה פירוש נוקבא?
+    options:
+    - נקבה; (בקבלה:) המלכות
+    - עץ החיים
+    - דמות, צורה
+    correct: 0
+    lexemes:
+    - zf-nukva
+- id: z03-l4
+  kind: review
+  title:
+    he: עלות השחר
+    en: Daybreak
+  exercises:
+  - id: z03-l4-52
+    type: multiple_choice
+    prompt: '״נהורא דאתגלייא מגו חשוכא״ פירושו:'
+    options:
+    - אור שמתגלה מתוך החושך
+    - אור וחושך שווים
+    - חושך שמסתיר את האור
+    correct: 0
+    lexemes:
+    - nehora-z
+    - mego
+    - chashocha-z
+    source: זוהר, פרשת תצוה
+  - id: z03-l4-53
+    type: multiple_choice
+    prompt: ״נשמתא מגו אילנא דחיי״. מאיפה באה הנשמה?
+    options:
+    - מתוך עץ החיים
+    - מתוך החושך
+    - מן הארץ
+    correct: 0
+    lexemes:
+    - nishmata
+    - ilana-z
+  - id: z03-l4-54
+    type: dialogue
+    scene: חוזרים לאוטו.
+    lines:
+    - speaker: eitan
+      text: ר׳ ישראל, מה עוד סבא אהב בזוהר?
+      translation: איתן
+    - speaker: yisrael
+      text: משפט אחד, על ״ההוא בר נש״ שחושב שהתורה היא רק סיפורים.
+      translation: ההמשך
+  - id: z03-l4-55
+    type: match_pairs
+    pairs:
+    - - נהורא
+      - אור
+    - - מגו
+      - מתוך
+    - - חשוכא
+      - חושך
+    - - נשמתא
+      - נשמה
+    - - אילנא דחיי
+      - עץ החיים
+    - - אתגלייא
+      - מתגלה
+    lexemes:
+    - nehora-z
+    - mego
+    - chashocha-z
+    - nishmata
+    - ilana-z
+    - itgalya
