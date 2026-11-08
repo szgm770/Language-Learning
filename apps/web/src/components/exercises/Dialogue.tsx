@@ -79,12 +79,15 @@ export function Dialogue({ ex, ctx }: ExerciseProps<"dialogue">) {
       </div>
       <p className="text-lg">{ex.scene}</p>
       <div className="flex flex-wrap gap-2">
-        <button type="button" className="btn-primary min-h-11 px-4 text-sm" onClick={() => (stop ? stop() : playAll())}>
-          <Icon name={stop ? "close" : "play"} className="size-5" filled={!stop} />
-          {stop ? "עצירה" : "להשמיע את השיחה"}
-        </button>
+        {ctx.speechLang !== "none" && (
+          <button type="button" className="btn-primary min-h-11 px-4 text-sm" onClick={() => (stop ? stop() : playAll())}>
+            <Icon name={stop ? "close" : "play"} className="size-5" filled={!stop} />
+            {stop ? "עצירה" : "להשמיע את השיחה"}
+          </button>
+        )}
         <button type="button" className="btn-quiet min-h-11 px-4 text-sm" aria-pressed={translate} onClick={() => setTranslate((t) => !t)}>
-          {translate ? "להסתיר תרגום" : "להציג תרגום"}
+          {/* In Aramaic the dialogue is Hebrew; its "translation" explains the quoted words. */}
+          {ctx.target === "arc" ? (translate ? "להסתיר הערות" : "להציג הערות") : translate ? "להסתיר תרגום" : "להציג תרגום"}
         </button>
       </div>
       <div className="flex flex-col gap-4 rounded-3xl bg-sunken p-4">
