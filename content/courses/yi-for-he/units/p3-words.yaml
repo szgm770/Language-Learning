@@ -1,0 +1,894 @@
+id: p3-words
+cefr: B1
+scene: home
+title:
+  he: 'הרחבת אוצר מילים 3: אוכל ושתייה'
+  en: 'Word builder 3: food and drink'
+story: מילים שימושיות נוספות, כל אחת במשפט קצר.
+canDo:
+- להבין ולהשתמש במילים נפוצות נוספות
+- לזהות את המילים במשפטים
+vocabulary:
+- id: p3-fleysh
+  text: פֿלייש
+  translation: בשר
+  pos: noun
+  example:
+    text: איך וויל פֿלייש.
+    translation: אני רוצה בשר
+- id: p3-hindl
+  text: הינדל
+  translation: עוף
+  pos: noun
+  example:
+    text: איך זע אַ הינדל.
+    translation: אני רואה עוף
+- id: p3-tsibele
+  text: ציבעלע
+  translation: בצל
+  pos: noun
+  example:
+    text: איך זע אַ ציבעלע.
+    translation: אני רואה בצל
+- id: p3-kartofl
+  text: קאַרטאָפֿל
+  translation: תפוח אדמה
+  pos: noun
+  example:
+    text: איך זע אַ קאַרטאָפֿל.
+    translation: אני רואה תפוח אדמה
+- id: p3-meren
+  text: מערן
+  translation: גזר
+  pos: noun
+  example:
+    text: איך זע אַ מערן.
+    translation: אני רואה גזר
+- id: p3-banane
+  text: באַנאַנע
+  translation: בננה
+  pos: noun
+  example:
+    text: איך זע אַ באַנאַנע.
+    translation: אני רואה בננה
+- id: p3-vaintroyb
+  text: ווײַנטרויב
+  translation: ענבים
+  pos: noun
+  example:
+    text: איך וויל ווײַנטרויב.
+    translation: אני רוצה ענבים
+- id: p3-honik
+  text: האָניק
+  translation: דבש
+  pos: noun
+  example:
+    text: איך וויל האָניק.
+    translation: אני רוצה דבש
+- id: p3-kukhn
+  text: קוכן
+  translation: עוגה
+  pos: noun
+  example:
+    text: איך זע אַ קוכן.
+    translation: אני רואה עוגה
+- id: p3-kave
+  text: קאַווע
+  translation: קפה
+  pos: noun
+  example:
+    text: איך וויל קאַווע.
+    translation: אני רוצה קפה
+- id: p3-tey
+  text: טיי
+  translation: תה
+  pos: noun
+  example:
+    text: איך וויל טיי.
+    translation: אני רוצה תה
+- id: p3-tsuker
+  text: צוקער
+  translation: סוכר
+  pos: noun
+  example:
+    text: איך וויל צוקער.
+    translation: אני רוצה סוכר
+- id: p3-zalts
+  text: זאַלץ
+  translation: מלח
+  pos: noun
+  example:
+    text: איך וויל זאַלץ.
+    translation: אני רוצה מלח
+- id: p3-peper
+  text: פּעפּער
+  translation: פלפל
+  pos: noun
+  example:
+    text: איך וויל פּעפּער.
+    translation: אני רוצה פלפל
+- id: p3-shmalts
+  text: שמאַלץ
+  translation: שומן
+  pos: noun
+  example:
+    text: איך וויל שמאַלץ.
+    translation: אני רוצה שומן
+- id: p3-zaft
+  text: זאַפֿט
+  translation: מיץ
+  pos: noun
+  example:
+    text: איך וויל זאַפֿט.
+    translation: אני רוצה מיץ
+- id: p3-mel
+  text: מעל
+  translation: קמח
+  pos: noun
+  example:
+    text: איך וויל מעל.
+    translation: אני רוצה קמח
+- id: p3-knobl
+  text: קנאָבל
+  translation: שום
+  pos: noun
+  example:
+    text: איך וויל קנאָבל.
+    translation: אני רוצה שום
+- id: p3-retekh
+  text: רעטעך
+  translation: צנון
+  pos: noun
+  example:
+    text: איך זע אַ רעטעך.
+    translation: אני רואה צנון
+- id: p3-kapuste
+  text: קאַפּוסט
+  translation: כרוב
+  pos: noun
+  example:
+    text: איך וויל קאַפּוסט.
+    translation: אני רוצה כרוב
+- id: p3-pomidor
+  text: פּאָמידאָר
+  translation: עגבנייה
+  pos: noun
+  example:
+    text: איך זע אַ פּאָמידאָר.
+    translation: אני רואה עגבנייה
+- id: p3-ey
+  text: איי
+  translation: ביצה
+  pos: noun
+  example:
+    text: איך זע אַן איי.
+    translation: אני רואה ביצה
+- id: p3-shokolad
+  text: שאָקאָלאַד
+  translation: שוקולד
+  pos: noun
+  example:
+    text: איך וויל שאָקאָלאַד.
+    translation: אני רוצה שוקולד
+- id: p3-salat
+  text: סאַלאַט
+  translation: סלט
+  pos: noun
+  example:
+    text: איך וויל סאַלאַט.
+    translation: אני רוצה סלט
+lessons:
+- id: p3-l1
+  kind: new
+  title:
+    he: חבילה 3 – חלק 1
+    en: Pack 3 – part 1
+  exercises:
+  - id: p3-l1-01
+    type: learn
+    lexeme: p3-fleysh
+  - id: p3-l1-02
+    type: learn
+    lexeme: p3-hindl
+  - id: p3-l1-03
+    type: learn
+    lexeme: p3-tsibele
+  - id: p3-l1-04
+    type: learn
+    lexeme: p3-kartofl
+  - id: p3-l1-05
+    type: learn
+    lexeme: p3-meren
+  - id: p3-l1-06
+    type: learn
+    lexeme: p3-banane
+  - id: p3-l1-07
+    type: learn
+    lexeme: p3-vaintroyb
+  - id: p3-l1-08
+    type: learn
+    lexeme: p3-honik
+  - id: p3-l1-09
+    type: match_pairs
+    pairs:
+    - - פֿלייש
+      - בשר
+    - - הינדל
+      - עוף
+    - - ציבעלע
+      - בצל
+    - - קאַרטאָפֿל
+      - תפוח אדמה
+    lexemes:
+    - p3-fleysh
+    - p3-hindl
+    - p3-tsibele
+    - p3-kartofl
+  - id: p3-l1-10
+    type: match_pairs
+    pairs:
+    - - מערן
+      - גזר
+    - - באַנאַנע
+      - בננה
+    - - ווײַנטרויב
+      - ענבים
+    - - האָניק
+      - דבש
+    lexemes:
+    - p3-meren
+    - p3-banane
+    - p3-vaintroyb
+    - p3-honik
+  - id: p3-l1-11
+    type: multiple_choice
+    prompt: מה פירוש פֿלייש?
+    options:
+    - בשר
+    - פלפל
+    - עוגה
+    correct: 0
+    lexemes:
+    - p3-fleysh
+  - id: p3-l1-12
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: עוף?'
+    options:
+    - הינדל
+    - זאַלץ
+    - פּאָמידאָר
+    correct: 0
+    lexemes:
+    - p3-hindl
+  - id: p3-l1-13
+    type: multiple_choice
+    prompt: מה פירוש ציבעלע?
+    options:
+    - בצל
+    - מלח
+    - ביצה
+    correct: 0
+    lexemes:
+    - p3-tsibele
+  - id: p3-l1-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: תפוח אדמה?'
+    options:
+    - קאַרטאָפֿל
+    - קאַפּוסט
+    - שמאַלץ
+    correct: 0
+    lexemes:
+    - p3-kartofl
+  - id: p3-l1-15
+    type: multiple_choice
+    prompt: מה פירוש מערן?
+    options:
+    - גזר
+    - צנון
+    - מלח
+    correct: 0
+    lexemes:
+    - p3-meren
+  - id: p3-l1-16
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: בננה?'
+    options:
+    - באַנאַנע
+    - זאַלץ
+    - קאַפּוסט
+    correct: 0
+    lexemes:
+    - p3-banane
+  - id: p3-l1-17
+    type: multiple_choice
+    prompt: מה פירוש ווײַנטרויב?
+    options:
+    - ענבים
+    - תה
+    - פלפל
+    correct: 0
+    lexemes:
+    - p3-vaintroyb
+  - id: p3-l1-18
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: דבש?'
+    options:
+    - האָניק
+    - פּעפּער
+    - מעל
+    correct: 0
+    lexemes:
+    - p3-honik
+  - id: p3-l1-19
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה בשר
+    answers:
+    - פֿלייש
+    options:
+    - פֿלייש
+    - פּעפּער
+    - צוקער
+    lexemes:
+    - p3-fleysh
+  - id: p3-l1-20
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה עוף
+    answers:
+    - הינדל
+    options:
+    - הינדל
+    - פּאָמידאָר
+    - רעטעך
+    lexemes:
+    - p3-hindl
+  - id: p3-l1-21
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה בצל
+    answers:
+    - ציבעלע
+    options:
+    - ציבעלע
+    - רעטעך
+    - קוכן
+    lexemes:
+    - p3-tsibele
+  - id: p3-l1-22
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה תפוח אדמה
+    answers:
+    - קאַרטאָפֿל
+    options:
+    - קאַרטאָפֿל
+    - קוכן
+    - רעטעך
+    lexemes:
+    - p3-kartofl
+  - id: p3-l1-23
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה גזר
+    answers:
+    - מערן
+    options:
+    - מערן
+    - קוכן
+    - רעטעך
+    lexemes:
+    - p3-meren
+  - id: p3-l1-24
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה בננה
+    answers:
+    - באַנאַנע
+    options:
+    - באַנאַנע
+    - רעטעך
+    - קוכן
+    lexemes:
+    - p3-banane
+  - id: p3-l1-25
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה ענבים
+    answers:
+    - ווײַנטרויב
+    options:
+    - ווײַנטרויב
+    - קאַפּוסט
+    - פּעפּער
+    lexemes:
+    - p3-vaintroyb
+  - id: p3-l1-26
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה דבש
+    answers:
+    - האָניק
+    options:
+    - האָניק
+    - קאַווע
+    - טיי
+    lexemes:
+    - p3-honik
+- id: p3-l2
+  kind: new
+  title:
+    he: חבילה 3 – חלק 2
+    en: Pack 3 – part 2
+  exercises:
+  - id: p3-l2-01
+    type: learn
+    lexeme: p3-kukhn
+  - id: p3-l2-02
+    type: learn
+    lexeme: p3-kave
+  - id: p3-l2-03
+    type: learn
+    lexeme: p3-tey
+  - id: p3-l2-04
+    type: learn
+    lexeme: p3-tsuker
+  - id: p3-l2-05
+    type: learn
+    lexeme: p3-zalts
+  - id: p3-l2-06
+    type: learn
+    lexeme: p3-peper
+  - id: p3-l2-07
+    type: learn
+    lexeme: p3-shmalts
+  - id: p3-l2-08
+    type: learn
+    lexeme: p3-zaft
+  - id: p3-l2-09
+    type: match_pairs
+    pairs:
+    - - קוכן
+      - עוגה
+    - - קאַווע
+      - קפה
+    - - טיי
+      - תה
+    - - צוקער
+      - סוכר
+    lexemes:
+    - p3-kukhn
+    - p3-kave
+    - p3-tey
+    - p3-tsuker
+  - id: p3-l2-10
+    type: match_pairs
+    pairs:
+    - - זאַלץ
+      - מלח
+    - - פּעפּער
+      - פלפל
+    - - שמאַלץ
+      - שומן
+    - - זאַפֿט
+      - מיץ
+    lexemes:
+    - p3-zalts
+    - p3-peper
+    - p3-shmalts
+    - p3-zaft
+  - id: p3-l2-11
+    type: multiple_choice
+    prompt: מה פירוש קוכן?
+    options:
+    - עוגה
+    - ביצה
+    - בצל
+    correct: 0
+    lexemes:
+    - p3-kukhn
+  - id: p3-l2-12
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: קפה?'
+    options:
+    - קאַווע
+    - קנאָבל
+    - רעטעך
+    correct: 0
+    lexemes:
+    - p3-kave
+  - id: p3-l2-13
+    type: multiple_choice
+    prompt: מה פירוש טיי?
+    options:
+    - תה
+    - דבש
+    - שום
+    correct: 0
+    lexemes:
+    - p3-tey
+  - id: p3-l2-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: סוכר?'
+    options:
+    - צוקער
+    - פֿלייש
+    - שאָקאָלאַד
+    correct: 0
+    lexemes:
+    - p3-tsuker
+  - id: p3-l2-15
+    type: multiple_choice
+    prompt: מה פירוש זאַלץ?
+    options:
+    - מלח
+    - תפוח אדמה
+    - שוקולד
+    correct: 0
+    lexemes:
+    - p3-zalts
+  - id: p3-l2-16
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: פלפל?'
+    options:
+    - פּעפּער
+    - הינדל
+    - באַנאַנע
+    correct: 0
+    lexemes:
+    - p3-peper
+  - id: p3-l2-17
+    type: multiple_choice
+    prompt: מה פירוש שמאַלץ?
+    options:
+    - שומן
+    - עוף
+    - כרוב
+    correct: 0
+    lexemes:
+    - p3-shmalts
+  - id: p3-l2-18
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: מיץ?'
+    options:
+    - זאַפֿט
+    - ווײַנטרויב
+    - מעל
+    correct: 0
+    lexemes:
+    - p3-zaft
+  - id: p3-l2-19
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה עוגה
+    answers:
+    - קוכן
+    options:
+    - קוכן
+    - באַנאַנע
+    - הינדל
+    lexemes:
+    - p3-kukhn
+  - id: p3-l2-20
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה קפה
+    answers:
+    - קאַווע
+    options:
+    - קאַווע
+    - ווײַנטרויב
+    - סאַלאַט
+    lexemes:
+    - p3-kave
+  - id: p3-l2-21
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה תה
+    answers:
+    - טיי
+    options:
+    - טיי
+    - האָניק
+    - ווײַנטרויב
+    lexemes:
+    - p3-tey
+  - id: p3-l2-22
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה סוכר
+    answers:
+    - צוקער
+    options:
+    - צוקער
+    - סאַלאַט
+    - האָניק
+    lexemes:
+    - p3-tsuker
+  - id: p3-l2-23
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה מלח
+    answers:
+    - זאַלץ
+    options:
+    - זאַלץ
+    - קאַפּוסט
+    - שאָקאָלאַד
+    lexemes:
+    - p3-zalts
+  - id: p3-l2-24
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה פלפל
+    answers:
+    - פּעפּער
+    options:
+    - פּעפּער
+    - סאַלאַט
+    - פֿלייש
+    lexemes:
+    - p3-peper
+  - id: p3-l2-25
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה שומן
+    answers:
+    - שמאַלץ
+    options:
+    - שמאַלץ
+    - פֿלייש
+    - שאָקאָלאַד
+    lexemes:
+    - p3-shmalts
+  - id: p3-l2-26
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה מיץ
+    answers:
+    - זאַפֿט
+    options:
+    - זאַפֿט
+    - האָניק
+    - ווײַנטרויב
+    lexemes:
+    - p3-zaft
+- id: p3-l3
+  kind: new
+  title:
+    he: חבילה 3 – חלק 3
+    en: Pack 3 – part 3
+  exercises:
+  - id: p3-l3-01
+    type: learn
+    lexeme: p3-mel
+  - id: p3-l3-02
+    type: learn
+    lexeme: p3-knobl
+  - id: p3-l3-03
+    type: learn
+    lexeme: p3-retekh
+  - id: p3-l3-04
+    type: learn
+    lexeme: p3-kapuste
+  - id: p3-l3-05
+    type: learn
+    lexeme: p3-pomidor
+  - id: p3-l3-06
+    type: learn
+    lexeme: p3-ey
+  - id: p3-l3-07
+    type: learn
+    lexeme: p3-shokolad
+  - id: p3-l3-08
+    type: learn
+    lexeme: p3-salat
+  - id: p3-l3-09
+    type: match_pairs
+    pairs:
+    - - מעל
+      - קמח
+    - - קנאָבל
+      - שום
+    - - רעטעך
+      - צנון
+    - - קאַפּוסט
+      - כרוב
+    lexemes:
+    - p3-mel
+    - p3-knobl
+    - p3-retekh
+    - p3-kapuste
+  - id: p3-l3-10
+    type: match_pairs
+    pairs:
+    - - פּאָמידאָר
+      - עגבנייה
+    - - איי
+      - ביצה
+    - - שאָקאָלאַד
+      - שוקולד
+    - - סאַלאַט
+      - סלט
+    lexemes:
+    - p3-pomidor
+    - p3-ey
+    - p3-shokolad
+    - p3-salat
+  - id: p3-l3-11
+    type: multiple_choice
+    prompt: מה פירוש מעל?
+    options:
+    - קמח
+    - בצל
+    - מלח
+    correct: 0
+    lexemes:
+    - p3-mel
+  - id: p3-l3-12
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: שום?'
+    options:
+    - קנאָבל
+    - באַנאַנע
+    - קוכן
+    correct: 0
+    lexemes:
+    - p3-knobl
+  - id: p3-l3-13
+    type: multiple_choice
+    prompt: מה פירוש רעטעך?
+    options:
+    - צנון
+    - קפה
+    - מיץ
+    correct: 0
+    lexemes:
+    - p3-retekh
+  - id: p3-l3-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: כרוב?'
+    options:
+    - קאַפּוסט
+    - זאַלץ
+    - צוקער
+    correct: 0
+    lexemes:
+    - p3-kapuste
+  - id: p3-l3-15
+    type: multiple_choice
+    prompt: מה פירוש פּאָמידאָר?
+    options:
+    - עגבנייה
+    - דבש
+    - עוגה
+    correct: 0
+    lexemes:
+    - p3-pomidor
+  - id: p3-l3-16
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: ביצה?'
+    options:
+    - איי
+    - צוקער
+    - זאַפֿט
+    correct: 0
+    lexemes:
+    - p3-ey
+  - id: p3-l3-17
+    type: multiple_choice
+    prompt: מה פירוש שאָקאָלאַד?
+    options:
+    - שוקולד
+    - בשר
+    - מיץ
+    correct: 0
+    lexemes:
+    - p3-shokolad
+  - id: p3-l3-18
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: סלט?'
+    options:
+    - סאַלאַט
+    - ציבעלע
+    - שמאַלץ
+    correct: 0
+    lexemes:
+    - p3-salat
+  - id: p3-l3-19
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה קמח
+    answers:
+    - מעל
+    options:
+    - מעל
+    - זאַפֿט
+    - טיי
+    lexemes:
+    - p3-mel
+  - id: p3-l3-20
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה שום
+    answers:
+    - קנאָבל
+    options:
+    - קנאָבל
+    - קאַווע
+    - פֿלייש
+    lexemes:
+    - p3-knobl
+  - id: p3-l3-21
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה צנון
+    answers:
+    - רעטעך
+    options:
+    - רעטעך
+    - הינדל
+    - ציבעלע
+    lexemes:
+    - p3-retekh
+  - id: p3-l3-22
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה כרוב
+    answers:
+    - קאַפּוסט
+    options:
+    - קאַפּוסט
+    - פּעפּער
+    - האָניק
+    lexemes:
+    - p3-kapuste
+  - id: p3-l3-23
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה עגבנייה
+    answers:
+    - פּאָמידאָר
+    options:
+    - פּאָמידאָר
+    - קאַרטאָפֿל
+    - קוכן
+    lexemes:
+    - p3-pomidor
+  - id: p3-l3-24
+    type: fill_blank
+    sentence: איך זע אַן ___.
+    translation: אני רואה ביצה
+    answers:
+    - איי
+    options:
+    - איי
+    - פֿלייש
+    - קוכן
+    lexemes:
+    - p3-ey
+  - id: p3-l3-25
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה שוקולד
+    answers:
+    - שאָקאָלאַד
+    options:
+    - שאָקאָלאַד
+    - האָניק
+    - טיי
+    lexemes:
+    - p3-shokolad
+  - id: p3-l3-26
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה סלט
+    answers:
+    - סאַלאַט
+    options:
+    - סאַלאַט
+    - שמאַלץ
+    - ווײַנטרויב
+    lexemes:
+    - p3-salat

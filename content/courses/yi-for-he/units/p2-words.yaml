@@ -1,0 +1,964 @@
+id: p2-words
+cefr: A2
+scene: home
+title:
+  he: 'הרחבת אוצר מילים 2: בבית'
+  en: 'Word builder 2: at home'
+story: מילים שימושיות נוספות, כל אחת במשפט קצר.
+canDo:
+- להבין ולהשתמש במילים נפוצות נוספות
+- לזהות את המילים במשפטים
+vocabulary:
+- id: p2-papir
+  text: פּאַפּיר
+  translation: נייר
+  pos: noun
+  example:
+    text: איך וויל פּאַפּיר.
+    translation: אני רוצה נייר
+- id: p2-pen
+  text: פּען
+  translation: עט
+  pos: noun
+  example:
+    text: איך זע אַ פּען.
+    translation: אני רואה עט
+- id: p2-blayer
+  text: בלײַער
+  translation: עיפרון
+  pos: noun
+  example:
+    text: איך זע אַ בלײַער.
+    translation: אני רואה עיפרון
+- id: p2-teler
+  text: טעלער
+  translation: צלחת
+  pos: noun
+  example:
+    text: איך זע אַ טעלער.
+    translation: אני רואה צלחת
+- id: p2-gloz
+  text: גלאָז
+  translation: כוס
+  pos: noun
+  example:
+    text: איך זע אַ גלאָז.
+    translation: אני רואה כוס
+- id: p2-lefl
+  text: לעפֿל
+  translation: כף
+  pos: noun
+  example:
+    text: איך זע אַ לעפֿל.
+    translation: אני רואה כף
+- id: p2-meser
+  text: מעסער
+  translation: סכין
+  pos: noun
+  example:
+    text: איך זע אַ מעסער.
+    translation: אני רואה סכין
+- id: p2-gopl
+  text: גאָפּל
+  translation: מזלג
+  pos: noun
+  example:
+    text: איך זע אַ גאָפּל.
+    translation: אני רואה מזלג
+- id: p2-tepl
+  text: טעפּל
+  translation: סיר
+  pos: noun
+  example:
+    text: איך זע אַ טעפּל.
+    translation: אני רואה סיר
+- id: p2-shlisl
+  text: שליסל
+  translation: מפתח
+  pos: noun
+  example:
+    text: איך זע אַ שליסל.
+    translation: אני רואה מפתח
+- id: p2-vant
+  text: וואַנט
+  translation: קיר
+  pos: noun
+  example:
+    text: איך זע אַ וואַנט.
+    translation: אני רואה קיר
+- id: p2-dakh
+  text: דאַך
+  translation: גג
+  pos: noun
+  example:
+    text: איך זע אַ דאַך.
+    translation: אני רואה גג
+- id: p2-podloge
+  text: פּאָדלאָגע
+  translation: רצפה
+  pos: noun
+  example:
+    text: איך זע אַ פּאָדלאָגע.
+    translation: אני רואה רצפה
+- id: p2-trep
+  text: טרעפּ
+  translation: מדרגות
+  pos: noun
+  example:
+    text: איך זע אַ טרעפּ.
+    translation: אני רואה מדרגות
+- id: p2-shafe
+  text: שאַפֿע
+  translation: ארון
+  pos: noun
+  example:
+    text: איך זע אַ שאַפֿע.
+    translation: אני רואה ארון
+- id: p2-lamp
+  text: לאָמפּ
+  translation: מנורה
+  pos: noun
+  example:
+    text: איך זע אַ לאָמפּ.
+    translation: אני רואה מנורה
+- id: p2-shpigl
+  text: שפּיגל
+  translation: מראה
+  pos: noun
+  example:
+    text: איך זע אַ שפּיגל.
+    translation: אני רואה מראה
+- id: p2-zeyger
+  text: זייגער
+  translation: שעון
+  pos: noun
+  example:
+    text: איך זע אַ זייגער.
+    translation: אני רואה שעון
+- id: p2-telefon
+  text: טעלעפֿאָן
+  translation: טלפון
+  pos: noun
+  example:
+    text: איך זע אַ טעלעפֿאָן.
+    translation: אני רואה טלפון
+- id: p2-kompyuter
+  text: קאָמפּיוטער
+  translation: מחשב
+  pos: noun
+  example:
+    text: איך זע אַ קאָמפּיוטער.
+    translation: אני רואה מחשב
+- id: p2-pekl
+  text: פּעקל
+  translation: חבילה
+  pos: noun
+  example:
+    text: איך זע אַ פּעקל.
+    translation: אני רואה חבילה
+- id: p2-korb
+  text: קאָרב
+  translation: סל
+  pos: noun
+  example:
+    text: איך זע אַ קאָרב.
+    translation: אני רואה סל
+- id: p2-kestl
+  text: קעסטל
+  translation: קופסה
+  pos: noun
+  example:
+    text: איך זע אַ קעסטל.
+    translation: אני רואה קופסה
+- id: p2-bezem
+  text: בעזעם
+  translation: מטאטא
+  pos: noun
+  example:
+    text: איך זע אַ בעזעם.
+    translation: אני רואה מטאטא
+- id: p2-vane
+  text: וואַנע
+  translation: אמבטיה
+  pos: noun
+  example:
+    text: איך זע אַ וואַנע.
+    translation: אני רואה אמבטיה
+- id: p2-tishtekh
+  text: טישטעך
+  translation: מפה
+  pos: noun
+  example:
+    text: איך זע אַ טישטעך.
+    translation: אני רואה מפה
+lessons:
+- id: p2-l1
+  kind: new
+  title:
+    he: חבילה 2 – חלק 1
+    en: Pack 2 – part 1
+  exercises:
+  - id: p2-l1-01
+    type: learn
+    lexeme: p2-papir
+  - id: p2-l1-02
+    type: learn
+    lexeme: p2-pen
+  - id: p2-l1-03
+    type: learn
+    lexeme: p2-blayer
+  - id: p2-l1-04
+    type: learn
+    lexeme: p2-teler
+  - id: p2-l1-05
+    type: learn
+    lexeme: p2-gloz
+  - id: p2-l1-06
+    type: learn
+    lexeme: p2-lefl
+  - id: p2-l1-07
+    type: learn
+    lexeme: p2-meser
+  - id: p2-l1-08
+    type: learn
+    lexeme: p2-gopl
+  - id: p2-l1-09
+    type: match_pairs
+    pairs:
+    - - פּאַפּיר
+      - נייר
+    - - פּען
+      - עט
+    - - בלײַער
+      - עיפרון
+    - - טעלער
+      - צלחת
+    lexemes:
+    - p2-papir
+    - p2-pen
+    - p2-blayer
+    - p2-teler
+  - id: p2-l1-10
+    type: match_pairs
+    pairs:
+    - - גלאָז
+      - כוס
+    - - לעפֿל
+      - כף
+    - - מעסער
+      - סכין
+    - - גאָפּל
+      - מזלג
+    lexemes:
+    - p2-gloz
+    - p2-lefl
+    - p2-meser
+    - p2-gopl
+  - id: p2-l1-11
+    type: multiple_choice
+    prompt: מה פירוש פּאַפּיר?
+    options:
+    - נייר
+    - מראה
+    - סיר
+    correct: 0
+    lexemes:
+    - p2-papir
+  - id: p2-l1-12
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: עט?'
+    options:
+    - פּען
+    - קעסטל
+    - שליסל
+    correct: 0
+    lexemes:
+    - p2-pen
+  - id: p2-l1-13
+    type: multiple_choice
+    prompt: מה פירוש בלײַער?
+    options:
+    - עיפרון
+    - טלפון
+    - סיר
+    correct: 0
+    lexemes:
+    - p2-blayer
+  - id: p2-l1-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: צלחת?'
+    options:
+    - טעלער
+    - לאָמפּ
+    - זייגער
+    correct: 0
+    lexemes:
+    - p2-teler
+  - id: p2-l1-15
+    type: multiple_choice
+    prompt: מה פירוש גלאָז?
+    options:
+    - כוס
+    - מנורה
+    - מטאטא
+    correct: 0
+    lexemes:
+    - p2-gloz
+  - id: p2-l1-16
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: כף?'
+    options:
+    - לעפֿל
+    - קאָרב
+    - פּאָדלאָגע
+    correct: 0
+    lexemes:
+    - p2-lefl
+  - id: p2-l1-17
+    type: multiple_choice
+    prompt: מה פירוש מעסער?
+    options:
+    - סכין
+    - קיר
+    - מפה
+    correct: 0
+    lexemes:
+    - p2-meser
+  - id: p2-l1-18
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: מזלג?'
+    options:
+    - גאָפּל
+    - דאַך
+    - בעזעם
+    correct: 0
+    lexemes:
+    - p2-gopl
+  - id: p2-l1-19
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה נייר
+    answers:
+    - פּאַפּיר
+    options:
+    - פּאַפּיר
+    - קאָרב
+    - שאַפֿע
+    lexemes:
+    - p2-papir
+  - id: p2-l1-20
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה עט
+    answers:
+    - פּען
+    options:
+    - פּען
+    - לאָמפּ
+    - קאָמפּיוטער
+    lexemes:
+    - p2-pen
+  - id: p2-l1-21
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה עיפרון
+    answers:
+    - בלײַער
+    options:
+    - בלײַער
+    - זייגער
+    - בעזעם
+    lexemes:
+    - p2-blayer
+  - id: p2-l1-22
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה צלחת
+    answers:
+    - טעלער
+    options:
+    - טעלער
+    - שפּיגל
+    - וואַנט
+    lexemes:
+    - p2-teler
+  - id: p2-l1-23
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה כוס
+    answers:
+    - גלאָז
+    options:
+    - גלאָז
+    - טישטעך
+    - בעזעם
+    lexemes:
+    - p2-gloz
+  - id: p2-l1-24
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה כף
+    answers:
+    - לעפֿל
+    options:
+    - לעפֿל
+    - קאָמפּיוטער
+    - דאַך
+    lexemes:
+    - p2-lefl
+  - id: p2-l1-25
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה סכין
+    answers:
+    - מעסער
+    options:
+    - מעסער
+    - שאַפֿע
+    - טעלעפֿאָן
+    lexemes:
+    - p2-meser
+  - id: p2-l1-26
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה מזלג
+    answers:
+    - גאָפּל
+    options:
+    - גאָפּל
+    - שפּיגל
+    - לאָמפּ
+    lexemes:
+    - p2-gopl
+- id: p2-l2
+  kind: new
+  title:
+    he: חבילה 2 – חלק 2
+    en: Pack 2 – part 2
+  exercises:
+  - id: p2-l2-01
+    type: learn
+    lexeme: p2-tepl
+  - id: p2-l2-02
+    type: learn
+    lexeme: p2-shlisl
+  - id: p2-l2-03
+    type: learn
+    lexeme: p2-vant
+  - id: p2-l2-04
+    type: learn
+    lexeme: p2-dakh
+  - id: p2-l2-05
+    type: learn
+    lexeme: p2-podloge
+  - id: p2-l2-06
+    type: learn
+    lexeme: p2-trep
+  - id: p2-l2-07
+    type: learn
+    lexeme: p2-shafe
+  - id: p2-l2-08
+    type: learn
+    lexeme: p2-lamp
+  - id: p2-l2-09
+    type: match_pairs
+    pairs:
+    - - טעפּל
+      - סיר
+    - - שליסל
+      - מפתח
+    - - וואַנט
+      - קיר
+    - - דאַך
+      - גג
+    lexemes:
+    - p2-tepl
+    - p2-shlisl
+    - p2-vant
+    - p2-dakh
+  - id: p2-l2-10
+    type: match_pairs
+    pairs:
+    - - פּאָדלאָגע
+      - רצפה
+    - - טרעפּ
+      - מדרגות
+    - - שאַפֿע
+      - ארון
+    - - לאָמפּ
+      - מנורה
+    lexemes:
+    - p2-podloge
+    - p2-trep
+    - p2-shafe
+    - p2-lamp
+  - id: p2-l2-11
+    type: multiple_choice
+    prompt: מה פירוש טעפּל?
+    options:
+    - סיר
+    - כף
+    - טלפון
+    correct: 0
+    lexemes:
+    - p2-tepl
+  - id: p2-l2-12
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: מפתח?'
+    options:
+    - שליסל
+    - קעסטל
+    - פּאַפּיר
+    correct: 0
+    lexemes:
+    - p2-shlisl
+  - id: p2-l2-13
+    type: multiple_choice
+    prompt: מה פירוש וואַנט?
+    options:
+    - קיר
+    - סכין
+    - עיפרון
+    correct: 0
+    lexemes:
+    - p2-vant
+  - id: p2-l2-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: גג?'
+    options:
+    - דאַך
+    - שפּיגל
+    - מעסער
+    correct: 0
+    lexemes:
+    - p2-dakh
+  - id: p2-l2-15
+    type: multiple_choice
+    prompt: מה פירוש פּאָדלאָגע?
+    options:
+    - רצפה
+    - מראה
+    - קופסה
+    correct: 0
+    lexemes:
+    - p2-podloge
+  - id: p2-l2-16
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: מדרגות?'
+    options:
+    - טרעפּ
+    - פּען
+    - טעלער
+    correct: 0
+    lexemes:
+    - p2-trep
+  - id: p2-l2-17
+    type: multiple_choice
+    prompt: מה פירוש שאַפֿע?
+    options:
+    - ארון
+    - צלחת
+    - מזלג
+    correct: 0
+    lexemes:
+    - p2-shafe
+  - id: p2-l2-18
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: מנורה?'
+    options:
+    - לאָמפּ
+    - פּעקל
+    - בלײַער
+    correct: 0
+    lexemes:
+    - p2-lamp
+  - id: p2-l2-19
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה סיר
+    answers:
+    - טעפּל
+    options:
+    - טעפּל
+    - קאָמפּיוטער
+    - בלײַער
+    lexemes:
+    - p2-tepl
+  - id: p2-l2-20
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה מפתח
+    answers:
+    - שליסל
+    options:
+    - שליסל
+    - שפּיגל
+    - וואַנע
+    lexemes:
+    - p2-shlisl
+  - id: p2-l2-21
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה קיר
+    answers:
+    - וואַנט
+    options:
+    - וואַנט
+    - לעפֿל
+    - מעסער
+    lexemes:
+    - p2-vant
+  - id: p2-l2-22
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה גג
+    answers:
+    - דאַך
+    options:
+    - דאַך
+    - טעלעפֿאָן
+    - גאָפּל
+    lexemes:
+    - p2-dakh
+  - id: p2-l2-23
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה רצפה
+    answers:
+    - פּאָדלאָגע
+    options:
+    - פּאָדלאָגע
+    - לעפֿל
+    - גאָפּל
+    lexemes:
+    - p2-podloge
+  - id: p2-l2-24
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה מדרגות
+    answers:
+    - טרעפּ
+    options:
+    - טרעפּ
+    - גאָפּל
+    - פּעקל
+    lexemes:
+    - p2-trep
+  - id: p2-l2-25
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה ארון
+    answers:
+    - שאַפֿע
+    options:
+    - שאַפֿע
+    - זייגער
+    - לעפֿל
+    lexemes:
+    - p2-shafe
+  - id: p2-l2-26
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה מנורה
+    answers:
+    - לאָמפּ
+    options:
+    - לאָמפּ
+    - מעסער
+    - בלײַער
+    lexemes:
+    - p2-lamp
+- id: p2-l3
+  kind: new
+  title:
+    he: חבילה 2 – חלק 3
+    en: Pack 2 – part 3
+  exercises:
+  - id: p2-l3-01
+    type: learn
+    lexeme: p2-shpigl
+  - id: p2-l3-02
+    type: learn
+    lexeme: p2-zeyger
+  - id: p2-l3-03
+    type: learn
+    lexeme: p2-telefon
+  - id: p2-l3-04
+    type: learn
+    lexeme: p2-kompyuter
+  - id: p2-l3-05
+    type: learn
+    lexeme: p2-pekl
+  - id: p2-l3-06
+    type: learn
+    lexeme: p2-korb
+  - id: p2-l3-07
+    type: learn
+    lexeme: p2-kestl
+  - id: p2-l3-08
+    type: learn
+    lexeme: p2-bezem
+  - id: p2-l3-09
+    type: learn
+    lexeme: p2-vane
+  - id: p2-l3-10
+    type: learn
+    lexeme: p2-tishtekh
+  - id: p2-l3-11
+    type: match_pairs
+    pairs:
+    - - שפּיגל
+      - מראה
+    - - זייגער
+      - שעון
+    - - טעלעפֿאָן
+      - טלפון
+    - - קאָמפּיוטער
+      - מחשב
+    - - פּעקל
+      - חבילה
+    lexemes:
+    - p2-shpigl
+    - p2-zeyger
+    - p2-telefon
+    - p2-kompyuter
+    - p2-pekl
+  - id: p2-l3-12
+    type: match_pairs
+    pairs:
+    - - קאָרב
+      - סל
+    - - קעסטל
+      - קופסה
+    - - בעזעם
+      - מטאטא
+    - - וואַנע
+      - אמבטיה
+    - - טישטעך
+      - מפה
+    lexemes:
+    - p2-korb
+    - p2-kestl
+    - p2-bezem
+    - p2-vane
+    - p2-tishtekh
+  - id: p2-l3-13
+    type: multiple_choice
+    prompt: מה פירוש שפּיגל?
+    options:
+    - מראה
+    - רצפה
+    - מפתח
+    correct: 0
+    lexemes:
+    - p2-shpigl
+  - id: p2-l3-14
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: שעון?'
+    options:
+    - זייגער
+    - פּען
+    - לעפֿל
+    correct: 0
+    lexemes:
+    - p2-zeyger
+  - id: p2-l3-15
+    type: multiple_choice
+    prompt: מה פירוש טעלעפֿאָן?
+    options:
+    - טלפון
+    - גג
+    - ארון
+    correct: 0
+    lexemes:
+    - p2-telefon
+  - id: p2-l3-16
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: מחשב?'
+    options:
+    - קאָמפּיוטער
+    - טעפּל
+    - וואַנט
+    correct: 0
+    lexemes:
+    - p2-kompyuter
+  - id: p2-l3-17
+    type: multiple_choice
+    prompt: מה פירוש פּעקל?
+    options:
+    - חבילה
+    - עט
+    - קיר
+    correct: 0
+    lexemes:
+    - p2-pekl
+  - id: p2-l3-18
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: סל?'
+    options:
+    - קאָרב
+    - וואַנט
+    - גאָפּל
+    correct: 0
+    lexemes:
+    - p2-korb
+  - id: p2-l3-19
+    type: multiple_choice
+    prompt: מה פירוש קעסטל?
+    options:
+    - קופסה
+    - מנורה
+    - סיר
+    correct: 0
+    lexemes:
+    - p2-kestl
+  - id: p2-l3-20
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: מטאטא?'
+    options:
+    - בעזעם
+    - טרעפּ
+    - דאַך
+    correct: 0
+    lexemes:
+    - p2-bezem
+  - id: p2-l3-21
+    type: multiple_choice
+    prompt: מה פירוש וואַנע?
+    options:
+    - אמבטיה
+    - קיר
+    - גג
+    correct: 0
+    lexemes:
+    - p2-vane
+  - id: p2-l3-22
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: מפה?'
+    options:
+    - טישטעך
+    - דאַך
+    - וואַנט
+    correct: 0
+    lexemes:
+    - p2-tishtekh
+  - id: p2-l3-23
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה מראה
+    answers:
+    - שפּיגל
+    options:
+    - שפּיגל
+    - גאָפּל
+    - טעפּל
+    lexemes:
+    - p2-shpigl
+  - id: p2-l3-24
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה שעון
+    answers:
+    - זייגער
+    options:
+    - זייגער
+    - טרעפּ
+    - שליסל
+    lexemes:
+    - p2-zeyger
+  - id: p2-l3-25
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה טלפון
+    answers:
+    - טעלעפֿאָן
+    options:
+    - טעלעפֿאָן
+    - לאָמפּ
+    - פּען
+    lexemes:
+    - p2-telefon
+  - id: p2-l3-26
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה מחשב
+    answers:
+    - קאָמפּיוטער
+    options:
+    - קאָמפּיוטער
+    - לעפֿל
+    - וואַנט
+    lexemes:
+    - p2-kompyuter
+  - id: p2-l3-27
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה חבילה
+    answers:
+    - פּעקל
+    options:
+    - פּעקל
+    - טרעפּ
+    - שאַפֿע
+    lexemes:
+    - p2-pekl
+  - id: p2-l3-28
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה סל
+    answers:
+    - קאָרב
+    options:
+    - קאָרב
+    - וואַנט
+    - גאָפּל
+    lexemes:
+    - p2-korb
+  - id: p2-l3-29
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה קופסה
+    answers:
+    - קעסטל
+    options:
+    - קעסטל
+    - לעפֿל
+    - וואַנט
+    lexemes:
+    - p2-kestl
+  - id: p2-l3-30
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה מטאטא
+    answers:
+    - בעזעם
+    options:
+    - בעזעם
+    - פּאָדלאָגע
+    - לאָמפּ
+    lexemes:
+    - p2-bezem
+  - id: p2-l3-31
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה אמבטיה
+    answers:
+    - וואַנע
+    options:
+    - וואַנע
+    - פּאָדלאָגע
+    - גאָפּל
+    lexemes:
+    - p2-vane
+  - id: p2-l3-32
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה מפה
+    answers:
+    - טישטעך
+    options:
+    - טישטעך
+    - בלײַער
+    - טעפּל
+    lexemes:
+    - p2-tishtekh
