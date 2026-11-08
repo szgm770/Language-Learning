@@ -1,140 +1,147 @@
 id: p13-words
-cefr: C1
-scene: day
+cefr: B2
+scene: study
 title:
-  he: 'הרחבת אוצר מילים 13: רגשות ותדירות'
-  en: 'Word builder 13: feelings and frequency'
-story: מילים שימושיות נוספות, כל אחת במשפט קצר.
+  he: 'הרחבת אוצר מילים 13: עוד מהשיחות'
+  en: 'Word builder 13: more from the talks'
+story: מנחם וסבא יושבים בהתוועדות בבית הכנסת ושומעים שיחה בשיעור יידיש; הסבא מסביר למנחם מילים שחוזרות בה.
 canDo:
-- להבין ולהשתמש במילים נפוצות נוספות
+- להבין ולהשתמש במילים נפוצות נוספות בשיחה
 - לזהות את המילים במשפטים
 vocabulary:
-- id: p13-beyz
-  text: בייז
-  translation: כועס
+- id: p13-shlekht
+  text: שלעכט
+  translation: רע / גרוע
   pos: adjective
   example:
-    text: דאָס איז בייז.
-    translation: זה כועס
-- id: p13-dershrokn
-  text: דערשראָקן
-  translation: מפוחד
+    text: דאָס איז שלעכט.
+    translation: זה רע / גרוע
+- id: p13-bavust
+  text: באַוואוסט
+  translation: ידוע
   pos: adjective
   example:
-    text: דאָס איז דערשראָקן.
-    translation: זה מפוחד
-- id: p13-shtolts
-  text: שטאָלץ
-  translation: גאווה
-  pos: noun
-  example:
-    text: איך האָב שטאָלץ.
-    translation: יש לי גאווה
-- id: p13-simkhe
-  text: שמחה
-  translation: שמחה (רגש)
-  pos: noun
-  example:
-    text: איך האָב שמחה.
-    translation: יש לי שמחה (רגש)
-- id: p13-troyer
-  text: טרויער
-  translation: צער
-  pos: noun
-  example:
-    text: איך האָב טרויער.
-    translation: יש לי צער
-- id: p13-hofenung
-  text: האָפֿענונג
-  translation: תקווה
-  pos: noun
-  example:
-    text: איך האָב האָפֿענונג.
-    translation: יש לי תקווה
-- id: p13-moyre
-  text: מורא
-  translation: פחד
-  pos: noun
-  example:
-    text: איך האָב מורא.
-    translation: יש לי פחד
-- id: p13-rakhmones
-  text: רחמנות
-  translation: רחמים
-  pos: noun
-  example:
-    text: איך האָב רחמנות.
-    translation: יש לי רחמים
-- id: p13-geduld
-  text: געדולד
-  translation: סבלנות
-  pos: noun
-  example:
-    text: איך האָב געדולד.
-    translation: יש לי סבלנות
-- id: p13-oft
-  text: אָפֿט
-  translation: לעיתים קרובות
-  pos: adverb
-  example:
-    text: איך גיי אָפֿט אין שול.
-    translation: אני לעיתים קרובות הולך לבית הכנסת
-- id: p13-shtendik
-  text: שטענדיק
-  translation: תמיד
-  pos: adverb
-  example:
-    text: איך גיי שטענדיק אין שול.
-    translation: אני תמיד הולך לבית הכנסת
-- id: p13-zeltn
-  text: זעלטן
-  translation: לעיתים רחוקות
-  pos: adverb
-  example:
-    text: איך גיי זעלטן אין שול.
-    translation: אני לעיתים רחוקות הולך לבית הכנסת
-- id: p13-freyd
-  text: פֿרייד
-  translation: שמחה גדולה
-  pos: noun
-  example:
-    text: איך האָב פֿרייד.
-    translation: יש לי שמחה גדולה
-- id: p13-kaas
-  text: כעס
-  translation: כעס חזק
-  pos: noun
-  example:
-    text: איך האָב כעס.
-    translation: יש לי כעס חזק
-- id: p13-benkshaft
-  text: בענקשאַפֿט
-  translation: געגוע
-  pos: noun
-  example:
-    text: איך האָב בענקשאַפֿט.
-    translation: יש לי געגוע
-- id: p13-tsufridn
-  text: צופֿרידן
-  translation: מרוצה
+    text: דאָס איז באַוואוסט.
+    translation: זה ידוע
+- id: p13-gevaldik
+  text: געוואַלדיק
+  translation: אדיר
   pos: adjective
   example:
-    text: דאָס איז צופֿרידן.
-    translation: זה מרוצה
-- id: p13-fardrosn
-  text: פֿאַרדראָסן
-  translation: מוטרד
+    text: דאָס איז געוואַלדיק.
+    translation: זה אדיר
+- id: p13-hekher
+  text: העכער
+  translation: גבוה יותר
   pos: adjective
   example:
-    text: דאָס איז פֿאַרדראָסן.
-    translation: זה מוטרד
-- id: p13-amol
-  text: אַמאָל
-  translation: פעם
-  pos: adverb
+    text: דער בערג איז העכער.
+    translation: ההר גבוה יותר
+- id: p13-veltlekh
+  text: וועלטלעך
+  translation: גשמי / חילוני
+  pos: adjective
   example:
-    text: איך האָב אַמאָל געלערנט.
-    translation: פעם למדתי
+    text: דאָס איז וועלטלעך.
+    translation: זה גשמי / חילוני
+- id: p13-inerlekh
+  text: אינערלעך
+  translation: פנימי
+  pos: adjective
+  example:
+    text: דאָס איז אינערלעך.
+    translation: זה פנימי
+- id: p13-faran
+  text: פֿאַראַן
+  translation: קיים / נמצא
+  pos: adjective
+  example:
+    text: דער רבי איז פֿאַראַן.
+    translation: הרבי נמצא
+- id: p13-nito
+  text: ניטאָ
+  translation: אינו נמצא
+  pos: adjective
+  example:
+    text: ער איז ניטאָ.
+    translation: הוא לא נמצא
+- id: p13-farshtendlekh
+  text: פֿאַרשטענדלעך
+  translation: מובן
+  pos: adjective
+  example:
+    text: דאָס איז פֿאַרשטענדלעך.
+    translation: זה מובן
+- id: p13-vikhtik
+  text: וויכטיק
+  translation: חשוב
+  pos: adjective
+  example:
+    text: דאָס איז וויכטיק.
+    translation: זה חשוב
+- id: p13-greytn
+  text: גרייטן
+  translation: להתכונן
+  pos: verb
+  example:
+    text: איך וויל זיך גרייטן.
+    translation: אני רוצה להתכונן
+- id: p13-tsushteln
+  text: צושטעלן
+  translation: לספק
+  pos: verb
+  example:
+    text: איך וויל צושטעלן אַ בוך.
+    translation: אני רוצה לספק ספר
+- id: p13-teyln
+  text: טיילן
+  translation: לחלק
+  pos: verb
+  example:
+    text: איך וויל טיילן קוכן.
+    translation: אני רוצה לחלק עוגה
+- id: p13-praven
+  text: פּראַווען
+  translation: לערוך / לחגוג
+  pos: verb
+  example:
+    text: מיר וועלן פּראַווען אַ חתונה.
+    translation: נערוך חתונה
+- id: p13-aroysnemen
+  text: אַרויסנעמען
+  translation: להוציא
+  pos: verb
+  example:
+    text: איך וויל אַרויסנעמען אַ בוך.
+    translation: אני רוצה להוציא ספר
+- id: p13-klaybn
+  text: קלײַבן
+  translation: לאסוף
+  pos: verb
+  example:
+    text: איך וויל קלײַבן בלומען.
+    translation: אני רוצה לאסוף פרחים
+- id: p13-tsien
+  text: ציִען
+  translation: למשוך
+  pos: verb
+  example:
+    text: איך וויל ציִען.
+    translation: אני רוצה למשוך
+- id: p13-betn
+  text: בעטן
+  translation: לבקש
+  pos: verb
+  example:
+    text: איך וויל בעטן.
+    translation: אני רוצה לבקש
+- id: p13-danken
+  text: דאַנקען
+  translation: להודות
+  pos: verb
+  example:
+    text: איך וויל דאַנקען.
+    translation: אני רוצה להודות
 lessons:
 - id: p13-l1
   kind: new
@@ -144,180 +151,196 @@ lessons:
   exercises:
   - id: p13-l1-01
     type: learn
-    lexeme: p13-beyz
+    lexeme: p13-shlekht
   - id: p13-l1-02
     type: learn
-    lexeme: p13-dershrokn
+    lexeme: p13-bavust
   - id: p13-l1-03
     type: learn
-    lexeme: p13-shtolts
+    lexeme: p13-gevaldik
   - id: p13-l1-04
     type: learn
-    lexeme: p13-simkhe
+    lexeme: p13-hekher
   - id: p13-l1-05
     type: learn
-    lexeme: p13-troyer
+    lexeme: p13-veltlekh
   - id: p13-l1-06
     type: learn
-    lexeme: p13-hofenung
+    lexeme: p13-inerlekh
   - id: p13-l1-07
-    type: match_pairs
-    pairs:
-    - - בייז
-      - כועס
-    - - דערשראָקן
-      - מפוחד
-    - - שטאָלץ
-      - גאווה
-    lexemes:
-    - p13-beyz
-    - p13-dershrokn
-    - p13-shtolts
+    type: dialogue
+    scene: הסבא מסביר מילים בשיחה
+    lines:
+    - speaker: menachem
+      text: זיידע, דער רבי זאָגט אַז עס איז שלעכט, אָבער אויך געוואַלדיק וויכטיק.
+      translation: סבא, הרבי אומר שזה רע, אבל גם חשוב מאוד.
+    - speaker: zeyde
+      text: דאָס איז באַוואוסט. אַ מענטש דאַרף זיין העכער ווי די וועלטלעכע זאַכן.
+      translation: זה ידוע. אדם צריך להיות מעל לדברים הגשמיים.
+    - speaker: menachem
+      text: און אינערלעך, זיידע?
+      translation: ופנימי, סבא?
+    - speaker: zeyde
+      text: אינערלעך מיינט אין האַרץ, ניט נאָר אויסערלעך.
+      translation: פנימי פירושו בלב, לא רק כלפי חוץ.
   - id: p13-l1-08
     type: match_pairs
     pairs:
-    - - שמחה
-      - שמחה (רגש)
-    - - טרויער
-      - צער
-    - - האָפֿענונג
-      - תקווה
+    - - שלעכט
+      - רע / גרוע
+    - - באַוואוסט
+      - ידוע
+    - - געוואַלדיק
+      - אדיר
     lexemes:
-    - p13-simkhe
-    - p13-troyer
-    - p13-hofenung
+    - p13-shlekht
+    - p13-bavust
+    - p13-gevaldik
   - id: p13-l1-09
-    type: multiple_choice
-    prompt: מה פירוש בייז?
-    options:
-    - כועס
-    - מרוצה
-    - לעיתים רחוקות
-    correct: 0
+    type: match_pairs
+    pairs:
+    - - העכער
+      - גבוה יותר
+    - - וועלטלעך
+      - גשמי / חילוני
+    - - אינערלעך
+      - פנימי
     lexemes:
-    - p13-beyz
+    - p13-hekher
+    - p13-veltlekh
+    - p13-inerlekh
   - id: p13-l1-10
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: מפוחד?'
+    prompt: מה פירוש שלעכט?
     options:
-    - דערשראָקן
-    - זעלטן
-    - בענקשאַפֿט
+    - רע / גרוע
+    - מובן
+    - לערוך / לחגוג
     correct: 0
     lexemes:
-    - p13-dershrokn
+    - p13-shlekht
   - id: p13-l1-11
     type: multiple_choice
-    prompt: מה פירוש שטאָלץ?
+    prompt: 'איזו מילה מתאימה ל: ידוע?'
     options:
-    - גאווה
-    - פחד
-    - רחמים
+    - באַוואוסט
+    - פֿאַראַן
+    - ניטאָ
     correct: 0
     lexemes:
-    - p13-shtolts
+    - p13-bavust
   - id: p13-l1-12
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: שמחה (רגש)?'
+    prompt: מה פירוש געוואַלדיק?
     options:
-    - שמחה
-    - געדולד
-    - פֿרייד
+    - אדיר
+    - לחלק
+    - מובן
     correct: 0
     lexemes:
-    - p13-simkhe
+    - p13-gevaldik
   - id: p13-l1-13
     type: multiple_choice
-    prompt: מה פירוש טרויער?
+    prompt: 'איזו מילה מתאימה ל: גבוה יותר?'
     options:
-    - צער
-    - פעם
-    - געגוע
+    - העכער
+    - וויכטיק
+    - ציִען
     correct: 0
     lexemes:
-    - p13-troyer
+    - p13-hekher
   - id: p13-l1-14
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: תקווה?'
+    prompt: מה פירוש וועלטלעך?
     options:
-    - האָפֿענונג
-    - זעלטן
-    - פֿאַרדראָסן
+    - גשמי / חילוני
+    - להתכונן
+    - מובן
     correct: 0
     lexemes:
-    - p13-hofenung
+    - p13-veltlekh
   - id: p13-l1-15
-    type: fill_blank
-    sentence: דאָס איז ___.
-    translation: זה כועס
-    answers:
-    - בייז
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: פנימי?'
     options:
-    - בייז
-    - פֿאַרדראָסן
-    - צופֿרידן
+    - אינערלעך
+    - וויכטיק
+    - קלײַבן
+    correct: 0
     lexemes:
-    - p13-beyz
+    - p13-inerlekh
   - id: p13-l1-16
     type: fill_blank
     sentence: דאָס איז ___.
-    translation: זה מפוחד
+    translation: זה רע / גרוע
     answers:
-    - דערשראָקן
+    - שלעכט
     options:
-    - דערשראָקן
-    - צופֿרידן
-    - פֿאַרדראָסן
+    - שלעכט
+    - פֿאַרשטענדלעך
+    - וויכטיק
     lexemes:
-    - p13-dershrokn
+    - p13-shlekht
   - id: p13-l1-17
     type: fill_blank
-    sentence: איך האָב ___.
-    translation: יש לי גאווה
+    sentence: דאָס איז ___.
+    translation: זה ידוע
     answers:
-    - שטאָלץ
+    - באַוואוסט
     options:
-    - שטאָלץ
-    - געדולד
-    - רחמנות
+    - באַוואוסט
+    - פֿאַרשטענדלעך
+    - וויכטיק
     lexemes:
-    - p13-shtolts
+    - p13-bavust
   - id: p13-l1-18
     type: fill_blank
-    sentence: איך האָב ___.
-    translation: יש לי שמחה (רגש)
+    sentence: דאָס איז ___.
+    translation: זה אדיר
     answers:
-    - שמחה
+    - געוואַלדיק
     options:
-    - שמחה
-    - פֿרייד
-    - בענקשאַפֿט
+    - געוואַלדיק
+    - פֿאַרשטענדלעך
+    - וויכטיק
     lexemes:
-    - p13-simkhe
+    - p13-gevaldik
   - id: p13-l1-19
     type: fill_blank
-    sentence: איך האָב ___.
-    translation: יש לי צער
+    sentence: דער בערג איז ___.
+    translation: ההר גבוה יותר
     answers:
-    - טרויער
+    - העכער
     options:
-    - טרויער
-    - כעס
-    - פֿרייד
+    - העכער
+    - פֿאַראַן
+    - וויכטיק
     lexemes:
-    - p13-troyer
+    - p13-hekher
   - id: p13-l1-20
     type: fill_blank
-    sentence: איך האָב ___.
-    translation: יש לי תקווה
+    sentence: דאָס איז ___.
+    translation: זה גשמי / חילוני
     answers:
-    - האָפֿענונג
+    - וועלטלעך
     options:
-    - האָפֿענונג
-    - פֿרייד
-    - רחמנות
+    - וועלטלעך
+    - פֿאַרשטענדלעך
+    - וויכטיק
     lexemes:
-    - p13-hofenung
+    - p13-veltlekh
+  - id: p13-l1-21
+    type: fill_blank
+    sentence: דאָס איז ___.
+    translation: זה פנימי
+    answers:
+    - אינערלעך
+    options:
+    - אינערלעך
+    - פֿאַרשטענדלעך
+    - וויכטיק
+    lexemes:
+    - p13-inerlekh
 - id: p13-l2
   kind: new
   title:
@@ -326,180 +349,196 @@ lessons:
   exercises:
   - id: p13-l2-01
     type: learn
-    lexeme: p13-moyre
+    lexeme: p13-faran
   - id: p13-l2-02
     type: learn
-    lexeme: p13-rakhmones
+    lexeme: p13-nito
   - id: p13-l2-03
     type: learn
-    lexeme: p13-geduld
+    lexeme: p13-farshtendlekh
   - id: p13-l2-04
     type: learn
-    lexeme: p13-oft
+    lexeme: p13-vikhtik
   - id: p13-l2-05
     type: learn
-    lexeme: p13-shtendik
+    lexeme: p13-greytn
   - id: p13-l2-06
     type: learn
-    lexeme: p13-zeltn
+    lexeme: p13-tsushteln
   - id: p13-l2-07
-    type: match_pairs
-    pairs:
-    - - מורא
-      - פחד
-    - - רחמנות
-      - רחמים
-    - - געדולד
-      - סבלנות
-    lexemes:
-    - p13-moyre
-    - p13-rakhmones
-    - p13-geduld
+    type: dialogue
+    scene: יש ואין, מובן וחשוב
+    lines:
+    - speaker: menachem
+      text: פֿאַראַן אָדער ניטאָ? וואָס איז פֿאַרשטענדלעך?
+      translation: יש או אין? מה מובן?
+    - speaker: zeyde
+      text: דער ענין איז פֿאַראַן, אָבער עס איז ניטאָ קיין צווייפֿל. פֿאַרשטענדלעך איז וואָס מע פֿאַרשטייט.
+      translation: הענין קיים, אבל אין ספק. מובן הוא מה שמבינים.
+    - speaker: menachem
+      text: און וויכטיק?
+      translation: וחשוב?
+    - speaker: zeyde
+      text: וויכטיק איז וואָס מע דאַרף גרייטן און צושטעלן.
+      translation: חשוב הוא מה שצריך להכין ולהגיש.
   - id: p13-l2-08
     type: match_pairs
     pairs:
-    - - אָפֿט
-      - לעיתים קרובות
-    - - שטענדיק
-      - תמיד
-    - - זעלטן
-      - לעיתים רחוקות
+    - - פֿאַראַן
+      - קיים / נמצא
+    - - ניטאָ
+      - אינו נמצא
+    - - פֿאַרשטענדלעך
+      - מובן
     lexemes:
-    - p13-oft
-    - p13-shtendik
-    - p13-zeltn
+    - p13-faran
+    - p13-nito
+    - p13-farshtendlekh
   - id: p13-l2-09
-    type: multiple_choice
-    prompt: מה פירוש מורא?
-    options:
-    - פחד
-    - מרוצה
-    - צער
-    correct: 0
+    type: match_pairs
+    pairs:
+    - - וויכטיק
+      - חשוב
+    - - גרייטן
+      - להתכונן
+    - - צושטעלן
+      - לספק
     lexemes:
-    - p13-moyre
+    - p13-vikhtik
+    - p13-greytn
+    - p13-tsushteln
   - id: p13-l2-10
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: רחמים?'
+    prompt: מה פירוש פֿאַראַן?
     options:
-    - רחמנות
-    - דערשראָקן
-    - פֿאַרדראָסן
+    - קיים / נמצא
+    - להוציא
+    - גשמי / חילוני
     correct: 0
     lexemes:
-    - p13-rakhmones
+    - p13-faran
   - id: p13-l2-11
     type: multiple_choice
-    prompt: מה פירוש געדולד?
+    prompt: 'איזו מילה מתאימה ל: אינו נמצא?'
     options:
-    - סבלנות
-    - צער
-    - פעם
+    - ניטאָ
+    - קלײַבן
+    - וועלטלעך
     correct: 0
     lexemes:
-    - p13-geduld
+    - p13-nito
   - id: p13-l2-12
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: לעיתים קרובות?'
+    prompt: מה פירוש פֿאַרשטענדלעך?
     options:
-    - אָפֿט
-    - אַמאָל
-    - פֿאַרדראָסן
+    - מובן
+    - פנימי
+    - גשמי / חילוני
     correct: 0
     lexemes:
-    - p13-oft
+    - p13-farshtendlekh
   - id: p13-l2-13
     type: multiple_choice
-    prompt: מה פירוש שטענדיק?
+    prompt: 'איזו מילה מתאימה ל: חשוב?'
     options:
-    - תמיד
-    - מפוחד
-    - גאווה
+    - וויכטיק
+    - קלײַבן
+    - שלעכט
     correct: 0
     lexemes:
-    - p13-shtendik
+    - p13-vikhtik
   - id: p13-l2-14
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: לעיתים רחוקות?'
+    prompt: מה פירוש גרייטן?
     options:
-    - זעלטן
-    - האָפֿענונג
-    - פֿרייד
+    - להתכונן
+    - פנימי
+    - להודות
     correct: 0
     lexemes:
-    - p13-zeltn
+    - p13-greytn
   - id: p13-l2-15
-    type: fill_blank
-    sentence: איך האָב ___.
-    translation: יש לי פחד
-    answers:
-    - מורא
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: לספק?'
     options:
-    - מורא
-    - האָפֿענונג
-    - בענקשאַפֿט
+    - צושטעלן
+    - וועלטלעך
+    - אַרויסנעמען
+    correct: 0
     lexemes:
-    - p13-moyre
+    - p13-tsushteln
   - id: p13-l2-16
     type: fill_blank
-    sentence: איך האָב ___.
-    translation: יש לי רחמים
+    sentence: דער רבי איז ___.
+    translation: הרבי נמצא
     answers:
-    - רחמנות
+    - פֿאַראַן
     options:
-    - רחמנות
-    - בענקשאַפֿט
-    - כעס
+    - פֿאַראַן
+    - געוואַלדיק
+    - באַוואוסט
     lexemes:
-    - p13-rakhmones
+    - p13-faran
   - id: p13-l2-17
     type: fill_blank
-    sentence: איך האָב ___.
-    translation: יש לי סבלנות
+    sentence: ער איז ___.
+    translation: הוא לא נמצא
     answers:
-    - געדולד
+    - ניטאָ
     options:
-    - געדולד
-    - בענקשאַפֿט
-    - שמחה
+    - ניטאָ
+    - העכער
+    - געוואַלדיק
     lexemes:
-    - p13-geduld
+    - p13-nito
   - id: p13-l2-18
     type: fill_blank
-    sentence: איך גיי ___ אין שול.
-    translation: אני לעיתים קרובות הולך לבית הכנסת
+    sentence: דאָס איז ___.
+    translation: זה מובן
     answers:
-    - אָפֿט
+    - פֿאַרשטענדלעך
     options:
-    - אָפֿט
-    - כעס
-    - שמחה
+    - פֿאַרשטענדלעך
+    - געוואַלדיק
+    - אינערלעך
     lexemes:
-    - p13-oft
+    - p13-farshtendlekh
   - id: p13-l2-19
     type: fill_blank
-    sentence: איך גיי ___ אין שול.
-    translation: אני תמיד הולך לבית הכנסת
+    sentence: דאָס איז ___.
+    translation: זה חשוב
     answers:
-    - שטענדיק
+    - וויכטיק
     options:
-    - שטענדיק
-    - צופֿרידן
-    - דערשראָקן
+    - וויכטיק
+    - באַוואוסט
+    - אינערלעך
     lexemes:
-    - p13-shtendik
+    - p13-vikhtik
   - id: p13-l2-20
     type: fill_blank
-    sentence: איך גיי ___ אין שול.
-    translation: אני לעיתים רחוקות הולך לבית הכנסת
+    sentence: איך וויל זיך ___.
+    translation: אני רוצה להתכונן
     answers:
-    - זעלטן
+    - גרייטן
     options:
-    - זעלטן
-    - כעס
-    - דערשראָקן
+    - גרייטן
+    - קלײַבן
+    - אַרויסנעמען
     lexemes:
-    - p13-zeltn
+    - p13-greytn
+  - id: p13-l2-21
+    type: fill_blank
+    sentence: איך וויל ___ אַ בוך.
+    translation: אני רוצה לספק ספר
+    answers:
+    - צושטעלן
+    options:
+    - צושטעלן
+    - בעטן
+    - קלײַבן
+    lexemes:
+    - p13-tsushteln
 - id: p13-l3
   kind: new
   title:
@@ -508,177 +547,221 @@ lessons:
   exercises:
   - id: p13-l3-01
     type: learn
-    lexeme: p13-freyd
+    lexeme: p13-teyln
   - id: p13-l3-02
     type: learn
-    lexeme: p13-kaas
+    lexeme: p13-praven
   - id: p13-l3-03
     type: learn
-    lexeme: p13-benkshaft
+    lexeme: p13-aroysnemen
   - id: p13-l3-04
     type: learn
-    lexeme: p13-tsufridn
+    lexeme: p13-klaybn
   - id: p13-l3-05
     type: learn
-    lexeme: p13-fardrosn
+    lexeme: p13-tsien
   - id: p13-l3-06
     type: learn
-    lexeme: p13-amol
+    lexeme: p13-betn
   - id: p13-l3-07
-    type: match_pairs
-    pairs:
-    - - פֿרייד
-      - שמחה גדולה
-    - - כעס
-      - כעס חזק
-    - - בענקשאַפֿט
-      - געגוע
-    lexemes:
-    - p13-freyd
-    - p13-kaas
-    - p13-benkshaft
+    type: learn
+    lexeme: p13-danken
   - id: p13-l3-08
+    type: dialogue
+    scene: פעלים בשיחה
+    lines:
+    - speaker: zeyde
+      text: מע טיילט די שפּײַז און מע פּראַוועט אַ התוועדות.
+      translation: מחלקים את האוכל ומקיימים התוועדות.
+    - speaker: menachem
+      text: און מע נעמט אַרויס אַ ספֿר פֿון שאַפֿע. מע קלײַבט פֿרוכט.
+      translation: ומוציאים ספר מהארון. מלקטים פירות.
+    - speaker: zeyde
+      text: אַן איד ציט זיך נעענטער צום רבי'ן און בעט אַ ברכה.
+      translation: יהודי מתקרב לרבי ומבקש ברכה.
+    - speaker: menachem
+      text: און מע דאַנקט דעם אויבערשטן.
+      translation: ומודים להקב״ה.
+  - id: p13-l3-09
     type: match_pairs
     pairs:
-    - - צופֿרידן
-      - מרוצה
-    - - פֿאַרדראָסן
-      - מוטרד
-    - - אַמאָל
-      - פעם
+    - - טיילן
+      - לחלק
+    - - פּראַווען
+      - לערוך / לחגוג
+    - - אַרויסנעמען
+      - להוציא
     lexemes:
-    - p13-tsufridn
-    - p13-fardrosn
-    - p13-amol
-  - id: p13-l3-09
-    type: multiple_choice
-    prompt: מה פירוש פֿרייד?
-    options:
-    - שמחה גדולה
-    - רחמים
-    - פחד
-    correct: 0
-    lexemes:
-    - p13-freyd
+    - p13-teyln
+    - p13-praven
+    - p13-aroysnemen
   - id: p13-l3-10
-    type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: כעס חזק?'
-    options:
-    - כעס
-    - שמחה
-    - אָפֿט
-    correct: 0
+    type: match_pairs
+    pairs:
+    - - קלײַבן
+      - לאסוף
+    - - ציִען
+      - למשוך
+    - - בעטן
+      - לבקש
+    - - דאַנקען
+      - להודות
     lexemes:
-    - p13-kaas
+    - p13-klaybn
+    - p13-tsien
+    - p13-betn
+    - p13-danken
   - id: p13-l3-11
     type: multiple_choice
-    prompt: מה פירוש בענקשאַפֿט?
+    prompt: מה פירוש טיילן?
     options:
-    - געגוע
-    - פחד
-    - כועס
+    - לחלק
+    - ידוע
+    - אדיר
     correct: 0
     lexemes:
-    - p13-benkshaft
+    - p13-teyln
   - id: p13-l3-12
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: מרוצה?'
+    prompt: 'איזו מילה מתאימה ל: לערוך / לחגוג?'
     options:
-    - צופֿרידן
-    - טרויער
-    - מורא
+    - פּראַווען
+    - אינערלעך
+    - שלעכט
     correct: 0
     lexemes:
-    - p13-tsufridn
+    - p13-praven
   - id: p13-l3-13
     type: multiple_choice
-    prompt: מה פירוש פֿאַרדראָסן?
+    prompt: מה פירוש אַרויסנעמען?
     options:
-    - מוטרד
-    - כועס
-    - גאווה
+    - להוציא
+    - להתכונן
+    - פנימי
     correct: 0
     lexemes:
-    - p13-fardrosn
+    - p13-aroysnemen
   - id: p13-l3-14
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: פעם?'
+    prompt: 'איזו מילה מתאימה ל: לאסוף?'
     options:
-    - אַמאָל
-    - אָפֿט
-    - רחמנות
+    - קלײַבן
+    - געוואַלדיק
+    - וויכטיק
     correct: 0
     lexemes:
-    - p13-amol
+    - p13-klaybn
   - id: p13-l3-15
-    type: fill_blank
-    sentence: איך האָב ___.
-    translation: יש לי שמחה גדולה
-    answers:
-    - פֿרייד
+    type: multiple_choice
+    prompt: מה פירוש ציִען?
     options:
-    - פֿרייד
-    - טרויער
-    - שמחה
+    - למשוך
+    - פנימי
+    - אינו נמצא
+    correct: 0
     lexemes:
-    - p13-freyd
+    - p13-tsien
   - id: p13-l3-16
-    type: fill_blank
-    sentence: איך האָב ___.
-    translation: יש לי כעס חזק
-    answers:
-    - כעס
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: לבקש?'
     options:
-    - כעס
-    - האָפֿענונג
-    - געדולד
+    - בעטן
+    - באַוואוסט
+    - שלעכט
+    correct: 0
     lexemes:
-    - p13-kaas
+    - p13-betn
   - id: p13-l3-17
-    type: fill_blank
-    sentence: איך האָב ___.
-    translation: יש לי געגוע
-    answers:
-    - בענקשאַפֿט
+    type: multiple_choice
+    prompt: מה פירוש דאַנקען?
     options:
-    - בענקשאַפֿט
-    - שמחה
-    - מורא
+    - להודות
+    - פנימי
+    - אינו נמצא
+    correct: 0
     lexemes:
-    - p13-benkshaft
+    - p13-danken
   - id: p13-l3-18
     type: fill_blank
-    sentence: דאָס איז ___.
-    translation: זה מרוצה
+    sentence: איך וויל ___ קוכן.
+    translation: אני רוצה לחלק עוגה
     answers:
-    - צופֿרידן
+    - טיילן
     options:
-    - צופֿרידן
-    - בייז
-    - דערשראָקן
+    - טיילן
+    - גרייטן
+    - צושטעלן
     lexemes:
-    - p13-tsufridn
+    - p13-teyln
   - id: p13-l3-19
     type: fill_blank
-    sentence: דאָס איז ___.
-    translation: זה מוטרד
+    sentence: מיר וועלן ___ אַ חתונה.
+    translation: נערוך חתונה
     answers:
-    - פֿאַרדראָסן
+    - פּראַווען
     options:
-    - פֿאַרדראָסן
-    - בייז
-    - דערשראָקן
+    - פּראַווען
+    - גרייטן
+    - צושטעלן
     lexemes:
-    - p13-fardrosn
+    - p13-praven
   - id: p13-l3-20
     type: fill_blank
-    sentence: איך האָב ___ געלערנט.
-    translation: פעם למדתי
+    sentence: איך וויל ___ אַ בוך.
+    translation: אני רוצה להוציא ספר
     answers:
-    - אַמאָל
+    - אַרויסנעמען
     options:
-    - אַמאָל
-    - שטענדיק
-    - זעלטן
+    - אַרויסנעמען
+    - צושטעלן
+    - גרייטן
     lexemes:
-    - p13-amol
+    - p13-aroysnemen
+  - id: p13-l3-21
+    type: fill_blank
+    sentence: איך וויל ___ בלומען.
+    translation: אני רוצה לאסוף פרחים
+    answers:
+    - קלײַבן
+    options:
+    - קלײַבן
+    - גרייטן
+    - צושטעלן
+    lexemes:
+    - p13-klaybn
+  - id: p13-l3-22
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה למשוך
+    answers:
+    - ציִען
+    options:
+    - ציִען
+    - גרייטן
+    - צושטעלן
+    lexemes:
+    - p13-tsien
+  - id: p13-l3-23
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה לבקש
+    answers:
+    - בעטן
+    options:
+    - בעטן
+    - צושטעלן
+    - גרייטן
+    lexemes:
+    - p13-betn
+  - id: p13-l3-24
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה להודות
+    answers:
+    - דאַנקען
+    options:
+    - דאַנקען
+    - צושטעלן
+    - גרייטן
+    lexemes:
+    - p13-danken

@@ -1,231 +1,210 @@
 id: p14-words
-cefr: B1
+cefr: B2
 scene: study
 title:
-  he: 'הרחבת אוצר מילים 14: מילים קטנות מהשיחות'
-  en: 'Word builder 14: small words from the talks'
-story: מילים נפוצות בשיחות, כל אחת במשפט קצר.
+  he: 'הרחבת אוצר מילים 14: צורות הפועל בשיחות'
+  en: 'Word builder 14: verb forms from the talks'
+story: הסבא מראה למנחם איך הפעלים משתנים בשיחות של הרבי, בהווה ובעבר.
 canDo:
-- להבין ולהשתמש במילים נפוצות נוספות
+- להבין ולהשתמש במילים נפוצות נוספות בשיחה
 - לזהות את המילים במשפטים
 vocabulary:
-- id: p14-oyf
-  text: אויף
-  translation: על
-  pos: preposition
-  example:
-    text: דער ספֿר ליגט אויף דעם טיש.
-    translation: הספר מונח על השולחן
-- id: p14-im
-  text: אים
-  translation: אותו / לו
-  pos: pronoun
-  example:
-    text: איך זע אים.
-    translation: אני רואה אותו
-- id: p14-zey
-  text: זיי
-  translation: הם / אותם
-  pos: pronoun
-  example:
-    text: איך זע זיי.
-    translation: אני רואה אותם
-- id: p14-men
-  text: מען
-  translation: אומרים / לומדים (כללי)
-  pos: pronoun
-  example:
-    text: מען לערנט אין שול.
-    translation: לומדים בבית הכנסת
-- id: p14-azoy
-  text: אַזוי
-  translation: כך
-  pos: adverb
-  example:
-    text: מען זאָגט עס אַזוי.
-    translation: אומרים את זה כך
-- id: p14-tsu
-  text: צו
-  translation: אל
-  pos: preposition
-  example:
-    text: איך גיי צו מײַן זיידע.
-    translation: אני הולך אל סבא שלי
-- id: p14-nor
-  text: נאָר
-  translation: רק
-  pos: adverb
-  example:
-    text: איך האָב נאָר איין בוך.
-    translation: יש לי רק ספר אחד
-- id: p14-oder
-  text: אָדער
-  translation: או
-  pos: conjunction
-  example:
-    text: איך וויל טיי אָדער קאַווע.
-    translation: אני רוצה תה או קפה
-- id: p14-bay
-  text: ביי
-  translation: אצל
-  pos: preposition
-  example:
-    text: ער וווינט ביי זײַן זיידע.
-    translation: הוא גר אצל סבא שלו
-- id: p14-durkh
-  text: דורך
-  translation: דרך
-  pos: preposition
-  example:
-    text: מיר גייען דורך דער שטאָט.
-    translation: אנחנו הולכים דרך העיר
-- id: p14-tsvishn
-  text: צווישן
-  translation: בין
-  pos: preposition
-  example:
-    text: דאָס בלײַבט צווישן מיר און דיר.
-    translation: זה נשאר בינינו
-- id: p14-far
-  text: פֿאַר
-  translation: בשביל
-  pos: preposition
-  example:
-    text: דאָס איז פֿאַר דיר.
-    translation: זה בשבילך
-- id: p14-vegn
-  text: וועגן
-  translation: על / אודות
-  pos: preposition
-  example:
-    text: מיר רעדן וועגן דער תורה.
-    translation: אנחנו מדברים על התורה
-- id: p14-iber
-  text: איבער
-  translation: מעל / מעבר
-  pos: preposition
-  example:
-    text: ער גייט איבער דער בריק.
-    translation: הוא הולך על הגשר
-- id: p14-biz
-  text: ביז
-  translation: עד
-  pos: preposition
-  example:
-    text: איך בלײַב דאָ ביז מאָרגן.
-    translation: אני נשאר כאן עד מחר
-- id: p14-aleyn
-  text: אַליין
-  translation: לבד
-  pos: adverb
-  example:
-    text: איך לערן אַליין.
-    translation: אני לומד לבד
-- id: p14-gor
-  text: גאָר
-  translation: ממש
-  pos: adverb
-  example:
-    text: דאָס איז גאָר שיין.
-    translation: זה ממש יפה
-- id: p14-takeh
-  text: טאַקע
-  translation: אכן
-  pos: adverb
-  example:
-    text: ער איז טאַקע אין שול.
-    translation: הוא אכן בבית הכנסת
-- id: p14-khotsh
-  text: כאָטש
-  translation: אף על פי ש־
-  pos: conjunction
-  example:
-    text: כאָטש איך בין מיד, גיי איך אין שול.
-    translation: אף על פי שאני עייף, אני הולך לבית הכנסת
-- id: p14-vaybald
-  text: וויבאַלד
-  translation: מכיוון ש־
-  pos: conjunction
-  example:
-    text: וויבאַלד איך בין מיד, שלאָף איך.
-    translation: מכיוון שאני עייף, אני ישן
-- id: p14-itst
-  text: איצט
-  translation: עכשיו
-  pos: adverb
-  example:
-    text: איצט בין איך אין שול.
-    translation: עכשיו אני בבית הכנסת
-- id: p14-demolt
-  text: דעמולט
-  translation: אז
-  pos: adverb
-  example:
-    text: דעמולט האָב איך געלערנט.
-    translation: אז למדתי
-- id: p14-frier
-  text: פֿריִער
-  translation: קודם
-  pos: adverb
-  example:
-    text: פֿריִער האָב איך געגעסן.
-    translation: קודם אכלתי
-- id: p14-derfar
-  text: דערפֿאַר
-  translation: לכן
-  pos: adverb
-  example:
-    text: איך בין מיד, דערפֿאַר שלאָף איך.
-    translation: אני עייף, לכן אני ישן
-- id: p14-tsulib
-  text: צוליב
-  translation: בגלל
-  pos: preposition
-  example:
-    text: צוליב דעם רעגן בלײַב איך אין שטוב.
-    translation: בגלל הגשם אני נשאר בבית
-- id: p14-yeder
-  text: יעדער
-  translation: כל / כל אחד
-  pos: pronoun
-  example:
-    text: יעדער איד לערנט.
-    translation: כל יהודי לומד
-- id: p14-ale
-  text: אַלע
-  translation: כל / כולם
-  pos: pronoun
-  example:
-    text: אַלע קינדער לערנען.
-    translation: כל הילדים לומדים
-- id: p14-gants
-  text: גאַנץ
-  translation: שלם / כל
-  pos: adjective
-  example:
-    text: דער גאַנץ טאָג איז שיין.
-    translation: כל היום יפה
-- id: p14-zol
-  text: זאָל
-  translation: שֶׁ־ (שיהיה)
-  pos: adverb
-  example:
-    text: ער זאָל קומען.
-    translation: שיבוא
-- id: p14-tor
-  text: טאָר
-  translation: 'מותר (בשלילה: אסור)'
+- id: p14-hot
+  text: האָט
+  translation: יש לו / (עזר לעבר)
   pos: verb
   example:
-    text: מען טאָר ניט עסן דאָ.
-    translation: אסור לאכול כאן
-- id: p14-vert2
-  text: ווערט
+    text: ער האָט אַ בוך.
+    translation: יש לו ספר
+- id: p14-zaynen
+  text: זיינען
+  translation: הם / אנחנו (הווה של להיות)
+  pos: verb
+  example:
+    text: מיר זיינען דאָ.
+    translation: אנחנו כאן
+- id: p14-zogt
+  text: זאָגט
+  translation: אומר
+  pos: verb
+  example:
+    text: ער זאָגט עס.
+    translation: הוא אומר את זה
+- id: p14-shteyt
+  text: שטייט
+  translation: עומד
+  pos: verb
+  example:
+    text: ער שטייט אין שול.
+    translation: הוא עומד בבית הכנסת
+- id: p14-brengt
+  text: ברענגט
+  translation: מביא
+  pos: verb
+  example:
+    text: ער ברענגט אַ בוך.
+    translation: הוא מביא ספר
+- id: p14-kumt
+  text: קומט
+  translation: בא
+  pos: verb
+  example:
+    text: ער קומט מאָרגן.
+    translation: הוא בא מחר
+- id: p14-tut
+  text: טוט
+  translation: עושה
+  pos: verb
+  example:
+    text: ער טוט עס.
+    translation: הוא עושה את זה
+- id: p14-zet
+  text: זעט
+  translation: רואה
+  pos: verb
+  example:
+    text: ער זעט אַ בוך.
+    translation: הוא רואה ספר
+- id: p14-redt
+  text: רעדט
+  translation: מדבר
+  pos: verb
+  example:
+    text: ער רעדט יידיש.
+    translation: הוא מדבר יידיש
+- id: p14-gefint
+  text: געפֿינט
+  translation: מוצא
+  pos: verb
+  example:
+    text: ער געפֿינט אַ בוך.
+    translation: הוא מוצא ספר
+- id: p14-dar
+  text: דאַרף
+  translation: צריך
+  pos: verb
+  example:
+    text: ער דאַרף גיין.
+    translation: הוא צריך ללכת
+- id: p14-ken
+  text: קען
+  translation: יכול
+  pos: verb
+  example:
+    text: ער קען גיין.
+    translation: הוא יכול ללכת
+- id: p14-vet
+  text: וועט
+  translation: יהיה (עתיד)
+  pos: verb
+  example:
+    text: ער וועט קומען.
+    translation: הוא יבוא
+- id: p14-geven
+  text: געווען
+  translation: היה
+  pos: verb
+  example:
+    text: ער איז געווען אין שול.
+    translation: הוא היה בבית הכנסת
+- id: p14-gevoren
+  text: געוואָרן
   translation: נהיה
   pos: verb
   example:
-    text: עס ווערט קאַלט.
+    text: עס איז קאַלט געוואָרן.
     translation: נהיה קר
+- id: p14-geton
+  text: געטאָן
+  translation: עשה
+  pos: verb
+  example:
+    text: ער האָט עס געטאָן.
+    translation: הוא עשה את זה
+- id: p14-gefunen
+  text: געפֿונען
+  translation: מצא
+  pos: verb
+  example:
+    text: איך האָב געפֿונען אַ בוך.
+    translation: מצאתי ספר
+- id: p14-gekumen
+  text: געקומען
+  translation: בא (עבר)
+  pos: verb
+  example:
+    text: ער איז געקומען.
+    translation: הוא בא
+- id: p14-gegebn
+  text: געגעבן
+  translation: נתן
+  pos: verb
+  example:
+    text: ער האָט געגעבן צדקה.
+    translation: הוא נתן צדקה
+- id: p14-gemakht
+  text: געמאַכט
+  translation: עשה / יצר
+  pos: verb
+  example:
+    text: ער האָט געמאַכט אַ סוכה.
+    translation: הוא עשה סוכה
+- id: p14-gebitn
+  text: געבעטן
+  translation: ביקש
+  pos: verb
+  example:
+    text: איך האָב געבעטן אַ בוך.
+    translation: ביקשתי ספר
+- id: p14-gelaybt
+  text: געלעבט
+  translation: חי
+  pos: verb
+  example:
+    text: ער האָט געלעבט אין ניו־יאָרק.
+    translation: הוא חי בניו יורק
+- id: p14-geblibn
+  text: געבליבן
+  translation: נשאר
+  pos: verb
+  example:
+    text: ער איז געבליבן אין שטוב.
+    translation: הוא נשאר בבית
+- id: p14-gezen2
+  text: געזען
+  translation: ראה
+  pos: verb
+  example:
+    text: איך האָב געזען דעם רבי.
+    translation: ראיתי את הרבי
+- id: p14-gegeyn2
+  text: געגאַנגען
+  translation: הלך
+  pos: verb
+  example:
+    text: ער איז געגאַנגען אין שול.
+    translation: הוא הלך לבית הכנסת
+- id: p14-gerufn
+  text: גערופֿן
+  translation: קרא
+  pos: verb
+  example:
+    text: איך האָב גערופֿן אַ גאַסט.
+    translation: קראתי לאורח
+- id: p14-gefregt
+  text: געפֿרעגט
+  translation: שאל
+  pos: verb
+  example:
+    text: ער האָט געפֿרעגט אַ פֿראַגע.
+    translation: הוא שאל שאלה
+- id: p14-gefirt
+  text: געפֿירט
+  translation: הוביל
+  pos: verb
+  example:
+    text: ער האָט געפֿירט דעם שיעור.
+    translation: הוא העביר את השיעור
 lessons:
 - id: p14-l1
   kind: new
@@ -235,292 +214,280 @@ lessons:
   exercises:
   - id: p14-l1-01
     type: learn
-    lexeme: p14-oyf
+    lexeme: p14-hot
   - id: p14-l1-02
     type: learn
-    lexeme: p14-im
+    lexeme: p14-zaynen
   - id: p14-l1-03
     type: learn
-    lexeme: p14-zey
+    lexeme: p14-zogt
   - id: p14-l1-04
     type: learn
-    lexeme: p14-men
+    lexeme: p14-shteyt
   - id: p14-l1-05
     type: learn
-    lexeme: p14-azoy
+    lexeme: p14-brengt
   - id: p14-l1-06
     type: learn
-    lexeme: p14-tsu
+    lexeme: p14-kumt
   - id: p14-l1-07
     type: learn
-    lexeme: p14-nor
+    lexeme: p14-tut
   - id: p14-l1-08
     type: learn
-    lexeme: p14-oder
+    lexeme: p14-zet
   - id: p14-l1-09
     type: learn
-    lexeme: p14-bay
+    lexeme: p14-redt
   - id: p14-l1-10
-    type: learn
-    lexeme: p14-durkh
+    type: dialogue
+    scene: הווה בשיחה
+    lines:
+    - speaker: zeyde
+      text: דער רבי זאָגט אַז עס שטייט אין תורה, און ער ברענגט אַ ראיה.
+      translation: הרבי אומר שכתוב בתורה, ומביא ראיה.
+    - speaker: menachem
+      text: ער דאַרף פֿרעגן, און דערנאָך קומט אַ תירוץ.
+      translation: הוא שואל, ואחר כך בא תירוץ.
+    - speaker: zeyde
+      text: יאָ, ער זעט אַז דאָס איז ניט גענוג, און ער רעדט ווײַטער.
+      translation: כן, הוא רואה שזה לא מספיק, וממשיך לדבר.
+    - speaker: menachem
+      text: און ער טוט אויך, ניט נאָר רעדט.
+      translation: והוא גם עושה, לא רק מדבר.
   - id: p14-l1-11
     type: match_pairs
     pairs:
-    - - אויף
-      - על
-    - - אים
-      - אותו / לו
-    - - זיי
-      - הם / אותם
-    - - מען
-      - אומרים / לומדים (כללי)
-    - - אַזוי
-      - כך
+    - - האָט
+      - יש לו / (עזר לעבר)
+    - - זיינען
+      - הם / אנחנו (הווה של להיות)
+    - - זאָגט
+      - אומר
+    - - שטייט
+      - עומד
     lexemes:
-    - p14-oyf
-    - p14-im
-    - p14-zey
-    - p14-men
-    - p14-azoy
+    - p14-hot
+    - p14-zaynen
+    - p14-zogt
+    - p14-shteyt
   - id: p14-l1-12
     type: match_pairs
     pairs:
-    - - צו
-      - אל
-    - - נאָר
-      - רק
-    - - אָדער
-      - או
-    - - ביי
-      - אצל
-    - - דורך
-      - דרך
+    - - ברענגט
+      - מביא
+    - - קומט
+      - בא
+    - - טוט
+      - עושה
+    - - זעט
+      - רואה
+    - - רעדט
+      - מדבר
     lexemes:
-    - p14-tsu
-    - p14-nor
-    - p14-oder
-    - p14-bay
-    - p14-durkh
+    - p14-brengt
+    - p14-kumt
+    - p14-tut
+    - p14-zet
+    - p14-redt
   - id: p14-l1-13
     type: multiple_choice
-    prompt: מה פירוש אויף?
+    prompt: מה פירוש האָט?
     options:
-    - על
-    - שלם / כל
-    - אז
+    - יש לו / (עזר לעבר)
+    - ראה
+    - היה
     correct: 0
     lexemes:
-    - p14-oyf
+    - p14-hot
   - id: p14-l1-14
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: אותו / לו?'
+    prompt: 'איזו מילה מתאימה ל: הם / אנחנו (הווה של להיות)?'
     options:
-    - אים
-    - ווערט
-    - וויבאַלד
+    - זיינען
+    - געפֿונען
+    - געוואָרן
     correct: 0
     lexemes:
-    - p14-im
+    - p14-zaynen
   - id: p14-l1-15
     type: multiple_choice
-    prompt: מה פירוש זיי?
+    prompt: מה פירוש זאָגט?
     options:
-    - הם / אותם
-    - עכשיו
-    - כל / כל אחד
+    - אומר
+    - יהיה (עתיד)
+    - ביקש
     correct: 0
     lexemes:
-    - p14-zey
+    - p14-zogt
   - id: p14-l1-16
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: אומרים / לומדים (כללי)?'
+    prompt: 'איזו מילה מתאימה ל: עומד?'
     options:
-    - מען
-    - צוליב
-    - דעמולט
+    - שטייט
+    - געגאַנגען
+    - געקומען
     correct: 0
     lexemes:
-    - p14-men
+    - p14-shteyt
   - id: p14-l1-17
     type: multiple_choice
-    prompt: מה פירוש אַזוי?
+    prompt: מה פירוש ברענגט?
     options:
-    - כך
-    - 'מותר (בשלילה: אסור)'
-    - אז
+    - מביא
+    - יכול
+    - היה
     correct: 0
     lexemes:
-    - p14-azoy
+    - p14-brengt
   - id: p14-l1-18
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: אל?'
+    prompt: 'איזו מילה מתאימה ל: בא?'
     options:
-    - צו
-    - פֿריִער
-    - כאָטש
+    - קומט
+    - קען
+    - געגעבן
     correct: 0
     lexemes:
-    - p14-tsu
+    - p14-kumt
   - id: p14-l1-19
     type: multiple_choice
-    prompt: מה פירוש נאָר?
+    prompt: מה פירוש טוט?
     options:
-    - רק
-    - בשביל
-    - שֶׁ־ (שיהיה)
+    - עושה
+    - נהיה
+    - ראה
     correct: 0
     lexemes:
-    - p14-nor
+    - p14-tut
   - id: p14-l1-20
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: או?'
+    prompt: 'איזו מילה מתאימה ל: רואה?'
     options:
-    - אָדער
-    - צווישן
-    - ביז
+    - זעט
+    - וועט
+    - געקומען
     correct: 0
     lexemes:
-    - p14-oder
+    - p14-zet
   - id: p14-l1-21
     type: multiple_choice
-    prompt: מה פירוש ביי?
+    prompt: מה פירוש רעדט?
     options:
-    - אצל
-    - עכשיו
-    - שלם / כל
+    - מדבר
+    - נהיה
+    - בא (עבר)
     correct: 0
     lexemes:
-    - p14-bay
+    - p14-redt
   - id: p14-l1-22
-    type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: דרך?'
+    type: fill_blank
+    sentence: ער ___ אַ בוך.
+    translation: יש לו ספר
+    answers:
+    - האָט
     options:
-    - דורך
-    - גאַנץ
-    - וועגן
-    correct: 0
+    - האָט
+    - וועט
+    - געפֿירט
     lexemes:
-    - p14-durkh
+    - p14-hot
   - id: p14-l1-23
     type: fill_blank
-    sentence: דער ספֿר ליגט ___ דעם טיש.
-    translation: הספר מונח על השולחן
+    sentence: מיר ___ דאָ.
+    translation: אנחנו כאן
     answers:
-    - אויף
+    - זיינען
     options:
-    - אויף
-    - פֿאַר
-    - איבער
+    - זיינען
+    - געפֿירט
+    - געזען
     lexemes:
-    - p14-oyf
+    - p14-zaynen
   - id: p14-l1-24
     type: fill_blank
-    sentence: איך זע ___.
-    translation: אני רואה אותו
+    sentence: ער ___ עס.
+    translation: הוא אומר את זה
     answers:
-    - אים
+    - זאָגט
     options:
-    - אים
-    - אַלע
-    - יעדער
+    - זאָגט
+    - קען
+    - געגעבן
     lexemes:
-    - p14-im
+    - p14-zogt
   - id: p14-l1-25
     type: fill_blank
-    sentence: איך זע ___.
-    translation: אני רואה אותם
+    sentence: ער ___ אין שול.
+    translation: הוא עומד בבית הכנסת
     answers:
-    - זיי
+    - שטייט
     options:
-    - זיי
-    - יעדער
-    - אַלע
+    - שטייט
+    - גערופֿן
+    - געבעטן
     lexemes:
-    - p14-zey
+    - p14-shteyt
   - id: p14-l1-26
     type: fill_blank
-    sentence: ___ לערנט אין שול.
-    translation: לומדים בבית הכנסת
+    sentence: ער ___ אַ בוך.
+    translation: הוא מביא ספר
     answers:
-    - מען
+    - ברענגט
     options:
-    - מען
-    - אַלע
-    - יעדער
+    - ברענגט
+    - געוואָרן
+    - געלעבט
     lexemes:
-    - p14-men
+    - p14-brengt
   - id: p14-l1-27
     type: fill_blank
-    sentence: מען זאָגט עס ___.
-    translation: אומרים את זה כך
+    sentence: ער ___ מאָרגן.
+    translation: הוא בא מחר
     answers:
-    - אַזוי
+    - קומט
     options:
-    - אַזוי
-    - איצט
-    - טאַקע
+    - קומט
+    - געפֿירט
+    - געבעטן
     lexemes:
-    - p14-azoy
+    - p14-kumt
   - id: p14-l1-28
     type: fill_blank
-    sentence: איך גיי ___ מײַן זיידע.
-    translation: אני הולך אל סבא שלי
+    sentence: ער ___ עס.
+    translation: הוא עושה את זה
     answers:
-    - צו
+    - טוט
     options:
-    - צו
-    - צווישן
-    - איבער
+    - טוט
+    - געגעבן
+    - געוואָרן
     lexemes:
-    - p14-tsu
+    - p14-tut
   - id: p14-l1-29
     type: fill_blank
-    sentence: איך האָב ___ איין בוך.
-    translation: יש לי רק ספר אחד
+    sentence: ער ___ אַ בוך.
+    translation: הוא רואה ספר
     answers:
-    - נאָר
+    - זעט
     options:
-    - נאָר
-    - פֿריִער
-    - דעמולט
+    - זעט
+    - געפֿינט
+    - קען
     lexemes:
-    - p14-nor
+    - p14-zet
   - id: p14-l1-30
     type: fill_blank
-    sentence: איך וויל טיי ___ קאַווע.
-    translation: אני רוצה תה או קפה
+    sentence: ער ___ יידיש.
+    translation: הוא מדבר יידיש
     answers:
-    - אָדער
+    - רעדט
     options:
-    - אָדער
-    - כאָטש
-    - וויבאַלד
+    - רעדט
+    - געפֿירט
+    - גערופֿן
     lexemes:
-    - p14-oder
-  - id: p14-l1-31
-    type: fill_blank
-    sentence: ער וווינט ___ זײַן זיידע.
-    translation: הוא גר אצל סבא שלו
-    answers:
-    - ביי
-    options:
-    - ביי
-    - איבער
-    - ביז
-    lexemes:
-    - p14-bay
-  - id: p14-l1-32
-    type: fill_blank
-    sentence: מיר גייען ___ דער שטאָט.
-    translation: אנחנו הולכים דרך העיר
-    answers:
-    - דורך
-    options:
-    - דורך
-    - פֿאַר
-    - איבער
-    lexemes:
-    - p14-durkh
+    - p14-redt
 - id: p14-l2
   kind: new
   title:
@@ -529,292 +496,280 @@ lessons:
   exercises:
   - id: p14-l2-01
     type: learn
-    lexeme: p14-tsvishn
+    lexeme: p14-gefint
   - id: p14-l2-02
     type: learn
-    lexeme: p14-far
+    lexeme: p14-dar
   - id: p14-l2-03
     type: learn
-    lexeme: p14-vegn
+    lexeme: p14-ken
   - id: p14-l2-04
     type: learn
-    lexeme: p14-iber
+    lexeme: p14-vet
   - id: p14-l2-05
     type: learn
-    lexeme: p14-biz
+    lexeme: p14-geven
   - id: p14-l2-06
     type: learn
-    lexeme: p14-aleyn
+    lexeme: p14-gevoren
   - id: p14-l2-07
     type: learn
-    lexeme: p14-gor
+    lexeme: p14-geton
   - id: p14-l2-08
     type: learn
-    lexeme: p14-takeh
+    lexeme: p14-gefunen
   - id: p14-l2-09
     type: learn
-    lexeme: p14-khotsh
+    lexeme: p14-gekumen
   - id: p14-l2-10
-    type: learn
-    lexeme: p14-vaybald
+    type: dialogue
+    scene: מה יש ומה היה
+    lines:
+    - speaker: zeyde
+      text: ער דאַרף וויסן, ער קען לערנען און ער וועט לערנען.
+      translation: הוא צריך לדעת, הוא יכול ללמוד והוא ילמד.
+    - speaker: menachem
+      text: און וואָס איז געווען? וואָס איז געוואָרן?
+      translation: ומה היה? מה נעשה?
+    - speaker: zeyde
+      text: עס איז געווען אַ שאלה, געוואָרן אַ תירוץ. געטאָן האָט מען, און געפֿונען אַ וועג.
+      translation: הייתה שאלה, נעשה תירוץ. עשו, ומצאו דרך.
+    - speaker: menachem
+      text: און וועלכער איז געקומען?
+      translation: ומי הגיע?
   - id: p14-l2-11
     type: match_pairs
     pairs:
-    - - צווישן
-      - בין
-    - - פֿאַר
-      - בשביל
-    - - וועגן
-      - על / אודות
-    - - איבער
-      - מעל / מעבר
-    - - ביז
-      - עד
+    - - געפֿינט
+      - מוצא
+    - - דאַרף
+      - צריך
+    - - קען
+      - יכול
+    - - וועט
+      - יהיה (עתיד)
     lexemes:
-    - p14-tsvishn
-    - p14-far
-    - p14-vegn
-    - p14-iber
-    - p14-biz
+    - p14-gefint
+    - p14-dar
+    - p14-ken
+    - p14-vet
   - id: p14-l2-12
     type: match_pairs
     pairs:
-    - - אַליין
-      - לבד
-    - - גאָר
-      - ממש
-    - - טאַקע
-      - אכן
-    - - כאָטש
-      - אף על פי ש־
-    - - וויבאַלד
-      - מכיוון ש־
+    - - געווען
+      - היה
+    - - געוואָרן
+      - נהיה
+    - - געטאָן
+      - עשה
+    - - געפֿונען
+      - מצא
+    - - געקומען
+      - בא (עבר)
     lexemes:
-    - p14-aleyn
-    - p14-gor
-    - p14-takeh
-    - p14-khotsh
-    - p14-vaybald
+    - p14-geven
+    - p14-gevoren
+    - p14-geton
+    - p14-gefunen
+    - p14-gekumen
   - id: p14-l2-13
     type: multiple_choice
-    prompt: מה פירוש צווישן?
+    prompt: מה פירוש געפֿינט?
     options:
-    - בין
-    - לכן
-    - קודם
+    - מוצא
+    - קרא
+    - ראה
     correct: 0
     lexemes:
-    - p14-tsvishn
+    - p14-gefint
   - id: p14-l2-14
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: בשביל?'
+    prompt: 'איזו מילה מתאימה ל: צריך?'
     options:
-    - פֿאַר
-    - דורך
-    - יעדער
+    - דאַרף
+    - געפֿרעגט
+    - געבעטן
     correct: 0
     lexemes:
-    - p14-far
+    - p14-dar
   - id: p14-l2-15
     type: multiple_choice
-    prompt: מה פירוש וועגן?
+    prompt: מה פירוש קען?
     options:
-    - על / אודות
-    - על
-    - כך
+    - יכול
+    - הלך
+    - ראה
     correct: 0
     lexemes:
-    - p14-vegn
+    - p14-ken
   - id: p14-l2-16
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: מעל / מעבר?'
+    prompt: 'איזו מילה מתאימה ל: יהיה (עתיד)?'
     options:
-    - איבער
-    - דורך
-    - אויף
+    - וועט
+    - רעדט
+    - זאָגט
     correct: 0
     lexemes:
-    - p14-iber
+    - p14-vet
   - id: p14-l2-17
     type: multiple_choice
-    prompt: מה פירוש ביז?
+    prompt: מה פירוש געווען?
     options:
-    - עד
-    - בגלל
-    - עכשיו
+    - היה
+    - הם / אנחנו (הווה של להיות)
+    - מדבר
     correct: 0
     lexemes:
-    - p14-biz
+    - p14-geven
   - id: p14-l2-18
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: לבד?'
+    prompt: 'איזו מילה מתאימה ל: נהיה?'
     options:
-    - אַליין
-    - דעמולט
-    - זיי
+    - געוואָרן
+    - קומט
+    - רעדט
     correct: 0
     lexemes:
-    - p14-aleyn
+    - p14-gevoren
   - id: p14-l2-19
     type: multiple_choice
-    prompt: מה פירוש גאָר?
+    prompt: מה פירוש געטאָן?
     options:
-    - ממש
-    - 'מותר (בשלילה: אסור)'
-    - אותו / לו
+    - עשה
+    - ראה
+    - מביא
     correct: 0
     lexemes:
-    - p14-gor
+    - p14-geton
   - id: p14-l2-20
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: אכן?'
+    prompt: 'איזו מילה מתאימה ל: מצא?'
     options:
-    - טאַקע
-    - אַזוי
-    - נאָר
+    - געפֿונען
+    - געבעטן
+    - זעט
     correct: 0
     lexemes:
-    - p14-takeh
+    - p14-gefunen
   - id: p14-l2-21
     type: multiple_choice
-    prompt: מה פירוש כאָטש?
+    prompt: מה פירוש געקומען?
     options:
-    - אף על פי ש־
-    - עכשיו
-    - אז
+    - בא (עבר)
+    - ביקש
+    - הוביל
     correct: 0
     lexemes:
-    - p14-khotsh
+    - p14-gekumen
   - id: p14-l2-22
-    type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: מכיוון ש־?'
+    type: fill_blank
+    sentence: ער ___ אַ בוך.
+    translation: הוא מוצא ספר
+    answers:
+    - געפֿינט
     options:
-    - וויבאַלד
-    - יעדער
-    - צוליב
-    correct: 0
+    - געפֿינט
+    - ברענגט
+    - האָט
     lexemes:
-    - p14-vaybald
+    - p14-gefint
   - id: p14-l2-23
     type: fill_blank
-    sentence: דאָס בלײַבט ___ מיר און דיר.
-    translation: זה נשאר בינינו
+    sentence: ער ___ גיין.
+    translation: הוא צריך ללכת
     answers:
-    - צווישן
+    - דאַרף
     options:
-    - צווישן
-    - ביי
-    - אויף
+    - דאַרף
+    - זאָגט
+    - געפֿירט
     lexemes:
-    - p14-tsvishn
+    - p14-dar
   - id: p14-l2-24
     type: fill_blank
-    sentence: דאָס איז ___ דיר.
-    translation: זה בשבילך
+    sentence: ער ___ גיין.
+    translation: הוא יכול ללכת
     answers:
-    - פֿאַר
+    - קען
     options:
-    - פֿאַר
-    - דורך
-    - אויף
+    - קען
+    - שטייט
+    - געגעבן
     lexemes:
-    - p14-far
+    - p14-ken
   - id: p14-l2-25
     type: fill_blank
-    sentence: מיר רעדן ___ דער תורה.
-    translation: אנחנו מדברים על התורה
+    sentence: ער ___ קומען.
+    translation: הוא יבוא
     answers:
-    - וועגן
+    - וועט
     options:
-    - וועגן
-    - אויף
-    - צוליב
+    - וועט
+    - געגעבן
+    - שטייט
     lexemes:
-    - p14-vegn
+    - p14-vet
   - id: p14-l2-26
     type: fill_blank
-    sentence: ער גייט ___ דער בריק.
-    translation: הוא הולך על הגשר
+    sentence: ער איז ___ אין שול.
+    translation: הוא היה בבית הכנסת
     answers:
-    - איבער
+    - געווען
     options:
-    - איבער
-    - צוליב
-    - דורך
+    - געווען
+    - קומט
+    - שטייט
     lexemes:
-    - p14-iber
+    - p14-geven
   - id: p14-l2-27
     type: fill_blank
-    sentence: איך בלײַב דאָ ___ מאָרגן.
-    translation: אני נשאר כאן עד מחר
+    sentence: עס איז קאַלט ___.
+    translation: נהיה קר
     answers:
-    - ביז
+    - געוואָרן
     options:
-    - ביז
-    - צו
-    - דורך
+    - געוואָרן
+    - שטייט
+    - געמאַכט
     lexemes:
-    - p14-biz
+    - p14-gevoren
   - id: p14-l2-28
     type: fill_blank
-    sentence: איך לערן ___.
-    translation: אני לומד לבד
+    sentence: ער האָט עס ___.
+    translation: הוא עשה את זה
     answers:
-    - אַליין
+    - געטאָן
     options:
-    - אַליין
-    - איצט
-    - זאָל
+    - געטאָן
+    - געפֿירט
+    - שטייט
     lexemes:
-    - p14-aleyn
+    - p14-geton
   - id: p14-l2-29
     type: fill_blank
-    sentence: דאָס איז ___ שיין.
-    translation: זה ממש יפה
+    sentence: איך האָב ___ אַ בוך.
+    translation: מצאתי ספר
     answers:
-    - גאָר
+    - געפֿונען
     options:
-    - גאָר
-    - דעמולט
-    - נאָר
+    - געפֿונען
+    - געפֿרעגט
+    - געמאַכט
     lexemes:
-    - p14-gor
+    - p14-gefunen
   - id: p14-l2-30
     type: fill_blank
-    sentence: ער איז ___ אין שול.
-    translation: הוא אכן בבית הכנסת
+    sentence: ער איז ___.
+    translation: הוא בא
     answers:
-    - טאַקע
+    - געקומען
     options:
-    - טאַקע
-    - נאָר
-    - זאָל
+    - געקומען
+    - קומט
+    - טוט
     lexemes:
-    - p14-takeh
-  - id: p14-l2-31
-    type: fill_blank
-    sentence: ___ איך בין מיד, גיי איך אין שול.
-    translation: אף על פי שאני עייף, אני הולך לבית הכנסת
-    answers:
-    - כאָטש
-    options:
-    - כאָטש
-    - אָדער
-    - צו
-    lexemes:
-    - p14-khotsh
-  - id: p14-l2-32
-    type: fill_blank
-    sentence: ___ איך בין מיד, שלאָף איך.
-    translation: מכיוון שאני עייף, אני ישן
-    answers:
-    - וויבאַלד
-    options:
-    - וויבאַלד
-    - מען
-    - אויף
-    lexemes:
-    - p14-vaybald
+    - p14-gekumen
 - id: p14-l3
   kind: new
   title:
@@ -823,317 +778,305 @@ lessons:
   exercises:
   - id: p14-l3-01
     type: learn
-    lexeme: p14-itst
+    lexeme: p14-gegebn
   - id: p14-l3-02
     type: learn
-    lexeme: p14-demolt
+    lexeme: p14-gemakht
   - id: p14-l3-03
     type: learn
-    lexeme: p14-frier
+    lexeme: p14-gebitn
   - id: p14-l3-04
     type: learn
-    lexeme: p14-derfar
+    lexeme: p14-gelaybt
   - id: p14-l3-05
     type: learn
-    lexeme: p14-tsulib
+    lexeme: p14-geblibn
   - id: p14-l3-06
     type: learn
-    lexeme: p14-yeder
+    lexeme: p14-gezen2
   - id: p14-l3-07
     type: learn
-    lexeme: p14-ale
+    lexeme: p14-gegeyn2
   - id: p14-l3-08
     type: learn
-    lexeme: p14-gants
+    lexeme: p14-gerufn
   - id: p14-l3-09
     type: learn
-    lexeme: p14-zol
+    lexeme: p14-gefregt
   - id: p14-l3-10
     type: learn
-    lexeme: p14-tor
+    lexeme: p14-gefirt
   - id: p14-l3-11
-    type: learn
-    lexeme: p14-vert2
+    type: dialogue
+    scene: עבר ופעלים
+    lines:
+    - speaker: zeyde
+      text: דער רבי האָט געגעבן אַ ברכה, געמאַכט אַ הוראה, געבעטן און געפֿרעגט.
+      translation: הרבי נתן ברכה, עשה הוראה, ביקש ושאל.
+    - speaker: menachem
+      text: און ער האָט געלעבט אין ברוקלין, געבליבן דאָרט און געזען אַ סך אידן.
+      translation: והוא חי בברוקלין, נשאר שם וראה הרבה יהודים.
+    - speaker: zeyde
+      text: און זיי זענען געגאַנגען צו אים. מען האָט אים גערופֿן אויף אַ ברכה.
+      translation: והם הלכו אליו. קראו לו לברכה.
+    - speaker: menachem
+      text: און ער האָט געפֿירט די אידן גוט.
+      translation: והוא הוביל את היהודים היטב.
   - id: p14-l3-12
     type: match_pairs
     pairs:
-    - - איצט
-      - עכשיו
-    - - דעמולט
-      - אז
-    - - פֿריִער
-      - קודם
-    - - דערפֿאַר
-      - לכן
-    - - צוליב
-      - בגלל
+    - - געגעבן
+      - נתן
+    - - געמאַכט
+      - עשה / יצר
+    - - געבעטן
+      - ביקש
+    - - געלעבט
+      - חי
+    - - געבליבן
+      - נשאר
     lexemes:
-    - p14-itst
-    - p14-demolt
-    - p14-frier
-    - p14-derfar
-    - p14-tsulib
+    - p14-gegebn
+    - p14-gemakht
+    - p14-gebitn
+    - p14-gelaybt
+    - p14-geblibn
   - id: p14-l3-13
     type: match_pairs
     pairs:
-    - - יעדער
-      - כל / כל אחד
-    - - אַלע
-      - כל / כולם
-    - - גאַנץ
-      - שלם / כל
-    - - זאָל
-      - שֶׁ־ (שיהיה)
-    - - טאָר
-      - 'מותר (בשלילה: אסור)'
-    - - ווערט
-      - נהיה
+    - - געזען
+      - ראה
+    - - געגאַנגען
+      - הלך
+    - - גערופֿן
+      - קרא
+    - - געפֿרעגט
+      - שאל
+    - - געפֿירט
+      - הוביל
     lexemes:
-    - p14-yeder
-    - p14-ale
-    - p14-gants
-    - p14-zol
-    - p14-tor
-    - p14-vert2
+    - p14-gezen2
+    - p14-gegeyn2
+    - p14-gerufn
+    - p14-gefregt
+    - p14-gefirt
   - id: p14-l3-14
     type: multiple_choice
-    prompt: מה פירוש איצט?
+    prompt: מה פירוש געגעבן?
     options:
-    - עכשיו
-    - אכן
-    - כך
+    - נתן
+    - נהיה
+    - עשה
     correct: 0
     lexemes:
-    - p14-itst
+    - p14-gegebn
   - id: p14-l3-15
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: אז?'
+    prompt: 'איזו מילה מתאימה ל: עשה / יצר?'
     options:
-    - דעמולט
-    - כאָטש
-    - זיי
+    - געמאַכט
+    - שטייט
+    - וועט
     correct: 0
     lexemes:
-    - p14-demolt
+    - p14-gemakht
   - id: p14-l3-16
     type: multiple_choice
-    prompt: מה פירוש פֿריִער?
+    prompt: מה פירוש געבעטן?
     options:
-    - קודם
-    - רק
-    - ממש
+    - ביקש
+    - הם / אנחנו (הווה של להיות)
+    - יהיה (עתיד)
     correct: 0
     lexemes:
-    - p14-frier
+    - p14-gebitn
   - id: p14-l3-17
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: לכן?'
+    prompt: 'איזו מילה מתאימה ל: חי?'
     options:
-    - דערפֿאַר
-    - מען
-    - כאָטש
+    - געלעבט
+    - שטייט
+    - רעדט
     correct: 0
     lexemes:
-    - p14-derfar
+    - p14-gelaybt
   - id: p14-l3-18
     type: multiple_choice
-    prompt: מה פירוש צוליב?
+    prompt: מה פירוש געבליבן?
     options:
-    - בגלל
-    - מעל / מעבר
-    - עד
+    - נשאר
+    - מוצא
+    - בא (עבר)
     correct: 0
     lexemes:
-    - p14-tsulib
+    - p14-geblibn
   - id: p14-l3-19
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: כל / כל אחד?'
+    prompt: 'איזו מילה מתאימה ל: ראה?'
     options:
-    - יעדער
-    - אַזוי
-    - נאָר
+    - געזען
+    - זיינען
+    - זעט
     correct: 0
     lexemes:
-    - p14-yeder
+    - p14-gezen2
   - id: p14-l3-20
     type: multiple_choice
-    prompt: מה פירוש אַלע?
+    prompt: מה פירוש געגאַנגען?
     options:
-    - כל / כולם
-    - ממש
-    - אומרים / לומדים (כללי)
+    - הלך
+    - בא
+    - יהיה (עתיד)
     correct: 0
     lexemes:
-    - p14-ale
+    - p14-gegeyn2
   - id: p14-l3-21
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: שלם / כל?'
+    prompt: 'איזו מילה מתאימה ל: קרא?'
     options:
-    - גאַנץ
-    - איבער
-    - אים
+    - גערופֿן
+    - געוואָרן
+    - דאַרף
     correct: 0
     lexemes:
-    - p14-gants
+    - p14-gerufn
   - id: p14-l3-22
     type: multiple_choice
-    prompt: מה פירוש זאָל?
+    prompt: מה פירוש געפֿרעגט?
     options:
-    - שֶׁ־ (שיהיה)
-    - כך
-    - רק
+    - שאל
+    - בא
+    - מוצא
     correct: 0
     lexemes:
-    - p14-zol
+    - p14-gefregt
   - id: p14-l3-23
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: מותר (בשלילה: אסור)?'
+    prompt: 'איזו מילה מתאימה ל: הוביל?'
     options:
-    - טאָר
-    - דורך
-    - וועגן
+    - געפֿירט
+    - קומט
+    - טוט
     correct: 0
     lexemes:
-    - p14-tor
+    - p14-gefirt
   - id: p14-l3-24
-    type: multiple_choice
-    prompt: מה פירוש ווערט?
+    type: fill_blank
+    sentence: ער האָט ___ צדקה.
+    translation: הוא נתן צדקה
+    answers:
+    - געגעבן
     options:
-    - נהיה
-    - בין
-    - אף על פי ש־
-    correct: 0
+    - געגעבן
+    - רעדט
+    - ברענגט
     lexemes:
-    - p14-vert2
+    - p14-gegebn
   - id: p14-l3-25
     type: fill_blank
-    sentence: ___ בין איך אין שול.
-    translation: עכשיו אני בבית הכנסת
+    sentence: ער האָט ___ אַ סוכה.
+    translation: הוא עשה סוכה
     answers:
-    - איצט
+    - געמאַכט
     options:
-    - איצט
-    - גאָר
-    - אַליין
+    - געמאַכט
+    - געטאָן
+    - געפֿינט
     lexemes:
-    - p14-itst
+    - p14-gemakht
   - id: p14-l3-26
     type: fill_blank
-    sentence: ___ האָב איך געלערנט.
-    translation: אז למדתי
+    sentence: איך האָב ___ אַ בוך.
+    translation: ביקשתי ספר
     answers:
-    - דעמולט
+    - געבעטן
     options:
-    - דעמולט
-    - אַליין
-    - גאָר
+    - געבעטן
+    - זיינען
+    - געקומען
     lexemes:
-    - p14-demolt
+    - p14-gebitn
   - id: p14-l3-27
     type: fill_blank
-    sentence: ___ האָב איך געגעסן.
-    translation: קודם אכלתי
+    sentence: ער האָט ___ אין ניו־יאָרק.
+    translation: הוא חי בניו יורק
     answers:
-    - פֿריִער
+    - געלעבט
     options:
-    - פֿריִער
-    - טאַקע
-    - נאָר
+    - געלעבט
+    - געווען
+    - שטייט
     lexemes:
-    - p14-frier
+    - p14-gelaybt
   - id: p14-l3-28
     type: fill_blank
-    sentence: איך בין מיד, ___ שלאָף איך.
-    translation: אני עייף, לכן אני ישן
+    sentence: ער איז ___ אין שטוב.
+    translation: הוא נשאר בבית
     answers:
-    - דערפֿאַר
+    - געבליבן
     options:
-    - דערפֿאַר
-    - אַזוי
-    - אַליין
+    - געבליבן
+    - דאַרף
+    - געפֿונען
     lexemes:
-    - p14-derfar
+    - p14-geblibn
   - id: p14-l3-29
     type: fill_blank
-    sentence: ___ דעם רעגן בלײַב איך אין שטוב.
-    translation: בגלל הגשם אני נשאר בבית
+    sentence: איך האָב ___ דעם רבי.
+    translation: ראיתי את הרבי
     answers:
-    - צוליב
+    - געזען
     options:
-    - צוליב
-    - דורך
-    - איבער
+    - געזען
+    - רעדט
+    - זאָגט
     lexemes:
-    - p14-tsulib
+    - p14-gezen2
   - id: p14-l3-30
     type: fill_blank
-    sentence: ___ איד לערנט.
-    translation: כל יהודי לומד
+    sentence: ער איז ___ אין שול.
+    translation: הוא הלך לבית הכנסת
     answers:
-    - יעדער
+    - געגאַנגען
     options:
-    - יעדער
-    - זיי
-    - אים
+    - געגאַנגען
+    - געקומען
+    - טוט
     lexemes:
-    - p14-yeder
+    - p14-gegeyn2
   - id: p14-l3-31
     type: fill_blank
-    sentence: ___ קינדער לערנען.
-    translation: כל הילדים לומדים
+    sentence: איך האָב ___ אַ גאַסט.
+    translation: קראתי לאורח
     answers:
-    - אַלע
+    - גערופֿן
     options:
-    - אַלע
-    - מען
-    - זיי
+    - גערופֿן
+    - וועט
+    - קומט
     lexemes:
-    - p14-ale
+    - p14-gerufn
   - id: p14-l3-32
     type: fill_blank
-    sentence: דער ___ טאָג איז שיין.
-    translation: כל היום יפה
+    sentence: ער האָט ___ אַ פֿראַגע.
+    translation: הוא שאל שאלה
     answers:
-    - גאַנץ
+    - געפֿרעגט
     options:
-    - גאַנץ
-    - פֿאַר
-    - וועגן
+    - געפֿרעגט
+    - געפֿונען
+    - זאָגט
     lexemes:
-    - p14-gants
+    - p14-gefregt
   - id: p14-l3-33
     type: fill_blank
-    sentence: ער ___ קומען.
-    translation: שיבוא
+    sentence: ער האָט ___ דעם שיעור.
+    translation: הוא העביר את השיעור
     answers:
-    - זאָל
+    - געפֿירט
     options:
-    - זאָל
-    - נאָר
-    - אַזוי
+    - געפֿירט
+    - זעט
+    - זיינען
     lexemes:
-    - p14-zol
-  - id: p14-l3-34
-    type: fill_blank
-    sentence: מען ___ ניט עסן דאָ.
-    translation: אסור לאכול כאן
-    answers:
-    - טאָר
-    options:
-    - טאָר
-    - דורך
-    - אַליין
-    lexemes:
-    - p14-tor
-  - id: p14-l3-35
-    type: fill_blank
-    sentence: עס ___ קאַלט.
-    translation: נהיה קר
-    answers:
-    - ווערט
-    options:
-    - ווערט
-    - אים
-    - אַליין
-    lexemes:
-    - p14-vert2
+    - p14-gefirt

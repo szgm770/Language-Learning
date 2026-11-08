@@ -1,182 +1,182 @@
 id: p3-words
-cefr: B1
-scene: home
+cefr: A2
+scene: family
 title:
-  he: 'הרחבת אוצר מילים 3: אוכל ושתייה'
-  en: 'Word builder 3: food and drink'
-story: מילים שימושיות נוספות, כל אחת במשפט קצר.
+  he: 'הרחבת אוצר מילים 3: לבוש ומשפחה'
+  en: 'Word builder 3: clothes and family'
+story: לפני הנסיעה מנחם בוחר בגדים, ובבית מתחילים לדבר על כל הקרובים שיפגוש.
 canDo:
-- להבין ולהשתמש במילים נפוצות נוספות
+- להבין ולהשתמש במילים נפוצות נוספות בשיחה
 - לזהות את המילים במשפטים
 vocabulary:
-- id: p3-fleysh
-  text: פֿלייש
-  translation: בשר
+- id: p3-hoyzn
+  text: הויזן
+  translation: מכנסיים
   pos: noun
   example:
-    text: איך וויל פֿלייש.
-    translation: אני רוצה בשר
-- id: p3-hindl
-  text: הינדל
-  translation: עוף
+    text: איך זע הויזן.
+    translation: אני רואה מכנסיים
+- id: p3-kleyd
+  text: קלייד
+  translation: שמלה
   pos: noun
   example:
-    text: איך זע אַ הינדל.
-    translation: אני רואה עוף
-- id: p3-tsibele
-  text: ציבעלע
-  translation: בצל
+    text: איך זע אַ קלייד.
+    translation: אני רואה שמלה
+- id: p3-mantl
+  text: מאַנטל
+  translation: מעיל
   pos: noun
   example:
-    text: איך זע אַ ציבעלע.
-    translation: אני רואה בצל
-- id: p3-kartofl
-  text: קאַרטאָפֿל
-  translation: תפוח אדמה
+    text: איך זע אַ מאַנטל.
+    translation: אני רואה מעיל
+- id: p3-zok
+  text: זאָק
+  translation: גרב
   pos: noun
   example:
-    text: איך זע אַ קאַרטאָפֿל.
-    translation: אני רואה תפוח אדמה
-- id: p3-meren
-  text: מערן
-  translation: גזר
+    text: איך זע אַ זאָק.
+    translation: אני רואה גרב
+- id: p3-gartl
+  text: גאַרטל
+  translation: חגורה
   pos: noun
   example:
-    text: איך זע אַ מערן.
-    translation: אני רואה גזר
-- id: p3-banane
-  text: באַנאַנע
-  translation: בננה
+    text: איך זע אַ גאַרטל.
+    translation: אני רואה חגורה
+- id: p3-haldztukh
+  text: האַלדזטוך
+  translation: צעיף
   pos: noun
   example:
-    text: איך זע אַ באַנאַנע.
-    translation: אני רואה בננה
-- id: p3-vaintroyb
-  text: ווײַנטרויב
-  translation: ענבים
+    text: איך זע אַ האַלדזטוך.
+    translation: אני רואה צעיף
+- id: p3-hentshkes
+  text: הענטשקעס
+  translation: כפפות
   pos: noun
   example:
-    text: איך וויל ווײַנטרויב.
-    translation: אני רוצה ענבים
-- id: p3-honik
-  text: האָניק
-  translation: דבש
+    text: איך זע הענטשקעס.
+    translation: אני רואה כפפות
+- id: p3-shirem
+  text: שירעם
+  translation: מטריה
   pos: noun
   example:
-    text: איך וויל האָניק.
-    translation: אני רוצה דבש
-- id: p3-kukhn
-  text: קוכן
-  translation: עוגה
+    text: איך זע אַ שירעם.
+    translation: אני רואה מטריה
+- id: p3-bril
+  text: בריל
+  translation: משקפיים
   pos: noun
   example:
-    text: איך זע אַ קוכן.
-    translation: אני רואה עוגה
-- id: p3-kave
-  text: קאַווע
-  translation: קפה
+    text: איך זע בריל.
+    translation: אני רואה משקפיים
+- id: p3-ring
+  text: רינג
+  translation: טבעת
   pos: noun
   example:
-    text: איך וויל קאַווע.
-    translation: אני רוצה קפה
-- id: p3-tey
-  text: טיי
-  translation: תה
+    text: איך זע אַ רינג.
+    translation: אני רואה טבעת
+- id: p3-vesh
+  text: וועש
+  translation: כביסה
   pos: noun
   example:
-    text: איך וויל טיי.
-    translation: אני רוצה תה
-- id: p3-tsuker
-  text: צוקער
-  translation: סוכר
+    text: איך וויל וועש.
+    translation: אני רוצה כביסה
+- id: p3-knop
+  text: קנאָפּ
+  translation: כפתור
   pos: noun
   example:
-    text: איך וויל צוקער.
-    translation: אני רוצה סוכר
-- id: p3-zalts
-  text: זאַלץ
-  translation: מלח
+    text: איך זע אַ קנאָפּ.
+    translation: אני רואה כפתור
+- id: p3-keshene
+  text: קעשענע
+  translation: כיס
   pos: noun
   example:
-    text: איך וויל זאַלץ.
-    translation: אני רוצה מלח
-- id: p3-peper
-  text: פּעפּער
-  translation: פלפל
+    text: איך זע אַ קעשענע.
+    translation: אני רואה כיס
+- id: p3-arbl
+  text: אַרבל
+  translation: שרוול
   pos: noun
   example:
-    text: איך וויל פּעפּער.
-    translation: אני רוצה פלפל
-- id: p3-shmalts
-  text: שמאַלץ
-  translation: שומן
+    text: איך זע אַן אַרבל.
+    translation: אני רואה שרוול
+- id: p3-shtof
+  text: שטאָף
+  translation: בד
   pos: noun
   example:
-    text: איך וויל שמאַלץ.
-    translation: אני רוצה שומן
-- id: p3-zaft
-  text: זאַפֿט
-  translation: מיץ
+    text: איך וויל שטאָף.
+    translation: אני רוצה בד
+- id: p3-vol
+  text: וואָל
+  translation: צמר
   pos: noun
   example:
-    text: איך וויל זאַפֿט.
-    translation: אני רוצה מיץ
-- id: p3-mel
-  text: מעל
-  translation: קמח
+    text: איך וויל וואָל.
+    translation: אני רוצה צמר
+- id: p3-feter
+  text: פֿעטער
+  translation: דוד
   pos: noun
   example:
-    text: איך וויל מעל.
-    translation: אני רוצה קמח
-- id: p3-knobl
-  text: קנאָבל
-  translation: שום
+    text: איך זע אַ פֿעטער.
+    translation: אני רואה דוד
+- id: p3-mume
+  text: מומע
+  translation: דודה
   pos: noun
   example:
-    text: איך וויל קנאָבל.
-    translation: אני רוצה שום
-- id: p3-retekh
-  text: רעטעך
-  translation: צנון
+    text: איך זע אַ מומע.
+    translation: אני רואה דודה
+- id: p3-eynikl
+  text: אײניקל
+  translation: נכד
   pos: noun
   example:
-    text: איך זע אַ רעטעך.
-    translation: אני רואה צנון
-- id: p3-kapuste
-  text: קאַפּוסט
-  translation: כרוב
+    text: איך זע אַן אײניקל.
+    translation: אני רואה נכד
+- id: p3-shvoger
+  text: שוואָגער
+  translation: גיס / גיסה
   pos: noun
   example:
-    text: איך וויל קאַפּוסט.
-    translation: אני רוצה כרוב
-- id: p3-pomidor
-  text: פּאָמידאָר
-  translation: עגבנייה
+    text: איך זע אַ שוואָגער.
+    translation: אני רואה גיס / גיסה
+- id: p3-shver
+  text: שוער
+  translation: חותן
   pos: noun
   example:
-    text: איך זע אַ פּאָמידאָר.
-    translation: אני רואה עגבנייה
-- id: p3-ey
-  text: איי
-  translation: ביצה
+    text: איך זע אַ שוער.
+    translation: אני רואה חותן
+- id: p3-shviger
+  text: שוויגער
+  translation: חמות
   pos: noun
   example:
-    text: איך זע אַן איי.
-    translation: אני רואה ביצה
-- id: p3-shokolad
-  text: שאָקאָלאַד
-  translation: שוקולד
+    text: איך זע אַ שוויגער.
+    translation: אני רואה חמות
+- id: p3-mekhutn
+  text: מחותן
+  translation: אבי החתן / הכלה
   pos: noun
   example:
-    text: איך וויל שאָקאָלאַד.
-    translation: אני רוצה שוקולד
-- id: p3-salat
-  text: סאַלאַט
-  translation: סלט
+    text: איך זע אַ מחותן.
+    translation: אני רואה אבי החתן / הכלה
+- id: p3-korev
+  text: קרוב
+  translation: קרוב משפחה
   pos: noun
   example:
-    text: איך וויל סאַלאַט.
-    translation: אני רוצה סלט
+    text: איך זע אַ קרוב.
+    translation: אני רואה קרוב משפחה
 lessons:
 - id: p3-l1
   kind: new
@@ -186,236 +186,252 @@ lessons:
   exercises:
   - id: p3-l1-01
     type: learn
-    lexeme: p3-fleysh
+    lexeme: p3-hoyzn
   - id: p3-l1-02
     type: learn
-    lexeme: p3-hindl
+    lexeme: p3-kleyd
   - id: p3-l1-03
     type: learn
-    lexeme: p3-tsibele
+    lexeme: p3-mantl
   - id: p3-l1-04
     type: learn
-    lexeme: p3-kartofl
+    lexeme: p3-zok
   - id: p3-l1-05
     type: learn
-    lexeme: p3-meren
+    lexeme: p3-gartl
   - id: p3-l1-06
     type: learn
-    lexeme: p3-banane
+    lexeme: p3-haldztukh
   - id: p3-l1-07
     type: learn
-    lexeme: p3-vaintroyb
+    lexeme: p3-hentshkes
   - id: p3-l1-08
     type: learn
-    lexeme: p3-honik
+    lexeme: p3-shirem
   - id: p3-l1-09
-    type: match_pairs
-    pairs:
-    - - פֿלייש
-      - בשר
-    - - הינדל
-      - עוף
-    - - ציבעלע
-      - בצל
-    - - קאַרטאָפֿל
-      - תפוח אדמה
-    lexemes:
-    - p3-fleysh
-    - p3-hindl
-    - p3-tsibele
-    - p3-kartofl
+    type: dialogue
+    scene: הסבתא עוזרת למנחם להתלבש
+    lines:
+    - speaker: bobe
+      text: מנחם, נעם דעם מאַנטל, עס איז קאַלט.
+      translation: מנחם, קח את המעיל, קר.
+    - speaker: menachem
+      text: און די הויזן? איך האָב ניט קיין זאָק.
+      translation: ומכנסיים? אין לי גרב.
+    - speaker: bobe
+      text: דאָ זענען די זאָקן, דער גאַרטל און דער האַלדזטוך.
+      translation: הנה הגרביים, החגורה והצעיף.
+    - speaker: menachem
+      text: און הענטשקעס און אַ שירעם, פֿאַר אַלע פֿאַלן.
+      translation: וכפפות ומטרייה, ליתר ביטחון.
   - id: p3-l1-10
     type: match_pairs
     pairs:
-    - - מערן
-      - גזר
-    - - באַנאַנע
-      - בננה
-    - - ווײַנטרויב
-      - ענבים
-    - - האָניק
-      - דבש
+    - - הויזן
+      - מכנסיים
+    - - קלייד
+      - שמלה
+    - - מאַנטל
+      - מעיל
+    - - זאָק
+      - גרב
     lexemes:
-    - p3-meren
-    - p3-banane
-    - p3-vaintroyb
-    - p3-honik
+    - p3-hoyzn
+    - p3-kleyd
+    - p3-mantl
+    - p3-zok
   - id: p3-l1-11
-    type: multiple_choice
-    prompt: מה פירוש פֿלייש?
-    options:
-    - בשר
-    - פלפל
-    - עוגה
-    correct: 0
+    type: match_pairs
+    pairs:
+    - - גאַרטל
+      - חגורה
+    - - האַלדזטוך
+      - צעיף
+    - - הענטשקעס
+      - כפפות
+    - - שירעם
+      - מטריה
     lexemes:
-    - p3-fleysh
+    - p3-gartl
+    - p3-haldztukh
+    - p3-hentshkes
+    - p3-shirem
   - id: p3-l1-12
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: עוף?'
+    prompt: מה פירוש הויזן?
     options:
-    - הינדל
-    - זאַלץ
-    - פּאָמידאָר
+    - מכנסיים
+    - צמר
+    - דודה
     correct: 0
     lexemes:
-    - p3-hindl
+    - p3-hoyzn
   - id: p3-l1-13
     type: multiple_choice
-    prompt: מה פירוש ציבעלע?
+    prompt: 'איזו מילה מתאימה ל: שמלה?'
     options:
-    - בצל
-    - מלח
-    - ביצה
+    - קלייד
+    - וואָל
+    - פֿעטער
     correct: 0
     lexemes:
-    - p3-tsibele
+    - p3-kleyd
   - id: p3-l1-14
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: תפוח אדמה?'
+    prompt: מה פירוש מאַנטל?
     options:
-    - קאַרטאָפֿל
-    - קאַפּוסט
-    - שמאַלץ
+    - מעיל
+    - חמות
+    - שרוול
     correct: 0
     lexemes:
-    - p3-kartofl
+    - p3-mantl
   - id: p3-l1-15
     type: multiple_choice
-    prompt: מה פירוש מערן?
+    prompt: 'איזו מילה מתאימה ל: גרב?'
     options:
-    - גזר
-    - צנון
-    - מלח
+    - זאָק
+    - פֿעטער
+    - וואָל
     correct: 0
     lexemes:
-    - p3-meren
+    - p3-zok
   - id: p3-l1-16
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: בננה?'
+    prompt: מה פירוש גאַרטל?
     options:
-    - באַנאַנע
-    - זאַלץ
-    - קאַפּוסט
+    - חגורה
+    - נכד
+    - דוד
     correct: 0
     lexemes:
-    - p3-banane
+    - p3-gartl
   - id: p3-l1-17
     type: multiple_choice
-    prompt: מה פירוש ווײַנטרויב?
+    prompt: 'איזו מילה מתאימה ל: צעיף?'
     options:
-    - ענבים
-    - תה
-    - פלפל
+    - האַלדזטוך
+    - קנאָפּ
+    - בריל
     correct: 0
     lexemes:
-    - p3-vaintroyb
+    - p3-haldztukh
   - id: p3-l1-18
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: דבש?'
+    prompt: מה פירוש הענטשקעס?
     options:
-    - האָניק
-    - פּעפּער
-    - מעל
+    - כפפות
+    - צמר
+    - דוד
     correct: 0
     lexemes:
-    - p3-honik
+    - p3-hentshkes
   - id: p3-l1-19
-    type: fill_blank
-    sentence: איך וויל ___.
-    translation: אני רוצה בשר
-    answers:
-    - פֿלייש
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: מטריה?'
     options:
-    - פֿלייש
-    - פּעפּער
-    - צוקער
+    - שירעם
+    - רינג
+    - מחותן
+    correct: 0
     lexemes:
-    - p3-fleysh
+    - p3-shirem
   - id: p3-l1-20
     type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה עוף
+    sentence: איך זע ___.
+    translation: אני רואה מכנסיים
     answers:
-    - הינדל
+    - הויזן
     options:
-    - הינדל
-    - פּאָמידאָר
-    - רעטעך
+    - הויזן
+    - וועש
+    - אַרבל
     lexemes:
-    - p3-hindl
+    - p3-hoyzn
   - id: p3-l1-21
     type: fill_blank
     sentence: איך זע אַ ___.
-    translation: אני רואה בצל
+    translation: אני רואה שמלה
     answers:
-    - ציבעלע
+    - קלייד
     options:
-    - ציבעלע
-    - רעטעך
-    - קוכן
+    - קלייד
+    - פֿעטער
+    - רינג
     lexemes:
-    - p3-tsibele
+    - p3-kleyd
   - id: p3-l1-22
     type: fill_blank
     sentence: איך זע אַ ___.
-    translation: אני רואה תפוח אדמה
+    translation: אני רואה מעיל
     answers:
-    - קאַרטאָפֿל
+    - מאַנטל
     options:
-    - קאַרטאָפֿל
-    - קוכן
-    - רעטעך
+    - מאַנטל
+    - מומע
+    - מחותן
     lexemes:
-    - p3-kartofl
+    - p3-mantl
   - id: p3-l1-23
     type: fill_blank
     sentence: איך זע אַ ___.
-    translation: אני רואה גזר
+    translation: אני רואה גרב
     answers:
-    - מערן
+    - זאָק
     options:
-    - מערן
-    - קוכן
-    - רעטעך
+    - זאָק
+    - פֿעטער
+    - שוויגער
     lexemes:
-    - p3-meren
+    - p3-zok
   - id: p3-l1-24
     type: fill_blank
     sentence: איך זע אַ ___.
-    translation: אני רואה בננה
+    translation: אני רואה חגורה
     answers:
-    - באַנאַנע
+    - גאַרטל
     options:
-    - באַנאַנע
-    - רעטעך
-    - קוכן
+    - גאַרטל
+    - רינג
+    - שוער
     lexemes:
-    - p3-banane
+    - p3-gartl
   - id: p3-l1-25
     type: fill_blank
-    sentence: איך וויל ___.
-    translation: אני רוצה ענבים
+    sentence: איך זע אַ ___.
+    translation: אני רואה צעיף
     answers:
-    - ווײַנטרויב
+    - האַלדזטוך
     options:
-    - ווײַנטרויב
-    - קאַפּוסט
-    - פּעפּער
+    - האַלדזטוך
+    - מומע
+    - רינג
     lexemes:
-    - p3-vaintroyb
+    - p3-haldztukh
   - id: p3-l1-26
     type: fill_blank
-    sentence: איך וויל ___.
-    translation: אני רוצה דבש
+    sentence: איך זע ___.
+    translation: אני רואה כפפות
     answers:
-    - האָניק
+    - הענטשקעס
     options:
-    - האָניק
-    - קאַווע
-    - טיי
+    - הענטשקעס
+    - רינג
+    - מחותן
     lexemes:
-    - p3-honik
+    - p3-hentshkes
+  - id: p3-l1-27
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה מטריה
+    answers:
+    - שירעם
+    options:
+    - שירעם
+    - שוואָגער
+    - שוער
+    lexemes:
+    - p3-shirem
 - id: p3-l2
   kind: new
   title:
@@ -424,236 +440,252 @@ lessons:
   exercises:
   - id: p3-l2-01
     type: learn
-    lexeme: p3-kukhn
+    lexeme: p3-bril
   - id: p3-l2-02
     type: learn
-    lexeme: p3-kave
+    lexeme: p3-ring
   - id: p3-l2-03
     type: learn
-    lexeme: p3-tey
+    lexeme: p3-vesh
   - id: p3-l2-04
     type: learn
-    lexeme: p3-tsuker
+    lexeme: p3-knop
   - id: p3-l2-05
     type: learn
-    lexeme: p3-zalts
+    lexeme: p3-keshene
   - id: p3-l2-06
     type: learn
-    lexeme: p3-peper
+    lexeme: p3-arbl
   - id: p3-l2-07
     type: learn
-    lexeme: p3-shmalts
+    lexeme: p3-shtof
   - id: p3-l2-08
     type: learn
-    lexeme: p3-zaft
+    lexeme: p3-vol
   - id: p3-l2-09
-    type: match_pairs
-    pairs:
-    - - קוכן
-      - עוגה
-    - - קאַווע
-      - קפה
-    - - טיי
-      - תה
-    - - צוקער
-      - סוכר
-    lexemes:
-    - p3-kukhn
-    - p3-kave
-    - p3-tey
-    - p3-tsuker
+    type: dialogue
+    scene: עוד פרטי לבוש
+    lines:
+    - speaker: menachem
+      text: באָבע, דער קנאָפּ פֿון מײַן קלייד איז אָפּגעפֿאַלן.
+      translation: סבתא, הכפתור של הבגד נפל.
+    - speaker: bobe
+      text: גיב מיר דעם אַרבל. איך וועל אים אָנניען.
+      translation: תן לי את השרוול. אתפור אותו.
+    - speaker: menachem
+      text: אין דער קעשענע איז דאָס בריל און דער רינג פֿון זיידן.
+      translation: בכיס יש משקפיים והטבעת של סבא.
+    - speaker: bobe
+      text: דער שטאָף איז פֿון וואָל. די וועש איז שוין אין קאָרב.
+      translation: הבד מצמר. הכביסה כבר בסל.
   - id: p3-l2-10
     type: match_pairs
     pairs:
-    - - זאַלץ
-      - מלח
-    - - פּעפּער
-      - פלפל
-    - - שמאַלץ
-      - שומן
-    - - זאַפֿט
-      - מיץ
+    - - בריל
+      - משקפיים
+    - - רינג
+      - טבעת
+    - - וועש
+      - כביסה
+    - - קנאָפּ
+      - כפתור
     lexemes:
-    - p3-zalts
-    - p3-peper
-    - p3-shmalts
-    - p3-zaft
+    - p3-bril
+    - p3-ring
+    - p3-vesh
+    - p3-knop
   - id: p3-l2-11
-    type: multiple_choice
-    prompt: מה פירוש קוכן?
-    options:
-    - עוגה
-    - ביצה
-    - בצל
-    correct: 0
+    type: match_pairs
+    pairs:
+    - - קעשענע
+      - כיס
+    - - אַרבל
+      - שרוול
+    - - שטאָף
+      - בד
+    - - וואָל
+      - צמר
     lexemes:
-    - p3-kukhn
+    - p3-keshene
+    - p3-arbl
+    - p3-shtof
+    - p3-vol
   - id: p3-l2-12
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: קפה?'
+    prompt: מה פירוש בריל?
     options:
-    - קאַווע
-    - קנאָבל
-    - רעטעך
+    - משקפיים
+    - נכד
+    - חגורה
     correct: 0
     lexemes:
-    - p3-kave
+    - p3-bril
   - id: p3-l2-13
     type: multiple_choice
-    prompt: מה פירוש טיי?
+    prompt: 'איזו מילה מתאימה ל: טבעת?'
     options:
-    - תה
-    - דבש
-    - שום
+    - רינג
+    - אײניקל
+    - פֿעטער
     correct: 0
     lexemes:
-    - p3-tey
+    - p3-ring
   - id: p3-l2-14
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: סוכר?'
+    prompt: מה פירוש וועש?
     options:
-    - צוקער
-    - פֿלייש
-    - שאָקאָלאַד
+    - כביסה
+    - חותן
+    - צעיף
     correct: 0
     lexemes:
-    - p3-tsuker
+    - p3-vesh
   - id: p3-l2-15
     type: multiple_choice
-    prompt: מה פירוש זאַלץ?
+    prompt: 'איזו מילה מתאימה ל: כפתור?'
     options:
-    - מלח
-    - תפוח אדמה
-    - שוקולד
+    - קנאָפּ
+    - הענטשקעס
+    - מחותן
     correct: 0
     lexemes:
-    - p3-zalts
+    - p3-knop
   - id: p3-l2-16
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: פלפל?'
+    prompt: מה פירוש קעשענע?
     options:
-    - פּעפּער
-    - הינדל
-    - באַנאַנע
+    - כיס
+    - גיס / גיסה
+    - חמות
     correct: 0
     lexemes:
-    - p3-peper
+    - p3-keshene
   - id: p3-l2-17
     type: multiple_choice
-    prompt: מה פירוש שמאַלץ?
+    prompt: 'איזו מילה מתאימה ל: שרוול?'
     options:
-    - שומן
-    - עוף
-    - כרוב
+    - אַרבל
+    - זאָק
+    - מחותן
     correct: 0
     lexemes:
-    - p3-shmalts
+    - p3-arbl
   - id: p3-l2-18
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: מיץ?'
+    prompt: מה פירוש שטאָף?
     options:
-    - זאַפֿט
-    - ווײַנטרויב
-    - מעל
+    - בד
+    - צעיף
+    - כפפות
     correct: 0
     lexemes:
-    - p3-zaft
+    - p3-shtof
   - id: p3-l2-19
-    type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה עוגה
-    answers:
-    - קוכן
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: צמר?'
     options:
-    - קוכן
-    - באַנאַנע
-    - הינדל
+    - וואָל
+    - מומע
+    - זאָק
+    correct: 0
     lexemes:
-    - p3-kukhn
+    - p3-vol
   - id: p3-l2-20
     type: fill_blank
-    sentence: איך וויל ___.
-    translation: אני רוצה קפה
+    sentence: איך זע ___.
+    translation: אני רואה משקפיים
     answers:
-    - קאַווע
+    - בריל
     options:
-    - קאַווע
-    - ווײַנטרויב
-    - סאַלאַט
+    - בריל
+    - הויזן
+    - הענטשקעס
     lexemes:
-    - p3-kave
+    - p3-bril
   - id: p3-l2-21
     type: fill_blank
-    sentence: איך וויל ___.
-    translation: אני רוצה תה
+    sentence: איך זע אַ ___.
+    translation: אני רואה טבעת
     answers:
-    - טיי
+    - רינג
     options:
-    - טיי
-    - האָניק
-    - ווײַנטרויב
+    - רינג
+    - מומע
+    - גאַרטל
     lexemes:
-    - p3-tey
+    - p3-ring
   - id: p3-l2-22
     type: fill_blank
     sentence: איך וויל ___.
-    translation: אני רוצה סוכר
+    translation: אני רוצה כביסה
     answers:
-    - צוקער
+    - וועש
     options:
-    - צוקער
-    - סאַלאַט
-    - האָניק
+    - וועש
+    - גאַרטל
+    - אײניקל
     lexemes:
-    - p3-tsuker
+    - p3-vesh
   - id: p3-l2-23
     type: fill_blank
-    sentence: איך וויל ___.
-    translation: אני רוצה מלח
+    sentence: איך זע אַ ___.
+    translation: אני רואה כפתור
     answers:
-    - זאַלץ
+    - קנאָפּ
     options:
-    - זאַלץ
-    - קאַפּוסט
-    - שאָקאָלאַד
+    - קנאָפּ
+    - האַלדזטוך
+    - מחותן
     lexemes:
-    - p3-zalts
+    - p3-knop
   - id: p3-l2-24
     type: fill_blank
-    sentence: איך וויל ___.
-    translation: אני רוצה פלפל
+    sentence: איך זע אַ ___.
+    translation: אני רואה כיס
     answers:
-    - פּעפּער
+    - קעשענע
     options:
-    - פּעפּער
-    - סאַלאַט
-    - פֿלייש
+    - קעשענע
+    - שוויגער
+    - מחותן
     lexemes:
-    - p3-peper
+    - p3-keshene
   - id: p3-l2-25
     type: fill_blank
-    sentence: איך וויל ___.
-    translation: אני רוצה שומן
+    sentence: איך זע אַן ___.
+    translation: אני רואה שרוול
     answers:
-    - שמאַלץ
+    - אַרבל
     options:
-    - שמאַלץ
-    - פֿלייש
-    - שאָקאָלאַד
+    - אַרבל
+    - מאַנטל
+    - קלייד
     lexemes:
-    - p3-shmalts
+    - p3-arbl
   - id: p3-l2-26
     type: fill_blank
     sentence: איך וויל ___.
-    translation: אני רוצה מיץ
+    translation: אני רוצה בד
     answers:
-    - זאַפֿט
+    - שטאָף
     options:
-    - זאַפֿט
-    - האָניק
-    - ווײַנטרויב
+    - שטאָף
+    - שוואָגער
+    - מאַנטל
     lexemes:
-    - p3-zaft
+    - p3-shtof
+  - id: p3-l2-27
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה צמר
+    answers:
+    - וואָל
+    options:
+    - וואָל
+    - קרוב
+    - אײניקל
+    lexemes:
+    - p3-vol
 - id: p3-l3
   kind: new
   title:
@@ -662,233 +694,249 @@ lessons:
   exercises:
   - id: p3-l3-01
     type: learn
-    lexeme: p3-mel
+    lexeme: p3-feter
   - id: p3-l3-02
     type: learn
-    lexeme: p3-knobl
+    lexeme: p3-mume
   - id: p3-l3-03
     type: learn
-    lexeme: p3-retekh
+    lexeme: p3-eynikl
   - id: p3-l3-04
     type: learn
-    lexeme: p3-kapuste
+    lexeme: p3-shvoger
   - id: p3-l3-05
     type: learn
-    lexeme: p3-pomidor
+    lexeme: p3-shver
   - id: p3-l3-06
     type: learn
-    lexeme: p3-ey
+    lexeme: p3-shviger
   - id: p3-l3-07
     type: learn
-    lexeme: p3-shokolad
+    lexeme: p3-mekhutn
   - id: p3-l3-08
     type: learn
-    lexeme: p3-salat
+    lexeme: p3-korev
   - id: p3-l3-09
-    type: match_pairs
-    pairs:
-    - - מעל
-      - קמח
-    - - קנאָבל
-      - שום
-    - - רעטעך
-      - צנון
-    - - קאַפּוסט
-      - כרוב
-    lexemes:
-    - p3-mel
-    - p3-knobl
-    - p3-retekh
-    - p3-kapuste
+    type: dialogue
+    scene: שיחה על המשפחה
+    lines:
+    - speaker: menachem
+      text: באָבע, ווער איז דער פֿעטער פֿון ניו־יאָרק?
+      translation: סבתא, מי הדוד מניו יורק?
+    - speaker: bobe
+      text: דער ברודער פֿון דײַן טאַטן. און די מומע איז זײַן שוועסטער.
+      translation: אחיו של אבא שלך. והדודה היא אחותו.
+    - speaker: menachem
+      text: און דער שוואָגער, דער שוער און די שוויגער?
+      translation: והגיס, החם והחמות?
+    - speaker: bobe
+      text: דער מחותן קומט אויך, און דער קרוב, און דער אײניקל פֿון דער משפּחה.
+      translation: המחותן יבוא גם, והקרוב, והנכד מהמשפחה.
   - id: p3-l3-10
     type: match_pairs
     pairs:
-    - - פּאָמידאָר
-      - עגבנייה
-    - - איי
-      - ביצה
-    - - שאָקאָלאַד
-      - שוקולד
-    - - סאַלאַט
-      - סלט
+    - - פֿעטער
+      - דוד
+    - - מומע
+      - דודה
+    - - אײניקל
+      - נכד
+    - - שוואָגער
+      - גיס / גיסה
     lexemes:
-    - p3-pomidor
-    - p3-ey
-    - p3-shokolad
-    - p3-salat
+    - p3-feter
+    - p3-mume
+    - p3-eynikl
+    - p3-shvoger
   - id: p3-l3-11
-    type: multiple_choice
-    prompt: מה פירוש מעל?
-    options:
-    - קמח
-    - בצל
-    - מלח
-    correct: 0
+    type: match_pairs
+    pairs:
+    - - שוער
+      - חותן
+    - - שוויגער
+      - חמות
+    - - מחותן
+      - אבי החתן / הכלה
+    - - קרוב
+      - קרוב משפחה
     lexemes:
-    - p3-mel
+    - p3-shver
+    - p3-shviger
+    - p3-mekhutn
+    - p3-korev
   - id: p3-l3-12
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: שום?'
+    prompt: מה פירוש פֿעטער?
     options:
-    - קנאָבל
-    - באַנאַנע
-    - קוכן
+    - דוד
+    - כיס
+    - צמר
     correct: 0
     lexemes:
-    - p3-knobl
+    - p3-feter
   - id: p3-l3-13
     type: multiple_choice
-    prompt: מה פירוש רעטעך?
+    prompt: 'איזו מילה מתאימה ל: דודה?'
     options:
-    - צנון
-    - קפה
-    - מיץ
+    - מומע
+    - קנאָפּ
+    - אַרבל
     correct: 0
     lexemes:
-    - p3-retekh
+    - p3-mume
   - id: p3-l3-14
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: כרוב?'
+    prompt: מה פירוש אײניקל?
     options:
-    - קאַפּוסט
-    - זאַלץ
-    - צוקער
+    - נכד
+    - חגורה
+    - צעיף
     correct: 0
     lexemes:
-    - p3-kapuste
+    - p3-eynikl
   - id: p3-l3-15
     type: multiple_choice
-    prompt: מה פירוש פּאָמידאָר?
+    prompt: 'איזו מילה מתאימה ל: גיס / גיסה?'
     options:
-    - עגבנייה
-    - דבש
-    - עוגה
+    - שוואָגער
+    - וואָל
+    - הויזן
     correct: 0
     lexemes:
-    - p3-pomidor
+    - p3-shvoger
   - id: p3-l3-16
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: ביצה?'
+    prompt: מה פירוש שוער?
     options:
-    - איי
-    - צוקער
-    - זאַפֿט
+    - חותן
+    - מטריה
+    - טבעת
     correct: 0
     lexemes:
-    - p3-ey
+    - p3-shver
   - id: p3-l3-17
     type: multiple_choice
-    prompt: מה פירוש שאָקאָלאַד?
+    prompt: 'איזו מילה מתאימה ל: חמות?'
     options:
-    - שוקולד
-    - בשר
-    - מיץ
+    - שוויגער
+    - וואָל
+    - בריל
     correct: 0
     lexemes:
-    - p3-shokolad
+    - p3-shviger
   - id: p3-l3-18
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: סלט?'
+    prompt: מה פירוש מחותן?
     options:
-    - סאַלאַט
-    - ציבעלע
-    - שמאַלץ
+    - אבי החתן / הכלה
+    - צעיף
+    - צמר
     correct: 0
     lexemes:
-    - p3-salat
+    - p3-mekhutn
   - id: p3-l3-19
-    type: fill_blank
-    sentence: איך וויל ___.
-    translation: אני רוצה קמח
-    answers:
-    - מעל
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: קרוב משפחה?'
     options:
-    - מעל
-    - זאַפֿט
-    - טיי
+    - קרוב
+    - הויזן
+    - האַלדזטוך
+    correct: 0
     lexemes:
-    - p3-mel
+    - p3-korev
   - id: p3-l3-20
     type: fill_blank
-    sentence: איך וויל ___.
-    translation: אני רוצה שום
+    sentence: איך זע אַ ___.
+    translation: אני רואה דוד
     answers:
-    - קנאָבל
+    - פֿעטער
     options:
-    - קנאָבל
-    - קאַווע
-    - פֿלייש
+    - פֿעטער
+    - האַלדזטוך
+    - קעשענע
     lexemes:
-    - p3-knobl
+    - p3-feter
   - id: p3-l3-21
     type: fill_blank
     sentence: איך זע אַ ___.
-    translation: אני רואה צנון
+    translation: אני רואה דודה
     answers:
-    - רעטעך
+    - מומע
     options:
-    - רעטעך
-    - הינדל
-    - ציבעלע
+    - מומע
+    - האַלדזטוך
+    - קעשענע
     lexemes:
-    - p3-retekh
+    - p3-mume
   - id: p3-l3-22
     type: fill_blank
-    sentence: איך וויל ___.
-    translation: אני רוצה כרוב
+    sentence: איך זע אַן ___.
+    translation: אני רואה נכד
     answers:
-    - קאַפּוסט
+    - אײניקל
     options:
-    - קאַפּוסט
-    - פּעפּער
-    - האָניק
+    - אײניקל
+    - בריל
+    - רינג
     lexemes:
-    - p3-kapuste
+    - p3-eynikl
   - id: p3-l3-23
     type: fill_blank
     sentence: איך זע אַ ___.
-    translation: אני רואה עגבנייה
+    translation: אני רואה גיס / גיסה
     answers:
-    - פּאָמידאָר
+    - שוואָגער
     options:
-    - פּאָמידאָר
-    - קאַרטאָפֿל
-    - קוכן
+    - שוואָגער
+    - קלייד
+    - מאַנטל
     lexemes:
-    - p3-pomidor
+    - p3-shvoger
   - id: p3-l3-24
     type: fill_blank
-    sentence: איך זע אַן ___.
-    translation: אני רואה ביצה
+    sentence: איך זע אַ ___.
+    translation: אני רואה חותן
     answers:
-    - איי
+    - שוער
     options:
-    - איי
-    - פֿלייש
-    - קוכן
+    - שוער
+    - קנאָפּ
+    - מאַנטל
     lexemes:
-    - p3-ey
+    - p3-shver
   - id: p3-l3-25
     type: fill_blank
-    sentence: איך וויל ___.
-    translation: אני רוצה שוקולד
+    sentence: איך זע אַ ___.
+    translation: אני רואה חמות
     answers:
-    - שאָקאָלאַד
+    - שוויגער
     options:
-    - שאָקאָלאַד
-    - האָניק
-    - טיי
+    - שוויגער
+    - גאַרטל
+    - רינג
     lexemes:
-    - p3-shokolad
+    - p3-shviger
   - id: p3-l3-26
     type: fill_blank
-    sentence: איך וויל ___.
-    translation: אני רוצה סלט
+    sentence: איך זע אַ ___.
+    translation: אני רואה אבי החתן / הכלה
     answers:
-    - סאַלאַט
+    - מחותן
     options:
-    - סאַלאַט
-    - שמאַלץ
-    - ווײַנטרויב
+    - מחותן
+    - מאַנטל
+    - גאַרטל
     lexemes:
-    - p3-salat
+    - p3-mekhutn
+  - id: p3-l3-27
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה קרוב משפחה
+    answers:
+    - קרוב
+    options:
+    - קרוב
+    - זאָק
+    - קנאָפּ
+    lexemes:
+    - p3-korev

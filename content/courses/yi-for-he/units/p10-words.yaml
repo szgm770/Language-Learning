@@ -1,182 +1,140 @@
 id: p10-words
-cefr: A2
-scene: family
+cefr: B2
+scene: town
 title:
-  he: 'הרחבת אוצר מילים 10: לבוש ומשפחה'
-  en: 'Word builder 10: clothes and family'
-story: מילים שימושיות נוספות, כל אחת במשפט קצר.
+  he: 'הרחבת אוצר מילים 10: אנשים ומקצועות'
+  en: 'Word builder 10: people and trades'
+story: לפני שבת הסבתא מזמינה אורח, ומנחם מכיר את אנשי הקהילה ובעלי המקצוע שנכנסים לבית.
 canDo:
-- להבין ולהשתמש במילים נפוצות נוספות
+- להבין ולהשתמש במילים נפוצות נוספות בשיחה
 - לזהות את המילים במשפטים
 vocabulary:
-- id: p10-hoyzn
-  text: הויזן
-  translation: מכנסיים
+- id: p10-mentsh
+  text: מענטש
+  translation: אדם
   pos: noun
   example:
-    text: איך זע הויזן.
-    translation: אני רואה מכנסיים
-- id: p10-kleyd
-  text: קלייד
-  translation: שמלה
+    text: איך זע אַ מענטש.
+    translation: אני רואה אדם
+- id: p10-man
+  text: מאַן
+  translation: גבר
   pos: noun
   example:
-    text: איך זע אַ קלייד.
-    translation: אני רואה שמלה
-- id: p10-mantl
-  text: מאַנטל
-  translation: מעיל
+    text: איך זע אַ מאַן.
+    translation: אני רואה גבר
+- id: p10-froy
+  text: פֿרוי
+  translation: אישה
   pos: noun
   example:
-    text: איך זע אַ מאַנטל.
-    translation: אני רואה מעיל
-- id: p10-zok
-  text: זאָק
-  translation: גרב
+    text: איך זע אַ פֿרוי.
+    translation: אני רואה אישה
+- id: p10-yingl
+  text: יינגל
+  translation: ילד
   pos: noun
   example:
-    text: איך זע אַ זאָק.
-    translation: אני רואה גרב
-- id: p10-gartl
-  text: גאַרטל
-  translation: חגורה
+    text: איך זע אַ יינגל.
+    translation: אני רואה ילד
+- id: p10-meydl
+  text: מיידל
+  translation: ילדה
   pos: noun
   example:
-    text: איך זע אַ גאַרטל.
-    translation: אני רואה חגורה
-- id: p10-haldztukh
-  text: האַלדזטוך
-  translation: צעיף
+    text: איך זע אַ מיידל.
+    translation: אני רואה ילדה
+- id: p10-shokhn
+  text: שכן
+  translation: שכן ליד הבית
   pos: noun
   example:
-    text: איך זע אַ האַלדזטוך.
-    translation: אני רואה צעיף
-- id: p10-hentshkes
-  text: הענטשקעס
-  translation: כפפות
+    text: איך זע אַ שכן.
+    translation: אני רואה שכן ליד הבית
+- id: p10-keynig
+  text: קעניג
+  translation: מלך
   pos: noun
   example:
-    text: איך זע הענטשקעס.
-    translation: אני רואה כפפות
-- id: p10-shirem
-  text: שירעם
-  translation: מטריה
+    text: איך זע אַ קעניג.
+    translation: אני רואה מלך
+- id: p10-rov
+  text: רב
+  translation: רב הקהילה
   pos: noun
   example:
-    text: איך זע אַ שירעם.
-    translation: אני רואה מטריה
-- id: p10-bril
-  text: בריל
-  translation: משקפיים
+    text: איך זע אַ רב.
+    translation: אני רואה רב הקהילה
+- id: p10-balebos
+  text: בעל־הבית
+  translation: בעל הבית
   pos: noun
   example:
-    text: איך זע בריל.
-    translation: אני רואה משקפיים
-- id: p10-ring
-  text: רינג
-  translation: טבעת
+    text: איך זע אַ בעל־הבית.
+    translation: אני רואה בעל הבית
+- id: p10-poyer
+  text: פּויער
+  translation: איכר
   pos: noun
   example:
-    text: איך זע אַ רינג.
-    translation: אני רואה טבעת
-- id: p10-vesh
-  text: וועש
-  translation: כביסה
+    text: איך זע אַ פּויער.
+    translation: אני רואה איכר
+- id: p10-melamed
+  text: מלמד
+  translation: מלמד תינוקות
   pos: noun
   example:
-    text: איך וויל וועש.
-    translation: אני רוצה כביסה
-- id: p10-knop
-  text: קנאָפּ
-  translation: כפתור
+    text: איך זע אַ מלמד.
+    translation: אני רואה מלמד תינוקות
+- id: p10-talmid
+  text: תלמיד
+  translation: תלמיד בכיתה
   pos: noun
   example:
-    text: איך זע אַ קנאָפּ.
-    translation: אני רואה כפתור
-- id: p10-keshene
-  text: קעשענע
-  translation: כיס
+    text: איך זע אַ תלמיד.
+    translation: אני רואה תלמיד בכיתה
+- id: p10-soykher
+  text: סוחר
+  translation: סוחר בשוק
   pos: noun
   example:
-    text: איך זע אַ קעשענע.
-    translation: אני רואה כיס
-- id: p10-arbl
-  text: אַרבל
-  translation: שרוול
+    text: איך זע אַ סוחר.
+    translation: אני רואה סוחר בשוק
+- id: p10-shnayder
+  text: שנײַדער
+  translation: חייט
   pos: noun
   example:
-    text: איך זע אַן אַרבל.
-    translation: אני רואה שרוול
-- id: p10-shtof
-  text: שטאָף
-  translation: בד
+    text: איך זע אַ שנײַדער.
+    translation: אני רואה חייט
+- id: p10-shuster
+  text: שוסטער
+  translation: סנדלר
   pos: noun
   example:
-    text: איך וויל שטאָף.
-    translation: אני רוצה בד
-- id: p10-vol
-  text: וואָל
-  translation: צמר
+    text: איך זע אַ שוסטער.
+    translation: אני רואה סנדלר
+- id: p10-beker
+  text: בעקער
+  translation: אופה
   pos: noun
   example:
-    text: איך וויל וואָל.
-    translation: אני רוצה צמר
-- id: p10-feter
-  text: פֿעטער
-  translation: דוד
+    text: איך זע אַ בעקער.
+    translation: אני רואה אופה
+- id: p10-khosn
+  text: חתן
+  translation: חתן (בחתונה)
   pos: noun
   example:
-    text: איך זע אַ פֿעטער.
-    translation: אני רואה דוד
-- id: p10-mume
-  text: מומע
-  translation: דודה
+    text: איך זע אַ חתן.
+    translation: אני רואה חתן (בחתונה)
+- id: p10-kale
+  text: כלה
+  translation: כלה (בחתונה)
   pos: noun
   example:
-    text: איך זע אַ מומע.
-    translation: אני רואה דודה
-- id: p10-eynikl
-  text: אײניקל
-  translation: נכד
-  pos: noun
-  example:
-    text: איך זע אַן אײניקל.
-    translation: אני רואה נכד
-- id: p10-shvoger
-  text: שוואָגער
-  translation: גיס / גיסה
-  pos: noun
-  example:
-    text: איך זע אַ שוואָגער.
-    translation: אני רואה גיס / גיסה
-- id: p10-shver
-  text: שוער
-  translation: חותן
-  pos: noun
-  example:
-    text: איך זע אַ שוער.
-    translation: אני רואה חותן
-- id: p10-shviger
-  text: שוויגער
-  translation: חמות
-  pos: noun
-  example:
-    text: איך זע אַ שוויגער.
-    translation: אני רואה חמות
-- id: p10-mekhutn
-  text: מחותן
-  translation: אבי החתן / הכלה
-  pos: noun
-  example:
-    text: איך זע אַ מחותן.
-    translation: אני רואה אבי החתן / הכלה
-- id: p10-korev
-  text: קרוב
-  translation: קרוב משפחה
-  pos: noun
-  example:
-    text: איך זע אַ קרוב.
-    translation: אני רואה קרוב משפחה
+    text: איך זע אַ כלה.
+    translation: אני רואה כלה (בחתונה)
 lessons:
 - id: p10-l1
   kind: new
@@ -186,236 +144,196 @@ lessons:
   exercises:
   - id: p10-l1-01
     type: learn
-    lexeme: p10-hoyzn
+    lexeme: p10-mentsh
   - id: p10-l1-02
     type: learn
-    lexeme: p10-kleyd
+    lexeme: p10-man
   - id: p10-l1-03
     type: learn
-    lexeme: p10-mantl
+    lexeme: p10-froy
   - id: p10-l1-04
     type: learn
-    lexeme: p10-zok
+    lexeme: p10-yingl
   - id: p10-l1-05
     type: learn
-    lexeme: p10-gartl
+    lexeme: p10-meydl
   - id: p10-l1-06
     type: learn
-    lexeme: p10-haldztukh
+    lexeme: p10-shokhn
   - id: p10-l1-07
-    type: learn
-    lexeme: p10-hentshkes
+    type: dialogue
+    scene: מי בא לשבת
+    lines:
+    - speaker: bobe
+      text: מנחם, אַ מענטש קומט צו אונדז אויף שבת.
+      translation: מנחם, אדם בא אלינו לשבת.
+    - speaker: menachem
+      text: אַ מאַן אָדער אַ פֿרוי, באָבע?
+      translation: גבר או אישה, סבתא?
+    - speaker: bobe
+      text: אַ מאַן מיט אַ יינגל און אַ מיידל. און דער שכן קומט אויך.
+      translation: גבר עם בן ובת. והשכן בא גם.
+    - speaker: menachem
+      text: גוט. איך וועל זיי העלפֿן.
+      translation: טוב. אעזור להם.
   - id: p10-l1-08
-    type: learn
-    lexeme: p10-shirem
+    type: match_pairs
+    pairs:
+    - - מענטש
+      - אדם
+    - - מאַן
+      - גבר
+    - - פֿרוי
+      - אישה
+    lexemes:
+    - p10-mentsh
+    - p10-man
+    - p10-froy
   - id: p10-l1-09
     type: match_pairs
     pairs:
-    - - הויזן
-      - מכנסיים
-    - - קלייד
-      - שמלה
-    - - מאַנטל
-      - מעיל
-    - - זאָק
-      - גרב
+    - - יינגל
+      - ילד
+    - - מיידל
+      - ילדה
+    - - שכן
+      - שכן ליד הבית
     lexemes:
-    - p10-hoyzn
-    - p10-kleyd
-    - p10-mantl
-    - p10-zok
+    - p10-yingl
+    - p10-meydl
+    - p10-shokhn
   - id: p10-l1-10
-    type: match_pairs
-    pairs:
-    - - גאַרטל
-      - חגורה
-    - - האַלדזטוך
-      - צעיף
-    - - הענטשקעס
-      - כפפות
-    - - שירעם
-      - מטריה
+    type: multiple_choice
+    prompt: מה פירוש מענטש?
+    options:
+    - אדם
+    - תלמיד בכיתה
+    - כלה (בחתונה)
+    correct: 0
     lexemes:
-    - p10-gartl
-    - p10-haldztukh
-    - p10-hentshkes
-    - p10-shirem
+    - p10-mentsh
   - id: p10-l1-11
     type: multiple_choice
-    prompt: מה פירוש הויזן?
+    prompt: 'איזו מילה מתאימה ל: גבר?'
     options:
-    - מכנסיים
-    - צמר
-    - דודה
+    - מאַן
+    - חתן
+    - כלה
     correct: 0
     lexemes:
-    - p10-hoyzn
+    - p10-man
   - id: p10-l1-12
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: שמלה?'
+    prompt: מה פירוש פֿרוי?
     options:
-    - קלייד
-    - וואָל
-    - פֿעטער
+    - אישה
+    - סנדלר
+    - תלמיד בכיתה
     correct: 0
     lexemes:
-    - p10-kleyd
+    - p10-froy
   - id: p10-l1-13
     type: multiple_choice
-    prompt: מה פירוש מאַנטל?
+    prompt: 'איזו מילה מתאימה ל: ילד?'
     options:
-    - מעיל
-    - חמות
-    - שרוול
+    - יינגל
+    - רב
+    - שנײַדער
     correct: 0
     lexemes:
-    - p10-mantl
+    - p10-yingl
   - id: p10-l1-14
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: גרב?'
+    prompt: מה פירוש מיידל?
     options:
-    - זאָק
-    - פֿעטער
-    - וואָל
+    - ילדה
+    - מלך
+    - כלה (בחתונה)
     correct: 0
     lexemes:
-    - p10-zok
+    - p10-meydl
   - id: p10-l1-15
     type: multiple_choice
-    prompt: מה פירוש גאַרטל?
+    prompt: 'איזו מילה מתאימה ל: שכן ליד הבית?'
     options:
-    - חגורה
-    - נכד
-    - דוד
+    - שכן
+    - מלמד
+    - בעל־הבית
     correct: 0
     lexemes:
-    - p10-gartl
+    - p10-shokhn
   - id: p10-l1-16
-    type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: צעיף?'
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה אדם
+    answers:
+    - מענטש
     options:
-    - האַלדזטוך
-    - קנאָפּ
-    - בריל
-    correct: 0
+    - מענטש
+    - בעל־הבית
+    - קעניג
     lexemes:
-    - p10-haldztukh
+    - p10-mentsh
   - id: p10-l1-17
-    type: multiple_choice
-    prompt: מה פירוש הענטשקעס?
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה גבר
+    answers:
+    - מאַן
     options:
-    - כפפות
-    - צמר
-    - דוד
-    correct: 0
+    - מאַן
+    - כלה
+    - בעל־הבית
     lexemes:
-    - p10-hentshkes
+    - p10-man
   - id: p10-l1-18
-    type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: מטריה?'
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה אישה
+    answers:
+    - פֿרוי
     options:
-    - שירעם
-    - רינג
-    - מחותן
-    correct: 0
+    - פֿרוי
+    - קעניג
+    - תלמיד
     lexemes:
-    - p10-shirem
+    - p10-froy
   - id: p10-l1-19
     type: fill_blank
-    sentence: איך זע ___.
-    translation: אני רואה מכנסיים
+    sentence: איך זע אַ ___.
+    translation: אני רואה ילד
     answers:
-    - הויזן
+    - יינגל
     options:
-    - הויזן
-    - וועש
-    - אַרבל
+    - יינגל
+    - רב
+    - בעקער
     lexemes:
-    - p10-hoyzn
+    - p10-yingl
   - id: p10-l1-20
     type: fill_blank
     sentence: איך זע אַ ___.
-    translation: אני רואה שמלה
+    translation: אני רואה ילדה
     answers:
-    - קלייד
+    - מיידל
     options:
-    - קלייד
-    - פֿעטער
-    - רינג
+    - מיידל
+    - מלמד
+    - רב
     lexemes:
-    - p10-kleyd
+    - p10-meydl
   - id: p10-l1-21
     type: fill_blank
     sentence: איך זע אַ ___.
-    translation: אני רואה מעיל
+    translation: אני רואה שכן ליד הבית
     answers:
-    - מאַנטל
+    - שכן
     options:
-    - מאַנטל
-    - מומע
-    - מחותן
+    - שכן
+    - מלמד
+    - תלמיד
     lexemes:
-    - p10-mantl
-  - id: p10-l1-22
-    type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה גרב
-    answers:
-    - זאָק
-    options:
-    - זאָק
-    - פֿעטער
-    - שוויגער
-    lexemes:
-    - p10-zok
-  - id: p10-l1-23
-    type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה חגורה
-    answers:
-    - גאַרטל
-    options:
-    - גאַרטל
-    - רינג
-    - שוער
-    lexemes:
-    - p10-gartl
-  - id: p10-l1-24
-    type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה צעיף
-    answers:
-    - האַלדזטוך
-    options:
-    - האַלדזטוך
-    - מומע
-    - רינג
-    lexemes:
-    - p10-haldztukh
-  - id: p10-l1-25
-    type: fill_blank
-    sentence: איך זע ___.
-    translation: אני רואה כפפות
-    answers:
-    - הענטשקעס
-    options:
-    - הענטשקעס
-    - רינג
-    - מחותן
-    lexemes:
-    - p10-hentshkes
-  - id: p10-l1-26
-    type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה מטריה
-    answers:
-    - שירעם
-    options:
-    - שירעם
-    - שוואָגער
-    - שוער
-    lexemes:
-    - p10-shirem
+    - p10-shokhn
 - id: p10-l2
   kind: new
   title:
@@ -424,236 +342,196 @@ lessons:
   exercises:
   - id: p10-l2-01
     type: learn
-    lexeme: p10-bril
+    lexeme: p10-keynig
   - id: p10-l2-02
     type: learn
-    lexeme: p10-ring
+    lexeme: p10-rov
   - id: p10-l2-03
     type: learn
-    lexeme: p10-vesh
+    lexeme: p10-balebos
   - id: p10-l2-04
     type: learn
-    lexeme: p10-knop
+    lexeme: p10-poyer
   - id: p10-l2-05
     type: learn
-    lexeme: p10-keshene
+    lexeme: p10-melamed
   - id: p10-l2-06
     type: learn
-    lexeme: p10-arbl
+    lexeme: p10-talmid
   - id: p10-l2-07
-    type: learn
-    lexeme: p10-shtof
+    type: dialogue
+    scene: אנשים בקהילה
+    lines:
+    - speaker: menachem
+      text: זיידע, ווער איז דער רב און ווער דער בעל־הבית?
+      translation: סבא, מי הרב ומי בעל הבית?
+    - speaker: zeyde
+      text: דער רב פּסקנט. דער פּויער אַרבעט אין פֿעלד. דער מלמד לערנט מיט דעם תלמיד.
+      translation: הרב פוסק. האיכר עובד בשדה. המלמד לומד עם התלמיד.
+    - speaker: menachem
+      text: און דער קעניג?
+      translation: והמלך?
+    - speaker: zeyde
+      text: דער קעניג איז דער אויבערשטער.
+      translation: המלך הוא הקב״ה.
   - id: p10-l2-08
-    type: learn
-    lexeme: p10-vol
+    type: match_pairs
+    pairs:
+    - - קעניג
+      - מלך
+    - - רב
+      - רב הקהילה
+    - - בעל־הבית
+      - בעל הבית
+    lexemes:
+    - p10-keynig
+    - p10-rov
+    - p10-balebos
   - id: p10-l2-09
     type: match_pairs
     pairs:
-    - - בריל
-      - משקפיים
-    - - רינג
-      - טבעת
-    - - וועש
-      - כביסה
-    - - קנאָפּ
-      - כפתור
+    - - פּויער
+      - איכר
+    - - מלמד
+      - מלמד תינוקות
+    - - תלמיד
+      - תלמיד בכיתה
     lexemes:
-    - p10-bril
-    - p10-ring
-    - p10-vesh
-    - p10-knop
+    - p10-poyer
+    - p10-melamed
+    - p10-talmid
   - id: p10-l2-10
-    type: match_pairs
-    pairs:
-    - - קעשענע
-      - כיס
-    - - אַרבל
-      - שרוול
-    - - שטאָף
-      - בד
-    - - וואָל
-      - צמר
+    type: multiple_choice
+    prompt: מה פירוש קעניג?
+    options:
+    - מלך
+    - אישה
+    - סנדלר
+    correct: 0
     lexemes:
-    - p10-keshene
-    - p10-arbl
-    - p10-shtof
-    - p10-vol
+    - p10-keynig
   - id: p10-l2-11
     type: multiple_choice
-    prompt: מה פירוש בריל?
+    prompt: 'איזו מילה מתאימה ל: רב הקהילה?'
     options:
-    - משקפיים
-    - נכד
-    - חגורה
+    - רב
+    - שנײַדער
+    - בעקער
     correct: 0
     lexemes:
-    - p10-bril
+    - p10-rov
   - id: p10-l2-12
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: טבעת?'
+    prompt: מה פירוש בעל־הבית?
     options:
-    - רינג
-    - אײניקל
-    - פֿעטער
+    - בעל הבית
+    - כלה (בחתונה)
+    - ילד
     correct: 0
     lexemes:
-    - p10-ring
+    - p10-balebos
   - id: p10-l2-13
     type: multiple_choice
-    prompt: מה פירוש וועש?
+    prompt: 'איזו מילה מתאימה ל: איכר?'
     options:
-    - כביסה
-    - חותן
-    - צעיף
+    - פּויער
+    - שכן
+    - פֿרוי
     correct: 0
     lexemes:
-    - p10-vesh
+    - p10-poyer
   - id: p10-l2-14
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: כפתור?'
+    prompt: מה פירוש מלמד?
     options:
-    - קנאָפּ
-    - הענטשקעס
-    - מחותן
+    - מלמד תינוקות
+    - סנדלר
+    - שכן ליד הבית
     correct: 0
     lexemes:
-    - p10-knop
+    - p10-melamed
   - id: p10-l2-15
     type: multiple_choice
-    prompt: מה פירוש קעשענע?
+    prompt: 'איזו מילה מתאימה ל: תלמיד בכיתה?'
     options:
-    - כיס
-    - גיס / גיסה
-    - חמות
+    - תלמיד
+    - חתן
+    - שוסטער
     correct: 0
     lexemes:
-    - p10-keshene
+    - p10-talmid
   - id: p10-l2-16
-    type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: שרוול?'
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה מלך
+    answers:
+    - קעניג
     options:
-    - אַרבל
-    - זאָק
-    - מחותן
-    correct: 0
+    - קעניג
+    - סוחר
+    - מאַן
     lexemes:
-    - p10-arbl
+    - p10-keynig
   - id: p10-l2-17
-    type: multiple_choice
-    prompt: מה פירוש שטאָף?
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה רב הקהילה
+    answers:
+    - רב
     options:
-    - בד
-    - צעיף
-    - כפפות
-    correct: 0
+    - רב
+    - כלה
+    - סוחר
     lexemes:
-    - p10-shtof
+    - p10-rov
   - id: p10-l2-18
-    type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: צמר?'
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה בעל הבית
+    answers:
+    - בעל־הבית
     options:
-    - וואָל
-    - מומע
-    - זאָק
-    correct: 0
+    - בעל־הבית
+    - פֿרוי
+    - סוחר
     lexemes:
-    - p10-vol
+    - p10-balebos
   - id: p10-l2-19
     type: fill_blank
-    sentence: איך זע ___.
-    translation: אני רואה משקפיים
+    sentence: איך זע אַ ___.
+    translation: אני רואה איכר
     answers:
-    - בריל
+    - פּויער
     options:
-    - בריל
-    - הויזן
-    - הענטשקעס
+    - פּויער
+    - מיידל
+    - פֿרוי
     lexemes:
-    - p10-bril
+    - p10-poyer
   - id: p10-l2-20
     type: fill_blank
     sentence: איך זע אַ ___.
-    translation: אני רואה טבעת
+    translation: אני רואה מלמד תינוקות
     answers:
-    - רינג
+    - מלמד
     options:
-    - רינג
-    - מומע
-    - גאַרטל
+    - מלמד
+    - שנײַדער
+    - יינגל
     lexemes:
-    - p10-ring
+    - p10-melamed
   - id: p10-l2-21
     type: fill_blank
-    sentence: איך וויל ___.
-    translation: אני רוצה כביסה
-    answers:
-    - וועש
-    options:
-    - וועש
-    - גאַרטל
-    - אײניקל
-    lexemes:
-    - p10-vesh
-  - id: p10-l2-22
-    type: fill_blank
     sentence: איך זע אַ ___.
-    translation: אני רואה כפתור
+    translation: אני רואה תלמיד בכיתה
     answers:
-    - קנאָפּ
+    - תלמיד
     options:
-    - קנאָפּ
-    - האַלדזטוך
-    - מחותן
+    - תלמיד
+    - סוחר
+    - מאַן
     lexemes:
-    - p10-knop
-  - id: p10-l2-23
-    type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה כיס
-    answers:
-    - קעשענע
-    options:
-    - קעשענע
-    - שוויגער
-    - מחותן
-    lexemes:
-    - p10-keshene
-  - id: p10-l2-24
-    type: fill_blank
-    sentence: איך זע אַן ___.
-    translation: אני רואה שרוול
-    answers:
-    - אַרבל
-    options:
-    - אַרבל
-    - מאַנטל
-    - קלייד
-    lexemes:
-    - p10-arbl
-  - id: p10-l2-25
-    type: fill_blank
-    sentence: איך וויל ___.
-    translation: אני רוצה בד
-    answers:
-    - שטאָף
-    options:
-    - שטאָף
-    - שוואָגער
-    - מאַנטל
-    lexemes:
-    - p10-shtof
-  - id: p10-l2-26
-    type: fill_blank
-    sentence: איך וויל ___.
-    translation: אני רוצה צמר
-    answers:
-    - וואָל
-    options:
-    - וואָל
-    - קרוב
-    - אײניקל
-    lexemes:
-    - p10-vol
+    - p10-talmid
 - id: p10-l3
   kind: new
   title:
@@ -662,233 +540,193 @@ lessons:
   exercises:
   - id: p10-l3-01
     type: learn
-    lexeme: p10-feter
+    lexeme: p10-soykher
   - id: p10-l3-02
     type: learn
-    lexeme: p10-mume
+    lexeme: p10-shnayder
   - id: p10-l3-03
     type: learn
-    lexeme: p10-eynikl
+    lexeme: p10-shuster
   - id: p10-l3-04
     type: learn
-    lexeme: p10-shvoger
+    lexeme: p10-beker
   - id: p10-l3-05
     type: learn
-    lexeme: p10-shver
+    lexeme: p10-khosn
   - id: p10-l3-06
     type: learn
-    lexeme: p10-shviger
+    lexeme: p10-kale
   - id: p10-l3-07
-    type: learn
-    lexeme: p10-mekhutn
+    type: dialogue
+    scene: בעלי מלאכה
+    lines:
+    - speaker: menachem
+      text: זיידע, דער סוחר קויפֿט, דער שנײַדער נייט, דער שוסטער מאַכט שיך.
+      translation: סבא, הסוחר קונה, החייט תופר, הסנדלר עושה נעליים.
+    - speaker: zeyde
+      text: און דער בעקער באַקט חלות פֿאַר שבת.
+      translation: והאופה אופה חלות לשבת.
+    - speaker: menachem
+      text: און דער חתן און די כלה פֿון דער שכנות?
+      translation: והחתן והכלה מהשכנים?
+    - speaker: zeyde
+      text: זיי האָבן ערשט חתונה. ווינטש זיי מזל־טוב.
+      translation: הם עוד יתחתנו. תאחל להם מזל טוב.
   - id: p10-l3-08
-    type: learn
-    lexeme: p10-korev
+    type: match_pairs
+    pairs:
+    - - סוחר
+      - סוחר בשוק
+    - - שנײַדער
+      - חייט
+    - - שוסטער
+      - סנדלר
+    lexemes:
+    - p10-soykher
+    - p10-shnayder
+    - p10-shuster
   - id: p10-l3-09
     type: match_pairs
     pairs:
-    - - פֿעטער
-      - דוד
-    - - מומע
-      - דודה
-    - - אײניקל
-      - נכד
-    - - שוואָגער
-      - גיס / גיסה
+    - - בעקער
+      - אופה
+    - - חתן
+      - חתן (בחתונה)
+    - - כלה
+      - כלה (בחתונה)
     lexemes:
-    - p10-feter
-    - p10-mume
-    - p10-eynikl
-    - p10-shvoger
+    - p10-beker
+    - p10-khosn
+    - p10-kale
   - id: p10-l3-10
-    type: match_pairs
-    pairs:
-    - - שוער
-      - חותן
-    - - שוויגער
-      - חמות
-    - - מחותן
-      - אבי החתן / הכלה
-    - - קרוב
-      - קרוב משפחה
+    type: multiple_choice
+    prompt: מה פירוש סוחר?
+    options:
+    - סוחר בשוק
+    - שכן ליד הבית
+    - איכר
+    correct: 0
     lexemes:
-    - p10-shver
-    - p10-shviger
-    - p10-mekhutn
-    - p10-korev
+    - p10-soykher
   - id: p10-l3-11
     type: multiple_choice
-    prompt: מה פירוש פֿעטער?
+    prompt: 'איזו מילה מתאימה ל: חייט?'
     options:
-    - דוד
-    - כיס
-    - צמר
+    - שנײַדער
+    - רב
+    - מאַן
     correct: 0
     lexemes:
-    - p10-feter
+    - p10-shnayder
   - id: p10-l3-12
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: דודה?'
+    prompt: מה פירוש שוסטער?
     options:
-    - מומע
-    - קנאָפּ
-    - אַרבל
+    - סנדלר
+    - שכן ליד הבית
+    - בעל הבית
     correct: 0
     lexemes:
-    - p10-mume
+    - p10-shuster
   - id: p10-l3-13
     type: multiple_choice
-    prompt: מה פירוש אײניקל?
+    prompt: 'איזו מילה מתאימה ל: אופה?'
     options:
-    - נכד
-    - חגורה
-    - צעיף
+    - בעקער
+    - מיידל
+    - תלמיד
     correct: 0
     lexemes:
-    - p10-eynikl
+    - p10-beker
   - id: p10-l3-14
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: גיס / גיסה?'
+    prompt: מה פירוש חתן?
     options:
-    - שוואָגער
-    - וואָל
-    - הויזן
+    - חתן (בחתונה)
+    - ילדה
+    - אדם
     correct: 0
     lexemes:
-    - p10-shvoger
+    - p10-khosn
   - id: p10-l3-15
     type: multiple_choice
-    prompt: מה פירוש שוער?
+    prompt: 'איזו מילה מתאימה ל: כלה (בחתונה)?'
     options:
-    - חותן
-    - מטריה
-    - טבעת
+    - כלה
+    - תלמיד
+    - רב
     correct: 0
     lexemes:
-    - p10-shver
+    - p10-kale
   - id: p10-l3-16
-    type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: חמות?'
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה סוחר בשוק
+    answers:
+    - סוחר
     options:
-    - שוויגער
-    - וואָל
-    - בריל
-    correct: 0
+    - סוחר
+    - פּויער
+    - מלמד
     lexemes:
-    - p10-shviger
+    - p10-soykher
   - id: p10-l3-17
-    type: multiple_choice
-    prompt: מה פירוש מחותן?
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה חייט
+    answers:
+    - שנײַדער
     options:
-    - אבי החתן / הכלה
-    - צעיף
-    - צמר
-    correct: 0
+    - שנײַדער
+    - פּויער
+    - שכן
     lexemes:
-    - p10-mekhutn
+    - p10-shnayder
   - id: p10-l3-18
-    type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: קרוב משפחה?'
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה סנדלר
+    answers:
+    - שוסטער
     options:
-    - קרוב
-    - הויזן
-    - האַלדזטוך
-    correct: 0
+    - שוסטער
+    - רב
+    - בעל־הבית
     lexemes:
-    - p10-korev
+    - p10-shuster
   - id: p10-l3-19
     type: fill_blank
     sentence: איך זע אַ ___.
-    translation: אני רואה דוד
+    translation: אני רואה אופה
     answers:
-    - פֿעטער
+    - בעקער
     options:
-    - פֿעטער
-    - האַלדזטוך
-    - קעשענע
+    - בעקער
+    - רב
+    - תלמיד
     lexemes:
-    - p10-feter
+    - p10-beker
   - id: p10-l3-20
     type: fill_blank
     sentence: איך זע אַ ___.
-    translation: אני רואה דודה
+    translation: אני רואה חתן (בחתונה)
     answers:
-    - מומע
+    - חתן
     options:
-    - מומע
-    - האַלדזטוך
-    - קעשענע
+    - חתן
+    - מיידל
+    - בעל־הבית
     lexemes:
-    - p10-mume
+    - p10-khosn
   - id: p10-l3-21
     type: fill_blank
-    sentence: איך זע אַן ___.
-    translation: אני רואה נכד
-    answers:
-    - אײניקל
-    options:
-    - אײניקל
-    - בריל
-    - רינג
-    lexemes:
-    - p10-eynikl
-  - id: p10-l3-22
-    type: fill_blank
     sentence: איך זע אַ ___.
-    translation: אני רואה גיס / גיסה
+    translation: אני רואה כלה (בחתונה)
     answers:
-    - שוואָגער
+    - כלה
     options:
-    - שוואָגער
-    - קלייד
-    - מאַנטל
+    - כלה
+    - מיידל
+    - מאַן
     lexemes:
-    - p10-shvoger
-  - id: p10-l3-23
-    type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה חותן
-    answers:
-    - שוער
-    options:
-    - שוער
-    - קנאָפּ
-    - מאַנטל
-    lexemes:
-    - p10-shver
-  - id: p10-l3-24
-    type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה חמות
-    answers:
-    - שוויגער
-    options:
-    - שוויגער
-    - גאַרטל
-    - רינג
-    lexemes:
-    - p10-shviger
-  - id: p10-l3-25
-    type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה אבי החתן / הכלה
-    answers:
-    - מחותן
-    options:
-    - מחותן
-    - מאַנטל
-    - גאַרטל
-    lexemes:
-    - p10-mekhutn
-  - id: p10-l3-26
-    type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה קרוב משפחה
-    answers:
-    - קרוב
-    options:
-    - קרוב
-    - זאָק
-    - קנאָפּ
-    lexemes:
-    - p10-korev
+    - p10-kale

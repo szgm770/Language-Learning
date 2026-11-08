@@ -1,210 +1,231 @@
 id: p4-words
 cefr: B1
-scene: nature
+scene: study
 title:
-  he: 'הרחבת אוצר מילים 4: טבע ועונות'
-  en: 'Word builder 4: nature and seasons'
-story: מילים שימושיות נוספות, כל אחת במשפט קצר.
+  he: 'הרחבת אוצר מילים 4: מילים קטנות מהשיחות'
+  en: 'Word builder 4: small words from the talks'
+story: מנחם ממשיך לשוחח עם הסבא ושם לב למילים הקטנות שמחברות כל משפט.
 canDo:
-- להבין ולהשתמש במילים נפוצות נוספות
+- להבין ולהשתמש במילים נפוצות נוספות בשיחה
 - לזהות את המילים במשפטים
 vocabulary:
-- id: p4-levone
-  text: לבנה
-  translation: ירח
-  pos: noun
+- id: p4-oyf
+  text: אויף
+  translation: על
+  pos: preposition
   example:
-    text: איך זע אַ לבנה.
-    translation: אני רואה ירח
-- id: p4-shtern2
-  text: שטערן
-  translation: כוכב
-  pos: noun
+    text: דער ספֿר ליגט אויף דעם טיש.
+    translation: הספר מונח על השולחן
+- id: p4-im
+  text: אים
+  translation: אותו / לו
+  pos: pronoun
   example:
-    text: איך זע אַ שטערן.
-    translation: אני רואה כוכב
-- id: p4-himl
-  text: הימל
-  translation: שמיים
-  pos: noun
+    text: איך זע אים.
+    translation: אני רואה אותו
+- id: p4-zey
+  text: זיי
+  translation: הם / אותם
+  pos: pronoun
   example:
-    text: איך זע אַ הימל.
-    translation: אני רואה שמיים
-- id: p4-yam
-  text: ים
-  translation: הים הגדול
-  pos: noun
+    text: איך זע זיי.
+    translation: אני רואה אותם
+- id: p4-men
+  text: מען
+  translation: אומרים / לומדים (כללי)
+  pos: pronoun
   example:
-    text: איך זע אַ ים.
-    translation: אני רואה הים הגדול
-- id: p4-berg
-  text: בערג
-  translation: הר
-  pos: noun
+    text: מען לערנט אין שול.
+    translation: לומדים בבית הכנסת
+- id: p4-azoy
+  text: אַזוי
+  translation: כך
+  pos: adverb
   example:
-    text: איך זע אַ בערג.
-    translation: אני רואה הר
-- id: p4-vald
-  text: וואַלד
-  translation: יער
-  pos: noun
+    text: מען זאָגט עס אַזוי.
+    translation: אומרים את זה כך
+- id: p4-tsu
+  text: צו
+  translation: אל
+  pos: preposition
   example:
-    text: איך זע אַ וואַלד.
-    translation: אני רואה יער
-- id: p4-boym
-  text: בוים
-  translation: עץ
-  pos: noun
+    text: איך גיי צו מײַן זיידע.
+    translation: אני הולך אל סבא שלי
+- id: p4-nor
+  text: נאָר
+  translation: רק
+  pos: adverb
   example:
-    text: איך זע אַ בוים.
-    translation: אני רואה עץ
-- id: p4-blum
-  text: בלום
-  translation: פרח
-  pos: noun
+    text: איך האָב נאָר איין בוך.
+    translation: יש לי רק ספר אחד
+- id: p4-oder
+  text: אָדער
+  translation: או
+  pos: conjunction
   example:
-    text: איך זע אַ בלום.
-    translation: אני רואה פרח
-- id: p4-groz
-  text: גראָז
-  translation: דשא
-  pos: noun
+    text: איך וויל טיי אָדער קאַווע.
+    translation: אני רוצה תה או קפה
+- id: p4-bay
+  text: ביי
+  translation: אצל
+  pos: preposition
   example:
-    text: איך זע גראָז.
-    translation: אני רואה דשא
-- id: p4-foygl
-  text: פֿויגל
-  translation: ציפור
-  pos: noun
+    text: ער וווינט ביי זײַן זיידע.
+    translation: הוא גר אצל סבא שלו
+- id: p4-durkh
+  text: דורך
+  translation: דרך
+  pos: preposition
   example:
-    text: איך זע אַ פֿויגל.
-    translation: אני רואה ציפור
-- id: p4-hunt
-  text: הונט
-  translation: כלב
-  pos: noun
+    text: מיר גייען דורך דער שטאָט.
+    translation: אנחנו הולכים דרך העיר
+- id: p4-tsvishn
+  text: צווישן
+  translation: בין
+  pos: preposition
   example:
-    text: איך זע אַ הונט.
-    translation: אני רואה כלב
-- id: p4-kats
-  text: קאַץ
-  translation: חתול
-  pos: noun
+    text: דאָס בלײַבט צווישן מיר און דיר.
+    translation: זה נשאר בינינו
+- id: p4-far
+  text: פֿאַר
+  translation: בשביל
+  pos: preposition
   example:
-    text: איך זע אַ קאַץ.
-    translation: אני רואה חתול
-- id: p4-ferd
-  text: פֿערד
-  translation: סוס
-  pos: noun
+    text: דאָס איז פֿאַר דיר.
+    translation: זה בשבילך
+- id: p4-vegn
+  text: וועגן
+  translation: על / אודות
+  pos: preposition
   example:
-    text: איך זע אַ פֿערד.
-    translation: אני רואה סוס
-- id: p4-ku
-  text: קו
-  translation: פרה
-  pos: noun
+    text: מיר רעדן וועגן דער תורה.
+    translation: אנחנו מדברים על התורה
+- id: p4-iber
+  text: איבער
+  translation: מעל / מעבר
+  pos: preposition
   example:
-    text: איך זע אַ קו.
-    translation: אני רואה פרה
-- id: p4-shney
-  text: שנײַ
-  translation: שלג
-  pos: noun
+    text: ער גייט איבער דער בריק.
+    translation: הוא הולך על הגשר
+- id: p4-biz
+  text: ביז
+  translation: עד
+  pos: preposition
   example:
-    text: איך זע שנײַ.
-    translation: אני רואה שלג
-- id: p4-vint
-  text: ווינט
-  translation: רוח
-  pos: noun
+    text: איך בלײַב דאָ ביז מאָרגן.
+    translation: אני נשאר כאן עד מחר
+- id: p4-aleyn
+  text: אַליין
+  translation: לבד
+  pos: adverb
   example:
-    text: איך זע אַ ווינט.
-    translation: אני רואה רוח
-- id: p4-volkn
-  text: וואָלקן
-  translation: ענן
-  pos: noun
+    text: איך לערן אַליין.
+    translation: אני לומד לבד
+- id: p4-gor
+  text: גאָר
+  translation: ממש
+  pos: adverb
   example:
-    text: איך זע אַ וואָלקן.
-    translation: אני רואה ענן
-- id: p4-shteyn
-  text: שטיין
-  translation: אבן
-  pos: noun
+    text: דאָס איז גאָר שיין.
+    translation: זה ממש יפה
+- id: p4-takeh
+  text: טאַקע
+  translation: אכן
+  pos: adverb
   example:
-    text: איך זע אַ שטיין.
-    translation: אני רואה אבן
-- id: p4-taykh
-  text: טײַך
-  translation: נהר
-  pos: noun
+    text: ער איז טאַקע אין שול.
+    translation: הוא אכן בבית הכנסת
+- id: p4-khotsh
+  text: כאָטש
+  translation: אף על פי ש־
+  pos: conjunction
   example:
-    text: איך זע אַ טײַך.
-    translation: אני רואה נהר
-- id: p4-feld
-  text: פֿעלד
-  translation: שדה
-  pos: noun
+    text: כאָטש איך בין מיד, גיי איך אין שול.
+    translation: אף על פי שאני עייף, אני הולך לבית הכנסת
+- id: p4-vaybald
+  text: וויבאַלד
+  translation: מכיוון ש־
+  pos: conjunction
   example:
-    text: איך זע אַ פֿעלד.
-    translation: אני רואה שדה
-- id: p4-erd
-  text: ערד
-  translation: אדמה
-  pos: noun
+    text: וויבאַלד איך בין מיד, שלאָף איך.
+    translation: מכיוון שאני עייף, אני ישן
+- id: p4-itst
+  text: איצט
+  translation: עכשיו
+  pos: adverb
   example:
-    text: איך זע ערד.
-    translation: אני רואה אדמה
-- id: p4-fayer
-  text: פֿײַער
-  translation: אש
-  pos: noun
+    text: איצט בין איך אין שול.
+    translation: עכשיו אני בבית הכנסת
+- id: p4-demolt
+  text: דעמולט
+  translation: אז
+  pos: adverb
   example:
-    text: איך זע אַ פֿײַער.
-    translation: אני רואה אש
-- id: p4-shof
-  text: שאָף
-  translation: כבשה
-  pos: noun
+    text: דעמולט האָב איך געלערנט.
+    translation: אז למדתי
+- id: p4-frier
+  text: פֿריִער
+  translation: קודם
+  pos: adverb
   example:
-    text: איך זע אַ שאָף.
-    translation: אני רואה כבשה
-- id: p4-moyz
-  text: מויז
-  translation: עכבר
-  pos: noun
+    text: פֿריִער האָב איך געגעסן.
+    translation: קודם אכלתי
+- id: p4-derfar
+  text: דערפֿאַר
+  translation: לכן
+  pos: adverb
   example:
-    text: איך זע אַ מויז.
-    translation: אני רואה עכבר
-- id: p4-zumer
-  text: זומער
-  translation: קיץ
-  pos: noun
+    text: איך בין מיד, דערפֿאַר שלאָף איך.
+    translation: אני עייף, לכן אני ישן
+- id: p4-tsulib
+  text: צוליב
+  translation: בגלל
+  pos: preposition
   example:
-    text: איך האָב ליב דעם זומער.
-    translation: אני אוהב את הקיץ
-- id: p4-vinter
-  text: ווינטער
-  translation: חורף
-  pos: noun
+    text: צוליב דעם רעגן בלײַב איך אין שטוב.
+    translation: בגלל הגשם אני נשאר בבית
+- id: p4-yeder
+  text: יעדער
+  translation: כל / כל אחד
+  pos: pronoun
   example:
-    text: איך האָב ליב דעם ווינטער.
-    translation: אני אוהב את החורף
-- id: p4-friling
-  text: פֿרילינג
-  translation: אביב
-  pos: noun
+    text: יעדער איד לערנט.
+    translation: כל יהודי לומד
+- id: p4-ale
+  text: אַלע
+  translation: כל / כולם
+  pos: pronoun
   example:
-    text: איך האָב ליב דעם פֿרילינג.
-    translation: אני אוהב את האביב
-- id: p4-harbst
-  text: האַרבסט
-  translation: סתיו
-  pos: noun
+    text: אַלע קינדער לערנען.
+    translation: כל הילדים לומדים
+- id: p4-gants
+  text: גאַנץ
+  translation: שלם / כל
+  pos: adjective
   example:
-    text: איך האָב ליב דעם האַרבסט.
-    translation: אני אוהב את הסתיו
+    text: דער גאַנץ טאָג איז שיין.
+    translation: כל היום יפה
+- id: p4-zol
+  text: זאָל
+  translation: שֶׁ־ (שיהיה)
+  pos: adverb
+  example:
+    text: ער זאָל קומען.
+    translation: שיבוא
+- id: p4-tor
+  text: טאָר
+  translation: 'מותר (בשלילה: אסור)'
+  pos: verb
+  example:
+    text: מען טאָר ניט עסן דאָ.
+    translation: אסור לאכול כאן
+- id: p4-vert2
+  text: ווערט
+  translation: נהיה
+  pos: verb
+  example:
+    text: עס ווערט קאַלט.
+    translation: נהיה קר
 lessons:
 - id: p4-l1
   kind: new
@@ -214,264 +235,308 @@ lessons:
   exercises:
   - id: p4-l1-01
     type: learn
-    lexeme: p4-levone
+    lexeme: p4-oyf
   - id: p4-l1-02
     type: learn
-    lexeme: p4-shtern2
+    lexeme: p4-im
   - id: p4-l1-03
     type: learn
-    lexeme: p4-himl
+    lexeme: p4-zey
   - id: p4-l1-04
     type: learn
-    lexeme: p4-yam
+    lexeme: p4-men
   - id: p4-l1-05
     type: learn
-    lexeme: p4-berg
+    lexeme: p4-azoy
   - id: p4-l1-06
     type: learn
-    lexeme: p4-vald
+    lexeme: p4-tsu
   - id: p4-l1-07
     type: learn
-    lexeme: p4-boym
+    lexeme: p4-nor
   - id: p4-l1-08
     type: learn
-    lexeme: p4-blum
+    lexeme: p4-oder
   - id: p4-l1-09
     type: learn
-    lexeme: p4-groz
+    lexeme: p4-bay
   - id: p4-l1-10
-    type: match_pairs
-    pairs:
-    - - לבנה
-      - ירח
-    - - שטערן
-      - כוכב
-    - - הימל
-      - שמיים
-    - - ים
-      - הים הגדול
-    lexemes:
-    - p4-levone
-    - p4-shtern2
-    - p4-himl
-    - p4-yam
+    type: learn
+    lexeme: p4-durkh
   - id: p4-l1-11
+    type: dialogue
+    scene: מנחם ממתין לשבת אצל הסבתא
+    lines:
+    - speaker: menachem
+      text: זיידע, צו וועמען גייען מיר אויף שבת?
+      translation: סבא, אל מי הולכים בשבת?
+    - speaker: zeyde
+      text: מיר גייען צו דער באָבע. ביי איר איז אַלץ גרייט.
+      translation: אנחנו הולכים לסבתא. אצלה הכול מוכן.
+    - speaker: menachem
+      text: און מען עסט נאָר דאָרט, אָדער אויך ביי אים?
+      translation: ואוכלים רק שם, או גם אצלו?
+    - speaker: zeyde
+      text: ביי איר. און ער קומט אויך, דער שכן.
+      translation: אצלה. והוא בא גם, השכן.
+  - id: p4-l1-12
     type: match_pairs
     pairs:
-    - - בערג
-      - הר
-    - - וואַלד
-      - יער
-    - - בוים
-      - עץ
-    - - בלום
-      - פרח
-    - - גראָז
-      - דשא
+    - - אויף
+      - על
+    - - אים
+      - אותו / לו
+    - - זיי
+      - הם / אותם
+    - - מען
+      - אומרים / לומדים (כללי)
+    - - אַזוי
+      - כך
     lexemes:
-    - p4-berg
-    - p4-vald
-    - p4-boym
-    - p4-blum
-    - p4-groz
-  - id: p4-l1-12
-    type: multiple_choice
-    prompt: מה פירוש לבנה?
-    options:
-    - ירח
-    - עכבר
-    - נהר
-    correct: 0
-    lexemes:
-    - p4-levone
+    - p4-oyf
+    - p4-im
+    - p4-zey
+    - p4-men
+    - p4-azoy
   - id: p4-l1-13
-    type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: כוכב?'
-    options:
-    - שטערן
-    - ווינט
-    - שאָף
-    correct: 0
+    type: match_pairs
+    pairs:
+    - - צו
+      - אל
+    - - נאָר
+      - רק
+    - - אָדער
+      - או
+    - - ביי
+      - אצל
+    - - דורך
+      - דרך
     lexemes:
-    - p4-shtern2
+    - p4-tsu
+    - p4-nor
+    - p4-oder
+    - p4-bay
+    - p4-durkh
   - id: p4-l1-14
     type: multiple_choice
-    prompt: מה פירוש הימל?
+    prompt: מה פירוש אויף?
     options:
-    - שמיים
-    - סתיו
-    - ציפור
+    - על
+    - שלם / כל
+    - אז
     correct: 0
     lexemes:
-    - p4-himl
+    - p4-oyf
   - id: p4-l1-15
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: הים הגדול?'
+    prompt: 'איזו מילה מתאימה ל: אותו / לו?'
     options:
-    - ים
-    - ווינטער
-    - מויז
+    - אים
+    - ווערט
+    - וויבאַלד
     correct: 0
     lexemes:
-    - p4-yam
+    - p4-im
   - id: p4-l1-16
     type: multiple_choice
-    prompt: מה פירוש בערג?
+    prompt: מה פירוש זיי?
     options:
-    - הר
-    - ציפור
-    - רוח
+    - הם / אותם
+    - עכשיו
+    - כל / כל אחד
     correct: 0
     lexemes:
-    - p4-berg
+    - p4-zey
   - id: p4-l1-17
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: יער?'
+    prompt: 'איזו מילה מתאימה ל: אומרים / לומדים (כללי)?'
     options:
-    - וואַלד
-    - מויז
-    - ווינט
+    - מען
+    - צוליב
+    - דעמולט
     correct: 0
     lexemes:
-    - p4-vald
+    - p4-men
   - id: p4-l1-18
     type: multiple_choice
-    prompt: מה פירוש בוים?
+    prompt: מה פירוש אַזוי?
     options:
-    - עץ
-    - כלב
-    - אש
+    - כך
+    - 'מותר (בשלילה: אסור)'
+    - אז
     correct: 0
     lexemes:
-    - p4-boym
+    - p4-azoy
   - id: p4-l1-19
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: פרח?'
+    prompt: 'איזו מילה מתאימה ל: אל?'
     options:
-    - בלום
-    - קו
-    - שנײַ
+    - צו
+    - פֿריִער
+    - כאָטש
     correct: 0
     lexemes:
-    - p4-blum
+    - p4-tsu
   - id: p4-l1-20
     type: multiple_choice
-    prompt: מה פירוש גראָז?
+    prompt: מה פירוש נאָר?
     options:
-    - דשא
-    - ענן
-    - סתיו
+    - רק
+    - בשביל
+    - שֶׁ־ (שיהיה)
     correct: 0
     lexemes:
-    - p4-groz
+    - p4-nor
   - id: p4-l1-21
-    type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה ירח
-    answers:
-    - לבנה
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: או?'
     options:
-    - לבנה
-    - שאָף
-    - וואָלקן
+    - אָדער
+    - צווישן
+    - ביז
+    correct: 0
     lexemes:
-    - p4-levone
+    - p4-oder
   - id: p4-l1-22
-    type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה כוכב
-    answers:
-    - שטערן
+    type: multiple_choice
+    prompt: מה פירוש ביי?
     options:
-    - שטערן
-    - מויז
-    - פֿערד
+    - אצל
+    - עכשיו
+    - שלם / כל
+    correct: 0
     lexemes:
-    - p4-shtern2
+    - p4-bay
   - id: p4-l1-23
-    type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה שמיים
-    answers:
-    - הימל
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: דרך?'
     options:
-    - הימל
-    - הונט
-    - וואָלקן
+    - דורך
+    - גאַנץ
+    - וועגן
+    correct: 0
     lexemes:
-    - p4-himl
+    - p4-durkh
   - id: p4-l1-24
     type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה הים הגדול
+    sentence: דער ספֿר ליגט ___ דעם טיש.
+    translation: הספר מונח על השולחן
     answers:
-    - ים
+    - אויף
     options:
-    - ים
-    - קו
-    - פֿויגל
+    - אויף
+    - פֿאַר
+    - איבער
     lexemes:
-    - p4-yam
+    - p4-oyf
   - id: p4-l1-25
     type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה הר
+    sentence: איך זע ___.
+    translation: אני רואה אותו
     answers:
-    - בערג
+    - אים
     options:
-    - בערג
-    - פֿערד
-    - וואָלקן
+    - אים
+    - אַלע
+    - יעדער
     lexemes:
-    - p4-berg
+    - p4-im
   - id: p4-l1-26
     type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה יער
+    sentence: איך זע ___.
+    translation: אני רואה אותם
     answers:
-    - וואַלד
+    - זיי
     options:
-    - וואַלד
-    - וואָלקן
-    - פֿעלד
+    - זיי
+    - יעדער
+    - אַלע
     lexemes:
-    - p4-vald
+    - p4-zey
   - id: p4-l1-27
     type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה עץ
+    sentence: ___ לערנט אין שול.
+    translation: לומדים בבית הכנסת
     answers:
-    - בוים
+    - מען
     options:
-    - בוים
-    - פֿערד
-    - שטיין
+    - מען
+    - אַלע
+    - יעדער
     lexemes:
-    - p4-boym
+    - p4-men
   - id: p4-l1-28
     type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה פרח
+    sentence: מען זאָגט עס ___.
+    translation: אומרים את זה כך
     answers:
-    - בלום
+    - אַזוי
     options:
-    - בלום
-    - קו
-    - שאָף
+    - אַזוי
+    - איצט
+    - טאַקע
     lexemes:
-    - p4-blum
+    - p4-azoy
   - id: p4-l1-29
     type: fill_blank
-    sentence: איך זע ___.
-    translation: אני רואה דשא
+    sentence: איך גיי ___ מײַן זיידע.
+    translation: אני הולך אל סבא שלי
     answers:
-    - גראָז
+    - צו
     options:
-    - גראָז
-    - שנײַ
-    - ערד
+    - צו
+    - צווישן
+    - איבער
     lexemes:
-    - p4-groz
+    - p4-tsu
+  - id: p4-l1-30
+    type: fill_blank
+    sentence: איך האָב ___ איין בוך.
+    translation: יש לי רק ספר אחד
+    answers:
+    - נאָר
+    options:
+    - נאָר
+    - פֿריִער
+    - דעמולט
+    lexemes:
+    - p4-nor
+  - id: p4-l1-31
+    type: fill_blank
+    sentence: איך וויל טיי ___ קאַווע.
+    translation: אני רוצה תה או קפה
+    answers:
+    - אָדער
+    options:
+    - אָדער
+    - כאָטש
+    - וויבאַלד
+    lexemes:
+    - p4-oder
+  - id: p4-l1-32
+    type: fill_blank
+    sentence: ער וווינט ___ זײַן זיידע.
+    translation: הוא גר אצל סבא שלו
+    answers:
+    - ביי
+    options:
+    - ביי
+    - איבער
+    - ביז
+    lexemes:
+    - p4-bay
+  - id: p4-l1-33
+    type: fill_blank
+    sentence: מיר גייען ___ דער שטאָט.
+    translation: אנחנו הולכים דרך העיר
+    answers:
+    - דורך
+    options:
+    - דורך
+    - פֿאַר
+    - איבער
+    lexemes:
+    - p4-durkh
 - id: p4-l2
   kind: new
   title:
@@ -480,264 +545,308 @@ lessons:
   exercises:
   - id: p4-l2-01
     type: learn
-    lexeme: p4-foygl
+    lexeme: p4-tsvishn
   - id: p4-l2-02
     type: learn
-    lexeme: p4-hunt
+    lexeme: p4-far
   - id: p4-l2-03
     type: learn
-    lexeme: p4-kats
+    lexeme: p4-vegn
   - id: p4-l2-04
     type: learn
-    lexeme: p4-ferd
+    lexeme: p4-iber
   - id: p4-l2-05
     type: learn
-    lexeme: p4-ku
+    lexeme: p4-biz
   - id: p4-l2-06
     type: learn
-    lexeme: p4-shney
+    lexeme: p4-aleyn
   - id: p4-l2-07
     type: learn
-    lexeme: p4-vint
+    lexeme: p4-gor
   - id: p4-l2-08
     type: learn
-    lexeme: p4-volkn
+    lexeme: p4-takeh
   - id: p4-l2-09
     type: learn
-    lexeme: p4-shteyn
+    lexeme: p4-khotsh
   - id: p4-l2-10
-    type: match_pairs
-    pairs:
-    - - פֿויגל
-      - ציפור
-    - - הונט
-      - כלב
-    - - קאַץ
-      - חתול
-    - - פֿערד
-      - סוס
-    lexemes:
-    - p4-foygl
-    - p4-hunt
-    - p4-kats
-    - p4-ferd
+    type: learn
+    lexeme: p4-vaybald
   - id: p4-l2-11
+    type: dialogue
+    scene: שיחה על לימוד
+    lines:
+    - speaker: menachem
+      text: זיידע, איך האָב אַליין געלערנט, טאַקע גאָר פֿיל.
+      translation: סבא, למדתי לבד, באמת הרבה מאוד.
+    - speaker: zeyde
+      text: וועגן וואָס? איבער דער תורה?
+      translation: על מה? על התורה?
+    - speaker: menachem
+      text: יאָ, ביז אַהער, כאָטש עס איז שווער.
+      translation: כן, עד כאן, אף על פי שזה קשה.
+    - speaker: zeyde
+      text: וויבאַלד דו ביסט אַ פֿלײַסיקער יינגל, וועט עס גיין.
+      translation: מכיוון שאתה ילד חרוץ, זה יילך.
+  - id: p4-l2-12
     type: match_pairs
     pairs:
-    - - קו
-      - פרה
-    - - שנײַ
-      - שלג
-    - - ווינט
-      - רוח
-    - - וואָלקן
-      - ענן
-    - - שטיין
-      - אבן
+    - - צווישן
+      - בין
+    - - פֿאַר
+      - בשביל
+    - - וועגן
+      - על / אודות
+    - - איבער
+      - מעל / מעבר
+    - - ביז
+      - עד
     lexemes:
-    - p4-ku
-    - p4-shney
-    - p4-vint
-    - p4-volkn
-    - p4-shteyn
-  - id: p4-l2-12
-    type: multiple_choice
-    prompt: מה פירוש פֿויגל?
-    options:
-    - ציפור
-    - שמיים
-    - אדמה
-    correct: 0
-    lexemes:
-    - p4-foygl
+    - p4-tsvishn
+    - p4-far
+    - p4-vegn
+    - p4-iber
+    - p4-biz
   - id: p4-l2-13
-    type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: כלב?'
-    options:
-    - הונט
-    - בוים
-    - וואַלד
-    correct: 0
+    type: match_pairs
+    pairs:
+    - - אַליין
+      - לבד
+    - - גאָר
+      - ממש
+    - - טאַקע
+      - אכן
+    - - כאָטש
+      - אף על פי ש־
+    - - וויבאַלד
+      - מכיוון ש־
     lexemes:
-    - p4-hunt
+    - p4-aleyn
+    - p4-gor
+    - p4-takeh
+    - p4-khotsh
+    - p4-vaybald
   - id: p4-l2-14
     type: multiple_choice
-    prompt: מה פירוש קאַץ?
+    prompt: מה פירוש צווישן?
     options:
-    - חתול
-    - עכבר
-    - ירח
+    - בין
+    - לכן
+    - קודם
     correct: 0
     lexemes:
-    - p4-kats
+    - p4-tsvishn
   - id: p4-l2-15
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: סוס?'
+    prompt: 'איזו מילה מתאימה ל: בשביל?'
     options:
-    - פֿערד
-    - ווינטער
-    - שטערן
+    - פֿאַר
+    - דורך
+    - יעדער
     correct: 0
     lexemes:
-    - p4-ferd
+    - p4-far
   - id: p4-l2-16
     type: multiple_choice
-    prompt: מה פירוש קו?
+    prompt: מה פירוש וועגן?
     options:
-    - פרה
-    - הר
-    - שדה
+    - על / אודות
+    - על
+    - כך
     correct: 0
     lexemes:
-    - p4-ku
+    - p4-vegn
   - id: p4-l2-17
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: שלג?'
+    prompt: 'איזו מילה מתאימה ל: מעל / מעבר?'
     options:
-    - שנײַ
-    - שטערן
-    - ווינטער
+    - איבער
+    - דורך
+    - אויף
     correct: 0
     lexemes:
-    - p4-shney
+    - p4-iber
   - id: p4-l2-18
     type: multiple_choice
-    prompt: מה פירוש ווינט?
+    prompt: מה פירוש ביז?
     options:
-    - רוח
-    - נהר
-    - ירח
+    - עד
+    - בגלל
+    - עכשיו
     correct: 0
     lexemes:
-    - p4-vint
+    - p4-biz
   - id: p4-l2-19
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: ענן?'
+    prompt: 'איזו מילה מתאימה ל: לבד?'
     options:
-    - וואָלקן
-    - בלום
-    - שטערן
+    - אַליין
+    - דעמולט
+    - זיי
     correct: 0
     lexemes:
-    - p4-volkn
+    - p4-aleyn
   - id: p4-l2-20
     type: multiple_choice
-    prompt: מה פירוש שטיין?
+    prompt: מה פירוש גאָר?
     options:
-    - אבן
-    - עכבר
-    - שמיים
+    - ממש
+    - 'מותר (בשלילה: אסור)'
+    - אותו / לו
     correct: 0
     lexemes:
-    - p4-shteyn
+    - p4-gor
   - id: p4-l2-21
-    type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה ציפור
-    answers:
-    - פֿויגל
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: אכן?'
     options:
-    - פֿויגל
-    - וואַלד
-    - מויז
+    - טאַקע
+    - אַזוי
+    - נאָר
+    correct: 0
     lexemes:
-    - p4-foygl
+    - p4-takeh
   - id: p4-l2-22
-    type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה כלב
-    answers:
-    - הונט
+    type: multiple_choice
+    prompt: מה פירוש כאָטש?
     options:
-    - הונט
-    - מויז
-    - הימל
+    - אף על פי ש־
+    - עכשיו
+    - אז
+    correct: 0
     lexemes:
-    - p4-hunt
+    - p4-khotsh
   - id: p4-l2-23
-    type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה חתול
-    answers:
-    - קאַץ
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: מכיוון ש־?'
     options:
-    - קאַץ
-    - שאָף
-    - בערג
+    - וויבאַלד
+    - יעדער
+    - צוליב
+    correct: 0
     lexemes:
-    - p4-kats
+    - p4-vaybald
   - id: p4-l2-24
     type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה סוס
+    sentence: דאָס בלײַבט ___ מיר און דיר.
+    translation: זה נשאר בינינו
     answers:
-    - פֿערד
+    - צווישן
     options:
-    - פֿערד
-    - הימל
-    - בערג
+    - צווישן
+    - ביי
+    - אויף
     lexemes:
-    - p4-ferd
+    - p4-tsvishn
   - id: p4-l2-25
     type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה פרה
+    sentence: דאָס איז ___ דיר.
+    translation: זה בשבילך
     answers:
-    - קו
+    - פֿאַר
     options:
-    - קו
-    - ים
-    - בוים
+    - פֿאַר
+    - דורך
+    - אויף
     lexemes:
-    - p4-ku
+    - p4-far
   - id: p4-l2-26
     type: fill_blank
-    sentence: איך זע ___.
-    translation: אני רואה שלג
+    sentence: מיר רעדן ___ דער תורה.
+    translation: אנחנו מדברים על התורה
     answers:
-    - שנײַ
+    - וועגן
     options:
-    - שנײַ
-    - גראָז
-    - ערד
+    - וועגן
+    - אויף
+    - צוליב
     lexemes:
-    - p4-shney
+    - p4-vegn
   - id: p4-l2-27
     type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה רוח
+    sentence: ער גייט ___ דער בריק.
+    translation: הוא הולך על הגשר
     answers:
-    - ווינט
+    - איבער
     options:
-    - ווינט
-    - ים
-    - לבנה
+    - איבער
+    - צוליב
+    - דורך
     lexemes:
-    - p4-vint
+    - p4-iber
   - id: p4-l2-28
     type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה ענן
+    sentence: איך בלײַב דאָ ___ מאָרגן.
+    translation: אני נשאר כאן עד מחר
     answers:
-    - וואָלקן
+    - ביז
     options:
-    - וואָלקן
-    - בערג
-    - ים
+    - ביז
+    - צו
+    - דורך
     lexemes:
-    - p4-volkn
+    - p4-biz
   - id: p4-l2-29
     type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה אבן
+    sentence: איך לערן ___.
+    translation: אני לומד לבד
     answers:
-    - שטיין
+    - אַליין
     options:
-    - שטיין
-    - בוים
-    - בערג
+    - אַליין
+    - איצט
+    - זאָל
     lexemes:
-    - p4-shteyn
+    - p4-aleyn
+  - id: p4-l2-30
+    type: fill_blank
+    sentence: דאָס איז ___ שיין.
+    translation: זה ממש יפה
+    answers:
+    - גאָר
+    options:
+    - גאָר
+    - דעמולט
+    - נאָר
+    lexemes:
+    - p4-gor
+  - id: p4-l2-31
+    type: fill_blank
+    sentence: ער איז ___ אין שול.
+    translation: הוא אכן בבית הכנסת
+    answers:
+    - טאַקע
+    options:
+    - טאַקע
+    - נאָר
+    - זאָל
+    lexemes:
+    - p4-takeh
+  - id: p4-l2-32
+    type: fill_blank
+    sentence: ___ איך בין מיד, גיי איך אין שול.
+    translation: אף על פי שאני עייף, אני הולך לבית הכנסת
+    answers:
+    - כאָטש
+    options:
+    - כאָטש
+    - אָדער
+    - צו
+    lexemes:
+    - p4-khotsh
+  - id: p4-l2-33
+    type: fill_blank
+    sentence: ___ איך בין מיד, שלאָף איך.
+    translation: מכיוון שאני עייף, אני ישן
+    answers:
+    - וויבאַלד
+    options:
+    - וויבאַלד
+    - מען
+    - אויף
+    lexemes:
+    - p4-vaybald
 - id: p4-l3
   kind: new
   title:
@@ -746,289 +855,333 @@ lessons:
   exercises:
   - id: p4-l3-01
     type: learn
-    lexeme: p4-taykh
+    lexeme: p4-itst
   - id: p4-l3-02
     type: learn
-    lexeme: p4-feld
+    lexeme: p4-demolt
   - id: p4-l3-03
     type: learn
-    lexeme: p4-erd
+    lexeme: p4-frier
   - id: p4-l3-04
     type: learn
-    lexeme: p4-fayer
+    lexeme: p4-derfar
   - id: p4-l3-05
     type: learn
-    lexeme: p4-shof
+    lexeme: p4-tsulib
   - id: p4-l3-06
     type: learn
-    lexeme: p4-moyz
+    lexeme: p4-yeder
   - id: p4-l3-07
     type: learn
-    lexeme: p4-zumer
+    lexeme: p4-ale
   - id: p4-l3-08
     type: learn
-    lexeme: p4-vinter
+    lexeme: p4-gants
   - id: p4-l3-09
     type: learn
-    lexeme: p4-friling
+    lexeme: p4-zol
   - id: p4-l3-10
     type: learn
-    lexeme: p4-harbst
+    lexeme: p4-tor
   - id: p4-l3-11
-    type: match_pairs
-    pairs:
-    - - טײַך
-      - נהר
-    - - פֿעלד
-      - שדה
-    - - ערד
-      - אדמה
-    - - פֿײַער
-      - אש
-    - - שאָף
-      - כבשה
-    lexemes:
-    - p4-taykh
-    - p4-feld
-    - p4-erd
-    - p4-fayer
-    - p4-shof
+    type: learn
+    lexeme: p4-vert2
   - id: p4-l3-12
+    type: dialogue
+    scene: עכשיו ולפני כן
+    lines:
+    - speaker: zeyde
+      text: איצט וועלן מיר זיך שטעלן צו דער אַרבעט.
+      translation: עכשיו נתחיל לעבוד.
+    - speaker: menachem
+      text: פֿריִער האָב איך געהאַט אַ סך צו טאָן, דערפֿאַר בין איך מיד.
+      translation: קודם היה לי הרבה לעשות, בגלל זה אני עייף.
+    - speaker: zeyde
+      text: יעדער דאַרף רו. אַלע זענען מיד נאָך אַ גאַנצן טאָג.
+      translation: כל אחד צריך מנוחה. כולם עייפים אחרי יום שלם.
+    - speaker: menachem
+      text: דעמולט האָב איך גערעדט צו שטארק. איך זאָל ווערט שווײַגן.
+      translation: אז דיברתי חזק מדי. כדאי שאשתוק.
+  - id: p4-l3-13
     type: match_pairs
     pairs:
-    - - מויז
-      - עכבר
-    - - זומער
-      - קיץ
-    - - ווינטער
-      - חורף
-    - - פֿרילינג
-      - אביב
-    - - האַרבסט
-      - סתיו
+    - - איצט
+      - עכשיו
+    - - דעמולט
+      - אז
+    - - פֿריִער
+      - קודם
+    - - דערפֿאַר
+      - לכן
+    - - צוליב
+      - בגלל
     lexemes:
-    - p4-moyz
-    - p4-zumer
-    - p4-vinter
-    - p4-friling
-    - p4-harbst
-  - id: p4-l3-13
-    type: multiple_choice
-    prompt: מה פירוש טײַך?
-    options:
-    - נהר
-    - ירח
-    - דשא
-    correct: 0
-    lexemes:
-    - p4-taykh
+    - p4-itst
+    - p4-demolt
+    - p4-frier
+    - p4-derfar
+    - p4-tsulib
   - id: p4-l3-14
-    type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: שדה?'
-    options:
-    - פֿעלד
-    - שטערן
-    - בוים
-    correct: 0
+    type: match_pairs
+    pairs:
+    - - יעדער
+      - כל / כל אחד
+    - - אַלע
+      - כל / כולם
+    - - גאַנץ
+      - שלם / כל
+    - - זאָל
+      - שֶׁ־ (שיהיה)
+    - - טאָר
+      - 'מותר (בשלילה: אסור)'
+    - - ווערט
+      - נהיה
     lexemes:
-    - p4-feld
+    - p4-yeder
+    - p4-ale
+    - p4-gants
+    - p4-zol
+    - p4-tor
+    - p4-vert2
   - id: p4-l3-15
     type: multiple_choice
-    prompt: מה פירוש ערד?
+    prompt: מה פירוש איצט?
     options:
-    - אדמה
-    - יער
-    - חתול
+    - עכשיו
+    - אכן
+    - כך
     correct: 0
     lexemes:
-    - p4-erd
+    - p4-itst
   - id: p4-l3-16
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: אש?'
+    prompt: 'איזו מילה מתאימה ל: אז?'
     options:
-    - פֿײַער
-    - הימל
-    - שטיין
+    - דעמולט
+    - כאָטש
+    - זיי
     correct: 0
     lexemes:
-    - p4-fayer
+    - p4-demolt
   - id: p4-l3-17
     type: multiple_choice
-    prompt: מה פירוש שאָף?
+    prompt: מה פירוש פֿריִער?
     options:
-    - כבשה
-    - סוס
-    - כוכב
+    - קודם
+    - רק
+    - ממש
     correct: 0
     lexemes:
-    - p4-shof
+    - p4-frier
   - id: p4-l3-18
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: עכבר?'
+    prompt: 'איזו מילה מתאימה ל: לכן?'
     options:
-    - מויז
-    - שנײַ
-    - שטערן
+    - דערפֿאַר
+    - מען
+    - כאָטש
     correct: 0
     lexemes:
-    - p4-moyz
+    - p4-derfar
   - id: p4-l3-19
     type: multiple_choice
-    prompt: מה פירוש זומער?
+    prompt: מה פירוש צוליב?
     options:
-    - קיץ
-    - ירח
-    - כלב
+    - בגלל
+    - מעל / מעבר
+    - עד
     correct: 0
     lexemes:
-    - p4-zumer
+    - p4-tsulib
   - id: p4-l3-20
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: חורף?'
+    prompt: 'איזו מילה מתאימה ל: כל / כל אחד?'
     options:
-    - ווינטער
-    - קאַץ
-    - גראָז
+    - יעדער
+    - אַזוי
+    - נאָר
     correct: 0
     lexemes:
-    - p4-vinter
+    - p4-yeder
   - id: p4-l3-21
     type: multiple_choice
-    prompt: מה פירוש פֿרילינג?
+    prompt: מה פירוש אַלע?
     options:
-    - אביב
-    - כוכב
-    - פרח
+    - כל / כולם
+    - ממש
+    - אומרים / לומדים (כללי)
     correct: 0
     lexemes:
-    - p4-friling
+    - p4-ale
   - id: p4-l3-22
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: סתיו?'
+    prompt: 'איזו מילה מתאימה ל: שלם / כל?'
     options:
-    - האַרבסט
-    - שנײַ
-    - קאַץ
+    - גאַנץ
+    - איבער
+    - אים
     correct: 0
     lexemes:
-    - p4-harbst
+    - p4-gants
   - id: p4-l3-23
-    type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה נהר
-    answers:
-    - טײַך
+    type: multiple_choice
+    prompt: מה פירוש זאָל?
     options:
-    - טײַך
-    - הונט
-    - בוים
+    - שֶׁ־ (שיהיה)
+    - כך
+    - רק
+    correct: 0
     lexemes:
-    - p4-taykh
+    - p4-zol
   - id: p4-l3-24
-    type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה שדה
-    answers:
-    - פֿעלד
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: מותר (בשלילה: אסור)?'
     options:
-    - פֿעלד
-    - שטערן
-    - פֿויגל
+    - טאָר
+    - דורך
+    - וועגן
+    correct: 0
     lexemes:
-    - p4-feld
+    - p4-tor
   - id: p4-l3-25
-    type: fill_blank
-    sentence: איך זע ___.
-    translation: אני רואה אדמה
-    answers:
-    - ערד
+    type: multiple_choice
+    prompt: מה פירוש ווערט?
     options:
-    - ערד
-    - גראָז
-    - שנײַ
+    - נהיה
+    - בין
+    - אף על פי ש־
+    correct: 0
     lexemes:
-    - p4-erd
+    - p4-vert2
   - id: p4-l3-26
     type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה אש
+    sentence: ___ בין איך אין שול.
+    translation: עכשיו אני בבית הכנסת
     answers:
-    - פֿײַער
+    - איצט
     options:
-    - פֿײַער
-    - לבנה
-    - שטערן
+    - איצט
+    - גאָר
+    - אַליין
     lexemes:
-    - p4-fayer
+    - p4-itst
   - id: p4-l3-27
     type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה כבשה
+    sentence: ___ האָב איך געלערנט.
+    translation: אז למדתי
     answers:
-    - שאָף
+    - דעמולט
     options:
-    - שאָף
-    - פֿערד
-    - ווינט
+    - דעמולט
+    - אַליין
+    - גאָר
     lexemes:
-    - p4-shof
+    - p4-demolt
   - id: p4-l3-28
     type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה עכבר
+    sentence: ___ האָב איך געגעסן.
+    translation: קודם אכלתי
     answers:
-    - מויז
+    - פֿריִער
     options:
-    - מויז
-    - ווינט
-    - בוים
+    - פֿריִער
+    - טאַקע
+    - נאָר
     lexemes:
-    - p4-moyz
+    - p4-frier
   - id: p4-l3-29
     type: fill_blank
-    sentence: איך האָב ליב דעם ___.
-    translation: אני אוהב את הקיץ
+    sentence: איך בין מיד, ___ שלאָף איך.
+    translation: אני עייף, לכן אני ישן
     answers:
-    - זומער
+    - דערפֿאַר
     options:
-    - זומער
-    - שטערן
-    - בלום
+    - דערפֿאַר
+    - אַזוי
+    - אַליין
     lexemes:
-    - p4-zumer
+    - p4-derfar
   - id: p4-l3-30
     type: fill_blank
-    sentence: איך האָב ליב דעם ___.
-    translation: אני אוהב את החורף
+    sentence: ___ דעם רעגן בלײַב איך אין שטוב.
+    translation: בגלל הגשם אני נשאר בבית
     answers:
-    - ווינטער
+    - צוליב
     options:
-    - ווינטער
-    - קו
-    - בערג
+    - צוליב
+    - דורך
+    - איבער
     lexemes:
-    - p4-vinter
+    - p4-tsulib
   - id: p4-l3-31
     type: fill_blank
-    sentence: איך האָב ליב דעם ___.
-    translation: אני אוהב את האביב
+    sentence: ___ איד לערנט.
+    translation: כל יהודי לומד
     answers:
-    - פֿרילינג
+    - יעדער
     options:
-    - פֿרילינג
-    - לבנה
-    - שטערן
+    - יעדער
+    - זיי
+    - אים
     lexemes:
-    - p4-friling
+    - p4-yeder
   - id: p4-l3-32
     type: fill_blank
-    sentence: איך האָב ליב דעם ___.
-    translation: אני אוהב את הסתיו
+    sentence: ___ קינדער לערנען.
+    translation: כל הילדים לומדים
     answers:
-    - האַרבסט
+    - אַלע
     options:
-    - האַרבסט
-    - גראָז
-    - פֿערד
+    - אַלע
+    - מען
+    - זיי
     lexemes:
-    - p4-harbst
+    - p4-ale
+  - id: p4-l3-33
+    type: fill_blank
+    sentence: דער ___ טאָג איז שיין.
+    translation: כל היום יפה
+    answers:
+    - גאַנץ
+    options:
+    - גאַנץ
+    - פֿאַר
+    - וועגן
+    lexemes:
+    - p4-gants
+  - id: p4-l3-34
+    type: fill_blank
+    sentence: ער ___ קומען.
+    translation: שיבוא
+    answers:
+    - זאָל
+    options:
+    - זאָל
+    - נאָר
+    - אַזוי
+    lexemes:
+    - p4-zol
+  - id: p4-l3-35
+    type: fill_blank
+    sentence: מען ___ ניט עסן דאָ.
+    translation: אסור לאכול כאן
+    answers:
+    - טאָר
+    options:
+    - טאָר
+    - דורך
+    - אַליין
+    lexemes:
+    - p4-tor
+  - id: p4-l3-36
+    type: fill_blank
+    sentence: עס ___ קאַלט.
+    translation: נהיה קר
+    answers:
+    - ווערט
+    options:
+    - ווערט
+    - אים
+    - אַליין
+    lexemes:
+    - p4-vert2

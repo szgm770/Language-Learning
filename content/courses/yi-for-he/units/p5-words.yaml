@@ -1,140 +1,182 @@
 id: p5-words
-cefr: B2
-scene: town
+cefr: B1
+scene: party
 title:
-  he: 'הרחבת אוצר מילים 5: אנשים ומקצועות'
-  en: 'Word builder 5: people and trades'
-story: מילים שימושיות נוספות, כל אחת במשפט קצר.
+  he: 'הרחבת אוצר מילים 5: חיי יהדות'
+  en: 'Word builder 5: Jewish life'
+story: בהתוועדות בבית הכנסת מנחם שומע על מנהגים וחגים, והסבא מראה לו את הדברים.
 canDo:
-- להבין ולהשתמש במילים נפוצות נוספות
+- להבין ולהשתמש במילים נפוצות נוספות בשיחה
 - לזהות את המילים במשפטים
 vocabulary:
-- id: p5-mentsh
-  text: מענטש
-  translation: אדם
+- id: p5-tfilin
+  text: תפילין
+  translation: תפילין (לראש ולזרוע)
   pos: noun
   example:
-    text: איך זע אַ מענטש.
-    translation: אני רואה אדם
-- id: p5-man
-  text: מאַן
-  translation: גבר
+    text: איך זע תפילין.
+    translation: אני רואה תפילין (לראש ולזרוע)
+- id: p5-talis
+  text: טלית
+  translation: טלית גדולה
   pos: noun
   example:
-    text: איך זע אַ מאַן.
-    translation: אני רואה גבר
-- id: p5-froy
-  text: פֿרוי
-  translation: אישה
+    text: איך זע אַ טלית.
+    translation: אני רואה טלית גדולה
+- id: p5-mezuze
+  text: מזוזה
+  translation: מזוזה בפתח
   pos: noun
   example:
-    text: איך זע אַ פֿרוי.
-    translation: אני רואה אישה
-- id: p5-yingl
-  text: יינגל
-  translation: ילד
+    text: איך זע אַ מזוזה.
+    translation: אני רואה מזוזה בפתח
+- id: p5-lulev
+  text: לולב
+  translation: לולב של סוכות
   pos: noun
   example:
-    text: איך זע אַ יינגל.
-    translation: אני רואה ילד
-- id: p5-meydl
-  text: מיידל
-  translation: ילדה
+    text: איך זע אַ לולב.
+    translation: אני רואה לולב של סוכות
+- id: p5-esreg
+  text: אתרוג
+  translation: אתרוג של סוכות
   pos: noun
   example:
-    text: איך זע אַ מיידל.
-    translation: אני רואה ילדה
-- id: p5-shokhn
-  text: שכן
-  translation: שכן ליד הבית
+    text: איך זע אַן אתרוג.
+    translation: אני רואה אתרוג של סוכות
+- id: p5-menoyre
+  text: מנורה
+  translation: מנורת שבעה קנים
   pos: noun
   example:
-    text: איך זע אַ שכן.
-    translation: אני רואה שכן ליד הבית
-- id: p5-keynig
-  text: קעניג
-  translation: מלך
+    text: איך זע אַ מנורה.
+    translation: אני רואה מנורת שבעה קנים
+- id: p5-sidur
+  text: סידור
+  translation: ספר תפילה
   pos: noun
   example:
-    text: איך זע אַ קעניג.
-    translation: אני רואה מלך
-- id: p5-rov
-  text: רב
-  translation: רב הקהילה
+    text: איך זע אַ סידור.
+    translation: אני רואה ספר תפילה
+- id: p5-khumesh
+  text: חומש
+  translation: חומש תורה
   pos: noun
   example:
-    text: איך זע אַ רב.
-    translation: אני רואה רב הקהילה
-- id: p5-balebos
-  text: בעל־הבית
-  translation: בעל הבית
+    text: איך זע אַ חומש.
+    translation: אני רואה חומש תורה
+- id: p5-gemore
+  text: גמרא
+  translation: ספר הגמרא
   pos: noun
   example:
-    text: איך זע אַ בעל־הבית.
-    translation: אני רואה בעל הבית
-- id: p5-poyer
-  text: פּויער
-  translation: איכר
+    text: איך זע גמרא.
+    translation: אני רואה ספר הגמרא
+- id: p5-mishne
+  text: משנה
+  translation: ספר המשנה
   pos: noun
   example:
-    text: איך זע אַ פּויער.
-    translation: אני רואה איכר
-- id: p5-melamed
-  text: מלמד
-  translation: מלמד תינוקות
+    text: איך זע משנה.
+    translation: אני רואה ספר המשנה
+- id: p5-yarmulke
+  text: יאַרמולקע
+  translation: כיפה
   pos: noun
   example:
-    text: איך זע אַ מלמד.
-    translation: אני רואה מלמד תינוקות
-- id: p5-talmid
-  text: תלמיד
-  translation: תלמיד בכיתה
+    text: איך זע אַ יאַרמולקע.
+    translation: אני רואה כיפה
+- id: p5-tsitsis
+  text: ציצית
+  translation: ציצית לבגד
   pos: noun
   example:
-    text: איך זע אַ תלמיד.
-    translation: אני רואה תלמיד בכיתה
-- id: p5-soykher
-  text: סוחר
-  translation: סוחר בשוק
+    text: איך זע ציצית.
+    translation: אני רואה ציצית לבגד
+- id: p5-bmh
+  text: בית־המדרש
+  translation: בית מדרש
   pos: noun
   example:
-    text: איך זע אַ סוחר.
-    translation: אני רואה סוחר בשוק
-- id: p5-shnayder
-  text: שנײַדער
-  translation: חייט
+    text: איך זע אַ בית־המדרש.
+    translation: אני רואה בית מדרש
+- id: p5-hovdole
+  text: הבדלה
+  translation: הבדלה במוצאי שבת
   pos: noun
   example:
-    text: איך זע אַ שנײַדער.
-    translation: אני רואה חייט
-- id: p5-shuster
-  text: שוסטער
-  translation: סנדלר
+    text: מיר זאָגן הבדלה.
+    translation: אנחנו אומרים הבדלה
+- id: p5-purim
+  text: פּורים
+  translation: פורים
   pos: noun
   example:
-    text: איך זע אַ שוסטער.
-    translation: אני רואה סנדלר
-- id: p5-beker
-  text: בעקער
-  translation: אופה
+    text: מיר פֿײַערן פּורים.
+    translation: אנחנו חוגגים פורים
+- id: p5-khanike
+  text: חנוכה
+  translation: חג החנוכה
   pos: noun
   example:
-    text: איך זע אַ בעקער.
-    translation: אני רואה אופה
-- id: p5-khosn
-  text: חתן
-  translation: חתן (בחתונה)
+    text: מיר פֿײַערן חנוכה.
+    translation: אנחנו חוגגים חנוכה
+- id: p5-shvues
+  text: שבועות
+  translation: חג השבועות
   pos: noun
   example:
-    text: איך זע אַ חתן.
-    translation: אני רואה חתן (בחתונה)
-- id: p5-kale
-  text: כלה
-  translation: כלה (בחתונה)
+    text: מיר פֿײַערן שבועות.
+    translation: אנחנו חוגגים שבועות
+- id: p5-simkhes
+  text: שמחת־תורה
+  translation: שמחת תורה
   pos: noun
   example:
-    text: איך זע אַ כלה.
-    translation: אני רואה כלה (בחתונה)
+    text: מיר פֿײַערן שמחת־תורה.
+    translation: אנחנו חוגגים שמחת תורה
+- id: p5-bar
+  text: בר־מצוה
+  translation: בר מצווה
+  pos: noun
+  example:
+    text: מיר גייען אויף אַ בר־מצוה.
+    translation: אנחנו הולכים לבר מצווה
+- id: p5-khasene
+  text: חתונה
+  translation: חתונה (אירוע)
+  pos: noun
+  example:
+    text: מיר גייען אויף אַ חתונה.
+    translation: אנחנו הולכים לחתונה
+- id: p5-bris
+  text: ברית
+  translation: ברית מילה
+  pos: noun
+  example:
+    text: מיר גייען אויף אַ ברית.
+    translation: אנחנו הולכים לברית
+- id: p5-moshiakh
+  text: משיח
+  translation: המשיח
+  pos: noun
+  example:
+    text: מיר וואַרטן אויף משיח.
+    translation: אנחנו מחכים למשיח
+- id: p5-hakhnoses
+  text: הכנסת־אורחים
+  translation: קבלת אורחים
+  pos: noun
+  example:
+    text: איך זע הכנסת־אורחים.
+    translation: אני רואה קבלת אורחים
+- id: p5-sforim
+  text: ספֿרים
+  translation: ספרי קודש
+  pos: noun
+  example:
+    text: איך זע ספֿרים.
+    translation: אני רואה ספרי קודש
 lessons:
 - id: p5-l1
   kind: new
@@ -144,180 +186,252 @@ lessons:
   exercises:
   - id: p5-l1-01
     type: learn
-    lexeme: p5-mentsh
+    lexeme: p5-tfilin
   - id: p5-l1-02
     type: learn
-    lexeme: p5-man
+    lexeme: p5-talis
   - id: p5-l1-03
     type: learn
-    lexeme: p5-froy
+    lexeme: p5-mezuze
   - id: p5-l1-04
     type: learn
-    lexeme: p5-yingl
+    lexeme: p5-lulev
   - id: p5-l1-05
     type: learn
-    lexeme: p5-meydl
+    lexeme: p5-esreg
   - id: p5-l1-06
     type: learn
-    lexeme: p5-shokhn
+    lexeme: p5-menoyre
   - id: p5-l1-07
-    type: match_pairs
-    pairs:
-    - - מענטש
-      - אדם
-    - - מאַן
-      - גבר
-    - - פֿרוי
-      - אישה
-    lexemes:
-    - p5-mentsh
-    - p5-man
-    - p5-froy
+    type: learn
+    lexeme: p5-sidur
   - id: p5-l1-08
+    type: learn
+    lexeme: p5-khumesh
+  - id: p5-l1-09
+    type: dialogue
+    scene: מנחם מתכונן לתפילה
+    lines:
+    - speaker: menachem
+      text: זיידע, וווּ זענען מײַנע תּפֿילין און דער טלית?
+      translation: סבא, איפה התפילין והטלית שלי?
+    - speaker: zeyde
+      text: אין דער טאַש. דאָס סידור איז אויך דאָרט, און דער חומש.
+      translation: בתיק. גם הסידור שם, והחומש.
+    - speaker: menachem
+      text: און די מזוזה? מע דאַרף עס אָנקוקן?
+      translation: והמזוזה? צריך לבדוק אותה?
+    - speaker: zeyde
+      text: יאָ. נאָך סוכות וועלן מיר קויפֿן אַ לולב און אַן אתרוג, און מיר צינדן די מנורה.
+      translation: כן. אחרי סוכות נקנה לולב ואתרוג, ונדליק את המנורה.
+  - id: p5-l1-10
     type: match_pairs
     pairs:
-    - - יינגל
-      - ילד
-    - - מיידל
-      - ילדה
-    - - שכן
-      - שכן ליד הבית
+    - - תפילין
+      - תפילין (לראש ולזרוע)
+    - - טלית
+      - טלית גדולה
+    - - מזוזה
+      - מזוזה בפתח
+    - - לולב
+      - לולב של סוכות
     lexemes:
-    - p5-yingl
-    - p5-meydl
-    - p5-shokhn
-  - id: p5-l1-09
-    type: multiple_choice
-    prompt: מה פירוש מענטש?
-    options:
-    - אדם
-    - תלמיד בכיתה
-    - כלה (בחתונה)
-    correct: 0
-    lexemes:
-    - p5-mentsh
-  - id: p5-l1-10
-    type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: גבר?'
-    options:
-    - מאַן
-    - חתן
-    - כלה
-    correct: 0
-    lexemes:
-    - p5-man
+    - p5-tfilin
+    - p5-talis
+    - p5-mezuze
+    - p5-lulev
   - id: p5-l1-11
-    type: multiple_choice
-    prompt: מה פירוש פֿרוי?
-    options:
-    - אישה
-    - סנדלר
-    - תלמיד בכיתה
-    correct: 0
+    type: match_pairs
+    pairs:
+    - - אתרוג
+      - אתרוג של סוכות
+    - - מנורה
+      - מנורת שבעה קנים
+    - - סידור
+      - ספר תפילה
+    - - חומש
+      - חומש תורה
     lexemes:
-    - p5-froy
+    - p5-esreg
+    - p5-menoyre
+    - p5-sidur
+    - p5-khumesh
   - id: p5-l1-12
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: ילד?'
+    prompt: מה פירוש תפילין?
     options:
-    - יינגל
-    - רב
-    - שנײַדער
+    - תפילין (לראש ולזרוע)
+    - חתונה (אירוע)
+    - ספר המשנה
     correct: 0
     lexemes:
-    - p5-yingl
+    - p5-tfilin
   - id: p5-l1-13
     type: multiple_choice
-    prompt: מה פירוש מיידל?
+    prompt: 'איזו מילה מתאימה ל: טלית גדולה?'
     options:
-    - ילדה
-    - מלך
-    - כלה (בחתונה)
+    - טלית
+    - גמרא
+    - פּורים
     correct: 0
     lexemes:
-    - p5-meydl
+    - p5-talis
   - id: p5-l1-14
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: שכן ליד הבית?'
+    prompt: מה פירוש מזוזה?
     options:
-    - שכן
-    - מלמד
-    - בעל־הבית
+    - מזוזה בפתח
+    - חתונה (אירוע)
+    - חג השבועות
     correct: 0
     lexemes:
-    - p5-shokhn
+    - p5-mezuze
   - id: p5-l1-15
-    type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה אדם
-    answers:
-    - מענטש
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: לולב של סוכות?'
     options:
-    - מענטש
-    - בעל־הבית
-    - קעניג
+    - לולב
+    - שמחת־תורה
+    - שבועות
+    correct: 0
     lexemes:
-    - p5-mentsh
+    - p5-lulev
   - id: p5-l1-16
-    type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה גבר
-    answers:
-    - מאַן
+    type: multiple_choice
+    prompt: מה פירוש אתרוג?
     options:
-    - מאַן
-    - כלה
-    - בעל־הבית
+    - אתרוג של סוכות
+    - חתונה (אירוע)
+    - ציצית לבגד
+    correct: 0
     lexemes:
-    - p5-man
+    - p5-esreg
   - id: p5-l1-17
-    type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה אישה
-    answers:
-    - פֿרוי
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: מנורת שבעה קנים?'
     options:
-    - פֿרוי
-    - קעניג
-    - תלמיד
+    - מנורה
+    - שבועות
+    - בית־המדרש
+    correct: 0
     lexemes:
-    - p5-froy
+    - p5-menoyre
   - id: p5-l1-18
-    type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה ילד
-    answers:
-    - יינגל
+    type: multiple_choice
+    prompt: מה פירוש סידור?
     options:
-    - יינגל
-    - רב
-    - בעקער
+    - ספר תפילה
+    - הבדלה במוצאי שבת
+    - המשיח
+    correct: 0
     lexemes:
-    - p5-yingl
+    - p5-sidur
   - id: p5-l1-19
-    type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה ילדה
-    answers:
-    - מיידל
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: חומש תורה?'
     options:
-    - מיידל
-    - מלמד
-    - רב
+    - חומש
+    - ציצית
+    - בר־מצוה
+    correct: 0
     lexemes:
-    - p5-meydl
+    - p5-khumesh
   - id: p5-l1-20
     type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה שכן ליד הבית
+    sentence: איך זע ___.
+    translation: אני רואה תפילין (לראש ולזרוע)
     answers:
-    - שכן
+    - תפילין
     options:
-    - שכן
-    - מלמד
-    - תלמיד
+    - תפילין
+    - ספֿרים
+    - גמרא
     lexemes:
-    - p5-shokhn
+    - p5-tfilin
+  - id: p5-l1-21
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה טלית גדולה
+    answers:
+    - טלית
+    options:
+    - טלית
+    - יאַרמולקע
+    - בית־המדרש
+    lexemes:
+    - p5-talis
+  - id: p5-l1-22
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה מזוזה בפתח
+    answers:
+    - מזוזה
+    options:
+    - מזוזה
+    - בית־המדרש
+    - יאַרמולקע
+    lexemes:
+    - p5-mezuze
+  - id: p5-l1-23
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה לולב של סוכות
+    answers:
+    - לולב
+    options:
+    - לולב
+    - יאַרמולקע
+    - בית־המדרש
+    lexemes:
+    - p5-lulev
+  - id: p5-l1-24
+    type: fill_blank
+    sentence: איך זע אַן ___.
+    translation: אני רואה אתרוג של סוכות
+    answers:
+    - אתרוג
+    options:
+    - אתרוג
+    - משיח
+    - ציצית
+    lexemes:
+    - p5-esreg
+  - id: p5-l1-25
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה מנורת שבעה קנים
+    answers:
+    - מנורה
+    options:
+    - מנורה
+    - בית־המדרש
+    - יאַרמולקע
+    lexemes:
+    - p5-menoyre
+  - id: p5-l1-26
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה ספר תפילה
+    answers:
+    - סידור
+    options:
+    - סידור
+    - בית־המדרש
+    - יאַרמולקע
+    lexemes:
+    - p5-sidur
+  - id: p5-l1-27
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה חומש תורה
+    answers:
+    - חומש
+    options:
+    - חומש
+    - בית־המדרש
+    - יאַרמולקע
+    lexemes:
+    - p5-khumesh
 - id: p5-l2
   kind: new
   title:
@@ -326,180 +440,252 @@ lessons:
   exercises:
   - id: p5-l2-01
     type: learn
-    lexeme: p5-keynig
+    lexeme: p5-gemore
   - id: p5-l2-02
     type: learn
-    lexeme: p5-rov
+    lexeme: p5-mishne
   - id: p5-l2-03
     type: learn
-    lexeme: p5-balebos
+    lexeme: p5-yarmulke
   - id: p5-l2-04
     type: learn
-    lexeme: p5-poyer
+    lexeme: p5-tsitsis
   - id: p5-l2-05
     type: learn
-    lexeme: p5-melamed
+    lexeme: p5-bmh
   - id: p5-l2-06
     type: learn
-    lexeme: p5-talmid
+    lexeme: p5-hovdole
   - id: p5-l2-07
-    type: match_pairs
-    pairs:
-    - - קעניג
-      - מלך
-    - - רב
-      - רב הקהילה
-    - - בעל־הבית
-      - בעל הבית
-    lexemes:
-    - p5-keynig
-    - p5-rov
-    - p5-balebos
+    type: learn
+    lexeme: p5-purim
   - id: p5-l2-08
+    type: learn
+    lexeme: p5-khanike
+  - id: p5-l2-09
+    type: dialogue
+    scene: בבית המדרש
+    lines:
+    - speaker: menachem
+      text: זיידע, ווער לערנט גמרא און ווער משנה אין בית־המדרש?
+      translation: סבא, מי לומד גמרא ומי משנה בבית המדרש?
+    - speaker: zeyde
+      text: אַלע. קוק אויף דער יאַרמולקע און די ציצית פֿון יעדן.
+      translation: כולם. תסתכל על הכיפה והציצית של כל אחד.
+    - speaker: menachem
+      text: און וואָס זאָגט מען נאָך דער הבדלה?
+      translation: ומה אומרים אחרי ההבדלה?
+    - speaker: zeyde
+      text: מען זינגט. אין חנוכה און פּורים — אַ גאַנצע שמחה.
+      translation: שרים. בחנוכה ובפורים — שמחה שלמה.
+  - id: p5-l2-10
     type: match_pairs
     pairs:
-    - - פּויער
-      - איכר
-    - - מלמד
-      - מלמד תינוקות
-    - - תלמיד
-      - תלמיד בכיתה
+    - - גמרא
+      - ספר הגמרא
+    - - משנה
+      - ספר המשנה
+    - - יאַרמולקע
+      - כיפה
+    - - ציצית
+      - ציצית לבגד
     lexemes:
-    - p5-poyer
-    - p5-melamed
-    - p5-talmid
-  - id: p5-l2-09
-    type: multiple_choice
-    prompt: מה פירוש קעניג?
-    options:
-    - מלך
-    - אישה
-    - סנדלר
-    correct: 0
-    lexemes:
-    - p5-keynig
-  - id: p5-l2-10
-    type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: רב הקהילה?'
-    options:
-    - רב
-    - שנײַדער
-    - בעקער
-    correct: 0
-    lexemes:
-    - p5-rov
+    - p5-gemore
+    - p5-mishne
+    - p5-yarmulke
+    - p5-tsitsis
   - id: p5-l2-11
-    type: multiple_choice
-    prompt: מה פירוש בעל־הבית?
-    options:
-    - בעל הבית
-    - כלה (בחתונה)
-    - ילד
-    correct: 0
+    type: match_pairs
+    pairs:
+    - - בית־המדרש
+      - בית מדרש
+    - - הבדלה
+      - הבדלה במוצאי שבת
+    - - פּורים
+      - פורים
+    - - חנוכה
+      - חג החנוכה
     lexemes:
-    - p5-balebos
+    - p5-bmh
+    - p5-hovdole
+    - p5-purim
+    - p5-khanike
   - id: p5-l2-12
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: איכר?'
+    prompt: מה פירוש גמרא?
     options:
-    - פּויער
-    - שכן
-    - פֿרוי
+    - ספר הגמרא
+    - ברית מילה
+    - ספרי קודש
     correct: 0
     lexemes:
-    - p5-poyer
+    - p5-gemore
   - id: p5-l2-13
     type: multiple_choice
-    prompt: מה פירוש מלמד?
+    prompt: 'איזו מילה מתאימה ל: ספר המשנה?'
     options:
-    - מלמד תינוקות
-    - סנדלר
-    - שכן ליד הבית
+    - משנה
+    - הכנסת־אורחים
+    - לולב
     correct: 0
     lexemes:
-    - p5-melamed
+    - p5-mishne
   - id: p5-l2-14
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: תלמיד בכיתה?'
+    prompt: מה פירוש יאַרמולקע?
     options:
-    - תלמיד
-    - חתן
-    - שוסטער
+    - כיפה
+    - מזוזה בפתח
+    - ספר תפילה
     correct: 0
     lexemes:
-    - p5-talmid
+    - p5-yarmulke
   - id: p5-l2-15
-    type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה מלך
-    answers:
-    - קעניג
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: ציצית לבגד?'
     options:
-    - קעניג
-    - סוחר
-    - מאַן
+    - ציצית
+    - אתרוג
+    - חומש
+    correct: 0
     lexemes:
-    - p5-keynig
+    - p5-tsitsis
   - id: p5-l2-16
-    type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה רב הקהילה
-    answers:
-    - רב
+    type: multiple_choice
+    prompt: מה פירוש בית־המדרש?
     options:
-    - רב
-    - כלה
-    - סוחר
+    - בית מדרש
+    - תפילין (לראש ולזרוע)
+    - חג השבועות
+    correct: 0
     lexemes:
-    - p5-rov
+    - p5-bmh
   - id: p5-l2-17
-    type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה בעל הבית
-    answers:
-    - בעל־הבית
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: הבדלה במוצאי שבת?'
     options:
-    - בעל־הבית
-    - פֿרוי
-    - סוחר
+    - הבדלה
+    - שמחת־תורה
+    - סידור
+    correct: 0
     lexemes:
-    - p5-balebos
+    - p5-hovdole
   - id: p5-l2-18
-    type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה איכר
-    answers:
-    - פּויער
+    type: multiple_choice
+    prompt: מה פירוש פּורים?
     options:
-    - פּויער
-    - מיידל
-    - פֿרוי
+    - פורים
+    - ספר תפילה
+    - בר מצווה
+    correct: 0
     lexemes:
-    - p5-poyer
+    - p5-purim
   - id: p5-l2-19
-    type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה מלמד תינוקות
-    answers:
-    - מלמד
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: חג החנוכה?'
     options:
-    - מלמד
-    - שנײַדער
-    - יינגל
+    - חנוכה
+    - סידור
+    - חתונה
+    correct: 0
     lexemes:
-    - p5-melamed
+    - p5-khanike
   - id: p5-l2-20
     type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה תלמיד בכיתה
+    sentence: איך זע ___.
+    translation: אני רואה ספר הגמרא
     answers:
-    - תלמיד
+    - גמרא
     options:
-    - תלמיד
-    - סוחר
-    - מאַן
+    - גמרא
+    - תפילין
+    - ספֿרים
     lexemes:
-    - p5-talmid
+    - p5-gemore
+  - id: p5-l2-21
+    type: fill_blank
+    sentence: איך זע ___.
+    translation: אני רואה ספר המשנה
+    answers:
+    - משנה
+    options:
+    - משנה
+    - תפילין
+    - הכנסת־אורחים
+    lexemes:
+    - p5-mishne
+  - id: p5-l2-22
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה כיפה
+    answers:
+    - יאַרמולקע
+    options:
+    - יאַרמולקע
+    - מזוזה
+    - מנורה
+    lexemes:
+    - p5-yarmulke
+  - id: p5-l2-23
+    type: fill_blank
+    sentence: איך זע ___.
+    translation: אני רואה ציצית לבגד
+    answers:
+    - ציצית
+    options:
+    - ציצית
+    - ספֿרים
+    - הכנסת־אורחים
+    lexemes:
+    - p5-tsitsis
+  - id: p5-l2-24
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה בית מדרש
+    answers:
+    - בית־המדרש
+    options:
+    - בית־המדרש
+    - חומש
+    - מזוזה
+    lexemes:
+    - p5-bmh
+  - id: p5-l2-25
+    type: fill_blank
+    sentence: מיר זאָגן ___.
+    translation: אנחנו אומרים הבדלה
+    answers:
+    - הבדלה
+    options:
+    - הבדלה
+    - לולב
+    - חומש
+    lexemes:
+    - p5-hovdole
+  - id: p5-l2-26
+    type: fill_blank
+    sentence: מיר פֿײַערן ___.
+    translation: אנחנו חוגגים פורים
+    answers:
+    - פּורים
+    options:
+    - פּורים
+    - שמחת־תורה
+    - שבועות
+    lexemes:
+    - p5-purim
+  - id: p5-l2-27
+    type: fill_blank
+    sentence: מיר פֿײַערן ___.
+    translation: אנחנו חוגגים חנוכה
+    answers:
+    - חנוכה
+    options:
+    - חנוכה
+    - שבועות
+    - שמחת־תורה
+    lexemes:
+    - p5-khanike
 - id: p5-l3
   kind: new
   title:
@@ -508,177 +694,249 @@ lessons:
   exercises:
   - id: p5-l3-01
     type: learn
-    lexeme: p5-soykher
+    lexeme: p5-shvues
   - id: p5-l3-02
     type: learn
-    lexeme: p5-shnayder
+    lexeme: p5-simkhes
   - id: p5-l3-03
     type: learn
-    lexeme: p5-shuster
+    lexeme: p5-bar
   - id: p5-l3-04
     type: learn
-    lexeme: p5-beker
+    lexeme: p5-khasene
   - id: p5-l3-05
     type: learn
-    lexeme: p5-khosn
+    lexeme: p5-bris
   - id: p5-l3-06
     type: learn
-    lexeme: p5-kale
+    lexeme: p5-moshiakh
   - id: p5-l3-07
-    type: match_pairs
-    pairs:
-    - - סוחר
-      - סוחר בשוק
-    - - שנײַדער
-      - חייט
-    - - שוסטער
-      - סנדלר
-    lexemes:
-    - p5-soykher
-    - p5-shnayder
-    - p5-shuster
+    type: learn
+    lexeme: p5-hakhnoses
   - id: p5-l3-08
+    type: learn
+    lexeme: p5-sforim
+  - id: p5-l3-09
+    type: dialogue
+    scene: על חגים ושמחות
+    lines:
+    - speaker: menachem
+      text: זיידע, ווען איז שבועות און ווען שמחת־תורה?
+      translation: סבא, מתי שבועות ומתי שמחת תורה?
+    - speaker: zeyde
+      text: דער בר־מצוה פֿון דײַן ברודער איז נאָך אַ וואָך. אַ חתונה איז דעם חודש.
+      translation: בר המצווה של אחיך בעוד שבוע. חתונה יש החודש.
+    - speaker: menachem
+      text: און אַ ברית? און הכנסת־אורחים אין אונדזער שטוב?
+      translation: ובריתה? והכנסת אורחים בבית שלנו?
+    - speaker: zeyde
+      text: יאָ, יעדן שבת. מיר וואַרטן אויף משיח — און לערנען פֿיל ספֿרים.
+      translation: כן, כל שבת. מחכים למשיח — ולומדים הרבה ספרים.
+  - id: p5-l3-10
     type: match_pairs
     pairs:
-    - - בעקער
-      - אופה
-    - - חתן
-      - חתן (בחתונה)
-    - - כלה
-      - כלה (בחתונה)
+    - - שבועות
+      - חג השבועות
+    - - שמחת־תורה
+      - שמחת תורה
+    - - בר־מצוה
+      - בר מצווה
+    - - חתונה
+      - חתונה (אירוע)
     lexemes:
-    - p5-beker
-    - p5-khosn
-    - p5-kale
-  - id: p5-l3-09
-    type: multiple_choice
-    prompt: מה פירוש סוחר?
-    options:
-    - סוחר בשוק
-    - שכן ליד הבית
-    - איכר
-    correct: 0
-    lexemes:
-    - p5-soykher
-  - id: p5-l3-10
-    type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: חייט?'
-    options:
-    - שנײַדער
-    - רב
-    - מאַן
-    correct: 0
-    lexemes:
-    - p5-shnayder
+    - p5-shvues
+    - p5-simkhes
+    - p5-bar
+    - p5-khasene
   - id: p5-l3-11
-    type: multiple_choice
-    prompt: מה פירוש שוסטער?
-    options:
-    - סנדלר
-    - שכן ליד הבית
-    - בעל הבית
-    correct: 0
+    type: match_pairs
+    pairs:
+    - - ברית
+      - ברית מילה
+    - - משיח
+      - המשיח
+    - - הכנסת־אורחים
+      - קבלת אורחים
+    - - ספֿרים
+      - ספרי קודש
     lexemes:
-    - p5-shuster
+    - p5-bris
+    - p5-moshiakh
+    - p5-hakhnoses
+    - p5-sforim
   - id: p5-l3-12
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: אופה?'
+    prompt: מה פירוש שבועות?
     options:
-    - בעקער
-    - מיידל
-    - תלמיד
+    - חג השבועות
+    - ספר תפילה
+    - כיפה
     correct: 0
     lexemes:
-    - p5-beker
+    - p5-shvues
   - id: p5-l3-13
     type: multiple_choice
-    prompt: מה פירוש חתן?
+    prompt: 'איזו מילה מתאימה ל: שמחת תורה?'
     options:
-    - חתן (בחתונה)
-    - ילדה
-    - אדם
+    - שמחת־תורה
+    - מזוזה
+    - בית־המדרש
     correct: 0
     lexemes:
-    - p5-khosn
+    - p5-simkhes
   - id: p5-l3-14
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: כלה (בחתונה)?'
+    prompt: מה פירוש בר־מצוה?
     options:
-    - כלה
-    - תלמיד
-    - רב
+    - בר מצווה
+    - הבדלה במוצאי שבת
+    - טלית גדולה
     correct: 0
     lexemes:
-    - p5-kale
+    - p5-bar
   - id: p5-l3-15
-    type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה סוחר בשוק
-    answers:
-    - סוחר
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: חתונה (אירוע)?'
     options:
-    - סוחר
-    - פּויער
-    - מלמד
+    - חתונה
+    - חומש
+    - טלית
+    correct: 0
     lexemes:
-    - p5-soykher
+    - p5-khasene
   - id: p5-l3-16
-    type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה חייט
-    answers:
-    - שנײַדער
+    type: multiple_choice
+    prompt: מה פירוש ברית?
     options:
-    - שנײַדער
-    - פּויער
-    - שכן
+    - ברית מילה
+    - מזוזה בפתח
+    - אתרוג של סוכות
+    correct: 0
     lexemes:
-    - p5-shnayder
+    - p5-bris
   - id: p5-l3-17
-    type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה סנדלר
-    answers:
-    - שוסטער
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: המשיח?'
     options:
-    - שוסטער
-    - רב
-    - בעל־הבית
+    - משיח
+    - חנוכה
+    - סידור
+    correct: 0
     lexemes:
-    - p5-shuster
+    - p5-moshiakh
   - id: p5-l3-18
-    type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה אופה
-    answers:
-    - בעקער
+    type: multiple_choice
+    prompt: מה פירוש הכנסת־אורחים?
     options:
-    - בעקער
-    - רב
-    - תלמיד
+    - קבלת אורחים
+    - מזוזה בפתח
+    - ספר המשנה
+    correct: 0
     lexemes:
-    - p5-beker
+    - p5-hakhnoses
   - id: p5-l3-19
-    type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה חתן (בחתונה)
-    answers:
-    - חתן
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: ספרי קודש?'
     options:
-    - חתן
-    - מיידל
-    - בעל־הבית
+    - ספֿרים
+    - פּורים
+    - חומש
+    correct: 0
     lexemes:
-    - p5-khosn
+    - p5-sforim
   - id: p5-l3-20
     type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה כלה (בחתונה)
+    sentence: מיר פֿײַערן ___.
+    translation: אנחנו חוגגים שבועות
     answers:
-    - כלה
+    - שבועות
     options:
-    - כלה
-    - מיידל
-    - מאַן
+    - שבועות
+    - פּורים
+    - חנוכה
     lexemes:
-    - p5-kale
+    - p5-shvues
+  - id: p5-l3-21
+    type: fill_blank
+    sentence: מיר פֿײַערן ___.
+    translation: אנחנו חוגגים שמחת תורה
+    answers:
+    - שמחת־תורה
+    options:
+    - שמחת־תורה
+    - חנוכה
+    - פּורים
+    lexemes:
+    - p5-simkhes
+  - id: p5-l3-22
+    type: fill_blank
+    sentence: מיר גייען אויף אַ ___.
+    translation: אנחנו הולכים לבר מצווה
+    answers:
+    - בר־מצוה
+    options:
+    - בר־מצוה
+    - ציצית
+    - מזוזה
+    lexemes:
+    - p5-bar
+  - id: p5-l3-23
+    type: fill_blank
+    sentence: מיר גייען אויף אַ ___.
+    translation: אנחנו הולכים לחתונה
+    answers:
+    - חתונה
+    options:
+    - חתונה
+    - מזוזה
+    - ציצית
+    lexemes:
+    - p5-khasene
+  - id: p5-l3-24
+    type: fill_blank
+    sentence: מיר גייען אויף אַ ___.
+    translation: אנחנו הולכים לברית
+    answers:
+    - ברית
+    options:
+    - ברית
+    - אתרוג
+    - חנוכה
+    lexemes:
+    - p5-bris
+  - id: p5-l3-25
+    type: fill_blank
+    sentence: מיר וואַרטן אויף ___.
+    translation: אנחנו מחכים למשיח
+    answers:
+    - משיח
+    options:
+    - משיח
+    - ציצית
+    - מזוזה
+    lexemes:
+    - p5-moshiakh
+  - id: p5-l3-26
+    type: fill_blank
+    sentence: איך זע ___.
+    translation: אני רואה קבלת אורחים
+    answers:
+    - הכנסת־אורחים
+    options:
+    - הכנסת־אורחים
+    - משנה
+    - ציצית
+    lexemes:
+    - p5-hakhnoses
+  - id: p5-l3-27
+    type: fill_blank
+    sentence: איך זע ___.
+    translation: אני רואה ספרי קודש
+    answers:
+    - ספֿרים
+    options:
+    - ספֿרים
+    - תפילין
+    - גמרא
+    lexemes:
+    - p5-sforim

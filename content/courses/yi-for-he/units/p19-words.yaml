@@ -1,245 +1,189 @@
 id: p19-words
-cefr: B2
-scene: study
+cefr: C1
+scene: town
 title:
-  he: 'הרחבת אוצר מילים 19: עוד מילים משיחות'
-  en: 'Word builder 19: more words from talks'
-story: מילים נפוצות מעוד שיחות, כל אחת במשפט קצר.
+  he: 'הרחבת אוצר מילים 19: זמן ומקומות'
+  en: 'Word builder 19: time and places'
+story: במכתב מנחם מספר לסבא על הזמן והמקומות שבהם היה בניו יורק.
 canDo:
-- להבין ולהשתמש במילים נפוצות נוספות
+- להבין ולהשתמש במילים נפוצות נוספות בשיחה
 - לזהות את המילים במשפטים
 vocabulary:
-- id: p19-velkhe
-  text: וועלכע
-  translation: אילו / אשר (רבים)
-  pos: pronoun
-  example:
-    text: וועלכע ביכער האָסטו?
-    translation: אילו ספרים יש לך
-- id: p19-zoln
-  text: זאָלן
-  translation: שיילכו / צריכים (רבים)
-  pos: verb
-  example:
-    text: זיי זאָלן גיין.
-    translation: שילכו
-- id: p19-yenem
-  text: יענעם
-  translation: אותו (פעול)
-  pos: pronoun
-  example:
-    text: איך זע יענעם מענטש.
-    translation: אני רואה את האיש ההוא
-- id: p19-yener
-  text: יענער
-  translation: ההוא
-  pos: pronoun
-  example:
-    text: יענער מענטש איז גוט.
-    translation: האיש ההוא טוב
-- id: p19-farshtendik
-  text: פֿאַרשטענדיק
-  translation: מובן
-  pos: adjective
-  example:
-    text: עס איז פֿאַרשטענדיק אַז ער וויל גיין.
-    translation: מובן שהוא רוצה ללכת
-- id: p19-eyner
-  text: איינער
-  translation: אחד / מישהו
-  pos: pronoun
-  example:
-    text: איינער פֿון זיי איז דאָ.
-    translation: אחד מהם כאן
-- id: p19-derklert
-  text: דערקלערט
-  translation: הסביר
-  pos: verb
-  example:
-    text: דער רבי האָט דערקלערט אַ מעשה.
-    translation: הרבי הסביר סיפור
-- id: p19-shayekh
-  text: שייך
-  translation: קשור
-  pos: adjective
-  example:
-    text: דאָס איז שייך צו דער שול.
-    translation: זה קשור לבית הכנסת
-- id: p19-lebn
-  text: לעבן
-  translation: לחיות / חיים
-  pos: verb
-  example:
-    text: איך וויל לעבן אין ירושלים.
-    translation: אני רוצה לחיות בירושלים
-- id: p19-tsveytn
-  text: צווייטן
-  translation: השני (פעול)
-  pos: adjective
-  example:
-    text: ער רעדט מיט דעם צווייטן מענטש.
-    translation: הוא מדבר עם האיש השני
-- id: p19-zayne
-  text: זײַנע
-  translation: שלו (רבים)
-  pos: pronoun
-  example:
-    text: ער האָט זײַנע ביכער.
-    translation: יש לו ספרים שלו
-- id: p19-farvos
-  text: פֿאַרוואָס
-  translation: למה
-  pos: adverb
-  example:
-    text: פֿאַרוואָס גייסטו ניט?
-    translation: למה אתה לא הולך
-- id: p19-ufn
-  text: אויפֿן
-  translation: על ה־
-  pos: adverb
-  example:
-    text: דער בוך ליגט אויפֿן טיש.
-    translation: הספר מונח על השולחן
-- id: p19-mitn
-  text: מיטן
-  translation: עם ה־
-  pos: adverb
-  example:
-    text: ער גייט מיטן חבר.
-    translation: הוא הולך עם החבר
-- id: p19-andere
-  text: אַנדערע
-  translation: אחרים
-  pos: adjective
-  example:
-    text: מיר זען אַנדערע מענטשן.
-    translation: אנחנו רואים אנשים אחרים
-- id: p19-sidre
-  text: סדרה
-  translation: פרשת השבוע
+- id: p19-khoydesh
+  text: חודש
+  translation: חודש בלוח
   pos: noun
   example:
-    text: מיר לערנען די סדרה יעדע וואָך.
-    translation: אנחנו לומדים את הפרשה כל שבוע
-- id: p19-geheysn
-  text: געהייסן
-  translation: ציווה / אמר ל־
-  pos: verb
-  example:
-    text: דער רבי האָט מיר געהייסן גיין.
-    translation: הרבי אמר לי ללכת
-- id: p19-dermit
-  text: דערמיט
-  translation: בכך / עם זה
-  pos: adverb
-  example:
-    text: איך בין צופֿרידן דערמיט.
-    translation: אני מרוצה מזה
-- id: p19-angerufn
-  text: אָנגערופֿן
-  translation: נקרא / כונה
-  pos: verb
-  example:
-    text: ער איז אָנגערופֿן געוואָרן משה.
-    translation: הוא נקרא משה
-- id: p19-gevoynheyt
-  text: געוווינהייט
-  translation: הרגל
+    text: איך זע אַ חודש.
+    translation: אני רואה חודש בלוח
+- id: p19-minut
+  text: מינוט
+  translation: דקה
   pos: noun
   example:
-    text: עס איז אַ גוטע געוווינהייט.
-    translation: זה הרגל טוב
-- id: p19-shepsl
-  text: שעפּס
-  translation: כבש
+    text: איך זע אַ מינוט.
+    translation: אני רואה דקה
+- id: p19-shoe
+  text: שעה
+  translation: שעה (60 דקות)
   pos: noun
   example:
-    text: דער שעפּס איז אין שטוב.
-    translation: הכבש בבית
-- id: p19-nakhes
-  text: נחת
-  translation: הנאה ונחת
+    text: איך זע אַ שעה.
+    translation: אני רואה שעה (60 דקות)
+- id: p19-tsayt
+  text: צײַט
+  translation: זמן
   pos: noun
   example:
-    text: דער טאַטע האָט נחת פֿון די קינדער.
-    translation: האב מרוצה מהילדים
-- id: p19-zelbe
-  text: זעלבע
-  translation: אותו (הדבר)
-  pos: adjective
+    text: איך האָב צײַט.
+    translation: יש לי זמן
+- id: p19-banhof
+  text: באַנהאָף
+  translation: תחנת רכבת
+  pos: noun
   example:
-    text: מיר לערנען דאָס זעלבע בוך.
-    translation: אנחנו לומדים את אותו ספר
-- id: p19-beyde
-  text: ביידע
-  translation: שניהם
-  pos: adjective
+    text: איך זע אַ באַנהאָף.
+    translation: אני רואה תחנת רכבת
+- id: p19-biblyotek
+  text: ביבליאָטעק
+  translation: ספרייה
+  pos: noun
   example:
-    text: ביידע קינדער לערנען.
-    translation: שני הילדים לומדים
-- id: p19-trakht
-  text: טראַכט
-  translation: חושב
-  pos: verb
+    text: איך זע אַ ביבליאָטעק.
+    translation: אני רואה ספרייה
+- id: p19-yeshive
+  text: ישיבה
+  translation: ישיבה (בית מדרש)
+  pos: noun
   example:
-    text: ער טראַכט וועגן דעם.
-    translation: הוא חושב על זה
-- id: p19-gute
-  text: גוטע
-  translation: טובים
-  pos: adjective
+    text: איך זע אַ ישיבה.
+    translation: אני רואה ישיבה (בית מדרש)
+- id: p19-mikve
+  text: מקווה
+  translation: מקווה טהרה
+  pos: noun
   example:
-    text: זיי זענען גוטע פֿרײַנד.
-    translation: הם חברים טובים
-- id: p19-geshmak
-  text: געשמאַק
-  translation: טעים
-  pos: adjective
+    text: איך זע אַ מקווה.
+    translation: אני רואה מקווה טהרה
+- id: p19-keler
+  text: קעלער
+  translation: מרתף
+  pos: noun
   example:
-    text: דער ברויט איז געשמאַק.
-    translation: הלחם טעים
-- id: p19-dan
-  text: דאַן
-  translation: אז / אחר כך
-  pos: adverb
+    text: איך זע אַ קעלער.
+    translation: אני רואה מרתף
+- id: p19-shuleh
+  text: שולע
+  translation: בית ספר
+  pos: noun
   example:
-    text: דאַן גייט ער אַהיים.
-    translation: אז הוא הולך הביתה
-- id: p19-iberike
-  text: איבעריקע
-  translation: שאר
-  pos: adjective
+    text: איך זע אַ שולע.
+    translation: אני רואה בית ספר
+- id: p19-shpitol
+  text: שפּיטאָל
+  translation: בית חולים
+  pos: noun
   example:
-    text: די איבעריקע קינדער גייען.
-    translation: שאר הילדים הולכים
-- id: p19-alter
-  text: אַלטער
-  translation: זקן / ישן
-  pos: adjective
+    text: איך זע אַ שפּיטאָל.
+    translation: אני רואה בית חולים
+- id: p19-hotel
+  text: האָטעל
+  translation: מלון
+  pos: noun
   example:
-    text: דער אַלטער רבי איז דאָ.
-    translation: הרבי הזקן כאן
-- id: p19-noyge
-  text: נוגע
-  translation: נוגע / רלוונטי
-  pos: adjective
+    text: איך זע אַ האָטעל.
+    translation: אני רואה מלון
+- id: p19-gortn
+  text: גאָרטן
+  translation: גן
+  pos: noun
   example:
-    text: עס איז מיר ניט נוגע.
-    translation: זה לא נוגע לי
-- id: p19-araynvarfn
-  text: אַרײַנוואַרפֿן
-  translation: לזרוק פנימה
-  pos: verb
+    text: איך זע אַ גאָרטן.
+    translation: אני רואה גן
+- id: p19-park
+  text: פּאַרק
+  translation: פארק
+  pos: noun
   example:
-    text: ער וויל אַרײַנוואַרפֿן אַ שטיין אין וואַסער.
-    translation: הוא רוצה לזרוק אבן למים
-- id: p19-dertsien
-  text: דערציען
-  translation: לחנך
-  pos: verb
+    text: איך זע אַ פּאַרק.
+    translation: אני רואה פארק
+- id: p19-brik
+  text: בריק
+  translation: גשר
+  pos: noun
   example:
-    text: מיר דאַרפֿן דערציען די קינדער.
-    translation: אנחנו צריכים לחנך את הילדים
+    text: איך זע אַ בריק.
+    translation: אני רואה גשר
+- id: p19-mark
+  text: מאַרק
+  translation: שוק
+  pos: noun
+  example:
+    text: איך זע אַ מאַרק.
+    translation: אני רואה שוק
+- id: p19-breg
+  text: ברעג
+  translation: גדה
+  pos: noun
+  example:
+    text: איך זע אַ ברעג.
+    translation: אני רואה גדה
+- id: p19-veg
+  text: וועג
+  translation: דרך
+  pos: noun
+  example:
+    text: איך זע אַ וועג.
+    translation: אני רואה דרך
+- id: p19-shtok
+  text: שטאָק
+  translation: קומה
+  pos: noun
+  example:
+    text: איך זע אַ שטאָק.
+    translation: אני רואה קומה
+- id: p19-hoyf
+  text: הויף
+  translation: חצר
+  pos: noun
+  example:
+    text: איך זע אַ הויף.
+    translation: אני רואה חצר
+- id: p19-tsimer
+  text: צימער
+  translation: חדר
+  pos: noun
+  example:
+    text: איך זע אַ צימער.
+    translation: אני רואה חדר
+- id: p19-oyto
+  text: אויטאָ
+  translation: מכונית
+  pos: noun
+  example:
+    text: איך זע אַן אויטאָ.
+    translation: אני רואה מכונית
+- id: p19-ban
+  text: באַן
+  translation: רכבת
+  pos: noun
+  example:
+    text: איך זע אַ באַן.
+    translation: אני רואה רכבת
+- id: p19-shif
+  text: שיף
+  translation: ספינה
+  pos: noun
+  example:
+    text: איך זע אַ שיף.
+    translation: אני רואה ספינה
+- id: p19-eroplan
+  text: ערפּלאַן
+  translation: מטוס
+  pos: noun
+  example:
+    text: איך זע אַן ערפּלאַן.
+    translation: אני רואה מטוס
 lessons:
 - id: p19-l1
   kind: new
@@ -249,320 +193,252 @@ lessons:
   exercises:
   - id: p19-l1-01
     type: learn
-    lexeme: p19-velkhe
+    lexeme: p19-khoydesh
   - id: p19-l1-02
     type: learn
-    lexeme: p19-zoln
+    lexeme: p19-minut
   - id: p19-l1-03
     type: learn
-    lexeme: p19-yenem
+    lexeme: p19-shoe
   - id: p19-l1-04
     type: learn
-    lexeme: p19-yener
+    lexeme: p19-tsayt
   - id: p19-l1-05
     type: learn
-    lexeme: p19-farshtendik
+    lexeme: p19-banhof
   - id: p19-l1-06
     type: learn
-    lexeme: p19-eyner
+    lexeme: p19-biblyotek
   - id: p19-l1-07
     type: learn
-    lexeme: p19-derklert
+    lexeme: p19-yeshive
   - id: p19-l1-08
     type: learn
-    lexeme: p19-shayekh
+    lexeme: p19-mikve
   - id: p19-l1-09
-    type: learn
-    lexeme: p19-lebn
+    type: dialogue
+    scene: זמן ומקומות
+    lines:
+    - speaker: menachem
+      text: זיידע, איך בין דאָ אַ חודש. יעדע שעה און יעדע מינוט.
+      translation: סבא, אני כאן חודש. כל שעה וכל דקה.
+    - speaker: zeyde
+      text: און ווי לאַנג איז די צײַט צום באַנהאָף?
+      translation: וכמה זמן עד התחנה?
+    - speaker: menachem
+      text: נאָר אַ ביבליאָטעק, אַ ישיבה און אַ מקווה לעבן אַנאַנדער.
+      translation: רק ספרייה, ישיבה ומקווה אחד ליד השני.
+    - speaker: zeyde
+      text: גוט. אַ שעה איז גענוג.
+      translation: טוב. שעה מספיקה.
   - id: p19-l1-10
-    type: learn
-    lexeme: p19-tsveytn
+    type: match_pairs
+    pairs:
+    - - חודש
+      - חודש בלוח
+    - - מינוט
+      - דקה
+    - - שעה
+      - שעה (60 דקות)
+    - - צײַט
+      - זמן
+    lexemes:
+    - p19-khoydesh
+    - p19-minut
+    - p19-shoe
+    - p19-tsayt
   - id: p19-l1-11
-    type: learn
-    lexeme: p19-zayne
+    type: match_pairs
+    pairs:
+    - - באַנהאָף
+      - תחנת רכבת
+    - - ביבליאָטעק
+      - ספרייה
+    - - ישיבה
+      - ישיבה (בית מדרש)
+    - - מקווה
+      - מקווה טהרה
+    lexemes:
+    - p19-banhof
+    - p19-biblyotek
+    - p19-yeshive
+    - p19-mikve
   - id: p19-l1-12
-    type: match_pairs
-    pairs:
-    - - וועלכע
-      - אילו / אשר (רבים)
-    - - זאָלן
-      - שיילכו / צריכים (רבים)
-    - - יענעם
-      - אותו (פעול)
-    - - יענער
-      - ההוא
-    - - פֿאַרשטענדיק
-      - מובן
-    - - איינער
-      - אחד / מישהו
+    type: multiple_choice
+    prompt: מה פירוש חודש?
+    options:
+    - חודש בלוח
+    - גדה
+    - מכונית
+    correct: 0
     lexemes:
-    - p19-velkhe
-    - p19-zoln
-    - p19-yenem
-    - p19-yener
-    - p19-farshtendik
-    - p19-eyner
+    - p19-khoydesh
   - id: p19-l1-13
-    type: match_pairs
-    pairs:
-    - - דערקלערט
-      - הסביר
-    - - שייך
-      - קשור
-    - - לעבן
-      - לחיות / חיים
-    - - צווייטן
-      - השני (פעול)
-    - - זײַנע
-      - שלו (רבים)
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: דקה?'
+    options:
+    - מינוט
+    - ערפּלאַן
+    - אויטאָ
+    correct: 0
     lexemes:
-    - p19-derklert
-    - p19-shayekh
-    - p19-lebn
-    - p19-tsveytn
-    - p19-zayne
+    - p19-minut
   - id: p19-l1-14
     type: multiple_choice
-    prompt: מה פירוש וועלכע?
+    prompt: מה פירוש שעה?
     options:
-    - אילו / אשר (רבים)
-    - טובים
-    - לחנך
+    - שעה (60 דקות)
+    - מכונית
+    - מטוס
     correct: 0
     lexemes:
-    - p19-velkhe
+    - p19-shoe
   - id: p19-l1-15
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: שיילכו / צריכים (רבים)?'
+    prompt: 'איזו מילה מתאימה ל: זמן?'
     options:
-    - זאָלן
-    - נוגע
-    - אַרײַנוואַרפֿן
+    - צײַט
+    - אויטאָ
+    - שפּיטאָל
     correct: 0
     lexemes:
-    - p19-zoln
+    - p19-tsayt
   - id: p19-l1-16
     type: multiple_choice
-    prompt: מה פירוש יענעם?
+    prompt: מה פירוש באַנהאָף?
     options:
-    - אותו (פעול)
-    - ציווה / אמר ל־
-    - נקרא / כונה
+    - תחנת רכבת
+    - מלון
+    - דרך
     correct: 0
     lexemes:
-    - p19-yenem
+    - p19-banhof
   - id: p19-l1-17
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: ההוא?'
+    prompt: 'איזו מילה מתאימה ל: ספרייה?'
     options:
-    - יענער
-    - דאַן
-    - מיטן
+    - ביבליאָטעק
+    - שטאָק
+    - הויף
     correct: 0
     lexemes:
-    - p19-yener
+    - p19-biblyotek
   - id: p19-l1-18
     type: multiple_choice
-    prompt: מה פירוש פֿאַרשטענדיק?
+    prompt: מה פירוש ישיבה?
     options:
-    - מובן
-    - עם ה־
-    - הנאה ונחת
+    - ישיבה (בית מדרש)
+    - חדר
+    - בית ספר
     correct: 0
     lexemes:
-    - p19-farshtendik
+    - p19-yeshive
   - id: p19-l1-19
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: אחד / מישהו?'
+    prompt: 'איזו מילה מתאימה ל: מקווה טהרה?'
     options:
-    - איינער
-    - מיטן
-    - אַלטער
+    - מקווה
+    - ברעג
+    - ערפּלאַן
     correct: 0
     lexemes:
-    - p19-eyner
+    - p19-mikve
   - id: p19-l1-20
-    type: multiple_choice
-    prompt: מה פירוש דערקלערט?
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה חודש בלוח
+    answers:
+    - חודש
     options:
-    - הסביר
-    - פרשת השבוע
-    - בכך / עם זה
-    correct: 0
+    - חודש
+    - באַן
+    - בריק
     lexemes:
-    - p19-derklert
+    - p19-khoydesh
   - id: p19-l1-21
-    type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: קשור?'
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה דקה
+    answers:
+    - מינוט
     options:
-    - שייך
-    - איבעריקע
-    - שעפּס
-    correct: 0
+    - מינוט
+    - בריק
+    - שפּיטאָל
     lexemes:
-    - p19-shayekh
+    - p19-minut
   - id: p19-l1-22
-    type: multiple_choice
-    prompt: מה פירוש לעבן?
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה שעה (60 דקות)
+    answers:
+    - שעה
     options:
-    - לחיות / חיים
-    - נוגע / רלוונטי
-    - הנאה ונחת
-    correct: 0
+    - שעה
+    - גאָרטן
+    - הויף
     lexemes:
-    - p19-lebn
+    - p19-shoe
   - id: p19-l1-23
-    type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: השני (פעול)?'
+    type: fill_blank
+    sentence: איך האָב ___.
+    translation: יש לי זמן
+    answers:
+    - צײַט
     options:
-    - צווייטן
-    - געשמאַק
-    - זעלבע
-    correct: 0
+    - צײַט
+    - גאָרטן
+    - שולע
     lexemes:
-    - p19-tsveytn
+    - p19-tsayt
   - id: p19-l1-24
-    type: multiple_choice
-    prompt: מה פירוש זײַנע?
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה תחנת רכבת
+    answers:
+    - באַנהאָף
     options:
-    - שלו (רבים)
-    - לחנך
-    - הרגל
-    correct: 0
+    - באַנהאָף
+    - שולע
+    - בריק
     lexemes:
-    - p19-zayne
+    - p19-banhof
   - id: p19-l1-25
     type: fill_blank
-    sentence: ___ ביכער האָסטו?
-    translation: אילו ספרים יש לך
+    sentence: איך זע אַ ___.
+    translation: אני רואה ספרייה
     answers:
-    - וועלכע
+    - ביבליאָטעק
     options:
-    - וועלכע
-    - שעפּס
-    - דאַן
+    - ביבליאָטעק
+    - קעלער
+    - שיף
     lexemes:
-    - p19-velkhe
+    - p19-biblyotek
   - id: p19-l1-26
     type: fill_blank
-    sentence: זיי ___ גיין.
-    translation: שילכו
+    sentence: איך זע אַ ___.
+    translation: אני רואה ישיבה (בית מדרש)
     answers:
-    - זאָלן
+    - ישיבה
     options:
-    - זאָלן
-    - דערציען
-    - אַרײַנוואַרפֿן
+    - ישיבה
+    - שפּיטאָל
+    - צימער
     lexemes:
-    - p19-zoln
+    - p19-yeshive
   - id: p19-l1-27
     type: fill_blank
-    sentence: איך זע ___ מענטש.
-    translation: אני רואה את האיש ההוא
+    sentence: איך זע אַ ___.
+    translation: אני רואה מקווה טהרה
     answers:
-    - יענעם
+    - מקווה
     options:
-    - יענעם
-    - זעלבע
-    - דערציען
+    - מקווה
+    - בריק
+    - קעלער
     lexemes:
-    - p19-yenem
-  - id: p19-l1-28
-    type: fill_blank
-    sentence: ___ מענטש איז גוט.
-    translation: האיש ההוא טוב
-    answers:
-    - יענער
-    options:
-    - יענער
-    - אַרײַנוואַרפֿן
-    - דערציען
-    lexemes:
-    - p19-yener
-  - id: p19-l1-29
-    type: fill_blank
-    sentence: עס איז ___ אַז ער וויל גיין.
-    translation: מובן שהוא רוצה ללכת
-    answers:
-    - פֿאַרשטענדיק
-    options:
-    - פֿאַרשטענדיק
-    - זעלבע
-    - נוגע
-    lexemes:
-    - p19-farshtendik
-  - id: p19-l1-30
-    type: fill_blank
-    sentence: ___ פֿון זיי איז דאָ.
-    translation: אחד מהם כאן
-    answers:
-    - איינער
-    options:
-    - איינער
-    - זעלבע
-    - געשמאַק
-    lexemes:
-    - p19-eyner
-  - id: p19-l1-31
-    type: fill_blank
-    sentence: דער רבי האָט ___ אַ מעשה.
-    translation: הרבי הסביר סיפור
-    answers:
-    - דערקלערט
-    options:
-    - דערקלערט
-    - געהייסן
-    - אַרײַנוואַרפֿן
-    lexemes:
-    - p19-derklert
-  - id: p19-l1-32
-    type: fill_blank
-    sentence: דאָס איז ___ צו דער שול.
-    translation: זה קשור לבית הכנסת
-    answers:
-    - שייך
-    options:
-    - שייך
-    - נוגע
-    - איבעריקע
-    lexemes:
-    - p19-shayekh
-  - id: p19-l1-33
-    type: fill_blank
-    sentence: איך וויל ___ אין ירושלים.
-    translation: אני רוצה לחיות בירושלים
-    answers:
-    - לעבן
-    options:
-    - לעבן
-    - אַרײַנוואַרפֿן
-    - דערציען
-    lexemes:
-    - p19-lebn
-  - id: p19-l1-34
-    type: fill_blank
-    sentence: ער רעדט מיט דעם ___ מענטש.
-    translation: הוא מדבר עם האיש השני
-    answers:
-    - צווייטן
-    options:
-    - צווייטן
-    - געשמאַק
-    - גוטע
-    lexemes:
-    - p19-tsveytn
-  - id: p19-l1-35
-    type: fill_blank
-    sentence: ער האָט ___ ביכער.
-    translation: יש לו ספרים שלו
-    answers:
-    - זײַנע
-    options:
-    - זײַנע
-    - אַנדערע
-    - שעפּס
-    lexemes:
-    - p19-zayne
+    - p19-mikve
 - id: p19-l2
   kind: new
   title:
@@ -571,320 +447,252 @@ lessons:
   exercises:
   - id: p19-l2-01
     type: learn
-    lexeme: p19-farvos
+    lexeme: p19-keler
   - id: p19-l2-02
     type: learn
-    lexeme: p19-ufn
+    lexeme: p19-shuleh
   - id: p19-l2-03
     type: learn
-    lexeme: p19-mitn
+    lexeme: p19-shpitol
   - id: p19-l2-04
     type: learn
-    lexeme: p19-andere
+    lexeme: p19-hotel
   - id: p19-l2-05
     type: learn
-    lexeme: p19-sidre
+    lexeme: p19-gortn
   - id: p19-l2-06
     type: learn
-    lexeme: p19-geheysn
+    lexeme: p19-park
   - id: p19-l2-07
     type: learn
-    lexeme: p19-dermit
+    lexeme: p19-brik
   - id: p19-l2-08
     type: learn
-    lexeme: p19-angerufn
+    lexeme: p19-mark
   - id: p19-l2-09
-    type: learn
-    lexeme: p19-gevoynheyt
+    type: dialogue
+    scene: בתי הספר והעיר
+    lines:
+    - speaker: menachem
+      text: איך בין געווען אין אַ קעלער, אין אַ שולע און אין אַ שפּיטאָל.
+      translation: הייתי במרתף, בבית ספר ובבית חולים.
+    - speaker: zeyde
+      text: אין אַ האָטעל? אין אַ גאָרטן?
+      translation: במלון? בגן?
+    - speaker: menachem
+      text: אין אַ פּאַרק און אויף אַ בריק לעבן אַ מאַרק.
+      translation: בפארק ועל גשר ליד שוק.
+    - speaker: zeyde
+      text: געשריבן? גוט.
+      translation: כתבת? טוב.
   - id: p19-l2-10
-    type: learn
-    lexeme: p19-shepsl
+    type: match_pairs
+    pairs:
+    - - קעלער
+      - מרתף
+    - - שולע
+      - בית ספר
+    - - שפּיטאָל
+      - בית חולים
+    - - האָטעל
+      - מלון
+    lexemes:
+    - p19-keler
+    - p19-shuleh
+    - p19-shpitol
+    - p19-hotel
   - id: p19-l2-11
-    type: learn
-    lexeme: p19-nakhes
+    type: match_pairs
+    pairs:
+    - - גאָרטן
+      - גן
+    - - פּאַרק
+      - פארק
+    - - בריק
+      - גשר
+    - - מאַרק
+      - שוק
+    lexemes:
+    - p19-gortn
+    - p19-park
+    - p19-brik
+    - p19-mark
   - id: p19-l2-12
-    type: match_pairs
-    pairs:
-    - - פֿאַרוואָס
-      - למה
-    - - אויפֿן
-      - על ה־
-    - - מיטן
-      - עם ה־
-    - - אַנדערע
-      - אחרים
-    - - סדרה
-      - פרשת השבוע
-    - - געהייסן
-      - ציווה / אמר ל־
+    type: multiple_choice
+    prompt: מה פירוש קעלער?
+    options:
+    - מרתף
+    - דקה
+    - רכבת
+    correct: 0
     lexemes:
-    - p19-farvos
-    - p19-ufn
-    - p19-mitn
-    - p19-andere
-    - p19-sidre
-    - p19-geheysn
+    - p19-keler
   - id: p19-l2-13
-    type: match_pairs
-    pairs:
-    - - דערמיט
-      - בכך / עם זה
-    - - אָנגערופֿן
-      - נקרא / כונה
-    - - געוווינהייט
-      - הרגל
-    - - שעפּס
-      - כבש
-    - - נחת
-      - הנאה ונחת
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: בית ספר?'
+    options:
+    - שולע
+    - ישיבה
+    - ברעג
+    correct: 0
     lexemes:
-    - p19-dermit
-    - p19-angerufn
-    - p19-gevoynheyt
-    - p19-shepsl
-    - p19-nakhes
+    - p19-shuleh
   - id: p19-l2-14
     type: multiple_choice
-    prompt: מה פירוש פֿאַרוואָס?
+    prompt: מה פירוש שפּיטאָל?
     options:
-    - למה
-    - ההוא
-    - טעים
+    - בית חולים
+    - חצר
+    - ישיבה (בית מדרש)
     correct: 0
     lexemes:
-    - p19-farvos
+    - p19-shpitol
   - id: p19-l2-15
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: על ה־?'
+    prompt: 'איזו מילה מתאימה ל: מלון?'
     options:
-    - אויפֿן
-    - יענער
-    - גוטע
+    - האָטעל
+    - שעה
+    - אויטאָ
     correct: 0
     lexemes:
-    - p19-ufn
+    - p19-hotel
   - id: p19-l2-16
     type: multiple_choice
-    prompt: מה פירוש מיטן?
+    prompt: מה פירוש גאָרטן?
     options:
-    - עם ה־
-    - לחיות / חיים
-    - נוגע / רלוונטי
+    - גן
+    - מקווה טהרה
+    - ספינה
     correct: 0
     lexemes:
-    - p19-mitn
+    - p19-gortn
   - id: p19-l2-17
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: אחרים?'
+    prompt: 'איזו מילה מתאימה ל: פארק?'
     options:
-    - אַנדערע
-    - נוגע
-    - גוטע
+    - פּאַרק
+    - שיף
+    - ערפּלאַן
     correct: 0
     lexemes:
-    - p19-andere
+    - p19-park
   - id: p19-l2-18
     type: multiple_choice
-    prompt: מה פירוש סדרה?
+    prompt: מה פירוש בריק?
     options:
-    - פרשת השבוע
-    - טובים
-    - שלו (רבים)
+    - גשר
+    - רכבת
+    - ספרייה
     correct: 0
     lexemes:
-    - p19-sidre
+    - p19-brik
   - id: p19-l2-19
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: ציווה / אמר ל־?'
+    prompt: 'איזו מילה מתאימה ל: שוק?'
     options:
-    - געהייסן
-    - פֿאַרשטענדיק
-    - לעבן
+    - מאַרק
+    - צימער
+    - שיף
     correct: 0
     lexemes:
-    - p19-geheysn
+    - p19-mark
   - id: p19-l2-20
-    type: multiple_choice
-    prompt: מה פירוש דערמיט?
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה מרתף
+    answers:
+    - קעלער
     options:
-    - בכך / עם זה
-    - שיילכו / צריכים (רבים)
-    - ההוא
-    correct: 0
+    - קעלער
+    - באַן
+    - וועג
     lexemes:
-    - p19-dermit
+    - p19-keler
   - id: p19-l2-21
-    type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: נקרא / כונה?'
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה בית ספר
+    answers:
+    - שולע
     options:
-    - אָנגערופֿן
-    - איינער
-    - דערציען
-    correct: 0
+    - שולע
+    - שיף
+    - צימער
     lexemes:
-    - p19-angerufn
+    - p19-shuleh
   - id: p19-l2-22
-    type: multiple_choice
-    prompt: מה פירוש געוווינהייט?
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה בית חולים
+    answers:
+    - שפּיטאָל
     options:
-    - הרגל
-    - נוגע / רלוונטי
-    - השני (פעול)
-    correct: 0
+    - שפּיטאָל
+    - מקווה
+    - הויף
     lexemes:
-    - p19-gevoynheyt
+    - p19-shpitol
   - id: p19-l2-23
-    type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: כבש?'
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה מלון
+    answers:
+    - האָטעל
     options:
-    - שעפּס
-    - דערקלערט
-    - זעלבע
-    correct: 0
+    - האָטעל
+    - ביבליאָטעק
+    - ישיבה
     lexemes:
-    - p19-shepsl
+    - p19-hotel
   - id: p19-l2-24
-    type: multiple_choice
-    prompt: מה פירוש נחת?
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה גן
+    answers:
+    - גאָרטן
     options:
-    - הנאה ונחת
-    - אילו / אשר (רבים)
-    - אחד / מישהו
-    correct: 0
+    - גאָרטן
+    - שטאָק
+    - ביבליאָטעק
     lexemes:
-    - p19-nakhes
+    - p19-gortn
   - id: p19-l2-25
     type: fill_blank
-    sentence: ___ גייסטו ניט?
-    translation: למה אתה לא הולך
+    sentence: איך זע אַ ___.
+    translation: אני רואה פארק
     answers:
-    - פֿאַרוואָס
+    - פּאַרק
     options:
-    - פֿאַרוואָס
-    - דאַן
-    - אַלטער
+    - פּאַרק
+    - וועג
+    - שטאָק
     lexemes:
-    - p19-farvos
+    - p19-park
   - id: p19-l2-26
     type: fill_blank
-    sentence: דער בוך ליגט ___ טיש.
-    translation: הספר מונח על השולחן
+    sentence: איך זע אַ ___.
+    translation: אני רואה גשר
     answers:
-    - אויפֿן
+    - בריק
     options:
-    - אויפֿן
-    - איבעריקע
-    - נוגע
+    - בריק
+    - שטאָק
+    - צימער
     lexemes:
-    - p19-ufn
+    - p19-brik
   - id: p19-l2-27
     type: fill_blank
-    sentence: ער גייט ___ חבר.
-    translation: הוא הולך עם החבר
+    sentence: איך זע אַ ___.
+    translation: אני רואה שוק
     answers:
-    - מיטן
+    - מאַרק
     options:
-    - מיטן
-    - זײַנע
-    - איינער
+    - מאַרק
+    - הויף
+    - צימער
     lexemes:
-    - p19-mitn
-  - id: p19-l2-28
-    type: fill_blank
-    sentence: מיר זען ___ מענטשן.
-    translation: אנחנו רואים אנשים אחרים
-    answers:
-    - אַנדערע
-    options:
-    - אַנדערע
-    - ביידע
-    - געשמאַק
-    lexemes:
-    - p19-andere
-  - id: p19-l2-29
-    type: fill_blank
-    sentence: מיר לערנען די ___ יעדע וואָך.
-    translation: אנחנו לומדים את הפרשה כל שבוע
-    answers:
-    - סדרה
-    options:
-    - סדרה
-    - זעלבע
-    - צווייטן
-    lexemes:
-    - p19-sidre
-  - id: p19-l2-30
-    type: fill_blank
-    sentence: דער רבי האָט מיר ___ גיין.
-    translation: הרבי אמר לי ללכת
-    answers:
-    - געהייסן
-    options:
-    - געהייסן
-    - דערציען
-    - טראַכט
-    lexemes:
-    - p19-geheysn
-  - id: p19-l2-31
-    type: fill_blank
-    sentence: איך בין צופֿרידן ___.
-    translation: אני מרוצה מזה
-    answers:
-    - דערמיט
-    options:
-    - דערמיט
-    - צווייטן
-    - גוטע
-    lexemes:
-    - p19-dermit
-  - id: p19-l2-32
-    type: fill_blank
-    sentence: ער איז ___ געוואָרן משה.
-    translation: הוא נקרא משה
-    answers:
-    - אָנגערופֿן
-    options:
-    - אָנגערופֿן
-    - דערקלערט
-    - דערציען
-    lexemes:
-    - p19-angerufn
-  - id: p19-l2-33
-    type: fill_blank
-    sentence: עס איז אַ גוטע ___.
-    translation: זה הרגל טוב
-    answers:
-    - געוווינהייט
-    options:
-    - געוווינהייט
-    - איינער
-    - צווייטן
-    lexemes:
-    - p19-gevoynheyt
-  - id: p19-l2-34
-    type: fill_blank
-    sentence: דער ___ איז אין שטוב.
-    translation: הכבש בבית
-    answers:
-    - שעפּס
-    options:
-    - שעפּס
-    - יענער
-    - יענעם
-    lexemes:
-    - p19-shepsl
-  - id: p19-l2-35
-    type: fill_blank
-    sentence: דער טאַטע האָט ___ פֿון די קינדער.
-    translation: האב מרוצה מהילדים
-    answers:
-    - נחת
-    options:
-    - נחת
-    - וועלכע
-    - ביידע
-    lexemes:
-    - p19-nakhes
+    - p19-mark
 - id: p19-l3
   kind: new
   title:
@@ -893,317 +701,277 @@ lessons:
   exercises:
   - id: p19-l3-01
     type: learn
-    lexeme: p19-zelbe
+    lexeme: p19-breg
   - id: p19-l3-02
     type: learn
-    lexeme: p19-beyde
+    lexeme: p19-veg
   - id: p19-l3-03
     type: learn
-    lexeme: p19-trakht
+    lexeme: p19-shtok
   - id: p19-l3-04
     type: learn
-    lexeme: p19-gute
+    lexeme: p19-hoyf
   - id: p19-l3-05
     type: learn
-    lexeme: p19-geshmak
+    lexeme: p19-tsimer
   - id: p19-l3-06
     type: learn
-    lexeme: p19-dan
+    lexeme: p19-oyto
   - id: p19-l3-07
     type: learn
-    lexeme: p19-iberike
+    lexeme: p19-ban
   - id: p19-l3-08
     type: learn
-    lexeme: p19-alter
+    lexeme: p19-shif
   - id: p19-l3-09
     type: learn
-    lexeme: p19-noyge
+    lexeme: p19-eroplan
   - id: p19-l3-10
-    type: learn
-    lexeme: p19-araynvarfn
+    type: dialogue
+    scene: בדרך ובתחבורה
+    lines:
+    - speaker: menachem
+      text: אויפֿן ברעג איז אַ וועג, דער שטאָק איז הויך, דער הויף גרויס.
+      translation: על החוף יש דרך, הקומה גבוהה, החצר גדולה.
+    - speaker: zeyde
+      text: און אַ צימער? אַן אויטאָ? אַ שיף?
+      translation: וחדר? מכונית? ספינה?
+    - speaker: menachem
+      text: אָן אַן אויטאָ, מיט אַ באַן און אַ שיף, און אַן ערפּלאַן.
+      translation: בלי מכונית, ברכבת, בספינה ובמטוס.
+    - speaker: zeyde
+      text: 'שרײַב: מיר זענען אָנגעקומען געזונט.'
+      translation: 'כתוב: הגענו בשלום.'
   - id: p19-l3-11
-    type: learn
-    lexeme: p19-dertsien
+    type: match_pairs
+    pairs:
+    - - ברעג
+      - גדה
+    - - וועג
+      - דרך
+    - - שטאָק
+      - קומה
+    - - הויף
+      - חצר
+    lexemes:
+    - p19-breg
+    - p19-veg
+    - p19-shtok
+    - p19-hoyf
   - id: p19-l3-12
     type: match_pairs
     pairs:
-    - - זעלבע
-      - אותו (הדבר)
-    - - ביידע
-      - שניהם
-    - - טראַכט
-      - חושב
-    - - גוטע
-      - טובים
-    - - געשמאַק
-      - טעים
-    - - דאַן
-      - אז / אחר כך
+    - - צימער
+      - חדר
+    - - אויטאָ
+      - מכונית
+    - - באַן
+      - רכבת
+    - - שיף
+      - ספינה
+    - - ערפּלאַן
+      - מטוס
     lexemes:
-    - p19-zelbe
-    - p19-beyde
-    - p19-trakht
-    - p19-gute
-    - p19-geshmak
-    - p19-dan
+    - p19-tsimer
+    - p19-oyto
+    - p19-ban
+    - p19-shif
+    - p19-eroplan
   - id: p19-l3-13
-    type: match_pairs
-    pairs:
-    - - איבעריקע
-      - שאר
-    - - אַלטער
-      - זקן / ישן
-    - - נוגע
-      - נוגע / רלוונטי
-    - - אַרײַנוואַרפֿן
-      - לזרוק פנימה
-    - - דערציען
-      - לחנך
+    type: multiple_choice
+    prompt: מה פירוש ברעג?
+    options:
+    - גדה
+    - בית חולים
+    - פארק
+    correct: 0
     lexemes:
-    - p19-iberike
-    - p19-alter
-    - p19-noyge
-    - p19-araynvarfn
-    - p19-dertsien
+    - p19-breg
   - id: p19-l3-14
     type: multiple_choice
-    prompt: מה פירוש זעלבע?
+    prompt: 'איזו מילה מתאימה ל: דרך?'
     options:
-    - אותו (הדבר)
-    - קשור
-    - הסביר
+    - וועג
+    - ביבליאָטעק
+    - ישיבה
     correct: 0
     lexemes:
-    - p19-zelbe
+    - p19-veg
   - id: p19-l3-15
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: שניהם?'
+    prompt: מה פירוש שטאָק?
     options:
-    - ביידע
-    - צווייטן
-    - מיטן
+    - קומה
+    - ישיבה (בית מדרש)
+    - בית חולים
     correct: 0
     lexemes:
-    - p19-beyde
+    - p19-shtok
   - id: p19-l3-16
     type: multiple_choice
-    prompt: מה פירוש טראַכט?
+    prompt: 'איזו מילה מתאימה ל: חצר?'
     options:
-    - חושב
-    - אחד / מישהו
-    - שלו (רבים)
+    - הויף
+    - בריק
+    - שפּיטאָל
     correct: 0
     lexemes:
-    - p19-trakht
+    - p19-hoyf
   - id: p19-l3-17
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: טובים?'
+    prompt: מה פירוש צימער?
     options:
-    - גוטע
-    - יענער
-    - מיטן
+    - חדר
+    - גשר
+    - זמן
     correct: 0
     lexemes:
-    - p19-gute
+    - p19-tsimer
   - id: p19-l3-18
     type: multiple_choice
-    prompt: מה פירוש געשמאַק?
+    prompt: 'איזו מילה מתאימה ל: מכונית?'
     options:
-    - טעים
-    - אחד / מישהו
-    - מובן
+    - אויטאָ
+    - בריק
+    - מקווה
     correct: 0
     lexemes:
-    - p19-geshmak
+    - p19-oyto
   - id: p19-l3-19
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: אז / אחר כך?'
+    prompt: מה פירוש באַן?
     options:
-    - דאַן
-    - שעפּס
-    - פֿאַרוואָס
+    - רכבת
+    - שעה (60 דקות)
+    - גשר
     correct: 0
     lexemes:
-    - p19-dan
+    - p19-ban
   - id: p19-l3-20
     type: multiple_choice
-    prompt: מה פירוש איבעריקע?
+    prompt: 'איזו מילה מתאימה ל: ספינה?'
     options:
-    - שאר
-    - השני (פעול)
-    - הסביר
+    - שיף
+    - מינוט
+    - שפּיטאָל
     correct: 0
     lexemes:
-    - p19-iberike
+    - p19-shif
   - id: p19-l3-21
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: זקן / ישן?'
+    prompt: מה פירוש ערפּלאַן?
     options:
-    - אַלטער
-    - יענעם
-    - שעפּס
+    - מטוס
+    - זמן
+    - תחנת רכבת
     correct: 0
     lexemes:
-    - p19-alter
+    - p19-eroplan
   - id: p19-l3-22
-    type: multiple_choice
-    prompt: מה פירוש נוגע?
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה גדה
+    answers:
+    - ברעג
     options:
-    - נוגע / רלוונטי
-    - קשור
-    - הנאה ונחת
-    correct: 0
+    - ברעג
+    - גאָרטן
+    - מקווה
     lexemes:
-    - p19-noyge
+    - p19-breg
   - id: p19-l3-23
-    type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: לזרוק פנימה?'
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה דרך
+    answers:
+    - וועג
     options:
-    - אַרײַנוואַרפֿן
-    - וועלכע
-    - געהייסן
-    correct: 0
+    - וועג
+    - חודש
+    - מאַרק
     lexemes:
-    - p19-araynvarfn
+    - p19-veg
   - id: p19-l3-24
-    type: multiple_choice
-    prompt: מה פירוש דערציען?
+    type: fill_blank
+    sentence: איך זע אַ ___.
+    translation: אני רואה קומה
+    answers:
+    - שטאָק
     options:
-    - לחנך
-    - קשור
-    - הסביר
-    correct: 0
+    - שטאָק
+    - ביבליאָטעק
+    - פּאַרק
     lexemes:
-    - p19-dertsien
+    - p19-shtok
   - id: p19-l3-25
     type: fill_blank
-    sentence: מיר לערנען דאָס ___ בוך.
-    translation: אנחנו לומדים את אותו ספר
+    sentence: איך זע אַ ___.
+    translation: אני רואה חצר
     answers:
-    - זעלבע
+    - הויף
     options:
-    - זעלבע
-    - פֿאַרשטענדיק
-    - צווייטן
+    - הויף
+    - ישיבה
+    - מינוט
     lexemes:
-    - p19-zelbe
+    - p19-hoyf
   - id: p19-l3-26
     type: fill_blank
-    sentence: ___ קינדער לערנען.
-    translation: שני הילדים לומדים
+    sentence: איך זע אַ ___.
+    translation: אני רואה חדר
     answers:
-    - ביידע
+    - צימער
     options:
-    - ביידע
-    - אַנדערע
-    - פֿאַרשטענדיק
+    - צימער
+    - מינוט
+    - האָטעל
     lexemes:
-    - p19-beyde
+    - p19-tsimer
   - id: p19-l3-27
     type: fill_blank
-    sentence: ער ___ וועגן דעם.
-    translation: הוא חושב על זה
+    sentence: איך זע אַן ___.
+    translation: אני רואה מכונית
     answers:
-    - טראַכט
+    - אויטאָ
     options:
-    - טראַכט
-    - זאָלן
-    - לעבן
+    - אויטאָ
+    - צײַט
+    - האָטעל
     lexemes:
-    - p19-trakht
+    - p19-oyto
   - id: p19-l3-28
     type: fill_blank
-    sentence: זיי זענען ___ פֿרײַנד.
-    translation: הם חברים טובים
+    sentence: איך זע אַ ___.
+    translation: אני רואה רכבת
     answers:
-    - גוטע
+    - באַן
     options:
-    - גוטע
-    - שייך
-    - פֿאַרשטענדיק
+    - באַן
+    - גאָרטן
+    - מאַרק
     lexemes:
-    - p19-gute
+    - p19-ban
   - id: p19-l3-29
     type: fill_blank
-    sentence: דער ברויט איז ___.
-    translation: הלחם טעים
+    sentence: איך זע אַ ___.
+    translation: אני רואה ספינה
     answers:
-    - געשמאַק
+    - שיף
     options:
-    - געשמאַק
-    - אַנדערע
-    - שייך
+    - שיף
+    - גאָרטן
+    - קעלער
     lexemes:
-    - p19-geshmak
+    - p19-shif
   - id: p19-l3-30
     type: fill_blank
-    sentence: ___ גייט ער אַהיים.
-    translation: אז הוא הולך הביתה
+    sentence: איך זע אַן ___.
+    translation: אני רואה מטוס
     answers:
-    - דאַן
+    - ערפּלאַן
     options:
-    - דאַן
-    - אויפֿן
-    - מיטן
+    - ערפּלאַן
+    - מינוט
+    - בריק
     lexemes:
-    - p19-dan
-  - id: p19-l3-31
-    type: fill_blank
-    sentence: די ___ קינדער גייען.
-    translation: שאר הילדים הולכים
-    answers:
-    - איבעריקע
-    options:
-    - איבעריקע
-    - פֿאַרשטענדיק
-    - צווייטן
-    lexemes:
-    - p19-iberike
-  - id: p19-l3-32
-    type: fill_blank
-    sentence: דער ___ רבי איז דאָ.
-    translation: הרבי הזקן כאן
-    answers:
-    - אַלטער
-    options:
-    - אַלטער
-    - שייך
-    - פֿאַרשטענדיק
-    lexemes:
-    - p19-alter
-  - id: p19-l3-33
-    type: fill_blank
-    sentence: עס איז מיר ניט ___.
-    translation: זה לא נוגע לי
-    answers:
-    - נוגע
-    options:
-    - נוגע
-    - צווייטן
-    - אַנדערע
-    lexemes:
-    - p19-noyge
-  - id: p19-l3-34
-    type: fill_blank
-    sentence: ער וויל ___ אַ שטיין אין וואַסער.
-    translation: הוא רוצה לזרוק אבן למים
-    answers:
-    - אַרײַנוואַרפֿן
-    options:
-    - אַרײַנוואַרפֿן
-    - לעבן
-    - זאָלן
-    lexemes:
-    - p19-araynvarfn
-  - id: p19-l3-35
-    type: fill_blank
-    sentence: מיר דאַרפֿן ___ די קינדער.
-    translation: אנחנו צריכים לחנך את הילדים
-    answers:
-    - דערציען
-    options:
-    - דערציען
-    - אָנגערופֿן
-    - דערקלערט
-    lexemes:
-    - p19-dertsien
+    - p19-eroplan

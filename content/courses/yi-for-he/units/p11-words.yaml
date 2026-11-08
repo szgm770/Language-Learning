@@ -1,175 +1,245 @@
 id: p11-words
-cefr: B1
-scene: study
+cefr: B2
+scene: day
 title:
-  he: 'הרחבת אוצר מילים 11: לימוד'
-  en: 'Word builder 11: study'
-story: מילים שימושיות נוספות, כל אחת במשפט קצר.
+  he: 'הרחבת אוצר מילים 11: פעלים'
+  en: 'Word builder 11: verbs'
+story: הסבא והסבתא מבקשים ממנחם לעשות כל מיני דברים, ומנחם לומד לספר מה הוא עושה.
 canDo:
-- להבין ולהשתמש במילים נפוצות נוספות
+- להבין ולהשתמש במילים נפוצות נוספות בשיחה
 - לזהות את המילים במשפטים
 vocabulary:
-- id: p11-klas
-  text: קלאַס
-  translation: כיתה
-  pos: noun
-  example:
-    text: איך זע אַ קלאַס.
-    translation: אני רואה כיתה
-- id: p11-blat
-  text: בלאַט
-  translation: דף
-  pos: noun
-  example:
-    text: איך זע אַ בלאַט.
-    translation: אני רואה דף
-- id: p11-bukhshtab
-  text: בוכשטאַב
-  translation: אות
-  pos: noun
-  example:
-    text: איך זע אַ בוכשטאַב.
-    translation: אני רואה אות
-- id: p11-vort
-  text: וואָרט
-  translation: מילה
-  pos: noun
-  example:
-    text: איך זע אַ וואָרט.
-    translation: אני רואה מילה
-- id: p11-zats
-  text: זאַץ
-  translation: משפט
-  pos: noun
-  example:
-    text: איך זע אַ זאַץ.
-    translation: אני רואה משפט
-- id: p11-lid
-  text: ליד
-  translation: שיר
-  pos: noun
-  example:
-    text: איך זע אַ ליד.
-    translation: אני רואה שיר
-- id: p11-mayse
-  text: מעשה
-  translation: סיפור
-  pos: noun
-  example:
-    text: איך זע אַ מעשה.
-    translation: אני רואה סיפור
-- id: p11-posek
-  text: פּסוק
-  translation: פסוק
-  pos: noun
-  example:
-    text: איך זע אַ פּסוק.
-    translation: אני רואה פסוק
-- id: p11-tsifer
-  text: ציפֿער
-  translation: ספרה
-  pos: noun
-  example:
-    text: איך זע אַ ציפֿער.
-    translation: אני רואה ספרה
-- id: p11-shure
-  text: שורה
-  translation: שורה בטקסט
-  pos: noun
-  example:
-    text: איך זע אַ שורה.
-    translation: אני רואה שורה בטקסט
-- id: p11-kapitl
-  text: קאַפּיטל
-  translation: פרק
-  pos: noun
-  example:
-    text: איך זע אַ קאַפּיטל.
-    translation: אני רואה פרק
-- id: p11-problem
-  text: פּראָבלעם
-  translation: בעיה
-  pos: noun
-  example:
-    text: איך זע אַ פּראָבלעם.
-    translation: אני רואה בעיה
-- id: p11-gedenken
-  text: געדענקען
-  translation: לזכור
+- id: p11-kokhn
+  text: קאָכן
+  translation: לבשל
   pos: verb
   example:
-    text: איך וויל געדענקען.
-    translation: אני רוצה לזכור
-- id: p11-fargesn
-  text: פֿאַרגעסן
-  translation: לשכוח
+    text: איך וויל קאָכן.
+    translation: אני רוצה לבשל
+- id: p11-zen
+  text: זען
+  translation: לראות
   pos: verb
   example:
-    text: איך וויל פֿאַרגעסן.
-    translation: אני רוצה לשכוח
-- id: p11-ibertrakhn
-  text: איבערחזרן
-  translation: לחזור על החומר
+    text: איך וויל זען.
+    translation: אני רוצה לראות
+- id: p11-hern
+  text: הערן
+  translation: לשמוע
   pos: verb
   example:
-    text: איך וויל איבערחזרן.
-    translation: אני רוצה לחזור על החומר
-- id: p11-pruvn
-  text: פּרובירן
-  translation: לנסות
+    text: איך וויל הערן.
+    translation: אני רוצה לשמוע
+- id: p11-trakhtn
+  text: טראַכטן
+  translation: לחשוב
   pos: verb
   example:
-    text: איך וויל פּרובירן.
-    translation: אני רוצה לנסות
-- id: p11-oyslernen
-  text: אויסלערנען
-  translation: ללמוד היטב
+    text: איך וויל טראַכטן.
+    translation: אני רוצה לחשוב
+- id: p11-visn
+  text: וויסן
+  translation: לדעת
   pos: verb
   example:
-    text: איך וויל אויסלערנען.
-    translation: אני רוצה ללמוד היטב
-- id: p11-opshraybn
-  text: אָפּשרײַבן
-  translation: להעתיק
+    text: איך וויל וויסן.
+    translation: אני רוצה לדעת
+- id: p11-makhn
+  text: מאַכן
+  translation: לעשות
   pos: verb
   example:
-    text: איך וויל אָפּשרײַבן.
-    translation: אני רוצה להעתיק
-- id: p11-batrakhtn
-  text: באַטראַכטן
-  translation: להתבונן
+    text: איך וויל מאַכן.
+    translation: אני רוצה לעשות
+- id: p11-nemen
+  text: נעמען
+  translation: לקחת
   pos: verb
   example:
-    text: איך וויל באַטראַכטן.
-    translation: אני רוצה להתבונן
-- id: p11-derklern
-  text: דערקלערן
-  translation: להסביר
+    text: איך וויל נעמען.
+    translation: אני רוצה לקחת
+- id: p11-shikn
+  text: שיקן
+  translation: לשלוח
   pos: verb
   example:
-    text: איך וויל דערקלערן.
-    translation: אני רוצה להסביר
-- id: p11-farshraybn
-  text: פֿאַרשרײַבן
-  translation: לרשום
+    text: איך וויל שיקן.
+    translation: אני רוצה לשלוח
+- id: p11-brengen
+  text: ברענגען
+  translation: להביא
   pos: verb
   example:
-    text: איך וויל פֿאַרשרײַבן.
-    translation: אני רוצה לרשום
-- id: p11-rekhenen
-  text: רעכענען
-  translation: לחשב
+    text: איך וויל ברענגען.
+    translation: אני רוצה להביא
+- id: p11-efenen
+  text: עפֿענען
+  translation: לפתוח
   pos: verb
   example:
-    text: איך וויל רעכענען.
-    translation: אני רוצה לחשב
-- id: p11-tseykhenen
-  text: צייכענען
-  translation: לצייר
+    text: איך וויל עפֿענען.
+    translation: אני רוצה לפתוח
+- id: p11-farmakhn
+  text: פֿאַרמאַכן
+  translation: לסגור
   pos: verb
   example:
-    text: איך וויל צייכענען.
-    translation: אני רוצה לצייר
+    text: איך וויל פֿאַרמאַכן.
+    translation: אני רוצה לסגור
+- id: p11-haltn
+  text: האַלטן
+  translation: להחזיק
+  pos: verb
+  example:
+    text: איך וויל האַלטן.
+    translation: אני רוצה להחזיק
+- id: p11-vayzn
+  text: ווײַזן
+  translation: להראות
+  pos: verb
+  example:
+    text: איך וויל ווײַזן.
+    translation: אני רוצה להראות
+- id: p11-zukhn
+  text: זוכן
+  translation: לחפש
+  pos: verb
+  example:
+    text: איך וויל זוכן.
+    translation: אני רוצה לחפש
+- id: p11-gefinen
+  text: געפֿינען
+  translation: למצוא
+  pos: verb
+  example:
+    text: איך וויל געפֿינען.
+    translation: אני רוצה למצוא
+- id: p11-fregn
+  text: פֿרעגן
+  translation: לשאול
+  pos: verb
+  example:
+    text: איך וויל פֿרעגן.
+    translation: אני רוצה לשאול
+- id: p11-entfern
+  text: ענטפֿערן
+  translation: לענות
+  pos: verb
+  example:
+    text: איך וויל ענטפֿערן.
+    translation: אני רוצה לענות
+- id: p11-vartn
+  text: וואַרטן
+  translation: לחכות
+  pos: verb
+  example:
+    text: איך וויל וואַרטן.
+    translation: אני רוצה לחכות
+- id: p11-shpiln
+  text: שפּילן
+  translation: לשחק
+  pos: verb
+  example:
+    text: איך וויל שפּילן.
+    translation: אני רוצה לשחק
+- id: p11-shpatsirn
+  text: שפּאַצירן
+  translation: לטייל
+  pos: verb
+  example:
+    text: איך וויל שפּאַצירן.
+    translation: אני רוצה לטייל
+- id: p11-vaksn
+  text: וואַקסן
+  translation: לגדול
+  pos: verb
+  example:
+    text: איך וויל וואַקסן.
+    translation: אני רוצה לגדול
+- id: p11-lakhn
+  text: לאַכן
+  translation: לצחוק
+  pos: verb
+  example:
+    text: איך וויל לאַכן.
+    translation: אני רוצה לצחוק
+- id: p11-veynen
+  text: וויינען
+  translation: לבכות
+  pos: verb
+  example:
+    text: איך וויל וויינען.
+    translation: אני רוצה לבכות
+- id: p11-shnaydn
+  text: שנײַדן
+  translation: לחתוך
+  pos: verb
+  example:
+    text: איך וויל שנײַדן.
+    translation: אני רוצה לחתוך
+- id: p11-shtelen
+  text: שטעלן
+  translation: להעמיד
+  pos: verb
+  example:
+    text: איך וויל שטעלן.
+    translation: אני רוצה להעמיד
+- id: p11-leygn
+  text: לייגן
+  translation: להניח
+  pos: verb
+  example:
+    text: איך וויל לייגן.
+    translation: אני רוצה להניח
+- id: p11-faln
+  text: פֿאַלן
+  translation: ליפול
+  pos: verb
+  example:
+    text: איך וויל פֿאַלן.
+    translation: אני רוצה ליפול
+- id: p11-ligen
+  text: ליגן
+  translation: לשכב
+  pos: verb
+  example:
+    text: איך וויל ליגן.
+    translation: אני רוצה לשכב
+- id: p11-endikn
+  text: ענדיקן
+  translation: לסיים
+  pos: verb
+  example:
+    text: איך וויל ענדיקן.
+    translation: אני רוצה לסיים
+- id: p11-onheybn
+  text: אָנהייבן
+  translation: להתחיל
+  pos: verb
+  example:
+    text: איך וויל אָנהייבן.
+    translation: אני רוצה להתחיל
+- id: p11-vern
+  text: ווערן
+  translation: להיות / להפוך
+  pos: verb
+  example:
+    text: איך וויל ווערן.
+    translation: אני רוצה להיות / להפוך
+- id: p11-blaybn
+  text: בלײַבן
+  translation: להישאר
+  pos: verb
+  example:
+    text: איך וויל בלײַבן.
+    translation: אני רוצה להישאר
+- id: p11-bakumen
+  text: באַקומען
+  translation: לקבל
+  pos: verb
+  example:
+    text: איך וויל באַקומען.
+    translation: אני רוצה לקבל
 lessons:
 - id: p11-l1
   kind: new
@@ -179,208 +249,336 @@ lessons:
   exercises:
   - id: p11-l1-01
     type: learn
-    lexeme: p11-klas
+    lexeme: p11-kokhn
   - id: p11-l1-02
     type: learn
-    lexeme: p11-blat
+    lexeme: p11-zen
   - id: p11-l1-03
     type: learn
-    lexeme: p11-bukhshtab
+    lexeme: p11-hern
   - id: p11-l1-04
     type: learn
-    lexeme: p11-vort
+    lexeme: p11-trakhtn
   - id: p11-l1-05
     type: learn
-    lexeme: p11-zats
+    lexeme: p11-visn
   - id: p11-l1-06
     type: learn
-    lexeme: p11-lid
+    lexeme: p11-makhn
   - id: p11-l1-07
     type: learn
-    lexeme: p11-mayse
+    lexeme: p11-nemen
   - id: p11-l1-08
-    type: match_pairs
-    pairs:
-    - - קלאַס
-      - כיתה
-    - - בלאַט
-      - דף
-    - - בוכשטאַב
-      - אות
-    lexemes:
-    - p11-klas
-    - p11-blat
-    - p11-bukhshtab
+    type: learn
+    lexeme: p11-shikn
   - id: p11-l1-09
+    type: learn
+    lexeme: p11-brengen
+  - id: p11-l1-10
+    type: learn
+    lexeme: p11-efenen
+  - id: p11-l1-11
+    type: learn
+    lexeme: p11-farmakhn
+  - id: p11-l1-12
+    type: dialogue
+    scene: מה מנחם עושה בבית
+    lines:
+    - speaker: bobe
+      text: מנחם, קאָך אַ גרויסן טעפּל סופּ.
+      translation: מנחם, בשל סיר מרק גדול.
+    - speaker: menachem
+      text: איך זע, איך הער, איך טראַכט. איך ווייס ווי מען מאַכט עס.
+      translation: אני רואה, שומע, חושב. אני יודע איך עושים את זה.
+    - speaker: bobe
+      text: נעם דעם סאַלאַט, שיק דאָס צו דער שכנטע און ברענג דאָס קוכן.
+      translation: קח את הסלט, שלח לשכנה והבא את העוגה.
+    - speaker: menachem
+      text: זאָל איך עפֿענען די טיר אָדער פֿאַרמאַכן?
+      translation: לפתוח את הדלת או לסגור?
+  - id: p11-l1-13
     type: match_pairs
     pairs:
-    - - וואָרט
-      - מילה
-    - - זאַץ
-      - משפט
-    - - ליד
-      - שיר
-    - - מעשה
-      - סיפור
+    - - קאָכן
+      - לבשל
+    - - זען
+      - לראות
+    - - הערן
+      - לשמוע
+    - - טראַכטן
+      - לחשוב
+    - - וויסן
+      - לדעת
     lexemes:
-    - p11-vort
-    - p11-zats
-    - p11-lid
-    - p11-mayse
-  - id: p11-l1-10
-    type: multiple_choice
-    prompt: מה פירוש קלאַס?
-    options:
-    - כיתה
-    - להסביר
-    - פסוק
-    correct: 0
-    lexemes:
-    - p11-klas
-  - id: p11-l1-11
-    type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: דף?'
-    options:
-    - בלאַט
-    - ציפֿער
-    - דערקלערן
-    correct: 0
-    lexemes:
-    - p11-blat
-  - id: p11-l1-12
-    type: multiple_choice
-    prompt: מה פירוש בוכשטאַב?
-    options:
-    - אות
-    - להעתיק
-    - פרק
-    correct: 0
-    lexemes:
-    - p11-bukhshtab
-  - id: p11-l1-13
-    type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: מילה?'
-    options:
-    - וואָרט
-    - פֿאַרגעסן
-    - פֿאַרשרײַבן
-    correct: 0
-    lexemes:
-    - p11-vort
+    - p11-kokhn
+    - p11-zen
+    - p11-hern
+    - p11-trakhtn
+    - p11-visn
   - id: p11-l1-14
-    type: multiple_choice
-    prompt: מה פירוש זאַץ?
-    options:
-    - משפט
-    - להעתיק
-    - ספרה
-    correct: 0
+    type: match_pairs
+    pairs:
+    - - מאַכן
+      - לעשות
+    - - נעמען
+      - לקחת
+    - - שיקן
+      - לשלוח
+    - - ברענגען
+      - להביא
+    - - עפֿענען
+      - לפתוח
+    - - פֿאַרמאַכן
+      - לסגור
     lexemes:
-    - p11-zats
+    - p11-makhn
+    - p11-nemen
+    - p11-shikn
+    - p11-brengen
+    - p11-efenen
+    - p11-farmakhn
   - id: p11-l1-15
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: שיר?'
+    prompt: מה פירוש קאָכן?
     options:
-    - ליד
-    - שורה
-    - פּרובירן
+    - לבשל
+    - להחזיק
+    - לענות
     correct: 0
     lexemes:
-    - p11-lid
+    - p11-kokhn
   - id: p11-l1-16
     type: multiple_choice
-    prompt: מה פירוש מעשה?
+    prompt: 'איזו מילה מתאימה ל: לראות?'
     options:
-    - סיפור
-    - שורה בטקסט
-    - לצייר
+    - זען
+    - שפּאַצירן
+    - פֿאַלן
     correct: 0
     lexemes:
-    - p11-mayse
+    - p11-zen
   - id: p11-l1-17
-    type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה כיתה
-    answers:
-    - קלאַס
+    type: multiple_choice
+    prompt: מה פירוש הערן?
     options:
-    - קלאַס
-    - פּראָבלעם
-    - שורה
+    - לשמוע
+    - לשחק
+    - להתחיל
+    correct: 0
     lexemes:
-    - p11-klas
+    - p11-hern
   - id: p11-l1-18
-    type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה דף
-    answers:
-    - בלאַט
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: לחשוב?'
     options:
-    - בלאַט
-    - ציפֿער
-    - פּראָבלעם
+    - טראַכטן
+    - באַקומען
+    - ענדיקן
+    correct: 0
     lexemes:
-    - p11-blat
+    - p11-trakhtn
   - id: p11-l1-19
-    type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה אות
-    answers:
-    - בוכשטאַב
+    type: multiple_choice
+    prompt: מה פירוש וויסן?
     options:
-    - בוכשטאַב
-    - פּסוק
-    - פּראָבלעם
+    - לדעת
+    - לבכות
+    - להניח
+    correct: 0
     lexemes:
-    - p11-bukhshtab
+    - p11-visn
   - id: p11-l1-20
-    type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה מילה
-    answers:
-    - וואָרט
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: לעשות?'
     options:
-    - וואָרט
-    - פּסוק
-    - פּראָבלעם
+    - מאַכן
+    - געפֿינען
+    - אָנהייבן
+    correct: 0
     lexemes:
-    - p11-vort
+    - p11-makhn
   - id: p11-l1-21
-    type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה משפט
-    answers:
-    - זאַץ
+    type: multiple_choice
+    prompt: מה פירוש נעמען?
     options:
-    - זאַץ
-    - קאַפּיטל
-    - שורה
+    - לקחת
+    - לקבל
+    - לשאול
+    correct: 0
     lexemes:
-    - p11-zats
+    - p11-nemen
   - id: p11-l1-22
-    type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה שיר
-    answers:
-    - ליד
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: לשלוח?'
     options:
-    - ליד
-    - קאַפּיטל
-    - פּסוק
+    - שיקן
+    - וואַקסן
+    - שנײַדן
+    correct: 0
     lexemes:
-    - p11-lid
+    - p11-shikn
   - id: p11-l1-23
-    type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה סיפור
-    answers:
-    - מעשה
+    type: multiple_choice
+    prompt: מה פירוש ברענגען?
     options:
-    - מעשה
-    - שורה
-    - פּסוק
+    - להביא
+    - לקבל
+    - לענות
+    correct: 0
     lexemes:
-    - p11-mayse
+    - p11-brengen
+  - id: p11-l1-24
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: לפתוח?'
+    options:
+    - עפֿענען
+    - ענטפֿערן
+    - וואַרטן
+    correct: 0
+    lexemes:
+    - p11-efenen
+  - id: p11-l1-25
+    type: multiple_choice
+    prompt: מה פירוש פֿאַרמאַכן?
+    options:
+    - לסגור
+    - לצחוק
+    - למצוא
+    correct: 0
+    lexemes:
+    - p11-farmakhn
+  - id: p11-l1-26
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה לבשל
+    answers:
+    - קאָכן
+    options:
+    - קאָכן
+    - זוכן
+    - פֿאַלן
+    lexemes:
+    - p11-kokhn
+  - id: p11-l1-27
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה לראות
+    answers:
+    - זען
+    options:
+    - זען
+    - אָנהייבן
+    - שנײַדן
+    lexemes:
+    - p11-zen
+  - id: p11-l1-28
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה לשמוע
+    answers:
+    - הערן
+    options:
+    - הערן
+    - האַלטן
+    - וואַרטן
+    lexemes:
+    - p11-hern
+  - id: p11-l1-29
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה לחשוב
+    answers:
+    - טראַכטן
+    options:
+    - טראַכטן
+    - זוכן
+    - שנײַדן
+    lexemes:
+    - p11-trakhtn
+  - id: p11-l1-30
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה לדעת
+    answers:
+    - וויסן
+    options:
+    - וויסן
+    - שפּאַצירן
+    - וואַרטן
+    lexemes:
+    - p11-visn
+  - id: p11-l1-31
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה לעשות
+    answers:
+    - מאַכן
+    options:
+    - מאַכן
+    - שפּילן
+    - ליגן
+    lexemes:
+    - p11-makhn
+  - id: p11-l1-32
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה לקחת
+    answers:
+    - נעמען
+    options:
+    - נעמען
+    - ווערן
+    - פֿרעגן
+    lexemes:
+    - p11-nemen
+  - id: p11-l1-33
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה לשלוח
+    answers:
+    - שיקן
+    options:
+    - שיקן
+    - ווערן
+    - שטעלן
+    lexemes:
+    - p11-shikn
+  - id: p11-l1-34
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה להביא
+    answers:
+    - ברענגען
+    options:
+    - ברענגען
+    - בלײַבן
+    - ענטפֿערן
+    lexemes:
+    - p11-brengen
+  - id: p11-l1-35
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה לפתוח
+    answers:
+    - עפֿענען
+    options:
+    - עפֿענען
+    - באַקומען
+    - וויינען
+    lexemes:
+    - p11-efenen
+  - id: p11-l1-36
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה לסגור
+    answers:
+    - פֿאַרמאַכן
+    options:
+    - פֿאַרמאַכן
+    - וויינען
+    - האַלטן
+    lexemes:
+    - p11-farmakhn
 - id: p11-l2
   kind: new
   title:
@@ -389,208 +587,336 @@ lessons:
   exercises:
   - id: p11-l2-01
     type: learn
-    lexeme: p11-posek
+    lexeme: p11-haltn
   - id: p11-l2-02
     type: learn
-    lexeme: p11-tsifer
+    lexeme: p11-vayzn
   - id: p11-l2-03
     type: learn
-    lexeme: p11-shure
+    lexeme: p11-zukhn
   - id: p11-l2-04
     type: learn
-    lexeme: p11-kapitl
+    lexeme: p11-gefinen
   - id: p11-l2-05
     type: learn
-    lexeme: p11-problem
+    lexeme: p11-fregn
   - id: p11-l2-06
     type: learn
-    lexeme: p11-gedenken
+    lexeme: p11-entfern
   - id: p11-l2-07
     type: learn
-    lexeme: p11-fargesn
+    lexeme: p11-vartn
   - id: p11-l2-08
-    type: match_pairs
-    pairs:
-    - - פּסוק
-      - פסוק
-    - - ציפֿער
-      - ספרה
-    - - שורה
-      - שורה בטקסט
-    lexemes:
-    - p11-posek
-    - p11-tsifer
-    - p11-shure
+    type: learn
+    lexeme: p11-shpiln
   - id: p11-l2-09
+    type: learn
+    lexeme: p11-shpatsirn
+  - id: p11-l2-10
+    type: learn
+    lexeme: p11-vaksn
+  - id: p11-l2-11
+    type: learn
+    lexeme: p11-lakhn
+  - id: p11-l2-12
+    type: dialogue
+    scene: בחצר
+    lines:
+    - speaker: zeyde
+      text: האַלט דאָס בוך. ווײַז מיר וווּ ס'איז. זוך עס.
+      translation: החזק את הספר. הראה לי איפה זה. חפש אותו.
+    - speaker: menachem
+      text: איך האָב עס געפֿונען! זאָל איך פֿרעגן אָדער ענטפֿערן?
+      translation: מצאתי! לשאול או לענות?
+    - speaker: zeyde
+      text: וואַרט אויף מיר. מיר שפּילן, שפּאַצירן און לאַכן.
+      translation: חכה לי. נשחק, נטייל ונצחק.
+    - speaker: menachem
+      text: און ווי אַזוי וואַקסט אַ בוים, זיידע?
+      translation: ואיך עץ גדל, סבא?
+  - id: p11-l2-13
     type: match_pairs
     pairs:
-    - - קאַפּיטל
-      - פרק
-    - - פּראָבלעם
-      - בעיה
-    - - געדענקען
-      - לזכור
-    - - פֿאַרגעסן
-      - לשכוח
+    - - האַלטן
+      - להחזיק
+    - - ווײַזן
+      - להראות
+    - - זוכן
+      - לחפש
+    - - געפֿינען
+      - למצוא
+    - - פֿרעגן
+      - לשאול
     lexemes:
-    - p11-kapitl
-    - p11-problem
-    - p11-gedenken
-    - p11-fargesn
-  - id: p11-l2-10
-    type: multiple_choice
-    prompt: מה פירוש פּסוק?
-    options:
-    - פסוק
-    - לחשב
-    - לרשום
-    correct: 0
-    lexemes:
-    - p11-posek
-  - id: p11-l2-11
-    type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: ספרה?'
-    options:
-    - ציפֿער
-    - אָפּשרײַבן
-    - בוכשטאַב
-    correct: 0
-    lexemes:
-    - p11-tsifer
-  - id: p11-l2-12
-    type: multiple_choice
-    prompt: מה פירוש שורה?
-    options:
-    - שורה בטקסט
-    - לרשום
-    - להעתיק
-    correct: 0
-    lexemes:
-    - p11-shure
-  - id: p11-l2-13
-    type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: פרק?'
-    options:
-    - קאַפּיטל
-    - קלאַס
-    - דערקלערן
-    correct: 0
-    lexemes:
-    - p11-kapitl
+    - p11-haltn
+    - p11-vayzn
+    - p11-zukhn
+    - p11-gefinen
+    - p11-fregn
   - id: p11-l2-14
-    type: multiple_choice
-    prompt: מה פירוש פּראָבלעם?
-    options:
-    - בעיה
-    - כיתה
-    - להעתיק
-    correct: 0
+    type: match_pairs
+    pairs:
+    - - ענטפֿערן
+      - לענות
+    - - וואַרטן
+      - לחכות
+    - - שפּילן
+      - לשחק
+    - - שפּאַצירן
+      - לטייל
+    - - וואַקסן
+      - לגדול
+    - - לאַכן
+      - לצחוק
     lexemes:
-    - p11-problem
+    - p11-entfern
+    - p11-vartn
+    - p11-shpiln
+    - p11-shpatsirn
+    - p11-vaksn
+    - p11-lakhn
   - id: p11-l2-15
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: לזכור?'
+    prompt: מה פירוש האַלטן?
     options:
-    - געדענקען
-    - ליד
-    - איבערחזרן
+    - להחזיק
+    - ליפול
+    - להביא
     correct: 0
     lexemes:
-    - p11-gedenken
+    - p11-haltn
   - id: p11-l2-16
     type: multiple_choice
-    prompt: מה פירוש פֿאַרגעסן?
+    prompt: 'איזו מילה מתאימה ל: להראות?'
     options:
-    - לשכוח
-    - דף
-    - לחשב
+    - ווײַזן
+    - ליגן
+    - נעמען
     correct: 0
     lexemes:
-    - p11-fargesn
+    - p11-vayzn
   - id: p11-l2-17
-    type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה פסוק
-    answers:
-    - פּסוק
+    type: multiple_choice
+    prompt: מה פירוש זוכן?
     options:
-    - פּסוק
-    - וואָרט
-    - ליד
+    - לחפש
+    - לבשל
+    - לעשות
+    correct: 0
     lexemes:
-    - p11-posek
+    - p11-zukhn
   - id: p11-l2-18
-    type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה ספרה
-    answers:
-    - ציפֿער
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: למצוא?'
     options:
-    - ציפֿער
-    - ליד
-    - וואָרט
+    - געפֿינען
+    - נעמען
+    - פֿאַלן
+    correct: 0
     lexemes:
-    - p11-tsifer
+    - p11-gefinen
   - id: p11-l2-19
-    type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה שורה בטקסט
-    answers:
-    - שורה
+    type: multiple_choice
+    prompt: מה פירוש פֿרעגן?
     options:
-    - שורה
-    - ליד
-    - בוכשטאַב
+    - לשאול
+    - להניח
+    - להתחיל
+    correct: 0
     lexemes:
-    - p11-shure
+    - p11-fregn
   - id: p11-l2-20
-    type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה פרק
-    answers:
-    - קאַפּיטל
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: לענות?'
     options:
-    - קאַפּיטל
-    - מעשה
-    - בלאַט
+    - ענטפֿערן
+    - ליגן
+    - זען
+    correct: 0
     lexemes:
-    - p11-kapitl
+    - p11-entfern
   - id: p11-l2-21
-    type: fill_blank
-    sentence: איך זע אַ ___.
-    translation: אני רואה בעיה
-    answers:
-    - פּראָבלעם
+    type: multiple_choice
+    prompt: מה פירוש וואַרטן?
     options:
-    - פּראָבלעם
-    - בוכשטאַב
-    - ליד
+    - לחכות
+    - לקבל
+    - לעשות
+    correct: 0
     lexemes:
-    - p11-problem
+    - p11-vartn
   - id: p11-l2-22
-    type: fill_blank
-    sentence: איך וויל ___.
-    translation: אני רוצה לזכור
-    answers:
-    - געדענקען
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: לשחק?'
     options:
-    - געדענקען
-    - איבערחזרן
-    - פּרובירן
+    - שפּילן
+    - טראַכטן
+    - ווערן
+    correct: 0
     lexemes:
-    - p11-gedenken
+    - p11-shpiln
   - id: p11-l2-23
+    type: multiple_choice
+    prompt: מה פירוש שפּאַצירן?
+    options:
+    - לטייל
+    - להעמיד
+    - לפתוח
+    correct: 0
+    lexemes:
+    - p11-shpatsirn
+  - id: p11-l2-24
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: לגדול?'
+    options:
+    - וואַקסן
+    - בלײַבן
+    - ברענגען
+    correct: 0
+    lexemes:
+    - p11-vaksn
+  - id: p11-l2-25
+    type: multiple_choice
+    prompt: מה פירוש לאַכן?
+    options:
+    - לצחוק
+    - לסיים
+    - להביא
+    correct: 0
+    lexemes:
+    - p11-lakhn
+  - id: p11-l2-26
     type: fill_blank
     sentence: איך וויל ___.
-    translation: אני רוצה לשכוח
+    translation: אני רוצה להחזיק
     answers:
-    - פֿאַרגעסן
+    - האַלטן
     options:
-    - פֿאַרגעסן
-    - איבערחזרן
-    - פֿאַרשרײַבן
+    - האַלטן
+    - בלײַבן
+    - ענדיקן
     lexemes:
-    - p11-fargesn
+    - p11-haltn
+  - id: p11-l2-27
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה להראות
+    answers:
+    - ווײַזן
+    options:
+    - ווײַזן
+    - שנײַדן
+    - ענדיקן
+    lexemes:
+    - p11-vayzn
+  - id: p11-l2-28
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה לחפש
+    answers:
+    - זוכן
+    options:
+    - זוכן
+    - הערן
+    - זען
+    lexemes:
+    - p11-zukhn
+  - id: p11-l2-29
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה למצוא
+    answers:
+    - געפֿינען
+    options:
+    - געפֿינען
+    - ליגן
+    - נעמען
+    lexemes:
+    - p11-gefinen
+  - id: p11-l2-30
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה לשאול
+    answers:
+    - פֿרעגן
+    options:
+    - פֿרעגן
+    - ווערן
+    - לייגן
+    lexemes:
+    - p11-fregn
+  - id: p11-l2-31
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה לענות
+    answers:
+    - ענטפֿערן
+    options:
+    - ענטפֿערן
+    - וויסן
+    - אָנהייבן
+    lexemes:
+    - p11-entfern
+  - id: p11-l2-32
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה לחכות
+    answers:
+    - וואַרטן
+    options:
+    - וואַרטן
+    - וויינען
+    - הערן
+    lexemes:
+    - p11-vartn
+  - id: p11-l2-33
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה לשחק
+    answers:
+    - שפּילן
+    options:
+    - שפּילן
+    - ווערן
+    - פֿאַלן
+    lexemes:
+    - p11-shpiln
+  - id: p11-l2-34
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה לטייל
+    answers:
+    - שפּאַצירן
+    options:
+    - שפּאַצירן
+    - הערן
+    - לייגן
+    lexemes:
+    - p11-shpatsirn
+  - id: p11-l2-35
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה לגדול
+    answers:
+    - וואַקסן
+    options:
+    - וואַקסן
+    - פֿאַלן
+    - ליגן
+    lexemes:
+    - p11-vaksn
+  - id: p11-l2-36
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה לצחוק
+    answers:
+    - לאַכן
+    options:
+    - לאַכן
+    - ווערן
+    - וויינען
+    lexemes:
+    - p11-lakhn
 - id: p11-l3
   kind: new
   title:
@@ -599,261 +925,333 @@ lessons:
   exercises:
   - id: p11-l3-01
     type: learn
-    lexeme: p11-ibertrakhn
+    lexeme: p11-veynen
   - id: p11-l3-02
     type: learn
-    lexeme: p11-pruvn
+    lexeme: p11-shnaydn
   - id: p11-l3-03
     type: learn
-    lexeme: p11-oyslernen
+    lexeme: p11-shtelen
   - id: p11-l3-04
     type: learn
-    lexeme: p11-opshraybn
+    lexeme: p11-leygn
   - id: p11-l3-05
     type: learn
-    lexeme: p11-batrakhtn
+    lexeme: p11-faln
   - id: p11-l3-06
     type: learn
-    lexeme: p11-derklern
+    lexeme: p11-ligen
   - id: p11-l3-07
     type: learn
-    lexeme: p11-farshraybn
+    lexeme: p11-endikn
   - id: p11-l3-08
     type: learn
-    lexeme: p11-rekhenen
+    lexeme: p11-onheybn
   - id: p11-l3-09
     type: learn
-    lexeme: p11-tseykhenen
+    lexeme: p11-vern
   - id: p11-l3-10
-    type: match_pairs
-    pairs:
-    - - איבערחזרן
-      - לחזור על החומר
-    - - פּרובירן
-      - לנסות
-    - - אויסלערנען
-      - ללמוד היטב
-    - - אָפּשרײַבן
-      - להעתיק
-    lexemes:
-    - p11-ibertrakhn
-    - p11-pruvn
-    - p11-oyslernen
-    - p11-opshraybn
+    type: learn
+    lexeme: p11-blaybn
   - id: p11-l3-11
+    type: learn
+    lexeme: p11-bakumen
+  - id: p11-l3-12
+    type: dialogue
+    scene: הסבא נותן הוראות
+    lines:
+    - speaker: zeyde
+      text: וויין ניט, נאָר שנײַד דאָס ברויט.
+      translation: אל תבכה, אלא חתוך את הלחם.
+    - speaker: menachem
+      text: איך שטעל אָן דעם טיש און לייג די טעלערס.
+      translation: אני מציב את השולחן ושם את הצלחות.
+    - speaker: zeyde
+      text: ליג ניט אויפֿן בעט. ענדיק די אַרבעט און הייב אָן אַ נײַע.
+      translation: אל תשכב על המיטה. סיים את העבודה והתחל חדשה.
+    - speaker: menachem
+      text: איך וועל בלײַבן און באַקומען שכר.
+      translation: אשאר ואקבל שכר.
+  - id: p11-l3-13
     type: match_pairs
     pairs:
-    - - באַטראַכטן
-      - להתבונן
-    - - דערקלערן
-      - להסביר
-    - - פֿאַרשרײַבן
-      - לרשום
-    - - רעכענען
-      - לחשב
-    - - צייכענען
-      - לצייר
+    - - וויינען
+      - לבכות
+    - - שנײַדן
+      - לחתוך
+    - - שטעלן
+      - להעמיד
+    - - לייגן
+      - להניח
+    - - פֿאַלן
+      - ליפול
     lexemes:
-    - p11-batrakhtn
-    - p11-derklern
-    - p11-farshraybn
-    - p11-rekhenen
-    - p11-tseykhenen
-  - id: p11-l3-12
-    type: multiple_choice
-    prompt: מה פירוש איבערחזרן?
-    options:
-    - לחזור על החומר
-    - מילה
-    - דף
-    correct: 0
-    lexemes:
-    - p11-ibertrakhn
-  - id: p11-l3-13
-    type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: לנסות?'
-    options:
-    - פּרובירן
-    - ליד
-    - וואָרט
-    correct: 0
-    lexemes:
-    - p11-pruvn
+    - p11-veynen
+    - p11-shnaydn
+    - p11-shtelen
+    - p11-leygn
+    - p11-faln
   - id: p11-l3-14
-    type: multiple_choice
-    prompt: מה פירוש אויסלערנען?
-    options:
-    - ללמוד היטב
-    - סיפור
-    - שיר
-    correct: 0
+    type: match_pairs
+    pairs:
+    - - ליגן
+      - לשכב
+    - - ענדיקן
+      - לסיים
+    - - אָנהייבן
+      - להתחיל
+    - - ווערן
+      - להיות / להפוך
+    - - בלײַבן
+      - להישאר
+    - - באַקומען
+      - לקבל
     lexemes:
-    - p11-oyslernen
+    - p11-ligen
+    - p11-endikn
+    - p11-onheybn
+    - p11-vern
+    - p11-blaybn
+    - p11-bakumen
   - id: p11-l3-15
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: להעתיק?'
+    prompt: מה פירוש וויינען?
     options:
-    - אָפּשרײַבן
-    - מעשה
-    - שורה
+    - לבכות
+    - להחזיק
+    - לשחק
     correct: 0
     lexemes:
-    - p11-opshraybn
+    - p11-veynen
   - id: p11-l3-16
     type: multiple_choice
-    prompt: מה פירוש באַטראַכטן?
+    prompt: 'איזו מילה מתאימה ל: לחתוך?'
     options:
-    - להתבונן
-    - דף
-    - בעיה
+    - שנײַדן
+    - עפֿענען
+    - זען
     correct: 0
     lexemes:
-    - p11-batrakhtn
+    - p11-shnaydn
   - id: p11-l3-17
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: להסביר?'
+    prompt: מה פירוש שטעלן?
     options:
-    - דערקלערן
-    - פּסוק
-    - קלאַס
+    - להעמיד
+    - לשלוח
+    - להראות
     correct: 0
     lexemes:
-    - p11-derklern
+    - p11-shtelen
   - id: p11-l3-18
     type: multiple_choice
-    prompt: מה פירוש פֿאַרשרײַבן?
+    prompt: 'איזו מילה מתאימה ל: להניח?'
     options:
-    - לרשום
-    - פרק
-    - ספרה
+    - לייגן
+    - פֿרעגן
+    - טראַכטן
     correct: 0
     lexemes:
-    - p11-farshraybn
+    - p11-leygn
   - id: p11-l3-19
     type: multiple_choice
-    prompt: 'איזו מילה מתאימה ל: לחשב?'
+    prompt: מה פירוש פֿאַלן?
     options:
-    - רעכענען
-    - פּסוק
-    - פֿאַרגעסן
+    - ליפול
+    - לשמוע
+    - לשלוח
     correct: 0
     lexemes:
-    - p11-rekhenen
+    - p11-faln
   - id: p11-l3-20
     type: multiple_choice
-    prompt: מה פירוש צייכענען?
+    prompt: 'איזו מילה מתאימה ל: לשכב?'
     options:
-    - לצייר
-    - פסוק
-    - לזכור
+    - ליגן
+    - וואַרטן
+    - לאַכן
     correct: 0
     lexemes:
-    - p11-tseykhenen
+    - p11-ligen
   - id: p11-l3-21
-    type: fill_blank
-    sentence: איך וויל ___.
-    translation: אני רוצה לחזור על החומר
-    answers:
-    - איבערחזרן
+    type: multiple_choice
+    prompt: מה פירוש ענדיקן?
     options:
-    - איבערחזרן
-    - פֿאַרגעסן
-    - געדענקען
+    - לסיים
+    - לשאול
+    - להביא
+    correct: 0
     lexemes:
-    - p11-ibertrakhn
+    - p11-endikn
   - id: p11-l3-22
-    type: fill_blank
-    sentence: איך וויל ___.
-    translation: אני רוצה לנסות
-    answers:
-    - פּרובירן
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: להתחיל?'
     options:
-    - פּרובירן
-    - געדענקען
-    - פֿאַרגעסן
+    - אָנהייבן
+    - געפֿינען
+    - עפֿענען
+    correct: 0
     lexemes:
-    - p11-pruvn
+    - p11-onheybn
   - id: p11-l3-23
-    type: fill_blank
-    sentence: איך וויל ___.
-    translation: אני רוצה ללמוד היטב
-    answers:
-    - אויסלערנען
+    type: multiple_choice
+    prompt: מה פירוש ווערן?
     options:
-    - אויסלערנען
-    - פֿאַרגעסן
-    - געדענקען
+    - להיות / להפוך
+    - לשלוח
+    - להביא
+    correct: 0
     lexemes:
-    - p11-oyslernen
+    - p11-vern
   - id: p11-l3-24
-    type: fill_blank
-    sentence: איך וויל ___.
-    translation: אני רוצה להעתיק
-    answers:
-    - אָפּשרײַבן
+    type: multiple_choice
+    prompt: 'איזו מילה מתאימה ל: להישאר?'
     options:
-    - אָפּשרײַבן
-    - געדענקען
-    - פֿאַרגעסן
+    - בלײַבן
+    - זען
+    - ענטפֿערן
+    correct: 0
     lexemes:
-    - p11-opshraybn
+    - p11-blaybn
   - id: p11-l3-25
-    type: fill_blank
-    sentence: איך וויל ___.
-    translation: אני רוצה להתבונן
-    answers:
-    - באַטראַכטן
+    type: multiple_choice
+    prompt: מה פירוש באַקומען?
     options:
-    - באַטראַכטן
-    - פֿאַרגעסן
-    - געדענקען
+    - לקבל
+    - לראות
+    - לקחת
+    correct: 0
     lexemes:
-    - p11-batrakhtn
+    - p11-bakumen
   - id: p11-l3-26
     type: fill_blank
     sentence: איך וויל ___.
-    translation: אני רוצה להסביר
+    translation: אני רוצה לבכות
     answers:
-    - דערקלערן
+    - וויינען
     options:
-    - דערקלערן
-    - געדענקען
-    - פֿאַרגעסן
+    - וויינען
+    - עפֿענען
+    - וויסן
     lexemes:
-    - p11-derklern
+    - p11-veynen
   - id: p11-l3-27
     type: fill_blank
     sentence: איך וויל ___.
-    translation: אני רוצה לרשום
+    translation: אני רוצה לחתוך
     answers:
-    - פֿאַרשרײַבן
+    - שנײַדן
     options:
-    - פֿאַרשרײַבן
-    - פֿאַרגעסן
-    - געדענקען
+    - שנײַדן
+    - לאַכן
+    - זוכן
     lexemes:
-    - p11-farshraybn
+    - p11-shnaydn
   - id: p11-l3-28
     type: fill_blank
     sentence: איך וויל ___.
-    translation: אני רוצה לחשב
+    translation: אני רוצה להעמיד
     answers:
-    - רעכענען
+    - שטעלן
     options:
-    - רעכענען
-    - פֿאַרגעסן
-    - געדענקען
+    - שטעלן
+    - זוכן
+    - ווײַזן
     lexemes:
-    - p11-rekhenen
+    - p11-shtelen
   - id: p11-l3-29
     type: fill_blank
     sentence: איך וויל ___.
-    translation: אני רוצה לצייר
+    translation: אני רוצה להניח
     answers:
-    - צייכענען
+    - לייגן
     options:
-    - צייכענען
-    - פֿאַרגעסן
-    - געדענקען
+    - לייגן
+    - ווײַזן
+    - הערן
     lexemes:
-    - p11-tseykhenen
+    - p11-leygn
+  - id: p11-l3-30
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה ליפול
+    answers:
+    - פֿאַלן
+    options:
+    - פֿאַלן
+    - וויסן
+    - זען
+    lexemes:
+    - p11-faln
+  - id: p11-l3-31
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה לשכב
+    answers:
+    - ליגן
+    options:
+    - ליגן
+    - פֿאַרמאַכן
+    - וויסן
+    lexemes:
+    - p11-ligen
+  - id: p11-l3-32
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה לסיים
+    answers:
+    - ענדיקן
+    options:
+    - ענדיקן
+    - לאַכן
+    - שפּאַצירן
+    lexemes:
+    - p11-endikn
+  - id: p11-l3-33
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה להתחיל
+    answers:
+    - אָנהייבן
+    options:
+    - אָנהייבן
+    - ענטפֿערן
+    - נעמען
+    lexemes:
+    - p11-onheybn
+  - id: p11-l3-34
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה להיות / להפוך
+    answers:
+    - ווערן
+    options:
+    - ווערן
+    - טראַכטן
+    - שיקן
+    lexemes:
+    - p11-vern
+  - id: p11-l3-35
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה להישאר
+    answers:
+    - בלײַבן
+    options:
+    - בלײַבן
+    - פֿרעגן
+    - געפֿינען
+    lexemes:
+    - p11-blaybn
+  - id: p11-l3-36
+    type: fill_blank
+    sentence: איך וויל ___.
+    translation: אני רוצה לקבל
+    answers:
+    - באַקומען
+    options:
+    - באַקומען
+    - וויסן
+    - ברענגען
+    lexemes:
+    - p11-bakumen
