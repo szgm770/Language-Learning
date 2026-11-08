@@ -60,8 +60,6 @@ export function normalize(text: string, opts: NormalizeOptions = {}): string {
   let s = unifyApostrophes(text.normalize("NFC")).toLocaleLowerCase(lang);
   if (lang === "yi") {
     s = s.replace(/[\u05F0-\u05F2]/g, (c) => YIDDISH_LIGATURES[c]!);
-    // Litvish/Chabad writes ניט where standard Yiddish writes נישט; both count as the same answer.
-    s = s.replace(/(^|[^\u05D0-\u05EA])נישט(?![\u05D0-\u05EA])/g, "$1ניט");
   }
 
   if (lang === "en" || lang === undefined) {
@@ -74,7 +72,18 @@ export function normalize(text: string, opts: NormalizeOptions = {}): string {
   }
   // Apostrophes left inside words (e.g. "o'clock") are kept; everything else that is punctuation goes.
   s = s.replace(/'/g, "\u0000").replace(PUNCTUATION, " ").replace(/\u0000/g, "'");
-  return s.replace(/\s+/g, " ").trim();
+  s = s.replace(/\s+/g, " ").trim();
+  if (lang === "yi") s = foldYiddishVariants(s);
+  return s;
+}
+
+/**
+ * Spelling variants that count as the same answer. The Litvish / Chabad forms are the ones shown in the course
+ * (ניט, דעמולט, as in the talks); the standard forms are accepted too. Whole words only, marks already removed.
+ */
+const YIDDISH_VARIANTS: Record<string, string> = { "נישט": "ניט", "דעמאלט": "דעמולט" };
+function foldYiddishVariants(s: string): string {
+  return s.split(" ").map((w) => YIDDISH_VARIANTS[w] ?? w).join(" ");
 }
 
 /** Normalizes but keeps accents, to tell "correct" from "correct apart from accents". */

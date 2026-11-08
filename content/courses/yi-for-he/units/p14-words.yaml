@@ -157,11 +157,11 @@ vocabulary:
     text: איצט בין איך אין שול.
     translation: עכשיו אני בבית הכנסת
 - id: p14-demolt
-  text: דעמאָלט
+  text: דעמולט
   translation: אז
   pos: adverb
   example:
-    text: דעמאָלט האָב איך געלערנט.
+    text: דעמולט האָב איך געלערנט.
     translation: אז למדתי
 - id: p14-frier
   text: פֿריִער
@@ -337,7 +337,7 @@ lessons:
     options:
     - מען
     - צוליב
-    - דעמאָלט
+    - דעמולט
     correct: 0
     lexemes:
     - p14-men
@@ -482,7 +482,7 @@ lessons:
     options:
     - נאָר
     - פֿריִער
-    - דעמאָלט
+    - דעמולט
     lexemes:
     - p14-nor
   - id: p14-l1-30
@@ -650,7 +650,7 @@ lessons:
     prompt: 'איזו מילה מתאימה ל: לבד?'
     options:
     - אַליין
-    - דעמאָלט
+    - דעמולט
     - זיי
     correct: 0
     lexemes:
@@ -775,7 +775,7 @@ lessons:
     - גאָר
     options:
     - גאָר
-    - דעמאָלט
+    - דעמולט
     - נאָר
     lexemes:
     - p14-gor
@@ -859,7 +859,7 @@ lessons:
     pairs:
     - - איצט
       - עכשיו
-    - - דעמאָלט
+    - - דעמולט
       - אז
     - - פֿריִער
       - קודם
@@ -909,7 +909,7 @@ lessons:
     type: multiple_choice
     prompt: 'איזו מילה מתאימה ל: אז?'
     options:
-    - דעמאָלט
+    - דעמולט
     - כאָטש
     - זיי
     correct: 0
@@ -1022,9 +1022,9 @@ lessons:
     sentence: ___ האָב איך געלערנט.
     translation: אז למדתי
     answers:
-    - דעמאָלט
+    - דעמולט
     options:
-    - דעמאָלט
+    - דעמולט
     - אַליין
     - גאָר
     lexemes:

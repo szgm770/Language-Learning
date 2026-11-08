@@ -14,4 +14,8 @@ describe("Yiddish normalisation", () => {
     expect(normalize("איך גיי נישט", { lang: "yi" })).toBe(normalize("איך גיי ניט", { lang: "yi" }));
     expect(normalize("נישטערן", { lang: "yi" })).not.toBe(normalize("ניטערן", { lang: "yi" }));
   });
+  it("accepts דעמאָלט for the Chabad דעמולט, with or without the komets", () => {
+    expect(normalize("דעמאָלט", { lang: "yi" })).toBe(normalize("דעמולט", { lang: "yi" }));
+    expect(normalize("דעמאלט איז", { lang: "yi" })).toBe(normalize("דעמולט איז", { lang: "yi" }));
+  });
 });
