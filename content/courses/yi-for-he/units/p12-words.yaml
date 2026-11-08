@@ -1,9 +1,9 @@
 id: p12-words
 cefr: B2
-scene: travel
+scene: shopping
 title:
-  he: 'הרחבת אוצר מילים 12: קניות, כיוונים ונסיעה'
-  en: 'Word builder 12: shopping, directions, travel'
+  he: קניות ודרכים
+  en: Shopping and directions
 story: מנחם וסבא הולכים לקנות לפני הנסיעה, שואלים בדרך ויוצאים לדרך.
 canDo:
 - להבין ולהשתמש במילים נפוצות נוספות בשיחה
@@ -181,8 +181,8 @@ lessons:
 - id: p12-l1
   kind: new
   title:
-    he: חבילה 12 – חלק 1
-    en: Pack 12 – part 1
+    he: בחנות
+    en: In the shop
   exercises:
   - id: p12-l1-01
     type: learn
@@ -435,8 +435,8 @@ lessons:
 - id: p12-l2
   kind: new
   title:
-    he: חבילה 12 – חלק 2
-    en: Pack 12 – part 2
+    he: שואלים בדרך
+    en: Asking the way
   exercises:
   - id: p12-l2-01
     type: learn
@@ -689,8 +689,8 @@ lessons:
 - id: p12-l3
   kind: new
   title:
-    he: חבילה 12 – חלק 3
-    en: Pack 12 – part 3
+    he: בתחנה
+    en: At the station
   exercises:
   - id: p12-l3-01
     type: learn

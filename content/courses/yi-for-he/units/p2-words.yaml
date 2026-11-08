@@ -2,8 +2,8 @@ id: p2-words
 cefr: A2
 scene: home
 title:
-  he: 'הרחבת אוצר מילים 2: בבית'
-  en: 'Word builder 2: at home'
+  he: מסדרים את הבית
+  en: Tidying the house
 story: מנחם עוזר לסבתא לסדר את הבית ומוצא בו כל מיני חפצים.
 canDo:
 - להבין ולהשתמש במילים נפוצות נוספות בשיחה
@@ -195,8 +195,8 @@ lessons:
 - id: p2-l1
   kind: new
   title:
-    he: חבילה 2 – חלק 1
-    en: Pack 2 – part 1
+    he: שולחן לסעודה
+    en: Setting the table
   exercises:
   - id: p2-l1-01
     type: learn
@@ -449,8 +449,8 @@ lessons:
 - id: p2-l2
   kind: new
   title:
-    he: חבילה 2 – חלק 2
-    en: Pack 2 – part 2
+    he: סדר בבית
+    en: Order at home
   exercises:
   - id: p2-l2-01
     type: learn
@@ -703,8 +703,8 @@ lessons:
 - id: p2-l3
   kind: new
   title:
-    he: חבילה 2 – חלק 3
-    en: Pack 2 – part 3
+    he: בחדר האורחים
+    en: In the guest room
   exercises:
   - id: p2-l3-01
     type: learn

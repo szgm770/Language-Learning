@@ -1,9 +1,9 @@
 id: p11-words
 cefr: B2
-scene: day
+scene: home
 title:
-  he: 'הרחבת אוצר מילים 11: פעלים'
-  en: 'Word builder 11: verbs'
+  he: מנחם עוזר בבית
+  en: Menachem helps at home
 story: הסבא והסבתא מבקשים ממנחם לעשות כל מיני דברים, ומנחם לומד לספר מה הוא עושה.
 canDo:
 - להבין ולהשתמש במילים נפוצות נוספות בשיחה
@@ -244,8 +244,8 @@ lessons:
 - id: p11-l1
   kind: new
   title:
-    he: חבילה 11 – חלק 1
-    en: Pack 11 – part 1
+    he: במטבח
+    en: In the kitchen
   exercises:
   - id: p11-l1-01
     type: learn
@@ -582,8 +582,8 @@ lessons:
 - id: p11-l2
   kind: new
   title:
-    he: חבילה 11 – חלק 2
-    en: Pack 11 – part 2
+    he: בחצר
+    en: In the yard
   exercises:
   - id: p11-l2-01
     type: learn
@@ -920,8 +920,8 @@ lessons:
 - id: p11-l3
   kind: new
   title:
-    he: חבילה 11 – חלק 3
-    en: Pack 11 – part 3
+    he: הוראות מהסבא
+    en: Zeyde's instructions
   exercises:
   - id: p11-l3-01
     type: learn

@@ -1,9 +1,9 @@
 id: p18-words
 cefr: C1
-scene: day
+scene: home
 title:
-  he: 'הרחבת אוצר מילים 18: תארים'
-  en: 'Word builder 18: adjectives'
+  he: 'מכתב מניו יורק: תיאורים'
+  en: 'A letter from New York: descriptions'
 story: 'מנחם כותב לסבא מכתב מניו יורק ומתאר את מה שהוא רואה: צבעים, חום וקור, גדול וקטן.'
 canDo:
 - להבין ולהשתמש במילים נפוצות נוספות בשיחה
@@ -216,8 +216,8 @@ lessons:
 - id: p18-l1
   kind: new
   title:
-    he: חבילה 18 – חלק 1
-    en: Pack 18 – part 1
+    he: צבעים ומהירות
+    en: Colours and speed
   exercises:
   - id: p18-l1-01
     type: learn
@@ -498,8 +498,8 @@ lessons:
 - id: p18-l2
   kind: new
   title:
-    he: חבילה 18 – חלק 2
-    en: Pack 18 – part 2
+    he: תיאור הבית
+    en: Describing the house
   exercises:
   - id: p18-l2-01
     type: learn
@@ -780,8 +780,8 @@ lessons:
 - id: p18-l3
   kind: new
   title:
-    he: חבילה 18 – חלק 3
-    en: Pack 18 – part 3
+    he: עוד תארים
+    en: More adjectives
   exercises:
   - id: p18-l3-01
     type: learn

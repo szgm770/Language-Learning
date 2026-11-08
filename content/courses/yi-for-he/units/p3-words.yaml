@@ -2,8 +2,8 @@ id: p3-words
 cefr: A2
 scene: family
 title:
-  he: 'הרחבת אוצר מילים 3: לבוש ומשפחה'
-  en: 'Word builder 3: clothes and family'
+  he: מתכוננים לנסיעה
+  en: Getting ready to travel
 story: לפני הנסיעה מנחם בוחר בגדים, ובבית מתחילים לדבר על כל הקרובים שיפגוש.
 canDo:
 - להבין ולהשתמש במילים נפוצות נוספות בשיחה
@@ -181,8 +181,8 @@ lessons:
 - id: p3-l1
   kind: new
   title:
-    he: חבילה 3 – חלק 1
-    en: Pack 3 – part 1
+    he: מה לובשים
+    en: What to wear
   exercises:
   - id: p3-l1-01
     type: learn
@@ -435,8 +435,8 @@ lessons:
 - id: p3-l2
   kind: new
   title:
-    he: חבילה 3 – חלק 2
-    en: Pack 3 – part 2
+    he: כפתור ומשקפיים
+    en: A button and glasses
   exercises:
   - id: p3-l2-01
     type: learn
@@ -689,8 +689,8 @@ lessons:
 - id: p3-l3
   kind: new
   title:
-    he: חבילה 3 – חלק 3
-    en: Pack 3 – part 3
+    he: הקרובים בניו יורק
+    en: Relatives in New York
   exercises:
   - id: p3-l3-01
     type: learn

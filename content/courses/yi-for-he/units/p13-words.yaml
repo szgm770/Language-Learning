@@ -1,9 +1,9 @@
 id: p13-words
 cefr: B2
-scene: study
+scene: town
 title:
-  he: 'הרחבת אוצר מילים 13: עוד מהשיחות'
-  en: 'Word builder 13: more from the talks'
+  he: 'בהתוועדות: מילים בשיחה'
+  en: 'At the farbrengen: words in the talk'
 story: מנחם וסבא יושבים בהתוועדות בבית הכנסת ושומעים שיחה בשיעור יידיש; הסבא מסביר למנחם מילים שחוזרות בה.
 canDo:
 - להבין ולהשתמש במילים נפוצות נוספות בשיחה
@@ -146,8 +146,8 @@ lessons:
 - id: p13-l1
   kind: new
   title:
-    he: חבילה 13 – חלק 1
-    en: Pack 13 – part 1
+    he: מסבירים מילים
+    en: Explaining words
   exercises:
   - id: p13-l1-01
     type: learn
@@ -344,8 +344,8 @@ lessons:
 - id: p13-l2
   kind: new
   title:
-    he: חבילה 13 – חלק 2
-    en: Pack 13 – part 2
+    he: יש ואין
+    en: Is and isn't
   exercises:
   - id: p13-l2-01
     type: learn
@@ -542,8 +542,8 @@ lessons:
 - id: p13-l3
   kind: new
   title:
-    he: חבילה 13 – חלק 3
-    en: Pack 13 – part 3
+    he: פעולות
+    en: Actions
   exercises:
   - id: p13-l3-01
     type: learn

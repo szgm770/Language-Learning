@@ -1,9 +1,9 @@
 id: p15-words
 cefr: B2
-scene: study
+scene: town
 title:
-  he: 'הרחבת אוצר מילים 15: מילים נפוצות מעוד שיחות'
-  en: 'Word builder 15: common words from more talks'
+  he: 'בהתוועדות: מי ואיפה'
+  en: 'At the farbrengen: who and where'
 story: 'הסבא ממשיך להסביר למנחם מילים נפוצות בשיחות: יהודים, נשים, גברים, הורים ועולם.'
 canDo:
 - להבין ולהשתמש במילים נפוצות נוספות בשיחה
@@ -258,8 +258,8 @@ lessons:
 - id: p15-l1
   kind: new
   title:
-    he: חבילה 15 – חלק 1
-    en: Pack 15 – part 1
+    he: מי נמצא
+    en: Who is there
   exercises:
   - id: p15-l1-01
     type: learn
@@ -596,8 +596,8 @@ lessons:
 - id: p15-l2
   kind: new
   title:
-    he: חבילה 15 – חלק 2
-    en: Pack 15 – part 2
+    he: תנועה
+    en: Movement
   exercises:
   - id: p15-l2-01
     type: learn
@@ -934,8 +934,8 @@ lessons:
 - id: p15-l3
   kind: new
   title:
-    he: חבילה 15 – חלק 3
-    en: Pack 15 – part 3
+    he: עוד פעלים
+    en: More verbs
   exercises:
   - id: p15-l3-01
     type: learn

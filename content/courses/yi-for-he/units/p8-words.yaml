@@ -1,9 +1,9 @@
 id: p8-words
 cefr: B1
-scene: nature
+scene: travel
 title:
-  he: 'הרחבת אוצר מילים 8: טבע ועונות'
-  en: 'Word builder 8: nature and seasons'
+  he: מחלון המטוס
+  en: From the plane window
 story: מחלון המטוס מנחם רואה את הטבע ומספר לסבא מה הוא רואה למטה.
 canDo:
 - להבין ולהשתמש במילים נפוצות נוספות בשיחה
@@ -209,8 +209,8 @@ lessons:
 - id: p8-l1
   kind: new
   title:
-    he: חבילה 8 – חלק 1
-    en: Pack 8 – part 1
+    he: השמיים
+    en: The sky
   exercises:
   - id: p8-l1-01
     type: learn
@@ -491,8 +491,8 @@ lessons:
 - id: p8-l2
   kind: new
   title:
-    he: חבילה 8 – חלק 2
-    en: Pack 8 – part 2
+    he: חיות ומזג אוויר
+    en: Animals and weather
   exercises:
   - id: p8-l2-01
     type: learn
@@ -773,8 +773,8 @@ lessons:
 - id: p8-l3
   kind: new
   title:
-    he: חבילה 8 – חלק 3
-    en: Pack 8 – part 3
+    he: עונות השנה
+    en: Seasons
   exercises:
   - id: p8-l3-01
     type: learn

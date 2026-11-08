@@ -1,9 +1,9 @@
 id: p17-words
 cefr: B2
-scene: study
+scene: town
 title:
-  he: 'הרחבת אוצר מילים 17: עוד מילים משיחות'
-  en: 'Word builder 17: more words from talks'
+  he: סיום ההתוועדות
+  en: The end of the farbrengen
 story: בסוף ההתוועדות הסבא וחוזר על המילים האחרונות עם מנחם, ושניהם מתחילים לכתוב מכתב.
 canDo:
 - להבין ולהשתמש במילים נפוצות נוספות בשיחה
@@ -251,8 +251,8 @@ lessons:
 - id: p17-l1
   kind: new
   title:
-    he: חבילה 17 – חלק 1
-    en: Pack 17 – part 1
+    he: מילים לסיום
+    en: Closing words
   exercises:
   - id: p17-l1-01
     type: learn
@@ -589,8 +589,8 @@ lessons:
 - id: p17-l2
   kind: new
   title:
-    he: חבילה 17 – חלק 2
-    en: Pack 17 – part 2
+    he: תיאורים
+    en: Descriptions
   exercises:
   - id: p17-l2-01
     type: learn
@@ -927,8 +927,8 @@ lessons:
 - id: p17-l3
   kind: new
   title:
-    he: חבילה 17 – חלק 3
-    en: Pack 17 – part 3
+    he: מכתב לסיום
+    en: A closing letter
   exercises:
   - id: p17-l3-01
     type: learn

@@ -2,8 +2,8 @@ id: p6-words
 cefr: B1
 scene: study
 title:
-  he: 'הרחבת אוצר מילים 6: לימוד'
-  en: 'Word builder 6: study'
+  he: לומדים תניא
+  en: Studying Tanya
 story: מנחם לומד עם סבא תניא ובדרך מדברים על כל מה שעושים בשיעור.
 canDo:
 - להבין ולהשתמש במילים נפוצות נוספות בשיחה
@@ -174,8 +174,8 @@ lessons:
 - id: p6-l1
   kind: new
   title:
-    he: חבילה 6 – חלק 1
-    en: Pack 6 – part 1
+    he: בכיתה
+    en: In class
   exercises:
   - id: p6-l1-01
     type: learn
@@ -400,8 +400,8 @@ lessons:
 - id: p6-l2
   kind: new
   title:
-    he: חבילה 6 – חלק 2
-    en: Pack 6 – part 2
+    he: בתניא
+    en: In the Tanya
   exercises:
   - id: p6-l2-01
     type: learn
@@ -626,8 +626,8 @@ lessons:
 - id: p6-l3
   kind: new
   title:
-    he: חבילה 6 – חלק 3
-    en: Pack 6 – part 3
+    he: חוזרים על הלימוד
+    en: Reviewing
   exercises:
   - id: p6-l3-01
     type: learn

@@ -1,9 +1,9 @@
 id: p7-words
 cefr: B1
-scene: home
+scene: travel
 title:
-  he: 'הרחבת אוצר מילים 7: אוכל ושתייה'
-  en: 'Word builder 7: food and drink'
+  he: ארוחה במטוס
+  en: A meal on the plane
 story: במטוס ובדרך לניו יורק מנחם מסתכל בתפריט הכשר, והסבא מזמין לו אוכל לפי הכללים.
 canDo:
 - להבין ולהשתמש במילים נפוצות נוספות בשיחה
@@ -181,8 +181,8 @@ lessons:
 - id: p7-l1
   kind: new
   title:
-    he: חבילה 7 – חלק 1
-    en: Pack 7 – part 1
+    he: ארוחה כשרה
+    en: A kosher meal
   exercises:
   - id: p7-l1-01
     type: learn
@@ -435,8 +435,8 @@ lessons:
 - id: p7-l2
   kind: new
   title:
-    he: חבילה 7 – חלק 2
-    en: Pack 7 – part 2
+    he: שתייה ובישול
+    en: Drinks and baking
   exercises:
   - id: p7-l2-01
     type: learn
@@ -689,8 +689,8 @@ lessons:
 - id: p7-l3
   kind: new
   title:
-    he: חבילה 7 – חלק 3
-    en: Pack 7 – part 3
+    he: ארוחה קלה
+    en: A light meal
   exercises:
   - id: p7-l3-01
     type: learn
