@@ -36,6 +36,24 @@ vocabulary:
   - { id: "dessert", text: "dessert", translation: "קינוח", pos: "noun", pronunciation: "דִיזֶרְט" }
   - { id: "delicious", text: "delicious", translation: "טעים מאוד", pos: "adjective", pronunciation: "דִילִישֶׁס" }
 
+  - { id: "oil", text: "oil", translation: "שמן", pos: "noun", pronunciation: "אוֹיל", example: { text: "I use oil for the salad.", translation: "אני משתמש בשמן לסלט." } }
+  - { id: "burn", text: "burn", translation: "לשרוף", pos: "verb", pronunciation: "בֶּרְן", example: { text: "Don't burn the bread.", translation: "אל תשרוף את הלחם." } }
+  - { id: "brown", text: "brown", translation: "חום", pos: "adjective", pronunciation: "בְּרַאוּן", example: { text: "The bread is brown.", translation: "הלחם חום." } }
+  - { id: "heat-2", text: "heat", translation: "לחמם", pos: "verb", pronunciation: "הִיט", example: { text: "Heat the soup slowly.", translation: "חמם את המרק לאט." } }
+  - { id: "double", text: "double", translation: "כפול; להכפיל", pos: "adjective", pronunciation: "דָאבֶּל", example: { text: "I want a double portion.", translation: "אני רוצה מנה כפולה." } }
+  - { id: "fat", text: "fat", translation: "שומן", pos: "noun", pronunciation: "פֶט", example: { text: "This soup has little fat.", translation: "במרק הזה יש מעט שומן." } }
+  - { id: "store", text: "store", translation: "חנות; לאחסן", pos: "noun", pronunciation: "סְטוֹר", example: { text: "The store opens at nine.", translation: "החנות נפתחת בתשע." } }
+  - { id: "credit", text: "credit", translation: "אשראי", pos: "noun", pronunciation: "קְרֶדִיט", example: { text: "I pay by credit card.", translation: "אני משלם בכרטיס אשראי." } }
+  - { id: "payment", text: "payment", translation: "תשלום", pos: "noun", pronunciation: "פֵּיימֶנְט", example: { text: "The payment is by card.", translation: "התשלום הוא בכרטיס." } }
+  - { id: "count", text: "count", translation: "לספור", pos: "verb", pronunciation: "קַאוּנְט", example: { text: "Count the money, please.", translation: "בבקשה ספור את הכסף." } }
+  - { id: "cent", text: "cent", translation: "סנט", pos: "noun", pronunciation: "סֶנְט", example: { text: "It costs one cent.", translation: "זה עולה סנט אחד." } }
+  - { id: "thousand", text: "thousand", translation: "אלף", pos: "number", pronunciation: "תַּאוּזֶנְד", example: { text: "It costs a thousand pounds.", translation: "זה עולה אלף לירות." } }
+  - { id: "prepare", text: "prepare", translation: "להכין", pos: "verb", pronunciation: "פְּרִיפֶּר", example: { text: "I prepare dinner at six.", translation: "אני מכין ארוחת ערב בשש." } }
+  - { id: "advice", text: "advice", translation: "עצה", pos: "noun", pronunciation: "אַדְוַואיס", example: { text: "Thanks for your advice.", translation: "תודה על העצה שלך." } }
+  - { id: "choice", text: "choice", translation: "בחירה", pos: "noun", pronunciation: "צ'וֹיס", example: { text: "That is a good choice.", translation: "זו בחירה טובה." } }
+  - { id: "regular", text: "regular", translation: "קבוע", pos: "adjective", pronunciation: "רֶגְיוּלֶר", example: { text: "I eat regular meals.", translation: "אני אוכל ארוחות קבועות." } }
+  - { id: "usually", text: "usually", translation: "בדרך כלל", pos: "adverb", pronunciation: "יוּז'וּאָלִי", example: { text: "I usually eat at home.", translation: "אני בדרך כלל אוכל בבית." } }
+  - { id: "daily", text: "daily", translation: "יומי", pos: "adjective", pronunciation: "דֵּיילִי", example: { text: "I take a daily walk.", translation: "אני עושה הליכה יומית." } }
 grammar:
   - id: countable-uncountable
     title: { he: "סופרים או לא סופרים: some, any, much, many", en: "Countable and uncountable" }
@@ -474,3 +492,504 @@ lessons:
         text: "How many eggs do we need? We need four."
         translation: "כמה ביצים אנחנו צריכים? אנחנו צריכים ארבע."
         lexemes: [how-many, egg, need]
+  # ------------------------------------------------------------------ story words
+  - id: u13-n1
+    kind: new
+    title:
+      he: 'היומן של נועה: במטבח'
+      en: 'Noa''s diary: in the kitchen'
+    exercises:
+    - id: u13-n1-01
+      type: dialogue
+      scene: נועה מבשלת לארוחת שישי לפי מתכון של אמא.
+      lines:
+      - speaker: noa
+        text: I need oil for the pan. Be careful, I don't want to burn it.
+        translation: אני צריכה שמן למחבת. זהירות, אני לא רוצה לשרוף את זה.
+      - speaker: rachel
+        text: The onions are already brown. Too much fat is not good.
+        translation: הבצל כבר חום. יותר מדי שומן זה לא טוב.
+      - speaker: noa
+        text: Lower the heat. And double the sauce, we are many tonight.
+        translation: הנמיכי את האש. והכפילי את הרוטב, אנחנו הרבה הערב.
+      - speaker: rachel
+        text: Okay.
+        translation: בסדר.
+    - id: u13-n1-02
+      type: learn
+      lexeme: oil
+    - id: u13-n1-03
+      type: learn
+      lexeme: burn
+    - id: u13-n1-04
+      type: learn
+      lexeme: brown
+    - id: u13-n1-05
+      type: learn
+      lexeme: heat-2
+    - id: u13-n1-06
+      type: learn
+      lexeme: double
+    - id: u13-n1-07
+      type: learn
+      lexeme: fat
+    - id: u13-n1-08
+      type: match_pairs
+      pairs:
+      - - oil
+        - שמן
+      - - burn
+        - לשרוף
+      - - brown
+        - חום
+      - - heat
+        - לחמם
+      - - double
+        - כפול; להכפיל
+      - - fat
+        - שומן
+      lexemes:
+      - oil
+      - burn
+      - brown
+      - heat-2
+      - double
+      - fat
+    - id: u13-n1-09
+      type: multiple_choice
+      prompt: burn – מה הפירוש?
+      options:
+      - לשרוף
+      - לחמם
+      - שמן
+      correct: 0
+      lexemes:
+      - burn
+    - id: u13-n1-10
+      type: multiple_choice
+      prompt: double – מה הפירוש?
+      options:
+      - כפול; להכפיל
+      - חום
+      - שומן
+      correct: 0
+      lexemes:
+      - double
+    - id: u13-n1-11
+      type: multiple_choice
+      prompt: oil – מה הפירוש?
+      options:
+      - שמן
+      - לחמם
+      - שומן
+      correct: 0
+      lexemes:
+      - oil
+    - id: u13-n1-12
+      type: fill_blank
+      sentence: This soup has little ___.
+      translation: במרק הזה יש מעט שומן.
+      answers:
+      - fat
+      options:
+      - fat
+      - oil
+      - brown
+      lexemes:
+      - fat
+    - id: u13-n1-13
+      type: fill_blank
+      sentence: ___ the soup slowly.
+      translation: חמם את המרק לאט.
+      answers:
+      - Heat
+      options:
+      - Heat
+      - fat
+      - brown
+      lexemes:
+      - heat-2
+    - id: u13-n1-14
+      type: fill_blank
+      sentence: The bread is ___.
+      translation: הלחם חום.
+      answers:
+      - brown
+      options:
+      - brown
+      - oil
+      - burn
+      lexemes:
+      - brown
+    - id: u13-n1-15
+      type: word_bank
+      prompt: אל תשרוף את הלחם.
+      answers:
+      - Don't burn the bread.
+      distractors:
+      - heat
+      - fat
+      lexemes:
+      - burn
+    - id: u13-n1-16
+      type: word_bank
+      prompt: אני רוצה מנה כפולה.
+      answers:
+      - I want a double portion.
+      distractors:
+      - oil
+      - brown
+      lexemes:
+      - double
+    - id: u13-n1-17
+      type: listening_choice
+      audioText: I use oil for the salad.
+      question: מה שמעתם?
+      options:
+      - אני משתמש בשמן לסלט.
+      - אל תשרוף את הלחם.
+      - הלחם חום.
+      correct: 0
+      lexemes:
+      - oil
+    - id: u13-n1-18
+      type: speak_repeat
+      text: Don't burn the oil. Heat it slowly.
+      translation: אל תשרפי את השמן. חממי אותו לאט.
+      lexemes:
+      - oil
+      - burn
+      - heat-2
+  - id: u13-n2
+    kind: new
+    title:
+      he: 'היומן של נועה: בסופר'
+      en: 'Noa''s diary: at the store'
+    exercises:
+    - id: u13-n2-01
+      type: dialogue
+      scene: נועה קונה מצרכים לשבת, ביום שישי בבוקר.
+      lines:
+      - speaker: noa
+        text: I take the groceries to the store counter and pay by credit card.
+        translation: אני לוקחת את המצרכים לקופה ומשלמת בכרטיס אשראי.
+      - speaker: eli
+        text: The payment is only one pound fifty? Count it again.
+        translation: התשלום הוא רק לירה וחמישים סנט? ספרי שוב.
+      - speaker: noa
+        text: Thousand thanks. I spend less on Friday.
+        translation: אלף תודות. אני מוציאה פחות ביום שישי.
+      - speaker: eli
+        text: Shabbat shalom!
+        translation: שבת שלום!
+    - id: u13-n2-02
+      type: learn
+      lexeme: store
+    - id: u13-n2-03
+      type: learn
+      lexeme: credit
+    - id: u13-n2-04
+      type: learn
+      lexeme: payment
+    - id: u13-n2-05
+      type: learn
+      lexeme: count
+    - id: u13-n2-06
+      type: learn
+      lexeme: cent
+    - id: u13-n2-07
+      type: learn
+      lexeme: thousand
+    - id: u13-n2-08
+      type: match_pairs
+      pairs:
+      - - store
+        - חנות; לאחסן
+      - - credit
+        - אשראי
+      - - payment
+        - תשלום
+      - - count
+        - לספור
+      - - cent
+        - סנט
+      - - thousand
+        - אלף
+      lexemes:
+      - store
+      - credit
+      - payment
+      - count
+      - cent
+      - thousand
+    - id: u13-n2-09
+      type: multiple_choice
+      prompt: thousand – מה הפירוש?
+      options:
+      - אלף
+      - סנט
+      - אשראי
+      correct: 0
+      lexemes:
+      - thousand
+    - id: u13-n2-10
+      type: multiple_choice
+      prompt: payment – מה הפירוש?
+      options:
+      - תשלום
+      - סנט
+      - לספור
+      correct: 0
+      lexemes:
+      - payment
+    - id: u13-n2-11
+      type: multiple_choice
+      prompt: count – מה הפירוש?
+      options:
+      - לספור
+      - אלף
+      - אשראי
+      correct: 0
+      lexemes:
+      - count
+    - id: u13-n2-12
+      type: fill_blank
+      sentence: The ___ opens at nine.
+      translation: החנות נפתחת בתשע.
+      answers:
+      - store
+      options:
+      - store
+      - payment
+      - thousand
+      lexemes:
+      - store
+    - id: u13-n2-13
+      type: fill_blank
+      sentence: I pay by ___ card.
+      translation: אני משלם בכרטיס אשראי.
+      answers:
+      - credit
+      options:
+      - credit
+      - count
+      - store
+      lexemes:
+      - credit
+    - id: u13-n2-14
+      type: fill_blank
+      sentence: It costs one ___.
+      translation: זה עולה סנט אחד.
+      answers:
+      - cent
+      options:
+      - cent
+      - payment
+      - thousand
+      lexemes:
+      - cent
+    - id: u13-n2-15
+      type: word_bank
+      prompt: זה עולה אלף לירות.
+      answers:
+      - It costs a thousand pounds.
+      distractors:
+      - credit
+      - payment
+      lexemes:
+      - thousand
+    - id: u13-n2-16
+      type: word_bank
+      prompt: התשלום הוא בכרטיס.
+      answers:
+      - The payment is by card.
+      distractors:
+      - thousand
+      - count
+      lexemes:
+      - payment
+    - id: u13-n2-17
+      type: listening_choice
+      audioText: Count the money, please.
+      question: מה שמעתם?
+      options:
+      - בבקשה ספור את הכסף.
+      - החנות נפתחת בתשע.
+      - אני משלם בכרטיס אשראי.
+      correct: 0
+      lexemes:
+      - count
+    - id: u13-n2-18
+      type: speak_repeat
+      text: I pay in the store by credit card.
+      translation: אני משלמת בחנות בכרטיס אשראי.
+      lexemes:
+      - store
+      - credit
+  - id: u13-n3
+    kind: new
+    title:
+      he: 'היומן של נועה: להתכונן ולבחור'
+      en: 'Noa''s diary: preparing and choosing'
+    exercises:
+    - id: u13-n3-01
+      type: dialogue
+      scene: רחל נותנת לנועה עצות לארוחה.
+      lines:
+      - speaker: rachel
+        text: Let me give you advice. Prepare the salad early.
+        translation: תני לי לתת לך עצה. תכיני את הסלט מוקדם.
+      - speaker: noa
+        text: Good choice. I usually cook the soup first, and I daily check the oven.
+        translation: בחירה טובה. אני בדרך כלל מבשלת את המרק קודם, ובודקת את התנור מדי יום.
+      - speaker: rachel
+        text: Regular meals are healthy, and recent food news says the same.
+        translation: ארוחות סדירות בריאות, וגם חדשות האוכל האחרונות אומרות כך.
+      - speaker: noa
+        text: Thanks!
+        translation: תודה!
+    - id: u13-n3-02
+      type: learn
+      lexeme: prepare
+    - id: u13-n3-03
+      type: learn
+      lexeme: advice
+    - id: u13-n3-04
+      type: learn
+      lexeme: choice
+    - id: u13-n3-05
+      type: learn
+      lexeme: regular
+    - id: u13-n3-06
+      type: learn
+      lexeme: usually
+    - id: u13-n3-07
+      type: learn
+      lexeme: daily
+    - id: u13-n3-08
+      type: match_pairs
+      pairs:
+      - - prepare
+        - להכין
+      - - advice
+        - עצה
+      - - choice
+        - בחירה
+      - - regular
+        - קבוע
+      - - usually
+        - בדרך כלל
+      - - daily
+        - יומי
+      lexemes:
+      - prepare
+      - advice
+      - choice
+      - regular
+      - usually
+      - daily
+    - id: u13-n3-09
+      type: multiple_choice
+      prompt: daily – מה הפירוש?
+      options:
+      - יומי
+      - להכין
+      - בחירה
+      correct: 0
+      lexemes:
+      - daily
+    - id: u13-n3-10
+      type: multiple_choice
+      prompt: usually – מה הפירוש?
+      options:
+      - בדרך כלל
+      - בחירה
+      - להכין
+      correct: 0
+      lexemes:
+      - usually
+    - id: u13-n3-11
+      type: multiple_choice
+      prompt: prepare – מה הפירוש?
+      options:
+      - להכין
+      - קבוע
+      - עצה
+      correct: 0
+      lexemes:
+      - prepare
+    - id: u13-n3-12
+      type: fill_blank
+      sentence: That is a good ___.
+      translation: זו בחירה טובה.
+      answers:
+      - choice
+      options:
+      - choice
+      - advice
+      - daily
+      lexemes:
+      - choice
+    - id: u13-n3-13
+      type: fill_blank
+      sentence: Thanks for your ___.
+      translation: תודה על העצה שלך.
+      answers:
+      - advice
+      options:
+      - advice
+      - prepare
+      - choice
+      lexemes:
+      - advice
+    - id: u13-n3-14
+      type: fill_blank
+      sentence: I eat ___ meals.
+      translation: אני אוכל ארוחות קבועות.
+      answers:
+      - regular
+      options:
+      - regular
+      - daily
+      - prepare
+      lexemes:
+      - regular
+    - id: u13-n3-15
+      type: word_bank
+      prompt: אני עושה הליכה יומית.
+      answers:
+      - I take a daily walk.
+      distractors:
+      - regular
+      - advice
+      lexemes:
+      - daily
+    - id: u13-n3-16
+      type: word_bank
+      prompt: אני בדרך כלל אוכל בבית.
+      answers:
+      - I usually eat at home.
+      distractors:
+      - daily
+      - regular
+      lexemes:
+      - usually
+    - id: u13-n3-17
+      type: listening_choice
+      audioText: I prepare dinner at six.
+      question: מה שמעתם?
+      options:
+      - אני מכין ארוחת ערב בשש.
+      - תודה על העצה שלך.
+      - זו בחירה טובה.
+      correct: 0
+      lexemes:
+      - prepare
+    - id: u13-n3-18
+      type: speak_repeat
+      text: I usually prepare a daily meal.
+      translation: אני בדרך כלל מכינה ארוחה יומית.
+      lexemes:
+      - prepare
+      - usually
+      - daily

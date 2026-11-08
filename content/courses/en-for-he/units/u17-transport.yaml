@@ -35,6 +35,24 @@ vocabulary:
   - { id: "fast", text: "fast", translation: "מהיר", pos: "adjective", pronunciation: "פַאסְט" }
   - { id: "slow", text: "slow", translation: "איטי", pos: "adjective", pronunciation: "סְלוֹ" }
 
+  - { id: "traffic", text: "traffic", translation: "תנועה; פקק", pos: "noun", pronunciation: "טְרֶפִיק", example: { text: "The traffic is heavy.", translation: "התנועה כבדה." } }
+  - { id: "driver", text: "driver", translation: "נהג", pos: "noun", pronunciation: "דְרַאיוֶר", example: { text: "The driver is kind.", translation: "הנהג אדיב." } }
+  - { id: "engine", text: "engine", translation: "מנוע", pos: "noun", pronunciation: "אֶנְג'ִין", example: { text: "The engine is loud.", translation: "המנוע רועש." } }
+  - { id: "ring", text: "ring", translation: "טבעת; מעגל", pos: "noun", pronunciation: "רִינְג", example: { text: "The train goes in a ring.", translation: "הרכבת נוסעת במעגל." } }
+  - { id: "cross", text: "cross", translation: "לחצות", pos: "verb", pronunciation: "קְרוֹס", example: { text: "Cross the road here.", translation: "חצה את הכביש כאן." } }
+  - { id: "track", text: "track", translation: "מסילה", pos: "noun", pronunciation: "טְרֶק", example: { text: "The train is on track two.", translation: "הרכבת על מסילה שתיים." } }
+  - { id: "ship", text: "ship", translation: "ספינה", pos: "noun", pronunciation: "שִׁיפּ", example: { text: "A ship is in the port.", translation: "ספינה נמצאת בנמל." } }
+  - { id: "capital", text: "capital", translation: "בירה", pos: "noun", pronunciation: "קַפִּיטֶל", example: { text: "London is the capital of England.", translation: "לונדון היא בירת אנגליה." } }
+  - { id: "centre", text: "centre", translation: "מרכז", pos: "noun", pronunciation: "סֶנְטֶר", example: { text: "The centre of town is busy.", translation: "מרכז העיר עמוס." } }
+  - { id: "central", text: "central", translation: "מרכזי", pos: "adjective", pronunciation: "סֶנְטְרֶל", example: { text: "The central station is close.", translation: "התחנה המרכזית קרובה." } }
+  - { id: "district", text: "district", translation: "שכונה; מחוז", pos: "noun", pronunciation: "דִיסְטְרִיקְט", example: { text: "This district is quiet.", translation: "השכונה הזאת שקטה." } }
+  - { id: "village", text: "village", translation: "כפר", pos: "noun", pronunciation: "וִילִיג'", example: { text: "I live in a small village.", translation: "אני גר בכפר קטן." } }
+  - { id: "reach", text: "reach", translation: "להגיע", pos: "verb", pronunciation: "רִיץ'", example: { text: "I reach the office at nine.", translation: "אני מגיע למשרד בתשע." } }
+  - { id: "deliver", text: "deliver", translation: "למסור; לספק", pos: "verb", pronunciation: "דִילִיבֶר", example: { text: "They deliver the food home.", translation: "הם מספקים אוכל הביתה." } }
+  - { id: "select", text: "select", translation: "לבחור", pos: "verb", pronunciation: "סִילֶקְט", example: { text: "Select a seat, please.", translation: "בחר מקום, בבקשה." } }
+  - { id: "locate", text: "locate", translation: "לאתר", pos: "verb", pronunciation: "לוֹקֵיט", example: { text: "I can't locate the station.", translation: "אני לא מצליח לאתר את התחנה." } }
+  - { id: "directly", text: "directly", translation: "ישירות", pos: "adverb", pronunciation: "דִירֶקְטְלִי", example: { text: "Go directly to the gate.", translation: "לך ישירות לשער." } }
+  - { id: "anymore", text: "anymore", translation: "יותר", pos: "adverb", pronunciation: "אֶנִימוֹר", example: { text: "I don't live there anymore.", translation: "אני לא גר שם יותר." } }
 grammar:
   - id: superlatives
     title: { he: "הכי: the fastest, the most expensive", en: "Superlatives" }
@@ -463,3 +481,502 @@ lessons:
         text: "What's the fastest way to get to the station?"
         translation: "מה הדרך הכי מהירה להגיע לתחנה?"
         lexemes: [the-est, fast, station]
+  # ------------------------------------------------------------------ story words
+  - id: u17-n1
+    kind: new
+    title:
+      he: 'היומן של נועה: פקקים'
+      en: 'Noa''s diary: traffic'
+    exercises:
+    - id: u17-n1-01
+      type: dialogue
+      scene: נועה עומדת בתחנת אוטובוס בבוקר גשום.
+      lines:
+      - speaker: noa
+        text: The traffic is terrible. The bus driver waits at every light.
+        translation: התנועה נוראית. נהג האוטובוס מחכה בכל רמזור.
+      - speaker: ben
+        text: The engine is old too. Take the tube, it goes in a ring around the center.
+        translation: גם המנוע ישן. קחי את הרכבת התחתית, היא נוסעת בטבעת סביב המרכז.
+      - speaker: noa
+        text: I cross the road and find the track number.
+        translation: אני חוצה את הכביש ומחפשת את מספר המסילה.
+      - speaker: ben
+        text: Platform four.
+        translation: רציף ארבע.
+    - id: u17-n1-02
+      type: learn
+      lexeme: traffic
+    - id: u17-n1-03
+      type: learn
+      lexeme: driver
+    - id: u17-n1-04
+      type: learn
+      lexeme: engine
+    - id: u17-n1-05
+      type: learn
+      lexeme: ring
+    - id: u17-n1-06
+      type: learn
+      lexeme: cross
+    - id: u17-n1-07
+      type: learn
+      lexeme: track
+    - id: u17-n1-08
+      type: match_pairs
+      pairs:
+      - - traffic
+        - תנועה; פקק
+      - - driver
+        - נהג
+      - - engine
+        - מנוע
+      - - ring
+        - טבעת; מעגל
+      - - cross
+        - לחצות
+      - - track
+        - מסילה
+      lexemes:
+      - traffic
+      - driver
+      - engine
+      - ring
+      - cross
+      - track
+    - id: u17-n1-09
+      type: multiple_choice
+      prompt: track – מה הפירוש?
+      options:
+      - מסילה
+      - תנועה; פקק
+      - לחצות
+      correct: 0
+      lexemes:
+      - track
+    - id: u17-n1-10
+      type: multiple_choice
+      prompt: cross – מה הפירוש?
+      options:
+      - לחצות
+      - טבעת; מעגל
+      - מנוע
+      correct: 0
+      lexemes:
+      - cross
+    - id: u17-n1-11
+      type: multiple_choice
+      prompt: engine – מה הפירוש?
+      options:
+      - מנוע
+      - תנועה; פקק
+      - מסילה
+      correct: 0
+      lexemes:
+      - engine
+    - id: u17-n1-12
+      type: fill_blank
+      sentence: The ___ is kind.
+      translation: הנהג אדיב.
+      answers:
+      - driver
+      options:
+      - driver
+      - traffic
+      - track
+      lexemes:
+      - driver
+    - id: u17-n1-13
+      type: fill_blank
+      sentence: The ___ is heavy.
+      translation: התנועה כבדה.
+      answers:
+      - traffic
+      options:
+      - traffic
+      - ring
+      - driver
+      lexemes:
+      - traffic
+    - id: u17-n1-14
+      type: fill_blank
+      sentence: The train goes in a ___.
+      translation: הרכבת נוסעת במעגל.
+      answers:
+      - ring
+      options:
+      - ring
+      - cross
+      - traffic
+      lexemes:
+      - ring
+    - id: u17-n1-15
+      type: word_bank
+      prompt: הרכבת על מסילה שתיים.
+      answers:
+      - The train is on track two.
+      distractors:
+      - engine
+      - cross
+      lexemes:
+      - track
+    - id: u17-n1-16
+      type: word_bank
+      prompt: חצה את הכביש כאן.
+      answers:
+      - Cross the road here.
+      distractors:
+      - track
+      - traffic
+      lexemes:
+      - cross
+    - id: u17-n1-17
+      type: listening_choice
+      audioText: The engine is loud.
+      question: מה שמעתם?
+      options:
+      - המנוע רועש.
+      - התנועה כבדה.
+      - הנהג אדיב.
+      correct: 0
+      lexemes:
+      - engine
+    - id: u17-n1-18
+      type: speak_repeat
+      text: The driver waits in traffic.
+      translation: הנהג מחכה בפקק.
+      lexemes:
+      - traffic
+      - driver
+  - id: u17-n2
+    kind: new
+    title:
+      he: 'היומן של נועה: ברחבי העיר'
+      en: 'Noa''s diary: across the city'
+    exercises:
+    - id: u17-n2-01
+      type: dialogue
+      scene: נועה מתחילה לדעת את לונדון.
+      lines:
+      - speaker: noa
+        text: The capital is huge. This district is in the center.
+        translation: הבירה ענקית. השכונה הזאת במרכז.
+      - speaker: ben
+        text: The central station is near the river. A ship is on the water.
+        translation: התחנה המרכזית ליד הנהר. ספינה על המים.
+      - speaker: noa
+        text: And my village in Israel is so small!
+        translation: והכפר שלי בישראל כל כך קטן!
+      - speaker: ben
+        text: Everything feels small after London.
+        translation: הכול מרגיש קטן אחרי לונדון.
+    - id: u17-n2-02
+      type: learn
+      lexeme: ship
+    - id: u17-n2-03
+      type: learn
+      lexeme: capital
+    - id: u17-n2-04
+      type: learn
+      lexeme: centre
+    - id: u17-n2-05
+      type: learn
+      lexeme: central
+    - id: u17-n2-06
+      type: learn
+      lexeme: district
+    - id: u17-n2-07
+      type: learn
+      lexeme: village
+    - id: u17-n2-08
+      type: match_pairs
+      pairs:
+      - - ship
+        - ספינה
+      - - capital
+        - בירה
+      - - centre
+        - מרכז
+      - - central
+        - מרכזי
+      - - district
+        - שכונה; מחוז
+      - - village
+        - כפר
+      lexemes:
+      - ship
+      - capital
+      - centre
+      - central
+      - district
+      - village
+    - id: u17-n2-09
+      type: multiple_choice
+      prompt: village – מה הפירוש?
+      options:
+      - כפר
+      - שכונה; מחוז
+      - ספינה
+      correct: 0
+      lexemes:
+      - village
+    - id: u17-n2-10
+      type: multiple_choice
+      prompt: centre – מה הפירוש?
+      options:
+      - מרכז
+      - שכונה; מחוז
+      - מרכזי
+      correct: 0
+      lexemes:
+      - centre
+    - id: u17-n2-11
+      type: multiple_choice
+      prompt: district – מה הפירוש?
+      options:
+      - שכונה; מחוז
+      - ספינה
+      - בירה
+      correct: 0
+      lexemes:
+      - district
+    - id: u17-n2-12
+      type: fill_blank
+      sentence: A ___ is in the port.
+      translation: ספינה נמצאת בנמל.
+      answers:
+      - ship
+      options:
+      - ship
+      - central
+      - capital
+      lexemes:
+      - ship
+    - id: u17-n2-13
+      type: fill_blank
+      sentence: London is the ___ of England.
+      translation: לונדון היא בירת אנגליה.
+      answers:
+      - capital
+      options:
+      - capital
+      - centre
+      - district
+      lexemes:
+      - capital
+    - id: u17-n2-14
+      type: fill_blank
+      sentence: The ___ station is close.
+      translation: התחנה המרכזית קרובה.
+      answers:
+      - central
+      options:
+      - central
+      - village
+      - capital
+      lexemes:
+      - central
+    - id: u17-n2-15
+      type: word_bank
+      prompt: אני גר בכפר קטן.
+      answers:
+      - I live in a small village.
+      distractors:
+      - capital
+      - district
+      lexemes:
+      - village
+    - id: u17-n2-16
+      type: word_bank
+      prompt: מרכז העיר עמוס.
+      answers:
+      - The centre of town is busy.
+      distractors:
+      - district
+      - central
+      lexemes:
+      - centre
+    - id: u17-n2-17
+      type: listening_choice
+      audioText: This district is quiet.
+      question: מה שמעתם?
+      options:
+      - השכונה הזאת שקטה.
+      - ספינה נמצאת בנמל.
+      - לונדון היא בירת אנגליה.
+      correct: 0
+      lexemes:
+      - district
+    - id: u17-n2-18
+      type: speak_repeat
+      text: The capital has a central station.
+      translation: בבירה יש תחנה מרכזית.
+      lexemes:
+      - capital
+      - central
+  - id: u17-n3
+    kind: new
+    title:
+      he: 'היומן של נועה: להגיע בזמן'
+      en: 'Noa''s diary: getting there on time'
+    exercises:
+    - id: u17-n3-01
+      type: dialogue
+      scene: נועה ממהרת לפגישה.
+      lines:
+      - speaker: noa
+        text: I must reach the office by nine. I select the fastest line.
+        translation: אני חייבת להגיע למשרד עד תשע. אני בוחרת את הקו המהיר ביותר.
+      - speaker: ben
+        text: The package arrives soon. Can you deliver it to Tamar?
+        translation: החבילה מגיעה בקרוב. תוכלי למסור אותה לתמר?
+      - speaker: noa
+        text: I can't locate the stop, and the bus doesn't come anymore, so I walk directly.
+        translation: אני לא מוצאת את התחנה. אני כבר לא מגיעה לשום מקום, אז אני הולכת ישר.
+      - speaker: ben
+        text: Take care.
+        translation: שמרי על עצמך.
+    - id: u17-n3-02
+      type: learn
+      lexeme: reach
+    - id: u17-n3-03
+      type: learn
+      lexeme: deliver
+    - id: u17-n3-04
+      type: learn
+      lexeme: select
+    - id: u17-n3-05
+      type: learn
+      lexeme: locate
+    - id: u17-n3-06
+      type: learn
+      lexeme: directly
+    - id: u17-n3-07
+      type: learn
+      lexeme: anymore
+    - id: u17-n3-08
+      type: match_pairs
+      pairs:
+      - - reach
+        - להגיע
+      - - deliver
+        - למסור; לספק
+      - - select
+        - לבחור
+      - - locate
+        - לאתר
+      - - directly
+        - ישירות
+      - - anymore
+        - יותר
+      lexemes:
+      - reach
+      - deliver
+      - select
+      - locate
+      - directly
+      - anymore
+    - id: u17-n3-09
+      type: multiple_choice
+      prompt: select – מה הפירוש?
+      options:
+      - לבחור
+      - יותר
+      - למסור; לספק
+      correct: 0
+      lexemes:
+      - select
+    - id: u17-n3-10
+      type: multiple_choice
+      prompt: directly – מה הפירוש?
+      options:
+      - ישירות
+      - לאתר
+      - לבחור
+      correct: 0
+      lexemes:
+      - directly
+    - id: u17-n3-11
+      type: multiple_choice
+      prompt: deliver – מה הפירוש?
+      options:
+      - למסור; לספק
+      - יותר
+      - להגיע
+      correct: 0
+      lexemes:
+      - deliver
+    - id: u17-n3-12
+      type: fill_blank
+      sentence: I can't ___ the station.
+      translation: אני לא מצליח לאתר את התחנה.
+      answers:
+      - locate
+      options:
+      - locate
+      - deliver
+      - select
+      lexemes:
+      - locate
+    - id: u17-n3-13
+      type: fill_blank
+      sentence: I don't live there ___.
+      translation: אני לא גר שם יותר.
+      answers:
+      - anymore
+      options:
+      - anymore
+      - locate
+      - select
+      lexemes:
+      - anymore
+    - id: u17-n3-14
+      type: fill_blank
+      sentence: I ___ the office at nine.
+      translation: אני מגיע למשרד בתשע.
+      answers:
+      - reach
+      options:
+      - reach
+      - select
+      - deliver
+      lexemes:
+      - reach
+    - id: u17-n3-15
+      type: word_bank
+      prompt: בחר מקום, בבקשה.
+      answers:
+      - Select a seat, please.
+      distractors:
+      - locate
+      - deliver
+      lexemes:
+      - select
+    - id: u17-n3-16
+      type: word_bank
+      prompt: לך ישירות לשער.
+      answers:
+      - Go directly to the gate.
+      distractors:
+      - anymore
+      - select
+      lexemes:
+      - directly
+    - id: u17-n3-17
+      type: listening_choice
+      audioText: They deliver the food home.
+      question: מה שמעתם?
+      options:
+      - הם מספקים אוכל הביתה.
+      - אני מגיע למשרד בתשע.
+      - בחר מקום, בבקשה.
+      correct: 0
+      lexemes:
+      - deliver
+    - id: u17-n3-18
+      type: speak_repeat
+      text: I reach the office directly.
+      translation: אני מגיעה ישירות למשרד.
+      lexemes:
+      - reach
+      - directly
