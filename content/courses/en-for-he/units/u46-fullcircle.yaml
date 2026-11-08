@@ -63,6 +63,30 @@ vocabulary:
   text: handover
   translation: העברת מקל
   pos: noun
+- { id: "ceremony", text: "ceremony", translation: "טקס", pos: "noun", example: { text: "The ceremony begins at ten.", translation: "הטקס מתחיל בעשר." } }
+- { id: "pride", text: "pride", translation: "גאווה", pos: "noun", example: { text: "I feel pride in my team.", translation: "אני מרגיש גאווה בצוות שלי." } }
+- { id: "passion", text: "passion", translation: "תשוקה", pos: "noun", example: { text: "She works with passion.", translation: "היא עובדת בתשוקה." } }
+- { id: "symbol", text: "symbol", translation: "סמל", pos: "noun", example: { text: "The key is a symbol of home.", translation: "המפתח הוא סמל של בית." } }
+- { id: "tale", text: "tale", translation: "סיפור", pos: "noun", example: { text: "This is a tale of two cities.", translation: "זה סיפור של שתי ערים." } }
+- { id: "silence", text: "silence", translation: "שקט; דממה", pos: "noun", example: { text: "There is silence in the room.", translation: "יש דממה בחדר." } }
+- { id: "history", text: "history", translation: "היסטוריה", pos: "noun", example: { text: "He loves history.", translation: "הוא אוהב היסטוריה." } }
+- { id: "century", text: "century", translation: "מאה", pos: "noun", example: { text: "This house is a century old.", translation: "הבית הזה בן מאה שנה." } }
+- { id: "decade", text: "decade", translation: "עשור", pos: "noun", example: { text: "A decade is ten years.", translation: "עשור הוא עשר שנים." } }
+- { id: "mystery", text: "mystery", translation: "תעלומה", pos: "noun", example: { text: "The story is a mystery.", translation: "הסיפור הוא תעלומה." } }
+- { id: "legend", text: "legend", translation: "אגדה", pos: "noun", example: { text: "This is an old legend.", translation: "זו אגדה עתיקה." } }
+- { id: "creation", text: "creation", translation: "יצירה; בריאה", pos: "noun", example: { text: "The creation of the office took a year.", translation: "יצירת המשרד לקחה שנה." } }
+- { id: "sacrifice", text: "sacrifice", translation: "הקרבה", pos: "noun", example: { text: "Success needs sacrifice.", translation: "הצלחה דורשת הקרבה." } }
+- { id: "struggle", text: "struggle", translation: "מאבק; להיאבק", pos: "noun", example: { text: "It was a long struggle.", translation: "זה היה מאבק ארוך." } }
+- { id: "brilliant", text: "brilliant", translation: "מבריק", pos: "adjective", example: { text: "What a brilliant idea!", translation: "איזה רעיון מבריק!" } }
+- { id: "vast", text: "vast", translation: "עצום", pos: "adjective", example: { text: "The desert is vast.", translation: "המדבר עצום." } }
+- { id: "outstanding", text: "outstanding", translation: "יוצא דופן", pos: "adjective", example: { text: "She is an outstanding student.", translation: "היא תלמידה יוצאת דופן." } }
+- { id: "universal", text: "universal", translation: "אוניברסלי", pos: "adjective", example: { text: "Kindness is universal.", translation: "אדיבות היא אוניברסלית." } }
+- { id: "boundary", text: "boundary", translation: "גבול", pos: "noun", example: { text: "The river is the boundary.", translation: "הנהר הוא הגבול." } }
+- { id: "stable", text: "stable", translation: "יציב", pos: "adjective", example: { text: "The price is stable.", translation: "המחיר יציב." } }
+- { id: "inner", text: "inner", translation: "פנימי", pos: "adjective", example: { text: "Find your inner strength.", translation: "מצא את הכוח הפנימי שלך." } }
+- { id: "pace", text: "pace", translation: "קצב", pos: "noun", example: { text: "We walk at a slow pace.", translation: "אנחנו הולכים בקצב איטי." } }
+- { id: "thick", text: "thick", translation: "עבה; עמוס", pos: "adjective", example: { text: "The book is thick.", translation: "הספר עבה." } }
+- { id: "urge", text: "urge", translation: "להפציר", pos: "verb", example: { text: "I urge you to try.", translation: "אני מפציר בך לנסות." } }
 grammar:
 - id: concession
   title:
@@ -1009,3 +1033,670 @@ lessons:
     - ככל שניסתה, היא לא הצליחה לשכנע אותו.
     - לא משנה כמה ניסתה, היא לא הצליחה לשכנע אותו.
     lexemes: []
+  # ------------------------------------------------------------------ story words
+- id: u46-n1
+  kind: new
+  title:
+    he: 'היומן של נועה: טקס'
+    en: 'Noa''s diary: the ceremony'
+  exercises:
+  - id: u46-n1-01
+    type: dialogue
+    scene: המשרד חוגג שנה. בן מגיע מלונדון.
+    lines:
+    - speaker: cohen
+      text: Today's ceremony is a symbol of friendship between two cities.
+      translation: הטקס של היום הוא סמל לידידות בין שתי ערים.
+    - speaker: ben
+      text: I feel pride and passion. The tale of this office is special.
+      translation: אני מרגיש גאווה ותשוקה. הסיפור של המשרד הזה מיוחד.
+    - speaker: noa
+      text: For a moment, silence.
+      translation: לרגע, שקט.
+    - speaker: cohen
+      text: Thank you all.
+      translation: תודה לכולם.
+  - id: u46-n1-02
+    type: learn
+    lexeme: ceremony
+  - id: u46-n1-03
+    type: learn
+    lexeme: pride
+  - id: u46-n1-04
+    type: learn
+    lexeme: passion
+  - id: u46-n1-05
+    type: learn
+    lexeme: symbol
+  - id: u46-n1-06
+    type: learn
+    lexeme: tale
+  - id: u46-n1-07
+    type: learn
+    lexeme: silence
+  - id: u46-n1-08
+    type: match_pairs
+    pairs:
+    - - ceremony
+      - טקס
+    - - pride
+      - גאווה
+    - - passion
+      - תשוקה
+    - - symbol
+      - סמל
+    - - tale
+      - סיפור
+    - - silence
+      - שקט; דממה
+    lexemes:
+    - ceremony
+    - pride
+    - passion
+    - symbol
+    - tale
+    - silence
+  - id: u46-n1-09
+    type: multiple_choice
+    prompt: pride – מה הפירוש?
+    options:
+    - גאווה
+    - תשוקה
+    - סיפור
+    correct: 0
+    lexemes:
+    - pride
+  - id: u46-n1-10
+    type: multiple_choice
+    prompt: silence – מה הפירוש?
+    options:
+    - שקט; דממה
+    - טקס
+    - סיפור
+    correct: 0
+    lexemes:
+    - silence
+  - id: u46-n1-11
+    type: multiple_choice
+    prompt: passion – מה הפירוש?
+    options:
+    - תשוקה
+    - שקט; דממה
+    - סמל
+    correct: 0
+    lexemes:
+    - passion
+  - id: u46-n1-12
+    type: fill_blank
+    sentence: This is a ___ of two cities.
+    translation: זה סיפור של שתי ערים.
+    answers:
+    - tale
+    options:
+    - tale
+    - ceremony
+    - passion
+    lexemes:
+    - tale
+  - id: u46-n1-13
+    type: fill_blank
+    sentence: The ___ begins at ten.
+    translation: הטקס מתחיל בעשר.
+    answers:
+    - ceremony
+    options:
+    - ceremony
+    - symbol
+    - pride
+    lexemes:
+    - ceremony
+  - id: u46-n1-14
+    type: fill_blank
+    sentence: The key is a ___ of home.
+    translation: המפתח הוא סמל של בית.
+    answers:
+    - symbol
+    options:
+    - symbol
+    - tale
+    - ceremony
+    lexemes:
+    - symbol
+  - id: u46-n1-15
+    type: word_bank
+    prompt: אני מרגיש גאווה בצוות שלי.
+    answers:
+    - I feel pride in my team.
+    distractors:
+    - tale
+    - passion
+    lexemes:
+    - pride
+  - id: u46-n1-16
+    type: word_bank
+    prompt: יש דממה בחדר.
+    answers:
+    - There is silence in the room.
+    distractors:
+    - ceremony
+    - pride
+    lexemes:
+    - silence
+  - id: u46-n1-17
+    type: listening_choice
+    audioText: She works with passion.
+    question: מה שמעתם?
+    options:
+    - היא עובדת בתשוקה.
+    - הטקס מתחיל בעשר.
+    - אני מרגיש גאווה בצוות שלי.
+    correct: 0
+    lexemes:
+    - passion
+  - id: u46-n1-18
+    type: speak_repeat
+    text: The ceremony is a symbol of pride.
+    translation: הטקס הוא סמל של גאווה.
+    lexemes:
+    - ceremony
+    - pride
+    - symbol
+- id: u46-n2
+  kind: new
+  title:
+    he: 'היומן של נועה: להסתכל אחורה'
+    en: 'Noa''s diary: looking back'
+  exercises:
+  - id: u46-n2-01
+    type: dialogue
+    scene: סבא שמעון מספר על העבר.
+    lines:
+    - speaker: saba
+      text: In my history, a century of change passed in a decade.
+      translation: בהיסטוריה שלי, מאה שנות שינוי עברו בעשור.
+    - speaker: noa
+      text: Every mystery has an answer. Every legend begins with a creation.
+      translation: לכל תעלומה יש תשובה. כל אגדה מתחילה ביצירה.
+    - speaker: saba
+      text: And your story began with a notebook.
+      translation: והסיפור שלך התחיל במחברת.
+    - speaker: noa
+      text: True.
+      translation: נכון.
+  - id: u46-n2-02
+    type: learn
+    lexeme: history
+  - id: u46-n2-03
+    type: learn
+    lexeme: century
+  - id: u46-n2-04
+    type: learn
+    lexeme: decade
+  - id: u46-n2-05
+    type: learn
+    lexeme: mystery
+  - id: u46-n2-06
+    type: learn
+    lexeme: legend
+  - id: u46-n2-07
+    type: learn
+    lexeme: creation
+  - id: u46-n2-08
+    type: match_pairs
+    pairs:
+    - - history
+      - היסטוריה
+    - - century
+      - מאה
+    - - decade
+      - עשור
+    - - mystery
+      - תעלומה
+    - - legend
+      - אגדה
+    - - creation
+      - יצירה; בריאה
+    lexemes:
+    - history
+    - century
+    - decade
+    - mystery
+    - legend
+    - creation
+  - id: u46-n2-09
+    type: multiple_choice
+    prompt: legend – מה הפירוש?
+    options:
+    - אגדה
+    - עשור
+    - תעלומה
+    correct: 0
+    lexemes:
+    - legend
+  - id: u46-n2-10
+    type: multiple_choice
+    prompt: history – מה הפירוש?
+    options:
+    - היסטוריה
+    - מאה
+    - אגדה
+    correct: 0
+    lexemes:
+    - history
+  - id: u46-n2-11
+    type: multiple_choice
+    prompt: creation – מה הפירוש?
+    options:
+    - יצירה; בריאה
+    - תעלומה
+    - היסטוריה
+    correct: 0
+    lexemes:
+    - creation
+  - id: u46-n2-12
+    type: fill_blank
+    sentence: This house is a ___ old.
+    translation: הבית הזה בן מאה שנה.
+    answers:
+    - century
+    options:
+    - century
+    - history
+    - mystery
+    lexemes:
+    - century
+  - id: u46-n2-13
+    type: fill_blank
+    sentence: A ___ is ten years.
+    translation: עשור הוא עשר שנים.
+    answers:
+    - decade
+    options:
+    - decade
+    - legend
+    - creation
+    lexemes:
+    - decade
+  - id: u46-n2-14
+    type: fill_blank
+    sentence: The story is a ___.
+    translation: הסיפור הוא תעלומה.
+    answers:
+    - mystery
+    options:
+    - mystery
+    - creation
+    - history
+    lexemes:
+    - mystery
+  - id: u46-n2-15
+    type: word_bank
+    prompt: זו אגדה עתיקה.
+    answers:
+    - This is an old legend.
+    distractors:
+    - creation
+    - decade
+    lexemes:
+    - legend
+  - id: u46-n2-16
+    type: word_bank
+    prompt: הוא אוהב היסטוריה.
+    answers:
+    - He loves history.
+    distractors:
+    - legend
+    - mystery
+    lexemes:
+    - history
+  - id: u46-n2-17
+    type: listening_choice
+    audioText: The creation of the office took a year.
+    question: מה שמעתם?
+    options:
+    - יצירת המשרד לקחה שנה.
+    - הוא אוהב היסטוריה.
+    - הבית הזה בן מאה שנה.
+    correct: 0
+    lexemes:
+    - creation
+  - id: u46-n2-18
+    type: speak_repeat
+    text: History is a long story, from creation until today.
+    translation: ההיסטוריה היא סיפור ארוך, מהבריאה ועד היום.
+    lexemes:
+    - history
+    - creation
+- id: u46-n3
+  kind: new
+  title:
+    he: 'היומן של נועה: מאבק והישג'
+    en: 'Noa''s diary: struggle and success'
+  exercises:
+  - id: u46-n3-01
+    type: dialogue
+    scene: נועה מודה לצוות.
+    lines:
+    - speaker: noa
+      text: There was struggle and sacrifice. The result is brilliant.
+      translation: היו מאבק והקרבה. התוצאה מבריקה.
+    - speaker: ben
+      text: A vast change, with outstanding people.
+      translation: שינוי עצום, עם אנשים יוצאי דופן.
+    - speaker: cohen
+      text: It has a universal message.
+      translation: יש לזה מסר אוניברסלי.
+    - speaker: noa
+      text: Thank you.
+      translation: תודה.
+  - id: u46-n3-02
+    type: learn
+    lexeme: sacrifice
+  - id: u46-n3-03
+    type: learn
+    lexeme: struggle
+  - id: u46-n3-04
+    type: learn
+    lexeme: brilliant
+  - id: u46-n3-05
+    type: learn
+    lexeme: vast
+  - id: u46-n3-06
+    type: learn
+    lexeme: outstanding
+  - id: u46-n3-07
+    type: learn
+    lexeme: universal
+  - id: u46-n3-08
+    type: match_pairs
+    pairs:
+    - - sacrifice
+      - הקרבה
+    - - struggle
+      - מאבק; להיאבק
+    - - brilliant
+      - מבריק
+    - - vast
+      - עצום
+    - - outstanding
+      - יוצא דופן
+    - - universal
+      - אוניברסלי
+    lexemes:
+    - sacrifice
+    - struggle
+    - brilliant
+    - vast
+    - outstanding
+    - universal
+  - id: u46-n3-09
+    type: multiple_choice
+    prompt: brilliant – מה הפירוש?
+    options:
+    - מבריק
+    - עצום
+    - אוניברסלי
+    correct: 0
+    lexemes:
+    - brilliant
+  - id: u46-n3-10
+    type: multiple_choice
+    prompt: vast – מה הפירוש?
+    options:
+    - עצום
+    - הקרבה
+    - יוצא דופן
+    correct: 0
+    lexemes:
+    - vast
+  - id: u46-n3-11
+    type: multiple_choice
+    prompt: struggle – מה הפירוש?
+    options:
+    - מאבק; להיאבק
+    - הקרבה
+    - יוצא דופן
+    correct: 0
+    lexemes:
+    - struggle
+  - id: u46-n3-12
+    type: fill_blank
+    sentence: Success needs ___.
+    translation: הצלחה דורשת הקרבה.
+    answers:
+    - sacrifice
+    options:
+    - sacrifice
+    - outstanding
+    - universal
+    lexemes:
+    - sacrifice
+  - id: u46-n3-13
+    type: fill_blank
+    sentence: Kindness is ___.
+    translation: אדיבות היא אוניברסלית.
+    answers:
+    - universal
+    options:
+    - universal
+    - brilliant
+    - sacrifice
+    lexemes:
+    - universal
+  - id: u46-n3-14
+    type: fill_blank
+    sentence: She is an ___ student.
+    translation: היא תלמידה יוצאת דופן.
+    answers:
+    - outstanding
+    options:
+    - outstanding
+    - struggle
+    - vast
+    lexemes:
+    - outstanding
+  - id: u46-n3-15
+    type: word_bank
+    prompt: איזה רעיון מבריק!
+    answers:
+    - What a brilliant idea!
+    distractors:
+    - universal
+    - vast
+    lexemes:
+    - brilliant
+  - id: u46-n3-16
+    type: word_bank
+    prompt: המדבר עצום.
+    answers:
+    - The desert is vast.
+    distractors:
+    - universal
+    - outstanding
+    lexemes:
+    - vast
+  - id: u46-n3-17
+    type: listening_choice
+    audioText: It was a long struggle.
+    question: מה שמעתם?
+    options:
+    - זה היה מאבק ארוך.
+    - הצלחה דורשת הקרבה.
+    - איזה רעיון מבריק!
+    correct: 0
+    lexemes:
+    - struggle
+  - id: u46-n3-18
+    type: speak_repeat
+    text: The struggle was long, the result brilliant.
+    translation: המאבק היה ארוך, התוצאה מבריקה.
+    lexemes:
+    - struggle
+    - brilliant
+- id: u46-n4
+  kind: new
+  title:
+    he: 'היומן של נועה: הלאה'
+    en: 'Noa''s diary: onward'
+  exercises:
+  - id: u46-n4-01
+    type: dialogue
+    scene: סוגרים מעגל ופותחים פרק חדש.
+    lines:
+    - speaker: noa
+      text: We cross a boundary today. The office is stable and has an inner pace.
+      translation: אנחנו חוצים גבול היום. המשרד יציב ויש לו קצב פנימי.
+    - speaker: ben
+      text: I urge you to keep going.
+      translation: אני מפציר בך להמשיך.
+    - speaker: noa
+      text: The road ahead is thick with plans.
+      translation: הדרך לפנינו עמוסה בתוכניות.
+    - speaker: ben
+      text: Then let's start.
+      translation: אז בואו נתחיל.
+  - id: u46-n4-02
+    type: learn
+    lexeme: boundary
+  - id: u46-n4-03
+    type: learn
+    lexeme: stable
+  - id: u46-n4-04
+    type: learn
+    lexeme: inner
+  - id: u46-n4-05
+    type: learn
+    lexeme: pace
+  - id: u46-n4-06
+    type: learn
+    lexeme: thick
+  - id: u46-n4-07
+    type: learn
+    lexeme: urge
+  - id: u46-n4-08
+    type: match_pairs
+    pairs:
+    - - boundary
+      - גבול
+    - - stable
+      - יציב
+    - - inner
+      - פנימי
+    - - pace
+      - קצב
+    - - thick
+      - עבה; עמוס
+    - - urge
+      - להפציר
+    lexemes:
+    - boundary
+    - stable
+    - inner
+    - pace
+    - thick
+    - urge
+  - id: u46-n4-09
+    type: multiple_choice
+    prompt: boundary – מה הפירוש?
+    options:
+    - גבול
+    - עבה; עמוס
+    - קצב
+    correct: 0
+    lexemes:
+    - boundary
+  - id: u46-n4-10
+    type: multiple_choice
+    prompt: inner – מה הפירוש?
+    options:
+    - פנימי
+    - גבול
+    - להפציר
+    correct: 0
+    lexemes:
+    - inner
+  - id: u46-n4-11
+    type: multiple_choice
+    prompt: pace – מה הפירוש?
+    options:
+    - קצב
+    - יציב
+    - להפציר
+    correct: 0
+    lexemes:
+    - pace
+  - id: u46-n4-12
+    type: fill_blank
+    sentence: I ___ you to try.
+    translation: אני מפציר בך לנסות.
+    answers:
+    - urge
+    options:
+    - urge
+    - pace
+    - stable
+    lexemes:
+    - urge
+  - id: u46-n4-13
+    type: fill_blank
+    sentence: The book is ___.
+    translation: הספר עבה.
+    answers:
+    - thick
+    options:
+    - thick
+    - boundary
+    - urge
+    lexemes:
+    - thick
+  - id: u46-n4-14
+    type: fill_blank
+    sentence: The price is ___.
+    translation: המחיר יציב.
+    answers:
+    - stable
+    options:
+    - stable
+    - boundary
+    - thick
+    lexemes:
+    - stable
+  - id: u46-n4-15
+    type: word_bank
+    prompt: הנהר הוא הגבול.
+    answers:
+    - The river is the boundary.
+    distractors:
+    - inner
+    - thick
+    lexemes:
+    - boundary
+  - id: u46-n4-16
+    type: word_bank
+    prompt: מצא את הכוח הפנימי שלך.
+    answers:
+    - Find your inner strength.
+    distractors:
+    - thick
+    - pace
+    lexemes:
+    - inner
+  - id: u46-n4-17
+    type: listening_choice
+    audioText: We walk at a slow pace.
+    question: מה שמעתם?
+    options:
+    - אנחנו הולכים בקצב איטי.
+    - הנהר הוא הגבול.
+    - המחיר יציב.
+    correct: 0
+    lexemes:
+    - pace
+  - id: u46-n4-18
+    type: speak_repeat
+    text: I urge you to keep a stable pace.
+    translation: אני מפצירה בך לשמור על קצב יציב.
+    lexemes:
+    - stable
+    - pace
+    - urge

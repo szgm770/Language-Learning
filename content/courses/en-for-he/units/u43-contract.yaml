@@ -75,6 +75,30 @@ vocabulary:
   text: amend
   translation: לתקן (מסמך)
   pos: verb
+- { id: "agreement", text: "agreement", translation: "הסכם", pos: "noun", example: { text: "We sign the agreement today.", translation: "אנחנו חותמים על ההסכם היום." } }
+- { id: "extend", text: "extend", translation: "להאריך", pos: "verb", example: { text: "We extend the deadline.", translation: "אנחנו מאריכים את המועד." } }
+- { id: "require", text: "require", translation: "לדרוש", pos: "verb", example: { text: "Please do not require too much.", translation: "בבקשה אל תדרוש יותר מדי." } }
+- { id: "property", text: "property", translation: "נכס", pos: "noun", example: { text: "The property is in Jaffa.", translation: "הנכס נמצא ביפו." } }
+- { id: "insurance", text: "insurance", translation: "ביטוח", pos: "noun", example: { text: "I have health insurance.", translation: "יש לי ביטוח בריאות." } }
+- { id: "annual", text: "annual", translation: "שנתי", pos: "adjective", example: { text: "The annual report is ready.", translation: "הדוח השנתי מוכן." } }
+- { id: "commit", text: "commit", translation: "להתחייב", pos: "verb", example: { text: "I commit to the plan.", translation: "אני מתחייב לתוכנית." } }
+- { id: "deposit", text: "deposit", translation: "פיקדון", pos: "noun", example: { text: "Pay a small deposit.", translation: "שלם פיקדון קטן." } }
+- { id: "exception", text: "exception", translation: "חריג", pos: "noun", example: { text: "There is one exception.", translation: "יש חריג אחד." } }
+- { id: "permission", text: "permission", translation: "רשות; אישור", pos: "noun", example: { text: "I need your permission.", translation: "אני צריך את הרשות שלך." } }
+- { id: "assign", text: "assign", translation: "להקצות", pos: "verb", example: { text: "I assign the task to Tamar.", translation: "אני מקצה את המשימה לתמר." } }
+- { id: "penalty", text: "penalty", translation: "קנס", pos: "noun", example: { text: "The penalty is small.", translation: "הקנס קטן." } }
+- { id: "legislation", text: "legislation", translation: "חקיקה", pos: "noun", example: { text: "The legislation changed last year.", translation: "החקיקה השתנתה בשנה שעברה." } }
+- { id: "civil", text: "civil", translation: "אזרחי", pos: "adjective", example: { text: "This is a civil case.", translation: "זה תיק אזרחי." } }
+- { id: "commission", text: "commission", translation: "ועדה; עמלה", pos: "noun", example: { text: "The commission checks the report.", translation: "הוועדה בודקת את הדוח." } }
+- { id: "enterprise", text: "enterprise", translation: "מיזם; עסק", pos: "noun", example: { text: "It is a small enterprise.", translation: "זה עסק קטן." } }
+- { id: "estimate", text: "estimate", translation: "להעריך; הערכה", pos: "verb", example: { text: "Can you estimate the cost?", translation: "אתה יכול להעריך את העלות?" } }
+- { id: "resolve", text: "resolve", translation: "ליישב; לפתור", pos: "verb", example: { text: "We resolve the dispute.", translation: "אנחנו מיישבים את המחלוקת." } }
+- { id: "accompany", text: "accompany", translation: "ללוות", pos: "verb", example: { text: "A map will accompany the text.", translation: "מפה תלווה את הטקסט." } }
+- { id: "complicate", text: "complicate", translation: "לסבך", pos: "verb", example: { text: "Don't complicate the plan.", translation: "אל תסבך את התוכנית." } }
+- { id: "valuable", text: "valuable", translation: "יקר ערך", pos: "adjective", example: { text: "Your time is valuable.", translation: "הזמן שלך יקר ערך." } }
+- { id: "equivalent", text: "equivalent", translation: "שווה ערך", pos: "adjective", example: { text: "This is an equivalent product.", translation: "זה מוצר שווה ערך." } }
+- { id: "exact", text: "exact", translation: "מדויק", pos: "adjective", example: { text: "I need the exact number.", translation: "אני צריך את המספר המדויק." } }
+- { id: "external", text: "external", translation: "חיצוני", pos: "adjective", example: { text: "We use an external service.", translation: "אנחנו משתמשים בשירות חיצוני." } }
 grammar:
 - id: subjunctive
   title:
@@ -789,3 +813,670 @@ lessons:
       - \bterms\b
     model: Dear Mr. Sato, Thank you for your letter. We recommend that the contract be amended before signing, and we suggest that clause nine be rewritten. It is essential that both parties sign by Friday. Should you have any questions about the agreement, please do not hesitate to contact us. Yours sincerely, Noa Levy.
     lexemes: []
+  # ------------------------------------------------------------------ story words
+- id: u43-n1
+  kind: new
+  title:
+    he: 'היומן של נועה: ההסכם'
+    en: 'Noa''s diary: the agreement'
+  exercises:
+  - id: u43-n1-01
+    type: dialogue
+    scene: מר סאטו וצוות המשרד עוברים על החוזה.
+    lines:
+    - speaker: sato
+      text: The agreement may extend for one year, with an annual review.
+      translation: ההסכם יכול להתארך לשנה, עם בדיקה שנתית.
+    - speaker: eli
+      text: It requires insurance for the property.
+      translation: הוא דורש ביטוח לנכס.
+    - speaker: noa
+      text: We read every line.
+      translation: אנחנו קוראים כל שורה.
+    - speaker: sato
+      text: Good.
+      translation: טוב.
+  - id: u43-n1-02
+    type: learn
+    lexeme: agreement
+  - id: u43-n1-03
+    type: learn
+    lexeme: extend
+  - id: u43-n1-04
+    type: learn
+    lexeme: require
+  - id: u43-n1-05
+    type: learn
+    lexeme: property
+  - id: u43-n1-06
+    type: learn
+    lexeme: insurance
+  - id: u43-n1-07
+    type: learn
+    lexeme: annual
+  - id: u43-n1-08
+    type: match_pairs
+    pairs:
+    - - agreement
+      - הסכם
+    - - extend
+      - להאריך
+    - - require
+      - לדרוש
+    - - property
+      - נכס
+    - - insurance
+      - ביטוח
+    - - annual
+      - שנתי
+    lexemes:
+    - agreement
+    - extend
+    - require
+    - property
+    - insurance
+    - annual
+  - id: u43-n1-09
+    type: multiple_choice
+    prompt: agreement – מה הפירוש?
+    options:
+    - הסכם
+    - ביטוח
+    - להאריך
+    correct: 0
+    lexemes:
+    - agreement
+  - id: u43-n1-10
+    type: multiple_choice
+    prompt: annual – מה הפירוש?
+    options:
+    - שנתי
+    - לדרוש
+    - להאריך
+    correct: 0
+    lexemes:
+    - annual
+  - id: u43-n1-11
+    type: multiple_choice
+    prompt: extend – מה הפירוש?
+    options:
+    - להאריך
+    - שנתי
+    - ביטוח
+    correct: 0
+    lexemes:
+    - extend
+  - id: u43-n1-12
+    type: fill_blank
+    sentence: The ___ is in Jaffa.
+    translation: הנכס נמצא ביפו.
+    answers:
+    - property
+    options:
+    - property
+    - insurance
+    - agreement
+    lexemes:
+    - property
+  - id: u43-n1-13
+    type: fill_blank
+    sentence: I have health ___.
+    translation: יש לי ביטוח בריאות.
+    answers:
+    - insurance
+    options:
+    - insurance
+    - property
+    - extend
+    lexemes:
+    - insurance
+  - id: u43-n1-14
+    type: fill_blank
+    sentence: Please do not ___ too much.
+    translation: בבקשה אל תדרוש יותר מדי.
+    answers:
+    - require
+    options:
+    - require
+    - extend
+    - annual
+    lexemes:
+    - require
+  - id: u43-n1-15
+    type: word_bank
+    prompt: אנחנו חותמים על ההסכם היום.
+    answers:
+    - We sign the agreement today.
+    distractors:
+    - insurance
+    - annual
+    lexemes:
+    - agreement
+  - id: u43-n1-16
+    type: word_bank
+    prompt: הדוח השנתי מוכן.
+    answers:
+    - The annual report is ready.
+    distractors:
+    - property
+    - require
+    lexemes:
+    - annual
+  - id: u43-n1-17
+    type: listening_choice
+    audioText: We extend the deadline.
+    question: מה שמעתם?
+    options:
+    - אנחנו מאריכים את המועד.
+    - אנחנו חותמים על ההסכם היום.
+    - בבקשה אל תדרוש יותר מדי.
+    correct: 0
+    lexemes:
+    - extend
+  - id: u43-n1-18
+    type: speak_repeat
+    text: The agreement requires annual insurance.
+    translation: ההסכם דורש ביטוח שנתי.
+    lexemes:
+    - agreement
+    - insurance
+    - annual
+- id: u43-n2
+  kind: new
+  title:
+    he: 'היומן של נועה: התחייבויות'
+    en: 'Noa''s diary: obligations'
+  exercises:
+  - id: u43-n2-01
+    type: dialogue
+    scene: סעיפים וחריגים.
+    lines:
+    - speaker: eli
+      text: We commit to deliver by June. A deposit is due.
+      translation: אנחנו מתחייבים לספק עד יוני. נדרש פיקדון.
+    - speaker: noa
+      text: Is there an exception? We need permission to assign work to others.
+      translation: יש חריג? אנחנו צריכים אישור להקצות עבודה לאחרים.
+    - speaker: sato
+      text: Late delivery means a penalty.
+      translation: איחור באספקה פירושו קנס.
+    - speaker: noa
+      text: Understood.
+      translation: הבנתי.
+  - id: u43-n2-02
+    type: learn
+    lexeme: commit
+  - id: u43-n2-03
+    type: learn
+    lexeme: deposit
+  - id: u43-n2-04
+    type: learn
+    lexeme: exception
+  - id: u43-n2-05
+    type: learn
+    lexeme: permission
+  - id: u43-n2-06
+    type: learn
+    lexeme: assign
+  - id: u43-n2-07
+    type: learn
+    lexeme: penalty
+  - id: u43-n2-08
+    type: match_pairs
+    pairs:
+    - - commit
+      - להתחייב
+    - - deposit
+      - פיקדון
+    - - exception
+      - חריג
+    - - permission
+      - רשות; אישור
+    - - assign
+      - להקצות
+    - - penalty
+      - קנס
+    lexemes:
+    - commit
+    - deposit
+    - exception
+    - permission
+    - assign
+    - penalty
+  - id: u43-n2-09
+    type: multiple_choice
+    prompt: commit – מה הפירוש?
+    options:
+    - להתחייב
+    - רשות; אישור
+    - להקצות
+    correct: 0
+    lexemes:
+    - commit
+  - id: u43-n2-10
+    type: multiple_choice
+    prompt: deposit – מה הפירוש?
+    options:
+    - פיקדון
+    - קנס
+    - להקצות
+    correct: 0
+    lexemes:
+    - deposit
+  - id: u43-n2-11
+    type: multiple_choice
+    prompt: penalty – מה הפירוש?
+    options:
+    - קנס
+    - רשות; אישור
+    - חריג
+    correct: 0
+    lexemes:
+    - penalty
+  - id: u43-n2-12
+    type: fill_blank
+    sentence: There is one ___.
+    translation: יש חריג אחד.
+    answers:
+    - exception
+    options:
+    - exception
+    - deposit
+    - permission
+    lexemes:
+    - exception
+  - id: u43-n2-13
+    type: fill_blank
+    sentence: I need your ___.
+    translation: אני צריך את הרשות שלך.
+    answers:
+    - permission
+    options:
+    - permission
+    - assign
+    - deposit
+    lexemes:
+    - permission
+  - id: u43-n2-14
+    type: fill_blank
+    sentence: I ___ the task to Tamar.
+    translation: אני מקצה את המשימה לתמר.
+    answers:
+    - assign
+    options:
+    - assign
+    - exception
+    - deposit
+    lexemes:
+    - assign
+  - id: u43-n2-15
+    type: word_bank
+    prompt: אני מתחייב לתוכנית.
+    answers:
+    - I commit to the plan.
+    distractors:
+    - exception
+    - permission
+    lexemes:
+    - commit
+  - id: u43-n2-16
+    type: word_bank
+    prompt: שלם פיקדון קטן.
+    answers:
+    - Pay a small deposit.
+    distractors:
+    - exception
+    - permission
+    lexemes:
+    - deposit
+  - id: u43-n2-17
+    type: listening_choice
+    audioText: The penalty is small.
+    question: מה שמעתם?
+    options:
+    - הקנס קטן.
+    - אני מתחייב לתוכנית.
+    - שלם פיקדון קטן.
+    correct: 0
+    lexemes:
+    - penalty
+  - id: u43-n2-18
+    type: speak_repeat
+    text: I commit to the date and pay a deposit.
+    translation: אני מתחייבת לתאריך ומשלמת פיקדון.
+    lexemes:
+    - commit
+    - deposit
+- id: u43-n3
+  kind: new
+  title:
+    he: 'היומן של נועה: חוק ורגולציה'
+    en: 'Noa''s diary: law and regulation'
+  exercises:
+  - id: u43-n3-01
+    type: dialogue
+    scene: בדיקה משפטית.
+    lines:
+    - speaker: eli
+      text: Legislation in Israel is different. The civil court may decide.
+      translation: החקיקה בישראל שונה. בית משפט אזרחי עשוי להחליט.
+    - speaker: noa
+      text: The commission asks us to estimate the cost.
+      translation: הוועדה מבקשת שנעריך את העלות.
+    - speaker: eli
+      text: Every enterprise needs a plan to resolve disputes.
+      translation: כל עסק צריך תוכנית ליישוב מחלוקות.
+    - speaker: noa
+      text: We write it.
+      translation: אנחנו כותבים אותה.
+  - id: u43-n3-02
+    type: learn
+    lexeme: legislation
+  - id: u43-n3-03
+    type: learn
+    lexeme: civil
+  - id: u43-n3-04
+    type: learn
+    lexeme: commission
+  - id: u43-n3-05
+    type: learn
+    lexeme: enterprise
+  - id: u43-n3-06
+    type: learn
+    lexeme: estimate
+  - id: u43-n3-07
+    type: learn
+    lexeme: resolve
+  - id: u43-n3-08
+    type: match_pairs
+    pairs:
+    - - legislation
+      - חקיקה
+    - - civil
+      - אזרחי
+    - - commission
+      - ועדה; עמלה
+    - - enterprise
+      - מיזם; עסק
+    - - estimate
+      - להעריך; הערכה
+    - - resolve
+      - ליישב; לפתור
+    lexemes:
+    - legislation
+    - civil
+    - commission
+    - enterprise
+    - estimate
+    - resolve
+  - id: u43-n3-09
+    type: multiple_choice
+    prompt: commission – מה הפירוש?
+    options:
+    - ועדה; עמלה
+    - מיזם; עסק
+    - חקיקה
+    correct: 0
+    lexemes:
+    - commission
+  - id: u43-n3-10
+    type: multiple_choice
+    prompt: legislation – מה הפירוש?
+    options:
+    - חקיקה
+    - ועדה; עמלה
+    - מיזם; עסק
+    correct: 0
+    lexemes:
+    - legislation
+  - id: u43-n3-11
+    type: multiple_choice
+    prompt: estimate – מה הפירוש?
+    options:
+    - להעריך; הערכה
+    - מיזם; עסק
+    - ליישב; לפתור
+    correct: 0
+    lexemes:
+    - estimate
+  - id: u43-n3-12
+    type: fill_blank
+    sentence: It is a small ___.
+    translation: זה עסק קטן.
+    answers:
+    - enterprise
+    options:
+    - enterprise
+    - civil
+    - resolve
+    lexemes:
+    - enterprise
+  - id: u43-n3-13
+    type: fill_blank
+    sentence: This is a ___ case.
+    translation: זה תיק אזרחי.
+    answers:
+    - civil
+    options:
+    - civil
+    - legislation
+    - resolve
+    lexemes:
+    - civil
+  - id: u43-n3-14
+    type: fill_blank
+    sentence: We ___ the dispute.
+    translation: אנחנו מיישבים את המחלוקת.
+    answers:
+    - resolve
+    options:
+    - resolve
+    - civil
+    - commission
+    lexemes:
+    - resolve
+  - id: u43-n3-15
+    type: word_bank
+    prompt: הוועדה בודקת את הדוח.
+    answers:
+    - The commission checks the report.
+    distractors:
+    - estimate
+    - resolve
+    lexemes:
+    - commission
+  - id: u43-n3-16
+    type: word_bank
+    prompt: החקיקה השתנתה בשנה שעברה.
+    answers:
+    - The legislation changed last year.
+    distractors:
+    - enterprise
+    - estimate
+    lexemes:
+    - legislation
+  - id: u43-n3-17
+    type: listening_choice
+    audioText: Can you estimate the cost?
+    question: מה שמעתם?
+    options:
+    - אתה יכול להעריך את העלות?
+    - החקיקה השתנתה בשנה שעברה.
+    - זה תיק אזרחי.
+    correct: 0
+    lexemes:
+    - estimate
+  - id: u43-n3-18
+    type: speak_repeat
+    text: The commission will resolve the civil case.
+    translation: הוועדה תפתור את התיק האזרחי.
+    lexemes:
+    - civil
+    - commission
+    - resolve
+- id: u43-n4
+  kind: new
+  title:
+    he: 'היומן של נועה: הפרטים הקטנים'
+    en: 'Noa''s diary: the small details'
+  exercises:
+  - id: u43-n4-01
+    type: dialogue
+    scene: סבב אחרון לפני החתימה.
+    lines:
+    - speaker: sato
+      text: An exact schedule would accompany the contract.
+      translation: לוח זמנים מדויק ילווה את החוזה.
+    - speaker: noa
+      text: That would complicate things, but it is valuable.
+      translation: זה יסבך דברים, אבל זה בעל ערך.
+    - speaker: eli
+      text: We need an equivalent copy in Hebrew. And an external check.
+      translation: אנחנו צריכים העתק מקביל בעברית. ובדיקה חיצונית.
+    - speaker: noa
+      text: Fine.
+      translation: בסדר.
+  - id: u43-n4-02
+    type: learn
+    lexeme: accompany
+  - id: u43-n4-03
+    type: learn
+    lexeme: complicate
+  - id: u43-n4-04
+    type: learn
+    lexeme: valuable
+  - id: u43-n4-05
+    type: learn
+    lexeme: equivalent
+  - id: u43-n4-06
+    type: learn
+    lexeme: exact
+  - id: u43-n4-07
+    type: learn
+    lexeme: external
+  - id: u43-n4-08
+    type: match_pairs
+    pairs:
+    - - accompany
+      - ללוות
+    - - complicate
+      - לסבך
+    - - valuable
+      - יקר ערך
+    - - equivalent
+      - שווה ערך
+    - - exact
+      - מדויק
+    - - external
+      - חיצוני
+    lexemes:
+    - accompany
+    - complicate
+    - valuable
+    - equivalent
+    - exact
+    - external
+  - id: u43-n4-09
+    type: multiple_choice
+    prompt: external – מה הפירוש?
+    options:
+    - חיצוני
+    - ללוות
+    - מדויק
+    correct: 0
+    lexemes:
+    - external
+  - id: u43-n4-10
+    type: multiple_choice
+    prompt: equivalent – מה הפירוש?
+    options:
+    - שווה ערך
+    - לסבך
+    - חיצוני
+    correct: 0
+    lexemes:
+    - equivalent
+  - id: u43-n4-11
+    type: multiple_choice
+    prompt: exact – מה הפירוש?
+    options:
+    - מדויק
+    - ללוות
+    - יקר ערך
+    correct: 0
+    lexemes:
+    - exact
+  - id: u43-n4-12
+    type: fill_blank
+    sentence: Your time is ___.
+    translation: הזמן שלך יקר ערך.
+    answers:
+    - valuable
+    options:
+    - valuable
+    - external
+    - complicate
+    lexemes:
+    - valuable
+  - id: u43-n4-13
+    type: fill_blank
+    sentence: Don't ___ the plan.
+    translation: אל תסבך את התוכנית.
+    answers:
+    - complicate
+    options:
+    - complicate
+    - equivalent
+    - exact
+    lexemes:
+    - complicate
+  - id: u43-n4-14
+    type: fill_blank
+    sentence: A map will ___ the text.
+    translation: מפה תלווה את הטקסט.
+    answers:
+    - accompany
+    options:
+    - accompany
+    - complicate
+    - valuable
+    lexemes:
+    - accompany
+  - id: u43-n4-15
+    type: word_bank
+    prompt: אנחנו משתמשים בשירות חיצוני.
+    answers:
+    - We use an external service.
+    distractors:
+    - valuable
+    - equivalent
+    lexemes:
+    - external
+  - id: u43-n4-16
+    type: word_bank
+    prompt: זה מוצר שווה ערך.
+    answers:
+    - This is an equivalent product.
+    distractors:
+    - accompany
+    - external
+    lexemes:
+    - equivalent
+  - id: u43-n4-17
+    type: listening_choice
+    audioText: I need the exact number.
+    question: מה שמעתם?
+    options:
+    - אני צריך את המספר המדויק.
+    - מפה תלווה את הטקסט.
+    - אל תסבך את התוכנית.
+    correct: 0
+    lexemes:
+    - exact
+  - id: u43-n4-18
+    type: speak_repeat
+    text: An exact copy is valuable.
+    translation: העתק מדויק הוא בעל ערך.
+    lexemes:
+    - valuable
+    - exact

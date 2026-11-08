@@ -78,6 +78,30 @@ vocabulary:
   text: bandwidth
   translation: פניוּת, יכולת לקחת עוד משימות
   pos: noun
+- { id: "policy", text: "policy", translation: "מדיניות", pos: "noun", example: { text: "The company has a clear policy.", translation: "לחברה יש מדיניות ברורה." } }
+- { id: "individual", text: "individual", translation: "אדם; יחיד", pos: "noun", example: { text: "Each individual has a voice.", translation: "לכל אדם יש קול." } }
+- { id: "range", text: "range", translation: "טווח", pos: "noun", example: { text: "The range of prices is wide.", translation: "טווח המחירים רחב." } }
+- { id: "stage", text: "stage", translation: "שלב", pos: "noun", example: { text: "We are at an early stage.", translation: "אנחנו בשלב מוקדם." } }
+- { id: "average", text: "average", translation: "ממוצע", pos: "adjective", example: { text: "The average age is thirty.", translation: "הגיל הממוצע הוא שלושים." } }
+- { id: "rate", text: "rate", translation: "קצב; שיעור", pos: "noun", example: { text: "The rate of growth is high.", translation: "קצב הצמיחה גבוה." } }
+- { id: "benefit", text: "benefit", translation: "יתרון; תועלת", pos: "noun", example: { text: "The main benefit is speed.", translation: "היתרון העיקרי הוא מהירות." } }
+- { id: "accept", text: "accept", translation: "לקבל; להסכים", pos: "verb", example: { text: "I accept your offer.", translation: "אני מקבל את ההצעה שלך." } }
+- { id: "approach", text: "approach", translation: "גישה", pos: "noun", example: { text: "This approach saves time.", translation: "הגישה הזאת חוסכת זמן." } }
+- { id: "various", text: "various", translation: "שונים", pos: "adjective", example: { text: "We offer various plans.", translation: "אנחנו מציעים תוכניות שונות." } }
+- { id: "compare", text: "compare", translation: "להשוות", pos: "verb", example: { text: "Compare the two prices.", translation: "השווה בין שני המחירים." } }
+- { id: "measure", text: "measure", translation: "למדוד; מדידה", pos: "verb", example: { text: "We measure our progress.", translation: "אנחנו מודדים את ההתקדמות שלנו." } }
+- { id: "demand", text: "demand", translation: "ביקוש", pos: "noun", example: { text: "Demand is high this month.", translation: "הביקוש גבוה החודש." } }
+- { id: "authority", text: "authority", translation: "סמכות", pos: "noun", example: { text: "She has the authority to decide.", translation: "יש לה סמכות להחליט." } }
+- { id: "resource", text: "resource", translation: "משאב", pos: "noun", example: { text: "Time is a valuable resource.", translation: "זמן הוא משאב יקר." } }
+- { id: "growth", text: "growth", translation: "צמיחה", pos: "noun", example: { text: "The growth is steady.", translation: "הצמיחה יציבה." } }
+- { id: "impact", text: "impact", translation: "השפעה", pos: "noun", example: { text: "The change has a big impact.", translation: "לשינוי יש השפעה גדולה." } }
+- { id: "specific", text: "specific", translation: "ספציפי", pos: "adjective", example: { text: "I need a specific answer.", translation: "אני צריך תשובה ספציפית." } }
+- { id: "committee", text: "committee", translation: "ועדה", pos: "noun", example: { text: "The committee meets on Monday.", translation: "הוועדה נפגשת ביום שני." } }
+- { id: "initiative", text: "initiative", translation: "יוזמה", pos: "noun", example: { text: "It was her initiative.", translation: "זו הייתה היוזמה שלה." } }
+- { id: "commitment", text: "commitment", translation: "מחויבות", pos: "noun", example: { text: "We have a commitment to our clients.", translation: "יש לנו מחויבות ללקוחות שלנו." } }
+- { id: "approval", text: "approval", translation: "אישור", pos: "noun", example: { text: "We wait for your approval.", translation: "אנחנו מחכים לאישור שלך." } }
+- { id: "immediate", text: "immediate", translation: "מיידי", pos: "adjective", example: { text: "I need an immediate reply.", translation: "אני צריך תשובה מיידית." } }
+- { id: "transaction", text: "transaction", translation: "עסקה; פעולה", pos: "noun", example: { text: "Each transaction is saved.", translation: "כל פעולה נשמרת." } }
 grammar:
 - id: inversion
   title:
@@ -798,3 +822,673 @@ lessons:
       - \bstakeholder
     model: Weekly report. Not only did the team reach the milestone ahead of schedule, but it also received excellent feedback from every stakeholder. Rarely have I seen such commitment. I delegated the testing to two colleagues, who were accountable for the results. Never have we had so few problems in a launch week.
     lexemes: []
+  # ------------------------------------------------------------------ story words
+- id: u41-n1
+  kind: new
+  title:
+    he: 'היומן של נועה: מדיניות'
+    en: 'Noa''s diary: policy'
+  exercises:
+  - id: u41-n1-01
+    type: dialogue
+    scene: נועה פותחת את ישיבת הצוות הראשונה בתל אביב.
+    lines:
+    - speaker: noa
+      text: 'Our policy is simple: every individual has a clear role.'
+      translation: 'המדיניות שלנו פשוטה: לכל אדם יש תפקיד ברור.'
+    - speaker: david
+      text: What is the range of responsibility at this stage?
+      translation: מה טווח האחריות בשלב הזה?
+    - speaker: tamar
+      text: The average rate of delivery is two tasks a week.
+      translation: הקצב הממוצע של אספקה הוא שתי משימות בשבוע.
+    - speaker: noa
+      text: We raise it slowly.
+      translation: נעלה אותו לאט.
+  - id: u41-n1-02
+    type: learn
+    lexeme: policy
+  - id: u41-n1-03
+    type: learn
+    lexeme: individual
+  - id: u41-n1-04
+    type: learn
+    lexeme: range
+  - id: u41-n1-05
+    type: learn
+    lexeme: stage
+  - id: u41-n1-06
+    type: learn
+    lexeme: average
+  - id: u41-n1-07
+    type: learn
+    lexeme: rate
+  - id: u41-n1-08
+    type: match_pairs
+    pairs:
+    - - policy
+      - מדיניות
+    - - individual
+      - אדם; יחיד
+    - - range
+      - טווח
+    - - stage
+      - שלב
+    - - average
+      - ממוצע
+    - - rate
+      - קצב; שיעור
+    lexemes:
+    - policy
+    - individual
+    - range
+    - stage
+    - average
+    - rate
+  - id: u41-n1-09
+    type: multiple_choice
+    prompt: average – מה הפירוש?
+    options:
+    - ממוצע
+    - שלב
+    - מדיניות
+    correct: 0
+    lexemes:
+    - average
+  - id: u41-n1-10
+    type: multiple_choice
+    prompt: policy – מה הפירוש?
+    options:
+    - מדיניות
+    - ממוצע
+    - טווח
+    correct: 0
+    lexemes:
+    - policy
+  - id: u41-n1-11
+    type: multiple_choice
+    prompt: range – מה הפירוש?
+    options:
+    - טווח
+    - מדיניות
+    - קצב; שיעור
+    correct: 0
+    lexemes:
+    - range
+  - id: u41-n1-12
+    type: fill_blank
+    sentence: The ___ of growth is high.
+    translation: קצב הצמיחה גבוה.
+    answers:
+    - rate
+    options:
+    - rate
+    - range
+    - policy
+    lexemes:
+    - rate
+  - id: u41-n1-13
+    type: fill_blank
+    sentence: Each ___ has a voice.
+    translation: לכל אדם יש קול.
+    answers:
+    - individual
+    options:
+    - individual
+    - rate
+    - range
+    lexemes:
+    - individual
+  - id: u41-n1-14
+    type: fill_blank
+    sentence: We are at an early ___.
+    translation: אנחנו בשלב מוקדם.
+    answers:
+    - stage
+    options:
+    - stage
+    - range
+    - average
+    lexemes:
+    - stage
+  - id: u41-n1-15
+    type: word_bank
+    prompt: הגיל הממוצע הוא שלושים.
+    answers:
+    - The average age is thirty.
+    distractors:
+    - stage
+    - rate
+    lexemes:
+    - average
+  - id: u41-n1-16
+    type: word_bank
+    prompt: לחברה יש מדיניות ברורה.
+    answers:
+    - The company has a clear policy.
+    distractors:
+    - individual
+    - range
+    lexemes:
+    - policy
+  - id: u41-n1-17
+    type: listening_choice
+    audioText: The range of prices is wide.
+    question: מה שמעתם?
+    options:
+    - טווח המחירים רחב.
+    - לחברה יש מדיניות ברורה.
+    - לכל אדם יש קול.
+    correct: 0
+    lexemes:
+    - range
+  - id: u41-n1-18
+    type: speak_repeat
+    text: Our policy gives every individual a role.
+    translation: המדיניות שלנו נותנת לכל אדם תפקיד.
+    lexemes:
+    - policy
+    - individual
+- id: u41-n2
+  kind: new
+  title:
+    he: 'היומן של נועה: גישות'
+    en: 'Noa''s diary: approaches'
+  exercises:
+  - id: u41-n2-01
+    type: dialogue
+    scene: דיון בדרכי עבודה.
+    lines:
+    - speaker: tamar
+      text: Each approach has a benefit. We accept various ideas.
+      translation: לכל גישה יש יתרון. אנחנו מקבלים רעיונות שונים.
+    - speaker: noa
+      text: Let's compare them and measure the results.
+      translation: בואו נשווה ונמדוד את התוצאות.
+    - speaker: david
+      text: That is practical.
+      translation: זה מעשי.
+    - speaker: noa
+      text: Exactly.
+      translation: בדיוק.
+  - id: u41-n2-02
+    type: learn
+    lexeme: benefit
+  - id: u41-n2-03
+    type: learn
+    lexeme: accept
+  - id: u41-n2-04
+    type: learn
+    lexeme: approach
+  - id: u41-n2-05
+    type: learn
+    lexeme: various
+  - id: u41-n2-06
+    type: learn
+    lexeme: compare
+  - id: u41-n2-07
+    type: learn
+    lexeme: measure
+  - id: u41-n2-08
+    type: match_pairs
+    pairs:
+    - - benefit
+      - יתרון; תועלת
+    - - accept
+      - לקבל; להסכים
+    - - approach
+      - גישה
+    - - various
+      - שונים
+    - - compare
+      - להשוות
+    - - measure
+      - למדוד; מדידה
+    lexemes:
+    - benefit
+    - accept
+    - approach
+    - various
+    - compare
+    - measure
+  - id: u41-n2-09
+    type: multiple_choice
+    prompt: measure – מה הפירוש?
+    options:
+    - למדוד; מדידה
+    - יתרון; תועלת
+    - שונים
+    correct: 0
+    lexemes:
+    - measure
+  - id: u41-n2-10
+    type: multiple_choice
+    prompt: benefit – מה הפירוש?
+    options:
+    - יתרון; תועלת
+    - שונים
+    - גישה
+    correct: 0
+    lexemes:
+    - benefit
+  - id: u41-n2-11
+    type: multiple_choice
+    prompt: accept – מה הפירוש?
+    options:
+    - לקבל; להסכים
+    - יתרון; תועלת
+    - שונים
+    correct: 0
+    lexemes:
+    - accept
+  - id: u41-n2-12
+    type: fill_blank
+    sentence: We offer ___ plans.
+    translation: אנחנו מציעים תוכניות שונות.
+    answers:
+    - various
+    options:
+    - various
+    - measure
+    - compare
+    lexemes:
+    - various
+  - id: u41-n2-13
+    type: fill_blank
+    sentence: ___ the two prices.
+    translation: השווה בין שני המחירים.
+    answers:
+    - Compare
+    options:
+    - Compare
+    - approach
+    - various
+    lexemes:
+    - compare
+  - id: u41-n2-14
+    type: fill_blank
+    sentence: This ___ saves time.
+    translation: הגישה הזאת חוסכת זמן.
+    answers:
+    - approach
+    options:
+    - approach
+    - accept
+    - various
+    lexemes:
+    - approach
+  - id: u41-n2-15
+    type: word_bank
+    prompt: אנחנו מודדים את ההתקדמות שלנו.
+    answers:
+    - We measure our progress.
+    distractors:
+    - approach
+    - various
+    lexemes:
+    - measure
+  - id: u41-n2-16
+    type: word_bank
+    prompt: היתרון העיקרי הוא מהירות.
+    answers:
+    - The main benefit is speed.
+    distractors:
+    - measure
+    - various
+    lexemes:
+    - benefit
+  - id: u41-n2-17
+    type: listening_choice
+    audioText: I accept your offer.
+    question: מה שמעתם?
+    options:
+    - אני מקבל את ההצעה שלך.
+    - היתרון העיקרי הוא מהירות.
+    - הגישה הזאת חוסכת זמן.
+    correct: 0
+    lexemes:
+    - accept
+  - id: u41-n2-18
+    type: speak_repeat
+    text: I compare each approach and measure the benefit.
+    translation: אני משווה כל גישה ומודדת את התועלת.
+    lexemes:
+    - benefit
+    - approach
+    - compare
+    - measure
+- id: u41-n3
+  kind: new
+  title:
+    he: 'היומן של נועה: ביקוש וצמיחה'
+    en: 'Noa''s diary: demand and growth'
+  exercises:
+  - id: u41-n3-01
+    type: dialogue
+    scene: נועה מציגה תחזית.
+    lines:
+    - speaker: noa
+      text: Demand for our service is growing. We have the authority to hire.
+      translation: הביקוש לשירות שלנו גדל. יש לנו סמכות לגייס.
+    - speaker: david
+      text: Resources are limited. Specific goals will have more impact.
+      translation: המשאבים מוגבלים. ליעדים ספציפיים תהיה השפעה רבה יותר.
+    - speaker: noa
+      text: Then growth must be steady.
+      translation: אז הצמיחה חייבת להיות יציבה.
+    - speaker: david
+      text: Agreed.
+      translation: מסכים.
+  - id: u41-n3-02
+    type: learn
+    lexeme: demand
+  - id: u41-n3-03
+    type: learn
+    lexeme: authority
+  - id: u41-n3-04
+    type: learn
+    lexeme: resource
+  - id: u41-n3-05
+    type: learn
+    lexeme: growth
+  - id: u41-n3-06
+    type: learn
+    lexeme: impact
+  - id: u41-n3-07
+    type: learn
+    lexeme: specific
+  - id: u41-n3-08
+    type: match_pairs
+    pairs:
+    - - demand
+      - ביקוש
+    - - authority
+      - סמכות
+    - - resource
+      - משאב
+    - - growth
+      - צמיחה
+    - - impact
+      - השפעה
+    - - specific
+      - ספציפי
+    lexemes:
+    - demand
+    - authority
+    - resource
+    - growth
+    - impact
+    - specific
+  - id: u41-n3-09
+    type: multiple_choice
+    prompt: specific – מה הפירוש?
+    options:
+    - ספציפי
+    - השפעה
+    - צמיחה
+    correct: 0
+    lexemes:
+    - specific
+  - id: u41-n3-10
+    type: multiple_choice
+    prompt: impact – מה הפירוש?
+    options:
+    - השפעה
+    - ספציפי
+    - סמכות
+    correct: 0
+    lexemes:
+    - impact
+  - id: u41-n3-11
+    type: multiple_choice
+    prompt: demand – מה הפירוש?
+    options:
+    - ביקוש
+    - השפעה
+    - ספציפי
+    correct: 0
+    lexemes:
+    - demand
+  - id: u41-n3-12
+    type: fill_blank
+    sentence: She has the ___ to decide.
+    translation: יש לה סמכות להחליט.
+    answers:
+    - authority
+    options:
+    - authority
+    - demand
+    - impact
+    lexemes:
+    - authority
+  - id: u41-n3-13
+    type: fill_blank
+    sentence: Time is a valuable ___.
+    translation: זמן הוא משאב יקר.
+    answers:
+    - resource
+    options:
+    - resource
+    - growth
+    - authority
+    lexemes:
+    - resource
+  - id: u41-n3-14
+    type: fill_blank
+    sentence: The ___ is steady.
+    translation: הצמיחה יציבה.
+    answers:
+    - growth
+    options:
+    - growth
+    - impact
+    - resource
+    lexemes:
+    - growth
+  - id: u41-n3-15
+    type: word_bank
+    prompt: אני צריך תשובה ספציפית.
+    answers:
+    - I need a specific answer.
+    distractors:
+    - authority
+    - growth
+    lexemes:
+    - specific
+  - id: u41-n3-16
+    type: word_bank
+    prompt: לשינוי יש השפעה גדולה.
+    answers:
+    - The change has a big impact.
+    distractors:
+    - authority
+    - growth
+    lexemes:
+    - impact
+  - id: u41-n3-17
+    type: listening_choice
+    audioText: Demand is high this month.
+    question: מה שמעתם?
+    options:
+    - הביקוש גבוה החודש.
+    - יש לה סמכות להחליט.
+    - זמן הוא משאב יקר.
+    correct: 0
+    lexemes:
+    - demand
+  - id: u41-n3-18
+    type: speak_repeat
+    text: Demand and growth have a specific impact.
+    translation: לביקוש ולצמיחה יש השפעה ספציפית.
+    lexemes:
+    - demand
+    - growth
+    - impact
+    - specific
+- id: u41-n4
+  kind: new
+  title:
+    he: 'היומן של נועה: ועדה ויוזמה'
+    en: 'Noa''s diary: a committee and an initiative'
+  exercises:
+  - id: u41-n4-01
+    type: dialogue
+    scene: נועה מגישה הצעה לוועדה.
+    lines:
+    - speaker: noa
+      text: The committee gave its approval for the new initiative.
+      translation: הוועדה נתנה את אישורה ליוזמה החדשה.
+    - speaker: tamar
+      text: The commitment is clear. We need an immediate answer.
+      translation: המחויבות ברורה. אנחנו צריכים תשובה מיידית.
+    - speaker: noa
+      text: Each transaction will be recorded.
+      translation: כל עסקה תירשם.
+    - speaker: tamar
+      text: Good.
+      translation: טוב.
+  - id: u41-n4-02
+    type: learn
+    lexeme: committee
+  - id: u41-n4-03
+    type: learn
+    lexeme: initiative
+  - id: u41-n4-04
+    type: learn
+    lexeme: commitment
+  - id: u41-n4-05
+    type: learn
+    lexeme: approval
+  - id: u41-n4-06
+    type: learn
+    lexeme: immediate
+  - id: u41-n4-07
+    type: learn
+    lexeme: transaction
+  - id: u41-n4-08
+    type: match_pairs
+    pairs:
+    - - committee
+      - ועדה
+    - - initiative
+      - יוזמה
+    - - commitment
+      - מחויבות
+    - - approval
+      - אישור
+    - - immediate
+      - מיידי
+    - - transaction
+      - עסקה; פעולה
+    lexemes:
+    - committee
+    - initiative
+    - commitment
+    - approval
+    - immediate
+    - transaction
+  - id: u41-n4-09
+    type: multiple_choice
+    prompt: commitment – מה הפירוש?
+    options:
+    - מחויבות
+    - ועדה
+    - מיידי
+    correct: 0
+    lexemes:
+    - commitment
+  - id: u41-n4-10
+    type: multiple_choice
+    prompt: immediate – מה הפירוש?
+    options:
+    - מיידי
+    - יוזמה
+    - מחויבות
+    correct: 0
+    lexemes:
+    - immediate
+  - id: u41-n4-11
+    type: multiple_choice
+    prompt: initiative – מה הפירוש?
+    options:
+    - יוזמה
+    - מיידי
+    - מחויבות
+    correct: 0
+    lexemes:
+    - initiative
+  - id: u41-n4-12
+    type: fill_blank
+    sentence: Each ___ is saved.
+    translation: כל פעולה נשמרת.
+    answers:
+    - transaction
+    options:
+    - transaction
+    - committee
+    - immediate
+    lexemes:
+    - transaction
+  - id: u41-n4-13
+    type: fill_blank
+    sentence: The ___ meets on Monday.
+    translation: הוועדה נפגשת ביום שני.
+    answers:
+    - committee
+    options:
+    - committee
+    - immediate
+    - approval
+    lexemes:
+    - committee
+  - id: u41-n4-14
+    type: fill_blank
+    sentence: We wait for your ___.
+    translation: אנחנו מחכים לאישור שלך.
+    answers:
+    - approval
+    options:
+    - approval
+    - immediate
+    - committee
+    lexemes:
+    - approval
+  - id: u41-n4-15
+    type: word_bank
+    prompt: יש לנו מחויבות ללקוחות שלנו.
+    answers:
+    - We have a commitment to our clients.
+    distractors:
+    - approval
+    - committee
+    lexemes:
+    - commitment
+  - id: u41-n4-16
+    type: word_bank
+    prompt: אני צריך תשובה מיידית.
+    answers:
+    - I need an immediate reply.
+    distractors:
+    - approval
+    - commitment
+    lexemes:
+    - immediate
+  - id: u41-n4-17
+    type: listening_choice
+    audioText: It was her initiative.
+    question: מה שמעתם?
+    options:
+    - זו הייתה היוזמה שלה.
+    - הוועדה נפגשת ביום שני.
+    - יש לנו מחויבות ללקוחות שלנו.
+    correct: 0
+    lexemes:
+    - initiative
+  - id: u41-n4-18
+    type: speak_repeat
+    text: The committee gave approval for the initiative.
+    translation: הוועדה נתנה אישור ליוזמה.
+    lexemes:
+    - committee
+    - initiative
+    - approval

@@ -75,6 +75,30 @@ vocabulary:
   text: fact-check
   translation: לבדוק עובדות
   pos: verb
+- { id: "statement", text: "statement", translation: "הצהרה", pos: "noun", example: { text: "The company issued a statement.", translation: "החברה פרסמה הצהרה." } }
+- { id: "reporter", text: "reporter", translation: "כתב", pos: "noun", example: { text: "The reporter asks a question.", translation: "הכתב שואל שאלה." } }
+- { id: "critic", text: "critic", translation: "מבקר", pos: "noun", example: { text: "The critic liked the film.", translation: "המבקר אהב את הסרט." } }
+- { id: "source", text: "source", translation: "מקור", pos: "noun", example: { text: "What is your source?", translation: "מה המקור שלך?" } }
+- { id: "publish", text: "publish", translation: "לפרסם", pos: "verb", example: { text: "They publish a new book.", translation: "הם מפרסמים ספר חדש." } }
+- { id: "edit", text: "edit", translation: "לערוך", pos: "verb", example: { text: "I edit the text.", translation: "אני עורך את הטקסט." } }
+- { id: "truth", text: "truth", translation: "אמת", pos: "noun", example: { text: "He tells the truth.", translation: "הוא אומר את האמת." } }
+- { id: "fear", text: "fear", translation: "פחד; לחשוש", pos: "noun", example: { text: "Fear can stop you.", translation: "פחד יכול לעצור אותך." } }
+- { id: "doubt", text: "doubt", translation: "ספק", pos: "noun", example: { text: "I have no doubt.", translation: "אין לי ספק." } }
+- { id: "argue", text: "argue", translation: "להתווכח", pos: "verb", example: { text: "They argue about money.", translation: "הם מתווכחים על כסף." } }
+- { id: "refuse", text: "refuse", translation: "לסרב", pos: "verb", example: { text: "I refuse to sign.", translation: "אני מסרב לחתום." } }
+- { id: "accurate", text: "accurate", translation: "מדויק", pos: "adjective", example: { text: "The map is accurate.", translation: "המפה מדויקת." } }
+- { id: "investigation", text: "investigation", translation: "חקירה", pos: "noun", example: { text: "The investigation takes weeks.", translation: "החקירה נמשכת שבועות." } }
+- { id: "witness", text: "witness", translation: "עד", pos: "noun", example: { text: "The witness tells the story.", translation: "העד מספר את הסיפור." } }
+- { id: "lawyer", text: "lawyer", translation: "עורך דין", pos: "noun", example: { text: "My lawyer is here.", translation: "עורך הדין שלי כאן." } }
+- { id: "legal", text: "legal", translation: "חוקי; משפטי", pos: "adjective", example: { text: "This is a legal document.", translation: "זה מסמך משפטי." } }
+- { id: "proof", text: "proof", translation: "הוכחה", pos: "noun", example: { text: "I need proof.", translation: "אני צריך הוכחה." } }
+- { id: "trial", text: "trial", translation: "משפט; ניסיון", pos: "noun", example: { text: "The trial starts on Monday.", translation: "המשפט מתחיל ביום שני." } }
+- { id: "impress", text: "impress", translation: "להרשים", pos: "verb", example: { text: "The talk will impress them.", translation: "ההרצאה תרשים אותם." } }
+- { id: "reputation", text: "reputation", translation: "מוניטין", pos: "noun", example: { text: "She has a good reputation.", translation: "יש לה מוניטין טוב." } }
+- { id: "predict", text: "predict", translation: "לנבא", pos: "verb", example: { text: "I predict good results.", translation: "אני מנבא תוצאות טובות." } }
+- { id: "mention", text: "mention", translation: "להזכיר", pos: "verb", example: { text: "Don't mention the price.", translation: "אל תזכיר את המחיר." } }
+- { id: "indicate", text: "indicate", translation: "להצביע; לציין", pos: "verb", example: { text: "The sign will indicate the way.", translation: "השלט יצביע על הדרך." } }
+- { id: "recommendation", text: "recommendation", translation: "המלצה", pos: "noun", example: { text: "I have a recommendation.", translation: "יש לי המלצה." } }
 grammar:
 - id: cleft
   title:
@@ -787,3 +811,671 @@ lessons:
       - \bwithdraw
     model: Thank you for contacting us. What worries us is that the story was published without verification. It was our own data that proved the claim false, and all we ask is that the outlet correct the mistake. We hope the editor will retract the article and publish an apology.
     lexemes: []
+  # ------------------------------------------------------------------ story words
+- id: u42-n1
+  kind: new
+  title:
+    he: 'היומן של נועה: הצהרה'
+    en: 'Noa''s diary: a statement'
+  exercises:
+  - id: u42-n1-01
+    type: dialogue
+    scene: שמועה שקרית על החברה.
+    lines:
+    - speaker: eli
+      text: A reporter asked for a statement. The source is unknown.
+      translation: כתב ביקש הצהרה. המקור לא ידוע.
+    - speaker: noa
+      text: Let us publish a clear reply. Edit the first line.
+      translation: בואו נפרסם תשובה ברורה. ערוך את השורה הראשונה.
+    - speaker: miriam
+      text: A critic already wrote a long post.
+      translation: מבקר כבר כתב פוסט ארוך.
+    - speaker: noa
+      text: We respond calmly.
+      translation: אנחנו מגיבים בשקט.
+  - id: u42-n1-02
+    type: learn
+    lexeme: statement
+  - id: u42-n1-03
+    type: learn
+    lexeme: reporter
+  - id: u42-n1-04
+    type: learn
+    lexeme: critic
+  - id: u42-n1-05
+    type: learn
+    lexeme: source
+  - id: u42-n1-06
+    type: learn
+    lexeme: publish
+  - id: u42-n1-07
+    type: learn
+    lexeme: edit
+  - id: u42-n1-08
+    type: match_pairs
+    pairs:
+    - - statement
+      - הצהרה
+    - - reporter
+      - כתב
+    - - critic
+      - מבקר
+    - - source
+      - מקור
+    - - publish
+      - לפרסם
+    - - edit
+      - לערוך
+    lexemes:
+    - statement
+    - reporter
+    - critic
+    - source
+    - publish
+    - edit
+  - id: u42-n1-09
+    type: multiple_choice
+    prompt: source – מה הפירוש?
+    options:
+    - מקור
+    - מבקר
+    - לערוך
+    correct: 0
+    lexemes:
+    - source
+  - id: u42-n1-10
+    type: multiple_choice
+    prompt: reporter – מה הפירוש?
+    options:
+    - כתב
+    - לערוך
+    - מבקר
+    correct: 0
+    lexemes:
+    - reporter
+  - id: u42-n1-11
+    type: multiple_choice
+    prompt: critic – מה הפירוש?
+    options:
+    - מבקר
+    - לפרסם
+    - הצהרה
+    correct: 0
+    lexemes:
+    - critic
+  - id: u42-n1-12
+    type: fill_blank
+    sentence: The company issued a ___.
+    translation: החברה פרסמה הצהרה.
+    answers:
+    - statement
+    options:
+    - statement
+    - publish
+    - reporter
+    lexemes:
+    - statement
+  - id: u42-n1-13
+    type: fill_blank
+    sentence: I ___ the text.
+    translation: אני עורך את הטקסט.
+    answers:
+    - edit
+    options:
+    - edit
+    - source
+    - publish
+    lexemes:
+    - edit
+  - id: u42-n1-14
+    type: fill_blank
+    sentence: They ___ a new book.
+    translation: הם מפרסמים ספר חדש.
+    answers:
+    - publish
+    options:
+    - publish
+    - reporter
+    - edit
+    lexemes:
+    - publish
+  - id: u42-n1-15
+    type: word_bank
+    prompt: מה המקור שלך?
+    answers:
+    - What is your source?
+    distractors:
+    - reporter
+    - edit
+    lexemes:
+    - source
+  - id: u42-n1-16
+    type: word_bank
+    prompt: הכתב שואל שאלה.
+    answers:
+    - The reporter asks a question.
+    distractors:
+    - statement
+    - source
+    lexemes:
+    - reporter
+  - id: u42-n1-17
+    type: listening_choice
+    audioText: The critic liked the film.
+    question: מה שמעתם?
+    options:
+    - המבקר אהב את הסרט.
+    - החברה פרסמה הצהרה.
+    - הכתב שואל שאלה.
+    correct: 0
+    lexemes:
+    - critic
+  - id: u42-n1-18
+    type: speak_repeat
+    text: I publish a statement from a clear source.
+    translation: אני מפרסמת הצהרה ממקור ברור.
+    lexemes:
+    - statement
+    - source
+    - publish
+- id: u42-n2
+  kind: new
+  title:
+    he: 'היומן של נועה: אמת ושקר'
+    en: 'Noa''s diary: truth and lies'
+  exercises:
+  - id: u42-n2-01
+    type: dialogue
+    scene: הצוות בודק מה נכון.
+    lines:
+    - speaker: miriam
+      text: The truth is simple. We refuse to argue online.
+      translation: האמת פשוטה. אנחנו מסרבים להתווכח ברשת.
+    - speaker: eli
+      text: Some people fear the story more than the facts. Is the description accurate?
+      translation: יש אנשים שחוששים מהסיפור יותר מהעובדות. התיאור מדויק?
+    - speaker: noa
+      text: I doubt it.
+      translation: אני בספק.
+    - speaker: miriam
+      text: Then we check.
+      translation: אז נבדוק.
+  - id: u42-n2-02
+    type: learn
+    lexeme: truth
+  - id: u42-n2-03
+    type: learn
+    lexeme: fear
+  - id: u42-n2-04
+    type: learn
+    lexeme: doubt
+  - id: u42-n2-05
+    type: learn
+    lexeme: argue
+  - id: u42-n2-06
+    type: learn
+    lexeme: refuse
+  - id: u42-n2-07
+    type: learn
+    lexeme: accurate
+  - id: u42-n2-08
+    type: match_pairs
+    pairs:
+    - - truth
+      - אמת
+    - - fear
+      - פחד; לחשוש
+    - - doubt
+      - ספק
+    - - argue
+      - להתווכח
+    - - refuse
+      - לסרב
+    - - accurate
+      - מדויק
+    lexemes:
+    - truth
+    - fear
+    - doubt
+    - argue
+    - refuse
+    - accurate
+  - id: u42-n2-09
+    type: multiple_choice
+    prompt: refuse – מה הפירוש?
+    options:
+    - לסרב
+    - פחד; לחשוש
+    - להתווכח
+    correct: 0
+    lexemes:
+    - refuse
+  - id: u42-n2-10
+    type: multiple_choice
+    prompt: truth – מה הפירוש?
+    options:
+    - אמת
+    - לסרב
+    - להתווכח
+    correct: 0
+    lexemes:
+    - truth
+  - id: u42-n2-11
+    type: multiple_choice
+    prompt: doubt – מה הפירוש?
+    options:
+    - ספק
+    - לסרב
+    - פחד; לחשוש
+    correct: 0
+    lexemes:
+    - doubt
+  - id: u42-n2-12
+    type: fill_blank
+    sentence: ___ can stop you.
+    translation: פחד יכול לעצור אותך.
+    answers:
+    - Fear
+    options:
+    - Fear
+    - truth
+    - argue
+    lexemes:
+    - fear
+  - id: u42-n2-13
+    type: fill_blank
+    sentence: The map is ___.
+    translation: המפה מדויקת.
+    answers:
+    - accurate
+    options:
+    - accurate
+    - argue
+    - doubt
+    lexemes:
+    - accurate
+  - id: u42-n2-14
+    type: fill_blank
+    sentence: They ___ about money.
+    translation: הם מתווכחים על כסף.
+    answers:
+    - argue
+    options:
+    - argue
+    - accurate
+    - truth
+    lexemes:
+    - argue
+  - id: u42-n2-15
+    type: word_bank
+    prompt: אני מסרב לחתום.
+    answers:
+    - I refuse to sign.
+    distractors:
+    - doubt
+    - accurate
+    lexemes:
+    - refuse
+  - id: u42-n2-16
+    type: word_bank
+    prompt: הוא אומר את האמת.
+    answers:
+    - He tells the truth.
+    distractors:
+    - accurate
+    - doubt
+    lexemes:
+    - truth
+  - id: u42-n2-17
+    type: listening_choice
+    audioText: I have no doubt.
+    question: מה שמעתם?
+    options:
+    - אין לי ספק.
+    - הוא אומר את האמת.
+    - פחד יכול לעצור אותך.
+    correct: 0
+    lexemes:
+    - doubt
+  - id: u42-n2-18
+    type: speak_repeat
+    text: I refuse to argue. I want the truth.
+    translation: אני מסרבת להתווכח. אני רוצה את האמת.
+    lexemes:
+    - truth
+    - argue
+    - refuse
+- id: u42-n3
+  kind: new
+  title:
+    he: 'היומן של נועה: חקירה'
+    en: 'Noa''s diary: an investigation'
+  exercises:
+  - id: u42-n3-01
+    type: dialogue
+    scene: עורך דין מבקש ראיות.
+    lines:
+    - speaker: cohen
+      text: The investigation needs proof. A witness will appear.
+      translation: החקירה צריכה הוכחה. עד יופיע.
+    - speaker: noa
+      text: Our lawyer says the trial is legal and public.
+      translation: עורך הדין שלנו אומר שהמשפט חוקי וציבורי.
+    - speaker: cohen
+      text: Collect the documents.
+      translation: אספי את המסמכים.
+    - speaker: noa
+      text: Done.
+      translation: בוצע.
+  - id: u42-n3-02
+    type: learn
+    lexeme: investigation
+  - id: u42-n3-03
+    type: learn
+    lexeme: witness
+  - id: u42-n3-04
+    type: learn
+    lexeme: lawyer
+  - id: u42-n3-05
+    type: learn
+    lexeme: legal
+  - id: u42-n3-06
+    type: learn
+    lexeme: proof
+  - id: u42-n3-07
+    type: learn
+    lexeme: trial
+  - id: u42-n3-08
+    type: match_pairs
+    pairs:
+    - - investigation
+      - חקירה
+    - - witness
+      - עד
+    - - lawyer
+      - עורך דין
+    - - legal
+      - חוקי; משפטי
+    - - proof
+      - הוכחה
+    - - trial
+      - משפט; ניסיון
+    lexemes:
+    - investigation
+    - witness
+    - lawyer
+    - legal
+    - proof
+    - trial
+  - id: u42-n3-09
+    type: multiple_choice
+    prompt: witness – מה הפירוש?
+    options:
+    - עד
+    - חקירה
+    - חוקי; משפטי
+    correct: 0
+    lexemes:
+    - witness
+  - id: u42-n3-10
+    type: multiple_choice
+    prompt: legal – מה הפירוש?
+    options:
+    - חוקי; משפטי
+    - עד
+    - עורך דין
+    correct: 0
+    lexemes:
+    - legal
+  - id: u42-n3-11
+    type: multiple_choice
+    prompt: lawyer – מה הפירוש?
+    options:
+    - עורך דין
+    - חקירה
+    - עד
+    correct: 0
+    lexemes:
+    - lawyer
+  - id: u42-n3-12
+    type: fill_blank
+    sentence: I need ___.
+    translation: אני צריך הוכחה.
+    answers:
+    - proof
+    options:
+    - proof
+    - investigation
+    - witness
+    lexemes:
+    - proof
+  - id: u42-n3-13
+    type: fill_blank
+    sentence: The ___ takes weeks.
+    translation: החקירה נמשכת שבועות.
+    answers:
+    - investigation
+    options:
+    - investigation
+    - witness
+    - lawyer
+    lexemes:
+    - investigation
+  - id: u42-n3-14
+    type: fill_blank
+    sentence: The ___ starts on Monday.
+    translation: המשפט מתחיל ביום שני.
+    answers:
+    - trial
+    options:
+    - trial
+    - lawyer
+    - witness
+    lexemes:
+    - trial
+  - id: u42-n3-15
+    type: word_bank
+    prompt: העד מספר את הסיפור.
+    answers:
+    - The witness tells the story.
+    distractors:
+    - proof
+    - trial
+    lexemes:
+    - witness
+  - id: u42-n3-16
+    type: word_bank
+    prompt: זה מסמך משפטי.
+    answers:
+    - This is a legal document.
+    distractors:
+    - lawyer
+    - investigation
+    lexemes:
+    - legal
+  - id: u42-n3-17
+    type: listening_choice
+    audioText: My lawyer is here.
+    question: מה שמעתם?
+    options:
+    - עורך הדין שלי כאן.
+    - החקירה נמשכת שבועות.
+    - העד מספר את הסיפור.
+    correct: 0
+    lexemes:
+    - lawyer
+  - id: u42-n3-18
+    type: speak_repeat
+    text: The witness has proof for the trial.
+    translation: לעד יש הוכחה למשפט.
+    lexemes:
+    - witness
+    - proof
+    - trial
+- id: u42-n4
+  kind: new
+  title:
+    he: 'היומן של נועה: מוניטין'
+    en: 'Noa''s diary: reputation'
+  exercises:
+  - id: u42-n4-01
+    type: dialogue
+    scene: הצוות מתכנן תגובה.
+    lines:
+    - speaker: miriam
+      text: Our reputation will impress people who read the facts.
+      translation: המוניטין שלנו ירשים אנשים שקוראים את העובדות.
+    - speaker: eli
+      text: I predict a calm week. I recommend we mention our values.
+      translation: אני צופה שבוע רגוע. אני ממליץ שנזכיר את הערכים שלנו.
+    - speaker: noa
+      text: Our history indicates we are honest.
+      translation: ההיסטוריה שלנו מצביעה על כך שאנחנו ישרים.
+    - speaker: miriam
+      text: True.
+      translation: נכון.
+  - id: u42-n4-02
+    type: learn
+    lexeme: impress
+  - id: u42-n4-03
+    type: learn
+    lexeme: reputation
+  - id: u42-n4-04
+    type: learn
+    lexeme: predict
+  - id: u42-n4-05
+    type: learn
+    lexeme: mention
+  - id: u42-n4-06
+    type: learn
+    lexeme: indicate
+  - id: u42-n4-07
+    type: learn
+    lexeme: recommendation
+  - id: u42-n4-08
+    type: match_pairs
+    pairs:
+    - - impress
+      - להרשים
+    - - reputation
+      - מוניטין
+    - - predict
+      - לנבא
+    - - mention
+      - להזכיר
+    - - indicate
+      - להצביע; לציין
+    - - recommendation
+      - המלצה
+    lexemes:
+    - impress
+    - reputation
+    - predict
+    - mention
+    - indicate
+    - recommendation
+  - id: u42-n4-09
+    type: multiple_choice
+    prompt: recommendation – מה הפירוש?
+    options:
+    - המלצה
+    - לנבא
+    - להזכיר
+    correct: 0
+    lexemes:
+    - recommendation
+  - id: u42-n4-10
+    type: multiple_choice
+    prompt: predict – מה הפירוש?
+    options:
+    - לנבא
+    - המלצה
+    - מוניטין
+    correct: 0
+    lexemes:
+    - predict
+  - id: u42-n4-11
+    type: multiple_choice
+    prompt: impress – מה הפירוש?
+    options:
+    - להרשים
+    - המלצה
+    - מוניטין
+    correct: 0
+    lexemes:
+    - impress
+  - id: u42-n4-12
+    type: fill_blank
+    sentence: She has a good ___.
+    translation: יש לה מוניטין טוב.
+    answers:
+    - reputation
+    options:
+    - reputation
+    - indicate
+    - impress
+    lexemes:
+    - reputation
+  - id: u42-n4-13
+    type: fill_blank
+    sentence: The sign will ___ the way.
+    translation: השלט יצביע על הדרך.
+    answers:
+    - indicate
+    options:
+    - indicate
+    - recommendation
+    - impress
+    lexemes:
+    - indicate
+  - id: u42-n4-14
+    type: fill_blank
+    sentence: Don't ___ the price.
+    translation: אל תזכיר את המחיר.
+    answers:
+    - mention
+    options:
+    - mention
+    - indicate
+    - impress
+    lexemes:
+    - mention
+  - id: u42-n4-15
+    type: word_bank
+    prompt: יש לי המלצה.
+    answers:
+    - I have a recommendation.
+    distractors:
+    - reputation
+    - indicate
+    lexemes:
+    - recommendation
+  - id: u42-n4-16
+    type: word_bank
+    prompt: אני מנבא תוצאות טובות.
+    answers:
+    - I predict good results.
+    distractors:
+    - impress
+    - reputation
+    lexemes:
+    - predict
+  - id: u42-n4-17
+    type: listening_choice
+    audioText: The talk will impress them.
+    question: מה שמעתם?
+    options:
+    - ההרצאה תרשים אותם.
+    - יש לה מוניטין טוב.
+    - אני מנבא תוצאות טובות.
+    correct: 0
+    lexemes:
+    - impress
+  - id: u42-n4-18
+    type: speak_repeat
+    text: My reputation will impress them.
+    translation: המוניטין שלי ירשים אותם.
+    lexemes:
+    - impress
+    - reputation
