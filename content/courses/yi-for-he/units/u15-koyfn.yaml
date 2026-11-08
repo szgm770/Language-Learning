@@ -357,7 +357,7 @@ lessons:
   - id: u15-l2-15
     type: translate
     direction: to_source
-    prompt: איך האָב נישט קיין געלט.
+    prompt: איך האָב ניט קיין געלט.
     answers:
     - אין לי כסף
     lexemes: &id006
@@ -369,13 +369,13 @@ lessons:
     direction: to_target
     prompt: אין לי כסף
     answers:
-    - איך האָב נישט קיין געלט
+    - איך האָב ניט קיין געלט
     lexemes: *id006
   - id: u15-l2-17
     type: word_bank
     prompt: אין לי כסף
     answers:
-    - איך האָב נישט קיין געלט
+    - איך האָב ניט קיין געלט
     distractors:
     - קויפֿן
     - דאָלאַר

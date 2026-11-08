@@ -50,7 +50,7 @@ lessons:
     title: פעלי עזר
     text: '**קענען** (יכול), **מוזן** (חייב), **דאַרפֿן** (צריך), ואחריהם שם הפועל: **איך קען גיין**, **איך מוז גיין**.
 
-      **נישט** בא לפני הפועל השני: **איך קען נישט שלאָפֿן**.
+      **ניט** בא לפני הפועל השני: **איך קען ניט שלאָפֿן**.
 
       **אָבער** (אבל) ו**אויך** (גם).
 
@@ -251,7 +251,7 @@ lessons:
   - id: u11-l1-25
     type: translate
     direction: to_source
-    prompt: איך קען נישט שלאָפֿן.
+    prompt: איך קען ניט שלאָפֿן.
     answers:
     - אני לא יכול לישון
     lexemes: &id004
@@ -263,20 +263,20 @@ lessons:
     direction: to_target
     prompt: אני לא יכול לישון
     answers:
-    - איך קען נישט שלאָפֿן
+    - איך קען ניט שלאָפֿן
     lexemes: *id004
   - id: u11-l1-27
     type: word_bank
     prompt: אני לא יכול לישון
     answers:
-    - איך קען נישט שלאָפֿן
+    - איך קען ניט שלאָפֿן
     distractors:
     - שוין
     - דאַרפֿן
     lexemes: *id004
   - id: u11-l1-28
     type: fill_blank
-    sentence: איך ___ נישט שלאָפֿן.
+    sentence: איך ___ ניט שלאָפֿן.
     translation: אני לא יכול לישון
     answers:
     - קען
@@ -409,7 +409,7 @@ lessons:
   - id: u11-l2-14
     type: translate
     direction: to_source
-    prompt: איך וויל גיין, אָבער איך קען נישט.
+    prompt: איך וויל גיין, אָבער איך קען ניט.
     answers:
     - אני רוצה ללכת, אבל אני לא יכול
     lexemes: &id007
@@ -423,20 +423,20 @@ lessons:
     direction: to_target
     prompt: אני רוצה ללכת, אבל אני לא יכול
     answers:
-    - איך וויל גיין, אָבער איך קען נישט
+    - איך וויל גיין, אָבער איך קען ניט
     lexemes: *id007
   - id: u11-l2-16
     type: word_bank
     prompt: אני רוצה ללכת, אבל אני לא יכול
     answers:
-    - איך וויל גיין, אָבער איך קען נישט
+    - איך וויל גיין, אָבער איך קען ניט
     distractors:
     - נאָך
     - שוין
     lexemes: *id007
   - id: u11-l2-17
     type: fill_blank
-    sentence: איך וויל גיין, ___ איך קען נישט.
+    sentence: איך וויל גיין, ___ איך קען ניט.
     translation: אני רוצה ללכת, אבל אני לא יכול
     answers:
     - אָבער
@@ -546,7 +546,7 @@ lessons:
   - id: u11-review-11
     type: translate
     direction: to_source
-    prompt: איך קען נישט שלאָפֿן.
+    prompt: איך קען ניט שלאָפֿן.
     answers:
     - אני לא יכול לישון
     lexemes: *id004
@@ -555,13 +555,13 @@ lessons:
     direction: to_target
     prompt: אני לא יכול לישון
     answers:
-    - איך קען נישט שלאָפֿן
+    - איך קען ניט שלאָפֿן
     lexemes: *id004
   - id: u11-review-13
     type: word_bank
     prompt: אני לא יכול לישון
     answers:
-    - איך קען נישט שלאָפֿן
+    - איך קען ניט שלאָפֿן
     distractors:
     - שוין
     - דאַרפֿן

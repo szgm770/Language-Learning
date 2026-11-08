@@ -64,7 +64,7 @@ lessons:
 
       הפועל ביידיש מקבל סיומת לפי מי עושה: **איך לערן** (אני לומד), **מיר לערנען** (אנחנו לומדים).
 
-      **נישט** פירושו "לא", ואחרי הפועל: **איך אַרבעט נישט** (אני לא עובד).
+      **ניט** פירושו "לא", ואחרי הפועל: **איך אַרבעט ניט** (אני לא עובד).
 
       '
   - id: u07-l1-02
@@ -456,7 +456,7 @@ lessons:
   - id: u07-l2-25
     type: translate
     direction: to_source
-    prompt: איך אַרבעט נישט.
+    prompt: איך אַרבעט ניט.
     answers:
     - אני לא עובד
     lexemes: &id006
@@ -467,20 +467,20 @@ lessons:
     direction: to_target
     prompt: אני לא עובד
     answers:
-    - איך אַרבעט נישט
+    - איך אַרבעט ניט
     lexemes: *id006
   - id: u07-l2-27
     type: word_bank
     prompt: אני לא עובד
     answers:
-    - איך אַרבעט נישט
+    - איך אַרבעט ניט
     distractors:
     - אָוונט
     - שול
     lexemes: *id006
   - id: u07-l2-28
     type: fill_blank
-    sentence: איך ___ נישט.
+    sentence: איך ___ ניט.
     translation: אני לא עובד
     answers:
     - אַרבעט

@@ -161,7 +161,7 @@ lessons:
   - id: u22-l1-15
     type: translate
     direction: to_source
-    prompt: איך בין מיד, ווײַל איך האָב נישט געשלאָפֿן.
+    prompt: איך בין מיד, ווײַל איך האָב ניט געשלאָפֿן.
     answers:
     - אני עייף כי לא ישנתי
     lexemes: &id002
@@ -176,20 +176,20 @@ lessons:
     direction: to_target
     prompt: אני עייף כי לא ישנתי
     answers:
-    - איך בין מיד, ווײַל איך האָב נישט געשלאָפֿן
+    - איך בין מיד, ווײַל איך האָב ניט געשלאָפֿן
     lexemes: *id002
   - id: u22-l1-17
     type: word_bank
     prompt: אני עייף כי לא ישנתי
     answers:
-    - איך בין מיד, ווײַל איך האָב נישט געשלאָפֿן
+    - איך בין מיד, ווײַל איך האָב ניט געשלאָפֿן
     distractors:
     - גלייבן
     - מיינען
     lexemes: *id002
   - id: u22-l1-18
     type: fill_blank
-    sentence: איך בין מיד, ___ איך האָב נישט געשלאָפֿן.
+    sentence: איך בין מיד, ___ איך האָב ניט געשלאָפֿן.
     translation: אני עייף כי לא ישנתי
     answers:
     - ווײַל
@@ -256,7 +256,7 @@ lessons:
       text: וואָרום ביסטו מיד?
       translation: למה אתה עייף?
     - speaker: menachem
-      text: ווײַל איך האָב נישט געשלאָפֿן.
+      text: ווײַל איך האָב ניט געשלאָפֿן.
       translation: כי לא ישנתי.
   - id: u22-l2-04
     type: multiple_choice
@@ -409,7 +409,7 @@ lessons:
   - id: u22-review-05
     type: translate
     direction: to_source
-    prompt: איך בין מיד, ווײַל איך האָב נישט געשלאָפֿן.
+    prompt: איך בין מיד, ווײַל איך האָב ניט געשלאָפֿן.
     answers:
     - אני עייף כי לא ישנתי
     lexemes: *id002
@@ -418,13 +418,13 @@ lessons:
     direction: to_target
     prompt: אני עייף כי לא ישנתי
     answers:
-    - איך בין מיד, ווײַל איך האָב נישט געשלאָפֿן
+    - איך בין מיד, ווײַל איך האָב ניט געשלאָפֿן
     lexemes: *id002
   - id: u22-review-07
     type: word_bank
     prompt: אני עייף כי לא ישנתי
     answers:
-    - איך בין מיד, ווײַל איך האָב נישט געשלאָפֿן
+    - איך בין מיד, ווײַל איך האָב ניט געשלאָפֿן
     distractors:
     - גלייבן
     - מיינען
