@@ -1,0 +1,479 @@
+id: u15-koyfn
+cefr: A2
+scene: shopping
+title:
+  he: קניות
+  en: Shopping
+story: מנחם קונה בחנות בכפר ושואל כמה הכול עולה.
+canDo:
+- לשאול כמה משהו עולה
+- לומר זול ויקר
+- לבקש לקנות
+vocabulary:
+- id: gelt
+  text: געלט
+  translation: כסף
+  pos: noun
+- id: koyfn
+  text: קויפֿן
+  translation: לקנות
+  pos: verb
+- id: kostn
+  text: קאָסטן
+  translation: לעלות
+  pos: verb
+- id: tayer
+  text: טײַער
+  translation: יקר
+  pos: adjective
+- id: bilik
+  text: ביליק
+  translation: זול
+  pos: adjective
+- id: dolar
+  text: דאָלאַר
+  translation: דולר
+  pos: noun
+- id: gebn
+  text: געבן
+  translation: לתת
+  pos: verb
+lessons:
+- id: u15-l1
+  kind: new
+  title:
+    he: לקנות ולשלם
+    en: Lesson
+  exercises:
+  - id: u15-l1-01
+    type: tip
+    title: קניות
+    text: '**וויפֿל קאָסט...?** פירושו "כמה עולה...?": **וויפֿל קאָסט דער הוט?**
+
+      **קויפֿן** (לקנות), **געלט** (כסף), **דאָלאַר** (דולר).
+
+      **טײַער** (יקר), **ביליק** (זול).
+
+      '
+  - id: u15-l1-02
+    type: learn
+    lexeme: gelt
+  - id: u15-l1-03
+    type: learn
+    lexeme: koyfn
+  - id: u15-l1-04
+    type: learn
+    lexeme: kostn
+  - id: u15-l1-05
+    type: learn
+    lexeme: dolar
+  - id: u15-l1-06
+    type: match_pairs
+    pairs:
+    - - געלט
+      - כסף
+    - - קויפֿן
+      - לקנות
+    - - קאָסטן
+      - לעלות
+    - - דאָלאַר
+      - דולר
+    lexemes:
+    - gelt
+    - koyfn
+    - kostn
+    - dolar
+  - id: u15-l1-07
+    type: multiple_choice
+    prompt: מה פירוש געלט?
+    options:
+    - כסף
+    - דולר
+    correct: 0
+    lexemes:
+    - gelt
+  - id: u15-l1-08
+    type: multiple_choice
+    prompt: מה פירוש קויפֿן?
+    options:
+    - לקנות
+    - לעלות
+    - לתת
+    correct: 0
+    lexemes:
+    - koyfn
+  - id: u15-l1-09
+    type: multiple_choice
+    prompt: מה פירוש קאָסטן?
+    options:
+    - לעלות
+    - לקנות
+    - לתת
+    correct: 0
+    lexemes:
+    - kostn
+  - id: u15-l1-10
+    type: multiple_choice
+    prompt: מה פירוש דאָלאַר?
+    options:
+    - דולר
+    - כסף
+    correct: 0
+    lexemes:
+    - dolar
+  - id: u15-l1-11
+    type: translate
+    direction: to_source
+    prompt: איך וויל קויפֿן ברויט.
+    answers:
+    - אני רוצה לקנות לחם
+    lexemes: &id001
+    - vil
+    - koyfn
+    - w-breyt
+  - id: u15-l1-12
+    type: translate
+    direction: to_target
+    prompt: אני רוצה לקנות לחם
+    answers:
+    - איך וויל קויפֿן ברויט
+    lexemes: *id001
+  - id: u15-l1-13
+    type: word_bank
+    prompt: אני רוצה לקנות לחם
+    answers:
+    - איך וויל קויפֿן ברויט
+    distractors:
+    - געבן
+    - ביליק
+    lexemes: *id001
+  - id: u15-l1-14
+    type: fill_blank
+    sentence: איך וויל ___ ברויט.
+    translation: אני רוצה לקנות לחם
+    answers:
+    - קויפֿן
+    options:
+    - קויפֿן
+    - דאָלאַר
+    - ביליק
+    lexemes: *id001
+  - id: u15-l1-15
+    type: translate
+    direction: to_source
+    prompt: וויפֿל קאָסט דער הוט?
+    answers:
+    - כמה עולה הכובע
+    lexemes: &id002
+    - vifl
+    - kostn
+    - hut
+  - id: u15-l1-16
+    type: translate
+    direction: to_target
+    prompt: כמה עולה הכובע
+    answers:
+    - וויפֿל קאָסט דער הוט
+    lexemes: *id002
+  - id: u15-l1-17
+    type: word_bank
+    prompt: כמה עולה הכובע
+    answers:
+    - וויפֿל קאָסט דער הוט
+    distractors:
+    - געלט
+    - ביליק
+    lexemes: *id002
+  - id: u15-l1-18
+    type: fill_blank
+    sentence: וויפֿל ___ דער הוט?
+    translation: כמה עולה הכובע
+    answers:
+    - קאָסט
+    options:
+    - קאָסט
+    - געבן
+    - קויפֿן
+    lexemes: *id002
+  - id: u15-l1-19
+    type: translate
+    direction: to_source
+    prompt: דער הוט קאָסט צען דאָלאַר.
+    answers:
+    - הכובע עולה עשרה דולר
+    lexemes: &id003
+    - hut
+    - kostn
+    - tsen
+    - dolar
+  - id: u15-l1-20
+    type: translate
+    direction: to_target
+    prompt: הכובע עולה עשרה דולר
+    answers:
+    - דער הוט קאָסט צען דאָלאַר
+    lexemes: *id003
+  - id: u15-l1-21
+    type: word_bank
+    prompt: הכובע עולה עשרה דולר
+    answers:
+    - דער הוט קאָסט צען דאָלאַר
+    distractors:
+    - ביליק
+    - געבן
+    lexemes: *id003
+  - id: u15-l1-22
+    type: fill_blank
+    sentence: דער הוט קאָסט ___ דאָלאַר.
+    translation: הכובע עולה עשרה דולר
+    answers:
+    - צען
+    options:
+    - צען
+    - ביליק
+    - געבן
+    lexemes: *id003
+- id: u15-l2
+  kind: new
+  title:
+    he: זול ויקר
+    en: Lesson
+  exercises:
+  - id: u15-l2-01
+    type: learn
+    lexeme: tayer
+  - id: u15-l2-02
+    type: learn
+    lexeme: bilik
+  - id: u15-l2-03
+    type: learn
+    lexeme: gebn
+  - id: u15-l2-04
+    type: dialogue
+    scene: town
+    lines:
+    - speaker: menachem
+      text: וויפֿל קאָסט דער הוט?
+      translation: כמה עולה הכובע?
+    - speaker: zeyde
+      text: צען דאָלאַר.
+      translation: עשרה דולר.
+    - speaker: menachem
+      text: דאָס איז ביליק!
+      translation: זה זול!
+  - id: u15-l2-05
+    type: match_pairs
+    pairs:
+    - - טײַער
+      - יקר
+    - - ביליק
+      - זול
+    - - געבן
+      - לתת
+    lexemes:
+    - tayer
+    - bilik
+    - gebn
+  - id: u15-l2-06
+    type: multiple_choice
+    prompt: מה פירוש טײַער?
+    options:
+    - יקר
+    - זול
+    correct: 0
+    lexemes:
+    - tayer
+  - id: u15-l2-07
+    type: multiple_choice
+    prompt: מה פירוש ביליק?
+    options:
+    - זול
+    - יקר
+    correct: 0
+    lexemes:
+    - bilik
+  - id: u15-l2-08
+    type: multiple_choice
+    prompt: מה פירוש געבן?
+    options:
+    - לתת
+    - לקנות
+    - לעלות
+    correct: 0
+    lexemes:
+    - gebn
+  - id: u15-l2-09
+    type: translate
+    direction: to_source
+    prompt: דאָס איז טײַער.
+    answers:
+    - זה יקר
+    lexemes: &id004
+    - w-dos
+    - iz
+    - tayer
+  - id: u15-l2-10
+    type: translate
+    direction: to_target
+    prompt: זה יקר
+    answers:
+    - דאָס איז טײַער
+    lexemes: *id004
+  - id: u15-l2-11
+    type: word_bank
+    prompt: זה יקר
+    answers:
+    - דאָס איז טײַער
+    distractors:
+    - געלט
+    - דאָלאַר
+    lexemes: *id004
+  - id: u15-l2-12
+    type: translate
+    direction: to_source
+    prompt: דאָס איז ביליק.
+    answers:
+    - זה זול
+    lexemes: &id005
+    - w-dos
+    - iz
+    - bilik
+  - id: u15-l2-13
+    type: translate
+    direction: to_target
+    prompt: זה זול
+    answers:
+    - דאָס איז ביליק
+    lexemes: *id005
+  - id: u15-l2-14
+    type: word_bank
+    prompt: זה זול
+    answers:
+    - דאָס איז ביליק
+    distractors:
+    - ביליק
+    - קויפֿן
+    lexemes: *id005
+  - id: u15-l2-15
+    type: translate
+    direction: to_source
+    prompt: איך האָב נישט קיין געלט.
+    answers:
+    - אין לי כסף
+    lexemes: &id006
+    - hobn
+    - nisht
+    - gelt
+  - id: u15-l2-16
+    type: translate
+    direction: to_target
+    prompt: אין לי כסף
+    answers:
+    - איך האָב נישט קיין געלט
+    lexemes: *id006
+  - id: u15-l2-17
+    type: word_bank
+    prompt: אין לי כסף
+    answers:
+    - איך האָב נישט קיין געלט
+    distractors:
+    - קויפֿן
+    - דאָלאַר
+    lexemes: *id006
+- id: u15-review
+  kind: review
+  title:
+    he: 'חזרה: קניות'
+    en: Review
+  exercises:
+  - id: u15-review-01
+    type: match_pairs
+    pairs:
+    - - געלט
+      - כסף
+    - - קויפֿן
+      - לקנות
+    - - קאָסטן
+      - לעלות
+    - - דאָלאַר
+      - דולר
+    - - טײַער
+      - יקר
+    - - ביליק
+      - זול
+    lexemes:
+    - gelt
+    - koyfn
+    - kostn
+    - dolar
+    - tayer
+    - bilik
+  - id: u15-review-02
+    type: translate
+    direction: to_source
+    prompt: איך וויל קויפֿן ברויט.
+    answers:
+    - אני רוצה לקנות לחם
+    lexemes: *id001
+  - id: u15-review-03
+    type: translate
+    direction: to_target
+    prompt: אני רוצה לקנות לחם
+    answers:
+    - איך וויל קויפֿן ברויט
+    lexemes: *id001
+  - id: u15-review-04
+    type: word_bank
+    prompt: אני רוצה לקנות לחם
+    answers:
+    - איך וויל קויפֿן ברויט
+    distractors:
+    - געבן
+    - ביליק
+    lexemes: *id001
+  - id: u15-review-05
+    type: translate
+    direction: to_source
+    prompt: וויפֿל קאָסט דער הוט?
+    answers:
+    - כמה עולה הכובע
+    lexemes: *id002
+  - id: u15-review-06
+    type: translate
+    direction: to_target
+    prompt: כמה עולה הכובע
+    answers:
+    - וויפֿל קאָסט דער הוט
+    lexemes: *id002
+  - id: u15-review-07
+    type: word_bank
+    prompt: כמה עולה הכובע
+    answers:
+    - וויפֿל קאָסט דער הוט
+    distractors:
+    - געלט
+    - ביליק
+    lexemes: *id002
+  - id: u15-review-08
+    type: translate
+    direction: to_source
+    prompt: דער הוט קאָסט צען דאָלאַר.
+    answers:
+    - הכובע עולה עשרה דולר
+    lexemes: *id003
+  - id: u15-review-09
+    type: translate
+    direction: to_target
+    prompt: הכובע עולה עשרה דולר
+    answers:
+    - דער הוט קאָסט צען דאָלאַר
+    lexemes: *id003
+  - id: u15-review-10
+    type: word_bank
+    prompt: הכובע עולה עשרה דולר
+    answers:
+    - דער הוט קאָסט צען דאָלאַר
+    distractors:
+    - ביליק
+    - געבן
+    lexemes: *id003

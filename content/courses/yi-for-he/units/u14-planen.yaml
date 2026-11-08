@@ -1,0 +1,548 @@
+id: u14-planen
+cefr: A2
+scene: travel
+title:
+  he: תוכניות ונסיעה לרבי
+  en: Plans and a trip to the Rebbe
+story: מנחם והסבא מתכננים נסיעה לניו יורק, אל הרבי.
+canDo:
+- לדבר על העתיד
+- לומר לאן ומתי אני נוסע
+- לספר על תוכניות
+vocabulary:
+- id: vel
+  text: וועל
+  translation: אהיה / אעשה (עתיד)
+  pos: verb
+- id: morgn2
+  text: מאָרגן
+  translation: מחר
+  pos: adverb
+- id: forn
+  text: פֿאָרן
+  translation: לנסוע
+  pos: verb
+- id: bald
+  text: באַלד
+  translation: בקרוב
+  pos: adverb
+- id: kumen
+  text: קומען
+  translation: לבוא
+  pos: verb
+- id: shpeter
+  text: שפּעטער
+  translation: אחר כך
+  pos: adverb
+- id: rebe
+  text: רבי
+  translation: הרבי
+  pos: noun
+- id: nyuyork
+  text: ניו־יאָרק
+  translation: ניו יורק
+  pos: noun
+- id: kayn
+  text: קיין
+  translation: אל (כיוון)
+  pos: preposition
+lessons:
+- id: u14-l1
+  kind: new
+  title:
+    he: עתיד עם וועלן
+    en: Lesson
+  exercises:
+  - id: u14-l1-01
+    type: tip
+    title: העתיד
+    text: 'העתיד נוצר עם **וועלן**: **איך וועל גיין** (אלך), **מיר וועלן פֿאָרן** (ניסע).
+
+      **מאָרגן** כאן פירושו "מחר", ו**באַלד** (בקרוב), **שפּעטער** (אחר כך).
+
+      **קיין** פירושו "אל", כשנוסעים לעיר: **קיין ניו־יאָרק**.
+
+      '
+  - id: u14-l1-02
+    type: learn
+    lexeme: vel
+  - id: u14-l1-03
+    type: learn
+    lexeme: morgn2
+  - id: u14-l1-04
+    type: learn
+    lexeme: bald
+  - id: u14-l1-05
+    type: learn
+    lexeme: shpeter
+  - id: u14-l1-06
+    type: learn
+    lexeme: kumen
+  - id: u14-l1-07
+    type: learn
+    lexeme: forn
+  - id: u14-l1-08
+    type: learn
+    lexeme: kayn
+  - id: u14-l1-09
+    type: learn
+    lexeme: nyuyork
+  - id: u14-l1-10
+    type: match_pairs
+    pairs:
+    - - וועל
+      - אהיה / אעשה (עתיד)
+    - - מאָרגן
+      - מחר
+    - - באַלד
+      - בקרוב
+    - - שפּעטער
+      - אחר כך
+    - - קומען
+      - לבוא
+    - - פֿאָרן
+      - לנסוע
+    lexemes:
+    - vel
+    - morgn2
+    - bald
+    - shpeter
+    - kumen
+    - forn
+  - id: u14-l1-11
+    type: multiple_choice
+    prompt: מה פירוש וועל?
+    options:
+    - אהיה / אעשה (עתיד)
+    - לנסוע
+    - לבוא
+    correct: 0
+    lexemes:
+    - vel
+  - id: u14-l1-12
+    type: multiple_choice
+    prompt: מה פירוש מאָרגן?
+    options:
+    - מחר
+    - בקרוב
+    - אחר כך
+    correct: 0
+    lexemes:
+    - morgn2
+  - id: u14-l1-13
+    type: multiple_choice
+    prompt: מה פירוש באַלד?
+    options:
+    - בקרוב
+    - מחר
+    - אחר כך
+    correct: 0
+    lexemes:
+    - bald
+  - id: u14-l1-14
+    type: multiple_choice
+    prompt: מה פירוש שפּעטער?
+    options:
+    - אחר כך
+    - מחר
+    - בקרוב
+    correct: 0
+    lexemes:
+    - shpeter
+  - id: u14-l1-15
+    type: multiple_choice
+    prompt: מה פירוש קומען?
+    options:
+    - לבוא
+    - אהיה / אעשה (עתיד)
+    - לנסוע
+    correct: 0
+    lexemes:
+    - kumen
+  - id: u14-l1-16
+    type: translate
+    direction: to_source
+    prompt: מאָרגן וועל איך גיין אין שול.
+    answers:
+    - מחר אלך לבית הכנסת
+    lexemes: &id001
+    - morgn2
+    - vel
+    - geyn
+    - shul
+  - id: u14-l1-17
+    type: translate
+    direction: to_target
+    prompt: מחר אלך לבית הכנסת
+    answers:
+    - מאָרגן וועל איך גיין אין שול
+    lexemes: *id001
+  - id: u14-l1-18
+    type: word_bank
+    prompt: מחר אלך לבית הכנסת
+    answers:
+    - מאָרגן וועל איך גיין אין שול
+    distractors:
+    - פֿאָרן
+    - באַלד
+    lexemes: *id001
+  - id: u14-l1-19
+    type: fill_blank
+    sentence: מאָרגן ___ איך גיין אין שול.
+    translation: מחר אלך לבית הכנסת
+    answers:
+    - וועל
+    options:
+    - וועל
+    - רבי
+    - קומען
+    lexemes: *id001
+  - id: u14-l1-20
+    type: translate
+    direction: to_source
+    prompt: מיר וועלן פֿאָרן קיין ניו־יאָרק.
+    answers:
+    - ניסע לניו יורק
+    - אנחנו ניסע לניו יורק
+    - אנחנו ניסע לניו־יורק
+    lexemes: &id002
+    - vel
+    - forn
+    - kayn
+    - nyuyork
+  - id: u14-l1-21
+    type: translate
+    direction: to_target
+    prompt: ניסע לניו יורק
+    answers:
+    - מיר וועלן פֿאָרן קיין ניו־יאָרק
+    lexemes: *id002
+  - id: u14-l1-22
+    type: word_bank
+    prompt: ניסע לניו יורק
+    answers:
+    - מיר וועלן פֿאָרן קיין ניו־יאָרק
+    distractors:
+    - קומען
+    - שפּעטער
+    lexemes: *id002
+  - id: u14-l1-23
+    type: fill_blank
+    sentence: מיר וועלן ___ קיין ניו־יאָרק.
+    translation: ניסע לניו יורק
+    answers:
+    - פֿאָרן
+    options:
+    - פֿאָרן
+    - מאָרגן
+    - קומען
+    lexemes: *id002
+- id: u14-l2
+  kind: new
+  title:
+    he: נסיעה אל הרבי
+    en: Lesson
+  exercises:
+  - id: u14-l2-01
+    type: learn
+    lexeme: forn
+  - id: u14-l2-02
+    type: learn
+    lexeme: rebe
+  - id: u14-l2-03
+    type: learn
+    lexeme: nyuyork
+  - id: u14-l2-04
+    type: learn
+    lexeme: kayn
+  - id: u14-l2-05
+    type: dialogue
+    scene: home
+    lines:
+    - speaker: menachem
+      text: זיידע, מאָרגן וועלן מיר פֿאָרן.
+      translation: סבא, מחר ניסע.
+    - speaker: zeyde
+      text: וווּ וועלן מיר פֿאָרן?
+      translation: לאן ניסע?
+    - speaker: menachem
+      text: קיין ניו־יאָרק, צום רבי.
+      translation: לניו יורק, אל הרבי.
+  - id: u14-l2-06
+    type: match_pairs
+    pairs:
+    - - פֿאָרן
+      - לנסוע
+    - - רבי
+      - הרבי
+    - - ניו־יאָרק
+      - ניו יורק
+    - - קיין
+      - אל (כיוון)
+    lexemes:
+    - forn
+    - rebe
+    - nyuyork
+    - kayn
+  - id: u14-l2-07
+    type: multiple_choice
+    prompt: מה פירוש פֿאָרן?
+    options:
+    - לנסוע
+    - אהיה / אעשה (עתיד)
+    - לבוא
+    correct: 0
+    lexemes:
+    - forn
+  - id: u14-l2-08
+    type: multiple_choice
+    prompt: מה פירוש רבי?
+    options:
+    - הרבי
+    - ניו יורק
+    correct: 0
+    lexemes:
+    - rebe
+  - id: u14-l2-09
+    type: multiple_choice
+    prompt: מה פירוש ניו־יאָרק?
+    options:
+    - ניו יורק
+    - הרבי
+    correct: 0
+    lexemes:
+    - nyuyork
+  - id: u14-l2-10
+    type: multiple_choice
+    prompt: מה פירוש קיין?
+    options:
+    - אל (כיוון)
+    - אהיה / אעשה (עתיד)
+    - מחר
+    correct: 0
+    lexemes:
+    - kayn
+  - id: u14-l2-11
+    type: translate
+    direction: to_source
+    prompt: איך וועל קומען באַלד.
+    answers:
+    - אבוא בקרוב
+    lexemes: &id003
+    - vel
+    - kumen
+    - bald
+  - id: u14-l2-12
+    type: translate
+    direction: to_target
+    prompt: אבוא בקרוב
+    answers:
+    - איך וועל קומען באַלד
+    lexemes: *id003
+  - id: u14-l2-13
+    type: word_bank
+    prompt: אבוא בקרוב
+    answers:
+    - איך וועל קומען באַלד
+    distractors:
+    - באַלד
+    - פֿאָרן
+    lexemes: *id003
+  - id: u14-l2-14
+    type: fill_blank
+    sentence: איך וועל ___ באַלד.
+    translation: אבוא בקרוב
+    answers:
+    - קומען
+    options:
+    - קומען
+    - קיין
+    - ניו־יאָרק
+    lexemes: *id003
+  - id: u14-l2-15
+    type: translate
+    direction: to_source
+    prompt: דער רבי איז אין ניו־יאָרק.
+    answers:
+    - הרבי בניו יורק
+    lexemes: &id004
+    - rebe
+    - iz
+    - in
+    - nyuyork
+  - id: u14-l2-16
+    type: translate
+    direction: to_target
+    prompt: הרבי בניו יורק
+    answers:
+    - דער רבי איז אין ניו־יאָרק
+    lexemes: *id004
+  - id: u14-l2-17
+    type: word_bank
+    prompt: הרבי בניו יורק
+    answers:
+    - דער רבי איז אין ניו־יאָרק
+    distractors:
+    - קומען
+    - וועל
+    lexemes: *id004
+  - id: u14-l2-18
+    type: fill_blank
+    sentence: דער ___ איז אין ניו־יאָרק.
+    translation: הרבי בניו יורק
+    answers:
+    - רבי
+    options:
+    - רבי
+    - מאָרגן
+    - קיין
+    lexemes: *id004
+  - id: u14-l2-19
+    type: translate
+    direction: to_source
+    prompt: שפּעטער וועל איך לערנען.
+    answers:
+    - אחר כך אלמד
+    lexemes: &id005
+    - shpeter
+    - vel
+    - lernen
+  - id: u14-l2-20
+    type: translate
+    direction: to_target
+    prompt: אחר כך אלמד
+    answers:
+    - שפּעטער וועל איך לערנען
+    lexemes: *id005
+  - id: u14-l2-21
+    type: word_bank
+    prompt: אחר כך אלמד
+    answers:
+    - שפּעטער וועל איך לערנען
+    distractors:
+    - קומען
+    - מאָרגן
+    lexemes: *id005
+  - id: u14-l2-22
+    type: fill_blank
+    sentence: ___ וועל איך לערנען.
+    translation: אחר כך אלמד
+    answers:
+    - שפּעטער
+    options:
+    - שפּעטער
+    - רבי
+    - פֿאָרן
+    lexemes: *id005
+- id: u14-review
+  kind: review
+  title:
+    he: 'חזרה: תוכניות ונסיעה לרבי'
+    en: Review
+  exercises:
+  - id: u14-review-01
+    type: match_pairs
+    pairs:
+    - - וועל
+      - אהיה / אעשה (עתיד)
+    - - מאָרגן
+      - מחר
+    - - באַלד
+      - בקרוב
+    - - שפּעטער
+      - אחר כך
+    - - קומען
+      - לבוא
+    - - פֿאָרן
+      - לנסוע
+    lexemes:
+    - vel
+    - morgn2
+    - bald
+    - shpeter
+    - kumen
+    - forn
+  - id: u14-review-02
+    type: match_pairs
+    pairs:
+    - - רבי
+      - הרבי
+    - - ניו־יאָרק
+      - ניו יורק
+    - - קיין
+      - אל (כיוון)
+    lexemes:
+    - rebe
+    - nyuyork
+    - kayn
+  - id: u14-review-03
+    type: translate
+    direction: to_source
+    prompt: מאָרגן וועל איך גיין אין שול.
+    answers:
+    - מחר אלך לבית הכנסת
+    lexemes: *id001
+  - id: u14-review-04
+    type: translate
+    direction: to_target
+    prompt: מחר אלך לבית הכנסת
+    answers:
+    - מאָרגן וועל איך גיין אין שול
+    lexemes: *id001
+  - id: u14-review-05
+    type: word_bank
+    prompt: מחר אלך לבית הכנסת
+    answers:
+    - מאָרגן וועל איך גיין אין שול
+    distractors:
+    - פֿאָרן
+    - באַלד
+    lexemes: *id001
+  - id: u14-review-06
+    type: translate
+    direction: to_source
+    prompt: מיר וועלן פֿאָרן קיין ניו־יאָרק.
+    answers:
+    - ניסע לניו יורק
+    - אנחנו ניסע לניו יורק
+    - אנחנו ניסע לניו־יורק
+    lexemes: *id002
+  - id: u14-review-07
+    type: translate
+    direction: to_target
+    prompt: ניסע לניו יורק
+    answers:
+    - מיר וועלן פֿאָרן קיין ניו־יאָרק
+    lexemes: *id002
+  - id: u14-review-08
+    type: word_bank
+    prompt: ניסע לניו יורק
+    answers:
+    - מיר וועלן פֿאָרן קיין ניו־יאָרק
+    distractors:
+    - קומען
+    - שפּעטער
+    lexemes: *id002
+  - id: u14-review-09
+    type: translate
+    direction: to_source
+    prompt: איך וועל קומען באַלד.
+    answers:
+    - אבוא בקרוב
+    lexemes: *id003
+  - id: u14-review-10
+    type: translate
+    direction: to_target
+    prompt: אבוא בקרוב
+    answers:
+    - איך וועל קומען באַלד
+    lexemes: *id003
+  - id: u14-review-11
+    type: word_bank
+    prompt: אבוא בקרוב
+    answers:
+    - איך וועל קומען באַלד
+    distractors:
+    - באַלד
+    - פֿאָרן
+    lexemes: *id003
