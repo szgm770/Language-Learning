@@ -1,0 +1,628 @@
+id: u07-rutine
+cefr: A1
+scene: day
+title:
+  he: סדר היום
+  en: Daily routine
+story: 'מנחם מספר איך נראה היום שלו אצל סבא וסבתא: תפילה, לימוד ושינה.'
+canDo:
+- לתאר פעולות יומיומיות
+- לומר לאן אני הולך
+- לדבר על בוקר, ערב ולילה
+vocabulary:
+- id: tog
+  text: טאָג
+  translation: יום
+  pos: noun
+- id: morgn
+  text: מאָרגן
+  translation: בוקר
+  pos: noun
+- id: ovnt
+  text: אָוונט
+  translation: ערב
+  pos: noun
+- id: nakht
+  text: נאַכט
+  translation: לילה
+  pos: noun
+- id: lernen
+  text: לערנען
+  translation: ללמוד
+  pos: verb
+- id: davnen
+  text: דאַוונען
+  translation: להתפלל
+  pos: verb
+- id: shlofn
+  text: שלאָפֿן
+  translation: לישון
+  pos: verb
+- id: arbetn
+  text: אַרבעטן
+  translation: לעבוד
+  pos: verb
+- id: geyn
+  text: גיין
+  translation: ללכת
+  pos: verb
+- id: shul
+  text: שול
+  translation: בית כנסת
+  pos: noun
+lessons:
+- id: u07-l1
+  kind: new
+  title:
+    he: בוקר, ערב ולילה
+    en: Lesson
+  exercises:
+  - id: u07-l1-01
+    type: tip
+    title: יום וזמן
+    text: '**טאָג** (יום), **מאָרגן** (בוקר), **אָוונט** (ערב), **נאַכט** (לילה).
+
+      הפועל ביידיש מקבל סיומת לפי מי עושה: **איך לערן** (אני לומד), **מיר לערנען** (אנחנו לומדים).
+
+      **נישט** פירושו "לא", ואחרי הפועל: **איך אַרבעט נישט** (אני לא עובד).
+
+      '
+  - id: u07-l1-02
+    type: learn
+    lexeme: tog
+  - id: u07-l1-03
+    type: learn
+    lexeme: morgn
+  - id: u07-l1-04
+    type: learn
+    lexeme: ovnt
+  - id: u07-l1-05
+    type: learn
+    lexeme: nakht
+  - id: u07-l1-06
+    type: learn
+    lexeme: shul
+  - id: u07-l1-07
+    type: learn
+    lexeme: geyn
+  - id: u07-l1-08
+    type: learn
+    lexeme: lernen
+  - id: u07-l1-09
+    type: match_pairs
+    pairs:
+    - - טאָג
+      - יום
+    - - מאָרגן
+      - בוקר
+    - - אָוונט
+      - ערב
+    - - נאַכט
+      - לילה
+    - - שול
+      - בית כנסת
+    - - גיין
+      - ללכת
+    lexemes:
+    - tog
+    - morgn
+    - ovnt
+    - nakht
+    - shul
+    - geyn
+  - id: u07-l1-10
+    type: multiple_choice
+    prompt: מה פירוש טאָג?
+    options:
+    - יום
+    - בוקר
+    - ערב
+    correct: 0
+    lexemes:
+    - tog
+  - id: u07-l1-11
+    type: multiple_choice
+    prompt: מה פירוש מאָרגן?
+    options:
+    - בוקר
+    - יום
+    - ערב
+    correct: 0
+    lexemes:
+    - morgn
+  - id: u07-l1-12
+    type: multiple_choice
+    prompt: מה פירוש אָוונט?
+    options:
+    - ערב
+    - יום
+    - בוקר
+    correct: 0
+    lexemes:
+    - ovnt
+  - id: u07-l1-13
+    type: multiple_choice
+    prompt: מה פירוש נאַכט?
+    options:
+    - לילה
+    - יום
+    - בוקר
+    correct: 0
+    lexemes:
+    - nakht
+  - id: u07-l1-14
+    type: multiple_choice
+    prompt: מה פירוש שול?
+    options:
+    - בית כנסת
+    - יום
+    - בוקר
+    correct: 0
+    lexemes:
+    - shul
+  - id: u07-l1-15
+    type: translate
+    direction: to_source
+    prompt: איך גיי אין שול.
+    answers:
+    - אני הולך לבית הכנסת
+    - אני הולך לשול
+    lexemes: &id001
+    - ikh
+    - geyn
+    - in
+    - shul
+  - id: u07-l1-16
+    type: translate
+    direction: to_target
+    prompt: אני הולך לבית הכנסת
+    answers:
+    - איך גיי אין שול
+    lexemes: *id001
+  - id: u07-l1-17
+    type: word_bank
+    prompt: אני הולך לבית הכנסת
+    answers:
+    - איך גיי אין שול
+    distractors:
+    - טאָג
+    - מאָרגן
+    lexemes: *id001
+  - id: u07-l1-18
+    type: fill_blank
+    sentence: איך ___ אין שול.
+    translation: אני הולך לבית הכנסת
+    answers:
+    - גיי
+    options:
+    - גיי
+    - נאַכט
+    - טאָג
+    lexemes: *id001
+  - id: u07-l1-19
+    type: translate
+    direction: to_source
+    prompt: איך לערן אין שול.
+    answers:
+    - אני לומד בבית הכנסת
+    lexemes: &id002
+    - ikh
+    - lernen
+    - in
+    - shul
+  - id: u07-l1-20
+    type: translate
+    direction: to_target
+    prompt: אני לומד בבית הכנסת
+    answers:
+    - איך לערן אין שול
+    lexemes: *id002
+  - id: u07-l1-21
+    type: word_bank
+    prompt: אני לומד בבית הכנסת
+    answers:
+    - איך לערן אין שול
+    distractors:
+    - שול
+    - אַרבעטן
+    lexemes: *id002
+  - id: u07-l1-22
+    type: fill_blank
+    sentence: איך ___ אין שול.
+    translation: אני לומד בבית הכנסת
+    answers:
+    - לערן
+    options:
+    - לערן
+    - שלאָפֿן
+    - דאַוונען
+    lexemes: *id002
+- id: u07-l2
+  kind: new
+  title:
+    he: מה אני עושה
+    en: Lesson
+  exercises:
+  - id: u07-l2-01
+    type: learn
+    lexeme: lernen
+  - id: u07-l2-02
+    type: learn
+    lexeme: davnen
+  - id: u07-l2-03
+    type: learn
+    lexeme: shlofn
+  - id: u07-l2-04
+    type: learn
+    lexeme: arbetn
+  - id: u07-l2-05
+    type: learn
+    lexeme: geyn
+  - id: u07-l2-06
+    type: dialogue
+    scene: home
+    lines:
+    - speaker: zeyde
+      text: וווּ גייסטו?
+      translation: לאן אתה הולך?
+    - speaker: menachem
+      text: איך גיי אין שול.
+      translation: אני הולך לבית הכנסת.
+    - speaker: zeyde
+      text: גוט, מיר לערנען אין שול.
+      translation: טוב, אנחנו לומדים בבית הכנסת.
+  - id: u07-l2-07
+    type: match_pairs
+    pairs:
+    - - לערנען
+      - ללמוד
+    - - דאַוונען
+      - להתפלל
+    - - שלאָפֿן
+      - לישון
+    - - אַרבעטן
+      - לעבוד
+    - - גיין
+      - ללכת
+    lexemes:
+    - lernen
+    - davnen
+    - shlofn
+    - arbetn
+    - geyn
+  - id: u07-l2-08
+    type: multiple_choice
+    prompt: מה פירוש לערנען?
+    options:
+    - ללמוד
+    - להתפלל
+    - לישון
+    correct: 0
+    lexemes:
+    - lernen
+  - id: u07-l2-09
+    type: multiple_choice
+    prompt: מה פירוש דאַוונען?
+    options:
+    - להתפלל
+    - ללמוד
+    - לישון
+    correct: 0
+    lexemes:
+    - davnen
+  - id: u07-l2-10
+    type: multiple_choice
+    prompt: מה פירוש שלאָפֿן?
+    options:
+    - לישון
+    - ללמוד
+    - להתפלל
+    correct: 0
+    lexemes:
+    - shlofn
+  - id: u07-l2-11
+    type: multiple_choice
+    prompt: מה פירוש אַרבעטן?
+    options:
+    - לעבוד
+    - ללמוד
+    - להתפלל
+    correct: 0
+    lexemes:
+    - arbetn
+  - id: u07-l2-12
+    type: multiple_choice
+    prompt: מה פירוש גיין?
+    options:
+    - ללכת
+    - ללמוד
+    - להתפלל
+    correct: 0
+    lexemes:
+    - geyn
+  - id: u07-l2-13
+    type: translate
+    direction: to_source
+    prompt: איך דאַוון אין שול.
+    answers:
+    - אני מתפלל בבית הכנסת
+    lexemes: &id003
+    - ikh
+    - davnen
+    - in
+    - shul
+  - id: u07-l2-14
+    type: translate
+    direction: to_target
+    prompt: אני מתפלל בבית הכנסת
+    answers:
+    - איך דאַוון אין שול
+    lexemes: *id003
+  - id: u07-l2-15
+    type: word_bank
+    prompt: אני מתפלל בבית הכנסת
+    answers:
+    - איך דאַוון אין שול
+    distractors:
+    - שלאָפֿן
+    - מאָרגן
+    lexemes: *id003
+  - id: u07-l2-16
+    type: fill_blank
+    sentence: איך ___ אין שול.
+    translation: אני מתפלל בבית הכנסת
+    answers:
+    - דאַוון
+    options:
+    - דאַוון
+    - מאָרגן
+    - אַרבעטן
+    lexemes: *id003
+  - id: u07-l2-17
+    type: translate
+    direction: to_source
+    prompt: איך שלאָף בײַ נאַכט.
+    answers:
+    - אני ישן בלילה
+    lexemes: &id004
+    - ikh
+    - shlofn
+    - nakht
+  - id: u07-l2-18
+    type: translate
+    direction: to_target
+    prompt: אני ישן בלילה
+    answers:
+    - איך שלאָף בײַ נאַכט
+    lexemes: *id004
+  - id: u07-l2-19
+    type: word_bank
+    prompt: אני ישן בלילה
+    answers:
+    - איך שלאָף בײַ נאַכט
+    distractors:
+    - שלאָפֿן
+    - מאָרגן
+    lexemes: *id004
+  - id: u07-l2-20
+    type: fill_blank
+    sentence: איך ___ בײַ נאַכט.
+    translation: אני ישן בלילה
+    answers:
+    - שלאָף
+    options:
+    - שלאָף
+    - אַרבעטן
+    - שול
+    lexemes: *id004
+  - id: u07-l2-21
+    type: translate
+    direction: to_source
+    prompt: מיר לערנען אין שול.
+    answers:
+    - אנחנו לומדים בבית הכנסת
+    lexemes: &id005
+    - mir
+    - lernen
+    - in
+    - shul
+  - id: u07-l2-22
+    type: translate
+    direction: to_target
+    prompt: אנחנו לומדים בבית הכנסת
+    answers:
+    - מיר לערנען אין שול
+    lexemes: *id005
+  - id: u07-l2-23
+    type: word_bank
+    prompt: אנחנו לומדים בבית הכנסת
+    answers:
+    - מיר לערנען אין שול
+    distractors:
+    - מאָרגן
+    - נאַכט
+    lexemes: *id005
+  - id: u07-l2-24
+    type: fill_blank
+    sentence: מיר ___ אין שול.
+    translation: אנחנו לומדים בבית הכנסת
+    answers:
+    - לערנען
+    options:
+    - לערנען
+    - נאַכט
+    - דאַוונען
+    lexemes: *id005
+  - id: u07-l2-25
+    type: translate
+    direction: to_source
+    prompt: איך אַרבעט נישט.
+    answers:
+    - אני לא עובד
+    lexemes: &id006
+    - ikh
+    - arbetn
+  - id: u07-l2-26
+    type: translate
+    direction: to_target
+    prompt: אני לא עובד
+    answers:
+    - איך אַרבעט נישט
+    lexemes: *id006
+  - id: u07-l2-27
+    type: word_bank
+    prompt: אני לא עובד
+    answers:
+    - איך אַרבעט נישט
+    distractors:
+    - אָוונט
+    - שול
+    lexemes: *id006
+  - id: u07-l2-28
+    type: fill_blank
+    sentence: איך ___ נישט.
+    translation: אני לא עובד
+    answers:
+    - אַרבעט
+    options:
+    - אַרבעט
+    - גיין
+    - נאַכט
+    lexemes: *id006
+- id: u07-review
+  kind: review
+  title:
+    he: 'חזרה: סדר היום'
+    en: Review
+  exercises:
+  - id: u07-review-01
+    type: match_pairs
+    pairs:
+    - - טאָג
+      - יום
+    - - מאָרגן
+      - בוקר
+    - - אָוונט
+      - ערב
+    - - נאַכט
+      - לילה
+    - - שול
+      - בית כנסת
+    - - לערנען
+      - ללמוד
+    lexemes:
+    - tog
+    - morgn
+    - ovnt
+    - nakht
+    - shul
+    - lernen
+  - id: u07-review-02
+    type: match_pairs
+    pairs:
+    - - דאַוונען
+      - להתפלל
+    - - שלאָפֿן
+      - לישון
+    - - אַרבעטן
+      - לעבוד
+    - - גיין
+      - ללכת
+    lexemes:
+    - davnen
+    - shlofn
+    - arbetn
+    - geyn
+  - id: u07-review-03
+    type: translate
+    direction: to_source
+    prompt: איך גיי אין שול.
+    answers:
+    - אני הולך לבית הכנסת
+    - אני הולך לשול
+    lexemes: *id001
+  - id: u07-review-04
+    type: translate
+    direction: to_target
+    prompt: אני הולך לבית הכנסת
+    answers:
+    - איך גיי אין שול
+    lexemes: *id001
+  - id: u07-review-05
+    type: word_bank
+    prompt: אני הולך לבית הכנסת
+    answers:
+    - איך גיי אין שול
+    distractors:
+    - טאָג
+    - מאָרגן
+    lexemes: *id001
+  - id: u07-review-06
+    type: translate
+    direction: to_source
+    prompt: איך לערן אין שול.
+    answers:
+    - אני לומד בבית הכנסת
+    lexemes: *id002
+  - id: u07-review-07
+    type: translate
+    direction: to_target
+    prompt: אני לומד בבית הכנסת
+    answers:
+    - איך לערן אין שול
+    lexemes: *id002
+  - id: u07-review-08
+    type: word_bank
+    prompt: אני לומד בבית הכנסת
+    answers:
+    - איך לערן אין שול
+    distractors:
+    - שול
+    - אַרבעטן
+    lexemes: *id002
+  - id: u07-review-09
+    type: translate
+    direction: to_source
+    prompt: איך דאַוון אין שול.
+    answers:
+    - אני מתפלל בבית הכנסת
+    lexemes: *id003
+  - id: u07-review-10
+    type: translate
+    direction: to_target
+    prompt: אני מתפלל בבית הכנסת
+    answers:
+    - איך דאַוון אין שול
+    lexemes: *id003
+  - id: u07-review-11
+    type: word_bank
+    prompt: אני מתפלל בבית הכנסת
+    answers:
+    - איך דאַוון אין שול
+    distractors:
+    - שלאָפֿן
+    - מאָרגן
+    lexemes: *id003
+  - id: u07-review-12
+    type: translate
+    direction: to_source
+    prompt: איך שלאָף בײַ נאַכט.
+    answers:
+    - אני ישן בלילה
+    lexemes: *id004
+  - id: u07-review-13
+    type: translate
+    direction: to_target
+    prompt: אני ישן בלילה
+    answers:
+    - איך שלאָף בײַ נאַכט
+    lexemes: *id004
+  - id: u07-review-14
+    type: word_bank
+    prompt: אני ישן בלילה
+    answers:
+    - איך שלאָף בײַ נאַכט
+    distractors:
+    - שלאָפֿן
+    - מאָרגן
+    lexemes: *id004

@@ -1,0 +1,757 @@
+id: u09-shtot
+cefr: A1
+scene: town
+title:
+  he: העיר
+  en: The town
+story: מנחם יוצא לטייל בכפר ושואל את הדרך.
+canDo:
+- לשאול איפה משהו נמצא
+- לומר מה יש בעיר
+- להפגין את מה שלמדתי ב־A1
+vocabulary:
+- id: shtot
+  text: שטאָט
+  translation: עיר
+  pos: noun
+- id: gas
+  text: גאַס
+  translation: רחוב
+  pos: noun
+- id: krom
+  text: קראָם
+  translation: חנות
+  pos: noun
+- id: dortn
+  text: דאָרטן
+  translation: שם
+  pos: adverb
+- id: vu
+  text: וווּ
+  translation: איפה
+  pos: adverb
+lessons:
+- id: u09-l1
+  kind: new
+  title:
+    he: בעיר
+    en: Lesson
+  exercises:
+  - id: u09-l1-01
+    type: tip
+    title: איפה זה?
+    text: '**וווּ איז...?** פירושו "איפה...?", ואחריו שם הדבר: **וווּ איז די שול?**
+
+      **דאָרטן** (שם) ו**דאָ** (כאן).
+
+      **שטאָט** (עיר), **גאַס** (רחוב), **קראָם** (חנות).
+
+      '
+  - id: u09-l1-02
+    type: learn
+    lexeme: shtot
+  - id: u09-l1-03
+    type: learn
+    lexeme: gas
+  - id: u09-l1-04
+    type: learn
+    lexeme: krom
+  - id: u09-l1-05
+    type: learn
+    lexeme: dortn
+  - id: u09-l1-06
+    type: learn
+    lexeme: vu
+  - id: u09-l1-07
+    type: dialogue
+    scene: town
+    lines:
+    - speaker: menachem
+      text: זיידע, וווּ איז די שול?
+      translation: סבא, איפה בית הכנסת?
+    - speaker: zeyde
+      text: די שול איז דאָרטן.
+      translation: בית הכנסת שם.
+  - id: u09-l1-08
+    type: match_pairs
+    pairs:
+    - - שטאָט
+      - עיר
+    - - גאַס
+      - רחוב
+    - - קראָם
+      - חנות
+    - - דאָרטן
+      - שם
+    - - וווּ
+      - איפה
+    lexemes:
+    - shtot
+    - gas
+    - krom
+    - dortn
+    - vu
+  - id: u09-l1-09
+    type: multiple_choice
+    prompt: מה פירוש שטאָט?
+    options:
+    - עיר
+    - רחוב
+    - חנות
+    correct: 0
+    lexemes:
+    - shtot
+  - id: u09-l1-10
+    type: multiple_choice
+    prompt: מה פירוש גאַס?
+    options:
+    - רחוב
+    - עיר
+    - חנות
+    correct: 0
+    lexemes:
+    - gas
+  - id: u09-l1-11
+    type: multiple_choice
+    prompt: מה פירוש קראָם?
+    options:
+    - חנות
+    - עיר
+    - רחוב
+    correct: 0
+    lexemes:
+    - krom
+  - id: u09-l1-12
+    type: multiple_choice
+    prompt: מה פירוש דאָרטן?
+    options:
+    - שם
+    - איפה
+    correct: 0
+    lexemes:
+    - dortn
+  - id: u09-l1-13
+    type: multiple_choice
+    prompt: מה פירוש וווּ?
+    options:
+    - איפה
+    - שם
+    correct: 0
+    lexemes:
+    - vu
+  - id: u09-l1-14
+    type: translate
+    direction: to_source
+    prompt: וווּ איז די שול?
+    answers:
+    - איפה בית הכנסת
+    lexemes: &id001
+    - vu
+    - iz
+    - shul
+  - id: u09-l1-15
+    type: translate
+    direction: to_target
+    prompt: איפה בית הכנסת
+    answers:
+    - וווּ איז די שול
+    lexemes: *id001
+  - id: u09-l1-16
+    type: word_bank
+    prompt: איפה בית הכנסת
+    answers:
+    - וווּ איז די שול
+    distractors:
+    - קראָם
+    - שטאָט
+    lexemes: *id001
+  - id: u09-l1-17
+    type: fill_blank
+    sentence: ___ איז די שול?
+    translation: איפה בית הכנסת
+    answers:
+    - וווּ
+    options:
+    - וווּ
+    - קראָם
+    - גאַס
+    lexemes: *id001
+  - id: u09-l1-18
+    type: translate
+    direction: to_source
+    prompt: די שול איז דאָרטן.
+    answers:
+    - בית הכנסת שם
+    lexemes: &id002
+    - shul
+    - iz
+    - dortn
+  - id: u09-l1-19
+    type: translate
+    direction: to_target
+    prompt: בית הכנסת שם
+    answers:
+    - די שול איז דאָרטן
+    lexemes: *id002
+  - id: u09-l1-20
+    type: word_bank
+    prompt: בית הכנסת שם
+    answers:
+    - די שול איז דאָרטן
+    distractors:
+    - דאָרטן
+    - וווּ
+    lexemes: *id002
+  - id: u09-l1-21
+    type: translate
+    direction: to_source
+    prompt: דאָס איז אַ קראָם.
+    answers:
+    - זו חנות
+    lexemes: &id003
+    - w-dos
+    - iz
+    - krom
+  - id: u09-l1-22
+    type: translate
+    direction: to_target
+    prompt: זו חנות
+    answers:
+    - דאָס איז אַ קראָם
+    lexemes: *id003
+  - id: u09-l1-23
+    type: word_bank
+    prompt: זו חנות
+    answers:
+    - דאָס איז אַ קראָם
+    distractors:
+    - קראָם
+    - דאָרטן
+    lexemes: *id003
+  - id: u09-l1-24
+    type: translate
+    direction: to_source
+    prompt: איך גיי אין קראָם.
+    answers:
+    - אני הולך לחנות
+    lexemes: &id004
+    - ikh
+    - geyn
+    - in
+    - krom
+  - id: u09-l1-25
+    type: translate
+    direction: to_target
+    prompt: אני הולך לחנות
+    answers:
+    - איך גיי אין קראָם
+    lexemes: *id004
+  - id: u09-l1-26
+    type: word_bank
+    prompt: אני הולך לחנות
+    answers:
+    - איך גיי אין קראָם
+    distractors:
+    - גאַס
+    - דאָרטן
+    lexemes: *id004
+  - id: u09-l1-27
+    type: translate
+    direction: to_source
+    prompt: די גאַס איז גרויס.
+    answers:
+    - הרחוב גדול
+    lexemes: &id005
+    - gas
+    - iz
+    - groys
+  - id: u09-l1-28
+    type: translate
+    direction: to_target
+    prompt: הרחוב גדול
+    answers:
+    - די גאַס איז גרויס
+    lexemes: *id005
+  - id: u09-l1-29
+    type: word_bank
+    prompt: הרחוב גדול
+    answers:
+    - די גאַס איז גרויס
+    distractors:
+    - וווּ
+    - שטאָט
+    lexemes: *id005
+  - id: u09-l1-30
+    type: fill_blank
+    sentence: די ___ איז גרויס.
+    translation: הרחוב גדול
+    answers:
+    - גאַס
+    options:
+    - גאַס
+    - וווּ
+    - שטאָט
+    lexemes: *id005
+  - id: u09-l1-31
+    type: translate
+    direction: to_source
+    prompt: איך בין אין שטאָט.
+    answers:
+    - אני בעיר
+    lexemes: &id006
+    - ikh
+    - bin
+    - in
+    - shtot
+  - id: u09-l1-32
+    type: translate
+    direction: to_target
+    prompt: אני בעיר
+    answers:
+    - איך בין אין שטאָט
+    lexemes: *id006
+  - id: u09-l1-33
+    type: word_bank
+    prompt: אני בעיר
+    answers:
+    - איך בין אין שטאָט
+    distractors:
+    - וווּ
+    - גאַס
+    lexemes: *id006
+- id: u09-review
+  kind: review
+  title:
+    he: 'חזרה: העיר'
+    en: Review
+  exercises:
+  - id: u09-review-01
+    type: match_pairs
+    pairs:
+    - - שטאָט
+      - עיר
+    - - גאַס
+      - רחוב
+    - - קראָם
+      - חנות
+    - - דאָרטן
+      - שם
+    - - וווּ
+      - איפה
+    lexemes:
+    - shtot
+    - gas
+    - krom
+    - dortn
+    - vu
+  - id: u09-review-02
+    type: translate
+    direction: to_source
+    prompt: וווּ איז די שול?
+    answers:
+    - איפה בית הכנסת
+    lexemes: *id001
+  - id: u09-review-03
+    type: translate
+    direction: to_target
+    prompt: איפה בית הכנסת
+    answers:
+    - וווּ איז די שול
+    lexemes: *id001
+  - id: u09-review-04
+    type: word_bank
+    prompt: איפה בית הכנסת
+    answers:
+    - וווּ איז די שול
+    distractors:
+    - קראָם
+    - שטאָט
+    lexemes: *id001
+  - id: u09-review-05
+    type: translate
+    direction: to_source
+    prompt: די שול איז דאָרטן.
+    answers:
+    - בית הכנסת שם
+    lexemes: *id002
+  - id: u09-review-06
+    type: translate
+    direction: to_target
+    prompt: בית הכנסת שם
+    answers:
+    - די שול איז דאָרטן
+    lexemes: *id002
+  - id: u09-review-07
+    type: word_bank
+    prompt: בית הכנסת שם
+    answers:
+    - די שול איז דאָרטן
+    distractors:
+    - דאָרטן
+    - וווּ
+    lexemes: *id002
+  - id: u09-review-08
+    type: translate
+    direction: to_source
+    prompt: דאָס איז אַ קראָם.
+    answers:
+    - זו חנות
+    lexemes: *id003
+  - id: u09-review-09
+    type: translate
+    direction: to_target
+    prompt: זו חנות
+    answers:
+    - דאָס איז אַ קראָם
+    lexemes: *id003
+  - id: u09-review-10
+    type: word_bank
+    prompt: זו חנות
+    answers:
+    - דאָס איז אַ קראָם
+    distractors:
+    - קראָם
+    - דאָרטן
+    lexemes: *id003
+  - id: u09-review-11
+    type: translate
+    direction: to_source
+    prompt: איך גיי אין קראָם.
+    answers:
+    - אני הולך לחנות
+    lexemes: *id004
+  - id: u09-review-12
+    type: translate
+    direction: to_target
+    prompt: אני הולך לחנות
+    answers:
+    - איך גיי אין קראָם
+    lexemes: *id004
+  - id: u09-review-13
+    type: word_bank
+    prompt: אני הולך לחנות
+    answers:
+    - איך גיי אין קראָם
+    distractors:
+    - גאַס
+    - דאָרטן
+    lexemes: *id004
+- id: a1-test
+  kind: test
+  title:
+    he: מבחן רמה A1
+    en: A1 level test
+  exercises:
+  - id: a1-test-01
+    type: fill_blank
+    sentence: איך ___ מנחם.
+    translation: קוראים לי מנחם
+    answers:
+    - הייס
+    options:
+    - הייס
+    - איז
+    - גוט
+    lexemes: &id007
+    - heysn
+  - id: a1-test-02
+    type: translate
+    direction: to_source
+    prompt: איך הייס מנחם.
+    answers:
+    - קוראים לי מנחם
+    lexemes: *id007
+  - id: a1-test-03
+    type: fill_blank
+    sentence: איך בין ___ ישראל.
+    translation: אני מישראל
+    answers:
+    - פֿון
+    options:
+    - פֿון
+    - דאָרטן
+    - טיש
+    lexemes: &id008
+    - bin
+    - fun
+    - yisroel
+  - id: a1-test-04
+    type: translate
+    direction: to_source
+    prompt: איך בין פֿון ישראל.
+    answers:
+    - אני מישראל
+    lexemes: *id008
+  - id: a1-test-05
+    type: translate
+    direction: to_source
+    prompt: דאָס איז מײַן זיידע.
+    answers:
+    - זה סבא שלי
+    lexemes:
+    - zeyde
+    - iz
+    - w-mayn
+  - id: a1-test-06
+    type: fill_blank
+    sentence: איך ___ צוויי ברידער.
+    translation: יש לי שני אחים
+    answers:
+    - האָב
+    options:
+    - האָב
+    - איין
+    - בין
+    lexemes: &id009
+    - hobn
+    - brider
+    - w-tsvey
+  - id: a1-test-07
+    type: translate
+    direction: to_source
+    prompt: איך האָב צוויי ברידער.
+    answers:
+    - יש לי שני אחים
+    lexemes: *id009
+  - id: a1-test-08
+    type: fill_blank
+    sentence: איך האָב ___ שוועסטער.
+    translation: יש לי אחות אחת
+    answers:
+    - איין
+    options:
+    - איין
+    - בין
+    - ברויט
+    lexemes: &id010
+    - hobn
+    - ayn
+    - shvester
+  - id: a1-test-09
+    type: translate
+    direction: to_source
+    prompt: איך האָב איין שוועסטער.
+    answers:
+    - יש לי אחות אחת
+    lexemes: *id010
+  - id: a1-test-10
+    type: fill_blank
+    sentence: איך ___ וואַסער.
+    translation: אני שותה מים
+    answers:
+    - טרינק
+    options:
+    - טרינק
+    - וויל
+    - גוט
+    lexemes: &id011
+    - trinken
+    - vaser
+  - id: a1-test-11
+    type: translate
+    direction: to_source
+    prompt: איך טרינק וואַסער.
+    answers:
+    - אני שותה מים
+    lexemes: *id011
+  - id: a1-test-12
+    type: fill_blank
+    sentence: איך ___ ברויט.
+    translation: אני רוצה לחם
+    answers:
+    - וויל
+    options:
+    - וויל
+    - מיר
+    - וווּ
+    lexemes: &id012
+    - vil
+    - w-breyt
+  - id: a1-test-13
+    type: translate
+    direction: to_source
+    prompt: איך וויל ברויט.
+    answers:
+    - אני רוצה לחם
+    lexemes: *id012
+  - id: a1-test-14
+    type: fill_blank
+    sentence: מיר ___ בײַם טיש.
+    translation: אנחנו יושבים ליד השולחן
+    answers:
+    - זיצן
+    options:
+    - זיצן
+    - גיי
+    - נעכטן
+    lexemes: &id013
+    - mir
+    - zitsn
+    - tish
+  - id: a1-test-15
+    type: translate
+    direction: to_source
+    prompt: מיר זיצן בײַם טיש.
+    answers:
+    - אנחנו יושבים ליד השולחן
+    lexemes: *id013
+  - id: a1-test-16
+    type: fill_blank
+    sentence: אין די ___ איז דאָ אַ טיש.
+    translation: במטבח יש שולחן
+    answers:
+    - קיך
+    options:
+    - קיך
+    - גוט
+    - איך
+    lexemes: &id014
+    - in
+    - kikh
+    - do
+    - tish
+  - id: a1-test-17
+    type: translate
+    direction: to_source
+    prompt: אין די קיך איז דאָ אַ טיש.
+    answers:
+    - במטבח יש שולחן
+    lexemes: *id014
+  - id: a1-test-18
+    type: fill_blank
+    sentence: איך ___ אין שול.
+    translation: אני הולך לבית הכנסת
+    answers:
+    - גיי
+    options:
+    - גיי
+    - בין
+    - האָב
+    lexemes: &id015
+    - ikh
+    - geyn
+    - in
+    - shul
+  - id: a1-test-19
+    type: translate
+    direction: to_source
+    prompt: איך גיי אין שול.
+    answers:
+    - אני הולך לבית הכנסת
+    lexemes: *id015
+  - id: a1-test-20
+    type: fill_blank
+    sentence: איך ___ בײַ נאַכט.
+    translation: אני ישן בלילה
+    answers:
+    - שלאָף
+    options:
+    - שלאָף
+    - שבת
+    - איז
+    lexemes: &id016
+    - ikh
+    - shlofn
+    - nakht
+  - id: a1-test-21
+    type: translate
+    direction: to_source
+    prompt: איך שלאָף בײַ נאַכט.
+    answers:
+    - אני ישן בלילה
+    lexemes: *id016
+  - id: a1-test-22
+    type: translate
+    direction: to_source
+    prompt: הײַנט איז פֿרײַטיק.
+    answers:
+    - היום יום שישי
+    lexemes: &id018
+    - haynt
+    - iz
+    - fraytik
+  - id: a1-test-23
+    type: fill_blank
+    sentence: ___ איז די שול?
+    translation: איפה בית הכנסת
+    answers:
+    - וווּ
+    options:
+    - וווּ
+    - קיך
+    - בין
+    lexemes: &id017
+    - vu
+    - iz
+    - shul
+  - id: a1-test-24
+    type: translate
+    direction: to_source
+    prompt: וווּ איז די שול?
+    answers:
+    - איפה בית הכנסת
+    lexemes: *id017
+  - id: a1-test-25
+    type: translate
+    direction: to_target
+    prompt: יש לי שני אחים
+    answers:
+    - איך האָב צוויי ברידער
+    lexemes: *id009
+  - id: a1-test-26
+    type: word_bank
+    prompt: אני שותה מים
+    answers:
+    - איך טרינק וואַסער
+    distractors:
+    - וויל
+    - גוט
+    lexemes: *id011
+  - id: a1-test-27
+    type: translate
+    direction: to_target
+    prompt: אני הולך לבית הכנסת
+    answers:
+    - איך גיי אין שול
+    lexemes: *id015
+  - id: a1-test-28
+    type: word_bank
+    prompt: היום יום שישי
+    answers:
+    - הײַנט איז פֿרײַטיק
+    distractors:
+    - וויל
+    - טיש
+    lexemes: *id018
+  - id: a1-test-29
+    type: multiple_choice
+    prompt: איך אומרים 'תודה'?
+    options:
+    - אַ דאַנק
+    - ביטע
+    - זײַ געזונט
+    correct: 0
+    lexemes:
+    - dank
+  - id: a1-test-30
+    type: multiple_choice
+    prompt: מה פירוש 'ווי גייט עס?'
+    options:
+    - מה שלומך?
+    - מה השעה?
+    - איפה זה?
+    correct: 0
+    lexemes:
+    - vi
+    - geyt
+    - es
+  - id: a1-test-31
+    type: multiple_choice
+    prompt: איך אומרים 'שבת שלום'?
+    options:
+    - גוט שבת
+    - שלום־עליכם
+    - זײַ געזונט
+    correct: 0
+    lexemes:
+    - shabes2

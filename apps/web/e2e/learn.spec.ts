@@ -258,7 +258,7 @@ test("Yiddish can be started from zero", async ({ page }) => {
   await expect(page).toHaveURL(/\/lesson\/yi-for-he\/u00a-l1\/$/);
 });
 
-for (const id of ["u00a-l1", "u00a-review", "u00b-l1", "u00b-l2", "u00b-l3", "u00b-review", "u00c-l1", "u00c-l2", "u00c-review", "u01-l1", "u01-l2", "u01-review", "u02-l1", "u02-l2", "u02-review", "u03-l1", "u03-l2", "u03-l3", "u03-review", "u04-l1", "u04-l2", "u04-review", "u05-l1", "u05-l2", "u05-review"]) {
+for (const id of ["u00a-l1", "u00a-review", "u00b-l1", "u00b-l2", "u00b-l3", "u00b-review", "u00c-l1", "u00c-l2", "u00c-review", "u01-l1", "u01-l2", "u01-review", "u02-l1", "u02-l2", "u02-review", "u03-l1", "u03-l2", "u03-l3", "u03-review", "u04-l1", "u04-l2", "u04-review", "u05-l1", "u05-l2", "u05-review", "u06-l1", "u06-l2", "u06-review", "u07-l1", "u07-l2", "u07-review", "u08-l1", "u08-l2", "u08-review", "u09-l1", "u09-review", "a1-test"]) {
   test(`Yiddish lesson ${id} can be solved from the content`, async ({ page }) => {
     await page.goto(`lesson/yi-for-he/${id}/`);
     await finishLesson(page);
