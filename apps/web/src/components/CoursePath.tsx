@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { Fragment, useState } from "react";
 import { type UnitPack } from "@/lib/content";
-import { languageName } from "@/lib/languages";
+import { courseName, languageName } from "@/lib/languages";
 import { levelInfo, levelRange } from "@/lib/levels";
 import { isCompleted, lessonOpen } from "@/lib/progress";
 import { useLearner } from "@/lib/store";
@@ -47,7 +47,7 @@ export function CoursePath({
             {levelRange(manifest, manifest.units.map((u) => u.cefr))}
           </p>
           <h1 className="text-3xl font-bold">
-            {languageName(manifest.target)}
+            {courseName(manifest)}
           </h1>
         </div>
         <Ring value={all.length ? doneAll / all.length : 0} size={64}>
