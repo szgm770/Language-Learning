@@ -1,0 +1,723 @@
+id: u09-chilkiyah
+cefr: A2
+scene: study
+title:
+  he: אבא חלקיה
+  en: Abba Chilkiyah
+story: הנכד של חוני, אבא חלקיה, עובד בשדה כשחכמים באים לבקש ממנו להתפלל על גשם. בכל דבר מוזר שהוא עושה יש טעם. ר׳ ישראל מספר שגם סבא היה ״שכיר יום״ אחרי המלחמה.
+canDo:
+- 'להבין פעלים בהווה ובגוף ראשון: ידענא, חזינא, אמינא, הואי'
+- להבין ״בעי רחמי״, ״יהבו ליה שלמא״
+- 'לקרוא סיפור של שאלות ותשובות: ״מאי טעמא… אמר להו…״'
+vocabulary:
+- id: mitra
+  text: מיטרא
+  translation: גשם
+  pos: noun
+  example:
+    text: וכי מצטריך עלמא למיטרא הוו משדרי רבנן לגביה ובעי רחמי ואתי מיטרא
+    translation: וכשהעולם היה צריך גשם, היו חכמים שולחים אליו, והוא ביקש רחמים, ובא גשם
+    source: בבלי, תענית כג ע״א
+    vocalized: וְכִי מִצְטְרִיךְ עָלְמָא לְמִיטְרָא הֲווֹ מְשַׁדְּרִי רַבָּנַן לְגַבֵּיהּ וּבָעֵי רַחֲמֵי, וְאָתֵי מִיטְרָא
+- id: legabeih
+  text: לגביה
+  translation: אליו
+  pos: preposition
+  example:
+    text: וכי מצטריך עלמא למיטרא הוו משדרי רבנן לגביה ובעי רחמי ואתי מיטרא
+    translation: וכשהעולם היה צריך גשם, היו חכמים שולחים אליו, והוא ביקש רחמים, ובא גשם
+    source: בבלי, תענית כג ע״א
+    vocalized: וְכִי מִצְטְרִיךְ עָלְמָא לְמִיטְרָא הֲווֹ מְשַׁדְּרִי רַבָּנַן לְגַבֵּיהּ וּבָעֵי רַחֲמֵי, וְאָתֵי מִיטְרָא
+- id: bai-rachmei
+  text: בעי רחמי
+  translation: ביקש רחמים, התפלל
+  pos: phrase
+  example:
+    text: וכי מצטריך עלמא למיטרא הוו משדרי רבנן לגביה ובעי רחמי ואתי מיטרא
+    translation: וכשהעולם היה צריך גשם, היו חכמים שולחים אליו, והוא ביקש רחמים, ובא גשם
+    source: בבלי, תענית כג ע״א
+    vocalized: וְכִי מִצְטְרִיךְ עָלְמָא לְמִיטְרָא הֲווֹ מְשַׁדְּרִי רַבָּנַן לְגַבֵּיהּ וּבָעֵי רַחֲמֵי, וְאָתֵי מִיטְרָא
+- id: alma
+  text: עלמא
+  translation: עולם; ״כולי עלמא״ = כולם
+  pos: noun
+  example:
+    text: וכי מצטריך עלמא למיטרא הוו משדרי רבנן לגביה ובעי רחמי ואתי מיטרא
+    translation: וכשהעולם היה צריך גשם, היו חכמים שולחים אליו, והוא ביקש רחמים, ובא גשם
+    source: בבלי, תענית כג ע״א
+    vocalized: וְכִי מִצְטְרִיךְ עָלְמָא לְמִיטְרָא הֲווֹ מְשַׁדְּרִי רַבָּנַן לְגַבֵּיהּ וּבָעֵי רַחֲמֵי, וְאָתֵי מִיטְרָא
+- id: ashkechuhu
+  text: אשכחוהו
+  translation: מצאו אותו
+  pos: verb
+  example:
+    text: אזול לביתיה ולא אשכחוהו אזול בדברא ואשכחוהו דהוה קא רפיק
+    translation: הלכו לביתו ולא מצאו אותו. הלכו לשדה, ומצאו אותו כשהוא עודר
+    source: בבלי, תענית כג ע״א
+- id: shlama
+  text: שלמא
+  translation: שלום
+  pos: noun
+  example:
+    text: יהבו ליה שלמא
+    translation: נתנו לו שלום (בירכו אותו לשלום)
+    source: בבלי, תענית כג ע״א
+    vocalized: יְהַבוּ לֵיהּ שְׁלָמָא
+- id: devitehu
+  text: דביתהו
+  translation: אשתו
+  pos: noun
+  example:
+    text: אמר לה לדביתהו ידענא דרבנן משום מיטרא קא אתו
+    translation: 'אמר לאשתו: אני יודע שהחכמים באים בגלל הגשם'
+    source: בבלי, תענית כג ע״ב
+    vocalized: 'אֲמַר לַהּ לִדְבֵיתְהוּ: יָדַעְנָא דְּרַבָּנַן מִשּׁוּם מִיטְרָא קָא אָתוּ'
+- id: yadana
+  text: ידענא
+  translation: אני יודע
+  pos: verb
+  example:
+    text: אמר לה לדביתהו ידענא דרבנן משום מיטרא קא אתו
+    translation: 'אמר לאשתו: אני יודע שהחכמים באים בגלל הגשם'
+    source: בבלי, תענית כג ע״ב
+    vocalized: 'אֲמַר לַהּ לִדְבֵיתְהוּ: יָדַעְנָא דְּרַבָּנַן מִשּׁוּם מִיטְרָא קָא אָתוּ'
+- id: havai
+  text: הואי
+  translation: הייתי
+  pos: verb
+  example:
+    text: אמר להו שכיר יום הואי ואמינא לא איפגר
+    translation: 'אמר להם: שכיר יום הייתי, ואמרתי (לעצמי): לא אתבטל (מהעבודה)'
+    source: בבלי, תענית כג ע״ב
+    vocalized: 'אֲמַר לְהוּ: שְׂכִיר יוֹם הֲוַאי, וְאָמֵינָא: לָא אֶיפַּגַּר'
+- id: amina
+  text: אמינא
+  translation: אני אומר; אמרתי (לעצמי)
+  pos: verb
+  example:
+    text: אמר להו שכיר יום הואי ואמינא לא איפגר
+    translation: 'אמר להם: שכיר יום הייתי, ואמרתי (לעצמי): לא אתבטל (מהעבודה)'
+    source: בבלי, תענית כג ע״ב
+    vocalized: 'אֲמַר לְהוּ: שְׂכִיר יוֹם הֲוַאי, וְאָמֵינָא: לָא אֶיפַּגַּר'
+- id: chazina
+  text: חזינא
+  translation: אני רואה
+  pos: verb
+  example:
+    text: אמר להו כולה אורחא חזינא במיא לא קא חזינא
+    translation: 'אמר להם: בכל הדרך אני רואה (היכן אני דורך); במים איני רואה'
+    source: בבלי, תענית כג ע״ב
+    vocalized: 'אֲמַר לְהוּ: כּוּלַּהּ אוֹרְחָא חָזֵינָא, בְּמַיָּא לָא קָא חָזֵינָא'
+- id: beita
+  text: ביתא
+  translation: בית
+  pos: noun
+  example:
+    text: אמר להו האי קאי בביתא והאי יתיב בבי כנישתא
+    translation: 'אמר להם: זה (הגדול) נמצא בבית, וזה (הקטן) יושב בבית הכנסת (ולומד)'
+    source: בבלי, תענית כג ע״ב
+    vocalized: 'אֲמַר לְהוּ: הַאי קָאֵי בְּבֵיתָא, וְהַאי יָתֵיב בְּבֵי כְנִישְׁתָּא'
+- id: kashisha
+  text: קשישא
+  translation: הגדול, המבוגר
+  pos: adjective
+  example:
+    text: פלג ריפתא לינוקי לקשישא חדא ולזוטרא תרי
+    translation: 'חילק לחם לילדים: לגדול אחת, ולקטן שתיים'
+    source: בבלי, תענית כג ע״ב
+    vocalized: פְּלַג רִיפְתָּא לְיָנוֹקֵי, לְקַשִּׁישָׁא חֲדָא, וּלְזוּטְרָא תְּרֵי
+- id: zutra
+  text: זוטרא
+  translation: הקטן, הצעיר
+  pos: adjective
+  example:
+    text: פלג ריפתא לינוקי לקשישא חדא ולזוטרא תרי
+    translation: 'חילק לחם לילדים: לגדול אחת, ולקטן שתיים'
+    source: בבלי, תענית כג ע״ב
+    vocalized: פְּלַג רִיפְתָּא לְיָנוֹקֵי, לְקַשִּׁישָׁא חֲדָא, וּלְזוּטְרָא תְּרֵי
+grammar: []
+lessons:
+- id: u09-l1
+  kind: new
+  title:
+    he: שדרו רבנן
+    en: The sages sent
+  exercises:
+  - id: u09-l1-01
+    type: dialogue
+    scene: שמונה בבוקר, כמו שסיכמו. איתן מגיע לר׳ ישראל עם שתי כוסות קפה.
+    lines:
+    - speaker: yisrael
+      text: ״אבא חלקיה בר בריה דחוני המעגל הוה״. כשהעולם היה צריך גשם, שלחו אליו חכמים.
+      translation: אבא חלקיה
+    - speaker: yisrael
+      text: הם הלכו לביתו, ״ולא אשכחוהו״. הלכו לשדה, ״ואשכחוהו״, מצאו אותו עובד.
+      translation: אשכחוהו = מצאו אותו
+    - speaker: eitan
+      text: ״יהבו ליה שלמא״, ברכו אותו לשלום. והוא?
+      translation: שלמא
+    - speaker: yisrael
+      text: 'הוא אפילו לא הסתכל עליהם. תחזיק את השאלה הזאת: מאי טעמא?'
+      translation: השאלה
+  - id: u09-l1-02
+    type: learn
+    lexeme: mitra
+  - id: u09-l1-03
+    type: learn
+    lexeme: legabeih
+  - id: u09-l1-04
+    type: learn
+    lexeme: bai-rachmei
+  - id: u09-l1-05
+    type: learn
+    lexeme: alma
+  - id: u09-l1-06
+    type: learn
+    lexeme: ashkechuhu
+  - id: u09-l1-07
+    type: learn
+    lexeme: shlama
+  - id: u09-l1-08
+    type: match_pairs
+    pairs:
+    - - מיטרא
+      - גשם
+    - - לגביה
+      - אליו
+    - - בעי רחמי
+      - ביקש רחמים, התפלל
+    - - עלמא
+      - עולם; ״כולי עלמא״ = כולם
+    - - אשכחוהו
+      - מצאו אותו
+    - - שלמא
+      - שלום
+    lexemes:
+    - mitra
+    - legabeih
+    - bai-rachmei
+    - alma
+    - ashkechuhu
+    - shlama
+  - id: u09-l1-09
+    type: multiple_choice
+    prompt: מה פירוש מיטרא?
+    options:
+    - גשם
+    - אליו
+    - בית
+    correct: 0
+    lexemes:
+    - mitra
+  - id: u09-l1-10
+    type: multiple_choice
+    prompt: מה פירוש לגביה?
+    options:
+    - אליו
+    - אני יודע
+    - שלום
+    correct: 0
+    lexemes:
+    - legabeih
+  - id: u09-l1-11
+    type: multiple_choice
+    prompt: מה פירוש בעי רחמי?
+    options:
+    - ביקש רחמים, התפלל
+    - בית
+    - הייתי
+    correct: 0
+    lexemes:
+    - bai-rachmei
+  - id: u09-l1-12
+    type: multiple_choice
+    prompt: מה פירוש עלמא?
+    options:
+    - עולם; ״כולי עלמא״ = כולם
+    - שלום
+    - גשם
+    correct: 0
+    lexemes:
+    - alma
+  - id: u09-l1-13
+    type: multiple_choice
+    prompt: מה פירוש אשכחוהו?
+    options:
+    - מצאו אותו
+    - אני אומר; אמרתי (לעצמי)
+    - אני רואה
+    correct: 0
+    lexemes:
+    - ashkechuhu
+  - id: u09-l1-14
+    type: multiple_choice
+    prompt: מה פירוש שלמא?
+    options:
+    - שלום
+    - גשם
+    - אני רואה
+    correct: 0
+    lexemes:
+    - shlama
+  - id: u09-l1-15
+    type: fill_blank
+    sentence: וכי מצטריך עלמא למיטרא הוו משדרי רבנן לגביה ובעי רחמי ואתי ___
+    translation: וכשהעולם היה צריך גשם, היו חכמים שולחים אליו, והוא ביקש רחמים, ובא גשם
+    answers:
+    - מיטרא
+    options:
+    - מיטרא
+    - דביתהו
+    - שלמא
+    lexemes:
+    - mitra
+    source: בבלי, תענית כג ע״א
+    vocalized: וְכִי מִצְטְרִיךְ עָלְמָא לְמִיטְרָא הֲווֹ מְשַׁדְּרִי רַבָּנַן לְגַבֵּיהּ וּבָעֵי רַחֲמֵי, וְאָתֵי מִיטְרָא
+  - id: u09-l1-16
+    type: fill_blank
+    sentence: וכי מצטריך עלמא למיטרא הוו משדרי רבנן ___ ובעי רחמי ואתי מיטרא
+    translation: וכשהעולם היה צריך גשם, היו חכמים שולחים אליו, והוא ביקש רחמים, ובא גשם
+    answers:
+    - לגביה
+    options:
+    - לגביה
+    - זוטרא
+    - הואי
+    lexemes:
+    - legabeih
+    source: בבלי, תענית כג ע״א
+    vocalized: וְכִי מִצְטְרִיךְ עָלְמָא לְמִיטְרָא הֲווֹ מְשַׁדְּרִי רַבָּנַן לְגַבֵּיהּ וּבָעֵי רַחֲמֵי, וְאָתֵי מִיטְרָא
+  - id: u09-l1-17
+    type: fill_blank
+    sentence: וכי מצטריך עלמא למיטרא הוו משדרי רבנן לגביה ___ רחמי ואתי מיטרא
+    translation: וכשהעולם היה צריך גשם, היו חכמים שולחים אליו, והוא ביקש רחמים, ובא גשם
+    answers:
+    - ובעי
+    options:
+    - ובעי
+    - הואי
+    - אשכחוהו
+    lexemes:
+    - bai-rachmei
+    source: בבלי, תענית כג ע״א
+    vocalized: וְכִי מִצְטְרִיךְ עָלְמָא לְמִיטְרָא הֲווֹ מְשַׁדְּרִי רַבָּנַן לְגַבֵּיהּ וּבָעֵי רַחֲמֵי, וְאָתֵי מִיטְרָא
+  - id: u09-l1-18
+    type: fill_blank
+    sentence: וכי מצטריך ___ למיטרא הוו משדרי רבנן לגביה ובעי רחמי ואתי מיטרא
+    translation: וכשהעולם היה צריך גשם, היו חכמים שולחים אליו, והוא ביקש רחמים, ובא גשם
+    answers:
+    - עלמא
+    options:
+    - עלמא
+    - דביתהו
+    - קשישא
+    lexemes:
+    - alma
+    source: בבלי, תענית כג ע״א
+    vocalized: וְכִי מִצְטְרִיךְ עָלְמָא לְמִיטְרָא הֲווֹ מְשַׁדְּרִי רַבָּנַן לְגַבֵּיהּ וּבָעֵי רַחֲמֵי, וְאָתֵי מִיטְרָא
+  - id: u09-l1-19
+    type: fill_blank
+    sentence: אזול לביתיה ולא ___ אזול בדברא ואשכחוהו דהוה קא רפיק
+    translation: הלכו לביתו ולא מצאו אותו. הלכו לשדה, ומצאו אותו כשהוא עודר
+    answers:
+    - אשכחוהו
+    options:
+    - אשכחוהו
+    - שלמא
+    - בעי רחמי
+    lexemes:
+    - ashkechuhu
+    source: בבלי, תענית כג ע״א
+  - id: u09-l1-20
+    type: fill_blank
+    sentence: יהבו ליה ___
+    translation: נתנו לו שלום (בירכו אותו לשלום)
+    answers:
+    - שלמא
+    options:
+    - שלמא
+    - הואי
+    - חזינא
+    lexemes:
+    - shlama
+    source: בבלי, תענית כג ע״א
+    vocalized: יְהַבוּ לֵיהּ שְׁלָמָא
+- id: u09-l2
+  kind: new
+  title:
+    he: ידענא
+    en: I know
+  exercises:
+  - id: u09-l2-21
+    type: tip
+    title: 'אני: ־נא'
+    text: 'פעל בגוף ראשון בהווה מסתיים לרוב ב**־נא**: **ידענא** = אני יודע. **חזינא** = אני רואה. **אמינא** = אני אומר.
+
+
+      בעבר: **הואי** = הייתי.
+
+
+      **דביתהו** = אשתו (״בת ביתו״).'
+  - id: u09-l2-22
+    type: dialogue
+    scene: ר׳ ישראל ממשיך.
+    lines:
+    - speaker: yisrael
+      text: 'חכמים שאלו: ״מאי טעמא כי יהיבנא למר שלמא לא אסבר לן מר אפיה?״ למה לא ענית לנו?'
+      translation: השאלה של החכמים
+    - speaker: yisrael
+      text: 'והוא ענה: ״שכיר יום הואי״, הייתי שכיר יום, ולא רציתי להתבטל מהעבודה של מי ששכר אותי.'
+      translation: התשובה
+    - speaker: eitan
+      text: כמו סבא. הוא סיפר שאחרי המלחמה עבד בבניין, ולמד רק בלילות.
+      translation: איתן מקשר
+  - id: u09-l2-23
+    type: learn
+    lexeme: devitehu
+  - id: u09-l2-24
+    type: learn
+    lexeme: yadana
+  - id: u09-l2-25
+    type: learn
+    lexeme: havai
+  - id: u09-l2-26
+    type: learn
+    lexeme: amina
+  - id: u09-l2-27
+    type: learn
+    lexeme: chazina
+  - id: u09-l2-28
+    type: match_pairs
+    pairs:
+    - - דביתהו
+      - אשתו
+    - - ידענא
+      - אני יודע
+    - - הואי
+      - הייתי
+    - - אמינא
+      - אני אומר; אמרתי (לעצמי)
+    - - חזינא
+      - אני רואה
+    lexemes:
+    - devitehu
+    - yadana
+    - havai
+    - amina
+    - chazina
+  - id: u09-l2-29
+    type: multiple_choice
+    prompt: מה פירוש דביתהו?
+    options:
+    - אשתו
+    - אני אומר; אמרתי (לעצמי)
+    - אני יודע
+    correct: 0
+    lexemes:
+    - devitehu
+  - id: u09-l2-30
+    type: multiple_choice
+    prompt: מה פירוש ידענא?
+    options:
+    - אני יודע
+    - אליו
+    - אני רואה
+    correct: 0
+    lexemes:
+    - yadana
+  - id: u09-l2-31
+    type: multiple_choice
+    prompt: מה פירוש הואי?
+    options:
+    - הייתי
+    - הקטן, הצעיר
+    - אני אומר; אמרתי (לעצמי)
+    correct: 0
+    lexemes:
+    - havai
+  - id: u09-l2-32
+    type: multiple_choice
+    prompt: מה פירוש אמינא?
+    options:
+    - אני אומר; אמרתי (לעצמי)
+    - מצאו אותו
+    - שלום
+    correct: 0
+    lexemes:
+    - amina
+  - id: u09-l2-33
+    type: multiple_choice
+    prompt: מה פירוש חזינא?
+    options:
+    - אני רואה
+    - הקטן, הצעיר
+    - גשם
+    correct: 0
+    lexemes:
+    - chazina
+  - id: u09-l2-34
+    type: fill_blank
+    sentence: אמר לה לדביתהו ___ דרבנן משום מיטרא קא אתו
+    translation: 'אמר לאשתו: אני יודע שהחכמים באים בגלל הגשם'
+    answers:
+    - ידענא
+    options:
+    - ידענא
+    - קשישא
+    - חזינא
+    lexemes:
+    - yadana
+    source: בבלי, תענית כג ע״ב
+    vocalized: 'אֲמַר לַהּ לִדְבֵיתְהוּ: יָדַעְנָא דְּרַבָּנַן מִשּׁוּם מִיטְרָא קָא אָתוּ'
+  - id: u09-l2-35
+    type: fill_blank
+    sentence: אמר להו שכיר יום ___ ואמינא לא איפגר
+    translation: 'אמר להם: שכיר יום הייתי, ואמרתי (לעצמי): לא אתבטל (מהעבודה)'
+    answers:
+    - הואי
+    options:
+    - הואי
+    - אשכחוהו
+    - זוטרא
+    lexemes:
+    - havai
+    source: בבלי, תענית כג ע״ב
+    vocalized: 'אֲמַר לְהוּ: שְׂכִיר יוֹם הֲוַאי, וְאָמֵינָא: לָא אֶיפַּגַּר'
+  - id: u09-l2-36
+    type: fill_blank
+    sentence: אמר להו שכיר יום הואי ___ לא איפגר
+    translation: 'אמר להם: שכיר יום הייתי, ואמרתי (לעצמי): לא אתבטל (מהעבודה)'
+    answers:
+    - ואמינא
+    options:
+    - ואמינא
+    - הואי
+    - ביתא
+    lexemes:
+    - amina
+    source: בבלי, תענית כג ע״ב
+    vocalized: 'אֲמַר לְהוּ: שְׂכִיר יוֹם הֲוַאי, וְאָמֵינָא: לָא אֶיפַּגַּר'
+  - id: u09-l2-37
+    type: fill_blank
+    sentence: אמר להו כולה אורחא ___ במיא לא קא חזינא
+    translation: 'אמר להם: בכל הדרך אני רואה (היכן אני דורך); במים איני רואה'
+    answers:
+    - חזינא
+    options:
+    - חזינא
+    - לגביה
+    - קשישא
+    lexemes:
+    - chazina
+    source: בבלי, תענית כג ע״ב
+    vocalized: 'אֲמַר לְהוּ: כּוּלַּהּ אוֹרְחָא חָזֵינָא, בְּמַיָּא לָא קָא חָזֵינָא'
+- id: u09-l3
+  kind: new
+  title:
+    he: קשישא וזוטרא
+    en: The older and the younger
+  exercises:
+  - id: u09-l3-38
+    type: dialogue
+    scene: ר׳ ישראל מחייך פתאום.
+    lines:
+    - speaker: yisrael
+      text: אבא חלקיה נתן לבן הגדול לחם אחד, ולקטן שניים. ״האי קאי בביתא, והאי יתיב בבי כנישתא״.
+      translation: קשישא וזוטרא
+    - speaker: yisrael
+      text: במתבן סבא שלך עשה בדיוק אותו דבר. לי, הזוטרא, הוא נתן תמיד את החתיכה הגדולה.
+      translation: זיכרון
+  - id: u09-l3-39
+    type: learn
+    lexeme: beita
+  - id: u09-l3-40
+    type: learn
+    lexeme: kashisha
+  - id: u09-l3-41
+    type: learn
+    lexeme: zutra
+  - id: u09-l3-42
+    type: match_pairs
+    pairs:
+    - - ביתא
+      - בית
+    - - קשישא
+      - הגדול, המבוגר
+    - - זוטרא
+      - הקטן, הצעיר
+    lexemes:
+    - beita
+    - kashisha
+    - zutra
+  - id: u09-l3-43
+    type: multiple_choice
+    prompt: מה פירוש ביתא?
+    options:
+    - בית
+    - גשם
+    - אני רואה
+    correct: 0
+    lexemes:
+    - beita
+  - id: u09-l3-44
+    type: multiple_choice
+    prompt: מה פירוש קשישא?
+    options:
+    - הגדול, המבוגר
+    - אני אומר; אמרתי (לעצמי)
+    - אליו
+    correct: 0
+    lexemes:
+    - kashisha
+  - id: u09-l3-45
+    type: multiple_choice
+    prompt: מה פירוש זוטרא?
+    options:
+    - הקטן, הצעיר
+    - עולם; ״כולי עלמא״ = כולם
+    - אליו
+    correct: 0
+    lexemes:
+    - zutra
+  - id: u09-l3-46
+    type: fill_blank
+    sentence: אמר להו האי קאי ___ והאי יתיב בבי כנישתא
+    translation: 'אמר להם: זה (הגדול) נמצא בבית, וזה (הקטן) יושב בבית הכנסת (ולומד)'
+    answers:
+    - בביתא
+    options:
+    - בביתא
+    - מיטרא
+    - חזינא
+    lexemes:
+    - beita
+    source: בבלי, תענית כג ע״ב
+    vocalized: 'אֲמַר לְהוּ: הַאי קָאֵי בְּבֵיתָא, וְהַאי יָתֵיב בְּבֵי כְנִישְׁתָּא'
+  - id: u09-l3-47
+    type: fill_blank
+    sentence: פלג ריפתא לינוקי ___ חדא ולזוטרא תרי
+    translation: 'חילק לחם לילדים: לגדול אחת, ולקטן שתיים'
+    answers:
+    - לקשישא
+    options:
+    - לקשישא
+    - זוטרא
+    - אמינא
+    lexemes:
+    - kashisha
+    source: בבלי, תענית כג ע״ב
+    vocalized: פְּלַג רִיפְתָּא לְיָנוֹקֵי, לְקַשִּׁישָׁא חֲדָא, וּלְזוּטְרָא תְּרֵי
+  - id: u09-l3-48
+    type: fill_blank
+    sentence: פלג ריפתא לינוקי לקשישא חדא ___ תרי
+    translation: 'חילק לחם לילדים: לגדול אחת, ולקטן שתיים'
+    answers:
+    - ולזוטרא
+    options:
+    - ולזוטרא
+    - חזינא
+    - מיטרא
+    lexemes:
+    - zutra
+    source: בבלי, תענית כג ע״ב
+    vocalized: פְּלַג רִיפְתָּא לְיָנוֹקֵי, לְקַשִּׁישָׁא חֲדָא, וּלְזוּטְרָא תְּרֵי
+- id: u09-l4
+  kind: review
+  title:
+    he: מאי טעמא?
+    en: What is the reason?
+  exercises:
+  - id: u09-l4-49
+    type: reading
+    kind: גמרא, תענית כג ע״א
+    title: החכמים מחפשים
+    text: 'אבא חלקיה בר בריה דחוני המעגל הוה
+
+
+      וכי מצטריך עלמא למיטרא הוו משדרי רבנן לגביה ובעי רחמי ואתי מיטרא'
+    translation: 'אבא חלקיה בן בנו של חוני המעגל היה.
+
+
+      וכשהעולם היה צריך גשם, היו חכמים שולחים אליו, והוא ביקש רחמים, ובא גשם.'
+    lexemes:
+    - bar-bereih
+    - mitra
+    - legabeih
+    - bai-rachmei
+    - alma
+    source: בבלי, תענית כג ע״א
+    vocalized: אַבָּא חִלְקִיָּה בַּר בְּרֵיהּ דְּחוֹנִי הַמְעַגֵּל הֲוָה, וְכִי מִצְטְרִיךְ עָלְמָא לְמִיטְרָא הֲווֹ מְשַׁדְּרִי רַבָּנַן לְגַבֵּיהּ וּבָעֵי רַחֲמֵי, וְאָתֵי מִיטְרָא
+  - id: u09-l4-50
+    type: multiple_choice
+    prompt: ״אמר להו שכיר יום הואי ואמינא לא איפגר״. למה אבא חלקיה לא הסתכל על החכמים כשבירכו אותו?
+    options:
+    - כי היה שכיר יום, ולא רצה להתבטל מהעבודה
+    - כי כעס עליהם
+    - כי לא שמע אותם
+    correct: 0
+    lexemes:
+    - havai
+    - amina
+    source: בבלי, תענית כג ע״ב
+    vocalized: 'אֲמַר לְהוּ: שְׂכִיר יוֹם הֲוַאי, וְאָמֵינָא: לָא אֶיפַּגַּר'
+  - id: u09-l4-51
+    type: multiple_choice
+    passage: אמר להו האי קאי בביתא והאי יתיב בבי כנישתא
+    prompt: למה הקטן קיבל שני לחמים והגדול אחד?
+    options:
+    - כי הגדול בבית, והקטן לומד בבית הכנסת
+    - כי הקטן רעב יותר
+    - כי הגדול לא רצה
+    correct: 0
+    lexemes:
+    - beita
+    - kashisha
+    - zutra
+    source: בבלי, תענית כג ע״ב
+    vocalized: 'אֲמַר לְהוּ: הַאי קָאֵי בְּבֵיתָא, וְהַאי יָתֵיב בְּבֵי כְנִישְׁתָּא'
+  - id: u09-l4-52
+    type: fill_blank
+    sentence: אמר לה לדביתהו ___ דרבנן משום מיטרא קא אתו
+    translation: 'אמר לאשתו: אני יודע שהחכמים באים בגלל הגשם'
+    answers:
+    - ידענא
+    options:
+    - ידענא
+    - חזינא
+    - אמינא
+    lexemes:
+    - yadana
+    source: בבלי, תענית כג ע״ב
+    vocalized: 'אֲמַר לַהּ לִדְבֵיתְהוּ: יָדַעְנָא דְּרַבָּנַן מִשּׁוּם מִיטְרָא קָא אָתוּ'
+  - id: u09-l4-53
+    type: dialogue
+    scene: בסוף השיעור.
+    lines:
+    - speaker: eitan
+      text: ומה אבא חלקיה ואשתו עשו אחר כך?
+      translation: שאלה
+    - speaker: yisrael
+      text: עלו לגג להתפלל. ״ניסק לאיגרא וניבעי רחמי״. זה כבר זמן עתיד. מחר.
+      translation: 'ההמשך: עתיד'
+  - id: u09-l4-54
+    type: match_pairs
+    pairs:
+    - - מיטרא
+      - גשם
+    - - שלמא
+      - שלום
+    - - ידענא
+      - אני יודע
+    - - חזינא
+      - אני רואה
+    - - קשישא
+      - הגדול, המבוגר
+    - - זוטרא
+      - הקטן, הצעיר
+    lexemes:
+    - mitra
+    - shlama
+    - yadana
+    - chazina
+    - kashisha
+    - zutra
