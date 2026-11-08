@@ -1,0 +1,656 @@
+id: z02-ila-tata
+cefr: A2
+scene: study
+title:
+  he: לעילא ולתתא
+  en: Above and below
+story: 'במירון, ליד המדורה. ר׳ ישראל מסביר את מילות המקום של הזוהר: למעלה ולמטה, צד ימין וצד שמאל, דרגות והיכלות.'
+canDo:
+- להבין עלאה, לעילא, לתתא, תתאה
+- להבין סטרא, סטרא אחרא, ימינא, שמאלא
+- להבין דרגא, היכלא, אתר
+vocabulary:
+- id: ilaa
+  text: עלאה
+  translation: עליון
+  pos: adjective
+  example:
+    text: שכן ארץ ארץ עלאה
+    translation: '׳שכן ארץ׳: ארץ עליונה'
+    source: זוהר, פרשת בהר
+- id: letata
+  text: לתתא
+  translation: למטה
+  pos: adverb
+  example:
+    text: ליה לתתא ליה לעילא
+    translation: לו למטה, לו למעלה
+    source: זוהר, פרשת בלק
+- id: leeila
+  text: לעילא
+  translation: למעלה
+  pos: adverb
+  example:
+    text: ליה לתתא ליה לעילא
+    translation: לו למטה, לו למעלה
+    source: זוהר, פרשת בלק
+- id: sitra
+  text: סטרא
+  translation: צד
+  pos: noun
+  example:
+    text: דא הוא סטרא דשמאלא
+    translation: זה הוא צד השמאל
+    source: זוהר, פרשת משפטים
+- id: smala
+  text: שמאלא
+  translation: שמאל
+  pos: noun
+  example:
+    text: דא הוא סטרא דשמאלא
+    translation: זה הוא צד השמאל
+    source: זוהר, פרשת משפטים
+- id: achra
+  text: אחרא
+  translation: אחר (״סטרא אחרא״ = הצד האחר, הרע)
+  pos: adjective
+  example:
+    text: בני ישראל ולא אחרא
+    translation: בני ישראל, ולא אחר
+    source: זוהר, פרשת כי תשא
+- id: darga
+  text: דרגא
+  translation: דרגה, מדרגה
+  pos: noun
+  example:
+    text: הוד ודא דרגא חמישאה
+    translation: הוד, וזו הדרגה החמישית
+    source: זוהר, פרשת בראשית
+- id: atar
+  text: אתר
+  translation: מקום
+  pos: noun
+  example:
+    text: חמיה באתר עלאה תלי
+    translation: חמיו (הקב״ה) תלוי במקום עליון
+    source: זוהר, פרשת אחרי מות
+- id: zf-mesitra
+  text: מסטרא
+  translation: מצד
+  pos: noun
+- id: zf-sitrin
+  text: סטרין
+  translation: צדדים
+  pos: noun
+- id: zf-tataa
+  text: תתאה
+  translation: תחתון
+  pos: noun
+- id: zf-heichla
+  text: היכלא
+  translation: היכל
+  pos: noun
+- id: zf-yemina-z
+  text: ימינא
+  translation: ימין
+  pos: noun
+- id: zf-dargin
+  text: דרגין
+  translation: דרגות
+  pos: noun
+- id: zf-kaim
+  text: קאים
+  translation: עומד
+  pos: noun
+- id: zf-tchot-z
+  text: תחות
+  translation: תחת
+  pos: noun
+- id: zf-mitamman
+  text: מתמן
+  translation: משם
+  pos: noun
+- id: zf-raki-a
+  text: רקיעא
+  translation: הרקיע
+  pos: noun
+- id: zf-salkin
+  text: סלקין
+  translation: עולים
+  pos: noun
+- id: zf-nafkin
+  text: נפקין
+  translation: יוצאים
+  pos: noun
+grammar: []
+lessons:
+- id: z02-l1
+  kind: new
+  title:
+    he: עילא ותתא
+    en: Above and below
+  exercises:
+  - id: z02-l1-01
+    type: dialogue
+    scene: ליד המדורה בשתיים בלילה. האש עולה למעלה.
+    lines:
+    - speaker: yisrael
+      text: בזוהר הכול ״לעילא ולתתא״, למעלה ולמטה. מה שאדם עושה ״לתתא״, מתעורר ״לעילא״.
+      translation: עילא ותתא
+    - speaker: eitan
+      text: 'כמו שסבא אמר: מה שלומדים במתבן, מגיע עד השמיים.'
+      translation: איתן
+  - id: z02-l1-02
+    type: learn
+    lexeme: ilaa
+  - id: z02-l1-03
+    type: learn
+    lexeme: letata
+  - id: z02-l1-04
+    type: learn
+    lexeme: leeila
+  - id: z02-l1-05
+    type: learn
+    lexeme: atar
+  - id: z02-l1-06
+    type: match_pairs
+    pairs:
+    - - עלאה
+      - עליון
+    - - לתתא
+      - למטה
+    - - לעילא
+      - למעלה
+    - - אתר
+      - מקום
+    lexemes:
+    - ilaa
+    - letata
+    - leeila
+    - atar
+  - id: z02-l1-07
+    type: multiple_choice
+    prompt: מה פירוש עלאה?
+    options:
+    - עליון
+    - למטה
+    - שמאל
+    correct: 0
+    lexemes:
+    - ilaa
+  - id: z02-l1-08
+    type: multiple_choice
+    prompt: מה פירוש לתתא?
+    options:
+    - למטה
+    - אחר (״סטרא אחרא״ = הצד האחר, הרע)
+    - מקום
+    correct: 0
+    lexemes:
+    - letata
+  - id: z02-l1-09
+    type: multiple_choice
+    prompt: מה פירוש לעילא?
+    options:
+    - למעלה
+    - צד
+    - דרגה, מדרגה
+    correct: 0
+    lexemes:
+    - leeila
+  - id: z02-l1-10
+    type: multiple_choice
+    prompt: מה פירוש אתר?
+    options:
+    - מקום
+    - שמאל
+    - למעלה
+    correct: 0
+    lexemes:
+    - atar
+  - id: z02-l1-11
+    type: fill_blank
+    sentence: שכן ארץ ארץ ___
+    translation: '׳שכן ארץ׳: ארץ עליונה'
+    answers:
+    - עלאה
+    options:
+    - עלאה
+    - לתתא
+    - אחרא
+    lexemes:
+    - ilaa
+    source: זוהר, פרשת בהר
+  - id: z02-l1-12
+    type: fill_blank
+    sentence: ליה ___ ליה לעילא
+    translation: לו למטה, לו למעלה
+    answers:
+    - לתתא
+    options:
+    - לתתא
+    - אחרא
+    - לעילא
+    lexemes:
+    - letata
+    source: זוהר, פרשת בלק
+  - id: z02-l1-13
+    type: fill_blank
+    sentence: ליה לתתא ליה ___
+    translation: לו למטה, לו למעלה
+    answers:
+    - לעילא
+    options:
+    - לעילא
+    - אחרא
+    - שמאלא
+    lexemes:
+    - leeila
+    source: זוהר, פרשת בלק
+  - id: z02-l1-14
+    type: word_bank
+    prompt: חמיו (הקב״ה) תלוי במקום עליון
+    answers:
+    - חמיה באתר עלאה תלי
+    distractors:
+    - עלאה
+    - אחרא
+    lexemes:
+    - atar
+    source: זוהר, פרשת אחרי מות
+- id: z02-l2
+  kind: new
+  title:
+    he: סטרא ודרגא
+    en: Side and level
+  exercises:
+  - id: z02-l2-15
+    type: tip
+    title: מילים של מקום
+    text: '**לעילא** = למעלה. **לתתא** = למטה. **עלאה** = עליון. **תתאה** = תחתון.
+
+
+      **סטרא** = צד: **סטרא דימינא** (צד ימין, חסד), **סטרא דשמאלא** (צד שמאל, דין), **סטרא אחרא** (הצד האחר, הרע).
+
+
+      **דרגא** = מדרגה. **אתר** = מקום.'
+  - id: z02-l2-16
+    type: learn
+    lexeme: sitra
+  - id: z02-l2-17
+    type: learn
+    lexeme: smala
+  - id: z02-l2-18
+    type: learn
+    lexeme: achra
+  - id: z02-l2-19
+    type: learn
+    lexeme: darga
+  - id: z02-l2-20
+    type: match_pairs
+    pairs:
+    - - סטרא
+      - צד
+    - - שמאלא
+      - שמאל
+    - - אחרא
+      - אחר (״סטרא אחרא״ = הצד האחר, הרע)
+    - - דרגא
+      - דרגה, מדרגה
+    lexemes:
+    - sitra
+    - smala
+    - achra
+    - darga
+  - id: z02-l2-21
+    type: multiple_choice
+    prompt: מה פירוש סטרא?
+    options:
+    - צד
+    - למטה
+    - עליון
+    correct: 0
+    lexemes:
+    - sitra
+  - id: z02-l2-22
+    type: multiple_choice
+    prompt: מה פירוש שמאלא?
+    options:
+    - שמאל
+    - מקום
+    - עליון
+    correct: 0
+    lexemes:
+    - smala
+  - id: z02-l2-23
+    type: multiple_choice
+    prompt: מה פירוש אחרא?
+    options:
+    - אחר (״סטרא אחרא״ = הצד האחר, הרע)
+    - מקום
+    - שמאל
+    correct: 0
+    lexemes:
+    - achra
+  - id: z02-l2-24
+    type: multiple_choice
+    prompt: מה פירוש דרגא?
+    options:
+    - דרגה, מדרגה
+    - אחר (״סטרא אחרא״ = הצד האחר, הרע)
+    - עליון
+    correct: 0
+    lexemes:
+    - darga
+  - id: z02-l2-25
+    type: fill_blank
+    sentence: דא הוא ___ דשמאלא
+    translation: זה הוא צד השמאל
+    answers:
+    - סטרא
+    options:
+    - סטרא
+    - אתר
+    - שמאלא
+    lexemes:
+    - sitra
+    source: זוהר, פרשת משפטים
+  - id: z02-l2-26
+    type: fill_blank
+    sentence: דא הוא סטרא ___
+    translation: זה הוא צד השמאל
+    answers:
+    - דשמאלא
+    options:
+    - דשמאלא
+    - דרגא
+    - לעילא
+    lexemes:
+    - smala
+    source: זוהר, פרשת משפטים
+  - id: z02-l2-27
+    type: fill_blank
+    sentence: בני ישראל ולא ___
+    translation: בני ישראל, ולא אחר
+    answers:
+    - אחרא
+    options:
+    - אחרא
+    - סטרא
+    - שמאלא
+    lexemes:
+    - achra
+    source: זוהר, פרשת כי תשא
+  - id: z02-l2-28
+    type: fill_blank
+    sentence: הוד ודא ___ חמישאה
+    translation: הוד, וזו הדרגה החמישית
+    answers:
+    - דרגא
+    options:
+    - דרגא
+    - לתתא
+    - אחרא
+    lexemes:
+    - darga
+    source: זוהר, פרשת בראשית
+- id: z02-l3
+  kind: new
+  title:
+    he: המחברת של איתן
+    en: Eitan's notebook
+  exercises:
+  - id: z02-l3-29
+    type: tip
+    title: מילים שכיחות בזוהר
+    text: 'מילים שחוזרות בזוהר שוב ושוב: **מסטרא** = מצד, **סטרין** = צדדים, **תתאה** = תחתון, **היכלא** = היכל, **ימינא** = ימין, **דרגין** = דרגות, **קאים** = עומד, **תחות** = תחת, **מתמן** = משם, **רקיעא** = הרקיע, **סלקין** = עולים, **נפקין** = יוצאים.'
+  - id: z02-l3-30
+    type: learn
+    lexeme: zf-mesitra
+  - id: z02-l3-31
+    type: learn
+    lexeme: zf-sitrin
+  - id: z02-l3-32
+    type: learn
+    lexeme: zf-tataa
+  - id: z02-l3-33
+    type: learn
+    lexeme: zf-heichla
+  - id: z02-l3-34
+    type: learn
+    lexeme: zf-yemina-z
+  - id: z02-l3-35
+    type: learn
+    lexeme: zf-dargin
+  - id: z02-l3-36
+    type: learn
+    lexeme: zf-kaim
+  - id: z02-l3-37
+    type: learn
+    lexeme: zf-tchot-z
+  - id: z02-l3-38
+    type: learn
+    lexeme: zf-mitamman
+  - id: z02-l3-39
+    type: learn
+    lexeme: zf-raki-a
+  - id: z02-l3-40
+    type: learn
+    lexeme: zf-salkin
+  - id: z02-l3-41
+    type: learn
+    lexeme: zf-nafkin
+  - id: z02-l3-42
+    type: match_pairs
+    pairs:
+    - - מסטרא
+      - מצד
+    - - סטרין
+      - צדדים
+    - - תתאה
+      - תחתון
+    - - היכלא
+      - היכל
+    - - ימינא
+      - ימין
+    - - דרגין
+      - דרגות
+    lexemes:
+    - zf-mesitra
+    - zf-sitrin
+    - zf-tataa
+    - zf-heichla
+    - zf-yemina-z
+    - zf-dargin
+  - id: z02-l3-43
+    type: multiple_choice
+    prompt: מה פירוש מסטרא?
+    options:
+    - מצד
+    - עומד
+    - דרגה, מדרגה
+    correct: 0
+    lexemes:
+    - zf-mesitra
+  - id: z02-l3-44
+    type: multiple_choice
+    prompt: מה פירוש סטרין?
+    options:
+    - צדדים
+    - למעלה
+    - עולים
+    correct: 0
+    lexemes:
+    - zf-sitrin
+  - id: z02-l3-45
+    type: multiple_choice
+    prompt: מה פירוש תתאה?
+    options:
+    - תחתון
+    - אחר (״סטרא אחרא״ = הצד האחר, הרע)
+    - תחת
+    correct: 0
+    lexemes:
+    - zf-tataa
+  - id: z02-l3-46
+    type: multiple_choice
+    prompt: מה פירוש היכלא?
+    options:
+    - היכל
+    - מקום
+    - עליון
+    correct: 0
+    lexemes:
+    - zf-heichla
+  - id: z02-l3-47
+    type: multiple_choice
+    prompt: מה פירוש ימינא?
+    options:
+    - ימין
+    - צדדים
+    - שמאל
+    correct: 0
+    lexemes:
+    - zf-yemina-z
+  - id: z02-l3-48
+    type: multiple_choice
+    prompt: מה פירוש דרגין?
+    options:
+    - דרגות
+    - תחת
+    - משם
+    correct: 0
+    lexemes:
+    - zf-dargin
+  - id: z02-l3-49
+    type: multiple_choice
+    prompt: מה פירוש קאים?
+    options:
+    - עומד
+    - עליון
+    - שמאל
+    correct: 0
+    lexemes:
+    - zf-kaim
+  - id: z02-l3-50
+    type: multiple_choice
+    prompt: מה פירוש תחות?
+    options:
+    - תחת
+    - דרגה, מדרגה
+    - הרקיע
+    correct: 0
+    lexemes:
+    - zf-tchot-z
+  - id: z02-l3-51
+    type: multiple_choice
+    prompt: מה פירוש מתמן?
+    options:
+    - משם
+    - עולים
+    - למטה
+    correct: 0
+    lexemes:
+    - zf-mitamman
+  - id: z02-l3-52
+    type: multiple_choice
+    prompt: מה פירוש רקיעא?
+    options:
+    - הרקיע
+    - עליון
+    - מקום
+    correct: 0
+    lexemes:
+    - zf-raki-a
+  - id: z02-l3-53
+    type: multiple_choice
+    prompt: מה פירוש סלקין?
+    options:
+    - עולים
+    - צד
+    - שמאל
+    correct: 0
+    lexemes:
+    - zf-salkin
+  - id: z02-l3-54
+    type: multiple_choice
+    prompt: מה פירוש נפקין?
+    options:
+    - יוצאים
+    - הרקיע
+    - היכל
+    correct: 0
+    lexemes:
+    - zf-nafkin
+- id: z02-l4
+  kind: review
+  title:
+    he: ליד המדורה
+    en: By the bonfire
+  exercises:
+  - id: z02-l4-55
+    type: multiple_choice
+    prompt: '״סטרא אחרא״ פירושו:'
+    options:
+    - הצד האחר (צד הרע)
+    - סתר אחר
+    - פעם אחרת
+    correct: 0
+    lexemes:
+    - sitra
+    - achra
+  - id: z02-l4-56
+    type: multiple_choice
+    prompt: '״לתתא״ פירושו:'
+    options:
+    - למטה
+    - לתת
+    - לפני
+    correct: 0
+    lexemes:
+    - letata
+  - id: z02-l4-57
+    type: fill_blank
+    sentence: הוד ודא ___ חמישאה
+    translation: הוד, וזו הדרגה החמישית
+    answers:
+    - דרגא
+    options:
+    - דרגא
+    - סטרא
+    - אתר
+    lexemes:
+    - darga
+    source: זוהר, פרשת בראשית
+  - id: z02-l4-58
+    type: dialogue
+    scene: עלות השחר במירון.
+    lines:
+    - speaker: chana
+      text: האש נגמרת, ומתחיל אור.
+      translation: חנה
+    - speaker: yisrael
+      text: ״נהורא דאתגלייא מגו חשוכא״. אור שמתגלה מתוך החושך. זה השיעור הבא.
+      translation: ההמשך
+  - id: z02-l4-59
+    type: match_pairs
+    pairs:
+    - - עלאה
+      - עליון
+    - - לתתא
+      - למטה
+    - - לעילא
+      - למעלה
+    - - סטרא
+      - צד
+    - - דרגא
+      - דרגה, מדרגה
+    - - אתר
+      - מקום
+    lexemes:
+    - ilaa
+    - letata
+    - leeila
+    - sitra
+    - darga
+    - atar
