@@ -2,6 +2,7 @@
 
 import { useMemo } from "react";
 import { Choices } from "./Choices";
+import { dirOf } from "../ui";
 import type { ExerciseProps } from "./types";
 
 export function MultipleChoice({ ex, ctx, locked, onChange }: ExerciseProps<"multiple_choice">) {
@@ -9,7 +10,7 @@ export function MultipleChoice({ ex, ctx, locked, onChange }: ExerciseProps<"mul
   return (
     <div className="flex flex-col gap-6">
       {ex.passage && (
-        <article className="card flex max-h-72 flex-col gap-3 overflow-y-auto p-5" dir="ltr" lang={ctx.target} tabIndex={0} aria-label="הטקסט">
+        <article className="card flex max-h-72 flex-col gap-3 overflow-y-auto p-5" dir={dirOf(ctx.target)} lang={ctx.target} tabIndex={0} aria-label="הטקסט">
           {ex.passage.trim().split(/\n\s*\n/).map((p, i) => (
             <p key={i} className="text-start leading-relaxed">{p}</p>
           ))}

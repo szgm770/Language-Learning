@@ -1,5 +1,6 @@
 "use client";
 
+import { dirOf } from "../ui";
 import { useEffect, useRef } from "react";
 
 /** Free-text answer box in the right direction for its language. Enter checks the answer. */
@@ -18,7 +19,7 @@ export function TextAnswer({
 }) {
   const ref = useRef<HTMLInputElement & HTMLTextAreaElement>(null);
   useEffect(() => ref.current?.focus(), []);
-  const rtl = ["he", "yi", "ar", "arc"].includes(lang);
+  const rtl = dirOf(lang) === "rtl";
   const common = {
     ref,
     lang,

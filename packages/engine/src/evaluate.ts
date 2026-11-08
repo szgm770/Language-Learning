@@ -104,7 +104,11 @@ export function wordBankTiles(ex: Extract<Exercise, { type: "word_bank" }>, seed
 
 export function seededShuffle<T>(items: readonly T[], seed: number): T[] {
   const out = [...items];
-  let s = seed >>> 0 || 1;
+  // Mix the seed first: xorshift gives almost the same first numbers for nearby seeds (seed, seed + 7).
+  let s = seed >>> 0;
+  s = Math.imul(s ^ (s >>> 16), 0x85ebca6b);
+  s = Math.imul(s ^ (s >>> 13), 0xc2b2ae35);
+  s = (s ^ (s >>> 16)) >>> 0 || 1;
   const rand = () => {
     // xorshift32
     s ^= s << 13;
