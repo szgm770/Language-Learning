@@ -20,12 +20,12 @@ vocabulary:
   - { id: "cold", text: "cold", translation: "קר", pos: "adjective", pronunciation: "קוֹלְד" }
   - { id: "hot", text: "hot", translation: "חם (מאוד)", pos: "adjective", pronunciation: "הוֹט" }
   - { id: "warm", text: "warm", translation: "חמים, נעים", pos: "adjective", pronunciation: "ווֹרְם" }
-  - { id: "rain", text: "rain", translation: "גשם; לרדת גשם", pos: "noun", pronunciation: "רֵיין", example: { text: "It's raining.", translation: "יורד גשם." } }
-  - { id: "snow", text: "snow", translation: "שלג", pos: "noun", pronunciation: "סְנוֹ" }
-  - { id: "umbrella", text: "umbrella", translation: "מטרייה", pos: "noun", pronunciation: "אַמְבְּרֶלָה" }
-  - { id: "winter", text: "winter", translation: "חורף", pos: "noun", pronunciation: "וִינְטֶר" }
+  - { id: "rain", text: "rain", emoji: "🌧️", translation: "גשם; לרדת גשם", pos: "noun", pronunciation: "רֵיין", example: { text: "It's raining.", translation: "יורד גשם." } }
+  - { id: "snow", text: "snow", emoji: "❄️", translation: "שלג", pos: "noun", pronunciation: "סְנוֹ" }
+  - { id: "umbrella", text: "umbrella", emoji: "☂️", translation: "מטרייה", pos: "noun", pronunciation: "אַמְבְּרֶלָה" }
+  - { id: "winter", text: "winter", emoji: "❄️", translation: "חורף", pos: "noun", pronunciation: "וִינְטֶר" }
   - { id: "spring", text: "spring", translation: "אביב", pos: "noun", pronunciation: "סְפְּרִינְג" }
-  - { id: "autumn", text: "autumn", translation: "סתיו", pos: "noun", pronunciation: "אוֹטֶם" }
+  - { id: "autumn", text: "autumn", emoji: "🍂", translation: "סתיו", pos: "noun", pronunciation: "אוֹטֶם" }
   - { id: "temperature", text: "temperature", translation: "טמפרטורה", pos: "noun", pronunciation: "טֶמְפְּרָצ'ֶר" }
   - { id: "degrees", text: "degrees", translation: "מעלות", pos: "noun", pronunciation: "דִיגְרִיז", example: { text: "It's twenty degrees.", translation: "עשרים מעלות." } }
   - { id: "outside", text: "outside", translation: "בחוץ", pos: "adverb", pronunciation: "אַאוּטְסַייד" }
@@ -38,7 +38,7 @@ vocabulary:
   - { id: "location", text: "location", translation: "מיקום", pos: "noun", pronunciation: "לוֹקֵיישֶׁן", example: { text: "The location is perfect.", translation: "המיקום מושלם." } }
   - { id: "direction", text: "direction", translation: "כיוון", pos: "noun", pronunciation: "דִירֶקְשֶׁן", example: { text: "Which direction is the station?", translation: "באיזה כיוון התחנה?" } }
   - { id: "distance", text: "distance", translation: "מרחק", pos: "noun", pronunciation: "דִיסְטֶנְס", example: { text: "The distance is short.", translation: "המרחק קצר." } }
-  - { id: "map", text: "map", translation: "מפה", pos: "noun", pronunciation: "מֶפּ", example: { text: "I look at the map.", translation: "אני מסתכל על המפה." } }
+  - { id: "map", text: "map", emoji: "🗺️", translation: "מפה", pos: "noun", pronunciation: "מֶפּ", example: { text: "I look at the map.", translation: "אני מסתכל על המפה." } }
   - { id: "region", text: "region", translation: "אזור", pos: "noun", pronunciation: "רִיג'ֶן", example: { text: "This region is green.", translation: "האזור הזה ירוק." } }
   - { id: "tonight", text: "tonight", translation: "הערב", pos: "adverb", pronunciation: "טוּנַאיט", example: { text: "I stay at home tonight.", translation: "אני נשאר בבית הערב." } }
   - { id: "quick", text: "quick", translation: "מהיר", pos: "adjective", pronunciation: "קְוִוויק", example: { text: "Take a quick look.", translation: "תסתכל מהר." } }
@@ -127,6 +127,13 @@ lessons:
         text: "What's the weather like in London?"
         translation: "איך מזג האוויר בלונדון?"
         lexemes: [whats-the-weather-like]
+      - id: u16-l1-pic1
+        type: multiple_choice
+        picture: "☂️"
+        prompt: "מה זה?"
+        options: ["umbrella", "snow", "winter"]
+        correct: 0
+        lexemes: [umbrella]
 
   # ------------------------------------------------------------------ 2
   - id: u16-l2
@@ -184,6 +191,13 @@ lessons:
         text: "In spring the weather is warm and sunny."
         translation: "באביב מזג האוויר חמים ושמשי."
         lexemes: [spring, warm, sunny]
+      - id: u16-l2-pic1
+        type: multiple_choice
+        picture: "❄️"
+        prompt: "מה זה?"
+        options: ["winter", "umbrella", "rain"]
+        correct: 0
+        lexemes: [winter]
 
   # ------------------------------------------------------------------ 3
   - id: u16-l3
@@ -650,6 +664,14 @@ lessons:
       - direction
       - distance
       - map
+    - id: u16-n1-pic1
+      type: multiple_choice
+      picture: "🗺️"
+      prompt: "מה זה?"
+      options: ["map", "rain", "umbrella"]
+      correct: 0
+      lexemes: [map]
+
   - id: u16-n2
     kind: new
     title:

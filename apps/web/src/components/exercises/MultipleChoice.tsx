@@ -16,6 +16,11 @@ export function MultipleChoice({ ex, ctx, locked, onChange }: ExerciseProps<"mul
           ))}
         </article>
       )}
+      {ex.picture && (
+        <p className="card py-6 text-center text-8xl leading-none" role="img" aria-label="תמונה">
+          {ex.picture}
+        </p>
+      )}
       <h2 className="text-2xl font-bold">{ex.prompt}</h2>
       <Choices options={ex.options} lang={ctx.target} locked={locked} onPick={onPick} />
     </div>

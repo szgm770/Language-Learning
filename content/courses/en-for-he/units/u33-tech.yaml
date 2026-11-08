@@ -43,7 +43,7 @@ vocabulary:
   - { id: "net", text: "net", translation: "רשת", pos: "noun", example: { text: "The net is down.", translation: "הרשת למטה." } }
   - { id: "distribution", text: "distribution", translation: "חלוקה; הפצה", pos: "noun", example: { text: "The distribution is fair.", translation: "החלוקה הוגנת." } }
   - { id: "wire", text: "wire", translation: "חוט", pos: "noun", example: { text: "The wire is broken.", translation: "החוט שבור." } }
-  - { id: "cable", text: "cable", translation: "כבל", pos: "noun", example: { text: "Plug in the cable.", translation: "חבר את הכבל." } }
+  - { id: "cable", text: "cable", emoji: "🔌", translation: "כבל", pos: "noun", example: { text: "Plug in the cable.", translation: "חבר את הכבל." } }
   - { id: "tech", text: "tech", translation: "טכנולוגיה (מקוצר)", pos: "noun", example: { text: "He works in tech.", translation: "הוא עובד בהיי־טק." } }
   - { id: "threaten", text: "threaten", translation: "לאיים", pos: "verb", example: { text: "The storm may threaten the roof.", translation: "הסערה עלולה לאיים על הגג." } }
   - { id: "expose", text: "expose", translation: "לחשוף", pos: "verb", example: { text: "Don't expose private data.", translation: "אל תחשוף נתונים פרטיים." } }

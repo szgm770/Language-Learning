@@ -17,7 +17,7 @@ vocabulary:
   - { id: "israel", text: "Israel", translation: "ישראל", pos: "noun", pronunciation: "אִיזְרָאֵל" }
   - { id: "england", text: "England", translation: "אנגליה", pos: "noun", pronunciation: "אִינְגְלֶנְד", example: { text: "Ben is from England.", translation: "בן מאנגליה." } }
   - { id: "the-usa", text: "the USA", translation: "ארצות הברית", pos: "noun", pronunciation: "דֶ'ה יוּ אֶס אֵיי", example: { text: "Rachel is in the USA.", translation: "רחל בארצות הברית." } }
-  - { id: "city", text: "city", translation: "עיר", pos: "noun", pronunciation: "סִיטִי", example: { text: "London is a big city.", translation: "לונדון היא עיר גדולה." } }
+  - { id: "city", text: "city", emoji: "🏙️", translation: "עיר", pos: "noun", pronunciation: "סִיטִי", example: { text: "London is a big city.", translation: "לונדון היא עיר גדולה." } }
   - { id: "language", text: "language", translation: "שפה", pos: "noun", pronunciation: "לֶנְגְוִוידְג'" }
   - { id: "speak", text: "speak", translation: "לדבר (שפה)", pos: "verb", pronunciation: "סְפִּיק", example: { text: "I speak Hebrew.", translation: "אני מדברת עברית." } }
   - { id: "hebrew", text: "Hebrew", translation: "עברית", pos: "noun", pronunciation: "הִיבְּרוּ" }
@@ -49,10 +49,10 @@ vocabulary:
 
   - { id: "country", text: "country", translation: "מדינה", pos: "noun", pronunciation: "קָאנְטְרִי", example: { text: "Israel is a small country.", translation: "ישראל היא מדינה קטנה." } }
   - { id: "area", text: "area", translation: "אזור", pos: "noun", pronunciation: "אֶרִיָה", example: { text: "This is a nice area.", translation: "זה אזור נחמד." } }
-  - { id: "town", text: "town", translation: "עיירה", pos: "noun", pronunciation: "טַאוּן", example: { text: "Miriam lives in a small town.", translation: "מרים גרה בעיירה קטנה." } }
+  - { id: "town", text: "town", emoji: "🏘️", translation: "עיירה", pos: "noun", pronunciation: "טַאוּן", example: { text: "Miriam lives in a small town.", translation: "מרים גרה בעיירה קטנה." } }
   - { id: "west", text: "west", translation: "מערב", pos: "noun", pronunciation: "וֶסְט", example: { text: "London is in the west of England.", translation: "לונדון נמצאת במערב אנגליה." } }
-  - { id: "road", text: "road", translation: "כביש", pos: "noun", pronunciation: "רוֹד", example: { text: "The road is long.", translation: "הכביש ארוך." } }
-  - { id: "car", text: "car", translation: "מכונית", pos: "noun", pronunciation: "קַאר", example: { text: "My car is white.", translation: "המכונית שלי לבנה." } }
+  - { id: "road", text: "road", emoji: "🛣️", translation: "כביש", pos: "noun", pronunciation: "רוֹד", example: { text: "The road is long.", translation: "הכביש ארוך." } }
+  - { id: "car", text: "car", emoji: "🚗", translation: "מכונית", pos: "noun", pronunciation: "קַאר", example: { text: "My car is white.", translation: "המכונית שלי לבנה." } }
   - { id: "sit", text: "sit", translation: "לשבת", pos: "verb", pronunciation: "סִיט", example: { text: "Please sit here.", translation: "בבקשה שב כאן." } }
   - { id: "stand", text: "stand", translation: "לעמוד", pos: "verb", pronunciation: "סְטֶנְד", example: { text: "I stand at the door.", translation: "אני עומד ליד הדלת." } }
   - { id: "stay", text: "stay", translation: "להישאר", pos: "verb", pronunciation: "סְטֵיי", example: { text: "I stay at home on Sunday.", translation: "אני נשאר בבית ביום ראשון." } }
@@ -152,6 +152,13 @@ lessons:
         text: "I'm from Israel. And you?"
         translation: "אני מישראל. ואתה?"
         lexemes: [from, israel]
+      - id: u2-l1-pic1
+        type: multiple_choice
+        picture: "🏙️"
+        prompt: "מה זה?"
+        options: ["city", "car", "town"]
+        correct: 0
+        lexemes: [city]
 
   # ------------------------------------------------------------------ 2
   - id: u2-l2
@@ -588,6 +595,14 @@ lessons:
       lexemes:
       - town
       - road
+    - id: u2-n1-pic1
+      type: multiple_choice
+      picture: "🏘️"
+      prompt: "מה זה?"
+      options: ["town", "city", "car"]
+      correct: 0
+      lexemes: [town]
+
   - id: u2-n2
     kind: new
     title:

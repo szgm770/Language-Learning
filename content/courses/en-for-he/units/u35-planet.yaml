@@ -23,7 +23,7 @@ vocabulary:
   - { id: "solar-panel", text: "solar panel", translation: "לוח סולארי", pos: "noun", pronunciation: "סוֹלֶר פֶּנֶל" }
   - { id: "fossil-fuel", text: "fossil fuel", translation: "דלק מאובנים", pos: "noun", pronunciation: "פוֹסֶל פְיוּאֶל" }
   - { id: "sustainable", text: "sustainable", translation: "בר־קיימא", pos: "adjective", pronunciation: "סַסְטֵינַבֶּל" }
-  - { id: "forest", text: "forest", translation: "יער", pos: "noun", pronunciation: "פוֹרֶסְט" }
+  - { id: "forest", text: "forest", emoji: "🌲", translation: "יער", pos: "noun", pronunciation: "פוֹרֶסְט" }
   - { id: "species", text: "species", translation: "מין (בעולם החי)", pos: "noun", pronunciation: "ספִּישִׁיז" }
   - { id: "generation", text: "generation", translation: "דור", pos: "noun", pronunciation: "ג'ֶנֶרֵישֶׁן" }
   - { id: "ban", text: "ban", translation: "לאסור; איסור", pos: "verb", pronunciation: "בַּאן" }
@@ -40,8 +40,8 @@ vocabulary:
   - { id: "nuclear", text: "nuclear", translation: "גרעיני", pos: "adjective", example: { text: "Nuclear power is strong.", translation: "כוח גרעיני חזק." } }
   - { id: "industrial", text: "industrial", translation: "תעשייתי", pos: "adjective", example: { text: "It is an industrial area.", translation: "זה אזור תעשייה." } }
   - { id: "flood", text: "flood", translation: "שיטפון", pos: "noun", example: { text: "The flood closed the road.", translation: "השיטפון סגר את הכביש." } }
-  - { id: "cloud", text: "cloud", translation: "ענן", pos: "noun", example: { text: "A cloud is above us.", translation: "ענן נמצא מעלינו." } }
-  - { id: "flower", text: "flower", translation: "פרח", pos: "noun", example: { text: "I buy a flower for the table.", translation: "אני קונה פרח לשולחן." } }
+  - { id: "cloud", text: "cloud", emoji: "☁️", translation: "ענן", pos: "noun", example: { text: "A cloud is above us.", translation: "ענן נמצא מעלינו." } }
+  - { id: "flower", text: "flower", emoji: "🌸", translation: "פרח", pos: "noun", example: { text: "I buy a flower for the table.", translation: "אני קונה פרח לשולחן." } }
   - { id: "seed", text: "seed", translation: "זרע", pos: "noun", example: { text: "The seed is very small.", translation: "הזרע קטן מאוד." } }
   - { id: "root", text: "root", translation: "שורש", pos: "noun", example: { text: "The root is deep.", translation: "השורש עמוק." } }
   - { id: "branch", text: "branch", translation: "ענף; סניף", pos: "noun", example: { text: "A bird sits on the branch.", translation: "ציפור יושבת על הענף." } }
@@ -201,6 +201,13 @@ lessons:
         text: "We must leave a better world for the next generation."
         translation: "אנחנו חייבים להשאיר עולם טוב יותר לדור הבא."
         lexemes: [generation, must]
+      - id: u35-l2-pic1
+        type: multiple_choice
+        picture: "🌲"
+        prompt: "מה זה?"
+        options: ["forest", "flower", "cloud"]
+        correct: 0
+        lexemes: [forest]
 
   # ------------------------------------------------------------------ 3
   - id: u35-l3
@@ -807,6 +814,14 @@ lessons:
       - seed
       - root
       - branch
+    - id: u35-n2-pic1
+      type: multiple_choice
+      picture: "☁️"
+      prompt: "מה זה?"
+      options: ["cloud", "forest", "flower"]
+      correct: 0
+      lexemes: [cloud]
+
   - id: u35-n3
     kind: new
     title:

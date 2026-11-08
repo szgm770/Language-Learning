@@ -37,6 +37,8 @@ export const Lexeme = z.object({
   pos: PartOfSpeech,
   /** Pronunciation hint in the learner's script, e.g. Hebrew letters for English words. */
   pronunciation: z.string().optional(),
+  /** A picture for a concrete word: an emoji, shown on the learn card. No files, works offline. */
+  emoji: z.string().min(1).max(16).optional(),
   example: z
     .strictObject({
       text: z.string(),
@@ -79,6 +81,8 @@ export const MultipleChoice = ExerciseBase.extend({
   type: z.literal("multiple_choice"),
   /** A text the question is about (reading comprehension); shown above the question. */
   passage: z.string().min(40).optional(),
+  /** An emoji shown large above the question ("what is this?"). */
+  picture: z.string().min(1).max(16).optional(),
   prompt: z.string().min(1),
   options: z.array(z.string().min(1)).min(2).max(6),
   correct: z.number().int().min(0),

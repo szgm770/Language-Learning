@@ -37,6 +37,11 @@ export function Learn({ ex, ctx }: ExerciseProps<"learn">) {
         {/^l-/.test(lx.id) ? "אות חדשה" : /^s-/.test(lx.id) ? "צליל חדש" : "מילה חדשה"}
       </p>
       <div className="card flex flex-col items-center gap-3 px-5 py-8 text-center">
+        {lx.emoji && (
+          <span className="text-8xl leading-none" role="img" aria-label={lx.translation}>
+            {lx.emoji}
+          </span>
+        )}
         <Word text={lx.text} lang={ctx.target} className="text-5xl text-cobalt" />
         {lx.pronunciation && <span className="text-lg text-ink-soft">{lx.pronunciation}</span>}
         <span className="text-2xl font-semibold">{lx.translation}</span>

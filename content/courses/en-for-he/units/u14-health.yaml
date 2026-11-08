@@ -15,17 +15,17 @@ vocabulary:
   - { id: "feel", text: "feel", translation: "להרגיש", pos: "verb", pronunciation: "פִיל", example: { text: "I don't feel well.", translation: "אני לא מרגישה טוב." } }
   - { id: "sick", text: "sick", translation: "חולה", pos: "adjective", pronunciation: "סִיק" }
   - { id: "whats-the-matter", text: "What's the matter?", translation: "מה קרה? מה הבעיה?", pos: "phrase", pronunciation: "ווֹטְס דֶ'ה מֶטֶר" }
-  - { id: "headache", text: "headache", translation: "כאב ראש", pos: "noun", pronunciation: "הֶדֵייק" }
+  - { id: "headache", text: "headache", emoji: "🤕", translation: "כאב ראש", pos: "noun", pronunciation: "הֶדֵייק" }
   - { id: "sore-throat", text: "sore throat", translation: "כאב גרון", pos: "noun", pronunciation: "סוֹר תְ'רוֹט" }
-  - { id: "cough", text: "cough", translation: "שיעול", pos: "noun", pronunciation: "קוֹף" }
-  - { id: "fever", text: "fever", translation: "חום (מחלה)", pos: "noun", pronunciation: "פִיבֶר" }
+  - { id: "cough", text: "cough", emoji: "🤧", translation: "שיעול", pos: "noun", pronunciation: "קוֹף" }
+  - { id: "fever", text: "fever", emoji: "🤒", translation: "חום (מחלה)", pos: "noun", pronunciation: "פִיבֶר" }
   - { id: "a-cold", text: "a cold", translation: "הצטננות", pos: "noun", pronunciation: "אֵה קוֹלְד", example: { text: "I've got a cold.", translation: "אני מצוננת." } }
   - { id: "hurt", text: "hurt", translation: "לכאוב", pos: "verb", pronunciation: "הֶרְט", example: { text: "My back hurts.", translation: "הגב שלי כואב." } }
   - { id: "head", text: "head", translation: "ראש", pos: "noun", pronunciation: "הֶד" }
   - { id: "back", text: "back", translation: "גב", pos: "noun", pronunciation: "בֶּק" }
   - { id: "stomach", text: "stomach", translation: "בטן", pos: "noun", pronunciation: "סְטַאמֶק" }
   - { id: "appointment", text: "appointment", translation: "תור (לרופא)", pos: "noun", pronunciation: "אַפּוֹינְטְמֶנְט", example: { text: "I'd like to make an appointment.", translation: "הייתי רוצה לקבוע תור." } }
-  - { id: "medicine", text: "medicine", translation: "תרופה", pos: "noun", pronunciation: "מֶדְסִין" }
+  - { id: "medicine", text: "medicine", emoji: "💊", translation: "תרופה", pos: "noun", pronunciation: "מֶדְסִין" }
   - { id: "prescription", text: "prescription", translation: "מרשם", pos: "noun", pronunciation: "פְּרִיסְקְרִיפְּשְׁן" }
   - { id: "rest", text: "rest", translation: "לנוח; מנוחה", pos: "verb", pronunciation: "רֶסְט" }
   - { id: "better", text: "better", translation: "יותר טוב", pos: "adjective", pronunciation: "בֶּטֶר", example: { text: "I feel better today.", translation: "אני מרגישה יותר טוב היום." } }
@@ -35,12 +35,12 @@ vocabulary:
   - { id: "have-got", text: "I've got…", translation: "יש לי…", pos: "phrase", pronunciation: "אַייב גוֹט", example: { text: "I've got a headache.", translation: "יש לי כאב ראש." } }
   - { id: "get-well-soon", text: "Get well soon!", translation: "רפואה שלמה! החלמה מהירה!", pos: "phrase", pronunciation: "גֶט וֶל סוּן" }
 
-  - { id: "blood", text: "blood", translation: "דם", pos: "noun", pronunciation: "בְּלָד", example: { text: "They take blood for the test.", translation: "לוקחים דם לבדיקה." } }
-  - { id: "brain", text: "brain", translation: "מוח", pos: "noun", pronunciation: "בְּרֵיין", example: { text: "The brain is important.", translation: "המוח חשוב." } }
-  - { id: "arm", text: "arm", translation: "זרוע", pos: "noun", pronunciation: "אַרְם", example: { text: "My arm hurts.", translation: "הזרוע שלי כואבת." } }
-  - { id: "leg", text: "leg", translation: "רגל", pos: "noun", pronunciation: "לֶג", example: { text: "His leg is better now.", translation: "הרגל שלו טובה יותר עכשיו." } }
-  - { id: "hair", text: "hair", translation: "שיער", pos: "noun", pronunciation: "הֶר", example: { text: "She has long hair.", translation: "יש לה שיער ארוך." } }
-  - { id: "face", text: "face", translation: "פנים", pos: "noun", pronunciation: "פֵייס", example: { text: "Her face is red.", translation: "הפנים שלה אדומות." } }
+  - { id: "blood", text: "blood", emoji: "🩸", translation: "דם", pos: "noun", pronunciation: "בְּלָד", example: { text: "They take blood for the test.", translation: "לוקחים דם לבדיקה." } }
+  - { id: "brain", text: "brain", emoji: "🧠", translation: "מוח", pos: "noun", pronunciation: "בְּרֵיין", example: { text: "The brain is important.", translation: "המוח חשוב." } }
+  - { id: "arm", text: "arm", emoji: "💪", translation: "זרוע", pos: "noun", pronunciation: "אַרְם", example: { text: "My arm hurts.", translation: "הזרוע שלי כואבת." } }
+  - { id: "leg", text: "leg", emoji: "🦵", translation: "רגל", pos: "noun", pronunciation: "לֶג", example: { text: "His leg is better now.", translation: "הרגל שלו טובה יותר עכשיו." } }
+  - { id: "hair", text: "hair", emoji: "💇", translation: "שיער", pos: "noun", pronunciation: "הֶר", example: { text: "She has long hair.", translation: "יש לה שיער ארוך." } }
+  - { id: "face", text: "face", emoji: "🙂", translation: "פנים", pos: "noun", pronunciation: "פֵייס", example: { text: "Her face is red.", translation: "הפנים שלה אדומות." } }
   - { id: "disease", text: "disease", translation: "מחלה", pos: "noun", pronunciation: "דִיזִיז", example: { text: "The disease is not serious.", translation: "המחלה לא רצינית." } }
   - { id: "medical", text: "medical", translation: "רפואי", pos: "adjective", pronunciation: "מֶדִיקֶל", example: { text: "I need medical help.", translation: "אני צריך עזרה רפואית." } }
   - { id: "drug", text: "drug", translation: "תרופה; סם", pos: "noun", pronunciation: "דְרָאג", example: { text: "This drug is safe.", translation: "התרופה הזאת בטוחה." } }
@@ -131,6 +131,13 @@ lessons:
         text: "I'm sick. I've got a headache and a sore throat."
         translation: "אני חולה. יש לי כאב ראש וכאב גרון."
         lexemes: [sick, headache, sore-throat]
+      - id: u14-l1-pic1
+        type: multiple_choice
+        picture: "🤕"
+        prompt: "מה זה?"
+        options: ["headache", "face", "fever"]
+        correct: 0
+        lexemes: [headache]
 
   # ------------------------------------------------------------------ 2
   - id: u14-l2
@@ -338,6 +345,13 @@ lessons:
         text: "Here's a prescription. Take the medicine three times a day."
         translation: "הנה מרשם. קחי את התרופה שלוש פעמים ביום."
         lexemes: [prescription, medicine]
+      - id: u14-l4-pic1
+        type: multiple_choice
+        picture: "💊"
+        prompt: "מה זה?"
+        options: ["medicine", "headache", "cough"]
+        correct: 0
+        lexemes: [medicine]
 
   # ------------------------------------------------------------------ 5
   - id: u14-l5
@@ -655,6 +669,14 @@ lessons:
       lexemes:
       - arm
       - leg
+    - id: u14-n1-pic1
+      type: multiple_choice
+      picture: "🩸"
+      prompt: "מה זה?"
+      options: ["blood", "leg", "fever"]
+      correct: 0
+      lexemes: [blood]
+
   - id: u14-n2
     kind: new
     title:

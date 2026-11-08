@@ -53,7 +53,7 @@ vocabulary:
   - { id: "show", text: "show", translation: "להראות", pos: "verb", pronunciation: "שׁוֹ", example: { text: "I show you my diary.", translation: "אני מראה לך את היומן שלי." } }
   - { id: "thing", text: "thing", translation: "דבר", pos: "noun", pronunciation: "תִּינְג", example: { text: "This is a good thing.", translation: "זה דבר טוב." } }
   - { id: "place", text: "place", translation: "מקום", pos: "noun", pronunciation: "פְּלֵייס", example: { text: "This is my favorite place.", translation: "זה המקום האהוב עליי." } }
-  - { id: "house", text: "house", translation: "בית", pos: "noun", pronunciation: "הַאוּס", example: { text: "I go to his house on Sunday.", translation: "אני הולך לבית שלו ביום ראשון." } }
+  - { id: "house", text: "house", emoji: "🏠", translation: "בית", pos: "noun", pronunciation: "הַאוּס", example: { text: "I go to his house on Sunday.", translation: "אני הולך לבית שלו ביום ראשון." } }
 grammar:
   - id: present-simple
     title: { he: "הווה פשוט: I work, we work", en: "Present simple" }

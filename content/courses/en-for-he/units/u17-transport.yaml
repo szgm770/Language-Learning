@@ -12,11 +12,11 @@ canDo:
   - להבין הודעות על עיכובים
 
 vocabulary:
-  - { id: "bus", text: "bus", translation: "אוטובוס", pos: "noun", pronunciation: "בַּאס" }
-  - { id: "train", text: "train", translation: "רכבת", pos: "noun", pronunciation: "טְרֵיין" }
+  - { id: "bus", text: "bus", emoji: "🚌", translation: "אוטובוס", pos: "noun", pronunciation: "בַּאס" }
+  - { id: "train", text: "train", emoji: "🚆", translation: "רכבת", pos: "noun", pronunciation: "טְרֵיין" }
   - { id: "underground", text: "the Underground", translation: "הרכבת התחתית (בלונדון)", pos: "noun", pronunciation: "דִ'י אַנְדֶרְגְרַאוּנְד" }
-  - { id: "taxi", text: "taxi", translation: "מונית", pos: "noun", pronunciation: "טֶקְסִי" }
-  - { id: "bike", text: "bike", translation: "אופניים", pos: "noun", pronunciation: "בַּייק" }
+  - { id: "taxi", text: "taxi", emoji: "🚕", translation: "מונית", pos: "noun", pronunciation: "טֶקְסִי" }
+  - { id: "bike", text: "bike", emoji: "🚲", translation: "אופניים", pos: "noun", pronunciation: "בַּייק" }
   - { id: "bus-stop", text: "bus stop", translation: "תחנת אוטובוס", pos: "noun", pronunciation: "בַּאס סְטוֹפּ" }
   - { id: "platform", text: "platform", translation: "רציף", pos: "noun", pronunciation: "פְּלֶטְפוֹרְם", example: { text: "The train leaves from platform 4.", translation: "הרכבת יוצאת מרציף 4." } }
   - { id: "single-ticket", text: "single ticket", translation: "כרטיס לכיוון אחד", pos: "noun", pronunciation: "סִינְגְל טִיקֶט" }
@@ -37,16 +37,16 @@ vocabulary:
 
   - { id: "traffic", text: "traffic", translation: "תנועה; פקק", pos: "noun", pronunciation: "טְרֶפִיק", example: { text: "The traffic is heavy.", translation: "התנועה כבדה." } }
   - { id: "driver", text: "driver", translation: "נהג", pos: "noun", pronunciation: "דְרַאיוֶר", example: { text: "The driver is kind.", translation: "הנהג אדיב." } }
-  - { id: "engine", text: "engine", translation: "מנוע", pos: "noun", pronunciation: "אֶנְג'ִין", example: { text: "The engine is loud.", translation: "המנוע רועש." } }
+  - { id: "engine", text: "engine", emoji: "⚙️", translation: "מנוע", pos: "noun", pronunciation: "אֶנְג'ִין", example: { text: "The engine is loud.", translation: "המנוע רועש." } }
   - { id: "ring", text: "ring", translation: "טבעת; מעגל", pos: "noun", pronunciation: "רִינְג", example: { text: "The train goes in a ring.", translation: "הרכבת נוסעת במעגל." } }
   - { id: "cross", text: "cross", translation: "לחצות", pos: "verb", pronunciation: "קְרוֹס", example: { text: "Cross the road here.", translation: "חצה את הכביש כאן." } }
   - { id: "track", text: "track", translation: "מסילה", pos: "noun", pronunciation: "טְרֶק", example: { text: "The train is on track two.", translation: "הרכבת על מסילה שתיים." } }
-  - { id: "ship", text: "ship", translation: "ספינה", pos: "noun", pronunciation: "שִׁיפּ", example: { text: "A ship is in the port.", translation: "ספינה נמצאת בנמל." } }
+  - { id: "ship", text: "ship", emoji: "🚢", translation: "ספינה", pos: "noun", pronunciation: "שִׁיפּ", example: { text: "A ship is in the port.", translation: "ספינה נמצאת בנמל." } }
   - { id: "capital", text: "capital", translation: "בירה", pos: "noun", pronunciation: "קַפִּיטֶל", example: { text: "London is the capital of England.", translation: "לונדון היא בירת אנגליה." } }
   - { id: "centre", text: "centre", translation: "מרכז", pos: "noun", pronunciation: "סֶנְטֶר", example: { text: "The centre of town is busy.", translation: "מרכז העיר עמוס." } }
   - { id: "central", text: "central", translation: "מרכזי", pos: "adjective", pronunciation: "סֶנְטְרֶל", example: { text: "The central station is close.", translation: "התחנה המרכזית קרובה." } }
   - { id: "district", text: "district", translation: "שכונה; מחוז", pos: "noun", pronunciation: "דִיסְטְרִיקְט", example: { text: "This district is quiet.", translation: "השכונה הזאת שקטה." } }
-  - { id: "village", text: "village", translation: "כפר", pos: "noun", pronunciation: "וִילִיג'", example: { text: "I live in a small village.", translation: "אני גר בכפר קטן." } }
+  - { id: "village", text: "village", emoji: "🏘️", translation: "כפר", pos: "noun", pronunciation: "וִילִיג'", example: { text: "I live in a small village.", translation: "אני גר בכפר קטן." } }
   - { id: "reach", text: "reach", translation: "להגיע", pos: "verb", pronunciation: "רִיץ'", example: { text: "I reach the office at nine.", translation: "אני מגיע למשרד בתשע." } }
   - { id: "deliver", text: "deliver", translation: "למסור; לספק", pos: "verb", pronunciation: "דִילִיבֶר", example: { text: "They deliver the food home.", translation: "הם מספקים אוכל הביתה." } }
   - { id: "select", text: "select", translation: "לבחור", pos: "verb", pronunciation: "סִילֶקְט", example: { text: "Select a seat, please.", translation: "בחר מקום, בבקשה." } }
@@ -132,6 +132,13 @@ lessons:
         text: "A return ticket to Greenwich, please. How long does it take?"
         translation: "כרטיס הלוך ושוב לגריניץ', בבקשה. כמה זמן זה לוקח?"
         lexemes: [return-ticket, how-long]
+      - id: u17-l1-pic1
+        type: multiple_choice
+        picture: "🚆"
+        prompt: "מה זה?"
+        options: ["train", "engine", "bus"]
+        correct: 0
+        lexemes: [train]
 
   # ------------------------------------------------------------------ 2
   - id: u17-l2
@@ -189,6 +196,13 @@ lessons:
         text: "I usually go to work by bike."
         translation: "בדרך כלל אני נוסע לעבודה באופניים."
         lexemes: [by-transport, bike, go-to-work]
+      - id: u17-l2-pic1
+        type: multiple_choice
+        picture: "🚌"
+        prompt: "מה זה?"
+        options: ["bus", "village", "taxi"]
+        correct: 0
+        lexemes: [bus]
 
   # ------------------------------------------------------------------ 3
   - id: u17-l3
@@ -648,6 +662,14 @@ lessons:
       lexemes:
       - traffic
       - driver
+    - id: u17-n1-pic1
+      type: multiple_choice
+      picture: "⚙️"
+      prompt: "מה זה?"
+      options: ["engine", "ship", "bus"]
+      correct: 0
+      lexemes: [engine]
+
   - id: u17-n2
     kind: new
     title:
@@ -814,6 +836,14 @@ lessons:
       lexemes:
       - capital
       - central
+    - id: u17-n2-pic1
+      type: multiple_choice
+      picture: "🚢"
+      prompt: "מה זה?"
+      options: ["ship", "village", "bike"]
+      correct: 0
+      lexemes: [ship]
+
   - id: u17-n3
     kind: new
     title:

@@ -12,18 +12,18 @@ canDo:
   - להשתמש ב־a, an ובצורת רבים
 
 vocabulary:
-  - { id: "coffee", text: "coffee", translation: "קפה", pos: "noun", pronunciation: "קוֹפִי", example: { text: "A coffee, please.", translation: "קפה, בבקשה." } }
-  - { id: "tea", text: "tea", translation: "תה", pos: "noun", pronunciation: "טִי" }
-  - { id: "water", text: "water", translation: "מים", pos: "noun", pronunciation: "ווֹטֶר", example: { text: "A bottle of water, please.", translation: "בקבוק מים, בבקשה." } }
+  - { id: "coffee", text: "coffee", emoji: "☕", translation: "קפה", pos: "noun", pronunciation: "קוֹפִי", example: { text: "A coffee, please.", translation: "קפה, בבקשה." } }
+  - { id: "tea", text: "tea", emoji: "🍵", translation: "תה", pos: "noun", pronunciation: "טִי" }
+  - { id: "water", text: "water", emoji: "💧", translation: "מים", pos: "noun", pronunciation: "ווֹטֶר", example: { text: "A bottle of water, please.", translation: "בקבוק מים, בבקשה." } }
   - { id: "small", text: "small", translation: "קטן", pos: "adjective", pronunciation: "סְמוֹל" }
   - { id: "large", text: "large", translation: "גדול", pos: "adjective", pronunciation: "לַארְג'", example: { text: "A large coffee, please.", translation: "קפה גדול, בבקשה." } }
   - { id: "what-can-i-get-you", text: "What can I get you?", translation: "מה אפשר להביא לך?", pos: "phrase", pronunciation: "ווֹט קֶן אַיי גֶט יוּ" }
   - { id: "here-you-are", text: "Here you are.", translation: "בבקשה (כשנותנים משהו).", pos: "phrase", pronunciation: "הִיר יוּ אָר" }
-  - { id: "sandwich", text: "sandwich", translation: "כריך", pos: "noun", pronunciation: "סֶנְדְוִויץ'" }
-  - { id: "cake", text: "cake", translation: "עוגה", pos: "noun", pronunciation: "קֵייק", example: { text: "The chocolate cake is great.", translation: "עוגת השוקולד מצוינת." } }
-  - { id: "salad", text: "salad", translation: "סלט", pos: "noun", pronunciation: "סֶלֶד" }
-  - { id: "juice", text: "juice", translation: "מיץ", pos: "noun", pronunciation: "ג'וּס", example: { text: "An orange juice, please.", translation: "מיץ תפוזים, בבקשה." } }
-  - { id: "cup", text: "cup", translation: "כוס (של שתייה חמה), ספל", pos: "noun", pronunciation: "קָאפ", example: { text: "A cup of tea", translation: "כוס תה" } }
+  - { id: "sandwich", text: "sandwich", emoji: "🥪", translation: "כריך", pos: "noun", pronunciation: "סֶנְדְוִויץ'" }
+  - { id: "cake", text: "cake", emoji: "🍰", translation: "עוגה", pos: "noun", pronunciation: "קֵייק", example: { text: "The chocolate cake is great.", translation: "עוגת השוקולד מצוינת." } }
+  - { id: "salad", text: "salad", emoji: "🥗", translation: "סלט", pos: "noun", pronunciation: "סֶלֶד" }
+  - { id: "juice", text: "juice", emoji: "🧃", translation: "מיץ", pos: "noun", pronunciation: "ג'וּס", example: { text: "An orange juice, please.", translation: "מיץ תפוזים, בבקשה." } }
+  - { id: "cup", text: "cup", emoji: "🥤", translation: "כוס (של שתייה חמה), ספל", pos: "noun", pronunciation: "קָאפ", example: { text: "A cup of tea", translation: "כוס תה" } }
   - { id: "bottle", text: "bottle", translation: "בקבוק", pos: "noun", pronunciation: "בּוֹטְל" }
   - { id: "anything-else", text: "Anything else?", translation: "עוד משהו?", pos: "phrase", pronunciation: "אֶנִית'ינְג אֶלְס" }
   - { id: "can-i-have", text: "Can I have…?", translation: "אפשר לקבל…?", pos: "phrase", pronunciation: "קֶן אַיי הֶב", example: { text: "Can I have a tea, please?", translation: "אפשר לקבל תה, בבקשה?" } }
@@ -35,7 +35,7 @@ vocabulary:
   - { id: "cash", text: "cash", translation: "מזומן", pos: "noun", pronunciation: "קֶשׁ" }
   - { id: "of-course", text: "Of course.", translation: "כמובן.", pos: "phrase", pronunciation: "אוֹב קוֹרְס" }
 
-  - { id: "food", text: "food", translation: "אוכל", pos: "noun", pronunciation: "פוּד", example: { text: "The food here is good.", translation: "האוכל כאן טוב." } }
+  - { id: "food", text: "food", emoji: "🍽️", translation: "אוכל", pos: "noun", pronunciation: "פוּד", example: { text: "The food here is good.", translation: "האוכל כאן טוב." } }
   - { id: "drink", text: "drink", translation: "לשתות; משקה", pos: "verb", pronunciation: "דְרִינְק", example: { text: "I drink water every day.", translation: "אני שותה מים כל יום." } }
   - { id: "price", text: "price", translation: "מחיר", pos: "noun", pronunciation: "פְּרַאיס", example: { text: "What is the price?", translation: "מה המחיר?" } }
   - { id: "bill", text: "bill", translation: "חשבון", pos: "noun", pronunciation: "בִּיל", example: { text: "Can I have the bill, please?", translation: "אפשר את החשבון, בבקשה?" } }
@@ -136,6 +136,13 @@ lessons:
         text: "Good morning! A large coffee, please."
         translation: "בוקר טוב! קפה גדול, בבקשה."
         lexemes: [large, coffee]
+      - id: u4-l1-pic1
+        type: multiple_choice
+        picture: "☕"
+        prompt: "מה זה?"
+        options: ["coffee", "juice", "food"]
+        correct: 0
+        lexemes: [coffee]
 
   # ------------------------------------------------------------------ 2
   - id: u4-l2
@@ -197,6 +204,13 @@ lessons:
         text: "A cup of tea and a sandwich, please."
         translation: "כוס תה וכריך, בבקשה."
         lexemes: [cup, tea, sandwich]
+      - id: u4-l2-pic1
+        type: multiple_choice
+        picture: "🥪"
+        prompt: "מה זה?"
+        options: ["sandwich", "water", "coffee"]
+        correct: 0
+        lexemes: [sandwich]
 
   # ------------------------------------------------------------------ 3
   - id: u4-l3
@@ -571,6 +585,14 @@ lessons:
       - food
       - drink
       - choose
+    - id: u4-n1-pic1
+      type: multiple_choice
+      picture: "🍽️"
+      prompt: "מה זה?"
+      options: ["food", "cake", "water"]
+      correct: 0
+      lexemes: [food]
+
   - id: u4-n2
     kind: new
     title:

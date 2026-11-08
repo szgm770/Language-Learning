@@ -12,8 +12,8 @@ canDo:
   - לציין מקור עם according to
 
 vocabulary:
-  - { id: "news", text: "news", translation: "חדשות", pos: "noun", pronunciation: "נְיוּז", example: { text: "Have you heard the news?", translation: "שמעת את החדשות?" } }
-  - { id: "headline", text: "headline", translation: "כותרת", pos: "noun", pronunciation: "הֶדְלַיין" }
+  - { id: "news", text: "news", emoji: "📰", translation: "חדשות", pos: "noun", pronunciation: "נְיוּז", example: { text: "Have you heard the news?", translation: "שמעת את החדשות?" } }
+  - { id: "headline", text: "headline", emoji: "📰", translation: "כותרת", pos: "noun", pronunciation: "הֶדְלַיין" }
   - { id: "article", text: "article", translation: "כתבה, מאמר", pos: "noun", pronunciation: "אַרְטִיקְל" }
   - { id: "journalist", text: "journalist", translation: "עיתונאי", pos: "noun", pronunciation: "ג'ֶרְנָלִיסְט" }
   - { id: "launch", text: "launch", translation: "להשיק; השקה", pos: "verb", pronunciation: "לוֹנְץ'", example: { text: "The app was launched yesterday.", translation: "האפליקציה הושקה אתמול." } }
@@ -33,11 +33,11 @@ vocabulary:
   - { id: "fix", text: "fix", translation: "לתקן", pos: "verb", pronunciation: "פִיקְס" }
   - { id: "did-you-hear", text: "Did you hear about…?", translation: "שמעת על…?", pos: "phrase", pronunciation: "דִיד יוּ הִיר אַבַּאוּט" }
 
-  - { id: "newspaper", text: "newspaper", translation: "עיתון", pos: "noun", example: { text: "I read the newspaper every day.", translation: "אני קורא עיתון כל יום." } }
+  - { id: "newspaper", text: "newspaper", emoji: "🗞️", translation: "עיתון", pos: "noun", example: { text: "I read the newspaper every day.", translation: "אני קורא עיתון כל יום." } }
   - { id: "journal", text: "journal", translation: "כתב עת; יומן", pos: "noun", example: { text: "He writes in a journal.", translation: "הוא כותב ביומן." } }
   - { id: "editor", text: "editor", translation: "עורך", pos: "noun", example: { text: "The editor checks the text.", translation: "העורך בודק את הטקסט." } }
   - { id: "reader", text: "reader", translation: "קורא", pos: "noun", example: { text: "Every reader likes this story.", translation: "כל קורא אוהב את הסיפור הזה." } }
-  - { id: "television", text: "television", translation: "טלוויזיה", pos: "noun", example: { text: "The television is on.", translation: "הטלוויזיה דולקת." } }
+  - { id: "television", text: "television", emoji: "📺", translation: "טלוויזיה", pos: "noun", example: { text: "The television is on.", translation: "הטלוויזיה דולקת." } }
   - { id: "broadcast", text: "broadcast", translation: "שידור", pos: "noun", example: { text: "The broadcast starts at eight.", translation: "השידור מתחיל בשמונה." } }
   - { id: "quote", text: "quote", translation: "לצטט; ציטוט", pos: "verb", example: { text: "I quote the teacher.", translation: "אני מצטט את המורה." } }
   - { id: "discussion", text: "discussion", translation: "דיון", pos: "noun", example: { text: "We have a long discussion.", translation: "אנחנו מנהלים דיון ארוך." } }
@@ -132,6 +132,13 @@ lessons:
         text: "According to the article, it's the best app of the year."
         translation: "לפי הכתבה, זו האפליקציה הכי טובה השנה."
         lexemes: [according-to, article]
+      - id: u27-l1-pic1
+        type: multiple_choice
+        picture: "📰"
+        prompt: "מה זה?"
+        options: ["news", "television", "newspaper"]
+        correct: 0
+        lexemes: [news]
 
   # ------------------------------------------------------------------ 2
   - id: u27-l2
@@ -682,6 +689,14 @@ lessons:
       - newspaper
       - editor
       - reader
+    - id: u27-n1-pic1
+      type: multiple_choice
+      picture: "🗞️"
+      prompt: "מה זה?"
+      options: ["newspaper", "headline", "news"]
+      correct: 0
+      lexemes: [newspaper]
+
   - id: u27-n2
     kind: new
     title:

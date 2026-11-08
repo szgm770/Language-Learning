@@ -12,17 +12,17 @@ canDo:
   - לספר איפה הייתי ואיך היה, עם was ו־were
 
 vocabulary:
-  - { id: "airport", text: "airport", translation: "שדה תעופה", pos: "noun", pronunciation: "אֶרְפּוֹרְט" }
-  - { id: "flight", text: "flight", translation: "טיסה", pos: "noun", pronunciation: "פְלַייט" }
-  - { id: "ticket", text: "ticket", translation: "כרטיס", pos: "noun", pronunciation: "טִיקֶט" }
-  - { id: "passport", text: "passport", translation: "דרכון", pos: "noun", pronunciation: "פַּסְפּוֹרְט" }
+  - { id: "airport", text: "airport", emoji: "🛫", translation: "שדה תעופה", pos: "noun", pronunciation: "אֶרְפּוֹרְט" }
+  - { id: "flight", text: "flight", emoji: "✈️", translation: "טיסה", pos: "noun", pronunciation: "פְלַייט" }
+  - { id: "ticket", text: "ticket", emoji: "🎫", translation: "כרטיס", pos: "noun", pronunciation: "טִיקֶט" }
+  - { id: "passport", text: "passport", emoji: "🛂", translation: "דרכון", pos: "noun", pronunciation: "פַּסְפּוֹרְט" }
   - { id: "gate", text: "gate", translation: "שער (בשדה התעופה)", pos: "noun", pronunciation: "גֵייט", example: { text: "Your flight is at gate twelve.", translation: "הטיסה שלך בשער שתים־עשרה." } }
-  - { id: "hotel", text: "hotel", translation: "מלון", pos: "noun", pronunciation: "הוֹטֶל" }
+  - { id: "hotel", text: "hotel", emoji: "🏨", translation: "מלון", pos: "noun", pronunciation: "הוֹטֶל" }
   - { id: "room", text: "room", translation: "חדר", pos: "noun", pronunciation: "רוּם" }
-  - { id: "key", text: "key", translation: "מפתח", pos: "noun", pronunciation: "קִי" }
+  - { id: "key", text: "key", emoji: "🔑", translation: "מפתח", pos: "noun", pronunciation: "קִי" }
   - { id: "reservation", text: "reservation", translation: "הזמנה (מראש)", pos: "noun", pronunciation: "רֶזֶרְבֵיישְׁן", example: { text: "I have a reservation.", translation: "יש לי הזמנה." } }
-  - { id: "night", text: "night", translation: "לילה", pos: "noun", pronunciation: "נַייט", example: { text: "for three nights", translation: "לשלושה לילות" } }
-  - { id: "breakfast", text: "breakfast", translation: "ארוחת בוקר", pos: "noun", pronunciation: "בְּרֶקְפַסְט" }
+  - { id: "night", text: "night", emoji: "🌙", translation: "לילה", pos: "noun", pronunciation: "נַייט", example: { text: "for three nights", translation: "לשלושה לילות" } }
+  - { id: "breakfast", text: "breakfast", emoji: "🍳", translation: "ארוחת בוקר", pos: "noun", pronunciation: "בְּרֶקְפַסְט" }
   - { id: "id-like", text: "I'd like…", translation: "הייתי רוצה… (בנימוס)", pos: "phrase", pronunciation: "אַייד לַייק", example: { text: "I'd like a room, please.", translation: "הייתי רוצה חדר, בבקשה." } }
   - { id: "help", text: "help", translation: "עזרה, לעזור", pos: "verb", pronunciation: "הֶלְפּ", example: { text: "Can you help me?", translation: "אתה יכול לעזור לי?" } }
   - { id: "problem", text: "problem", translation: "בעיה", pos: "noun", pronunciation: "פְּרוֹבְּלֶם" }
@@ -132,6 +132,13 @@ lessons:
         text: "Excuse me, can you help me? I have a problem."
         translation: "סליחה, אתה יכול לעזור לי? יש לי בעיה."
         lexemes: [help, problem]
+      - id: u10-l1-pic1
+        type: multiple_choice
+        picture: "🛫"
+        prompt: "מה זה?"
+        options: ["airport", "ticket", "flight"]
+        correct: 0
+        lexemes: [airport]
 
   # ------------------------------------------------------------------ 2
   - id: u10-l2
@@ -193,6 +200,13 @@ lessons:
         text: "Good evening. I have a reservation."
         translation: "ערב טוב. יש לי הזמנה."
         lexemes: [good-evening, reservation]
+      - id: u10-l2-pic1
+        type: multiple_choice
+        picture: "🏨"
+        prompt: "מה זה?"
+        options: ["hotel", "flight", "passport"]
+        correct: 0
+        lexemes: [hotel]
 
   # ------------------------------------------------------------------ 3
   - id: u10-l3

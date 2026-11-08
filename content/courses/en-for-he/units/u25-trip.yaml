@@ -16,7 +16,7 @@ vocabulary:
   - { id: "booking", text: "booking", translation: "הזמנה (של מקום)", pos: "noun", pronunciation: "בּוּקִינְג" }
   - { id: "accommodation", text: "accommodation", translation: "לינה, מקום מגורים", pos: "noun", pronunciation: "אַקוֹמוֹדֵיישְׁן" }
   - { id: "itinerary", text: "itinerary", translation: "מסלול, לוח זמנים לנסיעה", pos: "noun", pronunciation: "אַייטִינֶרֶרִי" }
-  - { id: "luggage", text: "luggage", translation: "מטען, מזוודות", pos: "noun", pronunciation: "לַאגִיג'" }
+  - { id: "luggage", text: "luggage", emoji: "🧳", translation: "מטען, מזוודות", pos: "noun", pronunciation: "לַאגִיג'" }
   - { id: "departure", text: "departure", translation: "המראה, יציאה", pos: "noun", pronunciation: "דִיפַּארְצ'ֶר" }
   - { id: "arrival", text: "arrival", translation: "נחיתה, הגעה", pos: "noun", pronunciation: "אָרַייבֶל" }
   - { id: "cancel", text: "cancel", translation: "לבטל", pos: "verb", pronunciation: "קֶנְסֶל" }
@@ -33,16 +33,16 @@ vocabulary:
   - { id: "available", text: "available", translation: "פנוי, זמין", pos: "adjective", pronunciation: "אָבֵיילַבֶּל" }
   - { id: "fully-booked", text: "fully booked", translation: "מלא, אין מקום", pos: "phrase", pronunciation: "פוּלִי בּוּקְט" }
 
-  - { id: "plane", text: "plane", translation: "מטוס", pos: "noun", example: { text: "The plane lands at noon.", translation: "המטוס נוחת בצהריים." } }
-  - { id: "port", text: "port", translation: "נמל", pos: "noun", example: { text: "The port is near the city.", translation: "הנמל קרוב לעיר." } }
+  - { id: "plane", text: "plane", emoji: "✈️", translation: "מטוס", pos: "noun", example: { text: "The plane lands at noon.", translation: "המטוס נוחת בצהריים." } }
+  - { id: "port", text: "port", emoji: "⚓", translation: "נמל", pos: "noun", example: { text: "The port is near the city.", translation: "הנמל קרוב לעיר." } }
   - { id: "passenger", text: "passenger", translation: "נוסע", pos: "noun", example: { text: "Each passenger has a seat.", translation: "לכל נוסע יש מושב." } }
   - { id: "rail", text: "rail", translation: "מסילה; רכבת", pos: "noun", example: { text: "We go by rail to the airport.", translation: "אנחנו נוסעים ברכבת לשדה התעופה." } }
   - { id: "transport", text: "transport", translation: "תחבורה", pos: "noun", example: { text: "Public transport is cheap here.", translation: "התחבורה הציבורית זולה כאן." } }
-  - { id: "truck", text: "truck", translation: "משאית", pos: "noun", example: { text: "A truck brings the bags.", translation: "משאית מביאה את התיקים." } }
-  - { id: "restaurant", text: "restaurant", translation: "מסעדה", pos: "noun", example: { text: "The restaurant is kosher.", translation: "המסעדה כשרה." } }
-  - { id: "bowl", text: "bowl", translation: "קערה", pos: "noun", example: { text: "I eat a bowl of soup.", translation: "אני אוכל קערת מרק." } }
-  - { id: "lunch", text: "lunch", translation: "ארוחת צהריים", pos: "noun", example: { text: "We eat lunch at one o'clock.", translation: "אנחנו אוכלים ארוחת צהריים באחת." } }
-  - { id: "plate", text: "plate", translation: "צלחת", pos: "noun", example: { text: "Put the food on the plate.", translation: "שים את האוכל על הצלחת." } }
+  - { id: "truck", text: "truck", emoji: "🚚", translation: "משאית", pos: "noun", example: { text: "A truck brings the bags.", translation: "משאית מביאה את התיקים." } }
+  - { id: "restaurant", text: "restaurant", emoji: "🍴", translation: "מסעדה", pos: "noun", example: { text: "The restaurant is kosher.", translation: "המסעדה כשרה." } }
+  - { id: "bowl", text: "bowl", emoji: "🥣", translation: "קערה", pos: "noun", example: { text: "I eat a bowl of soup.", translation: "אני אוכל קערת מרק." } }
+  - { id: "lunch", text: "lunch", emoji: "🥪", translation: "ארוחת צהריים", pos: "noun", example: { text: "We eat lunch at one o'clock.", translation: "אנחנו אוכלים ארוחת צהריים באחת." } }
+  - { id: "plate", text: "plate", emoji: "🍽️", translation: "צלחת", pos: "noun", example: { text: "Put the food on the plate.", translation: "שים את האוכל על הצלחת." } }
   - { id: "silver", text: "silver", translation: "כסף (חומר)", pos: "noun", example: { text: "The spoon is silver.", translation: "הכפית עשויה כסף." } }
   - { id: "meal", text: "meal", translation: "ארוחה", pos: "noun", example: { text: "This meal is delicious.", translation: "הארוחה הזאת טעימה." } }
   - { id: "northern", text: "northern", translation: "צפוני", pos: "adjective", example: { text: "The northern road is quiet.", translation: "הכביש הצפוני שקט." } }
@@ -195,6 +195,13 @@ lessons:
         text: "Departure is at half past ten, and Tamar is picking us up."
         translation: "ההמראה בעשר וחצי, ותמר אוספת אותנו."
         lexemes: [departure, pick-up]
+      - id: u25-l2-pic1
+        type: multiple_choice
+        picture: "🧳"
+        prompt: "מה זה?"
+        options: ["luggage", "plate", "lunch"]
+        correct: 0
+        lexemes: [luggage]
 
   # ------------------------------------------------------------------ 3
   - id: u25-l3
@@ -681,6 +688,14 @@ lessons:
       - plane
       - port
       - passenger
+    - id: u25-n1-pic1
+      type: multiple_choice
+      picture: "✈️"
+      prompt: "מה זה?"
+      options: ["plane", "port", "truck"]
+      correct: 0
+      lexemes: [plane]
+
   - id: u25-n2
     kind: new
     title:
@@ -847,6 +862,14 @@ lessons:
       lexemes:
       - restaurant
       - lunch
+    - id: u25-n2-pic1
+      type: multiple_choice
+      picture: "🍴"
+      prompt: "מה זה?"
+      options: ["restaurant", "port", "plane"]
+      correct: 0
+      lexemes: [restaurant]
+
   - id: u25-n3
     kind: new
     title:

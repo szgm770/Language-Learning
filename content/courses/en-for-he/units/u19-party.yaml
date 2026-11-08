@@ -12,7 +12,7 @@ canDo:
   - להשתמש ב־Would you like…?‎ בנימוס
 
 vocabulary:
-  - { id: "birthday", text: "birthday", translation: "יום הולדת", pos: "noun", pronunciation: "בֶּרְתְ'דֵיי" }
+  - { id: "birthday", text: "birthday", emoji: "🎂", translation: "יום הולדת", pos: "noun", pronunciation: "בֶּרְתְ'דֵיי" }
   - { id: "happy-birthday", text: "Happy birthday!", translation: "יום הולדת שמח!", pos: "phrase", pronunciation: "הֶפִּי בֶּרְתְ'דֵיי" }
   - { id: "party", text: "party", translation: "מסיבה", pos: "noun", pronunciation: "פַּארְטִי" }
   - { id: "surprise", text: "surprise", translation: "הפתעה", pos: "noun", pronunciation: "סֶרְפְּרַייז" }
@@ -20,7 +20,7 @@ vocabulary:
   - { id: "invitation", text: "invitation", translation: "הזמנה (לאירוע)", pos: "noun", pronunciation: "אִינְוִיטֵיישְׁן" }
   - { id: "guests", text: "guests", translation: "אורחים", pos: "noun", pronunciation: "גֶסְטְס" }
   - { id: "present", text: "present", translation: "מתנה", pos: "noun", pronunciation: "פְּרֶזֶנְט" }
-  - { id: "candles", text: "candles", translation: "נרות", pos: "noun", pronunciation: "קֶנְדְלְז" }
+  - { id: "candles", text: "candles", emoji: "🕯️", translation: "נרות", pos: "noun", pronunciation: "קֶנְדְלְז" }
   - { id: "celebrate", text: "celebrate", translation: "לחגוג", pos: "verb", pronunciation: "סֶלֶבְּרֵייט" }
   - { id: "dance", text: "dance", translation: "לרקוד", pos: "verb", pronunciation: "דֶנְס" }
   - { id: "bring", text: "bring", translation: "להביא", pos: "verb", pronunciation: "בְּרִינְג" }
@@ -28,12 +28,12 @@ vocabulary:
   - { id: "wont", text: "won't", translation: "לא אעשה, לא יקרה (will not)", pos: "verb", pronunciation: "ווֹנְט", example: { text: "I won't tell him.", translation: "אני לא אגיד לו." } }
   - { id: "promise", text: "promise", translation: "להבטיח; הבטחה", pos: "verb", pronunciation: "פְּרוֹמִיס", example: { text: "I promise!", translation: "אני מבטיחה!" } }
   - { id: "would-you-like", text: "Would you like…?", translation: "תרצה…? (בנימוס)", pos: "phrase", pronunciation: "ווּד יוּ לַייק", example: { text: "Would you like some cake?", translation: "תרצה עוגה?" } }
-  - { id: "wedding", text: "wedding", translation: "חתונה", pos: "noun", pronunciation: "וֶדִינְג" }
+  - { id: "wedding", text: "wedding", emoji: "💒", translation: "חתונה", pos: "noun", pronunciation: "וֶדִינְג" }
   - { id: "get-married", text: "get married", translation: "להתחתן", pos: "verb", pronunciation: "גֶט מֶרִיד" }
   - { id: "congratulations", text: "Congratulations!", translation: "מזל טוב! ברכות!", pos: "phrase", pronunciation: "קוֹנְגְרֶצ'וּלֵיישְׁנְז" }
   - { id: "id-love-to", text: "I'd love to!", translation: "בשמחה! הייתי שמח!", pos: "phrase", pronunciation: "אַייד לַאב טוּ" }
 
-  - { id: "gift", text: "gift", translation: "מתנה", pos: "noun", pronunciation: "גִיפְט", example: { text: "This is a gift for you.", translation: "זו מתנה בשבילך." } }
+  - { id: "gift", text: "gift", emoji: "🎁", translation: "מתנה", pos: "noun", pronunciation: "גִיפְט", example: { text: "This is a gift for you.", translation: "זו מתנה בשבילך." } }
   - { id: "excite", text: "excite", translation: "לרגש", pos: "verb", pronunciation: "אִיקְסַאיט", example: { text: "The news can excite him.", translation: "החדשות יכולות לרגש אותו." } }
   - { id: "crazy", text: "crazy", translation: "מטורף", pos: "adjective", pronunciation: "קְרֵייזִי", example: { text: "This is a crazy idea.", translation: "זה רעיון מטורף." } }
   - { id: "secret", text: "secret", translation: "סוד", pos: "noun", pronunciation: "סִיקְרִט", example: { text: "It is a secret.", translation: "זה סוד." } }
@@ -43,11 +43,11 @@ vocabulary:
   - { id: "award", text: "award", translation: "פרס", pos: "noun", pronunciation: "אַוורְד", example: { text: "She wins an award.", translation: "היא זוכה בפרס." } }
   - { id: "champion", text: "champion", translation: "אלוף", pos: "noun", pronunciation: "צ'ֶמְפִּיֶן", example: { text: "He is the champion.", translation: "הוא האלוף." } }
   - { id: "tie", text: "tie", translation: "לקשור", pos: "verb", pronunciation: "טַאיי", example: { text: "Tie your shoes.", translation: "קשור את הנעליים שלך." } }
-  - { id: "wedding-2", text: "wedding", translation: "חתונה", pos: "noun", pronunciation: "וֶוּדִינְג", example: { text: "The wedding is on Sunday.", translation: "החתונה ביום ראשון." } }
-  - { id: "gold", text: "gold", translation: "זהב", pos: "noun", pronunciation: "גוֹלְד", example: { text: "The ring is gold.", translation: "הטבעת עשויה זהב." } }
+  - { id: "wedding-2", text: "wedding", emoji: "💒", translation: "חתונה", pos: "noun", pronunciation: "וֶוּדִינְג", example: { text: "The wedding is on Sunday.", translation: "החתונה ביום ראשון." } }
+  - { id: "gold", text: "gold", emoji: "🥇", translation: "זהב", pos: "noun", pronunciation: "גוֹלְד", example: { text: "The ring is gold.", translation: "הטבעת עשויה זהב." } }
   - { id: "lady", text: "lady", translation: "גברת", pos: "noun", pronunciation: "לֵיידִי", example: { text: "The lady is kind.", translation: "הגברת אדיבה." } }
-  - { id: "mom", text: "mom", translation: "אמא", pos: "noun", pronunciation: "מוֹם", example: { text: "My mom cooks well.", translation: "אמא שלי מבשלת היטב." } }
-  - { id: "dad", text: "dad", translation: "אבא", pos: "noun", pronunciation: "דֶד", example: { text: "My dad drives to work.", translation: "אבא שלי נוסע לעבודה." } }
+  - { id: "mom", text: "mom", emoji: "👩", translation: "אמא", pos: "noun", pronunciation: "מוֹם", example: { text: "My mom cooks well.", translation: "אמא שלי מבשלת היטב." } }
+  - { id: "dad", text: "dad", emoji: "👨", translation: "אבא", pos: "noun", pronunciation: "דֶד", example: { text: "My dad drives to work.", translation: "אבא שלי נוסע לעבודה." } }
   - { id: "soul", text: "soul", translation: "נשמה", pos: "noun", pronunciation: "סוֹל", example: { text: "He has a good soul.", translation: "יש לו נשמה טובה." } }
   - { id: "spirit", text: "spirit", translation: "רוח", pos: "noun", pronunciation: "סְפִּירִיט", example: { text: "The team has a good spirit.", translation: "לצוות יש רוח טובה." } }
   - { id: "adult", text: "adult", translation: "מבוגר", pos: "noun", pronunciation: "אַדָאלְט", example: { text: "He is an adult now.", translation: "הוא מבוגר עכשיו." } }
@@ -134,6 +134,13 @@ lessons:
         text: "Happy birthday, Ben! This present is for you."
         translation: "יום הולדת שמח, בן! המתנה הזאת בשבילך."
         lexemes: [happy-birthday, present]
+      - id: u19-l1-pic1
+        type: multiple_choice
+        picture: "🎂"
+        prompt: "מה זה?"
+        options: ["birthday", "gold", "mom"]
+        correct: 0
+        lexemes: [birthday]
 
   # ------------------------------------------------------------------ 2
   - id: u19-l2
@@ -347,6 +354,13 @@ lessons:
         text: "Congratulations! I'll be at the wedding, I promise."
         translation: "מזל טוב! אני אהיה בחתונה, אני מבטיחה."
         lexemes: [congratulations, will, wedding, promise]
+      - id: u19-l4-pic1
+        type: multiple_choice
+        picture: "💒"
+        prompt: "מה זה?"
+        options: ["wedding", "birthday", "gift"]
+        correct: 0
+        lexemes: [wedding]
 
   # ------------------------------------------------------------------ 5
   - id: u19-l5
@@ -666,6 +680,14 @@ lessons:
       lexemes:
       - gift
       - secret
+    - id: u19-n1-pic1
+      type: multiple_choice
+      picture: "🎁"
+      prompt: "מה זה?"
+      options: ["gift", "wedding", "gold"]
+      correct: 0
+      lexemes: [gift]
+
   - id: u19-n2
     kind: new
     title:
@@ -833,6 +855,14 @@ lessons:
       - award
       - champion
       - gold
+    - id: u19-n2-pic1
+      type: multiple_choice
+      picture: "💒"
+      prompt: "מה זה?"
+      options: ["wedding", "gold", "gift"]
+      correct: 0
+      lexemes: [wedding-2]
+
   - id: u19-n3
     kind: new
     title:
@@ -999,3 +1029,10 @@ lessons:
       lexemes:
       - mom
       - dad
+    - id: u19-n3-pic1
+      type: multiple_choice
+      picture: "👩"
+      prompt: "מה זה?"
+      options: ["mom", "wedding", "birthday"]
+      correct: 0
+      lexemes: [mom]

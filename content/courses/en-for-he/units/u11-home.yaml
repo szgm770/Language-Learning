@@ -15,14 +15,14 @@ vocabulary:
   - { id: "flat", text: "flat", translation: "דירה", pos: "noun", pronunciation: "פְלֶט", example: { text: "I live in a small flat.", translation: "אני גרה בדירה קטנה." } }
   - { id: "rent", text: "rent", translation: "שכר דירה; לשכור", pos: "noun", pronunciation: "רֶנְט", example: { text: "The rent is nine hundred pounds a month.", translation: "שכר הדירה תשע מאות פאונד לחודש." } }
   - { id: "bedroom", text: "bedroom", translation: "חדר שינה", pos: "noun", pronunciation: "בֶּדְרוּם" }
-  - { id: "kitchen", text: "kitchen", translation: "מטבח", pos: "noun", pronunciation: "קִיצֶ'ן" }
-  - { id: "bathroom", text: "bathroom", translation: "חדר אמבטיה", pos: "noun", pronunciation: "בַּאתְ'רוּם" }
+  - { id: "kitchen", text: "kitchen", emoji: "🍳", translation: "מטבח", pos: "noun", pronunciation: "קִיצֶ'ן" }
+  - { id: "bathroom", text: "bathroom", emoji: "🛁", translation: "חדר אמבטיה", pos: "noun", pronunciation: "בַּאתְ'רוּם" }
   - { id: "living-room", text: "living room", translation: "סלון", pos: "noun", pronunciation: "לִיבִינְג רוּם" }
-  - { id: "sofa", text: "sofa", translation: "ספה", pos: "noun", pronunciation: "סוֹפָה" }
-  - { id: "bed", text: "bed", translation: "מיטה", pos: "noun", pronunciation: "בֶּד" }
+  - { id: "sofa", text: "sofa", emoji: "🛋️", translation: "ספה", pos: "noun", pronunciation: "סוֹפָה" }
+  - { id: "bed", text: "bed", emoji: "🛏️", translation: "מיטה", pos: "noun", pronunciation: "בֶּד" }
   - { id: "table", text: "table", translation: "שולחן", pos: "noun", pronunciation: "טֵייבְּל" }
-  - { id: "chair", text: "chair", translation: "כיסא", pos: "noun", pronunciation: "צ'ֶר" }
-  - { id: "window", text: "window", translation: "חלון", pos: "noun", pronunciation: "וִינְדוֹ" }
+  - { id: "chair", text: "chair", emoji: "🪑", translation: "כיסא", pos: "noun", pronunciation: "צ'ֶר" }
+  - { id: "window", text: "window", emoji: "🪟", translation: "חלון", pos: "noun", pronunciation: "וִינְדוֹ" }
   - { id: "furniture", text: "furniture", translation: "רהיטים", pos: "noun", pronunciation: "פֶרְנִיצ'ֶר", example: { text: "The flat has furniture.", translation: "בדירה יש רהיטים." } }
   - { id: "upstairs", text: "upstairs", translation: "למעלה (בקומה)", pos: "adverb", pronunciation: "אַפְּסְטֶרְז" }
   - { id: "downstairs", text: "downstairs", translation: "למטה (בקומה)", pos: "adverb", pronunciation: "דַאוּנְסְטֶרְז" }
@@ -38,15 +38,15 @@ vocabulary:
   - { id: "did", text: "Did you…?", translation: "האם…? (שאלה בעבר)", pos: "phrase", pronunciation: "דִיד יוּ", example: { text: "Did you like the flat?", translation: "אהבת את הדירה?" } }
   - { id: "didnt", text: "didn't", translation: "לא (בעבר)", pos: "verb", pronunciation: "דִידֶנְט", example: { text: "I didn't like the kitchen.", translation: "לא אהבתי את המטבח." } }
 
-  - { id: "door", text: "door", translation: "דלת", pos: "noun", pronunciation: "דוֹר", example: { text: "Please close the door.", translation: "בבקשה סגור את הדלת." } }
-  - { id: "wall", text: "wall", translation: "קיר", pos: "noun", pronunciation: "וּוֹל", example: { text: "The wall is white.", translation: "הקיר לבן." } }
+  - { id: "door", text: "door", emoji: "🚪", translation: "דלת", pos: "noun", pronunciation: "דוֹר", example: { text: "Please close the door.", translation: "בבקשה סגור את הדלת." } }
+  - { id: "wall", text: "wall", emoji: "🧱", translation: "קיר", pos: "noun", pronunciation: "וּוֹל", example: { text: "The wall is white.", translation: "הקיר לבן." } }
   - { id: "floor", text: "floor", translation: "רצפה; קומה", pos: "noun", pronunciation: "פְלוֹר", example: { text: "The floor is clean.", translation: "הרצפה נקייה." } }
-  - { id: "garden", text: "garden", translation: "גינה", pos: "noun", pronunciation: "גַארְדֶן", example: { text: "We sit in the garden.", translation: "אנחנו יושבים בגינה." } }
+  - { id: "garden", text: "garden", emoji: "🌷", translation: "גינה", pos: "noun", pronunciation: "גַארְדֶן", example: { text: "We sit in the garden.", translation: "אנחנו יושבים בגינה." } }
   - { id: "hall", text: "hall", translation: "מסדרון; אולם", pos: "noun", pronunciation: "הוֹל", example: { text: "The hall is long.", translation: "המסדרון ארוך." } }
   - { id: "glass", text: "glass", translation: "זכוכית; כוס", pos: "noun", pronunciation: "גְלָס", example: { text: "I have a glass of water.", translation: "יש לי כוס מים." } }
-  - { id: "paper", text: "paper", translation: "נייר", pos: "noun", pronunciation: "פֵּייפֶּר", example: { text: "I need a piece of paper.", translation: "אני צריך דף נייר." } }
-  - { id: "wood", text: "wood", translation: "עץ (חומר)", pos: "noun", pronunciation: "וּוּד", example: { text: "The table is made of wood.", translation: "השולחן עשוי עץ." } }
-  - { id: "tree", text: "tree", translation: "עץ", pos: "noun", pronunciation: "טְרִי", example: { text: "There is a big tree in the garden.", translation: "יש עץ גדול בגינה." } }
+  - { id: "paper", text: "paper", emoji: "📄", translation: "נייר", pos: "noun", pronunciation: "פֵּייפֶּר", example: { text: "I need a piece of paper.", translation: "אני צריך דף נייר." } }
+  - { id: "wood", text: "wood", emoji: "🪵", translation: "עץ (חומר)", pos: "noun", pronunciation: "וּוּד", example: { text: "The table is made of wood.", translation: "השולחן עשוי עץ." } }
+  - { id: "tree", text: "tree", emoji: "🌳", translation: "עץ", pos: "noun", pronunciation: "טְרִי", example: { text: "There is a big tree in the garden.", translation: "יש עץ גדול בגינה." } }
   - { id: "block", text: "block", translation: "גוש; בלוק", pos: "noun", pronunciation: "בְּלוֹק", example: { text: "Put the block on the floor.", translation: "שים את הגוש על הרצפה." } }
   - { id: "paint", text: "paint", translation: "לצבוע; צבע", pos: "verb", pronunciation: "פֵּיינְט", example: { text: "We paint the wall blue.", translation: "אנחנו צובעים את הקיר בכחול." } }
   - { id: "fill", text: "fill", translation: "למלא", pos: "verb", pronunciation: "פִיל", example: { text: "Fill the glass with water.", translation: "מלא את הכוס במים." } }
@@ -135,6 +135,13 @@ lessons:
         text: "How much is the rent?"
         translation: "כמה שכר הדירה?"
         lexemes: [rent]
+      - id: u11-l1-pic1
+        type: multiple_choice
+        picture: "🍳"
+        prompt: "מה זה?"
+        options: ["kitchen", "paper", "bathroom"]
+        correct: 0
+        lexemes: [kitchen]
 
   # ------------------------------------------------------------------ 2
   - id: u11-l2
@@ -193,6 +200,13 @@ lessons:
         text: "The living room is quiet and bright."
         translation: "הסלון שקט ומואר."
         lexemes: [living-room, quiet, bright]
+      - id: u11-l2-pic1
+        type: multiple_choice
+        picture: "🛋️"
+        prompt: "מה זה?"
+        options: ["sofa", "bed", "chair"]
+        correct: 0
+        lexemes: [sofa]
 
   # ------------------------------------------------------------------ 3
   - id: u11-l3
@@ -666,6 +680,14 @@ lessons:
       lexemes:
       - door
       - floor
+    - id: u11-n1-pic1
+      type: multiple_choice
+      picture: "🚪"
+      prompt: "מה זה?"
+      options: ["door", "bathroom", "paper"]
+      correct: 0
+      lexemes: [door]
+
   - id: u11-n2
     kind: new
     title:
@@ -832,6 +854,14 @@ lessons:
       lexemes:
       - paint
       - fill
+    - id: u11-n2-pic1
+      type: multiple_choice
+      picture: "📄"
+      prompt: "מה זה?"
+      options: ["paper", "garden", "chair"]
+      correct: 0
+      lexemes: [paper]
+
   - id: u11-n3
     kind: new
     title:

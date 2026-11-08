@@ -12,13 +12,13 @@ canDo:
   - לדבר על בעיות פשוטות בטלפון ובמחשב
 
 vocabulary:
-  - { id: "phone", text: "phone", translation: "טלפון", pos: "noun", pronunciation: "פוֹן" }
+  - { id: "phone", text: "phone", emoji: "📱", translation: "טלפון", pos: "noun", pronunciation: "פוֹן" }
   - { id: "call", text: "call", translation: "להתקשר; שיחה", pos: "verb", pronunciation: "קוֹל", example: { text: "Can I call you later?", translation: "אפשר להתקשר אליך אחר כך?" } }
   - { id: "text-verb", text: "text", translation: "לשלוח הודעה", pos: "verb", pronunciation: "טֶקְסְט", example: { text: "Text me when you arrive.", translation: "תשלחי לי הודעה כשתגיעי." } }
   - { id: "message", text: "message", translation: "הודעה", pos: "noun", pronunciation: "מֶסֶג'" }
-  - { id: "battery", text: "battery", translation: "סוללה", pos: "noun", pronunciation: "בֶּטֶרִי" }
+  - { id: "battery", text: "battery", emoji: "🔋", translation: "סוללה", pos: "noun", pronunciation: "בֶּטֶרִי" }
   - { id: "charger", text: "charger", translation: "מטען", pos: "noun", pronunciation: "צ'ַארְג'ֶר" }
-  - { id: "laptop", text: "laptop", translation: "מחשב נייד", pos: "noun", pronunciation: "לֶפְּטוֹפּ" }
+  - { id: "laptop", text: "laptop", emoji: "💻", translation: "מחשב נייד", pos: "noun", pronunciation: "לֶפְּטוֹפּ" }
   - { id: "password", text: "password", translation: "סיסמה", pos: "noun", pronunciation: "פַּאסְוֶורְד" }
   - { id: "app", text: "app", translation: "אפליקציה", pos: "noun", pronunciation: "אֶפּ" }
   - { id: "online", text: "online", translation: "מחובר, ברשת", pos: "adverb", pronunciation: "אוֹנְלַיין" }
@@ -127,6 +127,13 @@ lessons:
         text: "Hang on, I can't hear you!"
         translation: "רגע, אני לא שומע אותך!"
         lexemes: [hang-on, cant-hear-you]
+      - id: u18-l1-pic1
+        type: multiple_choice
+        picture: "📱"
+        prompt: "מה זה?"
+        options: ["phone", "laptop", "battery"]
+        correct: 0
+        lexemes: [phone]
 
   # ------------------------------------------------------------------ 2
   - id: u18-l2
@@ -188,6 +195,13 @@ lessons:
         text: "My laptop isn't working. Can you help me?"
         translation: "הלפטופ שלי לא עובד. אתה יכול לעזור לי?"
         lexemes: [laptop, help]
+      - id: u18-l2-pic1
+        type: multiple_choice
+        picture: "💻"
+        prompt: "מה זה?"
+        options: ["laptop", "phone", "battery"]
+        correct: 0
+        lexemes: [laptop]
 
   # ------------------------------------------------------------------ 3
   - id: u18-l3
