@@ -35,6 +35,18 @@ vocabulary:
   - { id: "cash", text: "cash", translation: "מזומן", pos: "noun", pronunciation: "קֶשׁ" }
   - { id: "of-course", text: "Of course.", translation: "כמובן.", pos: "phrase", pronunciation: "אוֹב קוֹרְס" }
 
+  - { id: "food", text: "food", translation: "אוכל", pos: "noun", pronunciation: "פוּד", example: { text: "The food here is good.", translation: "האוכל כאן טוב." } }
+  - { id: "drink", text: "drink", translation: "לשתות; משקה", pos: "verb", pronunciation: "דְרִינְק", example: { text: "I drink water every day.", translation: "אני שותה מים כל יום." } }
+  - { id: "price", text: "price", translation: "מחיר", pos: "noun", pronunciation: "פְּרַאיס", example: { text: "What is the price?", translation: "מה המחיר?" } }
+  - { id: "bill", text: "bill", translation: "חשבון", pos: "noun", pronunciation: "בִּיל", example: { text: "Can I have the bill, please?", translation: "אפשר את החשבון, בבקשה?" } }
+  - { id: "choose", text: "choose", translation: "לבחור", pos: "verb", pronunciation: "צ'וּז", example: { text: "I choose the small cup.", translation: "אני בוחר את הכוס הקטנה." } }
+  - { id: "enjoy", text: "enjoy", translation: "ליהנות", pos: "verb", pronunciation: "אִינְג'וֹי", example: { text: "I enjoy my lunch.", translation: "אני נהנה מארוחת הצהריים." } }
+  - { id: "high", text: "high", translation: "גבוה", pos: "adjective", pronunciation: "האי", example: { text: "The price is too high.", translation: "המחיר גבוה מדי." } }
+  - { id: "low", text: "low", translation: "נמוך", pos: "adjective", pronunciation: "לוֹ", example: { text: "The price is low today.", translation: "המחיר נמוך היום." } }
+  - { id: "short", text: "short", translation: "קצר", pos: "adjective", pronunciation: "שׁוֹרְט", example: { text: "The film is short.", translation: "הסרט קצר." } }
+  - { id: "pretty", text: "pretty", translation: "די; יפה", pos: "adverb", pronunciation: "פְּרִיטִי", example: { text: "The soup is pretty hot.", translation: "המרק די חם." } }
+  - { id: "quite", text: "quite", translation: "די", pos: "adverb", pronunciation: "קְוַואיט", example: { text: "The cake is quite big.", translation: "העוגה די גדולה." } }
+  - { id: "less", text: "less", translation: "פחות", pos: "adverb", pronunciation: "לֶס", example: { text: "I eat less sugar now.", translation: "אני אוכל פחות סוכר עכשיו." } }
 grammar:
   - id: a-an-plurals
     title: { he: "יחיד ורבים: a, an", en: "a, an and plurals" }
@@ -391,3 +403,337 @@ lessons:
         text: "Can I have the check, please? Thank you!"
         translation: "אפשר לקבל את החשבון, בבקשה? תודה!"
         lexemes: [the-check]
+  # ------------------------------------------------------------------ story words
+  - id: u4-n1
+    kind: new
+    title:
+      he: 'היומן של נועה: אוכל ושתייה'
+      en: 'Noa''s diary: food and drinks'
+    exercises:
+    - id: u4-n1-01
+      type: dialogue
+      scene: בבית הקפה של אלי, עם התפריט.
+      lines:
+      - speaker: eli
+        text: Good morning! Here is the food list.
+        translation: בוקר טוב! הנה רשימת האוכל.
+      - speaker: noa
+        text: I choose a cheese sandwich. What is the price?
+        translation: אני בוחרת כריך גבינה. מה המחיר?
+      - speaker: eli
+        text: Five pounds. You can drink tea or juice.
+        translation: חמש לירות. אפשר לשתות תה או מיץ.
+      - speaker: noa
+        text: Great. I enjoy your coffee, but today I want tea. And the bill, please.
+        translation: מצוין. אני נהנית מהקפה שלך, אבל היום אני רוצה תה. ואת החשבון, בבקשה.
+    - id: u4-n1-02
+      type: learn
+      lexeme: food
+    - id: u4-n1-03
+      type: learn
+      lexeme: drink
+    - id: u4-n1-04
+      type: learn
+      lexeme: price
+    - id: u4-n1-05
+      type: learn
+      lexeme: bill
+    - id: u4-n1-06
+      type: learn
+      lexeme: choose
+    - id: u4-n1-07
+      type: learn
+      lexeme: enjoy
+    - id: u4-n1-08
+      type: match_pairs
+      pairs:
+      - - food
+        - אוכל
+      - - drink
+        - לשתות; משקה
+      - - price
+        - מחיר
+      - - bill
+        - חשבון
+      - - choose
+        - לבחור
+      - - enjoy
+        - ליהנות
+      lexemes:
+      - food
+      - drink
+      - price
+      - bill
+      - choose
+      - enjoy
+    - id: u4-n1-09
+      type: multiple_choice
+      prompt: bill – מה הפירוש?
+      options:
+      - חשבון
+      - לבחור
+      - לשתות; משקה
+      correct: 0
+      lexemes:
+      - bill
+    - id: u4-n1-10
+      type: multiple_choice
+      prompt: choose – מה הפירוש?
+      options:
+      - לבחור
+      - אוכל
+      - חשבון
+      correct: 0
+      lexemes:
+      - choose
+    - id: u4-n1-11
+      type: multiple_choice
+      prompt: enjoy – מה הפירוש?
+      options:
+      - ליהנות
+      - לבחור
+      - אוכל
+      correct: 0
+      lexemes:
+      - enjoy
+    - id: u4-n1-12
+      type: fill_blank
+      sentence: The ___ here is good.
+      translation: האוכל כאן טוב.
+      answers:
+      - food
+      options:
+      - food
+      - price
+      - enjoy
+      lexemes:
+      - food
+    - id: u4-n1-13
+      type: fill_blank
+      sentence: I ___ water every day.
+      translation: אני שותה מים כל יום.
+      answers:
+      - drink
+      options:
+      - drink
+      - price
+      - bill
+      lexemes:
+      - drink
+    - id: u4-n1-14
+      type: fill_blank
+      sentence: What is the ___?
+      translation: מה המחיר?
+      answers:
+      - price
+      options:
+      - price
+      - drink
+      - enjoy
+      lexemes:
+      - price
+    - id: u4-n1-15
+      type: word_bank
+      prompt: אפשר את החשבון, בבקשה?
+      answers:
+      - Can I have the bill, please?
+      distractors:
+      - enjoy
+      - drink
+      lexemes:
+      - bill
+    - id: u4-n1-16
+      type: word_bank
+      prompt: אני בוחר את הכוס הקטנה.
+      answers:
+      - I choose the small cup.
+      distractors:
+      - bill
+      - price
+      lexemes:
+      - choose
+    - id: u4-n1-17
+      type: listening_choice
+      audioText: I enjoy my lunch.
+      question: מה שמעתם?
+      options:
+      - אני נהנה מארוחת הצהריים.
+      - האוכל כאן טוב.
+      - אני שותה מים כל יום.
+      correct: 0
+      lexemes:
+      - enjoy
+    - id: u4-n1-18
+      type: speak_repeat
+      text: I choose the food and I drink tea.
+      translation: אני בוחרת אוכל ושותה תה.
+      lexemes:
+      - food
+      - drink
+      - choose
+  - id: u4-n2
+    kind: new
+    title:
+      he: 'היומן של נועה: גבוה, נמוך, קצר'
+      en: 'Noa''s diary: high, low, short'
+    exercises:
+    - id: u4-n2-01
+      type: dialogue
+      scene: נועה מחליטה מה להזמין לפי המחיר.
+      lines:
+      - speaker: noa
+        text: This cake is quite big, but the price is low.
+        translation: העוגה הזאת די גדולה, אבל המחיר נמוך.
+      - speaker: eli
+        text: The coffee is pretty strong. The short cup is less expensive.
+        translation: הקפה די חזק. הכוס הקטנה פחות יקרה.
+      - speaker: noa
+        text: The high price of the big cup is too much.
+        translation: המחיר הגבוה של הכוס הגדולה זה יותר מדי.
+      - speaker: eli
+        text: Then take the short one.
+        translation: אז קחי את הקטנה.
+    - id: u4-n2-02
+      type: learn
+      lexeme: high
+    - id: u4-n2-03
+      type: learn
+      lexeme: low
+    - id: u4-n2-04
+      type: learn
+      lexeme: short
+    - id: u4-n2-05
+      type: learn
+      lexeme: pretty
+    - id: u4-n2-06
+      type: learn
+      lexeme: quite
+    - id: u4-n2-07
+      type: learn
+      lexeme: less
+    - id: u4-n2-08
+      type: match_pairs
+      pairs:
+      - - high
+        - גבוה
+      - - low
+        - נמוך
+      - - short
+        - קצר
+      - - pretty
+        - די; יפה
+      - - quite
+        - די
+      - - less
+        - פחות
+      lexemes:
+      - high
+      - low
+      - short
+      - pretty
+      - quite
+      - less
+    - id: u4-n2-09
+      type: multiple_choice
+      prompt: short – מה הפירוש?
+      options:
+      - קצר
+      - גבוה
+      - די; יפה
+      correct: 0
+      lexemes:
+      - short
+    - id: u4-n2-10
+      type: multiple_choice
+      prompt: less – מה הפירוש?
+      options:
+      - פחות
+      - נמוך
+      - די; יפה
+      correct: 0
+      lexemes:
+      - less
+    - id: u4-n2-11
+      type: multiple_choice
+      prompt: quite – מה הפירוש?
+      options:
+      - די
+      - פחות
+      - קצר
+      correct: 0
+      lexemes:
+      - quite
+    - id: u4-n2-12
+      type: fill_blank
+      sentence: The price is too ___.
+      translation: המחיר גבוה מדי.
+      answers:
+      - high
+      options:
+      - high
+      - less
+      - short
+      lexemes:
+      - high
+    - id: u4-n2-13
+      type: fill_blank
+      sentence: The price is ___ today.
+      translation: המחיר נמוך היום.
+      answers:
+      - low
+      options:
+      - low
+      - pretty
+      - high
+      lexemes:
+      - low
+    - id: u4-n2-14
+      type: fill_blank
+      sentence: The soup is ___ hot.
+      translation: המרק די חם.
+      answers:
+      - pretty
+      options:
+      - pretty
+      - high
+      - low
+      lexemes:
+      - pretty
+    - id: u4-n2-15
+      type: word_bank
+      prompt: הסרט קצר.
+      answers:
+      - The film is short.
+      distractors:
+      - less
+      - low
+      lexemes:
+      - short
+    - id: u4-n2-16
+      type: word_bank
+      prompt: אני אוכל פחות סוכר עכשיו.
+      answers:
+      - I eat less sugar now.
+      distractors:
+      - low
+      - quite
+      lexemes:
+      - less
+    - id: u4-n2-17
+      type: listening_choice
+      audioText: The cake is quite big.
+      question: מה שמעתם?
+      options:
+      - העוגה די גדולה.
+      - המחיר גבוה מדי.
+      - המחיר נמוך היום.
+      correct: 0
+      lexemes:
+      - quite
+    - id: u4-n2-18
+      type: speak_repeat
+      text: The price is quite low today.
+      translation: המחיר די נמוך היום.
+      lexemes:
+      - low
+      - quite

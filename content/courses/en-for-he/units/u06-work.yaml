@@ -34,6 +34,18 @@ vocabulary:
   - { id: "at-home", text: "at home", translation: "בבית", pos: "phrase", pronunciation: "אֶט הוֹם", example: { text: "I work at home on Thursday.", translation: "אני עובדת מהבית ביום חמישי." } }
   - { id: "like", text: "like", translation: "לאהוב, לחבב", pos: "verb", pronunciation: "לַייק", example: { text: "I like my job.", translation: "אני אוהבת את העבודה שלי." } }
 
+  - { id: "system", text: "system", translation: "מערכת", pos: "noun", pronunciation: "סִיסְטֶם", example: { text: "The system is slow today.", translation: "המערכת איטית היום." } }
+  - { id: "report", text: "report", translation: "דוח", pos: "noun", pronunciation: "רִיפּוֹרְט", example: { text: "I write a report every week.", translation: "אני כותב דוח כל שבוע." } }
+  - { id: "program", text: "program", translation: "תוכנה; תוכנית", pos: "noun", pronunciation: "פְּרוֹגְרֶם", example: { text: "This program is easy to use.", translation: "התוכנה הזאת קלה לשימוש." } }
+  - { id: "list", text: "list", translation: "רשימה", pos: "noun", pronunciation: "לִיסְט", example: { text: "I have a long list of names.", translation: "יש לי רשימה ארוכה של שמות." } }
+  - { id: "form", text: "form", translation: "טופס", pos: "noun", pronunciation: "פוֹרְם", example: { text: "Please fill this form.", translation: "בבקשה מלא את הטופס הזה." } }
+  - { id: "send", text: "send", translation: "לשלוח", pos: "verb", pronunciation: "סֶנְד", example: { text: "I send an email to the manager.", translation: "אני שולח מייל למנהל." } }
+  - { id: "create", text: "create", translation: "ליצור", pos: "verb", pronunciation: "קְרִיאֵייט", example: { text: "We create a new page.", translation: "אנחנו יוצרים עמוד חדש." } }
+  - { id: "design", text: "design", translation: "עיצוב", pos: "noun", pronunciation: "דִיזַיין", example: { text: "I like the design.", translation: "אני אוהב את העיצוב." } }
+  - { id: "add", text: "add", translation: "להוסיף", pos: "verb", pronunciation: "אֶד", example: { text: "Please add your name.", translation: "בבקשה הוסף את השם שלך." } }
+  - { id: "test", text: "test", translation: "לבדוק; מבחן", pos: "verb", pronunciation: "טֶסְט", example: { text: "We test the program.", translation: "אנחנו בודקים את התוכנה." } }
+  - { id: "complete", text: "complete", translation: "להשלים", pos: "verb", pronunciation: "קוֹמְפְּלִיט", example: { text: "I complete the form now.", translation: "אני משלים את הטופס עכשיו." } }
+  - { id: "receive", text: "receive", translation: "לקבל", pos: "verb", pronunciation: "רִיסִיב", example: { text: "I receive many emails.", translation: "אני מקבל הרבה מיילים." } }
 grammar:
   - id: third-person-s
     title: { he: "ה־s של הוא והיא: he works", en: "He works, she works" }
@@ -408,3 +420,339 @@ lessons:
         text: "What does she do? She's a teacher."
         translation: "במה היא עובדת? היא מורה."
         lexemes: [does, teacher]
+  # ------------------------------------------------------------------ story words
+  - id: u6-n1
+    kind: new
+    title:
+      he: 'היומן של נועה: המערכת והדוח'
+      en: 'Noa''s diary: the system and the report'
+    exercises:
+    - id: u6-n1-01
+      type: dialogue
+      scene: נועה מסבירה לבן מה היא עושה בעבודה.
+      lines:
+      - speaker: noa
+        text: I work on a computer system. Today I send the report.
+        translation: אני עובדת על מערכת מחשב. היום אני שולחת את הדוח.
+      - speaker: ben
+        text: Is it a new program?
+        translation: זו תוכנה חדשה?
+      - speaker: noa
+        text: Yes. I check the list and fill the form.
+        translation: כן. אני בודקת את הרשימה וממלאת את הטופס.
+      - speaker: ben
+        text: Sounds busy.
+        translation: נשמע עמוס.
+    - id: u6-n1-02
+      type: learn
+      lexeme: system
+    - id: u6-n1-03
+      type: learn
+      lexeme: report
+    - id: u6-n1-04
+      type: learn
+      lexeme: program
+    - id: u6-n1-05
+      type: learn
+      lexeme: list
+    - id: u6-n1-06
+      type: learn
+      lexeme: form
+    - id: u6-n1-07
+      type: learn
+      lexeme: send
+    - id: u6-n1-08
+      type: match_pairs
+      pairs:
+      - - system
+        - מערכת
+      - - report
+        - דוח
+      - - program
+        - תוכנה; תוכנית
+      - - list
+        - רשימה
+      - - form
+        - טופס
+      - - send
+        - לשלוח
+      lexemes:
+      - system
+      - report
+      - program
+      - list
+      - form
+      - send
+    - id: u6-n1-09
+      type: multiple_choice
+      prompt: list – מה הפירוש?
+      options:
+      - רשימה
+      - דוח
+      - לשלוח
+      correct: 0
+      lexemes:
+      - list
+    - id: u6-n1-10
+      type: multiple_choice
+      prompt: report – מה הפירוש?
+      options:
+      - דוח
+      - תוכנה; תוכנית
+      - טופס
+      correct: 0
+      lexemes:
+      - report
+    - id: u6-n1-11
+      type: multiple_choice
+      prompt: system – מה הפירוש?
+      options:
+      - מערכת
+      - טופס
+      - דוח
+      correct: 0
+      lexemes:
+      - system
+    - id: u6-n1-12
+      type: fill_blank
+      sentence: Please fill this ___.
+      translation: בבקשה מלא את הטופס הזה.
+      answers:
+      - form
+      options:
+      - form
+      - send
+      - program
+      lexemes:
+      - form
+    - id: u6-n1-13
+      type: fill_blank
+      sentence: This ___ is easy to use.
+      translation: התוכנה הזאת קלה לשימוש.
+      answers:
+      - program
+      options:
+      - program
+      - system
+      - report
+      lexemes:
+      - program
+    - id: u6-n1-14
+      type: fill_blank
+      sentence: I ___ an email to the manager.
+      translation: אני שולח מייל למנהל.
+      answers:
+      - send
+      options:
+      - send
+      - form
+      - report
+      lexemes:
+      - send
+    - id: u6-n1-15
+      type: word_bank
+      prompt: יש לי רשימה ארוכה של שמות.
+      answers:
+      - I have a long list of names.
+      distractors:
+      - program
+      - form
+      lexemes:
+      - list
+    - id: u6-n1-16
+      type: word_bank
+      prompt: אני כותב דוח כל שבוע.
+      answers:
+      - I write a report every week.
+      distractors:
+      - send
+      - form
+      lexemes:
+      - report
+    - id: u6-n1-17
+      type: listening_choice
+      audioText: The system is slow today.
+      question: מה שמעתם?
+      options:
+      - המערכת איטית היום.
+      - אני כותב דוח כל שבוע.
+      - התוכנה הזאת קלה לשימוש.
+      correct: 0
+      lexemes:
+      - system
+    - id: u6-n1-18
+      type: speak_repeat
+      text: I send the report from the new system.
+      translation: אני שולחת את הדוח מהמערכת החדשה.
+      lexemes:
+      - system
+      - report
+      - send
+  - id: u6-n2
+    kind: new
+    title:
+      he: 'היומן של נועה: ליצור ולבדוק'
+      en: 'Noa''s diary: create and test'
+    exercises:
+    - id: u6-n2-01
+      type: dialogue
+      scene: הצוות מכין גרסה חדשה.
+      lines:
+      - speaker: ben
+        text: Let's create a new design for the page.
+        translation: בואו ניצור עיצוב חדש לעמוד.
+      - speaker: noa
+        text: First I add the text. Then we test it.
+        translation: קודם אני מוסיפה את הטקסט. אחר כך בודקים.
+      - speaker: ben
+        text: We must complete it today. The client requires a fast answer.
+        translation: צריך לסיים היום. הלקוח דורש תשובה מהירה.
+      - speaker: noa
+        text: Then I receive his reply tomorrow.
+        translation: אז אקבל את התשובה שלו מחר.
+    - id: u6-n2-02
+      type: learn
+      lexeme: create
+    - id: u6-n2-03
+      type: learn
+      lexeme: design
+    - id: u6-n2-04
+      type: learn
+      lexeme: add
+    - id: u6-n2-05
+      type: learn
+      lexeme: test
+    - id: u6-n2-06
+      type: learn
+      lexeme: complete
+    - id: u6-n2-07
+      type: learn
+      lexeme: receive
+    - id: u6-n2-08
+      type: match_pairs
+      pairs:
+      - - create
+        - ליצור
+      - - design
+        - עיצוב
+      - - add
+        - להוסיף
+      - - test
+        - לבדוק; מבחן
+      - - complete
+        - להשלים
+      - - receive
+        - לקבל
+      lexemes:
+      - create
+      - design
+      - add
+      - test
+      - complete
+      - receive
+    - id: u6-n2-09
+      type: multiple_choice
+      prompt: add – מה הפירוש?
+      options:
+      - להוסיף
+      - לבדוק; מבחן
+      - ליצור
+      correct: 0
+      lexemes:
+      - add
+    - id: u6-n2-10
+      type: multiple_choice
+      prompt: complete – מה הפירוש?
+      options:
+      - להשלים
+      - לקבל
+      - להוסיף
+      correct: 0
+      lexemes:
+      - complete
+    - id: u6-n2-11
+      type: multiple_choice
+      prompt: test – מה הפירוש?
+      options:
+      - לבדוק; מבחן
+      - לקבל
+      - ליצור
+      correct: 0
+      lexemes:
+      - test
+    - id: u6-n2-12
+      type: fill_blank
+      sentence: I like the ___.
+      translation: אני אוהב את העיצוב.
+      answers:
+      - design
+      options:
+      - design
+      - complete
+      - test
+      lexemes:
+      - design
+    - id: u6-n2-13
+      type: fill_blank
+      sentence: We ___ a new page.
+      translation: אנחנו יוצרים עמוד חדש.
+      answers:
+      - create
+      options:
+      - create
+      - receive
+      - complete
+      lexemes:
+      - create
+    - id: u6-n2-14
+      type: fill_blank
+      sentence: I ___ many emails.
+      translation: אני מקבל הרבה מיילים.
+      answers:
+      - receive
+      options:
+      - receive
+      - test
+      - add
+      lexemes:
+      - receive
+    - id: u6-n2-15
+      type: word_bank
+      prompt: בבקשה הוסף את השם שלך.
+      answers:
+      - Please add your name.
+      distractors:
+      - design
+      - test
+      lexemes:
+      - add
+    - id: u6-n2-16
+      type: word_bank
+      prompt: אני משלים את הטופס עכשיו.
+      answers:
+      - I complete the form now.
+      distractors:
+      - create
+      - receive
+      lexemes:
+      - complete
+    - id: u6-n2-17
+      type: listening_choice
+      audioText: We test the program.
+      question: מה שמעתם?
+      options:
+      - אנחנו בודקים את התוכנה.
+      - אנחנו יוצרים עמוד חדש.
+      - אני אוהב את העיצוב.
+      correct: 0
+      lexemes:
+      - test
+    - id: u6-n2-18
+      type: speak_repeat
+      text: We create, test and complete the design.
+      translation: אנחנו יוצרים, בודקים ומשלימים את העיצוב.
+      lexemes:
+      - create
+      - design
+      - test
+      - complete
