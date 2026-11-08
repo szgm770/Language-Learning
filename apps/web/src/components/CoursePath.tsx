@@ -156,6 +156,16 @@ export function CoursePath({
                         </li>
                       ))}
                     </ul>
+                    {manifest.speechLang !== "none" &&
+                      unit.lessons.flatMap((l) => l.exercises).filter((e) => e.type === "dialogue").length >= 2 && (
+                        <Link
+                          href={`/listen/${courseId}/${unit.id}/`}
+                          className="mb-3 flex min-h-12 items-center gap-2 rounded-2xl bg-sunken px-3 font-semibold text-cobalt"
+                        >
+                          <Icon name="volume" className="size-5" />
+                          פרק להאזנה: כל שיחות היחידה ברצף
+                        </Link>
+                      )}
                     <ol className="flex flex-col gap-2">
                       {unit.lessons.map((lesson) => {
                         const isDone = isCompleted(state, courseId, lesson.id);
