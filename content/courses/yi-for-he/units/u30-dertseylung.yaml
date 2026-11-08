@@ -1,0 +1,418 @@
+id: u30-dertseylung
+cefr: C1
+scene: day
+title:
+  he: לספר סיפור
+  en: Telling a story
+story: 'מנחם מספר לסבא את סיפור היום בסדר נכון: בהתחלה, אחר כך ובסוף.'
+canDo:
+- לספר סיפור קצר בסדר נכון
+- 'להשתמש במילות קישור: דערנאָך, צום סוף'
+- לשלב עבר ונימוק
+vocabulary:
+- id: dertseyln
+  text: דערציילן
+  translation: לספר
+  pos: verb
+- id: dernokh
+  text: דערנאָך
+  translation: אחר כך
+  pos: adverb
+- id: tsumsof
+  text: צום סוף
+  translation: בסוף
+  pos: adverb
+- id: onheyb
+  text: אָנהייב
+  translation: התחלה
+  pos: noun
+lessons:
+- id: u30-l1
+  kind: new
+  title:
+    he: לספר
+    en: Lesson
+  exercises:
+  - id: u30-l1-01
+    type: tip
+    title: סדר הסיפור
+    text: '**אין אָנהייב** – בהתחלה. **דערנאָך** – אחר כך. **צום סוף** – בסוף.
+
+      עם **האָב** ושם פועל בעבר מספרים מה קרה.
+
+      '
+  - id: u30-l1-02
+    type: learn
+    lexeme: dertseyln
+  - id: u30-l1-03
+    type: learn
+    lexeme: dernokh
+  - id: u30-l1-04
+    type: learn
+    lexeme: tsumsof
+  - id: u30-l1-05
+    type: learn
+    lexeme: onheyb
+  - id: u30-l1-06
+    type: match_pairs
+    pairs:
+    - - דערציילן
+      - לספר
+    - - דערנאָך
+      - אחר כך
+    - - צום סוף
+      - בסוף
+    - - אָנהייב
+      - התחלה
+    lexemes:
+    - dertseyln
+    - dernokh
+    - tsumsof
+    - onheyb
+  - id: u30-l1-07
+    type: multiple_choice
+    prompt: מה פירוש דערציילן?
+    options:
+    - לספר
+    - אחר כך
+    - בסוף
+    correct: 0
+    lexemes:
+    - dertseyln
+  - id: u30-l1-08
+    type: multiple_choice
+    prompt: מה פירוש דערנאָך?
+    options:
+    - אחר כך
+    - בסוף
+    correct: 0
+    lexemes:
+    - dernokh
+  - id: u30-l1-09
+    type: multiple_choice
+    prompt: מה פירוש צום סוף?
+    options:
+    - בסוף
+    - אחר כך
+    correct: 0
+    lexemes:
+    - tsumsof
+  - id: u30-l1-10
+    type: multiple_choice
+    prompt: מה פירוש אָנהייב?
+    options:
+    - התחלה
+    - לספר
+    - אחר כך
+    correct: 0
+    lexemes:
+    - onheyb
+  - id: u30-l1-11
+    type: translate
+    direction: to_source
+    prompt: איך וויל דערציילן וואָס איך האָב געזען.
+    answers:
+    - אני רוצה לספר מה ראיתי
+    lexemes: &id001
+    - vil
+    - dertseyln
+    - hobn
+    - gezen
+  - id: u30-l1-12
+    type: translate
+    direction: to_target
+    prompt: אני רוצה לספר מה ראיתי
+    answers:
+    - איך וויל דערציילן וואָס איך האָב געזען
+    lexemes: *id001
+  - id: u30-l1-13
+    type: word_bank
+    prompt: אני רוצה לספר מה ראיתי
+    answers:
+    - איך וויל דערציילן וואָס איך האָב געזען
+    distractors:
+    - דערנאָך
+    - אָנהייב
+    lexemes: *id001
+  - id: u30-l1-14
+    type: fill_blank
+    sentence: איך וויל ___ וואָס איך האָב געזען.
+    translation: אני רוצה לספר מה ראיתי
+    answers:
+    - דערציילן
+    options:
+    - דערציילן
+    - דערנאָך
+    - אָנהייב
+    lexemes: *id001
+  - id: u30-l1-15
+    type: translate
+    direction: to_source
+    prompt: מיר האָבן געלערנט און דערנאָך געדאַוונט.
+    answers:
+    - למדנו ואחר כך התפללנו
+    lexemes: &id002
+    - mir
+    - hobn
+    - gelernt
+    - dernokh
+    - gedavnt
+  - id: u30-l1-16
+    type: translate
+    direction: to_target
+    prompt: למדנו ואחר כך התפללנו
+    answers:
+    - מיר האָבן געלערנט און דערנאָך געדאַוונט
+    lexemes: *id002
+  - id: u30-l1-17
+    type: word_bank
+    prompt: למדנו ואחר כך התפללנו
+    answers:
+    - מיר האָבן געלערנט און דערנאָך געדאַוונט
+    distractors:
+    - דערציילן
+    - אָנהייב
+    lexemes: *id002
+  - id: u30-l1-18
+    type: fill_blank
+    sentence: מיר האָבן געלערנט און ___ געדאַוונט.
+    translation: למדנו ואחר כך התפללנו
+    answers:
+    - דערנאָך
+    options:
+    - דערנאָך
+    - דערציילן
+    - אָנהייב
+    lexemes: *id002
+- id: u30-l2
+  kind: new
+  title:
+    he: דוגמה
+    en: Lesson
+  exercises:
+  - id: u30-l2-01
+    type: dialogue
+    scene: home
+    lines:
+    - speaker: zeyde
+      text: דערציילן, וואָס איז געווען?
+      translation: ספר, מה היה?
+    - speaker: menachem
+      text: מיר האָבן געלערנט און דערנאָך געדאַוונט.
+      translation: למדנו ואחר כך התפללנו.
+  - id: u30-l2-02
+    type: translate
+    direction: to_source
+    prompt: צום סוף האָבן מיר געהערט אַ ניגון.
+    answers:
+    - בסוף שמענו ניגון
+    lexemes: &id003
+    - tsumsof
+    - hobn
+    - mir
+    - gehert
+    - nigun
+  - id: u30-l2-03
+    type: translate
+    direction: to_target
+    prompt: בסוף שמענו ניגון
+    answers:
+    - צום סוף האָבן מיר געהערט אַ ניגון
+    lexemes: *id003
+  - id: u30-l2-04
+    type: word_bank
+    prompt: בסוף שמענו ניגון
+    answers:
+    - צום סוף האָבן מיר געהערט אַ ניגון
+    distractors:
+    - אָנהייב
+    - דערנאָך
+    lexemes: *id003
+  - id: u30-l2-05
+    type: fill_blank
+    sentence: צום ___ האָבן מיר געהערט אַ ניגון.
+    translation: בסוף שמענו ניגון
+    answers:
+    - סוף
+    options:
+    - סוף
+    - דערציילן
+    - אָנהייב
+    lexemes: *id003
+  - id: u30-l2-06
+    type: translate
+    direction: to_source
+    prompt: אין אָנהייב איז דער ספֿר שווער.
+    answers:
+    - בהתחלה הספר קשה
+    lexemes: &id004
+    - onheyb
+    - sefer
+    - iz
+    - shver
+  - id: u30-l2-07
+    type: translate
+    direction: to_target
+    prompt: בהתחלה הספר קשה
+    answers:
+    - אין אָנהייב איז דער ספֿר שווער
+    lexemes: *id004
+  - id: u30-l2-08
+    type: word_bank
+    prompt: בהתחלה הספר קשה
+    answers:
+    - אין אָנהייב איז דער ספֿר שווער
+    distractors:
+    - דערנאָך
+    - דערציילן
+    lexemes: *id004
+  - id: u30-l2-09
+    type: fill_blank
+    sentence: אין ___ איז דער ספֿר שווער.
+    translation: בהתחלה הספר קשה
+    answers:
+    - אָנהייב
+    options:
+    - אָנהייב
+    - דערנאָך
+    - דערציילן
+    lexemes: *id004
+- id: u30-review
+  kind: review
+  title:
+    he: 'חזרה: לספר סיפור'
+    en: Review
+  exercises:
+  - id: u30-review-01
+    type: match_pairs
+    pairs:
+    - - דערציילן
+      - לספר
+    - - דערנאָך
+      - אחר כך
+    - - צום סוף
+      - בסוף
+    - - אָנהייב
+      - התחלה
+    lexemes:
+    - dertseyln
+    - dernokh
+    - tsumsof
+    - onheyb
+  - id: u30-review-02
+    type: translate
+    direction: to_source
+    prompt: איך וויל דערציילן וואָס איך האָב געזען.
+    answers:
+    - אני רוצה לספר מה ראיתי
+    lexemes: *id001
+  - id: u30-review-03
+    type: translate
+    direction: to_target
+    prompt: אני רוצה לספר מה ראיתי
+    answers:
+    - איך וויל דערציילן וואָס איך האָב געזען
+    lexemes: *id001
+  - id: u30-review-04
+    type: word_bank
+    prompt: אני רוצה לספר מה ראיתי
+    answers:
+    - איך וויל דערציילן וואָס איך האָב געזען
+    distractors:
+    - דערנאָך
+    - אָנהייב
+    lexemes: *id001
+  - id: u30-review-05
+    type: translate
+    direction: to_source
+    prompt: מיר האָבן געלערנט און דערנאָך געדאַוונט.
+    answers:
+    - למדנו ואחר כך התפללנו
+    lexemes: *id002
+  - id: u30-review-06
+    type: translate
+    direction: to_target
+    prompt: למדנו ואחר כך התפללנו
+    answers:
+    - מיר האָבן געלערנט און דערנאָך געדאַוונט
+    lexemes: *id002
+  - id: u30-review-07
+    type: word_bank
+    prompt: למדנו ואחר כך התפללנו
+    answers:
+    - מיר האָבן געלערנט און דערנאָך געדאַוונט
+    distractors:
+    - דערציילן
+    - אָנהייב
+    lexemes: *id002
+  - id: u30-review-08
+    type: translate
+    direction: to_source
+    prompt: צום סוף האָבן מיר געהערט אַ ניגון.
+    answers:
+    - בסוף שמענו ניגון
+    lexemes: *id003
+  - id: u30-review-09
+    type: translate
+    direction: to_target
+    prompt: בסוף שמענו ניגון
+    answers:
+    - צום סוף האָבן מיר געהערט אַ ניגון
+    lexemes: *id003
+  - id: u30-review-10
+    type: word_bank
+    prompt: בסוף שמענו ניגון
+    answers:
+    - צום סוף האָבן מיר געהערט אַ ניגון
+    distractors:
+    - אָנהייב
+    - דערנאָך
+    lexemes: *id003
+  - id: u30-review-11
+    type: translate
+    direction: to_source
+    prompt: אין אָנהייב איז דער ספֿר שווער.
+    answers:
+    - בהתחלה הספר קשה
+    lexemes: *id004
+  - id: u30-review-12
+    type: translate
+    direction: to_target
+    prompt: בהתחלה הספר קשה
+    answers:
+    - אין אָנהייב איז דער ספֿר שווער
+    lexemes: *id004
+  - id: u30-review-13
+    type: word_bank
+    prompt: בהתחלה הספר קשה
+    answers:
+    - אין אָנהייב איז דער ספֿר שווער
+    distractors:
+    - דערנאָך
+    - דערציילן
+    lexemes: *id004
+  - id: u30-review-14
+    type: write
+    prompt: 'ספרו בשלושה משפטים מה עשיתם היום: בהתחלה, אחר כך ובסוף.'
+    minWords: 16
+    checks:
+    - label: השתמשתם בעבר עם האב
+      any:
+      - האב
+      - האט
+      - האבן
+    - label: השתמשתם בדערנאָך או צום סוף
+      any:
+      - דערנאך
+      - סוף
+      - אנה(?:ײ|יי)ב
+    - label: הזכרתם פעולה
+      any:
+      - געלערנט
+      - געדאוונט
+      - געגעסן
+      - געזען
+      - געהערט
+      - געל(?:ײ|יי)ענט
+    model: אין אָנהייב האָב איך געלערנט. דערנאָך האָב איך געדאַוונט. צום סוף האָב איך געגעסן.
+    lexemes: []

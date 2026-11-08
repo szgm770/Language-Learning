@@ -1,0 +1,430 @@
+id: u27-meynung
+cefr: B2
+scene: study
+title:
+  he: דעה והרגשה
+  en: Opinions
+story: 'מנחם אומר לסבא מה הוא חושב על הלימוד: קל או קשה, מעניין, ומה הוא אוהב.'
+canDo:
+- לומר מה אני אוהב
+- 'להביע דעה: קל, קשה, מעניין'
+- לנמק דעה
+vocabulary:
+- id: lib
+  text: ליב
+  translation: אהוב (ליב האָבן)
+  pos: adjective
+- id: gring
+  text: גרינג
+  translation: קל
+  pos: adjective
+- id: shver
+  text: שווער
+  translation: קשה
+  pos: adjective
+- id: interesant
+  text: אינטערעסאַנט
+  translation: מעניין
+  pos: adjective
+- id: gliklekh
+  text: גליקלעך
+  translation: שמח
+  pos: adjective
+lessons:
+- id: u27-l1
+  kind: new
+  title:
+    he: קל וקשה
+    en: Lesson
+  exercises:
+  - id: u27-l1-01
+    type: tip
+    title: דעה
+    text: '**איך האָב ליב** פירושו "אני אוהב". **גרינג** – קל, **שווער** – קשה, **אינטערעסאַנט** – מעניין.
+
+      אפשר לנמק: **איך מיין אַז דאָס איז שווער**.
+
+      '
+  - id: u27-l1-02
+    type: learn
+    lexeme: lib
+  - id: u27-l1-03
+    type: learn
+    lexeme: gring
+  - id: u27-l1-04
+    type: learn
+    lexeme: shver
+  - id: u27-l1-05
+    type: learn
+    lexeme: interesant
+  - id: u27-l1-06
+    type: match_pairs
+    pairs:
+    - - ליב
+      - אהוב (ליב האָבן)
+    - - גרינג
+      - קל
+    - - שווער
+      - קשה
+    - - אינטערעסאַנט
+      - מעניין
+    lexemes:
+    - lib
+    - gring
+    - shver
+    - interesant
+  - id: u27-l1-07
+    type: multiple_choice
+    prompt: מה פירוש ליב?
+    options:
+    - אהוב (ליב האָבן)
+    - קל
+    - קשה
+    correct: 0
+    lexemes:
+    - lib
+  - id: u27-l1-08
+    type: multiple_choice
+    prompt: מה פירוש גרינג?
+    options:
+    - קל
+    - אהוב (ליב האָבן)
+    - קשה
+    correct: 0
+    lexemes:
+    - gring
+  - id: u27-l1-09
+    type: multiple_choice
+    prompt: מה פירוש שווער?
+    options:
+    - קשה
+    - אהוב (ליב האָבן)
+    - קל
+    correct: 0
+    lexemes:
+    - shver
+  - id: u27-l1-10
+    type: multiple_choice
+    prompt: מה פירוש אינטערעסאַנט?
+    options:
+    - מעניין
+    - אהוב (ליב האָבן)
+    - קל
+    correct: 0
+    lexemes:
+    - interesant
+  - id: u27-l1-11
+    type: translate
+    direction: to_source
+    prompt: איך האָב ליב צו לערנען.
+    answers:
+    - אני אוהב ללמוד
+    lexemes: &id001
+    - hobn
+    - lib
+    - lernen
+  - id: u27-l1-12
+    type: translate
+    direction: to_target
+    prompt: אני אוהב ללמוד
+    answers:
+    - איך האָב ליב צו לערנען
+    lexemes: *id001
+  - id: u27-l1-13
+    type: word_bank
+    prompt: אני אוהב ללמוד
+    answers:
+    - איך האָב ליב צו לערנען
+    distractors:
+    - אינטערעסאַנט
+    - גרינג
+    lexemes: *id001
+  - id: u27-l1-14
+    type: fill_blank
+    sentence: איך האָב ___ צו לערנען.
+    translation: אני אוהב ללמוד
+    answers:
+    - ליב
+    options:
+    - ליב
+    - אינטערעסאַנט
+    - שווער
+    lexemes: *id001
+  - id: u27-l1-15
+    type: translate
+    direction: to_source
+    prompt: דאָס איז גרינג.
+    answers:
+    - זה קל
+    lexemes: &id002
+    - w-dos
+    - iz
+    - gring
+  - id: u27-l1-16
+    type: translate
+    direction: to_target
+    prompt: זה קל
+    answers:
+    - דאָס איז גרינג
+    lexemes: *id002
+  - id: u27-l1-17
+    type: word_bank
+    prompt: זה קל
+    answers:
+    - דאָס איז גרינג
+    distractors:
+    - גליקלעך
+    - ליב
+    lexemes: *id002
+  - id: u27-l1-18
+    type: translate
+    direction: to_source
+    prompt: דאָס איז שווער.
+    answers:
+    - זה קשה
+    lexemes: &id003
+    - w-dos
+    - iz
+    - shver
+  - id: u27-l1-19
+    type: translate
+    direction: to_target
+    prompt: זה קשה
+    answers:
+    - דאָס איז שווער
+    lexemes: *id003
+  - id: u27-l1-20
+    type: word_bank
+    prompt: זה קשה
+    answers:
+    - דאָס איז שווער
+    distractors:
+    - ליב
+    - גליקלעך
+    lexemes: *id003
+  - id: u27-l1-21
+    type: translate
+    direction: to_source
+    prompt: דער שיעור איז אינטערעסאַנט.
+    answers:
+    - השיעור מעניין
+    lexemes: &id004
+    - shiur
+    - iz
+    - interesant
+  - id: u27-l1-22
+    type: translate
+    direction: to_target
+    prompt: השיעור מעניין
+    answers:
+    - דער שיעור איז אינטערעסאַנט
+    lexemes: *id004
+  - id: u27-l1-23
+    type: word_bank
+    prompt: השיעור מעניין
+    answers:
+    - דער שיעור איז אינטערעסאַנט
+    distractors:
+    - גליקלעך
+    - שווער
+    lexemes: *id004
+- id: u27-l2
+  kind: new
+  title:
+    he: שמח כי
+    en: Lesson
+  exercises:
+  - id: u27-l2-01
+    type: learn
+    lexeme: gliklekh
+  - id: u27-l2-02
+    type: dialogue
+    scene: study
+    lines:
+    - speaker: zeyde
+      text: איז דער ספֿר שווער?
+      translation: הספר קשה?
+    - speaker: menachem
+      text: ניין, ער איז אינטערעסאַנט.
+      translation: לא, הוא מעניין.
+  - id: u27-l2-03
+    type: multiple_choice
+    prompt: מה פירוש גליקלעך?
+    options:
+    - שמח
+    - אהוב (ליב האָבן)
+    - קל
+    correct: 0
+    lexemes:
+    - gliklekh
+  - id: u27-l2-04
+    type: translate
+    direction: to_source
+    prompt: איך מיין אַז דער ספֿר איז שווער.
+    answers:
+    - אני חושב שהספר קשה
+    lexemes: &id005
+    - meynen
+    - az
+    - sefer
+    - iz
+    - shver
+  - id: u27-l2-05
+    type: translate
+    direction: to_target
+    prompt: אני חושב שהספר קשה
+    answers:
+    - איך מיין אַז דער ספֿר איז שווער
+    lexemes: *id005
+  - id: u27-l2-06
+    type: word_bank
+    prompt: אני חושב שהספר קשה
+    answers:
+    - איך מיין אַז דער ספֿר איז שווער
+    distractors:
+    - אינטערעסאַנט
+    - שווער
+    lexemes: *id005
+  - id: u27-l2-07
+    type: translate
+    direction: to_source
+    prompt: איך בין גליקלעך, ווײַל איך לערן.
+    answers:
+    - אני שמח כי אני לומד
+    lexemes: &id006
+    - bin
+    - gliklekh
+    - vayl
+    - lernen
+  - id: u27-l2-08
+    type: translate
+    direction: to_target
+    prompt: אני שמח כי אני לומד
+    answers:
+    - איך בין גליקלעך, ווײַל איך לערן
+    lexemes: *id006
+  - id: u27-l2-09
+    type: word_bank
+    prompt: אני שמח כי אני לומד
+    answers:
+    - איך בין גליקלעך, ווײַל איך לערן
+    distractors:
+    - גרינג
+    - ליב
+    lexemes: *id006
+- id: u27-review
+  kind: review
+  title:
+    he: 'חזרה: דעה והרגשה'
+    en: Review
+  exercises:
+  - id: u27-review-01
+    type: match_pairs
+    pairs:
+    - - ליב
+      - אהוב (ליב האָבן)
+    - - גרינג
+      - קל
+    - - שווער
+      - קשה
+    - - אינטערעסאַנט
+      - מעניין
+    - - גליקלעך
+      - שמח
+    lexemes:
+    - lib
+    - gring
+    - shver
+    - interesant
+    - gliklekh
+  - id: u27-review-02
+    type: translate
+    direction: to_source
+    prompt: איך האָב ליב צו לערנען.
+    answers:
+    - אני אוהב ללמוד
+    lexemes: *id001
+  - id: u27-review-03
+    type: translate
+    direction: to_target
+    prompt: אני אוהב ללמוד
+    answers:
+    - איך האָב ליב צו לערנען
+    lexemes: *id001
+  - id: u27-review-04
+    type: word_bank
+    prompt: אני אוהב ללמוד
+    answers:
+    - איך האָב ליב צו לערנען
+    distractors:
+    - אינטערעסאַנט
+    - גרינג
+    lexemes: *id001
+  - id: u27-review-05
+    type: translate
+    direction: to_source
+    prompt: דאָס איז גרינג.
+    answers:
+    - זה קל
+    lexemes: *id002
+  - id: u27-review-06
+    type: translate
+    direction: to_target
+    prompt: זה קל
+    answers:
+    - דאָס איז גרינג
+    lexemes: *id002
+  - id: u27-review-07
+    type: word_bank
+    prompt: זה קל
+    answers:
+    - דאָס איז גרינג
+    distractors:
+    - גליקלעך
+    - ליב
+    lexemes: *id002
+  - id: u27-review-08
+    type: translate
+    direction: to_source
+    prompt: דאָס איז שווער.
+    answers:
+    - זה קשה
+    lexemes: *id003
+  - id: u27-review-09
+    type: translate
+    direction: to_target
+    prompt: זה קשה
+    answers:
+    - דאָס איז שווער
+    lexemes: *id003
+  - id: u27-review-10
+    type: word_bank
+    prompt: זה קשה
+    answers:
+    - דאָס איז שווער
+    distractors:
+    - ליב
+    - גליקלעך
+    lexemes: *id003
+  - id: u27-review-11
+    type: write
+    prompt: 'כתבו 3 משפטים: מה אתם אוהבים ללמוד, ומה קל או קשה לכם, ולמה.'
+    minWords: 14
+    checks:
+    - label: הבעתם דעה
+      any:
+      - ליב
+      - גרינג
+      - שווער
+      - אינטערעסאנט
+      - מ(?:ײ|יי)ן
+    - label: נימקתם עם ווײַל או אַז
+      any:
+      - וויל
+      - וו(?:ײ|יי)ל
+      - אז
+    - label: כתבתם איך
+      any:
+      - איך
+    model: איך האָב ליב צו לערנען. דער ספֿר איז שווער. איך מיין אַז דאָס איז אינטערעסאַנט.
+    lexemes: []

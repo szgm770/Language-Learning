@@ -1,0 +1,521 @@
+id: u26-nekhtn
+cefr: B2
+scene: day
+title:
+  he: מה קרה אתמול
+  en: What happened yesterday
+story: מנחם מספר לסבא מה ראה ושמע אתמול.
+canDo:
+- לספר בעבר על מה שראיתי ושמעתי
+- להשתמש בצורות עבר חדשות
+- לשאול מה קרה
+vocabulary:
+- id: gezen
+  text: געזען
+  translation: ראה (עבר)
+  pos: verb
+- id: gehert
+  text: געהערט
+  translation: שמע (עבר)
+  pos: verb
+- id: gekoyft
+  text: געקויפֿט
+  translation: קנה (עבר)
+  pos: verb
+- id: geshribn
+  text: געשריבן
+  translation: כתב (עבר)
+  pos: verb
+- id: gelayent
+  text: געלייענט
+  translation: קרא (עבר)
+  pos: verb
+- id: briv
+  text: בריוו
+  translation: מכתב
+  pos: noun
+lessons:
+- id: u26-l1
+  kind: new
+  title:
+    he: לספר בעבר
+    en: Lesson
+  exercises:
+  - id: u26-l1-01
+    type: tip
+    title: סיפור בעבר
+    text: 'העבר נבנה עם **האָב** ושם פועל בעבר: **איך האָב געזען**, **איך האָב געהערט**, **איך האָב געשריבן**.
+
+      הצורה מתחילה ב־**ge**.
+
+      '
+  - id: u26-l1-02
+    type: learn
+    lexeme: gezen
+  - id: u26-l1-03
+    type: learn
+    lexeme: gehert
+  - id: u26-l1-04
+    type: learn
+    lexeme: gekoyft
+  - id: u26-l1-05
+    type: learn
+    lexeme: geshribn
+  - id: u26-l1-06
+    type: learn
+    lexeme: gelayent
+  - id: u26-l1-07
+    type: learn
+    lexeme: briv
+  - id: u26-l1-08
+    type: match_pairs
+    pairs:
+    - - געזען
+      - ראה (עבר)
+    - - געהערט
+      - שמע (עבר)
+    - - געקויפֿט
+      - קנה (עבר)
+    - - געשריבן
+      - כתב (עבר)
+    - - געלייענט
+      - קרא (עבר)
+    - - בריוו
+      - מכתב
+    lexemes:
+    - gezen
+    - gehert
+    - gekoyft
+    - geshribn
+    - gelayent
+    - briv
+  - id: u26-l1-09
+    type: multiple_choice
+    prompt: מה פירוש געזען?
+    options:
+    - ראה (עבר)
+    - שמע (עבר)
+    - קנה (עבר)
+    correct: 0
+    lexemes:
+    - gezen
+  - id: u26-l1-10
+    type: multiple_choice
+    prompt: מה פירוש געהערט?
+    options:
+    - שמע (עבר)
+    - ראה (עבר)
+    - קנה (עבר)
+    correct: 0
+    lexemes:
+    - gehert
+  - id: u26-l1-11
+    type: multiple_choice
+    prompt: מה פירוש געקויפֿט?
+    options:
+    - קנה (עבר)
+    - ראה (עבר)
+    - שמע (עבר)
+    correct: 0
+    lexemes:
+    - gekoyft
+  - id: u26-l1-12
+    type: multiple_choice
+    prompt: מה פירוש געשריבן?
+    options:
+    - כתב (עבר)
+    - ראה (עבר)
+    - שמע (עבר)
+    correct: 0
+    lexemes:
+    - geshribn
+  - id: u26-l1-13
+    type: multiple_choice
+    prompt: מה פירוש געלייענט?
+    options:
+    - קרא (עבר)
+    - ראה (עבר)
+    - שמע (עבר)
+    correct: 0
+    lexemes:
+    - gelayent
+  - id: u26-l1-14
+    type: translate
+    direction: to_source
+    prompt: נעכטן האָב איך געזען דעם רבי.
+    answers:
+    - אתמול ראיתי את הרבי
+    lexemes: &id001
+    - nekhtn
+    - hobn
+    - gezen
+    - rebe
+  - id: u26-l1-15
+    type: translate
+    direction: to_target
+    prompt: אתמול ראיתי את הרבי
+    answers:
+    - נעכטן האָב איך געזען דעם רבי
+    lexemes: *id001
+  - id: u26-l1-16
+    type: word_bank
+    prompt: אתמול ראיתי את הרבי
+    answers:
+    - נעכטן האָב איך געזען דעם רבי
+    distractors:
+    - בריוו
+    - געקויפֿט
+    lexemes: *id001
+  - id: u26-l1-17
+    type: fill_blank
+    sentence: נעכטן האָב איך ___ דעם רבי.
+    translation: אתמול ראיתי את הרבי
+    answers:
+    - געזען
+    options:
+    - געזען
+    - געשריבן
+    - בריוו
+    lexemes: *id001
+  - id: u26-l1-18
+    type: translate
+    direction: to_source
+    prompt: מיר האָבן געהערט אַ ניגון.
+    answers:
+    - שמענו ניגון
+    lexemes: &id002
+    - mir
+    - hobn
+    - gehert
+    - nigun
+  - id: u26-l1-19
+    type: translate
+    direction: to_target
+    prompt: שמענו ניגון
+    answers:
+    - מיר האָבן געהערט אַ ניגון
+    lexemes: *id002
+  - id: u26-l1-20
+    type: word_bank
+    prompt: שמענו ניגון
+    answers:
+    - מיר האָבן געהערט אַ ניגון
+    distractors:
+    - געזען
+    - געקויפֿט
+    lexemes: *id002
+  - id: u26-l1-21
+    type: fill_blank
+    sentence: מיר האָבן ___ אַ ניגון.
+    translation: שמענו ניגון
+    answers:
+    - געהערט
+    options:
+    - געהערט
+    - געשריבן
+    - געלייענט
+    lexemes: *id002
+  - id: u26-l1-22
+    type: translate
+    direction: to_source
+    prompt: איך האָב געקויפֿט אַ בוך.
+    answers:
+    - קניתי ספר
+    lexemes: &id003
+    - hobn
+    - gekoyft
+    - bukh
+  - id: u26-l1-23
+    type: translate
+    direction: to_target
+    prompt: קניתי ספר
+    answers:
+    - איך האָב געקויפֿט אַ בוך
+    lexemes: *id003
+  - id: u26-l1-24
+    type: word_bank
+    prompt: קניתי ספר
+    answers:
+    - איך האָב געקויפֿט אַ בוך
+    distractors:
+    - געשריבן
+    - בריוו
+    lexemes: *id003
+  - id: u26-l1-25
+    type: fill_blank
+    sentence: איך האָב ___ אַ בוך.
+    translation: קניתי ספר
+    answers:
+    - געקויפֿט
+    options:
+    - געקויפֿט
+    - געזען
+    - געהערט
+    lexemes: *id003
+  - id: u26-l1-26
+    type: translate
+    direction: to_source
+    prompt: זי האָט געשריבן אַ בריוו.
+    answers:
+    - היא כתבה מכתב
+    lexemes: &id004
+    - zi
+    - hobn
+    - geshribn
+    - briv
+  - id: u26-l1-27
+    type: translate
+    direction: to_target
+    prompt: היא כתבה מכתב
+    answers:
+    - זי האָט געשריבן אַ בריוו
+    lexemes: *id004
+  - id: u26-l1-28
+    type: word_bank
+    prompt: היא כתבה מכתב
+    answers:
+    - זי האָט געשריבן אַ בריוו
+    distractors:
+    - געזען
+    - געלייענט
+    lexemes: *id004
+  - id: u26-l1-29
+    type: fill_blank
+    sentence: זי האָט ___ אַ בריוו.
+    translation: היא כתבה מכתב
+    answers:
+    - געשריבן
+    options:
+    - געשריבן
+    - געקויפֿט
+    - געלייענט
+    lexemes: *id004
+- id: u26-l2
+  kind: new
+  title:
+    he: מה קרה
+    en: Lesson
+  exercises:
+  - id: u26-l2-01
+    type: learn
+    lexeme: briv
+  - id: u26-l2-02
+    type: dialogue
+    scene: home
+    lines:
+    - speaker: zeyde
+      text: וואָס האָסטו נעכטן געזען?
+      translation: מה ראית אתמול?
+    - speaker: menachem
+      text: איך האָב געזען דעם רבי.
+      translation: ראיתי את הרבי.
+  - id: u26-l2-03
+    type: multiple_choice
+    prompt: מה פירוש בריוו?
+    options:
+    - מכתב
+    - ראה (עבר)
+    - שמע (עבר)
+    correct: 0
+    lexemes:
+    - briv
+  - id: u26-l2-04
+    type: translate
+    direction: to_source
+    prompt: ער האָט געלייענט אַ ספֿר.
+    answers:
+    - הוא קרא ספר
+    lexemes: &id005
+    - er
+    - hobn
+    - gelayent
+    - sefer
+  - id: u26-l2-05
+    type: translate
+    direction: to_target
+    prompt: הוא קרא ספר
+    answers:
+    - ער האָט געלייענט אַ ספֿר
+    lexemes: *id005
+  - id: u26-l2-06
+    type: word_bank
+    prompt: הוא קרא ספר
+    answers:
+    - ער האָט געלייענט אַ ספֿר
+    distractors:
+    - געשריבן
+    - געזען
+    lexemes: *id005
+  - id: u26-l2-07
+    type: fill_blank
+    sentence: ער האָט ___ אַ ספֿר.
+    translation: הוא קרא ספר
+    answers:
+    - געלייענט
+    options:
+    - געלייענט
+    - געזען
+    - געקויפֿט
+    lexemes: *id005
+  - id: u26-l2-08
+    type: translate
+    direction: to_source
+    prompt: הײַנט האָב איך געלערנט אין שול.
+    answers:
+    - היום למדתי בבית הכנסת
+    lexemes: &id006
+    - haynt
+    - hobn
+    - gelernt
+    - shul
+  - id: u26-l2-09
+    type: translate
+    direction: to_target
+    prompt: היום למדתי בבית הכנסת
+    answers:
+    - הײַנט האָב איך געלערנט אין שול
+    lexemes: *id006
+  - id: u26-l2-10
+    type: word_bank
+    prompt: היום למדתי בבית הכנסת
+    answers:
+    - הײַנט האָב איך געלערנט אין שול
+    distractors:
+    - געהערט
+    - געקויפֿט
+    lexemes: *id006
+  - id: u26-l2-11
+    type: fill_blank
+    sentence: הײַנט האָב איך ___ אין שול.
+    translation: היום למדתי בבית הכנסת
+    answers:
+    - געלערנט
+    options:
+    - געלערנט
+    - געזען
+    - געלייענט
+    lexemes: *id006
+- id: u26-review
+  kind: review
+  title:
+    he: 'חזרה: מה קרה אתמול'
+    en: Review
+  exercises:
+  - id: u26-review-01
+    type: match_pairs
+    pairs:
+    - - געזען
+      - ראה (עבר)
+    - - געהערט
+      - שמע (עבר)
+    - - געקויפֿט
+      - קנה (עבר)
+    - - געשריבן
+      - כתב (עבר)
+    - - געלייענט
+      - קרא (עבר)
+    - - בריוו
+      - מכתב
+    lexemes:
+    - gezen
+    - gehert
+    - gekoyft
+    - geshribn
+    - gelayent
+    - briv
+  - id: u26-review-02
+    type: translate
+    direction: to_source
+    prompt: נעכטן האָב איך געזען דעם רבי.
+    answers:
+    - אתמול ראיתי את הרבי
+    lexemes: *id001
+  - id: u26-review-03
+    type: translate
+    direction: to_target
+    prompt: אתמול ראיתי את הרבי
+    answers:
+    - נעכטן האָב איך געזען דעם רבי
+    lexemes: *id001
+  - id: u26-review-04
+    type: word_bank
+    prompt: אתמול ראיתי את הרבי
+    answers:
+    - נעכטן האָב איך געזען דעם רבי
+    distractors:
+    - בריוו
+    - געקויפֿט
+    lexemes: *id001
+  - id: u26-review-05
+    type: translate
+    direction: to_source
+    prompt: מיר האָבן געהערט אַ ניגון.
+    answers:
+    - שמענו ניגון
+    lexemes: *id002
+  - id: u26-review-06
+    type: translate
+    direction: to_target
+    prompt: שמענו ניגון
+    answers:
+    - מיר האָבן געהערט אַ ניגון
+    lexemes: *id002
+  - id: u26-review-07
+    type: word_bank
+    prompt: שמענו ניגון
+    answers:
+    - מיר האָבן געהערט אַ ניגון
+    distractors:
+    - געזען
+    - געקויפֿט
+    lexemes: *id002
+  - id: u26-review-08
+    type: translate
+    direction: to_source
+    prompt: איך האָב געקויפֿט אַ בוך.
+    answers:
+    - קניתי ספר
+    lexemes: *id003
+  - id: u26-review-09
+    type: translate
+    direction: to_target
+    prompt: קניתי ספר
+    answers:
+    - איך האָב געקויפֿט אַ בוך
+    lexemes: *id003
+  - id: u26-review-10
+    type: word_bank
+    prompt: קניתי ספר
+    answers:
+    - איך האָב געקויפֿט אַ בוך
+    distractors:
+    - געשריבן
+    - בריוו
+    lexemes: *id003
+  - id: u26-review-11
+    type: write
+    prompt: כתבו 3 משפטים על מה שעשיתם אתמול. השתמשו ב־האָב ובפועל בעבר.
+    minWords: 12
+    checks:
+    - label: השתמשתם ב־האָב
+      any:
+      - האב
+      - האט
+      - האבן
+    - label: השתמשתם בפועל בעבר
+      any:
+      - געזען
+      - געהערט
+      - געקויפט
+      - געשריבן
+      - געל(?:ײ|יי)ענט
+      - געלערנט
+      - געגעסן
+      - געדאוונט
+    - label: הזכרתם נעכטן או היום
+      any:
+      - נעכטן
+      - ה(?:ײ|יי)נט
+      - ה(?:ײ|יי)נט
+    model: נעכטן האָב איך געלערנט אין שול. איך האָב געלייענט אַ ספֿר. איך האָב געהערט אַ ניגון.
+    lexemes: []
